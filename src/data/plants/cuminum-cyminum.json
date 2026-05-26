@@ -1,0 +1,380 @@
+{
+  "slug": "cuminum-cyminum",
+  "names": {
+    "de": "Kreuzkümmel",
+    "en": "Cumin",
+    "latin": "Cuminum cyminum"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Kreuzkümmel, auch Kumin oder Cumin und Römischer Kümmel, ist eine Pflanzenart aus der Gattung Cuminum innerhalb der Familie der Doldenblütler (Apiaceae). Die getrockneten Früchte werden als Gewürz genutzt. Die Bezeichnung „Kreuzkümmel“ leitet sich aus der kreuzförmigen Blattstellung sowie dem kümmelähnlichen Aussehen der getrockneten Früchte ab.",
+    "en": "Cumin is a flowering plant in the family Apiaceae, native to the Irano-Turanian Region. Its seeds – each one contained within a fruit, which is dried – are used in the cuisines of many cultures in both whole and ground form. Although cumin is used in traditional medicine, there is no high-quality evidence that it is safe or effective as a therapeutic agent."
+  },
+  "teaser": {
+    "de": "Kreuzkümmel, auch Kumin oder Cumin und Römischer Kümmel, ist eine Pflanzenart aus der Gattung Cuminum innerhalb der F...",
+    "en": "Cumin is a flowering plant in the family Apiaceae, native to the Irano-Turanian Region."
+  },
+  "uses": [
+    {
+      "form": "spice",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Getrocknete Kreuzkümmelsamen sind eines der ältesten Küchengewürze der Welt. Der charakteristische intensive Geruch stammt von Cuminaldehyd. Kreuzkümmel wirkt karminativ und spasmolytisch und wird in der ayurvedischen Medizin zur Förderung der Verdauung (Agni-Stärkung) eingesetzt. Anröstenin der Pfanne intensiviert das Aroma durch Bildung von Pyrazinen.",
+        "en": "Dried cumin seeds are one of the oldest culinary spices in the world. The characteristic intense smell comes from cuminaldehyde. Cumin acts carminatively and antispasmodically and is used in Ayurvedic medicine to promote digestion (strengthening Agni). Toasting in a pan intensifies the aroma through formation of pyrazines."
+      },
+      "source_ids": [
+        "src_wp_de_kreuzkuemmel",
+        "src_wp_en_cumin",
+        "src_pfaf_cumin"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der ayurvedischen und persischen Volksmedizin wird ein Aufguss aus gequetschten Kreuzkümmelsamen (Jeera-Wasser) bei Blähungen, Verdauungsbeschwerden, Übelkeit und Koliken eingesetzt. Die Wirksamkeit basiert auf dem ätherischen Öl, das beim Zerstoßen der Samen freigesetzt wird.",
+        "en": "In Ayurvedic and Persian folk medicine, an infusion of crushed cumin seeds (jeera water) is used for flatulence, digestive complaints, nausea and colic. Efficacy is based on the essential oil released when the seeds are crushed."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "Samen leicht quetschen, mit 200 ml heißem Wasser übergießen, 10 min ziehen lassen, abseihen.",
+          "en": "Lightly crush seeds, pour over 200 ml hot water, steep 10 minutes, strain."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_cumin",
+        "src_sciencedirect_cumin"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "menstrual"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der ayurvedischen Tradition und in der iranischen Volksmedizin werden Kreuzkümmelsamen bei Dysmenorrhoe (schmerzhafter Menstruation) eingesetzt. Präklinische Daten deuten auf uterusrelaxierende und analgetische Eigenschaften hin; klinische Studien sind begrenzt.",
+        "en": "In Ayurvedic tradition and Iranian folk medicine, cumin seeds are used for dysmenorrhoea (painful menstruation). Preclinical data suggest uterine-relaxing and analgesic properties; clinical studies are limited."
+      },
+      "source_ids": [
+        "src_pfaf_cumin",
+        "src_sciencedirect_cumin"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In verschiedenen traditionellen Kulturen gilt Kreuzkümmel als Galaktagogum (milchfördernde Pflanze). Ein Aufguss aus Kreuzkümmelsamen wird stillenden Müttern gegeben. Die Datenlage ist begrenzt; eine kleine klinische Pilotstudie fand positive Effekte auf Stillindikatoren.",
+        "en": "In various traditional cultures, cumin is regarded as a galactagogue (lactation-promoting plant). A cumin seed infusion is given to nursing mothers. Evidence is limited; a small clinical pilot study found positive effects on breastfeeding indicators."
+      },
+      "source_ids": [
+        "src_pfaf_cumin",
+        "src_pmc_cumin_lactation"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Das ätherische Öl aus Kreuzkümmelsamen zeigt in vitro antibakterielle und antifungale Aktivität. Äußerlich stark verdünnt (1–2 % in Trägeröl) volksmedizinisch bei Hautinfektionen eingesetzt. Nicht unverdünnt anwenden – Reizpotenzial.",
+        "en": "The essential oil from cumin seeds shows antibacterial and antifungal activity in vitro. Used externally, well diluted (1–2 % in carrier oil), in folk medicine for skin infections. Do not apply undiluted – irritation potential."
+      },
+      "source_ids": [
+        "src_sciencedirect_cumin"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "liver",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Bis ins Mittelalter in Europa hauptsächlich als Heilgewürz geschätzt; in der Ayurveda-Tradition werden Kreuzkümmelsamen zur Leber- und Gallenunterstützung sowie als Stimulans für den gesamten Verdauungstrakt eingesetzt. In Westeuropa wurde die Pflanze weitgehend durch Kümmel (Carum carvi) ersetzt.",
+        "en": "Until the Middle Ages, valued mainly as a medicinal spice in Europe; in the Ayurvedic tradition, cumin seeds are used to support the liver and gallbladder and as a stimulant for the entire digestive tract. In Western Europe the plant was largely replaced by caraway (Carum carvi)."
+      },
+      "source_ids": [
+        "src_wp_de_kreuzkuemmel",
+        "src_pfaf_cumin"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "reife Früchte",
+      "en": "ripe fruits"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Kreuzkümmel als Küchengewürz ist in üblichen Mengen unbedenklich. Das ätherische Öl kann bei empfindlichen Personen Hautreizungen verursachen (nicht unverdünnt verwenden). Nicht mit Echtem Kümmel (Carum carvi) verwechseln. Kreuzkümmelsamen können den Blutzucker senken – bei diabetischer Medikation auf Wechselwirkungen achten.",
+      "en": "Cumin as a culinary spice is safe in normal amounts. The essential oil can cause skin irritation in sensitive individuals (do not apply undiluted). Do not confuse with caraway (Carum carvi). Cumin seeds may lower blood sugar – monitor for interactions with antidiabetic medication."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Als Küchengewürz in üblichen Mengen unbedenklich. Therapeutische Dosen und das ätherische Öl in der Schwangerschaft meiden – traditionell wird starker Kreuzkümmeltee als uterusstimulierend beschrieben.",
+        "en": "Safe as a culinary herb in normal amounts. Avoid therapeutic doses and the essential oil during pregnancy – traditionally strong cumin tea is described as uterine-stimulating."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Traditionell als Galaktagogum eingesetzt; als Küchengewürz unbedenklich.",
+        "en": "Traditionally used as a galactagogue; safe as a culinary spice."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Als Küchengewürz in kindgerechten Mengen unbedenklich. Das ätherische Öl nicht bei Kleinkinder anwenden.",
+        "en": "Safe as a culinary herb in child-appropriate amounts. Do not use the essential oil in young children."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Allergie gegen Kreuzkümmelsamen oder andere Apiaceae.",
+        "en": "Known allergy to cumin seeds or other Apiaceae."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antidiabetika / Blutzuckersenker",
+        "mechanism": {
+          "de": "Kreuzkümmelsamen können den Blutzucker senken und die Wirkung blutzuckersenkender Medikamente verstärken.",
+          "en": "Cumin seeds may lower blood sugar and enhance the effect of antidiabetic medications."
+        },
+        "severity": "monitor",
+        "source_id": "src_pfaf_cumin"
+      },
+      {
+        "drug_class": "Barbiturate",
+        "mechanism": {
+          "de": "Kreuzkümmel soll die Wirkung von Barbituraten verstärken können (PFAF-Angabe, klinische Belege fehlen).",
+          "en": "Cumin may potentiate the effect of barbiturates (PFAF reference; clinical evidence lacking)."
+        },
+        "severity": "monitor",
+        "source_id": "src_pfaf_cumin"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Kreuzkümmel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Kreuzk%C3%BCmmel",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Cumin (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Cumin",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wp_de_kreuzkuemmel",
+      "type": "wikipedia",
+      "title": "Kreuzkümmel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Kreuzk%C3%BCmmel",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wp_en_cumin",
+      "type": "wikipedia",
+      "title": "Cumin (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Cumin",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_cumin",
+      "type": "monograph",
+      "title": "Cuminum cyminum – PFAF Plant Database",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Cuminum+cyminum",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_sciencedirect_cumin",
+      "type": "monograph",
+      "title": "Chemical composition, biological activities, uses, nutritional and mineral contents of cumin (Cuminum cyminum) — Food Chemistry Advances 2024",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772275924000248",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_cumin_lactation",
+      "type": "monograph",
+      "title": "Comparison of the Effect of Cumin Cyminum and Nettle Oral Drops on Breast Milk Sufficiency Indicators. PMC 2024",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11139373/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wd_cuminum",
+      "type": "wikidata",
+      "title": "Cuminum cyminum (Wikidata Q132624)",
+      "url": "https://www.wikidata.org/wiki/Q132624",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "cuminum-cyminum.jpg",
+    "alt": {
+      "de": "Foto von Kreuzkümmel",
+      "en": "Photo of Cumin"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cuminum_cyminum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-198.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Cuminaldehyd (4-Isopropylbenzaldehyd)",
+      "category": "essential_oil",
+      "percent_range": "ca. 20–64 % im ätherischen Öl",
+      "plant_part": "seed",
+      "note": {
+        "de": "Leitmolekül des Kreuzkümmels; verantwortlich für das charakteristische warme, würzige Aroma. Antimikrobiell, antientzündlich und in präklinischen Studien analgetisch.",
+        "en": "Lead molecule of cumin; responsible for the characteristic warm, spicy aroma. Antimicrobial, anti-inflammatory and analgesic in preclinical studies."
+      }
+    },
+    {
+      "name": "p-Cymol (p-Cymene)",
+      "category": "essential_oil",
+      "percent_range": "ca. 12–18 % im ätherischen Öl",
+      "plant_part": "seed",
+      "note": {
+        "de": "Aromatischer Kohlenwasserstoff; antimikrobiell und antifungal; Vorläufer von Cuminaldehyd in der Biosynthese.",
+        "en": "Aromatic hydrocarbon; antimicrobial and antifungal; biosynthetic precursor of cuminaldehyde."
+      }
+    },
+    {
+      "name": "gamma-Terpinen",
+      "category": "essential_oil",
+      "percent_range": "ca. 6–27 % im ätherischen Öl",
+      "plant_part": "seed",
+      "note": {
+        "de": "Monoterpen; antioxidative Eigenschaften; prägt den erdigen, warmen Charakter des Kreuzkümmels.",
+        "en": "Monoterpene; antioxidant properties; contributes to the earthy, warm character of cumin."
+      }
+    },
+    {
+      "name": "beta-Pinen",
+      "category": "essential_oil",
+      "percent_range": "ca. 6 % im ätherischen Öl",
+      "plant_part": "seed",
+      "note": {
+        "de": "Bicyclisches Monoterpen; antibakteriell, leicht expektorierend.",
+        "en": "Bicyclic monoterpene; antibacterial, mildly expectorant."
+      }
+    },
+    {
+      "name": "Ölsäure / Linolsäure (fettes Öl)",
+      "category": "other",
+      "percent_range": "ca. 2–18 % fettes Öl im Samen",
+      "plant_part": "seed",
+      "note": {
+        "de": "Hauptfettsäuren im fetten Samenöl; Ölsäure dominiert, begleitet von Palmitinsäure und Linolsäure.",
+        "en": "Main fatty acids in the fixed seed oil; oleic acid dominates, accompanied by palmitic and linoleic acid."
+      }
+    },
+    {
+      "name": "Flavonoide (u. a. Apigenin, Luteolin)",
+      "category": "flavonoid",
+      "percent_range": "nachgewiesen, gering",
+      "plant_part": "seed",
+      "note": {
+        "de": "Polyphenolische Verbindungen mit antioxidativer und antientzündlicher Wirkung; in Kreuzkümmelsamen nachgewiesen.",
+        "en": "Polyphenolic compounds with antioxidant and anti-inflammatory activity; detected in cumin seeds."
+      }
+    },
+    {
+      "name": "Eisen",
+      "category": "mineral",
+      "percent_range": "ca. 66 mg/100 g Trockensamen",
+      "plant_part": "seed",
+      "note": {
+        "de": "Kreuzkümmel ist einer der eisenreichsten Gewürze; ernährungsphysiologisch relevant bei regelmäßigem Einsatz als Gewürz.",
+        "en": "Cumin is one of the richest spice sources of iron; nutritionally relevant with regular use as a spice."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "seed",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Morgens ernten, wenn die Stiele noch leicht feucht sind – so fallen die reifen Samen beim Schneiden weniger leicht ab. Ernte, wenn die Dolden von Grün auf Hellgelb bis Braun umschlagen.",
+        "en": "Harvest in the morning when stalks are still slightly damp – ripe seeds fall less easily then. Harvest when umbels turn from green to light yellow to brown."
+      },
+      "drying": {
+        "de": "Ganze Dolden kopfüber in Papiertüten hängen lassen und 1–2 Wochen nachtrocknen; Samen dann ausschütteln und in luftdichtem Glas kühl und dunkel lagern. Haltbarkeit als ganze Samen bis 3 Jahre; gemahlen rasch verbrauchen (ca. 6 Monate).",
+        "en": "Hang whole umbels upside down in paper bags to dry for 1–2 weeks; shake out seeds and store in an airtight jar, cool and dark. Whole seeds keep up to 3 years; ground, use quickly (ca. 6 months)."
+      },
+      "storage_months": 36
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Junge Triebe und Blätter können in der Vegetationsperiode geerntet werden – gelegentlich in der Küche als Garnierung oder in Salaten verwendet, allerdings selten gebräuchlich.",
+        "en": "Young shoots and leaves can be harvested during the growing season – occasionally used in the kitchen as garnish or in salads, though rarely used."
+      },
+      "drying": {
+        "de": "Frisch verwenden; Trocknung verringert das Aroma erheblich.",
+        "en": "Use fresh; drying considerably reduces aroma."
+      }
+    }
+  ]
+}

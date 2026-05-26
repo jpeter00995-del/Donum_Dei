@@ -1,0 +1,139 @@
+{
+  "slug": "lactuca-sativa-crispa",
+  "names": {
+    "de": "Schnittsalat",
+    "en": "Lettuce",
+    "latin": "Lactuca sativa var. crispa"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Schnittsalat, Pflücksalat oder Blattsalat ist eine Sorte des Gartensalats, ein Blattgemüse, das in frischem Zustand unerhitzt gegessen wird. Botanisch werden die Salatpflanzen in hauptsächlich zwei Gruppen unterschieden: die Lattich- und die Zichoriengruppe; Ausnahmen sind Feldsalat und Rucola, die zu anderen Pflanzenfamilien gehören. Anders als Kopfsalat bildet der Schnittsalat keine „Köpfe“, sondern die Blätter werden nach und nach von außen nach innen geerntet.",
+    "en": "Lettuce is an annual plant of the family Asteraceae mostly grown as a leaf vegetable. The leaves are most often used raw in green salads, although lettuce is also seen in other kinds of food, such as sandwiches, wraps and soups; it can also be grilled. Its stem and seeds are sometimes used; celtuce is one variety grown for its stems, which are eaten either raw or cooked."
+  },
+  "teaser": {
+    "de": "Schnittsalat, Pflücksalat oder Blattsalat ist eine Sorte des Gartensalats, ein Blattgemüse, das in frischem Zustand u...",
+    "en": "Lettuce is an annual plant of the family Asteraceae mostly grown as a leaf vegetable."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "In der Küche wird Schnittsalat wie Kopfsalat frisch mit verschiedenen kalten Saucen und Kräutern als Blattsalat angemacht. Salate werden z.&nbsp;B. in der französischen und italienischen Küche auch als Gemüsebeilage zu Fleisch- oder Fischgerichten oder als Teil der Vorspeise gebraten oder geschmort. Oriental Greens werden in Asien für den Wok kurz in der Pfanne angegart.",
+        "en": "As described around 50 AD, lettuce leaves were often cooked and served by the Romans with an oil-and-vinegar dressing; however, smaller leaves were sometimes eaten raw. During the 81–96 AD reign of Domitian, the tradition of serving a lettuce salad before a meal began. Post-Roman Europe continued the tradition of poaching lettuce, mainly with large romaine types, as well as the method of pouring a hot oil and vinegar mixture over the leaves."
+      },
+      "source_ids": [
+        "src_1",
+        "src_2"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "einzelne Blätter (cut-and-come-again)",
+      "en": "individual leaves (cut-and-come-again)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Cut-and-come-again-Methode: aussere Blätter ernten, Pflanze wächst nach.",
+      "en": "Cut-and-come-again method: harvest outer leaves, plant regrows."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Schnittsalat (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schnittsalat",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Lettuce (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Lettuce",
+      "accessed": "2026-05-17"
+    }
+  ],
+  "image": {
+    "filename": "lactuca-sativa-crispa.jpg",
+    "alt": {
+      "de": "Foto von Schnittsalat",
+      "en": "Photo of Lettuce"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Photograph:  Frank C. Müller, Baden-Baden",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Salat_Lollo_Bionda_(fcm).jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 4,
+        "end_month": 9
+      },
+      "indoor": {
+        "start_month": 2,
+        "end_month": 3
+      }
+    },
+    "harvest_window": {
+      "start_month": 5,
+      "end_month": 10
+    },
+    "days_to_harvest": 45,
+    "spacing_cm": 20,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-cepa",
+      "brassica-oleracea-capitata-alba",
+      "brassica-oleracea-gongylodes",
+      "daucus-carota-sativus",
+      "fragaria-vesca",
+      "raphanus-sativus-sativus"
+    ],
+    "bad_partners": [],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "vertical_low",
+    "ground_cover"
+  ]
+}

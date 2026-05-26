@@ -1,0 +1,542 @@
+{
+  "slug": "urtica-dioica",
+  "names": {
+    "de": "Große Brennnessel",
+    "en": "Urtica dioica",
+    "latin": "Urtica dioica"
+  },
+  "family": {
+    "de": "Brennnesselgewächse",
+    "en": "Nettle family",
+    "latin": "Urticaceae"
+  },
+  "description": {
+    "de": "Die Große Brennnessel ist eine Pflanzenart aus der Gattung der Brennnesseln (Urtica) innerhalb der Familie der Brennnesselgewächse (Urticaceae).",
+    "en": "Urtica dioica, often known as common nettle, burn nettle, stinging nettle, nettle leaf, or just a nettle or stinger, is a herbaceous perennial flowering plant in the family Urticaceae. Originally native to Europe, much of temperate Asia and western North Africa, it is now found worldwide."
+  },
+  "teaser": {
+    "de": "Die Große Brennnessel ist eine Pflanzenart aus der Gattung der Brennnesseln (Urtica) innerhalb der Familie der Brennn...",
+    "en": "Urtica dioica, often known as common nettle, burn nettle, stinging nettle, nettle leaf, or just a nettle or stinger, ..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "joints",
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 4,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "FRÜHJAHRSKUR / DURCHSPÜLUNGSTEE: 2–4 g geschnittene getrocknete Brennnesselblätter mit ~200 ml siedendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen. 3–6× täglich frisch trinken (Tagesdosis 8–12 g). WICHTIG: zusätzlich reichlich Wasser trinken (insgesamt ≥ 2 L/Tag) — der Tee wirkt nur in Kombination mit hoher Flüssigkeitszufuhr.",
+          "en": "SPRING CURE / FLUSHING TEA: 2–4 g cut dried nettle leaves + ~200 ml boiling water, steep 10 min, strain. 3–6× daily (8–12 g/day). Drink plenty of additional water (≥ 2 L/day)."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA nicht für Kinder unter 12 Jahren.",
+          "en": "Per EMA, not for children under 12 years."
+        }
+      },
+      "description": {
+        "de": "Klassischer Brennnesselblätter-Tee bei leichten rheumatischen Gelenkbeschwerden und zur Durchspülungstherapie bei leichten Harnwegsbeschwerden.",
+        "en": "Classic nettle leaf tea for mild rheumatic joint complaints and flushing therapy."
+      },
+      "source_ids": [
+        "src_ema_urticae_folium"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 4,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "DURCHSPÜLUNGSTEE: 1,5 g geschnittenes Brennnesselkraut mit 150 ml siedendem Wasser übergießen, 10 Minuten ziehen, abseihen. 3–4× täglich frisch zubereitet. WICHTIG: ≥ 2 L Wasser/Tag zusätzlich.",
+          "en": "FLUSHING TEA: 1.5 g nettle herb + 150 ml boiling water, steep 10 min, strain. 3–4× daily. Drink ≥ 2 L additional water/day."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Brennnesselkraut-Tee bei Harnwegsbeschwerden laut EMA nicht für Personen unter 18 Jahren.",
+          "en": "Nettle herb tea per EMA not for under 18 years."
+        }
+      },
+      "description": {
+        "de": "Brennnesselkraut-Tee als Begleitmaßnahme bei leichten Harnwegsbeschwerden — wirkt durchspülend.",
+        "en": "Nettle herb tea as adjuvant for mild urinary complaints."
+      },
+      "source_ids": [
+        "src_ema_urticae_herba"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "joints"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 6
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "RHEUMATEE: 3–6 g geschnittenes Brennnesselkraut mit 200 ml siedendem Wasser übergießen, 10 Minuten ziehen, abseihen. 3× täglich (Tagesdosis 9–18 g). Klassische Frühjahrskur. Bei Beschwerden über 4 Wochen oder Gelenkschwellung/Rötung/Fieber: Arzt.",
+          "en": "RHEUMATIC TEA: 3–6 g + 200 ml boiling water, steep 10 min. 3× daily (9–18 g/day)."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Bei Gelenkbeschwerden nicht für Personen unter 18 Jahren.",
+          "en": "For joint complaints not for under 18 years."
+        }
+      },
+      "description": {
+        "de": "Frühjahrskur bei leichten rheumatischen Gelenkschmerzen.",
+        "en": "Spring cure for mild rheumatic joint pain."
+      },
+      "source_ids": [
+        "src_ema_urticae_herba"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "urinary",
+        "joints"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 10,
+          "max": 15
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "FRISCHPFLANZENSAFT (Frühjahrskur): 10–15 ml Pressaft 3× täglich vor den Mahlzeiten. Pur oder in Wasser verdünnt. Reichlich Wasser zusätzlich. 2–4 Wochen, dann pausieren.",
+          "en": "FRESH PLANT JUICE: 10–15 ml expressed juice 3× daily before meals. Drink plenty of water. 2–4 weeks, then break."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Pressaft laut EMA nicht für Kinder unter 12 Jahren.",
+          "en": "Expressed juice per EMA not for under 12 years."
+        }
+      },
+      "description": {
+        "de": "Frischpflanzensaft — konzentrierteste Form der klassischen Frühjahrskur.",
+        "en": "Fresh plant juice — most concentrated form of the classic spring cure."
+      },
+      "source_ids": [
+        "src_ema_urticae_herba"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "BRENNNESSELWURZEL-TEE (bei BPH): 2 g geschnittene Brennnesselwurzel mit 150 ml siedendem Wasser übergießen, 10 Minuten ziehen, abseihen. 2–3× täglich. Bei gutartiger Prostatavergrößerung — nur, nachdem ein Arzt ernsthafte Erkrankungen ausgeschlossen hat. Langzeitanwendung möglich, regelmäßige ärztliche Kontrollen.",
+          "en": "NETTLE ROOT TEA (BPH): 2 g + 150 ml boiling water, steep 10 min. 2–3× daily. Only after medical exclusion of serious conditions."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Indikation BPH betrifft nur ältere Männer.",
+          "en": "BPH indication only concerns older men."
+        }
+      },
+      "description": {
+        "de": "Brennnesselwurzel-Tee bei BPH-Symptomen — wirkt anders als das Kraut (Lignane statt Spülwirkung).",
+        "en": "Nettle root tea for BPH — different mechanism (lignans rather than flushing)."
+      },
+      "source_ids": [
+        "src_ema_urticae_radix"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "JUNGE BRENNNESSEL ALS WILDGEMÜSE: Junge Triebspitzen (max 20 cm) im Frühjahr mit Handschuhen ernten, kurz mit kochendem Wasser überbrühen oder mit dem Nudelholz walken — dadurch Brennhärchen zerstören. Wie Spinat dünsten (3–5 Min), in Suppen, als Wildkräuter-Pesto. Sehr hoher Gehalt an Eisen, Vitamin C, Calcium und Eiweiß.",
+          "en": "YOUNG NETTLES AS WILD VEGETABLE: Harvest with gloves, blanch or roll to destroy stinging hairs. Steam like spinach. Very high iron, vitamin C, calcium, protein."
+        }
+      },
+      "description": {
+        "de": "Junge Brennnesseltriebe als traditionelles Frühjahrs-Wildgemüse mit hohem Nährstoffgehalt.",
+        "en": "Young nettle shoots as traditional spring wild vegetable."
+      },
+      "source_ids": [
+        "src_1"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "junge Blätter",
+      "en": "young leaves"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bei Anwendung als Durchspülungstherapie MUSS reichlich Flüssigkeit (≥ 2 L Wasser/Tag) zusätzlich getrunken werden. Nicht anwenden bei Ödemen infolge Herz-/Nierenerkrankung. Bei Fieber, Blut im Urin, Krämpfen sofort Arzt. VORSICHT FRISCHPFLANZE: Brennhärchen enthalten Histamin, Acetylcholin, Serotonin, Ameisensäure — schmerzhafte Quaddeln bei Hautkontakt. Handschuhe beim Ernten. Vor dem Verzehr roher Pflanzenteile durch Blanchieren oder Walken Brennhärchen zerstören.",
+      "en": "Flushing therapy requires ≥ 2 L additional water/day. Not in oedema from cardiac/renal disease. Fresh plant stinging hairs contain histamine — wear gloves."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Laut EMA-Monographien Sicherheit in Schwangerschaft nicht belegt.",
+        "en": "Per EMA, safety in pregnancy not established."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Stillzeit.",
+        "en": "Insufficient data for breastfeeding."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Blatt-Tee nicht unter 12 Jahren, Kraut-Tee/Wurzel nicht unter 18 Jahren.",
+        "en": "Leaf tea not under 12, herb tea/root not under 18."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Diuretika / blutdrucksenkende Medikamente",
+        "mechanism": {
+          "de": "Bei gleichzeitiger Einnahme von Diuretika oder blutdrucksenkenden Medikamenten könnte ein additiver Effekt entstehen. Vor Anwendung mit Arzt sprechen.",
+          "en": "Potential additive effect with diuretics or antihypertensives."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Antikoagulanzien (Vitamin-K-Antagonisten)",
+        "mechanism": {
+          "de": "Brennnessel enthält Vitamin K — kann die gerinnungshemmende Wirkung von Warfarin/Marcumar abschwächen. Vor regelmäßiger Anwendung mit Arzt absprechen.",
+          "en": "Nettle contains vitamin K — may weaken anticoagulant effect of warfarin/Marcumar."
+        },
+        "severity": "caution"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegenüber Brennnesseln oder anderen Urticaceae.",
+        "en": "Hypersensitivity to Urticaceae."
+      },
+      {
+        "de": "Ödeme bei Herz-/Niereninsuffizienz — keine Durchspülungstherapie.",
+        "en": "Oedema from cardiac/renal insufficiency — no flushing therapy."
+      },
+      {
+        "de": "Kinder unter 12 Jahren (Blatt) bzw. 18 Jahren (Kraut, Wurzel).",
+        "en": "Children under 12 (leaf) or 18 (herb, root)."
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Große Brennnessel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gro%C3%9Fe_Brennnessel",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Urtica dioica (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Urtica_dioica",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_urticae_folium",
+      "type": "monograph",
+      "title": "EMA/HMPC/508015/2007 — Community herbal monograph on Urtica dioica L.; Urtica urens L., folium (Final, 14 January 2010)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/urticae-folium",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_urticae_herba",
+      "type": "monograph",
+      "title": "EMA/HMPC/261302/2022 — European Union herbal monograph on Urtica dioica L.; Urtica urens L., herba (Final, Revision 1, 22 January 2025)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/urticae-herba",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_urticae_radix",
+      "type": "monograph",
+      "title": "EMA/HMPC/322646/2023 — European Union herbal monograph on Urtica dioica L.; Urtica urens L., radix (Final, Revision 1, 22 January 2025)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/urticae-radix",
+      "accessed": "2026-05-18"
+    }
+  ],
+  "image": {
+    "filename": "urtica-dioica.jpg",
+    "alt": {
+      "de": "Foto von Große Brennnessel",
+      "en": "Photo of Urtica dioica"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brennnessel.jpg"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "matricaria-chamomilla",
+      "mentha-piperita"
+    ],
+    "bad_partners": [],
+    "reasons": {
+      "matricaria-chamomilla": {
+        "de": "Brennnessel-Jauche stärkt Kamille und viele andere Kräuter.",
+        "en": "Nettle slurry strengthens chamomile and many other herbs."
+      }
+    },
+    "notes_de": "matricaria-chamomilla: Brennnessel-Jauche stärkt Kamille und viele Kräuter.",
+    "notes_en": "matricaria-chamomilla: Nettle slurry strengthens chamomile and many herbs.",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 3,
+        "end_month": 5
+      },
+      "transplant": {
+        "start_month": 4,
+        "end_month": 5
+      }
+    },
+    "harvest_window": {
+      "start_month": 4,
+      "end_month": 9
+    },
+    "days_to_harvest": 60,
+    "spacing_cm": 30,
+    "garden_type": [
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "dynamic_accumulator",
+    "pollinator_attractor",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Flavonoide (Quercetin- und Kaempferol-Glykoside, Rutin, Isoquercitrin)",
+      "category": "flavonoid",
+      "percent_range": "0,7–1,8 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Wichtigste Wirkstoffgruppe der Blätter. Tragen zur entzündungshemmenden und harntreibenden Wirkung bei.",
+        "en": "Most important active group in leaves."
+      }
+    },
+    {
+      "name": "Kaffeoyl-Äpfelsäure und Chlorogensäure (Phenolcarbonsäuren)",
+      "category": "phenolic_acid",
+      "percent_range": "1–2 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Antioxidativ und entzündungshemmend.",
+        "en": "Antioxidant and anti-inflammatory."
+      }
+    },
+    {
+      "name": "Mineralstoffe (Kalium, Calcium, Eisen, Silicium)",
+      "category": "mineral",
+      "percent_range": "bis 20 % Asche",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Außergewöhnlich hoher Gehalt an Eisen und Calcium — Grundlage der traditionellen Frühjahrskur.",
+        "en": "Exceptionally high iron and calcium content."
+      }
+    },
+    {
+      "name": "Vitamine (C, Provitamin A, K, B-Vitamine)",
+      "category": "vitamin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Junge Blätter enthalten mehr Vitamin C als Zitrusfrüchte. Hoher Vitamin-K-Gehalt — relevant für Marcumar-Wechselwirkung.",
+        "en": "Young leaves contain more vitamin C than citrus fruits."
+      }
+    },
+    {
+      "name": "Histamin, Acetylcholin, Serotonin, Ameisensäure (Brennhärchen)",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Cocktail in den Brennhärchen — verursacht die schmerzhaften Quaddeln. Durch Trocknen, Brühen oder Walken zerstört.",
+        "en": "Stinging-hair cocktail — destroyed by drying, blanching, or rolling."
+      }
+    },
+    {
+      "name": "Schleimstoffe (Polysaccharide)",
+      "category": "polysaccharide",
+      "plant_part": "root",
+      "note": {
+        "de": "Wirken immunmodulierend und entzündungshemmend, tragen zur Wirkung bei BPH-Symptomen bei.",
+        "en": "Immunomodulating and anti-inflammatory."
+      }
+    },
+    {
+      "name": "Lignane (Secoisolariciresinol, Pinoresinol)",
+      "category": "phenolic_acid",
+      "plant_part": "root",
+      "note": {
+        "de": "Binden an das sexualhormonbindende Globulin (SHBG) und tragen zur BPH-Wirkung bei.",
+        "en": "Bind to SHBG, contribute to BPH effect."
+      }
+    },
+    {
+      "name": "Phytosterole (β-Sitosterol)",
+      "category": "other",
+      "percent_range": "0,03–0,05 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Schlüsselwirkstoff bei BPH — hemmt entzündliche Prozesse in der Prostata.",
+        "en": "Key BPH compound."
+      }
+    },
+    {
+      "name": "UDA (Urtica dioica Agglutinin, Lektin)",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "Spezifisches Lektin der Brennnesselwurzel — hemmt EGF-Bindung an Prostatazellen.",
+        "en": "Specific nettle root lectin."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "An trockenem Vormittag, sobald der Tau abgetrocknet ist. Ideal vor der Blüte (April bis Juni).",
+        "en": "On a dry morning. Ideally before flowering."
+      },
+      "drying": {
+        "de": "Mit Handschuhen junge Blätter sammeln. Locker im Schatten bei max 40 °C trocknen. Sollten dunkelgrüne Farbe behalten.",
+        "en": "Wear gloves. Dry in shade at max 40 °C."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, lichtgeschützt, luftdicht. Innerhalb 1 Jahr verbrauchen.",
+        "en": "Dry, dark, airtight. Use within 1 year."
+      }
+    },
+    {
+      "plant_part": "root",
+      "best_months": [
+        9,
+        10,
+        11,
+        3
+      ],
+      "time_of_day": {
+        "de": "Spätherbst (September–November) nach Absterben oberirdischer Teile oder Frühjahr (März) vor dem Austrieb.",
+        "en": "Late autumn or early spring."
+      },
+      "drying": {
+        "de": "Mit Grabegabel die kriechenden Rhizome ausgraben. Erde abwaschen. In ~1 cm lange Stücke schneiden, im Schatten oder bei max 45 °C trocknen.",
+        "en": "Dig out rhizomes carefully. Wash, cut into ~1 cm pieces, dry in shade at max 45 °C."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken, lichtgeschützt, luftdicht. Wurzeln halten 2 Jahre.",
+        "en": "Dry, dark, airtight. Roots keep 2 years."
+      }
+    }
+  ]
+}

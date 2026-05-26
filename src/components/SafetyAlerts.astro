@@ -1,0 +1,114 @@
+---
+// === 1. IMPORTS ===
+// Prominente Inline-Warnboxen für kritische Sicherheitsinformationen.
+// Wird BEVOR der Safety-Tab (PlantTabs) gerendert, damit Nutzer nicht
+// erst klicken müssen, um lebenswichtige Hinweise zu sehen.
+// (Codex-Review v1 Empfehlung — Punkt 12: "sichtbare Inline-Warnboxen")
+import { t } from '@/lib/i18n';
+import type { Plant, Locale } from '@/lib/types';
+
+interface Props {
+  plant: Plant;
+  locale: Locale;
+}
+const { plant, locale } = Astro.props;
+
+// === 2. CRITICAL FLAGS ===
+const s = plant.safety;
+const pregnancyContra = s.pregnancy?.status === 'contraindicated';
+const lactationContra = s.lactation?.status === 'contraindicated';
+const childrenContra = s.children?.status === 'contraindicated';
+const externalOnly = s.external_only === true;
+const avoidInteractions = (s.drug_interactions ?? []).filter(d => d.severity === 'avoid');
+
+const alerts: Array<{ icon: string; title: string; body: string; tone: 'red' | 'amber' }> = [];
+
+if (externalOnly) {
+  alerts.push({
+    icon: '⛔',
+    title: t(locale, 'alerts.external_only.title'),
+    body: t(locale, 'alerts.external_only.body'),
+    tone: 'red',
+  });
+}
+if (pregnancyContra) {
+  alerts.push({
+    icon: '🤰',
+    title: t(locale, 'alerts.pregnancy.title'),
+    body: s.pregnancy?.note?.[locale] ?? t(locale, 'alerts.pregnancy.fallback'),
+    tone: 'red',
+  });
+}
+if (lactationContra) {
+  alerts.push({
+    icon: '🍼',
+    title: t(locale, 'alerts.lactation.title'),
+    body: s.lactation?.note?.[locale] ?? t(locale, 'alerts.lactation.fallback'),
+    tone: 'red',
+  });
+}
+if (childrenContra) {
+  alerts.push({
+    icon: '👶',
+    title: t(locale, 'alerts.children.title'),
+    body: s.children?.note?.[locale] ?? t(locale, 'alerts.children.fallback'),
+    tone: 'red',
+  });
+}
+if (avoidInteractions.length > 0) {
+  const drugList = avoidInteractions.map(d => d.drug_class).join(' · ');
+  alerts.push({
+    icon: '💊',
+    title: t(locale, 'alerts.interactions.title'),
+    body: drugList,
+    tone: 'red',
+  });
+}
+
+// === Codex P13: Verwechslungs-Detector (keyword-based) ===
+// Surfaces confusion warnings from warnings text as a dedicated, prominent alert.
+const warningsText = `${s.warnings?.de ?? ''} ${s.warnings?.en ?? ''}`.toLowerCase();
+const CONFUSION_KEYWORDS_DE = ['verwechslung', 'verwechseln', 'doppelgänger', 'maiglöckchen', 'herbstzeitlose', 'aronstab', 'tödlich', 'lebensgefahr', 'lebensgefährlich', 'gefährliche verwechslung'];
+const CONFUSION_KEYWORDS_EN = ['confusion', 'misidentif', 'look-alike', 'lookalike', 'deadly', 'lily of the valley', 'autumn crocus', 'fatal'];
+const hasConfusionRisk =
+  CONFUSION_KEYWORDS_DE.some((k) => warningsText.includes(k)) ||
+  CONFUSION_KEYWORDS_EN.some((k) => warningsText.includes(k));
+
+if (hasConfusionRisk) {
+  // Extract the warning sentence(s) most relevant to confusion.
+  const text = locale === 'de' ? (s.warnings?.de ?? '') : (s.warnings?.en ?? '');
+  // Pull sentences containing trigger keywords.
+  const sentences = text.split(/(?<=[.!?])\s+/);
+  const triggers = locale === 'de' ? CONFUSION_KEYWORDS_DE : CONFUSION_KEYWORDS_EN;
+  const relevant = sentences.filter((s) => triggers.some((k) => s.toLowerCase().includes(k)));
+  const body = relevant.length > 0 ? relevant.join(' ') : text;
+  alerts.unshift({
+    // unshift = top of list — most critical first
+    icon: '⚠️',
+    title: t(locale, 'alerts.confusion.title'),
+    body,
+    tone: 'red',
+  });
+}
+
+const TONE_CLASS: Record<'red' | 'amber', string> = {
+  red: 'bg-red-50 border-red-300 text-red-900',
+  amber: 'bg-amber-50 border-amber-300 text-amber-900',
+};
+---
+
+{alerts.length > 0 && (
+  <section class="mt-4 space-y-2" aria-label="Sicherheitshinweise">
+    {alerts.map(a => (
+      <div class={`rounded-md border-l-4 px-4 py-3 ${TONE_CLASS[a.tone]}`} role="alert">
+        <div class="flex items-start gap-3">
+          <span class="text-xl shrink-0" aria-hidden="true">{a.icon}</span>
+          <div class="text-sm">
+            <p class="font-semibold">{a.title}</p>
+            <p class="mt-1 leading-relaxed">{a.body}</p>
+          </div>
+        </div>
+      </div>
+    ))}
+  </section>
+)}

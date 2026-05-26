@@ -1,0 +1,366 @@
+{
+  "slug": "euphrasia-officinalis",
+  "names": {
+    "de": "Augentrost",
+    "en": "Eyebright",
+    "latin": "Euphrasia officinalis"
+  },
+  "family": {
+    "de": "Sommerwurzgewächse",
+    "en": "Broomrape family",
+    "latin": "Orobanchaceae"
+  },
+  "description": {
+    "de": "Der Augentrost ist eine zierliche, einjährige Wiesenpflanze mit kleinen weißen Lippenblüten, die durch gelbe und violette Zeichnungen wie ein menschliches Auge wirken — daher der Name. Er ist ein Halbparasit auf Wurzeln von Gräsern. Nach der Signaturenlehre des Mittelalters wurde er bei Augenleiden eingesetzt, was sich in der Volksheilkunde bis heute gehalten hat.",
+    "en": "Eyebright is a delicate annual meadow plant with small white labiate flowers whose yellow and violet markings resemble a human eye — hence the name. It is a hemiparasite on grass roots. According to the medieval doctrine of signatures, it was used for eye complaints, a tradition that has persisted in folk medicine to this day."
+  },
+  "teaser": {
+    "de": "Traditioneller Tee und Augenbad bei gereizten Augen.",
+    "en": "Traditional tea and eye-bath for irritated eyes."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Aufguss aus dem blühenden Kraut (1–2 g pro Tasse, 10 min ziehen lassen) bei Katarrhen der oberen Atemwege, Heuschnupfen und Sinusitis. Die adstringierenden Gerbstoffe und Iridoidglykoside wirken schleimhautabdichtend und leicht entzündungshemmend.",
+        "en": "Infusion of the flowering herb (1–2 g per cup, steep 10 min) for catarrh of the upper respiratory tract, hay fever, and sinusitis. Astringent tannins and iridoid glycosides support mucous membrane integrity and mild anti-inflammatory activity."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3
+      },
+      "source_ids": [
+        "src_wp_de_euphrasia",
+        "src_wp_en_euphrasia",
+        "src_pfaf_euphrasia"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "eye"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Abgekühlter, doppelt filtrierter Aufguss als feuchte Kompresse bei leichten, nicht infektiösen Lidreizungen. Nur mit frisch zubereitetem, sterilem Wasser – nicht als Augenbad verwenden (Hygienerisiko). Ersetzt keine augenärztliche Untersuchung.",
+        "en": "Cooled, double-filtered infusion as a moist compress for mild, non-infectious eyelid irritation. Use only with freshly prepared sterile water – do not use as an eyebath (infection risk). Does not replace ophthalmological examination."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Frisch gekochtes, abgekühltes und zweifach durch Kaffeefilter filtriertes Kraut-Aufguss; sauberes Wattepad einweichen, 5–10 min auf geschlossenes Lid legen.",
+        "en": "Freshly brewed, cooled and double-filtered herb infusion; soak a clean cotton pad, apply to closed eyelid for 5–10 min."
+      },
+      "source_ids": [
+        "src_ema_euphrasia",
+        "src_pfaf_euphrasia"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "eye",
+        "respiratory"
+      ],
+      "internal_external": "both",
+      "description": {
+        "de": "Anthroposophische und homöopathische Zubereitungen (Urtinktur in Augensalben, D3-Verdünnung in Augentropfen) werden bei nichteitriger Konjunktivitis und verstärktem Tränenfluss eingesetzt. Solche Fertigarzneimittel unterliegen der pharmazeutischen Qualitätskontrolle.",
+        "en": "Anthroposophic and homeopathic preparations (mother tincture in eye ointments, D3 dilution in eye drops) are used for non-purulent conjunctivitis and increased lacrimation. Such finished medicinal products are subject to pharmaceutical quality control."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_ema_euphrasia",
+        "src_arzneipflanzenlexikon_euphrasia"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat",
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Verdünnter Aufguss als Gurgellösung bei leichten Entzündungen der Mundschleimhaut und des Rachens. Die adstringierenden Phenolsäuren (Kaffeesäure, Ferulasäure) und Tannine wirken mild zusammenziehend.",
+        "en": "Diluted infusion as a gargle for mild inflammation of the oral mucosa and throat. Astringent phenolic acids (caffeic acid, ferulic acid) and tannins exert a mild tightening effect."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Aufguss 1:10 verdünnen, 30 s spülen und ausspucken.",
+        "en": "Dilute infusion 1:10, gargle for 30 s and spit out."
+      },
+      "source_ids": [
+        "src_wp_en_euphrasia",
+        "src_pfaf_euphrasia"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Trockenes, zerkleinertes Kraut wurde historisch in Kräutermischungen zum Rauchen bei chronischen Bronchialleiden verwendet (PFAF). Diese Anwendung ist heute obsolet und wird nicht empfohlen.",
+        "en": "Dried, ground herb was historically used in herbal smoking mixtures for chronic bronchial complaints (PFAF). This application is now obsolete and not recommended."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_pfaf_euphrasia"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "In der Volksmedizin gelegentlich als leicht tonisierender Tee bei Verdauungsbeschwerden eingesetzt. Die Bitterstoffe und Iridoidglykoside (Aucubin, Catalpol) regen die Verdauungsdrüsen an.",
+        "en": "Occasionally used in folk medicine as a mildly tonic tea for digestive complaints. Bitter compounds and iridoid glycosides (aucubin, catalpol) stimulate digestive glands."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_wp_de_euphrasia",
+        "src_pfaf_euphrasia"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bei anhaltenden oder ernsten Augenbeschwerden unbedingt Augenarzt aufsuchen — Augentrost ersetzt keine ärztliche Behandlung. Selbst zubereitete Augenbäder sind hygienisch nicht vertretbar und werden von der EMA HMPC ausdrücklich nicht empfohlen. Nur Kompresse auf geschlossenem Lid mit sterilem Wasser. Fertigarzneimittel (Augentropfen, Salben) bevorzugen.",
+      "en": "For persistent or serious eye complaints, always consult an ophthalmologist — eyebright does not replace medical treatment. Self-prepared eye baths are not hygienically acceptable and are explicitly not recommended by EMA HMPC. Use only a compress on the closed eyelid with sterile water. Prefer finished medicinal products (eye drops, ointments)."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Anwendung in der Schwangerschaft vorhanden; vorsorglich meiden.",
+        "en": "Insufficient data on use during pregnancy; avoid as a precaution."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Anwendung in der Stillzeit vorhanden; vorsorglich meiden.",
+        "en": "Insufficient data on use during lactation; avoid as a precaution."
+      }
+    },
+    "children": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine pädiatrischen Daten; bei Kindern nicht ohne ärztlichen Rat anwenden.",
+        "en": "No paediatric data; do not use in children without medical advice."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Euphrasia-Arten.",
+        "en": "Known hypersensitivity to Euphrasia species."
+      },
+      {
+        "de": "Infektiöse Augenerkrankungen — ausschließlich unter ärztlicher Aufsicht behandeln.",
+        "en": "Infectious eye conditions — treat exclusively under medical supervision."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [
+    {
+      "author": "Künzle",
+      "year": 1911,
+      "license": "PD",
+      "text_de": "Der Augentrost ist die Trostpflanze für schwache und müde Augen.",
+      "text_en": "Eyebright is the comfort-plant for weak and tired eyes.",
+      "work": "Chrut und Uchrut",
+      "chapter": "Augentrost (Euphrasia officinalis)"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Augentrost (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Augentrost_(Gattung)",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Euphrasia (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Euphrasia",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_de_euphrasia",
+      "type": "wikipedia",
+      "title": "Augentrost (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Augentrost_(Gattung)",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_euphrasia",
+      "type": "wikipedia",
+      "title": "Euphrasia (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Euphrasia",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_ema_euphrasia",
+      "type": "monograph",
+      "title": "EMA HMPC: Public Statement on Euphrasia officinalis and Euphrasia rostkoviana, herba (2011)",
+      "url": "https://www.ema.europa.eu/en/documents/public-statement/final-public-statement-euphrasia-officinalis-l-and-euphrasia-rostkoviana-hayne-herba_en.pdf",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_euphrasia",
+      "type": "book",
+      "title": "Plants For A Future — Euphrasia officinalis",
+      "url": "https://www.pfaf.org/user/Plant.aspx?LatinName=Euphrasia+officinalis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_arzneipflanzenlexikon_euphrasia",
+      "type": "monograph",
+      "title": "Arzneipflanzenlexikon — Euphrasia officinalis (medicinal use, dosage, interactions)",
+      "url": "https://arzneipflanzenlexikon.info/en/euphrasia-officinalis.php",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pmc4115993",
+      "type": "monograph",
+      "title": "Assessment of Eyebright (Euphrasia officinalis L.) Extract Activity in Relation to Human Corneal Cells (PMC4115993)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4115993/",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "euphrasia-officinalis.jpg",
+    "alt": {
+      "de": "Kleine weiße Blüten des Augentrosts mit gelben und violetten Zeichnungen",
+      "en": "Small white flowers of eyebright with yellow and violet markings"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Wikimedia Commons contributor",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Augentrost.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Aucubin",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Iridoidglykosid; adstringierend und leicht entzündungshemmend; einer der wichtigsten Wirkstoffe der Gattung Euphrasia.",
+        "en": "Iridoid glycoside; astringent and mildly anti-inflammatory; one of the key active compounds of the genus Euphrasia."
+      }
+    },
+    {
+      "name": "Catalpol",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Iridoidglykosid; kommt zusammen mit Aucubin vor; trägt zu den tonischen und antioxidativen Eigenschaften bei.",
+        "en": "Iridoid glycoside; co-occurs with aucubin; contributes to tonic and antioxidant properties."
+      }
+    },
+    {
+      "name": "Luteolin",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "percent_range": "ca. 0.38 % (Gesamtflavonoide)",
+      "note": {
+        "de": "Flavon mit antioxidativer und antientzündlicher Wirkung; in Euphrasia neben Apigenin und Quercetin nachgewiesen.",
+        "en": "Flavone with antioxidant and anti-inflammatory properties; detected in Euphrasia alongside apigenin and quercetin."
+      }
+    },
+    {
+      "name": "Kaffeesäure (Caffeic acid)",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolcarbonsäure mit antioxidativen Eigenschaften; in Euphrasia officinalis nachgewiesen.",
+        "en": "Phenolic acid with antioxidant properties; detected in Euphrasia officinalis."
+      }
+    },
+    {
+      "name": "Ferulasäure (Ferulic acid)",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolcarbonsäure; in hohen Konzentrationen in E. officinalis gefunden; adstringierend und antioxidativ.",
+        "en": "Phenolic acid; found in high concentrations in E. officinalis; astringent and antioxidant."
+      }
+    },
+    {
+      "name": "Tannine (kondensiert und hydrolysierbar)",
+      "category": "tannin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Gerbstoffe; verantwortlich für die adstringierende Wirkung auf Schleimhäute; trocknen Katarrhe aus.",
+        "en": "Tannins responsible for the astringent action on mucous membranes; help dry up catarrh."
+      }
+    },
+    {
+      "name": "Ätherisches Öl",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Geringe Mengen flüchtiger Öle; tragen zum aromatischen Charakter des Krauts bei.",
+        "en": "Small amounts of volatile oils; contribute to the aromatic character of the herb."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Vormittags nach Abtrocknung des Taus.",
+        "en": "Morning after the dew has dried."
+      },
+      "drying": {
+        "de": "Dünn ausgebreitet bei max. 40 °C trocknen; Stängel, Blätter und Blüten gemeinsam ernten, solange die Blüten frisch sind.",
+        "en": "Spread thinly and dry at max. 40 °C; harvest stems, leaves and flowers together while flowers are fresh."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, lichtgeschützt, in dicht schließenden Behältern.",
+        "en": "Dry, protected from light, in airtight containers."
+      }
+    }
+  ]
+}

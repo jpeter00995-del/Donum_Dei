@@ -1,0 +1,27 @@
+---
+import { t } from '@/lib/i18n';
+import type { PlantSource, Locale } from '@/lib/types';
+
+interface Props {
+  sources: PlantSource[];
+  locale: Locale;
+}
+const { sources, locale } = Astro.props;
+---
+
+<section class="mt-8 pt-6 border-t border-slate-200">
+  <h3 class="text-lg font-serif font-semibold text-slate-900 mb-3">{t(locale, 'detail.sources')}</h3>
+  <ol class="space-y-2 text-sm">
+    {sources.map(s => (
+      <li class="flex gap-2 text-slate-700">
+        <span class="text-slate-400 font-mono">[{s.id}]</span>
+        <span class="flex-1">
+          <a href={s.url} target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:underline">
+            {s.title}
+          </a>
+          <span class="text-slate-500"> — {s.type} — accessed {s.accessed}</span>
+        </span>
+      </li>
+    ))}
+  </ol>
+</section>

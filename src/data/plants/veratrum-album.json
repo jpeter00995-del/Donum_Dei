@@ -1,0 +1,84 @@
+{
+  "slug": "veratrum-album",
+  "names": {
+    "de": "Weißer Germer",
+    "en": "Veratrum album",
+    "latin": "Veratrum album"
+  },
+  "family": {
+    "de": "Germergewächse",
+    "en": "False-hellebore family",
+    "latin": "Melanthiaceae"
+  },
+  "description": {
+    "de": "Der Weiße Germer, auch Weiß-Germer und Weiße Nieswurz genannt, ist eine giftige Pflanzenart aus der Gattung Germer (Veratrum) innerhalb der Familie der Germergewächse (Melanthiaceae).",
+    "en": "Veratrum album, the false helleborine, white hellebore, European white hellebore, or white veratrum is a poisonous plant in the family Melanthiaceae. It is native to Europe and parts of western Asia."
+  },
+  "teaser": {
+    "de": "Der Weiße Germer, auch Weiß-Germer und Weiße Nieswurz genannt, ist eine giftige Pflanzenart aus der Gattung Germer (V...",
+    "en": "Veratrum album, the false helleborine, white hellebore, European white hellebore, or white veratrum is a poisonous pl..."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": [
+        "caution"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
+        "en": "Traditional use — see Wikipedia article and specialist literature."
+      },
+      "source_ids": [
+        "src_1",
+        "src_2"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Wurzel",
+      "en": "root"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "SEHR GIFTIG (Veratrum-Alkaloide) — VERWECHSLUNGSGEFAHR mit GELBEM ENZIAN beim Wurzel-Sammeln für Enzian-Schnaps. Schon Tropfen können Erbrechen und Kreislaufkollaps verursachen. Immer wieder tödliche Vergiftungen in Berg-Regionen. NIEMALS in unbekannten Mengen oder ohne sichere Bestimmung.",
+      "en": "VERY TOXIC (Veratrum alkaloids) — RISK OF CONFUSION with YELLOW GENTIAN when collecting roots for gentian schnapps. Even drops can cause vomiting and circulatory collapse. Regular fatal poisonings in mountain regions. NEVER in unknown amounts or without certain identification."
+    },
+    "external_only": true,
+    "toxicity_level": "toxic",
+    "pet_toxic": false
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Weißer Germer (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Wei%C3%9Fer_Germer",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Veratrum album (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Veratrum_album",
+      "accessed": "2026-05-17"
+    }
+  ],
+  "image": {
+    "filename": "veratrum-album.jpg",
+    "alt": {
+      "de": "Foto von Weißer Germer",
+      "en": "Photo of Veratrum album"
+    },
+    "license": "CC BY 2.5",
+    "author": "User:Tigerente",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Veratrum_album_Dachstein.jpg"
+  }
+}

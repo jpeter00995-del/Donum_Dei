@@ -1,0 +1,19 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PlantDetail from '@/components/PlantDetail.astro';
+import { loadAllPlants } from '@/lib/loadPlants';
+
+export function getStaticPaths() {
+  return loadAllPlants().map(plant => ({
+    params: { slug: plant.slug },
+    props: { plant },
+  }));
+}
+
+const { plant } = Astro.props;
+const locale = 'en' as const;
+---
+
+<BaseLayout locale={locale} title={plant.names[locale]}>
+  <PlantDetail plant={plant} locale={locale} />
+</BaseLayout>

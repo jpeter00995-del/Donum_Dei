@@ -1,0 +1,443 @@
+{
+  "slug": "pinus-sylvestris",
+  "names": {
+    "de": "Waldkiefer",
+    "en": "Pinus sylvestris",
+    "latin": "Pinus sylvestris"
+  },
+  "family": {
+    "de": "Kieferngewächse",
+    "en": "Pine family",
+    "latin": "Pinaceae"
+  },
+  "description": {
+    "de": "Die Waldkiefer, auch Gewöhnliche oder Gemeine Kiefer, Wald-Föhre, Rotföhre, Weißkiefer oder Forche genannt, ist eine Pflanzenart in der Gattung der Kiefern (Pinus) aus der Familie der Kieferngewächse (Pinaceae). Um ihre Zugehörigkeit zur Gattung der Kiefern zu betonen, ist in der Botanik die Bindestrichschreibweise Wald-Kiefer verbreitet.",
+    "en": "Pinus sylvestris is a species of tree in the pine family Pinaceae that is native to Eurasia. It is commonly known as the Scots pine in English; it is also known as the Scotch pine in the United States, and occasionally called the Baltic pine or European red pine. It can readily be identified by its combination of fairly short, blue-green leaves and orange-red bark."
+  },
+  "teaser": {
+    "de": "Die Waldkiefer, auch Gewöhnliche oder Gemeine Kiefer, Wald-Föhre, Rotföhre, Weißkiefer oder Forche genannt, ist eine ...",
+    "en": "Pinus sylvestris is a species of tree in the pine family Pinaceae that is native to Eurasia."
+  },
+  "uses": [
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Inhalation von Kiefernadelöl (Pini aetheroleum) oder einem Aufguss junger Triebe lindert traditionell Katarrhe der oberen und unteren Atemwege. Alpha-Pinen und Bornylacetat wirken sekretolytisch und mild antiseptisch auf die Bronchialschleimhaut.",
+        "en": "Inhalation of pine needle oil (Pini aetheroleum) or an infusion of young shoots traditionally relieves catarrh of the upper and lower respiratory tract. Alpha-pinene and bornyl acetate act as secretolytics and mild antiseptics on the bronchial mucosa."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "de": "2–3 Tropfen ätherisches Kiefernadelöl in heißes Wasser (nicht kochendes Wasser), tief einatmen. Oder: 10–20 g frische Kieferntriebe in 1 Liter heißem Wasser, 5 Min. ziehen lassen, als Dampfinhalation nutzen.",
+        "en": "2–3 drops of pine needle essential oil in hot (not boiling) water, inhale deeply. Or: 10–20 g fresh pine shoots in 1 litre hot water, steep 5 min, use as steam inhalation."
+      },
+      "age_restriction": {
+        "min_age": 2,
+        "note": {
+          "de": "Ätherisches Kiefernadelöl darf bei Kindern unter 2 Jahren nicht im Gesichtsbereich angewendet werden — Gefahr des Glottisspasmus mit Atemstillstand.",
+          "en": "Pine needle essential oil must not be applied near the face of children under 2 years — risk of laryngospasm leading to respiratory arrest."
+        }
+      },
+      "source_ids": [
+        "src_komm_e_pinus",
+        "src_arzneipflanzenlexikon_pinus",
+        "src_altmeyers_pini_turiones"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "respiratory",
+        "joints"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Kiefernnadelölbäder werden traditionell bei Erkältungskrankheiten und rheumatischen Beschwerden eingesetzt. Das ätherische Öl wird über die Haut resorbiert und entfaltet durchblutungsfördernde sowie muskelentspannende Wirkung.",
+        "en": "Pine needle oil baths are traditionally used for colds and rheumatic complaints. The essential oil is absorbed through the skin and exerts circulation-promoting and muscle-relaxing effects."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "de": "10–20 g Kiefernadelextrakt oder 20–50 ml Kiefernnadelöl-Badzusatz auf ein Vollbad (35–38 °C, 15–20 Min.). Nicht bei Kreislaufschwäche, Herzinsuffizienz oder Bluthochdruck.",
+        "en": "10–20 g pine needle extract or 20–50 ml pine needle oil bath additive per full bath (35–38°C, 15–20 min). Not for circulatory weakness, heart failure, or high blood pressure."
+      },
+      "source_ids": [
+        "src_komm_e_pinus",
+        "src_arzneipflanzenlexikon_pinus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Tee aus jungen Kieferntrieben (Pini turiones) wirkt expektorierend und mild antiseptisch. Flavonoide (Quercetin, Kämpferol) und Vitamin C tragen zur immunstärkenden Wirkung bei, die in der Volksmedizin bei Erkältungen und Bronchitis genutzt wird.",
+        "en": "Tea from young pine shoots (Pini turiones) acts as an expectorant and mild antiseptic. Flavonoids (quercetin, kaempferol) and vitamin C contribute to immune-supporting effects, used in folk medicine for colds and bronchitis."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2.0,
+          "max": 3.0
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–3 g getrocknete junge Kieferntriebe mit 250 ml kochendem Wasser übergießen, 10 Min. ziehen lassen, abseihen. 3-mal täglich trinken.",
+          "en": "Pour 250 ml boiling water over 2–3 g dried young pine shoots, steep 10 min, strain. Drink 3 times daily."
+        }
+      },
+      "source_ids": [
+        "src_altmeyers_pini_turiones",
+        "src_violapharm_pinus",
+        "src_permaculture_pinus"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "joints",
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Äußerlich aufgetragenes Kiefernadelöl (in fettem Trägeröl verdünnt) wird traditionell bei leichten Muskel- und Nervenschmerzen sowie rheumatischen Beschwerden eingerieben. Die durchblutungsfördernde Wirkung von Alpha-Pinen unterstützt die lokale Erwärmung.",
+        "en": "Externally applied pine needle oil (diluted in fatty carrier oil) is traditionally rubbed in for mild muscle and nerve pain and rheumatic complaints. The circulation-promoting effect of alpha-pinene supports local warming."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "de": "5–10 % Kiefernadelöl in fettem Trägeröl (z. B. Mandelöl) auf betroffene Stellen einmassieren. Nicht auf geschädigte Haut, Augen oder Schleimhäute.",
+        "en": "5–10% pine needle oil in fatty carrier oil (e.g. almond oil), massage into affected areas. Not on damaged skin, eyes, or mucous membranes."
+      },
+      "source_ids": [
+        "src_komm_e_pinus",
+        "src_arzneipflanzenlexikon_pinus",
+        "src_altmeyers_pini_turiones"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "throat",
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "In der siebenbürgischen Volksmedizin wird Sirup aus frischen Kieferntrieben (Pini turiones) seit Generationen bei Asthma, Husten, Katarrhen und Laryngitis eingesetzt. Die Zubereitung — Triebe mit Wasser aufgekocht, dann mit Zucker im Verhältnis 1:1 eingekocht — entspricht einer schleimhautberuhigenden Hustenmedizin.",
+        "en": "In Transylvanian folk medicine, syrup from fresh pine shoots (Pini turiones) has been used for generations for asthma, coughs, catarrh, and laryngitis. The preparation — shoots boiled with water, then cooked down with sugar in a 1:1 ratio — corresponds to a mucosa-soothing cough remedy."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "1 kg frische Kieferntriebe in 1–1,5 Liter Wasser langsam aufkochen bis die Triebe weich sind, abseihen, mit gleicher Menge Zucker (1:1) einkochen, abfüllen. Lagerung im Kühlschrank.",
+        "en": "1 kg fresh pine shoots in 1–1.5 litres of water, slowly boil until shoots are soft, strain, cook down with equal amount of sugar (1:1), bottle. Store in refrigerator."
+      },
+      "source_ids": [
+        "src_pmc_pinus_ethnomed"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Harzauflagen aus dem Kiefernharz (Resina Pini) werden in der Volksmedizin bei Wunden, Furunkeln und Hautinfektionen eingesetzt. Harzsäuren und Phytoncide wirken antibakteriell und hemmen Schimmelpilze.",
+        "en": "Resin compresses from pine resin (Resina Pini) are used in folk medicine for wounds, furuncles, and skin infections. Resin acids and phytoncides have antibacterial and antifungal effects."
+      },
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Frisches Kiefernharz auf ein Tuch streichen und auf die betroffene Hautstelle auflegen. Alternativ als Salbe in Bienenwachs-Träger.",
+        "en": "Spread fresh pine resin on a cloth and apply to the affected skin area. Alternatively as salve in beeswax base."
+      },
+      "source_ids": [
+        "src_pmc_pinus_ethnomed",
+        "src_permaculture_pinus"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      4,
+      5
+    ],
+    "harvest_part": {
+      "de": "junge Triebe (Frühjahr), Nadeln",
+      "en": "young shoots (spring), needles"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Ätherisches Kiefernadelöl nicht bei Asthma bronchiale oder Keuchhusten anwenden. Nicht in der Nähe von Augen oder Schleimhäuten. Bei Kindern unter 2 Jahren keine Anwendung im Gesichtsbereich — Glottisspasmus-Gefahr mit Atemstillstand. Keine Anwendung auf großflächigen Hautverletzungen, entzündeter Haut, bei Fieber, Herzinsuffizienz oder schwerem Bluthochdruck.",
+      "en": "Do not use pine needle essential oil in bronchial asthma or whooping cough. Keep away from eyes and mucous membranes. Do not apply near the face of children under 2 years — risk of laryngospasm with respiratory arrest. Do not apply to large skin injuries, inflamed skin, in case of fever, heart failure, or severe hypertension."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Innerliche Anwendung von Kieferntrieben in medizinischen Dosen in der Schwangerschaft nicht empfohlen — unzureichende Daten. Äußerliche Anwendung in sehr kleinen Mengen traditional akzeptiert.",
+        "en": "Internal use of pine shoots in medicinal doses not recommended during pregnancy — insufficient data. External use in very small amounts traditionally accepted."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Sicherheitsdaten für die Stillzeit. Äußerliche Anwendung mit Vorsicht.",
+        "en": "No sufficient safety data for breastfeeding. External use with caution."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Ätherisches Kiefernadelöl darf bei Kindern unter 2 Jahren nicht im Nasen-, Mund- oder Halsbereich angewendet werden (Glottisspasmus-Risiko). Für Kinder unter 4 Jahren generell nicht empfohlen.",
+        "en": "Pine needle essential oil must not be applied near the nose, mouth, or throat of children under 2 years (risk of laryngospasm). Not generally recommended for children under 4 years."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Asthma bronchiale und spastische Bronchitis (äußerlich wie innerlich)",
+        "en": "Bronchial asthma and spastic bronchitis (external and internal)"
+      },
+      {
+        "de": "Herzinsuffizienz und schwerer Bluthochdruck (bei Bädern)",
+        "en": "Heart failure and severe hypertension (for baths)"
+      },
+      {
+        "de": "Chronische Glomerulonephritis und schwere Nierenerkrankungen (bei innerlicher Anwendung)",
+        "en": "Chronic glomerulonephritis and severe kidney disease (for internal use)"
+      },
+      {
+        "de": "Großflächige Hautverletzungen, entzündliche Hauterkrankungen (äußerlich)",
+        "en": "Large skin injuries, inflammatory skin diseases (external use)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Keine bekannten Wechselwirkungen dokumentiert",
+        "mechanism": {
+          "de": "Für Pinus-sylvestris-Zubereitungen sind bislang keine klinisch relevanten Arzneimittelwechselwirkungen beschrieben.",
+          "en": "No clinically relevant drug interactions have been described for Pinus sylvestris preparations to date."
+        },
+        "severity": "monitor",
+        "source_id": "src_arzneipflanzenlexikon_pinus"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Waldkiefer (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Waldkiefer",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Pinus sylvestris (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Pinus_sylvestris",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_komm_e_pinus",
+      "type": "monograph",
+      "title": "Kommission E Monographie Pini sylvestris aetheroleum / Pini turiones — Bundesanzeiger",
+      "url": "https://www.heilpflanzen-welt.de/buecher/BGA-Kommission-E-Monographien/kiefernnadeloel.htm",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_arzneipflanzenlexikon_pinus",
+      "type": "monograph",
+      "title": "Arzneipflanzenlexikon — Pine (Pinus sylvestris): medicinal use, indications, dosage, safety",
+      "url": "https://arzneipflanzenlexikon.info/en/pine.php",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_altmeyers_pini_turiones",
+      "type": "monograph",
+      "title": "Altmeyers Enzyklopädie — Pini turiones: phytotherapy profile, Commission E, indications",
+      "url": "https://www.altmeyers.org/en/naturopathy/pini-turiones-143717",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_pinus_ethnomed",
+      "type": "monograph",
+      "title": "The Importance of Pine Species in the Ethnomedicine of Transylvania (PMC9506106)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9506106/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_violapharm_pinus",
+      "type": "monograph",
+      "title": "Pine Buds: Medicinal Properties, Use and Contraindications — Violapharm",
+      "url": "https://violapharm.com/en/pine-buds-medicinal-properties/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_permaculture_pinus",
+      "type": "monograph",
+      "title": "Scots Pine (Pinus sylvestris): How to Grow Your Own Medicine — Permaculture",
+      "url": "https://www.permaculture.co.uk/articles/scots-pine-pinus-sylvestris-how-to-grow-your-own-medicine/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wikipedia_de_pinus",
+      "type": "wikipedia",
+      "title": "Waldkiefer (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Waldkiefer",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wikipedia_en_pinus",
+      "type": "wikipedia",
+      "title": "Pinus sylvestris (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Pinus_sylvestris",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "pinus-sylvestris.jpg",
+    "alt": {
+      "de": "Foto von Waldkiefer",
+      "en": "Photo of Pinus sylvestris"
+    },
+    "license": "Public domain",
+    "author": "floranet|]]",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Pinus_sylvestris0_new.jpg"
+  },
+  "constituents": [
+    {
+      "name": "α-Pinen (alpha-Pinen)",
+      "category": "essential_oil",
+      "percent_range": "20-40 % (ätherisches Nadelöl)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hauptbestandteil des ätherischen Öls der Nadeln und Triebe; bronchosekretolytisch und antibakteriell im Labor.",
+        "en": "Main constituent of the essential oil from needles and shoots; bronchosecretolytic and antibacterial in laboratory studies."
+      }
+    },
+    {
+      "name": "β-Pinen (beta-Pinen)",
+      "category": "essential_oil",
+      "percent_range": "2-15 % (ätherisches Nadelöl)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Monoterpen mit antimikrobieller Aktivität; kommt neben Alpha-Pinen als zweithäufigster Monoterpenkohlenwasserstoff vor.",
+        "en": "Monoterpene with antimicrobial activity; second most frequent monoterpene hydrocarbon after alpha-pinene."
+      }
+    },
+    {
+      "name": "Bornylacetat",
+      "category": "essential_oil",
+      "percent_range": "2-8 % (ätherisches Nadelöl)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Oxygeniertes Monoterpen; trägt zum charakteristischen Nadelduft bei und wirkt mild sekretolytisch und durchblutungsfördernd.",
+        "en": "Oxygenated monoterpene; contributes to the characteristic needle scent and acts mildly secretolytic and circulation-promoting."
+      }
+    },
+    {
+      "name": "Δ3-Caren, Limonen, Camphen",
+      "category": "essential_oil",
+      "percent_range": "5-20 % (Summe, ätherisches Nadelöl)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Weitere Monoterpenkohlenwasserstoffe im ätherischen Öl der Kiefernadeln und Triebe; zu Begleitstoffprofil und Gesamtaroma beitragend.",
+        "en": "Further monoterpene hydrocarbons in the essential oil of pine needles and shoots; contributing to the minor compound profile and overall aroma."
+      }
+    },
+    {
+      "name": "Quercetin und Kämpferol (Flavonoide)",
+      "category": "flavonoid",
+      "percent_range": "Spuren bis 0,5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavonoide mit antioxidativer und entzündungshemmender Wirkung; tragen zur kapillarabdichtenden Wirkung bei.",
+        "en": "Flavonoids with antioxidant and anti-inflammatory activity; contribute to capillary-sealing effects."
+      }
+    },
+    {
+      "name": "Harzsäuren (Abietinsäure, Pimarsäure)",
+      "category": "other",
+      "percent_range": "1-5 % (Harz)",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Diterpensäuren im Kiefernharz; antibakteriell und antifungal. Grundlage der volksmedizinischen Wundanwendung von Kiefernharz.",
+        "en": "Diterpene acids in pine resin; antibacterial and antifungal. Basis of the folk medicinal use of pine resin for wounds."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "percent_range": "bis 20 mg % (Frischgewicht Nadeln)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Relativ hoher Ascorbinsäuregehalt in frischen Kiefernadeln — historisch als Antiskorbut-Mittel in Nordeuropa und Kanada genutzt.",
+        "en": "Relatively high ascorbic acid content in fresh pine needles — historically used as an antiscorbutic remedy in Northern Europe and Canada."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        3,
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Morgens, wenn die Triebe noch frisch und harzreich sind; vor dem Aufheizen durch Mittagssonne.",
+        "en": "Morning, when shoots are still fresh and resin-rich; before midday sun heating."
+      },
+      "drying": {
+        "de": "Junge Triebe (Pini turiones) frisch verwenden oder bei max. 35 °C schonend trocknen; zu hohe Trockentemperatur lässt ätherisches Öl entweichen.",
+        "en": "Young shoots (Pini turiones) use fresh or dry gently at max. 35°C; excessive drying temperature causes essential oil to evaporate."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknete Triebe in dunklen, luftdichten Glasgefäßen, kühl und trocken. Frische Triebe maximal 1 Woche im Kühlschrank.",
+        "en": "Dried shoots in dark, airtight glass containers, cool and dry. Fresh shoots up to 1 week in refrigerator."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "time_of_day": {
+        "de": "Kiefernadeln ganzjährig sammelbar; Herbst und Winter für Teedestillate bevorzugt, da Ölgehalt dann konstant.",
+        "en": "Pine needles collectible year-round; autumn and winter preferred for tea distillates as oil content is then consistent."
+      },
+      "drying": {
+        "de": "Nadeln von den Zweigen abstreifen, bei Raumtemperatur lufttrocknen oder frisch für Dampfinhalation verwenden.",
+        "en": "Strip needles from branches, air-dry at room temperature or use fresh for steam inhalation."
+      },
+      "storage_months": 18,
+      "storage_condition": {
+        "de": "Getrocknete Nadeln in Papier- oder Leinensäcken, kühl, trocken und dunkel.",
+        "en": "Dried needles in paper or linen bags, cool, dry, and dark."
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PlantQuiz from '@/components/PlantQuiz.tsx';
+import { loadAllPlants } from '@/lib/loadPlants';
+
+const plants = loadAllPlants();
+const locale = 'de' as const;
+---
+
+<BaseLayout locale={locale} title="Pflanzen-Quiz">
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <h1 class="text-3xl font-serif font-bold text-slate-900 mb-2">Pflanzen-Quiz</h1>
+    <p class="text-slate-600 mb-6">Welche Pflanze ist auf dem Foto zu sehen? Score wird lokal gespeichert.</p>
+    <PlantQuiz client:only="react" plants={plants} locale={locale} />
+  </div>
+</BaseLayout>

@@ -1,0 +1,621 @@
+{
+  "slug": "sambucus-nigra",
+  "names": {
+    "de": "Schwarzer Holunder",
+    "en": "Sambucus nigra",
+    "latin": "Sambucus nigra"
+  },
+  "family": {
+    "de": "Moschuskrautgewächse",
+    "en": "Moschatel family",
+    "latin": "Adoxaceae"
+  },
+  "description": {
+    "de": "Der Schwarze Holunder ist ein Strauch oder kleiner Baum aus der Gattung Holunder (Sambucus), der im größten Teil Europas natürlich vorkommt. Für den Schwarzen Holunder gibt es im deutschen u. a.",
+    "en": "Sambucus nigra is a species complex of flowering plants in the family Viburnaceae native to most of Europe. Common names include elder, elderberry, black elder, European elder,  European elderberry, and European black elderberry. It grows in a variety of conditions including both wet and dry fertile soils, primarily in sunny locations."
+  },
+  "teaser": {
+    "de": "Der Schwarze Holunder ist ein Strauch oder kleiner Baum aus der Gattung Holunder (Sambucus), der im größten Teil Euro...",
+    "en": "Sambucus nigra is a species complex of flowering plants in the family Viburnaceae native to most of Europe."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "fever",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 3
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "SCHWITZTEE (Diaphoretikum): 1,5–3 g getrocknete Holunderblüten (~1 gehäufter TL) mit 150 ml siedendem Wasser übergießen, zugedeckt 5–10 Minuten ziehen lassen, abseihen. 2–3× täglich möglichst HEISS trinken — abends am wirkungsvollsten, anschließend warm zudecken und ausschwitzen. Unterstützend bei fieberhaften Erkältungen (Rhinitis, Grippe), um die Schweißproduktion zu fördern. Anwendungsdauer laut EMA maximal 1 Woche; bei Fieber über 39 °C, Atemnot, eitrigem Auswurf oder Symptomen länger als 7 Tage sofort Arzt aufsuchen. Laut EMA-Monographie (traditional use, Revision 2018) bei Erkältungssymptomen mit Fieber und Schnupfen anerkannt.",
+          "en": "DIAPHORETIC TEA: 1.5–3 g dried elder flowers in 150 ml boiling water, covered, steep 5–10 min, strain. 2–3× daily as HOT as tolerable — most effective in the evening; wrap up warm afterwards. Supports perspiration during feverish colds (rhinitis, flu). Max 1 week per EMA monograph (traditional use, revision 2018). Seek medical attention for fever above 39 °C, dyspnoea, purulent sputum, or symptoms lasting more than 7 days."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA nur ab 12 Jahren. Für Kinder unter 12 Jahren keine ausreichenden Sicherheitsdaten.",
+          "en": "Per EMA, only from 12 years. Insufficient safety data for children under 12."
+        }
+      },
+      "description": {
+        "de": "Tradierter Schwitztee aus Holunderblüten bei fieberhaftem Erkältungsinfekt — schweißtreibende (diaphoretische) Wirkung, durch EMA als traditional use anerkannt.",
+        "en": "Traditional diaphoretic flower tea for feverish colds — perspiration-promoting use recognised by EMA as traditional use."
+      },
+      "source_ids": [
+        "src_ema_sambuci_flos_enriched",
+        "src_escop_sambuci_flos",
+        "src_kommission_e_sambuci_flos"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "throat",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "ERKÄLTUNGSTEE (Kommission E): 3–5 g Holunderblüten mit 250 ml heißem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen. Tagesdosis 10–15 g Droge. 2–3 Tassen täglich heiß trinken bei beginnenden Erkältungen, Katarrhen der oberen Atemwege und Bronchitis. Kombination mit anderen schleimlösenden oder schweißtreibenden Kräutern (z. B. Lindenblüten, Thymian) volksmedizinisch üblich. Anwendung max. 1 Woche.",
+          "en": "COLD TEA (Kommission E): 3–5 g elder flowers in 250 ml hot water, covered, steep 10 min, strain. Daily dose 10–15 g. 2–3 hot cups daily for early colds, catarrhs of the upper respiratory tract, and bronchitis. Often blended with linden flowers or thyme. Max 1 week."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut Kommission E und EMA ab 12 Jahren. Vor dem 12. Lebensjahr: ärztliche Rücksprache.",
+          "en": "Per Kommission E and EMA from 12 years. Under 12: consult doctor."
+        }
+      },
+      "description": {
+        "de": "Erkältungstee aus Holunderblüten bei Katarrhen der oberen Atemwege und Bronchitis — Kommission-E-Monographie (positiv, 1992): schweißtreibend und schleimhautreizlindernd.",
+        "en": "Elder flower cold tea for catarrhs of the upper respiratory tract and bronchitis — Kommission E positive monograph (1992): diaphoretic and mucous membrane soothing."
+      },
+      "source_ids": [
+        "src_kommission_e_sambuci_flos",
+        "src_ema_sambuci_flos_enriched",
+        "src_escop_sambuci_flos"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat",
+        "mouth"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "GURGELLÖSUNG: 2–3 g getrocknete Holunderblüten mit 150–200 ml siedendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen und auf handwarme Temperatur (~40 °C) abkühlen lassen. 2–3× täglich gründlich 30–60 Sekunden gurgeln (nicht schlucken) und Mundhöhle spülen bei Halsentzündung, Heiserkeit und Entzündungen der Mundschleimhaut. Volksmedizinisch auch als Waschung bei entzündeter Augenbindehaut verwendet (1–2× täglich, Kompressen).",
+          "en": "GARGLE: 2–3 g dried elder flowers in 150–200 ml boiling water, covered, steep 10 min, strain, cool to hand-warm (~40 °C). Gargle thoroughly 30–60 seconds 2–3× daily (do not swallow) for sore throat, hoarseness, and oral mucous membrane inflammation. Folk use also as a wash for conjunctivitis (compresses, 1–2× daily)."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Ab 12 Jahren. Kleine Kinder können nicht sicher gurgeln.",
+          "en": "From 12 years. Young children cannot gargle safely."
+        }
+      },
+      "description": {
+        "de": "Holunderblüten-Gurgellösung bei Halsschmerzen und Heiserkeit — mild entzündungshemmend und schleimhautberuhigend.",
+        "en": "Elder flower gargle for sore throat and hoarseness — mildly anti-inflammatory and mucous membrane soothing."
+      },
+      "source_ids": [
+        "src_ema_sambuci_flos_enriched",
+        "src_escop_sambuci_flos"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "respiratory",
+        "immune",
+        "fever"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 2,
+          "max": 4
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "HOLUNDERBLÜTENTINKTUR (Droge-Auszug-Verhältnis 1:5 in 25 % Ethanol): 2–4 ml (~40–80 Tropfen) 3× täglich in einem Glas warmem Wasser (oder Kräutertee) verdünnt, einnehmen. Volksheilkundliche Alternative zum Tee, wenn keine Zubereitungsmöglichkeit vorhanden; Wirkung ähnlich diaphoretisch. Ethanolgehalt beachten — nicht für Kinder, Schwangere, Alkohol- oder Lebererkrankte. Bei über 7 Tagen anhaltenden Symptomen Arzt aufsuchen.",
+          "en": "ELDER FLOWER TINCTURE (DER 1:5 in 25 % ethanol): 2–4 ml (~40–80 drops) 3× daily diluted in a glass of warm water or herbal tea. Folk alternative to the tea when preparation is inconvenient; similarly diaphoretic. Note ethanol content — avoid in children, pregnancy, alcohol or liver disease. Consult doctor if symptoms persist beyond 7 days."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Wegen Ethanolgehalt nur für Erwachsene. Kinder und Jugendliche unter 18 Jahren: Tee bevorzugen.",
+          "en": "Due to ethanol content adults only. Children and adolescents under 18: prefer the tea preparation."
+        }
+      },
+      "description": {
+        "de": "Holunderblütentinktur als praktische Alternative zum Schwitztee bei Erkältungsinfekten — diaphoretisch, volksheilkundlich üblich.",
+        "en": "Elder flower tincture as a convenient alternative to the sweating tea for colds — diaphoretic, established in folk medicine."
+      },
+      "source_ids": [
+        "src_escop_sambuci_flos",
+        "src_wichtl_teedrogen",
+        "src_pfaf_sambucus_nigra"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "HOLUNDERBEEREN-SIRUP (Sambucus-Sirup / Hollersirup): Nur vollreife, tiefschwarze Beeren (September–Oktober, NIEMALS roh) verwenden. 500 g entstielte und gewaschene Beeren mit 250 ml Wasser aufkochen und 15–20 Minuten köcheln (zerstört Sambunigrin), durch ein Sieb passieren und ausdrücken. Saft mit 300–400 g Zucker und optional Gewürzen (Zimtstange, Nelken, Zitronenschale) erneut aufkochen, in sterile Flaschen abfüllen. 1–2 EL täglich pur oder verdünnt in heißem Wasser. Volksmedizinisch zur unterstützenden Behandlung von Erkältungen, als Immunstärkung und bei Heiserkeit eingesetzt. Rohe Beeren sind GIFTIG — ausreichendes Erhitzen zwingend!",
+          "en": "ELDERBERRY SYRUP: Use only fully ripe, deep black berries (September–October, NEVER raw). Simmer 500 g de-stemmed, washed berries in 250 ml water 15–20 minutes (destroys sambunigrin), press through sieve. Boil juice with 300–400 g sugar and optional spices (cinnamon, cloves, lemon peel), bottle in sterile jars. 1–2 tbsp daily neat or diluted in hot water. Folk use: supportive in colds, immune support, hoarseness. Raw berries are TOXIC — thorough cooking mandatory!"
+        }
+      },
+      "description": {
+        "de": "Holunderbeeren-Sirup aus gut durchgekochten reifen Beeren — volksmedizinisches Hausmittel bei Erkältungen und zur Immununterstützung. Rohe Beeren giftig.",
+        "en": "Elderberry syrup from thoroughly cooked ripe berries — traditional household remedy for colds and immune support. Raw berries toxic."
+      },
+      "source_ids": [
+        "src_pfaf_sambucus_nigra",
+        "src_wp_de_sambucus",
+        "src_wp_en_sambucus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "immune",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 300,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "BEERENABKOCHUNG (Dekokt): 5–10 g getrocknete Holunderbeeren mit 300 ml Wasser kalt ansetzen, aufkochen und 15–20 Minuten leise köcheln (Dekokt — Kochen ist Pflicht, um Sambunigrin zu inaktivieren), abseihen. 1–2 Tassen täglich, nach Belieben mit Honig gesüßt. Volksmedizinisch bei Erkältungen, Halsschmerzen und als Immunstärkung im Winter. Anthocyane bleiben auch im Kochvorgang weitgehend erhalten.",
+          "en": "BERRY DECOCTION: 5–10 g dried elderberries in 300 ml cold water, bring to boil and simmer 15–20 minutes (decoction mandatory — boiling inactivates sambunigrin), strain. 1–2 cups daily, sweeten with honey if desired. Folk use in colds, sore throat, winter immune support. Anthocyanins are largely retained during cooking."
+        }
+      },
+      "description": {
+        "de": "Holunderbeeren-Dekokt als einfaches Volksrezept bei Erkältungen — Anthocyane und Flavonoide erhalten; Sambunigrin durch Kochen inaktiviert.",
+        "en": "Elderberry decoction as a simple folk remedy for colds — anthocyanins and flavonoids retained; sambunigrin inactivated by boiling."
+      },
+      "source_ids": [
+        "src_pfaf_sambucus_nigra",
+        "src_escop_sambuci_flos",
+        "src_wp_de_sambucus"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "skin",
+        "respiratory",
+        "joints"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 50,
+          "max": 100
+        },
+        "water_ml": 2000,
+        "steep_min": 15,
+        "doses_per_day": 1,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "HOLUNDERBLÜTENBAD: 50–100 g getrocknete Holunderblüten mit 2 Litern kochendem Wasser übergießen, 15 Minuten ziehen lassen, abseihen und dem Vollbad (37–38 °C, nicht heißer) beigeben. 15–20 Minuten bad nehmen. Volksmedizinisch bei Erkältungen (Dampfbad für Gesicht auch möglich: Schüssel mit heißem Aufguss, Handtuch über Kopf), trockener Haut und Gelenkbeschwerden. Für Dampfinhalation: 2–3 EL Blüten auf 1 L heißes Wasser, 5–10 Minuten inhalieren.",
+          "en": "ELDER FLOWER BATH: 50–100 g dried elder flowers in 2 litres boiling water, steep 15 min, strain, add to full bath (37–38 °C, not hotter). Soak 15–20 min. Folk use for colds (steam bath for face also possible: bowl with hot infusion, towel over head), dry skin, joint complaints. For steam inhalation: 2–3 tbsp flowers in 1 L hot water, inhale 5–10 min."
+        }
+      },
+      "description": {
+        "de": "Holunderblütenbad und Dampfinhalation bei Erkältungsbeschwerden und zur Hautpflege — entspannend und mild diaphoretisch.",
+        "en": "Elder flower bath and steam inhalation for cold symptoms and skin care — relaxing and mildly diaphoretic."
+      },
+      "source_ids": [
+        "src_wichtl_teedrogen",
+        "src_madaus_1938_sambucus",
+        "src_pfaf_sambucus_nigra"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "KÜCHE (Holunderblüten): Frische Holunderdolden (Mai–Juni) für Holunderblütensirup/-cordial: Blütendolden mit Zitronenscheiben und Zucker kalt ansetzen, 24 Stunden ziehen, abseihen (kein Kochen nötig — Blüten enthalten kein Sambunigrin). Für Hollerküchle (Holunderküchle/Hollerstrauben): Ganze frische Dolde in Ausbackteig tauchen und in Öl backen. Holunderblütenessig: Frische Blüten in Apfelessig einlegen, 2 Wochen. Sirup und Cordial: klassisches Sommergetränk in der mitteleuropäischen Küche. Getrocknete Blüten als Aroma in Desserts, Panna cotta, Limonaden.",
+          "en": "KITCHEN (elder flowers): Fresh flower umbels (May–June) for elderflower cordial/syrup: cold-infuse umbels with lemon slices and sugar 24 hours, strain (no boiling needed — flowers contain no sambunigrin). For 'Hollerküchle' (Holunder fritters): dip whole fresh umbel in batter, deep-fry. Elder flower vinegar: steep fresh flowers in apple vinegar 2 weeks. Cordial is a classic summer drink in Central European cuisine. Dried flowers as flavouring in desserts, panna cotta, lemonade."
+        }
+      },
+      "description": {
+        "de": "Holunderblüten in der Küche — Sirup, Cordial, Hollerküchle und Essig; klassisch mitteleuropäisch. Blüten enthalten KEIN Sambunigrin und sind frisch oder getrocknet sicher verwendbar.",
+        "en": "Elder flowers in the kitchen — cordial, syrup, fritters and vinegar; Central European classic. Flowers contain NO sambunigrin and can be used fresh or dried."
+      },
+      "source_ids": [
+        "src_wp_de_sambucus",
+        "src_pfaf_sambucus_nigra"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Blüten (Mai-Juni) und reife Beeren (Sept-Okt)",
+      "en": "flowers (May-June) and ripe berries (Sept-Oct)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "GIFTIGKEIT BEACHTEN — Verwechslungsgefahr und Rohverzehr-Risiko: Nur die BLÜTEN (Sambuci flos) sind als traditionelle Heildroge anerkannt. Alle anderen Pflanzenteile (Blätter, Rinde, Wurzeln, unreife Beeren, Samen) enthalten das cyanogene Glykosid Sambunigrin, das im Körper Blausäure (Cyanwasserstoff) freisetzt — GIFTIG, Symptome: Übelkeit, Erbrechen, Durchfall, Schwindel, in größeren Mengen Krampfanfälle. Reife schwarze Beeren enthalten geringere Sambunigrin-Mengen, MÜSSEN ABER IMMER VOLLSTÄNDIG DURCHGEKOCHT werden (mind. 15 Min. simmern) — Rohverzehr auch reifer Beeren in größeren Mengen kann zu Vergiftungen führen. Verwechslung mit Zwergholunder (Sambucus ebulus, giftig!) und Attich vermeiden — diese haben charakteristisch horizontal wachsende Stängel und stärker riechendes Kraut. Erkältungssymptome mit Fieber über 39 °C, Atemnot, eitrigem Auswurf oder Dauer über 7 Tage sofort ärztlich abklären — Holunder ist kein Ersatz für ärztliche Behandlung von Bronchitis, Pneumonie oder bakteriellen Infekten. Bei Autoimmunerkrankungen oder immunsuppressiver Therapie vor Einnahme von Holunderbeeren-Produkten Arzt fragen.",
+      "en": "TOXICITY ALERT — confusion risk and raw-consumption risk: Only FLOWERS (Sambuci flos) are the recognised medicinal drug. All other plant parts (leaves, bark, roots, unripe berries, seeds) contain the cyanogenic glycoside sambunigrin, which releases hydrogen cyanide in the body — TOXIC; symptoms: nausea, vomiting, diarrhoea, dizziness, in large quantities convulsions. Ripe black berries contain lower sambunigrin levels but MUST ALWAYS BE THOROUGHLY COOKED (simmer at least 15 min) — raw consumption of even ripe berries in quantity can cause poisoning. Do not confuse with dwarf elder (Sambucus ebulus, poisonous!) — it has characteristically horizontal stems and strongly smelling foliage. Seek medical attention for fever above 39 °C, dyspnoea, purulent sputum, or symptoms lasting over 7 days. Consult doctor before taking elderberry products with autoimmune diseases or immunosuppressive therapy."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Holunderblüten-Tee in therapeutischen Mengen in der Schwangerschaft mangels ausreichender Sicherheitsdaten nicht empfohlen (EMA-Monographie). Gelegentliche kulinarische Verwendung (Blütensirup in Maßen) gilt als unbedenklich. Holunderbeeren-Produkte in der Schwangerschaft meiden — keine Daten.",
+        "en": "Elder flower tea in therapeutic doses not recommended during pregnancy due to insufficient safety data (EMA monograph). Occasional culinary use (flower cordial in moderation) considered safe. Elderberry products in pregnancy: avoid — no data."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Therapeutische Dosen mangels Daten in der Stillzeit nicht empfohlen (EMA). Kulinarische Verwendung von Blütensirup und gut durchgekochten Beerenprodukten in haushaltsüblichen Mengen als unbedenklich eingestuft.",
+        "en": "Therapeutic doses not recommended during lactation due to lack of data (EMA). Culinary use of flower cordial and well-cooked berry products in household amounts considered safe."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Holunderblütentee laut EMA erst ab 12 Jahren (keine Sicherheitsdaten für jüngere Kinder). Kinder dürfen NIEMALS rohe Beeren essen — Vergiftungsgefahr durch Sambunigrin. Gut durchgekochte Beerenprodukte (Sirup, Mus, Konfitüre) gelten in kindgerechten Mengen als unbedenklich. Bei Erkältungsfieber bei Kindern unter 12 Jahren immer ärztlichen Rat einholen.",
+        "en": "Elder flower tea per EMA only from 12 years (no safety data for younger children). Children must NEVER eat raw berries — sambunigrin poisoning risk. Well-cooked berry products (syrup, puree, jam) in child-appropriate amounts considered safe. Always seek medical advice for fever in children under 12."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Immunsuppressiva (Ciclosporin, Tacrolimus, Methotrexat, Azathioprin, Kortikosteroide)",
+        "mechanism": {
+          "de": "Holunderbeeren-Zubereitungen (Sirup, Extrakte) zeigen in vitro und in tierexperimentellen Studien immunstimulierende Eigenschaften (Stimulation von Zytokinen wie IL-1β, TNF-α, IL-6 durch Anthocyane und Polysaccharide). Theoretisch könnten diese Effekte die Wirkung immunsuppressiver Medikamente abschwächen. Klinische Daten beim Menschen fehlen; Vorsicht ist bei Patienten nach Organtransplantation oder mit aktiver Autoimmunerkrankung (Lupus, Rheumatoide Arthritis, MS) geboten.",
+          "en": "Elderberry preparations (syrup, extracts) show immunostimulating properties in vitro and in animal studies (stimulation of cytokines IL-1β, TNF-α, IL-6 via anthocyanins and polysaccharides). Theoretically may reduce efficacy of immunosuppressants. No clinical data in humans; caution in transplant patients or active autoimmune disease (lupus, RA, MS)."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_sambuci_flos"
+      },
+      {
+        "drug_class": "Antidiabetika (Insulin, Metformin, Sulfonylharnstoffe, SGLT-2-Hemmer)",
+        "mechanism": {
+          "de": "Holunderbeeren-Extrakte zeigen in einigen Studien hypoglykämische Eigenschaften (Hemmung der α-Glukosidase, Verbesserung der Insulinsensitivität durch Anthocyane). Bei gleichzeitiger antidiabetischer Therapie theoretisch additiver Blutzucker-senkender Effekt möglich — Hypoglykämie-Risiko. Blutzucker regelmäßig kontrollieren, Dosis-Anpassung ggf. mit dem behandelnden Arzt besprechen.",
+          "en": "Elderberry extracts show hypoglycaemic properties in some studies (alpha-glucosidase inhibition, improved insulin sensitivity via anthocyanins). Theoretically additive blood glucose lowering with antidiabetic drugs — hypoglycaemia risk. Monitor blood glucose regularly; discuss dose adjustment with treating physician."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_sambuci_flos"
+      },
+      {
+        "drug_class": "Diuretika (Thiazide, Schleifendiuretika, kaliumsparende Diuretika)",
+        "mechanism": {
+          "de": "Holunderblüten besitzen traditionell mild diuretische (harntreibende) Eigenschaften. Bei gleichzeitiger Einnahme von Diuretika theoretisch additiver Effekt möglich — Risiko übermäßigen Flüssigkeits- und Elektrolytverlusts (Dehydrierung, Hypokaliämie). Ausreichende Flüssigkeitszufuhr sicherstellen und ggf. Elektrolyte überwachen.",
+          "en": "Elder flowers traditionally have mild diuretic properties. Theoretical additive effect with diuretics — risk of excessive fluid and electrolyte loss (dehydration, hypokalaemia). Ensure adequate fluid intake; monitor electrolytes if needed."
+        },
+        "severity": "monitor",
+        "source_id": "src_wichtl_teedrogen"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit (Allergie) gegen Schwarzen Holunder (Sambucus nigra) oder andere Adoxaceae/Caprifoliaceae.",
+        "en": "Hypersensitivity (allergy) to black elder (Sambucus nigra) or other Adoxaceae/Caprifoliaceae."
+      },
+      {
+        "de": "Kinder unter 12 Jahren (therapeutische Zubereitungen laut EMA — kulinarische Beerenprodukte ausgenommen).",
+        "en": "Children under 12 years (therapeutic preparations per EMA — culinary berry products excepted)."
+      },
+      {
+        "de": "Verzehr roher oder unreifer Beeren sowie roher Blätter, Rinde und Wurzeln jeder Menge — Vergiftung durch Sambunigrin (cyanogenes Glykosid).",
+        "en": "Consumption of raw or unripe berries, or raw leaves, bark, and roots in any amount — sambunigrin (cyanogenic glycoside) poisoning."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (therapeutische Dosen) — mangels ausreichender Sicherheitsdaten meiden.",
+        "en": "Pregnancy and lactation (therapeutic doses) — avoid due to insufficient safety data."
+      },
+      {
+        "de": "Schwere Immunsuppression oder aktive Autoimmunerkrankung (Holunderbeeren-Produkte können Immunaktivität stimulieren — vorher ärztliche Rücksprache).",
+        "en": "Severe immunosuppression or active autoimmune disease (elderberry products may stimulate immune activity — medical consultation required)."
+      }
+    ],
+    "max_continuous_use_weeks": 1
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Schwarzer Holunder (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schwarzer_Holunder",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Sambucus nigra (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Sambucus_nigra",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_sambuci_flos",
+      "type": "monograph",
+      "title": "EMA/HMPC/611512/2016 — European Union herbal monograph on Sambucus nigra L., flos (Final, Revision 1, 27 June 2018)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/sambuci-flos",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_sambuci_flos_enriched",
+      "type": "monograph",
+      "title": "EMA/HMPC/611512/2016 — European Union herbal monograph on Sambucus nigra L., flos, Revision 1 (Final, 27 June 2018)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/sambuci-flos",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_sambuci_flos",
+      "type": "monograph",
+      "title": "Kommission E — Sambuci flos (Holunderblüten), Monographie (positiv), BAnz Nr. 50, 13. März 1990, zuletzt geändert 1992",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/sambuci-flos-holunderblueten.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_sambuci_flos",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Sambuci flos (Elderflower), 2nd edition with supplement, European Scientific Cooperative on Phytotherapy",
+      "url": "https://escop.com/downloads/sambuci-flos/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_teedrogen",
+      "type": "book",
+      "title": "Wichtl, Max (Hrsg.) — Teedrogen und Phytopharmaka: Ein Handbuch für die Praxis, 5. Auflage, Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009",
+      "url": "https://www.wvgpharma.de/teedrogen-und-phytopharmaka",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_1938_sambucus",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band II: Sambucus nigra (Schwarzer Holunder), 1938 (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/sambucus-n.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_sambucus_nigra",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Sambucus nigra database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Sambucus+nigra",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_sambucus",
+      "type": "wikipedia",
+      "title": "Schwarzer Holunder (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schwarzer_Holunder",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_sambucus",
+      "type": "wikipedia",
+      "title": "Sambucus nigra (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Sambucus_nigra",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_sambucus",
+      "type": "wikidata",
+      "title": "Sambucus nigra — Wikidata entity Q150986",
+      "url": "https://www.wikidata.org/wiki/Q150986",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_who_sambucus_flos",
+      "type": "monograph",
+      "title": "WHO Monographs on Selected Medicinal Plants — Volume 4: Flos Sambuci (Elder Flower)",
+      "url": "https://apps.who.int/iris/handle/10665/42052",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "sambucus-nigra.jpg",
+    "alt": {
+      "de": "Foto von Schwarzer Holunder",
+      "en": "Photo of Sambucus nigra"
+    },
+    "license": "CC BY 2.5",
+    "author": "Willow",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sambucus_nigra_004.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Flavonoide (Rutin, Isoquercitrin, Hyperosid, Astragalin, Quercetin-3-O-glucosid)",
+      "category": "flavonoid",
+      "percent_range": "0,8-3 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Leitsubstanzgruppe der Blüten (Sambuci flos). Rutin und Isoquercitrin dominieren. Verantwortlich für die diaphoretische und mild entzündungshemmende Wirkung; verbessern die Kapillarresistenz und wirken antioxidativ. EMA-Monographie erkennt die Wirksamkeit auf Basis dieser Fraktion an.",
+        "en": "Lead compound group of the flowers (Sambuci flos). Rutin and isoquercitrin predominate. Responsible for diaphoretic and mildly anti-inflammatory action; improve capillary resistance and act as antioxidants. EMA monograph recognises efficacy based on this fraction."
+      }
+    },
+    {
+      "name": "Anthocyane (Cyanidin-3-O-glucosid, Cyanidin-3-O-sambubiosid, Cyanidin-3-O-rutinosid)",
+      "category": "flavonoid",
+      "percent_range": "0,2-1 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptpigmente der reifen Beeren, verantwortlich für die tiefschwarz-violette Farbe. Stark antioxidativ (ORAC-Wert hoch), in vitro antivirale Aktivität beschrieben (Hemmung der Hämagglutinin-Neuraminidase von Influenzaviren). Immunstimulierende Wirkung (Zytokinstimulation) in Zellkulturexperimenten. Klinische Wirksamkeitsnachweise beim Menschen bleiben begrenzt.",
+        "en": "Main pigments of the ripe berries, responsible for the deep black-violet colour. Strongly antioxidant (high ORAC value), antiviral activity described in vitro (inhibition of influenza haemagglutinin-neuraminidase). Immunostimulating effect (cytokine stimulation) in cell culture experiments. Clinical efficacy data in humans remain limited."
+      }
+    },
+    {
+      "name": "Sambunigrin (cyanogenes Glykosid)",
+      "category": "glycoside",
+      "percent_range": "0,01-0,1 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "GIFTSTOFF — Hauptcyanogen des Schwarzen Holunders. Höchste Konzentrationen in Blättern, Rinde, Wurzeln und unreifen Beeren; in reifen Früchten geringere Mengen (v. a. im Samen). Hydrolyse durch pflanzliche Glucosidasen und gastrointestinale Mikrobiota setzt Blausäure (HCN) frei. Thermolabil — vollständiges Kochen (≥15 Min. simmern) inaktiviert Sambunigrin zuverlässig in Beerenzubereitungen. Blüten enthalten kein Sambunigrin.",
+        "en": "TOXIC — main cyanogen of black elder. Highest concentrations in leaves, bark, roots, unripe berries; lower amounts in ripe fruit (mainly seeds). Hydrolysis by plant glucosidases and gut microbiota releases hydrogen cyanide (HCN). Thermolabile — thorough cooking (≥15 min simmering) reliably inactivates sambunigrin in berry preparations. Flowers contain no sambunigrin."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Blüten: Hotrienol, Linalool, α-Terpineol, Nerolidol)",
+      "category": "essential_oil",
+      "percent_range": "0,03-0,3 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Geringer Gehalt; verantwortlich für den charakteristischen süßlich-blumigen Duft der Hollerblüten. Hauptkomponenten des Blütenöls: Hotrienol (Leitsubstanz des Holunderblütenaromas), Linalool, cis- und trans-Linalooloxide. Pharmakologisch in therapeutischen Konzentrationen ohne wesentliche Bedeutung; trägt zur sensorischen Qualität der Droge bei.",
+        "en": "Low content; responsible for the characteristic sweet-floral scent of elder flowers. Main flower oil components: hotrienol (lead odorant of elderflower aroma), linalool, cis- and trans-linalool oxides. Pharmacologically insignificant at therapeutic concentrations; contributes to sensory quality of the drug."
+      }
+    },
+    {
+      "name": "Schleimstoffe (Polysaccharide, Pektine)",
+      "category": "mucilage",
+      "percent_range": "7-11 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Höchster Gehalt unter den Inhaltsstoffen der Blüten. Schleimpolysaccharide legen sich schützend auf gereizte Schleimhäute (Mund, Rachen, Bronchien) — erklärt die Anwendung als Gurgellösung und Erkältungstee. Reizmildernd bei Entzündungen der oberen Atemwege.",
+        "en": "Highest-content component of the flowers. Mucilaginous polysaccharides form a protective layer on irritated mucous membranes (mouth, throat, bronchi) — explains use as gargle and cold tea. Soothing for upper respiratory tract inflammation."
+      }
+    },
+    {
+      "name": "Phenolsäuren (Chlorogensäure, Kaffeesäure, p-Cumarsäure)",
+      "category": "phenolic_acid",
+      "percent_range": "0,1-0,5 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Antioxidativ und mild entzündungshemmend (COX-Hemmung). Ergänzen die Wirkung der Flavonoide. Chlorogensäure ist in Holunderblüten und -beeren nachgewiesen; sie hemmt in vitro die Aufnahme von Glukose im Darm.",
+        "en": "Antioxidant and mildly anti-inflammatory (COX inhibition). Complement the flavonoid action. Chlorogenic acid documented in elder flowers and berries; inhibits intestinal glucose uptake in vitro."
+      }
+    },
+    {
+      "name": "Triterpene (α-Amyrin, β-Amyrin, Ursolsäure, Oleanolsäure, β-Sitosterol)",
+      "category": "other",
+      "percent_range": "0,2-1 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Pentacyclische Triterpensäuren mit mild entzündungshemmenden Eigenschaften; β-Sitosterol als phytosterolischer Begleitstoff. Tragen zur Gesamtwirkung der Blütendroge bei ohne eigenständige klinische Bedeutung bei therapeutischen Dosen.",
+        "en": "Pentacyclic triterpenic acids with mild anti-inflammatory properties; β-sitosterol as phytosterolic companion. Contribute to the overall drug effect without independent clinical relevance at therapeutic doses."
+      }
+    },
+    {
+      "name": "Polyphenole / Procyanidine (Beeren)",
+      "category": "other",
+      "percent_range": "0,5-2 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Oligomere Procyanidine (B1, B2) in den Beeren; ergänzen die Anthocyane als antioxidative Komponente. In Beeren-Rohextrakten nachgewiesen; Gesamtpolyphenolgehalt der reifen Beeren zählt zu den höchsten unter einheimischen Wildfrüchten. Verbleib und Bioverfügbarkeit nach Erhitzung (Sirup) reduziert, aber wesentliche Anteile bleiben erhalten.",
+        "en": "Oligomeric procyanidins (B1, B2) in the berries; complement anthocyanins as antioxidant components. Documented in raw berry extracts; total polyphenol content of ripe berries ranks among the highest of native wild fruits. Retention and bioavailability reduced after heating (syrup) but substantial fractions remain."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Trockener, sonniger Vormittag (9–12 Uhr), nachdem der Tau vollständig abgetrocknet ist — Flavonoid- und Ätherischöl-Gehalt dann am höchsten. Blütendolden bei vollständiger Öffnung und noch cremeweißer Farbe ernten (bräunlich verfärbte Dolden = Überschreitung des Erntezeitpunkts).",
+        "en": "Dry, sunny morning (9–12), once dew has fully evaporated — flavonoid and essential oil content highest then. Harvest umbels when fully open and still cream-white (browning umbels = past optimal harvest time)."
+      },
+      "drying": {
+        "de": "Voll aufgeblühte, cremeweise Blütendolden bei trockenem Wetter ernten. NICHT mit Wasser abspülen (würde Pollen und flüchtige Inhaltsstoffe entfernen). Stiele möglichst kurz lassen oder ganz entfernen — dickere Stiele enthalten Sambunigrin (in Blüten selbst nicht vorhanden, aber Kontaminationsrisiko der Droge). Dolden locker einlagig auf sauberen Tüchern oder Gitterhorden im Schatten bei max. 35–40 °C ausbreiten; oder kopfüber aufhängen. Nach dem Trocknen die einzelnen Blütchen von den dünnen Stieldolden rebeln (abstreifen) — die kleinen Blütchen sind die Droge. Erntefenster eng: Holunderblüte dauert je nach Lage und Jahr nur 10–14 Tage.",
+        "en": "Pick fully opened cream-white flower umbels in dry weather. Do NOT rinse with water (removes pollen and volatile constituents). Keep stems as short as possible or remove entirely — thicker stems contain sambunigrin (not in flowers themselves, but contamination risk). Spread loosely in a single layer on clean cloths or racks in shade at max 35–40 °C, or hang upside down. After drying, strip individual florets from the thin stem tips — the florets are the drug. Harvest window narrow: elder flowering lasts only 10–14 days depending on location and year."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht in dunklen Gläsern oder Blechdosen bei Raumtemperatur, trocken. Innerhalb 12 Monate aufbrauchen — Flavonoidgehalt nimmt danach ab. Bei muffigem Geruch oder Braunfärbung entsorgen.",
+        "en": "Airtight in dark glass jars or tins at room temperature, dry. Use within 12 months — flavonoid content declines thereafter. Discard if musty or browned."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Trockene Tage im Spätsommer bis Frühherbst (August–Oktober) — Beeren bei vollreifer, glänzend tiefschwarz-violetter Farbe in ganzen Doldenrispen ernten. Idealerweise nach dem ersten leichten Frost (Anthocyangehalt steigt, Geschmack milder). Grüne oder rötlich gefärbte Beeren sind unreif und haben höheren Sambunigrin-Gehalt — NIEMALS unreife Beeren ernten.",
+        "en": "Dry days in late summer to early autumn (August–October) — harvest berries when fully ripe, glossy deep black-violet, in whole fruiting clusters. Ideally after the first light frost (anthocyanin content increases, flavour milder). Green or reddish berries are unripe and have higher sambunigrin content — NEVER harvest unripe berries."
+      },
+      "drying": {
+        "de": "Beeren waschen und von den Stielen abstreifen (Stiele enthalten Sambunigrin). Frisch verwenden (Sirup, Mus — sofort vollständig durchkochen, mind. 15 Min. simmern) oder im Dörrgerät bei 50–60 °C 10–16 Stunden bis zur ledrigen Konsistenz trocknen. Getrocknete Beeren für Tee (Dekokt) verwenden — auch im Dekokt immer kochen, nie nur aufgießen. Für Tinktur: frische reife Beeren 1:5 in 40–50 % Ethanol ansetzen (Ethanol inaktiviert Sambunigrin zusätzlich).",
+        "en": "Wash berries and strip from stems (stems contain sambunigrin). Use fresh (syrup, puree — cook immediately and thoroughly, simmer min 15 min) or dehydrate at 50–60 °C for 10–16 hours until leathery. Dried berries for tea (decoction) — always boil, never merely steep. For tincture: fresh ripe berries 1:5 in 40–50 % ethanol (ethanol also inactivates sambunigrin)."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknete Beeren: luftdicht, kühl, dunkel, trocken — innerhalb 12 Monate aufbrauchen. Frische Beeren sehr verderblich (max. 2–3 Tage im Kühlschrank); besser direkt zu Sirup oder Mus verarbeiten. Sirup: steril abgefüllt und kühl gelagert 6–12 Monate haltbar.",
+        "en": "Dried berries: airtight, cool, dark, dry — use within 12 months. Fresh berries very perishable (max 2–3 days refrigerated); better processed directly into syrup or puree. Syrup: sterile bottled and refrigerated, keeps 6–12 months."
+      }
+    }
+  ]
+}

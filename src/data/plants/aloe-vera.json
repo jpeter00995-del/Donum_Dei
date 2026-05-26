@@ -1,0 +1,526 @@
+{
+  "slug": "aloe-vera",
+  "names": {
+    "de": "Echte Aloe",
+    "en": "Aloe vera",
+    "latin": "Aloe vera"
+  },
+  "family": {
+    "de": "Affodillgewächse",
+    "en": "Asphodel family",
+    "latin": "Asphodelaceae"
+  },
+  "description": {
+    "de": "Die Echte Aloe ist eine Pflanzenart aus der Gattung der Aloen (Aloe) in der Unterfamilie der Affodillgewächse (Asphodeloideae). Das Artepitheton vera stammt aus dem Lateinischen und bedeutet „echt“.",
+    "en": "Aloe vera is a succulent plant species of the genus Aloe. It is widely distributed, and is considered an invasive species in many world regions."
+  },
+  "teaser": {
+    "de": "Die Echte Aloe ist eine Pflanzenart aus der Gattung der Aloen (Aloe) in der Unterfamilie der Affodillgewächse (Asphod...",
+    "en": "Aloe vera is a succulent plant species of the genus Aloe."
+  },
+  "uses": [
+    {
+      "form": "salve",
+      "target": [
+        "skin",
+        "wounds",
+        "burns"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Reines Blattgel oder Salbe mit Aloe-vera-Gel zur kühlenden, feuchtigkeitsspendenden Anwendung bei leichten Verbrennungen, Sonnenbrand, kleinen Hautirritationen und trockener Haut. Das Gel bildet einen schützenden Feuchtigkeitsfilm und enthält Polysaccharide (v. a. Acemannan), die die Wundheilung unterstützen können.",
+        "en": "Pure leaf gel or ointment containing Aloe vera gel applied externally to cool and moisturize minor burns, sunburn, small skin irritations, and dry skin. The gel forms a protective moisturizing film and contains polysaccharides (mainly acemannan) that may support wound healing."
+      },
+      "preparation": {
+        "de": "Blatt der Länge nach aufschneiden, klares Innengel mit Löffel herauslösen (gelben Saft an der Blattbasis verwerfen), direkt auf gereinigte Haut auftragen, mehrmals täglich.",
+        "en": "Cut leaf lengthwise, scoop out clear inner gel with a spoon (discard yellow latex at leaf base), apply directly to cleansed skin several times daily."
+      },
+      "source_ids": [
+        "ema-hmpc-aloe",
+        "commission-e-aloe-gel",
+        "escop-aloe-gel"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Reines, frisch geschältes Blattinnengel (ohne gelbe Aloin-Schicht) als Zugabe zu Smoothies oder Säften. Wird traditionell zur Unterstützung der Verdauung und des Immunsystems verwendet. Wichtig: Nur das durchsichtige Innengel verwenden, jede Spur des gelben Latex an der Blattrinde sorgfältig entfernen, da dieser Aloin enthält.",
+        "en": "Pure, freshly peeled inner leaf gel (without the yellow aloin layer) added to smoothies or juices. Traditionally used to support digestion and the immune system. Important: use only the transparent inner gel; carefully remove every trace of the yellow latex from the leaf rind, as it contains aloin."
+      },
+      "preparation": {
+        "de": "Blattstück ca. 5 cm waschen, Rinde und gelben Saft komplett abschneiden, klares Gel würfeln und in Smoothie geben — max. 1–2 EL pro Tag, nicht über längere Zeit ohne Beratung.",
+        "en": "Wash a leaf piece about 5 cm, completely cut away the rind and yellow latex, dice the clear gel and add to a smoothie — max. 1–2 tbsp per day, not for prolonged use without advice."
+      },
+      "source_ids": [
+        "who-aloe-vera-1999",
+        "pfaf-aloe-vera"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Aloe-Saft (Aloe-Droge, eingedickter Saft aus der Blattrinde) enthält Anthrachinone (Aloin, Aloe-Emodin) und wirkt stark abführend. Wurde traditionell als Kurzzeit-Laxans bei akuter Verstopfung verwendet. Heute zurückhaltend einzusetzen: Die EFSA stuft Whole-Leaf-Extrakte mit Hydroxyanthracen-Derivaten als potenziell genotoxisch und kanzerogen ein (Wissenschaftliches Gutachten 2017).",
+        "en": "Aloe juice (Aloe drug, thickened latex from the leaf rind) contains anthraquinones (aloin, aloe-emodin) and is strongly laxative. Traditionally used as a short-term laxative for acute constipation. To be used cautiously today: EFSA classifies whole-leaf extracts containing hydroxyanthracene derivatives as potentially genotoxic and carcinogenic (Scientific Opinion 2017)."
+      },
+      "preparation": {
+        "de": "Standardisierte Fertigpräparate (Aloin-Gehalt 20–30 mg pro Tagesdosis) gemäß Packungsbeilage. Nicht länger als 1–2 Wochen anwenden. Selbsthergestellte Aloe-Saft-Tinkturen sind nicht empfehlenswert wegen schwankendem Aloin-Gehalt.",
+        "en": "Standardized commercial preparations (aloin content 20–30 mg per daily dose) according to package insert. Do not use longer than 1–2 weeks. Home-made aloe juice tinctures are not recommended due to variable aloin content."
+      },
+      "max_duration_weeks": 2,
+      "source_ids": [
+        "ema-hmpc-aloe",
+        "commission-e-aloe-saft",
+        "efsa-2017-hydroxyanthracene"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Kühler Umschlag mit Aloe-vera-Gel bei oberflächlichen Wunden, Insektenstichen oder gereizter Haut. Das Gel beruhigt, kühlt und kann durch seine Polysaccharide die Wundheilung unterstützen.",
+        "en": "Cool compress with Aloe vera gel for superficial wounds, insect bites, or irritated skin. The gel soothes, cools, and may support wound healing through its polysaccharides."
+      },
+      "preparation": {
+        "de": "Frisches Innengel auf sauberes Mulltuch streichen, auf die betroffene Stelle legen, 15–30 Minuten einwirken lassen, bei Bedarf mehrmals täglich wiederholen.",
+        "en": "Spread fresh inner gel onto a clean gauze cloth, apply to the affected area, leave on for 15–30 minutes, repeat several times daily if needed."
+      },
+      "source_ids": [
+        "escop-aloe-gel",
+        "pfaf-aloe-vera"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Aloe-Gel als Badezusatz für ein pflegendes, feuchtigkeitsspendendes Bad bei trockener oder gereizter Haut. Wird in der Volksmedizin und in der Hautpflege geschätzt.",
+        "en": "Aloe gel as a bath additive for a nourishing, moisturizing bath for dry or irritated skin. Valued in folk medicine and skincare."
+      },
+      "preparation": {
+        "de": "Innengel von 2–3 großen Blättern pürieren, in das warme Badewasser geben, gut umrühren, 15–20 Minuten baden.",
+        "en": "Purée the inner gel from 2–3 large leaves, add to warm bath water, stir well, bathe for 15–20 minutes."
+      },
+      "source_ids": [
+        "pfaf-aloe-vera"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "Blattgel",
+      "en": "leaf gel"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Wichtig: Aloe-vera-Gel (klares Innengel) und Aloe-Saft (gelber Latex aus der Blattrinde mit Aloin) sind zwei sehr unterschiedliche Präparate. Das externe Gel ist gut verträglich, der innerliche Aloin-haltige Saft wirkt stark abführend und ist nur kurzfristig (max. 1–2 Wochen) und nicht ohne ärztliche Beratung einzusetzen. Die EFSA hat 2017 ein wissenschaftliches Gutachten veröffentlicht, das Whole-Leaf-Extrakte und Aloin-haltige Zubereitungen als potenziell genotoxisch und kanzerogen einstuft; die EU-Kommission hat 2021 Hydroxyanthracen-Derivate aus Aloe in Nahrungsergänzungsmitteln verboten. Beim Schneiden des Blattes muss der gelbe Latex sorgfältig entfernt werden, bevor das Gel innerlich verwendet wird.",
+      "en": "Important: Aloe vera gel (clear inner gel) and aloe juice (yellow latex from the leaf rind containing aloin) are two very different preparations. The external gel is well tolerated, the internal aloin-containing juice is strongly laxative and should only be used short-term (max. 1–2 weeks) and not without medical advice. In 2017, EFSA published a scientific opinion classifying whole-leaf extracts and aloin-containing preparations as potentially genotoxic and carcinogenic; the EU Commission banned hydroxyanthracene derivatives from Aloe in food supplements in 2021. When cutting the leaf, the yellow latex must be carefully removed before the gel is used internally."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Innerliche Anwendung Aloin-haltiger Präparate (Aloe-Saft, Whole-Leaf-Extrakte) ist in Schwangerschaft kontraindiziert — Anthrachinone können Uteruskontraktionen auslösen und sind potenziell genotoxisch. Externe Anwendung des reinen Gels gilt als unbedenklich.",
+        "en": "Internal use of aloin-containing preparations (aloe juice, whole-leaf extracts) is contraindicated in pregnancy — anthraquinones can trigger uterine contractions and are potentially genotoxic. External use of the pure gel is considered safe."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Innerlich Aloin-haltige Präparate während der Stillzeit meiden — Anthrachinone gehen in die Muttermilch über und können beim Säugling Durchfall verursachen. Externe Anwendung des Gels ist möglich.",
+        "en": "Avoid aloin-containing preparations internally during lactation — anthraquinones pass into breast milk and can cause diarrhea in the infant. External use of the gel is possible."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Innerliche Anwendung Aloin-haltiger Aloe-Präparate bei Kindern unter 12 Jahren laut EMA HMPC kontraindiziert. Externes Gel bei Hautirritationen ist unbedenklich.",
+        "en": "Internal use of aloin-containing aloe preparations is contraindicated in children under 12 years according to EMA HMPC. External gel for skin irritations is harmless."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Herzglykoside (z. B. Digoxin)",
+        "mechanism": {
+          "de": "Anthranoide aus Aloe-Saft können bei chronischem Gebrauch zu Kaliumverlust führen und so die Wirkung und Toxizität von Herzglykosiden verstärken.",
+          "en": "Anthranoids from aloe juice can cause potassium loss with chronic use, potentially enhancing the effect and toxicity of cardiac glycosides."
+        },
+        "severity": "avoid",
+        "source_id": "ema-hmpc-aloe"
+      },
+      {
+        "drug_class": "Antiarrhythmika",
+        "mechanism": {
+          "de": "Hypokaliämie durch chronischen Aloin-Gebrauch kann die Wirkung von Antiarrhythmika verändern.",
+          "en": "Hypokalemia from chronic aloin use may alter the effect of antiarrhythmic drugs."
+        },
+        "severity": "caution",
+        "source_id": "ema-hmpc-aloe"
+      },
+      {
+        "drug_class": "Diuretika (Thiazide, Schleifendiuretika)",
+        "mechanism": {
+          "de": "Verstärkter Kaliumverlust bei gleichzeitiger Anwendung von Aloin-haltigen Laxantien und kaliumausschwemmenden Diuretika.",
+          "en": "Enhanced potassium loss with concurrent use of aloin-containing laxatives and potassium-depleting diuretics."
+        },
+        "severity": "caution",
+        "source_id": "ema-hmpc-aloe"
+      },
+      {
+        "drug_class": "Kortikosteroide",
+        "mechanism": {
+          "de": "Gleichzeitige Anwendung kann den Kaliummangel verstärken.",
+          "en": "Concurrent use may worsen potassium depletion."
+        },
+        "severity": "caution",
+        "source_id": "ema-hmpc-aloe"
+      },
+      {
+        "drug_class": "Antikoagulanzien (Warfarin, Cumarine)",
+        "mechanism": {
+          "de": "Aloe kann durch Elektrolytverschiebungen und mögliche Beeinflussung der Darmflora die Wirkung von Antikoagulanzien verändern.",
+          "en": "Aloe may alter anticoagulant effects through electrolyte shifts and possible influence on gut flora."
+        },
+        "severity": "monitor",
+        "source_id": "who-aloe-vera-1999"
+      }
+    ],
+    "max_continuous_use_weeks": 2,
+    "contraindications": [
+      {
+        "de": "Darmverschluss, akut-entzündliche Darmerkrankungen (Morbus Crohn, Colitis ulcerosa), Blinddarmentzündung",
+        "en": "Bowel obstruction, acute inflammatory bowel disease (Crohn's, ulcerative colitis), appendicitis"
+      },
+      {
+        "de": "Unklare Bauchschmerzen",
+        "en": "Abdominal pain of unknown origin"
+      },
+      {
+        "de": "Schwere Dehydratation oder Elektrolytstörungen",
+        "en": "Severe dehydration or electrolyte imbalances"
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (innerlich, Aloin-haltige Präparate)",
+        "en": "Pregnancy and lactation (internally, aloin-containing preparations)"
+      },
+      {
+        "de": "Kinder unter 12 Jahren (innerlich)",
+        "en": "Children under 12 years (internally)"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echte Aloe (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echte_Aloe",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Aloe vera (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Aloe_vera",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "ema-hmpc-aloe",
+      "type": "monograph",
+      "title": "EMA/HMPC — European Union herbal monograph on Aloe barbadensis Mill. and Aloe (various species, mainly Aloe ferox Mill. and its hybrids), folii succus siccatus",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/aloe-barbadensis-aloe-various-species-mainly-aloe-ferox-mill-its-hybrids-folii-succus-siccatus",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "commission-e-aloe-gel",
+      "type": "monograph",
+      "title": "Kommission E — Aloe vera Gel (Monographie)",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "commission-e-aloe-saft",
+      "type": "monograph",
+      "title": "Kommission E — Aloe-Saft, eingedickter Saft aus den Blättern (Monographie, BAnz Nr. 133, 1985)",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/0030.htm",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "escop-aloe-gel",
+      "type": "monograph",
+      "title": "ESCOP — Aloe vera gel monograph",
+      "url": "https://escop.com/downloads/aloe-vera-gel/",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "efsa-2017-hydroxyanthracene",
+      "type": "monograph",
+      "title": "EFSA — Scientific Opinion on the safety of hydroxyanthracene derivatives for use in food (EFSA Journal 2018;16(1):5090)",
+      "url": "https://www.efsa.europa.eu/en/efsajournal/pub/5090",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "who-aloe-vera-1999",
+      "type": "monograph",
+      "title": "WHO — Monographs on Selected Medicinal Plants, Vol. 1: Aloe and Aloe Vera Gel (1999)",
+      "url": "https://apps.who.int/iris/handle/10665/42052",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "pfaf-aloe-vera",
+      "type": "monograph",
+      "title": "Plants For A Future — Aloe vera",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Aloe+vera",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "wikipedia-de-aloe-vera",
+      "type": "wikipedia",
+      "title": "Wikipedia DE — Aloe vera",
+      "url": "https://de.wikipedia.org/wiki/Aloe_vera",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "wikipedia-en-aloe-vera",
+      "type": "wikipedia",
+      "title": "Wikipedia EN — Aloe vera",
+      "url": "https://en.wikipedia.org/wiki/Aloe_vera",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "wikidata-aloe-vera",
+      "type": "wikidata",
+      "title": "Wikidata — Aloe vera (Q39918)",
+      "url": "https://www.wikidata.org/wiki/Q39918",
+      "accessed": "2026-05-19"
+    }
+  ],
+  "image": {
+    "filename": "aloe-vera.jpg",
+    "alt": {
+      "de": "Foto von Echte Aloe",
+      "en": "Photo of Aloe vera"
+    },
+    "license": "Public domain",
+    "author": "Wouter Hagens",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aloe_vera_A.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "medicinal",
+      "edible",
+      "air_purifying",
+      "night_oxygen"
+    ],
+    "rooms": [
+      "kitchen",
+      "living_room",
+      "bedroom"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "sparse",
+    "difficulty": 1,
+    "pet_safe": false,
+    "soil": {
+      "de": "Kakteen-/Sukkulentenerde, sandig",
+      "en": "Cactus/succulent soil, sandy"
+    },
+    "pot_size_cm": 18,
+    "tips": {
+      "de": [
+        "Lieber zu wenig gießen als zu viel — Staunässe tötet Aloe schnell.",
+        "Im Winter heller Standort und kaum gießen (alle 4-6 Wochen).",
+        "Älteste Blätter ernten — schräg abschneiden, Schnittfläche heilt von selbst."
+      ],
+      "en": [
+        "Under-water rather than over-water — waterlogging kills aloe quickly.",
+        "In winter: bright spot, water only every 4-6 weeks.",
+        "Harvest oldest leaves first — cut at an angle, the wound heals on its own."
+      ]
+    }
+  },
+  "constituents": [
+    {
+      "name": "Acemannan (Polysaccharid)",
+      "category": "polysaccharide",
+      "percent_range": "0.1–0.3% Trockenmasse des Gels",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptwirkstoff des Innengels; β-(1,4)-acetyliertes Mannan; immunmodulierend und wundheilungsfördernd.",
+        "en": "Main active compound of the inner gel; β-(1,4)-acetylated mannan; immunomodulatory and wound-healing."
+      }
+    },
+    {
+      "name": "Aloin (Barbaloin, Anthranoid-C-Glykosid)",
+      "category": "other",
+      "percent_range": "15–40% des getrockneten Latex; im Gel <50 ppm angestrebt",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptanthrachinon im gelben Latex der Blattrinde; stark abführend; EFSA 2017 stuft Hydroxyanthracen-Derivate als potenziell genotoxisch/kanzerogen ein.",
+        "en": "Main anthraquinone in the yellow latex of the leaf rind; strongly laxative; EFSA 2017 classifies hydroxyanthracene derivatives as potentially genotoxic/carcinogenic."
+      }
+    },
+    {
+      "name": "Aloe-Emodin",
+      "category": "other",
+      "percent_range": "Spuren bis 2% im Latex",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Anthrachinon-Aglykon; laxierend; ebenfalls von der EFSA-Bewertung 2017 erfasst.",
+        "en": "Anthraquinone aglycone; laxative; also covered by the 2017 EFSA assessment."
+      }
+    },
+    {
+      "name": "Salicylsäure",
+      "category": "phenolic_acid",
+      "percent_range": "Spuren",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Trägt zur entzündungshemmenden und leicht analgetischen Wirkung des Gels bei.",
+        "en": "Contributes to the anti-inflammatory and mildly analgesic effect of the gel."
+      }
+    },
+    {
+      "name": "Saponine",
+      "category": "saponin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Reinigende und milde antimikrobielle Eigenschaften.",
+        "en": "Cleansing and mild antimicrobial properties."
+      }
+    },
+    {
+      "name": "Pflanzliche Sterole (Campesterol, β-Sitosterol, Lupeol)",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Entzündungshemmende und hautberuhigende Wirkung.",
+        "en": "Anti-inflammatory and skin-soothing properties."
+      }
+    },
+    {
+      "name": "Vitamine (A, C, E, B-Komplex)",
+      "category": "vitamin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Im Innengel in geringen Mengen enthalten; antioxidative Wirkung.",
+        "en": "Present in small amounts in the inner gel; antioxidant action."
+      }
+    },
+    {
+      "name": "Mineralien (Calcium, Magnesium, Zink, Kalium)",
+      "category": "mineral",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Mineralstoffe und Spurenelemente im Gel.",
+        "en": "Minerals and trace elements in the gel."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "Morgens vor der größten Hitze, wenn die Blätter prall mit Gel gefüllt sind.",
+        "en": "Morning before the greatest heat, when leaves are plump with gel."
+      },
+      "drying": {
+        "de": "Gel wird in der Regel frisch verwendet, nicht getrocknet. Für Konservierung: kurzfristig gekühlt oder eingefroren.",
+        "en": "Gel is usually used fresh, not dried. For preservation: refrigerate short-term or freeze."
+      },
+      "storage_months": 0.25,
+      "storage_condition": {
+        "de": "Frisches Gel im Kühlschrank max. 1 Woche, eingefroren bis zu 3 Monate. Trocknung wird wegen Wirkstoffverlust nicht empfohlen.",
+        "en": "Fresh gel refrigerated max. 1 week, frozen up to 3 months. Drying is not recommended due to loss of active compounds."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "Ganzes Blatt für die Aloin-Gewinnung — ganzjährig in Kultur, ausschließlich Anbau, keine Wildsammlung üblich.",
+        "en": "Whole leaf for aloin extraction — year-round in cultivation, exclusively cultivated, no wild harvest customary."
+      },
+      "drying": {
+        "de": "Der gelbe Latex wird durch Anschneiden aus den Blättern gewonnen, eingedickt und getrocknet (Aloe-Droge).",
+        "en": "Yellow latex is collected by incising the leaves, thickened, and dried (aloe drug)."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Getrocknete Aloe-Droge trocken und lichtgeschützt, dicht verschlossen, bis zu 2 Jahre haltbar.",
+        "en": "Dried aloe drug stored dry and protected from light, tightly sealed, keeps up to 2 years."
+      }
+    }
+  ]
+}

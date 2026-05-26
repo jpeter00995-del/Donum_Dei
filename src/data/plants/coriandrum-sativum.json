@@ -1,0 +1,465 @@
+{
+  "slug": "coriandrum-sativum",
+  "names": {
+    "de": "Echter Koriander",
+    "en": "Coriander",
+    "latin": "Coriandrum sativum"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Der Echte Koriander, kurz Koriander genannt, ist eine Pflanzenart aus der Gattung der Koriander (Coriandrum) innerhalb der Familie der Doldenblütler (Apiaceae). Er wird als Gewürz- und Heilpflanze verwendet.",
+    "en": "Coriander, or Coriandrum sativum, is an annual herb in the family Apiaceae. The leaves are known as cilantro in the US. Most people perceive the leaves as having a fresh, slightly citrus taste."
+  },
+  "teaser": {
+    "de": "Der Echte Koriander, kurz Koriander genannt, ist eine Pflanzenart aus der Gattung der Koriander (Coriandrum) innerhal...",
+    "en": "Coriander, or Coriandrum sativum, is an annual herb in the family Apiaceae."
+  },
+  "uses": [
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Getrocknete Koriandersamen (Früchte) sind ein klassisches Küchen- und Heilgewürz. Die Kommission E hat Koriandersamen für dyspeptische Beschwerden und Appetitlosigkeit zugelassen. Die karminative und spasmolytische Wirkung beruht auf dem ätherischen Öl (Hauptkomponente Linalool).",
+        "en": "Dried coriander seeds (fruits) are a classic culinary and medicinal spice. Commission E approved coriander seeds for dyspeptic complaints and loss of appetite. The carminative and antispasmodic effect is attributed to the essential oil (main constituent linalool)."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 3
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "Samen vor dem Aufgießen leicht quetschen oder schroten. 1,5–3 g Früchte mit 150 ml heißem Wasser übergießen, 10 min ziehen lassen, abseihen. Bis zu 3-mal täglich.",
+          "en": "Lightly crush or crack seeds before infusion. Pour 150 ml hot water over 1.5–3 g fruits, steep 10 minutes, strain. Up to 3 times daily."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_coriander",
+        "src_altmeyers_coriander",
+        "src_wp_de_koriander"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische Korianderblätter (Cilantro) werden weltweit als Küchengewürz verwendet. Sie sind reich an Vitamin A, C und K sowie Kalzium und Eisen. Der charakteristische Geruch stammt von aliphatischen Aldehyden (2-Decenal, 2-Dodecenal). Genetisch bedingt nehmen ca. 10–15 % der Menschen diese Aldehyde als seifenartig war.",
+        "en": "Fresh coriander leaves (cilantro) are used worldwide as a culinary herb. They are rich in vitamins A, C and K, as well as calcium and iron. The characteristic smell comes from aliphatic aldehydes (2-decenal, 2-dodecenal). Genetically, about 10–15 % of people perceive these aldehydes as soapy."
+      },
+      "source_ids": [
+        "src_wp_en_coriander",
+        "src_wp_de_koriander"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "In der volksmedizinischen Tradition Europas und des Nahen Ostens werden gequetschte Koriandersamen als Tee bei Blähungen, Koliken und nervöser Unruhe eingesetzt. Als Bestandteil von Magen-Darm-Tee-Mischungen (mit Fenchel, Kümmel, Anis) ist Koriander seit dem 19. Jahrhundert belegt.",
+        "en": "In the folk medicine tradition of Europe and the Middle East, crushed coriander seeds are used as tea for flatulence, colic and nervous tension. Coriander as a component of digestive tea blends (with fennel, caraway, anise) is documented since the 19th century."
+      },
+      "source_ids": [
+        "src_pfaf_coriander",
+        "src_pmc_coriander_ethnobotany"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Das ätherische Öl aus Koriandersamen (Linalool-dominiert) zeigt antibakterielle Aktivität gegen grampositive und gramnegative Bakterien in vitro. Ein topisches Lipolotion-Produkt (1 % Korianderöl) wird zur Hautpflege bei superinfiziertem Ekzem eingesetzt. Muss stark verdünnt werden (1–2 % in Trägeröl).",
+        "en": "The essential oil from coriander seeds (linalool-dominated) shows antibacterial activity against gram-positive and gram-negative bacteria in vitro. A topical lipolotion product (1 % coriander oil) is used for skin care in superinfected eczema. Must be well diluted (1–2 % in carrier oil)."
+      },
+      "source_ids": [
+        "src_altmeyers_coriander",
+        "src_pmc_coriander_ethnobotany"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der ayurvedischen und persischen Volksmedizin werden Koriandersamen bei Herzklopfen, Angstzuständen und Kopfschmerzen eingesetzt. Präklinische Studien bestätigen anxiolytische und krampflösende Eigenschaften des Linalools; klinische Belege beim Menschen fehlen.",
+        "en": "In Ayurvedic and Persian folk medicine, coriander seeds are used for palpitations, anxiety and headaches. Preclinical studies confirm anxiolytic and anticonvulsant properties of linalool; human clinical evidence is lacking."
+      },
+      "source_ids": [
+        "src_pmc_coriander_neuroprotective",
+        "src_pmc_coriander_ethnobotany"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "joints"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Äußerlich wurde Koriander volksmedizinisch als Umschlag bei rheumatischen Beschwerden eingesetzt. Ein Absud der Blätter oder Samen wird auf Tücher aufgetragen und auf die Gelenke gelegt.",
+        "en": "Externally, coriander was used in folk medicine as a compress for rheumatic complaints. A decoction of leaves or seeds is applied to cloths and placed on the joints."
+      },
+      "source_ids": [
+        "src_pfaf_coriander"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Samen (Spätsommer), frische Blätter",
+      "en": "seeds (late summer), fresh leaves"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Koriander als Küchengewürz ist unbedenklich. Allergiepotenzial besteht – in der Schweiz reagieren ca. 15 % aller Nahrungsmittelallergiker empfindlich auf Koriander (Apiaceae/Sellerie-Beifuß-Syndrom). Pflanzensaft kann unter Sonnenlicht photoallergische Hautreaktionen auslösen. In sehr großen Mengen leicht narcotische Effekte möglich (historisch dokumentiert).",
+      "en": "Coriander as a culinary spice is safe. Allergy potential exists – in Switzerland approximately 15 % of all food allergy sufferers react sensitively to coriander (Apiaceae/celery-mugwort syndrome). Plant sap can trigger photoallergic skin reactions in sunlight. Very large quantities may cause mild narcotic effects (historically documented)."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Als Gewürz und Tee in üblichen Mengen unbedenklich. Therapeutische Dosen des ätherischen Öls in der Schwangerschaft meiden.",
+        "en": "Safe in normal culinary and tea amounts. Avoid therapeutic doses of the essential oil during pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Als Küchengewürz unbedenklich. Angeblich milchfördernd (Galaktagogum) – kein klinischer Beleg.",
+        "en": "Safe as a culinary spice. Reputed to promote lactation (galactagogue) – no clinical evidence."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Als Küchengewürz in kindgerechten Mengen unbedenklich. Bei Allergieanamnese in der Familie vorsichtig einführen.",
+        "en": "Safe as a culinary herb in child-appropriate amounts. Introduce carefully if there is a family history of allergy."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Allergie gegen Koriander oder andere Apiaceae (Sellerie, Fenchel, Möhre).",
+        "en": "Known allergy to coriander or other Apiaceae (celery, fennel, carrot)."
+      },
+      {
+        "de": "Asthma bronchiale und chronische Bronchitis: Korianderstaub und -öl mit Vorsicht anwenden.",
+        "en": "Bronchial asthma and chronic bronchitis: use coriander dust and oil with caution."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter Koriander (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Koriander",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Coriander (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Coriander",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_de_koriander",
+      "type": "wikipedia",
+      "title": "Echter Koriander (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Koriander",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wp_en_coriander",
+      "type": "wikipedia",
+      "title": "Coriander (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Coriander",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_coriander",
+      "type": "monograph",
+      "title": "Coriandrum sativum – PFAF Plant Database",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Coriandrum+sativum",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_altmeyers_coriander",
+      "type": "monograph",
+      "title": "Coriander – Altmeyers Encyclopedia, Department Phytotherapy",
+      "url": "https://www.altmeyers.org/en/naturopathy/coriander-143025",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_coriander_ethnobotany",
+      "type": "monograph",
+      "title": "Ethnobotanical and phytochemical aspects of the edible herb Coriandrum sativum L. J Food Science 2022",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9314633/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_coriander_neuroprotective",
+      "type": "monograph",
+      "title": "Neuroprotective effects of Coriandrum sativum and its constituent linalool: A review. PMC 2021",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8554282/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wd_coriandrum",
+      "type": "wikidata",
+      "title": "Coriandrum sativum (Wikidata Q41611)",
+      "url": "https://www.wikidata.org/wiki/Q41611",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "coriandrum-sativum.jpg",
+    "alt": {
+      "de": "Foto von Echter Koriander",
+      "en": "Photo of Coriander"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Stefan.lefnaer",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Coriandrum_sativum_sl9.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible",
+      "medicinal"
+    ],
+    "rooms": [
+      "kitchen",
+      "balcony"
+    ],
+    "light": "partial_shade",
+    "water_frequency": "every_few_days",
+    "difficulty": 2,
+    "pet_safe": true,
+    "soil": {
+      "de": "Locker, humusreich",
+      "en": "Loose, humus-rich"
+    },
+    "pot_size_cm": 18,
+    "tips": {
+      "de": [
+        "Schießt schnell in Blüte bei Hitze — alle 2-3 Wochen neu aussäen.",
+        "Direkt vor Ort aussäen — verträgt kein Umpflanzen.",
+        "Blätter (Cilantro) UND Samen (Koriander-Gewürz) verwendbar."
+      ],
+      "en": [
+        "Bolts quickly in heat — sow new every 2-3 weeks.",
+        "Sow in place — doesn't tolerate transplanting.",
+        "Both leaves (cilantro) AND seeds (coriander spice) usable."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "carum-carvi",
+      "pimpinella-anisum"
+    ],
+    "bad_partners": [
+      "anethum-graveolens",
+      "foeniculum-vulgare"
+    ],
+    "reasons": {
+      "foeniculum-vulgare": {
+        "de": "Fenchel hemmt Koriander-Keimung (Apiaceae-Konflikt).",
+        "en": "Fennel inhibits coriander germination (Apiaceae conflict)."
+      }
+    },
+    "notes_de": "anethum-graveolens: Dill und Koriander hemmen sich gegenseitig (Apiaceae-Konflikt).",
+    "notes_en": "anethum-graveolens: Dill and coriander inhibit each other (Apiaceae conflict).",
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 4,
+        "end_month": 7
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 9
+    },
+    "days_to_harvest": 60,
+    "spacing_cm": 15,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "aromatic_repellent",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Linalool",
+      "category": "essential_oil",
+      "percent_range": "ca. 60–70 % im ätherischen Samenöl",
+      "plant_part": "seed",
+      "note": {
+        "de": "Dominierendes Monoterpen im Samenöl; antimikrobiell, anxiolytisch, antientzündlich. Verleiht den getrockneten Samen das charakteristische Zitrus-Aroma.",
+        "en": "Dominant monoterpene in seed oil; antimicrobial, anxiolytic, anti-inflammatory. Gives dried seeds their characteristic citrus aroma."
+      }
+    },
+    {
+      "name": "alpha-Pinen",
+      "category": "essential_oil",
+      "percent_range": "variabel, bis ca. 10 %",
+      "plant_part": "seed",
+      "note": {
+        "de": "Bicyclisches Monoterpen; antibakteriell, expektorierende Eigenschaften.",
+        "en": "Bicyclic monoterpene; antibacterial, expectorant properties."
+      }
+    },
+    {
+      "name": "Campher",
+      "category": "essential_oil",
+      "percent_range": "bis ca. 5 %",
+      "plant_part": "seed",
+      "note": {
+        "de": "Monoterpenon; prägt das warme, würzige Nebencharakter des Korianderöls.",
+        "en": "Monoterpenone; contributes to the warm, spicy character of coriander oil."
+      }
+    },
+    {
+      "name": "Petroselinsäure (Petroselic acid)",
+      "category": "other",
+      "percent_range": "ca. 13–23 % fettes Öl im Samen",
+      "plant_part": "seed",
+      "note": {
+        "de": "Hauptfettsäure des fetten Samenöls; Ester aus Petroselinsäure, Linolsäure und Ölsäure.",
+        "en": "Main fatty acid in the fixed seed oil; esters of petroselic, linoleic and oleic acid."
+      }
+    },
+    {
+      "name": "Vitamin K",
+      "category": "vitamin",
+      "percent_range": "reichhaltig in frischen Blättern",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Frische Blätter besonders reich an Vitamin K, A und C. Samen geringerer Vitamingehalt, dafür mehr Ballaststoffe und Mineralstoffe.",
+        "en": "Fresh leaves particularly rich in vitamins K, A and C. Seeds have lower vitamin content but more dietary fibre and minerals."
+      }
+    },
+    {
+      "name": "2-Decenal / 2-Dodecenal",
+      "category": "essential_oil",
+      "percent_range": "dominierend in frischen Blättern (85–95 % des Blatt-Öls)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Aliphatische Aldehyde; verantwortlich für den typischen – von manchen als seifig empfundenen – Geruch frischer Blätter. Genetisch bedingte Wahrnehmungsunterschiede (OR6A2-Gen).",
+        "en": "Aliphatic aldehydes; responsible for the typical – by some perceived as soapy – smell of fresh leaves. Genetically determined perception differences (OR6A2 gene)."
+      }
+    },
+    {
+      "name": "Quercetin / Rutin",
+      "category": "flavonoid",
+      "percent_range": "gering",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavonoide mit antioxidativen und antientzündlichen Eigenschaften; in geringen Mengen in Blättern und Samen nachgewiesen.",
+        "en": "Flavonoids with antioxidant and anti-inflammatory properties; detected in small amounts in leaves and seeds."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Trocknen des Taus. Regelmäßig ernten, um das Schießen zu verzögern – sobald der Blütenschaft erscheint, verlieren Blätter an Aroma.",
+        "en": "Morning after dew has dried. Harvest regularly to delay bolting – once the flower stalk appears, leaves lose aroma."
+      },
+      "drying": {
+        "de": "Frische Blätter hängen schlecht – besser auf Küchenpapier ausbreiten oder einfrieren (Aroma bleibt besser als beim Trocknen). Trockenblätter ca. 6 Monate haltbar.",
+        "en": "Fresh leaves dry poorly – better to spread on kitchen paper or freeze (aroma better preserved than by drying). Dried leaves keep for about 6 months."
+      },
+      "storage_months": 6
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Fruchtstände ernten, wenn sie sich von Grün nach Hellbraun verfärben – vor dem Selbstausfall, da die reifen Früchte leicht abfallen.",
+        "en": "Harvest seed heads when they turn from green to light brown – before self-shedding, as ripe fruits fall easily."
+      },
+      "drying": {
+        "de": "Fruchtstände hängend oder auf einem Tuch 2 Wochen nachtrocknen lassen; Samen in luftdichtem Behälter bis zu 3 Jahre haltbar. Gequetschte Samen verlieren das Aroma schneller.",
+        "en": "Allow seed heads to dry hanging or on a cloth for 2 weeks; seeds keep in an airtight container for up to 3 years. Crushed seeds lose aroma more quickly."
+      },
+      "storage_months": 36
+    }
+  ]
+}

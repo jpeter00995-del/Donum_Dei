@@ -1,0 +1,127 @@
+{
+  "slug": "epipremnum-aureum",
+  "names": {
+    "de": "Efeutute",
+    "en": "Epipremnum aureum",
+    "latin": "Epipremnum aureum"
+  },
+  "family": {
+    "de": "Aronstabgewächse",
+    "en": "Arum family",
+    "latin": "Araceae"
+  },
+  "description": {
+    "de": "Die Goldene Efeutute, oft auch nur Efeutute genannt, ist eine Pflanzenart aus der Familie der Aronstabgewächse (Araceae). Kulturformen der Art sind populäre Zimmerpflanzen.",
+    "en": "Epipremnum aureum is a species in the arum family Araceae, native to Mo'orea in the Society Islands of French Polynesia. The species is a popular houseplant in temperate regions, but has also become naturalised in tropical and sub-tropical forests worldwide, including northern South Africa, Australia, Southeast Asia, Indian subcontinent, the Pacific Islands and the West Indies, where it has caused severe ecological damage in some cases."
+  },
+  "teaser": {
+    "de": "Die Goldene Efeutute, oft auch nur Efeutute genannt, ist eine Pflanzenart aus der Familie der Aronstabgewächse (Arace...",
+    "en": "Epipremnum aureum is a species in the arum family Araceae, native to Mo'orea in the Society Islands of French Polynesia."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "air_quality"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Die Goldene Efeutute ist eine beliebte Zimmerpflanze, von der einige Sorten mit zusätzlich weißer, gelber oder hellgrüner Blattfärbung (Variegation) existieren. In privaten und öffentlichen Gebäuden wird sie aufgrund ihrer geringen Pflegeansprüche und des attraktiven Laubs oft als Zierpflanze eingesetzt. In tropischen Ländern ist sie in vielen Parks und Gärten zu finden und neigt dort zum Verwildern. Als Zimmerpflanze kann die Efeutute horizontal oder vertikal wachsen.",
+        "en": "In temperate regions, it is a popular houseplant with numerous cultivars selected for leaves with white, yellow, or light green variegation. It is often used in decorative displays in shopping centers, offices, and other public locations largely because it requires little care and is also attractively leafy. In tropical countries, it is found in many parks and gardens, and tends to grow naturally."
+      },
+      "source_ids": [
+        "src_1",
+        "src_2"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "ganze Pflanze (dekorativ)",
+      "en": "whole plant (decorative)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "GIFTIG für Hunde, Katzen und Menschen (Calciumoxalate). Bei Verzehr Maulreizung und Schwellung.",
+      "en": "TOXIC for dogs, cats and humans (calcium oxalates). Mouth irritation and swelling if eaten."
+    },
+    "external_only": true,
+    "toxicity_level": "toxic",
+    "pet_toxic": true
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Efeutute (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Efeutute",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Epipremnum aureum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Epipremnum_aureum",
+      "accessed": "2026-05-17"
+    }
+  ],
+  "image": {
+    "filename": "epipremnum-aureum.jpg",
+    "alt": {
+      "de": "Foto von Efeutute",
+      "en": "Photo of Epipremnum aureum"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Ben PL",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Epipremnum_aureum_(BYU,_LSB).jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "air_purifying",
+      "ornamental"
+    ],
+    "rooms": [
+      "living_room",
+      "bathroom",
+      "bedroom"
+    ],
+    "light": "low_light",
+    "water_frequency": "weekly",
+    "difficulty": 1,
+    "pet_safe": false,
+    "soil": {
+      "de": "Standard-Blumenerde",
+      "en": "Standard potting compost"
+    },
+    "pot_size_cm": 18,
+    "tips": {
+      "de": [
+        "Praktisch unkaputtbar — auch im Bad-Halbschatten.",
+        "Ranken können bis 2m lang werden — als Hängepflanze oder an Stab leiten.",
+        "Stecklinge wurzeln in Wasserglas in 2-3 Wochen."
+      ],
+      "en": [
+        "Practically indestructible — fine in low-light bathrooms.",
+        "Vines can reach 2m — grow as hanging plant or on a pole.",
+        "Cuttings root in a water glass in 2-3 weeks."
+      ]
+    }
+  }
+}

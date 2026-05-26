@@ -1,0 +1,509 @@
+{
+  "slug": "solanum-tuberosum",
+  "names": {
+    "de": "Kartoffel",
+    "en": "Potato",
+    "latin": "Solanum tuberosum"
+  },
+  "family": {
+    "de": "Nachtschattengewächse",
+    "en": "Nightshade family",
+    "latin": "Solanaceae"
+  },
+  "description": {
+    "de": "Die Kartoffel, in Teilen Deutschlands, Österreichs und der Schweiz auch als Erdapfel, Erdbirne, Grundbirne, Potaten, Tüffke und unter weiteren Regionalnamen bekannt, ist eine Nutzpflanze aus der Familie der Nachtschattengewächse (Solanaceae). Im allgemeinen Sprachgebrauch werden mit Kartoffeln meist die im Boden heranwachsenden Knollen bezeichnet, mit denen die Pflanze sich vegetativ vermehrt und welche als einzige Pflanzenteile essbar sind, da sie wenig Solanin enthalten.",
+    "en": "The potato is a starchy tuberous vegetable native to the Americas that is consumed as a staple food in many parts of the world. Potatoes are underground stem tubers of the plant Solanum tuberosum, a perennial in the nightshade family Solanaceae."
+  },
+  "teaser": {
+    "de": "Die Kartoffel, in Teilen Deutschlands, Österreichs und der Schweiz auch als Erdapfel, Erdbirne, Grundbirne, Potaten, ...",
+    "en": "The potato is a starchy tuberous vegetable native to the Americas that is consumed as a staple food in many parts of ..."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion",
+        "energy"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Die Kartoffel ist eines der weltweit bedeutendsten Grundnahrungsmittel. Die Knolle wird in unzähligen Zubereitungsarten gegart (gekocht, gedämpft, gebacken, gebraten) und liefert hochwertige Kohlenhydrate, Vitamin C, Kalium und Ballaststoffe. Roh ist sie wegen unverdaulicher Stärke und möglicher Solanin-Belastung nicht geeignet. Als Beilage, Suppe, Eintopf oder verarbeitet zu Stärke und Mehl bildet die Kartoffel in vielen Ländern die kalorienmäßige Hauptquelle.",
+        "en": "The potato is one of the world's most important staple foods. The tuber is prepared in countless cooked forms (boiled, steamed, baked, fried) and supplies high-quality carbohydrates, vitamin C, potassium and dietary fibre. Raw potato is not suitable for eating due to indigestible starch and potential solanine exposure. As a side dish, soup, stew or processed into starch and flour, the potato forms the primary caloric source in many countries."
+      },
+      "source_ids": [
+        "src_usda_potato",
+        "src_wp_de_kartoffel",
+        "src_wp_en_potato",
+        "src_efsa_potato"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune",
+        "skin"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Roher Kartoffelsaft (Presssaft aus frisch geriebener Knolle, morgens nüchtern eingenommen) wird in der Volksheilkunde traditionell bei Magenbeschwerden, Sodbrennen, Magengeschwüren und chronischer Verstopfung eingesetzt. Enthält Solanin und unverdauliche Roststärke — Anwendung nur in kleinen Mengen (1–2 EL täglich), ausschließlich aus grünfreien Knollen. Traditionelle Überlieferung ohne klinische Bestätigung.",
+        "en": "Raw potato juice (pressed from freshly grated tuber, taken on an empty stomach) is used in folk medicine for gastric complaints, heartburn, gastric ulcers and chronic constipation. Contains solanine and indigestible raw starch — use only in small amounts (1–2 tbsp daily), exclusively from greenness-free tubers. Traditional lore without clinical confirmation."
+      },
+      "source_ids": [
+        "src_pfaf_solanum",
+        "src_wp_de_kartoffel",
+        "src_maud_grieve"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "fever"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Rohe, dünn geschnittene oder geriebene Kartoffelscheiben werden in der Volksheilkunde als kühlende Auflage bei leichten Verbrennungen (Grad I), Sonnenbrand und Hautreizungen verwendet. Die kühle, feuchte Stärke-Masse soll Hitze entziehen und Entzündungsreaktionen lindern. Scheiben direkt auf die betroffene Stelle legen, mit Mulltuch fixieren, nach 20–30 Minuten wechseln. Kein Ersatz für ärztliche Wundversorgung.",
+        "en": "Raw, thinly sliced or grated potato is used in folk medicine as a cooling compress for minor burns (grade I), sunburn and skin irritation. The cool, moist starchy mass is believed to draw out heat and soothe inflammatory reactions. Apply slices directly to the affected area, fix with gauze, change after 20–30 minutes. Not a substitute for medical wound care."
+      },
+      "source_ids": [
+        "src_maud_grieve",
+        "src_pfaf_solanum",
+        "src_wp_de_kartoffel"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "throat",
+        "joints",
+        "fever"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Der Kartoffelwickel (Kartoffelumschlag) ist eine klassische Hausmittel-Anwendung der deutschen Volksmedizin: Gegarte Kartoffeln werden zerstampft, in ein Tuch eingeschlagen und warm auf Hals (bei Halsentzündung), Gelenke (bei Arthrose-Schmerzen) oder Ohren (bei Ohrenschmerzen) aufgelegt. Die feuchte Wärme speichert sich in der Kartoffelmasse besonders gut (Wärmespeicherkapazität ähnlich Wärmflasche). Kartoffelwickel auf 40–45 °C abkühlen lassen, bevor sie auf die Haut kommen — Verbrennungsgefahr!",
+        "en": "The potato wrap (Kartoffelwickel) is a classic home-remedy application in German folk medicine: boiled potatoes are mashed, wrapped in a cloth and applied warm to the throat (for sore throat), joints (for arthritic pain) or ears (for earache). The moist heat is retained unusually well in the starchy mash (heat capacity comparable to a hot-water bottle). Allow to cool to 40–45 °C before applying to skin — risk of burns!"
+      },
+      "source_ids": [
+        "src_maud_grieve",
+        "src_pfaf_solanum",
+        "src_heilkraeuter_kartoffel"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Kartoffelstärke (Amylum solani) wird industriell und im Haushalt als Bindemittel für Saucen, Suppen und Desserts genutzt. In der Naturheilkunde und traditionellen Hauswirtschaft gilt Kartoffelstärke zudem als mildes Schleimhautschutzmittel bei Durchfall oder Magenverstimmung (Bindung von Wasser im Darm, reizarme Konsistenz). Als Kinderheilmittel traditionell bekannt — heute durch orale Rehydratationslösungen überholt.",
+        "en": "Potato starch (Amylum solani) is used industrially and in the household as a thickener for sauces, soups and desserts. In naturopathy and traditional housekeeping it is also considered a mild mucous membrane protectant for diarrhoea or stomach upset (water binding in the gut, low-irritant consistency). Traditionally known as a children's remedy — now superseded by oral rehydration solutions."
+      },
+      "source_ids": [
+        "src_usda_potato",
+        "src_pfaf_solanum",
+        "src_wp_en_potato"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Die Kartoffel ist eine bedeutende Kaliumquelle (ca. 420 mg/100 g gegarte Knolle mit Schale) und unterstützt damit die Regulation des Blutdrucks und die Herzmuskelkontraktion. EFSA und USDA führen die Kartoffel als relevanten Beitrag zur Kaliumversorgung in der europäischen und nordamerikanischen Ernährung. Garen mit Schale erhält den größten Anteil des Kaliums; Schälen und Kochen in viel Wasser reduziert den Kaliumgehalt um bis zu 50 %.",
+        "en": "The potato is an important source of potassium (approx. 420 mg/100 g cooked tuber with skin), supporting blood pressure regulation and cardiac muscle contraction. EFSA and USDA list the potato as a significant contributor to potassium intake in European and North American diets. Cooking with skin retains the highest proportion of potassium; peeling and boiling in excess water reduces potassium content by up to 50 %."
+      },
+      "source_ids": [
+        "src_efsa_potato",
+        "src_usda_potato",
+        "src_wp_en_potato"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune",
+        "skin"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Frische Kartoffeln enthalten pro 100 g ca. 13–20 mg Vitamin C — ein für ein Stärkenahrungsmittel bemerkenswert hoher Wert. Historisch war die Kartoffel in Nordeuropa und bei der Seefahrt eine wichtige Schutz-Pflanze gegen Skorbut. Vitamin C geht beim langen Kochen und Lagern verloren; neue Kartoffeln enthalten deutlich mehr Ascorbinsäure als lang eingelagerte. Garen in der Schale und kurze Garzeit erhalten den Vitamin-C-Gehalt am besten.",
+        "en": "Fresh potatoes contain approximately 13–20 mg of vitamin C per 100 g — a remarkably high value for a starchy food. Historically the potato was an important scurvy-preventing food in Northern Europe and maritime settings. Vitamin C is lost during prolonged cooking and storage; new-season potatoes contain substantially more ascorbic acid than long-stored ones. Cooking in the skin with short cooking times best preserves vitamin C content."
+      },
+      "source_ids": [
+        "src_usda_potato",
+        "src_efsa_potato",
+        "src_wp_en_potato",
+        "src_wikidata_potato"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "reife Knollen (Sommer-Herbst)",
+      "en": "mature tubers (summer-autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "ACHTUNG: Grüne Kartoffelknollen, Keime und alle oberirdischen Pflanzenteile (Blätter, Beeren) enthalten toxische Glykoalkaloide (Solanin, Chaconin). Verzehr grüner oder gekeimter Kartoffeln kann Übelkeit, Erbrechen, Bauchkrämpfe und in hohen Dosen neurologische Symptome verursachen. Grüne Stellen großzügig tief herausschneiden; stark gekeimte oder großflächig grüne Knollen entsorgen, nicht kochen. Rohe Kartoffeln sind wegen unverdaulicher Stärke schlecht bekömmlich. Kartoffelsaft aus grünfreien Knollen gilt in kleinen Mengen als traditionell unbedenklich; Eigenmedikation mit Kartoffelsaft bei ernsthaften Magenbeschwerden ersetzt keine ärztliche Abklärung.",
+      "en": "WARNING: Green potato tubers, sprouts and all above-ground plant parts (leaves, berries) contain toxic glycoalkaloids (solanine, chaconine). Consuming green or sprouted potatoes can cause nausea, vomiting, abdominal cramps and, in high doses, neurological symptoms. Cut out green patches generously and deeply; discard heavily sprouted or extensively green tubers — do not cook them. Raw potato is poorly digestible due to indigestible raw starch. Potato juice from greenness-free tubers is considered traditionally safe in small amounts; self-medicating with potato juice for serious gastric complaints does not replace medical evaluation."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Gegarte Kartoffeln gelten als sicher in Schwangerschaft und Stillzeit — wertvolle Kalium-, Vitamin-C- und Kohlenhydratquelle. Grüne oder gekeimte Kartoffeln meiden (Solanin). Roher Kartoffelsaft in der Schwangerschaft aus Vorsicht meiden.",
+        "en": "Cooked potatoes are considered safe in pregnancy and lactation — a valuable source of potassium, vitamin C and carbohydrates. Avoid green or sprouted potatoes (solanine). Raw potato juice should be avoided in pregnancy as a precaution."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Gegarte Kartoffeln uneingeschränkt geeignet. Rohen Kartoffelsaft oder übermäßige Mengen roher Knolle meiden.",
+        "en": "Cooked potatoes are fully suitable. Avoid raw potato juice or excessive amounts of raw tuber."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Gegarte Kartoffeln (Brei, Suppe, Ofenkartoffel) sind ab dem Beikost-Alter (ca. 6 Monate) geeignet — häufig eines der ersten Beikostgemüse. Keine grünen oder gekeimten Kartoffeln bei Kindern; Solanin-Empfindlichkeit kann bei Kleinkindern stärker ausgeprägt sein. Kartoffelsaft für Kleinkinder nicht geeignet.",
+        "en": "Cooked potatoes (mash, soup, baked) are suitable from weaning age (approx. 6 months) — frequently one of the first solid foods. No green or sprouted potatoes for children; solanine sensitivity may be more pronounced in young children. Potato juice is not suitable for toddlers."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Kaliumsparende Diuretika / ACE-Hemmer / Kalium-Supplemente",
+        "mechanism": {
+          "de": "Kartoffeln sind kaliumreich (ca. 420 mg/100 g). Bei gleichzeitiger Einnahme kaliumsparender Diuretika (Spironolacton, Amilorid), ACE-Hemmern oder Kalium-Supplementen können hohe Kartoffelmengen zur Hyperkaliämie beitragen. Relevanz nur bei sehr hohem Verzehr oder Niereninsuffizienz — bei normaler Ernährung klinisch unbedeutsam.",
+          "en": "Potatoes are potassium-rich (approx. 420 mg/100 g). With concurrent use of potassium-sparing diuretics (spironolactone, amiloride), ACE inhibitors or potassium supplements, large potato intake may contribute to hyperkalaemia. Relevant only with very high consumption or renal impairment — clinically insignificant at normal dietary levels."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Grüne, gekeimte oder beschädigte Knollen mit hohem Solanin-Gehalt — nicht verzehren.",
+        "en": "Green, sprouted or damaged tubers with high solanine content — do not consume."
+      },
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Nachtschattengewächsen (Solanaceae) — Kartoffel meiden.",
+        "en": "Known hypersensitivity to nightshade plants (Solanaceae) — avoid potato."
+      },
+      {
+        "de": "Schwere Niereninsuffizienz (Kaliumrestriktion notwendig) — Kartoffelkonsum ärztlich abklären.",
+        "en": "Severe renal failure (potassium restriction required) — consult a physician regarding potato consumption."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Kartoffel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Kartoffel",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Potato (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Potato",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_usda_potato",
+      "type": "monograph",
+      "title": "USDA FoodData Central — Potatoes, flesh and skin, raw (FDC ID 170026)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170026/nutrients",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_efsa_potato",
+      "type": "monograph",
+      "title": "EFSA — Compendium of botanicals reported to contain naturally occurring substances of possible concern for human health when used in food and food supplements (Solanum tuberosum entry)",
+      "url": "https://www.efsa.europa.eu/en/efsajournal/pub/2663",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_solanum",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Solanum tuberosum database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Solanum+tuberosum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_maud_grieve",
+      "type": "book",
+      "title": "Grieve, Maud — A Modern Herbal (1931, Public Domain): Potato entry",
+      "url": "https://www.botanical.com/botanical/mgmh/p/potato38.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_heilkraeuter_kartoffel",
+      "type": "monograph",
+      "title": "Heilkräuter-Lexikon — Kartoffel (Solanum tuberosum)",
+      "url": "https://www.heilkraeuter.de/lexikon/kartoffel.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_kartoffel",
+      "type": "wikipedia",
+      "title": "Kartoffel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Kartoffel",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_potato",
+      "type": "wikipedia",
+      "title": "Potato (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Potato",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_potato",
+      "type": "wikidata",
+      "title": "Solanum tuberosum — Wikidata (Q10998)",
+      "url": "https://www.wikidata.org/wiki/Q10998",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_commons_potato",
+      "type": "commons",
+      "title": "Wikimedia Commons — Solanum tuberosum image collection",
+      "url": "https://commons.wikimedia.org/wiki/Solanum_tuberosum",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "solanum-tuberosum.jpg",
+    "alt": {
+      "de": "Foto von Kartoffel",
+      "en": "Photo of Potato"
+    },
+    "license": "Public domain",
+    "author": "Amédée Masclef",
+    "source_url": "https://commons.wikimedia.org/wiki/File:234_Solanum_tuberosum_L.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 4,
+        "end_month": 5
+      }
+    },
+    "harvest_window": {
+      "start_month": 7,
+      "end_month": 10
+    },
+    "days_to_harvest": 110,
+    "spacing_cm": 35,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "companion_planting": {
+    "good_partners": [
+      "calendula-officinalis",
+      "phaseolus-vulgaris-nanus",
+      "spinacia-oleracea",
+      "tagetes-patula"
+    ],
+    "bad_partners": [
+      "apium-graveolens",
+      "cucurbita-pepo",
+      "cucurbita-pepo-zucchini",
+      "solanum-lycopersicum"
+    ],
+    "reasons": {
+      "cucurbita-pepo": {
+        "de": "Beide stark zehrend — konkurrieren um Wasser und Nährstoffe.",
+        "en": "Both heavy feeders — compete for water and nutrients."
+      },
+      "cucurbita-pepo-zucchini": {
+        "de": "Beide stark zehrend — Wasser- und Nährstoff-Konkurrenz.",
+        "en": "Both heavy feeders — water and nutrient competition."
+      },
+      "phaseolus-vulgaris-nanus": {
+        "de": "Buschbohne hält Kartoffelkäfer fern (klassische Bauernregel).",
+        "en": "Bush bean deters Colorado potato beetle (classic rule)."
+      },
+      "solanum-lycopersicum": {
+        "de": "Beide Nachtschattengewächse — Kraut- und Knollenfäule überträgt sich.",
+        "en": "Both Solanaceae — late blight transfers between them."
+      },
+      "spinacia-oleracea": {
+        "de": "Spinat als Untersaat liefert Stickstoff und beschattet den Boden.",
+        "en": "Spinach as undersowing provides nitrogen and shades soil."
+      },
+      "tagetes-patula": {
+        "de": "Tagetes vertreibt Nematoden, die an Kartoffel-Knollen nagen.",
+        "en": "Marigold deters nematodes that attack potato tubers."
+      }
+    },
+    "notes_de": "solanum-lycopersicum: Beide Nachtschattengewächse — Kraut- und Knollenfäule überträgt sich. phaseolus-vulgaris-nanus: Buschbohne hält Kartoffelkäfer fern. tagetes-patula: Tagetes vertreibt Nematoden im Kartoffelbeet. spinacia-oleracea: Spinat als Untersaat liefert Stickstoff und beschattet Boden. cucurbita-pepo: Beide stark zehrend — konkurrieren um Wasser und Nährstoffe. cucurbita-pepo-zucchini: Beide stark zehrend — Konkurrenz.",
+    "notes_en": "solanum-lycopersicum: Both Solanaceae — late blight transfers between them. phaseolus-vulgaris-nanus: Bush bean deters Colorado potato beetle. tagetes-patula: Marigold deters nematodes in the potato bed. spinacia-oleracea: Spinach as undersowing provides nitrogen and shades soil. cucurbita-pepo: Both heavy feeders — compete for water and nutrients. cucurbita-pepo-zucchini: Both heavy feeders — competition.",
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "vertical_low",
+    "root_loosener"
+  ],
+  "constituents": [
+    {
+      "name": "Stärke (Amylum solani)",
+      "category": "polysaccharide",
+      "percent_range": "15-25 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Hauptbestandteil der Kartoffelknolle — unverzweigte Amylose (ca. 20–25 %) und verzweigtes Amylopektin (ca. 75–80 %). Rohstärke ist für den Menschen unverdaulich (resistente Stärke); Erhitzen quillt die Stärkegranula auf und macht sie verdaulich. Abgekühlte gegarte Kartoffeln enthalten mehr resistente Stärke (präbiotisch, bifidogen) als frisch gare.",
+        "en": "Primary constituent of the potato tuber — unbranched amylose (approx. 20–25 %) and branched amylopectin (approx. 75–80 %). Raw starch is indigestible for humans (resistant starch); heating gelatinises the granules and makes them digestible. Cooled cooked potatoes contain more resistant starch (prebiotic, bifidogenic) than freshly cooked."
+      }
+    },
+    {
+      "name": "Ascorbinsäure (Vitamin C)",
+      "category": "vitamin",
+      "percent_range": "10-30 mg/100 g (frisch)",
+      "plant_part": "root",
+      "note": {
+        "de": "Bedeutende Vitamin-C-Quelle trotz Stärkedominanz — neue Kartoffeln (Frühkartoffeln) enthalten bis zu 30 mg/100 g, lang gelagerte nur noch 5–10 mg. Hitze- und oxidationsempfindlich: Kochen ohne Schale in viel Wasser reduziert den Gehalt um 30–50 %. Historisch wichtig zur Skorbut-Prävention in Nord- und Mitteleuropa.",
+        "en": "Significant vitamin C source despite starch dominance — new-season potatoes contain up to 30 mg/100 g, long-stored ones only 5–10 mg. Heat- and oxidation-sensitive: boiling peeled in excess water reduces content by 30–50 %. Historically important for scurvy prevention in Northern and Central Europe."
+      }
+    },
+    {
+      "name": "Kalium",
+      "category": "mineral",
+      "percent_range": "350-550 mg/100 g",
+      "plant_part": "root",
+      "note": {
+        "de": "Die Kartoffel ist eine der besten pflanzlichen Kaliumquellen in der europäischen Ernährung. Kalium ist essenziell für die Regulation des Blutdrucks, die neuromuskuläre Erregungsleitung und die Herzfunktion. Bei Zubereitung mit Schale bleibt der Kaliumgehalt weitgehend erhalten; Schälen und Wässern reduziert ihn erheblich.",
+        "en": "The potato is one of the best plant-based potassium sources in the European diet. Potassium is essential for blood pressure regulation, neuromuscular excitation conduction and cardiac function. Cooking with skin retains potassium content largely; peeling and soaking reduces it considerably."
+      }
+    },
+    {
+      "name": "Vitamin B6 (Pyridoxin)",
+      "category": "vitamin",
+      "percent_range": "0,2-0,3 mg/100 g",
+      "plant_part": "root",
+      "note": {
+        "de": "Eine mittelgroße Kartoffel (ca. 150 g) deckt ca. 25–30 % des täglichen Vitamin-B6-Bedarfs eines Erwachsenen. Vitamin B6 ist essenziell für den Aminosäurestoffwechsel, die Neurotransmittersynthese (Serotonin, Dopamin) und die Immunfunktion. Weniger hitzeempfindlich als Vitamin C.",
+        "en": "A medium potato (approx. 150 g) covers approx. 25–30 % of an adult's daily vitamin B6 requirement. Vitamin B6 is essential for amino acid metabolism, neurotransmitter synthesis (serotonin, dopamine) and immune function. Less heat-sensitive than vitamin C."
+      }
+    },
+    {
+      "name": "Ballaststoffe (Dietary fibre — Pektin, Zellulose)",
+      "category": "polysaccharide",
+      "percent_range": "1,5-2,5 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Kartoffeln mit Schale liefern mehr Ballaststoffe als geschälte. Pektin in der Kartoffelschale wirkt als löslicher Ballaststoff (präbiotisch, cholesterin-modifizierend), Zellulose als unlöslicher (Darmperistaltik-fördernd). Abgekühlte gegarte Kartoffeln enthalten zusätzlich resistente Stärke, die funktionell wie ein Ballaststoff wirkt.",
+        "en": "Potatoes with skin provide more dietary fibre than peeled ones. Pectin in the potato skin acts as a soluble fibre (prebiotic, cholesterol-modifying); cellulose as insoluble fibre (promoting intestinal peristalsis). Cooled cooked potatoes additionally contain resistant starch that functions like a dietary fibre."
+      }
+    },
+    {
+      "name": "Protein (Patatin + Protease-Inhibitoren)",
+      "category": "other",
+      "percent_range": "1,5-2,5 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Das Haupt-Speicherprotein der Kartoffel ist Patatin (ca. 40 % des Gesamtproteins) — ein Glykoprotein mit lipase-ähnlicher Aktivität. Das Kartoffelprotein hat eine relativ hohe biologische Wertigkeit (vergleichbar mit Leguminosen) und enthält alle essenziellen Aminosäuren. Protease-Inhibitoren der Kartoffel zeigen präklinisch appetitzügelnde Wirkung.",
+        "en": "The main storage protein of the potato is patatin (approx. 40 % of total protein) — a glycoprotein with lipase-like activity. Potato protein has relatively high biological value (comparable to legumes) and contains all essential amino acids. Potato protease inhibitors show preclinical appetite-suppressing activity."
+      }
+    },
+    {
+      "name": "Glykoalkaloide (Solanin / alpha-Solanin, Chaconin / alpha-Chaconin)",
+      "category": "alkaloid",
+      "percent_range": "0,002-0,1 % (toxisch ab ~0,02 %)",
+      "plant_part": "root",
+      "note": {
+        "de": "Natürliche Schutzsubstanzen der Pflanze gegen Fraßfeinde und Pathogene. Konzentration in normalen, lichtgeschützt gelagerten Knollen liegt unter der Toxizitätsschwelle (< 20 mg/100 g). In grünen Stellen, Keimen, Schale und allen oberirdischen Pflanzenteilen stark erhöht. Solanin und Chaconin hemmen Cholinesterase (neurotoxisch), reizen die Magenschleimhaut und können bei höheren Dosen Erbrechen, Durchfall und Verwirrtheit verursachen. Hitzestabil — Kochen reduziert Solanin kaum.",
+        "en": "Natural defence compounds of the plant against herbivores and pathogens. Concentration in normally stored, light-protected tubers is below the toxicity threshold (< 20 mg/100 g). Significantly elevated in green areas, sprouts, skin and all above-ground plant parts. Solanine and chaconine inhibit cholinesterase (neurotoxic), irritate gastric mucosa and at higher doses can cause vomiting, diarrhoea and confusion. Heat-stable — cooking barely reduces solanine."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Ernte bevorzugt an trockenen Tagen — nasse Knollen schimmeln schneller im Lager. Frühkartoffeln (Sortengruppe 'früh') ab Juli, Mittelfrühe ab August, Spätkartoffeln ab September/Oktober.",
+        "en": "Harvest preferably on dry days — wet tubers moulder more quickly in storage. Early varieties from July, mid-season from August, late varieties from September/October."
+      },
+      "drying": {
+        "de": "ERNTE UND LAGERUNG: Knollen erst ernten, wenn das Kraut (Laub) vollständig abgestorben oder abgefrostet ist — dann ist die Schale ausgereift und fest (wichtig für Lagerfähigkeit). Mit der Grabegabel sorgfältig ausheben, nicht stechen. Ernteknollen 1–2 Wochen 'abheilen lassen' (Curing): bei 10–15 °C und hoher Luftfeuchtigkeit (85–95 %) lagern, damit Wunden in der Schale verkorken. Dann endgültig dunkel, kühl (4–8 °C), luftig und trocken einlagern — Licht lässt Solanin entstehen! Nicht neben Äpfeln lagern (Ethylen fördert Keimung). Bei richtiger Lagerung halten Speisekartoffeln 4–6 Monate.",
+        "en": "HARVEST AND STORAGE: Only harvest tubers after the foliage (haulm) has completely died back or been frosted — the skin is then mature and firm (essential for storage quality). Lift carefully with a garden fork, do not spear. Cure harvested tubers for 1–2 weeks: store at 10–15 °C and high humidity (85–95 %) so that skin wounds suberise. Then store permanently dark, cool (4–8 °C), well-ventilated and dry — light triggers solanine formation! Do not store near apples (ethylene promotes sprouting). Properly stored table potatoes keep 4–6 months."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Dunkel, kühl (4–8 °C), luftig und trocken. Kein Licht (Solanin-Bildung!), keine Nähe zu Äpfeln oder Zwiebeln. Regelmäßig kontrollieren, gekeimte oder grüne Knollen sofort aussortieren.",
+        "en": "Dark, cool (4–8 °C), well-ventilated and dry. No light (solanine formation!); keep away from apples and onions. Check regularly; immediately remove any sprouted or green tubers."
+      }
+    },
+    {
+      "plant_part": "root",
+      "best_months": [
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Frühkartoffeln ('neue Kartoffeln') können ab Anfang/Mitte Juni probeweise geerntet werden, sobald die Blüte beginnt (Probeernte). Erste Knollen sind dann noch klein (Babykartoffeln), haben aber höchsten Vitamin-C-Gehalt und zartes Aroma.",
+        "en": "Early potatoes ('new potatoes') can be tentatively harvested from early/mid-June once flowering begins (trial harvest). First tubers are still small (baby potatoes) at that point but have the highest vitamin C content and delicate flavour."
+      },
+      "drying": {
+        "de": "Frühkartoffeln werden nicht eingelagert — sie haben noch keine ausgereifte, feste Schale (sog. 'feuchte Schale') und halten nur wenige Tage im Kühlschrank. Frisch ernten, bald verbrauchen. Nicht waschen vor der Lagerung.",
+        "en": "Early potatoes are not stored — they have not yet developed a mature, firm skin ('wet skin') and keep for only a few days in the refrigerator. Harvest fresh, consume promptly. Do not wash before refrigerating."
+      },
+      "storage_condition": {
+        "de": "Frühkartoffeln ohne Lagerung — frisch ernten und innerhalb weniger Tage verbrauchen. Im Kühlschrank max. 3–5 Tage.",
+        "en": "Early potatoes without storage — harvest fresh and consume within a few days. In the refrigerator max. 3–5 days."
+      }
+    }
+  ]
+}

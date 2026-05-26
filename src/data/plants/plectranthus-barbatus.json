@@ -1,0 +1,514 @@
+{
+  "slug": "plectranthus-barbatus",
+  "names": {
+    "de": "Harfensträucher",
+    "en": "Coleus barbatus",
+    "latin": "Plectranthus barbatus"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Die Harfensträucher (Plectranthus) sind eine Pflanzengattung innerhalb der Familie der Lippenblütler (Lamiaceae).",
+    "en": "Coleus barbatus, also known by the synonyms Plectranthus barbatus and incorrectly Coleus forskalaei, is a tropical perennial plant related to the typical coleus species. It is known by the common name woolly plectranthus. It produces forskolin, an extract useful for pharmaceutical preparations and research in cell biology."
+  },
+  "teaser": {
+    "de": "Die Harfensträucher (Plectranthus) sind eine Pflanzengattung innerhalb der Familie der Lippenblütler (Lamiaceae).",
+    "en": "Coleus barbatus, also known by the synonyms Plectranthus barbatus and incorrectly Coleus forskalaei, is a tropical pe..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "In der brasilianischen und afrikanischen Volksmedizin werden die Blätter des Indischen Buntnesssels als 'falso boldo' als Tee bei Verdauungsbeschwerden, Leberbeschwerden und Blähungen eingesetzt. Das Alkaloid Coleon E sowie Rosmarinsäure sind für die antispasmodischen und verdauungsfördernden Eigenschaften mitverantwortlich. Diese Anwendung ist ethnobotanisch gut dokumentiert, eine EMA-Monographie besteht nicht.",
+        "en": "In Brazilian and African folk medicine, the leaves of Indian coleus ('falso boldo') are used as a tea for digestive complaints, liver ailments, and flatulence. Coleon E and rosmarinic acid contribute to the antispasmodic and digestive properties. This use is well documented ethnobotanically; no EMA monograph exists."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–4 g getrocknete Blätter mit 200 ml kochendem Wasser übergießen, 10 Minuten ziehen lassen, abseihen. Bis zu 3 Tassen täglich, nicht länger als 4 Wochen ohne ärztlichen Rat.",
+          "en": "Pour 200 ml boiling water over 2–4 g dried leaves, steep 10 minutes, strain. Up to 3 cups daily, not longer than 4 weeks without medical advice."
+        }
+      },
+      "source_ids": [
+        "src_plect_review1",
+        "src_plect_foodchem"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "circulation",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Forskolinreiche Wurzelextrakte von Plectranthus barbatus aktivieren direkt die Adenylylcyclase und erhöhen intrazelluläre cAMP-Spiegel, was positive Inotropie und Vasodilatation bewirkt. Dieser Mechanismus wurde in vitro und in tierexperimentellen Studien charakterisiert. Klinische Humanstudien mit Fertigextrakten bei Herzinsuffizienz sind begrenzt; die zugrundeliegende Pharmakologie ist belegt.",
+        "en": "Forskolin-rich root extracts of Plectranthus barbatus directly activate adenylyl cyclase and elevate intracellular cAMP levels, producing positive inotropy and vasodilation. This mechanism has been characterised in vitro and in animal studies. Clinical human trials with standardised extracts for heart failure are limited; the underlying pharmacology is established."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "Standardisierte Fertigpräparate (Forskolingehalt 10–20 mg/Dosis) bevorzugen. Nur unter ärztlicher Aufsicht bei Herz-Kreislauf-Indikationen anwenden.",
+          "en": "Prefer standardised ready-made preparations (forskolin content 10–20 mg/dose). Use only under medical supervision for cardiovascular indications."
+        }
+      },
+      "source_ids": [
+        "src_plect_mol_pharm",
+        "src_plect_skin_diffusion",
+        "src_plect_review1"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "In Ostafrika und auf der Arabischen Halbinsel werden Blätteraufgüsse traditionell bei Erkältungen, Bronchitis und Husten eingesetzt. Forskolinderivate können Bronchospasmus lindern; die cAMP-Erhöhung relaxiert glatte Bronchialmuskulatur. Die antitussive Wirkung ist ethnobotanisch belegt, klinische Daten sind rar.",
+        "en": "In East Africa and the Arabian Peninsula, leaf infusions are traditionally used for colds, bronchitis, and coughs. Forskolin derivatives can relieve bronchospasm; cAMP elevation relaxes smooth bronchial muscle. The antitussive effect is well attested ethnobotanically; clinical data are sparse."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "2–3 g Blätter mit 200 ml kochendem Wasser 10 Minuten ziehen lassen, absiehen. 2-mal täglich bei Atemwegsbeschwerden.",
+          "en": "Steep 2–3 g leaves in 200 ml boiling water for 10 minutes, strain. Twice daily for respiratory complaints."
+        }
+      },
+      "source_ids": [
+        "src_plect_review2",
+        "src_plect_review1"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Rosmarinsäure und Scutellarein-4'-methylether-7-O-Glucuronid aus Plectranthus barbatus hemmen in vitro die Acetylcholinesterase (AChE). Diese Hemmung kann die cholinerge Neurotransmission unterstützen, was für Gedächtnis und kognitive Funktion relevant ist. Die Wirksamkeit wurde in Zellkultur- und Enzymassay-Studien belegt.",
+        "en": "Rosmarinic acid and scutellarein 4'-methyl ether 7-O-glucuronide from Plectranthus barbatus inhibit acetylcholinesterase (AChE) in vitro. This inhibition may support cholinergic neurotransmission, relevant for memory and cognitive function. Efficacy has been demonstrated in cell culture and enzyme assay studies."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "Ethanolischer Blattextrakt (1:5, 40 % Ethanol): 2–3 ml 2-mal täglich. Nur als Ergänzung — keine Eigentherapie bei kognitiven Störungen.",
+          "en": "Ethanolic leaf extract (1:5, 40% ethanol): 2–3 ml twice daily. Supplement only — do not self-treat cognitive disorders."
+        }
+      },
+      "source_ids": [
+        "src_plect_foodchem",
+        "src_plect_ache_planta"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der afrikanischen Volksmedizin werden frische Blätter zerquetscht und als Umschlag auf Wunden, Geschwüre und Hautinfektionen aufgetragen. Abietanditerpenoide aus den Blättern zeigen antimikrobielle Aktivität gegen gramnegative und grampositive Keime.",
+        "en": "In African folk medicine, fresh leaves are crushed and applied as a poultice to wounds, ulcers, and skin infections. Abietane diterpenoids from the leaves show antimicrobial activity against gram-negative and gram-positive bacteria."
+      },
+      "source_ids": [
+        "src_plect_antiprotozoal",
+        "src_plect_review2"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "skin",
+        "immune"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Das ätherische Öl aus den Blättern und Kelchdrüsen enthält Camphor, Cineol und andere Monoterpene. Es wird in der Volksmedizin extern bei Hautreizungen, Insektenstichen und als antiseptisches Mittel verwendet. Die antimikrobielle Wirkung der Terpenkomponenten ist in vitro belegt.",
+        "en": "The essential oil from leaves and calyx glands contains camphor, cineole, and other monoterpenes. It is used in folk medicine externally for skin irritations, insect stings, and as an antiseptic. Antimicrobial activity of the terpene components is confirmed in vitro."
+      },
+      "source_ids": [
+        "src_plect_review1",
+        "src_plect_new_diterp"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Wurzelextrakte von Plectranthus barbatus werden in der ayurvedischen und brasilianischen Volksmedizin zur Immunstärkung und als allgemeines Tonikum eingesetzt. Das enthaltene Forskolin moduliert cAMP-abhängige Immunsignalwege. Belastbare klinische Daten für immunmodulierende Wirkungen beim Menschen fehlen.",
+        "en": "Root extracts of Plectranthus barbatus are used in Ayurvedic and Brazilian folk medicine for immune support and as a general tonic. Forskolin modulates cAMP-dependent immune signalling pathways. Robust clinical data for immunomodulatory effects in humans are lacking."
+      },
+      "source_ids": [
+        "src_plect_review2",
+        "src_plect_antiprotozoal"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "Blätter",
+      "en": "leaves"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Forskolinhaltige Extrakte können den Blutdruck senken und mit Antihypertensiva oder Antikoagulantien interagieren. Nicht als Selbstmedikation bei Herz-Kreislauf-Erkrankungen einsetzen. Anwendung bei Magen-Darm-Ulkus mit Vorsicht. Nicht für Kinder unter 12 Jahren. Keine Langzeitanwendung (>4 Wochen) ohne ärztlichen Rat.",
+      "en": "Forskolin-containing extracts may lower blood pressure and interact with antihypertensives or anticoagulants. Do not self-medicate cardiovascular conditions. Use with caution in gastric or duodenal ulcer. Not for children under 12 years. No long-term use (>4 weeks) without medical advice."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Forskolin stimuliert cAMP in glattem Uterusmuskel und kann uterustonusverändernd wirken. In der Schwangerschaft kontraindiziert; keine Sicherheitsdaten vorhanden.",
+        "en": "Forskolin stimulates cAMP in smooth uterine muscle and may alter uterine tone. Contraindicated during pregnancy; no safety data available."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten zum Übertritt von Forskolin oder Inhaltsstoffen in die Muttermilch. Aus Vorsichtsgründen nicht anwenden.",
+        "en": "No data on transfer of forskolin or other constituents into breast milk. Avoid as a precaution."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Keine klinischen Daten für Kinder. Traditionelle Anwendung auf Erwachsene beschränkt. Nicht unter 12 Jahren ohne ärztlichen Rat.",
+        "en": "No clinical data for children. Traditional use limited to adults. Not under 12 years without medical advice."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Schwangerschaft (uterusstimulierendes Potenzial von Forskolin)",
+        "en": "Pregnancy (uterine-stimulating potential of forskolin)"
+      },
+      {
+        "de": "Bestehende Blutungsneigung oder Einnahme von gerinnungshemmenden Arzneimitteln",
+        "en": "Existing bleeding tendency or use of anticoagulant medications"
+      },
+      {
+        "de": "Magen-Darm-Ulkus (Forskolininduzierte Magensäuresekretion möglich)",
+        "en": "Gastric or duodenal ulcer (forskolin-induced gastric acid secretion possible)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antihypertensiva (Blutdrucksenker)",
+        "mechanism": {
+          "de": "Forskolin senkt den peripheren Gefäßwiderstand durch cAMP-Aktivierung; additiver blutdrucksenkender Effekt möglich.",
+          "en": "Forskolin lowers peripheral vascular resistance via cAMP activation; additive blood pressure-lowering effect possible."
+        },
+        "severity": "caution",
+        "source_id": "src_plect_review1"
+      },
+      {
+        "drug_class": "Antikoagulantien / Thrombozytenaggregationshemmer",
+        "mechanism": {
+          "de": "cAMP-Erhöhung durch Forskolin hemmt die Thrombozytenaggregation; kombinierte Blutungsneigung bei gleichzeitiger Antikoagulation.",
+          "en": "cAMP elevation by forskolin inhibits platelet aggregation; combined bleeding tendency with concurrent anticoagulation."
+        },
+        "severity": "caution",
+        "source_id": "src_plect_review1"
+      },
+      {
+        "drug_class": "Theophyllin / PDE-Hemmer",
+        "mechanism": {
+          "de": "Synergistischer cAMP-Anstieg durch Hemmung des cAMP-Abbaus (Theophyllin) und Aktivierung der Adenylylcyclase (Forskolin).",
+          "en": "Synergistic cAMP rise through inhibition of cAMP degradation (theophylline) and activation of adenylyl cyclase (forskolin)."
+        },
+        "severity": "monitor",
+        "source_id": "src_plect_mol_pharm"
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Harfensträucher (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Harfenstr%C3%A4ucher",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Coleus barbatus (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Coleus_barbatus",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_plect_review1",
+      "type": "monograph",
+      "title": "Alasbahi & Melzig (2010): Plectranthus barbatus: A Review of Phytochemistry, Ethnobotanical Uses and Pharmacology – Part 1. Planta Medica 76(7):653-661. DOI 10.1055/s-0029-1240898",
+      "url": "https://doi.org/10.1055/s-0029-1240898",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_plect_review2",
+      "type": "monograph",
+      "title": "Alasbahi & Melzig (2010): Plectranthus barbatus: A Review of Phytochemistry, Ethnobotanical Uses and Pharmacology – Part 2. Planta Medica 76(8):753-765. DOI 10.1055/s-0029-1240919",
+      "url": "https://doi.org/10.1055/s-0029-1240919",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_plect_skin_diffusion",
+      "type": "monograph",
+      "title": "Chen et al. (2009): In Vitro Skin Diffusion Study of Pure Forskolin versus a Forskolin-Containing Plectranthus barbatus Root Extract. J. Nat. Prod. 72(4):769-771. DOI 10.1021/np800541k",
+      "url": "https://doi.org/10.1021/np800541k",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_plect_foodchem",
+      "type": "monograph",
+      "title": "Falé et al. (2009): Rosmarinic acid, scutellarein 4'-methyl ether 7-O-glucuronide and (16S)-coleon E are the main compounds responsible for the antiacetylcholinesterase and antioxidant activity in herbal tea of Plectranthus barbatus. Food Chemistry 114(3):798-805. DOI 10.1016/j.foodchem.2008.10.015",
+      "url": "https://doi.org/10.1016/j.foodchem.2008.10.015",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_plect_ache_planta",
+      "type": "monograph",
+      "title": "Falé et al. (2008): Acetylcholinesterase inhibition by Rosmarinic acid from Plectranthus (Lamiaceae) species. Planta Medica 74(09):1284. DOI 10.1055/s-0028-1084086",
+      "url": "https://doi.org/10.1055/s-0028-1084086",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_plect_antiprotozoal",
+      "type": "monograph",
+      "title": "Mothana et al. (2014): In Vitro Antiprotozoal Activity of Abietane Diterpenoids Isolated from Plectranthus barbatus Andr. Int. J. Mol. Sci. 15(5):8360-8371. DOI 10.3390/ijms15058360",
+      "url": "https://doi.org/10.3390/ijms15058360",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_plect_new_diterp",
+      "type": "monograph",
+      "title": "Ishii et al. (2022): Two New Abietane Diterpenoids from Plectranthus barbatus. Chemistry of Natural Compounds 58(5):860-863. DOI 10.1007/s10600-022-03712-y",
+      "url": "https://doi.org/10.1007/s10600-022-03712-y",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_plect_mol_pharm",
+      "type": "monograph",
+      "title": "Yan et al. (1998): Conversion of Forskolin-Insensitive to Forskolin-Sensitive (Mouse-Type IX) Adenylyl Cyclase. Molecular Pharmacology 53(2):182-187. DOI 10.1124/mol.53.2.182",
+      "url": "https://doi.org/10.1124/mol.53.2.182",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "plectranthus-barbatus.jpg",
+    "alt": {
+      "de": "Foto von Harfensträucher",
+      "en": "Photo of Coleus barbatus"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "H. Zell",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Plectranthus_fruticosus_002.JPG"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "medicinal"
+    ],
+    "rooms": [
+      "living_room",
+      "balcony"
+    ],
+    "light": "bright_indirect",
+    "water_frequency": "weekly",
+    "difficulty": 1,
+    "pet_safe": true,
+    "soil": {
+      "de": "Standard-Blumenerde",
+      "en": "Standard potting compost"
+    },
+    "pot_size_cm": 20,
+    "tips": {
+      "de": [
+        "Sehr robust — verzeiht Pflegefehler.",
+        "Stecklinge wurzeln einfach im Wasserglas."
+      ],
+      "en": [
+        "Very robust — forgives care mistakes.",
+        "Cuttings root easily in a glass of water."
+      ]
+    }
+  },
+  "constituents": [
+    {
+      "name": "Forskolin (Coleonol)",
+      "category": "other",
+      "plant_part": "root",
+      "percent_range": "0.1-0.6 %",
+      "note": {
+        "de": "Labdanditerpenoid; Leitsubstanz von Plectranthus barbatus; direkter Aktivator der Adenylylcyclase, erhöht cAMP in praktisch allen Säugerzellen. Wichtigstes pharmakologisch aktives Prinzip.",
+        "en": "Labdane diterpenoid; characteristic compound of Plectranthus barbatus; direct activator of adenylyl cyclase, raises cAMP in virtually all mammalian cells. Key pharmacologically active principle."
+      }
+    },
+    {
+      "name": "Rosmarinsäure / Rosmarinic acid",
+      "category": "phenolic_acid",
+      "plant_part": "leaf",
+      "percent_range": "0.5-2 %",
+      "note": {
+        "de": "Dominante Phenolsäure in P. barbatus-Blättern; hemmt Acetylcholinesterase und Butyrylcholinesterase; stark antioxidativ und anti-entzündlich.",
+        "en": "Dominant phenolic acid in P. barbatus leaves; inhibits acetylcholinesterase and butyrylcholinesterase; strongly antioxidant and anti-inflammatory."
+      }
+    },
+    {
+      "name": "Coleon E / (16S)-Coleon E",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Abietanditerpenoid aus P. barbatus; hemmt AChE und zeigt antioxidative Aktivität; zusammen mit Rosmarinsäure Hauptwirkstoff des Kräutertees.",
+        "en": "Abietane diterpenoid from P. barbatus; inhibits AChE and shows antioxidant activity; together with rosmarinic acid the main active component of the herbal tea."
+      }
+    },
+    {
+      "name": "Scutellarein-4'-methylether-7-O-Glucuronid",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavonglykosid in P. barbatus-Tee; neben Rosmarinsäure einer der AChE-hemmenden Leitverbindungen im Aufguss.",
+        "en": "Flavone glycoside in P. barbatus tea; together with rosmarinic acid one of the acetylcholinesterase-inhibiting lead compounds in the infusion."
+      }
+    },
+    {
+      "name": "Abietanditerpenoide (Plectracoloide A/B u. a.)",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "Gruppe von Abietanditerpenoiden, neu beschrieben 2022 (Ishii et al.); zeigen in vitro antimikrobielle und antiparasitäre Aktivität.",
+        "en": "Group of abietane diterpenoids newly described in 2022 (Ishii et al.); show in vitro antimicrobial and antiparasitic activity."
+      }
+    },
+    {
+      "name": "Luteolin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavon in Lamiaceenblättern; anti-entzündlich durch Hemmung von NF-κB und COX-2; antioxidative Ergänzung zu Rosmarinsäure.",
+        "en": "Flavone in Lamiaceae leaves; anti-inflammatory through inhibition of NF-κB and COX-2; antioxidant complement to rosmarinic acid."
+      }
+    },
+    {
+      "name": "Camphor / Cineol (ätherisches Öl)",
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "percent_range": "0.1-1.5 %",
+      "note": {
+        "de": "Hauptkomponenten des ätherischen Öls der Blätter und Kelchdrüsen; antimikrobiell, schwach analgetisch-extern; verleihen der Pflanze ihren charakteristischen Geruch.",
+        "en": "Main components of the essential oil in leaves and calyx glands; antimicrobial, mildly analgesic externally; give the plant its characteristic odour."
+      }
+    },
+    {
+      "name": "Ursolsäure / Ursolic acid",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Triterpensäure in P. barbatus; anti-entzündlich und hepatoprotektiv; unterstützt die Leberanwendung in der Volksmedizin.",
+        "en": "Triterpenic acid in P. barbatus; anti-inflammatory and hepatoprotective; supports the liver use in folk medicine."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Trocknen des Taus, vor der stärksten Mittagshitze",
+        "en": "Morning after dew has dried, before the peak midday heat"
+      },
+      "drying": {
+        "de": "Blätter bei 35–40 °C in einem schattigen, gut belüfteten Raum ausbreiten. Nicht bündeln — Schimmelrisiko. Trocken wenn sie rascheln.",
+        "en": "Spread leaves at 35–40 °C in a shaded, well-ventilated room. Do not bundle — mould risk. Dry when they rustle."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In dunklen, dicht schließenden Glasgefäßen oder Papiertüten bei kühler, trockener Raumtemperatur lagern.",
+        "en": "Store in dark, tightly sealed glass jars or paper bags at cool, dry room temperature."
+      }
+    },
+    {
+      "plant_part": "root",
+      "best_months": [
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "Keine Tageszeit-Beschränkung; Wurzeln nach dem ersten Absterben der Triebe ernten (maximaler Forskolingehalt nach der Wachstumsperiode).",
+        "en": "No time-of-day restriction; harvest roots after the first die-back of shoots (maximum forskolin content after growth period)."
+      },
+      "drying": {
+        "de": "Gewurzelte Stücke (1–3 cm) bei 40–50 °C trocknen bis zur Brüchigkeit. Forskolingehalt wird bei höheren Temperaturen abgebaut.",
+        "en": "Dry root pieces (1–3 cm) at 40–50 °C until brittle. Forskolin content degrades at higher temperatures."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Dunkel, trocken, kühl (<20 °C) in Glasgefäßen lagern. Forskolingehalt regelmäßig prüfen wenn möglich.",
+        "en": "Store dark, dry, cool (<20 °C) in glass jars. Check forskolin content regularly if possible."
+      }
+    }
+  ]
+}

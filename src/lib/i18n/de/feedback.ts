@@ -1,0 +1,31 @@
+// === Donum Dei — i18n / DE / feedback ===
+// Feedback-Form (Welle D.2).
+
+export const feedback = {
+  'feedback.nav_label': '💌 Feedback',
+  'feedback.hero_title': '💌 Briefkasten — Schreib mir was!',
+  'feedback.intro': 'Bug gefunden? Feature-Wunsch? Pflanzen-Korrektur? Schreib mir direkt — landet in meinem Postfach.',
+  'feedback.category_label': 'Worum geht es?',
+  'feedback.category_bug': 'Bug — etwas funktioniert nicht',
+  'feedback.category_feature': 'Feature-Wunsch — was Neues',
+  'feedback.category_correction': 'Pflanzen-Korrektur — Datenfehler',
+  'feedback.category_other': 'Sonstiges',
+  'feedback.plant_slug_label': 'Welche Pflanze? (optional)',
+  'feedback.plant_slug_placeholder': 'z.B. tomate',
+  'feedback.message_label': 'Deine Nachricht',
+  'feedback.message_placeholder': 'Was möchtest du loswerden?',
+  'feedback.message_min_hint': 'Mindestens 10 Zeichen',
+  'feedback.email_label': 'Deine Email (optional, nur für Rückfrage)',
+  'feedback.email_placeholder': 'du@beispiel.de',
+  'feedback.submit': 'Absenden',
+  'feedback.submitting': 'Wird gesendet...',
+  'feedback.success_title': '✅ Danke!',
+  'feedback.success_body': 'Deine Nachricht ist unterwegs zu Maikel.',
+  'feedback.success_again': 'Noch eine Nachricht senden',
+  'feedback.error_title': '❌ Etwas ist schief gelaufen',
+  'feedback.error_body': 'Bitte versuche es nochmal oder schreib direkt an maikelganske913@gmail.com',
+  'feedback.fallback_mailto': 'Lieber direkt mailen?',
+  'feedback.fallback_mailto_link': 'maikelganske913@gmail.com',
+  'feedback.reply_hint': 'Antwort kommt von maikelganske913@gmail.com — Email-Adresse oben nur ausfüllen wenn du Rückfrage willst.',
+  'feedback.char_count': '{n} / {max} Zeichen',
+};

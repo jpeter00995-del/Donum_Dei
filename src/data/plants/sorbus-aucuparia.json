@@ -1,0 +1,404 @@
+{
+  "slug": "sorbus-aucuparia",
+  "names": {
+    "de": "Vogelbeere",
+    "en": "Sorbus aucuparia",
+    "latin": "Sorbus aucuparia"
+  },
+  "family": {
+    "de": "Rosengewächse",
+    "en": "Rose family",
+    "latin": "Rosaceae"
+  },
+  "description": {
+    "de": "Die Vogelbeere, gemeinsprachlich häufiger die Eberesche oder der Vogelbeerbaum, ist eine Pflanzenart aus der Gattung Mehlbeeren innerhalb der Familie der Rosengewächse (Rosaceae). Die Zugehörigkeit zu den Kernobstgewächsen (Pyrinae) kann man bei genauer Betrachtung der Früchte gut erkennen; sie sehen wie kleine Äpfel aus.",
+    "en": "Sorbus aucuparia, commonly called rowan and mountain-ash, is a species of deciduous tree or shrub in the rose family."
+  },
+  "teaser": {
+    "de": "Die Vogelbeere, gemeinsprachlich häufiger die Eberesche oder der Vogelbeerbaum, ist eine Pflanzenart aus der Gattung ...",
+    "en": "Sorbus aucuparia, commonly called rowan and mountain-ash, is a species of deciduous tree or shrub in the rose family."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "fever",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der österreichischen und mitteleuropäischen Volksmedizin wurden Vogelbeeren als Tee, Sirup oder Gelee bei Erkältungen, Grippe, Husten, Bronchitis und Fieber eingesetzt. Voraussetzung ist stets eine ausreichende Hitzebehandlung, die die Parasorbinsäure in ungiftige Sorbinsäure umwandelt.",
+        "en": "In Austrian and Central European folk medicine, rowan berries were used as tea, syrup, or jelly for colds, flu, cough, bronchitis, and fever. Adequate heat treatment is always required to convert parasorbic acid into harmless sorbic acid."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "5–10 g getrocknete (oder gefrostete) Vogelbeeren mit 250 ml Wasser 15 Minuten köcheln lassen, abseihen. Niemals rohe Früchte verwenden.",
+          "en": "Simmer 5–10 g dried (or frost-treated) rowan berries in 250 ml water for 15 minutes, strain. Never use raw fruits."
+        }
+      },
+      "source_ids": [
+        "src_wiki_en_sorbus",
+        "src_wiki_de_sorbus",
+        "src_pfaf_sorbus"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frisch gepresster oder leicht erwärmter Vogelbeerensaft wurde zur Gurgellösung bei Heiserkeit und Halsschmerzen verwendet. Sänger nutzten ihn traditionell zur Pflege der Stimmbänder.",
+        "en": "Freshly pressed or gently warmed rowan berry juice was used as a gargle for hoarseness and sore throat. Singers traditionally used it for vocal cord care."
+      },
+      "source_ids": [
+        "src_wiki_de_sorbus"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Gekochte oder gefrostete Vogelbeeren werden zu Gelee, Marmelade, Kompott, Chutneys oder saurem Sirup verarbeitet und als Beilage zu Wild- und Lammgerichten verwendet. Spezielle Kultursorten ('Moravica', 'Edulis') sind parasorbinsäurearm und für den Rohverzehr geeignet.",
+        "en": "Cooked or frost-treated rowan berries are processed into jelly, jam, compote, chutneys, or tart syrup and served as a condiment for game and lamb dishes. Special cultivars ('Moravica', 'Edulis') are low in parasorbic acid and suitable for raw consumption."
+      },
+      "source_ids": [
+        "src_wiki_de_sorbus",
+        "src_wiki_en_sorbus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinisch wurden Vogelbeerzubereitungen als leichtes Diuretikum und Laxativum sowie bei Hämorrhoiden und Nierenerkrankungen eingesetzt. Der Sorbitgehalt trägt zu einer mild abführenden Wirkung bei.",
+        "en": "In folk medicine, rowan berry preparations were used as a mild diuretic and laxative and for hemorrhoids and kidney conditions. The sorbitol content contributes to a mild laxative effect."
+      },
+      "preparation": {
+        "de": "Früchte nach Frostbehandlung oder Kochen zu Saft pressen oder als Tee aufkochen.",
+        "en": "Press fruits after frost treatment or cooking into juice, or prepare as a decoction."
+      },
+      "source_ids": [
+        "src_wiki_en_sorbus",
+        "src_pfaf_sorbus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "joints",
+        "fever"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Blüten und Blätter wurden volksmedizinisch als Teeersatz und bei Rheuma sowie Gicht gebraucht. Achtung: Blätter enthalten cyanogene Glykoside und sollten nur gelegentlich und in kleinen Mengen verwendet werden.",
+        "en": "Flowers and leaves were used in folk medicine as a tea substitute and for rheumatism and gout. Note: leaves contain cyanogenic glycosides and should only be used occasionally and in small amounts."
+      },
+      "source_ids": [
+        "src_pfaf_sorbus"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Rindenabkochungen wurden äußerlich bei Hauterkrankungen und als adstringierende Waschung (traditionell auch gynäkologisch) genutzt. PFAF dokumentiert die Rinde als Mittel gegen Durchfall und vaginalem Ausfluss.",
+        "en": "Bark decoctions were applied externally for skin conditions and as an astringent wash (traditionally also gynecological use). PFAF documents the bark for treating diarrhea and vaginal discharge."
+      },
+      "source_ids": [
+        "src_pfaf_sorbus"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Kultursorten wie 'Konzentra' und 'Rosina' (Sorbaria edulis-Gruppe) sind arm an Parasorbinsäure und können nach dem ersten Frost auch roh verzehrt werden. Diese Züchtungen sind nährstoffreich und enthalten Vitamin C, Carotine, Sorbitol und Flavonoide.",
+        "en": "Cultivars such as 'Konzentra' and 'Rosina' (Sorbaria edulis group) are low in parasorbic acid and can be eaten raw after the first frost. These cultivated forms are nutrient-rich and contain vitamin C, carotenes, sorbitol, and flavonoids."
+      },
+      "source_ids": [
+        "src_wiki_de_sorbus",
+        "src_sarv2020"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "reife Früchte (nach erstem Frost)",
+      "en": "ripe fruits (after first frost)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Rohe Wildform-Früchte enthalten Parasorbinsäure (4–7 mg/g Frischgewicht), die Übelkeit, Erbrechen und Magenschleimhautreizung verursachen kann. Kochen, Dörren oder Frosteinwirkung wandelt die Parasorbinsäure vollständig in unbedenkliche Sorbinsäure um. Kerne/Samen enthalten cyanogene Glykoside — stets entfernen. Blätter nur gelegentlich und in kleinen Mengen als Tee verwenden.",
+      "en": "Raw wild-type fruits contain parasorbic acid (4–7 mg/g fresh weight), which can cause nausea, vomiting, and gastric mucosal irritation. Cooking, drying, or frost converts parasorbic acid completely to harmless sorbic acid. Seeds contain cyanogenic glycosides — always remove. Use leaves only occasionally and in small amounts as tea."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Rohe Früchte in der Schwangerschaft meiden. Verarbeitete Früchte (Gelee, Kompott, Saft aus gekochten Beeren) gelten in üblichen Lebensmittelmengen als unbedenklich.",
+        "en": "Avoid raw fruits during pregnancy. Processed fruits (jelly, compote, juice from cooked berries) are considered safe in normal food quantities."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten; verarbeitete Früchte in Lebensmittelmengen gelten als unbedenklich.",
+        "en": "No sufficient data; processed fruits in food quantities are considered safe."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Kinder nicht mit rohen Wildbeeren füttern. Kernfreie, gut erhitzte Zubereitungen (Gelee, Kompott) sind ab dem Kleinkindalter unbedenklich.",
+        "en": "Do not give raw wild berries to children. Pitted, well-heated preparations (jelly, compote) are safe from toddler age."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Rohe Beeren der Wildform nicht verzehren (Parasorbinsäure).",
+        "en": "Do not consume raw wild-type berries (parasorbic acid)."
+      },
+      {
+        "de": "Samen stets entfernen (cyanogene Glykoside).",
+        "en": "Always remove seeds (cyanogenic glycosides)."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Vogelbeere (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Vogelbeere",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Sorbus aucuparia (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Sorbus_aucuparia",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_de_sorbus",
+      "type": "wikipedia",
+      "title": "Vogelbeere (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Vogelbeere",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_en_sorbus",
+      "type": "wikipedia",
+      "title": "Sorbus aucuparia (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Sorbus_aucuparia",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wikidata_sorbus",
+      "type": "wikidata",
+      "title": "Sorbus aucuparia (Wikidata Q146198)",
+      "url": "https://www.wikidata.org/wiki/Q146198",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_sarv2020",
+      "type": "monograph",
+      "title": "The Sorbus spp.—Underutilised Plants for Foods and Nutraceuticals: Review on Polyphenolic Phytochemicals and Antioxidant Potential",
+      "url": "https://doi.org/10.3390/antiox9090813",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_olszewska2019",
+      "type": "monograph",
+      "title": "The Effect of Standardised Flower Extracts of Sorbus aucuparia L. on Proinflammatory Enzymes, Multiple Oxidants, and Oxidative/Nitrative Damage of Human Plasma Components In Vitro",
+      "url": "https://doi.org/10.1155/2019/9746358",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_sorbus",
+      "type": "book",
+      "title": "PFAF Plant Database — Sorbus aucuparia",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Sorbus+aucuparia",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "sorbus-aucuparia.jpg",
+    "alt": {
+      "de": "Foto von Vogelbeere",
+      "en": "Photo of Sorbus aucuparia"
+    },
+    "license": "CC BY-SA 2.5",
+    "author": "Velela",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sorbus_aucuparia_on_Y_Garn.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Parasorbinsäure (Parasorbic acid)",
+      "category": "other",
+      "plant_part": "fruit",
+      "percent_range": "0.04-0.07 %",
+      "note": {
+        "de": "Cyclisches Lakton; reizt rohe die Magenschleimhaut. Wird durch Erhitzen oder Frost vollständig zu ungiftiger Sorbinsäure umgewandelt (4–7 mg/g Frischgewicht).",
+        "en": "Cyclic lactone; irritates gastric mucosa when raw. Completely converted to non-toxic sorbic acid by heat or frost (4–7 mg/g fresh weight)."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Signifikanter Vitamin-C-Gehalt; historisch als Antiskorbut-Mittel genutzt. Kochverlust ca. 33 %.",
+        "en": "Significant vitamin C content; historically used as antiscorbutic. Cooking loss approximately 33%."
+      }
+    },
+    {
+      "name": "Sorbitol",
+      "category": "other",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Zuckeralkohol; leicht abführend, früher als Diabetiker-Zuckerersatz genutzt (industrielle Herstellung heute nicht mehr aus Vogelbeeren).",
+        "en": "Sugar alcohol; mildly laxative, formerly used as a diabetic sugar substitute (industrial production no longer from rowan berries)."
+      }
+    },
+    {
+      "name": "Isoquercitrin und Quercetin-Glykoside",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "percent_range": "ca. 1,11 % TG",
+      "note": {
+        "de": "Dominante Flavonoide der Blüten (bis 1,11 % Trockengewicht); antioxidativ und entzündungshemmend.",
+        "en": "Dominant flavonoids in flowers (up to 1.11 % dry weight); antioxidant and anti-inflammatory."
+      }
+    },
+    {
+      "name": "Proanthocyanidine (kondensierte Tannine)",
+      "category": "tannin",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptverantwortlich für den adstringierenden Geschmack der Beeren; antioxidativ.",
+        "en": "Mainly responsible for the astringent taste of berries; antioxidant."
+      }
+    },
+    {
+      "name": "Carotine (Provitamin A)",
+      "category": "other",
+      "plant_part": "fruit",
+      "percent_range": "ca. 2,5 mg/100 g",
+      "note": {
+        "de": "Pigmente, die zur orangeroten Fruchtfarbe beitragen; Vorstufe von Vitamin A.",
+        "en": "Pigments contributing to the orange-red fruit colour; precursor to vitamin A."
+      }
+    },
+    {
+      "name": "Chlorogensäure und Pseudodepside der Chinasäure",
+      "category": "phenolic_acid",
+      "plant_part": "flower",
+      "note": {
+        "de": "In Blütenextrakten als Hauptphenolsäuren identifiziert; antioxidativ.",
+        "en": "Identified as main phenolic acids in flower extracts; antioxidant."
+      }
+    },
+    {
+      "name": "Cyanogene Glykoside",
+      "category": "glycoside",
+      "plant_part": "seed",
+      "note": {
+        "de": "In Samen; setzen bei Kontakt mit Wasser Blausäure frei. Samen stets entfernen — kein Gesundheitsrisiko bei kernfreier Verarbeitung.",
+        "en": "Found in seeds; release hydrocyanic acid upon contact with water. Always remove seeds — no health risk when seeds are excluded from preparations."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Nach dem ersten Frost ernten (natürliche Umwandlung der Parasorbinsäure) oder direkt nach der Ernte im Tiefkühler frosten (mind. 24 Std. bei −18 °C).",
+        "en": "Harvest after the first frost (natural conversion of parasorbic acid) or freeze directly after harvest in a freezer (at least 24 hours at −18 °C)."
+      },
+      "drying": {
+        "de": "Früchte (kernfrei) bei 50–60 °C im Dörrgerät trocknen; Rohtrocknung nur bei Kultursorten mit niedrigem Parasorbinsäuregehalt.",
+        "en": "Dry fruits (pitted) at 50–60 °C in a dehydrator; air-drying only for low-parasorbic-acid cultivars."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknete Beeren dunkel und trocken lagern; frische Früchte können eingefroren und monatelang aufbewahrt werden.",
+        "en": "Store dried berries in a dark, dry place; fresh fruits can be frozen and kept for months."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Blütendolden bei trockenem Wetter ernten, wenn die Blüten zu etwa zwei Dritteln geöffnet sind.",
+        "en": "Harvest flower clusters in dry weather when the flowers are about two-thirds open."
+      },
+      "drying": {
+        "de": "Blüten locker auf Sieben bei Raumtemperatur an schattiger, luftiger Stelle trocknen.",
+        "en": "Dry flowers loosely on screens at room temperature in a shaded, airy spot."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknet in dunklen Gläsern, vor Feuchtigkeit und Licht geschützt.",
+        "en": "Dried in dark jars, protected from moisture and light."
+      }
+    }
+  ]
+}

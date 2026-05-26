@@ -1,0 +1,592 @@
+{
+  "slug": "salix-alba",
+  "names": {
+    "de": "Silber-Weide",
+    "en": "Salix alba",
+    "latin": "Salix alba"
+  },
+  "family": {
+    "de": "Weidengewächse",
+    "en": "Willow family",
+    "latin": "Salicaceae"
+  },
+  "description": {
+    "de": "Die Silber-Weide ist eine Pflanzenart in der Gattung der Weiden (Salix) aus der Familie der Weidengewächse (Salicaceae). Der Name nimmt auf die silbrig erscheinenden schmal lanzettlichen Laubblätter Bezug. Sie ist eine der wenigen baumförmigen Weiden und war Baum des Jahres 1999.",
+    "en": "Salix alba, the white willow, is a species of willow native to Europe and western and Central Asia. The name derives from the white tone to the undersides of the leaves."
+  },
+  "teaser": {
+    "de": "Die Silber-Weide ist eine Pflanzenart in der Gattung der Weiden (Salix) aus der Familie der Weidengewächse (Salicaceae).",
+    "en": "Salix alba, the white willow, is a species of willow native to Europe and western and Central Asia."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "fever",
+        "joints",
+        "pain"
+      ],
+      "internal_external": "internal",
+      "plant_part": "bark",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "ABKOCHUNG (Dekokt) — Kommission E / EMA traditionelle Anwendung: 2–3 g grob zerkleinerte, getrocknete Weidenrinde (Salix alba, S. purpurea oder S. daphnoides) mit 200–250 ml kaltem Wasser ansetzen, langsam zum Kochen bringen, 10–15 Minuten köcheln lassen, dann abseihen. 3× täglich frisch zubereitet einnehmen. Tagesdosis standardisiert auf 60–120 mg Gesamtsalicin. EMA-Indikationen: kurzzeitige Linderung von Rückenschmerzen (Lumbago), leichten Gelenksschmerzen und erhöhter Körpertemperatur (Fieber). Anwendungsdauer maximal 4 Wochen ohne ärztliche Rücksprache. Bei Magen-Darm-Beschwerden die Rinde nach einer Mahlzeit einnehmen. Kein Einnehmen auf nüchternen Magen bei bekannter Magenempfindlichkeit.",
+          "en": "DECOCTION (Commission E / EMA traditional use): 2–3 g of coarsely cut dried willow bark (Salix alba, S. purpurea or S. daphnoides) in 200–250 ml cold water, bring slowly to a boil, simmer 10–15 min, strain. Take 3× daily freshly prepared. Daily dose standardised to 60–120 mg total salicin. EMA indications: short-term relief of low back pain, mild joint pain and fever. Maximum 4 weeks without medical advice. Take after a meal if gastrointestinal sensitivity is known."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Nicht bei Kindern unter 12 Jahren mit Fieber (Reye-Syndrom-Risiko analoges zu Acetylsalicylsäure). Laut EMA-Monographie: Erwachsene und Jugendliche ab 12 Jahren.",
+          "en": "Not for children under 12 with fever (Reye syndrome risk, analogous to acetylsalicylic acid). Per EMA monograph: adults and adolescents from 12 years."
+        }
+      },
+      "description": {
+        "de": "Abkochung der Weidenrinde (standardisiert auf Salicin) bei Rückenschmerzen, leichten Gelenksbeschwerden und Fieber — Kommission E positiv bewertet; EMA-Monographie führt das Dekokt als traditionelle Anwendung.",
+        "en": "Decoction of willow bark (standardised to salicin) for low back pain, mild joint complaints and fever — positively assessed by Commission E; the EMA monograph lists the decoction as traditional use."
+      },
+      "source_ids": [
+        "src_ema_salix_cortex",
+        "src_escop_salix_cortex",
+        "src_kommission_e_salix"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "joints",
+        "pain",
+        "fever"
+      ],
+      "internal_external": "internal",
+      "plant_part": "bark",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_ml": {
+          "min": 2,
+          "max": 4
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (Droge-Auszug-Verhältnis 1:5 in 25–40 % Ethanol): 2–4 ml (~40–80 Tropfen) 3× täglich in etwas Wasser verdünnt einnehmen. Tagesdosis entspricht ca. 60–120 mg Gesamtsalicin. Kommission E positiv bei Fieber, rheumatischen Beschwerden und Kopfschmerzen. Tinktur wirkt im Vergleich zum Dekokt etwas schneller aufgrund besserer Extraktionseigenschaften der phenolischen Glycoside. Maximal 4 Wochen ohne ärztliche Kontrolle; nicht auf nüchternen Magen bei Magenempfindlichkeit.",
+          "en": "TINCTURE (DER 1:5 in 25–40 % ethanol): 2–4 ml (~40–80 drops) 3× daily diluted in water. Daily dose corresponds to approx. 60–120 mg total salicin. Kommission E positive for fever, rheumatic complaints and headache. Tincture extracts phenolic glycosides slightly more efficiently than decoction. Maximum 4 weeks without medical supervision; avoid on empty stomach if gastric sensitivity known."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Nicht bei Kindern unter 12 Jahren mit Fieber (Reye-Syndrom-Risiko). Wegen Ethanolgehalt nicht bei Alkohol- oder Lebererkrankung.",
+          "en": "Not for children under 12 with fever (Reye syndrome risk). Due to ethanol content, avoid with alcohol dependence or liver disease."
+        }
+      },
+      "description": {
+        "de": "Weidenrindentinktur bei rheumatischen Beschwerden, Fieber und Kopfschmerzen — Kommission E positiv bewertet.",
+        "en": "Willow bark tincture for rheumatic complaints, fever and headache — positive Kommission E assessment."
+      },
+      "source_ids": [
+        "src_kommission_e_salix",
+        "src_escop_salix_cortex",
+        "src_wichtl_teedrogen"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "pain",
+        "fever",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 5,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "KALTER AUFGUSS (traditionell): 1–2 g grob zerkleinerte Weidenrinde in 200 ml kaltem Wasser über 8 Stunden stehen lassen, dann absieben und auf Trinktemperatur erwärmen (oder kalt trinken). Manche traditionellen Quellen bevorzugen den Kaltauszug, da er Gerbstoffe schonender löst und weniger Magen reizend sein soll. 2× täglich. Traditionelle Anwendung bei leichten Erkältungsfieber und Kopfschmerzen. Bei Magenempfindlichkeit besser als heißes Dekokt geeignet.",
+          "en": "COLD INFUSION (traditional): 1–2 g coarsely cut willow bark in 200 ml cold water, macerate 8 hours, strain, warm to drinking temperature or drink cold. Some traditional sources prefer cold maceration as it extracts tannins more gently and is considered less stomach-irritating. 2× daily. Traditional use for mild cold-related fever and headache. Preferred over hot decoction for gastric sensitivity."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Kaltauszug der Weidenrinde — volksheilkundliche Alternative zum Dekokt bei leichtem Fieber und Erkältungskopfschmerzen; schonender für den Magen.",
+        "en": "Traditional cold macerate of willow bark — folk alternative to decoction for mild fever and cold-related headache; gentler on the stomach."
+      },
+      "source_ids": [
+        "src_wichtl_teedrogen",
+        "src_pfaf_salix_alba",
+        "src_wp_de_salix"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "joints",
+        "skin",
+        "pain"
+      ],
+      "internal_external": "external",
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 200,
+          "max": 300
+        },
+        "water_ml": 3000,
+        "steep_min": 20,
+        "doses_per_day": 1,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "BADESATZ: 200–300 g getrocknete Weidenrinde in 3 Liter kaltem Wasser ansetzen, zum Kochen bringen, 20 Minuten köcheln lassen, absieben. Den konzentrierten Absud dem Badewasser (ca. 37–38 °C) zufügen. Badezeit 15–20 Minuten. Volksheilkundlich bei rheumatischen Gelenksbeschwerden, Muskelverspannungen und schwitzenden Füßen (adstringierende Wirkung der Gerbstoffe). Externe Anwendung umgeht Magen-Darm-Problematik. Haut anschließend gut abtrocknen und wärmen. Nicht bei offenen Wunden oder gereizter Haut anwenden.",
+          "en": "BATH PREPARATION: 200–300 g dried willow bark in 3 litres cold water, bring to boil, simmer 20 min, strain. Add concentrate to bathwater (approx. 37–38 °C). Bathe 15–20 minutes. Folk use for rheumatic joint complaints, muscle tension and sweaty feet (astringent effect of tannins). External use avoids gastrointestinal issues. Dry and warm skin thoroughly after. Do not apply to open wounds or irritated skin."
+        }
+      },
+      "description": {
+        "de": "Weidenrindenbad bei rheumatischen Beschwerden und Muskelverspannungen — externe adstringierende und schwach entzündungshemmende Volksheilkunde.",
+        "en": "Willow bark bath for rheumatic complaints and muscle tension — external astringent and mildly anti-inflammatory folk remedy."
+      },
+      "source_ids": [
+        "src_pfaf_salix_alba",
+        "src_madaus_salix",
+        "src_wp_de_salix"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "joints",
+        "pain"
+      ],
+      "internal_external": "external",
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_ml": {
+          "min": 5,
+          "max": 10
+        },
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "EINREIBE-TINKTUR (extern, unverdünnt oder 1:1 mit Wasser verdünnt): 5–10 ml Weidenrindentinktur (1:5 in 40–70 % Ethanol) auf die betroffenen Gelenke oder Muskeln auftragen und sanft einmassieren. 2× täglich anwenden, nach der Anwendung gut waschen. Volksheilkundliche externe Anwendung bei schmerzhaften Gelenken und Muskeln. Wirkung beruht auf Ethanolstimulation und schwacher Salicin-Resorption durch die Haut. Nicht auf offene oder gereizte Haut auftragen.",
+          "en": "RUBBING TINCTURE (external, undiluted or diluted 1:1): Apply 5–10 ml willow bark tincture (1:5 in 40–70 % ethanol) to affected joints or muscles and massage gently. Use 2× daily; wash after application. Folk external use for painful joints and muscles. Effect based on ethanol stimulation and mild percutaneous salicin absorption. Do not apply to open or irritated skin."
+        }
+      },
+      "description": {
+        "de": "Äußerliche Einreibung mit Weidenrindentinktur bei lokalen Gelenks- und Muskelschmerzen — volksheilkundlich, Wirkung durch Salicin-Resorption und Ethanolreiz.",
+        "en": "External rubbing with willow bark tincture for local joint and muscle pain — folk use based on percutaneous salicin absorption and ethanol stimulation."
+      },
+      "source_ids": [
+        "src_pfaf_salix_alba",
+        "src_wp_en_salix"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "fever",
+        "immune",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "BLÄTTERAUFGUSS: 1–2 Teelöffel getrocknete Weidenblätter mit 200 ml kochendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen. 2× täglich zwischen den Mahlzeiten. Geringerer Salicingehalt als Rinde — mildere Wirkung. Volksheilkundlich bei leichten Erkältungen und Fieber eingesetzt. Enthält ebenfalls Flavonoide und Gerbstoffe. Anwendung auf max. 2 Wochen begrenzen; bei ausbleibendem Effekt Rinden-Dekokt bevorzugen.",
+          "en": "LEAF INFUSION: 1–2 tsp dried willow leaves in 200 ml boiling water, covered, steep 10 min, strain. 2× daily between meals. Lower salicin content than bark — milder effect. Folk use for mild colds and fever. Also contains flavonoids and tannins. Limit use to 2 weeks; prefer bark decoction if effect is insufficient."
+        }
+      },
+      "description": {
+        "de": "Volksmedizinischer Blättertee der Silber-Weide bei leichten Erkältungen und Fieber — schwächere Wirkung als Rindendekokt, reich an Flavonoiden und Gerbstoffen.",
+        "en": "Folk medicinal leaf tea of white willow for mild colds and fever — weaker effect than bark decoction, rich in flavonoids and tannins."
+      },
+      "source_ids": [
+        "src_pfaf_salix_alba",
+        "src_madaus_salix",
+        "src_wp_de_salix"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 20,
+          "max": 30
+        },
+        "water_ml": 500,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "UMSCHLAG: 20–30 g Weidenrinde in 500 ml Wasser aufkochen, 15 Minuten köcheln, abkühlen lassen, abseihen. Ein sauberes Leinentuch in den lauwarmen Absud tauchen, ausdrücken und auf betroffene Hautpartien (schlecht heilende kleine Wunden, Ekzeme, juckende Haut) auflegen. 2× täglich, jeweils 15–20 Minuten. Adstringierende Wirkung der Gerbstoffe wirkt entzündungshemmend und zusammenziehend. Bei Zeichen von Entzündung oder Verschlechterung: Arzt aufsuchen.",
+          "en": "COMPRESS: Boil 20–30 g willow bark in 500 ml water, simmer 15 min, cool, strain. Soak a clean linen cloth in the lukewarm decoction, wring out, apply to affected skin (poorly healing minor wounds, eczema, itchy skin). 2× daily, 15–20 minutes each time. Astringent tannins provide anti-inflammatory and contracting effect. If signs of infection or worsening: consult a doctor."
+        }
+      },
+      "description": {
+        "de": "Weidenrindenabsud als Umschlag bei kleinen Wunden, Ekzemen und gereizter Haut — adstringierende und schwach entzündungshemmende Volksheilkunde.",
+        "en": "Willow bark decoction as compress for minor wounds, eczema and irritated skin — astringent and mildly anti-inflammatory folk medicine."
+      },
+      "source_ids": [
+        "src_madaus_salix",
+        "src_pfaf_salix_alba"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      3,
+      4,
+      5
+    ],
+    "harvest_part": {
+      "de": "Rinde junger Zweige",
+      "en": "bark of young branches"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "SALICYLAT-SENSITIVITÄT: Weidenrinde enthält Salicin (ein Vorläufer der Salicylsäure), das im Körper zu Salicylsäure umgebaut wird. Bei Überempfindlichkeit gegen Acetylsalicylsäure (Aspirin) oder andere nichtsteroidale Antirheumatika (NSAR) besteht Kreuzreaktivitätsgefahr — Weidenrinde MEIDEN. REYE-SYNDROM: Kinder und Jugendliche unter 12 Jahren mit Virusinfektionen (Grippe, Windpocken) dürfen keine Salicylate einnehmen — Lebensgefahr. MAGEN-DARM: Bei Magengeschwüren, Gastritis oder NSAR-empfindlichem Magen-Darm-Trakt nach einer Mahlzeit einnehmen; bei starken Magenschmerzen absetzen und Arzt konsultieren. DAUER: Kurzzeit-Anwendung, laut EMA maximal 4 Wochen ohne ärztliche Kontrolle. Chronische Gelenkerkrankungen gehören in ärztliche Behandlung. SCHMERZSIGNAL: Schmerz ist ein Warnsignal — Ursache klären lassen, bevor man dauerhaft symptomatisch behandelt.",
+      "en": "SALICYLATE SENSITIVITY: Willow bark contains salicin (a salicylate precursor metabolised to salicylic acid). Cross-reactivity is possible with acetylsalicylic acid (aspirin) or other NSAIDs — AVOID willow bark if sensitive. REYE SYNDROME: Children and adolescents under 12 with viral infections (influenza, chickenpox) must not take salicylates — life-threatening risk. GASTROINTESTINAL: Take after meals if peptic ulcer, gastritis or NSAID-sensitive GI tract is known; discontinue and consult a doctor for severe stomach pain. DURATION: Short-term use; per EMA maximum 4 weeks without medical supervision. Chronic joint disease requires medical management. PAIN AS SIGNAL: Pain is a warning — identify the cause before prolonged symptomatic treatment."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Weidenrinde ist in der Schwangerschaft kontraindiziert, besonders im dritten Trimenon: Salicylate hemmen die Prostaglandinsynthese, können den Ductus arteriosus vorzeitig verschließen, die Geburt verzögern und Blutungsrisiken erhöhen. EMA und ESCOP empfehlen ausdrücklich: NICHT in der Schwangerschaft anwenden.",
+        "en": "Willow bark is contraindicated in pregnancy, especially the third trimester: salicylates inhibit prostaglandin synthesis, may cause premature closure of the ductus arteriosus, delay labour and increase bleeding risk. EMA and ESCOP explicitly advise: do NOT use during pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Salicylate gehen in die Muttermilch über und können beim Säugling kumulative Effekte verursachen. EMA und ESCOP empfehlen: NICHT in der Stillzeit anwenden.",
+        "en": "Salicylates pass into breast milk and may cause cumulative effects in infants. EMA and ESCOP advise: do NOT use during lactation."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder und Jugendliche unter 12 Jahren: KONTRAINDIZIERT bei Fieber im Rahmen von Virusinfektionen (Reye-Syndrom-Risiko, lebensbedrohlich). Jugendliche 12–18 Jahre: nur unter ärztlicher Aufsicht, da Reye-Syndrom-Risiko bei Virusinfektionen auch hier besteht. Fieber bei Kindern immer ärztlich abklären lassen.",
+        "en": "Children under 12: CONTRAINDICATED for fever associated with viral infections (Reye syndrome risk — life-threatening). Adolescents 12–18: medical supervision only, as Reye syndrome risk persists with viral infections. Fever in children always requires medical assessment."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Salicylate oder nichtsteroidale Antirheumatika (NSAR/NSAIDs) — Kreuzreaktivität möglich.",
+        "en": "Hypersensitivity to salicylates or non-steroidal anti-inflammatory drugs (NSAIDs) — cross-reactivity possible."
+      },
+      {
+        "de": "Schwangerschaft (besonders 3. Trimenon): Prostaglandinhemmung, Ductus-arteriosus-Verschluss, erhöhtes Blutungsrisiko.",
+        "en": "Pregnancy (especially third trimester): prostaglandin inhibition, premature closure of ductus arteriosus, increased bleeding risk."
+      },
+      {
+        "de": "Stillzeit: Übertritt von Salicylaten in die Muttermilch.",
+        "en": "Lactation: salicylates pass into breast milk."
+      },
+      {
+        "de": "Kinder unter 12 Jahren bei Fieber/Virusinfektionen (Reye-Syndrom-Risiko).",
+        "en": "Children under 12 with fever or viral infections (Reye syndrome risk)."
+      },
+      {
+        "de": "Aktive Magen-Darm-Geschwüre (Ulcus ventriculi, Ulcus duodeni).",
+        "en": "Active peptic ulcers (gastric or duodenal ulcer)."
+      },
+      {
+        "de": "Schwere Leber- oder Niereninsuffizienz — Salicylat-Akkumulation möglich.",
+        "en": "Severe hepatic or renal impairment — salicylate accumulation possible."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulanzien / Thrombozytenaggregationshemmer (Warfarin, Phenprocoumon, Clopidogrel, ASS)",
+        "mechanism": {
+          "de": "Salicylate aus Weidenrinde verstärken additiv die blutverdünnende Wirkung von Antikoagulanzien und Thrombozytenaggregationshemmern — erhöhtes Blutungsrisiko (Magen-Darm-Blutungen, Hämatome). Kombination vermeiden oder nur unter strenger INR-Kontrolle und ärztlicher Aufsicht.",
+          "en": "Salicylates from willow bark additively enhance the anticoagulant and antiplatelet effect of warfarin, phenprocoumon and clopidogrel — increased bleeding risk (gastrointestinal bleeds, haematomas). Avoid combination or use only under strict INR monitoring and medical supervision."
+        },
+        "severity": "avoid",
+        "source_id": "src_ema_salix_cortex"
+      },
+      {
+        "drug_class": "Nichtsteroidale Antirheumatika (Ibuprofen, Diclofenac, Naproxen)",
+        "mechanism": {
+          "de": "Additive COX-hemmende und schleimhautreizende Wirkung bei gleichzeitiger Anwendung von Weidenrinde und NSAR — erhöhtes Risiko für Magen-Darm-Blutungen und Nierenfunktionsstörungen. Kombination meiden.",
+          "en": "Additive COX-inhibiting and mucosal irritating effect when combining willow bark with NSAIDs — increased risk of gastrointestinal bleeding and renal dysfunction. Avoid combination."
+        },
+        "severity": "avoid",
+        "source_id": "src_escop_salix_cortex"
+      },
+      {
+        "drug_class": "Methotrexat (MTX)",
+        "mechanism": {
+          "de": "Salicylate können die renale Ausscheidung von Methotrexat hemmen und dessen Plasmaspiegel erhöhen — Risiko einer Methotrexat-Toxizität (Knochenmarksuppression, Mukositis). Kombination kontraindiziert ohne engmaschige ärztliche Kontrolle.",
+          "en": "Salicylates may inhibit renal excretion of methotrexate and raise its plasma levels — risk of methotrexate toxicity (bone marrow suppression, mucositis). Combination contraindicated without close medical monitoring."
+        },
+        "severity": "avoid",
+        "source_id": "src_ema_salix_cortex"
+      },
+      {
+        "drug_class": "Antidiabetika (Sulfonylharnstoffe, Insulin)",
+        "mechanism": {
+          "de": "Hohe Salicylat-Dosen können blutzuckersenkend wirken und die Wirkung von Antidiabetika verstärken — Hypoglykämiegefahr. Bei therapeutischer Weidenrinden-Dosierung selten klinisch relevant, aber Blutzucker überwachen.",
+          "en": "High salicylate doses may lower blood glucose and potentiate antidiabetic drugs — hypoglycaemia risk. Rarely clinically significant at therapeutic willow bark doses, but monitor blood glucose."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_salix_cortex"
+      },
+      {
+        "drug_class": "Kortikosteroide (Prednison, Prednisolon, Dexamethason)",
+        "mechanism": {
+          "de": "Kortikosteroide erhöhen die renale Salicylat-Clearance und senken damit die Plasmaspiegel. Bei abruptem Absetzen der Kortikosteroide kann es zu einem Anstieg der Salicylat-Konzentration kommen. Außerdem additives Risiko für gastrointestinale Nebenwirkungen.",
+          "en": "Corticosteroids increase renal salicylate clearance, reducing plasma levels. Abrupt withdrawal of corticosteroids may cause salicylate levels to rise. Additionally additive gastrointestinal side-effect risk."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_salix_cortex"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Silber-Weide (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Silber-Weide",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Salix alba (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Salix_alba",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_salix_cortex",
+      "type": "monograph",
+      "title": "EMA/HMPC/286787/2015 — European Union herbal monograph on Salix, cortex (Final)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/salicis-cortex",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_salix_cortex",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Salicis cortex (Willow Bark), 2nd edition (incl. supplement 2009)",
+      "url": "https://escop.com/downloads/willow-bark/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_salix",
+      "type": "monograph",
+      "title": "Kommission E — Salicis cortex (Weidenrinde), Monographie (positiv), BAnz Nr. 228, 1992",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/0276.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_teedrogen",
+      "type": "book",
+      "title": "Wichtl, Max (Hrsg.) — Teedrogen und Phytopharmaka: Ein Handbuch für die Praxis auf wissenschaftlicher Grundlage, 5. Auflage. Salicis cortex. Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009.",
+      "url": "https://www.wissenschaftliche.de/buch/9783804721869",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_salix",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band II: Salix (Weide), 1938 (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/salix.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_salix_alba",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Salix alba database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Salix+alba",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_salix",
+      "type": "wikipedia",
+      "title": "Silber-Weide — Medizinische Verwendung (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Silber-Weide",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_salix",
+      "type": "wikipedia",
+      "title": "Salix alba — Uses and Pharmacology (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Salix_alba",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_salix",
+      "type": "wikidata",
+      "title": "Salix alba — Wikidata entity Q30743",
+      "url": "https://www.wikidata.org/wiki/Q30743",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_chrubasik_salix_rct",
+      "type": "monograph",
+      "title": "Chrubasik S, Eisenberg E, Balan E et al. — Treatment of low back pain exacerbations with willow bark extract: a randomized double-blind study. Am J Med 2000;109(1):9–14. DOI: 10.1016/S0002-9343(00)00442-3",
+      "url": "https://doi.org/10.1016/S0002-9343(00)00442-3",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "salix-alba.jpg",
+    "alt": {
+      "de": "Foto von Silber-Weide",
+      "en": "Photo of Salix alba"
+    },
+    "license": "Public domain",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Thom%C3%A9_Salix_alba_clean.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Salicin (Salicoylalkohol-Glucosid)",
+      "category": "glycoside",
+      "percent_range": "1-11 %",
+      "plant_part": "bark",
+      "note": {
+        "de": "Leitsubstanz der Weidenrinde. Phenolisches Glucosid, das im Darm zu Saligenin und Glucose hydrolysiert und in der Leber weiter zu Salicylsäure oxidiert wird. Antiphlogistisch, antipyretisch und analgetisch; wirkt langsamer und magenverträglicher als Acetylsalicylsäure, da kein direkter COX-Inhibitor. EMA-Standardisierung auf Gesamtsalicin-Gehalt (mind. 1,5 % laut Ph. Eur. oder 60–120 mg pro Tagesdosis).",
+        "en": "Lead compound of willow bark. Phenolic glucoside hydrolysed in the gut to saligenin and glucose, then oxidised in the liver to salicylic acid. Anti-inflammatory, antipyretic and analgesic; slower onset and better tolerated than aspirin as it is not a direct COX inhibitor. EMA standardisation on total salicin (min. 1.5 % per Ph. Eur. or 60–120 mg per daily dose)."
+      }
+    },
+    {
+      "name": "Salicylalkohol-Ester-Glycoside (Salicortin, Tremulacin, Fragilin)",
+      "category": "glycoside",
+      "percent_range": "2-8 %",
+      "plant_part": "bark",
+      "note": {
+        "de": "Acetylierte Salicin-Derivate, die bei der Metabolisierung ebenfalls Salicylsäure freisetzen. Zusammen mit Salicin werden sie als 'Gesamtsalicine' quantifiziert. Salicortin ist in der Rinde von S. alba quantitativ bedeutend; Tremulacin dominiert in S. tremula und S. purpurea. Tragen zum Gesamteffekt der Weidenrinde bei.",
+        "en": "Acetylated salicin derivatives that also release salicylic acid upon metabolism. Quantified together with salicin as 'total salicins'. Salicortin is quantitatively significant in S. alba bark; tremulacin dominates in S. tremula and S. purpurea. All contribute to the overall effect of willow bark."
+      }
+    },
+    {
+      "name": "Flavonoide (Naringenin, Luteolin-7-glucosid, Quercetin, Isoquercitrin)",
+      "category": "flavonoid",
+      "percent_range": "0.5-2 %",
+      "plant_part": "bark",
+      "note": {
+        "de": "Antioxidativ und schwach entzündungshemmend. Ergänzen die analgetische und antipyretische Hauptwirkung der Salicylglycoside. Beitragen zur Hemmung der Arachidonsäurekaskade (5-LOX und COX). In der Rinde jüngerer Zweige (1-3 Jahre) höhere Konzentrationen als in alter Borke.",
+        "en": "Antioxidant and mildly anti-inflammatory. Complement the analgesic and antipyretic main effect of salicyl glycosides. Contribute to inhibition of the arachidonic acid cascade (5-LOX and COX). Higher concentrations in bark of younger shoots (1–3 years) than in old bark."
+      }
+    },
+    {
+      "name": "Kondensierte Gerbstoffe (Catechingerbstoffe, Proanthocyanidine)",
+      "category": "tannin",
+      "percent_range": "5-20 %",
+      "plant_part": "bark",
+      "note": {
+        "de": "Mengenmäßig bedeutendste Inhaltsstoffgruppe der Rinde; verantwortlich für die adstringierende Wirkung. Hemmen Entzündungsmediatoren lokal und schützen Schleimhäute bei äußerlicher Anwendung. Bei oraler Einnahme: Gerbstoffe können Eisenabsorption hemmen — Weidenrinden-Tee nicht unmittelbar zu eisenreichen Mahlzeiten einnehmen.",
+        "en": "Quantitatively the most abundant constituent group in the bark; responsible for astringency. Locally inhibit inflammatory mediators and protect mucous membranes when applied externally. When taken orally: tannins may inhibit iron absorption — do not take willow bark tea immediately with iron-rich meals."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (p-Cumarsäure, Kaffeesäure, Chlorogensäure)",
+      "category": "phenolic_acid",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "bark",
+      "note": {
+        "de": "Antioxidativ und mild entzündungshemmend; ergänzen das Wirkungsspektrum der Salicylglycoside und Flavonoide. Chlorogensäure hemmt in vitro die Cyclooxygenase. Kein signifikantes pharmakologisches Alleinstellungsmerkmal bei therapeutischen Dosierungen.",
+        "en": "Antioxidant and mildly anti-inflammatory; complement salicyl glycosides and flavonoids. Chlorogenic acid inhibits cyclooxygenase in vitro. No significant stand-alone pharmacological effect at therapeutic doses."
+      }
+    },
+    {
+      "name": "Catechin und Epicatechin (monomere Flavan-3-ole)",
+      "category": "tannin",
+      "percent_range": "0.5-3 %",
+      "plant_part": "bark",
+      "note": {
+        "de": "Monomere Vorstufen der Proanthocyanidine. Antioxidativ, schwach antibakteriell und kapillarprotektiv. Beitragen zur adstringierenden Gesamtwirkung der Rinde, insbesondere bei äußerlicher Anwendung (Umschläge, Bäder).",
+        "en": "Monomeric precursors of proanthocyanidins. Antioxidant, mildly antibacterial and capillary-protective. Contribute to overall astringency of bark, particularly in external applications (compresses, baths)."
+      }
+    },
+    {
+      "name": "Minerale (Kalium, Calcium, Mangan, Silicium — Spuren)",
+      "category": "mineral",
+      "percent_range": "Spuren",
+      "plant_part": "bark",
+      "note": {
+        "de": "Spurenelemente ohne pharmakologische Eigenrelevanz bei therapeutischer Dosierung. Kalium und Calcium Teil des Pflanzenkomplexes; Mangan und Silicium in gerbstoffreichen Rinden nachweisbar. Relevant nur im Kontext vollwertiger Ernährung.",
+        "en": "Trace minerals without independent pharmacological significance at therapeutic doses. Potassium and calcium part of plant matrix; manganese and silicon detectable in tannin-rich barks. Relevant only in a nutritional context."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "bark",
+      "best_months": [
+        3,
+        4
+      ],
+      "time_of_day": {
+        "de": "Frühjahr — idealerweise März bis April, wenn die Knospen schwellen und der Saft aufsteigt, die Rinde aber noch nicht ausgetrieben hat. Dann lässt sich die Rinde am einfachsten vom Holz lösen und hat den höchsten Salicingehalt. Morgens nach dem Abtauen des Taus, aber vor der Mittagshitze ernten.",
+        "en": "Spring — ideally March to April when buds swell and sap rises but leaves have not yet broken out. At this stage bark peels most easily and salicin content is highest. Harvest in the morning after dew evaporates but before midday heat."
+      },
+      "drying": {
+        "de": "Nur Rinde von 2–4-jährigen Zweigen (Ästen) verwenden — glatt, grau-grüne junge Rinde mit höchstem Wirkstoffgehalt; alte, rissige Borke enthält weniger Salicin und mehr Gerbstoffe. Rinde in Streifen ablösen (nicht den Stamm ringeln — tötet den Baum!), höchstens 1/3 der Äste eines Baumes ernten. Streifen auf Tüchern oder Gittern bei max. 40 °C im Schatten oder Dörrgerät trocknen — Rinde knackt, wenn sie fertig ist. In luftdicht verschlossenen, dunklen Behältern kühl und trocken lagern. Haltbarkeit: 1–2 Jahre bei optimaler Lagerung. Salicingehalt vor Haltbarkeitsverlust prüfen: bei fahlem Geschmack (wenig Bitterstoffe) nicht mehr verwenden.",
+        "en": "Use only bark from 2–4-year-old shoots — smooth, grey-green young bark with highest active content; old furrowed bark contains less salicin and more tannins. Peel bark in strips (do not ring-bark — kills the tree!), harvest at most 1/3 of the branches of any single tree. Dry strips on cloth or racks at max. 40 °C in shade or dehydrator — bark snaps when ready. Store airtight in dark containers, cool and dry. Shelf life: 1–2 years under optimal conditions. Check salicin content before use: if taste is flat (low bitterness), discard."
+      },
+      "storage_months": 18,
+      "storage_condition": {
+        "de": "Luftdicht, dunkel, trocken und kühl (unter 25 °C). Salicingehalt sinkt mit Feuchtigkeit und Wärme. Innerte 12–18 Monate aufbrauchen.",
+        "en": "Airtight, dark, dry, cool (below 25 °C). Salicin content declines with moisture and heat. Use within 12–18 months."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Mai bis Juni — junge, vollentfaltete Blätter ernten, bevor die Sommerhitze einsetzt. An trockenen Vormittagen nach dem Abtrocknen des Taus sammeln. Junge Blätter enthalten mehr Flavonoide und weniger Gerbstoffe als ältere Blätter im Hochsommer.",
+        "en": "May to June — harvest young, fully expanded leaves before summer heat sets in. Collect on dry mornings after dew has evaporated. Young leaves contain more flavonoids and fewer tannins than older leaves in midsummer."
+      },
+      "drying": {
+        "de": "Blätter einzeln oder in dünner Lage auf Tücher oder Trockensiebe ausbreiten. Schatten-Trocknung bei 35–40 °C, guter Luftzirkulation; regelmäßig wenden, bis die Blätter vollständig trocken und leicht zerbrechlich sind (ca. 2–5 Tage je nach Luftfeuchtigkeit). Nicht in der Sonne trocknen — UV-Strahlung baut Flavonoide ab. In dunklen Behältern oder Papiertüten lagern.",
+        "en": "Spread leaves individually or in thin layer on cloths or drying racks. Shade-dry at 35–40 °C with good air circulation; turn regularly until leaves are completely dry and slightly brittle (approx. 2–5 days depending on humidity). Do not dry in direct sunlight — UV degrades flavonoids. Store in dark containers or paper bags."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, dunkel, kühl. Innerhalb 1 Jahr aufbrauchen — danach Flavonoidverlust. Nicht in Plastikbeuteln lagern (Feuchtigkeit).",
+        "en": "Dry, dark, cool. Use within 1 year — flavonoid loss thereafter. Do not store in plastic bags (moisture)."
+      }
+    }
+  ]
+}

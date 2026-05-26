@@ -1,0 +1,404 @@
+{
+  "slug": "artemisia-vulgaris",
+  "names": {
+    "de": "Beifuß",
+    "en": "Artemisia vulgaris",
+    "latin": "Artemisia vulgaris"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Der Gemeine Beifuß, auch Gewürzbeifuß oder Gewöhnlicher Beifuß, kurz auch Beifuß, genannt, ist eine Pflanzenart aus der Gattung Artemisia in der Familie der Korbblütler (Asteraceae).",
+    "en": "Artemisia vulgaris, commonly known as mugwort, common mugwort, or wormwood, is a species of flowering plant in the daisy family Asteraceae. It is one of several species in the genus Artemisia commonly known as mugwort, although Artemisia vulgaris is the species most often called mugwort. Mugworts have been used medicinally and as culinary herbs."
+  },
+  "teaser": {
+    "de": "Der Gemeine Beifuß, auch Gewürzbeifuß oder Gewöhnlicher Beifuß, kurz auch Beifuß, genannt, ist eine Pflanzenart aus d...",
+    "en": "Artemisia vulgaris, commonly known as mugwort, common mugwort, or wormwood, is a species of flowering plant in the da..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Aufguss aus dem blühenden Kraut (1–2 g pro Tasse) als Bittermittel zur Anregung der Verdauungsdrüsen bei Appetitlosigkeit, Blähungen und dyspeptischen Beschwerden. Die Sesquiterpenlactone (Vulgarin) und ätherischen Öle (1,8-Cineol, Campher) sind für die bittere, carminative Wirkung verantwortlich.",
+        "en": "Infusion of the flowering herb (1–2 g per cup) as a bitter tonic to stimulate digestive secretions for loss of appetite, flatulence, and dyspeptic complaints. Sesquiterpene lactones (vulgarin) and essential oils (1,8-cineole, camphor) are responsible for the bitter, carminative action."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4
+      },
+      "source_ids": [
+        "src_wp_de_artemisia",
+        "src_pfaf_artemisia",
+        "src_pmc7583039"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "menstrual"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Traditionell als Emmenagogum bei unregelmäßiger, ausbleibender oder schmerzhafter Menstruation eingesetzt (Dysmenorrhoe, Amenorrhoe). Die Flavonoide Eriodictyol und Apigenin besitzen schwache östrogene Aktivität und können Uteruskontraktionen stimulieren — daher strikt in der Schwangerschaft kontraindiziert.",
+        "en": "Traditionally used as an emmenagogue for irregular, absent, or painful menstruation (dysmenorrhoea, amenorrhoea). The flavonoids eriodictyol and apigenin possess weak oestrogenic activity and can stimulate uterine contractions — therefore strictly contraindicated in pregnancy."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2
+      },
+      "source_ids": [
+        "src_pmc7583039",
+        "src_pfaf_artemisia"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Getrocknete oder frische Blätter als Küchenkraut zu fettem Fleisch (Gans, Ente), Füllungen und Grutbier. Die ätherischen Öle regen die Fettverdauung und Gallensekretion an. In Deutschland und Vietnam traditionelle Küchenpflanze.",
+        "en": "Dried or fresh leaves as a culinary herb with fatty meats (goose, duck), stuffings, and gruit ale. Essential oils stimulate fat digestion and bile secretion. Traditional culinary plant in Germany and Vietnam."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "src_wp_de_artemisia",
+        "src_wp_en_artemisia"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "joints",
+        "menstrual"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Warme Kräuterauflage aus frisch zerquetschten Blättern oder feuchtem Teeaufguss bei Gelenkschmerzen und Menstruationskrämpfen. Äußerliche Anwendung vermeidet die Resorption größerer Thujonmengen.",
+        "en": "Warm herb poultice from freshly crushed leaves or moist tea infusion for joint pain and menstrual cramps. Topical use avoids absorption of larger amounts of thujone."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_pfaf_artemisia",
+        "src_wp_de_artemisia"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "In der traditionellen chinesischen Medizin werden getrocknete Blätter und Stängel zu Moxastäben gepresst und zur Wärmeakupunktur (Moxibustion) verbrannt, um Akupunkturpunkte zu stimulieren. Diese Anwendung ist von der internen Einnahme streng zu unterscheiden.",
+        "en": "In traditional Chinese medicine, dried leaves and stems are compressed into moxa sticks and burned for thermoacupuncture (moxibustion) to stimulate acupoints. This application must be strictly distinguished from internal use."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "src_pmc7583039",
+        "src_wp_en_artemisia"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "menstrual"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Alkoholischer Auszug aus blühendem Kraut als bitteres Tonikum; stärker konzentriert als der Teeaufguss. Wegen des Thujongehalts nur in kleinen Dosen (max. 2–4 ml/Tag) und nicht dauerhaft anwenden.",
+        "en": "Alcoholic extract from flowering herb as a bitter tonic; more concentrated than tea infusion. Due to thujone content, use only in small doses (max. 2–4 ml/day) and not continuously."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_pmc7583039",
+        "src_pfaf_artemisia"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "In der Volksheilkunde als Expektorans und Antispasmodikum bei Atemwegserkrankungen und Asthma eingesetzt. Das ätherische Öl mit 1,8-Cineol und die anticholinergen Eigenschaften wirken bronchodilatatorisch (Tierversuche).",
+        "en": "Used in folk medicine as an expectorant and antispasmodic for respiratory complaints and asthma. The essential oil with 1,8-cineole and anticholinergic properties show bronchodilatory effects (animal studies)."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_pmc7583039"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Strikt in der Schwangerschaft kontraindiziert (uterotone Wirkung — Abort möglich). Thujone (β-Thujon bis 1,19 % im ätherischen Öl) ist in hohen Dosen neurotoxisch; Daueranwendung meiden. Korbblütler-Allergiker und Personen mit Artemisia-Pollenallergie haben erhöhtes Sensibilisierungsrisiko. Ätherisches Öl innerlich: nicht empfohlen.",
+      "en": "Strictly contraindicated during pregnancy (uterotonic effect — abortion possible). Thujone (β-thujone up to 1.19 % in essential oil) is neurotoxic in high doses; avoid prolonged use. People with Asteraceae allergy or Artemisia pollen allergy have increased sensitisation risk. Essential oil taken internally: not recommended."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Ausgeprägte uterotone Wirkung; kann Uteruskontraktionen auslösen und Fehlgeburt provozieren. Strikt meiden.",
+        "en": "Pronounced uterotonic effect; can trigger uterine contractions and induce miscarriage. Strictly avoid."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Keine ausreichenden Daten; wegen des Thujongehalts im ätherischen Öl vorsorglich kontraindiziert.",
+        "en": "Insufficient data; contraindicated as a precaution due to thujone content in essential oil."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Wegen Thujongehalt und potenzieller neurotoxischer Wirkung nicht bei Kindern unter 12 Jahren anwenden.",
+        "en": "Due to thujone content and potential neurotoxic effects, do not use in children under 12 years."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Schwangerschaft und Stillzeit.",
+        "en": "Pregnancy and lactation."
+      },
+      {
+        "de": "Bekannte Allergie gegen Korbblütler (Asteraceae), insbesondere Artemisia-Pollen (Kreuzreaktionen möglich).",
+        "en": "Known allergy to the daisy family (Asteraceae), especially Artemisia pollen (cross-reactions possible)."
+      },
+      {
+        "de": "Epilepsie (Thujone kann Krampfschwelle senken).",
+        "en": "Epilepsy (thujone may lower seizure threshold)."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "MAO-Hemmer (Moclobemid, Phenelzin)",
+        "mechanism": {
+          "de": "Beifuß wird MAO-hemmende Eigenschaften zugeschrieben; mögliche additive Wirkung mit psychiatrischen MAO-Inhibitoren.",
+          "en": "Mugwort is attributed with MAO-inhibitory properties; possible additive effect with psychiatric MAO inhibitors."
+        },
+        "severity": "caution",
+        "source_id": "src_pmc7583039"
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Beifuß (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Beifu%C3%9F",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Artemisia vulgaris (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Artemisia_vulgaris",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_de_artemisia",
+      "type": "wikipedia",
+      "title": "Beifuß (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Beifuss",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_artemisia",
+      "type": "wikipedia",
+      "title": "Artemisia vulgaris (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Artemisia_vulgaris",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_artemisia",
+      "type": "book",
+      "title": "Plants For A Future — Artemisia vulgaris",
+      "url": "https://www.pfaf.org/user/Plant.aspx?LatinName=Artemisia+vulgaris",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pmc7583039",
+      "type": "monograph",
+      "title": "Significance of Artemisia vulgaris L. in the History of Medicine and Its Possible Contemporary Applications (PMC7583039)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7583039/",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "artemisia-vulgaris.jpg",
+    "alt": {
+      "de": "Foto von Beifuß",
+      "en": "Photo of Artemisia vulgaris"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ArtemisiaVulgaris.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Vulgarin",
+      "category": "sesquiterpene",
+      "plant_part": "aerial_parts",
+      "percent_range": "ca. 0,15 % (Trockenmasse)",
+      "note": {
+        "de": "Sesquiterpenlacton; Leitinhaltsstoff von A. vulgaris; verantwortlich für Bittergeschmack und digestive Wirkung.",
+        "en": "Sesquiterpene lactone; marker compound of A. vulgaris; responsible for bitter taste and digestive activity."
+      }
+    },
+    {
+      "name": "1,8-Cineol (Eucalyptol)",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "percent_range": "2,6–17,6 % im ätherischen Öl",
+      "note": {
+        "de": "Monoterpen; bronchodilatatorisch und antimikrobiell; mengenmäßig einer der Hauptbestandteile des ätherischen Öls.",
+        "en": "Monoterpene; bronchodilatory and antimicrobial; one of the main components of the essential oil by volume."
+      }
+    },
+    {
+      "name": "Campher (Camphor)",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "percent_range": "bis zu 47,7 % im ätherischen Öl (je nach Chemotyp)",
+      "note": {
+        "de": "Monoterpen; Konzentrationsbereich stark chemotypabhängig; stimulierend und carminativ; in hohen Mengen toxisch.",
+        "en": "Monoterpene; concentration range strongly chemotype-dependent; stimulating and carminative; toxic in large amounts."
+      }
+    },
+    {
+      "name": "β-Thujon",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "percent_range": "bis 1,19 % im ätherischen Öl",
+      "note": {
+        "de": "Monoterpen; neurotoxisch in hohen Dosen; verantwortlich für das Risikopotenzial bei Daueranwendung oder Überdosierung.",
+        "en": "Monoterpene; neurotoxic in high doses; responsible for risk potential with prolonged use or overdose."
+      }
+    },
+    {
+      "name": "Eriodictyol",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavanon mit schwach östrogener Aktivität; einer der häufigsten Flavonoide in A. vulgaris; erklärt die volksmedizinische Verwendung bei Menstruationsbeschwerden.",
+        "en": "Flavanone with weak oestrogenic activity; one of the most abundant flavonoids in A. vulgaris; explains folk use for menstrual complaints."
+      }
+    },
+    {
+      "name": "Luteolin",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavon; antioxidativ und antientzündlich; zusammen mit Eriodictyol häufigster Flavonoidvertreter in A. vulgaris.",
+        "en": "Flavone; antioxidant and anti-inflammatory; alongside eriodictyol the most abundant flavonoid representative in A. vulgaris."
+      }
+    },
+    {
+      "name": "Quercetin-Derivate",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Quercetin 3-Glukosid, Quercetin 3-Galaktosid und weitere Derivate; antioxidativ.",
+        "en": "Quercetin 3-glucoside, quercetin 3-galactoside and further derivatives; antioxidant."
+      }
+    },
+    {
+      "name": "Artemisinin",
+      "category": "sesquiterpene",
+      "plant_part": "aerial_parts",
+      "percent_range": "0–2,3 %",
+      "note": {
+        "de": "Sesquiterpen-Endoperoxid; in A. vulgaris in variablen Mengen vorhanden (nicht die Artemisinin-reiche Art A. annua). Bekannt durch antimalarische und zytotoxische Eigenschaften.",
+        "en": "Sesquiterpene endoperoxide; present in A. vulgaris in variable amounts (not the artemisinin-rich species A. annua). Known for antimalarial and cytotoxic properties."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens nach Tauabtrocknung; obere Triebspitzen ernten, solange Blütenkörbchen noch geschlossen sind (Blütenöffnung = Blätter werden bitterer und weniger aromatisch).",
+        "en": "Morning after the dew has dried; harvest upper shoot tips while flower heads are still closed (opening of flowers = leaves become more bitter and less aromatic)."
+      },
+      "drying": {
+        "de": "Dünn ausgebreitet in belüftetem Schuppen bei max. 40 °C trocknen; Stängel entfernen, da Blätter aromatischer sind.",
+        "en": "Spread thinly in a ventilated shed at max. 40 °C; remove stems as leaves are more aromatic."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, lichtgeschützt, in dicht schließenden Behältern; ätherisches Öl verflüchtigt sich bei langer Lagerung.",
+        "en": "Dry, protected from light, in airtight containers; essential oil evaporates with prolonged storage."
+      }
+    },
+    {
+      "plant_part": "root",
+      "best_months": [
+        10,
+        11
+      ],
+      "drying": {
+        "de": "Wurzeln waschen, in Scheiben schneiden und bei 40 °C trocknen, bis sie leicht und hellbraun sind.",
+        "en": "Wash roots, slice, and dry at 40 °C until light and light-brown."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Kühl, trocken und lichtgeschützt lagern.",
+        "en": "Store cool, dry and protected from light."
+      }
+    }
+  ]
+}

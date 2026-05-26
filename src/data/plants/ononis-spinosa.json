@@ -1,0 +1,550 @@
+{
+  "slug": "ononis-spinosa",
+  "names": {
+    "de": "Dornige Hauhechel",
+    "en": "Ononis spinosa",
+    "latin": "Ononis spinosa"
+  },
+  "family": {
+    "de": "Hülsenfrüchtler",
+    "en": "Legume family",
+    "latin": "Fabaceae"
+  },
+  "description": {
+    "de": "Die Dornige Hauhechel, auch Weiberkrieg, Eindorn oder Katzendorn genannt, ist eine Pflanzenart aus der Gattung der Hauhecheln (Ononis) in der Unterfamilie der Schmetterlingsblütler (Faboideae) innerhalb der Familie der Hülsenfrüchtler (Fabaceae).",
+    "en": "Ononis spinosa is a flowering plant belonging to the family Fabaceae, that is commonly known as spiny restharrow or just restharrow. It is found throughout much of Europe including Britain, but rarely as far north as Scotland. It is closely related to Ononis repens ; the two are considered conspecific by the Plants of the World Online database, with O."
+  },
+  "teaser": {
+    "de": "Die Dornige Hauhechel, auch Weiberkrieg, Eindorn oder Katzendorn genannt, ist eine Pflanzenart aus der Gattung der Ha...",
+    "en": "Ononis spinosa is a flowering plant belonging to the family Fabaceae, that is commonly known as spiny restharrow or j..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "AUFGUSS (Kommission E, EMA traditional use): 2–3 g grob zerkleinerte, getrocknete Hauhechelwurzel (Ononidis radix) in 250 ml siedendem Wasser übergießen, zugedeckt 15 Minuten ziehen lassen, abseihen. Frisch zubereiten. 2–3× täglich eine Tasse, bevorzugt zwischen den Mahlzeiten. Tagesdosis: 6–9 g Droge. Zur Durchspülungstherapie bei entzündlichen Erkrankungen der ableitenden Harnwege und zur Vorbeugung von Nierengrieß. WICHTIG: Während der Anwendung reichlich Flüssigkeit trinken (mindestens 2 Liter täglich) — die Pflanze wirkt aquaretisch, d. h. sie erhöht das Harnvolumen. Anwendungsdauer: bis zu 4 Wochen; bei anhaltenden Beschwerden oder Fieber umgehend ärztliche Abklärung.",
+          "en": "INFUSION (Kommission E, EMA traditional use): 2–3 g of coarsely chopped dried restharrow root (Ononidis radix) in 250 ml boiling water, covered, steep 15 min, strain. Prepare fresh each time. 2–3 cups daily, preferably between meals. Daily dose: 6–9 g drug. For irrigation therapy in inflammatory conditions of the urinary tract and to prevent kidney gravel. IMPORTANT: Drink plenty of fluids (at least 2 litres daily) — the plant acts as an aquaretic, increasing urine volume. Duration up to 4 weeks; persistent symptoms or fever require medical evaluation."
+        }
+      },
+      "description": {
+        "de": "Klassische Durchspülungstherapie mit Hauhechelwurzel-Aufguss bei entzündlichen Harnwegsbeschwerden und zur Vorbeugung von Nierengrieß — positiv bewertet durch Kommission E und EMA (traditional use).",
+        "en": "Classic irrigation therapy using restharrow root infusion for inflammatory urinary tract complaints and prevention of kidney gravel — positively assessed by Kommission E and EMA (traditional use)."
+      },
+      "source_ids": [
+        "src_kommission_e_ononidis_radix",
+        "src_ema_ononidis_radix",
+        "src_wichtl_ononidis_radix"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 2,
+          "max": 4
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (Droge-Extrakt-Verhältnis 1:5 in 45–60 % Ethanol): 2–4 ml (~40–80 Tropfen) 3× täglich, mit ausreichend Wasser eingenommen. Entspricht ca. 6–9 g Droge pro Tag. Gleichzeitig viel trinken (mindestens 2 l Flüssigkeit täglich) — die aquaretische Wirkung erfordert ausreichend Flüssigkeitsaufnahme. Traditionelle Alternative zum Tee bei Durchspülungstherapie der Harnwege. Anwendungsdauer: bis zu 4 Wochen.",
+          "en": "TINCTURE (DER 1:5 in 45–60 % ethanol): 2–4 ml (~40–80 drops) 3× daily, taken with ample water. Equivalent to ~6–9 g drug per day. Drink liberally alongside (at least 2 litres daily) — the aquaretic effect requires adequate fluid intake. Traditional alternative to tea for urinary irrigation therapy. Duration up to 4 weeks."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Hauhechelwurzel-Tinktur als Alternative zum Tee — flüssigere Darreichungsform für die Durchspülungstherapie der Harnwege.",
+        "en": "Traditional restharrow root tincture as an alternative to tea — liquid dosage form for urinary irrigation therapy."
+      },
+      "source_ids": [
+        "src_wichtl_ononidis_radix",
+        "src_escop_ononidis_radix"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "joints"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "VOLKSHEILKUNDLICHE ANWENDUNG BEI GICHT/RHEUMA: Aufguss wie für Harnwegsindikation (2–3 g Wurzel, 250 ml siedendes Wasser, 15 Min. zugedeckt, abseihen). 2× täglich, begleitend zur erhöhten Flüssigkeitsaufnahme. Volksheilkundlich zur unterstützenden Ausscheidung von Harnsäure bei Gicht und rheumatischen Beschwerden eingesetzt. Wirksamkeit für diese Indikation ist nicht durch moderne klinische Studien belegt — lediglich traditionelle Anwendung. Nicht als Ersatz für ärztlich verordnete Gichttherapie verwenden.",
+          "en": "FOLK USE FOR GOUT/RHEUMATISM: Infusion as for urinary indication (2–3 g root, 250 ml boiling water, 15 min covered, strain). 2× daily, alongside increased fluid intake. Folk use for supporting elimination of uric acid in gout and rheumatic complaints. Efficacy for this indication is not documented by modern clinical studies — traditional use only. Not a substitute for medically prescribed gout therapy."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Anwendung bei Gicht und rheumatischen Beschwerden — aquaretische Wirkung soll Harnsäure-Ausscheidung fördern; nur traditionell belegt.",
+        "en": "Folk use for gout and rheumatic complaints — the aquaretic effect is traditionally held to support uric acid elimination; evidence is traditional only."
+      },
+      "source_ids": [
+        "src_madaus_1938",
+        "src_pfaf_ononis_spinosa",
+        "src_wp_de"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "BLÜTENTEE (volksmedizinisch): 1,5–2 g getrocknete Hauhechelblüten mit 200 ml heißem Wasser überbrühen, 10 Minuten zugedeckt ziehen lassen, abseihen. 2× täglich. Volksheilkundlich als mildere Alternative zur Wurzel eingesetzt — geringere Wirkstoffkonzentration. Weniger gut belegt als Wurzel-Zubereitung; Kommission E und EMA bewerten nur die Wurzel positiv. Bei Harnwegsbeschwerden Wurzel bevorzugen.",
+          "en": "FLOWER TEA (folk): 1.5–2 g dried restharrow flowers in 200 ml hot water, covered, steep 10 min, strain. 2× daily. Folk use as a milder alternative to the root — lower active constituent concentration. Less well documented than root preparations; Kommission E and EMA assessed only the root positively. For urinary complaints, prefer root preparations."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Blütentee als milde Alternative zur Wurzel — weniger wirkstoffreich, geringer wissenschaftlicher Beleg, ergänzend einsetzbar.",
+        "en": "Folk flower tea as a mild alternative to the root — lower in active constituents, less scientific evidence, used as an adjunct."
+      },
+      "source_ids": [
+        "src_pfaf_ononis_spinosa",
+        "src_madaus_1938"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "skin",
+        "joints"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "VOLLBAD / TEILBAD (volksheilkundlich): 50–100 g getrocknete Hauhechelwurzel in 2–3 l kaltem Wasser ansetzen, 20–30 Min. köcheln (Dekokt), abkühlen lassen, durch ein feines Sieb in das Badewasser gießen. Badetemperatur 36–38 °C, Badedauer 15–20 Minuten, 2–3× wöchentlich. Volksheilkundlich bei rheumatischen Beschwerden, Hautausschlägen und juckenden Hauterkrankungen als Sitzbad oder Vollbad eingesetzt. Externe Anwendung ist nicht durch Kommission E oder EMA bewertet; nur traditioneller Gebrauch.",
+          "en": "FULL / PARTIAL BATH (folk): 50–100 g dried restharrow root in 2–3 litres cold water, simmer 20–30 min (decoction), cool, strain into bath water. Bath temperature 36–38 °C, duration 15–20 minutes, 2–3× weekly. Folk use for rheumatic complaints, skin rashes and pruritic skin conditions as hip or full bath. External use is not assessed by Kommission E or EMA; traditional use only."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliches Hauhechelwurzel-Bad bei rheumatischen Beschwerden und Hauterkrankungen — äußerliche Anwendung, nicht offiziell bewertet.",
+        "en": "Folk restharrow root bath for rheumatic complaints and skin conditions — external use, not officially assessed."
+      },
+      "source_ids": [
+        "src_madaus_1938",
+        "src_wp_de"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "MISCHTEEZUBEREITUNG: Hauhechelwurzel ist traditionell Bestandteil von Blasen- und Nierenteegemischen (Tee Nr. 8 DAB / Blasentee). Typische Kombination: Hauhechelwurzel + Birkenblätter + Goldrutenkraut + Schachtelhalmkraut, zu gleichen Teilen gemischt. 1 EL (ca. 5 g) der Mischung auf 250 ml, 15 Min. Ziehzeit, 3× täglich. Synergistische aquaretische Wirkung aller Komponenten. Die Mischung ist offiziell in der Phytotherapie etabliert (DAB, NRF-Rezepturen).",
+          "en": "HERBAL BLEND: Restharrow root is traditionally a component of bladder and kidney tea blends (Blasentee, DAB Nr. 8 blend). Typical combination: restharrow root + birch leaf + goldenrod herb + horsetail, equal parts. 1 tbsp (~5 g) blend per 250 ml, steep 15 min, 3× daily. Synergistic aquaretic effect of all components. Officially established in phytotherapy (DAB, NRF formulations)."
+        }
+      },
+      "description": {
+        "de": "Hauhechelwurzel als Bestandteil von Blasen- und Nierenteegemischen (z. B. DAB-Blasentee) — synergistische aquaretische Wirkung mit Birkenblatt, Goldrute und Schachtelhalm.",
+        "en": "Restharrow root as a component of bladder and kidney tea blends (e.g. DAB bladder tea) — synergistic aquaretic effect with birch leaf, goldenrod and horsetail."
+      },
+      "source_ids": [
+        "src_wichtl_ononidis_radix",
+        "src_ema_ononidis_radix",
+        "src_escop_ononidis_radix"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_ml": {
+          "min": 2,
+          "max": 5
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "FLÜSSIGEXTRAKT / STANDARDISIERTER EXTRAKT: Trocken- und Flüssigextrakte (Droge-Extrakt-Verhältnis 3–6:1, Auszugsmittel Ethanol 40–60 %) sind als Phytopharmazeutika zugelassen. Tagesäquivalent: 6–9 g Droge. Fertigpräparate (z. B. Cysto Fink, Hepaselect, Blasen-Nieren-Tee-Kombinationen) nach Herstellerangaben dosieren. Viel Flüssigkeit trinken (≥ 2 l/Tag). Nicht länger als 4 Wochen ohne ärztliche Kontrolle. Kommission E positives Votum für Durchspülungstherapie der Harnwege.",
+          "en": "LIQUID / STANDARDISED EXTRACT: Dry and liquid extracts (DER 3–6:1, ethanol 40–60 %) are approved as phytopharmaceuticals. Daily equivalent: 6–9 g drug. Proprietary preparations (e.g. Cysto Fink, Hepaselect, combination kidney-bladder teas) dose per manufacturer instructions. Drink ample fluid (≥ 2 l/day). Not longer than 4 weeks without medical supervision. Kommission E positive assessment for urinary irrigation therapy."
+        }
+      },
+      "description": {
+        "de": "Standardisierte Hauhechelwurzel-Extrakte als Phytopharmazeutika — offiziell zugelassene Darreichungsform für die Durchspülungstherapie (Kommission E positiv).",
+        "en": "Standardised restharrow root extracts as phytopharmaceuticals — officially approved dosage form for irrigation therapy (Kommission E positive)."
+      },
+      "source_ids": [
+        "src_kommission_e_ononidis_radix",
+        "src_ema_ononidis_radix",
+        "src_escop_ononidis_radix"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Wurzel (Herbst)",
+      "en": "root (autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "DURCHSPÜLUNGSTHERAPIE NUR BEI AUSREICHENDER FLÜSSIGKEITSAUFNAHME: Mindestens 2 Liter Flüssigkeit täglich trinken — ohne ausreichende Flüssigkeitszufuhr ist die Durchspülungstherapie wirkungslos und kontraproduktiv. KONTRAINDIKATION Ödeme: Bei Wasseransammlungen (Ödeme) infolge von Herz- oder Nierenschwäche NICHT anwenden — aquaretische Therapie kann die Grunderkrankung verschlechtern. Fieber, starke Schmerzen beim Wasserlassen oder Blut im Urin: umgehend Arzt aufsuchen — mögliche ernsthafte Ursache (Nierensteine, Pyelonephritis). Anwendung ohne Diagnose bei Verdacht auf Nierensteine nur nach ärztlicher Abklärung. Selbstbehandlung chronischer Harnwegsinfekte ohne ärztliche Abklärung ist nicht empfohlen. Anwendung auf max. 4 Wochen begrenzen ohne medizinische Aufsicht.",
+      "en": "IRRIGATION THERAPY ONLY WITH ADEQUATE FLUID INTAKE: Drink at least 2 litres of fluid daily — without sufficient fluid intake the irrigation therapy is ineffective and counterproductive. CONTRAINDICATION oedema: Do NOT use if oedema is caused by cardiac or renal insufficiency — aquaretic therapy may worsen the underlying condition. Fever, severe pain on urination or blood in urine: seek medical attention immediately — possible serious underlying cause (kidney stones, pyelonephritis). Self-treatment of suspected kidney stones without medical assessment not advised. Self-treatment of chronic urinary infections without diagnosis is not recommended. Limit use to 4 weeks without medical supervision."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In der Schwangerschaft nicht anwenden. Tier- und In-vitro-Daten zeigen uterusstimulierendes Potenzial von Inhaltsstoffen (Isoflavone, Ononidin); zudem keine ausreichenden klinischen Sicherheitsdaten. Kommission E und EMA empfehlen die Anwendung in der Schwangerschaft nicht.",
+        "en": "Do not use in pregnancy. Animal and in vitro data show uterine-stimulating potential of constituents (isoflavones, ononidin); additionally no adequate clinical safety data. Kommission E and EMA do not recommend use in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In der Stillzeit nicht anwenden — keine ausreichenden Sicherheitsdaten; Übergang der Isoflavone in die Muttermilch kann nicht ausgeschlossen werden.",
+        "en": "Do not use during lactation — insufficient safety data; transfer of isoflavones into breast milk cannot be excluded."
+      }
+    },
+    "children": {
+      "status": "unknown",
+      "note": {
+        "de": "Für Kinder und Jugendliche unter 12 Jahren nicht empfohlen — keine ausreichenden klinischen Sicherheitsdaten vorhanden. EMA und Kommission E nennen keine Kinderdosierungen.",
+        "en": "Not recommended for children under 12 years — insufficient clinical safety data. EMA and Kommission E provide no paediatric dosages."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Ödeme (Wasseransammlungen) infolge von Herz- oder Nierenschwäche — aquaretische Therapie ist bei diesen Grunderkrankungen kontraindiziert.",
+        "en": "Oedema resulting from cardiac or renal insufficiency — aquaretic irrigation therapy is contraindicated in these conditions."
+      },
+      {
+        "de": "Eingeschränkte Nierenfunktion (Niereninsuffizienz) — erhöhte Harnproduktion kann die Nieren zusätzlich belasten; nur nach ärztlicher Rücksprache.",
+        "en": "Impaired renal function (renal insufficiency) — increased urine production may place additional strain on the kidneys; use only after medical consultation."
+      },
+      {
+        "de": "Überempfindlichkeit gegen Ononis spinosa oder andere Fabaceae (Schmetterlingsblütler).",
+        "en": "Hypersensitivity to Ononis spinosa or other Fabaceae (legumes)."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (siehe pregnancy/lactation).",
+        "en": "Pregnancy and lactation (see pregnancy/lactation notes)."
+      },
+      {
+        "de": "Akute Nierenentzündung (Pyelonephritis, Glomerulonephritis) — bei akuten Infektionen mit Fieber zuerst ärztliche Behandlung; Durchspülungstherapie nur ergänzend und nach Diagnose.",
+        "en": "Acute kidney inflammation (pyelonephritis, glomerulonephritis) — acute febrile infections require medical treatment first; irrigation therapy only adjunctive and after diagnosis."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Diuretika (Furosemid, Thiazide, Spironolacton)",
+        "mechanism": {
+          "de": "Hauhechelwurzel wirkt schwach aquaretisch (erhöht die Harnausscheidung). Bei gleichzeitiger Einnahme mit Diuretika additiv verstärkte Flüssigkeits- und Elektrolyt-Verluste möglich. Risiko von Hyponatriämie, Hypokaliämie und Dehydration. Flüssigkeits- und Elektrolythaushalt kontrollieren.",
+          "en": "Restharrow root has a mild aquaretic effect (increases urinary output). Concurrent use with diuretics may additively increase fluid and electrolyte losses. Risk of hyponatraemia, hypokalaemia and dehydration. Monitor fluid and electrolyte balance."
+        },
+        "severity": "monitor",
+        "source_id": "src_ema_ononidis_radix"
+      },
+      {
+        "drug_class": "Lithium",
+        "mechanism": {
+          "de": "Erhöhte Harnausscheidung durch aquaretische Wirkstoffe kann die renale Lithium-Ausscheidung beeinflussen und den Lithiumspiegel im Serum verändern (Risiko sowohl der Lithium-Akkumulation als auch -Unterschreitung je nach Ausgangsstoffwechsel). Lithiumspiegel-Monitoring empfohlen.",
+          "en": "Increased urinary output from aquaretic constituents may affect renal lithium excretion and alter serum lithium levels (risk of both lithium accumulation and sub-therapeutic levels depending on baseline metabolism). Lithium level monitoring recommended."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_ononidis_radix"
+      },
+      {
+        "drug_class": "Antikoagulantien / Gerinnungshemmer (Cumarin-Derivate: Phenprocoumon, Warfarin)",
+        "mechanism": {
+          "de": "Hauhechel enthält Isoflavone mit schwacher östrogenartiger Aktivität sowie phenolische Verbindungen; theoretische Wechselwirkung mit Vitamin-K-Stoffwechsel bzw. Gerinnungskaskade nicht vollständig ausgeschlossen. Klinisch nicht belegt, aber Vorsicht bei oraler Antikoagulation — INR-Kontrollen empfehlenswert.",
+          "en": "Restharrow contains isoflavones with weak oestrogenic activity and phenolic compounds; theoretical interaction with vitamin K metabolism or clotting cascade not fully excluded. Not clinically documented, but caution with oral anticoagulants — INR monitoring advisable."
+        },
+        "severity": "monitor",
+        "source_id": "src_wichtl_ononidis_radix"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Dornige Hauhechel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Dornige_Hauhechel",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Ononis spinosa (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Ononis_spinosa",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_kommission_e_ononidis_radix",
+      "type": "monograph",
+      "title": "Kommission E — Ononidis radix (Hauhechelwurzel), Monographie (positiv), BAnz Nr. 50, 1989; überprüft 1990",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/0371.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_ema_ononidis_radix",
+      "type": "monograph",
+      "title": "EMA/HMPC — European Union herbal monograph on Ononis spinosa L., radix (Draft / Final, EMA/HMPC/437229/2010)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/ononidis-radix",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_ononidis_radix",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Ononidis Radix (Restharrow Root), 2nd edition supplement 2009",
+      "url": "https://escop.com/downloads/restharrow-root/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_ononidis_radix",
+      "type": "book",
+      "title": "Wichtl, Max (Hrsg.) — Teedrogen und Phytopharmaka, 5. Auflage. Hauhechelwurzel — Ononidis radix. Wissenschaftliche Verlagsgesellschaft, Stuttgart 2009. ISBN 978-3-8047-1917-0.",
+      "url": "https://www.wissenschaftliche.de/buecher/978-3-8047-1917-0",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_1938",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band II: Ononis spinosa (Hauhechel), 1938 (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/ononis.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_ononis_spinosa",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Ononis spinosa database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ononis+spinosa",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de",
+      "type": "wikipedia",
+      "title": "Dornige Hauhechel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Dornige_Hauhechel",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en",
+      "type": "wikipedia",
+      "title": "Ononis spinosa (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Ononis_spinosa",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_ononis_spinosa",
+      "type": "wikidata",
+      "title": "Wikidata — Ononis spinosa (Q158503)",
+      "url": "https://www.wikidata.org/wiki/Q158503",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_hansel_sticher",
+      "type": "book",
+      "title": "Hänsel, Rudolf; Sticher, Otto — Pharmakognosie – Phytopharmazie, 9. Auflage. Springer, Berlin 2010. ISBN 978-3-642-00963-4. Kapitel Ononidis radix.",
+      "url": "https://link.springer.com/book/9783642009624",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "ononis-spinosa.jpg",
+    "alt": {
+      "de": "Foto von Dornige Hauhechel",
+      "en": "Photo of Ononis spinosa"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Michael Becker",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ononis_spinosa_2005.07.03_12.14.09.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Isoflavone (Formononetin, Ononin, Onogenin, Biochanin A)",
+      "category": "flavonoid",
+      "percent_range": "0.1-0.3 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Charakteristische Leitsubstanzgruppe der Hauhechel. Formononetin ist das dominante Isoflavon; Ononin ist das entsprechende 7-O-Glucosid. Isoflavone wirken schwach phytoöstrogen und werden in Zusammenhang mit der traditionellen Anwendung bei Harnwegsbeschwerden sowie der historischen volksheilkundlichen Verwendung bei Wechseljahresbeschwerden gebracht. Biochemisch als Phytoöstrogene über Östrogenrezeptoren wirksam.",
+        "en": "Characteristic lead compound group of restharrow. Formononetin is the dominant isoflavone; ononin is its 7-O-glucoside. Isoflavones act as weak phytoestrogens and are associated with the traditional use for urinary complaints and the historical folk use for menopausal symptoms. Biochemically active as phytoestrogens via oestrogen receptors."
+      }
+    },
+    {
+      "name": "Ononidin (Onocerin-Glucosid)",
+      "category": "glycoside",
+      "percent_range": "0.1-0.2 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Triterpenglyosid (Glycosid des Onoserins / Onocerins), dem antiphlogistische und schwach aquaretische Eigenschaften zugeschrieben werden. Mitverantwortlich für die in der Volksmedizin beschriebene harntreibende Wirkung. Tierexperimentelle Daten weisen auf uterusstimulierendes Potenzial hin — Grundlage der Schwangerschaftskontraindikation.",
+        "en": "Triterpene glycoside (glycoside of onoserin/onocerin), attributed with anti-inflammatory and weakly aquaretic properties. Partially responsible for the diuretic effect described in folk medicine. Animal experimental data indicate uterine-stimulating potential — basis for the pregnancy contraindication."
+      }
+    },
+    {
+      "name": "Triterpensaponine (Onocerin, beta-Sitosterol-Glucosid)",
+      "category": "saponin",
+      "percent_range": "0.3-1.0 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Pentacyclische Triterpene (Onocerin als Leitsubstanz) und steroidale Saponine. Tragen zur entzündungshemmenden und möglicherweise aquaretischen Gesamtwirkung bei. Onocerin ist strukturell ungewöhnlich — tetracyclisches Triterpenoid mit 2 Hydroxylgruppen.",
+        "en": "Pentacyclic triterpenes (onocerin as the lead substance) and steroidal saponins. Contribute to the anti-inflammatory and possibly aquaretic overall effect. Onocerin is structurally unusual — a tetracyclic triterpenoid with 2 hydroxyl groups."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Carvon, Anethol, Menthol-Derivate — Spuren)",
+      "category": "essential_oil",
+      "percent_range": "0.02-0.1 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Nur Spuren in der Wurzel; etwas mehr in den oberirdischen Pflanzenteilen und Blüten. Die frische Pflanze hat einen charakteristischen, leicht harzigen bis würzigen Geruch. Pharmakologisch bei therapeutischer Dosierung der Wurzel nicht relevant.",
+        "en": "Only traces in the root; slightly more in aerial parts and flowers. The fresh plant has a characteristic slightly resinous to spicy scent. Pharmacologically not relevant at therapeutic root dosages."
+      }
+    },
+    {
+      "name": "Flavonoide (Kaempferol, Quercetin-Glykoside, Liquiritigenin)",
+      "category": "flavonoid",
+      "percent_range": "0.2-0.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavonole und Flavanone in Blättern und Blüten. Kaempferol und Quercetin wirken antioxidativ und mild antiphlogistisch. Liquiritigenin (Süßholz-verwandtes Flavanon) ist strukturell mit den Isoflavonen verwandt und trägt zur schwachen phytoöstrogenen Aktivität bei.",
+        "en": "Flavonols and flavanones in leaves and flowers. Kaempferol and quercetin act as antioxidants and mild anti-inflammatories. Liquiritigenin (a flavanone related to liquorice) is structurally related to the isoflavones and contributes to the weak phytooestrogenic activity."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Kaffeesäure, p-Cumarsäure, Chlorogensäure)",
+      "category": "phenolic_acid",
+      "percent_range": "0.1-0.3 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Verbreitet in Fabaceae. Antioxidativ, mild antiphlogistisch; ergänzen die Gesamtwirkung des Wurzelextrakts. Chlorogensäure ist auch aus Kaffeebohnen bekannt und besitzt nachgewiesene antioxidative Aktivität.",
+        "en": "Widespread in Fabaceae. Antioxidant, mildly anti-inflammatory; complement the overall effect of the root extract. Chlorogenic acid is also known from coffee beans and has documented antioxidant activity."
+      }
+    },
+    {
+      "name": "Gerbstoffe / kondensierte Tannine",
+      "category": "tannin",
+      "percent_range": "2.0-5.0 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Relativ hoher Gerbstoffanteil in der Wurzel (kondensierte Catechin-Tannine). Adstringierend auf Harnwegsmukosa; können die Reizlinderung bei Blasenentzündungen mit erklären. Bei Magenempfindlichkeit kann der hohe Gerbstoffanteil zu Übelkeit führen — Tee besser nicht auf nüchternen Magen trinken.",
+        "en": "Relatively high tannin content in the root (condensed catechin tannins). Astringent on urinary mucosa; may partly explain soothing effect in cystitis. In sensitive individuals the high tannin content may cause nausea — tea best not taken on an empty stomach."
+      }
+    },
+    {
+      "name": "Stärke und Zucker (Saccharose, Glucose — in der Wurzel)",
+      "category": "polysaccharide",
+      "percent_range": "10-20 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Hauhechelwurzeln enthalten nennenswerte Mengen an Stärke und Zuckern. Historisch war die Wurzel in Notzeiten als Nahrungsmittel verwendbar (Röstung zu Kaffee-Ersatz). Pharmakologisch kein eigenständiger Beitrag zur Heilwirkung.",
+        "en": "Restharrow roots contain notable amounts of starch and sugars. Historically the root could be used as a food in lean times (roasted as a coffee substitute). No independent pharmacological contribution to medicinal effect."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        9,
+        10,
+        11,
+        3
+      ],
+      "time_of_day": {
+        "de": "Ernte im Frühherbst (September–November) oder im frühen Frühjahr vor dem Austrieb (März) an trockenen Tagen bevorzugt. Wurzeln werden im Herbst durch Ausgraben gewonnen — zu diesem Zeitpunkt sind die Wirkstoffe (Isoflavone, Saponine) am konzentriertesten.",
+        "en": "Harvest in early autumn (September–November) or in early spring before new growth (March) on dry days preferred. Roots are obtained by digging — at this time the active constituents (isoflavones, saponins) are most concentrated."
+      },
+      "drying": {
+        "de": "Wurzeln nach dem Ausgraben von Erde und Feinwurzeln befreien, waschen und in 3–5 cm lange Stücke schneiden (Längsschnitt erleichtert Trocknung). Im Dörrgerät bei 40–50 °C oder auf Tüchern an luftigem, schattigen Ort bei Umgebungstemperatur unter 40 °C trocknen. Trocknungsdauer 2–4 Tage (Dörrer) bzw. 7–14 Tage (Lufttrocknung). Die Wurzel gilt als trocken, wenn sie beim Zerbrechen knackt und hart ist — keine weichen Stellen (Schimmelgefahr). Kauf im Apothekenhandel vorzuziehen, da das Ausgraben der Wurzel arbeitsintensiv ist und Verwechslungen mit giftigen Nachbarpflanzen vermieden werden können. ACHTUNG: Dornige Hauhechel ist in manchen Regionen Deutschlands / Österreichs / der Schweiz geschützt oder gefährdet — vor Ernte lokale Naturschutzbestimmungen prüfen und nur Bestände nutzen, bei denen keine Gefährdung vorliegt.",
+        "en": "After digging, free roots from soil and rootlets, wash and cut into 3–5 cm pieces (longitudinal cut facilitates drying). Dehydrator at 40–50 °C or on cloth in a shaded, well-ventilated spot below 40 °C ambient. Drying time 2–4 days (dehydrator) or 7–14 days (air-drying). The root is dry when it snaps crisply and is hard throughout — no soft spots (mould risk). Purchase from pharmacy trade is preferable as digging is labour-intensive and confusions with toxic neighbour plants are avoided. NOTE: Spiny restharrow is protected or endangered in some regions of Germany, Austria and Switzerland — check local conservation regulations before harvesting and only use non-threatened stands."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Getrocknete Wurzelstücke luftdicht in Blechdosen oder dunklen Gläsern, kühl und trocken lagern. Haltbarkeit bis 2 Jahre. Qualitätsmerkmal: charakteristischer, leicht süßlicher Geruch; grau-braune Außenrinde, gelblich-weißes Innenfleisch. Bei muffigem Geruch oder Schimmelbefall entsorgen.",
+        "en": "Store dried root pieces airtight in tins or dark glass jars, cool and dry. Shelf life up to 2 years. Quality indicator: characteristic slightly sweet smell; grey-brown outer bark, yellowish-white inner tissue. Discard if musty smell or mould is detected."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Blühende oberirdische Pflanzenteile (Stängel, Blätter, Blüten) von Juni bis August ernten, bevorzugt an trockenen Vormittagen (10–12 Uhr), wenn der Tau abgetrocknet ist. Blütenstand mit den obersten 15–20 cm des Stängels abschneiden. Harte, verholzte Stängelbereiche vermeiden.",
+        "en": "Harvest flowering aerial parts (stems, leaves, flowers) from June to August, preferably on dry mornings (10–12), once dew has evaporated. Cut the flower heads with the top 15–20 cm of stem. Avoid hard, lignified stem sections."
+      },
+      "drying": {
+        "de": "Pflanzenteile locker zu kleinen Bündeln binden (Blüten nach unten), an luftigem, schattigen Ort aufhängen oder einlagig auf Tüchern ausbreiten. Temperatur max. 35 °C. Trocknungszeit 5–10 Tage. Trocken, wenn Blätter beim Reiben rascheln und Stängel leicht brechen. Volksmedizinisch weniger gebräuchlich als die Wurzel — Kommission E und EMA beziehen sich nur auf die Wurzel (Ononidis radix). Oberirdische Teile sind für Kräutertees (Mischtees, Schönheitspflege) in der Volksmedizin überliefert.",
+        "en": "Loosely tie plant parts into small bundles (flowers downward), hang in a shaded, well-ventilated spot or spread in a single layer on cloth. Temperature max. 35 °C. Drying time 5–10 days. Dry when leaves rustle when rubbed and stems break easily. Less commonly used in folk medicine than the root — Kommission E and EMA refer only to the root (Ononidis radix). Aerial parts are recorded in folk medicine for herbal teas (blends, cosmetic preparations)."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, kühl, lichtgeschützt in Gläsern oder Blechdosen. Innerhalb 1 Jahr aufbrauchen.",
+        "en": "Dry, cool, light-protected in glass jars or tins. Use within 1 year."
+      }
+    }
+  ]
+}

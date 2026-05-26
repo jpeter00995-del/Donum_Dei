@@ -1,0 +1,527 @@
+{
+  "slug": "petroselinum-crispum",
+  "names": {
+    "de": "Petersilie",
+    "en": "Parsley",
+    "latin": "Petroselinum crispum"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Die Petersilie, in Österreich und Altbayern auch der Petersil, weitere Trivialnamen sind Peterle bzw. Peterli, Peterling, Petergrün und Silk, ist eine Pflanzenart aus der Gattung Petroselinum innerhalb der Familie der Doldenblütler (Apiaceae).",
+    "en": "Parsley, or garden parsley, is a species of flowering plant in the family Apiaceae that is native to the Balkans. It has been introduced and naturalized in Europe and elsewhere in the world with suitable climates, and is widely cultivated as a herb and a vegetable."
+  },
+  "teaser": {
+    "de": "Die Petersilie, in Österreich und Altbayern auch der Petersil, weitere Trivialnamen sind Peterle bzw.",
+    "en": "Parsley, or garden parsley, is a species of flowering plant in the family Apiaceae that is native to the Balkans."
+  },
+  "uses": [
+    {
+      "plant_part": "root",
+      "form": "tea",
+      "internal_external": "internal",
+      "preparation": {
+        "de": "2 g getrocknete Petersilienwurzel mit 150 ml kochendem Wasser übergießen, 10-15 min ziehen lassen, abseihen. 2-3x täglich, Tagesdosis 6 g Droge. Auf reichliche Flüssigkeitszufuhr achten.",
+        "en": "Pour 150 ml boiling water over 2 g dried parsley root, steep 10-15 min, strain. 2-3x daily, daily dose 6 g drug. Ensure ample fluid intake."
+      },
+      "dose": "2 g",
+      "water_ml": 150,
+      "steep_min": 12,
+      "evidence_level": "commission_e",
+      "source_ids": [
+        "komme_petersilie",
+        "pfaf_petroselinum",
+        "heilpraxis_petersilie"
+      ],
+      "description": {
+        "de": "Durchspülungstherapie bei leichten Beschwerden des unteren Harntrakts",
+        "en": "Irrigation therapy for mild lower urinary tract complaints"
+      },
+      "target": [
+        "urinary"
+      ]
+    },
+    {
+      "plant_part": "leaf",
+      "form": "tea",
+      "internal_external": "internal",
+      "preparation": {
+        "de": "1-2 TL frisches oder getrocknetes Petersilienkraut mit 150 ml kochendem Wasser übergießen, 10 min ziehen lassen. 2-3 Tassen täglich. Maximal Tagesdosis 6 g Droge.",
+        "en": "Pour 150 ml boiling water over 1-2 tsp fresh or dried parsley herb, steep 10 min. 2-3 cups daily. Maximum daily dose 6 g drug."
+      },
+      "dose": "2 g",
+      "water_ml": 150,
+      "steep_min": 10,
+      "evidence_level": "commission_e",
+      "source_ids": [
+        "komme_petersilie",
+        "welt_wappen_petersilie"
+      ],
+      "description": {
+        "de": "Aquaretikum bei Reizblase und Harnwegsentzündungen (volkstümlich, Kommission E positiv für Kraut/Wurzel)",
+        "en": "Aquaretic for irritable bladder and urinary tract inflammation (folk use, Commission E positive for herb/root)"
+      },
+      "target": [
+        "urinary"
+      ]
+    },
+    {
+      "plant_part": "leaf",
+      "form": "raw",
+      "internal_external": "internal",
+      "preparation": {
+        "de": "Frische Petersilienblätter fein gehackt über Salate, Suppen, Saucen, Kartoffeln oder als Garnitur. Küchenübliche Mengen (1-2 EL/Mahlzeit) gelten in Schwangerschaft als sicher.",
+        "en": "Fresh parsley leaves finely chopped over salads, soups, sauces, potatoes or as garnish. Culinary amounts (1-2 tbsp/meal) considered safe in pregnancy."
+      },
+      "evidence_level": "folk",
+      "source_ids": [
+        "pfaf_petroselinum",
+        "eatsmarter_petersilie"
+      ],
+      "description": {
+        "de": "Vitamin-C- und Folsäurequelle, Verdauungsförderung, Atemerfrischung (küchenüblich)",
+        "en": "Source of vitamin C and folate, digestive support, breath freshener (culinary use)"
+      },
+      "target": [
+        "digestion",
+        "nutrition"
+      ]
+    },
+    {
+      "plant_part": "leaf",
+      "form": "spice",
+      "internal_external": "internal",
+      "preparation": {
+        "de": "Getrocknete oder frische Petersilie als Gewürz. Beim Kochen erst gegen Ende zugeben, um Aroma und Vitamine zu erhalten. Auch Wurzel als Suppengrün-Bestandteil.",
+        "en": "Dried or fresh parsley as spice. Add only towards end of cooking to preserve aroma and vitamins. Root also as soup-greens component."
+      },
+      "evidence_level": "folk",
+      "source_ids": [
+        "pfaf_petroselinum",
+        "eatsmarter_petersilie"
+      ],
+      "description": {
+        "de": "Würzkraut für Bouillon, Kräuterquark, Tabouleh, Gremolata (traditionelles Würzmittel)",
+        "en": "Culinary herb for broths, herb quark, tabbouleh, gremolata (traditional spice)"
+      },
+      "target": [
+        "nutrition"
+      ]
+    },
+    {
+      "plant_part": "leaf",
+      "form": "compress",
+      "internal_external": "external",
+      "preparation": {
+        "de": "Frische Petersilienblätter zerquetschen, direkt auf Stich/Quetschung auflegen oder einen starken Aufguss (1 Handvoll Kraut auf 250 ml Wasser) als Kompresse verwenden, 15-20 min einwirken lassen.",
+        "en": "Crush fresh parsley leaves, apply directly to sting/bruise, or use a strong infusion (1 handful herb to 250 ml water) as compress, leave on 15-20 min."
+      },
+      "evidence_level": "folk",
+      "source_ids": [
+        "pfaf_petroselinum",
+        "heilpraxis_petersilie"
+      ],
+      "description": {
+        "de": "Umschlag bei Insektenstichen, Quetschungen und zur Linderung von Hautreizungen (volksmedizinisch)",
+        "en": "Compress for insect bites, bruises and skin irritation relief (folk medicine)"
+      },
+      "target": [
+        "skin"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Blätter",
+      "en": "leaves"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "KRITISCH: Therapeutische Anwendung (Tee, Tinktur, Extrakte, ätherisches Öl) in der Schwangerschaft KONTRAINDIZIERT — Apiol und Myristicin im ätherischen Öl wirken in höheren Dosen abortiv (uteruskontrahierend), hepatotoxisch (leberschädigend) und neurotoxisch. Petersilienfrüchte/-samenöl wurden historisch als Abortivum missbraucht (lebensgefährlich). Küchenübliche Mengen (Garnitur, Salat) gelten als sicher. Phototoxische Reaktionen durch Furanocumarine (Bergapten, Psoralen) möglich, besonders bei hellhäutigen Personen. Reine ätherische Öle NICHT innerlich anwenden. Auf reichliche Flüssigkeitszufuhr bei Durchspülungstherapie achten.",
+      "en": "CRITICAL: Therapeutic use (tea, tincture, extracts, essential oil) CONTRAINDICATED in pregnancy — apiol and myristicin in essential oil are abortifacient (uterotonic), hepatotoxic and neurotoxic at higher doses. Parsley fruit/seed oil was historically misused as abortifacient (life-threatening). Culinary amounts (garnish, salad) considered safe. Phototoxic reactions from furanocoumarins (bergapten, psoralen) possible, especially in fair-skinned individuals. Pure essential oils MUST NOT be taken internally. Ensure ample fluid intake during irrigation therapy."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "-",
+        "en": "-"
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "-",
+        "en": "-"
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "-",
+        "en": "-"
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Vitamin-K-Antagonisten (Warfarin, Phenprocoumon)",
+        "mechanism": {
+          "de": "Petersilie ist sehr reich an Vitamin K — größere oder schwankende Mengen können die gerinnungshemmende Wirkung von Cumarin-Antikoagulantien abschwächen und die INR destabilisieren. Konsistente Zufuhr halten.",
+          "en": "Parsley is very rich in vitamin K — larger or fluctuating amounts can reduce the effect of coumarin anticoagulants and destabilise INR. Keep intake consistent."
+        },
+        "severity": "caution",
+        "source_id": "drugs_vitk_warfarin"
+      },
+      {
+        "drug_class": "Lithium",
+        "mechanism": {
+          "de": "Aquaretische/diuretische Wirkung kann die renale Lithium-Clearance verringern und Plasmaspiegel erhöhen (Toxizitätsrisiko).",
+          "en": "Aquaretic/diuretic effect may reduce renal lithium clearance and raise plasma levels (toxicity risk)."
+        },
+        "severity": "caution",
+        "source_id": "medscape_parsley"
+      },
+      {
+        "drug_class": "Diuretika (Schleifen-, Thiaziddiuretika)",
+        "mechanism": {
+          "de": "Additive harntreibende Wirkung — Risiko für Dehydratation und Elektrolytverschiebungen, besonders bei älteren Patienten.",
+          "en": "Additive diuretic effect — risk of dehydration and electrolyte shifts, especially in elderly patients."
+        },
+        "severity": "monitor",
+        "source_id": "medscape_parsley"
+      },
+      {
+        "drug_class": "MAO-Hemmer",
+        "mechanism": {
+          "de": "Myristicin im ätherischen Öl wirkt schwach MAO-hemmend — potenziell additive Effekte bei pharmazeutischen MAO-Hemmern (nur bei hohen Dosen / ätherischem Öl relevant).",
+          "en": "Myristicin in essential oil has weak MAO-inhibiting activity — potentially additive with pharmaceutical MAOIs (relevant only at high doses / essential oil)."
+        },
+        "severity": "monitor",
+        "source_id": "pmc_repro_tox"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Schwangerschaft (therapeutische Dosis, ätherisches Öl, Tinktur, Samen); Ödeme infolge eingeschränkter Herz- oder Nierenfunktion (Kommission E, da Durchspülungstherapie kontraindiziert); akute Nierenentzündung (Glomerulonephritis, Pyelonephritis); bekannte Allergie gegen Doldenblütler (Apiaceae); ätherisches Öl innerlich generell kontraindiziert.",
+        "en": "Pregnancy (therapeutic dose, essential oil, tincture, seeds); oedema due to impaired cardiac or renal function (Commission E, irrigation therapy contraindicated); acute nephritis (glomerulonephritis, pyelonephritis); known allergy to Apiaceae family; essential oil internally contraindicated in general."
+      }
+    ],
+    "max_continuous_use_weeks": 4,
+    "max_continuous_use_note": {
+      "de": "Therapeutische Anwendung (Tee aus Wurzel/Kraut) auf 2-4 Wochen begrenzen wegen möglicher Apiol-/Myristicin-Akkumulation. Bei anhaltenden Harnwegsbeschwerden, Fieber, Blut im Urin oder Krämpfen ärztliche Abklärung erforderlich. Küchenübliche Mengen unbegrenzt.",
+      "en": "Limit therapeutic use (root/herb tea) to 2-4 weeks due to possible apiol/myristicin accumulation. Persistent urinary symptoms, fever, blood in urine or cramps require medical evaluation. Culinary amounts unrestricted."
+    }
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Petersilie (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Petersilie",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Parsley (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Parsley",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "komme_petersilie",
+      "type": "monograph",
+      "citation": "Kommission E Monographie Petroselini herba/radix, Bundesanzeiger Nr. 43 vom 02.03.1989, ATC C03FA — positive Bewertung für Kraut und Wurzel, negative für Früchte.",
+      "url": "https://www.awl.ch/heilpflanzen/petroselinum_crispum/petersilie.htm",
+      "accessed": "2026-05-19",
+      "title": "komme_petersilie"
+    },
+    {
+      "id": "pfaf_petroselinum",
+      "type": "wikipedia",
+      "citation": "Plants For A Future (PFAF) — Petroselinum crispum: edible & medicinal uses, hazards (apiol, pregnancy).",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Petroselinum+crispum",
+      "accessed": "2026-05-19",
+      "title": "pfaf_petroselinum"
+    },
+    {
+      "id": "heilpraxis_petersilie",
+      "type": "wikipedia",
+      "citation": "Heilpraxisnet — Petersilie und Petersilienwurzel: Anwendung, Inhaltsstoffe, Risiken.",
+      "url": "https://www.heilpraxisnet.de/heilpflanzen/petersilie-und-petersilienwurzel/",
+      "accessed": "2026-05-19",
+      "title": "heilpraxis_petersilie"
+    },
+    {
+      "id": "welt_wappen_petersilie",
+      "type": "book",
+      "citation": "Bernhard Peter — Die Chemie der Petersilie Stammpflanzen: Apiin, Apigenin, Furanocumarine, ätherisches Öl Zusammensetzung.",
+      "url": "http://www.welt-der-wappen.de/Apotheke/Phytochemie/Petersilie.htm",
+      "accessed": "2026-05-19",
+      "title": "welt_wappen_petersilie"
+    },
+    {
+      "id": "eatsmarter_petersilie",
+      "type": "wikipedia",
+      "citation": "EAT SMARTER Warenkunde — Petersilie: Vitamin C, Vitamin K, Folsäure, küchenüblicher Einsatz.",
+      "url": "https://eatsmarter.de/lexikon/warenkunde/kraeuter/petersilie",
+      "accessed": "2026-05-19",
+      "title": "eatsmarter_petersilie"
+    },
+    {
+      "id": "drugs_vitk_warfarin",
+      "type": "monograph",
+      "citation": "Drugs.com Drug Interactions Database — Vitamin K + Warfarin: parsley listed among high-vitamin-K foods destabilising INR.",
+      "url": "https://www.drugs.com/drug-interactions/vitamin-k-with-warfarin-1868-16217-2311-0.html",
+      "accessed": "2026-05-19",
+      "title": "drugs_vitk_warfarin"
+    },
+    {
+      "id": "medscape_parsley",
+      "type": "monograph",
+      "citation": "Medscape Drug Reference — Petroselinum crispum (parsley): indication-specific dosing, adverse effects, interactions (lithium, diuretics), pregnancy/lactation.",
+      "url": "https://reference.medscape.com/drug/petroselinum-crispum-parsley-344574",
+      "accessed": "2026-05-19",
+      "title": "medscape_parsley"
+    },
+    {
+      "id": "pmc_repro_tox",
+      "type": "monograph",
+      "citation": "Mendes-Silva W. et al. — Maternal Reproductive Toxicity of Some Essential Oils and Their Constituents (apiol, myristicin: abortifacient, hepatotoxic, neurotoxic).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7956842/",
+      "accessed": "2026-05-19",
+      "title": "pmc_repro_tox"
+    },
+    {
+      "id": "ggiz_petersilie",
+      "type": "monograph",
+      "citation": "Giftinformationszentrum Erfurt — Petersilie als Giftpflanze des Jahres 2023: Apiol/Myristicin Toxizität, Abortifaciens-Historie.",
+      "url": "https://www.ggiz-erfurt.de/aktuelles-detail/giftpflanze-des-jahres-2023-petersilie.html",
+      "accessed": "2026-05-19",
+      "title": "ggiz_petersilie"
+    }
+  ],
+  "image": {
+    "filename": "petroselinum-crispum.jpg",
+    "alt": {
+      "de": "Foto von Petersilie",
+      "en": "Photo of Parsley"
+    },
+    "license": "Public domain",
+    "author": "Prof. Dr. Otto Wilhelm Thomé",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Petroselinum_crispum0.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible",
+      "medicinal"
+    ],
+    "rooms": [
+      "kitchen",
+      "balcony"
+    ],
+    "light": "partial_shade",
+    "water_frequency": "every_few_days",
+    "difficulty": 2,
+    "pet_safe": true,
+    "soil": {
+      "de": "Humusreich, feucht",
+      "en": "Humus-rich, moist"
+    },
+    "pot_size_cm": 18,
+    "tips": {
+      "de": [
+        "Keimt langsam (3-4 Wochen) — Geduld haben oder vorgezogene Pflanzen kaufen.",
+        "Stiele am Boden ernten, nicht oben abzupfen.",
+        "Im 2. Jahr Blüte → Pflanze altert, neu aussäen."
+      ],
+      "en": [
+        "Slow to germinate (3-4 weeks) — be patient or buy pregrown.",
+        "Harvest stalks at base, don't pluck from top.",
+        "Flowers in 2nd year → plant ages, re-sow."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-sativum",
+      "artemisia-dracunculus",
+      "fragaria-vesca",
+      "levisticum-officinale",
+      "ocimum-basilicum",
+      "solanum-lycopersicum",
+      "tropaeolum-majus"
+    ],
+    "bad_partners": [
+      "apium-graveolens",
+      "foeniculum-vulgare",
+      "lactuca-sativa-capitata",
+      "mentha-piperita"
+    ],
+    "reasons": {
+      "lactuca-sativa-capitata": {
+        "de": "Petersilie und Salat hemmen sich (Wurzelausscheidungen).",
+        "en": "Parsley and lettuce inhibit each other (root exudates)."
+      },
+      "solanum-lycopersicum": {
+        "de": "Petersilie lockt Florfliegen, die Blattläuse fressen.",
+        "en": "Parsley attracts lacewings that eat aphids."
+      }
+    },
+    "notes_de": "apium-graveolens: Beide Apiaceae — Konkurrenz um gleiche Nährstoffe und Schädlinge. mentha-piperita: Minze überwuchert Petersilie. solanum-lycopersicum: Petersilie lockt Nützlinge zu Tomate. lactuca-sativa-capitata: Petersilie und Salat hemmen sich (Wurzelausscheidungen).",
+    "notes_en": "apium-graveolens: Both Apiaceae — compete for same nutrients and attract same pests. mentha-piperita: Mint overgrows parsley. solanum-lycopersicum: Parsley attracts beneficial insects to tomato. lactuca-sativa-capitata: Parsley and lettuce inhibit each other (root exudates).",
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 3,
+        "end_month": 7
+      },
+      "indoor": {
+        "start_month": 2,
+        "end_month": 3
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 11
+    },
+    "days_to_harvest": 80,
+    "spacing_cm": 15,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Apiol (Parsley camphor)",
+      "category": "essential_oil",
+      "percent_range": "0.3-0.7 % (Kraut), bis 80 % im Samenöl",
+      "note": {
+        "de": "Hauptkomponente des ätherischen Öls in Wurzel und Samen. HEPATOTOXISCH, neurotoxisch, in hohen Dosen abortiv (uteruskontrahierend) und nephrotoxisch. Historisch als Abortivum missbraucht — mit teils tödlichem Ausgang. Apiol ist der Hauptgrund für die strikten Schwangerschafts- und Hochdosis-Warnungen.",
+        "en": "Main essential oil component in root and seeds. HEPATOTOXIC, neurotoxic, at high doses abortifacient (uterotonic) and nephrotoxic. Historically misused as abortifacient — sometimes fatally. Apiol is the principal reason for strict pregnancy and high-dose warnings."
+      }
+    },
+    {
+      "name": "Myristicin",
+      "category": "essential_oil",
+      "percent_range": "in Kraut-Öl dominierend, in Samen-Öl 6-30 %",
+      "note": {
+        "de": "Phenylpropanoid mit schwach halluzinogenen und MAO-hemmenden Eigenschaften bei sehr hohen Dosen. In küchenüblichen Mengen unbedenklich, im konzentrierten ätherischen Öl jedoch neurotoxisch.",
+        "en": "Phenylpropanoid with weak hallucinogenic and MAO-inhibiting properties at very high doses. Harmless in culinary amounts, but neurotoxic in concentrated essential oil."
+      }
+    },
+    {
+      "name": "Apiin (Apigenin-7-apiosylglucosid)",
+      "category": "flavonoid",
+      "percent_range": "bis 2 % in Früchten",
+      "note": {
+        "de": "Flavonglykosid, Aglykon ist Apigenin. Trägt zu spasmolytischer, entzündungshemmender und schwach diuretischer Wirkung bei.",
+        "en": "Flavone glycoside; aglycone is apigenin. Contributes to spasmolytic, anti-inflammatory and weak diuretic activity."
+      }
+    },
+    {
+      "name": "Apigenin & Luteolin (freie Flavone)",
+      "category": "flavonoid",
+      "percent_range": "Spuren bis 0.5 %",
+      "note": {
+        "de": "Antioxidativ, entzündungshemmend, gefäßprotektiv. Apigenin gilt als wichtigster bioaktiver Marker der Blätter.",
+        "en": "Antioxidant, anti-inflammatory, vasoprotective. Apigenin is considered the key bioactive marker of the leaves."
+      }
+    },
+    {
+      "name": "Furanocumarine (Bergapten, Psoralen, Imperatorin, Xanthotoxin)",
+      "category": "other",
+      "percent_range": "ca. 0.003 % in Früchten",
+      "note": {
+        "de": "Phototoxisch — können bei UV-Exposition phytophotodermatitisartige Hautreaktionen auslösen, vor allem bei hellhäutigen Personen und bei intensivem Kontakt mit frischem Pflanzensaft.",
+        "en": "Phototoxic — can trigger phytophotodermatitis-like skin reactions on UV exposure, especially in fair-skinned persons and on intensive contact with fresh plant juice."
+      }
+    },
+    {
+      "name": "Vitamin C, Vitamin K, Folsäure",
+      "category": "vitamin",
+      "percent_range": "Vit C ca. 160 mg/100 g Frischkraut, Vit K ca. 1640 µg/100 g",
+      "note": {
+        "de": "Frische Blattpetersilie ist eine der vitaminreichsten Küchenpflanzen. Sehr hoher Vitamin-K-Gehalt — klinisch relevant bei Patienten unter Vitamin-K-Antagonisten (Warfarin/Phenprocoumon).",
+        "en": "Fresh leaf parsley is one of the most vitamin-rich culinary plants. Very high vitamin K content — clinically relevant for patients on vitamin K antagonists (warfarin/phenprocoumon)."
+      }
+    },
+    {
+      "name": "Eisen, Kalium, Calcium",
+      "category": "mineral",
+      "percent_range": "Fe ca. 6 mg/100 g, K ca. 1000 mg/100 g",
+      "note": {
+        "de": "Petersilie liefert bei küchenüblichem Verzehr nennenswerte Mengen Eisen und Kalium. Der hohe Kaliumgehalt trägt zur aquaretischen Wirkung bei.",
+        "en": "Parsley provides notable amounts of iron and potassium at culinary intake. The high potassium content contributes to the aquaretic effect."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "when": {
+        "de": "Mai bis Oktober, idealerweise vormittags nach Abtrocknen des Taus. Erntefenster im ersten Standjahr — vor der Blüte (im zweiten Jahr werden Pflanzen bitter und sollten nicht mehr als Heilkraut verwendet werden).",
+        "en": "May to October, ideally in the morning after dew has dried. Harvest window in first year of growth — before flowering (in the second year plants turn bitter and should no longer be used medicinally)."
+      },
+      "how": {
+        "de": "Äußere Blattstiele knapp über dem Boden abschneiden, Herztrieb stehen lassen für Nachwuchs. Frisch verwenden oder schnell trocknen (max. 35 °C), um das ätherische Öl zu erhalten. Lichtgeschützt in luftdichten Gefäßen lagern.",
+        "en": "Cut outer leaf stalks just above ground, leave heart shoot for regrowth. Use fresh or dry quickly (max. 35 °C) to preserve essential oil. Store light-protected in airtight containers."
+      },
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "plant_part": "root",
+      "when": {
+        "de": "Späten Herbst des zweiten Standjahres (Oktober-November), vor dem Austrieb zur Blüte. Wurzelpetersilie (P. crispum var. tuberosum) wird auch als Gemüse im Spätherbst geerntet.",
+        "en": "Late autumn of the second growth year (October-November), before flowering shoot emerges. Hamburg root parsley (P. crispum var. tuberosum) is also harvested as a vegetable in late autumn."
+      },
+      "how": {
+        "de": "Wurzeln mit Grabegabel ausheben, Kraut entfernen, gründlich waschen, längs halbieren und bei max. 40 °C trocknen, bis sie brechen. In luftdichten, lichtgeschützten Behältern lagern (Schutz vor Verflüchtigung des ätherischen Öls).",
+        "en": "Dig roots with garden fork, remove herb, wash thoroughly, halve lengthwise and dry at max. 40 °C until brittle. Store in airtight, light-protected containers (to prevent essential oil loss)."
+      },
+      "best_months": [
+        9,
+        10
+      ]
+    }
+  ]
+}

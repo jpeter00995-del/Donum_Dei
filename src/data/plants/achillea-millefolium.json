@@ -1,0 +1,419 @@
+{
+  "slug": "achillea-millefolium",
+  "names": {
+    "de": "Schafgarbe",
+    "en": "Yarrow",
+    "latin": "Achillea millefolium"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Die Schafgarbe ist eine ausdauernde Wiesenpflanze mit fein gefiederten Blättern und weißen bis zartrosa Doldenblüten. Sie zählt zu den ältesten Heilpflanzen Europas und wird sowohl bei Verdauungsbeschwerden als auch zur Wundbehandlung verwendet. Der lateinische Name ehrt den Helden Achilles, der laut Sage Wunden seiner Soldaten mit dieser Pflanze stillte.",
+    "en": "Yarrow is a perennial meadow plant with finely feathered leaves and white to pale-pink umbel flowers. It ranks among the oldest medicinal plants of Europe and is used both for digestive complaints and for wound treatment. Its Latin name honours the hero Achilles, who according to legend staunched his soldiers' wounds with this plant."
+  },
+  "teaser": {
+    "de": "Bitterstoffe für die Verdauung, traditionell auch zur Wundpflege.",
+    "en": "Bitter compounds for digestion, traditionally also used for wound care."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "appetite"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "AUFGUSS: 1,5–2 g fein geschnittenes Schafgarbenkraut (etwa 1 Teelöffel) mit 150 ml siedendem Wasser übergießen, zugedeckt 10 Minuten ziehen lassen, dann abseihen. Bei Appetitlosigkeit eine halbe Stunde vor den Mahlzeiten trinken, bei Verdauungsbeschwerden zwischen oder nach den Mahlzeiten. 3 mal täglich eine frisch zubereitete Tasse, Tageshöchstmenge etwa 4,5 g Droge.",
+          "en": "INFUSION: Place 1.5–2 g of finely cut yarrow herb (about 1 teaspoon) in a cup, pour 150 ml boiling water, cover, steep 10 minutes, strain. For loss of appetite drink half an hour before meals; for digestive complaints between/after meals. 3 cups a day, daily max ~4.5 g."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene und Jugendliche ab 12 Jahren.",
+          "en": "Per EMA, only from 12 years onwards."
+        }
+      },
+      "description": {
+        "de": "Bittertee bei vorübergehender Appetitlosigkeit, leichten Verdauungsbeschwerden wie Völlegefühl und Blähungen. Bitterstoffe regen die Speichel- und Magensaftproduktion an, ätherisches Öl wirkt mild krampflösend.",
+        "en": "Bitter tea for temporary loss of appetite and mild digestive complaints."
+      },
+      "source_ids": [
+        "src_ema_millefolii_herba"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "menstrual",
+        "cramps"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "AUFGUSS gegen Menstruationskrämpfe: 1,5–2 g Schafgarbenkraut mit 150 ml siedendem Wasser übergießen, 10 Minuten ziehen, abseihen. 3 mal täglich, beginnend 1–2 Tage vor der erwarteten Menstruation und während der Schmerztage. Max 1 Woche pro Zyklus.",
+          "en": "Cramp tea: 1.5–2 g in 150 ml boiling water, steep 10 min, strain. 3× daily, starting 1–2 days before period. Max 1 week per cycle."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Ab 12 Jahren.",
+          "en": "From 12 years."
+        }
+      },
+      "description": {
+        "de": "Lindert leichte Unterleibskrämpfe während der Menstruation durch die krampflösende Wirkung von Chamazulen und Sesquiterpenlactonen.",
+        "en": "Relieves mild abdominal cramps during menstruation."
+      },
+      "source_ids": [
+        "src_ema_millefolii_herba"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "menstrual",
+        "pelvic"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 100,
+          "max": 100
+        },
+        "doses_per_day": 1,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "SITZBAD (klassische Frauenheilkunde): 100 g getrocknetes Schafgarbenkraut mit 1–2 Liter siedendem Wasser übergießen, 20 Minuten ziehen, abseihen und zum Badewasser (~20 L, 37–38 °C) geben. 10–20 Minuten baden, 1× täglich. Nicht in der Schwangerschaft, nicht bei offenen Wunden im Genitalbereich.",
+          "en": "SITZ BATH: 100 g + 1–2 L boiling water, steep 20 min, strain, add to bath (37–38 °C). 10–20 min, once daily."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Sitzbäder laut EMA nur für Erwachsene ab 18 Jahren.",
+          "en": "Sitz baths per EMA only for adults from 18 years."
+        }
+      },
+      "description": {
+        "de": "Klassische warme Sitzbad-Anwendung bei leichten krampfartigen Beschwerden im kleinen Becken.",
+        "en": "Classic warm sitz-bath for mild pelvic cramp-like complaints."
+      },
+      "source_ids": [
+        "src_ema_millefolii_herba"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 3
+        },
+        "water_ml": 100,
+        "doses_per_day": 2,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "WUNDAUFLAGE: 3 g Schafgarbenkraut + 100 ml siedendes Wasser, 15 Minuten ziehen, abseihen, auf Körpertemperatur abkühlen lassen. Sauberes Tuch tränken, 15–20 Minuten auf kleine oberflächliche Wunde legen. 1–2× täglich. Größere/eitrige Wunden ärztlich behandeln.",
+          "en": "COMPRESS: 3 g + 100 ml boiling water, steep 15 min, cool. Soak cloth, apply 15–20 min. 1–2× daily."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Ab 12 Jahren.",
+          "en": "From 12 years."
+        }
+      },
+      "description": {
+        "de": "Feuchter Umschlag bei kleinen oberflächlichen Hautwunden. Gerbstoffe wirken adstringierend, ätherisches Öl unterstützt die Wundheilung.",
+        "en": "Moist compress for small superficial skin wounds."
+      },
+      "source_ids": [
+        "src_ema_millefolii_herba"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Wenn Beschwerden länger als 2 Wochen anhalten oder Wunden sich nicht innerhalb einer Woche bessern, soll ein Arzt aufgesucht werden. Bei ungewöhnlich starken Menstruationsbeschwerden ärztlich abklären. WICHTIG: Schafgarbe gehört zu den Korbblütlern (Asteraceae) — bei Allergie gegen Kamille, Arnika oder Beifuß meiden. Bei Hautkontakt mit der frischen Pflanze sind phototoxische Reaktionen (Wiesengräser-Dermatitis) möglich.",
+      "en": "Yarrow belongs to Asteraceae — avoid in case of allergy to chamomile, arnica, or mugwort. Skin contact with fresh plant can cause phototoxic reactions."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Schafgarbe darf in der Schwangerschaft nicht angewendet werden — Sesquiterpenlactone und ätherisches Öl können die Uterusmuskulatur stimulieren.",
+        "en": "Yarrow must not be used during pregnancy — uterine stimulation possible."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Stillzeit.",
+        "en": "Insufficient data for breastfeeding."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Laut EMA nicht für Kinder unter 12 Jahren (oral/Wundauflage) bzw. unter 18 Jahren (Sitzbad).",
+        "en": "Per EMA not for children under 12 (oral/wound) or under 18 (sitz bath)."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Allgemein (Gerbstoffe)",
+        "mechanism": {
+          "de": "Aus pharmakologischer Erfahrung mit gerbstoffhaltigen Drogen: orale Arzneimittel mit ~1 Stunde Abstand zum Tee einnehmen, da Gerbstoffe die Aufnahme von Eisen oder Alkaloiden verringern können.",
+          "en": "From general experience with tannin-containing herbs: take oral medications about 1 hour apart from tea."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegenüber Korbblütlern (Asteraceae) wie Kamille, Arnika oder Beifuß.",
+        "en": "Hypersensitivity to Asteraceae such as chamomile, arnica, mugwort."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit.",
+        "en": "Pregnancy and lactation."
+      },
+      {
+        "de": "Kinder unter 12 Jahren (oral, Wundauflage) bzw. unter 18 Jahren (Sitzbad).",
+        "en": "Children under 12 years (oral, wound) or under 18 years (sitz bath)."
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [
+    {
+      "author": "Künzle",
+      "year": 1911,
+      "license": "PD",
+      "text_de": "Die Schafgarbe ist eine herrliche Wundheilpflanze und eine vorzügliche Magenstärkung.",
+      "text_en": "Yarrow is a magnificent wound-healing plant and an excellent stomach tonic.",
+      "work": "Chrut und Uchrut",
+      "chapter": "Schafgarbe (Achillea millefolium)"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gewöhnliche Schafgarbe (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Schafgarbe",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Achillea millefolium (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Achillea_millefolium",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_millefolii_herba",
+      "type": "monograph",
+      "title": "EMA/HMPC/376416/2019 — European Union herbal monograph on Achillea millefolium L., herba (Final, Revision 1, 03 December 2020)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/millefolii-herba",
+      "accessed": "2026-05-18"
+    }
+  ],
+  "image": {
+    "filename": "achillea-millefolium.jpg",
+    "alt": {
+      "de": "Weiße Blütendolde der Schafgarbe",
+      "en": "White flower umbel of yarrow"
+    },
+    "license": "CC BY 2.5",
+    "author": "Benjamin Zwittnig",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Achillea_millefiolium_sp3.JPG"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "lavandula-angustifolia",
+      "matricaria-chamomilla",
+      "origanum-vulgare"
+    ],
+    "bad_partners": [],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      },
+      "outdoor_direct": {
+        "start_month": 4,
+        "end_month": 6
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 9
+    },
+    "days_to_harvest": 90,
+    "spacing_cm": 30,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "dynamic_accumulator",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (mit Chamazulen)",
+      "category": "essential_oil",
+      "percent_range": "0,2–1,0 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hauptträger der krampflösenden und entzündungshemmenden Wirkung. Enthält Chamazulen (blau-grün), β-Pinen, 1,8-Cineol, Sabinen, Caryophyllen.",
+        "en": "Main carrier of antispasmodic and anti-inflammatory effect."
+      }
+    },
+    {
+      "name": "Sesquiterpenlactone (Achillin, Matricin)",
+      "category": "sesquiterpene",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Bittere Sesquiterpenlactone — verantwortlich für Bittergeschmack, Anregung der Verdauungssäfte. Können Kontaktallergien auslösen.",
+        "en": "Bitter sesquiterpene lactones — may trigger contact allergies."
+      }
+    },
+    {
+      "name": "Flavonoide (Apigenin, Luteolin, Rutin)",
+      "category": "flavonoid",
+      "percent_range": "0,5–1,5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Tragen zur krampflösenden Wirkung an glatter Muskulatur des Magen-Darm-Traktes und der Gebärmutter bei.",
+        "en": "Antispasmodic on smooth muscle."
+      }
+    },
+    {
+      "name": "Gerbstoffe",
+      "category": "tannin",
+      "percent_range": "2–4 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Adstringierende Gerbstoffe — Grundlage der wundheilungsfördernden und blutstillenden Anwendung.",
+        "en": "Astringent — basis for wound-healing and styptic use."
+      }
+    },
+    {
+      "name": "Bitterstoffe",
+      "category": "bitter",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Klassisches Bittermittel — regt Speichel- und Magensaft an.",
+        "en": "Classic bitter — stimulates saliva and gastric juice."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Kaffeesäure, Chlorogensäure)",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Antioxidativ wirksam.",
+        "en": "Antioxidant compounds."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "An sonnigen, trockenen Vormittagen, sobald der Tau abgetrocknet ist.",
+        "en": "On sunny dry mornings once dew has dried."
+      },
+      "drying": {
+        "de": "Die oberen 15–25 cm der blühenden Pflanze schneiden. Locker zu Sträußen bündeln und kopfüber im Schatten bei max 40 °C trocknen.",
+        "en": "Cut upper 15–25 cm of flowering plant. Hang in bunches in shade at max 40 °C."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In dunklen, luftdichten Gläsern lagern — Licht und Sauerstoff bauen ätherisches Öl ab.",
+        "en": "Store in dark, airtight jars — light and oxygen degrade essential oil."
+      }
+    }
+  ]
+}

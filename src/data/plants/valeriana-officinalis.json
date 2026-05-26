@@ -1,0 +1,594 @@
+{
+  "slug": "valeriana-officinalis",
+  "names": {
+    "de": "Echter Baldrian",
+    "en": "Valerian (herb)",
+    "latin": "Valeriana officinalis"
+  },
+  "family": {
+    "de": "Geißblattgewächse",
+    "en": "Honeysuckle family",
+    "latin": "Caprifoliaceae"
+  },
+  "description": {
+    "de": "Echter Baldrian, auch Arzneibaldrian oder Großer Baldrian, oft auch nur Baldrian genannt, ist eine Pflanzenart aus der Gattung der Baldriane (Valeriana) innerhalb der Familie der Geißblattgewächse (Caprifoliaceae).",
+    "en": "Valerian is an herbaceous perennial flowering plant in the family Caprifoliaceae, native to Europe and southwestern Asia. It is the type species of the genus Valeriana."
+  },
+  "teaser": {
+    "de": "Echter Baldrian, auch Arzneibaldrian oder Großer Baldrian, oft auch nur Baldrian genannt, ist eine Pflanzenart aus de...",
+    "en": "Valerian is an herbaceous perennial flowering plant in the family Caprifoliaceae, native to Europe and southwestern A..."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system",
+        "sleep"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "ema_well_established",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 3
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "STANDARDISIERTER TROCKENEXTRAKT (EMA well-established use): Verwendet werden standardisierte Trockenextrakte aus Baldrianwurzel (Valerianae radix), Droge-Extrakt-Verhältnis 3–7,4:1, Auszugsmittel Ethanol 40–70 % V/V. Zugelassene Tagesdosis: 400–600 mg Trockenextrakt 1–3× täglich (Ruhlosigkeit, nervöse Spannung) oder eine Einzeldosis 30–60 Minuten vor dem Schlafengehen (Einschlafstörungen). Wirkungseintritt nach 2–4 Wochen regelmäßiger Einnahme. Nicht gleichzeitig mit Alkohol oder Sedativa einnehmen. Bei Besserung nach 2 Wochen weiterführen; keine Verbesserung nach 4 Wochen: Arzt aufsuchen.",
+          "en": "STANDARDISED DRY EXTRACT (EMA well-established use): Dry extract of Valerianae radix, DER 3–7.4:1, ethanol 40–70 % V/V. Approved daily dose: 400–600 mg, 1–3× daily (restlessness, nervous tension) or a single dose 30–60 min before bedtime (sleep-onset disorders). Onset of effect after 2–4 weeks of regular use. Do not combine with alcohol or sedatives. Continue if improved after 2 weeks; no improvement after 4 weeks: consult a doctor."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA für Kinder ab 12 Jahren (traditionelle Anwendung) bzw. keine ausreichenden Daten unter 12 Jahren.",
+          "en": "Per EMA: for children from 12 years (traditional use); insufficient data below 12 years."
+        }
+      },
+      "description": {
+        "de": "Standardisierter Baldrianwurzel-Trockenextrakt zur Linderung leichter nervöser Anspannung und Schlaflosigkeit — EMA-Hauptindikation (well-established use).",
+        "en": "Standardised valerian root dry extract for relief of mild nervous tension and sleeplessness — EMA main indication (well-established use)."
+      },
+      "source_ids": [
+        "src_ema_valeriana",
+        "src_escop_valeriana",
+        "src_kommission_e_baldrian"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system",
+        "sleep"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "AUFGUSS (EMA traditional use): 2–3 g zerkleinerte Baldrianwurzel mit 150–250 ml siedendem Wasser übergießen, zugedeckt 10–15 Minuten ziehen lassen, abseihen. Bei nervöser Unruhe: 2–3 Tassen täglich zwischen den Mahlzeiten. Zur Schlafförderung: 1 Tasse 30–60 Minuten vor dem Schlafengehen. HINWEIS: Der charakteristische Geruch (Isovaleriansäure) intensiviert sich beim Ziehen — für manche Personen unangenehm; Geschmack kann durch Honig oder Melisse abgemildert werden. Nicht länger als 4 Wochen ohne ärztliche Rücksprache.",
+          "en": "INFUSION (EMA traditional use): 2–3 g comminuted valerian root in 150–250 ml boiling water, covered, steep 10–15 min, strain. For nervous tension: 2–3 cups daily between meals. For sleep: 1 cup 30–60 min before bedtime. NOTE: The characteristic smell (isovaleric acid) intensifies during steeping — unpleasant for some; taste can be softened with honey or lemon balm. Do not use longer than 4 weeks without medical advice."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Nicht für Kinder unter 12 Jahren.",
+          "en": "Not for children under 12 years."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Aufguss aus Baldrianwurzel bei nervöser Unruhe und leichten Schlafstörungen — klassische Volksheilkunde und EMA traditional use.",
+        "en": "Traditional infusion of valerian root for nervous restlessness and mild sleep disorders — classic folk medicine and EMA traditional use."
+      },
+      "source_ids": [
+        "src_ema_valeriana",
+        "src_kommission_e_baldrian",
+        "src_wichtl_teedrogen"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system",
+        "sleep"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 4,
+          "max": 8
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (EMA traditional use, Droge-Auszug-Verhältnis 1:8 in Ethanol 60–70 % V/V): 4–8 ml (~80–160 Tropfen) bis zu 3× täglich, in etwas Wasser oder Saft einrühren. Zur Schlafvorbereitung: 1 Einnahme 30–60 Minuten vor dem Schlafengehen. Alkoholgehalt beachten: bei Lebererkrankungen, Alkoholabhängigkeit oder Epilepsie kontraindiziert. Nicht mit Sedativa oder Alkohol kombinieren. Traditionelle Anwendung — geringere klinische Evidenz als standardisierter Trockenextrakt.",
+          "en": "TINCTURE (EMA traditional use, DER 1:8 in ethanol 60–70 % V/V): 4–8 ml (~80–160 drops) up to 3× daily, stirred into water or juice. For sleep: 1 dose 30–60 min before bedtime. Note ethanol content: contraindicated in liver disease, alcohol dependence or epilepsy. Do not combine with sedatives or alcohol. Traditional use — lower clinical evidence than standardised dry extract."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Wegen Ethanolgehalt nur für Erwachsene.",
+          "en": "Due to ethanol content: adults only."
+        }
+      },
+      "description": {
+        "de": "Alkoholische Tinktur der Baldrianwurzel — traditionelle Alternative zum Tee mit höherer Haltbarkeit, geeignet für Erwachsene ohne Alkohol-Kontraindikation.",
+        "en": "Alcoholic valerian root tincture — traditional alternative to tea with longer shelf life, suitable for adults without alcohol contraindication."
+      },
+      "source_ids": [
+        "src_ema_valeriana",
+        "src_escop_valeriana"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 100,
+          "max": 200
+        },
+        "water_ml": 2000,
+        "steep_min": 10,
+        "doses_per_day": 1,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "VOLLBAD (EMA traditional use): 100–200 g zerkleinerte Baldrianwurzel mit 2 l siedendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen und dem Badewasser zusetzen. Wassertemperatur 34–37 °C (thermoneutral, nicht zu heiß), Badedauer 10–20 Minuten. 1 Bad täglich. Nicht bei offenen Wunden, akuten Hautentzündungen, Herz-Kreislauf-Erkrankungen oder hohem Fieber. Das charakteristische Baldriangas kann im Bad verstärkt wirken — nach dem Bad ausruhen. KEIN Vollbad für Kinder unter 12 Jahren und bei bekannter Überempfindlichkeit.",
+          "en": "FULL BATH (EMA traditional use): 100–200 g comminuted valerian root in 2 l boiling water, steep covered 10 min, strain, add to bath water. Temperature 34–37 °C (thermoneutral, not too hot), duration 10–20 min. 1 bath daily. Contraindicated with open wounds, acute skin inflammations, cardiovascular disease or high fever. The characteristic valerian vapour may be intensified in the bath — rest afterwards. NO full bath for children under 12 years or with known hypersensitivity."
+        }
+      },
+      "description": {
+        "de": "Entspannendes Vollbad mit Baldrianwurzelextrakt — traditionelle äußerliche Anwendung bei nervöser Erschöpfung und Einschlafproblemen.",
+        "en": "Relaxing full bath with valerian root extract — traditional external use for nervous exhaustion and sleep-onset difficulties."
+      },
+      "source_ids": [
+        "src_ema_valeriana",
+        "src_escop_valeriana"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "BERUHIGUNGSTEE BEI NERVÖSEN MAGENBESCHWERDEN (Kommission E): 2–3 g zerkleinerte Wurzel mit 200 ml kochendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen. 3× täglich nach den Mahlzeiten trinken. Volksheilkundliche und Kommission-E-Indikation: Nervös bedingter Reizmagen, Bauchkrämpfe funktioneller Natur, Spannungskopfschmerzen. Wirkt über die Dämpfung zentraler Stressreaktionen — keine direkte spasmolytische Wirkung auf die Darmmuskulatur wie Pfefferminze. Hilft begleitend, wenn Magen-Darm-Beschwerden deutlich stressabhängig sind.",
+          "en": "CALMING TEA FOR NERVOUS GASTRIC COMPLAINTS (Kommission E): 2–3 g comminuted root in 200 ml boiling water, steep covered 10 min, strain. Drink 3× daily after meals. Kommission E and folk indication: nervous/functional gastric irritability, functional abdominal cramps, tension headaches. Acts via dampening central stress responses — not a direct spasmolytic on gut muscle like peppermint. Helpful as adjunct when GI complaints are clearly stress-related."
+        }
+      },
+      "description": {
+        "de": "Baldrian-Tee bei nervös bedingten Magenbeschwerden und funktionellen Bauchkrämpfen — Kommission E positive Monographie.",
+        "en": "Valerian tea for nervous gastric complaints and functional abdominal cramps — Kommission E positive monograph."
+      },
+      "source_ids": [
+        "src_kommission_e_baldrian",
+        "src_escop_valeriana"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 8,
+        "doses_per_day": 2,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "BALDRIAN-MISCHTEE (Volksheilkunde, Hildegard-Tradition): 1–2 g Baldrianwurzel mit je 1 g Melissenblättern und Hopfenzapfen mischen, mit 200 ml heißem Wasser (nicht kochend, ca. 90 °C) übergießen, zugedeckt 8 Minuten ziehen, abseihen. Abends 1 Tasse, bei Bedarf auch am Nachmittag. Traditionelle Kombinationsanwendung: Der synergetische Einsatz mit Melisse (Lemon balm) und Hopfen (Hops) ist in der europäischen Volksmedizin seit Jahrhunderten belegt und von EMA-Monographien als kombinierte traditional-use-Anwendung anerkannt. Milderer Eigengeruch als Reinbaldrian. Für Menschen, die den Geruch von reinem Baldrian unangenehm finden.",
+          "en": "VALERIAN BLEND TEA (folk medicine, Hildegard tradition): Blend 1–2 g valerian root with 1 g each lemon balm leaf and hop strobiles, steep in 200 ml hot water (~90 °C, not boiling) covered for 8 min, strain. 1 cup in the evening, optional afternoon cup. Traditional combination: synergistic use with lemon balm and hops has been documented in European folk medicine for centuries and recognised by EMA monographs as combined traditional use. Milder odour than pure valerian. Suitable for those who find pure valerian's smell unpleasant."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Abenddreikräutertee (Baldrian + Melisse + Hopfen) — synergistische Kombination für leichte Einschlafstörungen und Beruhigung.",
+        "en": "Folk triple-herb evening tea (valerian + lemon balm + hops) — synergistic blend for mild sleep-onset issues and calming."
+      },
+      "source_ids": [
+        "src_ema_valeriana",
+        "src_madaus_1938",
+        "src_pfaf_valeriana"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system",
+        "joints"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_ml": {
+          "min": 5,
+          "max": 10
+        },
+        "doses_per_day": 2,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "EINREIBUNG / KOMPRESSE (Volksheilkunde): 5–10 ml unverdünnte Baldriantinktur (1:5, Ethanol 60 %) auf ein Tuch geben und als Wickel auf verspannte Muskeln oder schmerzende Gelenke auflegen, 20–30 Minuten einwirken lassen. Alternativ direkt in die Haut einreiben. Nicht auf offene Wunden oder gereizte Haut auftragen. Volksheilkundliche äußerliche Anwendung bei muskulärer Verspannung und leichten Gelenkschmerzen — klinische Evidenz fehlt, historische Quellen (Madaus, Hildegard) belegen die Tradition.",
+          "en": "LINIMENT / COMPRESS (folk medicine): Apply 5–10 ml undiluted valerian tincture (1:5, ethanol 60 %) to a cloth and use as a wrap on tense muscles or aching joints, leave 20–30 min. Alternatively rub directly into the skin. Do not apply to open wounds or irritated skin. Folk external use for muscular tension and mild joint pain — no clinical evidence; historical sources (Madaus, Hildegard) document the tradition."
+        }
+      },
+      "description": {
+        "de": "Äußerliche Anwendung der Baldriantinktur als Einreibung oder Kompresse bei Muskelverspannungen und leichten Gelenkbeschwerden — rein volksheilkundlich.",
+        "en": "External application of valerian tincture as liniment or compress for muscle tension and mild joint discomfort — purely folk-medicine."
+      },
+      "source_ids": [
+        "src_madaus_1938",
+        "src_pfaf_valeriana"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Wurzelstock (Herbst)",
+      "en": "rhizome (autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG: Baldrian verursacht bei manchen Personen paradoxe Reaktionen (Unruhe, Erregung statt Beruhigung) — dies ist dokumentiert und tritt häufiger bei höheren Dosen auf. Kein Fahrzeug führen oder Maschinen bedienen kurz nach Einnahme — mögliche Beeinträchtigung der Reaktionsfähigkeit, besonders in den ersten Tagen und bei gleichzeitigem Alkohol. Nicht abrupt absetzen nach längerer Einnahme — ausschleichen (innerhalb 1–2 Wochen). Kein pharmakologisches Schlafmittel im klassischen Sinn: Wirksamkeit setzt nach 2–4 Wochen Dauertherapie ein, keine Akutwirkung. Bei persistierenden Schlafstörungen ärztliche Ursachenklärung. Der charakteristische Geruch (Isovaleriansäure als Abbauprodukt der Valerensäure) intensiviert sich nach dem Trocknen und Lagern — kein Zeichen für Qualitätsverlust. Abendliche Einnahme bevorzugen; morgendliche Müdigkeit (Hangover-Effekt) bei höheren Dosen möglich.",
+      "en": "IMPORTANT: Valerian causes paradoxical reactions (restlessness, agitation instead of calming) in some individuals — documented and more common at higher doses. Do not drive or operate machinery shortly after intake — possible impairment of reaction time, especially in first days and with concurrent alcohol. Do not stop abruptly after prolonged use — taper over 1–2 weeks. Not a classical pharmacological hypnotic: therapeutic effect develops after 2–4 weeks of continuous use, no acute action. Persistent sleep disorders require medical evaluation. The characteristic odour (isovaleric acid, a breakdown product of valerenic acid) intensifies after drying and storage — not a sign of quality loss. Prefer evening dosing; morning grogginess (hangover effect) possible at higher doses."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Laut EMA in Schwangerschaft und Stillzeit nicht empfohlen — keine ausreichenden Sicherheitsdaten. Frühere in-vitro-Daten zeigten uterotone Aktivität; klinische Relevanz bei oralen therapeutischen Dosen unklar. Küchenmäßige, gelegentliche Verwendung als Gewürzkraut (historisch, kaum verbreitet) ist anders zu beurteilen, jedoch auch nicht empfohlen.",
+        "en": "Per EMA not recommended in pregnancy or lactation — insufficient safety data. Earlier in vitro data showed uterotonic activity; clinical relevance at oral therapeutic doses unclear. Occasional culinary seasoning use (historical, rarely practised) is a different case but also not recommended."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Daten zum Übergang von Baldrian-Inhaltsstoffen in die Muttermilch. EMA empfiehlt: in der Stillzeit nicht anwenden.",
+        "en": "Insufficient data on transfer of valerian constituents into breast milk. EMA recommends: do not use during lactation."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Standardisierte Extrakte und Tinktur laut EMA für Kinder unter 12 Jahren nicht empfohlen (mangelnde Daten). EMA-Monographie erlaubt traditionelle Anwendung ab 12 Jahren. Für jüngere Kinder keine Selbstbehandlung mit Baldrian — nervöse Beschwerden bei Kindern immer ärztlich abklären.",
+        "en": "Standardised extracts and tincture not recommended for children under 12 years (EMA — insufficient data). EMA monograph allows traditional use from 12 years. No self-treatment with valerian in younger children — nervous complaints in children require medical assessment."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Benzodiazepine und andere Sedativa/Hypnotika (Zolpidem, Zopiclon, Barbiturate)",
+        "mechanism": {
+          "de": "Baldrian-Extrakte modulieren GABA-A-Rezeptoren und verstärken theoretisch die sedierende Wirkung von Benzodiazepinen und Hypnotika additiv. Tierexperimentelle Belege; klinische Daten begrenzt. Risiko übermäßiger Sedierung, Beeinträchtigung der Reaktionsfähigkeit und Atemdepression bei hohen Dosen. Kombination vermeiden oder nur unter ärztlicher Überwachung.",
+          "de_short": "Additive ZNS-Dämpfung",
+          "en": "Valerian extracts modulate GABA-A receptors and may additively enhance the sedative effect of benzodiazepines and hypnotics. Animal evidence; limited clinical data. Risk of excessive sedation, impaired reaction time, and respiratory depression at high doses. Avoid combination or use only under medical supervision."
+        },
+        "severity": "caution",
+        "source_id": "src_ema_valeriana"
+      },
+      {
+        "drug_class": "Alkohol (Ethanol)",
+        "mechanism": {
+          "de": "Baldrian kann die zentral-dämpfenden Effekte von Alkohol verstärken. Gleichzeitiger Konsum während der Therapie vermeiden — Fahrtüchtigkeit und Reaktionsvermögen können beeinträchtigt werden.",
+          "en": "Valerian may potentiate the CNS-depressant effects of alcohol. Avoid concurrent use during therapy — driving ability and reaction time may be impaired."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_valeriana"
+      },
+      {
+        "drug_class": "CYP3A4- und CYP2D6-Substrate (z.B. bestimmte Antihistaminika, Antidepressiva, Statine)",
+        "mechanism": {
+          "de": "In vitro-Studien zeigen eine schwache Hemmung von CYP3A4 und CYP2D6 durch Baldrian-Inhaltsstoffe (Valerensäure, Valepotriate). Klinische Relevanz bei therapeutischen Dosen gering, aber bei Arzneimitteln mit engem therapeutischen Index beachten. Plasmaspiegel-Monitoring bei betroffenen Co-Medikamenten empfohlen.",
+          "en": "In vitro studies show weak inhibition of CYP3A4 and CYP2D6 by valerian constituents (valerenic acid, valepotriates). Clinical relevance at therapeutic doses likely low, but consider with narrow-therapeutic-index drugs. Plasma-level monitoring recommended for affected co-medications."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_valeriana"
+      },
+      {
+        "drug_class": "Antikoagulantien / Thrombozytenaggregationshemmer (Warfarin, Phenprocoumon, ASS, Clopidogrel)",
+        "mechanism": {
+          "de": "Einzelfallberichte und In-vitro-Daten deuten auf schwache thrombozytenaggregationshemmende Eigenschaften von Isovaleriansäure-Derivaten hin. Klinische Bedeutung bei normaler Dosierung gering, bei Antikoagulation jedoch Vorsicht und INR-Monitoring.",
+          "en": "Case reports and in vitro data suggest weak platelet-aggregation inhibitory properties of isovaleric acid derivatives. Clinical significance at normal doses low, but caution and INR monitoring advised with anticoagulation therapy."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_valeriana"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Baldrian (Valeriana officinalis) oder andere Baldrian-Arten.",
+        "en": "Hypersensitivity to valerian (Valeriana officinalis) or other Valeriana species."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (therapeutische Dosen) — mangels Sicherheitsdaten nicht anwenden.",
+        "en": "Pregnancy and lactation (therapeutic doses) — do not use due to lack of safety data."
+      },
+      {
+        "de": "Kinder unter 12 Jahren (standardisierte Präparate) — keine ausreichenden Daten.",
+        "en": "Children under 12 years (standardised preparations) — insufficient data."
+      },
+      {
+        "de": "Baldriantinktur bei Alkoholabhängigkeit, schwerer Lebererkrankung oder Epilepsie — wegen Ethanolgehalt kontraindiziert.",
+        "en": "Valerian tincture in alcohol dependence, severe liver disease or epilepsy — contraindicated due to ethanol content."
+      },
+      {
+        "de": "Vollbad kontraindiziert bei: offenen Wunden, akuten Hautentzündungen oder -infektionen, dekompensierter Herzinsuffizienz, schwerer Hypertonie, hohem Fieber.",
+        "en": "Full bath contraindicated in: open wounds, acute skin inflammations or infections, decompensated heart failure, severe hypertension, high fever."
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter Baldrian (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Baldrian",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Valerian (herb) (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Valerian_(herb)",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_valeriana_radix",
+      "type": "monograph",
+      "title": "EMA/HMPC/150848/2015 Corr.1 — Valeriana officinalis radix (Final, 2 Feb 2016)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/valerianae-radix",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_valeriana",
+      "type": "monograph",
+      "title": "EMA/HMPC/150848/2015 Corr.1 — European Union herbal monograph on Valeriana officinalis L., radix (Final, 2 February 2016)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/valerianae-radix",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_valeriana",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Valerianae radix (Valerian Root), 2nd edition incl. supplement 2009",
+      "url": "https://escop.com/downloads/valerianae-radix/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_baldrian",
+      "type": "monograph",
+      "title": "Kommission E — Baldrianwurzel (Valerianae radix), positive Monographie, BAnz Nr. 90, 1985 / BAnz Nr. 223, 1993 (Neubewertung)",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/baldrianwurzel.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_who_valeriana",
+      "type": "monograph",
+      "title": "WHO Monographs on Selected Medicinal Plants — Volume 1: Radix Valerianae (1999)",
+      "url": "https://apps.who.int/iris/handle/10665/42052",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_teedrogen",
+      "type": "book",
+      "title": "Wichtl, Max (Hrsg.) — Teedrogen und Phytopharmaka, 5. Auflage, Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009 — Eintrag: Valerianae radix",
+      "url": "https://www.wvgpharma.de/teedrogen-und-phytopharmaka",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_1938",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band II: Valeriana officinalis, 1938 (Public Domain, Digitalisat Henriette's Herb)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/valeriana.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_valeriana",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Valeriana officinalis database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Valeriana+officinalis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_baldrian",
+      "type": "wikipedia",
+      "title": "Echter Baldrian (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Baldrian",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_valerian",
+      "type": "wikipedia",
+      "title": "Valerian (herb) (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Valerian_(herb)",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_valeriana",
+      "type": "wikidata",
+      "title": "Valeriana officinalis — Wikidata item Q159196",
+      "url": "https://www.wikidata.org/wiki/Q159196",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "valeriana-officinalis.jpg",
+    "alt": {
+      "de": "Foto von Echter Baldrian",
+      "en": "Photo of Valerian (herb)"
+    },
+    "license": "See Commons file page",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:valeriana-officinalis.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Valerensäure, Acetoxyvalerensäure, Hydroxyvalerensäure",
+      "category": "sesquiterpene",
+      "percent_range": "0.3-0.8 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Sesquiterpensäuren (Sesquiterpen-Carbonsäuren) — Leitsubstanzen der Qualitätsstandardisierung (EMA: mindestens 0,17 % Valerensäure in Trockenextrakten). Wirken am GABA-A-Rezeptor als partielle Agonisten (modulieren Chlorid-Ionenkanal) und hemmen den GABA-Abbau durch Transaminase — zentral dämpfend ohne direkte Benzodiazepin-Bindung. Hauptverantwortlich für die nachgewiesene sedierende Wirkung; auch Agonist an Adenosin-A1-Rezeptoren.",
+        "en": "Sesquiterpenic acids — lead compounds for quality standardisation (EMA: min. 0.17 % valerenic acid in dry extracts). Act at GABA-A receptor as partial agonists (modulate chloride ion channel) and inhibit GABA degradation by transaminase — centrally sedating without direct benzodiazepine binding. Primarily responsible for demonstrated sedative effect; also agonist at adenosine A1 receptors."
+      }
+    },
+    {
+      "name": "Valepotriate (Valtrat, Isovaltrat, Didrovaltrat, Acevaltrat)",
+      "category": "other",
+      "percent_range": "0.5-2.0 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Iridoid-Monoterpene (Bicyclische Strukturen) — charakteristisch für Valeriana-Arten. Instabil: werden beim Trocknen und in wässriger Lösung rasch zu Baldrinalen abgebaut. Frische Wurzel und frische Tinktur höher; getrocknete Arzneidroge enthält kaum noch intakte Valepotriate. Potentiell zytotoxisch in vitro (alkylierend), daher keine Dauerexposition mit frischen Valepotriaten empfohlen. Ihre Abbauprodukte (Baldrinale) zeigen eigenständige sedierende Eigenschaften.",
+        "en": "Iridoid monoterpenes (bicyclic structures) — characteristic of Valeriana species. Unstable: rapidly degraded to baldrinaldehyde derivatives on drying and in aqueous solution. Higher in fresh root and fresh tincture; dried medicinal herb contains few intact valepotriates. Potentially cytotoxic in vitro (alkylating) — prolonged exposure to fresh valepotriates not recommended. Degradation products (baldrinaldehyde) show independent sedative properties."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Bornylacetat, Isovaleriansäure, Campher, beta-Bisabolol, Valeranon)",
+      "category": "essential_oil",
+      "percent_range": "0.3-0.8 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Charakteristisches ätherisches Öl — Hauptkomponenten: Bornylacetat (frische Wurzel, angenehm-würzig), Isovaleriansäure (Abbauprodukt, charakteristischer Baldriangeruch, stechend-käsig entsteht beim Lagern), Campher, Valerianol, Valeranon und weitere Sesquiterpen-Alkohole. Die flüchtige Fraktion trägt zur Wirkung bei, besonders bei Bädern und Inhalationen. Für die standardisierte Extrakt-Wirkung von untergeordneter Bedeutung.",
+        "en": "Characteristic essential oil — main components: bornyl acetate (fresh root, pleasant-spicy), isovaleric acid (degradation product, characteristic valerian odour develops on storage), camphor, valerianol, valeranone and further sesquiterpene alcohols. The volatile fraction contributes to effect, especially in baths and inhalations. Of secondary importance for standardised extract activity."
+      }
+    },
+    {
+      "name": "Lignane (Pinoresinol, Lariciresinol, Isolariciresinol)",
+      "category": "other",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Hydroxyzimtalkohol-Dimere (Phenylpropanoide). Zeigen in vitro sedierende und anxiolytische Eigenschaften durch Bindung an GABA-A-Rezeptoren (Benzodiazepin-Bindungsstelle). Pinoresinol als pharmakologisch aktive Leitverbindung dieser Gruppe identifiziert; trägt synergistisch zur Gesamtwirkung bei.",
+        "en": "Hydroxycinnamic alcohol dimers (phenylpropanoids). Show in vitro sedative and anxiolytic properties via binding to GABA-A receptors (benzodiazepine binding site). Pinoresinol identified as pharmacologically active lead compound of this group; contributes synergistically to overall effect."
+      }
+    },
+    {
+      "name": "Flavonoide (Linarin, Hesperidin, 6-Methylapigenin, Luteolin)",
+      "category": "flavonoid",
+      "percent_range": "0.1-0.3 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Flavonglykoside und freie Flavone. 6-Methylapigenin wurde in Baldrian identifiziert und zeigt starke Bindungsaffinität an Benzodiazepin-Rezeptoren in vitro — potentiell bedeutsam für die anxiolytische Komponente. Linarin zeigt schwache sedativ-hypnotische Wirkung. Zusammen mit Valerensäure verstärkende (synergistische) Wirkung am GABA-Rezeptor-Komplex.",
+        "en": "Flavone glycosides and free flavones. 6-Methylapigenin identified in valerian, showing strong benzodiazepine receptor binding affinity in vitro — potentially significant for the anxiolytic component. Linarin shows weak sedative-hypnotic activity. Synergistic potentiation of GABA receptor complex together with valerenic acid."
+      }
+    },
+    {
+      "name": "Alkaloid-Spuren (Actinidin, Chatinin, Valerianin, Valeranin)",
+      "category": "alkaloid",
+      "percent_range": "< 0.1 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Monoterpen-Alkaloide in Spurenmengen, charakteristisch für Valeriana-Arten. Actinidin ist das flüchtige Alkaloid, das Katzen anzieht (ähnlich Nepetalacton aus Katzenminze). Pharmakologisch bei therapeutischen Dosen ohne relevante Bedeutung, tragen aber zum Gesamtbouquet der biologischen Aktivität bei.",
+        "en": "Monoterpene alkaloids in trace amounts, characteristic for Valeriana species. Actinidin is the volatile alkaloid attracting cats (similar to nepetalactone from catnip). Pharmacologically irrelevant at therapeutic doses, but contribute to the overall bouquet of biological activity."
+      }
+    },
+    {
+      "name": "Aminosäuren (GABA, Glutamin, Arginin, Tyrosin)",
+      "category": "other",
+      "percent_range": "0.05-0.5 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Freie Aminosäuren, darunter GABA (gamma-Aminobuttersäure) selbst. Exogen zugeführtes GABA passiert jedoch die Blut-Hirn-Schranke nur begrenzt — direkte Wirkung von Baldrian-GABA auf das ZNS ist fraglich. Glutamin als GABA-Vorstufe könnte indirekt relevant sein. Arginin und Tyrosin als allgemeine Stickstoffquelle. Gesamtbedeutung für die sedative Wirkung geringer als Valerensäure und Lignane.",
+        "en": "Free amino acids including GABA (gamma-aminobutyric acid) itself. However, exogenous GABA crosses the blood-brain barrier only to a limited extent — direct CNS action of valerian-GABA is questionable. Glutamine as GABA precursor may be indirectly relevant. Arginine and tyrosine as general nitrogen sources. Overall significance for sedative effect less than valerenic acid and lignans."
+      }
+    },
+    {
+      "name": "Polysaccharide / Stärke / Gerbstoffe (Gerbsäuren, Kaffeesäure-Derivate)",
+      "category": "tannin",
+      "percent_range": "3-8 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Baldrianwurzel enthält erhebliche Mengen an Stärke (~20–30 %) und niedermolekularen Gerbstoffen (Kaffeesäure-Derivate, Chlorogensäure). Die Gerbstoffe bewirken den leicht adstringierenden Mundgeschmack des Baldriantees. Pharmakologisch für die sedierende Wirkung nicht bedeutsam; beeinflussen aber Geschmack und Magen-Darm-Verträglichkeit. Hoher Stärkegehalt erklärt die kalorische Dichte der Wurzel (historisch gelegentlich als Nahrungsquelle in Notzeiten).",
+        "en": "Valerian root contains substantial starch (~20–30 %) and low-molecular tannins (caffeic acid derivatives, chlorogenic acid). Tannins cause the slightly astringent mouthfeel of valerian tea. Pharmacologically irrelevant for sedative action; but influence taste and GI tolerability. High starch content explains caloric density of the root (historically occasionally used as food in times of scarcity)."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "An trockenen Tagen im Herbst — idealer Zeitpunkt ist nach dem Absterben der oberirdischen Teile (Oktober–November), wenn die Pflanze ihre Inhaltsstoffe (Valerensäure, Valepotriate) vollständig in den Wurzelstock eingelagert hat. Morgens ernten, sobald der Tau abgetrocknet ist.",
+        "en": "On dry autumn days — ideal timing is after the above-ground parts have died back (October–November), when the plant has fully stored its constituents (valerenic acid, valepotriates) in the rhizome. Harvest in the morning once dew has dried."
+      },
+      "drying": {
+        "de": "Wurzeln und Rhizom ausgraben (Zweijährige Pflanzen liefern höhere Wirkstoffgehalte), gründlich waschen, Faserwurzeln und Stängelreste entfernen, in 3–5 mm dicke Scheiben oder Stifte schneiden. Bei max. 35–40 °C im Dörrgerät oder Backofen (Umlufttrocken) 12–24 Stunden trocknen, bis Bruchfestigkeit erreicht ist. NICHT bei höheren Temperaturen trocknen — Valerensäure und Valepotriate sind hitzelabil. Frische Wurzeln riechen angenehm würzig; der charakteristische Baldrian-Geruch (Isovaleriansäure) entsteht erst durch Enzymaktivität beim Trocknen und Lagern — dies ist normal und kein Zeichen für schlechte Qualität. Kleinere Mengen können auf Tüchern an luftigem Schattenplatz bei warmem, trockenem Wetter getrocknet werden.",
+        "en": "Dig up roots and rhizome (two-year-old plants yield higher constituent content), wash thoroughly, remove fibrous rootlets and stem remnants, cut into 3–5 mm slices or sticks. Dry at max. 35–40 °C in a dehydrator or fan oven for 12–24 h until brittle. Do NOT dry at higher temperatures — valerenic acid and valepotriates are heat-labile. Fresh roots smell pleasantly spicy; the characteristic valerian odour (isovaleric acid) develops through enzymatic activity during drying and storage — this is normal and not a sign of poor quality. Smaller quantities can be air-dried on cloth in a well-ventilated shaded location in warm, dry weather."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Luftdicht in Glas- oder Blechbehältern, dunkel und trocken, bei Raumtemperatur. Valerensäure-Gehalt bleibt bei sachgemäßer Lagerung bis zu 2 Jahre stabil. Bei gummiartigem oder muffigem Geruch (über den normalen Baldrian-Geruch hinaus) entsorgen. Arzneidroge-Qualität: Ph.Eur. schreibt mindestens 0,17 % Valerensäure vor.",
+        "en": "Airtight in glass or tin containers, dark and dry, at room temperature. Valerenic acid content remains stable for up to 2 years with proper storage. Discard if rubbery or musty smell exceeds normal valerian odour. Pharmacopoeial quality: Ph.Eur. specifies min. 0.17 % valerenic acid."
+      }
+    },
+    {
+      "plant_part": "rhizome",
+      "best_months": [
+        3,
+        4
+      ],
+      "time_of_day": {
+        "de": "Im frühen Frühjahr, bevor der Stängel kräftig austreibt — die Wurzel ist dann noch vollständig nährstoff- und wirkstoffhaltig und hat die Reserven aus der Vorjahresvegetation gespeichert. Frühmorgendliche Ernte bevorzugen.",
+        "en": "In early spring, before the stem has grown strongly — the root still contains full nutrient and constituent stores from the previous year's vegetation period. Prefer early morning harvest."
+      },
+      "drying": {
+        "de": "Alternativ zur Herbsternte: Frühjahrs-Ernte des Rhizoms (März–April) liefert ebenfalls hochwertige Droge mit guten Valerensäure-Gehalten, jedoch vor Beginn des Blütentriebs ernten. Bearbeitung wie Herbst-Ernte. Frühjahrsernte empfiehlt sich bei einjährigen Pflanzen, die noch keine Blüte entwickelt haben. HINWEIS: Für Arzneimittelqualität ist die Herbsternte (zweijährige Pflanzen) bevorzugt (höhere Valepotriate und Valerensäure).",
+        "en": "Alternative to autumn harvest: spring harvest of rhizome (March–April) also yields quality drug with good valerenic acid content, but must be collected before flower stalk develops. Processing same as autumn harvest. Spring harvest is suitable for one-year-old plants that have not yet flowered. NOTE: For pharmaceutical-grade quality, autumn harvest (two-year-old plants) is preferred (higher valepotriates and valerenic acid)."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Wie Herbst-Ernte: luftdicht, dunkel, trocken. Frühjahrswurzeln zügig verarbeiten oder trocknen, da höherer Wassergehalt Schimmelgefahr erhöht.",
+        "en": "Same as autumn harvest: airtight, dark, dry. Process or dry spring roots promptly as higher moisture content increases mould risk."
+      }
+    }
+  ]
+}

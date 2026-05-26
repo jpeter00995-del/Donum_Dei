@@ -1,0 +1,389 @@
+{
+  "slug": "fagus-sylvatica",
+  "names": {
+    "de": "Rotbuche",
+    "en": "Fagus sylvatica",
+    "latin": "Fagus sylvatica"
+  },
+  "family": {
+    "de": "Buchengewächse",
+    "en": "Beech family",
+    "latin": "Fagaceae"
+  },
+  "description": {
+    "de": "Die Rotbuche, oft Gewöhnliche Buche genannt, ist eine Pflanzenart aus der Gattung der Buchen (Fagus) innerhalb der Familie der Buchengewächse (Fagaceae). Umgangssprachlich wird sie gewöhnlich als Buche bezeichnet. Die botanische Schreibweise Rot-Buche betont die Zugehörigkeit zur Gattung der Buchen.",
+    "en": "Fagus sylvatica, the European beech or common beech, is a large deciduous tree in the beech family with smooth silvery-grey bark, large leaf area, and a short trunk with low branches. It is native to much of Europe, growing in humid climates."
+  },
+  "teaser": {
+    "de": "Die Rotbuche, oft Gewöhnliche Buche genannt, ist eine Pflanzenart aus der Gattung der Buchen (Fagus) innerhalb der Fa...",
+    "en": "Fagus sylvatica, the European beech or common beech, is a large deciduous tree in the beech family with smooth silver..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "fever",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Buchenrinden-Abkochung wurde in der europäischen Volksmedizin bei Fieber, Erkältung und leichten Atemwegs­beschwerden eingesetzt. Die Rinde enthält Gerbstoffe, Catechin und Epicatechin, die adstringierend, antipyretisch und leicht antiseptisch wirken.",
+        "en": "Beech bark decoction was used in European folk medicine for fever, colds, and mild respiratory complaints. The bark contains tannins, catechin, and epicatechin, which act as astringents and have mild antipyretic and antiseptic properties."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 5
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "2–5 g getrocknete Buchenrinde in 250 ml Wasser 15 Minuten köcheln, abseihen. 2-mal täglich trinken. Nur kurzfristig anwenden.",
+          "en": "Simmer 2–5 g dried beech bark in 250 ml water for 15 minutes, strain. Drink twice daily. For short-term use only."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_fagus",
+        "src_pmc_fagus_bark"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Junge Buchenblätter wurden volksmedizinisch als feuchter Umschlag auf entzündete Hautstellen, Furunkeln und schlecht heilende Wunden gelegt. Die entzündungshemmenden Eigenschaften frischer Blätter sind auf ihren Gehalt an Flavonoiden und Phenolsäuren zurückzuführen.",
+        "en": "Young beech leaves were applied in folk medicine as moist compresses to inflamed skin, boils, and poorly healing wounds. The anti-inflammatory properties of fresh leaves are attributed to their flavonoid and phenolic acid content."
+      },
+      "source_ids": [
+        "src_wikipedia_de_fagus",
+        "src_eatweeds_fagus"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory",
+        "skin"
+      ],
+      "internal_external": "both",
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Buchenholzteer (gewonnen durch Trockendestillation der Äste) wurde historisch als stimulierendes Expektorans innerlich und als antiseptische Einreibung bei Hauterkrankungen äußerlich verwendet. Der Teer enthält Guajakol und Kreosol als Wirkprinzipien. Wegen möglicher Toxizität und fehlender moderner Sicherheitsdaten nur von historischem Interesse.",
+        "en": "Beechwood tar (obtained by dry distillation of branches) was historically used internally as a stimulating expectorant and externally as an antiseptic liniment for skin diseases. The tar contains guaiacol and creosol as active principles. Of historical interest only due to possible toxicity and absence of modern safety data."
+      },
+      "source_ids": [
+        "src_pfaf_fagus",
+        "src_naturalmedicinalherbs_fagus"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Bucheckern wurden seit der Antike als Nahrungsmittel genutzt (40 % Öl, 23 % Protein, 22 % Stärke). Roh nur in kleinen Mengen essen — sie enthalten Fagin (Trimethylamin) und Oxalsäure, die bei größeren Mengen Übelkeit und Kopfschmerzen verursachen. Erhitzen (Rösten) zersetzt das Fagin; Einweichen und Auslaugen reduziert Tanningehalt für die Mehlbereitung.",
+        "en": "Beechnuts have been used as food since antiquity (40% oil, 23% protein, 22% starch). Eat raw only in small amounts — they contain fagine (trimethylamine) and oxalic acid, causing nausea and headaches in larger quantities. Heating (roasting) breaks down fagine; soaking and leaching reduces tannin content for flour production."
+      },
+      "source_ids": [
+        "src_wikipedia_en_fagus",
+        "src_plantura_fagus"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Junge Buchenblätter im Frühjahr (vor dem Austreiben der Blüten, April–Mai) sind essbar und leicht süßlich. Sie wurden als Salatbeigabe oder Wildgemüse verwendet. Volksmedizinisch galten sie als leicht entzündungshemmend und stärkend.",
+        "en": "Young beech leaves in spring (April–May, before flowering) are edible and mildly sweet. They were used as a salad addition or wild vegetable. In folk medicine they were considered mildly anti-inflammatory and tonic."
+      },
+      "source_ids": [
+        "src_eatweeds_fagus",
+        "src_wikipedia_de_fagus"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Rindenextrakt der Rotbuche wurde volksheilkundlich in antiseptischen Salben oder Ölauszügen bei Hautausschlägen und Zahnschmerzen eingesetzt. Die antimikrobielle Wirkung der Polyphenole (Catechin, Epicate­chin, Protokatechusäure) gegen Staphylococcus aureus und Candida-Arten wurde im Labor bestätigt.",
+        "en": "Beech bark extract was used in folk healing in antiseptic ointments or oil preparations for skin rashes and toothache. The antimicrobial activity of polyphenols (catechin, epicatechin, protocatechuic acid) against Staphylococcus aureus and Candida species has been confirmed in laboratory studies."
+      },
+      "source_ids": [
+        "src_pmc_fagus_bark",
+        "src_pfaf_fagus"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      4,
+      5,
+      9
+    ],
+    "harvest_part": {
+      "de": "junge Blätter (Frühjahr), Bucheckern (Herbst)",
+      "en": "young leaves (spring), beechnuts (autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Rohe Bucheckern in größeren Mengen toxisch (Fagin/Trimethylamin, Oxalsäure) — Übelkeit, Erbrechen, Kopfschmerzen. Buchenholzteer (Kreosot) ist stark reizend und nicht ohne Fachkundige anzuwenden. Keine innerliche Anwendung von Teerpräparaten ohne medizinische Aufsicht. Schwangere und Stillende sollen rohe Bucheckern meiden.",
+      "en": "Raw beechnuts are toxic in larger amounts (fagine/trimethylamine, oxalic acid) — nausea, vomiting, headaches. Beechwood tar (creosote) is strongly irritating and must not be used without expert guidance. No internal use of tar preparations without medical supervision. Pregnant and breastfeeding women should avoid raw beechnuts."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Rohe Bucheckern und Teer-Präparate in der Schwangerschaft meiden. Kein ausreichendes Sicherheitsprofil für medizinische Rindenanwendungen.",
+        "en": "Avoid raw beechnuts and tar preparations during pregnancy. No adequate safety profile for medicinal bark applications."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Rohe Bucheckern und Teer-Präparate in der Stillzeit meiden. Keine Sicherheitsdaten für Rindenextrakte.",
+        "en": "Avoid raw beechnuts and tar preparations during lactation. No safety data for bark extracts."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Kinder reagieren empfindlicher auf Fagin; rohe Bucheckern streng begrenzen. Interne Teer-Anwendungen sind bei Kindern kontraindiziert.",
+        "en": "Children are more sensitive to fagine; strictly limit raw beechnuts. Internal tar applications are contraindicated in children."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Größere Mengen roher Bucheckern (Fagin-Toxizität; vor allem bei Kindern)",
+        "en": "Larger quantities of raw beechnuts (fagine toxicity; especially in children)"
+      },
+      {
+        "de": "Innerliche Anwendung von Buchenholzteer ohne medizinische Aufsicht",
+        "en": "Internal use of beechwood tar without medical supervision"
+      }
+    ],
+    "drug_interactions": [],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Rotbuche (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Rotbuche",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Fagus sylvatica (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Fagus_sylvatica",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_pmc_fagus_bark",
+      "type": "monograph",
+      "title": "Tanase et al. (2019): Biological and Chemical Insights of Beech (Fagus sylvatica L.) Bark: A Source of Bioactive Compounds with Functional Properties. Antioxidants 8(9):417, DOI 10.3390/antiox8090417",
+      "url": "https://doi.org/10.3390/antiox8090417",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_fagus",
+      "type": "book",
+      "title": "Plants For A Future (PFAF): Fagus sylvatica",
+      "url": "https://pfaf.org/user/plant.aspx?LatinName=Fagus+sylvatica",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_eatweeds_fagus",
+      "type": "book",
+      "title": "Eatweeds: The Traditional and Modern Uses of Beech (Fagus sylvatica)",
+      "url": "https://www.eatweeds.co.uk/beech-fagus-sylvatica",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_plantura_fagus",
+      "type": "book",
+      "title": "Plantura: Beechnuts — ingredients, toxicity and consumption",
+      "url": "https://plantura.garden/uk/trees-shrubs/beech/beechnuts",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_naturalmedicinalherbs_fagus",
+      "type": "book",
+      "title": "Natural Medicinal Herbs: Beech (Fagus sylvatica)",
+      "url": "http://www.naturalmedicinalherbs.net/herbs/f/fagus-sylvatica=beech.php",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wikipedia_de_fagus",
+      "type": "wikipedia",
+      "title": "Rotbuche (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Rotbuche",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wikipedia_en_fagus",
+      "type": "wikipedia",
+      "title": "Fagus sylvatica (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Fagus_sylvatica",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "fagus-sylvatica.jpg",
+    "alt": {
+      "de": "Foto von Rotbuche",
+      "en": "Photo of Fagus sylvatica"
+    },
+    "license": "CC BY-SA 1.0",
+    "author": "Darkone (Fotograf)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Buchenwald_1.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Catechin",
+      "category": "tannin",
+      "plant_part": "bark",
+      "percent_range": "0,06 %",
+      "note": {
+        "de": "Dominantes Polyphenol in Bucheckern-Rinde; antioxidativ, antimikrobiell gegen gram-positive Bakterien und Candida.",
+        "en": "Dominant polyphenol in beech bark; antioxidant, antimicrobial against gram-positive bacteria and Candida."
+      }
+    },
+    {
+      "name": "Epicatechin",
+      "category": "tannin",
+      "plant_part": "bark",
+      "note": {
+        "de": "Zweithäufigstes Flavan-3-ol in Buchenrinde; stärkstes antioxidatives Potential im DPPH-Assay.",
+        "en": "Second most abundant flavan-3-ol in beech bark; strongest antioxidant potential in DPPH assay."
+      }
+    },
+    {
+      "name": "Protocatechusäure",
+      "category": "phenolic_acid",
+      "plant_part": "bark",
+      "note": {
+        "de": "Phenolsäure in Buchenrinde; antibakteriell, antioxidativ.",
+        "en": "Phenolic acid in beech bark; antibacterial, antioxidant."
+      }
+    },
+    {
+      "name": "Chlorogensäure",
+      "category": "phenolic_acid",
+      "plant_part": "bark",
+      "note": {
+        "de": "Hydroxyzimtsäure-Ester in Buchenrinde; hemmt α-Glucosidase (IC50 38–168 µg/ml) und wirkt antioxidativ.",
+        "en": "Hydroxycinnamic acid ester in beech bark; inhibits α-glucosidase (IC50 38–168 µg/ml) and acts antioxidantly."
+      }
+    },
+    {
+      "name": "Isoquercitrin",
+      "category": "flavonoid",
+      "plant_part": "bark",
+      "note": {
+        "de": "Quercetin-Glykosid in Buchenrinde; in allen Extrakten nachgewiesen, antioxidativ.",
+        "en": "Quercetin glycoside in beech bark; detected in all extracts, antioxidant."
+      }
+    },
+    {
+      "name": "Fagin (Trimethylamin)",
+      "category": "alkaloid",
+      "plant_part": "seed",
+      "note": {
+        "de": "Toxisches Alkaloid in Bucheckern; verursacht Übelkeit und Kopfschmerzen; wird durch Erhitzen abgebaut.",
+        "en": "Toxic alkaloid in beechnuts; causes nausea and headaches; degraded by heating."
+      }
+    },
+    {
+      "name": "Guajakol",
+      "category": "other",
+      "plant_part": "bark",
+      "note": {
+        "de": "Hauptwirkstoff im Buchenholzteer (Kreosot); stimulierend expektorierend, antiseptisch — nur unter Fachaufsicht.",
+        "en": "Primary active compound in beechwood tar (creosote); stimulant expectorant, antiseptic — professional supervision required."
+      }
+    },
+    {
+      "name": "Bucheckernöl",
+      "category": "other",
+      "plant_part": "seed",
+      "percent_range": "38–42 %",
+      "note": {
+        "de": "Hochwertiges Speiseöl mit überwiegend ungesättigten Fettsäuren (Öl-, Linol- und Linolensäure); historisch als Koch- und Lampenöl genutzt.",
+        "en": "High-quality edible oil with predominantly unsaturated fatty acids (oleic, linoleic, and linolenic acid); historically used for cooking and as lamp oil."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus; nur die zartesten, noch leicht glänzenden Jungblätter sammeln.",
+        "en": "Morning after dew has dried; collect only the most tender, still slightly shiny young leaves."
+      },
+      "drying": {
+        "de": "Frische Blätter sofort verwenden oder bei max. 35 °C schonend trocknen. Getrocknete Blätter verlieren rasch Aroma.",
+        "en": "Use fresh leaves immediately or dry gently at max. 35 °C. Dried leaves lose aroma quickly."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Dunkel, luftdicht und kühl; frische Blätter sind bevorzugt.",
+        "en": "Dark, airtight and cool; fresh leaves are preferred."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Bucheckern nach dem natürlichen Fall vom Boden auflesen.",
+        "en": "Collect beechnuts from the ground after natural fall."
+      },
+      "drying": {
+        "de": "Bucheckern an der Luft 1–2 Wochen nachtrocknen lassen. Für Mehl/Öl: rösten oder einweichen und Wasser mehrfach wechseln (Gerbstoff-Auslaugung).",
+        "en": "Air-dry beechnuts for 1–2 weeks. For flour/oil: roast or soak and change water repeatedly (tannin leaching)."
+      },
+      "storage_months": 3,
+      "storage_condition": {
+        "de": "Kühl und trocken lagern; rohe Bucheckern verderben rasch.",
+        "en": "Store cool and dry; raw beechnuts spoil quickly."
+      }
+    }
+  ]
+}

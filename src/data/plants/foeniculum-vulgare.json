@@ -1,0 +1,467 @@
+{
+  "slug": "foeniculum-vulgare",
+  "names": {
+    "de": "Fenchel",
+    "en": "Fennel",
+    "latin": "Foeniculum vulgare"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Der Fenchel ist eine Pflanzenart der Gattung Foeniculum innerhalb der Familie der Doldenblütler (Apiaceae). Es ist eine heute weltweit verbreitete Gemüse-, Gewürz- und Heilpflanze. Er wurde zur Arzneipflanze des Jahres 2009 gekürt.",
+    "en": "Fennel is a flowering plant species in the carrot family. It is a hardy, perennial herb with yellow flowers and feathery leaves. It is indigenous to the shores of the Mediterranean but has become widely naturalized in many parts of the world, especially on dry soils near the sea coast and on riverbanks."
+  },
+  "teaser": {
+    "de": "Der Fenchel ist eine Pflanzenart der Gattung Foeniculum innerhalb der Familie der Doldenblütler (Apiaceae).",
+    "en": "Fennel is a flowering plant species in the carrot family."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2.5
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 4,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "WICHTIG — Samen vor dem Aufguss im Mörser zerstoßen, sonst kommt das ätherische Öl nicht aus den Früchten. 1,5–2,5 g zerstoßene Fenchelfrüchte (~1 gehäufter TL) mit 150 ml siedendem Wasser übergießen, zugedeckt 10–15 Minuten ziehen, abseihen. 3–4× täglich frisch zwischen den Mahlzeiten. Max ~7 g/Tag.",
+          "en": "IMPORTANT — Crush seeds in mortar before infusing. 1.5–2.5 g + 150 ml boiling water, steep 10–15 min covered, strain. 3–4× daily. Max ~7 g/day."
+        }
+      },
+      "age_restriction": {
+        "min_age": 4,
+        "note": {
+          "de": "Laut EMA ab 4 Jahren. Unter 4 Jahren nicht empfohlen. Reines ätherisches Fenchelöl NICHT bei Säuglingen/Kleinkindern (Estragol).",
+          "en": "Per EMA from 4 years. Pure essential oil NOT for infants/toddlers (estragole)."
+        }
+      },
+      "description": {
+        "de": "Klassischer Verdauungstee bei leichten krampfartigen Magen-Darm-Beschwerden, Blähungen und Völlegefühl. Anethol wirkt karminativ und entspannt die glatte Muskulatur des Darms.",
+        "en": "Classic digestive tea for mild GI cramps, bloating, fullness."
+      },
+      "source_ids": [
+        "src_ema_foeniculi_amari_fructus",
+        "src_ema_foeniculi_dulcis_fructus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "throat"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2.5
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "Samen zuerst im Mörser zerstoßen. 1,5–2,5 g + 150 ml kochendes Wasser, zugedeckt 10–15 Minuten ziehen, abseihen. Bei Erkältungshusten und Halskratzen 2–3× täglich warm trinken — Anethol wirkt sekretolytisch und löst zähen Schleim.",
+          "en": "Crush seeds first. 1.5–2.5 g + 150 ml boiling water, steep 10–15 min. 2–3× daily warm for cold cough."
+        }
+      },
+      "age_restriction": {
+        "min_age": 4,
+        "note": {
+          "de": "Ab 4 Jahren.",
+          "en": "From 4 years."
+        }
+      },
+      "description": {
+        "de": "Hustentee bei produktivem Erkältungshusten — Anethol fördert die Sekretolyse.",
+        "en": "Cough tea for productive cold cough."
+      },
+      "source_ids": [
+        "src_ema_foeniculi_amari_fructus",
+        "src_ema_foeniculi_dulcis_fructus"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 2,
+          "max": 5
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Fertige Fencheltinktur (DAB, meist 1:5 in 70 % Ethanol): 2–5 ml (~40–100 Tropfen) in einem Glas Wasser 3× täglich nach den Mahlzeiten. Nicht für Schwangere, Stillende, Kinder unter 12.",
+          "en": "Tincture (1:5 in 70% ethanol): 2–5 ml in glass of water 3× daily after meals."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Alkoholische Tinktur erst ab 12 Jahren.",
+          "en": "Alcoholic tincture from 12 years."
+        }
+      },
+      "description": {
+        "de": "Konzentriertere Anwendung bei Verdauungsbeschwerden und Erkältungshusten.",
+        "en": "Concentrated application."
+      },
+      "source_ids": [
+        "src_ema_foeniculi_amari_fructus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.5,
+          "max": 1
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "FENCHELHONIG für Kinder ab 4 Jahren: am einfachsten Fertigprodukt aus Apotheke (Aspecton, Tussamag, Hausmittel-Fenchelhonig). Dosierung nach Packungsbeilage, meist 1 TL mehrmals täglich. Selbstgemacht: 1 TL zerstoßene Samen mit 150 ml Wasser 10 Minuten köcheln, abseihen, mit 2 EL Honig (kein Honig unter 1 Jahr!) verrühren. Bei Husten und leichten Blähungen.",
+          "en": "FENNEL HONEY for children from 4 years. Pharmacy products easiest. Homemade: 1 tsp crushed seeds + 150 ml water simmer 10 min, strain, mix with 2 tbsp honey (no honey under 1 year!)."
+        }
+      },
+      "age_restriction": {
+        "min_age": 4,
+        "note": {
+          "de": "Ab 4 Jahren. Säuglinge/Kleinkinder nur unter ärztlicher Aufsicht. Honig erst ab 1 Jahr (Botulismus).",
+          "en": "From 4 years. Honey from 1 year (botulism)."
+        }
+      },
+      "description": {
+        "de": "Süßer Kinder-Hustensaft auf Fenchel-Basis — beruhigt den Hustenreiz und schmeckt Kindern.",
+        "en": "Sweet child-friendly fennel cough syrup."
+      },
+      "source_ids": [
+        "src_ema_foeniculi_dulcis_fructus"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "reife Früchte",
+      "en": "ripe fruits"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Fenchelsamen IMMER vor dem Aufguss zerstoßen — ganze Samen geben das ätherische Öl praktisch nicht ab. Bei Beschwerden länger als 1 Woche (Husten) bzw. 2 Wochen (Verdauung): Arzt. Reines ätherisches Fenchelöl ist hochkonzentriert und darf NICHT bei Säuglingen/Kleinkindern angewendet werden (Estragol, Verdacht auf kanzerogene Wirkung in hohen Dosen). Bei Allergie gegen Doldenblütler (Apiaceae) auf Fenchel verzichten. Phototoxische Hautreaktionen nach äußerlicher Anwendung sehr selten.",
+      "en": "ALWAYS crush seeds before infusion. Pure essential oil NOT for infants/toddlers (estragole). Avoid in Apiaceae allergy."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenübliche Mengen unbedenklich. Therapeutische Dosen wegen Estragol-Gehalt vermeiden. EMA spricht aus Vorsicht generelle Kontraindikation aus.",
+        "en": "Culinary amounts OK. Avoid therapeutic doses due to estragole."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Traditionell als milchfördernd geschätzt. Küchenübliche Mengen OK; therapeutische Dosen meiden. Anethol geht in die Muttermilch über und kann beim Säugling beruhigend wirken.",
+        "en": "Traditionally milk-promoting. Culinary OK; avoid therapeutic doses."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Fencheltee in milden Säuglingstee-Mengen ist traditionell weit verbreitet. EMA: offiziell ab 4 Jahren. Reines ätherisches Fenchelöl KONTRAINDIZIERT bei Säuglingen/Kleinkindern (Laryngospasmus-Risiko). Tinktur erst ab 12.",
+        "en": "Tea from 4 years officially. Pure essential oil CONTRAINDICATED in infants. Tincture from 12."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Östrogene / hormonelle Kontrazeptiva / Tamoxifen",
+        "mechanism": {
+          "de": "Anethol hat schwache östrogenartige Wirkung. Bei hormonsensiblen Tumoren oder Tamoxifen-Therapie regelmäßige therapeutische Anwendung vorsorglich nicht empfohlen. Küchenübliche Mengen unkritisch.",
+          "en": "Weak estrogen-like effect. Avoid therapeutic regular use with hormone-sensitive tumors or tamoxifen."
+        },
+        "severity": "caution"
+      },
+      {
+        "drug_class": "Ciprofloxacin und andere Fluorchinolone",
+        "mechanism": {
+          "de": "Theoretisch könnten Polysaccharide und Schleimstoffe die Antibiotika-Resorption vermindern. Mindestens 2 Stunden Abstand.",
+          "en": "Mucilage may reduce antibiotic absorption. Separate by 2 hours."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Fenchel oder andere Doldenblütler (Anis, Sellerie, Karotte, Kümmel, Petersilie).",
+        "en": "Hypersensitivity to Apiaceae."
+      },
+      {
+        "de": "Kinder unter 4 Jahren zur Selbstmedikation.",
+        "en": "Children under 4 for self-medication."
+      },
+      {
+        "de": "Reines ätherisches Fenchelöl bei Säuglingen/Kleinkindern absolut kontraindiziert.",
+        "en": "Pure essential oil absolutely contraindicated in infants/toddlers."
+      },
+      {
+        "de": "Therapeutische Dosen in Schwangerschaft und Stillzeit.",
+        "en": "Therapeutic doses in pregnancy/lactation."
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Fenchel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Fenchel",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Fennel (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Fennel",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_foeniculi_amari_fructus",
+      "type": "monograph",
+      "title": "EMA/HMPC/372841/2016 Rev.1 — European Union herbal monograph on Foeniculum vulgare subsp. vulgare var. vulgare, fructus (Bitter fennel, Final, 31 August 2022)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/foeniculi-amari-fructus",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_foeniculi_dulcis_fructus",
+      "type": "monograph",
+      "title": "EMA/HMPC/372839/2016 Rev.1 — European Union herbal monograph on Foeniculum vulgare subsp. vulgare var. dulce, fructus (Sweet fennel, Final, 31 August 2022)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/foeniculi-dulcis-fructus",
+      "accessed": "2026-05-18"
+    }
+  ],
+  "image": {
+    "filename": "foeniculum-vulgare.jpg",
+    "alt": {
+      "de": "Foto von Fenchel",
+      "en": "Photo of Fennel"
+    },
+    "license": "Public domain",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6hler_Foeniculum.jpg"
+  },
+  "companion_planting": {
+    "good_partners": [],
+    "bad_partners": [
+      "anethum-graveolens",
+      "apium-graveolens",
+      "capsicum-annuum",
+      "carum-carvi",
+      "coriandrum-sativum",
+      "petroselinum-crispum",
+      "solanum-lycopersicum",
+      "tropaeolum-majus"
+    ],
+    "reasons": {
+      "anethum-graveolens": {
+        "de": "Fenchel und Dill kreuzen sich genetisch und konkurrieren.",
+        "en": "Fennel and dill cross-pollinate and compete."
+      },
+      "coriandrum-sativum": {
+        "de": "Fenchel hemmt Koriander-Keimung (Apiaceae-Konflikt).",
+        "en": "Fennel inhibits coriander germination (Apiaceae conflict)."
+      },
+      "solanum-lycopersicum": {
+        "de": "Fenchel hemmt Tomaten-Wachstum stark (allelopathisch).",
+        "en": "Fennel strongly inhibits tomato growth (allelopathic)."
+      },
+      "tropaeolum-majus": {
+        "de": "Fenchel ist stark allelopathisch und hemmt fast alle Nachbarn.",
+        "en": "Fennel is strongly allelopathic and inhibits nearly all neighbours."
+      }
+    },
+    "notes_de": "anethum-graveolens: Dill und Fenchel kreuzen sich genetisch und konkurrieren. tropaeolum-majus: Fenchel ist stark allelopathisch und hemmt fast alle Nachbarn. solanum-lycopersicum: Fenchel hemmt Tomatenwachstum stark.",
+    "notes_en": "anethum-graveolens: Dill and fennel cross-pollinate and compete. tropaeolum-majus: Fennel is strongly allelopathic and inhibits nearly all neighbours. solanum-lycopersicum: Fennel strongly inhibits tomato growth.",
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 4,
+        "end_month": 6
+      },
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      }
+    },
+    "harvest_window": {
+      "start_month": 7,
+      "end_month": 10
+    },
+    "days_to_harvest": 90,
+    "spacing_cm": 30,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 2
+  },
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "medicinal",
+    "root_loosener"
+  ],
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (Bitterfenchel)",
+      "category": "essential_oil",
+      "percent_range": "4–6 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "EMA-Mindestgehalt 40 ml/kg. trans-Anethol min. 60 %, Fenchon min. 15 % (gibt bitteren kampferartigen Geschmack), Estragol höher als in Süßfenchel.",
+        "en": "EMA min 40 ml/kg. trans-anethole ≥60 %, fenchone ≥15 % (bitter taste), more estragole than sweet variety."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Süßfenchel)",
+      "category": "essential_oil",
+      "percent_range": "2–6 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Süßfenchel: trans-Anethol min. 80 %, weniger Fenchon (~7,5 %). Niedrigerer Estragol-Gehalt — bevorzugt für Kindertee und Stilltees.",
+        "en": "Sweet fennel: ≥80 % trans-anethole, less fenchone, lower estragole — preferred for children's tea."
+      }
+    },
+    {
+      "name": "trans-Anethol",
+      "category": "essential_oil",
+      "percent_range": "60–80 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptkomponente. Karminativ, spasmolytisch, sekretolytisch. Verantwortlich für den Anis-artigen Geschmack.",
+        "en": "Main component. Carminative, spasmolytic, secretolytic."
+      }
+    },
+    {
+      "name": "Fenchon",
+      "category": "essential_oil",
+      "percent_range": "1–20 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Bicyclisches Keton, gibt Bitterfenchel den typischen kampferartigen Beigeschmack. Trägt zur spasmolytischen Wirkung bei.",
+        "en": "Bicyclic ketone, camphor-like aftertaste."
+      }
+    },
+    {
+      "name": "Estragol (Methylchavicol)",
+      "category": "essential_oil",
+      "percent_range": "1–10 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Steht im Verdacht, in hohen Dosen kanzerogen zu wirken. Hauptgrund warum reines ätherisches Fenchelöl nicht bei Säuglingen/Schwangeren angewendet werden darf. Im Tee sind die Mengen sehr gering und unkritisch.",
+        "en": "Suspected carcinogenic at high doses. Reason essential oil restricted. Tea amounts negligible."
+      }
+    },
+    {
+      "name": "Cumarine (Bergapten, Umbelliferon, Scopoletin)",
+      "category": "phenolic_acid",
+      "percent_range": "Spuren",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Furanocumarine in Spuren — können selten phototoxische Hautreaktionen auslösen.",
+        "en": "Trace furanocoumarins — rarely phototoxic."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin-, Kaempferol-Glykoside, Rutin)",
+      "category": "flavonoid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Mild antioxidativ und entzündungshemmend.",
+        "en": "Mildly antioxidant and anti-inflammatory."
+      }
+    },
+    {
+      "name": "Fettes Öl",
+      "category": "other",
+      "percent_range": "10–20 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Reich an Petroselinsäure (~60 %), typisch für Doldenblütler. Für Tee irrelevant.",
+        "en": "Rich in petroselinic acid (~60 %)."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "An trockenem Vormittag, sobald der Tau abgetrocknet ist.",
+        "en": "On dry morning."
+      },
+      "drying": {
+        "de": "Doldenstiele schneiden, sobald Früchte gelblich-grün bis grau-braun ausgereift, aber noch fest in der Dolde sitzen — wartet man zu lange, rieseln sie aus.",
+        "en": "Cut umbel stems when fruits yellowish-green to greyish-brown but still firm in umbel."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "GANZE, ungemahlene Samen luftdicht, dunkel, kühl lagern — so halten sie ihr ätherisches Öl 2 Jahre. Erst direkt vor Gebrauch zerstoßen — gemahlene Samen verlieren Wirkung in Wochen.",
+        "en": "Store WHOLE seeds airtight, dark, cool — 2 years. Crush only before use."
+      }
+    }
+  ]
+}

@@ -1,0 +1,497 @@
+{
+  "slug": "lavandula-angustifolia",
+  "names": {
+    "de": "Echter Lavendel",
+    "en": "Lavandula angustifolia",
+    "latin": "Lavandula angustifolia"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Der Echte Lavendel, auch Schmalblättrige Lavendel oder kurz Lavendel genannt, ist eine Pflanzenart aus der Gattung Lavendel (Lavandula) innerhalb der Familie der Lippenblütler (Lamiaceae). Sie findet hauptsächlich Verwendung als Zierpflanze oder zur Gewinnung von Duftstoffen, zudem wird der Echte Lavendel als Heilpflanze genutzt.",
+    "en": "Lavandula angustifolia, formerly L. officinalis, is a flowering plant in the family Lamiaceae, native to the Mediterranean basin. Its common names include lavender, true lavender and English lavender ; also garden lavender, common lavender and narrow-leaved lavender."
+  },
+  "teaser": {
+    "de": "Der Echte Lavendel, auch Schmalblättrige Lavendel oder kurz Lavendel genannt, ist eine Pflanzenart aus der Gattung La...",
+    "en": "Lavandula angustifolia, formerly L."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "sleep",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "1–2 TL (ca. 1–2 g) getrocknete Lavendelblüten mit 150–200 ml kochendem Wasser übergiessen, zugedeckt 10 Minuten ziehen lassen, abseihen. 2–3 mal täglich eine Tasse trinken, die letzte Tasse etwa 30 Minuten vor dem Schlafengehen. Zugedeckt ziehen lassen ist wichtig, damit die ätherischen Öle nicht entweichen.",
+          "en": "Pour 150–200 ml boiling water over 1–2 tsp (~1–2 g) dried lavender flowers, cover and steep for 10 minutes, then strain. Drink 2–3 cups a day, last cup ~30 min before bedtime."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene und Jugendliche ab 12 Jahren.",
+          "en": "Per EMA, only for adults and adolescents from 12 years."
+        }
+      },
+      "description": {
+        "de": "Beruhigender Tee bei Unruhe und leichten Einschlafstörungen — die traditionelle Anwendung der Lavendelblüte.",
+        "en": "Calming tea for restlessness and mild difficulty falling asleep."
+      },
+      "source_ids": [
+        "src_ema_lavandulae_flos"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "nervous_system",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 100,
+          "max": 100
+        },
+        "doses_per_day": 1,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Für ein entspannendes Vollbad: 100 g getrocknete Lavendelblüten mit 2 Litern kochendem Wasser übergiessen, zugedeckt 10 Minuten ziehen lassen, abseihen und den Aufguss ins Badewasser geben. Badetemperatur etwa 35–38 °C, Badedauer 10–20 Minuten. Höchstens einmal täglich. Nach dem Bad ruhen — die Wirkung entfaltet sich besser im warmen Bett.",
+          "en": "For a relaxing full bath: 100 g dried lavender flowers + 2 L boiling water, steep 10 min, strain and add to bath water. Temperature 35–38 °C, duration 10–20 minutes. Max once daily. Rest afterwards."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene und Jugendliche ab 12 Jahren.",
+          "en": "Per EMA, only for adults and adolescents from 12 years."
+        }
+      },
+      "description": {
+        "de": "Entspannungsbad bei nervöser Anspannung und Schlafstörungen — die ätherischen Öle wirken über Haut und Atemluft beruhigend.",
+        "en": "Relaxation bath for nervous tension and sleep problems."
+      },
+      "source_ids": [
+        "src_ema_lavandulae_flos"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "ema_well_established",
+      "preparation": {
+        "doses_per_day": 1,
+        "max_duration_weeks": 10,
+        "instructions": {
+          "de": "Nur als zugelassenes Fertigarzneimittel (z.B. Silexan-Weichkapseln) einnehmen: 1 Kapsel à 80 mg standardisiertes Lavendelöl pro Tag, bei Bedarf 2 Kapseln (160 mg/Tag). Mit etwas Flüssigkeit zu einer Mahlzeit schlucken. WICHTIG: Niemals reines ätherisches Öl mit dem Löffel einnehmen — das gehört in eine standardisierte Kapsel. Wirkung tritt nach 1–2 Wochen ein, Studien laufen über 10 Wochen.",
+          "en": "Use only as an authorised finished medicine (e.g. Silexan soft capsules): 1 capsule of 80 mg standardised lavender oil per day, if needed 2 (160 mg/day). Swallow with liquid at a meal. IMPORTANT: Never take pure essential oil by the spoon. Effect after 1–2 weeks, trials over 10 weeks."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Innerliche Anwendung der Silexan-Kapseln nur für Erwachsene ab 18 Jahren.",
+          "en": "Internal use of Silexan capsules only for adults from 18 years."
+        }
+      },
+      "description": {
+        "de": "Standardisiertes Lavendelöl (Silexan, 80–160 mg/Tag) bei subsyndromaler Angst und stressbedingter Unruhe — die einzige Lavendel-Anwendung mit klinisch belegter Evidenz (EMA-Stufe well-established use). Mehrere randomisierte Studien zeigen eine Wirkung vergleichbar mit niedrig dosiertem Lorazepam, jedoch ohne Abhängigkeitspotenzial.",
+        "en": "Standardised lavender oil (Silexan, 80–160 mg/day) for subsyndromal anxiety and stress-related restlessness — the only lavender application with clinical evidence (EMA well-established use). Several RCTs show effects comparable to low-dose lorazepam, without dependence potential."
+      },
+      "source_ids": [
+        "src_ema_lavandulae_aetheroleum"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "skin",
+        "nervous_system"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Für eine entspannende Massage: ätherisches Lavendelöl IMMER in einem Trägeröl verdünnen (z.B. Mandel-, Jojoba- oder Olivenöl). Konzentration maximal 1–3 % — das sind 5–15 Tropfen Lavendelöl auf 50 ml Trägeröl. NIEMALS unverdünnt auf die Haut auftragen (Reizgefahr, Sensibilisierung). Vor der ersten Anwendung Hauttest in der Armbeuge. 1–2 mal täglich sanft einmassieren.",
+          "en": "For a relaxing massage: ALWAYS dilute essential oil in a carrier oil. Maximum 1–3 % (5–15 drops per 50 ml). NEVER apply undiluted. Patch test on inner arm before first use. Massage in gently 1–2 times a day."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Bei Kindern unter 12 Jahren — vor allem bei vorpubertären Jungs — auf hautnahe Anwendung von Lavendelöl verzichten (Hinweise auf hormonelle Wirkung).",
+          "en": "In children under 12 — especially prepubertal boys — avoid skin-contact use of lavender oil."
+        }
+      },
+      "description": {
+        "de": "Verdünntes Lavendelöl zur Entspannungs-Massage bei muskulärer Verspannung und nervöser Unruhe. Traditionelle Anwendung, keine starke klinische Evidenz für die äusserliche Form.",
+        "en": "Diluted lavender oil for relaxation massage in muscle tension and nervous restlessness. Traditional use."
+      },
+      "source_ids": [
+        "src_ema_lavandulae_aetheroleum"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "sleep",
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Als Einschlafhilfe: 1–2 Tropfen ätherisches Lavendelöl auf ein Taschentuch oder ein kleines Duftkissen geben und neben dem Kopfkissen platzieren — nicht direkt auf das Bettzeug oder die Haut. Alternativ 2–4 Tropfen in eine Duftlampe mit Wasser oder einen Diffuser (ca. 30 Minuten vor dem Schlafengehen, max. 1 Stunde laufen lassen). Räume gut lüften.",
+          "en": "As a sleep aid: 1–2 drops on a handkerchief beside the pillow — not on bedding or skin. Alternatively 2–4 drops in a diffuser ~30 min before bedtime, max 1 hour. Air the room well."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Bei Kindern unter 12 Jahren keine ätherischen Öle in Schlafzimmer-Diffusern.",
+          "en": "In children under 12, no essential oils in bedroom diffusers."
+        }
+      },
+      "description": {
+        "de": "Dufttherapie zur Beruhigung und als Einschlafhilfe — traditionelle Anwendung.",
+        "en": "Aromatherapy for calming and as a sleep aid — traditional use."
+      },
+      "source_ids": [
+        "src_ema_lavandulae_aetheroleum"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Blüten",
+      "en": "flowers"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Ätherisches Lavendelöl niemals unverdünnt auf die Haut auftragen — Reizgefahr und Sensibilisierung. Maximalkonzentration 1–3 % in einem Trägeröl. Allergische Hautreaktionen (Kontaktdermatitis) sind möglich, vor allem bei oxidiertem (altem) Öl. WICHTIG für Eltern: Es gibt Fallberichte über vorpubertäre Brustdrüsen-Schwellung (Gynäkomastie) bei Jungen nach regelmäßiger äusserer Anwendung lavendelölhaltiger Pflegeprodukte. Linalool und Linalylacetat zeigen in Zellkulturen östrogenartige und antiandrogene Wirkungen. Bei Kindern unter 12 Jahren — insbesondere bei vorpubertären Jungen — daher auf hautnahe Anwendung von Lavendelöl verzichten (Lotionen, Shampoos, Massageöle, Diffuser im Kinderzimmer). Die Anwendung als Tee ist davon nicht betroffen.",
+      "en": "Never apply lavender essential oil undiluted to the skin. Maximum 1–3 % in carrier oil. IMPORTANT for parents: Case reports exist of prepubertal breast tissue swelling (gynaecomastia) in boys after regular external use of lavender-oil-containing care products. In children under 12 — especially prepubertal boys — avoid skin-contact use of lavender oil. Tea preparation is not affected."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Die EMA weist auf fehlende belastbare Daten zur Anwendung in der Schwangerschaft hin — die Anwendung wird daher nicht empfohlen.",
+        "en": "EMA notes a lack of reliable data on use during pregnancy — use is therefore not recommended."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Anwendung in der Stillzeit.",
+        "en": "Insufficient data on use during breastfeeding."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Ätherisches Lavendelöl NICHT bei Kindern unter 12 Jahren anwenden — laut EMA fehlen Daten, und es gibt Berichte über Gynäkomastie bei vorpubertären Jungen. Tee aus Lavendelblüten ebenfalls erst ab 12 Jahren.",
+        "en": "Do NOT use lavender essential oil in children under 12 — EMA cites lack of data, and there are reports of gynaecomastia in prepubertal boys. Tea also only from 12 years."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Sedativa (Benzodiazepine, Z-Substanzen, Opioide)",
+        "mechanism": {
+          "de": "Lavendelöl wirkt selbst leicht sedierend. In Kombination mit Schlaf- und Beruhigungsmitteln kann sich die dämpfende Wirkung verstärken — Vorsicht im Strassenverkehr.",
+          "en": "Lavender oil itself has a mild sedating effect. In combination with sleep medications, the dampening effect may be intensified — caution when driving."
+        },
+        "severity": "caution"
+      },
+      {
+        "drug_class": "Antidepressiva (SSRI, SNRI)",
+        "mechanism": {
+          "de": "Silexan wurde mit SSRI/SNRI nicht systematisch untersucht. Da Lavendelöl Einfluss auf das ZNS hat, sollte die gleichzeitige Anwendung mit einem Arzt besprochen werden.",
+          "en": "Silexan not systematically studied with SSRIs/SNRIs. Concurrent use should be discussed with a doctor."
+        },
+        "severity": "caution"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegenüber Lavendelöl, einzelnen Bestandteilen (Linalool, Linalylacetat) oder anderen Lippenblütlern.",
+        "en": "Hypersensitivity to lavender oil, individual components, or other Lamiaceae plants."
+      },
+      {
+        "de": "Kinder unter 12 Jahren (alle Lavendelöl-Anwendungen); Silexan-Kapseln nur ab 18 Jahren.",
+        "en": "Children under 12 years (all lavender oil uses); Silexan capsules only from 18 years."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit — mangels Daten nicht empfohlen.",
+        "en": "Pregnancy and breastfeeding — not recommended due to lack of data."
+      }
+    ],
+    "max_continuous_use_weeks": 10
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter Lavendel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Lavendel",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Lavandula angustifolia (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Lavandula_angustifolia",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_lavandulae_flos",
+      "type": "monograph",
+      "title": "EMA/HMPC/734125/2010 — European Union herbal monograph on Lavandula angustifolia Mill., flos (Final, 27 March 2012)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/lavandulae-flos",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_lavandulae_aetheroleum",
+      "type": "monograph",
+      "title": "EMA/HMPC/143181/2010 — European Union herbal monograph on Lavandula angustifolia Mill., aetheroleum (Final, 27 March 2012)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/lavandulae-aetheroleum",
+      "accessed": "2026-05-18"
+    }
+  ],
+  "image": {
+    "filename": "lavandula-angustifolia.jpg",
+    "alt": {
+      "de": "Foto von Echter Lavendel",
+      "en": "Photo of Lavandula angustifolia"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lavandula_angustifolia_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-087.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "medicinal",
+      "pest_repelling"
+    ],
+    "rooms": [
+      "balcony",
+      "bedroom"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "weekly",
+    "difficulty": 2,
+    "pet_safe": true,
+    "soil": {
+      "de": "Sandig-lehmig, kalkhaltig, mit Drainage",
+      "en": "Sandy-loamy, calcareous, with drainage"
+    },
+    "pot_size_cm": 25,
+    "tips": {
+      "de": [
+        "Mediterran — viel Sonne, wenig Wasser, gute Drainage Pflicht.",
+        "Im Topf nicht ideal — Wurzeln wollen tiefe Erde. Großer Kübel.",
+        "Getrocknete Blüten im Schlafzimmer wirken beruhigend + Motten-Schutz."
+      ],
+      "en": [
+        "Mediterranean — lots of sun, little water, good drainage essential.",
+        "Not ideal in pots — roots want deep soil. Large container.",
+        "Dried flowers in bedroom calming + moth deterrent."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "achillea-millefolium",
+      "origanum-vulgare",
+      "rosmarinus-officinalis",
+      "salvia-officinalis",
+      "thymus-vulgaris"
+    ],
+    "bad_partners": [
+      "mentha-piperita"
+    ],
+    "reasons": {
+      "mentha-piperita": {
+        "de": "Minze braucht feuchten Boden, Lavendel trockenen.",
+        "en": "Mint needs moist soil, lavender needs dry."
+      },
+      "rosmarinus-officinalis": {
+        "de": "Mediterrane Trocken-Profis — Lavendel zieht Bienen, Rosmarin schützt.",
+        "en": "Mediterranean dry specialists — lavender draws bees, rosemary protects."
+      }
+    },
+    "notes_de": "mentha-piperita: Minze braucht feuchten Boden, Lavendel trockenen.",
+    "notes_en": "mentha-piperita: Mint needs moist soil, lavender dry.",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      },
+      "transplant": {
+        "start_month": 4,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 7,
+      "end_month": 8
+    },
+    "days_to_harvest": 365,
+    "spacing_cm": 40,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 2
+  },
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "aromatic_repellent",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Ätherisches Öl",
+      "category": "essential_oil",
+      "percent_range": "1–3 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Hauptwirkstoff-Komplex der Lavendelblüte, gewonnen durch Wasserdampfdestillation.",
+        "en": "Main active compound complex, obtained by steam distillation."
+      }
+    },
+    {
+      "name": "Linalool",
+      "category": "essential_oil",
+      "percent_range": "20–45 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Wichtigster Monoterpenalkohol — verantwortlich für die beruhigende, leicht angstlösende Wirkung. Zeigt in Zellkulturen östrogenartige Aktivität — daher Vorsicht bei Kleinkindern.",
+        "en": "Most important monoterpene alcohol — responsible for the calming, mildly anxiolytic effect. Shows estrogen-like activity in cell cultures — caution in young children."
+      }
+    },
+    {
+      "name": "Linalylacetat",
+      "category": "essential_oil",
+      "percent_range": "25–46 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Estriger Hauptbestandteil — trägt zur muskelentspannenden und sedierenden Wirkung bei. Zusammen mit Linalool die Leitsubstanz im Silexan-Präparat.",
+        "en": "Ester main component — contributes to muscle-relaxing and sedating effect. Together with linalool, the leading substance in Silexan."
+      }
+    },
+    {
+      "name": "Cineol (1,8-Cineol)",
+      "category": "essential_oil",
+      "percent_range": "< 2,5 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Im echten Lavendel (L. angustifolia) nur in geringer Menge — höhere Anteile deuten auf Verfälschung hin.",
+        "en": "Only in small amounts in true lavender — higher levels indicate adulteration."
+      }
+    },
+    {
+      "name": "Campher",
+      "category": "essential_oil",
+      "percent_range": "< 1,2 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Im echten Lavendel sehr niedrig — strenger Pharmakopöe-Grenzwert.",
+        "en": "Very low in true lavender — strict pharmacopoeial limit."
+      }
+    },
+    {
+      "name": "Gerbstoffe",
+      "category": "tannin",
+      "percent_range": "ca. 5–10 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Tragen zur leicht zusammenziehenden Wirkung des Tees auf Schleimhäute bei.",
+        "en": "Contribute to the slightly astringent effect of the tea on mucous membranes."
+      }
+    },
+    {
+      "name": "Flavonoide",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Mild antioxidativ; Luteolin- und Apigenin-Glykoside.",
+        "en": "Mildly antioxidant; luteolin and apigenin glycosides."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "An sonnigen, trockenen Vormittagen, sobald der Tau abgetrocknet ist und bevor die Mittagshitze die ätherischen Öle ausdünstet.",
+        "en": "On sunny, dry mornings once the dew has dried."
+      },
+      "drying": {
+        "de": "Blütenstände schneiden, sobald etwa zwei Drittel der Einzelblüten geöffnet sind — dann ist der Gehalt an ätherischem Öl am höchsten. Kleine Bündel locker zusammenbinden und kopfüber an einem luftigen, schattigen Ort aufhängen (max. 35 °C). Direkte Sonne vermeiden.",
+        "en": "Cut flowering stems when about 2/3 of individual flowers are open. Bundle loosely and hang upside down in airy, shaded place (max 35 °C). Avoid direct sunlight."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In dunklen, luftdichten Glasgefässen kühl lagern — die ätherischen Öle verflüchtigen sich sonst rasch.",
+        "en": "Store in dark, airtight glass jars in a cool place — essential oils evaporate quickly otherwise."
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "donum-dei",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "validate:data": "node --experimental-strip-types scripts/validate_data.mjs",
+    "validate:zod": "node --experimental-strip-types scripts/validate_data_zod.mjs",
+    "validate:all": "npm run validate:data && npm run validate:zod && npm run test",
+    "schema:export": "node --experimental-strip-types scripts/export_json_schema.mjs"
+  },
+  "dependencies": {
+    "@astrojs/react": "^5.0.5",
+    "@astrojs/sitemap": "^3.7.2",
+    "@fontsource/crimson-pro": "^5.2.8",
+    "@fontsource/inter": "^5.2.8",
+    "@tailwindcss/vite": "^4.3.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^6.3.3",
+    "leaflet": "^1.9.4",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "tailwindcss": "^4.3.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@types/leaflet": "^1.9.21",
+    "@vite-pwa/astro": "^1.2.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6"
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "slug": "potentilla-anserina",
+  "names": {
+    "de": "Gemeines_Gänsefingerkraut",
+    "en": "Argentina anserina",
+    "latin": "Potentilla anserina"
+  },
+  "family": {
+    "de": "Rosengewächse",
+    "en": "Rose family",
+    "latin": "Rosaceae"
+  },
+  "description": {
+    "de": "Beschreibung für Gemeines_Gänsefingerkraut folgt — siehe Wikipedia-Artikel.",
+    "en": "Argentina anserina is a perennial flowering plant in the rose family, Rosaceae. It is known by the common names silverweed, common silverweed or silver cinquefoil. It is native throughout the temperate Northern Hemisphere, often on river shores and in grassy habitats such as meadows and road-sides."
+  },
+  "teaser": {
+    "de": "Beschreibung für Gemeines_Gänsefingerkraut folgt — siehe Wikipedia-Artikel.",
+    "en": "Argentina anserina is a perennial flowering plant in the rose family, Rosaceae."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Aufguss aus dem Kraut bei leichten, akuten Durchfallerkrankungen. Die Kommission E hat diese Indikation für Potentillae anserinae herba anerkannt. Die adstringierende Wirkung beruht auf dem Gerbstoffgehalt.",
+        "en": "Infusion of the herb for mild, acute diarrhoea. The German Commission E recognised this indication for Potentillae anserinae herba. The astringent effect is due to the tannin content."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 4,
+          "max": 6
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2 g getrocknetes Kraut mit 250 ml kochendem Wasser übergießen, 10 min ziehen lassen, abseihen. Tagesgesamtmenge 4–6 g Droge.",
+          "en": "Pour 250 ml boiling water over 2 g dried herb, steep 10 min, strain. Total daily amount 4–6 g crude drug."
+        }
+      },
+      "source_ids": [
+        "src_komm_e_potentilla",
+        "src_altmeyers_potentilla"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "menstrual"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Bei leichten Dysmenorrhoe-Beschwerden (Menstruationsschmerzen) ist die Anwendung von Gänsefingerkraut-Kraut durch die Kommission E anerkannt. Tierstudien zeigen eine tonus- und kontraktionssteigernde Wirkung am Uterusmuskel.",
+        "en": "For mild dysmenorrhoea (menstrual pain), the use of silverweed herb is recognised by the German Commission E. Animal studies show uterine muscle tone- and contraction-enhancing effects."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 4,
+          "max": 6
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3
+      },
+      "source_ids": [
+        "src_komm_e_potentilla",
+        "src_altmeyers_potentilla"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Beim Gurgeln mit einem konzentrierteren Aufguss bei leichten Entzündungen der Mund- und Rachenschleimhaut, ebenfalls durch die Kommission E für Potentillae anserinae herba anerkannt.",
+        "en": "Gargling with a more concentrated infusion for mild inflammation of the oral and pharyngeal mucosa, also recognised by the German Commission E for Potentillae anserinae herba."
+      },
+      "preparation": {
+        "de": "Konzentrierten Aufguss herstellen (6–8 g auf 250 ml), lauwarm zum Gurgeln verwenden, nicht schlucken.",
+        "en": "Prepare a concentrated infusion (6–8 g per 250 ml), use lukewarm for gargling, do not swallow."
+      },
+      "source_ids": [
+        "src_komm_e_potentilla",
+        "src_altmeyers_potentilla"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Die Wurzel enthält höhere Gerbstoffanteile als das oberirdische Kraut und wurde traditionell in stärkerem Aufguss bei Durchfall und Blutungen eingesetzt. Die Wurzel gilt als das gerbstoffreichste Pflanzenteil.",
+        "en": "The root contains higher tannin levels than the aerial herb and was traditionally used in stronger infusions for diarrhoea and bleeding. The root is considered the most tannin-rich plant part."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 2
+      },
+      "source_ids": [
+        "src_pfaf_potentilla",
+        "src_wp_de_potentilla"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Gequetschtes oder zermahlenes Kraut wurde als Umschlag bei Geschwüren und Wunden aufgelegt. Die Volksmedizin nutzte es auch als lokales Schmerzmittel bei Zahn- und Gelenkbeschwerden.",
+        "en": "Bruised or powdered herb was applied as a compress for ulcers and wounds. Folk medicine also used it as a local pain remedy for dental and joint complaints."
+      },
+      "source_ids": [
+        "src_pfaf_potentilla",
+        "src_wp_de_potentilla"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Die kohlenhydratreichen Wurzeln wurden in verschiedenen Kulturen (Nordamerika, Tibet) als Nahrungsquelle genutzt und erinnern im Geschmack an Pastinake. Besonders im Frühjahr und Herbst wurden sie gesammelt.",
+        "en": "The carbohydrate-rich roots were used as a food source in various cultures (North America, Tibet) and resemble parsnip in taste. They were especially harvested in spring and autumn."
+      },
+      "source_ids": [
+        "src_wp_en_potentilla",
+        "src_pfaf_potentilla"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bei empfindlichem Magen kann der Gerbstoffgehalt Magenreizungen verursachen. Die krampflindernde Wirkung bei Dysmenorrhoe ist wissenschaftlich weniger gut belegt als die antidiarrhoische. Nicht als Monotherapie bei starken Krämpfen einsetzen.",
+      "en": "The tannin content may cause stomach irritation in sensitive individuals. The antispasmodic effect in dysmenorrhoea is less well-evidenced than the antidiarrhoeal effect. Do not use as monotherapy for severe cramps."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Wegen der uterusstimulierenden Wirkung in Tierstudien in der Schwangerschaft meiden.",
+        "en": "Avoid in pregnancy due to uterus-stimulating effects shown in animal studies."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten vorhanden; sicherheitshalber meiden.",
+        "en": "Insufficient data available; avoid as a precaution."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Für Kinder unter 12 Jahren nicht empfohlen, da keine klinischen Daten vorliegen.",
+        "en": "Not recommended for children under 12 years, as no clinical data are available."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Pflanzen der Familie Rosaceae.",
+        "en": "Known hypersensitivity to plants of the Rosaceae family."
+      },
+      {
+        "de": "Schwangerschaft (wegen uterusstimulierender Wirkung).",
+        "en": "Pregnancy (due to uterus-stimulating effect)."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gemeines_Gänsefingerkraut (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gemeines_Gänsefingerkraut",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Argentina anserina (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Argentina_anserina",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_de_potentilla",
+      "type": "wikipedia",
+      "title": "Gänsefingerkraut (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gänsefingerkraut",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wp_en_potentilla",
+      "type": "wikipedia",
+      "title": "Argentina anserina (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Argentina_anserina",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_potentilla",
+      "type": "monograph",
+      "title": "Potentilla anserina — Plants For A Future (PFAF)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Potentilla+anserina",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_komm_e_potentilla",
+      "type": "monograph",
+      "title": "Potentillae anserinae herba — Altmeyers Enzyklopädie Phytotherapie (Kommission-E-Monographie)",
+      "url": "https://www.altmeyers.org/en/naturopathy/potentillae-anserinae-herba-143563",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_altmeyers_potentilla",
+      "type": "monograph",
+      "title": "Potentillae anserinae herba — Altmeyers Encyclopedia of Dermatology / Naturopathy",
+      "url": "https://www.altmeyers.org/en/naturopathy/potentillae-anserinae-herba-143563",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_metabolomics_potentilla",
+      "type": "monograph",
+      "title": "Phytochemical composition of Potentilla anserina L. analyzed by an integrative GC-MS and LC-MS metabolomics platform — Metabolomics 2013",
+      "url": "https://doi.org/10.1007/s11306-012-0473-x",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "potentilla-anserina.jpg",
+    "alt": {
+      "de": "Foto von Gemeines_Gänsefingerkraut",
+      "en": "Photo of Argentina anserina"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Walter Siegmund (talk)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Argentina_egedii_2834.JPG"
+  },
+  "constituents": [
+    {
+      "name": "Ellagitannine",
+      "category": "tannin",
+      "plant_part": "aerial_parts",
+      "percent_range": "5-10 %",
+      "note": {
+        "de": "Hydrolysierende Gerbstoffe; Hauptwirkstoffgruppe; verantwortlich für die adstringierende und antidiarrhoische Wirkung. Wurzel enthält mehr Gerbstoffe als das Kraut.",
+        "en": "Hydrolysable tannins; main active compound group; responsible for astringent and antidiarrhoeal effects. Root contains more tannins than the aerial herb."
+      }
+    },
+    {
+      "name": "Quercetin-Glykoside",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Quercetin-3-O-beta-Glucuronid und weitere Derivate; antioxidativ und entzündungsmodulierend.",
+        "en": "Quercetin-3-O-beta-glucuronide and further derivatives; antioxidant and inflammation-modulating."
+      }
+    },
+    {
+      "name": "Kaempferol-Glykoside",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Kaempferol-3-O-beta-Glucuronid; antioxidativ; zusammen mit Quercetin- und Myricetin-Glykosiden quantifiziert.",
+        "en": "Kaempferol-3-O-beta-glucuronide; antioxidant; quantified together with quercetin and myricetin glycosides."
+      }
+    },
+    {
+      "name": "Myricetin-Glykoside",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Myricetin-3-O-Glucuronid und Isorhamnetin-Derivate; beitragend zum Gesamtflavonoidgehalt.",
+        "en": "Myricetin-3-O-glucuronide and isorhamnetin derivatives; contributing to total flavonoid content."
+      }
+    },
+    {
+      "name": "Tormentosid",
+      "category": "glycoside",
+      "plant_part": "root",
+      "note": {
+        "de": "Charakteristisches Glykosidasid der Potentilla-Gattung; in der Wurzel konzentriert.",
+        "en": "Characteristic glycoside of the Potentilla genus; concentrated in the root."
+      }
+    },
+    {
+      "name": "Chlorogensäure und Kaffeesäure-Derivate",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolcarbonsäuren; antioxidativ; nachgewiesen durch GC-MS- und LC-MS-Metabolomik-Analyse.",
+        "en": "Phenolic acids; antioxidant; detected by GC-MS and LC-MS metabolomics analysis."
+      }
+    },
+    {
+      "name": "Genistein",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Isoflavon; erstmals 2013 für diese Art durch LC-MS nachgewiesen; phytoöstrogene Eigenschaften; könnte zur Wirkung bei Dysmenorrhoe beitragen.",
+        "en": "Isoflavone; first reported for this species in 2013 via LC-MS; phytoestrogenic properties; may contribute to efficacy in dysmenorrhoea."
+      }
+    },
+    {
+      "name": "Anthocyanidine und Phytosterole",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Anthocyanidine als farbgebende Pigmente; Phytosterole als Begleitstoffe ohne gesondert belegte Hauptwirkung.",
+        "en": "Anthocyanidins as colour-giving pigments; phytosterols as accompanying compounds without separately documented main effect."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Vor Mittag ernten, wenn der Tau abgetrocknet ist.",
+        "en": "Harvest before midday when the dew has dried."
+      },
+      "drying": {
+        "de": "Bei max. 40 °C im Schatten trocknen; in dünnen Schichten ausbreiten.",
+        "en": "Dry at max. 40 °C in the shade; spread out in thin layers."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, dunkel und luftdicht lagern.",
+        "en": "Store dry, dark, and airtight."
+      }
+    },
+    {
+      "plant_part": "root",
+      "best_months": [
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Herbstliche Ernte nach Vegetationsende.",
+        "en": "Harvest in autumn after the growing season ends."
+      },
+      "drying": {
+        "de": "Wurzeln waschen, in Scheiben schneiden und bei 40–50 °C trocknen.",
+        "en": "Wash roots, slice, and dry at 40–50 °C."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken und kühl, in geschlossenen Glasbehältern.",
+        "en": "Dry and cool, in closed glass containers."
+      }
+    }
+  ]
+}

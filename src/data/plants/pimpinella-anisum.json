@@ -1,0 +1,499 @@
+{
+  "slug": "pimpinella-anisum",
+  "names": {
+    "de": "Anis",
+    "en": "Anise",
+    "latin": "Pimpinella anisum"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Anis ist eine einjährige Gewürz- und Heilpflanze mit fein gefiederten Blättern und kleinen weißen Doldenblüten. Die reifen Früchte (botanisch eigentlich Spaltfrüchte, umgangssprachlich Samen genannt) duften charakteristisch süßlich-aromatisch und gehören zu den ältesten kultivierten Heilpflanzen des Mittelmeerraums. In der Küche wie in der Apotheke seit Jahrtausenden bewährt.",
+    "en": "Anise is an annual spice and medicinal plant with finely feathered leaves and small white umbel flowers. The ripe fruits (botanically schizocarps, colloquially called seeds) have a characteristic sweet-aromatic scent and belong to the oldest cultivated medicinal plants of the Mediterranean region. Used in both kitchen and pharmacy for millennia."
+  },
+  "teaser": {
+    "de": "Süß-aromatische Samen — verdauungsfördernd und schleimlösend.",
+    "en": "Sweet-aromatic seeds — promote digestion and loosen mucus."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 3.5
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "WICHTIG: Anissamen unmittelbar vor der Zubereitung im Mörser zerquetschen — ganze Samen geben kaum Wirkstoff ab. 1–3,5 g zerstoßene Früchte mit 150–250 ml kochend heißem Wasser übergießen, zugedeckt 10–15 Minuten ziehen (Deckel hält das ätherische Öl im Aufguss), abseihen. 3× täglich frisch zubereiten zwischen den Mahlzeiten, bei Blähungen direkt nach dem Essen.",
+          "en": "IMPORTANT: Crush aniseed in mortar immediately before preparation. 1–3.5 g + 150–250 ml boiling water, cover and steep 10–15 min (lid retains essential oil), strain. Prepare fresh 3× daily between meals; for bloating directly after meals."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA nur ab 12 Jahren. Traditionell wird verdünnter Anistee bei Säuglingskoliken eingesetzt; sicherer ist, dass die stillende Mutter ihn trinkt.",
+          "en": "Per EMA from 12 years. For infant colic the safer approach is the breastfeeding mother drinking the tea."
+        }
+      },
+      "description": {
+        "de": "Klassischer Verdauungstee bei Blähungen, leichten Magen-Darm-Krämpfen und Völlegefühl. Kommission E bestätigt für dyspeptische Beschwerden. Anethol entspannt die glatte Muskulatur des Magen-Darm-Trakts (spasmolytisch) und fördert das Abgehen von Gasen (karminativ).",
+        "en": "Classic digestive tea for bloating, mild GI cramps and fullness. Commission E approved for dyspeptic complaints. Anethole relaxes smooth muscle (spasmolytic) and promotes gas expulsion (carminative)."
+      },
+      "source_ids": [
+        "src_ema_anisi_fructus",
+        "src_komm_e_anis"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 3.5
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "BRONCHIALTEE: Samen zerquetschen, mit 150–250 ml kochendem Wasser übergießen, zugedeckt 10–15 Minuten ziehen, abseihen. 3× täglich warm trinken. Anethol wird über Lunge ausgeschieden — daher bronchialer Effekt. Honig (ab 1 Jahr) verstärkt schleimhautpflegende Wirkung.",
+          "en": "BRONCHIAL TEA: crush seeds, steep 10–15 min covered in 150–250 ml boiling water, strain. Drink warm 3× daily. Anethole is excreted through the lungs — hence bronchial effect. Honey (from 1 year) enhances mucosal effect."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Ab 12 Jahren.",
+          "en": "From 12 years."
+        }
+      },
+      "description": {
+        "de": "Sekretolytischer und sekretomotorischer Hustentee bei Erkältungshusten mit zähem Schleim. Kommission E bestätigt für Katarrhe der Atemwege. Anethol verflüssigt Bronchialschleim und erleichtert das Abhusten; wird teilweise über die Bronchien ausgeschieden.",
+        "en": "Secretolytic and secretomotor cough tea for cold cough with thick mucus. Commission E approved for catarrhs of the respiratory tract. Anethole liquefies bronchial mucus and facilitates expectoration; partly excreted through the bronchi."
+      },
+      "source_ids": [
+        "src_ema_anisi_fructus",
+        "src_komm_e_anis"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "GEWÜRZ: Ganze oder grob gemahlene Anissamen beim Kochen und Backen verwenden — Brot, Plätzchen, Liköre, Käse. Küchenübliche Mengen (1–2 TL pro Gericht) gelten als unbedenklich. Anis passt zu Fenchel, Dill und Sternanis in Gewürzmischungen.",
+          "en": "SPICE: Use whole or coarsely ground aniseed in cooking and baking — bread, biscuits, liqueurs, cheese. Culinary amounts (1–2 tsp per dish) considered safe. Anise combines well with fennel, dill and star anise in spice blends."
+        }
+      },
+      "description": {
+        "de": "Kulinarische Verwendung als Gewürz seit der Antike. Anis regt Verdauungsdrüsen an und reduziert Blähungsneigung bei typisch anis-gewürzten Gerichten (Brot, Lebkuchen). Küchenmengen sind weit unterhalb therapeutischer Dosen.",
+        "en": "Culinary use as spice since antiquity. Anise stimulates digestive glands and reduces flatulence tendency in typical anise-spiced dishes. Culinary amounts are far below therapeutic doses."
+      },
+      "source_ids": [
+        "src_wp_en_anise",
+        "src_komm_e_anis"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "ÄUSSERLICH: Anis-ätherisches Öl verdünnt 1–2 % in Trägeröl auf Brust oder Rücken auftragen bei Husten und Bronchitis. NUR als Fertigpräparat — reines ätherisches Anisöl NICHT direkt auf Haut oder Schleimhäute. STRIKT VERBOTEN bei Kindern unter 5 Jahren (Laryngospasmus-Gefahr). Nicht auf Gesicht, Nase oder Mund.",
+          "en": "EXTERNAL: Anise essential oil diluted 1–2% in carrier oil, applied to chest or back for cough and bronchitis. ONLY as ready-made preparation — pure essential oil NOT directly on skin or mucous membranes. STRICTLY FORBIDDEN for children under 5 (laryngospasm risk). Not on face, nose or mouth."
+        }
+      },
+      "description": {
+        "de": "Äußerliche Anwendung von verdünntem Anis-ätherischem Öl bei Husten und Bronchialbeschwerden. Die Inhalation der flüchtigen Komponenten (Anethol, Methylchavicol) wirkt schleimhautpflegend und mild antimikrobiell.",
+        "en": "External application of diluted anise essential oil for cough and bronchial complaints. Inhalation of volatile components (anethole, methylchavicol) soothes mucosa and is mildly antimicrobial."
+      },
+      "source_ids": [
+        "src_ema_anisi_fructus",
+        "src_wp_de_anis"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "ENTSPANNUNGSTEE: 1–2 g zerquetschte Anissamen mit 200 ml kochendem Wasser, zugedeckt 10 Minuten ziehen, abseihen. Abends als leicht sedierendes Getränk bei Unruhezuständen. Volksüberlieferung nach Plinius d.Ä. als schlaffördernd beschrieben.",
+          "en": "RELAXING TEA: 1–2 g crushed seeds + 200 ml boiling water, steep 10 min covered, strain. Evening drink as mild sedative for restlessness. Folk tradition following Pliny the Elder describes sleep-promoting properties."
+        }
+      },
+      "description": {
+        "de": "Volkstümliche abendliche Anwendung als leicht beruhigender Tee. Plinius d.Ä. beschrieb Anis als schlaffördernd; die analgetische und relaxierende Wirkung von Anethol könnte zu leichter Sedation beitragen.",
+        "en": "Folk evening use as mildly calming tea. Pliny the Elder described anise as sleep-promoting; the analgesic and relaxing properties of anethole may contribute to mild sedation."
+      },
+      "source_ids": [
+        "src_wp_en_anise",
+        "src_pfaf_pimpinella_anisum"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "menstrual"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "TEE bei Menstruationsbeschwerden: 1,5–3 g zerquetschte Anissamen mit 250 ml kochendem Wasser, zugedeckt 15 Minuten ziehen, abseihen. 2× täglich warm trinken in den Tagen vor und während der Menstruation. Nicht bei Östrogen-sensitiven Erkrankungen.",
+          "en": "TEA for menstrual complaints: 1.5–3 g crushed seeds + 250 ml boiling water, steep 15 min covered, strain. Drink warm 2× daily in days before and during menstruation. Not with oestrogen-sensitive conditions."
+        }
+      },
+      "description": {
+        "de": "Volkstümliche Anwendung bei Menstruationsbeschwerden und Dysmenorrhö. Anethol hat strukturelle Ähnlichkeit mit Östrogen; in-vitro-Studien beschreiben schwach östrogene Wirkung. Therapeutische Tee-Dosen: küchenübliche Gewürzmengen weit darunter.",
+        "en": "Folk use for menstrual complaints and dysmenorrhoea. Anethole has structural similarity to oestrogen; in-vitro studies describe weak oestrogenic activity. Therapeutic tea doses are far above culinary spice amounts."
+      },
+      "source_ids": [
+        "src_pfaf_pimpinella_anisum",
+        "src_isrn_pimpinella_2012"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "reife Früchte (Spätsommer/Frühherbst)",
+      "en": "ripe fruits (late summer/early autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Anissamen MÜSSEN vor der Zubereitung zerquetscht werden — ganze Samen geben kaum Wirkstoff ab. Bei Verdauungsbeschwerden über 2 Wochen oder Husten über 1 Woche: zum Arzt. Allergien gegen Doldenblütler (Apiaceae — Fenchel, Kümmel, Anis, Sellerie, Karotte) möglich. Reines ätherisches Anisöl NICHT direkt auf Schleimhäute oder Haut. STRIKT VERBOTEN bei Kindern unter 5 Jahren — Erstickungsgefahr durch Laryngospasmus. Sehr hohe Dauermengen können schwach östrogene Wirkungen zeigen — küchenüblicher Gebrauch unbedenklich. Estragol-Gehalt: in Teemengen laut EFSA kein Risiko.",
+      "en": "Aniseed MUST be crushed before preparation. Symptoms persisting beyond 2 weeks (digestive) or 1 week (cough): doctor. Apiaceae allergy possible (fennel, caraway, anise, celery, carrot). Pure essential oil NOT on mucous membranes or skin. STRICTLY FORBIDDEN for children under 5 — laryngospasm risk. Very high chronic doses may show weak oestrogenic effects — culinary use safe. Estragole content: no risk in tea amounts per EFSA."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenübliche Gewürzmengen unbedenklich. Therapeutische Teedosen und reines ätherisches Anisöl in der Schwangerschaft meiden — unzureichende Sicherheitsdaten.",
+        "en": "Culinary spice amounts safe. Therapeutic tea doses and pure essential oil should be avoided in pregnancy — insufficient safety data."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "EMA empfiehlt aus Datengründen keine therapeutische Anwendung. Traditionell wird moderater Anistee als milchbildungsfördernd geschätzt; Wirkstoffe gehen in die Muttermilch.",
+        "en": "EMA does not recommend therapeutic use due to insufficient data. Traditionally moderate anise tea valued as milk-promoting; active substances pass into breast milk."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Anistee als Arzneimittel nicht für Kinder unter 12 Jahren. Reines ätherisches Anisöl strikt NICHT bei Kindern unter 5 Jahren (Laryngospasmus-Gefahr).",
+        "en": "Medicinal tea not for children under 12. Pure essential oil strictly NOT for children under 5 (laryngospasm)."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Östrogen-haltige Arzneimittel und hormonelle Verhütungsmittel",
+        "mechanism": {
+          "de": "Anethol hat strukturelle Ähnlichkeit mit Östrogen und zeigt in vitro schwach östrogene Aktivität. Theoretische additive oder antagonistische Interaktion bei therapeutischen Dosen.",
+          "en": "Anethole has structural similarity to oestrogen and shows weak oestrogenic activity in vitro. Theoretical additive or antagonistic interaction at therapeutic doses."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Anis, Anethol oder andere Doldenblütler (Fenchel, Kümmel, Dill, Sellerie, Karotte, Petersilie).",
+        "en": "Hypersensitivity to aniseed, anethole or other Apiaceae (fennel, caraway, dill, celery, carrot, parsley)."
+      },
+      {
+        "de": "Kinder unter 12 Jahren — Anistee als Arzneimittel nicht zugelassen.",
+        "en": "Children under 12 — medicinal anise tea not approved."
+      },
+      {
+        "de": "Reines ätherisches Anisöl bei Kindern unter 5 Jahren (Laryngospasmus).",
+        "en": "Pure essential oil for children under 5 (laryngospasm)."
+      },
+      {
+        "de": "Östrogen-sensitive Erkrankungen (z.B. östrogenabhängige Tumoren) bei therapeutischer Anwendung.",
+        "en": "Oestrogen-sensitive conditions (e.g. oestrogen-dependent tumours) with therapeutic use."
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [
+    {
+      "author": "Hildegard von Bingen",
+      "year": 1150,
+      "license": "PD",
+      "text_de": "Anis macht das Auge klar, mildert den Husten und macht den Atem süß.",
+      "text_en": "Anise makes the eye clear, calms the cough and sweetens the breath.",
+      "work": "Physica, Liber I (De Plantis)",
+      "chapter": "Cap. 36 — De Aniso / Vom Anis"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Anis (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Anis",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Anise (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Anise",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_anisi_fructus",
+      "type": "monograph",
+      "title": "EMA/HMPC/321184/2012 — European Union herbal monograph on Pimpinella anisum L., fructus (Final, 17 June 2014)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/anisi-fructus",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_komm_e_anis",
+      "type": "monograph",
+      "title": "EMA Assessment Report on Pimpinella anisum L., fructus — includes reference to positive Commission E monograph (Anisi fructus, BAnz 1990)",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-pimpinella-anisum-l-fructus_en.pdf",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_anis",
+      "type": "wikipedia",
+      "title": "Anis (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Anis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_anise",
+      "type": "wikipedia",
+      "title": "Anise (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Anise",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_pimpinella_anisum",
+      "type": "book",
+      "title": "Plants For A Future — Pimpinella anisum",
+      "url": "https://www.pfaf.org/user/Plant.aspx?LatinName=Pimpinella+anisum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_isrn_pimpinella_2012",
+      "type": "monograph",
+      "title": "Review of Pharmacological Properties and Chemical Constituents of Pimpinella anisum (Shojaii & Abdollahi Fard, ISRN Pharmaceutics, 2012)",
+      "url": "https://doi.org/10.5402/2012/510795",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "pimpinella-anisum.jpg",
+    "alt": {
+      "de": "Anis-Pflanze mit weißen Doldenblüten",
+      "en": "Anise plant with white umbel flowers"
+    },
+    "license": "Public domain",
+    "author": "Otto Wilhelm Thomé, Flora von Deutschland (1885)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Pimpinella_anisum0.jpg"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "coriandrum-sativum"
+    ],
+    "bad_partners": [],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 4,
+        "end_month": 5
+      }
+    },
+    "harvest_window": {
+      "start_month": 8,
+      "end_month": 9
+    },
+    "days_to_harvest": 120,
+    "spacing_cm": 25,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 2
+  },
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "aromatic_repellent",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (Anisöl)",
+      "category": "essential_oil",
+      "percent_range": "1,5–6 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Wirksamkeitsbestimmende Fraktion. Freigesetzt erst beim Zerquetschen der Früchte. Verantwortlich für den charakteristischen Anisgeruch und die krampflösende, sekretolytische und karminative Wirkung.",
+        "en": "Activity-determining fraction. Released only on crushing. Responsible for characteristic anise scent and the spasmolytic, secretolytic and carminative action."
+      }
+    },
+    {
+      "name": "trans-Anethol",
+      "category": "essential_oil",
+      "percent_range": "76–94 % des äth. Öls",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptkomponente des Anisöls. Entspannt glatte Muskulatur, fördert Bronchialsekretion, karminativ. Schwach östrogen in hohen isolierten Dosen. Wird über die Lungen ausgeschieden — daher bronchialer Effekt.",
+        "en": "Main component of anise oil. Relaxes smooth muscle, promotes bronchial secretion, carminative. Weakly oestrogenic at high isolated doses. Excreted through the lungs — hence bronchial effect."
+      }
+    },
+    {
+      "name": "Estragol (Methylchavicol)",
+      "category": "essential_oil",
+      "percent_range": "0,9–2,4 % des äth. Öls",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Nebenkomponente. In hohen, isolierten Mengen potenziell genotoxisch; in Teemengen kein nachweisbares Risiko laut EFSA-Bewertung.",
+        "en": "Minor component. Potentially genotoxic in high isolated amounts; no demonstrable risk in tea amounts per EFSA assessment."
+      }
+    },
+    {
+      "name": "γ-Himachalen und Terpene",
+      "category": "essential_oil",
+      "percent_range": "0,4–8,2 % des äth. Öls",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Sesquiterpen-Komponente im Anisöl. Variiert je nach Herkunft stark.",
+        "en": "Sesquiterpene component in anise oil. Varies greatly depending on origin."
+      }
+    },
+    {
+      "name": "Fettes Öl",
+      "category": "other",
+      "percent_range": "8–23 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptsächlich Petroselinsäure-Triglyzeride. Ohne nennenswerte arzneiliche Wirkung. Kann bei falscher Lagerung ranzig werden.",
+        "en": "Mainly petroselinic acid triglycerides. No significant medicinal activity. Can turn rancid with improper storage."
+      }
+    },
+    {
+      "name": "Flavonoide (Rutin, Apigenin-Glykoside, Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Mild antioxidativ. Unterstützen die krampflösende und entzündungshemmende Wirkung.",
+        "en": "Mildly antioxidant. Support the spasmolytic and anti-inflammatory action."
+      }
+    },
+    {
+      "name": "Cumarine (Umbelliferon, Scopoletin)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Typisch für Doldenblütler. In Teemengen pharmakologisch nicht relevant. Erklären den charakteristischen Duftcharakter mit.",
+        "en": "Typical for Apiaceae. Pharmacologically irrelevant in tea amounts. Contribute to the characteristic aroma."
+      }
+    },
+    {
+      "name": "Protein und B-Vitamine",
+      "category": "vitamin",
+      "percent_range": "Protein ~18 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Anissamen enthalten ~18 % Rohprotein sowie Thiamin (B1), Riboflavin (B2), Niacin (B3), Vitamin C und Eisen — als Gewürz nutritiv unbedeutend, als Nahrungsergänzung nicht geeignet.",
+        "en": "Aniseed contains ~18% crude protein plus thiamine, riboflavin, niacin, vitamin C and iron — nutritionally insignificant as spice, unsuitable as dietary supplement."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "An trockenem Vormittag, sobald der Tau abgetrocknet ist. Ernten, sobald die ersten Doldenfrüchte graubraun werden und sich beim Reiben lösen.",
+        "en": "On dry mornings after dew has dried. Harvest when first umbel fruits turn grey-brown and detach when rubbed."
+      },
+      "drying": {
+        "de": "Ganze Dolden kopfüber in Papiertüten lufttrocknen lassen — Samen fallen von selbst aus. Nach 1–2 Wochen Samen aussieben und nochmals bei unter 35 °C nachtrocknen bis zur völligen Trockenheit. Wichtig: nicht zu heiß trocknen — ätherisches Öl verflüchtigt sich über 40 °C schnell.",
+        "en": "Hang whole umbels upside down in paper bags to air-dry — seeds fall out naturally. After 1–2 weeks sieve seeds and re-dry below 35 °C until fully dry. Important: do not overdry — essential oil evaporates rapidly above 40 °C."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "GANZE Samen luftdicht, kühl, dunkel lagern — nie vorgemahlen aufbewahren. Erst kurz vor Gebrauch zerquetschen. Bei korrekter Lagerung 2 Jahre aromatisch.",
+        "en": "Store WHOLE seeds airtight, cool, dark — never pre-ground. Crush only immediately before use. 2 years aromatic with correct storage."
+      }
+    }
+  ]
+}

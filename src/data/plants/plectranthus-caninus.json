@@ -1,0 +1,118 @@
+{
+  "slug": "plectranthus-caninus",
+  "names": {
+    "de": "Verpiss-dich-Pflanze",
+    "en": "Coleus comosus",
+    "latin": "Plectranthus caninus"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Die sogenannte Verpiss-dich-Pflanze ist eine als Sorte bezeichnete Art aus der Gattung der Harfensträucher (Plectranthus) innerhalb der Familie der Lippenblütler. Die Markteinführung geht auf den schwäbischen Gärtner und Züchter Dieter Stegmeier aus Essingen zurück, der sie 2001 über die Medien bekannt machte.",
+    "en": "Coleus comosus, synonym Plectranthus ornatus, is a flowering plant from the mint family Lamiaceae, native to eastern Africa."
+  },
+  "teaser": {
+    "de": "Die sogenannte Verpiss-dich-Pflanze ist eine als Sorte bezeichnete Art aus der Gattung der Harfensträucher (Plectrant...",
+    "en": "Coleus comosus, synonym Plectranthus ornatus, is a flowering plant from the mint family Lamiaceae, native to eastern ..."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "pest_control"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Verpiss-dich-Pflanze wird traditionell im Garten als duftender Schädlings-Abwehrhelfer eingesetzt. Pflanze aus der Familie der Lippenblütler — typische Verwendung in der europäischen Volksheilkunde bzw. Küche.",
+        "en": "Coleus comosus is traditionally grown in gardens as an aromatic pest deterrent. A member of the Mint family — common in European folk medicine and culinary tradition."
+      },
+      "source_ids": [
+        "src_1",
+        "src_2"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Blätter (Geruch)",
+      "en": "leaves (scent)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Geruch hält Katzen und Hunde fern. Hautkontakt kann reizen — nicht in Reichweite kleiner Kinder.",
+      "en": "Scent keeps cats and dogs away. Skin contact may irritate — keep out of reach of small children."
+    },
+    "external_only": true,
+    "toxicity_level": "caution",
+    "pet_toxic": true
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Verpiss-dich-Pflanze (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Verpiss-dich-Pflanze",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Coleus comosus (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Coleus_comosus",
+      "accessed": "2026-05-17"
+    }
+  ],
+  "image": {
+    "filename": "plectranthus-caninus.jpg",
+    "alt": {
+      "de": "Foto von Verpiss-dich-Pflanze",
+      "en": "Photo of Coleus comosus"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Michael Wolf",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Plectranthus_ornatus_01.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "pest_repelling",
+      "ornamental"
+    ],
+    "rooms": [
+      "balcony"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "every_few_days",
+    "difficulty": 1,
+    "pet_safe": false,
+    "soil": {
+      "de": "Standard-Blumenerde mit Drainage",
+      "en": "Standard compost with drainage"
+    },
+    "pot_size_cm": 20,
+    "tips": {
+      "de": [
+        "Geruch nur beim Berühren spürbar — also platzieren wo Katzen vorbeilaufen.",
+        "Nicht winterhart — ins Haus oder als einjährig behandeln.",
+        "Wirkung gegen Katzen/Hunde wissenschaftlich umstritten."
+      ],
+      "en": [
+        "Smell only triggers on contact — place where cats walk past.",
+        "Not frost-hardy — bring inside or treat as annual.",
+        "Repellent effect on cats/dogs scientifically debated."
+      ]
+    }
+  }
+}

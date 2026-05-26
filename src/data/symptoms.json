@@ -1,0 +1,169 @@
+{
+  "_meta": {
+    "version": 1,
+    "disclaimer_de": "Diese Pflanzen werden traditionell bei den genannten Beschwerden eingesetzt. Keine medizinische Beratung — bei anhaltenden Symptomen bitte Arzt oder Apotheker konsultieren.",
+    "disclaimer_en": "These plants are traditionally used for the listed conditions. Not medical advice — consult a doctor or pharmacist for persistent symptoms."
+  },
+  "symptoms": [
+    {
+      "id": "erkaeltung",
+      "emoji": "🤧",
+      "name_de": "Erkältung",
+      "name_en": "Cold / Flu",
+      "keywords": ["erkältung", "erkaeltung", "cold", "flu", "grippe", "schnupfen", "rhinitis", "common cold", "atemwege", "respiratory"],
+      "target_matches": ["respiratory", "immune", "fever"]
+    },
+    {
+      "id": "husten",
+      "emoji": "😷",
+      "name_de": "Husten",
+      "name_en": "Cough",
+      "keywords": ["husten", "cough", "bronchitis", "auswurf", "reizhusten", "schleim", "expectorant"],
+      "target_matches": ["respiratory", "throat"]
+    },
+    {
+      "id": "fieber",
+      "emoji": "🤒",
+      "name_de": "Fieber",
+      "name_en": "Fever",
+      "keywords": ["fieber", "fever", "schwitzen", "schweißtreibend", "schweisstreibend"],
+      "target_matches": ["fever", "immune"]
+    },
+    {
+      "id": "halsschmerzen",
+      "emoji": "🗣️",
+      "name_de": "Halsschmerzen",
+      "name_en": "Sore Throat",
+      "keywords": ["halsschmerzen", "throat", "sore throat", "rachen", "kratzen", "heiserkeit", "heiser", "mandelentzündung", "mandelentzuendung"],
+      "target_matches": ["throat", "respiratory"]
+    },
+    {
+      "id": "kopfschmerzen",
+      "emoji": "🧠",
+      "name_de": "Kopfschmerzen",
+      "name_en": "Headache",
+      "keywords": ["kopfschmerzen", "migräne", "migraene", "headache", "migraine", "spannungskopfschmerz"],
+      "target_matches": ["headache", "pain", "nerves"]
+    },
+    {
+      "id": "verdauung",
+      "emoji": "💩",
+      "name_de": "Verdauungsbeschwerden",
+      "name_en": "Digestive Issues",
+      "keywords": ["verdauung", "digestion", "magen", "darm", "blähungen", "blaehungen", "durchfall", "verstopfung", "bauchschmerzen", "magen-darm", "stomach", "bloating", "übelkeit", "uebelkeit", "nausea"],
+      "target_matches": ["digestion", "nausea"]
+    },
+    {
+      "id": "haut",
+      "emoji": "🌿",
+      "name_de": "Hautprobleme",
+      "name_en": "Skin Issues",
+      "keywords": ["haut", "skin", "ekzem", "akne", "ausschlag", "neurodermitis", "trockene haut", "rash", "psoriasis", "schuppenflechte"],
+      "target_matches": ["skin"]
+    },
+    {
+      "id": "wunden",
+      "emoji": "🩹",
+      "name_de": "Wunden",
+      "name_en": "Wounds",
+      "keywords": ["wunden", "wound", "schnittwunde", "schürfwunde", "schuerfwunde", "blutung", "cuts", "injuries", "blutstillung", "abschürfung", "abschuerfung"],
+      "target_matches": ["wound", "skin", "bruise"]
+    },
+    {
+      "id": "schlaf",
+      "emoji": "😴",
+      "name_de": "Schlafstörungen",
+      "name_en": "Sleep Problems",
+      "keywords": ["schlaf", "sleep", "insomnia", "einschlafstörung", "einschlafstoerung", "durchschlafstörung", "durchschlafstoerung", "schlaflosigkeit"],
+      "target_matches": ["sleep", "nerves"]
+    },
+    {
+      "id": "stress",
+      "emoji": "💆",
+      "name_de": "Stress / Nervosität",
+      "name_en": "Stress / Anxiety",
+      "keywords": ["stress", "nervosität", "nervositaet", "anxiety", "angst", "unruhe", "innere unruhe", "burnout", "beruhigung", "calming"],
+      "target_matches": ["nerves", "sleep"]
+    },
+    {
+      "id": "schmerzen",
+      "emoji": "🤕",
+      "name_de": "Schmerzen allgemein",
+      "name_en": "General Pain",
+      "keywords": ["schmerzen", "pain", "muskelkater", "rückenschmerzen", "ruckenschmerzen", "ruckenschmerz", "muskelschmerzen", "muskelschmerz", "verspannung"],
+      "target_matches": ["pain", "muscle", "bruise"]
+    },
+    {
+      "id": "gelenke",
+      "emoji": "🦴",
+      "name_de": "Gelenkschmerzen / Rheuma",
+      "name_en": "Joint Pain / Rheumatism",
+      "keywords": ["gelenke", "rheuma", "arthritis", "arthrose", "joint", "rheumatism", "gicht", "gout"],
+      "target_matches": ["joint", "rheumatism", "inflammation", "bones"]
+    },
+    {
+      "id": "frauenleiden",
+      "emoji": "🌸",
+      "name_de": "Frauenleiden / Menstruation",
+      "name_en": "Women's Health / Menstruation",
+      "keywords": ["frauenleiden", "menstruation", "regelschmerzen", "wechseljahre", "menopause", "pms", "menstrual"],
+      "target_matches": ["menstrual"]
+    },
+    {
+      "id": "augen",
+      "emoji": "👁️",
+      "name_de": "Augen",
+      "name_en": "Eyes",
+      "keywords": ["augen", "eyes", "bindehautentzündung", "bindehautentzuendung", "augenentzündung", "augenentzuendung", "eye", "conjunctivitis", "sehkraft"],
+      "target_matches": ["eye", "vision"]
+    },
+    {
+      "id": "energie",
+      "emoji": "💪",
+      "name_de": "Energie / Erschöpfung",
+      "name_en": "Energy / Fatigue",
+      "keywords": ["energie", "erschöpfung", "erschoepfung", "müdigkeit", "muedigkeit", "fatigue", "tonic", "kraftlosigkeit", "antrieb"],
+      "target_matches": ["energy", "nutrition", "iron", "vitamin_c"]
+    },
+    {
+      "id": "insektenstiche",
+      "emoji": "🦟",
+      "name_de": "Insektenstiche",
+      "name_en": "Insect Bites",
+      "keywords": ["insektenstich", "mückenstich", "mueckenstich", "wespenstich", "bite", "sting", "juckreiz", "bienenstich"],
+      "target_matches": ["skin", "wound", "pest_control"]
+    },
+    {
+      "id": "kreislauf",
+      "emoji": "❤️",
+      "name_de": "Herz / Kreislauf",
+      "name_en": "Heart / Circulation",
+      "keywords": ["herz", "kreislauf", "blutdruck", "heart", "circulation", "blood pressure", "hypertonie"],
+      "target_matches": ["heart", "circulation"]
+    },
+    {
+      "id": "allergien",
+      "emoji": "🌬️",
+      "name_de": "Allergien",
+      "name_en": "Allergies",
+      "keywords": ["allergie", "allergy", "heuschnupfen", "hayfever", "antihistaminic", "pollen"],
+      "target_matches": ["immune", "respiratory"]
+    },
+    {
+      "id": "leber",
+      "emoji": "🍷",
+      "name_de": "Leber / Galle",
+      "name_en": "Liver / Bile",
+      "keywords": ["leber", "galle", "liver", "bile", "leberentgiftung", "detox", "lymph"],
+      "target_matches": ["liver", "lymph", "digestion"]
+    },
+    {
+      "id": "blase",
+      "emoji": "💧",
+      "name_de": "Blase / Nieren",
+      "name_en": "Bladder / Kidneys",
+      "keywords": ["blase", "nieren", "blasenentzündung", "blasenentzuendung", "bladder", "kidney", "harnwege", "diuretisch", "urinary"],
+      "target_matches": ["urinary"]
+    }
+  ]
+}

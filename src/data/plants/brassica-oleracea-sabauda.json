@@ -1,0 +1,135 @@
+{
+  "slug": "brassica-oleracea-sabauda",
+  "names": {
+    "de": "Wirsing",
+    "en": "Savoy cabbage",
+    "latin": "Brassica oleracea convar. capitata var. sabauda"
+  },
+  "family": {
+    "de": "Kreuzblütler",
+    "en": "Cabbage family",
+    "latin": "Brassicaceae"
+  },
+  "description": {
+    "de": "Wirsing, in Österreich Kohl und in der Schweiz Wirz genannt, ist ein Kopfkohl und eine Kulturvarietät des Gemüsekohls. Er hat kraus gewellte Blätter.",
+    "en": "Savoy cabbage is a variety or cultivar group of the plant species Brassica oleracea. Savoy cabbage is a winter vegetable and one of several cabbage varieties. It has crinkled, emerald green leaves,\nwhich are crunchy with a slightly elastic consistency on the palate."
+  },
+  "teaser": {
+    "de": "Wirsing, in Österreich Kohl und in der Schweiz Wirz genannt, ist ein Kopfkohl und eine Kulturvarietät des Gemüsekohls.",
+    "en": "Savoy cabbage is a variety or cultivar group of the plant species Brassica oleracea."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "vitamin_c"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Um bei Wirsing den Ertrag zu steigern, werden heute meistens CMS-Sorten (F1-Hybride) angebaut. Entsprechend dem Anbau werden die verschiedenen Sorten in Typen für frühen, mittleren und späten Anbau eingeteilt. Der späte Anbau dient zur Einlagerung im Winter. Wirsing ist nicht ganz so anspruchsvoll wie andere Kopfkohltypen. Je nach Sorte und beabsichtigter Größe werden für Frühsorten 13–26 Wochen, für Spätsorten 26–40 Wochen Kulturzeit benötigt.",
+        "en": "Savoy cabbage maintains a firm texture when cooked, which is desired in some recipes. Savoy cabbage can be used in a variety of ways. It pairs well with white wine, apples, spices, horseradish and meat. Signs of desirable quality include cabbage that is heavy for its size with leaves that are unblemished and have a bright, fresh look. Peak season for most cabbages in the Northern Hemisphere runs from November through April."
+      },
+      "source_ids": [
+        "src_1",
+        "src_2"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "reife Köpfe",
+      "en": "mature heads"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Frosthart und winterfest — kann bis in den Winter geerntet werden.",
+      "en": "Frost-hardy and winter-resistant — can be harvested into winter."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Wirsing (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Wirsing",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Savoy cabbage (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Savoy_cabbage",
+      "accessed": "2026-05-17"
+    }
+  ],
+  "image": {
+    "filename": "brassica-oleracea-sabauda.jpg",
+    "alt": {
+      "de": "Foto von Wirsing",
+      "en": "Photo of Savoy cabbage"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Evelyn Gunn",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Savoy_Cabbage.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 3,
+        "end_month": 5
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 7
+      }
+    },
+    "harvest_window": {
+      "start_month": 8,
+      "end_month": 12
+    },
+    "days_to_harvest": 120,
+    "spacing_cm": 50,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 2
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-porrum",
+      "apium-graveolens"
+    ],
+    "bad_partners": [],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "vertical_mid",
+    "ground_cover"
+  ]
+}

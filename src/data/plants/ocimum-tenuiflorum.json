@@ -1,0 +1,588 @@
+{
+  "slug": "ocimum-tenuiflorum",
+  "names": {
+    "de": "Indisches Basilikum",
+    "en": "Ocimum tenuiflorum",
+    "latin": "Ocimum tenuiflorum"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Indisches Basilikum, auch Tulsi bzw. Tulasi, , Königsbasilikum oder Heiliges Basilikum genannt, ist eine Pflanzenart aus der Gattung Basilikum (Ocimum) innerhalb der Familie der Lippenblütler (Lamiaceae). Ihr natürliches Vorkommen reicht vom tropischen und subtropischen Asien bis zum nördlichen Australien.",
+    "en": "Ocimum tenuiflorum, commonly known as tulasi, tulsi, or holy basil, is an aromatic perennial plant in the family Lamiaceae. It is widely cultivated throughout the Southeast Asian tropics. It is native to tropical and subtropical regions of Asia, Australia and the western Pacific."
+  },
+  "teaser": {
+    "de": "Indisches Basilikum, auch Tulsi bzw.",
+    "en": "Ocimum tenuiflorum, commonly known as tulasi, tulsi, or holy basil, is an aromatic perennial plant in the family Lami..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Tulsi-Tee aus getrockneten Blättern und Blüten wird in der Ayurveda seit Jahrhunderten als Rasayana (Verjüngungsmittel) und Adaptogen eingesetzt. Er gilt als ausgleichendes Tonikum bei Stressbelastung, geistiger Erschöpfung und zur allgemeinen Immunstärkung. Moderne Übersichtsarbeiten (Srivastava 2021) bestätigen das adaptogene Profil, das vor allem auf Eugenol, Ursol- und Rosmarinsäure zurückgeführt wird.",
+        "en": "Tulsi tea from dried leaves and flowers has been used in Ayurveda for centuries as a rasayana (rejuvenating agent) and adaptogen. It is regarded as a balancing tonic for stress, mental exhaustion, and general immune support. Modern reviews (Srivastava 2021) confirm the adaptogenic profile, attributed primarily to eugenol, ursolic acid, and rosmarinic acid."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 5
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–5 g getrocknete Tulsi-Blätter und Blütenstängel mit 250 ml kochendem Wasser übergießen, 10 Minuten abgedeckt ziehen lassen, abseihen. Bis zu 3 Tassen täglich.",
+          "en": "Pour 250 ml of boiling water over 2–5 g of dried Tulsi leaves and flower stalks, steep covered for 10 minutes, strain. Up to 3 cups daily."
+        }
+      },
+      "source_ids": [
+        "src_srivastava_tulsi_adaptogen",
+        "src_pooja_phytoconstituents",
+        "src_verma_phytopharmacology"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "immune",
+        "fever"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "In der ayurvedischen und traditionellen indischen Medizin wird Tulsi-Blätter-Tee bei Husten, Erkältungen, Bronchitis und fieberhaften Infektionen eingesetzt. Eugenol wirkt antibakteriell und antiviral; Kampfer und Caryophyllen unterstützen die bronchiale Clearance. Die Wirksamkeit ist traditionell gut dokumentiert, klinische RCT-Daten zu Atemwegsinfektionen fehlen.",
+        "en": "In Ayurvedic and traditional Indian medicine, Tulsi leaf tea is used for coughs, colds, bronchitis, and febrile infections. Eugenol exerts antibacterial and antiviral effects; camphor and caryophyllene support bronchial clearance. Efficacy is well documented traditionally; clinical RCT data for respiratory infections are lacking."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 6
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "3–6 g frische oder getrocknete Blätter mit 250 ml heißem Wasser aufgießen, 15 Minuten ziehen lassen. Optional mit frischem Ingwer und Honig mischen. 3 × täglich warm trinken.",
+          "en": "Infuse 3–6 g fresh or dried leaves in 250 ml hot water for 15 minutes. Optionally combine with fresh ginger and honey. Drink warm 3 times daily."
+        }
+      },
+      "source_ids": [
+        "src_bokelmann_holy_basil",
+        "src_verma_phytopharmacology",
+        "src_pooja_phytoconstituents"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Eine placebokontrollierte Doppelblind-Studie (Lopresti et al. 2022, Frontiers in Nutrition, DOI 10.3389/fnut.2022.965130) untersuchte Holixer™ — einen standardisierten Extrakt aus Ocimum tenuiflorum — bei 53 Erwachsenen mit subjektivem Stress über 8 Wochen. Primärer Endpunkt war der Perceived Stress Scale Score. Der Extrakt zeigte signifikante Verbesserungen bei Stress, Stimmung und Schlafqualität gegenüber Placebo.",
+        "en": "A placebo-controlled double-blind trial (Lopresti et al. 2022, Frontiers in Nutrition, DOI 10.3389/fnut.2022.965130) investigated Holixer™ — a standardised Ocimum tenuiflorum extract — in 53 adults with subjective stress over 8 weeks. The primary endpoint was the Perceived Stress Scale score. The extract showed significant improvements in stress, mood, and sleep quality vs. placebo."
+      },
+      "preparation": {
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "Standardisierter Extrakt (Holixer™) gemäß Herstellerangabe: 250–500 mg Extrakt zweimal täglich mit Wasser. Fertigtinktur 1:5 (40–60 % Ethanol): 30–40 Tropfen bis zu 3× täglich.",
+          "en": "Standardised extract (Holixer™) per manufacturer instruction: 250–500 mg extract twice daily with water. Ready-made tincture 1:5 (40–60% ethanol): 30–40 drops up to 3× daily."
+        }
+      },
+      "source_ids": [
+        "src_lopresti_rct_stress"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "In der ayurvedischen Tradition gilt Tulsi als Deepana (Verdauungsfeuer-Anreger) und Vata-Pachana (Blähungs-Reduzierer). Wässrige Blätterauszüge werden bei dyspeptischen Beschwerden, Übelkeit, Blähungen und zur Leberunterstützung eingesetzt. Eugenol wirkt spasmolytisch auf die glatte Muskulatur des Magen-Darm-Trakts.",
+        "en": "In Ayurvedic tradition, Tulsi is considered a Deepana (digestive fire stimulant) and Vata-pacifier for bloating reduction. Aqueous leaf extracts are used for dyspeptic complaints, nausea, flatulence, and liver support. Eugenol exerts spasmolytic effects on gastrointestinal smooth muscle."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "2–4 g getrocknete Blätter in 200 ml heißem Wasser 10 Minuten ziehen lassen. Nach dem Essen trinken.",
+          "en": "Steep 2–4 g dried leaves in 200 ml hot water for 10 minutes. Drink after meals."
+        }
+      },
+      "source_ids": [
+        "src_pooja_phytoconstituents",
+        "src_sharma_comparative"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "respiratory",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Ätherisches Tulsi-Öl (Methyl-Eugenol-Chemotyp oder Eugenol-Chemotyp) wird äußerlich in verdünnter Form (1–2 % in Trägeröl) bei Hautinfektionen, Insektenstichen und zur Inhalation bei Atemwegsinfektionen eingesetzt. Yamani et al. (2016) dokumentierten eine signifikante antimikrobielle Aktivität gegen E. coli, P. aeruginosa und S. aureus in vitro.",
+        "en": "Tulsi essential oil (methyl-eugenol or eugenol chemotype) is used topically in diluted form (1–2% in carrier oil) for skin infections, insect bites, and as an inhalant for respiratory infections. Yamani et al. (2016) documented significant antimicrobial activity against E. coli, P. aeruginosa, and S. aureus in vitro."
+      },
+      "source_ids": [
+        "src_yamani_antimicrobial",
+        "src_verma_phytopharmacology"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "immune",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Frische Tulsi-Blätter werden in Indien täglich als Puja-Opfergabe und als funktionelles Nahrungsmittel (Kauen am Morgen auf nüchternen Magen) eingenommen. Diese Praxis gilt in der Ayurveda als immunstärkend und purifiziierend. Das Kauen roher Blätter wird wegen des Eugenol-Gehalts als schonend antibakteriell für die Mundflora betrachtet.",
+        "en": "Fresh Tulsi leaves are consumed daily in India as a puja offering and as a functional food (chewed in the morning on an empty stomach). This practice is considered immune-boosting and purifying in Ayurveda. Chewing raw leaves is regarded as gently antibacterial for oral flora due to eugenol content."
+      },
+      "source_ids": [
+        "src_bokelmann_holy_basil",
+        "src_srivastava_tulsi_adaptogen"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "circulation",
+        "joints"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der Volksmedizin Südostasiens und Indiens werden Tulsi-Aufgüsse bei leichten rheumatischen Gelenkschmerzen und zur Förderung der Durchblutung eingesetzt. Die anti-inflammatorische Wirkung von Ursol- und Oleanolsäure wird in vitro durch Hemmung von COX-2 und 5-LOX belegt; klinische Daten für diese spezifische Indikation liegen nicht vor.",
+        "en": "In the folk medicine of Southeast Asia and India, Tulsi infusions are used for mild rheumatic joint pain and to promote circulation. The anti-inflammatory activity of ursolic and oleanolic acid is demonstrated in vitro via inhibition of COX-2 and 5-LOX; clinical data for this specific indication are lacking."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 300,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "3–5 g getrocknetes Tulsi-Kraut in 300 ml kochendem Wasser 10 Minuten ziehen lassen. Morgens und abends je eine Tasse trinken.",
+          "en": "Steep 3–5 g dried Tulsi herb in 300 ml boiling water for 10 minutes. Drink one cup morning and evening."
+        }
+      },
+      "source_ids": [
+        "src_sharma_comparative",
+        "src_upadhyay_flavonoids"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "Blätter, blühendes Kraut",
+      "en": "leaves, flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Hohe Dosen ätherischen Öls sind hepatotoxisch — nicht länger als 4 Wochen ohne Pause anwenden. Eugenol kann bei empfindlichen Personen die Blutgerinnung hemmen; bei geplanten Operationen 2 Wochen vorher absetzen. Bei bekannter Allergie gegen Lamiaceae (Minze, Basilikum) Vorsicht wegen möglicher Kreuzreaktionen.",
+      "en": "High doses of the essential oil are hepatotoxic — do not use for more than 4 weeks without a break. Eugenol may inhibit blood clotting in sensitive individuals; discontinue 2 weeks before planned surgery. Caution with known allergy to Lamiaceae (mint, basil) due to possible cross-reactions."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Tulsi gilt in der Ayurveda traditionell als mild emmenagog. Therapeutische Dosen als Tee in der Schwangerschaft werden nicht empfohlen; gelegentliche kulinarische Mengen gelten als unbedenklich. Keine kontrollierten Humanstudien vorhanden.",
+        "en": "Tulsi is traditionally considered mildly emmenagogic in Ayurveda. Therapeutic doses as tea are not recommended during pregnancy; occasional culinary amounts are considered safe. No controlled human studies available."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Unzureichende Sicherheitsdaten für therapeutische Dosen während der Stillzeit. Kulinarische Mengen gelten als unbedenklich.",
+        "en": "Insufficient safety data for therapeutic doses during lactation. Culinary amounts are considered safe."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Traditionelle Anwendung in Indien auch bei Kindern bekannt (verdünnter Tee), aber keine kontrollierten Daten. Ätherisches Öl und hochdosierte Extrakte nicht für Kinder unter 12 Jahren.",
+        "en": "Traditional use in India also known for children (diluted tea), but no controlled data. Essential oil and high-dose extracts not for children under 12 years."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegen Ocimum-Arten oder Lamiaceae",
+        "en": "Known hypersensitivity to Ocimum species or Lamiaceae"
+      },
+      {
+        "de": "Einnahme von Antikoagulantien oder Thrombozytenaggregationshemmern (Eugenol-Interaktion)",
+        "en": "Use of anticoagulants or antiplatelet drugs (eugenol interaction)"
+      },
+      {
+        "de": "Schwere Leberfunktionsstörung (hohe Dosen ätherisches Öl kontraindiziert)",
+        "en": "Severe hepatic impairment (high-dose essential oil contraindicated)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulantien / Thrombozytenaggregationshemmer",
+        "mechanism": {
+          "de": "Eugenol hemmt die Thrombozytenaggregation und kann die gerinnungshemmende Wirkung von Warfarin, Heparin oder ASS verstärken.",
+          "en": "Eugenol inhibits platelet aggregation and may enhance the anticoagulant effect of warfarin, heparin, or aspirin."
+        },
+        "severity": "caution",
+        "source_id": "src_bokelmann_holy_basil"
+      },
+      {
+        "drug_class": "Antidiabetika / Insulinpräparate",
+        "mechanism": {
+          "de": "Präklinische und traditionelle Daten deuten auf eine blutzuckersenkende Wirkung hin; bei gleichzeitiger Anwendung mit Antidiabetika könnte eine additive Hypoglykämie auftreten.",
+          "en": "Preclinical and traditional data suggest a blood-glucose-lowering effect; concurrent use with antidiabetic drugs could produce additive hypoglycaemia."
+        },
+        "severity": "monitor",
+        "source_id": "src_srivastava_tulsi_adaptogen"
+      }
+    ],
+    "max_continuous_use_weeks": 8
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Indisches Basilikum (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Indisches_Basilikum",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Ocimum tenuiflorum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Ocimum_tenuiflorum",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_lopresti_rct_stress",
+      "type": "monograph",
+      "title": "Lopresti AL et al. (2022): A randomized, double-blind, placebo-controlled trial investigating the effects of an Ocimum tenuiflorum (Holy Basil) extract (HolixerTM) on stress, mood, and sleep in adults experiencing stress. Frontiers in Nutrition. DOI: 10.3389/fnut.2022.965130",
+      "url": "https://doi.org/10.3389/fnut.2022.965130",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_srivastava_tulsi_adaptogen",
+      "type": "monograph",
+      "title": "Srivastava AK (2021): Tulsi (Ocimum sanctum): A Potent Adaptogen. Clinical Research Notes. DOI: 10.31579/2690-8816/037",
+      "url": "https://doi.org/10.31579/2690-8816/037",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_pooja_phytoconstituents",
+      "type": "monograph",
+      "title": "Pooja, Anil Kumar (2023): A Systemic Review of Tulsi (Ocimum tenuiflorum or Ocimum sanctum): Phytoconstituents, Ethnobotanical and Pharmacological Profile. Research Journal of Pharmacognosy and Phytochemistry. DOI: 10.52711/0975-4385.2023.00028",
+      "url": "https://doi.org/10.52711/0975-4385.2023.00028",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_sharma_comparative",
+      "type": "monograph",
+      "title": "Sharma AD et al. (2022): Comparative phytochemistry, antioxidant, antidiabetic, and anti-inflammatory activities of traditionally used Ocimum basilicum L., Ocimum gratissimum L., and Ocimum tenuiflorum L. BioTechnologia. DOI: 10.5114/bta.2022.116206",
+      "url": "https://doi.org/10.5114/bta.2022.116206",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_yamani_antimicrobial",
+      "type": "monograph",
+      "title": "Yamani HA et al. (2016): Antimicrobial Activity of Tulsi (Ocimum tenuiflorum) Essential Oil and Their Major Constituents against Three Species of Bacteria. Frontiers in Microbiology. DOI: 10.3389/fmicb.2016.00681",
+      "url": "https://doi.org/10.3389/fmicb.2016.00681",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_upadhyay_flavonoids",
+      "type": "monograph",
+      "title": "Upadhyay R et al. (2015): Ultrasound-assisted extraction of flavonoids and phenolic compounds from Ocimum tenuiflorum leaves. Food Science and Biotechnology. DOI: 10.1007/s10068-015-0257-y",
+      "url": "https://doi.org/10.1007/s10068-015-0257-y",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_verma_phytopharmacology",
+      "type": "monograph",
+      "title": "Verma S (2016): Chemical constituents and pharmacological action of Ocimum sanctum (Indian holy basil-Tulsi). The Journal of Phytopharmacology. DOI: 10.31254/phyto.2016.5507",
+      "url": "https://doi.org/10.31254/phyto.2016.5507",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_bokelmann_holy_basil",
+      "type": "monograph",
+      "title": "Bokelmann JM (2022): Holy Basil/Tulsi (Ocimum tenuiflorum/sanctum). In: Medicinal Herbs in Primary Care. Elsevier. DOI: 10.1016/b978-0-323-84676-9.00054-4",
+      "url": "https://doi.org/10.1016/b978-0-323-84676-9.00054-4",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_pfaf_ocimum",
+      "type": "book",
+      "title": "Plants For A Future (PFAF): Ocimum tenuiflorum",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ocimum+tenuiflorum",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_ocimum",
+      "type": "wikipedia",
+      "title": "Wikipedia: Ocimum tenuiflorum",
+      "url": "https://en.wikipedia.org/wiki/Ocimum_tenuiflorum",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "ocimum-tenuiflorum.jpg",
+    "alt": {
+      "de": "Foto von Indisches Basilikum",
+      "en": "Photo of Ocimum tenuiflorum"
+    },
+    "license": "Public domain",
+    "author": "en:User:GourangaUK",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ocimum_tenuiflorum2.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "medicinal",
+      "edible"
+    ],
+    "rooms": [
+      "kitchen",
+      "balcony"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "every_few_days",
+    "difficulty": 2,
+    "pet_safe": true,
+    "soil": {
+      "de": "Lockere Kräutererde",
+      "en": "Loose herb compost"
+    },
+    "pot_size_cm": 18,
+    "tips": {
+      "de": [
+        "Wie normales Basilikum, aber etwas robuster.",
+        "Regelmäßig Spitzen ernten für buschigen Wuchs.",
+        "Mag morgens Wasser, nachmittags Sonne."
+      ],
+      "en": [
+        "Like regular basil but a bit more robust.",
+        "Regularly harvest tips for bushy growth.",
+        "Likes morning water, afternoon sun."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-sativum",
+      "calendula-officinalis"
+    ],
+    "bad_partners": [],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 10
+    },
+    "days_to_harvest": 75,
+    "spacing_cm": 30,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "greenhouse"
+    ],
+    "difficulty": 2
+  },
+  "permaculture_functions": [
+    "aromatic_repellent",
+    "medicinal",
+    "pollinator_attractor"
+  ],
+  "constituents": [
+    {
+      "name": "Eugenol",
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "percent_range": "0.5–3 %",
+      "note": {
+        "de": "Hauptbestandteil des ätherischen Öls im Eugenol-Chemotyp; antimikrobiell, antioxidativ, spasmolytisch und schwach thrombozytenhemmend.",
+        "en": "Main component of the essential oil in the eugenol chemotype; antimicrobial, antioxidant, spasmolytic, and weakly antiplatelet."
+      }
+    },
+    {
+      "name": "Methyl-Eugenol",
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Leitkomponente des Methyl-Eugenol-Chemotyps; insektizid und antimikrobiell. Beide Chemotypen kommen in verschiedenen Tulsi-Populationen vor.",
+        "en": "Key component of the methyl-eugenol chemotype; insecticidal and antimicrobial. Both chemotypes occur in different Tulsi populations."
+      }
+    },
+    {
+      "name": "Ursolic acid",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Pentazyklisches Triterpen; hemmt COX-2 und 5-LOX in vitro (anti-inflammatorisch, analgetisch). Kategorie 'other' da kein eigenes Terpen-Enum im Schema.",
+        "en": "Pentacyclic triterpene; inhibits COX-2 and 5-LOX in vitro (anti-inflammatory, analgesic). Category 'other' as no dedicated triterpene enum exists in schema."
+      }
+    },
+    {
+      "name": "Rosmarinic acid",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Polyphenolische Hydroxyzimtsäure; stark antioxidativ, antiviral und entzündungshemmend durch Hemmung von PGE₂ und LTB₄.",
+        "en": "Polyphenolic hydroxycinnamic acid; strongly antioxidant, antiviral, and anti-inflammatory via inhibition of PGE₂ and LTB₄."
+      }
+    },
+    {
+      "name": "Apigenin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavon mit anxiolytischen, entzündungshemmenden und antioxidativen Eigenschaften; trägt zum adaptogenen Profil bei.",
+        "en": "Flavone with anxiolytic, anti-inflammatory, and antioxidant properties; contributes to the adaptogenic profile."
+      }
+    },
+    {
+      "name": "Orientin und Vicenin",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "C-glykosylierte Flavone in Tulsi-Blättern; strahlenschützend (Radioprotektion) und antioxidativ, in präklinischen Studien untersucht.",
+        "en": "C-glycosylated flavones in Tulsi leaves; radioprotective and antioxidant, investigated in preclinical studies."
+      }
+    },
+    {
+      "name": "β-Caryophyllen",
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Sesquiterpen-Bestandteil des ätherischen Öls; CB2-Rezeptor-Agonist, anti-inflammatorisch und bronchospasmolytisch.",
+        "en": "Sesquiterpene component of the essential oil; CB2 receptor agonist, anti-inflammatory, and bronchospasmolytic."
+      }
+    },
+    {
+      "name": "Kampfer (Campher)",
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "percent_range": "0.1–0.5 %",
+      "note": {
+        "de": "Monoterpen-Keton im ätherischen Öl; schleimlösend und leicht antiseptisch. In hoher Konzentration neurotoxisch — ätherisches Öl nicht intern anwenden.",
+        "en": "Monoterpene ketone in the essential oil; expectorant and mildly antiseptic. Neurotoxic at high concentrations — essential oil must not be used internally."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus, vor der Mittagshitze — höchster Ätherischöl-Gehalt",
+        "en": "Morning after dew has dried, before midday heat — highest essential oil content"
+      },
+      "drying": {
+        "de": "Locker auf Papier oder Sieb bei 30–40 °C (Schatten) trocknen. Blätter nicht übereinanderlegen; Aroma-Verlust bei Temperaturen über 50 °C. Trocknungszeit: 4–7 Tage.",
+        "en": "Spread loosely on paper or rack at 30–40 °C (shade) to dry. Do not stack leaves; aroma loss above 50 °C. Drying time: 4–7 days."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Dunkle, luftdichte Gläser oder Papiertüten; trocken und kühl. Ätherischöl-Verlust durch Licht und Wärme vermeiden.",
+        "en": "Dark, airtight glass jars or paper bags; cool and dry. Avoid essential oil loss from light and heat."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Am frühen Morgen bei beginnendem Aufblühen — Ernte vor vollständiger Blüte sichert höchste Wirkstoffkonzentration.",
+        "en": "Early morning at the start of flowering — harvesting before full bloom ensures highest active compound concentration."
+      },
+      "drying": {
+        "de": "Ganze Triebe kopfüber in Bündeln bei 35–45 °C trocknen. Fertig wenn Stängel bei Druck bricht.",
+        "en": "Dry whole stems upside down in bundles at 35–45 °C. Ready when the stem snaps on pressure."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Kühl, dunkel, trocken in Papiertüten. Kein Plastik — kondensiert Feuchtigkeit und mindert Qualität.",
+        "en": "Cool, dark, dry in paper bags. No plastic — condenses moisture and reduces quality."
+      }
+    }
+  ]
+}

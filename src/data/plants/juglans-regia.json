@@ -1,0 +1,548 @@
+{
+  "slug": "juglans-regia",
+  "names": {
+    "de": "Echte Walnuss",
+    "en": "Juglans regia",
+    "latin": "Juglans regia"
+  },
+  "family": {
+    "de": "Walnussgewächse",
+    "en": "Walnut family",
+    "latin": "Juglandaceae"
+  },
+  "description": {
+    "de": "Die Echte Walnuss oder der Nussbaum ist ein sommergrüner Laubbaum aus der Familie der Walnussgewächse (Juglandaceae). Sie heißt meist umgangssprachlich einfach Walnussbaum oder Walnuss, regional auch Welschnuss oder Baumnuss. Auf Englisch heißt sie Persian walnut, von altenglisch walhnutu, daher auch deutsch gelegentlich Persische Walnuss, dänisch valnød, schwedisch valnöt.",
+    "en": "Juglans regia, known by various common names including the common walnut, English walnut, or Persian walnut amongst other names, is a species of walnut. It is native to Eurasia in at least southwest and central Asia and southeast Europe, but its exact natural area is obscure due to its long history of cultivation."
+  },
+  "teaser": {
+    "de": "Die Echte Walnuss oder der Nussbaum ist ein sommergrüner Laubbaum aus der Familie der Walnussgewächse (Juglandaceae).",
+    "en": "Juglans regia, known by various common names including the common walnut, English walnut, or Persian walnut amongst o..."
+  },
+  "uses": [
+    {
+      "form": "bath",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 25,
+          "max": 50
+        },
+        "water_ml": 1000,
+        "steep_min": 15,
+        "doses_per_day": 1,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "BADEZUSATZ (Kommission E positiv, äußerlich): 25–50 g getrocknete Walnussblätter (Folia Juglandis) mit 1 Liter kochendem Wasser übergießen, 15 Minuten zugedeckt ziehen lassen, abseihen und dem Vollbad (ca. 37–38 °C, 200–250 Liter Wasser) oder Teilbad zugeben. Einwirkzeit: 15–20 Minuten. Anwendungsgebiete laut Kommission E: Leichte, oberflächliche Hautentzündungen und übermäßige Schweißneigung (Hyperhidrose) der Hände und Füße. Täglich oder jeden zweiten Tag anwenden, nicht bei offenen Wunden, Entzündungen mit Infektionsverdacht oder ausgedehnten Hautläsionen ohne ärztliche Abklärung. Der hohe Gerbstoffgehalt (Ellagitannine, Gallotannine) wirkt adstringierend und antimikrobiell.",
+          "en": "BATH ADDITIVE (Kommission E positive, external): Pour 1 litre of boiling water over 25–50 g of dried walnut leaves (Folia Juglandis), steep covered 15 min, strain and add to full bath (~37–38 °C, 200–250 litres) or partial bath. Soak 15–20 min. Indications per Kommission E: mild superficial skin inflammation and excessive sweating (hyperhidrosis) of hands and feet. Use daily or every second day; not on open wounds, infected lesions, or extensive skin conditions without medical assessment. High tannin content (ellagitannins, gallotannins) provides astringent and antimicrobial action."
+        }
+      },
+      "description": {
+        "de": "Äußerlicher Badeaufguss aus getrockneten Walnussblättern — Kommission-E-Monographie (positiv) für milde oberflächliche Hautentzündungen und übermäßige Schweißneigung. Hauptwirkstoffe: Ellagitannine und Gerbstoffe.",
+        "en": "External bath infusion from dried walnut leaves — Kommission E positive monograph for mild superficial skin inflammation and excessive perspiration. Key actives: ellagitannins and tannins."
+      },
+      "source_ids": [
+        "src_kommission_e_juglandis_folium",
+        "src_ema_hmpc_juglandis_folium",
+        "src_escop_juglandis_folium"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 10,
+          "max": 20
+        },
+        "water_ml": 500,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "UMSCHLAG/KOMPRESSE: 10–20 g getrocknete Walnussblätter mit 500 ml kochendem Wasser überbrühen, 15 Minuten ziehen lassen, abseihen und auf Körpertemperatur abkühlen lassen. Sterile Kompresse oder sauberes Leinentuch eintauchen, leicht ausdrücken, auf die betroffene Hautstelle legen. 10–15 Minuten einwirken lassen, 2-mal täglich wiederholen. Traditionelle Anwendung bei leichter Wundpflege (Schürfwunden, Insektenstichen), mild entzündeten Hautstellen und kleinflächigen Ekzemen. Nicht auf tiefe, eitrige oder infiziert erscheinende Wunden anwenden.",
+          "en": "COMPRESS: Pour 500 ml boiling water over 10–20 g dried walnut leaves, steep 15 min, strain, cool to body temperature. Dip sterile compress or clean linen cloth, wring lightly, place on affected skin. Leave 10–15 min, repeat twice daily. Traditional use for minor wound care (abrasions, insect bites), mildly inflamed skin and small-area eczema. Do not apply to deep, purulent or infected-appearing wounds."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Walnussblatt-Umschlag für milde Wundpflege, Insektenstiche und kleinflächige Ekzeme — adstringierende und mäßig antiseptische Gerbstoffwirkung.",
+        "en": "Traditional walnut-leaf compress for minor wound care, insect bites and small-area eczema — astringent and mildly antiseptic tannin action."
+      },
+      "source_ids": [
+        "src_kommission_e_juglandis_folium",
+        "src_wichtl_teedrogen",
+        "src_pfaf_juglans_regia"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "skin",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "INNERLICHER AUFGUSS (traditionell, kurzzeitig): 1,5–3 g getrocknete, zerkleinerte Walnussblätter mit 250 ml kochendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen. Maximal 2 Tassen täglich, nicht länger als 3 Wochen ohne ärztliche Rücksprache. Traditionelle Anwendung bei leichten Verdauungsbeschwerden (Völlegefühl, milde Diarrhoe) und als unterstützende innerliche Behandlung bei Hautreinigung. WICHTIG: Juglon-Gehalt in frischen Blättern höher — nur getrocknete Droge (Folia Juglandis) verwenden. Innerliche Langzeitanwendung wegen Juglon vermeiden. Beim ersten Auftreten von Übelkeit oder Magenbeschwerden absetzen.",
+          "en": "INTERNAL INFUSION (traditional, short-term): 1.5–3 g dried, chopped walnut leaves in 250 ml boiling water, covered, steep 10 min, strain. Max 2 cups daily, not longer than 3 weeks without medical consultation. Traditional use for mild digestive complaints (bloating, mild diarrhoea) and as adjunct internal treatment for skin purification. IMPORTANT: juglone content higher in fresh leaves — use only dried drug (Folia Juglandis). Avoid long-term internal use due to juglone. Discontinue at first signs of nausea or gastric discomfort."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Aufguss aus getrockneten Walnussblättern bei leichten Verdauungsbeschwerden — nur kurzfristig, da Juglon-Gehalt bei Langzeitanwendung bedenklich.",
+        "en": "Traditional infusion of dried walnut leaves for mild digestive complaints — short-term only, as juglone content is concerning with long-term use."
+      },
+      "source_ids": [
+        "src_wichtl_teedrogen",
+        "src_escop_juglandis_folium",
+        "src_pfaf_juglans_regia"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "skin",
+        "digestion"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_ml": {
+          "min": 2,
+          "max": 5
+        },
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "GRÜNE WALNUSSCHALEN-TINKTUR (volksheilkundlich, äußerlich): Unreife, grüne Walnussschalen (Pericarpium Juglandis viride, Juli–August geerntet) in 40–60 % Ethanol ansetzen (Droge-Auszug-Verhältnis 1:5), 4 Wochen dunkel ziehen lassen, filtrieren. Verdünnt (ca. 1:10 mit Wasser) auf betroffene Hautstellen auftragen, 2-mal täglich. Volksheilkundlich bei Pilzinfektionen der Haut (Ringelflechte, Fuß-Tinea), Warzen und übermäßiger Schweißbildung. Achtung: Juglon verfärbt die Haut dunkelbraun (vorübergehend) — Kontakt mit Kleidung und Fingernägeln vermeiden oder Handschuhe tragen. Nicht auf Schleimhäuten oder großflächig anwenden.",
+          "en": "GREEN WALNUT HUSK TINCTURE (folk, external): Immature green walnut husks (Pericarpium Juglandis viride, harvested July–August) macerated in 40–60 % ethanol (DER 1:5), steep in dark 4 weeks, filter. Apply diluted (~1:10 in water) to affected skin, twice daily. Folk use for skin fungal infections (ringworm, tinea pedis), warts and excessive sweating. Caution: juglone stains skin dark brown (temporary) — avoid contact with clothing and nails or wear gloves. Do not apply on mucous membranes or large areas."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Tinktur aus grünen Walnussschalen — äußerlich bei Hautpilz, Warzen und Schweißneigung; Juglon färbt Haut braun (temporär).",
+        "en": "Folk tincture from green walnut husks — external use for skin fungi, warts and excessive sweating; juglone stains skin brown (temporary)."
+      },
+      "source_ids": [
+        "src_pfaf_juglans_regia",
+        "src_madaus_juglans",
+        "src_wp_de_walnuss"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "circulation",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 28,
+          "max": 42
+        },
+        "doses_per_day": 1,
+        "instructions": {
+          "de": "NUSS ALS LEBENSMITTEL (ernährungsmedizinisch belegt): 30–42 g (ca. eine Handvoll, etwa 7–10 Nusshälften) täglich in roher oder leicht gerösteter Form — ohne Salz oder Zucker. Bevorzugt morgens oder zwischen den Mahlzeiten. Die EFSA hat gesundheitsbezogene Angaben (Health Claims) für Walnüsse in Bezug auf den Gehalt an Alpha-Linolensäure (ALA, omega-3) und normale Blutfettwerte zugelassen (EU-Verordnung 432/2012). Klinische Studien zeigen Beitrag zur Aufrechterhaltung normaler Blutcholesterin-Spiegel (LDL-Senkung ~5–15 %), vaskuläre Endothelfunktion und antioxidativer Status. Enthält Melatonin (schlaffördernde Wirkung bei abendlichem Verzehr diskutiert). Gesamtfettgehalt sehr hoch (~65 g/100 g) — Kaloriendichte berücksichtigen.",
+          "en": "WALNUT AS FOOD (evidence-based nutrition): 30–42 g (approx. one handful, ~7–10 halves) daily, raw or lightly roasted, unsalted, unsweetened. Prefer morning or between meals. EFSA approved health claims for walnuts regarding alpha-linolenic acid (ALA, omega-3) and maintenance of normal blood cholesterol levels (EU Regulation 432/2012). Clinical trials show contribution to normal LDL-cholesterol levels (~5–15 % reduction), vascular endothelial function and antioxidant status. Contains melatonin (sleep-promoting effect of evening intake discussed). Total fat content very high (~65 g/100 g) — consider caloric density."
+        }
+      },
+      "description": {
+        "de": "Walnüsse als Lebensmittel — EFSA-anerkannte Wirkung auf Blutfettwerte (ALA/omega-3); klinische Evidenz für LDL-Senkung, Endothelfunktion und antioxidativen Status.",
+        "en": "Walnut as food — EFSA-recognised effect on blood lipid levels (ALA/omega-3); clinical evidence for LDL reduction, endothelial function and antioxidant status."
+      },
+      "source_ids": [
+        "src_efsa_walnuts_ala",
+        "src_who_nuts_review",
+        "src_wp_en_walnut"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 8,
+        "doses_per_day": 1,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "VOLKSHEILKUNDLICHER BITTERTEE (kurzfristig): 1–2 TL getrocknete Walnussblätter mit 200 ml kochendem Wasser übergießen, 8 Minuten ziehen lassen, abseihen. 1 Tasse täglich (bevorzugt vor den Mahlzeiten). Volkstümliche Tradition bei träger Verdauung, Gallenbeschwerden und als 'Blutreinigungsmittel'. Bitter-adstringierende Wirkung durch Juglon, Gerbstoffe und Bitterstoffe. Anwendungsdauer streng begrenzen — maximal 2 Wochen; danach mindestens 4 Wochen Pause. Nicht innerlich bei Kindern unter 12 Jahren.",
+          "en": "FOLK BITTER TEA (short-term): 1–2 tsp dried walnut leaves in 200 ml boiling water, steep 8 min, strain. 1 cup daily (preferably before meals). Folk tradition for sluggish digestion, biliary complaints and as 'blood purifier'. Bitter-astringent action from juglone, tannins and bitter principles. Strictly limit use to 2 weeks max; then at least 4 weeks break. Not for internal use in children under 12."
+        }
+      },
+      "description": {
+        "de": "Volkstümlicher Bittertee aus Walnussblättern bei träger Verdauung und Gallebeschwerden — streng kurzfristig wegen Juglon-Gehalt.",
+        "en": "Folk bitter tea from walnut leaves for sluggish digestion and biliary complaints — strictly short-term due to juglone content."
+      },
+      "source_ids": [
+        "src_madaus_juglans",
+        "src_pfaf_juglans_regia",
+        "src_wp_de_walnuss"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "KÜCHE UND WALNUSSÖL: Vollreife, getrocknete Walnüsse vielseitig einsetzbar — roh als Snack, zerkleinert in Brot, Salaten, Pesto, Müsli und Desserts. Kalt gepresstes Walnussöl (reich an ALA/Omega-3 und Vitamin E) als Salatöl oder zur Nachgeschmackgebung (nicht zum Hocherhitzen geeignet, Rauchpunkt ~160 °C). Walnussöl kühl und dunkel lagern — wegen hohem PUFA-Anteil sehr oxidationsempfindlich, innerhalb 2–3 Monate verbrauchen. Getrocknete Nüsse in verschlossenen Behältern kühl (< 15 °C) lagern; hält bis zu 1 Jahr bei optimalen Bedingungen. Grüne unreife Nüsse werden traditionell zu Nusslikör (Nocino/Walnussgeist) verarbeitet: in 40–50 % Alkohol mit Gewürzen 6–8 Wochen angesetzt.",
+          "en": "KITCHEN AND WALNUT OIL: Fully ripe dried walnuts are versatile — raw as snack, chopped in bread, salads, pesto, muesli and desserts. Cold-pressed walnut oil (rich in ALA/omega-3 and vitamin E) as salad oil or finishing drizzle (not suitable for high-heat cooking, smoke point ~160 °C). Store walnut oil cool and dark — highly oxidation-sensitive due to high PUFA content, use within 2–3 months. Store dried nuts cool (< 15 °C) in closed containers; up to 1 year under optimal conditions. Unripe green walnuts traditionally made into nut liqueur (Nocino/Walnussgeist): macerated in 40–50 % alcohol with spices for 6–8 weeks."
+        }
+      },
+      "description": {
+        "de": "Walnüsse und kalt gepresstes Walnussöl als Lebensmittel — hoher ALA/Omega-3- und Vitamin-E-Gehalt; Nusslikör (Nocino) aus unreifen Nüssen als volkstümliche Spezialität.",
+        "en": "Walnuts and cold-pressed walnut oil as food — high ALA/omega-3 and vitamin E content; nut liqueur (Nocino) from green walnuts as traditional folk specialty."
+      },
+      "source_ids": [
+        "src_wp_en_walnut",
+        "src_wp_de_walnuss",
+        "src_pfaf_juglans_regia"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Blätter (Sommer), reife Nüsse (Herbst)",
+      "en": "leaves (summer), ripe nuts (autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WALNUSSBLÄTTER (Folia Juglandis): Äußerlich — laut Kommission E unbedenklich für kurzzeitige Anwendung. Innerlich — wegen Juglon-Gehalt (phenolisches Naphthochinon) auf Kurzzeitanwendung beschränken (max. 2–3 Wochen); Langzeitanwendung kann lebertoxisch wirken und Schleimhäute reizen. NUSSALLERGIE: Walnüsse gehören zu den häufigsten Auslösern schwerer IgE-vermittelter Nahrungsmittelallergien (EU-Kennzeichnungspflicht — 'Enthält Schalenfrüchte'). Bei bekannter Baumschalenfruchtallergie alle Präparate aus Walnüssen meiden. Grüne Walnussschalen und Blätter: Juglon ist phytotoxisch und kann Kontaktdermatitis auslösen — Hautkontakt bei empfindlichen Personen vermeiden; Einweghandschuhe tragen beim Sammeln. KERNÖL: Wegen hohem PUFA-Gehalt schnell ranzig — ranziges Öl enthält Lipidperoxide, die oxidativen Stress erhöhen können; nicht verwenden.",
+      "en": "WALNUT LEAVES (Folia Juglandis): External — considered safe for short-term use per Kommission E. Internal — restrict to short-term use (max 2–3 weeks) due to juglone content (phenolic naphthoquinone); long-term use may be hepatotoxic and irritate mucous membranes. NUT ALLERGY: Walnuts are among the most common triggers of severe IgE-mediated food allergies (EU labelling mandatory — 'Contains tree nuts'). Avoid all walnut preparations with known tree nut allergy. Green walnut husks and leaves: juglone is phytotoxic and can cause contact dermatitis — avoid skin contact in sensitive individuals; wear disposable gloves when harvesting. KERNEL OIL: High PUFA content means rapid rancidity — rancid oil contains lipid peroxides that may increase oxidative stress; do not use rancid oil."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Walnusskerne als Lebensmittel in üblichen Mengen gelten als unbedenklich. Walnussblätter-Zubereitungen (Tee, Tinktur) in therapeutischen Dosen wegen fehlender Sicherheitsdaten in der Schwangerschaft meiden — Juglon hat in Tierversuchen mutagene Eigenschaften gezeigt. Äußerliche Bäder mit Walnussblättern: keine gesicherten Daten, kurzzeitige Anwendung wahrscheinlich risikoarm, aber Vorsicht geboten.",
+        "en": "Walnut kernels as food in usual amounts are considered safe. Walnut leaf preparations (tea, tincture) in therapeutic doses should be avoided in pregnancy due to lack of safety data — juglone has shown mutagenic properties in animal studies. External baths with walnut leaves: no reliable data; short-term use probably low-risk but caution advised."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Walnusskerne als Lebensmittel unbedenklich. Therapeutische Walnussblatt-Zubereitungen (innerlich) wegen Juglon in der Stillzeit meiden — mögliche Übertragung auf den Säugling. Äußerliche Anwendung (Bad, Kompresse) bei intakter Haut und lokaler Begrenzung wahrscheinlich unbedenklich.",
+        "en": "Walnut kernels as food: safe. Therapeutic walnut leaf preparations (internal) should be avoided during lactation due to juglone — possible transfer to infant. External use (bath, compress) on intact skin and limited area is probably safe."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Walnüsse als Lebensmittel: Ganzen Nüssen oder groben Stücken bei Kleinkindern unter 4 Jahren wegen Verschluckungsgefahr vermeiden; gemahlen oder als Mus ab Beikosteinführung grundsätzlich möglich (Allergie-Monitoring beachten). Therapeutische Walnussblatt-Zubereitungen (innerlich) für Kinder unter 12 Jahren nicht empfohlen — keine Sicherheitsdaten, Juglon-Risiko. Äußerliche Anwendung (Bad) bei Kindern ab Schulalter mit Hautproblemen traditionell üblich; sorgfältig auf Verträglichkeit beobachten.",
+        "en": "Walnuts as food: whole nuts or coarse pieces — avoid for children under 4 due to choking hazard; ground or as paste generally possible from weaning (monitor for allergy). Internal walnut leaf preparations not recommended for children under 12 — no safety data, juglone risk. External use (bath) in school-age children with skin problems traditionally common; monitor tolerance carefully."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit oder Allergie gegen Walnüsse oder andere Baumschalenfrüchte (Schalenfruchtallergie — IgE-vermittelt, anaphylaxierisiko).",
+        "en": "Known hypersensitivity or allergy to walnuts or other tree nuts (tree nut allergy — IgE-mediated, anaphylaxis risk)."
+      },
+      {
+        "de": "Innerliche Anwendung von Walnussblätter-Zubereitungen bei bekannter Lebererkrankung (Juglon-Hepatotoxizität).",
+        "en": "Internal use of walnut leaf preparations in known liver disease (juglone hepatotoxicity)."
+      },
+      {
+        "de": "Innerliche Anwendung von Walnussblätter-Präparaten über mehr als 3 Wochen ohne ärztliche Überwachung.",
+        "en": "Internal use of walnut leaf preparations for more than 3 weeks without medical supervision."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (therapeutische Walnussblatt-Dosen innerlich — mangels Daten und wegen Juglon meiden).",
+        "en": "Pregnancy and lactation (internal therapeutic walnut leaf doses — avoid due to lack of data and juglone)."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulantien / Cumarine (Warfarin, Phenprocoumon)",
+        "mechanism": {
+          "de": "Walnusskerne enthalten nennenswerte Mengen Vitamin K (ca. 2,7 µg/100 g) — in üblichen Nahrungsmengen nicht relevant. Sehr hoher regelmäßiger Walnusskonsum (> 100 g täglich) könnte bei Vitamin-K-sensitiven Patienten den INR beeinflussen. Außerdem hemmen Walnuss-Polyphenole (Ellagitannine) CYP2C9 in vitro — theoretische Hemmung des Warfarin-Abbaus. INR-Monitoring empfohlen bei starkem und plötzlichem Änderung des Walnusskonsums.",
+          "en": "Walnut kernels contain notable vitamin K (~2.7 µg/100 g) — not relevant at usual dietary amounts. Very high regular walnut consumption (> 100 g daily) could affect INR in vitamin-K-sensitive patients. Additionally, walnut polyphenols (ellagitannins) inhibit CYP2C9 in vitro — theoretical inhibition of warfarin metabolism. INR monitoring recommended with major sudden changes in walnut intake."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_juglandis_folium"
+      },
+      {
+        "drug_class": "Schilddrüsenmedikamente (Levothyroxin, Thyroxin)",
+        "mechanism": {
+          "de": "Walnüsse enthalten Tannine und Ballaststoffe, die die Resorption von Levothyroxin im Dünndarm reduzieren können. Walnüsse nicht gleichzeitig mit Schilddrüsenhormonen einnehmen — mindestens 4 Stunden Abstand einhalten.",
+          "en": "Walnuts contain tannins and dietary fibre that can reduce levothyroxine absorption in the small intestine. Do not take walnuts simultaneously with thyroid hormones — maintain at least 4 hours separation."
+        },
+        "severity": "caution",
+        "source_id": "src_wp_en_walnut"
+      },
+      {
+        "drug_class": "Eisenpräparate und andere Mineralstoff-Supplemente",
+        "mechanism": {
+          "de": "Gerbstoffe (Ellagitannine, Gallotannine) in Walnussblättern und -kernen können die Absorption von Eisen, Zink und anderen zweiwertigen Kationen durch Komplexbildung reduzieren. Eisenpräparate und Walnussblatt-Tee nicht gleichzeitig einnehmen — 2 Stunden Abstand.",
+          "en": "Tannins (ellagitannins, gallotannins) in walnut leaves and kernels can reduce absorption of iron, zinc and other divalent cations by complexation. Do not take iron supplements and walnut leaf tea simultaneously — 2 hours separation."
+        },
+        "severity": "monitor",
+        "source_id": "src_wichtl_teedrogen"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echte Walnuss (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echte_Walnuss",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Juglans regia (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Juglans_regia",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_kommission_e_juglandis_folium",
+      "type": "monograph",
+      "title": "Kommission E — Juglandis folium (Walnussblätter), Monographie (positiv), BAnz Nr. 43, 02.03.1989",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/juglandis-folium.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_ema_hmpc_juglandis_folium",
+      "type": "monograph",
+      "title": "EMA/HMPC — Community herbal monograph on Juglans regia L., folium (EMA/HMPC/289430/2009, Final 2010)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/juglandis-folium",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_juglandis_folium",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Juglandis Folium (Walnut Leaf), 2nd edition supplement",
+      "url": "https://escop.com/downloads/walnut-leaf/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_teedrogen",
+      "type": "book",
+      "title": "Wichtl, Max (Hrsg.) — Teedrogen und Phytopharmaka, 5. Auflage. Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009. Artikel: Juglandis folium.",
+      "url": "https://www.wissenschaftliche.de/buch/teedrogen-und-phytopharmaka",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_juglans",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band II: Juglans regia (Walnuss), 1938 (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/juglans-regia.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_juglans_regia",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Juglans regia database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Juglans+regia",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_efsa_walnuts_ala",
+      "type": "monograph",
+      "title": "EFSA Panel on Dietetic Products — Scientific Opinion on the substantiation of health claims related to walnuts and maintenance of normal blood LDL-cholesterol concentrations (ID 1156, 1158) pursuant to Article 13(1) of Regulation (EC) No 1924/2006. EFSA Journal 2011;9(4):2074.",
+      "url": "https://doi.org/10.2903/j.efsa.2011.2074",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_who_nuts_review",
+      "type": "monograph",
+      "title": "Ros, Emilio — Health Benefits of Nut Consumption. Nutrients 2010, 2(7), 652–682. (WHO-listed evidence review)",
+      "url": "https://doi.org/10.3390/nu2070652",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_walnuss",
+      "type": "wikipedia",
+      "title": "Echte Walnuss (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echte_Walnuss",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_walnut",
+      "type": "wikipedia",
+      "title": "Juglans regia (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Juglans_regia",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "juglans-regia.jpg",
+    "alt": {
+      "de": "Foto von Echte Walnuss",
+      "en": "Photo of Juglans regia"
+    },
+    "license": "Public domain",
+    "author": "Brandt, Wilhelm; Gürke, M.; Köhler, F. E.; Pabst, G.; Schellenberg, G.; Vogtherr, Max.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6hler%27s_Medizinal-Pflanzen_in_naturgetreuen_Abbildungen_mit_kurz_erl%C3%A4uterndem_Texte_(Plate_4)_BHL303568.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Juglon (5-Hydroxy-1,4-naphthochinon)",
+      "category": "other",
+      "percent_range": "0.1-1 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Kennzeichnende Leitsubstanz der Gattung Juglans. Phenolisches Naphthochinon mit antibakterieller, antifungaler und antiparasitärer Wirkung — trägt zur volksmedizinisch belegten Wirkung gegen Hautpilze bei. In hohen Dosen zytotoxisch und hepatotoxisch; phytotoxisch gegenüber vielen Pflanzenarten (Allelopathie). In frischen Blättern und grünen Schalen höher konzentriert als in getrockneter Droge. Verantwortlich für die braune Hautverfärbung bei Kontakt.",
+        "en": "Characteristic lead compound of the genus Juglans. Phenolic naphthoquinone with antibacterial, antifungal and antiparasitic activity — contributes to folk-documented action against skin fungi. Cytotoxic and hepatotoxic in high doses; phytotoxic to many plant species (allelopathy). Higher concentration in fresh leaves and green husks than in dried drug. Responsible for brown skin staining on contact."
+      }
+    },
+    {
+      "name": "Ellagitannine (Tellimagrandin I und II, Juglanin, Casuarinin)",
+      "category": "tannin",
+      "percent_range": "2-4 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hydrolysierbare Gerbstoffe als mengenmäßig dominierende Inhaltstoffe der Blätter. Stark adstringierend, antimikrobiell und entzündungshemmend — Hauptwirkstoffe der Kommission-E-anerkannten äußerlichen Anwendung bei Hautentzündungen und Hyperhidrose. Hydrolysierbar im Darm zu Ellagsäure und Gallussäure.",
+        "en": "Hydrolysable tannins as quantitatively dominant constituents of the leaves. Strongly astringent, antimicrobial and anti-inflammatory — primary actives behind the Kommission E-recognised external use for skin inflammation and hyperhidrosis. Hydrolysable in the gut to ellagic acid and gallic acid."
+      }
+    },
+    {
+      "name": "Alpha-Linolensäure (ALA, C18:3 omega-3)",
+      "category": "other",
+      "percent_range": "8-14 % (im Kernöl: ca. 13 % der Fettsäuren)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Pflanzliche Omega-3-Fettsäure — Walnüsse sind eine der reichsten pflanzlichen ALA-Quellen. EFSA-Health-Claim anerkannt: 'ALA trägt zur Aufrechterhaltung eines normalen Blutcholesterinspiegels bei' (bei täglicher Aufnahme von 2 g ALA, entspricht ca. 7–10 Walnusshälften). Präkursor für langkettige Omega-3-Fettsäuren EPA und DHA (Konversionsrate beim Menschen begrenzt: ca. 5–15 % zu EPA, < 1 % zu DHA).",
+        "en": "Plant-based omega-3 fatty acid — walnuts are one of the richest plant sources of ALA. EFSA health claim approved: 'ALA contributes to the maintenance of normal blood cholesterol levels' (at 2 g ALA daily intake, equivalent to ~7–10 walnut halves). Precursor to long-chain omega-3 fatty acids EPA and DHA (human conversion rate limited: ~5–15 % to EPA, < 1 % to DHA)."
+      }
+    },
+    {
+      "name": "Linolsäure (LA, C18:2 omega-6)",
+      "category": "other",
+      "percent_range": "38-48 % (Hauptfettsäure im Kernöl)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Essentielle Omega-6-Fettsäure als Hauptfettsäure des Walnussöls. In Kombination mit ALA ergibt sich ein günstiges omega-6:omega-3-Verhältnis (~4:1) — günstiger als bei den meisten anderen Pflanzenölen. Beiträgt zu normalen Blutfettwerten und Zellmembranintegrität.",
+        "en": "Essential omega-6 fatty acid as main fatty acid of walnut oil. Combined with ALA, yields a favourable omega-6:omega-3 ratio (~4:1) — better than most other vegetable oils. Contributes to normal blood lipid levels and cell membrane integrity."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin, Kämpferol, Myricetin, Naringenin)",
+      "category": "flavonoid",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavonole und Flavanone in den Blättern; Quercetin und Kämpferol als Hauptvertreter. Antioxidativ, entzündungshemmend; ergänzen die adstringierende Gerbstoffwirkung. In den Kernen hauptsächlich als Peduncagin und Glansrin (Ellagitannin-Derivate).",
+        "en": "Flavonols and flavanones in the leaves; quercetin and kaempferol as main representatives. Antioxidant, anti-inflammatory; complement the astringent tannin action. In the kernels mainly as pedunculagin and glansrin (ellagitannin derivatives)."
+      }
+    },
+    {
+      "name": "Vitamin E (alpha-Tocopherol)",
+      "category": "vitamin",
+      "percent_range": "0.7-2 mg/100 g Frischgewicht Kern",
+      "plant_part": "seed",
+      "note": {
+        "de": "Fettlösliches Antioxidans — schützt die mehrfach ungesättigten Fettsäuren im Walnussöl vor Oxidation. Tägl. Verzehr von 30 g Walnüssen deckt ca. 5–10 % des Tagesbedarfs. Im kalt gepressten Walnussöl höher konzentriert (ca. 20 mg/100 ml).",
+        "en": "Fat-soluble antioxidant — protects polyunsaturated fatty acids in walnut oil from oxidation. Daily intake of 30 g walnuts covers approx. 5–10 % of daily requirement. Higher concentration in cold-pressed walnut oil (~20 mg/100 ml)."
+      }
+    },
+    {
+      "name": "Melatonin",
+      "category": "other",
+      "percent_range": "3.5-4.5 ng/g Frischgewicht Kern",
+      "plant_part": "seed",
+      "note": {
+        "de": "Neurohormone auch in pflanzlichen Geweben nachgewiesen. Walnüsse gehören zu den melatoninreichsten Nahrungsmitteln; in Humanstudien wurde gezeigt, dass Walnussverzehr die ORAC-Kapazität des Blutes und Melatonin-Serumwerte erhöht. Mögliche Beeinflussung des circadianen Rhythmus bei abendlichem Verzehr — klinische Bedeutung noch nicht abschließend belegt.",
+        "en": "Neurohormone also found in plant tissues. Walnuts are among the melatonin-richest foods; human studies have shown walnut consumption increases blood ORAC capacity and serum melatonin levels. Possible influence on circadian rhythm with evening consumption — clinical significance not yet conclusively established."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Ellagsäure, Gallussäure, Chlorogensäure)",
+      "category": "phenolic_acid",
+      "percent_range": "0.2-0.8 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hydrolyseprodukte der Ellagitannine sowie freie phenolische Säuren. Ellagsäure wird nach Aufnahme von Ellagitanninen im Darm freigesetzt und weiter zu Urolithinen (durch Darmbakterien) metabolisiert — Urolithin A zeigt in Studien antioxidative und mäßig entzündungshemmende Eigenschaften. Gallussäure antimikrobiell und antioxidativ.",
+        "en": "Hydrolysis products of ellagitannins plus free phenolic acids. Ellagic acid is released in the gut from ellagitannins and further metabolised to urolithins (by gut bacteria) — urolithin A shows antioxidant and moderately anti-inflammatory properties in studies. Gallic acid: antimicrobial and antioxidant."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Trockener, sonniger Vormittag (9–12 Uhr), nachdem der Morgentau vollständig abgetrocknet ist. Juglon-Gehalt ist im frischen Blatt am höchsten — Einmalhandschuhe oder Stoff-Schutzhandschuhe tragen, da Juglon Hände dauerhaft braun färbt.",
+        "en": "Dry, sunny morning (9–12), once morning dew has fully evaporated. Juglone content is highest in fresh leaves — wear disposable or protective gloves as juglone stains hands brown."
+      },
+      "drying": {
+        "de": "Junge, vollständig entfaltete Blätter aus dem mittleren Kronendrittel ernten — keine kranken, beschädigten oder von Gallen befallenen Blätter. Blätter einzeln (nicht übereinander häufen) auf Sieben oder Papier ausbreiten und im Schatten bei Raumtemperatur (max. 40 °C) trocknen — Hitze oder direkte Sonne zerstört Gerbstoffe und erhöht Juglon-Zersetzung. Trocknungszeit: 5–10 Tage je nach Luftfeuchtigkeit, bis die Blätter knistern. Getrocknete Droge (Folia Juglandis) in Papiertüten oder Leinensäcken, luftig und dunkel, maximal 1 Jahr lagern. Vor Kontakt mit feuchter Luft schützen — Gerbstoffe hydrolysieren und Wirkstoffgehalt nimmt ab.",
+        "en": "Harvest young, fully expanded leaves from the middle third of the crown — no diseased, damaged or gall-infested leaves. Spread singly (do not pile) on screens or paper and dry in shade at room temperature (max. 40 °C) — heat or direct sun destroys tannins and increases juglone decomposition. Drying time: 5–10 days depending on humidity until leaves crackle. Store dried drug (Folia Juglandis) in paper bags or linen sacks, airy and dark, max. 1 year. Protect from humid air — tannins hydrolyse and potency decreases."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In Papiertüten oder Leinensäcken, luftig, dunkel und trocken (< 12 % Restfeuchte). Nicht in Plastikbeutel — Kondenswasser fördert Schimmel und Gerbstoff-Hydrolyse. Innerhalb 1 Jahr verbrauchen.",
+        "en": "In paper bags or linen sacks, airy, dark and dry (< 12 % residual moisture). Not in plastic bags — condensation promotes mould and tannin hydrolysis. Use within 1 year."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Trockenem Herbsttag (September–Oktober) nach natürlichem Herunterfallen oder leichtem Schütteln des Baums. Nüsse mit grüner Außenschale (für Nussgeist/Nocino: Juli, unreif) oder vollreif mit sich spaltender brauner Schale ernten. Grüne Schalen nur mit Einmalhandschuhen verarbeiten — Juglon-Verfärbung dauerhaft.",
+        "en": "Dry autumn day (September–October) after natural drop or light shaking of the tree. Harvest nuts with green outer husk (for walnut spirit/Nocino: July, unripe) or fully ripe with splitting brown husk. Process green husks only with disposable gloves — juglone staining is permanent."
+      },
+      "drying": {
+        "de": "Reife Nüsse: Grüne Außenschale entfernen (Handschuhe!), Nüsse waschen und in dünner Schicht 2–4 Wochen an luftigem, kühlem Ort (Scheune, überdachter Außenbereich, kein direkter Frost) nachtrocknen lassen, bis die Schale vollständig trocken klingt (Schütteln: kein Klappern = noch zu feucht). Danach in Netzen oder Holzkisten kühl und trocken lagern. Unreife Nüsse (Juli): sofort zu Tinktur oder Nussgeist verarbeiten — nicht trocknen.",
+        "en": "Ripe nuts: remove green outer husk (gloves!), wash, spread in thin layer in airy, cool location (barn, covered outdoor area, no direct frost) to dry 2–4 weeks until shell sounds completely dry when shaken (rattling = still too moist). Then store in nets or wooden crates, cool and dry. Unripe nuts (July): process immediately into tincture or walnut spirit — do not dry."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In Schale: kühl (< 15 °C), luftig, dunkel — bis 12 Monate. Geknackt, ungekühlt: schnell ranzig (max. 4 Wochen bei Raumtemperatur). Geknackt, im Kühlschrank: 3–6 Monate. Eingefroren: bis 12 Monate (Qualitätsverlust minimal). Walnussöl: dunkel, kühl, dicht verschlossen — 2–3 Monate nach Öffnung.",
+        "en": "In shell: cool (< 15 °C), airy, dark — up to 12 months. Shelled, unrefrigerated: quickly rancid (max. 4 weeks at room temperature). Shelled, refrigerated: 3–6 months. Frozen: up to 12 months (minimal quality loss). Walnut oil: dark, cool, tightly closed — 2–3 months after opening."
+      }
+    }
+  ]
+}

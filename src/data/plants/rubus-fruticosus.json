@@ -1,0 +1,384 @@
+{
+  "slug": "rubus-fruticosus",
+  "names": {
+    "de": "Brombeeren",
+    "en": "Rubus fruticosus",
+    "latin": "Rubus fruticosus"
+  },
+  "family": {
+    "de": "Rosengewächse",
+    "en": "Rose family",
+    "latin": "Rosaceae"
+  },
+  "description": {
+    "de": "Die Brombeeren sind eine Sektion aus der umfangreichen und weltweit verbreiteten Pflanzengattung Rubus innerhalb der Familie der Rosengewächse (Rosaceae). Die Sektion umfasst mehrere tausend Arten, allein in Europa wurden mehr als 2000 Arten beschrieben. Die Früchte werden als Obst verwendet.",
+    "en": "Rubus fruticosus L. is the ambiguous name of a European blackberry species in the genus Rubus. The name has been interpreted in several ways:The species represented by the type specimen of Rubus fruticosus L., which is also the type specimen of the genus Rubus."
+  },
+  "teaser": {
+    "de": "Die Brombeeren sind eine Sektion aus der umfangreichen und weltweit verbreiteten Pflanzengattung Rubus innerhalb der ...",
+    "en": "Rubus fruticosus L."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Brombeerblättertee bei unspezifischen, akuten Durchfallerkrankungen. Die deutsche Kommission E hat eine Positivmonographie für Rubi fruticosi folium ausgestellt: Tagesdosis 4,5 g Droge als Aufguss.",
+        "en": "Blackberry leaf tea for non-specific, acute diarrhoeal diseases. The German Commission E issued a positive monograph for Rubi fruticosi folium: daily dose 4.5 g drug as infusion."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 4.5
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "3–4,5 g getrocknete junge Blätter (erste Maihälfte geerntet) mit 200 ml kochendem Wasser überbrühen, 10 Minuten ziehen lassen, abseihen. Täglich bis zu 3 Tassen.",
+          "en": "Pour 200 ml of boiling water over 3–4.5 g of dried young leaves (harvested in the first half of May), steep 10 minutes, strain. Up to 3 cups daily."
+        }
+      },
+      "source_ids": [
+        "src_komm_e_rubus",
+        "src_wp_de_rubus",
+        "src_altmeyers_rubus"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Abgekühlter Blätteraufguss als Mundspülung oder Gargelwasser bei leichten Entzündungen der Mund- und Rachenschleimhaut. Kommission-E-Indikation (äußerliche Anwendung).",
+        "en": "Cooled leaf infusion as mouthwash or gargle for mild inflammation of the oral and pharyngeal mucosa. Commission E indication (external use)."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "instructions": {
+          "de": "Aufguss wie beim Tee bereiten, auf Körpertemperatur abkühlen und mehrmals täglich gurgeln.",
+          "en": "Prepare infusion as for tea, cool to body temperature and gargle several times daily."
+        }
+      },
+      "source_ids": [
+        "src_komm_e_rubus",
+        "src_altmeyers_rubus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Äußerlich bei chronischen Hauterkrankungen und schlecht heilenden Wunden. Der hohe Ellagitanningehalt (bis 25 mg/g Trockengewicht) gilt als Grundlage der wundzusammenziehenden Wirkung.",
+        "en": "External use for chronic skin conditions and poorly healing wounds. The high ellagitannin content (up to 25 mg/g dry weight) is considered the basis for the astringent wound-healing effect."
+      },
+      "source_ids": [
+        "src_wp_de_rubus",
+        "src_pmc_rubus_review"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische Brombeeren als Lebensmittel reich an Cyanidin-3-O-glucosid (> 90 % der Anthocyane), Ellagsäure, Quercetin und Vitamin C. Traditionell bei Erschöpfungszuständen und als natürliches Stärkungsmittel gegessen.",
+        "en": "Fresh blackberries as food are rich in cyanidin-3-O-glucoside (> 90% of anthocyanins), ellagic acid, quercetin and vitamin C. Traditionally eaten for exhaustion and as a natural tonic."
+      },
+      "source_ids": [
+        "src_pmc_rubus_review",
+        "src_wp_en_rubus"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Auflage aus frischen oder gequetschten Brombeerblättern auf Ekzemen, Schürfwunden und Abszessen. Volksheilkundlich überliefert; adstringierende Gerbstoffe und antimikrobielle Flavonoide wirken zusammen.",
+        "en": "Poultice of fresh or bruised blackberry leaves applied to eczema, abrasions and abscesses. Recorded in folk medicine; astringent tannins and antimicrobial flavonoids act synergistically."
+      },
+      "source_ids": [
+        "src_pmc_rubus_review",
+        "src_pfaf_rubus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Blättertee volksheilkundlich als mildes Diuretikum und bei Blasenbeschwerden eingesetzt. PFAF dokumentiert diuretische und depurative Eigenschaften der Blätter und Wurzelrinde.",
+        "en": "Leaf tea used in folk medicine as a mild diuretic and for bladder complaints. PFAF documents diuretic and depurative properties of leaves and root bark."
+      },
+      "source_ids": [
+        "src_pfaf_rubus"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7
+    ],
+    "harvest_part": {
+      "de": "junge Blätter",
+      "en": "young leaves"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bei üblicher Anwendung sehr gut verträglich. Brombeertee kann laut Kommission E auch als Haustee dauerhaft getrunken werden.",
+      "en": "Very well tolerated with normal use. According to Commission E, blackberry leaf tea may also be consumed long-term as a household tea."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Daten für medizinische Blätteranwendung in der Schwangerschaft. Früchte als Lebensmittel unbedenklich.",
+        "en": "Insufficient data for medicinal leaf use during pregnancy. Fruit as food is safe."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine systematischen Daten zur Sicherheit in der Stillzeit.",
+        "en": "No systematic safety data during breastfeeding."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Früchte und Blättertee in lebensmittelüblichen Mengen auch für Kinder unbedenklich.",
+        "en": "Fruits and leaf tea in food-customary amounts are safe for children as well."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Rosaceae.",
+        "en": "Known hypersensitivity to Rosaceae."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Brombeeren (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Brombeeren",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Rubus fruticosus (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Rubus_fruticosus",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_komm_e_rubus",
+      "type": "monograph",
+      "title": "Kommission E Monographie – Rubi fruticosi folium (Brombeerblätter) – Altmeyers Enzyklopädie",
+      "url": "https://www.altmeyers.org/en/naturopathy/rubi-fruticosi-folium-143532",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_rubus",
+      "type": "wikipedia",
+      "title": "Brombeeren (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Brombeeren",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_en_rubus",
+      "type": "wikipedia",
+      "title": "Rubus fruticosus (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Rubus_fruticosus",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_rubus",
+      "type": "book",
+      "title": "Plants For A Future – Rubus fruticosus",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Rubus+fruticosus",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pmc_rubus_review",
+      "type": "monograph",
+      "title": "Rubus fruticosus: Constituents, Biological Activities and Health Related Uses – PMC6271759",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6271759/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pmc_berry_leaves",
+      "type": "monograph",
+      "title": "Berry Leaves: An Alternative Source of Bioactive Natural Products – PMC4931538",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4931538/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_altmeyers_rubus",
+      "type": "monograph",
+      "title": "Rubi fruticosi folium – Altmeyers Enzyklopädie Phytotherapie (Kommission-E-Angaben)",
+      "url": "https://www.altmeyers.org/en/naturopathy/rubi-fruticosi-folium-143532",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "rubus-fruticosus.jpg",
+    "alt": {
+      "de": "Foto von Brombeeren",
+      "en": "Photo of Rubus fruticosus"
+    },
+    "license": "CC BY-SA 3.0 de",
+    "author": "Sven Teschke",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brombeere_0815-23.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Ellagitannine (Sanguiin H-6, Lambertianin C)",
+      "category": "tannin",
+      "plant_part": "leaf",
+      "percent_range": "5-25 %",
+      "note": {
+        "de": "Dominante Polyphenole der Blätter; hydrolysierbare Gerbstoffe mit adstringierender und antimikrobieller Wirkung.",
+        "en": "Dominant polyphenols of the leaves; hydrolysable tannins with astringent and antimicrobial activity."
+      }
+    },
+    {
+      "name": "Gallotannine",
+      "category": "tannin",
+      "plant_part": "leaf",
+      "percent_range": "5-14 %",
+      "note": {
+        "de": "Klassische hydrolysierbare Gerbstoffe; maßgeblich für die Wirkung bei Durchfall und Mundschleimhautentzündung verantwortlich.",
+        "en": "Classic hydrolysable tannins; primarily responsible for the effect in diarrhoea and oral mucosa inflammation."
+      }
+    },
+    {
+      "name": "Cyanidin-3-O-glucosid",
+      "category": "flavonoid",
+      "plant_part": "fruit",
+      "percent_range": "90 % der Gesamt-Anthocyane",
+      "note": {
+        "de": "Dominantes Anthocyan der reifen Früchte; verantwortlich für die blauschwarze Farbe und antioxidative Aktivität.",
+        "en": "Dominant anthocyanin of ripe fruits; responsible for the blue-black colour and antioxidant activity."
+      }
+    },
+    {
+      "name": "Quercetin-3-O-glucuronid",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Bedeutendstes Flavonol der Blätter; antioxidativ, antientzündlich und antimikrobiell.",
+        "en": "Most important flavonol in the leaves; antioxidant, anti-inflammatory and antimicrobial."
+      }
+    },
+    {
+      "name": "Ellagsäure",
+      "category": "phenolic_acid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Phenolsäure in Früchten und Blättern; Hydrolyseprodukt der Ellagitannine; antimikrobiell und antioxidativ.",
+        "en": "Phenolic acid in fruits and leaves; hydrolysis product of ellagitannins; antimicrobial and antioxidant."
+      }
+    },
+    {
+      "name": "Ascorbinsäure (Vitamin C)",
+      "category": "vitamin",
+      "plant_part": "fruit",
+      "percent_range": "0.013-0.044 %",
+      "note": {
+        "de": "Vitamin C in den Früchten; weniger konzentriert als in Schwarzen Johannisbeeren, aber wirksam bei kombinierter Polyphenolaufnahme.",
+        "en": "Vitamin C in the fruits; less concentrated than in blackcurrant, but effective in combination with polyphenol intake."
+      }
+    },
+    {
+      "name": "Kaffeesäure / p-Cumarsäure",
+      "category": "phenolic_acid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Phenolcarbonsäuren mit antioxidativem Potenzial; in Blättern und Früchten nachgewiesen.",
+        "en": "Phenolic carboxylic acids with antioxidant potential; detected in both leaves and fruits."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus; junge Triebblätter bevorzugt.",
+        "en": "Morning after dew has dried; young shoot leaves preferred."
+      },
+      "drying": {
+        "de": "Dünn ausgebreitet bei max. 40 °C im Schatten trocknen; Farbe bleibt grün, keine Bräunung.",
+        "en": "Spread thinly and dry in shade at max. 40 °C; colour should remain green, no browning."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In dunklen, luftdichten Gläsern kühl lagern.",
+        "en": "Store in dark, airtight jars in a cool place."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Vorzugsweise am Morgen; vollreife, dunkelblauschwarze Früchte einzeln pflücken.",
+        "en": "Preferably in the morning; pick fully ripe, dark blue-black fruits individually."
+      },
+      "drying": {
+        "de": "Frischverzehr oder Einfrieren empfohlen; zum Trocknen bei 50 °C im Dörrgerät bis zur Lederigkeit.",
+        "en": "Fresh consumption or freezing recommended; for drying, use 50 °C in a dehydrator until leathery."
+      },
+      "storage_months": 18
+    }
+  ]
+}

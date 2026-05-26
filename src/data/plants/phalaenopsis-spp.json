@@ -1,0 +1,326 @@
+{
+  "slug": "phalaenopsis-spp",
+  "names": {
+    "de": "Phalaenopsis",
+    "en": "Phalaenopsis",
+    "latin": "Phalaenopsis spp."
+  },
+  "family": {
+    "de": "Orchideengewächse",
+    "en": "Orchid family",
+    "latin": "Orchidaceae"
+  },
+  "description": {
+    "de": "Die Gattung Phalaenopsis gehört zur Familie der Orchideen (Orchidaceae) und umfasst eine Vielzahl exotischer Arten. Der botanische Name leitet sich von den griechischen Wörtern phalaina und opsis ab, da ihre Blüten an tropische Nachtfalter erinnern. Im deutschen Sprachraum werden diese Orchideen „Schmetterlingsorchidee“, „Nachtfalter-Orchidee“ oder „Malaienblume“ genannt.",
+    "en": "Phalaenopsis, also known as moth orchids, is a genus of about seventy species of plants in the family Orchidaceae. Orchids in this genus are monopodial epiphytes or lithophytes with long, coarse roots, short, leafy stems and long-lasting, flat flowers arranged in a flowering stem that often branches near the end. Orchids in this genus are native to Asia, New Guinea, and Australia, but mostly occur in Indonesia and the Philippines."
+  },
+  "teaser": {
+    "de": "Die Gattung Phalaenopsis gehört zur Familie der Orchideen (Orchidaceae) und umfasst eine Vielzahl exotischer Arten.",
+    "en": "Phalaenopsis, also known as moth orchids, is a genus of about seventy species of plants in the family Orchidaceae."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "air_quality",
+        "oxygen_production"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Phalaenopsis-Orchideen betreiben CAM-Photosynthese (Crassulaceen-Säurestoffwechsel): Tagsüber ist die Spaltöffnung geschlossen, nachts öffnet sie sich zur CO₂-Aufnahme und gibt Sauerstoff ab. Dies macht sie zur seltenen Zimmerpflanze, die nachts O₂ produziert.",
+        "en": "Phalaenopsis orchids use CAM photosynthesis (Crassulacean Acid Metabolism): daytime stomata remain closed, while at night they open for CO₂ uptake and release oxygen. This makes them one of the rare houseplants that produce O₂ at night."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "src_wiki_en",
+        "src_rhs"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental",
+        "wellbeing",
+        "mood"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Als blühende Zimmerpflanze mit langen Blütenrispen verbessert Phalaenopsis nachweislich das Wohlbefinden in Innenräumen. In vielen asiatischen Kulturen gilt sie als Symbol für Fruchtbarkeit, Eleganz und Glück.",
+        "en": "As a flowering houseplant with long inflorescences, Phalaenopsis demonstrably improves wellbeing in interiors. In many Asian cultures, it is a symbol of fertility, elegance, and good fortune."
+      },
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_wiki_en",
+        "src_wiki_de"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "pet_safe",
+        "child_safe"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Laut ASPCA ist Phalaenopsis für Hunde und Katzen nicht giftig. Damit ist die Schmetterlingsorchidee eine der sichersten blühenden Zimmerpflanzen für Haushalte mit Haustieren und Kindern.",
+        "en": "According to ASPCA, Phalaenopsis is not toxic to dogs and cats. The moth orchid is thus one of the safest flowering houseplants for households with pets and children."
+      },
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "src_aspca",
+        "src_wiki_en"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ethnobotanical",
+        "traditional_medicine"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Ethnobotanisch wurden verwandte Dendrobium-Orchideen (Orchidaceae) in der Traditionellen Chinesischen Medizin (TCM) verwendet — z.B. Dendrobium nobile als Yin-Tonikum. Für Phalaenopsis selbst ist eine dokumentierte westliche oder TCM-Medizinalverwendung kaum belegt.",
+        "en": "Ethnobotanically, related Dendrobium orchids (Orchidaceae) were used in Traditional Chinese Medicine (TCM) — e.g., Dendrobium nobile as a yin tonic. For Phalaenopsis itself, a documented western or TCM medicinal use is barely substantiated."
+      },
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_wiki_en",
+        "src_pfaf"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "ganze Pflanze (dekorativ)",
+      "en": "whole plant (decorative)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Laut ASPCA nicht giftig für Hunde und Katzen. Für Menschen ebenfalls als ungiftig eingestuft. Pestizid-Rückstände auf Handelspflanzen möglich — Blätter nicht verzehren.",
+      "en": "According to ASPCA, not toxic to dogs and cats. Also classified as non-toxic for humans. Pesticide residues on commercial plants possible — do not consume leaves."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Als Zimmerpflanze keine bekannte Toxizität; Handelspflanzen auf Pestizide achten.",
+        "en": "As a houseplant, no known toxicity; be aware of pesticides on commercial plants."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Als Zimmerpflanze keine bekannte Toxizität.",
+        "en": "As a houseplant, no known toxicity."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Gilt als sichere Zimmerpflanze für Familien mit Kindern (ASPCA-Kategorie: nicht toxisch).",
+        "en": "Considered a safe houseplant for families with children (ASPCA category: non-toxic)."
+      }
+    },
+    "contraindications": [],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Phalaenopsis (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Phalaenopsis",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Phalaenopsis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Phalaenopsis",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_en",
+      "type": "wikipedia",
+      "title": "Phalaenopsis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Phalaenopsis",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_de",
+      "type": "wikipedia",
+      "title": "Schmetterlingsorchideen (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schmetterlingsorchideen",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control: Phalaenopsis Orchid — Non-toxic to Cats and Dogs",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/phalaenopsis-orchid",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_rhs",
+      "type": "monograph",
+      "title": "Royal Horticultural Society (RHS): Phalaenopsis",
+      "url": "https://www.rhs.org.uk/plants/phalaenopsis",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_pfaf",
+      "type": "monograph",
+      "title": "Plants for a Future (PFAF): Orchidaceae — ethnobotanical notes",
+      "url": "https://pfaf.org/user/DatabaseSearhResult.aspx?FamilyID=Orchidaceae",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "phalaenopsis-spp.jpg",
+    "alt": {
+      "de": "Foto von Phalaenopsis",
+      "en": "Photo of Phalaenopsis"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Orchi",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Phalaenopsis_philippinensis_Orchi_008.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "night_oxygen",
+      "ornamental"
+    ],
+    "rooms": [
+      "bedroom",
+      "living_room"
+    ],
+    "light": "bright_indirect",
+    "water_frequency": "weekly",
+    "difficulty": 2,
+    "pet_safe": true,
+    "soil": {
+      "de": "Orchideen-Substrat (Rindenmischung)",
+      "en": "Orchid substrate (bark mix)"
+    },
+    "pot_size_cm": 15,
+    "tips": {
+      "de": [
+        "Im transparenten Topf halten — Wurzeln photosynthetisieren mit.",
+        "Wöchentlich 5 Min tauchen statt täglich gießen.",
+        "CAM-Pflanze: produziert nachts O₂, ideal fürs Schlafzimmer.",
+        "Nach Blüte den Stiel über 2. Knoten kürzen — neue Blüte möglich."
+      ],
+      "en": [
+        "Keep in transparent pot — roots photosynthesise too.",
+        "Dunk in water for 5 min weekly instead of daily watering.",
+        "CAM plant: produces O₂ at night, ideal for bedroom.",
+        "After flowering: cut stem above 2nd node — re-flowering possible."
+      ]
+    }
+  },
+  "constituents": [
+    {
+      "name": "Alkaloide (Dendrobine-Typ, spp.-spezifisch)",
+      "category": "alkaloid",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Orchidaceae-typische Alkaloide; in Phalaenopsis nur in Spuren, phytochemisch wenig untersucht. In verwandten Dendrobium-Arten besser charakterisiert.",
+        "en": "Orchidaceae-typical alkaloids; only in traces in Phalaenopsis, little studied phytochemically. Better characterized in related Dendrobium species."
+      }
+    },
+    {
+      "name": "Flavonoide (Kaempferol, Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Antioxidative Flavonoid-Glykoside, typisch für Orchidaceae; in Blättern und Blüten nachgewiesen.",
+        "en": "Antioxidant flavonoid glycosides, typical for Orchidaceae; detected in leaves and flowers."
+      }
+    },
+    {
+      "name": "Polysaccharide (Glucomannan-Typ)",
+      "category": "polysaccharide",
+      "plant_part": "root",
+      "note": {
+        "de": "Schleimartige Polysaccharide in den Luftwurzeln; unterstützen Wasseraufnahme und Feuchtigkeitsabgabe.",
+        "en": "Mucilaginous polysaccharides in the aerial roots; support water uptake and moisture release."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Hydroxyzimtsäuren)",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Sekundäre Phenole in verschiedenen Orchideen-Geweben; Rolle bei Pathogenabwehr.",
+        "en": "Secondary phenols in various orchid tissues; role in pathogen defense."
+      }
+    },
+    {
+      "name": "Mineralien (Calcium, Magnesium, Kalium)",
+      "category": "mineral",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Mikronährstoffe, die für den CAM-Metabolismus und die Blütenbildung essenziell sind.",
+        "en": "Micronutrients essential for CAM metabolism and flower formation."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "time_of_day": {
+        "de": "Morgens (Blüten zur Vollöffnung; für Dekorationszwecke ernten)",
+        "en": "Morning (flowers at full opening; harvest for decorative purposes)"
+      },
+      "drying": {
+        "de": "Frisch verwenden; Silica-Gel-Trocknung für Bastelprojekte möglich.",
+        "en": "Use fresh; silica gel drying possible for craft projects."
+      }
+    },
+    {
+      "plant_part": "root",
+      "best_months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Beim Umtopfen im Frühjahr/Sommer — Luftwurzeln nicht beschneiden",
+        "en": "When repotting in spring/summer — do not cut aerial roots"
+      }
+    }
+  ]
+}

@@ -1,0 +1,712 @@
+{
+  "slug": "mentha-piperita",
+  "names": {
+    "de": "Pfefferminze",
+    "en": "Peppermint",
+    "latin": "Mentha × piperita"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Die Pfefferminze ist eine Heil- und Gewürzpflanze aus der Gattung der Minzen, die zur Familie der Lippenblütler gehören. Sie ist eine – vermutlich zufällig entstandene – Kreuzung von Mentha aquatica und Mentha spicata, wobei Mentha spicata wiederum eine Kreuzung von Mentha rotundifolia und Mentha longifolia ist. Von anderen Minzen unterscheidet sich die Pfefferminze vor allem durch den hohen Menthol- und niedrigen Carvongehalt bzw.",
+    "en": "Peppermint is a hybrid species of mint, a cross between watermint and spearmint. Indigenous to Europe and the Middle East, the plant is now widely spread and cultivated in many regions of the world. It is occasionally found in the wild with its parent species."
+  },
+  "teaser": {
+    "de": "Die Pfefferminze ist eine Heil- und Gewürzpflanze aus der Gattung der Minzen, die zur Familie der Lippenblütler gehören.",
+    "en": "Peppermint is a hybrid species of mint, a cross between watermint and spearmint."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 3.0
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "AUFGUSS (Kommission E / EMA traditionell): 1,5–3 g fein zerkleinerte getrocknete Pfefferminzblätter mit 150 ml kochendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, dann abseihen. Dreimal täglich frisch zubereitet, bevorzugt zwischen den Mahlzeiten oder vor dem Essen. Tagesdosis 3–6 g. Indikationen: Dyspepsie, Blähungen, Flatulenz, krampfartige Magen-Darm-Beschwerden. Kinder 4–11 Jahre: 1–2 g je Aufguss, max. 3× täglich. Bei Reflux / Sodbrennen / Hiatushernie nicht anwenden — Menthol relaxiert den unteren Ösophagussphinkter. Anwendungsdauer ohne ärztliche Abklärung max. 4 Wochen.",
+          "en": "INFUSION (Kommission E / EMA traditional): 1.5–3 g of finely cut dried peppermint leaf in 150 ml boiling water, covered, steep 10 min, strain. Three times daily, freshly prepared, preferably between meals or before eating. Daily dose 3–6 g. Indications: dyspepsia, bloating, flatulence, spasmodic gastrointestinal complaints. Children 4–11 yrs: 1–2 g per cup, max. 3× daily. Do not use in reflux / heartburn / hiatal hernia — menthol relaxes the lower oesophageal sphincter. Maximum self-treatment duration 4 weeks without medical evaluation."
+        }
+      },
+      "age_restriction": {
+        "min_age": 4,
+        "note": {
+          "de": "Kinder unter 4 Jahren nicht empfohlen. Kinder 4–11 Jahre mit reduzierter Dosis (1–2 g). Ab 12 Jahren Erwachsenendosis.",
+          "en": "Not recommended for children under 4. Children 4–11 years with reduced dose (1–2 g). Adult dose from age 12."
+        }
+      },
+      "description": {
+        "de": "Pfefferminzblätter-Aufguss (Kommission E positiv) zur Linderung von Verdauungsbeschwerden wie Blähungen, Dyspepsie und krampfartigen Magen-Darm-Symptomen.",
+        "en": "Peppermint leaf infusion (Kommission E positive) for relief of digestive complaints including flatulence, dyspepsia and spasmodic gastrointestinal symptoms."
+      },
+      "source_ids": [
+        "src_ema_mentha_folium_enriched",
+        "src_kommission_e_mentha",
+        "src_escop_mentha_folium",
+        "src_wichtl_mentha"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "ema_well_established",
+      "preparation": {
+        "amount_ml": {
+          "min": 0.2,
+          "max": 0.4
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 12,
+        "instructions": {
+          "de": "PFEFFERMINZÖL — MAGENSAFTRESISTENTE KAPSELN (well-established use, EMA): 0,2–0,4 ml Pfefferminzöl in magensaftresistenten Kapseln, 3× täglich, unzerkaut (!) mit einem großen Glas Wasser, 30–60 min vor den Mahlzeiten schlucken. Tagesdosis 0,6–1,2 ml. Kinder 8–11 Jahre: 0,2 ml 3× täglich. Hauptindikation: Reizdarm-Syndrom (IBS — krampfartige Bauchschmerzen, Meteorismus, veränderte Stuhlfrequenz). Magensaftresistente Galenik ist zwingend erforderlich — freigesetztes Menthol im Magen kann Sodbrennen, Aufstoßen und Ösophagusspasmus auslösen. Kapseln NICHT zusammen mit Antazida, H2-Blockern oder Protonenpumpenhemmern einnehmen — vorzeitige Auflösung des Überzugs. NICHT bei Gallensteinen, Cholangitis, Achlorhydrie oder schwerer Lebererkrankung.",
+          "en": "PEPPERMINT OIL — ENTERIC-COATED CAPSULES (EMA well-established use): 0.2–0.4 ml peppermint oil in enteric-coated capsules, 3× daily, swallowed whole (!) with a large glass of water, 30–60 min before meals. Daily dose 0.6–1.2 ml. Children 8–11 yrs: 0.2 ml 3× daily. Indication: irritable bowel syndrome (IBS — spasmodic abdominal pain, meteorism, altered bowel habits). Enteric coating is mandatory — menthol released in the stomach causes heartburn, belching and oesophageal spasm. Do NOT take with antacids, H2-blockers or proton pump inhibitors — premature coating dissolution. Contraindicated in gallstones, cholangitis, achlorhydria, severe liver disease."
+        }
+      },
+      "age_restriction": {
+        "min_age": 8,
+        "note": {
+          "de": "Unter 2 Jahren kontraindiziert (Menthol-bedingte Apnoe, Laryngospasmus). Unter 8 Jahren nicht empfohlen. Kinder 8–11 Jahre nur mit 0,2 ml je Kapsel.",
+          "en": "Contraindicated under 2 years (menthol-induced apnoea, laryngospasm). Not recommended under 8 years. Children 8–11 yrs: 0.2 ml capsule only."
+        }
+      },
+      "description": {
+        "de": "Pfefferminzöl in magensaftresistenten Kapseln (EMA well-established use) — führendes pflanzliches Präparat bei Reizdarm-Syndrom mit solider klinischer Evidenz.",
+        "en": "Peppermint oil in enteric-coated capsules (EMA well-established use) — leading herbal preparation for irritable bowel syndrome with solid clinical evidence."
+      },
+      "source_ids": [
+        "src_ema_mentha_aetheroleum_enriched",
+        "src_escop_mentha_aetheroleum",
+        "src_cochrane_ibs_peppermint",
+        "src_kommission_e_mentha"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "ema_well_established",
+      "preparation": {
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "ÄUSSERLICHE ANWENDUNG — SPANNUNGSKOPFSCHMERZ (well-established use, EMA): 10 %iges Pfefferminzöl in Ethanol (z. B. Ol. Menth. pip. spirit. 10 %) großzügig auf Stirn und Schläfen einreiben. Eine Anwendung, ggf. nach 15 min eine zweite, maximal dreifach wiederholen. Nicht in die Augen, Schleimhäute oder auf Wunden auftragen. Nicht auf Gesicht oder Nase von Säuglingen und Kleinkindern unter 2 Jahren (Apnoe-Risiko). Wirkt nachweislich analgetisch durch kutane Kältereflexe (TRPM8-Aktivierung) und Verminderung der Kopfhautdurchblutung — klinisch mit 500 mg Paracetamol vergleichbar.",
+          "en": "EXTERNAL USE — TENSION HEADACHE (EMA well-established): 10 % peppermint oil in ethanol applied liberally to forehead and temples. One application, repeat after 15 min if needed, maximum three times. Do not apply to eyes, mucous membranes or wounds. Not for face or nose of infants/toddlers under 2 (apnoea risk). Demonstrated analgesic action via cutaneous cold reflexes (TRPM8 activation) and reduced scalp circulation — clinically comparable to 500 mg paracetamol."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Für diese spezifische Indikation laut EMA nur für Erwachsene ab 18 Jahren. Allgemeine externe Nutzung ab 12 Jahren bei kleiner Hautfläche möglich.",
+          "en": "Per EMA for this specific indication adults 18+ only. General external use from age 12 on small skin areas possible."
+        }
+      },
+      "description": {
+        "de": "Äußerliche Anwendung von 10 % Pfefferminzöl auf Stirn und Schläfen bei leichten Spannungskopfschmerzen — analgetische Wirkung klinisch belegt (EMA well-established use).",
+        "en": "External application of 10 % peppermint oil on forehead and temples for mild tension headache — analgesic effect clinically documented (EMA well-established use)."
+      },
+      "source_ids": [
+        "src_ema_mentha_aetheroleum_enriched",
+        "src_escop_mentha_aetheroleum",
+        "src_goebel_1996_headache"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 0.08,
+          "max": 0.16
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "DAMPFINHALATION (EMA traditionell): 2–4 Tropfen (0,08–0,16 ml) Pfefferminzöl in eine Schüssel mit heißem (nicht kochendem, ca. 65–70 °C) Wasser geben. Kopf mit einem Handtuch bedecken, Augen schließen, und 5–10 Minuten tief durch die Nase atmen. Bis zu 3× täglich. Mindestens 30 cm Abstand zum Wasser halten, um Verbrühungen zu vermeiden. Indikation: symptomatische Linderung von Erkältungen, verstopfter Nase, Katarrh der oberen Atemwege. Alternativ: 1–2 Tropfen auf ein Taschentuch geben und inhalieren. NICHT bei Asthma bronchiale oder überempfindlichen Atemwegen.",
+          "en": "STEAM INHALATION (EMA traditional): 2–4 drops (0.08–0.16 ml) peppermint oil in a bowl of hot (not boiling, ~65–70 °C) water. Cover head with towel, close eyes, breathe deeply through the nose for 5–10 min. Up to 3× daily. Maintain at least 30 cm from the water to avoid scalding. Indication: symptomatic relief of colds, nasal congestion, upper respiratory tract catarrh. Alternative: 1–2 drops on a handkerchief and inhale. NOT for bronchial asthma or hypersensitive airways."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Unter 2 Jahren kontraindiziert. Unter 12 Jahren nicht empfohlen. Ab 12 Jahren mit reduzierter Dosis (1–2 Tropfen).",
+          "en": "Contraindicated under 2 years. Not recommended under 12 years. From age 12 with reduced dose (1–2 drops)."
+        }
+      },
+      "description": {
+        "de": "Dampfinhalation mit Pfefferminzöl zur symptomatischen Linderung von Erkältungs- und Katarrh-Beschwerden der oberen Atemwege (EMA traditionelle Anwendung).",
+        "en": "Steam inhalation with peppermint oil for symptomatic relief of cold symptoms and upper respiratory tract catarrh (EMA traditional use)."
+      },
+      "source_ids": [
+        "src_ema_mentha_aetheroleum_enriched",
+        "src_escop_mentha_aetheroleum",
+        "src_who_mentha"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 2,
+          "max": 4
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (Droge-Auszug-Verhältnis 1:5 in Ethanol 45–70 %): 2–4 ml (40–80 Tropfen) 3× täglich, mit etwas Wasser verdünnt, zwischen den Mahlzeiten einnehmen. Tagesdosis 6–12 ml. Traditionelle Anwendung bei Dyspepsie, krampfartigen Magen-Darm-Beschwerden und nervösen Magenbeschwerden. Wirkung basiert auf Menthol (spasmolytisch) und Flavonoiden (gallenanregend). Wegen Ethanolgehalt: nicht bei Alkoholerkrankung, Lebererkrankung, Schwangerschaft, Stillzeit oder Kindern. Bei Sodbrennen / Reflux nicht anwenden.",
+          "en": "TINCTURE (DER 1:5 in 45–70 % ethanol): 2–4 ml (40–80 drops) 3× daily, diluted in water, between meals. Daily dose 6–12 ml. Traditional use for dyspepsia, spasmodic gastrointestinal complaints and nervous stomach upsets. Action based on menthol (spasmolytic) and flavonoids (cholagogue). Due to ethanol: not in alcohol dependence, liver disease, pregnancy, lactation or children. Do not use in heartburn / reflux."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Pfefferminztinktur bei Dyspepsie und krampfartigen Magen-Darm-Beschwerden — Alternative zum Tee für gezielte Dosierung.",
+        "en": "Traditional peppermint tincture for dyspepsia and spasmodic gastrointestinal complaints — alternative to tea for precise dosing."
+      },
+      "source_ids": [
+        "src_escop_mentha_folium",
+        "src_who_mentha",
+        "src_wichtl_mentha"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "joints",
+        "nervous_system"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 500,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "UMSCHLAG / KOMPRESSE (volksheilkundlich): 5–10 g (2–3 EL) getrocknete Pfefferminzblätter mit 500 ml kochendem Wasser übergießen, 15 Minuten ziehen lassen, abseihen und auf ca. 40 °C abkühlen. Ein Leinentuch oder Mullbinde tränken, leicht ausdrücken, für 10–15 Minuten auf die betroffene Stelle (verspannter Nacken, müde Beine, schmerzende Gelenke) legen. 2× täglich anwenden. Die flüchtigen Mentholdämpfe entfalten lokal analgetische und kühlende Wirkung durch TRPM8-Stimulation. NICHT auf gereizte, gebrochene Haut oder Schleimhäute auflegen.",
+          "en": "COMPRESS (folk use): 5–10 g dried peppermint leaves in 500 ml boiling water, steep 15 min, strain, cool to ~40 °C. Soak a linen cloth or gauze bandage, squeeze gently, apply to the affected area (tense neck, tired legs, sore joints) for 10–15 min. Twice daily. Volatile menthol vapour provides local analgesic and cooling effect via TRPM8 stimulation. Do NOT apply to irritated, broken skin or mucous membranes."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Pfefferminz-Kompresse bei Verspannungen, müden Beinen und leichten Gelenkbeschwerden — kühlend-analgetische Wirkung durch Menthol.",
+        "en": "Folk peppermint compress for muscle tension, tired legs and mild joint complaints — cooling-analgesic effect through menthol."
+      },
+      "source_ids": [
+        "src_pfaf_mentha",
+        "src_wp_de_mentha"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "KÜCHE: Frische oder getrocknete Pfefferminzblätter sind ein vielseitiges Küchenkraut. Frische Blätter: Tabbouleh, Minzsoße zu Lamm (britisch-traditionell), Mojito, Minzlimonade, Sommersalate, Joghurt-Dips (Tzatziki-Variante), Obstsalate, Eistees. Getrocknete Blätter: Herstellung von Kräutertee-Mischungen, Marinaden, Gewürzmischungen (marokkanischer Ras el Hanout). Kulinarisch verwendete Mengen haben keine therapeutische Wirkung — als Gewürz unbedenklich. Pfefferminze ist einfach durch Stecklinge zu vermehren und wächst in jedem feuchten Kübel. Tipp: Vorsicht beim Anbau im Freiland — die Pflanze wuchert durch Ausläufer und kann andere Kräuter verdrängen.",
+          "en": "KITCHEN: Fresh or dried peppermint leaves are a versatile culinary herb. Fresh leaves: tabbouleh, mint sauce with lamb (British traditional), mojito, mint lemonade, summer salads, yoghurt dips (tzatziki variant), fruit salads, iced teas. Dried leaves: herbal tea blends, marinades, spice mixes (Moroccan ras el hanout). Culinary amounts have no therapeutic effect — safe as a spice. Peppermint propagates easily from cuttings and grows in any moist pot. Note: caution with open-ground planting — the plant spreads via runners and can crowd out other herbs."
+        }
+      },
+      "description": {
+        "de": "Frische und getrocknete Pfefferminzblätter als Küchenkraut in Salaten, Saucen, Getränken und Gewürzmischungen — kulinarisch vielseitig und weltweit verbreitet.",
+        "en": "Fresh and dried peppermint leaves as culinary herb in salads, sauces, beverages and spice mixes — versatile in the kitchen and used worldwide."
+      },
+      "source_ids": [
+        "src_pfaf_mentha",
+        "src_wp_de_mentha",
+        "src_wp_en_mentha"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Blätter (vor der Blüte)",
+      "en": "leaves (before flowering)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG — MENTHOL-WARNHINWEISE: Pfefferminzöl und -blätter niemals unverdünnt im Gesicht, an Nase oder Schleimhäuten von Säuglingen und Kleinkindern unter 2 Jahren anwenden — akutes Apnoe- und Laryngospasmus-Risiko (lebensbedrohlich). Magensaftresistente Pfefferminzöl-Kapseln nicht zusammen mit Antazida, H2-Blockern oder Protonenpumpenhemmern einnehmen — vorzeitige Auflösung des Schutzüberzugs führt zu Ösophagusspasmus und Sodbrennen. Bei Gallenblasenerkrankungen (Gallensteine, Cholangitis) ist orales Pfefferminzöl kontraindiziert — Menthol steigert den Gallenfluss. Menthol kann bei vorbestehender Epilepsie oder bekannter Krampfanamnese kontraindiziert sein. Pfefferminze (Blatt und Öl) relaxiert den unteren Ösophagussphinkter — bei Reflux / Sodbrennen / Hiatushernie vermeiden. Therapiebegrenzte Selbstmedikation: max. 4 Wochen ohne ärztliche Abklärung.",
+      "en": "IMPORTANT — MENTHOL WARNINGS: Never apply peppermint oil or leaves undiluted to the face, nose or mucous membranes of infants and toddlers under 2 years — acute apnoea and laryngospasm risk (life-threatening). Enteric-coated peppermint oil capsules must not be taken with antacids, H2-blockers or proton pump inhibitors — premature coating dissolution causes oesophageal spasm and heartburn. In gallbladder disease (gallstones, cholangitis) oral peppermint oil is contraindicated — menthol increases bile flow. Menthol may be contraindicated in pre-existing epilepsy or known seizure history. Peppermint (leaf and oil) relaxes the lower oesophageal sphincter — avoid in reflux / heartburn / hiatal hernia. Self-medication limit: max. 4 weeks without medical evaluation."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Laut EMA ist die Sicherheit von Pfefferminzblättern und Pfefferminzöl in therapeutischen Dosen während der Schwangerschaft nicht hinreichend belegt — Anwendung nicht empfohlen. Küchenmäßige Verwendung kleiner Mengen frischer Blätter gilt als unbedenklich. Pfefferminzöl-Kapseln und konzentrierte Tinkturen in der Schwangerschaft meiden.",
+        "en": "Per EMA, the safety of peppermint leaf and peppermint oil at therapeutic doses during pregnancy is not sufficiently established — use not recommended. Culinary use of small amounts of fresh leaves is considered safe. Peppermint oil capsules and concentrated tinctures should be avoided in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Therapeutische Menthol-Dosen in der Stillzeit nicht empfohlen — Menthol geht in die Muttermilch über und kann beim Säugling Atemprobleme oder Koliken verursachen. Küchenmäßige Verwendung kleiner Blattmengen gilt als unbedenklich. Pfefferminzöl nicht auf Brustwarzen oder Brust auftragen (Menthol-Einatmung durch Neugeborenes).",
+        "en": "Therapeutic menthol doses not recommended during lactation — menthol passes into breast milk and may cause breathing problems or colic in the infant. Culinary use of small amounts of leaves is considered safe. Peppermint oil must not be applied to nipples or breasts (menthol inhalation by newborn)."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Pfefferminzblätter-Tee: Kinder unter 4 Jahren nicht empfohlen; 4–11 Jahre mit reduzierter Dosis (1–2 g). Pfefferminzöl intern: Kinder unter 8 Jahren nicht empfohlen; unter 2 Jahren kontraindiziert (Apnoe, Laryngospasmus durch Menthol). Inhalation: Kinder unter 12 Jahren nicht empfohlen; unter 2 Jahren kontraindiziert. Menthol-haltige Produkte (Salben, Einreibungen) NICHT auf Gesicht, Nase oder Brust kleiner Kinder — Apnoe-Risiko. Bei Krampfanfall-Anamnese kontraindiziert.",
+        "en": "Peppermint leaf tea: not recommended under 4 years; 4–11 years with reduced dose (1–2 g). Peppermint oil internal: not recommended under 8 years; contraindicated under 2 years (apnoea, laryngospasm from menthol). Inhalation: not recommended under 12 years; contraindicated under 2 years. Menthol products (ointments, rubs) NOT on face, nose or chest of young children — apnoea risk. Contraindicated with seizure history."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antazida, H2-Rezeptor-Antagonisten, Protonenpumpenhemmer (PPI)",
+        "mechanism": {
+          "de": "Diese Medikamente erhöhen den gastralen pH-Wert und können den magensaftresistenten Überzug von Pfefferminzöl-Kapseln vorzeitig auflösen. Freigesetztes Menthol im Magen führt zu Ösophagusspasmus, Sodbrennen und verminderter therapeutischer Wirksamkeit. Gleichzeitige Einnahme vermeiden — mindestens 2 Stunden Abstand.",
+          "en": "These drugs raise gastric pH and may cause premature dissolution of enteric-coated peppermint oil capsules. Menthol released in the stomach leads to oesophageal spasm, heartburn and reduced therapeutic efficacy. Avoid concomitant intake — minimum 2-hour interval."
+        },
+        "severity": "avoid",
+        "source_id": "src_ema_mentha_aetheroleum_enriched"
+      },
+      {
+        "drug_class": "CYP3A4-Substrate (z. B. Amlodipin, Simvastatin, Cyclosporin, Midazolam)",
+        "mechanism": {
+          "de": "Menthol und andere Pfefferminzöl-Komponenten hemmen in vitro CYP3A4 und in geringerem Maß CYP1A2 und CYP2C19. Bei gleichzeitiger Einnahme mit Arzneimitteln, die über CYP3A4 metabolisiert werden, kann die Plasmakonzentration des Arzneimittels erhöht sein. Klinische Relevanz bei normaler Dosierung gering, jedoch bei CYP3A4-Substraten mit enger therapeutischer Breite Vorsicht.",
+          "en": "Menthol and other peppermint oil components inhibit CYP3A4 in vitro and, to a lesser extent, CYP1A2 and CYP2C19. Concomitant use with CYP3A4-metabolised drugs may increase plasma concentrations. Clinical relevance at normal doses is low, but caution with narrow therapeutic index CYP3A4 substrates."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_mentha_aetheroleum"
+      },
+      {
+        "drug_class": "Ciclosporin (Cyclosporin A)",
+        "mechanism": {
+          "de": "Fallberichte und In-vitro-Studien deuten auf eine Hemmung von CYP3A4 und P-Glykoprotein durch Menthol hin, was zu erhöhten Ciclosporin-Plasmaspiegeln führen kann. Bei Transplantationspatientinnen unter Ciclosporin-Immunsuppression engmaschige Spiegelkontrollen und Pfefferminzöl in therapeutischen Dosen meiden.",
+          "en": "Case reports and in-vitro studies indicate inhibition of CYP3A4 and P-glycoprotein by menthol, potentially raising ciclosporin plasma levels. In transplant patients on ciclosporin immunosuppression: close plasma level monitoring and avoid therapeutic doses of peppermint oil."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_mentha_aetheroleum"
+      },
+      {
+        "drug_class": "Antidiabetika (Insulin, Sulfonylharnstoffe, Metformin)",
+        "mechanism": {
+          "de": "Pfefferminze und Menthol können in experimentellen Modellen den Blutglucosespiegel beeinflussen. Klinisch nicht signifikant belegt, jedoch bei intensivierter antidiabetischer Therapie Blutzuckerspiegel engmaschig überwachen, insbesondere bei Einnahme höherer Dosen von Pfefferminzöl.",
+          "en": "Peppermint and menthol may influence blood glucose levels in experimental models. Not clinically established as significant, but monitor blood glucose closely when taking intensive antidiabetic therapy, especially at higher peppermint oil doses."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_mentha_folium"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Pfefferminze, Menthol oder andere Lippenblütler (Lamiaceae).",
+        "en": "Hypersensitivity to peppermint, menthol or other Lamiaceae."
+      },
+      {
+        "de": "Gallensteine, Cholangitis, Gallenwegsverschluss, Achlorhydrie — Pfefferminzöl oral kontraindiziert (Menthol steigert Gallenfluss).",
+        "en": "Gallstones, cholangitis, biliary obstruction, achlorhydria — peppermint oil oral use contraindicated (menthol increases bile flow)."
+      },
+      {
+        "de": "Schwere Lebererkrankungen — eingeschränkter Menthol-Metabolismus; oral nur nach ärztlicher Rücksprache.",
+        "en": "Severe liver disease — impaired menthol metabolism; oral use only after medical consultation."
+      },
+      {
+        "de": "Gastroösophagealer Reflux, Sodbrennen, Hiatushernie — Pfefferminze (Blatt und Öl) relaxiert den unteren Ösophagussphinkter und verschlechtert Symptome.",
+        "en": "Gastro-oesophageal reflux, heartburn, hiatal hernia — peppermint (leaf and oil) relaxes the lower oesophageal sphincter and worsens symptoms."
+      },
+      {
+        "de": "Kinder unter 2 Jahren: Pfefferminzöl und menthol-haltige Produkte kontraindiziert (Apnoe, Laryngospasmus — lebensbedrohlich).",
+        "en": "Children under 2 years: peppermint oil and menthol-containing products contraindicated (apnoea, laryngospasm — life-threatening)."
+      },
+      {
+        "de": "Bekannte Epilepsie oder Anfallsanamnese: Menthol kann die Krampfschwelle senken — kontraindiziert.",
+        "en": "Known epilepsy or seizure history: menthol may lower seizure threshold — contraindicated."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Pfefferminze (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Pfefferminze",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Peppermint (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Peppermint",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_mentha_folium",
+      "type": "monograph",
+      "title": "EMA/HMPC/572705/2014 — Mentha × piperita folium (Final Rev.1, 15 Jan 2020)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/menthae-piperitae-folium",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_mentha_aetheroleum",
+      "type": "monograph",
+      "title": "EMA/HMPC/522410/2013 — Mentha × piperita aetheroleum (Final Rev.1, 15 Jan 2020)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/menthae-piperitae-aetheroleum",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_mentha_folium_enriched",
+      "type": "monograph",
+      "title": "EMA/HMPC/572705/2014 Rev.1 — European Union herbal monograph on Mentha × piperita L., folium (Peppermint Leaf), Final 15 Jan 2020",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/menthae-piperitae-folium",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_ema_mentha_aetheroleum_enriched",
+      "type": "monograph",
+      "title": "EMA/HMPC/522410/2013 Rev.1 — European Union herbal monograph on Mentha × piperita L., aetheroleum (Peppermint Oil), Final 15 Jan 2020",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/menthae-piperitae-aetheroleum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_mentha",
+      "type": "monograph",
+      "title": "Kommission E — Pfefferminzblätter (Menthae piperitae folium), Monographie positiv, BAnz Nr. 223, 1988; sowie Pfefferminzöl (Menthae piperitae aetheroleum), BAnz Nr. 223, 1988",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_mentha_folium",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Menthae piperitae folium (Peppermint Leaf), 3rd edition 2016 (incl. supplement)",
+      "url": "https://escop.com/downloads/peppermint-leaf/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_mentha_aetheroleum",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Menthae piperitae aetheroleum (Peppermint Oil), 3rd edition 2016 (incl. supplement)",
+      "url": "https://escop.com/downloads/peppermint-oil/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_who_mentha",
+      "type": "monograph",
+      "title": "WHO Monographs on Selected Medicinal Plants — Volume 2: Folium Menthae Piperitae (Peppermint Leaf), WHO Geneva 2002",
+      "url": "https://apps.who.int/iris/handle/10665/42052",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_cochrane_ibs_peppermint",
+      "type": "monograph",
+      "title": "Alammar N et al. — The impact of peppermint oil on the irritable bowel syndrome: a meta-analysis of the pooled clinical data. BMC Complement Altern Med. 2019;19(1):21. doi:10.1186/s12906-018-2409-0",
+      "url": "https://doi.org/10.1186/s12906-018-2409-0",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_goebel_1996_headache",
+      "type": "monograph",
+      "title": "Göbel H et al. — Effectiveness of Oleum menthae piperitae and paracetamol in therapy of headache of the tension type. Der Nervenarzt 1996;67(8):672-681. PMID 8805113",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8805113/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_mentha",
+      "type": "book",
+      "title": "Wichtl M (Hrsg.) — Teedrogen und Phytopharmaka, 5. Auflage, Wissenschaftliche Verlagsgesellschaft Stuttgart 2009: Menthae piperitae folium, S. 402-406",
+      "url": "https://www.wissenschaftliche-verlagsgesellschaft.de/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_mentha",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Mentha × piperita database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Mentha+x+piperita",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_mentha",
+      "type": "wikipedia",
+      "title": "Pfefferminze (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Pfefferminze",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_mentha",
+      "type": "wikipedia",
+      "title": "Peppermint (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Peppermint",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "mentha-piperita.jpg",
+    "alt": {
+      "de": "Foto von Pfefferminze",
+      "en": "Photo of Peppermint"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mentha_%C3%97_piperita_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-095.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible",
+      "medicinal"
+    ],
+    "rooms": [
+      "kitchen",
+      "balcony"
+    ],
+    "light": "partial_shade",
+    "water_frequency": "every_few_days",
+    "difficulty": 1,
+    "pet_safe": true,
+    "soil": {
+      "de": "Feuchte Kräutererde",
+      "en": "Moist herb compost"
+    },
+    "pot_size_cm": 20,
+    "tips": {
+      "de": [
+        "Im eigenen Topf — wuchert sonst.",
+        "Halbschatten besser als knallige Sonne.",
+        "Im Frühjahr Wurzelstock teilen für neue Pflanzen."
+      ],
+      "en": [
+        "In its own pot — otherwise spreads.",
+        "Partial shade better than full sun.",
+        "Divide root in spring for new plants."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "matricaria-chamomilla",
+      "urtica-dioica"
+    ],
+    "bad_partners": [
+      "lavandula-angustifolia",
+      "mentha-spicata",
+      "ocimum-basilicum",
+      "petroselinum-crispum"
+    ],
+    "reasons": {
+      "lavandula-angustifolia": {
+        "de": "Minze braucht feuchten Boden, Lavendel trockenen.",
+        "en": "Mint needs moist soil, lavender needs dry."
+      },
+      "matricaria-chamomilla": {
+        "de": "Kamille verstärkt Minz-Aroma — Holzer-Lieblingspaar.",
+        "en": "Chamomile enhances mint aroma — Holzer favourite pair."
+      },
+      "ocimum-basilicum": {
+        "de": "Minze überwuchert Basilikum und konkurriert um Wasser.",
+        "en": "Mint overgrows basil and competes for water."
+      }
+    },
+    "notes_de": "ocimum-basilicum: Minze konkurriert um Wasser und überwuchert Basilikum. lavandula-angustifolia: Minze braucht feuchten Boden, Lavendel trockenen. matricaria-chamomilla: Kamille stärkt Minze-Aroma. mentha-spicata: Minz-Arten kreuzen und hybridisieren — räumlich trennen. petroselinum-crispum: Minze überwuchert Petersilie.",
+    "notes_en": "ocimum-basilicum: Mint competes for water and overgrows basil. lavandula-angustifolia: Mint needs moist soil, lavender dry. matricaria-chamomilla: Chamomile boosts mint aroma. mentha-spicata: Mint species cross-pollinate and hybridise — separate spatially. petroselinum-crispum: Mint overgrows parsley.",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "transplant": {
+        "start_month": 4,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 9
+    },
+    "days_to_harvest": 90,
+    "spacing_cm": 40,
+    "garden_type": [
+      "balcony",
+      "raised_bed"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "aromatic_repellent",
+    "pollinator_attractor",
+    "medicinal",
+    "ground_cover"
+  ],
+  "constituents": [
+    {
+      "name": "Menthol (l-Menthol)",
+      "category": "essential_oil",
+      "percent_range": "35-55 % (im äth. Öl)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptwirkstoff und Hauptbestandteil des ätherischen Öls der Pfefferminze. Monoterpenalkohol mit spasmolytischer (glatte Muskulatur, Kalziumkanal-Blockade), lokalanästhetischer (Na+-Kanal-Blockade), kühlender (TRPM8-Aktivierung) und schwach antibakterieller Wirkung. Verantwortlich für den charakteristischen Kühleffekt auf Haut und Schleimhäuten. Apnoe-Gefahr bei Säuglingen und Kleinkindern durch Applikation im Gesichtsbereich.",
+        "en": "Principal active compound and main constituent of peppermint essential oil. Monoterpene alcohol with spasmolytic (smooth muscle, calcium channel blockade), local anaesthetic (Na+ channel blockade), cooling (TRPM8 activation) and weak antibacterial activity. Responsible for the characteristic cooling effect on skin and mucous membranes. Apnoea risk in infants/toddlers when applied to the face."
+      }
+    },
+    {
+      "name": "Menthon und Isomenthon",
+      "category": "essential_oil",
+      "percent_range": "14-32 % (im äth. Öl)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Monoterpene Ketone — Hauptbegleitstoffe des Menthols im ätherischen Öl. Menthon trägt zur krampflösenden Wirkung und zum charakteristischen Minzaroma bei. Bei hohen Konzentrationen potenziell reizend für Schleimhäute — verantwortlich für stärkere Wirkung von Reinöl gegenüber verdünnten Zubereitungen.",
+        "en": "Monoterpene ketones — principal co-constituents of menthol in the essential oil. Menthone contributes to the spasmolytic action and characteristic mint aroma. At high concentrations potentially irritating to mucous membranes — responsible for stronger effect of neat oil versus diluted preparations."
+      }
+    },
+    {
+      "name": "Menthylacetat",
+      "category": "essential_oil",
+      "percent_range": "2-10 % (im äth. Öl)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Ester des Menthols, gibt dem ätherischen Öl die fruchtig-süße Aromakomponente. Mitverantwortlich für die organoleptische Qualität und damit für die Handelsklassifizierung des Öls (DAB/Ph. Eur.).",
+        "en": "Ester of menthol, imparting the fruity-sweet aroma component to the essential oil. Partly responsible for the organoleptic quality and hence the commercial grade classification of the oil (DAB/Ph. Eur.)."
+      }
+    },
+    {
+      "name": "Flavonoide (Luteolin, Apigenin, Eriocitrin, Hesperidin, Rutin)",
+      "category": "flavonoid",
+      "percent_range": "1-3 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Diverse Flavonglykoside und -aglykone, die zur choleretischen (gallenanregenden), antioxidativen und antispasmodischen Gesamtwirkung des Blattdrogeextrakts beitragen. Eriocitrin (ein Flavanon-Glykosid) und Luteolin-7-glucosid sind quantitativ bedeutend; Hesperidin wirkt kapillarprotektiv.",
+        "en": "Diverse flavone glycosides and aglycones contributing to the choleretic (bile-stimulating), antioxidant and antispasmodic overall action of the leaf drug extract. Eriocitrin (a flavanone glycoside) and luteolin-7-glucoside are quantitatively prominent; hesperidin is capillary-protective."
+      }
+    },
+    {
+      "name": "Rosmarinsäure",
+      "category": "phenolic_acid",
+      "percent_range": "0.5-2 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hydroxycinnamat-Ester (Kaffeesäure + 3,4-Dihydroxyphenylalanin). Potent antioxidativ, antiinflammatorisch (COX-2-Hemmung, LOX-Hemmung) und schwach antimikrobiell. Gemeinsam mit anderen Phenolcarbonsäuren Teil der antioxidativen Fraktion des Blatts; mitverantwortlich für die Haltbarkeit getrockneter Droge.",
+        "en": "Hydroxycinnamate ester (caffeic acid + 3,4-dihydroxyphenylalanine). Potently antioxidant, anti-inflammatory (COX-2 and LOX inhibition) and weakly antimicrobial. Together with other hydroxycinnamic acids forms the antioxidant fraction of the leaf; partly responsible for the shelf-life of dried drug."
+      }
+    },
+    {
+      "name": "Menthofuran",
+      "category": "essential_oil",
+      "percent_range": "1-9 % (im äth. Öl)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Monoterpenoid mit Furanring — Qualitätsmerkmal: Hoher Menthofurangehalt mindert die Qualität des ätherischen Öls (Ph. Eur.-Grenzwert max. 8 %). Entsteht aus (+)-Pulegon durch Isomerisierung und ist mitverantwortlich für hepatotoxisches Potenzial bei exzessivem Konsum reinen Pfefferminzöls. In therapeutischen Dosierungen unbedenklich.",
+        "en": "Monoterpenoid with furan ring — quality marker: high menthofuran content reduces essential oil quality (Ph. Eur. limit max. 8 %). Formed from (+)-pulegone by isomerisation; partly responsible for hepatotoxic potential at excessive doses of neat peppermint oil. Safe at therapeutic doses."
+      }
+    },
+    {
+      "name": "Gerbstoffe (kondensierte und hydrolysierbare Tannine)",
+      "category": "tannin",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Geringe Mengen adstringierender Gerbstoffe; tragen zur milden schleimhautschützenden Wirkung des Blattextrakts bei. Pharmakologisch von geringerer Bedeutung als die ätherischen Ölanteile — spielen aber eine Rolle bei der adstringierenden Wirkung von konzentriertem Tee (z. B. bei leichten Durchfallbeschwerden traditionell).",
+        "en": "Small amounts of astringent tannins; contribute to mild mucous-membrane-protective action of leaf extract. Pharmacologically less significant than essential oil components — but play a role in the astringent effect of concentrated tea (e.g. traditional use in mild diarrhoea)."
+      }
+    },
+    {
+      "name": "Triterpene (Ursol-, Oleanolsäure — Spuren)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Pentacyclische Triterpensäuren in geringen Mengen. Mild antiinflammatorisch und antimikrobiell. In der Pfefferminze pharmakologisch von untergeordneter Bedeutung, aber in der Gesamtsynergie des Pflanzenextrakts nicht ganz vernachlässigbar.",
+        "en": "Pentacyclic triterpene acids in small amounts. Mildly anti-inflammatory and antimicrobial. Of secondary pharmacological significance in peppermint, but not entirely negligible in the overall synergy of the plant extract."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "An trockenen, sonnigen Vormittagen (idealer Erntezeitpunkt: ca. 9–11 Uhr), nachdem der Tau abgetrocknet ist und bevor die Mittagshitze einsetzt. In dieser Zeitspanne ist der ätherische Ölgehalt am höchsten — ätherische Öle akkumulieren in den Öldrüsen des Blatts durch Fotosynthese-Aktivität und sind zu Tagesanfang maximal konzentriert.",
+        "en": "On dry, sunny mornings (ideal harvest: approx. 9–11 am), once dew has evaporated and before midday heat sets in. Essential oil content is highest at this time — essential oils accumulate in the leaf oil glands through photosynthetic activity and are maximally concentrated in the morning."
+      },
+      "drying": {
+        "de": "ERNTE: Triebspitzen und Blätter vor oder zu Beginn der Blüte (Knospen-Stadium, Juli) schneiden — in diesem Stadium ist der Mentholgehalt am höchsten, da die Pflanze noch keine Ressourcen in die Blütenbildung investiert hat. Stängel 5–10 cm über dem Boden abschneiden (fördert Nachaustrieb). Nur gesunde, saubere Blätter ernten — mehltaubefallene Blätter (Minze ist anfällig für echten Mehltau) komplett verwerfen. TROCKNUNG: Kleine Bündel locker zusammenbinden und kopfüber im Schatten bei guter Luftzirkulation und max. 35–40 °C hängen — bei höheren Temperaturen Verlust flüchtiger Ölbestandteile. Alternativ: Einzelblätter einlagig auf Trockengitter ausbreiten. Trockenzeit: 5–10 Tage je nach Luftfeuchte. Fertig getrocknet wenn Blätter knistern und sich leicht zerbröseln. LAGERUNG: Luftdicht in dunklen Gläsern oder Blechdosen, trocken und kühl. Aufbrauchfrist 12 Monate — danach starker Aromaverlust.",
+        "en": "HARVEST: Cut shoot tips and leaves before or at the onset of flowering (bud stage, July) — menthol content is highest at this stage because the plant has not yet invested resources in flower formation. Cut stems 5–10 cm above the ground (promotes regrowth). Harvest only healthy, clean leaves — leaves with powdery mildew (mint is susceptible) must be discarded completely. DRYING: Loosely tie small bundles and hang upside down in shade with good air circulation, max. 35–40 °C — higher temperatures cause volatile oil loss. Alternatively: spread single leaves in a single layer on drying racks. Drying time: 5–10 days depending on humidity. Dry when leaves crackle and crumble easily. STORAGE: Airtight in dark jars or tins, dry and cool. Use within 12 months — aroma loss accelerates significantly after that."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht, dunkel, kühl und trocken. Bei Farbveränderung (Vergilbung) oder abgeschwächtem Mentholgeruch Qualität prüfen und ggf. verwerfen.",
+        "en": "Airtight, dark, cool and dry. If colour changes (yellowing) or menthol scent weakens, check quality and discard if necessary."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        5,
+        6,
+        9
+      ],
+      "time_of_day": {
+        "de": "Triebspitzen mit jungen Blättern im Frühjahr (Mai–Juni) vor der Blüte, sowie nach dem Rückschnitt im September für einen zweiten Austrieb. Morgendliche Ernte bevorzugen.",
+        "en": "Shoot tips with young leaves in spring (May–June) before flowering, and again after cutting back in September for a second flush. Morning harvest preferred."
+      },
+      "drying": {
+        "de": "FRISCHE NUTZUNG (Küche und Kräuterküche): Junge Triebe und Blätter direkt nach der Ernte frisch verwenden — aromatisch am intensivsten in den ersten 2–3 Stunden nach dem Schnitt. Für die Langzeitkonservierung: Blätter auf Backpapier einlagig einfrieren, dann in Gefrierbeuteln bis zu 6 Monate lagern (schonender als Trocknen, da ätherische Öle weitgehend erhalten bleiben). Für Kräuterpesto, Minzöl oder Tinktur direkt frisch verarbeiten — Menthol-Ausbeute bei Frischverarbeitung deutlich höher als bei getrockneter Droge.",
+        "en": "FRESH USE (kitchen and culinary): Young shoots and leaves are best used immediately after harvest — aromatics are most intense in the first 2–3 hours after cutting. For long-term preservation: freeze single layers of leaves on baking paper, then store in freezer bags up to 6 months (gentler than drying — essential oils largely preserved). For herb pesto, mint oil or tincture: process fresh — menthol yield is significantly higher from fresh material than dried drug."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Frisch: im Kühlschrank in feuchtem Tuch bis 3 Tage. Gefroren: bis 6 Monate in Gefrierbeuteln.",
+        "en": "Fresh: in refrigerator in damp cloth up to 3 days. Frozen: up to 6 months in freezer bags."
+      }
+    }
+  ]
+}

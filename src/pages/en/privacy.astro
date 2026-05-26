@@ -1,0 +1,120 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+// === 2. KONSTANTEN ===
+const locale = 'en' as const;
+---
+
+<BaseLayout locale={locale} title="Privacy">
+  <div class="max-w-3xl mx-auto px-4 py-8 prose prose-slate">
+    <!-- === 1. HERO === -->
+    <header class="mb-6">
+      <h1 class="text-3xl font-serif font-bold text-slate-900 mb-2">Privacy Policy</h1>
+      <p class="text-sm text-slate-500">
+        Updated: 2026-05-18 ·
+        <a href="/en/imprint" class="text-emerald-700 hover:text-emerald-800 underline">Controller: see Imprint</a>
+        · Translation of the German version, which is legally binding.
+      </p>
+    </header>
+
+    <!-- === 2. WHICH DATA === -->
+    <section class="mb-8">
+      <h2 class="text-xl font-serif font-semibold text-slate-900 mb-3">1. Which data is processed?</h2>
+
+      <h3 class="text-lg font-semibold text-slate-900 mt-4 mb-2">Stored in your browser (LocalStorage)</h3>
+      <p class="text-slate-700 leading-relaxed">
+        When you use the garden planner the following data is stored
+        <strong>exclusively in your browser</strong> — it does NOT leave your
+        device:
+      </p>
+      <ul class="list-disc pl-6 mt-2 text-slate-700 leading-relaxed">
+        <li>Climate zone, garden type (raised bed/balcony/field/greenhouse), garden size</li>
+        <li>Household size, self-sufficiency goal, experience level</li>
+        <li>Your selected plants with quantities</li>
+        <li>Your bed positions (drag&amp;drop layout)</li>
+      </ul>
+      <p class="text-slate-700 leading-relaxed mt-2">
+        You can delete this data at any time via "Reset profile" on the
+        My-Garden page or via your browser settings (clear cache).
+      </p>
+
+      <h3 class="text-lg font-semibold text-slate-900 mt-6 mb-2">When you send feedback (optional, voluntary)</h3>
+      <p class="text-slate-700 leading-relaxed">
+        If you use the feedback form, your input (category, optionally
+        plant-slug, message, optionally your email) is sent to the third-party
+        service <strong>Web3Forms</strong> (Saik3D Technologies LLC, USA),
+        which forwards the message to Maikel's email. Web3Forms stores
+        submissions for 30 days for spam filtering, then deletes them.
+        Web3Forms privacy policy:
+        <a
+          href="https://web3forms.com/privacy"
+          class="text-emerald-700 hover:text-emerald-800 underline"
+          rel="noopener noreferrer"
+          target="_blank"
+        >https://web3forms.com/privacy</a>
+      </p>
+
+      <h3 class="text-lg font-semibold text-slate-900 mt-6 mb-2">Server logs (Cloudflare Pages)</h3>
+      <p class="text-slate-700 leading-relaxed">
+        When you load the site, our host Cloudflare Pages processes
+        technically necessary data (IP address, user-agent, request URL,
+        timestamp). These are used for security and performance (attack
+        protection, caching). Cloudflare privacy policy:
+        <a
+          href="https://www.cloudflare.com/privacypolicy/"
+          class="text-emerald-700 hover:text-emerald-800 underline"
+          rel="noopener noreferrer"
+          target="_blank"
+        >https://www.cloudflare.com/privacypolicy/</a>
+      </p>
+
+      <h3 class="text-lg font-semibold text-slate-900 mt-6 mb-2">External content</h3>
+      <p class="text-slate-700 leading-relaxed">
+        Plant images and texts come from <strong>Wikipedia, Wikimedia Commons,
+        GBIF</strong>. These are embedded once at build time — when you visit
+        the site, NO live requests are made to these services.
+      </p>
+    </section>
+
+    <!-- === 3. NO TRACKERS === -->
+    <section class="mb-8">
+      <h2 class="text-xl font-serif font-semibold text-slate-900 mb-3">2. No tracking cookies, no analytics</h2>
+      <p class="text-slate-700 leading-relaxed">
+        Donum Dei uses <strong>NO</strong> tracking cookies, NO Google
+        Analytics, NO Facebook pixel, NO advertising, NO social-media plugins,
+        NO external fonts, NO external scripts. We respect your privacy.
+      </p>
+    </section>
+
+    <!-- === 4. GDPR RIGHTS === -->
+    <section class="mb-8">
+      <h2 class="text-xl font-serif font-semibold text-slate-900 mb-3">3. Your rights (GDPR)</h2>
+      <ul class="list-disc pl-6 text-slate-700 leading-relaxed">
+        <li><strong>Access</strong> to stored data (Art. 15 GDPR)</li>
+        <li><strong>Rectification</strong> of incorrect data (Art. 16)</li>
+        <li><strong>Erasure</strong> of your data (Art. 17)</li>
+        <li><strong>Restriction</strong> of processing (Art. 18)</li>
+        <li><strong>Data portability</strong> (Art. 20)</li>
+        <li><strong>Objection</strong> to processing (Art. 21)</li>
+        <li><strong>Complaint</strong> to a supervisory authority</li>
+      </ul>
+      <p class="text-slate-700 leading-relaxed mt-3">
+        Requests to:
+        <a
+          href="mailto:maikelganske913@gmail.com"
+          class="text-emerald-700 hover:text-emerald-800 underline"
+        >maikelganske913@gmail.com</a>
+      </p>
+    </section>
+
+    <!-- === 5. CHANGES === -->
+    <section class="mb-8">
+      <h2 class="text-xl font-serif font-semibold text-slate-900 mb-3">4. Changes</h2>
+      <p class="text-slate-700 leading-relaxed">
+        This policy can be adjusted in case of technical changes. The current
+        version is always on this page.
+      </p>
+    </section>
+  </div>
+</BaseLayout>

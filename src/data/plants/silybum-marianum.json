@@ -1,0 +1,600 @@
+{
+  "slug": "silybum-marianum",
+  "names": {
+    "de": "Mariendistel",
+    "en": "Silybum marianum",
+    "latin": "Silybum marianum"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Die Mariendistel ist eine Pflanzenart aus der Gattung der Mariendisteln (Silybum) in der Unterfamilie Carduoideae innerhalb der Familie der Korbblütler (Asteraceae).",
+    "en": "Silybum marianum is a species of thistle. It has various common names including milk thistle, blessed milkthistle, Marian thistle, Mary thistle, Saint Mary's thistle, Mediterranean milk thistle, variegated thistle and Scotch thistle. This species is an annual or biennial plant of the family Asteraceae."
+  },
+  "teaser": {
+    "de": "Die Mariendistel ist eine Pflanzenart aus der Gattung der Mariendisteln (Silybum) in der Unterfamilie Carduoideae inn...",
+    "en": "Silybum marianum is a species of thistle."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": [
+        "liver",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.3,
+          "max": 0.6
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 8,
+        "instructions": {
+          "de": "STANDARDISIERTER TROCKENEXTRAKT — well-established use (EMA): Handelsübliche standardisierte Zubereitungen aus Mariendistelfrüchten (Silybi mariani fructus), Trockenextrakte als Kapseln oder Dragees, Droge-Extrakt-Verhältnis 36–44:1, standardisiert auf 30–65 % Silymarin (berechnet als Silibinin). Beispiele: Legalon 70/140 mg (Rottapharm/Madaus), Silymarin Stada, Carduus marianus-Präparate. Dosierung laut EMA-Monographie: Trockenextrakt 70–420 mg Silymarin täglich, aufgeteilt auf 2–3 Einzelgaben, zu oder nach den Mahlzeiten mit ausreichend Flüssigkeit. Indikation well-established: unterstützende Behandlung bei toxisch bedingten Leberschäden und bei chronisch entzündlichen Lebererkrankungen sowie Leberzirrhose. Wirkungseintritt nach 2–4 Wochen; bei akuten Beschwerden Arzt aufsuchen. NICHT ohne ärztliche Diagnose bei Gelbsucht oder Aszites anwenden — diese Symptome erfordern sofortige ärztliche Untersuchung.",
+          "en": "STANDARDISED DRY EXTRACT — EMA well-established use: Standardised preparations of milk thistle fruit (Silybi mariani fructus), dry extracts as capsules or coated tablets, DER 36–44:1, standardised to 30–65 % silymarin (as silibinin). Examples: Legalon 70/140 mg, Silymarin Stada. EMA dosage: 70–420 mg silymarin daily in 2–3 divided doses, with meals. Well-established indication: supportive treatment of toxic liver damage and chronic inflammatory liver diseases including cirrhosis. Onset 2–4 weeks; consult doctor for acute complaints. Do not self-treat jaundice or ascites — these need immediate medical assessment."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Laut EMA-Monographie nur für Erwachsene ab 18 Jahren — keine ausreichenden Sicherheitsdaten für Kinder und Jugendliche.",
+          "en": "Per EMA monograph, adults 18+ only — insufficient safety data for children and adolescents."
+        }
+      },
+      "description": {
+        "de": "Standardisierter Silymarin-Trockenextrakt (Kommission E positiv bewertet) zur unterstützenden Behandlung bei toxisch bedingten Leberschäden und chronisch entzündlichen Lebererkrankungen — Leitpräparat Legalon.",
+        "en": "Standardised silymarin dry extract (positively assessed by Commission E) for supportive treatment of toxic liver damage and chronic inflammatory liver disease — leading preparation Legalon."
+      },
+      "source_ids": [
+        "src_ema_silybi_mariani_fructus_we",
+        "src_escop_silybi_fructus",
+        "src_kommission_e_cardui"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.3,
+          "max": 0.6
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TRADITIONELLE ANWENDUNG — gepulverte Früchte oder standardisierte Fertigpräparate: Gepulverte Frucht (Herba pulverata) als Kapseln oder Pulver 300–600 mg Einzeldosis, 2–3× täglich zu den Mahlzeiten. Laut EMA-Monographie (traditional use): unterstützende Behandlung bei dyspeptischen Beschwerden wie Völlegefühl, Blähungen und leichten Verdauungsbeschwerden. Fertigpräparate bevorzugen — Rohpulver enthält weniger bioverfügbares Silymarin als Extrakt. Bei Beschwerden über 4 Wochen ohne Besserung: Arzt aufsuchen.",
+          "en": "TRADITIONAL USE — powdered fruit or standardised preparations: Powdered fruit 300–600 mg per dose, 2–3× daily with meals. Per EMA monograph (traditional use): supportive treatment of dyspeptic complaints (bloating, flatulence, mild digestive discomfort). Prefer standardised preparations over raw powder for bioavailability. No improvement after 4 weeks: consult doctor."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur Erwachsene ab 18 Jahren.",
+          "en": "Adults 18+ only."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Anwendung gepulverter Mariendistelfrüchte bei dyspeptischen Beschwerden wie Völlegefühl und Blähungen — laut EMA als traditional use eingestuft.",
+        "en": "Traditional use of powdered milk thistle fruit for dyspeptic complaints (bloating, flatulence) — classified by EMA as traditional use."
+      },
+      "source_ids": [
+        "src_ema_silybi_mariani_fructus_we",
+        "src_kommission_e_cardui",
+        "src_escop_silybi_fructus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "liver",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 200,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "VOLKSHEILKUNDLICHER AUFGUSS: 3–5 g frisch zerstoßene Mariendistelfrüchte (im Mörser grob quetschen — NICHT fein mahlen, da das Öl sonst die Tasse verschmiert) mit 200 ml siedendem Wasser übergießen, 10–15 Min zugedeckt ziehen lassen, abseihen. 3× täglich vor den Mahlzeiten frisch zubereitet. WICHTIGER HINWEIS: Silymarin ist in Wasser sehr schlecht löslich (Löslichkeit ca. 0,04 mg/ml in Wasser). Ein Tee enthält nur Bruchteile der wirksamen Dosis standardisierter Extrakte — er wird volksheilkundlich zur allgemeinen Leberunterstützung getrunken, ist aber kein Ersatz für klinisch geprüfte Extrakte. Bitterstoffe und Schleimstoffe gehen im Tee in Lösung und tragen zur verdauungsfördernden Wirkung bei.",
+          "en": "FOLK INFUSION: 3–5 g freshly crushed milk thistle fruits (rough crush in mortar — do NOT grind fine) in 200 ml boiling water, covered, steep 10–15 min, strain. 3× daily before meals. NOTE: Silymarin is very poorly water-soluble (~0.04 mg/ml). Tea delivers only a fraction of the effective dose of standardised extracts — used in folk medicine for general liver support but not a substitute for clinical extracts. Bitter compounds and mucilage dissolve in the infusion and support digestion."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Tee aus frisch zerstoßenen Früchten zur allgemeinen Leberunterstützung — Silymarin kaum wasserlöslich, verdauungsfördernde Begleitstoffe aber im Tee wirksam.",
+        "en": "Folk tea from freshly crushed fruits for general liver support — silymarin poorly water-soluble, but digestive companions dissolve effectively."
+      },
+      "source_ids": [
+        "src_wichtl_teedrogen",
+        "src_pfaf_silybum",
+        "src_wp_de_mariendistel"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.35,
+          "max": 0.7
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 26,
+        "instructions": {
+          "de": "INTRAVENÖSE ANWENDUNG NUR IN DER KLINIK — Silibinin-Hemisuccinat (Legalon SIL): Bei akuter Vergiftung durch Amatoxine (Knollenblätterpilz, Amanita phalloides) wird der isolierte Wirkstoff Silibinin-Hemisuccinat als intravenöse Infusion in der Klinik eingesetzt. Dosierung: 20 mg/kg KG pro Tag als kontinuierliche Infusion über 24 Stunden, so früh wie möglich nach Vergiftung beginnen. Dies ist KEIN Selbstbehandlungsansatz — bei Verdacht auf Knollenblätterpilz-Vergiftung SOFORT Giftnotruf anrufen (Deutschland: 0800 192 0003) und Notaufnahme aufsuchen. Der Vergiftungsschutz beruht auf Hemmung des Amatoxin-Transports in die Leberzelle (OATP1B1/1B3). Auch für begleitende Behandlung bei hepatotoxischen Arzneimitteln in der Klinik beschrieben.",
+          "en": "INTRAVENOUS USE IN HOSPITAL ONLY — Silibinin hemisuccinate (Legalon SIL): For acute amatoxin poisoning (death cap mushroom, Amanita phalloides), the isolated compound silibinin hemisuccinate is given as IV infusion. Dose: 20 mg/kg/day as continuous infusion, started as early as possible. This is NOT for self-treatment — suspected mushroom poisoning: call poison control immediately and go to A&E. Mechanism: inhibition of amatoxin hepatocyte uptake via OATP1B1/1B3. Also described for hepatotoxic drug injury management in clinical settings."
+        }
+      },
+      "description": {
+        "de": "Klinische Anwendung von i.v. Silibinin-Hemisuccinat (Legalon SIL) bei akuter Knollenblätterpilz-Vergiftung — höchste klinische Evidenz für lebenschützende Wirkung bei Amatoxin-Hepatotoxizität.",
+        "en": "Clinical use of i.v. silibinin hemisuccinate (Legalon SIL) in acute death cap mushroom poisoning — highest clinical evidence for liver-protective effect in amatoxin hepatotoxicity."
+      },
+      "source_ids": [
+        "src_silibinin_iv_rambaldi",
+        "src_escop_silybi_fructus",
+        "src_ema_silybi_mariani_fructus_we"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "ESSBARE PFLANZE — Blätter und Stängel: Junge Rosettenblätter (vor der Blüte, März–April) entdornen (Stacheln mit Schere abschneiden oder abbrechen), dann roh als Salat verzehren oder kurz blanchiert (2–3 Min in kochendem Salzwasser) als Gemüse. Geschmack mild, leicht bitter. Die dornigen Blattränder sind das einzige Hindernis — mit Lederhandschuhen und Küchenschere leicht zu handhaben. Stängel vor der Blüte schälen (wie Rhabarber) und als Gemüse kochen oder kandiert zubereiten. Blütenkörbe unreif wie Artischocken zubereiten — ohne das Heu essen. Volkstümliche Ernährungspflanze in Mittelmeerländern.",
+          "en": "EDIBLE PLANT — leaves and stems: Young rosette leaves (pre-flowering, March–April), remove spines (cut with scissors), eat raw as salad or briefly blanched (2–3 min) as vegetable. Taste mild, slightly bitter. Peel stems before flowering (like rhubarb) and cook as vegetable or candy. Immature flower heads prepared like artichokes. Traditional food plant in Mediterranean countries."
+        }
+      },
+      "description": {
+        "de": "Junge Blätter (entdornt), Stängel (geschält) und unreife Blütenköpfe sind essbar — traditionelles Gemüse in Mittelmeerländern; ernährungsphysiologisch wertvoll durch Proteine, Fett und Flavonoide.",
+        "en": "Young leaves (despiked), peeled stems and immature flower heads are edible — traditional vegetable in Mediterranean regions; nutritionally valuable for proteins, fat and flavonoids."
+      },
+      "source_ids": [
+        "src_pfaf_silybum",
+        "src_wp_de_mariendistel"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "liver",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.35,
+          "max": 0.7
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 8,
+        "instructions": {
+          "de": "KOMMISSION-E-EMPFEHLUNG — Tagesdosis 200–400 mg Silymarin (berechnet als Silibinin) in Form standardisierter Zubereitungen. Positives Votum der Kommission E (1986, revidiert 1992) für die Anwendung bei toxisch bedingten Leberschäden sowie als unterstützende Behandlung bei chronischen Leberentzündungen und Leberzirrhose. Einzeldosis 140 mg Silymarin 2–3× täglich als Kapsel oder Dragee. Tinktur aus Mariendistelfrüchten (DAB-konform, 1:5 in 45–60 % Ethanol) entspricht der Fruchtgabe, enthält aber weniger bioverfügbares Silymarin als Trockenextrakt — bevorzugt Kapseln verwenden. Bei schweren Lebererkrankungen: ärztliche Behandlung obligatorisch.",
+          "en": "KOMMISSION E RECOMMENDATION — daily dose 200–400 mg silymarin (as silibinin) in standardised preparations. Positive Kommission E vote (1986, revised 1992) for toxic liver damage and supportive treatment of chronic hepatitis and cirrhosis. Single dose 140 mg silymarin 2–3× daily as capsule. Tincture (DAB, 1:5 in 45–60 % ethanol) matches fruit dosing but contains less bioavailable silymarin than dry extract — prefer capsules. Severe liver disease: medical treatment mandatory."
+        }
+      },
+      "description": {
+        "de": "Kommission-E-positiv bewertete Anwendung bei Lebertoxizität, chronischer Hepatitis und Leberzirrhose (200–400 mg Silymarin/Tag) — eine der bestdokumentierten pflanzlichen Leberindikationen in Deutschland.",
+        "en": "Positively assessed by Kommission E for liver toxicity, chronic hepatitis and cirrhosis (200–400 mg silymarin/day) — one of the best-documented herbal liver indications in Germany."
+      },
+      "source_ids": [
+        "src_kommission_e_cardui",
+        "src_escop_silybi_fructus",
+        "src_wichtl_teedrogen"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "liver",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "BLÄTTERTEE (volksheilkundlich): 2–3 TL frisch getrocknete, grob zerkleinerte Mariendistelblätter (ohne Stacheln — Stacheln vor der Trocknung entfernen) mit 250 ml siedendem Wasser übergießen, zugedeckt 8–10 Min ziehen lassen, durch feines Sieb abseihen. 1–2× täglich zwischen den Mahlzeiten. Bittere und gerbstoffhaltige Begleitstoffe fördern den Gallefluss und regen die Verdauungssekrete an. Silymarin-Gehalt in den Blättern sehr niedrig — reine Blätter-Zubereitungen dienen der allgemeinen Verdauungsunterstützung, nicht der Leberbehandlung. PFAF dokumentiert volksheilkundliche Verwendung der Blätter bei Leber- und Gallebeschwerden in Mittelmeertraditionen.",
+          "en": "LEAF TEA (folk): 2–3 tsp dried, coarsely cut milk thistle leaves (remove spines before drying) in 250 ml boiling water, covered, steep 8–10 min, strain finely. 1–2× daily between meals. Bitter and tannin compounds stimulate bile flow and digestive secretions. Silymarin content in leaves is very low — leaf preparations support digestion generally, not liver therapy. PFAF documents folk use of leaves for liver and gallbladder complaints in Mediterranean traditions."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Blättertee bei Verdauungsbeschwerden und zur Gallenfluss-Anregung — Silymarin-Gehalt der Blätter gering; bitterstofffördernde Wirkung im Vordergrund.",
+        "en": "Folk leaf tea for digestive complaints and bile flow stimulation — low silymarin content; primary action through bitter compounds."
+      },
+      "source_ids": [
+        "src_pfaf_silybum",
+        "src_wp_de_mariendistel",
+        "src_madaus_1938_carduus"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "SAMEN (geschälte Früchte) in der Küche: Reife, von den Pappushaaren befreite und geschälte Mariendistelsamen haben ein mildes, nussiges Aroma. Roh als Zusatz zu Müsli, Salaten oder Smoothies (1–2 TL täglich). Leicht angeröstet als Topping auf Suppen und Gemüsegerichten. Kalt gemahlen zu feinem Pulver und unter Joghurt oder Quark gerührt (Vollnahrung: enthält ~25 % Protein, 20–30 % fettes Öl, Silymarin). In der Mittelmeerküche und Naturkost-Küche geschätzte Zutat. Gemahlene Samen rasch verbrauchen — Öl oxidiert schnell nach dem Mahlen.",
+          "en": "SEEDS in the kitchen: Ripe, hulled milk thistle seeds have a mild, nutty flavour. Raw as addition to muesli, salads or smoothies (1–2 tsp daily). Lightly toasted as topping on soups and vegetables. Ground to fine powder and stirred into yoghurt or quark (whole food: ~25 % protein, 20–30 % fat, silymarin). Valued ingredient in Mediterranean and health-food cuisine. Consume ground seeds promptly — oil oxidises quickly after grinding."
+        }
+      },
+      "description": {
+        "de": "Geschälte Mariendistelsamen als nährstoffreiche Rohkost-Zutat: nussig-milde Körner mit Protein, Fettsäuren und Silymarin — traditionelle Verwendung in Mittelmeerküche und modernem Superfood-Bereich.",
+        "en": "Hulled milk thistle seeds as nutrient-dense raw food ingredient: mild nutty flavour, protein, fatty acids and silymarin — traditional Mediterranean use and modern superfood."
+      },
+      "source_ids": [
+        "src_pfaf_silybum",
+        "src_wp_en_milkthistle"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "reife Früchte",
+      "en": "ripe fruits"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG: Mariendistel-Extrakte (Silymarin) sind sehr gut verträglich, dennoch gilt: Lebererkrankungen gehören in ärztliche Hände. Silymarin BEHANDELT nicht — es unterstützt. Bei Gelbsucht (Ikterus), Bauchschmerzen, Dunkelfärbung des Urins, Entfärbung des Stuhls oder Aszites sofort Arzt aufsuchen — mögliche Zeichen ernsthafter Lebererkrankung. Mariendistel-Tee ist KEIN Notfallmittel bei Vergiftungen: Bei Verdacht auf Knollenblätterpilz-Vergiftung sofort Giftnotruf (D: 0800 192 0003; A: 01 406 43 43) und Notaufnahme — I.V. Silibinin ist Klinikmaßnahme. Selten allergische Reaktionen (Kreuzallergie mit anderen Korbblütlern möglich). Gelegentlich leichte GI-Beschwerden bei Therapiebeginn. Anwendung ohne ärztliche Kontrolle auf 4 Wochen begrenzen (unter ärztlicher Aufsicht bis 8 Wochen).",
+      "en": "IMPORTANT: Silymarin extracts are very well tolerated, but liver disease requires medical care. Silymarin SUPPORTS — it does not cure. Jaundice, abdominal pain, dark urine, pale stools or ascites: see a doctor immediately — possible signs of serious liver disease. Milk thistle tea is NOT an emergency antidote for poisoning: for suspected death cap poisoning call poison control immediately and go to A&E — i.v. silibinin is a hospital procedure. Rare allergic reactions (cross-reactivity with Asteraceae possible). Occasional mild GI symptoms at start. Limit self-medication to 4 weeks (up to 8 weeks under medical supervision)."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Laut EMA-Monographie mangels ausreichender Sicherheitsdaten in der Schwangerschaft nicht empfohlen. Klinische Studien fehlen. Küchenmäßige Verwendung von Blättern und Samen in üblichen Mengen gilt traditionsgemäß als unbedenklich — therapeutische Extrakt-Dosen meiden.",
+        "en": "Per EMA monograph, not recommended in pregnancy due to insufficient safety data. Clinical studies lacking. Culinary use of leaves and seeds in normal amounts is traditionally considered safe — avoid therapeutic extract doses."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Laut EMA-Monographie in der Stillzeit nicht empfohlen. Keine ausreichenden Daten zur Ausscheidung von Silymarin in die Muttermilch. Küchenmäßige Mengen wahrscheinlich unbedenklich, therapeutische Extrakte meiden.",
+        "en": "Per EMA monograph, not recommended during lactation. No adequate data on silymarin excretion into breast milk. Culinary amounts likely safe, avoid therapeutic extracts."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "EMA-Monographie: nicht für Kinder und Jugendliche unter 18 Jahren — keine ausreichenden Sicherheits- und Wirksamkeitsdaten. Lebererkrankungen bei Kindern erfordern kinderärztliche Diagnose und Behandlung.",
+        "en": "EMA monograph: not for children/adolescents under 18 — insufficient safety and efficacy data. Liver disease in children requires paediatric diagnosis and treatment."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "CYP3A4-Substrate (Ciclosporin, Tacrolimus, bestimmte Statine, Indinavir, HIV-Proteaseinhibitoren)",
+        "mechanism": {
+          "de": "Hochdosierte Silymarin-Extrakte können CYP3A4 in Darmmukosa und Leber hemmen — erhöhte Bioverfügbarkeit CYP3A4-abhängiger Arzneimittel möglich. Besondere Vorsicht bei Immunsuppressiva (Ciclosporin, Tacrolimus) und Antiretroviralia mit engem therapeutischem Fenster. Bei Normaldosierung und kurzzeitiger Anwendung geringes klinisches Risiko; bei Mehrfachmedikation Arzt informieren.",
+          "en": "High-dose silymarin extracts may inhibit CYP3A4 in intestinal mucosa and liver, increasing bioavailability of CYP3A4-dependent drugs. Particular caution with narrow therapeutic index immunosuppressants (ciclosporin, tacrolimus) and antiretrovirals. Low clinical risk at normal doses; inform doctor when on multiple medications."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_silybi_fructus"
+      },
+      {
+        "drug_class": "P-Glykoprotein-Substrate (Digoxin, bestimmte Zytostatika, Talinolol)",
+        "mechanism": {
+          "de": "In-vitro-Daten zeigen Hemmung von P-Glykoprotein durch Silymarin-Komponenten — mögliche Erhöhung der Resorption P-gp-abhängiger Arzneimittel im Darm. Klinische Relevanz bei Normaldosis gering, bei höheren Dosen und empfindlichen Substanzen (z. B. Digoxin) Plasmaspiegelkontrolle empfehlenswert.",
+          "en": "In vitro data show P-glycoprotein inhibition by silymarin components — possible increased intestinal absorption of P-gp substrates. Clinical relevance at normal doses low; plasma level monitoring recommended with sensitive substrates (e.g. digoxin) at higher doses."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_silybi_fructus"
+      },
+      {
+        "drug_class": "Antidiabetika (Metformin, Sulfonylharnstoffe, Insulin)",
+        "mechanism": {
+          "de": "Klinische Studien zeigen, dass Silymarin den Nüchternblutzucker und HbA1c bei Typ-2-Diabetikern leicht senken kann (insulinsensibilisierende Wirkung, Hemmung der Gluconeogenese). Bei gleichzeitiger antidiabetischer Medikation Risiko additiver Blutzuckersenkung — Blutzucker regelmäßig kontrollieren, Dosisanpassung ggf. nötig.",
+          "en": "Clinical studies show silymarin may mildly reduce fasting glucose and HbA1c in type 2 diabetes (insulin-sensitising, gluconeogenesis inhibition). Additive blood glucose lowering risk with antidiabetics — monitor blood glucose regularly, dose adjustment may be needed."
+        },
+        "severity": "monitor",
+        "source_id": "src_silibinin_iv_rambaldi"
+      },
+      {
+        "drug_class": "Hepatotoxische Arzneimittel (Methotrexat, Amiodaron, Valproat, Isoniazid)",
+        "mechanism": {
+          "de": "Silymarin kann die durch hepatotoxische Medikamente induzierten Leberzellschäden teilweise abschwächen (antioxidativer, membranstabilisierender Mechanismus). Diese PROTEKTIVE Wechselwirkung führt nicht zu einer Verstärkung der Toxizität — kann aber bei strenger Therapiemessung (Transaminasen als Toxizitätsmarker) die Bewertung der Arzneimittelwirkung verschleiern. Nur unter ärztlicher Überwachung kombinieren.",
+          "en": "Silymarin may partially attenuate liver cell damage induced by hepatotoxic drugs (antioxidant, membrane-stabilising). This PROTECTIVE interaction does not increase toxicity — but may mask drug toxicity assessment (when transaminases are used as toxicity marker). Combine only under medical supervision."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_silybi_fructus"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Mariendistel (Silybum marianum) oder andere Korbblütler (Asteraceae/Compositae) — Kreuzallergie mit Ragweed (Ambrosia), Kamille, Beifuß, Ringelblume möglich.",
+        "en": "Hypersensitivity to milk thistle (Silybum marianum) or other Asteraceae/Compositae — cross-allergy with ragweed, chamomile, mugwort, marigold possible."
+      },
+      {
+        "de": "Kinder und Jugendliche unter 18 Jahren.",
+        "en": "Children and adolescents under 18."
+      },
+      {
+        "de": "Gallenwegserkrankungen mit Obstruktion (Gallenkolik, Gallensteine mit Verlegung) — Gallefluss-stimulierende Wirkung kann Koliken auslösen.",
+        "en": "Obstructive biliary disease (biliary colic, obstructing gallstones) — bile flow stimulation may trigger colic."
+      },
+      {
+        "de": "Hormonsensitive Erkrankungen (Brustkrebs, Gebärmutterkrebs, Endometriose, Uterusmyome) — Silymarin kann schwache östrogene Aktivität zeigen; klinische Bedeutung unsicher, daher Vorsicht.",
+        "en": "Hormone-sensitive conditions (breast cancer, uterine cancer, endometriosis, uterine fibroids) — silymarin may exhibit weak oestrogenic activity; clinical significance uncertain, caution advised."
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Mariendistel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Mariendistel",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Silybum marianum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Silybum_marianum",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_silybi_mariani_fructus",
+      "type": "monograph",
+      "title": "EMA/HMPC/294187/2013 — European Union herbal monograph on Silybum marianum (L.) Gaertn., fructus (Final, 5 June 2018)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/silybi-mariani-fructus",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_silybi_mariani_fructus_we",
+      "type": "monograph",
+      "title": "EMA/HMPC/294187/2013 — European Union herbal monograph on Silybum marianum (L.) Gaertn., fructus (Final, 5 June 2018)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/silybi-mariani-fructus",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_cardui",
+      "type": "monograph",
+      "title": "Kommission E — Cardui mariae fructus (Mariendistelfrüchte), Monographie positiv, BAnz Nr. 50 vom 13.03.1986, revidiert 1992",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/cardui-mariae-fructus.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_silybi_fructus",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Silybi mariani fructus (Milk Thistle Fruit), 2nd edition supplemented 2009",
+      "url": "https://escop.com/downloads/silybi-mariani-fructus/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_teedrogen",
+      "type": "book",
+      "title": "Wichtl, Max (Hrsg.) — Teedrogen und Phytopharmaka. 5. Auflage, Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009. Eintrag: Silybi mariani fructus (Mariendistelfrüchte), S. 586–590.",
+      "url": "https://www.wvgpharma.de/product_info.php?products_id=261",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_silybum",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Silybum marianum database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Silybum+marianum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_silibinin_iv_rambaldi",
+      "type": "monograph",
+      "title": "Rambaldi A, Jacobs BP, Iaquinto G, Gluud C. Milk thistle for alcoholic and/or hepatitis B or C virus liver diseases. Cochrane Database Syst Rev. 2005;(2):CD003620. DOI: 10.1002/14651858.CD003620.pub2",
+      "url": "https://doi.org/10.1002/14651858.CD003620.pub2",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_mariendistel",
+      "type": "wikipedia",
+      "title": "Mariendistel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Mariendistel",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_milkthistle",
+      "type": "wikipedia",
+      "title": "Silybum marianum — Milk thistle (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Silybum_marianum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_1938_carduus",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band II: Carduus marianus (Mariendistel), 1938 (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/carduus-marianus.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_silybum",
+      "type": "wikidata",
+      "title": "Wikidata — Silybum marianum (Q161117)",
+      "url": "https://www.wikidata.org/wiki/Q161117",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "silybum-marianum.jpg",
+    "alt": {
+      "de": "Foto von Mariendistel",
+      "en": "Photo of Silybum marianum"
+    },
+    "license": "CC BY-SA 2.5",
+    "author": "Copyright by Curtis Clark, licensed as noted",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Silybum_marianum_2003-04-07.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Silymarin (Flavonolignan-Komplex: Silibinin A+B, Isosilibinin A+B, Silychristin, Silydianin)",
+      "category": "flavonoid",
+      "percent_range": "1.5-3 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Leitsubstanzkomplex der Mariendistelfrucht. Silibinin (= Silybin, Summe A und B) macht 50–70 % des Silymarins aus und ist der pharmakologisch wirksamste Anteil. Mechanismus: Hemmung des rezeptorvermittelten Eindringens von Toxinen (u. a. Amatoxinen) in die Leberzelle über OATP1B1/1B3-Transporter; Membranstabilisierung durch Wechselwirkung mit Phospholipid-Doppelschicht; Förderung der RNA-Polymerase-I-Aktivität (erhöhte Proteinsynthese in Hepatozyten); radikalfangende und antioxidative Wirkung. Sehr schlecht wasserlöslich — Tee kaum wirksam, Extrakte notwendig.",
+        "en": "Lead compound complex of milk thistle fruit. Silibinin (silybin, sum of A+B) constitutes 50–70 % of silymarin and is the pharmacologically most active component. Mechanism: inhibits receptor-mediated hepatocyte toxin uptake (including amatoxins) via OATP1B1/1B3 transporters; membrane stabilisation via phospholipid bilayer interaction; stimulation of RNA polymerase I (increased hepatocyte protein synthesis); radical-scavenging antioxidant. Very poorly water-soluble — tea barely effective, extracts required."
+      }
+    },
+    {
+      "name": "Silibinin (Silybin) — isolierter Reinstoff",
+      "category": "flavonoid",
+      "percent_range": "0.9-2 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Wichtigste Einzelkomponente des Silymarin-Komplexes (ca. 60 % des Gesamtsilymarins). Als halbsynthetisches Derivat (Silibinin-Hemisuccinat, Legalon SIL) intravenös zur Behandlung akuter Amatoxin-Vergiftungen zugelassen. In-vitro und klinisch auch antifibrotische und mögliche antiproliferative Aktivität bei Leberfibrose untersucht.",
+        "en": "Most important single component of the silymarin complex (~60 % of total silymarin). As semi-synthetic derivative (silibinin hemisuccinate, Legalon SIL) approved for intravenous treatment of acute amatoxin poisoning. In vitro and clinically investigated for antifibrotic and possible antiproliferative activity in liver fibrosis."
+      }
+    },
+    {
+      "name": "Fettes Öl (Linolsäure, Ölsäure, Palmitinsäure)",
+      "category": "other",
+      "percent_range": "20-30 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptbestandteil der Frucht nach Gewicht. Dominante Fettsäuren: Linolsäure (ca. 50–60 %), Ölsäure (ca. 25–30 %), Palmitinsäure (ca. 7–9 %). Das fette Öl umhüllt den Silymarin-Komplex in der Fruchtschale — Früchte müssen zerstoßen werden, damit Silymarin freigegeben wird. Qualität des Mariendistel-Samenöls kalt gepresst als Speiseöl nutzbar.",
+        "en": "Main fruit component by weight. Dominant fatty acids: linoleic acid (~50–60 %), oleic acid (~25–30 %), palmitic acid (~7–9 %). The fixed oil encases the silymarin complex in the fruit wall — fruits must be crushed to release silymarin. Cold-pressed milk thistle seed oil can be used as an edible oil."
+      }
+    },
+    {
+      "name": "Flavonoide (Taxifolin, Quercetin, Kaempferol, Apigenin)",
+      "category": "flavonoid",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Begleit-Flavonoide neben dem Silymarin-Komplex. Taxifolin (Dihydroquercetin) ist eine Vorstufe im Silymarin-Biosyntheseweg. Antioxidative Eigenschaften; unterstützen die Gesamtwirkung des Fruchtextrakts. Gehalte deutlich niedriger als Silymarin.",
+        "en": "Accompanying flavonoids alongside the silymarin complex. Taxifolin (dihydroquercetin) is a biosynthetic precursor on the silymarin pathway. Antioxidant properties; support the overall fruit extract activity. Levels considerably lower than silymarin."
+      }
+    },
+    {
+      "name": "Proteine und Aminosäuren",
+      "category": "other",
+      "percent_range": "25-30 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hochwertige Proteinfraktion mit allen essentiellen Aminosäuren — macht die Frucht ernährungsphysiologisch wertvoll als Nahrungsergänzung. Pharmakologisch wenig relevant. Eiweißgehalt erklärt, warum gemahlene Samen in Smoothies und Müslis als proteinreiche Ergänzung geschätzt werden.",
+        "en": "High-quality protein fraction with all essential amino acids — makes the fruit nutritionally valuable as a food supplement. Pharmacologically not relevant. Protein content explains why ground seeds are valued as a protein-rich addition to smoothies and muesli."
+      }
+    },
+    {
+      "name": "Phytosterole (Beta-Sitosterol, Campesterol, Stigmasterol)",
+      "category": "other",
+      "percent_range": "0.1-0.2 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Pflanzliche Sterole im Fruchtöl; können LDL-Cholesterin leicht senken (cholesterin-kompetitive Resorptionshemmung im Darm). Beitrag zum ernährungsphysiologischen Profil des Samenöls; kein relevanter Einfluss auf die hepatoprotektive Hauptwirkung des Silymarins.",
+        "en": "Plant sterols in the fruit oil; may mildly reduce LDL cholesterol (competitive intestinal cholesterol absorption inhibition). Contribute to nutritional profile of seed oil; no relevant influence on the hepatoprotective silymarin action."
+      }
+    },
+    {
+      "name": "Schleimstoffe und Polysaccharide",
+      "category": "mucilage",
+      "percent_range": "< 1 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Kleinere Fraktion wasserlöslicher Polysaccharide und Schleime in der Frucht. Diese Begleitstoffe sind im Teeaufguss löslich und tragen zur mild reizmildernden und verdauungsunterstützenden Wirkung bei — erklärt den volksheilkundlichen Einsatz des Tees bei Magenbeschwerden trotz schlechter Silymarin-Wasserlöslichkeit.",
+        "en": "Minor fraction of water-soluble polysaccharides and mucilage in the fruit. These soluble compounds dissolve in infusions and contribute to mild demulcent and digestive-supportive activity — explaining the folk use of the tea for gastric complaints despite poor silymarin water solubility."
+      }
+    },
+    {
+      "name": "Bittere Phenolverbindungen (Chlorogensäure, Kaffeesäure)",
+      "category": "phenolic_acid",
+      "percent_range": "0.05-0.2 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolcarbonsäuren in Blättern und in geringem Maße in Früchten. Chlorogensäure und Kaffeesäure tragen zur bitter-aromatischen Note und zur cholagogen (galleflussanregenden) Wirkung der Blätter-Zubereitungen bei. Antioxidativ und mäßig entzündungshemmend. Gut wasserlöslich — werden bei Teeaufguss vollständig extrahiert.",
+        "en": "Phenolcarboxylic acids in leaves and to a lesser extent in fruits. Chlorogenic and caffeic acid contribute to the bitter-aromatic character and cholagogue (bile flow stimulating) action of leaf preparations. Antioxidant and moderately anti-inflammatory. Water-soluble — fully extracted in infusions."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Trockener, sonniger Vormittag (9–12 Uhr), wenn der Tau vollständig abgetrocknet ist. Reife Früchte erkennt man daran, dass sich die weißen Pappushaare (Federkrone) öffnen und Samen bei leichtem Berühren herausfallen — dies markiert das optimale Erntezeitfenster, das nur wenige Tage dauert.",
+        "en": "Dry sunny morning (9–12), once dew has fully evaporated. Ripe fruits are recognised by opening white pappus hairs (feathery crown) and seeds falling out on light touch — this marks the optimal harvest window, which lasts only a few days."
+      },
+      "drying": {
+        "de": "VORSICHT: Mariendistel ist stark dornig — Lederhandschuhe, lange Ärmel und Schutzbrille unbedingt tragen. Reife Blütenköpfe dicht über dem Stiel abschneiden, SOFORT in Leinen- oder Papierbeutel stecken (Pappushaare fliegen bei Wind davon und können die Schleimhäute reizen). Köpfe 1–2 Wochen kopfüber in Papiertüten an trockenem, gut belüftetem Ort nachreifen lassen. Dann Köpfe über einem großen Tuch ausschütteln oder klopfen, Samen herausfallen lassen. Pappushaare durch Absieben (feines Sieb oder Leinentuch) entfernen. Früchte in einer einzigen Schicht bei max. 40 °C im Dörrautomat oder an der Luft nachtrocknen — Restfeuchte unter 10 %. Ganze, ungemörserte Früchte in luftdichten dunklen Gläsern lagern; erst kurz vor Gebrauch zerstoßen (Silymarin oxidiert nach Zerkleinern rasch).",
+        "en": "CAUTION: Milk thistle is heavily spined — leather gloves, long sleeves and eye protection are essential. Cut ripe flower heads close to the stem, immediately place in linen or paper bags (pappus hairs scatter in wind and can irritate mucous membranes). Ripen heads 1–2 weeks upside down in paper bags in a dry, well-ventilated location. Then shake or tap heads over a large cloth to release seeds. Remove pappus hairs by sieving (fine sieve or cloth). Dry fruits in a single layer at max 40 °C in a dehydrator or air-dry — residual moisture below 10 %. Store whole, uncrushed fruits in airtight dark jars; crush only just before use (silymarin oxidises rapidly after grinding)."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Ganze Früchte (ungeklopft) dunkel, trocken und luftdicht — bis 2 Jahre haltbar. Nach dem Zerstoßen/Mahlen rasch verwenden (max. 2–4 Wochen in Schraubglas). Standardisierte Präparate laut Packungsbeilage lagern.",
+        "en": "Whole (uncrushed) fruits dark, dry and airtight — shelf life up to 2 years. After crushing/grinding, use promptly (max. 2–4 weeks in sealed jar). Store standardised preparations per label instructions."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        3,
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Trockene, kühle Morgenstunden (8–11 Uhr) für Blätter — junge Rosetten-Blätter im frühen Frühjahr ernten, bevor der Blütenstengel austreibt (März–April). Ältere Blätter werden zäh und intensiv bitter. Handschuhe notwendig wegen Blattstacheln.",
+        "en": "Dry, cool morning (8–11) for leaves — harvest young rosette leaves in early spring before the flower stalk emerges (March–April). Older leaves become tough and intensely bitter. Gloves necessary for leaf spines."
+      },
+      "drying": {
+        "de": "Junge Blätter ernten, Stacheln sofort mit Küchenschere entfernen (in der Küche) oder Blätter vor dem Trocknen komplett entstacheln. Blätter in einer Schicht auf Tüchern oder Sieben ausbreiten, im Schatten an luftigem Ort bei max. 35–40 °C trocknen, bis sie papierartig knistern. Mehrfach wenden, damit keine feuchten Stellen bleiben. Getrocknete Blätter grob zerreiben und in Schraubgläsern dunkel lagern. Frische Blätter können auch direkt als Gemüse (blanchiert) oder Salat (roh, entdornt) genutzt werden — keine Trocknung nötig.",
+        "en": "Harvest young leaves, immediately remove spines with kitchen scissors (in kitchen) or despin completely before drying. Spread leaves in a single layer on cloths or screens in shade, dry at max 35–40 °C until papery and rustling. Turn regularly to avoid damp patches. Crumble dried leaves coarsely and store in dark screw-top jars. Fresh leaves can also be used directly as vegetable (blanched) or salad (raw, despined) — no drying needed."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknete Blätter luftdicht, dunkel und kühl — innerhalb 1 Jahr aufbrauchen. Bei Farbverlust (Vergilben) oder muffigem Geruch entsorgen.",
+        "en": "Dried leaves airtight, dark, cool — use within 1 year. Discard if yellowing or musty smell develops."
+      }
+    }
+  ]
+}

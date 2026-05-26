@@ -1,0 +1,391 @@
+{
+  "slug": "ribes-nigrum",
+  "names": {
+    "de": "Schwarze Johannisbeere",
+    "en": "Blackcurrant",
+    "latin": "Ribes nigrum"
+  },
+  "family": {
+    "de": "Stachelbeergewächse",
+    "en": "Gooseberry family",
+    "latin": "Grossulariaceae"
+  },
+  "description": {
+    "de": "Die Schwarze Johannisbeere bzw. Schwarze Ribisel ist eine Pflanzenart aus der Gattung Johannisbeeren in der Familie der Stachelbeergewächse (Grossulariaceae). Manchmal wird im deutschsprachigen Raum die französische Bezeichnung Cassis für ihre Früchte verwendet.",
+    "en": "The blackcurrant, black currant or cassis is a deciduous shrub in the family Grossulariaceae grown for its edible berries. It is native to temperate parts of central and northern Europe and northern Asia, where it prefers damp fertile soils. It is widely cultivated both commercially and domestically."
+  },
+  "teaser": {
+    "de": "Die Schwarze Johannisbeere bzw.",
+    "en": "The blackcurrant, black currant or cassis is a deciduous shrub in the family Grossulariaceae grown for its edible ber..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "immune",
+        "joints"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Blätteraufguss aus getrockneten Schwarze-Johannisbeere-Blättern, traditionell bei leichten Gelenkbeschwerden angewendet. Die EMA-HMPC-Monographie (Ribis nigri folium) stuft diese Indikation als traditional use ein.",
+        "en": "Leaf infusion of dried blackcurrant leaves, traditionally used for minor joint complaints. The EMA HMPC monograph (Ribis nigri folium) classifies this as traditional use."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–4 g getrocknete Blätter mit 150 ml kochendem Wasser überbrühen, 10 Minuten ziehen lassen, abseihen. Bis zu 3 Tassen täglich.",
+          "en": "Pour 150 ml of boiling water over 2–4 g of dried leaves, steep 10 minutes, strain. Up to 3 cups daily."
+        }
+      },
+      "source_ids": [
+        "src_ema_ribes_nigrum",
+        "src_wp_de_ribes",
+        "src_pfaf_ribes"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Blättertee zur unterstützenden Spülung der Harnwege bei leichten Beschwerden. Die EMA-HMPC-Monographie (Ribis nigri folium) erkennt diese Anwendung als traditional use zur Erhöhung der Urinproduktion an.",
+        "en": "Leaf tea used as a supportive flush of the urinary tract for minor complaints. The EMA HMPC monograph (Ribis nigri folium) recognises this as traditional use to increase urine production."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Wie Gelenkstee. Bei Anwendung zur Harnwegsspülung auf ausreichende Flüssigkeitszufuhr achten (≥ 1,5 l Wasser täglich).",
+          "en": "As for joint tea. When used for urinary flushing, ensure adequate fluid intake (≥ 1.5 l water daily)."
+        }
+      },
+      "source_ids": [
+        "src_ema_ribes_nigrum",
+        "src_pfaf_ribes"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "immune",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Frische Schwarze Johannisbeeren enthalten etwa 180 mg Vitamin C pro 100 g – einen der höchsten Gehalte unter heimischen Beerenfrüchten. Traditionell als natürliches Stärkungsmittel bei Erkältungen und zur Abwehrstützung gegessen.",
+        "en": "Fresh blackcurrants contain approximately 180 mg vitamin C per 100 g – among the highest of any temperate berry. Traditionally eaten as a natural tonic during colds and to support immune resistance."
+      },
+      "source_ids": [
+        "src_wp_de_ribes",
+        "src_wp_en_ribes",
+        "src_pmc_berry_leaves"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "throat",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Blätterinfusion als Gargelwasser oder getrunken bei Halsschmerzen und Rachenreizungen. Volksheilkundlich überliefert; die adstringierende Wirkung der Gerbstoffe und die antioxidativen Flavonoide gelten als Wirkgrundlage.",
+        "en": "Leaf infusion as gargle or drink for sore throat and pharyngeal irritation. Recorded in folk medicine; the astringent effect of tannins and antioxidant flavonoids are considered the basis of action."
+      },
+      "source_ids": [
+        "src_pfaf_ribes",
+        "src_pmc_berry_leaves"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "joints",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Blättertinktur (1:5 in 40%igem Ethanol) bei rheumatischen Gelenkschmerzen. Volksheilkundlich seit dem Mittelalter überliefert; Quercetin-Glykoside und Chlorogensäure gelten als entzündungsmodulierende Leitsubstanzen.",
+        "en": "Leaf tincture (1:5 in 40% ethanol) for rheumatic joint pain. Recorded in folk medicine since the Middle Ages; quercetin glycosides and chlorogenic acid are considered the key anti-inflammatory compounds."
+      },
+      "source_ids": [
+        "src_pfaf_ribes",
+        "src_pmc_berry_leaves"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Abgekühlter Blätteraufguss als Mundspülung bei Mundschleimhautentzündungen und Aphthen. Die Gerbstoffe wirken adstringierend auf gereizte Schleimhäute.",
+        "en": "Cooled leaf infusion as mouthwash for oral mucosa inflammation and aphthous ulcers. Tannins exert an astringent effect on irritated mucous membranes."
+      },
+      "source_ids": [
+        "src_pfaf_ribes"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7
+    ],
+    "harvest_part": {
+      "de": "Blätter (Sommer), reife Beeren",
+      "en": "leaves (summer), ripe berries"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Beeren sehr Vitamin-C-reich. Blättertee bei anhaltenden Gelenkbeschwerden (> 4 Wochen) oder Harnwegssymptomen (> 2 Wochen) ärztlich abklären.",
+      "en": "Berries very rich in vitamin C. Leaf tea: consult a physician for persistent joint complaints (> 4 weeks) or urinary symptoms (> 2 weeks)."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Sicherheitsdaten für medizinische Blätternutzung in der Schwangerschaft. Früchte als Lebensmittel unbedenklich.",
+        "en": "Insufficient safety data for medicinal leaf use during pregnancy. Fruit as food is considered safe."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten zur Sicherheit von Blätterextrakt in der Stillzeit.",
+        "en": "No data on safety of leaf extract during breastfeeding."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "EMA-Monographie empfiehlt Anwendung nur bei Erwachsenen. Beeren als Lebensmittel für Kinder unbedenklich.",
+        "en": "EMA monograph recommends use in adults only. Berries as food are safe for children."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Ribes-Arten.",
+        "en": "Known hypersensitivity to Ribes species."
+      },
+      {
+        "de": "Schwere Nierenerkrankungen (erhöhte Diurese kontraindiziert).",
+        "en": "Severe kidney disease (increased diuresis contraindicated)."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Schwarze Johannisbeere (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schwarze_Johannisbeere",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Blackcurrant (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Blackcurrant",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_ribes_nigrum",
+      "type": "monograph",
+      "title": "EMA HMPC Monograph: Ribis nigri folium (Blackcurrant Leaf) – Traditional Use",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/ribis-nigri-folium",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_ribes",
+      "type": "book",
+      "title": "Plants For A Future – Ribes nigrum",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ribes+nigrum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_ribes",
+      "type": "wikipedia",
+      "title": "Schwarze Johannisbeere (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schwarze_Johannisbeere",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_en_ribes",
+      "type": "wikipedia",
+      "title": "Blackcurrant (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Blackcurrant",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pmc_berry_leaves",
+      "type": "monograph",
+      "title": "Berry Leaves: An Alternative Source of Bioactive Natural Products of Nutritional and Medicinal Value – PMC4931538",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4931538/",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "ribes-nigrum.jpg",
+    "alt": {
+      "de": "Foto von Schwarze Johannisbeere",
+      "en": "Photo of Blackcurrant"
+    },
+    "license": "Public domain",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Schwarzejohannisbeere.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Delphinidin-3-O-glucoside",
+      "category": "flavonoid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Wichtigstes Anthocyan der Schwarzen Johannisbeere; verantwortlich für die tiefdunkle Farbe der Beeren.",
+        "en": "Primary anthocyanin of blackcurrant; responsible for the deep dark colour of the berries."
+      }
+    },
+    {
+      "name": "Cyanidin-3-O-rutinoside",
+      "category": "flavonoid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Eines der vier Haupt-Anthocyane der Beeren; in Saft und Pressrückständen konzentriert.",
+        "en": "One of the four major anthocyanins of the berries; concentrated in juice and pomace."
+      }
+    },
+    {
+      "name": "Quercetin-3-O-malonylglucoside",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "percent_range": "0.24-0.39 %",
+      "note": {
+        "de": "Dominantes Flavonoid der Blätter; antioxidativ und antientzündlich.",
+        "en": "Dominant flavonoid of the leaves; antioxidant and anti-inflammatory."
+      }
+    },
+    {
+      "name": "Ascorbinsäure (Vitamin C)",
+      "category": "vitamin",
+      "plant_part": "fruit",
+      "percent_range": "0.15-0.20 %",
+      "note": {
+        "de": "Ca. 180 mg pro 100 g Frischbeeren – außergewöhnlich stabil beim Erhitzen verglichen mit anderen Quellen.",
+        "en": "Approx. 180 mg per 100 g fresh berries – unusually stable upon heating compared to other sources."
+      }
+    },
+    {
+      "name": "Chlorogensäure",
+      "category": "phenolic_acid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Phenolcarbonsäure in den Blättern; zeigt antioxidative und möglicherweise analgetische Wirkung.",
+        "en": "Phenolic acid in the leaves; shows antioxidant and potentially analgesic activity."
+      }
+    },
+    {
+      "name": "Gamma-Linolensäure (GLA)",
+      "category": "other",
+      "plant_part": "seed",
+      "note": {
+        "de": "Mehrfach ungesättigte Fettsäure im Samenöl; Ausgangssubstanz für entzündungsmodulierende Gewebshormone.",
+        "en": "Polyunsaturated fatty acid in seed oil; precursor for anti-inflammatory prostaglandins."
+      }
+    },
+    {
+      "name": "β-Pinen / Caryophyllen",
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flüchtige Terpene, die dem charakteristischen würzig-harzigen Blätterduft der Schwarzen Johannisbeere zugrunde liegen.",
+        "en": "Volatile terpenes responsible for the characteristic spicy-resinous leaf aroma of blackcurrant."
+      }
+    },
+    {
+      "name": "Pektin",
+      "category": "polysaccharide",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Gelierfähiges Polysaccharid in den Beeren; unterstützt die Konsistenz von Konfitüren und wirkt mild stuhlregulierend.",
+        "en": "Gel-forming polysaccharide in the berries; contributes to jam consistency and mildly regulates digestion."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus.",
+        "en": "Morning after the dew has dried."
+      },
+      "drying": {
+        "de": "Dünn ausbreiten und bei maximal 40 °C im Schatten oder Dörrgerät trocknen; bei zu hoher Temperatur verliert das ätherische Öl.",
+        "en": "Spread thinly and dry in shade or dehydrator at max. 40 °C; higher temperatures cause essential oil loss."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In luftdichten Gläsern kühl und dunkel lagern.",
+        "en": "Store in airtight jars in a cool, dark place."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Möglichst in den Morgenstunden ernten, wenn die Beeren kühl sind.",
+        "en": "Harvest preferably in the morning hours while the berries are cool."
+      },
+      "drying": {
+        "de": "Frischverzehr bevorzugt; zum Trocknen bei 50–60 °C im Dörrgerät bis zur Biegefähigkeit; alternativ einfrieren.",
+        "en": "Fresh consumption preferred; for drying, use 50–60 °C in a dehydrator until pliable; alternatively freeze."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Gefroren bis 2 Jahre haltbar; getrocknet in dunklen Gläsern ca. 1 Jahr.",
+        "en": "Frozen up to 2 years; dried in dark jars approx. 1 year."
+      }
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "slug": "borago-officinalis",
+  "names": {
+    "de": "Borretsch",
+    "en": "Borage",
+    "latin": "Borago officinalis"
+  },
+  "family": {
+    "de": "Raublattgewächse",
+    "en": "Borage family",
+    "latin": "Boraginaceae"
+  },
+  "description": {
+    "de": "Borretsch, auch Boretsch geschrieben, auch als Gurkenkraut oder Kukumerkraut bezeichnet, ist eine Pflanzenart aus der Gattung Borago innerhalb der Familie der Raublattgewächse (Boraginaceae). Sie wird als Gewürz- und Heilpflanze verwendet und trägt daher das Artepitheton „officinalis“. Sie ist ursprünglich im Mittelmeerraum beheimatet und wird seit dem späten Mittelalter in Mitteleuropa kultiviert.",
+    "en": "Borage, also known as starflower, is an annual herb in the flowering plant family Boraginaceae native to the Mediterranean region. Although the plant contains small amounts of pyrrolizidine alkaloids, some parts are edible and its seeds provide oil."
+  },
+  "teaser": {
+    "de": "Borretsch, auch Boretsch geschrieben, auch als Gurkenkraut oder Kukumerkraut bezeichnet, ist eine Pflanzenart aus der...",
+    "en": "Borage, also known as starflower, is an annual herb in the flowering plant family Boraginaceae native to the Mediterr..."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Nur sehr junge, zarte Blätter (vor der Blüte) sparsam und gelegentlich verwenden — fein gehackt über Salate, Kräuterquark oder Suppen. Ältere Blätter sind borstig und unangenehm. WICHTIG: Wegen des Gehalts an hepatotoxischen Pyrrolizidinalkaloiden (PA) nur als Geschmackszutat in kleinen Mengen, nicht als Hauptbestandteil und nicht über Wochen. Empfehlung BfR: Gesamtaufnahme an PA aus allen Quellen unter 1 µg/Tag halten.",
+        "en": "Use only very young, tender leaves (before flowering) sparingly and occasionally — finely chopped over salads, herb curd or soups. Older leaves are bristly. IMPORTANT: Because of hepatotoxic pyrrolizidine alkaloids (PA), use only as flavouring in small amounts, not as main ingredient and not over weeks. BfR recommendation: keep total PA intake from all sources below 1 µg per day."
+      },
+      "description": {
+        "de": "Klassische Verwendung als Bestandteil der Frankfurter Grünen Sauce und in Wildkräutersalaten — gurkenartiger Geschmack. Nur junge Blätter, nur gelegentlich, wegen Pyrrolizidinalkaloiden.",
+        "en": "Classic ingredient in Frankfurt Green Sauce and wild-herb salads — cucumber-like flavour. Only young leaves, only occasionally, due to pyrrolizidine alkaloids."
+      },
+      "source_ids": [
+        "src_bfr_pa",
+        "src_pfaf_borago",
+        "src_wiki_de_borago"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Frische, ungespritzte Blüten direkt vor dem Servieren abzupfen, vorsichtig waschen, ggf. den schwarzen Kelch entfernen. Als essbare Dekoration auf Salaten, Suppen, Desserts, Kräuterquark, Frischkäse oder als spektakuläre Garnitur in Sommerdrinks (Bowle, Cocktails, Eiswürfel). Spritzige blaue Farbe wandelt sich in saurem Milieu (Zitrone) ins Rosa.",
+        "en": "Pick fresh, untreated flowers just before serving, wash gently, remove the black calyx if needed. Use as edible decoration on salads, soups, desserts, fresh cheese or as a spectacular garnish in summer drinks (punch, cocktails, ice cubes). Brilliant blue colour turns pink in acidic conditions (lemon)."
+      },
+      "description": {
+        "de": "Essbare, leuchtend blaue Blüten als spektakuläre Dekoration. PA-Gehalt der Blüten ist deutlich geringer als der der Blätter, dennoch nur in dekorativer Menge verwenden.",
+        "en": "Edible, brilliant-blue flowers as spectacular decoration. PA content of flowers is markedly lower than leaves; still use only in decorative amounts."
+      },
+      "source_ids": [
+        "src_pfaf_borago",
+        "src_wiki_en_borago",
+        "src_heilkraeuter_borago"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Traditionell als eine der sieben Kräuter in der Frankfurter Grünen Sauce (Borretsch, Kerbel, Kresse, Petersilie, Pimpinelle, Sauerampfer, Schnittlauch). Auch Bestandteil mancher Gurken-Einlegegewürze und Kräuteressige. Sparsam verwenden, junge Blätter bevorzugen.",
+        "en": "Traditionally one of the seven herbs in Frankfurt Green Sauce (borage, chervil, cress, parsley, salad burnet, sorrel, chives). Also used in some cucumber-pickling spices and herb vinegars. Use sparingly, prefer young leaves."
+      },
+      "description": {
+        "de": "Traditionelle Küchenverwendung als aromatisches Kraut mit gurkenartigem Geschmack — Leitkraut der Frankfurter Grünen Sauce.",
+        "en": "Traditional culinary use as aromatic herb with cucumber-like flavour — signature herb of Frankfurt Green Sauce."
+      },
+      "source_ids": [
+        "src_wiki_de_borago",
+        "src_heilkraeuter_borago"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Volksmedizinisch: 1 TL getrocknete Blüten mit 150 ml heißem Wasser übergießen, 5–10 Minuten ziehen lassen, abseihen. HEUTE NICHT MEHR EMPFOHLEN: Die Kommission E hat 1992 eine NEGATIVE Monographie veröffentlicht — innerliche Anwendung des Borretschkrautes wird wegen der lebertoxischen und potenziell kanzerogenen Pyrrolizidinalkaloide ABGELEHNT. Falls überhaupt, dann nur einzelne Tasse, nicht regelmäßig, nicht bei Schwangerschaft/Stillzeit/Kindern/Leberkrankheit.",
+        "en": "Folk-medicinal use: pour 150 ml hot water over 1 tsp dried flowers, steep 5–10 min, strain. NO LONGER RECOMMENDED TODAY: German Commission E published a NEGATIVE monograph in 1992 — internal use of borage herb is REJECTED due to hepatotoxic and potentially carcinogenic pyrrolizidine alkaloids. If at all, only a single cup, not regularly, not during pregnancy/lactation/children/liver disease."
+      },
+      "description": {
+        "de": "Historische volksmedizinische Verwendung als beruhigender, 'herzstärkender' und schweißtreibender Tee. Heute aufgrund der Pyrrolizidinalkaloide nicht mehr empfohlen — nur dokumentarisch erwähnt.",
+        "en": "Historical folk-medicinal use as a calming, 'heart-strengthening' and diaphoretic tea. No longer recommended today due to pyrrolizidine alkaloids — listed for documentary purposes only."
+      },
+      "source_ids": [
+        "src_kommission_e_negativ",
+        "src_henriettes_borago",
+        "src_heilkraeuter_borago"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "seed",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "de": "Borretschsamenöl (kaltgepresst, hoher Gehalt an Gamma-Linolensäure ~20–24 %) wird in der modernen dermatologischen Hautpflege bei atopischer Dermatitis (Neurodermitis) und sehr trockener Haut eingesetzt — entweder pur als Hautöl oder eingearbeitet in Pflegecremes/Salben. Innerliche Einnahme als Kapsel (500–1000 mg/Tag) ist möglich, aber Produkt MUSS PA-frei zertifiziert sein. Wirksamkeit bei atopischer Dermatitis ist umstritten (gemischte Studienergebnisse).",
+        "en": "Borage seed oil (cold-pressed, high gamma-linolenic acid content ~20–24 %) is used in modern dermatological skin care for atopic dermatitis and very dry skin — either pure as a skin oil or in moisturising creams/salves. Internal use as capsules (500–1000 mg/day) is possible, but the product MUST be certified PA-free. Efficacy in atopic dermatitis is controversial (mixed trial results)."
+      },
+      "description": {
+        "de": "Borretschsamenöl ist im Gegensatz zum Kraut weitgehend PA-frei und reich an Gamma-Linolensäure (GLA). Wird äußerlich bei Neurodermitis und trockener Haut verwendet — Bestandteil moderner Hautpflege.",
+        "en": "Borage seed oil is largely PA-free (unlike the herb) and rich in gamma-linolenic acid (GLA). Used externally for atopic dermatitis and dry skin — ingredient of modern skin care."
+      },
+      "source_ids": [
+        "src_efsa_pa",
+        "src_wiki_en_borago",
+        "src_pfaf_borago"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Blätter und Blüten (Sommer)",
+      "en": "leaves and flowers (summer)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "STARKE WARNUNG — Borretschkraut (Blätter, Blüten, Sprossspitzen) enthält LEBERTOXISCHE und potenziell KANZEROGENE Pyrrolizidinalkaloide (PA) vom Lycopsamin-Typ (Lycopsamin, Intermedin, Amabilin). Die deutsche Kommission E hat 1992 eine NEGATIVE Monographie veröffentlicht — innerliche Anwendung des Krautes wird ABGELEHNT. Das BfR empfiehlt, die Gesamtaufnahme an 1,2-ungesättigten PA aus allen Lebensmitteln auf unter 1 µg pro Tag zu begrenzen. KÜCHENGEBRAUCH (junge Blätter in Frankfurter Grüner Sauce, Blüten als Garnitur): nur gelegentlich und in kleinen Mengen. KEIN TEE, KEINE TINKTUR als Daueranwendung. Borretsch-SAMENÖL ist hingegen weitgehend PA-frei und für äußerliche/innerliche Verwendung geeignet — sofern als PA-frei zertifiziert.",
+      "en": "STRONG WARNING — Borage herb (leaves, flowers, shoots) contains HEPATOTOXIC and potentially CARCINOGENIC pyrrolizidine alkaloids (PA) of the lycopsamine type (lycopsamine, intermedine, amabiline). German Commission E published a NEGATIVE monograph in 1992 — internal use of the herb is REJECTED. The BfR recommends keeping total intake of 1,2-unsaturated PA from all foods below 1 µg per day. CULINARY USE (young leaves in Frankfurt Green Sauce, flowers as garnish): only occasionally and in small amounts. NO TEA, NO TINCTURE as continuous use. Borage SEED OIL is largely PA-free and suitable for external/internal use — provided it is certified PA-free."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "STRENG KONTRAINDIZIERT. Pyrrolizidinalkaloide sind plazentagängig und lebertoxisch — Schädigung der fötalen Leber (veno-okklusive Erkrankung) ist möglich. Auch die Frankfurter Grüne Sauce sollte in der Schwangerschaft nicht regelmäßig konsumiert werden.",
+        "en": "STRICTLY CONTRAINDICATED. Pyrrolizidine alkaloids cross the placenta and are hepatotoxic — damage to the fetal liver (veno-occlusive disease) is possible. Frankfurt Green Sauce should also not be eaten regularly during pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "STRENG KONTRAINDIZIERT. PA gehen in die Muttermilch über und können beim Säugling zu schweren Leberschäden (hepatische veno-okklusive Erkrankung) führen. Historisch dokumentierte Todesfälle bei Säuglingen nach mütterlichem PA-Konsum.",
+        "en": "STRICTLY CONTRAINDICATED. PAs pass into breast milk and can cause severe liver damage (hepatic veno-occlusive disease) in the infant. Historically documented infant deaths after maternal PA consumption."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Innerliche Anwendung des Borretschkrautes bei Kindern strikt vermeiden — kindliche Leber besonders empfindlich gegenüber PA. Auch in der Frankfurter Grünen Sauce für kleine Kinder nicht regelmäßig.",
+        "en": "Strictly avoid internal use of borage herb in children — child liver is particularly sensitive to PA. Also avoid regular consumption in Frankfurt Green Sauce for young children."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Hepatotoxische Arzneimittel (Paracetamol-Hochdosis, Methotrexat, Isoniazid, Ketoconazol, Statine, Valproinsäure)",
+        "mechanism": {
+          "de": "PA werden in der Leber durch CYP3A4 zu reaktiven Pyrrolen aktiviert, die Lebergewebe schädigen. Bei gleichzeitiger Einnahme weiterer lebertoxischer Substanzen ist mit additiver bis synergistischer Leberschädigung zu rechnen.",
+          "en": "PAs are activated by hepatic CYP3A4 to reactive pyrroles that damage liver tissue. Concomitant intake of other hepatotoxic substances can lead to additive or synergistic liver damage."
+        },
+        "severity": "avoid",
+        "source_id": "src_bfr_pa"
+      },
+      {
+        "drug_class": "Antikoagulanzien (Warfarin, DOAKs) — bei Borretschsamenöl-Hochdosen",
+        "mechanism": {
+          "de": "Gamma-Linolensäure (GLA) aus Borretschsamenöl kann die Thrombozytenaggregation hemmen und das Blutungsrisiko leicht erhöhen; bei oraler Hochdosierung (> 1 g GLA/Tag) zusammen mit Antikoagulanzien Vorsicht.",
+          "en": "Gamma-linolenic acid (GLA) from borage seed oil can inhibit platelet aggregation and slightly increase bleeding risk; with high oral doses (> 1 g GLA/day) combined with anticoagulants, use caution."
+        },
+        "severity": "caution"
+      },
+      {
+        "drug_class": "Antiepileptika (Phenothiazine, Trizyklika, Bupropion — krampfschwellensenkende Wirkstoffe)",
+        "mechanism": {
+          "de": "Es gibt Einzelfallberichte zu Krampfanfällen unter hohen Dosen Borretschsamenöl in Kombination mit krampfschwellensenkenden Arzneimitteln — Mechanismus unklar, Vorsicht bei Epilepsie-Patienten.",
+          "en": "Isolated case reports describe seizures under high-dose borage seed oil combined with seizure-threshold-lowering drugs — mechanism unclear, caution in epilepsy patients."
+        },
+        "severity": "caution"
+      }
+    ],
+    "max_continuous_use_weeks": 1,
+    "contraindications": [
+      {
+        "de": "Schwangerschaft — Pyrrolizidinalkaloide sind plazentagängig und fötal lebertoxisch.",
+        "en": "Pregnancy — pyrrolizidine alkaloids cross the placenta and are fetally hepatotoxic."
+      },
+      {
+        "de": "Stillzeit — PA gehen in die Muttermilch über; dokumentierte Säuglingsschäden.",
+        "en": "Lactation — PAs pass into breast milk; documented infant harm."
+      },
+      {
+        "de": "Säuglinge und Kleinkinder — besondere Empfindlichkeit der Leber gegenüber PA.",
+        "en": "Infants and small children — particular liver sensitivity to PA."
+      },
+      {
+        "de": "Bestehende Lebererkrankungen (Hepatitis, Leberzirrhose, hepatische veno-okklusive Erkrankung).",
+        "en": "Pre-existing liver disease (hepatitis, cirrhosis, hepatic veno-occlusive disease)."
+      },
+      {
+        "de": "Alkoholmissbrauch und gleichzeitige Einnahme lebertoxischer Medikamente.",
+        "en": "Alcohol abuse and concomitant use of hepatotoxic medicines."
+      },
+      {
+        "de": "Überempfindlichkeit gegen Boraginaceae.",
+        "en": "Hypersensitivity to Boraginaceae."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Borretsch (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Borretsch",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Borage (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Borage",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_kommission_e_negativ",
+      "type": "monograph",
+      "title": "Kommission E Monographie (NEGATIV): Boraginis herba (Borretschkraut) — Bundesanzeiger Nr. 127 vom 14.07.1992",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/0157.htm",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_bfr_pa",
+      "type": "monograph",
+      "title": "BfR-Stellungnahme Nr. 030/2013: Pyrrolizidinalkaloide in Kräutertees und Tees (aktualisiert)",
+      "url": "https://www.bfr.bund.de/cm/343/pyrrolizidinalkaloide-in-kraeutertees-und-tees.pdf",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_efsa_pa",
+      "type": "monograph",
+      "title": "EFSA Scientific Opinion on Pyrrolizidine alkaloids in food and feed (CONTAM Panel), EFSA Journal 2017;15(7):4908",
+      "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2017.4908",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_pfaf_borago",
+      "type": "monograph",
+      "title": "Plants For A Future — Borago officinalis L.",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Borago+officinalis",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_heilkraeuter_borago",
+      "type": "monograph",
+      "title": "Heilkräuter-Lexikon — Borretsch (Borago officinalis)",
+      "url": "https://heilkraeuter.de/lexikon/borretsch.htm",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_henriettes_borago",
+      "type": "book",
+      "title": "Henriette's Herbal Homepage — Borage (Borago officinalis), historical herbals incl. King's American Dispensatory 1898",
+      "url": "https://www.henriettes-herb.com/eclectic/kings/borago.html",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wiki_de_borago",
+      "type": "wikipedia",
+      "title": "Wikipedia DE — Borretsch (Borago officinalis)",
+      "url": "https://de.wikipedia.org/wiki/Borretsch",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wiki_en_borago",
+      "type": "wikipedia",
+      "title": "Wikipedia EN — Borage (Borago officinalis)",
+      "url": "https://en.wikipedia.org/wiki/Borage",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wikidata_borago",
+      "type": "wikidata",
+      "title": "Wikidata — Borago officinalis (Q156347)",
+      "url": "https://www.wikidata.org/wiki/Q156347",
+      "accessed": "2026-05-19"
+    }
+  ],
+  "image": {
+    "filename": "borago-officinalis.jpg",
+    "alt": {
+      "de": "Foto von Borretsch",
+      "en": "Photo of Borage"
+    },
+    "license": "See Commons file page",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:borago-officinalis.jpg"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "calendula-officinalis",
+      "cucurbita-pepo",
+      "cucurbita-pepo-zucchini",
+      "fragaria-vesca"
+    ],
+    "bad_partners": [],
+    "reasons": {
+      "calendula-officinalis": {
+        "de": "Ringelblume und Borretsch — der Insekten-Doppel-Magnet.",
+        "en": "Calendula and borage — the dual insect magnet."
+      },
+      "cucurbita-pepo": {
+        "de": "Borretsch zieht Bestäuber zu Kürbis-Blüten.",
+        "en": "Borage attracts pollinators to squash flowers."
+      },
+      "cucurbita-pepo-zucchini": {
+        "de": "Borretsch lockt Bestäuber zu Zucchini-Blüten — mehr Früchte.",
+        "en": "Borage attracts pollinators to zucchini flowers — more fruits."
+      },
+      "fragaria-vesca": {
+        "de": "Borretsch zieht Bestäuber zu Erdbeer-Blüten und stärkt die Pflanze.",
+        "en": "Borage attracts pollinators to strawberry blossoms and strengthens the plant."
+      }
+    },
+    "notes_de": "fragaria-vesca: Borretsch zieht Bestäuber zu Erdbeeren. cucurbita-pepo-zucchini: Borretsch lockt Bestäuber zu Zucchini-Blüten.",
+    "notes_en": "fragaria-vesca: Borage attracts pollinators to strawberries. cucurbita-pepo-zucchini: Borage attracts pollinators to zucchini flowers.",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 4,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 9
+    },
+    "days_to_harvest": 60,
+    "spacing_cm": 30,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "dynamic_accumulator",
+    "edible_flower"
+  ],
+  "constituents": [
+    {
+      "name": "Pyrrolizidinalkaloide (Lycopsamin, Intermedin, Amabilin, Supinin, Thesinin)",
+      "category": "alkaloid",
+      "percent_range": "0.001–0.01 % (Blätter, Sprossspitzen, Blüten)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "LEITSUBSTANZ DER TOXIKOLOGIE. 1,2-ungesättigte PA vom Lycopsamin-Typ — werden in der Leber durch CYP3A4 zu reaktiven Pyrrolen umgewandelt, die hepatozelluläre und sinusoidale Endothelschäden verursachen (hepatische veno-okklusive Erkrankung) und in Tierversuchen kanzerogen wirken. Höchste Konzentration in jungen Pflanzenteilen, in Blüten und Samen deutlich geringer. Borretschsamenöl ist nach Raffination weitgehend PA-frei.",
+        "en": "TOXICOLOGICAL LEAD SUBSTANCE. 1,2-unsaturated PAs of the lycopsamine type — activated in the liver by CYP3A4 to reactive pyrroles causing hepatocellular and sinusoidal endothelial damage (hepatic veno-occlusive disease) and carcinogenic in animal experiments. Highest concentration in young plant parts; markedly lower in flowers and seeds. Refined borage seed oil is largely PA-free."
+      }
+    },
+    {
+      "name": "Schleimstoffe (saure Polysaccharide, Galactane)",
+      "category": "mucilage",
+      "percent_range": "ca. 10–30 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Reizmilderndes und mild auswurfförderndes Wirkprinzip — historisch Grundlage für die volksmedizinische Verwendung bei Hustenreiz und Bronchialkatarrh. Heute durch sicherere Schleimdrogen (Eibisch, Spitzwegerich) ersetzt.",
+        "en": "Demulcent and mildly expectorant principle — historically the basis for folk-medicinal use in cough and bronchial catarrh. Today replaced by safer mucilage drugs (marshmallow, ribwort plantain)."
+      }
+    },
+    {
+      "name": "Gerbstoffe",
+      "category": "tannin",
+      "percent_range": "ca. 1–3 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Adstringierend, leicht antientzündlich; tragen zur volksmedizinischen Anwendung bei leichten Entzündungen der Mund- und Rachenschleimhaut bei.",
+        "en": "Astringent, mildly anti-inflammatory; contribute to folk-medicinal use for mild inflammation of mouth and throat mucosa."
+      }
+    },
+    {
+      "name": "Mineralstoffe (Kalium, Calcium, Magnesium, Eisen)",
+      "category": "mineral",
+      "percent_range": "Asche ca. 14–21 %, davon reich an Kalium und Calcium",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hoher Mineralstoffgehalt — historisch als 'blutreinigendes' und 'remineralisierendes' Wildgemüse geschätzt. Kalium-Calcium-Verhältnis hat möglicherweise leicht diuretische Wirkung mitbedingt.",
+        "en": "High mineral content — historically valued as a 'blood-cleansing' and 'remineralising' wild vegetable. K/Ca ratio may partly contribute to a mild diuretic effect."
+      }
+    },
+    {
+      "name": "Gamma-Linolensäure (GLA, C18:3 n-6)",
+      "category": "essential_oil",
+      "percent_range": "ca. 17–25 % der Samenöl-Fettsäuren",
+      "plant_part": "seed",
+      "note": {
+        "de": "LEITSUBSTANZ DES SAMENÖLS. Borretschsamenöl ist eine der reichsten pflanzlichen GLA-Quellen (höher als Nachtkerze). GLA wird im Körper zu Dihomo-Gamma-Linolensäure und zu entzündungsmodulierenden Prostaglandinen der Serie 1 metabolisiert — Grundlage des modernen Einsatzes bei atopischer Dermatitis und chronisch-entzündlichen Hauterkrankungen. Die Studienlage zur klinischen Wirksamkeit ist gemischt.",
+        "en": "LEAD SUBSTANCE OF SEED OIL. Borage seed oil is one of the richest plant GLA sources (higher than evening primrose). GLA is metabolised to dihomo-gamma-linolenic acid and to inflammation-modulating series 1 prostaglandins — basis of modern use in atopic dermatitis and chronic inflammatory skin conditions. Clinical evidence is mixed."
+      }
+    },
+    {
+      "name": "Kieselsäure",
+      "category": "mineral",
+      "percent_range": "Spuren bis ca. 2 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Verleiht den Blättern die charakteristische borstige Behaarung — Grund, weshalb ältere Blätter rau und unangenehm sind.",
+        "en": "Gives the leaves their characteristic bristly hairiness — reason why older leaves are rough and unpleasant."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Vormittags nach Abtrocknen des Taus, vor der Blüte. NUR junge, zarte Blätter ernten — ältere sind zu borstig und enthalten mehr PA. Wegen der PA-Problematik nicht in großen Mengen ernten, nicht trocknen für längere Vorräte; frisch verwenden.",
+        "en": "Late morning after dew has dried, before flowering. Harvest ONLY young, tender leaves — older ones are too bristly and contain more PA. Due to PA concerns, do not harvest in large amounts, do not dry for long storage; use fresh."
+      },
+      "drying": {
+        "de": "Frischverbrauch wird empfohlen. Falls überhaupt: dünn auflegen, im Schatten bei max. 35 °C trocknen. Wegen Pyrrolizidinalkaloiden grundsätzlich Vorräte vermeiden.",
+        "en": "Fresh use is recommended. If at all: lay out thinly, dry in the shade at max 35 °C. Generally avoid stockpiling due to pyrrolizidine alkaloids."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Falls getrocknet: luftdicht, trocken, dunkel — und nur sehr kleine Mengen, da innerliche Daueranwendung nicht empfohlen ist.",
+        "en": "If dried: airtight, dry, dark — and only very small amounts, as continuous internal use is not recommended."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Sonnige Vormittage. Frisch geöffnete blaue Blüten am Vormittag pflücken — sie blühen nur einen Tag und schließen bei Regen. Den kleinen schwarzen Kelch (mit Anhängseln) am Blütengrund abzupfen, da er bitter schmeckt. Frisch verwenden — Blüten welken in wenigen Stunden.",
+        "en": "Sunny mornings. Pick freshly opened blue flowers in the morning — they bloom only for a day and close in rain. Remove the small black calyx (with appendages) at the flower base as it tastes bitter. Use fresh — flowers wilt within hours."
+      },
+      "drying": {
+        "de": "Nur dekorativ; getrocknete Blüten verlieren rasch ihre leuchtend blaue Farbe und werden grau-blau. Für Garnitur immer frische Blüten bevorzugen. Alternative: in Eiswürfel einfrieren — bewahrt Farbe und Form für Drinks.",
+        "en": "Only decorative; dried flowers quickly lose their bright blue colour and turn greyish. For garnish always prefer fresh flowers. Alternative: freeze in ice cubes — preserves colour and shape for drinks."
+      },
+      "storage_months": 3,
+      "storage_condition": {
+        "de": "Frisch: nur wenige Stunden. Eingefroren in Eiswürfeln: ca. 3 Monate. Getrocknet (nur dekorativ): luftdicht, dunkel, kühl.",
+        "en": "Fresh: only a few hours. Frozen in ice cubes: ca. 3 months. Dried (decorative only): airtight, dark, cool."
+      }
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "slug": "tropaeolum-majus",
+  "names": {
+    "de": "Große Kapuzinerkresse",
+    "en": "Tropaeolum majus",
+    "latin": "Tropaeolum majus"
+  },
+  "family": {
+    "de": "Kapuzinerkressegewächse",
+    "en": "Nasturtium family",
+    "latin": "Tropaeolaceae"
+  },
+  "description": {
+    "de": "Die Große Kapuzinerkresse ist eine Pflanzenart aus der Gattung Kapuzinerkressen (Tropaeolum) innerhalb der Familie der Kapuzinerkressengewächse (Tropaeolaceae). Sie wird als Zier- sowie Heilpflanze und in der Küche verwendet und wird in den gemäßigten Gebieten häufig als einjährige Pflanze kultiviert, da sie frostempfindlich ist.",
+    "en": "Tropaeolum majus, the garden nasturtium, nasturtium, Indian cress or monk's cress, is a species of flowering plant in the family Tropaeolaceae. An annual or a short-lived perennial with disc-shaped leaves and brilliant yellow, orange or red flowers, it is of cultivated, probably hybrid origin. It is not closely related to the genus Nasturtium."
+  },
+  "teaser": {
+    "de": "Die Große Kapuzinerkresse ist eine Pflanzenart aus der Gattung Kapuzinerkressen (Tropaeolum) innerhalb der Familie de...",
+    "en": "Tropaeolum majus, the garden nasturtium, nasturtium, Indian cress or monk's cress, is a species of flowering plant in..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Aufguss aus frischen oder getrockneten Blättern und Blüten bei Harnwegsinfektionen. Benzyl-Isothiocyanat (BITC) aus Glucotropaeolin erreicht nach oraler Aufnahme therapeutisch relevante Konzentrationen im Urin und hemmt dort uropathogene Keime.",
+        "en": "Infusion of fresh or dried leaves and flowers for urinary tract infections. Benzyl isothiocyanate (BITC) derived from glucotropaeolin reaches therapeutically relevant concentrations in urine after oral intake and inhibits uropathogenic bacteria there."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "2–3 g getrocknete Blätter/Blüten mit 200 ml kochendem Wasser übergießen, 10 Minuten bedeckt ziehen lassen, abseihen. 3× täglich trinken.",
+          "en": "Pour 200 ml of boiling water over 2–3 g of dried leaves/flowers, steep covered for 10 minutes, strain. Drink 3 times daily."
+        }
+      },
+      "source_ids": [
+        "src_angocin_uti_2024",
+        "src_angocin_antimicrobial_2007"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Tee aus Kapuzinerkresse-Kraut (oft kombiniert mit Meerrettich in Angocin Anti-Infekt N) bei akuten Atemwegsinfektionen. Klinische Beobachtungsstudie zeigt Wirksamkeit vergleichbar mit anderen Phytopharmaka bei akuten oberen Atemwegsinfektionen.",
+        "en": "Tea from nasturtium herb (often combined with horseradish as in Angocin Anti-Infekt N) for acute respiratory tract infections. A clinical observational study shows effectiveness comparable to other phytopharmaceuticals for acute upper respiratory tract infections."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–4 g getrocknetes Kraut mit 250 ml heißem Wasser aufgießen, 10 Min. ziehen lassen, abseihen.",
+          "en": "Steep 2–4 g dried herb in 250 ml hot water for 10 minutes, strain."
+        }
+      },
+      "source_ids": [
+        "src_angocin_urti_2025"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "urinary",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Ethanolische Tinktur aus dem frischen Kraut als konzentrierte BITC-Quelle. Volksmedizinisch bei wiederkehrenden Harnwegsinfekten eingesetzt. Das flüchtige BITC ist im wässrigen Tee weniger stabil, daher bietet eine Tinktur eine konstante Dosierung.",
+        "en": "Ethanolic tincture of fresh herb as a concentrated BITC source. Used in folk medicine for recurrent urinary tract infections. Volatile BITC is less stable in aqueous tea, so a tincture provides more consistent dosing."
+      },
+      "preparation": {
+        "de": "Frisches Kraut im Verhältnis 1:5 in 60-prozentigem Ethanol, 2–3 Wochen mazerieren, abfiltrieren. 20–30 Tropfen in Wasser, 3× täglich.",
+        "en": "Fresh herb macerated in 60% ethanol at a 1:5 ratio for 2–3 weeks, filter. 20–30 drops in water, 3 times daily."
+      },
+      "source_ids": [
+        "src_bitc_metabolites_2013",
+        "src_glucotropaeolin_bioavailability_2014"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische Blätter und Blüten als Salatzutat oder Garnierung. Reich an Vitamin C (ca. 130 mg/100 g), Lutein, Zeaxanthin sowie Glucotropaeolin. Pflanzliche Quelle für antimikrobielle Schwefelverbindungen bei gleichzeitig angenehm-würzigem Geschmack.",
+        "en": "Fresh leaves and flowers used as salad ingredient or garnish. Rich in vitamin C (approx. 130 mg/100 g), lutein, zeaxanthin, and glucotropaeolin. Plant source of antimicrobial sulfur compounds with a pleasantly spicy flavour."
+      },
+      "source_ids": [
+        "src_wiki_en_tropaeolum",
+        "src_glucotropaeolin_biosynthesis_1996"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Zerquetschte frische Blätter als Auflage auf kleine Wunden, Hautpickel und Insektenstiche. Die lokale BITC-Freisetzung wirkt antimikrobiell und leicht entzündungshemmend. Volksmedizinische Anwendung in Mitteleuropa und Südamerika.",
+        "en": "Crushed fresh leaves applied as a poultice on minor wounds, skin blemishes, and insect stings. Local BITC release has antimicrobial and mildly anti-inflammatory effects. Folk medicinal use in Central Europe and South America."
+      },
+      "source_ids": [
+        "src_wiki_en_tropaeolum",
+        "src_bitc_antitumor_2006"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Mazerat oder Ölauszug aus Blüten und Blättern als Basis für Salben bei Hautproblemen. Traditionell bei Akne, kleinen Abszessen und schlecht heilenden Wunden verwendet.",
+        "en": "Oil macerate from flowers and leaves as a base for salves for skin problems. Traditionally used for acne, small abscesses, and poorly healing wounds."
+      },
+      "source_ids": [
+        "src_wiki_en_tropaeolum"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Blätter und Blüten",
+      "en": "leaves and flowers"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Hohe Dosen des Frischkrauts oder konzentrierter Extrakte können Magenschleimhaut-Reizungen verursachen. BITC ist in großen Mengen potentiell reizend für Nieren und Schleimhäute — empfohlene Tagesdosen nicht überschreiten. Allergien auf Tropaeolaceae selten, aber möglich.",
+      "en": "High doses of fresh herb or concentrated extracts may cause gastric mucosal irritation. BITC is potentially irritating to kidneys and mucous membranes in large amounts — do not exceed recommended daily doses. Allergies to Tropaeolaceae are rare but possible."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "contraindications": [
+      {
+        "de": "Entzündliche Nierenerkrankungen (Glomerulonephritis, Pyelonephritis im akuten Schub) — BITC wirkt reizend auf das Nierenparenchym.",
+        "en": "Inflammatory kidney disease (acute glomerulonephritis, acute pyelonephritis) — BITC is irritating to renal parenchyma."
+      },
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Kapuzinerkresse oder anderen Kreuzblütlern (Isothiocyanat-Allergie).",
+        "en": "Known hypersensitivity to nasturtium or other glucosinolate-containing plants (isothiocyanate allergy)."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulantien / Vitamin-K-Antagonisten",
+        "mechanism": {
+          "de": "Kapuzinerkresse ist reich an Vitamin K; hohe regelmäßige Zufuhr kann die INR bei Patienten unter Marcumar/Warfarin beeinflussen.",
+          "en": "Nasturtium is rich in vitamin K; high regular consumption may affect INR in patients taking warfarin/acenocoumarol."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Medizinische Dosen (konzentrierte Extrakte, Tinktur) in der Schwangerschaft meiden — BITC hat im Tierversuch potentielle uterine Wirkungen gezeigt. Gelegentlicher Speisegebrauch (Salat) gilt als unbedenklich.",
+        "en": "Avoid medicinal doses (concentrated extracts, tincture) during pregnancy — BITC has shown potential uterine effects in animal studies. Occasional culinary use (salad) is considered safe."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Daten zur BITC-Ausscheidung in die Muttermilch; konzentrierte Präparate vorsorglich meiden.",
+        "en": "Insufficient data on BITC excretion into breast milk; avoid concentrated preparations as a precaution."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Konzentrierte Präparate für Kinder unter 4 Jahren nicht empfohlen. Gelegentlicher Speisegebrauch unbedenklich.",
+        "en": "Concentrated preparations not recommended for children under 4 years. Occasional culinary use is safe."
+      }
+    }
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Große Kapuzinerkresse (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gro%C3%9Fe_Kapuzinerkresse",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Tropaeolum majus (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Tropaeolum_majus",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_angocin_uti_2024",
+      "type": "monograph",
+      "title": "Effectiveness of a Combination of Nasturtium Herb and Horseradish Root (Angocin® Anti-Infekt N) Compared to Antibiotics in Managing Acute and Recurrent Urinary Tract Infections: A Retrospective Real-world Cohort Study",
+      "url": "https://doi.org/10.3390/antibiotics13111036",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_angocin_urti_2025",
+      "type": "monograph",
+      "title": "An Epidemiological Study on the Effectiveness of Nasturtium Herb and Horseradish Root (Angocin® Anti-Infekt N) as well as Other Phytopharmaceuticals, Synthetic Products, and Antibiotics on the Course of Acute Upper Respiratory Tract Infection (aURTI)",
+      "url": "https://doi.org/10.3390/antibiotics15040336",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_angocin_antimicrobial_2007",
+      "type": "monograph",
+      "title": "Antimicrobial activity of Angocin® Anti-Infekt N, a combination of nasturtium (Tropaeoli majoris herba) and horseradish (Armoraciae rusticanae radix)",
+      "url": "https://doi.org/10.1055/s-2007-986730",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_bitc_antitumor_2006",
+      "type": "monograph",
+      "title": "In Vitro and In Vivo Antitumor Activity of Benzyl Isothiocyanate: A Natural Product from Tropaeolum majus",
+      "url": "https://doi.org/10.1055/s-2006-958062",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_bitc_metabolites_2013",
+      "type": "monograph",
+      "title": "Determination of benzyl isothiocyanate metabolites in human plasma and urine by LC-ESI-MS/MS after ingestion of nasturtium (Tropaeolum majus L.)",
+      "url": "https://doi.org/10.1007/s00216-013-7176-7",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_glucotropaeolin_bioavailability_2014",
+      "type": "monograph",
+      "title": "Metabolism of Glucotropaeolin from Tropaeolum majus L. (Nasturtium) and the Bioavailability of Benzyl-Isothiocyanates in Growing Pigs",
+      "url": "https://doi.org/10.4236/abc.2014.42022",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_glucotropaeolin_biosynthesis_1996",
+      "type": "monograph",
+      "title": "Isolation of a Microsomal Enzyme System Involved in Glucosinolate Biosynthesis from Seedlings of Tropaeolum majus L",
+      "url": "https://doi.org/10.1104/pp.111.3.831",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_en_tropaeolum",
+      "type": "wikipedia",
+      "title": "Tropaeolum majus — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tropaeolum_majus",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "tropaeolum-majus.jpg",
+    "alt": {
+      "de": "Foto von Große Kapuzinerkresse",
+      "en": "Photo of Tropaeolum majus"
+    },
+    "license": "Public domain",
+    "author": "Wouter Hagens",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tropaeolum_majus_A.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "medicinal",
+      "edible"
+    ],
+    "rooms": [
+      "balcony",
+      "kitchen"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "every_few_days",
+    "difficulty": 1,
+    "pet_safe": true,
+    "soil": {
+      "de": "Magerer Boden — sonst nur Blätter, keine Blüten",
+      "en": "Lean soil — otherwise only leaves, no flowers"
+    },
+    "pot_size_cm": 25,
+    "tips": {
+      "de": [
+        "Nicht düngen — zu nährstoffreich = viele Blätter, wenig Blüten.",
+        "Blüten und Blätter pfeffrig-würzig im Salat.",
+        "Selbstaussäend — Samen sind Kapern-Ersatz."
+      ],
+      "en": [
+        "Don't fertilise — too rich = many leaves, few flowers.",
+        "Flowers and leaves peppery-spicy in salad.",
+        "Self-seeding — seeds are caper substitute."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-sativum",
+      "apium-graveolens",
+      "calendula-officinalis",
+      "cucumis-sativus",
+      "cucurbita-pepo",
+      "cucurbita-pepo-zucchini",
+      "eruca-sativa",
+      "matricaria-chamomilla",
+      "petroselinum-crispum",
+      "rosmarinus-officinalis",
+      "solanum-lycopersicum",
+      "tagetes-patula",
+      "thymus-vulgaris",
+      "zea-mays"
+    ],
+    "bad_partners": [
+      "foeniculum-vulgare"
+    ],
+    "reasons": {
+      "cucumis-sativus": {
+        "de": "Kapuzinerkresse hält Gurken-Schädlinge fern.",
+        "en": "Nasturtium deters cucumber pests."
+      },
+      "cucurbita-pepo": {
+        "de": "Kapuzinerkresse hält Blattläuse und Kürbiskäfer fern.",
+        "en": "Nasturtium deters aphids and squash beetles."
+      },
+      "cucurbita-pepo-zucchini": {
+        "de": "Kapuzinerkresse hält Kürbiskäfer fern.",
+        "en": "Nasturtium deters squash beetles."
+      },
+      "foeniculum-vulgare": {
+        "de": "Fenchel ist stark allelopathisch und hemmt fast alle Nachbarn.",
+        "en": "Fennel is strongly allelopathic and inhibits nearly all neighbours."
+      },
+      "solanum-lycopersicum": {
+        "de": "Kapuzinerkresse zieht Blattläuse von der Tomate ab (Köderpflanze).",
+        "en": "Nasturtium pulls aphids away from tomato (trap plant)."
+      },
+      "tagetes-patula": {
+        "de": "Beide vertreiben Bodenschädlinge und sind essbar.",
+        "en": "Both deter soil pests and are edible."
+      },
+      "zea-mays": {
+        "de": "Kapuzinerkresse als Blattlaus-Köder schützt Mais.",
+        "en": "Nasturtium as aphid trap protects maize."
+      }
+    },
+    "notes_de": "cucurbita-pepo: Kapuzinerkresse hält Blattläuse und Kürbiskäfer fern. foeniculum-vulgare: Fenchel ist stark allelopathisch und hemmt fast alle Nachbarn. solanum-lycopersicum: Kapuzinerkresse ist Blattlaus-Köder für Tomate. cucurbita-pepo-zucchini: Kapuzinerkresse hält Kürbiskäfer fern.",
+    "notes_en": "cucurbita-pepo: Nasturtium deters aphids and squash beetles. foeniculum-vulgare: Fennel is strongly allelopathic and inhibits nearly all neighbours. solanum-lycopersicum: Nasturtium is an aphid trap for tomato. cucurbita-pepo-zucchini: Nasturtium deters squash beetles.",
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration) | Klassische Mischkultur-Tradition (Three Sisters, Bauernregel)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 4,
+        "end_month": 6
+      },
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 10
+    },
+    "days_to_harvest": 60,
+    "spacing_cm": 30,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "pest_repellent",
+    "ground_cover",
+    "edible_flower",
+    "pollinator_attractor"
+  ],
+  "constituents": [
+    {
+      "name": "Glucotropaeolin",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "percent_range": "0.5-1.5 %",
+      "note": {
+        "de": "Wichtigstes Glucosinolat der Kapuzinerkresse; Vorläufer von Benzyl-Isothiocyanat (BITC), das durch myrosinasevermittelte Hydrolyse freigesetzt wird.",
+        "en": "Main glucosinolate of nasturtium; precursor of benzyl isothiocyanate (BITC), released via myrosinase-mediated hydrolysis."
+      }
+    },
+    {
+      "name": "Benzyl-Isothiocyanat (BITC)",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hauptaktiver Metabolit nach Hydrolyse von Glucotropaeolin; antimikrobiell, antifungal, in Studien auch antitumorös und antimalarisch. Erreicht wirksame Konzentrationen im Urin.",
+        "en": "Main active metabolite after glucotropaeolin hydrolysis; antimicrobial, antifungal, and in studies also antitumoral and antimalarial. Reaches effective concentrations in urine."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "plant_part": "leaf",
+      "percent_range": "0.1-0.15 %",
+      "note": {
+        "de": "Frische Blätter sind mit ca. 130 mg/100 g ausgezeichnete Vitamin-C-Quelle; unterstützt Immunfunktion.",
+        "en": "Fresh leaves provide approx. 130 mg/100 g vitamin C; supports immune function."
+      }
+    },
+    {
+      "name": "Quercetin-3-glucosid",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Flavonoidglycoside in den Blüten mit antioxidativen und leicht entzündungshemmenden Eigenschaften.",
+        "en": "Flavonoid glycosides in flowers with antioxidant and mild anti-inflammatory properties."
+      }
+    },
+    {
+      "name": "Lutein und Zeaxanthin",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Carotinoidpigmente; besonders in den dunkelgrünen Blättern; schützend für Augengesundheit.",
+        "en": "Carotenoid pigments, especially in dark green leaves; protective for eye health."
+      }
+    },
+    {
+      "name": "Isoquercitrin",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Weiteres Flavonoidglycosid; synergistisch mit BITC bei der antimikrobiellen Wirkung.",
+        "en": "Another flavonoid glycoside; synergistic with BITC in antimicrobial activity."
+      }
+    },
+    {
+      "name": "Oxalsäure",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "In mäßiger Menge vorhanden; bei Nierensteinen (Oxalat-Typ) erhöhten Konsum meiden.",
+        "en": "Present in moderate amounts; limit high consumption in oxalate-type kidney stone patients."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus ernten — ätherische Verbindungen dann am konzentriertesten.",
+        "en": "Harvest in the morning after dew has dried — essential compounds are most concentrated at this time."
+      },
+      "drying": {
+        "de": "Schonend bei max. 35 °C trocknen oder frisch verwenden; BITC-Gehalte sinken beim Trocknen durch Myrosinase-Inaktivierung.",
+        "en": "Dry gently at max. 35 °C or use fresh; BITC content decreases on drying due to myrosinase inactivation."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Getrocknetes Kraut luftdicht in dunklem Glas, kühl und trocken lagern.",
+        "en": "Store dried herb airtight in a dark glass container, cool and dry."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens bei vollständig geöffneten Blüten; Blüten für Salate und Tinkturen frisch verwenden.",
+        "en": "Morning when flowers are fully open; use flowers fresh for salads and tinctures."
+      },
+      "drying": {
+        "de": "Blüten lassen sich bei 30–35 °C im Dörrautomat oder auf Papier trocknen; Farbverlust möglich.",
+        "en": "Flowers can be dried at 30–35 °C in a dehydrator or on paper; some colour loss is expected."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Kandierte oder essigingelegte Blüten bis zu 12 Monate haltbar.",
+        "en": "Candied or vinegar-pickled flowers keep for up to 12 months."
+      }
+    }
+  ]
+}

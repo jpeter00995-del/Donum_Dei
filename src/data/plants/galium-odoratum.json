@@ -1,0 +1,400 @@
+{
+  "slug": "galium-odoratum",
+  "names": {
+    "de": "Waldmeister",
+    "en": "Galium odoratum",
+    "latin": "Galium odoratum"
+  },
+  "family": {
+    "de": "Rötegewächse",
+    "en": "Madder family",
+    "latin": "Rubiaceae"
+  },
+  "description": {
+    "de": "Der Waldmeister oder das Wohlriechende Labkraut, auch Maikraut, Maienkraut oder Echter Waldmeister genannt, ist eine Pflanzenart aus der Gattung der Labkräuter (Galium). Diese Art gedeiht meist in Laubwäldern in den gemäßigten Breiten Eurasiens. Der bekannteste Inhaltsstoff des Waldmeisters ist das Cumarin.",
+    "en": "Galium odoratum, the sweet woodruff or sweetscented bedstraw, is a flowering perennial plant in the family Rubiaceae, native to much of Europe. It is widely cultivated for its flowers and its sweet-smelling foliage."
+  },
+  "teaser": {
+    "de": "Der Waldmeister oder das Wohlriechende Labkraut, auch Maikraut, Maienkraut oder Echter Waldmeister genannt, ist eine ...",
+    "en": "Galium odoratum, the sweet woodruff or sweetscented bedstraw, is a flowering perennial plant in the family Rubiaceae,..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system",
+        "sleep"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Aufguss aus getrocknetem Kraut (1–2 g pro Tasse) bei Nervosität, Schlafstörungen und Spannungskopfschmerzen. Die Iridoidglykoside (Asperulosid) und das aus Cumaringlykosiden entstehende Cumarin wirken leicht sedativ und krampflösend.",
+        "en": "Infusion of dried herb (1–2 g per cup) for nervousness, sleep disturbances, and tension headaches. Iridoid glycosides (asperuloside) and coumarin (formed from coumarin glycosides) exert mildly sedative and antispasmodic effects."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 4
+      },
+      "source_ids": [
+        "src_wp_de_galium",
+        "src_pfaf_galium",
+        "src_drugs_com_galium"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "liver",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Volksmedizinisch bei Leberleiden, Gallenwegserkrankungen und Ikterus eingesetzt. Die krampflösenden und entzündungshemmenden Eigenschaften der Iridoidglykoside (Asperulosid, Monotropein) stützen diesen Einsatz.",
+        "en": "Used in folk medicine for liver complaints, biliary obstruction, and jaundice. The antispasmodic and anti-inflammatory properties of iridoid glycosides (asperuloside, monotropein) support this application."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 3
+      },
+      "source_ids": [
+        "src_pfaf_galium",
+        "src_drugs_com_galium"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Als mildes Diuretikum bei leichten Harnwegsreizungen und zur unterstützenden Durchspülungstherapie eingesetzt. Die Cumarinderivate wirken gefäßerweiternd und fördern die Nierendurchblutung.",
+        "en": "Used as a mild diuretic for mild urinary tract irritation and as supportive flushing therapy. Coumarin derivatives have vasodilatory effects and promote renal perfusion."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2
+      },
+      "source_ids": [
+        "src_pfaf_galium",
+        "src_drugs_com_galium"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Abgekühlter Aufguss oder frisch zerquetschtes Kraut als feuchte Kompresse bei kleinen Wunden, Hautreizungen und Verbrennungen leichten Grades. In-vitro-Studien belegen antioxidative und wundheilungsfördernde Eigenschaften der Polyphenole.",
+        "en": "Cooled infusion or freshly crushed herb as a moist compress for small wounds, skin irritation, and minor burns. In vitro studies confirm antioxidant and wound-healing properties of the polyphenols."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_pmc3764671",
+        "src_wp_de_galium"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Kurz welkes oder maximal 2–24 Stunden vorgetrocknetes frisches Kraut als Aromageber in der Maibowle und Kräuterlikören. Maximal 3–3,5 g frisches Kraut pro Liter (BfR-Empfehlung, Cumarin ≤ 0,1 mg/kg Körpergewicht/Tag). Trockenes Kraut verliert durch Sublimation einen Teil des Cumarins.",
+        "en": "Briefly wilted or max. 2–24 h pre-dried fresh herb as aromatic flavouring in May wine and herbal liqueurs. Maximum 3–3.5 g fresh herb per litre (BfR recommendation, coumarin ≤ 0.1 mg/kg body weight/day). Dried herb loses some coumarin through sublimation."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "src_wp_de_galium",
+        "src_pubmed40122276"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Volksmedizinisch bei Venenschwäche und Krampfadern eingesetzt. Cumarin und Rutin stabilisieren die Kapillarwände und hemmen die Blutgerinnung moderat; bei Einnahme von Gerinnungshemmern kontraindiziert.",
+        "en": "Used in folk medicine for venous insufficiency and varicose veins. Coumarin and rutin stabilise capillary walls and mildly inhibit coagulation; contraindicated when taking anticoagulants."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_pfaf_galium",
+        "src_pmc11672921"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6
+    ],
+    "harvest_part": {
+      "de": "Kraut vor und während der Blüte",
+      "en": "herb before and during flowering"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Enthält Cumarin (ca. 0,28 % im Frischkraut, ca. 1 % in der Trockenmasse vor Sublimation). Tägliche Cumarinaufnahme auf max. 0,1 mg/kg Körpergewicht begrenzen (BfR). Größere Mengen verursachen Kopfschmerzen, Benommenheit und können bei häufigem Verzehr die Leber schädigen. Feuchtes Lagern begünstigt die Bildung von Dicumarin (starkes Antikoagulans — Blutungsrisiko).",
+      "en": "Contains coumarin (approx. 0.28 % in fresh herb, approx. 1 % in dry matter before sublimation). Limit daily coumarin intake to max. 0.1 mg/kg body weight (BfR). Larger amounts cause headaches, dizziness, and with frequent consumption can damage the liver. Damp storage promotes formation of dicoumarin (potent anticoagulant — bleeding risk)."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Nicht in der Schwangerschaft anwenden; Cumarin und Iridoidglykoside können die Gebärmutter stimulieren.",
+        "en": "Do not use during pregnancy; coumarin and iridoid glycosides may stimulate the uterus."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten; vorsorglich meiden.",
+        "en": "Insufficient data; avoid as a precaution."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Wegen des Cumaringehalts bei Kindern unter 12 Jahren nur nach ärztlichem Rat und in sehr geringen Mengen anwenden.",
+        "en": "Due to coumarin content, use in children under 12 only on medical advice and in very small amounts."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Einnahme von Antikoagulanzien (Cumarin-Antagonismus — verstärkte Blutungsneigung).",
+        "en": "Concomitant use of anticoagulants (coumarin antagonism — increased bleeding tendency)."
+      },
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Galium-Arten oder Rötegewächsen.",
+        "en": "Known hypersensitivity to Galium species or the Rubiaceae family."
+      },
+      {
+        "de": "Schwere Lebererkrankungen (Cumarinmetabolisierung beeinträchtigt).",
+        "en": "Severe liver disease (impaired coumarin metabolism)."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulanzien (Warfarin, Phenprocoumon)",
+        "mechanism": {
+          "de": "Cumarin und Dicumarin aus feuchtem Kraut können die gerinnungshemmende Wirkung verstärken; erhöhtes Blutungsrisiko.",
+          "en": "Coumarin and dicoumarin from damp herb may potentiate anticoagulant effect; increased bleeding risk."
+        },
+        "severity": "avoid",
+        "source_id": "src_pfaf_galium"
+      },
+      {
+        "drug_class": "Thrombozytenaggregationshemmer (Aspirin, Clopidogrel)",
+        "mechanism": {
+          "de": "Additive Hemmung der Thrombozytenfunktion durch Cumarinderivate möglich.",
+          "en": "Additive inhibition of platelet function by coumarin derivatives possible."
+        },
+        "severity": "caution",
+        "source_id": "src_pfaf_galium"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Waldmeister (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Waldmeister",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Galium odoratum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Galium_odoratum",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_de_galium",
+      "type": "wikipedia",
+      "title": "Waldmeister (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Waldmeister",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_galium",
+      "type": "wikipedia",
+      "title": "Galium odoratum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Galium_odoratum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_galium",
+      "type": "book",
+      "title": "Plants For A Future — Galium odoratum",
+      "url": "https://www.pfaf.org/user/Plant.aspx?LatinName=Galium+odoratum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_drugs_com_galium",
+      "type": "monograph",
+      "title": "Woodruff, Sweet — Uses, Benefits & Dosage (Drugs.com Natural Products)",
+      "url": "https://www.drugs.com/npp/woodruff-sweet.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pubmed40122276",
+      "type": "monograph",
+      "title": "Comprehensive analysis of natural products of Galium odoratum focusing on coumarin formation during drying (PubMed 40122276)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40122276/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pmc3764671",
+      "type": "monograph",
+      "title": "Antioxidant and burn healing potential of Galium odoratum extracts (PMC3764671)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3764671/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pmc11672921",
+      "type": "monograph",
+      "title": "Phenolic Content and Anti-Inflammatory Activity of Galium odoratum Extracts in Murine Macrophages (PMC11672921)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11672921/",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "galium-odoratum.jpg",
+    "alt": {
+      "de": "Foto von Waldmeister",
+      "en": "Photo of Galium odoratum"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Jerzy Opioła",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Asperula_odorata_a1.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Cumarin",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "percent_range": "ca. 0,28 % (Frischkraut); bis 1 % (Trockenmasse vor Sublimation)",
+      "note": {
+        "de": "Entsteht beim Trocknen aus den Cumaringlykosiden (cis- und trans-Melilosid) durch enzymatische Hydrolyse; verantwortlich für den typischen Heuduft. Sedativ, krampflösend, vasodilatorisch; in Überdosierung hepatotoxisch.",
+        "en": "Formed during drying from coumarin glycosides (cis- and trans-melilotoside) through enzymatic hydrolysis; responsible for the characteristic hay-like scent. Sedative, antispasmodic, vasodilatory; hepatotoxic in overdose."
+      }
+    },
+    {
+      "name": "Asperulosid",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "percent_range": "ca. 0,05 %",
+      "note": {
+        "de": "Iridoidglykosid; antientzündlich und immunmodulatorisch; einer der Leitinhaltsstoffe von Galium odoratum.",
+        "en": "Iridoid glycoside; anti-inflammatory and immunomodulatory; one of the marker compounds of Galium odoratum."
+      }
+    },
+    {
+      "name": "Monotropein",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "percent_range": "ca. 0,04 %",
+      "note": {
+        "de": "Iridoidglykosid; kommt zusammen mit Asperulosid vor; antientzündliche Eigenschaften.",
+        "en": "Iridoid glycoside; co-occurs with asperuloside; anti-inflammatory properties."
+      }
+    },
+    {
+      "name": "Rutin",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavonoidglykosid; stabilisiert Kapillarwände; antioxidative und venenschützende Eigenschaften.",
+        "en": "Flavonoid glycoside; stabilises capillary walls; antioxidant and venoprotective properties."
+      }
+    },
+    {
+      "name": "Quercetin-Derivate",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Quercetin- und Kaempferol-Glykoside; antioxidativ und leicht entzündungshemmend.",
+        "en": "Quercetin and kaempferol glycosides; antioxidant and mildly anti-inflammatory."
+      }
+    },
+    {
+      "name": "Chlorogensäure (Chlorogenic acid)",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolcarbonsäure; antioxidative Eigenschaften; in G. odoratum neben Neochlorogensäure nachgewiesen.",
+        "en": "Phenolic acid; antioxidant properties; detected in G. odoratum alongside neochlorogenic acid."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine)",
+      "category": "tannin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hydrolysierbare und kondensierte Gerbstoffe in geringen Mengen; adstringierend.",
+        "en": "Hydrolysable and condensed tannins in small amounts; astringent."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        4,
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Morgens nach Tauabtrocknung; Kraut möglichst kurz vor Beginn der Blüte oder während der Blüte ernten.",
+        "en": "Morning after the dew has dried; harvest herb preferably just before or during flowering."
+      },
+      "drying": {
+        "de": "Für die Maibowle: 2–24 Stunden welken lassen (entwickelt Cumarinduft), dann frisch verwenden. Für Tee/Trocknung: bei max. 40 °C trocknen; Cumarin sublimiert teilweise bei längerer Trocknung.",
+        "en": "For May wine: wilt for 2–24 hours (develops coumarin scent), then use fresh. For tea/drying: dry at max. 40 °C; coumarin partially sublimates with prolonged drying."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken (nicht feucht!) lagern — feuchte Lagerung fördert Bildung von Dicumarin. Dicht schließende Behälter, lichtgeschützt.",
+        "en": "Store dry (not damp!) — damp storage promotes formation of dicoumarin. Airtight containers, protected from light."
+      }
+    }
+  ]
+}

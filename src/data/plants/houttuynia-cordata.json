@@ -1,0 +1,488 @@
+{
+  "slug": "houttuynia-cordata",
+  "names": {
+    "de": "Molchschwanz",
+    "en": "Houttuynia cordata",
+    "latin": "Houttuynia cordata"
+  },
+  "family": {
+    "de": "Eidechsenschwanzgewächse",
+    "en": "Lizard-tail family",
+    "latin": "Saururaceae"
+  },
+  "description": {
+    "de": "Beschreibung für Molchschwanz folgt — siehe Wikipedia-Artikel.",
+    "en": "Houttuynia cordata, also known as fish mint, fish leaf, rainbow plant, chameleon plant, heart leaf, fish wort, or Chinese lizard tail, is one of two species in the genus Houttuynia. It is a flowering plant native to Southeast Asia. It grows in moist, shady locations."
+  },
+  "teaser": {
+    "de": "Beschreibung für Molchschwanz folgt — siehe Wikipedia-Artikel.",
+    "en": "Houttuynia cordata, also known as fish mint, fish leaf, rainbow plant, chameleon plant, heart leaf, fish wort, or Chi..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Aufguss aus getrockneten oberirdischen Pflanzenteilen (Blätter, Stängel) wird in der traditionellen chinesischen Medizin (TCM) bei Erkrankungen der oberen Atemwege, chronischem Husten, Bronchitis und Lungenentzündung eingesetzt. Das Kraut gilt als lungenklärend (清肺 qīng fèi) und schleimlösend. Klinische Belege fehlen; die Anwendung beruht auf jahrtausendelanger TCM-Tradition und pharmakologischen Vorstudien.",
+        "en": "Infusion of dried aerial parts (leaves, stems) is used in Traditional Chinese Medicine (TCM) for upper respiratory tract infections, chronic cough, bronchitis, and pneumonia. The herb is considered lung-clearing (清肺 qīng fèi) and expectorant. Clinical evidence is lacking; use is based on millennia of TCM tradition and preliminary pharmacological studies."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 10
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "3–10 g getrocknetes Kraut mit 200 ml kochendem Wasser übergießen, 10 Minuten ziehen lassen, abseihen. Bis zu 3 Tassen täglich trinken. Nicht länger als 4 Wochen ohne Pause.",
+          "en": "Pour 200 ml boiling water over 3–10 g of dried herb, steep for 10 minutes, strain. Drink up to 3 cups daily. Do not use longer than 4 weeks without a break."
+        }
+      },
+      "source_ids": [
+        "src_zhang_dietary_chinese_herbs",
+        "src_kurmanbaeva_2022",
+        "src_wiki_houttuynia"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "In der TCM wird Houttuynia (Yu Xing Cao / 鱼腥草) traditionell bei Harnwegsinfektionen und zur Stärkung der Immunabwehr eingesetzt. Die diuretische Wirkung ist empirisch belegt; antimikrobielle Inhaltsstoffe (Decanoylacetaldehyd, Quercetin) werden als Mechanismus diskutiert.",
+        "en": "In TCM, Houttuynia (Yu Xing Cao / 鱼腥草) is traditionally used for urinary tract infections and to strengthen immune defences. The diuretic effect is empirically supported; antimicrobial constituents (decanoyl acetaldehyde, quercetin) are discussed as the mechanism."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 15
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "5–15 g Trockenkraut in 250 ml heißem Wasser 10 Min. ziehen lassen. Täglich 2 Tassen, begleitend ausreichend Flüssigkeit trinken.",
+          "en": "Steep 5–15 g dried herb in 250 ml hot water for 10 minutes. Drink 2 cups daily with adequate fluid intake."
+        }
+      },
+      "source_ids": [
+        "src_zhang_dietary_chinese_herbs",
+        "src_qu_chemical_constituents",
+        "src_wiki_houttuynia"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische, zerstoßene Blätter werden in der asiatischen Volksmedizin auf entzündete Hautpartien, Furunkel, Schlangenbisse und schlecht heilende Wunden gelegt. Die adstringierenden Gerbstoffe und antibakteriellen Inhaltsstoffe wirken oberflächendesinfizierend.",
+        "en": "Fresh, crushed leaves are applied in Asian folk medicine to inflamed skin areas, boils, snake bites, and poorly healing wounds. Astringent tannins and antibacterial constituents act as surface disinfectants."
+      },
+      "source_ids": [
+        "src_pfaf_houttuynia",
+        "src_zhang_dietary_chinese_herbs"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "immune",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Alkoholischer Extrakt aus frischen oder getrockneten Pflanzenteilen als Immuntonikum. In-vitro-Studien zeigen antivirale Aktivität gegen HSV durch Hemmung des NF-κB-Signalweges; klinische Belege beim Menschen fehlen. Nicht identisch mit injizierbaren Houttuynia-Präparaten, die schwere Überempfindlichkeitsreaktionen verursacht haben.",
+        "en": "Alcoholic extract from fresh or dried plant parts as immune tonic. In vitro studies demonstrate antiviral activity against HSV through inhibition of the NF-κB pathway; clinical evidence in humans is lacking. Not equivalent to injectable Houttuynia preparations, which have caused severe hypersensitivity reactions."
+      },
+      "preparation": {
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "Fertigpräparat (1:5-Tinktur, Ethanol 40 %) nach Herstellerangabe. Nicht selbst herstellen ohne phytopharmazeutische Erfahrung. Anwendungsdauer max. 4 Wochen.",
+          "en": "Ready-made preparation (1:5 tincture, 40% ethanol) as per manufacturer's instructions. Do not self-prepare without phytopharmaceutical experience. Maximum use: 4 weeks."
+        }
+      },
+      "source_ids": [
+        "src_chen_antiviral_2011",
+        "src_kurmanbaeva_2022"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische Blätter und Rhizome werden in südostasiatischen und südwestchinesischen Küchen als Salatkraut, Gewürz und Beilage verzehrt (Vietnam: rau diếp cá; Yunnan: zhé'ěrgēn). Der charakteristische Fischgeruch stammt von Decanoylacetaldehyd. Der Konsum gilt als verdauungsfördernd und mild entzündungshemmend.",
+        "en": "Fresh leaves and rhizomes are eaten in Southeast Asian and southwestern Chinese cuisines as a salad herb, condiment, and side dish (Vietnam: rau diếp cá; Yunnan: zhé'ěrgēn). The characteristic fishy smell comes from decanoyl acetaldehyde. Consumption is considered digestive and mildly anti-inflammatory."
+      },
+      "source_ids": [
+        "src_wiki_houttuynia",
+        "src_zhang_dietary_chinese_herbs"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "fever",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der chinesischen und vietnamesischen Volksmedizin wird ein starkes Dekokt aus der ganzen Pflanze fiebersenken eingesetzt. Antimikrobielle Flavonoide (Quercetin, Isoquercitrin) und das flüchtige Decanoylacetaldehyd gelten als aktive Prinzipien. Kein Ersatz für ärztlich verordnete Therapie bei anhaltendem Fieber.",
+        "en": "In Chinese and Vietnamese folk medicine, a strong decoction of the whole plant is used to reduce fever. Antimicrobial flavonoids (quercetin, isoquercitrin) and volatile decanoyl acetaldehyde are regarded as active principles. Not a substitute for medically prescribed therapy in persistent fever."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 10,
+          "max": 30
+        },
+        "water_ml": 300,
+        "steep_min": 20,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "10–30 g frische oder 5–15 g getrocknete Pflanze in 300 ml Wasser 20 Minuten köcheln, abseihen. 2× täglich trinken. Bei anhaltendem Fieber (>2 Tage) Arzt aufsuchen.",
+          "en": "Simmer 10–30 g fresh or 5–15 g dried plant in 300 ml water for 20 minutes, strain. Drink twice daily. Consult a doctor for fever lasting more than 2 days."
+        }
+      },
+      "source_ids": [
+        "src_kurmanbaeva_2022",
+        "src_pfaf_houttuynia"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Teilbäder und Umschläge mit konzentriertem Houttuynia-Aufguss werden volksmedizinisch bei ekzematösen Hauterkrankungen, Juckreiz und infizierten Hautläsionen angewendet. Die antibakteriellen und adstringierenden Eigenschaften gelten als wirksam; kontrollierte Studien fehlen.",
+        "en": "Partial baths and compresses with concentrated Houttuynia infusion are used in folk medicine for eczematous skin conditions, pruritus, and infected skin lesions. The antibacterial and astringent properties are considered effective; controlled studies are lacking."
+      },
+      "source_ids": [
+        "src_pfaf_houttuynia",
+        "src_qu_chemical_constituents"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Blätter, Wurzelstock",
+      "en": "leaves, rhizome"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Injizierbare Houttuynia-Präparate sind in China wegen schwerer anaphylaktischer Reaktionen (auch mit Todesfolge) reglementiert worden — diese Warnungen gelten NICHT für Kräutertee oder orale Tinkturen, die als deutlich sicherer gelten. Oraler Gebrauch gilt bei bestimmungsgemäßer Anwendung als sicher; bei bekannter Saururaceae-Allergie vermeiden. Starke Dosen können emmenagoge Wirkung entfalten. Den charakteristischen Fischgeruch des Krauts beim Kaufen als Qualitätsmerkmal nutzen (flüchtige Aldeyhde, die rasch verflüchtigen).",
+      "en": "Injectable Houttuynia preparations were regulated in China due to severe anaphylactic reactions (including fatalities) — these warnings do NOT apply to herbal tea or oral tinctures, which are considered significantly safer. Oral use at recommended doses is considered safe; avoid with known Saururaceae allergy. High doses may exert emmenagogue effects. The characteristic fishy smell of the herb is a quality indicator when purchasing (volatile aldehydes that dissipate quickly)."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Emmenagoge Eigenschaften dokumentiert (PFAF); in der Schwangerschaft nicht anwenden. Kein Einsatz als Heilkraut; kulinarische Mengen in Speisen gelten als unbedenklich.",
+        "en": "Emmenagogue properties documented (PFAF); do not use medicinally during pregnancy. Culinary amounts in food are generally considered safe."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Sicherheitsdaten zur Anwendung in der Stillzeit verfügbar. Aus Vorsichtsgründen auf Heilkraut-Dosen verzichten.",
+        "en": "No safety data for use during lactation. Avoid medicinal doses as a precaution."
+      }
+    },
+    "children": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine kontrollierten Daten für Kinder. Keine Anwendung als Heilmittel bei Kindern unter 12 Jahren empfohlen.",
+        "en": "No controlled data for children. Medicinal use not recommended for children under 12 years."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegen Houttuynia cordata oder andere Saururaceae",
+        "en": "Known hypersensitivity to Houttuynia cordata or other Saururaceae"
+      },
+      {
+        "de": "Schwangerschaft (emmenagoge Wirkung möglich)",
+        "en": "Pregnancy (emmenagogue effect possible)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Immunsuppressiva",
+        "mechanism": {
+          "de": "Immunmodulatorische Wirkung von Houttuynia kann theoretisch mit immunsuppressiver Therapie interagieren; keine klinischen Fallberichte verfügbar.",
+          "en": "Immunomodulatory effects of Houttuynia may theoretically interact with immunosuppressive therapy; no clinical case reports available."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Molchschwanz (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Molchschwanz",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Houttuynia cordata (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Houttuynia_cordata",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_houttuynia",
+      "type": "wikipedia",
+      "title": "Houttuynia cordata — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Houttuynia_cordata",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_chen_antiviral_2011",
+      "type": "monograph",
+      "title": "Chen X et al. (2011): Houttuynia cordata blocks HSV infection through inhibition of NF-κB activation. Antiviral Research 92(2):341-345. DOI 10.1016/j.antiviral.2011.09.005",
+      "url": "https://doi.org/10.1016/j.antiviral.2011.09.005",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_probstle_planta_medica_1992",
+      "type": "monograph",
+      "title": "Pröbstle A, Bauer R (1992): Aristolactams with Anti-Inflammatory Activity from Houttuynia cordata (Yu Xing Cao). Planta Medica 58(6):556-557. DOI 10.1055/s-2006-961732",
+      "url": "https://doi.org/10.1055/s-2006-961732",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_qu_chemical_constituents",
+      "type": "monograph",
+      "title": "Qu W et al. (2010): Chemical Constituents from Houttuynia cordata. Chinese Journal of Natural Medicines. DOI 10.3724/sp.j.1009.2009.00425",
+      "url": "https://doi.org/10.3724/sp.j.1009.2009.00425",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_kurmanbaeva_2022",
+      "type": "monograph",
+      "title": "Kurmanbaeva AK et al. (2022): Chemical Compounds of Houttuynia cordata Thunb and Their Specific Pharmacological Activities. Farmacia Kazahstana. DOI 10.53511/pharmkaz.2022.98.37.023",
+      "url": "https://doi.org/10.53511/pharmkaz.2022.98.37.023",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_zhang_dietary_chinese_herbs",
+      "type": "monograph",
+      "title": "Zhang QW (2015): Houttuynia cordata Thunb 鱼腥草 (Yuxingcao, Houttuynia). In: Dietary Chinese Herbs. DOI 10.1007/978-3-211-99448-1_71",
+      "url": "https://doi.org/10.1007/978-3-211-99448-1_71",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_pfaf_houttuynia",
+      "type": "book",
+      "title": "Plants For A Future (PFAF): Houttuynia cordata",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Houttuynia+cordata",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "houttuynia-cordata.jpg",
+    "alt": {
+      "de": "Foto von Molchschwanz",
+      "en": "Photo of Houttuynia cordata"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Unknown",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Houttuynia_cordata.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible",
+      "medicinal"
+    ],
+    "rooms": [
+      "kitchen",
+      "bathroom"
+    ],
+    "light": "partial_shade",
+    "water_frequency": "daily",
+    "difficulty": 2,
+    "pet_safe": true,
+    "soil": {
+      "de": "Feucht bis nass, lehmig",
+      "en": "Moist to wet, loamy"
+    },
+    "pot_size_cm": 20,
+    "tips": {
+      "de": [
+        "Braucht IMMER feuchte Erde — Untersetzer mit Wasser.",
+        "Wuchert stark — im Topf halten, nicht in den Garten setzen.",
+        "Aroma stark (\"Fischminze\") — gut für asiatische Küche."
+      ],
+      "en": [
+        "Needs CONSTANTLY moist soil — saucer with water.",
+        "Spreads aggressively — keep in pot, don't plant in garden.",
+        "Strong flavour (\"fish mint\") — good for Asian cooking."
+      ]
+    }
+  },
+  "constituents": [
+    {
+      "name": "Decanoylacetaldehyd (Houttuynin)",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Charakteristischer Leitduft- und -wirkstoff; verantwortlich für den fischartigen Geruch. Flüchtig — beim Trocknen großteils verloren; antibakteriell und antifungal in vitro.",
+        "en": "Characteristic lead aroma and active compound; responsible for the fish-like smell. Volatile — largely lost on drying; antibacterial and antifungal in vitro."
+      }
+    },
+    {
+      "name": "Quercetin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Dominantes Flavonoid; antioxidativ, antiallergisch und antiviral; hemmt in vitro proinflammatorische Mediatoren.",
+        "en": "Dominant flavonoid; antioxidant, antiallergic, and antiviral; inhibits pro-inflammatory mediators in vitro."
+      }
+    },
+    {
+      "name": "Isoquercitrin (Quercetin-3-glucosid)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Quercetin-Glykosid mit besserer Wasserlöslichkeit als das Aglykon; antimikrobiell und entzündungshemmend.",
+        "en": "Quercetin glycoside with better water solubility than the aglycone; antimicrobial and anti-inflammatory."
+      }
+    },
+    {
+      "name": "Quercitrin (Quercetin-3-rhamnosid)",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Weiteres Quercetin-Glykosid aus Houttuynia; antioxidativ und immunmodulierend in Laborstudien.",
+        "en": "Further quercetin glycoside from Houttuynia; antioxidant and immunomodulatory in laboratory studies."
+      }
+    },
+    {
+      "name": "Aristolactam-Alkaloide",
+      "category": "alkaloid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "In Planta Medica beschriebene Alkaloide mit anti-inflammatorischer Aktivität (Hemmung des Arachidonsäure-Stoffwechsels). Nur in geringen Mengen vorhanden; keine Nephrotoxizität wie bei echten Aristolochiasäuren bekannt.",
+        "en": "Alkaloids described in Planta Medica with anti-inflammatory activity (arachidonic acid metabolism inhibition). Present in low amounts; no nephrotoxicity known as with true aristolochic acids."
+      }
+    },
+    {
+      "name": "2-Undecanon",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flüchtiges Keton im ätherischen Öl; weiterhin zum Aroma beitragend; antimikrobielle Aktivität in vitro beschrieben.",
+        "en": "Volatile ketone in the essential oil; contributes to aroma; antimicrobial activity described in vitro."
+      }
+    },
+    {
+      "name": "beta-Myrcen",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Monoterpen-Kohlenwasserstoff im ätherischen Öl; entzündungshemmende und analgetische Eigenschaften bekannt.",
+        "en": "Monoterpene hydrocarbon in the essential oil; anti-inflammatory and analgesic properties known."
+      }
+    },
+    {
+      "name": "Kaffeesäure / Chlorogensäure",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hydroxyzimtsäure-Derivate; antioxidativ und antimikrobiell; zur Gesamtphenol-Aktivität beitragend.",
+        "en": "Hydroxycinnamic acid derivatives; antioxidant and antimicrobial; contributing to total phenolic activity."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus; vor der Vollblüte für maximalen Wirkstoffgehalt.",
+        "en": "Morning after dew has dried; before full bloom for maximum active compound content."
+      },
+      "drying": {
+        "de": "Kraut locker bei 35–40 °C im Schatten trocknen. Bei höheren Temperaturen gehen flüchtige Inhaltsstoffe (Decanoylacetaldehyd) verloren. Gut getrocknet: knistert beim Zerreiben.",
+        "en": "Dry herb loosely at 35–40 °C in the shade. Higher temperatures cause loss of volatile constituents (decanoyl acetaldehyde). Well-dried: crackles when crumbled."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In luftdicht verschlossenen Glas- oder Metallbehältern, dunkel und trocken lagern. Der charakteristische Geruch sollte schwach wahrnehmbar bleiben.",
+        "en": "Store in airtight glass or metal containers, dark and dry. The characteristic smell should remain faintly detectable."
+      }
+    },
+    {
+      "plant_part": "rhizome",
+      "best_months": [
+        3,
+        4,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Keine Tageszeit-Einschränkung; Rhizome nach dem Graben sofort säubern.",
+        "en": "No time-of-day restriction; clean rhizomes immediately after digging."
+      },
+      "drying": {
+        "de": "Rhizome waschen, in Stücke schneiden und bei 40–50 °C trocknen oder frisch verwenden. Frischrhizome in Kühlschrank max. 1 Woche haltbar.",
+        "en": "Wash rhizomes, cut into pieces and dry at 40–50 °C or use fresh. Fresh rhizomes keep in the refrigerator for max. 1 week."
+      },
+      "storage_months": 18,
+      "storage_condition": {
+        "de": "Getrocknete Rhizomstücke kühl, trocken und lichtgeschützt lagern; in Glasgefäßen.",
+        "en": "Store dried rhizome pieces cool, dry, and protected from light; in glass containers."
+      }
+    }
+  ]
+}

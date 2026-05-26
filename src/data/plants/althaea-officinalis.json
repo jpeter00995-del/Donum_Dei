@@ -1,0 +1,501 @@
+{
+  "slug": "althaea-officinalis",
+  "names": {
+    "de": "Echter Eibisch",
+    "en": "Althaea officinalis",
+    "latin": "Althaea officinalis"
+  },
+  "family": {
+    "de": "Malvengewächse",
+    "en": "Mallow family",
+    "latin": "Malvaceae"
+  },
+  "description": {
+    "de": "Der Echte Eibisch, auch Gebräuchlicher Eibisch oder Arznei-Eibisch genannt, ist eine Pflanzenart aus der Gattung Eibisch (Althaea) in der Unterfamilie der Malvoideae innerhalb der Familie der Malvengewächse (Malvaceae).",
+    "en": "Althaea officinalis, the marsh mallow or marshmallow, is a species of flowering plant indigenous to Europe, Western Asia and North Africa, which is used in herbalism and as an ornamental plant."
+  },
+  "teaser": {
+    "de": "Der Echte Eibisch, auch Gebräuchlicher Eibisch oder Arznei-Eibisch genannt, ist eine Pflanzenart aus der Gattung Eibi...",
+    "en": "Althaea officinalis, the marsh mallow or marshmallow, is a species of flowering plant indigenous to Europe, Western A..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "throat",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.5,
+          "max": 3
+        },
+        "water_ml": 150,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "KALTAUSZUG (zwingend — Schleimstoffe sind hitzeempfindlich): 0,5–3 g zerkleinerte getrocknete Eibischwurzel in 150 ml kaltem Wasser 30–90 Min quellen lassen, gelegentlich umrühren, abseihen. Nur auf Trinktemperatur (max. 40 °C) erwärmen — niemals aufkochen. 3× täglich, bei Bedarf bis 5×. Kinder 3–5 J: 0,5–1 g/Tasse, 3× tgl.; Kinder 6–11 J: 0,5–1,5 g/Tasse, 3× tgl.",
+          "en": "COLD MACERATE (mandatory — mucilage is heat-sensitive): Soak 0.5–3 g crushed dried marshmallow root in 150 ml cold water 30–90 min, strain. Warm only to drinking temperature (max. 40 °C) — never boil. 3× daily, up to 5× if needed."
+        }
+      },
+      "age_restriction": {
+        "min_age": 3,
+        "note": {
+          "de": "Laut EMA-Monographie für Kinder ab 3 Jahren zugelassen — traditionell bei Kinderhusten.",
+          "en": "Per EMA monograph from 3 years — traditionally used for children's cough."
+        }
+      },
+      "description": {
+        "de": "Reizmildernder Kaltauszug bei trockenem Reizhusten und Reizungen der Mund- und Rachenschleimhaut. Die hitzeempfindlichen Schleimstoffe (Rhamnogalacturonane, Arabinogalactane) legen sich bei Kontakt wie ein Schutzfilm über gereizte Schleimhäute — traditionell als erste Wahl bei Kinderhusten.",
+        "en": "Soothing cold macerate for dry tickly cough and irritation of the oral and pharyngeal mucosa. Heat-sensitive mucilage polysaccharides coat irritated mucosal surfaces — traditionally first choice for children's cough."
+      },
+      "source_ids": [
+        "src_ema_althaeae_radix",
+        "src_wp_de_althaea",
+        "src_wp_en_althaea"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat",
+        "mouth"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.5,
+          "max": 3
+        },
+        "water_ml": 150,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "KALTAUSZUG: 0,5–3 g in 150 ml kaltem Wasser 30–90 Min ansetzen, abseihen. Lauwarm (max. 40 °C) 2–3× täglich gurgeln oder als Mundspülung verwenden. Nie aufkochen.",
+          "en": "COLD MACERATE: 0.5–3 g in 150 ml cold water 30–90 min, strain. Lukewarm 2–3× daily as gargle or mouth rinse. Never boil."
+        }
+      },
+      "age_restriction": {
+        "min_age": 3,
+        "note": {
+          "de": "Ab 3 Jahren (Kinder sollten beim Gurgeln beaufsichtigt werden).",
+          "en": "From 3 years (children should be supervised while gargling)."
+        }
+      },
+      "description": {
+        "de": "Kaltauszug als Gurgellösung und Mundspülung bei Reizungen der Mund- und Rachenschleimhaut. Die Schleimstoffe bilden einen schützenden Film auf der gereizten Schleimhaut.",
+        "en": "Cold macerate as gargle and mouth rinse for irritation of the oral and pharyngeal mucosa. Mucilage forms a protective coating over the irritated surface."
+      },
+      "source_ids": [
+        "src_ema_althaeae_radix"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 5
+        },
+        "water_ml": 150,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "KALTAUSZUG: 2–5 g zerkleinerte Eibischwurzel in 150 ml kaltem Wasser 30–90 Min ziehen, abseihen. 3× täglich zwischen den Mahlzeiten — einhüllende Wirkung auf die Magen-Darm-Schleimhaut.",
+          "en": "COLD MACERATE: 2–5 g + 150 ml cold water 30–90 min. 3× daily between meals — coating effect on GI mucosa."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Für Magen-Darm-Beschwerden laut EMA erst ab 12 Jahren.",
+          "en": "For GI complaints from 12 years per EMA."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Anwendung bei leichten Magen-Darm-Beschwerden. Die Schleimstoffe der Eibischwurzel legen sich schützend auf die gereizte Magenschleimhaut — volksmedizinisch bei Gastritis und Magenreizungen eingesetzt.",
+        "en": "Traditional use for mild gastrointestinal complaints. Marshmallow root mucilage coats the irritated gastric mucosa — used in folk medicine for gastritis and stomach irritation."
+      },
+      "source_ids": [
+        "src_ema_althaeae_radix",
+        "src_wp_en_althaea"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "throat",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2.5
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "HEISSER AUFGUSS: 1,5–2,5 g getrocknete Eibischblätter mit 150 ml heißem Wasser (nicht kochend, ca. 80–90 °C) übergießen, 10 Min zugedeckt ziehen lassen, abseihen. 2–3× täglich. Blätter enthalten weniger Schleimstoffe als die Wurzel (ca. 6–9 % vs. 10–20 %), sind aber als Aufguss geeignet.",
+          "en": "HOT INFUSION: 1.5–2.5 g dried marshmallow leaves with 150 ml hot (not boiling, ca. 80–90 °C) water, cover, steep 10 min, strain. 2–3× daily. Leaves contain less mucilage than root (ca. 6–9 % vs. 10–20 %) but are suitable as an infusion."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Blattanwendung ab 12 Jahren — Datenlage für jüngere Kinder fehlt.",
+          "en": "Leaf use from 12 years — data for younger children lacking."
+        }
+      },
+      "description": {
+        "de": "Aufguss aus Eibischblättern bei Reizhusten und Halsreizungen — etwas weniger schleimstoffreich als die Wurzel, aber traditionell als einfach zugängliche Alternative verwendet. Kombination mit Blüten üblich.",
+        "en": "Leaf infusion for dry irritated cough and throat irritation — somewhat less mucilage-rich than the root, but traditionally used as an easily accessible alternative. Often combined with flowers."
+      },
+      "source_ids": [
+        "src_wp_de_althaea",
+        "src_wp_en_althaea"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 200,
+        "doses_per_day": 2,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "KALTAUSZUG ZUM UMSCHLAG: 5–10 g fein geriebene oder gemahlene Eibischwurzel in 200 ml kaltem Wasser 30–60 Min ansetzen. Sauberes Tuch tränken, auf die betroffene Hautstelle 15–20 Min auflegen. 1–2× täglich frisch zubereiten. Alternativ: Eibischwurzel-Paste (gemahlen + wenig Wasser zu Brei) direkt auf kleine Hautentzündungen auftragen.",
+          "en": "COLD MACERATE COMPRESS: 5–10 g finely ground or grated marshmallow root in 200 ml cold water 30–60 min. Soak clean cloth, apply to affected skin 15–20 min. 1–2× daily, freshly prepared. Alternative: marshmallow root paste applied directly to small skin inflammations."
+        }
+      },
+      "description": {
+        "de": "Volksmedizinischer Umschlag mit Eibischwurzel bei Hautreizungen, kleinen Entzündungen, Insektenstichen und Verbrennungen ersten Grades. Die Schleimstoffe wirken kühlend und reizmindernd auf gereizte Haut.",
+        "en": "Folk medicine compress with marshmallow root for skin irritations, minor inflammations, insect stings and first-degree burns. Mucilage acts cooling and soothing on irritated skin."
+      },
+      "source_ids": [
+        "src_wp_en_althaea",
+        "src_pfaf_althaea"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "throat",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "FLÜSSIGEXTRAKT / TINKTUR: Standardisierte Fertigpräparate aus Eibischwurzel (Tinktur 1:5 in 25 % Ethanol oder Flüssigextrakt) nach Packungsbeilage. Tinktur typisch 2–5 ml pro Einnahme, 3× täglich. HINWEIS: Schleimstoff-Gehalt in ethanolischen Extrakten geringer als im Kaltauszug — für maximale Schleimstoffwirkung bevorzugt Kaltauszug verwenden.",
+          "en": "LIQUID EXTRACT / TINCTURE: Standardised finished preparations from marshmallow root per package leaflet. Tincture typically 2–5 ml per dose, 3× daily. NOTE: Mucilage content in ethanolic extracts is lower than in cold macerate — for maximum mucilage effect, prefer cold macerate."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Ethanolhaltige Zubereitungen laut EMA nur für Erwachsene ab 18.",
+          "en": "Ethanol-containing preparations per EMA only for adults from 18."
+        }
+      },
+      "description": {
+        "de": "Tinktur oder Flüssigextrakt bei Reizhusten und Mundschleimhaut-Reizungen — bequemere Applikationsform als Kaltauszug, aber mit geringerem Schleimstoffgehalt. Geeignet als Alltagsalternative für Erwachsene.",
+        "en": "Tincture or liquid extract for dry cough and oral mucosal irritation — more convenient than cold macerate but with lower mucilage content. Suitable as a daily alternative for adults."
+      },
+      "source_ids": [
+        "src_ema_althaeae_radix"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "SALBE: Eibischwurzel-Extrakt oder fein gemahlene Eibischwurzel in eine fettige Grundlage (Bienenwachs, Lanolin, Kakaobutter) einarbeiten — typisch 5–10 % Eibischwurzel-Trockenextrakt. Auf gereizten Hautstellen dünn auftragen, sanft einmassieren. Fertige Eibisch-Salben im Handel erhältlich.",
+          "en": "SALVE: Incorporate marshmallow root extract or finely powdered marshmallow root into a fatty base (beeswax, lanolin, cocoa butter) — typically 5–10 % dry extract. Apply thinly to irritated skin areas. Ready-made marshmallow salves available commercially."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Salbe mit Eibischwurzel bei trockener, gereizter oder rissiger Haut, Ekzemen und Wundschorf. Die Schleimstoffe bilden einen feuchtigkeitsbindenden Schutzfilm.",
+        "en": "Folk medicine salve with marshmallow root for dry, irritated or cracked skin, eczema and scabs. Mucilage forms a moisture-retaining protective film."
+      },
+      "source_ids": [
+        "src_pfaf_althaea",
+        "src_wp_en_althaea"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Wurzel (Herbst)",
+      "en": "root (autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Wenn Halsbeschwerden länger als 1 Woche oder Magen-Darm-Beschwerden länger als 2 Wochen andauern: Arzt. Bei Atemnot, Fieber oder eitrigem Auswurf sofort Arzt. WICHTIG: Schleimstoffe können die Aufnahme anderer Arzneimittel verzögern — andere Medikamente 30–60 Minuten vor/nach dem Eibischtee einnehmen. Kaltauszug zwingend für die Wurzel — heißes Wasser zerstört die hitzeempfindlichen Schleimstoffe.",
+      "en": "If throat complaints last more than 1 week or GI complaints more than 2 weeks: consult a doctor. Seek immediate medical attention for breathlessness, fever or purulent sputum. IMPORTANT: Mucilage can delay absorption of other medicines — separate by 30–60 min. Cold macerate is mandatory for the root — hot water destroys the heat-sensitive mucilage."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Mangels ausreichender Sicherheitsdaten in Schwangerschaft und Stillzeit nicht empfohlen (EMA-Monographie).",
+        "en": "Not recommended in pregnancy and lactation due to lack of sufficient safety data (EMA monograph)."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Mangels Daten nicht empfohlen.",
+        "en": "Not recommended due to lack of data."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Bei Reizhusten und Halsbeschwerden: Kaltauszug ab 3 Jahren zugelassen (EMA). Magen-Darm-Indikation: ab 12 Jahren. Ethanolische Zubereitungen: nur ab 18 Jahren. Feste Darreichungsformen: ab 6 Jahren.",
+        "en": "For dry cough and throat: cold macerate from 3 years (EMA). GI indication from 12 years. Ethanolic preparations only from 18. Solid forms from 6 years."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Orale Arzneimittel allgemein",
+        "mechanism": {
+          "de": "Schleimstoffe bilden einen Film auf der Magen-Darm-Schleimhaut und können die Resorption anderer oral eingenommener Arzneimittel verzögern. Zeitabstand von 30–60 Minuten empfohlen.",
+          "en": "Mucilage forms a film on the GI mucosa and can delay absorption of other orally taken medicines. A time interval of 30–60 minutes is recommended."
+        },
+        "severity": "caution"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Eibisch oder andere Malvengewächse (Malvaceae).",
+        "en": "Hypersensitivity to marshmallow or other Malvaceae."
+      },
+      {
+        "de": "Kinder unter 3 Jahren (innere Anwendung als Tee) — mangels Daten.",
+        "en": "Children under 3 years (internal use as tea) — lack of data."
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter Eibisch (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Eibisch",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Althaea officinalis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Althaea_officinalis",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_althaeae_radix",
+      "type": "monograph",
+      "title": "EMA/HMPC/436679/2015 — European Union herbal monograph on Althaea officinalis L., radix (Final, 12 July 2016)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/althaeae-radix",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_wp_de_althaea",
+      "type": "wikipedia",
+      "title": "Echter Eibisch (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Eibisch",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_althaea",
+      "type": "wikipedia",
+      "title": "Althaea officinalis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Althaea_officinalis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_althaea",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Althaea officinalis database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Althaea+officinalis",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "althaea-officinalis.jpg",
+    "alt": {
+      "de": "Foto von Echter Eibisch",
+      "en": "Photo of Althaea officinalis"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Patrice78500",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Guimauve_officinale_dans_les_pr%C3%A9s_sal%C3%A9s_de_la_plage_de_Donnant.JPG"
+  },
+  "constituents": [
+    {
+      "name": "Schleimstoffe (saure Polysaccharide: Rhamnogalacturonane, Arabinogalactane)",
+      "category": "mucilage",
+      "percent_range": "10–20 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Hauptwirkstoffe der Eibischwurzel. Saure Polysaccharide aus Rhamnose, Galactose und Uronsäuren. Bilden in kaltem Wasser einen viskosen Schutzfilm auf gereizten Schleimhäuten — hitzeempfindlich, daher Kaltauszug zwingend. EMA-Monographie bestätigt reizlindernde Wirkung.",
+        "en": "Main active compounds of marshmallow root. Acidic polysaccharides of rhamnose, galactose and uronic acids. Form a viscous protective film on irritated mucous membranes in cold water — heat-sensitive, hence cold macerate mandatory. EMA monograph confirms soothing action."
+      }
+    },
+    {
+      "name": "Schleimstoffe (saure Polysaccharide)",
+      "category": "mucilage",
+      "percent_range": "6–9 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Auch in Blättern vorhanden, aber in geringerer Konzentration als in der Wurzel.",
+        "en": "Present in leaves too, but at lower concentration than in the root."
+      }
+    },
+    {
+      "name": "Pektine",
+      "category": "polysaccharide",
+      "percent_range": "~11 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Tragen neben den Schleimstoffen zur einhüllenden und schützenden Wirkung auf die Schleimhaut bei.",
+        "en": "Contribute alongside mucilage to the coating and protective effect on mucous membranes."
+      }
+    },
+    {
+      "name": "Stärke",
+      "category": "polysaccharide",
+      "percent_range": "25–35 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Hoher Stärkegehalt ist Ursache der mehlig-süßlichen Textur der Wurzel — historisch Grundlage für die Marshmallow-Süßware. Pharmakologisch nicht relevant.",
+        "en": "High starch content causes the floury-sweet texture of the root — historically the basis for marshmallow confectionery. Pharmacologically not relevant."
+      }
+    },
+    {
+      "name": "Flavonoide (Hypolaetin-8-glucosid, Hypolaetin-Glykoside)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hypolaetin (Isoscutellarein) und dessen Glykoside in den Blättern. Mild antioxidativ; Hypolaetin-Sulfocarbohydrat-Ester charakteristisch für Malvaceae. Hemmung humaner Hyaluronidase-1 in vitro nachgewiesen (Peschel et al. 2016).",
+        "en": "Hypolaetin (isoscutellarein) and its glycosides in leaves. Mildly antioxidant; hypolaetin sulfocarbohydrate esters characteristic of Malvaceae. Inhibition of human hyaluronidase-1 in vitro demonstrated (Peschel et al. 2016)."
+      }
+    },
+    {
+      "name": "Saccharose und freie Zucker",
+      "category": "other",
+      "percent_range": "~10 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Saccharose ist die dominante freie Zuckerfraktion der Wurzel (~10 %), dazu Mono- und Oligomere. Verantwortlich für den süßlichen Geschmack des Kaltauszugs.",
+        "en": "Sucrose is the dominant free sugar fraction of the root (~10 %), plus mono- and oligomers. Responsible for the sweet taste of the cold macerate."
+      }
+    },
+    {
+      "name": "Asparagin und freie Aminosäuren",
+      "category": "other",
+      "percent_range": "~9 % (Gesamt-AS)",
+      "plant_part": "root",
+      "note": {
+        "de": "Asparagin ist die quantitativ dominante Aminosäure in der Eibischwurzel; dazu Prolin, Glycin-Betain (~8 %). Asparagin ist nicht pharmakologisch aktiv, gehört aber zum phytochemischen Profil der Wurzel.",
+        "en": "Asparagine is the quantitatively dominant amino acid in marshmallow root; plus proline, glycine betaine (~8 %). Asparagine is not pharmacologically active but belongs to the phytochemical root profile."
+      }
+    },
+    {
+      "name": "Phytosterole (β-Sitosterol, Lanosterol)",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "Phytosterole in Spuren; β-Sitosterol und Lanosterol in der Wurzel nachgewiesen. Pharmakologisch bei den in der Monographie üblichen Mengen nicht relevant.",
+        "en": "Phytosterols in traces; β-sitosterol and lanosterol demonstrated in the root. Pharmacologically not relevant at monograph-level doses."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        10,
+        11,
+        3
+      ],
+      "time_of_day": {
+        "de": "Trockener Herbsttag (Oktober/November) nach dem ersten Frost oder zeitiges Frühjahr (März) vor dem Austreiben — dann ist der Schleimstoffgehalt am höchsten, da die Pflanze ihre Reserven in der Wurzel gespeichert hat.",
+        "en": "Dry autumn day (October/November) after first frost or early spring (March) before budding — mucilage content is highest as the plant stores reserves in the root."
+      },
+      "drying": {
+        "de": "2–3-jährige Wurzeln ausgraben, waschen, schälen (Korkschicht entfernen), in 0,5–1 cm dicke Scheiben oder Streifen schneiden. WICHTIG: Schnell bei max. 40 °C trocknen — höhere Temperaturen zerstören die Schleimstoffe. Ausreichend trocken wenn brüchig. Alternativ: frische geriebene Wurzel für sofortigen Gebrauch.",
+        "en": "Dig 2–3 year roots, wash, peel (remove cork layer), cut into 0.5–1 cm slices or strips. IMPORTANT: Dry quickly at max. 40 °C — higher temperatures destroy mucilage. Sufficiently dry when brittle. Alternative: fresh grated root for immediate use."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht, trocken, dunkel bei Raumtemperatur. Innerhalb 12 Monate verwenden — Schleimstoffe können Feuchtigkeit anziehen und bei schlechter Lagerung degradieren.",
+        "en": "Airtight, dry, dark at room temperature. Use within 12 months — mucilage can absorb moisture and degrade with poor storage."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Trockener Vormittag nach Abtrocknen des Taus, vor der Mittagshitze. Blätter mit dem höchsten Schleimstoffgehalt vor und während der Blüte (Juni–August).",
+        "en": "Dry morning after dew has dried, before midday heat. Leaves with highest mucilage content before and during flowering (June–August)."
+      },
+      "drying": {
+        "de": "Junge, gesunde Blätter (ohne Schadflecken) handflachgroß oder größer schneiden. Einlagig im Schatten bei max. 40 °C trocknen. Schnell trocknen verhindert Braunfärbung und Schleimstoffabbau.",
+        "en": "Cut young healthy leaves (without damage spots) palm-sized or larger. Dry in single layer in shade at max. 40 °C. Rapid drying prevents browning and mucilage degradation."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht, lichtgeschützt, trocken. Innerhalb 12 Monate aufbrauchen.",
+        "en": "Airtight, light-protected, dry. Use within 12 months."
+      }
+    }
+  ]
+}

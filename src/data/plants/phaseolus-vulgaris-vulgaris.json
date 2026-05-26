@@ -1,0 +1,570 @@
+{
+  "slug": "phaseolus-vulgaris-vulgaris",
+  "names": {
+    "de": "Gartenbohne",
+    "en": "Phaseolus vulgaris",
+    "latin": "Phaseolus vulgaris var. vulgaris"
+  },
+  "family": {
+    "de": "Hülsenfrüchtler",
+    "en": "Bean family",
+    "latin": "Fabaceae"
+  },
+  "description": {
+    "de": "Die Gartenbohne, auch Grüne Bohne, Schnittbohne oder österreichisch Fisole genannt, ist eine Pflanzenart aus der Gattung Phaseolus in der Unterfamilie der Schmetterlingsblütler (Faboideae). Sie ist in Deutschland fast immer mit dem Ausdruck „Bohne“ gemeint, der sich aber auch auf viele andere Nutzpflanzenarten beziehen kann. Je nach Wuchsform wird die Art auch als Buschbohne oder Stangenbohne bezeichnet.",
+    "en": "Phaseolus vulgaris, the common bean, is a herbaceous annual plant. Its botanical classification, along with other Phaseolus species, is as a member of the legume family, Fabaceae. It forms a green-leaved vine which produces beans inside of pods."
+  },
+  "teaser": {
+    "de": "Die Gartenbohne, auch Grüne Bohne, Schnittbohne oder österreichisch Fisole genannt, ist eine Pflanzenart aus der Gatt...",
+    "en": "Phaseolus vulgaris, the common bean, is a herbaceous annual plant."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "instructions": {
+          "de": "FRISCHE GRÜNE BOHNEN (Kochgemüse): Junge, unreife Hülsen (Länge ca. 10–15 cm, Samen noch klein und weich) ernten und VOR dem Verzehr mindestens 10 Minuten in reichlich sprudelndem Wasser kochen — niemals roh essen. Das Kochwasser weggießen, da es ausgelaugte Lektine und Oligosaccharide enthält. Als Beilage, in Salaten (nach dem Kochen abgekühlt), in Suppen und Eintöpfen oder als Bohnenpüree verwenden. Blanchiert und eingefroren bleibt die Ware 10–12 Monate haltbar.",
+          "en": "FRESH GREEN BEANS (vegetable): Harvest young, immature pods (approx. 10–15 cm, seeds still small and soft) and ALWAYS cook for a minimum of 10 minutes in plenty of rapidly boiling water — never eat raw. Discard the cooking water, which contains leached lectins and oligosaccharides. Use as a side dish, in salads (after cooling), soups, stews or bean puree. Blanched and frozen, the produce keeps 10–12 months."
+        }
+      },
+      "description": {
+        "de": "Frische grüne Bohnen (geerntete unreife Hülse) sind ein nährstoffreiches Gemüse mit Vitamin K, Vitamin C, Folat und Ballaststoffen — ausschließlich gegart zu verzehren.",
+        "en": "Fresh green beans (harvested immature pod) are a nutrient-rich vegetable providing vitamin K, vitamin C, folate and dietary fibre — to be consumed cooked only."
+      },
+      "source_ids": [
+        "src_usda_fdc_green_beans",
+        "src_efsa_beans",
+        "src_wp_de_gartenbohne",
+        "src_wp_en_phaseolus"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "instructions": {
+          "de": "GETROCKNETE BOHNEN (Pulse/Hülsenfrucht): Trockenbohnen mindestens 8–12 Stunden in reichlich kaltem Wasser einweichen, Einweichwasser wegschütten. Dann in frischem Wasser mindestens 45–60 Minuten sprudelnd kochen (NICHT im Schnellkochtopf für die ersten 10 Minuten nur auf Stufe 1 — starkes Kochen ist nötig, um Phytohämagglutinin vollständig zu denaturieren). Das Kochwasser enthält ausgelaugte Lektine und Oligosaccharide — wegschütten. Fertig gegarte Bohnen in Suppen, Eintöpfen, Salaten (nach Abkühlen), Hummus-Varianten oder Bohnenpaste verwenden. Dose/Konserve: bereits gegart, direkter Einsatz möglich (Konservensaft abgießen und Bohnen abspülen).",
+          "en": "DRIED BEANS (pulse): Soak dried beans for at least 8–12 hours in plenty of cold water; discard soaking water. Then boil vigorously in fresh water for at least 45–60 minutes (strong boiling is essential to fully denature phytohaemagglutinin — do NOT use a slow cooker for dried kidney beans). Discard the cooking water (leached lectins and oligosaccharides). Use cooked beans in soups, stews, salads (after cooling), hummus-style dips or bean paste. Tinned/canned beans are already cooked — drain and rinse before use."
+        }
+      },
+      "description": {
+        "de": "Getrocknete Bohnensamen sind eine pflanzliche Proteinquelle (ca. 7–9 g/100 g gegart) mit niedrigem glykämischen Index, reichlich Ballaststoffen, Folat, Eisen und Kalium — ausschließlich ordnungsgemäß gegart zu verzehren.",
+        "en": "Dried bean seeds are a plant protein source (approx. 7–9 g/100 g cooked) with low glycaemic index, high dietary fibre, folate, iron and potassium — to be consumed only after proper cooking."
+      },
+      "source_ids": [
+        "src_usda_fdc_kidney_beans",
+        "src_efsa_beans",
+        "src_fda_bad_bug_book",
+        "src_wp_en_phaseolus",
+        "src_pfaf_phaseolus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "BOHNENSCHALENTEE (Phaseoli pericarpium): 3–5 g getrocknete, zerkleinerte Bohnenschalen (äußere Hülsen ohne Samen — nur von reifen Trockenbohnen verwenden, grüne Hülsen sind weniger geeignet) mit 250 ml kochendem Wasser übergießen, zugedeckt 15 Minuten ziehen lassen, abseihen. 2 Tassen täglich über max. 4 Wochen. Volksheilkundlich als mildes Aquaretikum (harntreibend) bei leichten Harnwegsinfektionen und zur Durchspülungstherapie der ableitenden Harnwege eingesetzt — nur unterstützend, kein Ersatz für ärztliche Behandlung. Wichtig: ausreichend Flüssigkeit (mind. 2 l Wasser täglich) während der Anwendung trinken. Bei Fieber, starken Schmerzen oder blutigem Urin: sofort Arzt.",
+          "en": "BEAN HULL TEA (Phaseoli pericarpium): Pour 250 ml boiling water over 3–5 g dried, chopped bean hulls (outer pods without seeds — use only from ripe dried beans; green pods are less suitable), cover, steep 15 minutes, strain. 2 cups daily for a maximum of 4 weeks. Folk medicinal use as a mild aquaretic (diuretic) for mild urinary tract infections and flushing of the urinary tract — adjunctive only, no substitute for medical treatment. Important: drink plenty of fluid (at least 2 litres of water daily) during use. Fever, severe pain or blood in urine: see doctor immediately."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Bohnenschalentee (Phaseoli pericarpium) — volksheilkundliches mildes Aquaretikum zur Durchspülungstherapie der Harnwege; Evidenz nur auf Volksmedizin-Ebene.",
+        "en": "Traditional bean hull tea (Phaseoli pericarpium) — folk medicinal mild aquaretic for urinary flushing therapy; evidence at folk medicine level only."
+      },
+      "source_ids": [
+        "src_pfaf_phaseolus",
+        "src_wp_de_gartenbohne",
+        "src_wikidata_phaseolus"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "instructions": {
+          "de": "PFLANZLICHE PROTEINQUELLE / DIABETIKERKÜCHE: Gegarte Bohnen (Dose oder selbst gekocht) haben einen niedrigen glykämischen Index (GI ca. 20–40 je nach Sorte) und einen hohen Sättigungseffekt. Als Proteinquelle in vegetarischen und veganen Ernährungsformen (Bohnen + Getreide = komplettes Aminosäureprofil). Studien zeigen: regelmäßiger Hülsenfrüchte-Konsum (mind. 3–4× wöchentlich 80 g gegarte Bohnen) senkt LDL-Cholesterin und verbessert Blutzuckerregulation. Keine Selbsttherapie bei Diabetes — ernährungstherapeutische Einbindung nach ärztlichem/diätologischem Rat.",
+          "en": "PLANT PROTEIN SOURCE / DIABETIC DIET: Cooked beans (tinned or home-cooked) have a low glycaemic index (GI approx. 20–40 depending on variety) and high satiety effect. A protein source in vegetarian and vegan diets (beans + cereal = complete amino acid profile). Studies show: regular legume consumption (at least 3–4 × weekly 80 g cooked beans) lowers LDL cholesterol and improves glycaemic control. Not for self-treatment of diabetes — dietary therapy under medical/dietetic supervision."
+        }
+      },
+      "description": {
+        "de": "Gegarte Trockenbohnen sind eine klinisch belegte pflanzliche Proteinquelle mit niedrigem glykämischen Index — hilfreich bei Blutzuckermanagement und Cholesterin-Reduktion.",
+        "en": "Cooked dried beans are a clinically supported plant protein source with low glycaemic index — beneficial for blood glucose management and LDL cholesterol reduction."
+      },
+      "source_ids": [
+        "src_efsa_beans",
+        "src_usda_fdc_kidney_beans"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "KÜCHE — TRADITIONELLE ZUBEREITUNGEN: Gegarte Bohnen (weiß, rot, schwarz, Borlotti) in klassischen Gerichten: Eintöpfe (Minestrone, Chili con/sin Carne), Bohnensalat mit Essig und Öl (nur aus gekühlten, vollständig gegarten Bohnen), Bohnenpüree (Hummus-Stil), Bohnenbrot (gekochte Bohnen als Mehlersatz bis 30 %), fermentierte Sojasauce-Analoga (traditionell in Lateinamerika). Bohnenkraut (Satureja hortensis / montana) ist traditioneller Küchengefährte — soll Flatulenz mindern und Verdauung fördern, Wirkung empirisch. Immer: nie roh oder nur lauwarm. Bohnen im Schongarer (< 100 °C) können gefährlich wenig Lektine inaktivieren — auf sprudelndes Kochen bestehen.",
+          "en": "KITCHEN — TRADITIONAL PREPARATIONS: Cooked beans (white, red, black, borlotti) in classic dishes: stews (minestrone, chilli con/sin carne), bean salad with vinegar and oil (only from cooled, fully cooked beans), bean puree (hummus-style), bean bread (cooked beans as flour substitute up to 30 %), fermented soy-sauce analogues (traditional in Latin America). Savory (Satureja hortensis/montana) is the traditional kitchen companion — reputed to reduce flatulence and aid digestion, effect empirical. Always: never raw or merely lukewarm. Slow cookers (< 100 °C) may fail to inactivate lectins sufficiently — insist on vigorous boiling."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Küchenbohne in Eintöpfen, Salaten und Aufläufen — Klassiker der europäischen und lateinamerikanischen Küche; kombiniert mit Bohnenkraut traditionell bei Flatulenz.",
+        "en": "Traditional kitchen bean in stews, salads and gratins — a classic of European and Latin American cuisine; traditionally combined with savory to reduce flatulence."
+      },
+      "source_ids": [
+        "src_wp_de_gartenbohne",
+        "src_wp_en_phaseolus",
+        "src_pfaf_phaseolus"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "instructions": {
+          "de": "FOLAT / EISEN / KALIUM — MIKRONÄHRSTOFF-EINSATZ: 100 g gegarte weiße Bohnen liefern ca. 130 µg Folat (≈ 65 % des EU-Tagesbedarfs), 3,7 mg Eisen (≈ 26 % DV) und 561 mg Kalium (≈ 28 % DV). Besonders relevant in der Schwangerschaft (Folatbedarf erhöht) und bei vegetarisch/veganer Ernährung (Eisenversorgung). Kombination mit Vitamin-C-reichem Gemüse (Paprika, Tomaten) erhöht die Nicht-Häm-Eisen-Absorption. Kein Ersatz für Supplementierung bei klinisch gesichertem Mangel.",
+          "en": "FOLATE / IRON / POTASSIUM — MICRONUTRIENT USE: 100 g cooked white beans provide approx. 130 µg folate (≈ 65 % of EU daily requirement), 3.7 mg iron (≈ 26 % DV) and 561 mg potassium (≈ 28 % DV). Particularly relevant in pregnancy (increased folate demand) and vegetarian/vegan diets (iron supply). Combining with vitamin-C-rich vegetables (peppers, tomatoes) enhances non-haem iron absorption. Not a substitute for supplementation in clinically confirmed deficiency."
+        }
+      },
+      "description": {
+        "de": "Gegarte Trockenbohnen sind eine relevante Quelle für Folat, Nicht-Häm-Eisen und Kalium — besonders in vegetarischer und veganer Ernährung sowie in der Schwangerschaft.",
+        "en": "Cooked dried beans are a significant source of folate, non-haem iron and potassium — especially relevant in vegetarian/vegan diets and during pregnancy."
+      },
+      "source_ids": [
+        "src_usda_fdc_kidney_beans",
+        "src_efsa_beans"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "instructions": {
+          "de": "BALLASTSTOFFE / RESISTENTE STÄRKE: Gekochte Bohnen enthalten 6–8 g Ballaststoffe pro 100 g (löslich + unlöslich) sowie resistente Stärke (besonders nach Abkühlen hoch). Beide Fraktionen wirken präbiotisch, fördern die Diversität des Darmmikrobioms und erhöhen die Stuhlfrequenz. Langsam verdauliche Kohlenhydrate puffern den Blutzuckeranstieg. Hinweis: Ballaststoffe und nicht resorbierbare Oligosaccharide (Raffinose, Stachyose) können Blähungen und Flatulenz verursachen — langsame Steigerung der Verzehrmenge empfohlen.",
+          "en": "DIETARY FIBRE / RESISTANT STARCH: Cooked beans contain 6–8 g dietary fibre per 100 g (soluble + insoluble) and resistant starch (especially high after cooling). Both fractions act as prebiotics, promote gut microbiome diversity and increase stool frequency. Slowly digestible carbohydrates buffer blood glucose rise. Note: dietary fibre and non-absorbable oligosaccharides (raffinose, stachyose) can cause bloating and flatulence — gradual increase in consumption amount is recommended."
+        }
+      },
+      "description": {
+        "de": "Bohnen sind reich an Ballaststoffen und resistenter Stärke — präbiotische Wirkung, Blutzucker-Pufferung und Förderung der Darmgesundheit, klinisch belegt.",
+        "en": "Beans are rich in dietary fibre and resistant starch — prebiotic effect, blood glucose buffering and promotion of gut health, clinically documented."
+      },
+      "source_ids": [
+        "src_efsa_beans",
+        "src_usda_fdc_kidney_beans",
+        "src_wp_en_phaseolus"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Hülsen und Bohnen",
+      "en": "pods and beans"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "KRITISCH — ROHBOHNEN SIND GIFTIG: Rohe oder nur lauwarm erhitzte Bohnen (grüne Hülsen UND Trockenbohnen) enthalten Phytohämagglutinin (PHA, Phasin), ein Lektin, das Übelkeit, starkes Erbrechen, Durchfall und Bauchkrämpfe verursacht — bereits 4–5 rohe Kidneybohnen können beim Erwachsenen schwere Vergiftungserscheinungen auslösen. Letale Dosis für Erwachsene liegt bei ca. 100 rohen Kidneybohnen. Das Gift wird durch sprudelndes Kochen (≥ 10 Minuten Vollkochen für grüne Bohnen; ≥ 45–60 Minuten für Trockenbohnen nach Einweichen) VOLLSTÄNDIG denaturiert. WARNUNG Schongarer/Slow Cooker: Temperaturen unter 80 °C können PHA aktivieren statt denaturieren — Schongarer für Trockenbohnen NICHT ohne vorheriges sprudelndes Kochen (10 min) verwenden. Dosen/Konserven: industriell sterilisiert, sicher. Zusätzlich verursachen unverdauliche Oligosaccharide (Raffinose, Stachyose) Blähungen und Flatulenz — normales Phänomen, nicht gefährlich.",
+      "en": "CRITICAL — RAW BEANS ARE TOXIC: Raw or insufficiently heated beans (green pods AND dried beans) contain phytohaemagglutinin (PHA, phasin), a lectin that causes nausea, severe vomiting, diarrhoea and abdominal cramps — as few as 4–5 raw kidney beans can trigger severe poisoning in an adult. Lethal dose for adults is approximately 100 raw kidney beans. The toxin is FULLY denatured by vigorous boiling (at least 10 minutes at a rolling boil for green beans; at least 45–60 minutes for dried beans after soaking). WARNING slow cookers: temperatures below 80 °C can activate PHA rather than denature it — do NOT use a slow cooker for dried beans without first boiling vigorously for 10 minutes. Tinned/canned beans: industrially sterilised, safe. Additionally, indigestible oligosaccharides (raffinose, stachyose) cause bloating and flatulence — normal phenomenon, not dangerous."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Vollständig gegarte Bohnen sind in der Schwangerschaft sicher und nutritiv wertvoll (Folat, Eisen, Ballaststoffe). Roh niemals — wie generell. Bohnenschalentee (Aquaretikum) in der Schwangerschaft meiden, da ausreichende Sicherheitsdaten fehlen.",
+        "en": "Fully cooked beans are safe in pregnancy and nutritionally valuable (folate, iron, fibre). Raw — never, as always. Bean hull tea (aquaretic) should be avoided in pregnancy due to insufficient safety data."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Vollständig gegarte Bohnen in der Stillzeit unbedenklich und empfohlen. Bohnenschalentee in der Stillzeit mangels Daten meiden.",
+        "en": "Fully cooked beans are safe and recommended during lactation. Bean hull tea should be avoided during lactation due to lack of safety data."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Vollständig gegarte Bohnen ab dem Beikostalter geeignet (ab ca. 6 Monaten püriert). Flatulenz kann bei Säuglingen stärker auftreten — kleine Mengen testen. Bohnenschalentee nicht für Kinder unter 12 Jahren. Roh-Einnahme (auch einzelne Bohnen) durch Kleinkinder sofort ärztlich abklären.",
+        "en": "Fully cooked beans are suitable from the start of complementary feeding (from approx. 6 months, pureed). Flatulence may be more pronounced in infants — test small amounts. Bean hull tea not for children under 12 years. If a toddler ingests raw beans (even a few), seek medical advice immediately."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Eisenpräparate / Nicht-Häm-Eisenresorption",
+        "mechanism": {
+          "de": "Phytinsäure in Bohnen kann die Absorption von nicht-häm Eisen (und oraler Eisenmedikation) hemmen. Beim zeitgleichen Einsatz oraler Eisenpräparate und großer Bohnenmengen können Spiegel geringer als erwartet ausfallen. Vitamin C im selben Gericht hebt diesen Effekt teilweise auf.",
+          "en": "Phytic acid in beans can inhibit absorption of non-haem iron (and oral iron supplements). When oral iron preparations and large quantities of beans are consumed simultaneously, levels may be lower than expected. Vitamin C in the same meal partially counteracts this effect."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Orale Antikoagulanzien (Vitamin-K-Antagonisten: Warfarin, Phenprocoumon)",
+        "mechanism": {
+          "de": "Grüne Bohnen enthalten vergleichsweise viel Vitamin K1 (Phytomenadion), das die gerinnungshemmende Wirkung von Vitamin-K-Antagonisten abschwächen kann. Bei konstantem, gleichmäßigem Verzehr in üblichen Mengen kein akutes Problem — aber Schwankungen in der Verzehrmenge sollten vermieden werden; INR-Kontrolle empfohlen.",
+          "en": "Green beans contain relatively high amounts of vitamin K1 (phytomenadione), which can reduce the anticoagulant effect of vitamin K antagonists. With consistent, steady consumption in usual amounts, not an acute problem — but fluctuations in consumption amounts should be avoided; INR monitoring recommended."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Roher oder unzureichend erhitzter Verzehr (grüne Hülsen oder Trockenbohnen) — Phytohämagglutinin-Vergiftungsgefahr.",
+        "en": "Raw or insufficiently heated consumption (green pods or dried beans) — phytohaemagglutinin poisoning risk."
+      },
+      {
+        "de": "Überempfindlichkeit gegen Hülsenfrüchte (Fabaceae-Allergie); Kreuzreaktionen mit anderen Leguminosen möglich.",
+        "en": "Hypersensitivity to legumes (Fabaceae allergy); cross-reactions with other leguminosae possible."
+      },
+      {
+        "de": "Bohnenschalentee: nicht bei bestehenden Nierenerkrankungen oder eingeschränkter Nierenfunktion ohne ärztliche Rücksprache.",
+        "en": "Bean hull tea: not for existing kidney disease or impaired renal function without medical consultation."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gartenbohne (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gartenbohne",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Phaseolus vulgaris (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Phaseolus_vulgaris",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_usda_fdc_green_beans",
+      "type": "monograph",
+      "title": "USDA FoodData Central — Beans, snap, green, raw (FDC ID 169141)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/169141/nutrients",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_usda_fdc_kidney_beans",
+      "type": "monograph",
+      "title": "USDA FoodData Central — Beans, kidney, all types, mature seeds, cooked, boiled, without salt (FDC ID 173743)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/173743/nutrients",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_efsa_beans",
+      "type": "monograph",
+      "title": "EFSA NDA Panel — Scientific opinion on dietary reference values for protein. EFSA Journal 2012;10(2):2557. (Legume protein quality and DRV context)",
+      "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2012.2557",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_fda_bad_bug_book",
+      "type": "book",
+      "title": "FDA Bad Bug Book, 2nd Edition — Chapter: Phytohaemagglutinin (Red Kidney Bean Poisoning). FDA, 2012.",
+      "url": "https://www.fda.gov/food/foodborne-pathogens/phytohaemagglutinin",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_phaseolus",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Phaseolus vulgaris database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Phaseolus+vulgaris",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_gartenbohne",
+      "type": "wikipedia",
+      "title": "Gartenbohne (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gartenbohne",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_phaseolus",
+      "type": "wikipedia",
+      "title": "Phaseolus vulgaris (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Phaseolus_vulgaris",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_phaseolus",
+      "type": "wikidata",
+      "title": "Phaseolus vulgaris — Wikidata item Q379813",
+      "url": "https://www.wikidata.org/wiki/Q379813",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_lectin_poisoning",
+      "type": "wikipedia",
+      "title": "Phytohaemagglutinin — lectin poisoning (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Phytohaemagglutinin",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "phaseolus-vulgaris-vulgaris.jpg",
+    "alt": {
+      "de": "Foto von Gartenbohne",
+      "en": "Photo of Phaseolus vulgaris"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Unknown",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Phaseolus_vulgaris.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 7,
+      "end_month": 10
+    },
+    "days_to_harvest": 70,
+    "spacing_cm": 25,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "companion_planting": {
+    "good_partners": [
+      "cucumis-sativus",
+      "cucurbita-pepo",
+      "cucurbita-pepo-zucchini",
+      "satureja-hortensis",
+      "zea-mays"
+    ],
+    "bad_partners": [
+      "allium-cepa",
+      "allium-sativum",
+      "allium-schoenoprasum"
+    ],
+    "reasons": {
+      "allium-sativum": {
+        "de": "Lauchgewächse hemmen Hülsenfrüchte (klassische Bauernregel).",
+        "en": "Alliums inhibit legumes (classic rule)."
+      },
+      "allium-schoenoprasum": {
+        "de": "Allium hemmt Stickstoff-fixierende Hülsenfrüchte (klassische Bauernregel).",
+        "en": "Alliums inhibit nitrogen-fixing legumes (classic rule)."
+      },
+      "cucurbita-pepo": {
+        "de": "Bohne stickstoffreich, Kürbis nährstoffhungrig — perfekte Symbiose.",
+        "en": "Bean is nitrogen-rich, squash is heavy feeder — perfect symbiosis."
+      },
+      "satureja-hortensis": {
+        "de": "Bohnenkraut ist klassischer Bohnen-Partner gegen Läuse.",
+        "en": "Savory is the classic bean partner against aphids."
+      },
+      "zea-mays": {
+        "de": "Bohne fixiert Stickstoff aus der Luft, den hungriger Mais braucht.",
+        "en": "Bean fixes atmospheric nitrogen that hungry maize needs."
+      }
+    },
+    "notes_de": "zea-mays: Bohne fixiert Stickstoff für Mais (Three-Sisters-Klassiker). cucurbita-pepo: Bohne stickstoffreich, Kürbis nährstoffhungrig — perfekte Symbiose. allium-schoenoprasum: Allium hemmt Stickstoff-fixierende Hülsenfrüchte (klassische Bauernregel).",
+    "notes_en": "zea-mays: Bean fixes nitrogen for corn (classic Three Sisters). cucurbita-pepo: Bean is nitrogen-rich, squash is heavy feeder — perfect symbiosis. allium-schoenoprasum: Alliums inhibit nitrogen-fixing legumes (classic rule).",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration) | Klassische Mischkultur-Tradition (Three Sisters, Bauernregel)"
+  },
+  "permaculture_functions": [
+    "nitrogen_fixer",
+    "vertical_high"
+  ],
+  "constituents": [
+    {
+      "name": "Phytohaemagglutinin (PHA, Phasin — Klasse der Lektine)",
+      "category": "other",
+      "percent_range": "1–3 % (Rohbohnen)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Samenglykoprotein (Lektin) der Gattung Phaseolus, das Erythrozyten agglutiniert und die Darmschleimhaut schädigt. Höchste Konzentration in roten Kidneybohnen. Thermolabil: vollständige Denaturierung durch 10-minütiges sprudelndes Kochen (100 °C) sichergestellt; Slow Cooker (70–80 °C) inaktivieren PHA unzureichend. Rohbohnen-Vergiftung verläuft innerhalb 1–3 Stunden nach Einnahme mit Erbrechen und Durchfall.",
+        "en": "Seed glycoprotein (lectin) of the Phaseolus genus that agglutinates erythrocytes and damages the intestinal mucosa. Highest concentration in red kidney beans. Thermolabile: full denaturation ensured by 10-minute vigorous boiling (100 °C); slow cookers (70–80 °C) inactivate PHA insufficiently. Raw bean poisoning presents within 1–3 hours with vomiting and diarrhoea."
+      }
+    },
+    {
+      "name": "Phaseolin",
+      "category": "other",
+      "percent_range": "ca. 40–50 % des Samenproteins",
+      "plant_part": "seed",
+      "note": {
+        "de": "Legumin-Typ-Globulin; wichtigstes Speicherprotein des Bohnensamens und Hauptkomponente des pflanzlichen Proteins. Enthält alle essentiellen Aminosäuren, aber limitierend sind schwefelhaltige Aminosäuren (Methionin, Cystein) — ergänzendes Getreide (Methionin-reich) ergibt ein vollständiges Aminosäureprofil.",
+        "en": "Legumin-type globulin; the principal storage protein of the bean seed and main constituent of plant protein content. Contains all essential amino acids, but sulphur-containing amino acids (methionine, cysteine) are limiting — complementary cereal (methionine-rich) provides a complete amino acid profile."
+      }
+    },
+    {
+      "name": "Pflanzliches Protein (Gesamtrohprotein)",
+      "category": "other",
+      "percent_range": "6–9 % (gegart) / 20–25 % (trocken)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Gekochte Bohnen liefern 7–9 g Protein pro 100 g bei niedrigem Kaloriengehalt. Biologische Wertigkeit ca. 75 (Referenz Ei = 100); durch Kombination mit Getreide auf > 90 steigerbar. Wichtige pflanzliche Proteinquelle in vegetarischen, veganen und kohlenhydratreduzierten Ernährungsweisen.",
+        "en": "Cooked beans provide 7–9 g protein per 100 g at low caloric density. Biological value approx. 75 (reference egg = 100); combinable with cereal to exceed 90. Important plant protein source in vegetarian, vegan and carbohydrate-reduced diets."
+      }
+    },
+    {
+      "name": "Dietary Fibre / Ballaststoffe (löslich + unlöslich, inkl. resistente Stärke)",
+      "category": "polysaccharide",
+      "percent_range": "6–8 g/100 g gegart",
+      "plant_part": "seed",
+      "note": {
+        "de": "Mischung aus unlöslichen Cellulose/Hemicellulose-Fraktionen und löslichen Pektinen + Galactomannanen. Nach Abkühlen bildet sich retrograde Stärke (resistente Stärke Typ RS3), die präbiotisch wirkt und den Blutzuckeranstieg verlangsamt. Bohnenschalen (Phaseoli pericarpium) enthalten ebenfalls Ballaststoffe und werden volksmedizinisch als Aquaretikum genutzt.",
+        "en": "Mixture of insoluble cellulose/hemicellulose fractions and soluble pectins + galactomannans. After cooling, retrograde starch forms (resistant starch type RS3), acting as a prebiotic and slowing blood glucose rise. Bean hulls (Phaseoli pericarpium) also contain dietary fibre and are used in folk medicine as an aquaretic."
+      }
+    },
+    {
+      "name": "Oligosaccharide: Raffinose, Stachyose, Verbascose",
+      "category": "polysaccharide",
+      "percent_range": "2–5 % (Trockenmasse)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Nicht resorbierbare, aber fermentierbare Zucker der Raffinose-Familie. Von menschlichen Verdauungsenzymen nicht gespalten, werden sie im Dickdarm von Darmbakterien (Bifidobacterium, Lactobacillus) vergoren → CO₂, H₂, Methan → Flatulenz. Präbiotische Wirkung auf die Mikrobiota-Zusammensetzung. Einweichen und Kochwasser-Wechsel reduzieren Oligosaccharid-Gehalt.",
+        "en": "Non-absorbable but fermentable sugars of the raffinose family. Not cleaved by human digestive enzymes; fermented in the colon by gut bacteria (Bifidobacterium, Lactobacillus) → CO₂, H₂, methane → flatulence. Prebiotic effect on microbiota composition. Soaking and discarding cooking water reduces oligosaccharide content."
+      }
+    },
+    {
+      "name": "Folat (Folsäure-Äquivalente, Vitamin B9)",
+      "category": "vitamin",
+      "percent_range": "ca. 130–140 µg/100 g gegart",
+      "plant_part": "seed",
+      "note": {
+        "de": "Bohnen sind eine der folatreichsten pflanzlichen Quellen. Folat ist essenziell für DNA-Synthese und Zellteilung, besonders kritisch in der Frühschwangerschaft zur Prävention von Neuralrohrdefekten. Hitzestabil in der Hülse gegart, jedoch empfindlich gegen Kochwasserverlust (bei kurzem Kochen mit wenig Wasser Verluste minimieren).",
+        "en": "Beans are one of the most folate-rich plant sources. Folate is essential for DNA synthesis and cell division, particularly critical in early pregnancy for prevention of neural tube defects. Heat-stable when cooked in the pod, but sensitive to cooking water loss (minimise losses by cooking briefly with little water)."
+      }
+    },
+    {
+      "name": "Nicht-Häm-Eisen (Fe²⁺/Fe³⁺)",
+      "category": "mineral",
+      "percent_range": "ca. 3–4 mg/100 g (Trockenbohnen gegart)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Relevante pflanzliche Eisenquelle; Bioverfügbarkeit durch gleichzeitig enthaltene Phytinsäure reduziert (ca. 5–12 % resorptionsfähig). Kombination mit Vitamin-C-reichem Gemüse verdreifacht Absorptionsrate. Besonders wichtig in veganer/vegetarischer Ernährung als Eisenquelle neben Hirse, Quinoa und grünem Blattgemüse.",
+        "en": "Relevant plant iron source; bioavailability reduced by simultaneously present phytic acid (approx. 5–12 % absorbable). Combination with vitamin-C-rich vegetables triples absorption rate. Particularly important in vegan/vegetarian diets as an iron source alongside millet, quinoa and leafy greens."
+      }
+    },
+    {
+      "name": "Kalium (K⁺)",
+      "category": "mineral",
+      "percent_range": "ca. 400–560 mg/100 g gegart",
+      "plant_part": "seed",
+      "note": {
+        "de": "Bedeutsamer Kaliumgehalt — relevant für Blutdruckregulation (Natrium-Kalium-Balance), Nerven- und Muskelfunktion. Erhöhter Kaliumverzehr ist mit reduziertem Herzerkrankungs- und Schlaganfallrisiko assoziiert (EFSA-Bewertung). Für Personen mit fortgeschrittener Niereninsuffizienz (Stadium 4–5) kann erhöhte Kaliumzufuhr problematisch sein — ärztliche Abklärung.",
+        "en": "Significant potassium content — relevant for blood pressure regulation (sodium-potassium balance), nerve and muscle function. Higher potassium intake is associated with reduced cardiovascular and stroke risk (EFSA assessment). For persons with advanced renal failure (stage 4–5), elevated potassium intake may be problematic — medical consultation required."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens, nachdem der Tau abgetrocknet ist (ca. 9–11 Uhr) — Hülsen sind dann turgeszent und brechen sauber ab. Erntetipp: Stangenbohnen täglich bis alle 2 Tage abernten — übersehene Hülsen, die zur Reife gelangen, hemmen die Neubildung von Blüten und Hülsen.",
+        "en": "Morning, after dew has dried (approx. 9–11 am) — pods are then turgid and snap off cleanly. Harvest tip: pick climbing/pole beans daily or every 2 days — missed pods that ripen to seed maturity inhibit new flower and pod formation."
+      },
+      "drying": {
+        "de": "GRÜNE BOHNEN (Frischverzehr): Junge Hülsen bei ca. 10–15 cm Länge (vor Samenreife) durch Abknicken ernten — kein Werkzeug nötig. Hülsen sollten fest, sattgrün und ohne Fäden (bei Stangenbohnen: sortenabhängig — fadenfreie Sorten bevorzugen) sein. Für kurze Lagerung (3–5 Tage) im Kühlschrank ohne Waschen aufbewahren. Für Einfrieren: 2–3 Minuten blanchieren, abschrecken, trocknen, portionsweise einfrieren (10–12 Monate haltbar). NICHT roh lagern und später roh verzehren — stets kochen.",
+        "en": "GREEN BEANS (fresh consumption): Harvest young pods at approx. 10–15 cm length (before seed maturity) by snapping off — no tool needed. Pods should be firm, deep green and stringless (climbing/pole beans: variety-dependent — prefer stringless varieties). For short-term storage (3–5 days): refrigerate unwashed. For freezing: blanch 2–3 minutes, shock in ice water, dry, freeze in portions (keeps 10–12 months). Do NOT store raw and eat raw later — always cook."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Frisch: 3–5 Tage im Kühlschrank (Gemüsefach, ca. 7–10 °C), nicht waschen vor der Lagerung. Blanchiert und eingefroren: bis 12 Monate. Nicht bei Raumtemperatur lagern — rasch welkend.",
+        "en": "Fresh: 3–5 days in refrigerator (vegetable drawer, approx. 7–10 °C), do not wash before storage. Blanched and frozen: up to 12 months. Do not store at room temperature — wilts rapidly."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "An einem trockenen, sonnigen Tag im Hochsommer bis Frühherbst (Sept.–Okt.) — Hülsen sollten trocken, hell-beige bis gelblich-braun und raschelig sein; Samen klappern beim Schütteln. Feucht geerntete Hülsen erhöhen Schimmelrisiko erheblich.",
+        "en": "On a dry, sunny day in late summer to early autumn (Sept–Oct) — pods should be dry, light beige to yellowish-brown and rustling; seeds rattle when shaken. Harvesting in damp conditions greatly increases mould risk."
+      },
+      "drying": {
+        "de": "TROCKENBOHNEN (Pulse): Ganze Pflanzen oder einzelne reife Hülsen aus dem Beet ziehen/abschneiden, wenn die Mehrheit der Hülsen papiertrocken ist. Hülsen zum Nachreifen an einem luftigen, trockenen Ort aufhängen (gebündelt, kopfüber — 2–4 Wochen). Danach Hülsen von Hand öffnen, Samen herauslösen. Samen 1–2 Wochen nachtrocknen auf sauberem Papier bei Raumtemperatur (< 25 °C, < 50 % rel. Luftfeuchte). Anschließend in luftdichten Gläsern, trocken, kühl und dunkel lagern. Vor dem Kochen stets einweichen (8–12 h) und sprudeln kochen.",
+        "en": "DRIED BEANS (pulse): Pull/cut whole plants or individual ripe pods from the bed when most pods are paper-dry. Hang pods to ripen further in a well-ventilated, dry place (bundled, upside down — 2–4 weeks). Then open pods by hand and remove seeds. Post-dry seeds 1–2 weeks on clean paper at room temperature (< 25 °C, < 50 % relative humidity). Store in airtight jars, dry, cool and dark. Always soak (8–12 h) and boil vigorously before cooking."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trockenbohnen (vollständig getrocknet, < 12 % Feuchte) in luftdichten Gläsern oder Behältern, kühl (< 20 °C), trocken und dunkel: 1–3 Jahre haltbar. Älteren Bohnen: längere Kochzeit nötig. Bei Schimmelbefall oder Mottenfraß (Bohnen-Bruchkäfer) vollständig entsorgen.",
+        "en": "Dried beans (fully dried, < 12 % moisture) in airtight jars or containers, cool (< 20 °C), dry and dark: keeps 1–3 years. Older beans require longer cooking time. Discard entirely if mould or weevil infestation (bean bruchid beetle) is present."
+      }
+    }
+  ]
+}

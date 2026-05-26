@@ -1,0 +1,472 @@
+{
+  "slug": "cynara-scolymus",
+  "names": {
+    "de": "Artischocke",
+    "en": "Artichoke",
+    "latin": "Cynara scolymus"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Die Artischocke ist eine distelartige, kräftige Kulturpflanze aus der Familie der Korbblütler (Asteraceae). Die Sortengruppe der Artischocken wird wegen ihrer essbaren knospigen Blütenstände angebaut und als Blütengemüse verzehrt. Ebenfalls zu Cynara cardunculus zählt das Blattgemüse Cardy.",
+    "en": "The artichoke is a variety of a species of thistle cultivated as food."
+  },
+  "teaser": {
+    "de": "Die Artischocke ist eine distelartige, kräftige Kulturpflanze aus der Familie der Korbblütler (Asteraceae).",
+    "en": "The artichoke is a variety of a species of thistle cultivated as food."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "FERTIGPRÄPARAT — TINKTUR oder TROCKENEXTRAKT (empfohlene Form; standardisierte Gehalte sichern Wirksamkeit): Standardisierte Artischocken-Fertigarzneimittel gemäß Packungsbeilage verwenden. Tinktur (1:5, Ethanol 25 %): typisch 1–3 ml in Wasser 3× täglich 15–30 Minuten vor den Mahlzeiten. Trockenextrakt (DEV 25–35:1): typisch 320–640 mg pro Einzeldosis, 2–3× täglich. Der Bittergeschmack regt über die Mundschleimhaut Speichel- und Gallenfluss an — Tropfen/Kapseln kurz vor dem Essen einnehmen.",
+          "en": "FINISHED PREPARATION — TINCTURE or DRY EXTRACT (recommended form; standardised content ensures efficacy): Use standardised artichoke finished medicinal products per package leaflet. Tincture (1:5, ethanol 25 %): typically 1–3 ml in water 3× daily 15–30 min before meals. Dry extract (DEV 25–35:1): typically 320–640 mg per dose, 2–3× daily. The bitter taste stimulates saliva and bile flow already via oral mucosa — take just before eating."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA-Monographie für Erwachsene und Jugendliche ab 12 Jahren.",
+          "en": "Per EMA monograph for adults and adolescents from 12 years."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Anwendung bei dyspeptischen Beschwerden: Völlegefühl, Blähungen, Übelkeit und verlangsamte Verdauung — besonders nach fettem oder reichem Essen. Cynaropikrin regt Gallenfluss und Magensaftproduktion an, Caffeoylchinasäuren wirken choleretisch und leberschützend.",
+        "en": "Traditional use for dyspeptic complaints: fullness, flatulence, nausea and slow digestion — especially after fatty or rich meals. Cynaropicrin stimulates bile flow and gastric juice production; caffeoylquinic acids act choleretically and hepatoprotectively."
+      },
+      "source_ids": [
+        "src_ema_cynarae_folium",
+        "src_wp_de_cynara"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "HEISSER AUFGUSS (sehr bitter — Tinktur/Trockenextrakt sind in der Praxis beliebter): 1,5–2 g fein geschnittene Artischockenblätter mit 150–200 ml siedendem Wasser übergießen, 10 Min zugedeckt ziehen, abseihen. 2–3× täglich 30 Min vor den Mahlzeiten. Bitterkeit nicht mit Zucker mildern — die Bitterkeit IST der Wirkmechanismus (Aktivierung von Bitterrezeptoren).",
+          "en": "HOT INFUSION (very bitter — tincture/dry extract preferred in practice): 1.5–2 g finely cut artichoke leaves, pour 150–200 ml boiling water, cover, steep 10 min, strain. 2–3× daily 30 min before meals. Do not sweeten — the bitterness IS the mechanism of action (activation of bitter receptors)."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Ab 12 Jahren.",
+          "en": "From 12 years."
+        }
+      },
+      "description": {
+        "de": "Bitterer Tee zur Anregung der Verdauung und des Gallenflusses bei Völlegefühl und Blähungen. In der Praxis weniger verbreitet als Tinkturen und Kapseln wegen des intensiven Bittergeschmacks.",
+        "en": "Bitter tea to stimulate digestion and bile flow for fullness and flatulence. Less widely used in practice than tinctures and capsules due to intense bitter taste."
+      },
+      "source_ids": [
+        "src_ema_cynarae_folium"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "doses_per_day": 3,
+        "max_duration_weeks": 8,
+        "instructions": {
+          "de": "TROCKENEXTRAKT als Leberschutzmittel: Standardisierte Fertigpräparate gemäß Packungsbeilage verwenden. Typisch 320–640 mg Trockenextrakt 2–3× täglich über 4–8 Wochen bei Leberschutz-Indikation. Ärztliche Kontrolle bei Lebererkrankungen empfohlen.",
+          "en": "DRY EXTRACT as hepatoprotective: Use standardised finished preparations per package leaflet. Typically 320–640 mg dry extract 2–3× daily for 4–8 weeks for liver-support indication. Medical supervision recommended for liver disease."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Für Leberschutz-Indikation nur Erwachsene.",
+          "en": "For hepatoprotective indication adults only."
+        }
+      },
+      "description": {
+        "de": "Traditionelle volksmedizinische Nutzung von Artischockenblättern als Leberschutzmittel. Die Caffeoylchinasäuren (Chlorogensäure, Cynarin) schützen Hepatozyten-Membranen vor oxidativem Schaden. Moderne Forschung bestätigt hepatoprotektive Wirkung in Tiermodellen, klinische Daten beim Menschen begrenzt.",
+        "en": "Traditional folk medicinal use of artichoke leaves as a hepatoprotective. Caffeoylquinic acids (chlorogenic acid, cynarin) protect hepatocyte membranes from oxidative damage. Modern research confirms hepatoprotective action in animal models; clinical data in humans are limited."
+      },
+      "source_ids": [
+        "src_wp_en_cynara",
+        "src_pmc_cynara_hep"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "cholesterol",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.6,
+          "max": 1.92
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 12,
+        "instructions": {
+          "de": "STANDARDISIERTER TROCKENEXTRAKT zur unterstützenden Senkung leicht erhöhter Cholesterinwerte: typische Tagesdosis 600–1920 mg (320–640 mg pro Einzeldosis, 2–3× täglich), über 6–12 Wochen. HINWEIS: Diese Indikation ist NICHT EMA-anerkannt als 'traditional use' — basiert auf einzelnen RCTs. Gallensteinstatus vorher abklären, Cholesterinwerte ärztlich überwachen. Kein Ersatz für Statintherapie.",
+          "en": "STANDARDISED DRY EXTRACT for supportive cholesterol lowering: typical daily dose 600–1920 mg (320–640 mg per dose, 2–3× daily) for 6–12 weeks. NOTE: This indication is NOT EMA-recognised as traditional use — based on individual RCTs. Rule out gallstones first, monitor cholesterol values medically. Not a replacement for statin therapy."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur Erwachsene ab 18 Jahren.",
+          "en": "Adults from 18 years only."
+        }
+      },
+      "description": {
+        "de": "In einzelnen kontrollierten Studien untersuchte Anwendung zur unterstützenden Senkung leicht erhöhter Cholesterinwerte. Luteolin hemmt in vitro die HMG-CoA-Reduktase (Cholesterin-Biosynthese). Wirkung mild und kein Ersatz für Statine.",
+        "en": "Use investigated in individual controlled trials for supportive lowering of mildly elevated cholesterol. Luteolin inhibits HMG-CoA reductase (cholesterol biosynthesis) in vitro. Effect is mild and not a replacement for statins."
+      },
+      "source_ids": [
+        "src_ema_cynarae_folium",
+        "src_pmc_cynara_func"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frisch geerntete Artischockenblütenknospen roh verzehrt: Blütenböden und Blütenhüllblätter-Basen als Rohkost in kleinen Mengen. Inulin in den Blütenböden und -stielen (10–30 % i. TM) wirkt präbiotisch und fördert das Wachstum nützlicher Darmbakterien. Volksmedizinisch auch als Verdauungsmittel und milde Entschlackungshilfe eingesetzt.",
+        "en": "Freshly harvested artichoke flower buds eaten raw: flower bottoms and bract bases as raw food in small amounts. Inulin in flower bottoms and stalks (10–30 % dry weight) acts prebiotically, supporting growth of beneficial gut bacteria. Used in folk medicine as a digestive and mild detoxifying aid."
+      },
+      "source_ids": [
+        "src_wp_de_cynara",
+        "src_wp_en_cynara"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 5,
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "ARTISCHOCKENTEE AUS GETROCKNETEN BLÄTTERN — VOLKSMEDIZIN VIETNAM / RUMÄNIEN: 1–2 g getrocknete Artischockenblätter mit 200 ml heißem Wasser, 5 Min ziehen, abseihen. 1–2 Tassen täglich nach den Mahlzeiten. Milder und verträglicher als europäische Bitterstoff-Konzentrate — in vietnamesischer Küche als alltäglicher Gesundheitstee üblich.",
+          "en": "ARTICHOKE TEA FROM DRIED LEAVES — FOLK MEDICINE VIETNAM / ROMANIA: 1–2 g dried artichoke leaves with 200 ml hot water, steep 5 min, strain. 1–2 cups daily after meals. Milder and better tolerated than European bitter concentrates — commonly used as everyday health tea in Vietnamese cuisine."
+        }
+      },
+      "description": {
+        "de": "In Vietnam und Rumänien traditionell als Gesundheitstee ('Ceai de Anghinare') mit Gallenfluss- und verdauungsfördernder Wirkung getrunken. Milder Bittergeschmack und niedriger Extraktgehalt machen ihn alltagstauglich.",
+        "en": "Traditionally drunk in Vietnam and Romania as a health tea ('Ceai de Anghinare') with bile-stimulating and digestive effects. Mild bitter taste and lower extract content make it suitable for everyday use."
+      },
+      "source_ids": [
+        "src_wp_en_cynara",
+        "src_wp_de_cynara"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Blätter (vor der Blüte)",
+      "en": "leaves (before flowering)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Vor Anwendung Gallensteine und Gallenwegsverschluss ärztlich ausschließen — Artischocke regt Gallenfluss an und kann bei Gallensteinen eine Gallenkolik auslösen. Bei Beschwerden, die länger als 2 Wochen andauern, bei Gelbsucht-Verdacht (gelbe Haut/Augen), starken Bauchschmerzen oder Fieber sofort Arzt konsultieren. Bei bekannter Korbblütler-Allergie (Beifuß, Ambrosia, Kamille, Ringelblume) erhöhtes Risiko für Kreuzreaktion. Schwangerschaft, Stillzeit und Kinder unter 12 Jahren: nicht anwenden.",
+      "en": "Rule out gallstones and bile duct obstruction medically before use — artichoke stimulates bile flow and can trigger biliary colic in gallstone patients. Consult a doctor immediately for complaints lasting more than 2 weeks, suspected jaundice (yellow skin/eyes), severe abdominal pain or fever. Known Asteraceae allergy increases risk of cross-reaction. Pregnancy, lactation and children under 12: do not use."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Artischockenblatt-Zubereitungen in der Schwangerschaft mangels Sicherheitsdaten nicht empfohlen (EMA). Cholerische Wirkung theoretisch ungünstig.",
+        "en": "Artichoke leaf preparations not recommended in pregnancy due to lack of safety data (EMA). Choleretic effect theoretically unfavourable."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In der Stillzeit mangels Daten nicht empfohlen.",
+        "en": "Not recommended in lactation due to lack of data."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Laut EMA-Monographie nur für Erwachsene und Jugendliche ab 12 Jahren. Nicht für Kinder unter 12.",
+        "en": "Per EMA monograph only for adults and adolescents from 12 years. Not for children under 12."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Arzneimittel mit biliärer Elimination",
+        "mechanism": {
+          "de": "Choleretische Eigenschaften können die Ausscheidung gallengängiger Arzneimittel theoretisch beeinflussen. Bei Dauermedikation mit gallengängigen Substanzen ärztliche Rücksprache empfohlen.",
+          "en": "Choleretic properties may theoretically affect elimination of bile-excreted drugs. Medical consultation recommended with ongoing medication of bile-excreted substances."
+        },
+        "severity": "caution"
+      },
+      {
+        "drug_class": "Antidiabetika (Insulin, orale Antidiabetika)",
+        "mechanism": {
+          "de": "Inulin aus Artischocke kann den Blutzucker geringfügig beeinflussen. Bei intensiver antidiabetischer Therapie Kontrolle des Blutzuckerspiegels empfohlen.",
+          "en": "Inulin from artichoke may marginally affect blood sugar. Blood glucose monitoring recommended in intensive antidiabetic therapy."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Verschluss der Gallenwege (Cholestase) — Artischocke regt Gallenfluss an, kann bei Abflussstörung verschlimmern.",
+        "en": "Bile duct obstruction (cholestasis) — artichoke stimulates bile flow, can worsen obstruction."
+      },
+      {
+        "de": "Gallensteine (Cholelithiasis) — nur nach ärztlicher Rücksprache.",
+        "en": "Gallstones (cholelithiasis) — only with medical advice."
+      },
+      {
+        "de": "Lebererkrankungen mit eingeschränkter Leberfunktion — nur unter ärztlicher Aufsicht.",
+        "en": "Liver disease with impaired liver function — only under medical supervision."
+      },
+      {
+        "de": "Überempfindlichkeit gegen Artischocke oder andere Korbblütler (Asteraceae): Beifuß, Ambrosia, Kamille, Ringelblume.",
+        "en": "Hypersensitivity to artichoke or other Asteraceae: mugwort, ragweed, chamomile, calendula."
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche unter 12 Jahren.",
+        "en": "Pregnancy, lactation, children and adolescents under 12 years."
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Artischocke (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Artischocke",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Artichoke (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Artichoke",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_cynarae_folium",
+      "type": "monograph",
+      "title": "EMA/HMPC/194013/2017 — European Union herbal monograph on Cynara cardunculus L. (syn. Cynara scolymus L.), folium (Final)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/cynarae-folium",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_wp_de_cynara",
+      "type": "wikipedia",
+      "title": "Artischocke (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Artischocke",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_cynara",
+      "type": "wikipedia",
+      "title": "Artichoke (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Artichoke",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pmc_cynara_hep",
+      "type": "monograph",
+      "title": "Mehmetoglu et al. (2025) — Protective effect of artichoke leaf and receptaculum extracts against hepatic encephalopathy in bile duct ligated rats. Metabolic Brain Disease. doi:10.1007/s11011-025-01701-y",
+      "url": "https://doi.org/10.1007/s11011-025-01701-y",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pmc_cynara_func",
+      "type": "monograph",
+      "title": "Rondanelli et al. (2024) — Functional and Therapeutic Potential of Cynara scolymus in Health Benefits. PMC10974306",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10974306/",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "cynara-scolymus.jpg",
+    "alt": {
+      "de": "Foto von Artischocke",
+      "en": "Photo of Artichoke"
+    },
+    "license": "CC BY-SA 3.0 de",
+    "author": "Frank Liebig",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hummel_auf_Artischocke.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Cynaropikrin (Sesquiterpenlacton)",
+      "category": "bitter",
+      "percent_range": "~2–4 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptbitterstoff und wichtigster choleretischer Wirkstoff. Guajanolid-Typ-Sesquiterpenlacton; verantwortlich für den intensiv bitteren Geschmack. Aktiviert Bitterrezeptoren (TAS2R) in Mund und GI-Trakt und stimuliert Gallen- und Magensaftsekretion. Hitzelabiler als Caffeoylchinasäuren — frische Blätter höherer Gehalt.",
+        "en": "Main bitter compound and key choleretic active. Guajanolide-type sesquiterpene lactone; responsible for the intensely bitter taste. Activates bitter receptors (TAS2R) in mouth and GI tract, stimulating bile and gastric juice secretion. More heat-labile than caffeoylquinic acids — fresh leaves have higher content."
+      }
+    },
+    {
+      "name": "Caffeoylchinasäuren (Chlorogensäure, Cynarin, Dicaffeoylchinasäuren)",
+      "category": "phenolic_acid",
+      "percent_range": "~2–4 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Phenolische Säuren mit choleretischer, leberschützender (hepatoprotektiver) und antioxidativer Wirkung. Chlorogensäure dominant; Cynarin (1,3-O-Dicaffeoylchinasäure) gilt heute teils als Artefakt der Extraktion — entsteht durch Veresterung bei Verarbeitung. Hemmung von Lipidperoxidation in Hepatozytenmembranen in vitro belegt.",
+        "en": "Phenolic acids with choleretic, hepatoprotective and antioxidant action. Chlorogenic acid dominant; cynarin (1,3-O-dicaffeoylquinic acid) is now partly considered an extraction artefact — formed by esterification during processing. Inhibition of lipid peroxidation in hepatocyte membranes demonstrated in vitro."
+      }
+    },
+    {
+      "name": "Flavonoide (Luteolin-7-glucosid / Cynarosid, Scolymosid, Apigenin-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "~0,1–1 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Luteolin-Glykoside (Cynarosid = Luteolin-7-glucosid, Scolymosid = Luteolin-7-rutinosid) dominant. Luteolin hemmt in vitro HMG-CoA-Reduktase (Cholesterin-Biosynthese) und hat antioxidative, antiinflammatorische Eigenschaften. Beitrag zur cholesterinsenkenden Wirkung von Artischocken-Extrakten.",
+        "en": "Luteolin glycosides (cynaroside = luteolin-7-glucoside, scolymoside = luteolin-7-rutinoside) dominant. Luteolin inhibits HMG-CoA reductase (cholesterol biosynthesis) in vitro and has antioxidant, anti-inflammatory properties. Contribution to cholesterol-lowering effect of artichoke extracts."
+      }
+    },
+    {
+      "name": "Sesquiterpene (Cynaratriol, weitere Guajanolide)",
+      "category": "sesquiterpene",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Weitere bittere Sesquiterpenlactone neben Cynaropikrin; tragen zum Gesamtbitterstoff-Profil bei. Cynaratriol ist ein Abbauprodukt von Cynaropikrin.",
+        "en": "Further bitter sesquiterpene lactones besides cynaropicrin; contribute to the overall bitter compound profile. Cynaratriol is a degradation product of cynaropicrin."
+      }
+    },
+    {
+      "name": "Inulin (Fructan-Typ-Polysaccharid)",
+      "category": "polysaccharide",
+      "percent_range": "10–30 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Besonders in Wurzeln und Blütenböden. Inulin ist ein präbiotischer Ballaststoff (β(2→1)-verknüpfte Fructan-Ketten), der Bifidobacterium und Lactobacillus im Dickdarm selektiv fördert. Inulin trägt zu den nutritiven Eigenschaften der Artischocke bei; für die EMA-Indikationen (Blatt-Extrakt) nicht relevant.",
+        "en": "Especially in roots and flower bottoms. Inulin is a prebiotic dietary fibre (β(2→1)-linked fructan chains) that selectively promotes Bifidobacterium and Lactobacillus in the colon. Inulin contributes to the nutritive properties of artichoke; not relevant for EMA indications (leaf extract)."
+      }
+    },
+    {
+      "name": "Phytosterole (Taraxasterol, Spinasterol)",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Triterpene und Phytosterole im Blatt, darunter Taraxasterol. Tragen zum antioxidativen Gesamtprofil bei; pharmakologisch bei Standarddosierung nicht dominant.",
+        "en": "Triterpenes and phytosterols in the leaf, including taraxasterol. Contribute to the overall antioxidant profile; not dominant pharmacologically at standard dosing."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Spuren, u. a. β-Caryophyllen, Caryophyllenoxid)",
+      "category": "essential_oil",
+      "percent_range": "<0,1 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Nur Spuren ätherisches Öl im Blatt; Sesquiterpene dominant. Kein therapeutischer Beitrag bei Standarddosierung.",
+        "en": "Only traces of essential oil in the leaf; sesquiterpenes dominant. No therapeutic contribution at standard dosing."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Trockener Vormittag nach Abtrocknen des Taus, vor der Mittagshitze. WICHTIG: Grundblätter VOR der Blüte ernten — dann ist der Bitterstoffgehalt (Cynaropikrin) am höchsten. Im 2. Standjahr erste Ernte möglich.",
+        "en": "Dry morning after dew has dried, before midday heat. IMPORTANT: Harvest basal leaves BEFORE flowering — bitter compound (cynaropicrin) content is highest then. First harvest possible in 2nd year."
+      },
+      "drying": {
+        "de": "Große, gesunde Grundblätter (NICHT die kulinarischen Blütenknospen!) ernten. Mittelrippe entfernen (harte Rippe verlangsamt Trocknung). In 1–2 cm breite Streifen schneiden, einlagig im Schatten bei max. 40 °C trocknen — höhere Temperaturen verflüchtigen Cynaropikrin. Blätter sind trocken wenn sie rascheln und brechen.",
+        "en": "Pick large healthy basal leaves (NOT the culinary flower buds!). Remove midrib (hard rib slows drying). Cut into 1–2 cm strips, dry in single layer in shade at max. 40 °C — higher temperatures volatilise cynaropicrin. Leaves are dry when they rustle and break."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht, lichtgeschützt, trocken. Innerhalb 12 Monate verwenden — Bitterstoffgehalt nimmt mit Zeit ab.",
+        "en": "Airtight, light-protected, dry. Use within 12 months — bitter compound content decreases over time."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Blütenknospen für Lebensmittel-/Inulin-Nutzung ernten sobald voll entwickelt, kurz vor dem Öffnen (maximaler Inulingehalt). Morgens nach Tauabtrocknung.",
+        "en": "Harvest flower buds for food/inulin use when fully developed, just before opening (maximum inulin content). Morning after dew has dried."
+      },
+      "drying": {
+        "de": "FRISCHVERWENDUNG als Gemüse — keine Trocknung notwendig. Blütenböden und Blättchenbasen können frisch verzehrt werden (roh in kleinen Mengen oder gedämpft/gekocht).",
+        "en": "FRESH USE as vegetable — no drying necessary. Flower bottoms and bract bases can be consumed fresh (raw in small amounts or steamed/cooked)."
+      },
+      "storage_months": 1,
+      "storage_condition": {
+        "de": "Frische Blütenknospen im Kühlschrank 1–2 Wochen. Nicht tiefkühlen ohne Vorbehandlung.",
+        "en": "Fresh flower buds in refrigerator 1–2 weeks. Do not freeze without preparation."
+      }
+    }
+  ]
+}

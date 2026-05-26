@@ -1,0 +1,524 @@
+{
+  "slug": "raphanus-sativus-niger",
+  "names": {
+    "de": "Rettiche",
+    "en": "Black_Spanish_radish",
+    "latin": "Raphanus sativus var. niger"
+  },
+  "family": {
+    "de": "Kreuzblütler",
+    "en": "Cabbage family",
+    "latin": "Brassicaceae"
+  },
+  "description": {
+    "de": "Die Rettiche bilden eine Pflanzengattung in der Familie der Kreuzblütler (Brassicaceae). Es gibt etwa drei Arten, die überwiegend im Mittelmeerraum beheimatet sind. Mit dem als Gewürz verwendeten Meerrettich sind sie innerhalb der Kreuzblütler nicht näher verwandt.",
+    "en": "Description for Black_Spanish_radish pending — see Wikipedia article."
+  },
+  "teaser": {
+    "de": "Die Rettiche bilden eine Pflanzengattung in der Familie der Kreuzblütler (Brassicaceae).",
+    "en": "Description for Black_Spanish_radish pending — see Wikipedia article."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Frischer schwarzer Rettich (Saft oder geriebene Wurzel) ist von der deutschen Kommission E als Cholagogum bei dyspeptischen Beschwerden biliären Ursprungs zugelassen. Die Isothiocyanate aus dem Abbau der Glucosinolate — vor allem Glucoraphenin und Glucoraphasatin — stimulieren die Gallenproduktion und -ausschüttung. Unterstützt die Entgiftungsleistung der Leber.",
+        "en": "Fresh black radish (juice or grated root) is approved by the German Kommission E as a cholagogue for dyspeptic complaints of biliary origin. The isothiocyanates released from glucosinolate breakdown — primarily glucoraphenin and glucoraphasatin — stimulate bile production and secretion. Supports liver detoxification."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "Frischer Rettichsaft: 30–40 ml unverdünnter Saft vor den Mahlzeiten (3-mal täglich). Oder: 50–100 g frisch geriebene Rettich­wurzel täglich. Kommission-E-Tagesdosis 50 ml frischer Saft verteilt auf 3 Gaben.",
+          "en": "Fresh radish juice: 30–40 ml undiluted juice before meals (3 times daily). Alternatively: 50–100 g freshly grated radish root daily. Kommission E daily dose is 50 ml fresh juice divided into 3 doses."
+        },
+        "doses_per_day": 3
+      },
+      "source_ids": [
+        "src_gallstones_phytother",
+        "src_wiki_black_radish",
+        "src_detox_hepg2"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Bei Völlegefühl und träger Verdauung empfiehlt die Kommission E schwarzen Rettich als bitterstoffhaltiges Verdauungsmittel. Die scharfen Senfölglykoside regen Magendrüsensekretion und Darmmotorik an. Traditionell auch als Magenreiniger und Leberstärkungsmittel bekannt.",
+        "en": "For bloating and sluggish digestion, Kommission E recommends black radish as a bitter-containing digestive. The pungent mustard oil glycosides stimulate gastric gland secretion and intestinal motility. Traditionally also known as a stomach cleanser and liver tonic."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "50–100 g frisch geriebene Rettich­wurzel oder 30–40 ml Frischsaft zu den Hauptmahlzeiten.",
+          "en": "50–100 g freshly grated radish root or 30–40 ml fresh juice with main meals."
+        },
+        "doses_per_day": 3
+      },
+      "source_ids": [
+        "src_wiki_black_radish",
+        "src_pfaf_raphanus",
+        "src_gallstones_phytother"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "throat"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Traditionell wurde schwarzer Rettichsaft mit Honig als Hustenmittel und Schleimlöser eingesetzt. Ein Tee aus getrockneten Rettichscheiben ist weniger verbreitet, wirkt aber mild schleimlösend durch Senföle und Saponine.",
+        "en": "Traditionally, black radish juice mixed with honey was used as a cough remedy and expectorant. A tea from dried radish slices is less common but acts mildly as an expectorant through mustard oils and saponins."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "5–10 g getrocknete Rettichscheiben in 200 ml Wasser 10 Minuten köcheln, abseihen. Alternativ: 1–2 Esslöffel frischer Rettichsaft mit Honig 3-mal täglich.",
+          "en": "Simmer 5–10 g dried radish slices in 200 ml water for 10 minutes, strain. Alternatively: 1–2 tablespoons fresh radish juice with honey 3 times daily."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_raphanus",
+        "src_wiki_black_radish"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Laborstudien zeigen, dass wässriger schwarzer Rettich-Extrakt in humanen Leberzellen (HepG2) Cytochrom-P450-Enzyme (CYP1A1) und Phase-II-Entgiftungsenzyme (GST) hochreguliert. Dies unterstützt die Elimination von Mutagenen und Kanzerogenen. In einer Tierstudie beschleunigte Rettichdiät die Ausscheidung des Karzinogens DMBA.",
+        "en": "Laboratory studies show that aqueous black radish extract upregulates cytochrome P450 enzymes (CYP1A1) and phase-II detoxification enzymes (GST) in human liver cells (HepG2). This supports elimination of mutagens and carcinogens. In an animal study, radish diet accelerated excretion of the carcinogen DMBA."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "30–50 ml frischer Rettichsaft täglich, nüchtern. Oder 50–100 g frisch geriebene Wurzel zu den Mahlzeiten.",
+          "en": "30–50 ml fresh radish juice daily, on an empty stomach. Or 50–100 g freshly grated root with meals."
+        },
+        "doses_per_day": 1
+      },
+      "source_ids": [
+        "src_detox_hepg2",
+        "src_dmba_nutr_cancer"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der mittel- und osteuropäischen Volksmedizin wird geriebener schwarzer Rettich mit Essig und Öl als Beilage bei schweren Speisen serviert, um die Verdauung anzuregen und Fettüberladung entgegenzuwirken. Die Isothiocyanate stimulieren Gallenfluss und Pankreas-Enzyme.",
+        "en": "In Central and Eastern European folk medicine, grated black radish dressed with vinegar and oil is served as a side dish with heavy meals to stimulate digestion and counteract fat overload. The isothiocyanates stimulate bile flow and pancreatic enzymes."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "Frisch geriebene schwarze Rettich­wurzel mit Olivenöl, Apfelessig und Salz abschmecken. Als Salat oder Beilage servieren.",
+          "en": "Season freshly grated black radish root with olive oil, apple cider vinegar, and salt. Serve as a salad or side dish."
+        },
+        "doses_per_day": 1
+      },
+      "source_ids": [
+        "src_wiki_black_radish",
+        "src_pfaf_raphanus"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "liver",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Alkoholischer Frischauszug aus schwarzem Rettich (1:5, 45 % Ethanol) bewahrt flüchtige Isothiocyanate besser als Trockenextrakte. Traditionell zur Gallenregulation und Leberstimulation eingesetzt.",
+        "en": "Alcoholic fresh extract of black radish (1:5, 45 % ethanol) preserves volatile isothiocyanates better than dry extracts. Traditionally used for bile regulation and liver stimulation."
+      },
+      "preparation": {
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "40–50 Tropfen der 1:5-Tinktur (Ethanol 40–45 %) vor den Mahlzeiten, 3-mal täglich. Nicht bei Gallensteinen anwenden ohne ärztliche Rücksprache.",
+          "en": "40–50 drops of 1:5 tincture (40–45 % ethanol) before meals, 3 times daily. Do not use with gallstones without medical consultation."
+        }
+      },
+      "source_ids": [
+        "src_glucosinolate_jchromatogr",
+        "src_gallstones_phytother"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "immune",
+        "skin"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frischer schwarzer Rettichsaft wurde volksmedizinisch äußerlich bei Hautpilzinfektionen und innerlich als allgemeines Stärkungs- und Immunmittel eingesetzt. Raphanin (Isothiocyanat) zeigt antimikrobielle Aktivität gegen diverse Bakterien und Pilze in vitro.",
+        "en": "Fresh black radish juice was used in folk medicine topically for fungal skin infections and internally as a general tonic and immune stimulant. Raphanin (isothiocyanate) shows antimicrobial activity against various bacteria and fungi in vitro."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "Frischer Presssaft äußerlich auf befallene Hautstellen auftragen oder täglich 20–30 ml frischen Saft trinken.",
+          "en": "Apply fresh pressed juice topically to affected skin areas or drink 20–30 ml fresh juice daily."
+        },
+        "doses_per_day": 1
+      },
+      "source_ids": [
+        "src_pfaf_raphanus",
+        "src_choleretic_sprout"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10,
+      11
+    ],
+    "harvest_part": {
+      "de": "Knolle (Herbst-Winter)",
+      "en": "root (autumn-winter)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Schwarzer Rettich kann bei empfindlichen Personen Magenschleimhautreizungen und Sodbrennen auslösen. Bei vorbestehenden Magengeschwüren, Gastritis, Refluxkrankheit oder akuten Gallenkoliken nicht anwenden. Schilddrüsenfunktionsstörungen: Isothiocyanate (Abbauprodukte der Glucosinolate) können in hohen Dosen die Schilddrüse belasten (goitrogenic effect) — bei bestehenden Schilddrüsenerkrankungen ärztlichen Rat einholen. Bei Gallensteinen: Rettich regt die Gallenblasenkontraktion an, was bei Gallensteinen kolikartige Schmerzen auslösen kann.",
+      "en": "Black radish may cause gastric mucosa irritation and heartburn in sensitive individuals. Do not use with pre-existing gastric ulcers, gastritis, reflux disease, or acute biliary colic. Thyroid disorders: isothiocyanates (glucosinolate breakdown products) may burden the thyroid in high doses (goitrogenic effect) — seek medical advice with existing thyroid conditions. Gallstones: radish stimulates gallbladder contraction, which may trigger colic-like pain in the presence of gallstones."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Als Nahrungsmittel in üblichen Mengen unbedenklich. Medizinische Dosen (Safttherapie) in der Schwangerschaft aus Vorsicht meiden — keine Sicherheitsstudien für therapeutische Dosierung vorhanden.",
+        "en": "Safe as food in usual culinary amounts. Medicinal doses (juice therapy) should be avoided during pregnancy as a precaution — no safety studies for therapeutic dosing exist."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Als Nahrungsmittel unbedenklich. Scharfe Geschmacksstoffe (Isothiocyanate) können in die Muttermilch übergehen und beim Säugling Koliken auslösen. Große Mengen meiden.",
+        "en": "Safe as food. Pungent flavour compounds (isothiocyanates) may pass into breast milk and cause colic in the infant. Avoid large quantities."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Als Nahrungsmittel (kleine Mengen) für Kinder über 4 Jahren geeignet. Medizinische Saftkuren für Kinder unter 12 Jahren nicht empfohlen — fehlende Dosierungsdaten.",
+        "en": "Safe as food (small amounts) for children over 4 years. Medicinal juice cures not recommended for children under 12 — no dosing data available."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Akute Gallenkoliken oder Gallenwegsverschluss",
+        "en": "Acute biliary colic or bile duct obstruction"
+      },
+      {
+        "de": "Magen- oder Zwölffingerdarmgeschwüre, akute Gastritis",
+        "en": "Gastric or duodenal ulcers, acute gastritis"
+      },
+      {
+        "de": "Schilddrüsenunterfunktion (Hypothyreose) — goitrogene Wirkung der Isothiocyanate",
+        "en": "Hypothyroidism — goitrogenic effect of isothiocyanates"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Levothyroxin / Schilddrüsenpräparate",
+        "mechanism": {
+          "de": "Isothiocyanate aus Glucosinolaten können die Schilddrüsenhormonsynthese beeinflussen und die Wirkung von Schilddrüsenmedikamenten abschwächen.",
+          "en": "Isothiocyanates from glucosinolates may influence thyroid hormone synthesis and reduce the efficacy of thyroid medications."
+        },
+        "severity": "monitor",
+        "source_id": "src_pfaf_raphanus"
+      },
+      {
+        "drug_class": "CYP1A1-substrat Arzneimittel",
+        "mechanism": {
+          "de": "Schwarzer Rettich-Extrakt induziert CYP1A1 in Leberzellen; mögliche Beeinflussung des Abbaus von CYP1A1-Substraten (z.B. Theophyllin, manche Krebsmedikamente).",
+          "en": "Black radish extract induces CYP1A1 in liver cells; possible influence on the metabolism of CYP1A1 substrates (e.g. theophylline, some oncology drugs)."
+        },
+        "severity": "monitor",
+        "source_id": "src_detox_hepg2"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Rettiche (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Rettiche",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Black_Spanish_radish (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Black_Spanish_radish",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_glucosinolate_jchromatogr",
+      "type": "monograph",
+      "title": "Fechner et al. (2011): Screening, Identification and Quantification of Glucosinolates in Black Radish (Raphanus sativus L. niger) Based Dietary Supplements using LC-PDA-LC-MS. J Chromatogr A 1218(39):7033–7039",
+      "url": "https://doi.org/10.1016/j.chroma.2011.05.012",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_gallstones_phytother",
+      "type": "monograph",
+      "title": "Branka et al. (2014): Raphanus sativus L. var niger as a Source of Phytochemicals for the Prevention of Cholesterol Gallstones. Phytother Res 28(2):288–293",
+      "url": "https://doi.org/10.1002/ptr.4964",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_detox_hepg2",
+      "type": "monograph",
+      "title": "Hanlon et al. (2007): Aqueous Extract from Spanish Black Radish (Raphanus sativus L. Var. niger) Induces Detoxification Enzymes in the HepG2 Human Hepatoma Cell Line. J Agric Food Chem 55(16):6439–6446",
+      "url": "https://doi.org/10.1021/jf070530f",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_dmba_nutr_cancer",
+      "type": "monograph",
+      "title": "Herr et al. (2012): Spanish Black Radish (Raphanus sativus L. Var. niger) Diet Enhances Clearance of DMBA and Diminishes Toxic Effects on Bone Marrow Progenitor Cells. Nutr Cancer 64(8):1287–1296",
+      "url": "https://doi.org/10.1080/01635581.2012.714831",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_choleretic_sprout",
+      "type": "monograph",
+      "title": "Shim et al. (2007): Antioxidant and Choleretic Properties of Raphanus sativus L. Sprout (Kaiware Daikon) Extract. J Agric Food Chem 54(22):8292–8299",
+      "url": "https://doi.org/10.1021/jf061838u",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_black_radish",
+      "type": "wikipedia",
+      "title": "Wikipedia EN: Black radish",
+      "url": "https://en.wikipedia.org/wiki/Black_radish",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wikidata_raphanus_niger",
+      "type": "wikidata",
+      "title": "Wikidata Q159587: Raphanus sativus subsp. niger (Black radish)",
+      "url": "https://www.wikidata.org/wiki/Q159587",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_pfaf_raphanus",
+      "type": "book",
+      "title": "Plants For A Future (PFAF): Raphanus sativus — Radish",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Raphanus+sativus",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "raphanus-sativus-niger.jpg",
+    "alt": {
+      "de": "Foto von Rettiche",
+      "en": "Photo of Black_Spanish_radish"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Eckard Wolff-Postler",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rettich.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 6,
+        "end_month": 8
+      }
+    },
+    "harvest_window": {
+      "start_month": 9,
+      "end_month": 11
+    },
+    "days_to_harvest": 90,
+    "spacing_cm": 15,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "companion_planting": {
+    "good_partners": [
+      "daucus-carota-sativus",
+      "lactuca-sativa-capitata"
+    ],
+    "bad_partners": [],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "vertical_low",
+    "root_loosener"
+  ],
+  "constituents": [
+    {
+      "name": "Glucoraphenin",
+      "category": "glycoside",
+      "plant_part": "root",
+      "percent_range": "0,3–1,5 %",
+      "note": {
+        "de": "Häufigstes Glucosinolat im schwarzen Rettich; Vorläufer von Raphanin (Sulforaphen); zeigt cholagoge und induzierende Wirkung auf Phase-II-Enzyme.",
+        "en": "Most abundant glucosinolate in black radish; precursor of raphanin (sulphoraphene); shows cholagogue and phase-II enzyme-inducing activity."
+      }
+    },
+    {
+      "name": "Glucoraphasatin",
+      "category": "glycoside",
+      "plant_part": "root",
+      "note": {
+        "de": "Zweithäufigstes Glucosinolat; Abbauprodukt ist ein potentes Isothiocyanat; antioxidativ und antimikrobiell.",
+        "en": "Second most abundant glucosinolate; breakdown product is a potent isothiocyanate; antioxidant and antimicrobial."
+      }
+    },
+    {
+      "name": "Raphanin (Isothiocyanate-Gemisch)",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "Enzymatisches Abbauprodukt der Glucosinolate durch Myrosinase; wirksame antimikrobielle Komponente; scharf-bittered Geschmack des Rettichs.",
+        "en": "Enzymatic breakdown product of glucosinolates by myrosinase; active antimicrobial component; responsible for the pungent-bitter taste of radish."
+      }
+    },
+    {
+      "name": "Myrosinase",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "Pflanzliches Enzym (Thioglucosidase), das Glucosinolate in reaktive Isothiocyanate spaltet. Wird bei Zerkleinerung oder Kauen aktiviert.",
+        "en": "Plant enzyme (thioglucosidase) that cleaves glucosinolates into reactive isothiocyanates. Activated upon maceration or chewing."
+      }
+    },
+    {
+      "name": "Anthocyane",
+      "category": "flavonoid",
+      "plant_part": "root",
+      "note": {
+        "de": "Geben der schwarzen Schale und dem roten Fleisch mancher Rettichsorten ihre dunkle Farbe; antioxidativ. Hauptsächlich Pelargonidin-Derivate.",
+        "en": "Responsible for the dark colour of the black skin and red flesh of some radish varieties; antioxidant. Primarily pelargonidin derivatives."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "plant_part": "root",
+      "percent_range": "20–30 mg/100 g Frischgewicht",
+      "note": {
+        "de": "Schwarzer Rettich ist eine gute Vitamin-C-Quelle; Ascorbinsäure wirkt antioxidativ und unterstützt die Eisenaufnahme.",
+        "en": "Black radish is a good source of vitamin C; ascorbic acid acts as an antioxidant and supports iron absorption."
+      }
+    },
+    {
+      "name": "Folat (Folsäure)",
+      "category": "vitamin",
+      "plant_part": "root",
+      "note": {
+        "de": "Enthält relevante Mengen Folat; wichtig für Zellteilung und DNA-Synthese.",
+        "en": "Contains relevant amounts of folate; important for cell division and DNA synthesis."
+      }
+    },
+    {
+      "name": "Kalium",
+      "category": "mineral",
+      "plant_part": "root",
+      "note": {
+        "de": "Hoher Kaliumgehalt trägt zur Herz-Kreislauf-Funktion und milden diuretischen Wirkung bei.",
+        "en": "High potassium content contributes to cardiovascular function and a mild diuretic effect."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Keine Tageszeit-Einschränkung; Ernte nach dem ersten leichten Frost für intensiveren Geschmack",
+        "en": "No time-of-day restriction; harvest after the first light frost for more intense flavour"
+      },
+      "drying": {
+        "de": "Für Heilzwecke frisch verwenden (Frischsaft) oder in dünne Scheiben schneiden und bei 40–50 °C trocknen. Getrocknete Scheiben mahlen oder ganz lagern.",
+        "en": "Use fresh for medicinal purposes (fresh juice) or slice thinly and dry at 40–50 °C. Store dried slices whole or ground."
+      },
+      "storage_months": 3,
+      "storage_condition": {
+        "de": "Frische Wurzel: kühl (4–8 °C), dunkel, hohe Luftfeuchtigkeit — bis 3 Monate haltbar. Getrocknet: luftdicht, dunkel, bis 12 Monate.",
+        "en": "Fresh root: cool (4–8 °C), dark, high humidity — stores up to 3 months. Dried: airtight, dark, up to 12 months."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Morgens oder am Vormittag bei trockenem Wetter ernten, wenn die Samenschoten gelb-braun und trocken sind",
+        "en": "Harvest in the morning or late morning in dry weather when the seed pods are yellow-brown and dry"
+      },
+      "drying": {
+        "de": "Samenschoten nachtrocknen lassen, dann dreschen und Samen in Papiertüten oder dunklen Gläsern trocken lagern.",
+        "en": "Allow seed pods to finish drying, then thresh and store seeds in paper bags or dark glass jars in a dry location."
+      },
+      "storage_months": 36,
+      "storage_condition": {
+        "de": "Trocken, kühl, lichtgeschützt. Keimfähigkeit prüfen vor Aussaat.",
+        "en": "Dry, cool, protected from light. Test germination capacity before sowing."
+      }
+    }
+  ]
+}

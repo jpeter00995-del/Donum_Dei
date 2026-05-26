@@ -1,0 +1,105 @@
+---
+import '@/styles/global.css';
+// Self-hosted fonts (DSGVO — no Google Fonts request from client)
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/500.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/crimson-pro/400.css';
+import '@fontsource/crimson-pro/600.css';
+import '@fontsource/crimson-pro/700.css';
+import LanguageToggle from '@/components/LanguageToggle.tsx';
+import Disclaimer from '@/components/Disclaimer.astro';
+import { t } from '@/lib/i18n';
+import type { Locale } from '@/lib/types';
+
+interface Props {
+  locale: Locale;
+  title?: string;
+}
+const { locale, title } = Astro.props;
+const pageTitle = title ? `${title} · ${t(locale, 'site.title')}` : t(locale, 'site.title');
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="description" content={t(locale, 'site.tagline')} />
+    <meta name="theme-color" content="#047857" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <script is:inline>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(() => {});
+        });
+      }
+    </script>
+  </head>
+  <body class="min-h-screen bg-white text-slate-900 flex flex-col font-sans antialiased">
+    <header class="border-b border-slate-200 bg-white">
+      <div class="max-w-6xl mx-auto px-4 pt-4 pb-3 flex items-center justify-between gap-3">
+        <a href={`/${locale}/`} class="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 hover:text-emerald-700 transition tracking-wide whitespace-nowrap">
+          {t(locale, 'site.title')}
+        </a>
+        <LanguageToggle client:load currentLocale={locale} currentPath={currentPath} />
+      </div>
+      <nav class="border-t border-slate-100 bg-slate-50/60">
+        <div class="max-w-6xl mx-auto flex items-center gap-1 text-sm text-slate-600 overflow-x-auto px-4 py-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:justify-center md:flex-wrap">
+          <a href={`/${locale}/`} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.plants')}</a>
+          <a href={locale === 'de' ? '/de/hilfe-bei' : '/en/help-with'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.symptoms')}</a>
+          <a href={locale === 'de' ? '/de/karte' : '/en/map'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.map')}</a>
+          <a href={locale === 'de' ? '/de/mein-garten/' : '/en/my-garden/'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.garden')}</a>
+          <a href={locale === 'de' ? '/de/kalender' : '/en/calendar'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.calendar')}</a>
+          <a href={locale === 'de' ? '/de/mischkultur' : '/en/companion-planting'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.companion')}</a>
+          <a href={locale === 'de' ? '/de/pakete' : '/en/packages'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.packages')}</a>
+          <a href={locale === 'de' ? '/de/permakultur' : '/en/permaculture'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.permaculture')}</a>
+          <a href={`/${locale}/quiz`} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.quiz')}</a>
+          <a href={locale === 'de' ? '/de/zuhause-anbauen' : '/en/grow-at-home'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.indoor')}</a>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-1">
+      <slot />
+    </main>
+    <div class="border-t border-slate-200 bg-slate-50 px-4 pt-4 pb-2 text-center text-sm">
+      <nav
+        aria-label="Footer"
+        class="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-emerald-700"
+      >
+        <a
+          href={`/${locale}/feedback`}
+          class="hover:text-emerald-800 hover:underline transition"
+        >
+          {t(locale, 'feedback.nav_label')}
+        </a>
+        <span class="text-slate-400" aria-hidden="true">{t(locale, 'footer.separator')}</span>
+        <a
+          href={locale === 'de' ? '/de/impressum' : '/en/imprint'}
+          class="hover:text-emerald-800 hover:underline transition"
+        >
+          {t(locale, 'footer.imprint')}
+        </a>
+        <span class="text-slate-400" aria-hidden="true">{t(locale, 'footer.separator')}</span>
+        <a
+          href={locale === 'de' ? '/de/datenschutz' : '/en/privacy'}
+          class="hover:text-emerald-800 hover:underline transition"
+        >
+          {t(locale, 'footer.privacy')}
+        </a>
+        <span class="text-slate-400" aria-hidden="true">{t(locale, 'footer.separator')}</span>
+        <a
+          href={locale === 'de' ? '/de/bildnachweis' : '/en/image-credits'}
+          class="hover:text-emerald-800 hover:underline transition"
+        >
+          {t(locale, 'footer.credits')}
+        </a>
+      </nav>
+    </div>
+    <Disclaimer locale={locale} />
+  </body>
+</html>

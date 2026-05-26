@@ -1,0 +1,439 @@
+{
+  "slug": "equisetum-arvense",
+  "names": {
+    "de": "Acker-Schachtelhalm",
+    "en": "Field Horsetail",
+    "latin": "Equisetum arvense"
+  },
+  "family": {
+    "de": "Schachtelhalmgewächse",
+    "en": "Horsetail family",
+    "latin": "Equisetaceae"
+  },
+  "description": {
+    "de": "Der Acker-Schachtelhalm ist eine in Europa weit verbreitete Sporenpflanze, deren grüne Sommertriebe seit Jahrhunderten in der Volksheilkunde verwendet werden. Er ist reich an Kieselsäure und Mineralstoffen und wächst bevorzugt auf feuchten, lehmigen Böden an Wegrändern und auf Brachflächen. Im Frühjahr erscheinen zuerst die hellen, sporentragenden Triebe, später die unverwechselbaren grünen Sommertriebe.",
+    "en": "Field horsetail is a spore-bearing plant widespread across Europe, whose green summer shoots have been used in folk medicine for centuries. It is rich in silica and minerals and prefers moist, loamy soils along paths and on fallow ground. The pale, spore-bearing shoots appear first in spring, followed later by the distinctive green summer shoots."
+  },
+  "teaser": {
+    "de": "Reich an Kieselsäure — traditioneller Tee für Niere und Bindegewebe.",
+    "en": "Rich in silica — traditional tea for kidneys and connective tissue."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "ABKOCHUNG (Dekokt — Kieselsäure ist schwer wasserlöslich und wird erst durch Kochen freigesetzt): 2–3 g zerkleinertes getrocknetes Schachtelhalmkraut in 200–250 ml kaltem Wasser ansetzen, 5 Minuten sprudelnd aufkochen, dann 10–15 Minuten ziehen lassen, abseihen. 3× täglich frisch zubereiten, zwischen den Mahlzeiten. WICHTIG: Während der gesamten Anwendung mindestens 2 Liter Flüssigkeit täglich trinken — Durchspülungstherapie funktioniert nur mit ausreichend Gesamtflüssigkeit.",
+          "en": "DECOCTION (silica is poorly water-soluble and requires boiling to release): 2–3 g crushed dried horsetail herb in 200–250 ml cold water, bring to rolling boil for 5 min, steep 10–15 min, strain. 3× daily freshly prepared, between meals. IMPORTANT: Drink at least 2 litres of fluid daily throughout — irrigation therapy only works with sufficient total fluid intake."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA-Monographie nur ab 12 Jahren.",
+          "en": "Per EMA monograph only from 12 years."
+        }
+      },
+      "description": {
+        "de": "Durchspülungstherapie bei leichten Beschwerden der ableitenden Harnwege (Reizblase, Infektprophylaxe). Das Dekokt erhöht die Harnmenge durch den Gehalt an löslicher Kieselsäure, Flavonoiden und Saponinen. Nicht bei Ödemen infolge von Herz- oder Niereninsuffizienz.",
+        "en": "Irrigation therapy for mild urinary tract complaints (irritable bladder, infection prevention). The decoction increases urine volume through its content of soluble silica, flavonoids and saponins. Not for oedema from cardiac or renal insufficiency."
+      },
+      "source_ids": [
+        "src_ema_equiseti_herba",
+        "src_wp_en_equisetum"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 100,
+          "max": 200
+        },
+        "doses_per_day": 1,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "VOLL- oder SITZBAD: 100–200 g getrocknetes Schachtelhalmkraut mit 2–3 Litern Wasser aufkochen, 10–15 Minuten ziehen lassen, abseihen, dem Badewasser zugeben. Badewassertemperatur 35–38 °C, Badezeit 10–20 Minuten. 1× täglich.",
+          "en": "FULL BATH or SITZ BATH: 100–200 g dried horsetail herb boiled in 2–3 litres water, steep 10–15 min, strain, add to bath water. Bath temperature 35–38 °C, bathing time 10–20 min. Once daily."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Ab 12 Jahren.",
+          "en": "From 12 years."
+        }
+      },
+      "description": {
+        "de": "Äußerliches Bad bei oberflächlichen, schlecht heilenden Wunden. Die Kombination aus Kieselsäure und Gerbstoffen wirkt adstringierend und fördert die Wundkontraktion. Traditionell auch bei Rheuma- und Gichtbeschwerden als Sitzbad.",
+        "en": "External bath for superficial, poorly healing wounds. The combination of silica and tannins acts astringently and promotes wound contraction. Traditionally also used as a sitz bath for rheumatic and gout complaints."
+      },
+      "source_ids": [
+        "src_ema_equiseti_herba",
+        "src_wp_en_equisetum"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 10,
+          "max": 20
+        },
+        "water_ml": 200,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "FEUCHTER UMSCHLAG: 10–20 g zerkleinertes Schachtelhalmkraut auf 200 ml Wasser, 5 Minuten kochen, 10 Minuten ziehen lassen, abseihen. Sauberes Leinentuch tränken, auf die Hautstelle auflegen, 15–20 Minuten belassen. 1–2× täglich frisch.",
+          "en": "MOIST COMPRESS: 10–20 g crushed horsetail herb in 200 ml water, boil 5 min, steep 10 min, strain. Soak clean linen cloth, apply to skin area, leave 15–20 min. 1–2× daily freshly prepared."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Ab 12 Jahren.",
+          "en": "From 12 years."
+        }
+      },
+      "description": {
+        "de": "Feuchter Umschlag zur Unterstützung der Wundheilung bei kleinen, oberflächlichen Wunden. Adstringierende Wirkung durch Kieselsäure, Gerbstoffe und Phenolsäuren.",
+        "en": "Moist compress to support wound healing for small superficial wounds. Astringent action from silica, tannins and phenolic acids."
+      },
+      "source_ids": [
+        "src_ema_equiseti_herba"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "DEKOKT wie für Harnwegstee (5 Min kochen + 15 Min ziehen). 2× täglich über 4 Wochen. Bei Bindegewebspflege und Haaren/Nägeln als Langzeittee — nicht für akute Indikationen.",
+          "en": "DECOCTION as for urinary tea (boil 5 min + steep 15 min). 2× daily for 4 weeks. For connective tissue support and hair/nails as long-term tea — not for acute indications."
+        }
+      },
+      "description": {
+        "de": "Volksmedizinische Langzeitanwendung des Schachtelhalmtees zur Stärkung von Bindegewebe, Haaren, Haut und Nägeln. Die lösliche Kieselsäure soll die Kollagensynthese unterstützen. Klinische Belege fehlen — traditionelle Anwendung in österreichischer und mitteleuropäischer Volksmedizin bei Rheuma und Gicht.",
+        "en": "Folk medicine long-term use of horsetail tea to strengthen connective tissue, hair, skin and nails. Soluble silica is said to support collagen synthesis. Clinical evidence lacking — traditional use in Austrian and Central European folk medicine for rheumatism and gout."
+      },
+      "source_ids": [
+        "src_wp_en_equisetum",
+        "src_wp_de_equisetum"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 100,
+          "max": 200
+        },
+        "doses_per_day": 1,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "SCHACHTELHALMKRAUT-BAD bei Rheuma/Gicht/Nervenschmerzen: 100–200 g Schachtelhalmkraut in 2–3 L Wasser kochen, abseihen, Wannenbad zufügen. Temperatur 37–39 °C, 15–20 Minuten. Österreichische Volksmedizin-Tradition.",
+          "en": "HORSETAIL HERB BATH for rheumatism/gout/nerve pain: 100–200 g horsetail herb boiled in 2–3 L water, strain, add to full bath. Temperature 37–39 °C, 15–20 minutes. Austrian folk medicine tradition."
+        }
+      },
+      "description": {
+        "de": "Volksmedizinisches Schachtelhalmkraut-Bad bei rheumatischen Beschwerden, Gicht und übermäßigem Fußschwitzen — österreichische Volksmedizintradition. Wärme und mineralreicher Auszug wirken gemeinsam muskelentspannend und durchblutungsfördernd.",
+        "en": "Folk medicine horsetail herb bath for rheumatic complaints, gout and excessive foot sweating — Austrian folk medicine tradition. Warmth and mineral-rich extract act together muscle-relaxing and circulation-promoting."
+      },
+      "source_ids": [
+        "src_wp_en_equisetum",
+        "src_wp_de_equisetum"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "grüne Sommertriebe",
+      "en": "green summer shoots"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIGE VERWECHSLUNGSGEFAHR beim Sammeln: Acker-Schachtelhalm (Equisetum arvense) NIEMALS mit dem GIFTIGEN Sumpf-Schachtelhalm (Equisetum palustre) verwechseln! Erkennungsmerkmal Acker-Schachtelhalm: Erstes Internodium der Seitentriebe LÄNGER als das Stammhülschen. Beim GIFTIGEN E. palustre ist es gleich lang oder kürzer. Im Zweifel nicht sammeln. — Durchspülungstherapie: mindestens 2 L Flüssigkeit/Tag trinken. KEINE Durchspülungstherapie bei Ödemen infolge Herz- oder Niereninsuffizienz. Bei Fieber, Blut im Urin, starken Schmerzen oder Harnverhalt sofort Arzt. Anwendung auf max. 4 Wochen begrenzen (thiaminolytische Enzyme theoretisch bei Langzeitanwendung).",
+      "en": "CRITICAL FORAGING WARNING: NEVER confuse field horsetail (E. arvense) with POISONOUS marsh horsetail (E. palustre). Field horsetail identifier: first internode of side branches LONGER than stem sheath. Poisonous E. palustre: equal or shorter. When in doubt, do not collect. — Irrigation therapy: drink at least 2 L fluid/day. NO irrigation for oedema from cardiac/renal insufficiency. Seek immediate medical attention for fever, blood in urine, severe pain or urinary retention. Limit use to max. 4 weeks (thiaminolytic enzymes theoretically relevant in long-term use)."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Schachtelhalm-Zubereitungen in der Schwangerschaft nicht anwenden — keine ausreichenden Sicherheitsdaten (EMA-Monographie).",
+        "en": "Horsetail preparations not to be used in pregnancy — insufficient safety data (EMA monograph)."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In der Stillzeit nicht anwenden — keine ausreichenden Daten.",
+        "en": "Do not use in lactation — insufficient data."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Nicht für Kinder unter 12 Jahren — mangels Daten (EMA-Monographie).",
+        "en": "Not for children under 12 years — lack of data (EMA monograph)."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Diuretika",
+        "mechanism": {
+          "de": "Schachtelhalm hat selbst leicht diuretische Eigenschaften (Flavonoide, Saponine). Bei gleichzeitiger Anwendung synthetischer Diuretika theoretisch additive Wirkung möglich — Elektrolythaushalt im Auge behalten. EMA beschreibt keine konkreten Wechselwirkungen.",
+          "en": "Horsetail itself has mild diuretic properties (flavonoids, saponins). Additive effect theoretically possible with synthetic diuretics — monitor electrolyte balance. EMA describes no specific interactions."
+        },
+        "severity": "caution"
+      },
+      {
+        "drug_class": "Thiamin (Vitamin B1)-Präparate",
+        "mechanism": {
+          "de": "Schachtelhalm enthält thiaminolytische Enzyme, die bei langer Anwendung theoretisch den Thiamin (Vitamin B1)-Status beeinflussen können. Klinisch bei kurzzeitiger Anwendung bis 4 Wochen nicht relevant. Bei Langzeitanwendung und ernährungsbedingtem Thiaminmangel-Risiko: auf ausreichende Zufuhr achten.",
+          "en": "Horsetail contains thiaminolytic enzymes that could theoretically affect thiamine (vitamin B1) status with long-term use. Clinically not relevant for short-term use up to 4 weeks. With long-term use and nutritional thiamine deficiency risk: ensure adequate intake."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegenüber Schachtelhalm.",
+        "en": "Hypersensitivity to horsetail."
+      },
+      {
+        "de": "Ödeme infolge Herz- oder Niereninsuffizienz — keine Durchspülungstherapie!",
+        "en": "Oedema from cardiac or renal insufficiency — no irrigation therapy!"
+      },
+      {
+        "de": "Erkrankungen, bei denen reduzierte Flüssigkeitszufuhr ärztlich angeordnet ist.",
+        "en": "Conditions requiring medically prescribed fluid restriction."
+      },
+      {
+        "de": "Kinder unter 12 Jahren.",
+        "en": "Children under 12 years."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit.",
+        "en": "Pregnancy and breastfeeding."
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [
+    {
+      "author": "Künzle",
+      "year": 1911,
+      "license": "PD",
+      "text_de": "Der Schachtelhalm ist eine treffliche Pflanze für die Nieren und das Blut.",
+      "text_en": "Horsetail is an excellent plant for the kidneys and the blood.",
+      "work": "Chrut und Uchrut",
+      "chapter": "Schachtelhalm / Zinnkraut (Equisetum arvense)"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Acker-Schachtelhalm (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Acker-Schachtelhalm",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Equisetum arvense (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Equisetum_arvense",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_equiseti_herba",
+      "type": "monograph",
+      "title": "EMA/HMPC/278091/2015 — European Union herbal monograph on Equisetum arvense L., herba (Final, 17 March 2016)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/equiseti-herba",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_wp_de_equisetum",
+      "type": "wikipedia",
+      "title": "Acker-Schachtelhalm (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Acker-Schachtelhalm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_equisetum",
+      "type": "wikipedia",
+      "title": "Equisetum arvense (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Equisetum_arvense",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "equisetum-arvense.jpg",
+    "alt": {
+      "de": "Grüne Sommertriebe des Acker-Schachtelhalms",
+      "en": "Green summer shoots of field horsetail"
+    },
+    "license": "CC BY 4.0",
+    "author": "Mike Dickison",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Equisetum_arvense_(Field_Horsetail)_MRD.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Kieselsäure (Siliciumdioxid, lösliches Silicium)",
+      "category": "mineral",
+      "percent_range": "5–8 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hauptcharakteristikum des Schachtelhalms — etwa 5–8 % des Trockengewichts, davon ~10 % wasserlöslich. Kieselsäure wird durch 5-minütiges Aufkochen (Dekokt) freigesetzt; kalter Aufguss enthält deutlich weniger. Silicium gilt in der Volksmedizin als stärkendes Element für Bindegewebe, Haare, Haut und Nägel — klinische Belege für diese Indikationen fehlen.",
+        "en": "Main characteristic of horsetail — about 5–8 % of dry weight, ~10 % of which is water-soluble. Silica is released by 5-minute boiling (decoction); cold infusion contains significantly less. Silicon is regarded in folk medicine as a strengthening element for connective tissue, hair, skin and nails — clinical evidence for these indications lacking."
+      }
+    },
+    {
+      "name": "Flavonoide (Equisetrin, Isoquercitrin, Kaempferol-Glykoside, Luteolin-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "0,3–1 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavonoide tragen zur leichten diuretischen Wirkung (Isoquercitrin) und antioxidativen Aktivität bei. Equisetrin ist das charakteristische Flavonoid des Schachtelhalms. Chlorogensäure, p-Cumarsäure und Rutin ebenfalls im Polyphenolprofil nachgewiesen.",
+        "en": "Flavonoids contribute to the mild diuretic action (isoquercitrin) and antioxidant activity. Equisetrin is the characteristic flavonoid of horsetail. Chlorogenic acid, p-coumaric acid and rutin also demonstrated in the polyphenol profile."
+      }
+    },
+    {
+      "name": "Phenolsäuren (Kaffeesäure-Derivate, Chlorogensäure, p-Cumarsäure)",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolsäure-Fraktion mit mild adstringierender und antioxidativer Wirkung. Chlorogensäure und p-Cumarsäure als Hauptvertreter in HPLC-Analysen belegt. Beitrag zur wundheilungsfördernden Wirkung bei äußerlicher Anwendung.",
+        "en": "Phenolic acid fraction with mildly astringent and antioxidant action. Chlorogenic acid and p-coumaric acid as main representatives demonstrated in HPLC analyses. Contribution to wound-healing-promoting action in external use."
+      }
+    },
+    {
+      "name": "Saponine (Equisetonin)",
+      "category": "saponin",
+      "percent_range": "~5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Equisetonin ist das Leitsaponin des Acker-Schachtelhalms. Saponine tragen zur diuretischen Wirkung bei und erhöhen die Membranpermeabilität. Hoher Saponingehalt ist ein Hinweis auf starke Verwässerung bei der Aufbereitung zu vermeiden.",
+        "en": "Equisetonin is the marker saponin of field horsetail. Saponins contribute to diuretic action and increase membrane permeability. High saponin content is a reason to avoid excessive concentration in preparations."
+      }
+    },
+    {
+      "name": "Alkaloide (Spuren: Nicotin, Palustrin)",
+      "category": "alkaloid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Nur in Spuren in E. arvense; therapeutisch irrelevant. WICHTIG: der GIFTIGE Sumpf-Schachtelhalm (E. palustre) enthält deutlich höhere Palustrin-Gehalte — wichtige Verwechslungsgefahr beim Wildrohstoff-Sammeln.",
+        "en": "Only in traces in E. arvense; therapeutically irrelevant. IMPORTANT: the POISONOUS marsh horsetail (E. palustre) contains much higher palustrine content — key foraging confusion risk."
+      }
+    },
+    {
+      "name": "Mineralien (Kalium, Kalzium, Mangan, Magnesium, Phosphor, Selen, Zink)",
+      "category": "mineral",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Schachtelhalm ist eine der mineralstoffreichsten Heilpflanzen der gemäßigten Zone. Kalium trägt zur Diurese bei. Das hohe Mineralstoffprofil ist Grundlage der volksmedizinischen Anwendung als 'Mineraltrunk' für Bindegewebe und Knochen.",
+        "en": "Horsetail is one of the mineral-richest medicinal plants of the temperate zone. Potassium contributes to diuresis. The high mineral profile is the basis of the folk medicine use as a 'mineral drink' for connective tissue and bones."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine)",
+      "category": "tannin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Tannine tragen zur adstringierenden Wirkung bei äußerlicher Anwendung (Wundbad, Umschlag) bei. Mäßiger Gerbstoffgehalt im Vergleich zu Pflanzen wie Eichenrinde.",
+        "en": "Tannins contribute to the astringent action in external use (wound bath, compress). Moderate tannin content compared to plants such as oak bark."
+      }
+    },
+    {
+      "name": "Phytosterole (Campesterol)",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Campesterol als Hauptphytosterol im Schachtelhalm nachgewiesen. Pharmakologisch bei Standarddosierung nicht relevant.",
+        "en": "Campesterol demonstrated as the main phytosterol in horsetail. Pharmacologically not relevant at standard dosing."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "An trockenem Vormittag nach Abtrocknen des Taus, wenn die Triebe prall und grün sind. Nicht bei Regen oder feuchtem Wetter ernten — nasses Material schimmelt beim Trocknen leicht.",
+        "en": "On a dry morning after dew has dried, when the shoots are firm and green. Do not harvest in rain or wet weather — wet material easily moulds during drying."
+      },
+      "drying": {
+        "de": "NUR sterile grüne Sommertriebe ernten (NICHT die frühen braunen sporentragenden Fruchttriebe!). KRITISCH: Sicher vom GIFTIGEN Sumpf-Schachtelhalm (E. palustre) unterscheiden — bei E. arvense ist das erste Internodium der Seitentriebe deutlich LÄNGER als das Stammhülschen. Triebe bodennah schneiden. Locker und einlagig im Schatten bei 30–40 °C ausbreiten und trocknen.",
+        "en": "Harvest ONLY sterile green summer shoots (NOT the early brown spore-bearing fertile shoots!). CRITICAL: Positively distinguish from POISONOUS marsh horsetail (E. palustre) — in E. arvense the first internode of side branches is clearly LONGER than the stem sheath. Cut shoots near ground level. Spread loosely in single layer in shade at 30–40 °C."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht, trocken, lichtgeschützt. Innerhalb 12 Monate aufbrauchen.",
+        "en": "Airtight, dry, light-protected. Use within 12 months."
+      }
+    }
+  ]
+}

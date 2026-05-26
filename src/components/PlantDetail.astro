@@ -1,0 +1,300 @@
+---
+import { t } from '@/lib/i18n';
+import { loadAllPlants } from '@/lib/loadPlants';
+import { loadOccurrencesBySlug } from '@/lib/loadOccurrences';
+import PlantMap from '@/components/PlantMap.tsx';
+import PlantTabs from '@/components/PlantTabs.tsx';
+import PermacultureFunctionBadge from '@/components/PermacultureFunctionBadge.astro';
+import ToxicityBadge from '@/components/ToxicityBadge.tsx';
+import SafetyAlerts from '@/components/SafetyAlerts.astro';
+import permacultureSetsFile from '@/data/permaculture_sets.json';
+import { getToxicityLevel, isPetToxic } from '@/lib/toxicity';
+import type { Plant, Locale, PermacultureSet, PermacultureSetsFile } from '@/lib/types';
+
+interface Props {
+  plant: Plant;
+  locale: Locale;
+}
+const { plant, locale } = Astro.props;
+const otherName = locale === 'de' ? plant.names.en : plant.names.de;
+const occurrences = loadOccurrencesBySlug(plant.slug);
+const mapPoints = occurrences ? occurrences.points.map(p => ({ lat: p.lat, lng: p.lng })) : [];
+const bgPoints = occurrences?.bulgaria_points
+  ? occurrences.bulgaria_points.map(p => ({ lat: p.lat, lng: p.lng }))
+  : [];
+
+// === Permakultur-Sektion (Welle E.2) ===
+// Plant-Lookup-Map für Partner-Namen + Slugs.
+const allPlants = loadAllPlants();
+const plantBySlug = new Map<string, Plant>(allPlants.map(p => [p.slug, p]));
+
+const cp = plant.companion_planting;
+const goodPartners = cp?.good_partners ?? [];
+const neutralPartners = cp?.neutral ?? [];
+const badPartners = cp?.bad_partners ?? [];
+const reasons = cp?.reasons ?? {};
+
+// Sets, die diese Pflanze enthalten (für „In diesen Paketen"-Liste).
+const setsFile = permacultureSetsFile as PermacultureSetsFile;
+const containingSets: PermacultureSet[] = setsFile.sets.filter(set =>
+  set.plants.some(p => p.slug === plant.slug),
+);
+
+const hasPermacultureSection =
+  (plant.permaculture_functions && plant.permaculture_functions.length > 0) ||
+  goodPartners.length > 0 ||
+  neutralPartners.length > 0 ||
+  badPartners.length > 0 ||
+  containingSets.length > 0;
+---
+
+<article class="max-w-3xl mx-auto px-4 py-8">
+  <a href={`/${locale}/`} class="text-sm text-emerald-700 hover:underline">← {t(locale, 'detail.back')}</a>
+
+  {/* === Welle M.3 — Prominent toxicity warner, ABOVE the image === */}
+  {getToxicityLevel(plant) === 'toxic' && (
+    <div class="mt-4">
+      <ToxicityBadge plant={plant} locale={locale} variant="box" />
+    </div>
+  )}
+
+  <div class="mt-4 aspect-[4/3] overflow-hidden rounded-lg bg-slate-100">
+    <img
+      src={`/images/plants/${plant.image.filename}`}
+      alt={plant.image.alt[locale]}
+      class="w-full h-full object-cover"
+    />
+  </div>
+  <p class="text-xs text-slate-500 mt-1">
+    © {plant.image.author} · {plant.image.license} ·
+    <a href={plant.image.source_url} target="_blank" rel="noopener noreferrer" class="underline">Commons</a>
+  </p>
+
+  <header class="mt-6">
+    <div class="flex items-start gap-3 flex-wrap">
+      <h1 class="text-3xl font-serif font-bold text-slate-900">{plant.names[locale]}</h1>
+      {(getToxicityLevel(plant) !== 'none' || isPetToxic(plant)) && (
+        <span class="mt-2"><ToxicityBadge plant={plant} locale={locale} variant="badge" /></span>
+      )}
+    </div>
+    <p class="text-base italic text-slate-600 mt-1">
+      {otherName}<span class="text-slate-400"> · </span>({plant.names.latin})
+    </p>
+    <p class="text-sm text-slate-500 mt-1">{plant.family[locale]} ({plant.family.latin})</p>
+  </header>
+
+  <section class="mt-6">
+    <h2 class="text-xl font-serif font-semibold text-slate-900">{t(locale, 'detail.description')}</h2>
+    <p class="mt-2 text-slate-800 leading-relaxed">{plant.description[locale]}</p>
+  </section>
+
+  {/* === Welle G (Codex v1) — Prominent Inline Safety Alerts BEFORE Tabs === */}
+  <SafetyAlerts plant={plant} locale={locale} />
+
+  {/* === Welle O.3 — Tab-Leiste: Anwendung / Sicherheit / Sammeln / Wirkstoffe / Quellen === */}
+  <section class="mt-6">
+    <PlantTabs plant={plant} locale={locale} client:load />
+  </section>
+
+  {plant.classical_quotes.length > 0 && (
+    <section class="mt-6">
+      <h2 class="text-xl font-serif font-semibold text-slate-900">{t(locale, 'detail.quotes')}</h2>
+      <div class="mt-2 space-y-3">
+        {plant.classical_quotes.map(q => (
+          <blockquote class="border-l-4 border-slate-300 pl-4 py-1 italic text-slate-700">
+            <p>"{locale === 'en' && q.text_en ? q.text_en : q.text_de}"</p>
+            <footer class="mt-1 text-sm not-italic text-slate-500">
+              — {q.author}, {q.year}
+              {q.work && (
+                <span class="block text-xs text-slate-400">
+                  {q.work}{q.chapter ? ` · ${q.chapter}` : ''}
+                </span>
+              )}
+            </footer>
+          </blockquote>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {occurrences && (mapPoints.length > 0 || bgPoints.length > 0) && (
+    <section class="mt-6">
+      <h2 class="text-xl font-serif font-semibold text-slate-900 mb-2">{t(locale, 'detail.distribution')}</h2>
+      <PlantMap client:only="react" points={mapPoints} bulgariaPoints={bgPoints} plantName={plant.names.latin} locale={locale} />
+    </section>
+  )}
+
+  {plant.indoor_growing?.suitable && (
+    <section class="my-8">
+      <h2 class="text-2xl font-bold mb-4 text-emerald-700">🪴 {t(locale, 'indoor.section_title')}</h2>
+
+      <dl class="grid grid-cols-2 gap-3 mb-4 text-sm">
+        <div class="flex justify-between border-b border-emerald-100 pb-1">
+          <dt class="font-semibold">☀ {t(locale, 'indoor.light')}</dt>
+          <dd>{t(locale, `indoor.light.${plant.indoor_growing.light}`)}</dd>
+        </div>
+        <div class="flex justify-between border-b border-emerald-100 pb-1">
+          <dt class="font-semibold">💧 {t(locale, 'indoor.water')}</dt>
+          <dd>{t(locale, `indoor.water.${plant.indoor_growing.water_frequency}`)}</dd>
+        </div>
+        {plant.indoor_growing.soil && (
+          <div class="flex justify-between border-b border-emerald-100 pb-1 col-span-2">
+            <dt class="font-semibold">🌱 {t(locale, 'indoor.soil')}</dt>
+            <dd>{plant.indoor_growing.soil[locale]}</dd>
+          </div>
+        )}
+        {plant.indoor_growing.pot_size_cm && (
+          <div class="flex justify-between border-b border-emerald-100 pb-1">
+            <dt class="font-semibold">🪴 {t(locale, 'indoor.pot')}</dt>
+            <dd>{plant.indoor_growing.pot_size_cm} cm</dd>
+          </div>
+        )}
+        <div class="flex justify-between border-b border-emerald-100 pb-1">
+          <dt class="font-semibold">⭐ {t(locale, 'indoor.difficulty')}</dt>
+          <dd>{'★'.repeat(plant.indoor_growing.difficulty)}{'☆'.repeat(3 - plant.indoor_growing.difficulty)} {t(locale, `indoor.diff.${plant.indoor_growing.difficulty}`)}</dd>
+        </div>
+        <div class="flex justify-between border-b border-emerald-100 pb-1">
+          <dt class="font-semibold">🐾 {t(locale, 'indoor.pet_safe')}</dt>
+          <dd>{plant.indoor_growing.pet_safe ? t(locale, 'indoor.pet_safe.yes') : t(locale, 'indoor.pet_safe.no')}</dd>
+        </div>
+      </dl>
+
+      {plant.indoor_growing.tips && (
+        <div>
+          <h3 class="font-bold mb-2">{t(locale, 'indoor.tips')}:</h3>
+          <ul class="list-disc list-inside space-y-1 text-sm">
+            {plant.indoor_growing.tips[locale].map(tip => <li>{tip}</li>)}
+          </ul>
+        </div>
+      )}
+
+      <p class="text-xs text-gray-500 mt-4 italic">{t(locale, 'indoor.disclaimer')}</p>
+    </section>
+  )}
+
+  {hasPermacultureSection && (
+    <section class="mt-8">
+      <h2 class="text-xl font-serif font-semibold text-slate-900">
+        {t(locale, 'permaculture.section_title')}
+      </h2>
+
+      {plant.permaculture_functions && plant.permaculture_functions.length > 0 && (
+        <div class="mt-3">
+          <p class="text-slate-700 text-sm mb-2">{t(locale, 'permaculture.functions_intro')}</p>
+          <div class="flex flex-wrap gap-2">
+            {plant.permaculture_functions.map(fn => (
+              <PermacultureFunctionBadge fn={fn} locale={locale} />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {goodPartners.length > 0 && (
+        <div class="mt-5">
+          <h3 class="font-semibold text-emerald-800 mb-2">{t(locale, 'permaculture.good_partners')}</h3>
+          <ul class="space-y-2">
+            {goodPartners.map(slug => {
+              const partner = plantBySlug.get(slug);
+              const reason = reasons[slug]?.[locale];
+              const label = partner?.names[locale] ?? slug;
+              return (
+                <li class="flex flex-wrap items-baseline gap-2 text-sm">
+                  <a
+                    href={`/${locale}/plant/${slug}/`}
+                    class="text-emerald-700 font-medium hover:underline"
+                  >
+                    🌿 {label}
+                  </a>
+                  <span class="text-slate-400" aria-hidden="true">→</span>
+                  <span class="text-slate-700">
+                    {reason ?? t(locale, 'permaculture.fallback_reason')}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
+
+      {neutralPartners.length > 0 && (
+        <div class="mt-5">
+          <h3 class="font-semibold text-slate-700 mb-2">{t(locale, 'permaculture.neutral_partners')}</h3>
+          <ul class="flex flex-wrap gap-x-3 gap-y-1 text-sm">
+            {neutralPartners.map(slug => {
+              const partner = plantBySlug.get(slug);
+              const label = partner?.names[locale] ?? slug;
+              return (
+                <li>
+                  <a
+                    href={`/${locale}/plant/${slug}/`}
+                    class="text-slate-700 hover:text-emerald-700 hover:underline"
+                  >
+                    {label}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
+
+      {badPartners.length > 0 && (
+        <div class="mt-5">
+          <h3 class="font-semibold text-red-700 mb-2">{t(locale, 'permaculture.bad_partners')}</h3>
+          <ul class="space-y-2">
+            {badPartners.map(slug => {
+              const partner = plantBySlug.get(slug);
+              const reason = reasons[slug]?.[locale];
+              const label = partner?.names[locale] ?? slug;
+              return (
+                <li class="flex flex-wrap items-baseline gap-2 text-sm">
+                  <a
+                    href={`/${locale}/plant/${slug}/`}
+                    class="text-red-700 font-medium hover:underline"
+                  >
+                    🥬 {label}
+                  </a>
+                  <span class="text-slate-400" aria-hidden="true">→</span>
+                  <span class="text-slate-700">
+                    {reason ?? t(locale, 'permaculture.fallback_reason')}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
+
+      {containingSets.length > 0 && (
+        <div class="mt-5">
+          <h3 class="font-semibold text-slate-800 mb-2">{t(locale, 'permaculture.in_sets')}</h3>
+          <ul class="flex flex-wrap gap-2">
+            {containingSets.map(set => {
+              const setName = locale === 'de' ? set.name_de : set.name_en;
+              const packagesPath = locale === 'de' ? '/de/pakete' : '/en/packages';
+              return (
+                <li>
+                  <a
+                    href={`${packagesPath}#${set.id}`}
+                    class="inline-flex items-center gap-1 rounded-full bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 text-slate-700 border border-slate-200 px-2.5 py-1 text-sm transition"
+                  >
+                    <span aria-hidden="true">{set.emoji}</span>
+                    <span>{setName}</span>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
+
+      {cp?.source && (
+        <p class="mt-4 text-xs text-slate-500">
+          {t(locale, 'permaculture.source_label')}: {cp.source}
+        </p>
+      )}
+    </section>
+  )}
+
+  {/* === Quellen sind jetzt im PlantTabs-Block (Quellen-Tab) === */}
+</article>

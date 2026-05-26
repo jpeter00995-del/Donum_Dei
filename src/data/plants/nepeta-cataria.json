@@ -1,0 +1,483 @@
+{
+  "slug": "nepeta-cataria",
+  "names": {
+    "de": "Echte Katzenminze",
+    "en": "Echte_Katzenminze",
+    "latin": "Nepeta cataria"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Die Echte Katzenminze, auch Echter Andorn, Katzenmelisse, Katzenkraut und kurz Katzenminze genannt, ist eine Pflanzenart aus der Gattung Katzenminzen (Nepeta) innerhalb der Familie der Lippenblütler (Lamiaceae). Sie ist in Eurasien weitverbreitet und wird vielseitig verwendet. Sie gehört nicht zur Gattung der Minzen (Mentha).",
+    "en": "Description for Echte_Katzenminze pending — see Wikipedia article."
+  },
+  "teaser": {
+    "de": "Die Echte Katzenminze, auch Echter Andorn, Katzenmelisse, Katzenkraut und kurz Katzenminze genannt, ist eine Pflanzen...",
+    "en": "Description for Echte_Katzenminze pending — see Wikipedia article."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Tee aus blühendem Kraut wirkt leicht beruhigend und nervenstärkend. Traditionell bei nervöser Erschöpfung, Unruhe und Schlafstörungen eingesetzt. Der Aufguss wirkt mild sedativ, ohne stark einzuschläfern — geeignet für Erwachsene und ältere Kinder.",
+        "en": "Tea from flowering aerial parts has a mildly sedative and nervine action. Traditionally used for nervous exhaustion, restlessness, and difficulty sleeping. The infusion calms without strong hypnotic effect — suitable for adults and older children."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–4 g getrocknetes Kraut mit nicht kochendem Wasser (ca. 90 °C) übergießen, 10 Minuten ziehen lassen, abseihen. Kein kochendes Wasser — ätherische Öle verflüchtigen sich.",
+          "en": "Pour non-boiling water (approx. 90 °C) over 2–4 g dried herb, steep 10 minutes, strain. Avoid boiling water — volatile oils evaporate."
+        }
+      },
+      "source_ids": [
+        "src_wp_de_nc",
+        "src_pfaf_nc",
+        "src_henriette_nc"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "fever",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Warmer Katzenminzetee gilt als schweißtreibend und fiebersenkend. In der europäischen Volksmedizin bei Erkältungsfieber und Grippe eingesetzt, um durch vermehrtes Schwitzen die Körpertemperatur zu senken.",
+        "en": "Warm catnip tea is considered diaphoretic and antipyretic. Used in European folk medicine for feverish colds and influenza to reduce body temperature through perspiration."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "Wie Nerventee zubereiten; warm und in kleinen Schlucken trinken, damit sich der Schweiß entfalten kann. Anschließend warm halten.",
+          "en": "Prepare like nervine tea; drink warm in small sips to encourage perspiration. Keep warm afterwards."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_nc",
+        "src_henriette_nc"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Kalt zubereiteter Tee oder abgekühlter Aufguss wirkt tonisch und appetitanregend. Warm eingenommen vor den Mahlzeiten unterstützt die Verdauung und lindert Blähungen (karminative Wirkung).",
+        "en": "Cold-prepared infusion or cooled tea acts as a tonic and appetite stimulant. Taken warm before meals it supports digestion and relieves flatulence (carminative action)."
+      },
+      "source_ids": [
+        "src_wp_de_nc",
+        "src_pfaf_nc"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "menstrual"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der traditionellen europäischen Kräutermedizin als mildes Emmenagogum bei Dysmenorrhoe (Regelschmerzen) und Amenorrhoe (ausbleibender Menstruation) verwendet. Wirkung gilt als leicht und nicht verlässlich reproduzierbar.",
+        "en": "Used in traditional European herbalism as a mild emmenagogue for dysmenorrhoea (menstrual pain) and amenorrhoea (absent menstruation). Effect is considered mild and not reliably reproducible."
+      },
+      "source_ids": [
+        "src_pfaf_nc",
+        "src_henriette_nc"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Das durch Wasserdampfdestillation gewonnene ätherische Öl enthält Nepetalacton und wirkt als Insektenrepellent gegen Stechmücken, Schaben und Termiten. In Laborversuchen vergleichbar wirksam mit DEET als räumlicher Abweisschutz, auf der Haut jedoch schwächer.",
+        "en": "Essential oil obtained by steam distillation contains nepetalactone and acts as insect repellent against mosquitoes, cockroaches, and termites. In laboratory tests comparably effective to DEET as a spatial repellent, but less effective than DEET when applied directly to skin."
+      },
+      "source_ids": [
+        "src_wp_en_nc",
+        "src_frontiers_nc"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische oder wiedererwärmte Blätter als Umschlag auf Blutergüsse (besonders Veilchen) und Prellungen aufgelegt. Adstringierende Gerbstoffe und Rosmarinsäure sollen entzündungshemmend wirken.",
+        "en": "Fresh or rewarmed leaves applied as a poultice to bruises (especially black eyes) and contusions. Astringent tannins and rosmarinic acid are thought to provide anti-inflammatory action."
+      },
+      "source_ids": [
+        "src_pfaf_nc"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Als Tee in üblicher Dosierung gut verträglich. Ätherisches Öl nur verdünnt äußerlich anwenden. Nicht rauchen — kann Halluzinationen auslösen. Auf schwere Maschinen verzichten (sedierende Wirkung). Großmengen können Reizbarkeit und übermäßige Schläfrigkeit verursachen.",
+      "en": "Tea in normal doses is well tolerated. Essential oil for external use only, diluted. Do not smoke — may cause hallucinations. Avoid operating machinery (sedative effect). Large doses may cause irritability and excessive sleepiness."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Wegen emmenagogener Wirkung in der Schwangerschaft nicht einnehmen — kann Uteruskontraktionen auslösen.",
+        "en": "Not for use during pregnancy due to emmenagogue action — may stimulate uterine contractions."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten zur Sicherheit in der Stillzeit; vorsorglich meiden.",
+        "en": "No safety data for breastfeeding; avoid as a precaution."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Kleinmengen Tee gelten traditionell als sicher bei fieberhaften Erkältungen von Kleinkindern. Nicht über längere Zeit geben — kann Lethargie verursachen. Unter 1 Jahr: nicht anwenden.",
+        "en": "Small amounts of tea are traditionally considered safe for childhood feverish colds. Do not give for extended periods — may cause lethargy. Under 1 year: do not use."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Sedativa / Schlafmittel",
+        "mechanism": {
+          "de": "Additive dämpfende Wirkung auf das ZNS — verstärkte Sedierung möglich.",
+          "en": "Additive CNS depressant effect — enhanced sedation possible."
+        },
+        "severity": "caution",
+        "source_id": "src_pfaf_nc"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Schwangerschaft (emmenagogen).",
+        "en": "Pregnancy (emmenagogue effect)."
+      },
+      {
+        "de": "Bekannte Allergie gegen Lippenblütler (Lamiaceae).",
+        "en": "Known allergy to plants in the Lamiaceae (mint) family."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echte Katzenminze (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echte_Katzenminze",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Echte_Katzenminze (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Echte_Katzenminze",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wp_de_nc",
+      "type": "wikipedia",
+      "title": "Echte Katzenminze (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echte_Katzenminze",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_nc",
+      "type": "wikipedia",
+      "title": "Catnip (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Catnip",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_nc",
+      "type": "monograph",
+      "title": "Nepeta cataria — Plants for a Future database",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Nepeta+cataria",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_henriette_nc",
+      "type": "book",
+      "title": "King's American Dispensatory (1898): Nepeta cataria — Henriette's Herbal Homepage",
+      "url": "https://www.henriettes-herb.com/eclectic/kings/nepeta.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_frontiers_nc",
+      "type": "monograph",
+      "title": "Nadeem et al. (2022): Phytochemical profiling of antimicrobial and potential antioxidant plant: Nepeta cataria — Frontiers in Plant Science",
+      "url": "https://doi.org/10.3389/fpls.2022.969316",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "nepeta-cataria.jpg",
+    "alt": {
+      "de": "Foto von Echte Katzenminze",
+      "en": "Photo of Echte_Katzenminze"
+    },
+    "license": "CC BY 4.0",
+    "author": "Robert Flogaus-Faust",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nepeta_cataria_RF.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "pest_repelling",
+      "medicinal"
+    ],
+    "rooms": [
+      "balcony",
+      "kitchen"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "every_few_days",
+    "difficulty": 1,
+    "pet_safe": true,
+    "soil": {
+      "de": "Standard-Kräutererde",
+      "en": "Standard herb compost"
+    },
+    "pot_size_cm": 20,
+    "tips": {
+      "de": [
+        "Falls Katze im Haus: lieber außer Reichweite — sonst wird sie zerwühlt.",
+        "Auf Balkon ein natürlicher Mückenschutz.",
+        "Tee aus den Blüten/Blättern wirkt beruhigend."
+      ],
+      "en": [
+        "If cats live with you: keep out of reach — otherwise gets shredded.",
+        "Natural mosquito repellent on balcony.",
+        "Tea from flowers/leaves has calming effect."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-sativum",
+      "cucurbita-pepo"
+    ],
+    "bad_partners": [],
+    "notes_de": "cucurbita-pepo: Katzenminze hält Kürbis-Käfer fern.",
+    "notes_en": "cucurbita-pepo: Catnip deters squash bugs.",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      },
+      "outdoor_direct": {
+        "start_month": 4,
+        "end_month": 6
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 9
+    },
+    "days_to_harvest": 90,
+    "spacing_cm": 40,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "pest_repellent",
+    "pollinator_attractor",
+    "aromatic_repellent",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Nepetalacton (cis,trans- und trans,cis-Isomere)",
+      "category": "essential_oil",
+      "percent_range": "10–95 % im ätherischen Öl",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hauptwirkstoff des ätherischen Öls; monoterpenes Iridoid-Analogon. Löst das charakteristische euphorische Verhalten bei Katzen aus; wirkt als Insektenrepellent und ist für den typischen Geruch verantwortlich.",
+        "en": "Main active compound of the essential oil; monoterpene iridoid analogue. Triggers the characteristic euphoric behaviour in cats; acts as insect repellent and is responsible for the characteristic scent."
+      }
+    },
+    {
+      "name": "Rosmarinsäure",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Polyphenolische Hydroxyzimtsäure mit antioxidativer, antimikrobieller und entzündungshemmender Wirkung. In der Pflanzenfamilie Lamiaceae weit verbreitet.",
+        "en": "Polyphenolic hydroxycinnamic acid with antioxidant, antimicrobial, and anti-inflammatory properties. Widespread in the Lamiaceae family."
+      }
+    },
+    {
+      "name": "Luteolin und Luteolin-Glucuronid",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavone mit anxiolytischem Potenzial über Modulation der GABA-A-Rezeptoren — wahrscheinlich mitverantwortlich für die sedierende Wirkung des Tees.",
+        "en": "Flavones with anxiolytic potential via GABA-A receptor modulation — likely contributing to the sedative effect of the tea."
+      }
+    },
+    {
+      "name": "Apigenin und Apigenin-Glucosid",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavon mit anti-inflammatorischen und leicht spasmolytischen Eigenschaften; unterstützt die karminative Wirkung.",
+        "en": "Flavone with anti-inflammatory and mildly spasmolytic properties; supports the carminative action."
+      }
+    },
+    {
+      "name": "Kaffeesäure",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolische Säure mit antioxidativer und antimikrobieller Aktivität; Vorläufer der Rosmarinsäure.",
+        "en": "Phenolic acid with antioxidant and antimicrobial activity; precursor to rosmarinic acid."
+      }
+    },
+    {
+      "name": "β-Caryophyllen",
+      "category": "sesquiterpene",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Sesquiterpen mit entzündungshemmenden Eigenschaften; bindet an CB2-Cannabinoid-Rezeptoren und trägt zur analgetischen Wirkung bei.",
+        "en": "Sesquiterpene with anti-inflammatory properties; binds CB2 cannabinoid receptors, contributing to analgesic effects."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine)",
+      "category": "tannin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Adstringierende Polyphenole; für die Wundbehandlung (Umschläge) und die gastrointestinalberuhigende Wirkung relevant.",
+        "en": "Astringent polyphenols; relevant for wound care (poultices) and gastrointestinal soothing action."
+      }
+    },
+    {
+      "name": "Iridodial und Nepetalactol",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Iridoid-Monoterpene; chemische Verwandte des Nepetalactons mit ähnlicher Wirkung auf Katzen und Insekten.",
+        "en": "Iridoid monoterpenes; chemical relatives of nepetalactone with similar effects on cats and insects."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus, an trockenen Tagen.",
+        "en": "Morning after dew has dried, on dry days."
+      },
+      "drying": {
+        "de": "Hängebüschel oder Einzelstiele kopfüber an einem belüfteten, schattigen Ort trocknen (max. 35 °C). Kein Backofen — ätherische Öle verdampfen bei hoher Hitze.",
+        "en": "Hang in bunches or individually upside-down in a ventilated, shaded spot (max. 35 °C). No oven drying — volatile oils evaporate at high heat."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In luftdichten dunklen Gläsern bei Raumtemperatur; weg von Licht und Feuchtigkeit.",
+        "en": "In airtight dark jars at room temperature; away from light and moisture."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6
+      ],
+      "time_of_day": {
+        "de": "Bei erstem Aufblühen ernten für maximalen Wirkstoffgehalt (ätherisches Öl am höchsten kurz vor und bei Vollblüte).",
+        "en": "Harvest at first flowering for maximum active constituent content (essential oil peaks just before and at full bloom)."
+      },
+      "drying": {
+        "de": "Wie Hochsommerernte; Schnitternte fördert zweiten Austrieb.",
+        "en": "Same as midsummer harvest; cutting encourages a second flush of growth."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In luftdichten dunklen Behältern, trocken und lichtgeschützt lagern.",
+        "en": "Store in airtight dark containers, dry and protected from light."
+      }
+    }
+  ]
+}

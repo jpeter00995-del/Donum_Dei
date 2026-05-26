@@ -1,0 +1,41 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import OverviewMap from '@/components/OverviewMap.tsx';
+import { loadAllPlants } from '@/lib/loadPlants';
+import { loadOccurrencesBySlug } from '@/lib/loadOccurrences';
+
+const plants = loadAllPlants();
+const locale = 'en' as const;
+
+const mapPlants = plants.flatMap(p => {
+  const occ = loadOccurrencesBySlug(p.slug);
+  if (!occ || (occ.points.length === 0 && (!occ.bulgaria_points || occ.bulgaria_points.length === 0))) return [];
+  const bgPts = occ.bulgaria_points ?? [];
+  const rep = bgPts.length > 0
+    ? bgPts[Math.floor(bgPts.length / 2)]
+    : occ.points[Math.floor(occ.points.length / 2)];
+  return [{
+    slug: p.slug,
+    nameDe: p.names.de,
+    nameEn: p.names.en,
+    latin: p.names.latin,
+    lat: rep.lat,
+    lng: rep.lng,
+    pointCount: occ.points.length,
+    bgCount: bgPts.length,
+  }];
+});
+const bgPlantCount = mapPlants.filter(p => (p.bgCount ?? 0) > 0).length;
+---
+
+<BaseLayout locale={locale} title="Map of all plants">
+  <div class="max-w-6xl mx-auto px-4 py-8">
+    <h1 class="text-3xl font-serif font-bold text-slate-900 mb-2">All plants on the map</h1>
+    <p class="text-slate-600 mb-6">
+      {mapPlants.length} of {plants.length} plants with GBIF distribution data.
+      <span class="text-orange-700 font-medium">{bgPlantCount} present in Bulgaria</span> (orange markers).
+      Click any marker for details.
+    </p>
+    <OverviewMap client:only="react" plants={mapPlants} locale={locale} />
+  </div>
+</BaseLayout>

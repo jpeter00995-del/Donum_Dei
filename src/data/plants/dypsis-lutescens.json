@@ -1,0 +1,308 @@
+{
+  "slug": "dypsis-lutescens",
+  "names": {
+    "de": "Goldfruchtpalme",
+    "en": "Goldfruchtpalme",
+    "latin": "Dypsis lutescens"
+  },
+  "family": {
+    "de": "Palmengewächse",
+    "en": "Palm family",
+    "latin": "Arecaceae"
+  },
+  "description": {
+    "de": "Die Goldfruchtpalme, auch Areca-Palme, ist eine in Madagaskar beheimatete Pflanzenart aus der Familie der Palmengewächse (Arecaceae). Sie ist eine weit verbreitete Zimmerpflanze.",
+    "en": "Description for Goldfruchtpalme pending — see Wikipedia article."
+  },
+  "teaser": {
+    "de": "Die Goldfruchtpalme, auch Areca-Palme, ist eine in Madagaskar beheimatete Pflanzenart aus der Familie der Palmengewäc...",
+    "en": "Description for Goldfruchtpalme pending — see Wikipedia article."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "air_quality",
+        "humidity"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Die Goldfruchtpalme transpiriert täglich bis zu einem Liter Wasser und ist damit laut Wolverton (NASA 1989) der effektivste natürliche Luftbefeuchter. Sie filtert gleichzeitig Formaldehyd, Xylol und Toluol aus der Raumluft.",
+        "en": "The areca palm transpires up to one litre of water daily, making it the most effective natural humidifier according to Wolverton (NASA 1989). It simultaneously filters formaldehyde, xylene, and toluene from indoor air."
+      },
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "src_wolverton1989",
+        "src_wiki_en",
+        "src_wiki_de"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Elegante Zimmerpalmpalme mit gelblich-grünen Fiederblättern; dekorativ in Wohn- und Büroräumen, auch in grellen oder hellen Umgebungen.",
+        "en": "Elegant indoor palm with yellowish-green fronds; decorative in living and office spaces, including brighter environments."
+      },
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_wiki_en",
+        "src_rhs"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "air_quality"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Besonders wirksam bei der Reduktion von Formaldehyd — einem häufigen Schadstoff in neuen Möbeln, Laminatböden und Farben.",
+        "en": "Particularly effective at reducing formaldehyde — a common pollutant in new furniture, laminate flooring, and paints."
+      },
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "src_wolverton1989"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "ganze Pflanze (dekorativ)",
+      "en": "whole plant (decorative)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Für Menschen und Haustiere (Hunde und Katzen) unbedenklich. Keine bekannten Toxizitätsprobleme.",
+      "en": "Safe for humans and pets (dogs and cats). No known toxicity issues."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Als Zimmerpflanze vollständig unbedenklich.",
+        "en": "Completely safe as a houseplant."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Als Zimmerpflanze vollständig unbedenklich.",
+        "en": "Completely safe as a houseplant."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Keine Toxizität bekannt; haustier- und kindersicher.",
+        "en": "No known toxicity; pet- and child-safe."
+      }
+    },
+    "contraindications": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Goldfruchtpalme (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Goldfruchtpalme",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Goldfruchtpalme (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Goldfruchtpalme",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wolverton1989",
+      "type": "monograph",
+      "title": "Interior Landscape Plants for Indoor Air Pollution Abatement (NASA TM-101766)",
+      "url": "https://ntrs.nasa.gov/citations/19930073077",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_de",
+      "type": "wikipedia",
+      "title": "Goldfruchtpalme (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Goldfruchtpalme",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_en",
+      "type": "wikipedia",
+      "title": "Dypsis lutescens (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Dypsis_lutescens",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_rhs",
+      "type": "monograph",
+      "title": "Dypsis lutescens — RHS Gardening",
+      "url": "https://www.rhs.org.uk/plants/6177/chrysalidocarpus-lutescens/details",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wikidata",
+      "type": "wikidata",
+      "title": "Dypsis lutescens (Wikidata Q732080)",
+      "url": "https://www.wikidata.org/wiki/Q732080",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "dypsis-lutescens.jpg",
+    "alt": {
+      "de": "Foto von Goldfruchtpalme",
+      "en": "Photo of Goldfruchtpalme"
+    },
+    "license": "CC BY 3.0",
+    "author": "Forest &amp; Kim Starr",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Starr_050107-2890_Chrysalidocarpus_lutescens.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "humidifying",
+      "air_purifying",
+      "ornamental"
+    ],
+    "rooms": [
+      "living_room",
+      "bedroom"
+    ],
+    "light": "bright_indirect",
+    "water_frequency": "every_few_days",
+    "difficulty": 2,
+    "pet_safe": true,
+    "soil": {
+      "de": "Palmenerde, durchlässig",
+      "en": "Palm compost, well-draining"
+    },
+    "pot_size_cm": 30,
+    "tips": {
+      "de": [
+        "Eine der wirkungsvollsten Pflanzen zur Luftbefeuchtung.",
+        "Mag warme, helle Räume — keine direkte Mittagssonne.",
+        "Braune Blattspitzen = zu trockene Luft oder zu kalkhaltiges Wasser."
+      ],
+      "en": [
+        "One of the most effective plants for humidifying air.",
+        "Likes warm, bright rooms — no direct midday sun.",
+        "Brown tips = too dry air or too hard water."
+      ]
+    }
+  },
+  "constituents": [
+    {
+      "name": "Flavonoids (luteolin, quercetin derivatives)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Antioxidative Flavonoide in den Blättern; nicht pharmakologisch genutzt.",
+        "en": "Antioxidant flavonoids in the leaves; not utilised pharmacologically."
+      }
+    },
+    {
+      "name": "Carotenoids (beta-carotene, lutein)",
+      "category": "other",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Für die gelblich-orange Färbung der Früchte verantwortlich — daher der Name Goldfruchtpalme.",
+        "en": "Responsible for the yellowish-orange colouration of the fruits — hence the name areca/golden cane palm."
+      }
+    },
+    {
+      "name": "Phenolic acids",
+      "category": "phenolic_acid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Sekundärmetaboliten mit antioxidativen Eigenschaften.",
+        "en": "Secondary metabolites with antioxidant properties."
+      }
+    },
+    {
+      "name": "Polysaccharides (cellulose, hemicellulose)",
+      "category": "polysaccharide",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Strukturelle Hauptbestandteile der Palmenfasern und des Stamms.",
+        "en": "Main structural components of palm fibres and trunk."
+      }
+    },
+    {
+      "name": "Minerals (potassium, calcium, magnesium)",
+      "category": "mineral",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Typisches Mineralstoffprofil einer Palme; kein therapeutisches Interesse.",
+        "en": "Typical mineral profile of a palm; no therapeutic interest."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "Ganzjährig als Zimmerpflanze nutzbar.",
+        "en": "Usable year-round as a houseplant."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Früchte reifen im Spätsommer bis Herbst (bei optimalen Bedingungen in Innenräumen).",
+        "en": "Fruits ripen in late summer to autumn (under optimal indoor conditions)."
+      },
+      "drying": {
+        "de": "Früchte werden nicht medizinisch geerntet; rein botanisches Interesse.",
+        "en": "Fruits are not harvested medicinally; purely botanical interest."
+      }
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "slug": "menyanthes-trifoliata",
+  "names": {
+    "de": "Fieberklee",
+    "en": "Menyanthes",
+    "latin": "Menyanthes trifoliata"
+  },
+  "family": {
+    "de": "Fieberkleegewächse",
+    "en": "Bogbean family",
+    "latin": "Menyanthaceae"
+  },
+  "description": {
+    "de": "Der Fieberklee oder Bitterklee ist die einzige Pflanzenart der monotypischen Gattung Menyanthes in der Familie der Fieberkleegewächse (Menyanthaceae). Diese Sumpf- oder Wasserpflanze ist auf der Nordhalbkugel weitverbreitet.",
+    "en": "Menyanthes is a monotypic genus of flowering plants in the family Menyanthaceae containing the single species Menyanthes trifoliata. The North American form is often referred to as M. trifoliata var."
+  },
+  "teaser": {
+    "de": "Der Fieberklee oder Bitterklee ist die einzige Pflanzenart der monotypischen Gattung Menyanthes in der Familie der Fi...",
+    "en": "Menyanthes is a monotypic genus of flowering plants in the family Menyanthaceae containing the single species Menyant..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "preparation": {
+        "de": "0,5-1 g (1 TL) fein geschnittene getrocknete Blaetter mit 150 ml kochendem Wasser uebergiessen, 5-10 Min ziehen lassen, abseihen. 15-30 Min vor den Mahlzeiten ungesuesst trinken.",
+        "en": "Pour 150 ml boiling water over 0.5-1 g (1 tsp) finely cut dried leaves, steep 5-10 min, strain. Drink unsweetened 15-30 min before meals."
+      },
+      "dose_amount": 1.0,
+      "dose_unit": "g",
+      "water_ml": 150,
+      "steep_min": 7,
+      "frequency_per_day": 3,
+      "evidence_level": "ema_well_established",
+      "source_ids": [
+        "src_ema_menyanthes",
+        "src_kommission_e_menyanthes"
+      ],
+      "description": {
+        "de": "Appetitlosigkeit und dyspeptische Beschwerden (Voellegefuehl, Blaehungen, Magen-Darm-Schwaeche) - Bitterstofftherapie vor den Mahlzeiten",
+        "en": "Loss of appetite and dyspeptic complaints (bloating, flatulence, weak digestion) - bitter tonic taken before meals"
+      },
+      "target": [
+        "digestion",
+        "nutrition"
+      ]
+    },
+    {
+      "form": "tincture",
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "preparation": {
+        "de": "Tinktur 1:5 in 25 % Ethanol; 1-3 ml (etwa 20-60 Tropfen) in wenig Wasser, 3x taeglich kurz vor den Mahlzeiten einnehmen.",
+        "en": "Tincture 1:5 in 25% ethanol; 1-3 ml (about 20-60 drops) diluted in a little water, 3x daily shortly before meals."
+      },
+      "dose_amount": 2.0,
+      "dose_unit": "ml",
+      "frequency_per_day": 3,
+      "evidence_level": "ema_well_established",
+      "source_ids": [
+        "src_ema_menyanthes",
+        "src_kommission_e_menyanthes"
+      ],
+      "description": {
+        "de": "Appetitlosigkeit, dyspeptische Beschwerden - klassische Bittertinktur (Magenbitter) zur Anregung der Magensaft- und Gallensekretion",
+        "en": "Loss of appetite, dyspeptic complaints - classical bitter tincture (stomach bitters) stimulating gastric and bile secretion"
+      },
+      "target": [
+        "digestion"
+      ]
+    },
+    {
+      "form": "spice",
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "preparation": {
+        "de": "Kleine Mengen getrocknete Blaetter in Bitter-Mischungen (z. B. mit Tausendguldenkraut, Wermut, Enzian); als Digestif nach schwerem Essen ein kleines Glaeschen.",
+        "en": "Small amounts of dried leaves in bitter blends (e.g. with centaury, wormwood, gentian); a small glass as digestif after heavy meals."
+      },
+      "evidence_level": "traditional",
+      "source_ids": [
+        "src_pfaf_menyanthes",
+        "src_heilkraeuter_fieberklee"
+      ],
+      "description": {
+        "de": "Bitterer Bestandteil von Magenbitter-Likoeren und Kraeuterbittern zur Verdauungsfoerderung (Digestif)",
+        "en": "Bitter component of stomach bitters and herbal digestive liqueurs to support digestion (digestif)"
+      },
+      "target": [
+        "digestion",
+        "nutrition"
+      ]
+    },
+    {
+      "form": "tea",
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "preparation": {
+        "de": "1 TL getrocknete Blaetter mit 250 ml kochendem Wasser, 10 Min ziehen, 1-2x taeglich. Nur kurmaessig ueber wenige Wochen.",
+        "en": "1 tsp dried leaves with 250 ml boiling water, steep 10 min, 1-2x daily. Only as a short cure for a few weeks."
+      },
+      "dose_amount": 1.5,
+      "dose_unit": "g",
+      "water_ml": 250,
+      "steep_min": 10,
+      "frequency_per_day": 2,
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_heilkraeuter_fieberklee",
+        "src_henriettes_menyanthes"
+      ],
+      "description": {
+        "de": "Volkstuemlich bei Fieber (daher der Name Fieberklee), rheumatischen Beschwerden und zur Blutreinigung im Fruehjahr - heute nicht mehr durch EMA gedeckt",
+        "en": "Traditional folk use for fever (hence the name 'fever clover'), rheumatic complaints and as a spring blood-cleansing tea - no longer supported by EMA"
+      },
+      "target": [
+        "fever",
+        "joints"
+      ]
+    },
+    {
+      "form": "bath",
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "preparation": {
+        "de": "50-100 g getrocknetes Kraut mit 2-3 L kochendem Wasser uebergiessen, 15 Min ziehen lassen, abseihen, ins Vollbad geben (37-38 Grad, 15-20 Min).",
+        "en": "Pour 2-3 L boiling water over 50-100 g dried herb, steep 15 min, strain, add to a full bath (37-38 deg C, 15-20 min)."
+      },
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_pfaf_menyanthes",
+        "src_heilkraeuter_fieberklee"
+      ],
+      "description": {
+        "de": "Volksmedizinisch: Baeder mit Bitterklee-Aufguss bei rheumatischen Beschwerden und Hautausschlaegen (skrofuloese Hautleiden) - keine moderne Evidenz",
+        "en": "Folk medicine: baths with buckbean infusion for rheumatic complaints and skin eruptions (scrofulous skin conditions) - no modern evidence"
+      },
+      "target": [
+        "digestion",
+        "skin",
+        "joints"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7
+    ],
+    "harvest_part": {
+      "de": "Blätter vor der Blüte",
+      "en": "leaves before flowering"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bitterstoff-Droge - kann bei nuechterner Einnahme oder Ueberdosierung Magenreizung, Uebelkeit, Erbrechen und Durchfall ausloesen. Nur in empfohlener Dosis anwenden. Bei Beschwerden, die laenger als 2 Wochen andauern, Arzt konsultieren.",
+      "en": "Bitter herbal drug - may cause gastric irritation, nausea, vomiting and diarrhoea on empty stomach or in overdose. Use only at recommended dose. Consult a doctor if symptoms persist longer than 2 weeks."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Anwendung waehrend der Schwangerschaft nicht empfohlen - keine ausreichenden Sicherheitsdaten, reflektorische Stimulation der Verdauungsorgane unerwuenscht.",
+        "en": "Use during pregnancy not recommended - insufficient safety data, reflex stimulation of digestive organs undesirable."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Anwendung waehrend der Stillzeit nicht empfohlen - keine ausreichenden Daten, bittere Geschmacksstoffe koennen in die Muttermilch uebergehen.",
+        "en": "Use during breastfeeding not recommended - insufficient data, bitter principles may pass into breast milk."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Anwendung bei Kindern und Jugendlichen unter 18 Jahren nicht empfohlen wegen fehlender Daten (EMA HMPC).",
+        "en": "Use in children and adolescents under 18 years not recommended due to lack of data (EMA HMPC)."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Akute Gastritis, Magen- und Zwoelffingerdarmgeschwuere (Ulcus ventriculi und duodeni), Hyperaziditaet, Gallensteinleiden, Durchfallerkrankungen, Ueberempfindlichkeit gegen die Pflanze.",
+        "en": "Acute gastritis, gastric and duodenal ulcers, hyperacidity, gallstone disease, diarrhoeal conditions, hypersensitivity to the plant."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antazida, H2-Blocker, Protonenpumpenhemmer (z. B. Omeprazol, Ranitidin)",
+        "mechanism": {
+          "de": "Bitterstoffe steigern die Magensaeureproduktion und koennen die saurereduzierende Wirkung dieser Medikamente abschwaechen.",
+          "en": "Bitter principles increase gastric acid secretion and may counteract the acid-suppressing effect of these medicines."
+        },
+        "severity": "caution",
+        "source_id": "src_kommission_e_menyanthes"
+      },
+      {
+        "drug_class": "Orale Antidiabetika und Insulin",
+        "mechanism": {
+          "de": "Bitterstoffe koennen die Magenentleerung und Glukoseaufnahme beeinflussen - theoretisch verstaerkte oder unregelmaessige Blutzuckersenkung moeglich, Blutzucker engmaschiger kontrollieren.",
+          "en": "Bitter principles may affect gastric emptying and glucose absorption - theoretically enhanced or irregular blood-sugar lowering possible; monitor blood glucose more closely."
+        },
+        "severity": "monitor",
+        "source_id": "src_pfaf_menyanthes"
+      },
+      {
+        "drug_class": "Eisenpraeparate und andere mineralische Supplemente",
+        "mechanism": {
+          "de": "Gerbstoffanteile koennen die Resorption von Eisen und anderen Mineralien vermindern - zeitlicher Abstand von mindestens 2 Stunden einhalten.",
+          "en": "Tannin fraction may reduce absorption of iron and other minerals - take at least 2 hours apart."
+        },
+        "severity": "monitor",
+        "source_id": "src_ema_menyanthes"
+      }
+    ],
+    "max_continuous_use_weeks": 4,
+    "max_continuous_use_note": {
+      "de": "Bitterstoff-Tees und -Tinkturen werden ueblicherweise als Kur ueber 2-4 Wochen angewendet. Bei Beschwerden ueber 2 Wochen Arzt aufsuchen (EMA).",
+      "en": "Bitter teas and tinctures are usually applied as a 2-4 week cure. Consult a doctor if symptoms persist longer than 2 weeks (EMA)."
+    }
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Fieberklee (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Fieberklee",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Menyanthes (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Menyanthes",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_ema_menyanthes",
+      "type": "monograph",
+      "title": "EMA HMPC Community Herbal Monograph - Menyanthes trifoliata L., folium",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/menyanthidis-trifoliatae-folium",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_kommission_e_menyanthes",
+      "type": "monograph",
+      "title": "Kommission E Monographie - Menyanthidis folium (Bitterklee/Fieberkleeblaetter), Positivmonographie BAnz Nr. 22a vom 01.02.1990",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_pfaf_menyanthes",
+      "type": "monograph",
+      "title": "Plants for a Future - Menyanthes trifoliata (Buckbean/Bogbean)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Menyanthes+trifoliata",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_heilkraeuter_fieberklee",
+      "type": "monograph",
+      "title": "Heilkraeuter-Lexikon - Fieberklee (Menyanthes trifoliata)",
+      "url": "https://www.heilkraeuter.de/lexikon/fieberkl.htm",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_henriettes_menyanthes",
+      "type": "monograph",
+      "title": "Henriette's Herbal Homepage - Menyanthes trifoliata (King's American Dispensatory, Felter & Lloyd 1898)",
+      "url": "https://www.henriettes-herb.com/eclectic/kings/menyanthes.html",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wikipedia_menyanthes",
+      "type": "wikipedia",
+      "title": "Wikipedia - Fieberklee (Menyanthes trifoliata)",
+      "url": "https://de.wikipedia.org/wiki/Fieberklee",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wikidata_menyanthes",
+      "type": "wikidata",
+      "title": "Wikidata Q146045 - Menyanthes trifoliata",
+      "url": "https://www.wikidata.org/wiki/Q146045",
+      "accessed": "2026-05-19"
+    }
+  ],
+  "image": {
+    "filename": "menyanthes-trifoliata.jpg",
+    "alt": {
+      "de": "Foto von Fieberklee",
+      "en": "Photo of Menyanthes"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Christian Fischer",
+    "source_url": "https://commons.wikimedia.org/wiki/File:MenyanthesTrifoliata6.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Iridoidglykoside (Loganin, Sweroside, 7-Desoxyloganin, Foliamenthin, Dihydrofoliamenthin, Menthiafolin)",
+      "category": "bitter",
+      "percent_range": "1-3 %",
+      "note": {
+        "de": "Die fuer den extremen Bitterwert (ca. 1:10.000 bis 1:15.000) verantwortlichen Hauptwirkstoffe; loesen reflektorisch die Sekretion von Speichel, Magensaft und Galle aus.",
+        "en": "Main bitter principles responsible for the extreme bitter value (ca. 1:10,000 to 1:15,000); reflexively trigger secretion of saliva, gastric juice and bile."
+      }
+    },
+    {
+      "name": "Flavonoide (Rutin, Hyperosid, Trifolioside)",
+      "category": "flavonoid",
+      "percent_range": "Spuren bis 1 %",
+      "note": {
+        "de": "Antioxidativ wirksame Begleitstoffe; tragen zu mild gefaesschuetzenden und entzuendungshemmenden Effekten bei.",
+        "en": "Antioxidant accompanying compounds; contribute to mildly vasoprotective and anti-inflammatory effects."
+      }
+    },
+    {
+      "name": "Triterpensaponine (u. a. Betulinsaeure-Derivate)",
+      "category": "saponin",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Gering vorhanden; unterstuetzen die schleimhautreizende und sekretionsanregende Wirkung der Bitterstoffe.",
+        "en": "Present in small amounts; support the mucosa-stimulating and secretion-inducing action of the bitter principles."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Catechin-Gerbstoffe)",
+      "category": "tannin",
+      "percent_range": "3-7 %",
+      "note": {
+        "de": "Adstringierend wirkende Polyphenole; mildern leichte Durchfaelle und entzuendliche Schleimhautreizungen, koennen aber Mineralresorption hemmen.",
+        "en": "Astringent polyphenols; soothe mild diarrhoea and inflamed mucosa, but may impair mineral absorption."
+      }
+    },
+    {
+      "name": "Phenolcarbonsaeuren (Kaffeesaeure, Ferulasaeure, Chlorogensaeure)",
+      "category": "phenolic_acid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Antioxidative Begleitstoffe ohne eigenstaendige therapeutische Bedeutung in der Droge.",
+        "en": "Antioxidant accompanying substances with no independent therapeutic relevance in the drug."
+      }
+    },
+    {
+      "name": "Cholin und Pyridin-Alkaloid Gentianin (Spuren)",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "In sehr geringen Mengen; Gentianin wird in der Drogenanalytik als chemotaxonomischer Marker erwaehnt.",
+        "en": "Present in trace amounts; gentianin is mentioned in pharmacognosy as a chemotaxonomic marker."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "drying": {
+        "de": "Schnell und schonend im Schatten bei maximal 40 Grad C trocknen, locker auf Tuechern ausbreiten; nicht in der Sonne (Bitterstoffabbau). Aufbewahrung lichtgeschuetzt in dichten Behaeltern.",
+        "en": "Dry quickly and gently in the shade at max 40 deg C, spread loosely on cloths; not in the sun (loss of bitter principles). Store in airtight containers protected from light."
+      },
+      "source_ids": [
+        "src_pfaf_menyanthes",
+        "src_heilkraeuter_fieberklee",
+        "src_wikipedia_menyanthes"
+      ],
+      "best_months": [
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Mai bis Juli, kurz vor oder waehrend der Bluetezeit, bei trockenem Wetter am spaeten Vormittag - nur die dreizaehligen Laubblaetter ohne Blattstiele sammeln.",
+        "en": "May to July, just before or during flowering, in dry weather in the late morning - collect only the trifoliate leaves without petioles."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "source_ids": [
+        "src_pfaf_menyanthes",
+        "src_heilkraeuter_fieberklee"
+      ],
+      "best_months": [
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Juni bis Juli waehrend der Vollbluete - nur fuer aeusserliche Anwendungen (Baeder, Umschlaege) in der Volksmedizin gesammelt.",
+        "en": "June to July during full flowering - collected only for external applications (baths, compresses) in folk medicine."
+      }
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "slug": "bellis-perennis",
+  "names": {
+    "de": "Gänseblümchen",
+    "en": "Bellis perennis",
+    "latin": "Bellis perennis"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Das Gänseblümchen, auch Ausdauerndes Gänseblümchen, Mehrjähriges Gänseblümchen, Maßliebchen, Tausendschön, Monatsröserl oder schweizerisch Margritli genannt, ist eine Pflanzenart innerhalb der Familie der Korbblütler (Asteraceae). Da es auf fast jeder Wiesenfläche wächst, zählt es zu den bekanntesten Pflanzenarten Mitteleuropas.",
+    "en": "Bellis perennis, the daisy, is a European species of the family Asteraceae, often considered the archetypal species of the name daisy. To distinguish this species from other plants known as daisies, it is sometimes qualified or known as common daisy, lawn daisy or English daisy."
+  },
+  "teaser": {
+    "de": "Das Gänseblümchen, auch Ausdauerndes Gänseblümchen, Mehrjähriges Gänseblümchen, Maßliebchen, Tausendschön, Monatsröse...",
+    "en": "Bellis perennis, the daisy, is a European species of the family Asteraceae, often considered the archetypal species o..."
+  },
+  "uses": [
+    {
+      "form": "salve",
+      "target": [
+        "skin",
+        "wounds",
+        "musculoskeletal"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 50,
+          "max": 100
+        },
+        "amount_ml": {
+          "min": 250,
+          "max": 500
+        },
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "GÄNSEBLÜMCHEN-SALBE (Sonnenmazerat): Eine saubere Schraubglas-Flasche zu zwei Dritteln mit frisch gepflückten, leicht angewelkten Blüten und jungen Blättern füllen (ca. 50–100 g auf 250–500 ml Öl). Mit gutem, kaltgepresstem Olivenöl (oder Mandelöl) randvoll aufgiessen, sodass alle Pflanzenteile vollständig bedeckt sind — sonst Schimmelgefahr. Glas verschliessen und 3–4 Wochen an einen warmen, hellen Platz stellen, täglich kurz schwenken. Danach durch ein Mull- oder Kaffeefilter abseihen, Pflanzenmaterial gut auspressen. Pro 100 ml Mazerat-Öl 10–12 g Bienenwachs im Wasserbad schmelzen, Öl unterrühren, in kleine Tiegel abfüllen. Bei Prellungen, blauen Flecken, Verstauchungen und kleinen Wunden 1–2× täglich dünn äusserlich auftragen. Hält kühl gelagert 6–12 Monate.",
+          "en": "DAISY SALVE: Fill a clean jar 2/3 with freshly picked daisies (~50–100 g per 250–500 ml oil). Cover with cold-pressed olive oil (or sweet almond oil), close jar, place in warm, light spot for 3–4 weeks, swirl daily. Strain through muslin, press plant material. Per 100 ml oil melt 10–12 g beeswax, stir in oil. Apply thinly 1–2× daily to bruises, contusions, sprains."
+        }
+      },
+      "description": {
+        "de": "Klassische Hausmittel-Salbe für Prellungen, blaue Flecken und kleine Wunden — die sanftere Schwester der Arnika, traditionell auch bei Kindern verwendet.",
+        "en": "Classic home-remedy salve for bruises and minor wounds — the gentler sister of arnica, traditionally also used for children."
+      },
+      "source_ids": [
+        "src_pfaf_bellis",
+        "src_volksmed_bellis",
+        "src_henriettes_bellis"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds",
+        "musculoskeletal"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 500,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "FEUCHTER UMSCHLAG: 5–10 g frische oder getrocknete Gänseblümchen (Blüten und Blätter) mit 250–500 ml heissem Wasser übergiessen, zugedeckt 10–15 Minuten ziehen lassen, abseihen, auf lauwarme Temperatur abkühlen. Ein sauberes Baumwoll- oder Leinentuch im Aufguss tränken, leicht ausdrücken und 15–20 Minuten auf die betroffene Stelle (Prellung, Quetschung, geschwollene Stelle) auflegen. 2–3× täglich wiederholen. Alternativ: frische Blüten und Blätter direkt zerquetschen und als grünen Brei verwenden — klassisches Kinder-Hausmittel für aufgeschürfte Knie.",
+          "en": "MOIST COMPRESS: 5–10 g fresh or dried daisies + 250–500 ml hot water, steep 10–15 min covered, strain, cool to lukewarm. Soak cloth, apply 15–20 min to affected area. Repeat 2–3× a day. Alternatively: crush fresh leaves and flowers as green poultice — classic children's home remedy for grazed knees."
+        }
+      },
+      "description": {
+        "de": "Kühlender Umschlag bei frischen Prellungen, Quetschungen, geschwollenen Gelenken und kleinen Hautirritationen — sofort einsetzbar, wenn keine Salbe zur Hand ist.",
+        "en": "Cooling compress for fresh bruises, contusions, swollen joints and minor skin irritations."
+      },
+      "source_ids": [
+        "src_pfaf_bellis",
+        "src_volksmed_bellis"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "skin"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "GÄNSEBLÜMCHEN-TEE (sehr mild, volksmedizinisch): 1–2 g getrocknete Blüten (etwa 1 gehäufter Teelöffel) mit 150–250 ml siedendem Wasser übergiessen, zugedeckt 5–10 Minuten ziehen lassen, abseihen. Maximal 2× täglich eine Tasse trinken, nicht länger als 1–2 Wochen am Stück. Traditionell als leichte Frühjahrskur oder bei leichten Atemwegsreizungen. Wichtig: rein traditionell — es gibt keine modernen klinischen Studien oder EMA-Monographie.",
+          "en": "DAISY TEA (very mild, traditional): 1–2 g dried flowers in 150–250 ml boiling water, steep 5–10 min covered, strain. Max 2 cups a day, no longer than 1–2 weeks. Traditional spring cure or mild respiratory irritation. Purely traditional — no modern clinical trials or EMA monograph."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Innerliche Tee-Anwendung mangels moderner Daten erst ab 12 Jahren. Äusserlich (Salbe, Umschlag) ist Bellis auch bei jüngeren Kindern seit Generationen üblich.",
+          "en": "Internal tea use only from 12 years. External use (salve, compress) has been used for younger children for generations."
+        }
+      },
+      "description": {
+        "de": "Sehr milder Volksmedizin-Tee für die Frühjahrskur und bei leichten Atemwegsreizungen — traditionelle Anwendung ohne moderne Evidenz.",
+        "en": "Very mild folk-medicine tea for spring cures and mild respiratory irritation — traditional use without modern evidence."
+      },
+      "source_ids": [
+        "src_volksmed_bellis",
+        "src_henriettes_bellis"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "WILDSALAT-ZUTAT: Junge Blätter und voll geöffnete Blüten roh in Wildkräutersalate, auf Butterbrote oder als essbare Deko über Suppen und Quark streuen. Geschmack: mild, leicht nussig, zart bitter. Vor Verwendung gut waschen — und nur an sauberen Stellen sammeln (nicht direkt an Hundewegen, gespritzten Rasen oder Strassenrändern). Klassisches Frühjahrs-Wildgemüse.",
+          "en": "WILD-SALAD INGREDIENT: Sprinkle young leaves and fully opened flowers raw into wild-herb salads, onto buttered bread, or as edible decoration. Flavour: mild, slightly nutty, faintly bitter. Wash well before use."
+        }
+      },
+      "description": {
+        "de": "Essbare Wildpflanze — Blüten und junge Blätter als milde, vitaminreiche Salat-Zutat oder essbare Tellerdeko.",
+        "en": "Edible wild plant — flowers and young leaves as a mild salad ingredient."
+      },
+      "source_ids": [
+        "src_pfaf_bellis"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Blüten und junge Blätter",
+      "en": "flowers and young leaves"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bellis perennis hat keine EMA-Monographie und keine grossen klinischen Studien — die Anwendungen sind rein traditionell/volksmedizinisch dokumentiert. Äusserlich (Salbe, Umschlag) gilt die Pflanze seit Generationen als gut verträglich, selten kommt es zu Hautirritationen (Asteraceae-Allergie). Innerlich nur sehr zurückhaltend einsetzen: maximal 2 Tassen Tee pro Tag, nicht länger als 1–2 Wochen am Stück. Bei Wunden, die nicht heilen, stark schmerzen, eitern oder Fieber verursachen, immer ärztlich abklären lassen — Gänseblümchen sind ein sanftes Hausmittel, kein Wundheilungs-Wundermittel.",
+      "en": "Bellis perennis has no EMA monograph and no large clinical trials — uses are purely traditional. Externally well tolerated for generations; skin irritations rare. Internally use sparingly: max 2 cups tea daily, no longer than 1–2 weeks. For non-healing or infected wounds always seek medical advice."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine systematischen Daten. Innerliche Anwendung (Tee, Tinktur) in der Schwangerschaft besser vermeiden. Äusserlich auf intakter Haut (Salbe, Umschlag) gilt traditionell als unbedenklich.",
+        "en": "No systematic data. Better avoid internal use during pregnancy. External use on intact skin considered safe."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Stillzeit. Innerliche Anwendung mangels Studien nicht empfohlen; äusserlich abseits der Brustwarzen-Region traditionell unbedenklich.",
+        "en": "Insufficient data for breastfeeding. Internal use not recommended; external use away from nipple area traditionally safe."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Äusserlich seit Generationen ein klassisches Kinder-Hausmittel bei aufgeschürften Knien, Beulen und blauen Flecken — die kindgerechte Arnika. Innerlich nur in haushaltsüblichen Mengen (ein paar Blüten/Blätter im Salat); konzentrierten Tee oder Tinktur erst ab etwa 12 Jahren.",
+        "en": "Externally a classic children's home remedy for generations — the child-friendly arnica. Internally only in household amounts; concentrated tea or tincture only from about 12 years."
+      }
+    },
+    "drug_interactions": [],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegenüber Korbblütlern (Asteraceae) wie Arnika, Ringelblume, Kamille oder Beifuss — Kreuzallergie möglich.",
+        "en": "Hypersensitivity to Asteraceae such as arnica, marigold, chamomile or mugwort — cross-allergy possible."
+      },
+      {
+        "de": "Längerfristige innerliche Anwendung (über 2 Wochen) mangels Sicherheitsdaten nicht empfohlen.",
+        "en": "Long-term internal use (over 2 weeks) not recommended due to lack of safety data."
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gänseblümchen (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/G%C3%A4nsebl%C3%BCmchen",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Bellis perennis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Bellis_perennis",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_pfaf_bellis",
+      "type": "wikipedia",
+      "title": "Bellis perennis — Plants For A Future (Datenbank essbarer und medizinischer Pflanzen)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Bellis+perennis",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_volksmed_bellis",
+      "type": "book",
+      "title": "Gänseblümchen (Bellis perennis) — Volksmedizinische Anwendung, klassische Phytotherapie-Literatur (Heilkräuter-Lexikon)",
+      "url": "https://www.heilkraeuter.de/lexikon/gaensebl.htm",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_henriettes_bellis",
+      "type": "book",
+      "title": "Bellis perennis — King's American Dispensatory (Henriette's Herbal Homepage)",
+      "url": "https://www.henriettes-herbal.com/eclectic/kings/bellis.html",
+      "accessed": "2026-05-18"
+    }
+  ],
+  "image": {
+    "filename": "bellis-perennis.jpg",
+    "alt": {
+      "de": "Foto von Gänseblümchen",
+      "en": "Photo of Bellis perennis"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Matthias Süßen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gaensebluemchen-Krusenkoppel-2022_05_msu-7425-7154.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Saponine (Triterpensaponine, u.a. Bayogenin-Glykoside)",
+      "category": "saponin",
+      "percent_range": "ca. 2–3 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Wichtigste Wirkstoffgruppe — wirken mild reizend, schleimlösend und unterstützen traditionell die Wundheilung; tragen zur volksmedizinisch beschriebenen Wirkung bei Prellungen bei.",
+        "en": "Main active group — mildly irritant, expectorant and traditionally support wound healing."
+      }
+    },
+    {
+      "name": "Flavonoide (Apigenin, Kämpferol, Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Antioxidativ und schwach entzündungshemmend — tragen zur sanften Wirkung bei Hautreizungen und kleinen Schwellungen bei.",
+        "en": "Antioxidant and mildly anti-inflammatory."
+      }
+    },
+    {
+      "name": "Gerbstoffe",
+      "category": "tannin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Geringe Mengen — leicht zusammenziehend, unterstützen die Wundpflege bei kleinen Hautverletzungen.",
+        "en": "Small amounts — mildly astringent."
+      }
+    },
+    {
+      "name": "Polyacetylene (Polyine)",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "In Spuren — typische Inhaltsstoffe vieler Korbblütler, schwach antimikrobiell; können in seltenen Fällen Asteraceae-Allergien mit verursachen.",
+        "en": "In traces — typical of Asteraceae, mildly antimicrobial."
+      }
+    },
+    {
+      "name": "Bitterstoffe",
+      "category": "bitter",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Geringe Mengen — geben den Blättern den leicht herben Geschmack im Wildsalat.",
+        "en": "Small amounts — give leaves the slightly tart flavour."
+      }
+    },
+    {
+      "name": "Schleimstoffe",
+      "category": "mucilage",
+      "plant_part": "flower",
+      "note": {
+        "de": "Geringe Mengen — tragen zur leicht reizlindernden Wirkung bei innerlicher Anwendung bei.",
+        "en": "Small amounts — contribute to mildly soothing effect."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "An trockenen Vormittagen, sobald der Tau abgetrocknet ist und die Blüten voll geöffnet sind.",
+        "en": "On dry mornings once dew has dried and flowers are fully open."
+      },
+      "drying": {
+        "de": "Nur voll geöffnete, makellose Blütenköpfchen sammeln. Sofort einlagig auf Tüchern oder Sieben im Schatten ausbreiten und bei höchstens 35 °C zügig trocknen. Sauber gepflückte Blüten von Wiesen abseits von Hundewegen, Strassen und gespritzten Rasenflächen.",
+        "en": "Pick only fully opened, blemish-free flower heads. Spread in single layer in shade, dry at max 35 °C. Prefer clean meadows away from dog paths and roads."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht, dunkel und trocken lagern — innerhalb eines Jahres aufbrauchen.",
+        "en": "Store airtight, dark and dry — use within a year."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Vormittags nach dem Abtrocknen des Taus; junge, zarte Blätter sammeln.",
+        "en": "Mornings after dew has dried; pick young, tender leaves."
+      },
+      "drying": {
+        "de": "Frisch im Salat verwenden ist ideal. Zum Trocknen einlagig im Schatten ausbreiten, bei maximal 35 °C — getrocknete Blätter verlieren schnell an Aroma.",
+        "en": "Best used fresh in salads. For drying spread out in single layer in the shade at max 35 °C."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Luftdicht und dunkel lagern, am besten innerhalb von 6 Monaten verbrauchen.",
+        "en": "Store airtight and dark, use within 6 months."
+      }
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "slug": "bistorta-officinalis",
+  "names": {
+    "de": "Schlangen-Knöterich",
+    "en": "Bistorta officinalis",
+    "latin": "Bistorta officinalis"
+  },
+  "family": {
+    "de": "Knöterichgewächse",
+    "en": "Knotweed family",
+    "latin": "Polygonaceae"
+  },
+  "description": {
+    "de": "Der Schlangen-Knöterich, auch Wiesen-Knöterich genannt, ist eine Pflanzenart, die zur Familie der Knöterichgewächse (Polygonaceae) gehört.",
+    "en": "Bistorta officinalis, known as bistort, common bistort, European bistort, or meadow bistort, is a species of flowering plant in the dock family Polygonaceae native to Europe and northern and western Asia. Other common names include snakeroot, snake-root, snakeweed, and Easter-ledges."
+  },
+  "teaser": {
+    "de": "Der Schlangen-Knöterich, auch Wiesen-Knöterich genannt, ist eine Pflanzenart, die zur Familie der Knöterichgewächse (...",
+    "en": "Bistorta officinalis, known as bistort, common bistort, European bistort, or meadow bistort, is a species of flowerin..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Aufguss oder Abkochung des getrockneten Rhizoms wird traditionell bei Durchfall und Ruhr eingesetzt. Das Rhizom enthält 15–36 % Gerbstoffe (vorwiegend kondensierte Proanthocyanidine und Gallussäure-Derivate), die die Darmschleimhaut zusammenziehen und den Wasserverlust verringern.",
+        "en": "Infusion or decoction of the dried rhizome is used traditionally for diarrhoea and dysentery. The rhizome contains 15–36 % tannins (mainly condensed proanthocyanidins and gallic acid derivatives) that constrict the intestinal mucosa and reduce fluid loss."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "2–4 g getrocknetes, zerkleinsertes Rhizom mit 250 ml heißem Wasser übergießen, 10 Minuten ziehen lassen, abseihen. 3× täglich, höchstens 4 Wochen.",
+          "en": "Pour 250 ml of hot water over 2–4 g of dried, chopped rhizome, steep for 10 minutes, strain. 3 times daily, for up to 4 weeks."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_bistorta",
+        "src_pubmed_pawlowska",
+        "src_wiki_en_bistorta"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Gurgeln mit einem starken Rhizom-Tee (Abkochung) bei Rachenentzündung, Stomatitis und schwammigen Zahnfleisch. Die hohen Gerbstoffgehalte wirken entzündungshemmend und adstringierend auf die Schleimhäute.",
+        "en": "Gargling with a strong rhizome decoction for pharyngitis, stomatitis, and spongy gums. The high tannin content is anti-inflammatory and astringent on mucous membranes."
+      },
+      "source_ids": [
+        "src_pfaf_bistorta",
+        "src_pubmed_pawlowska"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "rhizome",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Auflagen mit Rhizom-Abkochung oder -Extrakt wurden volksmedizinisch bei Wunden, Verbrennungen, Hautinfektionen und entzündlichen Hautzuständen angewendet. Laborstudien (Pawłowska et al. 2020) bestätigen antibakterielle Wirkung gegen Hautpathogene.",
+        "en": "Compresses with rhizome decoction or extract were used in folk medicine for wounds, burns, skin infections, and inflammatory skin conditions. Laboratory studies (Pawłowska et al. 2020) confirm antibacterial activity against skin pathogens."
+      },
+      "source_ids": [
+        "src_pfaf_bistorta",
+        "src_pubmed_pawlowska"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische oder kurz erhitzte Blätter wurden als Wundauflage auf Wunden und Geschwüre gelegt. Gallusäure und Gerbstoffe in den Blättern wirken lokal adstringierend und keimhemmend.",
+        "en": "Fresh or briefly warmed leaves were applied as a wound poultice on cuts and ulcers. Gallic acid and tannins in the leaves act locally astringent and antimicrobial."
+      },
+      "source_ids": [
+        "src_pfaf_bistorta",
+        "src_wiki_en_bistorta"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "menstrual"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Rhizomtee wurde volksmedizinisch bei zu starker Menstruationsblutung eingesetzt. PFAF bezeichnet das Rhizom als \"styptic\" (blutstillend) und berichtet von der Anwendung bei Metrorrhagie.",
+        "en": "Rhizome tea was used in folk medicine for excessive menstrual bleeding. PFAF describes the rhizome as styptic and reports use for metrorrhagia."
+      },
+      "source_ids": [
+        "src_pfaf_bistorta"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Junge Blätter sind in Nordengland ein traditionelles Gemüse (\"Easter-ledge pudding\") und können als Salat oder Spinatersatz genutzt werden. Die Blätter enthalten Vitamin A und C, sind jedoch oxalsäurereich — daher nur in kleinen Mengen roh essen.",
+        "en": "Young leaves are a traditional vegetable in northern England (\"Easter-ledge pudding\") and can be used as salad or spinach substitute. Leaves contain vitamins A and C but are high in oxalic acid — eat raw only in small amounts."
+      },
+      "source_ids": [
+        "src_wiki_en_bistorta",
+        "src_pfaf_bistorta"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "throat"
+      ],
+      "internal_external": "both",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Rhizom-Tinktur wird in der modernen Kräutermedizin als Gerbstoff-Konzentrat verwendet — intern bei Reizdarmbeschwerden und Durchfall, extern zum Gurgeln bei Rachenbeschwerden.",
+        "en": "Rhizome tincture is used in modern herbal medicine as a concentrated tannin preparation — internally for irritable bowel complaints and diarrhoea, externally for gargling in throat complaints."
+      },
+      "source_ids": [
+        "src_pfaf_bistorta",
+        "src_pubmed_pawlowska"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Wurzelstock (Herbst)",
+      "en": "rhizome (autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Das Rhizom ist sehr gerbstoffreich (15–36 %). Daher bei empfindlichem Magen nur kleine Dosen verwenden und stets nach dem Essen einnehmen. Alle Pflanzenteile enthalten Oxalsäure — bei größeren Mengen kann dies die Resorption von Kalzium und Eisen beeinträchtigen.",
+      "en": "The rhizome is very tannin-rich (15–36 %). Use small doses for sensitive stomachs and always take after meals. All plant parts contain oxalic acid — in larger amounts this may impair calcium and iron absorption."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Keine gesicherten Sicherheitsdaten für die Anwendung in der Schwangerschaft. Vorsorglich meiden, insbesondere höhere Dosen des Rhizoms.",
+        "en": "No reliable safety data for use during pregnancy. Avoid as a precaution, especially higher doses of the rhizome."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten verfügbar. Meiden oder nur in Nahrungsmengen (Blätter als Gemüse) verwenden.",
+        "en": "No data available. Avoid or use only in food amounts (leaves as a vegetable)."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Aufgrund des hohen Gerbstoffgehalts bei Kindern unter 12 Jahren niedrige Dosen wählen und Fachperson befragen.",
+        "en": "Due to the high tannin content, use low doses for children under 12 years and consult a health professional."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Rheumatismus, Arthritis, Gicht, Nierensteine oder Hyperazidität: Oxalsäuregehalt kann diese Zustände verschlimmern.",
+        "en": "Rheumatism, arthritis, gout, kidney stones, or hyperacidity: oxalic acid content may aggravate these conditions."
+      },
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Pflanzen der Familie Polygonaceae.",
+        "en": "Known hypersensitivity to plants of the family Polygonaceae."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Eisenpräparate / Kalziumpräparate",
+        "mechanism": {
+          "de": "Oxalsäure und Gerbstoffe können die Resorption von Mineralien hemmen — zeitlicher Abstand von mindestens 2 Stunden empfohlen.",
+          "en": "Oxalic acid and tannins can inhibit absorption of minerals — a gap of at least 2 hours is recommended."
+        },
+        "severity": "monitor",
+        "source_id": "src_pfaf_bistorta"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Schlangen-Knöterich (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schlangen-Kn%C3%B6terich",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Bistorta officinalis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Bistorta_officinalis",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_de_bistorta",
+      "type": "wikipedia",
+      "title": "Schlangen-Knöterich (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schlangen-Kn%C3%B6terich",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_en_bistorta",
+      "type": "wikipedia",
+      "title": "Bistorta officinalis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Bistorta_officinalis",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_bistorta",
+      "type": "monograph",
+      "title": "Polygonum bistorta — Plants For A Future (PFAF)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Polygonum+bistorta",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pubmed_pawlowska",
+      "type": "monograph",
+      "title": "Pawłowska KA et al. Antibacterial and anti-inflammatory activity of bistort (Bistorta officinalis) aqueous extract and its major components. J Ethnopharmacol. 2020;260:113077.",
+      "url": "https://doi.org/10.1016/j.jep.2020.113077",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wikidata_bistorta",
+      "type": "wikidata",
+      "title": "Bistorta officinalis — Wikidata (Q112917)",
+      "url": "https://www.wikidata.org/wiki/Q112917",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_kings_henriettes_bistorta",
+      "type": "book",
+      "title": "King's American Dispensatory (1898) — Polygonum bistorta (Henriette's Herbal)",
+      "url": "https://henriettes-herb.com/eclectic/kings/polygonum.html",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "bistorta-officinalis.jpg",
+    "alt": {
+      "de": "Foto von Schlangen-Knöterich",
+      "en": "Photo of Bistorta officinalis"
+    },
+    "license": "Public domain",
+    "author": "Thomé, Otto Wilhelm;",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Persicaria_bistorta_(Thom%C3%A9_Bd.2_1904,_BHL-44721,_Tafel_195)_clean,_no-description.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Kondensierte Gerbstoffe (Proanthocyanidine, Flavan-3-ol-Derivate)",
+      "category": "tannin",
+      "plant_part": "rhizome",
+      "percent_range": "15–36 %",
+      "note": {
+        "de": "Hauptwirkträger im Rhizom; verantwortlich für adstringierende, blutstillende und antimikrobielle Wirkung.",
+        "en": "Primary active compounds in the rhizome; responsible for astringent, haemostatic, and antimicrobial activity."
+      }
+    },
+    {
+      "name": "Gallussäure (Gallic acid)",
+      "category": "phenolic_acid",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Hydrolysierbarer Gerbstoff-Anteil; stark antimikrobiell, antioxidativ.",
+        "en": "Hydrolysable tannin fraction; strongly antimicrobial, antioxidant."
+      }
+    },
+    {
+      "name": "Gallotannine (Galloyl-Glucose-Derivate)",
+      "category": "tannin",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Bestätigt durch Pawłowska et al. 2020 als Hauptkomponente im wässrigen Rhizom-Extrakt; antibakteriell gegen Hautpathogene.",
+        "en": "Confirmed by Pawłowska et al. 2020 as major component of aqueous rhizome extract; antibacterial against skin pathogens."
+      }
+    },
+    {
+      "name": "Stärke",
+      "category": "polysaccharide",
+      "plant_part": "rhizome",
+      "percent_range": "ca. 30 %",
+      "note": {
+        "de": "Hauptspeicherstoff des Rhizoms; macht den Schlangen-Knöterich essbarer und historisch als Hungerpflanze nutzbar.",
+        "en": "Primary storage compound of the rhizome; makes bistort edible and historically useful as a famine food."
+      }
+    },
+    {
+      "name": "Chlorogensäure",
+      "category": "phenolic_acid",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Identifiziert in Pawłowska et al. 2020; antioxidative und entzündungshemmende Eigenschaften.",
+        "en": "Identified in Pawłowska et al. 2020; antioxidant and anti-inflammatory properties."
+      }
+    },
+    {
+      "name": "Oxalsäure (Oxalic acid)",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "In allen Pflanzenteilen enthalten; bei hohem Konsum kann Oxalsäure Mineralstoff-Resorption hemmen und bei Nierensteinpatienten problematisch sein.",
+        "en": "Present in all plant parts; in high consumption, oxalic acid can inhibit mineral absorption and be problematic for kidney stone patients."
+      }
+    },
+    {
+      "name": "Vitamin C",
+      "category": "vitamin",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Im Rhizom nachgewiesen; machte die Pflanze historisch als Vitaminquelle in nährstoffarmen Zeiten wertvoll.",
+        "en": "Detected in the rhizome; historically valuable as a vitamin source in nutritionally poor times."
+      }
+    },
+    {
+      "name": "Vitamin A (Beta-Carotin-Vorstufen)",
+      "category": "vitamin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "In den Blättern enthalten (PFAF-Angabe); unterstützt die traditionelle Nutzung der Blätter als Gemüse.",
+        "en": "Present in leaves (PFAF data); supports the traditional use of leaves as a vegetable."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "rhizome",
+      "best_months": [
+        3,
+        4,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Frühjahr (beim Austrieb) oder Herbst (nach dem Absterben der oberirdischen Teile) ernten.",
+        "en": "Harvest in early spring (when leaves are just shooting) or autumn (after above-ground parts die back)."
+      },
+      "drying": {
+        "de": "Rhizom reinigen, in 5–10 mm dicke Scheiben schneiden und bei 40–50 °C trocknen, bis die Stücke trocken und brüchig sind.",
+        "en": "Clean rhizome, slice into 5–10 mm pieces and dry at 40–50 °C until pieces are dry and brittle."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Dunkel, trocken und luftdicht in Glasgefäßen lagern; hält bis zu 2 Jahre.",
+        "en": "Store dark, dry, and airtight in glass jars; keeps up to 2 years."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Junge Blätter im Frühling vor der Blüte sammeln — dann am zartesten und gerbstoffärmer.",
+        "en": "Collect young leaves in spring before flowering — at their most tender and lowest in tannins."
+      },
+      "drying": {
+        "de": "Blätter entweder frisch verwenden oder bei 35 °C schonend trocknen. Beim Trocknen zerfallen die Blätter leicht — lose in Papiertüten lagern.",
+        "en": "Use leaves fresh or dry gently at 35 °C. Leaves crumble easily when dried — store loosely in paper bags."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Getrocknete Blätter in Papiertüten dunkel und trocken lagern; Haltbarkeit maximal 6 Monate.",
+        "en": "Store dried leaves in paper bags in a dark, dry place; shelf life maximum 6 months."
+      }
+    }
+  ]
+}

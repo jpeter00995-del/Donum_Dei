@@ -1,0 +1,418 @@
+{
+  "slug": "taraxacum-officinale",
+  "names": {
+    "de": "Gewöhnlicher Löwenzahn",
+    "en": "Taraxacum officinale",
+    "latin": "Taraxacum officinale"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Der Gewöhnliche Löwenzahn stellt eine Gruppe sehr ähnlicher und nah verwandter Pflanzenarten in der Gattung Löwenzahn (Taraxacum) aus der Familie der Korbblütler (Asteraceae) dar. Meist werden diese Pflanzen einfach als Löwenzahn bezeichnet, wodurch eine Verwechslung mit der Gattung Löwenzahn (Leontodon) möglich ist.",
+    "en": "Taraxacum officinale, the dandelion or common dandelion, is a herbaceous perennial flowering plant in the daisy family, Asteraceae. The common dandelion is well-known for its yellow flower heads that turn into round balls of many silver-tufted fruit, which disperse in the wind. These balls are sometimes called \"clocks\" or \"blowballs\"."
+  },
+  "teaser": {
+    "de": "Der Gewöhnliche Löwenzahn stellt eine Gruppe sehr ähnlicher und nah verwandter Pflanzenarten in der Gattung Löwenzahn...",
+    "en": "Taraxacum officinale, the dandelion or common dandelion, is a herbaceous perennial flowering plant in the daisy famil..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 4
+        },
+        "water_ml": 250,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "DEKOKT der Wurzel mit Kraut: 3–4 g zerkleinerte getrocknete Löwenzahnwurzel mit Kraut in 150–250 ml kaltem Wasser ansetzen, aufkochen und 10–15 Minuten köcheln lassen, abseihen. Bis zu 3× täglich eine Tasse 30 Min vor den Mahlzeiten — Bitterstoffe regen Speichel, Magensaft und Gallenfluss an. Alternativ als Aufguss: 4–10 g + kochendes Wasser, 10 Min ziehen.",
+          "en": "DECOCTION: 3–4 g + 150–250 ml cold water, boil and simmer 10–15 min. 3× daily before meals."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA ab 12 Jahren.",
+          "en": "Per EMA from 12 years."
+        }
+      },
+      "description": {
+        "de": "Klassischer Bittermittel-Tee bei leichten Verdauungsbeschwerden, Völlegefühl und träger Verdauung. Bitterstoffe regen Galle und Magensaft an.",
+        "en": "Classic bitter tea for digestive complaints."
+      },
+      "source_ids": [
+        "src_ema_taraxaci_radix"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 4
+        },
+        "water_ml": 250,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "DEKOKT Wurzel mit Kraut: 3–4 g zerkleinerte Löwenzahnwurzel mit Kraut in 150–250 ml kaltem Wasser ansetzen, aufkochen und 10–15 Min köcheln, abseihen. 3× täglich eine Tasse. WICHTIG: reichlich zusätzlich trinken (mindestens 2 L Wasser/Tag) — Durchspülung der Harnwege. Klassische Frühjahrskur 2–4 Wochen.",
+          "en": "DECOCTION for urinary flushing: 3–4 g. Drink ≥ 2 L water/day."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Ab 12 Jahren.",
+          "en": "From 12 years."
+        }
+      },
+      "description": {
+        "de": "Frühjahrs-Durchspülungskur: erhöht Harnmenge zur Durchspülung der Harnwege.",
+        "en": "Spring flushing cure."
+      },
+      "source_ids": [
+        "src_ema_taraxaci_radix"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 4,
+          "max": 10
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "AUFGUSS der Blätter: 4–10 g zerkleinerte getrocknete Löwenzahnblätter mit 150–250 ml kochendem Wasser, 10 Min zugedeckt ziehen, abseihen. 3× täglich. WICHTIG: ≥ 2 L Wasser/Tag zusätzlich.",
+          "en": "LEAF INFUSION: 4–10 g + 150–250 ml boiling water. 3× daily with ≥ 2 L water."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Ab 12 Jahren.",
+          "en": "From 12 years."
+        }
+      },
+      "description": {
+        "de": "Blätter-Tee zur Durchspülung der Harnwege — traditionelle Frühjahrs-Reinigungs- und Entwässerungskur.",
+        "en": "Leaf tea for urinary flushing — traditional spring cure."
+      },
+      "source_ids": [
+        "src_ema_taraxaci_folium"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "doses_per_day": 1,
+        "instructions": {
+          "de": "FRÜHJAHRSSALAT: Junge, zarte Löwenzahnblätter vor der Blüte ernten (März-April) — ältere werden zunehmend bitter. Gut waschen, grob schneiden, als Wildkräutersalat mit Speckwürfeln, hartgekochtem Ei und kräftiger Vinaigrette (Essig mildert Bitterkeit). Auch als grüner Smoothie oder frischer Saft (1 Glas morgens nüchtern, 1–2 Wochen) — traditionelles Frühjahrs-Stärkungsmittel. Reich an Vit A, C, K, Eisen, Kalium.",
+          "en": "SPRING SALAD: Young leaves before flowering."
+        }
+      },
+      "description": {
+        "de": "Junge Löwenzahnblätter sind klassisches essbares Wildgemüse — mild blutreinigend, vitalstoffreich, überliefertes Frühjahrs-Stärkungsmittel.",
+        "en": "Edible wild vegetable, traditional spring tonic."
+      },
+      "source_ids": [
+        "src_1",
+        "src_2"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 3
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "FLÜSSIGEXTRAKT der Wurzel mit Kraut (DER 1:0.9-1.1, Ethanol 30 % V/V): 90 Tropfen (~3,15 ml) 3× täglich vor den Mahlzeiten in etwas Wasser. Bei leichten Verdauungsbeschwerden und Appetitlosigkeit. Enthält Alkohol — nicht für Kinder, Schwangere, Stillende.",
+          "en": "LIQUID EXTRACT: 90 drops 3× daily before meals in water."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Alkoholhaltige Tinkturen nicht unter 18.",
+          "en": "Alcohol-containing tinctures not under 18."
+        }
+      },
+      "description": {
+        "de": "Konzentrierter Flüssigextrakt als Bittertropfen vor den Mahlzeiten — regt Verdauung und Gallenfluss an.",
+        "en": "Concentrated liquid extract as bitter drops."
+      },
+      "source_ids": [
+        "src_ema_taraxaci_radix"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Wurzel (Herbst), Kraut (Frühling)",
+      "en": "root (autumn), herb (spring)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bei Beschwerden über 2 Wochen: Arzt. Bei Fieber, Dysurie, Krämpfen oder Blut im Urin sofort Arzt. Bei Durchspülung muss reichlich getrunken werden (≥ 2 L/Tag). WICHTIG: Bei Nierenversagen, Diabetes oder Herzinsuffizienz vermeiden — Hyperkaliämie-Gefahr (Löwenzahn ist sehr kaliumreich). Bei Gallensteinen, Verschluss der Gallenwege, Gallenwegsentzündung, Lebererkrankungen, aktivem Magengeschwür NICHT anwenden — galletreibende Wirkung kann Koliken auslösen. Allergien bei Korbblütler-Allergie (Ambrosia, Beifuß, Kamille, Arnika).",
+      "en": "With renal failure, diabetes or heart failure: avoid (hyperkalaemia risk). NOT with gallstones, bile duct obstruction, cholangitis."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Mangels Daten in Schwangerschaft nicht empfohlen.",
+        "en": "Not recommended in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Mangels Daten in Stillzeit nicht empfohlen.",
+        "en": "Not recommended in lactation."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Nicht für Kinder unter 12. Junge Blätter als Wildsalat in normalen Lebensmittelmengen sind nicht betroffen.",
+        "en": "Not for children under 12. Salad amounts OK."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Diuretika, ACE-Hemmer, Kalium-sparende Diuretika",
+        "mechanism": {
+          "de": "Löwenzahn ist sehr kaliumreich. Bei gleichzeitiger Einnahme kann theoretisch eine Hyperkaliämie auftreten. EMA warnt vor Anwendung bei Nierenversagen, Diabetes, Herzinsuffizienz.",
+          "en": "Very potassium-rich. Hyperkalaemia risk."
+        },
+        "severity": "caution"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Löwenzahn oder andere Korbblütler (Ambrosia, Beifuß, Kamille, Arnika).",
+        "en": "Hypersensitivity to dandelion or Asteraceae."
+      },
+      {
+        "de": "Verschluss der Gallenwege, Cholangitis, Lebererkrankungen, Gallensteine, aktives Magengeschwür.",
+        "en": "Bile duct obstruction, cholangitis, liver disease, gallstones, peptic ulcer."
+      },
+      {
+        "de": "Nierenversagen, Diabetes und/oder Herzinsuffizienz — wegen Hyperkaliämie.",
+        "en": "Renal failure, diabetes, heart failure."
+      },
+      {
+        "de": "Kinder unter 12 Jahren.",
+        "en": "Children under 12."
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gewöhnlicher Löwenzahn (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_L%C3%B6wenzahn",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Taraxacum officinale (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Taraxacum_officinale",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_taraxaci_folium",
+      "type": "monograph",
+      "title": "EMA/HMPC/579636/2008 — Community herbal monograph on Taraxacum officinale Weber ex Wigg., folium (Final, 12 November 2009)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/taraxaci-folium",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_taraxaci_radix",
+      "type": "monograph",
+      "title": "EMA/HMPC/212895/2008 Corr 1 — Community herbal monograph on Taraxacum officinale Weber ex Wigg., radix cum herba (Final, 12 November 2009)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/taraxaci-radix",
+      "accessed": "2026-05-18"
+    }
+  ],
+  "image": {
+    "filename": "taraxacum-officinale.jpg",
+    "alt": {
+      "de": "Foto von Gewöhnlicher Löwenzahn",
+      "en": "Photo of Taraxacum officinale"
+    },
+    "license": "Public domain",
+    "author": "Walther Otto Müller",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taraxacum_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-135.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Sesquiterpenlactone (Taraxacin, Taraxinsäure-Glucosid)",
+      "category": "bitter",
+      "percent_range": "0.05–1 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Hauptbittermittel der Wurzel. Appetit- und verdauungsanregend, galleflussfördernd. Sensibilisator bei Korbblütler-Allergie.",
+        "en": "Main bitter principle. Sensitizer in Asteraceae allergy."
+      }
+    },
+    {
+      "name": "Inulin",
+      "category": "polysaccharide",
+      "percent_range": "im Herbst bis 40 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Speicherzucker, präbiotisch. Im Herbst am höchsten — daher klassische Erntezeit.",
+        "en": "Storage carbohydrate, prebiotic. Highest in autumn."
+      }
+    },
+    {
+      "name": "Triterpene (Taraxasterol, Taraxerol)",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Galletreibend und entzündungsmodulierend.",
+        "en": "Choleretic and inflammation-modulating."
+      }
+    },
+    {
+      "name": "Kalium",
+      "category": "mineral",
+      "percent_range": "bis 4.5 % in Blättern",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Sehr hoher Gehalt — trägt zur aquaretischen Wirkung bei. Vorsicht bei Niereninsuffizienz.",
+        "en": "Very high potassium — aquaretic. Caution in renal failure."
+      }
+    },
+    {
+      "name": "Flavonoide (Luteolin, Apigenin, Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "In Blättern und Blüten. Antioxidativ und mild entzündungshemmend.",
+        "en": "Antioxidant."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Chlorogensäure, Kaffeesäure)",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Antioxidativ, tragen zur leberschützenden Tradition bei.",
+        "en": "Antioxidant, hepatoprotective."
+      }
+    },
+    {
+      "name": "Vitamine (A, B-Komplex, C, K)",
+      "category": "vitamin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Junge Blätter besonders vitaminreich — Vit A (β-Carotin), C und K.",
+        "en": "Young leaves vitamin-rich."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        3,
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Trockener Vormittag, junge Rosettenblätter vor Erscheinen der Blütenknospen.",
+        "en": "Dry morning, young rosette leaves before flower buds."
+      },
+      "drying": {
+        "de": "Für Salat/Saft frisch. Zum Trocknen einlagig im Schatten oder max 40 °C, häufig wenden — werden schnell welk.",
+        "en": "Use fresh or dry at max 40 °C."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht, dunkel, trocken.",
+        "en": "Airtight, dark, dry."
+      }
+    },
+    {
+      "plant_part": "root",
+      "best_months": [
+        9,
+        10,
+        11,
+        3
+      ],
+      "time_of_day": {
+        "de": "Herbst (September–November) oder zeitiges Frühjahr (März, vor Austrieb). Im Herbst höchster Inulingehalt, im Frühjahr höchster Bitterstoffgehalt.",
+        "en": "Autumn or early spring."
+      },
+      "drying": {
+        "de": "Wurzel mit Grabegabel tief ausstechen (bis 30 cm), Erde entfernen, längs aufschneiden und in fingerdicke Stücke. Luft im Schatten oder max 40 °C trocknen. Wurzel schwitzt Milchsaft aus — saugfähige Unterlage.",
+        "en": "Dig deep, slice lengthwise, dry on absorbent surface."
+      },
+      "storage_months": 18,
+      "storage_condition": {
+        "de": "Luftdicht, dunkel, trocken. 1–1,5 Jahre.",
+        "en": "Airtight, dark, dry. 1–1.5 years."
+      }
+    }
+  ]
+}

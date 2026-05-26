@@ -1,0 +1,512 @@
+{
+  "slug": "hyoscyamus-niger",
+  "names": {
+    "de": "Schwarzes Bilsenkraut",
+    "en": "Hyoscyamus niger",
+    "latin": "Hyoscyamus niger"
+  },
+  "family": {
+    "de": "Nachtschattengewächse",
+    "en": "Nightshade family",
+    "latin": "Solanaceae"
+  },
+  "description": {
+    "de": "Das Schwarze Bilsenkraut ist eine Pflanzenart aus der Gattung der Bilsenkräuter innerhalb der Familie der Nachtschattengewächse (Solanaceae).",
+    "en": "Henbane is a poisonous plant belonging to tribe Hyoscyameae of the nightshade family Solanaceae. Henbane is native to temperate Europe and Siberia, and naturalised in Great Britain and Ireland."
+  },
+  "teaser": {
+    "de": "Das Schwarze Bilsenkraut ist eine Pflanzenart aus der Gattung der Bilsenkräuter innerhalb der Familie der Nachtschatt...",
+    "en": "Henbane is a poisonous plant belonging to tribe Hyoscyameae of the nightshade family Solanaceae."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system",
+        "joints"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Volksmedizinische externe Anwendung von Bilsenkraut-Ölauszügen bei Rheuma und neuralgischen Schmerzen. Samen wurden in Olivenöl gekocht und das Öl auf schmerzende Gelenke eingerieben. Diese Anwendung ist seit der Antike dokumentiert (Dioscorides, Plinius der Ältere) und galt lange als Analgetikum.",
+        "en": "Folk medicinal external application of henbane oil extracts for rheumatism and neuralgic pain. Seeds were boiled in olive oil and the oil rubbed onto painful joints. This application is documented since antiquity (Dioscorides, Pliny the Elder) and was long considered an analgesic."
+      },
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Samen in Olivenöl erhitzen, abseihen; lauwarmes Öl auf betroffene Stellen auftragen.",
+        "en": "Heat seeds in olive oil, strain; apply lukewarm oil to affected areas."
+      },
+      "source_ids": [
+        "src-hn-wiki-en",
+        "src-hn-pfaf",
+        "src-hn-groot-2024"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Volksmedizinische Inhalation von Bilsenkraut-Rauch bei Asthma bronchiale und Keuchhusten. Getrocknete Blätter wurden auf Kohle verbrannt und der Rauch inhaliert. Historisch in Europa und dem Orient verbreitet — anticholinerge Bronchodilatation als Wirkprinzip. Heute wegen Toxizität obsolet.",
+        "en": "Folk medicinal inhalation of henbane smoke for bronchial asthma and whooping cough. Dried leaves were burned on coals and the smoke inhaled. Historically widespread in Europe and the Orient — anticholinergic bronchodilation as the mechanism of action. Now obsolete due to toxicity."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Getrocknete Blätter auf Glut verbrennen und Rauch kurz inhalieren. Keine Selbstanwendung — Vergiftungsgefahr.",
+        "en": "Burn dried leaves on embers and briefly inhale smoke. No self-application — risk of poisoning."
+      },
+      "source_ids": [
+        "src-hn-wiki-en",
+        "src-hn-wiki-de",
+        "src-hn-pfaf"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Historische pharmazeutische Verwendung von Hyoscyamin-/Scopolamin-Extrakten aus Bilsenkraut als präoperatives Sedativum und zur Reduzierung von Bronchialsekret vor Narkosen. Bilsenkraut-Tinktur war bis Mitte des 20. Jahrhunderts in Pharmakopöen enthalten. Heute durch reine Isolate (Scopolamin-TTS, Atropin-Injektionslösung) ersetzt.",
+        "en": "Historical pharmaceutical use of hyoscyamine/scopolamine extracts from henbane as preoperative sedative and to reduce bronchial secretions before anesthesia. Henbane tincture was included in pharmacopoeias until the mid-20th century. Now replaced by pure isolates (scopolamine TTS, atropine injection)."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "de": "Standardisierter Extrakt (0,05 % Gesamtalkaloide) — nur unter ärztlicher Kontrolle, heute obsolet.",
+        "en": "Standardized extract (0.05% total alkaloids) — only under medical supervision, now obsolete."
+      },
+      "source_ids": [
+        "src-hn-wiki-en",
+        "src-hn-wiki-scopolamine",
+        "src-hn-naumann-2014"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Homöopathische Verwendung von Hyoscyamus (D6–C30) bei Erregungs- und Krampfzuständen, Schlafstörungen und manisch-halluzinatorischen Symptombildern. Reine homöopathische Verdünnungen (ab C12) enthalten keine pharmakologisch wirksamen Alkaloidmengen. Verbreitet in der klassischen Homöopathie als Konstitutionsmittel.",
+        "en": "Homeopathic use of Hyoscyamus (D6–C30) for states of agitation and cramps, sleep disorders, and manic-hallucinatory symptom pictures. Pure homeopathic dilutions (from C12) contain no pharmacologically active alkaloid amounts. Widespread in classical homeopathy as a constitutional remedy."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Homöopathische Potenzierung ab D6 — keine Eigenwirkung durch Alkaloidgehalt.",
+        "en": "Homeopathic potentization from D6 onward — no inherent alkaloid effect."
+      },
+      "source_ids": [
+        "src-hn-wiki-en",
+        "src-hn-wikidata"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "both",
+      "description": {
+        "de": "Ethnobotanische und schamanische Verwendung: Bilsenkraut-Samen galten als bewusstseinsverändernde Substanz in nordeuropäischen und nahöstlichen Ritualen. Archäologische Funde aus dem römischen Niederlande (Houten-Castellum, 70–100 n. Chr.) belegen das absichtliche Sammeln von Samen — vermutlich für rituelle oder medizinische Zwecke. Auch in der mittelalterlichen Hexenküche (Flugsalbe) erwähnt.",
+        "en": "Ethnobotanical and shamanic use: henbane seeds were considered a psychoactive substance in northern European and Middle Eastern rituals. Archaeological finds from the Roman Netherlands (Houten-Castellum, 70–100 CE) document intentional seed collection — likely for ritual or medicinal purposes. Also mentioned in medieval witch craft (flying ointment)."
+      },
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Historisch-ethnobotanisch dokumentiert; keine Anwendungsempfehlung — giftig.",
+        "en": "Historically documented ethnobotanically; no application recommendation — toxic."
+      },
+      "source_ids": [
+        "src-hn-groot-2024",
+        "src-hn-wiki-en"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Historische Verwendung von Bilsenkraut in der mittelalterlichen Braukunde: Vor der Einführung von Hopfen wurden Bilsenkraut-Blätter und -Samen als berauschende Bierzusätze verwendet (Grutbier). Die etymologische Verbindung zum Stadtnamen Pilsen (Plzeň) wird in der Wissenschaft diskutiert, gilt aber als nicht gesichert. Das Reinheitsgebot (1516) beendete diese Praxis in Deutschland.",
+        "en": "Historical use of henbane in medieval brewing: before the introduction of hops, henbane leaves and seeds were used as intoxicating beer additives (gruit beer). The etymological connection to the city name Pilsen (Plzeň) is debated in scholarship but considered unconfirmed. The Reinheitsgebot (1516) ended this practice in Germany."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Historisch: Blätter und Samen als Brauereizusatz — heute illegal und gefährlich.",
+        "en": "Historically: leaves and seeds as brewing additive — now illegal and dangerous."
+      },
+      "source_ids": [
+        "src-hn-wiki-en",
+        "src-hn-wiki-de"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Pharmazeutische Quelle für Scopolamin-Isolate: Hyoscyamus niger ist neben Duboisia spp. eine der kommerziellen Ausgangspflanzen für die Scopolamingewinnung (Reisekrankheitspflaster, Prämedikation). Hairy-Root-Kulturen und Bioreaktortechnologie ermöglichen heute standardisierte Alkaloidproduktion ohne Wildsammlung.",
+        "en": "Pharmaceutical source for scopolamine isolates: Hyoscyamus niger is, alongside Duboisia spp., one of the commercial source plants for scopolamine production (motion sickness patches, premedication). Hairy-root cultures and bioreactor technology now enable standardized alkaloid production without wild harvesting."
+      },
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "de": "Industriell: Hairy-Root-Kulturen in Bioreaktoren für standardisierte Alkaloidgewinnung — nicht zur Selbstanwendung.",
+        "en": "Industrial: hairy-root cultures in bioreactors for standardized alkaloid production — not for self-application."
+      },
+      "source_ids": [
+        "src-hn-jaremicz-2013",
+        "src-hn-matto-2012",
+        "src-hn-shi-2022"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Blätter und Samen",
+      "en": "leaves and seeds"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "GIFTIG — GESAMTE PFLANZE. Hyoscyamus niger enthält toxische Tropanalkaloide (Hyoscyamin, Scopolamin, Atropin) in allen Pflanzenteilen. Der Gesamtalkaloidgehalt liegt in Blättern bei 0,06–0,17 %, in Samen bei 0,05–0,3 %. Bereits kleine Mengen können Vergiftungen auslösen: Mundtrockenheit, Tachykardie, Pupillenerweiterung, Hautrötung, Halluzinationen, Krämpfe, Atemlähmung, Koma. Letale Dosis für Scopolamin: ~50 mg. Intoxikationen können mehrere Tage andauern. Bei Vergiftungsverdacht SOFORT Notruf (112) und Giftnotruf. Keine Selbstmedikation. Keine Laienanwendung. Schutzhandschuhe bei jedem Pflanzenkontakt.",
+      "en": "TOXIC — ENTIRE PLANT. Hyoscyamus niger contains toxic tropane alkaloids (hyoscyamine, scopolamine, atropine) in all plant parts. Total alkaloid content in leaves is 0.06–0.17%, in seeds 0.05–0.3%. Even small amounts can cause poisoning: dry mouth, tachycardia, dilated pupils, skin flushing, hallucinations, seizures, respiratory paralysis, coma. Lethal dose for scopolamine: ~50 mg. Intoxications can last several days. In case of suspected poisoning, IMMEDIATELY call emergency services and poison control. No self-medication. No lay use. Protective gloves required for all plant contact."
+    },
+    "external_only": false,
+    "toxicity_level": "toxic",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Scopolamin und Hyoscyamin passieren die Plazentaschranke und können fetale Tachykardie sowie ZNS-Schäden verursachen. Jede Exposition in der Schwangerschaft ist streng kontraindiziert.",
+        "en": "Scopolamine and hyoscyamine cross the placental barrier and can cause fetal tachycardia and CNS damage. Any exposure during pregnancy is strictly contraindicated."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Tropanalkaloide gehen in die Muttermilch über und können beim Säugling anticholinerge Effekte auslösen. Stillzeit: streng kontraindiziert.",
+        "en": "Tropane alkaloids pass into breast milk and can trigger anticholinergic effects in the infant. Breastfeeding: strictly contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder reagieren extrem empfindlich auf Tropanalkaloide. Jede Exposition ist absolut kontraindiziert.",
+        "en": "Children are extremely sensitive to tropane alkaloids. Any exposure is absolutely contraindicated."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Engwinkelglaukom — Scopolamin und Hyoscyamin erhöhen den Augeninnendruck gefährlich",
+        "en": "Narrow-angle glaucoma — scopolamine and hyoscyamine dangerously increase intraocular pressure"
+      },
+      {
+        "de": "Benigne Prostatahyperplasie mit Miktionsstörungen — anticholinerge Harnretention",
+        "en": "Benign prostatic hyperplasia with voiding disorders — anticholinergic urinary retention"
+      },
+      {
+        "de": "Tachyarrhythmien — Tropanalkaloide erhöhen die Herzfrequenz weiter",
+        "en": "Tachyarrhythmias — tropane alkaloids further increase heart rate"
+      },
+      {
+        "de": "Mechanischer Ileus und Megakolon — Darmparalyse durch Anticholinergika",
+        "en": "Mechanical ileus and megacolon — intestinal paralysis through anticholinergics"
+      },
+      {
+        "de": "Myasthenia gravis — Antagonisierung der neuromuskulären Übertragung",
+        "en": "Myasthenia gravis — antagonization of neuromuscular transmission"
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (siehe Warnhinweis)",
+        "en": "Pregnancy and breastfeeding (see warnings)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Anticholinergika (Tiotropium, Ipratropium, Oxybutynin, Darifenacin)",
+        "mechanism": {
+          "de": "Additive anticholinerge Wirkung: verstärkte Mundtrockenheit, Harnretention, Tachykardie, kognitive Beeinträchtigungen bis hin zum zentralen anticholinergen Syndrom.",
+          "en": "Additive anticholinergic effect: enhanced dry mouth, urinary retention, tachycardia, cognitive impairment up to central anticholinergic syndrome."
+        },
+        "severity": "avoid",
+        "source_id": "src-hn-wiki-scopolamine"
+      },
+      {
+        "drug_class": "Trizyklische Antidepressiva (Amitriptylin, Imipramin, Clomipramin)",
+        "mechanism": {
+          "de": "Trizyklika besitzen inhärente anticholinerge Eigenschaften; Kombination mit Bilsenkraut-Alkaloiden potenziert anticholinerge Nebenwirkungen erheblich.",
+          "en": "Tricyclics have inherent anticholinergic properties; combination with henbane alkaloids substantially potentiates anticholinergic side effects."
+        },
+        "severity": "caution",
+        "source_id": "src-hn-wiki-scopolamine"
+      },
+      {
+        "drug_class": "MAO-Hemmer (Phenelzin, Tranylcypromin, Moclobemid)",
+        "mechanism": {
+          "de": "MAO-Hemmer können den Abbau von Tropanalkaloiden vermindern und deren Toxizität erhöhen; zentralnervöse Exzitation möglich.",
+          "en": "MAO inhibitors may reduce breakdown of tropane alkaloids and increase their toxicity; central nervous system excitation possible."
+        },
+        "severity": "caution",
+        "source_id": "src-hn-wiki-scopolamine"
+      },
+      {
+        "drug_class": "Antihistaminika der 1. Generation (Diphenhydramin, Promethazin, Hydroxyzin)",
+        "mechanism": {
+          "de": "H1-Antihistaminika der ersten Generation haben anticholinerge Eigenschaften; additive Effekte bei Kombination mit Bilsenkraut-Alkaloiden.",
+          "en": "First-generation H1 antihistamines have anticholinergic properties; additive effects when combined with henbane alkaloids."
+        },
+        "severity": "monitor",
+        "source_id": "src-hn-wiki-scopolamine"
+      }
+    ],
+    "max_continuous_use_weeks": 1
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Schwarzes Bilsenkraut (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schwarzes_Bilsenkraut",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Hyoscyamus niger (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Hyoscyamus_niger",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-hn-wiki-en",
+      "type": "wikipedia",
+      "title": "Hyoscyamus niger — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Hyoscyamus_niger",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src-hn-wiki-de",
+      "type": "wikipedia",
+      "title": "Schwarzes Bilsenkraut — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Schwarzes_Bilsenkraut",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src-hn-wiki-scopolamine",
+      "type": "wikipedia",
+      "title": "Scopolamine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Scopolamine",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src-hn-wiki-hyoscyamine",
+      "type": "wikipedia",
+      "title": "Hyoscyamine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Hyoscyamine",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src-hn-wikidata",
+      "type": "wikidata",
+      "title": "Hyoscyamus niger — Wikidata Q161058",
+      "url": "https://www.wikidata.org/wiki/Q161058",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src-hn-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Hyoscyamus niger",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Hyoscyamus+niger",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src-hn-groot-2024",
+      "type": "monograph",
+      "title": "Evidence of the intentional use of black henbane (Hyoscyamus niger) in the Roman Netherlands",
+      "url": "https://doi.org/10.15184/aqy.2024.5",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src-hn-jaremicz-2013",
+      "type": "monograph",
+      "title": "Production of tropane alkaloids in Hyoscyamus niger (black henbane) hairy roots grown in bubble-column and spray bioreactors",
+      "url": "https://doi.org/10.1007/s10529-013-1426-9",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src-hn-naumann-2014",
+      "type": "monograph",
+      "title": "Discrimination of Solanaceae Taxa and Quantification of Scopolamine and Hyoscyamine by ATR-FTIR Spectroscopy",
+      "url": "https://doi.org/10.1055/s-0034-1383046",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src-hn-matto-2012",
+      "type": "monograph",
+      "title": "Inorganic ions in the medium modify tropane alkaloids and riboflavin output in Hyoscyamus niger root cultures",
+      "url": "https://doi.org/10.4103/0973-1296.93330",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src-hn-shi-2022",
+      "type": "monograph",
+      "title": "Tropane alkaloids (hyoscyamine, scopolamine and atropine) from genus Datura: extractions, contents, syntheses and effects",
+      "url": "https://doi.org/10.1016/j.indcrop.2022.115283",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "hyoscyamus-niger.jpg",
+    "alt": {
+      "de": "Foto von Schwarzes Bilsenkraut",
+      "en": "Photo of Hyoscyamus niger"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "H. Zell",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hyoscyamus_niger_0003.JPG"
+  },
+  "constituents": [
+    {
+      "name": "Hyoscyamine (l-Hyoscyamine)",
+      "category": "alkaloid",
+      "percent_range": "0.04-0.15 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptalkaloid des Schwarzen Bilsenkrauts; L-Enantiomer des Atropins; kompetitiver Antagonist an muscarinischen Acetylcholinrezeptoren (M1–M5); antispasmodisch, antisekretorisch, mydrias­tisch. Racemisiert bei Trocknung und Extraktion teilweise zu Atropin.",
+        "en": "Main alkaloid of black henbane; L-enantiomer of atropine; competitive antagonist at muscarinic acetylcholine receptors (M1–M5); antispasmodic, antisecretory, mydriatic. Partially racemizes to atropine during drying and extraction."
+      }
+    },
+    {
+      "name": "Scopolamine (Hyoscine)",
+      "category": "alkaloid",
+      "percent_range": "0.01-0.1 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Charakteristisches Alkaloid des Bilsenkrauts; Epoxid-Derivat des Tropans; stärker sedierend als Hyoscyamin; überwindet die Blut-Hirn-Schranke effizient; antiemetisch wirksam; medizinisch als Reisekrankheitspflaster (TTS) verwendet. Im Bilsenkraut anteilig höher als in Atropa belladonna.",
+        "en": "Characteristic alkaloid of henbane; epoxide derivative of tropane; more sedating than hyoscyamine; efficiently crosses the blood-brain barrier; antiemetic; medically used as motion sickness patch (TTS). Proportionally higher in henbane than in Atropa belladonna."
+      }
+    },
+    {
+      "name": "Atropine (dl-Hyoscyamine)",
+      "category": "alkaloid",
+      "percent_range": "Spuren (Artefakt)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Racemisches Gemisch; entsteht aus Hyoscyamin durch Racemisierung während Ernte, Trocknung und Extraktion. In der frischen Pflanze nur in Spuren vorhanden.",
+        "en": "Racemic mixture; formed from hyoscyamine through racemization during harvest, drying, and extraction. Present only in traces in the fresh plant."
+      }
+    },
+    {
+      "name": "Cuscohygrine",
+      "category": "alkaloid",
+      "percent_range": "< 0.1 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Nicht-Tropan-Pyrrolidinalkaloide; Biosynthesevorstufe der Tropanalkaloide; geringere pharmakologische Aktivität als Hyoscyamin oder Scopolamin.",
+        "en": "Non-tropane pyrrolidine alkaloid; biosynthetic precursor of tropane alkaloids; lower pharmacological activity than hyoscyamine or scopolamine."
+      }
+    },
+    {
+      "name": "Apoatropine",
+      "category": "alkaloid",
+      "percent_range": "< 0.05 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Dehydrierungsprodukt des Atropins; schwächere anticholinerge Aktivität; entsteht bei Erhitzung oder längerer Lagerung.",
+        "en": "Dehydration product of atropine; weaker anticholinergic activity; formed during heating or extended storage."
+      }
+    },
+    {
+      "name": "Flavonoide (Rutin, Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Antioxidative Begleitsubstanzen; keine primäre Rolle in der Toxikologie des Bilsenkrauts; nachgewiesen in Blatt- und Stängelextrakten.",
+        "en": "Antioxidant companion substances; no primary role in henbane toxicology; detected in leaf and stem extracts."
+      }
+    },
+    {
+      "name": "Cumarine (Scopolin, Scopoletin)",
+      "category": "other",
+      "percent_range": "nicht quantifiziert",
+      "plant_part": "root",
+      "note": {
+        "de": "Phenolische Cumarin-Verbindungen; in Wurzelextrakten nachgewiesen; schwach antikoagulativ; keine primäre Bedeutung für das Giftigkeitsprofil.",
+        "en": "Phenolic coumarin compounds; detected in root extracts; weakly anticoagulant; no primary significance for the toxicity profile."
+      }
+    },
+    {
+      "name": "Riboflavin (Vitamin B2)",
+      "category": "vitamin",
+      "percent_range": "< 0.01 %",
+      "plant_part": "root",
+      "note": {
+        "de": "In Hyoscyamus niger-Wurzelkulturen als Nebenprodukt der Alkaloidbiosynthese nachgewiesen; mengenmäßig ohne praktische Bedeutung für Nährstoffversorgung.",
+        "en": "Detected in Hyoscyamus niger root cultures as a by-product of alkaloid biosynthesis; quantitatively without practical significance for nutritional supply."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Morgenstunden nach Tautrocknung — höchster Alkaloidgehalt zur Blütezeit",
+        "en": "Morning hours after dew has dried — highest alkaloid content during flowering"
+      },
+      "drying": {
+        "de": "Rasch bei 40–50 °C im Schatten trocknen; langsames Trocknen fördert Racemisierung von Hyoscyamin zu Atropin. SCHUTZHANDSCHUHE PFLICHT.",
+        "en": "Dry quickly at 40–50 °C in the shade; slow drying promotes racemization of hyoscyamine to atropine. PROTECTIVE GLOVES MANDATORY."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, lichtgeschützt, verschlossen; getrennt von Lebensmitteln; Zugang für Kinder und Haustiere ausschliessen.",
+        "en": "Dry, protected from light, sealed; separate from foodstuffs; exclude access by children and pets."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Tagsüber bei reifenden Samenkapseln — Kapseln kurz vor dem Öffnen ernten",
+        "en": "Daytime with ripening seed capsules — harvest capsules just before opening"
+      },
+      "drying": {
+        "de": "Kapseln bei 35–45 °C trocknen; Samen enthalten 0,05–0,3 % Gesamtalkaloide. Ausschliesslich für pharmazeutische Weiterverarbeitung — keine Laienanwendung.",
+        "en": "Dry capsules at 35–45 °C; seeds contain 0.05–0.3% total alkaloids. Exclusively for pharmaceutical processing — no lay use."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Lichtgeschützt, trocken, in verschlossenen Behältern; Giftpflanzen-Lagervorschriften beachten.",
+        "en": "Light-protected, dry, in sealed containers; comply with toxic plant storage regulations."
+      }
+    }
+  ]
+}

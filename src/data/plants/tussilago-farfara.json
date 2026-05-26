@@ -1,0 +1,462 @@
+{
+  "slug": "tussilago-farfara",
+  "names": {
+    "de": "Huflattich",
+    "en": "Tussilago",
+    "latin": "Tussilago farfara"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Der Huflattich ist die einzige Pflanzenart der Gattung Tussilago aus der Familie der Korbblütler (Asteraceae). Er gehört jedoch nicht zur Gattung der echten Lattiche (Lactuca). Der Name -lattich geht auf das lateinische lapaticum zurück, mit dem man ursprünglich verschiedene großblättrige Pflanzen bezeichnete und das sich über laptica und lattica zu Lattich wandelte.",
+    "en": "Tussilago farfara, commonly known as coltsfoot, is a plant in the tribe Senecioneae in the family Asteraceae, native to Europe and parts of western and central Asia. The name \"tussilago\" is derived from the Latin tussis, meaning cough, and ago, meaning to cast or to act on. It has had uses in traditional medicine, but the discovery of toxic pyrrolizidine alkaloids in the plant has resulted in liver health concerns."
+  },
+  "teaser": {
+    "de": "Der Huflattich ist die einzige Pflanzenart der Gattung Tussilago aus der Familie der Korbblütler (Asteraceae).",
+    "en": "Tussilago farfara, commonly known as coltsfoot, is a plant in the tribe Senecioneae in the family Asteraceae, native ..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "plant_part": "leaf",
+      "internal_external": "internal",
+      "preparation": {
+        "de": "1-2 TL geschnittene Blätter (NUR aus PA-armen/PA-freien Apotheken-Sorten) mit 150 ml kochendem Wasser übergiessen, 10 Min ziehen lassen, abseihen. 2-3x täglich frisch zubereitet trinken. Maximal 4-6 Wochen pro Jahr. Tagesdosis darf 1 µg 1,2-ungesättigte PA nicht überschreiten.",
+        "en": "Pour 150 ml boiling water over 1-2 tsp cut leaves (ONLY from PA-reduced/PA-free pharmacy-grade varieties), steep 10 min, strain. Drink 2-3x daily freshly prepared. Maximum 4-6 weeks per year. Daily dose must not exceed 1 µg 1,2-unsaturated PA."
+      },
+      "dose": {
+        "de": "2-3 Tassen/Tag, max. 4-6 Wochen jährlich",
+        "en": "2-3 cups/day, max 4-6 weeks per year"
+      },
+      "water_ml": 150,
+      "steep_min": 10,
+      "evidence_level": "commission_e",
+      "source_ids": [
+        "s-kommission-e",
+        "s-bfarm",
+        "s-heilkraeuter",
+        "s-ema-ar"
+      ],
+      "notes": {
+        "de": "WARNUNG: Pyrrolizidinalkaloide (PA) hepatotoxisch. Nur Apothekenware aus PA-armer Züchtung verwenden. Keine Selbstsammlung für Daueranwendung. Kommission E genehmigte die Blätter (nicht Blüten/Wurzel) bei akutem Atemwegskatarrh.",
+        "en": "WARNING: Pyrrolizidine alkaloids (PA) hepatotoxic. Only use pharmacy-grade PA-reduced cultivars. Do not self-collect for prolonged use. Commission E approved leaves (not flowers/root) for acute respiratory catarrh."
+      },
+      "description": {
+        "de": "Akuter Husten und Bronchialkatarrh",
+        "en": "Acute cough and bronchial catarrh"
+      },
+      "target": [
+        "respiratory",
+        "wounds"
+      ]
+    },
+    {
+      "form": "tea",
+      "plant_part": "flower",
+      "internal_external": "internal",
+      "preparation": {
+        "de": "1 TL getrocknete Blüten mit 150 ml kochendem Wasser übergiessen, 10 Min ziehen lassen. RISIKOREICHER als Blätter-Tee, da Blüten höhere PA-Konzentration enthalten. In DE/AT/CH heute praktisch nicht mehr empfohlen — Kommission E bewertet Blüten NEGATIV.",
+        "en": "Pour 150 ml boiling water over 1 tsp dried flowers, steep 10 min. RISKIER than leaf tea because flowers contain higher PA concentration. Practically not recommended anymore in DE/AT/CH — Commission E rated flowers NEGATIVELY."
+      },
+      "dose": {
+        "de": "Selten und nur kurzfristig — besser meiden",
+        "en": "Rarely and only short-term — better avoided"
+      },
+      "water_ml": 150,
+      "steep_min": 10,
+      "evidence_level": "folk",
+      "source_ids": [
+        "s-kommission-e",
+        "s-bfarm",
+        "s-pfaf",
+        "s-heilkraeuter"
+      ],
+      "notes": {
+        "de": "WARNUNG: Blüten enthalten deutlich mehr PA (v.a. Senkirkin) als Blätter. Kommission E negativ bewertet. Verwendung historisch/volksmedizinisch, heutige Pharmakovigilanz rät ab.",
+        "en": "WARNING: Flowers contain significantly more PA (especially senkirkine) than leaves. Negatively evaluated by Commission E. Historical/folk use only; current pharmacovigilance advises against."
+      },
+      "description": {
+        "de": "Akuter Reizhusten, Heiserkeit (Volksmedizin)",
+        "en": "Acute irritable cough, hoarseness (folk medicine)"
+      },
+      "target": [
+        "respiratory",
+        "wounds"
+      ]
+    },
+    {
+      "form": "gargle",
+      "plant_part": "leaf",
+      "internal_external": "external",
+      "preparation": {
+        "de": "Wie Tee zubereiten (1 TL Blätter / 150 ml, 10 Min ziehen), abkühlen lassen, mehrmals täglich gurgeln, NICHT schlucken. Nur PA-arme Apothekenware, max. 4-6 Wochen/Jahr.",
+        "en": "Prepare like tea (1 tsp leaves / 150 ml, steep 10 min), let cool, gargle several times daily, DO NOT swallow. Only PA-reduced pharmacy material, max 4-6 weeks/year."
+      },
+      "dose": {
+        "de": "3-4x täglich gurgeln",
+        "en": "Gargle 3-4x daily"
+      },
+      "water_ml": 150,
+      "steep_min": 10,
+      "evidence_level": "commission_e",
+      "source_ids": [
+        "s-kommission-e",
+        "s-heilkraeuter"
+      ],
+      "notes": {
+        "de": "Kommission E genehmigt die Blätter zusätzlich bei leichter Mund-/Rachenschleimhaut-Entzündung. PA-Resorption via Schleimhaut nicht ausgeschlossen — daher Limit beachten.",
+        "en": "Commission E additionally approves leaves for mild oropharyngeal mucosa inflammation. PA absorption via mucosa cannot be excluded — observe limit."
+      },
+      "description": {
+        "de": "Leichte Mund- und Rachenschleimhautentzündung",
+        "en": "Mild inflammation of mouth and throat mucosa"
+      },
+      "target": [
+        "skin",
+        "throat"
+      ]
+    },
+    {
+      "form": "compress",
+      "plant_part": "leaf",
+      "internal_external": "external",
+      "preparation": {
+        "de": "Frische, zerstoßene Blätter direkt als Umschlag auflegen ODER starken Aufguss (2 EL Blätter / 250 ml) zubereiten, Tuch tränken, 15-20 Min auflegen. 1-2x täglich. Nicht auf offene, großflächige Wunden — PA-Resorption möglich.",
+        "en": "Apply fresh bruised leaves directly as poultice OR prepare strong infusion (2 tbsp leaves / 250 ml), soak cloth, apply 15-20 min. 1-2x daily. Not on open, large-area wounds — PA absorption possible."
+      },
+      "dose": {
+        "de": "1-2x täglich, kurzfristig",
+        "en": "1-2x daily, short-term"
+      },
+      "evidence_level": "folk",
+      "source_ids": [
+        "s-pfaf",
+        "s-heilkraeuter"
+      ],
+      "notes": {
+        "de": "Traditionelle Anwendung (auch österreichische Volksmedizin) bei Furunkeln, Abszessen, Ekzemen, Insektenstichen, Krampfadern. Keine moderne Evidenz; bei intakter Haut weniger riskant.",
+        "en": "Traditional use (incl. Austrian folk medicine) for boils, abscesses, eczema, insect bites, varicose veins. No modern evidence; less risky on intact skin."
+      },
+      "description": {
+        "de": "Schlecht heilende Wunden, Hautentzündungen, Ekzeme (Volksmedizin)",
+        "en": "Poorly healing wounds, skin inflammation, eczema (folk medicine)"
+      },
+      "target": [
+        "skin",
+        "wounds"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      3,
+      4,
+      5
+    ],
+    "harvest_part": {
+      "de": "Blüten (Frühjahr) und Blätter",
+      "en": "flowers (spring) and leaves"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "PYRROLIZIDINALKALOIDE (PA) – schwerwiegend hepatotoxisch! Huflattich enthält 1,2-ungesättigte PA (v.a. Senkirkin, Senecionin, deren N-Oxide). Diese werden in der Leber zu reaktiven Pyrrol-Metaboliten umgewandelt → Veno-okklusive Lebererkrankung (VOD), Leberzirrhose, hepatozelluläres Karzinom (kanzerogen, mutagen, in Tierversuchen nachgewiesen). Säuglingstodesfall nach Tee in Schwangerschaft dokumentiert. BfArM-Limit (Stufenplan): max. 1 µg 1,2-ungesättigte PA (inkl. N-Oxide) pro Tag oral, NICHT länger als 4-6 Wochen pro Jahr. EMA/HMPC-Empfehlung sogar strenger: 0,35 µg/Tag, max. 14 Tage (für 50 kg Person). In Deutschland, Österreich und der Schweiz sind heute nur noch PA-arme bzw. PA-freie Züchtungssorten (z.B. Klon 'Wien') als Apothekenmaterial zugelassen. Wildgesammelter Huflattich für Daueranwendung ist NICHT sicher. Es existiert KEINE positive EMA-HMPC Community-Monographie für Tussilago farfara wegen ungeklärter Sicherheitslage (EMA/HMPC/893108/2011 Rev. 1). Blüten und Wurzel/Kraut wurden von Kommission E NEGATIV bewertet — nur die Blätter erhielten unter strengen PA-Auflagen eine positive Bewertung (mittlerweile durch Stufenplanbescheid überschrieben).",
+      "en": "PYRROLIZIDINE ALKALOIDS (PA) – severely hepatotoxic! Coltsfoot contains 1,2-unsaturated PA (especially senkirkine, senecionine and their N-oxides). These are metabolized in the liver to reactive pyrrole metabolites → veno-occlusive liver disease (VOD), cirrhosis, hepatocellular carcinoma (carcinogenic, mutagenic, demonstrated in animal studies). Infant death after maternal tea use during pregnancy documented. BfArM limit (Stufenplan): max. 1 µg 1,2-unsaturated PA (incl. N-oxides) per day orally, NOT longer than 4-6 weeks per year. EMA/HMPC recommendation even stricter: 0.35 µg/day, max. 14 days (for 50 kg person). In Germany, Austria, and Switzerland only PA-reduced or PA-free cultivar varieties (e.g. clone 'Wien') are licensed as pharmacy material. Wild-collected coltsfoot for prolonged use is NOT safe. There is NO positive EMA-HMPC Community Monograph for Tussilago farfara due to unresolved safety profile (EMA/HMPC/893108/2011 Rev. 1). Flowers and root/herb received NEGATIVE Commission E rating — only leaves received positive evaluation under strict PA limits (since superseded by Stufenplan ruling)."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "-",
+        "en": "-"
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "-",
+        "en": "-"
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "-",
+        "en": "-"
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Hepatotoxische Arzneimittel (Paracetamol-Hochdosis, Methotrexat, Isoniazid, Statine, Amiodaron, Valproat)",
+        "mechanism": {
+          "de": "Additive Lebertoxizität — PA-Metaboliten plus weitere hepatotoxische Substanzen erhöhen das Risiko für Leberschädigung, VOD und Leberversagen.",
+          "en": "Additive hepatotoxicity — PA metabolites combined with other hepatotoxic substances increase risk of liver damage, VOD, and liver failure."
+        },
+        "severity": "avoid",
+        "source_id": "s-bfarm"
+      },
+      {
+        "drug_class": "Andere PA-haltige Pflanzen (Beinwell/Symphytum, Borretsch/Borago, Kreuzkraut/Senecio, Wasserdost/Eupatorium)",
+        "mechanism": {
+          "de": "Summation der PA-Tagesexposition — Überschreitung der BfArM-Tageshöchstdosis (1 µg) bei gleichzeitiger Verwendung mehrerer PA-Drogen praktisch unvermeidbar.",
+          "en": "Summation of daily PA exposure — exceeding BfArM daily maximum (1 µg) is practically unavoidable when combining multiple PA-containing herbs."
+        },
+        "severity": "avoid",
+        "source_id": "s-bfarm"
+      },
+      {
+        "drug_class": "CYP3A4-Induktoren (Rifampicin, Phenobarbital, Johanniskraut)",
+        "mechanism": {
+          "de": "CYP3A4-Induktion erhöht die metabolische Aktivierung der PA zu reaktiven Pyrrol-Zwischenstufen → verstärkte Hepatotoxizität.",
+          "en": "CYP3A4 induction increases metabolic activation of PA to reactive pyrrole intermediates → enhanced hepatotoxicity."
+        },
+        "severity": "caution",
+        "source_id": "s-bfarm"
+      },
+      {
+        "drug_class": "Alkohol (chronisch)",
+        "mechanism": {
+          "de": "Chronischer Alkoholkonsum führt zu Vorschädigung der Leber und CYP2E1-Induktion — PA-Toxizität wird klinisch potenziert.",
+          "en": "Chronic alcohol consumption causes pre-existing liver damage and CYP2E1 induction — PA toxicity is clinically potentiated."
+        },
+        "severity": "caution",
+        "source_id": "s-bfarm"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Schwangerschaft (PA placentagängig, Fall einer letalen Säuglings-Leberschädigung nach mütterlichem Huflattich-Tee dokumentiert)",
+        "en": "Pregnancy (PA crosses placenta; fatal infant liver damage after maternal coltsfoot tea documented)"
+      },
+      {
+        "de": "Stillzeit (PA gehen in die Muttermilch über)",
+        "en": "Lactation (PA pass into breast milk)"
+      },
+      {
+        "de": "Säuglinge, Klein- und Schulkinder (unter 12 Jahren, idealerweise unter 18 Jahren — Leber besonders empfindlich)",
+        "en": "Infants, toddlers and school children (under 12 years, ideally under 18 — liver particularly sensitive)"
+      },
+      {
+        "de": "Bestehende Lebererkrankungen (Hepatitis, Zirrhose, Fettleber, Leberinsuffizienz)",
+        "en": "Pre-existing liver disease (hepatitis, cirrhosis, fatty liver, liver failure)"
+      },
+      {
+        "de": "Langzeitanwendung über 4-6 Wochen / Jahr",
+        "en": "Long-term use beyond 4-6 weeks / year"
+      },
+      {
+        "de": "Gleichzeitige Anwendung anderer PA-haltiger Drogen",
+        "en": "Concurrent use of other PA-containing herbs"
+      }
+    ],
+    "max_continuous_use_weeks": 6
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Huflattich (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Huflattich",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Tussilago (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Tussilago",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "s-ema-ar",
+      "type": "monograph",
+      "title": "EMA/HMPC Public Statement on the use of herbal medicinal products containing toxic, unsaturated pyrrolizidine alkaloids (EMA/HMPC/893108/2011 Rev. 1)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/tussilago-farfara",
+      "note": {
+        "de": "KEINE positive Community-Monographie — Sicherheitslage ungeklärt; verbindliche PA-Tagesgrenze 0,35 µg/Tag (max. 14 Tage)",
+        "en": "NO positive Community Monograph — safety unresolved; binding daily PA limit 0.35 µg/day (max. 14 days)"
+      },
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "s-pfaf",
+      "type": "monograph",
+      "title": "Plants For A Future — Tussilago farfara",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Tussilago+farfara",
+      "note": {
+        "de": "Übersicht traditioneller Anwendungen, äußerlich bei Hauterkrankungen",
+        "en": "Overview of traditional uses, externally for skin conditions"
+      },
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "s-heilkraeuter",
+      "type": "monograph",
+      "title": "Heilkräuter-Lexikon: Huflattich",
+      "url": "https://heilkraeuter.de/lexikon/huflat.htm",
+      "note": {
+        "de": "Deutschsprachige Heilpflanzen-Übersicht mit Anwendung, Inhaltsstoffen und Warnhinweisen",
+        "en": "German herbal reference with applications, constituents and warnings"
+      },
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "s-kommission-e",
+      "type": "monograph",
+      "title": "Kommission E Monographie — Farfarae folium (Huflattichblätter), Bundesanzeiger Nr. 138 vom 27.07.1990 / Bundesanzeiger Nr. 50 vom 13.03.1986 (Blüten/Kraut, negativ)",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/",
+      "note": {
+        "de": "Positive Monographie nur für Blätter bei akuter Atemwegsentzündung; Blüten und Kraut/Wurzel negativ bewertet. Heute durch BfArM-Stufenplan überschrieben.",
+        "en": "Positive monograph for leaves only for acute respiratory inflammation; flowers and herb/root rated negatively. Now superseded by BfArM Stufenplan."
+      },
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "s-bfarm",
+      "type": "monograph",
+      "title": "BfArM Stufenplanbescheid zu Pyrrolizidinalkaloid-haltigen Arzneimitteln (1992) und aktualisierte Stellungnahmen",
+      "url": "https://www.bfarm.de/DE/Arzneimittel/Pharmakovigilanz/Risikoinformationen/_node.html",
+      "note": {
+        "de": "Verbindliche Tagesgrenze 1 µg 1,2-ungesättigte PA (inkl. N-Oxide) pro Tag oral, max. 4-6 Wochen pro Jahr",
+        "en": "Binding daily limit 1 µg 1,2-unsaturated PA (incl. N-oxides) per day orally, max. 4-6 weeks per year"
+      },
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "s-wikipedia-de",
+      "type": "wikipedia",
+      "title": "Wikipedia (DE): Huflattich",
+      "url": "https://de.wikipedia.org/wiki/Huflattich",
+      "note": {
+        "de": "Botanische Übersicht, Inhaltsstoffe, Geschichte, PA-Problematik",
+        "en": "Botanical overview, constituents, history, PA issue"
+      },
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "s-pmc-review",
+      "type": "book",
+      "title": "Chen et al. — A review of the ethnobotanical value, phytochemistry, pharmacology, toxicity and quality control of Tussilago farfara L. (coltsfoot), PMC7561605",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7561605/",
+      "note": {
+        "de": "Wissenschaftliches Review zu Pharmakologie, Toxikologie und Qualitätskontrolle",
+        "en": "Scientific review on pharmacology, toxicology and quality control"
+      },
+      "accessed": "2026-05-19"
+    }
+  ],
+  "image": {
+    "filename": "tussilago-farfara.jpg",
+    "alt": {
+      "de": "Foto von Huflattich",
+      "en": "Photo of Tussilago"
+    },
+    "license": "CC BY-SA 2.5",
+    "author": "Andreas Trepte",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Coltsfoot.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Pyrrolizidinalkaloide (Senkirkin, Senecionin, Tussilagin, Integerrimin, Seneciphyllin + N-Oxide)",
+      "category": "alkaloid",
+      "percent_range": "0,005-0,015 %",
+      "note": {
+        "de": "KRITISCHE Inhaltsstoffe! 1,2-ungesättigte PA (Senkirkin Hauptkomponente in Blüten; Senecionin in Blättern) sind hepatotoxisch, kanzerogen und mutagen. Metabolische Aktivierung in der Leber zu reaktiven Pyrrol-Estern verursacht Veno-okklusive Erkrankung (VOD). Tussilagin selbst ist die gesättigte (untoxische) Form. Konzentration in Blüten > Blätter.",
+        "en": "CRITICAL constituents! 1,2-unsaturated PA (senkirkine main in flowers; senecionine in leaves) are hepatotoxic, carcinogenic and mutagenic. Metabolic activation in liver to reactive pyrrole esters causes veno-occlusive disease (VOD). Tussilagin itself is the saturated (non-toxic) form. Concentration in flowers > leaves."
+      }
+    },
+    {
+      "name": "Schleimstoffe (saure Polysaccharide: Arabinose, Galactose, Glucose, Uronsäuren, Xylose)",
+      "category": "mucilage",
+      "percent_range": "6-10 %",
+      "note": {
+        "de": "Reizmildernde (demulcent) Wirkung an Bronchial- und Rachenschleimhaut — Hauptwirkstoffgruppe für die hustenstillende Wirkung. Bilden Schutzfilm, beruhigen Hustenreiz.",
+        "en": "Demulcent action on bronchial and pharyngeal mucosa — main active group for antitussive effect. Form protective film, soothe cough reflex."
+      }
+    },
+    {
+      "name": "Inulin und Polysaccharide",
+      "category": "polysaccharide",
+      "percent_range": "ca. 8 % gesamt (davon ~30 % Inulin)",
+      "note": {
+        "de": "Inulin als Reservekohlenhydrat, immunmodulierende und prebiotische Eigenschaften. Trägt zur reizmildernden Gesamtwirkung bei.",
+        "en": "Inulin as storage carbohydrate, immunomodulating and prebiotic properties. Contributes to overall soothing effect."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine)",
+      "category": "tannin",
+      "percent_range": "ca. 5 %",
+      "note": {
+        "de": "Adstringierende Wirkung, leichte Entzündungshemmung an Schleimhäuten — unterstützt die Anwendung bei Rachenentzündung.",
+        "en": "Astringent action, mild anti-inflammatory effect on mucosa — supports use for pharyngeal inflammation."
+      }
+    },
+    {
+      "name": "Flavonoide (Rutin, Quercetin, Hyperosid, Kaempferol)",
+      "category": "flavonoid",
+      "percent_range": "Spuren bis 0,5 %",
+      "note": {
+        "de": "Antioxidative und entzündungshemmende Wirkung. Rutin trägt zur Kapillarprotektion bei.",
+        "en": "Antioxidant and anti-inflammatory action. Rutin contributes to capillary protection."
+      }
+    },
+    {
+      "name": "Triterpene und Sterole (Sitosterol, Campesterol, Faradiol)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Sterole und Triterpene mit leicht entzündungshemmender, hautberuhigender Wirkung — Bedeutung v.a. für äußere Anwendung.",
+        "en": "Sterols and triterpenes with mild anti-inflammatory, skin-soothing action — mainly relevant for external use."
+      }
+    },
+    {
+      "name": "Ätherisches Öl",
+      "category": "essential_oil",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Nur in Spuren vorhanden, geringe pharmakologische Relevanz. Beiträge zum Geschmack/Geruch.",
+        "en": "Present only in traces, minor pharmacological relevance. Contributes to taste/aroma."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "when": {
+        "de": "März bis April (Beginn ab Februar in milden Lagen, je nach Höhenlage)",
+        "en": "March to April (can start in February in mild locations, depending on altitude)"
+      },
+      "how": {
+        "de": "Geöffnete Blütenköpfchen bei trockenem Wetter pflücken, im Schatten luftig trocknen. ACHTUNG: Blüten enthalten höhere PA-Mengen als Blätter — für innere Anwendung NICHT empfohlen. Verwechslungsgefahr mit Löwenzahn (Erscheinungsbild Blattlos: schuppiger Blütenstängel charakteristisch).",
+        "en": "Pick opened flower heads in dry weather, dry airily in shade. CAUTION: Flowers contain higher PA levels than leaves — NOT recommended for internal use. Risk of confusion with dandelion (distinguishing feature: leafless scaly flowering stem)."
+      },
+      "best_months": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "plant_part": "leaf",
+      "when": {
+        "de": "Mai bis Juni — junge, ausgewachsene aber noch nicht überständige Blätter (nach der Blüte: 'Filius ante patrem')",
+        "en": "May to June — young, fully grown but not over-aged leaves (after flowering: 'Filius ante patrem')"
+      },
+      "how": {
+        "de": "Blätter bei trockenem Wetter abschneiden, locker auf Sieb oder Trockengestell, bei max. 40 °C trocknen. PA-Gehalt geringer als in Blüten, aber dennoch vorhanden — für medizinische Verwendung idealerweise nur Apotheken-Material aus PA-armen Züchtungen. Sammelort fern von Straßen, Industrie, gedüngten Flächen.",
+        "en": "Cut leaves in dry weather, spread loosely on sieve or drying rack, dry at max 40 °C. PA content lower than in flowers but still present — for medicinal use ideally only pharmacy material from PA-reduced cultivars. Collect away from roads, industry, fertilized fields."
+      },
+      "best_months": [
+        5,
+        6,
+        7
+      ]
+    }
+  ]
+}

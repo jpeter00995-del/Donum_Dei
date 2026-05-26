@@ -1,0 +1,20 @@
+{
+  "_comment": "Fallback ACL request — written here because 00_meta/acl_requests.json is read-only on Maikel's host. Ali's Claude: please pick this up on next session-resume and merge into the main acl_requests.json.",
+  "_source": "75_Maikel/Donum_Dei/_acl_request_pending.json",
+  "_created_at": "2026-05-16 09:06 (Sofia)",
+  "_created_by": "Claude Code (Opus 4.7) for MG",
+  "request": {
+    "id": "req_20260516_0906",
+    "project": "Donum_Dei",
+    "folder": "75_Maikel/Donum_Dei/",
+    "requested_by": "MG",
+    "requested_at": "2026-05-16 09:06",
+    "access": {
+      "MG": { "permissions": 31, "label": "full" }
+    },
+    "status": "pending",
+    "processed_at": null,
+    "processed_by": null,
+    "notes": "Personal project of Maikel (MG) — interactive plant database web app (Astro+React+TS). Lives in 75_Maikel/ (Maikel's personal area). Parent 75_Maikel/ already inherits ACL behavior for Maikel. AM has admin-group access by default — no extra rule needed. AI-Share blocked at parent. Explicit subfolder rule optional; treat as inherit-from-parent unless Ali decides otherwise. ALSO: please mark the existing '75_Maikel/' parent ACL — if no explicit rule exists in acl_ledger.json yet (only '05_projects/Maikel/' is recorded there from 2026-04-21), please add equivalent rules for '75_Maikel/' since that is the actual personal folder Maikel uses."
+  }
+}

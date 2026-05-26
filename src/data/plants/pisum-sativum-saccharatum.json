@@ -1,0 +1,476 @@
+{
+  "slug": "pisum-sativum-saccharatum",
+  "names": {
+    "de": "Zuckererbse",
+    "en": "Snap pea",
+    "latin": "Pisum sativum convar. saccharatum"
+  },
+  "family": {
+    "de": "Hülsenfrüchtler",
+    "en": "Bean family",
+    "latin": "Fabaceae"
+  },
+  "description": {
+    "de": "Die Zuckererbse ist eine Erbsensorte aus der Familie der Fabaceae. Andere Namen für die Zuckererbse sind Kefe, Kaiserschote, Kiefelerbse, Knackerbse, Zuckerschote oder Mange-tout.",
+    "en": "The snap pea, also known as the sugar snap pea, is an edible-pod pea with rounded pods and thick pod walls, in contrast to snow pea pods, which are flat with thin walls. The name mangetout can apply to snap peas and snow peas."
+  },
+  "teaser": {
+    "de": "Die Zuckererbse ist eine Erbsensorte aus der Familie der Fabaceae.",
+    "en": "The snap pea, also known as the sugar snap pea, is an edible-pod pea with rounded pods and thick pod walls, in contra..."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Zuckererbsen (Kaiserschoten) werden mit Hülse roh oder kurz blanchiert gegessen — eines der wenigen Hülsenfrüchte, die ohne Kochen bedenkenlos verzehrt werden können. Pro 100 g liefern sie ca. 42 kcal, 2,8 g Protein, 2,6 g Ballaststoffe, 60 mg Vitamin C (100 % des Tagesbedarfs) und 25 µg Vitamin K (21 % DV). Für Salate, Stir-Fry, als Rohkost-Snack oder Beilage. Junge, knackige Hülsen am aromatischsten — je reifer, desto holziger und süßer der Sameninhalt.",
+        "en": "Sugar snap peas are eaten with pod, raw or briefly blanched — one of the few legumes that can be consumed without cooking. Per 100 g they supply approx. 42 kcal, 2.8 g protein, 2.6 g dietary fibre, 60 mg vitamin C (100 % of daily value) and 25 µg vitamin K (21 % DV). Used in salads, stir-fries, as raw snack or side vegetable. Young, crisp pods have the best flavour — the riper, the woodier and sweeter the seed interior."
+      },
+      "source_ids": [
+        "src_wp_en_snappea",
+        "src_wp_de_zuckererbse",
+        "src_nutrition_snappea"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "circulation",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Die Samen (Erbsen) enthalten als ausgereifte Trockenerbse ca. 20–25 g Protein/100 g sowie ca. 45–55 % Stärke und 10–15 % Ballaststoffe. Frische grüne Erbsen liefern ca. 5 g Protein, 14 g Kohlenhydrate und 42 µg Folat pro 100 g. Folat ist essenziell für Zellteilung und Neuralrohrschluss. Erbsenstärke enthält einen hohen Anteil resistenter Stärke (präbiotisch). Als Trockenerbse gelten Erbsen auch als klassisches Grundnahrungsmittel bei Erbsensuppe und Eintöpfen.",
+        "en": "The seeds (peas), as mature dry peas, contain approx. 20–25 g protein/100 g plus approx. 45–55 % starch and 10–15 % dietary fibre. Fresh green peas supply approx. 5 g protein, 14 g carbohydrates and 42 µg folate per 100 g. Folate is essential for cell division and neural tube closure. Pea starch contains a high proportion of resistant starch (prebiotic). As dry peas they also represent a classic staple food in pea soup and stews."
+      },
+      "source_ids": [
+        "src_pmc_pisum_comp",
+        "src_wp_en_snappea",
+        "src_nutrition_snappea"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Erbsensprossen und -keimblätter (Erbsenschossen) sind reich an Vitamin C, Chlorophyll und Antioxidantien — deutlich nährstoffreicher als die ausgereifte Schote. Werden in der asiatischen Küche (besonders chinesisch) und modernen Salatküche roh oder kurz angebraten verwendet. Erbsenmikrogreens enthalten besonders hohe Vitamin-C-Werte. Volksmedizinisch als 'blutreinigend' und aufbauend beschrieben.",
+        "en": "Pea shoots and tendrils are rich in vitamin C, chlorophyll and antioxidants — considerably more nutrient-dense than the mature pod. Used in Asian cuisine (especially Chinese) and modern salad dishes raw or briefly sautéed. Pea microgreens contain particularly high vitamin C values. Described in folk medicine as 'blood-cleansing' and restorative."
+      },
+      "source_ids": [
+        "src_wp_en_snappea",
+        "src_pfaf_pisum"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Frische Erbsen sind eine ausgezeichnete Quelle für Thiamin (Vitamin B1, ca. 0,27 mg/100 g) und weitere B-Vitamine, die für den Energiestoffwechsel und das Nervensystem essentiell sind. Der Eisengehalt beträgt ca. 1,5–2 mg/100 g frisch (nicht-Häm-Eisen; Bioverfügbarkeit durch gleichzeitigen Vitamin-C-Verzehr verbessert). Erbsen enthalten zudem Mangan und Kalium (ca. 200 mg/100 g). Phytosterole (vor allem β-Sitosterol) tragen zur Cholesterin-Regulierung bei.",
+        "en": "Fresh peas are an excellent source of thiamine (vitamin B1, approx. 0.27 mg/100 g) and further B vitamins essential for energy metabolism and the nervous system. Iron content is approx. 1.5–2 mg/100 g fresh (non-haem iron; bioavailability improved by concurrent vitamin C intake). Peas also contain manganese and potassium (approx. 200 mg/100 g). Phytosterols (mainly β-sitosterol) contribute to cholesterol regulation."
+      },
+      "source_ids": [
+        "src_pmc_pisum_comp",
+        "src_nutrition_snappea"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der Volksmedizin gelten Erbsen traditionell als leicht harntreibend und 'blutreinigend' (volksmedizinisches Konzept) sowie als unterstützend bei Diabetes und Herzerkrankungen. Moderne phytochemische Untersuchungen zeigen antihyperglykämisches Potenzial (Kaempferol-Glycoside, Naringenin) und antioxidative Aktivität in Laborversuchen (DPPH-Assay). Klinische Studien fehlen für die meisten volksmedizinischen Indikationen; wissenschaftlich belegt ist lediglich die ernährungsphysiologische Bedeutung.",
+        "en": "In folk medicine, peas are traditionally regarded as mildly diuretic and 'blood-cleansing' (folk medicine concept), and as supportive for diabetes and heart disease. Modern phytochemical investigations show antihyperglycaemic potential (kaempferol glycosides, naringenin) and antioxidant activity in laboratory tests (DPPH assay). Clinical studies are lacking for most folk medicine indications; only the nutritional significance is scientifically well supported."
+      },
+      "source_ids": [
+        "src_pmc_pisum_pharm",
+        "src_pfaf_pisum"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Getrocknetes, gemahlenes Erbsenmehl wird in der Volksmedizin als äußerliche Paste (Umschlag) bei Hautunreinheiten und leichten Entzündungen verwendet. Kaolin-ähnliche Adsorptionswirkung der feinen Stärke. Keine klinische Evidenz; traditionelle überlieferte Nutzung.",
+        "en": "Dried, ground pea flour is used in folk medicine as an external paste (poultice) for skin blemishes and mild inflammation. Kaolin-like adsorption effect of the fine starch. No clinical evidence; traditionally handed-down use."
+      },
+      "source_ids": [
+        "src_pfaf_pisum"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Erbsenprotein (Isolat aus Pisum sativum) ist ein vollständiges Protein mit allen essenziellen Aminosäuren und hoher Lysin-Konzentration (komplementär zu Getreide). In der modernen pflanzlichen Ernährung und Sportlerküche gewinnt Erbsenprotein-Isolat als vegane Alternative zu Sojaprotein zunehmend Bedeutung. Coumestrol (ein Phytoöstrogen) ist in Erbsen in Spuren nachgewiesen worden — Relevanz für die normale Ernährung ist gering.",
+        "en": "Pea protein (isolate from Pisum sativum) is a complete protein with all essential amino acids and high lysine concentration (complementary to cereals). In modern plant-based diets and sports nutrition, pea protein isolate is gaining importance as a vegan alternative to soy protein. Coumestrol (a phyto-oestrogen) has been detected in peas in trace amounts — relevance for normal dietary use is low."
+      },
+      "source_ids": [
+        "src_pmc_pisum_comp",
+        "src_pmc_pisum_pharm",
+        "src_nutrition_snappea"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "ganze Hülsen (jung)",
+      "en": "whole pods (young)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Zuckererbsen (Hülsen und Samen) sind im Gegensatz zu anderen Bohnenarten roh unbedenklich essbar — sie enthalten keine nennenswerten Konzentrationen an Phytohämagglutinin/Phasin. Jung geerntete Hülsen sollten vor dem Essen den Strang (Gefäßbündel) am Hülsenrücken entfernt haben, der bei älteren Hülsen holzig wird. Sehr reife Zuckererbsen-Samen (ausgehärtete Körner) können durch Saponine und Protease-Inhibitoren leicht blähend wirken — dann Kochen empfohlen. Personen mit Gicht oder Hyperurikämie sollten größere Mengen Erbsen (Puringehalt) mäßigen — Erbsen enthalten moderate Purinmengen.",
+      "en": "Sugar snap peas (pods and seeds) are, unlike other bean types, safe to eat raw — they do not contain significant concentrations of phytohaemagglutinin/phasin. Young harvested pods should have the string (vascular bundle) along the pod back removed, which becomes woody in older pods. Very ripe sugar snap pea seeds (hardened kernels) can cause mild flatulence due to saponins and protease inhibitors — cooking is then recommended. Persons with gout or hyperuricaemia should moderate larger quantities of peas (purine content) — peas contain moderate amounts of purines."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Zuckererbsen sind in Schwangerschaft und Stillzeit unbedenklich und empfehlenswert — ausgezeichnete Folatquelle (wichtig für Neuralrohrschluss). Coumestrol in Spuren klinisch nicht relevant bei normalem Verzehr.",
+        "en": "Sugar snap peas are safe and recommended in pregnancy and lactation — excellent folate source (important for neural tube closure). Coumestrol in trace amounts is not clinically relevant with normal consumption."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Vollständig geeignet als Lebensmittel in der Stillzeit. Keine Einschränkungen bekannt.",
+        "en": "Fully suitable as food during lactation. No known restrictions."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Frische Erbsen und Zuckererbsenhülsen als Beikost ab ca. 8–10 Monaten (als Mus oder püriert) geeignet. Ganze Zuckererbsenhülsen/-körner für Kleinkinder unter 3 Jahren Erstickungsgefahr — immer zerkleinern oder pürieren.",
+        "en": "Fresh peas and snap pea pods as complementary food are suitable from approx. 8–10 months (as mash or purée). Whole snap pea pods/seeds are a choking hazard for children under 3 years — always chop or purée."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulanzien (Vitamin-K-Antagonisten, z. B. Phenprocoumon, Warfarin)",
+        "mechanism": {
+          "de": "Zuckererbsen enthalten Vitamin K (ca. 25 µg/100 g). Bei hohem Verzehr kann dies bei Patienten mit Vitamin-K-Antagonisten-Therapie die Gerinnungskontrolle beeinflussen. Bei normaler Verzehrmenge klinisch kaum bedeutsam.",
+          "en": "Sugar snap peas contain vitamin K (approx. 25 µg/100 g). With high consumption this may affect coagulation monitoring in patients on vitamin K antagonist therapy. Clinically barely significant at normal dietary intake."
+        },
+        "severity": "monitor",
+        "source_id": "src_nutrition_snappea"
+      },
+      {
+        "drug_class": "Gichtmittel (Allopurinol, Febuxostat)",
+        "mechanism": {
+          "de": "Erbsen enthalten moderate Purinmengen. Bei Gicht oder Hyperurikämie können größere Erbsenmengen den Harnsäurespiegel erhöhen. In der Therapie mit Urikostatika sollte Erbsenverzehr in moderaten Mengen gehalten werden.",
+          "en": "Peas contain moderate amounts of purines. With gout or hyperuricaemia, larger pea quantities may raise uric acid levels. During therapy with uricostatics, pea consumption should be kept in moderate amounts."
+        },
+        "severity": "monitor",
+        "source_id": "src_wp_en_snappea"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Bekannte Hülsenfrucht-Allergie (Erbsenallergie, Kreuzallergie mit anderen Leguminosen) — Verzehr meiden.",
+        "en": "Known legume allergy (pea allergy, cross-allergy with other legumes) — avoid consumption."
+      },
+      {
+        "de": "Schwere Gicht oder dekompensierte Hyperurikämie — Erbsen-Verzehr ärztlich abklären.",
+        "en": "Severe gout or decompensated hyperuricaemia — consult a physician regarding pea consumption."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Zuckererbse (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Zuckererbse",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Snap pea (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Snap_pea",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wp_de_zuckererbse",
+      "type": "wikipedia",
+      "title": "Zuckererbse (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Zuckererbse",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wp_en_snappea",
+      "type": "wikipedia",
+      "title": "Snap pea (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Snap_pea",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wikidata_pisum",
+      "type": "wikidata",
+      "title": "Pisum sativum — Wikidata (Q25237)",
+      "url": "https://www.wikidata.org/wiki/Q25237",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_pisum_comp",
+      "type": "monograph",
+      "title": "Comprehensive compositional assessment of bioactive compounds in diverse pea accessions — PMC (Food Research International, 2023, PubMed ID 36869474)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36869474/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_pisum_pharm",
+      "type": "monograph",
+      "title": "Chemical composition and pharmacological activities of Pisum sativum — BMC Complementary Medicine and Therapies (PMC5368943)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5368943/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_pisum",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Pisum sativum database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Pisum+sativum",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_nutrition_snappea",
+      "type": "monograph",
+      "title": "Snap Peas — Nutrition and You (USDA National Nutrient Database, accessed via nutrition-and-you.com)",
+      "url": "https://www.nutrition-and-you.com/snap-peas.html",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_frontiers_pea",
+      "type": "monograph",
+      "title": "Peas, natural resources for a sustainable future: a multifaceted review — Frontiers in Nutrition (2025, PMC12832403)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12832403/",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "pisum-sativum-saccharatum.jpg",
+    "alt": {
+      "de": "Foto von Zuckererbse",
+      "en": "Photo of Snap pea"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Rasbak",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Peultjes_peultjes_Pisum_sativum_mange-tout.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 3,
+        "end_month": 5
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 8
+    },
+    "days_to_harvest": 70,
+    "spacing_cm": 5,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "companion_planting": {
+    "good_partners": [
+      "daucus-carota-sativus"
+    ],
+    "bad_partners": [
+      "allium-cepa",
+      "allium-sativum"
+    ],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "nitrogen_fixer",
+    "vertical_mid"
+  ],
+  "constituents": [
+    {
+      "name": "Protein (Legumin, Vicilin, Convicilin)",
+      "category": "other",
+      "percent_range": "20-25 % (Trockensamen) / 5-6 % (frisch)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Hauptspeicherproteine der Erbse: Legumin (11S-Globulin), Vicilin (7S-Globulin) und Convicilin. Vollständiges Protein mit allen essenziellen Aminosäuren — besonders lysinreich (komplementär zu Getreide-Aminosäureprofil). Biologische Wertigkeit steigt durch Kombination mit Weizen oder Reis. Grundlage moderner Erbsenprotein-Isolate in der pflanzlichen Ernährung.",
+        "en": "Main storage proteins of the pea: legumin (11S globulin), vicilin (7S globulin) and convicilin. Complete protein with all essential amino acids — particularly lysine-rich (complementary to cereal amino acid profile). Biological value increases in combination with wheat or rice. Basis of modern pea protein isolates in plant-based nutrition."
+      }
+    },
+    {
+      "name": "Ascorbinsäure (Vitamin C)",
+      "category": "vitamin",
+      "percent_range": "60 mg/100 g (frische Zuckererbsenschote)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Zuckererbsenhülsen enthalten bemerkenswert hohe Vitamin-C-Gehalte (ca. 60 mg/100 g = ca. 100 % Tagesbedarf eines Erwachsenen). Deutlich mehr als grüne Erbsen ohne Hülse. Vitamin C ist hitzeempfindlich: Blanchieren reduziert den Gehalt um 20–40 %, längeres Kochen um 50–80 %. Rohverzehr erhält den höchsten Gehalt.",
+        "en": "Sugar snap pea pods contain remarkably high vitamin C levels (approx. 60 mg/100 g = approx. 100 % of adult daily requirement). Considerably more than shelled green peas. Vitamin C is heat-sensitive: blanching reduces content by 20–40 %, prolonged boiling by 50–80 %. Raw consumption retains the highest content."
+      }
+    },
+    {
+      "name": "Kaempferol-3-Glucosid & Kaempferol-3-Neohesperidosid",
+      "category": "flavonoid",
+      "percent_range": "variabel (nachgewiesen in Samen und Hülsen)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Hauptflavonoide des Pisum-sativum-Extrakts (LCMS-nachgewiesen). Antioxidativ (DPPH-Assay IC50 ca. 158 µg/mL), antientzündlich und potenziell antihyperglykämisch (30 % Blutzuckerreduktion im OGTT bei 200 mg/kg, Tierversuch). Gesamtflavonoidgehalt: ca. 30,88 mg Quercetinäquivalent/g Trockenextrakt.",
+        "en": "Main flavonoids of Pisum sativum extract (LCMS-confirmed). Antioxidant (DPPH assay IC50 approx. 158 µg/mL), anti-inflammatory and potentially antihyperglycaemic (30 % blood glucose reduction in OGTT at 200 mg/kg, animal study). Total flavonoid content: approx. 30.88 mg quercetin equivalent/g dry extract."
+      }
+    },
+    {
+      "name": "Stärke & resistente Stärke",
+      "category": "polysaccharide",
+      "percent_range": "45-55 % (Trockensamen)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Erbsenstärke besteht aus Amylose (ca. 35 %) und Amylopektin (ca. 65 %); der vergleichsweise hohe Amyloseanteil fördert die Bildung resistenter Stärke beim Abkühlen (präbiotisch, bifidogen). Frische Erbsen enthalten weniger Stärke als Trockenerbsen — der Zuckergehalt (Saccharose, Glucose) ist frisch höher und wandelt sich bei Lagerung in Stärke um.",
+        "en": "Pea starch comprises amylose (approx. 35 %) and amylopectin (approx. 65 %); the comparatively high amylose proportion promotes resistant starch formation on cooling (prebiotic, bifidogenic). Fresh peas contain less starch than dry peas — sugar content (sucrose, glucose) is higher fresh and converts to starch during storage."
+      }
+    },
+    {
+      "name": "Folsäure (Vitamin B9)",
+      "category": "vitamin",
+      "percent_range": "42 µg/100 g (frisch) / 60-70 µg/100 g (Trockensamen)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Bedeutende pflanzliche Folatquelle. Essentiell für DNA-Synthese, Zellteilung und embryonale Neuralrohrbildung. Besonders relevant in der Schwangerschaft. Folat ist hitze- und lichtempfindlich — Rohverzehr oder kurzes Blanchieren erhält den größten Anteil.",
+        "en": "Important plant-based folate source. Essential for DNA synthesis, cell division and embryonic neural tube formation. Particularly relevant in pregnancy. Folate is heat- and light-sensitive — raw consumption or brief blanching retains the greatest proportion."
+      }
+    },
+    {
+      "name": "β-Sitosterol & Phytosterole",
+      "category": "other",
+      "percent_range": "Spuren (in Samen)",
+      "plant_part": "seed",
+      "note": {
+        "de": "β-Sitosterol ist das Haupt-Phytosterol der Erbse (LCMS-Identifikation). Phytosterole hemmen kompetitiv die Cholesterinaufnahme im Darm und tragen so zu einem günstigen Blutfettprofil bei. Relevanz steigt bei regelmäßigem Erbsenverzehr als Bestandteil einer pflanzenreichen Ernährung.",
+        "en": "β-Sitosterol is the main phytosterol of peas (LCMS identification). Phytosterols competitively inhibit cholesterol absorption in the intestine, contributing to a favourable blood lipid profile. Relevance increases with regular pea consumption as part of a plant-rich diet."
+      }
+    },
+    {
+      "name": "Saponine & Protease-Inhibitoren",
+      "category": "saponin",
+      "percent_range": "Spuren (sortenabhängig)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Erbsen enthalten Saponine und Protease-Inhibitoren (antinutritive Faktoren). Saponine sind in Peas nachgewiesen und können roh (in großen Mengen) leicht blähend wirken; bei normaler Verzehrmenge von Zuckererbsen-Frischware klinisch bedeutungslos. Kochen und Verarbeitung reduzieren Protease-Inhibitor-Aktivität.",
+        "en": "Peas contain saponins and protease inhibitors (anti-nutritive factors). Saponins are demonstrated in peas and can cause mild flatulence when consumed raw in large quantities; clinically insignificant with normal fresh snap pea consumption. Cooking and processing reduce protease inhibitor activity."
+      }
+    },
+    {
+      "name": "Eisen & Mineralstoffe (Fe, K, Mn, Mg)",
+      "category": "mineral",
+      "percent_range": "Fe: 1,5-2 mg/100 g (frisch); K: 200 mg/100 g",
+      "plant_part": "seed",
+      "note": {
+        "de": "Frische Erbsen/Zuckererbsen liefern Eisen (ca. 26 % DV laut USDA-Snap-pea-Daten), Kalium (ca. 200 mg/100 g), Mangan (wichtig für Enzymaktivität) und Magnesium. Eisenbioverfügbarkeit wird durch den gleichzeitig hohen Vitamin-C-Gehalt verbessert (Reduktion von Fe³⁺ zu Fe²⁺).",
+        "en": "Fresh peas/snap peas supply iron (approx. 26 % DV per USDA snap pea data), potassium (approx. 200 mg/100 g), manganese (important for enzyme activity) and magnesium. Iron bioavailability is improved by the simultaneously high vitamin C content (reduction of Fe³⁺ to Fe²⁺)."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Zuckererbsen-Hülsen morgens ernten (Hülsen kühler und knackiger, höchster Zuckergehalt). Ernte wenn Hülsen prall und rund gefüllt sind, aber noch glatt und leuchtend grün — nicht warten, bis Hülsen gelb werden oder die Körner innen sich runden und abheben (dann wird die Schale holzig und zäh). Regelmäßige Ernte alle 1–2 Tage verlängert die Tragdauer der Pflanze erheblich.",
+        "en": "Harvest sugar snap pea pods in the morning (pods are cooler and crisper, highest sugar content). Harvest when pods are plump and fully rounded but still smooth and bright green — do not wait until pods yellow or the seeds visibly bulge inside (the pod wall then becomes woody and tough). Regular harvesting every 1–2 days significantly extends the plant's bearing period."
+      },
+      "drying": {
+        "de": "Frische Zuckererbsen NICHT trocknen — Hülsen verlieren Vitamin C, Textur und Aroma schnell. Sofort nach Ernte verbrauchen oder max. 2–3 Tage ungewaschen im Kühlschrank (Gemüsefach). Blanchiert (2–3 Minuten) einfrieren für Langzeitlagerung; bedingt Qualitätsverlust bei Textur, nicht bei Nährstoffen.",
+        "en": "Fresh snap peas should NOT be dried — pods rapidly lose vitamin C, texture and aroma. Consume immediately after harvest or refrigerate max. 2–3 days unwashed (crisper drawer). Blanch (2–3 minutes) and freeze for long-term storage; involves some texture quality loss but not nutritional loss."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Frische Zuckererbsen: ungewaschen, in perforierter Folie, im Gemüsefach des Kühlschranks. Max. 2–3 Tage. Zuckergehalt wandelt sich rasch in Stärke um — zeitnah verbrauchen. Eingefroren (blanchiert) bis 12 Monate haltbar.",
+        "en": "Fresh snap peas: unwashed, in perforated film, in the refrigerator crisper. Max. 2–3 days. Sugar content rapidly converts to starch — consume promptly. Frozen (blanched) shelf life up to 12 months."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Ernte zur Samengewinnung (für nächste Aussaat): Hülsen vollständig an der Pflanze ausreifen und trocknen lassen (Hülsen werden gelb/bräunlich, Körner hart und trocken). An trockenem, sonnenreichem Tag ernten. Vorzugsweise gegen Mittag, wenn der morgendliche Tau abgetrocknet ist.",
+        "en": "Harvest for seed saving (for next sowing): allow pods to fully ripen and dry on the plant (pods turn yellow/brownish, seeds become hard and dry). Harvest on a dry, sunny day. Preferably around midday, when morning dew has dried."
+      },
+      "drying": {
+        "de": "Saatgut-Nachtrocknung: Hülsen nach der Ernte 2–3 Wochen an trockenem, luftigen Ort nachrocknen lassen. Samen aus Hülsen lösen, auf Papier ausbreiten und bis zur vollständigen Trockne lagern (Feuchtigkeitsgehalt unter 12 %). In luftdichten Gläsern im Kühlschrank oder kühlem Keller lagern — Keimfähigkeit bis 3–4 Jahre.",
+        "en": "Seed post-drying: allow pods to post-dry in a dry, airy spot for 2–3 weeks after harvest. Shell seeds from pods, spread on paper and store until completely dry (moisture below 12 %). Store in airtight jars in the refrigerator or cool cellar — germination viability up to 3–4 years."
+      },
+      "storage_months": 36,
+      "storage_condition": {
+        "de": "Saatgut: luftdicht, dunkel, kühl und trocken. Kühlschrank (4–8 °C) ideal. Keimfähigkeit 3–4 Jahre bei guter Lagerung. Nicht neben Früchten lagern (Ethylen).",
+        "en": "Seeds: airtight, dark, cool and dry. Refrigerator (4–8 °C) ideal. Germination viability 3–4 years with good storage. Do not store near fruit (ethylene)."
+      }
+    }
+  ]
+}

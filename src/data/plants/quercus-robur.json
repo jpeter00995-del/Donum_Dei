@@ -1,0 +1,457 @@
+{
+  "slug": "quercus-robur",
+  "names": {
+    "de": "Stieleiche",
+    "en": "Quercus robur",
+    "latin": "Quercus robur"
+  },
+  "family": {
+    "de": "Buchengewächse",
+    "en": "Beech family",
+    "latin": "Fagaceae"
+  },
+  "description": {
+    "de": "Die Stieleiche, auch Sommereiche oder Deutsche Eiche genannt, ist eine Pflanzenart aus der Gattung der Eichen (Quercus) in der Familie der Buchengewächse (Fagaceae). Um ihre Zugehörigkeit zur Gattung der Eichen zu betonen, ist in der Botanik die Bindestrichschreibweise Stiel-Eiche bzw. Sommer-Eiche üblich.",
+    "en": "Quercus robur, pedunculate oak, or English oak, is a species of flowering plant in the beech and oak family, Fagaceae. It is a large tree, native to Europe and western Asia, and is widely cultivated in other temperate regions. It grows on soils of near neutral acidity in the lowlands and is notable for its value to natural ecosystems, supporting a diversity of herbivorous insects, acorn eating mammals and birds, and fungi."
+  },
+  "teaser": {
+    "de": "Die Stieleiche, auch Sommereiche oder Deutsche Eiche genannt, ist eine Pflanzenart aus der Gattung der Eichen (Quercu...",
+    "en": "Quercus robur, pedunculate oak, or English oak, is a species of flowering plant in the beech and oak family, Fagaceae."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Ein Dekokt aus 1–2 g getrockneter Eichenrinde (kurz aufgekocht, 15 min gezogen) wirkt bei akutem, unkompliziertem Durchfall adstringierend und sekretionshemmend. Die Gerbstoffe fällen Schleimhautproteine aus und bilden eine Schutzschicht. Anwendungsdauer maximal 3–4 Tage; bei länger anhaltenden Beschwerden ärztliche Konsultation.",
+        "en": "A decoction of 1–2 g dried oak bark (briefly boiled, steeped 15 min) has an astringent and secretion-reducing effect in acute, uncomplicated diarrhoea. Tannins precipitate mucosal proteins and form a protective layer. Maximum use 3–4 days; seek medical advice if symptoms persist."
+      },
+      "plant_part": "bark",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "1–2 g Rinde mit 250 ml kaltem Wasser ansetzen, kurz aufkochen, 15 Minuten ziehen lassen, abseihen. Tagesdosis: 3 g Droge auf 3 Tassen.",
+          "en": "Place 1–2 g bark in 250 ml cold water, briefly bring to a boil, steep 15 minutes, strain. Daily dose: 3 g drug divided over 3 cups."
+        }
+      },
+      "source_ids": [
+        "src_komm_e_quercus",
+        "src_ema_quercus",
+        "src_awl_quercus"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat",
+        "skin"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Ein 2%iges Dekokt (2 g Rinde auf 100 ml Wasser) eignet sich zum Gurgeln bei leichten Entzündungen der Mund- und Rachenschleimhaut sowie als Mundspülung bei Zahnfleischproblemen. Die adstringierende Wirkung der Gerbstoffe reduziert Schwellung und Rötung.",
+        "en": "A 2% decoction (2 g bark per 100 ml water) is suitable for gargling in mild inflammation of the oral and pharyngeal mucosa, and as a mouthwash for gum problems. The astringent action of tannins reduces swelling and redness."
+      },
+      "plant_part": "bark",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 10,
+          "max": 20
+        },
+        "water_ml": 1000,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "10–20 g Rinde auf 1 Liter Wasser aufkochen, 15 min köcheln, abseihen. Mehrmals täglich gurgeln oder als Mundspülung verwenden.",
+          "en": "Boil 10–20 g bark in 1 litre water, simmer 15 minutes, strain. Gargle or use as mouthwash several times daily."
+        }
+      },
+      "source_ids": [
+        "src_komm_e_quercus",
+        "src_ema_quercus"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Sitzbäder und Teilbäder mit Eichenrindendekokt (5 g Rinde pro Liter Wasser) lindern Brennen und Juckreiz bei Hämorrhoiden, Analekzem und Intertrigo. Die gerbstoffhaltige Lösung wirkt entzündungshemmend und sekretionshemmend. Balneologische Zubereitungen sollen mindestens 10 % Gerbstoffgehalt aufweisen.",
+        "en": "Sitz baths and partial baths with oak bark decoction (5 g bark per litre water) relieve burning and itching in haemorrhoids, anal eczema, and intertrigo. The tannin-containing solution has anti-inflammatory and secretion-reducing effects. Balneological preparations should contain at least 10% tannins."
+      },
+      "plant_part": "bark",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 100
+        },
+        "instructions": {
+          "de": "5 g Droge auf 1 Liter Wasser, aufkochen, 10–15 min köcheln, abseihen und dem Badewasser zufügen. Badedauer 15–20 Minuten.",
+          "en": "5 g drug per 1 litre water, boil, simmer 10–15 min, strain and add to bathwater. Bath duration 15–20 minutes."
+        }
+      },
+      "source_ids": [
+        "src_komm_e_quercus",
+        "src_ema_quercus",
+        "src_altmeyers_quercus"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Feuchte Umschläge aus einem starken Eichenrindendekokt (10 g auf 1 Liter) wirken bei entzündlichen, nässenden Hauterkrankungen wie Ekzemen, Wunden und übermäßiger Fußschweißbildung. Der Aufschlag wird täglich frisch bereitet und 15–20 Minuten aufgelegt.",
+        "en": "Moist compresses from a strong oak bark decoction (10 g per litre) are effective in inflammatory, weeping skin conditions such as eczema, wounds, and excessive foot perspiration. The compress is prepared fresh daily and applied for 15–20 minutes."
+      },
+      "plant_part": "bark",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 10,
+          "max": 20
+        },
+        "water_ml": 1000,
+        "steep_min": 15,
+        "instructions": {
+          "de": "10 g Rinde in 1 Liter Wasser 15 Minuten köcheln, abseihen, abkühlen lassen. Tuch tränken und auf die betroffene Stelle legen. Täglich frisch zubereiten.",
+          "en": "Simmer 10 g bark in 1 litre water for 15 minutes, strain, allow to cool. Soak cloth and apply to affected area. Prepare fresh daily."
+        }
+      },
+      "source_ids": [
+        "src_komm_e_quercus",
+        "src_altmeyers_quercus"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "skin"
+      ],
+      "internal_external": "both",
+      "description": {
+        "de": "Eichenrindentinktur (1:5 in 60 % Ethanol) wird innerlich bei chronischem Durchfall eingesetzt und äußerlich zur Behandlung entzündeter Haut- und Schleimhautbereiche verdünnt aufgetragen. Die Gerbstoffe gehen in Lösung und behalten ihre proteinausfällende Wirkung.",
+        "en": "Oak bark tincture (1:5 in 60% ethanol) is used internally for chronic diarrhoea and applied externally in diluted form for inflamed skin and mucosal areas. Tannins dissolve into solution and retain their protein-precipitating action."
+      },
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "1–2 ml Tinktur (1:5, 60 % Ethanol) bis zu dreimal täglich. Äußerlich auf 20–30 % verdünnen.",
+          "en": "1–2 ml tincture (1:5, 60% ethanol) up to three times daily. For external use, dilute to 20–30%."
+        }
+      },
+      "source_ids": [
+        "src_scu_quercus",
+        "src_pfaf_quercus"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Vollbäder mit Eichenrindenextrakt (handelsübliche Fertigzubereitung oder 100 g Rinde auf eine Badewanne) werden in der Volksmedizin bei Rheuma, Chilblains (Frostbeulen) und ausgedehnten Hauterkrankungen angewandt. Nicht anwenden bei akutem Fieber, Herzinsuffizienz Grad III–IV oder ausgedehnten Hautwunden.",
+        "en": "Full baths with oak bark extract (commercial preparation or 100 g bark per full bath) are used in folk medicine for rheumatism, chilblains, and extensive skin conditions. Not to be used in acute fever, cardiac insufficiency grades III–IV, or extensive open wounds."
+      },
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "100 g Rinde in 5 Litern Wasser 30 Minuten köcheln, abseihen und dem Vollbad zufügen. Wassertemperatur ca. 37 °C, Dauer 15–20 Minuten.",
+          "en": "Simmer 100 g bark in 5 litres water for 30 minutes, strain and add to full bath. Water temperature approx. 37°C, duration 15–20 minutes."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_quercus",
+        "src_scu_quercus"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      4,
+      5
+    ],
+    "harvest_part": {
+      "de": "junge Rinde (Frühjahr)",
+      "en": "young bark (spring)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Innerliche Anwendung auf max. 3–4 Tage beschränken. Gerbstoffe können die Aufnahme gleichzeitig eingenommener Medikamente (besonders Alkaloide und basische Wirkstoffe) verzögern — Einnahme mit mind. 1 Stunde Abstand. Nicht bei ausgedehnten Hautwunden oder großflächigen Schleimhautläsionen anwenden.",
+      "en": "Internal use limited to max. 3–4 days. Tannins may delay absorption of concurrently administered medications (especially alkaloids and basic active substances) — take at least 1 hour apart. Do not use on extensive skin wounds or large mucosal lesions."
+    },
+    "external_only": true,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Unzureichende Daten zur Anwendung in der Schwangerschaft. Innerliche Anwendung nicht empfohlen.",
+        "en": "Insufficient data on use during pregnancy. Internal use not recommended."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Unzureichende Daten zur Anwendung in der Stillzeit. Innerliche Anwendung nicht empfohlen.",
+        "en": "Insufficient data on use during lactation. Internal use not recommended."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Anwendung bei Kindern und Jugendlichen unter 18 Jahren nicht empfohlen — unzureichende klinische Daten.",
+        "en": "Use in children and adolescents under 18 years not recommended — insufficient clinical data."
+      }
+    },
+    "warnings_extended": {
+      "de": "Vollbäder sind kontraindiziert bei akutem Fieber, Hypertonie und Herzinsuffizienz (Grad III–IV).",
+      "en": "Full baths are contraindicated in acute fever, hypertension, and cardiac insufficiency (grades III–IV)."
+    },
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegenüber Eichenrindeninhaltsstoffen oder anderen Gerbstoffpflanzen",
+        "en": "Hypersensitivity to oak bark constituents or other tannin-containing plants"
+      },
+      {
+        "de": "Ausgedehnte Hautläsionen oder offene Wunden (äußerlich)",
+        "en": "Extensive skin lesions or open wounds (external use)"
+      },
+      {
+        "de": "Akutes Fieber, schwere Herzinsuffizienz oder Bluthochdruck (bei Vollbädern)",
+        "en": "Acute fever, severe cardiac insufficiency, or hypertension (for full baths)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Alkaloide und basische Arzneimittel",
+        "mechanism": {
+          "de": "Gerbstoffe bilden Komplexe mit basischen Wirkstoffen und verzögern deren Resorption im Darm.",
+          "en": "Tannins form complexes with basic active substances and delay their intestinal absorption."
+        },
+        "severity": "caution",
+        "source_id": "src_komm_e_quercus"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Stieleiche (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Stieleiche",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Quercus robur (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Quercus_robur",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_komm_e_quercus",
+      "type": "monograph",
+      "title": "Kommission E Monographie: Quercus cortex (Eichenrinde), BAnz. Nr. 22a vom 1.2.1990",
+      "url": "https://www.heilpflanzen-welt.de/quercus-cortex-eichenrinde/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_ema_quercus",
+      "type": "monograph",
+      "title": "EMA/HMPC: Final community herbal monograph on Quercus robur L., Quercus petraea (Matt.) Liebl., Quercus pubescens Willd., cortex (EMA/HMPC/3203/2009)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/quercus-cortex",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_altmeyers_quercus",
+      "type": "monograph",
+      "title": "Quercus cortex — Altmeyers Enzyklopädie, Fachbereich Phytotherapie",
+      "url": "https://www.altmeyers.org/en/naturopathy/quercus-cortex-142884",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_quercus",
+      "type": "book",
+      "title": "Plants For A Future (PFAF): Quercus robur",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Quercus+robur",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_scu_quercus",
+      "type": "monograph",
+      "title": "Medicinal Plant Monograph: Quercus robur — Southern Cross University ARL",
+      "url": "https://www.scu.edu.au/analytical-research-laboratory---arl/medicinal-plant-garden/medicinal-plant-monographs/quercus-robur/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_awl_quercus",
+      "type": "book",
+      "title": "Heilpflanzen: Eiche, Eichenrinde — awl.ch Heilpflanzen-Lexikon",
+      "url": "https://www.awl.ch/heilpflanzen/quercus_robur/eiche.htm",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_de_quercus",
+      "type": "wikipedia",
+      "title": "Stieleiche — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Stieleiche",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wiki_en_quercus",
+      "type": "wikipedia",
+      "title": "Quercus robur — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Quercus_robur",
+      "accessed": "2026-05-16"
+    }
+  ],
+  "image": {
+    "filename": "quercus-robur.jpg",
+    "alt": {
+      "de": "Foto von Stieleiche",
+      "en": "Photo of Quercus robur"
+    },
+    "license": "Public domain",
+    "author": "Johann Georg Sturm (Painter: Jacob Sturm)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Quercus_robur_Sturm31.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Ellagitannine (Castalagin, Vescalagin, Grandinin)",
+      "category": "tannin",
+      "percent_range": "8-20 %",
+      "plant_part": "bark",
+      "note": {
+        "de": "Hydrolisierbare Gerbstoffe, Hauptgruppe in Eichenrinde. Castalagin und Vescalagin sind epimere C-Glykoside; ihr Verhältnis variiert zwischen Q. robur und Q. petraea.",
+        "en": "Hydrolysable tannins, main group in oak bark. Castalagin and vescalagin are epimeric C-glycosides; their ratio varies between Q. robur and Q. petraea."
+      }
+    },
+    {
+      "name": "Proanthocyanidine (Catechin, Epicatechin, Gallocatechin)",
+      "category": "tannin",
+      "plant_part": "bark",
+      "note": {
+        "de": "Kondensierte Gerbstoffe (oligomere Proanthocyanidine). Wirken adstringierend durch Proteinausfällung.",
+        "en": "Condensed tannins (oligomeric proanthocyanidins). Act astringently via protein precipitation."
+      }
+    },
+    {
+      "name": "Ellagsäure (Ellagic acid)",
+      "category": "phenolic_acid",
+      "plant_part": "bark",
+      "note": {
+        "de": "Abbauprodukt hydrolisierbarer Gerbstoffe. Zeigt antioxidative und antimikrobielle Eigenschaften.",
+        "en": "Breakdown product of hydrolysable tannins. Exhibits antioxidant and antimicrobial properties."
+      }
+    },
+    {
+      "name": "Gallussäure (Gallic acid)",
+      "category": "phenolic_acid",
+      "plant_part": "bark",
+      "note": {
+        "de": "Phenolcarbonsäure, entsteht bei der Hydrolyse von Gallotanninen. Antioxidativ, adstringierend.",
+        "en": "Phenolic carboxylic acid, formed upon hydrolysis of gallotannins. Antioxidant, astringent."
+      }
+    },
+    {
+      "name": "Quercitin (Quercitol)",
+      "category": "other",
+      "plant_part": "bark",
+      "note": {
+        "de": "Cyclisches Polyol (Inosit-Derivat), spezifisch für Quercus-Arten. Funktion im Pflanzenstoffwechsel.",
+        "en": "Cyclic polyol (inositol derivative), specific to Quercus species. Function in plant metabolism."
+      }
+    },
+    {
+      "name": "β-Sitosterol",
+      "category": "other",
+      "plant_part": "bark",
+      "note": {
+        "de": "Phytosterin mit schwacher entzündungshemmender Wirkung.",
+        "en": "Phytosterol with mild anti-inflammatory activity."
+      }
+    },
+    {
+      "name": "Valoneic acid bilactone",
+      "category": "tannin",
+      "plant_part": "bark",
+      "note": {
+        "de": "Komplexes Ellagitannin-Derivat, charakteristischer Bestandteil von Eichenrindenextrakt.",
+        "en": "Complex ellagitannin derivative, characteristic constituent of oak bark extract."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "bark",
+      "best_months": [
+        3,
+        4
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Tauabtrocknen, wenn der Saftfluss am stärksten ist",
+        "en": "Morning after dew has dried, when sap flow is strongest"
+      },
+      "drying": {
+        "de": "Rindenstreifen locker aufgeschichtet an luftigem, schattigem Ort bei 40–50 °C trocknen, bis sie beim Biegen brechen (Restfeuchte < 10 %).",
+        "en": "Loosely stacked bark strips dried in an airy, shaded location at 40–50°C until they snap when bent (residual moisture < 10%)."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Luftdicht in Papier- oder Leinensäcken, trocken, kühl und lichtgeschützt lagern.",
+        "en": "Store airtight in paper or linen bags, dry, cool and protected from light."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Nach dem natürlichen Fall, morgens aufsammeln",
+        "en": "After natural fall, collect in the morning"
+      },
+      "drying": {
+        "de": "Eicheln bei Bedarf leicht rösten (als Kaffeeersatz) oder im Ofen bei 120 °C rösten und mahlen. Roh enthaltene Gerbstoffe durch Wässern oder Kochen reduzieren.",
+        "en": "Acorns can be lightly roasted (as a coffee substitute) or oven-roasted at 120°C and ground. Reduce raw tannin content by soaking or boiling."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Frische Eicheln kühl und feucht lagern (Keller); getrocknete/geröstete kühl und trocken.",
+        "en": "Store fresh acorns cool and moist (cellar); dried/roasted acorns cool and dry."
+      }
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "slug": "apium-graveolens-rapaceum",
+  "names": {
+    "de": "Echter Sellerie",
+    "en": "Celeriac",
+    "latin": "Apium graveolens var. rapaceum"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Der bzw. die Echte Sellerie, kurz auch Sellerie, auch Zeller, und regional Eppich genannt, ist eine Pflanzenart aus der Gattung Sellerie (Apium) innerhalb der Familie der Doldenblütler (Apiaceae). Verwendung als Gemüse in der Küche finden ihre Varietäten Knollensellerie, Staudensellerie und Schnittsellerie.",
+    "en": "Celeriac, also called celery root, knob celery, and turnip-rooted celery, is a group of cultivars of Apium graveolens cultivated for their edible bulb-like hypocotyl, and shoots."
+  },
+  "teaser": {
+    "de": "Der bzw.",
+    "en": "Celeriac, also called celery root, knob celery, and turnip-rooted celery, is a group of cultivars of Apium graveolens..."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Rohe Knollensellerie als Crudité, in Salaten oder als Remoulade (Céleri rémoulade). Reich an Vitamin K, Vitamin C, Folsäure und Ballaststoffen. Fördert Verdauung und Darmgesundheit durch Inulin-ähnliche Fructo-Oligosaccharide.",
+        "en": "Raw celeriac as crudités, in salads or as rémoulade. Rich in vitamin K, vitamin C, folate, and dietary fibre. Promotes digestion and gut health through inulin-like fructooligosaccharides."
+      },
+      "source_ids": [
+        "src_cabi_rapaceum",
+        "src_wiki_en_celeriac"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Gekochte, gedünstete oder pürierte Knolle als Gemüse oder Suppen-Grundlage. Enthält 3-n-Butylphthalid und Sedanenolid, die für das charakteristische Sellerie-Aroma verantwortlich sind und leicht karminative (blähungswidrige) Wirkung haben.",
+        "en": "Cooked, braised, or pureed tuber used as a vegetable or soup base. Contains 3-n-butylphthalide and sedanenolide responsible for the characteristic celery aroma, with mild carminative (antiflatulent) effects."
+      },
+      "preparation": {
+        "de": "Knolle schälen, würfeln und 20–25 Min. in Salzwasser kochen oder dämpfen. Als Püree, Suppe oder Beilage verwenden.",
+        "en": "Peel the tuber, dice, and boil or steam in salted water for 20–25 minutes. Use as purée, soup, or side dish."
+      },
+      "source_ids": [
+        "src_phthalide_isolation_2012",
+        "src_wiki_en_celeriac"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Aufguss aus geriebener oder getrockneter Sellerie-Knolle volksmedizinisch als mild diuretisches Mittel bei Wassereinlagerungen und zur Unterstützung der Nierenfunktion eingesetzt. Spezifische klinische Evidenz für die Knolle fehlt; Wirkung beruht auf traditionellem Gebrauch.",
+        "en": "Infusion of grated or dried celeriac tuber used in folk medicine as a mildly diuretic remedy for water retention and to support kidney function. No specific clinical evidence for the tuber; effect is based on traditional use."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "2–4 g getrocknete geriebene Knolle mit 250 ml heißem Wasser übergießen, 10 Min. ziehen lassen, abseihen.",
+          "en": "Pour 250 ml of hot water over 2–4 g of dried grated tuber, steep 10 minutes, strain."
+        }
+      },
+      "source_ids": [
+        "src_cabi_rapaceum",
+        "src_wiki_en_celeriac"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Regelmäßiger Knollensellerie-Konsum in der Volksmedizin als blutdruckunterstützend beschrieben. Phthalide können glatte Gefäßmuskulatur entspannen. Hinweis: Evidenz für die Knolle (rapaceum) ist schwach; Phthalid-Studien beziehen sich primär auf Sellerie-Samen und Celery-Seed-Extrakt.",
+        "en": "Regular celeriac consumption described in folk medicine as supporting healthy blood pressure. Phthalides may relax smooth vascular muscle. Note: Evidence for the root (rapaceum) is weak; phthalide studies refer primarily to celery seeds and celery seed extract."
+      },
+      "source_ids": [
+        "src_phthalide_isolation_2012",
+        "src_antinociceptive_seeds_2010"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "liver",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinisch gilt Knollensellerie als leberstärkend und die Galleproduktion fördernd (cholagog). Polyphenole (Chlorogensäure, Caffeic acid) und Antioxidantien tragen zu hepatoprotektiven Effekten bei, die für Apium graveolens in vitro belegt sind.",
+        "en": "In folk medicine, celeriac is considered liver-strengthening and bile-flow-promoting (cholagogue). Polyphenols (chlorogenic acid, caffeic acid) and antioxidants contribute to hepatoprotective effects documented in vitro for Apium graveolens."
+      },
+      "source_ids": [
+        "src_flavonoid_antioxidant_2014",
+        "src_wiki_en_celeriac"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10,
+      11
+    ],
+    "harvest_part": {
+      "de": "Knolle (Herbst)",
+      "en": "tuber (autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Knollensellerie gehört zu den häufigsten Nahrungsmittelallergenen in Mitteleuropa (Sellerie-Allergie). Kreuzreaktionen mit Birken- und Beifuß-Pollen (Sellerie-Birken-Beifuß-Syndrom) sind klinisch relevant. Gekennzeichnungspflicht in der EU als einer der 14 Hauptallergene. Wegen Furocumaringehalt (Psoralen) in der Knolle phototoxische Reaktionen bei großen frischen Mengen und UV-Exposition theoretisch möglich.",
+      "en": "Celeriac is one of the most common food allergens in Central Europe (celery allergy). Cross-reactions with birch and mugwort pollen (celery-birch-mugwort syndrome) are clinically relevant. Mandatory labelling in the EU as one of the 14 major allergens. Due to furanocoumarin (psoralen) content in the tuber, phototoxic reactions are theoretically possible with large fresh quantities and UV exposure."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "contraindications": [
+      {
+        "de": "Bekannte Sellerie-Allergie oder nachgewiesene Kreuzallergie (Birken-Sellerie-Beifuß-Syndrom).",
+        "en": "Known celery allergy or confirmed cross-allergy (celery-birch-mugwort syndrome)."
+      },
+      {
+        "de": "Schwere Niereninsuffizienz (fortgeschrittene CKD): erhöhter Kaliumgehalt kann kritisch sein.",
+        "en": "Severe renal insufficiency (advanced CKD): elevated potassium content may be critical."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulantien / Vitamin-K-Antagonisten",
+        "mechanism": {
+          "de": "Knollensellerie enthält Vitamin K1; starker und regelmäßiger Mehrkonsum kann INR bei Warfarin/Marcumar-Patienten beeinflussen.",
+          "en": "Celeriac contains vitamin K1; large regular increase in consumption may affect INR in warfarin/acenocoumarol patients."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Schild­drüsen­medikamente / Thyreostatika",
+        "mechanism": {
+          "de": "Brassica- und Apiaceen-Gemüse können in sehr großen Mengen jodverwertende Prozesse beeinflussen; bei Schilddrüsenerkrankungen auf übermäßigen Konsum achten.",
+          "en": "Apiaceae vegetables in very large amounts may theoretically affect iodine utilisation; advise moderation for thyroid disorder patients."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Knollensellerie als Nahrungsmittel in üblichen Mengen ist in der Schwangerschaft sicher. Als hochkonzentriertes Extrakt oder medizinische Präparation meiden.",
+        "en": "Celeriac as food in usual culinary amounts is safe in pregnancy. Avoid as a high-concentration extract or medicinal preparation."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Speisegebrauch gilt als sicher. Auf stark konzentrierte Extrakte vorsorglich verzichten.",
+        "en": "Culinary use is considered safe. Avoid highly concentrated extracts as a precaution."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Knollensellerie als Gemüse ab dem Beikostalter geeignet; auf Allergiesymptome achten, da Sellerie einer der häufigsten Kinderallergene in Europa ist.",
+        "en": "Celeriac as a vegetable is suitable from complementary feeding age onwards; monitor for allergy symptoms, as celery is one of the most common food allergens in children in Europe."
+      }
+    }
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter Sellerie (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Sellerie",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Celeriac (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Celeriac",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_cabi_rapaceum",
+      "type": "monograph",
+      "title": "Apium graveolens var. rapaceum (celeriac)",
+      "url": "https://doi.org/10.1079/cabicompendium.6598",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_phthalide_isolation_2012",
+      "type": "monograph",
+      "title": "Isolation of 3-n-Butyl Phthalide & Sedanenolide from Apium graveolens Linn.",
+      "url": "https://doi.org/10.35652/igjps.2012.32",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_flavonoid_antioxidant_2014",
+      "type": "monograph",
+      "title": "In vitro and in vivo antioxidant activities of a flavonoid isolated from celery (Apium graveolens L. var. dulce)",
+      "url": "https://doi.org/10.1039/c3fo60273g",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_antinociceptive_seeds_2010",
+      "type": "monograph",
+      "title": "Antinociceptive and anti-inflammatory effects of isolated fractions from Apium graveolens seeds in mice",
+      "url": "https://doi.org/10.1080/13880200902939283",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_phthalide_gc_nigeria",
+      "type": "monograph",
+      "title": "Gas Chromatography-Mass Spectrometry Analysis of Phthalide Composition of Celery oil from Apium graveolens L. cultivated in Nigeria",
+      "url": "https://doi.org/10.46602/jcsn.v46i2.605",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_flavonoid_synergy_apium",
+      "type": "monograph",
+      "title": "Flavonoid synergy in antioxidant optimization: a study of Apium graveolens and Orthosipon stamineus",
+      "url": "https://doi.org/10.12928/pharmaciana.v15i3.30599",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_en_celeriac",
+      "type": "wikipedia",
+      "title": "Celeriac — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Celeriac",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "apium-graveolens-rapaceum.jpg",
+    "alt": {
+      "de": "Foto von Echter Sellerie",
+      "en": "Photo of Celeriac"
+    },
+    "license": "Public domain",
+    "author": "Unknown",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Apium_graveolens0.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 2,
+        "end_month": 3
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 9,
+      "end_month": 11
+    },
+    "days_to_harvest": 180,
+    "spacing_cm": 40,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 2
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-porrum",
+      "brassica-oleracea-capitata-alba",
+      "phaseolus-vulgaris-nanus"
+    ],
+    "bad_partners": [],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "pest_repellent",
+    "root_loosener"
+  ],
+  "constituents": [
+    {
+      "name": "3-n-Butylphthalid",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "Hauptverantwortlich für das charakteristische Sellerie-Aroma; zeigt in Studien blutdrucksenkende und sedativ-entspannende Eigenschaften (primär Sellerie-Samen-Extrakt-Studien).",
+        "en": "Main contributor to characteristic celery aroma; associated with blood pressure-lowering and mild sedative effects in studies (primarily celery seed extract studies)."
+      }
+    },
+    {
+      "name": "Sedanenolid",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "Flüchtiges Phthalid-Lacton; wichtiger Aromastoff neben 3-n-Butylphthalid; beiträgt zur karminativen Wirkung.",
+        "en": "Volatile phthalide lactone; important aroma compound alongside 3-n-butylphthalide; contributes to carminative effect."
+      }
+    },
+    {
+      "name": "Apigenin-7-glucosid",
+      "category": "flavonoid",
+      "plant_part": "root",
+      "note": {
+        "de": "Wichtiges Flavonoid in Apium graveolens; antioxidativ, schwach entzündungshemmend.",
+        "en": "Key flavonoid in Apium graveolens; antioxidant and mildly anti-inflammatory."
+      }
+    },
+    {
+      "name": "Chlorogensäure",
+      "category": "phenolic_acid",
+      "plant_part": "root",
+      "note": {
+        "de": "Phenolsäure-Ester; einer der Haupt-Polyphenole in der Knolle; antioxidativ und hepatoprotektiv.",
+        "en": "Phenolic acid ester; one of the main polyphenols in the tuber; antioxidant and hepatoprotective."
+      }
+    },
+    {
+      "name": "Vitamin K1 (Phylloquinon)",
+      "category": "vitamin",
+      "plant_part": "root",
+      "percent_range": "0.004-0.006 %",
+      "note": {
+        "de": "Wichtig für Blutgerinnung und Knochengesundheit; klinisch relevant für Patienten unter Antikoagulation.",
+        "en": "Important for blood coagulation and bone health; clinically relevant for patients on anticoagulation therapy."
+      }
+    },
+    {
+      "name": "Kalium",
+      "category": "mineral",
+      "plant_part": "root",
+      "note": {
+        "de": "Ca. 300 mg/100 g Frischgewicht; unterstützt Blutdruck und Elektrolytbalance; relevant für Niereninsuffizienz-Patienten.",
+        "en": "Approx. 300 mg/100 g fresh weight; supports blood pressure and electrolyte balance; relevant for patients with renal insufficiency."
+      }
+    },
+    {
+      "name": "Furanocumarine (Psoralen, Bergapten)",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "In Spuren vorhanden; bei empfindlichen Personen und starker UV-Exposition (Kontaktdermatitis) phototoxisch. Klinisch kaum relevant bei normalem Küchengebrauch.",
+        "en": "Present in trace amounts; phototoxic in sensitive individuals with UV exposure (contact dermatitis). Clinically barely relevant in normal culinary use."
+      }
+    },
+    {
+      "name": "Folsäure (Vitamin B9)",
+      "category": "vitamin",
+      "plant_part": "root",
+      "note": {
+        "de": "Ca. 24–28 µg/100 g Frischgewicht; relevant für Zellwachstum und in der Schwangerschaft.",
+        "en": "Approx. 24–28 µg/100 g fresh weight; relevant for cell growth and during pregnancy."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Ernte nach dem ersten leichten Frost möglich — Frost verbessert das Aroma durch Stärkeumwandlung in Zucker.",
+        "en": "Can be harvested after the first light frost — frost improves the flavour by converting starch to sugars."
+      },
+      "drying": {
+        "de": "Knolle wird nicht getrocknet, sondern als Frischgemüse kühl eingelagert oder tiefgekühlt.",
+        "en": "The tuber is not dried but stored fresh in a cool place or frozen."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Lagerknolle in feuchtem Sand oder kühlem Keller bei 0–4 °C bis zu 6 Monate haltbar.",
+        "en": "Store tubers in moist sand or a cool cellar at 0–4 °C for up to 6 months."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Junge Blätter und Stiele im Sommer für Suppenwürze frisch ernten. Morgens, wenn Turgordruck am höchsten.",
+        "en": "Harvest young leaves and stems fresh in summer for soup flavouring. Best in the morning when turgor pressure is highest."
+      },
+      "drying": {
+        "de": "Blätter bei 35 °C trocknen oder gefriertrocknen; Aroma geht beim normalen Trocknen deutlich verloren.",
+        "en": "Dry leaves at 35 °C or freeze-dry; aroma is significantly lost with standard drying."
+      },
+      "storage_months": 4,
+      "storage_condition": {
+        "de": "Getrocknete Blätter luftdicht und lichtgeschützt lagern; Qualitätsverlust nach 4 Monaten.",
+        "en": "Store dried leaves airtight and light-protected; quality loss after 4 months."
+      }
+    }
+  ]
+}

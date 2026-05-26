@@ -1,0 +1,583 @@
+{
+  "slug": "allium-sativum",
+  "names": {
+    "de": "Knoblauch",
+    "en": "Garlic",
+    "latin": "Allium sativum"
+  },
+  "family": {
+    "de": "Amaryllisgewächse",
+    "en": "Amaryllis family",
+    "latin": "Amaryllidaceae"
+  },
+  "description": {
+    "de": "Knoblauch ist eine Pflanzenart aus der Gattung Lauch (Allium). Er ist heute fast weltweit verbreitet. Er wird als Gewürz- und Heilpflanze genutzt.",
+    "en": "Garlic is a species of bulbous flowering plants in the genus Allium. Its close relatives include the onion, shallot, leek, chives, Welsh onion, and Chinese onion. Garlic is native to Central Asia, northeastern Iran and the foothills of Himalayas."
+  },
+  "teaser": {
+    "de": "Knoblauch ist eine Pflanzenart aus der Gattung Lauch (Allium).",
+    "en": "Garlic is a species of bulbous flowering plants in the genus Allium."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "internal_external": "internal",
+      "plant_part": "bulb",
+      "preparation": {
+        "de": "Frische Knoblauchzehen schälen, zerdrücken oder fein hacken und 10 Minuten an der Luft stehen lassen, damit Alliinase aus Alliin Allicin bilden kann. Roh über Salate, Brot oder Quark geben; nicht stark erhitzen, da Allicin hitzeempfindlich ist.",
+        "en": "Peel fresh cloves, crush or finely chop and let stand for 10 minutes so alliinase can convert alliin to allicin. Add raw to salads, bread or quark; avoid strong heating as allicin is heat-sensitive."
+      },
+      "dose_amount": 4.0,
+      "dose_unit": "g",
+      "frequency_per_day": 1,
+      "evidence_level": "ema_well_established",
+      "source_ids": [
+        "src_ema_allium",
+        "src_kommission_e_allium",
+        "src_who_allium"
+      ],
+      "description": {
+        "de": "Prophylaxe atherosklerotischer Gefässveränderungen; unterstützend bei leicht erhöhten Blutfettwerten und leichter Hypertonie.",
+        "en": "Prevention of atherosclerotic vascular changes; supportive use in slightly elevated blood lipids and mild hypertension."
+      },
+      "target": [
+        "circulation",
+        "immune"
+      ]
+    },
+    {
+      "form": "tincture",
+      "internal_external": "internal",
+      "plant_part": "bulb",
+      "preparation": {
+        "de": "Tinktur 1:5 in 45-60 % Ethanol aus frischen, zerkleinerten Zehen ansetzen. Übliche Tagesdosis: 2-4 ml, verteilt auf 2-3 Gaben, in Wasser verdünnt nach den Mahlzeiten.",
+        "en": "Prepare 1:5 tincture in 45-60% ethanol from fresh crushed cloves. Usual daily dose: 2-4 ml in 2-3 divided doses, diluted in water after meals."
+      },
+      "dose_amount": 3.0,
+      "dose_unit": "ml",
+      "frequency_per_day": 3,
+      "evidence_level": "traditional",
+      "source_ids": [
+        "src_ema_allium",
+        "src_escop_allium"
+      ],
+      "description": {
+        "de": "Unterstützung bei Atherosklerose-Prophylaxe und leichter arterieller Hypertonie; traditionelle Anwendung zur Förderung der Durchblutung.",
+        "en": "Support in atherosclerosis prevention and mild arterial hypertension; traditional use for promoting circulation."
+      },
+      "target": [
+        "circulation",
+        "immune"
+      ]
+    },
+    {
+      "form": "tincture",
+      "internal_external": "internal",
+      "plant_part": "bulb",
+      "preparation": {
+        "de": "Standardisierte Trockenextrakte (DEV 7-13:1) oder Pulver mit definiertem Alliin-/Allicin-Freisetzungspotenzial. Übliche Tagesdosis: 600-1200 mg Knoblauchpulver, entsprechend ca. 4 g frischer Droge.",
+        "en": "Standardised dry extracts (DER 7-13:1) or powders with defined alliin/allicin release. Usual daily dose: 600-1200 mg garlic powder, equivalent to about 4 g fresh drug."
+      },
+      "dose_amount": 900.0,
+      "dose_unit": "mg",
+      "frequency_per_day": 1,
+      "evidence_level": "clinical_trial",
+      "source_ids": [
+        "src_ema_allium",
+        "src_ried_2016",
+        "src_escop_allium"
+      ],
+      "description": {
+        "de": "Geruchsarme standardisierte Pulverpräparate (entrochmagensaftresistent) zur Lipidsenkung und Blutdrucksenkung bei leicht erhöhten Werten; Allicin-Freisetzung im Dünndarm.",
+        "en": "Low-odour standardised powder preparations (enteric-coated) for lipid and blood-pressure lowering in slightly elevated values; allicin release in the small intestine."
+      },
+      "target": [
+        "digestion",
+        "circulation"
+      ]
+    },
+    {
+      "form": "spice",
+      "internal_external": "internal",
+      "plant_part": "bulb",
+      "preparation": {
+        "de": "1-2 Zehen pro Tag, frisch gehackt am Ende der Garzeit zugeben oder roh über fertige Gerichte streuen. Längeres Kochen reduziert Allicingehalt deutlich.",
+        "en": "1-2 cloves per day, freshly chopped and added at the end of cooking or sprinkled raw over finished dishes. Prolonged cooking significantly reduces allicin content."
+      },
+      "dose_amount": 1.0,
+      "dose_unit": "tsp",
+      "frequency_per_day": 1,
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_pfaf_allium",
+        "src_heilkraeuter_allium"
+      ],
+      "description": {
+        "de": "Tägliche Küchenanwendung als verdauungsförderndes und kreislaufunterstützendes Gewürz; präventiver Beitrag zur Herz-Kreislauf-Gesundheit.",
+        "en": "Daily culinary use as a digestion-promoting and circulation-supporting spice; preventive contribution to cardiovascular health."
+      },
+      "target": [
+        "digestion",
+        "circulation",
+        "nutrition"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "internal_external": "internal",
+      "plant_part": "bulb",
+      "preparation": {
+        "de": "2-3 zerdrückte Zehen mit 500 ml heissem (nicht kochendem) Wasser übergiessen, Kopf mit Tuch bedecken und vorsichtig 5-10 Minuten Dampf inhalieren. Augen geschlossen halten — Dämpfe reizen Schleimhäute.",
+        "en": "Pour 500 ml hot (not boiling) water over 2-3 crushed cloves, cover head with a towel and carefully inhale steam for 5-10 minutes. Keep eyes closed — vapours irritate mucous membranes."
+      },
+      "dose_amount": 3.0,
+      "dose_unit": "tsp",
+      "frequency_per_day": 2,
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_heilkraeuter_allium",
+        "src_wiki_de_allium"
+      ],
+      "description": {
+        "de": "Volksmedizinische Anwendung bei beginnenden Atemwegsinfekten und Schnupfen; ätherische Schwefelverbindungen sollen schleimlösend und antimikrobiell wirken.",
+        "en": "Folk-medicinal use for early respiratory infections and head colds; volatile sulphur compounds are said to have mucolytic and antimicrobial effects."
+      },
+      "target": [
+        "respiratory"
+      ]
+    },
+    {
+      "form": "compress",
+      "internal_external": "external",
+      "plant_part": "bulb",
+      "preparation": {
+        "de": "Eine halbe frische Zehe glatte Schnittfläche kurz (max. 5-10 Minuten) auf die betroffene Stelle legen, umgebende Haut mit Vaseline oder Pflaster schützen. Nicht auf offene Wunden oder gereizte Haut anwenden — starkes Brennen und chemische Hautreizung möglich.",
+        "en": "Place a freshly cut clove half briefly (max. 5-10 minutes) on the affected spot; protect surrounding skin with petroleum jelly or plaster. Do not apply to open wounds or irritated skin — severe burning and chemical skin irritation possible."
+      },
+      "dose_amount": 1.0,
+      "dose_unit": "tsp",
+      "frequency_per_day": 1,
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_heilkraeuter_allium",
+        "src_pfaf_allium"
+      ],
+      "description": {
+        "de": "Traditionelle volksmedizinische Anwendung bei Warzen und oberflächlichen Pilzinfektionen; lokal antimikrobielle Wirkung durch Allicin.",
+        "en": "Traditional folk use for warts and superficial fungal infections; local antimicrobial action by allicin."
+      },
+      "target": [
+        "nutrition"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Zwiebel (Sommer)",
+      "en": "bulb (summer)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Hohe Dosen können Magen-Darm-Beschwerden (Sodbrennen, Blähungen, Übelkeit), Mund- und Körpergeruch sowie selten allergische Reaktionen auslösen. Rohe Zehen direkt auf der Haut können chemische Verbrennungen verursachen. Bei Blutungsneigung, vor Operationen oder zahnärztlichen Eingriffen sowie bei gleichzeitiger Antikoagulation Vorsicht geboten.",
+      "en": "High doses may cause gastrointestinal complaints (heartburn, flatulence, nausea), mouth and body odour and rarely allergic reactions. Raw cloves directly on skin can cause chemical burns. Caution with bleeding tendency, before surgery or dental procedures and with concurrent anticoagulation."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Übliche Küchenmengen unbedenklich. Hochdosierte standardisierte Präparate in Schwangerschaft mangels Daten vermeiden.",
+        "en": "Usual culinary amounts are considered safe. Avoid high-dose standardised preparations during pregnancy due to lack of data."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Küchenmengen unbedenklich; können den Geschmack der Muttermilch verändern und gelegentlich Saugverhalten oder Verdauung des Säuglings beeinflussen. Hochdosierte Präparate in der Stillzeit nicht empfohlen.",
+        "en": "Culinary amounts are safe; may alter taste of breast milk and occasionally affect the infant's feeding or digestion. High-dose preparations not recommended during lactation."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Hochdosierte Präparate bei Kindern vermeiden — Magenreizung und Blutungsrisiko. Küchenmengen sind unproblematisch. Topische Anwendung wegen Verbrennungsgefahr nicht empfohlen.",
+        "en": "Avoid high-dose preparations in children — risk of gastric irritation and bleeding. Culinary amounts are unproblematic. Topical application not recommended due to burn risk."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Allium-Allergie. Vor geplanten Operationen 7-10 Tage absetzen (Blutungsrisiko durch Thrombozytenaggregationshemmung). Vorsicht bei bestehender Antikoagulation, Blutgerinnungsstörungen sowie unter HIV-Proteaseinhibitor-Therapie.",
+        "en": "Known Allium allergy. Discontinue 7-10 days before planned surgery (bleeding risk due to platelet aggregation inhibition). Caution with ongoing anticoagulation, bleeding disorders and HIV protease inhibitor therapy."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulanzien und Thrombozytenaggregationshemmer (Warfarin, Phenprocoumon, DOAKs, ASS, Clopidogrel)",
+        "mechanism": {
+          "de": "Allicin und Ajoen hemmen die Thrombozytenaggregation und können die Blutungsneigung verstärken; in Einzelfällen INR-Anstieg unter Warfarin beschrieben.",
+          "en": "Allicin and ajoene inhibit platelet aggregation and may increase bleeding tendency; case reports describe INR elevation under warfarin."
+        },
+        "severity": "avoid",
+        "source_id": "src_ema_allium"
+      },
+      {
+        "drug_class": "HIV-Proteaseinhibitoren (Saquinavir, Ritonavir, Darunavir)",
+        "mechanism": {
+          "de": "Knoblauchpräparate induzieren CYP3A4 und P-Glykoprotein; Plasmaspiegel der Proteaseinhibitoren sinken deutlich, Therapieversagen möglich.",
+          "en": "Garlic preparations induce CYP3A4 and P-glycoprotein; plasma levels of protease inhibitors fall markedly, with risk of treatment failure."
+        },
+        "severity": "avoid",
+        "source_id": "src_who_allium"
+      },
+      {
+        "drug_class": "Antihypertensiva und Antidiabetika",
+        "mechanism": {
+          "de": "Möglicherweise additive Blutdruck- und Blutzuckersenkung; bei Kombination Blutdruck- und Blutzuckerwerte engmaschig kontrollieren.",
+          "en": "Possibly additive lowering of blood pressure and blood glucose; monitor closely when combined."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_allium"
+      },
+      {
+        "drug_class": "Ciclosporin",
+        "mechanism": {
+          "de": "Knoblauchpräparate können den Plasmaspiegel von Ciclosporin senken (Enzyminduktion); Transplantationspatienten sollten hochdosierten Knoblauch meiden.",
+          "en": "Garlic preparations can lower ciclosporin plasma levels (enzyme induction); transplant patients should avoid high-dose garlic."
+        },
+        "severity": "avoid",
+        "source_id": "src_who_allium"
+      }
+    ],
+    "max_continuous_use_weeks": 12,
+    "max_continuous_use_note": {
+      "de": "Hochdosierte standardisierte Präparate sollten ohne ärztliche Begleitung nicht länger als 3 Monate kontinuierlich eingenommen werden. Bei anhaltenden Beschwerden (Hypertonie, Hyperlipidämie) ärztliche Abklärung. Küchenmengen sind dauerhaft unbedenklich.",
+      "en": "High-dose standardised preparations should not be used continuously for more than 3 months without medical supervision. For persistent complaints (hypertension, hyperlipidaemia) seek medical advice. Culinary amounts are safe for long-term use."
+    }
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Knoblauch (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Knoblauch",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Garlic (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Garlic",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_allium",
+      "type": "monograph",
+      "title": "EMA/HMPC — European Union herbal monograph on Allium sativum L., bulbus (final)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/allii-sativi-bulbus",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_kommission_e_allium",
+      "type": "monograph",
+      "title": "Kommission E Monographie — Allii sativi bulbus (Knoblauchzwiebel), BAnz Nr. 122 vom 06.07.1988",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/allii-sativi-bulbus-knoblauchzwiebel.htm",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_escop_allium",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Allii sativi bulbus / Garlic (2nd edition, online updates)",
+      "url": "https://escop.com/downloads/garlic/",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_who_allium",
+      "type": "monograph",
+      "title": "WHO Monographs on Selected Medicinal Plants, Vol. 1 — Bulbus Allii Sativi (1999)",
+      "url": "https://apps.who.int/iris/handle/10665/42052",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_ried_2016",
+      "type": "monograph",
+      "title": "Ried K. — Garlic Lowers Blood Pressure in Hypertensive Individuals, Regulates Serum Cholesterol, and Stimulates Immunity: An Updated Meta-analysis and Review (J Nutr 2016;146(2):389S-396S)",
+      "url": "https://doi.org/10.3945/jn.114.202192",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_pfaf_allium",
+      "type": "monograph",
+      "title": "Plants for a Future — Allium sativum L.",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Allium+sativum",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_heilkraeuter_allium",
+      "type": "monograph",
+      "title": "Heilkräuter-Lexikon — Knoblauch (Allium sativum)",
+      "url": "https://www.heilkraeuter.de/lexikon/knoblauch.htm",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wiki_de_allium",
+      "type": "wikipedia",
+      "title": "Wikipedia (DE) — Knoblauch",
+      "url": "https://de.wikipedia.org/wiki/Knoblauch",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wiki_en_allium",
+      "type": "wikipedia",
+      "title": "Wikipedia (EN) — Garlic",
+      "url": "https://en.wikipedia.org/wiki/Garlic",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wikidata_allium",
+      "type": "wikidata",
+      "title": "Wikidata — Allium sativum (Q21102)",
+      "url": "https://www.wikidata.org/wiki/Q21102",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_commons_allium",
+      "type": "commons",
+      "title": "Wikimedia Commons — Category: Allium sativum",
+      "url": "https://commons.wikimedia.org/wiki/Category:Allium_sativum",
+      "accessed": "2026-05-19"
+    }
+  ],
+  "image": {
+    "filename": "allium-sativum.jpg",
+    "alt": {
+      "de": "Foto von Knoblauch",
+      "en": "Photo of Garlic"
+    },
+    "license": "See Commons file page",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:allium-sativum.jpg"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "anethum-graveolens",
+      "apium-graveolens",
+      "calendula-officinalis",
+      "capsicum-annuum",
+      "daucus-carota-sativus",
+      "eruca-sativa",
+      "fragaria-vesca",
+      "matricaria-chamomilla",
+      "nepeta-cataria",
+      "ocimum-basilicum",
+      "ocimum-tenuiflorum",
+      "petroselinum-crispum",
+      "rheum-rhabarbarum",
+      "solanum-lycopersicum",
+      "tagetes-patula",
+      "tanacetum-parthenium",
+      "tropaeolum-majus"
+    ],
+    "bad_partners": [
+      "phaseolus-vulgaris-nanus",
+      "phaseolus-vulgaris-vulgaris",
+      "pisum-sativum-saccharatum",
+      "pisum-sativum-sativum",
+      "salvia-officinalis",
+      "satureja-hortensis",
+      "trigonella-foenum-graecum"
+    ],
+    "reasons": {
+      "capsicum-annuum": {
+        "de": "Knoblauch hält Spinnmilben und Pilze fern.",
+        "en": "Garlic deters spider mites and fungi."
+      },
+      "daucus-carota-sativus": {
+        "de": "Knoblauch hält Möhrenfliege und Pilze fern.",
+        "en": "Garlic deters carrot fly and fungi."
+      },
+      "fragaria-vesca": {
+        "de": "Knoblauch vertreibt Erdbeer-Pilze (Grauschimmel).",
+        "en": "Garlic deters strawberry fungi (grey mould)."
+      },
+      "matricaria-chamomilla": {
+        "de": "Kamille stärkt Knoblauch und hält Wurzelpilze fern.",
+        "en": "Chamomile strengthens garlic and deters root fungi."
+      },
+      "ocimum-basilicum": {
+        "de": "Knoblauch schützt Basilikum vor Pilzen.",
+        "en": "Garlic protects basil from fungi."
+      },
+      "phaseolus-vulgaris-vulgaris": {
+        "de": "Lauchgewächse hemmen Hülsenfrüchte (klassische Bauernregel).",
+        "en": "Alliums inhibit legumes (classic rule)."
+      },
+      "rheum-rhabarbarum": {
+        "de": "Knoblauch hält Rhabarber-Schädlinge und Wurzelpilze fern.",
+        "en": "Garlic deters rhubarb pests and root fungi."
+      },
+      "solanum-lycopersicum": {
+        "de": "Klassiker: Knoblauch in jedem Tomatenbeet — hält Mehltau fern.",
+        "en": "Classic: garlic in every tomato bed — deters mildew."
+      }
+    },
+    "notes_de": "ocimum-basilicum: Basilikum unterstützt Knoblauch-Wachstum, Knoblauch hält Schädlinge fern. fragaria-vesca: Knoblauch vertreibt Erdbeer-Schädlinge. trigonella-foenum-graecum: Lauchgewächse hemmen Hülsenfrüchte (Bockshornklee). salvia-officinalis: Salbei und Lauchgewächse stören sich gegenseitig. solanum-lycopersicum: Knoblauch hält Tomaten-Schädlinge fern. daucus-carota-sativus: Knoblauch hält Möhrenfliege fern. rheum-rhabarbarum: Knoblauch hält Rhabarber-Schädlinge und Wurzelpilze fern.",
+    "notes_en": "ocimum-basilicum: Basil supports garlic growth; garlic deters basil pests. fragaria-vesca: Garlic deters strawberry pests. trigonella-foenum-graecum: Alliums inhibit legumes (fenugreek). salvia-officinalis: Sage and alliums inhibit each other. solanum-lycopersicum: Garlic deters tomato pests. daucus-carota-sativus: Garlic deters carrot fly. rheum-rhabarbarum: Garlic deters rhubarb pests and root fungi.",
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 10,
+        "end_month": 11
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 8
+    },
+    "days_to_harvest": 240,
+    "spacing_cm": 15,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "pest_repellent",
+    "aromatic_repellent",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Alliin (S-Allyl-L-cysteinsulfoxid)",
+      "category": "other",
+      "percent_range": "0.5-1.8 % in frischer Zwiebel",
+      "note": {
+        "de": "Geruchsneutrale, schwefelhaltige Aminosäure; Vorstufe des Allicins. Wird beim Zerschneiden oder Zerdrücken durch das Enzym Alliinase enzymatisch zu Allicin gespalten.",
+        "en": "Odourless sulphur-containing amino acid; precursor of allicin. Cleaved enzymatically to allicin by alliinase upon cutting or crushing."
+      }
+    },
+    {
+      "name": "Allicin (Diallylthiosulfinat)",
+      "category": "other",
+      "percent_range": "bis ca. 0.4 % nach Zerkleinerung (kurzlebig)",
+      "note": {
+        "de": "Charakteristisches Schwefelthiosulfinat, verantwortlich für Geruch und Schärfe. Antimikrobiell, thrombozytenaggregationshemmend, lipidsenkend. Sehr instabil — zerfällt rasch zu Diallylsulfiden, Vinyldithiinen und Ajoen.",
+        "en": "Characteristic sulphur thiosulphinate, responsible for odour and pungency. Antimicrobial, anti-platelet, lipid-lowering. Very unstable — rapidly decomposes to diallyl sulphides, vinyldithiins and ajoene."
+      }
+    },
+    {
+      "name": "Ajoen (E- und Z-Ajoen)",
+      "category": "other",
+      "percent_range": "Spurenmengen bis ca. 0.1 % in öligen Auszügen",
+      "note": {
+        "de": "Sekundäres Abbauprodukt aus Allicin in öliger Umgebung. Stark thrombozytenaggregationshemmend, antimykotisch; trägt wesentlich zu den kardiovaskulären Wirkungen öliger Knoblauchpräparate bei.",
+        "en": "Secondary breakdown product of allicin in oily media. Strongly antiplatelet, antifungal; contributes substantially to cardiovascular effects of oil-based garlic preparations."
+      }
+    },
+    {
+      "name": "Diallylsulfide (DADS, DATS, Diallylsulfid)",
+      "category": "essential_oil",
+      "percent_range": "Hauptbestandteile des ätherischen Öls (ca. 0.1-0.2 % der Frischdroge)",
+      "note": {
+        "de": "Lipophile Polysulfide aus dem Allicin-Abbau, in Knoblauchöl angereichert. Antimikrobielle, antioxidative und chemopräventive Effekte werden in vitro und tierexperimentell beschrieben.",
+        "en": "Lipophilic polysulphides from allicin breakdown, enriched in garlic oil. Antimicrobial, antioxidant and chemopreventive effects described in vitro and in animal studies."
+      }
+    },
+    {
+      "name": "γ-Glutamyl-S-allyl-L-cysteine",
+      "category": "other",
+      "percent_range": "0.1-0.5 % in der getrockneten Droge",
+      "note": {
+        "de": "Wasserlösliche Schwefelverbindung, Reservestoff der Zwiebel; in gealtertem Knoblauchextrakt (AGE) wichtige Leitsubstanz, dort zu S-Allylcystein umgewandelt.",
+        "en": "Water-soluble sulphur compound, storage substance of the bulb; key marker in aged garlic extract (AGE), there converted to S-allylcysteine."
+      }
+    },
+    {
+      "name": "Saponine (z. B. Eruboside B, Sativoside B1)",
+      "category": "saponin",
+      "percent_range": "ca. 0.05-0.1 %",
+      "note": {
+        "de": "Steroidsaponine mit cholesterinsenkenden und milden hämolytischen Eigenschaften; tragen zur lipidsenkenden Gesamtwirkung bei.",
+        "en": "Steroidal saponins with cholesterol-lowering and mild haemolytic properties; contribute to the overall lipid-lowering effect."
+      }
+    },
+    {
+      "name": "Fructane (Inulin-Typ)",
+      "category": "polysaccharide",
+      "percent_range": "ca. 11-15 % der Frischdroge",
+      "note": {
+        "de": "Speicherkohlenhydrate vom Inulin-Typ; präbiotisch wirksam, fördern eine günstige Darmflora. Bei FODMAP-empfindlichen Personen Quelle von Blähungen.",
+        "en": "Inulin-type storage carbohydrates; prebiotic, support a favourable gut flora. In FODMAP-sensitive individuals a source of bloating."
+      }
+    },
+    {
+      "name": "Adenosin und Nikotinsäure",
+      "category": "other",
+      "percent_range": "Spurenmengen",
+      "note": {
+        "de": "Adenosin gilt als ein Cofaktor der gefässerweiternden und thrombozytenmodulierenden Wirkung; ergänzt das schwefelorganische Wirkprofil.",
+        "en": "Adenosine is considered a cofactor of the vasodilatory and platelet-modulating effect; complements the organosulphur profile."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "bulb",
+      "drying": {
+        "de": "Zwiebeln mit Laub 2-4 Wochen luftig, schattig und trocken bei 20-25 °C nachreifen lassen (Zöpfe flechten oder auf Horden auslegen). Anschliessend Laub und Wurzeln einkürzen und kühl (5-10 °C), trocken und dunkel lagern; so mehrere Monate haltbar.",
+        "en": "Cure bulbs with foliage for 2-4 weeks in an airy, shaded, dry place at 20-25 °C (braided or on trays). Then trim foliage and roots and store cool (5-10 °C), dry and dark; keeps for several months."
+      },
+      "source_ids": [
+        "src_pfaf_allium",
+        "src_heilkraeuter_allium"
+      ],
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Ernte von Mitte Juli bis August, sobald etwa zwei Drittel des Laubes vergilbt und umgeknickt sind. Bei früherer Ernte sind die Zehen noch schlecht ausgebildet, bei zu später platzen die Hüllblätter auf und die Lagerfähigkeit sinkt.",
+        "en": "Harvest from mid-July to August once about two-thirds of the foliage has yellowed and bent over. Earlier harvest yields poorly developed cloves; late harvest causes outer tunics to split and reduces storage life."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "drying": {
+        "de": "Frisch verwenden (Pesto, Salat, Aufstriche); für die Aufbewahrung einfrieren oder in Öl einlegen. Trocknung führt zu deutlichem Aromaverlust.",
+        "en": "Use fresh (pesto, salad, spreads); for storage freeze or pickle in oil. Drying leads to a marked loss of aroma."
+      },
+      "source_ids": [
+        "src_pfaf_allium",
+        "src_wiki_de_allium"
+      ],
+      "best_months": [
+        4,
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Junges Knoblauchgrün und Blütenschäfte (Scapes) im späten Frühjahr (April-Juni) vor der Zwiebelbildung schneiden; je früher, desto milder.",
+        "en": "Cut young garlic greens and flower scapes in late spring (April-June) before bulb formation; the earlier, the milder the flavour."
+      }
+    }
+  ]
+}

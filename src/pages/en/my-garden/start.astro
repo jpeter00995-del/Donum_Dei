@@ -1,0 +1,14 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import OnboardingWizard from '@/components/OnboardingWizard.tsx';
+
+// === 2. DATA ===
+const locale = 'en' as const;
+---
+
+<BaseLayout locale={locale} title="My Garden — Onboarding">
+  <section class="max-w-4xl mx-auto py-8 px-4">
+    <OnboardingWizard locale={locale} redirectTo="/en/my-garden/" client:load />
+  </section>
+</BaseLayout>

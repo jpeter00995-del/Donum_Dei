@@ -1,0 +1,453 @@
+{
+  "slug": "hyssopus-officinalis",
+  "names": {
+    "de": "Echter_Ysop",
+    "en": "Hyssopus officinalis",
+    "latin": "Hyssopus officinalis"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Beschreibung für Echter_Ysop folgt — siehe Wikipedia-Artikel.",
+    "en": "Hyssopus officinalis or hyssop is a shrub in the Lamiaceae or mint family native to Southern Europe, the Middle East, and the region surrounding the Caspian Sea. Due to its purported properties as an antiseptic, cough reliever, and expectorant, it has been used in traditional herbal medicine."
+  },
+  "teaser": {
+    "de": "Beschreibung für Echter_Ysop folgt — siehe Wikipedia-Artikel.",
+    "en": "Hyssopus officinalis or hyssop is a shrub in the Lamiaceae or mint family native to Southern Europe, the Middle East,..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Aufguss aus blühendem Ysopkraut ist das traditionelle Mittel bei Bronchitis, hartnäckigem Husten und Verschleimung der Atemwege. Das Diterpen-Lacton Marrubiin gilt als Hauptverantwortlicher der schleimlösenden (expektorierenden) Wirkung.",
+        "en": "Infusion from flowering hyssop herb is the traditional remedy for bronchitis, persistent cough, and mucus congestion of the airways. The diterpene lactone marrubiin is considered the primary agent responsible for the expectorant (mucus-loosening) action."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "2–4 g getrocknetes blühendes Kraut mit kochendem Wasser aufgießen, 10 Minuten ziehen lassen, abseihen. 3 × täglich 1 Tasse, maximal 4 Wochen.",
+          "en": "Pour boiling water over 2–4 g dried flowering herb, steep 10 minutes, strain. 3 cups daily, maximum 4 weeks."
+        }
+      },
+      "source_ids": [
+        "src_wp_en_ho",
+        "src_pfaf_ho",
+        "src_plants_ho"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat",
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Konzentrierter abgekühlter Aufguss zum Gurgeln bei Halsschmerzen und Entzündungen der Mundschleimhaut. Die adstringierenden Gerbstoffe und antimikrobiellen Phenolsäuren unterstützen die antiseptische Wirkung.",
+        "en": "Concentrated cooled infusion used as a gargle for sore throat and oral mucosa inflammation. Astringent tannins and antimicrobial phenolic acids support the antiseptic action."
+      },
+      "source_ids": [
+        "src_wp_en_ho",
+        "src_plants_ho"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Ysoptee regt die Magensaftproduktion an, wirkt karminativ (blähungswidrig) und lindert Krämpfe des oberen Verdauungstraktes. Historisch bei chronischer Gastritis, Appetitlosigkeit und Völlegefühl eingesetzt.",
+        "en": "Hyssop tea stimulates gastric secretion, acts carminatively (reducing flatulence), and relieves cramps of the upper digestive tract. Historically used in chronic gastritis, loss of appetite, and bloating."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–3 g getrocknetes Kraut aufgießen; vor oder nach den Mahlzeiten warm trinken.",
+          "en": "Pour boiling water over 2–3 g dried herb; drink warm before or after meals."
+        }
+      },
+      "source_ids": [
+        "src_wp_en_ho",
+        "src_plants_ho",
+        "src_pfaf_ho"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische oder getrocknete Ysopblätter und -blüten als aromatisches Würzkraut in der mediterranen und Nahost-Küche. Bestandteil des nahöstlichen Gewürzmischung Za'atar; auch in Chartreuse und Absinth verwendet. Intensives minziges Aroma mit leichter Bitterkeit.",
+        "en": "Fresh or dried hyssop leaves and flowers used as an aromatic culinary herb in Mediterranean and Middle Eastern cuisine. Component of the Middle Eastern spice blend za'atar; also used in Chartreuse and absinthe. Intense minty flavour with a slight bitterness."
+      },
+      "source_ids": [
+        "src_wp_en_ho"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin",
+        "joints"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Warme Umschläge mit konzentriertem Ysopaufguss bei Rheuma, Prellungen und schlecht heilenden Wunden. Antimikrobielle und entzündungshemmende Eigenschaften des ätherischen Öls und der Flavonoide unterstützen die lokale Anwendung.",
+        "en": "Warm compresses with concentrated hyssop infusion applied for rheumatism, bruises, and poorly healing wounds. Antimicrobial and anti-inflammatory properties of the essential oil and flavonoids support topical application."
+      },
+      "source_ids": [
+        "src_plants_ho",
+        "src_pfaf_ho"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Dampfinhalation mit Ysopkraut-Aufguss bei Katarrhen der oberen Atemwege. 1,8-Cineol (Cineol) im ätherischen Öl hat schleimhautreizlindernde und bronchuserweiternde Wirkung.",
+        "en": "Steam inhalation with hyssop herb infusion for upper respiratory tract catarrh. 1,8-Cineole in the essential oil has mucosal soothing and bronchodilatory properties."
+      },
+      "source_ids": [
+        "src_plants_ho"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Ätherisches Öl NUR äußerlich und verdünnt anwenden; niemals pur einnehmen. Schon kleine Mengen reines Öl (2–3 Tropfen bei Kindern) können Krampfanfälle auslösen. Tee in normaler Dosierung gilt als sicher für Erwachsene.",
+      "en": "Essential oil for EXTERNAL use only and diluted; never ingest neat. Even small amounts of pure oil (2–3 drops in children) can trigger seizures. Tea in normal dosage is considered safe for adults."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Nicht während der Schwangerschaft anwenden — kann Uteruskontraktionen auslösen und Fehlgeburten begünstigen.",
+        "en": "Do not use during pregnancy — may induce uterine contractions and promote miscarriage."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten für die Stillzeit; vorsorglich meiden.",
+        "en": "Insufficient data for breastfeeding; avoid as a precaution."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Ätherisches Öl für Kinder jeglichen Alters kontraindiziert. Tee aus dem Kraut in kleinen Mengen bei Kindern über 12 Jahren mit ärztlicher Absprache möglich; unter 12 Jahren nur unter Aufsicht.",
+        "en": "Essential oil contraindicated for children of any age. Tea from the herb in small amounts may be used in children over 12 with medical guidance; under 12 only under supervision."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antikonvulsiva / Antiepileptika",
+        "mechanism": {
+          "de": "Pinocamphor im ätherischen Öl kann prokonvulsive Wirkung haben — kontraindiziert bei Epilepsie. Interaktion mit Antikonvulsiva möglich.",
+          "en": "Pinocamphone in the essential oil may have pro-convulsant action — contraindicated in epilepsy. Interaction with anticonvulsants possible."
+        },
+        "severity": "avoid",
+        "source_id": "src_pfaf_ho"
+      },
+      {
+        "drug_class": "Sedativa / Schlafmittel",
+        "mechanism": {
+          "de": "Additive dämpfende Wirkung auf das Zentralnervensystem möglich.",
+          "en": "Possible additive CNS depressant effect."
+        },
+        "severity": "monitor",
+        "source_id": "src_pfaf_ho"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Schwangerschaft.",
+        "en": "Pregnancy."
+      },
+      {
+        "de": "Epilepsie oder andere Krampfleiden (bei ätherischem Öl absolut kontraindiziert, Tee mit Vorsicht).",
+        "en": "Epilepsy or other seizure disorders (essential oil absolutely contraindicated; tea with caution)."
+      },
+      {
+        "de": "Bekannte Überempfindlichkeit gegen Lippenblütler (Lamiaceae).",
+        "en": "Known hypersensitivity to plants in the Lamiaceae family."
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter_Ysop (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Ysop",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Hyssopus officinalis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Hyssopus_officinalis",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_en_ho",
+      "type": "wikipedia",
+      "title": "Hyssop (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Hyssop",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_ho",
+      "type": "wikipedia",
+      "title": "Echter Ysop (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Ysop",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_ho",
+      "type": "monograph",
+      "title": "Hyssopus officinalis — Plants for a Future database",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Hyssopus+officinalis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_plants_ho",
+      "type": "monograph",
+      "title": "Atazhanova et al. (2024): The Genus Hyssopus: Traditional Use, Phytochemicals and Pharmacological Properties — Plants",
+      "url": "https://doi.org/10.3390/plants13121683",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "hyssopus-officinalis.jpg",
+    "alt": {
+      "de": "Foto von Echter_Ysop",
+      "en": "Photo of Hyssopus officinalis"
+    },
+    "license": "Public domain",
+    "author": "User:Topjabot",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Hyssopus_officinalis0.jpg"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "cucurbita-pepo",
+      "fragaria-vesca"
+    ],
+    "bad_partners": [],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 9
+    },
+    "days_to_harvest": 100,
+    "spacing_cm": 30,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 2
+  },
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "aromatic_repellent",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Pinocamphor und cis-Pinocamphor",
+      "category": "essential_oil",
+      "percent_range": "2,94–63,55 % im ätherischen Öl",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Charakteristische Ketone des Ysop-Öls; verantwortlich für das expektorante Potenzial, aber auch für das neurotoxische (prokonvulsive) Risiko bei Überdosierung.",
+        "en": "Characteristic ketones of hyssop oil; responsible for the expectorant potential but also for the neurotoxic (pro-convulsant) risk at excessive doses."
+      }
+    },
+    {
+      "name": "1,8-Cineol (Eucalyptol)",
+      "category": "essential_oil",
+      "percent_range": "bis zu 53 % im ätherischen Öl (Chemotyp-abhängig)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Monoterpen-Oxid; schleimlösend, bronchuserweitend und entzündungshemmend in den Atemwegen.",
+        "en": "Monoterpene oxide; mucolytic, bronchodilatory, and anti-inflammatory in the respiratory tract."
+      }
+    },
+    {
+      "name": "Marrubiin",
+      "category": "bitter",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Diterpen-Lacton; gilt als Hauptverantwortlicher der expektorierenden Wirkung des Ysops; strukturell verwandt mit dem Marrubiin des Weißen Andorns (Marrubium vulgare).",
+        "en": "Diterpene lactone; considered the primary agent responsible for hyssop's expectorant action; structurally related to the marrubiin of white horehound (Marrubium vulgare)."
+      }
+    },
+    {
+      "name": "Diosmin und Hesperidin",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Flavonoid-Glykoside; Diosmin stärkt die Kapillarwände und wirkt venösen Problemen entgegen; Hesperidin antioxidativ und anti-inflammatorisch.",
+        "en": "Flavonoid glycosides; diosmin strengthens capillary walls and counters venous problems; hesperidin is antioxidant and anti-inflammatory."
+      }
+    },
+    {
+      "name": "Rosmarinsäure",
+      "category": "phenolic_acid",
+      "percent_range": "ca. 0,5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Polyphenolische Säure mit antioxidativen, antimikrobiellen und entzündungshemmenden Eigenschaften; in der Lamiaceae-Familie weit verbreitet.",
+        "en": "Polyphenolic acid with antioxidant, antimicrobial, and anti-inflammatory properties; widespread in the Lamiaceae family."
+      }
+    },
+    {
+      "name": "Luteolin, Apigenin und Quercetin (Glykoside)",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavone und Flavonole mit antioxidativen und entzündungshemmenden Eigenschaften; Luteolin zeigt zusätzlich antispasmodisches Potenzial.",
+        "en": "Flavones and flavonols with antioxidant and anti-inflammatory properties; luteolin shows additional antispasmodic potential."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine)",
+      "category": "tannin",
+      "percent_range": "5–8 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hoher Tanningehalt bedingt adstringierende Wirkung auf Schleimhäute; relevant für Gurgel- und Wundanwendungen.",
+        "en": "High tannin content provides astringent action on mucous membranes; relevant for gargling and wound applications."
+      }
+    },
+    {
+      "name": "β-Pinen",
+      "category": "essential_oil",
+      "percent_range": "6,69–21,91 % im ätherischen Öl",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Bicyclisches Monoterpen; antimikrobiell und antifungisch; trägt zum frisch-holzigen Geruch des Ysops bei.",
+        "en": "Bicyclic monoterpene; antimicrobial and antifungal; contributes to the fresh-woody scent of hyssop."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus, an trockenem, sonnigem Wetter für höchsten Ölgehalt.",
+        "en": "Morning after dew has dried, in dry sunny weather for highest oil content."
+      },
+      "drying": {
+        "de": "Triebe zu kleinen Bündeln binden und kopfüber an belüfteten, schattigen Stellen trocknen. Trocknungszeit ca. 6 Tage; Trockengewicht ca. ein Drittel des Frischgewichts.",
+        "en": "Tie shoots into small bundles and hang upside down in a ventilated, shaded location. Drying time approx. 6 days; dry weight approximately one-third of fresh weight."
+      },
+      "storage_months": 18,
+      "storage_condition": {
+        "de": "In dunklen, luftdichten Behältern bei Raumtemperatur; bis zu 18 Monate haltbar.",
+        "en": "In dark, airtight containers at room temperature; usable for up to 18 months."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Erste Ernte bei beginnendem Aufblühen (Mai–Juni) möglich; zweite Ernte in Vollblüte (Juli–August) liefert mehr ätherisches Öl.",
+        "en": "First harvest at start of flowering (May–June) possible; second harvest at full bloom (July–August) yields more essential oil."
+      },
+      "drying": {
+        "de": "Wie bei der Sommerhaupternte; frühes Schneiden fördert einen kräftigen zweiten Austrieb.",
+        "en": "Same as main summer harvest; early cutting encourages a vigorous second flush of growth."
+      },
+      "storage_months": 18,
+      "storage_condition": {
+        "de": "In dunklen, luftdichten Behältern, trocken und kühl lagern.",
+        "en": "Store in dark, airtight containers, dry and cool."
+      }
+    }
+  ]
+}

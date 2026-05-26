@@ -1,0 +1,553 @@
+{
+  "slug": "solanum-lycopersicum",
+  "names": {
+    "de": "Tomate",
+    "en": "Tomato",
+    "latin": "Solanum lycopersicum"
+  },
+  "family": {
+    "de": "Nachtschattengewächse",
+    "en": "Nightshade family",
+    "latin": "Solanaceae"
+  },
+  "description": {
+    "de": "Die Tomate, in Österreich sowie in Südtirol auch der Paradeiser bzw. die Paradeis genannt, ist eine Pflanzenart aus der Familie der Nachtschattengewächse (Solanaceae). Damit ist sie eng mit anderen Speisegewächsen wie der Kartoffel, der Paprika (Capsicum) und der Aubergine verwandt, aber auch mit Pflanzen wie der Tollkirsche, der Alraune, der Engelstrompete, der Petunie oder dem Tabak (Nicotiana).",
+    "en": "The tomato is a plant whose fruit is an edible berry that is eaten as a vegetable. The tomato is a member of the nightshade family that includes tobacco, potato, and chili peppers. It originated from western South America, and may have been domesticated there, in Mexico, or in Central America."
+  },
+  "teaser": {
+    "de": "Die Tomate, in Österreich sowie in Südtirol auch der Paradeiser bzw.",
+    "en": "The tomato is a plant whose fruit is an edible berry that is eaten as a vegetable."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Reife Tomatenfrüchte roh verzehrt liefern Lycopin (starkes Carotinoid-Antioxidans), Vitamin C, Vitamin K, Kalium und Dietary Fiber. Klinische Studien und EFSA-Gutachten belegen die ernährungsphysiologische Bedeutung dieser Nährstoffe für oxidativen Stress, Immunfunktion und Herzgesundheit. Lycopin wird aus erhitzten Tomatenprodukten (Paste, Sauce) besser absorbiert als aus rohen Früchten.",
+        "en": "Raw ripe tomato fruits supply lycopene (potent carotenoid antioxidant), vitamin C, vitamin K, potassium and dietary fibre. Clinical studies and EFSA opinions confirm the nutritional relevance of these nutrients for oxidative stress, immune function and cardiovascular health. Lycopene is better absorbed from heated tomato products (paste, sauce) than from raw fruit."
+      },
+      "source_ids": [
+        "src_efsa_lycopene",
+        "src_usda_fooddata",
+        "src_wp_en"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Tomatenmark, -paste und eingekochte Saucen (Passata) sind kulinarische Zubereitungen, in denen Lycopin durch thermische Behandlung und die gleichzeitige Anwesenheit von Fett (Olivenöl) wesentlich besser bioverfügbar wird. Grundlage mediterraner Küche (Sofrito, Sugo) — diese erhitzten Zubereitungen sind ernährungsphysiologisch wertvoller als roher Tomatensaft hinsichtlich Lycopin-Aufnahme.",
+        "en": "Tomato paste, puree and cooked sauces (passata) are culinary preparations in which lycopene bioavailability is substantially improved by heat processing and co-presence of fat (olive oil). Foundation of Mediterranean cuisine (sofrito, sugo) — these cooked preparations are nutritionally superior to raw tomato juice in terms of lycopene uptake."
+      },
+      "source_ids": [
+        "src_efsa_lycopene",
+        "src_usda_fooddata",
+        "src_pfaf_solanum"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "circulation",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Regelmäßiger Tomatenkonsum ist in epidemiologischen Studien mit reduziertem Risiko für kardiovaskuläre Erkrankungen assoziiert, was auf den kombinierten Effekt von Lycopin, Kalium, Folat und Phenolsäuren zurückgeführt wird. Das EFSA-Panel bekräftigt die Belegkette für Lycopin-Antioxidans-Wirkung; direkte klinische Endpunkte sind laut EFSA 2011 jedoch noch nicht ausreichend belegt für einen Health-Claim auf Produktebene.",
+        "en": "Regular tomato consumption is associated with reduced cardiovascular disease risk in epidemiological studies, attributed to the combined effect of lycopene, potassium, folate and phenolic acids. The EFSA panel confirms the evidence chain for lycopene antioxidant activity; however, direct clinical endpoints remain insufficient per EFSA 2011 for an approved product-level health claim."
+      },
+      "source_ids": [
+        "src_efsa_lycopene",
+        "src_efsa_cardiovascular",
+        "src_wp_en"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "skin"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinisch wurden Tomaten äußerlich aufgelegt (Scheibenauflage) bei Sonnenbrand und leichten Hautentzündungen — die leichte Säure (Zitronen- und Apfelsäure) und das Lycopin gelten als kühlend und reizlindernd. Diese Volksanwendung ist nicht klinisch validiert; die Haut-Photoprotektionswirkung oraler Lycopin-Zufuhr ist dagegen Gegenstand klinischer Studien.",
+        "en": "In folk medicine, tomato slices were applied topically to sunburn and minor skin irritations — the mild acidity (citric and malic acid) and lycopene are considered cooling and soothing. This folk application is not clinically validated; however, the photoprotective effect of oral lycopene intake is the subject of clinical investigation."
+      },
+      "source_ids": [
+        "src_wp_de",
+        "src_pfaf_solanum"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der europäischen Volksmedizin wurden Tomaten (frischer Saft, rohe Früchte) bei Harnwegs-Beschwerden und als leicht diuretisch wirkende Kost eingesetzt. Ihr hoher Wassergehalt (~95 %) und Kaliumgehalt unterstützen die Nierendurchspülung. Eine spezifische klinische Belegung fehlt; der diätetische Einsatz kaliumreicher Gemüse ist ernährungswissenschaftlich anerkannt.",
+        "en": "In European folk medicine, tomatoes (fresh juice, raw fruit) were used for urinary complaints and considered mildly diuretic food. Their high water content (~95 %) and potassium content support renal flushing. Specific clinical evidence is lacking; the dietary use of potassium-rich vegetables is nutritionally recognised."
+      },
+      "source_ids": [
+        "src_wp_de",
+        "src_pfaf_solanum"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Getrocknete Tomaten (Oven-dried, Sole sott'olio) sind ein traditionelles Haltbarmachungsprodukt der süditalienischen und spanischen Küche. Durch Wasserentzug konzentrieren sich Lycopin, Glutaminsäure (Umami), Zucker und Mineralstoffe stark — getrocknete Tomaten haben etwa 10-fach höheren Lycopin-Gehalt pro Gewichtseinheit als frische Früchte.",
+        "en": "Dried tomatoes (oven-dried, sott'olio) are a traditional preservation product of southern Italian and Spanish cuisine. Water removal concentrates lycopene, glutamic acid (umami), sugars and minerals strongly — dried tomatoes have approximately 10-fold higher lycopene content per unit weight than fresh fruit."
+      },
+      "source_ids": [
+        "src_usda_fooddata",
+        "src_wp_en",
+        "src_pfaf_solanum"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Tomatensaft und frisch gepresste Tomatenprodukte (Gazpacho, kalte Suppen) sind eine traditionelle Form der Gemüseaufnahme in der Mittelmeerkost. Tomatensaft enthält signifikante Mengen an Lycopin, Vitamin C, Kalium und organischen Säuren und ist in diesem Kontext Teil der WHO-empfohlenen Mittelmeer-Ernährungsmuster.",
+        "en": "Tomato juice and freshly pressed tomato products (gazpacho, cold soups) are a traditional vegetable intake form in the Mediterranean diet. Tomato juice contains significant amounts of lycopene, vitamin C, potassium and organic acids, and is in this context part of WHO-recommended Mediterranean dietary patterns."
+      },
+      "source_ids": [
+        "src_usda_fooddata",
+        "src_wp_en",
+        "src_wp_de"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "reife Früchte (Sommer-Herbst)",
+      "en": "ripe fruits (summer-autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Grüne, unreife Tomatenfrüchte und alle grünen Pflanzenteile (Blätter, Stängel, unreife Früchte) enthalten Tomatin (ein Steroid-Glykoalkaloid) sowie Spuren Solanin — roh und in größeren Mengen giftig (Übelkeit, Magen-Darm-Beschwerden, Kopfschmerzen). Vollreife, rote Früchte sind sicher und enthalten nur vernachlässigbare Alkaloidspuren. Personen mit Histaminintoleranz oder Reizdarm können auf Tomaten empfindlich reagieren (Histamin-Freisetzung, Säure-Irritation). Bei bekannter Nachtschattenallergie (Solanaceae) Kreuzreaktion möglich.",
+      "en": "Green, unripe tomato fruits and all green plant parts (leaves, stems, unripe fruits) contain tomatine (a steroid glycoalkaloid) and traces of solanine — toxic raw in larger amounts (nausea, GI upset, headache). Fully ripe red fruits are safe with only negligible alkaloid traces. Persons with histamine intolerance or IBS may react sensitively to tomatoes (histamine release, acid irritation). Cross-reaction possible in known nightshade (Solanaceae) allergy."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Reife Tomaten sind in normalen Nahrungsmengen in Schwangerschaft und Stillzeit unbedenklich und nutritiv wertvoll (Folat, Vitamin C, Kalium). Grüne Früchte und Pflanzenteile meiden.",
+        "en": "Ripe tomatoes are safe and nutritionally valuable in normal dietary amounts during pregnancy and lactation (folate, vitamin C, potassium). Avoid green fruits and plant parts."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Reife Tomaten in Nahrungsmengen unbedenklich. Bei kolikartig reagierenden Säuglingen tageweise auf Tomaten in der mütterlichen Ernährung verzichten und Reaktion beobachten.",
+        "en": "Ripe tomatoes in dietary amounts are safe. If the infant shows colicky reactions, temporarily omit tomatoes from the maternal diet and observe."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Reife Tomaten ab dem Beikostalter (ca. 6 Monate) unbedenklich. Grüne Früchte und Pflanzenteile für Kinder strikt meiden — geringere Körpermasse erhöht Vergiftungsrisiko durch Tomatin/Solanin.",
+        "en": "Ripe tomatoes safe from weaning age (approx. 6 months). Green fruits and plant parts must be strictly avoided for children — lower body mass increases poisoning risk from tomatine/solanine."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antazida und Protonenpumpenhemmer (PPI)",
+        "mechanism": {
+          "de": "Tomaten und Tomatensaft sind durch ihren Gehalt an Zitronen- und Apfelsäure (pH ~4) säurereich und können bei Personen mit Reflux oder Magenulkus die Symptome verstärken. Kein pharmakologische Wechselwirkung im engen Sinn, aber ernährungsbedingte Interaktion, die Medikationsbedarf beeinflussen kann.",
+          "en": "Tomatoes and tomato juice are acidic (pH ~4, citric and malic acid) and can worsen symptoms in persons with reflux or peptic ulcer. No pharmacological interaction in the strict sense, but a dietary interaction that may affect medication requirements."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Antikoagulanzien (Warfarin, Phenprocoumon)",
+        "mechanism": {
+          "de": "Tomaten enthalten Vitamin K1 (Phylloquinon, ~7–8 µg/100 g frisch). Bei stark schwankendem Tomatenkonsum können INR-Werte bei Patienten unter Vitamin-K-Antagonisten minimal beeinflusst werden. Der Vitamin-K-Gehalt ist im Vergleich zu Blattgemüse (Spinat, Grünkohl) sehr gering — klinisch selten relevant, aber Konsistenz der Zufuhr empfohlen.",
+          "en": "Tomatoes contain vitamin K1 (phylloquinone, ~7–8 µg/100 g fresh). Strongly fluctuating tomato consumption may minimally affect INR values in patients on vitamin K antagonists. The vitamin K content is very low compared to leafy greens (spinach, kale) — clinically rarely relevant, but consistency of intake is recommended."
+        },
+        "severity": "monitor",
+        "source_id": "src_usda_fooddata"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Tomaten oder andere Nachtschattengewächse (Solanaceae) — Kreuzallergie mit Kartoffel, Paprika, Aubergine möglich.",
+        "en": "Hypersensitivity to tomatoes or other Solanaceae — cross-allergy with potato, pepper, aubergine possible."
+      },
+      {
+        "de": "Schwere gastroösophageale Refluxkrankheit (GERD) oder Magengeschwür: Tomatensaft und -produkte können Beschwerden durch hohen Säuregehalt verstärken — individuelle Verträglichkeit beobachten.",
+        "en": "Severe gastro-oesophageal reflux disease (GERD) or peptic ulcer: tomato juice and products may worsen complaints due to high acidity — monitor individual tolerance."
+      },
+      {
+        "de": "Diagnostizierte Histaminintoleranz: Tomaten sind histaminreich und können Beschwerden (Flush, Kopfschmerzen, Magen-Darm-Symptome) auslösen — Menge einschränken oder meiden.",
+        "en": "Diagnosed histamine intolerance: tomatoes are high in histamine and can trigger complaints (flush, headache, GI symptoms) — limit or avoid."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Tomate (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Tomate",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Tomato (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Tomato",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_efsa_lycopene",
+      "type": "monograph",
+      "title": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA) — Scientific Opinion on the substantiation of health claims related to lycopene (2011), EFSA Journal 9(4):2031",
+      "url": "https://doi.org/10.2903/j.efsa.2011.2031",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_efsa_cardiovascular",
+      "type": "monograph",
+      "title": "EFSA NDA Panel — Scientific Opinion on Dietary Reference Values for potassium (2016), EFSA Journal 14(10):4592",
+      "url": "https://doi.org/10.2903/j.efsa.2016.4592",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_usda_fooddata",
+      "type": "monograph",
+      "title": "USDA FoodData Central — Tomatoes, red, ripe, raw, year round average (FDC ID: 170457)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170457/nutrients",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_solanum",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Solanum lycopersicum database entry",
+      "url": "https://pfaf.org/user/plant.aspx?LatinName=Solanum+lycopersicum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de",
+      "type": "wikipedia",
+      "title": "Tomate (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Tomate",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en",
+      "type": "wikipedia",
+      "title": "Tomato (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Tomato",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_tomato",
+      "type": "wikidata",
+      "title": "Solanum lycopersicum — Wikidata item Q23561",
+      "url": "https://www.wikidata.org/wiki/Q23561",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_commons_tomato",
+      "type": "commons",
+      "title": "Wikimedia Commons — Category:Solanum lycopersicum (images, illustrations)",
+      "url": "https://commons.wikimedia.org/wiki/Category:Solanum_lycopersicum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_bls_tomato",
+      "type": "monograph",
+      "title": "Bundeslebensmittelschlüssel (BLS) / Bundesinstitut für Risikobewertung — Nährwertdaten Tomate (rohe Frucht), BfR/MRI Nährwerttabellen",
+      "url": "https://www.mri.bund.de/de/themen/ernnaehrung/bundeslebensmittelschluessel/",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "solanum-lycopersicum.jpg",
+    "alt": {
+      "de": "Foto von Tomate",
+      "en": "Photo of Tomato"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Unknown",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tomatoes-on-the-bush.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 2,
+        "end_month": 4
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 7,
+      "end_month": 10
+    },
+    "days_to_harvest": 90,
+    "spacing_cm": 60,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field",
+      "greenhouse"
+    ],
+    "difficulty": 1
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-cepa",
+      "allium-sativum",
+      "allium-schoenoprasum",
+      "apium-graveolens",
+      "calendula-officinalis",
+      "ocimum-basilicum",
+      "petroselinum-crispum",
+      "petroselinum-crispum-tuberosum",
+      "tagetes-patula",
+      "tropaeolum-majus"
+    ],
+    "bad_partners": [
+      "brassica-oleracea-capitata-alba",
+      "brassica-oleracea-capitata-rubra",
+      "brassica-oleracea-italica",
+      "cucumis-sativus",
+      "foeniculum-vulgare",
+      "solanum-tuberosum"
+    ],
+    "reasons": {
+      "allium-sativum": {
+        "de": "Klassiker: Knoblauch in jedem Tomatenbeet — hält Mehltau fern.",
+        "en": "Classic: garlic in every tomato bed — deters mildew."
+      },
+      "allium-schoenoprasum": {
+        "de": "Schnittlauch hält Aphiden von Tomaten fern und lockt Bienen für Bestäubung.",
+        "en": "Chives deter aphids from tomatoes and attract bees for pollination."
+      },
+      "apium-graveolens": {
+        "de": "Sellerie-Duft maskiert Tomate vor Schädlingen.",
+        "en": "Celery scent masks tomato from pests."
+      },
+      "brassica-oleracea-capitata-alba": {
+        "de": "Tomate und Kohl konkurrieren stark um Stickstoff.",
+        "en": "Tomato and cabbage compete heavily for nitrogen."
+      },
+      "calendula-officinalis": {
+        "de": "Ringelblume lockt Nützlinge und vertreibt Nematoden.",
+        "en": "Calendula attracts beneficials and deters nematodes."
+      },
+      "cucumis-sativus": {
+        "de": "Tomate und Gurke teilen Pilzkrankheiten (Mehltau) — infizieren sich.",
+        "en": "Tomato and cucumber share fungal disease (mildew) — cross-infection."
+      },
+      "foeniculum-vulgare": {
+        "de": "Fenchel hemmt Tomaten-Wachstum stark (allelopathisch).",
+        "en": "Fennel strongly inhibits tomato growth (allelopathic)."
+      },
+      "ocimum-basilicum": {
+        "de": "Basilikum vertreibt Weiße Fliege und verbessert Tomatenaroma.",
+        "en": "Basil deters whitefly and improves tomato aroma."
+      },
+      "petroselinum-crispum": {
+        "de": "Petersilie lockt Florfliegen, die Blattläuse fressen.",
+        "en": "Parsley attracts lacewings that eat aphids."
+      },
+      "solanum-tuberosum": {
+        "de": "Beide Nachtschattengewächse — Kraut- und Knollenfäule überträgt sich.",
+        "en": "Both Solanaceae — late blight transfers between them."
+      },
+      "tagetes-patula": {
+        "de": "Tagetes-Wurzeln vertreiben Nematoden im Tomatenbeet.",
+        "en": "Marigold roots deter nematodes in the tomato bed."
+      },
+      "tropaeolum-majus": {
+        "de": "Kapuzinerkresse zieht Blattläuse von der Tomate ab (Köderpflanze).",
+        "en": "Nasturtium pulls aphids away from tomato (trap plant)."
+      }
+    },
+    "notes_de": "ocimum-basilicum: Klassisch: Basilikum hält Weiße Fliege fern und verbessert Tomatenaroma. petroselinum-crispum: Petersilie lockt Nützlinge zu Tomate. tagetes-patula: Tagetes vertreibt Nematoden im Tomatenbeet. allium-sativum: Knoblauch hält Tomaten-Schädlinge fern. tropaeolum-majus: Kapuzinerkresse ist Blattlaus-Köder für Tomate. brassica-oleracea-capitata-alba: Tomate und Kohl konkurrieren stark um Nährstoffe. foeniculum-vulgare: Fenchel hemmt Tomatenwachstum stark. cucumis-sativus: Tomate und Gurke teilen Pilzkrankheiten (Mehltau). solanum-tuberosum: Beide Nachtschattengewächse — Kraut- und Knollenfäule überträgt sich. allium-schoenoprasum: Schnittlauch hält Aphiden von Tomaten fern und lockt Bienen.",
+    "notes_en": "ocimum-basilicum: Classic: basil deters whitefly and improves tomato aroma. petroselinum-crispum: Parsley attracts beneficial insects to tomato. tagetes-patula: Marigold deters nematodes in the tomato bed. allium-sativum: Garlic deters tomato pests. tropaeolum-majus: Nasturtium is an aphid trap for tomato. brassica-oleracea-capitata-alba: Tomato and cabbage compete heavily for nutrients. foeniculum-vulgare: Fennel strongly inhibits tomato growth. cucumis-sativus: Tomato and cucumber share fungal diseases (mildew). solanum-tuberosum: Both Solanaceae — late blight transfers between them. allium-schoenoprasum: Chives deter aphids from tomatoes and attract bees.",
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "vertical_mid",
+    "pollinator_attractor"
+  ],
+  "constituents": [
+    {
+      "name": "Lycopin",
+      "category": "other",
+      "percent_range": "0,002–0,02 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Rotes Carotinoid, Leitsubstanz der Tomate. Reife rote Tomaten enthalten 2–20 mg/100 g Frischgewicht, Konzentration variiert stark mit Sorte und Reifegrad. Gehört zu den stärksten natürlichen Antioxidantien. Bioverfügbarkeit aus erhitzten Produkten (Paste, Sauce) mit Fett deutlich höher als aus rohen Früchten (all-trans- zu cis-Isomeren-Umwandlung durch Hitze verbessert Absorption). EFSA hat einen Antioxidans-bezogenen Health Claim im Jahr 2011 abgelehnt, anerkennt aber den Substanznachweis.",
+        "en": "Red carotenoid, lead compound of the tomato. Ripe red tomatoes contain 2–20 mg/100 g fresh weight, concentration varies strongly with variety and ripeness. Among the most potent natural antioxidants. Bioavailability from heated products (paste, sauce) with fat is substantially higher than from raw fruit (heat converts all-trans to cis isomers, improving absorption). EFSA rejected an antioxidant-related health claim in 2011 but acknowledges the substance evidence."
+      }
+    },
+    {
+      "name": "Beta-Carotin",
+      "category": "other",
+      "percent_range": "0,0003–0,0006 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Provitamin A (Beta-Carotin) in geringen Mengen (~0,3–0,6 mg/100 g). Wird im Körper zu Retinol (Vitamin A) umgewandelt. In roten Tomaten deutlich geringer als Lycopin; in orangen und gelben Sorten höherer Beta-Carotin-Anteil relativ zu Lycopin.",
+        "en": "Provitamin A (beta-carotene) in small amounts (~0.3–0.6 mg/100 g). Converted to retinol (vitamin A) in the body. Significantly lower than lycopene in red tomatoes; orange and yellow varieties have higher beta-carotene relative to lycopene."
+      }
+    },
+    {
+      "name": "Ascorbinsäure (Vitamin C)",
+      "category": "vitamin",
+      "percent_range": "0,012–0,023 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "12–23 mg/100 g Frischgewicht — deckt bei 150 g Tomate ca. 20–30 % des täglichen Bedarfs (EFSA: 80 mg/Tag Erwachsene). Wasserlöslich und hitzeempfindlich: Kochen reduziert den Gehalt signifikant. Wichtig für Immunfunktion, Kollagensynthese und als antioxidativer Cofaktor.",
+        "en": "12–23 mg/100 g fresh weight — covers approximately 20–30 % of daily requirements (EFSA: 80 mg/day adults) with 150 g tomato. Water-soluble and heat-sensitive: cooking reduces content significantly. Important for immune function, collagen synthesis and as antioxidant cofactor."
+      }
+    },
+    {
+      "name": "Vitamin K1 (Phylloquinon)",
+      "category": "vitamin",
+      "percent_range": "0,000007–0,000009 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "7–9 µg/100 g Frischgewicht. Wichtig für Blutgerinnung und Knochenstoffwechsel. Gehalt deutlich niedriger als in Blattgemüse (Spinat: ~450 µg/100 g). Relevant für Patienten unter Vitamin-K-Antagonisten (Warfarin) nur bei sehr exzessivem Tomatenkonsum.",
+        "en": "7–9 µg/100 g fresh weight. Important for blood coagulation and bone metabolism. Content significantly lower than in leafy greens (spinach: ~450 µg/100 g). Relevant for patients on vitamin K antagonists (warfarin) only with very excessive tomato consumption."
+      }
+    },
+    {
+      "name": "Kalium",
+      "category": "mineral",
+      "percent_range": "0,237 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Ca. 237 mg/100 g Frischgewicht — relevante Kaliumquelle im Rahmen einer gemüsereichen Ernährung. Kalium unterstützt normale Muskelfunktion, Nervenreizleitung und trägt zur Aufrechterhaltung eines normalen Blutdrucks bei (EFSA bestätigter Claim). Gehalt bei Tomatenmark 10-fach konzentriert.",
+        "en": "Approx. 237 mg/100 g fresh weight — relevant potassium source within a vegetable-rich diet. Potassium supports normal muscle function, nerve conduction and contributes to normal blood pressure maintenance (EFSA-confirmed claim). Content 10-fold concentrated in tomato paste."
+      }
+    },
+    {
+      "name": "Zitronensäure und Apfelsäure (organische Säuren)",
+      "category": "other",
+      "percent_range": "0,4–0,7 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptverantwortlich für den pH-Wert (~4,0–4,5) und den charakteristischen säuerlichen Geschmack reifer Tomaten. Zitronensäure dominiert (~0,3–0,5 %), Apfelsäure in geringeren Mengen. Diese organischen Säuren machen Tomatenprodukte für Personen mit GERD oder Histaminintoleranz problematisch.",
+        "en": "Primarily responsible for the pH (~4.0–4.5) and characteristic tart flavour of ripe tomatoes. Citric acid dominates (~0.3–0.5 %), malic acid in lesser amounts. These organic acids make tomato products problematic for persons with GERD or histamine intolerance."
+      }
+    },
+    {
+      "name": "Tomatinidin-Glykoalkaloid Tomatin (in unreifen Früchten und Kraut)",
+      "category": "alkaloid",
+      "percent_range": "0,001–0,05 % (Grünfrucht)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Tomatin (alpha-Tomatin) ist ein Steroid-Glykoalkaloid, das in unreifen grünen Früchten, Blättern und Stängeln in relevanten Mengen vorkommt (bis 50 mg/100 g in Blättern). In vollreifen roten Früchten auf Spuren (<5 mg/100 g) abgebaut. Ursache der Toxizität grüner Tomaten (Übelkeit, Magen-Darm-Beschwerden, selten neurologische Symptome bei hoher Dosis). Kochen reduziert Tomatin nur gering.",
+        "en": "Tomatine (alpha-tomatine) is a steroidal glycoalkaloid occurring in relevant amounts in unripe green fruits, leaves and stems (up to 50 mg/100 g in leaves). Degraded to trace levels (<5 mg/100 g) in fully ripe red fruits. Responsible for the toxicity of green tomatoes (nausea, GI complaints, rarely neurological symptoms at high doses). Cooking reduces tomatine only minimally."
+      }
+    },
+    {
+      "name": "Nahrungsfasern (Dietary Fibre, überwiegend unlöslich)",
+      "category": "polysaccharide",
+      "percent_range": "1,2 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Ca. 1,2 g/100 g Frischgewicht. Überwiegend unlösliche Ballaststoffe (Zellulose, Hemizellulose in Schale und Trester). Unterstützen Darmpassage und Mikrobiom. In Tomatenprodukte (Passata mit Trester) höherer Ballaststoffgehalt als in Tomatensaft ohne Trester.",
+        "en": "Approx. 1.2 g/100 g fresh weight. Predominantly insoluble fibre (cellulose, hemicellulose in skin and pomace). Supports intestinal transit and microbiome. Tomato products with pomace (passata) have higher fibre content than tomato juice without pomace."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Ernte bevorzugt am Vormittag nach Abtrocknen des Taus — Früchte sind dann kühl und fest. Abends geerntete Tomaten haben nach Sonneneinstrahlung zwar intensiveres Aroma, sind aber wärmer und verderben schneller.",
+        "en": "Harvest preferably in the morning after dew has dried — fruits are then cool and firm. Evening-harvested tomatoes may have more intense aroma after sun exposure but are warmer and deteriorate more quickly."
+      },
+      "drying": {
+        "de": "Tomatenpflanzen fruktifizieren gestaffelt über mehrere Wochen — nicht alle Früchte reifen gleichzeitig. Täglich oder alle 2 Tage Reifegrad kontrollieren. Vollreife Früchte: gleichmäßig rote (oder sortenspezifisch gelbe, orange, schwarze) Farbe, leichtes Nachgeben auf Fingerdruck, Lostrennung vom Stiel mit sanftem Drehen. Unreife oder angerissene Früchte getrennt lagern. Grüne Tomaten für Einmachen oder Chutney erst nach dem Kochen verwenden — niemals roh in großen Mengen essen. Frische Tomaten nicht im Kühlschrank aufbewahren (Aromaverlust unter 12 °C) — dunkel bei 15–20 °C bis zu 5 Tage lagern. Für Trocknung: vollreife Früchte halbieren, Kerne herauslöffeln, bei 60–70 °C im Dörrautomaten oder Backofen (Tür leicht geöffnet) 8–12 Stunden trocknen bis ledrige Konsistenz.",
+        "en": "Tomato plants fruit in a staggered progression over several weeks — not all fruits ripen simultaneously. Check ripeness daily or every 2 days. Fully ripe fruits: uniformly red (or variety-specific yellow, orange, black), slight give under finger pressure, easy detachment from stem with a gentle twist. Store unripe or cracked fruits separately. Green tomatoes for pickling or chutney must be cooked — never consumed raw in large quantities. Do not refrigerate fresh tomatoes (flavour loss below 12 °C) — store dark at 15–20 °C for up to 5 days. For drying: halve fully ripe fruits, scoop out seeds, dry at 60–70 °C in a dehydrator or oven (door slightly ajar) for 8–12 hours until leathery."
+      },
+      "storage_months": 1
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Samengewinnung aus vollreifen, überreifen Früchten — idealerweise von kräftigen, gesunden Pflanzen der Lieblingssorten (Saatgutvermehrung). Ernte bei trockenem Wetter.",
+        "en": "Seed saving from fully ripe, over-ripe fruits — ideally from vigorous, healthy plants of favourite varieties (seed multiplication). Harvest in dry weather."
+      },
+      "drying": {
+        "de": "Samen aus vollreifen Früchten herauslöffeln, mit dem umgebenden Fruchtgelee in einem Glas mit Wasser bei Zimmertemperatur 2–3 Tage fermentieren lassen (Schimmel-Oberflächenschicht entfernen, Samen abschütten). Gute Samen sinken ab. Mit klarem Wasser waschen, auf Backpapier ausbreiten und 1–2 Wochen bei Zimmertemperatur vollständig trocknen. Kühl, dunkel, trocken in beschrifteten Papiertüten oder Gläsern aufbewahren — Keimfähigkeit bis 4–5 Jahre.",
+        "en": "Scoop seeds from fully ripe fruits, ferment in a glass of water with surrounding gel at room temperature for 2–3 days (remove mould surface layer, decant seeds). Good seeds sink. Wash with clean water, spread on baking paper and dry fully at room temperature for 1–2 weeks. Store cool, dark, dry in labelled paper bags or jars — viability up to 4–5 years."
+      },
+      "storage_months": 48
+    }
+  ]
+}

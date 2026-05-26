@@ -1,0 +1,884 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://donum-dei.pages.dev/plant_schema.json",
+  "title": "Donum Dei Plant Schema",
+  "description": "Generated from src/lib/plantSchema.ts via z.toJSONSchema(). Source of truth — do not edit by hand.",
+  "generated": "2026-05-19T16:31:10.322Z",
+  "type": "object",
+  "properties": {
+    "slug": {
+      "type": "string",
+      "minLength": 1
+    },
+    "names": {
+      "type": "object",
+      "properties": {
+        "de": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "latin": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "de",
+        "en",
+        "latin"
+      ],
+      "additionalProperties": false
+    },
+    "family": {
+      "type": "object",
+      "properties": {
+        "de": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        },
+        "latin": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "de",
+        "en",
+        "latin"
+      ],
+      "additionalProperties": false
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "de": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "de",
+        "en"
+      ],
+      "additionalProperties": false
+    },
+    "teaser": {
+      "type": "object",
+      "properties": {
+        "de": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "de",
+        "en"
+      ],
+      "additionalProperties": false
+    },
+    "uses": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "form": {
+            "type": "string",
+            "enum": [
+              "tea",
+              "tincture",
+              "salve",
+              "bath",
+              "raw",
+              "spice",
+              "essential_oil",
+              "inhalation",
+              "gargle",
+              "compress"
+            ]
+          },
+          "target": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "internal_external": {
+            "type": "string",
+            "enum": [
+              "internal",
+              "external",
+              "both"
+            ]
+          },
+          "description": {
+            "type": "object",
+            "properties": {
+              "de": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "de",
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "source_ids": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "plant_part": {
+            "type": "string",
+            "enum": [
+              "leaf",
+              "root",
+              "rhizome",
+              "flower",
+              "seed",
+              "fruit",
+              "bark",
+              "bulb",
+              "aerial_parts",
+              "whole_plant"
+            ]
+          },
+          "evidence_level": {
+            "type": "string",
+            "enum": [
+              "folk",
+              "traditional",
+              "commission_e",
+              "ema_well_established",
+              "clinical_trial"
+            ]
+          },
+          "preparation": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "amount_dry_g": {
+                    "type": "object",
+                    "properties": {
+                      "min": {
+                        "type": "number"
+                      },
+                      "max": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "min",
+                      "max"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "amount_ml": {
+                    "type": "object",
+                    "properties": {
+                      "min": {
+                        "type": "number"
+                      },
+                      "max": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "min",
+                      "max"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "water_ml": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "steep_min": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "doses_per_day": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "max_duration_weeks": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  },
+                  "instructions": {
+                    "type": "object",
+                    "properties": {
+                      "de": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "en": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    },
+                    "required": [
+                      "de",
+                      "en"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "additionalProperties": {}
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "de": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "en": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "de",
+                  "en"
+                ],
+                "additionalProperties": false
+              }
+            ]
+          },
+          "age_restriction": {
+            "type": "object",
+            "properties": {
+              "min_age": {
+                "type": "number",
+                "minimum": 0
+              },
+              "note": {
+                "type": "object",
+                "properties": {
+                  "de": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "en": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "de",
+                  "en"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "min_age"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "form",
+          "target",
+          "internal_external",
+          "description",
+          "source_ids"
+        ],
+        "additionalProperties": {}
+      }
+    },
+    "season": {
+      "type": "object",
+      "properties": {
+        "active_months": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12
+          }
+        },
+        "harvest_part": {
+          "type": "object",
+          "properties": {
+            "de": {
+              "type": "string",
+              "minLength": 1
+            },
+            "en": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "de",
+            "en"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "active_months",
+        "harvest_part"
+      ],
+      "additionalProperties": false
+    },
+    "safety": {
+      "type": "object",
+      "properties": {
+        "warnings": {
+          "type": "object",
+          "properties": {
+            "de": {
+              "type": "string",
+              "minLength": 1
+            },
+            "en": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "de",
+            "en"
+          ],
+          "additionalProperties": false
+        },
+        "external_only": {
+          "type": "boolean"
+        },
+        "toxicity_level": {
+          "type": "string",
+          "enum": [
+            "none",
+            "caution",
+            "toxic"
+          ]
+        },
+        "pet_toxic": {
+          "type": "boolean"
+        },
+        "pregnancy": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "safe",
+                "caution",
+                "contraindicated",
+                "unknown"
+              ]
+            },
+            "note": {
+              "type": "object",
+              "properties": {
+                "de": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "de",
+                "en"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "status"
+          ],
+          "additionalProperties": false
+        },
+        "lactation": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "safe",
+                "caution",
+                "contraindicated",
+                "unknown"
+              ]
+            },
+            "note": {
+              "type": "object",
+              "properties": {
+                "de": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "de",
+                "en"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "status"
+          ],
+          "additionalProperties": false
+        },
+        "children": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "safe",
+                "caution",
+                "contraindicated",
+                "unknown"
+              ]
+            },
+            "note": {
+              "type": "object",
+              "properties": {
+                "de": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "de",
+                "en"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "status"
+          ],
+          "additionalProperties": false
+        },
+        "drug_interactions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "drug_class": {
+                "type": "string",
+                "minLength": 1
+              },
+              "mechanism": {
+                "type": "object",
+                "properties": {
+                  "de": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "en": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "de",
+                  "en"
+                ],
+                "additionalProperties": false
+              },
+              "severity": {
+                "type": "string",
+                "enum": [
+                  "monitor",
+                  "caution",
+                  "avoid"
+                ]
+              },
+              "source_id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "drug_class",
+              "mechanism",
+              "severity"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "max_continuous_use_weeks": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "contraindications": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "de": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "de",
+              "en"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "warnings",
+        "external_only"
+      ],
+      "additionalProperties": {}
+    },
+    "classical_quotes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "author": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991
+          },
+          "license": {
+            "type": "string",
+            "const": "PD"
+          },
+          "text_de": {
+            "type": "string"
+          },
+          "text_en": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "author",
+          "year",
+          "license",
+          "text_de",
+          "text_en"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "wikipedia",
+              "wikidata",
+              "book",
+              "commons",
+              "monograph"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "accessed": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "type",
+          "title",
+          "url",
+          "accessed"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "image": {
+      "type": "object",
+      "properties": {
+        "filename": {
+          "type": "string",
+          "minLength": 1
+        },
+        "alt": {
+          "type": "object",
+          "properties": {
+            "de": {
+              "type": "string",
+              "minLength": 1
+            },
+            "en": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "de",
+            "en"
+          ],
+          "additionalProperties": false
+        },
+        "license": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "filename",
+        "alt",
+        "license",
+        "author",
+        "source_url"
+      ],
+      "additionalProperties": false
+    },
+    "constituents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "alkaloid",
+              "flavonoid",
+              "glycoside",
+              "essential_oil",
+              "tannin",
+              "mucilage",
+              "bitter",
+              "saponin",
+              "phenolic_acid",
+              "sesquiterpene",
+              "polysaccharide",
+              "vitamin",
+              "mineral",
+              "other"
+            ]
+          },
+          "percent_range": {
+            "type": "string"
+          },
+          "plant_part": {
+            "type": "string",
+            "enum": [
+              "leaf",
+              "root",
+              "rhizome",
+              "flower",
+              "seed",
+              "fruit",
+              "bark",
+              "bulb",
+              "aerial_parts",
+              "whole_plant"
+            ]
+          },
+          "note": {
+            "type": "object",
+            "properties": {
+              "de": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "de",
+              "en"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "name",
+          "category"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "harvest": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "plant_part": {
+            "type": "string",
+            "enum": [
+              "leaf",
+              "root",
+              "rhizome",
+              "flower",
+              "seed",
+              "fruit",
+              "bark",
+              "bulb",
+              "aerial_parts",
+              "whole_plant"
+            ]
+          },
+          "best_months": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 12
+            }
+          },
+          "time_of_day": {
+            "type": "object",
+            "properties": {
+              "de": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "de",
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "drying": {
+            "type": "object",
+            "properties": {
+              "de": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "de",
+              "en"
+            ],
+            "additionalProperties": false
+          },
+          "storage_months": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "storage_condition": {
+            "type": "object",
+            "properties": {
+              "de": {
+                "type": "string",
+                "minLength": 1
+              },
+              "en": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "de",
+              "en"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "plant_part",
+          "best_months"
+        ],
+        "additionalProperties": {}
+      }
+    }
+  },
+  "required": [
+    "slug",
+    "names",
+    "family",
+    "description",
+    "teaser",
+    "uses",
+    "season",
+    "safety",
+    "classical_quotes",
+    "sources",
+    "image"
+  ],
+  "additionalProperties": {}
+}

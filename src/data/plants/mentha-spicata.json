@@ -1,0 +1,649 @@
+{
+  "slug": "mentha-spicata",
+  "names": {
+    "de": "Grüne Minze",
+    "en": "Spearmint",
+    "latin": "Mentha spicata"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Die Grüne Minze, auch Ährige Minze, Krause Minze oder Speer-Minze, ist eine Pflanzenart innerhalb der Familie der Lippenblütengewächse (Lamiaceae).",
+    "en": "Spearmint, also known as garden mint, common mint, lamb mint and mackerel mint, is native to Europe and southern temperate Asia, extending from Ireland in the west to southern China in the east. It is naturalized in many other temperate parts of the world, including northern and southern Africa, North America, and South America. It is used as a flavouring in food and herbal teas."
+  },
+  "teaser": {
+    "de": "Die Grüne Minze, auch Ährige Minze, Krause Minze oder Speer-Minze, ist eine Pflanzenart innerhalb der Familie der Lip...",
+    "en": "Spearmint, also known as garden mint, common mint, lamb mint and mackerel mint, is native to Europe and southern temp..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "AUFGUSS: 1,5–2 g (1–2 TL) getrocknete Grüne-Minze-Blätter (oder frische Blätter, ca. 4–5 g) mit 200 ml siedendem Wasser übergießen, zugedeckt 8–10 Minuten ziehen lassen, abseihen. 2–3 Tassen täglich zwischen den Mahlzeiten frisch zubereitet. Traditionelle Anwendung zur unterstützenden Behandlung leichter Verdauungsbeschwerden (Blähungen, Völlegefühl, leichte Krämpfe). Milder als Pfefferminztee — kein Menthol-Kick, aber angenehm verträglicher. Kein Ersatz für medizinische Behandlung bei anhaltenden Magenbeschwerden.",
+          "en": "INFUSION: 1.5–2 g (1–2 tsp) dried spearmint leaves (or ~4–5 g fresh) in 200 ml boiling water, covered, steep 8–10 min, strain. 2–3 cups daily between meals, freshly prepared. Traditional use for mild digestive complaints (flatulence, bloating, mild cramps). Milder than peppermint tea — no menthol kick, better tolerated. Not a substitute for medical treatment of persistent gastrointestinal complaints."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Aufguss aus Blättern und Krautspitzen bei leichten Verdauungsbeschwerden: Blähungen, Völlegefühl, leichte Krämpfe. Deutlich milder und magenfreundlicher als Pfefferminze.",
+        "en": "Traditional infusion of leaves and herb tips for mild digestive complaints: flatulence, bloating, mild cramps. Significantly milder and more stomach-friendly than peppermint."
+      },
+      "source_ids": [
+        "src_pfaf_mentha_spicata",
+        "src_wichtl_mentha",
+        "src_wp_en_spearmint"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "menstrual",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 12,
+        "instructions": {
+          "de": "SPEARMINT-TEE (klinische Studie-Dosierung): 1–2 TL getrocknete Grüne-Minze-Blätter mit 250 ml heißem Wasser übergießen, 10 Minuten abgedeckt ziehen lassen, abseihen. 2 Tassen täglich (morgens und abends). In zwei kontrollierten Studien (Grant 2010, Akdogan 2007) mit dieser Dosis: signifikante Senkung freier Androgenspiegel (Testosteron/LH) bei Frauen mit leichtem Hirsutismus bzw. PCOS nach 30 bzw. 90 Tagen. Kein Ersatz für endokrinologische Behandlung. Selbstanwendung: ärztliche Diagnose und Verlaufskontrolle empfohlen.",
+          "en": "SPEARMINT TEA (clinical study dose): 1–2 tsp dried spearmint leaves in 250 ml hot water, covered 10 min, strain. 2 cups daily (morning and evening). In two controlled trials (Grant 2010, Akdogan 2007) this dose showed significant reduction of free androgen levels (testosterone/LH) in women with mild hirsutism or PCOS after 30 and 90 days. Not a substitute for endocrinological treatment. Self-use: medical diagnosis and follow-up monitoring recommended."
+        }
+      },
+      "description": {
+        "de": "Spearmint-Tee (2×/Tag) zeigte in klinischen Studien einen signifikanten antiandrogenen Effekt bei Frauen mit mildem Hirsutismus und PCOS-assoziierter Androgenerhöhung — einzige belegte klinische Studie-Indikation.",
+        "en": "Spearmint tea (2×/day) showed a significant anti-androgenic effect in clinical trials in women with mild hirsutism and PCOS-associated androgen excess — the only well-documented clinical trial indication for this plant."
+      },
+      "source_ids": [
+        "src_grant_2010_spearmint_hirsutism",
+        "src_akdogan_2007_spearmint_androgen",
+        "src_wp_en_spearmint"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory",
+        "nervous_system"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "water_ml": 1000,
+        "steep_min": 5,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "DAMPFINHALATION: 2–3 EL frische oder 1–2 EL getrocknete Grüne-Minze-Blätter in eine Schüssel geben, mit 1 Liter kochendem Wasser übergießen, 2–3 Minuten abkühlen lassen. Kopf über die Schüssel beugen, Handtuch über Kopf und Schüssel legen, 5–10 Minuten mit langsamen, tiefen Atemzügen inhalieren. 1–2× täglich. Volksheilkundlich bei Erkältung, Nasenverstopfung und Sinusdruck. Carvon-Dampf wirkt schleimhautreizlindernd, aber weniger intensiv als Pfefferminz-Menthol. Augen schließen — Carvondampf kann die Bindehäute reizen.",
+          "en": "STEAM INHALATION: 2–3 tbsp fresh or 1–2 tbsp dried spearmint leaves in a bowl, add 1 litre boiling water, cool 2–3 min. Lean over bowl, drape towel over head and bowl, inhale slowly and deeply for 5–10 min. 1–2×/day. Folk use for common cold, nasal congestion and sinus pressure. Carvone vapour soothes mucous membranes, but less intensely than peppermint menthol. Keep eyes closed — carvone vapour can irritate conjunctiva."
+        }
+      },
+      "description": {
+        "de": "Dampfinhalation mit frischen oder getrockneten Blättern volksheilkundlich bei Erkältung und Sinusbeschwerden — angenehm milder Duft ohne Menthol-Intensität.",
+        "en": "Steam inhalation with fresh or dried leaves used in folk medicine for colds and sinus complaints — pleasantly mild scent without menthol intensity."
+      },
+      "source_ids": [
+        "src_pfaf_mentha_spicata",
+        "src_wp_de_gruene_minze"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat",
+        "digestion"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "GURGELLÖSUNG: 2–3 TL getrocknete Grüne-Minze-Blätter mit 200 ml heißem Wasser aufbrühen, 10 Minuten ziehen lassen, auf Raumtemperatur abkühlen, abseihen. 3×/Tag 30–60 Sekunden gurgeln, danach Lösung ausspucken (nicht schlucken). Volksheilkundlich bei leichten Halsschmerzen, Mundgeruch und leichter Mundschleimhaut-Entzündung. Mild antibakteriell durch Carvon und Minzöl. Bei anhaltendem Halsschmerz (>3 Tage) oder Fieber: ärztliche Abklärung.",
+          "en": "GARGLE: 2–3 tsp dried spearmint leaves brewed in 200 ml hot water, steep 10 min, cool to room temperature, strain. Gargle 30–60 sec 3×/day, then spit out (do not swallow). Folk use for mild sore throat, bad breath and mild oral mucosa inflammation. Mildly antibacterial via carvone and mint oil. For persistent sore throat (>3 days) or fever: seek medical advice."
+        }
+      },
+      "description": {
+        "de": "Gurgellösung aus Spearmint-Tee volksheilkundlich bei leichten Halsschmerzen, Mundgeruch und milder Entzündung der Mundschleimhaut.",
+        "en": "Spearmint tea used as a gargle in folk medicine for mild sore throat, bad breath and mild oral mucosal inflammation."
+      },
+      "source_ids": [
+        "src_pfaf_mentha_spicata",
+        "src_heilkraeuter_minze"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "digestion",
+        "nervous_system",
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "ÄTHERISCHES ÖL (nur externe Anwendung in haushaltsüblichen Mengen): Spearmintöl (Carvon-dominant, 50–75 %) unverdünnt NICHT auf die Haut auftragen. Gebrauchsfertige Verdünnung: 2–3 Tropfen auf 10 ml Trägeröl (z. B. Jojobaöl), aufgetragen auf Brust oder Schläfen bei Kopfschmerzen. Aromadiffusor: 3–5 Tropfen auf Raumgröße ~20 m². Keine interne Einnahme ohne ärztliche Anweisung. Nicht bei Kleinkindern unter 2 Jahren, nicht auf Gesicht oder Schleimhäute. Weniger intensiv als Pfefferminzöl — schonendere Alternative für empfindliche Personen.",
+          "en": "ESSENTIAL OIL (external household use only): Spearmint oil (carvone-dominant, 50–75 %) must NOT be applied undiluted to skin. Ready-to-use dilution: 2–3 drops in 10 ml carrier oil (e.g. jojoba), applied to chest or temples for headache. Aroma diffuser: 3–5 drops per ~20 m² room. No internal use without medical supervision. Not for children under 2 years, not on face or mucous membranes. Less intense than peppermint oil — gentler alternative for sensitive individuals."
+        }
+      },
+      "description": {
+        "de": "Ätherisches Spearmintöl (extern verdünnt) bei Kopfschmerzen, Muskelspannungen und zur Aromatherapie — Carvon-Profil milder als Pfefferminz-Menthol.",
+        "en": "Essential spearmint oil (externally diluted) for headaches, muscle tension and aromatherapy — carvone profile milder than peppermint menthol."
+      },
+      "source_ids": [
+        "src_wichtl_mentha",
+        "src_pfaf_mentha_spicata"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "KÜCHE: Frische oder getrocknete Grüne-Minze-Blätter werden in zahlreichen Küchen weltweit eingesetzt. Verwendung: Marokkanischer Minztee (Atay), Tabbouleh, Raita, Chimichurri, Minzsauce (englische Tradition), Mojito, Kichererbsen- und Lammgerichte, Salate, Joghurt-Dips. Frische Blätter haben feineres Aroma als Pfefferminze, ohne stechendes Menthol. Getrocknet: aromatischer, konzentrierter — dosieren (1 TL getrocknete Blätter ≈ 1 EL frische Blätter). Nutzpflanze mit langer Kultivierungsgeschichte in Mittelmeerraum, Vorderasien und Nordafrika.",
+          "en": "KITCHEN: Fresh or dried spearmint leaves are used in countless cuisines worldwide. Uses: Moroccan mint tea (Atay), tabbouleh, raita, chimichurri, mint sauce (English tradition), mojito, chickpea and lamb dishes, salads, yoghurt dips. Fresh leaves have a finer, sweeter flavour than peppermint, without the sharp menthol. Dried: more aromatic and concentrated — use sparingly (1 tsp dried ≈ 1 tbsp fresh). Long-cultivated crop plant in the Mediterranean, Middle East and North Africa."
+        }
+      },
+      "description": {
+        "de": "Spearmint als Gewürzkraut — weltweiter Kücheneinsatz von Marokko bis Indien, süß-würzig ohne Menthol-Schärfe.",
+        "en": "Spearmint as a culinary herb — worldwide kitchen use from Morocco to India, sweet and aromatic without menthol sharpness."
+      },
+      "source_ids": [
+        "src_wp_en_spearmint",
+        "src_wp_de_gruene_minze",
+        "src_pfaf_mentha_spicata"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "nervous_system",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 50,
+          "max": 80
+        },
+        "water_ml": 1000,
+        "steep_min": 15,
+        "doses_per_day": 1,
+        "instructions": {
+          "de": "KRÄUTERBAD: 50–80 g getrocknete Grüne-Minze-Blätter und -Triebe mit 1 Liter heißem Wasser aufbrühen, 15 Minuten abgedeckt ziehen lassen, abseihen, den Aufguss dem vollgefüllten Wannenbad (36–38 °C) zugeben. 15–20 Minuten Baden. Alternativ: 5–8 Tropfen ätherisches Spearmintöl in 30 ml emulgierende Basis (z. B. Sahne, Milch, Salz) auflösen und ins Badewasser geben. Volksheilkundlich zur Entspannung und Erfrischung, mild tonisierend. Kein Vollbad für Kleinkinder unter 2 Jahren mit ätherischem Öl.",
+          "en": "HERBAL BATH: 50–80 g dried spearmint leaves and stems in 1 litre hot water, steep covered 15 min, strain, add infusion to full bath (36–38 °C). Soak 15–20 min. Alternative: 5–8 drops essential spearmint oil dissolved in 30 ml emulsifier (cream, milk, or bath salts) added to bath water. Folk use for relaxation and refreshment, mildly toning. No full bath with essential oil for children under 2 years."
+        }
+      },
+      "description": {
+        "de": "Spearmint-Kräuterbad volksheilkundlich zur Entspannung, Erfrischung und milden Tonisierung der Haut — angenehmer, leichter Minzduft ohne intensive Kältewirkung.",
+        "en": "Spearmint herbal bath used in folk medicine for relaxation, refreshment and mild skin toning — pleasant light mint fragrance without the intense cooling effect of peppermint."
+      },
+      "source_ids": [
+        "src_wp_de_gruene_minze",
+        "src_heilkraeuter_minze"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (Droge-Auszug-Verhältnis 1:5 in 45 % Ethanol): 1–2 ml (~20–40 Tropfen) 3× täglich, in etwas Wasser verdünnt, vor den Mahlzeiten einnehmen. Traditionell bei funktionellen Magen-Darm-Beschwerden (Blähungen, Völlegefühl, leichte Krämpfe). Weniger verbreitet als der Tee, da das flüchtige Carvon beim Erhitzen z. T. entweicht — Tinktur bewahrt das Ätherisch-Öl-Spektrum besser. Nicht bei Alkoholempfindlichkeit, Lebererkrankungen oder Kindern.",
+          "en": "TINCTURE (DER 1:5 in 45 % ethanol): 1–2 ml (~20–40 drops) 3× daily, diluted in water, before meals. Traditional use for functional gastrointestinal complaints (flatulence, bloating, mild cramps). Less common than tea; carvone being volatile can partly escape during brewing — tincture better preserves the essential oil spectrum. Not for alcohol sensitivity, liver disease or children."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Spearmint-Tinktur bei funktionellen Verdauungsbeschwerden — erhält das carvon-reiche Ätherisch-Öl-Spektrum besser als Heißaufguss.",
+        "en": "Traditional spearmint tincture for functional digestive complaints — preserves the carvone-rich essential oil spectrum better than a hot infusion."
+      },
+      "source_ids": [
+        "src_wichtl_mentha",
+        "src_pfaf_mentha_spicata"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Blätter (vor der Blüte)",
+      "en": "leaves (before flowering)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Grüne Minze gilt bei normaler Tee- und Küchenanwendung als sehr gut verträglich. Das ätherische Öl NICHT unverdünnt auf die Haut auftragen und NICHT intern einnehmen ohne ärztliche Anweisung. Im Gegensatz zur Pfefferminze enthält Spearmintöl kein oder kaum Menthol — daher sicherer für Kinder und empfindliche Personen, aber NICHT für Kleinkinder unter 2 Jahren (Carvon kann Atemwege reizen). Bei Reflux oder GERD: Vorsicht — Minzarten können den unteren Ösophagussphinkter entspannen und Sodbrennen verstärken. Bei anhaltenden Beschwerden ärztliche Abklärung. Klinische Studie-Anwendung (Antiandrogen bei PCOS/Hirsutismus) nur unter endokrinologischer Begleitung.",
+      "en": "Spearmint is considered very well tolerated in normal tea and culinary use. Essential oil must NOT be applied undiluted to skin and NOT taken internally without medical supervision. Unlike peppermint, spearmint oil contains little to no menthol — therefore safer for children and sensitive individuals, but NOT for toddlers under 2 years (carvone can irritate airways). With reflux or GERD: caution — mint species can relax the lower oesophageal sphincter and worsen heartburn. Persistent complaints require medical evaluation. Clinical use (anti-androgenic for PCOS/hirsutism) only under endocrinological supervision."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Normale Tee- und Küchenmengen gelten als unbedenklich. Therapeutisch hochdosierte Anwendung (z. B. antiandrogene Studienprotokoll-Dosierung) und ätherisches Öl in der Schwangerschaft meiden — keine ausreichenden Sicherheitsdaten. Carvon und andere Monoterpene können in hoher Dosis uterusstimulierend wirken (tierexperimentelle Daten).",
+        "en": "Normal tea and culinary amounts are considered safe. Avoid high-dose therapeutic use (e.g. anti-androgenic study protocol doses) and essential oil during pregnancy — insufficient safety data. Carvone and other monoterpenes may have uterine-stimulating effects at high doses (animal data)."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Tee und Küchenmenge unbedenklich. Ätherisches Öl und hochdosierte Präparate in der Stillzeit meiden. Carvon kann in die Muttermilch übergehen; Einfluss auf Säugling nicht ausreichend untersucht.",
+        "en": "Tea and culinary amounts safe. Avoid essential oil and high-dose preparations during lactation. Carvone may pass into breast milk; effect on the infant is insufficiently studied."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Tee in haushaltsmäßigen Mengen für Kinder über 6 Jahren in der Regel unproblematisch. Ätherisches Öl und konzentrierte Präparate NICHT für Kinder unter 6 Jahren — Carvon kann bei Kleinkindern unter 2 Jahren Bronchospasmus auslösen. Kein ätherisches Spearmintöl auf Gesicht oder Brust von Kleinkindern. Küchenanwendung für alle Altersgruppen unbedenklich.",
+        "en": "Tea in household amounts generally unproblematic for children over 6 years. Essential oil and concentrated preparations NOT for children under 6 years — carvone can trigger bronchospasm in toddlers under 2. No essential spearmint oil on the face or chest of small children. Culinary use is safe for all age groups."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Spearmint, andere Mentha-Arten oder andere Lippenblütler (Lamiaceae).",
+        "en": "Hypersensitivity to spearmint, other Mentha species or other Lamiaceae."
+      },
+      {
+        "de": "Gastroösophageale Refluxkrankheit (GERD) und Hiatushernie — Minzarten können den unteren Ösophagussphinkter entspannen und Beschwerden verschlimmern.",
+        "en": "Gastro-oesophageal reflux disease (GERD) and hiatus hernia — mint species may relax the lower oesophageal sphincter and worsen symptoms."
+      },
+      {
+        "de": "Gallensteinen: ätherisches Minzöl intern nur nach ärztlicher Abklärung — Minzöle können die Gallenblase stimulieren.",
+        "en": "Gallstones: internal use of essential mint oil only after medical evaluation — mint oils can stimulate the gallbladder."
+      },
+      {
+        "de": "Kinder unter 2 Jahren: kein ätherisches Spearmintöl (Carvon-Atemreizungsgefahr).",
+        "en": "Children under 2 years: no essential spearmint oil (carvone airway irritation risk)."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antidiabetika (Insulin, orale Antidiabetika)",
+        "mechanism": {
+          "de": "Tierstudien zeigen blutglukosesenkende Eigenschaften von Spearmintextrakten. Theoretisch additiver Effekt bei gleichzeitiger Einnahme von Antidiabetika — Risiko einer Hypoglykämie. Klinische Relevanz bei Teekonsum unklar; bei medikamentöser Diabetestherapie Blutzucker beobachten.",
+          "en": "Animal studies suggest blood glucose-lowering properties of spearmint extracts. Theoretically additive effect when combined with antidiabetic drugs — risk of hypoglycaemia. Clinical relevance with tea consumption unclear; monitor blood glucose in medically managed diabetes."
+        },
+        "severity": "monitor",
+        "source_id": "src_pfaf_mentha_spicata"
+      },
+      {
+        "drug_class": "Hormonelle Antiandrogene (Cyproteronacetat, Spironolacton, Finasterid)",
+        "mechanism": {
+          "de": "Spearmint-Tee zeigte in klinischen Studien eine Reduktion freier Androgenspiegel (LH, FSH, Testosteron). Bei Kombination mit hormonellen Antiandrogenen theoretisch additiver Effekt auf den Hormonhaushalt — Verlauf und Hormonspiegel bei kombinierter Anwendung ärztlich überwachen.",
+          "en": "Spearmint tea showed reduction of free androgen levels (LH, FSH, testosterone) in clinical trials. Theoretically additive effect on hormonal balance when combined with anti-androgens — monitor clinical course and hormone levels under medical supervision."
+        },
+        "severity": "monitor",
+        "source_id": "src_grant_2010_spearmint_hirsutism"
+      },
+      {
+        "drug_class": "CYP3A4-Substrate (verschiedene Medikamente)",
+        "mechanism": {
+          "de": "In-vitro-Daten deuten auf eine leichte Hemmung von CYP3A4-Enzymen durch Spearmintinhaltsstoffe hin. Bei therapeutisch hoch dosierten Präparaten (nicht bei normalem Teekonsum) theoretisches Potenzial zur Erhöhung von Plasmaspiegeln CYP3A4-abhängiger Arzneimittel. Klinische Bedeutung bei üblicher Teemenge vernachlässigbar.",
+          "en": "In vitro data indicate mild inhibition of CYP3A4 enzymes by spearmint constituents. At high therapeutic doses (not with normal tea consumption) there is theoretical potential to elevate plasma levels of CYP3A4-dependent drugs. Clinical relevance at usual tea amounts is negligible."
+        },
+        "severity": "monitor",
+        "source_id": "src_wichtl_mentha"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Grüne Minze (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Minze",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Spearmint (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Spearmint",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wp_de_gruene_minze",
+      "type": "wikipedia",
+      "title": "Grüne Minze (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%BCne_Minze",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_spearmint",
+      "type": "wikipedia",
+      "title": "Spearmint (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Spearmint",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_mentha_spicata",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Mentha spicata database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Mentha+spicata",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_mentha",
+      "type": "book",
+      "title": "Wichtl, M. (Hrsg.) — Teedrogen und Phytopharmaka, 5. Aufl. (2009): Menthae crispae herba / Mentha spicata, Wissenschaftliche Verlagsgesellschaft Stuttgart",
+      "url": "https://www.wissenschaftliche-verlagsgesellschaft.de",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_grant_2010_spearmint_hirsutism",
+      "type": "monograph",
+      "title": "Grant P. (2010): Spearmint herbal tea has significant anti-androgen effects in polycystic ovarian syndrome. A randomized controlled trial. Phytotherapy Research 24(2):186-188. DOI: 10.1002/ptr.2900",
+      "url": "https://doi.org/10.1002/ptr.2900",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_akdogan_2007_spearmint_androgen",
+      "type": "monograph",
+      "title": "Akdogan M. et al. (2007): Effect of spearmint (Mentha spicata Labiatae) teas on androgen levels in women with hirsutism. Phytotherapy Research 21(5):444-447. DOI: 10.1002/ptr.2074",
+      "url": "https://doi.org/10.1002/ptr.2074",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_heilkraeuter_minze",
+      "type": "monograph",
+      "title": "Heilkräuter-Lexikon — Grüne Minze / Spearmint (Mentha spicata)",
+      "url": "https://www.heilkraeuter.de/lexikon/gruene-minze.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_mentha_spicata",
+      "type": "wikidata",
+      "title": "Wikidata — Mentha spicata (Q165137)",
+      "url": "https://www.wikidata.org/wiki/Q165137",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_mentha_crispae",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Menthae crispae herba (Spearmint Herb), 2nd edition with supplement",
+      "url": "https://escop.com/monographs/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_commons_mentha_spicata",
+      "type": "commons",
+      "title": "Wikimedia Commons — Mentha spicata image gallery",
+      "url": "https://commons.wikimedia.org/wiki/Mentha_spicata",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "mentha-spicata.jpg",
+    "alt": {
+      "de": "Foto von Grüne Minze",
+      "en": "Photo of Spearmint"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "The original uploader was Burschik at English Wikipedia.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mentha_spicata_02.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible",
+      "medicinal"
+    ],
+    "rooms": [
+      "kitchen",
+      "balcony"
+    ],
+    "light": "partial_shade",
+    "water_frequency": "every_few_days",
+    "difficulty": 1,
+    "pet_safe": true,
+    "soil": {
+      "de": "Feuchte Kräutererde",
+      "en": "Moist herb compost"
+    },
+    "pot_size_cm": 20,
+    "tips": {
+      "de": [
+        "Milder als Pfefferminze — gut für Tee und Mojito.",
+        "In eigenem Topf halten.",
+        "Stecklinge im Wasserglas wurzeln einfach."
+      ],
+      "en": [
+        "Milder than peppermint — good for tea and mojito.",
+        "Keep in own pot.",
+        "Cuttings root easily in water glass."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [],
+    "bad_partners": [
+      "mentha-piperita",
+      "mentha-villosa"
+    ],
+    "notes_de": "mentha-piperita: Minz-Arten kreuzen und hybridisieren — räumlich trennen.",
+    "notes_en": "mentha-piperita: Mint species cross-pollinate and hybridise — separate spatially.",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "transplant": {
+        "start_month": 4,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 9
+    },
+    "days_to_harvest": 90,
+    "spacing_cm": 40,
+    "garden_type": [
+      "balcony",
+      "raised_bed"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "aromatic_repellent",
+    "pollinator_attractor",
+    "ground_cover"
+  ],
+  "constituents": [
+    {
+      "name": "Carvon (l-Carvon, (5R)-(-)-Carvon)",
+      "category": "essential_oil",
+      "percent_range": "50-80 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Leitsubstanz des ätherischen Öls von Mentha spicata. Monocyclisches Monoterpen-Keton. Verantwortlich für den charakteristischen süß-würzigen Spearmint-Geruch. Krampflösend, mild antibakteriell und antifungal. Das l-Carvon ist das geruchsbestimmende Stereoisomer der Grünen Minze (d-Carvon hingegen typisch für Kümmel). Carvon unterscheidet Spearmint fundamental von Pfefferminze, die Menthol-dominiert ist.",
+        "en": "Lead constituent of the essential oil of Mentha spicata. Monocyclic monoterpene ketone. Responsible for the characteristic sweet-spicy spearmint scent. Antispasmodic, mildly antibacterial and antifungal. l-Carvone is the odour-defining stereoisomer of spearmint (d-carvone is typical of caraway). Carvone fundamentally distinguishes spearmint from peppermint, which is menthol-dominant."
+      }
+    },
+    {
+      "name": "Dihydrocarvon",
+      "category": "essential_oil",
+      "percent_range": "0-15 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Reduziertes Derivat des Carvons. Wechselnde Anteile je nach Varietät und Herkunft. Beiträgt zum Gesamtaroma und zur milden krampflösenden Wirkung des ätherischen Öls.",
+        "en": "Reduced derivative of carvone. Variable proportion depending on variety and origin. Contributes to the overall aroma and the mild antispasmodic effect of the essential oil."
+      }
+    },
+    {
+      "name": "Limonen",
+      "category": "essential_oil",
+      "percent_range": "5-20 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Monocyclisches Monoterpen. Verleiht dem ätherischen Öl frisch-zitrusartige Noten. Mild stimmungsaufhellend und antioxidativ; beiträgt zur Gesamtduftprägung des Spearmintöls.",
+        "en": "Monocyclic monoterpene. Imparts fresh citrus notes to the essential oil. Mildly mood-lifting and antioxidant; contributes to the overall aromatic character of spearmint oil."
+      }
+    },
+    {
+      "name": "1,8-Cineol (Eucalyptol)",
+      "category": "essential_oil",
+      "percent_range": "0-10 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Cyclischer Monoterpen-Ether, nur in einigen Chemotypen und Varietäten in nennenswerter Menge. Schleimlösend und leicht antibakteriell — erklärt teilweise die volksmedizinische Nutzung bei Erkältungsbeschwerden und Inhalation.",
+        "en": "Cyclic monoterpene ether, present in notable quantities only in some chemotypes and varieties. Expectorant and mildly antibacterial — partly explains the folk-medicinal use for cold complaints and inhalation."
+      }
+    },
+    {
+      "name": "Flavonoide (Luteolin-7-O-glucosid, Apigenin-7-O-glucosid, Eriocitrin)",
+      "category": "flavonoid",
+      "percent_range": "0.5-2 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Polare Nicht-Öl-Fraktion. Luteolin- und Apigenin-Glycoside mit antioxidativer, mild entzündungshemmender und kapillarprotektiver Wirkung. Werden beim Heißaufguss gut extrahiert. Eriocitrin (charakteristisch für Mentha-Arten) mit hepatoprotektivem Potential in Tiermodellen.",
+        "en": "Polar non-oil fraction. Luteolin and apigenin glycosides with antioxidant, mildly anti-inflammatory and capillary-protective effects. Well extracted during hot infusion. Eriocitrin (characteristic of Mentha species) with hepatoprotective potential in animal models."
+      }
+    },
+    {
+      "name": "Rosmarinsäure",
+      "category": "phenolic_acid",
+      "percent_range": "1-3 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Wichtigste phenolische Säure der Grünen Minze. Ester aus Kaffeesäure und 3,4-Dihydroxyphenylessigsäure. Stark antioxidativ, mild entzündungshemmend. Gut wasserlöslich — reichert sich im Teeaufguss an. Beiträgt zur gesamten antioxidativen Kapazität des Spearmint-Tees.",
+        "en": "Most important phenolic acid in spearmint. Ester of caffeic acid and 3,4-dihydroxyphenylacetic acid. Strongly antioxidant, mildly anti-inflammatory. Highly water-soluble — concentrates well in tea infusion. Contributes significantly to the overall antioxidant capacity of spearmint tea."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine, oligomere Catechine)",
+      "category": "tannin",
+      "percent_range": "3-6 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hydrolisierbare und kondensierte Gerbstoffe. Adstringierend auf Schleimhäute — erklärt die volksmedizinische Anwendung als Gurgelmittel bei Halsschmerzen und leichter Entzündung. Können bei hohem Konsum (> 5 Tassen/Tag) Eisen-Resorption hemmen.",
+        "en": "Hydrolysable and condensed tannins. Astringent on mucous membranes — explains folk-medicinal use as a gargle for sore throat and mild inflammation. May inhibit iron absorption with high consumption (> 5 cups/day)."
+      }
+    },
+    {
+      "name": "Menthol (Spuren)",
+      "category": "essential_oil",
+      "percent_range": "0-0.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Im Gegensatz zur Pfefferminze (40–55 % Menthol im ätherischen Öl) enthält Spearmint nur Spuren oder kein Menthol. Dies ist der entscheidende chemische Unterschied: Spearmint ist carvon-dominant und damit deutlich milder und besser verträglich. Kein nennenswerter Kälteeffekt auf Schleimhäute.",
+        "en": "Unlike peppermint (40–55 % menthol in essential oil), spearmint contains only traces or no menthol. This is the defining chemical difference: spearmint is carvone-dominant and therefore significantly milder and better tolerated. No notable cooling effect on mucous membranes."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Trockener Vormittag, wenn der Tau vollständig abgetrocknet ist und bevor die Tageshitze einsetzt (ca. 9–11 Uhr). Kurz vor oder zu Beginn der Blüte ist der Carvongehalt im ätherischen Öl am höchsten — idealer Erntezeitpunkt für medizinische Verwendung.",
+        "en": "Dry morning, once dew has fully evaporated and before the day's heat sets in (approx. 9–11 am). Just before or at the start of flowering the carvone content in the essential oil is highest — ideal harvest point for medicinal use."
+      },
+      "drying": {
+        "de": "Ganze Triebe oder Blätter ernten. Stiele (10–15 cm) zu lockeren Bündeln zusammenbinden und kopfüber an einem trockenen, schattigen, gut belüfteten Ort aufhängen (max. 35–40 °C). Alternativ: einzelne Blätter einlagig auf Sieben oder Tüchern ausbreiten, gelegentlich wenden. Trocknungszeit: 5–10 Tage je nach Luftfeuchtigkeit. Trocken, wenn Blätter rascheln und sich leicht zwischen den Fingern zerreiben lassen. Bei zu feuchter Lagerung schimmelt Minze schnell — Trocknungsqualität laufend prüfen.",
+        "de_note": "Vollständig getrocknete Blätter in dunklen, luftdichten Gläsern oder Dosen aufbewahren. Innerhalb 6–12 Monate verwenden.",
+        "en": "Harvest whole stems or leaves. Tie stems (10–15 cm) into loose bundles and hang upside down in a dry, shaded, well-ventilated spot (max. 35–40 °C). Alternatively: spread individual leaves in a single layer on screens or cloths, turn occasionally. Drying time: 5–10 days depending on humidity. Dry when leaves rustle and crumble easily between fingers. Mint moulds quickly if stored with residual moisture — check drying quality regularly."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht in dunklen Gläsern oder Blechdosen bei Raumtemperatur. Innerhalb 6–12 Monate aufbrauchen — danach rascher Aromaverlust. Kein direktes Sonnenlicht.",
+        "en": "Airtight in dark glass jars or tins at room temperature. Use within 6–12 months — aroma fades rapidly after this. Keep away from direct sunlight."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Trockener, sonniger Vormittag zu Beginn der Blütenbildung — zu diesem Zeitpunkt enthält das gesamte Kraut (Blätter, junge Stängel, Blütenknospen) den höchsten Gehalt an ätherischem Öl und Carvon. Für Tinkturherstellung oder Destillation idealer Schnittpunkt.",
+        "en": "Dry, sunny morning at the start of flower bud formation — at this time the whole herb (leaves, young stems, flower buds) contains the highest content of essential oil and carvone. Ideal cut point for tincture production or distillation."
+      },
+      "drying": {
+        "de": "Das gesamte Kraut (Blätter + junge Stängel + Blütenknospen) direkt vor dem Aufblühen schneiden. Schnitt ca. 5–10 cm über dem Boden lassen — Pflanze treibt nach. Triebe zu Bündeln binden und kopfüber trocknen (wie Blatternte), oder sofort zu Tinktur oder ätherischem Öl weiterverarbeiten. Frisch destilliert oder tinktiert bewahrt das ätherische Öl besser als langes Trocknen.",
+        "en": "Cut the whole herb (leaves + young stems + flower buds) just before full opening. Leave 5–10 cm above ground — the plant will regrow. Tie stems into bundles and hang to dry upside down (as for leaf harvest), or process immediately into tincture or essential oil. Fresh distillation or tincturation preserves the essential oil better than prolonged drying."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Getrocknetes Kraut luftdicht, dunkel, kühl. Innerhalb 6 Monate für beste Wirkung aufbrauchen. Frischverarbeitung (Tinktur, Öl) gibt höhere Wirkstoffausbeute.",
+        "en": "Dried herb airtight, dark, cool. Use within 6 months for best effect. Fresh processing (tincture, oil) gives higher constituent yield."
+      }
+    }
+  ]
+}

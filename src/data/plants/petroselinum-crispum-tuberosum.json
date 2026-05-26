@@ -1,0 +1,475 @@
+{
+  "slug": "petroselinum-crispum-tuberosum",
+  "names": {
+    "de": "Wurzelpetersilie",
+    "en": "Parsley",
+    "latin": "Petroselinum crispum subsp. tuberosum"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Die Wurzelpetersilie, auch Knollenpetersilie oder Petersilienwurzel genannt, in Österreich auch Peterwurzen, ist eine Unterart der Petersilie mit verdickter, länglich, spitz zulaufender Rübe. Sie gehört zur botanischen Familie der Doldenblütler (Apiaceae).",
+    "en": "Parsley, or garden parsley, is a species of flowering plant in the family Apiaceae that is native to the Balkans. It has been introduced and naturalized in Europe and elsewhere in the world with suitable climates, and is widely cultivated as a herb and a vegetable."
+  },
+  "teaser": {
+    "de": "Die Wurzelpetersilie, auch Knollenpetersilie oder Petersilienwurzel genannt, in Österreich auch Peterwurzen, ist eine...",
+    "en": "Parsley, or garden parsley, is a species of flowering plant in the family Apiaceae that is native to the Balkans."
+  },
+  "uses": [
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Die Wurzel der Hamburger Petersilie (Tuberosum-Gruppe) wird in mittel- und osteuropäischen Küchen als Suppengemüse, Eintopfzutat und Rohkost gegessen. Sie schmeckt nach Sellerie-Petersilie mit nussiger Note. Reich an Vitamin C, Vitamin A, Folat und Eisen. Ernährungsphysiologisch gut belegt; als Heilmittel keine eigenständige Evidenz.",
+        "en": "The root of Hamburg parsley (Tuberosum group) is eaten in central and eastern European cuisines as a soup vegetable, stew ingredient, and raw food. It tastes of celery-parsley with a nutty note. Rich in vitamin C, vitamin A, folate, and iron. Nutritionally well-supported; no independent medicinal evidence as a remedy."
+      },
+      "source_ids": [
+        "src_stephens_parsley_root",
+        "src_wiki_hamburg_parsley",
+        "src_yagmur_parsley_nutrients"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Tee aus getrockneten Petersilienwurzeln wird volksmedizinisch als mildes Diuretikum bei Blasenbeschwerden, Steinen und Ödemen eingesetzt. PFAF listet die Anwendung als 'effektiv bei Steinen und Gelbsucht, Wassersucht, Zystitis'. Wirkmechanismus: Furocumarine und ätherisches Öl (Apiole) stimulieren die Nierentätigkeit. Keine klinischen Studien verfügbar.",
+        "en": "Tea from dried parsley roots is used in folk medicine as a mild diuretic for bladder complaints, stones, and oedema. PFAF lists the use as 'effective in ridding the body of stones, jaundice, dropsy, cystitis'. Mechanism: furanocoumarins and essential oil (apiole) stimulate kidney activity. No clinical studies available."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 5
+        },
+        "water_ml": 200,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–5 g getrocknete Wurzelstücke mit 200 ml kochendem Wasser übergießen, 15 Minuten ziehen lassen, abseihen. 2–3 Tassen täglich. Ausreichend Flüssigkeit zuführen (mind. 2 l täglich). Nicht bei Nierenerkrankungen anwenden.",
+          "en": "Pour 200 ml boiling water over 2–5 g dried root pieces, steep for 15 minutes, strain. 2–3 cups daily. Ensure adequate fluid intake (at least 2 litres daily). Do not use with kidney disease."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_parsley",
+        "src_rsc_culinary_herbs"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "menstrual"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Petersilienblätter-Tee wird volksmedizinisch bei Verdauungsbeschwerden (Blähungen, Krämpfe) und zur Anregung des Monatsflusses eingesetzt. Die antispasmodische und emmenagoge Wirkung ist auf Myristicin und Apiole im ätherischen Öl zurückzuführen. Wegen emmenagogenem Potenzial in der Schwangerschaft kontraindiziert.",
+        "en": "Parsley leaf tea is used in folk medicine for digestive complaints (flatulence, cramps) and to stimulate menstrual flow. The antispasmodic and emmenagogue effect is attributed to myristicin and apiole in the essential oil. Contraindicated in pregnancy due to emmenagogue potential."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "2–4 g getrocknete Petersilienblätter in 200 ml heißem Wasser 10 Min. ziehen lassen. 2 Tassen täglich, nicht in der Schwangerschaft.",
+          "en": "Steep 2–4 g dried parsley leaves in 200 ml hot water for 10 minutes. 2 cups daily; not during pregnancy."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_parsley",
+        "src_rsc_culinary_herbs"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische Petersilienblätter sind eine der vitamin- und mineralstoffreichsten Küchengemüse: exzellente Quelle für Vitamin C (bis 130 mg/100g), Vitamin K, Folat, Eisen und Flavonoide (Apigenin, Luteolin). Regelmäßiger Verzehr unterstützt die Immunfunktion und antioxidative Kapazität. Ernährungsphysiologischer Wert gut belegt.",
+        "en": "Fresh parsley leaves are among the most vitamin- and mineral-rich culinary herbs: excellent source of vitamin C (up to 130 mg/100g), vitamin K, folate, iron, and flavonoids (apigenin, luteolin). Regular consumption supports immune function and antioxidant capacity. Nutritional value well supported."
+      },
+      "source_ids": [
+        "src_el_sayed_flavonoids",
+        "src_bsj_apigenin_2024"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Als Würzkraut in der europäischen Küche allgegenwärtig. Die aromatischen Inhaltsstoffe (Apiol, Myristicin, Limonene) fördern die Verdauung und wirken karminativ. Kulinarische Mengen unbedenklich; sehr hohe Dosen des ätherischen Öls (Extrakte, nicht Kochkraut) sind hepato- und nephrotoxisch.",
+        "en": "Ubiquitous as a culinary herb in European cooking. Aromatic constituents (apiole, myristicin, limonene) promote digestion and act as carminatives. Culinary amounts are safe; very high doses of the essential oil (extracts, not cooking herb) are hepato- and nephrotoxic."
+      },
+      "source_ids": [
+        "src_gruszecki_tuberosum",
+        "src_rsc_culinary_herbs"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "skin",
+        "circulation"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der europäischen Volksmedizin werden Petersilienaufgüsse als Haartönung bei schuppen- oder seborrhöischen Haarerkrankungen sowie als erfrischende Haarspülung eingesetzt. PFAF dokumentiert eine antidandruffe Wirkung. Dekokt der Blätter auf die Kopfhaut auftragen und einwirken lassen.",
+        "en": "In European folk medicine, parsley infusions are used as a hair rinse for dandruff or seborrhoeic scalp conditions. PFAF documents an anti-dandruff effect. Apply a decoction of leaves to the scalp and leave to act."
+      },
+      "source_ids": [
+        "src_pfaf_parsley",
+        "src_stephens_parsley_root"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10,
+      11
+    ],
+    "harvest_part": {
+      "de": "Wurzel (Herbst)",
+      "en": "root (autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Petersilienöl und konzentrierte Extrakte (Apiol, Myristicin) sind in hohen Dosen hepato- und nephrotoxisch sowie neurotoxisch (Krampfauslösung beschrieben). Kochkraut und Wurzel in kulinarischen Mengen unbedenklich. Emmenagoge Wirkung: in der Schwangerschaft keine Heilpflanzendosen. Wegen Furanocumarin-Gehalt: Sonneneinstrahlung nach größeren Mengen Frischpflanze vermeiden (phototoxisch möglich). Personen mit Nieren- oder Lebererkrankungen vor der medizinischen Anwendung ärztlichen Rat einholen.",
+      "en": "Parsley oil and concentrated extracts (apiole, myristicin) are hepato- and nephrotoxic in high doses, and neurotoxic (convulsions documented). Culinary amounts of herb and root are safe. Emmenagogue effect: no medicinal doses during pregnancy. Due to furanocoumarin content: avoid sun exposure after large amounts of fresh plant (phototoxicity possible). Persons with kidney or liver disease should seek medical advice before medicinal use."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Petersilie in medizinischen Dosen (Tee, Tinktur, Öl) ist in der Schwangerschaft kontraindiziert wegen emmenagogener und potenziell abortiver Wirkung (Apiole, Myristicin). Kulinarische Mengen beim Kochen gelten als unbedenklich.",
+        "en": "Parsley in medicinal doses (tea, tincture, oil) is contraindicated in pregnancy due to emmenagogue and potentially abortifacient effects (apiole, myristicin). Culinary amounts used in cooking are considered safe."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Medizinische Dosen werden in der Stillzeit nicht empfohlen (Übergang von Apiol in die Muttermilch möglich). Kulinarische Mengen im Essen sind unbedenklich.",
+        "en": "Medicinal doses are not recommended during lactation (possible transfer of apiole into breast milk). Culinary amounts in food are safe."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Medizinische Anwendung (Tee, Extrakt) bei Kindern unter 12 Jahren nicht empfohlen. Kulinarischer Einsatz ist unbedenklich.",
+        "en": "Medicinal use (tea, extract) not recommended for children under 12 years. Culinary use is safe."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Schwangerschaft (emmenagogen/abortiv in medizinischen Dosen)",
+        "en": "Pregnancy (emmenagogue/abortifacient in medicinal doses)"
+      },
+      {
+        "de": "Nierenerkrankungen (Petersilienöl nephrotoxisch; Spültee kontraindiziert)",
+        "en": "Kidney disease (parsley oil nephrotoxic; diuretic flush tea contraindicated)"
+      },
+      {
+        "de": "Bekannte Überempfindlichkeit gegen Apiaceen (Sellerie, Möhren, Fenchel — Kreuzreaktionen möglich)",
+        "en": "Known hypersensitivity to Apiaceae (celery, carrots, fennel — cross-reactions possible)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulanzien (Cumarin-Typ)",
+        "mechanism": {
+          "de": "Hoher Vitamin-K-Gehalt in frischer Petersilie kann die Wirkung von Vitamin-K-Antagonisten (Warfarin, Phenprocoumon) abschwächen. Bei größeren regelmäßigen Petersilienmengen Gerinnungswerte engmaschig kontrollieren.",
+          "en": "High vitamin K content in fresh parsley may reduce the effect of vitamin K antagonists (warfarin, phenprocoumon). Monitor coagulation values closely if consuming large regular amounts of parsley."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Diuretika",
+        "mechanism": {
+          "de": "Additive diuretische Wirkung möglich; Gefahr der Elektrolytimbalance bei gleichzeitiger Diuretika-Therapie.",
+          "en": "Additive diuretic effect possible; risk of electrolyte imbalance with concurrent diuretic therapy."
+        },
+        "severity": "caution"
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Wurzelpetersilie (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Wurzelpetersilie",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Parsley (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Parsley",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_hamburg_parsley",
+      "type": "wikipedia",
+      "title": "Hamburg parsley — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hamburg_parsley",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_stephens_parsley_root",
+      "type": "monograph",
+      "title": "Stephens JM (2003): Parsley Root — Petroselinum crispum (Mill.) Nym. (Tuberosum group). University of Florida EDIS. DOI 10.32473/edis-mv106-1994",
+      "url": "https://doi.org/10.32473/edis-mv106-1994",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_gruszecki_tuberosum",
+      "type": "monograph",
+      "title": "Gruszecki R et al. (2022): The Effects of Proline on the Yield and Essential Oil Content of Turnip-Rooted Parsley (Petroselinum crispum ssp. tuberosum). Agronomy 12(8):1941. DOI 10.3390/agronomy12081941",
+      "url": "https://doi.org/10.3390/agronomy12081941",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_el_sayed_flavonoids",
+      "type": "monograph",
+      "title": "El-Sayed MM et al. (2018): Antioxidant Activity, Total Phenolic and Flavonoid Contents of Petroselinum crispum Mill. Journal of Applied Life Sciences International. DOI 10.9734/jalsi/2018/45113",
+      "url": "https://doi.org/10.9734/jalsi/2018/45113",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_bsj_apigenin_2024",
+      "type": "monograph",
+      "title": "Baghdad Science Journal (2025): Polyphenol Profile, Antioxidant Potential, Vitamin C and Mineral Contents of Crude Parsley Leaves Extract (Petroselinum crispum) and Its Isolated Apigenin. DOI 10.21123/bsj.2024.9622",
+      "url": "https://doi.org/10.21123/bsj.2024.9622",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_yagmur_parsley_nutrients",
+      "type": "monograph",
+      "title": "Yağmur B et al. (2022): The effect of nitrogen, magnesium and iron applications on the nutrient content of parsley (Petroselinum crispum). Poljoprivreda 28(2). DOI 10.18047/poljo.28.2.1",
+      "url": "https://doi.org/10.18047/poljo.28.2.1",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_rsc_culinary_herbs",
+      "type": "monograph",
+      "title": "Royal Society of Chemistry (2021): CHAPTER 22. Parsley (Petroselinum crispum). In: Culinary Herbs and Spices. DOI 10.1039/9781839164446-00405",
+      "url": "https://doi.org/10.1039/9781839164446-00405",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_pfaf_parsley",
+      "type": "book",
+      "title": "Plants For A Future (PFAF): Petroselinum crispum tuberosum",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Petroselinum+crispum+tuberosum",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "petroselinum-crispum-tuberosum.jpg",
+    "alt": {
+      "de": "Foto von Wurzelpetersilie",
+      "en": "Photo of Parsley"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "User:MarkusHagenlocher",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wurzelpetersilie_Wurzel.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 3,
+        "end_month": 5
+      }
+    },
+    "harvest_window": {
+      "start_month": 9,
+      "end_month": 11
+    },
+    "days_to_harvest": 180,
+    "spacing_cm": 15,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-cepa",
+      "solanum-lycopersicum"
+    ],
+    "bad_partners": [
+      "lactuca-sativa-capitata"
+    ],
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "root_loosener",
+    "pollinator_attractor"
+  ],
+  "constituents": [
+    {
+      "name": "Apigenin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Dominantes Flavon der Petersilie; antioxidativ, antispasmodisch und milde entzündungshemmend. In-vitro-Studien zeigen antiproliferative Wirkungen; klinische Relevanz nicht belegt.",
+        "en": "Dominant flavone of parsley; antioxidant, antispasmodic, and mildly anti-inflammatory. In vitro studies show antiproliferative effects; clinical relevance not established."
+      }
+    },
+    {
+      "name": "Luteolin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavon mit antioxidativer und antiallergischer Wirkung; synergistisch mit Apigenin in der entzündungshemmenden Aktivität.",
+        "en": "Flavone with antioxidant and antiallergic effects; synergistic with apigenin in anti-inflammatory activity."
+      }
+    },
+    {
+      "name": "Apiole",
+      "category": "essential_oil",
+      "plant_part": "seed",
+      "percent_range": "ca. 60-80 % im Samenöl",
+      "note": {
+        "de": "Hauptkomponente des Petersiliensamenöls; verantwortlich für die emmenagoge und potentiell abortive Wirkung. Hepato- und nephrotoxisch in hohen Dosen. Im Kraut und in der Wurzel nur in Spuren.",
+        "en": "Main component of parsley seed oil; responsible for emmenagogue and potentially abortifacient effects. Hepato- and nephrotoxic in high doses. Present only in trace amounts in the herb and root."
+      }
+    },
+    {
+      "name": "Myristicin",
+      "category": "essential_oil",
+      "plant_part": "seed",
+      "note": {
+        "de": "Flüchtiges Phenylpropan im Petersilienöl; mild psychoaktiv in hohen Dosen; trägt zum Aroma bei und hat antispasmodische Eigenschaften.",
+        "en": "Volatile phenylpropane in parsley oil; mildly psychoactive in high doses; contributes to aroma and has antispasmodic properties."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "plant_part": "leaf",
+      "percent_range": "bis 130 mg/100 g Frischgewicht",
+      "note": {
+        "de": "Einer der höchsten Vitamin-C-Gehalte unter Küchenkräutern; antioxidativ; wichtig für Immunfunktion und Eisenresorption.",
+        "en": "One of the highest vitamin C contents among culinary herbs; antioxidant; important for immune function and iron absorption."
+      }
+    },
+    {
+      "name": "Folat (Vitamin B9)",
+      "category": "vitamin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Petersilienblätter sind eine gute pflanzliche Folatquelle; relevant für Zellproliferation und Prävention von Neuralrohrdefekten in der Frühschwangerschaft (jedoch medizinische Dosen in SS kontraindiziert).",
+        "en": "Parsley leaves are a good plant folate source; relevant for cell proliferation and prevention of neural tube defects in early pregnancy (however, medicinal doses in pregnancy are contraindicated)."
+      }
+    },
+    {
+      "name": "Eisen (Fe)",
+      "category": "mineral",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hoher Eisengehalt für ein Küchenkraut; nicht-häm-Eisen, Bioverfügbarkeit durch gleichzeitige Vitamin-C-Aufnahme optimierbar.",
+        "en": "High iron content for a culinary herb; non-haem iron, bioavailability optimisable by simultaneous vitamin C intake."
+      }
+    },
+    {
+      "name": "Furocumarine (Psoralen, Bergapten)",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Furocumarine (Kategorie 'other', da Cumarine kein eigenes Enum besitzen); phototoxisch bei topischer Anwendung und Sonnenexposition; im verzehrten Kraut kein Risiko bei normalen Mengen.",
+        "en": "Furanocoumarins (category 'other' as coumarins have no dedicated enum); phototoxic with topical application and sun exposure; no risk in consumed herb at normal amounts."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Keine Tageszeit-Einschränkung; nach dem ersten Frost ernten (Frost verbessert Süße und Aroma des Wurzelgemüses).",
+        "en": "No time-of-day restriction; harvest after first frost (frost improves sweetness and aroma of root vegetable)."
+      },
+      "drying": {
+        "de": "Frisch verzehren oder im feuchten Sand eingelagert (Keller, 0–5 °C). Für getrockneten Tee: Wurzel in dünne Scheiben schneiden, bei 40–45 °C trocknen.",
+        "en": "Eat fresh or store in moist sand (cellar, 0–5 °C). For dried tea: slice root thinly and dry at 40–45 °C."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Frisch: in feuchtem Sand/Erde, dunkel und kühl, bis 6 Monate. Getrocknet: luftdichte Gläser, dunkel und trocken, bis 12 Monate.",
+        "en": "Fresh: in moist sand/soil, dark and cool, up to 6 months. Dried: airtight jars, dark and dry, up to 12 months."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus ernten; junge Blätter für optimalen Aroma- und Vitamin-C-Gehalt.",
+        "en": "Harvest in the morning after dew has dried; young leaves for optimal flavour and vitamin C content."
+      },
+      "drying": {
+        "de": "Blätter bei max. 35 °C trocknen oder tiefkühlen; Tiefkühlware behält Vitamin C und Farbe besser als Trocknung. Trockenblätter verlieren einen Großteil des ätherischen Öls.",
+        "en": "Dry leaves at max. 35 °C or freeze; frozen parsley retains vitamin C and colour better than drying. Dried leaves lose much of the essential oil."
+      },
+      "storage_months": 12
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "slug": "veronica-officinalis",
+  "names": {
+    "de": "Echter Ehrenpreis",
+    "en": "Veronica officinalis",
+    "latin": "Veronica officinalis"
+  },
+  "family": {
+    "de": "Wegerichgewächse",
+    "en": "Plantain family",
+    "latin": "Plantaginaceae"
+  },
+  "description": {
+    "de": "Der Echte Ehrenpreis oder Wald-Ehrenpreis ist eine Pflanzenart aus der Gattung Ehrenpreis (Veronica) innerhalb der Familie der Wegerichgewächse (Plantaginaceae).",
+    "en": "Veronica officinalis, the heath speedwell, common gypsyweed, common speedwell, or Paul's betony, is a species of flowering plant in the plantain family Plantaginaceae. It is native to Europe and western Asia. It has been introduced to North America and is widely naturalised there."
+  },
+  "teaser": {
+    "de": "Der Echte Ehrenpreis oder Wald-Ehrenpreis ist eine Pflanzenart aus der Gattung Ehrenpreis (Veronica) innerhalb der Fa...",
+    "en": "Veronica officinalis, the heath speedwell, common gypsyweed, common speedwell, or Paul's betony, is a species of flow..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Aufguss aus den blühenden oberirdischen Pflanzenteilen (1–2 g pro Tasse, 10 min ziehen lassen) bei leichten Erkältungsbeschwerden, Husten und Katarrhen der oberen Atemwege. Die Iridoidglykoside (Aucubin, Catalpol) wirken leicht entzündungshemmend; Saponine fördern die Schleimverflüssigung.",
+        "en": "Infusion of the flowering aerial parts (1–2 g per cup, steep 10 min) for mild colds, coughs, and catarrh of the upper respiratory tract. Iridoid glycosides (aucubin, catalpol) have mild anti-inflammatory effects; saponins promote mucus liquefaction."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3
+      },
+      "source_ids": [
+        "src_wp_de_veronica",
+        "src_pfaf_veronica",
+        "src_pmc6651156"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Stärkerer Aufguss (2–3 g auf 150 ml) als Gurgellösung bei leichten Entzündungen der Mundschleimhaut und des Rachens. Die Gerbstoffe und Phenolcarbonsäuren (Chlorogensäure, Kaffeesäure) wirken adstringierend und leicht antimikrobiell.",
+        "en": "Stronger infusion (2–3 g per 150 ml) as a gargle for mild inflammation of the oral mucosa and throat. Tannins and phenolic acids (chlorogenic acid, caffeic acid) are astringent and mildly antimicrobial."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Aufguss abkühlen lassen; 3-mal täglich 30 Sekunden gurgeln und ausspucken.",
+        "en": "Let infusion cool; gargle for 30 seconds 3 times daily and spit out."
+      },
+      "source_ids": [
+        "src_wp_de_veronica",
+        "src_pfaf_veronica"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Abgekühlter Aufguss als feuchte Kompresse bei Hautreizungen, Ekzemen, leichten Wunden und Schürfwunden. In der balkanischen Volksmedizin traditionell bei Hautgeschwüren und Schlangenbissen eingesetzt. Die adstringierenden Gerbstoffe und antioxidativen Flavonoide (Luteolin, Apigenin) fördern die Wundheilung.",
+        "en": "Cooled infusion as a moist compress for skin irritations, eczema, minor wounds and abrasions. Traditionally used in Balkan folk medicine for skin ulcerations and snake bites. Astringent tannins and antioxidant flavonoids (luteolin, apigenin) support wound healing."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_pmc6651156",
+        "src_pfaf_veronica"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "joints"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Volksmedizinisch bei Gicht und Rheuma als mildes Diuretikum und Entzündungshemmer eingesetzt. Aucubin und Catalpol hemmen in vitro COX-2 und NF-κB, was den traditionellen Einsatz bei entzündlichen Gelenkerkrankungen stützt.",
+        "en": "Used in folk medicine for gout and rheumatism as a mild diuretic and anti-inflammatory. Aucubin and catalpol inhibit COX-2 and NF-κB in vitro, supporting traditional use for inflammatory joint complaints."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3
+      },
+      "source_ids": [
+        "src_pmc6651156",
+        "src_wp_de_veronica"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Leicht diuretische Wirkung der oberirdischen Teile; volksmedizinisch zur unterstützenden Durchspülungstherapie bei Harnwegsreizungen eingesetzt. Im 19. Jahrhundert in der US-Pharmakopöe als Diaphoretikum und mildes Expektorans gelistet.",
+        "en": "Mildly diuretic effect of the aerial parts; used in folk medicine as supportive flushing therapy for urinary tract irritation. Listed in the 19th-century US Pharmacopoeia as a diaphoretic and mild expectorant."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3
+      },
+      "source_ids": [
+        "src_pfaf_veronica",
+        "src_wp_en_veronica"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "In Frankreich historisch als Tee-Ersatz ('thé d'Europe') getrunken; leicht bitterer und adstringierender Geschmack. Frische Blätter gelegentlich in Salaten verwendet. Im 19. Jahrhundert in Frankreich und England weit verbreitet als tägliches Getränk.",
+        "en": "Historically drunk in France as a tea substitute ('thé d'Europe'); slightly bitter and astringent taste. Fresh leaves occasionally used in salads. Widely consumed as a daily beverage in 19th-century France and England."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "src_wp_en_veronica"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bei üblicher volksmedizinischer Anwendung keine bekannten Nebenwirkungen. Kommission E (1989, negatives Votum): unzureichende Belege für therapeutische Wirksamkeit. Bei anhaltenden Atemwegs- oder Gelenkbeschwerden ärztlichen Rat einholen.",
+      "en": "No known side effects with normal folk-medicine use. Commission E (1989, negative vote): insufficient evidence for therapeutic efficacy. Seek medical advice for persistent respiratory or joint complaints."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten; vorsorglich nur in üblichen Nahrungsmittelmengen anwenden.",
+        "en": "Insufficient data; use only in customary food amounts as a precaution."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten; vorsorglich meiden.",
+        "en": "Insufficient data; avoid as a precaution."
+      }
+    },
+    "children": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine pädiatrischen Daten; bei Kindern unter 6 Jahren nicht ohne ärztlichen Rat anwenden.",
+        "en": "No paediatric data; do not use in children under 6 years without medical advice."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Veronica-Arten oder Wegerichgewächsen (Plantaginaceae).",
+        "en": "Known hypersensitivity to Veronica species or the plantain family (Plantaginaceae)."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter Ehrenpreis (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Ehrenpreis",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Veronica officinalis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Veronica_officinalis",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_de_veronica",
+      "type": "wikipedia",
+      "title": "Echter Ehrenpreis (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Ehrenpreis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_veronica",
+      "type": "wikipedia",
+      "title": "Veronica officinalis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Veronica_officinalis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_veronica",
+      "type": "book",
+      "title": "Plants For A Future — Veronica officinalis",
+      "url": "https://www.pfaf.org/user/Plant.aspx?LatinName=Veronica+officinalis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pmc6651156",
+      "type": "monograph",
+      "title": "Veronica Plants — Drifting from Farm to Traditional Healing, Food Application, and Phytopharmacology (PMC6651156)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6651156/",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "veronica-officinalis.jpg",
+    "alt": {
+      "de": "Foto von Echter Ehrenpreis",
+      "en": "Photo of Veronica officinalis"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Jerzy Opioła",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Veronica_officinalis_BW51.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Aucubin",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "percent_range": "ca. 0,1 % (Frischkraut)",
+      "note": {
+        "de": "Iridoidglykosid; hemmt in vitro COX-2 und NF-κB; einer der Leitinhaltsstoffe von Veronica officinalis.",
+        "en": "Iridoid glycoside; inhibits COX-2 and NF-κB in vitro; one of the marker compounds of Veronica officinalis."
+      }
+    },
+    {
+      "name": "Catalpol",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "percent_range": "ca. 0,23 % (Frischkraut)",
+      "note": {
+        "de": "Iridoidglykosid; kommt in höherer Konzentration vor als Aucubin; antientzündliche und antioxidative Eigenschaften.",
+        "en": "Iridoid glycoside; present at higher concentration than aucubin; anti-inflammatory and antioxidant properties."
+      }
+    },
+    {
+      "name": "Verproside",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Iridoidglykosid; für die Gattung Veronica charakteristisch; hemmt proinflammatorische Mediatoren via NF-κB-Signalweg.",
+        "en": "Iridoid glycoside; characteristic of the genus Veronica; inhibits pro-inflammatory mediators via NF-κB pathway."
+      }
+    },
+    {
+      "name": "Luteolin",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavon; antioxidativ und antientzündlich; in Veronica officinalis zusammen mit Apigenin nachgewiesen.",
+        "en": "Flavone; antioxidant and anti-inflammatory; detected in Veronica officinalis alongside apigenin."
+      }
+    },
+    {
+      "name": "Apigenin",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavon; antioxidativ; wirkt in vitro leicht sedativ und muskelrelaxierend.",
+        "en": "Flavone; antioxidant; shows mild sedative and muscle-relaxant properties in vitro."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine)",
+      "category": "tannin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Kondensierte und hydrolysierbare Gerbstoffe; adstringierend; für den leicht herben Geschmack verantwortlich und tragen zur wundheilenden Wirkung bei.",
+        "en": "Condensed and hydrolysable tannins; astringent; responsible for the slightly tart taste and contribute to wound-healing activity."
+      }
+    },
+    {
+      "name": "Chlorogensäure (Chlorogenic acid)",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolcarbonsäure; antioxidativ und leicht antimikrobiell; in Veronica officinalis nachgewiesen.",
+        "en": "Phenolic acid; antioxidant and mildly antimicrobial; detected in Veronica officinalis."
+      }
+    },
+    {
+      "name": "Triterpensaponine",
+      "category": "saponin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Schaum- und oberflächenaktive Verbindungen; expektorierende Eigenschaften durch Schleimverdünnung.",
+        "en": "Foaming and surface-active compounds; expectorant properties through mucus liquefaction."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Morgens nach Tauabtrocknung bei trockenem Wetter ernten.",
+        "en": "Harvest in the morning after the dew has dried, in dry weather."
+      },
+      "drying": {
+        "de": "Dünn auf Trockengittern ausbreiten; bei max. 40 °C trocknen bis die Stängel brechen; Iridoidglykoside (Aucubin, Catalpol) konzentrieren sich beim Trocknen.",
+        "en": "Spread thinly on drying racks; dry at max. 40 °C until stems snap; iridoid glycosides (aucubin, catalpol) concentrate during drying."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, lichtgeschützt, in dicht schließenden Behältern.",
+        "en": "Dry, protected from light, in airtight containers."
+      }
+    }
+  ]
+}

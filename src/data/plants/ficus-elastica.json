@@ -1,0 +1,363 @@
+{
+  "slug": "ficus-elastica",
+  "names": {
+    "de": "Gummibaum",
+    "en": "Ficus elastica",
+    "latin": "Ficus elastica"
+  },
+  "family": {
+    "de": "Maulbeergewächse",
+    "en": "Mulberry family",
+    "latin": "Moraceae"
+  },
+  "description": {
+    "de": "Der Gummibaum oder Indische Kautschukbaum ist eine Pflanzenart aus der Gattung der Feigen (Ficus), zu der auch die essbaren Feigen gehören, in der Familie der Maulbeergewächse (Moraceae). Er wird in die Untergattung Urostigma eingeordnet, zu denen auch die im Buddhismus bedeutsame Pappelfeige (Bodhibaum) gehört.",
+    "en": "Ficus elastica, the rubber fig, rubber bush, rubber tree, rubber plant, or Indian rubber bush, Indian rubber tree, or rambung is a species of flowering plant in the family Moraceae, native to eastern parts of South and Southeast Asia. It has become naturalized in Sri Lanka, the West Indies, and the US state of Florida. Its common names reflect its historical use as a source of rubber within its native range, but it is not used in the modern commercial-scale production of natural rubber."
+  },
+  "teaser": {
+    "de": "Der Gummibaum oder Indische Kautschukbaum ist eine Pflanzenart aus der Gattung der Feigen (Ficus), zu der auch die es...",
+    "en": "Ficus elastica, the rubber fig, rubber bush, rubber tree, rubber plant, or Indian rubber bush, Indian rubber tree, or..."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "air_quality",
+        "formaldehyde_removal"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Als lebende Zimmerpflanze aufgestellt absorbiert Ficus elastica nachweislich Formaldehyd aus der Innenraumluft. Die NASA-Studie von Wolverton (1989) listet ihn als wirksame Pflanze zur Luftreinigung.",
+        "en": "Placed as a living houseplant, Ficus elastica demonstrably absorbs formaldehyde from indoor air. Wolverton's 1989 NASA study lists it as an effective air-purifying plant."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "clinical_trial",
+      "source_ids": [
+        "src_nasa_wolverton",
+        "src_wiki_en",
+        "src_pfaf"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental",
+        "humidity"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Die großen, glänzenden Blätter geben durch Transpiration Feuchtigkeit ab und verbessern so das Raumklima in trockenen Innenräumen.",
+        "en": "The large, glossy leaves release moisture through transpiration, thus improving the indoor climate in dry interiors."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_wiki_en",
+        "src_rhs"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "skin",
+        "wound_healing"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "In Südostasien wird der Milchsaft des Gummibaums traditionell äußerlich auf Hautwunden und entzündliche Hautstellen aufgetragen. Aufgrund des Reizpotentials der Furocumarine ist Vorsicht geboten.",
+        "en": "In Southeast Asia, the milky sap of the rubber plant is traditionally applied externally to skin wounds and inflammatory skin conditions. Caution is advised due to the irritation potential of furanocoumarins."
+      },
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_wiki_en",
+        "src_pfaf"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "industrial",
+        "rubber_production"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Historisch (19. Jh. bis frühe Plantagenwirtschaft) wurde der Latex von Ficus elastica in Indien und Myanmar zur Kautschukgewinnung geerntet, bevor Hevea brasiliensis wirtschaftlich dominant wurde. Noch heute wird er gelegentlich für kleine Handwerksobjekte genutzt.",
+        "en": "Historically (19th century until early plantation agriculture), latex from Ficus elastica was harvested in India and Myanmar for rubber production, before Hevea brasiliensis became economically dominant. It is still occasionally used for small craft objects."
+      },
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "src_wiki_en",
+        "src_wiki_de"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "air_quality",
+        "volatile_organic_compounds"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Neben Formaldehyd reduzieren Ficus-Arten laut ergänzenden Studien auch Trichlorethen und weitere flüchtige organische Verbindungen (VOC) in Innenräumen.",
+        "en": "In addition to formaldehyde, Ficus species also reduce trichloroethylene and further volatile organic compounds (VOCs) indoors, according to supplementary studies."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_nasa_wolverton",
+        "src_wiki_en"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "ganze Pflanze (dekorativ)",
+      "en": "whole plant (decorative)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Milchsaft (Latex) kann Hautreizungen und allergische Reaktionen auslösen — Handschuhe beim Beschneiden tragen. Furocumarine im Latex erhöhen die Lichtempfindlichkeit der Haut. Für Katzen und Hunde leicht giftig (Magen-Darm-Reizung, Hautreizung).",
+      "en": "Milky sap (latex) can cause skin irritation and allergic reactions — wear gloves when pruning. Furanocoumarins in the latex increase skin photosensitivity. Mildly toxic to cats and dogs (gastrointestinal irritation, skin irritation)."
+    },
+    "external_only": true,
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Kontakt mit Latex meiden; Innere Anwendung nicht indiziert.",
+        "en": "Avoid contact with latex; internal use not indicated."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Kontakt mit Latex meiden; Innere Anwendung nicht indiziert.",
+        "en": "Avoid contact with latex; internal use not indicated."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Reichweite für Kleinkinder meiden — Latex bei Hautkontakt oder Verschlucken reizend.",
+        "en": "Keep out of reach of small children — latex is irritating on skin contact or ingestion."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Latex-Allergie (Kreuzreaktion mit Hevea-Latex möglich)",
+        "en": "Known latex allergy (cross-reaction with Hevea latex possible)"
+      },
+      {
+        "de": "Empfindliche Haut ohne Schutzhandschuhe bei Pflegearbeiten",
+        "en": "Sensitive skin without protective gloves during care work"
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gummibaum (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gummibaum",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Ficus elastica (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Ficus_elastica",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_nasa_wolverton",
+      "type": "monograph",
+      "title": "Wolverton BC (1989): Interior Landscape Plants for Indoor Air Pollution Abatement — NASA Technical Report",
+      "url": "https://ntrs.nasa.gov/citations/19930073077",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_en",
+      "type": "wikipedia",
+      "title": "Ficus elastica (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Ficus_elastica",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_de",
+      "type": "wikipedia",
+      "title": "Gummibaum (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gummibaum",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_pfaf",
+      "type": "monograph",
+      "title": "Plants for a Future (PFAF): Ficus elastica",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ficus+elastica",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_rhs",
+      "type": "monograph",
+      "title": "Royal Horticultural Society (RHS): Ficus elastica",
+      "url": "https://www.rhs.org.uk/plants/7361/ficus-elastica/details",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "ficus-elastica.jpg",
+    "alt": {
+      "de": "Foto von Gummibaum",
+      "en": "Photo of Ficus elastica"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Unknown",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ficus_elastica1.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "air_purifying",
+      "ornamental"
+    ],
+    "rooms": [
+      "living_room"
+    ],
+    "light": "bright_indirect",
+    "water_frequency": "weekly",
+    "difficulty": 1,
+    "pet_safe": false,
+    "soil": {
+      "de": "Standard-Blumenerde, durchlässig",
+      "en": "Standard compost, well-draining"
+    },
+    "pot_size_cm": 25,
+    "tips": {
+      "de": [
+        "Blätter regelmäßig abstauben — sonst leidet die Photosynthese.",
+        "Drehen für gleichmäßigen Wuchs, nicht ständig umstellen.",
+        "Milchsaft beim Schneiden — Hände waschen."
+      ],
+      "en": [
+        "Dust leaves regularly — otherwise photosynthesis suffers.",
+        "Rotate for even growth, don't constantly relocate.",
+        "Milky sap when cut — wash hands."
+      ]
+    }
+  },
+  "constituents": [
+    {
+      "name": "Caoutchouc (Naturkautschuk / Natural rubber)",
+      "category": "other",
+      "plant_part": "bark",
+      "percent_range": "ca. 5-10 % (Latex-Anteil)",
+      "note": {
+        "de": "Hauptbestandteil des Milchsafts; Grundlage der historischen Kautschukgewinnung aus Ficus elastica.",
+        "en": "Main component of the milky sap; basis of historical rubber production from Ficus elastica."
+      }
+    },
+    {
+      "name": "Furocumarine (Psoralen, Bergapten)",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Phototoxische Verbindungen im Latex; können bei Hautkontakt mit anschließender UV-Exposition Verbrennungen verursachen.",
+        "en": "Phototoxic compounds in the latex; can cause burns on skin contact followed by UV exposure."
+      }
+    },
+    {
+      "name": "Triterpenoide (Friedelan-Typ)",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Typische Triterpene der Moraceae; entzündungshemmende Eigenschaften werden diskutiert.",
+        "en": "Typical triterpenes of Moraceae; anti-inflammatory properties are discussed."
+      }
+    },
+    {
+      "name": "Flavonoide (Rutin, Quercetin-Derivate)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Antioxidative Verbindungen in den Blättern; typisch für Moraceae-Arten.",
+        "en": "Antioxidant compounds in the leaves; typical for Moraceae species."
+      }
+    },
+    {
+      "name": "Alkaloide (spp.-typisch, geringfügig)",
+      "category": "alkaloid",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Geringe Alkaloidanteile, wie für Moraceae charakteristisch; Toxikologisch wenig relevant bei normaler Zimmerpflanzen-Nutzung.",
+        "en": "Low alkaloid content, as characteristic for Moraceae; toxicologically little relevant with normal houseplant use."
+      }
+    },
+    {
+      "name": "Calciumoxalat-Kristalle",
+      "category": "mineral",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Mikrokristalle in Blättern und Saft; mechanisch reizend für Mundschleimhaut — mitverantwortlich für die leichte Giftigkeit bei Haustieren.",
+        "en": "Microcrystals in leaves and sap; mechanically irritating to oral mucosa — partly responsible for mild toxicity in pets."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens (Turgordruck am höchsten)",
+        "en": "Morning (turgor pressure highest)"
+      },
+      "drying": {
+        "de": "Für Dekorationszwecke — nicht getrocknet; für Extraktion bei 30–40 °C im Schatten.",
+        "en": "For decorative purposes — not dried; for extraction at 30–40 °C in the shade."
+      }
+    },
+    {
+      "plant_part": "bark",
+      "best_months": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Früh morgens (Latex-Fluss am stärksten vor der Mittagshitze)",
+        "en": "Early morning (latex flow strongest before midday heat)"
+      },
+      "drying": {
+        "de": "Latex frisch verwenden; Koagulation durch Essigsäure oder Wärme möglich.",
+        "en": "Use latex fresh; coagulation by acetic acid or heat possible."
+      }
+    }
+  ]
+}

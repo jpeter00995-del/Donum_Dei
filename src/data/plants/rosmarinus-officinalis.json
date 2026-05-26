@@ -1,0 +1,620 @@
+{
+  "slug": "rosmarinus-officinalis",
+  "names": {
+    "de": "Rosmarin",
+    "en": "Rosemary",
+    "latin": "Rosmarinus officinalis"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Der Rosmarin ist eine Art der Gattung Salbei und ein immergrüner Halbstrauch aus der Familie der Lippenblütler (Lamiaceae).",
+    "en": "Salvia rosmarinus, synonym Rosmarinus officinalis, commonly known as rosemary, is a shrub with fragrant, evergreen, needle-like leaves and purple or sometimes white, pink, or blue flowers. It is a member of the mint family, Lamiaceae. The species is native to the Mediterranean region."
+  },
+  "teaser": {
+    "de": "Der Rosmarin ist eine Art der Gattung Salbei und ein immergrüner Halbstrauch aus der Familie der Lippenblütler (Lamia...",
+    "en": "Salvia rosmarinus, synonym Rosmarinus officinalis, commonly known as rosemary, is a shrub with fragrant, evergreen, n..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "ema_well_established",
+      "description": {
+        "de": "Traditionell-etablierte Anwendung bei leichten dyspeptischen Beschwerden wie Völlegefühl, Blähungen und Krämpfen im Oberbauch. EMA HMPC und Kommission E listen Rosmarinblätter mit positiver Bewertung für die innerliche Anwendung bei Verdauungsbeschwerden.",
+        "en": "Well-established traditional use for mild dyspeptic complaints such as bloating, flatulence and upper-abdominal cramps. EMA HMPC and German Commission E list rosemary leaf with a positive assessment for internal use in digestive disorders."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "1-2 g fein geschnittene Rosmarinblätter mit 150 ml siedendem Wasser übergiessen, zugedeckt 10 Minuten ziehen lassen, abseihen. Drei- bis viermal täglich eine frisch zubereitete Tasse zwischen den Mahlzeiten trinken.",
+          "en": "Pour 150 ml boiling water over 1-2 g of finely cut rosemary leaves, cover and infuse for 10 minutes, then strain. Drink a freshly prepared cup three to four times daily between meals."
+        }
+      },
+      "source_ids": [
+        "src_ema_rosmarini_folium",
+        "src_kommission_e_rosmarin",
+        "src_escop_rosmarin"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Volksmedizinisch geschätzte Anwendung als kreislaufanregender Morgentee bei hypotonen Beschwerden wie morgendlicher Müdigkeit, Kreislaufschwäche und niedrigem Blutdruck. Rosmarinöl-Bestandteile wirken leicht stimulierend.",
+        "en": "Folk-medicinal use as a circulation-stimulating morning tea for hypotensive symptoms such as morning fatigue, weak circulation and low blood pressure. Rosemary oil constituents are mildly stimulating."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "Morgens und mittags eine Tasse Rosmarinblätter-Aufguss (1-2 g auf 150 ml) trinken. Nicht abends einnehmen, da leicht stimulierend.",
+          "en": "Drink one cup of rosemary leaf infusion (1-2 g per 150 ml) in the morning and at midday. Avoid in the evening due to mild stimulating effect."
+        }
+      },
+      "source_ids": [
+        "src_kommission_e_rosmarin",
+        "src_madaus_rosmarin",
+        "src_heilkraeuter_rosmarin"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "circulation",
+        "joints"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "ema_well_established",
+      "description": {
+        "de": "EMA HMPC und Kommission E anerkennen Rosmarinblätter und Rosmarinöl-Zubereitungen als Badezusatz zur unterstützenden Behandlung rheumatischer Beschwerden und bei Kreislaufschwäche/Erschöpfungszuständen. Die Hautdurchblutung wird angeregt, der Kreislauf belebt.",
+        "en": "EMA HMPC and Commission E recognise rosemary leaf and rosemary-oil preparations as bath additive for supportive treatment of rheumatic complaints and weak circulation/exhaustion. Skin circulation is stimulated and overall circulation invigorated."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 50,
+          "max": 100
+        },
+        "water_ml": 1000,
+        "steep_min": 30,
+        "doses_per_day": 1,
+        "instructions": {
+          "de": "50-100 g getrocknete Rosmarinblätter mit 1 L heissem Wasser übergiessen, 30 Minuten ziehen lassen, abseihen und dem Vollbad zugeben (ca. 35-38 °C, 10-20 Minuten). Alternativ 10-50 g Rosmarinöl als Badezusatz. Nicht am Abend baden — anregend.",
+          "en": "Pour 1 L hot water over 50-100 g dried rosemary leaves, infuse for 30 minutes, strain and add to a full bath (about 35-38 °C, 10-20 minutes). Alternatively 10-50 g rosemary oil as bath additive. Avoid evening baths — stimulating."
+        }
+      },
+      "source_ids": [
+        "src_ema_rosmarini_folium",
+        "src_ema_rosmarini_aetheroleum",
+        "src_kommission_e_rosmarin"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "ema_well_established",
+      "description": {
+        "de": "Inhalation des ätherischen Rosmarinöls bei Katarrhen der oberen Atemwege. EMA HMPC Rosmarini aetheroleum nennt 1,8-Cineol- und campherreiche Chemotypen als schleimhautaktiv und schleimlösend.",
+        "en": "Inhalation of rosemary essential oil for catarrhs of the upper respiratory tract. EMA HMPC Rosmarini aetheroleum cites 1,8-cineole- and camphor-rich chemotypes as mucolytic and mucous-membrane active."
+      },
+      "preparation": {
+        "amount_ml": {
+          "min": 0.1,
+          "max": 0.3
+        },
+        "water_ml": 500,
+        "steep_min": 1,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "2-3 Tropfen Rosmarinöl in eine Schüssel mit 500 ml heissem (nicht kochendem) Wasser geben, Kopf mit Tuch bedecken, Augen schliessen und 5-10 Minuten Dampf inhalieren. Nicht bei Asthma oder Kleinkindern unter 4 Jahren anwenden.",
+          "en": "Add 2-3 drops of rosemary oil to a bowl with 500 ml hot (not boiling) water, cover head with a towel, close eyes and inhale steam for 5-10 minutes. Do not use in asthma or children under 4 years."
+        }
+      },
+      "age_restriction": {
+        "min_age": 4,
+        "note": {
+          "de": "Nicht für Kinder unter 4 Jahren wegen 1,8-Cineol- und Camphergehalt — Risiko eines Laryngospasmus bei Anwendung im Gesichtsbereich.",
+          "en": "Not for children under 4 years due to 1,8-cineole and camphor content — risk of laryngospasm with application near the face."
+        }
+      },
+      "source_ids": [
+        "src_ema_rosmarini_aetheroleum",
+        "src_escop_rosmarin"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Klassisches mediterranes Küchengewürz für Lamm, Hähnchen, Kartoffeln und Marinaden. Die ätherischen Öle wirken appetitanregend und verdauungsfördernd; die enthaltenen Diterpene (Carnosol, Carnosolsäure) gelten als Antioxidantien im Fleisch.",
+        "en": "Classical Mediterranean culinary herb for lamb, chicken, potatoes and marinades. Essential oils are appetite- and digestion-stimulating; the diterpenes (carnosol, carnosolic acid) act as antioxidants in cooked meat."
+      },
+      "preparation": {
+        "de": "Frische oder getrocknete Rosmarinnadeln fein hacken und während der Garzeit zu Fleisch, Gemüse oder Brot geben. Übliche Würzmenge: 0.5-1 Teelöffel pro Gericht für 4 Personen.",
+        "en": "Finely chop fresh or dried rosemary needles and add during cooking to meat, vegetables or bread. Usual seasoning: 0.5-1 teaspoon per dish for 4 persons."
+      },
+      "source_ids": [
+        "src_pfaf_rosmarin",
+        "src_heilkraeuter_rosmarin"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Anwendung als wärmender Umschlag bei rheumatischen Schmerzen, Muskelverspannungen, Prellungen und schlecht heilenden Hautstellen. Die ätherischen Öle wirken hyperämisierend (durchblutungsfördernd).",
+        "en": "Folk-medicinal use as a warming compress for rheumatic pain, muscle tension, bruises and slow-healing skin areas. Essential oils are hyperaemic (circulation-promoting)."
+      },
+      "preparation": {
+        "de": "2 EL getrocknete Rosmarinblätter mit 250 ml siedendem Wasser übergiessen, 15 Minuten ziehen lassen, abseihen. Ein sauberes Tuch im warmen Aufguss tränken, leicht auswringen und 15-20 Minuten auf die schmerzhafte Stelle legen. 1-2 mal täglich.",
+        "en": "Pour 250 ml boiling water over 2 tbsp dried rosemary leaves, infuse for 15 minutes, strain. Soak a clean cloth in the warm infusion, wring lightly and apply to the painful area for 15-20 minutes. Once or twice daily."
+      },
+      "source_ids": [
+        "src_madaus_rosmarin",
+        "src_heilkraeuter_rosmarin"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Traditionelle Anwendung als digestive und kreislaufanregende Tinktur bei nervöser Magenverstimmung, Völlegefühl und niedrigem Blutdruck. Ethanolische Auszüge konservieren ätherisches Öl und Rosmarinsäure gut.",
+        "en": "Traditional use as digestive and circulation-stimulating tincture for nervous stomach upset, bloating and low blood pressure. Ethanolic extracts preserve essential oil and rosmarinic acid well."
+      },
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Tinktur 1:5 in 70 % Ethanol aus getrockneten Rosmarinblättern. Übliche Tagesdosis: 3-mal täglich 20-40 Tropfen (1-2 ml) in etwas Wasser vor den Mahlzeiten. Nicht abends einnehmen — anregend.",
+          "en": "1:5 tincture in 70 % ethanol from dried rosemary leaves. Usual daily dose: 20-40 drops (1-2 ml) three times daily in a little water before meals. Avoid in the evening — stimulating."
+        }
+      },
+      "source_ids": [
+        "src_escop_rosmarin",
+        "src_madaus_rosmarin"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Blätter (vor der Blüte)",
+      "en": "leaves (before flowering)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Therapeutische Dosen während der Schwangerschaft meiden (Volksglaube zur Wehenförderung; keine moderne Indikation). Bei Bluthochdruck und Epilepsie campherreiche Zubereitungen mit Vorsicht. Ätherisches Öl nicht unverdünnt auf die Haut und nicht bei Kleinkindern unter 4 Jahren im Gesichtsbereich anwenden — Laryngospasmus-Risiko.",
+      "en": "Avoid therapeutic doses during pregnancy (folk belief as labour stimulant; no modern indication). Use camphor-rich preparations cautiously in hypertension and epilepsy. Do not apply essential oil undiluted to the skin or near the face in children under 4 years — risk of laryngospasm."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenmengen sind unbedenklich. Therapeutische Dosen (Tee, Tinktur, ätherisches Öl) während der Schwangerschaft meiden — Rosmarin gilt traditionell als emmenagog und wehenfördernd; keine ausreichenden Sicherheitsdaten.",
+        "en": "Culinary amounts are safe. Avoid therapeutic doses (tea, tincture, essential oil) during pregnancy — rosemary is traditionally considered emmenagogue and labour-stimulating; insufficient safety data."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Küchenmengen sind in der Stillzeit unbedenklich. Therapeutische Mengen mangels Daten zurückhaltend einsetzen.",
+        "en": "Culinary amounts are safe during breastfeeding. Use therapeutic doses sparingly due to insufficient data."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Ätherisches Rosmarinöl wegen 1,8-Cineol- und Camphergehalt nicht bei Kindern unter 4 Jahren im Gesichtsbereich (Laryngospasmus-Risiko). Innerliche Anwendung von Tee in moderaten Mengen ab Schulalter unbedenklich.",
+        "en": "Rosemary essential oil must not be applied near the face in children under 4 years due to 1,8-cineole and camphor content (risk of laryngospasm). Internal tea use in moderate amounts is safe from school age."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulanzien / Thrombozytenaggregationshemmer",
+        "mechanism": {
+          "de": "Rosmarin enthält Cumarine und kann theoretisch die gerinnungshemmende Wirkung von Warfarin und ähnlichen Medikamenten verstärken; zusätzlich mögliche CYP-Modulation.",
+          "en": "Rosemary contains coumarins and may theoretically potentiate the anticoagulant effect of warfarin and similar drugs; additional possible CYP modulation."
+        },
+        "severity": "monitor",
+        "source_id": "src_ema_rosmarini_folium"
+      },
+      {
+        "drug_class": "Antidiabetika",
+        "mechanism": {
+          "de": "Rosmarinextrakte können den Blutzuckerspiegel leicht senken; bei gleichzeitiger Einnahme blutzuckersenkender Medikamente Werte engmaschig kontrollieren.",
+          "en": "Rosemary extracts may slightly lower blood sugar; monitor blood-glucose values closely when taken alongside antidiabetic medication."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_rosmarin"
+      },
+      {
+        "drug_class": "Antikonvulsiva / Antiepileptika",
+        "mechanism": {
+          "de": "Campherreiche Rosmarinöle und hochdosierte Zubereitungen können in Einzelfällen die Krampfschwelle senken und sollten bei Epilepsie sowie bei gleichzeitiger antikonvulsiver Therapie gemieden werden.",
+          "en": "Camphor-rich rosemary oils and high-dose preparations may in isolated cases lower the seizure threshold and should be avoided in epilepsy and during concomitant antiepileptic therapy."
+        },
+        "severity": "caution",
+        "source_id": "src_ema_rosmarini_aetheroleum"
+      }
+    ],
+    "max_continuous_use_weeks": 4,
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Rosmarin oder anderen Lamiaceen.",
+        "en": "Known hypersensitivity to rosemary or other Lamiaceae."
+      },
+      {
+        "de": "Campherreiche ätherische Rosmarinöle: Anwendung im Gesichtsbereich von Säuglingen und Kleinkindern unter 4 Jahren (Laryngospasmus-Risiko).",
+        "en": "Camphor-rich rosemary essential oils: application near the face of infants and children under 4 years (risk of laryngospasm)."
+      },
+      {
+        "de": "Schwere Hypertonie und Epilepsie — Vorsicht bei hochdosierten oder campherreichen Zubereitungen.",
+        "en": "Severe hypertension and epilepsy — caution with high-dose or camphor-rich preparations."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Rosmarin (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Rosmarin",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Rosemary (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Rosemary",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_rosmarini_folium",
+      "type": "monograph",
+      "title": "EMA HMPC — Community herbal monograph on Rosmarinus officinalis L., folium",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/rosmarini-folium",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_ema_rosmarini_aetheroleum",
+      "type": "monograph",
+      "title": "EMA HMPC — Community herbal monograph on Rosmarinus officinalis L., aetheroleum",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/rosmarini-aetheroleum",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_kommission_e_rosmarin",
+      "type": "monograph",
+      "title": "Kommission E — Rosmarini folium (Bundesanzeiger Nr. 223, 30.11.1985)",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/0223.htm",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_escop_rosmarin",
+      "type": "monograph",
+      "title": "ESCOP Monograph — Rosmarini folium",
+      "url": "https://escop.com/downloads/rosemary-leaf/",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_madaus_rosmarin",
+      "type": "book",
+      "title": "Madaus, Gerhard: Lehrbuch der biologischen Heilmittel, Bd. III — Rosmarinus officinalis (1938, PD)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/rosmarinus.html",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_pfaf_rosmarin",
+      "type": "monograph",
+      "title": "Plants For A Future — Rosmarinus officinalis",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Rosmarinus+officinalis",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_heilkraeuter_rosmarin",
+      "type": "monograph",
+      "title": "Heilkräuter-Lexikon — Rosmarin",
+      "url": "https://heilkraeuter.de/lexikon/rosmarin.htm",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wikidata_rosmarin",
+      "type": "wikidata",
+      "title": "Wikidata — Salvia rosmarinus (Q42329)",
+      "url": "https://www.wikidata.org/wiki/Q42329",
+      "accessed": "2026-05-19"
+    }
+  ],
+  "image": {
+    "filename": "rosmarinus-officinalis.jpg",
+    "alt": {
+      "de": "Foto von Rosmarin",
+      "en": "Photo of Rosemary"
+    },
+    "license": "Public domain",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6hler_Rosmarin1.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible",
+      "medicinal"
+    ],
+    "rooms": [
+      "kitchen",
+      "balcony"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "weekly",
+    "difficulty": 2,
+    "pet_safe": true,
+    "soil": {
+      "de": "Sandig-lehmig mit guter Drainage",
+      "en": "Sandy-loamy with good drainage"
+    },
+    "pot_size_cm": 22,
+    "tips": {
+      "de": [
+        "Im Winter hell und kühl (5-10°C) — keine Heizungsluft.",
+        "Wenig gießen — Wurzelfäule ist häufigster Killer.",
+        "Bei <-10°C unbedingt rein, ist nicht winterhart bei uns."
+      ],
+      "en": [
+        "Winter: bright and cool (5-10 °C) — no heated room.",
+        "Water sparingly — root rot is the most common killer.",
+        "Below -10 °C bring indoors, not hardy in our climate."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "daucus-carota-sativus",
+      "laurus-nobilis",
+      "lavandula-angustifolia",
+      "salvia-officinalis",
+      "thymus-vulgaris",
+      "tropaeolum-majus"
+    ],
+    "bad_partners": [
+      "ocimum-basilicum"
+    ],
+    "reasons": {
+      "daucus-carota-sativus": {
+        "de": "Rosmarin-Duft maskiert Karotten vor Möhrenfliege.",
+        "en": "Rosemary scent masks carrots from carrot fly."
+      },
+      "lavandula-angustifolia": {
+        "de": "Mediterrane Trocken-Profis — Lavendel zieht Bienen, Rosmarin schützt.",
+        "en": "Mediterranean dry specialists — lavender draws bees, rosemary protects."
+      },
+      "ocimum-basilicum": {
+        "de": "Rosmarin mag trocken, Basilikum feucht — Wasser-Konflikt.",
+        "en": "Rosemary likes dry, basil likes moist — water conflict."
+      },
+      "salvia-officinalis": {
+        "de": "Mediterrane Trocken-Allianz — gleiche Bedürfnisse.",
+        "en": "Mediterranean dry alliance — same needs."
+      },
+      "thymus-vulgaris": {
+        "de": "Beide mediterran-trocken-tolerant — perfekte Kräuter-Allianz.",
+        "en": "Both Mediterranean and drought-tolerant — perfect herb pairing."
+      }
+    },
+    "notes_de": "ocimum-basilicum: Rosmarin und Basilikum konkurrieren — Rosmarin mag es trocken, Basilikum feucht.",
+    "notes_en": "ocimum-basilicum: Rosemary and basil conflict — rosemary likes dry soil, basil moist.",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "transplant": {
+        "start_month": 4,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 1,
+      "end_month": 12
+    },
+    "days_to_harvest": 365,
+    "spacing_cm": 60,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "greenhouse"
+    ],
+    "difficulty": 2
+  },
+  "permaculture_functions": [
+    "aromatic_repellent",
+    "pollinator_attractor",
+    "medicinal",
+    "microclimate"
+  ],
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (1,8-Cineol, Campher, alpha-Pinen, Verbenon, Borneol)",
+      "category": "essential_oil",
+      "percent_range": "1-2.5 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptchemotypen unterscheiden sich nach Hauptkomponente: 1,8-Cineol-Typ (schleimlösend), Campher-Typ (durchblutungsfördernd, anregend) und Verbenon-Typ (mild). Bestimmt die pharmakologische Wirkung und die Anwendungsgrenzen.",
+        "en": "Main chemotypes differ by leading component: 1,8-cineole type (mucolytic), camphor type (circulation-promoting, stimulating) and verbenone type (mild). Determines pharmacological action and limits of use."
+      }
+    },
+    {
+      "name": "Rosmarinsäure",
+      "category": "phenolic_acid",
+      "percent_range": "1-5 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Leitsubstanz der Lamiaceae; ausgeprägt antioxidativ, entzündungshemmend und antiviral. Wasserlöslich, daher gut im Tee extrahierbar.",
+        "en": "Leading marker substance of Lamiaceae; strongly antioxidant, anti-inflammatory and antiviral. Water-soluble, therefore well extracted in tea."
+      }
+    },
+    {
+      "name": "Carnosol und Carnosolsäure",
+      "category": "other",
+      "percent_range": "1.5-4.6 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Phenolische Diterpene mit ausgeprägt antioxidativer Wirkung; verantwortlich für die konservierende Wirkung von Rosmarinextrakten in Lebensmitteln (E392).",
+        "en": "Phenolic diterpenes with marked antioxidant activity; responsible for the preservative effect of rosemary extracts in foods (E392)."
+      }
+    },
+    {
+      "name": "Flavonoide (Apigenin, Luteolin, Nepetin, Diosmetin)",
+      "category": "flavonoid",
+      "percent_range": "0.5-1 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavone und Flavonglykoside mit antioxidativen, leicht spasmolytischen und gefässprotektiven Eigenschaften.",
+        "en": "Flavones and flavone glycosides with antioxidant, mildly spasmolytic and vasoprotective properties."
+      }
+    },
+    {
+      "name": "Triterpensäuren (Ursolsäure, Oleanolsäure)",
+      "category": "other",
+      "percent_range": "2-4 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Pentazyklische Triterpene mit antiinflammatorischer und hepatoprotektiver Wirkung; tragen zur Wirkung externer Zubereitungen (Bäder, Umschläge) bei.",
+        "en": "Pentacyclic triterpenes with anti-inflammatory and hepatoprotective effects; contribute to the action of external preparations (baths, compresses)."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Lamiaceen-Gerbstoffe)",
+      "category": "tannin",
+      "percent_range": "ca. 8 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Adstringierende Gerbstoffe der Lamiaceen-Gruppe; tragen zur lokalen Wirkung bei Schleimhaut- und Hautanwendungen bei.",
+        "en": "Astringent tannins of the Lamiaceae group; contribute to the local effect in mucous-membrane and skin applications."
+      }
+    },
+    {
+      "name": "Bitterstoffe (diterpenoide Bitterstoffe)",
+      "category": "bitter",
+      "percent_range": "Spurenanteile",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Bittere Diterpene tragen zur appetit- und gallenflussanregenden Wirkung bei (Amarum aromaticum).",
+        "en": "Bitter diterpenes contribute to the appetite- and bile-flow-stimulating effect (aromatic bitter)."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Am späten Vormittag bei trockenem Wetter, wenn der Tau abgetrocknet ist — dann ist der Gehalt an ätherischem Öl am höchsten.",
+        "en": "Late morning in dry weather once the dew has evaporated — essential-oil content is then highest."
+      },
+      "drying": {
+        "de": "Zweige in kleinen Bündeln kopfüber an einem warmen, luftigen, schattigen Ort trocknen (max. 35 °C). Nach dem Trocknen Nadeln vom Stiel streifen.",
+        "en": "Dry sprigs in small bundles upside down in a warm, airy, shaded place (max 35 °C). Strip needles from stems after drying."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In dunklen, fest schliessenden Glas- oder Blechgefässen kühl und trocken aufbewahren. Ätherisches Öl verflüchtigt sich bei Licht und Luft.",
+        "en": "Store in dark, tightly closed glass or tin containers, cool and dry. Essential oil evaporates with light and air."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Während der Blütezeit (Mai bis Juli) bei sonnigem Wetter am späten Vormittag — Blüten und junge Triebe gleichzeitig schneiden.",
+        "en": "During flowering (May to July) on sunny mornings late in the morning — cut flowers and young shoots together."
+      },
+      "drying": {
+        "de": "Blühende Zweige locker auslegen oder in Bündeln aufhängen, schattig und luftig trocknen.",
+        "en": "Lay flowering sprigs loosely or hang in bundles, dry in a shaded airy spot."
+      },
+      "storage_months": 9,
+      "storage_condition": {
+        "de": "Getrennt von reinen Blattchargen lagern — Blütenanteile sind aromaärmer und sollten innerhalb von 9 Monaten verbraucht werden.",
+        "en": "Store separately from pure leaf batches — flowering material is less aromatic and should be used within 9 months."
+      }
+    }
+  ]
+}

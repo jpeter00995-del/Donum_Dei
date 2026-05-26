@@ -1,0 +1,602 @@
+{
+  "slug": "verbena-officinalis",
+  "names": {
+    "de": "Echtes Eisenkraut",
+    "en": "Verbena officinalis",
+    "latin": "Verbena officinalis"
+  },
+  "family": {
+    "de": "Eisenkrautgewächse",
+    "en": "Verbena family",
+    "latin": "Verbenaceae"
+  },
+  "description": {
+    "de": "Das Echte Eisenkraut, kurz Eisenkraut, Verveine (französisch) oder Verbene genannt, ist eine Pflanzenart, die zur Gattung der Verbenen (Verbena) und damit zur Familie der Eisenkrautgewächse (Verbenaceae) gehört. Es ist eine traditionelle Heilpflanze.",
+    "en": "Verbena officinalis, the common vervain or common verbena, is a perennial herb native to Europe. It grows up to 70 cm (28 in) high, with an upright habitus. The lobed leaves are toothed, and the delicate spikes hold clusters of two-lipped mauve flowers."
+  },
+  "teaser": {
+    "de": "Das Echte Eisenkraut, kurz Eisenkraut, Verveine (französisch) oder Verbene genannt, ist eine Pflanzenart, die zur Gat...",
+    "en": "Verbena officinalis, the common vervain or common verbena, is a perennial herb native to Europe."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "throat",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2.5
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "AUFGUSS (Sinupret-Kontext / traditionelle Anwendung): 1,5–2,5 g getrocknetes Eisenkrautkraut (Herba Verbenae) mit 150 ml siedendem Wasser übergießen, 8–10 Minuten zugedeckt ziehen lassen, abseihen. 3× täglich frisch zubereitet trinken, bevorzugt zwischen den Mahlzeiten. EMA HMPC klassifiziert Verbena officinalis als Bestandteil der Traditionellen Phytotherapie bei katarrhalischen Erkrankungen der Atemwege; als Einzeldroge liegen nur begrenzte klinische Daten vor. Anwendungsdauer ohne Besserung: nach 2 Wochen Arzt aufsuchen. Bei Fieber > 38,5 °C, eitrigem Auswurf oder Atemnot sofort ärztliche Abklärung.",
+          "en": "INFUSION (traditional use / Sinupret context): 1.5–2.5 g dried vervain herb (Herba Verbenae) in 150 ml boiling water, covered, steep 8–10 min, strain. Drink 3× daily freshly prepared, preferably between meals. EMA HMPC classifies Verbena officinalis as part of traditional phytotherapy for catarrhal conditions of the respiratory tract; clinical data as a single drug are limited. If no improvement after 2 weeks, consult a doctor. Fever > 38.5 °C, purulent sputum or dyspnoea require immediate medical evaluation."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA-Monographie für Erwachsene und Jugendliche ab 12 Jahren — keine ausreichenden Daten für Kinder unter 12 Jahren.",
+          "en": "Per EMA monograph for adults and adolescents from 12 years — insufficient data for children under 12."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Aufguss aus blühendem Eisenkrautkraut bei katarrhalischen Erkrankungen der Atemwege — Bestandteil des bekannten Kombinationspräparats Sinupret.",
+        "en": "Traditional infusion of flowering vervain herb for catarrhal conditions of the respiratory tract — a constituent of the well-known combination product Sinupret."
+      },
+      "source_ids": [
+        "src_ema_verbena_hmpc",
+        "src_escop_verbena",
+        "src_pfaf_verbena"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "respiratory",
+        "throat",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "TINKTUR (Verhältnis 1:5 in 40–60 % Ethanol): 1–2 ml (~20–40 Tropfen) 3× täglich mit etwas Wasser eingenommen. Traditionelle Anwendung bei katarrhalischen Atemwegserkrankungen. Wegen Ethanolgehalt nicht für Kinder unter 12 Jahren, nicht bei bekannter Alkohol- oder Lebererkrankung. Anwendungsdauer auf 2 Wochen begrenzen; bei ausbleibendem Therapieerfolg Arzt aufsuchen.",
+          "en": "TINCTURE (DER 1:5 in 40–60 % ethanol): 1–2 ml (~20–40 drops) 3× daily diluted in water. Traditional use for catarrhal respiratory conditions. Due to ethanol content not for children under 12 or persons with alcohol dependence or liver disease. Limit use to 2 weeks; if no improvement consult a doctor."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Wegen Ethanolgehalt nur für Erwachsene und Jugendliche ab 12 Jahren geeignet.",
+          "en": "Due to ethanol content suitable only for adults and adolescents from 12 years."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Tinktur aus Eisenkrautkraut bei katarrhalischen Atemwegserkrankungen — Alternative zum Aufguss bei akzeptiertem Ethanolanteil.",
+        "en": "Traditional tincture of vervain herb for catarrhal respiratory conditions — alternative to infusion when ethanol is acceptable."
+      },
+      "source_ids": [
+        "src_ema_verbena_hmpc",
+        "src_escop_verbena"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "VOLKSHEILKUNDLICHER NERVENKRÄUTER-TEE: 1–2 TL getrocknetes Eisenkrautkraut mit 200 ml heißem Wasser (nicht kochend, ca. 90 °C) übergießen, 8–10 Minuten zugedeckt ziehen lassen, abseihen. 1–2 Tassen täglich, bevorzugt nach den Mahlzeiten. Volksmedizinisch bei nervöser Erschöpfung, menstruationsbedingter Stimmungsabsenkung und nervösen Magenbeschwerden (Dyspepsie) verwendet. KEIN Ersatz für eine ärztliche Diagnose bei anhaltenden Beschwerden. Bitter-herb, angenehmer Geschmack; ggf. mit Honig süßen.",
+          "en": "FOLK NERVINE TEA: 1–2 tsp dried vervain herb in 200 ml hot water (not boiling, ~90 °C), covered, steep 8–10 min, strain. 1–2 cups daily, preferably after meals. Folkloric use for nervous exhaustion, menstruation-related low mood and nervous dyspepsia. NOT a substitute for medical diagnosis with persistent complaints. Bitter-herbaceous, pleasant taste; sweeten with honey if desired."
+        }
+      },
+      "description": {
+        "de": "Volkstümlicher Nervenkräutertee aus Eisenkraut bei nervöser Erschöpfung, Verstimmung und nervösen Magenbeschwerden — eine der ältesten europäischen Nervenkräuterpflanzen.",
+        "en": "Folk nervine tea from vervain for nervous exhaustion, low mood and nervous dyspepsia — one of the oldest European nervine herbs."
+      },
+      "source_ids": [
+        "src_wichtl_teedrogen",
+        "src_madaus_1938_verbena",
+        "src_pfaf_verbena",
+        "src_wp_de_verbena"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat",
+        "immune"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 200,
+        "steep_min": 12,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "GURGELLÖSUNG: 2–3 TL getrocknetes Eisenkrautkraut mit 200 ml kochendem Wasser übergießen, 10–12 Minuten ziehen lassen, abseihen und auf Trinktemperatur abkühlen. 3× täglich damit gurgeln (nicht schlucken) und den Mundraum spülen bei leichten Halsschmerzen, entzündetem Zahnfleisch und leichter Mundhöhlenentzündung. Volksmedizinische Anwendung — nicht bei starken Schmerzen, eitrigen Belägen oder Fieber ohne ärztliche Abklärung. Präparat täglich frisch zubereiten.",
+          "en": "GARGLE: 2–3 tsp dried vervain herb in 200 ml boiling water, steep 10–12 min, strain and cool to drinking temperature. Gargle (do not swallow) 3× daily for mild sore throat, inflamed gums and mild oral mucositis. Folk use — not for severe pain, purulent deposits or fever without medical evaluation. Prepare fresh daily."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Gurgelspülung aus Eisenkraut bei leichten Hals- und Mundbeschwerden — adstringierende Gerbstoffe wirken schleimhautprotektiv.",
+        "en": "Folk gargle from vervain for mild throat and oral complaints — astringent tannins provide mucosal protection."
+      },
+      "source_ids": [
+        "src_wichtl_teedrogen",
+        "src_wp_de_verbena"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "joints",
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 300,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "UMSCHLAG/WICKEL: 5–10 g getrocknetes Eisenkrautkraut oder ein Bund frisches Kraut mit 300 ml kochendem Wasser übergießen, 12–15 Minuten ziehen, abseihen. Sud leicht abkühlen (handwarm). Baumwolltuch damit tränken, ausdrücken und auf schmerzende Gelenke, leichte Prellungen, Wunden oder entzündete Hautstellen auflegen. 15–20 Minuten belassen, 2× täglich. Volksheilkundlich zur Linderung rheumatischer Gelenkbeschwerden und bei leichten Hautverletzungen eingesetzt. Nicht bei offenen Wunden mit Infektionszeichen (Rötung, Eiterung, Schwellung) — sofort Arzt aufsuchen.",
+          "en": "COMPRESS / POULTICE: 5–10 g dried vervain herb or a bunch of fresh herb in 300 ml boiling water, steep 12–15 min, strain. Cool the decoction to hand-warm temperature. Soak a cotton cloth, wring out and apply to aching joints, mild bruises, minor wounds or inflamed skin. Leave 15–20 min, apply 2× daily. Folk use to relieve rheumatic joint complaints and minor skin injuries. Not for open wounds showing signs of infection (redness, pus, swelling) — consult a doctor promptly."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher warmer Kräuterumschlag aus Eisenkraut bei rheumatischen Gelenkbeschwerden, Prellungen und leichten Hautverletzungen.",
+        "en": "Folk warm herbal compress from vervain for rheumatic joint complaints, bruises and minor skin injuries."
+      },
+      "source_ids": [
+        "src_madaus_1938_verbena",
+        "src_pfaf_verbena",
+        "src_wp_en_verbena"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "menstrual",
+        "fever",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "TRADITIONELLER FRAUENKRAUT-TEE: 1–2 TL getrocknetes blühendes Eisenkrautkraut mit 200 ml heißem Wasser übergießen, 10 Minuten ziehen, abseihen. 2× täglich, bevorzugt an den Tagen vor und während der Menstruation. Volksmedizinisch als emmenagogum (menstruationsfördernd) sowie bei leichten Regelschmerzen und Fieber als diaphoretisches (schweißtreibendes) Mittel eingesetzt. WICHTIG: Wegen des Risikos uteriner Aktivität strikt in Schwangerschaft meiden — gilt als traditionell kontraindiziert. Dient nicht als Verhütungsmittel.",
+          "en": "TRADITIONAL WOMEN'S HERB TEA: 1–2 tsp dried flowering vervain herb in 200 ml hot water, steep 10 min, strain. 2× daily, preferably on the days before and during menstruation. Folkloric use as emmenagogue (promoting menstrual flow) and during mild menstrual pain; also used as a diaphoretic (promoting perspiration) in fever. IMPORTANT: Strictly avoid in pregnancy due to the risk of uterine activity — traditionally contraindicated. Does not serve as contraception."
+        }
+      },
+      "description": {
+        "de": "Volkstümlicher Emmenagogen-Tee aus Eisenkraut zur Unterstützung des Menstruationsflusses und bei leichten Regelschmerzen — in der Schwangerschaft strikt kontraindiziert.",
+        "en": "Folk emmenagogue tea from vervain to support menstrual flow and ease mild menstrual cramps — strictly contraindicated in pregnancy."
+      },
+      "source_ids": [
+        "src_madaus_1938_verbena",
+        "src_pfaf_verbena",
+        "src_wp_en_verbena",
+        "src_wichtl_teedrogen"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system",
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "BITTERSTOFF-TINKTUR (Kommission E: negative Monographie wegen unzureichender Wirksamkeitsdaten, aber Anwendung volksmedizinisch etabliert): 1–2 ml (~20–40 Tropfen) 3× täglich vor den Mahlzeiten in etwas Wasser eingenommen. Bitterstoffwirkung soll Gallenfluss anregen und die Verdauung fördern (cholagog, appetitanregend). Die Kommission E beurteilte die Datenlage 1992 als unzureichend und lehnte eine positive Monographie ab. Volksmedizinisch und historisch jedoch eine der bekanntesten europäischen Bitterkräuterpflanzen. Wegen Ethanolgehalt nicht bei Schwangerschaft, Alkohol- oder Lebererkrankung.",
+          "en": "BITTER TINCTURE (Kommission E issued a negative monograph in 1992 due to insufficient efficacy data, but folk use is historically established): 1–2 ml (~20–40 drops) 3× daily before meals in a little water. Bitter substance action is said to stimulate bile flow and aid digestion (cholagogue, appetite-stimulating). Commissioned E judged data insufficient and denied a positive monograph. Historically one of the best-known European bitter herbs. Due to ethanol content avoid in pregnancy, alcohol dependence or liver disease."
+        }
+      },
+      "description": {
+        "de": "Bitterstoff-Tinktur aus Eisenkraut zur volkstümlichen Unterstützung der Verdauung und Gallensekretion — Kommission E (1992) mit negativer Monographie wegen unzureichender Wirksamkeitsdaten.",
+        "en": "Bitter tincture from vervain for folk support of digestion and bile secretion — Kommission E (1992) issued a negative monograph due to insufficient efficacy data."
+      },
+      "source_ids": [
+        "src_kommission_e_verbena",
+        "src_wichtl_teedrogen",
+        "src_madaus_1938_verbena"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "joints",
+        "skin",
+        "nervous_system"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 50,
+          "max": 100
+        },
+        "water_ml": 2000,
+        "steep_min": 20,
+        "doses_per_day": 1,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "KRÄUTERBAD / TEILBAD: 50–100 g getrocknetes Eisenkrautkraut mit 2 Litern kochendem Wasser übergießen, 15–20 Minuten ziehen lassen, abseihen. Sud dem vorbereiteten Vollbad (37–38 °C) oder Teilbad (Fuß-/Armbad) beigeben. 20–30 Minuten verweilen. Volksmedizinisch bei rheumatischen Beschwerden, Muskelschmerzen sowie zur allgemeinen Entspannung eingesetzt. NICHT bei Herzinsuffizienz, Bluthochdruck oder Kreislaufschwäche — vor einem Vollbad ärztliche Rücksprache halten. Nach dem Bad ausreichend ausruhen.",
+          "en": "HERBAL BATH / PARTIAL BATH: 50–100 g dried vervain herb in 2 litres boiling water, steep 15–20 min, strain. Add the decoction to a prepared full bath (37–38 °C) or partial bath (foot/arm bath). Soak 20–30 min. Folk use for rheumatic complaints, muscle pain and general relaxation. NOT for heart failure, hypertension or circulatory weakness — seek medical advice before a full bath. Rest adequately after bathing."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliches Eisenkrautbad bei rheumatischen Beschwerden und Muskelschmerzen — äußerliche Entspannungs- und Schmerzlinderungs-Anwendung.",
+        "en": "Folk vervain bath for rheumatic complaints and muscle pain — external relaxation and pain-relief application."
+      },
+      "source_ids": [
+        "src_pfaf_verbena",
+        "src_wp_de_verbena"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG: Eisenkraut gilt als traditionell sicher bei kurzfristiger Einnahme in üblicher Teemenge. Wegen möglicher uteriner Aktivität in der Schwangerschaft STRIKT MEIDEN — diese Kontraindikation ist klassisch und wird von EMA, Kommission E und ESCOP übereinstimmend genannt. Bei anhaltenden Atemwegsbeschwerden (> 2 Wochen), Fieber > 38,5 °C, eitrigem Auswurf oder Atemnot sofort Arzt aufsuchen. Selbstbehandlung ohne Diagnose nicht bei Kindern unter 12 Jahren. Tinktur enthält Ethanol — Hinweis für Leberkranke, Alkoholabhängige und Epileptiker.",
+      "en": "IMPORTANT: Vervain is considered traditionally safe for short-term use at customary tea amounts. STRICTLY AVOID in pregnancy due to possible uterine activity — this contraindication is classical and is consistently cited by EMA, Kommission E and ESCOP. For persistent respiratory complaints (> 2 weeks), fever > 38.5 °C, purulent sputum or dyspnoea consult a doctor immediately. Do not self-treat children under 12 without diagnosis. Tincture contains ethanol — note for liver disease, alcohol dependence and epilepsy."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Traditionell kontraindiziert. Eisenkraut (Verbena officinalis) enthält Iridoidglykoside (Verbenalin, Hastalosid), die eine uterustonisierende Wirkung haben können. EMA HMPC, ESCOP und Kommission E raten übereinstimmend von der Einnahme in der Schwangerschaft ab. Küchenmäßige Kleinstmengen (Kräuteressig, Garnitur) werden traditionell als unbedenklich betrachtet, sind jedoch nicht ausdrücklich untersucht.",
+        "en": "Traditionally contraindicated. Vervain (Verbena officinalis) contains iridoid glycosides (verbenalin, hastatoside) that may exert uterotonic activity. EMA HMPC, ESCOP and Kommission E consistently advise against use in pregnancy. Culinary trace amounts (herbal vinegar, garnish) are traditionally considered safe but have not been explicitly studied."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten zum Übergang von Eisenkraut-Inhaltsstoffen in die Muttermilch vorhanden. Aus Vorsichtsgründen therapeutische Einnahme während der Stillzeit meiden. Küchenmäßige Kleinstmengen werden traditionell als unbedenklich betrachtet.",
+        "en": "No adequate data on the transfer of vervain constituents into breast milk. As a precaution, avoid therapeutic use during lactation. Culinary trace amounts are traditionally considered safe."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "EMA-Monographie empfiehlt Eisenkraut nicht für Kinder unter 12 Jahren wegen fehlender Sicherheitsdaten. Für Jugendliche ab 12 Jahren bei katarrhalischen Atemwegserkrankungen traditionell anwendbar. Bei Atemwegsbeschwerden bei Kleinkindern immer ärztliche Abklärung bevorzugen.",
+        "en": "EMA monograph does not recommend vervain for children under 12 due to missing safety data. For adolescents from 12 years, traditional use for catarrhal respiratory conditions is applicable. For respiratory complaints in young children always prefer medical evaluation."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Schwangerschaft — traditionell kontraindiziert wegen möglicher uteriner Aktivität der Iridoidglykoside.",
+        "en": "Pregnancy — traditionally contraindicated due to possible uterine activity of iridoid glycosides."
+      },
+      {
+        "de": "Überempfindlichkeit (Allergie) gegenüber Verbena officinalis oder anderen Verbenaceae.",
+        "en": "Hypersensitivity (allergy) to Verbena officinalis or other Verbenaceae."
+      },
+      {
+        "de": "Kinder unter 12 Jahren — mangels ausreichender Sicherheitsdaten (EMA HMPC).",
+        "en": "Children under 12 years — due to insufficient safety data (EMA HMPC)."
+      },
+      {
+        "de": "Schwere Leber- oder Nierenerkrankungen — bei alkoholischen Zubereitungen (Tinktur) aus Vorsicht meiden.",
+        "en": "Severe liver or kidney disease — avoid alcoholic preparations (tincture) as a precaution."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulanzien / Thrombozytenaggregationshemmer (Warfarin, Phenprocoumon, ASS, Clopidogrel)",
+        "mechanism": {
+          "de": "Eisenkraut enthält Gerbstoffe und Iridoide; theoretisches additives Risiko bei gleichzeitiger Einnahme mit gerinnungshemmenden Mitteln, insbesondere bei höheren Mengen. Klinisch nicht belegt, aber INR-Kontrolle bei Antikoagulanzien-Therapie empfohlen.",
+          "en": "Vervain contains tannins and iridoids; theoretical additive risk with anticoagulants or antiplatelet agents, particularly at higher doses. Not clinically documented, but INR monitoring is recommended with anticoagulant therapy."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_verbena"
+      },
+      {
+        "drug_class": "Antihypertensiva (alle Klassen)",
+        "mechanism": {
+          "de": "Für Verbena officinalis wurden im Tierversuch schwache hypotensive Effekte beschrieben. Theoretisch additiver blutdrucksenkender Effekt bei Kombination mit Antihypertensiva möglich. Klinisch nicht belegt; Blutdruckkontrolle bei Dauertherapie empfehlenswert.",
+          "en": "Weak hypotensive effects have been described for Verbena officinalis in animal studies. Theoretical additive blood-pressure-lowering effect when combined with antihypertensives is possible. Not clinically documented; blood pressure monitoring advisable with long-term therapy."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_verbena"
+      },
+      {
+        "drug_class": "Eisenpräparate (orales Eisen)",
+        "mechanism": {
+          "de": "Gerbstoffe im Eisenkraut können Eisenionen komplexieren und die orale Resorption von Eisenpräparaten vermindern. Einnahme von Eisenpräparaten und Eisenkraut-Tee zeitlich trennen (mindestens 2 Stunden Abstand).",
+          "en": "Tannins in vervain can complex iron ions and reduce the oral absorption of iron supplements. Separate intake of iron preparations and vervain tea by at least 2 hours."
+        },
+        "severity": "caution",
+        "source_id": "src_wichtl_teedrogen"
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echtes Eisenkraut (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echtes_Eisenkraut",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Verbena officinalis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Verbena_officinalis",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_verbena_hmpc",
+      "type": "monograph",
+      "title": "EMA/HMPC — European Union herbal monograph on Verbena officinalis L., herba (EMA/HMPC/349790/2011)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/verbena-officinalis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_verbena",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Verbenae herba (Vervain Herb), 2nd edition",
+      "url": "https://escop.com/monographs/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_verbena",
+      "type": "monograph",
+      "title": "Kommission E — Eisenkraut (Verbenae herba), Monographie (negativ), BAnz Nr. 43, 1992-03-02",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/eisenkraut.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_teedrogen",
+      "type": "book",
+      "title": "Wichtl, Max (Hrsg.) — Teedrogen und Phytopharmaka, 5. Auflage, Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009 — Verbenae herba",
+      "url": "https://www.wissenschaftliche-verlagsgesellschaft.de/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_1938_verbena",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band III: Verbena officinalis, 1938 (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/verbena.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_verbena",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Verbena officinalis database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Verbena+officinalis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_verbena",
+      "type": "wikipedia",
+      "title": "Echtes Eisenkraut (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echtes_Eisenkraut",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_verbena",
+      "type": "wikipedia",
+      "title": "Verbena officinalis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Verbena_officinalis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_verbena",
+      "type": "wikidata",
+      "title": "Verbena officinalis — Wikidata Q165478",
+      "url": "https://www.wikidata.org/wiki/Q165478",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_sinupret_herbmed",
+      "type": "monograph",
+      "title": "HerbMed / American Botanical Council — Verbena officinalis (Sinupret combination evidence summary)",
+      "url": "https://www.herbalgram.org/resources/herbmedpro/monographs-and-articles/verbena-officinalis/",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "verbena-officinalis.jpg",
+    "alt": {
+      "de": "Foto von Echtes Eisenkraut",
+      "en": "Photo of Verbena officinalis"
+    },
+    "license": "CC BY-SA 2.5",
+    "author": "Konrad Lackerbeck",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eisenkraut,_Passau.JPG"
+  },
+  "constituents": [
+    {
+      "name": "Iridoidglykoside (Verbenalin / Cornin, Hastalosid)",
+      "category": "glycoside",
+      "percent_range": "0.2-0.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Charakteristische Leitsubstanzen von Verbena officinalis. Verbenalin (synonym: Cornin) ist das mengenmäßig dominierende Iridoidglykosid; Hastalosid kommt in geringerer Menge vor. Beide zeigen im Tierversuch antiinflammatorische und milde analgetische Eigenschaften sowie schwache uterotrope Aktivität (erklärt die Schwangerschafts-Kontraindikation). Verbenalin hemmt in vitro die Prostaglandinsynthese und zeigt hepatoprotektive Eigenschaften in experimentellen Modellen.",
+        "en": "Characteristic lead compounds of Verbena officinalis. Verbenalin (synonym: cornin) is the quantitatively dominant iridoid glycoside; hastatoside occurs in smaller amounts. Both show anti-inflammatory and mild analgesic properties in animal studies, as well as weak uterotropic activity (explaining the pregnancy contraindication). Verbenalin inhibits prostaglandin synthesis in vitro and shows hepatoprotective properties in experimental models."
+      }
+    },
+    {
+      "name": "Flavonoide (Luteolin, Luteolin-7-glucosid, Apigenin)",
+      "category": "flavonoid",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hauptflavonoid ist Luteolin und sein 7-O-Glucosid; daneben Apigenin-Derivate. Luteolin zeigt antioxidative, antiinflammatorische und mild spasmolytische Eigenschaften. Die Flavonoide tragen zur adstringierenden und schleimhautprotektiven Wirkung bei katarrhalischen Erkrankungen bei.",
+        "en": "Main flavonoid is luteolin and its 7-O-glucoside; alongside apigenin derivatives. Luteolin shows antioxidant, anti-inflammatory and mildly spasmolytic properties. The flavonoids contribute to the astringent and mucosal-protective effect in catarrhal conditions."
+      }
+    },
+    {
+      "name": "Gerbstoffe / Tannine (kondensierte und hydrolysierbare Tannine)",
+      "category": "tannin",
+      "percent_range": "1-4 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Bedeutsame Fraktion, verantwortlich für die adstringierende Wirkung auf Schleimhäute (Hals, Mundraum, Magen-Darm-Trakt). Erklärt den traditionellen Einsatz als Gurgelspülung und den leicht zusammenziehenden Geschmack des Tees. Reduzieren die Resorption von Eisenpräparaten — Einnahmeabstand einhalten.",
+        "en": "Significant fraction responsible for the astringent action on mucous membranes (throat, oral cavity, gastrointestinal tract). Explains the traditional use as a gargle and the slightly astringent taste of the tea. Reduces absorption of iron supplements — maintain intake interval."
+      }
+    },
+    {
+      "name": "Kaffeesäurederivate (Verbascoside / Acteosid, Isoverbascoside)",
+      "category": "phenolic_acid",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenylpropanoide mit antioxidativen, antiinflammatorischen und antimikrobiellen Eigenschaften in vitro. Verbascoside (auch: Acteosid) wurde in mehreren Pflanzenarten als Leitsubstanz identifiziert; in Verbena officinalis als Begleitstoff nachgewiesen. Beitrag zur Gesamtwirkung wahrscheinlich, klinisch jedoch nicht isoliert belegt.",
+        "en": "Phenylpropanoids with antioxidant, anti-inflammatory and antimicrobial properties in vitro. Verbascoside (also: acteoside) has been identified as a lead compound in several plant species; detected as an accompanying substance in Verbena officinalis. Likely contribution to the overall effect, but not clinically established in isolation."
+      }
+    },
+    {
+      "name": "Schleimstoffe / Polysaccharide",
+      "category": "polysaccharide",
+      "percent_range": "1-3 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Schleimstoffhaltige Polysaccharide tragen zur reizlindernden und filmbildenden Schutzwirkung auf Atemwegsschleimhäuten bei. Erklärt teilweise die traditionelle Anwendung bei katarrhalischen Erkrankungen der oberen Atemwege und als Gurgelspülung. Wasserunlösliche Fraktion überwiegt im Aufguss kaum — schonender Aufguss bei niedrigerer Temperatur löst mehr Schleimstoffe.",
+        "en": "Mucilage-containing polysaccharides contribute to the soothing and film-forming protective effect on respiratory mucous membranes. Partly explains the traditional use for catarrhal conditions of the upper respiratory tract and as a gargle. The water-insoluble fraction is barely released in a standard infusion — a gentler infusion at lower temperature dissolves more mucilage."
+      }
+    },
+    {
+      "name": "Bitterstoffkomplexe (Stachyosid und andere Secoiridoide)",
+      "category": "bitter",
+      "percent_range": "0.1-0.3 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Bittere Verbindungen, die den charakteristisch herb-bitteren Geschmack des Eisenkrauts mitprägen. Tragen volkstümlich zur appetitanregenden und choleretischen (galleflussfördernden) Wirkung bei. Grundlage des historischen Einsatzes als Magentonikum und Digestivum; von der Kommission E (1992) mangels Wirksamkeitsbelegen in der Monographie nicht positiv bewertet.",
+        "en": "Bitter compounds contributing to the characteristically astringent-bitter taste of vervain. Traditionally associated with appetite-stimulating and choleretic (bile-promoting) activity. Basis of the historical use as a gastric tonic and digestive; not positively assessed in the Kommission E monograph (1992) due to lack of efficacy evidence."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Spuren — Citral, Geraniol, Linalool)",
+      "category": "essential_oil",
+      "percent_range": "Spuren (<0.1 %)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Sehr geringe Gehalte flüchtiger Verbindungen; Verbena officinalis enthält pharmakologisch kein nennenswertes ätherisches Öl (anders als die aromatische Zitronenverbene, Aloysia citrodora). Der leicht zitronige Geruch des frischen Krauts stammt hauptsächlich aus Spurenmengen Geraniol und Citral. Therapeutisch irrelevant als Einzelbestandteil.",
+        "en": "Very low contents of volatile compounds; Verbena officinalis does not contain pharmacologically significant essential oil (unlike the aromatic lemon verbena, Aloysia citrodora). The slightly lemony scent of fresh herb derives mainly from trace amounts of geraniol and citral. Therapeutically irrelevant as an individual component."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Mitte des Vormittags (10–12 Uhr) an einem trockenen, sonnigen Tag — nachdem der Morgentau abgetrocknet ist. Eisenkraut blüht von Juni bis September; der Wirkstoffgehalt (Verbenalin, Flavonoide) ist im frühen bis mittleren Blütenstadium (Stängel ca. 30–50 % in Blüte) am höchsten.",
+        "en": "Mid-morning (10–12) on a dry, sunny day — after morning dew has evaporated. Vervain flowers June to September; constituent content (verbenalin, flavonoids) is highest at the early to mid-flowering stage (stem approx. 30–50 % in flower)."
+      },
+      "drying": {
+        "de": "ERNTE: Obere Triebspitzen mit Blütenähren, jungen Blättern und Stängeln in einer Länge von 15–25 cm abschneiden (keine holzigen Anteile). Zu kleinen Bündeln binden oder einlagig auf Tüchern ausbreiten. Trocknen im Schatten an gut belüftetem Ort bei max. 35–40 °C (Umluftdörrer oder Trockenboden), nicht in der prallen Sonne — UV-Exposition baut Iridoidglykoside ab. Trocknungszeit: 5–10 Tage je nach Feuchte. Getrocknet in dunklen, luftdichten Gläsern oder Blechdosen aufbewahren. Innerhalb von 12 Monaten aufbrauchen. Bei brauner Verfärbung, muffigem oder sehr schwachem Geruch entsorgen — Wirkstoffverlust wahrscheinlich.",
+        "en": "HARVEST: Cut upper shoot tips with flower spikes, young leaves and stems 15–25 cm long (no woody parts). Tie into small bundles or spread in a single layer on cloths. Dry in shade at a well-ventilated location, max 35–40 °C (fan drier or drying loft), not in direct sunlight — UV exposure degrades iridoid glycosides. Drying time: 5–10 days depending on humidity. Store dried herb in dark, airtight jars or tins. Use within 12 months. Discard if brown discolouration, musty or very faint scent — likely loss of potency."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Dunkel, trocken, kühl, luftdicht. Licht und Feuchtigkeit beschleunigen den Iridoid-Abbau erheblich. Nicht über Ofen oder Herd lagern. Innerhalb von 12 Monaten aufbrauchen.",
+        "en": "Dark, dry, cool, airtight. Light and humidity accelerate iridoid degradation significantly. Do not store above stove or cooker. Use within 12 months."
+      }
+    },
+    {
+      "plant_part": "root",
+      "best_months": [
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Herbstnachmittag (13–16 Uhr) nach einer niederschlagsfreien Periode — die Erde ist dann lockerer und die Wurzel lässt sich leichter unbeschädigt herausziehen. HINWEIS: Wurzeln werden wesentlich seltener genutzt als das blühende Kraut; historische Verwendung vor allem in der Volksmedizin (Radix Verbenae).",
+        "en": "Autumn afternoon (13–16) after a dry period — soil is looser and the root is easier to extract undamaged. NOTE: Roots are used far less frequently than the flowering herb; historical use mainly in folk medicine (Radix Verbenae)."
+      },
+      "drying": {
+        "de": "ERNTE (historisch/volksmedizinisch): Ganze Pflanze nach der Samenreife ausgraben. Wurzeln von Erde befreien, kurz unter kaltem Wasser abwaschen, längs aufschneiden oder in 3–5 cm Stücke schneiden. Im Dörrer bei 40–50 °C oder auf Sieben an warmem, belüftetem Ort trocknen — Trocknungszeit ca. 1–3 Tage. Fertig getrocknet bei Bruch: innen hell, geruchlich herb-adstringierend. Aufbewahrung in dunklen Gläsern oder Tüten. Haltbarkeit: bis 2 Jahre wenn gut getrocknet.",
+        "en": "HARVEST (historical / folk medicine): Dig out whole plant after seed ripening. Free roots from soil, rinse briefly in cold water, cut lengthwise or into 3–5 cm pieces. Dry in dehydrator at 40–50 °C or on screens in a warm, ventilated area — drying time approx. 1–3 days. Properly dried, the inner surface is pale and the scent astringent-herbaceous. Store in dark jars or bags. Shelf-life: up to 2 years if well dried."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Dunkel, trocken, kühl. Getrocknete Wurzeln sind stabiler als das Kraut; bis 2 Jahre aufbewahrbar. Kontrolle auf Schimmelbildung bei feuchter Lagerung.",
+        "en": "Dark, dry, cool. Dried roots are more stable than the herb; storable up to 2 years. Check for mould growth if storage conditions are humid."
+      }
+    }
+  ]
+}

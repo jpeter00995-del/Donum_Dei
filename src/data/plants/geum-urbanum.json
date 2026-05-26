@@ -1,0 +1,356 @@
+{
+  "slug": "geum-urbanum",
+  "names": {
+    "de": "Echte Nelkenwurz",
+    "en": "Geum urbanum",
+    "latin": "Geum urbanum"
+  },
+  "family": {
+    "de": "Rosengewächse",
+    "en": "Rose family",
+    "latin": "Rosaceae"
+  },
+  "description": {
+    "de": "Die Echte Nelkenwurz, auch Gemeine Nelkenwurz genannt, ist eine Art aus der Gattung der Nelkenwurzen (Geum), die zur Familie der Rosengewächse (Rosaceae) gehört.",
+    "en": "Geum urbanum, also known as wood avens, herb Bennet, colewort, clove root and St. Benedict's herb, is a perennial plant in the rose family (Rosaceae), which grows in shady places in the temperate regions of Eurasia and North America."
+  },
+  "teaser": {
+    "de": "Die Echte Nelkenwurz, auch Gemeine Nelkenwurz genannt, ist eine Art aus der Gattung der Nelkenwurzen (Geum), die zur ...",
+    "en": "Geum urbanum, also known as wood avens, herb Bennet, colewort, clove root and St."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Wurzelaufguss oder -abkochung aus getrockneten Nelkenwurz-Rhizomen bei Durchfall, Magenkrämpfen und Verdauungsstörungen. Klassische volksheilkundliche Indikation; Gerbstoffe (ca. 9 % Tannine nach PFAF) wirken adstringierend im Darm.",
+        "en": "Root infusion or decoction of dried wood avens rhizomes for diarrhoea, stomach cramps and digestive disorders. Classical folk-medicinal indication; tannins (approx. 9% according to PFAF) exert an astringent effect in the gut."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–4 g getrocknete, zerkleinerte Wurzel mit 250 ml kaltem Wasser ansetzen, kurz aufkochen und 15 Minuten ziehen lassen; abseihen. Bis zu 3 Tassen täglich, frisch zubereitet (flüchtiges Eugenol geht beim längeren Lagern verloren).",
+          "en": "Bring 2–4 g of dried, chopped root with 250 ml cold water to a brief boil and steep 15 minutes; strain. Up to 3 cups daily, freshly prepared (volatile eugenol is lost on prolonged storage)."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_geum",
+        "src_wp_de_geum",
+        "src_wp_en_geum"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Abgekühlter Wurzelabsud als Mundspülung und Gurgelwasser bei Zahn- und Zahnfleischproblemen, Aphten, Rachenreizungen und Halitosis. Die Kombination aus Gerbstoffen und Eugenol wirkt antiseptisch und adstringierend.",
+        "en": "Cooled root decoction as mouthwash and gargle for dental and gum problems, aphthous ulcers, throat irritation and halitosis. The combination of tannins and eugenol acts antiseptic and astringent."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "instructions": {
+          "de": "Abkochung bereiten wie für Tee; auf Körpertemperatur abkühlen und mehrmals täglich spülen oder gurgeln.",
+          "en": "Prepare decoction as for tea; cool to body temperature and rinse or gargle several times daily."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_geum",
+        "src_wp_en_geum"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Auflagen getränkt mit Wurzelabsud bei Hämorrhoiden, Ekzemen und schlecht heilenden Wunden. Adstringierende Gallotannine und Ellagitannine ziehen das Gewebe zusammen und hemmen Mikroorganismen.",
+        "en": "Compresses soaked in root decoction for haemorrhoids, eczema and poorly healing wounds. Astringent gallotannins and ellagitannins constrict tissue and inhibit microorganisms."
+      },
+      "source_ids": [
+        "src_pfaf_geum",
+        "src_wp_de_geum"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische Wurzel als Gewürz – der gewürznelkenartige Eugenolduft war historisch als Biergewürz beliebt (z. B. Augsburger Bier). Auch als Suppen- und Brühgewürz überliefert.",
+        "en": "Fresh root used as a spice – the clove-like eugenol aroma was historically popular as a beer flavouring (e.g. Augsburg ale). Also recorded as a seasoning for soups and broths."
+      },
+      "source_ids": [
+        "src_wp_en_geum",
+        "src_wp_de_geum"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "fever",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Wurzelaufguss in der Volksmedizin als fiebersenkendes und schweißtreibendes Mittel bei Infektionskrankheiten. PFAF dokumentiert antipyretische und diaphoretische Eigenschaften der Droge.",
+        "en": "Root infusion in folk medicine as a febrifuge and diaphoretic for infectious diseases. PFAF documents antipyretic and diaphoretic properties of the drug."
+      },
+      "source_ids": [
+        "src_pfaf_geum"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Fußbäder mit starkem Wurzelabsud volksheilkundlich bei Erfrierungen und Frostbeulen überliefert. PFAF nennt diese Anwendung explizit.",
+        "en": "Foot baths with strong root decoction recorded in folk medicine for frostbite and chilblains. PFAF explicitly mentions this application."
+      },
+      "source_ids": [
+        "src_pfaf_geum"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Wurzel (Herbst)",
+      "en": "root (autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bei üblicher Anwendung keine bekannten Nebenwirkungen. Eugenol: die charakteristischen Gewürznelkenaromen sind ein Qualitätsmerkmal – bei frischer Wurzel deutlich, beim Lagern der getrockneten Droge zunehmend verflüchtigend. Wurzel idealerweise erst kurz vor Gebrauch mahlen.",
+      "en": "No known side effects with normal use. Eugenol: the characteristic clove aroma is a quality marker – pronounced in fresh root, increasingly lost during storage of the dried drug. Grind the root ideally shortly before use."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Sicherheitsdaten für medizinischen Gebrauch in der Schwangerschaft.",
+        "en": "Insufficient safety data for medicinal use during pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten zur Anwendung in der Stillzeit.",
+        "en": "No data on use during breastfeeding."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Keine Daten für Kinder unter 12 Jahren; medizinische Anwendung vorsorglich meiden.",
+        "en": "No data for children under 12 years; medicinal use should be avoided as a precaution."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Eugenol oder Rosaceae.",
+        "en": "Known hypersensitivity to eugenol or Rosaceae."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echte Nelkenwurz (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echte_Nelkenwurz",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Geum urbanum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Geum_urbanum",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_pfaf_geum",
+      "type": "book",
+      "title": "Plants For A Future – Geum urbanum",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Geum+urbanum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_geum",
+      "type": "wikipedia",
+      "title": "Echte Nelkenwurz (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echte_Nelkenwurz",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_en_geum",
+      "type": "wikipedia",
+      "title": "Geum urbanum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Geum_urbanum",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "geum-urbanum.jpg",
+    "alt": {
+      "de": "Foto von Echte Nelkenwurz",
+      "en": "Photo of Geum urbanum"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Didier Descouens",
+    "source_url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Geum_urbanum_-_Habit.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Eugenol",
+      "category": "essential_oil",
+      "plant_part": "root",
+      "percent_range": "0.1-0.2 %",
+      "note": {
+        "de": "Hauptkomponente des ätherischen Öls der frischen Wurzel; erzeugt den typischen Gewürznelkenduft. Wird durch enzymatische Hydrolyse des Glykosids Gein freigesetzt.",
+        "en": "Main component of the fresh root essential oil; produces the characteristic clove scent. Released by enzymatic hydrolysis of the glycoside gein."
+      }
+    },
+    {
+      "name": "Gein (Eugenyyl-vicianosid)",
+      "category": "glycoside",
+      "plant_part": "root",
+      "note": {
+        "de": "Vorläuferglykosid des Eugenols; wird bei Zellverletzung durch pflanzeneigene Hydrolasen in Eugenol und das Disaccharid Vicianose gespalten.",
+        "en": "Precursor glycoside of eugenol; split into eugenol and the disaccharide vicianose by plant-own hydrolases upon cell disruption."
+      }
+    },
+    {
+      "name": "Gallotannine",
+      "category": "tannin",
+      "plant_part": "root",
+      "percent_range": "ca. 9 %",
+      "note": {
+        "de": "Haupttanningruppe der Wurzel; hydrolysierbare Gerbstoffe mit stark adstringierender Wirkung auf Schleimhäute und Wunden.",
+        "en": "Main tannin group of the root; hydrolysable tannins with strongly astringent action on mucous membranes and wounds."
+      }
+    },
+    {
+      "name": "Ellagitannine",
+      "category": "tannin",
+      "plant_part": "root",
+      "note": {
+        "de": "Hydrolysierbare Gerbstoffe neben den Gallotanninen; antimikrobiell wirksam.",
+        "en": "Hydrolysable tannins alongside gallotannins; antimicrobially active."
+      }
+    },
+    {
+      "name": "Kaffeesäure",
+      "category": "phenolic_acid",
+      "plant_part": "root",
+      "note": {
+        "de": "Phenolcarbonsäure; antioxidativ und schwach entzündungshemmend.",
+        "en": "Phenolic carboxylic acid; antioxidant and mildly anti-inflammatory."
+      }
+    },
+    {
+      "name": "Chlorogensäure",
+      "category": "phenolic_acid",
+      "plant_part": "root",
+      "note": {
+        "de": "Phenolcarbonsäure; antioxidativ; kommt auch in Blättern und Früchten vor.",
+        "en": "Phenolic carboxylic acid; antioxidant; present in leaves and fruits as well."
+      }
+    },
+    {
+      "name": "Gallussäure",
+      "category": "phenolic_acid",
+      "plant_part": "root",
+      "note": {
+        "de": "Freie Phenolcarbonsäure; Hydrolyseprodukt der Gallotannine; adstringierend und antimikrobiell.",
+        "en": "Free phenolic carboxylic acid; hydrolysis product of gallotannins; astringent and antimicrobial."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        3,
+        4,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Morgens an trockenen Tagen; PFAF empfiehlt Frühjahrsernte (März-April) für den höchsten Eugenolgehalt.",
+        "en": "Morning on dry days; PFAF recommends spring harvest (March-April) for highest eugenol content."
+      },
+      "drying": {
+        "de": "Wurzeln sofort nach der Ernte waschen, in Scheiben schneiden und bei 35–40 °C trocknen. Eugenol ist flüchtig: nur kurz trocknen und bald verbrauchen; erst kurz vor Gebrauch mahlen.",
+        "en": "Wash roots immediately after harvest, slice and dry at 35–40 °C. Eugenol is volatile: dry only briefly and use soon; grind only shortly before use."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "In luftdichten Behältern, kühl und dunkel. Eugenolgehalt nimmt bei der Lagerung deutlich ab.",
+        "en": "In airtight containers, cool and dark. Eugenol content decreases noticeably during storage."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        4,
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Junge Blätter morgens ernten; können wie Spinat zubereitet oder in Suppen gegeben werden.",
+        "en": "Harvest young leaves in the morning; can be prepared like spinach or added to soups."
+      },
+      "drying": {
+        "de": "Blätter bei max. 40 °C trocknen oder frisch verwenden.",
+        "en": "Dry leaves at max. 40 °C or use fresh."
+      },
+      "storage_months": 12
+    }
+  ]
+}

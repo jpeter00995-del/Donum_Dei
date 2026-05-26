@@ -1,0 +1,435 @@
+{
+  "slug": "melilotus-officinalis",
+  "names": {
+    "de": "Gelber Steinklee",
+    "en": "Melilotus officinalis",
+    "latin": "Melilotus officinalis"
+  },
+  "family": {
+    "de": "Hülsenfrüchtler",
+    "en": "Legume family",
+    "latin": "Fabaceae"
+  },
+  "description": {
+    "de": "Der Gelbe Steinklee, auch Gewöhnlicher Steinklee, Echter Steinklee, (Gebräuchlicher) Steinklee oder Honigklee genannt, ist eine Pflanzenart aus der Gattung Steinklee innerhalb der Familie der Hülsenfrüchtler (Fabaceae).",
+    "en": "Melilotus officinalis, known as sweet yellow clover, yellow melilot, ribbed melilot and common melilot, is a species of legume native to Eurasia and introduced in North America, Africa, and Australia."
+  },
+  "teaser": {
+    "de": "Der Gelbe Steinklee, auch Gewöhnlicher Steinklee, Echter Steinklee, (Gebräuchlicher) Steinklee oder Honigklee genannt...",
+    "en": "Melilotus officinalis, known as sweet yellow clover, yellow melilot, ribbed melilot and common melilot, is a species ..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "preparation": {
+        "de": "1-2 TL (ca. 2-2,4 g) getrocknetes blühendes Kraut mit 150 ml siedendem Wasser übergiessen, 10 min ziehen lassen, 2-3x täglich",
+        "en": "1-2 tsp (approx 2-2.4 g) of dried flowering herb infused with 150 ml boiling water, steep 10 min, 2-3x daily"
+      },
+      "dose_per_use_g": 2.2,
+      "water_ml": 150,
+      "steep_min": 10,
+      "frequency_per_day": "2-3",
+      "evidence_level": "commission_e",
+      "source_ids": [
+        "ema_meliloti",
+        "kommission_e_meliloti",
+        "arzneipflanzenlexikon"
+      ],
+      "description": {
+        "de": "Chronisch-venöse Insuffizienz (CVI): Schweregefühl, Schmerzen, nächtliche Wadenkrämpfe, Juckreiz, Schwellungen der Beine",
+        "en": "Chronic venous insufficiency (CVI): heaviness, pain, nocturnal leg cramps, itching, swelling of the legs"
+      },
+      "target": [
+        "nutrition"
+      ]
+    },
+    {
+      "form": "salve",
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "preparation": {
+        "de": "Salbe mit Steinklee-Extrakt (5-20 %) 2-3x täglich dünn auf betroffene Stellen auftragen",
+        "en": "Salve with sweet clover extract (5-20%) applied thinly 2-3x daily to affected areas"
+      },
+      "frequency_per_day": "2-3",
+      "evidence_level": "commission_e",
+      "source_ids": [
+        "kommission_e_meliloti",
+        "ema_meliloti",
+        "altmeyers_meliloti"
+      ],
+      "description": {
+        "de": "Hämorrhoidalleiden und Krampfadern (lokale Anwendung als Salbe)",
+        "en": "Haemorrhoidal complaints and varicose veins (topical salve)"
+      },
+      "target": [
+        "nutrition"
+      ]
+    },
+    {
+      "form": "compress",
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "preparation": {
+        "de": "Starker Aufguss (5 g Kraut auf 250 ml Wasser, 15 min ziehen) abkühlen lassen, Tuch tränken und 20-30 min auflegen, 2-3x täglich",
+        "en": "Strong infusion (5 g herb per 250 ml water, 15 min steep), cool, soak cloth and apply 20-30 min, 2-3x daily"
+      },
+      "dose_per_use_g": 5,
+      "frequency_per_day": "2-3",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "kommission_e_meliloti",
+        "arzneipflanzenlexikon",
+        "awl_steinklee"
+      ],
+      "description": {
+        "de": "Lokale Ödeme, Prellungen, Verstauchungen, oberflächliche Hämatome (Umschlag)",
+        "en": "Local oedema, contusions, sprains, superficial haematomas (compress)"
+      },
+      "target": [
+        "nutrition"
+      ]
+    },
+    {
+      "form": "bath",
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "preparation": {
+        "de": "50 g getrocknetes Kraut mit 1 L kochendem Wasser übergiessen, 15 min ziehen, abseihen, dem Sitzbad (lauwarm) zugeben, 15-20 min baden, 1x täglich",
+        "en": "50 g dried herb infused with 1 L boiling water, 15 min steep, strain, add to lukewarm sitz bath, bathe 15-20 min, 1x daily"
+      },
+      "dose_per_use_g": 50,
+      "frequency_per_day": "1",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "arzneipflanzenlexikon",
+        "awl_steinklee",
+        "therapeutika_meliloti"
+      ],
+      "description": {
+        "de": "Hämorrhoiden, Lymphstau im Beckenbereich (Sitzbad)",
+        "en": "Haemorrhoids, pelvic lymphatic congestion (sitz bath)"
+      },
+      "target": [
+        "nutrition"
+      ]
+    },
+    {
+      "form": "tincture",
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "preparation": {
+        "de": "1:5 Tinktur in 45 % Ethanol, 3x täglich 1-2 ml in Wasser verdünnt, ärztliche Begleitung empfohlen",
+        "en": "1:5 tincture in 45% ethanol, 3x daily 1-2 ml diluted in water, medical supervision recommended"
+      },
+      "dose_per_use_ml": 1.5,
+      "frequency_per_day": "3",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "kommission_e_meliloti",
+        "altmeyers_meliloti",
+        "erika_larsen_meliloti"
+      ],
+      "description": {
+        "de": "Lymphatische Stauungen, Stützung bei Thrombophlebitis und post-thrombotischem Syndrom (Tinktur, intern)",
+        "en": "Lymphatic congestion, supportive in thrombophlebitis and post-thrombotic syndrome (tincture, internal)"
+      },
+      "target": [
+        "nutrition"
+      ]
+    },
+    {
+      "form": "compress",
+      "internal_external": "external",
+      "plant_part": "flower",
+      "preparation": {
+        "de": "Aufguss aus Blüten (2-3 g auf 200 ml Wasser) als Spülung oder Umschlag verwenden",
+        "en": "Infusion of flowers (2-3 g in 200 ml water) used as wash or compress"
+      },
+      "dose_per_use_g": 2.5,
+      "frequency_per_day": "2-3",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "ema_meliloti",
+        "pfaf_meliloti",
+        "arzneipflanzenlexikon"
+      ],
+      "description": {
+        "de": "Leichte Hautentzündungen, schlecht heilende Wunden (Umschlag/Spülung)",
+        "en": "Mild skin inflammation, poorly healing wounds (compress/wash)"
+      },
+      "target": [
+        "skin",
+        "wounds"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Cumarin-Risiko: Bei Überdosierung Kopfschmerzen, Übelkeit, Schwindel, Leberbelastung. ABSOLUT NUR KORREKT GETROCKNETES Material aus kontrollierter Apotheke verwenden — verdorbenes (vergorenes/schimmeliges) Steinkleekraut bildet Dicumarol (starkes Antikoagulans, Blutungsrisiko). Bei bestehender Lebererkrankung meiden.",
+      "en": "Coumarin risk: overdose may cause headache, nausea, dizziness, liver stress. USE ONLY PROPERLY DRIED material from controlled pharmacy sources — spoiled (fermented/mouldy) sweet clover forms dicoumarol (potent anticoagulant, bleeding risk). Avoid in pre-existing liver disease."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "status": "caution",
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "-",
+        "en": "-"
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "-",
+        "en": "-"
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "-",
+        "en": "-"
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulantien (Warfarin, Phenprocoumon, DOAKs wie Apixaban/Rivaroxaban)",
+        "mechanism": {
+          "de": "Cumarin und besonders Dicumarol aus verdorbenem Material verstärken die Gerinnungshemmung, erhöhtes Blutungsrisiko",
+          "en": "Coumarin and especially dicoumarol from spoiled material potentiate anticoagulation, increased bleeding risk"
+        },
+        "severity": "avoid",
+        "source_id": "ema_meliloti"
+      },
+      {
+        "drug_class": "Thrombozytenaggregationshemmer (ASS, Clopidogrel)",
+        "mechanism": {
+          "de": "Additive Blutungsneigung möglich",
+          "en": "Possible additive bleeding tendency"
+        },
+        "severity": "caution",
+        "source_id": "ema_meliloti"
+      },
+      {
+        "drug_class": "Hepatotoxische Arzneimittel (Paracetamol in hoher Dosis, Methotrexat)",
+        "mechanism": {
+          "de": "Cumarin kann Leberbelastung erhöhen, vorsichtige Kombination",
+          "en": "Coumarin may increase liver stress, combine cautiously"
+        },
+        "severity": "caution",
+        "source_id": "altmeyers_meliloti"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Bekannte Lebererkrankung; gleichzeitige Einnahme von Antikoagulantien ohne ärztliche Überwachung; Schwangerschaft und Stillzeit (Cumaringehalt); Kinder unter 12 Jahren; vor geplanten Operationen 2 Wochen vorher absetzen",
+        "en": "Known liver disease; concurrent anticoagulant therapy without medical supervision; pregnancy and lactation (coumarin content); children under 12 years; discontinue 2 weeks before planned surgery"
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gelber Steinklee (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gelber_Steinklee",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Melilotus officinalis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Melilotus_officinalis",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "ema_meliloti",
+      "type": "monograph",
+      "title": "European Union herbal monograph on Melilotus officinalis (L.) Lam., herba (HMPC)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/meliloti-herba",
+      "publisher": "European Medicines Agency, Committee on Herbal Medicinal Products",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "ema_meliloti_assessment",
+      "type": "monograph",
+      "title": "Assessment report on Melilotus officinalis (L.) Lam., herba",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melilotus-officinalis-l-lam-herba_en.pdf",
+      "publisher": "European Medicines Agency, HMPC",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "kommission_e_meliloti",
+      "type": "monograph",
+      "title": "Kommission E Monographie: Meliloti herba (Steinkleekraut)",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/",
+      "publisher": "Bundesanzeiger / BGA Kommission E",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "pfaf_meliloti",
+      "type": "wikipedia",
+      "title": "Melilotus officinalis - Plants For A Future",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Melilotus+officinalis",
+      "publisher": "PFAF",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "arzneipflanzenlexikon",
+      "type": "wikipedia",
+      "title": "Steinklee - Arzneipflanzen-Lexikon",
+      "url": "https://arzneipflanzenlexikon.info/steinklee.php",
+      "publisher": "Arzneipflanzenlexikon.info",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "altmeyers_meliloti",
+      "type": "wikipedia",
+      "title": "Meliloti herba - Altmeyers Encyclopedia Phytotherapy",
+      "url": "https://www.altmeyers.org/en/naturopathy/meliloti-herba-143195",
+      "publisher": "Altmeyers Enzyklopädie",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "awl_steinklee",
+      "type": "wikipedia",
+      "title": "Steinklee (Melilotus officinalis) - Wirkung",
+      "url": "https://www.awl.ch/heilpflanzen/melilotus_officinalis/steinklee.htm",
+      "publisher": "AWL Heilpflanzen",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "therapeutika_meliloti",
+      "type": "wikipedia",
+      "title": "Therapeutika - Melilotus officinalis",
+      "url": "https://www.therapeutika.ch/Melilotus+officinalis",
+      "publisher": "Therapeutika.ch",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "erika_larsen_meliloti",
+      "type": "wikipedia",
+      "title": "Sweet Clover Monograph - Erika Larsen Clinical Herbalist",
+      "url": "https://www.erika-larsen-clinical-herbalist.com/writing-1/sweet-clover-monograph",
+      "publisher": "Erika Larsen Clinical Herbalist",
+      "accessed": "2026-05-19"
+    }
+  ],
+  "image": {
+    "filename": "melilotus-officinalis.jpg",
+    "alt": {
+      "de": "Foto von Gelber Steinklee",
+      "en": "Photo of Melilotus officinalis"
+    },
+    "license": "See Commons file page",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:melilotus-officinalis.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Cumarin",
+      "category": "phenolic_acid",
+      "percent_range": "0,4-0,9 %",
+      "note": {
+        "de": "Hauptwirkstoff, entsteht durch Trocknung aus Melilotosid (o-Cumarsäure-Glykosid), verantwortlich für typischen Heu-Geruch und gefässwirksame Effekte",
+        "en": "Main active compound, formed during drying from melilotoside (o-coumaric acid glycoside), responsible for typical hay scent and vascular effects"
+      }
+    },
+    {
+      "name": "Melilotosid (o-Cumarsäure-Glykosid)",
+      "category": "glycoside",
+      "note": {
+        "de": "Vorstufe des Cumarins, in der frischen Pflanze enthalten, wird beim Trocknen enzymatisch gespalten",
+        "en": "Precursor of coumarin in the fresh plant, enzymatically cleaved during drying"
+      }
+    },
+    {
+      "name": "Melilotigenin",
+      "category": "saponin",
+      "note": {
+        "de": "Triterpensaponin-Aglykon, trägt zur entzündungshemmenden und gefässwirksamen Wirkung bei",
+        "en": "Triterpene saponin aglycone, contributes to anti-inflammatory and vascular effects"
+      }
+    },
+    {
+      "name": "Flavonoide (Kämpferol- und Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "note": {
+        "de": "Erhöhen Kapillarresistenz, reduzieren Gefässpermeabilität, antioxidativ",
+        "en": "Increase capillary resistance, reduce vascular permeability, antioxidant"
+      }
+    },
+    {
+      "name": "Hydroxyzimtsäure-Derivate (o-Cumarsäure, Melilotsäure)",
+      "category": "phenolic_acid",
+      "note": {
+        "de": "Phenolische Säuren mit leicht antiseptischer und entzündungshemmender Wirkung",
+        "en": "Phenolic acids with mild antiseptic and anti-inflammatory effect"
+      }
+    },
+    {
+      "name": "Triterpensaponine",
+      "category": "saponin",
+      "note": {
+        "de": "Unterstützen Lymphfluss und venöse Drainage",
+        "en": "Support lymph flow and venous drainage"
+      }
+    },
+    {
+      "name": "Schleimstoffe",
+      "category": "mucilage",
+      "note": {
+        "de": "Reizlindernde Komponente, relevant für äusserliche Anwendung bei Hautreizungen",
+        "en": "Demulcent component, relevant for topical use on irritated skin"
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "season": {
+        "de": "Juni bis September während der Vollblüte",
+        "en": "June to September during full bloom"
+      },
+      "yield_note": {
+        "de": "Cumaringehalt erreicht Maximum bei voller Blüte und korrekter Trocknung",
+        "en": "Coumarin content peaks at full bloom with proper drying"
+      },
+      "best_months": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "plant_part": "flower",
+      "season": {
+        "de": "Juli bis August (Blüten allein für Salben/Spülungen)",
+        "en": "July to August (flowers alone for salves/washes)"
+      },
+      "best_months": [
+        6,
+        7,
+        8
+      ]
+    }
+  ]
+}

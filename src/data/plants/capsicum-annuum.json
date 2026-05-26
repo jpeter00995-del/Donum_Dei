@@ -1,0 +1,514 @@
+{
+  "slug": "capsicum-annuum",
+  "names": {
+    "de": "Paprika",
+    "en": "Capsicum annuum",
+    "latin": "Capsicum annuum"
+  },
+  "family": {
+    "de": "Nachtschattengewächse",
+    "en": "Nightshade family",
+    "latin": "Solanaceae"
+  },
+  "description": {
+    "de": "Die Pflanzengattung Paprika (Capsicum) gehört zur Familie der Nachtschattengewächse (Solanaceae). Die Früchte werden als Gemüse und Gewürz verwendet. Je nach Größe, Farbe und Geschmack sowie Schärfe werden für viele Sorten besondere Namen wie Chili, Spanischer Pfeffer, Peperoni, Peperoncini oder Pfefferoni gebraucht.",
+    "en": "Capsicum annuum is a flowering plant in the family Solanaceae (nightshades), native to the northern regions of South America and to southwestern North America. The plant produces berries of many colors including red, green, and yellow, often with pungent taste. It is one of the oldest cultivated crops, with domestication dating back to around 6,000 years ago in regions of Mexico."
+  },
+  "teaser": {
+    "de": "Die Pflanzengattung Paprika (Capsicum) gehört zur Familie der Nachtschattengewächse (Solanaceae).",
+    "en": "Capsicum annuum is a flowering plant in the family Solanaceae (nightshades), native to the northern regions of South ..."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune",
+        "skin"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Frische Gemüsepaprika (grün, gelb, orange, rot) enthält außergewöhnlich viel Vitamin C — rote Früchte bis zu 200 mg/100 g, etwa dreimal mehr als Orangen. Roh verzehrt liefern sie darüber hinaus Vitamin A (als Beta-Carotin-Vorstufe), Vitamin B6 und Folsäure. Besonders rote Paprika ist reich an Capsanthin, dem dominanten roten Carotinoid, sowie an Quercetin und anderen Flavonoiden. Der rohe Verzehr schont die hitzeempfindlichen Vitamine optimal.",
+        "en": "Fresh bell pepper (green, yellow, orange, red) contains exceptionally high vitamin C — red fruits up to 200 mg/100 g, about three times more than oranges. Eaten raw they also provide vitamin A (as beta-carotene precursor), vitamin B6 and folate. Red bell peppers in particular are rich in capsanthin, the dominant red carotenoid, plus quercetin and other flavonoids. Raw consumption preserves heat-sensitive vitamins optimally."
+      },
+      "source_ids": [
+        "src_usda_capsicum",
+        "src_efsa_vitamin_c",
+        "src_wp_de_paprika",
+        "src_wp_en_capsicum"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Im grünen, unreifen Zustand geerntete Paprikafrüchte — besonders bei Sorten wie Jalapeño, Serrano oder Gemüsepaprika — werden roh als Salat, in Antipasti oder als Snack verzehrt. Grüne Paprika enthält weniger Zucker und Carotinoide als die vollreife Frucht, dafür einen frisch-herben Eigengeschmack. Auch Samen und Membranen sind essbar, enthalten aber bei scharfen Sorten den Hauptteil des Capsaicins.",
+        "en": "Bell pepper fruits harvested green and unripe — particularly varieties such as Jalapeño, Serrano or sweet bell peppers — are eaten raw in salads, antipasti or as snacks. Green peppers contain less sugar and fewer carotenoids than the fully ripe fruit, but have a fresh, slightly bitter flavour. Seeds and inner membranes are edible but contain most of the capsaicin in hot cultivars."
+      },
+      "source_ids": [
+        "src_pfaf_capsicum",
+        "src_wp_de_paprika",
+        "src_wp_en_capsicum"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Vollreife, farbige Paprikafrüchte — geschmort, gebacken, gegrillt oder gedünstet — sind Grundzutat der mediterranen, balkanischen und mitteleuropäischen Küche. Beim Kochen werden Zellwände aufgebrochen, was die Bioverfügbarkeit fettlöslicher Carotinoide (Capsanthin, Beta-Carotin) gegenüber rohem Verzehr erhöht, während Vitamin C hitzesensitiv teilweise verloren geht. Klassische Gerichte: Ungarisches Gulasch (mit edelsüßem Paprika), Ajvar (Balkanhalbinsel), gefüllte Paprika (Mitteleuropa) und Peperonata (Italien).",
+        "en": "Fully ripe, coloured bell pepper fruits — braised, baked, grilled or steamed — are a staple of Mediterranean, Balkan and Central European cuisines. Cooking breaks down cell walls and increases bioavailability of fat-soluble carotenoids (capsanthin, beta-carotene) compared with raw consumption, while heat-sensitive vitamin C is partially lost. Classic dishes include Hungarian goulash (with sweet paprika), ajvar (Balkan peninsula), stuffed peppers (Central Europe) and peperonata (Italy)."
+      },
+      "source_ids": [
+        "src_usda_capsicum",
+        "src_wp_de_paprika",
+        "src_pfaf_capsicum"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Aus vollreifen, getrockneten und gemahlenen Paprikafrüchten wird Paprikapulver (Paprika edelsüß, rosenscharf, geräuchert) hergestellt. Es ist unverzichtbares Gewürz in der ungarischen, spanischen (Pimentón de la Vera, geräuchert) und marokkanischen Küche. Paprikapulver enthält konzentrierte Mengen an Capsanthin (leuchtendrote Farbe), Carotinoiden und je nach Sorte variable Capsaicinmengen (bei edelsüßen Sorten minimal). Industriell wird Capsanthin (E160c) als natürlicher Lebensmittelfarbstoff eingesetzt.",
+        "en": "From fully ripe, dried and ground pepper fruits, paprika powder (sweet, hot, smoked) is produced. It is an indispensable spice in Hungarian, Spanish (Pimentón de la Vera, smoked) and Moroccan cuisines. Paprika powder contains concentrated amounts of capsanthin (bright-red colour), carotenoids and, depending on cultivar, variable capsaicin levels (minimal in sweet varieties). Industrially, capsanthin (E160c) is used as a natural food colourant."
+      },
+      "source_ids": [
+        "src_wp_de_paprika",
+        "src_wp_en_capsicum",
+        "src_usda_capsicum",
+        "src_efsa_capsanthin"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Capsaicinhaltige Zubereitungen aus Cayenne- oder anderen scharfen Capsicum-Sorten werden in der Volksmedizin seit Jahrhunderten äußerlich bei Muskel- und Gelenkschmerzen sowie Neuralgien eingesetzt. Capsaicin wirkt als TRPV1-Rezeptoragonist und führt bei wiederholter Applikation zur Desensibilisierung der Schmerzfasern (Substanz-P-Erschöpfung). Dieser Wirkungsmechanismus gilt als wissenschaftlich belegt; er gilt jedoch primär für capsaicinreiche Sorten (Cayenne, Chili), nicht für die milde Gemüsepaprika. Handelsübliche capsaicinhaltige Salben (0,025–0,1 % Capsaicin) und Pflaster (8 % Hochkonzentratpflaster, verschreibungspflichtig) sind zugelassen.",
+        "en": "Capsaicin-containing preparations from cayenne or other hot Capsicum cultivars have been used in folk medicine for centuries externally for muscle and joint pain and neuralgias. Capsaicin acts as a TRPV1 receptor agonist and causes desensitisation of pain fibres with repeated application (substance P depletion). This mechanism is scientifically established; however, it applies primarily to capsaicin-rich cultivars (cayenne, chilli), not to mild bell pepper. Commercial capsaicin creams (0.025–0.1 % capsaicin) and patches (8 % high-concentration patch, prescription-only) are approved."
+      },
+      "source_ids": [
+        "src_capsaicin_review_doi",
+        "src_pfaf_capsicum",
+        "src_wp_en_capsicum"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "joints",
+        "circulation"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinisch werden frische oder getrocknete scharfe Paprikafrüchte in warmem Öl oder Alkohol mazeriert und als reizende Auflage (Kompresse, Einreibung) bei Rheumaschmerzen, Ischialgien und Muskelkater eingesetzt. Die Wärmeempfindung entsteht durch Capsaicin-vermittelte TRPV1-Aktivierung. Anwendung nur auf intakter Haut, nicht auf Schleimhäuten oder Wunden. Auch hier gilt: wirksam nur bei capsaicinreichen Cultivaren; bei Gemüsepaprika fehlt der Wirkstoffgehalt für diesen Effekt.",
+        "en": "In folk medicine, fresh or dried hot pepper fruits are macerated in warm oil or alcohol and applied as an irritant compress or rub for rheumatic pain, sciatica and muscle soreness. The warming sensation is mediated by capsaicin-induced TRPV1 activation. Apply only on intact skin, never on mucous membranes or wounds. Again: effective only with capsaicin-rich cultivars; bell pepper lacks sufficient capsaicin for this effect."
+      },
+      "source_ids": [
+        "src_capsaicin_review_doi",
+        "src_pfaf_capsicum"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "immune",
+        "skin",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Paprika ist eines der Gemüse mit dem höchsten Carotinoidgehalt: Capsanthin (nur in Capsicum vorkommend), Capsorubin, Beta-Carotin, Zeaxanthin und Lutein wurden umfangreich untersucht. Diese Carotinoide wirken antioxidativ und werden mit der Prävention oxidativer Zellschäden assoziiert. Beta-Carotin wird im Körper je nach Bedarf zu Vitamin A (Retinol) umgewandelt. Lutein und Zeaxanthin sind wichtig für die Gesundheit der Netzhaut. Die Carotinoidkonzentration steigt von grün (niedrig) über gelb und orange bis rot (höchste Werte) deutlich an.",
+        "en": "Bell pepper is one of the vegetables with the highest carotenoid content: capsanthin (unique to Capsicum), capsorubin, beta-carotene, zeaxanthin and lutein have been extensively studied. These carotenoids are antioxidant and are associated with prevention of oxidative cell damage. Beta-carotene is converted to vitamin A (retinol) in the body as needed. Lutein and zeaxanthin are important for retinal health. Carotenoid concentration increases markedly from green (low) through yellow and orange to red (highest levels)."
+      },
+      "source_ids": [
+        "src_usda_capsicum",
+        "src_efsa_vitamin_c",
+        "src_efsa_capsanthin"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "reife Früchte",
+      "en": "ripe fruits"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "MILDE GEMÜSEPAPRIKA ist ein sehr sicheres Lebensmittel ohne besondere Risiken bei normaler Verzehrmenge. SCHARFE Sorten (Capsaicin-reich, z. B. Cayenne, Jalapeño, Habanero): Capsaicin reizt Schleimhäute, Augen und Haut stark — Hände nach dem Schneiden gründlich waschen, Augen nicht berühren. Innerlich bei empfindlichem Magen oder Reflux können scharfe Sorten Magenreizung, Sodbrennen und Durchfall verursachen. Äußerliche capsaicinhaltige Präparate (Salben, Pflaster) nur auf intakter Haut anwenden, nie auf Augen, Schleimhäute oder Wunden. Hochkonzentrat-Capsaicin-Pflaster (8 %) sind verschreibungspflichtig und nur unter medizinischer Aufsicht anzuwenden. Paprika gehört zur Familie der Nachtschattengewächse (Solanaceae) — seltene Kreuzreaktionen bei Nachtschatten-Allergie möglich.",
+      "en": "MILD BELL PEPPER is a very safe food without particular risks at normal consumption amounts. HOT cultivars (capsaicin-rich, e.g. cayenne, jalapeño, habanero): capsaicin strongly irritates mucous membranes, eyes and skin — wash hands thoroughly after cutting, avoid touching eyes. Orally in sensitive stomachs or with reflux, hot varieties can cause gastric irritation, heartburn and diarrhoea. Topical capsaicin preparations (creams, patches) should only be applied on intact skin, never near eyes, mucous membranes or wounds. High-concentration capsaicin patches (8 %) are prescription-only and must be applied under medical supervision. Bell pepper belongs to the Solanaceae (nightshade family) — rare cross-reactions possible in nightshade allergy."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Gemüsepaprika als Lebensmittel in üblichen Mengen ist in Schwangerschaft und Stillzeit unbedenklich und sogar empfehlenswert (Vitamin C, Folsäure, Beta-Carotin). Sehr scharfe Sorten in großen Mengen sollten bei Sodbrennen oder empfindlichem Magen gemieden werden. Hochdosierte Capsaicin-Präparate (Nahrungsergänzung, Salben) sind in der Schwangerschaft nicht empfohlen — mangels Daten.",
+        "en": "Bell pepper as a food in normal amounts is safe and even beneficial in pregnancy and lactation (vitamin C, folate, beta-carotene). Very hot varieties in large amounts should be avoided if heartburn or gastric sensitivity is present. High-dose capsaicin preparations (supplements, topical) are not recommended in pregnancy due to lack of data."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Gemüsepaprika als Lebensmittel unbedenklich. Capsaicin geht in die Muttermilch über; sehr scharfe Mahlzeiten können bei manchen Säuglingen zu Reizbarkeit führen — in solchen Fällen scharfe Sorten meiden. Topische Hochdosis-Capsaicin-Präparate: keine ausreichenden Daten, Vorsicht empfohlen.",
+        "en": "Bell pepper as food is safe during lactation. Capsaicin passes into breast milk; very spicy meals may cause irritability in some infants — avoid hot varieties in such cases. Topical high-dose capsaicin preparations: insufficient data, caution recommended."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Gemüsepaprika als Lebensmittel für Kinder unbedenklich und als vitamin- und mineralstoffreiche Ergänzung empfehlenswert. Scharfe Sorten sind für Kleinkinder und Kinder ungeeignet — starke Schleimhautreizung. Capsaicin-Salben und -Pflaster nicht bei Kindern unter 12 Jahren anwenden.",
+        "en": "Bell pepper as food is safe for children and recommended as a vitamin- and mineral-rich addition to the diet. Hot varieties are unsuitable for infants and young children — strong mucosal irritation. Capsaicin creams and patches should not be used in children under 12."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit oder Allergie gegen Capsicum-Arten oder andere Nachtschattengewächse (Solanaceae).",
+        "en": "Known hypersensitivity or allergy to Capsicum species or other Solanaceae."
+      },
+      {
+        "de": "Äußerliche capsaicinhaltige Präparate: nicht auf verletzte, entzündete oder gereizte Haut, Augen oder Schleimhäute auftragen.",
+        "en": "Topical capsaicin preparations: do not apply to broken, inflamed or irritated skin, eyes or mucous membranes."
+      },
+      {
+        "de": "Schwere Magen-Darm-Erkrankungen (Magengeschwür, aktive Colitis, Reizdarmsyndrom in akuter Phase): scharfe Sorten meiden.",
+        "en": "Severe gastrointestinal conditions (peptic ulcer, active colitis, irritable bowel syndrome in acute phase): avoid hot varieties."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Blutgerinnungshemmer (Warfarin, Phenprocoumon, Heparin)",
+        "mechanism": {
+          "de": "Hohe Vitamin-K-Gehalte in Paprika (besonders grüne, ca. 7–10 µg/100 g) können bei sehr großen Mengen den Vitamin-K-Spiegel leicht beeinflussen. Bei therapeutischer Antikoagulation bei normalen Verzehrmengen klinisch nicht relevant; bei extremer Einnahme (Paprika-Smoothies in Liter-Mengen) INR-Kontrolle empfohlen.",
+          "en": "High vitamin K content in bell pepper (especially green, approx. 7–10 µg/100 g) may at very large amounts slightly influence vitamin K levels. Clinically irrelevant at normal food intake under therapeutic anticoagulation; with extreme consumption (litre-scale paprika smoothies) INR monitoring is recommended."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "ACE-Hemmer (Captopril, Enalapril u. a.)",
+        "mechanism": {
+          "de": "Capsaicin (aus scharfen Sorten) kann durch TRPV1-vermittelte Bradykinin-Freisetzung in der Lunge den ACE-Hemmer-induzierten Reizhusten verschlimmern oder auslösen. Betrifft nicht die milde Gemüsepaprika, sondern scharfe Sorten oder Capsaicin-Präparate.",
+          "en": "Capsaicin (from hot cultivars) can exacerbate or trigger ACE-inhibitor-induced cough via TRPV1-mediated bradykinin release in the lung. This does not affect mild bell pepper, only hot varieties or capsaicin preparations."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Topische Analgetika und Lokalanästhetika",
+        "mechanism": {
+          "de": "Gleichzeitige topische Anwendung von capsaicinhaltigen Präparaten mit Lokalanästhetika kann die Resorption oder Wirkung verändern. Kombination auf Anraten des Arztes oder Apothekers.",
+          "en": "Simultaneous topical use of capsaicin-containing preparations with local anaesthetics may alter absorption or efficacy. Combine only on the advice of a doctor or pharmacist."
+        },
+        "severity": "caution"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Paprika (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Paprika",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Capsicum annuum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Capsicum_annuum",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_usda_capsicum",
+      "type": "monograph",
+      "title": "USDA FoodData Central — Peppers, sweet, red, raw (FDC ID: 170108) und Peppers, sweet, green, raw (FDC ID: 170110)",
+      "url": "https://fdc.nal.usda.gov/food-details/170108/nutrients",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_efsa_vitamin_c",
+      "type": "monograph",
+      "title": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA) — Scientific Opinion on Dietary Reference Values for vitamin C (EFSA Journal 2013;11(11):3418)",
+      "url": "https://doi.org/10.2903/j.efsa.2013.3418",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_efsa_capsanthin",
+      "type": "monograph",
+      "title": "EFSA — Capsanthin and Capsorubin (E 160c): Re-evaluation as food additives (EFSA Journal 2016;14(3):4432)",
+      "url": "https://doi.org/10.2903/j.efsa.2016.4432",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_capsaicin_review_doi",
+      "type": "monograph",
+      "title": "Anand P, Bley K — Topical capsaicin for pain management: therapeutic potential and mechanisms of action of the new high-concentration capsaicin 8 % patch. Br J Anaesth. 2011;107(4):490–502.",
+      "url": "https://doi.org/10.1093/bja/aer260",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_capsicum",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Capsicum annuum database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Capsicum+annuum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_paprika",
+      "type": "wikipedia",
+      "title": "Paprika (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Paprika",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_capsicum",
+      "type": "wikipedia",
+      "title": "Capsicum annuum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Capsicum_annuum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_capsicum",
+      "type": "wikidata",
+      "title": "Capsicum annuum (Wikidata Q4093)",
+      "url": "https://www.wikidata.org/wiki/Q4093",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "capsicum-annuum.jpg",
+    "alt": {
+      "de": "Foto von Paprika",
+      "en": "Photo of Capsicum annuum"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Capsicum_annuum0.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 2,
+        "end_month": 3
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 7,
+      "end_month": 10
+    },
+    "days_to_harvest": 120,
+    "spacing_cm": 50,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field",
+      "greenhouse"
+    ],
+    "difficulty": 1
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-sativum",
+      "calendula-officinalis",
+      "ocimum-basilicum",
+      "tagetes-patula"
+    ],
+    "bad_partners": [
+      "foeniculum-vulgare"
+    ],
+    "reasons": {
+      "allium-sativum": {
+        "de": "Knoblauch hält Spinnmilben und Pilze fern.",
+        "en": "Garlic deters spider mites and fungi."
+      },
+      "ocimum-basilicum": {
+        "de": "Basilikum hält Schädlinge fern und verbessert Paprika-Aroma.",
+        "en": "Basil deters pests and improves pepper aroma."
+      },
+      "tagetes-patula": {
+        "de": "Tagetes vertreibt Nematoden und Blattläuse.",
+        "en": "Marigold deters nematodes and aphids."
+      }
+    },
+    "notes_de": "ocimum-basilicum: Basilikum verbessert Paprika-Aroma und hält Schädlinge fern.",
+    "notes_en": "ocimum-basilicum: Basil improves pepper aroma and deters pests.",
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "vertical_mid"
+  ],
+  "constituents": [
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "percent_range": "0,1–0,2 % (100–200 mg/100 g Frischgewicht)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Rote Paprika enthält bis zu 200 mg Vitamin C pro 100 g — deutlich mehr als Orangen (~50 mg/100 g). Vitamin C ist ein wasserlösliches Antioxidans, essenziell für Kollagensynthese, Immunfunktion und Eisenresorption. Hitzesensitiv: beim Kochen werden 30–50 % abgebaut. Grüne Paprika enthält ca. 80 mg/100 g, gelbe ca. 180 mg/100 g.",
+        "en": "Red bell pepper contains up to 200 mg vitamin C per 100 g — significantly more than oranges (~50 mg/100 g). Vitamin C is a water-soluble antioxidant, essential for collagen synthesis, immune function and iron absorption. Heat-sensitive: 30–50 % is degraded during cooking. Green bell pepper contains approx. 80 mg/100 g, yellow approx. 180 mg/100 g."
+      }
+    },
+    {
+      "name": "Capsanthin und Capsorubin (Capsicum-Carotinoide)",
+      "category": "other",
+      "percent_range": "0,1–0,5 % Gesamtcarotinoide (Trockengewicht)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Capsanthin ist das wichtigste und namensgebende rote Carotinoid der roten Paprika und kommt außerhalb der Gattung Capsicum kaum vor. Es ist fettlöslich, antioxidativ und verleiht Paprikapulver die charakteristische leuchtend rote Farbe. Industriell als Lebensmittelfarbstoff E160c zugelassen. Capsorubin ist das zweithäufigste Capsicum-spezifische Xanthophyll. Beide akkumulieren erst in der vollreifen, roten Frucht.",
+        "en": "Capsanthin is the main and eponymous red carotenoid of red bell pepper and is barely found outside the Capsicum genus. It is fat-soluble, antioxidant and gives paprika powder its characteristic bright-red colour. Approved industrially as food colourant E160c. Capsorubin is the second most abundant Capsicum-specific xanthophyll. Both accumulate only in the fully ripe, red fruit."
+      }
+    },
+    {
+      "name": "Beta-Carotin (Provitamin A)",
+      "category": "other",
+      "percent_range": "0,05–0,2 % (in roten Früchten)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Beta-Carotin ist die wichtigste Provitamin-A-Verbindung in Paprika und wird in der Darmwand bedarfsgerecht zu Retinol (Vitamin A) umgewandelt. Fettlöslich — Bioverfügbarkeit durch gleichzeitige Fettzufuhr (z. B. Öl-Salatdressing) deutlich erhöht. Antioxidativ; unterstützt Haut-, Augen- und Immungesundheit.",
+        "en": "Beta-carotene is the main provitamin A compound in bell pepper and is converted in the intestinal wall to retinol (vitamin A) as needed. Fat-soluble — bioavailability is significantly increased by simultaneous fat intake (e.g. oil-based dressing). Antioxidant; supports skin, eye and immune health."
+      }
+    },
+    {
+      "name": "Capsaicin und Capsaicinoide (Dihydrocapsaicin, Nordihydrocapsaicin)",
+      "category": "alkaloid",
+      "percent_range": "< 0,01 % (Gemüsepaprika) bis > 1 % (Habanero-Typ)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Capsaicin ist der Hauptschärfeträger von Capsicum annuum und aller scharfen Chilisorten. In milder Gemüsepaprika praktisch nicht vorhanden (< 0,01 %). In scharfen Cultivaren (Jalapeño: 0,02–0,06 %, Cayenne: 0,1–0,4 %, Habanero: > 1 %) wirkt Capsaicin als selektiver Agonist am TRPV1-Rezeptor (Hitze-/Schmerzrezeptor). Verantwortlich für topische analgetische Wirkung (Substanz-P-Depletion) bei chronischen Schmerzen und Neuralgien. Schärfe wird in Scoville Heat Units (SHU) gemessen: Gemüsepaprika 0–100 SHU, Jalapeño 2.500–8.000 SHU, Habanero 100.000–350.000 SHU.",
+        "en": "Capsaicin is the main pungency compound of Capsicum annuum and all hot chilli cultivars. Essentially absent in mild bell pepper (< 0.01 %). In hot cultivars (jalapeño: 0.02–0.06 %, cayenne: 0.1–0.4 %, habanero: > 1 %) capsaicin acts as a selective TRPV1 receptor agonist (heat/pain receptor). Responsible for topical analgesic effect (substance P depletion) in chronic pain and neuralgias. Pungency is measured in Scoville Heat Units (SHU): bell pepper 0–100 SHU, jalapeño 2,500–8,000 SHU, habanero 100,000–350,000 SHU."
+      }
+    },
+    {
+      "name": "Vitamin B6 (Pyridoxin)",
+      "category": "vitamin",
+      "percent_range": "0,3–0,6 mg/100 g",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Paprika ist eine der besten pflanzlichen Vitamin-B6-Quellen. Pyridoxin ist essenziell für Aminosäurestoffwechsel, Neurotransmittersynthese (Serotonin, Dopamin) und Hämoglobinbildung. Der Tagesbedarf eines Erwachsenen (ca. 1,4 mg) kann mit ~250 g roter Paprika bereits zu 50–80 % gedeckt werden.",
+        "en": "Bell pepper is one of the best plant sources of vitamin B6. Pyridoxine is essential for amino acid metabolism, neurotransmitter synthesis (serotonin, dopamine) and haemoglobin formation. A single serving of ~250 g red bell pepper can cover 50–80 % of the adult daily requirement (~1.4 mg)."
+      }
+    },
+    {
+      "name": "Quercetin und Kämpferol (Flavonoide)",
+      "category": "flavonoid",
+      "percent_range": "0,01–0,06 % (Frischgewicht)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Quercetin ist das Hauptflavonol in Paprika, besonders in der Fruchthaut konzentriert. Antioxidativ und entzündungshemmend in vitro; Bioverfügbarkeit aus dem Lebensmittel moderiert. Kämpferol kommt in geringeren Mengen vor. Beide Verbindungen tragen zur antioxidativen Gesamtkapazität des Gemüses bei.",
+        "en": "Quercetin is the main flavonol in bell pepper, concentrated particularly in the skin. Antioxidant and anti-inflammatory in vitro; bioavailability from the food matrix is moderate. Kaempferol is present in smaller amounts. Both compounds contribute to the overall antioxidant capacity of the vegetable."
+      }
+    },
+    {
+      "name": "Kalium (Mineral)",
+      "category": "mineral",
+      "percent_range": "170–250 mg/100 g",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Paprika ist kaliumreich bei gleichzeitig sehr niedrigem Natriumgehalt — günstig für Blutdruckregulation im Rahmen einer ausgewogenen Ernährung. Kalium ist zudem wichtig für Muskel- und Nervenfunktion. Der Gehalt bleibt beim Kochen weitgehend erhalten, wird aber beim Blanchieren ins Kochwasser ausgewaschen.",
+        "en": "Bell pepper is potassium-rich with a very low sodium content — favourable for blood pressure regulation as part of a balanced diet. Potassium is also important for muscle and nerve function. The content is largely preserved during cooking but leaches into water during blanching."
+      }
+    },
+    {
+      "name": "Ballaststoffe (Dietary Fibre)",
+      "category": "polysaccharide",
+      "percent_range": "2–3 % (Frischgewicht)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Paprika enthält unlösliche (Cellulose, Hemicellulose) und lösliche Ballaststoffe (Pektin), die die Darmtätigkeit fördern, das Sättigungsgefühl erhöhen und als Präbiotikum für die Darmflora dienen. Der Ballaststoffgehalt wird durch Kochen kaum verändert.",
+        "en": "Bell pepper contains insoluble (cellulose, hemicellulose) and soluble fibre (pectin), which promote bowel motility, increase satiety and serve as a prebiotic for gut flora. The fibre content is little affected by cooking."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens oder am frühen Vormittag bei trockener Witterung ernten — die Früchte sind dann kühl und turgor-prall, was die Haltbarkeit verlängert.",
+        "en": "Harvest in the morning or early forenoon in dry weather — fruits are then cool and turgid, which extends shelf life."
+      },
+      "drying": {
+        "de": "GRÜNE ERNTE (unreif, 65–75 Tage nach Pflanzung): Früchte mit Gartenschere oder Messer mit kurzem Stielansatz abschneiden, wenn sie die sortentypische Endgröße erreicht haben und die Schale noch fest und glänzend ist. Grüne Paprika enthält weniger Zucker und Carotinoide, hat aber einen frisch-herben Geschmack. Sofort kühl lagern (8–10 °C, nicht im Kühlschrank-Gemüsefach unter 7 °C — Kälteschäden!). Haltbarkeit: 2–4 Wochen.\n\nFARBIGE ERNTE (vollreif, 80–120 Tage je nach Sorte): Warten bis zur sortenspezifischen Vollreife (rot, gelb, orange). Dann enthält die Frucht das Maximum an Vitamin C, Capsanthin und Beta-Carotin. Regelmäßige Ernte fördert Nachfruktifikation. Vorsicht: Überreife Früchte werden weich und verfaulen schnell. Haltbarkeit vollreif: 1–3 Wochen bei 10–13 °C.",
+        "en": "GREEN HARVEST (unripe, 65–75 days after transplanting): Cut fruits with secateurs or a knife leaving a short piece of stem, once they have reached the variety's final size and the skin is firm and glossy. Green peppers contain less sugar and carotenoids but have a fresh, slightly bitter flavour. Store cool immediately (8–10 °C; do NOT store below 7 °C — chilling injury!). Shelf life: 2–4 weeks.\n\nCOLOURED HARVEST (fully ripe, 80–120 days depending on variety): Wait for variety-specific full ripeness (red, yellow, orange). The fruit then contains maximum vitamin C, capsanthin and beta-carotene. Regular harvesting promotes continued fruiting. Caution: overripe fruits soften and rot quickly. Shelf life when fully ripe: 1–3 weeks at 10–13 °C."
+      },
+      "storage_months": 1,
+      "storage_condition": {
+        "de": "Kühl bei 10–13 °C, nicht unter 7 °C (Kälteschäden). Nicht zusammen mit Äpfeln, Birnen oder anderen Ethylen-produzierenden Früchten lagern. Für längere Haltbarkeit: blanchieren und einfrieren (12 Monate), einlegen (Essig/Öl), zu Paprikapaste oder Ajvar verarbeiten, oder als Paprikapulver trocknen (Dörrgerät bei 50–60 °C, 12–18 Stunden).",
+        "en": "Cool at 10–13 °C, not below 7 °C (chilling injury). Do not store with apples, pears or other ethylene-producing fruits. For longer preservation: blanch and freeze (12 months), pickle (vinegar/oil), process into pepper paste or ajvar, or dry as paprika powder (dehydrator at 50–60 °C, 12–18 hours)."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Vollreife, makellose Früchte von gesunden Pflanzen kurz vor oder nach Saisonende für die Saatgutgewinnung zurücklassen.",
+        "en": "Leave fully ripe, unblemished fruits from healthy plants just before or after the end of the season for seed saving."
+      },
+      "drying": {
+        "de": "SAATGUTGEWINNUNG: Vollreife Paprikafrüchte öffnen, Samen aus der zentralen Samenleiste lösen und von den Membranen trennen. Samen auf Papier oder Tüchern bei Zimmertemperatur (20–25 °C) an einem luftigen Ort 1–2 Wochen trocknen, bis sie sich brüchig anfühlen und leicht zerbrechen. NICHT im Backofen oder Dörrgerät — Keimfähigkeit wird zerstört. Keimfähigkeit bei optimaler Trocknung und Lagerung: 3–5 Jahre. Nur bei Sorten (keine Hybridsorten/F1), da Nachkommen sonst nicht sortentreu sind.",
+        "en": "SEED SAVING: Open fully ripe pepper fruits, detach seeds from the central seed column and separate from membranes. Dry seeds on paper or cloth at room temperature (20–25 °C) in an airy location for 1–2 weeks until they feel brittle and snap cleanly. Do NOT use oven or dehydrator — germination ability will be destroyed. Germination viability with optimal drying and storage: 3–5 years. Only worthwhile with open-pollinated varieties (not hybrid/F1 seeds, as offspring will not breed true)."
+      },
+      "storage_months": 36,
+      "storage_condition": {
+        "de": "Trocken in beschrifteten Papiertüten oder kleinen Gläsern (mit Trockenmittel-Päckchen), dunkel bei 5–15 °C (Kühlschrank oder kühler Keller). Nicht in luftdicht verschlossenen Plastikbeuteln ohne Trockenmittel — Restfeuchtigkeit führt zu Schimmel. Keimtest vor Aussaat: 5 Samen auf feuchtem Küchenpapier bei 25 °C, 7–14 Tage — mindestens 4 von 5 sollten keimen.",
+        "en": "Dry in labelled paper envelopes or small jars (with silica gel sachet), dark at 5–15 °C (refrigerator or cool cellar). Do not store in sealed plastic bags without desiccant — residual moisture causes mould. Germination test before sowing: 5 seeds on moist paper towel at 25 °C, 7–14 days — at least 4 of 5 should germinate."
+      }
+    }
+  ]
+}

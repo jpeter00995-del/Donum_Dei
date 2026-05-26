@@ -1,0 +1,83 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+// === 2. KONSTANTEN ===
+const locale = 'de' as const;
+---
+
+<BaseLayout locale={locale} title="Impressum">
+  <div class="max-w-3xl mx-auto px-4 py-8 prose prose-slate">
+    <!-- === 1. HERO === -->
+    <header class="mb-6">
+      <h1 class="text-3xl font-serif font-bold text-slate-900 mb-2">Impressum</h1>
+      <p class="text-sm text-slate-500">Angaben gemäß § 5 TMG</p>
+    </header>
+
+    <!-- === 2. BETREIBER === -->
+    <section class="mb-8">
+      <h2 class="text-xl font-serif font-semibold text-slate-900 mb-2">Angaben gemäß § 5 TMG</h2>
+      <address class="not-italic text-slate-800 leading-relaxed">
+        Maikel Ganske<br />
+        Ul. Naum Preslavski 1<br />
+        9006 Varna<br />
+        Bulgarien
+      </address>
+    </section>
+
+    <!-- === 3. KONTAKT === -->
+    <section class="mb-8">
+      <h2 class="text-xl font-serif font-semibold text-slate-900 mb-2">Kontakt</h2>
+      <p class="text-slate-800">
+        E-Mail:
+        <a
+          href="mailto:maikelganske913@gmail.com"
+          class="text-emerald-700 hover:text-emerald-800 underline"
+        >maikelganske913@gmail.com</a>
+        <br />
+        Web:
+        <a
+          href="https://donum-dei.pages.dev"
+          class="text-emerald-700 hover:text-emerald-800 underline"
+        >https://donum-dei.pages.dev</a>
+      </p>
+    </section>
+
+    <!-- === 4. HAFTUNGSAUSSCHLUSS === -->
+    <section class="mb-8">
+      <h2 class="text-xl font-serif font-semibold text-slate-900 mb-3">Haftungsausschluss</h2>
+
+      <h3 class="text-lg font-semibold text-slate-900 mt-4 mb-2">Haftung für Inhalte</h3>
+      <p class="text-slate-700 leading-relaxed">
+        Die Inhalte dieser Seiten wurden mit größter Sorgfalt erstellt. Donum Dei
+        dient ausschließlich der Bildung und ersetzt keine medizinische Beratung.
+        Bei gesundheitlichen Beschwerden wenden Sie sich an Arzt oder Apotheker.
+        Pflanzen können giftig sein — Anwendung auf eigene Verantwortung.
+      </p>
+
+      <h3 class="text-lg font-semibold text-slate-900 mt-4 mb-2">Haftung für Links</h3>
+      <p class="text-slate-700 leading-relaxed">
+        Externe Links zu Wikipedia, GBIF, Wikimedia Commons werden zum Zeitpunkt
+        der Verlinkung auf Rechtsverstöße geprüft. Auf Inhalte externer Seiten
+        haben wir keinen Einfluss.
+      </p>
+
+      <h3 class="text-lg font-semibold text-slate-900 mt-4 mb-2">Urheberrecht</h3>
+      <p class="text-slate-700 leading-relaxed">
+        Pflanzen-Bilder stammen von Wikimedia Commons (CC-Lizenzen — vollständige Liste
+        unter <a href="/de/bildnachweis" class="text-emerald-700 hover:text-emerald-800 underline">Bildnachweis</a>).
+        Pflanzen-Beschreibungen sind teilweise von Wikipedia (CC BY-SA 4.0) übernommen + paraphrasiert.
+        Klassische Permakultur-Quellen (Sepp Holzer, Bill Mollison, Toby
+        Hemenway) wurden paraphrasiert, keine Direkt-Zitate.
+      </p>
+    </section>
+
+    <!-- === 5. LINKS === -->
+    <p class="mt-10 text-sm text-slate-500">
+      Siehe auch:
+      <a href="/de/datenschutz" class="text-emerald-700 hover:text-emerald-800 underline">Datenschutzerklärung</a>
+      <span class="text-slate-400"> · </span>
+      <a href="/de/bildnachweis" class="text-emerald-700 hover:text-emerald-800 underline">Bildnachweis</a>
+    </p>
+  </div>
+</BaseLayout>

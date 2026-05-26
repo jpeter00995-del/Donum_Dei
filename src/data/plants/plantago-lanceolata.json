@@ -1,0 +1,455 @@
+{
+  "slug": "plantago-lanceolata",
+  "names": {
+    "de": "Spitzwegerich",
+    "en": "Plantago lanceolata",
+    "latin": "Plantago lanceolata"
+  },
+  "family": {
+    "de": "Wegerichgewächse",
+    "en": "Plantain family",
+    "latin": "Plantaginaceae"
+  },
+  "description": {
+    "de": "Der Spitzwegerich (Plantago lanceolata) ist eine Pflanzenart aus der Gattung Wegeriche (Plantago), die zur Familie der Wegerichgewächse (Plantaginaceae) gehört.",
+    "en": "Plantago lanceolata is a species of flowering plant in the plantain family Plantaginaceae. It is known by the common names ribwort plantain, narrowleaf plantain, English plantain, ribleaf, lamb's tongue, and buckhorn. It is a common weed on cultivated or disturbed land."
+  },
+  "teaser": {
+    "de": "Der Spitzwegerich (Plantago lanceolata) ist eine Pflanzenart aus der Gattung Wegeriche (Plantago), die zur Familie de...",
+    "en": "Plantago lanceolata is a species of flowering plant in the plantain family Plantaginaceae."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "throat"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "AUFGUSS (kein Kochen — Schleimstoffe und Aucubin sind hitzeempfindlich): 1–2 g zerkleinerte getrocknete Spitzwegerichblätter mit 150 ml heißem (nicht kochendem, ca. 80–90 °C) Wasser übergießen, zugedeckt 10–15 Minuten ziehen lassen, abseihen. 2–3× täglich frisch zubereiten. Bei trockenem Reizhusten langsam in kleinen Schlucken. EMA-Monographie: Tagesdosis 3–6 g.",
+          "en": "INFUSION (do not boil — mucilage and aucubin are heat-sensitive): Pour 150 ml hot (not boiling, ca. 80–90 °C) water over 1–2 g crushed dried ribwort plantain leaves, cover, steep 10–15 min, strain. 2–3× daily freshly prepared. For dry irritated cough sip slowly. EMA monograph: daily dose 3–6 g."
+        }
+      },
+      "age_restriction": {
+        "min_age": 6,
+        "note": {
+          "de": "Laut EMA-Monographie geeignet für Erwachsene, Jugendliche und Kinder ab 6 Jahren.",
+          "en": "Per EMA monograph suitable for adults, adolescents and children from 6 years."
+        }
+      },
+      "description": {
+        "de": "Reizlindernder Tee bei trockenem Reizhusten und Heiserkeit. Schleimstoffe legen sich als Schutzfilm auf gereizte Rachen- und Bronchialschleimhaut; Aucubin (bzw. sein Aglykon Aucubigenin) wirkt zusätzlich antibakteriell; Acteoside (Verbascoside) hemmt Leukotrien-B4-Synthese und wirkt antiinflammatorisch.",
+        "en": "Soothing tea for dry irritated cough and hoarseness. Mucilage forms a protective film on irritated pharyngeal and bronchial mucosa; aucubin (resp. its aglycone aucubigenin) adds antibacterial action; acteoside (verbascoside) inhibits leukotriene B4 synthesis and acts anti-inflammatorily."
+      },
+      "source_ids": [
+        "src_ema_plantaginis_lanceolatae_folium",
+        "src_wp_de_plantago",
+        "src_wp_en_plantago"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat",
+        "mouth"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "Aufguss wie beim Tee (1–2 g + 150 ml heißes Wasser, 10–15 Min). Lauwarm 2–3× täglich 30 Sekunden gurgeln oder als Mundspülung verwenden. Bei Halsentzündung kann der Sud auch geschluckt werden.",
+          "en": "Prepare infusion as for tea (1–2 g + 150 ml hot water, 10–15 min). Use lukewarm 2–3× daily to gargle 30 seconds or as a mouth rinse. For pharyngitis the liquid may also be swallowed."
+        }
+      },
+      "age_restriction": {
+        "min_age": 6,
+        "note": {
+          "de": "Ab 6 Jahren; bei Gurgeln jüngere Kinder beaufsichtigen.",
+          "en": "From 6 years; supervise younger children when gargling."
+        }
+      },
+      "description": {
+        "de": "Gurgellösung und Mundspülung bei leichten Entzündungen der Mund- und Rachenschleimhaut. Tannine und Schleimstoffe wirken adstringierend und schützend.",
+        "en": "Gargle and mouth rinse for mild inflammation of the oral and pharyngeal mucosa. Tannins and mucilage act astringently and protectively."
+      },
+      "source_ids": [
+        "src_ema_plantaginis_lanceolatae_folium"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "FRISCHBLATT-AUFLAGE (klassisches Wanderer-Hausmittel): Frische, saubere Spitzwegerichblätter zwischen Fingern oder mit flachem Stein zerdrücken bis Saft austritt, direkt auf Insektenstiche, Brennnessel-Quaddeln oder kleine Schürfwunden auflegen. Nach 10–20 Min gegen frische Blätter tauschen. FEUCHTER UMSCHLAG: Aufguss (2 g Blätter/150 ml heißes Wasser, 15 Min) auf sauberes Tuch, auf Wunde 15–20 Min auflegen.",
+          "en": "FRESH-LEAF POULTICE (classic wayfarer's home remedy): Crush fresh, clean ribwort plantain leaves between fingers or with a flat stone until juice appears, apply directly to insect bites, nettle stings or minor scrapes. Replace after 10–20 min. MOIST COMPRESS: Infusion (2 g leaves/150 ml hot water, 15 min) on clean cloth, apply to wound 15–20 min."
+        }
+      },
+      "description": {
+        "de": "Volksmedizinisches Erstversorgungsmittel: Spitzwegerich wächst an fast jedem Wegrand und liefert sofort ein natürliches Pflaster. Aucubigenin wirkt antibakteriell, Schleim- und Gerbstoffe beruhigen und schützen. Kein Ersatz für ärztliche Versorgung bei tiefen oder infizierten Wunden.",
+        "en": "Folk medicine first-aid remedy: ribwort plantain grows on almost every roadside and provides an instant natural plaster. Aucubigenin acts antibacterially; mucilage and tannins soothe and protect. Not a substitute for medical treatment of deep or infected wounds."
+      },
+      "source_ids": [
+        "src_wp_en_plantago",
+        "src_wp_de_plantago"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "respiratory",
+        "throat"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "SPITZWEGERICH-SIRUP oder TINKTUR (traditionelle Darreichungsform, bes. für Kinder beliebt): Frische Blätter mit Honig im Verhältnis 1:1 schichtweise in ein Glas einlegen, 4–8 Wochen stehen lassen — der Sirup zieht aus. Täglich 1 TL 2–3× einnehmen. Fertige Spitzwegerich-Hustensirupe im Handel erhältlich. Tinktur: standardisiertes Fertigpräparat nach Packungsbeilage.",
+          "en": "RIBWORT PLANTAIN SYRUP or TINCTURE (traditional dosage form, especially popular for children): Layer fresh leaves alternately with honey in a jar 1:1, leave 4–8 weeks — syrup draws out. Take 1 tsp 2–3× daily. Ready-made ribwort plantain cough syrups available commercially. Tincture: standardised finished preparation per package leaflet."
+        }
+      },
+      "age_restriction": {
+        "min_age": 6,
+        "note": {
+          "de": "Sirupform besonders geeignet für Kinder ab 6 Jahren (Honigsirup erst ab 1 Jahr — Botulismus-Risiko bei Säuglingen).",
+          "en": "Syrup form especially suitable for children from 6 years (honey syrup only from 1 year — botulism risk in infants)."
+        }
+      },
+      "description": {
+        "de": "Spitzwegerich-Honigsirup als volkstümliche Alternativform zum Tee bei Reizhusten und Heiserkeit. Die Kombination aus Schleimstoffen und Honig wirkt besonders reizlindernd und schmeckt Kindern besser als der Tee.",
+        "en": "Ribwort plantain honey syrup as traditional alternative to tea for dry irritated cough and hoarseness. The combination of mucilage and honey is especially soothing and tastes better to children than the tea."
+      },
+      "source_ids": [
+        "src_wp_de_plantago",
+        "src_ema_plantaginis_lanceolatae_folium"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 3
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "MISCHKRÄUTERTEE bei Erkältung/Bronchitis: Spitzwegerich mit Thymian oder Schlüsselblume mischen (je 1 g, Gesamtdosis 2–3 g). Aufguss 10–15 Min, 3× täglich. Volksmedizinisch auch bei akuter Bronchitis eingesetzt.",
+          "en": "HERBAL BLEND TEA for colds/bronchitis: Mix ribwort plantain with thyme or cowslip (1 g each, total dose 2–3 g). Infusion 10–15 min, 3× daily. Used in folk medicine also for acute bronchitis."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Hustentee bei Erkältung, akuter Bronchitis und Halsschmerzen — oft in Kombination mit anderen Hustenpflanzen (Thymian, Eibisch, Schlüsselblume). Acteoside/Verbascoside hemmt Leukotrien-B4 und wirkt antiinflammatorisch; Schleimstoffe lindern Reizung.",
+        "en": "Folk medicine cough tea for colds, acute bronchitis and sore throat — often combined with other cough plants (thyme, marshmallow, cowslip). Acteoside/verbascoside inhibits leukotriene B4 and acts anti-inflammatorily; mucilage soothes irritation."
+      },
+      "source_ids": [
+        "src_pubmed_plantago_anti",
+        "src_wp_en_plantago"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "doses_per_day": 2,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "FRISCHE BLÄTTER ALS KÜHLKOMPRESSE: Mehrere frische Spitzwegerichblätter kurz kalt abwaschen, auf einen Sonnenbrand oder Insektenstich-Areal direkt auflegen. Blätter halten Feuchtigkeit und kühlen sanft. Nach Bedarf erneuern. KEIN ERSATZ für medizinische Versorgung bei schweren Verbrennungen.",
+          "en": "FRESH LEAVES AS COOLING COMPRESS: Rinse a few fresh ribwort plantain leaves briefly in cold water, apply directly to sunburn or insect sting area. Leaves retain moisture and cool gently. Renew as needed. NO substitute for medical treatment of severe burns."
+        }
+      },
+      "description": {
+        "de": "Traditionelle äußerliche Anwendung bei Sonnenbrand, oberflächlichen Verbrennungen, Ekzemen und Insektenstichen. Die Gerbstoffe wirken adstringierend und lindern Juckreiz, Acteoside-Komponenten wirken mild antiinflammatorisch.",
+        "en": "Traditional external use for sunburn, superficial burns, eczema and insect bites. Tannins act astringently and relieve itching; acteoside components act mildly anti-inflammatorily."
+      },
+      "source_ids": [
+        "src_wp_de_plantago",
+        "src_wp_en_plantago"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Blätter (vor der Blüte)",
+      "en": "leaves (before flowering)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Wenn Husten länger als 1 Woche anhält oder mit Fieber, Atemnot, eitrigem oder blutigem Auswurf einhergeht: Arzt aufsuchen. Schleimstoffe können Aufnahme anderer oral eingenommener Arzneimittel im Magen-Darm-Trakt verzögern — andere Medikamente 30–60 Min vor oder nach dem Spitzwegerich-Tee einnehmen. Aufguss nur mit heißem (nicht kochendem) Wasser — zu hohe Temperaturen zerstören Schleimstoffe und Aucubin. Spitzwegerich-Honigsirup erst ab 1 Lebensjahr (Botulismus-Risiko bei Säuglingen unter 12 Monaten).",
+      "en": "If cough persists more than 1 week or is accompanied by fever, breathlessness, purulent or bloody sputum: consult a doctor. Mucilage can delay absorption of other orally taken medicines — take other medications 30–60 min before or after ribwort tea. Use hot (not boiling) water for infusion — excessive temperature destroys mucilage and aucubin. Ribwort honey syrup only from 1 year of age (botulism risk in infants under 12 months)."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "EMA weist auf fehlende Daten zur Anwendung in der Schwangerschaft hin. Äußerliche Frischblatt-Auflage auf Insektenstich gilt als unbedenklich.",
+        "en": "EMA notes lack of reliable data on use during pregnancy. External fresh-leaf poultice on an insect bite is considered harmless."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Anwendung in der Stillzeit.",
+        "en": "Insufficient data on use during breastfeeding."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Tee und Gurgellösung: ab 6 Jahren laut EMA. Sirupform mit Honig erst ab 1 Jahr. Frischblatt-Auflage (äußerlich) volksmedizinisch auch bei kleineren Kindern üblich.",
+        "en": "Tea and gargle: from 6 years per EMA. Honey syrup form from 1 year only. Fresh-leaf poultice (external) customarily used in folk medicine also for younger children."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Orale Arzneimittel allgemein",
+        "mechanism": {
+          "de": "Die Schleimstoffe können einen Film auf der Magen-Darm-Schleimhaut bilden und dadurch die Resorption anderer Medikamente verzögern. Als Vorsichtsmaßnahme: andere Medikamente 30–60 Minuten vor oder nach dem Tee einnehmen.",
+          "en": "Mucilage can form a film on the GI mucosa and delay absorption of other medicines. As precaution: take other medications 30–60 minutes before or after tea."
+        },
+        "severity": "caution"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegenüber Spitzwegerich oder anderen Wegerich-Arten (Plantaginaceae).",
+        "en": "Hypersensitivity to ribwort plantain or other plantain species (Plantaginaceae)."
+      },
+      {
+        "de": "Kinder unter 6 Jahren (Tee/Gurgellösung) — mangels Daten laut EMA nicht empfohlen.",
+        "en": "Children under 6 years (tea/gargle) — not recommended per EMA due to lack of data."
+      },
+      {
+        "de": "Honigsirup: nicht für Säuglinge unter 12 Monaten (Botulismus-Risiko durch rohen Honig).",
+        "en": "Honey syrup: not for infants under 12 months (botulism risk from raw honey)."
+      }
+    ],
+    "max_continuous_use_weeks": 1
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Spitzwegerich (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Spitzwegerich",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Plantago lanceolata (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Plantago_lanceolata",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_plantaginis_lanceolatae_folium",
+      "type": "monograph",
+      "title": "EMA/HMPC/887979/2022 — European Union herbal monograph on Plantago lanceolata L., folium (Revision 1, Final, August 2024)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/plantaginis-lanceolatae-folium",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_wp_de_plantago",
+      "type": "wikipedia",
+      "title": "Spitzwegerich (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Spitzwegerich",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_plantago",
+      "type": "wikipedia",
+      "title": "Plantago lanceolata (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Plantago_lanceolata",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pubmed_plantago_anti",
+      "type": "monograph",
+      "title": "Wegener T, Kraft K (1999) — Plantain (Plantago lanceolata L.): anti-inflammatory action in upper respiratory tract infections. Wien Med Wochenschr 149(8-10):211-6. PubMed 10483683",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10483683/",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "plantago-lanceolata.jpg",
+    "alt": {
+      "de": "Foto von Spitzwegerich",
+      "en": "Photo of Plantago lanceolata"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Hans Hillewaert",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Plantago_lanceolata_(inflorescense).jpg"
+  },
+  "constituents": [
+    {
+      "name": "Schleimstoffe (saure Polysaccharide: Rhamnogalacturonane, Arabinogalactane)",
+      "category": "mucilage",
+      "percent_range": "2–6,5 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptwirkstoffe für reizlindernde Wirkung. Rhamnogalacturonane und Arabinogalactane bilden bei Kontakt mit Wasser einen viskosen Schutzfilm auf Mund-, Rachen- und Bronchialschleimhaut. Hitzeempfindlich — Aufguss nicht kochen.",
+        "en": "Main active compounds for soothing action. Rhamnogalacturonans and arabinogalactans form a viscous protective film on oral, pharyngeal and bronchial mucosa upon contact with water. Heat-sensitive — do not boil the infusion."
+      }
+    },
+    {
+      "name": "Iridoidglykoside (Aucubin, Catalpol)",
+      "category": "glycoside",
+      "percent_range": "2–3 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Aucubin und Catalpol sind die dominanten Iridoide. Aucubin wird durch endogene Glucosidasen oder beim Trocknen zu Aucubigenin gespalten, das nachweislich antibakteriell wirkt. Aucubin ist hitze- und lagerempfindlich — rasches Trocknen und kühle Lagerung bewahren den Gehalt. Catalpol hat mild entzündungshemmende Eigenschaften.",
+        "en": "Aucubin and catalpol are the dominant iridoids. Aucubin is cleaved by endogenous glucosidases or during drying to aucubigenin, which is demonstrably antibacterial. Aucubin is heat- and storage-sensitive — rapid drying and cool storage preserve content. Catalpol has mild anti-inflammatory properties."
+      }
+    },
+    {
+      "name": "Phenylethanoid-Glykoside (Acteoside / Verbascoside, Plantamajoside, Isoacteoside)",
+      "category": "glycoside",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Acteoside (= Verbascoside) ist das wichtigste Phenylethanoid im Spitzwegerich. Es hemmt in vitro die Leukotrien-B4-Synthese (Lipoxygenase-Hemmung) und wirkt antiinflammatorisch und antioxidativ. Plantamajoside hat DPPH-Radikalfänger-Aktivität. Diese Verbindungen erklären antiinflammatorische Wirkung bei Atemwegs- und Hautanwendung.",
+        "en": "Acteoside (= verbascoside) is the key phenylethanoid in ribwort plantain. It inhibits leukotriene B4 synthesis (lipoxygenase inhibition) in vitro and acts anti-inflammatorily and antioxidantly. Plantamajoside has DPPH radical-scavenging activity. These compounds explain anti-inflammatory action in respiratory and skin use."
+      }
+    },
+    {
+      "name": "Gerbstoffe (kondensierte und hydrolysierbare Tannine)",
+      "category": "tannin",
+      "percent_range": "ca. 6,5 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Signifikanter Gerbstoffgehalt — wirkt adstringierend auf Schleimhäute und Haut. Unterstützt Wundheilung (Granulationsförderung) und hat mild blutstillende Eigenschaft bei äußerlichen Anwendungen.",
+        "en": "Significant tannin content — acts astringently on mucous membranes and skin. Supports wound healing (granulation promotion) and has mildly haemostatic property in external applications."
+      }
+    },
+    {
+      "name": "Flavonoide (Apigenin-7-glucosid, Luteolin, Hyperoside)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Apigenin-7-glucosid und Luteolin als Hauptflavonoide. Mild antioxidativ und antiinflammatorisch. Luteolin hemmt COX-Enzyme in vitro. Quercetin-Derivate (Hyperoside) ergänzen das antioxidative Profil.",
+        "en": "Apigenin-7-glucoside and luteolin as main flavonoids. Mildly antioxidant and anti-inflammatory. Luteolin inhibits COX enzymes in vitro. Quercetin derivatives (hyperoside) complement the antioxidant profile."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Chlorogensäure, Rosmarinsäure, Vanillinsäure)",
+      "category": "phenolic_acid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Rosmarinsäure und Chlorogensäure als dominante Phenolcarbonsäuren. Rosmarinsäure hemmt das Komplementsystem und wirkt antiinflammatorisch; Chlorogensäure antioxidativ. Zusammen mit Acteosid tragen sie zum antiinflammatorischen Profil des Spitzwegerichs bei.",
+        "en": "Rosmarinic acid and chlorogenic acid as dominant phenolic acids. Rosmarinic acid inhibits the complement system and acts anti-inflammatorily; chlorogenic acid is antioxidant. Together with acteoside they contribute to the anti-inflammatory profile of ribwort plantain."
+      }
+    },
+    {
+      "name": "Kieselsäure",
+      "category": "mineral",
+      "percent_range": "1–2 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Spitzwegerich gehört zu den kieselsäurereichen Heilpflanzen. Volksmedizinisch zur Stärkung von Bindegewebe und Schleimhautgewebe eingesetzt.",
+        "en": "Ribwort plantain is among the silica-rich medicinal plants. Used in folk medicine for strengthening connective tissue and mucosal tissue."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Trockener Vormittag nach Abtrocknen des Taus, bevor die Mittagssonne die Blätter erhitzt. Aucubin-Gehalt ist morgens vor voller Sonneneinstrahlung am höchsten.",
+        "en": "Dry morning after dew has dried, before midday sun heats the leaves. Aucubin content is highest in the morning before full sun exposure."
+      },
+      "drying": {
+        "de": "Junge, gesunde Blätter vor und während der Blüte sammeln — höchster Aucubin-Gehalt. Locker einlagig im Schatten ausbreiten und bei max. 40 °C zügig trocknen — langsames Trocknen und hohe Temperaturen bauen Aucubin ab (Braunfärbung = Qualitätsverlust). Stiele entfernen oder dünn lassen.",
+        "en": "Collect young, healthy leaves before and during flowering — highest aucubin content. Spread loosely in single layer in shade and dry quickly at max. 40 °C — slow drying and high temperatures degrade aucubin (browning = quality loss). Remove stems or keep thin."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht, dunkel und trocken lagern. Innerhalb eines Jahres aufbrauchen — Aucubin-Gehalt nimmt mit Zeit ab.",
+        "en": "Store airtight, dark and dry. Use within one year — aucubin content decreases over time."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Für Frischblatt-Auflage oder Frischsaft: jederzeit, wenn die Pflanze grün und gesund ist. Idealerweise nicht von verunreinigten Standorten (Straßenrand mit starkem Verkehr, gedüngte Felder).",
+        "en": "For fresh-leaf poultice or fresh juice: any time when the plant is green and healthy. Ideally not from contaminated sites (roadsides with heavy traffic, fertilised fields)."
+      },
+      "drying": {
+        "de": "FRISCHVERWENDUNG (Umschlag, Sirup): Junge, intakte Blätter und Stängel sammeln. KEINE Trocknung notwendig. Frische Blätter für Sirupherstellung: sofort verarbeiten oder innerhalb 24 Stunden. Für den klassischen Frischblatt-Umschlag: direkt vor Ort verwenden.",
+        "en": "FRESH USE (compress, syrup): Collect young, intact leaves and stems. NO drying necessary. Fresh leaves for syrup making: process immediately or within 24 hours. For classic fresh-leaf compress: use directly on site."
+      },
+      "storage_months": 1,
+      "storage_condition": {
+        "de": "Frische Blätter: im Kühlschrank max. 2–3 Tage. Selbst hergestellter Frischpflanzen-Sirup (mit Honig) kühl und dunkel bis ca. 3 Monate.",
+        "en": "Fresh leaves: in refrigerator max. 2–3 days. Home-made fresh plant syrup (with honey) cool and dark up to ca. 3 months."
+      }
+    }
+  ]
+}

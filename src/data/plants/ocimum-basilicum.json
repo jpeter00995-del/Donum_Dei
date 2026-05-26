@@ -1,0 +1,494 @@
+{
+  "slug": "ocimum-basilicum",
+  "names": {
+    "de": "Basilikum",
+    "en": "Basil",
+    "latin": "Ocimum basilicum"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Das Basilikum, auch Basilie, Basilienkraut oder Königskraut genannt, ist eine Pflanzenart aus der gleichnamigen Gattung Basilikum (Ocimum) innerhalb der Familie der Lippenblütler (Lamiaceae). Ihre Sorten werden als Gewürzpflanze verwendet.",
+    "en": "Basil, also called great basil, is a culinary herb of the family Lamiaceae (mints). It is a tender plant, and is used in cuisines worldwide. In Western cuisine, the generic term \"basil\" refers to the variety also known as Genovese basil or sweet basil."
+  },
+  "teaser": {
+    "de": "Das Basilikum, auch Basilie, Basilienkraut oder Königskraut genannt, ist eine Pflanzenart aus der gleichnamigen Gattu...",
+    "en": "Basil, also called great basil, is a culinary herb of the family Lamiaceae (mints)."
+  },
+  "uses": [
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische Blätter werden in der südeuropäischen Küche – besonders der italienischen – als Hauptgewürz verwendet. Das Aroma ist am intensivsten kurz vor der Blüte. Beim Erhitzen flüchtige Öle schnell verflüchtigen: daher erst am Ende des Kochens zugeben.",
+        "en": "Fresh leaves are used as a primary culinary herb in southern European – especially Italian – cuisine. Aroma is most intense just before flowering. Volatile oils dissipate with heat; add at the end of cooking."
+      },
+      "preparation": {
+        "de": "Blätter frisch zupfen oder grob zerschneiden; nie mit dem Messer fein hacken (oxidiert schnell).",
+        "en": "Tear or coarsely cut leaves; avoid fine chopping with a metal knife (oxidises quickly)."
+      },
+      "source_ids": [
+        "src_wp_de_basilikum",
+        "src_wp_en_basil"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Basilikumtee aus frischen oder getrockneten Blättern wird volksheilkundlich bei Blähungen, Völlegefühl und Magenkrämpfen eingesetzt (karminative und spasmolytische Wirkung des ätherischen Öls). Die Kommission E beurteilte die Wirksamkeit als nicht ausreichend belegt.",
+        "en": "Basil tea made from fresh or dried leaves is used in folk medicine for flatulence, bloating and stomach cramps (carminative and antispasmodic effect of the essential oil). Commission E considered the evidence insufficient to approve therapeutic use."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "1–2 g getrocknete Blätter mit 150 ml heißem Wasser überbrühen, 10 min ziehen lassen, abseihen.",
+          "en": "Pour 150 ml hot water over 1–2 g dried leaves, steep 10 minutes, strain."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_basilikum",
+        "src_wp_de_basilikum"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Das ätherische Öl (Hauptbestandteile Linalool und Eugenol) zeigt in vitro ausgeprägte antibakterielle und antifungale Aktivität. Äußerlich stark verdünnt (1–2 % in Basisöl) bei Hautinfektionen, Insektenstichen und Akne in der Volksmedizin angewendet. Das ätherische Öl darf nicht unverdünnt auf die Haut aufgetragen werden.",
+        "en": "The essential oil (main constituents linalool and eugenol) shows pronounced antibacterial and antifungal activity in vitro. Used externally, well diluted (1–2 % in carrier oil), in folk medicine for skin infections, insect stings and acne. Never apply undiluted to the skin."
+      },
+      "source_ids": [
+        "src_pfaf_basilikum",
+        "src_pmc_basil_review"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory",
+        "nervous_system"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Aromatherapeutisch werden frische Blätter oder das ätherische Öl bei Erschöpfung, Migräne, Schlaflosigkeit und leichten Atemwegsreizungen eingesetzt. Linalool gilt als beruhigend; klinische Belege fehlen.",
+        "en": "Aromatherapeutically, fresh leaves or the essential oil are used for exhaustion, migraine, insomnia and mild respiratory irritation. Linalool is regarded as calming; clinical evidence is lacking."
+      },
+      "source_ids": [
+        "src_pfaf_basilikum",
+        "src_pmc_basil_respiratory"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische Basilikumblätter sind reich an Vitamin K (ca. 415 µg/100 g), Mangan und Eisen sowie an Rosmarin-säure, einem phenolischen Antioxidans. Basilikumöl und -samen finden sich als Bestandteil von Kräuterlikören und Mazeration.",
+        "en": "Fresh basil leaves are rich in vitamin K (ca. 415 µg/100 g), manganese and iron, as well as rosmarinic acid, a phenolic antioxidant. Basil oil and seeds are used as components of herbal liqueurs and macerations."
+      },
+      "source_ids": [
+        "src_wp_en_basil",
+        "src_pmc_basil_review"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksheilkundlich wird ein Basilikumaufguss als Gurgelwasser bei leichten Entzündungen der Mund- und Rachenschleimhaut eingesetzt. Die antiseptische Wirkung des Eugenols ist aus der Zahnmedizin bekannt.",
+        "en": "In folk medicine a basil infusion is used as a gargle for mild inflammation of the oral and pharyngeal mucosa. The antiseptic effect of eugenol is well known in dentistry."
+      },
+      "source_ids": [
+        "src_pfaf_basilikum",
+        "src_wp_de_basilikum"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "frische Blätter (Sommer)",
+      "en": "fresh leaves (summer)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Das ätherische Basilikumöl enthält Estragol (Methyl-Chavicol), das in Tierversuchen mutagen und hepatotoxisch wirkt und vom BfR als potenziell krebserregend eingestuft wird. Als Küchengewürz in üblichen Mengen gilt Basilikum als unbedenklich (GRAS). Die Kommission E hat Basilikum negativ bewertet (unzureichende Wirkbelege, Risiko durch Estragol).",
+      "en": "The essential oil of basil contains estragole (methyl chavicol), which is mutagenic and hepatotoxic in animal studies and classified as potentially carcinogenic by the German Federal Institute for Risk Assessment (BfR). As a culinary herb in normal amounts basil is considered safe (GRAS). Commission E issued a negative monograph (insufficient efficacy evidence, estragole risk)."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Basilikum als Küchengewürz gilt als unbedenklich. Das ätherische Öl sowie medizinische Dosierungen sind in der Schwangerschaft zu meiden (Estragol).",
+        "en": "Basil as a culinary herb is considered safe. The essential oil and medicinal doses should be avoided during pregnancy (estragole)."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Traditionell als Galaktagogum eingesetzt; das ätherische Öl sollte stillende Mütter wegen des Estragolgehalts nicht innerlich einnehmen.",
+        "en": "Traditionally used as a galactagogue; nursing mothers should not take the essential oil internally due to estragole content."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Das ätherische Öl darf nicht bei Säuglingen und Kleinkindern angewendet werden. Als Gewürz im Kindesalter unbedenklich.",
+        "en": "The essential oil must not be used in infants and young children. As a spice in childhood, it is safe."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Allergie gegen Basilikum oder andere Lamiaceae.",
+        "en": "Known allergy to basil or other Lamiaceae."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Basilikum (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Basilikum",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Basil (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Basil",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_de_basilikum",
+      "type": "wikipedia",
+      "title": "Basilikum (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Basilikum",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wp_en_basil",
+      "type": "wikipedia",
+      "title": "Basil (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Basil",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_basilikum",
+      "type": "monograph",
+      "title": "Ocimum basilicum – PFAF Plant Database",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ocimum+basilicum",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_basil_review",
+      "type": "monograph",
+      "title": "Sweet Basil (Ocimum basilicum L.) — A Review of Its Botany, Phytochemistry, Pharmacological Activities, and Biotechnological Development. Plants 2023, 12(24), 4148",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10748370/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_basil_respiratory",
+      "type": "monograph",
+      "title": "The Effect of Ocimum basilicum L. and Its Main Ingredients on Respiratory Disorders. Frontiers in Pharmacology 2022, 12:805391",
+      "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2021.805391/full",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wd_basilikum",
+      "type": "wikidata",
+      "title": "Ocimum basilicum (Wikidata Q38859)",
+      "url": "https://www.wikidata.org/wiki/Q38859",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "ocimum-basilicum.jpg",
+    "alt": {
+      "de": "Foto von Basilikum",
+      "en": "Photo of Basil"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "H. Zell",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ocimum_basilicum_001.JPG"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible",
+      "medicinal"
+    ],
+    "rooms": [
+      "kitchen",
+      "balcony"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "every_few_days",
+    "difficulty": 2,
+    "pet_safe": true,
+    "soil": {
+      "de": "Kräutererde, locker",
+      "en": "Herb compost, loose"
+    },
+    "pot_size_cm": 18,
+    "tips": {
+      "de": [
+        "Supermarkt-Basilikum ist meistens überpflanzt — beim Umtopfen in 3 Töpfe teilen.",
+        "Spitzen ernten, NIE einzelne Blätter zupfen — Pflanze wird buschig.",
+        "Morgens gießen, nie auf die Blätter."
+      ],
+      "en": [
+        "Supermarket basil is usually overplanted — split into 3 pots when repotting.",
+        "Harvest tips, NEVER individual leaves — plant becomes bushy.",
+        "Water in the morning, never on leaves."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-sativum",
+      "capsicum-annuum",
+      "capsicum-chinense",
+      "eruca-sativa",
+      "origanum-vulgare",
+      "petroselinum-crispum",
+      "solanum-lycopersicum",
+      "solanum-melongena",
+      "tagetes-patula",
+      "thymus-vulgaris"
+    ],
+    "bad_partners": [
+      "mentha-piperita",
+      "rosmarinus-officinalis",
+      "salvia-officinalis"
+    ],
+    "neutral": [
+      "artemisia-dracunculus"
+    ],
+    "reasons": {
+      "allium-sativum": {
+        "de": "Basilikum unterstützt Knoblauch-Wachstum.",
+        "en": "Basil supports garlic growth."
+      },
+      "capsicum-annuum": {
+        "de": "Basilikum hält Schädlinge fern und verbessert Paprika-Aroma.",
+        "en": "Basil deters pests and improves pepper aroma."
+      },
+      "mentha-piperita": {
+        "de": "Minze überwuchert Basilikum und konkurriert um Wasser.",
+        "en": "Mint overgrows basil and competes for water."
+      },
+      "rosmarinus-officinalis": {
+        "de": "Rosmarin mag trocken, Basilikum feucht — Wasser-Konflikt.",
+        "en": "Rosemary likes dry, basil likes moist — water conflict."
+      },
+      "salvia-officinalis": {
+        "de": "Salbei hemmt Basilikum durch ätherische Öle.",
+        "en": "Sage essential oils inhibit basil."
+      },
+      "solanum-lycopersicum": {
+        "de": "Tomate spendet Basilikum Halbschatten in der Mittagshitze.",
+        "en": "Tomato gives basil partial shade during midday heat."
+      },
+      "solanum-melongena": {
+        "de": "Basilikum schützt Aubergine vor Weißer Fliege.",
+        "en": "Basil protects eggplant from whitefly."
+      }
+    },
+    "notes_de": "allium-sativum: Basilikum unterstützt Knoblauch-Wachstum, Knoblauch hält Schädlinge fern. salvia-officinalis: Salbei hemmt Basilikum durch ätherische Öle. rosmarinus-officinalis: Rosmarin und Basilikum konkurrieren — Rosmarin mag es trocken, Basilikum feucht. mentha-piperita: Minze konkurriert um Wasser und überwuchert Basilikum. solanum-lycopersicum: Klassisch: Basilikum hält Weiße Fliege fern und verbessert Tomatenaroma. capsicum-annuum: Basilikum verbessert Paprika-Aroma und hält Schädlinge fern.",
+    "notes_en": "allium-sativum: Basil supports garlic growth; garlic deters basil pests. salvia-officinalis: Sage essential oils inhibit basil. rosmarinus-officinalis: Rosemary and basil conflict — rosemary likes dry soil, basil moist. mentha-piperita: Mint competes for water and overgrows basil. solanum-lycopersicum: Classic: basil deters whitefly and improves tomato aroma. capsicum-annuum: Basil improves pepper aroma and deters pests.",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 10
+    },
+    "days_to_harvest": 60,
+    "spacing_cm": 25,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field",
+      "greenhouse"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "aromatic_repellent",
+    "pest_repellent"
+  ],
+  "constituents": [
+    {
+      "name": "Linalool",
+      "category": "essential_oil",
+      "percent_range": "bis 85 % im ätherischen Öl",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Primäres Monoterpen des europäischen Chemotyps; antimikrobiell, antifungal, leicht sedierend.",
+        "en": "Primary monoterpene of the European chemotype; antimicrobial, antifungal, mildly sedating."
+      }
+    },
+    {
+      "name": "Estragol (Methyl-Chavicol)",
+      "category": "essential_oil",
+      "percent_range": "bis 90 % im ätherischen Öl (Chemotyp-abhängig)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptkomponente des Estragol-Chemotyps; in hohen Dosen mutagen (Tierversuch). In kulinarischen Mengen kein nachgewiesenes Risiko.",
+        "en": "Main component of the estragole chemotype; mutagenic in high doses (animal study). No proven risk at culinary amounts."
+      }
+    },
+    {
+      "name": "Eugenol",
+      "category": "essential_oil",
+      "percent_range": "bis 20 % im ätherischen Öl",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Phenylpropanoid; antiseptisch, lokal-analgetisch; prägt den nelkigen Nebengeruch des Basilikums.",
+        "en": "Phenylpropanoid; antiseptic, locally analgesic; contributes the clove-like note to basil aroma."
+      }
+    },
+    {
+      "name": "Rosmarinic acid",
+      "category": "phenolic_acid",
+      "percent_range": "0,04–14 % (TG, sortenabhängig)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Wichtigstes phenolisches Antioxidans in Basilikum; antientzündlich, antiviral.",
+        "en": "Most important phenolic antioxidant in basil; anti-inflammatory, antiviral."
+      }
+    },
+    {
+      "name": "1,8-Cineol (Eucalyptol)",
+      "category": "essential_oil",
+      "percent_range": "variabel, bis 8 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Monoterpen; schleimlösend, charakteristisch für eucalyptusartige Basilikum-Sorten.",
+        "en": "Monoterpene; mucolytic; characteristic of eucalyptus-type basil varieties."
+      }
+    },
+    {
+      "name": "Ursolic acid",
+      "category": "other",
+      "percent_range": "ca. 0,27 % (TG)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Triterpenoid; antientzündliche und antimikrobielle Eigenschaften in Laborstudien.",
+        "en": "Triterpenoid; anti-inflammatory and antimicrobial properties in laboratory studies."
+      }
+    },
+    {
+      "name": "Vitamin K",
+      "category": "vitamin",
+      "percent_range": "ca. 415 µg/100 g Frischgewicht",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Frischblatt besonders reichhaltig; relevant für Blutgerinnung. Ernährungsrelevant bei regelmäßigem Verzehr.",
+        "en": "Fresh leaf is particularly rich; relevant for blood coagulation. Nutritionally significant with regular consumption."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus, vor der Mittagshitze – dann ist der Gehalt an ätherischen Ölen am höchsten.",
+        "en": "Morning after dew has dried, before midday heat – essential oil content peaks at this time."
+      },
+      "drying": {
+        "de": "Locker auf einem Gitter oder Backpapier bei max. 35 °C trocknen; nicht im Bündel hängen (Schimmelgefahr). Getrocknete Blätter in luftdichtem Behälter kühl und dunkel bis 12 Monate lagern.",
+        "en": "Dry loosely on a rack or baking paper at max. 35 °C; do not hang in bunches (mould risk). Store dried leaves in an airtight container, cool and dark, up to 12 months."
+      },
+      "storage_months": 12
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Kurz vor der Blüte ernten – dann ist der Linalool-Gehalt im ätherischen Öl am höchsten und der Estragol-Anteil verhältnismäßig geringer.",
+        "en": "Harvest just before flowering – linalool content in the essential oil is highest and estragole proportion relatively lower."
+      },
+      "drying": {
+        "de": "Für ätherisches Öl: frisches Material sofort verwenden oder schonend bei 40 °C trocknen (Linalool-Gehalt steigt beim Trocknen von ca. 45 % auf ca. 87 %).",
+        "en": "For essential oil: use fresh material immediately or gently dry at 40 °C (linalool content rises from ca. 45 % to ca. 87 % upon drying)."
+      }
+    }
+  ]
+}

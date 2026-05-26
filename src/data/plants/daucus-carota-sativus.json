@@ -1,0 +1,515 @@
+{
+  "slug": "daucus-carota-sativus",
+  "names": {
+    "de": "Karotte",
+    "en": "Carrot",
+    "latin": "Daucus carota subsp. sativus"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Die Karotte, auch bezeichnet als Möhre, Mohrrübe, Gelbrübe, Gelbe Rübe, Rüebli, Riebli oder Wurzel, ist eine nur in Kultur bekannte Form der Möhre innerhalb der Familie der Doldenblütler (Apiaceae). Von dieser Gemüsepflanze wird fast ausschließlich die Pfahlwurzel genutzt.",
+    "en": "The carrot is a root vegetable, typically orange in colour, though heirloom variants including white, yellow, red, purple, and black cultivars exist, all of which are domesticated forms of the wild carrot, Daucus carota, native to Europe and Southwestern Asia. The plant probably originated in Iran and was originally cultivated for its leaves and seeds."
+  },
+  "teaser": {
+    "de": "Die Karotte, auch bezeichnet als Möhre, Mohrrübe, Gelbrübe, Gelbe Rübe, Rüebli, Riebli oder Wurzel, ist eine nur in K...",
+    "en": "The carrot is a root vegetable, typically orange in colour, though heirloom variants including white, yellow, red, pu..."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "vision"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Rohe Karotten sind eines der reichsten pflanzlichen Lebensmittel an Provitamin A (Beta-Carotin). 100 g rohe Möhre liefern ~8350 µg Beta-Carotin, was 93 % des empfohlenen Tagesbedarfs an Vitamin A entspricht. Roh gegessen — geraspelt, als Sticks oder Saft — sind Karotten eine bewährte Basis für Salate, Rohkostteller und Smoothies. Der Körper wandelt Beta-Carotin bei Bedarf in Retinol um; überschüssiges Beta-Carotin wird nicht in toxisches Vitamin A umgewandelt.",
+        "en": "Raw carrots are one of the richest plant sources of provitamin A (beta-carotene). 100 g raw carrot supplies ~8350 µg beta-carotene, covering ~93 % of the recommended daily vitamin A intake. Eaten raw — grated, as sticks, or as juice — carrots are a staple in salads, crudités, and smoothies. The body converts beta-carotene to retinol on demand; excess beta-carotene is not converted to toxic vitamin A."
+      },
+      "source_ids": [
+        "src_usda_carrot",
+        "src_efsa_betacarotene",
+        "src_wp_en_carrot"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Gekochte Karotten sind gut verträglich und für alle Altersstufen geeignet. Beim Kochen werden die Zellwände aufgebrochen, was die Bioverfügbarkeit von Beta-Carotin im Vergleich zur rohen Möhre um das Bis-zu-Dreifache erhöht — besonders in Kombination mit einem kleinen Fettanteil (z. B. Butter, Öl). Karotten werden als Gemüse gedämpft, geschmort, in Suppen und Eintöpfen sowie als Beikost für Säuglinge verwendet.",
+        "en": "Cooked carrots are well tolerated and suitable for all age groups. Cooking breaks cell walls, increasing bioavailability of beta-carotene up to threefold compared with raw — especially when consumed with a small amount of fat (e.g. butter, oil). Carrots are steamed, braised, added to soups and stews, and used as weaning food for infants."
+      },
+      "source_ids": [
+        "src_usda_carrot",
+        "src_wp_en_carrot",
+        "src_pfaf_daucus_carota"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion",
+        "skin"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Karottensaft ist ein konzentriertes Getränk aus frisch gepressten Möhren und liefert Beta-Carotin, Kalium und Vitamin C in hoher Dichte. In der Ernährungslehre wird er traditionell als Stärkungsmittel, zur Unterstützung der Hautpflege (Beta-Carotin als endogener UV-Schutz in Studien diskutiert) und als allgemeines Vitamingetränk empfohlen. Übermäßiger Konsum (> 0,5 l/Tag über Wochen) kann zu harmloser Carotinodermie führen — orangefarbene Haut, die bei Reduktion des Konsums vollständig zurückgeht.",
+        "en": "Carrot juice is a concentrated drink from freshly pressed carrots supplying beta-carotene, potassium, and vitamin C in high density. In nutritional tradition it is recommended as a tonic, for skin support (beta-carotene discussed as endogenous UV protection in studies), and as a general vitamin drink. Excessive intake (> 0.5 l/day over weeks) can cause harmless carotenaemia — orange-yellow skin tint, which fully reverses on reducing intake."
+      },
+      "source_ids": [
+        "src_usda_carrot",
+        "src_wp_de_karotte",
+        "src_efsa_betacarotene"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Grob geriebene rohe Karotten wurden und werden in der Volksheilkunde bei milden Durchfallerkrankungen eingesetzt — besonders bei Kindern. Der Mechanismus wird dem hohen Pektin- und Ballaststoffgehalt zugeschrieben, der im Darm Wasser bindet und die Stuhlkonsistenz normalisiert. Das volksheilkundliche Hausmittel 'geraspelte Möhre bei Durchfall' ist in deutschsprachigen Kräuterkundebüchern seit dem 19. Jahrhundert belegt. Es ist nicht medizinisch standardisiert, gilt aber als sicher und wird von Eltern gelegentlich als Erstmaßnahme genutzt.",
+        "en": "Coarsely grated raw carrots have been used in folk medicine for mild diarrhoea — especially in children. The effect is attributed to the high pectin and fibre content, which binds water in the gut and normalises stool consistency. The folk remedy 'grated carrot for diarrhoea' appears in German-language herbal literature since the 19th century. It is not medically standardised but is considered safe and used by parents as a first-response measure."
+      },
+      "source_ids": [
+        "src_wp_de_karotte",
+        "src_pfaf_daucus_carota"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Die 'Morosche Karottensuppe' (Moro'sche Möhrensuppe) ist eine lang gekochte Karottenzubereitung, die der Kinderarzt Ernst Moro (Heidelberg) um 1908 zur Behandlung von Säuglingsdurchfall entwickelte. Die Suppe wird 1,5 Stunden bei 100 °C gekocht, wodurch Pektinketten aufgespalten werden und kurzkettige Oligogalacturonide entstehen. Diese sogenannten Moro-Oligosaccharide blockieren Rezeptoren an der Darmschleimhaut, an die Enterotoxin-bildende Bakterien (E. coli) und Rotaviren binden. Klinische Studien aus den 2000er-Jahren (vor allem aus Deutschland und der Schweiz) bestätigten eine signifikante Reduktion der Durchfalldauer und -intensität bei Säuglingen. Die Suppe gilt heute als gut dokumentiertes komplementärmedizinisches Hausmittel.",
+        "en": "The 'Moro's carrot soup' is a long-boiled carrot preparation developed by paediatrician Ernst Moro (Heidelberg, c. 1908) to treat infantile diarrhoea. Boiling for 1.5 hours at 100 °C cleaves pectin chains, releasing short-chain oligogalacturonides. These 'Moro oligosaccharides' block intestinal mucosal receptors to which enterotoxin-producing bacteria (E. coli) and rotaviruses bind. Clinical studies from the 2000s (mainly Germany and Switzerland) confirmed significant reduction in duration and severity of diarrhoea in infants. The soup is now regarded as a well-documented complementary home remedy."
+      },
+      "source_ids": [
+        "src_wp_de_karotte"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "skin",
+        "vision"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der Volksmedizin und traditionellen Kräuterheilkunde wurden Karotten seit der Antike mit guter Sehkraft und gesunder Haut assoziiert — ein Volksglauben, dem heute ein realer Kern zukommt: Vitamin-A-Mangel führt zu Nachtblindheit und trockenen Schleimhäuten, und Karotten liefern das Provitamin A dazu. Die Assoziation 'Möhre gut für die Augen' ist in der Alltagsvolksheilkunde verbreitet und volksmedizinisch korrekt im Kontext von Mangelernährung — bei ausreichender Ernährung führt zusätzliche Beta-Carotin-Zufuhr zu keiner Sehverbesserung.",
+        "en": "In folk medicine and traditional herbal practice, carrots have been associated since antiquity with good eyesight and healthy skin — a folk belief that has a real basis: vitamin A deficiency causes night blindness and dry mucous membranes, and carrots supply the provitamin A needed. The association 'carrots are good for the eyes' is widespread in everyday folk medicine and is medically correct in the context of deficiency — with adequate nutrition, additional beta-carotene intake confers no vision improvement."
+      },
+      "source_ids": [
+        "src_wp_en_carrot",
+        "src_efsa_betacarotene",
+        "src_pfaf_daucus_carota"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Karotten sind eine der meistverwendeten Gemüsesorten weltweit und finden in nahezu jeder Küche Verwendung: roh als Snack und Salatgemüse, gekocht in Suppen, Eintöpfen und Saucen, fermentiert (z. B. Kimchi-Varianten), als Beikost für Säuglinge (Breikost), in Gebäck (Karottenkuchen, Rüeblikuchen) und getrocknet als Würzmischungsbestandteil. Kulinarisch schätzenswert ist ihre milde Süße (Fructose, Glucose, Saccharose) sowie die gelborange Farbe durch Carotinoid-Pigmente.",
+        "en": "Carrots are one of the world's most widely used vegetables, present in nearly every cuisine: raw as a snack and salad ingredient, cooked in soups, stews and sauces, fermented (e.g. kimchi variants), as infant weaning food (purée), in baked goods (carrot cake, Rüeblikuchen), and dried in seasoning blends. Their culinary value lies in mild sweetness (fructose, glucose, sucrose) and yellow-orange colour from carotenoid pigments."
+      },
+      "source_ids": [
+        "src_wp_en_carrot",
+        "src_wp_de_karotte",
+        "src_pfaf_daucus_carota"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "harvest_part": {
+      "de": "Wurzel (Sommer-Herbst)",
+      "en": "root (summer-autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Karotten gelten als sehr sicher. Bei sehr hohem dauerhaftem Konsum (> 0,5 l Karottensaft täglich über Wochen oder sehr große Mengen roher Möhren) kann Carotinodermie entstehen: eine harmlose orange-gelbliche Verfärbung der Haut (besonders an Handflächen und Fußsohlen), die sich nach Reduktion des Konsums vollständig und ohne Folgen zurückbildet. ACHTUNG BEIM WILDSAMMELN: Wilde Möhre (Daucus carota subsp. carota) und Gartenkarotte können mit gefährlichen Doldenblütlern (Apiaceae) verwechselt werden — insbesondere mit dem GIFTIGEN Gefleckten Schierling (Conium maculatum), dem Wasserschierling (Cicuta virosa) und der Gefleckten Schierlingswurzel. Bei Unsicherheit NICHT sammeln — nur im Fachhandel oder aus dem eigenen Garten beziehen. Sehr selten: Kontaktallergie auf Karottensaft oder rohe Möhren (Quercetin- und Falcarinol-Sensibilisierung).",
+      "en": "Carrots are considered very safe. Very high sustained intake (> 0.5 l carrot juice daily over weeks, or very large amounts of raw carrots) can cause carotenaemia: a harmless orange-yellow discolouration of the skin (especially palms and soles), which fully and harmlessly resolves on reducing intake. WARNING WHEN FORAGING: Wild carrot (Daucus carota subsp. carota) and garden carrot may be confused with TOXIC Apiaceae — notably poison hemlock (Conium maculatum), water hemlock (Cicuta virosa), and hemlock water dropwort (Oenanthe crocata). When in doubt, do NOT forage — source from shops or your own garden. Rarely: contact allergy to carrot juice or raw carrots (quercetin and falcarinol sensitisation)."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Karotten in üblichen Nahrungsmengen gelten in Schwangerschaft und Stillzeit als völlig sicher. Sie sind eine wertvolle Quelle für Provitamin A und Folsäure. Sehr große Mengen Karottensaft (> 0,5 l/Tag dauerhaft) werden aus allgemeinen Gründen des ausgewogenen Konsums nicht empfohlen.",
+        "en": "Carrots consumed in usual food amounts are considered completely safe in pregnancy and lactation. They are a valuable source of provitamin A and folate. Very large amounts of carrot juice (> 0.5 l/day sustained) are not recommended for general dietary balance reasons."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Karotten in Nahrungsmengen während der Stillzeit unbedenklich. Beta-Carotin-Aufnahme aus Karottenverzehr ist physiologisch und sicher.",
+        "en": "Carrots in food amounts are safe during lactation. Beta-carotene intake from carrot consumption is physiological and safe."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Karotten sind eines der beliebtesten und sichersten Beikost-Gemüse für Säuglinge ab dem 5.–6. Lebensmonat. Gedämpfter Karottenbrei (Gläschen-Norm) ist gut verträglich. Rohe Möhre bei kleinen Kindern als ganze Stücke meiden (Erstickungsrisiko) — besser fein raspeln oder kochen. Morosche Karottensuppe ab Säuglingsalter möglich (unter ärztlicher Anleitung bei Durchfall).",
+        "en": "Carrots are one of the most popular and safest weaning vegetables for infants from the 5th–6th month. Steamed carrot purée is well tolerated. Avoid whole raw carrot pieces for young children (choking risk) — grate finely or cook instead. Moro's carrot soup possible from infancy (under medical guidance for diarrhoea)."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Vitamin-A-Präparate / Retinoide (Isotretinoin, Acitretin, Tretinoin)",
+        "mechanism": {
+          "de": "Bei gleichzeitiger Einnahme hochdosierter Vitamin-A-Präparate oder systemischer Retinoide kann ein zusätzlich sehr hoher Beta-Carotin-Konsum (z. B. täglich > 0,5 l Karottensaft) theoretisch zur Akkumulation führen. In normalen Nahrungsmengen kein Risiko — Beta-Carotin aus Nahrungsquellen wird regulatorisch vom Körper nicht in toxische Vitamin-A-Mengen umgewandelt.",
+          "en": "With concurrent high-dose vitamin A supplements or systemic retinoids, additionally very high beta-carotene intake (e.g. > 0.5 l carrot juice daily) could theoretically contribute to accumulation. At normal food amounts there is no risk — dietary beta-carotene is regulated and not converted to toxic vitamin A levels by the body."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Bekannte Allergie auf Karotten oder andere Doldenblütler (Apiaceae-Kreuzallergie mit Birke, Sellerie, Gewürzen möglich — Oral-Allergy-Syndrom).",
+        "en": "Known allergy to carrots or other Apiaceae (cross-allergy with birch, celery, and spices possible — oral allergy syndrome)."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Karotte (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Karotte",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Carrot (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Carrot",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_usda_carrot",
+      "type": "monograph",
+      "title": "USDA FoodData Central — Carrots, raw (NDB 11124)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170393/nutrients",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_efsa_betacarotene",
+      "type": "monograph",
+      "title": "EFSA NDA Panel — Scientific Opinion on Dietary Reference Values for vitamin A (including beta-carotene), EFSA Journal 2015;13(3):4028",
+      "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4028",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_daucus_carota",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Daucus carota subsp. sativus database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Daucus+carota+sativus",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_karotte",
+      "type": "wikipedia",
+      "title": "Karotte (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Karotte",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_carrot",
+      "type": "wikipedia",
+      "title": "Carrot (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Carrot",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_carrot",
+      "type": "wikidata",
+      "title": "Wikidata — Daucus carota subsp. sativus (Q37124)",
+      "url": "https://www.wikidata.org/wiki/Q37124",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_commons_carrot",
+      "type": "commons",
+      "title": "Wikimedia Commons — Category: Daucus carota subsp. sativus",
+      "url": "https://commons.wikimedia.org/wiki/Category:Daucus_carota_subsp._sativus",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_ptc_carrot_chemistry",
+      "type": "book",
+      "title": "Morales M, Janick J — Distribution of Carotenoids and Fatty Acids in Carrot Roots and Tops, in: Janick J (ed.) Horticultural Reviews Vol. 46, Wiley 2019, pp. 45–82",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781119521082.ch2",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "daucus-carota-sativus.jpg",
+    "alt": {
+      "de": "Foto von Karotte",
+      "en": "Photo of Carrot"
+    },
+    "license": "Public domain",
+    "author": "Evan-Amos",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vegetable-Carrot-Bundle-wStalks.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 3,
+        "end_month": 7
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 11
+    },
+    "days_to_harvest": 90,
+    "spacing_cm": 5,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-cepa",
+      "allium-porrum",
+      "allium-sativum",
+      "allium-schoenoprasum",
+      "beta-vulgaris-cicla",
+      "lactuca-sativa-capitata",
+      "lactuca-sativa-crispa",
+      "pisum-sativum-saccharatum",
+      "pisum-sativum-sativum",
+      "raphanus-sativus-niger",
+      "raphanus-sativus-sativus",
+      "rosmarinus-officinalis",
+      "salvia-officinalis",
+      "tagetes-patula"
+    ],
+    "bad_partners": [
+      "anethum-graveolens",
+      "apium-graveolens",
+      "rheum-rhabarbarum"
+    ],
+    "reasons": {
+      "allium-cepa": {
+        "de": "Zwiebel hält Möhrenfliege fern.",
+        "en": "Onion deters carrot fly."
+      },
+      "allium-porrum": {
+        "de": "Lauch hält Möhrenfliege fern (gleicher Mechanismus wie Zwiebel).",
+        "en": "Leek deters carrot fly (same mechanism as onion)."
+      },
+      "allium-sativum": {
+        "de": "Knoblauch hält Möhrenfliege und Pilze fern.",
+        "en": "Garlic deters carrot fly and fungi."
+      },
+      "allium-schoenoprasum": {
+        "de": "Schnittlauch hält Möhrenfliege fern — klassische Allium-Mischkultur.",
+        "en": "Chives deter carrot fly — classic Allium companion pairing."
+      },
+      "pisum-sativum-sativum": {
+        "de": "Erbsen fixieren Stickstoff, den die Karotte zum Wachstum nutzt.",
+        "en": "Peas fix nitrogen that carrots use to grow."
+      },
+      "rheum-rhabarbarum": {
+        "de": "Beide Tiefwurzler — konkurrieren um den gleichen Wurzelraum.",
+        "en": "Both deep-rooting — compete for the same root space."
+      },
+      "rosmarinus-officinalis": {
+        "de": "Rosmarin-Duft maskiert Karotten vor Möhrenfliege.",
+        "en": "Rosemary scent masks carrots from carrot fly."
+      }
+    },
+    "notes_de": "allium-cepa: Möhrenfliege ↔ Zwiebelfliege gegenseitige Abwehr — klassische DACH-Bauernregel. allium-porrum: Lauch hält Möhrenfliege fern (gleicher Mechanismus wie Zwiebel). pisum-sativum-sativum: Erbsen liefern Stickstoff für Karotten. anethum-graveolens: Dill und Karotte konkurrieren (gleiche Apiaceae-Familie). allium-sativum: Knoblauch hält Möhrenfliege fern. allium-schoenoprasum: Schnittlauch hält Möhrenfliege fern — klassische Allium-Mischkultur. rheum-rhabarbarum: Beide Tiefwurzler — konkurrieren um den gleichen Wurzelraum.",
+    "notes_en": "allium-cepa: Carrot fly vs onion fly mutual deterrence — classic DACH companion pair. allium-porrum: Leek deters carrot fly (same mechanism as onion). pisum-sativum-sativum: Peas provide nitrogen for carrots. anethum-graveolens: Dill and carrot compete (same Apiaceae family). allium-sativum: Garlic deters carrot fly. allium-schoenoprasum: Chives deter carrot fly — classic Allium companion pairing. rheum-rhabarbarum: Both deep-rooting — compete for the same root space.",
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "root_loosener",
+    "vertical_low"
+  ],
+  "constituents": [
+    {
+      "name": "Beta-Carotin",
+      "category": "vitamin",
+      "percent_range": "0.06-0.12 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Dominierendes Carotinoid der Karotte und wichtigstes Provitamin A in der menschlichen Ernährung. In 100 g roher Möhre ~6000–8000 µg Beta-Carotin; Bioverfügbarkeit steigt durch Kochen und Fettzusatz erheblich. Verantwortlich für die charakteristische orange Farbe. Antioxidativ; wird im Körper bei Bedarf zu Retinol (Vitamin A) umgewandelt.",
+        "en": "Dominant carotenoid of carrots and the most important provitamin A in human nutrition. ~6000–8000 µg per 100 g raw carrot; bioavailability increases substantially with cooking and fat addition. Responsible for the characteristic orange colour. Antioxidant; converted in the body to retinol (vitamin A) as needed."
+      }
+    },
+    {
+      "name": "Alpha-Carotin",
+      "category": "vitamin",
+      "percent_range": "0.02-0.05 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Zweithäufigstes Carotinoid der Karotte, ebenfalls Provitamin A (ca. halb so aktiv wie Beta-Carotin). Alpha-Carotin wird mit additiven antioxidativen Effekten und in epidemiologischen Studien mit einem günstigen Gesundheitsprofil assoziiert.",
+        "en": "Second most abundant carotenoid in carrots, also provitamin A (~half the activity of beta-carotene). Alpha-carotene is associated with additive antioxidant effects and in epidemiological studies with a favourable health profile."
+      }
+    },
+    {
+      "name": "Pectin (Pektine)",
+      "category": "polysaccharide",
+      "percent_range": "0.8-1.4 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Hauptfraktion der Ballaststoffe in der Karottenwurzel. Pektine quellen im Darm auf, binden Wasser und normalisieren die Stuhlkonsistenz — Grundlage der volksheilkundlichen Anwendung bei Durchfall. Bei langer Erhitzung (Morosche Karottensuppe) entstehen kurzkettige Oligogalacturonide, die Pathogen-Rezeptoren an der Darmschleimhaut blockieren.",
+        "en": "Main fibre fraction of the carrot root. Pectin swells in the intestine, binds water, and normalises stool consistency — the basis for folk use in diarrhoea. With prolonged heating (Moro's carrot soup) short-chain oligogalacturonides form, blocking pathogen receptors on the intestinal mucosa."
+      }
+    },
+    {
+      "name": "Falcarinol (Polyacetylen)",
+      "category": "other",
+      "percent_range": "0.002-0.005 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Bioaktives Polyacetylen, das in Karottenwurzeln, besonders in der äußeren Schicht (Rinde), vorkommt. In Laborstudien zytotoxische Eigenschaften gegenüber Krebszellen gezeigt; klinische Relevanz beim Menschen nicht belegt. Kann bei intensivem Hautkontakt mit großen Mengen roher Möhren eine Kontaktdermatitis auslösen (selten).",
+        "en": "Bioactive polyacetylene found in carrot roots, especially in the outer layer (periderm). Laboratory studies show cytotoxic properties against cancer cells; clinical relevance in humans not established. Can cause contact dermatitis with intensive skin contact with large amounts of raw carrots (rare)."
+      }
+    },
+    {
+      "name": "Dietary Fibre / Ballaststoffe (Gesamt)",
+      "category": "polysaccharide",
+      "percent_range": "2.8-3.0 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Gesamtballaststoffgehalt (löslich + unlöslich) der rohen Karotte. Beitrag zur Sättigungswirkung, Darmgesundheit und Regulation des Blutzuckeranstiegs nach der Mahlzeit (niedriger glykämischer Index trotz Zuckergehalt). USDA FoodData: ~2,8 g/100 g.",
+        "en": "Total dietary fibre (soluble + insoluble) of raw carrot. Contributes to satiety, gut health, and moderation of postprandial blood glucose rise (low glycaemic index despite sugar content). USDA FoodData: ~2.8 g/100 g."
+      }
+    },
+    {
+      "name": "Kalium (Potassium)",
+      "category": "mineral",
+      "percent_range": "0.32 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Wichtiges Mengenelement in Karotten (~320 mg/100 g). Wichtig für Nerven- und Muskelfunktion sowie Blutdruckregulation. Karottensaft ist eine kaliumreiche Erfrischung, relevant bei kaliumarmer Ernährung.",
+        "en": "Important macronutrient in carrots (~320 mg/100 g). Essential for nerve and muscle function and blood pressure regulation. Carrot juice is a potassium-rich beverage, relevant in low-potassium diets."
+      }
+    },
+    {
+      "name": "Vitamin K1 (Phylloquinon)",
+      "category": "vitamin",
+      "percent_range": "0.00013 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Karotten liefern moderate Mengen Vitamin K1 (~13 µg/100 g, ca. 11 % DV). Vitamin K1 ist essenziell für die Blutgerinnung und den Knochenstoffwechsel. Personen unter Antikoagulanzientherapie (Marcumar, Warfarin) sollten ihren Vitamin-K-Konsum insgesamt stabil halten — ein gelegentlicher normaler Karottenverzehr ist jedoch unproblematisch.",
+        "en": "Carrots supply moderate vitamin K1 (~13 µg/100 g, ~11 % DV). Vitamin K1 is essential for blood coagulation and bone metabolism. Persons on anticoagulant therapy (warfarin, phenprocoumon) should keep their overall vitamin K intake stable — occasional normal carrot consumption is unproblematic."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "percent_range": "0.006 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Rohe Karotten enthalten ~6 mg Ascorbinsäure/100 g (moderate Menge, ~6–8 % DV). Vitamin C ist hitzeempfindlich — beim Kochen gehen bis zu 50 % verloren. Trägt zur Gesamtantioxidanzienkapazität und Eisenresorption bei.",
+        "en": "Raw carrots contain ~6 mg ascorbic acid/100 g (moderate, ~6–8 % DV). Vitamin C is heat-sensitive — up to 50 % lost during cooking. Contributes to overall antioxidant capacity and iron absorption."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Karotten können zu jeder Tageszeit geerntet werden. Frühernten (Bundekarotten, Mai–Juli, je nach Aussaattermin März–April) sind zart und mild. Haupternte Juli–Oktober, Lagerernte Oktober–November. Karotten vertragen leichten Frost bis ca. -4 °C und können bei lockeren, nicht gefrorenem Boden bis in den Winter im Beet verbleiben.",
+        "en": "Carrots can be harvested at any time of day. Early harvests (bunching carrots, May–July, depending on sowing in March–April) are tender and mild. Main harvest July–October, storage harvest October–November. Carrots tolerate light frost down to ~-4 °C and can remain in the bed into winter in loose, unfrozen soil."
+      },
+      "drying": {
+        "de": "ERNTE: Karotten je nach Sorte 70–120 Tage nach Aussaat ernten (Schnellsorten ab 70 Tagen, Lagersorten 90–120 Tage). Bei lockerem Boden mit der Hand oder mit einer Grabegabel lockern und hochziehen, bei Lehmboden vorsichtig mit Grabegabel tieferlockern. LAGERUNG: Laub sofort auf 1–2 cm kürzen (sonst entzieht es der Wurzel Feuchtigkeit). Im Gemüsefach des Kühlschranks hält eine frische Karotte 2–4 Wochen. Optimale Kellerlagerung: schichtweise in feuchtem Sand oder Torf bei 0–4 °C und hoher Luftfeuchtigkeit (90–95 %) — so mehrere Monate haltbar. Karottensorten für Langzeitlagerung: 'Flakkeer', 'Rodelika', 'Rothild'. Karotten NICHT zusammen mit Äpfeln lagern (Äthylengas des Apfels fördert Bitterwerden).",
+        "en": "HARVEST: Harvest carrots 70–120 days after sowing depending on cultivar (fast varieties from 70 days, storage types 90–120 days). In loose soil lift by hand or loosen with a digging fork; in clay soil carefully loosen deeper with the fork. STORAGE: Cut tops immediately to 1–2 cm (otherwise foliage draws moisture from the root). In the refrigerator crisper a fresh carrot keeps 2–4 weeks. Optimal cellar storage: layered in moist sand or peat at 0–4 °C and high humidity (90–95 %) — storable for several months. Storage cultivars: 'Flakkeer', 'Rodelika', 'Rothild'. Do NOT store carrots with apples (ethylene gas from apples promotes bitterness)."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "0–4 °C, hohe Luftfeuchtigkeit 90–95 %, dunkel, in feuchtem Sand oder Lagerfolie. Getrennt von Äpfeln lagern.",
+        "en": "0–4 °C, high humidity 90–95 %, dark, in moist sand or perforated storage bags. Store separately from apples."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Das Karottenlaub (Möhrengrün) kann als Nebenprodukt der Ernte oder als gezielte Jungpflanzen-Ernte genutzt werden. Junge, helle Blätter sind milder und aromatisch-nussig; älteres Laub wird bitter und leicht rau. Verwendung: als Kräuterzusatz in Pestos, Smoothies, Salaten (in kleinen Mengen — bitter), als Tierfutter (Kaninchen, Meerschweinchen mögen es sehr).",
+        "en": "Carrot tops (carrot greens) can be used as a by-product of harvest or by targeted harvest of young plants. Young, light-coloured leaves are milder and aromatically nutty; older foliage becomes bitter and slightly rough. Uses: as a herb addition in pestos, smoothies, salads (in small amounts — bitter), as animal fodder (rabbits and guinea pigs enjoy them greatly)."
+      },
+      "drying": {
+        "de": "CARROTLAUB: Frisch verwenden oder bei max. 35 °C trocknen und als Würzkraut nutzen. Laub nicht in großen Mengen als Nahrungsmittel essen — enthält Furocumarine und Alkaloide in größeren Mengen als die Wurzel; in kleinen Mengen als Gewürz unbedenklich.",
+        "en": "CARROT TOPS: Use fresh or dry at max. 35 °C and use as a seasoning herb. Do not eat large amounts of carrot tops as food — they contain furanocoumarins and alkaloids in higher concentrations than the root; safe in small amounts as a garnish or seasoning."
+      },
+      "storage_months": 1,
+      "storage_condition": {
+        "de": "Frisch im Kühlschrank 2–3 Tage; getrocknet in Schraubglas maximal 3 Monate.",
+        "en": "Fresh in refrigerator 2–3 days; dried in a sealed jar up to 3 months."
+      }
+    }
+  ]
+}

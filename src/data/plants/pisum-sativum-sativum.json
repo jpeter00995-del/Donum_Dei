@@ -1,0 +1,500 @@
+{
+  "slug": "pisum-sativum-sativum",
+  "names": {
+    "de": "Erbse",
+    "en": "Pea",
+    "latin": "Pisum sativum subsp. sativum"
+  },
+  "family": {
+    "de": "Hülsenfrüchtler",
+    "en": "Bean family",
+    "latin": "Fabaceae"
+  },
+  "description": {
+    "de": "Die Erbse, auch Gartenerbse oder Speiseerbse genannt, ist eine Pflanzenart aus der Gattung Erbsen (Pisum) in der Unterfamilie Schmetterlingsblütler (Faboideae) innerhalb der Familie der Hülsenfrüchtler. Ursprünglich aus Kleinasien stammend, ist die Erbse seit Jahrtausenden eine wichtige Nutzpflanze. Sie enthält viel Protein und wird als Gemüse und als Tierfutter verwendet.",
+    "en": "Pea is a pulse or fodder crop, but the word often refers to the seed or sometimes the pod of this flowering plant species. Peas are eaten as a vegetable."
+  },
+  "teaser": {
+    "de": "Die Erbse, auch Gartenerbse oder Speiseerbse genannt, ist eine Pflanzenart aus der Gattung Erbsen (Pisum) in der Unte...",
+    "en": "Pea is a pulse or fodder crop, but the word often refers to the seed or sometimes the pod of this flowering plant spe..."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion",
+        "protein"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Frisch gepflückte Markerbsen werden direkt aus der Hülse roh gegessen — süß, knackig und nährstoffreich. Grüne Erbsen liefern pro 100 g rund 5 g Protein, 14 g Kohlenhydrate, 5 g Ballaststoffe sowie Vitamin C (40 mg, ~44 % DV), Vitamin K (~25 µg), Folat (~65 µg) und Thiamin. Der natürliche Zucker (Saccharose, Glucose) verliert sich rasch nach der Ernte durch enzymatischen Abbau — frisch ist deshalb deutlich süßer als Ware aus dem Supermarkt.",
+        "en": "Freshly picked garden peas are eaten raw straight from the pod — sweet, crisp, and nutrient-dense. Per 100 g, green peas provide approximately 5 g protein, 14 g carbohydrate, 5 g dietary fibre, vitamin C (40 mg, ~44 % DV), vitamin K (~25 µg), and folate (~65 µg). Natural sugars (sucrose, glucose) drop rapidly after harvest through enzymatic conversion — freshly picked peas are noticeably sweeter than supermarket produce."
+      },
+      "source_ids": [
+        "src_usda_fdc_peas",
+        "src_wp_en_pea",
+        "src_pfaf_pisum_sativum"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Erbsenschossen (die zarten Triebspitzen und jungen Blätter der Erbsenpflanze) werden roh als Salat oder Microgreens gegessen. Sie schmecken frisch-grün und erbsenartig und sind reich an Vitamin C und Folat. Die Sprossen junger Keimerbsen (Erbsenmicrogreens, 7–14 Tage alt) sind eine im asiatischen Kochen und in der modernen Küche verbreitete Zutat und werden auch als Garnitur eingesetzt.",
+        "en": "Pea shoots (the tender growing tips and young leaves of the pea plant) are eaten raw in salads or as microgreens. They taste fresh and pea-like, and are rich in vitamin C and folate. Sprouts of germinated peas (pea microgreens, 7–14 days old) are a popular ingredient in Asian cuisine and modern cooking, also used as a garnish."
+      },
+      "source_ids": [
+        "src_pfaf_pisum_sativum",
+        "src_wp_de_erbse"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Frische oder tiefgekühlte Erbsen werden gedünstet, gekocht oder in Pfannengerichte (Stir-fry), Risottos, Pasta und Suppen eingearbeitet. Getrocknete Spalterbsen (gelbe oder grüne Hälften) sind Basis der klassischen Erbsensuppe — eines der ältesten und weltweit verbreiteten Volksgerichte. Getrocknete Erbsen müssen vor dem Kochen eingeweicht (8–12 Stunden) und dann mindestens 45–60 Minuten geköchelt werden; Spalterbsen benötigen kein Einweichen.",
+        "en": "Fresh or frozen peas are steamed, boiled or added to stir-fries, risottos, pasta and soups. Dried split peas (yellow or green halves) form the base of classic pea soup — one of the oldest and most globally widespread folk dishes. Whole dried peas should be soaked for 8–12 hours before cooking and then simmered for at least 45–60 minutes; split peas require no soaking."
+      },
+      "source_ids": [
+        "src_wp_de_erbse",
+        "src_wp_en_pea",
+        "src_pfaf_pisum_sativum"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "protein",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Erbsenprotein-Isolat (Pea Protein Isolate, PPI) wird durch Nassextraktion aus getrockneten Erbsen gewonnen (Proteingehalt 80–90 %) und in der Lebensmitteltechnologie als pflanzliche Alternative zu Sojaprotein eingesetzt — in Protein-Shakes, Fleischersatzprodukten, Backwaren und Pasta. Das Aminosäureprofil ist komplett, jedoch relativ arm an Methionin und Cystein; Leucin ist gut vorhanden (relevant für Muskelproteinsynthese). Klinische Studien zeigen vergleichbare Sättigungs- und Muskelaufbau-Effekte wie Molkenprotein bei gleichzeitig geringerer Allergenität.",
+        "en": "Pea protein isolate (PPI) is obtained by wet extraction from dried peas (protein content 80–90 %) and used in food technology as a plant-based alternative to soy protein — in protein shakes, meat substitutes, baked goods and pasta. The amino acid profile is complete but relatively low in methionine and cysteine; leucine content is good (relevant for muscle protein synthesis). Clinical studies show comparable satiety and muscle-building effects to whey protein with lower allergenicity."
+      },
+      "source_ids": [
+        "src_efsa_pea_protein",
+        "src_usda_fdc_peas",
+        "src_wp_en_pea"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Die Hülsen von Zuckererbsen (Mangetout / Sugar Snap Peas) — einem Kultivierungstyp innerhalb Pisum sativum — werden mit dem Samen zusammen gegessen. Sie sind besonders zart und süß wenn jung geerntet und eignen sich roh im Salat oder kurz blanchiert als Beilage. Klassische Zuckererbsen-Hülsen liefern zusätzliche Ballaststoffe und Vitamin C über die Schale.",
+        "en": "The pods of sugar snap peas (mangetout) — a cultivar type within Pisum sativum — are eaten together with the seeds. They are especially tender and sweet when harvested young, and are suitable raw in salads or briefly blanched as a side dish. Sugar snap pods provide additional dietary fibre and vitamin C from the pod wall."
+      },
+      "source_ids": [
+        "src_pfaf_pisum_sativum",
+        "src_wp_en_pea"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Getrocknete Erbsen (Trockenerbsen) sind seit der Jungsteinzeit (Neolithikum) ein Grundnahrungsmittel in Europa, Vorderasien und Indien. Sie sind kostengünstig, lange haltbar (1–3 Jahre bei trocken-kühler Lagerung) und eine wichtige Protein- und Kalorienquelle in der traditionellen Armenküche weltweit. Historisch bildeten Erbsenmus und Erbsensuppe in Mitteleuropa neben Brot die Grundlage der bäuerlichen Kost.",
+        "en": "Dried peas have been a staple food since the Neolithic period across Europe, the Near East and India. They are inexpensive, long-lasting (1–3 years in dry, cool storage) and an important protein and calorie source in traditional subsistence cooking worldwide. Historically, pea porridge and pea soup formed the basis of peasant diets in central Europe alongside bread."
+      },
+      "source_ids": [
+        "src_wp_de_erbse",
+        "src_wp_en_pea",
+        "src_wikidata_pisum_sativum"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "agriculture",
+        "soil",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Als Leguminose geht die Gartenerbse eine Symbiose mit stickstoffbindenden Knöllchenbakterien (Rhizobium leguminosarum) ein und reichert den Boden mit biologisch verfügbarem Stickstoff (N) an — im Mischfruchtanbau und in der Fruchtfolge werden Folgekulturen (z. B. Getreide, Kohl) von diesem Stickstoffeintrag von bis zu 50–100 kg N/ha profitieren. Als Gründüngung wird die gesamte Pflanze nach der Ernte untergegraben. Die Erbse ist damit ein klassisches Element nachhaltiger Landwirtschaft und des Permakultur-Designs.",
+        "en": "As a legume, the garden pea forms a symbiosis with nitrogen-fixing bacteria (Rhizobium leguminosarum), enriching the soil with biologically available nitrogen — in intercropping and crop rotation, subsequent crops (e.g. cereals, brassicas) benefit from a nitrogen input of up to 50–100 kg N/ha. As a green manure, the whole plant is incorporated into the soil after harvest. The pea is thus a key element of sustainable agriculture and permaculture design."
+      },
+      "source_ids": [
+        "src_pfaf_pisum_sativum",
+        "src_wp_de_erbse",
+        "src_wp_en_pea"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "reife oder grüne Samen",
+      "en": "ripe or green seeds"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Gartenerbsen (Pisum sativum) sind für gesunde Menschen sehr gut verträglich und zählen zu den sichersten Nahrungspflanzen. Oligosaccharide (Stachyose, Raffinose) im Samen können bei empfindlichen Personen leichte Blähungen und Darmgase verursachen — dies ist normal und kein Zeichen einer Unverträglichkeit. Einweichen und Abgießen des Kochwassers reduziert den Oligosaccharid-Anteil. KLARSTELLUNG LATHYRISMUS: Lathyrismus ist eine neurologische Erkrankung, die durch übermäßigen Verzehr von Platterbsen (Lathyrus sativus) verursacht wird — diese Pflanze ist NICHT Pisum sativum. Die Gartenerbse enthält KEIN Oxalyldiaminopropionsäure (ODAP/beta-BOAA) und ist NICHT mit Lathyrismus assoziiert. Die Verwechslung tritt gelegentlich in populären Quellen auf und ist sachlich falsch.",
+      "en": "Garden peas (Pisum sativum) are very well tolerated by healthy people and rank among the safest food plants. Oligosaccharides (stachyose, raffinose) in the seed may cause mild flatulence and intestinal gas in sensitive individuals — this is normal and not a sign of intolerance. Soaking and discarding the cooking water reduces oligosaccharide content. CLARIFICATION ON LATHYRISM: Lathyrism is a neurological disease caused by excessive consumption of grass pea (Lathyrus sativus) — this plant is NOT Pisum sativum. Garden peas contain NO oxalyldiaminopropionic acid (ODAP/beta-BOAA) and are NOT associated with lathyrism. The confusion occasionally appears in popular sources and is factually incorrect."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Gartenerbsen sind in der Schwangerschaft unbedenklich und ernährungsphysiologisch wertvoll. Der Folat-Gehalt (wichtig für die Neuralrohrprävention) macht sie zu einer empfehlenswerten Nahrungsergänzung in der Frühschwangerschaft — wobei der Bedarf allein durch Lebensmittel schwer zu decken ist und eine ärztlich empfohlene Folsäure-Supplementierung nicht ersetzt wird.",
+        "en": "Garden peas are safe in pregnancy and nutritionally valuable. The folate content (important for neural tube prevention) makes them a beneficial dietary addition in early pregnancy — though dietary intake alone is unlikely to meet the full requirement, and does not replace medically recommended folic acid supplementation."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Erbsen sind in der Stillzeit unbedenklich. Oligosaccharid-bedingte Blähungen bei der Mutter beeinflussen die gestillten Kinder in der Regel nicht.",
+        "en": "Peas are safe during lactation. Oligosaccharide-related flatulence in the mother does not generally affect breastfed infants."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Gekochte Erbsen sind ab dem Beikostalter (ca. 6 Monate) geeignet — als Püree oder weich gekochte ganze Erbsen. Ganze rohe Erbsen bei Kleinkindern unter 3 Jahren als Erstickungsgefahr meiden. Erbsenmicrogreens und weich gegarte Hülsen-Erbsen sind für Kinder ab Schul-Alter problemlos.",
+        "en": "Cooked peas are suitable from weaning age (approximately 6 months) — as puree or softly cooked whole peas. Whole raw peas are a choking hazard for children under 3 and should be avoided. Pea microgreens and softly cooked snap peas are unproblematic for school-age children."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Allergie gegen Hülsenfrüchte (Fabaceae / Leguminosae), insbesondere Erdnuss-, Soja- oder Erbsenallergie. Kreuzreaktionen zwischen verschiedenen Hülsenfrüchten sind möglich, aber nicht zwingend.",
+        "en": "Known allergy to legumes (Fabaceae / Leguminosae), especially peanut, soy or pea allergy. Cross-reactions between different legumes are possible but not guaranteed."
+      },
+      {
+        "de": "Gicht: Erbsen enthalten mäßige Mengen Purine (~70–80 mg/100 g). Bei akuter Gicht oder sehr hohem Harnsäure-Spiegel kann eine erhöhte Erbsen-Zufuhr den Harnsäure-Spiegel geringfügig erhöhen — individuelle ärztliche Beratung empfohlen.",
+        "en": "Gout: peas contain moderate amounts of purines (~70–80 mg/100 g). In acute gout or very high uric acid levels, high pea intake may marginally raise uric acid — individual medical advice recommended."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Vitamin-K-Antagonisten (Cumarin-Antikoagulanzien, z. B. Warfarin, Phenprocoumon)",
+        "mechanism": {
+          "de": "Erbsen enthalten Vitamin K1 (Phylloquinon, ~25 µg/100 g grüne Erbsen). Bei konstant hohem Erbsen-Verzehr könnte die Vitamin-K-Zufuhr die antikoagulatorische Wirkung von Cumarinen geringfügig beeinflussen. Kein Verbot — gleichmäßiger Verzehr und regelmäßige INR-Kontrolle sind ausreichend.",
+          "en": "Peas contain vitamin K1 (phylloquinone, ~25 µg/100 g green peas). Consistently high pea intake could marginally affect the anticoagulant effect of coumarins. Not contraindicated — consistent intake and regular INR monitoring are sufficient."
+        },
+        "severity": "monitor"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Erbse (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Erbse",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Pea (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Pea",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_usda_fdc_peas",
+      "type": "monograph",
+      "title": "USDA FoodData Central — Peas, green, raw (FDC ID 170420)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170420/nutrients",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_efsa_pea_protein",
+      "type": "monograph",
+      "title": "EFSA — Scientific Opinion on the safety of pea protein as a novel food ingredient (EFSA Journal 2021;19(7):6703)",
+      "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2021.6703",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_pisum_sativum",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Pisum sativum database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Pisum+sativum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_erbse",
+      "type": "wikipedia",
+      "title": "Erbse (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Erbse",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_pea",
+      "type": "wikipedia",
+      "title": "Pea (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Pea",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_pisum_sativum",
+      "type": "wikidata",
+      "title": "Pisum sativum (Wikidata Q25369)",
+      "url": "https://www.wikidata.org/wiki/Q25369",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_gartenerbse_zubereitung",
+      "type": "wikipedia",
+      "title": "Hülsenfrüchte — Küche und Zubereitung (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/H%C3%BClsenfr%C3%BCchte",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_he_pisum_sativum",
+      "type": "book",
+      "title": "Vilmorin-Andrieux — Les Plantes Potagères (The Vegetable Garden), 3rd ed. 1905 — Peas (Public Domain)",
+      "url": "https://www.biodiversitylibrary.org/item/82489#page/1/mode/1up",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_nitrogen_fixation_legumes",
+      "type": "monograph",
+      "title": "Peoples M.B. et al. — Legume biological nitrogen fixation in agricultural systems. In: Nitrogen Fixation (Springer, 2009)",
+      "url": "https://link.springer.com/chapter/10.1007/978-1-4020-3545-4_10",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "pisum-sativum-sativum.jpg",
+    "alt": {
+      "de": "Foto von Erbse",
+      "en": "Photo of Pea"
+    },
+    "license": "Public domain",
+    "author": "Unknown",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Pisum_sativum0.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 3,
+        "end_month": 5
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 8
+    },
+    "days_to_harvest": 80,
+    "spacing_cm": 5,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "companion_planting": {
+    "good_partners": [
+      "cucumis-sativus",
+      "daucus-carota-sativus",
+      "lactuca-sativa-capitata",
+      "spinacia-oleracea"
+    ],
+    "bad_partners": [
+      "allium-cepa",
+      "allium-porrum",
+      "allium-sativum",
+      "allium-schoenoprasum"
+    ],
+    "reasons": {
+      "allium-cepa": {
+        "de": "Erbse und Zwiebel sollten getrennt stehen — Wachstumshemmung.",
+        "en": "Pea and onion should be separated — growth inhibition."
+      },
+      "allium-schoenoprasum": {
+        "de": "Allium hemmt Erbsen-Wachstum — räumlich trennen.",
+        "en": "Alliums inhibit pea growth — separate spatially."
+      },
+      "daucus-carota-sativus": {
+        "de": "Karotte lockert den Boden für die Erbsen-Wurzel.",
+        "en": "Carrot loosens soil for the pea root."
+      }
+    },
+    "notes_de": "daucus-carota-sativus: Erbsen liefern Stickstoff für Karotten. allium-cepa: Lauchgewächse hemmen Hülsenfrüchte (klassische Bauernregel). allium-schoenoprasum: Allium hemmt Erbsen-Wachstum — räumlich trennen.",
+    "notes_en": "daucus-carota-sativus: Peas provide nitrogen for carrots. allium-cepa: Alliums inhibit legumes (classic rule). allium-schoenoprasum: Alliums inhibit pea growth — separate spatially.",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "nitrogen_fixer",
+    "vertical_mid"
+  ],
+  "constituents": [
+    {
+      "name": "Protein (Leguminosen-Speicherproteine: Legumin, Vicilin, Convicilin)",
+      "category": "other",
+      "percent_range": "5 % (frisch) / 23-25 % (getrocknet)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Hauptspeicherproteine der Erbse. Das Aminosäureprofil ist komplett (alle 9 essentiellen Aminosäuren), aber relativ arm an schwefelhaltigen Aminosäuren (Methionin, Cystein). Leucin-Gehalt ist ausreichend für die Stimulation der Muskelproteinsynthese. Biologische Wertigkeit ca. 60–65 (niedriger als Ei oder Molke, höher als viele Getreide). Kommerzielle PPI-Herstellung durch Nassextraktion erreicht 80–90 % Protein im Isolat.",
+        "en": "Main storage proteins of the pea. The amino acid profile is complete (all 9 essential amino acids) but relatively low in sulphur-containing amino acids (methionine, cysteine). Leucine content is sufficient to stimulate muscle protein synthesis. Biological value approximately 60–65 (lower than egg or whey, higher than most cereals). Commercial PPI production by wet extraction achieves 80–90 % protein in the isolate."
+      }
+    },
+    {
+      "name": "Stärke und resistente Stärke (Amylose / Amylopektin)",
+      "category": "polysaccharide",
+      "percent_range": "5-7 % (frisch) / 45-50 % (getrocknet)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Erbsen enthalten einen für Hülsenfrüchte typisch hohen Amyloseanteil (~35 % der Gesamtstärke), der nach dem Kochen und Abkühlen als resistente Stärke (RS Typ 3) retrogradiert. Resistente Stärke wird im Dickdarm fermentiert, wirkt präbiotisch, senkt den glykämischen Index (GI frische Erbsen ca. 51, gekochte getrocknete ca. 32-54) und fördert kurzkettige Fettsäuren (SCFA).",
+        "en": "Peas contain a characteristically high amylose fraction (~35 % of total starch) for a legume, which retrograde after cooking and cooling as resistant starch (RS type 3). Resistant starch is fermented in the colon, acts as a prebiotic, lowers the glycaemic index (GI fresh peas ~51, cooked dried ~32-54) and promotes short-chain fatty acid (SCFA) production."
+      }
+    },
+    {
+      "name": "Ballaststoffe (Cellulose, Hemicellulose, Pektin)",
+      "category": "polysaccharide",
+      "percent_range": "5-6 % (frisch) / 15-17 % (getrocknet)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Mischung aus unlöslichen (Cellulose, Hemicellulose) und löslichen Ballaststoffen (Pektin). Fördern die Darmgesundheit, verlangsamen die Magenentleerung, erhöhen die Sättigung und modulieren den postprandialen Blutzucker- und Insulinanstieg. Der Ballaststoffgehalt ist ein Hauptgrund für die Empfehlung von Hülsenfrüchten in pflanzenbetonten Ernährungsformen.",
+        "en": "Mixture of insoluble (cellulose, hemicellulose) and soluble dietary fibre (pectin). Promotes gut health, slows gastric emptying, increases satiety and modulates postprandial blood glucose and insulin rise. Dietary fibre content is a key reason legumes are recommended in plant-based diets."
+      }
+    },
+    {
+      "name": "Oligosaccharide (Raffinose, Stachyose)",
+      "category": "polysaccharide",
+      "percent_range": "1-3 % (getrocknet)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Alpha-galaktosidische Oligosaccharide, die vom menschlichen Dünndarm mangels passender Enzyme nicht gespalten werden und im Dickdarm von Bakterien fermentiert werden — dabei entstehen CO2 und H2 (Blähungen). Durch Einweichen und Verwerfen des Einweichwassers sowie langes Kochen wird der Gehalt reduziert. Für die Darmflora wirken sie präbiotisch.",
+        "en": "Alpha-galactosidic oligosaccharides that cannot be hydrolysed by the human small intestine (lacking the relevant enzymes) and are fermented by colonic bacteria — producing CO2 and H2 (flatulence). Soaking and discarding the soaking water and prolonged cooking reduces their content. They act as prebiotics for the gut microbiome."
+      }
+    },
+    {
+      "name": "Folat (Vitamin B9)",
+      "category": "vitamin",
+      "percent_range": "65 µg/100 g (frisch) / ~274 µg/100 g (getrocknet, roh)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Erbsen sind eine der besten pflanzlichen Folat-Quellen. Folat ist essenziell für die DNA-Synthese und Zellteilung, besonders wichtig in der Frühschwangerschaft (Neuralrohrprävention). 100 g frische Erbsen decken ~16 % des täglichen Bedarfs (400 µg Erwachsene, 550 µg Schwangere).",
+        "en": "Peas are one of the best plant-based folate sources. Folate is essential for DNA synthesis and cell division, particularly important in early pregnancy (neural tube prevention). 100 g fresh peas cover ~16 % of the daily requirement (400 µg adults, 550 µg pregnant women)."
+      }
+    },
+    {
+      "name": "Vitamin C (L-Ascorbinsäure)",
+      "category": "vitamin",
+      "percent_range": "40 mg/100 g (frisch) / deutlich reduziert nach Kochen",
+      "plant_part": "seed",
+      "note": {
+        "de": "Grüne, frisch gepflückte Erbsen sind eine merkliche Vitamin-C-Quelle (ca. 44 % des Tagesbedarfs pro 100 g). Der Vitamin-C-Gehalt sinkt rasch nach der Ernte durch enzymatischen Abbau und ist nach Kochen oder Tiefgefrieren deutlich reduziert. Frisch ist hier klar überlegen. Tiefkühlware unmittelbar nach Blanchieren eingefroren bewahrt mehr als tagelang gelagerter Frischware.",
+        "en": "Freshly picked green peas are a notable vitamin C source (~44 % DV per 100 g). Vitamin C content drops rapidly after harvest through enzymatic degradation and is significantly reduced by cooking or freezing. Fresh is clearly superior. Frozen produce blanched immediately before freezing retains more than fresh produce stored for days."
+      }
+    },
+    {
+      "name": "Eisen (Fe) und Zink (Zn)",
+      "category": "mineral",
+      "percent_range": "1,5 mg Fe / 1,2 mg Zn pro 100 g (frisch)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Erbsen enthalten nicht-Häm-Eisen und Zink in für ein Gemüse respektablen Mengen. Die Bioverfügbarkeit von nicht-Häm-Eisen aus Hülsenfrüchten wird durch gleichzeitige Vitamin-C-Zufuhr verbessert und durch Phytate (Phytinsäure, ~0,5 % in trockenen Erbsen) verringert. Einweichen und Kochen reduziert den Phytat-Gehalt deutlich.",
+        "en": "Peas contain non-haem iron and zinc in respectable amounts for a vegetable. The bioavailability of non-haem iron from legumes is improved by concurrent vitamin C intake and reduced by phytates (phytic acid, ~0.5 % in dried peas). Soaking and cooking significantly reduces phytate content."
+      }
+    },
+    {
+      "name": "Flavonoide und Phenolsäuren (Quercetin, Kaempferol, Protocatechusäure)",
+      "category": "flavonoid",
+      "percent_range": "50-150 mg Gesamtpolyphenole/100 g (frisch)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Erbsen enthalten mäßige Mengen polyphenolischer Verbindungen, hauptsächlich Flavonole (Quercetin, Kaempferol-Glykoside) und Phenolsäuren (Protocatechusäure, Kaffeesäure). Konzentration variiert stark nach Sorte und Reifegrad. Beitrag zur antioxidativen Kapazität; klinische Relevanz bei üblichen Verzehrmengen unklar.",
+        "en": "Peas contain moderate amounts of polyphenolic compounds, mainly flavonols (quercetin, kaempferol glycosides) and phenolic acids (protocatechuic acid, caffeic acid). Concentration varies widely by cultivar and ripeness. Contribution to antioxidant capacity; clinical relevance at normal consumption amounts unclear."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Am frühen Morgen oder Vormittag ernten, bevor die Tageshitze einsetzt — zu diesem Zeitpunkt sind die Hülsen prall und der Zuckergehalt am höchsten. Markerbsen (Shelling Peas) ernten, wenn die Hülsen deutlich gefüllt, aber noch hellgrün und nicht ledrig sind — bei Druckprobe auf die Hülse sollten die Erbsen spürbar rund und fest sein. Zuckererbsen (Sugar Snap) und Kaiserschoten (Snow Peas) bei flacher, zarter Hülse ernten bevor die Samen sich deutlich formen. Regelmäßiges Ernten (alle 2–3 Tage) verlängert die Ertragsphase erheblich, da die Pflanze bei Samenreife die Produktion einstellt.",
+        "en": "Harvest in the early morning or morning hours before the day's heat — at this time pods are turgid and sugar content is at its peak. Shelling peas should be harvested when the pods are clearly filled but still bright green and not leathery — pressing the pod should reveal round, firm peas inside. Sugar snap and snow peas should be harvested while pods are flat and tender before the seeds form visibly. Regular harvesting (every 2–3 days) significantly extends the productive period, as the plant ceases production once seeds ripen."
+      },
+      "drying": {
+        "de": "Frischerbsen so rasch wie möglich verarbeiten oder tiefkühlen — der Zuckerabbau durch Amylase/Invertase-Aktivität beginnt unmittelbar nach der Ernte (bereits nach 6 Stunden bei Raumtemperatur deutlich messbar). Für Trockensamen: Hülsen vollständig ausreifen und gelblich-braun werden lassen (mind. Juli–August für Frühsorten). Hülsen in einem trockenen, luftigen Raum nachreifen und trocknen lassen — schaukeln darf es nicht, Feuchtigkeit ist der Feind. Dann Erbsen auslösen, auf Platten oder Sieben bei max. 35 °C nachtrocknen bis zum vollständigen Rascheln. Luft- und lichtdicht in Gläsern lagern, 1–3 Jahre haltbar.",
+        "en": "Process or freeze fresh peas as quickly as possible — sugar degradation by amylase/invertase activity begins immediately after harvest (measurable within 6 hours at room temperature). For dry seeds: allow pods to fully ripen and turn yellowish-brown (usually July–August for early varieties). Let pods ripen and dry in a dry, well-ventilated room — no dampness, as moisture is the enemy. Shell peas, then dry on plates or screens at max. 35 °C until fully rattling-dry. Store airtight in dark jars, shelf life 1–3 years."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Frische Erbsen: im Kühlschrank max. 2–3 Tage in der Hülse (länger = Zuckerverlust). Tiefgekühlt (nach Blanchieren 2 min) bis zu 12 Monate. Getrocknete Erbsen: luftdicht, dunkel, kühl — 1–3 Jahre.",
+        "en": "Fresh peas: in the refrigerator up to 2–3 days in the pod (longer = sugar loss). Frozen (after 2 min blanching) up to 12 months. Dried peas: airtight, dark, cool — 1–3 years."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        4,
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Erbsenschossen (Triebspitzen) kontinuierlich ab Wuchsbeginn der Pflanze schneiden — am besten morgens. Die obersten 5–10 cm der wachsenden Triebe mit 2–3 Blattpaaren und der Ranke schneiden; die Pflanze treibt dann seitlich nach und kann mehrfach beerntet werden. Alternativ: Microgreens aus Erbsensamen in flachen Schalen auf Erde oder Substrat, Aussaat dicht, nach 7–14 Tagen bei 5–8 cm Höhe ernten.",
+        "en": "Pea shoots (growing tips) can be harvested continuously from the start of plant growth — best done in the morning. Cut the top 5–10 cm of growing shoots with 2–3 pairs of leaves and the tendril; the plant then sprouts laterally and can be harvested multiple times. Alternatively: microgreens from pea seeds in shallow trays on soil or substrate, sown densely, harvested at 7–14 days when 5–8 cm tall."
+      },
+      "drying": {
+        "de": "Erbsenschossen sind nicht zum Trocknen geeignet — sie verlieren Frische und Vitamin C schnell. Sofort nach der Ernte kühlen und innerhalb von 1–2 Tagen verbrauchen. Nicht einfrieren (Textur leidet stark).",
+        "en": "Pea shoots are not suitable for drying — they quickly lose freshness and vitamin C. Cool immediately after harvest and consume within 1–2 days. Do not freeze (texture deteriorates markedly)."
+      },
+      "storage_condition": {
+        "de": "Im Kühlschrank in leicht feuchtem Tuch oder Behälter max. 1–2 Tage. Frisch am besten.",
+        "en": "In the refrigerator in a slightly damp cloth or container, max 1–2 days. Best consumed fresh."
+      }
+    }
+  ]
+}

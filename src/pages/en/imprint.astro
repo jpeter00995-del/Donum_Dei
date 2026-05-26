@@ -1,0 +1,88 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+// === 2. KONSTANTEN ===
+const locale = 'en' as const;
+---
+
+<BaseLayout locale={locale} title="Imprint">
+  <div class="max-w-3xl mx-auto px-4 py-8 prose prose-slate">
+    <!-- === 1. HERO === -->
+    <header class="mb-6">
+      <h1 class="text-3xl font-serif font-bold text-slate-900 mb-2">Imprint</h1>
+      <p class="text-sm text-slate-500">
+        Translation of the German imprint required under § 5 TMG. The German
+        version is legally binding.
+      </p>
+    </header>
+
+    <!-- === 2. OPERATOR === -->
+    <section class="mb-8">
+      <h2 class="text-xl font-serif font-semibold text-slate-900 mb-2">
+        Information according to § 5 TMG (German Telemedia Act)
+      </h2>
+      <address class="not-italic text-slate-800 leading-relaxed">
+        Maikel Ganske<br />
+        Ul. Naum Preslavski 1<br />
+        9006 Varna<br />
+        Bulgaria
+      </address>
+    </section>
+
+    <!-- === 3. CONTACT === -->
+    <section class="mb-8">
+      <h2 class="text-xl font-serif font-semibold text-slate-900 mb-2">Contact</h2>
+      <p class="text-slate-800">
+        Email:
+        <a
+          href="mailto:maikelganske913@gmail.com"
+          class="text-emerald-700 hover:text-emerald-800 underline"
+        >maikelganske913@gmail.com</a>
+        <br />
+        Web:
+        <a
+          href="https://donum-dei.pages.dev"
+          class="text-emerald-700 hover:text-emerald-800 underline"
+        >https://donum-dei.pages.dev</a>
+      </p>
+    </section>
+
+    <!-- === 4. DISCLAIMER === -->
+    <section class="mb-8">
+      <h2 class="text-xl font-serif font-semibold text-slate-900 mb-3">Disclaimer</h2>
+
+      <h3 class="text-lg font-semibold text-slate-900 mt-4 mb-2">Liability for content</h3>
+      <p class="text-slate-700 leading-relaxed">
+        The content of these pages has been prepared with the greatest care.
+        Donum Dei is for educational purposes only and does not replace medical
+        advice. For health complaints please consult a physician or pharmacist.
+        Plants can be toxic — use at your own responsibility.
+      </p>
+
+      <h3 class="text-lg font-semibold text-slate-900 mt-4 mb-2">Liability for links</h3>
+      <p class="text-slate-700 leading-relaxed">
+        External links to Wikipedia, GBIF and Wikimedia Commons are checked for
+        legal violations at the time of linking. We have no influence on the
+        content of external pages.
+      </p>
+
+      <h3 class="text-lg font-semibold text-slate-900 mt-4 mb-2">Copyright</h3>
+      <p class="text-slate-700 leading-relaxed">
+        Plant images come from Wikimedia Commons (CC licences — full list on
+        <a href="/en/image-credits" class="text-emerald-700 hover:text-emerald-800 underline">Image Credits</a>).
+        Plant descriptions are partly taken from Wikipedia (CC BY-SA 4.0) and paraphrased.
+        Classical permaculture sources (Sepp Holzer, Bill Mollison, Toby Hemenway) have
+        been paraphrased, no direct quotes.
+      </p>
+    </section>
+
+    <!-- === 5. LINKS === -->
+    <p class="mt-10 text-sm text-slate-500">
+      See also:
+      <a href="/en/privacy" class="text-emerald-700 hover:text-emerald-800 underline">Privacy policy</a>
+      <span class="text-slate-400"> · </span>
+      <a href="/en/image-credits" class="text-emerald-700 hover:text-emerald-800 underline">Image Credits</a>
+    </p>
+  </div>
+</BaseLayout>

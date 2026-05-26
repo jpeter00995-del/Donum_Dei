@@ -1,0 +1,479 @@
+{
+  "slug": "laurus-nobilis",
+  "names": {
+    "de": "Echter Lorbeer",
+    "en": "Laurus nobilis",
+    "latin": "Laurus nobilis"
+  },
+  "family": {
+    "de": "Lorbeergewächse",
+    "en": "Laurel family",
+    "latin": "Lauraceae"
+  },
+  "description": {
+    "de": "Der Echte Lorbeer, auch Edler Lorbeer oder Gewürzlorbeer, kurz auch Lorbeer, genannt, ist eine Pflanzenart aus der Gattung Lorbeeren (Laurus) innerhalb der Familie der Lorbeergewächse (Lauraceae). Sie wird als Heil- und Gewürzpflanze verwendet. Der Name leitet sich über mittelhochdeutsch lōrber und althochdeutsch lōr(beri) von gleichbedeutend lateinisch laurus ab.",
+    "en": "Laurus nobilis is an aromatic evergreen tree or large shrub with green, glabrous (smooth) leaves. It is in the flowering plant family Lauraceae. According to Muer, Jahn, & Sauerbier, the stem can be 1 metre in diameter and the tree can be as high as 20 metres."
+  },
+  "teaser": {
+    "de": "Der Echte Lorbeer, auch Edler Lorbeer oder Gewürzlorbeer, kurz auch Lorbeer, genannt, ist eine Pflanzenart aus der Ga...",
+    "en": "Laurus nobilis is an aromatic evergreen tree or large shrub with green, glabrous (smooth) leaves."
+  },
+  "uses": [
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Getrocknete Lorbeerblätter sind ein unverzichtbares Gewürz der mediterranen Küche: Suppen, Eintöpfe, Fleisch- und Fischgerichte, Marinaden, Bouquet garni. Das ätherische Öl regt die Magendrüsen an und wirkt so appetitanregend und verdauungsfördernd. Vor dem Servieren entfernen — nicht mitessen.",
+        "en": "Dried bay leaves are an indispensable spice in Mediterranean cooking: soups, stews, meat and fish dishes, marinades, bouquet garni. The essential oil stimulates gastric glands, acting as an appetite stimulant and digestive aid. Remove before serving — not for eating."
+      },
+      "source_ids": [
+        "src_wp_de_ln",
+        "src_wp_en_ln",
+        "src_pfaf_ln"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Aufguss aus 1–2 getrockneten Lorbeerblättern bei Blähungen, Völlegefühl und leichten Katarrhen der Atemwege. Die karminativen und leicht antiseptischen Eigenschaften des Cineols unterstützen die Verdauung und lindern Bronchialreizungen.",
+        "en": "Infusion of 1–2 dried bay leaves for flatulence, bloating, and mild catarrh of the respiratory tract. The carminative and mildly antiseptic properties of cineole support digestion and relieve bronchial irritation."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "1–2 ganze getrocknete Blätter (ca. 1–3 g) mit kochendem Wasser 10 Minuten ziehen lassen; vor dem Trinken entfernen.",
+          "en": "Steep 1–2 whole dried leaves (approx. 1–3 g) in boiling water for 10 minutes; remove before drinking."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_ln",
+        "src_molecules_ln"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Lorbeerbaumöl (aus Früchten und Blättern gewonnen) zur äußerlichen Massage bei rheumatischen Beschwerden, Prellungen und Verstauchungen. In der traditionellen Medizin des Mittelmeers seit der Antike bekannt; auch in der Herstellung von Aleppo-Seife verwendet.",
+        "en": "Bay laurel oil (expressed from fruits and leaves) for external massage in rheumatic complaints, bruises, and sprains. Known in traditional Mediterranean medicine since antiquity; also used in the production of Aleppo soap."
+      },
+      "source_ids": [
+        "src_wp_de_ln",
+        "src_pfaf_ln"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Aufguss-Umschlag mit Lorbeerblättern bei Hautreizungen (Brennnessel, Giftefeu) und schlecht heilenden Wunden. Die Gerbstoffe wirken adstringierend, die Sesquiterpenlactone (Costunolid) entzündungshemmend.",
+        "en": "Infusion poultice with bay leaves applied to skin irritations (nettle stings, poison ivy) and poorly healing wounds. Tannins act astringently; sesquiterpene lactones (costunolide) provide anti-inflammatory action."
+      },
+      "source_ids": [
+        "src_wp_en_ln",
+        "src_pfaf_ln"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Tierexperimentelle Studien zeigen, dass eine Lorbeerblatt-Supplementierung die Darmflora positiv verändert: Bifidobacterium- und Lactobacillus-Populationen nehmen zu, pathogene Clostridien nehmen ab. Relevanz für den Menschen noch nicht durch klinische Studien belegt.",
+        "en": "Animal studies show bay leaf supplementation positively alters gut flora: Bifidobacterium and Lactobacillus populations increase, pathogenic clostridia decrease. Relevance for humans not yet confirmed by clinical studies."
+      },
+      "source_ids": [
+        "src_fsn_ln"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Dampfinhalation mit zerriebenen Lorbeerblättern im heißen Wasser bei Bronchialkatarrhen und Erkältung. Der hohe Cineolgehalt des ätherischen Öls unterstützt die Schleimlösung.",
+        "en": "Steam inhalation with crushed bay leaves in hot water for bronchial catarrh and colds. The high cineole content of the essential oil supports mucus loosening."
+      },
+      "source_ids": [
+        "src_pfaf_ln",
+        "src_molecules_ln"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "getrocknete Blätter, Früchte",
+      "en": "dried leaves, fruits"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Blätter nicht mitessen — Verletzungsgefahr durch scharfe Blattränder. Ätherisches Öl kann Hautsensibilisierungen auslösen. Sesquiterpenlactone können Kontaktdermatitis verursachen — beim Ernten/Verarbeiten von frischen Blättern Handschuhe empfohlen.",
+      "en": "Do not eat whole leaves — risk of injury from sharp leaf edges. Essential oil may cause skin sensitisation. Sesquiterpene lactones can cause contact dermatitis — gloves recommended when harvesting or processing fresh leaves."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Kulinarische Mengen in Speisen gelten als unbedenklich. Medizinische Dosen (Tee, ätherisches Öl) während der Schwangerschaft meiden — keine ausreichenden Sicherheitsdaten.",
+        "en": "Culinary amounts in food are considered safe. Medicinal doses (tea, essential oil) should be avoided during pregnancy — insufficient safety data."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Kulinarische Mengen unbedenklich. Medizinische Dosen vorsorglich meiden.",
+        "en": "Culinary amounts are safe. Medicinal doses should be avoided as a precaution."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Kulinarische Verwendung unbedenklich. Medizinische Anwendung (Tee in Heilmengen) bei Kindern unter 12 Jahren nur nach ärztlichem Rat.",
+        "en": "Culinary use is safe. Medicinal use (tea in therapeutic amounts) in children under 12 only on medical advice."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antidiabetika / Blutzuckersenkende Mittel",
+        "mechanism": {
+          "de": "Lorbeerblattzubereitungen können den Blutzucker senken — bei gleichzeitiger Antidiabetika-Einnahme Hypoglykämie-Risiko.",
+          "en": "Bay leaf preparations may lower blood glucose — risk of hypoglycaemia when taken concurrently with antidiabetic medication."
+        },
+        "severity": "monitor",
+        "source_id": "src_pfaf_ln"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Bekannte Kontaktallergie oder Überempfindlichkeit gegen Lorbeer oder andere Lauraceae.",
+        "en": "Known contact allergy or hypersensitivity to bay laurel or other Lauraceae."
+      },
+      {
+        "de": "Ätherisches Öl (rein) nicht innerlich einnehmen.",
+        "en": "Essential oil (pure) not for internal use."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter Lorbeer (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Lorbeer",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Laurus nobilis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Laurus_nobilis",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wp_de_ln",
+      "type": "wikipedia",
+      "title": "Echter Lorbeer (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Lorbeer",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_ln",
+      "type": "wikipedia",
+      "title": "Laurus nobilis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Laurus_nobilis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_ln",
+      "type": "monograph",
+      "title": "Laurus nobilis — Plants for a Future database",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Laurus+nobilis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_molecules_ln",
+      "type": "monograph",
+      "title": "Caputo et al. (2017): Laurus nobilis — Composition of Essential Oil and Its Biological Activities — Molecules",
+      "url": "https://doi.org/10.3390/molecules22060930",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_foods_ln",
+      "type": "monograph",
+      "title": "Dobroslavljević et al. (2022): Isolation of Laurus nobilis Leaf Polyphenols: A Review on Current Techniques and Future Perspectives — Foods",
+      "url": "https://doi.org/10.3390/foods11020235",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_fsn_ln",
+      "type": "monograph",
+      "title": "Khalil et al. (2024): Anti-inflammatory effects of bay laurel towards the gut microbiome in dextran sodium sulfate induced colitis animal models — Food Science & Nutrition",
+      "url": "https://doi.org/10.1002/fsn3.3946",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "laurus-nobilis.jpg",
+    "alt": {
+      "de": "Foto von Echter Lorbeer",
+      "en": "Photo of Laurus nobilis"
+    },
+    "license": "Public domain",
+    "author": "Brandt, Wilhelm; Gürke, M.; Köhler, F. E.; Pabst, G.; Schellenberg, G.; Vogtherr, Max.",
+    "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6hler%27s_Medizinal-Pflanzen_in_naturgetreuen_Abbildungen_mit_kurz_erl%C3%A4uterndem_Texte_(Plate_1)_BHL303564.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible",
+      "medicinal"
+    ],
+    "rooms": [
+      "kitchen",
+      "living_room",
+      "balcony"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "weekly",
+    "difficulty": 2,
+    "pet_safe": true,
+    "soil": {
+      "de": "Kübelpflanzenerde mit Drainage",
+      "en": "Container compost with drainage"
+    },
+    "pot_size_cm": 30,
+    "tips": {
+      "de": [
+        "Im Winter hell und kühl (5-10°C) — keine Heizungsluft.",
+        "Bedingt winterhart — bei <-5°C ins Haus.",
+        "Wächst langsam — junge Pflanzen brauchen Geduld."
+      ],
+      "en": [
+        "Winter: bright and cool (5-10 °C) — no heated room.",
+        "Marginally hardy — bring indoors below -5 °C.",
+        "Slow-growing — young plants need patience."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "rosmarinus-officinalis"
+    ],
+    "bad_partners": [],
+    "neutral": [
+      "salvia-officinalis"
+    ],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "transplant": {
+        "start_month": 4,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 1,
+      "end_month": 12
+    },
+    "days_to_harvest": 365,
+    "spacing_cm": 120,
+    "garden_type": [
+      "raised_bed",
+      "greenhouse"
+    ],
+    "difficulty": 2
+  },
+  "permaculture_functions": [
+    "aromatic_repellent",
+    "medicinal",
+    "vertical_high"
+  ],
+  "constituents": [
+    {
+      "name": "1,8-Cineol (Eucalyptol)",
+      "category": "essential_oil",
+      "percent_range": "31,9–45 % im ätherischen Öl der Blätter",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Häufigste Einzelkomponente des Lorbeeröls; schleimlösend, antimikrobiell und bronchuserweitend. Typisch für Blätter mediterraner Lorbeerbäume.",
+        "en": "Most abundant single component of bay laurel oil; mucolytic, antimicrobial, and bronchodilatory. Typical for leaves of Mediterranean bay laurel trees."
+      }
+    },
+    {
+      "name": "Sabinen",
+      "category": "essential_oil",
+      "percent_range": "12,2 % im ätherischen Öl",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Bicyclisches Monoterpen; antimikrobielle und antifungische Wirksamkeit; trägt zum würzigen Geruch des Lorbeeröls bei.",
+        "en": "Bicyclic monoterpene; antimicrobial and antifungal activity; contributes to the spicy scent of bay laurel oil."
+      }
+    },
+    {
+      "name": "Linalool",
+      "category": "essential_oil",
+      "percent_range": "ca. 10 % im ätherischen Öl",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Monoterpenalkohol mit angstlösenden und leicht sedierenden Eigenschaften; auch in Lavendel und Bergamotte enthalten.",
+        "en": "Monoterpene alcohol with anxiolytic and mildly sedative properties; also found in lavender and bergamot."
+      }
+    },
+    {
+      "name": "Costunolid und Dehydrocostus-Lacton",
+      "category": "sesquiterpene",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Sesquiterpenlactone; entzündungshemmend durch Hemmung von NF-κB; können bei Kontakt Sensibilisierung der Haut verursachen.",
+        "en": "Sesquiterpene lactones; anti-inflammatory via NF-κB inhibition; may cause skin sensitisation upon contact."
+      }
+    },
+    {
+      "name": "Kaempferol und Kaempferol-Glykoside",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Häufigste Flavonole in Lorbeerblättern (ca. 50 % der gesamten Flavonoid-Fraktion); antioxidativ, anti-inflammatorisch und antidiabetisch.",
+        "en": "Most abundant flavonols in bay leaves (approx. 50% of total flavonoid fraction); antioxidant, anti-inflammatory, and antidiabetic."
+      }
+    },
+    {
+      "name": "Quercetin und Isorhamnetin (Glykoside)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavonole mit antioxidativen und entzündungshemmenden Eigenschaften; Quercetin auch als Mastzellstabilisator bekannt.",
+        "en": "Flavonols with antioxidant and anti-inflammatory properties; quercetin also known as a mast cell stabiliser."
+      }
+    },
+    {
+      "name": "Methyleugenol",
+      "category": "essential_oil",
+      "percent_range": "3,3–22 % im ätherischen Öl (Herkunfts-abhängig)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Phenylpropanoid; genotoxisches Potenzial in Hochdosisversuchen (In-vitro) — in kulinarischen Mengen als unbedenklich eingestuft.",
+        "en": "Phenylpropanoid; genotoxic potential at high doses in vitro — classified as safe in culinary amounts."
+      }
+    },
+    {
+      "name": "Fettes Öl (Früchte)",
+      "category": "other",
+      "percent_range": "bis zu 30 % in den Früchten",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hochkonzentriertes fettes Öl in den Lorbeerbaumfrüchten; Grundlage der traditionellen Aleppo-Seife; enthält Laurinsäure und Ölsäure.",
+        "en": "Highly concentrated fixed oil in bay laurel fruits; the basis of traditional Aleppo soap; contains lauric acid and oleic acid."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus. Handschuhe tragen — Sesquiterpenlactone in frischen Blättern können Kontaktdermatitis auslösen.",
+        "en": "Morning after dew has dried. Wear gloves — sesquiterpene lactones in fresh leaves can cause contact dermatitis."
+      },
+      "drying": {
+        "de": "Einzelne Blätter oder kleine Zweige ausgebreitet auf Trockengestellen an belüfteten, schattigen Stellen trocknen; oder ganze Zweige bündeln und aufhängen. Blätter bleiben bis zu einem Jahr aromareich.",
+        "en": "Spread individual leaves or small branches on drying racks in a ventilated, shaded spot; or bundle and hang whole branches. Leaves remain aromatic for up to one year."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Ganze getrocknete Blätter in luftdichten Gläsern, lichtgeschützt. Gemahlener Lorbeer verliert Aroma schneller — wenn möglich ganz lagern.",
+        "en": "Whole dried leaves in airtight jars, away from light. Ground bay loses flavour faster — store whole where possible."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Reife Früchte (blauschwarz) im Herbst von Hand pflücken oder abschütteln; nach dem Abtrocknen des Morgentaus.",
+        "en": "Harvest ripe fruits (blue-black) in autumn by hand or by shaking branches; after morning dew has dried."
+      },
+      "drying": {
+        "de": "Früchte auf Trockengestellen ausbreiten und bei Raumtemperatur vollständig trocknen, bis kein Feuchtigkeitsverlust mehr messbar ist. Für Ölpressung direkt verarbeiten.",
+        "en": "Spread fruits on drying racks and dry at room temperature until no further moisture loss is measurable. For oil pressing, process immediately."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Getrocknete Früchte in dunklen, trockenen Behältern; Lorbeeröl kühl und dunkel lagern.",
+        "en": "Dried fruits in dark, dry containers; bay laurel oil stored cool and dark."
+      }
+    }
+  ]
+}

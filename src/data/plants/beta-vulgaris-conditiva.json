@@ -1,0 +1,476 @@
+{
+  "slug": "beta-vulgaris-conditiva",
+  "names": {
+    "de": "Rote Bete",
+    "en": "Beetroot",
+    "latin": "Beta vulgaris subsp. vulgaris var. conditiva"
+  },
+  "family": {
+    "de": "Fuchsschwanzgewächse",
+    "en": "Amaranth family",
+    "latin": "Amaranthaceae"
+  },
+  "description": {
+    "de": "Die Rote Bete, auch Rote Beete oder Rote Rübe, in der Schweiz Randen, in einigen Teilen Österreichs, Bayerns und Südbadens auch Rahne genannt, ist eine Kulturform der Rübe und gehört zur Familie der Fuchsschwanzgewächse. Alle Kulturrüben werden heute in der Unterart Beta vulgaris subsp. vulgaris zusammengefasst, die Rote Bete zählt zur Conditiva-Gruppe.",
+    "en": "Beetroot or beet is the taproot portion of a Beta vulgaris subsp. vulgaris plant in the Conditiva Group. The plant is a root vegetable also known as the table beet, garden beet, or dinner beet, or else categorized by color as red beet or golden beet."
+  },
+  "teaser": {
+    "de": "Die Rote Bete, auch Rote Beete oder Rote Rübe, in der Schweiz Randen, in einigen Teilen Österreichs, Bayerns und Südb...",
+    "en": "Beetroot or beet is the taproot portion of a Beta vulgaris subsp."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Roh geriebene Rote Bete (z. B. als Rohkostsalat mit Zitrone und Olivenöl) liefert Betalaine, Folat, Mangan und Nitrat in maximaler Konzentration, da Hitze diese Stoffe teilweise abbaut. Volksheilkundlich wird rohe Rote Bete als leberaktives, verdauungsförderndes Gemüse geschätzt. Die Schale kann mitverzehrt werden (gut bürsten), enthält ebenfalls Pigmente.",
+        "en": "Raw grated beetroot (e.g. as a crudité salad with lemon and olive oil) delivers betalains, folate, manganese and nitrate at maximum concentration, as heat partially degrades these compounds. Folk tradition values raw beetroot as a liver-supportive and digestion-aiding vegetable. The skin is edible if well scrubbed and also contains pigments."
+      },
+      "source_ids": [
+        "src_usda_fooddata",
+        "src_wp_en_beetroot",
+        "src_pfaf_beta_vulgaris"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Rote-Bete-Saft (ca. 200–500 ml täglich aus frischen Knollen gepresst) ist die am besten untersuchte Form zur Nutzung des hohen Nitratgehalts. Mehrere randomisiert-kontrollierte Studien zeigen eine signifikante Senkung des systolischen Blutdrucks (–3 bis –10 mmHg) sowie verbesserte Ausdauerleistung durch erhöhte mitochondriale Effizienz und verringerten O2-Bedarf der Muskulatur. Der Effekt ist dosisabhängig und setzt nach ca. 2–3 Stunden ein. Kein Ersatz für blutdrucksenkende Medikamente.",
+        "en": "Beetroot juice (approx. 200–500 ml daily, pressed from fresh roots) is the best-studied form for utilising the high nitrate content. Several randomised controlled trials demonstrate significant reductions in systolic blood pressure (–3 to –10 mmHg) and improved endurance performance through increased mitochondrial efficiency and reduced muscular O2 demand. Effect is dose-dependent and onset is approx. 2–3 hours. Not a substitute for antihypertensive medication."
+      },
+      "source_ids": [
+        "src_rct_nitrate_exercise_lansley2011",
+        "src_efsa_nitrate_opinion",
+        "src_usda_fooddata"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Gegarte Rote Bete — gedünstet, gekocht oder im Ofen geröstet — ist die klassische Zubereitungsform als Beilage, in Suppen (Borschtsch, Labskaus) oder als Salat. Beim Garen werden Zellwände aufgebrochen und die Betalaine für den Körper besser verfügbar, jedoch nimmt der Nitratgehalt und der Folatgehalt leicht ab. Rote Bete kann mit Schale gegart und danach abgezogen werden.",
+        "en": "Cooked beetroot — steamed, boiled or oven-roasted — is the classic preparation as a side dish, in soups (borscht, labskaus) or salads. Cooking breaks down cell walls and improves bioavailability of betalains, although nitrate and folate content decrease somewhat. Beetroot can be cooked skin-on and peeled afterwards."
+      },
+      "source_ids": [
+        "src_wp_de_rote_bete",
+        "src_wp_en_beetroot",
+        "src_usda_fooddata"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Fermentierte Rote Bete (Kwas burakowy / Rote-Bete-Kvass): Die Knolle wird in Scheiben geschnitten, mit Wasser, Salz und optional etwas Roggensauerteig angesetzt und 2–5 Tage bei Raumtemperatur fermentiert. Das leicht säuerliche, tiefrote Getränk ist reich an Milchsäurebakterien und wird traditionell in Osteuropa als Probiotikum und Verdauungstonikum getrunken. Betalaine bleiben beim Fermentieren weitgehend erhalten.",
+        "en": "Fermented beetroot (kwas burakowy / beet kvass): The root is sliced, covered with water, salt and optionally a little rye sourdough starter, and left to ferment at room temperature for 2–5 days. The slightly sour, deep-red drink is rich in lactic acid bacteria and is traditionally consumed in Eastern Europe as a probiotic and digestive tonic. Betalains are largely preserved during fermentation."
+      },
+      "source_ids": [
+        "src_wp_de_rote_bete",
+        "src_pfaf_beta_vulgaris"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Rote-Bete-Blätter (Bete-Tops) sind vollwertig essbar: junge Blätter roh in Salaten, ältere blanchiert oder gedünstet wie Spinat oder Mangold. Sie enthalten mehr Eisen, Calcium und Vitamin K als die Knolle selbst und sind reich an Beta-Carotin. In der Küche oft unterschätzt — in der traditionellen osteuropäischen und mediterranen Küche selbstverständliche Beigabe.",
+        "en": "Beetroot leaves (beet tops) are fully edible: young leaves raw in salads, older leaves blanched or steamed like spinach or chard. They contain more iron, calcium and vitamin K than the root itself and are rich in beta-carotene. Often overlooked in the kitchen — but a natural ingredient in traditional Eastern European and Mediterranean cooking."
+      },
+      "source_ids": [
+        "src_usda_fooddata",
+        "src_pfaf_beta_vulgaris",
+        "src_wp_en_beetroot"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Rote Bete als natürlicher Lebensmittelfarbstoff: Betanin (E 162) wird aus der Knolle gewonnen und als Farbstoff für Joghurts, Säfte, Süßigkeiten und Fertiggerichte eingesetzt. In der Hausküche färbt frischer Rote-Bete-Saft oder -Püree Nudelteig, Brotteig und Glasuren intensiv dunkelrot bis violett. Der Farbstoff ist hitze- und pH-empfindlich — bei pH > 7 verblasst er und wird bei > 80 °C instabil.",
+        "en": "Beetroot as a natural food colourant: betanin (E 162) is extracted from the root and used as a colourant in yoghurts, juices, sweets and processed foods. In home cooking, fresh beetroot juice or puree dyes pasta dough, bread dough and glazes a deep red to violet. The pigment is heat- and pH-sensitive — it fades above pH 7 and becomes unstable above 80 °C."
+      },
+      "source_ids": [
+        "src_wp_de_rote_bete",
+        "src_wp_en_beetroot",
+        "src_wikidata_beta_vulgaris"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Traditionell gilt Rote Bete in der Volksmedizin als blutreinigendes und leberstärkendes Gemüse. Einige kleinere Studien deuten auf hepatoprotektive Wirkungen der Betalaine hin (antioxidativer Schutz der Leberzellen), jedoch fehlt robuste klinische Evidenz. Die Anwendung als Nahrungsmittel in der Volksmedizin ist dokumentiert und entspricht dem folk-Evidenzlevel.",
+        "en": "Traditionally in folk medicine, beetroot is considered a blood-purifying and liver-strengthening vegetable. Some smaller studies suggest hepatoprotective effects of betalains (antioxidant protection of liver cells), but robust clinical evidence is lacking. The use as a food in folk medicine is documented and corresponds to the folk evidence level."
+      },
+      "source_ids": [
+        "src_pfaf_beta_vulgaris",
+        "src_wp_de_rote_bete"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "harvest_part": {
+      "de": "Knolle (Sommer-Herbst)",
+      "en": "root (summer-autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Rote Bete ist ein normales Lebensmittel und für die meisten Menschen unbedenklich. Beeturie (rote oder rosafarbene Färbung von Urin und Stuhl nach dem Verzehr) tritt bei ca. 10–14 % der Bevölkerung auf und ist vollständig harmlos — kein Blut, keine Krankheit. Rote Bete enthält moderate bis hohe Mengen an Oxalsäure: Personen mit Calcium-Oxalat-Nierensteinen sollten den Konsum einschränken und ausreichend Wasser trinken. Der hohe Nitratgehalt ist für Gesunde unbedenklich; in sehr großen Mengen täglich (> 500 ml Saft) ist eine Interaktion mit blutdrucksenkenden Medikamenten möglich.",
+      "en": "Beetroot is a normal food and safe for most people. Beeturia (red or pink colouring of urine and stool after consumption) occurs in approx. 10–14 % of the population and is completely harmless — not blood, not a disease. Beetroot contains moderate to high amounts of oxalic acid: people prone to calcium oxalate kidney stones should limit intake and drink adequate water. The high nitrate content is safe for healthy individuals; in very large daily amounts (> 500 ml juice), an interaction with antihypertensive medications is possible."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Als Nahrungsmittel in normalen Mengen unbedenklich in Schwangerschaft und Stillzeit. Der hohe Folatgehalt ist in der Frühschwangerschaft sogar besonders wertvoll (Neuralrohrprophylaxe). Sehr große Mengen Rote-Bete-Saft sind wegen des Nitratgehalts nicht erforderlich.",
+        "en": "Safe in pregnancy and lactation as a food in normal amounts. The high folate content is particularly valuable in early pregnancy (neural tube prevention). Very large amounts of beetroot juice are not necessary and should not be encouraged due to nitrate content."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Als Lebensmittel in normalen Mengen unbedenklich. Betalaine können die Muttermilch gelegentlich leicht rosa färben — harmlos.",
+        "en": "Safe as a food in normal amounts during breastfeeding. Betalains may occasionally tint breast milk slightly pink — harmless."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Als Lebensmittel für Kinder ab Beikostalter geeignet. Beeturie kann Eltern erschrecken — aufklären, dass Urinverfärbung harmlos ist. Rote-Bete-Saft in großen Mengen wegen Nitratgehalt bei Säuglingen unter 6 Monaten meiden (Methämoglobinämie-Risiko wie bei allen nitrathaltigen Gemüsen).",
+        "en": "Suitable as food for children from weaning age. Beeturia may alarm parents — explain that urine discolouration is harmless. Avoid large amounts of beetroot juice in infants under 6 months due to nitrate content (methaemoglobinaemia risk, as with all nitrate-rich vegetables)."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antihypertensiva (ACE-Hemmer, Betablocker, Calciumantagonisten, Diuretika)",
+        "mechanism": {
+          "de": "Rote-Bete-Saft in großen Mengen (> 200–500 ml täglich) senkt über den Nitrat-Nitrit-NO-Weg den systolischen Blutdruck um 3–10 mmHg. Bei gleichzeitiger Einnahme blutdrucksenkender Medikamente additiver Effekt möglich — Blutdruck beobachten. Bei normalen Mengen als Gemüse klinisch nicht relevant.",
+          "en": "Beetroot juice in large amounts (> 200–500 ml daily) reduces systolic blood pressure by 3–10 mmHg via the nitrate-nitrite-NO pathway. An additive effect is possible when combined with antihypertensive medication — monitor blood pressure. Clinically irrelevant at normal food amounts."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Sildenafil, Tadalafil, Vardenafil (PDE-5-Hemmer)",
+        "mechanism": {
+          "de": "PDE-5-Hemmer verstärken die NO-vermittelte Vasodilatation. Großmengen Rote-Bete-Saft als zusätzliche NO-Quelle könnten die blutdrucksenkende Wirkung potenzieren. Klinische Daten fehlen; bei normalen Nahrungsmengen kein Risiko.",
+          "en": "PDE-5 inhibitors potentiate NO-mediated vasodilation. Large amounts of beetroot juice as an additional NO source could potentiate the blood pressure lowering effect. Clinical data are lacking; no risk at normal food amounts."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Beta-Rüben oder anderen Amaranthaceae (selten).",
+        "en": "Known hypersensitivity to beet or other Amaranthaceae (rare)."
+      },
+      {
+        "de": "Calcium-Oxalat-Nierensteine (Urolithiasis): Rote Bete enthält Oxalsäure — Konsum einschränken, nicht eliminieren; ausreichend Wasser trinken.",
+        "en": "Calcium oxalate kidney stones (urolithiasis): Beetroot contains oxalic acid — restrict rather than eliminate; drink adequate water."
+      },
+      {
+        "de": "Säuglinge unter 6 Monaten: Rote-Bete-Saft wegen Methämoglobinämie-Risiko durch Nitrat meiden.",
+        "en": "Infants under 6 months: avoid beetroot juice due to methaemoglobinaemia risk from nitrate."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Rote Bete (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Rote_Bete",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Beetroot (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Beetroot",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_usda_fooddata",
+      "type": "monograph",
+      "title": "USDA FoodData Central — Beets, raw (FDC ID: 169145)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/169145/nutrients",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_efsa_nitrate_opinion",
+      "type": "monograph",
+      "title": "EFSA Panel on Contaminants in the Food Chain (CONTAM) — Scientific Opinion on Nitrates in Vegetables, EFSA Journal 2008;6(6):689",
+      "url": "https://doi.org/10.2903/j.efsa.2008.689",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_rct_nitrate_exercise_lansley2011",
+      "type": "monograph",
+      "title": "Lansley KE et al. — Dietary nitrate supplementation reduces the O2 cost of walking and running: a placebo-controlled study. J Appl Physiol. 2011;110(3):591–600. DOI: 10.1152/japplphysiol.01070.2010",
+      "url": "https://doi.org/10.1152/japplphysiol.01070.2010",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_beta_vulgaris",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Beta vulgaris conditiva database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Beta+vulgaris",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_rote_bete",
+      "type": "wikipedia",
+      "title": "Rote Bete (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Rote_Bete",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_beetroot",
+      "type": "wikipedia",
+      "title": "Beetroot (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Beetroot",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_beta_vulgaris",
+      "type": "wikidata",
+      "title": "Beta vulgaris (Wikidata Q14328)",
+      "url": "https://www.wikidata.org/wiki/Q14328",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "beta-vulgaris-conditiva.jpg",
+    "alt": {
+      "de": "Foto von Rote Bete",
+      "en": "Photo of Beetroot"
+    },
+    "license": "CC0",
+    "author": "Evan-Amos",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Beets-Bundle.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 4,
+        "end_month": 7
+      }
+    },
+    "harvest_window": {
+      "start_month": 7,
+      "end_month": 11
+    },
+    "days_to_harvest": 90,
+    "spacing_cm": 10,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-cepa",
+      "brassica-oleracea-capitata-alba",
+      "lactuca-sativa-capitata"
+    ],
+    "bad_partners": [],
+    "notes_de": "allium-cepa: Zwiebel hält Bete-Schädlinge fern.",
+    "notes_en": "allium-cepa: Onion deters beet pests.",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "vertical_low",
+    "root_loosener"
+  ],
+  "constituents": [
+    {
+      "name": "Betanin (Betalain-Hauptpigment, E 162)",
+      "category": "other",
+      "percent_range": "0,04–0,21 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Betanin ist das rote Betalain-Hauptpigment der Roten Bete und verantwortlich für die intensive dunkelrote Farbe. Es gehört zur Gruppe der Betacyanine (stickstoffhaltige Pigmente, strukturell verschieden von Anthocyanen). Antioxidativ in vitro; Bioverfügbarkeit variiert stark (Beeturie = Marker für Absorption). Hitze- und pH-empfindlich; als Lebensmittelfarbstoff E 162 zugelassen.",
+        "en": "Betanin is the main red betalain pigment of beetroot, responsible for the intense dark-red colour. It belongs to the betacyanins (nitrogen-containing pigments, structurally distinct from anthocyanins). Antioxidant in vitro; bioavailability varies widely (beeturia = absorption marker). Heat- and pH-sensitive; approved as food colourant E 162."
+      }
+    },
+    {
+      "name": "Vulgaxanthin I und II (gelbe Betalaine / Betaxanthine)",
+      "category": "other",
+      "percent_range": "0,01–0,06 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Gelbe Betaxanthine, die in der roten Knolle durch das dominante Betanin überdeckt werden, aber in gelben Rüben-Sorten (Golden Beet) die Hauptpigmente bilden. Antioxidativ; gemeinsam mit Betanin für den Gesamtbetalain-Antioxidantien-Score verantwortlich.",
+        "en": "Yellow betaxanthins masked in the red root by dominant betanin, but forming the main pigments in golden beet varieties. Antioxidant; together with betanin responsible for the overall betalain antioxidant score."
+      }
+    },
+    {
+      "name": "Anorganisches Nitrat (NO3-)",
+      "category": "mineral",
+      "percent_range": "1500–3000 mg/kg Frischgewicht",
+      "plant_part": "root",
+      "note": {
+        "de": "Rote Bete gehört zu den nitratreichsten Gemüsesorten überhaupt. Im Körper wird Nitrat bakteriell (Mundflora) zu Nitrit reduziert und anschließend enzymatisch zu Stickstoffmonoxid (NO) umgewandelt — dem wichtigsten endogenen Vasodilatator. Dieser Nitrat-Nitrit-NO-Weg erklärt die in klinischen Studien nachgewiesene blutdrucksenkende und leistungssteigernde Wirkung von Rote-Bete-Saft.",
+        "en": "Beetroot is among the most nitrate-rich vegetables available. In the body, nitrate is bacterially (oral flora) reduced to nitrite, then enzymatically converted to nitric oxide (NO) — the most important endogenous vasodilator. This nitrate-nitrite-NO pathway explains the blood-pressure-lowering and performance-enhancing effects of beetroot juice documented in clinical trials."
+      }
+    },
+    {
+      "name": "Folat (Vitamin B9)",
+      "category": "vitamin",
+      "percent_range": "109 µg/100 g (ca. 27 % des Tagesbedarfs)",
+      "plant_part": "root",
+      "note": {
+        "de": "Rote Bete ist eine der besten pflanzlichen Folatquellen. Folat ist essenziell für die DNA-Synthese, Zellteilung und Neuralrohrbildung in der Frühschwangerschaft. Durch Kochen werden 40–50 % des Folats abgebaut — rohe Zubereitung bevorzugen, wenn Folataufnahme im Vordergrund steht.",
+        "en": "Beetroot is one of the best plant folate sources. Folate is essential for DNA synthesis, cell division and neural tube formation in early pregnancy. Cooking degrades 40–50 % of folate — prefer raw preparation when folate intake is the priority."
+      }
+    },
+    {
+      "name": "Mangan",
+      "category": "mineral",
+      "percent_range": "0,33 mg/100 g (ca. 14 % des Tagesbedarfs)",
+      "plant_part": "root",
+      "note": {
+        "de": "Mangan ist Cofaktor zahlreicher Enzyme (Superoxiddismutase, Pyruvatcarboxylase) und für Knochenaufbau, Wundheilung und Kohlenhydratstoffwechsel relevant. Rote Bete zählt zu den manganreichen Gemüsesorten.",
+        "en": "Manganese is a cofactor of numerous enzymes (superoxide dismutase, pyruvate carboxylase) and relevant for bone formation, wound healing and carbohydrate metabolism. Beetroot is among the manganese-rich vegetables."
+      }
+    },
+    {
+      "name": "Kalium",
+      "category": "mineral",
+      "percent_range": "325 mg/100 g (ca. 7 % des Tagesbedarfs)",
+      "plant_part": "root",
+      "note": {
+        "de": "Kalium unterstützt die Regulation des Blutdrucks (Gegengewicht zu Natrium) und die Herzmuskel- und Skelettmuskelfunktion. Der Kaliumgehalt ergänzt den blutdruckmodulierenden Effekt des Nitrats in Rote-Bete-Saft.",
+        "en": "Potassium supports blood pressure regulation (counterbalancing sodium) and heart and skeletal muscle function. The potassium content complements the blood-pressure-modulating effect of nitrate in beetroot juice."
+      }
+    },
+    {
+      "name": "Ballaststoffe (Dietary Fibre)",
+      "category": "polysaccharide",
+      "percent_range": "2,8 g/100 g",
+      "plant_part": "root",
+      "note": {
+        "de": "Rote Bete enthält eine Mischung aus löslichen (Pektin) und unlöslichen Ballaststoffen. Sie fördern die Darmtätigkeit, verlängern das Sättigungsgefühl und unterstützen eine gesunde Darmflora. Die Blätter (Beet-Tops) enthalten noch mehr Ballaststoffe als die Knolle.",
+        "en": "Beetroot contains a mix of soluble (pectin) and insoluble fibre. They support bowel motility, prolong satiety and help maintain a healthy gut flora. The leaves (beet tops) contain even more fibre than the root."
+      }
+    },
+    {
+      "name": "Natürliche Zucker (Saccharose, Glucose, Fructose)",
+      "category": "other",
+      "percent_range": "6,8–10 g/100 g Gesamtzucker",
+      "plant_part": "root",
+      "note": {
+        "de": "Rote Bete ist von Natur aus süß — Saccharose dominiert (industriell verwandtes Zuckerrüben-Verwandter). Der glykämische Index liegt bei ca. 61 (frisch gekocht), der glykämische Load jedoch bei nur ca. 5, da der Wasseranteil hoch ist. Diabetiker können Rote Bete in normalen Mengen problemlos verzehren.",
+        "en": "Beetroot is naturally sweet — sucrose dominates (closely related to the industrial sugar beet). Glycaemic index approx. 61 (freshly cooked), but glycaemic load only approx. 5 due to high water content. Diabetics can eat beetroot in normal amounts without issue."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Den ganzen Tag über möglich — kein optimales Tageszeitfenster wie bei arzneilichen Kräutern. Am besten in trockenem Wetter ernten, damit die Erde besser abfällt.",
+        "en": "Harvesting is possible throughout the day — there is no optimal time window as with medicinal herbs. Best in dry weather so soil falls off more easily."
+      },
+      "drying": {
+        "de": "Im Garten: Rote Bete bei Knollendiameter von 5–10 cm ernten (kleinere Knollen = zarter, süßer). Lockerungsgabel einstechen, Knolle herausziehen, Laub auf ca. 3–5 cm kürzen (nicht ganz abschneiden, sonst bricht die Schale und die Bete 'blutet' aus). Lagerung: kühl (0–4 °C), dunkel, leicht feucht (Keller, Sand- oder Holzkiste). Haltbarkeit: 3–5 Monate. Im Kühlschrank (Gemüsefach) ca. 2–3 Wochen. NICHT zusammen mit Äpfeln oder Birnen lagern (Ethylen beschleunigt Welken).",
+        "en": "In the garden: harvest beetroot when root diameter is 5–10 cm (smaller roots = more tender and sweet). Use a fork to loosen, pull out the root, trim leaves to 3–5 cm (do not cut flush — the skin will break and the beet will 'bleed'). Storage: cool (0–4 °C), dark, slightly moist (cellar, sand or wooden box). Shelf life 3–5 months. In the refrigerator (vegetable drawer) approx. 2–3 weeks. Do NOT store with apples or pears (ethylene accelerates wilting)."
+      },
+      "storage_months": 5,
+      "storage_condition": {
+        "de": "Kühl (0–4 °C), dunkel, leicht feucht, in Sand oder Kiste. Nicht neben Ethylen-Produzenten (Äpfel, Birnen) lagern.",
+        "en": "Cool (0–4 °C), dark, slightly moist, in sand or wooden box. Do not store near ethylene producers (apples, pears)."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Junge Blätter am frühen Morgen oder späten Abend ernten, wenn die Pflanze weniger Hitze gestresst ist. Für Salat nur die zarten Innenblätter nehmen; ältere Außenblätter für Blanchieren oder Dünsten.",
+        "en": "Harvest young leaves in the early morning or late evening when the plant is less heat-stressed. For salad, take only the tender inner leaves; older outer leaves for blanching or steaming."
+      },
+      "drying": {
+        "de": "Rote-Bete-Blätter sofort nach der Ernte verarbeiten — nicht lagern (welken innerhalb weniger Stunden). Blattstiele sind mitessbar. Alternativ blanchieren und einfrieren (wie Spinat). Trocknen der Blätter ist unüblich und lohnt sich nicht.",
+        "en": "Process beetroot leaves immediately after harvest — do not store (they wilt within a few hours). Leaf stems are edible too. Alternatively blanch and freeze (like spinach). Drying the leaves is uncommon and not worthwhile."
+      },
+      "storage_condition": {
+        "de": "Sofort verarbeiten oder im Kühlschrank max. 1–2 Tage (in feuchtem Tuch eingeschlagen).",
+        "en": "Process immediately or refrigerate for max. 1–2 days wrapped in a damp cloth."
+      }
+    }
+  ]
+}

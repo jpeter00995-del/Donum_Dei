@@ -1,0 +1,48 @@
+---
+// === Permaculture Function Badge ===
+// Small pill badge that displays one PermacultureFunction with its emoji
+// and the localised label. Used in PlantDetail and the Permaculture pages.
+// (Kleines Badge zur Anzeige einer Permakultur-Funktion.)
+import { t } from '@/lib/i18n';
+import type { Locale, PermacultureFunction } from '@/lib/types';
+
+interface Props {
+  fn: PermacultureFunction;
+  locale: Locale;
+  /** Optional size tweak — `'sm'` keeps things compact in dense lists. */
+  size?: 'sm' | 'md';
+}
+
+const { fn, locale, size = 'md' } = Astro.props;
+
+// === 1. EMOJI-MAP — kanonische Zuordnung pro Funktion ===
+const EMOJI: Record<PermacultureFunction, string> = {
+  nitrogen_fixer: '🌱',
+  pest_repellent: '🐛',
+  ground_cover: '💧',
+  pollinator_attractor: '🐝',
+  root_loosener: '🌿',
+  dynamic_accumulator: '⚡',
+  vertical_high: '⬆️',
+  vertical_mid: '➡️',
+  vertical_low: '⬇️',
+  shade_provider: '☂️',
+  aromatic_repellent: '🌬️',
+  edible_flower: '🌼',
+  medicinal: '💊',
+  microclimate: '🌡️',
+};
+
+const label = t(locale, `permaculture_functions.${fn}`);
+const emoji = EMOJI[fn];
+const padding = size === 'sm' ? 'px-2 py-0.5 text-xs' : 'px-2.5 py-1 text-sm';
+---
+
+<span
+  class={`inline-flex items-center gap-1 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 font-medium ${padding}`}
+  aria-label={label}
+  title={label}
+>
+  <span aria-hidden="true">{emoji}</span>
+  <span>{label}</span>
+</span>

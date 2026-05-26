@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "source_notes": "USDA Plant Hardiness Zone definitions adapted for the DACH+SEE region (Germany, Austria, Switzerland, Bulgaria) used by the v1.0 Selbstversorger garden planner. Temperature ranges follow the official USDA half-zone definitions; regional adaptations cross-check against national meteorological services. (USDA-Klimazonen-Definitionen, angepasst an DACH+SEE; Temperaturbereiche nach offizieller USDA-Halbzonen-Definition.)",
+    "sources": [
+      "USDA Plant Hardiness Zone Map — https://planthardiness.ars.usda.gov/",
+      "Deutscher Wetterdienst (DWD) — climate normals for Germany (Klimadaten-Adaption Deutschland) — https://www.dwd.de/",
+      "Zentralanstalt für Meteorologie und Geodynamik (ZAMG) — climate atlas Austria (Klima-Atlas Österreich) — https://www.zamg.ac.at/",
+      "MeteoSwiss — climate normals Switzerland (Klima-Normwerte Schweiz) — https://www.meteoswiss.admin.ch/",
+      "National Institute of Meteorology and Hydrology (NIMH), Bulgaria — climate data (Klimadaten Bulgarien) — https://www.meteo.bg/"
+    ]
+  },
+  "zones": [
+    {
+      "zone": "5a",
+      "temp_range_celsius": { "min": -28.9, "max": -26.1 },
+      "description_de": "Sehr kalt: Hochlagen der Alpen und kontinentale Kältelöcher. Nur winterharte Stauden und alpine Gehölze.",
+      "description_en": "Very cold: high Alpine elevations and continental cold pockets. Only fully hardy perennials and alpine shrubs."
+    },
+    {
+      "zone": "5b",
+      "temp_range_celsius": { "min": -26.1, "max": -23.3 },
+      "description_de": "Kalt: Mittelgebirgslagen und Alpenvorland. Robuste Wintergemüse und winterharte Kräuter möglich.",
+      "description_en": "Cold: low-mountain ranges and Alpine foothills. Hardy winter vegetables and tough perennial herbs are feasible."
+    },
+    {
+      "zone": "6a",
+      "temp_range_celsius": { "min": -23.3, "max": -20.6 },
+      "description_de": "Mäßig kalt: typisch für viele Teile Bayerns, Österreich-Inneres und Mittelgebirge. Breites Spektrum winterharter Pflanzen.",
+      "description_en": "Moderately cold: typical for much of Bavaria, inner Austria and German low-mountain regions. Wide range of hardy plants thrives."
+    },
+    {
+      "zone": "6b",
+      "temp_range_celsius": { "min": -20.6, "max": -17.8 },
+      "description_de": "Mäßig: weite Teile Mittel- und Süddeutschlands, Schweizer Mittelland, Ost-Österreich. Klassischer Selbstversorger-Garten-Bereich.",
+      "description_en": "Moderate: large parts of central and southern Germany, Swiss Plateau, eastern Austria. Classic kitchen-garden territory."
+    },
+    {
+      "zone": "7a",
+      "temp_range_celsius": { "min": -17.8, "max": -15.0 },
+      "description_de": "Mild: Norddeutschland, Rheinebene, Wiener Becken, bulgarisches Binnenland. Mediterrane Kräuter überwintern mit etwas Schutz.",
+      "description_en": "Mild: northern Germany, Rhine plain, Vienna basin, inland Bulgaria. Mediterranean herbs overwinter with light protection."
+    },
+    {
+      "zone": "7b",
+      "temp_range_celsius": { "min": -15.0, "max": -12.2 },
+      "description_de": "Mild bis warm: westdeutsche Tieflagen, Burgenland, nördliche bulgarische Schwarzmeerküste. Längere Vegetationsperiode.",
+      "description_en": "Mild to warm: western German lowlands, Burgenland, northern Bulgarian Black Sea coast. Longer growing season."
+    },
+    {
+      "zone": "8a",
+      "temp_range_celsius": { "min": -12.2, "max": -9.4 },
+      "description_de": "Warm: Köln-Bonn, Oberrhein, Genfersee-Region, Plovdiv. Feigen und Granatapfel mit Winterschutz möglich.",
+      "description_en": "Warm: Cologne-Bonn, Upper Rhine, Lake Geneva region, Plovdiv. Figs and pomegranate possible with winter protection."
+    },
+    {
+      "zone": "8b",
+      "temp_range_celsius": { "min": -9.4, "max": -6.7 },
+      "description_de": "Sehr warm: südliche Weinanbau-Lagen, Tessin-Niederungen, bulgarische Schwarzmeerküste. Mediterranes Spektrum gut machbar.",
+      "description_en": "Very warm: southern wine-growing lowlands, lowland Ticino, Bulgarian Black Sea coast. Mediterranean range is realistic."
+    },
+    {
+      "zone": "9a",
+      "temp_range_celsius": { "min": -6.7, "max": -3.9 },
+      "description_de": "Sehr warm bis subtropisch: nur kleinste Gunstlagen im DACH+SEE-Raum (z.B. tiefes Tessin). Zitrus mit Schutz.",
+      "description_en": "Very warm to subtropical: only small favoured micro-locations in DACH+SEE (e.g. low Ticino). Citrus possible with protection."
+    },
+    {
+      "zone": "9b",
+      "temp_range_celsius": { "min": -3.9, "max": -1.1 },
+      "description_de": "Subtropisch: in DACH+SEE praktisch nur als künstliche Gunstlage (Gewächshaus, südliche Mauer). Selten in Außenflächen.",
+      "description_en": "Subtropical: in DACH+SEE essentially only as engineered micro-climate (greenhouse, south-facing wall). Rarely encountered outdoors."
+    }
+  ]
+}

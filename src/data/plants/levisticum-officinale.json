@@ -1,0 +1,645 @@
+{
+  "slug": "levisticum-officinale",
+  "names": {
+    "de": "Liebstöckel",
+    "en": "Lovage",
+    "latin": "Levisticum officinale"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Liebstöckel bzw. Garten-Liebstöckel ist eine Pflanzenart aus der Gattung Levisticum innerhalb der Familie der Doldenblütler. Das Liebstöckel ist bekannt als Gewürz- und Volksheilpflanze.",
+    "en": "Lovage is a perennial plant, the sole species in the genus Levisticum in the family Apiaceae, subfamily Apioideae. It is native to Afghanistan and Iran."
+  },
+  "teaser": {
+    "de": "Liebstöckel bzw.",
+    "en": "Lovage is a perennial plant, the sole species in the genus Levisticum in the family Apiaceae, subfamily Apioideae."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "AUFGUSS (Kommission E / EMA-Standardanwendung): 2–3 g (ca. 1 TL) grob zerkleinerte, getrocknete Liebstöckelwurzel (Radix Levistici) mit 250 ml siedendem Wasser übergießen, zugedeckt 15 Minuten ziehen lassen, dann abseihen. 3× täglich frisch zubereitet trinken, jeweils zu oder zwischen den Mahlzeiten. Reichlich Flüssigkeit trinken (mind. 1,5–2 l täglich) — Spültherapie setzt ausreichende Diurese voraus. INDIKATION (Kommission E positiv, EMA traditional use): Durchspülungstherapie der ableitenden Harnwege bei leichten Harnwegsbeschwerden; unterstützend zur Vorbeugung von Harngrieß. KONTRAINDIKATION: Nierenerkrankungen mit Ödembildung, Herzinsuffizienz mit Flüssigkeitsretention — Spültherapie dann nicht anwendbar. Anwendungsdauer ohne ärztliche Kontrolle max. 4 Wochen.",
+          "en": "INFUSION (Kommission E / EMA standard use): 2–3 g (approx. 1 tsp) of coarsely cut, dried lovage root (Radix Levistici) in 250 ml boiling water, covered, steep 15 min, strain. Drink 3× daily, fresh, at or between meals. Drink plenty of fluid (min. 1.5–2 l/day) — irrigation therapy requires adequate diuresis. INDICATION (Kommission E positive, EMA traditional use): irrigation therapy of the efferent urinary tract for mild urinary complaints; adjunctive prevention of urinary gravel. CONTRAINDICATION: kidney diseases with oedema formation, cardiac insufficiency with fluid retention — irrigation therapy is then not applicable. Self-medication for max. 4 weeks without medical supervision."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Laut EMA/HMPC nur für Erwachsene — keine ausreichenden Daten für Kinder und Jugendliche unter 18 Jahren.",
+          "en": "Per EMA/HMPC for adults only — insufficient data for children and adolescents under 18."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Liebstöckelwurzel-Tee zur Durchspülungstherapie bei leichten Harnwegsbeschwerden und zur Vorbeugung von Harngrieß — positiv bewertet durch Kommission E und EMA.",
+        "en": "Traditional lovage root tea for irrigation therapy of mild urinary tract complaints and prevention of urinary gravel — positively assessed by Kommission E and EMA."
+      },
+      "source_ids": [
+        "src_ema_levistici_radix",
+        "src_kommission_e_levisticum",
+        "src_escop_levistici_radix"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "urinary",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (Droge-Auszug-Verhältnis 1:5 in 60–70 % Ethanol): 1–2 ml (~20–40 Tropfen) 3× täglich, in etwas Wasser verdünnt, zu den Mahlzeiten einnehmen. Gleichzeitig reichlich Flüssigkeit trinken (mind. 1,5–2 l täglich) — Spülungseffekt setzt ausreichende Harnerzeugung voraus. Traditionelle Anwendung bei krampfartigen Beschwerden im Harntrakt und dyspeptischen Beschwerden (Blähungen, Völlegefühl). Nicht in Schwangerschaft oder bei entzündeten Nieren anwenden. Wegen Ethanolgehalt nicht bei Alkoholerkrankung oder Leberkrankheit.",
+          "en": "TINCTURE (DER 1:5 in 60–70 % ethanol): 1–2 ml (~20–40 drops) 3× daily, diluted in water, with meals. Drink plenty of fluid concurrently (min. 1.5–2 l/day) — irrigation effect requires adequate urine output. Traditional use for spasmodic urinary tract complaints and dyspeptic complaints (flatulence, bloating). Not for use in pregnancy or with inflamed kidneys. Due to ethanol content, not for alcohol dependence or liver disease."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur Erwachsene. Ethanolgehalt schließt Kinder, Schwangere, Leberkranke und Personen mit Alkoholproblematik aus.",
+          "en": "Adults only. Ethanol content excludes children, pregnant women, those with liver disease and those with alcohol dependency."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Liebstöckelwurzel-Tinktur bei leichten Harnwegsbeschwerden und dyspeptischen Störungen — Alternative zum Aufguss bei toleriertem Ethanolanteil.",
+        "en": "Traditional lovage root tincture for mild urinary tract and dyspeptic complaints — alternative to the infusion when ethanol is acceptable."
+      },
+      "source_ids": [
+        "src_escop_levistici_radix",
+        "src_wichtl_teedrogen",
+        "src_ema_levistici_radix"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 3
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "VERDAUUNGSTEE: 1,5–3 g getrocknete Liebstöckelwurzel mit 200 ml siedendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen. 3× täglich, je 1 Tasse nach den Mahlzeiten. Traditionelle Anwendung bei Verdauungsbeschwerden mit Blähungen, Völlegefühl und krampfartigen Magen-Darm-Beschwerden (dyspeptisches Syndrom). Bitterstoffe und ätherisches Öl regen die Magen-Gallesekrete an und wirken spasmolytisch. Bei anhaltenden Beschwerden über 3 Wochen: ärztliche Abklärung.",
+          "en": "DIGESTIVE TEA: 1.5–3 g dried lovage root in 200 ml boiling water, covered, steep 10 min, strain. 3× daily, 1 cup after meals. Traditional use for digestive complaints with flatulence, bloating and spasmodic gastrointestinal discomfort (dyspeptic syndrome). Bitter compounds and essential oil stimulate gastric and biliary secretions and exert spasmolytic action. Persistent complaints over 3 weeks: seek medical evaluation."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Liebstöckelwurzel-Tee bei dyspeptischen Beschwerden — Bitterstoff- und Ätherischöl-Wirkung fördert die Verdauung und löst Krämpfe.",
+        "en": "Traditional lovage root tea for dyspeptic complaints — bitter compound and essential oil activity supports digestion and relieves spasms."
+      },
+      "source_ids": [
+        "src_kommission_e_levisticum",
+        "src_wichtl_teedrogen",
+        "src_escop_levistici_radix"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "skin",
+        "circulation"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 50,
+          "max": 100
+        },
+        "water_ml": 1000,
+        "steep_min": 20,
+        "doses_per_day": 1,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "FUSS- ODER TEILBAD: 50–100 g getrocknete Liebstöckelwurzel mit 1 l Wasser kalt ansetzen, zum Kochen bringen, 20 Minuten köcheln lassen, abseihen und dem Badewasser zufügen (Badewasser ca. 36–38 °C). Volksheilkundlich angewendet bei müden, schweren Beinen, schlechter Durchblutung der Füße und als schweißtreibendes Fußbad (Schweißfüße, Erkältung). Bad max. 20 Minuten; anschließend warmhalten. ACHTUNG: Furanocumarine im ätherischen Öl können bei äußerlicher Anwendung in Verbindung mit starker UV-Bestrahlung phototoxische Reaktionen der Haut auslösen — nach dem Bad direkte Sonneneinstrahlung auf behandelte Hautpartien für mind. 12 Stunden meiden.",
+          "en": "FOOT OR PARTIAL BATH: 50–100 g dried lovage root, place in 1 l cold water, bring to boil, simmer 20 min, strain and add to bath water (approx. 36–38 °C). Folk use for tired, heavy legs, poor circulation in the feet, and as a diaphoretic foot bath (sweaty feet, cold). Max. 20 min bath; keep warm afterwards. CAUTION: furanocoumarins in the essential oil can cause phototoxic skin reactions when combined with strong UV exposure — avoid direct sunlight on treated skin areas for at least 12 hours after the bath."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliches Liebstöckel-Bad bei müden Beinen und Durchblutungsstörungen — Achtung vor phototoxischem Risiko durch Furanocumarine nach Sonnenlicht.",
+        "en": "Folk lovage bath for tired legs and circulatory complaints — caution: phototoxic risk from furanocoumarins after sun exposure."
+      },
+      "source_ids": [
+        "src_pfaf_levisticum",
+        "src_wichtl_teedrogen",
+        "src_wp_de_levisticum"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "KÜCHE / MAGGIKRAUT: Frische oder getrocknete Liebstöckelblätter werden in kleinen Mengen als intensives Würzkraut für Suppen, Eintöpfe, Kartoffelgerichte, Eierspeisen und Pilzgerichte verwendet. Der aromatische Geruch und Geschmack erinnert stark an Maggi-Würze (daher Volksname 'Maggikraut') und an Sellerie. Frische Blätter fein gehackt zu Salaten, Salatdressings, Kräuterbutter. Die langen Blattstiele können wie Sellerie gebraten oder gedünstet werden. Getrocknete Blätter verlieren viel Aroma — frische Verwendung bevorzugen oder einfrieren. DOSIERUNG: Sparsam verwenden — Aroma ist sehr intensiv, 1–2 frische Blätter pro Portion ausreichend.",
+          "en": "KITCHEN / MAGGI HERB: Fresh or dried lovage leaves are used in small quantities as an intensely flavoured herb for soups, stews, potato dishes, egg dishes and mushroom preparations. The aromatic smell and flavour strongly resembles Maggi seasoning (hence the German folk name 'Maggikraut') and celery. Fresh leaves, finely chopped, work well in salads, dressings and herb butter. The long leaf stalks may be braised or steamed like celery. Dried leaves lose much aroma — prefer fresh use or freeze. DOSAGE: Use sparingly — the aroma is very intense; 1–2 fresh leaves per portion is sufficient."
+        }
+      },
+      "description": {
+        "de": "Liebstöckelblatt als Küchenkraut ('Maggikraut') — hocharomatisches Gewürz für Suppen, Eintöpfe und Salate mit sellerie-ähnlichem Intensivgeschmack.",
+        "en": "Lovage leaf as a culinary herb ('Maggi herb') — intensely aromatic spice for soups, stews and salads with a celery-like flavour."
+      },
+      "source_ids": [
+        "src_wp_de_levisticum",
+        "src_wp_en_lovage",
+        "src_pfaf_levisticum"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "SAMEN ALS GEWÜRZ: Die getrockneten Liebstöckel-Früchte (Doppelachänen, im Volksmund 'Samen') werden wie Fenchel- oder Kümmelsamen verwendet: ganzer Samen in Brot, Gebäck und Käsegerichten eingebacken; gemahlen in Gewürzmischungen, über Salate oder in Suppen. Aroma ähnelt Sellerie und Liebstöckelblatt, intensiver und wärmer. Kleine Menge reicht (1/2 TL gemahlen pro Gericht). Volksheilkundlich galten die Samen auch als blähungstreibend und magenstärkend.",
+          "en": "SEEDS AS SPICE: Dried lovage fruits (double achenes, colloquially 'seeds') are used like fennel or caraway seeds: whole seeds baked into bread, pastries and cheese dishes; ground in spice blends, sprinkled over salads or added to soups. Flavour resembles celery and lovage leaf, more intense and warm. A small amount suffices (½ tsp ground per dish). Folk tradition also attributed flatulence-relieving and stomach-strengthening properties to the seeds."
+        }
+      },
+      "description": {
+        "de": "Liebstöckelsamen als Gewürzdroge — intensiv-aromatisches Backaroma, blähungswidrig und magenstärkend in der Volksheilkunde.",
+        "en": "Lovage seeds as a spice — intensely aromatic baking flavour, traditional use as a carminative and digestive tonic."
+      },
+      "source_ids": [
+        "src_pfaf_levisticum",
+        "src_wp_en_lovage",
+        "src_wichtl_teedrogen"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "menstrual",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "VOLKSHEILKUNDLICHER FRAUENTEE: 1–2 g getrocknete Liebstöckelwurzel mit 200 ml kochendem Wasser überbrühen, 10 Minuten zugedeckt ziehen, abseihen. 2× täglich, max. 14 Tage. Volksmedizinisch eingesetzt bei Menstruationsbeschwerden (Dysmenorrhö, ausbleibende Regelblutung). ACHTUNG: Emmenagoge Wirkung (menstruationsfördernd) — daher in Schwangerschaft absolut KONTRAINDIZIERT. Bei Fertilitätswunsch Arzt konsultieren. Keine wissenschaftliche Bestätigung der menstruationsfördernden Wirkung; ausschließlich volksmedizinische Überlieferung.",
+          "en": "FOLK WOMEN'S TEA: 1–2 g dried lovage root in 200 ml boiling water, covered, steep 10 min, strain. 2× daily, max. 14 days. Traditionally used for menstrual complaints (dysmenorrhoea, delayed menstruation). CAUTION: emmenagogue action (stimulates menstruation) — therefore absolutely CONTRAINDICATED in pregnancy. Consult a doctor if trying to conceive. No scientific confirmation of menstruation-promoting effect; folk tradition only."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Anwendung der Liebstöckelwurzel bei Dysmenorrhö — emmenagoge Wirkung überliefert; absolut kontraindiziert in Schwangerschaft.",
+        "en": "Folk use of lovage root for dysmenorrhoea — emmenagogue action recorded in tradition; absolutely contraindicated in pregnancy."
+      },
+      "source_ids": [
+        "src_pfaf_levisticum",
+        "src_madaus_levisticum",
+        "src_wp_de_levisticum"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "urinary",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "ÄTHERISCHES ÖL (nur unter fachkundiger Anleitung): Das durch Wasserdampfdestillation der Wurzel gewonnene ätherische Öl von Levisticum officinale enthält als Hauptkomponenten Phthalide (Ligustilid, Butylidenphthalid, E-Butylidenphthalid), Terpenkohlenwasserstoffe und Furanocumarine. Es findet Verwendung als natürliches Aromamittel in Lebensmitteln (FEMA GRAS) und in der Parfümerie. Als Phytotherapeutikum NUR in standardisierter Form und nach ärztlicher Verordnung, da isoliertes ätherisches Öl konzentrierte Furanocumarine enthält — phototoxisches Risiko und Haut-/Schleimhautreizung bei Überdosierung. Nicht unverdünnt auf die Haut auftragen.",
+          "en": "ESSENTIAL OIL (only under expert guidance): The essential oil obtained by steam distillation of lovage root contains as main components phthalides (ligustilide, butylidenephthalide, E-butylidenephthalide), terpene hydrocarbons and furanocoumarins. It is used as a natural flavouring agent in food (FEMA GRAS) and in perfumery. As a phytotherapeutic, ONLY in standardised form and on medical prescription, as isolated essential oil contains concentrated furanocoumarins — phototoxic risk and skin/mucous membrane irritation with overdose. Do not apply undiluted to skin."
+        }
+      },
+      "description": {
+        "de": "Ätherisches Liebstöckelöl aus der Wurzel — Phthalid-Reich, diuretisch und spasmolytisch; phototoxisches Risiko durch Furanocumarine, nur unter Fachaufsicht.",
+        "en": "Lovage essential oil from root — phthalide-rich, diuretic and spasmolytic; phototoxic risk from furanocoumarins, use only under professional supervision."
+      },
+      "source_ids": [
+        "src_ema_levistici_radix",
+        "src_wichtl_teedrogen",
+        "src_escop_levistici_radix"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Wurzel (Herbst), Blätter, Samen",
+      "en": "root (autumn), leaves, seeds"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG — Liebstöckelwurzel bei Spültherapie: Reichlich Flüssigkeit trinken (min. 1,5–2 l täglich). KONTRAINDIKATION Spültherapie: Nierenerkrankungen jeder Art sowie Herzinsuffizienz mit Ödemneigung — Spülungstherapie verstärkt die Flüssigkeitslast und ist in diesen Fällen verboten. Entzündliche Nierenerkrankungen (Nephritis, Glomerulonephritis, Pyelonephritis): Liebstöckelwurzel NICHT anwenden — das ätherische Öl kann die Nierenentzündung verschlimmern. Furanocumarine: Liebstöckel-Zubereitungen (besonders Frischpflanzensaft und ätherisches Öl) enthalten Furanocumarine (z. B. Psoralen, Bergapten), die bei Hautkontakt und anschließender UV-/Sonnenexposition phototoxische Reaktionen (Brennen, Blasen, Pigmentflecken) auslösen können. Intensiver Sonnenkontakt nach äußerlicher Anwendung für mind. 12–24 Stunden meiden. Selbstbehandlung bei stärkeren Harnwegsbeschwerden, Fieber, Rückenschmerzen oder Blut im Urin sofort beenden und Arzt aufsuchen — mögliche Niereninfektion. Anwendungsdauer ohne ärztliche Aufsicht auf 4 Wochen begrenzen.",
+      "en": "IMPORTANT — Lovage root in irrigation therapy: drink plenty of fluid (min. 1.5–2 l daily). CONTRAINDICATION for irrigation therapy: kidney disease of any kind and cardiac insufficiency with oedema tendency — irrigation therapy increases fluid load and is forbidden in these cases. Inflammatory kidney disease (nephritis, glomerulonephritis, pyelonephritis): do NOT use lovage root — the essential oil may worsen renal inflammation. Furanocoumarins: lovage preparations (especially fresh plant juice and essential oil) contain furanocoumarins (e.g. psoralen, bergapten) which can cause phototoxic reactions (burning, blistering, pigment spots) on skin contact followed by UV/sun exposure. Avoid intense sun exposure after external application for at least 12–24 hours. If urinary complaints worsen, fever, back pain or blood in urine occur during self-treatment, stop immediately and consult a doctor — possible kidney infection. Limit self-medication duration to 4 weeks without medical supervision."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Liebstöckelwurzel ist in der Schwangerschaft KONTRAINDIZIERT. Das ätherische Öl und die Furanocumarine können uterusstimulierend wirken (emmenagoge und potentiell abortive Wirkung der Wurzel ist überliefert). EMA/HMPC: nicht empfohlen in Schwangerschaft. Kulinarische Verwendung kleiner Blattmengen gilt als unbedenklich, aber therapeutische Dosen der Wurzel sind zu meiden.",
+        "en": "Lovage root is CONTRAINDICATED in pregnancy. The essential oil and furanocoumarins may have uterus-stimulating effects (emmenagogue and potentially abortive action of the root is recorded in tradition). EMA/HMPC: not recommended in pregnancy. Culinary use of small amounts of leaf is considered safe, but therapeutic doses of the root must be avoided."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Wegen fehlender Sicherheitsdaten laut EMA/HMPC während der Stillzeit nicht empfohlen. Ätherisches Öl kann in die Muttermilch übergehen. Kulinarische Verwendung kleiner Blattmengen gilt als unbedenklich.",
+        "en": "Due to lack of safety data, not recommended during lactation per EMA/HMPC. Essential oil constituents may pass into breast milk. Culinary use of small amounts of leaf is considered safe."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Therapeutische Zubereitungen aus Liebstöckelwurzel (Tee, Tinktur) laut EMA/HMPC nicht für Kinder und Jugendliche unter 18 Jahren empfohlen — keine ausreichenden Sicherheitsdaten. Kulinarische Verwendung des Blattes (wenig Maggikraut in Suppen) gilt als unbedenklich.",
+        "en": "Therapeutic preparations from lovage root (tea, tincture) are not recommended for children and adolescents under 18 years per EMA/HMPC — insufficient safety data. Culinary use of the leaf (small amounts in soups) is considered safe."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Liebstöckel oder andere Doldenblütler (Apiaceae/Umbelliferae), insbesondere bei bekannter Apiaceae-Allergie (Kreuzreaktionen mit Sellerie, Karotte, Fenchel möglich).",
+        "en": "Hypersensitivity to lovage or other Apiaceae (Umbelliferae), especially if Apiaceae allergy is known (cross-reactions with celery, carrot, fennel possible)."
+      },
+      {
+        "de": "Nierenerkrankungen jeder Art (akute und chronische Nephritis, Glomerulonephritis, Niereninsuffizienz) — Spültherapie kontraindiziert, ätherisches Öl reizend auf Nierenparen­chym.",
+        "en": "Kidney disease of any kind (acute and chronic nephritis, glomerulonephritis, renal insufficiency) — irrigation therapy is contraindicated; essential oil is irritating to renal parenchyma."
+      },
+      {
+        "de": "Herzinsuffizienz und andere Erkrankungen mit pathologischer Flüssigkeitsretention (z. B. Leberödeme, nephrotisches Syndrom) — Spültherapie nicht anwendbar.",
+        "en": "Cardiac insufficiency and other conditions with pathological fluid retention (e.g. hepatic oedema, nephrotic syndrome) — irrigation therapy is not applicable."
+      },
+      {
+        "de": "Schwangerschaft — emmenagoge / potentiell abortive Wirkung der Wurzel; therapeutische Dosen absolut meiden.",
+        "en": "Pregnancy — emmenagogue / potentially abortive action of the root; avoid therapeutic doses absolutely."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Diuretika (Schleifendiuretika, Thiazide, kaliumsparende Diuretika)",
+        "mechanism": {
+          "de": "Liebstöckelwurzel wirkt selbst harntreibend. Bei gleichzeitiger Einnahme synthetischer Diuretika additiver diuretischer Effekt möglich — erhöhtes Risiko von Elektrolytverlust (insbesondere Kalium) und Dehydratation. Blutdruck und Elektrolyte regelmäßig kontrollieren.",
+          "en": "Lovage root has diuretic action itself. When combined with synthetic diuretics, additive diuretic effect is possible — increased risk of electrolyte loss (especially potassium) and dehydration. Monitor blood pressure and electrolytes regularly."
+        },
+        "severity": "monitor",
+        "source_id": "src_ema_levistici_radix"
+      },
+      {
+        "drug_class": "Antikoagulanzien und Thrombozytenaggregationshemmer (Warfarin, Phenprocoumon, ASS, Clopidogrel)",
+        "mechanism": {
+          "de": "Furanocumarine aus Liebstöckel können theoretisch CYP2A6 und CYP3A4 hemmen und damit den Abbau von Cumarin-Antikoagulanzien verlangsamen — Risiko erhöhter Blutungsneigung. Klinische Relevanz bei therapeutischen Teemengen gering, aber bei Tinktur oder ätherischem Öl erhöht. INR-Kontrolle empfohlen.",
+          "en": "Furanocoumarins from lovage can theoretically inhibit CYP2A6 and CYP3A4, slowing metabolism of coumarin anticoagulants — risk of increased bleeding tendency. Clinical relevance is low at therapeutic tea amounts but increases with tincture or essential oil. INR monitoring recommended."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_levistici_radix"
+      },
+      {
+        "drug_class": "Photosensibilisierende Medikamente (Psoralene, Tetracycline, Chinolone, Amiodaron, bestimmte NSAIDs)",
+        "mechanism": {
+          "de": "Furanocumarine aus Liebstöckel sind selbst Photosensibilisatoren. Bei gleichzeitiger Einnahme anderer photosensibilisierender Arzneimittel additives Risiko phototoxischer Hautreaktionen (Verbrennungen, Blasenbildung, Hyperpigmentierung) nach UV-Exposition. Kombination möglichst meiden oder konsequent Sonnenexposition vermeiden.",
+          "en": "Furanocoumarins from lovage are themselves photosensitisers. When combined with other photosensitising drugs, additive risk of phototoxic skin reactions (burns, blistering, hyperpigmentation) after UV exposure. Avoid the combination if possible, or consistently avoid sun exposure."
+        },
+        "severity": "caution",
+        "source_id": "src_ema_levistici_radix"
+      },
+      {
+        "drug_class": "Lithium",
+        "mechanism": {
+          "de": "Diuretische Mittel können die renale Lithium-Clearance verändern und die Lithium-Plasmaspiegel erhöhen oder erniedrigen — Risiko von Lithiumtoxizität oder Wirkungsverlust. Bei Lithiumtherapie Liebstöckelwurzel nur unter ärztlicher Kontrolle und mit Lithiumspiegelkontrolle.",
+          "en": "Diuretic agents can alter renal lithium clearance, raising or lowering lithium plasma levels — risk of lithium toxicity or loss of effect. Combine lovage root with lithium therapy only under medical supervision with lithium level monitoring."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_levistici_radix"
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Liebstöckel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Liebst%C3%B6ckel",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Lovage (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Lovage",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_levistici_radix",
+      "type": "monograph",
+      "title": "EMA/HMPC/320433/2012 — European Union herbal monograph on Levisticum officinale W.D.J. Koch, radix (Final, 2012)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/levistici-radix",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_levisticum",
+      "type": "monograph",
+      "title": "Kommission E — Liebstöckelwurzel (Levistici radix), Monographie (positiv), BAnz Nr. 122, 1990",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/liebstoeckelwurzel.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_levistici_radix",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Levistici radix (Lovage Root), 2nd edition, Supplement 2009",
+      "url": "https://escop.com/downloads/levistici-radix/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_teedrogen",
+      "type": "book",
+      "title": "Wichtl, Max (Hrsg.) — Teedrogen und Phytopharmaka: Ein Handbuch für die Praxis, 5. Auflage, Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009",
+      "url": "https://www.wissenschaftliche.de/buecher/9783804724297",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_levisticum",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Levisticum officinale database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Levisticum+officinale",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_levisticum",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band II: Levisticum officinale (Liebstöckel), 1938 (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/levisticum.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_levisticum",
+      "type": "wikipedia",
+      "title": "Liebstöckel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Liebst%C3%B6ckel",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_lovage",
+      "type": "wikipedia",
+      "title": "Lovage (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Lovage",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_levisticum",
+      "type": "wikidata",
+      "title": "Wikidata — Levisticum officinale (Q455684)",
+      "url": "https://www.wikidata.org/wiki/Q455684",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_haensel_sticher",
+      "type": "book",
+      "title": "Hänsel, Rudolf / Sticher, Otto — Pharmakognosie – Phytopharmazie, 9. Auflage, Springer-Verlag Berlin Heidelberg, 2010",
+      "url": "https://link.springer.com/book/9783642007224",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "levisticum-officinale.jpg",
+    "alt": {
+      "de": "Foto von Liebstöckel",
+      "en": "Photo of Lovage"
+    },
+    "license": "Public domain",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Levisticum_officinale0.jpg"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "apium-graveolens",
+      "petroselinum-crispum"
+    ],
+    "bad_partners": [],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 4,
+        "end_month": 5
+      },
+      "transplant": {
+        "start_month": 4,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 5,
+      "end_month": 9
+    },
+    "days_to_harvest": 180,
+    "spacing_cm": 60,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "medicinal",
+    "vertical_high"
+  ],
+  "constituents": [
+    {
+      "name": "Phthalide (Ligustilid, Z-Butylidenphthalid, E-Butylidenphthalid, Z-Ligustilid)",
+      "category": "other",
+      "percent_range": "ca. 50-70 % des ätherischen Öls",
+      "plant_part": "root",
+      "note": {
+        "de": "Hauptkomponenten des ätherischen Öls der Wurzel; verantwortlich für den charakteristischen Sellerie-ähnlichen Geruch. Ligustilid (Z-Butylidenphthalid) ist die mengenmäßig dominierende Verbindung. Spasmolytische Wirkung auf die glatte Muskulatur (Harntrakt, Gastrointestinaltrakt) ist belegt. Gleichzeitig mild diuretisch. Flüchtig und hitzeempfindlich — Teeaufguss schonender als Abkochung.",
+        "en": "Main components of the essential oil of the root; responsible for the characteristic celery-like odour. Ligustilide (Z-butylidenephthalide) is the quantitatively dominant compound. Spasmolytic effect on smooth muscle (urinary tract, gastrointestinal tract) is documented. Mildly diuretic. Volatile and heat-sensitive — infusion is gentler than decoction."
+      }
+    },
+    {
+      "name": "Furanocumarine (Psoralen, Bergapten, Isopimpinellin, Xanthotoxin)",
+      "category": "other",
+      "percent_range": "0.06-0.14 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Phototoxische Verbindungen — interkalieren in DNA und aktivieren unter UV-Licht (UVA) reaktive Sauerstoffspezies, die zu Haut­schäden (Erythem, Blasen, Hyperpigmentierung) führen können. Erklären die Kontraphotermieanforderung nach äußerlicher Anwendung. Bergapten ist der mengenmäßig bedeutendste Vertreter in Liebstöckel. Auch in anderen Apiaceae vorhanden (Sellerie, Pastinake, Engelwurz).",
+        "en": "Phototoxic compounds — intercalate into DNA and, activated by UV light (UVA), generate reactive oxygen species causing skin damage (erythema, blistering, hyperpigmentation). Explain the photosun avoidance requirement after external application. Bergapten is the most abundant representative in lovage. Also present in other Apiaceae (celery, parsnip, angelica)."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Gesamtgehalt der Wurzel)",
+      "category": "essential_oil",
+      "percent_range": "0.6-1.0 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Gesamtgehalt an ätherischem Öl der getrockneten Wurzel. Dunkel- bis gelbbraune ölige Flüssigkeit mit intensivem, sellerie-artigem Aroma. Pharmakopöe-Standard (DAB, Ph.Eur.) verlangt mind. 4 ml/kg für Radix Levistici. Neben Phthaliden auch Terpenkohlenwasserstoffe (beta-Phellandren, alpha-Terpineol, Terpinen-4-ol) und Sesquiterpene als Begleitstoffe.",
+        "en": "Total essential oil content of the dried root. Dark to yellowish-brown oily liquid with intense, celery-like aroma. Pharmacopoeial standard (DAB, Ph.Eur.) requires minimum 4 ml/kg for Radix Levistici. In addition to phthalides, also terpene hydrocarbons (beta-phellandrene, alpha-terpineol, terpinen-4-ol) and sesquiterpenes as accompanying compounds."
+      }
+    },
+    {
+      "name": "Sesquiterpene (beta-Selinen, alpha-Selinen, Caryophyllen)",
+      "category": "sesquiterpene",
+      "percent_range": "5-15 % des ätherischen Öls",
+      "plant_part": "root",
+      "note": {
+        "de": "Sesquiterpene als Begleitstoffe im ätherischen Öl; tragen zur Gesamtaroma-Komplexität des Liebstöckels bei. Beta- und alpha-Selinen sind charakteristisch für Apiaceae-Pflanzen (Sellerie-Familie) und kommen auch in Sellerie vor. Caryophyllen besitzt mild entzündungshemmende Eigenschaften.",
+        "en": "Sesquiterpenes as accompanying compounds in the essential oil; contribute to the overall aromatic complexity of lovage. Beta- and alpha-selinene are characteristic of Apiaceae plants (celery family) and are also found in celery. Caryophyllene has mildly anti-inflammatory properties."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Kaffeesäure, Ferulasäure, Chlorogensäure)",
+      "category": "phenolic_acid",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Hydrophile phenolische Begleitstoffe im wässrigen Extrakt (Tee). Antioxidativ, mild entzündungshemmend. Ferulasäure hemmt in vitro die Thrombozytenaggregation. Tragen zur Gesamtwirkung des wässrigen Extrakts bei, ohne eigenständige phytotherapeutische Indikation.",
+        "en": "Hydrophilic phenolic accompanying compounds in the aqueous extract (tea). Antioxidant, mildly anti-inflammatory. Ferulic acid inhibits platelet aggregation in vitro. Contribute to the overall effect of the aqueous extract without an independent phytotherapeutic indication."
+      }
+    },
+    {
+      "name": "Stärke und Zuckerarten (Glucose, Fructose, Saccharose, Inulin-artige Fructooligosaccharide)",
+      "category": "polysaccharide",
+      "percent_range": "bis 26 % (Stärke + Zucker kombiniert)",
+      "plant_part": "root",
+      "note": {
+        "de": "Hauptspeicherstoffe der mehrjährigen Wurzel. Ältere Wurzeln akkumulieren mehr Stärke. Die Zuckerbestandteile erklären den leicht süßlichen Grundgeschmack der Wurzel neben dem intensiv-aromatischen ätherischen Öl. Keine spezifische pharmakologische Wirkung, aber ernährungsphysiologischer Kalorienbeitrag bei Verwendung als Gemüse.",
+        "en": "Main storage compounds of the perennial root. Older roots accumulate more starch. The sugar constituents explain the slightly sweet base note of the root alongside the intensely aromatic essential oil. No specific pharmacological effect, but nutritional caloric contribution when used as a vegetable."
+      }
+    },
+    {
+      "name": "Falcarinol und Falcarindiol (Polyacetylene)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "plant_part": "root",
+      "note": {
+        "de": "Langkettige Polyacetylenalkohole, charakteristisch für die Apiaceae-Familie. Kommen auch in Karotte, Petersilienwurzel und Sellerie vor. In vitro cytotoxische und antifungale Eigenschaften beschrieben; bei Nahrungsmengen pharmakologisch nicht relevant. Können als Kontaktallergene wirken (Kontaktdermatitis bei empfindlichen Personen).",
+        "en": "Long-chain polyacetylene alcohols characteristic of the Apiaceae family. Also found in carrot, parsley root and celery. Cytotoxic and antifungal properties described in vitro; pharmacologically not relevant at food intake amounts. Can act as contact allergens (contact dermatitis in sensitive individuals)."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin, Kämpferol, Isorhamnetin-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "0.05-0.2 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavonolverbindungen hauptsächlich im Blatt, weniger in der Wurzel. Mild antioxidativ und kapillarprotektiv. Quercetin-Glykoside sind weit verbreitet in Apiaceae-Blättern. Quercetin hemmt in vitro Entzündungsmediatoren (Lipoxygenase). Im Blatt höher konzentriert als in der Wurzel — beim Kulinarischen Einsatz relevanter als bei Wurzelanwendungen.",
+        "en": "Flavonol compounds mainly in the leaf, less in the root. Mildly antioxidant and capillary-protective. Quercetin glycosides are widespread in Apiaceae leaves. Quercetin inhibits inflammatory mediators (lipoxygenase) in vitro. Concentrated in the leaf more than the root — more relevant to culinary use than root applications."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Im Spätherbst (Oktober–November), wenn die oberirdischen Teile der mehrjährigen Pflanze abgestorben oder abgefroren sind und die Wurzel ihre Wirkstoffreserven (ätherisches Öl, Phthalide) vollständig angereichert hat. Trockene Tage bevorzugen — nasse Erde erschwert Reinigung und erhöht Schimmelrisiko beim Trocknen.",
+        "en": "In late autumn (October–November), when the above-ground parts of the perennial plant have died back or been frosted and the root has fully accumulated its constituent reserves (essential oil, phthalides). Prefer dry days — wet soil makes cleaning harder and increases mould risk during drying."
+      },
+      "drying": {
+        "de": "Wurzel ausgaben (Spaten/Grabgabel), Erde gut abschütteln, sorgfältig waschen und in 2–5 cm dicke Scheiben oder Längsspalten schneiden (beschleunigt Trocknung). Einlagig auf Gittern oder Sieben ausbreiten, Schatten oder Dörrgerät bei max. 40 °C; Trockendauer 4–8 Wochen bis zur Knochentrockenheit (Bruchprobe: Scheibe muss sauber brechen, nicht biegen). Regelmäßig wenden und auf Schimmel kontrollieren. ACHTUNG: Frischpflanzensaft kann phototoxische Hautreaktionen auslösen — beim Schneiden Handschuhe tragen und Sonnenexposition meiden.",
+        "en": "Dig up the root (spade/garden fork), shake off soil, wash thoroughly and slice into 2–5 cm discs or longitudinal sections (speeds drying). Spread in a single layer on racks or screens, in shade or dehydrator at max. 40 °C; drying period 4–8 weeks to bone-dry (break test: a disc must snap cleanly, not bend). Turn regularly and check for mould. CAUTION: fresh plant juice can cause phototoxic skin reactions — wear gloves when cutting and avoid sun exposure."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknete Wurzelscheiben in luftdichten dunklen Gläsern oder Blechdosen lagern, kühl, trocken und lichtgeschützt. Innerhalb eines Jahres aufbrauchen — ätherisches Öl verflüchtigt sich bei langer Lagerung. Regelmäßig am Geruch prüfen: nachlassender Sellerie-/Liebstöckelgeruch zeigt Qualitätsverlust an.",
+        "en": "Store dried root slices in airtight dark jars or tins, cool, dry and protected from light. Use within one year — essential oil evaporates with prolonged storage. Check regularly by smell: fading celery/lovage aroma indicates loss of quality."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Frische junge Blätter den ganzen Sommer über ernten, bevorzugt am Vormittag nach Tauabtrocknung (ca. 9–11 Uhr). Ätherisches Öl und Aroma am höchsten vor der Blüte (Mai–Juni). Blätter nach der Blüte werden zäher und bitterer. Beim Umgang mit der Pflanze Handschuhe tragen — Frischsaft enthält Furanocumarine (phototoxisch bei UV-Kontakt).",
+        "en": "Harvest fresh young leaves throughout the summer, preferably in the morning after dew has dried (approx. 9–11 am). Essential oil and aroma are highest before flowering (May–June). Leaves after flowering become tougher and more bitter. Wear gloves when handling the plant — fresh sap contains furanocoumarins (phototoxic on UV contact)."
+      },
+      "drying": {
+        "de": "Blätter frisch verwenden (beste Aromenerhaltung) oder einfrieren (Tiefkühlbeutel, gehackt, portioniert — kein Trocknen notwendig). Trocknung möglich, führt aber zu starkem Aromaverlust: einlagig auf Tüchern im Schatten bei max. 35 °C, 1–2 Wochen. Getrocknete Blätter verlieren bis zu 80 % des flüchtigen Aromas — für medizinische Anwendungen Wurzel bevorzugen.",
+        "en": "Use leaves fresh (best aroma retention) or freeze (freezer bags, chopped, portioned — drying unnecessary). Drying is possible but leads to significant aroma loss: single layer on cloth in shade at max. 35 °C, 1–2 weeks. Dried leaves lose up to 80 % of their volatile aroma — for medicinal applications prefer the root."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Frische Blätter im Kühlschrank max. 1 Woche haltbar. Eingefroren bis 12 Monate verwendbar. Getrocknete Blätter in dunklen, luftdichten Behältern kühl lagern; innerhalb 6 Monaten aufbrauchen (starker Aromaverlust).",
+        "en": "Fresh leaves keep in the refrigerator for max. 1 week. Frozen, usable for up to 12 months. Dried leaves: store in dark airtight containers, cool; use within 6 months (significant aroma loss)."
+      }
+    }
+  ]
+}

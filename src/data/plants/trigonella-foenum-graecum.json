@@ -1,0 +1,632 @@
+{
+  "slug": "trigonella-foenum-graecum",
+  "names": {
+    "de": "Bockshornklee",
+    "en": "Fenugreek",
+    "latin": "Trigonella foenum-graecum"
+  },
+  "family": {
+    "de": "Hülsenfrüchtler",
+    "en": "Legume family",
+    "latin": "Fabaceae"
+  },
+  "description": {
+    "de": "Der Bockshornklee, auch Griechisch Heu oder Griechischer Bockshornklee genannt, ist eine Pflanzenart aus der Gattung Trigonella in der Unterfamilie der Schmetterlingsblütler (Faboideae) innerhalb der Familie der Hülsenfrüchtler (Fabaceae). Er ist eng verwandt mit dem Schabzigerklee.",
+    "en": "Fenugreek is an annual plant in the family Fabaceae, with leaves consisting of three small obovate to oblong leaflets. It is cultivated worldwide as a semiarid crop. Its leaves and seeds are common ingredients in dishes from the Indian subcontinent, and have been used as a culinary ingredient since ancient times."
+  },
+  "teaser": {
+    "de": "Der Bockshornklee, auch Griechisch Heu oder Griechischer Bockshornklee genannt, ist eine Pflanzenart aus der Gattung ...",
+    "en": "Fenugreek is an annual plant in the family Fabaceae, with leaves consisting of three small obovate to oblong leaflets."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "appetite"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "SAMENAUFGUSS (Kommission E, interne Anwendung): 2–3 g grob gemahlene oder leicht zerquetschte Bockshornkleesamen mit 250 ml siedendem Wasser übergießen, zugedeckt 10–15 Minuten ziehen lassen, abseihen. 3× täglich frisch zubereitet vor den Mahlzeiten trinken. Tagesdosis 6–9 g Droge (Kommission E: 6 g täglich bei internem Gebrauch). Indikation: Appetitlosigkeit und unterstützend bei leichten gastrointestinalen Beschwerden. Bittere, ahornsirupartige Note durch Sotolon — geschmacklich intensiv, ggf. mit Honig mildern. Anwendungsdauer laut Kommission E auf 4 Wochen begrenzen; bei anhaltenden Beschwerden Arzt aufsuchen.",
+          "en": "SEED INFUSION (Kommission E, internal use): 2–3 g coarsely ground or lightly crushed fenugreek seeds in 250 ml boiling water, covered, steep 10–15 min, strain. 3× daily, freshly prepared, before meals. Daily dose 6–9 g (Kommission E: 6 g/day internally). Indication: loss of appetite and supportive treatment of mild gastrointestinal complaints. Bitter, maple-syrup-like flavour (sotolon) — intense taste, soften with honey if desired. Limit to 4 weeks per Kommission E; consult doctor if complaints persist."
+        }
+      },
+      "description": {
+        "de": "Kommission-E-positiv (intern): Bockshornkleesamen-Aufguss bei Appetitlosigkeit und leichten Verdauungsbeschwerden — schleimstoffreiche Droge mit bitteren und amaroiden Anteilen.",
+        "en": "Kommission E positive (internal): fenugreek seed infusion for loss of appetite and mild digestive complaints — mucilage-rich drug with bitter and amaroid components."
+      },
+      "source_ids": [
+        "src_kommission_e_trigonella",
+        "src_ema_hmpc_trigonella",
+        "src_escop_trigonella"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "joints",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "seed",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 30,
+          "max": 50
+        },
+        "water_ml": 500,
+        "steep_min": 5,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "SAMENBREI / UMSCHLAG (Kommission E, externe Anwendung): 30–50 g feines Bockshornkleemehl (Samen gemahlen) mit heißem Wasser zu einem dicken, gleichmäßigen Brei anrühren. Auf ca. 40–42 °C abkühlen lassen. Brei auf einem sauberen Leinentuch oder Mull großzügig ausstreichen, auf die betroffene Hautstelle (lokale Entzündung, Furunkel, Abszess in Abheilungsphase) legen, mit weiterem Tuch bedecken und 20–30 Minuten einwirken lassen. 2× täglich wiederholen. NICHT auf offene Wunden oder gereizte, empfindliche Haut auftragen. Haut nach Anwendung sorgfältig reinigen — Bockshornkleebrei färbt die Haut intensiv gelblich und hinterlässt den charakteristischen Sotolon-Geruch.",
+          "en": "SEED POULTICE / COMPRESS (Kommission E, external use): Mix 30–50 g fine fenugreek seed flour with hot water into a thick, smooth paste. Allow to cool to approx. 40–42 °C. Spread paste generously on clean linen or gauze, apply to the affected area (local inflammation, furuncles, abscesses in healing phase), cover with another cloth and leave on for 20–30 min. Repeat 2× daily. Do NOT apply to open wounds or sensitive/irritated skin. Clean skin thoroughly after use — fenugreek paste stains skin yellow and leaves characteristic sotolon scent."
+        }
+      },
+      "description": {
+        "de": "Kommission-E-positiv (extern): Bockshornkleesamenbrei als erwärmender Umschlag bei lokalen Entzündungen — klassische europäische Volksmedizin und Kommission-E-Indikation.",
+        "en": "Kommission E positive (external): fenugreek seed poultice as a warming compress for local inflammation — classic European folk medicine and Kommission E indication."
+      },
+      "source_ids": [
+        "src_kommission_e_trigonella",
+        "src_ema_hmpc_trigonella",
+        "src_wichtl_trigonella"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "appetite",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 2,
+          "max": 4
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (DER 1:5 in 40–60 % Ethanol): 2–4 ml (~40–80 Tropfen) 3× täglich, in etwas Wasser verdünnt, 15–30 Minuten vor den Mahlzeiten einnehmen. Traditionelle Anwendung als Bittermittel (Amarum) zur Anregung des Appetits und zur unterstützenden Verdauungsförderung. Wirkungseintritt nach 1–2 Wochen regelmäßiger Einnahme. Bei Leberproblemen oder Einnahme von Antidiabetika/Antikoagulanzien vor Anwendung Arzt befragen. Ethanolgehalt beachten — nicht bei Alkoholerkrankung.",
+          "en": "TINCTURE (DER 1:5 in 40–60 % ethanol): 2–4 ml (~40–80 drops) 3× daily diluted in water, 15–30 min before meals. Traditional use as a bitter (amarum) to stimulate appetite and support digestion. Onset after 1–2 weeks of regular use. Consult doctor before use if liver disease, antidiabetics or anticoagulants are involved. Note ethanol content — not for alcohol dependence."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Tinktur als Bittermittel (Amarum) bei Appetitlosigkeit und Verdauungsschwäche — ergänzende Alternative zur Samenteeform.",
+        "en": "Traditional tincture as a bitter (amarum) for loss of appetite and digestive weakness — complementary alternative to the seed infusion form."
+      },
+      "source_ids": [
+        "src_escop_trigonella",
+        "src_ema_hmpc_trigonella",
+        "src_wichtl_trigonella"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "GEWÜRZ / LEBENSMITTEL: Bockshornkleesamen (ganz oder gemahlen) als Gewürz in zahlreichen Küchen Südeuropas, des Nahen Ostens und Südasiens verwendet — Bestandteil von Currypulver, Ras el Hanout, äthiopischem Berbere. Rösten (ohne Fett, bei mittlerer Hitze 1–2 Minuten) mildert die Bitterkeit und entwickelt ein nussig-karameliges Aroma. Keimlinge (Sprossen) der Samen als vitaminreiche Beilage oder Salatbeigabe verwendbar. Blätter (frisch oder getrocknet, 'Methi') als Gemüse oder Kräuter in der indischen und nordafrikanischen Küche. Bei therapeutisch-ernährungsunterstützender Verwendung werden 5–30 g Samen täglich empfohlen (WHO). Aufgrund des Sotolon-Gehalts kann Körpergeruch vorübergehend nach Ahornsirup riechen.",
+          "en": "SPICE / FOOD: Fenugreek seeds (whole or ground) used as a spice in numerous cuisines of southern Europe, the Middle East and South Asia — component of curry powder, ras el hanout, Ethiopian berbere. Toasting (dry, medium heat 1–2 min) reduces bitterness and develops nutty-caramel aroma. Seed sprouts used as a vitamin-rich side dish or salad addition. Leaves (fresh or dried, 'methi') as vegetable or herb in Indian and North African cuisine. WHO recommends 5–30 g seeds daily for dietary/nutritional use. Sotolon content may temporarily cause a maple-syrup-like body odour."
+        }
+      },
+      "description": {
+        "de": "Nahrungsmittel und Gewürz — Samen, Sprossen und Blätter seit der Antike in südeuropäischer, arabischer und südasiatischer Küche etabliert; WHO listet die nutritive Verwendung.",
+        "en": "Food and spice — seeds, sprouts and leaves established in Southern European, Arabic and South Asian cuisine since antiquity; WHO lists the nutritive use."
+      },
+      "source_ids": [
+        "src_who_trigonella",
+        "src_pfaf_trigonella",
+        "src_wp_de_trigonella"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "immune",
+        "joints"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "SCHLEIMABSUD / KALTANSATZ (traditionelle Anwendung): 5–10 g grob gemahlene Bockshornkleesamen in 250 ml kaltem Wasser ansetzen, 3–5 Stunden quellen lassen (Schleimextraktion) oder alternativ mit heißem Wasser aufgießen und 15–20 Minuten zugedeckt stehen lassen. Abseihen. 2× täglich warm oder kalt trinken. Der Kaltauszug extrahiert besonders schonend die reizlindernden Schleimstoffe (Galactomannane) und ist der bevorzugte Zubereitungsweg bei gastrointestinalen Reizzuständen und Reizdarmtendenzen. Traditionell auch als Unterstützung für den Stoffwechsel und bei Gelenkbeschwerden eingesetzt.",
+          "en": "MUCILAGE DECOCTION / COLD MACERATION (traditional use): 5–10 g coarsely ground fenugreek seeds in 250 ml cold water, leave to soak 3–5 h (mucilage extraction), or infuse in hot water covered for 15–20 min. Strain. 2× daily warm or cold. Cold maceration extracts the soothing mucilaginous galactomannans especially gently — preferred preparation for gastrointestinal irritation and IBS tendency. Traditionally also used for metabolic support and joint complaints."
+        }
+      },
+      "description": {
+        "de": "Schleimreicher Kalt- oder Warmansatz aus Bockshornkleesamen als reizlindernder Mucilaginosus — traditionelle Anwendung bei gastrointestinalen Reizzuständen und Stoffwechselunterstützung.",
+        "en": "Mucilage-rich cold or warm infusion of fenugreek seeds as a demulcent (mucilaginosus) — traditional use for gastrointestinal irritation and metabolic support."
+      },
+      "source_ids": [
+        "src_escop_trigonella",
+        "src_wichtl_trigonella",
+        "src_who_trigonella"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion",
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "EINGEWEICHTE SAMEN / SPROSSEN (volkstümlich, nutritiv): 1–2 EL ganze Bockshornkleesamen über Nacht in Wasser einweichen, morgens abgießen und roh verzehren oder als Sprossen 2–3 Tage keimen lassen (tgl. spülen). Eingeweichte Samen schmecken weniger bitter als rohe trockene Samen und sind bekömmlicher. Sprossen sind reich an Vitaminen (C, K, Folsäure) und Enzymen. Traditionell im Nahen Osten und Indien als Frühstück oder Beigabe zum Joghurt verwendet. Hinweis: Samen nicht in übermäßigen Mengen roh verzehren — hohe Konzentration an Saponinen kann Blähungen und gastrointestinale Reizung verursachen.",
+          "en": "SOAKED SEEDS / SPROUTS (folk use, nutritive): soak 1–2 tbsp whole fenugreek seeds overnight in water, drain in the morning and eat raw, or sprout for 2–3 days (rinse daily). Soaked seeds are less bitter and more digestible than dry raw seeds. Sprouts are rich in vitamins (C, K, folate) and enzymes. Traditionally consumed in the Middle East and India as breakfast or yoghurt topping. Note: do not consume seeds in excessive quantities — high saponin concentration may cause flatulence and gastrointestinal irritation."
+        }
+      },
+      "description": {
+        "de": "Eingeweichte Samen und Sprossen — volkstümlich-nutritive Verwendung als verdauungsfördernde Beikost mit Vitaminen und Enzymen.",
+        "en": "Soaked seeds and sprouts — folk nutritive use as digestive accompaniment with vitamins and enzymes."
+      },
+      "source_ids": [
+        "src_pfaf_trigonella",
+        "src_wp_en_trigonella",
+        "src_who_trigonella"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "immune",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 8,
+        "doses_per_day": 2,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "BLÄTTERAUFGUSS (volkstümlich, Methi-Tee): 1–2 TL getrocknete Bockshornkleeblätter ('Methi') mit 200 ml siedendem Wasser übergießen, 7–10 Minuten zugedeckt ziehen lassen, abseihen. 2× täglich warm trinken. Volkstümliche Anwendung in Nordafrika und Südasien als allgemeines Stärkungsmittel und Verdauungsunterstützung. Die Blätter enthalten weniger Galactomannane als die Samen, sind aber reich an Flavonoiden und Vitaminen. Milder im Geschmack als Samenzubereitungen — weniger bitter, leicht kräuterig.",
+          "en": "LEAF INFUSION (folk use, methi tea): 1–2 tsp dried fenugreek leaves ('methi') in 200 ml boiling water, covered, steep 7–10 min, strain. 2× daily warm. Folk use in North Africa and South Asia as a general tonic and digestive support. Leaves contain less galactomannan than seeds but are richer in flavonoids and vitamins. Milder in taste than seed preparations — less bitter, slightly herbal."
+        }
+      },
+      "description": {
+        "de": "Volkstümlicher Blätteraufguss (Methi-Tee) als allgemeines Stärkungsmittel und Verdauungstee — in nordafrikanischer und südasiatischer Tradition verwurzelt.",
+        "en": "Folk leaf infusion (methi tea) as a general tonic and digestive tea — rooted in North African and South Asian tradition."
+      },
+      "source_ids": [
+        "src_pfaf_trigonella",
+        "src_wp_de_trigonella",
+        "src_who_trigonella"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "BLÄTTERUMSCHLAG (volkstümlich, extern): Frische oder eingeweichte getrocknete Bockshornkleeblätter auf sauberem Tuch ausbreiten, auf betroffene Hautstelle (leichte Entzündungen, Insektenstiche) legen und 15–20 Minuten einwirken lassen. Blätter enthalten Flavonoide und Schleimstoffe mit hautberuhigender Wirkung. Traditionelle Anwendung in der nordafrikanischen und arabischen Volksmedizin. Bei Verschlechterung der Hautreizung oder Zeichen einer Infektion Arzt aufsuchen.",
+          "en": "LEAF COMPRESS (folk use, external): spread fresh or soaked dried fenugreek leaves on clean cloth, apply to affected skin area (mild inflammation, insect bites) for 15–20 min. Leaves contain flavonoids and mucilages with skin-soothing action. Traditional use in North African and Arab folk medicine. Consult a doctor if skin irritation worsens or signs of infection appear."
+        }
+      },
+      "description": {
+        "de": "Volkstümlicher Blätterumschlag bei leichten Hautentzündungen und Insektenstichen — nordafrikanische und arabische Volksmedizin.",
+        "en": "Folk leaf compress for mild skin inflammation and insect bites — North African and Arab folk medicine."
+      },
+      "source_ids": [
+        "src_pfaf_trigonella",
+        "src_wp_en_trigonella"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Samen (Spätsommer)",
+      "en": "seeds (late summer)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG: Bockshornklee (intern, therapeutische Dosen) kann den Blutzucker senken — bei Diabetes mellitus Blutzucker engmaschig überwachen und Arzt informieren. In der Schwangerschaft KONTRAINDIZIERT (in großen Mengen wehenfördernd — uterotone Wirkung belegt). Bockshornklee enthält Galactomannane, die die Resorption anderer Medikamente verzögern können — mindestens 2 Stunden Abstand zu oralen Arzneimitteln einhalten. Kumarinähnliche Verbindungen können die gerinnungshemmende Wirkung von Antikoagulanzien (Warfarin, Phenprocoumon) additiv verstärken. Allergische Reaktionen möglich, insbesondere bei Personen mit Überempfindlichkeit gegenüber Erdnüssen (Arachis hypogaea), Kichererbsen (Cicer arietinum) oder anderen Hülsenfrüchtlern (Kreuzallergie). Charakteristischer Ahornsirup-ähnlicher Geruch (Sotolon) tritt bei regelmäßiger Einnahme im Urin, Schweiß und Atemluft auf — harmlos, aber ungewohnt.",
+      "en": "IMPORTANT: Fenugreek (internal, therapeutic doses) can lower blood glucose — monitor blood sugar closely in diabetes mellitus and inform doctor. CONTRAINDICATED in pregnancy (large doses have documented uterotonic action — may stimulate labour). Fenugreek galactomannans can delay absorption of other medications — leave at least 2 hours between fenugreek and oral drugs. Coumarin-like compounds may additively enhance anticoagulant effect (warfarin, phenprocoumon) — monitor INR. Allergic reactions possible, especially in persons with hypersensitivity to peanuts (Arachis hypogaea), chickpeas (Cicer arietinum) or other legumes (cross-allergenicity). Characteristic maple-syrup-like odour (sotolon) in urine, sweat and breath with regular use — harmless but unusual."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In therapeutischen Dosen während der gesamten Schwangerschaft kontraindiziert. Galactomannane und steroide Saponine (Diosgenin) haben in Tierversuchen und traditionell dokumentiert uterotone Wirkung — mögliche Wehenauslösung. Kulinarische Mengen (als Gewürz) gelten als unbedenklich, aber therapeutische Dosen (Tee, Tinktur, Kapseln) sind zu meiden.",
+        "en": "Contraindicated in therapeutic doses throughout pregnancy. Galactomannans and steroidal saponins (diosgenin) have documented uterotonic action in animal studies and traditional use — potential labour-stimulating effect. Culinary amounts (as spice) are considered safe, but therapeutic doses (tea, tincture, capsules) must be avoided."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Traditionell als Galaktogog (milchförderndes Mittel) eingesetzt — eine Wirkung, die jedoch wissenschaftlich nicht ausreichend belegt ist (EMA: keine ausreichenden klinischen Daten). Da Inhaltsstoffe in die Muttermilch übergehen können, ist Vorsicht geboten. Anwendung in therapeutischen Dosen nur nach ärztlicher Rücksprache. Kulinarische Mengen gelten als unbedenklich.",
+        "en": "Traditionally used as a galactagogue (milk-promoting agent) — an effect not sufficiently documented by clinical evidence (EMA: insufficient data). As constituents may pass into breast milk, caution is warranted. Therapeutic doses only after medical consultation. Culinary amounts are considered safe."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Sicherheitsdaten für therapeutische Anwendungen bei Kindern unter 12 Jahren. Kulinarische Mengen als Gewürz sind unbedenklich. Bei gastrointestinalen Beschwerden bei Kindern immer Arzt aufsuchen, nicht selbst behandeln.",
+        "en": "Insufficient safety data for therapeutic applications in children under 12 years. Culinary amounts as spice are safe. Gastrointestinal complaints in children require medical assessment, not self-treatment."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Schwangerschaft (therapeutische Dosen) — uterotone Wirkung kontraindiziert.",
+        "en": "Pregnancy (therapeutic doses) — uterotonic action contraindicated."
+      },
+      {
+        "de": "Überempfindlichkeit gegenüber Bockshornklee oder anderen Hülsenfrüchtlern (Fabaceae), insbesondere Erdnüssen oder Kichererbsen — Kreuzallergie möglich.",
+        "en": "Hypersensitivity to fenugreek or other Fabaceae (legumes), especially peanuts or chickpeas — cross-allergenicity possible."
+      },
+      {
+        "de": "Schlecht eingestellter Diabetes mellitus unter medikamentöser Therapie — Blutglukosesenkung durch Bockshornklee kann zu Hypoglykämie führen.",
+        "en": "Poorly controlled diabetes mellitus under drug therapy — fenugreek's blood glucose-lowering effect may cause hypoglycaemia."
+      },
+      {
+        "de": "Gleichzeitige Einnahme von Antikoagulanzien (Marcumar, Warfarin) ohne ärztliche Überwachung — kumarinähnliche Verbindungen potenzieren die Blutungsgefahr.",
+        "en": "Concurrent anticoagulant therapy (phenprocoumon, warfarin) without medical supervision — coumarin-like compounds potentiate bleeding risk."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antidiabetika (Insulin, Metformin, Sulfonylharnstoffe, GLP-1-Agonisten)",
+        "mechanism": {
+          "de": "Bockshornkleesamen senken die postprandiale Blutglukose durch Verlangsamung der gastrointestinalen Glukoseresorption (Galactomannane, lösliche Ballaststoffe) sowie durch direkte insulinsensibilisierende Wirkung (4-Hydroxyisoleucin). Additive Wirkung mit Antidiabetika möglich — Risiko einer Hypoglykämie. INS-/Medikamentendosis ggf. anpassen; regelmäßige Blutzuckerkontrolle.",
+          "en": "Fenugreek seeds lower postprandial blood glucose by slowing gastrointestinal glucose absorption (galactomannans, soluble fibre) and through direct insulin-sensitising action (4-hydroxyisoleucine). Additive effect with antidiabetics possible — risk of hypoglycaemia. Adjust insulin/drug dose if needed; regular blood glucose monitoring required."
+        },
+        "severity": "caution",
+        "source_id": "src_ema_hmpc_trigonella"
+      },
+      {
+        "drug_class": "Antikoagulanzien und Thrombozytenaggregationshemmer (Warfarin, Phenprocoumon, ASS, Clopidogrel)",
+        "mechanism": {
+          "de": "Bockshornklee enthält kumarinähnliche Verbindungen, die in vitro und im Tierversuch gerinnungshemmende Eigenschaften zeigen. Additive Hemmung der Thrombozytenaggregation und Potenzierung der Antikoagulation (INR-Erhöhung) möglich. Erhöhtes Blutungsrisiko — INR-Monitoring bei gleichzeitiger Anwendung; therapeutische Dosen ohne ärztliche Aufsicht vermeiden.",
+          "en": "Fenugreek contains coumarin-like compounds showing anticoagulant properties in vitro and in animal studies. Additive inhibition of platelet aggregation and potentiation of anticoagulation (INR increase) possible. Increased bleeding risk — monitor INR with concurrent use; avoid therapeutic doses without medical supervision."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_trigonella"
+      },
+      {
+        "drug_class": "Orale Arzneimittel (allgemein — Resorptionsverzögerung)",
+        "mechanism": {
+          "de": "Die hohe Schleimstoffdichte der Galactomannane bildet eine viskose Gelschicht im GI-Trakt, die die Resorption gleichzeitig eingenommener Arzneimittel (z. B. Antibiotika, Schilddrüsenhormone, Herzglykoside) verzögern kann. Zeitlicher Abstand von mindestens 2 Stunden vor oder nach der Medikamentengabe empfohlen.",
+          "en": "The high galactomannan content creates a viscous gel layer in the GI tract, which may delay absorption of concurrently taken drugs (e.g. antibiotics, thyroid hormones, cardiac glycosides). A time interval of at least 2 hours before or after medication intake is recommended."
+        },
+        "severity": "monitor",
+        "source_id": "src_ema_hmpc_trigonella"
+      },
+      {
+        "drug_class": "Hormonale Kontrazeptiva und Steroidhormone",
+        "mechanism": {
+          "de": "Bockshornklee enthält das steroide Sapogenin Diosgenin, eine strukturelle Vorstufe von Sexualhormonen. Theoretisch oestrogenartige Effekte; klinische Relevanz bei normalen therapeutischen Dosen nicht belegt, jedoch bei gleichzeitiger Hormontherapie (orale Kontrazeptiva, HRT) Vorsicht und ärztliche Rücksprache geboten.",
+          "en": "Fenugreek contains the steroidal sapogenin diosgenin, a structural precursor of sex hormones. Theoretically oestrogen-like effects; clinical relevance at normal therapeutic doses not established, but caution and medical consultation warranted with concurrent hormone therapy (oral contraceptives, HRT)."
+        },
+        "severity": "monitor",
+        "source_id": "src_who_trigonella"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Bockshornklee (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Bockshornklee",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Fenugreek (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Fenugreek",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_kommission_e_trigonella",
+      "type": "monograph",
+      "title": "Kommission E — Foenugraeci semen (Bockshornkleesamen), Monographie (positiv), BAnz Nr. 22a, 1990",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/foenugraeci-semen.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_ema_hmpc_trigonella",
+      "type": "monograph",
+      "title": "EMA/HMPC — Assessment Report on Trigonella foenum-graecum L., semen (EMA/HMPC/278003/2013)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/trigonellae-foenugraeci-semen",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_trigonella",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Foenugraeci Semen (Fenugreek Seed), 2nd edition supplement 2009",
+      "url": "https://escop.com/downloads/fenugreek-seed/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_who_trigonella",
+      "type": "monograph",
+      "title": "WHO Monographs on Selected Medicinal Plants — Volume 1: Semen Trigonellae",
+      "url": "https://apps.who.int/iris/handle/10665/42052",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_trigonella",
+      "type": "book",
+      "title": "Wichtl, Max (Hrsg.) — Teedrogen und Phytopharmaka, 5. Auflage: Foenugraeci semen (Bockshornkleesamen), Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009",
+      "url": "https://www.wissenschaftliche.de/buch/teedrogen-und-phytopharmaka/978-3-8047-1989-4",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_trigonella",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Trigonella foenum-graecum database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Trigonella+foenum-graecum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_trigonella",
+      "type": "wikipedia",
+      "title": "Bockshornklee (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Bockshornklee",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_trigonella",
+      "type": "wikipedia",
+      "title": "Fenugreek (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Fenugreek",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_trigonella",
+      "type": "wikidata",
+      "title": "Trigonella foenum-graecum — Wikidata Q187321",
+      "url": "https://www.wikidata.org/wiki/Q187321",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_commons_trigonella",
+      "type": "commons",
+      "title": "Wikimedia Commons — Trigonella foenum-graecum (Category)",
+      "url": "https://commons.wikimedia.org/wiki/Category:Trigonella_foenum-graecum",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "trigonella-foenum-graecum.jpg",
+    "alt": {
+      "de": "Foto von Bockshornklee",
+      "en": "Photo of Fenugreek"
+    },
+    "license": "Public domain",
+    "author": "Prof. Dr. Otto Wilhelm Thomé Flora von Deutschland, Österreich und der Schweiz 1885, Gera, Germany",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Trigonella_foenum-graecum0.jpg"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "cucurbita-pepo",
+      "satureja-hortensis"
+    ],
+    "bad_partners": [
+      "allium-sativum"
+    ],
+    "notes_de": "allium-sativum: Lauchgewächse hemmen Hülsenfrüchte (Bockshornklee). satureja-hortensis: Bohnenkraut stärkt Hülsenfrüchte (klassische Mischkultur). cucurbita-pepo: Bockshornklee fixiert Stickstoff für Kürbis (Three-Sisters-Logik).",
+    "notes_en": "allium-sativum: Alliums inhibit legumes (fenugreek). satureja-hortensis: Savory strengthens legumes (classic companion pair). cucurbita-pepo: Fenugreek fixes nitrogen for squash (Three Sisters logic).",
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 4,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 7,
+      "end_month": 9
+    },
+    "days_to_harvest": 100,
+    "spacing_cm": 15,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "nitrogen_fixer",
+    "medicinal",
+    "vertical_low"
+  ],
+  "constituents": [
+    {
+      "name": "Galactomannane (Bockshornklee-Gummi, Schleimstoffe)",
+      "category": "polysaccharide",
+      "percent_range": "20-45 %",
+      "plant_part": "seed",
+      "note": {
+        "de": "Hauptreservekohlenhydrat des Endosperms — Galaktose-Mannose-Polysaccharide (Mannose:Galaktose ca. 1:1). Wichtigste Leitsubstanz der Droge; für die schleimhautschützende, reizlindernde (demulzierende) und postprandiale Blutzucker-senkende Wirkung (Verlangsamung der Glukoseresorption) mitverantwortlich. Quelleigenschaften im GI-Trakt — sättigend und stuhlregulierend.",
+        "en": "Main reserve carbohydrate of the endosperm — galactose-mannose polysaccharides (mannose:galactose approx. 1:1). Principal lead compound of the drug; responsible for mucous membrane-protecting, soothing (demulcent) and postprandial blood glucose-lowering action (slowing glucose absorption). Swelling properties in GI tract — satiating and stool-regulating."
+      }
+    },
+    {
+      "name": "4-Hydroxyisoleucin",
+      "category": "other",
+      "percent_range": "0.1-0.9 %",
+      "plant_part": "seed",
+      "note": {
+        "de": "Ungewöhnliche verzweigtkettige Aminosäure, nahezu spezifisch für Bockshornklee. In vitro und in Tierversuchen insulinotrope Wirkung (Stimulation der Insulinsekretion der Betazellen glukoseabhängig). Klinisch in kontrollierten Studien als mitverantwortlich für die blutzuckersenkende Wirkung diskutiert. Nicht als einzelne Substanz, sondern als Teil des Gesamtextrakts wirksam.",
+        "en": "Unusual branched-chain amino acid, nearly specific to fenugreek. Insulinotropic action in vitro and in animal studies (glucose-dependent stimulation of pancreatic beta-cell insulin secretion). Discussed in controlled clinical studies as a contributor to blood glucose-lowering activity. Active as part of the whole extract, not as isolated compound."
+      }
+    },
+    {
+      "name": "Steroidsaponine (Diosgenin, Tigogenin, Yamogenin als Aglykone; Fenugreekine, Gracillin als Glykoside)",
+      "category": "saponin",
+      "percent_range": "0.5-3 %",
+      "plant_part": "seed",
+      "note": {
+        "de": "Steroidale Saponine mit dem Sapogenin Diosgenin als Hauptaglykoner — pharmazeutisch relevant als Ausgangssubstanz für die Halbsynthese von Steroiden (Cortison, Progesteron, Kontrazeptiva). Biologisch: cholesterinsenkende Wirkung (durch Hemmung der intestinalen Cholesterolresorption), milde östrogenartige Aktivität. Verantwortlich für einen Teil der hypoglykämischen Wirkung.",
+        "en": "Steroidal saponins with diosgenin as principal aglycone — pharmaceutically relevant as precursor for semi-synthesis of steroids (cortisone, progesterone, contraceptives). Biologically: cholesterol-lowering action (inhibition of intestinal cholesterol absorption), mild oestrogenic activity. Partly responsible for hypoglycaemic effect."
+      }
+    },
+    {
+      "name": "Sotolon (4,5-Dimethyl-3-hydroxy-2(5H)-furanon)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "plant_part": "seed",
+      "note": {
+        "de": "Flüchtiges Lakton, das für den charakteristischen, intensiven Ahornsirup-ähnlichen Geruch und Geschmack von Bockshornklee verantwortlich ist. Entsteht beim Trocknen und Rösten der Samen; übergeht nach Verzehr in Urin, Schweiß und Atemluft. Harmlos; für Verwechslungen mit dem Ahornsirup-Urin-Syndrom (MSUD) bekannt (falsch-positiver Säuglingsscreening-Befund möglich). Dient als chemischer Marker für Bockshornklee-Exposition.",
+        "en": "Volatile lactone responsible for the characteristic intense maple-syrup-like aroma and flavour of fenugreek. Forms during drying and roasting; passes into urine, sweat and breath after consumption. Harmless; known for confusion with Maple Syrup Urine Disease (MSUD) — false-positive neonatal screening results possible. Serves as a chemical marker of fenugreek exposure."
+      }
+    },
+    {
+      "name": "Flavonoide (Vitexin, Quercetin-3-O-glucosid, Tricin, Orientin)",
+      "category": "flavonoid",
+      "percent_range": "0.3-1 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptsächlich in den Blättern konzentriert; in den Samen in geringeren Mengen. Antioxidative, mild entzündungshemmende und gefäßprotektive Eigenschaften. Vitexin (C-Glykosid des Apigenins) auch in anderen Hülsenfrüchtlern wie Mungobohnen. Beitrag zur Gesamtwirkung des Vollpflanzenauszugs.",
+        "en": "Mainly concentrated in leaves; present in lower amounts in seeds. Antioxidant, mildly anti-inflammatory and vasoprotective properties. Vitexin (C-glycoside of apigenin) also found in other legumes such as mung beans. Contribute to the overall activity of the whole-plant extract."
+      }
+    },
+    {
+      "name": "Bitterstoffkomplex (Amaroide) und Alkaloide (Trigonellin, Cholin)",
+      "category": "alkaloid",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "seed",
+      "note": {
+        "de": "Trigonellin (N-Methyl-Nikotinsäurebetain) — Hauptalkaloid der Samen; wird beim Rösten zu Nicotinsäure (Niacin, Vitamin B3) abgebaut, was den Röstaromen beiträgt. Trigonellin hat neuroprotektive und antimikrobielle Eigenschaften (Forschungsstadium). Cholin als B-Vitamin-artiger Nährstoff. Der Bitterstoffanteil (Amaroide) stimuliert die Magensaft- und Gallenproduktion (digestive Wirkung).",
+        "en": "Trigonelline (N-methyl-nicotinic acid betaine) — main alkaloid of the seeds; degraded to nicotinic acid (niacin, vitamin B3) during roasting, contributing to roasted aromas. Trigonelline has neuroprotective and antimicrobial properties (research stage). Choline as a B-vitamin-like nutrient. The bitter component (amaroids) stimulates gastric juice and bile production (digestive effect)."
+      }
+    },
+    {
+      "name": "Fette und Fettsäuren (Linolensäure, Linolsäure, Ölsäure)",
+      "category": "other",
+      "percent_range": "5-9 %",
+      "plant_part": "seed",
+      "note": {
+        "de": "Fettreicher Samenanteil mit überwiegend mehrfach ungesättigten Fettsäuren (Linolsäure bis ~35 %, Linolensäure bis ~24 %). Kalorientechnisch relevant bei großen Mengen; liefern essentielle Fettsäuren. Samen enthalten außerdem Phospholipide (Lecithin) und fettlösliche Vitamine (Vitamin E als Tocopherolmix). Phytosterole (Stigmasterol, Sitosterol) sind cholesterinstrukturähnlich und hemmen intestinale Cholesterolresorption.",
+        "en": "Oil-rich seed fraction with predominantly polyunsaturated fatty acids (linoleic acid up to ~35 %, linolenic acid up to ~24 %). Calorically relevant in large amounts; supply essential fatty acids. Seeds also contain phospholipids (lecithin) and fat-soluble vitamins (vitamin E as tocopherol mix). Phytosterols (stigmasterol, sitosterol) are structurally similar to cholesterol and inhibit intestinal cholesterol absorption."
+      }
+    },
+    {
+      "name": "Vitamin C, Vitamin A (Beta-Carotin), Eisen, Mangan (Mineralstoffe)",
+      "category": "vitamin",
+      "percent_range": "variabel (nach Pflanzenteil)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Frische Blätter (Methi) sind bemerkenswert reich an Vitamin C (~220 mg/100 g frisch), Beta-Carotin, Eisen und Mangan. Samen enthalten ebenfalls Vitamine (Thiamin, Riboflavin, Pyridoxin, Folat) und Mineralstoffe (Kalzium, Phosphor, Magnesium). Bockshornklee gehört deshalb neben der Verwendung als Arzneipflanze traditionell zu den Gemüsepflanzen — besonders die Blätter als vitaminreiche Beilage in der indischen Küche (Methi-Saag, Methi-Paratha).",
+        "en": "Fresh leaves (methi) are notably rich in vitamin C (~220 mg/100 g fresh), beta-carotene, iron and manganese. Seeds also contain vitamins (thiamine, riboflavin, pyridoxine, folate) and minerals (calcium, phosphorus, magnesium). Fenugreek is therefore traditionally also used as a vegetable beyond its medicinal application — especially leaves as a vitamin-rich side dish in Indian cuisine (methi saag, methi paratha)."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "seed",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Ernte in den trockenen Morgenstunden (8–11 Uhr) — Schoten sollten reif, aber noch nicht geöffnet sein; bei leichtem Rütteln soll ein Rasseln zu hören sein. Ernte bei trockenem Wetter (nicht nach Regen) — feuchte Samen schimmeln bei der Lagerung.",
+        "en": "Harvest in dry morning hours (8–11 am) — pods should be ripe but not yet opened; a rattling sound when gently shaken indicates readiness. Harvest in dry weather only (not after rain) — damp seeds will mould during storage."
+      },
+      "drying": {
+        "de": "Ganze Hülsenfrüchte (Schoten) auf sauberem Untergrund ausbreiten und 1–2 Wochen an einem luftigen, schattigen Ort (alternativ im Dörrgerät bei 35–40 °C) vollständig trocknen lassen. Anschließend ausdreschnen: Schoten in einen Sack geben und mit einem Holzstab dreschen oder handdreschen; Samen durch Siebe von Hülsenresten trennen. Samen sind dann hellgelb-beige bis bräunlich-ockerfarben und rechteckig-rhomboedrisch. Gereinigt bei 15–20 °C, trocken und dunkel in luftdichten Behältern lagern. Rohgewürz-Samen: vor Verwendung kurz trocken rösten (Pfanne, 1–2 Min.) zur Milderung der Bitterkeit.",
+        "en": "Spread whole seed pods on a clean surface and dry for 1–2 weeks in a well-ventilated, shaded location (or in a dehydrator at 35–40 °C) until fully dry. Then thresh: place pods in a sack and beat with a wooden stick or thresh by hand; separate seeds from pod debris through sieves. Seeds are pale yellow-beige to brownish-ochre and rectangular-rhomboid shaped. Store cleaned seeds at 15–20 °C, dry and dark in airtight containers. For culinary use: briefly dry-roast (pan, 1–2 min) before use to reduce bitterness."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Ganze, getrocknete Samen halten bei sachgerechter Lagerung (luftdicht, dunkel, trocken, 15–20 °C) 2–3 Jahre. Gemahlener Bockshornklee verliert innerhalb von 3–6 Monaten an Aroma und Wirkstoffgehalt — daher nach Bedarf frisch mahlen. Auf Schimmel und ungewöhnlichen Geruch prüfen.",
+        "en": "Whole dried seeds keep 2–3 years with proper storage (airtight, dark, dry, 15–20 °C). Ground fenugreek loses aroma and constituent potency within 3–6 months — grind fresh as needed. Check for mould and unusual odour before use."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Blätter morgens nach Verdunstung des Taus ernten — am frischesten und aromatischsten. Bevorzugt jung-zarte Blätter vor der Blüte (April–Juni) schneiden; ältere Blätter sind zäher und bitterer.",
+        "en": "Harvest leaves in the morning after dew has evaporated — freshest and most aromatic then. Preferably cut young, tender leaves before flowering (April–June); older leaves are tougher and more bitter."
+      },
+      "drying": {
+        "de": "Frisch verwenden (Methi-Gemüse, Salat) oder im Schatten bei max. 40 °C auf Trockensieben einlagig trocknen. Frische Blätter einfrieren (blanchiert, 2 Min. in kochendem Wasser, dann sofort abkühlen) erhält Farbe und Vitamingehalt besser als Trocknung. Getrocknete Blätter (Kasuri Methi) in Indien als Aromawürze bekannt — intensiver und leicht bitterer als frisch.",
+        "en": "Use fresh (methi vegetable, salad) or dry in a single layer on drying screens in shade at max. 40 °C. Freezing fresh leaves (blanched 2 min in boiling water, then immediately cooled) preserves colour and vitamin content better than drying. Dried leaves ('kasuri methi') known in India as an aromatic spice — more intense and slightly more bitter than fresh."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknete Blätter luftdicht, dunkel und trocken lagern — innerhalb eines Jahres aufbrauchen. Tiefgefrorene Blätter bis 12 Monate haltbar.",
+        "en": "Store dried leaves airtight, dark and dry — use within one year. Frozen leaves keep up to 12 months."
+      }
+    }
+  ]
+}

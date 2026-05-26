@@ -1,0 +1,302 @@
+{
+  "slug": "philodendron-hederaceum",
+  "names": {
+    "de": "Philodendren",
+    "en": "Philodendron",
+    "latin": "Philodendron hederaceum"
+  },
+  "family": {
+    "de": "Aronstabgewächse",
+    "en": "Arum family",
+    "latin": "Araceae"
+  },
+  "description": {
+    "de": "Die Philodendren (Philodendron), zu deutsch Baumfreund, sind die einzige Gattung der Tribus Philodendreae in der Unterfamilie Aroideae innerhalb der Pflanzenfamilie der Aronstabgewächse (Araceae). Die Philodendron-Arten stammen meist aus neotropischen Regenwäldern vom US-Bundesstaat Florida über Mexiko, Zentralamerika und den Karibischen Inseln bis zum tropischen Südamerika.",
+    "en": "Philodendron is a large genus of flowering plants in the family Araceae. As of September 2025, the Plants of the World Online accepted 625 species; other sources accept different numbers. Regardless of number of species, the genus is the second-largest member of the family Araceae, after genus Anthurium."
+  },
+  "teaser": {
+    "de": "Die Philodendren (Philodendron), zu deutsch Baumfreund, sind die einzige Gattung der Tribus Philodendreae in der Unte...",
+    "en": "Philodendron is a large genus of flowering plants in the family Araceae."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "air_quality",
+        "formaldehyde"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Als lebende Zimmerpflanze aufgestellt, absorbiert der Kletter-Philodendron laut der NASA Clean Air Study (Wolverton 1989) Formaldehyd aus der Raumluft. Die Studie ermittelte messbare Reduktion bei gasdichten Testkammern.",
+        "en": "When kept as a living houseplant, the heartleaf philodendron absorbs formaldehyde from indoor air according to the NASA Clean Air Study (Wolverton 1989). The study recorded measurable reduction in sealed test chambers."
+      },
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "source_ids": [
+        "ph_src_nasa",
+        "ph_src_wiki_en"
+      ],
+      "preparation": {
+        "de": "Pflanze in bewohntem Raum aufstellen; mindestens 1 Pflanze pro 9–10 m² empfohlen.",
+        "en": "Place plant in inhabited room; at least 1 plant per 9–10 m² recommended."
+      }
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental",
+        "wellbeing"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Als Zierpflanze wird Philodendron hederaceum für seine stimmungsaufhellende Wirkung durch Begrünung von Innenräumen geschätzt. Wissenschaftliche Studien zu Biophilia bestätigen positive psychologische Effekte von Zimmerpflanzen generell.",
+        "en": "As an ornamental plant, Philodendron hederaceum is valued for its mood-enhancing effect through indoor greening. Scientific studies on biophilia confirm positive psychological effects of houseplants in general."
+      },
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "source_ids": [
+        "ph_src_wiki_en",
+        "ph_src_aspca"
+      ],
+      "preparation": {
+        "de": "Hängekorb oder Kletterhilfe, indirektes Licht, kein direktes Sonnenlicht.",
+        "en": "Hanging basket or climbing support, indirect light, no direct sunlight."
+      }
+    },
+    {
+      "form": "raw",
+      "target": [
+        "humidity",
+        "air_quality"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Großblättrige Zimmerpflanzen wie Philodendron hederaceum geben durch Transpiration Wasserdampf ab und erhöhen die relative Luftfeuchtigkeit in trockenen Innenräumen.",
+        "en": "Large-leaved houseplants like Philodendron hederaceum release water vapour through transpiration, increasing relative humidity in dry indoor spaces."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "source_ids": [
+        "ph_src_nasa",
+        "ph_src_rhs"
+      ],
+      "preparation": {
+        "de": "Mehrere Pflanzen in Gruppen aufstellen, regelmäßig besprühen oder auf Kiesbett mit Wasser stellen.",
+        "en": "Group several plants together, mist regularly, or stand on a pebble tray with water."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "alle Pflanzenteile",
+      "en": "all plant parts"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "GIFTIG für Hunde, Katzen und Menschen. Alle Pflanzenteile enthalten Calciumoxalat-Raphiden: bei Kontakt Haut- und Schleimhautreizung, bei Verschlucken Brennen im Mund, Sabbern, Erbrechen, Schluckbeschwerden. Nicht als Heilpflanze verwenden. Bei Kontakt mit Pflanzensaft Hände waschen.",
+      "en": "TOXIC to dogs, cats, and humans. All plant parts contain calcium oxalate raphides: skin and mucous membrane irritation on contact, burning in mouth, drooling, vomiting, difficulty swallowing if ingested. Do not use medicinally. Wash hands after contact with plant sap."
+    },
+    "external_only": true,
+    "toxicity_level": "toxic",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Keine Daten zur systemischen Toxizität beim Menschen. Kontakt mit Pflanzensaft vermeiden, da die Calcium-Oxalat-Raphiden Schleimhäute reizen.",
+        "en": "No data on systemic human toxicity. Avoid contact with plant sap as calcium oxalate raphides irritate mucous membranes."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine medizinische Verwendung — als Zimmerpflanze kein systemisches Risiko, aber Kontakt mit Pflanzensaft vermeiden.",
+        "en": "No medicinal use — as a houseplant no systemic risk, but avoid contact with plant sap."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Für Kleinkinder unzugänglich aufstellen. Verschlucken von Blättern führt zu Mundreizung und Erbrechen. Im Verdacht auf Einnahme sofort Giftnotruf kontaktieren.",
+        "en": "Place out of reach of small children. Ingestion of leaves causes mouth irritation and vomiting. If ingestion is suspected, contact poison control immediately."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Innerliche Anwendung jeglicher Art — diese Pflanze ist ausschließlich Zierpflanze.",
+        "en": "Any internal use — this plant is strictly ornamental."
+      },
+      {
+        "de": "Nicht für Personen mit bekannter Oxalat-Hypersensitivität oder Nierensteinen (präventiv).",
+        "en": "Not for persons with known oxalate hypersensitivity or kidney stones (preventively)."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Philodendren (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Philodendren",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Philodendron (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Philodendron",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "ph_src_nasa",
+      "type": "monograph",
+      "title": "Interior Landscape Plants for Indoor Air Pollution Abatement — Wolverton et al., NASA TM-101766 (1989)",
+      "url": "https://ntrs.nasa.gov/citations/19930073077",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "ph_src_wiki_en",
+      "type": "wikipedia",
+      "title": "Philodendron hederaceum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Philodendron_hederaceum",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "ph_src_wiki_de",
+      "type": "wikipedia",
+      "title": "Philodendren (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Philodendren",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "ph_src_aspca",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Philodendron",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/philodendron",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "ph_src_rhs",
+      "type": "monograph",
+      "title": "RHS — Philodendron hederaceum cultivation advice",
+      "url": "https://www.rhs.org.uk/plants/13326/philodendron-hederaceum/details",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "philodendron-hederaceum.jpg",
+    "alt": {
+      "de": "Foto von Philodendren",
+      "en": "Photo of Philodendron"
+    },
+    "license": "CC BY 3.0",
+    "author": "Forest &amp; Kim Starr",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Starr_031108-0220_Philodendron_bipinnatifidum.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Calcium oxalate raphides",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Nadelförmige Calciumoxalat-Kristalle (Raphiden) in spezialisierten Idioblasten. Mechanische Reizung von Schleimhäuten bei Kontakt oder Einnahme — typisch für Araceae.",
+        "en": "Needle-shaped calcium oxalate crystals (raphides) in specialised idioblasts. Cause mechanical irritation of mucous membranes on contact or ingestion — characteristic of Araceae."
+      }
+    },
+    {
+      "name": "Saponins",
+      "category": "saponin",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Saponine tragen zur toxischen Wirkung bei Einnahme bei und verstärken die Schleimhautreizung.",
+        "en": "Saponins contribute to the toxic effect upon ingestion and amplify mucous membrane irritation."
+      }
+    },
+    {
+      "name": "Cyanogenic glycosides (traces)",
+      "category": "glycoside",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "In Spuren nachgewiesen; klinisch weniger relevant als die Raphiden, tragen aber zur Gesamttoxizität bei.",
+        "en": "Detected in trace amounts; clinically less relevant than the raphides, but contribute to overall toxicity."
+      }
+    },
+    {
+      "name": "Anthocyanins",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Sekundäre Pflanzenstoffe, die zur grünen bis bronzefarbenen Blattfärbung beitragen. Keine medizinische Bedeutung bekannt.",
+        "en": "Secondary plant compounds contributing to the green to bronze leaf colouration. No known medicinal significance."
+      }
+    },
+    {
+      "name": "Chlorophyll",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hoher Chlorophyllgehalt ermöglicht Photosynthese auch bei niedrigem Licht — erklärt Schattentoleranz.",
+        "en": "High chlorophyll content enables photosynthesis even in low light — explains shade tolerance."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        3,
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Morgens (Stecklinge oder Topfwechsel bei feuchter Umgebungsluft bevorzugt).",
+        "en": "Morning (cuttings or repotting preferred in humid ambient air)."
+      },
+      "drying": {
+        "de": "Nicht anwendbar — rein dekorative Pflanze, keine Ernte von Inhaltsstoffen.",
+        "en": "Not applicable — strictly decorative plant, no harvesting of constituents."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "Jederzeit — Blätter abwischen zur Staubbindung und optimalen Transpiration.",
+        "en": "Any time — wipe leaves to remove dust and optimise transpiration."
+      },
+      "drying": {
+        "de": "Keine Trocknung — Blätter werden nicht geerntet.",
+        "en": "No drying — leaves are not harvested."
+      }
+    }
+  ]
+}

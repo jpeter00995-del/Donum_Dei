@@ -1,0 +1,594 @@
+{
+  "slug": "inula-helenium",
+  "names": {
+    "de": "Alant",
+    "en": "Elecampane",
+    "latin": "Inula helenium"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Der Echte Alant ist eine bis zu zwei Meter hohe, mehrjährige Staude mit großen, gelben Strahlenblüten und tief verwurzeltem Wurzelstock. Ursprünglich aus Asien stammend, wurde er bereits im Mittelalter in europäischen Klostergärten kultiviert. Sein bitter-aromatischer Wurzelstock ist die traditionelle Heildroge, vor allem für die Atemwege.",
+    "en": "True elecampane is a perennial herb up to two metres tall, with large yellow ray flowers and a deeply rooted rhizome. Originally from Asia, it was already cultivated in European monastery gardens during the Middle Ages. Its bitter-aromatic rhizome is the traditional medicinal part, primarily for respiratory complaints."
+  },
+  "teaser": {
+    "de": "Bitter-aromatische Wurzel — klassischer Tee bei Husten und Bronchitis.",
+    "en": "Bitter-aromatic root — classical tea for cough and bronchitis."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "ABKOCHUNG (Dekokt): 1–2 g (ca. 1 TL) getrocknete, fein zerkleinerte Alantwurzel in 250 ml kaltem Wasser ansetzen, aufkochen und 10 Minuten bei schwacher Hitze köcheln lassen, dann abseihen. Täglich 2–3 Tassen frisch zubereitet, jeweils zu den Mahlzeiten oder danach (Bittertonika-Wirkung). Traditionelle Anwendung: schleimlösend und expektorierend bei akutem und chronischem Husten, festsitzendem Bronchialschleim und katarrhalischen Atemwegserkrankungen. Anwendungsdauer in der Regel 2–4 Wochen; bei anhaltenden Beschwerden oder Fieber ärztliche Abklärung. Wegen des hohen Inulingehalts schmeckt der Tee süßlich-bitter-aromatisch.",
+          "en": "DECOCTION: 1–2 g (approx. 1 tsp) of dried, finely cut elecampane root in 250 ml cold water, bring to the boil and simmer 10 minutes over low heat, then strain. 2–3 cups freshly prepared daily, with or after meals (bitters effect). Traditional use: mucolytic and expectorant for acute and chronic cough, tenacious bronchial mucus and catarrhal respiratory complaints. Usual duration 2–4 weeks; if complaints persist or fever develops, seek medical advice. The high inulin content gives the tea a sweetish-bitter-aromatic flavour."
+        }
+      },
+      "description": {
+        "de": "Traditionelles Wurzeldekokt als Expektorans bei Husten und Bronchialkatarrh — klassische Anwendung in der europäischen Phytotherapie (ESCOP, Wichtl).",
+        "en": "Traditional root decoction as expectorant for cough and bronchial catarrh — classic application in European phytotherapy (ESCOP, Wichtl)."
+      },
+      "source_ids": [
+        "src_escop_inulae_radix",
+        "src_wichtl_teedrogen",
+        "src_pfaf_inula",
+        "src_wp_de_alant"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "respiratory",
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 2,
+          "max": 4
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (Droge-Auszug-Verhältnis 1:5 in 40–60 % Ethanol): 2–4 ml (~40–80 Tropfen) 3× täglich in etwas Wasser verdünnt vor oder zu den Mahlzeiten einnehmen. Traditionelle Anwendung bei chronischen Atemwegsbeschwerden, Bronchialkatarrh und als bitter-tonisches Verdauungsmittel. Der Ethanolgehalt bewirkt eine bessere Extraktion der Sesquiterpenlactone. Wegen Allergiepotenzial der Sesquiterpenlactone (Alantolacton) mit niedrigster effektiver Dosis beginnen und bei Hautreizungen, Schleimhautsymptomen oder Atembeschwerden sofort absetzen. Nicht bei Korbblütler-Allergie.",
+          "en": "TINCTURE (DER 1:5 in 40–60 % ethanol): 2–4 ml (~40–80 drops) 3× daily, diluted in water, before or with meals. Traditional use for chronic respiratory complaints, bronchial catarrh and as a bitter-tonic digestive. The ethanol content gives better extraction of sesquiterpene lactones. Due to allergy potential of sesquiterpene lactones (alantolactone), start at the lowest effective dose and discontinue immediately if skin irritation, mucosal symptoms or breathing difficulties occur. Not for Asteraceae allergy."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Wurzeltinktur bei chronischen Atemwegsleiden und Verdauungsschwäche — stärkere Sesquiterpen-Extraktion als im Tee, erhöhtes Allergiepotenzial beachten.",
+        "en": "Traditional root tincture for chronic respiratory complaints and digestive weakness — stronger sesquiterpene extraction than tea, be aware of heightened allergy potential."
+      },
+      "source_ids": [
+        "src_escop_inulae_radix",
+        "src_wichtl_teedrogen",
+        "src_haensel_sticher"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 1000,
+        "steep_min": 5,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "INHALATION: 3–5 g getrocknete Alantwurzel in 1 Liter siedendem Wasser 5 Minuten ziehen lassen (kein weiteres Kochen). Kopf mit einem Handtuch über die Schüssel beugen, Augen schließen, 5–10 Minuten die Dämpfe einatmen. 1–2× täglich bei festsitzendem Bronchialschleim und chronischer Sinusitis. Vorsicht: Ätherisches Öl des Alants enthält Alantocampher — bei Asthma bronchiale oder Überempfindlichkeit kann Inhalation Bronchospasmen auslösen. Bei Atemnot oder Hustenreiz während der Inhalation sofort abbrechen. Nicht empfohlen für Kinder unter 12 Jahren (Mentholregeln analog anwenden).",
+          "en": "INHALATION: 3–5 g dried elecampane root steeped 5 minutes in 1 litre of boiling water (no further boiling). Drape a towel over head and bowl, close eyes, inhale steam for 5–10 minutes. 1–2× daily for tenacious bronchial mucus and chronic sinusitis. Caution: the essential oil contains alantocamphor — inhalation may trigger bronchospasm in bronchial asthma or hypersensitivity. Discontinue immediately if dyspnoea or irritating cough occurs. Not recommended for children under 12 (apply menthol-analogue rules)."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Inhalation mit Alantwurzeldampf bei chronischer Sinusitis und festsitzendem Bronchialschleim — bei Asthma und Überempfindlichkeit kontraindiziert.",
+        "en": "Folk steam inhalation with elecampane root for chronic sinusitis and tenacious bronchial mucus — contraindicated in asthma and hypersensitivity."
+      },
+      "source_ids": [
+        "src_pfaf_inula",
+        "src_wp_de_alant",
+        "src_madaus_inula"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 1.5
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "BITTERTONIKUM-TEE: 1–1,5 g getrocknete, zerkleinerte Alantwurzel in 200 ml kaltem Wasser ansetzen, aufkochen und 10 Minuten köcheln lassen, abseihen. 1 Tasse (ungesüßt) 20–30 Minuten VOR den Mahlzeiten langsam trinken, damit die Bitterstoffe die Gallenproduktion und Magensaftsekretion ankurbeln. Volksheilkundlich bei Verdauungsschwäche (Dyspepsie), Völlegefühl, Blähungen, träger Gallenblase und Appetitmangel angewendet. Helienalin und Bitterstoffe aus dem Inulingerüst wirken choleretisch (gallentreibend) und mild krampflösend auf die glatte Muskulatur des Verdauungstrakts.",
+          "en": "BITTER TONIC TEA: 1–1.5 g dried, cut elecampane root in 200 ml cold water, bring to boil, simmer 10 minutes, strain. 1 cup (unsweetened) drunk slowly 20–30 minutes BEFORE meals so the bitters stimulate bile and gastric secretion. Folk use for digestive weakness (dyspepsia), bloating, flatulence, sluggish gallbladder and lack of appetite. Helenalin and bitters from the inulin matrix act choleretically and mildly spasmolytically on smooth muscle of the digestive tract."
+        }
+      },
+      "description": {
+        "de": "Bitter-choleretischer Tee vor den Mahlzeiten bei Dyspepsie, Blähungen und träger Gallenblase — klassische Bitterstoff-Anwendung in der Volksmedizin.",
+        "en": "Bitter-choleretic pre-meal tea for dyspepsia, flatulence and sluggish gallbladder — classic bitters use in folk medicine."
+      },
+      "source_ids": [
+        "src_pfaf_inula",
+        "src_madaus_inula",
+        "src_wp_en_elecampane"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 2,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "MAGENBITTER / APERITIF-TINKTUR: 1–2 ml Alanttinktur (1:5 in 45 % Ethanol) in 100 ml Wasser oder Kräuterlikör eingerührt, 15–30 Minuten vor den Mahlzeiten trinken. Volksmedizinischer Einsatz als Magenbitter, Aperitif und zur Anregung der Gallensaftsekretion. Alant ist historisch eine der Leitpflanzen europäischer Kräuterliköre (Vorläufer des Chartreuse-Typus). Wegen Sesquiterpenlacton-Allergenität niedrig dosieren. Nicht bei Überempfindlichkeit gegen Korbblütler.",
+          "en": "DIGESTIVE BITTERS / APERITIF TINCTURE: 1–2 ml elecampane tincture (1:5 in 45 % ethanol) stirred into 100 ml water or herbal liqueur, drunk 15–30 minutes before meals. Folk use as a digestive bitter, aperitif and to stimulate bile secretion. Elecampane is historically one of the key plants in European herbal liqueurs (a forerunner of the Chartreuse type). Keep dose low due to sesquiterpene lactone allergenicity. Not for Asteraceae allergy."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Magenbitter und Aperitif — historische Alant-Tinktur als Vorläufer der Kräuterliköre Mitteleuropas.",
+        "en": "Folk digestive bitters and aperitif — historical elecampane tincture as a forerunner of Central European herbal liqueurs."
+      },
+      "source_ids": [
+        "src_madaus_inula",
+        "src_wp_en_elecampane",
+        "src_wp_de_alant"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds",
+        "joints"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "UMSCHLAG (extern): 10 g getrocknete Alantwurzel in 500 ml Wasser 15 Minuten abkochen, abseihen, auf handwarm abkühlen. Ein sauberes Leinentuch in die Flüssigkeit tauchen, leicht ausdrücken und auf betroffene Stellen (Gelenke, schlecht heilende Wunden, Furunkel, Krätze) legen. 15–20 Minuten einwirken lassen, 2–3× täglich. Volksheilkundlich bei entzündeten Gelenken (leichte Arthritis), schlecht heilenden Wunden und Hautinfektionen eingesetzt. WARNUNG: Sesquiterpenlactone können bei Dauerkontakt starke Kontaktallergie und Sensibilisierung auslösen — vor längerer äußerlicher Anwendung Epicutantest durchführen. Bei Rötung, Blasenbildung oder Juckreiz sofort abbrechen.",
+          "en": "COMPRESS (external): boil 10 g dried elecampane root in 500 ml water for 15 minutes, strain, cool to hand-warm. Soak a clean linen cloth, wring lightly and apply to affected areas (joints, poorly healing wounds, furuncles, scabies). Leave on 15–20 minutes, 2–3× daily. Folk use for inflamed joints (mild arthritis), poorly healing wounds and skin infections. WARNING: sesquiterpene lactones can cause severe contact allergy and sensitisation with prolonged skin contact — perform patch test before extended external use. Discontinue immediately if redness, blistering or itching occurs."
+        }
+      },
+      "description": {
+        "de": "Äußerlicher Wurzelumschlag bei Gelenkentzündungen, schlecht heilenden Wunden und Hautinfektionen — hohes Kontaktallergiepotenzial der Sesquiterpenlactone beachten.",
+        "en": "External root compress for joint inflammation, poorly healing wounds and skin infections — high contact-allergen potential of sesquiterpene lactones must be observed."
+      },
+      "source_ids": [
+        "src_pfaf_inula",
+        "src_madaus_inula",
+        "src_wp_de_alant"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "KÜCHE / LIKÖR: Frische oder getrocknete Alantwurzel wird in der traditionellen Likörherstellung (Alantlikör, Ratafiat d'Aunée in Frankreich) eingesetzt — Wurzelscheiben mit Zucker und Weinbrand 4–6 Wochen ansetzen, filtrieren. Historisch auch kandiert ('Elfwort candy' in England, 'Aulnée sucrée' in Frankreich) als Hustenbonbon und Verdauungshilfe nach dem Essen. Getrocknete Wurzel in kleinen Mengen als bitter-aromatisches Gewürz für Kräuterbitter, Vermouth und Aperitif-Spirituosen. Inulins (Fructooligosaccharide) machen Alantwurzel zu einem traditionellen präbiotischen Lebensmittel — in kleinen Mengen als Gemüse gekocht (z. B. in Japan als Gobō-Ersatz) essbar, in größeren Mengen wegen fermentativer Blähwirkung im Darm zu meiden.",
+          "en": "KITCHEN / LIQUEUR: Fresh or dried elecampane root is used in traditional liqueur production (elecampane liqueur, Ratafiat d'Aunée in France) — root slices macerated with sugar and brandy for 4–6 weeks, then filtered. Historically also candied ('elfwort candy' in England, 'Aulnée sucrée' in France) as a cough sweet and post-meal digestive. Dried root in small amounts as a bitter-aromatic spice for herbal bitters, vermouth and aperitif spirits. Inulins (fructooligosaccharides) make elecampane root a traditional prebiotic food — edible in small amounts cooked as a vegetable; in larger amounts may cause fermentative bloating."
+        }
+      },
+      "description": {
+        "de": "Historische Küchenanwendung: Alantwurzel als Gewürz für Kräuterliköre, kandiertes Hustenmittel und präbiotisches Gemüse in kleinen Mengen.",
+        "en": "Historical culinary use: elecampane root as spice for herbal liqueurs, candied cough remedy and prebiotic vegetable in small amounts."
+      },
+      "source_ids": [
+        "src_wp_en_elecampane",
+        "src_pfaf_inula",
+        "src_madaus_inula"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "immune",
+        "fever",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "MISCH-ERKÄLTUNGSTEE: Alantwurzel (1–2 g) gemeinsam mit Thymian oder Spitzwegerich zu einem Erkältungs- und Fieberinfus abkochen (10 Minuten köcheln, abseihen). 3× täglich warm trinken bei Erkältungen, Grippe-ähnlichen Infekten und fieberhaften Atemwegserkrankungen. Volkstradition in Mittel- und Westeuropa — Alant galt als 'Allheilmittel' (Panazee) im Mittelalter (vgl. Hildegard von Bingen, Physica ca. 1150 n. Chr.). Antibakterielles Potenzial des Alantolactons in vitro beschrieben (inkl. gegen Mycobacterium tuberculosis), jedoch keine klinischen Humanstudien — traditionelle Evidenz. Nicht als Ersatz für ärztliche Behandlung bei schweren Infektionen.",
+          "en": "MIXED COLD/FLU TEA: Elecampane root (1–2 g) combined with thyme or ribwort plantain, simmered as a cold and fever infusion (10 minutes, then strained). Drink warm 3× daily for colds, flu-like infections and febrile respiratory illness. Folk tradition in Central and Western Europe — elecampane was regarded as a 'panacea' in the Middle Ages (cf. Hildegard von Bingen, Physica c. 1150 CE). Antibacterial potential of alantolactone described in vitro (incl. against Mycobacterium tuberculosis), but no clinical human trials — traditional evidence only. Not a substitute for medical treatment of severe infections."
+        }
+      },
+      "description": {
+        "de": "Mittelalterliche Volkstradition: Alant-Mischkräutertee bei Erkältungen und fieberhaften Infekten — in vitro antimikrobielle Eigenschaften, keine klinischen Belege.",
+        "en": "Medieval folk tradition: elecampane mixed-herb tea for colds and febrile infections — in vitro antimicrobial properties, no clinical evidence."
+      },
+      "source_ids": [
+        "src_madaus_inula",
+        "src_wp_en_elecampane",
+        "src_wp_de_alant",
+        "src_pfaf_inula"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Wurzelstock (Herbst)",
+      "en": "rhizome (autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG — KONTAKTALLERGIE-RISIKO: Die Sesquiterpenlactone des Alants (Alantolacton, Isoalantolacton, Dihydroisoalantolacton) gehören zu den stärksten pflanzlichen Kontaktallergenen der Korbblütler-Familie (Asteraceae). Schon kurzer Hautkontakt mit frischem Wurzelsaft oder Pflanzenmaterial kann bei sensibilisierten Personen schwere allergische Kontaktdermatitis auslösen. Einnahme: Bei Asteraceae-Allergie (Beifuß, Kamille, Arnika, Sonnenhut) ist auch eine innere Anwendung zu meiden — kreuzallergische Reaktionen möglich. Erste Anwendung immer mit niedrigster Dosis; bei Hautreizungen, Juckreiz, Schwellungen, Atembeschwerden oder Magen-Darm-Beschwerden SOFORT absetzen und ärztliche Hilfe aufsuchen. Kommission E hat Alant wegen unzureichendem Nutzen-Risiko-Verhältnis NICHT positiv bewertet (Negativmonographie). Kein EMA-Monograph vorhanden. Keine Langzeitanwendung ohne ärztliche Begleitung.",
+      "en": "IMPORTANT — CONTACT ALLERGY RISK: The sesquiterpene lactones of elecampane (alantolactone, isoalantolactone, dihydroisoalantolactone) are among the most potent plant contact allergens in the Asteraceae family. Even brief skin contact with fresh root juice or plant material can trigger severe allergic contact dermatitis in sensitised persons. Internal use: in Asteraceae allergy (mugwort, chamomile, arnica, echinacea), internal use should also be avoided — cross-allergic reactions are possible. Always start with the lowest dose; discontinue IMMEDIATELY and seek medical advice if skin irritation, itching, swelling, breathing difficulties or gastrointestinal complaints occur. Kommission E did NOT assess elecampane positively (negative monograph) due to insufficient benefit-risk ratio. No EMA monograph exists. No long-term use without medical supervision."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Alantwurzel-Zubereitungen sind in der Schwangerschaft kontraindiziert. Sesquiterpenlactone und ätherisches Öl können uterusstimulierend wirken. Historisch in der Volksmedizin als Emmenagogum (menstruationsfördernd) und in hohen Dosen als Abortivum verwendet — niemals in der Schwangerschaft anwenden.",
+        "en": "Elecampane root preparations are contraindicated in pregnancy. Sesquiterpene lactones and essential oil may stimulate uterine contractions. Historically used in folk medicine as an emmenagogue and at high doses as an abortifacient — never use during pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Sicherheit in der Stillzeit nicht belegt. Sesquiterpenlactone können in die Muttermilch übergehen und beim Säugling allergische oder toxische Reaktionen verursachen. Anwendung in der Stillzeit daher kontraindiziert.",
+        "en": "Safety during lactation is not established. Sesquiterpene lactones may pass into breast milk and cause allergic or toxic reactions in the infant. Use during lactation is therefore contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Alantwurzel-Zubereitungen sind für Kinder und Jugendliche unter 18 Jahren nicht geeignet — keine Sicherheitsdaten, hohes Allergiepotenzial der Sesquiterpenlactone, Risiko gastrointestinaler Nebenwirkungen. Äußerliche Anwendung (Umschläge) ebenfalls kontraindiziert wegen Kontaktsensibilisierungsrisiko.",
+        "en": "Elecampane root preparations are not suitable for children and adolescents under 18 — no safety data, high allergy potential of sesquiterpene lactones, risk of gastrointestinal side effects. External use (compresses) is also contraindicated due to risk of contact sensitisation."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Allergie gegen Alant (Inula helenium) oder andere Korbblütler (Asteraceae/Compositae), insbesondere Arnika, Kamille, Beifuß, Sonnenhut oder Ringelblume.",
+        "en": "Allergy to elecampane (Inula helenium) or other Asteraceae/Compositae, especially arnica, chamomile, mugwort, echinacea or calendula."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (alle Zubereitungen, intern und extern).",
+        "en": "Pregnancy and lactation (all preparations, internal and external)."
+      },
+      {
+        "de": "Kinder und Jugendliche unter 18 Jahren.",
+        "en": "Children and adolescents under 18 years of age."
+      },
+      {
+        "de": "Schwere Leber- oder Gallenerkrankungen (Gallensteine, akute Cholezystitis) — choleretische Wirkung kann Koliken auslösen.",
+        "en": "Severe liver or gallbladder disease (gallstones, acute cholecystitis) — the choleretic effect may trigger colic."
+      },
+      {
+        "de": "Bekannte Überempfindlichkeit gegen Sesquiterpenlactone (Alantolacton-Typ) — auch bei Erstanwendung Hauttestung empfohlen.",
+        "en": "Known hypersensitivity to sesquiterpene lactones (alantolactone type) — patch test recommended even on first use."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antidiabetika und Insulin",
+        "mechanism": {
+          "de": "Inulin (bis zu 44 % in der Trockenwurzel) ist ein prebiotisches Fructooligosaccharid mit nachgewiesener blutzuckersenkender Wirkung bei regelmäßiger Einnahme. In Kombination mit Antidiabetika oder Insulin additiv blutzuckersenkend — Risiko von Hypoglykämien. Blutzucker regelmäßig kontrollieren; ggf. Dosisanpassung durch den Arzt.",
+          "en": "Inulin (up to 44 % in the dried root) is a prebiotic fructooligosaccharide with demonstrated blood-glucose-lowering effect on regular intake. Additive hypoglycaemic effect when combined with antidiabetics or insulin — risk of hypoglycaemia. Monitor blood glucose regularly; dose adjustment by physician may be required."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_inulae_radix"
+      },
+      {
+        "drug_class": "Hepatotoxische Arzneimittel (z. B. Paracetamol, Isoniazid, Statine, Methotrexat)",
+        "mechanism": {
+          "de": "Hohe Dosen von Alantwurzel-Zubereitungen können bei Überdosierung hepatotoxisch wirken (Sesquiterpenlactone). Kombination mit anderen potenziell lebertoxischen Substanzen erhöht das Risiko einer Leberschädigung. Leber- und Nierenwerte überwachen bei gleichzeitiger Langzeitanwendung.",
+          "en": "High doses of elecampane root preparations may be hepatotoxic in overdose (sesquiterpene lactones). Combination with other potentially hepatotoxic substances increases the risk of liver damage. Monitor liver and kidney parameters with concurrent long-term use."
+        },
+        "severity": "caution",
+        "source_id": "src_haensel_sticher"
+      },
+      {
+        "drug_class": "Sedativa und Hypnotika (Benzodiazepine, Z-Substanzen, Barbiturate)",
+        "mechanism": {
+          "de": "Alant besitzt in der Volksmedizin leicht sedierende Eigenschaften. Eine potenzielle additive Wirkungsverstärkung mit Sedativa ist theoretisch möglich — Vorsicht bei gleichzeitiger Anwendung. Klinische Daten fehlen; Evidenz nur aus traditioneller Nutzung.",
+          "en": "Elecampane has mildly sedating properties in folk medicine. Potential additive enhancement with sedatives is theoretically possible — caution with concurrent use. Clinical data are lacking; evidence from traditional use only."
+        },
+        "severity": "monitor",
+        "source_id": "src_pfaf_inula"
+      }
+    ]
+  },
+  "classical_quotes": [
+    {
+      "author": "Hildegard von Bingen",
+      "year": 1150,
+      "license": "PD",
+      "text_de": "Wer ein schwaches Lungenleiden hat, der koche Alantwurzel in reinem Wein und trinke ihn warm.",
+      "text_en": "Whoever has a weak lung complaint should boil elecampane root in pure wine and drink it warm.",
+      "work": "Physica, Liber I (De Plantis)",
+      "chapter": "Cap. 96 — De Enula campana / Vom Alant"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter Alant (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Alant",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Inula helenium (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Inula_helenium",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_escop_inulae_radix",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Inulae radix (Elecampane Root), 2nd edition 2003 / Supplement 2009",
+      "url": "https://escop.com/downloads/elecampane-root/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_teedrogen",
+      "type": "book",
+      "title": "Wichtl, Max (Hrsg.) — Teedrogen und Phytopharmaka: Ein Handbuch für die Praxis auf wissenschaftlicher Grundlage, 5. Aufl. 2009, Wissenschaftliche Verlagsgesellschaft Stuttgart — Inulae radix (S. 313–316)",
+      "url": "https://www.wissenschaftliche.de/teedrogen-und-phytopharmaka",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_haensel_sticher",
+      "type": "book",
+      "title": "Hänsel, Rudolf; Sticher, Otto — Pharmakognosie – Phytopharmazie, 9. Aufl. 2010, Springer Medizin — Abschnitt Inula helenium / Sesquiterpenlactone (S. 885–888)",
+      "url": "https://link.springer.com/book/9783642006951",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_inula",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band I: Inula helenium (Echter Alant), 1938, Leipzig (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/inula.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_inula",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Inula helenium database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Inula+helenium",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_alant",
+      "type": "wikipedia",
+      "title": "Echter Alant (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Alant",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_elecampane",
+      "type": "wikipedia",
+      "title": "Inula helenium — Elecampane (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Inula_helenium",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_inula",
+      "type": "wikidata",
+      "title": "Inula helenium — Wikidata item Q160742",
+      "url": "https://www.wikidata.org/wiki/Q160742",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_inula_negativ",
+      "type": "monograph",
+      "title": "Kommission E — Inulae radix (Alantwurzel), Negativmonographie, BAnz Nr. 228, 1986",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/inulae-radix.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_khan_elecampane_2009",
+      "type": "monograph",
+      "title": "Khan, Ikhlas A.; Abourashed, Ehab A. — Leung's Encyclopedia of Common Natural Ingredients, 3rd ed. 2010 — Elecampane (pp. 222–224), Wiley",
+      "url": "https://www.wiley.com/en-us/Leung%27s+Encyclopedia+of+Common+Natural+Ingredients%2C+3rd+Edition-p-9780471467434",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "inula-helenium.jpg",
+    "alt": {
+      "de": "Gelbe Strahlenblüten des Alants",
+      "en": "Yellow ray flowers of elecampane"
+    },
+    "license": "Public domain",
+    "author": "Köhler's Medizinal-Pflanzen (1887)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6hler_Inula_1887.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Alantolacton und Isoalantolacton (Sesquiterpenlactone, Eudesmanolid-Typ)",
+      "category": "sesquiterpene",
+      "percent_range": "1-4 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Leitsubstanzen des Echten Alants. Alantolacton und Isoalantolacton sind bicyclische Eudesmanolide mit starkem Kontaktallergiepotenzial — gehören zu den häufigsten Ursachen phytogener Kontaktdermatitis bei Gärtnern und Heilpflanzenpraktikern. In vitro antimikrobiell (u. a. gegen Mycobacterium tuberculosis und Staphylococcus aureus), antifungal und in Tierversuchen anthelmintisch (Wurmmittel). Klinisch keine ausreichenden Humanstudien.",
+        "en": "Lead compounds of true elecampane. Alantolactone and isoalantolactone are bicyclic eudesmanolides with strong contact-allergen potential — among the most common causes of phytogenic contact dermatitis in gardeners and herbalists. In vitro antimicrobial (incl. against Mycobacterium tuberculosis and Staphylococcus aureus), antifungal and anthelminthic in animal studies. Clinically insufficient human studies."
+      }
+    },
+    {
+      "name": "Inulin (Fructooligosaccharide, DP 2–60)",
+      "category": "polysaccharide",
+      "percent_range": "20-44 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Mengenhauptkomponente der Wurzel — bis zu 44 % in der getrockneten Herbstwurzel. Wasserlösliches Fructan (β-2,1-glycosidisch verknüpfte Fructose-Ketten). Nicht resorbierbar im Dünndarm, wird im Dickdarm von Bifidobacterien fermentiert (prebiotischer Effekt). Verantwortlich für den süßlichen Geschmack und leichten Karamellton des Dekokts (Bildung von Fructose und HMF beim Erhitzen). Forschungsobjekt als Diabetiker-Zuckerersatz und Nahrungsergänzung.",
+        "en": "Quantitatively dominant component of the root — up to 44 % in the dried autumn root. Water-soluble fructan (β-2,1-linked fructose chains). Not absorbed in the small intestine, fermented in the colon by bifidobacteria (prebiotic effect). Responsible for the sweetish taste and slight caramel note of the decoction (fructose and HMF formation on heating). Research subject as a diabetic sugar substitute and food supplement."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Alantcampher / Alantol, Azulen-Precursoren)",
+      "category": "essential_oil",
+      "percent_range": "1-3 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Komplex aus bicyclischen Sesquiterpenen und Sesquiterpenalkohole (Alantol, Dihydroisoalantolacton, Eugenol-Spuren). Das charakteristisch süß-würzig-campherartige Aroma stammt aus diesen flüchtigen Bestandteilen. Antimikrobielle Eigenschaften in vitro; bei der Wasserdampfdestillation der Wurzel entsteht Azulen (blau, antiinflammatorisch) als Abbauprodukt. Basis des historischen Parfüm-Inhaltsstoffs 'Alantcampher' in der Riechmittelindustrie.",
+        "en": "Complex of bicyclic sesquiterpenes and sesquiterpene alcohols (alantol, dihydroisoalantolactone, traces of eugenol). The characteristic sweet-spicy-camphoraceous aroma derives from these volatiles. Antimicrobial properties in vitro; steam distillation of the root yields azulene (blue, anti-inflammatory) as a degradation product. Basis of the historical perfume ingredient 'alant camphor' in the fragrance industry."
+      }
+    },
+    {
+      "name": "Helenin (Gemisch von Alantolacton + Isoalantolacton, historische Bezeichnung)",
+      "category": "sesquiterpene",
+      "percent_range": "1-4 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Historisch-pharmakognostischer Begriff für das rohe Sesquiterpen-Lacton-Gemisch aus Alantwurzel, wie es im 19. und frühen 20. Jahrhundert als Anthelmintikum (Wurmmittel) isoliert und eingesetzt wurde. Entspricht heute dem analytisch getrennten Alantolacton/Isoalantolacton-Paar. Wegen starker Allergenität und toxischer Wirkung bei Überdosierung aus dem medizinischen Gebrauch weitgehend verschwunden.",
+        "en": "Historical pharmacognostic term for the crude sesquiterpene lactone mixture from elecampane root, isolated and used as an anthelmintic in the 19th and early 20th century. Corresponds to the analytically separated alantolactone/isoalantolactone pair. Largely withdrawn from medical use due to strong allergenicity and toxic effects in overdose."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Kaffeesäure, Chlorogensäure, Hydroxyzimtsäure-Derivate)",
+      "category": "phenolic_acid",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Antioxidative Begleitstoffe der Alantwurzel. Kaffeesäure-Derivate hemmen in vitro die Lipoxygenase (antiinflammatorischer Beitrag). Chlorogensäure ist ein bekannter Hemmer der Glucose-6-Phosphatase und trägt zur blutzuckersenkenden Gesamtwirkung des Inulin-Kaffeesäure-Komplexes bei. Sinken nach der Trocknung und Lagerung der Droge ab.",
+        "en": "Antioxidant accompanying compounds of the elecampane root. Caffeic acid derivatives inhibit lipoxygenase in vitro (anti-inflammatory contribution). Chlorogenic acid is a known inhibitor of glucose-6-phosphatase and contributes to the overall blood-glucose-lowering effect of the inulin-caffeic acid complex. Decrease after drying and storage of the crude drug."
+      }
+    },
+    {
+      "name": "Triterpene und Phytosterole (β-Sitosterol, Stigmasterol, Dammarandiol)",
+      "category": "other",
+      "percent_range": "0.5-1 %",
+      "plant_part": "root",
+      "note": {
+        "de": "β-Sitosterol und Stigmasterol sind ubiquitäre Phytosterole mit mild antiinflammatorischen und immunmodulierenden Eigenschaften. Dammarandiol ist ein tetracyclisches Triterpen; seine Funktion in Inula helenium ist wenig erforscht. Beitragen zur Gesamtmatrix des Vollextrakts ohne dominierende pharmakologische Einzelwirkung.",
+        "en": "β-Sitosterol and stigmasterol are ubiquitous phytosterols with mildly anti-inflammatory and immunomodulating properties. Dammarandiol is a tetracyclic triterpene; its function in Inula helenium is poorly researched. They contribute to the whole-extract matrix without a dominant single pharmacological effect."
+      }
+    },
+    {
+      "name": "Bitterstofffe / Bittersäuren (nicht-lacton-gebundene Terpenbitterstoffe)",
+      "category": "bitter",
+      "percent_range": "0.3-1 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Bitter-aromatische Terpenverbindungen ohne abgeschlossene Lactonstruktur, verantwortlich für die choleretische und appetitanregende Wirkung in der volksheilkundlichen Anwendung als Bittertonikum (Amarum aromaticum). Wirken auf TAS2R-Bittergeschmacksrezeptoren und stimulieren reflektorisch Gallen- und Magensaftsekretion.",
+        "en": "Bitter-aromatic terpene compounds without a closed lactone structure, responsible for the choleretic and appetising effect in the folk-medicinal use as a bitter tonic (Amarum aromaticum). Act on TAS2R bitter taste receptors and reflexively stimulate bile and gastric secretion."
+      }
+    },
+    {
+      "name": "Schleimpolysaccharide (saure Heteroglykane, nicht-Inulin-Fraktion)",
+      "category": "mucilage",
+      "percent_range": "1-3 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Begleitende Schleimfraktion der Alantwurzel — heterogene saure Polysaccharide (Arabinogalaktane, Pektinstoffe). Wirken mild reizlindernd auf Schleimhäute des Atemwegs- und Verdauungstrakts und ergänzen die schleimlösende Sesquiterpen-Wirkung. Gehen ins Wasserdekokt über, werden durch Ethanol in Tinkturen weniger gut extrahiert.",
+        "en": "Accompanying mucilage fraction of the elecampane root — heterogeneous acidic polysaccharides (arabinogalactans, pectic substances). Mildly demulcent on mucosae of the respiratory and digestive tract, complementing the mucolytic sesquiterpene effect. Extracted into the water decoction; less well extracted into tinctures with ethanol."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Trockene Herbsttage (Oktober bevorzugt) — Inulingehalt ist im Herbst nach dem Blüten am höchsten (bis 44 % in der Trockenwurzel). Morgens nach Abtrocknen des Taus ernten. Zweijährige oder ältere Pflanzen bevorzugen — im ersten Jahr ist der Wurzelstock noch zu klein und inulinarm.",
+        "en": "Dry autumn days (October preferred) — inulin content is highest in autumn after flowering (up to 44 % in the dried root). Harvest in the morning after dew has dried. Prefer biennial or older plants — in the first year the rhizome is still too small and inulin-poor."
+      },
+      "drying": {
+        "de": "Wurzelstock ausgraben (Grabegabel, tief einstechen — Pfahlwurzel kann >50 cm tief reichen), Erde abschütteln und mit Bürste säubern, grobe Seitenwurzeln trennen. Wurzel in 0,5–1 cm dicke Scheiben oder Längsstreifen schneiden (frisch leichter zu schneiden als getrocknet). Einlagig auf Gitter oder Siebe legen, Dörrgerät bei 40–50 °C oder Backofen bei leicht geöffneter Tür 8–12 Stunden trocknen, bis die Scheiben beim Biegen brechen. Alternativ: Streifen bündeln und luftig aufhängen (nur bei sehr trockenem Herbstwetter, Schimmelgefahr). Ätherisches Öl verflüchtigt sich bei >60 °C — Trocknungstemperatur einhalten. WICHTIG: Beim Schneiden und Trocknen Handschuhe und Atemschutz tragen — frischer Wurzelsaft enthält hochkonzentrierte Sesquiterpenlactone und kann bereits bei Erstkontakt Sensibilisierung auslösen.",
+        "en": "Dig out the rhizome (digging fork, push deep — the taproot can reach >50 cm), shake off soil and clean with a brush, separate coarse side roots. Cut the root into 0.5–1 cm slices or strips (easier to cut fresh than dried). Lay in a single layer on racks or screens; dry in a dehydrator at 40–50 °C or oven with door slightly ajar for 8–12 hours until slices snap when bent. Alternatively, bundle strips and hang to air-dry (only in very dry autumn weather — mould risk). Essential oil evaporates above 60 °C — observe drying temperature. IMPORTANT: wear gloves and respiratory protection when cutting and drying — fresh root juice contains highly concentrated sesquiterpene lactones and can cause sensitisation even on first contact."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Luftdicht in dunklen Glas- oder Keramikgefäßen, trocken, kühl (<20 °C) und lichtgeschützt. Gut getrocknete Droge hält 2 Jahre — Inulingehalt bleibt stabil, ätherisches Öl nimmt leicht ab. Bei Feuchtigkeitsaufnahme (Verklumpen) oder muffigem Geruch entsorgen. Getrennt von anderen Drogen aufbewahren wegen Geruchabgabe.",
+        "en": "Airtight in dark glass or ceramic containers, dry, cool (<20 °C) and protected from light. Well-dried drug keeps for 2 years — inulin content remains stable, essential oil decreases slightly. Discard if moisture absorption (clumping) or musty smell occurs. Store separately from other herbs due to aroma transfer."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Sonnige Vormittage im Hochsommer (Juli–August) — frisch aufgeblühte Blütenköpfe ernten, wenn die Strahlenblüten vollständig geöffnet sind. Sammelfenster kurz (jede Pflanze blüht nur 1–2 Wochen). Blüten werden volksmedizinisch weniger als Droge eingesetzt als die Wurzel — gelegentlich als Teebeimischung.",
+        "en": "Sunny mornings in high summer (July–August) — pick freshly opened flower heads when the ray florets are fully open. Collection window is short (each plant flowers for only 1–2 weeks). Flowers are used less as a medicinal drug than the root — occasionally as a tea blend."
+      },
+      "drying": {
+        "de": "Blütenköpfe direkt nach der Ernte einlagig auf Gitter ausbreiten und rasch bei 30–35 °C im Schatten trocknen (keine direkte Sonne — Chlorophyll und Flavonoide bleiben besser erhalten). Oder in Dörrgerät bei max. 35 °C. Sehr feuchtigkeitsempfindlich — Schimmelgefahr bei >50 % relativer Luftfeuchtigkeit. Pollenallergen: Wer auf Korbblütlerpollen allergisch reagiert, sollte auch getrocknete Blüten mit Schutzhandschuhen handhaben. Getrocknete Blüten können Teedrogen beigemischt werden (Erkältungstees, Hustenmischungen).",
+        "en": "Spread flower heads immediately after harvesting in a single layer on racks and dry quickly at 30–35 °C in shade (no direct sun — better preservation of chlorophyll and flavonoids). Or use a dehydrator at max. 35 °C. Very sensitive to moisture — mould risk above 50 % relative humidity. Pollen allergen: those allergic to Asteraceae pollen should handle dried flowers with protective gloves. Dried flowers can be blended into herbal teas (cold teas, cough blends)."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht in dunklen Gläsern oder Pergaminbeuteln, kühl und trocken. Innerhalb 1 Jahr aufbrauchen — Pollengehalt und Flavonoide nehmen nach 12 Monaten deutlich ab. Bei Verfärbung oder muffigem Geruch entsorgen.",
+        "en": "Airtight in dark jars or parchment bags, cool and dry. Use within 1 year — pollen content and flavonoids decrease noticeably after 12 months. Discard if discolouration or musty smell."
+      }
+    }
+  ]
+}

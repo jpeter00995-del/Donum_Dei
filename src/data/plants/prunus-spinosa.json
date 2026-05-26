@@ -1,0 +1,378 @@
+{
+  "slug": "prunus-spinosa",
+  "names": {
+    "de": "Schlehdorn",
+    "en": "Prunus spinosa",
+    "latin": "Prunus spinosa"
+  },
+  "family": {
+    "de": "Rosengewächse",
+    "en": "Rose family",
+    "latin": "Rosaceae"
+  },
+  "description": {
+    "de": "Der Schlehdorn, auch Schwarzdorn, Schlehe, Schlehendorn, Heckendorn oder Sauerpflaume genannt, ist eine Pflanzenart aus der Gattung Prunus, die zur Tribus der Steinobstgewächse (Amygdaleae) innerhalb der Familie der Rosengewächse (Rosaceae) gehört. Die Art gilt als sehr variabel und neigt zudem zur Hybridbildung mit der Kulturpflaume und anderen Prunusarten. Schlehdorn eignet sich sehr gut für dichte Hecken, die wegen der vielen Dornen weitgehend undurchdringlich sind.",
+    "en": "Prunus spinosa, called blackthorn or sloe, is a species of flowering plant in the rose family, Rosaceae. It is native to Europe and West Asia, and has been naturalized in parts of North America."
+  },
+  "teaser": {
+    "de": "Der Schlehdorn, auch Schwarzdorn, Schlehe, Schlehendorn, Heckendorn oder Sauerpflaume genannt, ist eine Pflanzenart a...",
+    "en": "Prunus spinosa, called blackthorn or sloe, is a species of flowering plant in the rose family, Rosaceae."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Aufguss aus getrockneten Schlehfrüchten als Mundspülung oder Gurgellösung bei leichten Entzündungen der Mund- und Rachenschleimhaut. Die Kommission E hat eine Positivmonographie für Pruni spinosae fructus für diese äußerliche Indikation ausgestellt.",
+        "en": "Infusion of dried sloe fruits used as a mouthwash or gargle for mild inflammation of the oral and pharyngeal mucosa. The German Commission E issued a positive monograph for Pruni spinosae fructus for this external indication."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 200,
+        "steep_min": 15,
+        "instructions": {
+          "de": "2–4 g getrocknete, entsteinte Früchte mit 200 ml kochendem Wasser aufgießen, 15 Minuten ziehen lassen, abseihen. Abkühlen und mehrmals täglich gurgeln.",
+          "en": "Pour 200 ml boiling water over 2–4 g dried, stoned fruits, steep 15 minutes, strain. Cool and gargle several times daily."
+        }
+      },
+      "source_ids": [
+        "src_komm_e_prunus",
+        "src_pfaf_prunus",
+        "src_wp_de_prunus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Blütenaufguss bei Magen-Darm-Beschwerden, leichter Verstopfung und Blasen-Nieren-Unterstützung. Volksheilkundlich über Jahrhunderte überliefert; Kommission-E-Negativmonographie wegen fehlender Wirksamkeitsbelege, keine Sicherheitsbedenken.",
+        "en": "Flower infusion for digestive complaints, mild constipation and bladder-kidney support. Recorded in folk medicine for centuries; Commission E negative monograph due to insufficient efficacy evidence, no safety concerns identified."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "1–2 g getrocknete Blüten (kurz nach dem Aufblühen geerntet) mit 200 ml kochendem Wasser übergießen, 10 Minuten ziehen lassen, abseihen.",
+          "en": "Pour 200 ml boiling water over 1–2 g of dried flowers (harvested just after opening), steep 10 minutes, strain."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_prunus",
+        "src_wp_de_prunus",
+        "src_arzneipflanzen_prunus"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Schlehen nach dem ersten Frost roh gegessen oder als Konfitüre und Saft verarbeitet. Der Frost (oder Tiefkühlen) setzt den Gerbstoffgehalt von ca. 10 g/l auf unter 5 g/l herab und mildert die extreme Adstringenz. Traditionell als Stärkungsmittel nach Infektionskrankheiten verwendet.",
+        "en": "Sloes eaten raw after the first frost or processed as jam and juice. Frost (or freezing) reduces the tannin content from approx. 10 g/l to below 5 g/l and alleviates the extreme astringency. Traditionally used as a tonic after infectious illnesses."
+      },
+      "source_ids": [
+        "src_wp_de_prunus",
+        "src_wp_en_prunus",
+        "src_pfaf_prunus"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Schlehenlikör oder -geist (Sloe Gin) aus reifen, gefrosteten Früchten; volksheilkundlich als Magenbitter und Aufbaumittel nach Erschöpfung eingesetzt. Kein therapeutischer Beleg, jedoch Teil langer europäischer Überlieferung.",
+        "en": "Sloe liqueur or spirit (sloe gin) from ripe, frosted fruits; used in folk medicine as a digestive bitters and restorative after exhaustion. No therapeutic proof, but part of a long European tradition."
+      },
+      "source_ids": [
+        "src_wp_en_prunus",
+        "src_arzneipflanzen_prunus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "fever",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Blütenaufguss traditionell als schweißtreibendes und fiebersenkendes Mittel bei Erkältungskrankheiten. PFAF dokumentiert diaphoretische und fiebersenkende Eigenschaften der Blüten.",
+        "en": "Flower infusion traditionally used as a diaphoretic and febrifuge for colds. PFAF documents diaphoretic and febrifuge properties of the flowers."
+      },
+      "source_ids": [
+        "src_pfaf_prunus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Blütenaufguss volksheilkundlich als mildes Diuretikum bei Blasen- und Nierenbeschwerden eingesetzt. PFAF beschreibt die Blüten als aperient (abführend), diuretisch und depurativ.",
+        "en": "Flower infusion used in folk medicine as a mild diuretic for bladder and kidney complaints. PFAF describes the flowers as aperient, diuretic and depurative."
+      },
+      "source_ids": [
+        "src_pfaf_prunus",
+        "src_wp_de_prunus"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      4,
+      5,
+      10,
+      11
+    ],
+    "harvest_part": {
+      "de": "Blüten (April-Mai), Früchte nach Frost (Spätherbst)",
+      "en": "flowers (April-May), fruits after frost (late autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG: Kerne der Schlehen enthalten das Blausäureglykosid Amygdalin. Kerne niemals zerkauen oder mahlen; nur Fruchtfleisch verwenden. Blätter ebenfalls Amygdalin-haltig – nicht als Tee verwenden. Früchte vor Frost stark adstringierend; nach Frost oder Einfrieren wesentlich milder.",
+      "en": "IMPORTANT: The stones of sloes contain the cyanogenic glycoside amygdalin. Never crush or grind the stones; use the fruit flesh only. Leaves also contain amygdalin – do not use as tea. Fruits are strongly astringent before frost; much milder after frost or freezing."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Sicherheitsdaten für medizinische Anwendung in der Schwangerschaft. Schlehenfrüchte als Lebensmittel (ohne Kerne) in üblichen Mengen unbedenklich.",
+        "en": "Insufficient safety data for medicinal use during pregnancy. Sloe fruits as food (without stones) in customary amounts are safe."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine systematischen Daten. Früchte als Lebensmittel in kleinen Mengen vertretbar.",
+        "en": "No systematic data. Fruits as food in small amounts are acceptable."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Kinder unter 18 Jahren: bei medizinischer Anwendung kein ausreichender Sicherheitsnachweis. Früchte als Konfitüre in kleinen Mengen unbedenklich; Kerne unbedingt meiden.",
+        "en": "Children under 18: insufficient safety evidence for medicinal use. Fruits as jam in small amounts are safe; stones must be avoided."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegenüber Rosaceae.",
+        "en": "Hypersensitivity to Rosaceae."
+      },
+      {
+        "de": "Zerkleinerte oder gemahlene Kerne (Amygdalin-Freisetzung führt zu Blausäurevergiftung).",
+        "en": "Crushed or ground stones (amygdalin release causes cyanide poisoning)."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Schlehdorn (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schlehdorn",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Prunus spinosa (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Prunus_spinosa",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_komm_e_prunus",
+      "type": "monograph",
+      "title": "Kommission E Monographie – Pruni spinosae fructus – Äußerliche Anwendung bei Mund-/Rachenentzündungen (via PFAF, Arzneipflanzenlexikon)",
+      "url": "https://arzneipflanzenlexikon.info/schlehdorn.php",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_prunus",
+      "type": "book",
+      "title": "Plants For A Future – Prunus spinosa",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Prunus+spinosa",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_prunus",
+      "type": "wikipedia",
+      "title": "Schlehdorn (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schlehdorn",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_en_prunus",
+      "type": "wikipedia",
+      "title": "Prunus spinosa (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Prunus_spinosa",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_arzneipflanzen_prunus",
+      "type": "book",
+      "title": "Arzneipflanzen-Lexikon – Schlehdorn (Prunus spinosa)",
+      "url": "https://arzneipflanzenlexikon.info/schlehdorn.php",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "prunus-spinosa.jpg",
+    "alt": {
+      "de": "Foto von Schlehdorn",
+      "en": "Photo of Prunus spinosa"
+    },
+    "license": "See Commons file page",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:prunus-spinosa.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Amygdalin",
+      "category": "glycoside",
+      "plant_part": "seed",
+      "note": {
+        "de": "Cyanogenes Glykosid in den Kernen; wird bei Zerkleinern enzymatisch zu Blausäure abgebaut. Im Fruchtfleisch nur Spuren.",
+        "en": "Cyanogenic glycoside in the stones; enzymatically cleaved to hydrogen cyanide upon crushing. Only trace amounts in the fruit flesh."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine)",
+      "category": "tannin",
+      "plant_part": "fruit",
+      "percent_range": "0.5-1.0 %",
+      "note": {
+        "de": "Hauptverantwortlich für die extreme Adstringenz vor dem Frost; Gehalt sinkt durch Frost von ~10 g/l auf unter 5 g/l im Fruchtsaft.",
+        "en": "Primarily responsible for the extreme astringency before frost; content drops from ~10 g/l to below 5 g/l in the juice after frost."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin, Rutin)",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Flavonoide in den Blüten; tragen zu adstringierenden und antioxidativen Eigenschaften bei.",
+        "en": "Flavonoids in the flowers; contribute to astringent and antioxidant properties."
+      }
+    },
+    {
+      "name": "Anthocyane",
+      "category": "flavonoid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Verantwortlich für die tiefblaue bis schwarze Färbung der reifen Schlehen; antioxidativ.",
+        "en": "Responsible for the deep blue to black colour of ripe sloes; antioxidant."
+      }
+    },
+    {
+      "name": "Triterpene und Sterole",
+      "category": "other",
+      "plant_part": "flower",
+      "note": {
+        "de": "Sekundärmetabolite der Blüten; genaue pharmakologische Rolle noch nicht abschließend geklärt.",
+        "en": "Secondary metabolites of the flowers; exact pharmacological role not yet fully established."
+      }
+    },
+    {
+      "name": "Organische Säuren (Äpfelsäure, Citronensäure)",
+      "category": "phenolic_acid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptsäuren der reifen Früchte; verantwortlich für das säuerliche Geschmacksprofil und Beitrag zur Konservierung.",
+        "en": "Major acids of ripe fruits; responsible for the tart flavour profile and contributing to preservation."
+      }
+    },
+    {
+      "name": "Pektin",
+      "category": "polysaccharide",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Gelierfähiges Polysaccharid; wichtig für die Herstellung von Konfitüren und Gelees aus Schlehen.",
+        "en": "Gel-forming polysaccharide; important for the production of jams and jellies from sloes."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        3,
+        4
+      ],
+      "time_of_day": {
+        "de": "Morgens an trockenen Tagen; Blüten kurz nach dem Öffnen ernten, bevor die Pollen ausstäuben.",
+        "en": "Morning on dry days; harvest flowers shortly after opening, before the pollen disperses."
+      },
+      "drying": {
+        "de": "Sofort dünn auslegen und bei maximal 35 °C im Schatten oder Dörrgerät trocknen. Blüten sind sehr empfindlich.",
+        "en": "Spread immediately in a thin layer and dry in shade or dehydrator at max. 35 °C. Flowers are very delicate."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In Papiertüten oder luftdichten Gläsern kühl und dunkel lagern.",
+        "en": "Store in paper bags or airtight jars in a cool, dark place."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Nach den ersten Frösten (oder nach dem Einfrieren); idealerweise morgens ernten.",
+        "en": "After the first frosts (or after freezing); ideally harvest in the morning."
+      },
+      "drying": {
+        "de": "Früchte ohne Kerne bei 50–60 °C trocknen oder einfrieren. Kerne bei der Verarbeitung immer entfernen.",
+        "en": "Dry stoned fruits at 50–60 °C or freeze. Always remove the stones during processing."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Gefroren bis 2 Jahre; getrocknet in dunklen Gläsern 1 Jahr.",
+        "en": "Frozen up to 2 years; dried in dark jars 1 year."
+      }
+    }
+  ]
+}

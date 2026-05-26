@@ -1,0 +1,440 @@
+{
+  "slug": "hypericum-perforatum",
+  "names": {
+    "de": "Echtes Johanniskraut",
+    "en": "Hypericum perforatum",
+    "latin": "Hypericum perforatum"
+  },
+  "family": {
+    "de": "Hypericaceae",
+    "en": "St John's wort family",
+    "latin": "Hypericaceae"
+  },
+  "description": {
+    "de": "Das Echte Johanniskraut, auch Echt-Johanniskraut, Gewöhnliches Johanniskraut, Durchlöchertes Johanniskraut, Tüpfel-Johanniskraut oder Tüpfel-Hartheu, meist kurz Johanniskraut oder Johanneskraut genannt, ist eine Pflanzenart aus der Gattung der Johanniskräuter (Hypericum) innerhalb der Familie der Hypericaceae. Es findet seit langer Zeit Anwendung als Heilpflanze, heute vor allem als mildes Antidepressivum.",
+    "en": "Hypericum perforatum, commonly known as St. John's wort, is a flowering plant in the family Hypericaceae. It is a hairless, perennial herb with woody roots, yellow flowers marked by black glands, and leaves that appear perforated due to translucent glands, producing thousands of seeds per plant."
+  },
+  "teaser": {
+    "de": "Das Echte Johanniskraut, auch Echt-Johanniskraut, Gewöhnliches Johanniskraut, Durchlöchertes Johanniskraut, Tüpfel-Jo...",
+    "en": "Hypericum perforatum, commonly known as St."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system",
+        "mental"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "AUFGUSS: 1,5–2 g zerkleinertes getrocknetes Johanniskraut (blühende oberirdische Teile) mit 150 ml siedendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen. 2–3 mal täglich eine frisch zubereitete Tasse trinken, Tagesgesamtmenge 3–6 g. Bei vorübergehender geistiger Erschöpfung. Hinweis: Tee enthält nur sehr geringe Mengen Hyperforin (< 1 mg/Tag) — daher deutlich geringeres Wechselwirkungs-Risiko als alkoholische Extrakte. Wirkung kann erst nach einigen Tagen einsetzen.",
+          "en": "INFUSION: Pour 150 ml boiling water over 1.5–2 g comminuted dried St John's wort, cover, steep for 10 minutes, then strain. Drink a freshly prepared cup 2–3 times daily, total daily amount 3–6 g. For temporary mental exhaustion. Note: tea contains only very small amounts of hyperforin (< 1 mg/day) — much lower interaction risk than alcoholic extracts. Effect may only set in after several days."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene — bei Kindern und Jugendlichen unter 18 Jahren liegen keine ausreichenden Daten zur sicheren Anwendung vor.",
+          "en": "Per EMA, only for adults — insufficient data on safe use in children and adolescents under 18 years."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Anwendung bei vorübergehender geistiger Erschöpfung — sanfter Aufguss mit niedrigem Hyperforin-Gehalt und entsprechend geringerem Wechselwirkungs-Profil als Extrakte.",
+        "en": "Traditional use for temporary mental exhaustion — gentle infusion with low hyperforin content and accordingly lower interaction profile than extracts."
+      },
+      "source_ids": [
+        "src_ema_hyperici_herba"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system",
+        "sleep"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "AUFGUSS bei nervöser Unruhe und Einschlafproblemen: 2–3 g zerkleinertes Johanniskraut mit 150 ml siedendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen. 2 mal täglich trinken — eine Tasse tagsüber, eine Tasse etwa eine Stunde vor dem Schlafengehen. Unterstützt sanft bei innerer Unruhe und Einschlaf-Schwierigkeiten.",
+          "en": "INFUSION for nervous restlessness and difficulty falling asleep: Pour 150 ml boiling water over 2–3 g comminuted St John's wort, cover, steep for 10 minutes, then strain. Drink twice daily — one cup during the day, one cup about an hour before bedtime."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene.",
+          "en": "Per EMA, only for adults."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Anwendung zur unterstützenden Behandlung von nervöser Unruhe und damit verbundenen Einschlaf-Schwierigkeiten.",
+        "en": "Traditional use as a supportive treatment for nervous restlessness and associated difficulties in falling asleep."
+      },
+      "source_ids": [
+        "src_ema_hyperici_herba"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system",
+        "mental"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "ema_well_established",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.3,
+          "max": 1.8
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 6,
+        "instructions": {
+          "de": "Standardisierter Trockenextrakt (z.B. DER 3–7:1, Methanol-Auszug; DER 3–6:1, Ethanol-80%-Auszug; DER 2,5–8:1, Ethanol-50–68%-Auszug) — typische Tagesdosis 600–1800 mg, aufgeteilt auf 1–3 Einzelgaben. Nur als Fertigarzneimittel mit deklariertem Hypericin- und Hyperforin-Gehalt anwenden. Wirkungseintritt erst nach etwa 4 Wochen — vorher nicht aufgeben. Bei leichten depressiven Episoden Dauerbehandlung möglich; bei symptomatischer Behandlung leichter depressiver Beschwerden maximal 6 Wochen. Wenn sich die Symptome nicht bessern oder verschlimmern: ärztlich abklären.",
+          "en": "Standardised dry extract — typical daily dose 600–1800 mg, split into 1–3 single doses. Only use as a finished medicinal product with declared hypericin and hyperforin content. Effect only sets in after about 4 weeks. Continuous treatment is possible for mild-to-moderate depressive episodes; for symptomatic treatment of mild depressive disorders maximum 6 weeks."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene.",
+          "en": "Per EMA, only for adults."
+        }
+      },
+      "description": {
+        "de": "Klinisch belegte Anwendung (EMA well-established use) bei leichten bis mittelschweren depressiven Episoden bzw. zur Kurzzeitbehandlung leichter depressiver Beschwerden. WICHTIG: Aufgrund des Hyperforin-Gehalts ausgeprägte Wechselwirkungen mit zahlreichen Medikamenten — vor Einnahme unbedingt mit Arzt oder Apothekerin abklären.",
+        "en": "Clinically supported use (EMA well-established use) for mild-to-moderate depressive episodes or short-term treatment of mild depressive symptoms. IMPORTANT: Due to the hyperforin content, pronounced interactions with many medications — always check with a doctor or pharmacist before use."
+      },
+      "source_ids": [
+        "src_ema_hyperici_herba"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "JOHANNISKRAUT-ÖL (Rotöl): Fertig hergestelltes Ölmazerat dünn auf die betroffene Hautstelle auftragen, mehrmals täglich. Zur symptomatischen Behandlung leichter Hautentzündungen (z.B. Sonnenbrand) und unterstützend bei der Heilung kleiner Wunden. Selbstherstellung: voll erblühte Johanniskraut-Blüten in kaltgepresstes Olivenöl einlegen, 4–6 Wochen an einem warmen, sonnigen Platz ziehen lassen — das Öl färbt sich tiefrot. WICHTIG: Behandelte Hautstellen während und nach der Anwendung nicht direktem Sonnenlicht oder UV-Bestrahlung aussetzen.",
+          "en": "ST JOHN'S WORT OIL (red oil): Apply a ready-made oil macerate thinly to the affected skin area, several times daily. For symptomatic treatment of minor skin inflammations and as a supportive aid in healing minor wounds. DIY: Macerate fully opened flowers in cold-pressed olive oil for 4–6 weeks in a warm, sunny spot — the oil turns deep red. IMPORTANT: Do not expose treated skin areas to direct sunlight or UV radiation during and after use."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA nur ab 12 Jahren bei äußerlicher Anwendung.",
+          "en": "Per EMA, only from 12 years onwards for cutaneous use."
+        }
+      },
+      "description": {
+        "de": "Traditionelle äußerliche Anwendung als Rotöl bei kleinen Hautentzündungen (Sonnenbrand) und kleinen Wunden — der typische rote Farbton stammt vom Hypericin.",
+        "en": "Traditional external use as red oil for minor skin inflammations (sunburn) and minor wounds."
+      },
+      "source_ids": [
+        "src_ema_hyperici_herba"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "ACHTUNG — STARKE WECHSELWIRKUNGEN: Johanniskraut (vor allem als alkoholischer Extrakt mit >1 mg Hyperforin/Tag) ist die pharmakologisch wirksamste Heilpflanze und induziert die Leberenzyme CYP3A4, CYP2B6, CYP2C9, CYP2C19 sowie das Transportprotein P-Glykoprotein. Dadurch wird der Abbau zahlreicher Arzneimittel beschleunigt und deren Wirkung kann versagen — z.B. die Pille (Schwangerschafts-Risiko trotz Einnahme!), Blutverdünner vom Cumarin-Typ, Immunsuppressiva nach Transplantation, HIV-Medikamente, bestimmte Krebsmedikamente, Digoxin, Theophyllin, manche Antidepressiva. Vor jeder Einnahme Arzt oder Apothekerin informieren. Bei gleichzeitiger Einnahme von SSRI besteht Gefahr eines Serotonin-Syndroms. Enzym-Induktion klingt erst etwa 1 Woche nach Absetzen wieder ab. Vor geplanten Operationen mindestens 1 Woche vorher absetzen. PHOTOSENSIBILISIERUNG: Während Einnahme intensive Sonneneinstrahlung und Solarium meiden. Wirkungseintritt bei Depression erst nach etwa 4 Wochen. Wenn sich depressive Symptome nicht bessern, sich verschlimmern oder Suizidgedanken auftreten: sofort ärztlich abklären.",
+      "en": "WARNING — MAJOR DRUG INTERACTIONS: St John's wort is the most pharmacologically active medicinal plant and induces liver enzymes CYP3A4, CYP2B6, CYP2C9, CYP2C19 and the transporter P-glycoprotein. This accelerates the breakdown of many medicines and can cause them to fail — e.g. the contraceptive pill (risk of unintended pregnancy!), coumarin-type anticoagulants, immunosuppressants, HIV medication, certain cancer drugs, digoxin, theophylline, some antidepressants. Always inform your doctor or pharmacist. Concomitant use with SSRIs carries a risk of serotonin syndrome. Enzyme induction takes about 1 week after discontinuation to subside. Discontinue at least 1 week before planned surgery. PHOTOSENSITISATION: Avoid intense sunlight during use. Onset of antidepressant effect only after about 4 weeks."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Laut EMA nicht empfohlen — Tierstudien zeigten Hinweise auf reproduktionstoxische Effekte.",
+        "en": "Per EMA not recommended — animal studies showed signs of reproductive toxicity."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Laut EMA nicht empfohlen — Sicherheit in der Stillzeit nicht belegt.",
+        "en": "Per EMA not recommended — safety during breastfeeding not established."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Laut EMA bei Kindern und Jugendlichen unter 18 Jahren nicht empfohlen (innerlich) bzw. unter 12 Jahren bei äußerer Anwendung.",
+        "en": "Per EMA, not recommended for children and adolescents under 18 years (internal) or under 12 years (external)."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Hormonelle Kontrazeptiva (Pille, Vaginalring, Pflaster)",
+        "mechanism": {
+          "de": "Johanniskraut induziert CYP3A4 und beschleunigt den Abbau der Östrogen- und Gestagen-Komponenten. Folge: Plasmaspiegel sinken, es kann zu Zwischenblutungen und vor allem zu Empfängnis trotz korrekter Pillen-Einnahme kommen. Frauen unter hormoneller Kontrazeption müssen zusätzlich nicht-hormonell verhüten.",
+          "en": "Induces CYP3A4 and accelerates breakdown of estrogen/progestin components. Pregnancy can occur despite correct pill use. Use additional non-hormonal contraception."
+        },
+        "severity": "avoid"
+      },
+      {
+        "drug_class": "Cumarin-Antikoagulanzien (Warfarin, Phenprocoumon)",
+        "mechanism": {
+          "de": "Beschleunigter Abbau über CYP2C9 senkt Plasmaspiegel und gerinnungshemmende Wirkung — INR-Wert fällt, Thrombose-Risiko steigt. Gleichzeitige Anwendung laut EMA kontraindiziert.",
+          "en": "Accelerated breakdown via CYP2C9 lowers anticoagulant effect — thrombosis risk. Concomitant use contraindicated."
+        },
+        "severity": "avoid"
+      },
+      {
+        "drug_class": "Immunsuppressiva (Cyclosporin, Tacrolimus, Sirolimus, Everolimus)",
+        "mechanism": {
+          "de": "Drastische Senkung der Plasmaspiegel. Bei Transplantierten dokumentierte Abstoßungsreaktionen — gleichzeitige Anwendung laut EMA kontraindiziert.",
+          "en": "Drastic drop in plasma levels. Documented transplant rejection — concomitant use contraindicated."
+        },
+        "severity": "avoid"
+      },
+      {
+        "drug_class": "HIV-Protease-Inhibitoren und Reverse-Transkriptase-Hemmer",
+        "mechanism": {
+          "de": "Senkung der antiviralen Plasmaspiegel mit Resistenz- und Therapieversagens-Risiko — gleichzeitige Anwendung laut EMA kontraindiziert.",
+          "en": "Drop in antiviral plasma levels with risk of resistance and treatment failure — contraindicated."
+        },
+        "severity": "avoid"
+      },
+      {
+        "drug_class": "Antidepressiva (SSRI, SNRI, MAO-Hemmer, Buspiron)",
+        "mechanism": {
+          "de": "Pharmakodynamische Wechselwirkung — Johanniskraut hat selbst serotonerge Wirkung. Gefahr eines Serotonin-Syndroms mit Schwitzen, Tachykardie, Fieber, Erregung, Verwirrung, Zittern.",
+          "en": "Pharmacodynamic interaction. Risk of serotonin syndrome with sweating, tachycardia, fever, agitation, confusion, tremor."
+        },
+        "severity": "avoid"
+      },
+      {
+        "drug_class": "Digoxin",
+        "mechanism": {
+          "de": "Induktion von P-Glykoprotein senkt Digoxin-Spiegel — Risiko des Wirkverlusts bei Herzinsuffizienz oder Vorhofflimmern.",
+          "en": "P-gp induction lowers digoxin levels — risk of loss of effect in heart failure or atrial fibrillation."
+        },
+        "severity": "caution"
+      },
+      {
+        "drug_class": "Theophyllin",
+        "mechanism": {
+          "de": "Beschleunigter Abbau senkt Plasmaspiegel — Risiko unzureichender Bronchodilatation bei Asthma/COPD.",
+          "en": "Accelerated breakdown lowers plasma levels — risk of insufficient bronchodilation."
+        },
+        "severity": "caution"
+      },
+      {
+        "drug_class": "Allgemein- und Regionalanästhetika (vor Operationen)",
+        "mechanism": {
+          "de": "Mögliche Wechselwirkungen mit Narkose-Medikamenten. Johanniskraut mindestens 1 Woche vor einer geplanten Operation absetzen.",
+          "en": "Possible interactions with anaesthetic medication. Discontinue at least 1 week before planned surgery."
+        },
+        "severity": "caution"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegenüber Johanniskraut oder einem der Inhaltsstoffe.",
+        "en": "Hypersensitivity to St John's wort."
+      },
+      {
+        "de": "Gleichzeitige Einnahme von Cumarin-Antikoagulanzien.",
+        "en": "Concomitant use of coumarin-type anticoagulants."
+      },
+      {
+        "de": "Gleichzeitige Einnahme von Immunsuppressiva.",
+        "en": "Concomitant use of immunosuppressants."
+      },
+      {
+        "de": "Gleichzeitige Einnahme von HIV-Medikamenten.",
+        "en": "Concomitant use of HIV medication."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit.",
+        "en": "Pregnancy and breastfeeding."
+      },
+      {
+        "de": "Innerliche Anwendung bei Kindern und Jugendlichen unter 18 Jahren; äußerliche Anwendung bei Kindern unter 12 Jahren.",
+        "en": "Internal use under 18 years; external use under 12 years."
+      }
+    ],
+    "max_continuous_use_weeks": 6
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echtes Johanniskraut (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echtes_Johanniskraut",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Hypericum perforatum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Hypericum_perforatum",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_hyperici_herba",
+      "type": "monograph",
+      "title": "EMA/HMPC/7695/2021 — European Union herbal monograph on Hypericum perforatum L., herba (Final, Revision 1, 23 November 2022)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/hyperici-herba",
+      "accessed": "2026-05-18"
+    }
+  ],
+  "image": {
+    "filename": "hypericum-perforatum.jpg",
+    "alt": {
+      "de": "Foto von Echtes Johanniskraut",
+      "en": "Photo of Hypericum perforatum"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Agnieszka Kwiecień, Nova",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hypericum_perforatum_Dziurawiec_zwyczajny_2020-07-12_02.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Hypericin und Pseudohypericin (Naphthodianthrone)",
+      "category": "glycoside",
+      "percent_range": "0,1–0,3 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Rote Farbstoffe — typisch für das Johanniskraut-Öl. Tragen zur antidepressiven Wirkung bei und sind Hauptträger der Photosensibilisierung.",
+        "en": "Red pigments — typical of St John's wort oil. Contribute to antidepressant activity and are main carriers of photosensitisation."
+      }
+    },
+    {
+      "name": "Hyperforin (Phloroglucin-Derivat)",
+      "category": "bitter",
+      "percent_range": "2–4 % (Trockenkraut)",
+      "plant_part": "flower",
+      "note": {
+        "de": "Hauptverursacher der Wechselwirkungen: induziert dosisabhängig CYP3A4, CYP2B6, CYP2C9, CYP2C19 und P-Glykoprotein. Wässriger Tee enthält nur sehr geringe Mengen (< 1 mg/Tag) — alkoholische Extrakte deutlich mehr.",
+        "en": "Main cause of drug interactions: induces CYP3A4/2B6/2C9/2C19 and P-gp. Aqueous tea contains only small amounts; alcoholic extracts much more."
+      }
+    },
+    {
+      "name": "Flavonoide (Hyperosid, Rutin, Quercitrin, Quercetin, Isoquercitrin)",
+      "category": "flavonoid",
+      "percent_range": "2–4 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Tragen zur Gesamtwirkung bei — antioxidative und mild entzündungshemmende Eigenschaften.",
+        "en": "Contribute to overall activity — antioxidant and mildly anti-inflammatory."
+      }
+    },
+    {
+      "name": "Biflavonoide (Amentoflavon, Biapigenin)",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Charakteristisch für Hypericum — werden zur Identitätsprüfung herangezogen.",
+        "en": "Characteristic of Hypericum — used for identity testing."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Catechin-Typ)",
+      "category": "tannin",
+      "percent_range": "6–15 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Tragen zur leicht zusammenziehenden, wundheilenden Wirkung des Öls bei.",
+        "en": "Contribute to the slightly astringent, wound-healing effect of the oil."
+      }
+    },
+    {
+      "name": "Ätherisches Öl",
+      "category": "essential_oil",
+      "percent_range": "0,05–0,3 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Geringe Menge — enthält α-Pinen, β-Pinen, Sesquiterpene und n-Alkane.",
+        "en": "Small amount — contains α-pinene, β-pinene, sesquiterpenes, and n-alkanes."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Klassisch um den Johannistag (24. Juni) und in den Wochen danach — an einem trockenen, sonnigen Vormittag schneiden, sobald der Tau abgetrocknet ist.",
+        "en": "Classically around St John's Day (24 June) and the weeks after — cut on a dry, sunny morning."
+      },
+      "drying": {
+        "de": "Die blühenden oberen 15–30 cm der Pflanze sammeln. Zu kleinen Sträußen binden und kopfüber an luftigem, schattigem Ort hängen. Temperatur unter 35 °C halten, damit Hypericin und ätherisches Öl erhalten bleiben.",
+        "en": "Pick the flowering upper 15–30 cm. Hang in bunches upside down in airy, shaded place. Keep temperature below 35 °C."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Lichtgeschützt in dunklen Gläsern oder Blechdosen lagern — Hypericin ist licht- und sauerstoffempfindlich.",
+        "en": "Store light-protected in dark jars — hypericin is sensitive to light and oxygen."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Für die Öl-Herstellung nur die voll erblühten Einzelblüten an einem sonnigen Vormittag pflücken — Blüten zwischen den Fingern zerreiben: färben sie sich tief rot, ist der Hypericin-Gehalt optimal.",
+        "en": "For oil-making, pick only fully opened individual flowers on a sunny morning — if they turn deep red when rubbed, hypericin content is optimal."
+      },
+      "drying": {
+        "de": "Für Johanniskraut-Öl: frisch pflücken und sofort verarbeiten. Für getrocknete Blüten: einlagig im Schatten bei unter 35 °C trocknen.",
+        "en": "For oil: pick fresh and process immediately. For dried flowers: dry in single layer in the shade below 35 °C."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknete Blüten lichtgeschützt aufbewahren. Selbst angesetztes Rotöl in dunklen Glasflaschen kühl lagern.",
+        "en": "Store dried flowers light-protected. Keep home-made red oil in dark glass bottles in a cool place."
+      }
+    }
+  ]
+}

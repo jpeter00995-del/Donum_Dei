@@ -1,0 +1,385 @@
+{
+  "slug": "carum-carvi",
+  "names": {
+    "de": "Echter Kümmel",
+    "en": "Caraway",
+    "latin": "Carum carvi"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Echter Kümmel, meist einfach Kümmel, regional auch Wiesen-Kümmel bzw. Wiesenkümmel oder Gemeiner Kümmel genannt, ist eine Pflanzenart innerhalb der Familie der Doldenblütler (Apiaceae). Kümmel ist zudem eines der ältesten Gewürze.",
+    "en": "Caraway, also known as meridian fennel, is a biennial plant in the family Apiaceae, native to western Asia, Europe, and North Africa."
+  },
+  "teaser": {
+    "de": "Echter Kümmel, meist einfach Kümmel, regional auch Wiesen-Kümmel bzw.",
+    "en": "Caraway, also known as meridian fennel, is a biennial plant in the family Apiaceae, native to western Asia, Europe, a..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "1,5–2 g getrocknete Kümmelfrüchte unmittelbar vor der Zubereitung im Mörser zerquetschen (essentiell — ganze Früchte geben das ätherische Öl kaum ab). Mit 150–200 ml kochendem Wasser übergießen, zugedeckt 10 Minuten ziehen, abseihen. 3× täglich nach den Mahlzeiten warm trinken. Klassisch kombiniert mit Fenchel + Anis als Drei-Samen-Tee.",
+          "en": "Crush 1.5–2 g caraway fruit before preparation. 150–200 ml boiling water, steep 10 min, strain. 3× daily after meals. Classic combo with fennel + anise."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Carvi fructus ab 12 Jahren.",
+          "en": "From 12 years."
+        }
+      },
+      "description": {
+        "de": "Der klassische Verdauungstee bei Blähungen, leichten Krämpfen und Reizdarm — Carvon entspannt die Darmmuskulatur.",
+        "en": "Classic digestive tea for bloating and mild cramps."
+      },
+      "source_ids": [
+        "src_ema_carvi_fructus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Stilltee-Variante: 1,5–2 g frisch zerquetschte Kümmelfrüchte + 150–200 ml kochendes Wasser, 10 Min ziehen. 2–3× täglich zwischen den Stillmahlzeiten warm. Traditionell milchbildend — ätherische Öle gehen in geringen Mengen in die Muttermilch und wirken gegen Blähungen beim Säugling.",
+          "en": "Nursing tea variant. Traditionally galactagogue."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Anwendung als milchbildender Stilltee. EMA deckt Indikation nicht explizit ab, bestätigt aber generelle Sicherheit von Kümmelfrucht-Tee in normalen Mengen.",
+        "en": "Traditional galactagogue nursing tea."
+      },
+      "source_ids": [
+        "src_ema_carvi_fructus"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "external",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 2,
+          "max": 5
+        },
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Klassischer Kümmelöl-Bauchwickel für Babys/Kleinkinder mit Bauchweh/Blähungen: 1 Tropfen reines Kümmelöl mit 1 EL (~10 ml) warmem Trägeröl (Mandel/Olive/Sonnenblume) mischen — NIEMALS unverdünnt! Mit warmen Händen sanft im Uhrzeigersinn auf Bauch einmassieren. Warmes Tuch auflegen, Kind zugedeckt ruhen lassen. 1–2× täglich, besonders abends. Patch-Test vor Erstanwendung.",
+          "en": "Caraway-oil abdominal compress for babies/toddlers: 1 drop pure oil + 1 tbsp warm carrier oil — NEVER undiluted. Gentle clockwise massage."
+        }
+      },
+      "age_restriction": {
+        "min_age": 0,
+        "note": {
+          "de": "Äußerliche Anwendung als verdünnter Bauchwickel — klassische traditionelle Säuglingspflege. Max 1 % Verdünnung, nicht auf verletzte Haut, Patch-Test.",
+          "en": "External diluted compress — classical infant care. Max 1 % dilution."
+        }
+      },
+      "description": {
+        "de": "Sehr klassischer Hausmittel-Klassiker bei Säuglings-Bauchweh (Drei-Monats-Koliken). Wärme + Massage + karminative Öle entspannen Darmmuskulatur.",
+        "en": "Classic household remedy for infant tummy aches (three-month colic)."
+      },
+      "source_ids": [
+        "src_ema_carvi_aetheroleum"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 0.05,
+          "max": 0.2
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Nur für Erwachsene: 1–4 Tropfen reines Kümmelöl (~0,05–0,2 ml) auf Würfelzucker oder in warmem Wasser nach den Mahlzeiten, bis zu 3× täglich. Max 2 Wochen ohne ärztlichen Rat.",
+          "en": "Adults only: 1–4 drops pure caraway oil on sugar cube or in warm water, up to 3× daily."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Orale Einnahme ätherisches Öl laut EMA nicht für Kinder/Jugendliche unter 18.",
+          "en": "Oral essential oil not for under 18 per EMA."
+        }
+      },
+      "description": {
+        "de": "Konzentrierte Anwendung bei Blähungen und Krämpfen. Strenger zu dosieren als Tee.",
+        "en": "Concentrated use for bloating and cramps."
+      },
+      "source_ids": [
+        "src_ema_carvi_aetheroleum"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "reife Früchte",
+      "en": "ripe fruits"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Kümmelfrucht-Tee ist sehr sicher. Bei Beschwerden länger als 2 Wochen oder Blut im Stuhl, Gewichtsverlust, Fieber: Arzt. WICHTIG bei Kümmelöl: niemals unverdünnt auf Haut oder Schleimhäute, nicht in die Augen, bei Säuglingen/Kleinkindern ausschließlich äußerlich als verdünnter Bauchwickel — nie oral. Allergien selten möglich bei Doldenblütler-Kreuzallergie (Fenchel, Anis, Sellerie).",
+      "en": "Caraway-fruit tea very safe. Pure caraway oil never undiluted; in infants only external compress, never oral."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenmengen unbedenklich. Arzneiliche Anwendung in Schwangerschaft nicht empfohlen.",
+        "en": "Culinary amounts safe. Medicinal use not recommended in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Traditionell milchbildend in normalen Teemengen. Konzentriertes Öl meiden.",
+        "en": "Traditionally galactagogue in tea amounts. Avoid concentrated oil."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Carvi fructus ab 12 Jahren. Carvi aetheroleum oral nicht unter 18. Äußerlicher Bauchwickel auch bei Säuglingen — klassisch.",
+        "en": "Fruit from 12. Oral essential oil not under 18. External compress OK for infants."
+      }
+    },
+    "drug_interactions": [],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Kümmel oder Doldenblütler (Fenchel, Anis, Sellerie, Koriander, Dill).",
+        "en": "Hypersensitivity to caraway or Apiaceae."
+      },
+      {
+        "de": "Orale Anwendung des reinen ätherischen Öls bei Kindern/Jugendlichen unter 18.",
+        "en": "Oral pure essential oil in under 18."
+      },
+      {
+        "de": "Reines Kümmelöl niemals unverdünnt auf Haut.",
+        "en": "Never apply pure oil undiluted to skin."
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter Kümmel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_K%C3%BCmmel",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Caraway (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Caraway",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_carvi_fructus",
+      "type": "monograph",
+      "title": "EMA/HMPC/715092/2013 — European Union herbal monograph on Carum carvi L., fructus (Final, 10 September 2015)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/carvi-fructus",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_carvi_aetheroleum",
+      "type": "monograph",
+      "title": "EMA/HMPC/715094/2013 — European Union herbal monograph on Carum carvi L., aetheroleum (Final, 10 September 2015)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/carvi-aetheroleum",
+      "accessed": "2026-05-18"
+    }
+  ],
+  "image": {
+    "filename": "carum-carvi.jpg",
+    "alt": {
+      "de": "Foto von Echter Kümmel",
+      "en": "Photo of Caraway"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "H. Zell",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Carum_carvi_001.JPG"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "coriandrum-sativum"
+    ],
+    "bad_partners": [
+      "foeniculum-vulgare"
+    ],
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 4,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 7,
+      "end_month": 8
+    },
+    "days_to_harvest": 120,
+    "spacing_cm": 25,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 2
+  },
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "aromatic_repellent",
+    "root_loosener"
+  ],
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (Carvi aetheroleum)",
+      "category": "essential_oil",
+      "percent_range": "3–7 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptwirkstoff-Träger. Wird durch Zerquetschen freigesetzt. Karminativ und krampflösend.",
+        "en": "Main active. Released by crushing."
+      }
+    },
+    {
+      "name": "(+)-Carvon",
+      "category": "essential_oil",
+      "percent_range": "50–65 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptkomponente. Monoterpen-Keton, krampflösend auf glatte Darmmuskulatur, gibt typischen Kümmelgeruch.",
+        "en": "Main component. Antispasmodic."
+      }
+    },
+    {
+      "name": "(+)-Limonen",
+      "category": "essential_oil",
+      "percent_range": "30–45 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Zweite Hauptkomponente. Mild verdauungsanregend und antimikrobiell.",
+        "en": "Second main component."
+      }
+    },
+    {
+      "name": "Fettes Öl",
+      "category": "other",
+      "percent_range": "10–20 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Begleitstoff ohne arzneiliche Wirkung.",
+        "en": "Accompanying compound."
+      }
+    },
+    {
+      "name": "Proteine",
+      "category": "other",
+      "percent_range": "~20 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Nährstoff-Begleitkomponente.",
+        "en": "Nutritional component."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin-, Kämpferol-Glykoside)",
+      "category": "flavonoid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Geringe Mengen, mild antioxidativ.",
+        "en": "Small amounts, mildly antioxidant."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Früh morgens, wenn noch etwas Tau auf den Dolden liegt — verhindert dass die reifen Früchte beim Anfassen ausfallen.",
+        "en": "Early morning while still some dew."
+      },
+      "drying": {
+        "de": "Im zweiten Standjahr, wenn die Dolden braun werden. Ganze Stängel mit Dolden bodennah schneiden, kopfüber in Papiertüten 1–2 Wochen nachreifen (luftig, schattig, max 35 °C). Früchte fallen beim Trocknen aus den Dolden.",
+        "en": "Second year, brown umbels. Hang upside-down in paper bags 1-2 weeks at max 35 °C."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "GANZE (unzerquetschte) Früchte luftdicht und dunkel — bis 2 Jahre. Erst vor Verwendung zerquetschen.",
+        "en": "Whole uncrushed fruits airtight, dark — 2 years. Crush before use."
+      }
+    }
+  ]
+}

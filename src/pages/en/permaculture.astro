@@ -1,0 +1,83 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { t } from '@/lib/i18n';
+
+// === 2. DATA ===
+const locale = 'en' as const;
+
+// Function cards: emoji + i18n key for label + i18n key for body.
+const functions = [
+  { emoji: '🌱', labelKey: 'permaculture_functions.nitrogen_fixer', bodyKey: 'permaculture.fn_nitrogen' },
+  { emoji: '🐛', labelKey: 'permaculture_functions.pest_repellent', bodyKey: 'permaculture.fn_pest' },
+  { emoji: '💧', labelKey: 'permaculture_functions.ground_cover', bodyKey: 'permaculture.fn_ground' },
+  { emoji: '🐝', labelKey: 'permaculture_functions.pollinator_attractor', bodyKey: 'permaculture.fn_pollinator' },
+  { emoji: '⚡', labelKey: 'permaculture_functions.dynamic_accumulator', bodyKey: 'permaculture.fn_accumulator' },
+  { emoji: '⬆️', labelKey: 'permaculture_functions.vertical_high', bodyKey: 'permaculture.fn_vertical' },
+  { emoji: '🌡️', labelKey: 'permaculture_functions.microclimate', bodyKey: 'permaculture.fn_micro' },
+] as const;
+
+const holzerPrinciples = [
+  { titleKey: 'permaculture.holzer_1_title', bodyKey: 'permaculture.holzer_1_body' },
+  { titleKey: 'permaculture.holzer_2_title', bodyKey: 'permaculture.holzer_2_body' },
+  { titleKey: 'permaculture.holzer_3_title', bodyKey: 'permaculture.holzer_3_body' },
+] as const;
+---
+
+<BaseLayout locale={locale} title="Permaculture">
+  <article class="max-w-3xl mx-auto py-8 px-4">
+    <header class="mb-8">
+      <h1 class="text-3xl md:text-4xl font-serif font-bold text-slate-900">
+        {t(locale, 'permaculture.page_title')}
+      </h1>
+      <p class="mt-4 text-lg text-slate-700 leading-relaxed">
+        {t(locale, 'permaculture.page_intro_1')}
+      </p>
+      <p class="mt-3 text-base text-slate-600 leading-relaxed">
+        {t(locale, 'permaculture.page_intro_2')}
+      </p>
+    </header>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-serif font-semibold text-emerald-800 mb-4">
+        {t(locale, 'permaculture.functions_heading')}
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {functions.map(({ emoji, labelKey, bodyKey }) => (
+          <div class="rounded-lg border border-emerald-100 bg-emerald-50/50 p-4">
+            <h3 class="font-semibold text-slate-900 mb-1">
+              <span aria-hidden="true">{emoji}</span> {t(locale, labelKey)}
+            </h3>
+            <p class="text-sm text-slate-700 leading-snug">{t(locale, bodyKey)}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-serif font-semibold text-emerald-800 mb-4">
+        {t(locale, 'permaculture.holzer_heading')}
+      </h2>
+      <ol class="space-y-3">
+        {holzerPrinciples.map(({ titleKey, bodyKey }, idx) => (
+          <li class="flex gap-3 items-baseline">
+            <span class="text-2xl font-serif font-bold text-emerald-700 shrink-0">{idx + 1}.</span>
+            <div>
+              <h3 class="font-semibold text-slate-900">{t(locale, titleKey)}</h3>
+              <p class="text-sm text-slate-700">{t(locale, bodyKey)}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <div class="mt-10 text-center">
+      <a
+        href="/en/packages"
+        class="inline-block min-h-[44px] px-6 py-3 rounded bg-emerald-600 text-white font-semibold hover:bg-emerald-700 transition"
+      >
+        {t(locale, 'permaculture.cta_to_packages')}
+      </a>
+    </div>
+  </article>
+</BaseLayout>

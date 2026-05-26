@@ -1,0 +1,17 @@
+# === Donum Dei — Git Attributes ===
+# Verhindert CRLF/LF-Drift zwischen Windows (BUL-06) und Mac via Nextcloud-Sync.
+# (Prevents CRLF/LF drift between Windows and Mac through Nextcloud sync.)
+# Alle Text-Dateien werden im Repo als LF gespeichert und als LF ausgecheckt.
+
+* text=auto eol=lf
+
+# Bilder + Fonts explizit binaer (keine eol-Konvertierung)
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.gif   binary
+*.ico   binary
+*.woff  binary
+*.woff2 binary
+*.db    binary

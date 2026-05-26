@@ -1,0 +1,576 @@
+{
+  "slug": "juniperus-communis",
+  "names": {
+    "de": "Gemeiner Wacholder",
+    "en": "Juniperus communis",
+    "latin": "Juniperus communis"
+  },
+  "family": {
+    "de": "Zypressengewächse",
+    "en": "Cypress family",
+    "latin": "Cupressaceae"
+  },
+  "description": {
+    "de": "Der Gemeine Wacholder, auch Heide-Wacholder, ist eine Pflanzenart, die zur Gattung Wacholder aus der Familie der Zypressengewächse (Cupressaceae) gehört.",
+    "en": "Juniperus communis, the common juniper, is a species of small tree or shrub in the cypress family Cupressaceae. An evergreen conifer, it has the largest geographical range of any woody plant, with a Holarctic distribution throughout the cool temperate Northern Hemisphere."
+  },
+  "teaser": {
+    "de": "Der Gemeine Wacholder, auch Heide-Wacholder, ist eine Pflanzenart, die zur Gattung Wacholder aus der Familie der Zypr...",
+    "en": "Juniperus communis, the common juniper, is a species of small tree or shrub in the cypress family Cupressaceae."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "AUFGUSS (Kommission-E-Zubereitung): 2 g frisch gequetschte Wacholderbeeren (ca. 1 gestrichener TL) mit 150 ml kochendem Wasser übergießen, zugedeckt 10 Minuten ziehen lassen, abseihen. 3× täglich zwischen den Mahlzeiten trinken. Tagesdosis: 6 g Droge. Indikation: leichte dyspeptische Beschwerden (Blähungen, Völlegefühl, Verdauungsschwäche) und adjuvant bei Harnwegsinfektionen (Spülung, keine Antibiose). Anwendung auf 4 Wochen begrenzen — bei anhaltenden Harnwegsbeschwerden Arzt aufsuchen. Nicht bei entzündlichen Nierenerkrankungen oder Schwangerschaft.",
+          "en": "INFUSION (Kommission E preparation): 2 g freshly crushed juniper berries (approx. 1 level tsp) in 150 ml boiling water, covered, steep 10 min, strain. 3× daily between meals. Daily dose: 6 g crude drug. Indication: mild dyspeptic complaints (flatulence, bloating, sluggish digestion) and adjunctively for urinary tract infections (irrigation — not antibiotic therapy). Limit use to 4 weeks; seek medical advice for persistent urinary symptoms. Not for inflammatory kidney disease or pregnancy."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur für Erwachsene — keine ausreichenden Daten für Kinder/Jugendliche unter 18 Jahren.",
+          "en": "Adults only — insufficient data for children/adolescents under 18."
+        }
+      },
+      "description": {
+        "de": "Kommission-E-positiver Aufguss aus gequetschten Wacholderbeeren bei leichten dyspeptischen Beschwerden und adjuvant bei Blasen-/Harnwegsinfektionen.",
+        "en": "Kommission-E-positive infusion of crushed juniper berries for mild dyspeptic complaints and adjunctive irrigation in bladder/urinary tract infections."
+      },
+      "source_ids": [
+        "src_kommission_e_juniperi_fructus",
+        "src_ema_juniperi_pseudofructus",
+        "src_escop_juniperi_fructus"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (1:5 in 40–60 % Ethanol): 1–2 ml (~20–40 Tropfen) 3× täglich, mit etwas Wasser verdünnt, vor den Mahlzeiten einnehmen. Traditionelle Anwendung bei Verdauungsbeschwerden, Blähungen, Appetitlosigkeit. Nicht länger als 4 Wochen ohne ärztlichen Rat anwenden. Bei Nierenerkrankung, Schwangerschaft oder Alkoholproblematik kontraindiziert.",
+          "en": "TINCTURE (1:5 in 40–60 % ethanol): 1–2 ml (~20–40 drops) 3× daily, diluted in water, before meals. Traditional use for digestive complaints, flatulence, loss of appetite. Do not use for more than 4 weeks without medical advice. Contraindicated in kidney disease, pregnancy, or alcohol dependency."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur Erwachsene. Wegen Ethanolgehalt nicht bei Alkohol- oder Lebererkrankung.",
+          "en": "Adults only. Due to ethanol content, avoid in alcohol dependency or liver disease."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Wacholderbeeren-Tinktur bei Verdauungsbeschwerden, Blähungen und Appetitlosigkeit — Alternative zum Tee bei akzeptiertem Ethanol-Anteil.",
+        "en": "Traditional juniper berry tincture for digestive complaints, flatulence and appetite loss — alternative to tea when ethanol is acceptable."
+      },
+      "source_ids": [
+        "src_escop_juniperi_fructus",
+        "src_wichtl_teedrogen",
+        "src_ema_juniperi_pseudofructus"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "joints",
+        "circulation",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 20,
+          "max": 30
+        },
+        "water_ml": 1000,
+        "steep_min": 20,
+        "doses_per_day": 1,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "BADEZUSATZ: 20–30 g gequetschte Wacholderbeeren (oder 50 ml Wacholderbeeren-Dekokt) in 1 Liter Wasser 20 Minuten köcheln, abseihen und dem Badewasser (37–38 °C, max. 20 Minuten Badezeit) beigeben. Volkstümliche äußerliche Anwendung bei rheumatischen Beschwerden, müden Gelenken und zur Durchblutungsförderung der Haut. Nicht bei offenen Wunden, Ekzemen oder Überempfindlichkeit gegen Wacholderinhaltsstoffe. Badezusatz nicht trinken.",
+          "en": "BATH ADDITIVE: Simmer 20–30 g crushed juniper berries (or 50 ml juniper berry decoction) in 1 litre of water for 20 min, strain and add to bathwater (37–38 °C, max. 20 min bath). Folk external use for rheumatic complaints, tired joints and skin circulation. Not for open wounds, eczema or hypersensitivity to juniper constituents. Do not drink the bath additive."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Wacholderbeer-Badezusatz zur äußerlichen Anwendung bei rheumatischen Beschwerden und zur Durchblutungsanregung.",
+        "en": "Folk juniper berry bath additive for external use in rheumatic complaints and to stimulate peripheral circulation."
+      },
+      "source_ids": [
+        "src_wichtl_teedrogen",
+        "src_pfaf_juniperus_communis",
+        "src_madaus_1938_juniperus"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "urinary",
+        "digestion",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "ÄTHERISCHES ÖL (Juniperi aetheroleum): Nur entsprechend standardisierte, pharmazeutische Qualität verwenden. Traditionell innerlich: 1–2 Tropfen (entspricht ~0,02–0,1 g Öl) auf ein Stück Zucker oder in Honig, 3× täglich — ausschließlich in medizinisch empfohlener Dosierung. Indikation: dyspeptische Beschwerden. Das äth. Öl enthält 60–80 % Monoterpene (α-Pinen dominant), die für die sekretolytische und aquaretische Wirkung mitverantwortlich sind. KEINE Eigenanwendung ohne pharmazeutische Beratung — das reine Öl ist bei falscher Dosierung stark reizend (Nierenschaden möglich). Äußerlich (Massageöl, Badezusatz): 1–3 % Verdünnung in fettem Trägeröl — nicht bei sensibler Haut anwenden.",
+          "en": "ESSENTIAL OIL (Juniperi aetheroleum): Use only pharmaceutical-grade standardised oil. Traditional internal use: 1–2 drops (~0.02–0.1 g) on a sugar cube or in honey, 3× daily — only at medically recommended dose. Indication: dyspeptic complaints. The oil contains 60–80 % monoterpenes (α-pinene dominant), contributing to secretolytic and aquaretic effect. Do NOT self-medicate with undiluted oil — incorrect dosing is strongly irritating and can damage kidneys. Externally (massage, bath): 1–3 % dilution in carrier oil — avoid on sensitive skin."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur für Erwachsene. Unverdünntes äther. Öl nicht bei Kindern anwenden — Gefahr schwerer Reizwirkungen.",
+          "en": "Adults only. Never use undiluted essential oil on children — risk of severe irritation."
+        }
+      },
+      "description": {
+        "de": "Wacholderbeeren-ätherisches Öl (Juniperi aetheroleum) — traditionell innerlich bei dyspeptischen Beschwerden in medizinisch empfohlener Dosierung; äußerlich verdünnt zur Massage.",
+        "en": "Juniper berry essential oil (Juniperi aetheroleum) — traditionally used internally at medical dose for dyspeptic complaints; externally diluted for massage."
+      },
+      "source_ids": [
+        "src_ema_juniperi_pseudofructus",
+        "src_escop_juniperi_fructus",
+        "src_wichtl_teedrogen"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "KÜCHE: Vollreife, blaue Wacholderbeeren (Ernte Oktober–November, 2–3 Jahre nach Blüte gereift) leicht anquetschen und als Gewürz verwenden. Typische Verwendung: Wildgerichte (Hirsch, Wildschwein), Sauerkraut, Rotkohl, Beizen und Marinaden, dunkle Saucen, norddeutsche und skandinavische Küche. Übliche Menge: 3–6 Beeren pro Portion, nicht überdosieren — die Aromen sind intensiv. Auch für Gin (Hauptwürzstoff), Genever und Wacholderbrantwein. Nicht roh in großen Mengen essen — 6–10 g frische Beeren können beim Menschen toxisch wirken (Gesamtalkaloid/Terpengehalt).",
+          "en": "KITCHEN: Fully ripe blue juniper berries (harvested Oct–Nov, ripened 2–3 years after flowering), lightly crushed and used as spice. Typical uses: game (venison, wild boar), sauerkraut, red cabbage, brines and marinades, dark sauces, Northern European and Scandinavian cuisine. Usual amount: 3–6 berries per serving; do not overdose — aromas are intense. Also the main flavouring of gin, genever and juniper brandy. Do not eat large quantities raw — 6–10 g fresh berries can be toxic (total monoterpene/essential oil load)."
+        }
+      },
+      "description": {
+        "de": "Wacholderbeere als klassisches Wildgewürz — Hauptwürzstoff von Gin und Genever; in der deutschen und skandinavischen Küche traditionell für Sauerkraut und Wildgerichte.",
+        "en": "Juniper berry as classic game spice — the primary flavouring of gin and genever; traditionally used in German and Scandinavian cuisine for sauerkraut and venison dishes."
+      },
+      "source_ids": [
+        "src_pfaf_juniperus_communis",
+        "src_wp_de_wacholder",
+        "src_wp_en_juniperus"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "INHALATION: 1–2 Tropfen Wacholder-Ätherischöl in heißes Wasser (ca. 60–70 °C, nicht kochend) geben, Kopf mit Handtuch abdecken und 5–10 Minuten die Dämpfe einatmen. Volkstümliche Anwendung bei Erkältung, Bronchialkatarrh und zur Schleimlösung. Augen während der Inhalation geschlossen halten — das Öl reizt die Schleimhäute stark. Nicht bei Asthma oder Keuchhustenpatienten anwenden. Für Kinder unter 6 Jahren sind Menthol-/Pinen-haltige Inhalationen generell kontraindiziert (Stimmritzenkrampf-Risiko).",
+          "en": "INHALATION: Add 1–2 drops of juniper essential oil to hot water (~60–70 °C, not boiling), cover head with towel and inhale steam for 5–10 min. Folk use for colds, bronchial catarrh and to loosen mucus. Keep eyes closed during inhalation — the oil strongly irritates mucous membranes. Do not use for asthma or whooping cough. Menthol/pinene-containing inhalations are generally contraindicated in children under 6 (laryngospasm risk)."
+        }
+      },
+      "description": {
+        "de": "Volksmedizinische Inhalation mit Wacholder-Ätherischöl bei Erkältung und Bronchialkatarrh — sekretolytisch wirkende Monoterpene (α-Pinen, Sabinen).",
+        "en": "Folk inhalation with juniper essential oil for colds and bronchial catarrh — mucolytic action via monoterpenes (α-pinene, sabinene)."
+      },
+      "source_ids": [
+        "src_pfaf_juniperus_communis",
+        "src_madaus_1938_juniperus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "joints",
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "NADELTEE (volkstümlich): 1–2 TL frische Juniperus-Nadeln (jung, hellgrüne Jahrestriebe, nicht verholzte alte Zweige) mit 200 ml heißem Wasser übergießen, 8–10 Minuten zugedeckt ziehen lassen, abseihen. Maximal 2× täglich, nicht länger als 2 Wochen. Volksheilkundlich als mild aquaretischer Tee und bei rheumatischen Beschwerden eingesetzt. Phytotherapeutisch deutlich weniger dokumentiert als die Beerenzubereitung — keine Kommission-E-Zulassung für Nadeln. Nicht bei Schwangerschaft, Nierenerkrankung oder Kindern.",
+          "en": "NEEDLE TEA (folk): 1–2 tsp fresh juniper needles (young, light-green annual shoots, not old woody twigs) in 200 ml hot water, covered, steep 8–10 min, strain. Max 2× daily, no longer than 2 weeks. Folk use as mildly aquaretic tea and for rheumatic complaints. Considerably less documented phytotherapeutically than berry preparations — no Kommission E approval for needles. Not in pregnancy, kidney disease or for children."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Nadeltee aus jungen Juniperus-Trieben — mild aquaretisch und bei rheumatischen Beschwerden tradiert; geringer wissenschaftlicher Evidenzgrad.",
+        "en": "Folk needle tea from young juniper shoots — mildly aquaretic and traditionally used for rheumatic complaints; low level of scientific evidence."
+      },
+      "source_ids": [
+        "src_madaus_1938_juniperus",
+        "src_pfaf_juniperus_communis",
+        "src_wp_de_wacholder"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10,
+      11
+    ],
+    "harvest_part": {
+      "de": "reife Beerenzapfen (Herbst)",
+      "en": "ripe berry cones (autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG: Wacholderbeeren-Zubereitungen (Tee, Tinktur, äther. Öl) dürfen NICHT länger als 4–6 Wochen ohne Unterbrechung angewendet werden — längere Einnahme kann die Nieren reizen (Juniperi aetheroleum enthält Terpene, die bei Daueranwendung nierentoxisch wirken). Bei Nierenerkrankungen (inkl. Nierenbeckenentzündung, Glomerulonephritis, chronische Niereninsuffizienz) ist Wacholder KONTRAINDIZIERT — die therapeutische und die toxische Dosis liegen nah beieinander. Harnwegsbeschwerden mit Fieber, Flankenschmerz oder Blut im Urin gehören immer sofort zum Arzt — eine Nierenbeckenentzündung erfordert Antibiotika, kein Pflanzenmittel. Überdosierung des äther. Öls (>1 ml reines Öl = ca. 50 Tropfen) kann zu Erbrechen, Krämpfen und Nierenversagen führen — Notfallsituation.",
+      "en": "IMPORTANT: Juniper berry preparations (tea, tincture, essential oil) must NOT be used for more than 4–6 weeks without a break — prolonged use can irritate the kidneys (juniper essential oil contains terpenes that are nephrotoxic on continuous exposure). Juniper is CONTRAINDICATED in kidney diseases (including pyelonephritis, glomerulonephritis, chronic renal insufficiency). Urinary complaints with fever, flank pain or blood in urine require immediate medical attention — pyelonephritis needs antibiotics, not herbal treatment. Overdose of the essential oil (>1 ml pure oil = ~50 drops) can cause vomiting, seizures and renal failure — emergency situation."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Wacholder ist in der Schwangerschaft strikt kontraindiziert. Die enthaltenen Monoterpene (insb. Terpinen-4-ol, α-Pinen) wirken uterusstimulierend; historisch wurde Wacholder als Abortivum eingesetzt. Auch äußerliche Anwendung (Badezusatz, Massageöl) meiden. Küchenmengen (wenige Beeren als Gewürz) gelten als unbedenklich.",
+        "en": "Juniper is strictly contraindicated in pregnancy. The monoterpenes (esp. terpinen-4-ol, α-pinene) stimulate the uterus; historically juniper was used as an abortifacient. Also avoid external use (bath, massage oil). Culinary quantities (few berries as spice) are considered safe."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Therapeutische Wacholderzubereitungen in der Stillzeit meiden — das äther. Öl ist lipophil und kann in die Muttermilch übergehen; Daten unzureichend. Küchenmengen (Gewürz) sind unbedenklich.",
+        "en": "Avoid therapeutic juniper preparations during lactation — the essential oil is lipophilic and may pass into breast milk; data insufficient. Culinary spice quantities are safe."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Wacholder-Zubereitungen (Tee, Tinktur, äther. Öl) nicht für Kinder unter 12 Jahren — keine Sicherheitsdaten. Pinen-haltige Inhalationen bei Kindern unter 6 Jahren: Gefahr von Stimmritzenkrampf (absolut kontraindiziert). Küchenmengen (Gewürz, 1–2 Beeren) gelten als unbedenklich.",
+        "en": "Juniper preparations (tea, tincture, essential oil) not for children under 12 — no safety data. Pinene-containing inhalations in children under 6: risk of laryngospasm (absolutely contraindicated). Culinary quantities (spice, 1–2 berries) are safe."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Diuretika (Schleifendiuretika, Thiazide, Aldosteron-Antagonisten)",
+        "mechanism": {
+          "de": "Wacholderbeeren-Zubereitungen wirken mäßig aquaretisch (Terpinen-4-ol, Flavonoide). Additive Wirkung mit verschreibungspflichtigen Diuretika möglich — Risiko von Elektrolytverlust (Hypokaliämie, Hyponatriämie), Dehydratation und Blutdruckabfall. Nierenfunktion und Elektrolyte kontrollieren.",
+          "en": "Juniper berry preparations have moderate aquaretic activity (terpinen-4-ol, flavonoids). Additive effect with prescription diuretics possible — risk of electrolyte loss (hypokalaemia, hyponatraemia), dehydration and hypotension. Monitor renal function and electrolytes."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_juniperi_fructus"
+      },
+      {
+        "drug_class": "Antidiabetika / Insulin",
+        "mechanism": {
+          "de": "Tierexperimentelle Daten deuten auf eine blut­zucker­senkende Wirkung von Wacholder-Extrakten hin (möglicherweise über Beeinflussung der Insulinsekretion oder Glucoseaufnahme). Bei gleichzeitiger Einnahme von Antidiabetika oder Insulin kann die hypoglykämische Wirkung additiv sein. Blutzucker regelmäßig kontrollieren.",
+          "en": "Animal data suggest blood-glucose-lowering activity of juniper extracts (possibly via insulin secretion or glucose uptake). Additive hypoglycaemic effect with antidiabetics or insulin possible. Monitor blood glucose regularly."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_juniperi_fructus"
+      },
+      {
+        "drug_class": "Antihypertensiva",
+        "mechanism": {
+          "de": "Durch die aquaretische und mild blutdrucksenkende Wirkung von Wacholder können blutdrucksenkende Medikamente in ihrer Wirkung verstärkt werden — Risiko von Hypotonie und Schwindel. Blutdruck überwachen.",
+          "en": "The aquaretic and mildly hypotensive effect of juniper may potentiate antihypertensive medications — risk of hypotension and dizziness. Monitor blood pressure."
+        },
+        "severity": "monitor",
+        "source_id": "src_ema_juniperi_pseudofructus"
+      },
+      {
+        "drug_class": "Nephrotoxische Arzneimittel (NSAR, Aminoglykoside, Ciclosporin)",
+        "mechanism": {
+          "de": "Wacholder-Ätherischöl (Terpinen-4-ol) ist bei Langzeitanwendung und Überdosierung potenziell nephrotoxisch. Kombination mit anderen nephrotoxischen Substanzen erhöht das Nierenschädigungsrisiko additiv. Kombination strikt meiden.",
+          "en": "Juniper essential oil (terpinen-4-ol) is potentially nephrotoxic at long-term or excessive use. Combining with other nephrotoxic substances (NSAIDs, aminoglycosides, ciclosporin) additively increases renal injury risk. Strictly avoid combination."
+        },
+        "severity": "avoid",
+        "source_id": "src_ema_juniperi_pseudofructus"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Schwangerschaft — uterusstimulierend, historisch als Abortivum verwendet; therapeutische Dosen strikt meiden.",
+        "en": "Pregnancy — uterine stimulant, historically used as abortifacient; strictly avoid therapeutic doses."
+      },
+      {
+        "de": "Entzündliche Nierenerkrankungen (Glomerulonephritis, Pyelonephritis, interstitielle Nephritis, chronische Niereninsuffizienz) — Wacholder-Ätherischöl kann Nierengewebe reizen und bestehende Entzündungen verschlechtern.",
+        "en": "Inflammatory kidney diseases (glomerulonephritis, pyelonephritis, interstitial nephritis, chronic renal insufficiency) — juniper essential oil can irritate renal tissue and worsen existing inflammation."
+      },
+      {
+        "de": "Überempfindlichkeit gegen Juniperus communis oder andere Cupressaceae.",
+        "en": "Hypersensitivity to Juniperus communis or other Cupressaceae."
+      },
+      {
+        "de": "Kinder und Jugendliche unter 12 Jahren (Tee, Tinktur, äther. Öl); unter 6 Jahren auch Inhalationen kontraindiziert.",
+        "en": "Children and adolescents under 12 years (tea, tincture, essential oil); inhalation also contraindicated under 6 years."
+      },
+      {
+        "de": "Stillzeit — therapeutische Zubereitungen; äther. Öl kann in Muttermilch übergehen.",
+        "en": "Lactation — therapeutic preparations; essential oil may pass into breast milk."
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gemeiner Wacholder (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gemeiner_Wacholder",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Juniperus communis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Juniperus_communis",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_kommission_e_juniperi_fructus",
+      "type": "monograph",
+      "title": "Kommission E — Juniperi fructus (Wacholderbeeren), positive Monographie, BAnz Nr. 228, 1985, und Monographien-Korrektur 1990",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/0284.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_ema_juniperi_pseudofructus",
+      "type": "monograph",
+      "title": "EMA/HMPC — European Union herbal monograph on Juniperus communis L., pseudo-fructus (Final, EMA/HMPC/321462/2017)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/juniperi-pseudofructus",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_juniperi_fructus",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Juniperi fructus (Juniper Berry), 2nd edition plus supplement",
+      "url": "https://escop.com/downloads/juniper-berry/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_teedrogen",
+      "type": "book",
+      "title": "Wichtl, M. (Hrsg.) — Teedrogen und Phytopharmaka, 5. Auflage, Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009. Eintrag: Juniperi fructus",
+      "url": "https://www.wissenschaftliche.de/teedrogen-und-phytopharmaka",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_1938_juniperus",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band II: Juniperus communis (Wacholder), 1938 (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/juniperus.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_juniperus_communis",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Juniperus communis database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Juniperus+communis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_wacholder",
+      "type": "wikipedia",
+      "title": "Gemeiner Wacholder (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gemeiner_Wacholder",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_juniperus",
+      "type": "wikipedia",
+      "title": "Juniperus communis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Juniperus_communis",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_juniperus",
+      "type": "wikidata",
+      "title": "Juniperus communis — Wikidata (Q47741)",
+      "url": "https://www.wikidata.org/wiki/Q47741",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_who_juniperi_fructus",
+      "type": "monograph",
+      "title": "WHO Monographs on Selected Medicinal Plants — Volume 3: Fructus Juniperi",
+      "url": "https://apps.who.int/iris/handle/10665/42700",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "juniperus-communis.jpg",
+    "alt": {
+      "de": "Foto von Gemeiner Wacholder",
+      "en": "Photo of Juniperus communis"
+    },
+    "license": "CC BY-SA 2.5",
+    "author": "Nikanos",
+    "source_url": "https://commons.wikimedia.org/wiki/File:L%C3%BCneburger_Heide_006.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (Juniperi aetheroleum) — α-Pinen, β-Pinen, Sabinen, Mycen, Terpinen-4-ol",
+      "category": "essential_oil",
+      "percent_range": "0.2-3.4 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptwirkstoffgruppe der Wacholderbeere. α-Pinen (20–60 %) und Sabinen (bis 45 %) dominieren das Monoterpen-Muster; Terpinen-4-ol (1–15 %) gilt als Leitsubstanz der aquaretischen Wirkung (stimuliert die renale Durchblutung). Das Öl wirkt sekretolytisch, aquaretisch und schwach antimikrobiell. Gehalte variieren stark je nach Herkunft und Erntezeitpunkt (EMA: min. 0,2 %, Ph. Eur. definiert Anforderungen).",
+        "en": "Main active constituent group of juniper berry. α-Pinene (20–60 %) and sabinene (up to 45 %) dominate the monoterpene pattern; terpinen-4-ol (1–15 %) is considered the lead substance for aquaretic activity (stimulates renal perfusion). The oil is secretolytic, aquaretic and weakly antimicrobial. Content varies strongly with origin and harvest time (EMA: min. 0.2 %; Ph. Eur. requirements apply)."
+      }
+    },
+    {
+      "name": "Flavonoide (Amentoflavon, Hinokiflavon, Quercetin-3-glucosid, Isoquercitrin)",
+      "category": "flavonoid",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Biflavone (Amentoflavon, Hinokiflavon) sind für Coniferales charakteristisch und tragen zur aquaretischen und antioxidativen Wirkung bei. Amentoflavon zeigte in Studien hemmende Wirkung auf COX-1 und COX-2 (antiphlogistisches Potenzial). Quercetin-Glykoside ergänzen die antioxidative Kapazität.",
+        "en": "Biflavones (amentoflavone, hinokiflavone) are characteristic of Coniferales and contribute to aquaretic and antioxidant activity. Amentoflavone has shown inhibition of COX-1 and COX-2 in studies (anti-inflammatory potential). Quercetin glycosides complement antioxidant capacity."
+      }
+    },
+    {
+      "name": "Invertzucker und Polysaccharide (Glucose, Fructose, Inulin-artige Oligosaccharide)",
+      "category": "polysaccharide",
+      "percent_range": "15-30 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Der hohe Zuckeranteil (vorwiegend Invertzucker) erklärt die leicht süßliche Note reifer Beeren. Inulin-artige Oligosaccharide wurden als Begleitstoff beschrieben; ihre klinische Bedeutung für Juniperus ist gering. Zucker tragen zur Konsistenz getrockneter Beeren und zur Löslichkeit wasserlöslicher Inhaltstoffe im Tee bei.",
+        "en": "The high sugar content (mainly invert sugar) explains the slightly sweet note of ripe berries. Inulin-like oligosaccharides have been described as minor components; their clinical relevance for juniper is limited. Sugars contribute to the texture of dried berries and the solubility of water-soluble constituents in tea."
+      }
+    },
+    {
+      "name": "Diterpensäuren (Isocupressinsäure, Dehydroabietinsäure) und Harze",
+      "category": "other",
+      "percent_range": "1-4 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Harzfraktion aus Diterpensäuren; verantwortlich für die adstringierende und schwach antiseptische Wirkung. Isocupressinsäure (und verwandte Abietane) zeigen in Tier­studien uterusstimulierend-oxytocische Aktivität — das ist ein wesentlicher Grund für die Kontraindikation in der Schwangerschaft. Die Harze tragen auch zu dem charakteristischen Wacholderduftstoff und -geschmack bei.",
+        "en": "Resin fraction of diterpene acids; responsible for astringent and mildly antiseptic properties. Isocupressic acid (and related abietanes) shows uterine-stimulating/oxytocic activity in animal studies — a key reason for contraindication in pregnancy. Resins also contribute to the characteristic juniper aroma and taste."
+      }
+    },
+    {
+      "name": "Proanthocyanidine (oligomere und polymere Procyanidine)",
+      "category": "tannin",
+      "percent_range": "0.3-1 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Adstringierende Gerbstoffkomponente, ähnlich wie bei anderen Beerenfrüchten. Tragen zur antioxidativen Kapazität und zu einem leicht zusammenziehenden Nachgeschmack bei. Synergistischer Beitrag zur entzündungshemmenden Wirkung des Gesamtextrakts.",
+        "en": "Astringent tannin component, similar to other berry fruits. Contribute to antioxidant capacity and a slightly astringent aftertaste. Synergistic contribution to the anti-inflammatory activity of the whole extract."
+      }
+    },
+    {
+      "name": "Phenolische Säuren (Chlorogensäure, Kaffeesäure, Protocatechusäure)",
+      "category": "phenolic_acid",
+      "percent_range": "0.2-0.8 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Begleitstoffgruppe mit antioxidativen und mild entzündungshemmenden Eigenschaften. Chlorogensäure ist auch in anderen Beeren und Kaffee weit verbreitet. Ergänzen die antioxidative Wirkung des Gesamtextrakts synergistisch.",
+        "en": "Accessory compound group with antioxidant and mildly anti-inflammatory properties. Chlorogenic acid is also widely found in other berries and coffee. They synergistically complement the antioxidant effect of the whole extract."
+      }
+    },
+    {
+      "name": "Catechine und Epicatechin (monomere Flavan-3-ole)",
+      "category": "tannin",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Monomere Vorstufen der Proanthocyanidine. Antioxidativ, mild kapillarprotektiv. In Wacholderbeeren in geringeren Mengen als in Rotweintrauben oder Weißdorn, dennoch Teil des antioxidativen Gesamtprofils.",
+        "en": "Monomeric precursors of proanthocyanidins. Antioxidant, mildly capillary-protective. Present in smaller amounts in juniper berries than in red grapes or hawthorn, but still part of the overall antioxidant profile."
+      }
+    },
+    {
+      "name": "Sesquiterpene (β-Elemen, Germacren D, Cadinene) — im ätherischen Öl",
+      "category": "sesquiterpene",
+      "percent_range": "0.1-2 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Minderkomponenten des ätherischen Öls (5–15 % des Ölanteils). β-Elemen und Germacren D zeigen in vitro antimikrobielle und antifungale Eigenschaften. Beitragen zum komplexen Duftprofil des Wacholderöls und zu potenten sekundären Wirkungen des Gesamtöls.",
+        "en": "Minor components of the essential oil (5–15 % of the oil fraction). β-Elemene and germacrene D show in-vitro antimicrobial and antifungal properties. Contribute to the complex aroma profile of juniper oil and to potent secondary activities of the whole oil."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "An trockenem Morgen oder Vormittag (9–12 Uhr), wenn der Tau vollständig abgetrocknet ist. Vollreife, dunkelblau bis schwarze Beeren (im zweiten oder dritten Reifejahr) ernten — grüne Beeren des Jahrgangs stehen noch an derselben Pflanze, da Juniperus communis zweijährig reift. Handschuhe tragen (die nadelartigen Blätter stechen stark). Erste leichte Fröste verbessern Aroma und Zuckergehalt.",
+        "en": "On a dry morning or late morning (9–12), once dew has fully dried. Harvest fully ripe, dark blue to black berries (in their second or third year of ripening) — green same-year berries will be present on the same plant, as Juniperus communis ripens biennially. Wear gloves (needle-like leaves are very sharp). First light frosts improve aroma and sugar content."
+      },
+      "drying": {
+        "de": "Stiele entfernen, Beeren waschen und abtropfen lassen. Einlagig auf Sieben oder Tüchern im Schatten an luftigem, warmem Ort (max. 35 °C) trocknen — 2–3 Wochen Naturtrocknungsdauer. Alternativ im Dörrgerät bei 35–40 °C ca. 24–48 Stunden (langsam und schonend, um das äther. Öl zu erhalten). Beeren sind fertig, wenn sie sich beim Drücken ledrig-fest anfühlen und beim Anschneiden noch aromatisch riechen. Bei zu rascher oder zu heißer Trocknung (>45 °C) geht das wertvolle äther. Öl verloren. Schrumpelige, geruchlose oder schimmelige Beeren verwerfen.",
+        "en": "Remove stems, wash and drain berries. Dry in a single layer on screens or cloth in shade, well-ventilated, max. 35 °C — natural drying takes 2–3 weeks. Alternatively use a dehydrator at 35–40 °C for ~24–48 h (slow and gentle to preserve essential oil). Berries are ready when they feel leathery-firm when pressed and still smell aromatic when cut. Drying too fast or hot (>45 °C) destroys the valuable essential oil. Discard shrivelled, odourless or mouldy berries."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In luftdichten, dunklen Glas- oder Metallbehältern, kühl und trocken. Vor Öffnung des Behälters am Duftstoff erkennen, ob das äther. Öl noch vorhanden ist. Innerhalb von 12 Monaten aufbrauchen — danach nimmt die Wirkstoffkonzentration ab.",
+        "en": "In airtight dark glass or metal containers, cool and dry. Before opening, check by aroma whether essential oil is still present. Use within 12 months — active constituent concentration decreases thereafter."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        3,
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Junge Nadeltriebe (hellgrüne Jahrestriebe) am Morgen nach Tauabtrocknung ernten — der Gehalt an ätherischem Öl ist in den jungen Trieben am höchsten. Robuste Handschuhe und langärmliges Hemd unbedingt tragen (die Blätter/Nadeln verursachen Hautreizungen und tiefe Stiche).",
+        "en": "Harvest young needle shoots (light-green annual growth) in the morning after dew has dried — essential oil content is highest in young shoots. Sturdy gloves and long sleeves are essential (the leaves/needles cause skin irritation and deep punctures)."
+      },
+      "drying": {
+        "de": "Junge Zweigspitzen (5–10 cm) von der Mutterpflanze schneiden. Locker in kleinen Bündeln mit Schnur zusammenbinden und kopfüber an einem schattigen, gut belüfteten Ort (max. 30–35 °C) hängen. Trocknungszeit ca. 1–2 Wochen. Die getrockneten Nadeln sind brüchig — von den Stielen streifen und in Gläser füllen. Für Teeansatz 1–2 TL Nadeln verwenden. Nadel-Droge hat geringere Bedeutung als Beerenzubereitung — kein Ph.-Eur.-Monograph für Nadeln.",
+        "en": "Cut young shoot tips (5–10 cm) from the mother plant. Tie loosely into small bunches and hang upside down in a shady, well-ventilated spot (max. 30–35 °C). Drying time approx. 1–2 weeks. Dried needles are brittle — strip from stems and store in jars. Use 1–2 tsp of needles for tea. Needle drug is of lesser importance than berry preparations — no Ph. Eur. monograph for needles."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "In luftdichten Gläsern, dunkel und kühl; innerhalb 6 Monate aufbrauchen — Nadeln verlieren ihr äther. Öl rascher als getrocknete Beeren.",
+        "en": "In airtight jars, dark and cool; use within 6 months — needles lose their essential oil faster than dried berries."
+      }
+    }
+  ]
+}

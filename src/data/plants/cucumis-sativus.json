@@ -1,0 +1,505 @@
+{
+  "slug": "cucumis-sativus",
+  "names": {
+    "de": "Gurke",
+    "en": "Cucumber",
+    "latin": "Cucumis sativus"
+  },
+  "family": {
+    "de": "Kürbisgewächse",
+    "en": "Gourd family",
+    "latin": "Cucurbitaceae"
+  },
+  "description": {
+    "de": "Die Gurke, auch als Kukumer und Gartengurke bezeichnet, ist eine Art der Gattung Gurken (Cucumis) aus der Familie der Kürbisgewächse. Sie gehört zu den wirtschaftlich bedeutendsten Gemüsearten. Mit der unterschiedlichen Nutzung zusammenhängend werden im Wesentlichen zwei Sortengruppen unterschieden: die Salatgurke und die Einlege- oder Gewürzgurke.",
+    "en": "The cucumber is a widely-cultivated creeping vine plant in the family Cucurbitaceae that bears cylindrical to spherical fruits, used as culinary vegetables. Considered an annual plant, there are three main types: slicing, pickling, and seedless."
+  },
+  "teaser": {
+    "de": "Die Gurke, auch als Kukumer und Gartengurke bezeichnet, ist eine Art der Gattung Gurken (Cucumis) aus der Familie der...",
+    "en": "The cucumber is a widely-cultivated creeping vine plant in the family Cucurbitaceae that bears cylindrical to spheric..."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "hydration",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Frische Gurke als Rohkost — Salat, Snack, Tzatziki. Mit einem Wassergehalt von ca. 95 % ist die Gurke eines der wasserreichsten Lebensmittel überhaupt und trägt maßgeblich zur täglichen Flüssigkeitsversorgung bei. Sehr kalorienarm (~15 kcal/100 g), ballaststoffreich und reich an Vitamin K und Kalium. Die Schale enthält mehr Ballaststoffe und Chlorophyll — bei Bioware mitessen.",
+        "en": "Fresh cucumber as raw food — salads, snacking, tzatziki. With a water content of approx. 95 %, cucumber is one of the most water-rich foods available and contributes significantly to daily fluid intake. Very low in calories (~15 kcal/100 g), a source of dietary fibre, vitamin K, and potassium. The skin contains more fibre and chlorophyll — eat it when organically grown."
+      },
+      "source_ids": [
+        "src_usda_cucumber",
+        "src_wp_de_gurke",
+        "src_wp_en_cucumber"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Gurken-Infusionswasser (\"Detox-Wasser\"): Gurkenscheiben mit frischer Minze oder Zitronenscheiben in kaltem Wasser mehrere Stunden ziehen lassen. Volkstümlich als erfrischendes, belebend-mildes Sommergetränk bekannt; keine klinisch belegten Entgiftungseffekte, aber eine angenehme Methode, mehr Wasser zu trinken.",
+        "en": "Cucumber infusion water (\"detox water\"): cucumber slices with fresh mint or lemon steeped in cold water for several hours. Well known in folk tradition as a refreshing summer drink; no clinically proven detoxification effect, but an enjoyable method to increase fluid intake."
+      },
+      "source_ids": [
+        "src_pfaf_cucumis",
+        "src_wp_en_cucumber"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Eingelegte Gurken (Pickles, Salzgurken, fermentierte Sauergurken): Gurken werden in Essig-Lake (Pickles) oder durch Milchsäurefermentation (Senfgurken, polnische Ogórki kiszone) haltbar gemacht. Fermentierte Varianten liefern lebende Milchsäurebakterien (Probiotika) und sind kulturell in ganz Europa, Asien und Nordamerika verankert. Dill, Knoblauch und Meerrettich sind klassische Gewürzpartner.",
+        "en": "Pickled cucumbers (pickles, salt cucumbers, fermented sour cucumbers): cucumbers are preserved in vinegar brine (pickles) or via lactic acid fermentation (mustard pickles, Polish Ogórki kiszone). Fermented varieties provide live lactic acid bacteria (probiotics) and are culturally embedded across Europe, Asia, and North America. Dill, garlic, and horseradish are classic seasoning partners."
+      },
+      "source_ids": [
+        "src_wp_de_gurke",
+        "src_wp_en_cucumber",
+        "src_pfaf_cucumis"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Gurkenaugen-Kompressen: Frische, gekühlte Gurkenscheiben auf die geschlossenen Augenlider legen (5–15 Minuten). Traditionell bei müden, geschwollenen oder gereizten Augen angewendet. Die kühlende Wirkung ist primär physikalisch (Kälte + hoher Wassergehalt). Enthaltene Flavonoide und Vitamin C werden in der Volksheilkunde als entzündungshemmend beschrieben; klinische Belege fehlen.",
+        "en": "Cucumber eye compresses: fresh, chilled cucumber slices placed on closed eyelids (5–15 minutes). Traditionally used for tired, puffy, or irritated eyes. The cooling effect is primarily physical (cold + high water content). Contained flavonoids and vitamin C are described in folk medicine as anti-inflammatory; clinical evidence is lacking."
+      },
+      "source_ids": [
+        "src_pfaf_cucumis",
+        "src_wp_en_cucumber"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Gurkenmasken und Gurkenkompressen auf der Haut: Geriebenes oder in dünne Scheiben geschnittenes Gurkenfleisch wird auf die Haut aufgetragen — volkstümlich bei leichten Sonnenbränden, geröteter, empfindlicher Haut oder als erfrischende Gesichtspflege. Der hohe Wassergehalt und das milde, leicht adstringierende Milieu gelten als beruhigend und kühlend. Nicht geeignet bei offenen Wunden oder schweren Verbrennungen.",
+        "en": "Cucumber skin masks and compresses: grated or thinly sliced cucumber pulp applied to the skin — used in folk cosmetics for mild sunburn, reddened or sensitive skin, and as a refreshing facial treatment. The high water content and mildly astringent environment are considered soothing and cooling. Not suitable for open wounds or severe burns."
+      },
+      "source_ids": [
+        "src_pfaf_cucumis",
+        "src_wikidata_cucumis"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "skin",
+        "joints"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Siliciumquelle aus dem Garten: Gurken enthalten nennenswerte Mengen an Silicium (Kieselsäure), das in der Volksmedizin und Naturheilkunde mit Haut-, Haar- und Bindegewebsgesundheit in Verbindung gebracht wird. Wissenschaftlich ist Silicium als essenzielles Spurenelement nicht abschließend anerkannt; die Datenlage für ernährungsbedingte Effekte ist limitiert. Gurke bleibt dennoch eine der einfachsten Nahrungsquellen für diesen Mineralstoff.",
+        "en": "Garden silicon source: cucumbers contain notable amounts of silicon (silicic acid), which in folk medicine and naturopathy is associated with skin, hair, and connective tissue health. Scientifically, silicon is not conclusively recognised as an essential trace element; evidence for dietary effects is limited. Cucumber remains one of the most accessible dietary sources of this mineral."
+      },
+      "source_ids": [
+        "src_pfaf_cucumis",
+        "src_usda_cucumber"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Kürbiskern-artige Verwendung der Gurkenkerne: In einigen Kulturen werden Gurkenkerne getrocknet und als leichter Snack oder Ölquelle genutzt. Die Samen enthalten mehr Fett und Protein als das Fruchtfleisch. Volksheilkundlich wurden Gurkenkerne historisch als mildes Entwurmungsmittel beschrieben (ähnlich wie Kürbiskerne) — klinisch nicht belegt für Cucumis sativus.",
+        "en": "Pumpkin-seed-like use of cucumber seeds: in some cultures cucumber seeds are dried and used as a light snack or oil source. The seeds contain more fat and protein than the flesh. In folk medicine, cucumber seeds were historically described as a mild anthelmintic (similar to pumpkin seeds) — not clinically substantiated for Cucumis sativus."
+      },
+      "source_ids": [
+        "src_pfaf_cucumis",
+        "src_wp_de_gurke"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Frische Früchte",
+      "en": "fresh fruits"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Gurken sind für Menschen im Allgemeinen sehr gut verträglich. ACHTUNG bei Bitterkeit: Cucurbitacine sind bittere, toxische Triterpenverbindungen, die in Wildgurken oder gelegentlich in Kulturgurkensorten (insbes. Einlegegurken nach Stress durch Hitze, Trockenheit oder Kreuzung mit Wildsorten) stark erhöht sein können. Stark bittere Früchte NICHT essen — Bitterkeit ist ein Warnsignal. Cucurbitacin-Vergiftungen können zu Übelkeit, Erbrechen, Durchfall und Bauchkrämpfen führen. Gelegentlich können Gurken, insbes. die Schale, bei empfindlichen Personen leichte Verdauungsbeschwerden (Blähungen, Sodbrennen) verursachen.",
+      "en": "Cucumbers are generally very well-tolerated by humans. WARNING regarding bitterness: cucurbitacins are bitter, toxic triterpene compounds that can be significantly elevated in wild cucumbers or occasionally in cultivated varieties (especially pickling cucumbers under stress from heat, drought, or crossing with wild relatives). Do NOT eat strongly bitter fruits — bitterness is a warning signal. Cucurbitacin poisoning can cause nausea, vomiting, diarrhoea, and abdominal cramps. Occasionally cucumbers, especially the skin, may cause mild digestive discomfort (bloating, heartburn) in sensitive individuals."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Handelsübliche Gurken in normalen Nahrungsmengen gelten in der Schwangerschaft als unbedenklich. Sehr bittere Früchte meiden (Cucurbitacine).",
+        "en": "Commercial cucumbers in normal dietary amounts are considered safe in pregnancy. Avoid very bitter fruits (cucurbitacins)."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "In normalen Nahrungsmengen unbedenklich. Sehr bittere Gurken meiden.",
+        "en": "Safe in normal dietary amounts. Avoid very bitter cucumbers."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Für Kinder gut geeignet. Sehr bittere Früchte unbedingt meiden. Kleine Kinder sollten die Schale ggf. geschält bekommen (leichtere Verdaulichkeit).",
+        "en": "Well suited for children. Always avoid very bitter fruits. Young children may have the skin peeled for easier digestion."
+      }
+    },
+    "drug_interactions": [],
+    "contraindications": [
+      {
+        "de": "Stark bittere Gurkenfrüchte (erhöhter Cucurbitacin-Gehalt) — nicht verzehren.",
+        "en": "Strongly bitter cucumber fruits (elevated cucurbitacin content) — do not consume."
+      },
+      {
+        "de": "Bekannte Überempfindlichkeit oder Allergie gegen Kürbisgewächse (Cucurbitaceae, z. B. Gurken, Melonen, Zucchini) — Kreuzreaktionen möglich.",
+        "en": "Known hypersensitivity or allergy to Cucurbitaceae (e.g. cucumbers, melons, courgettes) — cross-reactions possible."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gurke (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gurke",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Cucumber (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Cucumber",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_usda_cucumber",
+      "type": "monograph",
+      "title": "USDA FoodData Central — Cucumber, with peel, raw (FDC ID: 168409)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/168409/nutrients",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_cucumis",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Cucumis sativus database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Cucumis+sativus",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_gurke",
+      "type": "wikipedia",
+      "title": "Gurke (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gurke",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_cucumber",
+      "type": "wikipedia",
+      "title": "Cucumber (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Cucumber",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_cucumis",
+      "type": "wikidata",
+      "title": "Cucumis sativus — Wikidata (Q1419186)",
+      "url": "https://www.wikidata.org/wiki/Q1419186",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_commons_cucumis",
+      "type": "commons",
+      "title": "Wikimedia Commons — Category: Cucumis sativus",
+      "url": "https://commons.wikimedia.org/wiki/Category:Cucumis_sativus",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_efsa_cucumber",
+      "type": "monograph",
+      "title": "EFSA — Concise European Food Composition Database: Cucumber (raw) — nutrient data reference",
+      "url": "https://www.efsa.europa.eu/en/supporting/pub/en-429",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_cucurbitacin_toxicity",
+      "type": "monograph",
+      "title": "Diaz GJ et al. (2015) — Cucurbitacin poisoning in humans and animals: A review. Toxicon 93:56-67",
+      "url": "https://doi.org/10.1016/j.toxicon.2014.11.002",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_silicon_dietary",
+      "type": "monograph",
+      "title": "Jugdaohsingh R (2007) — Silicon and bone health. J Nutr Health Aging 11(2):99-110 (PubMed PMC2658806)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2658806/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_cucurbitacin",
+      "type": "wikipedia",
+      "title": "Cucurbitacine (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Cucurbitacine",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "cucumis-sativus.jpg",
+    "alt": {
+      "de": "Foto von Gurke",
+      "en": "Photo of Cucumber"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Bff",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cucumis_sativus20090812_496.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 4,
+        "end_month": 5
+      },
+      "outdoor_direct": {
+        "start_month": 5,
+        "end_month": 6
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 7,
+      "end_month": 10
+    },
+    "days_to_harvest": 70,
+    "spacing_cm": 40,
+    "garden_type": [
+      "raised_bed",
+      "field",
+      "greenhouse"
+    ],
+    "difficulty": 2
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-cepa",
+      "anethum-graveolens",
+      "calendula-officinalis",
+      "lactuca-sativa-capitata",
+      "phaseolus-vulgaris-nanus",
+      "phaseolus-vulgaris-vulgaris",
+      "pisum-sativum-sativum",
+      "tropaeolum-majus",
+      "zea-mays"
+    ],
+    "bad_partners": [
+      "solanum-lycopersicum"
+    ],
+    "reasons": {
+      "allium-cepa": {
+        "de": "Zwiebel hält Mehltau-Sporen von Gurken fern.",
+        "en": "Onion deters mildew spores from cucumbers."
+      },
+      "anethum-graveolens": {
+        "de": "Klassiker: Dill mit Gurken-Einlegen — auch im Beet beste Nachbarn.",
+        "en": "Classic: dill with pickled cucumbers — also best bed partners."
+      },
+      "calendula-officinalis": {
+        "de": "Ringelblume vertreibt Nematoden und lockt Nützlinge.",
+        "en": "Calendula deters nematodes and attracts beneficials."
+      },
+      "solanum-lycopersicum": {
+        "de": "Tomate und Gurke teilen Pilzkrankheiten (Mehltau) — infizieren sich.",
+        "en": "Tomato and cucumber share fungal disease (mildew) — cross-infection."
+      },
+      "tropaeolum-majus": {
+        "de": "Kapuzinerkresse hält Gurken-Schädlinge fern.",
+        "en": "Nasturtium deters cucumber pests."
+      },
+      "zea-mays": {
+        "de": "Mais dient als Klettergerüst für Gurke (Three-Sisters-Analogon).",
+        "en": "Maize serves as climbing frame for cucumber (Three Sisters analogue)."
+      }
+    },
+    "notes_de": "solanum-lycopersicum: Tomate und Gurke teilen Pilzkrankheiten (Mehltau). anethum-graveolens: Klassiker: Dill mit Gurken-Einlegen — auch im Beet gute Nachbarn. zea-mays: Mais bietet Klettergerüst für Gurke (analog Three Sisters).",
+    "notes_en": "solanum-lycopersicum: Tomato and cucumber share fungal diseases (mildew). anethum-graveolens: Classic: dill with pickled cucumbers — also good bed companions. zea-mays: Corn provides climbing frame for cucumber (analogous to Three Sisters).",
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "ground_cover",
+    "pollinator_attractor"
+  ],
+  "constituents": [
+    {
+      "name": "Wasser (H₂O)",
+      "category": "other",
+      "percent_range": "ca. 95 %",
+      "note": {
+        "de": "Der dominante Bestandteil der Gurke — macht sie zu einem der wasserreichsten Lebensmittel überhaupt. Hauptverantwortlich für den kühlenden Effekt bei äußerlicher Anwendung und für die hydrierende Wirkung beim Verzehr.",
+        "en": "The dominant constituent of cucumber — making it one of the most water-rich foods available. Primarily responsible for the cooling effect in external application and for the hydrating effect when eaten."
+      }
+    },
+    {
+      "name": "Vitamin K (Phylloquinon)",
+      "category": "vitamin",
+      "percent_range": "ca. 16 µg/100 g (ca. 13–20 % der RDA)",
+      "note": {
+        "de": "Wichtigstes Mikronährstoff-Highlight der Gurke. Phylloquinon (Vitamin K1) ist essenziell für die Blutgerinnung und den Knochenstoffwechsel. Gurken gehören zu den nennenswerten pflanzlichen Quellen für Vitamin K.",
+        "en": "The most significant micronutrient highlight of cucumber. Phylloquinon (Vitamin K1) is essential for blood coagulation and bone metabolism. Cucumbers are a notable plant-based source of vitamin K."
+      }
+    },
+    {
+      "name": "Vitamin C (L-Ascorbinsäure)",
+      "category": "vitamin",
+      "percent_range": "ca. 2–3 mg/100 g",
+      "note": {
+        "de": "In moderaten Mengen vorhanden; trägt zur Gesamtvitamin-C-Aufnahme bei, ist jedoch keine Hauptquelle. Antioxidativ, relevant für Immunsystem und Kollagenbildung.",
+        "en": "Present in moderate amounts; contributes to overall vitamin C intake, though not a primary source. Antioxidant, relevant for immune function and collagen synthesis."
+      }
+    },
+    {
+      "name": "Kalium",
+      "category": "mineral",
+      "percent_range": "ca. 150–160 mg/100 g",
+      "note": {
+        "de": "Nennenswerte Kaliumquelle, relevant für Elektrolythaushalt, Herzfunktion und Blutdruckregulation. Gurken können bei kaliumarmer Ernährung einen Beitrag leisten.",
+        "en": "Notable potassium source, relevant for electrolyte balance, cardiac function, and blood pressure regulation. Cucumbers can contribute to dietary potassium intake."
+      }
+    },
+    {
+      "name": "Ballaststoffe (Cellulose, Pektin)",
+      "category": "polysaccharide",
+      "percent_range": "ca. 0,5 g/100 g",
+      "note": {
+        "de": "Hauptsächlich Cellulose in der Schale und Pektin im Fruchtfleisch. Unterstützen die Darmperistaltik und fördern ein gesundes Darmmilieu. Der Ballaststoffgehalt ist moderat — höher in ungeschälter Gurke.",
+        "en": "Primarily cellulose in the skin and pectin in the flesh. Support intestinal motility and promote a healthy gut environment. Fibre content is moderate — higher in unpeeled cucumber."
+      }
+    },
+    {
+      "name": "Cucurbitacine (Cucurbitacin B, D, E)",
+      "category": "bitter",
+      "percent_range": "Spuren bis wenige ppm (in bitteren Früchten deutlich höher)",
+      "note": {
+        "de": "Bittere Triterpenverbindungen, die für den evolutionären Fraßschutz der Pflanze verantwortlich sind. In modernen Kultursorten züchterisch stark reduziert; bei Stress (Hitze, Trockenheit, Kreuzung mit Wildsorten) kann der Gehalt wieder ansteigen. Hohes Cucurbitacin-Niveau ist giftig (gastrointestinale Reizung, in Extremfällen lebensbedrohlich).",
+        "en": "Bitter triterpene compounds responsible for the plant's evolutionary anti-herbivore defence. Strongly reduced by breeding in modern cultivars; stress conditions (heat, drought, crossing with wild relatives) can cause levels to increase again. High cucurbitacin levels are toxic (gastrointestinal irritation, in extreme cases life-threatening)."
+      }
+    },
+    {
+      "name": "Silicium (Kieselsäure, SiO₂ als ortho-Kieselsäure)",
+      "category": "mineral",
+      "percent_range": "ca. 1–2 mg/100 g",
+      "note": {
+        "de": "Gurken gelten als eine der besten Nahrungsquellen für bioverfügbares Silicium, das in der Naturheilkunde mit Bindegewebe-, Haut- und Nagelgesundheit assoziiert wird. Die Datenlage zur Essenzialität von Silicium beim Menschen ist noch nicht abschließend.",
+        "en": "Cucumbers are considered one of the better dietary sources of bioavailable silicon, associated in naturopathy with connective tissue, skin, and nail health. The evidence base for silicon's essentiality in humans is not yet conclusive."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin, Kaempferol, Apigenin — Spuren)",
+      "category": "flavonoid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Geringe Mengen polyphenolischer Flavonoide, besonders in Schale und Samen. Antioxidative und mild entzündungshemmende Eigenschaften in vitro beschrieben; Beitrag durch normale Gurkenmenge ernährungsphysiologisch gering.",
+        "en": "Small amounts of polyphenolic flavonoids, particularly in the skin and seeds. Antioxidant and mildly anti-inflammatory properties described in vitro; the contribution from a normal serving of cucumber is nutritionally modest."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Kühle Morgen- oder Abendstunden bevorzugen — die Früchte sind dann prall und saftig. Hitze am Mittag stresst die Pflanze und kann das Erntegut schneller welken lassen.",
+        "en": "Prefer cool morning or evening hours — the fruits are then firm and juicy. Midday heat stresses the plant and can cause harvested fruits to wilt more quickly."
+      },
+      "drying": {
+        "de": "ERNTE JUNG & REGELMÄSSIG: Gurken werden bei optimaler Größe geerntet (Salatgurken ca. 20–30 cm, Einlegegurken 5–10 cm). Überreife Früchte werden gelb, bitter (Cucurbitacine steigen an) und verlangsamen die weitere Fruchtbildung. Deshalb: alle 1–2 Tage kontrollieren und ernten — je häufiger geerntet wird, desto mehr Früchte bildet die Pflanze. Abschneiden mit einem scharfen Messer, nicht reißen (Pflanzenschaden). Frisch geerntete Gurken bei Kühlschranktemperatur (ca. 10–12 °C, nicht kälter — Gurken sind kälteempfindlich) bis zu 1 Woche lagern.",
+        "en": "HARVEST YOUNG & REGULARLY: cucumbers are harvested at optimal size (slicing cucumbers approx. 20–30 cm, pickling cucumbers 5–10 cm). Overripe fruits turn yellow, become bitter (cucurbitacins increase), and slow further fruit development. Therefore: check and harvest every 1–2 days — the more frequently harvested, the more fruits the plant produces. Cut with a sharp knife, do not pull (causes plant damage). Store freshly harvested cucumbers at refrigerator temperature (approx. 10–12 °C, not colder — cucumbers are cold-sensitive) for up to 1 week."
+      },
+      "storage_months": 1,
+      "storage_condition": {
+        "de": "Kühl (10–12 °C), nicht unter 8 °C lagern (Kälteschäden möglich). Nicht neben Tomaten oder Äpfeln lagern — Ethylengas dieser Früchte beschleunigt das Vergilben der Gurke. In der Schale ungewaschen bis zu 7 Tage haltbar.",
+        "en": "Store cool (10–12 °C), not below 8 °C (cold damage possible). Do not store next to tomatoes or apples — ethylene gas from these fruits accelerates yellowing. Unwashed in the skin keeps for up to 7 days."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Saatguternte aus vollreifen, bereits vergilbten Früchten, die absichtlich an der Pflanze ausreifen gelassen wurden. Trockenes Wetter wählen.",
+        "en": "Seed harvest from fully ripe, already yellowing fruits deliberately left to ripen fully on the plant. Choose dry weather."
+      },
+      "drying": {
+        "de": "SAATGUTGEWINNUNG: Überreife, gelbe Gurken aufschneiden, Samenbrei mit Wasser in einem Behälter ca. 2–3 Tage fermentieren lassen (zerstört keimhemmenden Gallert). Gute Samen sinken ab, tauben oben auf. Abgießen, Samen waschen und auf Papier bei Raumtemperatur vollständig trocknen (mind. 1–2 Wochen). Trocken, kühl und dunkel lagern — Keimfähigkeit ca. 3–5 Jahre. Nur aus nicht-hybriden (Open-Pollinated, OP) Sorten sinnvoll.",
+        "en": "SEED SAVING: cut open overripe yellow cucumbers, ferment seed pulp in water for approx. 2–3 days (destroys germination-inhibiting gel). Viable seeds sink, empty ones float. Drain, wash seeds, and dry thoroughly on paper at room temperature (at least 1–2 weeks). Store dry, cool, and dark — viability approx. 3–5 years. Only sensible with non-hybrid (open-pollinated, OP) varieties."
+      },
+      "storage_months": 36,
+      "storage_condition": {
+        "de": "Vollständig getrocknet, luftdicht verpackt, kühl und dunkel — Keimfähigkeit 3–5 Jahre.",
+        "en": "Fully dried, airtight sealed, cool and dark — viability 3–5 years."
+      }
+    }
+  ]
+}

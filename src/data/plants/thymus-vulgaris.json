@@ -1,0 +1,508 @@
+{
+  "slug": "thymus-vulgaris",
+  "names": {
+    "de": "Echter Thymian",
+    "en": "Thymus vulgaris",
+    "latin": "Thymus vulgaris"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Echter Thymian, auch Römischer Quendel, Kuttelkraut oder Gartenthymian genannt, ist eine Pflanzenart aus der Gattung der Thymiane (Thymus) innerhalb der Familie der Lippenblütler (Lamiaceae). Er wird als Heil- und Gewürzpflanze verwendet.",
+    "en": "Thymus vulgaris is a species of flowering plant in the mint family, Lamiaceae."
+  },
+  "teaser": {
+    "de": "Echter Thymian, auch Römischer Quendel, Kuttelkraut oder Gartenthymian genannt, ist eine Pflanzenart aus der Gattung ...",
+    "en": "Thymus vulgaris is a species of flowering plant in the mint family, Lamiaceae."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "throat"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 4,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "TEEAUFGUSS: 1–2 g zerkleinertes Thymiankraut mit 150 ml kochendem Wasser übergießen, zugedeckt 10 Minuten ziehen lassen, dann abseihen. 3–4 mal täglich eine frisch zubereitete Tasse trinken. Das ätherische Öl (Thymol, Carvacrol) entfaltet sich beim Aufguss und verflüssigt zähen Schleim im Bronchialsystem — bei produktivem Erkältungshusten besonders hilfreich. Bei Halsschmerzen langsam und in kleinen Schlucken trinken. Wenn Beschwerden nach 1 Woche nicht abklingen: zum Arzt.",
+          "en": "HOT INFUSION: Pour 150 ml boiling water over 1–2 g comminuted thyme herb, cover, steep for 10 minutes, strain. Drink one fresh cup 3–4 times a day. The essential oil helps loosen thick mucus in the bronchi — particularly useful for productive cold-related cough."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA-Monographie für Erwachsene, Jugendliche und Kinder ab 12 Jahren. Für jüngere Kinder (4–12 Jahre) liegen für die Teezubereitung keine ausreichenden Daten vor — unter 4 Jahren NICHT.",
+          "en": "Per EMA, for adults, adolescents and children from 12 years. Insufficient data for 4–12 years. Not for under 4 years."
+        }
+      },
+      "description": {
+        "de": "Klassischer Hustentee bei produktivem Erkältungshusten — das ätherische Öl wirkt schleimlösend, leicht krampfstillend an den Bronchien und antibakteriell im Atemwegsbereich.",
+        "en": "Classic cough tea for productive cold-related cough — the essential oil has an expectorant and antibacterial action."
+      },
+      "source_ids": [
+        "src_ema_thymi_herba"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 5
+        },
+        "water_ml": 1000,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "DAMPFINHALATION: 5 g getrocknetes Thymiankraut in eine Schüssel geben, 1 Liter heißes (nicht mehr kochendes!) Wasser darüber gießen. Kopf mit einem Handtuch über die Schüssel beugen und 5–10 Minuten den Dampf tief durch Nase und Mund einatmen. Augen geschlossen halten. 1–2 mal täglich bei festsitzendem Bronchialschleim. NICHT für Säuglinge/Kleinkinder, sowie bei Asthma (kann Krampf auslösen).",
+          "en": "STEAM INHALATION: 5 g dried thyme in a bowl, 1 litre hot (not boiling!) water on top. Inhale steam under a towel for 5–10 minutes through nose and mouth. Eyes closed. 1–2 times daily. NOT for infants/toddlers or in asthma."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Dampfinhalationen mit ätherischen Ölen können bei Säuglingen und Kleinkindern einen lebensbedrohlichen Stimmritzenkrampf auslösen.",
+          "en": "Steam inhalations with essential oils can trigger life-threatening glottic spasm in infants and toddlers."
+        }
+      },
+      "description": {
+        "de": "Dampfinhalation bei Bronchitis und verschleimten oberen Atemwegen — das ätherische Öl wirkt direkt auf die Schleimhäute.",
+        "en": "Steam inhalation for bronchitis and congested upper airways."
+      },
+      "source_ids": [
+        "src_ema_thymi_herba"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat",
+        "mouth"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "GURGELLÖSUNG: 1–2 g zerkleinertes Thymiankraut mit 150 ml kochendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen und auf lauwarme Temperatur abkühlen lassen. 2–3 mal täglich kräftig gurgeln und im Mund hin- und herspülen, dann ausspucken. Die Gerbstoffe wirken zusammenziehend, das ätherische Öl antibakteriell.",
+          "en": "GARGLE: Pour 150 ml boiling water over 1–2 g comminuted thyme, steep 10 minutes covered, strain and cool to lukewarm. Gargle vigorously 2–3 times a day, then spit out."
+        }
+      },
+      "age_restriction": {
+        "min_age": 6,
+        "note": {
+          "de": "Gurgeln erst, wenn das Kind das Wasser zuverlässig ausspucken kann (üblicherweise ab 6 Jahren).",
+          "en": "Gargling only once the child can reliably spit out the water (usually from age 6)."
+        }
+      },
+      "description": {
+        "de": "Antiseptische Gurgellösung bei Halsschmerzen, Mandelreizung und Mundschleimhautentzündungen.",
+        "en": "Antiseptic gargle for sore throat, tonsil irritation and inflammation of the oral mucosa."
+      },
+      "source_ids": [
+        "src_ema_thymi_herba"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 2,
+          "max": 6
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "FERTIGE TINKTUR (1:5, Ethanol 70 %): 2–6 ml dreimal täglich in etwas Wasser verdünnt einnehmen. Bei produktivem Erkältungshusten zwischen den Tee-Tassen. NICHT für Kinder unter 12 Jahren wegen Alkoholgehalts.",
+          "en": "READY-MADE TINCTURE (1:5, ethanol 70 %): Take 2–6 ml three times a day diluted in a little water. NOT for children under 12 years due to alcohol content."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Alkoholhaltige Tinkturen sind laut EMA für Kinder unter 12 Jahren nicht empfohlen.",
+          "en": "Alcohol-containing tinctures not recommended for children under 12."
+        }
+      },
+      "description": {
+        "de": "Konzentrierte alkoholische Auszüge — praktische Dosierung bei produktivem Erkältungshusten.",
+        "en": "Concentrated alcoholic extracts — practical dosing for productive cold-related cough."
+      },
+      "source_ids": [
+        "src_ema_thymi_herba"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "respiratory",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 100,
+          "max": 200
+        },
+        "doses_per_day": 1,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "BADEZUSATZ: 100–200 g Thymiankraut mit 2 Litern kochendem Wasser übergießen, 15 Minuten zugedeckt ziehen lassen, abseihen und dem Vollbad zugeben. Badetemperatur etwa 37 °C, Dauer 10–15 Minuten. Wirkt wärmend und unterstützend bei beginnender Erkältung. NICHT bei Fieber, offenen Hautstellen oder Herz-Kreislauf-Schwäche.",
+          "en": "BATH ADDITIVE: 100–200 g thyme + 2 L boiling water, steep 15 min, add to full bath at ~37 °C, 10–15 minutes. NOT in fever, open skin lesions or cardiovascular weakness."
+        }
+      },
+      "age_restriction": {
+        "min_age": 6,
+        "note": {
+          "de": "Für ältere Kinder ab 6 Jahren in halbierter Dosierung möglich. Säuglinge/Kleinkinder: ätherische-Öl-Bäder grundsätzlich vermeiden.",
+          "en": "For older children from 6 years at half dose. Avoid in infants and toddlers."
+        }
+      },
+      "description": {
+        "de": "Wärmendes Erkältungsbad — die ätherischen Öle gelangen über Haut und Atemluft in den Körper.",
+        "en": "Warming cold-relief bath — essential oils enter via skin and breathing air."
+      },
+      "source_ids": [
+        "src_ema_thymi_herba"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bei produktivem Husten, der länger als 1 Woche anhält, sowie bei Atemnot, Fieber oder eitrigem Auswurf umgehend ärztlich abklären lassen. WICHTIG: das reine ätherische Öl (Thymianöl) ist NICHT mit der Drogen-Zubereitung gleichzusetzen — es ist hochkonzentriert, hautreizend und schleimhautreizend, innerlich nur stark verdünnt und nie unverdünnt. Bei Säuglingen und Kleinkindern kann das ätherische Öl einen lebensbedrohlichen Stimmritzenkrampf auslösen — strikt vermeiden. Bei Asthma-Patienten Dampfinhalationen vorsichtig dosieren — können einen Bronchospasmus auslösen.",
+      "en": "If productive cough lasts more than 1 week, or with shortness of breath, fever or purulent sputum, seek medical advice. Pure essential oil (thyme oil) is NOT equivalent to the herbal preparation — it is highly concentrated, irritating, taken internally only highly diluted. In infants/toddlers essential oil can trigger life-threatening glottic spasm. In asthma, steam inhalations can trigger bronchospasm."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Die EMA stuft die Sicherheit in der Schwangerschaft als nicht ausreichend belegt ein. Thymian als Gewürz in Speisen ist unproblematisch; therapeutische Dosen sollten gemieden werden.",
+        "en": "EMA classifies safety in pregnancy as not sufficiently established. Thyme as a culinary spice is fine; therapeutic doses should be avoided."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Laut EMA keine ausreichenden Daten zur Anwendung in der Stillzeit — therapeutische Anwendung nicht empfohlen.",
+        "en": "Per EMA, insufficient data on use during breastfeeding."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Tee (zerkleinerte Droge) erst ab 12 Jahren. Unter 4 Jahren ist Thymian-Tee NICHT zu verwenden. Reines ätherisches Thymianöl darf bei Säuglingen und Kleinkindern unter 2 Jahren NIEMALS angewendet werden — es kann einen lebensgefährlichen Kehlkopfkrampf (Laryngospasmus) auslösen.",
+        "en": "Tea from 12 years. Not under 4 years. Pure thyme essential oil must NEVER be used in infants/toddlers under 2 years — risk of laryngospasm."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Keine spezifischen Wechselwirkungen bekannt",
+        "mechanism": {
+          "de": "Die EMA-Monographie zur Thymi herba listet keine bekannten Wechselwirkungen auf. Vorsicht bei gleichzeitiger Einnahme alkoholhaltiger Tinkturen mit zentral dämpfenden Medikamenten wegen des Ethanol-Anteils.",
+          "en": "The EMA monograph lists no known interactions. Caution with alcohol-containing tinctures alongside CNS depressants."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Thymian oder andere Lippenblütler (Lamiaceae) wie Salbei, Rosmarin, Oregano.",
+        "en": "Hypersensitivity to thyme or other Lamiaceae plants."
+      },
+      {
+        "de": "Kinder unter 4 Jahren — Thymian-Tee nicht zugelassen.",
+        "en": "Children under 4 years — thyme tea not approved."
+      },
+      {
+        "de": "Reines ätherisches Thymianöl: Säuglinge und Kleinkinder unter 2 Jahren (Erstickungsgefahr).",
+        "en": "Pure thyme essential oil: infants and toddlers under 2 years (risk of suffocation)."
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter Thymian (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Thymian",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Thymus vulgaris (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Thymus_vulgaris",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_thymi_herba",
+      "type": "monograph",
+      "title": "EMA/HMPC/342332/2013 — Community herbal monograph on Thymus vulgaris L. and Thymus zygis L., herba (Final, 12 November 2013)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/thymi-herba",
+      "accessed": "2026-05-18"
+    }
+  ],
+  "image": {
+    "filename": "thymus-vulgaris.jpg",
+    "alt": {
+      "de": "Foto von Echter Thymian",
+      "en": "Photo of Thymus vulgaris"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Fontema",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Thymus_fasce.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible",
+      "medicinal"
+    ],
+    "rooms": [
+      "kitchen",
+      "balcony"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "weekly",
+    "difficulty": 1,
+    "pet_safe": true,
+    "soil": {
+      "de": "Sandig, mager, mit Drainage",
+      "en": "Sandy, lean, with drainage"
+    },
+    "pot_size_cm": 15,
+    "tips": {
+      "de": [
+        "Mag Trockenheit — eher zu wenig als zu viel gießen.",
+        "Pralle Sonne gewünscht — Mittelmeer-Pflanze.",
+        "Im Frühjahr leicht zurückschneiden für kompakten Wuchs."
+      ],
+      "en": [
+        "Likes drought — under-water rather than over.",
+        "Full sun preferred — Mediterranean plant.",
+        "Light pruning in spring for compact growth."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "brassica-oleracea-italica",
+      "cucurbita-pepo",
+      "fragaria-vesca",
+      "lavandula-angustifolia",
+      "matricaria-chamomilla",
+      "ocimum-basilicum",
+      "origanum-vulgare",
+      "rosmarinus-officinalis",
+      "salvia-officinalis",
+      "tagetes-patula",
+      "tropaeolum-majus"
+    ],
+    "bad_partners": [],
+    "reasons": {
+      "brassica-oleracea-italica": {
+        "de": "Thymian-Duft maskiert Brokkoli für Kohlweißling.",
+        "en": "Thyme scent masks broccoli from cabbage white butterfly."
+      },
+      "cucurbita-pepo": {
+        "de": "Thymian hält Kohlweißling und Kürbis-Schädlinge fern.",
+        "en": "Thyme deters cabbage white and squash pests."
+      },
+      "fragaria-vesca": {
+        "de": "Thymian als Bodendecker hält Schnecken fern.",
+        "en": "Thyme as ground cover deters slugs."
+      },
+      "origanum-vulgare": {
+        "de": "Beide aromatisch und insekten-freundlich — ideale Nachbarn.",
+        "en": "Both aromatic and bee-friendly — ideal neighbours."
+      },
+      "rosmarinus-officinalis": {
+        "de": "Beide mediterran-trocken-tolerant — perfekte Kräuter-Allianz.",
+        "en": "Both Mediterranean and drought-tolerant — perfect herb pairing."
+      },
+      "salvia-officinalis": {
+        "de": "Beide aromatisch und trockenheits-tolerant — Kräuter-Spirale-Klassiker.",
+        "en": "Both aromatic and drought-tolerant — herb-spiral classic."
+      }
+    },
+    "notes_de": "cucurbita-pepo: Thymian hält Kohlweißling und Kürbis-Schädlinge fern. brassica-oleracea-italica: Thymian-Duft maskiert Brokkoli für Kohlweißling.",
+    "notes_en": "cucurbita-pepo: Thyme deters cabbage white and squash pests. brassica-oleracea-italica: Thyme scent masks broccoli from cabbage white butterfly.",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 1,
+      "end_month": 12
+    },
+    "days_to_harvest": 180,
+    "spacing_cm": 25,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "greenhouse"
+    ],
+    "difficulty": 2
+  },
+  "permaculture_functions": [
+    "aromatic_repellent",
+    "pollinator_attractor",
+    "ground_cover",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (Thymol, Carvacrol, p-Cymen, γ-Terpinen, Linalool)",
+      "category": "essential_oil",
+      "percent_range": "1,0–2,5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hauptwirkstoff-Komplex. Thymol (36–55 %) und Carvacrol (1–4 %) sind die antibakteriell und sekretolytisch wirksamen Phenolkomponenten — sie verflüssigen Bronchialschleim.",
+        "en": "Main active complex. Thymol and carvacrol are antibacterial and secretolytic phenolic components."
+      }
+    },
+    {
+      "name": "Thymol",
+      "category": "essential_oil",
+      "percent_range": "36–55 % des äth. Öls",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hauptphenol des Thymianöls — stark antibakteriell, antimykotisch und schleimlösend. Hautreizend bei direkter Anwendung.",
+        "en": "Main phenol of thyme oil — strongly antibacterial, antifungal and expectorant. Skin-irritating on direct contact."
+      }
+    },
+    {
+      "name": "Carvacrol",
+      "category": "essential_oil",
+      "percent_range": "1–4 % des äth. Öls",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Strukturisomer des Thymols mit ähnlichem Wirkspektrum. Antibakteriell und antiinflammatorisch.",
+        "en": "Structural isomer of thymol with similar profile. Antibacterial and anti-inflammatory."
+      }
+    },
+    {
+      "name": "Flavonoide (Apigenin, Luteolin, Thymonin)",
+      "category": "flavonoid",
+      "percent_range": "ca. 0,3–1 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Tragen zur leicht krampflösenden Wirkung an der glatten Bronchialmuskulatur bei.",
+        "en": "Contribute to the mildly antispasmodic effect on bronchial smooth muscle."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Lamiaceen-Gerbstoffe, v.a. Rosmarinsäure)",
+      "category": "tannin",
+      "percent_range": "ca. 3–6 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Wirken zusammenziehend an Schleimhäuten — wichtiger Beitrag bei Gurgellösungen.",
+        "en": "Astringent action on mucous membranes — important for gargles."
+      }
+    },
+    {
+      "name": "Triterpene (Ursolsäure, Oleanolsäure)",
+      "category": "other",
+      "percent_range": "0,5–2 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Tragen leicht antiinflammatorisch zum Gesamtwirkprofil bei.",
+        "en": "Contribute mildly anti-inflammatory effects."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "An einem trockenen, sonnigen Vormittag, sobald der Tau abgetrocknet ist.",
+        "en": "On a dry, sunny morning once the dew has dried."
+      },
+      "drying": {
+        "de": "Die oberen, blühenden Triebspitzen kurz vor oder zu Beginn der Blüte abschneiden, etwa 5 cm über dem Boden. In lockeren Bündeln im Schatten an luftigem Ort hängen oder einlagig auf Tüchern ausbreiten. Trocknungstemperatur maximal 35 °C.",
+        "en": "Cut the upper flowering shoot tips just before or at the start of flowering, about 5 cm above the ground. Hang in loose bunches in the shade. Drying temperature at most 35 °C."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In luftdichten, dunklen Gläsern oder Dosen lichtgeschützt lagern. Ganzes Kraut hält das Aroma deutlich besser — erst kurz vor Gebrauch zerreiben.",
+        "en": "Store in airtight, dark jars protected from light. Whole herb preserves the aroma far better — crumble only shortly before use."
+      }
+    }
+  ]
+}

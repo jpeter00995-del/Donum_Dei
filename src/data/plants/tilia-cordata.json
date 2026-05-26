@@ -1,0 +1,453 @@
+{
+  "slug": "tilia-cordata",
+  "names": {
+    "de": "Winterlinde",
+    "en": "Tilia cordata",
+    "latin": "Tilia cordata"
+  },
+  "family": {
+    "de": "Malvengewächse",
+    "en": "Mallow family",
+    "latin": "Malvaceae"
+  },
+  "description": {
+    "de": "Die Winterlinde, auch Steinlinde, Kleinblättrige Linde, „Herzblättrige Linde“ oder auch „Herzblattlinde“ genannt, ist eine Pflanzenart aus der Gattung der Linden (Tilia) in der Unterfamilie der Lindengewächse (Tilioideae) innerhalb der Familie der Malvengewächse (Malvaceae).",
+    "en": "Tilia cordata, the small-leaved lime or small-leaved linden, is a species of tree in the family Malvaceae, native to much of Europe. Its other common names include little-leaf or littleleaf linden, or traditionally in South East England, pry or pry tree. Its range extends from Britain through mainland Europe to the Caucasus and western Asia."
+  },
+  "teaser": {
+    "de": "Die Winterlinde, auch Steinlinde, Kleinblättrige Linde, „Herzblättrige Linde“ oder auch „Herzblattlinde“ genannt, ist...",
+    "en": "Tilia cordata, the small-leaved lime or small-leaved linden, is a species of tree in the family Malvaceae, native to ..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "fever",
+        "cold"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 1.8
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 4,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "SCHWITZTEE bei beginnender Erkältung: 1,5–1,8 g zerkleinerte Lindenblüten (mit Hochblättern) in 150 ml frisch sprudelnd kochendes Wasser geben, zugedeckt 5–10 Minuten ziehen lassen, abseihen. So heiß wie möglich trinken, 2–4 Tassen täglich, davon eine Tasse abends vor dem Bett. Anschließend warm zudecken und schwitzen. Tagesdosis bis ~6 g.",
+          "en": "DIAPHORETIC TEA: 1.5–1.8 g + 150 ml boiling water, steep 5–10 min covered, strain. Drink as hot as possible, 2–4 cups/day, one before bed. Wrap warm afterwards. Up to ~6 g/day."
+        }
+      },
+      "age_restriction": {
+        "min_age": 4,
+        "note": {
+          "de": "Laut EMA für Kinder ab 4 Jahren, Jugendliche und Erwachsene.",
+          "en": "Per EMA from 4 years."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Schwitztee bei den ersten Anzeichen einer Erkältung. Schleimstoffe und Flavonoide wirken gemeinsam reizmildernd; die diaphoretische Wirkung entfaltet sich vor allem durch den heißen Tee kombiniert mit körperlicher Wärme.",
+        "en": "Traditional diaphoretic tea at the first signs of a cold. Mucilage and flavonoids act together; the sweating effect depends on drinking the tea hot and keeping warm."
+      },
+      "source_ids": [
+        "src_ema_tiliae_flos",
+        "src_wp_de_winterlinde"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "throat",
+        "cough"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 1.8
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "REIZLINDERNDER TEE: 1,5–1,8 g Lindenblüten mit 150 ml kochendem Wasser übergießen, zugedeckt 5–10 Minuten ziehen, abseihen. 2–3× täglich warm in kleinen Schlucken trinken. Mit etwas Honig süßen verstärkt den Schleim-Schutzfilm.",
+          "en": "SOOTHING TEA: 1.5–1.8 g + 150 ml boiling water, steep 5–10 min covered. Drink warm in small sips 2–3× daily. Honey enhances the mucous film effect."
+        }
+      },
+      "age_restriction": {
+        "min_age": 4,
+        "note": {
+          "de": "Ab 4 Jahren.",
+          "en": "From 4 years."
+        }
+      },
+      "description": {
+        "de": "Reizmildernder Tee bei trockenem Reizhusten und Halskratzen. Die Arabinogalaktane legen sich wie ein Schutzfilm auf die gereizten Rachenschleimhäute; Flavonoide unterstützen mild entzündungshemmend.",
+        "en": "Soothing tea for dry irritative cough and throat irritation. Arabinogalactans coat irritated mucosa; flavonoids provide mild anti-inflammatory support."
+      },
+      "source_ids": [
+        "src_ema_tiliae_flos",
+        "src_wp_de_winterlinde"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "nervous_system",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 20,
+          "max": 50
+        },
+        "doses_per_day": 1,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "BERUHIGUNGSBAD: 20–50 g getrocknete Lindenblüten mit 1–2 L kochendem Wasser übergießen, 15 Minuten ziehen, abseihen und dem 37 °C warmen Badewasser zusetzen. 15–20 Minuten abends vor dem Schlafen. Sanft abtrocknen, warm einpacken, ruhen.",
+          "en": "RELAXING BATH: 20–50 g + 1–2 L boiling water, steep 15 min, add to bath at 37 °C. 15–20 min, ideally before bed. Pat dry and rest warm."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Vollbäder ab 12 Jahren.",
+          "en": "Full baths from 12 years."
+        }
+      },
+      "description": {
+        "de": "Traditionelles Entspannungsbad bei nervöser Unruhe und Einschlafproblemen. Das ätherische Öl (Farnesol) und die Flavonoide wirken über die Haut mild sedierend.",
+        "en": "Traditional relaxing bath for nervous restlessness and sleep problems. Essential oil (farnesol) and flavonoids act mildly sedative through the skin."
+      },
+      "source_ids": [
+        "src_ema_tiliae_flos",
+        "src_pfaf_tilia_cordata"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "TINKTUR (1:5 in 25 % Ethanol): 1–2 ml, 3× täglich in etwas Wasser. Traditionell bei nervösen Herzklopfen, Blutdruckdysregulation und innerer Unruhe. Fertigprodukt aus Apotheke empfohlen.",
+          "en": "TINCTURE (1:5 in 25% ethanol): 1–2 ml 3× daily in water. Traditional for nervous palpitations, blood pressure dysregulation and inner restlessness. Pharmacy preparation recommended."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Tinktur bei nervösem Herzklopfen, leicht erhöhtem Blutdruck und Angstzuständen. Tilia-Extrakte zeigen in vitro GABA-erge und Benzodiazepin-agonistische Wirkung.",
+        "en": "Traditional tincture for nervous palpitations, mildly elevated blood pressure and anxiety. Tilia extracts show GABA-ergic and benzodiazepine-agonist activity in vitro."
+      },
+      "source_ids": [
+        "src_pfaf_tilia_cordata",
+        "src_drugs_com_linden",
+        "src_ptcell_tilia"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "NACH-DEM-ESSEN-TEE: 1,5–2 g Lindenblüten, 200 ml kochendes Wasser, 10 Minuten ziehen. Nach den Mahlzeiten warm trinken bei nervös bedingten Magenbeschwerden.",
+          "en": "AFTER-MEAL TEA: 1.5–2 g + 200 ml boiling water, steep 10 min. Drink warm after meals for stress-related digestive complaints."
+        }
+      },
+      "description": {
+        "de": "Volkstümliche Anwendung bei nervös bedingten Magenbeschwerden und Verdauungskrämpfen. Die antispasmodische Wirkung der Flavonoide entspannt die glatte Muskulatur des Magen-Darm-Trakts.",
+        "en": "Folk use for stress-related digestive complaints and GI cramps. The antispasmodic effect of flavonoids relaxes smooth muscle of the GI tract."
+      },
+      "source_ids": [
+        "src_pfaf_tilia_cordata",
+        "src_wp_en_tilia"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory",
+        "nervous_system"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 10,
+          "max": 20
+        },
+        "instructions": {
+          "de": "DAMPFINHALATION: 10–20 g Lindenblüten mit 1 L kochendem Wasser übergießen, Kopf über die Schüssel beugen, Handtuch über den Kopf legen, 5–10 Minuten inhalieren. Bei verstopfter Nase und Halsschmerzen. Vorsicht: heißer Dampf — genügend Abstand halten.",
+          "en": "STEAM INHALATION: 10–20 g + 1 L boiling water. Drape towel over head, inhale 5–10 min. For nasal congestion and sore throat. Caution: hot steam — maintain safe distance."
+        }
+      },
+      "description": {
+        "de": "Volkstümliche Dampfinhalation bei verstopfter Nase und Halsschmerzen. Das ätherische Öl (Farnesol, Eugenol) wirkt schleimhautpflegend und mild antiseptisch.",
+        "en": "Folk steam inhalation for nasal congestion and sore throat. The essential oil (farnesol, eugenol) soothes mucosa and is mildly antiseptic."
+      },
+      "source_ids": [
+        "src_pfaf_tilia_cordata",
+        "src_wp_de_winterlinde"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7
+    ],
+    "harvest_part": {
+      "de": "Blüten (Hochsommer)",
+      "en": "flowers (midsummer)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Lindenblüten gelten als sehr gut verträglich. Bei Erkältungsbeschwerden länger als 1 Woche, hohem Fieber, Atemnot, eitrigem Auswurf oder starken Halsschmerzen: Arzt aufsuchen. Schwitztee nicht bei akuter Herzinsuffizienz ohne ärztliche Rücksprache — Schwitzen belastet den Kreislauf. Sehr alte Lindenblüten (über 2 Jahre gelagert) sollen nach Volksüberlieferung betäubende Eigenschaften entwickeln — nur frisch getrocknete Droge verwenden. Allergische Reaktionen selten möglich.",
+      "en": "Linden flowers considered very well tolerated. Seek medical attention if symptoms persist beyond 1 week, or with high fever, dyspnoea, purulent sputum or severe sore throat. Diaphoretic tea not in acute cardiac insufficiency without medical advice. Very old linden flowers reportedly develop narcotic properties — use freshly dried material only. Allergic reactions rarely possible."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Unzureichende Sicherheitsdaten für die Schwangerschaft. Vorsorglich nicht als Arzneitee empfohlen; gelegentlicher Genuss als mildes Getränk in Absprache mit Hebamme/Arzt tolerierbar.",
+        "en": "Insufficient safety data for pregnancy. Not recommended as medicinal tea as a precaution; occasional use as mild beverage tolerable with midwife/doctor consultation."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Sicherheit in der Stillzeit.",
+        "en": "Insufficient data on safety during lactation."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Laut EMA Tee ab 4 Jahren. Bei Kindern unter 12 bei anhaltenden Beschwerden Arzt. Vollbäder erst ab 12 Jahren.",
+        "en": "Per EMA tea from 4 years. Medical advice for persistent symptoms in children under 12. Full baths from 12 years only."
+      }
+    },
+    "drug_interactions": [],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Lindenblüten oder andere Lindengewächse.",
+        "en": "Hypersensitivity to linden flowers or other Tiliaceae."
+      },
+      {
+        "de": "Kinder unter 4 Jahren (Tee).",
+        "en": "Children under 4 years (tea)."
+      },
+      {
+        "de": "Akute Herzinsuffizienz: Schwitztee belastet den Kreislauf — nur nach ärztlicher Rücksprache.",
+        "en": "Acute cardiac insufficiency: diaphoretic tea burdens the circulation — only with medical advice."
+      }
+    ],
+    "max_continuous_use_weeks": 1
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Winterlinde (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Winterlinde",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Tilia cordata (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Tilia_cordata",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_tiliae_flos",
+      "type": "monograph",
+      "title": "EMA/HMPC/337066/2011 — European Union herbal monograph on Tilia cordata Miller, T. platyphyllos Scop., T. x vulgaris Heyne or their mixtures, flos (Final, 10 July 2012)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/tiliae-flos",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_wp_de_winterlinde",
+      "type": "wikipedia",
+      "title": "Winterlinde (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Winterlinde",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_tilia",
+      "type": "wikipedia",
+      "title": "Tilia (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Tilia",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_tilia_cordata",
+      "type": "book",
+      "title": "Plants For A Future — Tilia cordata",
+      "url": "https://www.pfaf.org/user/Plant.aspx?LatinName=Tilia+cordata",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_drugs_com_linden",
+      "type": "monograph",
+      "title": "Linden — Uses, Benefits & Dosage (Drugs.com Natural Products)",
+      "url": "https://www.drugs.com/npp/linden.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_ptcell_tilia",
+      "type": "monograph",
+      "title": "Tilia: A Comprehensive Overview of Pharmaceutical Applications (PTcell, Ogbonna/Kelvas)",
+      "url": "https://ptcell.net/articles/article-6",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "tilia-cordata.jpg",
+    "alt": {
+      "de": "Foto von Winterlinde",
+      "en": "Photo of Tilia cordata"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tilia_cordata_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-139.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Schleimstoffe (Arabinogalaktane)",
+      "category": "mucilage",
+      "percent_range": "~10 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Saure Arabinogalaktane. Legen sich als Schutzfilm auf gereizte Schleimhäute (Rachen, Bronchien). Hauptgrundlage der hustenstillenden und reizmildernden Wirkung. Nur bei Extraktion mit heißem Wasser optimal löslich.",
+        "en": "Acidic arabinogalactans. Form protective film on irritated mucosa (throat, bronchi). Main basis of antitussive and demulcent action. Optimally soluble only with hot water."
+      }
+    },
+    {
+      "name": "Tilirosid",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Charakteristisches Flavonoid-Glykosid (Kaempferol-3-O-[6''-p-Cumaroyl]-β-D-glucosid). Leitsubstanz der Tiliae-flos-Droge zur Qualitätskontrolle. Mild antioxidativ und entzündungshemmend.",
+        "en": "Characteristic flavonoid glycoside (kaempferol-3-O-[6''-p-coumaroyl]-β-D-glucoside). Quality marker for Tiliae flos. Mildly antioxidant and anti-inflammatory."
+      }
+    },
+    {
+      "name": "Quercetin-Glykoside (Quercitrin, Isoquercitrin, Hyperosid, Rutin)",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Antioxidativ, gefäßstabilisierend. Tragen zur milden antispasmodischen Wirkung bei. Isoquercitrin identifiziert in Blüten von T. cordata.",
+        "en": "Antioxidant, vessel-stabilising. Contribute to mild antispasmodic action. Isoquercitrin identified in T. cordata flowers."
+      }
+    },
+    {
+      "name": "Kaempferol-Glykoside (Astragalin)",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Astragalin und weitere Kaempferol-Derivate. Mild antioxidativ. Astragalin auch in Tilirosid-Biosynthese involviert.",
+        "en": "Astragalin and other kaempferol derivatives. Mildly antioxidant. Astragalin also involved in tiliroside biosynthesis."
+      }
+    },
+    {
+      "name": "Phenolsäuren (Chlorogensäure, p-Cumarsäure, Kaffeesäure)",
+      "category": "phenolic_acid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Antioxidativ. p-Cumarsäure wird mit der milden diaphoretischen und antispasmodischen Wirkung in Verbindung gebracht.",
+        "en": "Antioxidant. p-Coumaric acid linked to mild diaphoretic and antispasmodic effects."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Farnesol, Citral, Eugenol, Limonene)",
+      "category": "essential_oil",
+      "percent_range": "0,02–0,1 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Charakteristischer honigartig-süßlicher Blütenduft stammt hauptsächlich von Farnesol. Weitere Komponenten: Citral, Citronellal, Eugenol, Limonene, α-Pinen, Nerol, Terpineol. Mild sedierend und antiseptisch.",
+        "en": "Characteristic honey-sweet floral scent primarily from farnesol. Other components: citral, citronellal, eugenol, limonene, α-pinene, nerol, terpineol. Mildly sedative and antiseptic."
+      }
+    },
+    {
+      "name": "Kondensierte Gerbstoffe (Proanthocyanidine, Procyanidine)",
+      "category": "tannin",
+      "percent_range": "~2 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Catechin- und Proanthocyanidin-Typ. Leicht adstringierend und antimikrobiell. Tragen zur zusammenziehenden Wirkung auf Schleimhäute bei.",
+        "en": "Catechin and proanthocyanidin type. Mildly astringent and antimicrobial. Contribute to mucosa-toning effect."
+      }
+    },
+    {
+      "name": "Saponine",
+      "category": "saponin",
+      "plant_part": "flower",
+      "note": {
+        "de": "In geringen Mengen vorhanden. Können zur schleimhautreizenden Wirkung bei hohen Dosen beitragen.",
+        "en": "Present in small amounts. May contribute to mucosa-irritating effect at high doses."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "An sonnigen, trockenen Vormittagen, sobald der Morgentau abgetrocknet ist — idealerweise zwischen 9 und 12 Uhr.",
+        "en": "On sunny, dry mornings once dew has dried — ideally between 9 and 12 o'clock."
+      },
+      "drying": {
+        "de": "Ganze Blütenstände MIT den zungenförmigen Hochblättern (Bracteen) ernten — diese gehören pharmakopöal zur Droge Tiliae flos. Sofort einlagig auf sauberem Papier oder Tüchern im Schatten ausbreiten. Zügig bei 25–35 °C trocknen (Ofentrocknungs-Tür einen Spalt offen oder Dörrgerät). Nie in der Sonne — Wirkstoffe werden abgebaut. Trocken, wenn die Blütenstiele beim Biegen brechen.",
+        "en": "Harvest whole flower clusters WITH tongue-shaped bracts (official Tiliae flos requires them). Spread immediately single-layer in shade. Dry quickly at 25–35 °C. Never in direct sun — active compounds degrade. Dry when flower stems snap on bending."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht in dunklen Gläsern oder Papiertüten, kühl und trocken. Innerhalb von 12 Monaten aufbrauchen — das ätherische Öl verflüchtigt sich.",
+        "en": "Airtight in dark glass or paper bags, cool and dry. Use within 12 months — essential oil evaporates over time."
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2026 Maikel Ganske (Donum ∞ Dei)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+NOTE on data and content:
+
+The plant data files in `src/data/plants/` and the rendered web content are
+derived from public-domain and open-access sources (EMA, Kommission E, ESCOP,
+WHO Monographs, PFAF, Wikipedia, Henriette's Herbal, Madaus 1938, Künzle 1911,
+Hildegard von Bingen, etc.) and the author's synthesis thereof.
+
+These plant-data files and rendered texts are released under
+Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0).
+See: https://creativecommons.org/licenses/by-sa/4.0/
+
+Plant images are sourced from Wikimedia Commons under their respective
+CC licenses. Attribution metadata (`image.license`, `image.author`,
+`image.source_url`) is stored in each plant JSON. Downstream users must
+preserve attribution per the source license.

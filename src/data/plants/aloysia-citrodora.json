@@ -1,0 +1,449 @@
+{
+  "slug": "aloysia-citrodora",
+  "names": {
+    "de": "Zitronenstrauch",
+    "en": "Aloysia citrodora",
+    "latin": "Aloysia citrodora"
+  },
+  "family": {
+    "de": "Eisenkrautgewächse",
+    "en": "Verbena family",
+    "latin": "Verbenaceae"
+  },
+  "description": {
+    "de": "Der Zitronenstrauch, auch Zitronenduftstrauch, Zitronenverbene, Zitronenverveine oder Duftende Verbene – französisch Verveine odorante – genannt, ist eine Pflanzenart aus der Gattung Aloysia innerhalb der Familie der Eisenkrautgewächse (Verbenaceae).",
+    "en": "Aloysia citrodora, lemon verbena, is a species of flowering plant in the verbena family Verbenaceae, native to South America. Other common names include lemon beebrush. It was brought to Europe by the Spanish and the Portuguese in the 17th century and cultivated for its oil."
+  },
+  "teaser": {
+    "de": "Der Zitronenstrauch, auch Zitronenduftstrauch, Zitronenverbene, Zitronenverveine oder Duftende Verbene – französisch ...",
+    "en": "Aloysia citrodora, lemon verbena, is a species of flowering plant in the verbena family Verbenaceae, native to South ..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Aufguss der getrockneten Blätter (1–2 EL auf 250 ml kochendes Wasser, 10 Min. ziehen lassen) zur Linderung leichter Stresssymptome und Schlafstörungen sowie bei leichten Verdauungsbeschwerden wie Blähungen. Traditionelle Anwendung gemäß EMA/HMPC-Monographie (EMA/HMPC/376770/2019).",
+        "en": "Infusion of dried leaves (1–2 tbsp per 250 ml boiling water, steep 10 min) for relief of mild symptoms of mental stress, sleep difficulties, and mild digestive complaints such as bloating and flatulence. Traditional use as per EMA/HMPC monograph (EMA/HMPC/376770/2019)."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 6
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "3–6 g getrocknete Blätter mit 250 ml kochendem Wasser übergießen, 10 Minuten ziehen lassen, abseihen. Bis zu 3 Tassen täglich.",
+          "en": "Pour 250 ml boiling water over 3–6 g dried leaves, steep 10 minutes, strain. Up to 3 cups daily."
+        }
+      },
+      "source_ids": [
+        "src_ema_aloysia",
+        "src_wp_de_aloysia",
+        "src_wp_en_aloysia"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Als Abendtee zur Schlafförderung, insbesondere bei leichten Einschlafproblemen durch Alltagsstress. Verbascoside und Flavone wie Luteolin tragen zur beruhigenden Wirkung bei.",
+        "en": "As an evening tea to promote sleep, particularly for mild difficulty falling asleep caused by everyday stress. Verbascoside and flavones such as luteolin contribute to the calming effect."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 4,
+          "max": 6
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 1,
+        "instructions": {
+          "de": "4–6 g Blätter mit 250 ml kochendem Wasser, 10 Minuten vor dem Schlafengehen trinken.",
+          "en": "4–6 g leaves with 250 ml boiling water, drink 10 minutes before bedtime."
+        }
+      },
+      "source_ids": [
+        "src_ema_aloysia",
+        "src_study_sleep_aloysia"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Das ätherische Öl (Hauptbestandteile: Geranial 18–21 %, Neral 15–16 %) wird in der Aromatherapie zur Entspannung eingesetzt. Für den direkten Hautkontakt stark verdünnen (max. 0,2 %), da phototoxische und sensibilisierende Eigenschaften bekannt sind. In der EU als Parfümzutat verboten (Verordnung Nr. 1223/2009, Anhang II).",
+        "en": "The essential oil (main components: geranial 18–21 %, neral 15–16 %) is used in aromatherapy for relaxation. Dilute strongly for direct skin contact (max. 0.2 %) due to known phototoxic and sensitising properties. Prohibited as a fragrance ingredient in the EU (Regulation No. 1223/2009, Annex II)."
+      },
+      "source_ids": [
+        "src_molecules_2023",
+        "src_wp_en_aloysia"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Blättertee bei funktionellen Magenbeschwerden, Blähungen und Krämpfen. Die bitter-aromatischen Inhaltsstoffe regen die Verdauungssäfte an.",
+        "en": "Leaf tea for functional gastric complaints, flatulence, and cramps. The bitter-aromatic constituents stimulate digestive secretions."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 200,
+        "steep_min": 8,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "3–5 g Blätter mit 200 ml kochendem Wasser, 8 Minuten ziehen lassen. Nach den Mahlzeiten trinken.",
+          "en": "3–5 g leaves with 200 ml boiling water, steep 8 minutes. Drink after meals."
+        }
+      },
+      "source_ids": [
+        "src_ema_aloysia",
+        "src_herbalreality_aloysia"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische Blätter als Küchengewürz für Desserts, Getränke (Limonaden, Cocktails), Dressings und Geflügelgerichte. Intensives Zitronenaroma durch Citral (Geranial + Neral).",
+        "en": "Fresh leaves as a culinary herb for desserts, beverages (lemonade, cocktails), dressings, and poultry dishes. Intense lemon aroma from citral (geranial + neral)."
+      },
+      "source_ids": [
+        "src_wp_en_aloysia",
+        "src_wp_de_aloysia"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Tinkturauszug der Blätter (Verhältnis 1:5, 40–60 % Ethanol) als praktischere Alternative zum Aufguss, besonders für die genaue Dosierung von Verbascoside-reichem Extrakt.",
+        "en": "Tincture extract of leaves (ratio 1:5, 40–60 % ethanol) as a convenient alternative to infusion, particularly for precise dosing of verbascoside-rich extract."
+      },
+      "source_ids": [
+        "src_herbalreality_aloysia"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Blätter",
+      "en": "leaves"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Kann durch milde sedierende Wirkung Schläfrigkeit verursachen; kein Autofahren nach hohen Dosen. Das ätherische Öl ist phototoxisch und darf nicht unverdünnt auf die Haut aufgetragen werden. Nach längerem täglichem Teegenuss (> 8 Wochen) kurze Trinkpause einlegen.",
+      "en": "Mild sedative effect may cause drowsiness; avoid driving after high doses. The essential oil is phototoxic and must not be applied undiluted to skin. After prolonged daily tea use (> 8 weeks), take a short break."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Sicherheit in der Schwangerschaft nicht belegt. Medizinische Anwendung vermeiden; geringe kulinarische Mengen gelten als unbedenklich.",
+        "en": "Safety during pregnancy not established. Avoid medicinal use; small culinary amounts are considered safe."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Anwendung in der Stillzeit. Vorsichtshalber auf medizinische Dosen verzichten.",
+        "en": "Insufficient data on use during lactation. As a precaution, avoid medicinal doses."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Keine Studiendaten für Kinder unter 12 Jahren. Nicht empfohlen.",
+        "en": "No study data for children under 12. Not recommended."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Eisenkrautgewächsen (Verbenaceae).",
+        "en": "Known hypersensitivity to plants of the verbena family (Verbenaceae)."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Sedativa / Hypnotika",
+        "mechanism": {
+          "de": "Additive sedierende Wirkung möglich durch GABA-modulierende Effekte von Verbascoside und Flavonen.",
+          "en": "Additive sedative effect possible due to GABA-modulating effects of verbascoside and flavones."
+        },
+        "severity": "monitor",
+        "source_id": "src_herbalreality_aloysia"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Zitronenstrauch (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Zitronenstrauch",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Aloysia citrodora (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Aloysia_citrodora",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_ema_aloysia",
+      "type": "monograph",
+      "title": "Final EU Herbal Monograph on Aloysia citrodora Paláu, folium (EMA/HMPC/376770/2019)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/verbenae-citriodorae-folium",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wp_de_aloysia",
+      "type": "wikipedia",
+      "title": "Zitronenstrauch (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Zitronenstrauch",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wp_en_aloysia",
+      "type": "wikipedia",
+      "title": "Aloysia citrodora (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Aloysia_citrodora",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_molecules_2023",
+      "type": "monograph",
+      "title": "Volatile Compounds and Biological Activity of the Essential Oil of Aloysia citrodora Paláu (Molecules, 2023)",
+      "url": "https://doi.org/10.3390/molecules28114528",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_study_sleep_aloysia",
+      "type": "monograph",
+      "title": "Dietary Supplementation with an Extract of Aloysia citrodora Improves Sleep Quality in Healthy Subjects (Nutrients, 2024)",
+      "url": "https://doi.org/10.3390/nu16101523",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_herbalreality_aloysia",
+      "type": "monograph",
+      "title": "Lemon Verbena (Aloysia citrodora): Benefits, Uses, Safety — Herbal Reality",
+      "url": "https://www.herbalreality.com/herb/lemon-verbena/",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "aloysia-citrodora.jpg",
+    "alt": {
+      "de": "Foto von Zitronenstrauch",
+      "en": "Photo of Aloysia citrodora"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Kurt Stüber [1]",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aloysia_triphylla1.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible",
+      "medicinal"
+    ],
+    "rooms": [
+      "kitchen",
+      "living_room",
+      "balcony"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "every_few_days",
+    "difficulty": 2,
+    "pet_safe": true,
+    "soil": {
+      "de": "Kräutererde mit guter Drainage",
+      "en": "Herb compost with good drainage"
+    },
+    "pot_size_cm": 25,
+    "tips": {
+      "de": [
+        "Im Winter wirft sie alle Blätter ab — keine Panik, das ist normal.",
+        "Winter hell und kühl (5-10°C), kaum gießen — sonst Wurzelfäule.",
+        "Im Frühjahr stark zurückschneiden für buschigen Wuchs."
+      ],
+      "en": [
+        "Drops all leaves in winter — don't panic, that's normal.",
+        "Winter: bright and cool (5-10 °C), barely water — otherwise root rot.",
+        "Cut back hard in spring for bushy growth."
+      ]
+    }
+  },
+  "constituents": [
+    {
+      "name": "Verbascoside (Acteoside)",
+      "category": "phenolic_acid",
+      "plant_part": "leaf",
+      "percent_range": "0.4-1.5 %",
+      "note": {
+        "de": "Hauptpolyphenol; antioxidative, entzündungshemmende und neuroprotektive Wirkung nachgewiesen in Zellkulturen.",
+        "en": "Main polyphenol; antioxidant, anti-inflammatory, and neuroprotective activity demonstrated in cell cultures."
+      }
+    },
+    {
+      "name": "Geranial (Citral A)",
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "percent_range": "18-21 % (im äther. Öl)",
+      "note": {
+        "de": "Hauptkomponente des ätherischen Öls; verleiht dem Zitronenstrauch sein charakteristisches Zitrusaroma.",
+        "en": "Main component of the essential oil; responsible for the characteristic citrus aroma."
+      }
+    },
+    {
+      "name": "Neral (Citral B)",
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "percent_range": "15-16 % (im äther. Öl)",
+      "note": {
+        "de": "Isomer des Geraniols; zusammen mit Geranial bildet es Citral, den charakteristischen Zitrusduftstoff.",
+        "en": "Geranial isomer; together with geranial forms citral, the characteristic citrus fragrance compound."
+      }
+    },
+    {
+      "name": "Luteolin-7-diglucuronid",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "percent_range": "100 mg/l (im Tee-Aufguss)",
+      "note": {
+        "de": "Häufigstes Flavon im Teeaufguss; antioxidative und schwach antiinflammatorische Wirkung.",
+        "en": "Most common flavone in the tea infusion; antioxidant and mildly anti-inflammatory activity."
+      }
+    },
+    {
+      "name": "Apigenin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavon mit anxiolytischen Eigenschaften in Tierversuchen; bindet an GABA-A-Rezeptoren.",
+        "en": "Flavone with anxiolytic properties in animal studies; binds to GABA-A receptors."
+      }
+    },
+    {
+      "name": "Limonene",
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "percent_range": "5-21 % (im äther. Öl)",
+      "note": {
+        "de": "Monoterpen; trägt zum frischen Zitrusduft bei und zeigt antimikrobielle Eigenschaften.",
+        "en": "Monoterpene; contributes to the fresh citrus scent and shows antimicrobial properties."
+      }
+    },
+    {
+      "name": "Eupatorin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Polymethoxyliertes Flavon; in Studien antiproliferative Eigenschaften gezeigt.",
+        "en": "Polymethoxylated flavone; shown antiproliferative properties in studies."
+      }
+    },
+    {
+      "name": "Spathulenol",
+      "category": "sesquiterpene",
+      "plant_part": "leaf",
+      "percent_range": "7-9 % (im äther. Öl)",
+      "note": {
+        "de": "Sesquiterpen-Alkohol; antimikrobielle und antiinflammatorische Aktivität in vitro beschrieben.",
+        "en": "Sesquiterpene alcohol; antimicrobial and anti-inflammatory activity described in vitro."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus, vor der Mittagshitze.",
+        "en": "Morning after the dew has dried, before midday heat."
+      },
+      "drying": {
+        "de": "Blätter locker auf Trockenrosten bei max. 35 °C trocknen (Blätter nicht stapeln, da ätherische Öle sonst verloren gehen). Trocken, dunkel und luftdicht lagern.",
+        "en": "Spread leaves loosely on drying racks at max. 35 °C (do not stack leaves, as essential oils will be lost). Store dry, dark, and airtight."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In dunklen Schraubgläsern oder Papiertüten, kühl und trocken lagern. Kein direktes Sonnenlicht.",
+        "en": "Store in dark screw-top jars or paper bags, cool and dry. No direct sunlight."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Zu Beginn der Blütezeit ernten, wenn der Ölgehalt am höchsten ist.",
+        "en": "Harvest at the start of flowering when oil content is highest."
+      },
+      "drying": {
+        "de": "Blühende Zweige zu kleinen Bündeln binden und kopfüber an einem luftigen, schattigen Ort hängen.",
+        "en": "Tie flowering stems in small bundles and hang upside down in a well-ventilated, shaded spot."
+      },
+      "storage_months": 6
+    }
+  ]
+}

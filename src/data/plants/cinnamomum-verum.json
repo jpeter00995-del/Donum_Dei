@@ -1,0 +1,474 @@
+{
+  "slug": "cinnamomum-verum",
+  "names": {
+    "de": "Echter_Zimt",
+    "en": "Cinnamomum verum",
+    "latin": "Cinnamomum verum"
+  },
+  "family": {
+    "de": "Lorbeergewächse",
+    "en": "Laurel family",
+    "latin": "Lauraceae"
+  },
+  "description": {
+    "de": "Beschreibung für Echter_Zimt folgt — siehe Wikipedia-Artikel.",
+    "en": "Cinnamomum verum, also known as true cinnamon or Ceylon cinnamon is a small evergreen tree belonging to the family Lauraceae, native to Sri Lanka. The inner bark of the tree is historically regarded as the spice cinnamon, though this term was later generalized to include C. cassia as well."
+  },
+  "teaser": {
+    "de": "Beschreibung für Echter_Zimt folgt — siehe Wikipedia-Artikel.",
+    "en": "Cinnamomum verum, also known as true cinnamon or Ceylon cinnamon is a small evergreen tree belonging to the family La..."
+  },
+  "uses": [
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Echter Zimt (Ceylon-Zimt) wird traditionell als Gewürz bei leichten Verdauungsbeschwerden, Blähungen und Völlegefühl eingesetzt. Die Kommission E bestätigte diese Indikation 1990 für die getrocknete innere Rinde.",
+        "en": "True cinnamon (Ceylon cinnamon) is traditionally used as a spice for mild dyspeptic complaints, flatulence, and feeling of fullness. The German Commission E confirmed this indication in 1990 for the dried inner bark."
+      },
+      "plant_part": "bark",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.5,
+          "max": 1.0
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "0,5–1 g gemahlene Rinde mit 150 ml heißem Wasser übergießen, 10 Min. ziehen lassen, abseihen. Bis zu 3-mal täglich.",
+          "en": "Pour 150 ml hot water over 0.5–1 g ground bark, steep 10 min, strain. Up to 3 times daily."
+        }
+      },
+      "source_ids": [
+        "src_komm_e_cinnamomum",
+        "src_arzneipflanzenlexikon_cinnamomum"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Als Tee zubereitet unterstützt Zimtrinde die Linderung von krampfartigen Magen-Darm-Beschwerden und leichtem Durchfall. Der Gerbstoffanteil (Catechintannine) wirkt mild adstringierend auf die Darmschleimhaut.",
+        "en": "Prepared as a tea, cinnamon bark helps relieve spasmodic gastrointestinal complaints and mild diarrhoea. The tannin content (catechin tannins) acts mildly astringent on the intestinal mucosa."
+      },
+      "plant_part": "bark",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.5,
+          "max": 1.5
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "1 Teelöffel (ca. 1 g) grob gemörserte Zimtrinde mit 200 ml kochendem Wasser übergießen, 10 Min. ziehen lassen, abseihen. 3-mal täglich warm trinken.",
+          "en": "Pour 200 ml boiling water over 1 teaspoon (approx. 1 g) coarsely ground cinnamon bark, steep 10 min, strain. Drink warm 3 times daily."
+        }
+      },
+      "source_ids": [
+        "src_komm_e_cinnamomum",
+        "src_ema_cinnamomum",
+        "src_arzneipflanzenlexikon_cinnamomum"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Als appetitanregendes Gewürz eingesetzt: Echter Zimt regt die Speichelsekretion und die Magensaftproduktion an. Traditionell bei Appetitlosigkeit empfohlen.",
+        "en": "Used as an appetite-stimulating spice: true cinnamon stimulates saliva secretion and gastric juice production. Traditionally recommended for loss of appetite."
+      },
+      "plant_part": "bark",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "de": "Zimtrinde gemahlen den Speisen beigemischt oder als Zimtstange zum Aufkochen.",
+        "en": "Ground cinnamon bark mixed into food or whole cinnamon sticks simmered in liquid."
+      },
+      "source_ids": [
+        "src_komm_e_cinnamomum",
+        "src_arzneipflanzenlexikon_cinnamomum"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Zimtrindenextrakt in Tinkturform wird traditionell bei Verdauungsbeschwerden und zur Unterstützung der peripheren Durchblutung verwendet. Cinnamaldehyd wirkt mild vasodilatierend.",
+        "en": "Cinnamon bark extract in tincture form is traditionally used for digestive complaints and to support peripheral circulation. Cinnamaldehyde has mild vasodilatory effects."
+      },
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "Zimtrindentinktur (1:5, 70 % Ethanol): 20–40 Tropfen in Wasser, 2–3-mal täglich vor den Mahlzeiten.",
+          "en": "Cinnamon bark tincture (1:5, 70% ethanol): 20–40 drops in water, 2–3 times daily before meals."
+        }
+      },
+      "source_ids": [
+        "src_ema_cinnamomum",
+        "src_wikipedia_en_cinnamomum"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Das ätherische Öl der Zimtrinde enthält ca. 60–90 % Cinnamaldehyd und zeigt im Laborversuch antibakterielle und antifungale Eigenschaften. Zur äußerlichen Anwendung stark verdünnt (max. 0,5 %) in Trägeröl — unverdünnt stark hautreizend.",
+        "en": "The essential oil of cinnamon bark contains approx. 60–90% cinnamaldehyde and shows antibacterial and antifungal properties in laboratory tests. For external use only, highly diluted (max. 0.5%) in carrier oil — undiluted it is strongly skin-irritating."
+      },
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "preparation": {
+        "de": "Maximal 0,5 % in fettem Trägeröl verdünnen. Nicht auf empfindliche Hautstellen oder Schleimhäute auftragen.",
+        "en": "Dilute to max. 0.5% in a fatty carrier oil. Do not apply to sensitive skin areas or mucous membranes."
+      },
+      "source_ids": [
+        "src_pmc_cinnamomum_eo",
+        "src_wikipedia_en_cinnamomum"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "In der Ernährungswissenschaft wird Echter Zimt auf seinen Einfluss auf den Blutzuckerstoffwechsel untersucht. Polyphenole (Procyanidine vom Typ A) zeigen im Zellversuch insulinähnliche Aktivität und hemmen intestinale Alpha-Glucosidasen. Klinische Studien am Menschen liefern bisher uneinheitliche Ergebnisse.",
+        "en": "In nutritional science, true cinnamon is being studied for its influence on blood glucose metabolism. Polyphenols (type-A procyanidins) show insulin-like activity in cell experiments and inhibit intestinal alpha-glucosidases. Clinical studies in humans have so far yielded inconsistent results."
+      },
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Als Gewürz in der Ernährung (1–3 g/Tag gemahlen). Kein Ersatz für medizinische Diabetes-Therapie.",
+        "en": "As a dietary spice (1–3 g/day ground). Not a substitute for medical diabetes therapy."
+      },
+      "source_ids": [
+        "src_wikipedia_en_cinnamomum",
+        "src_pmc_cinnamomum_eo"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "In der ayurvedischen und arabischen Medizin wird Echter Zimt als Wärmemittel (Karminativum) bei Übelkeit und zur Unterstützung der Verdauungstätigkeit eingesetzt — über Jahrtausende dokumentiert.",
+        "en": "In Ayurvedic and Arabic medicine, true cinnamon has been used as a warming carminative for nausea and to support digestive function — documented over millennia."
+      },
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "preparation": {
+        "de": "Zimtstangen als Bestandteil von Gewürzteemischungen oder Dekokt (Zimtstange 5 Min. köcheln lassen).",
+        "en": "Cinnamon sticks as part of spiced tea blends or decoction (simmer cinnamon stick for 5 min)."
+      },
+      "source_ids": [
+        "src_wikipedia_en_cinnamomum",
+        "src_wikipedia_de_cinnamomum"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "getrocknete innere Rinde",
+      "en": "dried inner bark"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Ceylon-Zimt enthält sehr wenig Cumarin (ca. 0,05–0,5 % im ätherischen Öl) und ist gegenüber Cassia-Zimt (Chinesischer Zimt) für den regelmäßigen Verzehr deutlich besser geeignet. Ätherisches Zimtrindenöl unverdünnt nicht auf die Haut auftragen — stark reizend. Cinnamaldehyd kann Kontaktallergien auslösen.",
+      "en": "Ceylon cinnamon contains very little coumarin (approx. 0.05–0.5% in essential oil) and is significantly better suited for regular consumption than cassia cinnamon (Chinese cinnamon). Do not apply cinnamon bark essential oil undiluted to skin — strongly irritating. Cinnamaldehyde can cause contact allergies."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Medizinische Dosen in der Schwangerschaft nicht empfohlen — unzureichende Sicherheitsdaten. Als Küchengewürz in üblichen Mengen unbedenklich.",
+        "en": "Medicinal doses not recommended during pregnancy — insufficient safety data. Culinary use in usual amounts is considered safe."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Unzureichende Daten zur Anwendung während der Stillzeit. Als Gewürz in kleinen Mengen traditionell akzeptiert.",
+        "en": "Insufficient data on use during breastfeeding. Use as culinary spice in small amounts traditionally accepted."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Medizinische Anwendung bei Kindern unter 18 Jahren: keine ausreichenden Sicherheitsdaten. Ätherisches Öl von Kindern fernhalten.",
+        "en": "Medicinal use in children under 18 years: insufficient safety data. Keep essential oil away from children."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Zimt, Tolubalsam oder Perubalsam",
+        "en": "Hypersensitivity to cinnamon, tolu balsam, or Peru balsam"
+      },
+      {
+        "de": "Magen- und Darmgeschwüre",
+        "en": "Gastric and intestinal ulcers"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antidiabetika / Insulinpräparate",
+        "mechanism": {
+          "de": "Polyphenole in Zimtrinde können in hohen Dosen die Blutzuckersenkung verstärken; theoretisch additiver Effekt mit Antidiabetika.",
+          "en": "Polyphenols in cinnamon bark may enhance blood glucose lowering at high doses; theoretically additive effect with antidiabetic drugs."
+        },
+        "severity": "monitor",
+        "source_id": "src_arzneipflanzenlexikon_cinnamomum"
+      },
+      {
+        "drug_class": "Antikoagulanzien / Thrombozytenaggregationshemmer",
+        "mechanism": {
+          "de": "Hohe Dosen könnten die Blutgerinnung beeinflussen; Vorsicht vor geplanten Operationen.",
+          "en": "High doses could affect blood coagulation; caution before planned surgery."
+        },
+        "severity": "monitor",
+        "source_id": "src_arzneipflanzenlexikon_cinnamomum"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter_Zimt (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Zimt",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Cinnamomum verum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Cinnamomum_verum",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_komm_e_cinnamomum",
+      "type": "monograph",
+      "title": "Kommission E Monographie Cinnamomum verum (Zimtrinde) — BAnz. Nr. 223, 30.11.1985 / Nr. 193, 15.10.1987",
+      "url": "https://www.heilpflanzen-welt.de/buecher/BGA-Kommission-E-Monographien/zimtrinde.htm",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_ema_cinnamomum",
+      "type": "monograph",
+      "title": "EMA/HMPC Community Herbal Monograph on Cinnamomum verum J.S. Presl, cortex (EMA/HMPC/246774/2009)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/cinnamomi-cortex",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_arzneipflanzenlexikon_cinnamomum",
+      "type": "monograph",
+      "title": "Arzneipflanzenlexikon — Cinnamon (Cinnamomum verum): medicinal use, indications, dosage, safety",
+      "url": "https://arzneipflanzenlexikon.info/en/cinnamon.php",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_cinnamomum_eo",
+      "type": "monograph",
+      "title": "Therapeutic Potential of Cinnamon Oil: Chemical Composition, Pharmacological Actions, and Applications (PMC11677886)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11677886/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wikipedia_en_cinnamomum",
+      "type": "wikipedia",
+      "title": "Cinnamomum verum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Cinnamomum_verum",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wikipedia_de_cinnamomum",
+      "type": "wikipedia",
+      "title": "Echter Zimt (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Zimt",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "cinnamomum-verum.jpg",
+    "alt": {
+      "de": "Foto von Echter_Zimt",
+      "en": "Photo of Cinnamomum verum"
+    },
+    "license": "Public domain",
+    "author": "Unknown",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cinnamomum_verum1.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Cinnamaldehyd (trans-Cinnamaldehyd)",
+      "category": "essential_oil",
+      "percent_range": "60-90 % (im ätherischen Rindenöl)",
+      "plant_part": "bark",
+      "note": {
+        "de": "Hauptwirkstoff des ätherischen Öls; verantwortlich für Geruch, Geschmack und antimikrobielle Aktivität.",
+        "en": "Primary active compound of the essential oil; responsible for aroma, flavour, and antimicrobial activity."
+      }
+    },
+    {
+      "name": "Eugenol",
+      "category": "essential_oil",
+      "percent_range": "1-10 % (Rindenöl); bis 90 % im Blattöl",
+      "plant_part": "bark",
+      "note": {
+        "de": "Phenylpropanoid mit entzündungshemmenden und analgetischen Eigenschaften; im Blattöl dominierend, im Rindenöl in geringer Konzentration.",
+        "en": "Phenylpropanoid with anti-inflammatory and analgesic properties; dominant in leaf oil, present at low concentration in bark oil."
+      }
+    },
+    {
+      "name": "Cinnamylacetat",
+      "category": "essential_oil",
+      "percent_range": "3-8 %",
+      "plant_part": "bark",
+      "note": {
+        "de": "Trägt zum charakteristischen Zimtaroma bei; milder als Cinnamaldehyd.",
+        "en": "Contributes to the characteristic cinnamon aroma; milder than cinnamaldehyde."
+      }
+    },
+    {
+      "name": "Procyanidine (Typ-A-Polymer)",
+      "category": "phenolic_acid",
+      "percent_range": "1-4 % (Wasserextrakt der Rinde)",
+      "plant_part": "bark",
+      "note": {
+        "de": "Polyphenolische Verbindungen, die im Zellversuch insulinähnliche Aktivität zeigen und intestinale Glucosidasen hemmen.",
+        "en": "Polyphenolic compounds showing insulin-like activity in cell experiments and inhibiting intestinal glucosidases."
+      }
+    },
+    {
+      "name": "Catechintannine",
+      "category": "tannin",
+      "percent_range": "1-3 %",
+      "plant_part": "bark",
+      "note": {
+        "de": "Adstringierende Wirkung auf die Darmschleimhaut; trägt zur traditionellen Anwendung bei leichtem Durchfall bei.",
+        "en": "Astringent effect on the intestinal mucosa; contributes to traditional use for mild diarrhoea."
+      }
+    },
+    {
+      "name": "Cumarin",
+      "category": "other",
+      "percent_range": "0,05-0,5 % (ätherisches Öl von C. verum); bis 7 % in Cassia-Zimt",
+      "plant_part": "bark",
+      "note": {
+        "de": "Hepatotoxisch in hohen Dosen; in Echter Zimt sehr geringe Konzentration — wesentlicher Qualitätsunterschied zu Cassia-Zimt.",
+        "en": "Hepatotoxic at high doses; present in very low concentration in true cinnamon — key quality difference from cassia cinnamon."
+      }
+    },
+    {
+      "name": "Linalool",
+      "category": "essential_oil",
+      "percent_range": "2-7 %",
+      "plant_part": "bark",
+      "note": {
+        "de": "Terpenalkohol mit leicht sedierender und angstlösender Wirkung im Tierversuch; angenehm blumiger Geruchsanteil im Zimtöl.",
+        "en": "Terpene alcohol with mildly sedating and anxiolytic effects in animal experiments; pleasant floral scent component in cinnamon oil."
+      }
+    },
+    {
+      "name": "β-Caryophyllen",
+      "category": "sesquiterpene",
+      "percent_range": "1-4 %",
+      "plant_part": "bark",
+      "note": {
+        "de": "Sesquiterpen mit antientzündlicher Wirkung; kommt im ätherischen Rindenöl als Begleitstoff vor.",
+        "en": "Sesquiterpene with anti-inflammatory activity; present as a minor compound in bark essential oil."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "bark",
+      "best_months": [
+        5,
+        6,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Morgens bis mittags, wenn die Rinde durch Feuchtigkeit leichter abgeschält werden kann.",
+        "en": "Morning to midday, when moisture makes the bark easier to peel."
+      },
+      "drying": {
+        "de": "Rindenstücke luftgetrocknet im Schatten (25–30 °C) bis zur Bildung der charakteristischen Zimtstangen-Rolle; anschließend trocken und dunkel lagern.",
+        "en": "Bark pieces air-dried in shade (25–30°C) until forming the characteristic cinnamon stick roll; then store in a cool, dark place."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Zimtstangen oder gemahlen in luftdichten Behältern, dunkel, kühl. Gemahlen rascher Aromaverlust — ganze Stangen bevorzugen.",
+        "en": "Cinnamon sticks or ground form in airtight containers, dark, cool. Ground loses aroma faster — prefer whole sticks."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "drying": {
+        "de": "Blätter luftgetrocknet; Blattöl (reich an Eugenol) wird durch Dampfdestillation aus frischen oder getrockneten Blättern gewonnen.",
+        "en": "Leaves air-dried; leaf oil (rich in eugenol) is obtained by steam distillation from fresh or dried leaves."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknete Blätter in verschlossenen Behältern; ätherisches Blattöl dunkel und kühl in dunklen Glasflaschen.",
+        "en": "Dried leaves in sealed containers; leaf essential oil stored dark and cool in amber glass bottles."
+      }
+    }
+  ]
+}

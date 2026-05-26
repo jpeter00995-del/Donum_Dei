@@ -1,0 +1,412 @@
+{
+  "slug": "papaver-rhoeas",
+  "names": {
+    "de": "Klatschmohn",
+    "en": "Papaver rhoeas",
+    "latin": "Papaver rhoeas"
+  },
+  "family": {
+    "de": "Mohngewächse",
+    "en": "Poppy family",
+    "latin": "Papaveraceae"
+  },
+  "description": {
+    "de": "Der Klatschmohn, auch Mohnblume oder Klatschrose genannt, ist eine Pflanzenart aus der Gattung Mohn (Papaver) innerhalb der Familie der Mohngewächse (Papaveraceae).",
+    "en": "Papaver rhoeas, with common names including common poppy, corn poppy, corn rose, field poppy, Flanders poppy, red poppy, and Odai, is an annual herbaceous species of flowering plant in the poppy family Papaveraceae. It is native to north Africa and temperate Eurasia and is introduced into temperate areas on all other continents except Antarctica."
+  },
+  "teaser": {
+    "de": "Der Klatschmohn, auch Mohnblume oder Klatschrose genannt, ist eine Pflanzenart aus der Gattung Mohn (Papaver) innerha...",
+    "en": "Papaver rhoeas, with common names including common poppy, corn poppy, corn rose, field poppy, Flanders poppy, red pop..."
+  },
+  "uses": [
+    {
+      "id": "use-pr-01",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tea",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Verwendung von Klatschmohn-Blütenblättern als mildes Schlaf- und Beruhigungstee. Das Alkaloid Rhoeadin wirkt leicht sedierend. KEIN Bezug zu Papaver somniferum — keine Opiate, keine Suchtgefahr.",
+        "en": "Folk medicinal use of common poppy petals as a mild sleep and calming tea. The alkaloid rhoeadine has a mild sedative effect. NO relation to Papaver somniferum — no opiates, no addiction risk."
+      },
+      "preparation": {
+        "water_ml": 250,
+        "steep_min": 10
+      },
+      "source_ids": [
+        "src-pr-wiki-en",
+        "src-pr-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-pr-02",
+      "target": [
+        "respiratory",
+        "throat"
+      ],
+      "form": "tea",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Traditionelle Verwendung als reizlindernder Hustentee bei trockenem Reizhusten. Schleimstoffe der Blütenblätter umhüllen gereizte Schleimhäute. Historisch in Kräuterhusten­sirups verwendet.",
+        "en": "Traditional use as soothing cough tea for dry irritant cough. Mucilage compounds in the petals coat irritated mucous membranes. Historically used in herbal cough syrups."
+      },
+      "preparation": {
+        "water_ml": 250,
+        "steep_min": 8
+      },
+      "source_ids": [
+        "src-pr-wiki-en",
+        "src-pr-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-pr-03",
+      "target": [
+        "nervous_system",
+        "digestion"
+      ],
+      "form": "tincture",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische Verwendung in Kräuterlikören und Tinkturen bei nervösen Magen-Darm-Beschwerden. Kombiniert sedierende Eigenschaften des Rhoeadins mit antispasmodischer Wirkung auf den Verdauungstrakt.",
+        "en": "Historical use in herbal liqueurs and tinctures for nervous gastrointestinal complaints. Combines sedative properties of rhoeadine with antispasmodic effect on the digestive tract."
+      },
+      "preparation": {
+        "ratio": "1:5",
+        "solvent": "40% ethanol"
+      },
+      "source_ids": [
+        "src-pr-wiki-en",
+        "src-pr-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-pr-04",
+      "target": [
+        "nutrition"
+      ],
+      "form": "raw",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Samen des Klatschmohns sind alkaloidfrei und essbar. Traditionelle Verwendung als Backzutat in Brot und Gebäck. Gute Quelle für ungesättigte Fettsäuren und Mineralstoffe. Keine medizinische Wirkung der Samen.",
+        "en": "Seeds of common poppy are alkaloid-free and edible. Traditional use as baking ingredient in bread and pastries. Good source of unsaturated fatty acids and minerals. No medicinal effect from the seeds."
+      },
+      "preparation": {},
+      "source_ids": [
+        "src-pr-pfaf",
+        "src-pr-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-pr-05",
+      "target": [
+        "skin"
+      ],
+      "form": "compress",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische äusserliche Anwendung frischer Blütenblätter als feuchter Umschlag bei Hautreizungen und leichten Entzündungen. Die Schleimstoffe wirken hautberuhigend und kühlend.",
+        "en": "Folk medicinal external application of fresh petals as a moist compress for skin irritation and mild inflammation. Mucilage compounds have a skin-soothing and cooling effect."
+      },
+      "preparation": {},
+      "source_ids": [
+        "src-pr-pfaf",
+        "src-pr-wiki-de"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-pr-06",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tea",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische Verwendung von Klatschmohn-Kraut (Blätter und Stiele) vor der Blütenbildung als Frühjahrskraut in der Küche und Volksmedizin. Achtung: nach Knospenbildung steigt der Alkaloidgehalt — dann nicht mehr verzehren.",
+        "en": "Historical use of common poppy herb (leaves and stems) before flowering as a spring herb in cooking and folk medicine. Caution: after bud formation the alkaloid content increases — do not consume then."
+      },
+      "preparation": {
+        "water_ml": 250,
+        "steep_min": 5
+      },
+      "source_ids": [
+        "src-pr-pfaf",
+        "src-pr-wiki-en"
+      ],
+      "internal_external": "internal"
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7
+    ],
+    "harvest_part": {
+      "de": "Blüten (Frühsommer)",
+      "en": "flowers (early summer)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Klatschmohn (Papaver rhoeas) NICHT mit Schlafmohn (Papaver somniferum) verwechseln — P. somniferum enthält Morphin-Gruppe-Alkaloide und ist in vielen Ländern kontrolliert. Klatschmohn-Alkaloide (Rhoeadin-Gruppe) sind nicht verwandt mit Opiaten und erzeugen keine Abhängigkeit. Dennoch: milde Sedierung beachten; keine Überdosierung; keine Kombination mit Alkohol, Schlafmitteln oder anderen sedierenden Substanzen. Laiensammelrisiko durch Verwechslung mit ähnlichen Mohnarten.",
+      "en": "Common poppy (Papaver rhoeas) must NOT be confused with opium poppy (Papaver somniferum) — P. somniferum contains morphine-group alkaloids and is controlled in many countries. Common poppy alkaloids (rhoeadine group) are not related to opiates and do not cause dependence. Still: note mild sedation; no overdosing; do not combine with alcohol, sleeping pills or other sedating substances. Lay-collection risk through confusion with similar poppy species."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Klatschmohn-Alkaloide können wehenfördernde Wirkung haben; Anwendung in der Schwangerschaft ist kontraindiziert. Kein Verzehr von Blättern oder Blüten während der Schwangerschaft.",
+        "en": "Common poppy alkaloids may have uterotonic effects; use during pregnancy is contraindicated. No consumption of leaves or flowers during pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Alkaloide könnten in die Muttermilch übergehen und beim Säugling sedierend wirken. Keine Anwendung während der Stillzeit als Vorsichtsmaßnahme.",
+        "en": "Alkaloids could pass into breast milk and have a sedating effect on the infant. No use during breastfeeding as a precautionary measure."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Historische Mohn-Kinderschlaf-Sirupe (mit Blütenextrakten) wurden wegen Sedierungsgefahr verboten. Kein innerer Gebrauch bei Kindern unter 12 Jahren. Äusserliche Anwendung (Compress) nur nach Rücksprache mit Arzt.",
+        "en": "Historical poppy children's sleep syrups (with flower extracts) were banned due to sedation risk. No internal use in children under 12 years. External application (compress) only after consulting a doctor."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Schwangerschaft — mögliche wehenfördernde Wirkung der Alkaloide",
+        "en": "Pregnancy — possible uterotonic effect of alkaloids"
+      },
+      {
+        "de": "Stillzeit — Übertritt von Alkaloiden in Muttermilch möglich",
+        "en": "Breastfeeding — possible transfer of alkaloids into breast milk"
+      },
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Papaveraceae (Kreuzreaktion)",
+        "en": "Known hypersensitivity to Papaveraceae (cross-reaction)"
+      },
+      {
+        "de": "Kombination mit ZNS-Depressiva — additive Sedierung",
+        "en": "Combination with CNS depressants — additive sedation"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "ZNS-Depressiva (Benzodiazepine, Barbiturate, Opioide, Antihistaminika)",
+        "mechanism": {
+          "de": "Rhoeadin hat sedierende Eigenschaften; additive zentraldämpfende Wirkung bei Kombination mit Schlafmitteln, Beruhigungsmitteln oder Alkohol theoretisch möglich. Klinisch nicht systematisch untersucht.",
+          "en": "Rhoeadine has sedative properties; additive central depressant effect when combined with sleeping pills, sedatives or alcohol theoretically possible. Not systematically studied clinically."
+        },
+        "severity": "monitor",
+        "source_id": "src-pr-wiki-rhoeadine"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Klatschmohn (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Klatschmohn",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Papaver rhoeas (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Papaver_rhoeas",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src-pr-wiki-en",
+      "type": "wikipedia",
+      "title": "Papaver rhoeas — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Papaver_rhoeas",
+      "accessed": "2026-05-24",
+      "language": "en"
+    },
+    {
+      "id": "src-pr-wiki-de",
+      "type": "wikipedia",
+      "title": "Klatschmohn — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Klatschmohn",
+      "accessed": "2026-05-24",
+      "language": "de"
+    },
+    {
+      "id": "src-pr-wiki-rhoeadine",
+      "type": "wikipedia",
+      "title": "Rhoeadine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Rhoeadine",
+      "accessed": "2026-05-24",
+      "language": "en"
+    },
+    {
+      "id": "src-pr-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Papaver rhoeas",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Papaver+rhoeas",
+      "accessed": "2026-05-24",
+      "language": "en"
+    },
+    {
+      "id": "src-pr-wikidata",
+      "type": "wikidata",
+      "title": "Papaver rhoeas — Wikidata Q157859",
+      "url": "https://www.wikidata.org/wiki/Q157859",
+      "accessed": "2026-05-24",
+      "language": "en"
+    },
+    {
+      "id": "src-pr-wiki-papaver",
+      "type": "wikipedia",
+      "title": "Papaver — Wikipedia (EN) — genus overview",
+      "url": "https://en.wikipedia.org/wiki/Papaver",
+      "accessed": "2026-05-24",
+      "language": "en"
+    }
+  ],
+  "image": {
+    "filename": "papaver-rhoeas.jpg",
+    "alt": {
+      "de": "Foto von Klatschmohn",
+      "en": "Photo of Papaver rhoeas"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Papaver_rhoeas_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-101.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Rhoeadine",
+      "category": "alkaloid",
+      "percent_range": "0.01-0.1 %",
+      "note": {
+        "de": "Haupt-Isochinolin-Alkaloid des Klatschmohns mit siebengliedrigem Azepan-Ring; leicht sedierend; strukturell NICHT verwandt mit Morphin oder anderen Opiaten; untersucht für mögliche Anwendung bei Morphin-Entzug.",
+        "en": "Main isoquinoline alkaloid of common poppy with seven-membered azepane ring; mildly sedative; structurally NOT related to morphine or other opiates; studied for possible application in morphine withdrawal."
+      }
+    },
+    {
+      "name": "Rhoeagenine",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Begleitalkaloid der Rhoeadin-Gruppe; pharmakologische Eigenschaften ähnlich wie Rhoeadin; wenig untersucht.",
+        "en": "Companion alkaloid of the rhoeadine group; pharmacological properties similar to rhoeadine; little studied."
+      }
+    },
+    {
+      "name": "Papaveric acid",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Säure-Derivat aus der Isochinolin-Gruppe; in Klatschmohn-Blütenblättern identifiziert; toxikologisch nicht signifikant bei üblichen Mengen.",
+        "en": "Acid derivative from the isoquinoline group; identified in common poppy petals; toxicologically not significant at usual amounts."
+      }
+    },
+    {
+      "name": "Anthocyanine (Cy-3-G, Dp-3-G)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Für die rote Blütenfarbe verantwortliche Pigmente (Cyanidin-3-Glucosid, Delphinidin-3-Glucosid); antioxidative Eigenschaften; keine direkte Heilwirkung belegt.",
+        "en": "Pigments responsible for the red flower color (cyanidin-3-glucoside, delphinidin-3-glucoside); antioxidant properties; no direct medicinal effect proven."
+      }
+    },
+    {
+      "name": "Mucilage (Pektine, neutrale Polysaccharide)",
+      "category": "mucilage",
+      "percent_range": "1-5 %",
+      "note": {
+        "de": "Schleimpolysaccharide der Blütenblätter; für die reizlindernde Wirkung auf Schleimhäute verantwortlich; Basis der volksheilkundlichen Hustenanwendung.",
+        "en": "Mucilage polysaccharides of the petals; responsible for the soothing effect on mucous membranes; basis of folk medicinal cough application."
+      }
+    },
+    {
+      "name": "Meconic acid",
+      "category": "other",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "In sehr geringen Mengen vorhanden; kein Alkaloid; in Papaver somniferum in höherer Konzentration und als Marker für Opiumgehalt genutzt — in P. rhoeas nur Spurenmengen ohne toxikologische Relevanz.",
+        "en": "Present in very small amounts; not an alkaloid; in Papaver somniferum in higher concentration and used as a marker for opium content — in P. rhoeas only trace amounts without toxicological relevance."
+      }
+    },
+    {
+      "name": "Quercetin, Kaempferol-Glykoside",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Flavonol-Glykoside in Blättern und Blüten; antioxidativ; entzündungshemmend in vitro; unspezifische sekundäre Pflanzenstoffe.",
+        "en": "Flavonol glycosides in leaves and flowers; antioxidant; anti-inflammatory in vitro; non-specific secondary plant compounds."
+      }
+    },
+    {
+      "name": "Fatty acids (Linolsäure, Ölsäure)",
+      "category": "other",
+      "percent_range": "Samenöl 40-60 %",
+      "note": {
+        "de": "Im Same — hauptsächlich Linol- und Ölsäure; ernährungsphysiologisch wertvoll; kein Alkaloidanteil in den Samen (gesondert von Blüten/Blättern zu bewerten).",
+        "en": "In the seed — mainly linoleic and oleic acid; nutritionally valuable; no alkaloid content in seeds (to be assessed separately from flowers/leaves)."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Morgens nach Tautrocknung, kurz nach dem Öffnen der Blüte für höchsten Anthocyan- und Schleimstoffgehalt",
+        "en": "Morning after dew has dried, shortly after flower opening for highest anthocyanin and mucilage content"
+      },
+      "drying": {
+        "de": "Sofort flach bei max. 35 °C im Schatten trocknen; empfindliche Anthocyane verlieren bei höherer Temperatur die Farbe und Wirkstoffgehalt sinkt; Trockenzeit 12–24 Stunden.",
+        "en": "Immediately dry flat at max. 35 °C in the shade; sensitive anthocyanins lose color at higher temperatures and active compound content decreases; drying time 12–24 hours."
+      },
+      "notes": {
+        "de": "Nur Blütenblätter der noch ungeöffneten oder frisch geöffneten Blüte ernten. Keine Stempel oder Staubgefässe. Nur aus pestizidfreiem Bestand.",
+        "en": "Harvest only petals of still-unopened or freshly opened flowers. No pistils or stamens. Only from pesticide-free stands."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        3,
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Frühjahrsblätter VOR der Knospenbildung ernten — nach Knospenbildung steigt Alkaloidgehalt stark an",
+        "en": "Harvest spring leaves BEFORE bud formation — after bud formation alkaloid content increases significantly"
+      },
+      "drying": {
+        "de": "Frische Blätter schnell bei 40 °C trocknen oder frisch verwenden; nach Knospenbildung kein Verzehr mehr.",
+        "en": "Dry fresh leaves quickly at 40 °C or use fresh; after bud formation no longer for consumption."
+      },
+      "notes": {
+        "de": "Klatschmohn-Kraut ist nur als Frühjahrskraut vor der Blüte verwendbar. Ernte nur von sicher identifizierten Pflanzen — Verwechslungsgefahr mit anderen Mohnarten.",
+        "en": "Common poppy herb is only usable as a spring herb before flowering. Harvest only from positively identified plants — risk of confusion with other poppy species."
+      }
+    }
+  ]
+}

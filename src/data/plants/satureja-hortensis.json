@@ -1,0 +1,507 @@
+{
+  "slug": "satureja-hortensis",
+  "names": {
+    "de": "Sommer-Bohnenkraut",
+    "en": "Summer savory",
+    "latin": "Satureja hortensis"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Das Sommer-Bohnenkraut, auch Gartenbohnenkraut, Echtes Bohnenkraut, Pfefferkraut, Gartensaturey, Saturei, Sodarei und Kölle sowie Wurst-, Beizkraut genannt, ist eine Pflanzenart aus der Gattung Bohnenkräuter (Satureja) innerhalb der Familie der Lippenblütengewächse (Lamiaceae). Die angenehm würzig duftende einjährige Pflanze ist im mittleren und östlichen Mittelmeerraum, in der Schwarzmeer- und der Kaukasusregion sowie in Kasachstan und Xinjiang beheimatet. Sie wird seit der Antike als Heil- und Gewürzpflanze verwendet.",
+    "en": "Summer savory is among the best known of the savory genus. It is an annual, but otherwise is similar in use and flavor to the perennial winter savory. It is used more often than winter savory, which has a slightly more bitter flavor."
+  },
+  "teaser": {
+    "de": "Das Sommer-Bohnenkraut, auch Gartenbohnenkraut, Echtes Bohnenkraut, Pfefferkraut, Gartensaturey, Saturei, Sodarei und...",
+    "en": "Summer savory is among the best known of the savory genus."
+  },
+  "uses": [
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "evidence_level": "folk",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Frische oder getrocknete Blätter und Triebspitzen werden als Gewürzkraut in der Küche verwendet. Sommer-Bohnenkraut ist klassisches Bohnenkraut und der Namensgeber — es reduziert nach Überlieferung die blähende Wirkung von Hülsenfrüchten. In der bulgarischen Küche ist es Bestandteil der Gewürzmischung Sharena sol (Buntesalz), in der provenzalischen Küche Teil der Herbes de Provence.",
+        "en": "Fresh or dried leaves and shoot tips are used as a culinary herb. Summer savory is the classic herb for beans — tradition holds that it reduces the flatulent effect of legumes. In Bulgarian cuisine it is an ingredient of sharena sol (speckled salt); in Provençal cuisine it is part of herbes de Provence."
+      },
+      "preparation": {
+        "de": "Frische Blätter kurz vor der Blüte ernten; getrocknete Blätter bei max. 40 °C trocknen und dunkel lagern.",
+        "en": "Harvest fresh leaves just before flowering; dry at max. 40 °C and store in a dark place."
+      },
+      "source_ids": [
+        "src_wiki_de_satureja",
+        "src_wiki_en_summer_savory"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "evidence_level": "traditional",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Ein Tee aus den blühenden Trieben wird seit der Antike bei Verdauungsstörungen wie Blähungen, Bauchkrämpfen, Übelkeit und Durchfall eingesetzt. Die Pflanze wird bereits im antiken Kochbuch De re coquinaria (3./4. Jh.) erwähnt. Carminative und stomachische Wirkungen werden auf die ätherischen Öle Carvacrol und Thymol zurückgeführt.",
+        "en": "A tea from the flowering shoots has been used since antiquity for digestive complaints such as flatulence, abdominal cramps, nausea and diarrhoea. The plant is already mentioned in the ancient cookbook De re coquinaria (3rd/4th c.). Carminative and stomachic effects are attributed to the essential oils carvacrol and thymol."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "1–2 g getrocknetes Kraut mit 150 ml heißem Wasser übergießen, 10 Minuten ziehen lassen, abseihen.",
+          "en": "Pour 150 ml hot water over 1–2 g dried herb, steep 10 minutes, strain."
+        }
+      },
+      "source_ids": [
+        "src_wiki_de_satureja",
+        "src_pfaf_satureja",
+        "src_review_frontiers_2023"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "evidence_level": "folk",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Ein Absud des Krauts wird in der Volksmedizin zum Gurgeln bei Halsentzündungen und Rachenbeschwerden verwendet. Die antiseptische Wirkung wird dem hohen Carvacrol-Gehalt des ätherischen Öls zugeschrieben.",
+        "en": "A decoction of the herb is used in folk medicine as a gargle for throat inflammations and pharyngeal complaints. The antiseptic effect is attributed to the high carvacrol content of the essential oil."
+      },
+      "preparation": {
+        "de": "Absud (2–3 g Kraut auf 200 ml Wasser, 10 Min. kochen) abkühlen lassen und 3× täglich damit gurgeln.",
+        "en": "Decoction (2–3 g herb in 200 ml water, boil 10 min), let cool and gargle 3× daily."
+      },
+      "source_ids": [
+        "src_wiki_de_satureja",
+        "src_review_frontiers_2023"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "evidence_level": "folk",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Volksmedizinisch wird Bohnenkraut-Tee bei Husten und Bronchialkatarrh eingesetzt. Die expektorierende Wirkung wird dem ätherischen Öl zugeschrieben, das die Bronchialsekretion löst.",
+        "en": "In folk medicine, savory tea is used for coughs and bronchial catarrh. The expectorant effect is attributed to the essential oil, which helps loosen bronchial secretions."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "1–2 g getrocknetes Kraut mit 150 ml heißem Wasser übergießen, 10 Minuten ziehen lassen.",
+          "en": "Pour 150 ml hot water over 1–2 g dried herb, steep 10 minutes."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_satureja",
+        "src_review_frontiers_2023"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "joints"
+      ],
+      "internal_external": "external",
+      "evidence_level": "folk",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Ein Stengel frischen Bohnenkrauts, auf Insektenstiche (Bienen, Wespen) gerieben, soll Juckreiz und Schwellung lindern — eine weit verbreitete Volksheilkunde-Anwendung. Ätherische Öle wirken lokal kühlend und schwach antiseptisch.",
+        "en": "A sprig of fresh savory rubbed on insect stings (bees, wasps) is said to soothe itching and swelling — a widespread folk remedy. Essential oils act locally cooling and mildly antiseptic."
+      },
+      "source_ids": [
+        "src_pfaf_satureja"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "immune",
+        "skin"
+      ],
+      "internal_external": "external",
+      "evidence_level": "folk",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Das ätherische Öl (0,5–2 % im blühenden Kraut) mit den Leitsubstanzen Carvacrol und Thymol zeigt in Laborversuchen starke antimikrobielle und antifungale Wirkung. In der Aromatherapie verdünnt äußerlich verwendet; nicht unverdünnt auf die Haut auftragen.",
+        "en": "The essential oil (0.5–2% in flowering herb) with lead compounds carvacrol and thymol shows strong antimicrobial and antifungal activity in laboratory studies. Used externally diluted in aromatherapy; do not apply undiluted to the skin."
+      },
+      "source_ids": [
+        "src_review_frontiers_2023",
+        "src_pfaf_satureja"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "evidence_level": "traditional",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Bohnenkraut-Extrakte werden in der traditionellen Pflanzenheilkunde als appetitanregend und verdauungsfördernd eingesetzt. Historisch bereits bei Römern als Heilmittel dokumentiert; im 17. Jahrhundert von Nicholas Culpeper als windzertreibend beschrieben.",
+        "en": "Savory extracts are used in traditional herbal medicine as appetite stimulants and digestive aids. Historically documented as a remedy among Romans; in the 17th century described by Nicholas Culpeper as wind-expelling."
+      },
+      "preparation": {
+        "de": "Als Flüssigextrakt oder Tinktur (1:5 in 45 % Ethanol), 1–2 ml pro Einnahme, bis 3× täglich.",
+        "en": "As a liquid extract or tincture (1:5 in 45% ethanol), 1–2 ml per dose, up to 3× daily."
+      },
+      "source_ids": [
+        "src_wiki_en_summer_savory",
+        "src_review_frontiers_2023"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "In üblichen Küchenmengen unbedenklich. Das ätherische Öl nicht unverdünnt auf die Haut auftragen — reizend. Konzentrierte Extrakte und ätherische Öle nicht in Schwangerschaft und Stillzeit anwenden. Bei Dauermedikation Rücksprache mit Arzt.",
+      "en": "Safe in normal culinary amounts. Do not apply the essential oil undiluted to the skin — irritating. Do not use concentrated extracts and essential oils during pregnancy and breastfeeding. Consult a doctor if on long-term medication."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Nicht als Heilpflanzenzubereitung (Tee, Extrakt, Öl) in der Schwangerschaft anwenden — unzureichende Sicherheitsdaten, mögliche emmenagoge Wirkung. Geringe Küchenmengen gelten als unbedenklich.",
+        "en": "Do not use as a herbal preparation (tea, extract, oil) during pregnancy — insufficient safety data, possible emmenagogue effect. Small culinary amounts are considered safe."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Konzentrierte Zubereitungen aufgrund unzureichender Datenlage meiden. Küchenmengen in der Ernährung sind traditionell akzeptiert.",
+        "en": "Avoid concentrated preparations due to insufficient data. Culinary amounts in food are traditionally accepted."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Keine konzentrierten Extrakte oder ätherisches Öl bei Kindern — unzureichende Sicherheitsdaten.",
+        "en": "No concentrated extracts or essential oil in children — insufficient safety data."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Schwangerschaft und Stillzeit (als Heilpflanzenzubereitung)",
+        "en": "Pregnancy and breastfeeding (as a herbal preparation)"
+      },
+      {
+        "de": "Bekannte Überempfindlichkeit gegen Lippenblütler (Lamiaceae)",
+        "en": "Known hypersensitivity to plants of the mint family (Lamiaceae)"
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Sommer-Bohnenkraut (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Sommer-Bohnenkraut",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Summer savory (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Summer_savory",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_de_satureja",
+      "type": "wikipedia",
+      "title": "Sommer-Bohnenkraut (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Sommer-Bohnenkraut",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_en_summer_savory",
+      "type": "wikipedia",
+      "title": "Summer savory (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Summer_savory",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_satureja",
+      "type": "monograph",
+      "title": "Satureja hortensis — Plants for a Future (PFAF)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Satureja+hortensis",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_review_frontiers_2023",
+      "type": "monograph",
+      "title": "A comprehensive review of summer savory (Satureja hortensis L.): promising ingredient for production of functional foods. Frontiers in Pharmacology, 2023. DOI: 10.3389/fphar.2023.1198970",
+      "url": "https://doi.org/10.3389/fphar.2023.1198970",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "satureja-hortensis.jpg",
+    "alt": {
+      "de": "Foto von Sommer-Bohnenkraut",
+      "en": "Photo of Summer savory"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Unknown",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Satureja_hortensis.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible",
+      "medicinal"
+    ],
+    "rooms": [
+      "kitchen",
+      "balcony"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "weekly",
+    "difficulty": 1,
+    "pet_safe": true,
+    "soil": {
+      "de": "Standard-Kräutererde",
+      "en": "Standard herb compost"
+    },
+    "pot_size_cm": 15,
+    "tips": {
+      "de": [
+        "Sonnig, eher trocken — wie alle mediterranen Kräuter.",
+        "Klassischer Begleiter für Bohnen-Gerichte.",
+        "Vor Frost ernten — einjährig."
+      ],
+      "en": [
+        "Sunny, fairly dry — like all Mediterranean herbs.",
+        "Classic companion for bean dishes.",
+        "Harvest before frost — annual."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "phaseolus-vulgaris-nanus",
+      "phaseolus-vulgaris-vulgaris",
+      "trigonella-foenum-graecum"
+    ],
+    "bad_partners": [
+      "allium-sativum"
+    ],
+    "reasons": {
+      "phaseolus-vulgaris-nanus": {
+        "de": "Bohnenkraut stärkt Bohnen und hält Schwarze Bohnenlaus fern.",
+        "en": "Savory strengthens beans and deters black bean aphid."
+      },
+      "phaseolus-vulgaris-vulgaris": {
+        "de": "Bohnenkraut ist klassischer Bohnen-Partner gegen Läuse.",
+        "en": "Savory is the classic bean partner against aphids."
+      }
+    },
+    "notes_de": "trigonella-foenum-graecum: Bohnenkraut stärkt Hülsenfrüchte (klassische Mischkultur). phaseolus-vulgaris-nanus: Bohnenkraut stärkt Bohnen — klassische Mischkultur.",
+    "notes_en": "trigonella-foenum-graecum: Savory strengthens legumes (classic companion pair). phaseolus-vulgaris-nanus: Savory strengthens beans — classic companion pair.",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 7,
+      "end_month": 9
+    },
+    "days_to_harvest": 70,
+    "spacing_cm": 20,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "aromatic_repellent",
+    "pest_repellent",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Carvacrol",
+      "category": "essential_oil",
+      "percent_range": "20-85 % (im äther. Öl)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolisches Monoterpen; Leitsubstanz des ätherischen Öls. Stark antimikrobiell und antifungal in Laborversuchen.",
+        "en": "Phenolic monoterpene; lead compound of the essential oil. Strongly antimicrobial and antifungal in laboratory studies."
+      }
+    },
+    {
+      "name": "γ-Terpinen",
+      "category": "essential_oil",
+      "percent_range": "10-40 % (im äther. Öl)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Monoterpen; Vorstufe von Carvacrol und Thymol; trägt zum typischen Aroma bei.",
+        "en": "Monoterpene; precursor to carvacrol and thymol; contributes to the typical aroma."
+      }
+    },
+    {
+      "name": "Thymol",
+      "category": "essential_oil",
+      "percent_range": "variabel, bis 20 % (im äther. Öl)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolisches Monoterpen; antiseptisch und carminativ; kommt neben Carvacrol als zweite Leitsubstanz vor.",
+        "en": "Phenolic monoterpene; antiseptic and carminative; occurs alongside carvacrol as a second lead compound."
+      }
+    },
+    {
+      "name": "p-Cymen",
+      "category": "essential_oil",
+      "percent_range": "5-30 % (im äther. Öl)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Aromatischer Kohlenwasserstoff; verstärkt die antimikrobielle Wirkung von Carvacrol synergistisch.",
+        "en": "Aromatic hydrocarbon; synergistically enhances the antimicrobial effect of carvacrol."
+      }
+    },
+    {
+      "name": "Rosmarinsäure",
+      "category": "phenolic_acid",
+      "percent_range": "~3,4 % (Tannine gesamt)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hauptphenolsäure; antioxidativ und entzündungshemmend; typisch für Lamiaceae.",
+        "en": "Main phenolic acid; antioxidant and anti-inflammatory; typical of Lamiaceae."
+      }
+    },
+    {
+      "name": "Flavonoide (Luteolin, Apigenin)",
+      "category": "flavonoid",
+      "percent_range": "variabel",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Antioxidative Schutzsubstanzen; tragen zur antiinflammatorischen Wirkung bei.",
+        "en": "Antioxidant protective compounds; contribute to anti-inflammatory activity."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine)",
+      "category": "tannin",
+      "percent_range": "~3,4 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Adstringierend; tragen zur antidiarrhoischen Wirkung des Bohnenkraut-Tees bei.",
+        "en": "Astringent; contribute to the antidiarrhoeal effect of savory tea."
+      }
+    },
+    {
+      "name": "β-Caryophyllen",
+      "category": "sesquiterpene",
+      "percent_range": "variabel",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Sesquiterpen; entzündungshemmend und antimikrobiell; weit verbreitet in aromatischen Lamiaceae.",
+        "en": "Sesquiterpene; anti-inflammatory and antimicrobial; widespread in aromatic Lamiaceae."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus — höchster ätherischer Ölgehalt. Kurz vor oder zu Beginn der Blüte ernten für maximales Aroma.",
+        "en": "Morning after the dew has dried — highest essential oil content. Harvest just before or at the onset of flowering for maximum aroma."
+      },
+      "drying": {
+        "de": "In kleinen Bündeln an einem warmen, luftigen Ort trocknen oder bei max. 40 °C im Dörrgerät. Ganze Zweige trocknen, dann abreben.",
+        "en": "Dry in small bundles in a warm, airy place or at max. 40 °C in a dehydrator. Dry whole sprigs, then strip."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Dunkel, trocken, luftdicht in Glas- oder Blechdosen; Aroma bis 12 Monate haltbar.",
+        "en": "Dark, dry, airtight in glass or tin containers; aroma preserved for up to 12 months."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Blätter und junge Triebe ab Juni mehrmals ernten; bevorzugt in der Mittagswärme für intensiveres Aroma.",
+        "en": "Harvest leaves and young shoots from June onwards several times; preferably in the midday warmth for more intense aroma."
+      },
+      "drying": {
+        "de": "Frischverwendung bevorzugt; Blätter lassen sich auch einfrieren.",
+        "en": "Fresh use preferred; leaves can also be frozen."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Eingefroren bis 6 Monate haltbar; bei Raumtemperatur frisch nur wenige Tage.",
+        "en": "Frozen, keeps for up to 6 months; fresh at room temperature only a few days."
+      }
+    }
+  ]
+}

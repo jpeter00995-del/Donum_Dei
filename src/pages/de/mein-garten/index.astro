@@ -1,0 +1,17 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PlanView from '@/components/PlanView.tsx';
+import { loadAllPlants } from '@/lib/loadPlants';
+import '@/styles/print.css';
+
+// === 2. DATA ===
+const locale = 'de' as const;
+const plants = loadAllPlants();
+---
+
+<BaseLayout locale={locale} title="Mein Garten">
+  <section class="max-w-6xl mx-auto py-8 px-4 print-area">
+    <PlanView plants={plants} locale={locale} client:load />
+  </section>
+</BaseLayout>

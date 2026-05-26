@@ -1,0 +1,69 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { loadAllPlants } from '@/lib/loadPlants';
+import WeekView from '@/components/WeekView.tsx';
+import MonthHeatmap from '@/components/MonthHeatmap.tsx';
+
+// === 2. DATA ===
+const plants = loadAllPlants();
+const locale = 'en' as const;
+
+const plantsBySlug: Record<string, typeof plants[number]> = {};
+for (const p of plants) plantsBySlug[p.slug] = p;
+---
+
+<BaseLayout locale={locale} title="Calendar">
+  <div class="max-w-6xl mx-auto px-4 py-8">
+    <!-- === Tab switch === -->
+    <div role="tablist" aria-label="Calendar views" class="flex gap-2 border-b border-slate-200 mb-6">
+      <button
+        role="tab"
+        aria-selected="true"
+        data-tab="week"
+        class="tab-btn px-4 py-2 font-semibold text-emerald-800 border-b-2 border-emerald-700"
+      >
+        Week view
+      </button>
+      <button
+        role="tab"
+        aria-selected="false"
+        data-tab="year"
+        class="tab-btn px-4 py-2 font-semibold text-slate-500 border-b-2 border-transparent hover:text-slate-800"
+      >
+        Year overview
+      </button>
+    </div>
+
+    <section id="tab-week" role="tabpanel">
+      <WeekView client:load plantsBySlug={plantsBySlug} locale={locale} />
+    </section>
+
+    <section id="tab-year" role="tabpanel" class="hidden">
+      <h1 class="text-2xl font-serif font-bold text-slate-900 mb-4">Year overview</h1>
+      <p class="text-slate-600 mb-4">
+        12-month overview of every plant in your plan with garden metadata.
+        Yellow = sow, green = grow, orange = harvest.
+      </p>
+      <MonthHeatmap client:visible plants={plants} locale={locale} />
+    </section>
+  </div>
+
+  <script is:inline>
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const target = btn.getAttribute('data-tab');
+        document.querySelectorAll('.tab-btn').forEach(b => {
+          const isActive = b === btn;
+          b.setAttribute('aria-selected', isActive ? 'true' : 'false');
+          b.classList.toggle('text-emerald-800', isActive);
+          b.classList.toggle('border-emerald-700', isActive);
+          b.classList.toggle('text-slate-500', !isActive);
+          b.classList.toggle('border-transparent', !isActive);
+        });
+        document.getElementById('tab-week').classList.toggle('hidden', target !== 'week');
+        document.getElementById('tab-year').classList.toggle('hidden', target !== 'year');
+      });
+    });
+  </script>
+</BaseLayout>

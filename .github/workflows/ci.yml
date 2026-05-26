@@ -1,0 +1,59 @@
+name: CI
+
+# Codex-Review v1 P3 + P20: CI for plant-data validation + tests.
+# Activated once a GitHub remote is configured.
+# - Runs on push to main + on PR
+# - Validates plant JSONs against both legacy + zod schemas
+# - Runs the vitest suite (285 tests at time of writing)
+# - Runs astro check (TypeScript)
+# - Builds the static site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.12'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Validate plant data (legacy schema)
+        run: npm run validate:data
+
+      - name: Validate plant data (zod schema)
+        run: npm run validate:zod
+
+      - name: Run vitest
+        run: npm run test
+
+      - name: Astro check (TypeScript)
+        run: npx astro check
+
+      - name: Build static site
+        run: npx astro build
+
+      - name: Export JSON schema (artifact)
+        run: npm run schema:export
+
+      - name: Upload schema artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: plant-schema-${{ github.sha }}
+          path: docs/plant_schema.json
+          retention-days: 90

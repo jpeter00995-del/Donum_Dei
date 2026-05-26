@@ -1,0 +1,509 @@
+{
+  "slug": "apium-graveolens",
+  "names": {
+    "de": "Echter Sellerie",
+    "en": "Apium graveolens",
+    "latin": "Apium graveolens"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Der bzw. die Echte Sellerie, kurz auch Sellerie, auch Zeller, und regional Eppich genannt, ist eine Pflanzenart aus der Gattung Sellerie (Apium) innerhalb der Familie der Doldenblütler (Apiaceae). Verwendung als Gemüse in der Küche finden ihre Varietäten Knollensellerie, Staudensellerie und Schnittsellerie.",
+    "en": "Apium graveolens, known in English as celery, is an Old World species of flowering plant in the family Apiaceae. It was first described by Carl Linnaeus in 1753."
+  },
+  "teaser": {
+    "de": "Der bzw.",
+    "en": "Apium graveolens, known in English as celery, is an Old World species of flowering plant in the family Apiaceae."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Staudensellerie-Stiele roh als Gemüse oder Snack: kalorienarm (14 kcal/100 g), 95 % Wasser, reich an Vitamin K (29 µg/100 g = 24 % TW), Folat (36 µg = 9 % TW) und Kalium (263 mg = 9 % TW). Die charakteristischen Phthalide Butylphthalid und Sedanolid geben das typische Aroma und wirken leicht krampflösend auf die glatte Muskulatur des Verdauungstrakts.",
+        "en": "Raw celery stalks as vegetable or snack: low calorie (14 kcal/100 g), 95 % water, rich in vitamin K (29 µg/100 g = 24 % DV), folate (36 µg = 9 % DV), and potassium (263 mg = 9 % DV). The characteristic phthalides butylphthalide and sedanolide provide the typical aroma and mildly relax smooth muscle of the digestive tract."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Stiele waschen, in Stücke schneiden und roh verzehren. Als Snack, Crudité oder in Salaten.",
+        "en": "Wash stalks, cut into pieces and eat raw. As snack, crudité, or in salads."
+      },
+      "source_ids": [
+        "src_wiki_en_celery",
+        "src_pfaf_apium"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Samen-Aufguss: 1 TL gequetschte Selleriesamen auf 250 ml heißes Wasser, 10–15 Minuten ziehen lassen. In der europäischen Volksmedizin traditionell als Diuretikum bei leichten Harnwegsinfekten und zur Unterstützung der Nierenfunktion eingesetzt. Kommission E-Monographie verweist auf unzureichenden Wirksamkeitsnachweis; traditionelle Anwendung in Mitteleuropa ist jedoch gut dokumentiert.",
+        "en": "Seed infusion: 1 tsp crushed celery seeds in 250 ml hot water, steep 10–15 min. Traditionally used in European folk medicine as a diuretic for mild urinary tract infections and to support kidney function. Commission E monograph notes insufficient efficacy evidence; traditional use in central Europe is nonetheless well documented."
+      },
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 12,
+        "doses_per_day": 2
+      },
+      "source_ids": [
+        "src_wiki_de_sellerie",
+        "src_pfaf_apium"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Selleriesamen als Gewürz in Suppen, Eintöpfen, Broten und Gemüsegerichten — intensiver Geschmack als die Stiele. Das ätherische Öl der Samen enthält R-(+)-Limonen (~60 %), beta-Selinene (~13 %) und Phthalide (20–30 %). In der traditionellen Küche Europas, des Nahen Ostens und Südasiens verbreitet.",
+        "en": "Celery seeds as spice in soups, stews, breads, and vegetable dishes — more intense flavour than the stalks. The seed essential oil contains R-(+)-limonene (~60 %), β-selinene (~13 %), and phthalides (20–30 %). Widely used in traditional cuisine of Europe, the Middle East, and South Asia."
+      },
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "1/4–1/2 TL ganze oder gemahlene Samen pro Gericht. Sparsam verwenden — intensiver Geschmack.",
+        "en": "1/4–1/2 tsp whole or ground seeds per dish. Use sparingly — intense flavour."
+      },
+      "source_ids": [
+        "src_wiki_en_celery",
+        "src_pfaf_apium"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "joints",
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "In der europäischen Volksmedizin wird Sellerie (Stiele, Samen, Wurzel) traditionell bei Gicht, Rheuma und Arthritis eingesetzt. Die harntreibende Wirkung soll die Ausscheidung von Harnsäure fördern. Die Verwendung bei rheumatischen Beschwerden ist in Mitteleuropa und im Nahen Osten volksmedizinisch gut belegt; klinische Studien zur Wirksamkeit fehlen.",
+        "en": "In European folk medicine, celery (stalks, seeds, root) is traditionally used for gout, rheumatism, and arthritis. The diuretic effect is said to promote uric acid excretion. Use for rheumatic complaints is well documented in folk tradition across central Europe and the Middle East; clinical studies on efficacy are lacking."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_wiki_de_sellerie",
+        "src_pfaf_apium"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "In der traditionellen chinesischen und persischen Medizin wird Sellerie zur Unterstützung bei Bluthochdruck eingesetzt. Phthalide (besonders Butylphthalid) entspannen die glatte Gefäßmuskulatur und wirken blutdrucksenkend im Tiermodell. Beim Menschen liegen keine kontrollierten klinischen Studien zu Sellerie als Monoextrakt vor; die Phthalide wurden aber als mögliche Wirksubstanz isoliert und untersucht.",
+        "en": "In traditional Chinese and Persian medicine, celery is used to support blood pressure. Phthalides (especially butylphthalide) relax vascular smooth muscle and lower blood pressure in animal models. No controlled clinical trials on celery as monoextract in humans exist; phthalides have however been isolated and studied as potential active compounds."
+      },
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_wiki_en_celery",
+        "src_pfaf_apium"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Sellerieblätter als Kochkraut (Schnitt- oder Blättersellerie): Bitterstoffe und ätherische Öle regen die Verdauung an. In der antiken Medizin (Ägypten, Griechenland, Rom) als Würz- und Heilpflanze genutzt. Rohe Blätter haben einen intensiven, leicht bitteren Geschmack; als Kochkraut werden sie in Suppen und Brühen verwendet.",
+        "en": "Celery leaves as a culinary herb (leaf celery): bitter compounds and essential oils stimulate digestion. Used as a spice and medicinal plant in ancient medicine (Egypt, Greece, Rome). Raw leaves have an intense, slightly bitter flavour; as a cooking herb they are used in soups and broths."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Frische Blätter kleingehackt in Suppen, Salaten oder als Garnitur. Nicht in großen Mengen roh verzehren.",
+        "en": "Fresh leaves finely chopped in soups, salads, or as garnish. Do not consume in large quantities raw."
+      },
+      "source_ids": [
+        "src_wiki_en_celery",
+        "src_pfaf_apium"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Wurzel, Stiele, Samen",
+      "en": "root, stalks, seeds"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Küchenmengen (Gemüse, Gewürz) sind für gesunde Erwachsene unbedenklich. Sellerie-Allergie (Kreuzallergie Sellerie-Karotte-Beifuß-Birke) ist weit verbreitet in Mitteleuropa und kann anaphylaktische Reaktionen auslösen — EU-weit deklarationspflichtig. Bei Kontakt mit Blättern und anschließender Sonneneinstrahlung photodermatitisches Potenzial durch Psoralene/Bergapten. Medizinale Dosen (Samenextrakt, konzentriertes Öl) sind in der Schwangerschaft kontraindiziert.",
+      "en": "Culinary amounts (vegetable, spice) are safe for healthy adults. Celery allergy (celery-carrot-mugwort-birch cross-reaction) is widespread in central Europe and can cause anaphylactic reactions — mandatory labelling across the EU. Contact with leaves followed by sun exposure has photodermatitis potential due to psoralens/bergapten. Medicinal doses (seed extract, concentrated oil) are contraindicated in pregnancy."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenmengen als Gemüse sind unbedenklich. Medizinale Dosen von Selleriesamen, -öl oder -extrakt sind kontraindiziert — uterotone und emmenagoge Substanzen (Apiol, Apigenin) können Uteruskontraktionen auslösen.",
+        "en": "Culinary amounts as vegetable are safe. Medicinal doses of celery seeds, oil, or extract are contraindicated — uterotonic and emmenagogue substances (apiol, apigenin) can trigger uterine contractions."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Sicherheitsdaten. Als Gemüse in Küchenmengen wahrscheinlich unbedenklich; konzentrierte Extrakte meiden.",
+        "en": "Insufficient safety data. As a vegetable in culinary amounts likely safe; avoid concentrated extracts."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Als Gemüse in normalen Mengen für Kinder geeignet. Auf Allergiesymptome achten (Kreuzallergie möglich).",
+        "en": "As a vegetable in normal amounts suitable for children. Watch for allergy symptoms (cross-reaction possible)."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Sellerie-Allergie oder Kreuzallergie (Sellerie-Karotte-Beifuß-Birke-Syndrom).",
+        "en": "Known celery allergy or cross-allergy (celery-carrot-mugwort-birch syndrome)."
+      },
+      {
+        "de": "Nierenerkrankungen — medizinale Dosen (Samenextrakt, Öl) meiden.",
+        "en": "Kidney disease — avoid medicinal doses (seed extract, oil)."
+      },
+      {
+        "de": "Blutungsneigung oder gerinnungshemmende Therapie — erhöhtes Blutungsrisiko durch Cumarin-Inhaltsstoffe.",
+        "en": "Bleeding tendency or anticoagulant therapy — increased bleeding risk from coumarin constituents."
+      },
+      {
+        "de": "Vor geplanten Operationen: medizinale Selleriedosen mindestens 2 Wochen vorher absetzen.",
+        "en": "Before planned surgery: discontinue medicinal celery doses at least 2 weeks prior."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulanzien (Warfarin, Heparin)",
+        "mechanism": {
+          "de": "Furanocumarinhaltige Inhaltsstoffe können die gerinnungshemmende Wirkung verstärken und das Blutungsrisiko erhöhen.",
+          "en": "Furanocoumarin-containing constituents may potentiate anticoagulant effect and increase bleeding risk."
+        },
+        "severity": "caution",
+        "source_id": "src_rxlist_celery"
+      },
+      {
+        "drug_class": "Levothyroxin (Schilddrüsenhormone)",
+        "mechanism": {
+          "de": "Sellerie kann die Resorption von Levothyroxin vermindern; zeitlicher Abstand zur Einnahme empfohlen.",
+          "en": "Celery may reduce absorption of levothyroxine; time separation from intake is recommended."
+        },
+        "severity": "monitor",
+        "source_id": "src_rxlist_celery"
+      },
+      {
+        "drug_class": "Antihypertensiva",
+        "mechanism": {
+          "de": "Additive blutdrucksenkende Wirkung möglich durch Phthalide; Hypotonie-Risiko bei gleichzeitiger Einnahme.",
+          "en": "Additive blood pressure lowering effect possible through phthalides; hypotension risk with concurrent use."
+        },
+        "severity": "monitor",
+        "source_id": "src_rxlist_celery"
+      },
+      {
+        "drug_class": "Lithium",
+        "mechanism": {
+          "de": "Diuretische Wirkung des Selleries kann die Lithiumausscheidung vermindern und den Lithiumspiegel erhöhen.",
+          "en": "Diuretic effect of celery may reduce lithium excretion and raise lithium levels."
+        },
+        "severity": "caution",
+        "source_id": "src_rxlist_celery"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter Sellerie (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Sellerie",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Apium graveolens (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Apium_graveolens",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wiki_en_celery",
+      "type": "wikipedia",
+      "title": "Celery (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Celery",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_de_sellerie",
+      "type": "wikipedia",
+      "title": "Echter Sellerie (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Sellerie",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_apium",
+      "type": "book",
+      "title": "Plants For A Future — Apium graveolens",
+      "url": "https://www.pfaf.org/user/Plant.aspx?LatinName=Apium+graveolens",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_rxlist_celery",
+      "type": "monograph",
+      "title": "Celery: Health Benefits, Side Effects, Uses, Dose & Precautions — RxList",
+      "url": "https://www.rxlist.com/supplements/celery.htm",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "apium-graveolens.jpg",
+    "alt": {
+      "de": "Foto von Echter Sellerie",
+      "en": "Photo of Apium graveolens"
+    },
+    "license": "Public domain",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Apium_graveolens0.jpg"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-porrum",
+      "allium-sativum",
+      "brassica-oleracea-botrytis",
+      "brassica-oleracea-capitata-alba",
+      "brassica-oleracea-capitata-rubra",
+      "brassica-oleracea-gemmifera",
+      "brassica-oleracea-italica",
+      "brassica-oleracea-sabauda",
+      "cucurbita-pepo",
+      "levisticum-officinale",
+      "phaseolus-vulgaris-nanus",
+      "solanum-lycopersicum",
+      "tropaeolum-majus"
+    ],
+    "bad_partners": [
+      "anethum-graveolens",
+      "daucus-carota-sativus",
+      "foeniculum-vulgare",
+      "pastinaca-sativa",
+      "petroselinum-crispum",
+      "solanum-tuberosum"
+    ],
+    "reasons": {
+      "allium-porrum": {
+        "de": "Lauch und Sellerie ergänzen sich nährstoff-mäßig perfekt.",
+        "en": "Leek and celery complement each other nutritionally."
+      },
+      "brassica-oleracea-capitata-alba": {
+        "de": "Sellerie hält Kohlweißling fern (klassische DACH-Bauernregel).",
+        "en": "Celery deters cabbage white butterfly (classic DACH rule)."
+      },
+      "phaseolus-vulgaris-nanus": {
+        "de": "Klassische Mischkultur: Bohne düngt, Sellerie nutzt den Stickstoff.",
+        "en": "Classic companions: bean fertilises, celery uses the nitrogen."
+      },
+      "solanum-lycopersicum": {
+        "de": "Sellerie-Duft maskiert Tomate vor Schädlingen.",
+        "en": "Celery scent masks tomato from pests."
+      }
+    },
+    "notes_de": "petroselinum-crispum: Beide Apiaceae — Konkurrenz um gleiche Nährstoffe und Schädlinge. phaseolus-vulgaris-nanus: Bohne und Sellerie sind klassische Mischkultur. brassica-oleracea-capitata-alba: Sellerie hält Kohlweißling fern (klassische DACH-Bauernregel). allium-porrum: Lauch und Sellerie sind klassische Wintergemüse-Mischkultur. pastinaca-sativa: Pastinake und Sellerie sind beide Apiaceae — Schädlings-Hotspot.",
+    "notes_en": "petroselinum-crispum: Both Apiaceae — compete for same nutrients and attract same pests. phaseolus-vulgaris-nanus: Bean and celery are classic companions. brassica-oleracea-capitata-alba: Celery deters cabbage white butterfly (classic DACH rule). allium-porrum: Leek and celery are classic winter-vegetable companions. pastinaca-sativa: Parsnip and celery are both Apiaceae — pest hotspot.",
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 2,
+        "end_month": 3
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 9,
+      "end_month": 11
+    },
+    "days_to_harvest": 180,
+    "spacing_cm": 40,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 2
+  },
+  "permaculture_functions": [
+    "pest_repellent",
+    "vertical_mid"
+  ],
+  "constituents": [
+    {
+      "name": "Butylphthalid (Sedanolid)",
+      "category": "other",
+      "percent_range": "20-30 % (im Samenöl)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Charakteristisches Phthalid des Selleries; hauptverantwortlich für den typischen Geruch und Geschmack. Entspannt die glatte Gefäß- und Darmmuskulatur; in Tierversuchen blutdrucksenkend.",
+        "en": "Characteristic phthalide of celery; mainly responsible for the typical smell and taste. Relaxes vascular and intestinal smooth muscle; blood pressure-lowering in animal studies."
+      }
+    },
+    {
+      "name": "R-(+)-Limonen",
+      "category": "essential_oil",
+      "percent_range": "~60 % (im Samenöl)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Hauptbestandteil des ätherischen Öls der Selleriesamen; karminative und antioxidative Eigenschaften.",
+        "en": "Main constituent of celery seed essential oil; carminative and antioxidant properties."
+      }
+    },
+    {
+      "name": "beta-Selinen",
+      "category": "sesquiterpene",
+      "percent_range": "~13 % (im Samenöl)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Sesquiterpen im Samenöl; trägt zum Gesamtaroma bei und wird in Aromatherapie-Kontexten diskutiert.",
+        "en": "Sesquiterpene in seed oil; contributes to the overall aroma and is discussed in aromatherapy contexts."
+      }
+    },
+    {
+      "name": "Apigenin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavon in Blättern und Samen; anxiolytische und entzündungshemmende Aktivität in vitro dokumentiert. Uterotones Potenzial relevant für Schwangerschaftswarnung.",
+        "en": "Flavone in leaves and seeds; anxiolytic and anti-inflammatory activity documented in vitro. Uterotonic potential relevant for pregnancy warning."
+      }
+    },
+    {
+      "name": "Vitamin K (Phylloquinon)",
+      "category": "vitamin",
+      "percent_range": "29 µg/100 g frisch (= 24 % TW)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Reichster Mikronährstoff im frischen Selleriestiel; bedeutsam für Blutgerinnung und Knochenstoffwechsel.",
+        "en": "Richest micronutrient in fresh celery stalk; important for blood coagulation and bone metabolism."
+      }
+    },
+    {
+      "name": "Bergapten (5-Methoxypsoralen)",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Furanocoumarin in Blättern und Samen; photodermatitisches Potenzial bei Hautkontakt und anschließender UV-Exposition.",
+        "en": "Furanocoumarin in leaves and seeds; photodermatitis potential on skin contact followed by UV exposure."
+      }
+    },
+    {
+      "name": "Apiol",
+      "category": "essential_oil",
+      "plant_part": "seed",
+      "note": {
+        "de": "Phenylpropanoid; historisch als Emmenagogum verwendet. Uterotone Wirkung begründet die Schwangerschaftskontraindikation bei medizinalen Dosen.",
+        "en": "Phenylpropanoid; historically used as an emmenagogue. Uterotonic effect is the basis for the pregnancy contraindication at medicinal doses."
+      }
+    },
+    {
+      "name": "Folat (Vitamin B9)",
+      "category": "vitamin",
+      "percent_range": "36 µg/100 g frisch (= 9 % TW)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Wichtig für Zellwachstum und Zellteilung; in frischen Stielen gut enthalten.",
+        "en": "Important for cell growth and division; well represented in fresh stalks."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Morgens, wenn die Stiele noch frisch und kühler sind.",
+        "en": "Morning, when the stalks are still fresh and cool."
+      },
+      "drying": {
+        "de": "Selleriestiele eignen sich schlecht zum Trocknen (hoher Wassergehalt). Besser: frisch verwenden oder einfrieren. Blätter können gebündelt und an der Luft getrocknet werden (1–2 Wochen).",
+        "en": "Celery stalks are not ideal for drying (high water content). Better: use fresh or freeze. Leaves can be bundled and air-dried (1–2 weeks)."
+      },
+      "storage_months": 1,
+      "storage_condition": {
+        "de": "Frisch: im Kühlschrank bis 2 Wochen. Eingefroren: bis 3 Monate (blanchiert, für Suppen geeignet).",
+        "en": "Fresh: in the refrigerator up to 2 weeks. Frozen: up to 3 months (blanched, suitable for soups)."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Wenn die Samenstände bräunlich und trocken sind; möglichst vor dem Aufspringen ernten.",
+        "en": "When the seed heads are brownish and dry; harvest before they open if possible."
+      },
+      "drying": {
+        "de": "Samenstände abschneiden, in Papiertüten kopfüber aufhängen bis zur vollständigen Abreife. Samen ausschütten und trocken, dunkel lagern.",
+        "en": "Cut seed heads, hang upside-down in paper bags until fully ripe. Pour out seeds and store dry and dark."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "In luftdicht verschlossenem Glas, kühl und dunkel — Haltbarkeit 2 Jahre.",
+        "en": "In airtight glass jar, cool and dark — shelf life 2 years."
+      }
+    }
+  ]
+}

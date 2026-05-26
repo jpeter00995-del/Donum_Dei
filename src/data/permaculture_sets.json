@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "_meta": {
+    "source_notes": "Permakultur-Inspiration aus Sepp Holzer, Bill Mollison, Toby Hemenway — alle paraphrasiert/adaptiert, keine Direkt-Zitate. Bei klassischen Mischkulturen wie Three Sisters und DACH-Bauernregeln wird die Tradition zitiert, nicht ein einzelner Autor.",
+    "sources": [
+      "Sepp Holzer, Sepp Holzers Permakultur (2004)",
+      "Sepp Holzer, Wüsten oder Paradies (2010)",
+      "Bill Mollison, Permaculture: A Designers' Manual (1988)",
+      "Toby Hemenway, Gaia's Garden (2009)",
+      "Klassische Mischkultur-Tradition (Three Sisters, DACH-Bauernregeln)",
+      "Helga und Margarete Langerhorst, Mein gesunder Naturgarten",
+      "Gertrud Franck, Gesunder Garten durch Mischkultur (1980)"
+    ]
+  },
+  "sets": [
+    {
+      "id": "three-sisters",
+      "emoji": "🌽",
+      "name_de": "Three Sisters",
+      "name_en": "Three Sisters",
+      "description_de": "Mais gibt der Bohne Halt, die Bohne fixiert Stickstoff für den Mais, der Kürbis bedeckt den Boden und hält ihn feucht. Vertikale Symbiose: hoch, kletternd, kriechend.",
+      "description_en": "Maize supports the bean, the bean fixes nitrogen for the maize, the squash covers the ground and keeps it moist. Vertical symbiosis: tall, climbing, creeping.",
+      "plants": [
+        { "slug": "zea-mays", "quantity": 4 },
+        { "slug": "phaseolus-vulgaris-vulgaris", "quantity": 8 },
+        { "slug": "cucurbita-pepo", "quantity": 2 }
+      ],
+      "total_area_sqm": 4,
+      "difficulty": 2,
+      "function_tags": ["nitrogen_fixer", "vertical_high", "ground_cover"],
+      "tradition": "Native American (Maya/Hopi)",
+      "source": "Klassische Mischkultur-Tradition (Three Sisters)",
+      "tips_de": [
+        "Mais zuerst pflanzen (Mai), nach 2 Wochen Bohnen säen damit Mais Vorsprung hat",
+        "Kürbis am Beet-Rand pflanzen, sonst überwuchert er die anderen",
+        "Reihenabstand Mais 50 cm, Bohne direkt am Mais-Stiel"
+      ],
+      "tips_en": [
+        "Plant maize first (May), sow beans 2 weeks later so maize gets a head start",
+        "Plant squash at the bed edge, otherwise it overgrows the others",
+        "Maize row spacing 50 cm, beans directly at maize stem"
+      ]
+    },
+    {
+      "id": "mediterranean-sun",
+      "emoji": "🌶️",
+      "name_de": "Mediterrane Sonne",
+      "name_en": "Mediterranean Sun",
+      "description_de": "Tomate und Paprika lieben Hitze, Basilikum hält Weiße Fliege fern, Petersilie lockt Florfliegen. Klassisches Süd-Beet für volle Sonne.",
+      "description_en": "Tomato and pepper love heat, basil deters whitefly, parsley attracts lacewings. Classic south-facing bed for full sun.",
+      "plants": [
+        { "slug": "solanum-lycopersicum", "quantity": 3 },
+        { "slug": "capsicum-annuum", "quantity": 3 },
+        { "slug": "ocimum-basilicum", "quantity": 4 },
+        { "slug": "petroselinum-crispum", "quantity": 3 }
+      ],
+      "total_area_sqm": 2,
+      "difficulty": 1,
+      "function_tags": ["aromatic_repellent", "pest_repellent", "vertical_mid"],
+      "tradition": "Mediterrane Garten-Tradition",
+      "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Adaption)",
+      "tips_de": [
+        "Tomate und Paprika nach den Eisheiligen auspflanzen (Mitte Mai)",
+        "Basilikum erst säen wenn Boden über 15°C — sonst kümmert er",
+        "Petersilie nicht zu nahe an Salat (Wurzel-Konflikt) — am Beet-Rand setzen"
+      ],
+      "tips_en": [
+        "Plant tomato and pepper after last frost (mid-May in temperate zones)",
+        "Sow basil only when soil is above 15°C — it sulks in cold",
+        "Keep parsley away from lettuce (root conflict) — place at bed edge"
+      ]
+    },
+    {
+      "id": "salad-trio",
+      "emoji": "🥬",
+      "name_de": "Salat-Trio",
+      "name_en": "Salad Trio",
+      "description_de": "Radieschen schnellt in 4 Wochen, Salat in 6-8, Pflücksalat liefert kontinuierlich. Klassiker für Schnell-Ernten auf kleinem Raum.",
+      "description_en": "Radishes mature in 4 weeks, head lettuce in 6-8, cut-and-come-again lettuce supplies continuously. Classic for fast harvests in small spaces.",
+      "plants": [
+        { "slug": "lactuca-sativa-capitata", "quantity": 6 },
+        { "slug": "raphanus-sativus-sativus", "quantity": 20 },
+        { "slug": "lactuca-sativa-crispa", "quantity": 6 }
+      ],
+      "total_area_sqm": 1,
+      "difficulty": 1,
+      "function_tags": ["vertical_low", "ground_cover"],
+      "tradition": "Klassische Reihenkultur",
+      "source": "Klassische Mischkultur-Tradition (DACH-Bauernregeln)",
+      "tips_de": [
+        "Radieschen alle 2 Wochen nachsäen für kontinuierliche Ernte",
+        "Pflücksalat nicht ausgeizen — nur äußere Blätter ernten",
+        "Bei Hitze leichte Schattierung — Salat schießt sonst"
+      ],
+      "tips_en": [
+        "Sow radishes every 2 weeks for continuous harvest",
+        "Don't pull cut-and-come-again lettuce — only pick outer leaves",
+        "Provide light shade in heat — lettuce bolts otherwise"
+      ]
+    },
+    {
+      "id": "root-protection",
+      "emoji": "🥕",
+      "name_de": "Wurzel-Schutz",
+      "name_en": "Root Protection",
+      "description_de": "Möhrenfliege und Zwiebelfliege hassen sich gegenseitig — Karotte plus Zwiebel/Lauch ist die klassische DACH-Bauernregel gegen Wurzel-Schädlinge.",
+      "description_en": "Carrot fly and onion fly mutually deter each other — carrot plus onion/leek is the classic DACH companion rule against root pests.",
+      "plants": [
+        { "slug": "daucus-carota-sativus", "quantity": 30 },
+        { "slug": "allium-cepa", "quantity": 15 },
+        { "slug": "allium-porrum", "quantity": 8 }
+      ],
+      "total_area_sqm": 1.5,
+      "difficulty": 1,
+      "function_tags": ["pest_repellent", "root_loosener", "aromatic_repellent"],
+      "tradition": "DACH-Bauernregel",
+      "source": "Klassische Mischkultur-Tradition (DACH-Bauernregeln)",
+      "tips_de": [
+        "Karotte und Zwiebel in abwechselnden Reihen — Schädlings-Abwehr nur im direkten Nachbarschaftsabstand",
+        "Lauch früher pflanzen (März) als Karotte (April), beide brauchen lange",
+        "Kein Stickstoff-Dünger — sonst werden Karotten gabelig"
+      ],
+      "tips_en": [
+        "Plant carrot and onion in alternating rows — pest deterrence only works at close range",
+        "Plant leek earlier (March) than carrot (April), both need a long season",
+        "No nitrogen fertiliser — otherwise carrots fork"
+      ]
+    },
+    {
+      "id": "tomato-quartet",
+      "emoji": "🍅",
+      "name_de": "Tomaten-Quartett",
+      "name_en": "Tomato Quartet",
+      "description_de": "Tomate als Mitte, Basilikum gegen Weiße Fliege, Petersilie lockt Florfliegen für Blattlaus-Bekämpfung, Tagetes vertreibt Wurzelnematoden. Vollständiger biologischer Schutz.",
+      "description_en": "Tomato at the centre, basil against whitefly, parsley attracts lacewings to fight aphids, marigold deters root nematodes. Complete biological protection.",
+      "plants": [
+        { "slug": "solanum-lycopersicum", "quantity": 4 },
+        { "slug": "ocimum-basilicum", "quantity": 6 },
+        { "slug": "petroselinum-crispum", "quantity": 4 },
+        { "slug": "tagetes-patula", "quantity": 6 }
+      ],
+      "total_area_sqm": 2,
+      "difficulty": 1,
+      "function_tags": ["pest_repellent", "aromatic_repellent", "pollinator_attractor"],
+      "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Adaption)",
+      "tips_de": [
+        "Tomate ausgeizen und an Stäben aufbinden — sonst Schimmel-Gefahr",
+        "Tagetes am Beet-Rand pflanzen, Wurzeln wirken im 30-cm-Radius",
+        "Basilikum erst säen wenn Boden warm — Tomaten-Schatten hilft im Hochsommer"
+      ],
+      "tips_en": [
+        "Pinch tomato suckers and tie to stakes — otherwise mildew risk",
+        "Plant marigold at bed edge, roots work in 30 cm radius",
+        "Sow basil only when soil is warm — tomato shade helps in midsummer"
+      ]
+    },
+    {
+      "id": "cabbage-protection",
+      "emoji": "🌱",
+      "name_de": "Kohl-Schutz",
+      "name_en": "Cabbage Protection",
+      "description_de": "Sellerie-Duft maskiert Kohl für den Kohlweißling, Tagetes vertreibt Wurzelnematoden. Klassischer DACH-Beet-Schutz gegen die beiden ärgsten Kohl-Feinde.",
+      "description_en": "Celery scent masks cabbage from the cabbage white butterfly, marigold deters root nematodes. Classic DACH bed protection against cabbage's two worst enemies.",
+      "plants": [
+        { "slug": "brassica-oleracea-capitata-alba", "quantity": 6 },
+        { "slug": "apium-graveolens", "quantity": 6 },
+        { "slug": "tagetes-patula", "quantity": 8 }
+      ],
+      "total_area_sqm": 3,
+      "difficulty": 2,
+      "function_tags": ["pest_repellent", "aromatic_repellent"],
+      "tradition": "DACH-Bauernregel",
+      "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Adaption)",
+      "tips_de": [
+        "Kohl ist Starkzehrer — vor Pflanzung Kompost einarbeiten",
+        "Sellerie zwischen Kohlköpfen, Tagetes am Beet-Rand",
+        "Im Frühjahr Kulturschutznetz gegen Kohlfliege bis Pflanzen Faust-dick"
+      ],
+      "tips_en": [
+        "Cabbage is a heavy feeder — work in compost before planting",
+        "Celery between cabbage heads, marigold at bed edge",
+        "In spring use insect netting against cabbage root fly until plants are fist-thick"
+      ]
+    },
+    {
+      "id": "herb-spiral",
+      "emoji": "🌿",
+      "name_de": "Kräuter-Spirale",
+      "name_en": "Herb Spiral",
+      "description_de": "Mediterrane Kräuter mit gleichen Bedürfnissen: viel Sonne, trockener Boden, magere Erde. Lavendel oben, Rosmarin/Salbei in der Mitte, Thymian/Oregano am Fuß.",
+      "description_en": "Mediterranean herbs with shared needs: full sun, dry soil, lean substrate. Lavender at the top, rosemary/sage in the middle, thyme/oregano at the base.",
+      "plants": [
+        { "slug": "lavandula-angustifolia", "quantity": 1 },
+        { "slug": "rosmarinus-officinalis", "quantity": 1 },
+        { "slug": "salvia-officinalis", "quantity": 1 },
+        { "slug": "thymus-vulgaris", "quantity": 2 },
+        { "slug": "origanum-vulgare", "quantity": 2 }
+      ],
+      "total_area_sqm": 1,
+      "difficulty": 2,
+      "function_tags": ["aromatic_repellent", "pollinator_attractor", "medicinal", "microclimate"],
+      "tradition": "Permakultur-Klassiker (Mollison)",
+      "source": "Bill Mollison, Permaculture: A Designers' Manual (1988, eigene Adaption)",
+      "tips_de": [
+        "Spirale mit Steinen aufbauen — Steine speichern Wärme (Holzer-Prinzip)",
+        "Drainage-Schicht aus Schotter unter der Erde — Mediterrane Kräuter hassen Staunässe",
+        "Nicht düngen — magere Erde gibt mehr Aroma"
+      ],
+      "tips_en": [
+        "Build the spiral with stones — stones store heat (Holzer principle)",
+        "Gravel drainage layer beneath soil — Mediterranean herbs hate waterlogging",
+        "Do not fertilise — lean soil gives more aroma"
+      ]
+    },
+    {
+      "id": "insect-magnet",
+      "emoji": "🌻",
+      "name_de": "Insekten-Magnet",
+      "name_en": "Insect Magnet",
+      "description_de": "Borretsch, Kapuzinerkresse, Ringelblume und Tagetes ziehen Bienen, Hummeln und Florfliegen an. Bodengesundheit als Bonus: Tagetes vertreibt Nematoden.",
+      "description_en": "Borage, nasturtium, calendula and marigold attract bees, bumblebees and lacewings. Soil-health bonus: marigold deters nematodes.",
+      "plants": [
+        { "slug": "borago-officinalis", "quantity": 3 },
+        { "slug": "tropaeolum-majus", "quantity": 4 },
+        { "slug": "calendula-officinalis", "quantity": 6 },
+        { "slug": "tagetes-patula", "quantity": 6 }
+      ],
+      "total_area_sqm": 1.5,
+      "difficulty": 1,
+      "function_tags": ["pollinator_attractor", "pest_repellent", "edible_flower"],
+      "source": "Sepp Holzer, Sepp Holzers Permakultur (2004, eigene Adaption)",
+      "tips_de": [
+        "Alle vier sind essbar — Blüten in Salate, Borretsch ins Wasserglas",
+        "Borretsch versamt sich stark — Samenstände vor Reife abschneiden wenn gewünscht",
+        "Ringelblume blüht bis zum Frost wenn man Verblühtes ausputzt"
+      ],
+      "tips_en": [
+        "All four are edible — flowers in salads, borage in water glasses",
+        "Borage self-seeds heavily — cut seed heads before ripening if undesired",
+        "Calendula blooms until frost if you deadhead spent flowers"
+      ]
+    },
+    {
+      "id": "cucumber-crew",
+      "emoji": "🥒",
+      "name_de": "Gurken-Crew",
+      "name_en": "Cucumber Crew",
+      "description_de": "Dill als Klassiker zur Gurke (im Beet wie im Einlegeglas), Buschbohne fixiert Stickstoff. Schützt vor Gurken-Gelb und liefert die Bohnen-Beilage gleich mit.",
+      "description_en": "Dill as classic cucumber companion (in the bed as in the pickle jar), bush bean fixes nitrogen. Protects against cucumber mosaic and grows the bean side dish at the same time.",
+      "plants": [
+        { "slug": "cucumis-sativus", "quantity": 4 },
+        { "slug": "anethum-graveolens", "quantity": 6 },
+        { "slug": "phaseolus-vulgaris-nanus", "quantity": 10 }
+      ],
+      "total_area_sqm": 2.5,
+      "difficulty": 1,
+      "function_tags": ["nitrogen_fixer", "pollinator_attractor", "ground_cover"],
+      "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Adaption)",
+      "tips_de": [
+        "Gurke an Spalier ziehen — spart Platz und verbessert Luft-Zirkulation",
+        "Bohnen NICHT zu nah an Zwiebel/Lauch (falls vorhanden) — Wachstumshemmung",
+        "Dill blüht — wenn Samen gewünscht stehen lassen, sonst Schnitt verlängert Blatt-Ernte"
+      ],
+      "tips_en": [
+        "Train cucumber up a trellis — saves space and improves air circulation",
+        "Beans NOT close to onion/leek (if present in nearby bed) — growth inhibition",
+        "Dill bolts — leave standing if seeds wanted, otherwise cutting prolongs leaf harvest"
+      ]
+    },
+    {
+      "id": "maikels-stacking",
+      "emoji": "🌶️",
+      "name_de": "Maikels Höhenstaffelung",
+      "name_en": "Maikel's Vertical Stacking",
+      "description_de": "Mais am Nordrand als lebender Windschutz, Paprika in voller Süd-Sonne davor, Kapuzinerkresse als Bodendecker und Blattlaus-Ablenker dazwischen. Drei Schichten — eins, zwei, drei.",
+      "description_en": "Maize at the northern edge as living windbreak, pepper in full southern sun in front, nasturtium as ground cover and aphid distraction between. Three layers — one, two, three.",
+      "plants": [
+        { "slug": "zea-mays", "quantity": 4 },
+        { "slug": "capsicum-annuum", "quantity": 3 },
+        { "slug": "tropaeolum-majus", "quantity": 4 }
+      ],
+      "total_area_sqm": 2,
+      "difficulty": 2,
+      "function_tags": ["vertical_high", "vertical_mid", "ground_cover", "microclimate"],
+      "tradition": "Permakultur-Schichtung (Hemenway)",
+      "source": "Toby Hemenway, Gaia's Garden (2009, eigene Adaption)",
+      "tips_de": [
+        "Mais-Reihe an der Nord-Seite — wirft Schatten weg von der Paprika",
+        "Paprika erst nach den Eisheiligen — mag Boden über 15°C",
+        "Kapuzinerkresse zieht Blattläuse zu sich — bei starkem Befall einzelne Blätter abreißen"
+      ],
+      "tips_en": [
+        "Maize row on the northern side — casts shadows away from the pepper",
+        "Plant pepper only after last frost — likes soil above 15°C",
+        "Nasturtium attracts aphids — in heavy infestation pick off individual leaves"
+      ]
+    },
+    {
+      "id": "fast-harvest",
+      "emoji": "🥗",
+      "name_de": "Schnell-Ernte-Beet",
+      "name_en": "Fast-Harvest Bed",
+      "description_de": "Radieschen in 4 Wochen, Rucola in 5, Pflücksalat in 6 — innerhalb von 6 Wochen täglich frischer Salat. Anfänger-tauglich, fehler-verzeihend, hochmotivierend.",
+      "description_en": "Radishes in 4 weeks, rocket in 5, cut-and-come-again lettuce in 6 — daily fresh salad within 6 weeks. Beginner-friendly, forgiving, highly motivating.",
+      "plants": [
+        { "slug": "raphanus-sativus-sativus", "quantity": 20 },
+        { "slug": "lactuca-sativa-crispa", "quantity": 6 },
+        { "slug": "spinacia-oleracea", "quantity": 10 },
+        { "slug": "eruca-sativa", "quantity": 15 }
+      ],
+      "total_area_sqm": 1,
+      "difficulty": 1,
+      "function_tags": ["vertical_low", "ground_cover"],
+      "source": "Klassische Mischkultur-Tradition (DACH-Bauernregeln)",
+      "tips_de": [
+        "Alle vier mögen Halbschatten im Hochsommer — sonst Schießer",
+        "Alle 14 Tage nachsäen — kontinuierlicher Nachschub statt einer großen Ernte",
+        "Boden feucht halten — Salate sind Flachwurzler"
+      ],
+      "tips_en": [
+        "All four like partial shade in midsummer — otherwise bolting",
+        "Sow every 14 days — continuous supply instead of one big harvest",
+        "Keep soil moist — salads are shallow-rooted"
+      ]
+    },
+    {
+      "id": "comfrey-pool",
+      "emoji": "🌳",
+      "name_de": "Beinwell-Pool",
+      "name_en": "Comfrey Pool",
+      "description_de": "Holzers Nährstoff-Insel: Beinwell-Wurzeln gehen 1.5 m tief und holen Kalium hoch — als Mulch oder Jauche die beste organische Düngung. Brennnessel-Jauche ergänzt mit Stickstoff. Rhabarber-Blätter (Achtung: nicht essen — Oxalsäure!) bedecken den Boden, halten ihn feucht und schattieren. Drei Tiefwurzler-Klassiker, die sich gegenseitig versorgen.",
+      "description_en": "Holzer's nutrient island: comfrey roots reach 1.5 m deep and mine potassium — as mulch or slurry the best organic fertiliser. Nettle slurry adds nitrogen. Rhubarb leaves (do not eat — oxalic acid!) cover the soil, retain moisture and shade. Three deep-rooting classics that feed each other.",
+      "plants": [
+        { "slug": "symphytum-officinale", "quantity": 4 },
+        { "slug": "urtica-dioica", "quantity": 6 },
+        { "slug": "rheum-rhabarbarum", "quantity": 1 }
+      ],
+      "total_area_sqm": 2,
+      "difficulty": 2,
+      "function_tags": ["dynamic_accumulator", "root_loosener", "medicinal"],
+      "tradition": "Sepp-Holzer-Permakultur",
+      "source": "Sepp Holzer, Sepp Holzers Permakultur (2004, eigene Adaption)",
+      "tips_de": [
+        "Beinwell pro Saison 4-6× schneiden, frische Blätter als Mulch um Tomaten/Kartoffeln legen",
+        "Brennnessel ist Schmetterlings-Raupen-Wirt — eine Ecke wild lassen",
+        "Beinwell-Wurzel niemals zerteilen wenn man ihn loswerden will — er wächst aus jedem Stück",
+        "Rhabarber: NUR Stiele ernten, NIE Blätter essen (Oxalsäure-Vergiftung). Rhabarber-Blätter NICHT als Mulch im Gemüsebeet verwenden — Oxalsäure schadet jungen Pflanzen"
+      ],
+      "tips_en": [
+        "Cut comfrey 4-6 times per season, lay fresh leaves as mulch around tomatoes/potatoes",
+        "Nettle hosts butterfly caterpillars — leave one corner wild",
+        "Never chop comfrey root if you want to remove it — it regrows from every fragment",
+        "Rhubarb: harvest ONLY the stalks, NEVER eat the leaves (oxalic acid poisoning). Do NOT use rhubarb leaves as mulch on vegetable beds — oxalic acid harms young plants"
+      ]
+    },
+    {
+      "id": "strawberry-alliance",
+      "emoji": "🍓",
+      "name_de": "Erdbeer-Allianz",
+      "name_en": "Strawberry Alliance",
+      "description_de": "Knoblauch hält Grauschimmel und Erdbeer-Pilze fern, Borretsch zieht Bestäuber zu den Blüten, Spinat als Bodendecker liefert Stickstoff. Klassische Selbstversorger-Allianz.",
+      "description_en": "Garlic deters grey mould and strawberry fungi, borage attracts pollinators to the blossoms, spinach as ground cover provides nitrogen. Classic self-sufficient alliance.",
+      "plants": [
+        { "slug": "fragaria-vesca", "quantity": 12 },
+        { "slug": "allium-sativum", "quantity": 8 },
+        { "slug": "borago-officinalis", "quantity": 2 },
+        { "slug": "spinacia-oleracea", "quantity": 8 }
+      ],
+      "total_area_sqm": 1.5,
+      "difficulty": 1,
+      "function_tags": ["ground_cover", "pollinator_attractor", "pest_repellent"],
+      "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Adaption)",
+      "tips_de": [
+        "Knoblauchzehen im Herbst zwischen Erdbeer-Reihen stecken",
+        "Borretsch versamt sich — eine Pflanze pro Jahr reicht für 5 Sämlinge im Folgejahr",
+        "Spinat als Vorkultur im März, dann zwischen Erdbeeren bis zur Fruchtbildung"
+      ],
+      "tips_en": [
+        "Plant garlic cloves in autumn between strawberry rows",
+        "Borage self-seeds — one plant per year produces 5 seedlings next year",
+        "Spinach as pre-crop in March, then between strawberries until fruit set"
+      ]
+    },
+    {
+      "id": "nitrogen-booster",
+      "emoji": "🌿",
+      "name_de": "Stickstoff-Booster",
+      "name_en": "Nitrogen Booster",
+      "description_de": "Buschbohne und Erbse fixieren Stickstoff aus der Luft (Wurzelknöllchen-Symbiose), Tagetes vertreibt Wurzelnematoden. Im Folgejahr profitieren Starkzehrer (Kohl, Tomate) auf demselben Beet.",
+      "description_en": "Bush bean and pea fix atmospheric nitrogen (root-nodule symbiosis), marigold deters root nematodes. Heavy feeders (cabbage, tomato) profit on the same bed the following year.",
+      "plants": [
+        { "slug": "phaseolus-vulgaris-nanus", "quantity": 15 },
+        { "slug": "pisum-sativum-sativum", "quantity": 20 },
+        { "slug": "tagetes-patula", "quantity": 6 }
+      ],
+      "total_area_sqm": 1.5,
+      "difficulty": 1,
+      "function_tags": ["nitrogen_fixer", "pest_repellent", "ground_cover"],
+      "tradition": "Klassische Fruchtfolge-Vorkultur",
+      "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Adaption)",
+      "tips_de": [
+        "Erbse früh säen (März), Buschbohne nach den Eisheiligen (Mai)",
+        "Nach der Ernte Wurzeln im Boden lassen — die Stickstoff-Knöllchen sind das Geschenk an die Folgekultur",
+        "Tagetes bis zum Frost stehenlassen — Wurzeln wirken auch noch beim Vergehen"
+      ],
+      "tips_en": [
+        "Sow peas early (March), bush beans after last frost (May)",
+        "After harvest leave roots in the soil — the nitrogen nodules are the gift to the next crop",
+        "Leave marigolds until frost — roots keep working even as they decay"
+      ]
+    },
+    {
+      "id": "balcony-mix",
+      "emoji": "🪴",
+      "name_de": "Balkon-Mix",
+      "name_en": "Balcony Mix",
+      "description_de": "Eine Tomate als Star, Basilikum direkt am Stiel gegen Weiße Fliege, Schnittlauch als Aphiden-Abwehr und Bienen-Magnet, Petersilie als Nützlings-Lockstoff, Erdbeere als Bodendecker. Passt in einen 80 cm Balkonkasten oder ein kleines Hochbeet.",
+      "description_en": "One tomato as the star, basil right at the stem against whitefly, chives as aphid repellent and bee magnet, parsley as beneficial-insect lure, strawberry as ground cover. Fits in an 80 cm balcony box or small raised bed.",
+      "plants": [
+        { "slug": "solanum-lycopersicum", "quantity": 1 },
+        { "slug": "ocimum-basilicum", "quantity": 2 },
+        { "slug": "allium-schoenoprasum", "quantity": 3 },
+        { "slug": "petroselinum-crispum", "quantity": 1 },
+        { "slug": "fragaria-vesca", "quantity": 3 }
+      ],
+      "total_area_sqm": 0.5,
+      "difficulty": 1,
+      "function_tags": ["aromatic_repellent", "pollinator_attractor", "ground_cover", "pest_repellent"],
+      "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Adaption)",
+      "tips_de": [
+        "Mindestens 40 cm Erdtiefe für die Tomate — sonst Wurzel-Problem",
+        "Täglich gießen im Sommer, Balkon trocknet schneller als Beet",
+        "Tomate windgeschützt aufstellen — Stiele brechen sonst bei Sturm",
+        "Schnittlauch im Frühjahr stark zurückschneiden für frische Röhrenblätter, lila Blüten essbar in Salat"
+      ],
+      "tips_en": [
+        "At least 40 cm soil depth for the tomato — otherwise root problems",
+        "Water daily in summer, balcony dries faster than a bed",
+        "Place tomato in a wind-sheltered spot — stems otherwise snap in storms",
+        "Cut chives back hard in spring for fresh tubular leaves, purple flowers edible in salad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "slug": "galium-aparine",
+  "names": {
+    "de": "Kletten-Labkraut",
+    "en": "Galium aparine",
+    "latin": "Galium aparine"
+  },
+  "family": {
+    "de": "Rötegewächse",
+    "en": "Madder family",
+    "latin": "Rubiaceae"
+  },
+  "description": {
+    "de": "Das Kletten-Labkraut, auch Klebkraut, ist eine Pflanzenart aus der Gattung der Labkräuter (Galium) innerhalb der Familie der Rötegewächse (Rubiaceae). Sie ist ein wirtschaftlich bedeutendes Ackerunkraut, wächst aber auch in Hecken, Säumen und in Wäldern. Dieser Spreizklimmer klimmt mit seinen Borstenhaaren an anderen Pflanzen empor.",
+    "en": "Galium aparine, with common names including cleavers, clivers, catchweed, robin-run-the-hedge, goosegrass, and sticky willy, is an annual, herbaceous plant of the family Rubiaceae."
+  },
+  "teaser": {
+    "de": "Das Kletten-Labkraut, auch Klebkraut, ist eine Pflanzenart aus der Gattung der Labkräuter (Galium) innerhalb der Fami...",
+    "en": "Galium aparine, with common names including cleavers, clivers, catchweed, robin-run-the-hedge, goosegrass, and sticky..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "lymph",
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Ein Aufguss aus dem frischen oder getrockneten Kraut wird traditionell als harntreibendes und lymphstimulierendes Mittel eingesetzt. In der europäischen Volksheilkunde galt das Kletten-Labkraut als Frühjahrskur zur Unterstützung der Ausscheidungsorgane.",
+        "en": "An infusion of fresh or dried herb is traditionally used as a diuretic and lymph-supporting remedy. In European folk medicine, cleavers was regarded as a spring tonic to support the excretory organs."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3
+      },
+      "source_ids": [
+        "src_wp_de_galium",
+        "src_wp_en_galium",
+        "src_pfaf_galium"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frischer Pflanzensaft oder ein Breiumschlag aus dem gequetschten Kraut wurde traditionell auf Wunden, leichte Verbrennungen und Hautentzündungen aufgelegt. In-vitro-Studien zeigen eine verbesserte Zellmigration in Wundheilungsassays.",
+        "en": "Fresh plant juice or a poultice of the bruised herb was traditionally applied to wounds, minor burns, and skin inflammations. In vitro studies show enhanced cell migration in wound-healing assays."
+      },
+      "preparation": {
+        "de": "Frisches Kraut zerquetschen und direkt auflegen, oder Saft auspressen und auf die betroffene Stelle tupfen.",
+        "en": "Bruise fresh herb and apply directly, or press out juice and dab onto affected area."
+      },
+      "source_ids": [
+        "src_pmc_galium_wound",
+        "src_pfaf_galium"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Traditionell wurde eine salbenartige Zubereitung aus frischem Pflanzensaft und Butter bei Verbrühungen, Schwellungen und Hautausschlägen verwendet. Die Volksmedizin setzt dies auch bei Ekzem und Psoriasis ein.",
+        "en": "Traditionally, an ointment-like preparation of fresh plant juice and butter was used for scalds, swellings, and skin rashes. Folk medicine also employs it for eczema and psoriasis."
+      },
+      "preparation": {
+        "de": "Frischen Saft mit Butter verrühren und auf die betroffene Stelle auftragen.",
+        "en": "Mix fresh juice with butter and apply to affected area."
+      },
+      "source_ids": [
+        "src_pfaf_galium",
+        "src_wp_en_galium"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "fever",
+        "skin"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Als schweißtreibendes (diaphoretisches) Mittel wurde Kletten-Labkraut-Tee bei Fieber eingesetzt. Plinius der Ältere erwähnte die Pflanze bereits gegen Fieberzustände und Hautleiden.",
+        "en": "As a diaphoretic, cleavers tea was used in fever conditions. Pliny the Elder already mentioned the plant against fever states and skin ailments."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2
+      },
+      "source_ids": [
+        "src_wp_de_galium",
+        "src_pfaf_galium"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Die jungen Triebe können im Frühjahr als Blattgemüse gekocht werden, sofern sie vor der Fruchtreife geerntet werden. Die getrockneten und gerösteten Früchte dienten als koffeinarmer Kaffeeersatz.",
+        "en": "Young shoots can be cooked as a leaf vegetable in spring, if harvested before the fruits harden. Dried and roasted fruits have been used as a low-caffeine coffee substitute."
+      },
+      "source_ids": [
+        "src_wp_en_galium"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "lymph",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Ethanolische Extrakte des Kletten-Labkrauts zeigten in vitro immunmodulatorische Wirkungen durch Stimulation der Lymphozytenproliferation. In der Naturheilkunde wird die Tinktur traditionell bei geschwollenen Lymphknoten eingesetzt.",
+        "en": "Ethanolic extracts of cleavers showed immunomodulatory effects in vitro by stimulating lymphocyte proliferation. In naturopathy, the tincture is traditionally used for swollen lymph nodes."
+      },
+      "source_ids": [
+        "src_pmc_galium_immuno"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Frischer Pflanzensaft kann bei empfindlichen Personen Kontaktdermatitis auslösen. Bei länger anhaltenden Beschwerden oder bekannter Pflanzensaft-Allergie von der äußerlichen Anwendung absehen. Interne Langzeitanwendung nicht ausreichend untersucht.",
+      "en": "Fresh plant juice may cause contact dermatitis in sensitive individuals. Avoid topical use with persistent complaints or known plant-juice allergy. Long-term internal use not sufficiently studied."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Sicherheitsdaten für Schwangerschaft vorhanden; traditionell gemieden.",
+        "en": "Insufficient safety data for pregnancy; traditionally avoided."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten vorhanden; sicherheitshalber meiden.",
+        "en": "No data available; avoid as a precaution."
+      }
+    },
+    "children": {
+      "status": "unknown",
+      "note": {
+        "de": "Für Kinder nicht ausreichend untersucht; kulinarische Nutzung in kleinen Mengen gilt als unbedenklich.",
+        "en": "Not sufficiently studied in children; culinary use in small amounts is generally considered safe."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Pflanzen der Familie Rubiaceae.",
+        "en": "Known hypersensitivity to plants of the family Rubiaceae."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Kletten-Labkraut (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Kletten-Labkraut",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Galium aparine (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Galium_aparine",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_de_galium",
+      "type": "wikipedia",
+      "title": "Kletten-Labkraut (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Kletten-Labkraut",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wp_en_galium",
+      "type": "wikipedia",
+      "title": "Galium aparine (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Galium_aparine",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_galium",
+      "type": "monograph",
+      "title": "Galium aparine — Plants For A Future (PFAF)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Galium+aparine",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_galium_immuno",
+      "type": "monograph",
+      "title": "Phytochemical Profiles and In Vitro Immunomodulatory Activity of Ethanolic Extracts from Galium aparine L. — Plants 2019",
+      "url": "https://doi.org/10.3390/plants8120541",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_galium_wound",
+      "type": "monograph",
+      "title": "Bringing back Galium aparine L. from forgotten corners of traditional wound treatment procedures — BMC Complement. Med. Ther. 2024",
+      "url": "https://doi.org/10.1186/s12906-024-04355-y",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "galium-aparine.jpg",
+    "alt": {
+      "de": "Foto von Kletten-Labkraut",
+      "en": "Photo of Galium aparine"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Galium_aparine01.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Asperulosid",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "percent_range": "0.05-0.2 %",
+      "note": {
+        "de": "Iridoid-Glykosid; charakteristischer Leitinhaltsstoff der Galium-Gattung; in vitro in Prostaglandin-Vorstufen umwandelbar.",
+        "en": "Iridoid glycoside; characteristic marker compound of the Galium genus; convertible in vitro to prostaglandin precursors."
+      }
+    },
+    {
+      "name": "Chlorogensäure",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "percent_range": "bis 0.4 % (in 96-%-Ethanol-Extrakt)",
+      "note": {
+        "de": "Hydroxyzimtsäure-Derivat; antioxidative und antimikrobielle Eigenschaften; quantitativ bedeutendste phenolische Säure im ethanolischen Extrakt.",
+        "en": "Hydroxycinnamic acid derivative; antioxidant and antimicrobial properties; quantitatively the most prominent phenolic acid in ethanolic extract."
+      }
+    },
+    {
+      "name": "Rutin",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Quercetin-3-O-rutinosid; gefäßschützend und antioxidativ.",
+        "en": "Quercetin-3-O-rutinoside; vascular-protective and antioxidant."
+      }
+    },
+    {
+      "name": "Quercetin-Glykoside",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Mehrere Quercetin-Derivate, darunter ein neu beschriebenes Quercetin-3-O-rhamnoglucosid-7-O-glucosid; antioxidativ und entzündungsmodulierend.",
+        "en": "Multiple quercetin derivatives including a newly described quercetin-3-O-rhamnoglucoside-7-O-glucoside; antioxidant and inflammation-modulating."
+      }
+    },
+    {
+      "name": "Gallotannine und Ellagitannine",
+      "category": "tannin",
+      "plant_part": "aerial_parts",
+      "percent_range": "2-5 %",
+      "note": {
+        "de": "Hydrolysierbare Gerbstoffe; verantwortlich für die adstringierende und antimikrobielle Wirkung.",
+        "en": "Hydrolysable tannins; responsible for astringent and antimicrobial effects."
+      }
+    },
+    {
+      "name": "Iridoid-Säuren (Monotropein, Asperulosidsäure)",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Weitere Iridoid-Verbindungen neben Asperulosid; beitragend zur Bitterkeit und biologischen Aktivität.",
+        "en": "Additional iridoid compounds alongside asperuloside; contributing to bitterness and biological activity."
+      }
+    },
+    {
+      "name": "Saponine",
+      "category": "saponin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Oberflächenaktive Verbindungen; beitragend zur schaumbildenden Eigenschaft wässriger Extrakte.",
+        "en": "Surface-active compounds; contributing to the foaming property of aqueous extracts."
+      }
+    },
+    {
+      "name": "Kaffeesäure-Derivate",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Dicaffeoylchinasäuren und weitere Kaffeesäure-Ester; antioxidativ und antimikrobiell.",
+        "en": "Dicaffeoylquinic acids and further caffeic acid esters; antioxidant and antimicrobial."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Vormittags nach dem Abtrocknen des Taus ernten.",
+        "en": "Harvest in the morning after the dew has dried."
+      },
+      "drying": {
+        "de": "Lufttrocknen bei max. 40 °C, in dünnen Schichten; Kraut verliert beim Trocknen stark an Volumen.",
+        "en": "Air-dry at max. 40 °C in thin layers; the herb loses significant volume when drying."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, dunkel und luftdicht in Papier- oder Leinenbeuteln lagern.",
+        "en": "Store dry, dark, and airtight in paper or linen bags."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Früchte bei Reife sammeln, bevor sie vollständig hart werden.",
+        "en": "Collect fruits at ripeness, before they become fully hard."
+      },
+      "drying": {
+        "de": "Bei 50 °C rösten für Kaffeeersatz; alternativ an der Luft trocknen.",
+        "en": "Roast at 50 °C for coffee substitute; alternatively air-dry."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Kühl und trocken in verschlossenen Behältern.",
+        "en": "Cool and dry in sealed containers."
+      }
+    }
+  ]
+}

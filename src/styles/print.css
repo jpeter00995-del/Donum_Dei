@@ -1,0 +1,109 @@
+/* === Print stylesheet — Donum Dei v1.0 ===
+ * Used by the Mein-Garten / My-Garden plan page (window.print()).
+ * Goals:
+ *   - A4 layout, black-on-white, readable Serif headings
+ *   - Hide nav, footer disclaimer, buttons, language toggle, links
+ *   - Keep plan cards intact across page breaks
+ *   - Print plant title, quantity, sowing notes; drop images for ink saving
+ *
+ * Browser-native PDF: no library, simple "Save as PDF" works in Chrome/
+ * Firefox/Safari. (Browser-natives PDF, keine externe Bibliothek.)
+ */
+
+@media print {
+  @page {
+    size: A4;
+    margin: 1.5cm;
+  }
+
+  /* === 1. Globale Resets === */
+  html, body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt !important;
+    -webkit-print-color-adjust: economy;
+    print-color-adjust: economy;
+  }
+
+  /* === 2. Hide non-content chrome === */
+  header,
+  nav,
+  footer,
+  .no-print,
+  [role="navigation"],
+  [data-print-hide],
+  button {
+    display: none !important;
+  }
+
+  /* === 3. Layout-Container so darstellen, dass alles in den Druck passt === */
+  .print-area,
+  main {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* === 4. Typografie === */
+  h1, h2, h3 {
+    color: black !important;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+  h1 { font-size: 22pt !important; }
+  h2 { font-size: 14pt !important; margin-top: 1em !important; border-bottom: 1px solid #000 !important; }
+  h3 { font-size: 12pt !important; }
+
+  a {
+    color: black !important;
+    text-decoration: none !important;
+  }
+
+  /* === 5. Plan-Cards: kompakt, kein page-break mittendrin === */
+  .plan-card {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    border: 1px solid #999 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: white !important;
+    padding: 0 !important;
+    margin-bottom: 0.4cm !important;
+  }
+  /* Bilder im Druck verstecken — Druckkosten + Tinte sparen */
+  .plan-card img {
+    display: none !important;
+  }
+  .plan-card .aspect-\[4\/3\] {
+    display: none !important;
+  }
+
+  /* === 6. Header-Info als Druck-Brief-Kopf === */
+  body::before {
+    content: "Donum Dei — Garten-Plan";
+    display: block;
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-size: 18pt;
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+    margin-bottom: 0.5cm;
+    padding-bottom: 0.2cm;
+  }
+
+  /* === 7. Grid -> Single column / two columns für mehr Inhalt pro Seite === */
+  .grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0.4cm !important;
+  }
+}
+
+/* === Screen utility: same class hides on screen when needed ===
+ * Anything carrying class="no-print" stays visible on screen but disappears
+ * in print. Nothing extra needed here, but keep a placeholder so the file
+ * works on its own.
+ */
+.print-area {
+  /* No-op on screen. */
+}

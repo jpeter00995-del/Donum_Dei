@@ -1,0 +1,487 @@
+{
+  "slug": "atropa-belladonna",
+  "names": {
+    "de": "Schwarze Tollkirsche",
+    "en": "Atropa bella-donna",
+    "latin": "Atropa belladonna"
+  },
+  "family": {
+    "de": "Nachtschattengewächse",
+    "en": "Nightshade family",
+    "latin": "Solanaceae"
+  },
+  "description": {
+    "de": "Die Schwarze Tollkirsche oder kurz Tollkirsche, auch Waldnachtschatten genannt, ist eine giftige Pflanzenart mit meist schwarzen, kirschfruchtähnlichen Beerenfrüchten aus der Familie der Nachtschattengewächse (Solanaceae). Der Gattungsname Atropa entspringt der griechischen Mythologie. Die griechische Göttin Atropos gehört zu den drei Schicksalsgöttinnen und ist diejenige, die den Lebensfaden durchschneidet.",
+    "en": "Atropa bella-donna, commonly known as deadly nightshade or belladonna, is a toxic perennial herbaceous plant in the nightshade family Solanaceae, which also includes tomatoes, potatoes and eggplant. It is native to Europe and Western Asia, including Turkey, its distribution extending from England in the west to western Ukraine and the Iranian province of Gilan in the east. It is also naturalised or introduced in some parts of Canada, North Africa and the United States."
+  },
+  "teaser": {
+    "de": "Die Schwarze Tollkirsche oder kurz Tollkirsche, auch Waldnachtschatten genannt, ist eine giftige Pflanzenart mit meis...",
+    "en": "Atropa bella-donna, commonly known as deadly nightshade or belladonna, is a toxic perennial herbaceous plant in the n..."
+  },
+  "uses": [
+    {
+      "id": "use-ab-01",
+      "target": [
+        "circulation",
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Historische pharmazeutische Verwendung atropinhaltiger Belladonna-Tinktur als Antispasmodikum bei Magen-Darm-Koliken und Gallenwegsspasmen. Nur unter ärztlicher Aufsicht angewendet — heute weitgehend durch synthetische Anticholinergika ersetzt.",
+        "en": "Historical pharmaceutical use of atropine-containing belladonna tincture as antispasmodic for gastrointestinal colic and biliary spasms. Applied under medical supervision only — largely replaced today by synthetic anticholinergics."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "45% ethanol"
+      },
+      "source_ids": [
+        "src-ab-wiki-en",
+        "src-ab-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ab-02",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Einsatz von Belladonna-Extrakten in der frühen Parkinson-Therapie zur Linderung von Tremor und Muskelrigidität durch anticholinerge Wirkung. Historisch vor der Einführung von L-Dopa gebräuchlich.",
+        "en": "Use of belladonna extracts in early Parkinson's therapy to alleviate tremor and muscle rigidity through anticholinergic action. Historically common before the introduction of L-dopa."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "45% ethanol"
+      },
+      "source_ids": [
+        "src-ab-wiki-en",
+        "src-ab-wiki-atropine"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ab-03",
+      "target": [
+        "nervous_system",
+        "circulation"
+      ],
+      "form": "tincture",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Atropin aus Belladonna als Antidot bei Organophosphat- und Carbamatvergiftungen (Pestizide, Nervenkampfstoffe). Diese lebensrettende Anwendung ist heute standardisiert und ausschliesslich medizinisch indiziert.",
+        "en": "Atropine from belladonna as antidote for organophosphate and carbamate poisoning (pesticides, nerve agents). This life-saving application is now standardized and exclusively medically indicated."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "45% ethanol"
+      },
+      "source_ids": [
+        "src-ab-wiki-atropine",
+        "src-ab-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ab-04",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Historische Prämedikation vor Operationen: Belladonna-Alkaloide (Atropin, Scopolamin) reduzierten Speichelfluss und Bronchialsekret sowie verhinderten Vagus-bedingte Bradykardie. Heute durch reine Atropin- oder Glycopyrrolat-Injektionen ersetzt.",
+        "en": "Historical premedication before surgery: belladonna alkaloids (atropine, scopolamine) reduced salivation and bronchial secretion and prevented vagally-induced bradycardia. Today replaced by pure atropine or glycopyrrolate injections."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "45% ethanol"
+      },
+      "source_ids": [
+        "src-ab-wiki-atropine",
+        "src-ab-wiki-scopolamine"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ab-05",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Anwendung von Belladonna-Blättern als Rauchkraut bei Asthma bronchiale (Stramoniumzigaretten). Historisch verbreitet, heute wegen Toxizität und fehlender Evidenz obsolet.",
+        "en": "Folk medicinal use of belladonna leaves as smoking herb for bronchial asthma (stramonium cigarettes). Historically widespread, now obsolete due to toxicity and lack of evidence."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "45% ethanol"
+      },
+      "source_ids": [
+        "src-ab-pfaf",
+        "src-ab-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ab-06",
+      "target": [
+        "nervous_system",
+        "fever"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Verwendung von Belladonna (D6–D30) bei fieberhaften Entzündungen mit Röte, Hitze und Delirium. Rein homöopathische Verdünnungsstufen enthalten keine pharmakologisch wirksamen Alkaloidmengen.",
+        "en": "Homeopathic use of Belladonna (D6–D30) for febrile inflammations with redness, heat and delirium. Pure homeopathic dilution levels contain no pharmacologically active alkaloid amounts."
+      },
+      "preparation": {
+        "ratio": "1:100",
+        "solvent": "45% ethanol"
+      },
+      "source_ids": [
+        "src-ab-wiki-en",
+        "src-ab-wikidata"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ab-07",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische Verwendung von Belladonna-Extrakt in der Ophthalmologie zur Pupillenerweiterung (Mydriasis) für Augenuntersuchungen und kosmetische Zwecke (Renaissance-Schönheitspflege). Heute durch synthetische Mydriatika ersetzt.",
+        "en": "Historical use of belladonna extract in ophthalmology for pupil dilation (mydriasis) for eye examinations and cosmetic purposes (Renaissance beauty care). Today replaced by synthetic mydriatics."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "45% ethanol"
+      },
+      "source_ids": [
+        "src-ab-wiki-en",
+        "src-ab-pfaf"
+      ],
+      "internal_external": "internal"
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Blätter und Wurzeln",
+      "en": "leaves and roots"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "GIFTIG — GESAMTE PFLANZE. Atropa belladonna ist eine der giftigsten Pflanzen Europas. Alle Pflanzenteile enthalten toxische Tropanalkaloide (Atropin, Scopolamin, Hyoscyamin). Die schwarzen Beeren sind süsslich und besonders für Kinder attraktiv und gefährlich. Symptome einer Vergiftung: Mundtrockenheit, Tachykardie, weite Pupillen, Hautrötung, Fieber, Halluzinationen, Krampfanfälle, Koma. Bei Vergiftungsverdacht: SOFORT Notruf (112) und Giftnotruf. Keine Selbstmedikation. Keine Laienverwendung. Nur unter ärztlicher Kontrolle in der Phytotherapie (heute obsolet).",
+      "en": "TOXIC — ENTIRE PLANT. Atropa belladonna is one of the most poisonous plants in Europe. All plant parts contain toxic tropane alkaloids (atropine, scopolamine, hyoscyamine). The black berries are sweet and particularly attractive and dangerous for children. Symptoms of poisoning: dry mouth, tachycardia, dilated pupils, skin flushing, fever, hallucinations, seizures, coma. In case of suspected poisoning: IMMEDIATELY call emergency services and poison control. No self-medication. No lay use. Only under medical supervision in phytotherapy (now obsolete)."
+    },
+    "external_only": true,
+    "toxicity_level": "toxic",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Belladonna-Alkaloide (Atropin, Scopolamin) passieren die Plazentaschranke und können fetale Tachykardie sowie ZNS-Schäden verursachen. Jede Anwendung in der Schwangerschaft ist kontraindiziert.",
+        "en": "Belladonna alkaloids (atropine, scopolamine) cross the placental barrier and can cause fetal tachycardia and CNS damage. Any application during pregnancy is contraindicated."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Atropin tritt in die Muttermilch über und kann beim Säugling anticholinerge Effekte (Tachykardie, Mundtrockenheit, Fieber) auslösen. Stillzeit: streng kontraindiziert.",
+        "en": "Atropine passes into breast milk and can trigger anticholinergic effects (tachycardia, dry mouth, fever) in the infant. Breastfeeding: strictly contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder reagieren extrem empfindlich auf Belladonna-Alkaloide. Bereits wenige Beeren können tödlich sein. Kein Einsatz bei Kindern und Jugendlichen unter 18 Jahren. Vergiftungsrisiko durch attraktive schwarze Beeren besonders hoch.",
+        "en": "Children are extremely sensitive to belladonna alkaloids. Even a few berries can be fatal. No use in children and adolescents under 18 years. Poisoning risk through attractive black berries is particularly high."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Engwinkelglaukom (erhöhter Augeninnendruck) — Atropin verstärkt den Zustand gefährlich",
+        "en": "Narrow-angle glaucoma (increased intraocular pressure) — atropine dangerously worsens the condition"
+      },
+      {
+        "de": "Benigne Prostatahyperplasie mit Miktionsstörungen — anticholinerge Harnretention",
+        "en": "Benign prostatic hyperplasia with voiding disorders — anticholinergic urinary retention"
+      },
+      {
+        "de": "Tachyarrhythmien und Vorhofflimmern — Atropin erhöht die Herzfrequenz weiter",
+        "en": "Tachyarrhythmias and atrial fibrillation — atropine further increases heart rate"
+      },
+      {
+        "de": "Mechanischer Ileus und Megakolon — Darmparalyse durch Anticholinergika",
+        "en": "Mechanical ileus and megacolon — intestinal paralysis through anticholinergics"
+      },
+      {
+        "de": "Pylorusstenose — anticholinerge Hemmung der Magenmotilität",
+        "en": "Pyloric stenosis — anticholinergic inhibition of gastric motility"
+      },
+      {
+        "de": "Myasthenia gravis — antagonisiert die neuromuskuläre Übertragung",
+        "en": "Myasthenia gravis — antagonizes neuromuscular transmission"
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (siehe oben)",
+        "en": "Pregnancy and breastfeeding (see above)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Anticholinergika (Tiotropium, Ipratropium, Oxybutynin)",
+        "mechanism": {
+          "de": "Additive anticholinerge Wirkung: verstärkte Mundtrockenheit, Harnretention, Tachykardie, kognitive Beeinträchtigungen bis hin zum zentral-anticholinergen Syndrom.",
+          "en": "Additive anticholinergic effect: enhanced dry mouth, urinary retention, tachycardia, cognitive impairment up to central anticholinergic syndrome."
+        },
+        "severity": "avoid",
+        "source_id": "src-ab-wiki-atropine"
+      },
+      {
+        "drug_class": "Trizyklische Antidepressiva (Amitriptylin, Imipramin)",
+        "mechanism": {
+          "de": "Trizyklika besitzen inhärente anticholinerge Eigenschaften; Kombination mit Belladonna-Alkaloiden potenziert anticholinerge Nebenwirkungen erheblich.",
+          "en": "Tricyclics have inherent anticholinergic properties; combination with belladonna alkaloids substantially potentiates anticholinergic side effects."
+        },
+        "severity": "caution",
+        "source_id": "src-ab-wiki-atropine"
+      },
+      {
+        "drug_class": "MAO-Hemmer (Phenelzin, Tranylcypromin, Selegilin)",
+        "mechanism": {
+          "de": "MAO-Hemmer können die Wirkung und Toxizität von Belladonna-Alkaloiden durch verminderten Abbau verstärken; zentralnervöse Exzitation möglich.",
+          "en": "MAO inhibitors may potentiate the effect and toxicity of belladonna alkaloids through reduced breakdown; central nervous system excitation possible."
+        },
+        "severity": "caution",
+        "source_id": "src-ab-wiki-scopolamine"
+      },
+      {
+        "drug_class": "Antihistaminika der 1. Generation (Diphenhydramin, Promethazin)",
+        "mechanism": {
+          "de": "Viele H1-Antihistaminika der ersten Generation haben anticholinerge Eigenschaften; additive Effekte bei Kombination mit Belladonna-Alkaloiden.",
+          "en": "Many first-generation H1 antihistamines have anticholinergic properties; additive effects when combined with belladonna alkaloids."
+        },
+        "severity": "monitor",
+        "source_id": "src-ab-wiki-atropine"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Schwarze Tollkirsche (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schwarze_Tollkirsche",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Atropa bella-donna (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Atropa_bella-donna",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-ab-wiki-en",
+      "type": "wikipedia",
+      "title": "Atropa belladonna — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Atropa_belladonna",
+      "accessed": "2026-05-24",
+      "language": "en"
+    },
+    {
+      "id": "src-ab-wiki-de",
+      "type": "wikipedia",
+      "title": "Tollkirsche — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Tollkirsche",
+      "accessed": "2026-05-24",
+      "language": "de"
+    },
+    {
+      "id": "src-ab-wiki-atropine",
+      "type": "wikipedia",
+      "title": "Atropine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Atropine",
+      "accessed": "2026-05-24",
+      "language": "en"
+    },
+    {
+      "id": "src-ab-wiki-scopolamine",
+      "type": "wikipedia",
+      "title": "Scopolamine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Scopolamine",
+      "accessed": "2026-05-24",
+      "language": "en"
+    },
+    {
+      "id": "src-ab-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Atropa belladonna",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Atropa+belladonna",
+      "accessed": "2026-05-24",
+      "language": "en"
+    },
+    {
+      "id": "src-ab-wikidata",
+      "type": "wikidata",
+      "title": "Atropa belladonna — Wikidata Q48928",
+      "url": "https://www.wikidata.org/wiki/Q48928",
+      "accessed": "2026-05-24",
+      "language": "en"
+    },
+    {
+      "id": "src-ab-wiki-hyoscyamine",
+      "type": "wikipedia",
+      "title": "Hyoscyamine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Hyoscyamine",
+      "accessed": "2026-05-24",
+      "language": "en"
+    }
+  ],
+  "image": {
+    "filename": "atropa-belladonna.jpg",
+    "alt": {
+      "de": "Foto von Schwarze Tollkirsche",
+      "en": "Photo of Atropa bella-donna"
+    },
+    "license": "Public domain",
+    "author": "User:Kilom691",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Atropa_bella-donna0_clean.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Atropine (dl-Hyoscyamine)",
+      "category": "alkaloid",
+      "percent_range": "0.2-0.6 %",
+      "note": {
+        "de": "Hauptalkaloid der Belladonna-Blätter; racemisches Gemisch aus l- und d-Hyoscyamin; kompetitiver Antagonist an muscarinischen Acetylcholinrezeptoren (M1–M5); mydrias­tisch, antispasmodisch, antisekretorisch.",
+        "en": "Main alkaloid of belladonna leaves; racemic mixture of l- and d-hyoscyamine; competitive antagonist at muscarinic acetylcholine receptors (M1–M5); mydriatic, antispasmodic, antisecretory."
+      }
+    },
+    {
+      "name": "l-Hyoscyamine",
+      "category": "alkaloid",
+      "percent_range": "0.3-0.5 %",
+      "note": {
+        "de": "Biologisch aktives Enantiomer; in frischer Pflanze dominierend vor Atropin (dem Racemat); 2× potenter als Atropin; racemisiert bei Trocknung und Extraktion teilweise zu Atropin.",
+        "en": "Biologically active enantiomer; dominant in fresh plant prior to atropine (the racemate); 2× more potent than atropine; partially racemizes to atropine during drying and extraction."
+      }
+    },
+    {
+      "name": "Scopolamine (Hyoscine)",
+      "category": "alkaloid",
+      "percent_range": "0.06-0.2 %",
+      "note": {
+        "de": "Epoxyd-Derivat des Tropans; stärker sedierend als Atropin; antiemetisch wirksam; überwindet die Blut-Hirn-Schranke effizient; medizinische Nutzung als Reisekrankheitspflaster.",
+        "en": "Epoxide derivative of tropane; more sedating than atropine; antiemetic; efficiently crosses the blood-brain barrier; medical use as motion sickness patch."
+      }
+    },
+    {
+      "name": "Apoatropine",
+      "category": "alkaloid",
+      "percent_range": "< 0.1 %",
+      "note": {
+        "de": "Dehydrierungsprodukt des Atropins; schwächere anticholinerge Aktivität; entsteht bei Erhitzung oder Lagerung des Rohmaterials.",
+        "en": "Dehydration product of atropine; weaker anticholinergic activity; formed during heating or storage of raw material."
+      }
+    },
+    {
+      "name": "Belladonnine",
+      "category": "alkaloid",
+      "percent_range": "< 0.05 %",
+      "note": {
+        "de": "Artefaktalkaloid; entsteht hauptsächlich aus Hyoscyamin durch Dehydratation; pharmakologische Bedeutung gering.",
+        "en": "Artifact alkaloid; formed mainly from hyoscyamine by dehydration; minor pharmacological significance."
+      }
+    },
+    {
+      "name": "Scopoline",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Abbauprodukt des Scopolamins; kaum pharmakologisch aktiv; identifiziert in Wurzel- und Blattextrakten.",
+        "en": "Degradation product of scopolamine; barely pharmacologically active; identified in root and leaf extracts."
+      }
+    },
+    {
+      "name": "Flavonoide (Rutin, Kaempferol-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Antioxidative Begleitsubstanzen; keine primäre Rolle in der Toxikologie; beitragend zu Radikalfangaktivität des Extrakts.",
+        "en": "Antioxidant companion substances; no primary role in toxicology; contributing to radical-scavenging activity of the extract."
+      }
+    },
+    {
+      "name": "Steroidal saponins (Tomatidenol-Glykoside)",
+      "category": "saponin",
+      "percent_range": "< 0.5 %",
+      "note": {
+        "de": "In Beeren und Blättern nachgewiesen; beitragend zur Gesamttoxizität; Interaktion mit Zellmembranen.",
+        "en": "Detected in berries and leaves; contributing to overall toxicity; interaction with cell membranes."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Morgenstunden nach Tautrocknung, um den höchsten Alkaloidgehalt zu nutzen",
+        "en": "Morning hours after dew has dried, to utilize peak alkaloid content"
+      },
+      "drying": {
+        "de": "Schnell bei 40–50 °C im Schatten trocknen; bei Feuchtigkeit droht Racemisierung und Alkaloidabbau; Trockenzeit max. 4 Stunden.",
+        "en": "Dry quickly at 40–50 °C in the shade; moisture risks racemization and alkaloid degradation; drying time max. 4 hours."
+      },
+      "notes": {
+        "de": "SCHUTZHANDSCHUHE PFLICHT — Hautkontakt mit Blättern kann Alkaloidaufnahme durch die Haut verursachen. Ernte nur durch ausgebildete Botaniker oder Apotheker.",
+        "en": "PROTECTIVE GLOVES MANDATORY — skin contact with leaves can cause alkaloid absorption through the skin. Harvest only by trained botanists or pharmacists."
+      }
+    },
+    {
+      "plant_part": "root",
+      "best_months": [
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Tagsüber nach Laubfall — Pflanze zieht Alkaloide in die Wurzel zurück",
+        "en": "Daytime after leaf fall — plant withdraws alkaloids into the root"
+      },
+      "drying": {
+        "de": "Gewaschene Wurzeln bei 50–60 °C trocknen; höchster Gesamtalkaloidgehalt (bis 0.6 %); pharmazeutische Verarbeitung erfordert kontrollierte Bedingungen.",
+        "en": "Washed roots dried at 50–60 °C; highest total alkaloid content (up to 0.6 %); pharmaceutical processing requires controlled conditions."
+      },
+      "notes": {
+        "de": "Wurzeln enthalten den höchsten Alkaloidgehalt der ganzen Pflanze. Keine Laienverwendung.",
+        "en": "Roots contain the highest alkaloid content of the entire plant. No lay use."
+      }
+    }
+  ]
+}

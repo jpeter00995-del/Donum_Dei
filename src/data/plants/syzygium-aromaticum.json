@@ -1,0 +1,464 @@
+{
+  "slug": "syzygium-aromaticum",
+  "names": {
+    "de": "Gewürznelkenbaum",
+    "en": "Clove",
+    "latin": "Syzygium aromaticum"
+  },
+  "family": {
+    "de": "Myrtengewächse",
+    "en": "Myrtle family",
+    "latin": "Myrtaceae"
+  },
+  "description": {
+    "de": "Der Gewürznelkenbaum ist eine Pflanzenart in der Familie der Myrtengewächse (Myrtaceae).",
+    "en": "Cloves are the aromatic flower buds of a tree in the family Myrtaceae, Syzygium aromaticum. They are native to the Maluku Islands, or Moluccas, in Indonesia, and are commonly used as a spice, flavoring, or fragrance in consumer products, such as toothpaste, soaps, or cosmetics. Cloves are available throughout the year owing to different harvest seasons across various countries."
+  },
+  "teaser": {
+    "de": "Der Gewürznelkenbaum ist eine Pflanzenart in der Familie der Myrtengewächse (Myrtaceae).",
+    "en": "Cloves are the aromatic flower buds of a tree in the family Myrtaceae, Syzygium aromaticum."
+  },
+  "uses": [
+    {
+      "form": "essential_oil",
+      "target": [
+        "skin",
+        "throat"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Nelkenöl (1–2 Tropfen auf einem Wattestäbchen) wirkt bei Zahnschmerzen als lokales Analgetikum und Antiseptikum. Der Hauptwirkstoff Eugenol hemmt Schmerzrezeptoren und zeigt antimikrobielle Aktivität gegen orale Pathogene. Nur äußerlich auf das betroffene Zahnfleisch oder den Zahn auftragen — unverdünnt nicht auf Schleimhäute.",
+        "en": "Clove oil (1–2 drops on a cotton swab) acts as a local analgesic and antiseptic for toothache. The main active compound eugenol inhibits pain receptors and shows antimicrobial activity against oral pathogens. Apply externally to the affected gum or tooth only — do not apply undiluted to mucous membranes."
+      },
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "instructions": {
+          "de": "1–2 Tropfen Nelkenöl mit Trägeröl (z. B. Olivenöl) im Verhältnis 1:1 verdünnen; mit Wattestäbchen auftragen. Nicht schlucken. Bei Kindern unter 12 Jahren nicht anwenden.",
+          "en": "Dilute 1–2 drops of clove oil with carrier oil (e.g. olive oil) 1:1; apply with cotton swab. Do not swallow. Not for children under 12 years."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Unverdünntes Nelkenöl nicht bei Kindern unter 12 Jahren anwenden.",
+          "en": "Do not use undiluted clove oil in children under 12 years."
+        }
+      },
+      "source_ids": [
+        "src_komm_e_syzygium",
+        "src_ema_syzygium_oil",
+        "src_arzneipflanzenlexikon_syzygium"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat",
+        "skin"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Eine 1–5%ige Mundspülung mit Nelkenöl (in Wasser oder Alkohol) wirkt antiseptisch und entzündungshemmend bei leichten Entzündungen der Mund- und Rachenschleimhaut. Mehrmals täglich spülen; Lösung danach ausspucken. Eugenol hemmt die Bildung von Plaque-Biofilm.",
+        "en": "A 1–5% mouthwash with clove oil (in water or alcohol) acts antiseptically and anti-inflammatorily in mild inflammation of the oral and pharyngeal mucosa. Rinse several times daily; spit out solution afterwards. Eugenol inhibits plaque biofilm formation."
+      },
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "instructions": {
+          "de": "1–5 Tropfen Nelkenöl in 100 ml lauwarmem Wasser oder einem Mundspülungsbasisprodukt lösen. Mehrmals täglich 30 Sekunden spülen und ausspucken.",
+          "en": "Dissolve 1–5 drops clove oil in 100 ml lukewarm water or a mouthwash base. Rinse 30 seconds several times daily and spit out."
+        }
+      },
+      "source_ids": [
+        "src_komm_e_syzygium",
+        "src_ema_syzygium_oil",
+        "src_pharmawiki_syzygium"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Als Küchengewürz (ganz oder gemahlen) fördert die Gewürznelke die Verdauung, wirkt karminativ (blähungswidrig) und regt die Magensaftsekretion an. Traditionell bei Übelkeit, Völlegefühl und Verdauungsschwäche verwendet. Kulinarisch in Süßspeisen, Fleischgerichten, Glühwein und Chai.",
+        "en": "As a culinary spice (whole or ground), cloves promote digestion, act carminatively (anti-flatulence), and stimulate gastric secretion. Traditionally used for nausea, bloating, and digestive weakness. Used in desserts, meat dishes, mulled wine, and chai."
+      },
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "1–3 ganze Gewürznelken oder eine Messerspitze Pulver je Gericht oder Getränk. Tägliche Kochmengen gelten als unbedenklich.",
+          "en": "1–3 whole cloves or a pinch of powder per dish or drink. Culinary amounts used daily are considered safe."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_syzygium",
+        "src_arzneipflanzenlexikon_syzygium",
+        "src_frontiers_syzygium"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Gewürznelkentee (2–3 ganze Nelken auf 250 ml heißes Wasser, 10 min ziehen) wirkt wärmend, schleimlösend und leicht antiseptisch bei Erkältungen mit Husten und Verdauungsproblemen. Traditionelle Anwendung in der ayurvedischen und traditionellen chinesischen Medizin.",
+        "en": "Clove tea (2–3 whole cloves per 250 ml hot water, steeped 10 min) acts warming, expectorant, and mildly antiseptic in colds with cough and digestive complaints. Traditional use in Ayurvedic and traditional Chinese medicine."
+      },
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.5,
+          "max": 1
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–3 ganze Gewürznelken leicht andrücken und mit 250 ml kochendem Wasser übergießen. 10 Minuten ziehen lassen, abseihen. Bis zu 3 Tassen täglich.",
+          "en": "Lightly crush 2–3 whole cloves and pour 250 ml boiling water over them. Steep 10 minutes, strain. Up to 3 cups daily."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_syzygium",
+        "src_pmc_syzygium_batiha"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Verdünntes Nelkenöl (3–5 % in Trägeröl) wird in der Volksmedizin zur Linderung von Muskel- und Gelenkschmerzen eingerieben. β-Caryophyllen, neben Eugenol der zweithäufigste Wirkstoff, zeigt lokalbetäubende und entzündungshemmende Eigenschaften.",
+        "en": "Diluted clove oil (3–5% in carrier oil) is used in folk medicine to relieve muscle and joint pain through massage. β-caryophyllene, the second most abundant active compound alongside eugenol, shows local anaesthetic and anti-inflammatory properties."
+      },
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "3–5 Tropfen Nelkenöl in 10 ml Trägeröl (Jojoba, Mandel) verdünnen. Sanft in die betroffene Körperstelle einmassieren. Nicht auf offene Wunden auftragen.",
+          "en": "Dilute 3–5 drops clove oil in 10 ml carrier oil (jojoba, almond). Gently massage into affected area. Do not apply to open wounds."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_syzygium",
+        "src_pmc_syzygium_batiha",
+        "src_frontiers_syzygium"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "immune",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Gewürznelken zählen zu den antioxidantienreichsten Lebensmitteln. Neben dem ätherischen Öl enthalten die Blütenknospen Flavonoide (Quercetin, Kaempferol), Phenolsäuren und Oleanolsäure. Als Gewürz in üblichen Mengen trägt die Nelke zur antioxidativen Ernährung bei.",
+        "en": "Cloves rank among the most antioxidant-rich foods. In addition to essential oil, the flower buds contain flavonoids (quercetin, kaempferol), phenolic acids, and oleanolic acid. As a spice in usual amounts, cloves contribute to an antioxidant-rich diet."
+      },
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "Als Gewürz in der täglichen Küche verwenden (ganze Nelken, gemahlen oder als ätherisches Öl in Lebensmittelqualität).",
+          "en": "Use as a spice in daily cooking (whole cloves, ground, or food-grade essential oil)."
+        }
+      },
+      "source_ids": [
+        "src_frontiers_syzygium",
+        "src_pmc_syzygium_batiha"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "getrocknete Blütenknospen",
+      "en": "dried flower buds"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Unverdünntes Nelkenöl kann Schleimhäute und Haut reizen. Immer mit Trägeröl verdünnen (mind. 1:1). Nicht in die Augen. Bei Eugenol-Überempfindlichkeit (Kreuzreaktion mit Perubalsam möglich) kontraindiziert.",
+      "en": "Undiluted clove oil can irritate mucous membranes and skin. Always dilute with carrier oil (at least 1:1). Keep away from eyes. Contraindicated in eugenol hypersensitivity (cross-reactivity with Peru balsam possible)."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Konzentriertes Nelkenöl in der Schwangerschaft nicht empfohlen — mögliche uterusstimmulierende Wirkung. Übliche Kochmengen als Gewürz gelten als unbedenklich.",
+        "en": "Concentrated clove oil not recommended during pregnancy — possible uterus-stimulating effect. Usual culinary amounts as a spice are considered safe."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Unzureichende Daten für konzentriertes Nelkenöl in der Stillzeit. Gewürzmengen in der Küche gelten als unproblematisch.",
+        "en": "Insufficient data for concentrated clove oil during lactation. Culinary spice amounts considered unproblematic."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Unverdünntes Nelkenöl nicht bei Kindern unter 12 Jahren anwenden. Fertige Arzneimittel (z. B. Zahngel) für Kinder beachten.",
+        "en": "Do not use undiluted clove oil in children under 12 years. Observe age recommendations on finished medicinal products (e.g. dental gels)."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegenüber Eugenol oder Isoeugenol (Kreuzreaktion mit Perubalsam möglich)",
+        "en": "Hypersensitivity to eugenol or isoeugenol (cross-reactivity with Peru balsam possible)"
+      },
+      {
+        "de": "Direkter Kontakt von unverdünntem Öl mit Schleimhäuten oder empfindlicher Haut",
+        "en": "Direct contact of undiluted oil with mucous membranes or sensitive skin"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulantien (z. B. Warfarin)",
+        "mechanism": {
+          "de": "Eugenol hemmt die Thrombozytenaggregation; gleichzeitige Anwendung mit Antikoagulantien kann das Blutungsrisiko erhöhen.",
+          "en": "Eugenol inhibits platelet aggregation; concurrent use with anticoagulants may increase bleeding risk."
+        },
+        "severity": "caution",
+        "source_id": "src_pharmawiki_syzygium"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gewürznelkenbaum (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%BCrznelkenbaum",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Clove (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Clove",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_komm_e_syzygium",
+      "type": "monograph",
+      "title": "Kommission E Monographie: Caryophylli aetheroleum (Nelkenöl), BAnz. Nr. 223 vom 30.11.1985",
+      "url": "https://arzneipflanzenlexikon.info/gewuerznelken.php",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_ema_syzygium_oil",
+      "type": "monograph",
+      "title": "EMA/HMPC: Final community herbal monograph on Syzygium aromaticum (L.) Merr. et L.M. Perry, floris aetheroleum (EMA/HMPC/534924/2010)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/caryophylli-floris-aetheroleum",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_arzneipflanzenlexikon_syzygium",
+      "type": "monograph",
+      "title": "Gewürznelken — Syzygium aromaticum — Arzneipflanzen-Lexikon",
+      "url": "https://arzneipflanzenlexikon.info/gewuerznelken.php",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pharmawiki_syzygium",
+      "type": "book",
+      "title": "PharmaWiki: Gewürznelken",
+      "url": "https://www.pharmawiki.ch/wiki/index.php?wiki=Gew%C3%BCrznelken",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_syzygium",
+      "type": "book",
+      "title": "Plants For A Future (PFAF): Syzygium aromaticum",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Syzygium+aromaticum",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_syzygium_batiha",
+      "type": "monograph",
+      "title": "Batiha et al. (2020): Syzygium aromaticum L. (Myrtaceae): Traditional Uses, Bioactive Chemical Constituents, Pharmacological and Toxicological Activities. Biomolecules 10(2):202",
+      "url": "https://doi.org/10.3390/biom10020202",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_frontiers_syzygium",
+      "type": "monograph",
+      "title": "Xue et al. (2022): Recent advances in nutritional composition, phytochemistry, bioactive, and potential applications of Syzygium aromaticum L. (Myrtaceae). Frontiers in Nutrition 9:1002147",
+      "url": "https://doi.org/10.3389/fnut.2022.1002147",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_de_syzygium",
+      "type": "wikipedia",
+      "title": "Gewürznelkenbaum — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%BCrznelkenbaum",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_en_syzygium",
+      "type": "wikipedia",
+      "title": "Clove — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Clove",
+      "accessed": "2026-05-17"
+    }
+  ],
+  "image": {
+    "filename": "syzygium-aromaticum.jpg",
+    "alt": {
+      "de": "Foto von Gewürznelkenbaum",
+      "en": "Photo of Clove"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Syzygium_aromaticum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-030.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Eugenol",
+      "category": "essential_oil",
+      "percent_range": "70-90 % des ätherischen Öls",
+      "plant_part": "flower",
+      "note": {
+        "de": "Hauptwirkstoff des ätherischen Öls. Lokalanästhetisch, antimikrobiell, antiphlogistisch und antioxidativ. Basis für zahnmedizinische Eugenol-Präparate (ZnO-Eugenol-Zement).",
+        "en": "Main active compound of the essential oil. Local anaesthetic, antimicrobial, anti-inflammatory, and antioxidant. Basis for dental eugenol preparations (ZnO-eugenol cement)."
+      }
+    },
+    {
+      "name": "Eugenylacetat (Acetyleugenol)",
+      "category": "essential_oil",
+      "percent_range": "5-15 % des ätherischen Öls",
+      "plant_part": "flower",
+      "note": {
+        "de": "Esterform des Eugenols, trägt zum charakteristischen Aroma der Gewürznelke bei.",
+        "en": "Ester form of eugenol, contributes to the characteristic aroma of cloves."
+      }
+    },
+    {
+      "name": "β-Caryophyllen",
+      "category": "sesquiterpene",
+      "percent_range": "5-12 % des ätherischen Öls",
+      "plant_part": "flower",
+      "note": {
+        "de": "Sesquiterpen mit lokalbetäubenden und entzündungshemmenden Eigenschaften. Aktiviert Cannabinoid-Rezeptor CB2.",
+        "en": "Sesquiterpene with local anaesthetic and anti-inflammatory properties. Activates cannabinoid receptor CB2."
+      }
+    },
+    {
+      "name": "Oleanolsäure",
+      "category": "other",
+      "percent_range": "ca. 2 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Triterpensäure mit hepatoprotektiver und entzündungshemmender Wirkung.",
+        "en": "Triterpenic acid with hepatoprotective and anti-inflammatory effects."
+      }
+    },
+    {
+      "name": "Quercetin",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Flavonol mit antioxidativer, entzündungshemmender Aktivität. Kommt in den Blütenknospen als Glykosid vor.",
+        "en": "Flavonol with antioxidant and anti-inflammatory activity. Present in flower buds as a glycoside."
+      }
+    },
+    {
+      "name": "Kaempferol",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Flavonol mit antioxidativen Eigenschaften; kommt in Gewürznelken neben Quercetin vor.",
+        "en": "Flavonol with antioxidant properties; present in cloves alongside quercetin."
+      }
+    },
+    {
+      "name": "Tannine (Gerbstoffe)",
+      "category": "tannin",
+      "plant_part": "flower",
+      "note": {
+        "de": "Phenolische Verbindungen mit adstringierender Wirkung; in geringeren Mengen als in der Rinde anderer Heilpflanzen.",
+        "en": "Phenolic compounds with astringent effect; present in smaller amounts than in the bark of other medicinal plants."
+      }
+    },
+    {
+      "name": "Gallussäure",
+      "category": "phenolic_acid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Phenolcarbonsäure mit antioxidativer und antimikrobieller Aktivität.",
+        "en": "Phenolic carboxylic acid with antioxidant and antimicrobial activity."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens, bevor sich die Knospen öffnen (Knospen sollen noch grün bis zartrosa sein)",
+        "en": "Morning, before buds open (buds should still be green to pale pink)"
+      },
+      "drying": {
+        "de": "Blütenknospen 4–7 Tage an der Sonne oder bei 40–50 °C in einem Trockner trocknen, bis sie dunkelbraun sind und der Stiel beim Biegen bricht. Gewicht reduziert sich um ca. zwei Drittel.",
+        "en": "Dry flower buds 4–7 days in the sun or at 40–50°C in a dryer until dark brown and the stem snaps when bent. Weight reduces by approximately two thirds."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Ganze, getrocknete Gewürznelken in luftdichtem Glas, kühl, trocken und lichtgeschützt. Gemahlene Nelken verlieren schneller Aroma (max. 6 Monate).",
+        "en": "Whole dried cloves in airtight glass jar, cool, dry, and protected from light. Ground cloves lose aroma faster (max. 6 months)."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        10,
+        11,
+        12
+      ],
+      "drying": {
+        "de": "Reife Früchte (Mutternelken) werden nach dem Blütenfall geerntet und ebenfalls getrocknet. Aromatischer als die Blütenknospen, aber weniger in der Pharmakopöe erfasst.",
+        "en": "Ripe fruits (mother cloves) are harvested after flowering and also dried. More aromatic than the flower buds but less documented in pharmacopoeias."
+      },
+      "storage_months": 18,
+      "storage_condition": {
+        "de": "Kühl, trocken und lichtgeschützt in luftdichten Behältern.",
+        "en": "Cool, dry, and light-protected in airtight containers."
+      }
+    }
+  ]
+}

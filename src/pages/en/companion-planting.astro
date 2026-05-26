@@ -1,0 +1,18 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import CompanionExplorer from '@/components/CompanionExplorer';
+import { loadAllPlants } from '@/lib/loadPlants';
+
+// === 2. DATA ===
+// Only plants carrying companion_planting are passed to the explorer.
+// (Nur Pflanzen mit companion_planting — Garten-Kandidaten.)
+const locale = 'en' as const;
+const plants = loadAllPlants().filter(p => p.companion_planting !== undefined);
+---
+
+<BaseLayout locale={locale} title="Companion planting">
+  <section class="max-w-6xl mx-auto py-8 px-4">
+    <CompanionExplorer plants={plants} locale={locale} client:load />
+  </section>
+</BaseLayout>

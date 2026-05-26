@@ -1,0 +1,488 @@
+{
+  "slug": "fragaria-vesca",
+  "names": {
+    "de": "Wald-Erdbeere",
+    "en": "Fragaria vesca",
+    "latin": "Fragaria vesca"
+  },
+  "family": {
+    "de": "Rosengewächse",
+    "en": "Rose family",
+    "latin": "Rosaceae"
+  },
+  "description": {
+    "de": "Die Wald-Erdbeere, auch Walderdbeere geschrieben, auch Monatserdbeere, seltener Rotbeere genannt, ist eine Pflanzenart aus der Gattung der Erdbeeren (Fragaria) innerhalb der Familie der Rosengewächse (Rosaceae). Die Wald-Erdbeere dient dem Menschen schon lange als Nahrung, wie auch die botanische Artbezeichnung ausdrückt. Sie wird außerdem als Heilpflanze verwendet und wurde in der mittelalterlichen Malerei als Symbolpflanze häufig abgebildet.",
+    "en": "Fragaria vesca, commonly called the woodland strawberry, Alpine strawberry, wild strawberry, Carpathian strawberry or European strawberry, is a perennial herbaceous plant in the rose family that grows naturally throughout much of the Northern Hemisphere, and that produces edible fruits."
+  },
+  "teaser": {
+    "de": "Die Wald-Erdbeere, auch Walderdbeere geschrieben, auch Monatserdbeere, seltener Rotbeere genannt, ist eine Pflanzenar...",
+    "en": "Fragaria vesca, commonly called the woodland strawberry, Alpine strawberry, wild strawberry, Carpathian strawberry or..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Aufguss aus getrockneten Wald-Erdbeerblättern bei Durchfall, Magenbeschwerden und Appetitlosigkeit. Die Ellagitannine und Gerbstoffe (bis zu 12 % in älteren Blättern) wirken adstringierend auf die Darmschleimhaut.",
+        "en": "Infusion of dried wild strawberry leaves for diarrhoea, gastric complaints, and loss of appetite. The ellagitannins and tannins (up to 12 % in older leaves) have an astringent effect on the intestinal mucosa."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "3–5 g getrocknete Blätter mit 250 ml kochendem Wasser übergießen, 10 Minuten ziehen lassen, abseihen. Bis zu 3 Tassen täglich.",
+          "en": "Pour 250 ml boiling water over 3–5 g dried leaves, steep 10 minutes, strain. Up to 3 cups daily."
+        }
+      },
+      "source_ids": [
+        "src_wp_de_fragaria",
+        "src_dr_hauschka_fragaria",
+        "src_wp_en_fragaria"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Konzentrierter Teeaufguss der Blätter als Gurgelmittel bei Entzündungen der Mundschleimhaut, Zahnfleischentzündungen (Gingivitis) und Halsentzündungen. Die adstringierenden Gerbstoffe ziehen die Schleimhäute zusammen.",
+        "en": "Concentrated leaf infusion as a gargle for inflammation of the oral mucosa, gingivitis, and throat inflammation. The astringent tannins cause the mucous membranes to contract."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 8
+        },
+        "water_ml": 200,
+        "steep_min": 15,
+        "instructions": {
+          "de": "5–8 g Blätter mit 200 ml kochendem Wasser, 15 Min. ziehen lassen. Mehrmals täglich gurgeln, nicht schlucken.",
+          "en": "5–8 g leaves with 200 ml boiling water, steep 15 min. Gargle several times daily; do not swallow."
+        }
+      },
+      "source_ids": [
+        "src_dr_hauschka_fragaria",
+        "src_wp_de_fragaria"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Reife Walderdbeeren sind reich an Vitamin C, Anthocyanen und Ellagsäure. Als Frischobst verzehrt liefern sie antioxidative Verbindungen und stärken das Immunsystem. Intensiver Geschmack als Kulturerdbeere.",
+        "en": "Ripe wild strawberries are rich in vitamin C, anthocyanins, and ellagic acid. Eaten fresh they provide antioxidant compounds and support immune function. More intense flavour than cultivated strawberries."
+      },
+      "source_ids": [
+        "src_wp_en_fragaria",
+        "src_study_antioxidant_fragaria"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "joints"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Tinktur aus Wald-Erdbeerblättern (1:5, 40–60 % Ethanol) als konzentrierte Form für die adstringierende und diuretische Nutzung. Traditionell auch bei Gicht und Rheuma eingesetzt.",
+        "en": "Tincture of wild strawberry leaves (1:5, 40–60 % ethanol) as a concentrated form for astringent and diuretic use. Traditionally also used for gout and rheumatism."
+      },
+      "source_ids": [
+        "src_wp_de_fragaria"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "liver",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der Volksheilkunde wurden Blätter kombiniert mit Weinblättern als Lebertee eingesetzt. Dr. Hauschka beschreibt die Blätter als Unterstützung für Leber und Gallenblase. Belege beschränken sich auf traditionellen Gebrauch.",
+        "en": "In folk medicine, leaves combined with vine leaves were used as a liver tea. Dr. Hauschka describes the leaves as supportive for liver and gallbladder. Evidence limited to traditional use."
+      },
+      "source_ids": [
+        "src_dr_hauschka_fragaria"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Zerdrückte reife Früchte wurden traditionell als Gesichtsmaske bei Hautunreinheiten aufgetragen. Ellagsäure hemmt in vitro die Melaninbildung; Extrakte aus Früchten und Blättern werden daher in der Kosmetik eingesetzt.",
+        "en": "Mashed ripe fruits were traditionally applied as a face mask for skin blemishes. Ellagic acid inhibits melanin formation in vitro; extracts from fruits and leaves are therefore used in cosmetics."
+      },
+      "source_ids": [
+        "src_study_antioxidant_fragaria",
+        "src_wp_en_fragaria"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Blätter (vor der Blüte), reife Früchte",
+      "en": "leaves (before flowering), ripe fruits"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Selten Allergie gegen Erdbeerproteine (Allergen Fra a 1) — bei Kreuzallergie mit Birke besondere Vorsicht. Hoher Tanningehalt der Blätter kann bei Überdosierung die Magenschleimhaut reizen.",
+      "en": "Rare allergy to strawberry proteins (allergen Fra a 1) — particular caution with birch pollen cross-reactivity. High tannin content of the leaves may irritate the gastric mucosa if overdosed."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Früchte in Lebensmittelmengen unbedenklich. Medizinische Dosen von Blättern oder Extrakten mangels Daten in der Schwangerschaft vermeiden.",
+        "en": "Fruits in food amounts are considered safe. Medicinal doses of leaves or extracts should be avoided during pregnancy due to lack of data."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Früchte in Lebensmittelmengen unbedenklich. Hochdosierte Extrakte mangels Daten meiden.",
+        "en": "Fruits in food amounts are safe. Avoid high-dose extracts due to lack of data."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Früchte unbedenklich. Bei Kleinkindern gelegentlich Erdbeerallergie; Blätterextrakte für Kinder unter 12 Jahren nicht empfohlen.",
+        "en": "Fruits safe. Occasional strawberry allergy in young children; leaf extracts not recommended for children under 12."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Erdbeereiallergie (Allergen Fra a 1).",
+        "en": "Known strawberry allergy (allergen Fra a 1)."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulantien (z. B. Warfarin)",
+        "mechanism": {
+          "de": "Hoher Anthocyangehalt der Früchte kann additiv die Thrombozytenaggregation hemmen. Bei gleichzeitiger Antikoagulation auf übermäßigen Verzehr verzichten.",
+          "en": "High anthocyanin content of the fruit may additively inhibit platelet aggregation. Avoid excessive consumption if taking anticoagulants."
+        },
+        "severity": "monitor",
+        "source_id": "src_wp_en_fragaria"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Wald-Erdbeere (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Wald-Erdbeere",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Fragaria vesca (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Fragaria_vesca",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_wp_de_fragaria",
+      "type": "wikipedia",
+      "title": "Wald-Erdbeere (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Wald-Erdbeere",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wp_en_fragaria",
+      "type": "wikipedia",
+      "title": "Fragaria vesca (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Fragaria_vesca",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_dr_hauschka_fragaria",
+      "type": "monograph",
+      "title": "Wild Strawberry (Fragaria vesca L.) — Dr. Hauschka Medicinal Plant Facts",
+      "url": "https://www.dr.hauschka.com/en_NZ/knowledge-base/medicinal-plant-facts/wild-strawberry/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_study_antioxidant_fragaria",
+      "type": "monograph",
+      "title": "Fragaria vesca L. Extract: A Promising Cosmetic Ingredient with Antioxidant Properties (Antioxidants, 2020)",
+      "url": "https://doi.org/10.3390/antiox9020154",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "fragaria-vesca.jpg",
+    "alt": {
+      "de": "Foto von Wald-Erdbeere",
+      "en": "Photo of Fragaria vesca"
+    },
+    "license": "Public domain",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Fragaria_vesca0.jpg"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-porrum",
+      "allium-sativum",
+      "allium-schoenoprasum",
+      "allium-ursinum",
+      "borago-officinalis",
+      "calendula-officinalis",
+      "hyssopus-officinalis",
+      "lactuca-sativa-capitata",
+      "lactuca-sativa-crispa",
+      "petroselinum-crispum",
+      "spinacia-oleracea",
+      "tagetes-patula",
+      "thymus-vulgaris"
+    ],
+    "bad_partners": [
+      "brassica-oleracea-capitata-alba",
+      "brassica-oleracea-italica"
+    ],
+    "reasons": {
+      "allium-porrum": {
+        "de": "Lauch hält Erdbeer-Schädlinge fern.",
+        "en": "Leek deters strawberry pests."
+      },
+      "allium-sativum": {
+        "de": "Knoblauch vertreibt Erdbeer-Pilze (Grauschimmel).",
+        "en": "Garlic deters strawberry fungi (grey mould)."
+      },
+      "allium-schoenoprasum": {
+        "de": "Schnittlauch schützt Erdbeere vor Pilzen (Grauschimmel).",
+        "en": "Chives protect strawberry from fungi (grey mould)."
+      },
+      "borago-officinalis": {
+        "de": "Borretsch zieht Bestäuber zu Erdbeer-Blüten und stärkt die Pflanze.",
+        "en": "Borage attracts pollinators to strawberry blossoms and strengthens the plant."
+      },
+      "brassica-oleracea-capitata-alba": {
+        "de": "Kohl und Erdbeere konkurrieren stark um Nährstoffe und Wasser.",
+        "en": "Cabbage and strawberry compete for nutrients and water."
+      },
+      "lactuca-sativa-capitata": {
+        "de": "Salat als Bodendecker zwischen Erdbeer-Reihen.",
+        "en": "Lettuce as ground cover between strawberry rows."
+      },
+      "spinacia-oleracea": {
+        "de": "Spinat als Bodendecker liefert Stickstoff für Erdbeer-Wurzeln.",
+        "en": "Spinach as ground cover provides nitrogen for strawberry roots."
+      },
+      "tagetes-patula": {
+        "de": "Tagetes vertreibt Wurzelnematoden bei Erdbeeren.",
+        "en": "Marigold deters root nematodes around strawberries."
+      },
+      "thymus-vulgaris": {
+        "de": "Thymian als Bodendecker hält Schnecken fern.",
+        "en": "Thyme as ground cover deters slugs."
+      }
+    },
+    "notes_de": "allium-sativum: Knoblauch vertreibt Erdbeer-Schädlinge. borago-officinalis: Borretsch zieht Bestäuber zu Erdbeeren. brassica-oleracea-capitata-alba: Kohl und Erdbeere konkurrieren um Nährstoffe und Wasser. spinacia-oleracea: Spinat liefert Stickstoff für Erdbeere und beschattet Boden. allium-schoenoprasum: Schnittlauch schützt Erdbeere vor Pilzen (Grauschimmel).",
+    "notes_en": "allium-sativum: Garlic deters strawberry pests. borago-officinalis: Borage attracts pollinators to strawberries. brassica-oleracea-capitata-alba: Cabbage and strawberry compete for nutrients and water. spinacia-oleracea: Spinach provides nitrogen for strawberry and shades soil. allium-schoenoprasum: Chives protect strawberry from fungi (grey mould).",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 1,
+        "end_month": 3
+      },
+      "transplant": {
+        "start_month": 4,
+        "end_month": 5
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 9
+    },
+    "days_to_harvest": 150,
+    "spacing_cm": 25,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "ground_cover",
+    "pollinator_attractor",
+    "edible_flower"
+  ],
+  "constituents": [
+    {
+      "name": "Ellagitannine (inkl. Agrimoniin)",
+      "category": "tannin",
+      "plant_part": "leaf",
+      "percent_range": "5-12 %",
+      "note": {
+        "de": "Hauptpolyphenole der Blätter; stark adstringierend, antioxidativ; Agrimoniin ist die Leitsubstanz.",
+        "en": "Main polyphenols of the leaves; strongly astringent, antioxidant; agrimoniin is the lead compound."
+      }
+    },
+    {
+      "name": "Proanthocyanidine",
+      "category": "tannin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Kondensierte Gerbstoffe; adstringierende Wirkung auf Schleimhäute, antioxidativ.",
+        "en": "Condensed tannins; astringent effect on mucous membranes, antioxidant."
+      }
+    },
+    {
+      "name": "Ellagsäure",
+      "category": "phenolic_acid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Abbauprodukt der Ellagitannine; antioxidativ, hemmt Melaninbildung in vitro. In Früchten und Blättern vorhanden.",
+        "en": "Breakdown product of ellagitannins; antioxidant, inhibits melanin formation in vitro. Present in both fruits and leaves."
+      }
+    },
+    {
+      "name": "Quercetin-Glykoside",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "percent_range": "0.2-4 %",
+      "note": {
+        "de": "Flavonol-Glykoside (Kaempferol, Quercetin); antioxidativ und schwach entzündungshemmend.",
+        "en": "Flavonol glycosides (kaempferol, quercetin); antioxidant and mildly anti-inflammatory."
+      }
+    },
+    {
+      "name": "Anthocyane (Pelargonidin, Cyanidin)",
+      "category": "flavonoid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Pigmente der roten Früchte; starke antioxidative Wirkung, vasoprotektiv.",
+        "en": "Pigments of the red fruits; strong antioxidant activity, vasoprotective."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Walderdbeeren sind vergleichsweise reich an Vitamin C; unterstützen Immunfunktion und Kollagensynthese.",
+        "en": "Wild strawberries are relatively rich in vitamin C; support immune function and collagen synthesis."
+      }
+    },
+    {
+      "name": "Methyl-Salicylat",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flüchtiger Ester; verleiht den Blättern den charakteristischen Geruch; schwach entzündungshemmend.",
+        "en": "Volatile ester; gives the leaves their characteristic scent; mildly anti-inflammatory."
+      }
+    },
+    {
+      "name": "Eisen (Mineralstoff)",
+      "category": "mineral",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Wald-Erdbeerblätter enthalten Eisen; traditionell bei Eisenmangelanämie als Blättertee empfohlen (volksmedizinisch).",
+        "en": "Wild strawberry leaves contain iron; traditionally recommended as leaf tea in iron-deficiency anaemia (folk medicine use)."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus. Junge, vollentfaltete Blätter vor der Blüte ernten — dann ist der Tanningehalt am höchsten.",
+        "en": "Morning after dew has dried. Harvest young, fully opened leaves before flowering — tannin content is highest at this stage."
+      },
+      "drying": {
+        "de": "Blätter einzeln oder dünn geschichtet bei 35–40 °C trocknen. Fertig, wenn sie zwischen den Fingern knistern. In luftdichten, lichtgeschützten Behältern lagern.",
+        "en": "Dry leaves individually or in thin layers at 35–40 °C. Ready when they crinkle between the fingers. Store in airtight, light-protected containers."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Kühl, trocken, lichtgeschützt in Gläsern oder Papiertüten.",
+        "en": "Cool, dry, light-protected in jars or paper bags."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Am Mittag, wenn Tau verdunstet und Zucker am höchsten — intensivster Geschmack.",
+        "en": "Around midday when dew has evaporated and sugar content is highest — most intense flavour."
+      },
+      "drying": {
+        "de": "Frisch verzehren (verderblich). Für Konserven zu Marmelade, Sirup oder Essig verarbeiten; für Trockenfrüchte bei max. 40 °C trocknen.",
+        "en": "Consume fresh (highly perishable). For preservation process into jam, syrup, or vinegar; dry fruits at max. 40 °C for dried fruit."
+      },
+      "storage_months": 1,
+      "storage_condition": {
+        "de": "Frische Früchte maximal 1–2 Tage im Kühlschrank; getrocknet bis zu 6 Monate.",
+        "en": "Fresh fruits max. 1–2 days in refrigerator; dried up to 6 months."
+      }
+    }
+  ]
+}

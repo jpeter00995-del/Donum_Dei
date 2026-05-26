@@ -1,0 +1,530 @@
+{
+  "slug": "capsella-bursa-pastoris",
+  "names": {
+    "de": "Gewöhnliches Hirtentäschel",
+    "en": "Capsella bursa-pastoris",
+    "latin": "Capsella bursa-pastoris"
+  },
+  "family": {
+    "de": "Kreuzblütler",
+    "en": "Cabbage family",
+    "latin": "Brassicaceae"
+  },
+  "description": {
+    "de": "Das Gewöhnliche Hirtentäschel, auch Hirtentäschelkraut genannt, ist eine Pflanzenart aus der Gattung Hirtentäschel (Capsella) innerhalb der Familie der Kreuzblütengewächse (Brassicaceae). Der wissenschaftliche Name Capsella bursa-pastoris setzt sich aus dem Gattungsnamen Capsella aus den lateinischen Wörtern capsa für „Kapsel“ und aus dem Artepitheton bursa-pastoris aus den Wörtern bursa für „Tasche“ sowie pastor für „Hirt“ zusammen und bezieht sich darauf, dass die Schötchen wie die Taschen früherer Hirten geformt sind; daher auch der deutschsprachige Trivialname Hirtentäschel.",
+    "en": "Capsella bursa-pastoris, commonly known as shepherd's purse or lady's purse, is a small flowering plant in the mustard family. It has been described as a protocarnivore because its seeds contain mucilage, which traps nematodes."
+  },
+  "teaser": {
+    "de": "Das Gewöhnliche Hirtentäschel, auch Hirtentäschelkraut genannt, ist eine Pflanzenart aus der Gattung Hirtentäschel (C...",
+    "en": "Capsella bursa-pastoris, commonly known as shepherd's purse or lady's purse, is a small flowering plant in the mustar..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "menstrual",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Klassiker bei zu starken, verlängerten oder zu häufigen Menstruationsblutungen (Menorrhagie, Metrorrhagie) sowie bei symptomatischen Nachblutungen und kapillären Sickerblutungen. Kommission E positiv bewertet (Monographie 'Bursae pastoris herba').",
+        "en": "Classic for excessively heavy, prolonged or too frequent menstrual bleeding (menorrhagia, metrorrhagia) as well as symptomatic post-bleeding and capillary oozing. Positively assessed by German Commission E ('Bursae pastoris herba')."
+      },
+      "preparation": {
+        "de": "1-2 TL (ca. 1-1,5 g) getrocknetes Hirtentäschelkraut mit 150 ml kochendem Wasser übergiessen, zugedeckt 10 Min ziehen lassen, abseihen. Tagesdosis 10-15 g Droge in 2-3 Portionen, kurweise um die Menstruation (3-5 Tage vor bis Ende der Blutung). Frisch zubereitet — die hämostatische Wirkung schwächt bei langer Lagerung der Droge ab.",
+        "en": "Pour 150 ml boiling water over 1-2 tsp (ca. 1-1.5 g) dried shepherd's purse herb, steep covered 10 min, strain. Daily dose 10-15 g of drug in 2-3 portions, as a cure around menstruation (3-5 days before until end of bleeding). Freshly prepared — the hemostatic action weakens on prolonged storage of the drug."
+      },
+      "amount_dry_g": {
+        "min": 1.0,
+        "max": 1.5
+      },
+      "water_ml": 150,
+      "steep_min": 10,
+      "doses_per_day": 3,
+      "max_duration_weeks": 2,
+      "evidence_level": "commission_e",
+      "source_ids": [
+        "src_kommission_e_capsella",
+        "src_escop_capsella",
+        "src_heilkraeuter",
+        "src_madaus"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "menstrual",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Hauptpräparat der Volksmedizin zur Blutstillung: bei Menorrhagie, Nasenbluten, Hämorrhoidalblutungen und postpartalen Nachblutungen. Hirtentäschel-Tinktur war im 1. Weltkrieg Ersatzmittel für Mutterkornpräparate.",
+        "en": "Main folk-medicine preparation for hemostasis: for menorrhagia, nosebleeds, hemorrhoidal bleeding and postpartum bleeding. Shepherd's purse tincture served as a substitute for ergot preparations in World War I."
+      },
+      "preparation": {
+        "de": "Frisches blühendes Kraut zerkleinern, in Schraubglas füllen, mit 40-50 %igem Alkohol (Doppelkorn/Wodka) im Verhältnis 1:5 übergiessen, 2-3 Wochen warm und dunkel ziehen lassen, gelegentlich schütteln, abseihen. Dosierung: 20-30 Tropfen 3x täglich in wenig Wasser, akut alle 2 Stunden bis zur Blutungsstillung (max. 5 Tage). Frische Tinktur ist deutlich wirksamer als die aus getrocknetem Kraut.",
+        "en": "Chop fresh flowering herb, fill into screw-top jar, cover 1:5 with 40-50 % alcohol (vodka), macerate 2-3 weeks in warm dark place, shake occasionally, strain. Dosage: 20-30 drops 3x daily in a little water, acutely every 2 hours until bleeding stops (max. 5 days). Fresh-herb tincture is markedly more effective than that from dried herb."
+      },
+      "amount_ml": {
+        "min": 1.0,
+        "max": 1.5
+      },
+      "doses_per_day": 3,
+      "max_duration_weeks": 2,
+      "evidence_level": "traditional",
+      "source_ids": [
+        "src_escop_capsella",
+        "src_heilkraeuter",
+        "src_madaus",
+        "src_henriettes"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Volksmedizinische Wundkompresse bei kleineren blutenden Schnitt- und Schürfwunden, Nasenbluten (Tampon), Hämorrhoidalblutungen und oberflächlichen Hautverletzungen — blutstillend und adstringierend.",
+        "en": "Folk-medicine wound compress for minor bleeding cuts and abrasions, nosebleeds (tampon), hemorrhoidal bleeding and superficial skin injuries — hemostatic and astringent."
+      },
+      "preparation": {
+        "de": "Starken Aufguss aus 2 EL (ca. 4 g) Kraut auf 250 ml kochendem Wasser zubereiten, 15 Min ziehen lassen, abseihen, lauwarm verwenden. Leinentuch tränken, ausdrücken, 15-20 Min auflegen, 2-3x täglich. Alternativ frisches Kraut zerquetschen und direkt auflegen ('grüne Auflage'). Bei Nasenbluten: kleinen Wattetampon mit Tinktur oder kaltem Aufguss tränken und einlegen.",
+        "en": "Prepare strong infusion from 2 tbsp (ca. 4 g) herb per 250 ml boiling water, steep 15 min, strain, use lukewarm. Soak linen cloth, wring out, apply 15-20 min, 2-3x daily. Alternatively crush fresh herb and apply directly ('green poultice'). For nosebleed: soak small cotton tampon with tincture or cold infusion and insert."
+      },
+      "amount_dry_g": {
+        "min": 4.0,
+        "max": 6.0
+      },
+      "water_ml": 250,
+      "steep_min": 15,
+      "doses_per_day": 3,
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_heilkraeuter",
+        "src_madaus",
+        "src_henriettes",
+        "src_pfaf"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "description": {
+        "de": "Frühjahrs-Wildkraut: junge Grundblätter werden roh in Salaten, als Spinat-Ersatz, in Wildkräutersuppen, Kräuterquark und Pestos verwendet — nussig-kresseartiger Geschmack (Glucosinolate, typisch Brassicaceae). Vitaminreich und mineralreich, gehörte traditionell zu den 'neun Kräutern' der Gründonnerstagssuppe.",
+        "en": "Spring wild herb: young basal leaves are used raw in salads, as a spinach substitute, in wild-herb soups, herbed quark and pestos — nutty cress-like flavour (glucosinolates, typical of Brassicaceae). Vitamin- and mineral-rich, traditionally one of the 'nine herbs' of Maundy Thursday soup."
+      },
+      "preparation": {
+        "de": "Junge, zarte Grundblätter vor der Blüte (Februar-April) ernten, gründlich waschen, fein hacken. 1-2 Handvoll pro Portion roh in Salate oder Kräuterquark mischen, oder kurz mit Butter dünsten als Spinat-Ersatz. Reife, lange in der Sonne gestandene Blätter werden bitter und zäh.",
+        "en": "Harvest young tender basal leaves before flowering (February-April), wash thoroughly, chop finely. Mix 1-2 handfuls per portion raw into salads or herbed quark, or briefly sauté with butter as a spinach substitute. Mature leaves exposed long to sun become bitter and tough."
+      },
+      "doses_per_day": 2,
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_pfaf",
+        "src_heilkraeuter",
+        "src_wikipedia_de"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Volksmedizinisch bei Zahnfleischbluten, leichten Zahnfleischentzündungen (Gingivitis) und blutendem Mundraum nach Zahnextraktion — adstringierend und hämostatisch.",
+        "en": "Folk medicine for bleeding gums, mild gum inflammation (gingivitis) and bleeding mouth after tooth extraction — astringent and hemostatic."
+      },
+      "preparation": {
+        "de": "Aufguss aus 2 TL (ca. 3 g) getrocknetem Kraut auf 200 ml kochendem Wasser, 10 Min ziehen, abseihen, abkühlen lassen. 2-4x täglich 1-2 Min damit gurgeln oder den Mund spülen, anschliessend ausspucken (nicht schlucken bei Wunden im Mundraum). Alternativ 1 TL Tinktur in 100 ml lauwarmem Wasser.",
+        "en": "Infusion from 2 tsp (ca. 3 g) dried herb per 200 ml boiling water, steep 10 min, strain, cool. Gargle or rinse mouth 2-4x daily for 1-2 min, then spit out (do not swallow with mouth wounds). Alternatively 1 tsp tincture in 100 ml lukewarm water."
+      },
+      "amount_dry_g": {
+        "min": 3.0,
+        "max": 4.0
+      },
+      "water_ml": 200,
+      "steep_min": 10,
+      "doses_per_day": 4,
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_heilkraeuter",
+        "src_madaus",
+        "src_pfaf"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "circulation",
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Volksmedizinisch unterstützend bei leichten Bluthochdruckbeschwerden und als mildes Diuretikum bei Wassereinlagerungen — die blutdruckregulierenden und schwach harntreibenden Eigenschaften der Pflanze werden seit Jahrhunderten genutzt (Tyramin-Gehalt, Flavonoide).",
+        "en": "Folk-medicine support for mild high blood pressure complaints and as a mild diuretic for fluid retention — the blood-pressure regulating and mildly diuretic properties have been used for centuries (tyramine content, flavonoids)."
+      },
+      "preparation": {
+        "de": "1 TL (ca. 1 g) getrocknetes Kraut mit 150 ml kochendem Wasser übergiessen, 10 Min zugedeckt ziehen, abseihen. 2x täglich eine Tasse, kurweise 2-3 Wochen. Bei diagnostizierter Hypertonie immer ärztlich begleiten — kein Ersatz für antihypertensive Therapie.",
+        "en": "Pour 150 ml boiling water over 1 tsp (ca. 1 g) dried herb, steep covered 10 min, strain. Drink one cup 2x daily, as a cure for 2-3 weeks. With diagnosed hypertension always under medical supervision — no replacement for antihypertensive therapy."
+      },
+      "amount_dry_g": {
+        "min": 1.0,
+        "max": 1.5
+      },
+      "water_ml": 150,
+      "steep_min": 10,
+      "doses_per_day": 2,
+      "max_duration_weeks": 3,
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_pfaf",
+        "src_heilkraeuter",
+        "src_madaus",
+        "src_henriettes"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Hirtentäschel enthält Cholin, Acetylcholin und Tyramin-ähnliche Substanzen mit uteruskontrahierender, blutdruck- und herzfrequenzbeeinflussender Wirkung. Während der Schwangerschaft kontraindiziert (traditioneller Wehenförderer; das Mittel wurde in der Geburtshilfe gezielt zur Stimulation der Uteruskontraktion eingesetzt). Bei bestehender Hypertonie- oder Antikoagulanzientherapie nur nach ärztlicher Rücksprache. Längere ununterbrochene Einnahme nicht empfohlen — kurweise um die Menstruation einsetzen. Die hämostatische Wirkung schwächt sich bei langer Trocken-Lagerung deutlich ab; frische Droge oder frisch-zubereitete Tinktur bevorzugen.",
+      "en": "Shepherd's purse contains choline, acetylcholine and tyramine-like substances with uterus-contracting and blood-pressure / heart-rate-modifying activity. Contraindicated during pregnancy (traditional labour stimulant; used in obstetrics specifically to stimulate uterine contractions). With existing hypertension or anticoagulant therapy only after medical consultation. Prolonged uninterrupted intake not recommended — use as a cure around menstruation. Hemostatic activity weakens markedly with prolonged dry storage; prefer fresh drug or freshly prepared tincture."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In der Schwangerschaft strikt zu meiden. Hirtentäschel war historisch ein klassischer Wehenförderer ('Heimwehkraut der Hebammen') und wurde gezielt zur Stimulation der Gebärmutterkontraktion und zur Stillung postpartaler Blutungen eingesetzt — vor Einsetzen der Wehen daher kontraindiziert wegen möglichem Abortrisiko und vorzeitigen Wehen. Auch keine kulinarische Anwendung in grösseren Mengen.",
+        "en": "Strictly to be avoided in pregnancy. Shepherd's purse was historically a classic labour stimulant ('midwives' herb') used specifically to stimulate uterine contraction and to staunch postpartum bleeding — therefore contraindicated before onset of labour due to possible risk of abortion and premature contractions. Also no culinary use in larger amounts."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Sicherheitsdaten in der Stillzeit. Wegen der enthaltenen Amine (Cholin, Acetylcholin, Tyramin) und der traditionellen Anwendung als Uterotonikum sollte therapeutische Einnahme in der Stillzeit gemieden oder nur nach Rücksprache mit Hebamme/Arzt erfolgen. Geringe kulinarische Mengen junger Frühjahrsblätter im Salat gelten als unbedenklich.",
+        "en": "Insufficient safety data during lactation. Due to amines (choline, acetylcholine, tyramine) and traditional use as a uterotonic, therapeutic intake should be avoided during breastfeeding or only with midwife/doctor consultation. Small culinary amounts of young spring leaves in salads are considered safe."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Bei Säuglingen und Kleinkindern unter 6 Jahren keine innerliche therapeutische Anwendung — keine pädiatrische Dosisdaten, und die kreislaufwirksamen Inhaltsstoffe (Acetylcholin, Tyramin) können bei kleinen Kindern unvorhersagbar wirken. Ältere Kinder ab Schulalter dürfen kleine Mengen kurzfristig (z. B. halbe Tasse Tee bei Nasenbluten, kulinarisch im Wildkräutersalat) erhalten.",
+        "en": "No internal therapeutic use in infants and toddlers under 6 years — no paediatric dose data, and the circulatory-active constituents (acetylcholine, tyramine) can act unpredictably in small children. Older school-age children may receive small short-term amounts (e.g. half a cup of tea for nosebleed, culinary in wild-herb salad)."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulanzien und Thrombozytenaggregationshemmer (Warfarin, Phenprocoumon, DOAKs, ASS, Clopidogrel)",
+        "mechanism": {
+          "de": "Hirtentäschel wirkt traditionell hämostatisch (blutstillend) durch flavonoid- und gerbstoffvermittelte Kapillarabdichtung und durch uteruskontrahierende Aminosäuren. Bei gleichzeitiger antikoagulativer Therapie können sich die Wirkungen antagonisieren — verminderter Antikoagulationseffekt, Risiko thromboembolischer Ereignisse. INR-Kontrolle empfohlen.",
+          "en": "Shepherd's purse acts traditionally hemostatically through flavonoid- and tannin-mediated capillary sealing and through uterus-contracting amino acids. With concurrent anticoagulant therapy effects can antagonize — reduced anticoagulant effect, risk of thromboembolic events. INR monitoring recommended."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_capsella"
+      },
+      {
+        "drug_class": "Antihypertensiva und Diuretika (ACE-Hemmer, Sartane, Beta-Blocker, Thiazide, Schleifendiuretika)",
+        "mechanism": {
+          "de": "Schwach blutdrucksenkende und milde diuretische Eigenschaften der Pflanze können den Effekt blutdrucksenkender und entwässernder Arzneimittel verstärken — Risiko von Hypotonie, Schwindel, Elektrolytverschiebungen. Blutdruckkontrolle und ggf. Dosisanpassung.",
+          "en": "Mild blood-pressure-lowering and diuretic properties of the plant can potentiate the effects of antihypertensive and diuretic drugs — risk of hypotension, dizziness, electrolyte shifts. Monitor blood pressure and adjust dose if needed."
+        },
+        "severity": "monitor",
+        "source_id": "src_pfaf"
+      },
+      {
+        "drug_class": "Schilddrüsenhormone und Thyreostatika (Levothyroxin, Carbimazol, Thiamazol)",
+        "mechanism": {
+          "de": "Glucosinolate (Sinigrin und andere Senfölglykoside), typisch für Brassicaceae, können bei längerer hochdosierter Einnahme die Iod-Aufnahme der Schilddrüse hemmen (goitrogene Wirkung). Bei bestehender Schilddrüsenerkrankung und Therapie keine therapeutischen Dauer-Anwendungen; kulinarische Mengen unproblematisch.",
+          "en": "Glucosinolates (sinigrin and other mustard-oil glycosides), typical of Brassicaceae, can inhibit iodine uptake by the thyroid with prolonged high-dose intake (goitrogenic effect). With existing thyroid disease and therapy avoid therapeutic long-term use; culinary amounts are unproblematic."
+        },
+        "severity": "monitor",
+        "source_id": "src_wikipedia_de"
+      },
+      {
+        "drug_class": "MAO-Hemmer (Tranylcypromin, Moclobemid, Selegilin)",
+        "mechanism": {
+          "de": "Hirtentäschel enthält Tyramin-ähnliche biogene Amine. Bei gleichzeitiger MAO-Hemmer-Therapie ist die Inaktivierung dieser Amine reduziert — Risiko einer hypertensiven Krise (Blutdruckspitzen, Kopfschmerz, Herzrasen). Therapeutische Anwendung in dieser Konstellation vermeiden.",
+          "en": "Shepherd's purse contains tyramine-like biogenic amines. With concurrent MAOI therapy the inactivation of these amines is reduced — risk of hypertensive crisis (blood-pressure spikes, headache, palpitations). Avoid therapeutic use in this combination."
+        },
+        "severity": "avoid",
+        "source_id": "src_escop_capsella"
+      }
+    ],
+    "max_continuous_use_weeks": 4,
+    "contraindications": [
+      {
+        "de": "Schwangerschaft (uteruskontrahierende Wirkung, traditioneller Wehenförderer — Abortrisiko, vorzeitige Wehen)",
+        "en": "Pregnancy (uterus-contracting action, traditional labour stimulant — risk of abortion and premature labour)"
+      },
+      {
+        "de": "Bekannte Allergie gegen Brassicaceae (Kreuzblütler: Senf, Meerrettich, Kohlarten, Raps)",
+        "en": "Known allergy to Brassicaceae (cruciferae: mustard, horseradish, cabbage family, rapeseed)"
+      },
+      {
+        "de": "Therapie mit Antikoagulanzien oder Thrombozytenaggregationshemmern (ohne ärztliche Rücksprache)",
+        "en": "Therapy with anticoagulants or platelet aggregation inhibitors (without medical consultation)"
+      },
+      {
+        "de": "Manifeste Hypertonie unter laufender antihypertensiver Therapie (ohne ärztliche Rücksprache)",
+        "en": "Manifest hypertension under ongoing antihypertensive therapy (without medical consultation)"
+      },
+      {
+        "de": "Hyper- und Hypothyreose unter laufender Therapie (Glucosinolat-bedingte Iod-Interferenz)",
+        "en": "Hyper- and hypothyroidism under ongoing therapy (glucosinolate-mediated iodine interference)"
+      },
+      {
+        "de": "Behandlung mit MAO-Hemmern (Tyramin-ähnliche Amine — hypertensive Krise möglich)",
+        "en": "Treatment with MAO inhibitors (tyramine-like amines — possible hypertensive crisis)"
+      },
+      {
+        "de": "Säuglinge und Kleinkinder unter 6 Jahren (innerliche therapeutische Anwendung)",
+        "en": "Infants and toddlers under 6 years (internal therapeutic use)"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gewöhnliches Hirtentäschel (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliches_Hirtent%C3%A4schel",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Capsella bursa-pastoris (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Capsella_bursa-pastoris",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_kommission_e_capsella",
+      "type": "monograph",
+      "title": "Kommission E Monographie (positiv) — Bursae pastoris herba (Hirtentäschelkraut), Bundesanzeiger Nr. 173 vom 18.09.1986; Anwendungsgebiete: symptomatisch bei Menorrhagien und Metrorrhagien sowie äusserlich bei Nasenbluten und oberflächlichen blutenden Hautverletzungen",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/0072.htm",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_escop_capsella",
+      "type": "monograph",
+      "title": "ESCOP Monograph — Bursae pastoris herba (Shepherd's Purse Herb), European Scientific Cooperative on Phytotherapy",
+      "url": "https://escop.com/downloads/shepherds-purse-bursae-pastoris-herba/",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_pfaf",
+      "type": "monograph",
+      "title": "Plants For A Future — Capsella bursa-pastoris (Shepherd's Purse)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Capsella+bursa-pastoris",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_heilkraeuter",
+      "type": "monograph",
+      "title": "Heilkräuter-Lexikon: Hirtentäschelkraut (Capsella bursa-pastoris)",
+      "url": "https://heilkraeuter.de/lexikon/hirtenta.htm",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_madaus",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel (1938), Band II: Capsella bursa-pastoris (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/capsella.html",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_henriettes",
+      "type": "monograph",
+      "title": "Henriette's Herbal Homepage — Capsella bursa-pastoris (Shepherd's Purse), King's American Dispensatory 1898",
+      "url": "https://www.henriettes-herb.com/eclectic/kings/capsella.html",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wikipedia_de",
+      "type": "wikipedia",
+      "title": "Wikipedia (DE): Gewöhnliches Hirtentäschel (Capsella bursa-pastoris)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliches_Hirtent%C3%A4schel",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wikipedia_en",
+      "type": "wikipedia",
+      "title": "Wikipedia (EN): Capsella bursa-pastoris (Shepherd's Purse)",
+      "url": "https://en.wikipedia.org/wiki/Capsella_bursa-pastoris",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wikidata",
+      "type": "wikidata",
+      "title": "Wikidata: Capsella bursa-pastoris (Q156801)",
+      "url": "https://www.wikidata.org/wiki/Q156801",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_commons",
+      "type": "commons",
+      "title": "Wikimedia Commons — Category: Capsella bursa-pastoris",
+      "url": "https://commons.wikimedia.org/wiki/Category:Capsella_bursa-pastoris",
+      "accessed": "2026-05-19"
+    }
+  ],
+  "image": {
+    "filename": "capsella-bursa-pastoris.jpg",
+    "alt": {
+      "de": "Foto von Gewöhnliches Hirtentäschel",
+      "en": "Photo of Capsella bursa-pastoris"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "H. Zell",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Capsella_bursa-pastoris_002.JPG"
+  },
+  "constituents": [
+    {
+      "name": "Cholin, Acetylcholin und weitere biogene Amine (Tyramin, Histamin)",
+      "category": "other",
+      "percent_range": "0,2-0,3 % Cholin; Spuren Acetylcholin/Tyramin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Pharmakologische Leitsubstanzen der Pflanze: Acetylcholin und Cholin wirken uteruskontrahierend, was die traditionelle Anwendung als Wehenförderer und bei Menorrhagie/postpartalen Blutungen mechanistisch erklärt. Tyramin kann blutdruck- und herzfrequenzwirksam sein — Begründung sowohl für die hämostatische Wirkung (Vasokonstriktion) als auch für die Interaktionswarnung bei MAO-Hemmern.",
+        "en": "Pharmacological lead substances: acetylcholine and choline act uterus-contracting, which mechanistically explains the traditional use as labour stimulant and for menorrhagia/postpartum bleeding. Tyramine can affect blood pressure and heart rate — rationale both for the hemostatic action (vasoconstriction) and for the MAOI interaction warning."
+      }
+    },
+    {
+      "name": "Flavonoide (Rutin, Hyperosid, Quercetin, Luteolin-7-rutinosid, Diosmin)",
+      "category": "flavonoid",
+      "percent_range": "0,6-1,5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Rutin und Hyperosid wirken kapillarabdichtend und antioxidativ — sie reduzieren die Permeabilität kleiner Blutgefässe und unterstützen damit die blutstillende und ödemreduzierende Wirkung der Droge (auch bei Hämorrhoidalblutungen und Nasenbluten). Diosmin wird auch in modernen Venenpräparaten eingesetzt.",
+        "en": "Rutin and hyperoside act capillary-sealing and antioxidant — they reduce the permeability of small blood vessels and thus support the hemostatic and oedema-reducing effects of the drug (also for hemorrhoidal bleeding and nosebleed). Diosmin is also used in modern venous preparations."
+      }
+    },
+    {
+      "name": "Glucosinolate (Sinigrin, Glucotropaeolin, Glucocochlearin)",
+      "category": "glycoside",
+      "percent_range": "0,1-0,3 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Charakteristische Senfölglykoside der Brassicaceae — verleihen Hirtentäschel den scharf-kresseartigen Geschmack, der bei Verletzung des Gewebes durch das Enzym Myrosinase zu reizenden Senfölen (Allylsenföl aus Sinigrin) gespalten wird. Wirken antimikrobiell und leicht durchblutungsfördernd; verantwortlich für die goitrogene Eigenschaft (Iod-Aufnahmehemmung der Schilddrüse) bei Dauergebrauch.",
+        "en": "Characteristic mustard-oil glycosides of the Brassicaceae — give shepherd's purse its sharp cress-like flavour and are cleaved by the enzyme myrosinase to pungent mustard oils (allyl mustard oil from sinigrin) on tissue injury. They act antimicrobial and mildly circulation-stimulating; responsible for the goitrogenic property (thyroid iodine uptake inhibition) on prolonged use."
+      }
+    },
+    {
+      "name": "Triterpensaponine (Capsellinsäure-Derivate)",
+      "category": "saponin",
+      "percent_range": "Spuren bis 0,2 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Schwach entzündungshemmend und leicht haemostatisch durch Membran-Stabilisierung der Erythrozyten und Thrombozyten. Tragen zur Gesamtwirkung der Droge bei, sind aber nicht die Leitsubstanz.",
+        "en": "Mildly anti-inflammatory and slightly hemostatic via membrane stabilization of erythrocytes and thrombocytes. Contribute to the overall action of the drug but are not the lead substance."
+      }
+    },
+    {
+      "name": "Kaliumsalze und organische Säuren (Apfelsäure, Bursinsäure, Fumarsäure)",
+      "category": "mineral",
+      "percent_range": "Kalium ca. 2-4 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Der hohe Kaliumgehalt und die organischen Säuren erklären die milde aquaretische (harntreibende) Wirkung — Begründung der volksmedizinischen Anwendung bei Wassereinlagerungen und leichten Harnwegsbeschwerden. Bursinsäure ist eine pflanzenspezifische Säure mit Namensgeber 'Bursa pastoris'.",
+        "en": "The high potassium content and organic acids explain the mild aquaretic (diuretic) action — rationale for folk use in fluid retention and mild urinary tract complaints. Bursic acid is a species-specific acid named after 'Bursa pastoris'."
+      }
+    },
+    {
+      "name": "Phytosterole (beta-Sitosterol, Stigmasterol, Campesterol)",
+      "category": "other",
+      "percent_range": "Spuren bis 0,1 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Tragen zu schwach entzündungshemmenden und immunmodulierenden Effekten bei. beta-Sitosterol ist auch in anderen Brassicaceae und vielen Heilpflanzen vertreten — nicht spezifisch für Hirtentäschel, aber konsistenter Begleitstoff.",
+        "en": "Contribute to mild anti-inflammatory and immunomodulating effects. Beta-sitosterol is also present in other Brassicaceae and many medicinal plants — not specific to shepherd's purse, but a consistent accompanying compound."
+      }
+    },
+    {
+      "name": "Vitamin C, Vitamin K, Carotinoide",
+      "category": "vitamin",
+      "percent_range": "Vitamin C 30-90 mg/100 g; Vitamin K Spuren",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Vitamin K trägt zur blutgerinnungsfördernden Wirkung bei (Carboxylierung von Gerinnungsfaktoren II, VII, IX, X) — molekulare Begründung für die hämostatische Tradition. Vitamin C und Carotinoide unterstützen den Wert als Frühjahrs-Wildkraut in der Wildkräuterküche.",
+        "en": "Vitamin K contributes to the procoagulant action (carboxylation of coagulation factors II, VII, IX, X) — molecular rationale for the hemostatic tradition. Vitamin C and carotenoids support the value as a spring wild herb in wild-herb cuisine."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "An sonnigen, trockenen Vormittagen nach Abtrocknen des Taus sammeln — höchster Wirkstoffgehalt vor der Vollreife der charakteristischen herzförmigen Schötchen ('Täschchen'). Pflanzen mit noch frischen Blüten und beginnender Schötchenbildung bevorzugen.",
+        "en": "Collect on sunny dry mornings after dew has dried — highest active ingredient content before full ripening of the characteristic heart-shaped pods ('purses'). Prefer plants with fresh flowers and beginning pod formation."
+      },
+      "drying": {
+        "de": "Oberirdische Teile (blühendes Kraut, ca. 10-20 cm) mit Schere abschneiden. Lose zu kleinen Sträussen binden und kopfüber im luftigen Schatten aufhängen ODER locker auf Tüchern/Sieben ausbreiten. Trocknungstemperatur maximal 35-40 °C, damit die thermolabilen Wirkstoffe (Acetylcholin, Vitamin C) erhalten bleiben. Verwechslungsgefahr gering — Hirtentäschel hat eindeutige herzförmige Schötchen; lediglich vor der Blüte mit anderen Brassicaceae-Rosetten verwechselbar. Nach 5-8 Tagen rascheltrocken in dunklen, luftdichten Gefässen oder Papiertüten lagern.",
+        "en": "Cut aerial parts (flowering herb, ca. 10-20 cm) with scissors. Tie loosely into small bunches and hang upside down in airy shade OR spread loosely on cloths/sieves. Drying temperature max. 35-40 °C to preserve thermolabile constituents (acetylcholine, vitamin C). Confusion risk low — shepherd's purse has unmistakable heart-shaped pods; only before flowering possible confusion with other Brassicaceae rosettes. After 5-8 days crisp-dry, store in dark airtight jars or paper bags."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, lichtgeschützt, luftdicht — Haltbarkeit ca. 1 Jahr. Wichtig: die hämostatische Wirkung des Krauts schwächt sich bei langer Lagerung deutlich ab. Bei Bedarf für Tinkturen frische Pflanze bevorzugen; getrocknete Droge möglichst innerhalb eines Jahres aufbrauchen.",
+        "en": "Dry, light-protected, airtight — shelf life ca. 1 year. Important: the hemostatic action of the herb weakens markedly with prolonged storage. Prefer fresh plant for tinctures; use up dried drug preferably within one year."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        2,
+        3,
+        4,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Für die Wildkräuterküche frische, junge Grundblätter vor der Blüte ernten — Februar bis April (Frühjahr) und nochmal September-Oktober (Herbst-Aufgang). Ältere Blätter werden zäh, faserig und durch erhöhten Glucosinolatgehalt sehr scharf.",
+        "en": "For wild-herb cuisine harvest fresh young basal leaves before flowering — February to April (spring) and again September-October (autumn re-growth). Older leaves become tough, fibrous and very pungent due to elevated glucosinolate content."
+      },
+      "drying": {
+        "de": "Für Küchenzwecke nicht trocknen, da Geschmack und Vitamin-C-Gehalt beim Trocknen weitgehend verloren gehen. Frisch verarbeiten (Salat, Suppe, Pesto, Spinat-Ersatz) oder kurz blanchieren und portionsweise einfrieren — gefrorene Blätter behalten Aroma und Vitamine weitgehend.",
+        "en": "Do not dry for culinary purposes since flavour and vitamin C are largely lost on drying. Process fresh (salad, soup, pesto, spinach substitute) or briefly blanch and freeze in portions — frozen leaves largely retain aroma and vitamins."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Frisch im Kühlschrank in feuchtem Tuch nur 1-2 Tage haltbar; tiefgekühlt bis 6 Monate. Keine langfristige Trockenlagerung als Küchenkraut sinnvoll.",
+        "en": "Fresh in refrigerator wrapped in damp cloth keeps only 1-2 days; frozen up to 6 months. No worthwhile long-term dry storage as culinary herb."
+      }
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "slug": "brassica-oleracea-capitata-rubra",
+  "names": {
+    "de": "Rotkohl",
+    "en": "Red cabbage",
+    "latin": "Brassica oleracea convar. capitata var. rubra"
+  },
+  "family": {
+    "de": "Kreuzblütler",
+    "en": "Cabbage family",
+    "latin": "Brassicaceae"
+  },
+  "description": {
+    "de": "Rotkohl und Kabes, Rotkraut, Blaukraut, Blau- bzw. Rotchabis (Schweizerdeutsch), regional auch „Blaukohl“ genannt, ist eine Kohlart des Kopfkohls.",
+    "en": "The red cabbage is a kind of cabbage, also known as Blaukraut after preparation. Its leaves are coloured dark red/purple. However, the plant changes its colour according to the pH value of the soil due to a pigment belonging to anthocyanins."
+  },
+  "teaser": {
+    "de": "Rotkohl und Kabes, Rotkraut, Blaukraut, Blau- bzw.",
+    "en": "The red cabbage is a kind of cabbage, also known as Blaukraut after preparation."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Roher Rotkohl enthält im Vergleich zu Weißkohl mehr Anthocyane (v.a. Cyanidin-Glykoside) und mehr Vitamin C (ca. 57 mg/100 g frisch). Als Rohkostsalat wird er in der europäischen Volksküche traditionell zur Stärkung der Abwehrkräfte und als Mineralstofflieferant eingesetzt. Kochen reduziert den Vitamin-C-Gehalt erheblich — Rohverzehr ist nutritiv vorzuziehen.",
+        "en": "Raw red cabbage contains more anthocyanins (mainly cyanidin glycosides) and more vitamin C (approx. 57 mg/100 g fresh) than white cabbage. As a raw salad it is traditionally used in European folk cuisine to support the immune system and as a mineral source. Cooking significantly reduces vitamin C content — raw consumption is nutritionally preferable."
+      },
+      "source_ids": [
+        "src_archana_antioxidant",
+        "src_singh_ascorbic",
+        "src_hanschen_glucosinolate"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Traditionell fermentierter Rotkohl-Sauerkraut (Milchsäuregärung) wird in der mitteleuropäischen Volksmedizin bei Verdauungsbeschwerden und als probiotisches Lebensmittel eingesetzt. Die Milchsäuregärung erhöht die Bioverfügbarkeit von Glucosinolaten und produziert lebende Lactobacillus-Kulturen, die die Darmflora unterstützen.",
+        "en": "Traditionally fermented red cabbage sauerkraut (lactic acid fermentation) is used in Central European folk medicine for digestive complaints and as a probiotic food. Lactic acid fermentation increases the bioavailability of glucosinolates and produces live Lactobacillus cultures supporting gut microbiota."
+      },
+      "source_ids": [
+        "src_das_kimchi_sauerkraut",
+        "src_wiki_rotkohl"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "circulation",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Anthocyane des Rotkohls (v.a. Cyanidin-3-diglucosid, Cyanidin-3-sophorosid) werden in der Volksmedizin und modernen Ernährungsforschung mit einer Verbesserung der Kapillarfestigkeit und vaskulären Gesundheit in Verbindung gebracht. Tanchev & Timberlake (1969) charakterisierten erstmals die Anthocyan-Zusammensetzung von Brassica oleracea und zeigten deren antioxidative Kapazität.",
+        "en": "Anthocyanins of red cabbage (mainly cyanidin-3-diglucoside, cyanidin-3-sophoroside) are linked in folk medicine and modern nutritional research to improved capillary integrity and vascular health. Tanchev & Timberlake (1969) were the first to characterise the anthocyanin composition of Brassica oleracea and demonstrated its antioxidant capacity."
+      },
+      "source_ids": [
+        "src_tanchev_anthocyanins",
+        "src_oroian_tpc_extraction",
+        "src_archana_antioxidant"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "joints",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der europäischen Volksmedizin wird frischer Rotkohls-Saft bei Gelenkbeschwerden und Arthritis-Symptomen getrunken. Glucosinolate (v.a. Glucobrassicin, Sinigrin) werden als bioaktive Leitsubstanzen betrachtet. Klinische Belege für diese spezifische Indikation fehlen; der traditionelle Gebrauch ist kulturell breit verankert.",
+        "en": "In European folk medicine, fresh red cabbage juice is drunk for joint complaints and arthritis symptoms. Glucosinolates (mainly glucobrassicin, sinigrin) are regarded as the key bioactive compounds. Clinical evidence for this specific indication is lacking; traditional use is culturally widespread."
+      },
+      "source_ids": [
+        "src_hanschen_glucosinolate",
+        "src_li_sulforaphane"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Gedämpfte oder leicht angewärmte Rotkohl-Blätter werden volksmedizinisch als Wickel bei Gelenkschmerzen, Gicht und Hautirritationen aufgelegt. Die lokale Anwendung der antioxidativen Anthocyane und leicht entzündungshemmenden Senfölglykoside soll abschwellend und schmerzlindernd wirken.",
+        "en": "Steamed or gently warmed red cabbage leaves are applied in folk medicine as compresses for joint pain, gout, and skin irritations. Topical application of the antioxidant anthocyanins and mildly anti-inflammatory glucosinolates is believed to reduce swelling and relieve pain."
+      },
+      "source_ids": [
+        "src_archana_antioxidant",
+        "src_wiki_rotkohl"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Als Kochgemüse ist Rotkohl ein fester Bestandteil der deutschen und österreichischen Winterküche. Er liefert Ballaststoffe (ca. 2,5 g/100 g), Vitamin K₁ (ca. 76 µg/100 g) und Folat. Der traditionelle Rotkohlsalat mit Essig und Zucker erhält die Anthocyane durch den sauren pH-Wert stabiler als beim Kochen.",
+        "en": "As a cooked vegetable, red cabbage is a staple of German and Austrian winter cuisine. It provides dietary fibre (approx. 2.5 g/100 g), vitamin K₁ (approx. 76 µg/100 g), and folate. The traditional red cabbage salad with vinegar and sugar keeps anthocyanins more stable through the low pH than cooking does."
+      },
+      "source_ids": [
+        "src_singh_ascorbic",
+        "src_wiki_rotkohl",
+        "src_tanchev_anthocyanins"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der Naturheilkunde wird Rotkohl-Rohsaft (ca. 100 ml täglich) als Leber- und Gallenmittel empfohlen. Sulforaphan (hydrolysiertes Glucosinolat) aktiviert Phase-II-Entgiftungsenzyme der Leber (Glutathion-S-Transferase). Klinische Studien für diese Indikation an Rotkohl-Saft fehlen; präklinische Daten zu Kreuzblütlern allgemein sind vorhanden.",
+        "en": "In naturopathy, raw red cabbage juice (approx. 100 ml daily) is recommended as a liver and gallbladder remedy. Sulforaphane (hydrolysed glucosinolate) activates hepatic phase-II detoxification enzymes (glutathione S-transferase). Clinical studies for this indication using red cabbage juice are lacking; preclinical data on cruciferous vegetables in general exist."
+      },
+      "source_ids": [
+        "src_li_sulforaphane",
+        "src_hanschen_glucosinolate"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "harvest_part": {
+      "de": "reife Köpfe (Spätsommer-Herbst)",
+      "en": "mature heads (late summer-autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Rotkohl enthält Vitamin K₁ in relevanter Menge — Patienten unter Vitamin-K-Antagonisten (Warfarin, Phenprocoumon) sollten den Verzehr konstant halten und keinen abrupten Mehrkonsum betreiben. Große Mengen rohen Kohls können Schilddrüsenfunktion beeinflussen (goitrogene Glucosinolate). Fermentierter Sauerkraut kann bei Histamin-Intoleranz Probleme verursachen.",
+      "en": "Red cabbage contains significant amounts of vitamin K₁ — patients on vitamin K antagonists (warfarin, phenprocoumon) should keep intake constant and avoid sudden increases. Large amounts of raw cabbage can affect thyroid function (goitrogenic glucosinolates). Fermented sauerkraut may cause problems in histamine intolerance."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Rotkohl als Lebensmittel in üblichen Mengen ist in der Schwangerschaft unbedenklich. Auf sehr große Mengen Rohkohl oder hochkonzentrierte Extrakte verzichten (goitrogen). Folat-Gehalt wertvoll.",
+        "en": "Red cabbage as a food in customary amounts is safe during pregnancy. Avoid very large amounts of raw cabbage or highly concentrated extracts (goitrogenic). Folate content is valuable."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Als Nahrungsmittel in normalen Mengen unbedenklich. Hoher Konsum kann bei manchen Säuglingen Blähungen verursachen (über die Muttermilch).",
+        "en": "Safe as a food in normal amounts during lactation. High consumption may cause flatulence in some infants (via breast milk)."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Als Nahrungsmittel für Kinder geeignet. Roher Kohl bei kleinen Kindern (unter 2 Jahren) gut zerkleinern — Erstickungsgefahr durch große Stücke.",
+        "en": "Suitable as a food for children. Raw cabbage for young children (under 2 years) should be finely chopped — choking hazard from large pieces."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Allergie gegen Kreuzblütler (Brassicaceae)",
+        "en": "Known allergy to cruciferous vegetables (Brassicaceae)"
+      },
+      {
+        "de": "Histamin-Intoleranz bei fermentiertem Rotkohl (Sauerkraut)",
+        "en": "Histamine intolerance when consuming fermented red cabbage (sauerkraut)"
+      },
+      {
+        "de": "Schwere Hypothyreose ohne Jodsubstitution (goitrogene Wirkung großer Rohmengen)",
+        "en": "Severe hypothyroidism without iodine supplementation (goitrogenic effect of large raw amounts)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Vitamin-K-Antagonisten (Warfarin, Phenprocoumon)",
+        "mechanism": {
+          "de": "Vitamin-K₁-Gehalt von Rotkohl kann die INR bei Patienten unter Antikoagulation beeinflussen. Stabiler, konstanter Konsum ist wichtiger als Verzicht.",
+          "en": "Vitamin K₁ content of red cabbage can affect INR in anticoagulated patients. Stable, consistent intake is more important than avoidance."
+        },
+        "severity": "monitor",
+        "source_id": "src_archana_antioxidant"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Rotkohl (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Rotkohl",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Red cabbage (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Red_cabbage",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_tanchev_anthocyanins",
+      "type": "monograph",
+      "title": "Tanchev SS, Timberlake CF (1969): The anthocyanins of red cabbage (Brassica oleracea). Phytochemistry. DOI: 10.1016/s0031-9422(00)85977-4",
+      "url": "https://doi.org/10.1016/s0031-9422(00)85977-4",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_hanschen_glucosinolate",
+      "type": "monograph",
+      "title": "Hanschen FS (2020): Domestic boiling and salad preparation habits affect glucosinolate degradation in red cabbage (Brassica oleracea var. capitata f. rubra). Food Chemistry. DOI: 10.1016/j.foodchem.2020.126694",
+      "url": "https://doi.org/10.1016/j.foodchem.2020.126694",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_archana_antioxidant",
+      "type": "monograph",
+      "title": "Archana J et al. (2018): Antioxidant and Anti Cholinesterase Potential of Red Cabbage (Brassica oleracea var. capitata f. rubra). European Journal of Medicinal Plants. DOI: 10.9734/ejmp/2018/38169",
+      "url": "https://doi.org/10.9734/ejmp/2018/38169",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_oroian_tpc_extraction",
+      "type": "monograph",
+      "title": "Oroian M et al. (2017): Optimization of Total Monomeric Anthocyanin (TMA) and Total Phenolic Content (TPC) Extractions from Red Cabbage (Brassica oleracea var. capitata f. rubra). International Journal of Food Engineering. DOI: 10.1515/ijfe-2016-0036",
+      "url": "https://doi.org/10.1515/ijfe-2016-0036",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_singh_ascorbic",
+      "type": "monograph",
+      "title": "Singh R (2019): The Ascorbic Acid Content of Cabbage (Brassica oleracea). Bulletin of Pure & Applied Sciences — Botany. DOI: 10.5958/2320-3196.2019.00011.9",
+      "url": "https://doi.org/10.5958/2320-3196.2019.00011.9",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_li_sulforaphane",
+      "type": "monograph",
+      "title": "Li Z (2012): Development and verification of sulforaphane extraction method in cabbage (Brassica oleracea L. var. capitata) and broccoli. Journal of Medicinal Plants Research. DOI: 10.5897/jmpr12.229",
+      "url": "https://doi.org/10.5897/jmpr12.229",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_das_kimchi_sauerkraut",
+      "type": "monograph",
+      "title": "Das SK et al. (2022): Kimchi and sauerkraut lactic acid bacteria and human health. In: Lactic Acid Bacteria in Food Biotechnology. Elsevier. DOI: 10.1016/b978-0-323-89875-1.00013-4",
+      "url": "https://doi.org/10.1016/b978-0-323-89875-1.00013-4",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_jmscr_antioxidant_rubra",
+      "type": "monograph",
+      "title": "Ayshwarya M, Sudha Rameshwari K (2015): Assessment of Antioxidant activity in Brassica oleracea var. capitata rubra. Journal of Medical Science And Clinical Research. DOI: 10.18535/jmscr/v3i12.17",
+      "url": "https://doi.org/10.18535/jmscr/v3i12.17",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_rotkohl",
+      "type": "wikipedia",
+      "title": "Wikipedia: Rotkohl (Brassica oleracea convar. capitata var. rubra)",
+      "url": "https://de.wikipedia.org/wiki/Rotkohl",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "brassica-oleracea-capitata-rubra.jpg",
+    "alt": {
+      "de": "Foto von Rotkohl",
+      "en": "Photo of Red cabbage"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "KENPEI",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brassica_oleracea_var_capitata_Rubyball.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 8,
+      "end_month": 11
+    },
+    "days_to_harvest": 140,
+    "spacing_cm": 50,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 2
+  },
+  "companion_planting": {
+    "good_partners": [
+      "apium-graveolens",
+      "rheum-rhabarbarum"
+    ],
+    "bad_partners": [
+      "solanum-lycopersicum"
+    ],
+    "notes_de": "rheum-rhabarbarum: Rhabarber-Blätter beschatten den Boden — auch Rotkohl mag das.",
+    "notes_en": "rheum-rhabarbarum: Rhubarb leaves shade the soil — red cabbage likes it too.",
+    "source": "Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)",
+    "reasons": {
+      "rheum-rhabarbarum": {
+        "de": "Rhabarber-Blätter beschatten den Boden — auch Rotkohl mag das.",
+        "en": "Rhubarb leaves shade the soil — red cabbage likes it too."
+      }
+    }
+  },
+  "permaculture_functions": [
+    "vertical_mid",
+    "ground_cover"
+  ],
+  "constituents": [
+    {
+      "name": "Cyanidin-3,5-diglucosid",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Dominantes Anthocyan in Rotkohl; verantwortlich für die intensive blau-rote Farbe. Starke antioxidative Kapazität (ORAC). Farbstabilität pH-abhängig: rot bei saurem, blau-grün bei alkalischem Milieu.",
+        "en": "Dominant anthocyanin in red cabbage; responsible for the intense blue-red colour. Strong antioxidant capacity (ORAC). Colour stability pH-dependent: red in acidic, blue-green in alkaline environment."
+      }
+    },
+    {
+      "name": "Sinigrin",
+      "category": "glycoside",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Glucosinolat; hydrolysiert durch Myrosinase zu Allyl-Isothiocyanat (Allylsenföl). Antimikrobiell und präklinisch chemoprotektiv. Geht beim Kochen in das Kochwasser über.",
+        "en": "Glucosinolate; hydrolysed by myrosinase to allyl isothiocyanate (allyl mustard oil). Antimicrobial and preclinically chemoprotective. Leaches into cooking water during boiling."
+      }
+    },
+    {
+      "name": "Glucobrassicin",
+      "category": "glycoside",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Indol-Glucosinolat; Vorläufer von Indol-3-Carbinol (I3C) und Diindolylmethan (DIM). Induktoren von Phase-II-Enzymen der Leber; intensiv in der Krebs-Prävention erforscht.",
+        "en": "Indole glucosinolate; precursor of indole-3-carbinol (I3C) and diindolylmethane (DIM). Inducers of hepatic phase-II enzymes; extensively researched in cancer prevention."
+      }
+    },
+    {
+      "name": "Ascorbinsäure (Vitamin C)",
+      "category": "vitamin",
+      "plant_part": "leaf",
+      "percent_range": "40–70 mg/100 g frisch",
+      "note": {
+        "de": "Rotkohl enthält mehr Vitamin C als Weißkohl (ca. 57 mg/100 g frisch). Kochen reduziert den Gehalt um 30–60 %. Cofaktor der Kollagensynthese und des Immunsystems.",
+        "en": "Red cabbage contains more vitamin C than white cabbage (approx. 57 mg/100 g fresh). Cooking reduces content by 30–60%. Cofactor for collagen synthesis and immune function."
+      }
+    },
+    {
+      "name": "Vitamin K₁ (Phyllochinon)",
+      "category": "vitamin",
+      "plant_part": "leaf",
+      "percent_range": "60–80 µg/100 g frisch",
+      "note": {
+        "de": "Wesentlicher Cofaktor der Blutgerinnung (Carboxylierung von Gerinnungsfaktoren II, VII, IX, X) und der Knochenmineralisation (Osteocalcin). Interaktion mit Vitamin-K-Antagonisten beachten.",
+        "en": "Essential cofactor for blood coagulation (carboxylation of clotting factors II, VII, IX, X) and bone mineralisation (osteocalcin). Interaction with vitamin K antagonists should be noted."
+      }
+    },
+    {
+      "name": "Kaempferol-Glykoside",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavonol-Glykoside in Rotkohl; antioxidativ und schwach anti-inflammatorisch. Synergistisch mit den Anthocyanen bei der Radikaleliminierung.",
+        "en": "Flavonol glycosides in red cabbage; antioxidant and mildly anti-inflammatory. Synergistic with anthocyanins in radical scavenging."
+      }
+    },
+    {
+      "name": "Quercetin-Glykoside",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Weitere Flavonole in Rotkohl; hemmen proinflammatorische Zytokine (TNF-α, IL-6) in vitro. Zusammen mit Anthocyanen bestimmen sie den hohen DPPH-ORAC-Score von Rotkohl.",
+        "en": "Further flavonols in red cabbage; inhibit pro-inflammatory cytokines (TNF-α, IL-6) in vitro. Together with anthocyanins they determine the high DPPH-ORAC score of red cabbage."
+      }
+    },
+    {
+      "name": "Ballaststoffe (Zellulose, Pektin)",
+      "category": "polysaccharide",
+      "plant_part": "leaf",
+      "percent_range": "2.0–2.5 g/100 g frisch",
+      "note": {
+        "de": "Rotkohl liefert lösliche (Pektin) und unlösliche (Zellulose) Ballaststoffe, die die Darmtätigkeit regulieren und als Präbiotikum für Bifidobacteria wirken. Fermentierter Rotkohl enthält zusätzlich probiotische Milchsäurebakterien.",
+        "en": "Red cabbage provides soluble (pectin) and insoluble (cellulose) dietary fibre, regulating bowel function and acting as a prebiotic for Bifidobacteria. Fermented red cabbage additionally contains probiotic lactic acid bacteria."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Ganztags erntbar; Kopf nach erster leichter Frostexposition süßer (Kältereize konvertieren Stärke zu Zucker). Morgens ernten wenn Kopf fest und taugetrocknet.",
+        "en": "Can be harvested throughout the day; head becomes sweeter after first light frost (cold converts starch to sugar). Harvest in the morning when head is firm and dew-dried."
+      },
+      "drying": {
+        "de": "Nicht trocknen — frisch verzehren oder fermentieren. Für Vorrat: intakte Köpfe bei 0–4 °C und 90–95 % Luftfeuchtigkeit lagern.",
+        "en": "Do not dry — consume fresh or ferment. For storage: keep whole heads at 0–4 °C and 90–95% relative humidity."
+      },
+      "storage_months": 4,
+      "storage_condition": {
+        "de": "Kühllager bei 0–4 °C, hohe Luftfeuchtigkeit (90–95 %). Intakte Köpfe halten 3–4 Monate. Angeschnittener Kohl in Folie im Kühlschrank max. 5 Tage.",
+        "en": "Cold storage at 0–4 °C, high humidity (90–95%). Whole heads last 3–4 months. Cut cabbage wrapped in the refrigerator up to 5 days."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Frühernte-Sorten (Sommerrotkohl): Köpfe im Frühsommer ernten wenn sie gerade fest werden — höherer Vitamin-C-Gehalt als Lagerware.",
+        "en": "Early-season varieties (summer red cabbage): harvest heads in early summer when just firmed up — higher vitamin C content than stored produce."
+      },
+      "drying": {
+        "de": "Sofortiger Verzehr oder Fermentation empfohlen. Sommerrotkohl hat geringere Lagerfähigkeit als Herbsternte.",
+        "en": "Immediate consumption or fermentation recommended. Summer red cabbage has lower storability than autumn harvest."
+      },
+      "storage_months": 2,
+      "storage_condition": {
+        "de": "Kühlschrank 0–4 °C, max. 6–8 Wochen. Nicht mit ethylenproduzierende Früchten lagern (beschleunigt Alterung).",
+        "en": "Refrigerator 0–4 °C, max. 6–8 weeks. Do not store with ethylene-producing fruits (accelerates ageing)."
+      }
+    }
+  ]
+}

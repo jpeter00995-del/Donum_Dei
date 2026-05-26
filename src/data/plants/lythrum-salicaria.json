@@ -1,0 +1,410 @@
+{
+  "slug": "lythrum-salicaria",
+  "names": {
+    "de": "Gewöhnlicher Blutweiderich",
+    "en": "Lythrum salicaria",
+    "latin": "Lythrum salicaria"
+  },
+  "family": {
+    "de": "Weiderichgewächse",
+    "en": "Loosestrife family",
+    "latin": "Lythraceae"
+  },
+  "description": {
+    "de": "Der Gewöhnliche Blutweiderich ist eine Pflanzenart aus der Gattung der Blutweideriche (Lythrum) innerhalb der Familie der Weiderichgewächse (Lythraceae).",
+    "en": "Lythrum salicaria or purple-loosestrife is a flowering plant belonging to the family Lythraceae. It should not be confused with other plants sharing the name loosestrife that are members of the genus Lysimachia in the family Primulaceae. This herbaceous perennial plant is native to temperate regions of Europe, Asia, northern Africa, and eastern Australia."
+  },
+  "teaser": {
+    "de": "Der Gewöhnliche Blutweiderich ist eine Pflanzenart aus der Gattung der Blutweideriche (Lythrum) innerhalb der Familie...",
+    "en": "Lythrum salicaria or purple-loosestrife is a flowering plant belonging to the family Lythraceae."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Tee aus dem blühenden Kraut (Abkochung oder Aufguss) wird volksmedizinisch bei Durchfall und Ruhr eingesetzt. Die hohen Gerbstoffgehalte (bis 14 % in Blüten) wirken adstringierend auf die Darmschleimhaut und hemmen sekretorische Vorgänge.",
+        "en": "Tea from the flowering herb (decoction or infusion) is used in folk medicine for diarrhoea and dysentery. The high tannin content (up to 14 % in flowers) acts astringently on the intestinal mucosa, reducing secretion."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–4 g getrocknetes Kraut mit 250 ml heißem Wasser übergießen, 10 Minuten ziehen lassen, abseihen; 2–3× täglich.",
+          "en": "Pour 250 ml of hot water over 2–4 g of dried herb, steep for 10 minutes, strain; 2–3 times daily."
+        }
+      },
+      "source_ids": [
+        "src_wiki_de_lythrum",
+        "src_pfaf_lythrum",
+        "src_review_piwowarski"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Abkochung der Wurzel (1–3 g auf 250 ml Wasser) war traditionell bei Ruhr und Blutfluss gebräuchlich, wie bereits Dioscurides berichtete. Die Wurzel enthält ca. 9 % Gerbstoffe.",
+        "en": "Decoction of the root (1–3 g per 250 ml water) was traditionally used for dysentery and haemorrhage, as reported already by Dioscorides. The root contains approx. 9 % tannins."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 3
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "1–3 g Wurzel 15 Minuten in 250 ml Wasser abkochen, abseihen.",
+          "en": "Simmer 1–3 g root in 250 ml water for 15 minutes, strain."
+        }
+      },
+      "source_ids": [
+        "src_wiki_de_lythrum",
+        "src_kings_henriettes_lythrum",
+        "src_review_piwowarski"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Umschläge mit einem starken Tee aus blühendem Kraut wurden äußerlich auf Wunden, Geschwüre, Ekzeme und Hautinfektionen (Impetigo) aufgelegt. Die adstringierende und antimikrobielle Wirkung unterstützt die Wundheilung.",
+        "en": "Compresses soaked in a strong tea from the flowering herb were applied externally to wounds, ulcers, eczema, and skin infections (impetigo). The astringent and antimicrobial action supports wound healing."
+      },
+      "source_ids": [
+        "src_pfaf_lythrum",
+        "src_kings_henriettes_lythrum"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Gurgeln mit Blutweiderich-Tee wurde bei Halsschmerzen und Rachenentzündungen angewendet. Die Gerbstoffe ziehen die Schleimhäute zusammen und verringern Entzündungsreize.",
+        "en": "Gargling with purple loosestrife tea was used for sore throats and pharyngitis. Tannins constrict mucous membranes and reduce inflammatory irritation."
+      },
+      "source_ids": [
+        "src_pfaf_lythrum",
+        "src_kings_henriettes_lythrum"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "menstrual"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Traditionell wurde Blutweiderich-Tee bei zu starker Menstruationsblutung eingesetzt. Die styptischen (blutstillenden) Eigenschaften werden auf den hohen Gerbstoff- und Flavonoidgehalt zurückgeführt.",
+        "en": "Purple loosestrife tea was traditionally used for excessive menstrual bleeding. The styptic (haemostatic) properties are attributed to the high tannin and flavonoid content."
+      },
+      "source_ids": [
+        "src_pfaf_lythrum",
+        "src_review_piwowarski"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Sitzbäder oder lokale Bäder mit Blutweiderich-Extrakt wurden volksmedizinisch bei Scheidenproblemen (Ausfluss) und perianalen Beschwerden genutzt. PFAF nennt zudem die Anwendung bei Ekzem.",
+        "en": "Sitz baths or local baths with purple loosestrife extract were used in folk medicine for vaginal problems (leucorrhoea) and perianal complaints. PFAF also notes application for eczema."
+      },
+      "source_ids": [
+        "src_pfaf_lythrum",
+        "src_kings_henriettes_lythrum"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "skin"
+      ],
+      "internal_external": "both",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Tinktur aus dem blühenden Kraut wird heute in der Kräutermedizin als Gerbstoff-Konzentrat verwendet — intern bei Reizdarmbeschwerden, extern als antiseptischer Umschlag.",
+        "en": "Tincture of the flowering herb is used in contemporary herbal medicine as a concentrated tannin preparation — internally for irritable bowel complaints, externally as an antiseptic compress."
+      },
+      "source_ids": [
+        "src_pfaf_lythrum",
+        "src_review_piwowarski"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bei üblicher Anwendung als Tee (2–4 g Tagesration) gut verträglich. Der hohe Gerbstoffgehalt kann bei empfindlichem Magen Übelkeit verursachen — dann mit kleiner Dosis beginnen oder den Tee nach dem Essen trinken.",
+      "en": "Well tolerated with normal tea use (2–4 g daily). High tannin content may cause nausea in sensitive stomachs — start with a small dose or drink after meals."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine gesicherten Daten zur Anwendung in der Schwangerschaft vorhanden. Vorsorglich meiden.",
+        "en": "No reliable data on use during pregnancy. Avoid as a precaution."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "PFAF bemerkt, das Kraut könne Säuglingen bei Durchfall sicher gegeben werden; jedoch fehlen moderne klinische Daten — Vorsicht geboten.",
+        "en": "PFAF notes the herb can be safely given to nursing infants for diarrhoea; however, modern clinical data are absent — caution advised."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Traditionell als sicher für alle Altersgruppen beschrieben. Aufgrund fehlender moderner Sicherheitsdaten bei Kindern unter 12 Jahren grundsätzlich niedrige Dosis wählen und Rücksprache mit Fachperson halten.",
+        "en": "Traditionally described as safe for all ages. Due to lack of modern safety data, use a low dose for children under 12 and consult a health professional."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Pflanzen der Familie Lythraceae.",
+        "en": "Known hypersensitivity to plants of the family Lythraceae."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Eisenpräparate / Schwermetallsalze",
+        "mechanism": {
+          "de": "Gerbstoffe können Mineralionen komplexieren und deren Resorption hemmen — zeitlicher Abstand von mindestens 2 Stunden empfohlen.",
+          "en": "Tannins can complex mineral ions and inhibit their absorption — a gap of at least 2 hours is recommended."
+        },
+        "severity": "monitor",
+        "source_id": "src_review_piwowarski"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gewöhnlicher Blutweiderich (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Blutweiderich",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Lythrum salicaria (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Lythrum_salicaria",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_de_lythrum",
+      "type": "wikipedia",
+      "title": "Gewöhnlicher Blutweiderich (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Blutweiderich",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_lythrum",
+      "type": "monograph",
+      "title": "Lythrum salicaria — Plants For A Future (PFAF)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Lythrum+salicaria",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_kings_henriettes_lythrum",
+      "type": "book",
+      "title": "King's American Dispensatory (1898) — Lythrum salicaria (Henriette's Herbal)",
+      "url": "https://henriettes-herb.com/eclectic/kings/lythrum.html",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_review_piwowarski",
+      "type": "monograph",
+      "title": "Piwowarski JP, Granica S, Kiss AK. Lythrum salicaria L.—Underestimated medicinal plant from European traditional medicine. A review. J Ethnopharmacol. 2015;170:226-250.",
+      "url": "https://doi.org/10.1016/j.jep.2015.05.017",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wikidata_lythrum",
+      "type": "wikidata",
+      "title": "Lythrum salicaria — Wikidata (Q157513)",
+      "url": "https://www.wikidata.org/wiki/Q157513",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "lythrum-salicaria.jpg",
+    "alt": {
+      "de": "Foto von Gewöhnlicher Blutweiderich",
+      "en": "Photo of Lythrum salicaria"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "BS Thurner Hof",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lythrum_salicaria_-_Blutweiderich_0507241.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Lythrariin / Salicarin",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "percent_range": "< 1 %",
+      "note": {
+        "de": "Charakteristisches Phenolglykosid des Blutweiderichs; trägt zur adstringierenden und antimikrobiellen Wirkung bei.",
+        "en": "Characteristic phenolic glycoside of purple loosestrife; contributes to astringent and antimicrobial activity."
+      }
+    },
+    {
+      "name": "Hydrolisierbare Gerbstoffe (Ellagsäure, Gallussäure-Derivate)",
+      "category": "tannin",
+      "plant_part": "flower",
+      "percent_range": "8,5–13,7 %",
+      "note": {
+        "de": "Blüten enthalten bis zu 13,7 %, Stängel ca. 10,5 %, Wurzeln ca. 8,5 % Gerbstoffe — Hauptwirkträger.",
+        "en": "Flowers contain up to 13.7 %, stems approx. 10.5 %, roots approx. 8.5 % tannins — primary active compounds."
+      }
+    },
+    {
+      "name": "Vitexin",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "C-Glykosyl-Flavon mit antioxidativen und entzündungshemmenden Eigenschaften.",
+        "en": "C-glycosyl flavone with antioxidant and anti-inflammatory properties."
+      }
+    },
+    {
+      "name": "Orientin",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Weiteres C-Glykosyl-Flavon; antioxidativ wirksam.",
+        "en": "Additional C-glycosyl flavone; antioxidant activity documented."
+      }
+    },
+    {
+      "name": "Anthocyane",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Für die rote-violette Blütenfarbe verantwortlich; antioxidative Wirkung.",
+        "en": "Responsible for the red-purple flower colour; antioxidant activity."
+      }
+    },
+    {
+      "name": "p-Cumarsäure",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hydroxyzimtsäure-Derivat mit antioxidativen Eigenschaften.",
+        "en": "Hydroxycinnamic acid derivative with antioxidant properties."
+      }
+    },
+    {
+      "name": "Ellagsäure",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Polyphenol mit antimikrobieller und entzündungshemmender Wirkung; Abbauprodukt hydrolisierbarer Gerbstoffe.",
+        "en": "Polyphenol with antimicrobial and anti-inflammatory activity; hydrolysis product of ellagitannins."
+      }
+    },
+    {
+      "name": "Pektine",
+      "category": "polysaccharide",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Schleimbildende Polysaccharide, die die Magenschleimhaut schützen und die adstringierende Wirkung ergänzen.",
+        "en": "Mucilaginous polysaccharides that protect the gastric mucosa and complement the astringent action."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Vormittags ernten, nachdem der Tau abgetrocknet ist.",
+        "en": "Harvest in the morning after the dew has dried."
+      },
+      "drying": {
+        "de": "Locker gebündelt oder ausgebreitet bei 35–40 °C trocknen, bis die Stängel knacken. Vor Licht schützen, um Anthocyan-Verluste zu minimieren.",
+        "en": "Dry loosely bundled or spread out at 35–40 °C until the stems snap. Protect from light to minimise anthocyanin loss."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Dunkel, trocken und luftdicht in Papiertüten oder Glasgefäßen lagern.",
+        "en": "Store in a dark, dry, airtight container (paper bags or glass jars)."
+      }
+    },
+    {
+      "plant_part": "root",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Herbst, nach dem Verblühen der Pflanze.",
+        "en": "Autumn, after the plant has finished flowering."
+      },
+      "drying": {
+        "de": "Wurzeln reinigen, in Scheiben schneiden und bei 40–50 °C trocknen.",
+        "en": "Clean roots, slice, and dry at 40–50 °C."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "In verschlossenen Glasgefäßen dunkel und trocken lagern.",
+        "en": "Store in sealed glass jars in a dark, dry place."
+      }
+    }
+  ]
+}

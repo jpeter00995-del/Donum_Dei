@@ -1,0 +1,415 @@
+{
+  "slug": "taxus-baccata",
+  "names": {
+    "de": "Europäische Eibe",
+    "en": "Taxus baccata",
+    "latin": "Taxus baccata"
+  },
+  "family": {
+    "de": "Eibengewächse",
+    "en": "Yew family",
+    "latin": "Taxaceae"
+  },
+  "description": {
+    "de": "Die Europäische Eibe, auch Gemeine Eibe oder nur Eibe umgangssprachlich genannt, früher auch Bogenbaum, Eue, Eve, Ibe, If, Ifen und ähnlich genannt, ist die einzige europäische Art in der Pflanzengattung der Eiben (Taxus). Sie ist die älteste (Tertiärrelikt) und schattenverträglichste Baumart Europas. Sie kann ein sehr hohes Alter erreichen.",
+    "en": "Taxus baccata is an Old World species of evergreen tree in the family Taxaceae. It is the tree originally known as yew, though to distinguish it from related species it is sometimes called common yew, European yew, or, in North America, English yew. It is a woodland tree in its native range, including much of Eurasia and Northwest Africa."
+  },
+  "teaser": {
+    "de": "Die Europäische Eibe, auch Gemeine Eibe oder nur Eibe umgangssprachlich genannt, früher auch Bogenbaum, Eue, Eve, Ibe...",
+    "en": "Taxus baccata is an Old World species of evergreen tree in the family Taxaceae."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": [
+        "oncology",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Paclitaxel (Taxol), halbsynthetisch aus 10-Deacetylbaccatin III gewonnen (aus Nadeln von Taxus baccata und T. brevifolia), ist ein klinisch etabliertes Zytostatikum bei Ovarialkarzinom, Mammakarzinom und NSCLC. Die Reinsubstanz wird nicht aus der Pflanze angewendet — dieser Eintrag dokumentiert die pharmazeutische Herkunft des Wirkstoffs. Selbsttherapie mit Eibenpräparaten ist strikte kontraindiziert.",
+        "en": "Paclitaxel (Taxol), semi-synthetically derived from 10-deacetylbaccatin III (from needles of Taxus baccata and T. brevifolia), is a clinically established cytotoxic drug for ovarian carcinoma, breast cancer, and NSCLC. The purified compound is not applied from the plant directly — this entry documents the pharmaceutical origin of the active substance. Self-treatment with yew preparations is strictly contraindicated."
+      },
+      "preparation": {
+        "de": "Nur als zugelassenes Fertigarzneimittel unter onkologischer Überwachung (IV-Infusion). Keine Eigenanwendung möglich oder erlaubt.",
+        "en": "Only as a licensed medicinal product under oncological supervision (IV infusion). No self-application possible or permitted."
+      },
+      "source_ids": [
+        "src_taxus_paclitaxel_history",
+        "src_taxus_ovarian_trial"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "oncology"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Zubereitungen aus Taxus baccata (Taxus Q-Potenzen) wurden im 19. Jahrhundert nach dem homöopathischen Arzneimittelbild bei Erkrankungen mit Blasen- und Nierenreizung sowie bei Gicht eingesetzt. Keine klinische Wirksamkeit belegt. Abzugrenzen von konventionellem Paclitaxel.",
+        "en": "Homeopathic preparations from Taxus baccata (Taxus mother tincture, potencies) were used in the 19th century according to the homeopathic drug picture for conditions with bladder and kidney irritation as well as gout. No clinical efficacy demonstrated. To be distinguished from conventional paclitaxel."
+      },
+      "preparation": {
+        "de": "Nur als zugelassene homöopathische Urtinktur oder Potenz, nach Verschreibung durch einen Arzt. Keine Eigenherstellung — alle Pflanzenteile sind hochgiftig.",
+        "en": "Only as a licensed homeopathic mother tincture or potency, prescribed by a physician. No self-preparation — all plant parts are highly toxic."
+      },
+      "source_ids": [
+        "src_taxus_wiki_de",
+        "src_taxus_pfaf"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "cultural",
+        "spiritual"
+      ],
+      "internal_external": "external",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Die Eibe gilt als eine der ältesten Kulturpflanzen Europas und hat tiefe mythologische Bedeutung. Als immergrüner, jahrhundertealter Baum steht sie für Tod und Wiedergeburt. Typische Kirchhofspflanze in Großbritannien und Irland — Lichtung um alte Kirchen mit bis zu 4000 Jahre alten Exemplaren. Keine medizinische Anwendung; ethnobotanische Dokumentation.",
+        "en": "The yew is considered one of the oldest culturally significant plants of Europe, carrying deep mythological meaning. As an evergreen, centuries-old tree it symbolises death and rebirth. Typical churchyard plant in Britain and Ireland — clearings around old churches harbour specimens up to 4,000 years old. No medicinal application; ethnobotanical documentation."
+      },
+      "preparation": {
+        "de": "Kein Verzehr. Ausschließlich als lebende Pflanze im kulturellen/religiösen Kontext.",
+        "en": "No ingestion. Exclusively as a living plant in cultural/religious context."
+      },
+      "source_ids": [
+        "src_taxus_wiki_en",
+        "src_taxus_yew_churchyard"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Das rote Fruchtfleisch (Arillus) der Eibe ist der EINZIGE nicht-giftige Teil der Pflanze und wurde vereinzelt von Kindern verzehrt. WARNUNG: Samen im Inneren sind hochgiftig (Taxine). In der Volksmedizin des Mittelalters wurden kleinste Mengen Eibenbeeren bei Herzleiden eingesetzt — Praktik, die heute absolut kontraindiziert und gefährlich ist.",
+        "en": "The red aril (fleshy cup) of the yew is the ONLY non-toxic part of the plant and was occasionally eaten by children. WARNING: The seed inside is highly toxic (taxines). In medieval folk medicine, minute amounts of yew berries were used for heart conditions — a practice that is today absolutely contraindicated and dangerous."
+      },
+      "preparation": {
+        "de": "KEINE Eigenanwendung. Historische Erwähnung zu Dokumentationszwecken. Alle Teile außer dem roten Fruchtfleisch sind lebensgefährlich giftig.",
+        "en": "NO self-application. Historical mention for documentation purposes only. All parts except the red aril are lethally toxic."
+      },
+      "source_ids": [
+        "src_taxus_poisoning_extracorporeal",
+        "src_taxus_pfaf"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "WARNUNG — HOCHGIFTIG. In historischen Berichten wurden Eibennadeln als Abortivum und zur Selbstvergiftung benutzt (antike Römer, keltische Krieger vor Gefangennahme). Letale Dosis für Erwachsene: ca. 50–100 g Nadeln. Taxin A und B hemmen Calcium- und Natriumkanäle des Herzens; Tod durch Herzstillstand. Kein therapeutischer Nutzen bei Selbstanwendung.",
+        "en": "WARNING — HIGHLY TOXIC. Historical records describe yew needles being used as an abortifacient and for self-poisoning (ancient Romans, Celtic warriors before capture). Lethal dose for adults: approx. 50–100 g needles. Taxine A and B inhibit cardiac calcium and sodium channels; death by cardiac arrest. No therapeutic benefit from self-application."
+      },
+      "preparation": {
+        "de": "STRIKT VERBOTEN. Keine Eigenanwendung unter keinen Umständen. Alle Teile der Eibe außer rotem Fruchtfleisch sind lebensgefährlich giftig.",
+        "en": "STRICTLY FORBIDDEN. No self-application under any circumstances. All parts of the yew except the red aril are lethally toxic."
+      },
+      "source_ids": [
+        "src_taxus_poisoning_extracorporeal",
+        "src_taxus_toxine_1931"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      8,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Nadeln, Samen, Rinde",
+      "en": "needles, seeds, bark"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "HOCHGIFTIG — LEBENSGEFAHR. Taxus baccata enthält Taxin A und B (cardiotoxische Alkaloide), die bereits in kleinen Mengen zum Tod führen können. Alle Pflanzenteile außer dem roten Fruchtfleisch des Arillus sind giftig. Symptome einer Vergiftung: Schwindel, Erbrechen, Bradykardie, Herzrhythmusstörungen, Herzstillstand. KEINE Selbstanwendung in irgendeiner Form. Paclitaxel als Arzneimittel ausschließlich unter onkologischer Aufsicht. Im Vergiftungsfall: sofort Notruf (112) und Giftnotruf.",
+      "en": "HIGHLY TOXIC — LIFE-THREATENING. Taxus baccata contains taxine A and B (cardiotoxic alkaloids) that can cause death even in small amounts. All plant parts except the red aril are toxic. Symptoms of poisoning: dizziness, vomiting, bradycardia, cardiac arrhythmia, cardiac arrest. NO self-application in any form. Paclitaxel as a medicine exclusively under oncological supervision. In case of poisoning: call emergency services (112) and poison control immediately."
+    },
+    "external_only": false,
+    "toxicity_level": "toxic",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Taxin-Alkaloide sind teratogen und abortiv. Alle Pflanzenanwendungen in der Schwangerschaft absolut kontraindiziert. Auch klinisches Paclitaxel ist in der Schwangerschaft i.d.R. kontraindiziert.",
+        "en": "Taxine alkaloids are teratogenic and abortifacient. All plant applications during pregnancy are absolutely contraindicated. Even clinical paclitaxel is generally contraindicated in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Taxine können in die Muttermilch übergehen. Alle Pflanzenanwendungen in der Stillzeit absolut kontraindiziert.",
+        "en": "Taxines may pass into breast milk. All plant applications during lactation are absolutely contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Besonders gefährdet: Kinder sind für Taxin-Vergiftungen hochempfindlich. Schon wenige Nadeln oder Samen können bei Kindern tödlich sein. Garten-Eibenhecken stellen ein erhebliches Vergiftungsrisiko dar.",
+        "en": "Particularly vulnerable: children are highly sensitive to taxine poisoning. Even a few needles or seeds can be fatal in children. Garden yew hedges represent a significant poisoning risk."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Alle inneren Anwendungen außer unter ärztlicher Aufsicht (klinisches Paclitaxel)",
+        "en": "All internal applications except under medical supervision (clinical paclitaxel)"
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit",
+        "en": "Pregnancy and lactation"
+      },
+      {
+        "de": "Kinder und Jugendliche (alle nicht-klinischen Anwendungen)",
+        "en": "Children and adolescents (all non-clinical applications)"
+      },
+      {
+        "de": "Herzerkrankungen, Herzrhythmusstörungen (erhöhte Empfindlichkeit für Taxin-bedingte Kardiotoxizität)",
+        "en": "Heart disease, cardiac arrhythmias (increased sensitivity to taxine-induced cardiotoxicity)"
+      },
+      {
+        "de": "Gleichzeitige Einnahme von Antiarrhythmika oder Herzglykosiden",
+        "en": "Concurrent use of antiarrhythmics or cardiac glycosides"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antiarrhythmika / Herzglykoside",
+        "mechanism": {
+          "de": "Taxin A und B hemmen Calcium- und Natriumkanäle des Myokards — additive kardiotoxische Wirkung bei gleichzeitiger Einnahme herzwirksamer Substanzen.",
+          "en": "Taxine A and B inhibit cardiac calcium and sodium channels — additive cardiotoxic effect with concurrent use of cardioactive substances."
+        },
+        "severity": "avoid",
+        "source_id": "src_taxus_poisoning_extracorporeal"
+      },
+      {
+        "drug_class": "CYP3A4-Substrate (klinischer Paclitaxel-Kontext)",
+        "mechanism": {
+          "de": "Klinisches Paclitaxel wird über CYP2C8 und CYP3A4 metabolisiert. Klinisch relevante Wechselwirkungen mit CYP3A4-Inhibitoren (z.B. Ketoconazol) und -Induktoren (z.B. Rifampicin) möglich.",
+          "en": "Clinical paclitaxel is metabolised via CYP2C8 and CYP3A4. Clinically relevant interactions with CYP3A4 inhibitors (e.g. ketoconazole) and inducers (e.g. rifampicin) are possible."
+        },
+        "severity": "monitor",
+        "source_id": "src_taxus_paclitaxel_history"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Europäische Eibe (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Europ%C3%A4ische_Eibe",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Taxus baccata (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Taxus_baccata",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_taxus_paclitaxel_history",
+      "type": "monograph",
+      "title": "Le Roux & Guéritte (2017): From the Pacific Yew (Taxus brevifolia) to the English Yew (Taxus baccata): Steps Towards the Discovery of Docetaxel (Taxotere®). In: A Century of Excellence in Measurements, Standards, and Technology. Elsevier.",
+      "url": "https://doi.org/10.1016/b978-1-78548-145-1.50004-0",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_taxus_ovarian_trial",
+      "type": "monograph",
+      "title": "Seewaldt et al. (1994): Paclitaxel (Taxol) treatment for refractory ovarian cancer: Phase II clinical trial. American Journal of Obstetrics and Gynecology.",
+      "url": "https://doi.org/10.1016/s0002-9378(94)70338-8",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_taxus_poisoning_extracorporeal",
+      "type": "monograph",
+      "title": "Panzeri et al. (2010): Extracorporeal life support in a severe Taxus baccata poisoning. Clinical Toxicology, 48(5):463–465.",
+      "url": "https://doi.org/10.3109/15563650.2010.487487",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_taxus_toxine_1931",
+      "type": "monograph",
+      "title": "Callow, Gulland & Virden (1931): Physiologically active constituents of the yew, taxus baccata. Part I. Taxine. Journal of the Chemical Society.",
+      "url": "https://doi.org/10.1039/jr9310002138",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_taxus_wiki_de",
+      "type": "wikipedia",
+      "title": "Wikipedia DE: Europäische Eibe (Taxus baccata)",
+      "url": "https://de.wikipedia.org/wiki/Europ%C3%A4ische_Eibe",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_taxus_wiki_en",
+      "type": "wikipedia",
+      "title": "Wikipedia EN: Taxus baccata",
+      "url": "https://en.wikipedia.org/wiki/Taxus_baccata",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_taxus_pfaf",
+      "type": "book",
+      "title": "Plants For A Future (PFAF): Taxus baccata — Yew, Common yew",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Taxus+baccata",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_taxus_yew_churchyard",
+      "type": "book",
+      "title": "Allen & Hatfield (2004): Medicinal Plants in Folk Tradition — An Ethnobotany of Britain and Ireland. Timber Press. ISBN 978-0-88192-638-5.",
+      "url": "https://www.pfaf.org/user/Plant.aspx?LatinName=Taxus+baccata",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "taxus-baccata.jpg",
+    "alt": {
+      "de": "Foto von Europäische Eibe",
+      "en": "Photo of Taxus baccata"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "4028mdk09",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eibe_Samen_mit_Samenmantel.JPG"
+  },
+  "constituents": [
+    {
+      "name": "Taxin A",
+      "category": "alkaloid",
+      "plant_part": "leaf",
+      "percent_range": "0,002-0,02 %",
+      "note": {
+        "de": "Cardiotoxisches Alkaloid; hemmt spannungsgesteuerte Calcium- und Natriumkanäle des Myokards; Hauptverantwortlicher für tödliche Herzrhythmusstörungen bei Vergiftung.",
+        "en": "Cardiotoxic alkaloid; inhibits voltage-gated calcium and sodium channels of the myocardium; primarily responsible for lethal cardiac arrhythmias in poisoning."
+      }
+    },
+    {
+      "name": "Taxin B",
+      "category": "alkaloid",
+      "plant_part": "leaf",
+      "percent_range": "0,01-0,05 %",
+      "note": {
+        "de": "Dominantes Taxin-Alkaloid in europäischer Eibe; stärker verbreitet als Taxin A; bewirkt ähnliche Kanalblockade wie Taxin A; Leitsubstanz der Taxintoxizität.",
+        "en": "Dominant taxine alkaloid in European yew; more abundant than taxine A; causes similar channel blockade as taxine A; lead substance of taxine toxicity."
+      }
+    },
+    {
+      "name": "Paclitaxel (Taxol)",
+      "category": "alkaloid",
+      "plant_part": "bark",
+      "percent_range": "0,001-0,006 %",
+      "note": {
+        "de": "Diterpentaxan; stabilisiert Mikrotubuli und hemmt Zellteilung; Grundlage des klinischen Krebsmedikaments Taxol/Paclitaxel; aus Rinde von Taxus brevifolia erstmals isoliert, Halbsynthese aus T. baccata-Nadeln.",
+        "en": "Diterpene taxane; stabilises microtubules and inhibits cell division; basis of the clinical cancer drug Taxol/Paclitaxel; first isolated from Taxus brevifolia bark, semi-synthesis from T. baccata needles."
+      }
+    },
+    {
+      "name": "10-Deacetylbaccatin III",
+      "category": "other",
+      "plant_part": "leaf",
+      "percent_range": "0,05-0,1 %",
+      "note": {
+        "de": "Biosynthetischer Vorläufer von Paclitaxel; in Nadeln von Taxus baccata in höherer Konzentration als Paclitaxel selbst; Schlüsselsubstrat für die Halbsynthese von Paclitaxel und Docetaxel im industriellen Maßstab.",
+        "en": "Biosynthetic precursor of paclitaxel; present in needles of Taxus baccata at higher concentrations than paclitaxel itself; key substrate for the semi-synthesis of paclitaxel and docetaxel at industrial scale."
+      }
+    },
+    {
+      "name": "Baccatin III",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Weiterer Taxanditerpen-Vorläufer; in geringer Konzentration in Eibenpflanzen; ebenfalls als Ausgangsstoff für Taxol-Halbsynthese genutzt.",
+        "en": "Further taxane diterpene precursor; present in low concentration in yew plants; also used as starting material for Taxol semi-synthesis."
+      }
+    },
+    {
+      "name": "Cyanogene Glycoside (Taxiphyllin)",
+      "category": "glycoside",
+      "plant_part": "seed",
+      "note": {
+        "de": "Taxiphyllin in Samen; hydrolysiert zu Blausäure (HCN); trägt zur akuten Toxizität bei Zerstörung der Samen bei — intakte Samen passieren den Verdauungstrakt bisweilen unverdaut.",
+        "en": "Taxiphyllin in seeds; hydrolyses to hydrogen cyanide (HCN); contributes to acute toxicity when seeds are crushed — intact seeds sometimes pass the digestive tract undigested."
+      }
+    },
+    {
+      "name": "Flavonoide (Sciadopitysin, Ginkgetin)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Biflavonoide vom Amentoflavon-Typ; antioxidative Eigenschaften in vitro; ökologisch relevant, therapeutisch untergeordnet gegenüber den Taxin-Alkaloiden.",
+        "en": "Biflavonoids of the amentoflavone type; antioxidant properties in vitro; ecologically relevant, therapeutically subordinate to the taxine alkaloids."
+      }
+    },
+    {
+      "name": "Ephedrin (Spurenmengen)",
+      "category": "alkaloid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "In sehr geringen Konzentrationen in Eibennadeln nachgewiesen; sympathomimetisch; klinisch irrelevant bei den auftretenden Mengen, jedoch bei Vergiftungsanalysen erfassbar.",
+        "en": "Detected in very low concentrations in yew needles; sympathomimetic; clinically irrelevant at occurring amounts, however detectable in poisoning analyses."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Morgens bei trockenem Wetter. NUR für pharmazeutische/wissenschaftliche Zwecke mit entsprechender Schutzausrüstung — KEINE Eigensammlung.",
+        "en": "Morning in dry weather. ONLY for pharmaceutical/scientific purposes with appropriate protective equipment — NO private collection."
+      },
+      "drying": {
+        "de": "WARNUNG: Nur unter Laborbedingungen mit Atemschutz und Handschuhen. Trocknung erhöht Taxin-Konzentration nicht wesentlich — Pflanze bleibt giftig. Keine Eigentrocknung.",
+        "en": "WARNING: Only under laboratory conditions with respiratory protection and gloves. Drying does not substantially increase taxine concentration — plant remains toxic. No private drying."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Nur für pharmazeutische Extraktion. Verschlossen, trocken, dunkel, außer Reichweite von Kindern und Tieren. Sicherheitskennzeichnung obligatorisch.",
+        "en": "Only for pharmaceutical extraction. Sealed, dry, dark, out of reach of children and animals. Safety labelling mandatory."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Rote Arilli reifen ab September; können von Vögeln (Drosseln) gefahrlos gefressen werden — Samen unverdaut ausgeschieden. Für Menschen: NUR der rote Arillus selbst (ohne Samen) ist nicht giftig.",
+        "en": "Red arils ripen from September; can be safely consumed by birds (thrushes) — seeds excreted undigested. For humans: ONLY the red aril itself (without seed) is non-toxic."
+      },
+      "drying": {
+        "de": "Keine Trocknung empfohlen. Arilli frisch verzehrt (falls überhaupt) — enthaltene Samen müssen entfernt und entsorgt werden.",
+        "en": "No drying recommended. Arils consumed fresh (if at all) — seeds contained must be removed and disposed of."
+      }
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "slug": "sanguisorba-officinalis",
+  "names": {
+    "de": "Großer Wiesenknopf",
+    "en": "Sanguisorba officinalis",
+    "latin": "Sanguisorba officinalis"
+  },
+  "family": {
+    "de": "Rosengewächse",
+    "en": "Rose family",
+    "latin": "Rosaceae"
+  },
+  "description": {
+    "de": "Der Große Wiesenknopf, auch Groß-Wiesenknopf und Blutströpfchen genannt, ist eine Pflanzenart aus der Gattung Wiesenknopf (Sanguisorba) innerhalb der Familie der Rosengewächse (Rosaceae). Deutschsprachig wird sie auch Große Bibernelle genannt, darf aber nicht mit den Bibernellen (Pimpinella) aus der Familie der Doldenblütler (Apiaceae) verwechselt werden.",
+    "en": "Sanguisorba officinalis, commonly known as great burnet, is a plant in the family Rosaceae, subfamily Rosoideae. It is native throughout the cooler regions of the Northern Hemisphere in Europe, northern Asia, and northern North America."
+  },
+  "teaser": {
+    "de": "Der Große Wiesenknopf, auch Groß-Wiesenknopf und Blutströpfchen genannt, ist eine Pflanzenart aus der Gattung Wiesenk...",
+    "en": "Sanguisorba officinalis, commonly known as great burnet, is a plant in the family Rosaceae, subfamily Rosoideae."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "wounds"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Teeaufguss aus getrockneter Wiesenknopfwurzel bei Durchfall, Ruhr und leichten Magengeschwüren. Die Ellagitannine (Sanguiin H-Reihe) wirken adstringierend auf die Darmschleimhaut und hemmen Entzündungsmediatoren.",
+        "en": "Tea infusion from dried great burnet root for diarrhea, dysentery, and mild peptic ulcers. The ellagitannins (sanguiin H-series) act astringently on the intestinal mucosa and inhibit inflammatory mediators."
+      },
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–4 g getrocknete, zerkleinerte Wurzel in 200 ml Wasser aufkochen und 10 Minuten köcheln lassen. Abseihen und warm trinken, 3× täglich.",
+          "en": "Boil 2–4 g dried, chopped root in 200 ml water and simmer for 10 minutes. Strain and drink warm, 3× daily."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_sanguisorba",
+        "src_wiki_de_sanguisorba",
+        "src_ajcm_sanguisorba"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Umschläge mit abgekühltem Wiesenknopf-Wurzelabsud bei Verbrennungen, Wunden, Furunkeln und entzündeten Hautstellen. Klinische Studien aus China zeigen, dass das Gesamtextrakt der Pflanze bei Verbrennungen wirksamer ist als isolierte Tannine allein.",
+        "en": "Compresses with cooled great burnet root decoction for burns, wounds, boils, and inflamed skin areas. Chinese clinical research indicates the whole plant extract is more effective for burns than isolated tannins alone."
+      },
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "de": "Abgekühlten Wurzelabsud (wie für Tee) auf ein sauberes Tuch geben und auf die betroffene Hautstelle auflegen. 15–20 Minuten einwirken lassen, mehrmals täglich.",
+        "en": "Apply cooled root decoction (prepared as for tea) to a clean cloth and place on the affected skin area. Leave for 15–20 minutes, several times daily."
+      },
+      "source_ids": [
+        "src_pfaf_sanguisorba",
+        "src_pmc_sanguisorba_review"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "menstrual",
+        "wounds"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Wiesenknopf-Wurzeltinktur zur Unterstützung bei starken Menstruationsblutungen (Menorrhagie) und Hämorrhoiden. Die Triterpenglykosid-Fraktion (Ziyuglosid I) zeigt in Laborstudien die stärkste blutstillende Wirkung.",
+        "en": "Great burnet root tincture to support heavy menstrual bleeding (menorrhagia) and hemorrhoids. The triterpenoid glycoside fraction (ziyuglycoside I) shows the strongest hemostatic activity in laboratory studies."
+      },
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "de": "Standardtinktur 1:5 in 40–50 % Ethanol. Übliche Dosierung: 2–4 ml, 3× täglich. Nicht länger als 4–6 Wochen ohne Pause anwenden.",
+        "en": "Standard tincture 1:5 in 40–50% ethanol. Usual dose: 2–4 ml, 3× daily. Do not use continuously for more than 4–6 weeks without a break."
+      },
+      "source_ids": [
+        "src_pfaf_sanguisorba",
+        "src_pmc_hemostatic"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "fever",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Aufguss aus frischen oder getrockneten Blättern des Wiesenknopfs als Tee-Ersatz mit leicht kühlender Wirkung. Die Blätter haben ein milder gurkenartiges Aroma und gelten in der Volksmedizin als kühlend und fiebersenkend.",
+        "en": "Infusion from fresh or dried great burnet leaves as a tea substitute with mildly cooling properties. The leaves have a mild cucumber-like aroma and are considered cooling and febrifuge in folk medicine."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 3
+        },
+        "water_ml": 200,
+        "steep_min": 5,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "1–3 g frische oder getrocknete Blätter mit 200 ml siedendem Wasser übergießen, 5 Minuten ziehen lassen, abseihen und trinken.",
+          "en": "Pour 200 ml boiling water over 1–3 g fresh or dried leaves, steep 5 minutes, strain and drink."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_sanguisorba",
+        "src_wiki_de_sanguisorba"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Junge Blätter und Blütenknospen des Wiesenknopfs im Frühjahr roh in Salaten oder als Wildkraut essbar. Der charakteristische Gurkengeschmack macht sie zu einer beliebten Ergänzung in Frühjahrssalaten und Kräuterquarks.",
+        "en": "Young leaves and flower buds of great burnet in spring are edible raw in salads or as a wild herb. The characteristic cucumber taste makes them a popular addition to spring salads and herb quark."
+      },
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Junge Blätter und Knospen vor der Blüte ernten, waschen und direkt in Salaten oder als Würzkraut verwenden.",
+        "en": "Harvest young leaves and buds before flowering, wash and use directly in salads or as a culinary herb."
+      },
+      "source_ids": [
+        "src_pfaf_sanguisorba",
+        "src_wiki_de_sanguisorba"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "wounds"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Wiesenknopfwurzel-Tee gilt volksmedizinisch als harntreibend und antiseptisch. In der TCM (chinesische Bezeichnung: Di Yu) wird die Wurzel eingesetzt, um 'Blut zu kühlen', Blutungen zu stoppen und Hitze zu klären.",
+        "en": "Great burnet root tea is considered diuretic and antiseptic in folk medicine. In TCM (Chinese name: Di Yu), the root is used to 'cool the blood', stop bleeding, and clear heat."
+      },
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 6
+        },
+        "water_ml": 300,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "3–6 g getrocknete Wurzel in 300 ml Wasser 15 Minuten köcheln lassen. Abseihen und warm trinken, 2× täglich.",
+          "en": "Simmer 3–6 g dried root in 300 ml water for 15 minutes. Strain and drink warm, 2× daily."
+        }
+      },
+      "source_ids": [
+        "src_wiki_en_sanguisorba",
+        "src_ajcm_sanguisorba"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Wurzel (Herbst), Kraut (Sommer)",
+      "en": "root (autumn), herb (summer)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Beim Einsatz gegen Menorrhagien oder Blutungsneigung ärztliche Abklärung der Ursache empfohlen. Hohe Tanninkonzentrationen (Tierversuche) zeigten hormonelle Effekte — bei üblicher volksmedizinischer Dosierung keine Berichte über unerwünschte Wirkungen beim Menschen. Wechselwirkung mit Fluorchinolonantibiotika möglich (Komplexbildung der Tannine).",
+      "en": "Medical clarification of the underlying cause is recommended when using for menorrhagia or bleeding tendency. High tannin concentrations (animal studies) showed hormonal effects — at customary folk medicine dosages no adverse effects in humans reported. Interaction with fluoroquinolone antibiotics possible (tannin complex formation)."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Aufgrund fehlender Sicherheitsdaten in der Schwangerschaft besser meiden. PFAF empfiehlt, die Pflanze in der Schwangerschaft wegen ungeklärter Toxizität zu vermeiden.",
+        "en": "Better avoided in pregnancy due to lack of safety data. PFAF recommends avoiding the plant in pregnancy due to unresolved toxicity questions."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Sicherheit in der Stillzeit vorhanden.",
+        "en": "No sufficient data on safety during lactation available."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Studien für Kinder. Kulinarische Verwendung junger Blätter gilt als unbedenklich.",
+        "en": "No sufficient studies for children. Culinary use of young leaves is considered safe."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegenüber Rosengewächsen (Rosaceae).",
+        "en": "Hypersensitivity to plants of the rose family (Rosaceae)."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Fluorchinolone (Fluoroquinolone antibiotics)",
+        "mechanism": {
+          "de": "Tannine können Fluorchinolone binden und deren Bioverfügbarkeit verringern. Einnahme zeitlich trennen (mind. 2 Stunden Abstand).",
+          "en": "Tannins may bind fluoroquinolones and reduce their bioavailability. Separate intake by at least 2 hours."
+        },
+        "severity": "caution",
+        "source_id": "src_pfaf_sanguisorba"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Großer Wiesenknopf (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_Wiesenknopf",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Sanguisorba officinalis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Sanguisorba_officinalis",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_pfaf_sanguisorba",
+      "type": "monograph",
+      "title": "PFAF — Sanguisorba officinalis Plant Database Entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Sanguisorba+officinalis",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_de_sanguisorba",
+      "type": "wikipedia",
+      "title": "Großer Wiesenknopf — Wikipedia DE",
+      "url": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_Wiesenknopf",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_en_sanguisorba",
+      "type": "wikipedia",
+      "title": "Sanguisorba officinalis — Wikipedia EN",
+      "url": "https://en.wikipedia.org/wiki/Sanguisorba_officinalis",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_ajcm_sanguisorba",
+      "type": "monograph",
+      "title": "Phytotherapeutic Activities of Sanguisorba officinalis and its Chemical Constituents: A Review — American Journal of Chinese Medicine 2018",
+      "url": "https://doi.org/10.1142/S0192415X18500155",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_sanguisorba_review",
+      "type": "monograph",
+      "title": "A Comprehensive Review of Genus Sanguisorba: Traditional Uses, Chemical Constituents and Medical Applications — PMC8488092",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8488092/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pmc_hemostatic",
+      "type": "monograph",
+      "title": "Terpene Glycosides from the Roots of Sanguisorba officinalis L. and Their Hemostatic Activities — PMC6268605",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6268605/",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "sanguisorba-officinalis.jpg",
+    "alt": {
+      "de": "Foto von Großer Wiesenknopf",
+      "en": "Photo of Sanguisorba officinalis"
+    },
+    "license": "Public domain",
+    "author": "Karelj",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Toten_1.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Ellagitannine — Sanguiin H-6",
+      "category": "tannin",
+      "percent_range": "12–17 % Gesamttannine (Wurzel)",
+      "plant_part": "root",
+      "note": {
+        "de": "Dimeres Ellagitannin; Leitsubstanz der Gattung Sanguisorba. Verantwortlich für die stark adstringierende und antimikrobielle Wirkung.",
+        "en": "Dimeric ellagitannin; marker compound of the genus Sanguisorba. Responsible for the strongly astringent and antimicrobial activity."
+      }
+    },
+    {
+      "name": "Ziyuglosid I (Ziyuglycoside I)",
+      "category": "saponin",
+      "plant_part": "root",
+      "note": {
+        "de": "Triterpenglykosid (Ursolsäure-Derivat); zeigt in Laborstudien die stärkste blutstillende Wirksamkeit (88,7 % Inhibition in α2-Plasmin-Inhibitor-Assay).",
+        "en": "Triterpenoid glycoside (ursolic acid derivative); shows the strongest hemostatic efficacy in laboratory studies (88.7% inhibition in α2-plasmin inhibitor assay)."
+      }
+    },
+    {
+      "name": "Ziyuglosid II (Ziyuglycoside II)",
+      "category": "saponin",
+      "plant_part": "root",
+      "note": {
+        "de": "Zweites Haupttriterpenglykosid der Wurzel; Begleitsubstanz von Ziyuglosid I.",
+        "en": "Second major triterpenoid glycoside of the root; companion compound to ziyuglycoside I."
+      }
+    },
+    {
+      "name": "Rutin",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavonoidglykosid; antioxidativ, gefäßschützend. Auch in Blättern und Stängeln nachgewiesen.",
+        "en": "Flavonoid glycoside; antioxidant, vascular protective. Also detected in leaves and stems."
+      }
+    },
+    {
+      "name": "Epigallocatechin",
+      "category": "tannin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Catechin-Typ-Polyphenol; antioxidative und entzündungshemmende Eigenschaften.",
+        "en": "Catechin-type polyphenol; antioxidant and anti-inflammatory properties."
+      }
+    },
+    {
+      "name": "β-Sitosterol",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "Phytosterol; in Wurzel und Blättern nachgewiesen. Entzündungshemmende Basiswirkung.",
+        "en": "Phytosterol found in root and leaves. Basic anti-inflammatory activity."
+      }
+    },
+    {
+      "name": "Gallussäure (Gallic acid) / Ellagsäure (Ellagic acid)",
+      "category": "phenolic_acid",
+      "plant_part": "root",
+      "note": {
+        "de": "Hydrolysierbare Tannin-Bausteine; antimikrobiell und antioxidativ. Entstehen bei der Hydrolyse der Sanguiine.",
+        "en": "Hydrolysable tannin building blocks; antimicrobial and antioxidant. Released upon hydrolysis of the sanguiins."
+      }
+    },
+    {
+      "name": "Ursolsäure (Ursolic acid)",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "Triterpengrundgerüst für die Glykosid-Leitsubstanzen Ziyuglosid I und II; entzündungshemmende und antitumorale Eigenschaften in Laborstudien.",
+        "en": "Triterpene backbone for the glycoside marker compounds ziyuglycoside I and II; anti-inflammatory and antitumoral properties in laboratory studies."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Trockene Witterung bevorzugen; Wurzeln morgens ausgraben, wenn der Boden nicht zu feucht ist.",
+        "en": "Prefer dry weather; dig roots in the morning when soil is not too wet."
+      },
+      "drying": {
+        "de": "Wurzeln waschen, in Scheiben oder Stücke schneiden und bei 40–50 °C im Dörrgerät oder an einem luftigen Schattenplatz trocknen.",
+        "en": "Wash roots, cut into slices or pieces, and dry at 40–50 °C in a dehydrator or at an airy shaded location."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Dunkel, trocken, luftdicht in Papiertüten oder Glasbehältern. Bis zu 2 Jahre haltbar.",
+        "en": "Dark, dry, airtight in paper bags or glass containers. Shelf life up to 2 years."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Junge Blätter und Triebe vor der Blüte ernten — am besten morgens nach dem Tau.",
+        "en": "Harvest young leaves and shoots before flowering — ideally in the morning after the dew has dried."
+      },
+      "drying": {
+        "de": "Blätter locker auf Tüchern ausbreiten und bei Raumtemperatur im Schatten trocknen (ca. 1 Woche). Nicht über 35 °C.",
+        "en": "Spread leaves loosely on cloths and dry at room temperature in shade (approx. 1 week). Do not exceed 35 °C."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Dunkel, trocken in luftdichten Behältern. Bis zu 1 Jahr haltbar.",
+        "en": "Dark, dry in airtight containers. Shelf life up to 1 year."
+      }
+    }
+  ]
+}

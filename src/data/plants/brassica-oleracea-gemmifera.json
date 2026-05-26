@@ -1,0 +1,455 @@
+{
+  "slug": "brassica-oleracea-gemmifera",
+  "names": {
+    "de": "Rosenkohl",
+    "en": "Brussels sprout",
+    "latin": "Brassica oleracea var. gemmifera"
+  },
+  "family": {
+    "de": "Kreuzblütler",
+    "en": "Cabbage family",
+    "latin": "Brassicaceae"
+  },
+  "description": {
+    "de": "Rosenkohl bzw. Kohlsprossen oder Sprossenkohl, regional auch „Brüsseler Kohl“ oder „Rosenköhlchen“ genannt, ist ein Gemüse und eine Varietät des Gemüsekohls aus der Pflanzenfamilie der Kreuzblütler. An einem hochwüchsigen Stängel bilden sich in spiralförmig aufsteigender, dichter Anordnung Knospen (Blattröschen), die zumindest im oberen Bereich in den Blattachseln stehen.",
+    "en": "The Brussels sprout is a member of the Gemmifera cultivar group of cabbages, grown for its edible buds."
+  },
+  "teaser": {
+    "de": "Rosenkohl bzw.",
+    "en": "The Brussels sprout is a member of the Gemmifera cultivar group of cabbages, grown for its edible buds."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Rosenkohl (Brassica oleracea var. gemmifera) ist eine bedeutende Wintergemüsepflanze. Roh oder leicht gedämpft enthält er pro 100 g ca. 85 mg Vitamin C (>100 % des Tagesbedarfs), hohe Mengen Vitamin K sowie Folat. Glucosinolate (v. a. Sinigrin und Progoitrin) sind die sekundären Pflanzenstoffe, die den charakteristischen Bittergeschmack und die potenziell chemoprotektiven Eigenschaften vermitteln.",
+        "en": "Brussels sprouts (Brassica oleracea var. gemmifera) is an important winter vegetable. Raw or lightly steamed it contains approximately 85 mg vitamin C per 100 g (>100% of daily requirement), high amounts of vitamin K, and folate. Glucosinolates (mainly sinigrin and progoitrin) are the secondary metabolites that confer the characteristic bitter taste and potentially chemoprotective properties."
+      },
+      "source_ids": [
+        "src_brassica_sinigrin_elisa",
+        "src_brassica_glucos_hplc"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Als Gemüsebeilage (gedünstet, blanchiert oder gebraten) liefert Rosenkohl Ballaststoffe (ca. 3,8 g/100 g) sowie Folat (61 µg/100 g), das für die Zellteilung und die Prävention von Neuralrohrdefekten essenziell ist. Schonende Garmethoden (Sous-vide, Blanchieren) erhalten mehr Glucosinolate als langes Kochen.",
+        "en": "As a vegetable side dish (steamed, blanched or roasted), Brussels sprouts provide dietary fibre (approx. 3.8 g/100 g) and folate (61 µg/100 g), essential for cell division and prevention of neural tube defects. Gentle cooking methods (sous-vide, blanching) preserve more glucosinolates than prolonged boiling."
+      },
+      "source_ids": [
+        "src_brassica_hydrothermal",
+        "src_brassica_sinigrin_elisa"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "immune",
+        "skin"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Der sehr hohe Vitamin-C-Gehalt von Rosenkohl (85 mg/100 g Frischgewicht) unterstützt die Immunabwehr, die Kollagensynthese und die Wundheilung. Vitamin C ist ein wichtiges Antioxidans, das vor oxidativem Stress schützt und die Resorption von Nicht-Häm-Eisen verbessert.",
+        "en": "The very high vitamin C content of Brussels sprouts (85 mg/100 g fresh weight) supports immune defence, collagen synthesis, and wound healing. Vitamin C is an important antioxidant that protects against oxidative stress and improves absorption of non-haem iron."
+      },
+      "source_ids": [
+        "src_brassica_sinigrin_elisa",
+        "src_brassica_hydrothermal"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "circulation",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Rosenkohl enthält Vitamin K1 (ca. 177 µg/100 g), das für die Blutgerinnung und den Knochenstoffwechsel unerlässlich ist. Patienten unter Vitamin-K-Antagonisten (Warfarin) sollten ihren Rosenkohl-Konsum konstant halten und mit ihrem Arzt besprechen.",
+        "en": "Brussels sprouts contain vitamin K1 (approx. 177 µg/100 g), essential for blood coagulation and bone metabolism. Patients on vitamin K antagonists (warfarin) should keep their Brussels sprouts consumption constant and discuss it with their doctor."
+      },
+      "source_ids": [
+        "src_brassica_sinigrin_taste",
+        "src_brassica_hydrothermal"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Glucosinolate aus Brassica-Gemüse werden durch Myrosinase zu Isothiocyanaten (v. a. Sulforaphan-Vorläufer aus Glucoraphanin) hydrolysiert. Sulforaphan und verwandte Verbindungen induzieren Phase-II-Enzyme (Glutathion-S-Transferasen, Chinonreduktase) über den Nrf2-Signalweg und stimulieren immunmodulierende Effekte. Diese molekularen Mechanismen wurden in Zellkulturexperimenten und Tiermodellen charakterisiert.",
+        "en": "Glucosinolates from Brassica vegetables are hydrolysed by myrosinase to isothiocyanates (mainly sulforaphane from glucoraphanin). Sulforaphane and related compounds induce phase II enzymes (glutathione S-transferases, quinone reductase) via the Nrf2 pathway and stimulate immunomodulatory effects. These molecular mechanisms have been characterised in cell culture experiments and animal models."
+      },
+      "source_ids": [
+        "src_brassica_sulforaphan_immuno",
+        "src_brassica_glucos_hplc"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Der hohe Folatgehalt (61 µg/100 g) von Rosenkohl unterstützt DNA-Synthese, Zellteilung und Homocystein-Metabolismus. Epidemiologische Studien assoziieren ausreichende Folatzufuhr mit reduziertem Schlaganfallrisiko und verminderter Inzidenz kolorektaler Karzinome. Folatreiche Ernährung (u. a. Brassica-Gemüse) wird in europäischen Ernährungsempfehlungen hervorgehoben.",
+        "en": "The high folate content (61 µg/100 g) of Brussels sprouts supports DNA synthesis, cell division, and homocysteine metabolism. Epidemiological studies associate adequate folate intake with reduced stroke risk and lower incidence of colorectal carcinoma. Folate-rich diets (including Brassica vegetables) are highlighted in European nutritional guidelines."
+      },
+      "source_ids": [
+        "src_brassica_cruciferous_colon",
+        "src_brassica_hydrothermal"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "immune",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Epidemiologische Kohorten- und Meta-Analysen assoziieren höheren Kreuzblütler-Gemüsekonsum mit reduziertem Risiko für kolorektale Karzinome. Die Dosis-Wirkungs-Analyse (BMC Gastroenterology 2025) bestätigt eine signifikante inverse Assoziation zwischen Kreuzblütlerkonsum und Dickdarmkrebsrisiko. Rosenkohl zählt zu den glucosinolatreichsten Brassica-Gemüsen.",
+        "en": "Epidemiological cohort studies and meta-analyses associate higher cruciferous vegetable intake with reduced risk of colorectal carcinoma. The dose-response meta-analysis (BMC Gastroenterology 2025) confirms a significant inverse association between cruciferous vegetable consumption and colorectal cancer risk. Brussels sprouts are among the richest Brassica vegetables in glucosinolates."
+      },
+      "source_ids": [
+        "src_brassica_cruciferous_colon",
+        "src_brassica_cruciferous_prostate"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "harvest_part": {
+      "de": "Sprosse (Spätherbst-Winter)",
+      "en": "sprouts (late autumn-winter)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Rosenkohl enthält hohe Mengen Vitamin K: Patienten unter Vitamin-K-Antagonisten (Warfarin, Phenprocoumon) müssen den Konsum konstant halten und regelmäßig ihren INR-Wert kontrollieren lassen. Bei Schilddrüsenunterfunktion mit Jodmangel: Rosenkohl enthält goitrogene Verbindungen (Progoitrin), die die Jodaufnahme hemmen können — bei hohem Rohrohverzehr mit Arzt besprechen. Rohes Kreuzkrautgemüse kann Blähungen und Völlegefühl verursachen — garen reduziert diesen Effekt.",
+      "en": "Brussels sprouts contain high amounts of vitamin K: patients on vitamin K antagonists (warfarin, phenprocoumon) must keep consumption constant and have INR values checked regularly. In hypothyroidism with iodine deficiency: Brussels sprouts contain goitrogenic compounds (progoitrin) that may inhibit iodine uptake — discuss high raw consumption with a doctor. Raw cruciferous vegetables may cause flatulence and bloating — cooking reduces this effect."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Als Nahrungsmittel in üblichen Mengen sicher. Der hohe Folatgehalt ist in der Schwangerschaft besonders wertvoll (Prävention von Neuralrohrdefekten). Auf Rohverzehr aus hygienischen Gründen ggf. verzichten.",
+        "en": "Safe as food in usual amounts. The high folate content is particularly valuable during pregnancy (prevention of neural tube defects). Consider avoiding raw consumption for hygiene reasons."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Als Nahrungsmittel in üblichen Mengen sicher. Blähende Wirkung kann indirekt das gestillte Kind beeinflussen — bei Säuglingskoliken ggf. reduzieren.",
+        "en": "Safe as food in usual amounts. Flatulence-inducing effect may indirectly affect the breastfed infant — reduce if infant colic occurs."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Als Nahrungsmittel in altersgerechten Portionen sicher. Für Kleinkinder weich gegart anbieten. Hoher Vitamin-K-Gehalt bei sehr kleinen Kindern im Auge behalten.",
+        "en": "Safe as food in age-appropriate portions. Offer well-cooked to toddlers. Monitor high vitamin K content in very small children."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Einnahme von Vitamin-K-Antagonisten (Warfarin, Phenprocoumon) ohne stabile INR-Einstellung — Konsum nur bei konstantem Mengenverhältnis",
+        "en": "Use of vitamin K antagonists (warfarin, phenprocoumon) without stable INR — consumption only at constant intake levels"
+      },
+      {
+        "de": "Schwere Hypothyreose mit Jodmangel bei exzessivem Rohverzehr (goitrogene Wirkung von Progoitrin)",
+        "en": "Severe hypothyroidism with iodine deficiency in excessive raw consumption (goitrogenic effect of progoitrin)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Vitamin-K-Antagonisten (Warfarin, Phenprocoumon)",
+        "mechanism": {
+          "de": "Rosenkohl ist sehr vitamin-K-reich (177 µg/100 g); erhöhter oder schwankender Konsum kann die gerinnungshemmende Wirkung von Vitamin-K-Antagonisten abschwächen und den INR senken.",
+          "en": "Brussels sprouts are very rich in vitamin K (177 µg/100 g); increased or variable consumption can reduce the anticoagulant effect of vitamin K antagonists and lower INR."
+        },
+        "severity": "caution",
+        "source_id": "src_brassica_sinigrin_taste"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Rosenkohl (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Rosenkohl",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Brussels sprout (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Brussels_sprout",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_brassica_sinigrin_elisa",
+      "type": "monograph",
+      "title": "van Doorn et al. (1998): Quantitative Determination of the Glucosinolates Sinigrin and Progoitrin by Specific Antibody ELISA Assays in Brussels Sprouts. J. Agric. Food Chem. 46(2):793-800. DOI 10.1021/jf970523z",
+      "url": "https://doi.org/10.1021/jf970523z",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_brassica_glucos_hplc",
+      "type": "monograph",
+      "title": "Tian et al. (2005): Quantitative determination of intact glucosinolates in broccoli, broccoli sprouts, Brussels sprouts, and cauliflower by HPLC-ESI-MS/MS. Analytical Biochemistry 343(1):93-99. DOI 10.1016/j.ab.2005.04.045",
+      "url": "https://doi.org/10.1016/j.ab.2005.04.045",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_brassica_hydrothermal",
+      "type": "monograph",
+      "title": "Sadowska-Rociek et al. (2024): The Influence of Different Hydrothermal Processes Used in the Preparation of Brussels Sprouts on the Availability of Glucosinolates to Humans. Foods 13(18):2988. DOI 10.3390/foods13182988",
+      "url": "https://doi.org/10.3390/foods13182988",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_brassica_sinigrin_taste",
+      "type": "monograph",
+      "title": "van Doorn et al. (1998): The glucosinolates sinigrin and progoitrin are important determinants for taste preference and bitterness of Brussels sprouts. J. Sci. Food Agric. 78(1):30-38. DOI 10.1002/(sici)1097-0010(199809)78:1<30::aid-jsfa79>3.0.co;2-n",
+      "url": "https://doi.org/10.1002/(sici)1097-0010(199809)78:1<30::aid-jsfa79>3.0.co;2-n",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_brassica_sulforaphan_immuno",
+      "type": "monograph",
+      "title": "Thejass & Kuttan (2007): Immunomodulatory activity of Sulforaphane, a naturally occurring isothiocyanate from broccoli (Brassica oleracea). Phytomedicine 14(7-8):538-545. DOI 10.1016/j.phymed.2006.09.013",
+      "url": "https://doi.org/10.1016/j.phymed.2006.09.013",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_brassica_cruciferous_prostate",
+      "type": "monograph",
+      "title": "Kristal & Stanford (2004): Cruciferous Vegetables and Prostate Cancer Risk: Confounding by PSA Screening. Cancer Epidemiol. Biomarkers Prev. 13(7):1265. DOI 10.1158/1055-9965.1265.13.7",
+      "url": "https://doi.org/10.1158/1055-9965.1265.13.7",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_brassica_cruciferous_colon",
+      "type": "monograph",
+      "title": "Lai et al. (2025): Cruciferous vegetables intake and risk of colon cancer: a dose-response meta-analysis. BMC Gastroenterology 25:article. DOI 10.1186/s12876-025-04163-9",
+      "url": "https://doi.org/10.1186/s12876-025-04163-9",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "brassica-oleracea-gemmifera.jpg",
+    "alt": {
+      "de": "Foto von Rosenkohl",
+      "en": "Photo of Brussels sprout"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Popolon",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Branche_de_choux_de_Bruxelles.jpg"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 10,
+      "end_month": 2
+    },
+    "days_to_harvest": 180,
+    "spacing_cm": 60,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 2
+  },
+  "companion_planting": {
+    "good_partners": [
+      "apium-graveolens",
+      "spinacia-oleracea"
+    ],
+    "bad_partners": [],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "permaculture_functions": [
+    "vertical_high"
+  ],
+  "constituents": [
+    {
+      "name": "Sinigrin",
+      "category": "glycoside",
+      "plant_part": "fruit",
+      "percent_range": "0.5-1.5 %",
+      "note": {
+        "de": "Hauptglucosinolat in Rosenkohl (Allylglucosinolat); wird durch Myrosinase zu Allylisothiocyanat hydrolysiert; bestimmt maßgeblich Bittergeschmack und antimikrobielle Eigenschaften.",
+        "en": "Main glucosinolate in Brussels sprouts (allyl glucosinolate); hydrolysed by myrosinase to allyl isothiocyanate; major determinant of bitter taste and antimicrobial properties."
+      }
+    },
+    {
+      "name": "Progoitrin",
+      "category": "glycoside",
+      "plant_part": "fruit",
+      "percent_range": "0.2-0.8 %",
+      "note": {
+        "de": "Zweitwichtigstes Glucosinolat in Rosenkohl; Hydrolyseprodukt Goitrin hemmt die Schilddrüsen-Peroxidase; neben Sinigrin Hauptdeterminante für Bittergeschmack und goitrogene Wirkung.",
+        "en": "Second most abundant glucosinolate in Brussels sprouts; hydrolysis product goitrin inhibits thyroid peroxidase; together with sinigrin the main determinant of bitter taste and goitrogenic effect."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "plant_part": "fruit",
+      "percent_range": "60-100 mg / 100 g FG",
+      "note": {
+        "de": "Sehr hoher Vitamin-C-Gehalt (ca. 85 mg/100 g Frischgewicht); thermolabil, durch Kochen stark reduziert; antioxidativ, immunstimulierend, wichtig für Kollagenbiosynthese.",
+        "en": "Very high vitamin C content (approx. 85 mg/100 g fresh weight); thermolabile, strongly reduced by boiling; antioxidant, immunostimulant, important for collagen biosynthesis."
+      }
+    },
+    {
+      "name": "Vitamin K1 (Phylloquinon)",
+      "category": "vitamin",
+      "plant_part": "fruit",
+      "percent_range": "140-200 µg / 100 g FG",
+      "note": {
+        "de": "Sehr hoher Vitamin-K1-Gehalt (ca. 177 µg/100 g); essenziell für Blutgerinnung (Faktor II, VII, IX, X) und Knochenmineralisation; klinisch relevant bei Antikoagulanzien-Therapie.",
+        "en": "Very high vitamin K1 content (approx. 177 µg/100 g); essential for blood coagulation (factors II, VII, IX, X) and bone mineralisation; clinically relevant in anticoagulant therapy."
+      }
+    },
+    {
+      "name": "Folat (Vitamin B9)",
+      "category": "vitamin",
+      "plant_part": "fruit",
+      "percent_range": "55-70 µg / 100 g FG",
+      "note": {
+        "de": "Hoher Folatgehalt (ca. 61 µg/100 g); essenziell für DNA-Synthese, Zellteilung und Prävention von Neuralrohrdefekten; empfehlenswert in der Schwangerschaft.",
+        "en": "High folate content (approx. 61 µg/100 g); essential for DNA synthesis, cell division, and prevention of neural tube defects; recommended during pregnancy."
+      }
+    },
+    {
+      "name": "Glucoraphanin",
+      "category": "glycoside",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Glucosinolat-Vorläufer von Sulforaphan; in Rosenkohl in geringerer Konzentration als in Brokkoli vorhanden; Myrosinase-Hydrolyseprodukt Sulforaphan induziert Phase-II-Entgiftungsenzyme über Nrf2.",
+        "en": "Glucosinolate precursor of sulforaphane; present in Brussels sprouts at lower concentrations than in broccoli; myrosinase hydrolysis product sulforaphane induces phase II detoxification enzymes via Nrf2."
+      }
+    },
+    {
+      "name": "Ballaststoffe (Dietary Fibre)",
+      "category": "polysaccharide",
+      "plant_part": "fruit",
+      "percent_range": "3.5-4.5 %",
+      "note": {
+        "de": "Hoher Ballaststoffgehalt (ca. 3,8 g/100 g), v. a. Cellulose, Hemicellulose und Pektin; unterstützt Darmgesundheit, Stuhlregulation und Sättigungsgefühl.",
+        "en": "High dietary fibre content (approx. 3.8 g/100 g), mainly cellulose, hemicellulose, and pectin; supports gut health, stool regulation, and satiety."
+      }
+    },
+    {
+      "name": "Kaempferol-Glykoside",
+      "category": "flavonoid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Flavonoide in Rosenkohl; antioxidativ und anti-entzündlich; hemmen in vitro proinflammatorische Signalwege; ergänzen die chemoprotektiven Glucosinolateffekte.",
+        "en": "Flavonoids in Brussels sprouts; antioxidant and anti-inflammatory; inhibit pro-inflammatory signalling pathways in vitro; complement the chemoprotective glucosinolate effects."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "time_of_day": {
+        "de": "Keine Tageszeit-Beschränkung; Röschen nach dem ersten Frost ernten (Frost baut Sinigrin teilweise ab und mildert den Bittergeschmack).",
+        "en": "No time-of-day restriction; harvest sprouts after the first frost (frost partially degrades sinigrin and mellows the bitter taste)."
+      },
+      "drying": {
+        "de": "Rosenkohl wird nicht getrocknet — Frischgemüse. Zum Haltbarmachen blanchieren und einfrieren (Myrosinase wird dabei inaktiviert).",
+        "en": "Brussels sprouts are not dried — fresh vegetable. For preservation: blanch and freeze (myrosinase is inactivated in the process)."
+      },
+      "storage_months": 2,
+      "storage_condition": {
+        "de": "Im Kühlschrank bei 0–4 °C bis zu 3 Wochen haltbar; in Folie eingewickelt oder im Gemüsefach. Gefroren (nach Blanchieren) bis zu 12 Monate.",
+        "en": "In the refrigerator at 0–4 °C, keeps up to 3 weeks; wrapped in film or in the vegetable compartment. Frozen (after blanching) up to 12 months."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Äußere Rosenkohlblätter (Mantelblätter) vor der Ernte der Röschen abnehmen. Morgens nach dem Tautrocknen ernten.",
+        "en": "Remove outer Brussels sprout leaves (wrapper leaves) before harvesting the sprouts. Harvest in the morning after dew has dried."
+      },
+      "drying": {
+        "de": "Äußere Blätter können wie Grünkohl bei 40 °C getrocknet werden. Alternativ frisch in der Küche verwenden.",
+        "en": "Outer leaves can be dried like kale at 40 °C. Alternatively use fresh in the kitchen."
+      },
+      "storage_months": 6
+    }
+  ]
+}

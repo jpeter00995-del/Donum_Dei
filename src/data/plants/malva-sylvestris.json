@@ -1,0 +1,352 @@
+{
+  "slug": "malva-sylvestris",
+  "names": {
+    "de": "Wilde Malve",
+    "en": "Malva sylvestris",
+    "latin": "Malva sylvestris"
+  },
+  "family": {
+    "de": "Malvengewächse",
+    "en": "Mallow family",
+    "latin": "Malvaceae"
+  },
+  "description": {
+    "de": "Die Wilde Malve, auch Große Käsepappel und Rosspappel genannt, ist eine Pflanzenart aus der Gattung der Malven (Malva) innerhalb der Familie der Malvengewächse (Malvaceae). Ihr deutscher Trivialname Käsepappel hat wohl nichts mit der Pappel zu tun, sondern bezieht sich auf die käselaibförmigen, schleimhaltigen Früchte, aus denen früher Kinderbrei (Papp) zubereitet wurde. Zahlreiche unterschiedliche Volksnamen spiegeln die Popularität und vielseitige Nutzung der Wilden Malve wider.",
+    "en": "Malva sylvestris is a species of the mallow genus Malva, of which it the type species. Known as common mallow to English-speaking Europeans, it acquired the common names of cheeses, high mallow and tall mallow as it migrated from its native home in Western Europe, North Africa and Asia through the English-speaking world."
+  },
+  "teaser": {
+    "de": "Die Wilde Malve, auch Große Käsepappel und Rosspappel genannt, ist eine Pflanzenart aus der Gattung der Malven (Malva...",
+    "en": "Malva sylvestris is a species of the mallow genus Malva, of which it the type species."
+  },
+  "uses": [
+    {
+      "form": "gargle",
+      "target": ["throat", "mouth"],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": { "min": 1, "max": 2 },
+        "amount_ml": { "min": 150, "max": 250 },
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "KALTAUSZUG (wichtig — die Schleimstoffe sind hitzeempfindlich): 1–2 g zerkleinerte getrocknete Malvenblätter in 150–250 ml kaltem Wasser ansetzen, 1–2 Stunden ziehen lassen, gelegentlich umrühren, dann abseihen. Lauwarm 2–3 mal täglich gurgeln und im Mund spülen. Schluck für Schluck austrinken oder ausspucken. Falls keine Zeit für den Kaltauszug bleibt: Wasser nur auf maximal 40 °C erwärmen, nicht aufkochen.",
+          "en": "COLD INFUSION (important — the mucilage is heat-sensitive): Steep 1–2 g of crushed dried mallow leaves in 150–250 ml of cold water for 1–2 hours, stir occasionally, then strain. Use lukewarm to gargle and rinse the mouth 2–3 times a day. Either swallow sip by sip or spit out. If there is no time for a cold infusion, warm the water to a maximum of 40 °C and do not boil."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene und Jugendliche ab 12 Jahren — bei jüngeren Kindern liegen keine ausreichenden Daten vor.",
+          "en": "Per EMA, only for adults and adolescents from 12 years onwards — insufficient data for younger children."
+        }
+      },
+      "description": {
+        "de": "Lindert Reizungen der Mund- und Rachenschleimhaut und den damit verbundenen trockenen Reizhusten durch einen feinen Schleimstoff-Film, der die gereizten Stellen überzieht.",
+        "en": "Soothes irritation of the mouth and throat mucosa and the associated dry tickly cough by coating the irritated areas with a fine film of mucilage."
+      },
+      "source_ids": ["src_ema_malvae_folium", "src_ema_malvae_flos"]
+    },
+    {
+      "form": "tea",
+      "target": ["respiratory", "throat"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": { "min": 1, "max": 2 },
+        "amount_ml": { "min": 150, "max": 250 },
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "KALTAUSZUG (empfohlen): 1–2 g zerkleinerte Malvenblätter in 150–250 ml kaltem Wasser 1–2 Stunden ziehen lassen, abseihen, vor dem Trinken kurz auf Trinktemperatur erwärmen (nicht kochen!). 2–3 mal täglich eine Tasse trinken, Tagesgesamtmenge etwa 5 g getrocknete Blätter. Beim trockenen Reizhusten langsam und in kleinen Schlucken trinken, damit der Schleim im Rachen wirkt.",
+          "en": "COLD INFUSION (recommended): Steep 1–2 g crushed mallow leaves in 150–250 ml cold water for 1–2 hours, strain, briefly warm to drinking temperature (do not boil). Drink one cup 2–3 times a day, total daily amount about 5 g dried leaves. For dry irritating cough, drink slowly in small sips so the mucilage coats the throat."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene und Jugendliche ab 12 Jahren.",
+          "en": "Per EMA, only for adults and adolescents from 12 years onwards."
+        }
+      },
+      "description": {
+        "de": "Reizmindernder Tee bei trockenem Husten — die Schleimstoffe legen sich wie ein Schutzfilm auf die gereizten Rachenwege.",
+        "en": "Soothing tea for dry cough — the mucilage forms a protective film over the irritated airways of the throat."
+      },
+      "source_ids": ["src_ema_malvae_folium"]
+    },
+    {
+      "form": "tea",
+      "target": ["digestion"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": { "min": 1, "max": 2 },
+        "amount_ml": { "min": 150, "max": 250 },
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "KALTAUSZUG: 1–2 g zerkleinerte Malvenblätter in 150–250 ml kaltem Wasser 1–2 Stunden ziehen lassen, abseihen. 2–3 mal täglich eine Tasse zwischen den Mahlzeiten trinken. Die Schleimstoffe legen sich beruhigend auf die gereizte Magen- und Darmschleimhaut.",
+          "en": "COLD INFUSION: Steep 1–2 g crushed mallow leaves in 150–250 ml cold water for 1–2 hours, strain. Drink one cup 2–3 times a day between meals. The mucilage soothes the irritated stomach and intestinal mucosa."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene und Jugendliche ab 12 Jahren.",
+          "en": "Per EMA, only for adults and adolescents from 12 years onwards."
+        }
+      },
+      "description": {
+        "de": "Hilft bei leichten Magen-Darm-Beschwerden wie einem Reizmagen-Gefühl, durch die einhüllende Wirkung der Schleimstoffe.",
+        "en": "Helps with mild stomach and gut discomfort by coating and soothing through the action of the mucilage."
+      },
+      "source_ids": ["src_ema_malvae_folium"]
+    },
+    {
+      "form": "tea",
+      "target": ["respiratory", "throat"],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": { "min": 1, "max": 2 },
+        "amount_ml": { "min": 150, "max": 250 },
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "KALTAUSZUG bevorzugt: 1–2 g getrocknete Malvenblüten in 150–250 ml kaltem Wasser ansetzen, 1–2 Stunden ziehen lassen, abseihen. Der Aufguss wird durch die Anthocyane (Malvin) hübsch bläulich-violett, färbt sich aber mit der Zeit nach grünlich um — das ist normal. 2–3 mal täglich trinken, täglich insgesamt etwa 5 g Blüten.",
+          "en": "COLD INFUSION preferred: Steep 1–2 g dried mallow flowers in 150–250 ml cold water for 1–2 hours, strain. The infusion turns a beautiful bluish-violet from the anthocyanins (malvin) and gradually shifts towards greenish over time — that is normal. Drink 2–3 times a day, total daily amount about 5 g flowers."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene und Jugendliche ab 12 Jahren.",
+          "en": "Per EMA, only for adults and adolescents from 12 years onwards."
+        }
+      },
+      "description": {
+        "de": "Wie der Blättertee — reizlindernd bei trockenem Husten und Halskratzen. Die Blüten enthalten zusätzlich Anthocyan-Farbstoffe.",
+        "en": "Like the leaf tea — soothing for dry cough and scratchy throat. The flowers additionally contain anthocyanin pigments."
+      },
+      "source_ids": ["src_ema_malvae_flos"]
+    },
+    {
+      "form": "gargle",
+      "target": ["throat", "mouth"],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": { "min": 1, "max": 2 },
+        "amount_ml": { "min": 150, "max": 250 },
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "KALTAUSZUG: 1–2 g getrocknete Malvenblüten in 150–250 ml kaltem Wasser 1–2 Stunden ziehen lassen, abseihen. Lauwarm mehrmals täglich (2–3 mal) gurgeln oder als Mundspülung verwenden. Nicht heiß zubereiten — die Schleimstoffe würden zerstört.",
+          "en": "COLD INFUSION: Steep 1–2 g dried mallow flowers in 150–250 ml cold water for 1–2 hours, strain. Use lukewarm 2–3 times a day to gargle or rinse the mouth. Do not prepare hot — the mucilage would be destroyed."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene und Jugendliche ab 12 Jahren.",
+          "en": "Per EMA, only for adults and adolescents from 12 years onwards."
+        }
+      },
+      "description": {
+        "de": "Mundspülung und Gurgellösung bei Reizungen der Mund- und Rachenschleimhaut.",
+        "en": "Mouth rinse and gargle for irritation of the mouth and throat mucosa."
+      },
+      "source_ids": ["src_ema_malvae_flos"]
+    }
+  ],
+  "season": {
+    "active_months": [6, 7, 8, 9],
+    "harvest_part": {
+      "de": "Blüten und Blätter",
+      "en": "flowers and leaves"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Wenn Halsbeschwerden länger als 1 Woche oder Magen-Darm-Beschwerden länger als 2 Wochen andauern, soll ein Arzt aufgesucht werden. Bei Atemnot, Fieber oder eitrigem Auswurf sofort ärztlich abklären lassen — Malve ist nur für leichte, kurzfristige Reizzustände gedacht. Wichtiger Praxistipp: Schleimstoffe können die Aufnahme anderer Arzneimittel im Magen-Darm-Trakt verzögern. Andere Medikamente daher mit 30–60 Minuten Abstand vor oder nach dem Malventee einnehmen. Aufguss immer kalt oder höchstens lauwarm zubereiten — heißes Wasser zerstört die wirksamen Schleimstoffe.",
+      "en": "If throat symptoms last longer than 1 week or stomach/gut symptoms longer than 2 weeks, consult a doctor. In case of shortness of breath, fever, or purulent sputum, seek medical advice immediately — mallow is intended only for mild, short-term irritation. Important practical note: Mucilage can delay the absorption of other medicines in the gastrointestinal tract. Therefore take other medications 30–60 minutes before or after mallow tea. Always prepare the infusion cold or at most lukewarm — hot water destroys the active mucilage."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Die EMA weist auf fehlende belastbare Daten während der Schwangerschaft hin — die Anwendung wird daher nicht empfohlen.",
+        "en": "EMA notes a lack of reliable data during pregnancy — use is therefore not recommended."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Anwendung in der Stillzeit — laut EMA nicht empfohlen.",
+        "en": "Insufficient data on use during breastfeeding — not recommended per EMA."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Laut EMA nicht für Kinder unter 12 Jahren — es liegen keine ausreichenden Daten zur sicheren Anwendung in dieser Altersgruppe vor.",
+        "en": "Per EMA, not for children under 12 years — there is insufficient data on safe use in this age group."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Orale Arzneimittel allgemein",
+        "mechanism": {
+          "de": "Die Schleimstoffe der Malve können einen Film auf der Magen-Darm-Schleimhaut bilden und dadurch die Aufnahme anderer gleichzeitig eingenommener Medikamente verzögern oder vermindern. Die EMA selbst beschreibt keine konkreten Wechselwirkungen, aber als Vorsichtsmaßnahme: andere Medikamente 30–60 Minuten vor oder nach dem Malventee einnehmen.",
+          "en": "The mucilage in mallow can form a film on the gastrointestinal mucosa and thereby delay or reduce the absorption of other medicines taken at the same time. EMA itself does not describe specific interactions, but as a precaution: take other medications 30–60 minutes before or after mallow tea."
+        },
+        "severity": "caution"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegenüber Malvenblättern, Malvenblüten oder anderen Malvengewächsen (Malvaceae).",
+        "en": "Hypersensitivity to mallow leaves, mallow flowers, or other plants of the Malvaceae family."
+      },
+      {
+        "de": "Kinder unter 12 Jahren — mangels Daten nicht zugelassen.",
+        "en": "Children under 12 years — not approved due to lack of data."
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "constituents": [
+    {
+      "name": "Schleimstoffe (saure Polysaccharide)",
+      "category": "mucilage",
+      "percent_range": "5–12 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptwirkstoffe. Aufgebaut aus Rhamnose, Galactose, Galacturonsäure und Glucuronsäure. Quellen in Wasser auf und bilden einen reizmindernden Film auf Schleimhäuten. Hitzeempfindlich — Kaltauszug bevorzugt.",
+        "en": "Main active compounds. Composed of rhamnose, galactose, galacturonic acid, and glucuronic acid. Swell in water to form a soothing film on mucous membranes. Heat-sensitive — cold infusion preferred."
+      }
+    },
+    {
+      "name": "Schleimstoffe (saure Polysaccharide)",
+      "category": "mucilage",
+      "percent_range": "≈ 8 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Wie in den Blättern — reizlindernd und einhüllend, daher Anwendung bei Halsreizungen und trockenem Husten.",
+        "en": "As in the leaves — soothing and coating, hence use for throat irritation and dry cough."
+      }
+    },
+    {
+      "name": "Malvin (Anthocyan)",
+      "category": "glycoside",
+      "plant_part": "flower",
+      "note": {
+        "de": "Blau-violetter Farbstoff (Malvidin-Diglucosid). Gibt dem Tee die bläuliche Farbe, die mit der Zeit ins Grünliche kippt. Antioxidative Eigenschaften.",
+        "en": "Bluish-violet pigment (malvidin diglucoside). Gives the tea its blue color, which shifts to greenish over time. Antioxidant properties."
+      }
+    },
+    {
+      "name": "Flavonoide",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "In Blättern und Blüten in geringeren Mengen, mild antioxidativ.",
+        "en": "Present in leaves and flowers in small amounts, mildly antioxidant."
+      }
+    },
+    {
+      "name": "Gerbstoffe",
+      "category": "tannin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Geringe Mengen — tragen zur leicht zusammenziehenden Wirkung an Schleimhäuten bei.",
+        "en": "Small amounts — contribute to a slightly astringent effect on mucous membranes."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [6, 7, 8, 9],
+      "time_of_day": {
+        "de": "An einem trockenen Vormittag, sobald der Tau abgetrocknet ist.",
+        "en": "On a dry morning once the dew has dried."
+      },
+      "drying": {
+        "de": "Junge, gesunde Blätter vor und während der Blütezeit sammeln. Im Schatten oder bei maximal 35 °C trocknen — höhere Temperaturen zerstören die hitzeempfindlichen Schleimstoffe.",
+        "en": "Pick young, healthy leaves before and during the flowering season. Dry in the shade or at maximum 35 °C — higher temperatures destroy the heat-sensitive mucilage."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht und dunkel lagern, am besten innerhalb eines Jahres aufbrauchen.",
+        "en": "Store airtight and in the dark, ideally use within a year."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [6, 7, 8, 9],
+      "time_of_day": {
+        "de": "An sonnigen Vormittagen, sobald der Tau weg ist.",
+        "en": "On sunny mornings once the dew is gone."
+      },
+      "drying": {
+        "de": "Voll geöffnete Blüten sammeln. Sofort einlagig im Schatten auf Tüchern oder Sieben ausbreiten und zügig trocknen lassen — sonst verfärben sich die Blüten von violett ins Braun-Schwärzliche. Optimale Temperatur unter 35 °C.",
+        "en": "Pick fully opened flowers. Immediately spread out in a single layer on cloths or sieves in the shade and dry quickly — otherwise the flowers discolor from violet to brownish-black. Optimum temperature below 35 °C."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In dunklen, luftdichten Gläsern lagern — die Anthocyan-Farbstoffe sind lichtempfindlich.",
+        "en": "Store in dark, airtight jars — the anthocyanin pigments are light-sensitive."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Wilde Malve (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Wilde_Malve",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Malva sylvestris (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Malva_sylvestris",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_malvae_folium",
+      "type": "monograph",
+      "title": "EMA/HMPC/749510/2016 — European Union herbal monograph on Malva sylvestris L. and/or Malva neglecta Wallr., folium (Final, 19 March 2019)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/malvae-folium",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_malvae_flos",
+      "type": "monograph",
+      "title": "EMA/HMPC/749511/2016 — European Union herbal monograph on Malva sylvestris L., flos (Final, 19 March 2019)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/malvae-sylvestris-flos",
+      "accessed": "2026-05-18"
+    }
+  ],
+  "image": {
+    "filename": "malva-sylvestris.jpg",
+    "alt": {
+      "de": "Foto von Wilde Malve",
+      "en": "Photo of Malva sylvestris"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Meneerke bloem",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Malva_sylvestris_RHu_001.JPG"
+  }
+}

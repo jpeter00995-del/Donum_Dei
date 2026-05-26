@@ -1,0 +1,459 @@
+{
+  "slug": "stevia-rebaudiana",
+  "names": {
+    "de": "Stevia",
+    "en": "Stevia rebaudiana",
+    "latin": "Stevia rebaudiana"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Stevia ist ein aus der Pflanze Stevia rebaudiana gewonnenes Stoffgemisch, das als Süßstoff verwendet wird. Es besteht hauptsächlich aus Steviolglycosiden, wie dem Diterpenglycosid Steviosid, Rebaudiosid A und sieben bis zehn weiteren Steviolglycosiden. Die Anteile der enthaltenen Steviolglycoside unterscheiden sich nach Anbaugebiet und Pflanzensorte.",
+    "en": "Stevia rebaudiana is a plant species in the genus Stevia of the family Asteraceae. It is commonly known as candyleaf, sweetleaf or sugarleaf."
+  },
+  "teaser": {
+    "de": "Stevia ist ein aus der Pflanze Stevia rebaudiana gewonnenes Stoffgemisch, das als Süßstoff verwendet wird.",
+    "en": "Stevia rebaudiana is a plant species in the genus Stevia of the family Asteraceae."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Die Guaraní-Völker Paraguays und Brasiliens kauten frische Stevia-Blätter seit Jahrhunderten als süßen Genuss und zur Süßung von Matetee. Der volksmedizinische Name \"ka'a he'ẽ\" (süßes Kraut) belegt den kulturellen Stellenwert als Nahrungsergänzung und Wohlbefindenspflanze.",
+        "en": "The Guaraní peoples of Paraguay and Brazil chewed fresh stevia leaves for centuries as a sweet treat and to sweeten yerba mate. The vernacular name 'ka'a he'ẽ' (sweet herb) reflects the plant's cultural status as a food supplement and wellness plant."
+      },
+      "preparation": {
+        "de": "Frische Blätter direkt kauen oder in heißem Wasser ziehen lassen.",
+        "en": "Chew fresh leaves directly or steep in hot water."
+      },
+      "source_ids": [
+        "src_wiki_en",
+        "src_frontiers_2025"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der Volksmedizin Südamerikas wurde Stevia-Tee bei Verdauungsbeschwerden, Völlegefühl und zur allgemeinen Stärkung eingesetzt. Ethnobotanische Aufzeichnungen belegen den Einsatz bei Magen-Darm-Beschwerden durch die Guaraní.",
+        "en": "In South American folk medicine, stevia tea was used for digestive complaints, bloating and general strengthening. Ethnobotanical records document Guaraní use for gastrointestinal complaints."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 5,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "1–2 g getrocknete Blätter mit 200 ml heißem Wasser übergießen, 5 Minuten ziehen lassen, abseihen.",
+          "en": "Pour 200 ml hot water over 1–2 g dried leaves, steep 5 minutes, strain."
+        }
+      },
+      "source_ids": [
+        "src_frontiers_2025",
+        "src_wiki_en"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Getrocknete und pulverisierte Stevia-Blätter werden weltweit als kalorienfreier Zuckerersatz eingesetzt. Die enthaltenen Steviolglycoside (vor allem Steviosid und Rebaudiosid A) sind 200–300-fach süßer als Zucker. Die EFSA bewertete Steviolglycoside als Lebensmittelzusatzstoff (E 960) und etablierte einen ADI von 4 mg/kg Körpergewicht pro Tag.",
+        "en": "Dried and powdered stevia leaves are used worldwide as a calorie-free sugar substitute. The contained steviol glycosides (primarily stevioside and rebaudioside A) are 200–300 times sweeter than sugar. EFSA evaluated steviol glycosides as a food additive (E 960) and established an ADI of 4 mg/kg body weight per day."
+      },
+      "preparation": {
+        "de": "Getrocknete Blätter mahlen oder fertige Steviolglycoside-Extrakte verwenden. 1/4 Teelöffel Pulver entspricht ca. 1 Teelöffel Zucker.",
+        "en": "Grind dried leaves or use finished steviol glycoside extracts. 1/4 teaspoon powder equals approximately 1 teaspoon sugar."
+      },
+      "source_ids": [
+        "src_efsa_2020",
+        "src_molecules_2023"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinisch wurde Stevia in Südamerika zur Unterstützung des Blutdrucks eingesetzt. Pharmakologische Studien zeigten vasodilatatorische Effekte von Steviosid über Calcium-Kanal-Antagonismus, wobei diese Effekte bei üblichen Süßstoff-Mengen klinisch nicht relevant sind.",
+        "en": "In folk medicine, stevia was used in South America to support blood pressure. Pharmacological studies showed vasodilatory effects of stevioside via calcium channel antagonism, though these effects are clinically irrelevant at usual sweetener amounts."
+      },
+      "preparation": {
+        "de": "Als Tee oder in Speisen. Nicht als Ersatz für Blutdruckmedikamente.",
+        "en": "As tea or in foods. Not as a substitute for blood pressure medications."
+      },
+      "source_ids": [
+        "src_molecules_2023",
+        "src_frontiers_2025"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "immune",
+        "skin"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinisch in Südamerika zur Unterstützung bei Fieber, Infektionen und Hautproblemen eingesetzt. In vitro-Studien zeigen antimikrobielle Aktivität flüchtiger Öle aus den Blättern gegenüber bestimmten Bakterien und Pilzen.",
+        "en": "Used in South American folk medicine to support fever, infections, and skin problems. In vitro studies show antimicrobial activity of volatile oils from the leaves against certain bacteria and fungi."
+      },
+      "preparation": {
+        "de": "Als Aufguss der getrockneten Blätter.",
+        "en": "As an infusion of dried leaves."
+      },
+      "source_ids": [
+        "src_frontiers_2025"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Ethnomedizinische Berichte aus Paraguay und Brasilien dokumentieren die Verwendung von Stevia-Tee als Diuretikum und zur Unterstützung der Leberfunktion. In vitro und Tierversuche zeigen hepatoprotektive Effekte, klinische Belege beim Menschen fehlen.",
+        "en": "Ethnomedicinal reports from Paraguay and Brazil document the use of stevia tea as a diuretic and to support liver function. In vitro and animal studies show hepatoprotective effects; clinical evidence in humans is lacking."
+      },
+      "preparation": {
+        "de": "Als Blätteraufguss, traditionell 1–2 Tassen täglich.",
+        "en": "As a leaf infusion, traditionally 1–2 cups daily."
+      },
+      "source_ids": [
+        "src_frontiers_2025",
+        "src_wiki_en"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "Blätter",
+      "en": "leaves"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Steviolglycoside (E 960) sind von EFSA und weiteren Behörden weltweit als sicher eingestuft. ADI: 4 mg/kg Körpergewicht/Tag. Rohe Stevia-Blätter und grobe Extrakte sind in einigen Ländern (USA) als Süßungsmittel nicht zugelassen. Bei sehr hohen Dosen wurden in Tierstudien blutdrucksenkende Effekte beobachtet — bei normalen Verzehrmengen klinisch nicht relevant.",
+      "en": "Steviol glycosides (E 960) are classified as safe by EFSA and other authorities worldwide. ADI: 4 mg/kg body weight/day. Raw stevia leaves and crude extracts are not approved as sweeteners in some countries (USA). At very high doses, blood pressure-lowering effects were observed in animal studies — clinically irrelevant at normal consumption amounts."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Steviolglycoside in Lebensmittelmengen gelten als unbedenklich. Bei hochdosierten Präparaten fehlen ausreichende Sicherheitsdaten für die Schwangerschaft — Vorsicht geboten.",
+        "en": "Steviol glycosides in food amounts are considered safe. Adequate safety data for pregnancy are lacking for high-dose preparations — caution is advised."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Als Süßungsmittel in üblichen Mengen wahrscheinlich sicher, Daten für höhere Dosen fehlen.",
+        "en": "As a sweetener in usual amounts probably safe; data for higher doses are lacking."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "In lebensmittelüblichen Mengen als sicher eingestuft. Hochdosierte Extrakte nicht für Kleinkinder empfohlen.",
+        "en": "Classified as safe in food-grade amounts. High-dose extracts not recommended for infants."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Allergie gegen Korbblütler (Asteraceae/Compositae) — Kreuzreaktion möglich.",
+        "en": "Known allergy to plants of the Asteraceae/Compositae family — cross-reaction possible."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antidiabetika / Insulin",
+        "mechanism": {
+          "de": "Steviosid kann die Insulinsekretion fördern und den Blutzucker senken — additive Effekte mit Antidiabetika bei sehr hohen Dosen theoretisch möglich.",
+          "en": "Stevioside may promote insulin secretion and lower blood sugar — additive effects with antidiabetics theoretically possible at very high doses."
+        },
+        "severity": "monitor",
+        "source_id": "src_molecules_2023"
+      },
+      {
+        "drug_class": "Antihypertensiva",
+        "mechanism": {
+          "de": "Pharmakologisch wurden vasodilatatorische Effekte beobachtet; bei hochdosierten Extrakten additiver Effekt auf Blutdruck möglich.",
+          "en": "Pharmacological vasodilatory effects have been observed; additive effect on blood pressure possible with high-dose extracts."
+        },
+        "severity": "monitor",
+        "source_id": "src_molecules_2023"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Stevia (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Stevia",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Stevia rebaudiana (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Stevia_rebaudiana",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_en",
+      "type": "wikipedia",
+      "title": "Stevia rebaudiana (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Stevia_rebaudiana",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_de",
+      "type": "wikipedia",
+      "title": "Stevia (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Stevia",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wikidata_stevia",
+      "type": "wikidata",
+      "title": "Stevia rebaudiana (Wikidata Q7213452)",
+      "url": "https://www.wikidata.org/wiki/Q7213452",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_efsa_2020",
+      "type": "monograph",
+      "title": "Safety of a proposed amendment of the specifications for steviol glycosides (E 960) — EFSA Journal 2020",
+      "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2020.6106",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_molecules_2023",
+      "type": "monograph",
+      "title": "Steviol Glycosides from Stevia rebaudiana: An Updated Overview of Their Sweetening Activity, Pharmacological Properties, and Safety Aspects — Molecules 2023, 28(3), 1258",
+      "url": "https://doi.org/10.3390/molecules28031258",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_frontiers_2025",
+      "type": "monograph",
+      "title": "Stevia rebaudiana Bertoni as a sweet herbal medicine: traditional uses, potential applications, and future development — Frontiers in Pharmacology 2025",
+      "url": "https://doi.org/10.3389/fphar.2025.1638147",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "stevia-rebaudiana.jpg",
+    "alt": {
+      "de": "Foto von Stevia",
+      "en": "Photo of Stevia rebaudiana"
+    },
+    "license": "CC0",
+    "author": "Flyingbikie (Robert Lynch, Melbourne/Australia)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Stevia_plant.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible"
+    ],
+    "rooms": [
+      "kitchen",
+      "living_room",
+      "balcony"
+    ],
+    "light": "bright_indirect",
+    "water_frequency": "every_few_days",
+    "difficulty": 2,
+    "pet_safe": true,
+    "soil": {
+      "de": "Locker, humusreich, leicht sauer",
+      "en": "Loose, humus-rich, slightly acidic"
+    },
+    "pot_size_cm": 20,
+    "tips": {
+      "de": [
+        "Nicht austrocknen lassen — Stevia wird schnell hängend bei Wassermangel.",
+        "Vor der Blüte sind die Blätter am süßesten — dann ernten.",
+        "Im Winter heller, kühler Standort (~12-15°C), wenig Wasser."
+      ],
+      "en": [
+        "Don't let it dry out — stevia wilts quickly when thirsty.",
+        "Leaves are sweetest just before flowering — harvest then.",
+        "In winter: bright, cool spot (~12-15 °C), little water."
+      ]
+    }
+  },
+  "constituents": [
+    {
+      "name": "Steviosid",
+      "category": "glycoside",
+      "percent_range": "4-13 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptsüßstoff des Blattes; 200–300-fach süßer als Saccharose. Wird im Darm zu Steviol abgebaut und via Urin ausgeschieden.",
+        "en": "Main sweetening compound of the leaf; 200–300 times sweeter than sucrose. Metabolised in the intestine to steviol and excreted via urine."
+      }
+    },
+    {
+      "name": "Rebaudiosid A",
+      "category": "glycoside",
+      "percent_range": "2-4 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Zweitwichtigstes Steviolglycosid; gilt als geschmacklich milder als Steviosid (weniger Bitternote). Hauptbestandteil kommerzieller Extrakte.",
+        "en": "Second most important steviol glycoside; considered milder in taste than stevioside (less bitterness). Main component of commercial extracts."
+      }
+    },
+    {
+      "name": "Rebaudiosid C",
+      "category": "glycoside",
+      "percent_range": "1-2 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Eines von über 60 identifizierten Steviolglycosiden; trägt zur Gesamtsüße bei.",
+        "en": "One of over 60 identified steviol glycosides; contributes to overall sweetness."
+      }
+    },
+    {
+      "name": "Dulcosid A",
+      "category": "glycoside",
+      "percent_range": "0.4-0.7 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Steviolglycosid mit leicht bitterem Nachgeschmack; in Rohextrakten relevant.",
+        "en": "Steviol glycoside with a slightly bitter aftertaste; relevant in raw extracts."
+      }
+    },
+    {
+      "name": "Chlorogensäure",
+      "category": "phenolic_acid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Phenolische Verbindung mit antioxidativen Eigenschaften; einer von über 30 Phenolmetaboliten im Blatt.",
+        "en": "Phenolic compound with antioxidant properties; one of over 30 phenolic metabolites in the leaf."
+      }
+    },
+    {
+      "name": "Quercetin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavonoid mit antioxidativer und anti-inflammatorischer Aktivität; in Stevia-Blättern nachgewiesen.",
+        "en": "Flavonoid with antioxidant and anti-inflammatory activity; documented in stevia leaves."
+      }
+    },
+    {
+      "name": "Kaempferol",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Weiteres Flavonoid der Stevia-Blätter; antioxidative Wirkung in vitro belegt.",
+        "en": "Additional flavonoid of stevia leaves; antioxidant activity documented in vitro."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Terpene)",
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flüchtige Terpenfraktion mit antimikrobiellen Eigenschaften in vitro; verantwortlich für den charakteristischen Geruch frischer Blätter.",
+        "en": "Volatile terpene fraction with antimicrobial properties in vitro; responsible for the characteristic scent of fresh leaves."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Früh am Morgen ernten, wenn die Blätter noch kühl und feucht sind — Glycosidgehalt am höchsten.",
+        "en": "Harvest in the early morning when leaves are still cool and moist — glycoside content is highest."
+      },
+      "drying": {
+        "de": "In einer Schicht ausbreiten und an einem warmen, schattigen, gut belüfteten Ort trocknen. Alternativ: Dörrgerät bei 52 °C (125 °F) für 6–8 Stunden. Nicht in der Sonne trocknen — Qualitätsverlust.",
+        "en": "Spread in a single layer and dry in a warm, shaded, well-ventilated spot. Alternative: dehydrator at 52 °C (125 °F) for 6–8 hours. Do not dry in direct sun — quality loss."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In luftdichten Behältern, kühl und lichtgeschützt aufbewahren. So bleibt die Süßkraft bis zu einem Jahr erhalten.",
+        "en": "Store in airtight containers, cool and away from light. This preserves sweetness for up to one year."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Vor der Blüte — dann ist der Glycosidgehalt der Blätter am höchsten. Nicht mehr als ein Drittel der Pflanze auf einmal entnehmen.",
+        "en": "Before flowering — at this point the glycoside content of the leaves is highest. Never remove more than one third of the plant at a time."
+      },
+      "drying": {
+        "de": "Ganze Zweige bündeln und kopfüber an einem luftigen, schattigen Ort aufhängen bis zur vollständigen Trocknung (3–5 Tage).",
+        "en": "Bundle whole branches and hang upside-down in an airy, shaded spot until fully dry (3–5 days)."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken und luftdicht lagern.",
+        "en": "Store dry and airtight."
+      }
+    }
+  ]
+}

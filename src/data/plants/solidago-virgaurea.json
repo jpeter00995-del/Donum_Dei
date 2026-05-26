@@ -1,0 +1,566 @@
+{
+  "slug": "solidago-virgaurea",
+  "names": {
+    "de": "Gewöhnliche Goldrute",
+    "en": "Solidago virgaurea",
+    "latin": "Solidago virgaurea"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Die Gewöhnliche Goldrute, auch Gemeine Goldrute oder Echte Goldrute genannt, ist eine Pflanzenart aus der Gattung der Goldruten (Solidago) innerhalb der Familie der Korbblütler (Asteraceae). Trivialnamen sind beispielsweise Petrusstab, Ungsengkraut und Heidnisch Wundkraut.",
+    "en": "Solidago virgaurea, the European goldenrod or woundwort, is an herbaceous perennial plant of the family Asteraceae. It is widespread across most of Europe as well as North Africa and northern, central, and southwestern Asia. It is grown as a garden flower with many different cultivars."
+  },
+  "teaser": {
+    "de": "Die Gewöhnliche Goldrute, auch Gemeine Goldrute oder Echte Goldrute genannt, ist eine Pflanzenart aus der Gattung der...",
+    "en": "Solidago virgaurea, the European goldenrod or woundwort, is an herbaceous perennial plant of the family Asteraceae."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "kidney"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 200,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "AUFGUSS (Kommission E / EMA traditionell): 3–5 g getrocknetes Goldrutenkraut (Solidaginis virgaureae herba) mit 200 ml kochendem Wasser übergießen, zugedeckt 10–15 Minuten ziehen lassen, abseihen. 3–4 Tassen täglich frisch zubereitet, vorzugsweise zwischen den Mahlzeiten. WICHTIG: Zur Durchspülungstherapie gleichzeitig reichlich Flüssigkeit trinken (mindestens 2 Liter täglich). Anwendungsdauer laut Kommission E maximal 4 Wochen; bei anhaltenden Beschwerden oder Fieber sofort Arzt aufsuchen. Indikation: Durchspülungstherapie bei entzündlichen Erkrankungen der ableitenden Harnwege, Harnsteinen und Nierengries sowie zur vorbeugenden Behandlung von Harnsteinen und Nierengries.",
+          "en": "INFUSION (Kommission E / EMA traditional use): Pour 200 ml boiling water over 3–5 g dried goldenrod herb (Solidaginis virgaureae herba), cover, steep 10–15 min, strain. 3–4 freshly prepared cups daily, preferably between meals. IMPORTANT: Drink plenty of fluids alongside (at least 2 litres per day) to support irrigation. Per Kommission E, maximum 4 weeks of use; consult a doctor if symptoms persist or fever develops. Indication: irrigation therapy for inflammatory diseases of the lower urinary tract, urinary calculi and gravel, and prevention of urinary calculi and gravel."
+        }
+      },
+      "description": {
+        "de": "Durchspülungstherapie mit Goldrutenkraut-Tee bei entzündlichen Erkrankungen der ableitenden Harnwege und zur Prophylaxe von Harnstein und Nierengries — positiv bewertet durch Kommission E und EMA (traditional use).",
+        "en": "Irrigation therapy with goldenrod herb tea for inflammatory urinary tract conditions and prevention of kidney gravel/calculi — positively evaluated by Kommission E and EMA (traditional use)."
+      },
+      "source_ids": [
+        "src_ema_solidago_virgaurea",
+        "src_kommission_e_solidago",
+        "src_escop_solidago",
+        "src_wichtl_teedrogen"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "urinary",
+        "kidney"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 3
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (Droge-Extrakt-Verhältnis 1:5 in 25–45 % Ethanol): 1–3 ml (~20–60 Tropfen) 3× täglich in etwas Wasser verdünnt einnehmen. Gleichzeitig reichlich Flüssigkeit trinken (mindestens 2 Liter täglich — Durchspülungstherapie). Anwendungsdauer laut EMA maximal 4 Wochen ohne ärztliche Aufsicht. Traditionelle Anwendung bei Harnwegsinfekten und zur Vorbeugung von Harnstein. Tinktur ist Alternative zum Tee, wenn Bittergeschmack störend. Nicht bei Ethanolunverträglichkeit.",
+          "en": "TINCTURE (DER 1:5 in 25–45 % ethanol): 1–3 ml (~20–60 drops) 3× daily, diluted in water. Drink at least 2 litres of fluid daily alongside (irrigation therapy). Per EMA, max 4 weeks without medical supervision. Traditional use for urinary tract infection and prevention of urinary calculi. Tincture is an alternative to tea when bitter taste is unwanted. Not for ethanol intolerance."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Goldrutentinktur zur unterstützenden Durchspülungstherapie bei Harnwegsinfekten und Nierengries — Alternative zum Teeaufguss.",
+        "en": "Traditional goldenrod tincture for supportive irrigation therapy in urinary tract infections and kidney gravel — alternative to tea infusion."
+      },
+      "source_ids": [
+        "src_ema_solidago_virgaurea",
+        "src_escop_solidago",
+        "src_pfaf_solidago"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "joints",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 6,
+        "instructions": {
+          "de": "VOLKSHEILKUNDLICHER MISCHTEE: 2–4 g Goldrutenkraut (ggf. mit Birkenblättern, Schachtelhalm oder Brennnesselblättern) mit 250 ml kochendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen. 2–3 Tassen täglich. Volkstümlich eingesetzt bei rheumatischen Beschwerden, gichtbedingten Gelenkbeschwerden und als Frühjahrs-Stoffwechselkur. WICHTIG: Auch hier reichlich Flüssigkeit trinken. Bei Gelenkbeschwerden immer ärztliche Ursachenabklärung. Kein Ersatz für antirheumatische Medikamente.",
+          "en": "FOLK BLEND TEA: 2–4 g goldenrod herb (optionally with birch leaf, horsetail or nettle leaf) in 250 ml boiling water, covered, steep 10 min, strain. 2–3 cups daily. Folk use for rheumatic complaints, gout-related joint pain and as a spring metabolic cure. Drink plenty of water alongside. Always seek medical diagnosis for joint conditions. Not a substitute for anti-rheumatic medication."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Einsatz bei rheumatischen Beschwerden, Gicht und als Frühjahrs-Entschlackungskur — oft in Mischtees mit harntreibenden Begleitdrogen.",
+        "en": "Folk use for rheumatic complaints, gout and as a spring detox cure — often blended with other diuretic herbs."
+      },
+      "source_ids": [
+        "src_madaus_solidago",
+        "src_wp_de_solidago",
+        "src_pfaf_solidago"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 200,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "UMSCHLAG / KOMPRESSE: 5–10 g Goldrutenkraut mit 200 ml kochendem Wasser übergießen, 15 Minuten zugedeckt ziehen lassen, abseihen und abkühlen lassen (lauwarm). Ein sauberes Leinentuch in den Absud tauchen, leicht ausdrücken und auf die betroffene Stelle legen. 2× täglich 15–20 Minuten einwirken lassen. Volksheilkundlich als Wundkraut bei schlecht heilenden Wunden, Hautausschlägen und lokalen Entzündungen eingesetzt — daher der Trivialname 'Heidnisch Wundkraut'. Keine offenen, nässenden Wunden behandeln; bei Zeichen von Infektion (Rötung, Schwellung, Fieber) Arzt aufsuchen.",
+          "en": "COMPRESS / POULTICE: Steep 5–10 g goldenrod herb in 200 ml boiling water for 15 min covered, strain, cool to lukewarm. Soak a clean linen cloth in the infusion, wring slightly, apply to the affected area. Leave on 15–20 min 2× daily. Folk use as a wound herb for slow-healing wounds, skin rashes and local inflammation — hence the vernacular name 'heathen woundwort'. Do not apply to open, weeping wounds; if signs of infection appear (redness, swelling, fever) consult a doctor."
+        }
+      },
+      "description": {
+        "de": "Externe Volksheilkunde: Goldrutenkraut-Kompresse bei schlecht heilenden Wunden und Hautreizungen — traditionell als 'Heidnisch Wundkraut' bekannt.",
+        "en": "External folk use: goldenrod compress for slow-healing wounds and skin irritations — traditionally known as 'heathen woundwort'."
+      },
+      "source_ids": [
+        "src_madaus_solidago",
+        "src_wp_de_solidago",
+        "src_wp_en_solidago"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "throat"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "BLÜTENTEE: 1–2 TL getrocknete Goldrutenblüten (oder Blütenköpfchen) mit 200 ml heißem Wasser übergießen, 8–10 Minuten zugedeckt ziehen lassen, abseihen. 2–3 Tassen täglich, heiß und ggf. mit etwas Honig gesüßt. Volkstümlich eingesetzt bei Erkältungen, Halsschmerzen und Schleimlösung der Atemwege. Wirkung vor allem auf den astringierenden Gerbstoffgehalt und die ätherischen Ölanteile der Blüten zurückgeführt. Kein Ersatz für ärztliche Behandlung bei Lungenentzündung oder schwerer Bronchitis.",
+          "en": "FLOWER TEA: 1–2 tsp dried goldenrod flowers (or flower heads) in 200 ml hot water, covered, steep 8–10 min, strain. 2–3 cups daily, hot, optionally sweetened with honey. Folk use for colds, sore throat and as a mucus-loosening respiratory remedy. Action attributed mainly to astringent tannins and essential oil fractions of the flowers. Not a substitute for medical treatment of pneumonia or severe bronchitis."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Goldrutenblüten-Tee bei Erkältungen, Halsschmerzen und Atemwegsreizung — adstringierend und leicht schleimlösend.",
+        "en": "Folk goldenrod flower tea for colds, sore throat and respiratory irritation — astringent and mildly expectorant."
+      },
+      "source_ids": [
+        "src_madaus_solidago",
+        "src_pfaf_solidago",
+        "src_wp_en_solidago"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "urinary",
+        "joints",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 6,
+        "instructions": {
+          "de": "PHYTOTHERAPEUTISCHE TINKTUR (Standardzubereitung nach ESCOP/EMA, 1:5 in 25–40 % Ethanol): 1–2 ml 3× täglich, in Wasser verdünnt. Eingesetzt in der europäischen Phytotherapie bei chronischen Harnwegsinfekten, Harnsäurestoffwechselstörungen (Gicht, Hyperurikämie) und als Leberstoffwechsel-Adjuvans in Kombinationspräparaten. Flüssigkeitszufuhr wie beim Tee (mindestens 2 Liter täglich). Bei Langzeitanwendung (über 4 Wochen) ärztliche Kontrolle empfohlen.",
+          "en": "PHYTOTHERAPEUTIC TINCTURE (standard preparation per ESCOP/EMA, 1:5 in 25–40 % ethanol): 1–2 ml 3× daily, diluted in water. Used in European phytotherapy for chronic urinary tract infections, uric-acid metabolism disorders (gout, hyperuricaemia) and as hepatic adjunct in combination preparations. Fluid intake as for the tea (at least 2 litres daily). For use beyond 4 weeks, medical supervision recommended."
+        }
+      },
+      "description": {
+        "de": "ESCOP-konformer Einsatz der Goldrutentinktur bei chronischen Harnwegsinfekten und Harnsäurestoffwechselstörungen — ergänzend zur Teeform.",
+        "en": "ESCOP-aligned tincture use for chronic urinary tract infections and uric-acid metabolism disorders — complementary to the tea preparation."
+      },
+      "source_ids": [
+        "src_escop_solidago",
+        "src_ema_solidago_virgaurea",
+        "src_wichtl_teedrogen"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 50,
+          "max": 100
+        },
+        "water_ml": 1000,
+        "steep_min": 20,
+        "doses_per_day": 1,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "TEILBAD / FUSS- ODER SITZBAD: 50–100 g getrocknetes Goldrutenkraut (oder Frischkraut — doppelte Menge) mit 1 Liter kochendem Wasser übergießen, 15–20 Minuten ziehen lassen, abseihen und dem Badewasser (ca. 36–38 °C) zufügen. Fußbad: 15–20 Minuten, Temperatür angenehm warm; Sitzbad: 10–15 Minuten. Volksheilkundlich bei rheumatischen Gelenkschmerzen, Gicht-Anfällen an den Füßen und als unterstützende Maßnahme bei Hautreizungen. Nicht als Vollbad bei Herzerkrankungen oder Bluthochdruck ohne ärztliche Rücksprache.",
+          "en": "PARTIAL BATH / FOOT OR SITZ BATH: Pour 1 litre boiling water over 50–100 g dried goldenrod herb (or double quantity if fresh), steep 15–20 min, strain and add to bath water (~36–38 °C). Foot bath 15–20 min; sitz bath 10–15 min. Folk use for rheumatic joint pain, gouty attacks affecting the feet and as supportive care for skin irritations. Avoid full bath with cardiac disease or hypertension without medical consultation."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliches Goldruten-Teilbad bei rheumatischen Gelenkbeschwerden, Gicht-Anfall und Hautreizungen — abschwellend und leicht antientzündlich.",
+        "en": "Folk goldenrod partial bath for rheumatic joint pain, acute gout and skin irritations — mildly decongestant and anti-inflammatory."
+      },
+      "source_ids": [
+        "src_madaus_solidago",
+        "src_wp_de_solidago",
+        "src_pfaf_solidago"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "DURCHSPÜLUNGSTHERAPIE erfordert ausreichende Flüssigkeitszufuhr (mindestens 2 Liter täglich) — ohne ausreichend Flüssigkeit ist die Anwendung wirkungslos und kann reizend wirken. KONTRAINDIZIERT bei Ödemen infolge eingeschränkter Herz- oder Nierenfunktion: Die erhöhte Harnproduktion kann die Herzbelastung steigern. Bei Harnwegsinfekten mit Fieber, starken Rückenschmerzen oder Blut im Urin sofort Arzt aufsuchen — mögliche Nierenbeckenentzündung oder andere schwerwiegende Erkrankung. Korbblütler-Allergiker (Asteraceae) müssen Goldrute meiden — Kreuzreaktionen mit Kamille, Arnika, Beifuß, Ambrosia möglich. Anwendung laut EMA auf 4 Wochen ohne ärztliche Aufsicht begrenzen.",
+      "en": "IRRIGATION THERAPY requires adequate fluid intake (minimum 2 litres daily) — without sufficient fluid intake the treatment is ineffective and may be irritating. CONTRAINDICATED in oedema due to cardiac or renal insufficiency: the increased urine output can increase cardiac strain. Urinary tract infection with fever, severe back pain or blood in urine requires immediate medical attention — possible pyelonephritis or other serious condition. Persons with Asteraceae allergy must avoid goldenrod — cross-reactions with chamomile, arnica, mugwort, ragweed possible. Per EMA, limit self-medication to 4 weeks without medical supervision."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Unbedenklichkeit in der Schwangerschaft verfügbar. Therapeutische Dosen sollten gemieden werden. EMA empfiehlt keine Anwendung während Schwangerschaft mangels klinischer Daten.",
+        "en": "No adequate data on safety during pregnancy. Therapeutic doses should be avoided. EMA does not recommend use during pregnancy due to lack of clinical data."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Unbedenklichkeit in der Stillzeit. Therapeutische Anwendung sollte gemieden werden. Übergang von Inhaltsstoffen in die Muttermilch nicht untersucht.",
+        "en": "No adequate data on safety during lactation. Therapeutic use should be avoided. Transfer of constituents into breast milk has not been studied."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Laut EMA keine ausreichenden Daten für Kinder und Jugendliche unter 12 Jahren — Anwendung nicht empfohlen. Bei Kindern ab 12 Jahren unter ärztlicher Aufsicht möglich. Harnwegsinfekte bei Kindern immer ärztlich abklären lassen.",
+        "en": "Per EMA, insufficient data for children under 12 — use not recommended. For children from 12 years, use under medical supervision. Urinary tract infections in children always require medical evaluation."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Goldrute (Solidago spp.) oder andere Korbblütler (Asteraceae/Compositae).",
+        "en": "Hypersensitivity to goldenrod (Solidago spp.) or other Asteraceae/Compositae."
+      },
+      {
+        "de": "Ödeme infolge eingeschränkter Herz- oder Nierenfunktion — Durchspülungstherapie ist in diesen Fällen kontraindiziert, da die erhöhte Flüssigkeitslast das Herz zusätzlich belasten kann.",
+        "en": "Oedema due to cardiac or renal insufficiency — irrigation therapy is contraindicated as the increased fluid load may further strain the heart."
+      },
+      {
+        "de": "Schwere Niereninsuffizienz oder akute Nierenerkrankungen mit Oligurie oder Anurie.",
+        "en": "Severe renal insufficiency or acute renal disease with oliguria or anuria."
+      },
+      {
+        "de": "Kinder und Jugendliche unter 12 Jahren (mangels klinischer Daten laut EMA).",
+        "en": "Children and adolescents under 12 years of age (per EMA, due to lack of clinical data)."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (therapeutische Dosen) — mangels Sicherheitsdaten.",
+        "en": "Pregnancy and lactation (therapeutic doses) — due to lack of safety data."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Diuretika (Schleifendiuretika, Thiazide, kaliumsparende Diuretika)",
+        "mechanism": {
+          "de": "Goldrute besitzt eine aquaretische (harntreibende) Wirkung durch Flavonoide und Saponine. Bei Kombination mit synthetischen Diuretika kann die diuretische Wirkung additiv verstärkt werden, mit Risiko von Elektrolytentgleisungen (Hypokaliämie, Hyponatriämie), Dehydratation und Hypotonie. Elektrolyte und Flüssigkeitsstatus regelmäßig kontrollieren.",
+          "en": "Goldenrod has aquaretic (urine-producing) activity via flavonoids and saponins. Combined with synthetic diuretics, the diuretic effect may be additively enhanced, with risk of electrolyte imbalance (hypokalaemia, hyponatraemia), dehydration and hypotension. Monitor electrolytes and fluid status regularly."
+        },
+        "severity": "monitor",
+        "source_id": "src_ema_solidago_virgaurea"
+      },
+      {
+        "drug_class": "Lithium",
+        "mechanism": {
+          "de": "Diuretisch wirkende Kräuterpräparate können die renale Lithium-Ausscheidung verringern und damit den Lithiumspiegel erhöhen — Risiko einer Lithiumtoxizität. Goldrute sollte bei Lithiumbehandlung nicht ohne ärztliche Aufsicht eingenommen werden; Lithiumspiegel engmaschig überwachen.",
+          "en": "Diuretically active herbal preparations may reduce renal lithium excretion and raise lithium plasma levels — risk of lithium toxicity. Goldenrod should not be taken alongside lithium therapy without medical supervision; monitor lithium levels closely."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_solidago"
+      },
+      {
+        "drug_class": "Antidiabetika (Insulin, orale Antidiabetika)",
+        "mechanism": {
+          "de": "Einzelne Studien deuten auf eine milde hypoglykämische Wirkung von Solidago-Extrakten hin (möglicherweise über Flavonoide). Klinische Relevanz bei normalen Teemengen gering, dennoch bei Diabetikern Blutzucker stärker überwachen.",
+          "en": "Individual studies suggest a mild hypoglycaemic effect of Solidago extracts (possibly via flavonoids). Clinical relevance at normal tea doses is low; nevertheless diabetics should monitor blood glucose more carefully."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_solidago"
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gewöhnliche Goldrute (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Goldrute",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Solidago virgaurea (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Solidago_virgaurea",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_solidago_virgaurea",
+      "type": "monograph",
+      "title": "EMA/HMPC — European Union herbal monograph on Solidago virgaurea L., herba (EMA/HMPC/285758/2009, Rev. 1). Community herbal monograph — traditional use.",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/solidaginis-virgaureae-herba",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_solidago",
+      "type": "monograph",
+      "title": "Kommission E Monographie — Solidaginis virgaureae herba (Goldrutenkraut), positiv bewertet, BAnz Nr. 43 vom 02.03.1989",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/solidaginis-virgaureae-herba.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_solidago",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Solidaginis Virgaureae Herba (European Goldenrod), 2nd edition 2003 with 2009 supplement",
+      "url": "https://escop.com/downloads/solidago-virgaurea/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_teedrogen",
+      "type": "book",
+      "title": "Wichtl, Max (ed.) — Teedrogen und Phytopharmaka: Ein Handbuch für die Praxis auf wissenschaftlicher Grundlage. 5. Auflage. Wissenschaftliche Verlagsgesellschaft, Stuttgart 2009.",
+      "url": "https://www.wissenschaftliche-verlagsgesellschaft.de/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_solidago",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band III: Solidago virgaurea (Goldrute), 1938 (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/solidago.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_solidago",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Solidago virgaurea database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Solidago+virgaurea",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_solidago",
+      "type": "wikipedia",
+      "title": "Gewöhnliche Goldrute (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Goldrute",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_solidago",
+      "type": "wikipedia",
+      "title": "Solidago virgaurea — European Goldenrod (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Solidago_virgaurea",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_solidago",
+      "type": "wikidata",
+      "title": "Solidago virgaurea — Wikidata item Q157327",
+      "url": "https://www.wikidata.org/wiki/Q157327",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_commons_solidago",
+      "type": "commons",
+      "title": "Wikimedia Commons — Solidago virgaurea image gallery",
+      "url": "https://commons.wikimedia.org/wiki/Solidago_virgaurea",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "solidago-virgaurea.jpg",
+    "alt": {
+      "de": "Foto von Gewöhnliche Goldrute",
+      "en": "Photo of Solidago virgaurea"
+    },
+    "license": "GPL",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Solidago_virgaurea09.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Flavonoide (Rutin, Isoquercitrin, Hyperosid, Nicotiflorin, Astragalin)",
+      "category": "flavonoid",
+      "percent_range": "1.5-3 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Quantitativ bedeutendste Wirkstoffgruppe des blühenden Krautes. Rutin und Hyperosid sind Leitsubstanzen; sie wirken aquaretisch (Hemmung der tubulären Rückresorption), antioxidativ, kapillarprotektiv und leicht antientzündlich. Flavonoide gelten als Hauptträger der diuretischen Wirkung von Solidago virgaurea.",
+        "en": "Quantitatively most important active compound group of the flowering herb. Rutin and hyperoside are lead compounds; they act aquaretically (inhibition of tubular reabsorption), antioxidantly, capillary-protectively and mildly anti-inflammatorily. Flavonoids are considered the primary carriers of the diuretic activity of Solidago virgaurea."
+      }
+    },
+    {
+      "name": "Diterpene (Solidagolacton I–VIII, Solidagosaponin-Aglykone)",
+      "category": "other",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Bicyclische und tricyclische Diterpene mit antispasmodischer, antientzündlicher und schwach antimikrobieller Wirkung. Zusammen mit den Saponinen an der antiinflammatorischen Wirkung im Harntrakt beteiligt.",
+        "en": "Bicyclic and tricyclic diterpenes with antispasmodic, anti-inflammatory and weakly antimicrobial activity. Together with the saponins, involved in the anti-inflammatory action in the urinary tract."
+      }
+    },
+    {
+      "name": "Triterpen-Saponine (Virgaurea-Saponine, Solidagosaponin I–XVII)",
+      "category": "saponin",
+      "percent_range": "2-4 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Komplexes Saponingemisch aus Oleanolsäure- und Ursolsäure-Derivaten mit Glycosidkette. Aquaretisch wirksam (fördern Harnfluss ohne Elektrolytverlust), antientzündlich und spasmolytisch. Mitverantwortlich für die traditionelle Indikation bei Harnwegsinfekten und Nierengries.",
+        "en": "Complex saponin mixture of oleanolic-acid and ursolic-acid derivatives with glycoside chain. Aquaretically active (promote urine flow without electrolyte loss), anti-inflammatory and spasmolytic. Jointly responsible for the traditional indication in urinary tract infections and kidney gravel."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Kaffeesäure, Chlorogensäure, 3,4-Dicaffeoylchinasäure)",
+      "category": "phenolic_acid",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Antioxidativ und leicht antientzündlich. Chlorogensäure und Dicaffeoylchinasäure hemmen Leukotrien-Synthese und tragen zur antiexsudativen Wirkung bei. Auch an der cholagogen (gallentreibenden) Volksheilkunde-Wirkung der Goldrute beteiligt.",
+        "en": "Antioxidant and mildly anti-inflammatory. Chlorogenic acid and dicaffeoylquinic acid inhibit leukotriene synthesis and contribute to antiexudative action. Also involved in the folk-medicine cholagogue (bile-stimulating) use of goldenrod."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (alpha-Pinen, Limonen, Germacrene D)",
+      "category": "essential_oil",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Qualitativ vielfältiges ätherisches Öl der Blüten — quantitativ gering. Hauptkomponenten Germacrene D (sesquiterpenisch), alpha-Pinen und Limonen. Antimikrobiell gegenüber gramnegativen Harnwegserregern (Escherichia coli, Proteus spp.) in vitro; trägt zum Duft und zur schleimhautaktiven Wirkung bei.",
+        "en": "Qualitatively diverse essential oil of the flowers — small quantity. Main components germacrene D (sesquiterpenic), alpha-pinene and limonene. Antimicrobial against gram-negative urinary pathogens (Escherichia coli, Proteus spp.) in vitro; contributes to the scent and mucosal activity."
+      }
+    },
+    {
+      "name": "Gerbstoffe / Catechin-Tannine",
+      "category": "tannin",
+      "percent_range": "2-3 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Adstringierende Gerbstoffe, die die entzündungshemmende und wundheilende Volksheilkunde-Wirkung erklären ('Heidnisch Wundkraut'). Lokalisierende Wirkung auf Schleimhäute des Harnwegs und der Atemwege; leicht antiseptisch.",
+        "en": "Astringent tannins explaining the anti-inflammatory and wound-healing folk-medicine use ('heathen woundwort'). Localising action on urinary and respiratory mucosae; mildly antiseptic."
+      }
+    },
+    {
+      "name": "Polysaccharide (Inulin-artige Fructane)",
+      "category": "polysaccharide",
+      "percent_range": "ca. 5-10 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Inulin-ähnliche Fructan-Polysaccharide, besonders im Spätsommer-Kraut und in den Rhizomen. Immunmodulierend (Aktivierung von Makrophagen), contributes zur Gesamtwirkung; auch als präbiotischer Anteil im Kräutertee von Interesse.",
+        "en": "Inulin-like fructan polysaccharides, especially in late-summer herb and rhizomes. Immunomodulatory (macrophage activation), contributing to overall activity; also of interest as a prebiotic component in herbal teas."
+      }
+    },
+    {
+      "name": "Lecotin / Solidagoside (Phenylglycosid-Fraktion)",
+      "category": "glycoside",
+      "percent_range": "0.05-0.2 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenylglycoside (u.a. Solidagoside A–C) mit antispasmodischer Wirkung auf die glatte Muskulatur der Harnwege. Wirken synergetisch mit Saponinen und Flavonoiden bei der spasmolytischen Unterstützung des Harnabflusses.",
+        "en": "Phenylglycosides (e.g. solidagosides A–C) with antispasmodic activity on smooth muscle of the urinary tract. Act synergistically with saponins and flavonoids to support spasmolytic facilitation of urine flow."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "An trockenem, sonnigem Vormittag (9–12 Uhr), wenn der Tau vollständig abgetrocknet ist. Der Wirkstoffgehalt (Flavonoide, Saponine) ist zur Blütezeit am höchsten — möglichst bei der ersten Blüte (ca. 1/3 bis 1/2 der Blütenköpfchen geöffnet) ernten, bevor die Blütenstände voll aufgeblüht und verblüht sind.",
+        "en": "On a dry, sunny morning (9–12), once dew has evaporated. Constituent content (flavonoids, saponins) is highest at flowering time — harvest when approximately 1/3 to 1/2 of the flower heads are open, before the inflorescence is fully spent."
+      },
+      "drying": {
+        "de": "Obere 20–30 cm der blühenden Triebe (Herba Solidaginis virgaureae) ernten — Stängel, Blätter und Blütenstände gemeinsam. Dicke, lignifizierte Stängelabschnitte abschneiden. Zu Bündeln zusammenbinden und kopfüber an luftigem, schattigen Ort aufhängen ODER einlagig auf Trockensieben ausbreiten. Trocknungstemperatur maximal 40 °C (Thermoinstabilität der Flavonoide). Trockenzeit 5–10 Tage je nach Luftfeuchtigkeit. Die Droge ist fertig, wenn Stängel knacken und Blütenköpfchen rascheln — kein Schimmelrisiko mehr.",
+        "en": "Harvest the upper 20–30 cm of flowering shoots (Herba Solidaginis virgaureae) — stems, leaves and flower heads together. Cut off thick lignified stem sections. Bind into bundles and hang upside-down in a well-ventilated shady spot, OR spread in a single layer on drying screens. Maximum drying temperature 40 °C (flavonoid thermolability). Drying time 5–10 days depending on humidity. The herb is ready when stems snap and flower heads rustle — no further mould risk."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "In luftdichten, lichtgeschützten Behältern (Braunglas, Blechdose) kühl und trocken lagern. Haltbarkeit bis zu 2 Jahre. Bei Verfärbung ins Bräunliche oder muffigem Geruch entsorgen.",
+        "en": "Store in airtight, light-protected containers (dark glass, tin) in a cool dry place. Shelf life up to 2 years. Discard if colour turns brownish or a musty smell develops."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Frische, vollständig aufgeblühte Blütenstände an trockenem Vormittag ernten. Nur die Blütenköpfchen ohne dicke Stängel verwenden — reichhaltigster Gehalt an ätherischem Öl und Flavonoiden befindet sich in den Zungenblüten und Röhrenblüten.",
+        "en": "Harvest fresh, fully opened flowering heads on a dry morning. Use only the flower heads without thick stalks — the highest concentration of essential oil and flavonoids is in the ligulate and tubular florets."
+      },
+      "drying": {
+        "de": "Blütenstände sofort nach der Ernte einlagig auf feinen Sieben bei maximal 35 °C trocknen — schonend wegen des ätherischen Öls. Häufig wenden. Fertig, wenn Blütenköpfchen trocken und knisternd, ohne feuchte Stellen. Für Tees und Tinkturen rasch weiterverarbeiten (Blüten verlieren ätherisches Öl durch Oxidation nach 12–18 Monaten stark).",
+        "en": "Immediately after harvest, spread flower heads in a single layer on fine screens at maximum 35 °C — gentle drying to preserve essential oil. Turn frequently. Ready when flower heads are dry and rustling with no moist spots. For teas and tinctures, process quickly (flowers lose essential oil substantially to oxidation after 12–18 months)."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht in Braunglasgläsern, trocken, dunkel, kühl. Innerhalb 12 Monate aufbrauchen — danach Verlust von ätherischem Öl und Flavonoiden.",
+        "en": "Airtight in dark glass jars, dry, dark, cool. Use within 12 months — afterwards substantial loss of essential oil and flavonoids."
+      }
+    }
+  ]
+}

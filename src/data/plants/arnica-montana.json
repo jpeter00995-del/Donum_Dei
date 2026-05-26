@@ -1,0 +1,484 @@
+{
+  "slug": "arnica-montana",
+  "names": {
+    "de": "Arnika",
+    "en": "Arnica",
+    "latin": "Arnica montana"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Die Arnika ist eine mehrjährige Gebirgspflanze mit leuchtend gelb-orangen Strahlenblüten, die auf nährstoffarmen Wiesen in den Mittelgebirgen und Alpen wächst. Sie steht in Deutschland unter Naturschutz und darf in der Natur nicht gesammelt werden. Ihre Blütenextrakte sind eines der bekanntesten Mittel der traditionellen Heilkunde gegen Prellungen und Blutergüsse — ausschließlich zur äußerlichen Anwendung.",
+    "en": "Arnica is a perennial mountain plant with brilliant yellow-orange ray flowers that grows on nutrient-poor meadows in low mountain ranges and the Alps. It is protected by nature conservation law in Germany and must not be collected in the wild. Its flower extracts are one of the best-known traditional remedies for bruises and contusions — exclusively for external use."
+  },
+  "teaser": {
+    "de": "Bewährte äußerliche Anwendung bei Prellungen — nicht einnehmen!",
+    "en": "Proven external treatment for bruises — not for internal use!"
+  },
+  "uses": [
+    {
+      "form": "compress",
+      "target": [
+        "bruise",
+        "joints",
+        "muscle"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Arnikatinktur (1:10 in 70 % Ethanol), mit Wasser 1:3 bis 1:10 verdünnt, als feuchter Umschlag (Kompresse) auf Prellungen, Blutergüssen, Verstauchungen und stumpfen Verletzungen. Ausschließlich auf intakter, unversehrter Haut. Kompresse 2–3× täglich für 20–30 Minuten auflegen, gut mit einem Tuch abdecken. Kommission E hat die Anwendung bei stumpfen Verletzungen, Hämatomen, Muskel- und Gelenkbeschwerden positiv bewertet.",
+        "en": "Arnica tincture (1:10 in 70 % ethanol), diluted 1:3 to 1:10 with water, applied as a moist compress to bruises, contusions, sprains and blunt injuries. External use on intact, unbroken skin only. Apply compress 2-3 times daily for 20-30 minutes, covered with a cloth. Kommission E positively assessed arnica for blunt injuries, haematomas, and muscle and joint complaints."
+      },
+      "source_ids": [
+        "src_kommission_e_arnica",
+        "src_ema_arnicae_flos",
+        "src_escop_arnica"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "bruise",
+        "muscle",
+        "joints"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Unverdünnte oder schwach verdünnte Arnikatinktur (DAB: Tinctura Arnicae 1:10, Ethanol 70 %) als Einreibung bei Muskelkater, Zerrungen und Gelenkschmerzen nach sportlicher Belastung. Nur auf unversehrter Haut auftragen, nicht unter luftundurchlässige Verbände. Kommission E hat Arnika für die topische Anwendung bei stumpfen Verletzungen positiv bewertet; die EMA stuft die Anwendung als traditionell ein.",
+        "en": "Undiluted or lightly diluted arnica tincture (DAB: Tinctura Arnicae 1:10, ethanol 70 %) rubbed in for muscle soreness, strains and joint pain after physical exertion. Apply to intact skin only; do not cover with occlusive dressings. German Commission E positively assessed arnica for topical use on blunt trauma; the EMA classifies the use as traditional."
+      },
+      "source_ids": [
+        "src_ema_arnicae_flos",
+        "src_kommission_e_arnica",
+        "src_escop_arnica"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "bruise",
+        "muscle",
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Arnikasalbe oder -gel (standardisiert auf Sesquiterpenlactone, üblicherweise 0,5–1 % Helenalin-Derivate oder entsprechend 15 % Tinktur in Salbengrundlage) zur äußerlichen Anwendung bei stumpfen Verletzungen, Muskelschmerzen, Gelenkbeschwerden, Prellungen und Verstauchungen. 2–3× täglich dünn auftragen, nicht auf offene Wunden. Kommission E bewertet Arnikazubereitungen zur äußerlichen Anwendung positiv; die EMA-Monographie führt Arnika als traditionelle Anwendung.",
+        "en": "Arnica ointment or gel (standardised on sesquiterpene lactones, typically 0.5-1 % helenalin derivatives or equivalent to 15 % tincture in ointment base) for external use on blunt injuries, muscle pain, joint complaints, bruises and sprains. Apply thinly 2-3 times daily; do not use on open wounds. German Commission E positively assessed arnica preparations for external use; the EMA monograph lists arnica as traditional use."
+      },
+      "source_ids": [
+        "src_ema_arnicae_flos",
+        "src_escop_arnica",
+        "src_kommission_e_arnica"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "muscle",
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Arnika-Sitzbad oder Teil-/Fußbad bei müden, schmerzenden Muskeln und leichten Gelenkbeschwerden nach körperlicher Arbeit: 2–3 EL getrocknete Arnikablüten (ca. 5–10 g) mit 1 Liter siedendem Wasser übergießen, 10 Minuten ziehen lassen, abseihen und dem Badewasser beifügen (Wassertemperatur 36–38 °C, Badezeit 15–20 Minuten). Traditionelle Volksanwendung, in deutschsprachiger Kräuterliteratur gut belegt (Wichtl, Hänsel/Sticher). Nicht bei Hautschäden, offenen Wunden oder bekannter Korbblütler-Allergie.",
+        "en": "Arnica sitz bath or partial/foot bath for tired, aching muscles and mild joint complaints after physical work: 2-3 tbsp dried arnica flowers (approx. 5-10 g) infused in 1 litre boiling water, steeped 10 minutes, strained and added to bath water (temperature 36-38 °C, bathing time 15-20 minutes). Traditional folk application, well documented in German-language herbal literature (Wichtl, Hänsel/Sticher). Do not use on damaged skin, open wounds, or in known Asteraceae allergy."
+      },
+      "source_ids": [
+        "src_wichtl",
+        "src_haensel_sticher",
+        "src_escop_arnica"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "description": {
+        "de": "Arnikatinktur, mit Wasser verdünnt (1:5 bis 1:10), als Umschlag bei Insektenstichen und oberflächlichen Hautirritationen (nicht auf offenen Wunden). Kompresse mit sauberem Tuch auf die betroffene Stelle legen, 15–20 Minuten einwirken lassen. Kommission E nennt Insektenstiche explizit als Indikation für äußerliche Arnikazubereitungen. Nur auf intakter Haut — Anwendung auf offenen Wunden ist kontraindiziert (lokale Schleimhautreizung, Kontaktdermatitis-Risiko).",
+        "en": "Arnica tincture diluted with water (1:5 to 1:10), applied as a compress for insect bites and superficial skin irritations (not on open wounds). Apply compress with a clean cloth to the affected area, leave for 15-20 minutes. Kommission E explicitly lists insect bites as an indication for external arnica preparations. Only on intact skin — use on open wounds is contraindicated (local mucosal irritation, contact dermatitis risk)."
+      },
+      "source_ids": [
+        "src_kommission_e_arnica",
+        "src_ema_arnicae_flos"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "joints",
+        "muscle"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Standardisiertes Arnikagel (50 g Arnikablüten-Tinktur pro 100 g, entspricht ~15 % Urtinktur) klinisch untersucht bei Arthrose der Fingergelenke und Knie: In randomisierten kontrollierten Studien (u. a. Knuesel et al. 2002, Wiesenauer 2004) zeigte Arnikagel vergleichbare Wirksamkeit zu Ibuprofen-Gel bei der Schmerzreduktion und Verbesserung der Gelenkfunktion. Anwendung 3× täglich auf die betroffenen Gelenke, mindestens 3–6 Wochen zur Wirkungsbeurteilung. Nur als Ergänzung, nicht als Ersatz für ärztlich verordnete Arthrosetherapie.",
+        "en": "Standardised arnica gel (50 g arnica flower tincture per 100 g, equivalent to ~15 % mother tincture) clinically studied for osteoarthritis of finger joints and knee: In randomised controlled trials (e.g. Knuesel et al. 2002, Wiesenauer 2004), arnica gel showed comparable efficacy to ibuprofen gel in pain reduction and improvement of joint function. Apply 3 times daily to affected joints for at least 3-6 weeks to assess benefit. Use only as adjunct, not as replacement for physician-prescribed osteoarthritis therapy."
+      },
+      "source_ids": [
+        "src_knuesel_2002",
+        "src_ema_arnicae_flos",
+        "src_escop_arnica"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "bruise",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Anwendung von Arnikatinktur (stark verdünnt 1:10 in Wasser) bei Frostbeulen (Perniones) und Kälteschäden der Haut: als Umschlag oder vorsichtige Einreibung zur Förderung der lokalen Durchblutung. In der deutschen Volksheilkunde (Kneipp-Tradition) und schweizerischen Kräutermedizin (Künzle) seit Langem überliefert. Klinische Belege fehlen — rein traditionelle Anwendung. Nur auf intakter, nicht aufgebrochener Haut.",
+        "en": "Folk medicine application of arnica tincture (heavily diluted 1:10 in water) for chilblains (perniones) and cold-induced skin damage: as compress or gentle rub to promote local circulation. Long-standing tradition in German folk medicine (Kneipp tradition) and Swiss herbal medicine (Künzle). Clinical evidence lacking — purely traditional use. Only on intact, unbroken skin."
+      },
+      "source_ids": [
+        "src_kuenzle_1911",
+        "src_wp_de_arnica",
+        "src_haensel_sticher"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Blüten (in Deutschland nur aus Kulturen oder Apotheken!)",
+      "en": "flowers (in Germany only from cultivation or pharmacies!)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "KRITISCH — NUR ÄUSSERLICH: Arnica montana darf NIEMALS innerlich eingenommen werden. Auch kleine orale Dosen der Blütendroge können durch das Sesquiterpenlacton Helenalin schwere Vergiftungen verursachen: Schleimhautreizungen, Gastroenteritis, Herzrhythmusstörungen (Kardiotoxizität), zentralnervöse Störungen bis hin zu Atemlähmung. Äußerliche Anwendung: NICHT auf offene Wunden, Schürfwunden oder beschädigte Haut auftragen — Gefahr von lokalen Reizungen und systemischer Resorption von Helenalin. KORBBLÜTLER-ALLERGIE (Asteraceae/Compositae) ist eine absolute Kontraindikation. Arnika kann starke allergische Kontaktdermatitis auslösen. Naturschutz: In Deutschland, Österreich und der Schweiz steht Arnica montana unter strengem Naturschutz — Wildsammlung ist verboten. Nur Apothekenware oder Produkte aus zertifiziertem Anbau verwenden. Homöopathische Arnikapräparate (Verdünnungen D4 und höher) unterliegen anderen Regeln als die phytotherapeutische Droge — hier werden nur phytotherapeutische Zubereitungen beschrieben.",
+      "en": "CRITICAL — EXTERNAL USE ONLY: Arnica montana must NEVER be taken internally. Even small oral doses of the herbal drug can cause severe poisoning through the sesquiterpene lactone helenalin: mucosal irritation, gastroenteritis, cardiac arrhythmia (cardiotoxicity), CNS disturbances and respiratory paralysis. External use: do NOT apply to open wounds, abrasions or damaged skin — risk of local irritation and systemic absorption of helenalin. ASTERACEAE ALLERGY (Compositae family) is an absolute contraindication. Arnica can cause severe allergic contact dermatitis. Conservation status: Arnica montana is strictly protected in Germany, Austria and Switzerland — wild collection is prohibited. Use only pharmacy-grade products or cultivated material. Homeopathic arnica preparations (dilutions D4 and above) are governed by different rules from the phytotherapeutic drug — only phytotherapeutic preparations are described here."
+    },
+    "external_only": true,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Arnica montana darf in der Schwangerschaft nicht angewendet werden. Helenalin und verwandte Sesquiterpenlactone können uterusstimulierend wirken. Laut EMA-Monographie besteht keine ausreichende Datenlage zur Sicherheit; aufgrund der bekannten Toxizität der Inhaltsstoffe ist jede äußerliche Anwendung in der Schwangerschaft zu meiden.",
+        "en": "Arnica montana must not be used during pregnancy. Helenalin and related sesquiterpene lactones may have uterotonic activity. Per the EMA monograph, sufficient safety data are lacking; given the known toxicity of constituents, all external use during pregnancy should be avoided."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Sicherheit in der Stillzeit. Aufgrund der Toxizität von Helenalin und des möglichen Übergangs in die Muttermilch wird die Anwendung in der Stillzeit nicht empfohlen. EMA-Monographie schließt Stillzeit von der Anwendung aus.",
+        "en": "No adequate safety data in lactation. Due to the toxicity of helenalin and potential transfer into breast milk, use during lactation is not recommended. The EMA monograph excludes breastfeeding from the indicated population."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Laut EMA-Monographie nicht empfohlen für Kinder unter 12 Jahren (keine ausreichenden Sicherheitsdaten). Bei Kindern über 12 Jahren nur unter ärztlicher Aufsicht und nur bei klarer Indikation. Allergiegefahr besonders beachten. Keine Anwendung im Gesicht oder auf großen Körperflächen.",
+        "en": "Per the EMA monograph, not recommended for children under 12 years (insufficient safety data). In children over 12 years, use only under medical supervision and for a clear indication. Allergy risk particularly important. Do not apply to the face or large body surface areas."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Arnika oder andere Korbblütler (Asteraceae/Compositae), insbesondere gegen Sesquiterpenlactone (Kreuzreaktivität mit Kamille, Ringelblume, Chrysantheme, Schafgarbe).",
+        "en": "Hypersensitivity to arnica or other Asteraceae/Compositae, especially to sesquiterpene lactones (cross-reactivity with chamomile, calendula, chrysanthemum, yarrow)."
+      },
+      {
+        "de": "Anwendung auf offenen Wunden, Schürfwunden, Ekzemen, entzündeten oder gereizten Hautflächen — erhöhte Resorption von Helenalin und Allergisierungsrisiko.",
+        "en": "Application to open wounds, abrasions, eczema, inflamed or irritated skin — increased absorption of helenalin and risk of sensitisation."
+      },
+      {
+        "de": "Innerliche Einnahme jeglicher Arnika-Phytotherapeutika — absolut kontraindiziert aufgrund der Kardiotoxizität und Schleimhauttoxizität von Helenalin.",
+        "en": "Internal ingestion of any arnica phytotherapeutic preparation — absolutely contraindicated due to the cardiotoxicity and mucosal toxicity of helenalin."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit.",
+        "en": "Pregnancy and lactation."
+      },
+      {
+        "de": "Kinder unter 12 Jahren (EMA-Monographie).",
+        "en": "Children under 12 years (EMA monograph)."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulanzien / Thrombozytenaggregationshemmer (Warfarin, Phenprocoumon, ASS, Clopidogrel)",
+        "mechanism": {
+          "de": "Helenalin hemmt in vitro die Thrombozytenaggregation und kann die blutgerinnungshemmende Wirkung von Antikoagulanzien und Thrombozytenaggregationshemmern additiv verstärken. Bei äußerlicher Anwendung auf kleinen Flächen ist die systemische Resorption gering; bei großflächiger Anwendung oder Anwendung unter Okklusion ist eine klinisch relevante Interaktion möglich. Blutungszeit überwachen.",
+          "en": "Helenalin inhibits platelet aggregation in vitro and may additively enhance the anticoagulant or antiplatelet effect of blood thinners. Systemic absorption from small-area topical use is low; with large-area application or occlusion, clinically relevant interaction is possible. Monitor bleeding time."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_arnica"
+      },
+      {
+        "drug_class": "Blutdrucksenkende Mittel (Antihypertensiva)",
+        "mechanism": {
+          "de": "Arnikaextrakte können in höheren systemischen Konzentrationen blutdruckbeeinflussende Effekte zeigen. Bei bestimmungsgemäßer äußerlicher Anwendung klinisch nicht relevant; bei großflächiger Applikation oder beschädigter Haut theoretische additive Hypotension möglich.",
+          "en": "Arnica extracts at higher systemic concentrations may exert blood pressure effects. Clinically not relevant with intended external use on intact skin; with large-area or damaged skin application, theoretical additive hypotension is possible."
+        },
+        "severity": "monitor",
+        "source_id": "src_ema_arnicae_flos"
+      },
+      {
+        "drug_class": "Lokalanästhetika (Benzocain, Lidocain — topische Präparate)",
+        "mechanism": {
+          "de": "Bei kombinierter Anwendung topischer Arnikazubereitungen mit anderen Lokalanästhetika oder hautreizenden Substanzen auf derselben Körperstelle kann die Reizwirkung kumulieren und das Kontaktdermatitis-Risiko erhöhen. Nicht auf derselben Hautstelle gleichzeitig anwenden.",
+          "en": "Combined use of topical arnica with other local anaesthetics or skin-irritating substances on the same site may cumulate irritation and increase contact dermatitis risk. Do not apply simultaneously to the same skin area."
+        },
+        "severity": "caution",
+        "source_id": "src_ema_arnicae_flos"
+      }
+    ]
+  },
+  "classical_quotes": [
+    {
+      "author": "Künzle",
+      "year": 1911,
+      "license": "PD",
+      "text_de": "Die Arnika ist eine wahre Wunderpflanze bei Quetschungen und Verstauchungen — doch nur äußerlich angewendet.",
+      "text_en": "Arnica is a true wonder plant for contusions and sprains — but only when applied externally.",
+      "work": "Chrut und Uchrut",
+      "chapter": "Arnika (Arnica montana) — Wundpflanze"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echte Arnika (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echte_Arnika",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Arnica montana (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Arnica_montana",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_arnicae_flos",
+      "type": "monograph",
+      "title": "EMA/HMPC/198793/2012 — European Union herbal monograph on Arnica montana L., flos (Final, traditional use)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/arnicae-flos",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_arnica",
+      "type": "monograph",
+      "title": "Kommission E — Arnicae flos (Arnikablüten), Monographie (positiv), Bundesanzeiger Nr. 228, 1984 / revidiert 1990",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/arnicae-flos.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_arnica",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Arnicae flos (Arnica Flower), 2nd edition, supplement 2009",
+      "url": "https://escop.com/downloads/arnica-flower/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl",
+      "type": "book",
+      "title": "Wichtl, Max (Hrsg.) — Teedrogen und Phytopharmaka: Ein Handbuch für die Praxis, 5. Auflage, Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009. Arnicae flos (S. 65–69).",
+      "url": "https://www.wissenschaftliche.de/buecher/teedrogen-und-phytopharmaka",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_haensel_sticher",
+      "type": "book",
+      "title": "Hänsel, Rudolf; Sticher, Otto — Pharmakognosie – Phytopharmazie, 9. Auflage, Springer Verlag, 2010. Kapitel: Sesquiterpenlactone; Arnica montana.",
+      "url": "https://www.springer.com/de/book/9783642009723",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_knuesel_2002",
+      "type": "monograph",
+      "title": "Knuesel O, Weber M, Suter A. Arnica montana gel in osteoarthritis of the knee: an open, multicenter clinical trial. Adv Ther. 2002;19(5):209-218. DOI:10.1007/BF02850361",
+      "url": "https://doi.org/10.1007/BF02850361",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kuenzle_1911",
+      "type": "book",
+      "title": "Künzle, Johannes — Chrut und Uchrut: Praktisches Heilkräuterbüchlein, 1911 (Public Domain). Abschnitt Arnika.",
+      "url": "https://www.henriettes-herb.com/eclectic/swiss/kuenzle-chrut.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_arnica_montana",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Arnica montana database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Arnica+montana",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_arnica",
+      "type": "wikipedia",
+      "title": "Echte Arnika (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echte_Arnika",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_arnica",
+      "type": "wikipedia",
+      "title": "Arnica montana (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Arnica_montana",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "arnica-montana.jpg",
+    "alt": {
+      "de": "Gelb-orange Strahlenblüte der Arnika auf Bergwiese",
+      "en": "Yellow-orange ray flower of arnica on a mountain meadow"
+    },
+    "license": "Public domain",
+    "author": "Otto Wilhelm Thomé, Flora von Deutschland (1885)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Arnica_montana0.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Sesquiterpenlactone: Helenalin und Dihydrohelenalin (sowie deren Ester)",
+      "category": "sesquiterpene",
+      "percent_range": "0.2-0.8 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Pharmakologische Leitsubstanzen der Arnikablüten. Helenalin und seine Ester (Helenalinacetat, Helenalinmethacrylat) sind für die entzündungshemmende und analgetische Wirkung bei äußerlicher Anwendung verantwortlich (Hemmung von NF-κB und Prostaglandinsynthese). Gleichzeitig Hauptursache der Toxizität bei innerlicher Einnahme (Kardiotoxizität, Schleimhautreizung) und des Allergisierungspotenzials (Kontaktdermatitis, kreuzreaktiv mit anderen Sesquiterpenlacton-haltigen Asteraceen).",
+        "en": "Pharmacological lead compounds of arnica flowers. Helenalin and its esters (helenalin acetate, helenalin methacrylate) are responsible for the anti-inflammatory and analgesic effects in external use (inhibition of NF-κB and prostaglandin synthesis). Simultaneously the main cause of toxicity on internal ingestion (cardiotoxicity, mucosal irritation) and the sensitisation potential (contact dermatitis, cross-reactive with other sesquiterpene lactone-containing Asteraceae)."
+      }
+    },
+    {
+      "name": "Flavonoide: Isoquercitrin, Luteolin-7-glucosid, Astragalin, Quercetin",
+      "category": "flavonoid",
+      "percent_range": "0.4-0.6 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Flavonoidfraktion der Arnikablüten. Isoquercitrin (Quercetin-3-glucosid) und Luteolin-7-glucosid sind die mengenmäßig dominierenden Vertreter. Antioxidative und mild kapillarprotektive Wirkung; tragen zur Gesamtaktivität bei Prellungen und Hämatomen bei. Pharmakologisch synergistisch mit den Sesquiterpenlactonen.",
+        "en": "Flavonoid fraction of arnica flowers. Isoquercitrin (quercetin-3-glucoside) and luteolin-7-glucoside are quantitatively dominant. Antioxidant and mildly capillary-protective; contribute to overall activity in bruises and haematomas. Pharmacologically synergistic with sesquiterpene lactones."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Thymol, Thymolderivate, Sesquiterpene)",
+      "category": "essential_oil",
+      "percent_range": "0.2-1.0 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Das ätherische Öl der Arnikablüten enthält Thymol und thymolhaltige Verbindungen sowie verschiedene Sesquiterpene. Verantwortlich für den charakteristischen aromatischen Geruch der Droge. Antimikrobiell und mild durchblutungsfördernd; trägt zum Gesamtwirkprofil bei äußerlicher Anwendung bei.",
+        "en": "The essential oil of arnica flowers contains thymol and thymol derivatives as well as various sesquiterpenes. Responsible for the characteristic aromatic odour of the drug. Antimicrobial and mildly circulation-promoting; contributes to the overall topical activity profile."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren: Chlorogensäure, Kaffee-säure, 3,5-Dicaffeoylchinasäure",
+      "category": "phenolic_acid",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Caffeolylchinasäure-Ester, insbesondere Chlorogensäure und Cynarin-Typ-Verbindungen. Antioxidativ und antiphlogistisch; hemmend auf die Lipoxygenase. Beitrag zur entzündungshemmenden Wirkung der Arnikablüten bei topischer Applikation.",
+        "en": "Caffeoylquinic acid esters, particularly chlorogenic acid and cynarin-type compounds. Antioxidant and anti-inflammatory; lipoxygenase-inhibiting. Contribution to the anti-inflammatory activity of arnica flowers in topical application."
+      }
+    },
+    {
+      "name": "Carotinoide: Beta-Carotin, Lutein, Zeaxanthin",
+      "category": "other",
+      "percent_range": "0.02-0.1 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Carotinoide sind mitverantwortlich für die leuchtend gelb-orange Färbung der Arnikablüten. Antioxidative Eigenschaften; pharmakologisch bei äußerlicher Anwendung von untergeordneter Bedeutung gegenüber Sesquiterpenlactonen und Flavonoiden.",
+        "en": "Carotenoids are partly responsible for the brilliant yellow-orange colouration of arnica flowers. Antioxidant properties; pharmacologically of secondary importance in external use compared to sesquiterpene lactones and flavonoids."
+      }
+    },
+    {
+      "name": "Polysaccharide (Inulin, Fructooligosaccharide)",
+      "category": "polysaccharide",
+      "percent_range": "1-4 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Schleimpolysaccharide der Arnikablüten mit emollientem Charakter; unterstützen die gleichmäßige Verteilung und Haftung von Salbengrundlagen auf der Haut. Phytotherapeutisch in der Droge von untergeordneter Bedeutung, technologisch relevant für Galenik.",
+        "en": "Mucilaginous polysaccharides of arnica flowers with emollient character; support even distribution and adhesion of ointment bases on skin. Phytotherapeutically of minor importance in the drug, but technologically relevant for formulation."
+      }
+    },
+    {
+      "name": "Triterpene: Arnidiol, Faradiol und deren Fettsäureester",
+      "category": "other",
+      "percent_range": "0.4-1.5 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Faradiol-Monoester (Faradiolpalmitat, Faradiolmyristat) sind in den Harzdrüsen der Arnikablüten konzentriert und tragen wesentlich zur entzündungshemmenden und hyperämisierenden Wirkung bei. In Tierversuchen und In-vitro-Studien konnte für Faradiol eine antiinflammatorische Wirkung vergleichbar mit Indometacin nachgewiesen werden.",
+        "en": "Faradiol monoesters (faradiol palmitate, faradiol myristate) are concentrated in the resin glands of arnica flowers and contribute substantially to the anti-inflammatory and hyperaemia-inducing effect. In animal studies and in vitro, faradiol demonstrated anti-inflammatory activity comparable to indomethacin."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine): Procyanidine, hydrolysierbare Gallotannine",
+      "category": "tannin",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Mild adstringierende Gerbstoffe unterstützen bei äußerlicher Anwendung die Abschwellung und Stabilisierung des Gewebes. Ergänzen die entzündungshemmende Wirkung der Sesquiterpenlactone und Triterpene.",
+        "en": "Mildly astringent tannins support decongestant and tissue-stabilising effects in external application. Complement the anti-inflammatory activity of sesquiterpene lactones and triterpenes."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "An trockenem, sonnigem Vormittag (9–12 Uhr), sobald der Tau abgetrocknet ist. Der Sesquiterpenlacton- und Flavonoidgehalt ist bei voll aufgeblühten Blüten in der Mittagssonne am höchsten.",
+        "en": "On a dry, sunny morning (9–12), once dew has dried off. Sesquiterpene lactone and flavonoid content is highest in fully open flowers in midday sun."
+      },
+      "drying": {
+        "de": "ACHTUNG — NATURSCHUTZ: Arnica montana steht in Deutschland, Österreich und der Schweiz unter strengem Schutz. Wildsammlung ist VERBOTEN. Nur Blüten aus zertifiziertem Anbau (z. B. Balkanzucht, Sauerland-Anbau) oder Apothekenware verwenden. Ernte: Voll aufgeblühte Köpfchen (ohne Stiel, nur Blütenkorb) von Anbaubeständen pflücken, kurz nach dem Öffnen der Zungenblüten, bevor die Pollen ausgestiegen sind. Einlagig auf Tüchern bei 35–40 °C im Schatten oder Dörrgerät trocknen (kein Sonnenlicht — UV-Abbau der Sesquiterpenlactone). Vollständige Trocknung dauert 2–4 Tage. Arnikablüten riechen beim Trocknen intensiv aromatisch und können bei empfindlichen Personen Schleimhautreizungen verursachen — gut lüften, bei Allergieneigung Atemschutz tragen.",
+        "en": "WARNING — CONSERVATION LAW: Arnica montana is strictly protected in Germany, Austria and Switzerland. Wild collection is PROHIBITED. Use only flowers from certified cultivation (e.g. Balkan or Sauerland crops) or pharmacy-grade material. Harvest from cultivated stands: pick fully open capitula (flower heads without stalk) shortly after ray florets open, before pollen is shed. Dry in a single layer on cloth at 35-40 °C in shade or dehydrator (no direct sunlight — UV degrades sesquiterpene lactones). Full drying takes 2-4 days. Arnica flowers smell intensely aromatic when drying and may irritate mucous membranes in sensitive persons — ensure good ventilation; wear respiratory protection if prone to allergy."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Lichtgeschützt in gut schließenden Glasgefäßen oder Blechdosen, trocken, kühl (max. 25 °C), Feuchtigkeitsschutz. Innerhalb 12 Monate verwenden — Sesquiterpenlactongehalt nimmt danach stark ab. Bei Braunfärbung, muffigem Geruch oder Schimmelbefall sofort entsorgen.",
+        "en": "Protected from light in well-sealed glass containers or tins, dry, cool (max. 25 °C), moisture-proof. Use within 12 months — sesquiterpene lactone content drops sharply after. Discard immediately if browning, musty smell or mould."
+      }
+    },
+    {
+      "plant_part": "root",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Rhizomausgrabung im Herbst nach dem Verwelken der oberirdischen Teile (September–Oktober). Tageszeit weniger kritisch als bei Blüten — kühle Vormittagsstunden bevorzugen.",
+        "en": "Rhizome digging in autumn after aerial parts have withered (September–October). Time of day less critical than for flowers — cool morning hours preferred."
+      },
+      "drying": {
+        "de": "ACHTUNG — NATURSCHUTZ: Auch die Wurzel/das Rhizom von Arnica montana darf nur aus legalem Anbau, nicht aus Wildbeständen geerntet werden. In der Phytotherapie wird die Wurzel (Arnicae radix) erheblich seltener verwendet als die Blüten (Arnicae flos) — der Wirkstoffgehalt an Sesquiterpenlactonen ist ähnlich, die Flavonoidkonzentration jedoch geringer. Wurzeln nach dem Ausgraben säubern, anhaftende Erde entfernen, in Scheiben schneiden und bei 35–45 °C im Dörrgerät trocknen (8–12 Stunden je nach Dicke). Vollständig trockene Stücke sind holzig-hart und brechen sauber durch.",
+        "en": "WARNING — CONSERVATION LAW: Arnica montana rhizomes may also only be harvested from legal cultivation, never from wild stands. In phytotherapy, the root (Arnicae radix) is used far less commonly than the flowers (Arnicae flos) — sesquiterpene lactone content is similar but flavonoid concentration is lower. After digging, clean roots, remove soil, cut into slices and dry at 35-45 °C in a dehydrator (8-12 hours depending on thickness). Fully dried pieces are woody-hard and snap cleanly."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Lichtgeschützt, trocken, kühl in Glasgefäßen oder Leinensäcken. Haltbarkeit bis 2 Jahre bei korrekter Lagerung.",
+        "en": "Light-protected, dry, cool in glass containers or linen bags. Storage life up to 2 years with correct conditions."
+      }
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "slug": "mentha-villosa",
+  "names": {
+    "de": "Mojito-Minze",
+    "en": "Mentha × villosa",
+    "latin": "Mentha × villosa"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Beschreibung für Mojito-Minze folgt — siehe Wikipedia-Artikel.",
+    "en": "Mentha × villosa also known as hairy mint or mojito mint is a hybrid species of mint, a cross between Mentha spicata and Mentha suaveolens."
+  },
+  "teaser": {
+    "de": "Beschreibung für Mojito-Minze folgt — siehe Wikipedia-Artikel.",
+    "en": "Mentha × villosa also known as hairy mint or mojito mint is a hybrid species of mint, a cross between Mentha spicata ..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Tee aus Apfelminzblättern und -trieben wird in der brasilianischen und philippinischen Volksmedizin traditionell bei Magenbeschwerden, Übelkeit, Blähungen und dyspeptischen Krämpfen eingesetzt. Die Wirkung wird dem ätherischen Öl (Limonen, Carvon) und den Rosmarinsäure-Gehalten zugeschrieben, die spasmolytisch auf die Magen-Darm-Muskulatur wirken.",
+        "en": "Tea from Bowles' mint leaves and sprigs is used in Brazilian and Philippine folk medicine for stomach complaints, nausea, flatulence, and dyspeptic cramps. The effect is attributed to the essential oil (limonene, carvone) and rosmarinic acid content, which act spasmolytically on gastrointestinal smooth muscle."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–4 g getrocknete Blätter oder 4–6 g frische Blätter in 200 ml heißem Wasser 10 Minuten abgedeckt ziehen lassen. Bis zu 3 Tassen täglich nach den Mahlzeiten trinken.",
+          "en": "Steep 2–4 g dried leaves or 4–6 g fresh leaves in 200 ml hot water, covered, for 10 minutes. Drink up to 3 cups daily after meals."
+        }
+      },
+      "source_ids": [
+        "src_yerba_buena_overview",
+        "src_matos_eo_composition"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der philippinischen und karibischen Volksmedizin wird Minztee (Yerba Buena) bei leichten Erkältungssymptomen, Husten und Halsschmerzen eingesetzt. Das ätherische Öl mit Limonen und Carvon wirkt leicht expektorierend; die Rosmarinsäure zeigt antivirale Aktivität in vitro.",
+        "en": "In Philippine and Caribbean folk medicine, mint tea (Yerba Buena) is used for mild cold symptoms, cough, and sore throat. The essential oil containing limonene and carvone has mild expectorant properties; rosmarinic acid shows antiviral activity in vitro."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 5
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–5 g frische oder getrocknete Blätter mit 250 ml kochendem Wasser aufgießen, 10 Minuten ziehen lassen. Optional mit Honig und Zitrone. Warm trinken.",
+          "en": "Pour 250 ml of boiling water over 2–5 g fresh or dried leaves, steep for 10 minutes. Optionally add honey and lemon. Drink warm."
+        }
+      },
+      "source_ids": [
+        "src_yerba_buena_overview",
+        "src_phenolic_compounds"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Das ätherische Öl von Mentha × villosa (Limonen/Carvon-Chemotyp) wird in verdünnter Form (1–2 % in Trägeröl oder per Inhalation) bei Atemwegsinfektionen und zur Linderung von Nasenverstopfung angewendet. Studien zur vasorelaxanten Wirkung belegen eine gefäßerweiternde Aktivität des ätherischen Öls über endothelabhängige Mechanismen.",
+        "en": "The essential oil of Mentha × villosa (limonene/carvone chemotype) is used diluted (1–2% in carrier oil or via inhalation) for respiratory infections and relief of nasal congestion. Studies on vasorelaxant activity confirm vasodilatory action of the essential oil via endothelium-dependent mechanisms."
+      },
+      "source_ids": [
+        "src_guedes_vasorelaxant",
+        "src_matos_eo_composition"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Dampfinhalation mit frischen Apfelminzblättern oder wenigen Tropfen ätherischem Öl in heißem Wasser wird volksmedizinisch bei Erkältungen und Stirnhöhlenbeschwerden eingesetzt. Der Limonen-/Carvon-Gehalt des Öls wirkt schleimlösend und leicht antiseptisch auf die Nasenschleimhaut.",
+        "en": "Steam inhalation with fresh Bowles' mint leaves or a few drops of essential oil in hot water is used in folk medicine for colds and sinus complaints. The limonene/carvone content of the oil acts as a mild expectorant and antiseptic on the nasal mucosa."
+      },
+      "source_ids": [
+        "src_matos_eo_composition",
+        "src_yerba_buena_overview"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische Apfelminzblätter werden kulinarisch roh in Cocktails (Mojito, Caipirinha-Varianten), Salaten, Desserts und Tees verwendet. Das milde, apfelig-frische Minzaroma (Limonen-dominant, Menthol-arm) macht M. villosa besonders für Kaltgetränke geeignet. In Kuba und Brasilien ist Yerba Buena eine Küchenpflanze mit alltäglicher Verwendung.",
+        "en": "Fresh Bowles' mint leaves are used raw in cocktails (mojito, caipirinha variants), salads, desserts, and cold drinks. The mild apple-fresh mint aroma (limonene-dominant, low menthol) makes M. villosa particularly suitable for cold beverages. In Cuba and Brazil, Yerba Buena is a kitchen herb with everyday use."
+      },
+      "source_ids": [
+        "src_wiki_mentha_villosa",
+        "src_matos_eo_composition"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Mundspülungen auf Basis von Mentha villosa-Extrakt wurden in einer brasilianischen Studie (Nogueira et al. 2021) auf antimikrobielle Aktivität gegen orale Keime getestet. Die Extrakte zeigten wachstumshemmende Wirkung gegen ausgewählte Bakterienstämme, was den volksmedizinischen Einsatz als Mundspülung bei Halsschmerzen und Zahnfleischentzündungen wissenschaftlich stützt.",
+        "en": "Oral rinse formulations based on Mentha villosa extract were tested for antimicrobial activity against oral pathogens in a Brazilian study (Nogueira et al. 2021). Extracts showed growth-inhibitory effects against selected bacterial strains, providing scientific support for the folk use as a gargle for sore throat and gingival inflammation."
+      },
+      "source_ids": [
+        "src_nogueira_oral_rinse",
+        "src_yerba_buena_overview"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der philippinischen Volksmedizin werden zerquetschte frische Apfelminzblätter als Umschlag bei leichten Muskelschmerzen, Kopfschmerzen (auf die Schläfen gelegt) und Insektenstichen verwendet. Carvon und Limonen zeigen in vitro entzündungshemmende Aktivität; kontrollierte klinische Daten fehlen.",
+        "en": "In Philippine folk medicine, crushed fresh Bowles' mint leaves are used as a compress for mild muscle pain, headaches (applied to the temples), and insect bites. Carvone and limonene show anti-inflammatory activity in vitro; controlled clinical data are lacking."
+      },
+      "source_ids": [
+        "src_yerba_buena_overview"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Blätter (vor der Blüte)",
+      "en": "leaves (before flowering)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Das ätherische Öl enthält je nach Chemotyp Pulegon-Spuren (in der Regel <0,5 %). Pur oder hochkonzentriert nicht einnehmen — ätherisches Öl ist ausschließlich zur äußerlichen Anwendung bestimmt. Menthol-Gehalt ist gering, jedoch gilt für konzentrierte Öle Vorsicht bei Kleinkindern (keine Anwendung im Gesichtsbereich). Embryo- und Fetaltoxizität des ätherischen Öls wurde in Tierversuchen dokumentiert — Anwendung des Öls in der Schwangerschaft kontraindiziert.",
+      "en": "The essential oil contains trace amounts of pulegone depending on chemotype (typically <0.5%). Do not ingest neat or in high concentration — essential oil is for external use only. Menthol content is low, but concentrated oils require caution in infants (do not apply to the face). Embryo- and fetal toxicity of the essential oil has been documented in animal studies — use of the oil during pregnancy is contraindicated."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Ätherisches Öl von M. villosa ist in der Schwangerschaft kontraindiziert (tierexperimentelle Hinweise auf Embryotoxizität). Kulinarische Mengen frischer Blätter (Tee, Mojito-Mengen) gelten als unbedenklich. Keine kontrollierten Humanstudien vorhanden.",
+        "en": "Essential oil of M. villosa is contraindicated in pregnancy (animal study evidence of embryotoxicity). Culinary amounts of fresh leaves (tea, mojito quantities) are considered safe. No controlled human studies available."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Unzureichende Daten für therapeutische Dosen während der Stillzeit. Kulinarische Mengen Tee gelten allgemein als unbedenklich; konzentrierte Ölpräparate vermeiden.",
+        "en": "Insufficient data for therapeutic doses during lactation. Culinary amounts of tea are generally considered safe; avoid concentrated oil preparations."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Konzentriertes ätherisches Öl nicht bei Kindern unter 6 Jahren anwenden, nicht im Gesichtsbereich bei Kindern unter 12 Jahren (Atemreiz-Risiko). Mild gesüßter Tee in kleinen Mengen gilt in der Volksmedizin als unbedenklich ab Schulalter.",
+        "en": "Concentrated essential oil must not be applied to children under 6 years, and not to the face of children under 12 years (risk of respiratory irritation). Mildly sweetened tea in small amounts is considered safe in folk tradition from school age."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegen Mentha-Arten oder andere Lamiaceae (Kreuzreaktion möglich)",
+        "en": "Known hypersensitivity to Mentha species or other Lamiaceae (cross-reaction possible)"
+      },
+      {
+        "de": "Innere Anwendung des ätherischen Öls (nur äußerlich verwenden)",
+        "en": "Internal use of the essential oil (for external use only)"
+      },
+      {
+        "de": "Schwangerschaft: ätherisches Öl kontraindiziert (Embryotoxizität in Tierversuchen)",
+        "en": "Pregnancy: essential oil contraindicated (embryotoxicity in animal studies)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antihypertensiva",
+        "mechanism": {
+          "de": "Das ätherische Öl zeigte in Tierversuchen endothelabhängige hypotensive und vasorelaxante Wirkung. Bei gleichzeitiger Einnahme blutdrucksenkender Medikamente ist ein additiver Effekt theoretisch möglich.",
+          "en": "The essential oil showed endothelium-dependent hypotensive and vasorelaxant effects in animal studies. An additive effect with concurrent antihypertensive medication is theoretically possible."
+        },
+        "severity": "monitor",
+        "source_id": "src_guedes_vasorelaxant"
+      }
+    ],
+    "max_continuous_use_weeks": 8
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Mojito-Minze (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Mojito-Minze",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Mentha × villosa (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Mentha_%C3%97_villosa",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_matos_eo_composition",
+      "type": "monograph",
+      "title": "Matos FJ de A et al. (1999): Essential Oil of Mentha x villosa Huds. from Northeastern Brazil. Journal of Essential Oil Research. DOI: 10.1080/10412905.1999.9701066",
+      "url": "https://doi.org/10.1080/10412905.1999.9701066",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_guedes_vasorelaxant",
+      "type": "monograph",
+      "title": "Guedes DN et al. (2004): Endothelium-dependent hypotensive and vasorelaxant effects of the essential oil from aerial parts of Mentha x villosa in rats. Phytomedicine. DOI: 10.1016/j.phymed.2004.04.002",
+      "url": "https://doi.org/10.1016/j.phymed.2004.04.002",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_lahlou_cardiovascular",
+      "type": "monograph",
+      "title": "Lahlou S et al. (2002): Cardiovascular effects of the essential oil of Mentha x villosa in DOCA-salt-hypertensive rats. Phytomedicine. DOI: 10.1078/094471102321621313",
+      "url": "https://doi.org/10.1078/094471102321621313",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_guerra_toxicity",
+      "type": "monograph",
+      "title": "Guerra KS da SB et al. (2012): Embryo and fetal toxicity of Mentha x villosa essential oil in Wistar rats. Pharmaceutical Biology. DOI: 10.3109/13880209.2011.641024",
+      "url": "https://doi.org/10.3109/13880209.2011.641024",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_nogueira_oral_rinse",
+      "type": "monograph",
+      "title": "Nogueira EKS et al. (2021): Produção de Enxaguatório Bucal da Mentha Villosa com Atividade Antimicrobiana. Brazilian Journal of Development. DOI: 10.34117/bjdv7n11-298",
+      "url": "https://doi.org/10.34117/bjdv7n11-298",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_yerba_buena_overview",
+      "type": "monograph",
+      "title": "Pharmacologic Activities of Yerba Buena (Mentha x villosa Huds Fam. Lamiaceae): An Overview. Acta Medica Philippina (2023). DOI: 10.47895/amp.vi0.8401",
+      "url": "https://doi.org/10.47895/amp.vi0.8401",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_phenolic_compounds",
+      "type": "monograph",
+      "title": "Tekeľová D et al. (2016): Phenolic compounds in leaves insertions of Mentha × villosa Huds. cv. Sněžná. Česká a slovenská farmacie. DOI: 10.36290/csf.2016.031",
+      "url": "https://doi.org/10.36290/csf.2016.031",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_mentha_villosa",
+      "type": "wikipedia",
+      "title": "Wikipedia: Mentha × villosa (Hairy mint / Bowles' mint)",
+      "url": "https://en.wikipedia.org/wiki/Mentha_%C3%97_villosa",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "mentha-villosa.jpg",
+    "alt": {
+      "de": "Foto von Mojito-Minze",
+      "en": "Photo of Mentha × villosa"
+    },
+    "license": "Public domain",
+    "author": "Britton, N.L., and A. Brown. 1913. An illustrated flora of the northern United States, Canada and the British Possession",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mentha_%C3%97_villosa_drawing_1.png"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible"
+    ],
+    "rooms": [
+      "kitchen",
+      "balcony"
+    ],
+    "light": "partial_shade",
+    "water_frequency": "every_few_days",
+    "difficulty": 1,
+    "pet_safe": true,
+    "soil": {
+      "de": "Feuchte Kräutererde",
+      "en": "Moist herb compost"
+    },
+    "pot_size_cm": 20,
+    "tips": {
+      "de": [
+        "Im eigenen Topf halten — wuchert sonst andere Kräuter weg.",
+        "Vor dem Blühen ernten für intensivstes Aroma.",
+        "Stecklinge wurzeln in 1-2 Wochen im Wasserglas."
+      ],
+      "en": [
+        "Keep in its own pot — otherwise crowds out other herbs.",
+        "Harvest before flowering for strongest aroma.",
+        "Cuttings root in 1-2 weeks in a water glass."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [],
+    "bad_partners": [
+      "mentha-spicata"
+    ],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "transplant": {
+        "start_month": 4,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 9
+    },
+    "days_to_harvest": 90,
+    "spacing_cm": 40,
+    "garden_type": [
+      "balcony",
+      "raised_bed"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "aromatic_repellent",
+    "pollinator_attractor",
+    "ground_cover"
+  ],
+  "constituents": [
+    {
+      "name": "Linalool",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "percent_range": "10–35 %",
+      "note": {
+        "de": "Häufig dominanter Bestandteil im nordostbrasilianischen Chemotyp von M. villosa; blumig-frischer Duft, leicht sedierend und antibakteriell.",
+        "en": "Frequently dominant component in the northeastern Brazilian chemotype of M. villosa; floral-fresh scent, mildly sedating and antibacterial."
+      }
+    },
+    {
+      "name": "Carvone",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "percent_range": "0–40 %",
+      "note": {
+        "de": "Minzaromatisches Monoterpen-Keton; Gehalt stark chemotypabhängig (Carvon-Chemotyp bis 40 %). Antimikrobiell und leicht spasmolytisch.",
+        "en": "Mint-aromatic monoterpene ketone; content highly chemotype-dependent (carvone chemotype up to 40%). Antimicrobial and mildly spasmolytic."
+      }
+    },
+    {
+      "name": "Limonene",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "percent_range": "5–30 %",
+      "note": {
+        "de": "Zitrusaromatisches Monoterpen; verleiht M. villosa ihr charakteristisches Apfel-Minz-Aroma. Antioxidativ und leicht antimikrobiell.",
+        "en": "Citrus-aromatic monoterpene; gives M. villosa its characteristic apple-mint aroma. Antioxidant and mildly antimicrobial."
+      }
+    },
+    {
+      "name": "Pulegone",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "percent_range": "0–5 %",
+      "note": {
+        "de": "Monoterpen-Keton; in manchen Populationen von M. villosa in Spurenmengen vorhanden. Hepatotoxisch in hohen Dosen (wie bei M. pulegium). Im normalen Tee-Gebrauch kein Risiko.",
+        "en": "Monoterpene ketone; present in trace amounts in some M. villosa populations. Hepatotoxic at high doses (as in M. pulegium). No risk at normal tea use levels."
+      }
+    },
+    {
+      "name": "Menthol",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "percent_range": "0–3 %",
+      "note": {
+        "de": "Im Gegensatz zu M. piperita ist der Menthol-Gehalt bei M. villosa sehr gering; das milde Minzaroma ist typisch für diese Art.",
+        "en": "Unlike M. piperita, menthol content in M. villosa is very low; the mild mint aroma is characteristic of this species."
+      }
+    },
+    {
+      "name": "Rosmarinic acid",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Polyphenolische Hydroxyzimtsäure; in M. villosa-Blättern nachgewiesen. Antioxidativ, antiviral und entzündungshemmend.",
+        "en": "Polyphenolic hydroxycinnamic acid; identified in M. villosa leaves. Antioxidant, antiviral, and anti-inflammatory."
+      }
+    },
+    {
+      "name": "Luteolin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavon; in M. villosa-Blattextrakten nachgewiesen. Antioxidativ und entzündungshemmend durch Hemmung von NF-κB.",
+        "en": "Flavone identified in M. villosa leaf extracts. Antioxidant and anti-inflammatory via NF-κB inhibition."
+      }
+    },
+    {
+      "name": "Hesperidin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavanon-Glykosid; in Minzpflanzen einschließlich M. villosa-Kultivaren nachgewiesen. Leicht antioxidativ und kapillarschützend.",
+        "en": "Flavanone glycoside identified in mint plants including M. villosa cultivars. Mildly antioxidant and capillary-protective."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Früh am Morgen nach Abtrocknen des Taus — höchster ätherischer Ölgehalt vor der Mittagshitze.",
+        "en": "Early morning after dew has dried — highest essential oil content before midday heat."
+      },
+      "drying": {
+        "de": "Triebe kopfüber in kleinen Bündeln bei 30–40 °C im Schatten trocknen. Trocknungszeit 4–7 Tage. Temperaturen über 45 °C vermeiden (Aromaverlust).",
+        "en": "Dry sprigs upside down in small bundles at 30–40 °C in shade. Drying time 4–7 days. Avoid temperatures above 45 °C (aroma loss)."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdichte, dunkle Glas- oder Metalldosen; trocken und kühl lagern. Aromaverlust durch Licht und Feuchtigkeit vermeiden.",
+        "en": "Airtight dark glass or metal containers; store cool and dry. Avoid aroma loss from light and moisture."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Während der gesamten Vegetationsperiode morgens ernten. Blätter direkt vor der Blüte haben den höchsten Wirkstoffgehalt.",
+        "en": "Harvest throughout the growing season in the morning. Leaves just before flowering have the highest active compound content."
+      },
+      "drying": {
+        "de": "Blätter locker auf Trockengitter oder Papier bei 30–40 °C (Schatten). Nicht übereinanderlegen. Fertig wenn Blätter bei Berührung rascheln.",
+        "en": "Spread leaves loosely on drying rack or paper at 30–40 °C (shade). Do not stack. Ready when leaves rustle at touch."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Papiertüten oder dunkle Glasgefäße; kühl, trocken, lichtgeschützt. Kein Plastik — Feuchtigkeit führt zu Schimmelbildung.",
+        "en": "Paper bags or dark glass containers; cool, dry, protected from light. No plastic — moisture leads to mould."
+      }
+    }
+  ]
+}

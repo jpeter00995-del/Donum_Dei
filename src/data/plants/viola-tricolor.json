@@ -1,0 +1,571 @@
+{
+  "slug": "viola-tricolor",
+  "names": {
+    "de": "Wildes Stiefmütterchen",
+    "en": "Viola tricolor",
+    "latin": "Viola tricolor"
+  },
+  "family": {
+    "de": "Veilchengewächse",
+    "en": "Violet family",
+    "latin": "Violaceae"
+  },
+  "description": {
+    "de": "Das Wilde Stiefmütterchen, im Volksmund auch Ackerveilchen, Muttergottesschuh, Mädchenaugen, Schöngesicht oder Liebesgesichtli sowie Christusauge und kurz auch einfach Stiefmütterchen, ist eine Pflanzenart innerhalb der Familie der Veilchengewächse (Violaceae).",
+    "en": "Viola tricolor is a common European wild flower, growing as an annual or short-lived perennial. The species is also known as wild pansy, Johnny Jump up, heartsease, heart's ease, heart's delight, tickle-my-fancy, Jack-jump-up-and-kiss-me, come-and-cuddle-me, three faces in a hood, love-in-idleness, and pink of my john."
+  },
+  "teaser": {
+    "de": "Das Wilde Stiefmütterchen, im Volksmund auch Ackerveilchen, Muttergottesschuh, Mädchenaugen, Schöngesicht oder Liebes...",
+    "en": "Viola tricolor is a common European wild flower, growing as an annual or short-lived perennial."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "skin",
+        "seborrhea"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 3
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "AUFGUSS (innerlich, traditionelle Anwendung EMA): 1,5–3 g getrocknetes Stiefmütterchenkraut (Violae tricoloris herba) mit 150 ml kochendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen. 3× täglich trinken. Traditionell bei seborrhoischen Hauterkrankungen und milden Hautausschlägen (z. B. seborrhoische Dermatitis, Gneiss bei Kindern) als begleitende innerliche Kur angewendet. Anwendungsdauer nicht über 4 Wochen ohne ärztliche Abklärung verlängern; bei Verschlechterung oder ausbleibender Verbesserung Arzt aufsuchen.",
+          "en": "INFUSION (internal, EMA traditional use): 1.5–3 g dried wild pansy herb (Violae tricoloris herba) in 150 ml boiling water, covered, steep 10 min, strain. Drink 3× daily. Traditionally used for seborrhoeic skin conditions and mild skin rashes (e.g. seborrhoeic dermatitis, cradle cap in children) as an accompanying internal treatment. Do not extend beyond 4 weeks without medical advice; consult a doctor if condition worsens or does not improve."
+        }
+      },
+      "description": {
+        "de": "Traditioneller innerlicher Kräutertee aus dem blühenden Stiefmütterchenkraut bei seborrhoischen Hauterkrankungen und Gneiss (Kopfschuppenflechte bei Kindern) — EMA-Monographie listet diese als traditionelle Indikation.",
+        "en": "Traditional internal herbal tea from flowering wild pansy herb for seborrhoeic skin disorders and cradle cap (infant seborrhoeic dermatitis) — listed as a traditional indication in the EMA monograph."
+      },
+      "source_ids": [
+        "src_ema_viola_tricolor",
+        "src_kommission_e_viola",
+        "src_escop_viola"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "skin",
+        "seborrhea",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 1000,
+        "steep_min": 15,
+        "doses_per_day": 1,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "ÄUSSERER AUFGUSS / WASCHUNG: 5–10 g getrocknetes Stiefmütterchenkraut mit 1 Liter kochendem Wasser übergießen, 15 Minuten ziehen lassen, abseihen und auf Körperwärme abkühlen. Als Waschung, Umschlag oder Teilbad auf die betroffene Hautpartie auftragen, 10–15 Minuten einwirken lassen, 2–3× täglich. Traditionell bei seborrhoischer Dermatitis, Gneiss (Säuglings-Kopfschuppenflechte), milden Hautausschlägen und schuppiger, juckender Haut. Für empfindliche Kinderhaut stets Konzentration halbieren und zuerst kleine Testfläche prüfen.",
+          "en": "EXTERNAL INFUSION / WASH: 5–10 g dried wild pansy herb in 1 litre boiling water, steep 15 min, strain and cool to body temperature. Apply as a wash, compress or partial bath to affected skin area, leave 10–15 min, 2–3× daily. Traditionally for seborrhoeic dermatitis, cradle cap, mild rashes and scaly itchy skin. For sensitive children's skin, halve concentration and patch-test first."
+        }
+      },
+      "description": {
+        "de": "Äußerliche Waschung und Umschlag mit Stiefmütterchen-Aufguss bei seborrhoischer Haut, Gneiss und milden Hautausschlägen — traditionelle EMA-Indikation für externe Anwendung.",
+        "en": "External wash and compress with wild pansy infusion for seborrhoeic skin, cradle cap and mild rashes — traditional EMA indication for external use."
+      },
+      "source_ids": [
+        "src_ema_viola_tricolor",
+        "src_escop_viola",
+        "src_pfaf_viola_tricolor"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds",
+        "joints"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "UMSCHLAG: 3–5 g Kraut mit 200 ml heißem Wasser übergießen, 10 Minuten ziehen, abseihen. Ein sauberes Tuch in den abgekühlten Aufguss tauchen, gut auswringen und auf die betroffene Stelle (z. B. juckende Hautpartie, leichte Entzündung, Kratzer) legen. 15–20 Minuten einwirken lassen, ggf. 2× täglich wiederholen. Volksheilkundliche Anwendung gegen Juckreiz, leichte Hautentzündungen, schuppige Ekzeme und als Wundhilfe bei kleinen Verletzungen. Bei offenen oder infizierten Wunden kein Kräuterumschlag — ärztliche Behandlung.",
+          "en": "COMPRESS: 3–5 g herb in 200 ml hot water, steep 10 min, strain. Soak a clean cloth in the cooled infusion, wring out well and apply to affected area (e.g. itchy skin, mild inflammation, minor abrasions). Leave 15–20 min, repeat up to 2× daily. Folk remedy for itching, mild skin inflammation, scaly eczema and minor wound care. Do not apply to open or infected wounds — seek medical attention."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Umschlag mit Stiefmütterchenkraut-Aufguss bei Juckreiz, leichten Hautentzündungen und schuppigen Ekzemen.",
+        "en": "Folk compress with wild pansy herb infusion for itching, mild skin inflammation and scaly eczema."
+      },
+      "source_ids": [
+        "src_madaus_viola",
+        "src_pfaf_viola_tricolor",
+        "src_wp_de_viola"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "fever",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2.5
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "HUSTEN- UND ERKÄLTUNGSTEE: 1,5–2,5 g getrocknetes Stiefmütterchenkraut mit 200 ml kochendem Wasser übergießen, 10 Minuten ziehen lassen, abseihen. 3× täglich, ggf. mit etwas Honig gesüßt. Volksheilkundlich bei Erkältungshusten, katarrhalischen Atemwegsbeschwerden und als leicht schweißtreibendes Mittel bei leichtem Fieber eingesetzt. Die Schleimstoffgehalt-bedingte Wirkung soll Reizhusten lindern. Kein Ersatz für ärztliche Behandlung bei anhaltenden oder starken Atemwegsbeschwerden.",
+          "en": "COUGH & COLD TEA: 1.5–2.5 g dried wild pansy herb in 200 ml boiling water, steep 10 min, strain. Drink 3× daily, sweetened with honey if desired. Folk use for catarrhal coughs, mild upper respiratory complaints, and as a mild diaphoretic for light fever. The mucilage content is thought to soothe irritant cough. Not a substitute for medical treatment of persistent or severe respiratory symptoms."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Erkältungs- und Hustentee — schleimstoffhaltig, mild schweißtreibend, traditionell bei Katarrhen der oberen Atemwege.",
+        "en": "Folk cough and cold tea — mucilaginous, mildly diaphoretic, traditionally for catarrh of the upper respiratory tract."
+      },
+      "source_ids": [
+        "src_madaus_viola",
+        "src_wp_de_viola",
+        "src_wp_en_viola"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary",
+        "skin",
+        "fever"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 3
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "REINIGUNGSTEE (Volksmedizin): 1,5–3 g Kraut in 200 ml heißem Wasser, 10 Minuten ziehen, abseihen. 3× täglich. In der europäischen Volksmedizin wurde das Stiefmütterchen über Jahrhunderte als mildes \"Blutreinigungsmittel\" bei Hautproblemen, chronischem Ekzem, Gicht und Arthritis eingesetzt — v. a. der Salicylat-Gehalt galt als harntreibend und stoffwechselanregend. Dieser traditionelle Begriff \"Blutreinigung\" entspricht keinem modernen medizinischen Konzept; gemeint ist eine milde diuretische und metabolische Unterstützung. Moderne Belege beschränkt.",
+          "en": "CLEANSING TEA (folk medicine): 1.5–3 g herb in 200 ml hot water, steep 10 min, strain. Drink 3× daily. In European folk medicine, wild pansy was used for centuries as a mild 'blood purifier' for skin conditions, chronic eczema, gout and arthritis — the salicylate content was believed to be mildly diuretic and metabolism-stimulating. The traditional notion of 'blood purification' has no modern medical equivalent; it denotes mild diuretic and metabolic support. Modern evidence is limited."
+        }
+      },
+      "description": {
+        "de": "Traditioneller \"Blutreinigungstee\" bei chronischen Hautleiden, Ekzemen, Gicht und Gelenkbeschwerden — salicylathaltig, mild diuretisch; kein modernes medizinisches Äquivalent für \"Blutreinigung\".",
+        "en": "Traditional 'blood-purifying' tea for chronic skin conditions, eczema, gout and joint complaints — salicylate-containing, mildly diuretic; the concept of 'blood purification' has no modern medical equivalent."
+      },
+      "source_ids": [
+        "src_madaus_viola",
+        "src_wichtl_viola",
+        "src_wp_de_viola"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "skin",
+        "seborrhea"
+      ],
+      "internal_external": "both",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (1:5 in 25–40 % Ethanol): 1–2 ml (~20–40 Tropfen) 3× täglich in etwas Wasser innerlich, oder unverdünnt äußerlich auf betroffene Hautstellen tupfen (verdünnt 1:3 mit Wasser für empfindliche Haut). Traditionell bei seborrhoischen Hauterkrankungen eingesetzt — Schleimstoffgehalt wirkt hüllend, Flavonoide antioxidativ, Salicylate mild entzündungshemmend. Wegen Ethanolgehalt nicht bei Kindern unter 12 Jahren, Schwangeren oder bei bekannter Alkoholproblematik.",
+          "en": "TINCTURE (1:5 in 25–40 % ethanol): 1–2 ml (~20–40 drops) 3× daily in water internally, or apply undiluted externally to affected skin (dilute 1:3 in water for sensitive skin). Traditionally for seborrhoeic skin conditions — mucilage is soothing, flavonoids are antioxidant, salicylates are mildly anti-inflammatory. Due to ethanol content, avoid in children under 12, pregnant women, or those with alcohol dependency."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Tinktur bei seborrhoischen Hauterkrankungen — innerlich und äußerlich anwendbar; enthält Ethanol, daher nicht für Kinder unter 12.",
+        "en": "Traditional tincture for seborrhoeic skin conditions — suitable for internal and external use; contains ethanol, therefore not for children under 12."
+      },
+      "source_ids": [
+        "src_ema_viola_tricolor",
+        "src_pfaf_viola_tricolor"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "SALBE / MAZERAT: Frisches oder getrocknetes Stiefmütterchenkraut (1 Teil Droge) in erwärmtem Olivenöl oder Mandelöl (5 Teile Öl) 2–3 Stunden bei ca. 50 °C im Wasserbad mazerieren, abseihen, gut ausdrücken. Für Salbe: auf 100 g Ölauszug ca. 5–10 g Bienenwachs schmelzen und einrühren, bei Bedarf mit wenigen Tropfen Lavendelöl duften. In dunkle Tiegel abfüllen, kühl lagern (Haltbarkeit 3–6 Monate). Volksheilkundlich bei trockener, schuppiger Haut, leichten Ekzemen, Hautentzündungen und kleinen Wunden.",
+          "en": "SALVE / MACERATE: Fresh or dried wild pansy herb (1 part herb) macerated in warmed olive or almond oil (5 parts oil) for 2–3 hours at approx. 50 °C in a water bath, strain and press well. For salve: melt approx. 5–10 g beeswax into 100 g oil extract, add a few drops of lavender oil if desired. Pour into dark jars, store cool (shelf life 3–6 months). Folk use for dry scaly skin, mild eczema, skin inflammation and minor wounds."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Öl-Salbe aus Stiefmütterchenkraut bei trockener, schuppiger Haut, Ekzemen und kleinen Wunden — wohltuend-hüllende Wirkung durch Schleimstoffe.",
+        "en": "Folk oil salve from wild pansy herb for dry scaly skin, eczema and minor wounds — soothing and emollient action from mucilage content."
+      },
+      "source_ids": [
+        "src_madaus_viola",
+        "src_pfaf_viola_tricolor"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "skin"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "ESSBARE BLÜTEN / SALAT: Die farbenprächtigen Blüten des wilden Stiefmütterchens (vor der Vollreife geerntet) sind essbar und werden in der Naturküche als Salat-Dekoration, in Blütensirup (Blüten mit Zucker und Wasser aufkochen), kristallisiert mit Eiweiß und Zucker als Dekor oder frisch in Frühlingsquark und Kräuterbutter verwendet. Mild aromatisch, leicht süßlich. Enthalten Rutin und Anthocyane, die als antioxidative Begleitstoffe gelten. Nur Blüten von ungespritzten, nicht gedüngten Standorten sammeln.",
+          "en": "EDIBLE FLOWERS / SALAD: The colourful flowers of wild pansy (harvested before full maturity) are edible and used in natural cookery as salad decoration, in flower syrup (boil with sugar and water), crystallised with egg white and sugar as decoration, or fresh in spring quark and herb butter. Mildly aromatic, slightly sweet. Contain rutin and anthocyanins regarded as antioxidant co-constituents. Collect flowers only from unsprayed, unfertilised sites."
+        }
+      },
+      "description": {
+        "de": "Essbare Wildblüten — dekorativ und mild aromatisch; Verwendung in Blütensirup, Kristallblüten, Frühlingsquark und als Salat-Topping.",
+        "en": "Edible wild flowers — decorative and mildly aromatic; used in flower syrup, crystallised flowers, spring quark and as a salad topping."
+      },
+      "source_ids": [
+        "src_pfaf_viola_tricolor",
+        "src_wp_en_viola"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Stiefmütterchenkraut gilt bei sachgemäßer Anwendung in üblichen therapeutischen Dosen als gut verträglich. Bei äußerlicher Anwendung selten allergische Kontaktreaktionen möglich (Kreuzreaktion mit anderen Violaceae). Innerlicher Tee in hohen Dosen kann durch Saponingehalt Übelkeit und Magenreizung verursachen — empfohlene Dosierung nicht überschreiten. Bei anhaltenden Hautbeschwerden (mehr als 4 Wochen ohne Besserung), bei Verschlechterung oder bei Verdacht auf bakterielle Infektion ist ärztliche Abklärung zwingend. Selbstbehandlung bei Kindern mit atopischem Ekzem oder Säuglingsgneiss: immer vorher mit Kinderarzt besprechen.",
+      "en": "Wild pansy herb is considered well tolerated at normal therapeutic doses when used correctly. Rare allergic contact reactions possible with external use (cross-reaction within Violaceae). Internal tea at high doses may cause nausea and gastric irritation due to saponin content — do not exceed recommended dosage. Medical evaluation is required if skin complaints persist beyond 4 weeks without improvement, if condition worsens, or if bacterial infection is suspected. Self-treatment of children with atopic eczema or cradle cap should always be discussed with a paediatrician first."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Laut EMA-Monographie liegen keine ausreichenden Daten zur Sicherheit in der Schwangerschaft vor. Therapeutische Anwendung (Tee, Tinktur) in der Schwangerschaft meiden. Küchenmäßige Verwendung einzelner Blüten (Salat, Dekoration) gilt als unbedenklich.",
+        "en": "According to the EMA monograph, there are insufficient data on safety during pregnancy. Avoid therapeutic use (tea, tincture) during pregnancy. Culinary use of individual flowers (salad decoration) is considered safe."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Sicherheit in der Stillzeit. Therapeutische Einnahme meiden; kulinarische Verwendung einzelner Blüten unproblematisch.",
+        "en": "No sufficient data on safety during lactation. Avoid therapeutic use; culinary use of individual flowers is unproblematic."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Die EMA-Monographie erlaubt traditionelle Anwendung bei Kindern (äußerlicher Tee-Aufguss bei Gneiss/seborrhoischer Dermatitis und innerlicher Tee bei seborrhoischen Hautbeschwerden) — jedoch nur nach ärztlicher Diagnose und unter Elternaufsicht. Tinktur (Ethanolgehalt) nicht für Kinder unter 12 Jahren. Säuglinge und Kleinkinder unter 2 Jahren nur unter ärztlicher Aufsicht behandeln.",
+        "en": "The EMA monograph permits traditional use in children (external infusion for cradle cap/seborrhoeic dermatitis; internal tea for seborrhoeic skin complaints) — but only after medical diagnosis and under parental supervision. Tincture (ethanol content) not for children under 12. Infants and young children under 2 years should only be treated under medical supervision."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Salicylate / Acetylsalicylsäure (ASS)",
+        "mechanism": {
+          "de": "Stiefmütterchenkraut enthält Salicylsäure-Derivate (u. a. Methylsalicylat als Teil des Salicylat-Pools). Bei gleichzeitiger Einnahme von Aspirin oder anderen Salicylaten kann theoretisch eine additive Wirkung entstehen — relevant vor allem bei Patienten unter Dauerantikoagulation oder mit Blutungsneigung. Klinische Relevanz bei üblichen Teemengen gering.",
+          "en": "Wild pansy herb contains salicylic acid derivatives (including methyl salicylate as part of the salicylate pool). Concurrent use with aspirin or other salicylates may theoretically produce an additive effect — relevant mainly in patients on long-term anticoagulation or with bleeding tendency. Clinical relevance at usual tea amounts is low."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_viola"
+      },
+      {
+        "drug_class": "Antikoagulantien / Thrombozytenaggregationshemmer (Warfarin, Phenprocoumon, Clopidogrel)",
+        "mechanism": {
+          "de": "Rutin und Quercetin aus dem Stiefmütterchenkraut besitzen in vitro schwache gerinnungshemmende und thrombozytenantiaggregierende Eigenschaften. Bei hochdosierter oder Daueranwendung kombiniert mit Antikoagulantien theoretisches Risiko verstärkter Blutungsneigung. Blutgerinnungswerte (INR) überwachen bei gleichzeitiger Anwendung.",
+          "en": "Rutin and quercetin from wild pansy herb have weak anticoagulant and platelet anti-aggregatory properties in vitro. High-dose or prolonged use combined with anticoagulants carries a theoretical risk of increased bleeding tendency. Monitor coagulation values (INR) when used concurrently."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_viola"
+      },
+      {
+        "drug_class": "Diuretika (Schleifendiuretika, Thiazide)",
+        "mechanism": {
+          "de": "Stiefmütterchenkraut wird volksheilkundlich als mildes Diuretikum eingesetzt (Salicylate und Saponine). Additiver diuretischer Effekt bei gleichzeitiger Gabe von Diuretika theoretisch möglich — Risiko von Elektrolytimbalancen (Kalium). Klinische Relevanz bei Teemengen gering; bei Herz- oder Nierenerkrankungen dennoch Arzt informieren.",
+          "en": "Wild pansy herb is used in folk medicine as a mild diuretic (salicylates and saponins). Additive diuretic effect with concurrent use of diuretics is theoretically possible — risk of electrolyte imbalance (potassium). Clinical relevance at tea quantities is low; inform physician in cases of heart or kidney disease."
+        },
+        "severity": "monitor",
+        "source_id": "src_ema_viola_tricolor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Stiefmütterchenkraut oder andere Veilchengewächse (Violaceae).",
+        "en": "Hypersensitivity to wild pansy herb or other members of the Violaceae family."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (therapeutische Dosen) — mangels ausreichender Sicherheitsdaten.",
+        "en": "Pregnancy and lactation (therapeutic doses) — due to insufficient safety data."
+      },
+      {
+        "de": "Kinder unter 2 Jahren ohne ärztliche Überwachung; Tinktur nicht für Kinder unter 12 Jahren (Ethanolgehalt).",
+        "en": "Children under 2 years without medical supervision; tincture not for children under 12 (ethanol content)."
+      },
+      {
+        "de": "Bekannte Allergie gegen Salicylate oder Aspirin (Kreuzreaktion mit Salicylsäure-Derivaten im Kraut möglich).",
+        "en": "Known allergy to salicylates or aspirin (cross-reaction with salicylic acid derivatives in the herb is possible)."
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Wildes Stiefmütterchen (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Wildes_Stiefm%C3%BCtterchen",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Viola tricolor (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Viola_tricolor",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_viola_tricolor",
+      "type": "monograph",
+      "title": "EMA/HMPC — European Union herbal monograph on Viola tricolor L., herba (Final, EMA/HMPC/179635/2012)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/violae-tricoloris-herba",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_viola",
+      "type": "monograph",
+      "title": "Kommission E — Violae tricoloris herba (Stiefmütterchenkraut), Monographie (positiv), BAnz Nr. 76, 1985",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/violae-tricoloris-herba.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_viola",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Violae tricoloris herba (Wild Pansy Herb), 2nd edition",
+      "url": "https://escop.com/downloads/wild-pansy/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_viola",
+      "type": "book",
+      "title": "Wichtl, Max (Hrsg.) — Teedrogen und Phytopharmaka, 5. Aufl. Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009: Violae tricoloris herba, S. 667–669",
+      "url": "https://www.wissenschaftliche.de/product/teedrogen-und-phytopharmaka",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_viola",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band III: Viola tricolor, 1938 (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/viola.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_viola_tricolor",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Viola tricolor database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Viola+tricolor",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_viola",
+      "type": "wikipedia",
+      "title": "Wildes Stiefmütterchen (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Wildes_Stiefm%C3%BCtterchen",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_viola",
+      "type": "wikipedia",
+      "title": "Viola tricolor — Wild Pansy (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Viola_tricolor",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_viola",
+      "type": "wikidata",
+      "title": "Viola tricolor — Wikidata item Q155930",
+      "url": "https://www.wikidata.org/wiki/Q155930",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "viola-tricolor.jpg",
+    "alt": {
+      "de": "Foto von Wildes Stiefmütterchen",
+      "en": "Photo of Viola tricolor"
+    },
+    "license": "Public domain",
+    "author": "Carl Axel Magnus Lindman",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Viola_tricolor_styvmorsviol.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Rutin (Quercetin-3-O-rutinosid)",
+      "category": "flavonoid",
+      "percent_range": "0.1-0.4 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Dominierendes Flavonoidglykosid des Stiefmütterchenkrauts. Antioxidativ, kapillarprotektiv und mild entzündungshemmend. Rutin hemmt in vitro die Thrombozytenaggregation (Quercetin-Anteil) und schützt die Gefäßwand vor oxidativem Stress. Gehört zu den quantitativen Leitsubstanzen der Droge.",
+        "en": "Dominant flavonoid glycoside of wild pansy herb. Antioxidant, capillary-protective and mildly anti-inflammatory. Rutin inhibits platelet aggregation in vitro (quercetin moiety) and protects vascular walls from oxidative stress. One of the main quantitative lead compounds of the herb."
+      }
+    },
+    {
+      "name": "Violanthin und andere C-Glycosylflavonoide (Vitexin, Orientin)",
+      "category": "flavonoid",
+      "percent_range": "0.05-0.2 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "C-Glykoside des Apigenin- und Luteolin-Typs; Begleitstoffe zu Rutin. Antioxidativ und mild entzündungshemmend. Zusammen mit Rutin bestimmen sie das Flavonoid-Profil, das im EMA-Kontext zur Standardisierung herangezogen wird.",
+        "en": "C-glycosides of the apigenin and luteolin type; companion compounds to rutin. Antioxidant and mildly anti-inflammatory. Together with rutin they define the flavonoid profile referenced in the EMA context for standardisation."
+      }
+    },
+    {
+      "name": "Anthocyane (Violanin, Delphinidin-3-glucosid, Cyanidin-Derivate)",
+      "category": "flavonoid",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Für die charakteristische blau-violette bis gelb-weiße Blütenfarbe verantwortlich. Antioxidative Pigmente; sorbieren freie Radikale. In der Volksmedizin wurden Anthocyan-reiche Pflanzen bei Entzündungen und Gefäßschutz eingesetzt. Violanin ist das Hauptanthocyan der dunklen Blütenvarietäten.",
+        "en": "Responsible for the characteristic blue-violet to yellow-white flower colour. Antioxidant pigments; scavenge free radicals. In folk medicine, anthocyanin-rich plants were used for inflammation and vascular protection. Violanin is the main anthocyanin of the dark-flowered varieties."
+      }
+    },
+    {
+      "name": "Salicylate (Salicylsäure, Methylsalicylat, Salicylsäure-Derivate)",
+      "category": "phenolic_acid",
+      "percent_range": "0.02-0.1 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Verantwortlich für die mild fiebersenkenden, schweißtreibenden und entzündungshemmenden Eigenschaften, die dem Kraut volksheilkundlich zugeschrieben werden. Geringe Konzentration — pharmakologische Wirkung auf Hautebene in situ durch Kontakt möglich (äußerliche Anwendung). Interaktionsrelevant bei gleichzeitiger Einnahme von Aspirin oder Antikoagulantien.",
+        "en": "Responsible for the mildly antipyretic, diaphoretic and anti-inflammatory properties attributed to the herb in folk medicine. Low concentration — pharmacological effect at skin level possible in situ on external application. Relevant for interactions when aspirin or anticoagulants are taken concurrently."
+      }
+    },
+    {
+      "name": "Schleimstoffe (Polysaccharide und Uronsäure-Fraktionen)",
+      "category": "mucilage",
+      "percent_range": "1.5-3 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Schleimstoffreiche Droge — Polysaccharide quellen mit Wasser zu einer schützenden Gelschicht. Hüllende, reizlindernde Wirkung auf Haut- und Schleimhäute; erklärt die traditionelle Anwendung bei Reizhusten, seborrhoischer Haut und Gneiss. Schleimstoffe tragen maßgeblich zur dermatologischen Indikation bei.",
+        "en": "Mucilage-rich herb — polysaccharides swell with water to form a protective gel layer. Demulcent, soothing action on skin and mucous membranes; explains traditional use for irritant cough, seborrhoeic skin and cradle cap. Mucilages are a key contributor to the dermatological indication."
+      }
+    },
+    {
+      "name": "Saponine (triterpenische Saponinfraktionen)",
+      "category": "saponin",
+      "percent_range": "0.1-0.3 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Mild expektorierende Saponine unterstützen die volksheilkundliche Anwendung bei Erkältungshusten (schleimlösend durch reflektorische Anregung der Bronchialsekretion). In hohen Dosen können Saponine Magenschleimhautreizung verursachen — empfohlene Teemengen einhalten.",
+        "en": "Mildly expectorant saponins support the folk use for catarrhal coughs (mucolytic by reflex stimulation of bronchial secretion). At high doses saponins can cause gastric mucosal irritation — observe recommended tea quantities."
+      }
+    },
+    {
+      "name": "Carotinoide (beta-Carotin, Xanthophylle, Violaxanthin)",
+      "category": "other",
+      "percent_range": "0.05-0.15 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Für die gelben Blütenteile mitverantwortlich; antioxidativ. Violaxanthin ist ein Xanthophyll, das in der Viola-Gattung gut charakterisiert ist. Ernährungsphysiologisch geringfügig relevant (Beta-Carotin als Provitamin A), bei den üblichen Einnahmemengen pharmakologisch nicht signifikant.",
+        "en": "Partly responsible for the yellow parts of the flower; antioxidant. Violaxanthin is a xanthophyll well characterised in the Viola genus. Nutritionally minor relevance (beta-carotene as provitamin A); not pharmacologically significant at usual intake amounts."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "An trockenem, sonnigem Vormittag (9–12 Uhr), nachdem der Morgentau vollständig abgetrocknet ist — Flavonoid- und Schleimstoffgehalte dann am höchsten. Regnerische oder feuchte Bedingungen meiden — Schimmelgefahr beim Trocknen.",
+        "en": "On a dry, sunny morning (9–12), once morning dew has fully dried — flavonoid and mucilage contents are then at their highest. Avoid rainy or humid conditions — risk of mould during drying."
+      },
+      "drying": {
+        "de": "Blühende oberirdische Teile (Stängel, Blätter, Blüten) 5–10 cm über dem Boden abschneiden, keine verholzten oder übermäßig dicken Stängel. Kleine Sträuße locker binden und kopfüber an einem luftigen, schattigen Ort aufhängen, oder einlagig auf Sieben/Tüchern ausbreiten und bei max. 40 °C trocknen. Blütenblätter sind empfindlich — Farbe nach dem Trocknen: blau-violett oder gelblich erhalten. Sobald Stängel beim Biegen knacken und Blüten rascheln, ist die Droge fertig. Richtig getrocknete Droge (Violae tricoloris herba) hat charakteristisch blumigen, leicht honigartigen Duft — muffiger Geruch = Schimmel, entsorgen.",
+        "en": "Cut flowering aerial parts (stems, leaves, flowers) 5–10 cm above the ground; avoid woody or excessively thick stems. Bind loosely in small bunches and hang upside down in a well-ventilated shady spot, or spread in a single layer on screens/cloths and dry at max. 40 °C. Flower petals are delicate — preserve blue-violet or yellow colour after drying. Ready when stems snap on bending and flowers rustle. Properly dried herb (Violae tricoloris herba) has a characteristic floral, slightly honey-like scent — musty smell indicates mould; discard."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht in dunklen Glas- oder Blechbehältern, trocken und kühl. Maximal 1 Jahr lagern — danach Verlust an Flavonoiden und Schleimstoffen. Auf ausreichende Ventilation beim Nachfüllen achten; keine halbfertigen Restmengen unter neue Ernte mischen.",
+        "en": "Airtight in dark glass or tin containers, dry and cool. Store for a maximum of 1 year — thereafter loss of flavonoids and mucilage. Ensure adequate ventilation when refilling; do not mix old remnants with a new harvest."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Blüten einzeln am frühen Vor- oder Mittag bei trockenem Wetter pflücken — nur vollständig geöffnete, unbeschädigte Blüten. Regentropfen auf den Blütenblättern führen beim Trocknen zu Schimmel oder Farbverlust.",
+        "en": "Pick individual flowers in the late morning or midday in dry weather — only fully open, undamaged blooms. Water drops on petals cause mould or colour loss during drying."
+      },
+      "drying": {
+        "de": "Blüten sofort nach der Ernte sehr flach und einlagig auf Backpapier oder Seidenpapier bei max. 35 °C ausbreiten (niedrigere Temperatur als Kraut wegen empfindlicher Anthocyane). Oft reicht Raumtemperatur an einem warmen, luftigen Tag. Getrocknete Blüten behutsam in luftdichte dunkle Gläser füllen — Licht zerstört Anthocyane rasch. Für Sirup oder Kristallisation frische Blüten unmittelbar nach der Ernte verwenden.",
+        "en": "Spread flowers immediately after harvest very flat in a single layer on baking paper or tissue paper at max. 35 °C (lower than herb, due to sensitive anthocyanins). Room temperature on a warm, airy day is often sufficient. Place dried flowers gently into airtight dark jars — light rapidly destroys anthocyanins. For syrup or crystallisation, use fresh flowers immediately after harvest."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Getrocknete Blüten maximal 6 Monate in dunklen, luftdichten Gläsern — danach starker Farbverlust und Verringerung der Anthocyan-Konzentration. Für kulinarische Zwecke Blüten frisch oder sofort weiterverarbeiten.",
+        "en": "Dried flowers maximum 6 months in dark, airtight jars — thereafter strong colour loss and reduced anthocyanin concentration. For culinary purposes, use flowers fresh or process immediately."
+      }
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "slug": "origanum-vulgare",
+  "names": {
+    "de": "Oregano",
+    "en": "Oregano",
+    "latin": "Origanum vulgare"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Oregano [oˈʁeːganoː] oder deutsch Echter Dost ist eine Pflanzenart in der Gattung Dost aus der Familie der Lippenblütler (Lamiaceae). Trivialnamen sind beispielsweise Dorst, Dost, Gemeiner Dost, Gewöhnlicher Dost, Dostenkraut, Wohlgemut, Müllerkraut oder Wilder Majoran. Sie wird als Gewürz- und Heilpflanze verwendet.",
+    "en": "Oregano is a species of flowering plant in the mint family, Lamiaceae. It was native to the Mediterranean region, but widely naturalised elsewhere in the temperate Northern Hemisphere."
+  },
+  "teaser": {
+    "de": "Oregano [oˈʁeːganoː] oder deutsch Echter Dost ist eine Pflanzenart in der Gattung Dost aus der Familie der Lippenblüt...",
+    "en": "Oregano is a species of flowering plant in the mint family, Lamiaceae."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Traditionelle volksmedizinische Anwendung als aromatischer Aufguss bei dyspeptischen Beschwerden (Völlegefühl, Blähungen, Appetitlosigkeit) sowie bei katarrhalischen Beschwerden der Atemwege wie Reizhusten und beginnender Bronchitis. Wirkstoffträger ist das carvacrolreiche ätherische Öl mit verdauungsfördernden, spasmolytischen und sekretolytischen Eigenschaften.",
+        "en": "Traditional folk-medicinal use as an aromatic infusion for dyspeptic complaints (bloating, flatulence, loss of appetite) and for catarrhal upper-respiratory complaints such as irritable cough and incipient bronchitis. The active principle is the carvacrol-rich essential oil with digestive, spasmolytic and secretolytic effects."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "1-2 g getrocknetes Oreganokraut mit 150 ml siedendem Wasser übergiessen, zugedeckt 10 Minuten ziehen lassen, abseihen. Zwei- bis dreimal täglich eine frische Tasse zwischen den Mahlzeiten trinken.",
+          "en": "Pour 150 ml boiling water over 1-2 g dried oregano herb, cover and infuse for 10 minutes, then strain. Drink a fresh cup two to three times daily between meals."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_origanum",
+        "src_heilkraeuter_oregano",
+        "src_madaus_origanum"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische ethanolische Tinktur aus dem blühenden Kraut zur Behandlung dyspeptischer Beschwerden, krampfartiger Magenschmerzen und produktiven Bronchialkatarrhs. Ethanol konserviert das flüchtige Carvacrol-/Thymol-haltige ätherische Öl sowie Rosmarinsäure besser als ein wässriger Aufguss.",
+        "en": "Folk-medicinal ethanolic tincture of the flowering herb for dyspeptic complaints, cramp-like stomach pain and productive bronchial catarrh. Ethanol preserves the volatile carvacrol-/thymol-containing essential oil and rosmarinic acid better than an aqueous infusion."
+      },
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Tinktur 1:5 in 70 % Ethanol aus getrocknetem Oreganokraut. Übliche Tagesdosis: 3-mal täglich 20-40 Tropfen (1-2 ml) in wenig Wasser vor den Mahlzeiten. Nicht in der Schwangerschaft anwenden.",
+          "en": "1:5 tincture in 70 % ethanol from dried oregano herb. Usual daily dose: 20-40 drops (1-2 ml) three times daily in a little water before meals. Avoid in pregnancy."
+        }
+      },
+      "source_ids": [
+        "src_madaus_origanum",
+        "src_heilkraeuter_oregano"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "respiratory",
+        "immune"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Origanumöl (Oleum origani) wird traditionell wegen seines hohen Carvacrol- und Thymolgehalts wegen seiner antimikrobiellen Eigenschaften eingesetzt — verdünnt als Einreibung bei Erkältungsbeschwerden oder als Zusatz für Inhalationen. Stark hautreizend in unverdünntem Zustand, daher immer in fettem Trägeröl verdünnen.",
+        "en": "Oregano essential oil (Oleum origani) is traditionally used for its antimicrobial properties due to its high carvacrol and thymol content — applied diluted as a rub for cold complaints or as an additive for inhalations. Strongly skin-irritating when undiluted; always dilute in a fixed carrier oil."
+      },
+      "preparation": {
+        "amount_ml": {
+          "min": 0.05,
+          "max": 0.15
+        },
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "1-3 Tropfen Origanumöl in 10 ml Mandel- oder Olivenöl verdünnen und auf Brust/Rücken einreiben. Nicht unverdünnt auf die Haut, nicht in die Augen, nicht zur innerlichen Anwendung ohne fachliche Begleitung.",
+          "en": "Dilute 1-3 drops oregano essential oil in 10 ml almond or olive oil and rub onto chest/back. Not undiluted on the skin, not in the eyes, not for internal use without professional guidance."
+        }
+      },
+      "age_restriction": {
+        "min_age": 4,
+        "note": {
+          "de": "Ätherisches Origanumöl nicht bei Säuglingen und Kleinkindern unter 4 Jahren wegen Carvacrol-/Thymolgehalt — Risiko von Schleimhautreizung und Laryngospasmus bei Anwendung im Gesichtsbereich.",
+          "en": "Oregano essential oil must not be used in infants and children under 4 years due to carvacrol/thymol content — risk of mucous-membrane irritation and laryngospasm with facial application."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_origanum",
+        "src_heilkraeuter_oregano",
+        "src_wikipedia_de_oregano"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Dampfinhalation des Oreganokrauts oder einiger Tropfen verdünnten Origanumöls bei festsitzendem Bronchialschleim, Schnupfen und beginnender Bronchitis. Die sekretolytische Wirkung von Carvacrol und Thymol löst zähen Schleim.",
+        "en": "Folk-medicinal steam inhalation of oregano herb or a few drops of diluted oregano essential oil for stubborn bronchial mucus, rhinitis and incipient bronchitis. The secretolytic action of carvacrol and thymol loosens viscous mucus."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 1000,
+        "steep_min": 5,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "Eine Handvoll (5-10 g) getrocknetes Oreganokraut mit 1 L heissem (nicht kochendem) Wasser übergiessen, Kopf mit Tuch bedecken, Augen schliessen und 5-10 Minuten Dampf inhalieren. Alternativ 2-3 Tropfen Origanumöl in 500 ml heisses Wasser geben.",
+          "en": "Pour 1 L hot (not boiling) water over a handful (5-10 g) of dried oregano herb, cover head with a towel, close eyes and inhale steam for 5-10 minutes. Alternatively add 2-3 drops oregano oil to 500 ml hot water."
+        }
+      },
+      "age_restriction": {
+        "min_age": 4,
+        "note": {
+          "de": "Inhalation mit Origanumöl nicht bei Kindern unter 4 Jahren wegen Carvacrol-/Thymolgehalt — Laryngospasmus-Risiko.",
+          "en": "Inhalation with oregano oil not for children under 4 years due to carvacrol/thymol content — laryngospasm risk."
+        }
+      },
+      "source_ids": [
+        "src_heilkraeuter_oregano",
+        "src_madaus_origanum"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Klassisches Gewürz der mediterranen Küche — Hauptanwendung des Oregano. Wesentlicher Bestandteil von Pizza-, Tomaten-, Lamm- und Fischgerichten, griechischen und italienischen Salaten. Die ätherischen Öle wirken appetitanregend und verdauungsfördernd; mässige Würzmengen sind ohne Risiken auch in der Schwangerschaft unbedenklich.",
+        "en": "Classical Mediterranean culinary herb — the main use of oregano. Essential component of pizza, tomato, lamb and fish dishes, Greek and Italian salads. The essential oils stimulate appetite and digestion; moderate culinary amounts are safe, including in pregnancy."
+      },
+      "preparation": {
+        "de": "Frisches oder getrocknetes Oregano-Blatt fein hacken bzw. zerreiben und während oder kurz nach dem Garen zu Tomatensauce, Pizza, Fleisch- oder Fischgerichten geben. Übliche Würzmenge: 0.5-1 Teelöffel getrocknetes Kraut pro Gericht für 4 Personen.",
+        "en": "Finely chop fresh or crumble dried oregano leaves and add during or shortly after cooking to tomato sauce, pizza, meat or fish dishes. Usual seasoning: 0.5-1 teaspoon dried herb per dish for 4 persons."
+      },
+      "source_ids": [
+        "src_pfaf_origanum",
+        "src_heilkraeuter_oregano",
+        "src_usda_fdc_oregano"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Anwendung als warmer Umschlag bei rheumatischen Beschwerden, Muskelverspannungen, Prellungen und schlecht heilenden Hautstellen. Die ätherischen Öle wirken hyperämisierend und mild antiseptisch.",
+        "en": "Folk-medicinal use as a warm compress for rheumatic complaints, muscle tension, bruises and slow-healing skin areas. The essential oils are hyperaemic and mildly antiseptic."
+      },
+      "preparation": {
+        "de": "2 EL getrocknetes Oreganokraut mit 250 ml siedendem Wasser übergiessen, 15 Minuten ziehen lassen, abseihen. Ein sauberes Tuch im warmen Aufguss tränken, leicht auswringen und 15-20 Minuten auf die schmerzhafte Stelle legen. 1-2 mal täglich.",
+        "en": "Pour 250 ml boiling water over 2 tbsp dried oregano herb, infuse for 15 minutes, strain. Soak a clean cloth in the warm infusion, wring lightly and apply to the painful area for 15-20 minutes. Once or twice daily."
+      },
+      "source_ids": [
+        "src_madaus_origanum",
+        "src_heilkraeuter_oregano"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Ätherisches Origanumöl ist in konzentrierter Form stark hautreizend und schleimhautreizend — niemals unverdünnt anwenden, immer mindestens 1:10 in fettem Trägeröl verdünnen. Hohe Mengen können Übelkeit, Erbrechen und Magenreizung auslösen. Therapeutische Dosen während der Schwangerschaft meiden (Carvacrol- und Thymolwirkung, traditionelle Verwendung als Emmenagogum).",
+      "en": "Oregano essential oil is strongly skin- and mucous-membrane irritating in concentrated form — never apply undiluted; always dilute at least 1:10 in a fixed carrier oil. High doses can cause nausea, vomiting and gastric irritation. Avoid therapeutic doses during pregnancy (carvacrol and thymol effects, traditional use as emmenagogue)."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenmengen sind unbedenklich. Therapeutische Dosen (Tee, Tinktur, Origanumöl) während der Schwangerschaft meiden — Carvacrol und Thymol gelten als uterotonisch; Origanum wurde traditionell (TCM, europäische Volksmedizin) als Emmenagogum verwendet.",
+        "en": "Culinary amounts are safe. Avoid therapeutic doses (tea, tincture, oregano oil) during pregnancy — carvacrol and thymol are considered uterotonic; oregano was traditionally (TCM, European folk medicine) used as an emmenagogue."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Küchenmengen sind in der Stillzeit unbedenklich. Therapeutische Mengen mangels Daten zurückhaltend einsetzen.",
+        "en": "Culinary amounts are safe during breastfeeding. Use therapeutic doses sparingly due to insufficient data."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Ätherisches Origanumöl nicht bei Säuglingen und Kleinkindern unter 4 Jahren wegen Carvacrol-/Thymolgehalt — Risiko von Schleimhautreizung und Laryngospasmus bei Anwendung im Gesichtsbereich. Tee in moderaten Mengen ab Schulalter unbedenklich.",
+        "en": "Oregano essential oil must not be used in infants and children under 4 years due to carvacrol/thymol content — risk of mucous-membrane irritation and laryngospasm with facial application. Tea in moderate amounts is safe from school age."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulanzien / Thrombozytenaggregationshemmer",
+        "mechanism": {
+          "de": "Carvacrol und Thymol hemmen die Thrombozytenaggregation in vitro; bei gleichzeitiger Einnahme von Warfarin, Heparin, ASS oder Clopidogrel kann die gerinnungshemmende Wirkung theoretisch verstärkt werden.",
+          "en": "Carvacrol and thymol inhibit platelet aggregation in vitro; concurrent use with warfarin, heparin, aspirin or clopidogrel may theoretically potentiate anticoagulant effects."
+        },
+        "severity": "monitor",
+        "source_id": "src_pfaf_origanum"
+      },
+      {
+        "drug_class": "Antidiabetika",
+        "mechanism": {
+          "de": "Oreganoextrakte können den Blutzuckerspiegel leicht senken; bei gleichzeitiger Einnahme blutzuckersenkender Medikamente potenziell synergistisch — Werte engmaschig kontrollieren.",
+          "en": "Oregano extracts may slightly lower blood sugar; potentially synergistic when taken with antidiabetic medication — monitor glucose values closely."
+        },
+        "severity": "monitor",
+        "source_id": "src_heilkraeuter_oregano"
+      },
+      {
+        "drug_class": "CYP3A4-Substrate",
+        "mechanism": {
+          "de": "Carvacrol moduliert in vitro CYP3A4 und kann theoretisch den Metabolismus zahlreicher Arzneistoffe (Statine, Immunsuppressiva, einige Antiarrhythmika) beeinflussen. Klinische Relevanz unklar, hochdosierte Oreganoöl-Präparate vorsichtig einsetzen.",
+          "en": "Carvacrol modulates CYP3A4 in vitro and may theoretically affect the metabolism of numerous drugs (statins, immunosuppressants, some antiarrhythmics). Clinical relevance unclear; use high-dose oregano oil preparations cautiously."
+        },
+        "severity": "caution",
+        "source_id": "src_wikipedia_en_oregano"
+      },
+      {
+        "drug_class": "Eisenpräparate",
+        "mechanism": {
+          "de": "Die Gerbstoffe des Oregano können die Resorption von oralem Eisen vermindern. Einnahmeabstand von mindestens 2 Stunden zwischen Eisenpräparaten und grösseren Mengen Oreganotee einhalten.",
+          "en": "Tannins in oregano can reduce absorption of oral iron. Maintain at least a 2-hour interval between iron supplements and larger amounts of oregano tea."
+        },
+        "severity": "monitor",
+        "source_id": "src_heilkraeuter_oregano"
+      }
+    ],
+    "max_continuous_use_weeks": 4,
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Oregano, anderen Lamiaceen (Thymian, Bohnenkraut, Salbei) oder Carvacrol/Thymol.",
+        "en": "Known hypersensitivity to oregano, other Lamiaceae (thyme, savory, sage) or carvacrol/thymol."
+      },
+      {
+        "de": "Ätherisches Origanumöl: Anwendung unverdünnt auf der Haut sowie im Gesichtsbereich von Säuglingen und Kleinkindern unter 4 Jahren (Laryngospasmus-Risiko).",
+        "en": "Oregano essential oil: undiluted application to skin or facial application in infants and children under 4 years (laryngospasm risk)."
+      },
+      {
+        "de": "Schwangerschaft: therapeutische Dosen meiden (Küchenmengen unbedenklich).",
+        "en": "Pregnancy: avoid therapeutic doses (culinary amounts safe)."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Oregano (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Oregano",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Oregano (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Oregano",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_pfaf_origanum",
+      "type": "monograph",
+      "title": "Plants For A Future — Origanum vulgare",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Origanum+vulgare",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_heilkraeuter_oregano",
+      "type": "monograph",
+      "title": "Heilkraeuter-Lexikon — Oregano / Wilder Majoran",
+      "url": "https://heilkraeuter.de/lexikon/oregano.htm",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_madaus_origanum",
+      "type": "book",
+      "title": "Madaus, Gerhard: Lehrbuch der biologischen Heilmittel, Bd. III — Origanum vulgare (1938, PD)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/origanum.html",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wikipedia_de_oregano",
+      "type": "wikipedia",
+      "title": "Wikipedia DE — Echter Dost (Origanum vulgare)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Dost",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wikipedia_en_oregano",
+      "type": "wikipedia",
+      "title": "Wikipedia EN — Oregano (Origanum vulgare)",
+      "url": "https://en.wikipedia.org/wiki/Oregano",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wikidata_origanum",
+      "type": "wikidata",
+      "title": "Wikidata — Origanum vulgare (Q156414)",
+      "url": "https://www.wikidata.org/wiki/Q156414",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_usda_fdc_oregano",
+      "type": "monograph",
+      "title": "USDA FoodData Central — Spices, oregano, dried (FDC ID 171328)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171328/nutrients",
+      "accessed": "2026-05-19"
+    }
+  ],
+  "image": {
+    "filename": "origanum-vulgare.jpg",
+    "alt": {
+      "de": "Foto von Oregano",
+      "en": "Photo of Oregano"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Isidre blanc",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ORIGANUM_VULGARE_-_SANT_JUST_-_IB-230_(Orenga).JPG"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible",
+      "medicinal"
+    ],
+    "rooms": [
+      "kitchen",
+      "balcony"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "weekly",
+    "difficulty": 1,
+    "pet_safe": true,
+    "soil": {
+      "de": "Standard-Kräutererde, durchlässig",
+      "en": "Standard herb compost, well-draining"
+    },
+    "pot_size_cm": 18,
+    "tips": {
+      "de": [
+        "Sonniger Standort macht Aroma intensiver.",
+        "Vor der Blüte schmecken die Blätter am besten.",
+        "Mag eher trocken als nass."
+      ],
+      "en": [
+        "Sunny spot intensifies aroma.",
+        "Leaves taste best before flowering.",
+        "Prefers dry over wet."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "achillea-millefolium",
+      "cucurbita-pepo",
+      "lavandula-angustifolia",
+      "matricaria-chamomilla",
+      "ocimum-basilicum",
+      "salvia-officinalis",
+      "thymus-vulgaris"
+    ],
+    "bad_partners": [],
+    "reasons": {
+      "thymus-vulgaris": {
+        "de": "Beide aromatisch und insekten-freundlich — ideale Nachbarn.",
+        "en": "Both aromatic and bee-friendly — ideal neighbours."
+      }
+    },
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 9
+    },
+    "days_to_harvest": 90,
+    "spacing_cm": 25,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "aromatic_repellent",
+    "pollinator_attractor",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (Carvacrol, Thymol, p-Cymol, gamma-Terpinen, Linalool)",
+      "category": "essential_oil",
+      "percent_range": "0.15-4 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Leitsubstanz und Hauptwirkstoff. Carvacrol (40-80 % des Öls) und Thymol (Spuren bis 10 %) bestimmen das antimikrobielle, spasmolytische und sekretolytische Wirkprofil. Chemotypen variieren stark nach Herkunft und Subspezies; mediterrane Wildformen sind besonders carvacrolreich.",
+        "en": "Leading marker substance and main active principle. Carvacrol (40-80 % of the oil) and thymol (traces up to 10 %) determine the antimicrobial, spasmolytic and secretolytic profile. Chemotypes vary strongly with origin and subspecies; Mediterranean wild forms are particularly carvacrol-rich."
+      }
+    },
+    {
+      "name": "Rosmarinsäure",
+      "category": "phenolic_acid",
+      "percent_range": "0.5-2.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Wichtige phenolische Säure der Lamiaceae mit ausgeprägt antioxidativer, antiinflammatorischer und antiviraler Wirkung. Wasserlöslich, gut im Tee extrahierbar.",
+        "en": "Major phenolic acid of the Lamiaceae with pronounced antioxidant, anti-inflammatory and antiviral activity. Water-soluble, well extracted in tea."
+      }
+    },
+    {
+      "name": "Flavonoide (Apigenin, Luteolin, Origanol)",
+      "category": "flavonoid",
+      "percent_range": "0.3-1 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavone und Flavonglykoside mit antioxidativen, leicht spasmolytischen und gefässprotektiven Eigenschaften. Origanol ist ein für Origanum charakteristisches Flavon.",
+        "en": "Flavones and flavone glycosides with antioxidant, mildly spasmolytic and vasoprotective properties. Origanol is a flavone characteristic of Origanum."
+      }
+    },
+    {
+      "name": "Triterpensäuren (Ursolsäure, Oleanolsäure)",
+      "category": "other",
+      "percent_range": "1-3 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Pentazyklische Triterpene mit antiinflammatorischer und hepatoprotektiver Wirkung; tragen zur Wirkung externer Zubereitungen bei.",
+        "en": "Pentacyclic triterpenes with anti-inflammatory and hepatoprotective effects; contribute to the action of external preparations."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Lamiaceen-Gerbstoffe)",
+      "category": "tannin",
+      "percent_range": "ca. 8 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Adstringierende Gerbstoffe der Lamiaceen-Gruppe; tragen zur lokalen Wirkung auf Schleimhäuten und Haut bei und vermindern die Eisenresorption (Wechselwirkung).",
+        "en": "Astringent tannins of the Lamiaceae group; contribute to local effects on mucous membranes and skin and reduce iron absorption (interaction)."
+      }
+    },
+    {
+      "name": "Bitterstoffe",
+      "category": "bitter",
+      "percent_range": "Spurenanteile",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Bittere Begleitstoffe tragen zur appetit- und gallenflussanregenden Wirkung bei (Amarum aromaticum).",
+        "en": "Bitter accompanying substances contribute to the appetite- and bile-flow-stimulating effect (aromatic bitter)."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Kaffeesäure, Chlorogensäure, Protocatechusäure)",
+      "category": "phenolic_acid",
+      "percent_range": "0.2-0.8 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Begleitende Phenolcarbonsäuren tragen zur antioxidativen Gesamtkapazität und zur stabilisierenden Wirkung in Lebensmitteln bei.",
+        "en": "Accompanying phenolic acids contribute to the total antioxidant capacity and to the stabilising effect in foods."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Am späten Vormittag bei trockenem, sonnigem Wetter während der Vollblüte (Juli-August) — dann ist der Gehalt an ätherischem Öl mit Carvacrol/Thymol am höchsten.",
+        "en": "Late morning in dry, sunny weather during full flowering (July-August) — essential-oil content with carvacrol/thymol is then at its peak."
+      },
+      "drying": {
+        "de": "Triebe in kleinen Bündeln kopfüber an einem warmen, luftigen, schattigen Ort trocknen (max. 35 °C). Nach dem Trocknen Blätter und Blüten vom Stiel streifen.",
+        "en": "Hang shoots in small bundles upside down in a warm, airy, shaded place (max 35 °C). Strip leaves and flowers from stems after drying."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In dunklen, fest schliessenden Glas- oder Blechgefässen kühl und trocken aufbewahren. Ätherisches Öl verflüchtigt sich rasch bei Licht und Luft.",
+        "en": "Store in dark, tightly closed glass or tin containers, cool and dry. The essential oil evaporates quickly with light and air."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Während der Wachstumsperiode laufend einzelne Triebspitzen ernten (Juni-September), idealerweise vor Beginn der Blüte für Küchenzwecke — Blätter sind dann besonders aromatisch und mild.",
+        "en": "Harvest individual shoot tips continuously during the growing season (June-September), ideally before flowering starts for culinary use — leaves are then especially aromatic and mild."
+      },
+      "drying": {
+        "de": "Blätter dünn auf einem Tuch ausbreiten und an einem schattigen, luftigen Ort trocknen oder bei max. 35 °C im Dörrgerät.",
+        "en": "Spread leaves thinly on a cloth and dry in a shaded, airy place, or at max 35 °C in a dehydrator."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In dunklen Glasgefässen luftdicht aufbewahren — Aroma bleibt bei trockener, kühler Lagerung etwa ein Jahr erhalten.",
+        "en": "Store airtight in dark glass jars — aroma is preserved for about a year under dry, cool storage."
+      }
+    }
+  ]
+}

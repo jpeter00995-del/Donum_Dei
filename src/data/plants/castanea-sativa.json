@@ -1,0 +1,409 @@
+{
+  "slug": "castanea-sativa",
+  "names": {
+    "de": "Edelkastanie",
+    "en": "Sweet chestnut",
+    "latin": "Castanea sativa"
+  },
+  "family": {
+    "de": "Buchengewächse",
+    "en": "Beech family",
+    "latin": "Fagaceae"
+  },
+  "description": {
+    "de": "Die Edelkastanie, auch Esskastanie und Echte Kastanie genannt, ist der einzige europäische Vertreter der Gattung Kastanien (Castanea) aus der Familie der Buchengewächse (Fagaceae). Die Edelkastanie ist ein sommergrüner Baum und bildet stärkereiche Nussfrüchte. In Süd- und Westeuropa wird sie wegen dieser essbaren Früchte und als Holzlieferant angebaut.",
+    "en": "The sweet chestnut, also known as the Spanish chestnut or European chestnut, is a species of tree in the family Fagaceae, native to Southern Europe and Anatolia, and widely cultivated in Western and Central Europe. A substantial, long-lived deciduous tree, it produces an edible seed, the chestnut, which has been used in cooking since ancient times."
+  },
+  "teaser": {
+    "de": "Die Edelkastanie, auch Esskastanie und Echte Kastanie genannt, ist der einzige europäische Vertreter der Gattung Kast...",
+    "en": "The sweet chestnut, also known as the Spanish chestnut or European chestnut, is a species of tree in the family Fagac..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "throat"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Blättertee bei Keuchhusten und Husten: Die getrockneten Blätter der Edelkastanie enthalten Tannine und Flavonoide mit adstringierender, antitussiver und schleimlösender Wirkung. Volksmedizinisch weit verbreitet bei Keuchhusten, Bronchitis und Halsschmerzen.",
+        "en": "Leaf tea for whooping cough and coughs: dried sweet chestnut leaves contain tannins and flavonoids with astringent, antitussive, and expectorant properties. Widely used in folk medicine for whooping cough, bronchitis, and sore throats."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 10,
+          "max": 25
+        },
+        "water_ml": 500,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "10–25 g getrocknete Blätter in 500 ml kochendes Wasser geben, 10 Minuten ziehen lassen, abseihen. 3× täglich eine Tasse trinken.",
+          "en": "Add 10–25 g dried leaves to 500 ml boiling water, steep for 10 minutes, strain. Drink one cup 3 times daily."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_castanea",
+        "src_wiki_de_kastanie",
+        "src_mfgt_castanea"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Gurgellösung bei Halsschmerzen und Entzündungen: Der tanninreiche Blätterabsud wirkt adstringierend auf die Rachenschleimhaut und lindert Entzündungen. Auch bei Fieber und Ague (Wechselfieber) volksmedizinisch verwendet.",
+        "en": "Gargle for sore throat and inflammation: the tannin-rich leaf decoction has an astringent effect on the pharyngeal mucosa and soothes inflammation. Also used in folk medicine for fever and ague."
+      },
+      "preparation": {
+        "de": "Starken Blätterabsud (25 g/500 ml) abkühlen lassen, als Gurgellösung 3–4× täglich anwenden.",
+        "en": "Cool a strong leaf decoction (25 g/500 ml) and use as a gargle 3–4 times daily."
+      },
+      "source_ids": [
+        "src_pfaf_castanea",
+        "src_mfgt_castanea"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Maronen als Nahrungsmittel: Die Früchte sind reich an Stärke (bis 45 % TG), arm an Fett und glutenfrei. Sie liefern Ballaststoffe, B-Vitamine und Mineralstoffe wie Kalium und Magnesium. Geröstete oder gekochte Kastanien sind seit der Antike ein Grundnahrungsmittel in Südeuropa.",
+        "en": "Chestnuts as food: the fruits are rich in starch (up to 45 % DW), low in fat, and gluten-free. They provide dietary fiber, B vitamins, and minerals such as potassium and magnesium. Roasted or boiled chestnuts have been a staple food in Southern Europe since antiquity."
+      },
+      "source_ids": [
+        "src_wiki_en_chestnut",
+        "src_pfaf_castanea"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Kastanienmehl als Kochzutat: Getrocknete und gemahlene Kastanien ergeben ein glutenfreies Mehl, das für Brot, Pasta und Pfannkuchen verwendet wird. Besonders für Menschen mit Zöliakie geeignet.",
+        "en": "Chestnut flour as a cooking ingredient: dried and ground chestnuts produce a gluten-free flour used for bread, pasta, and pancakes. Particularly suitable for people with coeliac disease."
+      },
+      "source_ids": [
+        "src_pfaf_castanea",
+        "src_wiki_en_chestnut"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "circulation",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Rindenextrakt bei Kreislauf- und Hautproblemen: Die Rinde enthält hohe Mengen an hydrolysierbaren Tanninen (Ellagitannine: Castalagin, Vescalagin) mit antiatherogenen, antithrombotischen und entzündungshemmenden Eigenschaften. In vitro und im Tiermodell belegt.",
+        "en": "Bark extract for circulatory and skin problems: the bark contains high levels of hydrolyzable tannins (ellagitannins: castalagin, vescalagin) with antiatherogenic, antithrombotic, and anti-inflammatory properties. Documented in vitro and in animal models."
+      },
+      "source_ids": [
+        "src_marrone_2023",
+        "src_mfgt_castanea"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Blätterumschlag bei Wunden und Hautproblemen: Frische oder leicht gedämpfte Blätter werden als Umschlag auf Wunden, Hautausschläge oder entzündliche Hautveränderungen gelegt. Die Gerbstoffe wirken adstringierend und wundheilend.",
+        "en": "Leaf compress for wounds and skin problems: fresh or lightly steamed leaves are applied as a compress to wounds, skin rashes, or inflammatory skin conditions. The tannins act as astringents and promote wound healing."
+      },
+      "source_ids": [
+        "src_wiki_de_kastanie",
+        "src_mfgt_castanea"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Blättertee bei Durchfall: Die adstringierenden Gerbstoffe der Kastanienblätter (Castalagin, Vescalagin, Ellagsäure) hemmen übermäßige Darmperistaltik und lindern leichte Durchfälle. Volksmedizinisch in Südeuropa verbreitet.",
+        "en": "Leaf tea for diarrhoea: the astringent tannins in chestnut leaves (castalagin, vescalagin, ellagic acid) inhibit excessive intestinal motility and relieve mild diarrhoea. Common in folk medicine in Southern Europe."
+      },
+      "source_ids": [
+        "src_marrone_2023",
+        "src_pfaf_castanea"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Blätter (Sommer), Früchte (Herbst)",
+      "en": "leaves (summer), fruits (autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bei bekannter Allergie gegen Nüsse oder Maronen Produkte aus Kastanienfrüchten meiden. Blättertee in sehr hohen Dosen kann durch den Tanningehalt die Eisenresorption hemmen. Keine therapeutische Selbstbehandlung ohne ärztliche Abklärung bei anhaltenden Symptomen.",
+      "en": "Avoid chestnut fruit products in case of known nut or chestnut allergy. Leaf tea in very high doses can inhibit iron absorption due to tannin content. Do not self-treat therapeutically without medical evaluation for persistent symptoms."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Kulinarische Mengen (Früchte) unbedenklich. Therapeutische Dosen Blättertee oder Rindenextrakt in der Schwangerschaft nicht ausreichend untersucht — vorsorglich meiden.",
+        "en": "Culinary amounts (fruits) safe. Therapeutic doses of leaf tea or bark extract in pregnancy not sufficiently studied — avoid as a precaution."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Früchte als Nahrungsmittel unbedenklich. Therapeutischer Einsatz von Blätter- oder Rindenextrakten in der Stillzeit nicht empfohlen.",
+        "en": "Fruits as food are safe. Therapeutic use of leaf or bark extracts during breastfeeding is not recommended."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Früchte ab dem Säuglingsalter als Beikost geeignet. Blättertee für Kinder unter 6 Jahren nicht empfohlen (Tanningehalt).",
+        "en": "Fruits suitable as complementary food from infancy. Leaf tea not recommended for children under 6 years (tannin content)."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegen Kastanien oder Nüsse (Fruchtprodukte)",
+        "en": "Known hypersensitivity to chestnuts or nuts (fruit products)"
+      },
+      {
+        "de": "Gleichzeitige Einnahme von Eisenpräparaten (Abstand von 2 Stunden einhalten wegen Tanningehalt)",
+        "en": "Concurrent intake of iron supplements (maintain a 2-hour gap due to tannin content)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Eisenpräparate / Iron supplements",
+        "mechanism": {
+          "de": "Tannine der Kastanienblätter können Eisen komplexieren und die gastrointestinale Resorption hemmen.",
+          "en": "Tannins from chestnut leaves can complex iron and inhibit gastrointestinal absorption."
+        },
+        "severity": "monitor",
+        "source_id": "src_marrone_2023"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Edelkastanie (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Edelkastanie",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Sweet chestnut (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Sweet_chestnut",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_marrone_2023",
+      "type": "monograph",
+      "title": "Possible Beneficial Effects of Hydrolyzable Tannins Deriving from Castanea sativa L. in Internal Medicine — Marrone et al., Nutrients 2023",
+      "url": "https://doi.org/10.3390/nu16010045",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_castanea",
+      "type": "book",
+      "title": "Plants For A Future — Castanea sativa",
+      "url": "https://pfaf.org/user/plant.aspx?LatinName=Castanea+sativa",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_mfgt_castanea",
+      "type": "book",
+      "title": "Sweet Chestnut Research Notes — Medicinal Forest Garden Trust",
+      "url": "https://medicinalforestgardentrust.org/sweet-chestnut-research-notes/",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_de_kastanie",
+      "type": "wikipedia",
+      "title": "Edelkastanie (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Edelkastanie",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_en_chestnut",
+      "type": "wikipedia",
+      "title": "Sweet chestnut (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Sweet_chestnut",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "castanea-sativa.jpg",
+    "alt": {
+      "de": "Foto von Edelkastanie",
+      "en": "Photo of Sweet chestnut"
+    },
+    "license": "CC BY-SA 2.5",
+    "author": "Darkone (talk · contribs)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Edelkastanie_(Castanea_sativa)_1.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Castalagin",
+      "category": "tannin",
+      "plant_part": "bark",
+      "note": {
+        "de": "Hydrolysierbares Ellagitannin; adstringierend, antidiarrhöisch, antioxidativ.",
+        "en": "Hydrolyzable ellagitannin; astringent, antidiarrhoeal, antioxidant."
+      }
+    },
+    {
+      "name": "Vescalagin",
+      "category": "tannin",
+      "plant_part": "bark",
+      "note": {
+        "de": "Hydrolysierbares Ellagitannin; häufigste Tannin-Komponente der Kastanienrinde; antimikrobiell und antioxidativ.",
+        "en": "Hydrolyzable ellagitannin; most common tannin component of chestnut bark; antimicrobial and antioxidant."
+      }
+    },
+    {
+      "name": "Ellagsäure",
+      "category": "phenolic_acid",
+      "plant_part": "bark",
+      "percent_range": "0.5-2 %",
+      "note": {
+        "de": "Hydrolyseprodukt der Ellagitannine; antioxidativ, antiproliferativ; hohe Konzentration im Holz.",
+        "en": "Hydrolysis product of ellagitannins; antioxidant, antiproliferative; high concentration in the hardwood."
+      }
+    },
+    {
+      "name": "Quercetin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavonoidaglikon in den Blättern; antientzündlich und antioxidativ.",
+        "en": "Flavonoid aglycone in leaves; anti-inflammatory and antioxidant."
+      }
+    },
+    {
+      "name": "Myricetin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavonoidaglikon; zusammen mit Quercetin in Kastanienblättern; stärkere antioxidative Wirkung als Quercetin.",
+        "en": "Flavonoid aglycone; found together with quercetin in chestnut leaves; stronger antioxidant activity than quercetin."
+      }
+    },
+    {
+      "name": "Stärke",
+      "category": "polysaccharide",
+      "plant_part": "fruit",
+      "percent_range": "40-50 %",
+      "note": {
+        "de": "Hauptenergielieferant der Kastanienfrucht; Feuchtegehalt 41–59 %; macht Kastanien zu einem wichtigen Stärkekohlenhydrat-Nahrungsmittel.",
+        "en": "Main energy source of the chestnut fruit; moisture content 41–59 %; makes chestnuts an important starch-carbohydrate food."
+      }
+    },
+    {
+      "name": "Galloylglucosen (Gallotannine)",
+      "category": "tannin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hydrolysierbare Gallotannine in den Blättern; verantwortlich für adstringierende Wirkung bei Durchfall und Halsschmerzen.",
+        "en": "Hydrolyzable gallotannins in leaves; responsible for the astringent effect in diarrhoea and sore throat."
+      }
+    },
+    {
+      "name": "Vitamin B6, Folsäure, Thiamin",
+      "category": "vitamin",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Kastanienfrüchte sind eine relevante pflanzliche Quelle für B-Vitamine — ungewöhnlich unter Nüssen.",
+        "en": "Chestnut fruits are a relevant plant source of B vitamins — unusual among nuts."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Morgens nach dem Abtrocknen des Taus",
+        "en": "Morning after the dew has dried"
+      },
+      "drying": {
+        "de": "Blätter einzeln auf Trockenrosten bei 35–40 °C trocknen bis sie brüchig sind. Nicht übereinanderlegen.",
+        "en": "Dry individual leaves on drying racks at 35–40 °C until crisp. Do not stack."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht, dunkel und trocken lagern, Papier- oder Leinensäcke bevorzugt.",
+        "en": "Store airtight, dark, and dry; paper or linen bags preferred."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Tagsüber nach natürlichem Fall vom Baum",
+        "en": "During the day after natural drop from the tree"
+      },
+      "drying": {
+        "de": "Frisch verzehren oder bei max. 60 °C trocknen und zu Mehl mahlen. Frische Früchte kühl lagern (hoher Feuchtegehalt: 41–59 %).",
+        "en": "Consume fresh or dry at max. 60 °C and grind into flour. Store fresh fruits cool (high moisture content: 41–59 %)."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Frische Maronen im Kühlschrank ca. 2–4 Wochen; tiefgefroren bis 6 Monate.",
+        "en": "Fresh chestnuts in refrigerator approx. 2–4 weeks; frozen up to 6 months."
+      }
+    }
+  ]
+}

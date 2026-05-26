@@ -1,0 +1,673 @@
+{
+  "slug": "salvia-officinalis",
+  "names": {
+    "de": "Echter Salbei",
+    "en": "Salvia officinalis",
+    "latin": "Salvia officinalis"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Der oder die Echte Salbei, auch Garten-Salbei, Küchensalbei oder Heilsalbei genannt, ist eine Pflanzenart aus der Gattung Salbei (Salvia). Diese immergrüne Gewürz- und Heilpflanze stammt aus dem Mittelmeerraum, ist aber mittlerweile in Kultur in ganz Europa verbreitet.",
+    "en": "Salvia officinalis, common sage or sage, is a perennial, evergreen subshrub, with woody stems, grayish leaves, and blue to purplish flowers. It is a member of the mint family (Lamiaceae) and native to the Mediterranean region, though it has been naturalized in many places throughout the world. It has a long history of culinary use, and in modern times it has been used as an ornamental garden plant."
+  },
+  "teaser": {
+    "de": "Der oder die Echte Salbei, auch Garten-Salbei, Küchensalbei oder Heilsalbei genannt, ist eine Pflanzenart aus der Gat...",
+    "en": "Salvia officinalis, common sage or sage, is a perennial, evergreen subshrub, with woody stems, grayish leaves, and bl..."
+  },
+  "uses": [
+    {
+      "form": "gargle",
+      "target": [
+        "throat",
+        "mouth"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "ema_well_established",
+      "description": {
+        "de": "Hauptindikation gemäss EMA HMPC und Kommission E: Gurgeln und Mundspülen mit Salbeiblätter-Aufguss bei Entzündungen der Mund- und Rachenschleimhaut (Stomatitis, Gingivitis, Pharyngitis, Aphthen). Die Gerbstoffe wirken adstringierend, das ätherische Öl antimikrobiell und schwach lokalanästhetisch.",
+        "en": "Main indication per EMA HMPC and German Commission E: gargling and mouth-rinsing with sage leaf infusion for inflammations of the mouth and throat mucosa (stomatitis, gingivitis, pharyngitis, aphthae). Tannins act astringent, the essential oil antimicrobial and mildly local-anaesthetic."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 3
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 4,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "1-3 g fein geschnittene Salbeiblätter mit 150 ml siedendem Wasser übergiessen, zugedeckt 10 Minuten ziehen lassen, abseihen und auf Körpertemperatur abkühlen. Mehrmals täglich (3-4 mal) damit gurgeln und den Mund spülen; nicht herunterschlucken bei intensiver Anwendung über mehrere Tage.",
+          "en": "Pour 150 ml boiling water over 1-3 g finely cut sage leaves, cover and infuse for 10 minutes, strain and cool to body temperature. Gargle and rinse mouth several times a day (3-4 times); do not swallow when used intensively over several days."
+        }
+      },
+      "source_ids": [
+        "src_ema_salviae_folium",
+        "src_kommission_e_salbei",
+        "src_escop_salbei"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "ema_well_established",
+      "description": {
+        "de": "EMA HMPC und Kommission E: Salbeitee zur traditionellen Anwendung bei leichten dyspeptischen Beschwerden wie Völlegefühl, Sodbrennen und Blähungen. Die ätherischen Öle und Bitterstoffe wirken karminativ, spasmolytisch und choleretisch.",
+        "en": "EMA HMPC and Commission E: sage tea as traditional use for mild dyspeptic complaints such as bloating, heartburn and flatulence. Essential oils and bitter principles act carminative, spasmolytic and choleretic."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 3
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "1-3 g fein geschnittene Salbeiblätter mit 150 ml siedendem Wasser übergiessen, zugedeckt 10 Minuten ziehen lassen, abseihen. 2-3 mal täglich eine Tasse zwischen den Mahlzeiten trinken. Maximal 4-6 Wochen kontinuierlich anwenden — Thujon-Akkumulation vermeiden.",
+          "en": "Pour 150 ml boiling water over 1-3 g finely cut sage leaves, cover and infuse for 10 minutes, then strain. Drink one cup 2-3 times daily between meals. Use continuously for a maximum of 4-6 weeks — avoid thujone accumulation."
+        }
+      },
+      "source_ids": [
+        "src_ema_salviae_folium",
+        "src_kommission_e_salbei"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "ema_well_established",
+      "description": {
+        "de": "EMA HMPC: traditionell-etablierte Anwendung als Antihidrotikum bei übermässigem Schwitzen, insbesondere bei Hyperhidrose und Wechseljahresbeschwerden (Hitzewallungen, nächtliche Schweissausbrüche). Wirkungsbeginn meist nach 1-2 Stunden, Wirkungsdauer mehrere Stunden.",
+        "en": "EMA HMPC: well-established traditional use as antihidrotic for excessive perspiration, particularly hyperhidrosis and menopausal symptoms (hot flushes, night sweats). Onset of action usually 1-2 hours, duration several hours."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 3
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 6,
+        "instructions": {
+          "de": "1-3 g getrocknete Salbeiblätter mit 150 ml siedendem Wasser übergiessen, 10 Minuten ziehen lassen, kalt trinken (kalt zubereitet wirkt stärker schweisshemmend als heisser Tee). Eine Tasse abends vor dem Schlafengehen bei nächtlichem Schwitzen; bei Hyperhidrose 2 mal täglich.",
+          "en": "Pour 150 ml boiling water over 1-3 g dried sage leaves, infuse for 10 minutes, drink cold (cold preparation suppresses sweating more strongly than hot tea). One cup in the evening before bed for night sweats; for hyperhidrosis twice daily."
+        }
+      },
+      "source_ids": [
+        "src_ema_salviae_folium",
+        "src_escop_salbei",
+        "src_madaus_salbei"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Traditionelle ethanolische Tinktur bei dyspeptischen Beschwerden und übermässigem Schwitzen. Konzentriertere Form als Tee, gut transportabel — Vorsicht wegen Thujon-Gehalt (alkoholische Auszüge enthalten mehr Thujon als wässrige).",
+        "en": "Traditional ethanolic tincture for dyspeptic complaints and excessive sweating. More concentrated than tea, easy to transport — caution due to thujone content (ethanolic extracts contain more thujone than aqueous ones)."
+      },
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 3
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Tinktur 1:5 in 70 % Ethanol aus getrockneten Salbeiblättern. Übliche Tagesdosis: 1-3 ml (etwa 20-60 Tropfen) in etwas Wasser, 2-3 mal täglich vor den Mahlzeiten. Nicht über 4 Wochen kontinuierlich anwenden.",
+          "en": "1:5 tincture in 70 % ethanol from dried sage leaves. Usual daily dose: 1-3 ml (about 20-60 drops) in a little water, 2-3 times daily before meals. Do not use continuously for more than 4 weeks."
+        }
+      },
+      "source_ids": [
+        "src_escop_salbei",
+        "src_madaus_salbei"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Traditionelle volksmedizinische Anwendung als adstringierender und antimikrobieller Umschlag bei schlecht heilenden Wunden, leichten Hautentzündungen, Insektenstichen und nässenden Ekzemen. Die Gerbstoffe wirken zusammenziehend, das ätherische Öl bakterizid.",
+        "en": "Traditional folk-medicinal use as astringent and antimicrobial compress for poorly healing wounds, mild skin inflammations, insect bites and weeping eczema. Tannins act astringent, the essential oil bactericidal."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "3-5 g getrocknete Salbeiblätter mit 250 ml siedendem Wasser übergiessen, 15 Minuten ziehen lassen, abseihen. Ein sauberes Tuch im warmen Aufguss tränken, leicht auswringen und 15-20 Minuten auf die betroffene Hautstelle legen. 1-2 mal täglich.",
+          "en": "Pour 250 ml boiling water over 3-5 g dried sage leaves, infuse for 15 minutes, strain. Soak a clean cloth in the warm infusion, wring lightly and apply to the affected skin area for 15-20 minutes. Once or twice daily."
+        }
+      },
+      "source_ids": [
+        "src_madaus_salbei",
+        "src_kommission_e_salbei",
+        "src_heilkraeuter_salbei"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Traditionelle Anwendung als Dampfinhalation bei Erkältung, Bronchitis und Katarrhen der oberen Atemwege. Das ätherische Öl mit Cineol und Campher wirkt schleimhautaktiv, schleimlösend und antimikrobiell.",
+        "en": "Traditional use as steam inhalation for the common cold, bronchitis and catarrhs of the upper respiratory tract. The essential oil with cineole and camphor is mucous-membrane active, expectorant and antimicrobial."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 500,
+        "steep_min": 1,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "1-2 Teelöffel getrocknete Salbeiblätter (oder 2-3 Tropfen Salbeiöl) in eine Schüssel mit 500 ml heissem (nicht kochendem) Wasser geben, Kopf mit Tuch bedecken, Augen schliessen und 5-10 Minuten Dampf inhalieren. Nicht bei Asthma, Pertussis oder Kleinkindern unter 4 Jahren.",
+          "en": "Add 1-2 teaspoons dried sage leaves (or 2-3 drops sage oil) to a bowl with 500 ml hot (not boiling) water, cover head with a towel, close eyes and inhale steam for 5-10 minutes. Do not use in asthma, pertussis or children under 4 years."
+        }
+      },
+      "age_restriction": {
+        "min_age": 4,
+        "note": {
+          "de": "Salbei-Inhalation nicht bei Kindern unter 4 Jahren wegen Thujon-, Cineol- und Camphergehalt — Risiko eines Laryngospasmus bei Anwendung im Gesichtsbereich.",
+          "en": "Sage inhalation must not be used in children under 4 years due to thujone, cineole and camphor content — risk of laryngospasm with application near the face."
+        }
+      },
+      "source_ids": [
+        "src_ema_salviae_aetheroleum",
+        "src_heilkraeuter_salbei"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Klassisches mediterranes Küchengewürz für fette Speisen, Geflügel, Schweinefleisch, Saltimbocca und Bohnengerichte. Die ätherischen Öle wirken appetit- und verdauungsanregend und reduzieren das Aufstossen fetter Mahlzeiten. Küchenmengen sind ohne Thujon-Bedenken.",
+        "en": "Classical Mediterranean culinary herb for fatty foods, poultry, pork, saltimbocca and bean dishes. Essential oils stimulate appetite and digestion and reduce belching after fatty meals. Culinary amounts pose no thujone concern."
+      },
+      "preparation": {
+        "de": "Frische oder getrocknete Salbeiblätter fein hacken und während der Garzeit zu Fleisch, Pasta-Saucen oder Hülsenfrüchten geben. Übliche Würzmenge: 2-4 frische Blätter oder 1/2 TL getrocknet pro Gericht für 4 Personen. Sparsam dosieren — intensives Aroma.",
+        "en": "Finely chop fresh or dried sage leaves and add during cooking to meat, pasta sauces or pulses. Usual seasoning: 2-4 fresh leaves or 1/2 tsp dried per dish for 4 persons. Dose sparingly — intense aroma."
+      },
+      "source_ids": [
+        "src_pfaf_salbei",
+        "src_heilkraeuter_salbei"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Blätter (vor der Blüte)",
+      "en": "leaves (before flowering)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Therapeutische Salbei-Zubereitungen (Tee, Tinktur, ätherisches Öl) in der Schwangerschaft kontraindiziert — Thujon wirkt uteruskontrahierend und potenziell fruchtschädigend. In der Stillzeit kann Salbei die Milchbildung hemmen (antigalaktagog — gezielt zum Abstillen genutzt). Maximale kontinuierliche Anwendung 4-6 Wochen wegen Thujon-Akkumulation (krampferregend, lebertoxisch). Reines Salbei-Ätherisches-Öl niemals innerlich einnehmen — Toxizität. Bei Epilepsie meiden.",
+      "en": "Therapeutic sage preparations (tea, tincture, essential oil) are contraindicated in pregnancy — thujone is uterine-contracting and potentially fetotoxic. During breastfeeding sage may suppress milk production (antigalactagogue — used deliberately for weaning). Maximum continuous use 4-6 weeks due to thujone accumulation (convulsive, hepatotoxic). Pure sage essential oil must never be taken internally — toxicity. Avoid in epilepsy."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Küchenmengen als Gewürz sind unbedenklich. Therapeutische Dosen (Tee, Tinktur, ätherisches Öl) während der gesamten Schwangerschaft meiden — Thujon-Gehalt wirkt uteruskontrahierend und potenziell fruchtschädigend; klassisch als Emmenagogum eingesetzt.",
+        "en": "Culinary amounts as a spice are safe. Avoid therapeutic doses (tea, tincture, essential oil) throughout pregnancy — thujone content is uterine-contracting and potentially fetotoxic; classically used as an emmenagogue."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Salbei hemmt die Milchbildung (antigalaktagog) — gezielt eingesetzt zum Abstillen, daher in der laufenden Stillzeit meiden. Küchenmengen sind unbedenklich. Bei gewünschtem Abstillen Salbeitee unter Beratung einsetzen.",
+        "en": "Sage suppresses milk production (antigalactagogue) — used deliberately for weaning, therefore avoid during ongoing breastfeeding. Culinary amounts are safe. Use sage tea for intended weaning under guidance."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Ätherisches Salbeiöl wegen Thujon-, Cineol- und Camphergehalt nicht bei Kindern unter 4 Jahren im Gesichtsbereich (Laryngospasmus-Risiko) und nicht innerlich. Mundspülungen mit verdünntem Tee ab Schulalter unter Aufsicht (nicht schlucken). Salbei-Küchengewürz unbedenklich.",
+        "en": "Sage essential oil must not be applied near the face in children under 4 years (risk of laryngospasm) and never internally due to thujone, cineole and camphor content. Mouth rinses with diluted tea from school age under supervision (do not swallow). Sage as culinary spice is safe."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antikonvulsiva / Antiepileptika",
+        "mechanism": {
+          "de": "Thujon wirkt als nicht-kompetitiver GABA-A-Rezeptor-Antagonist und kann die Krampfschwelle senken. Bei Epilepsie und gleichzeitiger antikonvulsiver Therapie sind hochdosierte oder lang angewandte Salbeizubereitungen sowie Salbei-Ätherisches-Öl zu meiden.",
+          "en": "Thujone acts as non-competitive GABA-A receptor antagonist and may lower the seizure threshold. In epilepsy and concomitant antiepileptic therapy, high-dose or long-term sage preparations as well as sage essential oil should be avoided."
+        },
+        "severity": "avoid",
+        "source_id": "src_ema_salviae_aetheroleum"
+      },
+      {
+        "drug_class": "GABAerge Sedativa / Benzodiazepine / Alkohol",
+        "mechanism": {
+          "de": "Thujon interagiert mit GABA-A-Rezeptoren und kann die Wirkung GABAerger Sedativa sowie die zentralnervöse Wirkung von Alkohol modulieren. Gleichzeitige Anwendung therapeutischer Salbei-Dosen mit Alkohol oder Benzodiazepinen meiden.",
+          "en": "Thujone interacts with GABA-A receptors and may modulate the effect of GABAergic sedatives and the central nervous action of alcohol. Avoid concomitant use of therapeutic sage doses with alcohol or benzodiazepines."
+        },
+        "severity": "caution",
+        "source_id": "src_ema_salviae_folium"
+      },
+      {
+        "drug_class": "Antidiabetika",
+        "mechanism": {
+          "de": "Salbeiextrakte können den Nüchternblutzucker leicht senken (klinische Daten bei Typ-2-Diabetes vorhanden). Bei gleichzeitiger Einnahme blutzuckersenkender Medikamente Werte engmaschig kontrollieren — Risiko einer Hypoglykämie.",
+          "en": "Sage extracts may slightly lower fasting blood glucose (clinical data in type 2 diabetes available). Monitor blood-glucose values closely when taken alongside antidiabetic medication — risk of hypoglycaemia."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_salbei"
+      },
+      {
+        "drug_class": "Antihypertensiva",
+        "mechanism": {
+          "de": "Salbeizubereitungen können den Blutdruck leicht beeinflussen; bei gleichzeitiger antihypertensiver Therapie auf Blutdruckwerte achten, insbesondere bei langfristiger Einnahme höherer Dosen.",
+          "en": "Sage preparations may slightly affect blood pressure; monitor blood pressure during concomitant antihypertensive therapy, particularly with long-term higher doses."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_salbei"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Salbei oder anderen Lamiaceen.",
+        "en": "Known hypersensitivity to sage or other Lamiaceae."
+      },
+      {
+        "de": "Schwangerschaft (therapeutische Dosen) — Thujon wirkt uteruskontrahierend und potenziell fruchtschädigend.",
+        "en": "Pregnancy (therapeutic doses) — thujone is uterine-contracting and potentially fetotoxic."
+      },
+      {
+        "de": "Epilepsie und andere Krampfleiden — Thujon kann die Krampfschwelle senken.",
+        "en": "Epilepsy and other seizure disorders — thujone may lower the seizure threshold."
+      },
+      {
+        "de": "Innerliche Anwendung des unverdünnten ätherischen Salbeiöls — Risiko schwerer Vergiftungen (Krämpfe, Leberschädigung).",
+        "en": "Internal use of undiluted sage essential oil — risk of severe poisoning (convulsions, liver damage)."
+      },
+      {
+        "de": "Aktive Stillzeit mit Stillwunsch — Salbei hemmt die Milchbildung.",
+        "en": "Active breastfeeding when continued lactation is desired — sage suppresses milk production."
+      }
+    ],
+    "max_continuous_use_weeks": 6
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echter Salbei (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Salbei",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Salvia officinalis (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Salvia_officinalis",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_salvia_folium",
+      "type": "monograph",
+      "title": "EMA/HMPC/277152/2015 — Salvia officinalis folium (Final, 20 Sep 2016)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/salviae-officinalis-folium",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_salviae_folium",
+      "type": "monograph",
+      "title": "EMA HMPC — European Union herbal monograph on Salvia officinalis L., folium",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/salviae-officinalis-folium",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_ema_salviae_aetheroleum",
+      "type": "monograph",
+      "title": "EMA HMPC — European Union herbal monograph on Salvia officinalis L., aetheroleum",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/salviae-aetheroleum",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_kommission_e_salbei",
+      "type": "monograph",
+      "title": "Kommission E — Salviae folium (Bundesanzeiger Nr. 90, 15.05.1985, positive Monographie)",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/0090.htm",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_escop_salbei",
+      "type": "monograph",
+      "title": "ESCOP Monograph — Salviae officinalis folium",
+      "url": "https://escop.com/downloads/sage-leaf/",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_madaus_salbei",
+      "type": "book",
+      "title": "Madaus, Gerhard: Lehrbuch der biologischen Heilmittel, Bd. III — Salvia officinalis (1938, PD)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/salvia.html",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_pfaf_salbei",
+      "type": "monograph",
+      "title": "Plants For A Future — Salvia officinalis",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Salvia+officinalis",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_heilkraeuter_salbei",
+      "type": "monograph",
+      "title": "Heilkräuter-Lexikon — Salbei",
+      "url": "https://heilkraeuter.de/lexikon/salbei.htm",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wikipedia_salbei_de",
+      "type": "wikipedia",
+      "title": "Wikipedia DE — Echter Salbei (Salvia officinalis)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Salbei",
+      "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_wikidata_salbei",
+      "type": "wikidata",
+      "title": "Wikidata — Salvia officinalis (Q40545)",
+      "url": "https://www.wikidata.org/wiki/Q40545",
+      "accessed": "2026-05-19"
+    }
+  ],
+  "image": {
+    "filename": "salvia-officinalis.jpg",
+    "alt": {
+      "de": "Foto von Echter Salbei",
+      "en": "Photo of Salvia officinalis"
+    },
+    "license": "Public domain",
+    "author": "Walther Otto Müller",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Salvia_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-126.jpg"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "edible",
+      "medicinal"
+    ],
+    "rooms": [
+      "kitchen",
+      "balcony"
+    ],
+    "light": "direct_sun",
+    "water_frequency": "weekly",
+    "difficulty": 1,
+    "pet_safe": true,
+    "soil": {
+      "de": "Sandig mit Drainage",
+      "en": "Sandy with drainage"
+    },
+    "pot_size_cm": 20,
+    "tips": {
+      "de": [
+        "Sehr robust — verträgt Trockenheit, Hitze, magere Erde.",
+        "Pralle Sonne perfekt — sonst werden Blätter weich.",
+        "Alle 3-4 Jahre erneuern, alte Pflanzen werden holzig."
+      ],
+      "en": [
+        "Very robust — tolerates drought, heat, poor soil.",
+        "Full sun perfect — otherwise leaves go soft.",
+        "Replace every 3-4 years, old plants get woody."
+      ]
+    }
+  },
+  "companion_planting": {
+    "good_partners": [
+      "daucus-carota-sativus",
+      "lavandula-angustifolia",
+      "matricaria-chamomilla",
+      "origanum-vulgare",
+      "rosmarinus-officinalis",
+      "thymus-vulgaris"
+    ],
+    "bad_partners": [
+      "allium-sativum",
+      "ocimum-basilicum"
+    ],
+    "neutral": [
+      "laurus-nobilis"
+    ],
+    "reasons": {
+      "ocimum-basilicum": {
+        "de": "Salbei hemmt Basilikum durch ätherische Öle.",
+        "en": "Sage essential oils inhibit basil."
+      },
+      "rosmarinus-officinalis": {
+        "de": "Mediterrane Trocken-Allianz — gleiche Bedürfnisse.",
+        "en": "Mediterranean dry alliance — same needs."
+      },
+      "thymus-vulgaris": {
+        "de": "Beide aromatisch und trockenheits-tolerant — Kräuter-Spirale-Klassiker.",
+        "en": "Both aromatic and drought-tolerant — herb-spiral classic."
+      }
+    },
+    "notes_de": "ocimum-basilicum: Salbei hemmt Basilikum durch ätherische Öle. allium-sativum: Salbei und Lauchgewächse stören sich gegenseitig.",
+    "notes_en": "ocimum-basilicum: Sage essential oils inhibit basil. allium-sativum: Sage and alliums inhibit each other.",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 1,
+      "end_month": 12
+    },
+    "days_to_harvest": 240,
+    "spacing_cm": 40,
+    "garden_type": [
+      "balcony",
+      "raised_bed",
+      "greenhouse"
+    ],
+    "difficulty": 2
+  },
+  "permaculture_functions": [
+    "aromatic_repellent",
+    "pollinator_attractor",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (alpha-Thujon, beta-Thujon, 1,8-Cineol, Campher, Borneol, alpha-Pinen)",
+      "category": "essential_oil",
+      "percent_range": "1.0-2.8 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptwirkstoff mit hohem Thujon-Anteil (alpha + beta Thujon zusammen 35-60 %) — verantwortlich für die antihidrotische und spasmolytische Wirkung, aber auch für die Toxizität bei Überdosierung (krampferregend, lebertoxisch). Die Thujon-Höchstwerte begrenzen Daueranwendung auf maximal 4-6 Wochen.",
+        "en": "Main active principle with high thujone content (alpha + beta thujone combined 35-60 %) — responsible for the antihidrotic and spasmolytic action but also for toxicity in overdose (convulsive, hepatotoxic). Thujone limits restrict continuous use to maximum 4-6 weeks."
+      }
+    },
+    {
+      "name": "Rosmarinsäure",
+      "category": "phenolic_acid",
+      "percent_range": "2-3 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Leitsubstanz der Lamiaceae; ausgeprägt antioxidativ, entzündungshemmend und antiviral. Wasserlöslich, daher gut im wässrigen Aufguss extrahierbar.",
+        "en": "Leading marker substance of Lamiaceae; strongly antioxidant, anti-inflammatory and antiviral. Water-soluble, therefore well extracted in aqueous infusion."
+      }
+    },
+    {
+      "name": "Salvianolsäuren (Salvianolsäure A-K)",
+      "category": "phenolic_acid",
+      "percent_range": "0.5-2 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Komplexe Phenolcarbonsäuren-Familie mit Rosmarinsäure-Grundstruktur; antioxidativ, neuroprotektiv und antiinflammatorisch wirksam. Werden zunehmend pharmakologisch untersucht.",
+        "en": "Complex family of phenolic acids built on the rosmarinic acid backbone; antioxidant, neuroprotective and anti-inflammatory. Increasingly investigated pharmacologically."
+      }
+    },
+    {
+      "name": "Carnosol und Carnosolsäure",
+      "category": "other",
+      "percent_range": "1-4 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Phenolische Diterpene mit ausgeprägt antioxidativer und antiinflammatorischer Wirkung; teilen sich mit Rosmarin diese Leitsubstanzen. Tragen zur konservierenden Wirkung von Salbei-Lebensmittelextrakten bei.",
+        "en": "Phenolic diterpenes with marked antioxidant and anti-inflammatory effect; shared as marker substances with rosemary. Contribute to the preservative effect of sage food extracts."
+      }
+    },
+    {
+      "name": "Flavonoide (Apigenin, Luteolin, Cirsiliol, 6-Methoxyluteolin)",
+      "category": "flavonoid",
+      "percent_range": "1-3 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Methylierte und glykosidierte Flavone mit antioxidativen, leicht spasmolytischen und entzündungshemmenden Eigenschaften. Cirsiliol ist eine charakteristische Salbei-Komponente.",
+        "en": "Methylated and glycosylated flavones with antioxidant, mildly spasmolytic and anti-inflammatory properties. Cirsiliol is a characteristic sage component."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Salviatannin, Lamiaceen-Gerbstoffe)",
+      "category": "tannin",
+      "percent_range": "3-8 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Adstringierende Gerbstoffe der Lamiaceen-Gruppe — Grundlage der lokal entzündungshemmenden Wirkung bei Mundspülung und Hautkompressen. Wirken zusammenziehend auf Schleimhäute und reduzieren Sekretbildung.",
+        "en": "Astringent tannins of the Lamiaceae group — basis of the local anti-inflammatory action in mouth rinses and skin compresses. Tighten mucous membranes and reduce secretion."
+      }
+    },
+    {
+      "name": "Triterpensäuren (Ursolsäure, Oleanolsäure)",
+      "category": "other",
+      "percent_range": "1-4 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Pentazyklische Triterpene mit antiinflammatorischer, hepatoprotektiver und mild antimikrobieller Wirkung; tragen zur Wirkung externer Zubereitungen (Kompressen, Mundspülungen) bei.",
+        "en": "Pentacyclic triterpenes with anti-inflammatory, hepatoprotective and mildly antimicrobial effect; contribute to the action of external preparations (compresses, mouth rinses)."
+      }
+    },
+    {
+      "name": "Bitterstoffe (diterpenoide Bitterstoffe, Picrosalvin)",
+      "category": "bitter",
+      "percent_range": "Spurenanteile bis 0.5 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Bittere Diterpene tragen zur appetit- und gallenflussanregenden Wirkung bei (Amarum aromaticum) und erklären den traditionellen Einsatz bei dyspeptischen Beschwerden.",
+        "en": "Bitter diterpenes contribute to appetite- and bile-flow-stimulating activity (aromatic bitter) and explain traditional use in dyspeptic complaints."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Am späten Vormittag bei trockenem, sonnigem Wetter, wenn der Tau abgetrocknet ist — dann ist der Gehalt an ätherischem Öl am höchsten. Höchster Ölgehalt kurz vor und während der Blüte (Juni/Juli).",
+        "en": "Late morning in dry, sunny weather once the dew has evaporated — essential-oil content is then highest. Peak oil content just before and during flowering (June/July)."
+      },
+      "drying": {
+        "de": "Zweige in kleinen, lockeren Bündeln kopfüber an einem warmen, luftigen, schattigen Ort trocknen (max. 35 °C, nicht in der Sonne — Aromaverlust). Nach 1-2 Wochen Blätter vom Stiel streifen.",
+        "en": "Dry sprigs in small, loose bundles upside down in a warm, airy, shaded place (max 35 °C, not in sun — aroma loss). Strip leaves from stems after 1-2 weeks."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In dunklen, fest schliessenden Glas- oder Blechgefässen kühl und trocken aufbewahren. Ganze Blätter länger haltbar als geschnittene Ware — ätherisches Öl verflüchtigt sich bei Licht, Luft und Feuchte.",
+        "en": "Store in dark, tightly closed glass or tin containers, cool and dry. Whole leaves keep longer than cut material — essential oil evaporates with light, air and humidity."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Während der Blütezeit (Mai bis Juli) bei sonnigem Wetter am späten Vormittag — Blüten und junge belaubte Triebe gemeinsam schneiden. Blühendes Kraut wird vor allem für Tinkturen und Inhalationen verwendet.",
+        "en": "During flowering (May to July) on sunny mornings late in the morning — cut flowers and young leafy shoots together. Flowering herb is mainly used for tinctures and inhalations."
+      },
+      "drying": {
+        "de": "Blühende Zweige locker auslegen oder in lockeren Bündeln aufhängen, schattig und luftig bei max. 35 °C trocknen. Vorsicht: Blüten zerfallen leichter als Blätter.",
+        "en": "Lay flowering sprigs loosely or hang in loose bundles, dry shaded and airy at max 35 °C. Caution: flowers break apart more easily than leaves."
+      },
+      "storage_months": 9,
+      "storage_condition": {
+        "de": "Getrennt von reinen Blattchargen lagern — Blütenanteile sind aromaärmer und sollten innerhalb von 9 Monaten verbraucht werden.",
+        "en": "Store separately from pure leaf batches — flowering material is less aromatic and should be used within 9 months."
+      }
+    }
+  ]
+}

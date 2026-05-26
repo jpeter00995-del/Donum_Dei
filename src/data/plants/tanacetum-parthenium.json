@@ -1,0 +1,634 @@
+{
+  "slug": "tanacetum-parthenium",
+  "names": {
+    "de": "Mutterkraut",
+    "en": "Tanacetum parthenium",
+    "latin": "Tanacetum parthenium"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Mutterkraut ist eine Pflanzenart aus der Gattung Tanacetum innerhalb der Familie der Korbblütler (Asteraceae). Andere Trivialnamen sind Falsche Kamille, Zierkamille und Fieberkraut.",
+    "en": "Tanacetum parthenium, known as feverfew, is a flowering plant in the daisy family, Asteraceae. It may be grown as an ornament, and may be identified by its synonyms, Chrysanthemum parthenium and Pyrethrum parthenium. Having its origin in the Balkans region, it is now distributed worldwide."
+  },
+  "teaser": {
+    "de": "Mutterkraut ist eine Pflanzenart aus der Gattung Tanacetum innerhalb der Familie der Korbblütler (Asteraceae).",
+    "en": "Tanacetum parthenium, known as feverfew, is a flowering plant in the daisy family, Asteraceae."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "headache",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 1,
+        "max_duration_weeks": 16,
+        "instructions": {
+          "de": "FRISCHE BLÄTTER (Traditionelle Langzeit-Prophylaxe): 1–2 frische Mutterkrautblätter täglich, entweder direkt (in einem Sandwich oder zusammen mit Brot, Quark o. ä.) eingenommen oder als Belag — NICHT pur kauen, da frische Blätter Parthenolid-Mundschleimhaut-Irritationen verursachen können (Aphten, Schwellungen). Traditionelle Anwendung zur Vorbeugung von Migräne — bewährt in britischer Volksheilkunde seit dem 18. Jahrhundert, beschrieben im British Herbal Pharmacopoeia. Regelmäßige tägliche Einnahme über mindestens 4–6 Wochen bis zur Wirkbeurteilung; klinische Studien bestätigen moderate Wirkung (Cochrane 2004: bescheidene Evidenz für Migräheprophylaxe). Bei Abbruch nach längerer Einnahme NICHT abrupt stoppen — schrittweise ausschleichen (s. Warnhinweise 'Post-Feverfew-Syndrom').",
+          "en": "FRESH LEAVES (traditional long-term prophylaxis): 1–2 fresh feverfew leaves daily, consumed with bread, cottage cheese, or in a sandwich — do NOT chew plain, as fresh leaves contain high parthenolide that can irritate oral mucosa (mouth ulcers, swelling). Traditional use for migraine prophylaxis, well established in British folk medicine since the 18th century, recorded in the British Herbal Pharmacopoeia. Take daily for at least 4–6 weeks before assessing effect; clinical data show moderate benefit (Cochrane 2004: modest evidence for migraine prevention). After prolonged use, do NOT stop abruptly — taper gradually (see warnings: 'post-feverfew syndrome')."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur für Erwachsene — keine ausreichenden Daten für Kinder.",
+          "en": "Adults only — insufficient data for children."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Einnahme frischer Blätter zur Migräne-Prophylaxe — tägliche Gabe als Langzeitanwendung, typisch englische Volksmedizin; nicht zur Akuttherapie.",
+        "en": "Traditional daily intake of fresh leaves for migraine prophylaxis — long-term use, rooted in English folk medicine; not for acute attack treatment."
+      },
+      "source_ids": [
+        "src_ema_tanacetum",
+        "src_cochrane_feverfew_2004",
+        "src_escop_tanacetum",
+        "src_wichtl_tanacetum"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "headache",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 16,
+        "instructions": {
+          "de": "TINKTUR (DAB-Qualität, DEV 1:5 in 25–45 % Ethanol): 1–2 ml (~20–40 Tropfen) 3× täglich, jeweils mit Wasser verdünnt, bevorzugt zu den Mahlzeiten einnehmen. Wirkstoffgehalt: mindestens 0,2 % Parthenolid auf Trockenblatt bezogen. Tinktur-Formulierungen vermeiden das direkte Kauen roher Blätter und reduzieren das Mundschleimhaut-Reizrisiko erheblich. Langzeitanwendung (Migräne-Prophylaxe) — Wirkung erst nach 4–6 Wochen regelmäßiger Einnahme beurteilbar. EMA-Traditional-Use-Monographie (2016) bestätigt traditionelle Anwendung für diese Form. Nicht abrupt absetzen nach mehr als 8 Wochen Einnahme.",
+          "en": "TINCTURE (pharmacopoeia quality, DER 1:5 in 25–45 % ethanol): 1–2 ml (~20–40 drops) 3× daily, diluted in water, preferably with meals. Parthenolide content: minimum 0.2 % relative to dried leaf. Tincture formulations avoid direct chewing of raw leaves and markedly reduce oral mucosa irritation risk. Long-term use (migraine prophylaxis) — effect not assessable before 4–6 weeks of regular intake. EMA Traditional Use Monograph (2016) covers this form. Do not stop abruptly after more than 8 weeks of use."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur für Erwachsene. Wegen Ethanolgehalt nicht bei Alkoholerkrankung, Lebererkrankung oder Epilepsie.",
+          "en": "Adults only. Due to ethanol content, not suitable for alcohol dependence, liver disease, or epilepsy."
+        }
+      },
+      "description": {
+        "de": "Mutterkraut-Tinktur zur traditionellen Migräne-Prophylaxe (EMA Traditional Use) — magenfreundlichere Alternative zur frischen Blatt-Einnahme.",
+        "en": "Feverfew tincture for traditional migraine prophylaxis (EMA Traditional Use) — gentler alternative to fresh leaf consumption."
+      },
+      "source_ids": [
+        "src_ema_tanacetum",
+        "src_escop_tanacetum",
+        "src_wichtl_tanacetum"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "headache",
+        "fever",
+        "menstrual"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "AUFGUSS: 1–2 TL (~1–2 g) getrocknetes Mutterkrautkraut (blühendes Kraut, Droge nach DAB) mit 250 ml kurz aufgekochtem Wasser (nicht sprudelnd kochend) übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen. Bis zu 2 Tassen täglich, bevorzugt zu den Mahlzeiten (leicht bitter — Honig oder Pfefferminz als Ergänzung möglich). Volksheilkundliche Anwendung bei Fieber, Kopfschmerzen und zur Förderung der Regelblutung (emmenagoge Wirkung — daher Schwangerschaft KONTRAINDIZIERT). Der Name 'Fieberkraut' verweist auf eine traditionell breit genutzte fiebersenkendeWirkung (historisch vor Aspirin-Zeitalter). Keine klinischen Belege für diese spezifischen Indikationen außerhalb der Migräne-Prophylaxe.",
+          "en": "INFUSION: 1–2 tsp (~1–2 g) dried feverfew herb (flowering aerial parts, pharmacopoeia grade) with 250 ml just-boiled water, covered, steep 10 min, strain. Up to 2 cups daily, preferably with meals (noticeably bitter — honey or peppermint may be added). Folk use for fever, headache, and promoting menstruation (emmenagogue effect — CONTRAINDICATED in pregnancy). The common name 'feverfew' reflects centuries of traditional use as a febrifuge, pre-dating the aspirin era. No clinical evidence for these specific indications beyond migraine prophylaxis."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Aufguss bei Fieber und Kopfschmerzen sowie zur Regelförderung — historisch weit verbreitet, heute wissenschaftlich nur für Migräne-Prophylaxe belegt.",
+        "en": "Folk infusion for fever and headache and to promote menstruation — historically widespread, today scientifically supported only for migraine prophylaxis."
+      },
+      "source_ids": [
+        "src_pfaf_tanacetum",
+        "src_wp_de_mutterkraut",
+        "src_madaus_1938_tanacetum"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "joints",
+        "fever"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 3
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 6,
+        "instructions": {
+          "de": "TINKTUR bei Rheuma/Arthritis (volksheilkundlich): 1–3 ml Tinktur (DEV 1:5 in 40–50 % Ethanol) 3× täglich mit etwas Wasser verdünnt. Traditionelle Verwendung in der britischen Kräutermedizin als entzündungshemmendes Mittel bei rheumatischen Beschwerden und Arthritis — erwähnt u. a. im Culpeper 'Complete Herbal' (1653) und im British Herbal Pharmacopoeia. Klinische Belege fehlen für diese Indikation; Parthenolid hemmt in vitro NF-κB-Signalweg und Prostaglandinsynthese, jedoch keine kontrollierten Humanstudien zu Arthritis. Ergänzende Maßnahme, kein Ersatz für ärztliche Behandlung bei entzündlichen Gelenkerkrankungen.",
+          "en": "TINCTURE for rheumatism/arthritis (folk use): 1–3 ml tincture (DER 1:5 in 40–50 % ethanol) 3× daily, diluted in water. Traditional use in British herbal medicine as an anti-inflammatory for rheumatic complaints and arthritis, mentioned in Culpeper's 'Complete Herbal' (1653) and the British Herbal Pharmacopoeia. No clinical evidence for this indication; parthenolide inhibits NF-κB pathway and prostaglandin synthesis in vitro but no controlled human trials exist for arthritis. Adjunctive measure only, not a substitute for medical treatment of inflammatory joint disease."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Tinktur bei rheumatischen Beschwerden — Culpeper und britische Kräutertradition; Wirksamkeit klinisch nicht belegt.",
+        "en": "Folk tincture for rheumatic complaints — Culpeper and British herbal tradition; efficacy not clinically established."
+      },
+      "source_ids": [
+        "src_pfaf_tanacetum",
+        "src_culpeper_1653",
+        "src_wp_en_feverfew"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "menstrual",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 1.5
+        },
+        "water_ml": 200,
+        "steep_min": 8,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "BLÜTENAUFGUSS (menstruationsfördernd, verdauungsfördernd): 1–1,5 TL getrocknete Mutterkrautblüten mit 200 ml heißem Wasser (ca. 90 °C) übergießen, 8 Minuten zugedeckt ziehen lassen, abseihen. 2× täglich. Volkstümliche Anwendung als Bitterstoff-Tonikum zur Verdauungsförderung (Bitterstoffe, bes. Parthenolid und Sesquiterpenlactone, regen Gallensekretion an) sowie zur Unterstützung bei ausbleibender oder schwacher Regelblutung. KONTRAINDIZIERT in der Schwangerschaft — abortive Wirkung bekannt. Nicht länger als 2 Wochen ohne Pause anwenden.",
+          "en": "FLOWER INFUSION (emmenagogue, digestive): 1–1.5 tsp dried feverfew flowers with 200 ml hot water (~90 °C), covered, steep 8 min, strain. 2× daily. Folk use as a bitter tonic for digestion (sesquiterpene lactones, especially parthenolide, stimulate bile secretion) and to support absent or scanty menstruation. CONTRAINDICATED in pregnancy — abortifacient effect documented. Do not use for more than 2 weeks without a break."
+        }
+      },
+      "description": {
+        "de": "Blütenaufguss als Bittertonikum zur Verdauungsförderung und Regelanregung — emmenagoge Wirkung; streng kontraindiziert in der Schwangerschaft.",
+        "en": "Flower infusion as bitter tonic for digestion and to promote menstruation — emmenagogue effect; strictly contraindicated in pregnancy."
+      },
+      "source_ids": [
+        "src_pfaf_tanacetum",
+        "src_wp_de_mutterkraut",
+        "src_madaus_1938_tanacetum"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "headache",
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "UMSCHLAG (äußerlich, volksheilkundlich): Eine Handvoll frische Mutterkrautblätter zerreiben oder grob zerkleinern, auf ein sauberes Leinen- oder Baumwolltuch legen und an die betroffene Stelle (Stirn bei Kopfschmerzen, schmerzende Gelenke) anlegen. 15–20 Minuten einwirken lassen. Vorsicht: Rohe Blätter können Kontaktdermatitis auslösen — Probefleck empfohlen, besonders bei bekannter Korbblütler-Allergie. Bei Hautrötung oder Brennen sofort entfernen. Klinisch nicht belegt — rein volksheilkundliche Tradition.",
+          "en": "COMPRESS (external, folk use): Bruise or roughly chop a handful of fresh feverfew leaves, place on a clean linen or cotton cloth, and apply to the affected area (forehead for headache, aching joints) for 15–20 minutes. Caution: raw leaves can cause contact dermatitis — patch test recommended, especially with known Asteraceae allergy. Remove immediately if redness or burning occurs. Not clinically verified — purely folk tradition."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Blätterumschlag bei Kopfschmerzen und Gelenksschmerzen — Vorsicht vor Kontaktdermatitis bei Korbblütler-Sensibilisierung.",
+        "en": "Folk leaf compress for headache and joint pain — caution regarding contact dermatitis in Asteraceae-sensitised individuals."
+      },
+      "source_ids": [
+        "src_pfaf_tanacetum",
+        "src_wp_en_feverfew"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "headache",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_ml": {
+          "min": 0.5,
+          "max": 2
+        },
+        "doses_per_day": 2,
+        "max_duration_weeks": 16,
+        "instructions": {
+          "de": "STANDARDISIERTER EXTRAKT / KAPSELN (Kommission E / EMA Traditional Use): Tagesdosis entsprechend 0,2–0,6 mg Parthenolid aus standardisiertem Trockenextrakt oder Tinktur. In Handelsformen typischerweise 50–250 mg Trockenblattextrakt pro Kapsel/Tablette (standardisiert auf ≥ 0,2 % Parthenolid). Einnahme morgens und abends mit ausreichend Flüssigkeit zu den Mahlzeiten. Zur Prophylaxe, NICHT zur Akutbehandlung des Migräneanfalls. Wirkungseintritt frühestens nach 4–6 Wochen regelmäßiger Einnahme. Die positive Kommission-E-Monographie (1988) und die EMA-Traditional-Use-Bewertung (2016) beziehen sich auf die Prophylaxe von Migräne. Cochrane-Review (2004, Diener et al.) beschreibt modest signifikante Wirkung gegenüber Placebo — kein Goldstandard.",
+          "en": "STANDARDISED EXTRACT / CAPSULES (Kommission E / EMA Traditional Use): Daily dose equivalent to 0.2–0.6 mg parthenolide from standardised dry extract or tincture. Commercial formulations typically 50–250 mg dried leaf extract per capsule/tablet, standardised to ≥ 0.2 % parthenolide. Take morning and evening with ample fluid and meals. For prophylaxis ONLY — not for acute migraine attack treatment. Effect not assessable before 4–6 weeks of regular intake. The positive Kommission E monograph (1988) and EMA Traditional Use assessment (2016) both target migraine prophylaxis. Cochrane review (2004, Diener et al.) describes modestly significant benefit over placebo — not gold-standard evidence."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene — keine Daten für Kinder/Jugendliche.",
+          "en": "Per EMA, adults only — no data for children/adolescents."
+        }
+      },
+      "description": {
+        "de": "Standardisierter Trockenextrakt (Kommission E positiv, 1988) zur Migräne-Prophylaxe — nicht zur Akutbehandlung; Parthenolid als Leitsubstanz.",
+        "en": "Standardised dry extract (positive Kommission E monograph, 1988) for migraine prophylaxis — not for acute treatment; parthenolide as marker compound."
+      },
+      "source_ids": [
+        "src_kommission_e_tanacetum",
+        "src_ema_tanacetum",
+        "src_cochrane_feverfew_2004",
+        "src_escop_tanacetum"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG: Mutterkraut dient ausschließlich der Migräne-PROPHYLAXE — es ist kein Akutmittel bei bestehendem Migräneanfall. Effekt tritt frühestens nach 4–6 Wochen regelmäßiger Einnahme ein. Nach längerer Anwendung (> 8 Wochen) NIEMALS abrupt absetzen: Abrupter Entzug kann das sog. 'Post-Feverfew-Syndrom' auslösen (Rückkehr von Migräne, Angstzustände, Schlafstörungen, Muskelsteifigkeit, Gelenkschmerzen) — schrittweise Dosisreduktion über 2–4 Wochen. Frische Blätter direkt kauen STRIKT VERMEIDEN — hoher lokaler Parthenolid-Gehalt verursacht bei vielen Anwendern Aphten, Mundschleimhaut-Entzündungen und Schwellungen. Stattdessen immer in Lebensmittel einwickeln oder Tinktur/Extrakt wählen. Korbblütler-Kreuzallergie: Mutterkraut gehört zur Familie der Asteraceae — bei bekannter Allergie gegen Kamille, Arnika, Chrysantheme, Ragweed oder Beifuß erhöhtes Sensibilisierungsrisiko; Allergie-Test und ärztliche Beratung vor Anwendung empfohlen.",
+      "en": "IMPORTANT: Feverfew is for migraine PROPHYLAXIS only — it is not an acute migraine remedy. Effect begins at earliest after 4–6 weeks of regular intake. After prolonged use (> 8 weeks), NEVER stop abruptly: sudden discontinuation can trigger the so-called 'post-feverfew syndrome' (rebound migraine, anxiety, sleep disturbance, muscle stiffness, joint pain) — taper gradually over 2–4 weeks. STRICTLY AVOID chewing fresh leaves directly — high local parthenolide content causes mouth ulcers, mucosal inflammation and swelling in many users. Always wrap in food or choose tincture/extract instead. Asteraceae cross-allergy: feverfew belongs to the daisy family — known allergy to chamomile, arnica, chrysanthemum, ragweed, or mugwort raises sensitisation risk; allergy testing and medical advice recommended before use."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "KONTRAINDIZIERT. Mutterkraut hat eine dokumentierte emmenagoge und uterusstimulante Wirkung (Parthenolid hemmt Thrombozytenaggregation und stimuliert glatte Muskulatur) — erhöhtes Risiko für Fehlgeburt und Frühgeburt. Laut EMA, Kommission E und ESCOP in Schwangerschaft nicht anwenden.",
+        "en": "CONTRAINDICATED. Feverfew has documented emmenagogue and uterine-stimulating effects (parthenolide inhibits platelet aggregation and stimulates smooth muscle) — increased risk of miscarriage and premature labour. Per EMA, Kommission E, and ESCOP, do not use in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "KONTRAINDIZIERT. Sesquiterpenlactone (insbesondere Parthenolid) können in die Muttermilch übergehen und beim Säugling Koliken und Reizbarkeit verursachen. EMA und ESCOP empfehlen Meidung in der Stillzeit.",
+        "en": "CONTRAINDICATED. Sesquiterpene lactones (especially parthenolide) may pass into breast milk and cause colic and irritability in infants. EMA and ESCOP recommend avoiding during lactation."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Laut EMA nicht für Kinder und Jugendliche unter 18 Jahren — keine ausreichenden Sicherheitsdaten. Bei Kindern mit Migräne immer pädiatrische Fachberatung.",
+        "en": "Per EMA, not for children and adolescents under 18 — insufficient safety data. For children with migraine, always seek paediatric specialist advice."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Schwangerschaft — emmenagoge und uterusstimulante Wirkung, Abortivum.",
+        "en": "Pregnancy — emmenagogue and uterine-stimulating effect, potential abortifacient."
+      },
+      {
+        "de": "Stillzeit — Übergang von Sesquiterpenlactonen in die Muttermilch möglich.",
+        "en": "Lactation — transfer of sesquiterpene lactones into breast milk possible."
+      },
+      {
+        "de": "Kinder und Jugendliche unter 18 Jahren (EMA — fehlende Sicherheitsdaten).",
+        "en": "Children and adolescents under 18 years (EMA — absence of safety data)."
+      },
+      {
+        "de": "Überempfindlichkeit gegen Mutterkraut oder andere Korbblütler (Asteraceae) — Kreuzreaktion mit Kamille, Arnika, Chrysantheme, Ragweed, Beifuß möglich.",
+        "en": "Hypersensitivity to feverfew or other Asteraceae — cross-reaction with chamomile, arnica, chrysanthemum, ragweed, mugwort possible."
+      },
+      {
+        "de": "Gerinnungsstörungen oder Einnahme blutgerinnungshemmender Medikamente (s. Wechselwirkungen).",
+        "en": "Coagulation disorders or use of anticoagulant/antiplatelet medicines (see drug interactions)."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulantien und Thrombozytenaggregationshemmer (Warfarin, Phenprocoumon, ASS, Clopidogrel, Dabigatran)",
+        "mechanism": {
+          "de": "Parthenolid hemmt irreversibel die Thrombozytenaggregation durch Hemmung der Thromboxan-B2-Synthese und Blockade von ADP-induzierten Rezeptorinteraktionen. Additive blutungssteigernde Wirkung mit gerinnungshemmenden Arzneimitteln — erhöhtes Blutungsrisiko (Hämatome, verlängerte Blutungszeit). Gleichzeitige Anwendung nur unter ärztlicher Kontrolle und engmaschigem INR-Monitoring.",
+          "en": "Parthenolide irreversibly inhibits platelet aggregation via inhibition of thromboxane B2 synthesis and blockade of ADP-induced receptor interactions. Additive pro-haemorrhagic effect with anticoagulant/antiplatelet drugs — increased bleeding risk (haematomas, prolonged bleeding time). Concurrent use only under medical supervision with close INR monitoring."
+        },
+        "severity": "caution",
+        "source_id": "src_ema_tanacetum"
+      },
+      {
+        "drug_class": "Nichtsteroidale Antirheumatika / NSAR (Ibuprofen, Naproxen, Diclofenac)",
+        "mechanism": {
+          "de": "NSAR hemmen COX-1/COX-2 und können die parthenolid-vermittelte Hemmung der Prostaglandinsynthese abschwächen — theoretische pharmakodynamische Antagonisierung der Mutterkraut-Wirkung bei gleichzeitiger NSAR-Einnahme. Zudem additive Magenreizung möglich.",
+          "en": "NSAIDs inhibit COX-1/COX-2 and may attenuate parthenolide-mediated prostaglandin synthesis inhibition — theoretical pharmacodynamic antagonism of feverfew effect when NSAIDs are co-administered. Additionally, additive gastric irritation is possible."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_tanacetum"
+      },
+      {
+        "drug_class": "Triptane (Sumatriptan, Zolmitriptan, Rizatriptan) und Ergotamine",
+        "mechanism": {
+          "de": "Keine direkt nachgewiesene pharmakokinetische Interaktion. Kombinationsanwendung kann zu einer unklaren Überlagerung von vasokonstriktiven Effekten führen. Da Mutterkraut als Prophylaxe und Triptane als Akutmittel zeitlich selten zusammenfallen, ist das Risiko gering — dennoch Arzt informieren.",
+          "en": "No directly demonstrated pharmacokinetic interaction. Combination use may produce unclear overlap of vasoconstrictive effects. As feverfew is prophylactic and triptans acute, temporal overlap is rare — nevertheless, inform treating physician."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_tanacetum"
+      },
+      {
+        "drug_class": "Immunsuppressiva (Ciclosporin, Tacrolimus)",
+        "mechanism": {
+          "de": "Parthenolid hemmt in vitro NF-κB und T-Zell-Aktivierung — theoretisch additive Immunsuppression möglich, klinisch nicht belegt. Transplantationspatienten sollten Mutterkraut meiden und Rücksprache mit dem Transplantationsarzt halten.",
+          "en": "Parthenolide inhibits NF-κB and T-cell activation in vitro — theoretical additive immunosuppression possible, not clinically verified. Transplant patients should avoid feverfew and consult their transplant physician."
+        },
+        "severity": "caution",
+        "source_id": "src_ema_tanacetum"
+      }
+    ],
+    "max_continuous_use_weeks": 16
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Mutterkraut (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Mutterkraut",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Tanacetum parthenium (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Tanacetum_parthenium",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_tanacetum",
+      "type": "monograph",
+      "title": "EMA/HMPC/258828/2008 Rev. 4 — European Union herbal monograph on Tanacetum parthenium (L.) Sch.Bip., herba (Traditional Use)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/tanaceti-parthenii-herba",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_tanacetum",
+      "type": "monograph",
+      "title": "Kommission E — Tanacetum parthenium (Mutterkraut), Monographie (positiv), BAnz Nr. 76, 1988",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/tanacetum-parthenium.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_tanacetum",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Tanaceti parthenii herba (Feverfew), 2nd edition",
+      "url": "https://escop.com/monographs/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_cochrane_feverfew_2004",
+      "type": "monograph",
+      "title": "Pittler MH, Ernst E. Feverfew for preventing migraine. Cochrane Database Syst Rev. 2004;(1):CD002286. DOI:10.1002/14651858.CD002286.pub2",
+      "url": "https://doi.org/10.1002/14651858.CD002286.pub2",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_tanacetum",
+      "type": "book",
+      "title": "Wichtl M (Hrsg.) — Teedrogen und Phytopharmaka, 5. Aufl., Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009: Tanaceti parthenii herba",
+      "url": "https://www.wissenschaftliche-verlagsgesellschaft.de",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_tanacetum",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Tanacetum parthenium database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Tanacetum+parthenium",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_1938_tanacetum",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band III: Chrysanthemum parthenium (Mutterkraut), 1938 (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/chrysanthemum-parthenium.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_culpeper_1653",
+      "type": "book",
+      "title": "Culpeper, Nicholas — The Complete Herbal, London, 1653: Featherfew (Feverfew) (Public Domain)",
+      "url": "https://www.complete-herbal.com/culpeper/featherfew.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_mutterkraut",
+      "type": "wikipedia",
+      "title": "Mutterkraut (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Mutterkraut",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_feverfew",
+      "type": "wikipedia",
+      "title": "Feverfew — Tanacetum parthenium (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Tanacetum_parthenium",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "tanacetum-parthenium.jpg",
+    "alt": {
+      "de": "Foto von Mutterkraut",
+      "en": "Photo of Tanacetum parthenium"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tanacetum_parthenium_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-036.jpg"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "allium-sativum",
+      "matricaria-chamomilla"
+    ],
+    "bad_partners": [],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "indoor": {
+        "start_month": 3,
+        "end_month": 4
+      },
+      "transplant": {
+        "start_month": 5,
+        "end_month": 6
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 9
+    },
+    "days_to_harvest": 90,
+    "spacing_cm": 30,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "pest_repellent",
+    "pollinator_attractor",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Parthenolid",
+      "category": "sesquiterpene",
+      "percent_range": "0.1-3.5 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Sesquiterpenlacton vom Germacranolid-Typ — pharmakologische Leitsubstanz des Mutterkrauts. Hemmt irreversibel die Thrombozytenaggregation (Thromboxan-B2-Synthese), blockiert NF-κB-Signalweg, vermindert Prostaglandin-Synthese und Histaminfreisetzung aus Mastzellen. Verantwortlich für die antiinflammatorische und prophylaktische Migränewirkung. Gehalt stark varietäts- und herkunftsabhängig (bulgarische/griechische Wildpflanzen oft > 1 %, Zierpflanzenkultivare oft < 0,1 % — pharmakologisch unwirksam).",
+        "en": "Sesquiterpene lactone of germacranolide type — principal pharmacologically active compound of feverfew. Irreversibly inhibits platelet aggregation (thromboxane B2 synthesis), blocks NF-κB pathway, reduces prostaglandin synthesis and mast-cell histamine release. Responsible for anti-inflammatory and migraine-prophylactic activity. Content highly variety- and origin-dependent (Bulgarian/Greek wild plants often > 1 %; ornamental cultivars often < 0.1 % — pharmacologically insufficient)."
+      }
+    },
+    {
+      "name": "Sesquiterpenlactone (Canin, 3-beta-Hydroxypartheno­lid, Artecanin, Secotanaparthenolid A/B)",
+      "category": "sesquiterpene",
+      "percent_range": "0.2-1.0 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Begleit-Sesquiterpenlactone neben Parthenolid — ähnliche Grundstruktur (Germacranolide, Eudesmanolide), teils ebenfalls antiprostaglandine und antiaggregatorische Wirkung in vitro. Tragen zur Gesamtbitterwirkung und zum typischen aromatisch-bitteren Geruch des Krauts bei.",
+        "en": "Accessory sesquiterpene lactones alongside parthenolide — similar core structure (germacranolides, eudesmanolides), with partial anti-prostaglandin and anti-aggregatory effects in vitro. Contribute to overall bitterness and the characteristic aromatic-bitter scent of the herb."
+      }
+    },
+    {
+      "name": "Flavonoide (Luteolin, Apigenin, Chrysoeriol, Quercetin, Axillarin)",
+      "category": "flavonoid",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavonoide, vor allem Luteolin und Apigenin, zeigen in vitro antiinflammatorische und antioxidative Aktivität; hemmen COX-2 und Lipoxygenase. Axillarin ist spezifisch für Tanacetum-Arten und kann als phytochemisches Erkennungsmerkmal dienen. Synergistische Wirkung mit Parthenolid wahrscheinlich, klinisch nicht isoliert untersucht.",
+        "en": "Flavonoids, principally luteolin and apigenin, show anti-inflammatory and antioxidant activity in vitro; inhibit COX-2 and lipoxygenase. Axillarin is specific to Tanacetum species and can serve as a phytochemical marker. Synergistic activity with parthenolide is probable but not studied in isolation clinically."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Campher, Borneol, alpha-Pinen, Chrysanthemyl-Acetat)",
+      "category": "essential_oil",
+      "percent_range": "0.02-0.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Das ätherische Öl ist für den charakteristisch bitteren, leicht campherartigen Geruch des Mutterkrauts verantwortlich. Campher-reiche Chemotypen zeigen niedrigere Parthenolid-Gehalte — pharmazeutisch minderwertig. Chrysanthemyl-Acetat ist ein Erkennungsmerkmal für Tanacetum-Arten. Insektizide Wirkung beschrieben (historische Verwendung als Insektenvertreibungsmittel).",
+        "en": "The essential oil is responsible for the characteristic bitter, slightly camphoraceous scent of feverfew. Camphor-rich chemotypes typically show lower parthenolide content — pharmaceutically inferior. Chrysanthemyl acetate is a marker for Tanacetum species. Insecticidal activity documented (historical use as insect repellent)."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Chlorogensäure, 3,5-Dicaffeoyl-Chinasäure)",
+      "category": "phenolic_acid",
+      "percent_range": "0.1-0.4 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolische Säuren mit antioxidativem Potenzial; ergänzen die antiinflammatorischen Eigenschaften der Sesquiterpenlactone und Flavonoide. Chlorogensäure ist in vielen Asteraceae-Arten verbreitet und trägt zur Bitterkeit des Aufgusses bei.",
+        "en": "Phenolic acids with antioxidant potential; complement the anti-inflammatory properties of sesquiterpene lactones and flavonoids. Chlorogenic acid is widespread in Asteraceae species and contributes to the bitter taste of infusions."
+      }
+    },
+    {
+      "name": "Melatonin (Spuren)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "plant_part": "leaf",
+      "note": {
+        "de": "In Mutterkrautblättern wurden Spuren von Melatonin nachgewiesen — eine der wenigen Pflanzen mit messbarem Melatoningehalt. Pharmakologisch bei therapeutischen Dosen nicht relevant, aber wissenschaftlich interessant im Kontext der zirkadianen Regulation von Migräne.",
+        "en": "Trace amounts of melatonin have been detected in feverfew leaves — one of the few plants with measurable melatonin content. Pharmacologically irrelevant at therapeutic doses, but scientifically interesting in the context of circadian regulation of migraine."
+      }
+    },
+    {
+      "name": "Polyine (Dehydromatricariaester und verwandte Verbindungen)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Polyacetylenverbindungen der Asteraceae-Gruppe; in Tanacetum-Arten in Spuren nachgewiesen. Zeigen antimikrobielle und cytotoxische Aktivität in vitro. Pharmakologisch bei normalen Anwendungsmengen nicht relevant, aber als phytochemisches Profil-Merkmal der Gattung charakteristisch.",
+        "en": "Polyacetylene compounds of the Asteraceae group; detected in trace amounts in Tanacetum species. Show antimicrobial and cytotoxic activity in vitro. Pharmacologically irrelevant at normal use quantities but characteristic of the genus phytochemical profile."
+      }
+    },
+    {
+      "name": "Tannine / Gerbstoffe (kondensierte Gerbstoffe)",
+      "category": "tannin",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Kondensierte Gerbstoffe (Proanthocyanidine) tragen zur adstringierenden Komponente des Aufgusses bei und bedingen teilweise die gastrointestinale Verträglichkeit. Gerbstoffgehalt ist ein Mitursache für Magenreizung bei höheren Dosen — Einnahme stets zu Mahlzeiten empfohlen.",
+        "en": "Condensed tannins (proanthocyanidins) contribute to the astringent character of the infusion and are partly responsible for gastrointestinal tolerability. Tannin content is a contributing factor to gastric irritation at higher doses — always take with meals."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Trockener Vormiittag (9–11 Uhr) nach vollständigem Abtrocknen des Taus — Parthenolid-Gehalt ist zu diesem Zeitpunkt am höchsten. Bei starker Sonneneinstrahlung rasch trocknen, da Sesquiterpenlactone lichtempfindlich sind.",
+        "en": "Dry morning (9–11 am) after dew has fully evaporated — parthenolide content is highest at this point. Dry rapidly after harvest, as sesquiterpene lactones are light-sensitive."
+      },
+      "drying": {
+        "de": "Junge, vollständig entwickelte Blätter (vor der Blüte oder im frühen Blütenstadium — Parthenolid-Gehalt ist dann am höchsten) einzeln oder in kleinen Bündeln ernten. Robuste Sorten mit hohem Parthenolid-Gehalt (aromatisch-bitter, nicht rein grüner Geruch) wählen — Zierpflanzenkultivare mit gelbgrünem Laub enthalten oft kaum Parthenolid. Im Schatten bei 30–40 °C einlagig trocknen (Dörrgerät, Trockenschirm oder luftiger Schatten), nicht über 40 °C um Parthenolid-Verluste zu minimieren. Trockendauer ca. 5–10 Tage. Vollständige Trocknung prüfen (Blätter knistern, kein feuchter Duft). Aufbewahrung luftdicht, lichtgeschützt, kühl — Parthenolid ist oxidations- und lichtempfindlich.",
+        "en": "Harvest young, fully developed leaves (before or at early flowering — parthenolide content is then highest) individually or in small bunches. Choose robust varieties with high parthenolide content (aromatic-bitter, not purely green smell) — ornamental cultivars with yellow-green foliage often contain negligible parthenolide. Dry in a single layer in shade at 30–40 °C (dehydrator, drying screen, or airy shade), not above 40 °C to minimise parthenolide loss. Drying time approx. 5–10 days. Check for complete dryness (leaves crackle, no moist scent). Store airtight, light-protected, cool — parthenolide is sensitive to oxidation and light."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Dunkel, kühl, luftdicht (Braunglas oder Blechdose). Innerhalb 12 Monate aufbrauchen — Parthenolid-Gehalt nimmt durch Oxidation und Licht ab. Bei uncharakteristisch schwachem Geruch oder ausgeblichener Farbe: Droge verwerfen und neuen Jahresvorrat anlegen.",
+        "en": "Dark, cool, airtight (brown glass or tin). Use within 12 months — parthenolide content declines through oxidation and light exposure. If smell is uncharacteristically weak or colour faded, discard and prepare a fresh annual stock."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Trockener sonniger Vormittag (9–12 Uhr), wenn die äußeren Zungenblüten sich gerade vollständig geöffnet haben (Vollblüte). Nicht ernten bei Nässe oder unmittelbar nach Regen.",
+        "en": "Dry, sunny morning (9–12), when outer ray florets have just fully opened (peak bloom). Do not harvest in wet conditions or immediately after rain."
+      },
+      "drying": {
+        "de": "Blütenköpfchen mit kurzem Stiel abschneiden, wenn die Randblüten horizontal abstehen (Vollblüte). Nicht übermäßig reife oder bereits verblühte Köpfchen ernten (Wirkstoffgehalt sinkt). Einlagig auf Trockensieben oder Papier bei 30–40 °C im Schatten trocknen — höhere Temperaturen verursachen Farbverlust und verminderte Aromaintensität. Trockendauer 5–8 Tage. Getrocknet sollten Blüten noch aromatisch-bitter riechen und die gelbe Farbe der Scheibenblüten behalten.",
+        "en": "Cut flowerheads with a short stem when ray florets extend horizontally (peak bloom). Avoid over-ripe or spent heads (active content declines). Dry in a single layer on drying screens or paper at 30–40 °C in shade — higher temperatures cause colour loss and reduced aroma. Drying time 5–8 days. Dried flowers should retain an aromatic-bitter scent and the yellow colour of the disc florets."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht in dunklen Gläsern oder Blechdosen, kühl und trocken. Innerhalb 12 Monate aufbrauchen.",
+        "en": "Airtight in dark jars or tins, cool and dry. Use within 12 months."
+      }
+    }
+  ]
+}

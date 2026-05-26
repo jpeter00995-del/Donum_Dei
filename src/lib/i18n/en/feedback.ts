@@ -1,0 +1,31 @@
+// === Donum Dei — i18n / EN / feedback ===
+// Feedback form (Wave D.2).
+
+export const feedback = {
+  'feedback.nav_label': '💌 Feedback',
+  'feedback.hero_title': '💌 Mailbox — Drop me a message!',
+  'feedback.intro': 'Found a bug? Feature wish? Plant data correction? Write me directly — it lands in my inbox.',
+  'feedback.category_label': 'What is it about?',
+  'feedback.category_bug': 'Bug — something broken',
+  'feedback.category_feature': 'Feature request — something new',
+  'feedback.category_correction': 'Plant data correction',
+  'feedback.category_other': 'Other',
+  'feedback.plant_slug_label': 'Which plant? (optional)',
+  'feedback.plant_slug_placeholder': 'e.g. tomato',
+  'feedback.message_label': 'Your message',
+  'feedback.message_placeholder': 'What is on your mind?',
+  'feedback.message_min_hint': 'At least 10 characters',
+  'feedback.email_label': 'Your email (optional, only if you want a reply)',
+  'feedback.email_placeholder': 'you@example.com',
+  'feedback.submit': 'Send',
+  'feedback.submitting': 'Sending...',
+  'feedback.success_title': '✅ Thanks!',
+  'feedback.success_body': 'Your message is on its way to Maikel.',
+  'feedback.success_again': 'Send another message',
+  'feedback.error_title': '❌ Something went wrong',
+  'feedback.error_body': 'Please try again or email maikelganske913@gmail.com directly',
+  'feedback.fallback_mailto': 'Prefer direct email?',
+  'feedback.fallback_mailto_link': 'maikelganske913@gmail.com',
+  'feedback.reply_hint': 'Replies come from maikelganske913@gmail.com — only fill the email field above if you want a reply.',
+  'feedback.char_count': '{n} / {max} characters',
+};

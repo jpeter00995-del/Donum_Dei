@@ -1,0 +1,433 @@
+{
+  "slug": "sempervivum-tectorum",
+  "names": {
+    "de": "Dach-Hauswurz",
+    "en": "Sempervivum tectorum",
+    "latin": "Sempervivum tectorum"
+  },
+  "family": {
+    "de": "Dickblattgewächse",
+    "en": "Stonecrop family",
+    "latin": "Crassulaceae"
+  },
+  "description": {
+    "de": "Die Dach-Hauswurz, auch Echte Hauswurz, Gewöhnliche Hauswurz, Donnerwurz, Alpen-Hauswurz genannt, ist eine Pflanzenart, die zur Gattung der Hauswurzen (Sempervivum) innerhalb der Familie der Dickblattgewächse (Crassulaceae) gehört. Das Artepitheton tectorum stammt aus dem Lateinischen und leitet sich von der Mehrzahl von ‚Dach‘ ab.",
+    "en": "Sempervivum tectorum, the common houseleek, is a species of flowering plant in the family Crassulaceae, native to the mountains of southern Europe, cultivated in the whole of Europe for its appearance and a Roman-era tradition claiming that it protects buildings against lightning strikes."
+  },
+  "teaser": {
+    "de": "Die Dach-Hauswurz, auch Echte Hauswurz, Gewöhnliche Hauswurz, Donnerwurz, Alpen-Hauswurz genannt, ist eine Pflanzenar...",
+    "en": "Sempervivum tectorum, the common houseleek, is a species of flowering plant in the family Crassulaceae, native to the..."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Frischer Blattsaft oder aufgeschnittene Sukkulentenblätter werden direkt auf Wunden, kleine Verbrennungen, Insektenstiche und Sonnenbrände aufgelegt. Die kühlende, adstringierende Wirkung (Gerbstoffe, Schleimstoffe) lindert Brennen und unterstützt die Wundheilung.",
+        "en": "Fresh leaf juice or halved succulent leaves are applied directly to minor wounds, burns, insect stings, and sunburn. The cooling, astringent action (tannins, mucilage) relieves burning and supports wound healing."
+      },
+      "preparation": {
+        "de": "Ein frisches Blatt längs aufschneiden oder ausdrücken und den Saft direkt auf die betroffene Hautstelle auftragen; mehrmals täglich wiederholen.",
+        "en": "Slice a fresh leaf lengthwise or press to extract juice and apply directly to the affected skin area; repeat several times daily."
+      },
+      "source_ids": [
+        "src_pfaf_semperv",
+        "src_wiki_en_semperv",
+        "src_abram_1999"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Breiumschlag aus zerstoßenen Blättern bei Verbrennungen, Schürfwunden und entzündeten Hautstellen. Dioscorides und Galen überliefern die Anwendung bei Hautkrankheiten und Augenentzündungen; Marcellus Empiricus erwähnt Umschläge bei Quetschungen.",
+        "en": "Poultice from crushed leaves for burns, abrasions, and inflamed skin. Dioscorides and Galen recorded use for skin diseases and eye inflammation; Marcellus Empiricus mentions compresses for contusions."
+      },
+      "preparation": {
+        "de": "Mehrere Blätter zerquetschen, den Brei auf ein sauberes Tuch geben und auf die betroffene Stelle legen; 20–30 Minuten einwirken lassen.",
+        "en": "Crush several leaves, spread the pulp on a clean cloth and place on the affected area; leave on for 20–30 minutes."
+      },
+      "source_ids": [
+        "src_wiki_en_semperv",
+        "src_cabi_semperv",
+        "src_ethnobotany_2024"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Hauswurz-Salbe aus Blattsaft und Bienenwachs oder -fett wird volksmedizinisch bei Ekzem, Warzen, Schwielen und gereizter Haut eingesetzt. PFAF nennt die Pflanze als Warzenmittel; die Adstringenz der Gerbstoffe verkleinert überschüssiges Gewebe.",
+        "en": "Houseleek salve from leaf juice combined with beeswax or lard is used in folk medicine for eczema, warts, corns, and irritated skin. PFAF notes the plant as a wart remedy; the astringency of tannins helps shrink excess tissue."
+      },
+      "source_ids": [
+        "src_pfaf_semperv",
+        "src_wiki_de_semperv"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Saft aus frischen Blättern historisch zur Hautpflege und zur Reduktion von Sommersprossen verwendet (belegt durch mittelalterliche Hausbücher). Auch als kühlende Auflage bei Sonnenbrand und Insektenstichen bekannt.",
+        "en": "Juice from fresh leaves was historically used for skin care and to reduce freckles (documented in medieval household books). Also known as a cooling application for sunburn and insect stings."
+      },
+      "source_ids": [
+        "src_wiki_de_semperv",
+        "src_ethnobotany_2024"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksheilkundlich wurde ein Tee aus den Blättern selten bei Durchfall eingesetzt. Auch eine Mischung aus Saft und Honig gegen Mundfäule (Soor) ist überliefert. Die innerliche Anwendung ist ungewöhnlich und historisch wenig belegt; bei Überdosierung emetisch.",
+        "en": "In folk medicine, a tea from the leaves was occasionally used for diarrhoea. A mixture of juice and honey against thrush (oral candidiasis) is also recorded. Internal use is uncommon and historically little documented; emetic in excess."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 8,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "1–2 g getrocknete Blätter mit 200 ml heißem Wasser übergießen, 8 Minuten ziehen lassen, abseihen. Nur kurzfristig und in kleinen Mengen verwenden.",
+          "en": "Pour 200 ml of hot water over 1–2 g of dried leaves, steep for 8 minutes, strain. Use only short-term and in small amounts."
+        }
+      },
+      "source_ids": [
+        "src_wiki_en_semperv",
+        "src_pfaf_semperv"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "skin",
+        "nutrition"
+      ],
+      "internal_external": "both",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Die jungen Blätter der Dach-Hauswurz sind essbar (säuerlich, leicht herb durch Apfelsäure) und wurden in Notzeiten als Nahrungsergänzung verwendet; heute gelegentlich als ornamentale Sukkulente in Steingärten kultiviert.",
+        "en": "Young leaves of common houseleek are edible (slightly sour, mildly astringent due to malic acid) and were used as a food supplement in times of scarcity; today occasionally grown as an ornamental succulent in rock gardens."
+      },
+      "source_ids": [
+        "src_pfaf_semperv",
+        "src_kull_1968"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Hildegard von Bingen empfahl den Saft der Hauswurz für verschiedene Anwendungen, darunter zur Stimulation und äußerlich. Die Polyphenole (Quercetin, Kaempferol-Glykoside, Kämpferol) wurden 1999 in J. Agric. Food Chem. identifiziert und zeigen antimikrobielle Aktivität gegen Staphylococcus aureus.",
+        "en": "Hildegard von Bingen recommended houseleek juice for various applications including external use. The polyphenols (quercetin, kaempferol glycosides, kämpferol) were identified in 1999 in J. Agric. Food Chem. and show antimicrobial activity against Staphylococcus aureus."
+      },
+      "source_ids": [
+        "src_abram_1999",
+        "src_wiki_de_semperv"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "frische Blätter",
+      "en": "fresh leaves"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bei äußerlicher Anwendung gut verträglich. Innere Einnahme größerer Mengen kann Übelkeit und Erbrechen (emetisch) auslösen — daher nur kleine Mengen und nur kurzzeitig innerlich anwenden. Keine bekannte systemische Toxizität bei bestimmungsgemäßer Nutzung.",
+      "en": "Well tolerated externally. Internal intake of larger amounts can cause nausea and vomiting (emetic) — use only small amounts and short-term internally. No known systemic toxicity with appropriate use."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Keine gesicherten Sicherheitsdaten zur Anwendung während der Schwangerschaft vorhanden. Äußerliche Anwendung gilt als unbedenklich; innerliche Einnahme vorsorglich meiden.",
+        "en": "No reliable safety data for use during pregnancy. External application is considered safe; avoid internal use as a precaution."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine gesicherten Daten zur Sicherheit während der Stillzeit. Äußerliche Nutzung unbedenklich; innerliche Einnahme vorsorglich meiden.",
+        "en": "No reliable data on safety during breastfeeding. External use is safe; avoid internal use as a precaution."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Äußerliche Anwendung (z. B. bei Insektenstichen) gilt als sicher. Zur innerlichen Anwendung bei Kindern fehlen moderne Sicherheitsdaten — Rücksprache mit Fachperson empfohlen.",
+        "en": "External use (e.g. for insect stings) is considered safe. Modern safety data for internal use in children are lacking — consultation with a health professional recommended."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Pflanzen der Familie Crassulaceae.",
+        "en": "Known hypersensitivity to plants of the family Crassulaceae."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Dach-Hauswurz (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Dach-Hauswurz",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Sempervivum tectorum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Sempervivum_tectorum",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_abram_1999",
+      "type": "monograph",
+      "title": "Abram V, Donko M. Tentative Identification of Polyphenols in Sempervivum tectorum and Assessment of the Antimicrobial Activity of Sempervivum L. J Agric Food Chem. 1999;47(2):485-489.",
+      "url": "https://doi.org/10.1021/jf980669d",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_kull_1968",
+      "type": "monograph",
+      "title": "Kull U. Die Jahresperiodik einiger nichtflüchtiger Carbonsäuren in Sempervivum tectorum L. Planta. 1968;83(4):338-352.",
+      "url": "https://doi.org/10.1007/bf00386913",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_ethnobotany_2024",
+      "type": "monograph",
+      "title": "Paniagua-Zambrana NY, Bussmann RW, Kikvidze Z. Sempervivum globiferum L. Sempervivum marmoreum Griseb. Sempervivum tectorum L. Crassulaceae. In: Ethnobotany of the Mountain Regions of Eastern Europe. 2024.",
+      "url": "https://doi.org/10.1007/978-3-030-98744-2_268-1",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_cabi_semperv",
+      "type": "monograph",
+      "title": "CABI. Sempervivum tectorum. CABI Compendium. 2019.",
+      "url": "https://doi.org/10.1079/cabicompendium.117057",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_pfaf_semperv",
+      "type": "monograph",
+      "title": "Sempervivum tectorum — Plants For A Future (PFAF)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Sempervivum+tectorum",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_de_semperv",
+      "type": "wikipedia",
+      "title": "Dach-Hauswurz (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Dach-Hauswurz",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_en_semperv",
+      "type": "wikipedia",
+      "title": "Sempervivum tectorum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Sempervivum_tectorum",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wikidata_semperv",
+      "type": "wikidata",
+      "title": "Sempervivum tectorum — Wikidata (Q161724)",
+      "url": "https://www.wikidata.org/wiki/Q161724",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "sempervivum-tectorum.jpg",
+    "alt": {
+      "de": "Foto von Dach-Hauswurz",
+      "en": "Photo of Sempervivum tectorum"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Bouba",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sempervirum_tectorum1.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Apfelsäure (Malic acid)",
+      "category": "other",
+      "plant_part": "leaf",
+      "percent_range": "5–15 %",
+      "note": {
+        "de": "Hauptorganische Säure der sukkulenten Blätter; verantwortlich für den säuerlichen Geschmack und den saisonalen Säuregehalt (CAM-Stoffwechsel). Kull (1968) beschrieb die Jahresperiodik ausführlich.",
+        "en": "Main organic acid of the succulent leaves; responsible for sour taste and seasonal acid content (CAM metabolism). Kull (1968) described the annual cycle in detail."
+      }
+    },
+    {
+      "name": "Tannine (kondensierte und hydrolisierbare Gerbstoffe)",
+      "category": "tannin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Adstringierende Gerbstoffe; verantwortlich für die zusammenziehende Wirkung auf Haut und Schleimhäute sowie die antimikrobielle Aktivität.",
+        "en": "Astringent tannins; responsible for the contracting effect on skin and mucous membranes and the antimicrobial activity."
+      }
+    },
+    {
+      "name": "Quercetin und Quercetin-Glykoside",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Antioxidativ und entzündungshemmend wirksames Flavonol; Abram & Donko (1999) identifizierten Quercetin-Glykoside als Hauptpolyphenole in S. tectorum.",
+        "en": "Antioxidant and anti-inflammatory flavonol; Abram & Donko (1999) identified quercetin glycosides as main polyphenols in S. tectorum."
+      }
+    },
+    {
+      "name": "Kaempferol und Kaempferol-Glykoside",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Weiteres Hauptflavonol mit antimikrobieller und antioxidativer Wirkung; nachgewiesen in J. Agric. Food Chem. 1999.",
+        "en": "Further major flavonol with antimicrobial and antioxidant activity; demonstrated in J. Agric. Food Chem. 1999."
+      }
+    },
+    {
+      "name": "Schleimstoffe (Polysaccharide)",
+      "category": "mucilage",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hochmolekulare Polysaccharide, die der Pflanze ihre wasserreiche, gelatiöse Textur geben und die kühlend-beruhigende Wirkung auf der Haut erklären.",
+        "en": "High-molecular polysaccharides giving the plant its water-rich, gelatinous texture and explaining the cooling, soothing effect on skin."
+      }
+    },
+    {
+      "name": "Phenolsäuren (Caffeoyl- und Hydroxyzimtsäure-Derivate)",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolische Carbonsäurederivate mit antioxidativer und antimikrobieller Wirkung; begleitende Polyphenole neben den Flavonoiden.",
+        "en": "Phenolic carboxylic acid derivatives with antioxidant and antimicrobial properties; accompanying polyphenols alongside flavonoids."
+      }
+    },
+    {
+      "name": "Triterpene (u. a. Friedelin, Epifriedelanol)",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Typische Crassulaceen-Triterpene; schützende Funktion in der Pflanzenwachsschicht und entzündungshemmende Aktivität.",
+        "en": "Typical Crassulaceae triterpenes; protective function in the plant wax layer and anti-inflammatory activity."
+      }
+    },
+    {
+      "name": "Mineralien (Kalium, Kalzium, Silizium)",
+      "category": "mineral",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Sukkulente Dach-Hauswurz akkumuliert Mineralien; Kalium und Silizium tragen zur Festigkeit der Zellwände bei.",
+        "en": "The succulent common houseleek accumulates minerals; potassium and silicon contribute to cell wall stability."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Morgens oder abends ernten, wenn die Sukkulenz (Wassergehalt) am höchsten ist und die Mittagshitze gemieden wird.",
+        "en": "Harvest in the morning or evening when succulence (water content) is highest and midday heat is avoided."
+      },
+      "drying": {
+        "de": "Frische Blätter können direkt verwendet werden. Zum Trocknen bei max. 40 °C dünn ausbreiten; der hohe Wassergehalt erfordert längere Trocknungszeit (3–5 Tage).",
+        "en": "Fresh leaves can be used directly. For drying, spread thinly at max. 40 °C; the high water content requires longer drying time (3–5 days)."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Getrocknetes Material dunkel und trocken in luftdichten Gläsern lagern. Frischangewandt sofort verwenden — Blattsaft hält sich im Kühlschrank ca. 2–3 Tage.",
+        "en": "Store dried material dark and dry in airtight jars. Fresh use immediately — leaf juice keeps in the refrigerator for approx. 2–3 days."
+      }
+    },
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "Ganzjährig erntbar (Sukkulente, immergrün). Außerhalb von Frostperioden können frische Blätter jederzeit geerntet werden.",
+        "en": "Harvestable year-round (succulent, evergreen). Outside of frost periods, fresh leaves can be harvested at any time."
+      },
+      "drying": {
+        "de": "Frisch verwenden ist bevorzugt. Bei Bedarf Einzelblätter abbrechen — die Pflanze regeneriert sich rasch durch Ausläufer.",
+        "en": "Fresh use is preferred. If needed, break off individual leaves — the plant regenerates quickly via stolons."
+      },
+      "storage_months": 1,
+      "storage_condition": {
+        "de": "Frische Blätter im Kühlschrank in einem feuchten Tuch eingewickelt 1–2 Wochen haltbar.",
+        "en": "Fresh leaves wrapped in a damp cloth in the refrigerator last 1–2 weeks."
+      }
+    }
+  ]
+}

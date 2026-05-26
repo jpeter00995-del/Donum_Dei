@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+# === 1. KONSTANTEN ===
+# Pre-commit hook: run validate:data + vitest before allowing a commit.
+# Installed via: scripts/hooks/install.sh
+# Skip with: git commit --no-verify (use sparingly!)
+set -euo pipefail
+
+# === 2. ONLY RUN IF PLANT DATA OR SCHEMA CHANGED ===
+CHANGED=$(git diff --cached --name-only --diff-filter=ACM)
+SHOULD_VALIDATE=0
+SHOULD_TEST=0
+
+if echo "$CHANGED" | grep -qE '^(src/data/plants/.*\.json|src/lib/(types|validatePlant)\.ts)$'; then
+  SHOULD_VALIDATE=1
+  SHOULD_TEST=1
+elif echo "$CHANGED" | grep -qE '^src/.*\.(ts|tsx|astro)$'; then
+  SHOULD_TEST=1
+fi
+
+# === 3. RUN CHECKS ===
+if [ "$SHOULD_VALIDATE" = "1" ]; then
+  echo "[pre-commit] Running validate:data + validate:zod ..."
+  if ! npm run --silent validate:data; then
+    echo "[pre-commit] FAIL: legacy schema validation. Fix plant data and retry."
+    exit 1
+  fi
+  if ! npm run --silent validate:zod; then
+    echo "[pre-commit] FAIL: zod schema validation. Fix plant data and retry."
+    exit 1
+  fi
+fi
+
+if [ "$SHOULD_TEST" = "1" ]; then
+  echo "[pre-commit] Running vitest ..."
+  if ! npm run --silent test 2>&1 | tail -5; then
+    echo "[pre-commit] FAIL: tests."
+    exit 1
+  fi
+fi
+
+echo "[pre-commit] OK."

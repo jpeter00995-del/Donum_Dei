@@ -1,0 +1,425 @@
+{
+  "slug": "populus-tremula",
+  "names": {
+    "de": "Espe",
+    "en": "Populus tremula",
+    "latin": "Populus tremula"
+  },
+  "family": {
+    "de": "Weidengewächse",
+    "en": "Willow family",
+    "latin": "Salicaceae"
+  },
+  "description": {
+    "de": "Die Espe, Aspe oder Zitterpappel ist eine Pflanzenart aus der Gattung der Pappeln (Populus). Im weiteren Sinne werden neben der Europäischen Zitterpappel auch die Grobzähnige Zitterpappel und die Amerikanische Zitterpappel als Espen bezeichnet.",
+    "en": "Populus tremula is a species of poplar native to cool temperate regions of the Old World."
+  },
+  "teaser": {
+    "de": "Die Espe, Aspe oder Zitterpappel ist eine Pflanzenart aus der Gattung der Pappeln (Populus).",
+    "en": "Populus tremula is a species of poplar native to cool temperate regions of the Old World."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": [
+        "joints",
+        "fever"
+      ],
+      "internal_external": "internal",
+      "plant_part": "bark",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Phytodolor®, eine standardisierte Kombination aus Extrakten von Populus tremula, Fraxinus excelsior und Solidago virgaurea, ist das am besten belegte phytotherapeutische Präparat mit Zitter-Espe-Anteil. Okpanyi und Arens-Corell (1990) dokumentierten in pharmakologischen Studien anti-entzündliche, analgetische und antipyretische Aktivitäten der Einzelextrakte und der Kombination. Bonaterra et al. (2007) bestätigten in humanen Monozyten anti-entzündliche Effekte über COX-2-Hemmung. Phytodolor wurde in klinischen Studien bei Arthrosen und rheumatischen Beschwerden untersucht; Meyer und Elstner (1990) beschrieben den antioxidativen Beitrag von Populus-Extrakten.",
+        "en": "Phytodolor®, a standardised combination of extracts from Populus tremula, Fraxinus excelsior, and Solidago virgaurea, is the best-documented phytotherapeutic preparation containing aspen. Okpanyi and Arens-Corell (1990) documented anti-inflammatory, analgesic, and antipyretic activities of the individual extracts and the combination in pharmacological studies. Bonaterra et al. (2007) confirmed anti-inflammatory effects via COX-2 inhibition in human monocytes. Phytodolor has been investigated in clinical studies for osteoarthritis and rheumatic complaints; Meyer and Elstner (1990) described the antioxidant contribution of Populus extracts."
+      },
+      "preparation": {
+        "de": "Phytodolor®-Fertigpräparat: 30–40 Tropfen, 3–4× täglich, mit Wasser verdünnt. Eigene Populus-Rindentinktur (1:5, Ethanol 40 %): traditionell 30–50 Tropfen bis zu 3× täglich.",
+        "en": "Phytodolor® ready-made preparation: 30–40 drops, 3–4 times daily, diluted in water. Own Populus bark tincture (1:5, 40 % ethanol): traditionally 30–50 drops up to 3 times daily."
+      },
+      "source_ids": [
+        "src_okpanyi_1990_phytodolor",
+        "src_bonaterra_2007_phytodolor",
+        "src_meyer_1990_antioxidant"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "joints",
+        "fever"
+      ],
+      "internal_external": "internal",
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Rinde der Zitter-Espe wurde in der europäischen Volksmedizin traditionell als fiebersenkendes und antirheumatisches Mittel eingesetzt. Die enthaltenen Phenylglykoside (Salicortin, Populin, Tremulacin) werden nach oraler Aufnahme zu Salicylaten hydrolysiert und erklären die antipyretische und antientzündliche Wirkung analog zu Acetylsalicylsäure. Maud Grieve dokumentiert die Anwendung gegen Wechselfieber und Rheuma in 'A Modern Herbal' (1931).",
+        "en": "The bark of the European aspen was traditionally used in European folk medicine as a fever-reducing and antirheumatic agent. The phenyl glycosides (salicortin, populin, tremulacin) are hydrolysed to salicylates after oral uptake, explaining the antipyretic and anti-inflammatory effect analogous to acetylsalicylic acid. Maud Grieve documents the use against intermittent fever and rheumatism in 'A Modern Herbal' (1931)."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–4 g getrocknete, zerkleinerte Populus-Rinde in 250 ml Wasser 15 Minuten köcheln lassen, abseihen. Bis zu 3 Tassen täglich. Bei Salicylat-Allergie oder ASS-Unverträglichkeit nicht anwenden.",
+          "en": "Simmer 2–4 g dried, chopped aspen bark in 250 ml water for 15 minutes, strain. Up to 3 cups daily. Do not use if allergic to salicylates or intolerant to aspirin."
+        }
+      },
+      "source_ids": [
+        "src_grieve_herbal_populus",
+        "src_pfaf_populus",
+        "src_feistel_2015_salicortin"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "joints"
+      ],
+      "internal_external": "internal",
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Alkoholische Rinden-Tinktur der Zitter-Espe wird traditionell bei chronischen rheumatischen Beschwerden und Arthroseschmerzen eingesetzt. Der höhere Salicylat-Estergehalt in der Tinktur (Salicortin, Tremulacin) ermöglicht eine konzentriertere Tagesdosis. Botanische Referenz: PFAF und Arzneipflanzenlexikon beschreiben Anwendung in Nordeuropa und Alpenraum.",
+        "en": "Alcoholic bark tincture of European aspen is traditionally used for chronic rheumatic complaints and osteoarthritis pain. The higher salicylate ester content in the tincture (salicortin, tremulacin) allows a more concentrated daily dose. Botanical reference: PFAF and Arzneipflanzenlexikon describe use in northern Europe and the Alpine region."
+      },
+      "preparation": {
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "Rindentinktur 1:5 (Ethanol 40–60 %): 30–50 Tropfen bis zu 3× täglich, nicht länger als 4–6 Wochen ohne ärztliche Beratung. Bei Salicylat-Allergie kontraindiziert.",
+          "en": "Bark tincture 1:5 (40–60 % ethanol): 30–50 drops up to 3 times daily, not longer than 4–6 weeks without medical consultation. Contraindicated in salicylate allergy."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_populus",
+        "src_grieve_herbal_populus"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Populus tremula (Zitter-Espe) ist als Bachblüte Nr. 36 'Aspen' (Bach Flower Remedies) bekannt. Edward Bach beschrieb diese Blütenessenzen 1936 als Mittel gegen unbestimmte Angst, diffuse Vorahnung und Schreckhaftigkeit ohne erkennbaren Grund. Die Essenz wird traditionell in Wasser oder Alkohol hochverdünnt angewendet. Wissenschaftliche Belege für eine Wirksamkeit über Placebo hinaus liegen nicht vor; die Anwendung gehört zur Traditionellen Komplementärmedizin.",
+        "en": "Populus tremula (European aspen) is known as Bach Flower No. 36 'Aspen' (Bach Flower Remedies). Edward Bach described these flower essences in 1936 as a remedy for vague anxiety, diffuse foreboding, and apprehensiveness without discernible cause. The essence is traditionally applied highly diluted in water or alcohol. No scientific evidence for efficacy beyond placebo exists; the use belongs to traditional complementary medicine."
+      },
+      "preparation": {
+        "de": "Bach-Blüten-Fertigpräparat (Stockbottle): 4 Tropfen 4× täglich direkt auf die Zunge oder in einem Glas Wasser. Gemäß Bach-Flower-Tradition.",
+        "en": "Bach Flower ready-made preparation (stock bottle): 4 drops 4 times daily directly on the tongue or in a glass of water. According to Bach Flower tradition."
+      },
+      "source_ids": [
+        "src_wiki_populus_de",
+        "src_pfaf_populus"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Knospensalbe aus Populus-Knospen (oft Populus nigra oder Hybride, auch Zitter-Espe-Knospen in Volksmedizin) enthält harzige Phenylglykoside und Flavonoide und wird äußerlich bei Gelenkschmerzen, Muskelkater und Hautproblemen eingesetzt. In der Zitter-Espe-Volksmedizin Nordeuropas und der Alpentradition dokumentiert. Antioxidative Eigenschaften der Populus-Extrakte von Meyer und Elstner (1990) belegt.",
+        "en": "Bud salve from Populus buds (often Populus nigra or hybrids; also aspen buds in folk medicine) contains resinous phenyl glycosides and flavonoids, applied externally for joint pain, muscle soreness, and skin problems. Documented in the folk medicine traditions of Northern Europe and the Alpine region. Antioxidant properties of Populus extracts demonstrated by Meyer and Elstner (1990)."
+      },
+      "preparation": {
+        "de": "Fertigpräparat (Knospensalbe, Apotheke). Äußerlich auf betroffene Stellen auftragen, nicht auf offene Wunden. Salicylat-Überempfindlichkeit beachten.",
+        "en": "Ready-made preparation (bud salve, pharmacy). Apply externally to affected areas, not on open wounds. Note salicylate hypersensitivity."
+      },
+      "source_ids": [
+        "src_meyer_1990_antioxidant",
+        "src_pfaf_populus"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      3,
+      4,
+      9
+    ],
+    "harvest_part": {
+      "de": "Rinde, Knospen",
+      "en": "bark, buds"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Populus tremula (Zitter-Espe) enthält Salicylat-Ester (Salicortin, Populin, Tremulacin), die im Körper zu freien Salicylaten hydrolysiert werden. Bei Personen mit bekannter Salicylat-Allergie oder ASS-Überempfindlichkeit ist die Anwendung kontraindiziert. Vorsicht bei Antikoagulanzientherapie (additive Thrombozytenfunktionshemmung). Bei Kindern unter 12 Jahren ist analog zur ASS-Warnung wegen des theoretischen Reye-Syndrom-Risikos Vorsicht geboten. In Schwangerschaft und Stillzeit Rücksprache mit Arzt empfohlen.",
+      "en": "Populus tremula (European aspen) contains salicylate esters (salicortin, populin, tremulacin) that are hydrolysed to free salicylates in the body. Use is contraindicated in persons with known salicylate allergy or ASA hypersensitivity. Caution with anticoagulant therapy (additive platelet function inhibition). In children under 12 years, caution is advisable analogous to the ASA warning due to the theoretical risk of Reye's syndrome. Medical consultation recommended during pregnancy and lactation."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Salicylate können im dritten Trimenon den vorzeitigen Verschluss des Ductus arteriosus begünstigen. Anwendung nur nach ärztlicher Rücksprache; im dritten Trimenon meiden.",
+        "en": "Salicylates may promote premature closure of the ductus arteriosus in the third trimester. Use only after medical consultation; avoid in the third trimester."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Salicylate können in die Muttermilch übergehen. Vorsichtshalber nur nach ärztlicher Beratung anwenden.",
+        "en": "Salicylates may pass into breast milk. Use only after medical consultation as a precaution."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Analog zur ASS-Warnung sollten Salicylat-haltige Pflanzenpräparate bei Kindern unter 12 Jahren bei Fiebererkrankungen wegen des theoretischen Reye-Syndrom-Risikos vermieden werden.",
+        "en": "Analogous to the ASA warning, salicylate-containing plant preparations should be avoided in children under 12 years with febrile illness due to the theoretical risk of Reye's syndrome."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Salicylaten (Acetylsalicylsäure, NSAR der Salicylat-Gruppe)",
+        "en": "Known hypersensitivity to salicylates (acetylsalicylic acid, NSAIDs of the salicylate group)"
+      },
+      {
+        "de": "Magen- oder Duodenalulzera (Salicylate können Schleimhaut reizen)",
+        "en": "Gastric or duodenal ulcers (salicylates may irritate mucosa)"
+      },
+      {
+        "de": "Drittes Schwangerschaftstrimenon (vorzeitiger Ductus-arteriosus-Verschluss möglich)",
+        "en": "Third trimester of pregnancy (premature ductal closure possible)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulanzien (Phenprocoumon, Warfarin)",
+        "mechanism": {
+          "de": "Salicylate aus Populus-Extrakten können die thrombozytenfunktionshemmende Wirkung verstärken und die Blutungszeit verlängern; Kombination mit Cumarinen erhöht Blutungsrisiko.",
+          "en": "Salicylates from Populus extracts may potentiate platelet function inhibition and prolong bleeding time; combination with coumarins increases bleeding risk."
+        },
+        "severity": "caution",
+        "source_id": "src_feistel_2015_salicortin"
+      },
+      {
+        "drug_class": "Thrombozytenaggregationshemmer (ASS, Clopidogrel)",
+        "mechanism": {
+          "de": "Additive Hemmung der Thrombozytenaggregation durch Salicylate aus Populus tremula; erhöhtes Blutungsrisiko.",
+          "en": "Additive inhibition of platelet aggregation through salicylates from Populus tremula; increased bleeding risk."
+        },
+        "severity": "monitor",
+        "source_id": "src_feistel_2015_salicortin"
+      },
+      {
+        "drug_class": "NSAR (Ibuprofen, Naproxen)",
+        "mechanism": {
+          "de": "Additive gastroenterale Irritation und Schleimhautreizung durch gleichzeitige Salicylat-Exposition aus Populus-Extrakten.",
+          "en": "Additive gastrointestinal irritation and mucosal damage through concurrent salicylate exposure from Populus extracts."
+        },
+        "severity": "monitor",
+        "source_id": "src_okpanyi_1990_phytodolor"
+      }
+    ],
+    "max_continuous_use_weeks": 6
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Espe (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Espe",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Populus tremula (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Populus_tremula",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_okpanyi_1990_phytodolor",
+      "type": "monograph",
+      "title": "Okpanyi SN, Arens-Corell M (1990): Anti-inflammatory, analgesic and antipyretic activities of dried extracts of Populus tremula, Solidago virgaurea and Fraxinus excelsior. European Journal of Pharmacology 183(6):2276–2277",
+      "url": "https://doi.org/10.1016/0014-2999(90)93823-9",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_bonaterra_2007_phytodolor",
+      "type": "monograph",
+      "title": "Bonaterra G et al. (2007): Anti-inflammatory effects of Populus tremula, Fraxinus excelsior, Solidago virgaurea extracts and their combination Phytodolor® in human monocytes. Planta Medica 73(09)",
+      "url": "https://doi.org/10.1055/s-2007-986843",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_meyer_1990_antioxidant",
+      "type": "monograph",
+      "title": "Meyer B, Elstner EF (1990): Antioxidative Properties of Leaf Extracts from Populus, Fraxinus and Solidago as Components of the Anti-inflammatory Plant Drug 'PHYTODOLOR®'. Planta Medica 56(06)",
+      "url": "https://doi.org/10.1055/s-2006-961329",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_feistel_2015_salicortin",
+      "type": "monograph",
+      "title": "Feistel F et al. (2015): The Absolute Configuration of Salicortin, HCH-Salicortin and Tremulacin from Populus trichocarpa × deltoides Beaupré. Molecules 20(4):5566–5573",
+      "url": "https://doi.org/10.3390/molecules20045566",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_populus_de",
+      "type": "wikipedia",
+      "title": "Wikipedia DE: Zitter-Espe (Populus tremula)",
+      "url": "https://de.wikipedia.org/wiki/Zitter-Espe",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_pfaf_populus",
+      "type": "book",
+      "title": "Plants For A Future (PFAF): Populus tremula — European Aspen",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Populus+tremula",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_grieve_herbal_populus",
+      "type": "book",
+      "title": "Maud Grieve: A Modern Herbal — Poplar, White (botanical.com, 1931)",
+      "url": "https://botanical.com/botanical/mgmh/p/popwhi62.html",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "populus-tremula.jpg",
+    "alt": {
+      "de": "Foto von Espe",
+      "en": "Photo of Populus tremula"
+    },
+    "license": "CC BY-SA 2.5",
+    "author": "Willow",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Populus_tremula_004.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Salicortin",
+      "category": "glycoside",
+      "plant_part": "bark",
+      "percent_range": "2–10 %",
+      "note": {
+        "de": "Phenylglykosid; Hauptwirkstoff in Rinde und Blättern von Populus tremula; wird zu Salicylsäure und Hydroxycyclohexenon hydrolysiert; anti-entzündlich und antipyretisch.",
+        "en": "Phenyl glycoside; main active compound in bark and leaves of Populus tremula; hydrolysed to salicylic acid and hydroxycyclohexenone; anti-inflammatory and antipyretic."
+      }
+    },
+    {
+      "name": "Tremulacin",
+      "category": "glycoside",
+      "plant_part": "bark",
+      "percent_range": "1–5 %",
+      "note": {
+        "de": "Diglykosidisches Phenylglykosid in Populus tremula; ebenfalls zu Salicylat-Metaboliten hydrolysiert; strukturell von Pearl und Darling (1971) beschrieben.",
+        "en": "Diglycosidic phenyl glycoside in Populus tremula; also hydrolysed to salicylate metabolites; structurally described by Pearl and Darling (1971)."
+      }
+    },
+    {
+      "name": "Populin (Benzoylsalicin)",
+      "category": "glycoside",
+      "plant_part": "bark",
+      "percent_range": "0,5–3 %",
+      "note": {
+        "de": "Benzoyliertes Salicin; weitereres Salicylat-Vorläufermolekül aus Populus-Rinde; analgetisch; in klassischer Phytotherapie als 'natürliches Aspirin' bezeichnet.",
+        "en": "Benzoylated salicin; further salicylate precursor molecule from Populus bark; analgesic; referred to in classical phytotherapy as 'natural aspirin'."
+      }
+    },
+    {
+      "name": "Cinnamylsalicylat",
+      "category": "phenolic_acid",
+      "plant_part": "bark",
+      "note": {
+        "de": "Esterverbindung aus Zimtsäure und Salicylsäure; in Populus-Rinde und Knospen; antioxidative Eigenschaften nachgewiesen.",
+        "en": "Ester compound of cinnamic acid and salicylic acid; found in Populus bark and buds; antioxidant properties demonstrated."
+      }
+    },
+    {
+      "name": "Catechin",
+      "category": "flavonoid",
+      "plant_part": "bark",
+      "note": {
+        "de": "Flavan-3-ol; antioxidativ und anti-entzündlich; in Rinde und Blättern von Populus tremula; trägt zur COX-2-hemmenden Wirkung im Phytodolor-Komplex bei.",
+        "en": "Flavan-3-ol; antioxidant and anti-inflammatory; in bark and leaves of Populus tremula; contributes to COX-2 inhibitory activity in the Phytodolor complex."
+      }
+    },
+    {
+      "name": "Quercetin",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Dominantes Flavonoid in Populus-Blättern; potentes Antioxidans; hemmt Lipoxygenase und COX in vitro; synergistisch mit Salicylaten im Phytodolor-Komplex.",
+        "en": "Dominant flavonoid in Populus leaves; potent antioxidant; inhibits lipoxygenase and COX in vitro; synergistic with salicylates in the Phytodolor complex."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Terpene, Aldeyhde)",
+      "category": "essential_oil",
+      "plant_part": "flower",
+      "note": {
+        "de": "Knospen und Blüten enthalten ein harzig-aromatisches ätherisches Öl mit Terpenaldehyden; verantwortlich für den charakteristischen Geruch der Knospensalbe.",
+        "en": "Buds and flowers contain a resinous aromatic essential oil with terpene aldehydes; responsible for the characteristic scent of bud salves."
+      }
+    },
+    {
+      "name": "Tannine",
+      "category": "tannin",
+      "plant_part": "bark",
+      "note": {
+        "de": "Kondensierte und hydrolysierbare Gerbstoffe in Rinde; adstringierend; unterstützen die antientzündliche Wirkung; mitverantwortlich für die antioxidativen Eigenschaften von Populus-Extrakten.",
+        "en": "Condensed and hydrolysable tannins in bark; astringent; support the anti-inflammatory effect; partly responsible for the antioxidant properties of Populus extracts."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "bark",
+      "best_months": [
+        3,
+        4
+      ],
+      "time_of_day": {
+        "de": "Rinde junger Äste (2–4 cm Durchmesser) im Frühjahr vor oder kurz nach Blattaustrieb schälen; dann höchster Phenylglykosid-Gehalt.",
+        "en": "Peel bark from young branches (2–4 cm diameter) in spring before or just after bud break; phenyl glycoside content is highest at this time."
+      },
+      "drying": {
+        "de": "Rindenstücke bei max. 40 °C trocknen bis zur Sprödigkeit. Ätherische Öle bleiben bei niedrigerer Temperatur besser erhalten.",
+        "en": "Dry bark pieces at max. 40 °C until brittle. Essential oils are better preserved at lower temperatures."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken, dunkel und gut verschlossen in Papiertüten oder dunklen Gläsern. Salicortin-Gehalt bleibt 2 Jahre stabil.",
+        "en": "Dry, dark, well-sealed in paper bags or dark glass jars. Salicortin content remains stable for 2 years."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        2,
+        3
+      ],
+      "time_of_day": {
+        "de": "Knospen im zeitigen Frühjahr (Februar–März) vor dem Aufplatzen ernten; dann höchster Harzgehalt (Phenylglykoside, Flavonoide, ätherisches Öl).",
+        "en": "Harvest buds in early spring (February–March) before they burst open; resin content (phenyl glycosides, flavonoids, essential oil) is highest at this point."
+      },
+      "drying": {
+        "de": "Knospen frisch in Öl oder Fett einlegen (Knospensalbe) oder bei max. 35 °C trocknen. Frische Verarbeitung bevorzugt.",
+        "en": "Steep buds fresh in oil or fat (bud salve) or dry at max. 35 °C. Fresh processing preferred."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Als Salbe oder Tinktur: in dunklen Behältern, kühl gelagert. Trockene Knospen: lichtgeschützt und trocken, max. 12 Monate.",
+        "en": "As salve or tincture: in dark containers, stored cool. Dried buds: protected from light and dry, max. 12 months."
+      }
+    }
+  ]
+}

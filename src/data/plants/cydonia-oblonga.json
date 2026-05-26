@@ -1,0 +1,400 @@
+{
+  "slug": "cydonia-oblonga",
+  "names": {
+    "de": "Quitte",
+    "en": "Quince",
+    "latin": "Cydonia oblonga"
+  },
+  "family": {
+    "de": "Rosengewächse",
+    "en": "Rose family",
+    "latin": "Rosaceae"
+  },
+  "description": {
+    "de": "Die Quitte [ˈkvɪtə] ist die einzige Pflanzenart der Gattung Cydonia und gehört zur Untertribus der Kernobstgewächse (Pyrinae) innerhalb der Familie der Rosengewächse (Rosaceae). Sie wird als Obstbaum (Quittenbaum) kultiviert.",
+    "en": "The quince is the sole member of the genus Cydonia in the Malinae subtribe of the Rosaceae family. It is a deciduous tree that bears hard, aromatic bright golden-yellow pome fruit, similar in appearance to a pear. Ripe quince fruits are hard, tart, and astringent."
+  },
+  "teaser": {
+    "de": "Die Quitte [ˈkvɪtə] ist die einzige Pflanzenart der Gattung Cydonia und gehört zur Untertribus der Kernobstgewächse (...",
+    "en": "The quince is the sole member of the genus Cydonia in the Malinae subtribe of the Rosaceae family."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "throat",
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Quittensamen (unzerbrochen) in Wasser eingeweicht oder kurz aufgekocht ergeben eine schleimreiche Abkochung (Quittenschleim). Die Schleimstoffe (Mucilage) legen sich schützend auf gereizte Schleimhäute — bei Husten, Heiserkeit und milden Verdauungsbeschwerden. Die Samen dabei nie zerkauen.",
+        "en": "Quince seeds (unbroken) soaked or briefly simmered in water yield a mucilage-rich decoction. The mucilage coats irritated mucous membranes, providing relief in cough, hoarseness, and mild digestive upset. Seeds must not be chewed."
+      },
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 5
+        },
+        "water_ml": 200,
+        "steep_min": 30,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "2–5 g ganze, unzerbrochene Samen in 200 ml kaltem Wasser einweichen. 30 Minuten quellen lassen, kurz aufkochen, abseihen und warm trinken.",
+          "en": "Soak 2–5 g whole, unbroken seeds in 200 ml cold water for 30 minutes. Bring briefly to a boil, strain, and drink warm."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_cydonia",
+        "src_henriettes_cydonia",
+        "src_frontiers_cydonia"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Rohe Quittenfrüchte sind reich an Pektin, Gerbstoffen und Äpfelsäure. Als Gelee, Kompott oder Saft zubereitet unterstützen sie bei milden Durchfallerkrankungen und Verdauungsschwäche. Der hohe Pektingehalt bindet Flüssigkeit im Darm.",
+        "en": "Raw quince fruit is rich in pectin, tannins, and malic acid. Prepared as jelly, compote, or juice, it supports mild diarrhea and digestive weakness. The high pectin content binds fluid in the intestine."
+      },
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Als Gelee, Kompott oder frisch ausgepresster Saft. In kühlen Klimazonen muss die Frucht vor dem Verzehr gekocht werden.",
+        "en": "As jelly, compote, or freshly pressed juice. In cooler climates the fruit must be cooked before consumption."
+      },
+      "source_ids": [
+        "src_pfaf_cydonia",
+        "src_wiki_de_cydonia",
+        "src_frontiers_cydonia"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Frischer Quittensaft oder ein Absud aus Quittenfrüchten eignet sich als Gurgelwasser bei leichten Entzündungen der Mund- und Rachenschleimhaut. Die enthaltenen Gerbstoffe wirken adstringierend und entzündungshemmend.",
+        "en": "Fresh quince juice or a decoction of the fruit is used as a gargle for mild inflammation of the oral and pharyngeal mucosa. The tannins act as astringents with mild anti-inflammatory effect."
+      },
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Frischen Quittensaft oder verdünnten Quittenabsud mehrmals täglich kurz im Mund und Rachen spülen.",
+        "en": "Use fresh quince juice or diluted quince decoction as a mouth and throat rinse several times daily."
+      },
+      "source_ids": [
+        "src_pfaf_cydonia",
+        "src_henriettes_cydonia"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Der Quittenschleim (aus Samen) wird in Salben und Cremes zur äußerlichen Anwendung bei rissiger Haut, wunden Brustwarzen und leichten Verbrennungen eingesetzt. Die Mucilage bildet einen schützenden Film auf der Haut.",
+        "en": "Quince seed mucilage is incorporated into salves and creams for external use on cracked skin, sore nipples, and minor burns. The mucilage forms a protective film over the skin."
+      },
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "preparation": {
+        "de": "Quitten-Schleimextrakt (aus eingeweichten Samen) in neutrale Salbengrundlage einarbeiten und auf die betroffenen Hautstellen auftragen.",
+        "en": "Incorporate quince seed mucilage extract (from soaked seeds) into a neutral salve base and apply to affected skin areas."
+      },
+      "source_ids": [
+        "src_wiki_de_cydonia",
+        "src_frontiers_cydonia"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Der astringierende Syrup aus unreifen Quittenfrüchten galt in der Volksmedizin als bewährtes Mittel gegen Durchfall, besonders bei Kindern. Auch Anthimus (6. Jh.) empfahl Quitten bei schweren Durchfallerkrankungen.",
+        "en": "Syrup made from unripe quince fruit was a traditional remedy for diarrhea, especially in children. Anthimus (6th century) specifically recommended quinces for severe diarrheal conditions."
+      },
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Unreife Quittenfrüchte entsaften, den Saft einkochen und gesüßt als Sirup verwenden. Dosierung: teelöffelweise nach Bedarf.",
+        "en": "Juice unripe quince fruits, reduce the juice by simmering and sweeten to produce a syrup. Use by the teaspoon as needed."
+      },
+      "source_ids": [
+        "src_pfaf_cydonia",
+        "src_wiki_de_cydonia"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "In der Küche werden Quitten vorwiegend zu Gelees, Marmeladen und Konfitüren verarbeitet. Ihr hoher Pektingehalt begünstigt das Gelieren ohne Zusatz von Geliermittel. Getrocknete und zerstoßene Samen können als Gewürz in Heißgetränken verwendet werden.",
+        "en": "In the kitchen, quinces are primarily processed into jellies, jams, and preserves. Their high pectin content promotes gelling without added gelling agents. Dried and crushed seeds can be used as a spice in hot beverages."
+      },
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "preparation": {
+        "de": "Früchte schälen, entkernen, kochen und zu Gelees oder Konfitüren verarbeiten. Für Getränke: getrocknete Samen 5 Minuten köcheln, süßen und trinken.",
+        "en": "Peel, core, and cook fruits for jellies or preserves. For beverages: simmer dried seeds for 5 minutes, sweeten, and drink."
+      },
+      "source_ids": [
+        "src_pfaf_cydonia",
+        "src_wiki_en_cydonia"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "reife Früchte (Herbst), Samen",
+      "en": "ripe fruits (autumn), seeds"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Quittensamen enthalten Amygdalin und andere Blausäureglykoside. Ganze Samen in üblichen Mengen sind unbedenklich, da die Glycoside erst beim Zerkauen oder Zerkleinern freigesetzt werden. Samen daher niemals zerkauen oder mahlen. Große Mengen zermahlener Samen können toxisch sein.",
+      "en": "Quince seeds contain amygdalin and other cyanogenic glycosides. Whole seeds in usual amounts are safe, as the glycosides are only released upon chewing or grinding. Therefore never chew or grind the seeds. Large quantities of ground seeds can be toxic."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Die Frucht gilt in üblichen Mengen als unbedenklich. Medizinische Verwendung der Samen (Schleimabkochung in großen Mengen) in der Schwangerschaft mangels Daten vermeiden.",
+        "en": "The fruit is considered safe in culinary amounts. Medicinal use of seeds (mucilage decoction in large quantities) during pregnancy should be avoided due to lack of safety data."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Für die äußerliche Anwendung des Quitenschleims (Salbe) existieren keine bekannten Risiken. Medizinische Großmengen-Einnahme der Samen in der Stillzeit mangels Daten vermeiden.",
+        "en": "No known risks for external application of quince mucilage (salve). Medicinal large-dose seed intake during lactation should be avoided due to lack of safety data."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Quittenfrüchte und -gelees sind für Kinder geeignet. Samenzubereitungen sollten nur unter Aufsicht und in empfohlenen Mengen eingesetzt werden.",
+        "en": "Quince fruits and jellies are suitable for children. Seed preparations should only be used under supervision and in recommended amounts."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Keine bekannten Kontraindikationen für die Frucht bei üblichem Gebrauch.",
+        "en": "No known contraindications for the fruit with normal use."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Quitte (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Quitte",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Quince (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Quince",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_pfaf_cydonia",
+      "type": "monograph",
+      "title": "PFAF — Cydonia oblonga Plant Database Entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Cydonia+oblonga",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_henriettes_cydonia",
+      "type": "monograph",
+      "title": "Henriette's Herbal — King's American Dispensatory: Cydonia",
+      "url": "https://www.henriettes-herb.com/eclectic/kings/cydonia.html",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_frontiers_cydonia",
+      "type": "monograph",
+      "title": "Cydonia oblonga M., A Medicinal Plant Rich in Phytonutrients for Pharmaceuticals — Frontiers in Pharmacology 2016",
+      "url": "https://doi.org/10.3389/fphar.2016.00163",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_de_cydonia",
+      "type": "wikipedia",
+      "title": "Quitte — Wikipedia DE",
+      "url": "https://de.wikipedia.org/wiki/Quitte",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_en_cydonia",
+      "type": "wikipedia",
+      "title": "Quince — Wikipedia EN",
+      "url": "https://en.wikipedia.org/wiki/Quince",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "cydonia-oblonga.jpg",
+    "alt": {
+      "de": "Foto von Quitte",
+      "en": "Photo of Quince"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Conrad Nutschan at de.wikipedia",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Quitte_am_Baum.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Pektin (Pectin)",
+      "category": "polysaccharide",
+      "percent_range": "1.8 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Lösliches Ballaststoffpolysaccharid; verantwortlich für die Gelierfähigkeit der Frucht und die adstringierende Wirkung im Darm.",
+        "en": "Soluble dietary fibre polysaccharide responsible for the fruit's gelling capacity and astringent action in the gut."
+      }
+    },
+    {
+      "name": "Quittenschleim / Cydonin (Mucilage, Glucuronoxylan)",
+      "category": "mucilage",
+      "percent_range": "~20 % (Samen / seed coat)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Hauptschleimstoff aus der Samenschale; quillt in Wasser stark auf und bildet eine schützende Gelschicht auf gereizten Schleimhäuten.",
+        "en": "Primary mucilage from the seed coat; swells strongly in water and forms a protective gel layer on irritated mucous membranes."
+      }
+    },
+    {
+      "name": "Amygdalin",
+      "category": "glycoside",
+      "percent_range": "bis 1.5 % (Samen / seed)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Cyanogenes Glycosid; wird erst durch Zerkauen oder Mahlen der Samen enzymatisch zu Blausäure umgewandelt. Ganze Samen sind sicher.",
+        "en": "Cyanogenic glycoside; only converted enzymatically to hydrocyanic acid when seeds are chewed or ground. Whole seeds are safe."
+      }
+    },
+    {
+      "name": "5-O-Caffeoylchinasäure (5-O-Caffeoylquinic acid)",
+      "category": "phenolic_acid",
+      "percent_range": "36–57 % der Polyphenole (Fruchtschale)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Dominierender Polyphenol in der Quittenfrüchtschale; antioxidative und entzündungshemmende Eigenschaften.",
+        "en": "Dominant polyphenol in the quince peel; antioxidant and anti-inflammatory properties."
+      }
+    },
+    {
+      "name": "Rutin",
+      "category": "flavonoid",
+      "percent_range": "5.5–36 % der Polyphenole (Frucht)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Flavonoid-Glycosid; antioxidativ, unterstützt Gefäßwände.",
+        "en": "Flavonoid glycoside; antioxidant, supports vascular walls."
+      }
+    },
+    {
+      "name": "Äpfelsäure (Malic acid)",
+      "category": "other",
+      "percent_range": "1.2 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Organische Säure; verantwortlich für den charakteristischen säuerlichen Geschmack der rohen Frucht.",
+        "en": "Organic acid responsible for the characteristic sour taste of the raw fruit."
+      }
+    },
+    {
+      "name": "α-Farnesen (α-Farnesene)",
+      "category": "sesquiterpene",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Dominierendes Sesquiterpen im Quittenduft; verantwortlich für das intensive, blumig-fruchtige Aroma reifer Früchte.",
+        "en": "Dominant sesquiterpene in quince aroma; responsible for the intense, floral-fruity scent of ripe fruits."
+      }
+    },
+    {
+      "name": "Gerbstoffe / Tannine (Tannins)",
+      "category": "tannin",
+      "percent_range": "~11 % (Blätter), ~0.8 % (Frucht)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hydrolysierbare Tannine in Blättern und Früchten; adstringierende Wirkung auf Schleimhäute.",
+        "en": "Hydrolysable tannins in leaves and fruit; astringent effect on mucous membranes."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Morgens bei trockenem Wetter ernten, nach dem Tau.",
+        "en": "Harvest in the morning in dry weather, after the dew has dried."
+      },
+      "drying": {
+        "de": "Früchte nicht trocknen — frisch verwenden oder zu Gelee/Konfitüre verarbeiten. Lagerfähig ca. 4–8 Wochen kühl und trocken.",
+        "en": "Do not dry fruits — use fresh or process into jelly/jam. Can be stored for about 4–8 weeks in a cool, dry place."
+      },
+      "storage_months": 2,
+      "storage_condition": {
+        "de": "Kühl (5–10 °C), trocken, einzeln gelagert, nicht mit anderen Früchten, da das intensive Aroma übertragen wird.",
+        "en": "Cool (5–10 °C), dry, stored separately as the intense aroma transfers to other fruits."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Samen beim Verarbeiten der Früchte entnehmen und sofort oder getrocknet lagern.",
+        "en": "Remove seeds when processing the fruits; use immediately or dry and store."
+      },
+      "drying": {
+        "de": "Samen ausbreiten und bei Raumtemperatur an einem luftigen, schattigen Ort trocknen (1–2 Wochen). Vollständig trocken in luftdichten Behältern lagern.",
+        "en": "Spread seeds and dry at room temperature in a well-ventilated, shaded place (1–2 weeks). Store fully dry in airtight containers."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Dunkel, trocken, luftdicht, bei Raumtemperatur. Bis zu 2 Jahre haltbar.",
+        "en": "Dark, dry, airtight, at room temperature. Shelf life up to 2 years."
+      }
+    }
+  ]
+}

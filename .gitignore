@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.astro/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Astro
+.cache/
+
+# Backups (per Codex-Review v1: do not pollute src/ + git)
+*.backup_*
+*.backup_*/
+_backups/
+_tmp/
+
+# Wrangler / Cloudflare
+.wrangler/
+
+# Claude session crash-resilience files (project-local, large, churn)
+RESPONSE_COUNTER.txt
+DIALOG_LOG.md
+SESSION_LOG.md
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Claude Code local config (host-specific, e.g. settings.local.json)
+.claude/
+
+# Git-internal backups (Session 12 emergency snapshots — never push)
+.git.backup_*
+.git.broken_*

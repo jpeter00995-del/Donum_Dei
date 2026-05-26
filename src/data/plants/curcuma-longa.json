@@ -1,0 +1,566 @@
+{
+  "slug": "curcuma-longa",
+  "names": {
+    "de": "Kurkuma",
+    "en": "Turmeric",
+    "latin": "Curcuma longa"
+  },
+  "family": {
+    "de": "Ingwergewächse",
+    "en": "Ginger family",
+    "latin": "Zingiberaceae"
+  },
+  "description": {
+    "de": "Die Kurkuma oder Kurkume (Curcuma longa), auch Gelber Ingwer, Safranwurz(el), Gelbwurz(el), Gilbwurz(el) oder Curcuma genannt, ist eine Pflanzenart aus der Gattung Curcuma innerhalb der Familie der Ingwergewächse (Zingiberaceae). Sie stammt aus Südasien und wird in den Tropen kultiviert.",
+    "en": "Turmeric, or Curcuma longa, is a flowering plant in the ginger family Zingiberaceae. It is a perennial, rhizomatous, herbaceous plant native to the Indian subcontinent and Southeast Asia that requires temperatures between 20 and 30 °C and high annual rainfall to thrive. Plants are gathered each year for their rhizomes, some for propagation in the following season and some for consumption or dyeing."
+  },
+  "teaser": {
+    "de": "Die Kurkuma oder Kurkume (Curcuma longa), auch Gelber Ingwer, Safranwurz(el), Gelbwurz(el), Gilbwurz(el) oder Curcuma...",
+    "en": "Turmeric, or Curcuma longa, is a flowering plant in the ginger family Zingiberaceae."
+  },
+  "uses": [
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 3
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 8,
+        "instructions": {
+          "de": "PULVER / GEWÜRZ (Kommission E): 1,5–3 g getrocknetes Kurkumapulver (gemahlenes Rhizom) täglich in 2–3 Portionen zu den Mahlzeiten einnehmen, z. B. in warme Speisen, Suppen oder Milch eingerührt. Tagesdosis laut Kommission E: 1,5–3 g Droge. Anwendungsgebiet: dyspeptische Beschwerden (Völlegefühl, Blähungen, träge Verdauung, Appetitlosigkeit). Nicht bei Gallensteinen oder Verschluss der Gallenwege ohne ärztliche Abklärung anwenden. Bei längerem Einsatz (> 8 Wochen) und anhaltenden Beschwerden Arzt aufsuchen.",
+          "en": "POWDER / SPICE (Kommission E): 1.5–3 g dried turmeric powder (ground rhizome) per day in 2–3 portions with meals — stir into warm dishes, soups or milk. Daily dose per Kommission E: 1.5–3 g crude drug. Indication: dyspeptic complaints (bloating, flatulence, sluggish digestion, loss of appetite). Do not use in gallstones or bile duct obstruction without medical evaluation. Seek medical advice if complaints persist beyond 8 weeks."
+        }
+      },
+      "description": {
+        "de": "Getrocknetes Kurkumapulver (Rhizom) bei dyspeptischen Beschwerden — positive Kommission-E-Monographie für Curcumae longae rhizoma.",
+        "en": "Dried turmeric rhizome powder for dyspeptic complaints — positive Kommission E monograph for Curcumae longae rhizoma."
+      },
+      "source_ids": [
+        "src_kommission_e_curcuma",
+        "src_escop_curcuma",
+        "src_ema_curcuma_trad"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 6,
+        "instructions": {
+          "de": "TINKTUR (1:5 in 45–60 % Ethanol): 1–2 ml (~20–40 Tropfen) 3× täglich vor den Mahlzeiten, mit etwas Wasser verdünnt. Traditionelle Anwendung (EMA) zur Linderung leichter dyspeptischer Beschwerden, Völlegefühl und Blähungen. Wirkungseintritt nach 1–2 Wochen regelmäßiger Einnahme. Nicht bei Gallenwegsobstruktion oder Gallensteinen ohne Arztbefragung. Wegen Ethanolgehalts nicht bei Alkohol- oder Lebererkrankungen.",
+          "en": "TINCTURE (1:5 in 45–60 % ethanol): 1–2 ml (~20–40 drops) 3× daily before meals, diluted in water. Traditional use (EMA) for relief of mild dyspeptic complaints, bloating and flatulence. Effect after 1–2 weeks of regular use. Avoid in bile duct obstruction or gallstones without medical advice. Due to ethanol content, not for alcohol or liver disease."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Kurkuma-Tinktur zur Unterstützung der Verdauung — EMA-anerkannte traditionelle Anwendung.",
+        "en": "Traditional turmeric tincture for digestive support — EMA-recognised traditional use."
+      },
+      "source_ids": [
+        "src_ema_curcuma_trad",
+        "src_escop_curcuma",
+        "src_who_curcuma"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 1.5
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 6,
+        "instructions": {
+          "de": "AUFGUSS / ABKOCHUNG: 1–1,5 g fein geriebenes oder gemahlenes Kurkuma-Rhizom mit 200 ml kochendem Wasser übergießen (alternativ: kurz aufkochen, 5 Min. köcheln), 8–10 Minuten ziehen lassen, abseihen. 2–3× täglich frisch zubereitet, bevorzugt 20–30 Minuten vor den Mahlzeiten. Einen Hauch schwarzen Pfeffer (Piperin) und/oder etwas Fett (Kokosöl, Milch) zugeben — verbessert die Bioverfügbarkeit von Curcumin erheblich. Traditionelle Anwendung bei Verdauungsbeschwerden und zur Gallensaftförderung. Nicht bei Gallenwegsverschluss oder bekannten Gallensteinen mit Koliken.",
+          "en": "INFUSION / DECOCTION: 1–1.5 g finely grated or ground turmeric rhizome in 200 ml boiling water (or simmer briefly 5 min), steep 8–10 min, strain. 2–3× daily fresh, preferably 20–30 min before meals. Add a pinch of black pepper (piperine) and/or a little fat (coconut oil, milk) — markedly improves curcumin bioavailability. Traditional use for digestive complaints and to stimulate bile flow. Not for bile duct obstruction or known symptomatic gallstones."
+        }
+      },
+      "description": {
+        "de": "Kurkuma-Aufguss aus gemahlenem Rhizom als Verdauungstee — bitterer Geschmack, choleretische und karminative Wirkung.",
+        "en": "Turmeric infusion from ground rhizome as digestive tea — bitter taste, choleretic and carminative action."
+      },
+      "source_ids": [
+        "src_escop_curcuma",
+        "src_ema_curcuma_trad",
+        "src_who_curcuma",
+        "src_pfaf_curcuma"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "joints",
+        "inflammation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "doses_per_day": 1,
+        "instructions": {
+          "de": "KÜCHE / GEWÜRZ: 2–4 g Kurkumapulver täglich in Speisen, Smoothies oder das sogenannte 'Goldene-Milch'-Getränk (250 ml warme Pflanzenmilch + 1 TL Kurkuma + Prise Pfeffer + Ingwer + etwas Fett) einarbeiten. Volksheilkundlich und in der Ayurveda als antientzündliche Begleitmaßnahme bei Gelenkbeschwerden verwendet. Klinische Studien zeigen moderaten Effekt auf CRP und IL-6 bei regelmäßiger Einnahme, jedoch bei niedrigen Curcumin-Bioverfügbarkeiten im normalen Pulver. Ergänzt eine ausgewogene Ernährung; ersetzt keine medizinische Therapie bei entzündlich-rheumatischen Erkrankungen.",
+          "en": "KITCHEN / SPICE: 2–4 g turmeric powder daily in food, smoothies or the so-called 'golden milk' drink (250 ml warm plant milk + 1 tsp turmeric + pinch of pepper + ginger + a little fat). Used in folk medicine and Ayurveda as anti-inflammatory adjunct for joint complaints. Clinical studies show moderate effect on CRP and IL-6 with regular intake, though bioavailability of curcumin in plain powder is low. Complements a balanced diet; does not replace medical therapy for inflammatory-rheumatic conditions."
+        }
+      },
+      "description": {
+        "de": "Kurkuma in der Küche als antientzündliches Gewürz — 'Goldene Milch' und Currygerichte, Ayurveda-Tradition bei Gelenkbeschwerden.",
+        "en": "Turmeric in the kitchen as an anti-inflammatory spice — 'golden milk' and curry dishes, Ayurvedic tradition for joint complaints."
+      },
+      "source_ids": [
+        "src_who_curcuma",
+        "src_pfaf_curcuma",
+        "src_wp_de_curcuma",
+        "src_clinical_curcuma_joints"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "PASTE / SALBE (äußerlich): Frisches geriebenes Rhizom oder Kurkumapulver mit etwas Wasser oder Kokosöl zu einer Paste anrühren, auf die betroffene Hautstelle auftragen, 20–30 Minuten einwirken lassen, dann abwaschen. Volkstümlich bei oberflächlichen Wunden, Hautirritationen, Ekzemen und kleinen Entzündungen eingesetzt. Achtung: Kurkuma färbt Haut und Kleidung dauerhaft intensiv gelb — Handschuhe tragen, Kleidung schützen. Bei offenen Wunden oder größeren Hautdefekten ärztliche Abklärung bevorzugen. Nicht in Augen oder auf Schleimhäute auftragen.",
+          "en": "PASTE / SALVE (external): Mix fresh grated rhizome or turmeric powder with a little water or coconut oil into a paste, apply to affected skin area, leave 20–30 min, then rinse off. Folk use for superficial wounds, skin irritations, eczema and minor inflammations. Caution: turmeric stains skin and clothing intensely yellow — wear gloves, protect clothing. For open wounds or larger skin defects prefer medical evaluation. Do not apply to eyes or mucous membranes."
+        }
+      },
+      "description": {
+        "de": "Kurkumapaste äußerlich auf Haut — volksheilkundliches Mittel bei Hautentzündungen, Ekzemen und kleinen Wunden in der Ayurveda und asiatischen Volksmedizin.",
+        "en": "Turmeric paste applied externally — folk remedy for skin inflammations, eczema and minor wounds in Ayurveda and Asian folk medicine."
+      },
+      "source_ids": [
+        "src_who_curcuma",
+        "src_pfaf_curcuma",
+        "src_wp_en_curcuma"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "liver",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_ml": {
+          "min": 0.5,
+          "max": 1.5
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "BITTERE VERDAUUNGSTINKTUR (volksheilkundlich): 0,5–1,5 ml Kurkuma-Tinktur (1:5 in 45 % Ethanol) zusammen mit anderen Bitterstoffdrogen (z. B. Artischocke, Löwenzahn, Mariendistel) in einer Mischtinktur, 3× täglich vor den Mahlzeiten, mit Wasser verdünnt. Traditionell als Leber- und Gallentonikum verwendet — stimuliert Gallenfluss und fördert die Fettverdauung. Volksheilkundliche Anwendung in der deutschen und österreichischen Kräutermedizin. Nicht bei Gallensteinen ohne Arztbefragung; Gallensteinkoliken können ausgelöst werden.",
+          "en": "BITTER DIGESTIVE TINCTURE (folk): 0.5–1.5 ml turmeric tincture (1:5 in 45 % ethanol) combined with other bitter herbs (e.g. artichoke, dandelion, milk thistle) as a compound tincture, 3× daily before meals, diluted in water. Traditionally used as a liver and bile tonic — stimulates bile flow and promotes fat digestion. Folk use in German and Austrian herbal medicine. Not for gallstones without medical advice; gallstone colic can be triggered."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Bittertonikum-Tinktur mit Kurkuma als Hauptbestandteil — Leber- und Gallenunterstützung in der deutschen Kräutermedizin.",
+        "en": "Folk bitter tonic tincture with turmeric as main component — liver and bile support in German herbal medicine."
+      },
+      "source_ids": [
+        "src_wichtl_curcuma",
+        "src_escop_curcuma",
+        "src_kommission_e_curcuma"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "immune",
+        "fever"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "AYURVEDISCHE ANWENDUNG (traditionell): Kurkuma-Pulver in warmer Milch mit Honig (Haldi-Doodh / Kurkuma-Latte) bei Erkältungen, Halsschmerzen und fieberhaften Infekten. In der Ayurveda und südasiatischen Volksmedizin seit Jahrtausenden als stärkendes Allgemeinmittel und immunmodulierendes Hausmittel verwendet. Keine klinischen Belege für antivirale Wirkung beim Menschen; adjuvante und wohltuende Verwendung. Nicht als Ersatz für schulmedizinische Therapie bei schweren Infekten.",
+          "en": "AYURVEDIC USE (traditional): Turmeric powder in warm milk with honey (Haldi-Doodh / turmeric latte) for colds, sore throat and febrile infections. Used for millennia in Ayurveda and South Asian folk medicine as a fortifying general remedy and immunomodulatory home remedy. No clinical evidence of antiviral activity in humans; adjunctive and comforting use. Not a substitute for conventional therapy in severe infections."
+        }
+      },
+      "description": {
+        "de": "Traditionelles Erkältungsgetränk 'Haldi-Doodh' (Kurkuma-Latte) — ayurvedisches Hausmittel bei Erkältung, Halsschmerzen und fieberhaften Infekten.",
+        "en": "Traditional cold remedy 'Haldi-Doodh' (turmeric latte) — Ayurvedic home remedy for colds, sore throat and febrile infections."
+      },
+      "source_ids": [
+        "src_who_curcuma",
+        "src_wp_de_curcuma",
+        "src_wp_en_curcuma"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "Wurzelstock (frisch oder getrocknet, Pulver)",
+      "en": "rhizome (fresh or dried, powder)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG: Kurkuma als Gewürz in üblichen Kochmengen gilt als sicher. Hochdosierte Extrakte (Curcumin-Kapseln, standardisierte Extrakte) können Magen-Darm-Beschwerden, Übelkeit oder erhöhte Leberwerte verursachen — bei Langzeiteinnahme und Hochdosistherapie ärztliche Kontrolle. Kurkuma regt die Gallenproduktion an: bei Gallensteinen oder Gallenwegsobstruktion (Verschluss der Gallenwege) kann dies eine schmerzhafte Gallenkolik auslösen — Kontraindikation beachten. Bei bekannter Überempfindlichkeit gegenüber Curcuma-Arten oder anderen Zingiberaceae (Ingwergewächse) Anwendung meiden. Kurkuma färbt intensiv gelb — Hände, Kleidung, Küchenutensilien schützen.",
+      "en": "IMPORTANT: Turmeric as a culinary spice in usual cooking amounts is considered safe. High-dose extracts (curcumin capsules, standardised extracts) may cause GI complaints, nausea or elevated liver values — medical supervision recommended for long-term or high-dose use. Turmeric stimulates bile production: in gallstones or bile duct obstruction this can trigger painful biliary colic — observe contraindication. Avoid if known hypersensitivity to Curcuma species or other Zingiberaceae. Turmeric stains intensely yellow — protect hands, clothing and utensils."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Kurkuma als Küchengewürz in normalen Mengen gilt als unbedenklich. Medizinische Dosen (> 3 g/Tag Pulver) oder konzentrierte Curcumin-Extrakte in der Schwangerschaft meiden — unzureichende Sicherheitsdaten, theoretisch uterus-stimulierende Wirkung in sehr hohen Dosen (Ayurveda nutzt Kurkuma traditionell als Emmenagogum). Laut WHO und EMA: traditionelle Anwendung in Schwangerschaft nicht empfohlen.",
+        "en": "Turmeric as a culinary spice in normal cooking amounts is considered safe in pregnancy. Medicinal doses (> 3 g/day powder) or concentrated curcumin extracts should be avoided — insufficient safety data; theoretically uterus-stimulating at very high doses (Ayurveda traditionally uses turmeric as an emmenagogue). Per WHO and EMA: traditional medicinal use not recommended in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Als Küchengewürz in üblichen Mengen unbedenklich. Hochdosierte Curcumin-Extrakte in der Stillzeit mangels Daten nicht empfohlen — Übergang in die Muttermilch nicht ausreichend untersucht.",
+        "en": "As a culinary spice in usual amounts, considered safe during lactation. High-dose curcumin extracts not recommended during breastfeeding due to lack of data — transfer to breast milk insufficiently studied."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Kurkuma als Küchengewürz in kindgerechten Mengen unbedenklich. Medizinische Zubereitungen (Kapseln, Tinkturen, standardisierte Extrakte) für Kinder unter 12 Jahren wegen fehlender Sicherheitsdaten nicht empfohlen. Bei Kindern mit Gallenproblemen grundsätzlich Arzt befragen.",
+        "en": "Turmeric as a culinary spice in age-appropriate amounts is safe for children. Medicinal preparations (capsules, tinctures, standardised extracts) not recommended for children under 12 due to lack of safety data. Consult a doctor for children with bile problems."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Verschluss der Gallenwege (Choledocholithiasis, Gallengangstenose, Cholestase) — erhöhte Gallenstimulation kann zur schmerzhaften Gallenkolik führen.",
+        "en": "Bile duct obstruction (choledocholithiasis, bile duct stenosis, cholestasis) — increased bile stimulation can trigger painful biliary colic."
+      },
+      {
+        "de": "Symptomatische Gallensteine (mit Koliken) — Kurkuma regt die Gallenblase zur Kontraktion an und kann Koliken provozieren. Bei asymptomatischen Gallensteinen: ärztliche Rücksprache.",
+        "en": "Symptomatic gallstones (with colic) — turmeric stimulates gallbladder contraction and can provoke biliary colic. Asymptomatic gallstones: consult a physician."
+      },
+      {
+        "de": "Überempfindlichkeit (Allergie) gegen Curcuma longa oder andere Ingwergewächse (Zingiberaceae).",
+        "en": "Hypersensitivity (allergy) to Curcuma longa or other plants of the Zingiberaceae family."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (medizinische Dosen / konzentrierte Extrakte) — mangels Daten zu meiden.",
+        "en": "Pregnancy and lactation (medicinal doses / concentrated extracts) — avoid due to lack of data."
+      },
+      {
+        "de": "Akute Gallenentzündung (Cholezystitis) oder akute Hepatitis — keine Anwendung ohne ärztliche Genehmigung.",
+        "en": "Acute cholecystitis or acute hepatitis — do not use without medical supervision."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulantien / Thrombozytenaggregationshemmer (Warfarin, Phenprocoumon, Clopidogrel, Aspirin)",
+        "mechanism": {
+          "de": "Curcumin hemmt in vitro die Thrombozytenaggregation und kann die antikoagulatorische Wirkung von Blutverdünnern additiv verstärken. Bei gleichzeitiger Einnahme hochdosierter Curcumin-Extrakte besteht ein erhöhtes Blutungsrisiko (verlängerte INR). Küchenmengen als unbedenklich eingestuft. Bei medizinischer Anwendung: INR-Kontrolle und Arztabsprache.",
+          "en": "Curcumin inhibits platelet aggregation in vitro and may additively enhance anticoagulant effects. With high-dose curcumin supplements there is an increased bleeding risk (prolonged INR). Culinary amounts are considered safe. For medicinal use: INR monitoring and medical consultation."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_curcuma"
+      },
+      {
+        "drug_class": "Antidiabetika (Metformin, Sulfonylharnstoffe, Insulin)",
+        "mechanism": {
+          "de": "Curcumin kann den Blutzucker moderat senken (insulinsensibilisierender Effekt in Tierstudien und kleineren klinischen Studien). Bei gleichzeitiger Einnahme antidiabetischer Medikamente besteht theoretisches Hypoglykämie-Risiko. Blutzuckerkontrolle empfohlen.",
+          "en": "Curcumin may moderately lower blood glucose (insulin-sensitising effect in animal studies and smaller clinical trials). Combined with antidiabetic drugs, there is a theoretical hypoglycaemia risk. Blood glucose monitoring is recommended."
+        },
+        "severity": "monitor",
+        "source_id": "src_who_curcuma"
+      },
+      {
+        "drug_class": "CYP3A4-Substrate (z. B. bestimmte Statine, Immunsuppressiva, Benzodiazepine)",
+        "mechanism": {
+          "de": "Hochdosiertes Curcumin hemmt in vitro CYP3A4 und CYP2C9 (Phase-I-Metabolismus). Theoretisch erhöhte Plasmaspiegel von Medikamenten, die über diese Enzyme verstoffwechselt werden. Klinische Relevanz bei normalen Küchenmengen nicht belegt; bei hochdosierten Extrakten und Polypharmazie: ärztliche Rücksprache.",
+          "en": "High-dose curcumin inhibits CYP3A4 and CYP2C9 in vitro (Phase-I metabolism). Theoretical increase in plasma levels of drugs metabolised by these enzymes. Clinical relevance at culinary amounts not established; with high-dose extracts and polypharmacy: medical consultation."
+        },
+        "severity": "monitor",
+        "source_id": "src_clinical_curcuma_joints"
+      },
+      {
+        "drug_class": "Protonenpumpenhemmer / H2-Blocker (Omeprazol, Pantoprazol, Ranitidin)",
+        "mechanism": {
+          "de": "Kurkuma stimuliert die Magensäuresekretion und die Gallensaftproduktion — kann bei Patienten mit Ulkus oder Reflux unter Säureblockern eine Verschlechterung der Beschwerden verursachen oder die Wirkung der Säureblockade abschwächen. Anwendung bei bekanntem Ulkus: ärztliche Abklärung.",
+          "en": "Turmeric stimulates gastric acid secretion and bile production — in patients with ulcer or reflux on acid-blocking therapy, it may worsen symptoms or reduce the effect of acid blockade. Use in known peptic ulcer: medical evaluation required."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_curcuma"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Kurkuma (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Kurkuma",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Turmeric (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Turmeric",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_kommission_e_curcuma",
+      "type": "monograph",
+      "title": "Kommission E — Curcumae longae rhizoma (Kurkumawurzelstock), Monographie (positiv), BAnz Nr. 223, 1985",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/curcumae-longae-rhizoma.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_ema_curcuma_trad",
+      "type": "monograph",
+      "title": "EMA/HMPC — Community herbal monograph on Curcuma longa L., rhizoma (traditional use assessment)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/curcumae-longae-rhizoma",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_curcuma",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Curcumae Longae Rhizoma (Turmeric Root), 2nd edition (2003) / Online edition 2009",
+      "url": "https://escop.com/downloads/turmeric/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_who_curcuma",
+      "type": "monograph",
+      "title": "WHO Monographs on Selected Medicinal Plants — Volume 1: Rhizoma Curcumae Longae",
+      "url": "https://apps.who.int/iris/handle/10665/42052",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_curcuma",
+      "type": "book",
+      "title": "Wichtl, M. (Hrsg.) — Teedrogen und Phytopharmaka, 5. Auflage, Curcumae longae rhizoma, Wissenschaftliche Verlagsgesellschaft, Stuttgart 2009",
+      "url": "https://www.wissenschaftliche.de/buecher/pharmazie/pharmazeutische-biologie/teedrogen-und-phytopharmaka",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_curcuma",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Curcuma longa database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Curcuma+longa",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_curcuma",
+      "type": "wikipedia",
+      "title": "Kurkuma (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Kurkuma",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_curcuma",
+      "type": "wikipedia",
+      "title": "Turmeric (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Turmeric",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinical_curcuma_joints",
+      "type": "monograph",
+      "title": "Paultre K. et al. — Therapeutic effects of turmeric or curcumin extract on pain and function for individuals with knee osteoarthritis: a systematic review. BMJ Open Sport & Exercise Medicine, 2021; 7(1): e000935. DOI: 10.1136/bmjsem-2020-000935",
+      "url": "https://doi.org/10.1136/bmjsem-2020-000935",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_curcuma",
+      "type": "wikidata",
+      "title": "Curcuma longa — Wikidata entity Q131",
+      "url": "https://www.wikidata.org/wiki/Q131",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "curcuma-longa.jpg",
+    "alt": {
+      "de": "Foto von Kurkuma",
+      "en": "Photo of Turmeric"
+    },
+    "license": "CC BY 3.0",
+    "author": "J.M.Garg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Curcuma_longa_(Haldi)_Im_IMG_2441.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Curcumin (Diferuloylmethan, E100)",
+      "category": "phenolic_acid",
+      "percent_range": "2-5 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Hauptwirkstoff und namensgebende Leitsubstanz des Kurkuma-Rhizoms. Curcumin ist ein Diarylheptanoid-Polyphenol mit intensiv gelbem Farbton (Lebensmittelfarbe E100). Entzündungshemmende Wirkung über Hemmung von NF-κB, COX-2 und Lipoxygenase; antioxidativ, choleretisch (gallensaftfördernd) und hepatoprotektiv. Bioverfügbarkeit aus dem Pulver sehr gering (~1 %); steigt mit Piperin (aus schwarzem Pfeffer) oder Lipidträgern deutlich an.",
+        "en": "Main active compound and lead substance of the turmeric rhizome. Curcumin is a diarylheptanoid polyphenol with intense yellow colour (food colourant E100). Anti-inflammatory via inhibition of NF-κB, COX-2 and lipoxygenase; antioxidant, choleretic (bile-stimulating) and hepatoprotective. Bioavailability from powder very low (~1 %); markedly increased by piperine (from black pepper) or lipid carriers."
+      }
+    },
+    {
+      "name": "Demethoxycurcumin",
+      "category": "phenolic_acid",
+      "percent_range": "0.5-2 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Natürliche Curcuminoid-Analoga neben Curcumin — Demethoxycurcumin trägt zur Gesamtwirkung des Curcuminoid-Komplexes bei. Pharmakologische Eigenschaften ähnlich Curcumin (antioxidativ, entzündungshemmend), jedoch geringere Intensität. Handelsextrakte enthalten typischerweise ein Gemisch aller drei Curcuminoide im Verhältnis ca. 75:15:10 (Curcumin:Demethoxycurcumin:Bisdemethoxycurcumin).",
+        "en": "Natural curcuminoid analogue alongside curcumin — demethoxycurcumin contributes to the total curcuminoid complex activity. Pharmacological properties similar to curcumin (antioxidant, anti-inflammatory) but of lower intensity. Commercial extracts typically contain a blend of all three curcuminoids in approximately 75:15:10 ratio."
+      }
+    },
+    {
+      "name": "Bisdemethoxycurcumin",
+      "category": "phenolic_acid",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Drittes natürliches Curcuminoid im Rhizom — mengenmäßig geringster Anteil der drei Curcuminoide. Besitzt ebenfalls antioxidative und schwach entzündungshemmende Eigenschaften; zeigt in In-vitro-Studien teilweise andere Aktivitätsmuster als Curcumin.",
+        "en": "Third natural curcuminoid in the rhizome — the smallest proportion of the three curcuminoids. Also exhibits antioxidant and weakly anti-inflammatory properties; shows somewhat different activity patterns from curcumin in in vitro studies."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (ar-Turmeron, Turmeron, Zingiberen, Curcumen)",
+      "category": "essential_oil",
+      "percent_range": "3-7 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Das ätherische Öl macht 3–7 % des getrockneten Rhizoms aus und besteht hauptsächlich aus Sesquiterpenen (ar-Turmeron, α-Turmeron, β-Turmeron ~50–60 %) sowie Monoterpenen (Zingiberen, Curcumen). Verantwortlich für den charakteristischen würzig-erdigen Geruch und Geschmack. Zeigt in vitro antimikrobielle und entzündungshemmende Eigenschaften; trägt zur Gesamtwirkung der Ganzdrogen-Zubereitung bei.",
+        "en": "The essential oil constitutes 3–7 % of the dried rhizome, consisting mainly of sesquiterpenes (ar-turmerone, α-turmerone, β-turmerone ~50–60 %) and monoterpenes (zingiberene, curcumene). Responsible for the characteristic spicy-earthy aroma and taste. Shows antimicrobial and anti-inflammatory properties in vitro; contributes to the overall activity of whole-drug preparations."
+      }
+    },
+    {
+      "name": "Stärke (Amylose, Amylopektin)",
+      "category": "polysaccharide",
+      "percent_range": "30-40 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Kurkuma-Rhizom enthält großen Mengen Stärke als Hauptspeicherstoff — Hauptbestandteil des Rhizoms auf Trockengewichtsbasis. Ernährungsphysiologisch relevant; trägt nicht wesentlich zur pharmazeutischen Wirkung bei. Erklärt die Verwendung von Kurkumapulver als Verdickungsmittel und Mehlersatz in der Lebensmittelindustrie.",
+        "en": "Turmeric rhizome contains large amounts of starch as the main storage substance — principal component on a dry-weight basis. Nutritionally relevant; does not contribute significantly to the pharmaceutical activity. Explains the use of turmeric powder as a thickener and flour substitute in the food industry."
+      }
+    },
+    {
+      "name": "Bittere Sesquiterpene (ar-Turmeron als Bitterkomponente, Zingiberen)",
+      "category": "sesquiterpene",
+      "percent_range": "1-3 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Sesquiterpene aus dem ätherischen Öl — neben den Curcuminoiden mitverantwortlich für den charakteristischen leicht bitteren, würzigen Geschmack des Kurkumas. Tragen zur choleretischen (gallenstimulierenden) und karminativen Wirkung der Gesamtdroge bei. In der Kommission-E-Bewertung als Teil des Wirkstoffkomplexes anerkannt.",
+        "en": "Sesquiterpenes from the essential oil — alongside curcuminoids, contribute to the characteristic slightly bitter, spicy taste of turmeric. Contribute to the choleretic (bile-stimulating) and carminative action of the whole drug. Recognised as part of the active complex in the Kommission E assessment."
+      }
+    },
+    {
+      "name": "Proteine und Aminosäuren",
+      "category": "other",
+      "percent_range": "6-8 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Kurkuma-Rhizom enthält nennenswerte Proteinanteile (6–8 % des Trockengewichts). Nutritiv relevant; pharmakologisch nicht primär bedeutsam. Ein Glykoprotein (Turmerin) zeigt in vitro antioxidative und proteinaseinhibierende Eigenschaften.",
+        "en": "Turmeric rhizome contains notable protein content (6–8 % of dry weight). Nutritionally relevant; not primarily pharmacologically significant. A glycoprotein (turmerin) shows antioxidant and proteinase-inhibiting properties in vitro."
+      }
+    },
+    {
+      "name": "Mineralien (Kalium, Eisen, Mangan, Zink)",
+      "category": "mineral",
+      "percent_range": "3-5 % (Gesamtasche)",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Kurkuma-Rhizom ist reich an Kalium und enthält nennenswerte Mengen Eisen und Mangan — ernährungsphysiologisch bei regelmäßigem Verzehr als Gewürz relevant. In therapeutischen Dosierungen (1,5–3 g/Tag) leisten die Mineralien keinen bedeutenden Beitrag zur Tageszufuhr. Mangan wird in Enzym-Cofaktoren (Superoxid-Dismutase) benötigt.",
+        "en": "Turmeric rhizome is rich in potassium and contains notable amounts of iron and manganese — nutritionally relevant with regular use as a spice. At therapeutic dosing (1.5–3 g/day) the minerals make no significant contribution to daily intake. Manganese is required in enzyme cofactors (superoxide dismutase)."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "rhizome",
+      "best_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "time_of_day": {
+        "de": "In den Anbaugebieten (Süd- und Südostasien, Karibik) werden die Rhizome in der Trockenzeit geerntet — 7–10 Monate nach der Pflanzung, wenn die oberirdischen Teile (Blätter, Stängel) abgestorben oder vergilbt sind. Tageszeitlich keine strengen Vorgaben; Ernte bevorzugt an trockenen Tagen für bessere Lagerbarkeit.",
+        "en": "In cultivation areas (South and Southeast Asia, Caribbean) rhizomes are harvested in the dry season — 7–10 months after planting, when the aerial parts (leaves, stems) have died back or yellowed. No strict time-of-day requirements; harvest preferred on dry days for better storage."
+      },
+      "drying": {
+        "de": "Frisch geerntete Rhizome zunächst gründlich waschen und Wurzeln entfernen. Für die Trocknung: in ca. 5–7 cm lange Stücke schneiden oder in Scheiben (ca. 5 mm), bei 50–60 °C im Dörrgerät oder Backofen (leicht geöffnete Tür) 6–12 Stunden trocknen bis die Stücke hart und spröde sind. Alternativ traditionell: 45–50 Minuten in Wasser blättern (um Bitterstoffe zu reduzieren und Farbe zu fixieren), dann bei Raumtemperatur an einem luftigen, schattigen Ort 10–15 Tage trocknen. Getrocknete Rhizome dann in einer Kaffeemühle zu feinem Pulver mahlen. Frische Rhizome sind direkt in der Küche verwendbar und im Kühlschrank 2–3 Wochen haltbar.",
+        "en": "Freshly harvested rhizomes: wash thoroughly and remove roots. For drying: cut into 5–7 cm pieces or slices (~5 mm), dehydrate at 50–60 °C in a food dehydrator or oven (door slightly ajar) for 6–12 hours until pieces are hard and brittle. Traditional method: simmer in water for 45–50 minutes (to reduce bitterness and fix colour), then air-dry in a ventilated shaded spot for 10–15 days. Dry rhizomes are ground in a coffee grinder to fine powder. Fresh rhizomes can be used directly in the kitchen and keep 2–3 weeks refrigerated."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Gemahlenes Kurkumapulver luftdicht in dunklen Glas- oder Blechdosen aufbewahren, kühl, trocken und lichtgeschützt. Haltbarkeit Pulver: 2–3 Jahre bei guter Lagerung (Curcuminoid-Gehalt nimmt mit Licht und Wärme ab). Ganze getrocknete Rhizome sind länger haltbar als Pulver. Frisches Rhizom: kühl (Kühlschrank) 2–3 Wochen, tiefgefroren 6–12 Monate.",
+        "en": "Store ground turmeric powder airtight in dark glass or tin containers, cool, dry and away from light. Shelf life of powder: 2–3 years with good storage (curcuminoid content decreases with light and heat exposure). Whole dried rhizomes keep longer than powder. Fresh rhizome: refrigerated 2–3 weeks, frozen 6–12 months."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Kurkuma-Blätter werden in Südasien und Südostasien als Kochzutat und traditionelles Heilmittel verwendet — Ernte von frischen, ausgewachsenen Blättern während der Hauptwachstumsperiode (Regenzeit), bevorzugt am Morgen nach dem Trocknen des Taus. Blätter können frisch (als Wickel für gedämpfte Gerichte, z. B. patoleo in Goa) oder getrocknet verwendet werden.",
+        "en": "Turmeric leaves are used in South and Southeast Asia as a culinary ingredient and traditional remedy — harvest fresh, fully developed leaves during the main growing period (rainy season), preferably in the morning after dew has dried. Leaves can be used fresh (as wrappers for steamed dishes, e.g. patoleo in Goa) or dried."
+      },
+      "drying": {
+        "de": "Frische Kurkuma-Blätter dünn ausgebreitet im Schatten an luftigem Ort bei max. 40 °C trocknen, bis sie trocken-knusprig sind (ca. 3–5 Tage). Nicht in der prallen Sonne trocknen — Chlorophyll und Aromastoffe werden zerstört. Getrocknet und pulverisiert als Würze oder zur Teezubereitung verwendbar. Frische Blätter können auch als Gemüse (Curries) oder als Umhüllung für gedämpfte Speisen verwendet werden.",
+        "en": "Spread fresh turmeric leaves thinly in the shade in a well-ventilated spot at max. 40 °C until dry and crisp (approx. 3–5 days). Do not dry in direct sunlight — chlorophyll and aromatic compounds are destroyed. Dried and powdered, they can be used as a seasoning or for tea preparation. Fresh leaves can also be used as a vegetable (curries) or as a wrapper for steamed dishes."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknete Kurkuma-Blätter luftdicht, dunkel und kühl aufbewahren — Haltbarkeit ca. 12 Monate. Frische Blätter im Kühlschrank in feuchtem Tuch eingewickelt 5–7 Tage haltbar.",
+        "en": "Store dried turmeric leaves airtight, dark and cool — shelf life approximately 12 months. Fresh leaves wrapped in a damp cloth in the refrigerator keep for 5–7 days."
+      }
+    }
+  ]
+}

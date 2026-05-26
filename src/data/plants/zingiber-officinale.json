@@ -1,0 +1,616 @@
+{
+  "slug": "zingiber-officinale",
+  "names": {
+    "de": "Ingwer",
+    "en": "Ginger",
+    "latin": "Zingiber officinale"
+  },
+  "family": {
+    "de": "Ingwergewächse",
+    "en": "Ginger family",
+    "latin": "Zingiberaceae"
+  },
+  "description": {
+    "de": "Der Ingwer, auch Ingber und Imber, der Wurzelstock auch Immerwurzel und Ingwerwurzel genannt, ist eine Pflanzenart aus der Gattung Ingwer (Zingiber) innerhalb der Familie der Ingwergewächse (Zingiberaceae). Der unterirdische Hauptspross des Ingwers, das Ingwer-Rhizom, wird als Küchengewürz oder Arzneidroge verwendet; die pharmazeutische Bezeichnung für das Ingwer-Rhizom lautet Zingiberis rhizoma.",
+    "en": "Ginger is a flowering plant whose rhizome, ginger root or ginger, is widely used as a spice and a folk medicine. It is an herbaceous perennial that grows annual pseudostems about one meter tall, bearing narrow leaf blades. The inflorescences bear flowers having pale yellow petals with purple edges, and arise directly from the rhizome on separate shoots."
+  },
+  "teaser": {
+    "de": "Der Ingwer, auch Ingber und Imber, der Wurzelstock auch Immerwurzel und Ingwerwurzel genannt, ist eine Pflanzenart au...",
+    "en": "Ginger is a flowering plant whose rhizome, ginger root or ginger, is widely used as a spice and a folk medicine."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "nausea",
+        "stomach"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "AUFGUSS (Kommission E, dyspeptische Beschwerden): 2–4 g frisch geriebenes oder grob zerkleinertes getrocknetes Ingwer-Rhizom (Zingiberis rhizoma) mit 250 ml siedendem Wasser übergießen, zugedeckt 10 Minuten ziehen lassen, abseihen. 2–3 Tassen täglich, bevorzugt zu oder nach den Mahlzeiten. Tagesdosis laut Kommission E: 2–4 g getrocknetes Rhizom. Anwendung bei leichten dyspeptischen Beschwerden (Völlegefühl, Blähungen, träge Verdauung, Appetitlosigkeit). Nicht mehr als 4 g Trockendroge täglich. Frisches Rhizom enthält mehr Gingerole, getrocknetes mehr Shogaole (schärfer).",
+          "en": "INFUSION (Kommission E, dyspeptic complaints): Pour 250 ml boiling water over 2–4 g freshly grated or coarsely crushed dried ginger rhizome (Zingiberis rhizoma), cover, steep 10 min, strain. 2–3 cups daily, preferably with or after meals. Daily dose per Kommission E: 2–4 g dried rhizome. Indicated for mild dyspeptic complaints (bloating, flatulence, sluggish digestion, loss of appetite). Do not exceed 4 g dry drug per day. Fresh rhizome contains more gingerols; dried more shogaols (sharper taste)."
+        }
+      },
+      "description": {
+        "de": "Ingwer-Aufguss nach Kommission E bei dyspeptischen Beschwerden — Völlegefühl, Blähungen, träge Verdauung. Die Schärfestoffe (Gingerole, Shogaole) regen Speichelfluss, Magensaftsekretion und Gallentätigkeit an.",
+        "en": "Ginger infusion per Kommission E for dyspeptic complaints — bloating, flatulence, sluggish digestion. The pungent compounds (gingerols, shogaols) stimulate saliva, gastric secretion and biliary flow."
+      },
+      "source_ids": [
+        "src_kommission_e_zingiber",
+        "src_ema_zingiber_rhizoma",
+        "src_escop_zingiber"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nausea",
+        "digestion",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "ema_well_established",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 2,
+        "max_duration_weeks": 8,
+        "instructions": {
+          "de": "STANDARDISIERTER TROCKENEXTRAKT / PULVER (EMA well-established use, Reisekrankheit): Laut EMA-Monographie gut etablierte Anwendung: 250 mg Trockenextrakt (DER 5–20:1, Auszugsmittel Ethanol 50–70 %) oder 1–2 g Rhizompolulver in Kapsel-/Tabletten-Form, 30–60 Minuten vor Antritt der Reise und dann alle 4 Stunden bei Bedarf, maximal 4 g/Tag. Anwendung zur Vorbeugung von Übelkeit und Erbrechen bei Reisekrankheit (Kinetose). Wirksamkeit klinisch belegt (mehrere randomisierte Studien). Nicht für Kinder unter 6 Jahren. In der Schwangerschaft nur nach ärztlicher Rücksprache (EMA: traditionelle Anwendung in der Schwangerschaft, nicht well-established). Hier als 'raw' (Pulver/Kapsel = direkte Einnahme der unvermischten Droge) klassifiziert.",
+          "en": "STANDARDISED DRY EXTRACT / POWDER (EMA well-established use, motion sickness): Per EMA monograph well-established use: 250 mg dry extract (DER 5–20:1, ethanol 50–70 %) or 1–2 g rhizome powder in capsule/tablet form, 30–60 min before travel then every 4 hours as needed, max 4 g/day. Indication: prevention of nausea and vomiting in motion sickness (kinetosis). Efficacy clinically documented (several randomised studies). Not for children under 6. In pregnancy consult physician first (EMA: traditional use in pregnancy, not well-established there). Classified here as 'raw' (powder/capsule = direct intake of undiluted drug)."
+        }
+      },
+      "description": {
+        "de": "Ingwerpulver/-extrakt zur Vorbeugung von Reisekrankheit (Kinetose) — EMA well-established use. Klinisch dokumentierte Wirkung gegen Übelkeit und Erbrechen bei Bewegungskrankheit.",
+        "en": "Ginger powder/extract for prevention of motion sickness (kinetosis) — EMA well-established use. Clinically documented activity against nausea and vomiting in travel sickness."
+      },
+      "source_ids": [
+        "src_ema_zingiber_rhizoma",
+        "src_escop_zingiber",
+        "src_ernst_pittler_1999"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nausea",
+        "digestion",
+        "stomach"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1.5,
+          "max": 3
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (Droge-Auszug-Verhältnis 1:5 in 60–70 % Ethanol): 1,5–3 ml (~30–60 Tropfen) 3× täglich in etwas Wasser oder Saft verdünnt einnehmen, bevorzugt vor oder zu den Mahlzeiten. Traditionelle Anwendung bei Übelkeit, dyspeptischen Beschwerden, Reisekrankheit und zur Verdauungsförderung. Wegen Ethanolgehalt nicht bei Alkoholerkrankung, Lebererkrankung, Epilepsie oder in der Schwangerschaft ohne ärztliche Rücksprache.",
+          "en": "TINCTURE (DER 1:5 in 60–70 % ethanol): 1.5–3 ml (~30–60 drops) 3× daily, diluted in water or juice, preferably before or with meals. Traditional use for nausea, dyspeptic complaints, motion sickness and digestion support. Due to ethanol content: not for alcohol dependence, liver disease, epilepsy or pregnancy without medical advice."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Ingwer-Tinktur bei Übelkeit und Verdauungsbeschwerden — konzentrierter als Tee, praktisch für die Reise.",
+        "en": "Traditional ginger tincture for nausea and digestive complaints — more concentrated than tea, convenient for travel."
+      },
+      "source_ids": [
+        "src_escop_zingiber",
+        "src_wichtl_teedrogen",
+        "src_ema_zingiber_rhizoma"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nausea",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.5,
+          "max": 1
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 8,
+        "instructions": {
+          "de": "SCHWANGERSCHAFTSÜBELKEIT (traditioneller Gebrauch, EMA): Leichte Dosierung: 0,5–1 g getrocknetes Ingwer-Rhizom auf 200 ml kochendem Wasser, 10 Minuten ziehen, abseihen, in kleinen Schlucken trinken. Bis zu 3× täglich. Laut EMA-Monographie als traditionelles pflanzliches Arzneimittel zur Linderung von Übelkeit in der Schwangerschaft anerkannt — JEDOCH ausschließlich nach Rücksprache mit einer Ärztin/einem Arzt oder einer Hebamme, da klinische Sicherheitsdaten für das erste Trimester begrenzt sind. Dosis auf mindestens nötiges Minimum beschränken. Bei starkem Erbrechen (Hyperemesis gravidarum) sofort medizinische Hilfe suchen.",
+          "en": "PREGNANCY NAUSEA (traditional use, EMA): Low dose: 0.5–1 g dried ginger rhizome in 200 ml boiling water, steep 10 min, strain, drink in small sips. Up to 3× daily. Per EMA monograph recognised as traditional herbal medicine for relief of nausea in pregnancy — BUT only after consulting a physician or midwife, as clinical safety data for the first trimester are limited. Keep dose at minimum necessary. Seek medical help immediately for severe vomiting (hyperemesis gravidarum)."
+        }
+      },
+      "description": {
+        "de": "Ingwertee in Niedrigdosierung bei Schwangerschaftsübelkeit — traditionelle Anwendung laut EMA, nur nach ärztlicher Rücksprache.",
+        "en": "Low-dose ginger tea for pregnancy nausea — traditional use per EMA, only after medical advice."
+      },
+      "source_ids": [
+        "src_ema_zingiber_rhizoma",
+        "src_who_zingiber",
+        "src_escop_zingiber"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "joints",
+        "circulation",
+        "muscles"
+      ],
+      "internal_external": "external",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 30,
+          "max": 50
+        },
+        "water_ml": 500,
+        "steep_min": 15,
+        "doses_per_day": 1,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "WÄRMEKOMPRESS (volksheilkundlich): 30–50 g frisch geriebenes oder grob zerkleinertes Ingwer-Rhizom in 500 ml heißem (nicht kochendem) Wasser, 10–15 Minuten ziehen lassen. Ein Tuch oder Flanelllappen in dem heißen Ingwer-Sud tränken, gut ausdrücken (Vorsicht: sehr heiß — Verbrühungsgefahr), auf die betroffene Stelle (Gelenke, Muskulatur, Nacken) auflegen, bis das Tuch abkühlt, 10–20 Minuten. 1× täglich. Volksheilkundlich bei rheumatischen Beschwerden, Muskelschmerzen, Gelenksteifheit und zur Förderung der lokalen Durchblutung. NICHT auf verletzte, entzündete oder gereizte Haut. Hautverträglichkeit vorher an kleiner Stelle testen — Gingerole können Hautreizungen verursachen.",
+          "en": "WARMING COMPRESS (folk use): 30–50 g freshly grated or coarsely crushed ginger rhizome in 500 ml hot (not boiling) water, steep 10–15 min. Soak a cloth or flannel in the hot ginger liquid, wring out carefully (caution: very hot — burn risk), apply to affected area (joints, muscles, neck) until cloth cools, 10–20 min. Once daily. Folk use for rheumatic complaints, muscle pain, joint stiffness and to promote local circulation. DO NOT apply to broken, inflamed or irritated skin. Patch-test first — gingerols can cause skin irritation."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Ingwer-Wärmekompress bei Muskelschmerzen, Gelenkbeschwerden und zur Durchblutungsförderung — äußerliche Anwendung der Schärfstoffe (Gingerole) als reizlindernd und wärmend.",
+        "en": "Folk warming ginger compress for muscle pain, joint complaints and circulatory stimulation — external application of pungent compounds (gingerols) as counter-irritant and warming agent."
+      },
+      "source_ids": [
+        "src_pfaf_zingiber",
+        "src_wichtl_teedrogen",
+        "src_wp_de_zingiber"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "circulation",
+        "immune",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "KULINARISCH: Frisches Rhizom (Grüner Ingwer): schälen, reiben, in Scheiben schneiden oder pressen — für Curries, Suppen, Woks, Smoothies, Dressings, Marinaden, Chutneys. Getrocknetes Rhizom: gemahlen als Gewürzpulver für Lebkuchen, Spekulatius, Ingwergebäck, Chai-Mischungen, Gewürzmischungen (Garam Masala, Ras el-Hanout). Kandierter Ingwer: in Zucker eingelegt, als Süßigkeit oder Mittel gegen Reiseübelkeit (direkt kauen). Ingwersirup: Rhizom + Zucker + Wasser — vielseitig für Getränke, Desserts. Frischer Ingwersaft: ausgepresst, für Shots und Dressings. Pickle-Ingwer (Gari): in Japan zu Sushi, in Essig eingelegt. Ingwer-Honig-Mischung: klassisches Hausmittel gegen Erkältungsbeschwerden, Halskratzen, Übelkeit.",
+          "en": "CULINARY: Fresh rhizome: peel, grate, slice or press — for curries, soups, stir-fries, smoothies, dressings, marinades, chutneys. Dried rhizome: ground as spice powder for gingerbread, biscuits, chai blends, spice mixes (Garam Masala, Ras el-Hanout). Candied ginger: preserved in sugar, eaten as a sweet or remedy for travel nausea (chew directly). Ginger syrup: rhizome + sugar + water — versatile for drinks and desserts. Fresh ginger juice: pressed, for shots and dressings. Pickled ginger (Gari): Japanese sushi accompaniment. Ginger-honey mix: classic household remedy for cold symptoms, sore throat, nausea."
+        }
+      },
+      "description": {
+        "de": "Ingwer-Rhizom als universelles Küchen- und Haushaltsgewürz — frisch, getrocknet, kandiert, als Sirup oder Pickle. Eines der meistverwendeten Gewürze weltweit (Ursprung Süd-/Südostasien, heute global angebaut).",
+        "en": "Ginger rhizome as universal culinary and household spice — fresh, dried, candied, as syrup or pickle. One of the world's most widely used spices (origin South/Southeast Asia, today globally cultivated)."
+      },
+      "source_ids": [
+        "src_wp_de_zingiber",
+        "src_wp_en_zingiber",
+        "src_pfaf_zingiber"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory",
+        "immune",
+        "digestion"
+      ],
+      "internal_external": "external",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 20,
+          "max": 30
+        },
+        "water_ml": 1000,
+        "steep_min": 5,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "INHALATION (volksheilkundlich, Erkältung): 20–30 g frisch geriebenes Ingwer-Rhizom oder 5–10 g getrocknetes Pulver in 1 Liter kochendem Wasser, 3–5 Minuten köcheln lassen. Vom Herd nehmen, kurz abkühlen lassen (Verbrühungsgefahr!). Mit Handtuch über den Kopf beugen und 5–10 Minuten die Dämpfe einatmen, Augen geschlossen halten. Bis zu 2× täglich. Volksheilkundlich bei Erkältungsbeschwerden, Nasennebenhöhlenproblemen, Husten, zur Schleimlösung. Die Gingerol-Dämpfe wirken leicht schleimhautreizend und durchblutungsfördernd. KEIN Kontakt der heißen Flüssigkeit mit der Haut — Verbrühungsgefahr. Bei Asthma nicht ohne ärztliche Rücksprache.",
+          "en": "INHALATION (folk use, cold symptoms): Simmer 20–30 g freshly grated ginger rhizome or 5–10 g dried powder in 1 litre boiling water for 3–5 min. Remove from heat, cool briefly (burn risk!). Drape towel over head and inhale steam for 5–10 min, eyes closed. Up to 2× daily. Folk use for cold symptoms, sinusitis, cough, mucus loosening. Gingerol vapours mildly stimulate mucous membranes and local circulation. NO hot liquid contact with skin — burn risk. Do not use for asthma without medical advice."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Ingwer-Dampfinhalation bei Erkältungsbeschwerden, Husten und Nasennebenhöhlenproblemen — schleimhautreizend, wärmefördernd.",
+        "en": "Folk ginger steam inhalation for cold symptoms, cough and sinus congestion — mildly stimulating to mucous membranes, warming."
+      },
+      "source_ids": [
+        "src_pfaf_zingiber",
+        "src_wp_de_zingiber"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "circulation",
+        "joints",
+        "fever"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "ERWÄRMENDER AUFGUSS (traditionell, Asien/Europa): 1–2 g getrocknetes Ingwer-Rhizom (Scheiben oder Pulver) mit 200 ml kochendem Wasser übergießen, 10 Minuten ziehen, abseihen. Optional mit Honig und Zitronensaft abschmecken. 2–3 Tassen täglich, heiß trinken. Traditionell in Asien und zunehmend in Europa bei Erkältungen (Schweißtreibend), Frostgefühl, Kreislaufschwäche, leichten Gelenkbeschwerden und zur Unterstützung bei fieberhaften Zuständen (schweißtreibende Wirkung). Entspricht der traditionellen Verwendung laut WHO-Monographie. Nicht bei hohem Fieber ohne ärztliche Abklärung.",
+          "en": "WARMING INFUSION (traditional, Asia/Europe): 1–2 g dried ginger rhizome (slices or powder) in 200 ml boiling water, steep 10 min, strain. Optionally sweeten with honey and lemon juice. 2–3 hot cups daily. Traditional use in Asia and increasingly Europe for colds (diaphoretic), feeling of chills, poor circulation, mild joint complaints and to support febrile states (diaphoretic). Corresponds to traditional use in WHO monograph. Do not use for high fever without medical evaluation."
+        }
+      },
+      "description": {
+        "de": "Traditioneller erwärmender Ingwertee bei Erkältungsbeschwerden, Kältegefühl und leichten Gelenkbeschwerden — schweißtreibend und durchblutungsfördernd, oft mit Honig und Zitrone.",
+        "en": "Traditional warming ginger tea for cold symptoms, chills and mild joint complaints — diaphoretic and circulation-promoting, often with honey and lemon."
+      },
+      "source_ids": [
+        "src_who_zingiber",
+        "src_wichtl_teedrogen",
+        "src_escop_zingiber"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "Wurzelstock (frisch oder getrocknet)",
+      "en": "rhizome (fresh or dried)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Ingwer gilt bei normaler Nahrungsmittel- und therapeutischer Dosierung als sicher (GRAS-Status FDA). WICHTIG: Bei therapeutischen Dosen (über 4 g/Tag) Folgendes beachten: (1) Antikoagulantien-Interaktion — bei Blutverdünnertherapie (Marcumar, ASS, Clopidogrel, DOAKs) nur nach ärztlicher Rücksprache. (2) Gallensteine — Ingwer steigert die Gallefluss-Aktivität; bei bekannten Gallensteinen oder Gallenwegsverschluss ist Ingwer kontraindiziert. (3) Schwangerschaft — therapeutische Dosen nur nach Absprache mit Ärztin/Hebamme; normale Küchenmengen sind unbedenklich. (4) Magen-Darm-Reizung — bei Magengeschwüren oder Refluxerkrankung (GERD) hohe Dosen vermeiden; Ingwer kann die Schleimhaut reizen. (5) Präoperativ — mindestens 2 Wochen vor geplanten Operationen absetzen (Hemmung der Thromboxan-Synthase, blutungsverlängernde Wirkung möglich).",
+      "en": "Ginger is considered safe at food and therapeutic doses (FDA GRAS status). IMPORTANT at therapeutic doses (above 4 g/day): (1) Anticoagulant interaction — with blood-thinning therapy (warfarin, aspirin, clopidogrel, DOACs) use only after medical consultation. (2) Gallstones — ginger increases bile flow; contraindicated in known gallstones or bile duct obstruction. (3) Pregnancy — therapeutic doses only after advice from physician/midwife; normal culinary amounts are safe. (4) GI irritation — with peptic ulcers or GERD avoid high doses; ginger can irritate mucous membranes. (5) Pre-surgery — discontinue at least 2 weeks before elective surgery (thromboxane synthase inhibition, possible prolonged bleeding time)."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "EMA-Monographie: Traditioneller Gebrauch zur Linderung von Übelkeit in der Schwangerschaft anerkannt (Indikation für traditionelles pflanzliches Arzneimittel, nicht well-established). Dosierung unter 1 g/Tag gilt als akzeptabel; bis 2 g/Tag nach ärztlicher Rücksprache. Normale Küchenmengen (Gewürz) unbedenklich. Erste Studien zur Wirksamkeit positiv, Sicherheitsdaten für erstes Trimester jedoch begrenzt. NICHT in hohen therapeutischen Dosen (über 4 g/Tag) — fehlende Reproduktionstoxizitätsdaten. Bei schwerem Erbrechen (Hyperemesis gravidarum) ärztliche Notfallbehandlung.",
+        "en": "EMA monograph: traditional use for relief of nausea in pregnancy accepted (traditional herbal medicine indication, not well-established). Dose under 1 g/day considered acceptable; up to 2 g/day after medical advice. Normal culinary amounts (spice) are safe. Initial efficacy studies positive but first-trimester safety data limited. NOT at high therapeutic doses (above 4 g/day) — insufficient reproductive toxicity data. Severe vomiting (hyperemesis gravidarum) requires emergency medical care."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Laut EMA keine ausreichenden Daten zur Sicherheit in der Stillzeit bei therapeutischen Dosen. Küchenmäßige Verwendung als Gewürz in normalen Mengen gilt als unbedenklich. Therapeutische Präparate in der Stillzeit nur nach ärztlicher Rücksprache anwenden.",
+        "en": "Per EMA insufficient data on safety during lactation at therapeutic doses. Culinary use as spice in normal amounts is considered safe. Therapeutic preparations during breastfeeding only after medical advice."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Laut EMA therapeutische Präparate bei Kindern unter 6 Jahren nicht empfohlen (keine ausreichenden Daten). Für Kinder ab 6 Jahren traditionelle Anwendung bei Reisekrankheit unter elterlicher Aufsicht möglich (reduzierte Dosis). Als Gewürz in Küchenmengen ab dem Säuglingsalter (Beikost) unbedenklich. Bei Übelkeit oder Erbrechen bei Kindern unter 12 Jahren immer zuerst Arzt aufsuchen, da verschiedene ernsthafte Ursachen möglich.",
+        "en": "Per EMA therapeutic preparations not recommended for children under 6 (insufficient data). Traditional use for motion sickness in children aged 6 and over under parental supervision possible (reduced dose). As culinary spice in food quantities safe from infancy (solid food). For nausea or vomiting in children under 12 always see a doctor first — various serious causes possible."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Ingwer (Zingiber officinale) oder andere Zingiberaceae.",
+        "en": "Hypersensitivity to ginger (Zingiber officinale) or other Zingiberaceae."
+      },
+      {
+        "de": "Bekannte Gallensteine oder Gallenwegsverschluss (Cholelithiasis, Cholestase) — Ingwer steigert die Gallesekretion und kann Koliken auslösen.",
+        "en": "Known gallstones or bile duct obstruction (cholelithiasis, cholestasis) — ginger increases bile secretion and may trigger colic."
+      },
+      {
+        "de": "Blutungsneigung oder gleichzeitige Einnahme von Antikoagulantien (Vitamin-K-Antagonisten, DOAKs, Heparin) in hoher therapeutischer Dosierung — nur nach ärztlicher Abklärung.",
+        "en": "Bleeding tendency or concurrent anticoagulant therapy (vitamin-K antagonists, DOACs, heparin) at high therapeutic doses — only after medical assessment."
+      },
+      {
+        "de": "Schwere Magengeschwüre (Ulcus ventriculi, Ulcus duodeni) — Ingwer-Schärfstoffe können die Magenschleimhaut reizen.",
+        "en": "Severe peptic ulcers (gastric or duodenal) — ginger pungent compounds may irritate the gastric mucosa."
+      },
+      {
+        "de": "Kinder unter 6 Jahren — keine ausreichenden Sicherheitsdaten für therapeutische Dosen (laut EMA).",
+        "en": "Children under 6 years — insufficient safety data for therapeutic doses (per EMA)."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulantien und Thrombozytenaggregationshemmer (Warfarin, Phenprocoumon, ASS, Clopidogrel, DOAKs: Apixaban, Rivaroxaban, Dabigatran)",
+        "mechanism": {
+          "de": "Ingwer-Inhaltsstoffe (insbesondere Gingerole und Shogaole) hemmen die Thromboxan-Synthase und damit die Thrombozytenaggregation. Zusätzlich mögliche Hemmung des CYP2C9-Metabolismus (Warfarin-Abbau). In Kombination mit Antikoagulantien kann die blutungshemmende Wirkung additiv sein und das Blutungsrisiko erhöhen. Klinische Berichte über erhöhte INR-Werte unter Warfarin + Ingwer-Einnahme.",
+          "en": "Ginger constituents (especially gingerols and shogaols) inhibit thromboxane synthase and platelet aggregation. Additionally possible inhibition of CYP2C9 metabolism (warfarin degradation). Additive anticoagulant effect with blood-thinning drugs may increase bleeding risk. Clinical reports of elevated INR with warfarin + ginger."
+        },
+        "severity": "caution",
+        "source_id": "src_ema_zingiber_rhizoma"
+      },
+      {
+        "drug_class": "Antidiabetika (Insulin, Sulfonylharnstoffe, Metformin, GLP-1-Agonisten)",
+        "mechanism": {
+          "de": "In Tierstudien und kleineren klinischen Studien wurde unter Ingwer eine blutzuckersenkende Wirkung (Hemmung der Gluconeogenese, verbesserte Insulinsensitivität) beobachtet. Kombination mit Antidiabetika kann additiven blutzuckersenkenden Effekt haben — Risiko einer Hypoglykämie. Blutzucker regelmäßig kontrollieren, Diabetiker sollten höhere Ingwerdosen mit behandelndem Arzt absprechen.",
+          "en": "Animal and small clinical studies report a blood-glucose-lowering effect of ginger (inhibition of gluconeogenesis, improved insulin sensitivity). Combined with antidiabetics may have additive glucose-lowering effect — risk of hypoglycaemia. Monitor blood glucose regularly; diabetics should discuss higher ginger doses with their physician."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_zingiber"
+      },
+      {
+        "drug_class": "Antihypertensiva (Calciumantagonisten, ACE-Hemmer, Betablocker, Diuretika)",
+        "mechanism": {
+          "de": "Ingwer hat in höherer Dosierung vasodilatatorische Eigenschaften (Calciumkanal-antagonistische Wirkung der Gingerole, NO-Freisetzung). Additiver blutdrucksenkender Effekt bei Kombination mit Antihypertensiva möglich — Risiko von Hypotonie und Schwindel. Blutdruck regelmäßig messen.",
+          "en": "At higher doses ginger has vasodilatory properties (calcium channel antagonism by gingerols, NO release). Additive blood-pressure-lowering effect with antihypertensives possible — risk of hypotension and dizziness. Monitor blood pressure regularly."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_zingiber"
+      },
+      {
+        "drug_class": "Herzglykoside (Digoxin, Digitoxin)",
+        "mechanism": {
+          "de": "Ingwer-Inhaltsstoffe können die Resorption von Herzglykosiden erhöhen (P-Glykoprotein-Hemmung), was zu erhöhten Plasmaspiegeln und potenziell toxischen Wirkungen (Bradykardie, AV-Block, Arrhythmien) führen kann. Kombination nur unter EKG- und Plasmaspiegel-Kontrolle.",
+          "en": "Ginger constituents may increase absorption of cardiac glycosides (P-glycoprotein inhibition), leading to elevated plasma levels and potentially toxic effects (bradycardia, AV block, arrhythmias). Combine only under ECG and plasma level monitoring."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_zingiber"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Ingwer (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Ingwer",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Ginger (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Ginger",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_ema_zingiber_rhizoma",
+      "type": "monograph",
+      "title": "EMA/HMPC/577856/2010 — European Union herbal monograph on Zingiber officinale Roscoe, rhizoma (Final, 2012)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_zingiber",
+      "type": "monograph",
+      "title": "Kommission E — Zingiberis rhizoma (Ingwerwurzelstock), Monographie (positiv), BAnz Nr. 85, 1988",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/ingwerwurzelstock.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_zingiber",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Zingiberis rhizoma (Ginger), 2nd edition 2003 with 2009 supplement",
+      "url": "https://escop.com/downloads/zingiberis-rhizoma/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_who_zingiber",
+      "type": "monograph",
+      "title": "WHO Monographs on Selected Medicinal Plants — Volume 1: Rhizoma Zingiberis (1999)",
+      "url": "https://apps.who.int/iris/handle/10665/42052",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_ernst_pittler_1999",
+      "type": "monograph",
+      "title": "Ernst E, Pittler MH — Efficacy of ginger for nausea and vomiting: a systematic review of randomized clinical trials. Br J Anaesth 2000;84(3):367-71. DOI:10.1093/bja/84.3.367",
+      "url": "https://doi.org/10.1093/bja/84.3.367",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_teedrogen",
+      "type": "book",
+      "title": "Wichtl M (Hrsg.) — Teedrogen und Phytopharmaka, 5. Aufl., Wissenschaftliche Verlagsgesellschaft, Stuttgart 2009. Eintrag: Zingiberis rhizoma.",
+      "url": "https://www.wissenschaftliche.de/teedrogen-und-phytopharmaka",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_zingiber",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Zingiber officinale database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Zingiber+officinale",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_zingiber",
+      "type": "wikipedia",
+      "title": "Ingwer (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Ingwer",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_zingiber",
+      "type": "wikipedia",
+      "title": "Ginger (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Ginger",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_zingiber",
+      "type": "wikidata",
+      "title": "Zingiber officinale (Wikidata Q42351)",
+      "url": "https://www.wikidata.org/wiki/Q42351",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "zingiber-officinale.jpg",
+    "alt": {
+      "de": "Foto von Ingwer",
+      "en": "Photo of Ginger"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zingiber_officinale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-146.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Gingerole ([6]-Gingerol, [8]-Gingerol, [10]-Gingerol)",
+      "category": "phenolic_acid",
+      "percent_range": "0.5-2 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Leitsubstanzgruppe des frischen Rhizoms. Phenylalkanone mit charakteristischer Schärfe. [6]-Gingerol ist mengenmäßig dominant und trägt zur antiemetischen (übelkeitsstillenden), anti-entzündlichen und thromboxan-hemmenden Wirkung bei. Bei Trocknung und Erhitzung wandeln sich Gingerole in Shogaole (schärfer) und Zingerone (milder) um.",
+        "en": "Lead compound group of fresh rhizome. Phenylalkanones responsible for characteristic pungency. [6]-Gingerol is quantitatively dominant and contributes to antiemetic, anti-inflammatory and thromboxane-inhibiting activity. On drying and heating gingerols convert to shogaols (sharper) and zingerone (milder)."
+      }
+    },
+    {
+      "name": "Shogaole ([6]-Shogaol, [8]-Shogaol, [10]-Shogaol)",
+      "category": "phenolic_acid",
+      "percent_range": "0.3-1.5 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Entstehen durch Dehydratisierung der Gingerole bei Trocknung und Erhitzung — daher dominierend im getrockneten Rhizom. Deutlich schärfer als die Gingerole (5–10× stärker am TRPV1-Rezeptor). Stärker antiemetisch und antioxidativ als Gingerole; tragen zur Wirkung standardisierter Trockenextrakte bei.",
+        "en": "Formed by dehydration of gingerols during drying and heating — dominant in dried rhizome. Significantly more pungent than gingerols (5–10× stronger at TRPV1 receptor). More potently antiemetic and antioxidant than gingerols; contribute to activity of standardised dry extracts."
+      }
+    },
+    {
+      "name": "Zingerone",
+      "category": "phenolic_acid",
+      "percent_range": "Spuren",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Entsteht bei Wärmebehandlung aus [6]-Gingerol — verantwortlich für den milden, süßlich-scharfen Geschmack von gekochtem oder gebackenem Ingwer (Ingwergebäck, Lebkuchen). Schwächer scharf als Gingerole und Shogaole, mild antioxidativ. Im frischen Rhizom kaum vorhanden.",
+        "en": "Formed from [6]-gingerol on heat treatment — responsible for the mild, sweet-spicy taste of cooked or baked ginger (gingerbread, biscuits). Less pungent than gingerols and shogaols, mildly antioxidant. Barely present in fresh rhizome."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Zingiberol, Zingiberen, beta-Sesquiphellandren, Bisabolen, Campher)",
+      "category": "essential_oil",
+      "percent_range": "1-3 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Komplex aus Mono- und Sesquiterpenen. Zingiberol (Hauptkomponente des japanischen Ingweröls) und Sesquiterpene wie Zingiberen und beta-Sesquiphellandren bestimmen den charakteristischen aromatisch-zitrusartigen Ingwerduft. Ätherisches Öl trägt zur verdauungsfördernden und karminativen Wirkung bei. Gehalt variiert stark nach Herkunft, Erntezeitpunkt und Lagerdauer.",
+        "en": "Complex of mono- and sesquiterpenes. Zingiberol (main component of Japanese ginger oil) and sesquiterpenes such as zingiberene and beta-sesquiphellandrene determine the characteristic aromatic-citrusy ginger scent. Essential oil contributes to digestive and carminative activity. Content varies greatly by origin, harvest time and storage."
+      }
+    },
+    {
+      "name": "Paradole und Gingerendiol-Derivate",
+      "category": "other",
+      "percent_range": "Spuren",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Strukturverwandte Phenylalkanone (Paradole entstehen durch Hydrierung der Shogaole). Geringere Mengen, aber pharmakologisch aktiv: antimikrobielle, antioxidative und in vitro antiproliferative Eigenschaften. Beitragen zum Gesamtprofil standardisierter Extrakte.",
+        "en": "Structurally related phenylalkanones (paradols formed by hydrogenation of shogaols). Present in minor amounts but pharmacologically active: antimicrobial, antioxidant and in vitro antiproliferative properties. Contribute to overall profile of standardised extracts."
+      }
+    },
+    {
+      "name": "Stärke (Amylum)",
+      "category": "polysaccharide",
+      "percent_range": "40-60 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Mengenmäßig dominierender Inhaltsstoff des Rhizoms — erklärt den charakteristischen mehlig-faserigen Querschnitt. Pharmakologisch inert, aber ernährungsphysiologisch relevant (Kohlenhydratquelle). Die hohe Stärkedichte ist typisch für Speicherrhizome tropischer Gewürzpflanzen.",
+        "en": "Quantitatively dominant constituent of the rhizome — explains the characteristic starchy-fibrous cross-section. Pharmacologically inert but nutritionally relevant (carbohydrate source). High starch density typical for storage rhizomes of tropical spice plants."
+      }
+    },
+    {
+      "name": "Scharfsäuren: Gingersulfonische Säure und verwandte Phenolsäuren",
+      "category": "phenolic_acid",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Wasserlösliche phenolische Säureverbindungen, die bei der Aufarbeitung von Ingwerextrakten entstehen. Antioxidativ und antimikrobiell; tragen zum Gesamtphenolgehalt des Rhizomextraktes bei. Für die Standardisierung weniger relevant als Gingerole/Shogaole.",
+        "en": "Water-soluble phenolic acid compounds formed during processing of ginger extracts. Antioxidant and antimicrobial; contribute to total phenolic content of rhizome extracts. Less relevant for standardisation than gingerols/shogaols."
+      }
+    },
+    {
+      "name": "Mineralstoffe und Spurenelemente (Kalium, Magnesium, Mangan, Kupfer, Vitamin B6, Vitamin C)",
+      "category": "mineral",
+      "percent_range": "variabel",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Ingwer-Rhizom enthält nennenswerte Mengen Kalium (~415 mg/100 g frisch), Magnesium (~43 mg/100 g), Mangan sowie B6-Vitamin und Vitamin C. In therapeutischen Dosen (2–4 g) ernährungsphysiologlich nicht bedeutsam, aber in der täglichen Küche (mehrere Gramm frischer Ingwer) als Mikronährstoffquelle relevant.",
+        "en": "Ginger rhizome contains notable amounts of potassium (~415 mg/100 g fresh), magnesium (~43 mg/100 g), manganese plus vitamin B6 and vitamin C. Not nutritionally significant at therapeutic doses (2–4 g) but relevant as a micronutrient source when several grams are consumed daily in cooking."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "rhizome",
+      "best_months": [
+        10,
+        11,
+        12,
+        1
+      ],
+      "time_of_day": {
+        "de": "Ernte in den kühlen Morgenstunden bei trockenem Wetter, wenn die oberirdischen Triebe vollständig abgestorben sind (Herbst bis Frühwinter nach ca. 8–10 Monaten Wachstum). In tropischen Anbauregionen (Indien, China, Jamaika, Nigeria) nach der Trockenzeit. In Mitteleuropa: Kübelpflanzenernte nach dem ersten Frost, wenn die Blätter vergilbt und eingezogen sind.",
+        "en": "Harvest in cool morning hours in dry weather, once the above-ground shoots have completely died back (autumn to early winter after approx. 8–10 months growth). In tropical growing regions (India, China, Jamaica, Nigeria) after the dry season. In Central Europe: container plant harvest after first frost, when leaves have yellowed and died down."
+      },
+      "drying": {
+        "de": "FRISCHES RHIZOM (Grüner Ingwer, jung): Bei ca. 5–7 Monate alten Pflanzen ernten — milderer Geschmack, weichere Fasern, höherer Gingerolgehalt, kaum Shogaole. Direkt verwenden (Küche, Saft, Tinkturansatz) oder einfrieren (bis 6 Monate haltbar). GETROCKNETES RHIZOM (Arzneibuchqualität): Vollreife Rhizome (8–10 Monate) waschen, ggf. schälen (ungeschält = Zingiberis rhizoma non decorticatum, geschält = decorticatum), in 3–5 mm dünne Scheiben schneiden. Im Dörrgerät bei 40–50 °C oder Backofen bei leicht geöffneter Tür trocknen bis zur Biegefestigkeit (kein Abknicken mehr, Kern hart) — ca. 4–8 Stunden. Mahlen zu Pulver erst unmittelbar vor Verwendung. In luftdichten Gefäßen dunkel und trocken bei unter 25 °C lagern. Qualitätskriterium: mind. 15 ml/kg ätherisches Öl und mind. 0,8 % Gingerole (Arzneibuch).",
+        "en": "FRESH RHIZOME (green ginger, young): Harvest at ~5–7 months — milder taste, softer fibres, higher gingerol content, few shogaols. Use immediately (cooking, juice, tincture base) or freeze (keeps up to 6 months). DRIED RHIZOME (pharmacopoeial quality): Harvest fully ripe rhizomes (8–10 months), wash, optionally peel (unpeeled = Zingiberis rhizoma non decorticatum, peeled = decorticatum), slice 3–5 mm thin. Dehydrate at 40–50 °C or oven with door slightly ajar until brittle (hard centre, does not bend) — approx. 4–8 h. Grind to powder only immediately before use. Store airtight, dark, dry below 25 °C. Quality criterion: min. 15 ml/kg essential oil and min. 0.8 % gingerols (pharmacopoeia)."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Getrocknetes Rhizom: luftdicht in Glas oder Blechdose, kühl, dunkel, unter 25 °C — bis 2 Jahre haltbar. Pulver: maximal 6–12 Monate, danach starker Aromaverlust. Frisches Rhizom: ungekühlt 2–3 Wochen, im Kühlschrank bis 4 Wochen, gefroren bis 6 Monate.",
+        "en": "Dried rhizome: airtight in glass or tin, cool, dark, below 25 °C — keeps up to 2 years. Powder: max 6–12 months, then strong flavour loss. Fresh rhizome: unrefrigerated 2–3 weeks, refrigerated up to 4 weeks, frozen up to 6 months."
+      }
+    },
+    {
+      "plant_part": "rhizome",
+      "best_months": [
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "JUNG-ERNTE (Grüner Ingwer / Baby-Ingwer): 4–5 Monate nach dem Einpflanzen der Rhizom-Setzlinge in den frühen Morgenstunden ernten. Pflanzen noch nicht abgestorben — nur Teil des Rhizoms entnehmen (partielle Ernte), Rest weiterwachsen lassen. Erkenntnis: Junge Rhizome ohne Faserschicht, zarte rosafarbene Schale, sehr milder Geschmack, kaum scharf. Für Sushi-Gari (eingelegter Ingwer) und frische Verwendung bevorzugt.",
+        "en": "YOUNG HARVEST (green ginger / baby ginger): 4–5 months after planting rhizome sets, harvest in early morning. Plants not yet died back — remove only part of the rhizome (partial harvest), leave rest to continue growing. Characteristics: young rhizomes without fibre layer, tender pinkish skin, very mild taste, barely pungent. Preferred for sushi gari (pickled ginger) and fresh use."
+      },
+      "drying": {
+        "de": "Jung geernteter Ingwer ist wegen des hohen Feuchtigkeitsgehalts und der zarten Textur nicht für die Lagertrocknung geeignet. Direkte Verarbeitung empfohlen: einlegen in Essig/Salzlake (Gari), einfrieren oder sofort verwenden. Zum Trocknen ist die vollreife Herbsternte vorzuziehen.",
+        "en": "Young-harvested ginger is not suitable for drying due to high moisture content and tender texture. Direct processing recommended: pickling in vinegar/brine (Gari), freezing or immediate use. For drying, the fully ripe autumn harvest is preferred."
+      },
+      "storage_months": 1,
+      "storage_condition": {
+        "de": "Frisch im Kühlschrank (0–4 °C) bis ca. 3 Wochen. Alternativ in feuchtem Tuch eingewickelt im Gemüsefach. Einlegen in Essig oder Sake verlängert Haltbarkeit auf 1–2 Monate (Gari).",
+        "en": "Fresh in refrigerator (0–4 °C) up to approx. 3 weeks. Alternatively wrapped in damp cloth in vegetable drawer. Pickling in vinegar or sake extends shelf life to 1–2 months (Gari)."
+      }
+    }
+  ]
+}

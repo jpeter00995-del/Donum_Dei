@@ -1,0 +1,85 @@
+{
+  "slug": "conium-maculatum",
+  "names": {
+    "de": "Gefleckter Schierling",
+    "en": "Conium maculatum",
+    "latin": "Conium maculatum"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Der Gefleckte Schierling ist eine Pflanzenart aus der Gattung Schierlinge (Conium) innerhalb der Familie der Doldenblütler (Apiaceae). Er gehört mit dem Wasserschierling und der Hundspetersilie zu den giftigsten Arten der Doldengewächse. Mit einem Schierlingsbecher wurden im Altertum Verurteilte hingerichtet, so zum Beispiel der griechische Philosoph Sokrates.",
+    "en": "Conium maculatum, commonly known as hemlock or poison hemlock, is a highly poisonous flowering plant and a nitrophile weed species in the carrot family Apiaceae."
+  },
+  "teaser": {
+    "de": "Der Gefleckte Schierling ist eine Pflanzenart aus der Gattung Schierlinge (Conium) innerhalb der Familie der Doldenbl...",
+    "en": "Conium maculatum, commonly known as hemlock or poison hemlock, is a highly poisonous flowering plant and a nitrophile..."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": [
+        "caution"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
+        "en": "Traditional use — see Wikipedia article and specialist literature."
+      },
+      "source_ids": [
+        "src_1",
+        "src_2"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "ganze Pflanze",
+      "en": "whole plant"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "TÖDLICH GIFTIG (Coniin) — historisches „Schierlingsbecher\"-Gift (Sokrates). VERWECHSLUNGSGEFAHR mit Petersilie, Kerbel, Anis. Erkennbar an rot gefleckten Stängeln und mausartigem Geruch beim Zerreiben. NIEMALS verwenden.",
+      "en": "FATALLY TOXIC (coniine) — the historical 'hemlock cup' poison (Socrates). RISK OF CONFUSION with parsley, chervil, anise. Recognisable by red-spotted stems and mouse-like smell when crushed. NEVER use."
+    },
+    "external_only": true,
+    "toxicity_level": "toxic",
+    "pet_toxic": false
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gefleckter Schierling (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gefleckter_Schierling",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Conium maculatum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Conium_maculatum",
+      "accessed": "2026-05-17"
+    }
+  ],
+  "image": {
+    "filename": "conium-maculatum.jpg",
+    "alt": {
+      "de": "Foto von Gefleckter Schierling",
+      "en": "Photo of Conium maculatum"
+    },
+    "license": "Public domain",
+    "author": "Köhlers Medizinalpflanzen",
+    "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6hler_Conium_maculatum.jpg"
+  }
+}

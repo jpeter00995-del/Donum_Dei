@@ -1,0 +1,144 @@
+---
+// === Permaculture Set Card ===
+// Renders a single PermacultureSet as a flip-card-style tile for the
+// /pakete (de) / /packages (en) page. Includes a small image strip of the
+// first 3 plants, the description, plant list with quantities, function
+// badges, optional tips, source, and an "Add to plan" island.
+// (Karte für ein Mischkultur-Paket; oben Bilder, dann Beschreibung,
+// Pflanzen-Liste, Badges, Tipps, Quelle und CTA-Button.)
+import { t } from '@/lib/i18n';
+import PermacultureFunctionBadge from '@/components/PermacultureFunctionBadge.astro';
+import PermacultureSetApply from '@/components/PermacultureSetApply.tsx';
+import type { Locale, PermacultureSet, Plant } from '@/lib/types';
+
+interface Props {
+  set: PermacultureSet;
+  locale: Locale;
+  /** Pre-built plant lookup map by slug — passed by the parent page. */
+  plantBySlug: Map<string, Plant>;
+}
+
+const { set, locale, plantBySlug } = Astro.props;
+
+// === 1. ABGELEITETE WERTE ===
+const name = locale === 'de' ? set.name_de : set.name_en;
+const description = locale === 'de' ? set.description_de : set.description_en;
+const tips = locale === 'de' ? set.tips_de : set.tips_en;
+
+// Bild-Strip aus den ersten 3 Pflanzen.
+const imagePlants: Plant[] = set.plants
+  .slice(0, 3)
+  .map(p => plantBySlug.get(p.slug))
+  .filter((p): p is Plant => p !== undefined);
+
+const areaLabel = t(locale, 'packages.area_label', {
+  area: set.total_area_sqm.toLocaleString(locale === 'de' ? 'de-DE' : 'en-US'),
+});
+
+const difficultyDots = '●'.repeat(set.difficulty) + '○'.repeat(3 - set.difficulty);
+---
+
+<article
+  id={set.id}
+  data-testid={`set-card-${set.id}`}
+  class="set-card scroll-mt-24 bg-white border border-slate-200 rounded-lg overflow-hidden hover:border-emerald-400 hover:shadow-md transition flex flex-col target:ring-2 target:ring-emerald-400"
+>
+  {imagePlants.length > 0 && (
+    <div class="flex h-[120px] bg-slate-100">
+      {imagePlants.map(p => (
+        <a
+          href={`/${locale}/plant/${p.slug}/`}
+          class="flex-1 overflow-hidden border-r border-white last:border-r-0"
+          title={p.names[locale]}
+        >
+          <img
+            src={`/images/plants/${p.image.filename}`}
+            alt={p.image.alt[locale]}
+            title={`© ${p.image.author} · ${p.image.license}`}
+            class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+            loading="lazy"
+          />
+        </a>
+      ))}
+    </div>
+  )}
+
+  <div class="p-4 flex-1 flex flex-col gap-3">
+    <header>
+      <h2 class="text-xl font-serif font-bold text-slate-900 leading-tight">
+        <span aria-hidden="true">{set.emoji}</span> {name}
+      </h2>
+    </header>
+
+    <p class="text-sm text-slate-700">{description}</p>
+
+    <div>
+      <p class="text-xs font-semibold text-slate-600 mb-1">{t(locale, 'packages.plants_label')}</p>
+      <ul class="space-y-0.5 text-sm">
+        {set.plants.map(sp => {
+          const plant = plantBySlug.get(sp.slug);
+          const label = plant?.names[locale] ?? sp.slug;
+          return (
+            <li class="flex items-baseline gap-2">
+              <span class="font-semibold text-emerald-700 tabular-nums min-w-[2.5rem]">
+                {sp.quantity}×
+              </span>
+              <a
+                href={`/${locale}/plant/${sp.slug}/`}
+                class="text-slate-800 hover:text-emerald-700 hover:underline"
+              >
+                {label}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-slate-600">
+      <span>{areaLabel}</span>
+      <span aria-hidden="true">·</span>
+      <span>
+        {t(locale, 'packages.difficulty_label')} <span class="tabular-nums">{difficultyDots}</span>
+      </span>
+      {set.tradition && (
+        <>
+          <span aria-hidden="true">·</span>
+          <span>{t(locale, 'packages.tradition_label')}: {set.tradition}</span>
+        </>
+      )}
+    </div>
+
+    {set.function_tags.length > 0 && (
+      <div class="flex flex-wrap gap-1.5">
+        {set.function_tags.map(fn => (
+          <PermacultureFunctionBadge fn={fn} locale={locale} size="sm" />
+        ))}
+      </div>
+    )}
+
+    {tips && tips.length > 0 && (
+      <details class="text-sm">
+        <summary class="cursor-pointer font-semibold text-slate-700 hover:text-emerald-700">
+          {t(locale, 'packages.tips_heading')}
+        </summary>
+        <ul class="mt-2 space-y-1 list-disc list-inside text-slate-700">
+          {tips.map(tip => <li>{tip}</li>)}
+        </ul>
+      </details>
+    )}
+
+    <PermacultureSetApply set={set} locale={locale} client:load />
+
+    <p class="text-xs text-slate-500 mt-1">
+      {t(locale, 'packages.source_label')}: {set.source}
+    </p>
+  </div>
+</article>
+
+<style>
+  /* Hash-Highlight für die per URL gewählte Karte. */
+  .set-card:target {
+    box-shadow: 0 0 0 3px rgb(16 185 129 / 0.55);
+  }
+</style>

@@ -1,0 +1,556 @@
+{
+  "slug": "olea-europaea",
+  "names": {
+    "de": "Olivenbaum",
+    "en": "Olive",
+    "latin": "Olea europaea"
+  },
+  "family": {
+    "de": "Ölbaumgewächse",
+    "en": "Olive family",
+    "latin": "Oleaceae"
+  },
+  "description": {
+    "de": "Der Olivenbaum, von lateinisch oliva, auch Echter Ölbaum genannt, ist ein mittelgroßer, im Alter oft knorriger Baum aus der Gattung der Ölbäume (Olea), die zur Familie der Ölbaumgewächse (Oleaceae) gehört. Er wird seit dem 4. Jahrtausend v.",
+    "en": "The olive is a species of subtropical evergreen tree in the family Oleaceae. Originating in Asia Minor, it is abundant throughout the Mediterranean Basin, with wild subspecies in Africa and western Asia; modern cultivars are traced primarily to the Near East, Aegean Sea, and Strait of Gibraltar. The olive is the type species for its genus, Olea, and lends its name to the Oleaceae plant family, which includes lilac, jasmine, forsythia, and ash."
+  },
+  "teaser": {
+    "de": "Der Olivenbaum, von lateinisch oliva, auch Echter Ölbaum genannt, ist ein mittelgroßer, im Alter oft knorriger Baum a...",
+    "en": "The olive is a species of subtropical evergreen tree in the family Oleaceae."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "circulation",
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "OLIVENBLATT-AUFGUSS (Oleae folium): 1–2 g (ca. 1–2 TL) getrocknete, zerkleinerte Olivenblätter mit 200 ml kochendem Wasser übergießen, zugedeckt 10–15 Minuten ziehen lassen, dann abseihen. 2–3 Tassen täglich, zwischen den Mahlzeiten. Traditionelle Anwendung zur unterstützenden Behandlung bei leicht erhöhtem Blutdruck und zur Förderung der Harnausscheidung (mild aquaretisch). Wirkungseintritt frühestens nach 2–3 Wochen kontinuierlicher Einnahme. Nicht als Ersatz für ärztlich verordnete Antihypertensiva verwenden; Blutdruck regelmäßig kontrollieren. Bei anhaltend hohem Blutdruck immer ärztliche Abklärung.",
+          "en": "OLIVE LEAF INFUSION (Oleae folium): 1–2 g (~1–2 tsp) dried chopped olive leaves in 200 ml boiling water, covered, steep 10–15 min, strain. 2–3 cups daily between meals. Traditional use for mild supportive blood pressure management and mild aquaretic (diuretic) effect. Onset only after 2–3 weeks of continuous use. Not a substitute for prescribed antihypertensives; monitor blood pressure regularly. Persistently elevated blood pressure requires medical assessment."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Olivenblatt-Tee zur unterstützenden Anwendung bei leicht erhöhtem Blutdruck und als mildes Aquaretikum — Oleuropein gilt als Hauptwirkstoff.",
+        "en": "Traditional olive leaf tea for supportive use in mildly elevated blood pressure and as a mild aquaretic — oleuropein is considered the principal active compound."
+      },
+      "source_ids": [
+        "src_escop_oleae_folium",
+        "src_wichtl_teedrogen",
+        "src_pfaf_olea_europaea"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "circulation",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 2,
+          "max": 4
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "OLIVENBLATT-TINKTUR (1:5 in 40–45 % Ethanol): 2–4 ml (~40–80 Tropfen) 3× täglich, jeweils in etwas Wasser verdünnt, zwischen den Mahlzeiten einnehmen. Standardisierte Fertigtinkturen (auf Oleuropein eingestellt) sind Eigenansätzen vorzuziehen. Wirkungseintritt nach 2–4 Wochen. Bei gleichzeitiger Einnahme von Blutdruckmitteln Blutdruck häufiger kontrollieren — additiver Effekt möglich. Wegen Ethanolgehalt nicht bei Alkoholerkrankung, schwerer Lebererkrankung oder Epilepsie anwenden.",
+          "en": "OLIVE LEAF TINCTURE (1:5 in 40–45 % ethanol): 2–4 ml (~40–80 drops) 3× daily, diluted in water, between meals. Standardised commercial tinctures (adjusted for oleuropein) are preferred over home preparations. Onset after 2–4 weeks. When co-administering antihypertensives, monitor blood pressure more frequently — additive effect possible. Due to ethanol content, do not use in alcohol dependence, severe liver disease or epilepsy."
+        }
+      },
+      "description": {
+        "de": "Olivenblatt-Tinktur als konzentriertere Alternative zum Aufguss — traditionell bei leicht erhöhtem Blutdruck und zur allgemeinen Stärkung der Abwehrkräfte.",
+        "en": "Olive leaf tincture as a more concentrated alternative to infusion — traditionally used for mildly elevated blood pressure and general immune support."
+      },
+      "source_ids": [
+        "src_escop_oleae_folium",
+        "src_wichtl_teedrogen"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "circulation",
+        "digestion",
+        "skin"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "instructions": {
+          "de": "OLIVENÖL — EXTRA NATIV (Oleae oleum virginale): Täglich 20 g (ca. 2 EL) natives Olivenöl extra als Bestandteil der täglichen Ernährung. EFSA-Gesundheitsaussage (EFSA 2011 NDA Panel, EFSA Journal 9(4):2033): 20 g/Tag natives Olivenöl extra mit einem Polyphenolgehalt von mindestens 5 mg Hydroxytyrosol und seiner Derivate pro 20 g schützt LDL-Cholesterin-Partikel vor oxidativer Schädigung. Nur für Olivenöle mit dieser Polyphenolkonzentration zugelassen — nicht für alle Olivenöle pauschal. Kaltextraktion (erste Pressung) bevorzugen; raffiniertes Olivenöl enthält deutlich weniger Polyphenole. Mild laxativ bei Nüchterneinnahme (1–2 EL morgens) — volkstümliche Anwendung bei Verstopfung.",
+          "en": "EXTRA VIRGIN OLIVE OIL (Oleae oleum virginale): 20 g (~2 tbsp) extra virgin olive oil daily as part of the diet. EFSA health claim (EFSA 2011 NDA Panel, EFSA Journal 9(4):2033): 20 g/day extra virgin olive oil containing at least 5 mg hydroxytyrosol and its derivatives per 20 g protects LDL cholesterol particles from oxidative damage. Authorised only for oils meeting this polyphenol threshold — not a blanket claim for all olive oils. Prefer cold-pressed (first pressing); refined olive oil contains significantly fewer polyphenols. Mildly laxative when taken on an empty stomach (1–2 tbsp in the morning) — traditional use for constipation."
+        }
+      },
+      "description": {
+        "de": "Natives Olivenöl extra als funktionelles Lebensmittel — EFSA-anerkannte Gesundheitsaussage: schützt LDL-Partikel vor Oxidation (20 g/Tag, mindestens 5 mg Hydroxytyrosol-Derivate).",
+        "en": "Extra virgin olive oil as functional food — EFSA-authorised health claim: protects LDL particles from oxidation (20 g/day, at least 5 mg hydroxytyrosol derivatives)."
+      },
+      "source_ids": [
+        "src_efsa_olive_polyphenols",
+        "src_wp_en_olive_oil",
+        "src_pfaf_olea_europaea"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "OLIVENÖL-SALBE / ÖLPFLEGE: Reines natives Olivenöl extra dünn auf trockene, gereizte oder rissige Hautstellen auftragen, sanft einmassieren und einziehen lassen. Alternativ als Basis für selbst hergestellte Kräutersalben (z. B. mit Ringelblume, Calendula). Bei Säuglingspflege: unverdünntes Olivenöl dünn auf wunde Stellen (Windelbereich) auftragen — volkstümliche Praxis, gut verträglich. Bei chronischen Hautkrankheiten (Ekzem, Psoriasis) vorher Hautarzt konsultieren. Olivenöl nicht in offene, infizierte Wunden einbringen.",
+          "en": "OLIVE OIL SALVE / SKIN CARE: Apply pure extra virgin olive oil thinly to dry, irritated or cracked skin, massage gently and allow to absorb. Alternatively as base for home-prepared herbal salves (e.g. with calendula). Infant care: thin application of undiluted olive oil on sore areas (nappy region) — traditional practice, well tolerated. Consult dermatologist for chronic skin conditions (eczema, psoriasis). Do not apply to open, infected wounds."
+        }
+      },
+      "description": {
+        "de": "Natives Olivenöl als Hautpflegemittel und Salbenbasis — emollient, rückfettend; traditionell bei trockener Haut, Wundheilung und Säuglingspflege.",
+        "en": "Extra virgin olive oil as skin care and salve base — emollient, re-fattening; traditionally for dry skin, wound care and infant skin care."
+      },
+      "source_ids": [
+        "src_pfaf_olea_europaea",
+        "src_wp_de_olivenbaum"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "TAFELOLIVENPFLEGE / KÜCHE: Reife Oliven (schwarz) oder halbreife grüne Oliven werden wegen ihrer Bitterkeit (Oleuropein) vor dem Genuss in Wasser, Salzlake oder Lauge entbittert — dieser Prozess dauert bei Naturoliven in Salzlake mehrere Wochen. Fertige Handelsoliven in Öl oder Lake können direkt verzehrt werden. Als Bestandteil der mediterranen Ernährung mit belegten kardioprotektiven Effekten (PREDIMED-Studie). Ernährungsbegleitend, kein Heilmittel im engeren Sinn. Olivensteinöl (aus Kernen) ist lebensmitteltauglich, aber polyphenolärmere Variante.",
+          "en": "TABLE OLIVES / KITCHEN: Ripe black or semi-ripe green olives are debittered before eating due to bitterness (oleuropein) — by soaking in water, brine or lye; natural brine-cured olives take several weeks. Commercial ready-to-eat olives in oil or brine can be consumed directly. As part of the Mediterranean diet, associated with documented cardioprotective effects (PREDIMED trial). Dietary ingredient, not a medicinal preparation per se. Olive kernel oil is food-grade but lower in polyphenols."
+        }
+      },
+      "description": {
+        "de": "Tafelolivensorten als Bestandteil der mediterranen Ernährung — kardioprotektive Assoziation belegt durch PREDIMED-Studie; Oleuropein-Entbitterung notwendig.",
+        "en": "Table olive varieties as part of the Mediterranean diet — cardioprotective association documented by the PREDIMED trial; oleuropein debittering required."
+      },
+      "source_ids": [
+        "src_predimed_study",
+        "src_wp_en_olive_oil",
+        "src_wp_de_olivenbaum"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "OLIVENBLATT-KOMPRESSE: Frische oder kurz aufgekochte Olivenblätter (2–3 Minuten in heißem Wasser erwärmt) auf ein sauberes Tuch legen, noch warm auf die betroffene Hautstelle oder den schmerzenden Gelenk auflegen, 15–20 Minuten einwirken lassen. Volkstümlich bei leichten Entzündungen der Haut, Insektenstichen und rheumatischen Gelenkschmerzen angewendet. Wissenschaftliche Belege für die topische Wirksamkeit beim Menschen sind begrenzt; In-vitro-Studien zeigen antioxidative und leichte antimikrobielle Wirkung von Oleuropein-Extrakten. Bei starken oder anhaltenden Beschwerden ärztliche Abklärung.",
+          "en": "OLIVE LEAF COMPRESS: Place fresh or briefly scalded olive leaves (warmed 2–3 min in hot water) on a clean cloth, apply warm to affected skin or aching joint, leave for 15–20 min. Folk use for mild skin inflammation, insect bites and rheumatic joint pain. Scientific evidence for topical efficacy in humans is limited; in vitro studies show antioxidant and mild antimicrobial activity of oleuropein extracts. Seek medical evaluation for severe or persistent complaints."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Olivenblatt-Kompresse bei leichten Hautentzündungen und rheumatischen Beschwerden — milde externe Anwendung mit begrenzter Evidenz.",
+        "en": "Folk olive leaf compress for mild skin inflammation and rheumatic complaints — mild external use with limited evidence."
+      },
+      "source_ids": [
+        "src_pfaf_olea_europaea",
+        "src_wp_de_olivenbaum"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "OLIVENBLATT-BITTERSTOFFTEE: 1–2 g getrocknete Olivenblätter mit 200 ml kochendem Wasser übergießen, 8–10 Minuten ziehen lassen, abseihen. 1–2 Tassen täglich vor den Mahlzeiten trinken. Volkstümlich zur Anregung von Gallenfluss und Verdauung (cholagog) sowie bei leichten dyspeptischen Beschwerden eingesetzt. Das bitter schmeckende Oleuropein regt reflektorisch die Verdauungssäfte an. Evidenz basiert auf traditioneller Überlieferung und pharmakologischen In-vitro-Daten; klinische Studien fehlen für diese Indikation. Nicht bei Gallensteinen ohne ärztliche Rücksprache.",
+          "en": "OLIVE LEAF BITTER TEA: 1–2 g dried olive leaves in 200 ml boiling water, steep 8–10 min, strain. 1–2 cups daily before meals. Folk use for stimulating bile flow and digestion (cholagogue effect) and in mild dyspeptic complaints. Bitter-tasting oleuropein reflexively stimulates digestive secretions. Evidence based on traditional transmission and pharmacological in vitro data; clinical studies for this indication are lacking. Avoid in gallstones without medical advice."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlicher Olivenblatt-Bitterstofftee zur Anregung von Verdauung und Gallenfluss — Oleuropein als Bitterstoff reflektorisch wirksam.",
+        "en": "Folk olive leaf bitter tea for stimulating digestion and bile flow — oleuropein acts as a bitter reflex stimulant."
+      },
+      "source_ids": [
+        "src_wichtl_teedrogen",
+        "src_pfaf_olea_europaea"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "immune",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "OLIVENBLATT-PULVER / KAPSELN: Getrocknete Olivenblätter, fein gemahlen, können als Pulver in Kapseln (handelsübliche Nahrungsergänzungsmittel) eingenommen werden — übliche Tagesdosis standardisierter Produkte 500–1000 mg Extrakt (auf 20 % Oleuropein). Volkstümlich zur allgemeinen Stärkung der Abwehrkräfte und bei leichten fieberhaften Erkältungen. Klinische Studien deuten auf immunmodulatorische Effekte hin, jedoch ohne EMA- oder ESCOP-Monographierung für diese Indikation. Keine Heilwirkung belegt nach EU-Recht; Nahrungsergänzungsmittel, kein Arzneimittel. Fertigprodukte bevorzugen, da standardisierter Wirkstoffgehalt sichergestellt.",
+          "en": "OLIVE LEAF POWDER / CAPSULES: Dried olive leaves finely ground can be taken as powder in capsules (commercial food supplements) — typical daily dose of standardised products: 500–1000 mg extract (standardised to 20 % oleuropein). Folk use for general immune support and mild feverish colds. Clinical studies suggest immunomodulatory effects, but no EMA or ESCOP monograph exists for this indication. No medicinal health claim proven under EU law; supplement, not medicinal product. Prefer commercial standardised products for consistent potency."
+        }
+      },
+      "description": {
+        "de": "Olivenblatt-Extrakt (Pulver/Kapsel) als Nahrungsergänzungsmittel zur allgemeinen Immununterstützung — volksmedizinisch, ohne EMA-Monographierung für diese Indikation.",
+        "en": "Olive leaf extract (powder/capsule) as food supplement for general immune support — traditional, without EMA monograph for this indication."
+      },
+      "source_ids": [
+        "src_oliveleaf_immunomodulation",
+        "src_escop_oleae_folium"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Blätter",
+      "en": "leaves"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG — OLIVENBLATT-ZUBEREITUNGEN: Olivenblatt-Tee und -Tinktur können den Blutdruck senken. Bei gleichzeitiger Einnahme blutdrucksenkender Medikamente besteht das Risiko einer additiven Hypotonie (Schwindel, Ohnmacht). Blutdruck häufiger kontrollieren. Olivenblatt-Zubereitungen sind KEIN Ersatz für ärztlich verordnete Antihypertensiva. Bei anhaltend erhöhtem Blutdruck (>140/90 mmHg) immer zuerst zum Arzt. OLIVENÖL: Generell sehr gut verträglich — als Lebensmittel keine toxikologische Gefahr. EFSA-Polyphenol-Gesundheitsaussage gilt nur für Öle mit nachgewiesenem Hydroxytyrosol-Gehalt (mindestens 5 mg/20 g), nicht pauschal für alle Olivenöle. Hochdosierte Olivenblatt-Extrakte (Nahrungsergänzungsmittel) können bei empfindlichen Personen Magen-Darm-Beschwerden verursachen.",
+      "en": "IMPORTANT — OLIVE LEAF PREPARATIONS: Olive leaf tea and tincture can lower blood pressure. Additive hypotension risk (dizziness, fainting) when combined with antihypertensive drugs — monitor blood pressure more frequently. Olive leaf preparations are NOT a substitute for medically prescribed antihypertensives. Persistently elevated blood pressure (>140/90 mmHg) always warrants medical evaluation first. OLIVE OIL: Generally very well tolerated — no toxicological concern as a food. EFSA polyphenol health claim applies only to oils with documented hydroxytyrosol content (at least 5 mg/20 g), not to all olive oils. High-dose olive leaf extracts (supplements) can cause gastrointestinal discomfort in sensitive individuals."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Olivenöl als Lebensmittel gilt als sicher in Schwangerschaft und Stillzeit. Olivenblatt-Tee und -Tinktur in therapeutischen Dosen: mangels Sicherheitsdaten nicht empfohlen — blutdrucksenkender Effekt könnte unerwünscht sein. Küchenmäßige Mengen (geringe Mengen Olivenblätter in Speisen) gelten als unbedenklich.",
+        "en": "Olive oil as a food is considered safe in pregnancy and lactation. Olive leaf tea and tincture at therapeutic doses: not recommended due to lack of safety data — blood pressure-lowering effect may be undesirable. Culinary amounts (small quantities of olive leaves in food) are considered safe."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Olivenöl als Nahrungsmittel sicher. Therapeutische Olivenblatt-Zubereitungen mangels Daten meiden — Oleuropein-Übertritt in die Muttermilch nicht ausreichend untersucht.",
+        "en": "Olive oil as food is safe. Therapeutic olive leaf preparations should be avoided due to lack of data — transfer of oleuropein into breast milk insufficiently studied."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Olivenöl als Nahrungsmittel und zur äußerlichen Hautpflege (inkl. Säuglinge) unbedenklich. Therapeutische Olivenblatt-Tees und -Tinkturen für Kinder unter 12 Jahren: nicht empfohlen — keine ausreichenden Sicherheitsdaten. Hochdosierte Olivenblatt-Extrakte (Kapseln) nicht für Kinder.",
+        "en": "Olive oil as food and for external skin care (incl. infants) is safe. Therapeutic olive leaf teas and tinctures for children under 12: not recommended — insufficient safety data. High-dose olive leaf extract capsules not for children."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Olivenbaum (Olea europaea) oder andere Ölbaumgewächse (Oleaceae); Olivenpollen ist ein bekanntes Allergen (Kreuzreaktion möglich).",
+        "en": "Hypersensitivity to olive tree (Olea europaea) or other Oleaceae; olive pollen is a known allergen (cross-reaction possible)."
+      },
+      {
+        "de": "Bekannte Hypotonie (zu niedriger Blutdruck) — Olivenblatt-Zubereitungen können Blutdruck weiter senken.",
+        "en": "Known hypotension (low blood pressure) — olive leaf preparations may further lower blood pressure."
+      },
+      {
+        "de": "Gallenwegserkrankungen, Gallensteine — cholagoge Wirkung des Olivenblatt-Bitterstofftees ohne ärztliche Abklärung kontraindiziert.",
+        "en": "Biliary tract disorders, gallstones — cholagogue effect of olive leaf bitter tea is contraindicated without medical evaluation."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (therapeutische Olivenblatt-Dosen) — mangels Sicherheitsdaten meiden.",
+        "en": "Pregnancy and lactation (therapeutic olive leaf doses) — avoid due to lack of safety data."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antihypertensiva (ACE-Hemmer, Calciumantagonisten, Betablocker, Diuretika, Sartane)",
+        "mechanism": {
+          "de": "Olivenblatt-Extrakte (Oleuropein, Hydroxytyrosol) wirken vasodilatierend und hemmen das Angiotensin-Converting-Enzyme (ACE) in vitro. Bei gleichzeitiger Einnahme von Antihypertensiva mögliche additive Blutdrucksenkung mit Risiko von Hypotonie, Schwindel und Synkope. Blutdruck häufiger messen, ggf. Dosisanpassung in Absprache mit dem Arzt.",
+          "en": "Olive leaf extracts (oleuropein, hydroxytyrosol) have vasodilating properties and inhibit angiotensin-converting enzyme (ACE) in vitro. Additive blood pressure-lowering effect possible with antihypertensives — risk of hypotension, dizziness, syncope. Monitor blood pressure more frequently; dose adjustment in consultation with physician may be needed."
+        },
+        "severity": "caution",
+        "source_id": "src_escop_oleae_folium"
+      },
+      {
+        "drug_class": "Antidiabetika (Metformin, Sulfonylharnstoffe, Insulin)",
+        "mechanism": {
+          "de": "Tierexperimentelle und In-vitro-Studien zeigen blutzuckersenkende Eigenschaften von Oleuropein (verbesserte Insulinsensitivität, Hemmung der Alpha-Glucosidase). Bei gleichzeitiger Einnahme mit Antidiabetika theoretisches Risiko einer additiven Hypoglykämie. Blutzucker häufiger kontrollieren; Dosisanpassung ggf. erforderlich.",
+          "en": "Animal and in vitro studies show blood glucose-lowering properties of oleuropein (improved insulin sensitivity, alpha-glucosidase inhibition). Theoretical risk of additive hypoglycaemia with antidiabetics. Monitor blood glucose more frequently; dose adjustment may be needed."
+        },
+        "severity": "monitor",
+        "source_id": "src_oliveleaf_immunomodulation"
+      },
+      {
+        "drug_class": "Antikoagulantien und Thrombozytenaggregationshemmer (Warfarin, Phenprocoumon, ASS, Clopidogrel)",
+        "mechanism": {
+          "de": "Olivenöl-Polyphenole (Hydroxytyrosol, Oleocanthal) zeigen in vitro und in Tiermodellen mild antiplatelet-aggregatorische Wirkungen. Klinische Relevanz bei Nahrungsmengen gering, bei therapeutischen Olivenblatt-Extraktdosen potenziell relevant. Bei gleichzeitiger Antikoagulation INR/Gerinnungsparameter häufiger überwachen.",
+          "en": "Olive oil polyphenols (hydroxytyrosol, oleocanthal) show mild antiplatelet-aggregatory effects in vitro and in animal models. Clinical relevance at dietary doses is low; potentially relevant at therapeutic olive leaf extract doses. Monitor INR/coagulation parameters more frequently when combined with anticoagulation."
+        },
+        "severity": "monitor",
+        "source_id": "src_efsa_olive_polyphenols"
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Olivenbaum (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Olivenbaum",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Olive (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Olive",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_escop_oleae_folium",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Oleae folium (Olive Leaf), 2nd edition with supplement 2009",
+      "url": "https://escop.com/downloads/oleae-folium/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_teedrogen",
+      "type": "book",
+      "title": "Wichtl, M. (Hrsg.) — Teedrogen und Phytopharmaka, 5. Auflage, Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009 — Oleae folium",
+      "url": "https://www.wissenschaftliche.de/buch/teedrogen-und-phytopharmaka",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_efsa_olive_polyphenols",
+      "type": "monograph",
+      "title": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA) — Scientific Opinion on the substantiation of a health claim related to polyphenols in olive and protection of LDL particles from oxidative damage, EFSA Journal 2011; 9(4):2033",
+      "url": "https://doi.org/10.2903/j.efsa.2011.2033",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_predimed_study",
+      "type": "monograph",
+      "title": "Estruch R et al. — Primary Prevention of Cardiovascular Disease with a Mediterranean Diet Supplemented with Extra-Virgin Olive Oil or Nuts (PREDIMED), NEJM 2018; 378:e34",
+      "url": "https://doi.org/10.1056/NEJMoa1800389",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_oliveleaf_immunomodulation",
+      "type": "monograph",
+      "title": "Şahin S & Bilgin M — Olive tree (Olea europaea L.) leaf as a waste by-product of table olive and olive oil industry: a review, Journal of the Science of Food and Agriculture 2018; 98(4):1271-1279",
+      "url": "https://doi.org/10.1002/jsfa.8619",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_olea_europaea",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Olea europaea database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Olea+europaea",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_olivenbaum",
+      "type": "wikipedia",
+      "title": "Olivenbaum — Wikipedia DE",
+      "url": "https://de.wikipedia.org/wiki/Olivenbaum",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_olive_oil",
+      "type": "wikipedia",
+      "title": "Olive oil — Wikipedia EN",
+      "url": "https://en.wikipedia.org/wiki/Olive_oil",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_olea_europaea",
+      "type": "wikipedia",
+      "title": "Olea europaea — Wikipedia EN",
+      "url": "https://en.wikipedia.org/wiki/Olea_europaea",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_olea",
+      "type": "wikidata",
+      "title": "Olea europaea — Wikidata Q37609",
+      "url": "https://www.wikidata.org/wiki/Q37609",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "olea-europaea.jpg",
+    "alt": {
+      "de": "Foto von Olivenbaum",
+      "en": "Photo of Olive"
+    },
+    "license": "See Commons file page",
+    "author": "Unknown (see Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:olea-europaea.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Oleuropein",
+      "category": "glycoside",
+      "percent_range": "1-8 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Wichtigster Secoiridoid-Bitterstoff und Hauptwirkstoff des Olivenblattes. Vasodilatierend, mild antihypertensiv (ACE-Hemmung in vitro), antioxidativ, mild antimikrobiell und immunmodulierend. Hydrolyse zu Hydroxytyrosol und Elenolsäure (metabolisch aktive Abbauprodukte). Höchste Konzentration in jungen Blättern; im Öl selbst kaum nachweisbar.",
+        "en": "The main secoiridoid bitter compound and principal active constituent of olive leaf. Vasodilating, mildly antihypertensive (ACE inhibition in vitro), antioxidant, mildly antimicrobial and immunomodulating. Hydrolysed to hydroxytyrosol and elenolic acid (metabolically active breakdown products). Highest concentration in young leaves; barely detectable in the oil itself."
+      }
+    },
+    {
+      "name": "Hydroxytyrosol (3,4-Dihydroxyphenylethanol)",
+      "category": "phenolic_acid",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptpolyphenol im nativen Olivenöl extra und Abbauprodukt des Oleuropeins. EFSA-Gesundheitsaussage: Hydroxytyrosol und seine Derivate schützen LDL-Cholesterin vor oxidativer Schädigung (20 g Öl/Tag mit mindestens 5 mg dieser Verbindungen). Stärkste antioxidative Wirkung unter den Olivenpolyphenolen; hydrophil und gut bioverfügbar.",
+        "en": "Main polyphenol in extra virgin olive oil and breakdown product of oleuropein. EFSA health claim: hydroxytyrosol and its derivatives protect LDL cholesterol from oxidative damage (20 g oil/day with at least 5 mg of these compounds). Strongest antioxidant activity among olive polyphenols; hydrophilic and well bioavailable."
+      }
+    },
+    {
+      "name": "Oleocanthal",
+      "category": "phenolic_acid",
+      "percent_range": "0.005-0.05 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Phenolisches Secoiridoid ausschließlich in nativem Olivenöl extra; verantwortlich für den charakteristischen Kratzer im Hals beim Schlucken. Hemmt COX-1 und COX-2 ähnlich wie Ibuprofen — in vitro entzündungshemmend. Klinische Studien zur Wirksamkeit beim Menschen begrenzt. Gehalt stark sortenabhängig (höher in früh geernteten, grünen Oliven).",
+        "en": "Phenolic secoiridoid found exclusively in extra virgin olive oil; responsible for the characteristic throat-scratching sensation on swallowing. Inhibits COX-1 and COX-2 similarly to ibuprofen — anti-inflammatory in vitro. Clinical studies in humans are limited. Content is highly cultivar-dependent (higher in early-harvested green olives)."
+      }
+    },
+    {
+      "name": "Ölsäure (Oleic acid, C18:1 omega-9)",
+      "category": "other",
+      "percent_range": "55-83 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptbestandteil des Olivenöls — einfach ungesättigte Fettsäure. Senkt LDL-Cholesterin und erhöht HDL-Cholesterin bei Ersatz gesättigter Fettsäuren. Grundlage für die kardioprotektive Wirkung der mediterranen Ernährung. Hoher Ölsäuregehalt korreliert mit Oxidationsstabilität des Öls. Nicht spezifisch für Olivenöl — auch in Rapsöl und Avocadoöl dominant.",
+        "en": "Main constituent of olive oil — monounsaturated fatty acid. Lowers LDL and raises HDL cholesterol when substituted for saturated fats. Foundation of the cardioprotective Mediterranean diet effect. High oleic acid content correlates with oxidative stability of the oil. Not specific to olive oil — also dominant in rapeseed and avocado oil."
+      }
+    },
+    {
+      "name": "Oleuropeosid-Aglykone (Elenolsäure, Oleoside)",
+      "category": "bitter",
+      "percent_range": "0.5-3 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Secoiridoid-Aglykone und Zwischenprodukte des Oleuropein-Abbaus. Tragen zur Gesamtbitterwirkung des Olivenblattes bei und haben eigenständige biologische Aktivitäten (antioxidativ, antiviral in vitro). Bilden zusammen mit Oleuropein die charakteristische phytochemische Signatur von Oleae folium.",
+        "en": "Secoiridoid aglycones and intermediate products of oleuropein degradation. Contribute to the overall bitter activity of olive leaf and have independent biological activities (antioxidant, antiviral in vitro). Together with oleuropein they form the characteristic phytochemical signature of Oleae folium."
+      }
+    },
+    {
+      "name": "Flavonoide (Luteolin, Apigenin, Rutin, Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "0.3-1 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Luteolin und seine Glykoside sind die dominierenden Flavonoide im Olivenblatt. Antioxidativ, mild entzündungshemmend und kapillarprotektiv. Ergänzen die antioxidative Wirkung des Oleuropeins synergistisch. Im nativen Olivenöl sind Flavonoide nur in sehr geringen Mengen vorhanden.",
+        "en": "Luteolin and its glycosides are the dominant flavonoids in olive leaf. Antioxidant, mildly anti-inflammatory and capillary-protective. Synergistically complement the antioxidant effect of oleuropein. In extra virgin olive oil, flavonoids are present only in very small amounts."
+      }
+    },
+    {
+      "name": "Triterpene (Oleanolsäure, Ursolsäure, Maslinensäure)",
+      "category": "other",
+      "percent_range": "0.2-1 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Pentacyclische Triterpene der Oleanolreihe. Maslinensäure ist spezifisch für Olea europaea. In vitro antiproliferativ, hepatoprotektiv und leicht antidiabetisch. Oleanolsäure und Ursolsäure auch in vielen anderen Pflanzen vorhanden — für Olivenblatt-Spezifität v. a. Maslinensäure relevant.",
+        "en": "Pentacyclic triterpenes of the oleanane series. Maslinic acid is specific to Olea europaea. In vitro antiproliferative, hepatoprotective and mildly antidiabetic. Oleanolic and ursolic acids also found in many other plants — maslinic acid most relevant for olive leaf specificity."
+      }
+    },
+    {
+      "name": "Tocopherole (alpha-Tocopherol / Vitamin E)",
+      "category": "vitamin",
+      "percent_range": "1-25 mg/100 g",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Natives Olivenöl extra enthält 1–25 mg alpha-Tocopherol pro 100 g, sortenabhängig. Fettlösliches Antioxidans; schützt das Öl vor Oxidation und trägt zur antioxidativen Gesamtkapazität bei. Zusammen mit Polyphenolen für die Oxidationsstabilität des Öls mitverantwortlich. Kein spezifischer Marker für Olivenöl-Qualität allein.",
+        "en": "Extra virgin olive oil contains 1–25 mg alpha-tocopherol per 100 g, depending on cultivar. Fat-soluble antioxidant; protects the oil from oxidation and contributes to overall antioxidant capacity. Together with polyphenols, co-responsible for the oxidative stability of the oil. Not a specific quality marker for olive oil alone."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "An einem trockenen, windstillen Morgen nach Tauabtrocknung (9–11 Uhr). Junge, noch hellgrüne Blätter der diesjährigen Triebe bevorzugen — sie enthalten den höchsten Oleuropein-Gehalt. Ältere, dunkelgrüne Blätter können mitgeerntet werden, haben aber niedrigere Wirkstoffgehalte. Im mediterranen Anbaugebiet ganzjährig möglich, Frühjahr (März–Juni) bevorzugt.",
+        "en": "On a dry, windless morning after dew has evaporated (9–11 am). Prefer young, light-green leaves from current-year shoots — they contain the highest oleuropein content. Older dark-green leaves can also be harvested but have lower constituent levels. Year-round harvest possible in Mediterranean regions; spring (March–June) preferred."
+      },
+      "drying": {
+        "de": "Blätter einzeln von den Zweigen abstreifen (keine Zweige mittrocknen — verlangsamt Trocknung). Einlagig auf Trockensieben oder Tüchern ausbreiten. Im Schatten, bei guter Luftzirkulation, maximal 35 °C trocknen — höhere Temperaturen bauen Oleuropein ab. Trocknung dauert 5–10 Tage. Fertig getrocknete Blätter: matt, leicht gewellt, charakteristisch bitter-aromatischer Geruch. Luftdicht in dunklen Glasgefäßen aufbewahren, vor Licht und Feuchtigkeit schützen, innerhalb 12 Monate aufbrauchen.",
+        "en": "Strip leaves individually from branches (do not dry branches — slows drying). Spread in a single layer on drying screens or cloths. Dry in shade with good air circulation, maximum 35 °C — higher temperatures degrade oleuropein. Drying takes 5–10 days. Ready-dried leaves: matt, slightly curled, characteristically bitter-aromatic smell. Store airtight in dark glass containers, protect from light and moisture, use within 12 months."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Dunkel, luftdicht, trocken und kühl (unter 20 °C). Bei Lichteinwirkung oder Feuchtigkeit rascher Oleuropein-Abbau. Nach 12 Monaten deutlich nachlassende Bitterwirkung — neu ernten oder kaufen.",
+        "en": "Dark, airtight, dry and cool (below 20 °C). Oleuropein degrades rapidly with light or moisture exposure. After 12 months, bitterness markedly diminishes — harvest or purchase fresh."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "Olivenernte morgens bis mittags. Erntezeitpunkt bestimmt das Aroma und den Polyphenolgehalt des Öls: Frühernte (September/Oktober, grüne bis violette Früchte) liefert ein fruchtig-bitteres, polyphenolreiches Öl (höherer Oleocanthal- und Hydroxytyrosol-Gehalt). Späternte (November/Dezember, schwarze Früchte) gibt höhere Ausbeute, aber milderes, polyphenolärmeres Öl. Für Hausernte: von Hand oder mit Kämmen abstreifen (Netze unterlegen), keine Fallen auf dem Boden liegender Früchte — sofort verarbeiten oder kalt pressen lassen.",
+        "en": "Olive harvest morning to midday. Harvest timing determines aroma and polyphenol content of the oil: early harvest (September/October, green to violet fruit) produces a fruity-bitter, polyphenol-rich oil (higher oleocanthal and hydroxytyrosol). Late harvest (November/December, black fruit) gives higher yield but milder, lower-polyphenol oil. For home harvest: pick by hand or comb off (place nets beneath), avoid using windfallen ground fruit — process immediately or have cold-pressed."
+      },
+      "drying": {
+        "de": "Frisch geerntete Oliven NICHT trocknen — für Öl: sofort (innerhalb 24 h) kalt pressen lassen; für Tafelolivenzubereitung: in Wasser, Salzlake (8–10 % NaCl) oder Lauge einlegen zur Entbitterung des Oleuropeins (Dauer: Wochen bis Monate je nach Verfahren). Haushalts-Ölgewinnung ohne Presse: Oliven fein häckseln, in Käsetuch pressen — geringe Ausbeute, aber möglich. Getrocknete schwarze Oliven (Dörrung): einige traditionelle Kultivare werden in Salz gewalzt und an der Luft getrocknet (Wrinkled olives) — sehr bitter, hoher Salzgehalt.",
+        "en": "Freshly harvested olives should NOT be dried — for oil: have cold-pressed immediately (within 24 h); for table olives: soak in water, brine (8–10 % NaCl) or lye to debitter oleuropein (duration: weeks to months depending on method). Home oil extraction without press: finely chop olives, press in cheesecloth — low yield but feasible. Dried black olives: some traditional cultivars are rolled in salt and air-dried (wrinkled olives) — very bitter, high salt content."
+      },
+      "storage_months": 18,
+      "storage_condition": {
+        "de": "Natives Olivenöl extra: dunkel, kühl (14–18 °C), luftdicht verschlossen. Innerhalb 18 Monate nach Ernte aufbrauchen — Polyphenolgehalt nimmt mit Zeit und Lichteinwirkung ab. Nie im Kühlschrank (Flockenbildung, reversibler Effekt, aber Kondenswasser-Problem). Tafelolivensorten: in Salzlake oder Öl luftdicht gelagert, kühl stellen.",
+        "en": "Extra virgin olive oil: dark, cool (14–18 °C), airtight. Use within 18 months of harvest — polyphenol content decreases over time and with light exposure. Never in the refrigerator (flocculation, reversible but condensation problem). Table olives: stored in brine or oil airtight, keep cool."
+      }
+    }
+  ]
+}

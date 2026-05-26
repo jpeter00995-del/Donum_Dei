@@ -1,0 +1,390 @@
+{
+  "slug": "cornus-mas",
+  "names": {
+    "de": "Kornelkirsche",
+    "en": "Cornus mas",
+    "latin": "Cornus mas"
+  },
+  "family": {
+    "de": "Hartriegelgewächse",
+    "en": "Dogwood family",
+    "latin": "Cornaceae"
+  },
+  "description": {
+    "de": "Die Kornelkirsche, auch Gelber Hartriegel, Herlitze, Dürlitze, Hirlnuss, in Österreich auch Dirndl, Dirndling, Dirndlstrauch oder Dirndlstaude, in der Deutschschweiz Tierlibaum genannt, ist eine Pflanzenart und gehört zur Gattung der Hartriegel (Cornus) innerhalb der Familie der Hartriegelgewächse (Cornaceae). Es handelt sich, entgegen der deutschen Bezeichnung, nicht um eine Kirschart.",
+    "en": "Cornelian cherry, also known as the European cornel, is a species of shrub or small tree in the dogwood family Cornaceae native to Western Europe, Southern Europe, and Southwestern Asia."
+  },
+  "teaser": {
+    "de": "Die Kornelkirsche, auch Gelber Hartriegel, Herlitze, Dürlitze, Hirlnuss, in Österreich auch Dirndl, Dirndling, Dirndl...",
+    "en": "Cornelian cherry, also known as the European cornel, is a species of shrub or small tree in the dogwood family Cornac..."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Die reifen Früchte der Kornelkirsche werden frisch verzehrt oder als Kompott, Marmelade, Saft und Dörrfrucht zubereitet. Sie schmecken angenehm säuerlich-süß und liefern reichlich Vitamin C sowie Anthocyane. Unreife Früchte sind stark adstringierend und sollten nicht roh gegessen werden.",
+        "en": "Ripe cornelian cherry fruits are eaten fresh or prepared as compote, jam, juice, and dried fruit. They have a pleasantly tart-sweet flavour and supply abundant vitamin C and anthocyanins. Unripe fruits are strongly astringent and should not be eaten raw."
+      },
+      "preparation": {
+        "de": "Vollreife Früchte (tiefrot, leicht weich) ernten; roh essen oder zu Marmelade, Kompott, Saft oder Likör verarbeiten. Kerne vor Verwendung entfernen.",
+        "en": "Harvest fully ripe fruits (deep red, slightly soft); eat raw or process into jam, compote, juice, or liqueur. Remove stones before use."
+      },
+      "source_ids": [
+        "src_wiki_de_cornus",
+        "src_wiki_en_cornus",
+        "src_dinda2016"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "fever"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der traditionellen Volksmedizin des Balkans und Kaukasus wurden Abkochungen der Früchte gegen Durchfall, Ruhr und Fieber eingesetzt. Die adstringierende Wirkung der Gerbstoffe ist für die schleimhautberuhigende Wirkung verantwortlich.",
+        "en": "In traditional folk medicine of the Balkans and Caucasus, decoctions of the fruit were used against diarrhea, dysentery, and fever. The astringent action of tannins is responsible for the mucosa-soothing effect."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "5–10 g getrocknete Früchte (entsteint) in 250 ml Wasser 10 Minuten köcheln lassen, abseihen, 2× täglich trinken.",
+          "en": "Simmer 5–10 g dried fruits (pitted) in 250 ml water for 10 minutes, strain, drink twice daily."
+        }
+      },
+      "source_ids": [
+        "src_dinda2016",
+        "src_pfaf_cornus"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Die früh im Jahr erscheinenden gelben Blüten wurden volksmedizinisch als leichtes Abführ- und Darmmittel genutzt. Ein Aufguss der frischen oder getrockneten Blüten gilt als magenfreundlich.",
+        "en": "The early-blooming yellow flowers were used in folk medicine as a mild laxative and digestive remedy. An infusion of fresh or dried flowers is considered gentle on the stomach."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 200,
+        "steep_min": 8,
+        "doses_per_day": 1,
+        "instructions": {
+          "de": "2–4 g frische oder getrocknete Blüten mit 200 ml heißem Wasser übergießen, 8 Minuten ziehen lassen, abseihen.",
+          "en": "Pour 200 ml of hot water over 2–4 g fresh or dried flowers, steep 8 minutes, strain."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_cornus"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Tinkturen und Liköre aus den Früchten sind in Süd- und Osteuropa weit verbreitet. Die Iridoide (Logansäure, Cornusid) und Anthocyane der Kornelkirsche werden dabei gut extrahiert und gelten als antioxidativ sowie antibakteriell.",
+        "en": "Tinctures and liqueurs from the fruits are widespread in Southern and Eastern Europe. The iridoids (loganic acid, cornuside) and anthocyanins of cornelian cherry are well extracted by alcohol and are considered antioxidant and antibacterial."
+      },
+      "preparation": {
+        "de": "Reife Früchte (entsteint) mit 40%igem Alkohol im Verhältnis 1:5 ansetzen; 4 Wochen ziehen lassen, abseihen.",
+        "en": "Macerate pitted ripe fruits in 40% alcohol at a ratio of 1:5; leave to infuse for 4 weeks, then strain."
+      },
+      "source_ids": [
+        "src_dinda2016"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Im kaukasischen Volksgebrauch wurden frische Früchte und das Samenöl zur äußerlichen Behandlung schwer heilender Wunden und Hauterkrankungen aufgetragen. Das Öl enthält zu 70–75 % Linolsäure.",
+        "en": "In Caucasian folk use, fresh fruits and seed oil were applied externally for slow-healing wounds and skin conditions. The oil contains 70–75% linoleic acid."
+      },
+      "source_ids": [
+        "src_dinda2016"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der aserbaidschanischen und georgischen Küche werden Kornelkirschen als Würzzutat für Reisgerichte, Fleischsaucen und Trockenfrüchte (Pestil/Turshu) verwendet. Unreife eingelegte Früchte ähneln in ihrer Verwendung Oliven.",
+        "en": "In Azerbaijani and Georgian cuisine, cornelian cherries are used as a seasoning for rice dishes, meat sauces, and dried fruit preparations (Pestil/Turshu). Unripe pickled fruits are used similarly to olives."
+      },
+      "source_ids": [
+        "src_wiki_en_cornus"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "reife Früchte",
+      "en": "ripe fruits"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bei üblicher Anwendung keine bekannten Nebenwirkungen. Kerne vor der Verwendung entfernen (kein Amygdalin nachgewiesen, aber mechanisch störend). Unreife Früchte stark adstringierend — nur reife verwenden.",
+      "en": "No known adverse effects with normal use. Remove stones before consumption (no amygdalin detected, but mechanically disruptive). Unripe fruit strongly astringent — use only fully ripe fruit."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten für Schwangerschaft; maßvoller Lebensmittelgebrauch (Marmelade, Saft) gilt als unbedenklich.",
+        "en": "No sufficient data for pregnancy; moderate food use (jam, juice) is generally considered safe."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten; maßvoller Lebensmittelgebrauch gilt als unbedenklich.",
+        "en": "No data; moderate food use is generally considered safe."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Kerne vor Gabe an Kinder stets entfernen. Gekochte oder verarbeitete Früchte (Marmelade, Kompott) sind für Kinder ab Kleinkindalter unbedenklich.",
+        "en": "Always remove stones before giving to children. Cooked or processed fruit (jam, compote) is safe for children from toddler age."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Keine bekannten Kontraindikationen bei Lebensmittelgebrauch.",
+        "en": "No known contraindications for food use."
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Kornelkirsche (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Kornelkirsche",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Cornus mas (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Cornus_mas",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_de_cornus",
+      "type": "wikipedia",
+      "title": "Kornelkirsche (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Kornelkirsche",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_en_cornus",
+      "type": "wikipedia",
+      "title": "Cornus mas (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Cornus_mas",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wikidata_cornus",
+      "type": "wikidata",
+      "title": "Cornus mas (Wikidata Q158642)",
+      "url": "https://www.wikidata.org/wiki/Q158642",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_dinda2016",
+      "type": "monograph",
+      "title": "Cornus mas L. (cornelian cherry), an important European and Asian traditional food and medicine: Ethnomedicine, phytochemistry and pharmacology for its commercial utilization in drug industry",
+      "url": "https://doi.org/10.1016/j.jep.2016.09.042",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_cornus",
+      "type": "book",
+      "title": "PFAF Plant Database — Cornus mas",
+      "url": "https://pfaf.org/user/plant.aspx?latinname=Cornus+mas",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "cornus-mas.jpg",
+    "alt": {
+      "de": "Foto von Kornelkirsche",
+      "en": "Photo of Cornus mas"
+    },
+    "license": "Public domain",
+    "author": "Unknown",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Cornus_mas0.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Anthocyane (Cyanidin-, Delphinidin-, Pelargonidin-Glykoside)",
+      "category": "flavonoid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptfarbstoffe der reifen Früchte; stark antioxidativ, zellschützend. Fünf Anthocyan-Verbindungen identifiziert.",
+        "en": "Main pigments of ripe fruits; strongly antioxidant, cytoprotective. Five anthocyanin compounds identified."
+      }
+    },
+    {
+      "name": "Logansäure (Loganic acid)",
+      "category": "glycoside",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Wichtigstes Iridoid der Kornelkirsche; antibakteriell, entzündungshemmend.",
+        "en": "Main iridoid of cornelian cherry; antibacterial, anti-inflammatory."
+      }
+    },
+    {
+      "name": "Cornusid",
+      "category": "glycoside",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Zweites Leitiridoid; zeigt antimykotische Eigenschaften.",
+        "en": "Second key iridoid; shows antifungal properties."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Bedeutsamer Vitamin-C-Gehalt; trägt zur immunstützenden Wirkung bei.",
+        "en": "Significant vitamin C content; contributes to immune-supporting effect."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine)",
+      "category": "tannin",
+      "plant_part": "bark",
+      "percent_range": "7-16 %",
+      "note": {
+        "de": "Hoher Gerbstoffgehalt in der Rinde (7–16 %); verantwortlich für die adstringierende Wirkung.",
+        "en": "High tannin content in bark (7–16 %); responsible for the astringent effect."
+      }
+    },
+    {
+      "name": "Pektine",
+      "category": "polysaccharide",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Gelbildende Polysaccharide; tragen zur Konsistenz von Marmelade und zur Magen-Darm-Schleimhautschutzwirkung bei.",
+        "en": "Gel-forming polysaccharides; contribute to jam consistency and gastrointestinal mucosa protection."
+      }
+    },
+    {
+      "name": "Linolsäure",
+      "category": "other",
+      "plant_part": "seed",
+      "percent_range": "70-75 %",
+      "note": {
+        "de": "Dominante Fettsäure im Samenöl (70–75 %); essenzielle Omega-6-Fettsäure.",
+        "en": "Dominant fatty acid in seed oil (70–75 %); essential omega-6 fatty acid."
+      }
+    },
+    {
+      "name": "Ursolsäure",
+      "category": "other",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Triterpenoid; zeigt im Labor anti-inflammatorische und hepatoprotektive Wirkung.",
+        "en": "Triterpenoid; shows anti-inflammatory and hepatoprotective activity in vitro."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Morgens oder bei kühler Witterung ernten, wenn die Früchte tiefrot und leicht weich sind.",
+        "en": "Harvest in the morning or during cool weather when fruits are deep red and slightly soft."
+      },
+      "drying": {
+        "de": "Früchte entsteinen und bei 40–50 °C im Dörrgerät oder an der Luft trocknen; dunkel und trocken lagern.",
+        "en": "Pit the fruits and dry at 40–50 °C in a dehydrator or in the open air; store in a dark, dry place."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknete Früchte in luftdichten Behältern dunkel und kühl lagern.",
+        "en": "Store dried fruits in airtight containers in a dark, cool place."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        2,
+        3
+      ],
+      "time_of_day": {
+        "de": "Blüten bei trockenem Wetter ernten, bevor sie vollständig geöffnet sind.",
+        "en": "Harvest flowers in dry weather before they are fully open."
+      },
+      "drying": {
+        "de": "Bei Raumtemperatur an einem luftigen, schattigen Ort trocknen; in Papiertüten aufbewahren.",
+        "en": "Dry at room temperature in an airy, shaded spot; store in paper bags."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknet in Papiertüten oder Gläsern, vor Licht geschützt.",
+        "en": "Dried in paper bags or jars, protected from light."
+      }
+    }
+  ]
+}

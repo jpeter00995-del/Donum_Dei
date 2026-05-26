@@ -1,0 +1,591 @@
+{
+  "slug": "marrubium-vulgare",
+  "names": {
+    "de": "Andorn",
+    "en": "White Horehound",
+    "latin": "Marrubium vulgare"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Der Gewöhnliche Andorn ist eine wollig behaarte, ausdauernde Staude mit graugrünen Blättern und kleinen weißen Lippenblüten in dichten Scheinquirlen. Er war 2018 Arzneipflanze des Jahres in Deutschland. Sein bitter-aromatisches Kraut wird traditionell bei Atemwegsbeschwerden und Verdauungsproblemen verwendet.",
+    "en": "Common white horehound is a woolly-haired perennial with grey-green leaves and small white labiate flowers in dense false whorls. It was named medicinal plant of the year 2018 in Germany. Its bitter-aromatic herb is traditionally used for respiratory complaints and digestive problems."
+  },
+  "teaser": {
+    "de": "Klassischer Hustentee — Arzneipflanze des Jahres 2018.",
+    "en": "Classical cough tea — medicinal plant of the year 2018."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2.5
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "AUFGUSS (EMA Traditional Use): 1,5–2,5 g getrocknetes, zerkleinertes Andornkraut (Herba Marrubii) mit 200 ml kochendem Wasser übergießen, zugedeckt 10 Minuten ziehen lassen, abseihen. Tagesdosis 4,5–7,5 g Droge (3 Einzelgaben). Warm, mäßig gesüßt mit Honig trinken. Indikation (EMA Traditional Use): Linderung von Husten bei Erkältungen und Reizhusten, Schleimlösung (Expektorans) sowie Unterstützung bei dyspeptischen Beschwerden und vorübergehendem Appetitmangel. Wirkungsweise: Marrubiin (Bitterlacton) stimuliert reflektorisch die Bronchialsekretbildung (sekretomotorisch) und reizt die Magenschleimhaut zur Gallensäuresekretion (choleretisch). Anwendungsdauer ohne ärztlichen Rat max. 4 Wochen. Bei Husten mit Fieber, eitrigem Auswurf, Atemnot oder anhaltenden Beschwerden über 1 Woche Arzt aufsuchen.",
+          "en": "INFUSION (EMA Traditional Use): 1.5–2.5 g dried, cut horehound herb (Herba Marrubii) in 200 ml boiling water, covered, steep 10 min, strain. Daily dose 4.5–7.5 g (3 single doses). Drink warm, moderately sweetened with honey. Indication (EMA traditional use): relief of cough in colds and irritative cough, mucus loosening (expectorant), and support for dyspeptic complaints and temporary loss of appetite. Mechanism: marrubiin (bitter lactone) reflexively stimulates bronchial secretion (secretomotoric) and promotes bile acid secretion (choleretic). Max 4 weeks without medical advice. Cough with fever, purulent sputum, dyspnoea or persistence beyond 1 week requires medical assessment."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene und Jugendliche ab 18 Jahren — keine ausreichenden Daten für Kinder unter 18.",
+          "en": "Per EMA for adults and adolescents 18+ only — insufficient data for children under 18."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Andornkräutertee als Expektorans bei Erkältungshusten und Reizhusten sowie als Bittermittel bei Appetitlosigkeit und Verdauungsbeschwerden — Hauptindikation der EMA-Monographie.",
+        "en": "Traditional horehound herb tea as expectorant for cold-related and irritative cough, and as a bitter remedy for loss of appetite and dyspeptic complaints — main indication of the EMA monograph."
+      },
+      "source_ids": [
+        "src_ema_marrubii_herba",
+        "src_escop_marrubii_herba",
+        "src_kommission_e_marrubium"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "respiratory",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (Droge-Auszug-Verhältnis 1:5, Auszugsmittel Ethanol 25–45 %): 1–2 ml (~20–40 Tropfen) in etwas Wasser verdünnt 3× täglich, vorzugsweise vor den Mahlzeiten (für die bittervermittelte Wirkung auf Galle und Verdauung). Tagesdosis entspricht ca. 4,5–7,5 g Droge. Traditionelle Anwendung wie Tee — Expektorans und Bittermittel. Ethanolgehalt beachten: nicht geeignet bei Alkoholabhängigkeit, schwerer Lebererkrankung, Epilepsie. Nicht während Schwangerschaft und Stillzeit.",
+          "en": "TINCTURE (DER 1:5, ethanol 25–45 %): 1–2 ml (~20–40 drops) in water 3× daily, preferably before meals (for bitter-mediated action on bile and digestion). Daily dose equivalent to 4.5–7.5 g herb. Traditional use as for tea — expectorant and bitter tonic. Note ethanol content: unsuitable for alcohol dependence, severe liver disease, epilepsy. Not during pregnancy or lactation."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur für Erwachsene ab 18 Jahren wegen Ethanolgehalt und fehlender Kinderdaten.",
+          "en": "Adults 18+ only due to ethanol content and absence of paediatric data."
+        }
+      },
+      "description": {
+        "de": "Alkoholische Andorntinktur als Alternative zum Tee — praktisch vor Mahlzeiten als Bittermittel und Expektorans bei Erkältungshusten.",
+        "en": "Alcoholic horehound tincture as alternative to tea — practical before meals as bitter tonic and expectorant for cold-related cough."
+      },
+      "source_ids": [
+        "src_ema_marrubii_herba",
+        "src_escop_marrubii_herba"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "BITTERMITTEL-TEE (Kommission-E-Indikation): 2–4 g getrocknetes Andornkraut mit 250 ml kochendem Wasser aufgießen, 10 Minuten zugedeckt ziehen lassen, abseihen. Ungesüßt oder minimal gesüßt vor den Mahlzeiten trinken — Bitterstoffe wirken am stärksten, wenn sie die Geschmacksrezeptoren ungehindert erreichen. 3× täglich vor den Mahlzeiten. Tagesdosis 6–12 g Droge gemäß Kommission E. Indikation: Appetitlosigkeit, dyspeptische Beschwerden, Gallen- und Leberstoffwechselanregung (Cholagogum, Choleretikum). Marrubiin und seine Abbauprodukte (Marrubiinsäure) stimulieren hepatisch die Gallensekretion messbar.",
+          "en": "BITTER TONIC TEA (Kommission E indication): 2–4 g dried horehound herb in 250 ml boiling water, covered, steep 10 min, strain. Drink unsweetened or minimally sweetened before meals — bitters are most effective when reaching taste receptors unimpeded. 3× daily before meals. Daily dose 6–12 g herb per Kommission E. Indication: loss of appetite, dyspeptic complaints, stimulation of bile and liver metabolism (cholagogue, choleretic). Marrubiin and its breakdown product marrubiinic acid measurably stimulate hepatic bile secretion."
+        }
+      },
+      "description": {
+        "de": "Bitterstofftee aus Andornkraut zur Anregung der Verdauung, Gallenproduktion und Gallenfluss — Kommission-E-positiv-Bewertung für Appetitlosigkeit und Dyspepsie.",
+        "en": "Bitter herb tea from horehound for stimulating digestion, bile production and bile flow — Kommission E positive assessment for loss of appetite and dyspepsia."
+      },
+      "source_ids": [
+        "src_kommission_e_marrubium",
+        "src_wichtl_marrubium",
+        "src_escop_marrubii_herba"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "circulation",
+        "joints"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 1.5
+        },
+        "doses_per_day": 2,
+        "max_duration_weeks": 6,
+        "instructions": {
+          "de": "ANDORN-BITTERMITTEL-TINKTUR (Volksheilkunde): 1–1,5 ml (~20–30 Tropfen) Andorntinktur in Wasser 2× täglich. Volksheilkundlich wurde Andorn auch als blutreigendes (alteratives) Mittel zur Entschlackung und bei rheumatischen Beschwerden eingesetzt. Klinische Belege fehlen für diese Indikation. NICHT mit herzwirksamen Medikamenten kombinieren (potenzielle Herzrhythmuswirkung von Marrubiin in hohen Dosen). Nur für Erwachsene.",
+          "en": "HOREHOUND BITTERS TINCTURE (folk tradition): 1–1.5 ml (~20–30 drops) in water 2× daily. Folk medicine used horehound as a blood-purifying (alterative) remedy and for rheumatic complaints. No clinical evidence for these indications. Do NOT combine with cardiac medications (marrubiin has potential antiarrhythmic action at high doses). Adults only."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundliche Anwendung als Bitterbitter-Tonikum und alternativ-entschlackendes Mittel bei rheumatischen Beschwerden — ohne klinische Belege, nur historisch dokumentiert.",
+        "en": "Folk use as bitter tonic and blood-purifying alterative for rheumatic complaints — no clinical evidence, documented historically only."
+      },
+      "source_ids": [
+        "src_madaus_1938_marrubium",
+        "src_pfaf_marrubium"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat",
+        "immune"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 3
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "GURGELTEE: 2–3 g Andornkraut mit 200 ml kochendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen, auf handwarm abkühlen. Mehrmals täglich (3–4×) damit 30–60 Sekunden gurgeln — nicht schlucken. Volksheilkundlich bei Halsschmerzen, Heiserkeit und Rachenentzündung. Adstringierende Gerbstoffe und antimikrobielle Lamiaceengerbstoffe wirken lokal beruhigend auf die Rachenschleimhaut. Begleitend zum Kräutertee einsetzbar.",
+          "en": "GARGLE TEA: 2–3 g horehound herb in 200 ml boiling water, covered, steep 10 min, strain, cool to hand-warm. Gargle 30–60 sec 3–4× daily — do not swallow. Folk use for sore throat, hoarseness and pharyngitis. Astringent tannins and antimicrobial Lamiaceae tannins locally soothe the pharyngeal mucosa. Can be used alongside the herbal tea."
+        }
+      },
+      "description": {
+        "de": "Volksmedizinischer Andorn-Gurgeltee bei Halsschmerzen, Heiserkeit und Rachenentzündung — adstringierende Gerbstoffe wirken lokal beruhigend.",
+        "en": "Folk horehound gargle tea for sore throat, hoarseness and pharyngitis — astringent tannins soothe locally."
+      },
+      "source_ids": [
+        "src_madaus_1938_marrubium",
+        "src_pfaf_marrubium",
+        "src_wp_de_andorn"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "KULINARIK & LIKÖR: Junge, frische Andornblätter in sehr kleinen Mengen als aromatisch-bitterer Würzzusatz in Kräuteressig, Kräuterbutter oder herzhaften Speisen. Andorn ist Bestandteil traditioneller Kräuterliköre und Digestifs (z. B. historischer Marrubium-Bitters). Für Andorn-Bonbons (Horehound candy — traditionell angelsächsisch): frischen Pflanzenextrakt mit Zucker einkochen. Sehr intensiv bitter — sparsam verwenden. Kulinarische Dosen (wenige Gramm frisches Kraut täglich) gelten als unbedenklich.",
+          "en": "CULINARY & LIQUEUR: Young fresh horehound leaves in very small amounts as bitter-aromatic flavouring in herb vinegars, herb butter or savoury dishes. Horehound is an ingredient in traditional herbal liqueurs and digestifs (e.g. historic Marrubium bitters). For horehound candy (traditional Anglo-Saxon): boil fresh plant extract with sugar. Intensely bitter — use sparingly. Culinary doses (a few grams fresh herb daily) are considered safe."
+        }
+      },
+      "description": {
+        "de": "Kulinarische Nutzung junger Andornblätter als intensiver Bitterwürzstoff in Digestifs, Kräuterlikören und traditionellen Andorn-Bonbons (angelsächsische Volksküche).",
+        "en": "Culinary use of young horehound leaves as intense bitter flavouring in digestifs, herbal liqueurs and traditional horehound candy (Anglo-Saxon folk cuisine)."
+      },
+      "source_ids": [
+        "src_pfaf_marrubium",
+        "src_wp_en_horehound"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "fever",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 8,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "FIEBERTEE (historisch-volksheilkundlich): 1,5–2 g Andornkraut mit 200 ml heißem Wasser übergießen, 8 Minuten ziehen lassen, abseihen, warm trinken. 3× täglich bei fieberhaften Erkältungen. Historisch wurde Andorn als schweißtreibendes (diaphoretisches) und fiebersenkendes (antipyretisches) Mittel eingesetzt. Klinische Belege für diese Wirkungen liegen nicht vor; mäßige Entzündungshemmung durch Phenylpropanoide und Flavonoide in-vitro dokumentiert. Bei Fieber über 39 °C, starker Beeinträchtigung oder Fieber über 3 Tage: Arzt aufsuchen.",
+          "en": "FEVER TEA (historical folk use): 1.5–2 g horehound herb in 200 ml hot water, steep 8 min, strain, drink warm. 3× daily for febrile colds. Horehound was historically used as a diaphoretic and antipyretic. No clinical evidence for these effects; mild anti-inflammatory activity of phenylpropanoids and flavonoids documented in vitro. Fever above 39 °C, marked impairment or fever exceeding 3 days: seek medical care."
+        }
+      },
+      "description": {
+        "de": "Historisch-volksmedizinischer Andorntee bei fieberhaften Erkältungen als schweißtreibendes Mittel — in-vitro-Belege für Entzündungshemmung, klinische Daten fehlen.",
+        "en": "Historical folk horehound tea for febrile colds as diaphoretic — in-vitro evidence for anti-inflammatory activity, clinical data lacking."
+      },
+      "source_ids": [
+        "src_madaus_1938_marrubium",
+        "src_who_marrubium",
+        "src_wp_de_andorn"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG: Andorn (Marrubium vulgare) ist eine wirksame Arzneipflanze — keine harmlose Tasse Kräutertee. Marrubiin besitzt in hohen Dosen nachgewiesene antiarrhythmische und potenzielle herzrhythmusstörende Eigenschaften (Tiermodelle: proarrhythmisch bei Überdosierung). NIEMALS bei bestehenden Herzerkrankungen, Herzrhythmusstörungen oder Einnahme herzwirksamer Medikamente ohne ärztliche Absprache anwenden. Andorn ist uterustonisierend — ABSOLUT KONTRAINDIZIERT in der Schwangerschaft (Abortivum in der Volkstradition). In der Stillzeit meiden: bittere Inhaltsstoffe gehen in die Muttermilch über und können beim Säugling Verdauungsprobleme verursachen. Nicht für Kinder unter 18 Jahren laut EMA (keine ausreichenden Sicherheitsdaten). Maximale Anwendungsdauer 4 Wochen ohne ärztlichen Rat. Persistierender Husten über 1 Woche, Husten mit Fieber, eitrigem Auswurf oder Atemnot müssen ärztlich abgeklärt werden.",
+      "en": "IMPORTANT: Horehound (Marrubium vulgare) is a pharmacologically active medicinal plant — not a harmless herbal tea. Marrubiin has documented antiarrhythmic and potentially proarrhythmic properties at high doses (animal models). NEVER use with existing cardiac conditions, arrhythmias or cardiac medications without medical advice. Horehound is uterotonic — ABSOLUTELY CONTRAINDICATED in pregnancy (abortifacient in folk tradition). Avoid during lactation: bitter constituents pass into breast milk and may cause digestive upset in the infant. Not for children under 18 per EMA (insufficient safety data). Maximum use 4 weeks without medical advice. Persistent cough over 1 week, cough with fever, purulent sputum or dyspnoea require medical evaluation."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Andorn ist in der Schwangerschaft absolut kontraindiziert. Marrubiin wirkt uterustonisierend und wurde historisch als Abortivum eingesetzt. Selbst geringe Mengen (Tee, Tinktur) meiden. Nur kulinarische Spuredosen in aromatischen Würzanwendungen sind historisch unproblematisch — therapeutische Anwendung streng verboten.",
+        "en": "Horehound is absolutely contraindicated in pregnancy. Marrubiin is uterotonic and was historically used as an abortifacient. Avoid even small amounts (tea, tincture). Only trace culinary doses in flavouring applications are historically unproblematic — therapeutic use strictly prohibited."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Andorn ist in der Stillzeit kontraindiziert. Marrubiin und bittere Phenylpropanoide gehen in die Muttermilch über und können beim Säugling Koliken, Verdauungsunruhe oder Durchfall verursachen. Therapeutische Dosen meiden. Kulinarische Mengen (frische Blätter als Würze) sind in der Stillzeit ebenfalls vorsichtshalber zu meiden.",
+        "en": "Horehound is contraindicated during lactation. Marrubiin and bitter phenylpropanoids pass into breast milk and may cause colic, digestive upset or diarrhoea in the infant. Avoid therapeutic doses. Culinary amounts (fresh leaves as flavouring) should also be avoided as a precaution during lactation."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Laut EMA-Monographie nicht für Kinder und Jugendliche unter 18 Jahren geeignet — keine ausreichenden Sicherheits- und Wirksamkeitsdaten. Herzrhythmuspotenzial von Marrubiin macht selbst niedrige Dosen bei Kindern riskant. Ausnahme: kulinarische Spurdosen in Andorn-Bonbons (traditionell angelsächsisch) in haushaltsüblichen Mengen.",
+        "en": "Per EMA monograph not suitable for children and adolescents under 18 — insufficient safety and efficacy data. Cardiac rhythm potential of marrubiin makes even low doses risky in children. Exception: culinary trace doses in horehound candy (traditional Anglo-Saxon) in household amounts."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Schwangerschaft — uterustonisierende und historisch abortive Wirkung von Marrubiin.",
+        "en": "Pregnancy — uterotonic and historically abortifacient action of marrubiin."
+      },
+      {
+        "de": "Stillzeit — Übertritt von Marrubiin und Bitterstoffen in die Muttermilch mit möglicher Säuglingswirkung.",
+        "en": "Lactation — transfer of marrubiin and bitter constituents into breast milk with possible infant effects."
+      },
+      {
+        "de": "Kinder und Jugendliche unter 18 Jahren (therapeutische Dosen) — laut EMA keine ausreichenden Sicherheitsdaten.",
+        "en": "Children and adolescents under 18 (therapeutic doses) — insufficient safety data per EMA."
+      },
+      {
+        "de": "Bekannte Herzerkrankungen, Herzrhythmusstörungen oder Einnahme herzwirksamer Arzneimittel — Marrubiin kann antiarrhythmische und bei Überdosierung proarrhythmische Effekte haben.",
+        "en": "Known cardiac disease, arrhythmias or use of cardiac medications — marrubiin can have antiarrhythmic and, at high doses, proarrhythmic effects."
+      },
+      {
+        "de": "Überempfindlichkeit gegen Andorn oder andere Lippenblütler (Lamiaceae).",
+        "en": "Hypersensitivity to horehound or other Lamiaceae."
+      },
+      {
+        "de": "Schwere Leber- oder Gallenerkrankungen (Gallenkoliken, Gallenwegsverschluss) — choleretische Wirkung kontraindiziert bei Gallenwegsobstruktion.",
+        "en": "Severe liver or biliary disease (biliary colic, bile duct obstruction) — choleretic action contraindicated in biliary obstruction."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antiarrhythmika (Amiodaron, Sotalol, Flecainid, Klasse-I- und III-Antiarrhythmika)",
+        "mechanism": {
+          "de": "Marrubiin besitzt nachgewiesene antiarrhythmische Eigenschaften (Verlängerung der Aktionspotenzial-Dauer, Blockade von Natriumkanälen im Tiermodell). Additive oder antagonistische Wechselwirkungen mit Antiarrhythmika sind theoretisch möglich. Bei hohen Dosen proarrhythmisches Potenzial (Tiermodell). Kombination streng meiden oder nur unter kardiologischer Kontrolle mit EKG.",
+          "en": "Marrubiin has documented antiarrhythmic properties (prolongation of action potential duration, sodium channel blockade in animal models). Additive or antagonistic interactions with antiarrhythmics are theoretically possible. At high doses: proarrhythmic potential (animal model). Combination to be strictly avoided or only under cardiological supervision with ECG."
+        },
+        "severity": "avoid",
+        "source_id": "src_escop_marrubii_herba"
+      },
+      {
+        "drug_class": "Antidiabetika (Insulin, Sulfonylharnstoffe, Metformin, GLP-1-Agonisten)",
+        "mechanism": {
+          "de": "In-vitro- und Tierstudien zeigen potenzielle blutglucosesenkende Eigenschaften von Marrubium-Extrakten (Hemmung intestinaler Glucoseresorption und mögliche Insulinsensitivierung). Bei gleichzeitiger Einnahme blutglucosesenkender Medikamente additiv verstärkte Hypoglykämie-Gefahr möglich. Blutzucker häufiger kontrollieren.",
+          "en": "In-vitro and animal studies show potential blood glucose-lowering properties of Marrubium extracts (inhibition of intestinal glucose absorption and possible insulin sensitisation). When combined with glucose-lowering medications, additive hypoglycaemia risk is possible. Monitor blood glucose more frequently."
+        },
+        "severity": "monitor",
+        "source_id": "src_who_marrubium"
+      },
+      {
+        "drug_class": "Antihypertensiva (ACE-Hemmer, Betablocker, Calciumantagonisten, Diuretika)",
+        "mechanism": {
+          "de": "Marrubium-Extrakte zeigen in Tierstudien mild blutdrucksenkende Wirkung (vasodilatorisch über Calciumkanalblockade). Additive Wirkung mit Antihypertensiva möglich — erhöhtes Risiko einer Hypotonie, besonders bei älteren Patienten. Blutdruck regelmäßig überwachen.",
+          "en": "Marrubium extracts show mild blood pressure-lowering activity in animal studies (vasodilatory via calcium channel blockade). Additive effect with antihypertensives possible — increased hypotension risk, especially in elderly patients. Monitor blood pressure regularly."
+        },
+        "severity": "monitor",
+        "source_id": "src_who_marrubium"
+      },
+      {
+        "drug_class": "Gerinnungshemmer / Antikoagulantien (Warfarin, Phenprocoumon, NOAK)",
+        "mechanism": {
+          "de": "Andorn enthält Flavonoide mit potenzieller antiplateletärer Aktivität (in-vitro). Theoretisch additiv blutungsfördernd bei Kombination mit Antikoagulantien oder Thrombozytenaggregationshemmern. Klinische Relevanz nicht belegt, aber Vorsicht bei instabilem INR empfohlen.",
+          "en": "Horehound contains flavonoids with potential antiplatelet activity (in vitro). Theoretically additive pro-bleeding effect when combined with anticoagulants or antiplatelet agents. Clinical relevance unproven, but caution advised in patients with unstable INR."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_marrubii_herba"
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [
+    {
+      "author": "Madaus",
+      "year": 1938,
+      "license": "PD",
+      "text_de": "Der Andorn ist eines der ältesten und bewährtesten Mittel bei Erkrankungen der Atmungswege.",
+      "text_en": "Horehound is one of the oldest and most proven remedies for respiratory tract conditions.",
+      "work": "Lehrbuch der biologischen Heilmittel, Band III",
+      "chapter": "Marrubium vulgare — Andorn"
+    }
+  ],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Gewöhnlicher Andorn (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Andorn",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Marrubium vulgare (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Marrubium_vulgare",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_marrubii_herba",
+      "type": "monograph",
+      "title": "EMA/HMPC/613545/2010 — European Union herbal monograph on Marrubium vulgare L., herba (Final, 2012)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/marrubii-herba",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_marrubium",
+      "type": "monograph",
+      "title": "Kommission E — Marrubii herba (Andornkraut), Monographie (positiv), BAnz Nr. 43 vom 02.03.1989",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/0303.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_marrubii_herba",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Marrubii herba (White Horehound Herb), 2nd edition 2003 with supplement",
+      "url": "https://escop.com/downloads/white-horehound/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_who_marrubium",
+      "type": "monograph",
+      "title": "WHO Monographs on Selected Medicinal Plants — Volume 3: Herba Marrubii",
+      "url": "https://apps.who.int/iris/handle/10665/42965",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_marrubium",
+      "type": "book",
+      "title": "Wichtl, M. (Hrsg.) — Teedrogen und Phytopharmaka, 5. Auflage, Wissenschaftliche Verlagsgesellschaft Stuttgart, 2009: Marrubii herba — Andornkraut",
+      "url": "https://www.wissenschaftliche.de/teedrogen-und-phytopharmaka",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_madaus_1938_marrubium",
+      "type": "book",
+      "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band III: Marrubium vulgare — Andorn, 1938 (Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/marrubium.html",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_marrubium",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Marrubium vulgare database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Marrubium+vulgare",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_andorn",
+      "type": "wikipedia",
+      "title": "Gewöhnlicher Andorn (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Andorn",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_horehound",
+      "type": "wikipedia",
+      "title": "Marrubium vulgare — White Horehound (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Marrubium_vulgare",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_arzneipflanze_2018",
+      "type": "monograph",
+      "title": "Studienkreis Entwicklungsgeschichte der Arzneipflanzenkunde — Arzneipflanze des Jahres 2018: Andorn (Marrubium vulgare). Universität Würzburg.",
+      "url": "https://www.pharmazie.uni-wuerzburg.de/fileadmin/04020400/2018/Andorn.pdf",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "marrubium-vulgare.jpg",
+    "alt": {
+      "de": "Weiße Lippenblüten und graugrüne Blätter des Andorns",
+      "en": "White labiate flowers and grey-green leaves of white horehound"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "H. Zell",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Marrubium_vulgare_002.JPG"
+  },
+  "constituents": [
+    {
+      "name": "Marrubiin",
+      "category": "bitter",
+      "percent_range": "0.3-1.0 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Leitsubstanz des Andorns — ein furanisches Diterpenbitterlacton (Labdan-Typ). Marrubiin selbst ist ein Artefakt: In der frischen Pflanze liegt das Vorläufermolekül Premarrubiin vor, das beim Trocknen und Extrahieren spontan zu Marrubiin cyclisiert. Hauptverantwortlich für Expektorans- (sekretomotorische Reflexstimulation) und Bittertonikum-Wirkung (Gallensäure- und Verdauungssekretionsstimulation). In-vitro antiarrhythmische und calciumantagonistische Aktivität. Standardisierungsziel für Qualitätskontrolle gemäß Ph.Eur. und EMA.",
+        "en": "Lead compound of horehound — a furanic diterpene bitter lactone (labdane type). Marrubiin itself is an artefact: in fresh plant the precursor premarrubiin is present, which cyclises spontaneously to marrubiin on drying and extraction. Primarily responsible for expectorant (secretomotoric reflex stimulation) and bitter tonic effect (bile acid and digestive secretion stimulation). In-vitro antiarrhythmic and calcium-antagonistic activity. Standardisation target for quality control per Ph.Eur. and EMA."
+      }
+    },
+    {
+      "name": "Premarrubiin",
+      "category": "bitter",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Natürliche Vorstufe des Marrubiin in der frischen Pflanze. Furanlacton des Labdan-Diterpen-Typs. Wandelt sich beim Trocknen durch Säure-katalysierte Cyclisierung spontan zu Marrubiin um. Höherer Gehalt im frischen Kraut als im getrockneten. Mitverantwortlich für den intensiv bitteren Geschmack des frischen Krautes.",
+        "en": "Natural precursor of marrubiin in the fresh plant. Furanolactone of the labdane diterpene type. Converts spontaneously to marrubiin during drying by acid-catalysed cyclisation. Higher content in fresh herb than dried. Co-responsible for the intensely bitter taste of fresh herb."
+      }
+    },
+    {
+      "name": "Phenylpropanoide (Acteoside / Verbascoside, Forsythoside B)",
+      "category": "phenolic_acid",
+      "percent_range": "0.5-2.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenylethanolglykoside, weit verbreitet in der Lamiaceae-Familie. Acteoside (= Verbascoside) ist die dominierende Fraktion — antioxidativ, entzündungshemmend (Hemmung von COX-1/COX-2 in vitro) und antimikrobiell. Tragen zu den immunologischen und antiviralen Eigenschaften des Andorns in der Volksmedizin bei.",
+        "en": "Phenylethanoid glycosides, widespread in the Lamiaceae family. Acteoside (= verbascoside) is the dominant fraction — antioxidant, anti-inflammatory (COX-1/COX-2 inhibition in vitro) and antimicrobial. Contribute to the immunological and antiviral properties attributed to horehound in folk medicine."
+      }
+    },
+    {
+      "name": "Flavonoide (Luteolin-7-glucosid, Apigenin, Quercetin, Rutin)",
+      "category": "flavonoid",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavone und Flavonolglykoside mit antioxidativer, mild spasmolytischer und entzündungshemmender Aktivität. Luteolin-Derivate tragen zur Bronchial-relaxierenden Wirkung bei (in vitro: Relaxation der glatten Bronchialmuskulatur). Ergänzen die Expektorans-Wirkung des Marrubiin.",
+        "en": "Flavones and flavonol glycosides with antioxidant, mildly spasmolytic and anti-inflammatory activity. Luteolin derivatives contribute to bronchial relaxation (in vitro: smooth muscle relaxation of bronchi). Complement the expectorant action of marrubiin."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Limonen, beta-Pinen, Camphen, Sabinen, cis-Sabinhydrat)",
+      "category": "essential_oil",
+      "percent_range": "0.05-0.3 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Monoterpenreicher Anteil des ätherischen Öls mit mild antiseptischen und expektorierenden Eigenschaften. Geringe Konzentration erklärt den aromatisch-würzigen, leicht kampherhaltigen Duft des Krautes. Hauptkomponenten variieren je nach Herkunft und Erntezeitpunkt stark. Zum Teil mitverantwortlich für die lokal beruhigende Wirkung auf die Atemwegschleimhaut.",
+        "en": "Monoterpene-rich fraction of the essential oil with mildly antiseptic and expectorant properties. Low concentration explains the aromatic, slightly camphoraceous scent of the herb. Main components vary considerably by origin and harvest time. Partly responsible for the locally soothing action on the respiratory mucosa."
+      }
+    },
+    {
+      "name": "Gerbstoffe / Lamiaceengerbstoffe (Rosmarinsäure, Chlorogensäure)",
+      "category": "tannin",
+      "percent_range": "2.0-4.0 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Rosmarinsäure ist das quantitativ dominierende Phenylpropanoid neben den Phenylethanolglykosiden. Stark antioxidativ, antimikrobiell und entzündungshemmend. Adstringierende Wirkung auf Schleimhäute erklärt den Einsatz als Gurgelwasser. Chlorogensäure mit milder choleretischer Eigenwirkung ergänzt die Marrubiin-vermittelte Gallestimulation.",
+        "en": "Rosmarinic acid is the quantitatively dominant phenylpropanoid alongside phenylethanoid glycosides. Strongly antioxidant, antimicrobial and anti-inflammatory. Astringent action on mucous membranes explains use as a gargle. Chlorogenic acid with mild choleretic activity complements marrubiin-mediated bile stimulation."
+      }
+    },
+    {
+      "name": "Alkaloide (Betonicin, Stachydrin — Betaintyp)",
+      "category": "alkaloid",
+      "percent_range": "0.1-0.3 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Quarternäre Ammoniumalkaloide vom Betaintyp, charakteristisch für die Lamiaceae. Betonicin (= L-Betonicin) und das Stereoisomer Stachydrin. Pharmakologisch in diesen Konzentrationen beim Menschen wenig relevant. Betonicin zeigt in Tierstudien schwach uterusstimulierend Aktivität, was die traditionelle Kontraindikation in der Schwangerschaft biochemisch mitbegründet.",
+        "en": "Quaternary ammonium alkaloids of the betaine type, characteristic of Lamiaceae. Betonicine (= L-betonicine) and the stereoisomer stachydrine. Pharmacologically of limited human relevance at these concentrations. Betonicine shows weak uterine-stimulating activity in animal studies, partially explaining the traditional pregnancy contraindication."
+      }
+    },
+    {
+      "name": "Schleimstoffe / Polysaccharide",
+      "category": "mucilage",
+      "percent_range": "5.0-8.0 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Schleimstoffe und saure Polysaccharide aus Uronsäuren tragen zur schleimhautschützenden (demulzierenden) Eigenschaft des Andorntees bei. Reizmildernd auf die Bronchial- und Rachenschleimhaut — ergänzt die schleimlösende Wirkung des Marrubiin um eine direkte lokale Schutzwirkung. Erklären, warum Andorntee als Hustentee etwas weniger scharf als z. B. reiner Thymiantee wirkt.",
+        "en": "Mucilages and acidic polysaccharides from uronic acids contribute to the mucosa-protective (demulcent) property of horehound tea. Soothe bronchial and pharyngeal mucosa — complement the mucolytic action of marrubiin with direct local protection. Explain why horehound tea as a cough tea feels less astringent than, e.g., pure thyme tea."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "An einem trockenen, sonnigen Vormittag (9–11 Uhr), sobald der Morgentau vollständig abgetrocknet ist. Zu diesem Zeitpunkt sind ätherische Öle und Bitterstoffe (Marrubiin/Premarrubiin) am höchsten konzentriert — spätere Tagesernte ist nach Hitzemaximum suboptimal.",
+        "en": "On a dry, sunny morning (9–11 a.m.), once morning dew has fully evaporated. At this time essential oils and bitter compounds (marrubiin/premarrubiin) are at their peak — later harvest after the heat maximum is suboptimal."
+      },
+      "drying": {
+        "de": "Die oberen Triebspitzen mit blühenden Quirlen und jungen Blättern abschneiden (ca. die obere Hälfte der Pflanze — max. die obersten 20–30 cm), damit die Staude nachwächst. Blühende und vorblühende Triebe bevorzugen — im Vollblüte-Stadium ist der Marrubiin-Gehalt am höchsten. Kräuter in kleinen Bündeln locker zusammenbinden und kopfüber an einem schattigen, gut belüfteten Ort bei 25–35 °C aufhängen. Alternativ einlagig auf Trockensieben ausbreiten. Trockenzeit: 1–2 Wochen, bis die Blätter rascheln und trocken brechen. Zu hoch erhitzen (über 40 °C) vermeiden — Marrubiin ist relativ thermolabil. Vollständig getrocknetes Kraut (< 10 % Restfeuchte) von den Stielen streifen, grob zerkleinern und luftdicht in dunklen Behältern lagern.",
+        "en": "Cut the upper shoot tips with flowering whorls and young leaves (approx. the upper half of the plant — max. 20–30 cm) so the perennial regrows. Prefer flowering and pre-flowering shoots — marrubiin content is highest at full flowering. Bundle loosely and hang upside down in a shaded, well-ventilated spot at 25–35 °C. Alternatively spread in a single layer on drying racks. Drying time: 1–2 weeks, until leaves rustle and snap dry. Avoid overheating (above 40 °C) — marrubiin is relatively thermolabile. Strip fully dried herb (< 10 % residual moisture) from stems, coarsely chop, and store airtight in dark containers."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht in dunklen Glas- oder Blechdosen, kühl und trocken (max. 15–20 °C), geschützt vor Licht. Innerhalb 12 Monate aufbrauchen — Marrubiin-Gehalt nimmt danach deutlich ab. Bei brauner Verfärbung oder Verlust des bitteren Geruchs ist die Droge unbrauchbar.",
+        "en": "Airtight in dark glass or metal tins, cool and dry (max. 15–20 °C), protected from light. Use within 12 months — marrubiin content declines significantly after that. Discard if browning or loss of bitter scent occurs."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Morgens (9–11 Uhr) nach Tauabtrocknung. Junge Blätter vor Vollblüte ernten — dann höchste Phenylpropanoid- und Schleimstoffgehalte bei noch mildem Bittergehalt. Optimal für kulinarische Nutzung (Würze, Bonbons) oder Frischpflanzen-Tinkturen.",
+        "en": "Morning (9–11 a.m.) after dew has dried. Harvest young leaves before full flowering — highest phenylpropanoid and mucilage content with still mild bitterness. Optimal for culinary use (flavouring, candy) or fresh plant tinctures."
+      },
+      "drying": {
+        "de": "Gesunde junge Blätter (ohne beschädigte oder durch Insekten befressene) einzeln oder in lockerem Lagen auf Trockensieben im Schatten bei max. 35 °C trocknen. Gute Belüftung ist kritisch — Schimmelgefahr bei zu dicker Lage. Trockenzeit ca. 5–10 Tage. Getrocknet rascheln die Blätter und sind pergamentartig-spröde. Für Frischpflanzen-Tinktur die gerade geernteten Blätter sofort in Alkohol (45–65 %) einlegen (DER ca. 1:2 frisch, 1:5 getrocknet).",
+        "en": "Spread healthy young leaves (without damaged or insect-eaten parts) singly or in loose layers on drying racks in shade at max. 35 °C. Good ventilation is critical — mould risk if layers are too thick. Drying time approx. 5–10 days. Dried leaves rustle and are parchment-brittle. For fresh plant tincture: immerse freshly harvested leaves in alcohol immediately (45–65 %, DER approx. 1:2 fresh, 1:5 dried)."
+      },
+      "storage_months": 8,
+      "storage_condition": {
+        "de": "Luftdicht, dunkel, trocken und kühl. Junge Blätter verlieren ihr aromatisches Profil schneller als die Stängel — innerhalb 8 Monate aufbrauchen.",
+        "en": "Airtight, dark, dry and cool. Young leaves lose their aromatic profile faster than stems — use within 8 months."
+      }
+    }
+  ]
+}

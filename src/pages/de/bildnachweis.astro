@@ -1,0 +1,78 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getPlantsSortedByLocale } from '@/lib/loadPlants';
+
+// === 2. KONSTANTEN ===
+const locale = 'de' as const;
+const plants = getPlantsSortedByLocale(locale);
+---
+
+<BaseLayout locale={locale} title="Bildnachweis">
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <!-- === 1. HERO === -->
+    <header class="mb-6">
+      <h1 class="text-3xl font-serif font-bold text-slate-900 mb-2">Bildnachweis</h1>
+      <p class="text-sm text-slate-500">
+        Alle {plants.length} Pflanzenbilder stammen von Wikimedia Commons unter Creative-Commons-Lizenzen.
+        Diese Seite erfüllt die Attribution-Pflicht aus CC-BY-SA / CC-BY.
+      </p>
+    </header>
+
+    <!-- === 2. INTRO === -->
+    <section class="mb-8 text-sm text-slate-700 leading-relaxed bg-emerald-50 border border-emerald-200 rounded-lg p-4">
+      <p>
+        Donum ∞ Dei nutzt ausschließlich Bilder mit freier Lizenz (Creative Commons).
+        Jeder Eintrag unten nennt: <strong>Autor · Lizenz · Quelle</strong>.
+        Bei Weiterverwendung übernimm bitte alle drei Angaben und verlinke auf die Quelle (Wikimedia Commons).
+      </p>
+    </section>
+
+    <!-- === 3. CREDITS-TABELLE === -->
+    <table class="w-full text-sm border-collapse">
+      <thead class="bg-slate-100 text-slate-700">
+        <tr>
+          <th class="text-left px-3 py-2 border-b border-slate-200">Pflanze</th>
+          <th class="text-left px-3 py-2 border-b border-slate-200">Autor</th>
+          <th class="text-left px-3 py-2 border-b border-slate-200">Lizenz</th>
+          <th class="text-left px-3 py-2 border-b border-slate-200">Quelle</th>
+        </tr>
+      </thead>
+      <tbody>
+        {plants.map((p) => (
+          <tr class="border-b border-slate-100 hover:bg-slate-50">
+            <td class="px-3 py-2">
+              <a href={`/de/plant/${p.slug}/`} class="text-emerald-700 hover:text-emerald-800 underline">
+                {p.names.de}
+              </a>
+              <span class="text-xs text-slate-500 italic block">{p.names.latin}</span>
+            </td>
+            <td class="px-3 py-2 text-slate-700">{p.image.author}</td>
+            <td class="px-3 py-2 text-slate-700">{p.image.license}</td>
+            <td class="px-3 py-2">
+              <a href={p.image.source_url} target="_blank" rel="noopener noreferrer" class="text-emerald-700 hover:text-emerald-800 underline text-xs">
+                Commons →
+              </a>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+
+    <!-- === 4. LIZENZ-HINWEIS === -->
+    <section class="mt-10 text-sm text-slate-600 leading-relaxed">
+      <p>
+        Lizenzen im Detail:
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" class="text-emerald-700 hover:text-emerald-800 underline" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>,
+        <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.de" class="text-emerald-700 hover:text-emerald-800 underline" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a>,
+        <a href="https://creativecommons.org/licenses/by/4.0/deed.de" class="text-emerald-700 hover:text-emerald-800 underline" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>,
+        <a href="https://creativecommons.org/publicdomain/mark/1.0/deed.de" class="text-emerald-700 hover:text-emerald-800 underline" target="_blank" rel="noopener noreferrer">Public Domain Mark</a>.
+      </p>
+      <p class="mt-4">
+        Findest du einen fehlerhaften oder fehlenden Credit?
+        <a href="mailto:maikelganske913@gmail.com" class="text-emerald-700 hover:text-emerald-800 underline">Bitte melde dich</a>
+        — wird umgehend korrigiert.
+      </p>
+    </section>
+  </div>
+</BaseLayout>

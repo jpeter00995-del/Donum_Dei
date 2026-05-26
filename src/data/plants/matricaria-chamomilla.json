@@ -1,0 +1,676 @@
+{
+  "slug": "matricaria-chamomilla",
+  "names": {
+    "de": "Echte Kamille",
+    "en": "Matricaria chamomilla",
+    "latin": "Matricaria chamomilla"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Die Echte Kamille ist eine Pflanzenart innerhalb der Familie der Korbblütler (Asteraceae). Die ursprünglich in Süd- und Osteuropa verbreitete Art ist heute praktisch in ganz Europa heimisch. Sie ist eine Heilpflanze, die vor allem bei Magen- und Darmbeschwerden sowie bei Entzündungen Verwendung findet.",
+    "en": "Matricaria chamomilla, commonly known as chamomile, German chamomile, Hungarian chamomile (kamilla), wild chamomile, blue chamomile, or scented mayweed, is an annual plant of the composite family Asteraceae. Commonly, the name M. recutita is applied to the herbal product chamomile, although other species are also used as chamomile."
+  },
+  "teaser": {
+    "de": "Die Echte Kamille ist eine Pflanzenart innerhalb der Familie der Korbblütler (Asteraceae).",
+    "en": "Matricaria chamomilla, commonly known as chamomile, German chamomile, Hungarian chamomile (kamilla), wild chamomile, ..."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "AUFGUSS (Kommission-E-Indikation): 3–5 g getrocknete, zerkleinerte Kamillenblüten (Matricariae flos) mit 150 ml kochendem Wasser übergießen, zugedeckt 5–10 Minuten ziehen lassen, abseihen. 3–4× täglich frisch bereitet, vorzugsweise zwischen den Mahlzeiten, als heiße Tasse trinken. Tagesdosis 9–15 g Droge. Indikation: Gastrointestinale Spasmen und entzündliche Erkrankungen des Magen-Darm-Traktes, Gastritis, Reizmagen. Wirkung tritt in der Regel nach 1–2 Tagen ein; bei Beschwerden über mehr als 2 Wochen Arzt konsultieren. Kinder 6–12 J.: 1,5–3 g; 2–6 J.: 1–1,5 g.",
+          "en": "INFUSION (Kommission E indication): 3–5 g dried, comminuted chamomile flowers (Matricariae flos) in 150 ml boiling water, covered, steep 5–10 min, strain. 3–4× daily freshly prepared, preferably between meals, drunk hot. Daily dose 9–15 g. Indication: gastrointestinal spasms and inflammatory disorders of the GI tract, gastritis, irritable stomach. Effect usually within 1–2 days; consult a doctor if symptoms persist beyond 2 weeks. Children 6–12 yrs: 1.5–3 g; 2–6 yrs: 1–1.5 g."
+        }
+      },
+      "age_restriction": {
+        "min_age": 2,
+        "note": {
+          "de": "Kinder ab 2 Jahren mit altersgerechter Dosis. Unter 6 Monaten nur nach ärztlicher Empfehlung.",
+          "en": "Children from 2 years with age-appropriate dose. Under 6 months only on medical advice."
+        }
+      },
+      "description": {
+        "de": "Klassischer Kamillentee (Kommission E positiv) bei gastrointestinalen Spasmen, Gastritis und entzündlichen Erkrankungen des Verdauungstraktes.",
+        "en": "Classic chamomile tea (Kommission E positive) for gastrointestinal spasms, gastritis and inflammatory disorders of the digestive tract."
+      },
+      "source_ids": [
+        "src_kommission_e_matricariae_flos",
+        "src_ema_hmpc_matricariae_flos",
+        "src_escop_matricariae_flos"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 3
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "TINKTUR (DER 1:5 in 40–70 % Ethanol): 1–3 ml (~20–60 Tropfen) in etwas Wasser verdünnt, 3× täglich vor oder zwischen den Mahlzeiten. Traditionelle Anwendung bei nervösen Magenbeschwerden, Reizdarmsymptomen und leichter Unruhe. Wegen Ethanolgehalt nicht bei Schwangerschaft, Stillzeit, Alkohol- oder Lebererkrankung. Anwendung über 4 Wochen ohne Besserung: ärztliche Abklärung.",
+          "en": "TINCTURE (DER 1:5 in 40–70 % ethanol): 1–3 ml (~20–60 drops) diluted in water, 3× daily before or between meals. Traditional use for nervous gastric complaints, IBS symptoms and mild anxiety. Due to ethanol content: not for pregnancy, lactation, alcohol dependence, or liver disease. Consult a doctor if no improvement after 4 weeks."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Tinktur wegen Ethanolgehalt nur für Erwachsene.",
+          "en": "Tincture for adults only due to ethanol content."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Kamillentinktur bei nervösen Magenbeschwerden und Reizdarmsymptomen — Alternative zum Tee bei akzeptiertem Ethanolanteil.",
+        "en": "Traditional chamomile tincture for nervous gastric complaints and IBS symptoms — alternative to tea when ethanol is acceptable."
+      },
+      "source_ids": [
+        "src_escop_matricariae_flos",
+        "src_ema_hmpc_matricariae_flos"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "skin",
+        "joints",
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "instructions": {
+          "de": "ÄTHERISCHES ÖLLÖSUNG (Blaues Kamillenöl): 1–2 Tropfen blaues Kamillenöl (Matricariae aetheroleum) in 10 ml Trägeröl (z.B. Mandelöl, Jojobaöl) verdünnen (1–2 % Lösung). Äußerlich auf betroffene Hautstellen oder Gelenke auftragen, sanft einmassieren. Für Inhalationen: 1–2 Tropfen in Dampfinhalation oder Aromadiffusor. Die tiefblaue Farbe des Öls (durch Chamazulen) verblasst beim Erhitzen — nicht überhitzen. Licht- und luftdicht in Dunkelglasflasche bei unter 20 °C lagern; Haltbarkeit nach Anbruch ca. 6–12 Monate. NICHT unverdünnt auf die Haut auftragen.",
+          "en": "ESSENTIAL OIL (Blue chamomile oil): dilute 1–2 drops of blue chamomile oil (Matricariae aetheroleum) in 10 ml carrier oil (e.g. almond, jojoba) to a 1–2 % solution. Apply externally to affected skin or joints, massage gently. For inhalation: 1–2 drops in steam inhaler or aroma diffuser. Deep blue colour (from chamazulene) fades with heat — do not overheat. Store in dark airtight bottle below 20 °C; shelf life after opening ~6–12 months. Do NOT apply undiluted to skin."
+        }
+      },
+      "description": {
+        "de": "Blaues Kamillenätherisches Öl (reich an Chamazulen und alpha-Bisabolol-Oxiden) — äußerlich entzündungshemmend, hautberuhigend; Kommission E positiv für Haut- und Schleimhautentzündungen.",
+        "en": "Blue chamomile essential oil (rich in chamazulene and alpha-bisabolol oxides) — anti-inflammatory and skin-soothing externally; Kommission E positive for skin and mucous membrane inflammations."
+      },
+      "source_ids": [
+        "src_kommission_e_matricariae_flos",
+        "src_escop_matricariae_flos",
+        "src_wichtl_teedrogen"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 50,
+          "max": 100
+        },
+        "water_ml": 10000,
+        "doses_per_day": 1,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "VOLLBAD / SITZBAD (Kommission E, Haut-Schleimhautindikation): 50–100 g getrocknete Kamillenblüten auf ca. 10 Liter Wasser als Aufguss (10 Min. ziehen, abseihen), dem Badewasser zusetzen. Badetemperatur 35–38 °C, Badezeit 10–15 Minuten; 1× täglich. Sitzbad: geringere Menge (20–30 g auf 5 L) für Perinealbereich, Hämorrhoiden, Analfisteln, gynäkologische Entzündungen. KONTRAINDIKATION VOLLBAD: offene Wunden, akute Hauterkrankungen, hohes Fieber, schwere Infektionen, Herzinsuffizienz. Nach dem Bad kurze Ruhepause einhalten.",
+          "en": "FULL BATH / SITZ BATH (Kommission E, skin-mucosa indication): 50–100 g dried chamomile flowers as infusion (10 min, strain), added to bath water. Bath temperature 35–38 °C, duration 10–15 min; once daily. Sitz bath: smaller amount (20–30 g per 5 L) for perineal area, haemorrhoids, anal fistulae, gynaecological inflammation. CONTRAINDICATION (full bath): open wounds, acute skin disease, high fever, severe infections, cardiac insufficiency. Rest briefly after bathing."
+        }
+      },
+      "description": {
+        "de": "Äußerliches Vollbad oder Sitzbad bei entzündlichen Haut- und Schleimhauterkrankungen, Ekzemen, Vulvitis, Hämorrhoiden — Kommission E positiv.",
+        "en": "External full bath or sitz bath for inflammatory skin and mucous membrane disorders, eczema, vulvitis, haemorrhoids — Kommission E positive."
+      },
+      "source_ids": [
+        "src_kommission_e_matricariae_flos",
+        "src_ema_hmpc_matricariae_flos"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin",
+        "joints"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 10
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "KOMPRESSE / UMSCHLAG: 3–10 g getrocknete Kamillenblüten mit 200 ml kochendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen und auf Trinktemperatur abkühlen. Sauberes Leinentuch tränken, leicht ausdrücken und auf betroffene Hautstelle legen; 15–20 Minuten einwirken lassen. 2–3× täglich. Indikationen: schlecht heilende Wunden, Furunkel, oberflächliche Verletzungen, leichte Hautreizungen. Feuchte Wärme verstärkt die Wirkung. Kompresse nicht auf offene Wunden mit Zeichen tiefer Infektion (Rötung, Schwellung, Eiter, Fieber) — dann Arzt aufsuchen.",
+          "en": "COMPRESS / POULTICE: 3–10 g dried chamomile flowers in 200 ml boiling water, covered, steep 10 min, strain, cool to drinkable temperature. Soak a clean linen cloth, wring lightly, apply to affected skin area; leave for 15–20 min. 2–3× daily. Indications: poorly healing wounds, boils, superficial injuries, mild skin irritation. Moist heat enhances the effect. Do not use compress on wounds showing signs of deep infection (redness, swelling, pus, fever) — consult a doctor."
+        }
+      },
+      "description": {
+        "de": "Kamillenumschlag bei schlecht heilenden Wunden, Furunkeln und leichten Hautverletzungen — entzündungshemmend und wundheilungsfördernd durch Chamazulen und alpha-Bisabolol.",
+        "en": "Chamomile compress for poorly healing wounds, boils and superficial skin injuries — anti-inflammatory and wound-healing via chamazulene and alpha-bisabolol."
+      },
+      "source_ids": [
+        "src_kommission_e_matricariae_flos",
+        "src_who_matricariae_flos",
+        "src_wichtl_teedrogen"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "throat",
+        "mouth_throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 4,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "MUNDSPÜLUNG / GURGELWASSER (Kommission E): 3–5 g zerkleinerte Kamillenblüten mit 150 ml kochendem Wasser übergießen, 5–10 Minuten ziehen lassen, abseihen, auf handwarme Temperatur abkühlen. 3–4× täglich als Mundspülung oder Gurgelwasser verwenden — 30–60 Sekunden spülen, nicht schlucken. Indikation: Aphthen, Gingivitis, Stomatitis, leichte Entzündungen im Rachenraum. Kinder unter 12 Jahren: nur unter Aufsicht und wenn sicheres Ausspucken gewährleistet ist. Bei anhaltenden Beschwerden nach 7 Tagen Zahnarzt oder Arzt aufsuchen.",
+          "en": "MOUTHWASH / GARGLE (Commission E): 3–5 g comminuted chamomile flowers in 150 ml boiling water, steep 5–10 min, strain, cool to warm temperature. Use 3–4× daily as mouthwash or gargle — swill for 30–60 seconds, do not swallow. Indication: aphthae, gingivitis, stomatitis, mild throat inflammation. Children under 12: only with supervision and if safe spitting is assured. Consult a dentist or doctor if symptoms persist beyond 7 days."
+        }
+      },
+      "age_restriction": {
+        "min_age": 6,
+        "note": {
+          "de": "Gurgeln unter 6 Jahren wegen Aspirationsgefahr nicht empfohlen; 6–12 J. nur unter Aufsicht.",
+          "en": "Gargling not recommended under age 6 due to aspiration risk; 6–12 yrs only under supervision."
+        }
+      },
+      "description": {
+        "de": "Kamillen-Mundspülung oder -Gurgelwasser bei Aphthen, Gingivitis und leichten Rachentzündungen — von Kommission E positiv bewertet, EMA-Monographie als traditionelle Anwendung.",
+        "en": "Chamomile mouthwash or gargle for aphthae, gingivitis and mild throat inflammation — positively assessed by Commission E; traditional use per the EMA monograph."
+      },
+      "source_ids": [
+        "src_ema_hmpc_matricariae_flos",
+        "src_kommission_e_matricariae_flos"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 1000,
+        "doses_per_day": 2,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "DAMPFINHALATION: 5–10 g getrocknete Kamillenblüten in eine Schüssel geben, mit ca. 1 Liter kochendem Wasser übergießen, 2–3 Minuten ziehen lassen. Kopf über die Schüssel beugen, Handtuch über Kopf und Schüssel legen. 5–10 Minuten langsam und tief atmen. 1–2× täglich bei Erkältungssymptomen, katarrhalischen Beschwerden der oberen Atemwege und Sinusitis. Alternativ: 2–3 Tropfen blaues Kamillenätherisches Öl statt Droge. Kinder unter 6 Jahren: Dampfinhalation NICHT empfohlen (Verbrühungsgefahr, zu starker Reiz). 6–12 Jahre: nur unter Aufsicht.",
+          "en": "STEAM INHALATION: 5–10 g dried chamomile flowers in a bowl, pour ~1 litre boiling water, let steep 2–3 min. Lean head over bowl, drape towel over head and bowl. Breathe slowly and deeply for 5–10 min. 1–2× daily for cold symptoms, catarrhal complaints of the upper airways, and sinusitis. Alternatively: 2–3 drops of blue chamomile essential oil instead of herb. Children under 6: steam inhalation NOT recommended (scalding risk, too intense). 6–12 yrs: only under supervision."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Dampfinhalation mit Kamillenblüten oder blauem Kamillenöl bei katarrhalischen Erkrankungen der oberen Atemwege — entzündungshemmend und schleimhautberuhigend.",
+        "en": "Traditional steam inhalation with chamomile flowers or blue chamomile oil for catarrhal complaints of the upper airways — anti-inflammatory and mucosa-soothing."
+      },
+      "source_ids": [
+        "src_ema_hmpc_matricariae_flos",
+        "src_who_matricariae_flos"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "KAMILLENSALBE / -CREME: Handelsübliche Kamillen-Cremes oder -Salben (standardisiert auf alpha-Bisabolol ≥0,5 % oder Chamazulen) auf betroffene Hautstellen dünn auftragen, 2–3× täglich. Alternativ Eigenherstellung: 50 g getrocknete Blüten mit 200 ml Olivenöl bei 50 °C 2–3 Stunden im Wasserbad erwärmen (Mazeration), abseihen und mit 10 g Bienenwachs zu Salbe eindicken. Indikationen: Neurodermitis-Schübe (milde), Kontaktdermatitis, trockene rissige Haut, Windpocken-Juckreiz, Sonnenbrand. Augen-Bereich meiden — Augenbäder nur unter strenger Hygiene und mit steril filtriertem Aufguss.",
+          "en": "CHAMOMILE SALVE / CREAM: commercial chamomile creams or ointments (standardised to alpha-bisabolol ≥0.5 % or chamazulene) applied thinly to affected skin areas, 2–3× daily. Home preparation: steep 50 g dried flowers in 200 ml olive oil at 50 °C for 2–3 h in a water bath (maceration), strain and thicken with 10 g beeswax. Indications: mild atopic eczema flares, contact dermatitis, dry cracked skin, chickenpox itch, sunburn. Avoid eye area — eye baths only under strict hygiene with sterile-filtered infusion."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Kamillensalbe oder -creme bei entzündlichen Hauterkrankungen, Neurodermitis-Schüben, Wundheilung und trockener Haut — alpha-Bisabolol als Hauptwirkstoff.",
+        "en": "Traditional chamomile salve or cream for inflammatory skin conditions, atopic eczema flares, wound healing and dry skin — alpha-bisabolol as key active compound."
+      },
+      "source_ids": [
+        "src_escop_matricariae_flos",
+        "src_who_matricariae_flos",
+        "src_wichtl_teedrogen"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Blüten",
+      "en": "flowers"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG: Überempfindlichkeitsreaktionen sind bei Korbblütlern (Asteraceae) möglich — vor der ersten Anwendung Hautverträglichkeit an kleiner Stelle testen. Bei bekannter Allergie gegen Kamille, Beifuß, Chrysanthemen, Ambrosia oder andere Asteraceae NICHT anwenden — Kreuzreaktivität möglich. Augenbäder nur unter strenger Hygiene und mit steril filtriertem Aufguss, Kontaminationsrisiko beachten. Kamille BEHANDELT NICHT die Grunderkrankung — bei Beschwerden über 1–2 Wochen ohne Besserung Arzt aufsuchen. Vollbäder sind bei offenen Wunden, akuten Hauterkrankungen, hohem Fieber, schweren Infektionen und Herzinsuffizienz kontraindiziert. Ätherisches Öl nie unverdünnt anwenden.",
+      "en": "IMPORTANT: Hypersensitivity reactions are possible in Asteraceae — test skin tolerance on a small area before first use. Do NOT use with known allergy to chamomile, mugwort, chrysanthemums, ragweed or other Asteraceae — cross-reactivity possible. Eye baths only under strict hygiene with sterile-filtered infusion; contamination risk. Chamomile does NOT treat the underlying condition — consult a doctor if complaints persist beyond 1–2 weeks without improvement. Full baths are contraindicated for open wounds, acute skin disease, high fever, severe infections and heart failure. Never apply essential oil undiluted."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Tee aus zerkleinerter Droge: laut EMA für traditionellen use (nicht well-established) auch in der Schwangerschaft verwendet — jedoch mangels systematischer Sicherheitsdaten Vorsicht geboten, therapeutische Hochdosen meiden. Ätherisches Öl und Tinktur in der Schwangerschaft nicht empfohlen. Gelegentliche Tassen Tee gelten als unkritisch. Bei Bedenken Arzt konsultieren.",
+        "en": "Tea from comminuted herbal substance: per EMA used under traditional use during pregnancy — however, caution advised due to lack of systematic safety data; avoid high therapeutic doses. Essential oil and tincture not recommended in pregnancy. Occasional cups of tea considered uncritical. Consult a doctor if in doubt."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Tee aus zerkleinerten Blüten: laut EMA traditioneller use schließt stillende Frauen ein; kutane Anwendung im Brustwarzenbereich meiden (Sensibilisierung des Säuglings). Ätherisches Öl und Tinktur: mangels Daten nicht empfohlen. Gelegentlicher Tee in normalen Mengen unbedenklich.",
+        "en": "Tea from comminuted flowers: per EMA traditional use includes nursing women; avoid cutaneous use on nipple area (sensitisation of infant). Essential oil and tincture: not recommended due to lack of data. Occasional tea in normal amounts considered safe."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Tee ab 6 Monaten (EMA, traditioneller use) mit altersgerechter Dosis. Dampfinhalation unter 6 Jahren nicht empfohlen (Verbrühungsgefahr). Gurgeln unter 6 Jahren nicht geeignet (Aspirationsgefahr). Tinktur (Ethanolgehalt) erst ab 18 Jahren. Bei Kleinkindern immer Arzt hinzuziehen — Magen-Darm-Beschwerden können ernst sein.",
+        "en": "Tea from 6 months (EMA, traditional use) with age-appropriate dose. Steam inhalation not recommended under 6 years (scalding risk). Gargling not suitable under 6 years (aspiration risk). Tincture (ethanol) from 18 years only. Always consult a doctor for infants — GI complaints can be serious."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Cumarin-Antikoagulanzien (Warfarin, Phenprocoumon)",
+        "mechanism": {
+          "de": "Kamille enthält geringe Mengen natürlicher Cumarinderivate (7-Hydroxycumarin-Glukoside) sowie Flavonoide, die theoretisch die Thrombozytenaggregation hemmen können. Bei Hochdosis-Langzeitanwendung (Extrakte, Tinktur) ist eine Verstärkung der gerinnungshemmenden Wirkung von Cumarinen möglich. Fallberichte existieren. Bei Patienten unter oraler Antikoagulation regelmäßige INR-Kontrolle empfohlen.",
+          "en": "Chamomile contains small amounts of natural coumarin derivatives (7-hydroxycoumarin glucosides) and flavonoids that may theoretically inhibit platelet aggregation. Potentiation of anticoagulant effect of coumarins possible with high-dose long-term use (extracts, tincture). Case reports exist. Regular INR monitoring recommended in patients on oral anticoagulation."
+        },
+        "severity": "caution",
+        "source_id": "src_who_matricariae_flos"
+      },
+      {
+        "drug_class": "CYP450-Substrate (CYP1A2, CYP3A4)",
+        "mechanism": {
+          "de": "In-vitro- und tierexperimentelle Daten deuten auf eine mögliche Hemmung von CYP1A2 und CYP3A4 durch Kamillenextrakte hin. Bei Nierentransplantierten unter Ciclosporin und Langzeit-Hochdosis-Kamillenapplikation wurden erhöhte Ciclosporinspiegel berichtet. Klinische Relevanz bei therapeutischer Standarddosierung (Tee) unklar, aber Vorsicht bei eng therapeutischem Fenster (Immunsuppressiva, Zytostatika, Antiepileptika).",
+          "en": "In vitro and animal data suggest possible inhibition of CYP1A2 and CYP3A4 by chamomile extracts. Elevated ciclosporin levels reported in renal transplant patients on long-term high-dose chamomile. Clinical relevance at standard therapeutic dose (tea) unclear, but caution with narrow therapeutic window drugs (immunosuppressants, cytostatics, antiepileptics)."
+        },
+        "severity": "monitor",
+        "source_id": "src_ema_hmpc_matricariae_flos"
+      },
+      {
+        "drug_class": "Sedativa, Anxiolytika, Benzodiazepine",
+        "mechanism": {
+          "de": "Kamillenextrakte können schwache anxiolytische und sedierende Eigenschaften aufweisen (GABA-A-Rezeptormodulation durch Apigenin). Theoretisch additive Wirkung mit Sedativa und Benzodiazepinen. Klinisch bei Standardtee gering relevant, bei Hochdosis-Extrakten (Kapseln) jedoch Wachheit und Reaktionsfähigkeit im Auge behalten.",
+          "en": "Chamomile extracts may exhibit weak anxiolytic and sedative properties (GABA-A receptor modulation by apigenin). Theoretical additive effect with sedatives and benzodiazepines. Clinically low relevance with standard tea, but monitor alertness and reaction capacity with high-dose extracts (capsules)."
+        },
+        "severity": "monitor",
+        "source_id": "src_escop_matricariae_flos"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Matricaria chamomilla oder andere Korbblütler (Asteraceae/Compositae) — Kreuzallergie möglich mit Beifuß, Ambrosia, Chrysanthemen.",
+        "en": "Hypersensitivity to Matricaria chamomilla or other Asteraceae/Compositae — cross-allergy possible with mugwort, ragweed, chrysanthemums."
+      },
+      {
+        "de": "Vollbäder: offene Wunden, akute Hauterkrankungen, hohes Fieber (über 38,5 °C), schwere Infektionen, manifeste Herzinsuffizienz, schwere Kreislaufschwäche.",
+        "en": "Full baths: open wounds, acute skin disease, high fever (above 38.5 °C), severe infections, manifest heart failure, severe circulatory weakness."
+      },
+      {
+        "de": "Ätherisches Öl (unverdünnt): darf nicht direkt auf Haut oder Schleimhäute aufgetragen werden.",
+        "en": "Essential oil (undiluted): must not be applied directly to skin or mucous membranes."
+      },
+      {
+        "de": "Dampfinhalation unter 6 Jahren: Verbrühungsgefahr, zu starker Schleimhautreiz.",
+        "en": "Steam inhalation under 6 years: scalding risk, excessive mucosal irritation."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Echte Kamille (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echte_Kamille",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Matricaria chamomilla (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Matricaria_chamomilla",
+      "accessed": "2026-05-16"
+    },
+    {
+      "id": "src_ema_matricaria_flos",
+      "type": "monograph",
+      "title": "EMA/HMPC/55843/2011 — Matricaria recutita flos (Final, 7 Jul 2015)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/matricariae-flos",
+      "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_ema_hmpc_matricariae_flos",
+      "type": "monograph",
+      "title": "EMA/HMPC/55843/2011 — European Union herbal monograph on Matricaria recutita L. (syn. Matricaria chamomilla L.), flos (Final, 25 March 2015)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/matricariae-flos",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_kommission_e_matricariae_flos",
+      "type": "monograph",
+      "title": "Kommission E — Matricariae flos (Kamillenblüten), Monographie positiv, BAnz Nr. 228, 05.12.1984 (zuletzt aktualisiert 1990)",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/0320.htm",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_escop_matricariae_flos",
+      "type": "monograph",
+      "title": "ESCOP Monographs — Matricariae flos (Chamomile Flower), 2nd ed. incl. supplement 2009",
+      "url": "https://escop.com/downloads/chamomile-flower/",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_who_matricariae_flos",
+      "type": "monograph",
+      "title": "WHO Monographs on Selected Medicinal Plants — Volume 1: Flos Matricariae (Chamomile Flower)",
+      "url": "https://apps.who.int/iris/handle/10665/42052",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wichtl_teedrogen",
+      "type": "book",
+      "title": "Wichtl, M. (Hrsg.) — Teedrogen und Phytopharmaka: Ein Handbuch für die Praxis auf wissenschaftlicher Grundlage, 5. Aufl., WVG Stuttgart, 2009 — Matricariae flos, S. 410–415",
+      "url": "https://www.wissenschaftliche-verlagsgesellschaft.de",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_pfaf_matricaria_chamomilla",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Matricaria chamomilla (German Chamomile) database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Matricaria+chamomilla",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_de_kamille",
+      "type": "wikipedia",
+      "title": "Echte Kamille (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Echte_Kamille",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_chamomile",
+      "type": "wikipedia",
+      "title": "Matricaria chamomilla (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Matricaria_chamomilla",
+      "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wikidata_chamomile",
+      "type": "wikidata",
+      "title": "Wikidata — Matricaria chamomilla (Q131567)",
+      "url": "https://www.wikidata.org/wiki/Q131567",
+      "accessed": "2026-05-21"
+    }
+  ],
+  "image": {
+    "filename": "matricaria-chamomilla.jpg",
+    "alt": {
+      "de": "Foto von Echte Kamille",
+      "en": "Photo of Matricaria chamomilla"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "H. Zell",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Matricaria_recutita_001.JPG"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "achillea-millefolium",
+      "allium-cepa",
+      "allium-sativum",
+      "allium-ursinum",
+      "calendula-officinalis",
+      "cucurbita-pepo",
+      "mentha-piperita",
+      "origanum-vulgare",
+      "salvia-officinalis",
+      "tanacetum-parthenium",
+      "thymus-vulgaris",
+      "tropaeolum-majus",
+      "urtica-dioica"
+    ],
+    "bad_partners": [],
+    "reasons": {
+      "allium-cepa": {
+        "de": "Kamille verstärkt Zwiebel-Aroma — alte Bauernregel.",
+        "en": "Chamomile boosts onion aroma — old farming rule."
+      },
+      "allium-sativum": {
+        "de": "Kamille stärkt Knoblauch und hält Wurzelpilze fern.",
+        "en": "Chamomile strengthens garlic and deters root fungi."
+      },
+      "cucurbita-pepo": {
+        "de": "Kamille stärkt Kürbis-Wachstum (klassische Mischkultur).",
+        "en": "Chamomile strengthens squash growth (classic companion)."
+      },
+      "mentha-piperita": {
+        "de": "Kamille verstärkt Minz-Aroma — Holzer-Lieblingspaar.",
+        "en": "Chamomile enhances mint aroma — Holzer favourite pair."
+      },
+      "urtica-dioica": {
+        "de": "Brennnessel-Jauche stärkt Kamille und viele andere Kräuter.",
+        "en": "Nettle slurry strengthens chamomile and many other herbs."
+      }
+    },
+    "notes_de": "mentha-piperita: Kamille stärkt Minze-Aroma. urtica-dioica: Brennnessel-Jauche stärkt Kamille und viele Kräuter. allium-cepa: Kamille verstärkt Zwiebel-Aroma (klassische Bauernregel).",
+    "notes_en": "mentha-piperita: Chamomile boosts mint aroma. urtica-dioica: Nettle slurry strengthens chamomile and many herbs. allium-cepa: Chamomile boosts onion aroma (classic rule).",
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "5a",
+      "5b",
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "outdoor_direct": {
+        "start_month": 3,
+        "end_month": 5
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 8
+    },
+    "days_to_harvest": 70,
+    "spacing_cm": 15,
+    "garden_type": [
+      "raised_bed",
+      "field"
+    ],
+    "difficulty": 1
+  },
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "medicinal",
+    "dynamic_accumulator"
+  ],
+  "constituents": [
+    {
+      "name": "alpha-Bisabolol ((-)-alpha-Bisabolol)",
+      "category": "other",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Hauptwirksames Terpenol des ätherischen Öls — leicht blumig-süßer Geruch. Stark entzündungshemmend (Hemmung von COX-1, 5-LOX), wundheilungsfördernd, antimikrobiell und antipyretisch. Leitsubstanz für Qualitätskontrolle nach PhEur und EMA. Wichtigster Inhaltsstoff für Haut- und Schleimhautindikationen.",
+        "en": "Main active terpenol of the essential oil — slightly floral-sweet scent. Strongly anti-inflammatory (COX-1, 5-LOX inhibition), wound-healing, antimicrobial and antipyretic. Lead marker for quality control per PhEur and EMA. Most important constituent for skin and mucosa indications."
+      }
+    },
+    {
+      "name": "Chamazulen",
+      "category": "sesquiterpene",
+      "percent_range": "1-15 % (im EO)",
+      "plant_part": "flower",
+      "note": {
+        "de": "Entsteht erst durch Wasserdampfdestillation aus Matricin (Prochamazulen) — das ätherische Öl erscheint dadurch charakteristisch tiefblau. Stark entzündungshemmend (5-LOX-Hemmung, Histaminfreisetzung reduziert), antioxidativ. Verantwortlich für die beruhigende Wirkung auf entzündete Haut. Gehalt sehr variabel je nach Herkunft und Sorte (niedrigere Werte bei Anbausorten, höhere bei Wildkamille).",
+        "en": "Formed only during steam distillation from matricine (pro-chamazulene) — responsible for the characteristic deep blue colour of the essential oil. Strongly anti-inflammatory (5-LOX inhibition, reduced histamine release), antioxidant. Responsible for the soothing effect on inflamed skin. Content highly variable depending on origin and cultivar (lower in cultivated varieties, higher in wild chamomile)."
+      }
+    },
+    {
+      "name": "Matricin (Prochamazulen)",
+      "category": "sesquiterpene",
+      "percent_range": "0.1-0.4 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Sesquiterpenlacton der Guaianolid-Klasse — direkter Vorläufer von Chamazulen bei der Wasserdampfdestillation. In frischer Droge und wässrigem Extrakt als Matricin vorhanden, nicht als Chamazulen. Hat eigenständige entzündungshemmende Wirkung. Auch im Teeaufguss pharmakologisch relevant.",
+        "en": "Sesquiterpene lactone of the guaianolide class — direct precursor of chamazulene during steam distillation. Present as matricine in fresh herb and aqueous extracts, not as chamazulene. Has independent anti-inflammatory activity. Also pharmacologically relevant in tea infusion."
+      }
+    },
+    {
+      "name": "Apigenin-7-O-glucosid (Apigenin-7-glucosid)",
+      "category": "flavonoid",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Quantitativ bedeutendstes Flavonoidglykosid der Kamille — nach Hydrolyse freies Apigenin. Apigenin zeigt anxiolytische und leicht sedierende Eigenschaften durch partielle Agonistenwirkung an GABA-A-Rezeptoren. Antispasmodisch (glatte Muskulatur), antioxidativ und antimutagene Eigenschaften in vitro. Leitsubstanz für Qualitätsprüfungen.",
+        "en": "Quantitatively most important flavonoid glycoside of chamomile — hydrolysed to free apigenin. Apigenin shows anxiolytic and mildly sedative properties through partial agonism at GABA-A receptors. Antispasmodic (smooth muscle), antioxidant and antimutagenic properties in vitro. Lead marker for quality testing."
+      }
+    },
+    {
+      "name": "Luteolin-7-O-glucosid und Quercetin-Glykoside",
+      "category": "flavonoid",
+      "percent_range": "0.1-0.5 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Begleitflavonoide neben Apigenin — Luteolin mit antiphlogistischer und antihistaminischer Wirkung, Quercetin antiproliferativ und kapillarprotektiv. Synergetisch mit alpha-Bisabolol und Chamazulen für die Gesamtentzündungshemmung.",
+        "en": "Accompanying flavonoids alongside apigenin — luteolin with anti-phlogistic and antihistamine effects, quercetin antiproliferative and capillary-protective. Synergistic with alpha-bisabolol and chamazulene for overall anti-inflammatory action."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Matricariae aetheroleum) — Gesamtöl",
+      "category": "essential_oil",
+      "percent_range": "0.4-1.5 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Gesamtgehalt des ätherischen Öls in der Droge (PhEur-Mindestanforderung: 0,4 %). Komplex zusammengesetzt: alpha-Bisabolol (~50 %), Bisabolol-Oxide A und B, Bisabololoxid A, Chamazulen (nach Destillation), en-in-Dicycloäther (Spiroether), Matricin. Die tiefblaue Farbe des Öls (durch Chamazulen) ist ein Qualitätsmerkmal. Öl wirkt antiphlogistisch, spasmolytisch, antibakteriell und wundheilend.",
+        "en": "Total essential oil content in the drug (PhEur minimum: 0.4 %). Complex composition: alpha-bisabolol (~50 %), bisabolol oxides A and B, chamazulene (after distillation), en-in-dicycloether (spiroether), matricine. Deep blue colour of oil (from chamazulene) is a quality marker. Oil is anti-phlogistic, spasmolytic, antibacterial and wound-healing."
+      }
+    },
+    {
+      "name": "Spiroether (cis- und trans-Spiroether, en-in-Dicycloäther)",
+      "category": "other",
+      "percent_range": "Spuren bis 0.3 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Charakteristische Verbindungen der Echten Kamille — zur Differenzierung von anderen Kamillenarten (z.B. Geruchlose Kamille, Hundskamille) genutzt. Spasmolytisch und entzündungshemmend; in der Drogenidentifizierung analytisch bedeutsam.",
+        "en": "Characteristic compounds of genuine chamomile — used to differentiate from other chamomile-like species (e.g. scentless mayweed, dog chamomile). Spasmolytic and anti-inflammatory; analytically important for drug identification."
+      }
+    },
+    {
+      "name": "Schleimpolysaccharide (Uronsäure-haltige Polysaccharide)",
+      "category": "mucilage",
+      "percent_range": "1-5 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Hochmolekulare Polysaccharide aus Arabinose, Xylose, Galaktose und Glukuronsäure. Schleimhautprotektiv und entzündungsmodulierend über Makrophagen-Aktivierung. Tragen zur magenschleimhaut-schützenden Wirkung des Tees bei — ergänzen die spasmolytische Wirkung des ätherischen Öls.",
+        "en": "High-molecular polysaccharides composed of arabinose, xylose, galactose and glucuronic acid. Mucosa-protective and inflammation-modulating via macrophage activation. Contribute to the gastroprotective effect of the tea — complement the spasmolytic action of the essential oil."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "An trockenem, sonnigem Vormittag (ca. 9–12 Uhr), nachdem der Morgentau vollständig abgetrocknet ist. Ätherisches Öl und Wirkstoffgehalte (alpha-Bisabolol, Apigenin) sind in den Morgenstunden und bei sonnigem Wetter am höchsten. Bei bedecktem oder regnerischem Wetter und nach Regen ernten vermeiden.",
+        "en": "On a dry, sunny morning (approx. 9–12), after morning dew has completely evaporated. Essential oil and active compound content (alpha-bisabolol, apigenin) are highest in the morning hours and in sunny weather. Avoid harvesting in overcast or rainy weather and after rain."
+      },
+      "drying": {
+        "de": "ERNTE: Nur vollständig geöffnete Blütenköpfchen sammeln, bei denen die weißen Zungenblüten waagrecht abstehen oder bereits leicht nach unten gebogen sind — das ist das optimale Erntestadium für maximalen Wirkstoffgehalt. Blüten, bei denen die Zungenblüten bereits stark nach unten hängen oder bräunlich werden, meiden. Stiele so kurz wie möglich abschneiden. ERKENNUNG: Echter Kamillenboden hohl (beim Querschnitt) — Merkmal zur Unterscheidung von Hundskamille (voller Boden, kein Geruch) und Strahlenloser Kamille. TROCKNEN: Blüten einlagig auf Papier, Stoff oder Siebrahmem ausbreiten, Schatten, gute Belüftung, max. 35 °C. Nicht im Ofen über 40 °C (Chamazulen-Verlust). Regelmäßig wenden. Trocknung dauert je nach Luftfeuchtigkeit 3–7 Tage. Trocken, wenn Blüten rascheln und Stiele brechen. Lagerung luftdicht in dunklen Gläsern, kühl und trocken — innerhalb von 12–18 Monaten aufbrauchen. Qualitätsprüfung: Intensiver apfelähnlicher Geruch und bitterer Geschmack = gute Qualität.",
+        "en": "HARVEST: Collect only fully opened flower heads where the white ray florets spread horizontally or are slightly bent downward — this is the optimal harvest stage for maximum active content. Avoid flowers where ray florets hang strongly downward or are browning. Cut stems as short as possible. IDENTIFICATION: Genuine chamomile receptacle is hollow (visible on cross-section) — key to distinguish from dog chamomile (solid receptacle, no scent) and scentless mayweed. DRYING: Spread flowers in a single layer on paper, cloth, or drying screens in shade, good ventilation, max. 35 °C. Not in oven above 40 °C (chamazulene loss). Turn regularly. Drying takes 3–7 days depending on humidity. Dry when flowers rustle and stems snap. Store airtight in dark jars, cool and dry — use within 12–18 months. Quality check: intense apple-like scent and bitter taste = good quality."
+      },
+      "storage_months": 18,
+      "storage_condition": {
+        "de": "Luftdicht verschlossene dunkle Glas- oder Metalldosen, kühl (unter 20 °C), trocken, lichtgeschützt. Innerhalb von 12–18 Monaten aufbrauchen. Bei Abnahme des Geruchs oder bräunlicher Verfärbung Qualitätsverlust — nicht mehr verwenden.",
+        "en": "Airtight dark glass or metal containers, cool (below 20 °C), dry, light-protected. Use within 12–18 months. Loss of scent or browning indicates quality loss — discard."
+      }
+    },
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Trockene Morgen- bis Mittagsstunden im April–Mai, wenn die Pflanze noch im Rosettenstadium oder kurz vor der Blüte ist — für volksmedizinische Frischpflanzenzubereitungen (Frischpflanzentinktur, Frischpflanzensaft). Für das Kraut (Herba Matricariae): Pflanzen kurz vor oder zu Blühbeginn, wenn Wirkstoffgehalte im Kraut noch hoch sind.",
+        "en": "Dry morning to midday hours in April–May when the plant is still in the rosette stage or just before flowering — for folk medicine fresh plant preparations (fresh plant tincture, fresh plant juice). For the herb (Herba Matricariae): harvest just before or at the beginning of flowering when active content in the herb is still high."
+      },
+      "drying": {
+        "de": "GESAMTE PFLANZE (Frischpflanzenzubereitung oder Kraut): Ganze Pflanze (Stängel, Blätter, Knospen) bodennah abschneiden. Für Frischpflanzentinktur sofort verarbeiten (1:1 oder 1:2 in 45–60 % Ethanol). Für Kräutertrocknung: Bündel oder einlagig bei max. 40 °C trocknen, gut belüftet. Getrocknetes Kraut ist aromatisch, enthält weniger ätherisches Öl als die Blüten — weniger für Arzneiqualität verwendet, aber geeignet für Hausgarten-Kräutertees und Mischungen. Krautqualität entspricht nicht Blütenqualität der Pharmacopöe.",
+        "en": "WHOLE PLANT (fresh plant preparation or herb): Cut whole plant (stems, leaves, buds) close to the ground. For fresh plant tincture, process immediately (1:1 or 1:2 in 45–60 % ethanol). For herb drying: bundle or single layer at max. 40 °C, well ventilated. Dried herb is aromatic but contains less essential oil than the flowers — less used for medicinal quality, but suitable for home garden herbal teas and blends. Herb quality does not meet pharmacopoeial flower standard."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknetes Kraut luftdicht dunkel lagern, innerhalb von 12 Monaten aufbrauchen. Frischpflanzentinktur dunkel und kühl, Haltbarkeit 2–5 Jahre.",
+        "en": "Dried herb stored airtight in the dark, use within 12 months. Fresh plant tincture stored dark and cool, shelf life 2–5 years."
+      }
+    }
+  ]
+}

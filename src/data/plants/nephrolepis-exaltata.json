@@ -1,0 +1,335 @@
+{
+  "slug": "nephrolepis-exaltata",
+  "names": {
+    "de": "Schwertfarn",
+    "en": "Nephrolepis exaltata",
+    "latin": "Nephrolepis exaltata"
+  },
+  "family": {
+    "de": "Schwertfarngewächse",
+    "en": "Sword-fern family",
+    "latin": "Nephrolepidaceae"
+  },
+  "description": {
+    "de": "Beschreibung für Schwertfarn folgt — siehe Wikipedia-Artikel.",
+    "en": "Nephrolepis exaltata, known as the sword fern or  Boston fern, is a species of fern in the family Nephrolepidaceae. It is native to the Americas. This evergreen plant can reach as high as 40–90 centimetres (16–35 in), and in extreme cases up to 1.5 metres."
+  },
+  "teaser": {
+    "de": "Beschreibung für Schwertfarn folgt — siehe Wikipedia-Artikel.",
+    "en": "Nephrolepis exaltata, known as the sword fern or  Boston fern, is a species of fern in the family Nephrolepidaceae."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "air_quality",
+        "humidity",
+        "formaldehyde_removal"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Als aufgehängte Zimmerpflanze ist Nephrolepis exaltata einer der wirksamsten natürlichen Luftbefeuchter. Die NASA-Studie (Wolverton 1989) listete ihn in der Spitzengruppe bei der Reduktion von Formaldehyd und Xylol aus der Raumluft.",
+        "en": "As a hanging houseplant, Nephrolepis exaltata is one of the most effective natural air humidifiers. The NASA study (Wolverton 1989) ranked it in the top group for reducing formaldehyde and xylene from indoor air."
+      },
+      "plant_part": "whole_plant",
+      "evidence_level": "clinical_trial",
+      "source_ids": [
+        "src_nasa_wolverton",
+        "src_wiki_en",
+        "src_aspca"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "air_quality",
+        "xylene_removal",
+        "toluene_removal"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Neben Formaldehyd absorbiert der Schwertfarn auch Xylol und Toluol aus der Innenraumluft — typische Schadstoffe aus Lacken, Klebstoffen und Druckertinte.",
+        "en": "In addition to formaldehyde, the Boston fern also absorbs xylene and toluene from indoor air — typical pollutants from paints, adhesives, and printer ink."
+      },
+      "plant_part": "whole_plant",
+      "evidence_level": "clinical_trial",
+      "source_ids": [
+        "src_nasa_wolverton",
+        "src_wiki_en"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental",
+        "wellbeing"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Als üppige Hängepflanze mit bogig herabhängenden Wedeln gilt Nephrolepis exaltata als dekoratives Element in Wohnräumen, Badezimmern und Büros. Die hohe Transpiration verbessert das Raumklima spürbar.",
+        "en": "As a lush hanging plant with arching fronds, Nephrolepis exaltata is a decorative element in living rooms, bathrooms, and offices. The high transpiration noticeably improves the indoor climate."
+      },
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "source_ids": [
+        "src_rhs",
+        "src_wiki_en"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "pet_safe",
+        "child_safe"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Nephrolepis exaltata ist laut ASPCA weder für Hunde noch für Katzen toxisch und gilt auch für Kleinkinder als ungefährlich. Als eine der wenigen Zimmerpflanzen ohne Giftpotential empfiehlt sich der Schwertfarn besonders für Familienhaushalte.",
+        "en": "According to ASPCA, Nephrolepis exaltata is not toxic to either dogs or cats, and is also considered safe for small children. As one of the few houseplants with no toxic potential, the Boston fern is particularly recommended for family households."
+      },
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional",
+      "source_ids": [
+        "src_aspca",
+        "src_wiki_en"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "ganze Pflanze (dekorativ)",
+      "en": "whole plant (decorative)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Ungiftig für Hunde, Katzen und Menschen (ASPCA bestätigt). Keine bekannten Risiken bei normaler Zimmerpflanzen-Nutzung. Übermäßige Feuchtigkeit kann Schimmelbildung im Topf begünstigen.",
+      "en": "Non-toxic to dogs, cats, and humans (ASPCA confirmed). No known risks with normal houseplant use. Excessive moisture can encourage mold growth in the pot."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Keine bekannte Toxizität; als Zimmerpflanze unbedenklich.",
+        "en": "No known toxicity; safe as a houseplant."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Keine bekannte Toxizität; als Zimmerpflanze unbedenklich.",
+        "en": "No known toxicity; safe as a houseplant."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Gilt als eine der sichersten Zimmerpflanzen für Haushalte mit Kleinkindern.",
+        "en": "Considered one of the safest houseplants for households with small children."
+      }
+    },
+    "contraindications": [],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Schwertfarn (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schwertfarn",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Nephrolepis exaltata (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Nephrolepis_exaltata",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_nasa_wolverton",
+      "type": "monograph",
+      "title": "Wolverton BC (1989): Interior Landscape Plants for Indoor Air Pollution Abatement — NASA Technical Report",
+      "url": "https://ntrs.nasa.gov/citations/19930073077",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_en",
+      "type": "wikipedia",
+      "title": "Nephrolepis exaltata (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Nephrolepis_exaltata",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_wiki_de",
+      "type": "wikipedia",
+      "title": "Schwertfarne (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schwertfarne",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control: Boston Fern (Nephrolepis exaltata) — Non-toxic",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/boston-fern",
+      "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_rhs",
+      "type": "monograph",
+      "title": "Royal Horticultural Society (RHS): Nephrolepis exaltata",
+      "url": "https://www.rhs.org.uk/plants/11632/nephrolepis-exaltata/details",
+      "accessed": "2026-05-24"
+    }
+  ],
+  "image": {
+    "filename": "nephrolepis-exaltata.jpg",
+    "alt": {
+      "de": "Foto von Schwertfarn",
+      "en": "Photo of Nephrolepis exaltata"
+    },
+    "license": "CC BY 2.0",
+    "author": "Homer Edward Price",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Boston_Fern_(2873392811).png"
+  },
+  "indoor_growing": {
+    "suitable": true,
+    "purpose": [
+      "humidifying",
+      "air_purifying",
+      "ornamental"
+    ],
+    "rooms": [
+      "bathroom",
+      "living_room",
+      "bedroom"
+    ],
+    "light": "partial_shade",
+    "water_frequency": "every_few_days",
+    "difficulty": 2,
+    "pet_safe": true,
+    "soil": {
+      "de": "Humusreiche Erde, feucht",
+      "en": "Humus-rich soil, moist"
+    },
+    "pot_size_cm": 22,
+    "tips": {
+      "de": [
+        "Liebt das Bad — hohe Luftfeuchte und indirektes Licht.",
+        "Niemals austrocknen lassen — dann werden Wedel sofort braun.",
+        "Regelmäßig besprühen, vor allem im Winter."
+      ],
+      "en": [
+        "Loves the bathroom — high humidity and indirect light.",
+        "Never let it dry out — fronds turn brown immediately.",
+        "Mist regularly, especially in winter."
+      ]
+    }
+  },
+  "constituents": [
+    {
+      "name": "Flavonoide (Astragalin, Kaempferol-Derivate)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Typische antioxidative Flavonoide der Nephrolepis-Arten; in den Wedeln nachgewiesen.",
+        "en": "Typical antioxidant flavonoids of Nephrolepis species; detected in the fronds."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Chlorogensäure)",
+      "category": "phenolic_acid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Sekundäre Pflanzenstoffe in den Wedeln; bekannt für antioxidative Eigenschaften.",
+        "en": "Secondary plant compounds in the fronds; known for antioxidant properties."
+      }
+    },
+    {
+      "name": "Polysaccharide (Schleimstoffe)",
+      "category": "polysaccharide",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Mitwirkend an der hohen Wasserverdunstungsrate des Farns; unterstützen die Luftbefeuchtungskapazität.",
+        "en": "Contributing to the fern's high water evaporation rate; support air humidification capacity."
+      }
+    },
+    {
+      "name": "Sterole (Beta-Sitosterol)",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Typisches Pflanzensterol in Nephrolepis; phytochemisch gut charakterisiert.",
+        "en": "Typical plant sterol in Nephrolepis; well characterized phytochemically."
+      }
+    },
+    {
+      "name": "Vitamine (Vitamin C, B-Komplex-Anteile)",
+      "category": "vitamin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Mikronährstoffe in den Wedeln; für eine Zimmerpflanze nicht nutritiv relevant.",
+        "en": "Micronutrients in the fronds; not nutritively relevant for a houseplant."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgens (Wedel vollständig ausgerollt, maximale Vitalität)",
+        "en": "Morning (fronds fully unfurled, maximum vitality)"
+      },
+      "drying": {
+        "de": "Für dekorative Zwecke frisch verwenden; bei ca. 35 °C im Schatten trocknen möglich.",
+        "en": "Use fresh for decorative purposes; drying at ca. 35 °C in the shade possible."
+      }
+    },
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "Ganzjährig als Zimmerpflanze aktiv — kein saisonaler Erntezeitpunkt",
+        "en": "Active year-round as houseplant — no seasonal harvest time"
+      }
+    }
+  ]
+}

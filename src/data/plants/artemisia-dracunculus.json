@@ -1,0 +1,430 @@
+{
+  "slug": "artemisia-dracunculus",
+  "names": {
+    "de": "Estragon",
+    "en": "Tarragon",
+    "latin": "Artemisia dracunculus"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Estragon, veraltet auch Dragon bzw. Dragun genannt, ist eine Pflanzenart aus der Gattung Artemisia innerhalb der Familie der Korbblütler (Asteraceae). Sie wird als Heil- und Gewürzpflanze verwendet.",
+    "en": "Tarragon, also known as estragon, is a species of perennial herb in the family Asteraceae. It is widespread in the wild across much of Eurasia and North America and is cultivated for culinary and medicinal purposes."
+  },
+  "teaser": {
+    "de": "Estragon, veraltet auch Dragon bzw.",
+    "en": "Tarragon, also known as estragon, is a species of perennial herb in the family Asteraceae."
+  },
+  "uses": [
+    {
+      "form": "spice",
+      "target": [
+        "digestion",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "evidence_level": "folk",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Frische oder getrocknete Blätter und Triebspitzen werden als aromatisches Gewürzkraut in der Küche eingesetzt. Estragon ist eine der klassischen 'fines herbes' der französischen Küche und Grundbestandteil der Sauce Béarnaise. Die Blätter entfalten ein mildes Anisaroma und passen zu Geflügel, Fisch, Eierspeisen und Essig-Marinaden.",
+        "en": "Fresh or dried leaves and shoot tips are used as an aromatic culinary herb. Tarragon is one of the four classic 'fines herbes' in French cuisine and the defining flavour of Béarnaise sauce. The leaves have a mild anise aroma and pair well with poultry, fish, egg dishes and vinegar preparations."
+      },
+      "preparation": {
+        "de": "Frische Blätter direkt verwenden oder im letzten Moment zugeben, um Aromaflüchtige zu erhalten. Getrocknete Blätter bei max. 35 °C trocknen.",
+        "en": "Use fresh leaves directly or add at the last moment to preserve volatile aromas. Dry leaves at max. 35 °C."
+      },
+      "source_ids": [
+        "src_wiki_de_estragon",
+        "src_wiki_en_tarragon"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "evidence_level": "folk",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Ein Aufguss aus den getrockneten Blättern wird traditionell bei Verdauungsbeschwerden, Blähungen, Übelkeit und Schluckauf eingesetzt. Die bitteren Wirkstoffe und ätherischen Öle sollen die Gallensekretion und Magentätigkeit anregen.",
+        "en": "An infusion of the dried leaves is traditionally used for digestive complaints, flatulence, nausea and hiccups. The bitter principles and essential oils are thought to stimulate bile secretion and gastric activity."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "1–2 g getrocknete Blätter mit 150 ml heißem Wasser übergießen, 10 Minuten ziehen lassen, abseihen.",
+          "en": "Pour 150 ml hot water over 1–2 g dried leaves, steep 10 minutes, strain."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_artemisia",
+        "src_review_frontiers_2021"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "fever"
+      ],
+      "internal_external": "internal",
+      "evidence_level": "folk",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "In der Volksmedizin Zentralasiens und des Nahen Ostens wurden Extrakte aus Estragon als fiebersenkend und verdauungsfördernd eingesetzt, ebenso bei Appetitlosigkeit und Magenschwäche.",
+        "en": "In the folk medicine of Central Asia and the Middle East, extracts of tarragon were used as antipyretics and digestive aids, as well as for loss of appetite and weak digestion."
+      },
+      "preparation": {
+        "de": "Als Flüssigextrakt oder Tinktur (1:5 in 40–60 % Ethanol), 1–2 ml pro Einnahme.",
+        "en": "As a liquid extract or tincture (1:5 in 40–60% ethanol), 1–2 ml per dose."
+      },
+      "source_ids": [
+        "src_review_frontiers_2021"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "joints"
+      ],
+      "internal_external": "external",
+      "evidence_level": "folk",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Breiumschläge aus den frischen Blättern wurden in der Volksmedizin äußerlich bei Rheuma, Gicht und Gelenkschmerzen aufgelegt.",
+        "en": "Poultices of fresh leaves have been applied externally in folk medicine for rheumatism, gout and joint pain."
+      },
+      "preparation": {
+        "de": "Frische Blätter zerdrücken, auf ein Tuch geben und auf die betroffene Stelle legen.",
+        "en": "Crush fresh leaves, place on a cloth and apply to the affected area."
+      },
+      "source_ids": [
+        "src_pfaf_artemisia"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "evidence_level": "folk",
+      "plant_part": "leaf",
+      "description": {
+        "de": "In der Volksmedizin wurden frische Blätter bei Zahnschmerzen gekaut, da ätherische Öle wie Estragol eine leichte lokalanästhetische Wirkung zeigen. In Gebieten Irans und Armeniens werden frische Blätter als Teil des traditionellen Kräutertellers (Sabzi khordan) täglich als Beilage gegessen.",
+        "en": "In folk medicine, fresh leaves were chewed for toothache, as essential oils such as estragole exhibit mild local anaesthetic effects. In parts of Iran and Armenia, fresh leaves are eaten daily as part of the traditional herb platter (sabzi khordan)."
+      },
+      "source_ids": [
+        "src_wiki_en_tarragon",
+        "src_pfaf_artemisia"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "immune",
+        "skin"
+      ],
+      "internal_external": "external",
+      "evidence_level": "folk",
+      "plant_part": "aerial_parts",
+      "description": {
+        "de": "Das ätherische Öl von Estragon zeigt in Laborstudien antibakterielle und antifungale Aktivität, bedingt durch hohe Anteile an Estragol und Methyleugenol. Eine externe Nutzung (stark verdünnt) wird in der Aromatherapie beschrieben. Die konzentrierte Einnahme ist wegen des Genotoxizitätspotenzials nicht zu empfehlen.",
+        "en": "Tarragon essential oil shows antibacterial and antifungal activity in laboratory studies, due to high levels of estragole and methyl eugenol. External use (highly diluted) is described in aromatherapy. Concentrated ingestion is not recommended due to genotoxic potential."
+      },
+      "source_ids": [
+        "src_review_frontiers_2021"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Kraut (vor der Blüte)",
+      "en": "herb (before flowering)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "In üblichen Küchenmengen (Blätter) unbedenklich. Das ätherische Öl enthält Estragol (Methylchavicol) und Methyleugenol — beide gelten laut EFSA als genotoxisch und potenziell kanzerogen. Konzentrierte Anwendung (z. B. als reines ätherisches Öl innerlich) ist zu vermeiden. Personen mit Asteraceae-Allergie sollten vorsichtig sein.",
+      "en": "Safe in normal culinary leaf amounts. The essential oil contains estragole (methyl chavicol) and methyl eugenol — both classified by EFSA as genotoxic and potentially carcinogenic. Concentrated use (e.g. pure essential oil taken internally) should be avoided. People with Asteraceae allergies should exercise caution."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Nicht als Heilpflanzenzubereitung (Tee, Extrakt, Öl) in der Schwangerschaft anwenden — emmenagoge Wirkung möglich. Kleine Küchenmengen gelten als unbedenklich.",
+        "en": "Do not use as a herbal preparation (tea, extract, oil) during pregnancy — emmenagogue effect possible. Small culinary amounts are considered safe."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Konzentrierte Zubereitungen vermeiden. Geringe Küchenmengen sind traditionell akzeptiert.",
+        "en": "Avoid concentrated preparations. Small culinary amounts are traditionally accepted."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Keine konzentrierten Extrakte oder ätherisches Öl bei Kindern. Küchenmengen in der Ernährung gelten als unbedenklich.",
+        "en": "No concentrated extracts or essential oil in children. Culinary amounts in food are considered safe."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Allergie gegen Korbblütler (Asteraceae)",
+        "en": "Known allergy to plants of the daisy family (Asteraceae)"
+      },
+      {
+        "de": "Anwendung konzentrierter ätherischer Öle innerlich",
+        "en": "Internal use of concentrated essential oil"
+      }
+    ],
+    "drug_interactions": []
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_1",
+      "type": "wikipedia",
+      "title": "Estragon (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Estragon",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_2",
+      "type": "wikipedia",
+      "title": "Tarragon (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Tarragon",
+      "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_de_estragon",
+      "type": "wikipedia",
+      "title": "Estragon (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Estragon",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_wiki_en_tarragon",
+      "type": "wikipedia",
+      "title": "Tarragon (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Tarragon",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_pfaf_artemisia",
+      "type": "monograph",
+      "title": "Artemisia dracunculus — Plants for a Future (PFAF)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Artemisia+dracunculus",
+      "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_review_frontiers_2021",
+      "type": "monograph",
+      "title": "Artemisia dracunculus (Tarragon): A Review of Its Traditional Uses, Phytochemistry and Pharmacology. Frontiers in Pharmacology, 2021. DOI: 10.3389/fphar.2021.653993",
+      "url": "https://doi.org/10.3389/fphar.2021.653993",
+      "accessed": "2026-05-22"
+    }
+  ],
+  "image": {
+    "filename": "artemisia-dracunculus.jpg",
+    "alt": {
+      "de": "Foto von Estragon",
+      "en": "Photo of Tarragon"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Cillas",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Artemisia_dracunculus_HRM.jpg"
+  },
+  "companion_planting": {
+    "good_partners": [
+      "petroselinum-crispum"
+    ],
+    "bad_partners": [],
+    "neutral": [
+      "ocimum-basilicum"
+    ],
+    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)"
+  },
+  "garden_meta": {
+    "climate_zones": [
+      "6a",
+      "6b",
+      "7a",
+      "7b",
+      "8a",
+      "8b",
+      "9a",
+      "9b"
+    ],
+    "sowing_window": {
+      "transplant": {
+        "start_month": 4,
+        "end_month": 5
+      }
+    },
+    "harvest_window": {
+      "start_month": 6,
+      "end_month": 9
+    },
+    "days_to_harvest": 120,
+    "spacing_cm": 40,
+    "garden_type": [
+      "balcony",
+      "raised_bed"
+    ],
+    "difficulty": 2
+  },
+  "permaculture_functions": [
+    "aromatic_repellent",
+    "medicinal"
+  ],
+  "constituents": [
+    {
+      "name": "Estragole (Methylchavicol)",
+      "category": "essential_oil",
+      "percent_range": "40-85 % (im äther. Öl)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hauptkomponente des ätherischen Öls; verleiht den charakteristischen Anisduft. Laut EFSA genotoxisch in hohen Dosen — in Küchenmengen unproblematisch.",
+        "en": "Main component of the essential oil; gives the characteristic anise scent. Classified as genotoxic at high doses by EFSA — unproblematic in culinary amounts."
+      }
+    },
+    {
+      "name": "Methyleugenol",
+      "category": "essential_oil",
+      "percent_range": "5-35 % (im äther. Öl)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenylpropanoid; trägt zum Aroma bei. Ebenfalls als potenziell genotoxisch eingestuft; wird durch Trocknen teilweise abgebaut.",
+        "en": "Phenylpropanoid; contributes to the aroma. Also classified as potentially genotoxic; partially degraded by drying."
+      }
+    },
+    {
+      "name": "Sabinen",
+      "category": "essential_oil",
+      "percent_range": "bis 35 % (im äther. Öl)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Monoterpen; antimikrobielle Wirkung in Laborversuchen.",
+        "en": "Monoterpene; antimicrobial activity in laboratory studies."
+      }
+    },
+    {
+      "name": "Herniarin",
+      "category": "other",
+      "percent_range": "> 1 % (Gesamtcumarine)",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hauptcumarin in Estragon; antibakterielle und antifungale Aktivität beschrieben.",
+        "en": "Main coumarin in tarragon; antibacterial and antifungal activity described."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin, Rutin)",
+      "category": "flavonoid",
+      "percent_range": "0,5-4,9 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Antioxidative Leitsubstanzen; höhere Gehalte bei Kulturvarietäten.",
+        "en": "Antioxidant lead compounds; higher content in cultivated varieties."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Rosmarinsäure, Kaffeesäure)",
+      "category": "phenolic_acid",
+      "percent_range": "variabel",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Tragen zur antioxidativen und entzündungshemmenden Aktivität bei.",
+        "en": "Contribute to antioxidant and anti-inflammatory activity."
+      }
+    },
+    {
+      "name": "Bitter- und Gerbstoffe",
+      "category": "tannin",
+      "percent_range": "variabel",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Fördern die Verdauungssekretion und Gallentätigkeit.",
+        "en": "Promote digestive secretion and bile activity."
+      }
+    },
+    {
+      "name": "Delorazepam (Spuren)",
+      "category": "other",
+      "percent_range": "< 0,001 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Natürlich vorkommendes Benzodiazepin; Mengen sind pharmakologisch nicht relevant.",
+        "en": "Naturally occurring benzodiazepine; amounts are pharmacologically irrelevant."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Vormittags nach dem Abtrocknen des Taus — optimale Ölkonzentration zu Beginn der Knospenbildung.",
+        "en": "Morning after the dew has dried — optimal oil concentration at the onset of bud formation."
+      },
+      "drying": {
+        "de": "An luftigem, schattigen Ort oder bei max. 35 °C im Trockner; Bündel kopfüber aufhängen.",
+        "en": "In an airy, shaded location or at max. 35 °C in a dryer; hang bundles upside down."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Dunkel, trocken, luftdicht in Glas- oder Blechdosen.",
+        "en": "Dark, dry, airtight in glass or tin containers."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Frische Triebspitzen (20–30 cm) können mehrmals pro Saison geschnitten werden; bevorzugt morgens.",
+        "en": "Fresh shoot tips (20–30 cm) can be cut several times per season; preferably in the morning."
+      },
+      "drying": {
+        "de": "Frischverwendung bevorzugt; Einfrieren erhält das Aroma besser als Trocknen.",
+        "en": "Fresh use preferred; freezing preserves aroma better than drying."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Eingefroren in Eiswürfelbehältern mit Wasser oder Öl bis zu 6 Monate haltbar.",
+        "en": "Frozen in ice cube trays with water or oil, keeps for up to 6 months."
+      }
+    }
+  ]
+}
