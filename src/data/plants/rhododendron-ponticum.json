@@ -20,19 +20,158 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-rp-01",
       "target": [
-        "caution"
+        "circulation"
       ],
-      "internal_external": "external",
+      "form": "raw",
+      "plant_part": "flower",
+      "evidence_level": "folk",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Traditionelle Anwendung von „Mad Honey\" (türk. „Deli Bal\") aus dem Nektar von Rhododendron ponticum und R. luteum in der Schwarzmeer-Region (Türkei, Kaukasus, Nepal) als Volksmittel gegen Bluthochdruck, Magen-Darm-Beschwerden und sexuelle Funktionsstörungen. Dosis traditionell: 1 Teelöffel morgens nüchtern; ab 2–3 Esslöffeln treten typische Vergiftungssymptome (Bradykardie, Hypotonie) auf. Wirkprinzip: Grayanotoxine (Andromedotoxin) als reversible Aktivatoren spannungsabhängiger Natriumkanäle (Nav1.x) — pharmakologisch verwandt mit Aconitin. Anwendung wegen schmaler therapeutischer Breite gefährlich und in vielen Ländern (z. B. Südkorea seit 2005) verboten.",
+        "en": "Traditional use of \"mad honey\" (Turkish \"deli bal\") from the nectar of Rhododendron ponticum and R. luteum in the Black Sea region (Turkey, Caucasus, Nepal) as a folk remedy for high blood pressure, gastrointestinal complaints and sexual dysfunction. Traditional dose: 1 teaspoon in the morning on an empty stomach; from 2–3 tablespoons typical poisoning symptoms (bradycardia, hypotension) occur. Mechanism: grayanotoxins (andromedotoxin) as reversible activators of voltage-gated sodium channels (Nav1.x) — pharmacologically related to aconitine. Use is dangerous due to narrow therapeutic window and banned in many countries (e.g. South Korea since 2005)."
+      },
+      "preparation": {
+        "de": "Traditionell: 1 TL Mad Honey morgens nüchtern, mit Milch oder Tee; in der Türkei manchmal in Raki gelöst — diese Kombination verstärkt die Intoxikationsgefahr drastisch.",
+        "en": "Traditionally: 1 tsp mad honey in the morning on an empty stomach, with milk or tea; in Turkey sometimes dissolved in raki — this combination dramatically increases the risk of intoxication."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-rp-wiki-mad-honey",
+        "src-rp-silici-2015",
+        "src-rp-ullah-2018"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-rp-02",
+      "target": [
+        "joints"
+      ],
+      "form": "raw",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische antike Kriegsführung mit toxischem Pontischen Honig: dokumentiert in Xenophons „Anabasis\" (401 v. Chr.) — griechische Söldner unter Xenophon vergifteten sich bei Trabzon massenhaft an Mad Honey (zwei Tage Bewusstlosigkeit, später vollständige Erholung). Pompejus' Truppen wurden 65/69 v. Chr. von Mithridates VI. Eupator und den Heptakometen mit absichtlich aufgestellten Honigwaben in der gleichen Region vergiftet und anschliessend niedergemetzelt (Strabon, Geographica). Rein historisches Kulturphänomen.",
+        "en": "Historical ancient warfare using toxic Pontic honey: documented in Xenophon's \"Anabasis\" (401 BC) — Greek mercenaries under Xenophon were poisoned en masse on mad honey near Trabzon (two days of unconsciousness, later full recovery). Pompey's troops were poisoned in 65/69 BC by Mithridates VI Eupator and the Heptakometes with deliberately placed honeycombs in the same region and subsequently slaughtered (Strabo, Geographica). Pure historical cultural phenomenon."
+      },
+      "preparation": {
+        "de": "Historisch: konzentrierter Pontischer Frühjahrshonig aus Rhododendron-reichen Beständen; rein dokumentarisch.",
+        "en": "Historically: concentrated Pontic spring honey from rhododendron-rich stands; purely documentary."
+      },
+      "source_ids": [
+        "src-rp-gunduz-2008",
+        "src-rp-wiki-mad-honey"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-rp-03",
+      "target": [
+        "throat"
+      ],
+      "form": "raw",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Anwendung frischer Rhododendron-ponticum-Zweige bei Zahnschmerzen: Wikipedia (EN) dokumentiert die topische Anwendung frischen Saftes aus geschnittenen Zweigen auf schmerzende Zähne und Zahnfleisch — ein Hinweis auf lokalanästhetische Eigenschaften der Grayanotoxine (Natriumkanal-Modulation). Wegen perkutaner/mukosaler Resorption und systemischer Toxizität heute nicht mehr empfohlen.",
+        "en": "Folk medicinal use of fresh Rhododendron ponticum twigs for toothache: Wikipedia (EN) documents topical application of fresh sap from cut branches on painful teeth and gums — an indication of local anaesthetic properties of grayanotoxins (sodium-channel modulation). No longer recommended today due to percutaneous/mucosal absorption and systemic toxicity."
+      },
+      "preparation": {
+        "de": "Historisch: frischer Saft eines abgeschnittenen Zweigs auf den schmerzenden Zahn; rein dokumentarisch.",
+        "en": "Historically: fresh sap from a cut twig applied to the aching tooth; purely documentary."
+      },
+      "source_ids": [
+        "src-rp-wiki-en"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-rp-04",
+      "target": [
+        "skin"
+      ],
+      "form": "salve",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Anatolisch-kaukasische Volksmedizin: Frische zerstossene Blätter oder Aufgüsse von Rhododendron ponticum wurden äusserlich auf rheumatische Gelenkschmerzen und Hautparasiten aufgetragen. Die analgetische Wirkung beruht auf der Natriumkanal-Modulation durch Grayanotoxine (ähnlich Aconitum-Linimente). Wegen perkutaner Resorption mit systemischer Bradykardie/Hypotonie heute aufgegeben.",
+        "en": "Anatolian-Caucasian folk medicine: fresh crushed leaves or infusions of Rhododendron ponticum were applied externally to rheumatic joint pain and skin parasites. The analgesic effect is based on sodium channel modulation by grayanotoxins (similar to Aconitum liniments). Abandoned today due to percutaneous absorption with systemic bradycardia/hypotension."
+      },
+      "preparation": {
+        "de": "Historisch: zerstossene Blätter in Schmalz oder Öl; rein dokumentarisch, keine Anwendungsempfehlung.",
+        "en": "Historically: crushed leaves in lard or oil; purely documentary, no application recommendation."
+      },
+      "source_ids": [
+        "src-rp-ullah-2018",
+        "src-rp-silici-2015"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-rp-05",
+      "target": [
+        "digestion"
+      ],
+      "form": "raw",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Türkisch-anatolische Anwendung kleiner Mengen Mad Honey gegen Magengeschwüre, Verdauungsbeschwerden und Diabetes — basierend auf der irrigen Annahme, dass die durch Grayanotoxine ausgelöste vagale Reizung („beruhigend\") therapeutisch nutzbar sei. Mehrere Fallserien aus Trabzon und Rize dokumentieren stattdessen schwere Bradykardie und Synkopen bei dieser Selbstmedikation. Modern: rein als Risiko zu betrachten.",
+        "en": "Turkish-Anatolian use of small amounts of mad honey for stomach ulcers, digestive complaints and diabetes — based on the mistaken assumption that the vagal stimulation (\"calming\") caused by grayanotoxins is therapeutically useful. Multiple case series from Trabzon and Rize document instead severe bradycardia and syncope in this self-medication. In modern terms: to be considered as risk only."
+      },
+      "preparation": {
+        "de": "Traditionell: 1 TL Mad Honey morgens nüchtern; rein dokumentarisch — bereits diese Dosis löst Vergiftungssymptome aus.",
+        "en": "Traditionally: 1 tsp mad honey in the morning on an empty stomach; purely documentary — even this dose triggers poisoning symptoms."
+      },
+      "source_ids": [
+        "src-rp-silici-2015",
+        "src-rp-ullah-2018"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-rp-06",
+      "target": [
+        "circulation"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Verwendung von Rhododendron chrysanthum / R. ponticum (Urtinktur und Potenzen D6–D30) als Konstitutionsmittel bei rheumatischen Beschwerden, Hodenschmerz, „wetterfühligen\" Kopfschmerzen und Migräne mit Wetterumschwung. Ab D6 enthalten die Präparate keine pharmakologisch wirksame Grayanotoxin-Menge mehr; Urtinktur und niedrige Potenzen bleiben hochtoxisch.",
+        "en": "Homeopathic use of Rhododendron chrysanthum / R. ponticum (mother tincture and potencies D6–D30) as constitutional remedy for rheumatic complaints, testicular pain, \"weather-sensitive\" headaches and migraine triggered by weather change. From D6 onward preparations contain no pharmacologically active grayanotoxin amount; mother tincture and low potencies remain highly toxic."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "45% ethanol (mother tincture)"
+      },
+      "source_ids": [
+        "src-rp-wiki-en",
+        "src-rp-wikidata"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-rp-07",
+      "target": [
+        "wounds"
+      ],
+      "form": "raw",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Kulturhistorische Verwendung als Zierpflanze und Veredlungsunterlage: Rhododendron ponticum wird seit dem 18. Jh. in europäischen Gärten kultiviert und dient heute vor allem als robuste Veredlungsunterlage für edle Rhododendron-Hybriden. In Grossbritannien, Irland, Belgien und den Niederlanden invasiv — gefährdet einheimische Heidekraut- und Eichenwälder. Die Pflanze als solche hat keine medizinische Tradition in West-/Mitteleuropa.",
+        "en": "Cultural-historical use as ornamental and grafting rootstock: Rhododendron ponticum has been cultivated in European gardens since the 18th century and today serves primarily as a robust grafting rootstock for noble Rhododendron hybrids. Invasive in the UK, Ireland, Belgium and the Netherlands — endangering native heath and oak woodlands. The plant as such has no medicinal tradition in Western/Central Europe."
+      },
+      "preparation": {
+        "de": "Keine medizinische Zubereitung — rein botanisch/horticultural.",
+        "en": "No medicinal preparation — purely botanical/horticultural."
+      },
+      "source_ids": [
+        "src-rp-wiki-de",
+        "src-rp-wiki-en"
+      ],
+      "internal_external": "external"
     }
   ],
   "season": {
@@ -48,12 +187,128 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG (Grayanotoxine, Andromedotoxin) — alle Pflanzenteile, auch Pollen und Nektar. Schon wenige Gramm Blätter können schwere Vergiftungen verursachen (Erbrechen, niedriger Blutdruck, Herzrhythmusstörungen). Sogar der Honig aus Rhododendron-Pollen („tollkirschartiger Honig\") ist toxisch — historisch bekannt seit der Antike („Honig-Krieg\"). Sehr verbreitet als Zierstrauch in Vorgärten.",
-      "en": "TOXIC (grayanotoxins, andromedotoxin) — all plant parts, including pollen and nectar. Just a few grams of leaves can cause severe poisoning (vomiting, low blood pressure, cardiac arrhythmia). Even honey made from rhododendron pollen ('mad honey') is toxic — historically known since antiquity ('honey war'). Very common ornamental shrub in front gardens."
+      "de": "GIFTIG — ALLE PFLANZENTEILE EINSCHLIESSLICH NEKTAR, POLLEN UND HONIG. Rhododendron ponticum enthält Grayanotoxine I–IV (Synonyme: Andromedotoxin, Rhodotoxin, Acetylandromedol), polyhydroxylierte Diterpene aus der Klasse der Grayanane. Konzentration in Blättern, Blüten, Nektar und Pollen; Akkumulation auch im Honig (sog. „Mad Honey\" / türk. „Deli Bal\"). Wirkmechanismus: reversible Bindung an die offene Konformation spannungsabhängiger Natriumkanäle (Nav1.x) — verhindert Inaktivierung, verlängert Depolarisation in Nerven-, Herz- und Skelettmuskelzellen — pharmakologisch verwandt mit Aconitin. Klinisches Bild der „Mad Honey Disease\" (Beginn 30 min – 4 h nach Ingestion): Schwindel, Übelkeit, Erbrechen, Speichelfluss, Schwitzen, Parästhesien (besonders periorale), Sehstörungen, Hypotonie, Bradykardie (bis Sinusarrest), AV-Block I–III, ggf. Bewusstlosigkeit, Krämpfe. Eine systematische Übersicht (Silici & Atayoglu, 2015) wertete 1199 dokumentierte Fälle aus — primär aus der türkischen Schwarzmeer-Küste (Trabzon, Rize, Giresun) — KEINE Todesfälle bei adäquater Therapie. Behandlung: Atropin i.v. (0,5–2 mg) bei symptomatischer Bradykardie, Volumengabe, in schweren Fällen Vasopressoren. Bei Verdacht SOFORT Notruf 112 / 911 und Giftnotruf. Verwechslungsgefahr: Imker in Süd-Türkei können Mad Honey unwissentlich vermarkten — kommerzieller Honig in der EU ist durch Mischtracht und Grenzwerte für Grayanotoxine (EU-Richtwerte) sicher. Bienen sterben innerhalb von Stunden an reinem Rhododendron-Nektar; Hummeln (Bombus terrestris) sind hingegen unempfindlich. KEINE Selbstmedikation, KEINE Laienanwendung von Blättern oder Nektar.",
+      "en": "TOXIC — ALL PLANT PARTS INCLUDING NECTAR, POLLEN AND HONEY. Rhododendron ponticum contains grayanotoxins I–IV (synonyms: andromedotoxin, rhodotoxin, acetylandromedol), polyhydroxylated diterpenes of the grayanane class. Concentrated in leaves, flowers, nectar and pollen; also accumulating in honey (so-called \"mad honey\" / Turkish \"deli bal\"). Mechanism of action: reversible binding to the open conformation of voltage-gated sodium channels (Nav1.x) — prevents inactivation, prolongs depolarisation in nerve, cardiac and skeletal muscle cells — pharmacologically related to aconitine. Clinical picture of \"mad honey disease\" (onset 30 min – 4 h after ingestion): dizziness, nausea, vomiting, salivation, sweating, paraesthesia (especially perioral), visual disturbances, hypotension, bradycardia (up to sinus arrest), AV block I–III, possibly loss of consciousness, seizures. A systematic review (Silici & Atayoglu, 2015) analysed 1199 documented cases — primarily from the Turkish Black Sea coast (Trabzon, Rize, Giresun) — NO fatalities with adequate therapy. Treatment: intravenous atropine (0.5–2 mg) for symptomatic bradycardia, fluid resuscitation, vasopressors in severe cases. In suspected poisoning: IMMEDIATELY call emergency services (112 / 911) and poison control. Risk of confusion: beekeepers in southern Turkey may unknowingly market mad honey — commercial honey in the EU is safe due to mixed forage and EU limit values for grayanotoxins. Bees die within hours on pure rhododendron nectar; bumblebees (Bombus terrestris) by contrast are insensitive. NO self-medication, NO lay use of leaves or nectar."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Grayanotoxine sind plazentagängig (kleines Molekulargewicht, lipophil) und können fetale Bradykardie und Hypotonie auslösen. Auch geringe Mengen Mad Honey können bei Schwangeren schwere maternale Hypotonie mit konsekutiver utero-plazentarer Minderperfusion verursachen. Jede orale oder grossflächig dermale Anwendung in der Schwangerschaft ist strikt kontraindiziert.",
+        "en": "Grayanotoxins cross the placental barrier (low molecular weight, lipophilic) and can cause fetal bradycardia and hypotension. Even small amounts of mad honey can induce severe maternal hypotension in pregnant women with consecutive utero-placental hypoperfusion. Any oral or large-area dermal use during pregnancy is strictly contraindicated."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Grayanotoxine treten vermutlich in die Muttermilch über (lipophil); beim Säugling können sie Bradykardie und Apnoeneigung auslösen. Stillzeit: strikt kontraindiziert.",
+        "en": "Grayanotoxins presumably pass into breast milk (lipophilic); in infants they can induce bradycardia and apnoea tendency. Breastfeeding: strictly contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder reagieren wegen geringer Körpermasse und unreifer Herz-Kreislauf-Regulation extrem empfindlich. Bereits 1 TL Mad Honey kann bei Kleinkindern lebensgefährliche Bradykardie auslösen. Auch Blüten und Blätter sind beim oralen Verschlucken hochgefährlich. Rhododendron-Sträucher in Vorgärten, Spielplätzen und Kindergärten erfordern Aufklärung der Aufsichtspersonen.",
+        "en": "Children react extremely sensitively due to low body mass and immature cardiovascular regulation. Even 1 tsp of mad honey can trigger life-threatening bradycardia in small children. Flowers and leaves are also highly dangerous if swallowed orally. Rhododendron shrubs in front gardens, playgrounds and kindergartens require education of supervising adults."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Vorbestehende Bradykardie, AV-Block II. und III. Grades — Grayanotoxine verstärken Bradyarrhythmien drastisch",
+        "en": "Pre-existing bradycardia, AV block grade II and III — grayanotoxins drastically intensify bradyarrhythmias"
+      },
+      {
+        "de": "Symptomatische Hypotonie, orthostatische Dysregulation — additive Blutdrucksenkung",
+        "en": "Symptomatic hypotension, orthostatic dysregulation — additive blood pressure reduction"
+      },
+      {
+        "de": "Sick-Sinus-Syndrom und Schrittmacherindikation",
+        "en": "Sick sinus syndrome and pacemaker indication"
+      },
+      {
+        "de": "Schwere koronare Herzkrankheit und kürzliches Myokardinfarkt — vagal vermittelte Bradykardie verschlechtert myokardiale Perfusion",
+        "en": "Severe coronary heart disease and recent myocardial infarction — vagally mediated bradycardia worsens myocardial perfusion"
+      },
+      {
+        "de": "Gleichzeitige Therapie mit Bradykardie- oder Hypotonie-induzierenden Medikamenten (siehe drug_interactions)",
+        "en": "Concurrent therapy with bradycardia- or hypotension-inducing medications (see drug_interactions)"
+      },
+      {
+        "de": "Epilepsie und Krampfleiden — Grayanotoxine können bei hoher Dosis Krämpfe auslösen",
+        "en": "Epilepsy and seizure disorders — grayanotoxins can trigger seizures at high doses"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche unter 18 Jahren (siehe oben)",
+        "en": "Pregnancy, breastfeeding, children and adolescents under 18 years (see above)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Beta-Blocker (Propranolol, Metoprolol, Bisoprolol, Atenolol)",
+        "mechanism": {
+          "de": "Additive Bradykardie und negative Inotropie — Grayanotoxin-induzierte vagale Stimulation plus β1-Blockade kann zu symptomatischer Sinusbradykardie, AV-Block und Synkope führen. Therapie: Atropin.",
+          "en": "Additive bradycardia and negative inotropy — grayanotoxin-induced vagal stimulation plus β1 blockade can lead to symptomatic sinus bradycardia, AV block and syncope. Therapy: atropine."
+        },
+        "severity": "avoid",
+        "source_id": "src-rp-gunduz-2008"
+      },
+      {
+        "drug_class": "Calciumkanal-Blocker (Verapamil, Diltiazem)",
+        "mechanism": {
+          "de": "Synergistische Verlangsamung der AV-Überleitung und Vasodilatation; bei gleichzeitiger Mad-Honey-Aufnahme schwere Bradykardie und Hypotonie dokumentiert.",
+          "en": "Synergistic slowing of AV conduction and vasodilation; severe bradycardia and hypotension documented in concurrent mad honey ingestion."
+        },
+        "severity": "avoid",
+        "source_id": "src-rp-silici-2015"
+      },
+      {
+        "drug_class": "Antiarrhythmika (Klasse I — Lidocain, Flecainid; Klasse III — Amiodaron)",
+        "mechanism": {
+          "de": "Grayanotoxine sind selbst Na-Kanal-Modulatoren; Kombination mit klassischen Na-Kanal-Blockern (Klasse I) oder K-Kanal-Blockern (Klasse III) führt zu unvorhersehbaren elektrophysiologischen Effekten (QT-Verlängerung, Bradyarrhythmien).",
+          "en": "Grayanotoxins are themselves Na channel modulators; combination with classical Na channel blockers (class I) or K channel blockers (class III) leads to unpredictable electrophysiological effects (QT prolongation, bradyarrhythmias)."
+        },
+        "severity": "avoid",
+        "source_id": "src-rp-aryal-2025"
+      },
+      {
+        "drug_class": "Herzglykoside (Digoxin, Digitoxin)",
+        "mechanism": {
+          "de": "Digoxin verstärkt vagal vermittelte Bradykardie; in Kombination mit Grayanotoxinen besteht erhebliches Risiko für bradykarde Rhythmusstörungen und AV-Block.",
+          "en": "Digoxin enhances vagally mediated bradycardia; combination with grayanotoxins carries substantial risk of bradyarrhythmias and AV block."
+        },
+        "severity": "avoid",
+        "source_id": "src-rp-gunduz-2008"
+      },
+      {
+        "drug_class": "Antihypertensiva (ACE-Hemmer, AT1-Antagonisten, Diuretika, Clonidin)",
+        "mechanism": {
+          "de": "Additive Hypotonie; orthostatische Synkopen und Sturzgefahr besonders bei älteren Patienten. Mad-Honey-Selbstmedikation gegen Hypertonie ist gefährlich — additive Hypotonie statt Therapieerfolg.",
+          "en": "Additive hypotension; orthostatic syncope and falls especially in elderly patients. Mad honey self-medication for hypertension is dangerous — additive hypotension instead of therapeutic success."
+        },
+        "severity": "avoid",
+        "source_id": "src-rp-silici-2015"
+      },
+      {
+        "drug_class": "PDE-5-Inhibitoren (Sildenafil, Tadalafil, Vardenafil)",
+        "mechanism": {
+          "de": "Schwarzmeer-Volksmedizin kombiniert Mad Honey traditionell mit „Aphrodisiakum\"-Wirkung; gleichzeitige Einnahme mit PDE-5-Inhibitoren verstärkt die Vasodilatation und kann zu schwerer Hypotonie führen.",
+          "en": "Black Sea folk medicine traditionally combines mad honey with \"aphrodisiac\" use; concurrent ingestion with PDE-5 inhibitors enhances vasodilation and can lead to severe hypotension."
+        },
+        "severity": "avoid",
+        "source_id": "src-rp-ullah-2018"
+      },
+      {
+        "drug_class": "Cholinergika und Acetylcholinesterase-Hemmer (Donepezil, Pyridostigmin, Pilocarpin)",
+        "mechanism": {
+          "de": "Verstärkung der vagal-cholinergen Effekte — additive Bradykardie, Bronchokonstriktion und Speichelfluss möglich.",
+          "en": "Enhancement of vagal cholinergic effects — additive bradycardia, bronchoconstriction and salivation possible."
+        },
+        "severity": "caution",
+        "source_id": "src-rp-aryal-2025"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -70,6 +325,86 @@
       "title": "Rhododendron ponticum (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Rhododendron_ponticum",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-rp-wiki-en",
+      "type": "wikipedia",
+      "title": "Rhododendron ponticum — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Rhododendron_ponticum",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-rp-wiki-de",
+      "type": "wikipedia",
+      "title": "Pontischer Rhododendron — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Pontischer_Rhododendron",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-rp-wiki-grayanotoxin",
+      "type": "wikipedia",
+      "title": "Grayanotoxin — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Grayanotoxin",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-rp-wiki-mad-honey",
+      "type": "wikipedia",
+      "title": "Mad honey — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Mad_honey",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-rp-wikidata",
+      "type": "wikidata",
+      "title": "Rhododendron ponticum — Wikidata Q557928",
+      "url": "https://www.wikidata.org/wiki/Q557928",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-rp-gunduz-2008",
+      "type": "monograph",
+      "title": "Clinical review of grayanotoxin/mad honey poisoning past and present (Gunduz et al., Clinical Toxicology 2008)",
+      "url": "https://doi.org/10.1080/15563650701666306",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-rp-silici-2015",
+      "type": "monograph",
+      "title": "Mad honey intoxication: A systematic review on the 1199 cases (Silici & Atayoglu, Food and Chemical Toxicology 2015)",
+      "url": "https://doi.org/10.1016/j.fct.2015.10.018",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-rp-ullah-2018",
+      "type": "monograph",
+      "title": "Mad honey: uses, intoxicating/poisoning effects, diagnosis, and treatment (Ullah et al., RSC Advances 2018)",
+      "url": "https://doi.org/10.1039/C8RA01924J",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-rp-aryal-2025",
+      "type": "monograph",
+      "title": "Grayanotoxins in Mad Honey: Mechanisms of Toxicity, Clinical Management, and Therapeutic Implications (Aryal et al., Journal of Applied Toxicology 2025)",
+      "url": "https://doi.org/10.1002/jat.4855",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-rp-commons",
+      "type": "commons",
+      "title": "Category:Rhododendron ponticum — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Category:Rhododendron_ponticum",
+      "accessed": "2026-05-26",
+      "language": "en"
     }
   ],
   "image": {
@@ -81,5 +416,122 @@
     "license": "CC BY-SA 3.0",
     "author": "Rasbak",
     "source_url": "https://commons.wikimedia.org/wiki/File:Pontische_rododendron_struik_(Rhododendron_ponticum).jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Grayanotoxin I (Andromedotoxin / Acetylandromedol)",
+      "category": "other",
+      "percent_range": "Hauptkomponente in Blättern und Nektar; im Honig 1–100 mg/kg",
+      "note": {
+        "de": "Leittoxin der Pflanze; polyhydroxyliertes Diterpen vom Grayanan-Typ (C20H34O5). Reversibler Aktivator spannungsabhängiger Natriumkanäle (Nav1.x) — bindet im offenen Zustand und verhindert die Inaktivierung; pharmakologisch verwandt mit Aconitin, Veratrin und Batrachotoxin. Hauptverursacher der „Mad Honey Disease\". Wird durch Aufkochen nur teilweise abgebaut.",
+        "en": "Lead toxin of the plant; polyhydroxylated diterpene of the grayanane type (C20H34O5). Reversible activator of voltage-gated sodium channels (Nav1.x) — binds in the open state and prevents inactivation; pharmacologically related to aconitine, veratrine and batrachotoxin. Main cause of mad honey disease. Only partially degraded by boiling."
+      }
+    },
+    {
+      "name": "Grayanotoxin II",
+      "category": "other",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Acetyliertes Stereoisomer des Grayanotoxin I; geringere Bindungsaffinität an Natriumkanäle, aber strukturanalog wirksam; in Blättern und Pollen nachgewiesen.",
+        "en": "Acetylated stereoisomer of grayanotoxin I; lower binding affinity for sodium channels but structurally analogous in action; detected in leaves and pollen."
+      }
+    },
+    {
+      "name": "Grayanotoxin III (Rhodotoxin)",
+      "category": "other",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Stark wirksames Grayanotoxin-Isomer; ebenfalls Na-Kanal-Aktivator; trägt zur Gesamttoxizität der Pflanze und des Mad Honey bei. Erstmals isoliert aus Rhododendron-Arten.",
+        "en": "Highly active grayanotoxin isomer; also a sodium channel activator; contributes to the overall toxicity of the plant and mad honey. First isolated from Rhododendron species."
+      }
+    },
+    {
+      "name": "Grayanotoxin IV und weitere Diterpene (Pieris-/Lyonia-Typ)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Strukturanaloge Diterpene mit Grayanan-Gerüst; pharmakologisch ähnlich aber weniger erforscht; gemeinsamer chemotaxonomischer Marker der Ericaceae-Unterfamilie Ericoideae (Rhododendron, Kalmia, Pieris, Leucothoe, Agarista).",
+        "en": "Structurally analogous diterpenes with grayanane skeleton; pharmacologically similar but less studied; common chemotaxonomic marker of the Ericaceae subfamily Ericoideae (Rhododendron, Kalmia, Pieris, Leucothoe, Agarista)."
+      }
+    },
+    {
+      "name": "Ericolin (Arbutin-Glykosid)",
+      "category": "glycoside",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Hydrochinon-Glykosid der Ericaceae; in den Blättern von Rhododendron ponticum nachgewiesen. Wirkt antiseptisch auf die Harnwege; trägt jedoch nur untergeordnet zur Toxizität bei. Hauptbedeutung in der älteren Materia medica.",
+        "en": "Hydroquinone glycoside of the Ericaceae; detected in the leaves of Rhododendron ponticum. Acts as a urinary antiseptic; contributes only subordinately to toxicity. Main importance in older materia medica."
+      }
+    },
+    {
+      "name": "Quercetin, Hyperosid und Rutosid (Flavonoide)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Antioxidative Flavonol-Glykoside in Blättern und Blüten; verleihen den Blüten Teil ihrer Färbung; pharmakologisch gegenüber den Grayanotoxinen untergeordnet, beitragen zur Bitterkeit des Honigs.",
+        "en": "Antioxidant flavonol glycosides in leaves and flowers; contribute partially to flower colouring; pharmacologically subordinate to the grayanotoxins, contributing to the bitterness of the honey."
+      }
+    },
+    {
+      "name": "Ursolsäure und Oleanolsäure (Triterpensäuren)",
+      "category": "other",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Pentacyclische Triterpensäuren in Rinde und Blattoberfläche; in vielen Ericaceae-Arten nachgewiesen; antioxidative und schwach antiinflammatorische Eigenschaften; pharmakologisch untergeordnete Bedeutung.",
+        "en": "Pentacyclic triterpene acids in bark and leaf surface; detected in many Ericaceae species; antioxidant and weakly anti-inflammatory properties; pharmacologically of subordinate importance."
+      }
+    },
+    {
+      "name": "Tannine und Phenolsäuren",
+      "category": "tannin",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Kondensierte Tannine und Hydroxyzimtsäuren in Blättern und Rinde; verleihen Wundheilungseffekt und adstringierende Eigenschaften; tragen zur Resistenz der Pflanze gegen Schädlinge bei.",
+        "en": "Condensed tannins and hydroxycinnamic acids in leaves and bark; contribute wound-healing effects and astringent properties; contribute to the plant's resistance against pests."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Spätvormittags an trockenen Tagen während der Vollblüte (Mai bis Juli, je nach Höhenlage und Region); Grayanotoxin-Gehalt im frischen Nektar am höchsten.",
+        "en": "Late morning on dry days during full bloom (May to July, depending on altitude and region); grayanotoxin content highest in fresh nectar."
+      },
+      "drying": {
+        "de": "Blüten flach auslegen, bei 30–35 °C im Schatten trocknen. SCHUTZHANDSCHUHE PFLICHT — perkutane Resorption möglich; Pollenaerosole vermeiden. Verwendung ausschliesslich für homöopathische Urtinkturen, phytochemische Analytik oder Bienenforschung. KEINE Imkerei in monotypischen Beständen — Honig wird unweigerlich toxisch.",
+        "en": "Lay flowers flat, dry at 30–35 °C in shade. PROTECTIVE GLOVES MANDATORY — percutaneous absorption possible; avoid pollen aerosols. Use exclusively for homeopathic mother tinctures, phytochemical analysis or bee research. NO beekeeping in monotypic stands — honey becomes inevitably toxic."
+      },
+      "notes": {
+        "de": "EU-Honig-Richtwerte für Grayanotoxin liegen im unteren µg/kg-Bereich; importierter „Deli Bal\" aus der Türkei oder Nepal überschreitet diese deutlich. Imker an der türkischen Schwarzmeerküste sollten Trachtquellen sorgfältig überwachen.",
+        "en": "EU honey guideline values for grayanotoxin are in the lower µg/kg range; imported \"deli bal\" from Turkey or Nepal significantly exceeds these. Beekeepers on the Turkish Black Sea coast should carefully monitor forage sources."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Vormittags an trockenen Tagen während der Sommer- und Frühherbstmonate; junge Blätter mit höherem Grayanotoxin-Gehalt.",
+        "en": "Late morning on dry days during summer and early autumn; young leaves with higher grayanotoxin content."
+      },
+      "drying": {
+        "de": "Blätter im Schatten bei 35–45 °C trocknen. SCHUTZHANDSCHUHE PFLICHT — perkutane Resorption; getrocknetes Material in klar als GIFTIG beschrifteten Behältern aufbewahren. Ausschliesslich für Forschungs- und phytochemische Zwecke. KEINE Laienverwendung.",
+        "en": "Dry leaves in shade at 35–45 °C. PROTECTIVE GLOVES MANDATORY — percutaneous absorption; store dried material in containers clearly labelled as TOXIC. Exclusively for research and phytochemical purposes. NO lay use."
+      },
+      "notes": {
+        "de": "Auch getrocknetes Blattmaterial behält die Grayanotoxin-Aktivität weitgehend. Achtung bei Schnittarbeiten in Gärten — Hautkontakt mit Saft kann lokale Reizungen und systemische Symptome auslösen, besonders bei verletzter Haut.",
+        "en": "Even dried leaf material largely retains grayanotoxin activity. Caution when pruning in gardens — skin contact with sap can cause local irritation and systemic symptoms, especially on broken skin."
+      }
+    }
+  ]
 }

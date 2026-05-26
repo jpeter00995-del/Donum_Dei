@@ -25,13 +25,197 @@
         "urinary"
       ],
       "internal_external": "internal",
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "AYURVEDISCHER POLPALA-TEE: 3–5 g getrocknetes Aerva-lanata-Kraut (ganze Pflanze, fein zerkleinert) mit 250 ml kochendem Wasser übergießen, zugedeckt 5–10 Minuten ziehen lassen, abseihen. 1–2 Tassen täglich zwischen den Mahlzeiten, ausreichend Wasser zusätzlich trinken (mindestens 2 Liter/Tag), um die Spülwirkung zu unterstützen. ANWENDUNGSDAUER MAXIMAL 1 WOCHE — die ayurvedische Tradition selbst beschränkt die Polpala-Anwendung auf kurze Kuren, weil eine längere Hochdosis-Einnahme im Rattenmodell strukturelle Veränderungen an den proximalen Nierentubuli verursacht hat. Bei diagnostizierten Nierensteinen, Niereninsuffizienz oder unter Diabetesmedikation immer ärztlich begleiten.",
+          "en": "AYURVEDIC POLPALA TEA: Pour 250 ml boiling water over 3–5 g dried Aerva lanata herb (whole plant, finely cut), cover and steep 5–10 min, strain. 1–2 cups daily between meals; drink at least 2 L of water in addition to support the flushing effect. USE FOR NO LONGER THAN 1 WEEK — Ayurvedic tradition itself limits Polpala to short courses, and long-term high-dose intake caused structural changes in proximal renal tubules in a rat model. For diagnosed kidney stones, renal insufficiency or while on diabetes medication, always under medical supervision."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Wegen fehlender pädiatrischer Daten und der renalen Wirkung nur für Erwachsene.",
+          "en": "Adults only — lack of paediatric data and known renal action."
+        }
+      },
       "description": {
-        "de": "Polpala wird traditionell als Aufguss als Tee bei Harnwegsbeschwerden verwendet. Pflanze aus der Familie der Fuchsschwanzgewächse — typische Verwendung in der europäischen Volksheilkunde bzw. Küche.",
-        "en": "This plant is used for food for people and animals. The whole plant, especially the leaves, is edible. The leaves are put into soup or eaten as a spinach or as a vegetable. The plant provides grazing for stock, game and chickens. The plant is used as a traditional medicine for snakebites. The plant is also used as a talisman against evil spirits, a good-luck talisman for hunters, and a talisman for the well-being of widows."
+        "de": "Klassischer Polpala-Aufguss aus dem ayurvedischen und sri-lankischen Heilpflanzenschatz — Hauptanwendung als Diuretikum und 'Steinbrecher' (Pashanabheda) bei Harnsteinen und Sand im Urin. Pilot-Studien an der Universität Colombo (Gunatilake et al. 2012) bestätigen die diuretische Wirkung, mahnen aber zur kurzen Anwendungsdauer.",
+        "en": "Classic Polpala infusion from Ayurvedic and Sri Lankan herbal practice — main use as diuretic and 'stone-breaker' (Pashanabheda) for urinary stones and gravel. Pilot studies at the University of Colombo (Gunatilake et al. 2012) confirm the diuretic action but advise short courses only."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src_goyal_aerva_phytochem_2011",
+        "src_gunatilake_polpala_urinary_2012",
+        "src_wp_en_aerva_lanata"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "urinary"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 6
+        },
+        "water_ml": 300,
+        "steep_min": 20,
+        "doses_per_day": 2,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "WURZEL-DEKOKT (klassische 'Pashanabheda'-Zubereitung): 3–6 g getrocknete, zerkleinerte Aerva-lanata-Wurzel in 300 ml kaltem Wasser ansetzen, langsam aufkochen und 15–20 Minuten köcheln lassen, abseihen. 1–2 Tassen täglich, möglichst frisch und warm. Wirkstark in Bezug auf die diuretische und steinlösende Wirkung — auf eine Woche begrenzen, danach mindestens 3 Wochen Pause. Stets reichlich Wasser begleitend trinken.",
+          "en": "ROOT DECOCTION (classic 'Pashanabheda' preparation): Steep 3–6 g of dried, comminuted Aerva lanata root in 300 ml of cold water, bring slowly to the boil and simmer for 15–20 min, strain. 1–2 cups daily, freshly prepared and warm. Stronger diuretic and stone-loosening action than the herb tea — limit to one week, then pause at least 3 weeks. Always drink plenty of water alongside."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur für Erwachsene — keine pädiatrischen Sicherheitsdaten.",
+          "en": "Adults only — no paediatric safety data."
+        }
+      },
+      "description": {
+        "de": "Volkstümlicher Wurzel-Dekokt — in Rajasthan und Tamil Nadu bei Harnsteinen, schmerzhaftem Wasserlassen (Strangurie) und Liberkrankungen verwendet. Wegen höherer Wirkstoffdichte stärker als der Krauttee, aber genauso strikt zeitlich zu begrenzen.",
+        "en": "Folk root decoction — used in Rajasthan and Tamil Nadu for urinary stones, painful urination (strangury) and liver complaints. Stronger than the herb tea because of higher constituent density; same strict time limit applies."
+      },
+      "source_ids": [
+        "src_goyal_aerva_phytochem_2011",
+        "src_ijpsdr_aerva_antiurolithiatic_2017"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory"
+      ],
+      "internal_external": "internal",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "HUSTENTEE (volksmedizinisch): 2–4 g getrocknetes Polpala-Kraut mit 250 ml kochendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen, abseihen. Bei Bedarf mit etwas Honig süßen. 2–3 Tassen täglich bei Reizhusten, Bronchitis oder asthmatischen Beschwerden — überliefert in indischen und sri-lankischen Volksrezepturen. Nicht über eine Woche hinaus ohne ärztliche Abklärung.",
+          "en": "FOLK COUGH TEA: Pour 250 ml boiling water over 2–4 g dried Polpala herb, cover and steep 10 min, strain. Sweeten with a little honey if desired. 2–3 cups daily for irritating cough, bronchitis or asthmatic complaints — recorded in Indian and Sri Lankan folk recipes. Not for more than a week without medical assessment."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Volksanwendung — pädiatrisch nicht etabliert.",
+          "en": "Folk use — not established for children."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Polpala-Hustentee — in Ayurveda und Siddha-Medizin bei Husten, Bronchitis und leichtem Asthma überliefert. Mechanistisch durch Saponine und Flavonoide (sekretolytisch, entzündungshemmend) erklärbar; klinisch nicht standardisiert.",
+        "en": "Traditional Polpala cough tea — recorded in Ayurveda and Siddha for cough, bronchitis and mild asthma. Mechanistically explainable through saponins and flavonoids (secretolytic, anti-inflammatory); not clinically standardised."
+      },
+      "source_ids": [
+        "src_goyal_aerva_phytochem_2011",
+        "src_longdom_aerva_review"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "liver"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "WURZEL-AUFGUSS bei Gelbsucht (Volksmedizin Rajasthan): 2–4 g getrocknete Wurzel zerkleinern, mit 250 ml heißem Wasser übergießen, 10–15 Minuten ziehen lassen, abseihen. 1–2 Tassen täglich für maximal eine Woche — traditionell bei Leberstau, leichter Gelbsucht (Ikterus) und Verdauungsbeschwerden eingesetzt. Bei manifester Gelbsucht oder Hepatitis IMMER ärztliche Abklärung — die Anwendung ersetzt keinesfalls eine ärztliche Diagnose.",
+          "en": "ROOT INFUSION for jaundice (folk medicine of Rajasthan): Crush 2–4 g of dried root, pour 250 ml hot water over it, steep 10–15 min, strain. 1–2 cups daily for max. one week — traditionally used for liver congestion, mild jaundice (icterus) and digestive complaints. Manifest jaundice or hepatitis ALWAYS needs medical clarification — this use does not replace a medical diagnosis."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Volksanwendung — nur Erwachsene; bei Lebererkrankungen ärztlich begleiten.",
+          "en": "Folk use — adults only; supervise medically in liver disease."
+        }
+      },
+      "description": {
+        "de": "Stammes- und volksmedizinische Anwendung in Rajasthan: Wurzelsaft oder -aufguss gegen Lebercholestase, Gelbsucht und Verdauungsstörungen. Belegt durch ethnobotanische Reviews (Goyal et al. 2011), ohne klinische Evidenz.",
+        "en": "Tribal/folk use in Rajasthan: root juice or infusion for liver cholestasis, jaundice and dyspepsia. Documented in ethnobotanical reviews (Goyal et al. 2011) without clinical evidence."
+      },
+      "source_ids": [
+        "src_goyal_aerva_phytochem_2011"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "BLATTGEMÜSE: Junge Blätter (zart, vor Blüte) ernten, gründlich waschen und wie Spinat zubereiten — in Suppen, Curries oder leicht gedünstet mit Zwiebel und Knoblauch. In Westafrika und Südindien als Wildgemüse geschätzt — guter Eisen-, Kalzium- und Eiweißgehalt (Trockenanalysen: ca. 22 % Rohprotein, hohe Aschegehalte mit Phosphat und Kalium). Mengen für gelegentlichen Verzehr unkritisch; bei täglichem Verzehr großer Mengen über lange Zeit gilt die gleiche Vorsicht wie für den Heiltee.",
+          "en": "LEAF VEGETABLE: Harvest young leaves (tender, before flowering), wash thoroughly and prepare like spinach — in soups, curries, or lightly steamed with onion and garlic. Valued as wild vegetable in West Africa and South India — good iron, calcium and protein content (proximate analyses: ~22 % crude protein, high ash with phosphate and potassium). Occasional eating is uncritical; the same caution as for the medicinal tea applies if eaten daily in large quantities over a long period."
+        }
+      },
+      "description": {
+        "de": "Nutritive Verwendung als Wildgemüse — junge Blätter werden in Westafrika, Indien und Sri Lanka in Eintöpfen und als Spinatersatz gekocht. Gleichzeitig Heilpflanze, daher Übermaß vermeiden.",
+        "en": "Nutritive use as wild green — young leaves cooked in stews or as spinach substitute in West Africa, India and Sri Lanka. Also a medicinal plant, so avoid excess."
+      },
+      "source_ids": [
+        "src_wp_en_aerva_lanata",
+        "src_goyal_aerva_phytochem_2011"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "FRISCHE BLATT-AUFLAGE: Frische Polpala-Blätter zwischen den Fingern oder im Mörser leicht zerdrücken, bis Pflanzensaft austritt, und direkt auf kleine Wunden, Insektenstiche oder Schlangenbisse (als ERSTE-HILFE-Notmaßnahme — Schlangenbiss bleibt immer ein ärztlicher Notfall, sofort 112/Klinik) auflegen. 1–2 mal täglich erneuern. Traditionelle Anwendung in afrikanischer und südindischer Stammesmedizin, ohne klinische Daten. NICHT auf große offene Wunden — Kontaminationsrisiko mit Erdkeimen.",
+          "en": "FRESH LEAF PASTE: Lightly crush fresh Polpala leaves between fingers or in a mortar until plant sap appears, then apply directly to small wounds, insect bites or snake bites (as FIRST-AID emergency measure — a snake bite remains a medical emergency, contact 112/hospital immediately). Refresh 1–2× daily. Traditional use in African and South Indian tribal medicine; no clinical data. NOT for large open wounds — risk of soil-borne contamination."
+        }
+      },
+      "description": {
+        "de": "Volksmedizinischer Frischblatt-Umschlag bei kleineren Verletzungen und (traditionell) als Notmaßnahme bei Schlangenbissen — ethnobotanisch dokumentiert, klinisch nicht belegt. Heutige Anwendung allenfalls bei harmlosen Hautirritationen als Notbehelf.",
+        "en": "Folk fresh-leaf compress for minor injuries and (traditionally) as snake-bite first aid — ethnobotanically documented but clinically unproven. Today usable at most as a makeshift for harmless skin irritation."
+      },
+      "source_ids": [
+        "src_wp_en_aerva_lanata",
+        "src_longdom_aerva_review"
       ]
     }
   ],
@@ -57,12 +241,81 @@
   },
   "safety": {
     "warnings": {
-      "de": "In der ayurvedischen Tradition für Nieren/Harnwege verwendet. Bei Nierenerkrankungen Arzt befragen.",
-      "en": "Used in Ayurvedic tradition for kidney/urinary tract. Consult physician in case of kidney conditions."
+      "de": "Aerva lanata (Polpala) ist eine sehr wirksame Heilpflanze mit klar abgrenzbarem Anwendungsfenster: KURZE KUREN von höchstens 7 Tagen, danach mindestens 3 Wochen Pause. Tier-Studien (Gunatilake et al., Pharmacognosy Research 2012) zeigten nach 30 Tagen täglicher Hochdosis-Polpala-Infusion strukturelle Veränderungen an den proximalen Nierentubuli — die ayurvedische Tradition kennt diese Begrenzung seit Jahrhunderten und verwendet Polpala nur als Stoßtherapie. NICHT bei: diagnostizierter Niereninsuffizienz, akuter Pyelonephritis, schwerer Dehydratation; ausreichend Wasser begleitend trinken. Bei Diabetikern: Polpala wirkt blutzuckersenkend — additive Wirkung mit Antidiabetika möglich, Blutzucker kontrollieren. Bei Diuretika-Therapie (Furosemid, Thiazide): additiver Wasser- und Kaliumverlust möglich, Elektrolyte beobachten. In der Schwangerschaft KEINE Anwendung — die Pflanze gilt traditionell als emmenagog und antifertil. Bei diagnostizierten Nierensteinen ärztliche Begleitung obligatorisch — die meisten Steine erfordern stoßwellen- oder endoskopische Behandlung, ein Pflanzentee ist allenfalls Begleitung.",
+      "en": "Aerva lanata (Polpala) is a potent herb with a clearly bounded use window: SHORT COURSES of at most 7 days, then at least 3 weeks' pause. Animal studies (Gunatilake et al., Pharmacognosy Research 2012) showed structural changes in proximal renal tubules after 30 days of daily high-dose Polpala infusion — Ayurvedic tradition has recognised this limit for centuries and uses Polpala only as short-burst therapy. DO NOT USE in: diagnosed renal insufficiency, acute pyelonephritis, severe dehydration; drink enough water alongside. In diabetics: Polpala lowers blood sugar — additive effect with antidiabetics possible, monitor blood glucose. With diuretic therapy (furosemide, thiazides): additive water and potassium loss possible, monitor electrolytes. AVOID during pregnancy — the plant is traditionally regarded as emmenagogue and antifertility. For diagnosed kidney stones medical supervision is mandatory — most stones need lithotripsy or endoscopic treatment, a herbal tea can only be supportive."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Aerva lanata gilt in der ayurvedischen und ethnobotanischen Literatur als emmenagog und mit antifertiler Wirkung — Anwendung in der Schwangerschaft kontraindiziert.",
+        "en": "Aerva lanata is described as emmenagogue and with antifertility action in Ayurvedic and ethnobotanical literature — use contraindicated during pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine systematischen Daten zur Anwendung in der Stillzeit; vor dem Hintergrund der diuretischen und potenziell nephroaktiven Wirkung in der Stillzeit nicht empfohlen.",
+        "en": "No systematic data on use during lactation; given the diuretic and potentially nephroactive effect, use not recommended while breastfeeding."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Keine etablierten pädiatrischen Daten — innerliche Anwendung nur durch erwachsene Personen, bei Kindern nicht empfohlen.",
+        "en": "No established paediatric data — internal use only by adults; not recommended in children."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Schwangerschaft (traditionell als emmenagog und antifertil beschrieben).",
+        "en": "Pregnancy (traditionally described as emmenagogue and antifertility)."
+      },
+      {
+        "de": "Niereninsuffizienz, manifeste chronische Nierenerkrankung — wegen tierexperimentell dokumentierter Tubulus-Veränderungen bei Langzeit-Hochdosis.",
+        "en": "Renal insufficiency, manifest chronic kidney disease — because of tubular changes documented in animal studies at long-term high dose."
+      },
+      {
+        "de": "Akute Pyelonephritis und schwere Dehydratation — diuretische Wirkung könnte den Zustand verschlechtern.",
+        "en": "Acute pyelonephritis and severe dehydration — diuretic action might worsen the condition."
+      },
+      {
+        "de": "Überempfindlichkeit gegen Aerva lanata oder andere Amaranthaceae.",
+        "en": "Hypersensitivity to Aerva lanata or other Amaranthaceae."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Orale Antidiabetika und Insulin (Metformin, Sulfonylharnstoffe, Insulin)",
+        "mechanism": {
+          "de": "Aerva-lanata-Extrakte zeigen in mehreren tierexperimentellen Studien eine signifikante blutzuckersenkende Wirkung (hypoglykämisch und antihyperglykämisch). Bei gleichzeitiger Einnahme antidiabetischer Arzneimittel ist eine additive Senkung des Blutzuckers möglich — Risiko einer Hypoglykämie. Blutzucker engmaschig kontrollieren; ggf. Dosisanpassung der Antidiabetika in Rücksprache mit Arzt.",
+          "en": "Several animal studies show significant blood-glucose-lowering action of Aerva lanata extracts (hypoglycaemic and antihyperglycaemic). Concurrent antidiabetic medication may result in additive lowering — risk of hypoglycaemia. Monitor glucose closely; dose adjustment of antidiabetics may be needed in consultation with a physician."
+        },
+        "severity": "caution",
+        "source_id": "src_goyal_aerva_phytochem_2011"
+      },
+      {
+        "drug_class": "Diuretika (Furosemid, Hydrochlorothiazid und andere Thiazide, Schleifendiuretika)",
+        "mechanism": {
+          "de": "Polpala wirkt selbst diuretisch (Pashanabheda-Wirkung) und kann die wasserausschwemmende und kaliuretische Wirkung verschreibungspflichtiger Diuretika verstärken. Risiko einer Dehydratation, eines Elektrolytverlustes (insbesondere Hypokaliämie) und einer Verstärkung von Blutdruckabfällen. Elektrolyte und Kreatinin überwachen, ausreichend Wasser trinken.",
+          "en": "Polpala itself is diuretic (Pashanabheda action) and can amplify the water- and potassium-shedding action of prescription diuretics. Risk of dehydration, electrolyte loss (especially hypokalaemia) and stronger blood-pressure drops. Monitor electrolytes and creatinine; drink enough water."
+        },
+        "severity": "caution",
+        "source_id": "src_gunatilake_polpala_urinary_2012"
+      },
+      {
+        "drug_class": "Nephrotoxische Arzneimittel (Aminoglykoside, Ciclosporin, NSAR bei Risikopatienten, Cisplatin)",
+        "mechanism": {
+          "de": "Im Rattenmodell führte 30-tägige Polpala-Hochdosis-Anwendung zu strukturellen Veränderungen am proximalen Tubulus. Bei gleichzeitiger Therapie mit potenziell nephrotoxischen Arzneimitteln ist eine additive Belastung der Nierentubuli denkbar — Polpala in solchen Konstellationen vermeiden oder nur unter ärztlicher Kontrolle einsetzen.",
+          "en": "In a rat model, 30 days of high-dose Polpala caused structural changes in the proximal tubule. With concurrent treatment with potentially nephrotoxic drugs, additive renal tubular stress is plausible — avoid Polpala in such combinations or use only under medical supervision."
+        },
+        "severity": "avoid",
+        "source_id": "src_gunatilake_polpala_urinary_2012"
+      }
+    ],
+    "max_continuous_use_weeks": 1
   },
   "classical_quotes": [],
   "sources": [
@@ -79,6 +332,62 @@
       "title": "Ouret lanata (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Ouret_lanata",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wp_en_aerva_lanata",
+      "type": "wikipedia",
+      "title": "Ouret lanata / Aerva lanata (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Ouret_lanata",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_wikidata_aerva_lanata",
+      "type": "wikidata",
+      "title": "Wikidata — Aerva lanata (Q1062898)",
+      "url": "https://www.wikidata.org/wiki/Q1062898",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_goyal_aerva_phytochem_2011",
+      "type": "monograph",
+      "title": "Goyal M., Pareek A., Nagori B.P., Sasmal D. — Aerva lanata: A review on phytochemistry and pharmacological aspects. Pharmacognosy Reviews 5(10):195–198, 2011.",
+      "url": "https://doi.org/10.4103/0973-7847.91120",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_gunatilake_polpala_urinary_2012",
+      "type": "monograph",
+      "title": "Gunatilake M., Lokuhetty M.D.S., Bartholomeusz N.A., Edirisuriye D.T., Kularatne M.U., Date A. — Aerva lanata (Polpala): Its effects on the structure and function of the urinary tract. Pharmacognosy Research 4(4):181–188, 2012.",
+      "url": "https://doi.org/10.4103/0974-8490.102259",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_ijpsdr_aerva_antiurolithiatic_2017",
+      "type": "monograph",
+      "title": "Lekha G., Mohan K., Samy I.A. — Antiurolithiatic activity of natural constituents isolated from Aerva lanata. Journal of Ayurveda and Integrative Medicine, 2017 (PMC5747499) — quercetin and betulin in calcium-oxalate rat model.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5747499/",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_longdom_aerva_review",
+      "type": "monograph",
+      "title": "Boopathi C.A. — A Review on Phytochemistry and Biological Activities of Aerva (Amaranthaceae). Natural Products Chemistry & Research review article, 2017.",
+      "url": "https://www.longdom.org/open-access/a-review-on-phytochemistry-and-biological-activities-of-aerva-29123.html",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_pfaf_aerva_lanata",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Aerva lanata / Ouret lanata (Mountain Knotgrass) database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Aerva+lanata",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_wp_de_polpala",
+      "type": "wikipedia",
+      "title": "Polpala (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Polpala",
+      "accessed": "2026-05-26"
     }
   ],
   "image": {
@@ -121,5 +430,133 @@
         "Use leaves and herb for tea."
       ]
     }
-  }
+  },
+  "constituents": [
+    {
+      "name": "Aervin, Methylaervin, Aervosid, Ervolanin, Aervolanin (Aerva-spezifische Alkaloide)",
+      "category": "alkaloid",
+      "percent_range": "Spuren bis 1 %",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Charakteristische Alkaloide der Gattung Aerva — namensgebende 'Aerva-Carbazol-Alkaloide'. Im Krautanteil bis zu etwa 11 % bezogen auf Trockensubstanz für die alkaloidische Gesamtfraktion angegeben; Einzelalkaloide nur in Spuren. Pharmakologisch werden mit dieser Klasse die spasmolytischen und teils antiproliferativen Effekte des Krauts in Verbindung gebracht.",
+        "en": "Characteristic alkaloids of the genus Aerva — the name-giving 'Aerva carbazole alkaloids'. Up to ~11 % of dry mass for the total alkaloid fraction in the herb has been reported; individual alkaloids only as traces. The class is linked pharmacologically to the spasmolytic and partly antiproliferative effects of the herb."
+      }
+    },
+    {
+      "name": "Kämpferol und Quercetin (Flavonol-Aglycone)",
+      "category": "flavonoid",
+      "percent_range": "0,1-0,5 %",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Hauptflavonole der Polpala — antioxidativ, kapillarprotektiv und antiurolithisch. In der Studie Lekha et al. 2017 wurden Quercetin und Betulin als wesentliche antiurolithische Wirkstoffe an kalziumoxalat-induzierten Rattennieren identifiziert (2 mg/kg/d über 28 Tage signifikante Reduktion der Steinbildung).",
+        "en": "Main flavonols of Polpala — antioxidant, capillary-protective and antiurolithiatic. Lekha et al. 2017 identified quercetin and betulin as key antiurolithiatic constituents in calcium-oxalate-induced rat kidneys (2 mg/kg/d over 28 days, significant reduction of stone formation)."
+      }
+    },
+    {
+      "name": "Isorhamnetin, Persinol, Persinosid A und B",
+      "category": "flavonoid",
+      "percent_range": "Spuren bis 0,2 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Begleitflavonoide neben Kämpferol und Quercetin — Isorhamnetin als 3'-O-Methyl-Quercetin trägt zur antioxidativen Gesamtwirkung bei. Persinol und die Persinoside sind als Aerva-Markerverbindungen für die analytische Drogenidentifizierung wichtig.",
+        "en": "Accompanying flavonoids alongside kaempferol and quercetin — isorhamnetin (3'-O-methyl-quercetin) contributes to overall antioxidant action. Persinol and the persinosides are Aerva-specific marker compounds important for analytical drug identification."
+      }
+    },
+    {
+      "name": "β-Sitosterol und β-Sitosteryl-Palmitat (Phytosterole)",
+      "category": "other",
+      "percent_range": "0,1-0,4 %",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Verbreitetes Phytosterol — antiphlogistisch, cholesterolsenkend und mit leichter Wirkung auf die glatte Muskulatur der Harnwege. Trägt zur diuretisch-spasmolytischen Gesamtwirkung des Polpala-Tees bei.",
+        "en": "Common phytosterol — anti-inflammatory, cholesterol-lowering and with mild effects on urinary-tract smooth muscle. Contributes to the overall diuretic-spasmolytic action of Polpala tea."
+      }
+    },
+    {
+      "name": "Saponine (Triterpensaponine, Lupeol und Lupeol-Acetat)",
+      "category": "saponin",
+      "percent_range": "ca. 7-8 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hochmolekulare Triterpensaponine — im Blatt bis ca. 7,7 % gemessen. Sekretolytisch (löst Schleim in Atemwegen) und diuretisch (Aktivierung der Nierentubuli und Reizung der Harnwege). Lupeol ist außerdem antiphlogistisch und antitumoral in vitro. Trägt zur 'Steinbrecher'-Wirkung (Pashanabheda) bei, weil Saponine die Kalzium-Oxalat-Kristallaggregation in vitro reduzieren.",
+        "en": "High-molecular triterpene saponins — measured at up to ~7.7 % in leaves. Secretolytic (loosens airway mucus) and diuretic (renal tubule activation and urinary-tract stimulation). Lupeol is additionally anti-inflammatory and antitumoral in vitro. Contributes to the 'stone-breaker' (Pashanabheda) action because saponins reduce calcium oxalate crystal aggregation in vitro."
+      }
+    },
+    {
+      "name": "Tannine (Gerbstoffe)",
+      "category": "tannin",
+      "percent_range": "ca. 1-3 %",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Hydrolysierbare und kondensierte Gerbstoffe — adstringierend, leicht antibakteriell und antiviral. Tragen zur entzündungshemmenden Wirkung bei Harnwegsentzündungen bei und stabilisieren die Schleimhaut der Harnwege.",
+        "en": "Hydrolysable and condensed tannins — astringent, mildly antibacterial and antiviral. Contribute to anti-inflammatory action in urinary-tract inflammation and stabilise the urinary mucosa."
+      }
+    },
+    {
+      "name": "Methylgrevillat und Benzoesäure",
+      "category": "phenolic_acid",
+      "percent_range": "Spuren",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Aromatische Begleitstoffe — Benzoesäure mit milder antimikrobieller Wirkung; Methylgrevillat als phenolischer Ester ohne dominante eigene Wirkung, aber als Marker in der HPTLC-Fingerprint-Analyse der Droge eingesetzt.",
+        "en": "Aromatic accompanying compounds — benzoic acid with mild antimicrobial action; methyl grevillate as a phenolic ester with no dominant own action, but used as a marker in HPTLC fingerprint analysis of the drug."
+      }
+    },
+    {
+      "name": "Mineralstoffe (Kalium, Phosphat, Kalzium, Eisen)",
+      "category": "mineral",
+      "percent_range": "Asche ca. 30 % der TS",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Auffällig hohe Aschegehalte im Polpala-Kraut (ca. 31 % der Trockensubstanz) mit hohen Anteilen Phosphat und Kalium — Kaliumreichtum erklärt einen Teil der diuretischen Wirkung. Wichtig: Bei Niereninsuffizienz und Hyperkaliämie-Risiko gerade dieser Mineralgehalt zu beachten.",
+        "en": "Notably high ash content of Polpala herb (~31 % of dry mass) with high proportions of phosphate and potassium — the potassium richness explains part of the diuretic action. Important: in renal insufficiency and hyperkalaemia risk this very mineral profile must be taken into account."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "In tropischen und subtropischen Anbaugebieten (Indien, Sri Lanka, Westafrika) am späten Vormittag eines trockenen Tages, sobald der Tau abgetrocknet ist und die Pflanze in der Vollblüte oder kurz nach Beginn der Blüte steht — höchster Wirkstoffgehalt an Alkaloiden, Flavonoiden und Saponinen. In gemäßigten Anbauten (Topfkultur Mitteleuropa) entsprechend im Spätsommer/Frühherbst, vor dem ersten Kühltag.",
+        "en": "In tropical and subtropical growing regions (India, Sri Lanka, West Africa), in the late morning of a dry day once dew has gone and the plant is in full flower or shortly after onset of flowering — highest content of alkaloids, flavonoids and saponins. In temperate pot culture (central European indoor cultivation) correspondingly in late summer/early autumn, before the first cool day."
+      },
+      "drying": {
+        "de": "ERNTE: Ganze Pflanze mit oberen 15–25 cm der grünen Triebe samt Blüten und Blättern (ohne verholzte Stängelbasis) bodennah abschneiden, ggf. Wurzelteile separat ausgraben. TROCKNUNG: einlagig auf Tüchern oder Sieben im Schatten ausbreiten, gute Belüftung, max. 40 °C — höhere Temperaturen zerstören die Alkaloide. Dauer 5–10 Tage. Trocken sind die Triebe, wenn sich Stiele leicht brechen lassen. Die wollig-weißen Blütenstände bleiben charakteristisch silbrig. Lagerung luftdicht in dunklen Gläsern oder Papiertüten, kühl, trocken — innerhalb von 12 Monaten verarbeiten.",
+        "en": "HARVEST: Cut the whole plant including the top 15–25 cm of green shoots with flowers and leaves (excluding woody stem base) close to the ground; root parts may be dug separately. DRYING: Spread in a single layer on cloth or screens in the shade, well ventilated, max. 40 °C — higher temperatures destroy the alkaloids. Takes 5–10 days. Shoots are dry when stems snap easily. The woolly-white inflorescences keep their characteristic silvery look. Store airtight in dark jars or paper bags, cool, dry — use within 12 months."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht in dunklen Gläsern oder Papiertüten, kühl (unter 25 °C) und trocken. Innerhalb von 12 Monaten verarbeiten — bei deutlichem Aroma- und Farbverlust nicht mehr verwenden.",
+        "en": "Airtight in dark jars or paper bags, cool (below 25 °C) and dry. Use within 12 months — discard if scent and colour have notably faded."
+      }
+    },
+    {
+      "plant_part": "root",
+      "best_months": [
+        10,
+        11,
+        12,
+        1
+      ],
+      "time_of_day": {
+        "de": "Im späten Herbst bis Winter, am Ende der Vegetationsphase — die Wurzel hat dann den höchsten Wirkstoff- und Saponinanteil (Pashanabheda-Qualität). An einem trockenen, kühlen Tag ausgraben, sobald die oberirdischen Teile bräunlich werden.",
+        "en": "From late autumn to winter, at the end of the growing phase — the root then has the highest content of active compounds and saponins (Pashanabheda quality). Dig on a dry, cool day once the above-ground parts turn brownish."
+      },
+      "drying": {
+        "de": "ERNTE: Wurzel vorsichtig mit Grabgabel ausgraben, Anhaftungen mit Bürste entfernen (nicht waschen, sonst Saponin-Verluste). In 1–2 cm dicke Scheiben schneiden. TROCKNUNG: einlagig im Schatten bei max. 40 °C, gut belüftet — 7–14 Tage. Trocken, wenn Scheiben hart und brechbar sind. Lagerung in dunklen, luftdichten Gläsern, kühl unter 20 °C — innerhalb von 18 Monaten aufbrauchen.",
+        "en": "HARVEST: Dig roots carefully with a fork, brush off soil (do not wash — saponin losses). Cut into 1–2 cm thick slices. DRYING: Single layer in shade at max. 40 °C, well ventilated — 7–14 days. Dry when slices are hard and snap. Store in dark, airtight jars below 20 °C — use within 18 months."
+      },
+      "storage_months": 18,
+      "storage_condition": {
+        "de": "Dunkle, luftdichte Gläser, kühl unter 20 °C. Aufbrauchen innerhalb 18 Monaten.",
+        "en": "Dark, airtight jars below 20 °C. Use within 18 months."
+      }
+    }
+  ]
 }

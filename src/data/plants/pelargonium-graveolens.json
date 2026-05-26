@@ -20,19 +20,212 @@
   },
   "uses": [
     {
-      "form": "salve",
+      "form": "tea",
       "target": [
-        "skin",
-        "nerves"
+        "nervous_system",
+        "digestion"
       ],
-      "internal_external": "external",
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Die Blätter der Apfelduftpelargonie werden wegen ihres Apfel-Cidre ähnlichen Aromas für Parfüme und als Gewürz, besonders für Süßspeisen verwendet und dürfen laut RICHTLINIE 2001/113/EG DES RATES vom 20. Dezember 2001 über Konfitüren, Gelees, Marmeladen und Maronenkrem für die menschliche Ernährung der EU der Konfitüre, Konfitüre extra, Gelee, oder Gelee extra aus Quitten beigesetzt werden.",
-        "en": "Both the true species and the cultivated plant may be called rose geranium – pelargoniums are often called geraniums, as they fall within the plant family Geraniaceae, and were previously classified in the same genus. The common P.&nbsp;'Graveolens' or P.&nbsp;'Rosat' has great importance in the perfume industry. It is cultivated on a large scale and its foliage is distilled for its scent."
+        "de": "Traditioneller Aufguss aus frischen oder getrockneten Rosengeranien-Blättern bei nervöser Unruhe, leichten Stresszuständen und nervös bedingten Verdauungsbeschwerden. In Marokko wird Rosengeranie auch klassisch zur Aromatisierung des grünen Tees mit Krauseminze verwendet. Sanft beruhigend, mit feinem Rosen-Citronellol-Aroma.",
+        "en": "Traditional infusion of fresh or dried rose geranium leaves for nervous restlessness, mild stress and nervously triggered digestive complaints. In Morocco, rose geranium is also classically added to green tea with spearmint as a flavouring herb. Gently calming, with a fine rose-citronellol aroma."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 8,
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "1-2 g (etwa 2-3 frische oder 1 TL getrocknete) zerkleinerte Rosengeranien-Blätter mit 200 ml kochendem Wasser übergiessen, zugedeckt 8 Minuten ziehen lassen, abseihen. 1-2 Tassen täglich, gerne nachmittags oder am Abend. Frische Blätter geben ein feineres Rosen-Aroma als die getrocknete Droge.",
+          "en": "Pour 200 ml boiling water over 1-2 g (about 2-3 fresh or 1 tsp dried) chopped rose geranium leaves, cover and infuse 8 minutes, then strain. Drink 1-2 cups daily, preferably in the afternoon or evening. Fresh leaves give a finer rose aroma than dried herb."
+        }
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src_wiki_pelargonium_en",
+        "src_herbalreality_rose_geranium",
+        "src_pfaf_pelargonium"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "nervous_system",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Aromatherapeutische Anwendung des ätherischen Rosengeranien-Öls (Geranium-Bourbon-Öl) zur Entspannung, bei Stress, Reizbarkeit und nervösen Anspannungszuständen. Das hohe Citronellol-Geraniol-Profil wirkt psychisch ausgleichend und harmonisierend; die Bourbon-Qualität gilt in der Aromatherapie als 'Frauenöl' bei prämenstrueller Unruhe.",
+        "en": "Aromatherapy use of rose geranium essential oil (geranium Bourbon oil) for relaxation, stress, irritability and nervous tension. The high citronellol-geraniol profile is considered psychologically balancing; Bourbon quality is regarded in aromatherapy as a 'women's oil' for premenstrual unrest."
+      },
+      "preparation": {
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Duftlampe/Diffuser: 3-5 Tropfen ätherisches Rosengeranien-Öl in 100 ml Wasser, 20-30 Minuten verdampfen. Massageöl: 5-10 Tropfen Geranium-Öl in 50 ml Trägeröl (Mandel, Jojoba) — entspricht 0,5-1 %. NIEMALS unverdünnt auf die Haut. Vor Erstanwendung 24-h-Hauttest in der Armbeuge.",
+          "en": "Diffuser: 3-5 drops of rose geranium essential oil in 100 ml water, vaporise for 20-30 minutes. Massage oil: 5-10 drops in 50 ml carrier oil (almond, jojoba) — corresponds to 0.5-1 %. NEVER apply undiluted. Patch test 24 h before first use."
+        }
+      },
+      "age_restriction": {
+        "min_age": 6,
+        "note": {
+          "de": "Bei Kindern unter 6 Jahren wegen Citronellol-/Geraniol-Anteil keine intensive Diffuser-Anwendung im Schlafzimmer. Bei Säuglingen und Kleinkindern ganz meiden.",
+          "en": "In children under 6 years, avoid intensive diffuser use in the bedroom due to the citronellol/geraniol content. Avoid entirely in infants and toddlers."
+        }
+      },
+      "source_ids": [
+        "src_kacaniova_pgraveolens_eo",
+        "src_wiki_pelargonium_en",
+        "src_herbalreality_rose_geranium"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Anwendung in Südafrika: Aufguss oder Abkochung der Pelargonien-Blätter als Umschlag bei kleinen Wunden, Hautirritationen, Abszessen und Hämorrhoiden. Adstringierende und antimikrobielle Wirkung — die Wundauflage gehört zur traditionellen Heilpraxis der Zulu-, Sotho-, Xhosa- und Mfengu-Heiler.",
+        "en": "Folk-medicinal use in South Africa: infusion or decoction of the leaves as a compress for small wounds, skin irritations, abscesses and haemorrhoids. Astringent and antimicrobial action — wound dressing belongs to the traditional healing practice of Zulu, Sotho, Xhosa and Mfengu healers."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 10,
+          "max": 20
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "10-20 g frische zerkleinerte Blätter in 250 ml heissem Wasser 15 Minuten ziehen lassen, abseihen und abkühlen lassen. Sauberes Tuch eintauchen, leicht auswringen und 10-15 Minuten auf die betroffene Stelle legen. 1-2 mal täglich.",
+          "en": "Steep 10-20 g fresh chopped leaves in 250 ml hot water for 15 minutes, strain and cool. Soak a clean cloth, wring lightly and apply to the affected area for 10-15 minutes. 1-2 times daily."
+        }
+      },
+      "source_ids": [
+        "src_herbalreality_rose_geranium",
+        "src_pfaf_pelargonium",
+        "src_wiki_pelargonium_de"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Hautpflege: Rosengeranien-Öl gilt in der Aromatherapie als ausgleichend für trockene wie fettige Haut und wird gerne in selbstgemachten Gesichtsölen verwendet. Studien aus dem PG-Bourbon-Profil zeigen antimikrobielle und antioxidative Eigenschaften gegen verschiedene Hautkeime (S. aureus, S. enterica).",
+        "en": "Skin care: rose geranium oil is regarded in aromatherapy as balancing for both dry and oily skin and is popular in homemade facial oils. Studies of the PG Bourbon profile show antimicrobial and antioxidant activity against various skin microbes (S. aureus, S. enterica)."
+      },
+      "preparation": {
+        "doses_per_day": 1,
+        "max_duration_weeks": 8,
+        "instructions": {
+          "de": "Gesichtsöl: 1-3 Tropfen ätherisches Rosengeranien-Öl in 30 ml Jojoba- oder Mandelöl (entspricht ca. 0,2-0,5 %). Abends nach der Reinigung dünn auftragen. Bei empfindlicher Haut Konzentration halbieren. Nicht bei akuten Hautausschlägen.",
+          "en": "Facial oil: 1-3 drops of rose geranium essential oil in 30 ml jojoba or almond oil (about 0.2-0.5 %). Apply thinly in the evening after cleansing. Halve concentration on sensitive skin. Not for acute skin rashes."
+        }
+      },
+      "source_ids": [
+        "src_kacaniova_pgraveolens_eo",
+        "src_herbalreality_rose_geranium"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Insektenabwehr: Frische Blätter der Rosengeranie sowie verdünntes ätherisches Öl wirken auf Mücken und kleine Stechinsekten abschreckend — der Citronellol-Geraniol-Anteil teilt diese repellente Wirkung mit dem klassischen Citronella-Öl. Die Citrosa-Sorten werden im Handel als 'Anti-Mücken-Geranie' angeboten.",
+        "en": "Insect repellent: fresh leaves of rose geranium and diluted essential oil repel mosquitoes and small biting insects — the citronellol-geraniol fraction shares this repellent activity with classical citronella oil. The 'Citrosa' cultivars are sold commercially as 'mosquito geranium'."
+      },
+      "preparation": {
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Frische Blätter zerreiben und auf unbedeckte Haut tupfen (kein Auftragen auf gereizter Haut). Alternativ Roll-on: 10-20 Tropfen ätherisches Geranium-Öl + 5 Tropfen Lavendelöl in 50 ml fraktioniertem Kokosöl. Hauttest vor Erstanwendung. Nicht bei Kleinkindern unter 2 Jahren auftragen.",
+          "en": "Crush fresh leaves and dab on exposed skin (not on irritated skin). Alternative roll-on: 10-20 drops geranium essential oil + 5 drops lavender oil in 50 ml fractionated coconut oil. Patch test before first use. Do not apply to children under 2 years."
+        }
+      },
+      "age_restriction": {
+        "min_age": 2,
+        "note": {
+          "de": "Bei Kindern unter 2 Jahren kein hautnaher Einsatz ätherischer Öle.",
+          "en": "No skin contact with essential oils in children under 2 years."
+        }
+      },
+      "source_ids": [
+        "src_wiki_pelargonium_en",
+        "src_herbalreality_rose_geranium"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Küchenkraut: Die rosenduftenden Blätter aromatisieren Gelees, Konfitüren (besonders Quitten- und Apfelgelee — EU-Richtlinie 2001/113/EG erlaubt Pelargonien-Blätter als Aromazutat), Sirupe, Zuckerbäckerei, Sorbets sowie Zucker zur Aromatisierung. In Zypern werden sie Aprikosenmarmelade beigegeben.",
+        "en": "Culinary herb: the rose-scented leaves flavour jellies, jams (especially quince and apple jelly — EU Directive 2001/113/EC permits pelargonium leaves as a flavouring), syrups, confectionery, sorbets and aromatised sugar. In Cyprus they are added to apricot preserves."
+      },
+      "preparation": {
+        "de": "1-2 frische Blätter pro Glas Marmelade während der letzten 5 Minuten Kochzeit mitkochen und vor dem Abfüllen entfernen. Für Aromazucker: 4-5 Blätter mit 250 g Zucker mehrere Tage in einem geschlossenen Glas ziehen lassen.",
+        "en": "Cook 1-2 fresh leaves with each jar of jam during the last 5 minutes and remove before filling. For flavoured sugar: layer 4-5 leaves with 250 g sugar in a closed jar for several days."
+      },
+      "source_ids": [
+        "src_wiki_pelargonium_en",
+        "src_wiki_pelargonium_de",
+        "src_pfaf_pelargonium"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "nervous_system",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinisches Entspannungsbad bei nervöser Anspannung, Erschöpfung und gereizter Haut. Die ätherischen Öle wirken über Haut und Atemluft ausgleichend; das warme Wasser löst Verspannungen. Klassisches 'Frauenbad' in der südafrikanischen Volkstradition.",
+        "en": "Folk-medicinal relaxation bath for nervous tension, exhaustion and irritated skin. The essential oils act via skin and inhaled air; warm water releases muscle tension. A classical 'women's bath' in the South African folk tradition."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 50,
+          "max": 100
+        },
+        "water_ml": 1500,
+        "steep_min": 20,
+        "doses_per_day": 1,
+        "instructions": {
+          "de": "50-100 g getrocknete oder eine grosse Handvoll frische Rosengeranien-Blätter mit 1,5 L heissem Wasser übergiessen, 20 Minuten ziehen lassen, abseihen und dem Vollbad zugeben (35-38 °C, 15-20 Minuten). Nicht bei empfindlicher Haut unverdünnt.",
+          "en": "Pour 1.5 L hot water over 50-100 g dried or a large handful of fresh rose geranium leaves, infuse for 20 minutes, strain and add to a full bath (35-38 °C, 15-20 minutes). Avoid concentrated use on sensitive skin."
+        }
+      },
+      "source_ids": [
+        "src_herbalreality_rose_geranium",
+        "src_pfaf_pelargonium"
       ]
     }
   ],
@@ -51,12 +244,81 @@
   },
   "safety": {
     "warnings": {
-      "de": "Ätherisches Öl bei empfindlicher Haut verdünnt anwenden. Bei Schwangerschaft und Kleinkindern vorsichtig.",
-      "en": "Apply essential oil diluted on sensitive skin. Use carefully during pregnancy and with small children."
+      "de": "Ätherisches Rosengeranien-Öl NIEMALS unverdünnt auf die Haut auftragen — Citronellol und Geraniol gelten als Allergene und können Kontaktdermatitis auslösen (in der EU-Kosmetik-Verordnung als deklarationspflichtige Duftstoffe gelistet). Maximalkonzentration 1-3 % in einem Trägeröl. Vor Erstanwendung 24-h-Hauttest in der Armbeuge. Bei bekannter Geraniaceae- oder Citronella-Allergie meiden. Hautkontakt mit Sonnenlicht kombiniert kann phototoxisch wirken (selten). Innerlich nur als verdünnter Tee — NIEMALS reines ätherisches Öl trinken oder löffeln.",
+      "en": "NEVER apply rose geranium essential oil undiluted to the skin — citronellol and geraniol are listed allergens that can cause contact dermatitis (in the EU Cosmetics Regulation as declarable fragrance allergens). Maximum concentration 1-3 % in carrier oil. Patch test 24 h before first use. Avoid in known Geraniaceae or citronella allergy. Skin contact combined with sunlight may rarely be phototoxic. Internally only as diluted tea — NEVER drink or take pure essential oil by the spoon."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenmengen (z.B. Blätter in Marmelade) gelten als unbedenklich. Therapeutische Tee-Mengen und ätherisches Öl in Aromatherapie/Hautanwendung wegen unzureichender Sicherheitsdaten in der Schwangerschaft nur sehr zurückhaltend einsetzen; innerliche Anwendung ätherischen Öls meiden.",
+        "en": "Culinary amounts (e.g. leaves in jam) are considered safe. Use therapeutic tea amounts and aromatherapy/skin essential-oil applications very cautiously in pregnancy due to insufficient safety data; avoid internal use of essential oil."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenmengen unbedenklich. Therapeutische Mengen und ätherisches Öl mangels Daten nur zurückhaltend; ätherisches Öl nicht auf Brust und Brustwarzen auftragen, solange das Kind gestillt wird.",
+        "en": "Culinary amounts are safe. Use therapeutic amounts and essential oil cautiously due to insufficient data; do not apply essential oil to chest or nipples while breastfeeding."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Ätherisches Rosengeranien-Öl bei Säuglingen und Kleinkindern unter 2 Jahren NICHT hautnah anwenden (keine Diffuser im Schlafzimmer, keine Massageöle). Bei Kindern 2-6 Jahren nur stark verdünnt (max. 0,5 %) und nicht im Gesicht. Tee ab Schulalter in moderaten Mengen unbedenklich.",
+        "en": "Do NOT use rose geranium essential oil on the skin of infants and children under 2 years (no bedroom diffuser, no massage oils). In children 2-6 years only highly diluted (max. 0.5 %) and not on the face. Tea is safe in moderate amounts from school age."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antidiabetika (Insulin, Sulfonylharnstoffe, Metformin)",
+        "mechanism": {
+          "de": "In vitro und Tier-Studien zeigen leichte blutzuckersenkende Effekte von Pelargonien-Extrakten. Bei gleichzeitiger Einnahme oraler Antidiabetika oder Insulin Blutzuckerwerte engmaschig kontrollieren.",
+          "en": "In vitro and animal studies show mild blood-glucose-lowering effects of pelargonium extracts. Monitor blood-glucose values closely when used alongside oral antidiabetics or insulin."
+        },
+        "severity": "monitor",
+        "source_id": "src_kacaniova_pgraveolens_eo"
+      },
+      {
+        "drug_class": "CYP2B6-/CYP3A4-Substrate",
+        "mechanism": {
+          "de": "Citronellol und Geraniol können in höheren Konzentrationen Cytochrom-P450-Enzyme (vor allem CYP2B6) modulieren. Theoretisch sind Wechselwirkungen mit Bupropion, Efavirenz, Ketamin und einigen anderen CYP2B6-Substraten denkbar — klinisch bei aromatherapeutischer Hautanwendung kaum relevant, bei oraler Einnahme von Öl-Kapseln Vorsicht.",
+          "en": "Citronellol and geraniol can modulate cytochrome P450 enzymes (especially CYP2B6) at higher concentrations. Theoretical interactions with bupropion, efavirenz, ketamine and other CYP2B6 substrates are conceivable — clinically barely relevant for topical aromatherapy, caution with oral oil capsules."
+        },
+        "severity": "monitor",
+        "source_id": "src_kacaniova_pgraveolens_eo"
+      },
+      {
+        "drug_class": "Sedativa / ZNS-Dämpfer",
+        "mechanism": {
+          "de": "Aromatherapeutisch eingesetztes Rosengeranien-Öl wirkt leicht beruhigend; in Kombination mit Schlafmitteln, Benzodiazepinen oder Alkohol kann sich die dämpfende Wirkung additiv verstärken.",
+          "en": "Rose geranium oil used in aromatherapy has a mild calming effect; combined with sleep medications, benzodiazepines or alcohol, the dampening effect may add up."
+        },
+        "severity": "monitor",
+        "source_id": "src_herbalreality_rose_geranium"
+      }
+    ],
+    "max_continuous_use_weeks": 4,
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Rosengeranie, Citronellol/Geraniol oder anderen Geraniaceen.",
+        "en": "Known hypersensitivity to rose geranium, citronellol/geraniol or other Geraniaceae."
+      },
+      {
+        "de": "Säuglinge und Kinder unter 2 Jahren — keine hautnahe Anwendung ätherischen Öls.",
+        "en": "Infants and children under 2 years — no skin contact with essential oil."
+      },
+      {
+        "de": "Akute, nässende Hautentzündung oder gereizte Schleimhäute — Anwendung verschieben bis zur Abheilung.",
+        "en": "Acute weeping skin inflammation or irritated mucous membranes — postpone use until healed."
+      },
+      {
+        "de": "Katzen und kleine Hunde im Haushalt: ätherisches Geranium-Öl ist für Heimtiere toxisch (laut ASPCA). Diffuser nur in Räumen verwenden, die das Tier verlassen kann; keine direkte Hautanwendung am Tier.",
+        "en": "Cats and small dogs in the household: geranium essential oil is toxic to pets (per ASPCA). Use a diffuser only in rooms the animal can leave; no direct application on the pet."
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -73,6 +335,62 @@
       "title": "Pelargonium graveolens (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Pelargonium_graveolens",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_pelargonium_en",
+      "type": "wikipedia",
+      "title": "Pelargonium graveolens (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Pelargonium_graveolens",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_wiki_pelargonium_de",
+      "type": "wikipedia",
+      "title": "Duftpelargonien (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Duftpelargonien",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_wikidata_pelargonium",
+      "type": "wikidata",
+      "title": "Wikidata — Pelargonium graveolens (Q156477)",
+      "url": "https://www.wikidata.org/wiki/Q156477",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_pfaf_pelargonium",
+      "type": "monograph",
+      "title": "Plants For A Future — Pelargonium graveolens",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Pelargonium+graveolens",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_herbalreality_rose_geranium",
+      "type": "monograph",
+      "title": "Herbal Reality — Rose Geranium (Pelargonium graveolens) monograph",
+      "url": "https://www.herbalreality.com/herb/rose-geranium/",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_kacaniova_pgraveolens_eo",
+      "type": "monograph",
+      "title": "Kačániová M. et al. (2023) — An In-Depth Study on the Chemical Composition and Biological Effects of Pelargonium graveolens Essential Oil. Foods 13(1), 33.",
+      "url": "https://doi.org/10.3390/foods13010033",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_almijalli_pgraveolens_phenology",
+      "type": "monograph",
+      "title": "Al-Mijalli S.H. et al. (2022) — Chemical Profiling and Biological Activities of Pelargonium graveolens Essential Oils at Three Different Phenological Stages. Plants 11(17), 2226.",
+      "url": "https://doi.org/10.3390/plants11172226",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_aspca_scented_geranium",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Scented Geranium (Pelargonium sp.) toxicity in dogs and cats",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/scented-geranium",
+      "accessed": "2026-05-26"
     }
   ],
   "image": {
@@ -117,5 +435,133 @@
         "Fresh leaves for tea or essential oil."
       ]
     }
-  }
+  },
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (Geranium-Bourbon-Öl)",
+      "category": "essential_oil",
+      "percent_range": "0.15-0.33 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Wasserdampfdestillat aus frischen Blättern und Trieben. Hauptchemotyp je nach Herkunft: Bourbon-Typ (Réunion, südliches Afrika) — citronellol- und geraniol-reich; Ägyptischer Typ — niedrigeres Citronellol/Geraniol-Verhältnis. Charakteristischer Rosen-Minz-Duft.",
+        "en": "Steam distillate from fresh leaves and shoots. Main chemotype depending on origin: Bourbon type (Réunion, southern Africa) — citronellol- and geraniol-rich; Egyptian type — lower citronellol/geraniol ratio. Characteristic rose-mint scent."
+      }
+    },
+    {
+      "name": "Citronellol (β-Citronellol)",
+      "category": "essential_oil",
+      "percent_range": "20-40 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptbestandteil im Bourbon-Öl. Verantwortlich für den rosig-zitronigen Charakter, antimikrobielle Wirkung und Mückenabwehr. Steht in der EU-Kosmetik-Verordnung als deklarationspflichtiger Duftstoff-Allergen.",
+        "en": "Main component of Bourbon oil. Responsible for the rose-citrus character, antimicrobial activity and mosquito-repellent effect. Listed in the EU Cosmetics Regulation as a declarable fragrance allergen."
+      }
+    },
+    {
+      "name": "Geraniol",
+      "category": "essential_oil",
+      "percent_range": "8-25 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Zweite Leitsubstanz im Bourbon-Öl. Süsslich-rosiger Duft, antioxidativ, antimikrobiell und mild entzündungshemmend; ebenfalls EU-deklarationspflichtiger Allergen.",
+        "en": "Second leading substance of Bourbon oil. Sweet rosy scent, antioxidant, antimicrobial and mildly anti-inflammatory; also an EU-declarable allergen."
+      }
+    },
+    {
+      "name": "Citronellylformiat",
+      "category": "essential_oil",
+      "percent_range": "5-12 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Estriger Begleitstoff — verleiht dem Öl die fruchtig-blumige Top-Note. Trägt zur entspannenden, sanft sedierenden Wirkung in der Aromatherapie bei.",
+        "en": "Ester accompanying compound — gives the oil its fruity-floral top note. Contributes to the relaxing, mildly sedating aromatherapy effect."
+      }
+    },
+    {
+      "name": "Linalool",
+      "category": "essential_oil",
+      "percent_range": "3-10 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Monoterpenalkohol mit beruhigender, leicht angstlösender Wirkung — wirkt synergistisch mit Citronellol. Ebenfalls EU-deklarationspflichtiger Duftstoff-Allergen.",
+        "en": "Monoterpene alcohol with calming, mildly anxiolytic effect — acts synergistically with citronellol. Also an EU-declarable fragrance allergen."
+      }
+    },
+    {
+      "name": "Isomenthon",
+      "category": "essential_oil",
+      "percent_range": "2-8 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Monoterpen-Keton; trägt zur leicht minzigen Note bei. In hohen Anteilen typisch für die ägyptische und Kelkar-Cultivar — Bourbon-Öl enthält weniger.",
+        "en": "Monoterpene ketone; contributes to the mildly minty note. High amounts typical of the Egyptian and Kelkar cultivars — Bourbon oil contains less."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin, Kämpferol, Myricetin)",
+      "category": "flavonoid",
+      "percent_range": "Spuren-1 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Polyphenolische Begleitstoffe, vor allem in wässrigen Tee-Auszügen extrahierbar — antioxidative und mild entzündungshemmende Wirkung; relevant für die innerliche Tee-Anwendung.",
+        "en": "Polyphenolic accompanying compounds, primarily extracted in aqueous tea preparations — antioxidant and mildly anti-inflammatory; relevant for internal tea use."
+      }
+    },
+    {
+      "name": "Gerbstoffe (kondensierte Gerbstoffe)",
+      "category": "tannin",
+      "percent_range": "2-5 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Adstringierende Polyphenole, verantwortlich für die historisch im 20. Jahrhundert genutzte Anwendung bei Durchfall und ulcerösen Magen-Beschwerden sowie für die hauttonisierende Wirkung von Pelargonien-Umschlägen.",
+        "en": "Astringent polyphenols responsible for the early-20th-century use against diarrhoea and ulcerative stomach complaints, and for the skin-toning effect of pelargonium compresses."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Am frühen Vormittag bei trockenem Wetter, sobald der Tau abgetrocknet ist und vor der grossen Mittagshitze — dann ist der Gehalt an ätherischem Öl am höchsten. Studien aus Marokko ernten klassisch im frühen Morgenfenster.",
+        "en": "Early morning in dry weather once the dew has dried and before midday heat — essential-oil content is then highest. Moroccan research studies classically harvest in the early-morning window."
+      },
+      "drying": {
+        "de": "Blätter und beblätterte Triebe in dünner Schicht auf Tüchern oder Gitterhorden in einem warmen, luftigen, schattigen Raum trocknen (max. 35 °C). Direkte Sonne meiden — der typische Rosen-Geruch geht sonst verloren. Nach dem Trocknen luftdicht in dunklen Glasdosen lagern.",
+        "en": "Spread leaves and leafy shoots in a thin layer on cloths or mesh racks in a warm, airy, shaded room (max 35 °C). Avoid direct sunlight — the typical rose scent is otherwise lost. After drying, store airtight in dark glass jars."
+      },
+      "storage_months": 9,
+      "storage_condition": {
+        "de": "In dunklen, fest schliessenden Glas- oder Blechgefässen kühl und trocken aufbewahren. Ätherisches Öl verflüchtigt sich rasch — innerhalb von 9 Monaten verbrauchen.",
+        "en": "Store in dark, tightly closed glass or tin containers, cool and dry. Essential oil evaporates quickly — use within 9 months."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Zur Vollblüte (Juni bis August in Mitteleuropa) bei sonnigem, trockenem Wetter am frühen Vormittag — der Ölgehalt erreicht in der Vollblüte sein Maximum (Studie Al-Mijalli 2022 zu drei phänologischen Stadien).",
+        "en": "At full flowering (June to August in Central Europe) on sunny, dry weather in the early morning — essential-oil content reaches its maximum at full flowering (Al-Mijalli 2022 study on three phenological stages)."
+      },
+      "drying": {
+        "de": "Beblätterte blühende Triebe in kleinen Bündeln kopfüber im Schatten trocknen oder zur sofortigen Wasserdampfdestillation verarbeiten. Bei der Hausdestille frische Triebe bevorzugen — höhere Ausbeute.",
+        "en": "Hang leafy flowering shoots in small bundles upside down in the shade, or process immediately by steam distillation. For home distilling, prefer fresh shoots — higher yield."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Destilliertes ätherisches Öl in dunklen 5-10 ml Tropfflaschen, lichtgeschützt und kühl (Kühlschrank) — bis zu 12 Monate stabil.",
+        "en": "Store distilled essential oil in dark 5-10 ml dropper bottles, protected from light and cool (refrigerator) — stable up to 12 months."
+      }
+    }
+  ]
 }

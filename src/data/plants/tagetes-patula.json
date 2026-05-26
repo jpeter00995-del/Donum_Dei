@@ -25,13 +25,191 @@
         "pest_control"
       ],
       "internal_external": "external",
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "MISCHKULTUR / GRÜNDÜNGUNG gegen Nematoden: Tagetes patula als Begleitpflanze zwischen Tomaten, Kartoffeln, Erdbeeren oder Bohnen säen — Pflanzabstand 25–30 cm. Wurzelausscheidungen (α-Terthienyl und weitere Thiophen-Derivate sowie Polyacetylen-Verbindungen) hemmen wandernde Wurzelnematoden (insbesondere Pratylenchus penetrans und Meloidogyne-Arten). Wirkung tritt nach 2–4 Monaten Standzeit ein — für nachhaltige Befreiung des Bodens die ganze Saison stehen lassen, dann oberirdisch abschneiden und das Pflanzenmaterial in den Boden einarbeiten (Gründüngung). Eine flächige Vorkultur (Reinsaat) im befallenen Beet wirkt stärker als Einzelpflanzen.",
+          "en": "COMPANION PLANTING / GREEN MANURE against nematodes: Sow Tagetes patula as a companion between tomatoes, potatoes, strawberries or beans — spacing 25–30 cm. Root exudates (α-terthienyl and other thiophene derivatives, plus polyacetylenes) inhibit migrating root-lesion nematodes (especially Pratylenchus penetrans and Meloidogyne spp.). Effect appears after 2–4 months — leave plants for the whole season for sustained soil clearance, then cut above ground and work residues into the soil (green manure). Solid pre-cropping (sole stand) in an infested bed is more effective than scattered individuals."
+        }
+      },
       "description": {
-        "de": "Die in Mitteleuropa häufig angepflanzten Sorten von Aufrechte Studentenblume (Tagetes erecta), Ausgebreitete Studentenblume (Tagetes patula) und Schmalblättrige Studentenblume (Tagetes tenuifolia) sind hier nur selten und unbeständig verwildernd. Durch die Anpflanzung von Tagetes kann die durch Nematoden verursachte „Bodenmüdigkeit“ mit Erfolg bekämpft werden, die zur Reduzierung von Ernteerträgen bei Nutzpflanzen führt.",
-        "en": "The dried and ground flower petals constitute a popular spice in the Republic of Georgia in the Caucasus, where they are known as imeruli shaphrani (= 'Imeretian Saffron') from their pungency and golden colour and particular popularity in the Western province of Imereti. The spice imparts a unique, rather earthy flavour to Georgian cuisine, in which it is considered especially compatible with the flavours of cinnamon and cloves."
+        "de": "Klassische Mischkultur- und Gründüngungs-Anwendung der Studentenblume: Wurzeln scheiden phototoxische Thiophen-Derivate aus, die Wurzelnematoden (Bodenmüdigkeit) reduzieren — alte Gartenbau-Praxis, seit den 1970er Jahren mehrfach wissenschaftlich bestätigt.",
+        "en": "Classic companion-planting and green-manure use of French marigold: roots release phototoxic thiophene derivatives that suppress root-knot and lesion nematodes — long-standing horticultural practice repeatedly confirmed since the 1970s."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src_wp_en_tagetes_patula",
+        "src_molecules_tagetes_2018",
+        "src_planta_thiophenes_tagetes"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "menstrual"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "VOLKSTÜMLICHER AUFGUSS (mexikanische Tradition): 1–2 g getrocknete Tagetes-patula-Blüten (frei von Stielen) mit 200 ml kochendem Wasser übergießen, zugedeckt 5–10 Minuten ziehen lassen, abseihen. 1–2 Tassen täglich bei leichten Magenkrämpfen, Blähungen oder Menstruationsbeschwerden. Anwendung KURZFRISTIG — maximal 1 Woche; bei anhaltenden Beschwerden Arzt aufsuchen. NICHT in der Schwangerschaft (volksmedizinisch als emmenagog/wehenfördernd beschrieben). Bei Korbblütler-Allergie meiden. Geschmacklich ähnlich Tarragon-Estragon (durch ätherisches Öl).",
+          "en": "FOLK INFUSION (Mexican tradition): Pour 200 ml boiling water over 1–2 g dried T. patula florets (stems removed), cover and steep 5–10 min, strain. 1–2 cups daily for mild stomach cramps, flatulence or menstrual complaints. Use SHORT-TERM only — max 1 week; consult a doctor for persistent symptoms. NOT in pregnancy (described as emmenagogue/uterotonic in folk use). Avoid with Asteraceae allergy. Taste reminiscent of tarragon (from the essential oil)."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Innerlicher Gebrauch nicht für kleine Kinder — volksmedizinische Verwendung, keine pharmakopöe-konformen Daten.",
+          "en": "Internal use not for small children — folk preparation without pharmacopoeial dossier."
+        }
+      },
+      "description": {
+        "de": "Traditioneller mexikanischer Aufguss aus getrockneten Blüten — überliefert gegen Magenkrämpfe, Blähungen und Menstruationsbeschwerden. Außerhalb der mexikanischen Volksmedizin nicht etabliert; keine EMA- oder Kommission-E-Bewertung.",
+        "en": "Traditional Mexican infusion of dried florets — reported for stomach cramps, flatulence and menstrual complaints. Not established outside Mexican folk medicine; no EMA or Kommission E assessment."
+      },
+      "source_ids": [
+        "src_unam_apmtm_cempasuchil",
+        "src_wp_en_tagetes_patula"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "AUFGUSS für Umschlag: 3–5 g getrocknete Blüten mit 250 ml heißem Wasser übergießen, 10 Minuten ziehen lassen, abseihen, auf Hauttemperatur abkühlen. Sauberes Baumwoll- oder Leinentuch tränken und 20–30 Minuten auf gereizte oder leicht entzündete Hautstellen legen. 1–2× täglich. NICHT unmittelbar vor direkter Sonneneinstrahlung anwenden — Thiophen-Derivate (α-Terthienyl) sind phototoxisch und können in Verbindung mit UV-A Hautreizungen, Rötung oder Bläschen verursachen.",
+          "en": "INFUSION compress: Pour 250 ml hot water over 3–5 g dried florets, steep 10 min, strain, cool to skin temperature. Soak a clean cotton or linen cloth and apply for 20–30 min to irritated or mildly inflamed skin. 1–2× daily. DO NOT apply before direct sun exposure — thiophene derivatives (α-terthienyl) are phototoxic and may cause erythema, blistering or burning in combination with UV-A."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Wegen Phototoxizität und fehlender pädiatrischer Daten erst ab 12 Jahren, immer von Sonnenlicht abgedeckt.",
+          "en": "Due to phototoxicity and lack of paediatric data, only from 12 years; always covered from sunlight."
+        }
+      },
+      "description": {
+        "de": "Volksmedizinischer Hautumschlag (Mexiko, Andenländer): bei leichten Hautreizungen, oberflächlichen Wunden, traditionell auch gegen Skabies und Parasitenbefall der Haut. Phototoxizität durch α-Terthienyl beachten.",
+        "en": "Folk skin compress (Mexico, Andean countries): for mild skin irritation, superficial wounds, traditionally also against scabies and skin parasites. Note phototoxicity from α-terthienyl."
+      },
+      "source_ids": [
+        "src_unam_apmtm_cempasuchil",
+        "src_wp_en_tagetes_patula",
+        "src_obelis_sccs_tagetes_phototox"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 30,
+          "max": 50
+        },
+        "water_ml": 2000,
+        "doses_per_day": 1,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "FUSS-/HANDBAD: 30–50 g getrocknete Tagetes-patula-Blüten und Kraut mit 2 Litern kochendem Wasser übergießen, 15 Minuten ziehen lassen, abseihen und dem lauwarmen Badewasser (Hand- oder Fußbad) zugeben. 10–15 Minuten baden. Nach dem Bad mindestens 6 Stunden direkte Sonne meiden (Phototoxizität). Traditionell in Mexiko bei Pilzbefall der Füße, Hühneraugen und müden Beinen verwendet.",
+          "en": "HAND/FOOT BATH: Pour 2 L boiling water over 30–50 g dried T. patula florets and herb, steep 15 min, strain, add to lukewarm bath (hand or foot). Bathe 10–15 min. Avoid direct sun for at least 6 hours after bathing (phototoxicity). Traditionally used in Mexico for foot fungus, corns and tired legs."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Wegen Phototoxizität nicht für kleine Kinder.",
+          "en": "Not for young children due to phototoxicity."
+        }
+      },
+      "description": {
+        "de": "Traditionelles Teilbad gegen Hautpilz und Hornhautprobleme — antifungale Wirkung des ätherischen Öls (α-Terthienyl ist gegen Hautpilze wirksam) belegt im Reagenzglas, klinisch nicht standardisiert.",
+        "en": "Traditional partial bath for skin fungus and callus problems — antifungal action of the essential oil (α-terthienyl is active against dermatophytes) shown in vitro, not clinically standardised."
+      },
+      "source_ids": [
+        "src_unam_apmtm_cempasuchil",
+        "src_alpha_terthienyl_antifungal"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "GETROCKNETE BLÜTENBLÄTTER ALS GEWÜRZ: Voll geöffnete Blütenköpfe ernten, an der Luft trocknen, die Zungenblüten (Strahlenblüten) abzupfen und im Mörser zu Pulver zerreiben. In Georgien als 'imeruli shaphrani' ('imeretischer Safran') in Khmeli Suneli-Mischung — passt zu Hühner-, Reis- und Walnussgerichten. Eine Messerspitze pro Portion. Gibt eine satte goldgelbe Farbe und einen mild erdig-würzigen Geschmack. Keine Heilanwendung, sondern Speisegewürz.",
+          "en": "DRIED PETALS AS SPICE: Harvest fully opened flower heads, air-dry, pluck off the ray florets, grind to powder in a mortar. In Georgia known as 'imeruli shaphrani' ('Imeretian saffron') and part of the Khmeli Suneli blend — pairs with chicken, rice and walnut dishes. A knife-tip per portion. Provides intense golden-yellow colour and a mild earthy-aromatic taste. Culinary use, not medicinal."
+        }
+      },
+      "description": {
+        "de": "Kulinarische Verwendung (Georgien, Imeretien): die getrockneten gemahlenen Zungenblüten sind ein traditionelles Gelb-Gewürz — bekannt als 'imeruli shaphrani' oder Imeretischer Safran. Auch zur Eidotter- und Geflügelfutter-Färbung industriell genutzt.",
+        "en": "Culinary use (Georgia, Imereti region): dried ground ray florets are a traditional yellow spice — known as 'imeruli shaphrani' or Imeretian saffron. Also used industrially to colour egg yolks and poultry feed."
+      },
+      "source_ids": [
+        "src_wp_en_tagetes_patula"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "TAGETES-ÖL (stark verdünnt): 1 Tropfen Tagetes-Öl (Tagetes patula bzw. T. minuta) in 20 ml Trägeröl (Mandel, Jojoba) — entspricht etwa 0,1–0,25 % Verdünnung. WICHTIG: SCCS-Empfehlung max. 0,01 % Tagetes-Öl in Leave-on-Kosmetik (außer Sonnenschutz), und der α-Terthienyl-Gehalt des Öls darf 0,35 % nicht überschreiten — d.h. ein selbst angesetztes höheres Konzentrat ist NUR für Rinse-off-Anwendungen (kurzer Kontakt, anschließend abwaschen) oder für lokale Spot-Anwendung mit anschließender Sonnenkarenz (24–48 h) geeignet. NIE großflächig vor Sonneneinstrahlung — sonst Phototoxizität (Erythem, Blasen). Klassisch gegen Hühneraugen, Schwielen und Pilznägel punktuell aufgetropft.",
+          "en": "TAGETES OIL (strongly diluted): 1 drop of Tagetes oil (T. patula or T. minuta) in 20 ml carrier oil (almond, jojoba) — about 0.1–0.25 % dilution. IMPORTANT: SCCS opinion sets max. 0.01 % Tagetes oil in leave-on cosmetics (excluding sunscreen), and α-terthienyl content of the oil must not exceed 0.35 %. Higher home-made concentrations are only acceptable for rinse-off use (short contact, then washed off) or for spot application followed by sun avoidance (24–48 h). NEVER apply on large areas before sun exposure — phototoxicity (erythema, blistering) otherwise. Classically dabbed on corns, calluses and toenail fungus."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Wegen Phototoxizität und schmalem Sicherheitsfenster nur für Erwachsene.",
+          "en": "Adults only — narrow safety window because of phototoxicity."
+        }
+      },
+      "description": {
+        "de": "Ätherisches Tagetes-Öl: lokal-punktuelle, stark verdünnte Anwendung auf Hornhaut, Hühneraugen oder Pilznägeln. Phototoxizität durch α-Terthienyl und α-Bithienyl — strikte Sonnenkarenz nach Anwendung.",
+        "en": "Tagetes essential oil: spot-applied, strongly diluted on calluses, corns or fungal nails. Phototoxic via α-terthienyl and α-bithienyl — strict sun avoidance after use required."
+      },
+      "source_ids": [
+        "src_obelis_sccs_tagetes_phototox",
+        "src_alpha_terthienyl_antifungal",
+        "src_molecules_tagetes_2018"
       ]
     }
   ],
@@ -51,12 +229,63 @@
   },
   "safety": {
     "warnings": {
-      "de": "Wurzelausscheidungen wehren Nematoden ab. Bei Korbblütler-Allergie meiden.",
-      "en": "Root excretions repel nematodes. Avoid in case of Asteraceae allergy."
+      "de": "Tagetes patula enthält in ätherischem Öl und Wurzelausscheidungen Thiophen-Derivate, vor allem α-Terthienyl (α-T) und α-Bithienyl — diese Stoffe sind PHOTOTOXISCH: in Verbindung mit UV-A-Licht können sie Hautrötungen, Bläschen und Kontaktdermatitis auslösen. Nach äußerlicher Anwendung von Tagetes-Aufgüssen, -Bädern oder -Ölen 24–48 Stunden direkte Sonne meiden bzw. Anwendungsstellen abdecken. Die EU-SCCS hat 2019 die Höchstmenge Tagetes-Öl in Leave-on-Kosmetik (außer Sonnenschutzmitteln) auf 0,01 % begrenzt — daran orientieren. Bei bekannter Korbblütler-Allergie (Beifuß, Ambrosia, Kamille) meiden — Kreuzreaktionen möglich. Innerliche Anwendung volksmedizinisch, ohne EMA/Kommission-E-Bewertung — kurzfristig in geringer Menge halten. Pferde reagieren laut UNAM-Datenbank empfindlich auf große verfütterte Mengen frischer Tagetes-Pflanzen (Maul-/Hautreizung über Thiophene) — als Pferdeweide-Begleitkraut meiden.",
+      "en": "Tagetes patula essential oil and root exudates contain thiophene derivatives, mainly α-terthienyl (α-T) and α-bithienyl — these are PHOTOTOXIC: combined with UV-A light they can cause erythema, blistering and contact dermatitis. Avoid direct sun for 24–48 hours after external use of T. patula infusions, baths or oil; or keep treated areas covered. The EU SCCS (2019) set a maximum of 0.01 % Tagetes oil in leave-on cosmetics (excluding sunscreens) — follow this benchmark. Avoid with known Asteraceae allergy (mugwort, ragweed, chamomile) — cross-reactions possible. Internal use is folk medicine only, with no EMA or Kommission E assessment — keep short-term and at low dose. Per the UNAM ethnobotanical database, horses are reportedly sensitive to large amounts of fresh T. patula material (mouth/skin irritation via thiophenes) — avoid as a companion in horse pastures."
     },
-    "external_only": true,
+    "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Volksmedizinisch in Mexiko als emmenagog (menstruationsfördernd) beschrieben — innerliche Anwendung in der Schwangerschaft meiden. Äußerliche Anwendung kleinflächig vertretbar, jedoch wegen Phototoxizität nicht großflächig vor Sonnenexposition.",
+        "en": "Described as emmenagogue (menstrual-stimulating) in Mexican folk medicine — avoid internal use during pregnancy. Small-area external use is generally acceptable, but avoid large-area application before sun exposure due to phototoxicity."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine systematischen Daten zur Sicherheit in der Stillzeit — innerliche Anwendung nicht empfohlen, äußerliche Anwendung im Brustwarzenbereich vermeiden.",
+        "en": "No systematic safety data for breastfeeding — internal use not recommended; avoid external use on nipple area."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Innerliche Anwendung: nicht für kleine Kinder (keine etablierten pädiatrischen Daten). Äußerlich: Bei Säuglingen und Kleinkindern (< 12 J.) wegen Phototoxizität meiden — Kinderhaut ist UV-empfindlicher.",
+        "en": "Internal use: not for small children (no established paediatric data). External use: avoid in infants and small children (< 12 yrs) due to phototoxicity — children's skin is more UV-sensitive."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Tagetes oder andere Korbblütler (Asteraceae) — z.B. Kamille, Beifuß, Ringelblume, Ambrosia. Kreuzallergien möglich.",
+        "en": "Hypersensitivity to Tagetes or other Asteraceae — e.g. chamomile, mugwort, calendula, ragweed. Cross-allergies possible."
+      },
+      {
+        "de": "Bevorstehende intensive UV-A/Sonnen-Exposition (Tagetes-Hautanwendung 24–48 h vorher meiden — Phototoxizität durch α-Terthienyl).",
+        "en": "Imminent intense UV-A/sun exposure (avoid topical Tagetes 24–48 h beforehand — phototoxicity from α-terthienyl)."
+      },
+      {
+        "de": "Schwangerschaft (innerliche Anwendung — volksmedizinisch als emmenagog beschrieben).",
+        "en": "Pregnancy (internal use — described as emmenagogue in folk medicine)."
+      },
+      {
+        "de": "Pferdeweide: große Mengen frischer Tagetes-Pflanzen können Maul- und Hautreizungen verursachen.",
+        "en": "Horse pasture: large amounts of fresh Tagetes can cause mouth and skin irritation."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Photosensibilisierende Arzneimittel (Tetracycline, Fluorchinolone, Amiodaron, Retinoide, Hypericum/Johanniskraut)",
+        "mechanism": {
+          "de": "α-Terthienyl aus Tagetes wirkt UV-A-aktiviert phototoxisch. Bei gleichzeitiger Einnahme oder topischer Anwendung weiterer photosensibilisierender Substanzen ist eine additiv verstärkte Hautreaktion (Erythem, Blasenbildung) bei Sonnen- oder Solariumexposition möglich. Topische Tagetes-Anwendung in solchen Konstellationen vermeiden, jedenfalls strenge Sonnenkarenz einhalten.",
+          "en": "α-Terthienyl from Tagetes is photoactivated by UV-A. With concurrent intake or topical use of other photosensitisers, additively enhanced skin reactions (erythema, blistering) are possible under sun or tanning-bed exposure. Avoid topical Tagetes in such combinations, or strictly avoid sun."
+        },
+        "severity": "caution",
+        "source_id": "src_obelis_sccs_tagetes_phototox"
+      }
+    ],
+    "max_continuous_use_weeks": 1
   },
   "classical_quotes": [],
   "sources": [
@@ -73,6 +302,69 @@
       "title": "Tagetes patula (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Tagetes_patula",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wp_en_tagetes_patula",
+      "type": "wikipedia",
+      "title": "Tagetes patula (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Tagetes_patula",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_wp_de_tagetes",
+      "type": "wikipedia",
+      "title": "Tagetes (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Tagetes",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_wikidata_tagetes_patula",
+      "type": "wikidata",
+      "title": "Wikidata — Tagetes patula (Q156959)",
+      "url": "https://www.wikidata.org/wiki/Q156959",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_molecules_tagetes_2018",
+      "type": "monograph",
+      "title": "Salehi B. et al. — Tagetes spp. Essential Oils and Other Extracts: Chemical Characterization and Biological Activity. Molecules 23(11):2847, 2018.",
+      "url": "https://doi.org/10.3390/molecules23112847",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_obelis_sccs_tagetes_phototox",
+      "type": "monograph",
+      "title": "SCCS — Opinion on fragrance ingredients Tagetes minuta and Tagetes patula extracts and essential oils, SCCS/1551/15 (Final, 2019) — phototoxicity assessment and 0.01 %/0.35 % limits",
+      "url": "https://health.ec.europa.eu/document/download/sccs_opinion_tagetes_minuta_patula",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_planta_thiophenes_tagetes",
+      "type": "monograph",
+      "title": "Margl L., Eisenreich W. et al. — Distribution of thiophene derivatives in different organs of Tagetes patula seedlings grown under various conditions. Planta 196:127–135, 1995.",
+      "url": "https://link.springer.com/article/10.1007/BF00392777",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_alpha_terthienyl_antifungal",
+      "type": "monograph",
+      "title": "Tarus P.K. et al. — Antifungal effects of α-terthienyl from Tagetes patula on five dermatophytes. Phytotherapy Research 8(6):362–365, 1994.",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ptr.2650080604",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_unam_apmtm_cempasuchil",
+      "type": "monograph",
+      "title": "UNAM — Atlas de las Plantas de la Medicina Tradicional Mexicana: Cempasúchil / flor de muerto (Tagetes spp.)",
+      "url": "http://www.medicinatradicionalmexicana.unam.mx/apmtm/termino.php?l=3&t=tagetes-erecta",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_pfaf_tagetes_patula",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Tagetes patula (French Marigold) database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Tagetes+patula",
+      "accessed": "2026-05-26"
     }
   ],
   "image": {
@@ -208,5 +500,130 @@
     "pest_repellent",
     "pollinator_attractor",
     "edible_flower"
+  ],
+  "constituents": [
+    {
+      "name": "(Z)-β-Ocimen und (E)-β-Ocimen",
+      "category": "essential_oil",
+      "percent_range": "12-70 % (im EO)",
+      "plant_part": "flower",
+      "note": {
+        "de": "Mengenmäßig oft dominante Monoterpene des Tagetes-patula-Öls — anteilig stark abhängig von Herkunft und Erntestadium. Charakteristischer 'grüner', krautig-blumiger Geruch. Insektizid und akarizid wirksam, trägt zur abwehrenden Wirkung auf Vorratsschädlinge und Stechmücken bei.",
+        "en": "Quantitatively often dominant monoterpenes of T. patula oil — proportion strongly depends on origin and harvest stage. Characteristic green, herbal-floral scent. Insecticidal and acaricidal, contributing to deterrence of stored-product pests and mosquitoes."
+      }
+    },
+    {
+      "name": "Dihydrotagetone und (Z)-/(E)-Tagetone",
+      "category": "essential_oil",
+      "percent_range": "3-48 % (im EO)",
+      "plant_part": "flower",
+      "note": {
+        "de": "Charakteristische aliphatische Ketone der Gattung Tagetes — namensgebend ('Tagetone'). Stark aromatisch, leicht süßlich-fruchtig. Anteil schwankt stark mit Reifestadium der Pflanze (höher im Vollblüte- und Samenstadium). Antimikrobiell und larvizid (gegen Mückenlarven) wirksam.",
+        "en": "Characteristic aliphatic ketones of the genus Tagetes — eponymous compounds. Strongly aromatic, slightly sweet-fruity. Levels vary substantially with phenological stage (higher in full bloom and seed set). Antimicrobial and larvicidal (against mosquito larvae)."
+      }
+    },
+    {
+      "name": "Limonen",
+      "category": "essential_oil",
+      "percent_range": "1-14 % (im EO)",
+      "plant_part": "flower",
+      "note": {
+        "de": "Verbreitetes Monoterpen, gibt einen leicht zitronigen Ton. In indischen Tagetes-patula-Ölen bei bis zu 13–14 % nachgewiesen. Mild antimikrobiell und insektenrepellent.",
+        "en": "Common monoterpene, giving a slight citrus tone. Reported up to 13–14 % in Indian T. patula oils. Mildly antimicrobial and insect-repellent."
+      }
+    },
+    {
+      "name": "Piperiton und Piperitenon",
+      "category": "essential_oil",
+      "percent_range": "2-12 % (im EO)",
+      "plant_part": "flower",
+      "note": {
+        "de": "Sauerstoffhaltige Monoterpene mit pfefferminzartiger Note. Tragen zur antifungalen und nematiziden Wirkung des Öls bei und sind mitverantwortlich für den arttypischen Geruch.",
+        "en": "Oxygenated monoterpenes with a peppermint-like note. Contribute to the oil's antifungal and nematicidal action and to the characteristic aroma."
+      }
+    },
+    {
+      "name": "α-Terthienyl (α-Terthiophen, α-T) und verwandte Thiophen-Derivate",
+      "category": "other",
+      "percent_range": "Spuren bis 2,5 % (im EO); im Öl-Standard < 0,35 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Bemerkenswerter Sekundärmetabolit der Gattung Tagetes — drei aneinander gekoppelte Thiophenringe. PHOTOTOXISCH: Absorbiert UV-A-Licht und erzeugt reaktive Sauerstoffspezies, die Membranen pflanzlicher und tierischer Zellen schädigen — dies erklärt sowohl die nematizide Wirkung im Boden (Wurzeleinfluss auf Pratylenchus, Meloidogyne) als auch die Hautreaktionen bei sonnenexponierter Tagetes-Anwendung. Antifungal gegen Dermatophyten. SCCS-Limit: max. 0,35 % α-T im Öl bei kosmetischer Verwendung.",
+        "en": "Notable secondary metabolite of Tagetes — three linked thiophene rings. PHOTOTOXIC: absorbs UV-A and generates reactive oxygen species damaging cell membranes — explaining both nematicidal soil action (root influence on Pratylenchus, Meloidogyne) and skin reactions on sun-exposed Tagetes use. Antifungal against dermatophytes. SCCS limit: max. 0.35 % α-T in oil for cosmetic use."
+      }
+    },
+    {
+      "name": "Patuletin und weitere Flavonoide (Quercetagetin, Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "ca. 0,1-0,5 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Patuletin (6-Methoxy-Quercetin) ist namensgebend für Tagetes patula. Antioxidativ, kapillarprotektiv und entzündungshemmend in vitro; trägt mit den Carotinoiden zur charakteristischen orangegelben Blütenfarbe bei. Auch in der Cytotoxizitäts-/Genotoxizitätsdiskussion bei Hochdosis-Methanolextrakten relevant.",
+        "en": "Patuletin (6-methoxy-quercetin) is named after Tagetes patula. Antioxidant, capillary-protective and anti-inflammatory in vitro; together with the carotenoids contributes to the orange-yellow flower colour. Also discussed regarding cytotoxic/genotoxic effects of high-dose methanolic extracts."
+      }
+    },
+    {
+      "name": "Carotinoide (Lutein, Zeaxanthin, β-Carotin)",
+      "category": "other",
+      "percent_range": "ca. 0,1-1 % der trockenen Blüte",
+      "plant_part": "flower",
+      "note": {
+        "de": "Hauptpigmente der Tagetes-Blüten — vor allem Lutein (E161b), aber auch Zeaxanthin und β-Carotin. Industriell extrahiert und in Geflügelfutter (Eidotter-Färbung), Lebensmittelfarbstoffen sowie Nahrungsergänzungsmitteln für die Makuladegenerations-Prophylaxe eingesetzt. T. erecta ist mengenmäßig wichtiger als T. patula, beide Arten enthalten dasselbe Spektrum.",
+        "en": "Main pigments of Tagetes flowers — chiefly lutein (E161b), but also zeaxanthin and β-carotene. Extracted industrially for poultry feed (yolk colouring), food colorants and supplements for macular health. T. erecta is more important by volume, but T. patula shares the same pigment spectrum."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Gesamtöl, hydrodestilliert)",
+      "category": "essential_oil",
+      "percent_range": "0,05-0,15 % der frischen Pflanze",
+      "plant_part": "flower",
+      "note": {
+        "de": "Gesamtgehalt des hydrodestillierten ätherischen Öls aus frischen oberirdischen Teilen — ansteigend von Vorblüte (0,06 %) über Vollblüte (0,07 %) bis Samenreife (0,08 %). Aus 1 ha mit ca. 25 t Kraut und 2,5 t Blüten lassen sich rund 35 kg Öl gewinnen. Komplexes Gemisch aus über 50 Einzelstoffen — Hauptklassen: Monoterpene (Ocimen, Limonen, Tagetone), oxygenierte Monoterpene (Piperiton), Sesquiterpene (β-Caryophyllen) und Thiophene.",
+        "en": "Total hydrodistilled essential oil yield from fresh aerial parts — rising from pre-flowering (0.06 %) through full bloom (0.07 %) to seed set (0.08 %). Some 35 kg of oil per hectare from ~25 t of herbage and 2.5 t of flowers. Complex mixture of more than 50 compounds — main classes: monoterpenes (ocimene, limonene, tagetones), oxygenated monoterpenes (piperitone), sesquiterpenes (β-caryophyllene) and thiophenes."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "An trockenen, sonnigen Vormittagen, sobald der Tau abgetrocknet ist — dann sind ätherisches Öl und Carotinoide am höchsten. Voll geöffnete Blütenköpfe ernten, Stiele möglichst kurz lassen.",
+        "en": "On dry, sunny mornings once the dew has dried — essential oil and carotenoids peak then. Pick fully opened flower heads; keep stalks as short as possible."
+      },
+      "drying": {
+        "de": "TROCKNUNG: Blüten einlagig auf Sieben oder Papier im Schatten ausbreiten, gut belüftet, max. 35 °C — höhere Temperaturen entfärben die Carotinoide und verflüchtigen das ätherische Öl. Dauer 3–7 Tage. Trocken sind die Blüten, wenn sich die Stielchen brechen lassen, ohne nachzugeben. Wer das Imeretische-Safran-Gewürz herstellen will, zupft anschließend die Zungenblüten vom Köpfchen ab und mörsert sie zu Pulver. Lagerung in dunklen, luftdichten Gläsern, kühl unter 20 °C.",
+        "en": "DRYING: Spread flowers in a single layer on screens or paper in the shade, well ventilated, max. 35 °C — higher temperatures fade the carotenoids and drive off the essential oil. Takes 3–7 days. Ready when stalks break without giving. For the Imeretian saffron spice, then pluck off the ray florets and grind them to powder. Store in dark, airtight jars below 20 °C."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Vollständig durchgetrocknete Blüten in dunklen, luftdichten Gläsern bei unter 20 °C — Lagerstabilität ca. 12 Monate. Carotinoide sind licht- und luftempfindlich; bei brauner Verfärbung Qualitätsverlust.",
+        "en": "Fully dried flowers in dark, airtight jars below 20 °C — shelf life about 12 months. Carotenoids are light- and air-sensitive; browning indicates quality loss."
+      }
+    },
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Spätsommer bis Frühherbst, kurz vor dem ersten Frost — beste Phase für Gründüngung und ätherische-Öl-Ausbeute (Samenreifestadium liefert geringfügig höhere Ölausbeute; Wurzelmasse maximal). Trockener, sonniger Tag.",
+        "en": "Late summer to early autumn, just before the first frost — best stage for green manure and essential oil yield (seed-set stage gives marginally higher oil yield; root mass maximal). Dry, sunny day."
+      },
+      "drying": {
+        "de": "GANZE PFLANZE FÜR GRÜNDÜNGUNG: oberirdisch abschneiden, Pflanzenmaterial nicht kompostieren, sondern in den befallenen Boden einarbeiten (Hacktiefe 10–15 cm) — die abgestorbenen Wurzeln und Rückstände setzen weiter Thiophene frei und unterdrücken Wurzelnematoden. Für Eigenherstellung von ätherischem Öl: ganze blühende Pflanze sofort wasserdampfdestillieren (frisch, nicht trocknen); Trocknung reduziert die Ölausbeute deutlich.",
+        "en": "WHOLE PLANT FOR GREEN MANURE: cut above ground, do NOT compost — work the residues into the infested soil (depth 10–15 cm). The decaying roots and material continue to release thiophenes and suppress root nematodes. For home essential-oil production: steam-distil the whole flowering plant immediately (fresh, not dried); drying significantly reduces oil yield."
+      },
+      "storage_condition": {
+        "de": "Für Gründüngung sofort in den Boden eingearbeitet — keine Lagerung sinnvoll.",
+        "en": "Worked straight into the soil for green manure — no useful storage."
+      }
+    }
   ]
 }

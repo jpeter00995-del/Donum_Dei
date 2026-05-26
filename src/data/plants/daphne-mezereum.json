@@ -20,19 +20,135 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-dm-01",
       "target": [
-        "caution"
+        "skin",
+        "joints"
       ],
-      "internal_external": "external",
+      "form": "compress",
+      "plant_part": "bark",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Historische topische Anwendung des Seidelbast-Rinden-Pflasters ('Mezereon-Pflaster', Cortex Mezerei) als Vesikans (Blasenzieher) und Hautreizmittel bei chronischem Rheumatismus, Ischias und Gelenkschmerzen. Die feuchte Rinde wurde nach Maud Grieve (1931) in heisser Essig-Wasser-Mischung erweicht und als Kompresse aufgelegt — innerhalb von 24–48 Stunden bildeten sich Rötung und Blasen, die als ableitende Reiztherapie galten. Bereits etwa 3 cm² Rinde reichen, um eine schwere Hautläsion mit perkutaner Diterpen-Resorption auszulösen. Heute strikt obsolet wegen der unkalkulierbaren systemischen Toxizität von Mezerein und Daphnetoxin.",
+        "en": "Historical topical use of mezereon bark plaster (Cortex Mezerei) as a vesicant (blistering agent) and counter-irritant in chronic rheumatism, sciatica and joint pain. Per Maud Grieve (1931), the moist bark was softened in hot vinegar-water and applied as a compress — within 24–48 hours redness and blisters formed as a derivative irritant therapy. Roughly 3 cm² of bark are sufficient to induce a severe skin lesion with percutaneous diterpene absorption. Strictly obsolete today due to the unpredictable systemic toxicity of mezerein and daphnetoxin."
+      },
+      "preparation": {
+        "ratio": "moist bark, compress",
+        "solvent": "hot vinegar / water"
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-dm-grieve",
+        "src-dm-henriette",
+        "src-dm-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-dm-02",
+      "target": [
+        "skin",
+        "immune"
+      ],
+      "form": "tincture",
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Historische innerliche Anwendung von Decoctum Mezerei und Mezereum-Fluidextrakt im 18. und 19. Jahrhundert als 'Alterativum' bei Syphilis (besonders Mercurio-Syphilis nach Quecksilberkuren), Skrofulose und chronischen Hautkrankheiten. Übliche Dosierung nach King's American Dispensatory (1898): Dekokt 1–3 fluid ounces, Pulver 10 grains, Fluidextrakt 2–10 Tropfen. Trotz dieser sehr niedrigen Dosen gab es regelmässig Vergiftungsfälle. Heute strikt obsolet — therapeutisches Fenster fehlend, kanzerogenes Co-Risiko durch Mezerein als Tumor-Promotor.",
+        "en": "Historical internal use of Decoctum Mezerei and mezereum fluid extract in the 18th and 19th centuries as an 'alterative' for syphilis (especially mercurio-syphilis after mercury treatments), scrofula and chronic skin diseases. Usual dosing per King's American Dispensatory (1898): decoction 1–3 fluid ounces, powder 10 grains, fluid extract 2–10 drops. Despite these very low doses, poisonings were regularly recorded. Strictly obsolete today — no therapeutic window, co-carcinogenic risk via mezerein as tumour promoter."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "70% ethanol"
+      },
+      "source_ids": [
+        "src-dm-grieve",
+        "src-dm-henriette",
+        "src-dm-wiki-de"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-dm-03",
+      "target": [
+        "skin",
+        "joints"
+      ],
+      "form": "tincture",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Verwendung von Mezereum (Urtinktur aus frischer Rinde, geprüft durch Samuel Hahnemann; Verdünnungsstufen typisch D6, D12, D30) bei Herpes zoster (Gürtelrose), neuralgischen Schmerzen nach Zoster, juckenden Ausschlägen mit Krustenbildung und Knochenschmerzen. Ab D6 enthalten Präparate keine pharmakologisch wirksame Diterpen-Menge mehr; in Deutschland, Österreich und der Schweiz arzneimittelrechtlich zugelassen. Urtinktur und Niedrigpotenzen (D1–D3) bleiben hochtoxisch.",
+        "en": "Homeopathic use of Mezereum (mother tincture from fresh bark, proven by Samuel Hahnemann; typical dilution levels D6, D12, D30) for herpes zoster (shingles), post-herpetic neuralgia, itching eruptions with crust formation and bone pain. From D6 onwards preparations contain no pharmacologically active diterpene amount; licensed under medicinal-products law in Germany, Austria and Switzerland. Mother tincture and low potencies (D1–D3) remain highly toxic."
+      },
+      "preparation": {
+        "ratio": "1:100",
+        "solvent": "ethanol/water"
+      },
+      "source_ids": [
+        "src-dm-pfaf",
+        "src-dm-wiki-de"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-dm-04",
+      "target": [
+        "digestion"
+      ],
+      "form": "raw",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frühneuzeitliche Volksmedizin: Verwendung der roten Beeren als drastisches Brech- und Abführmittel — beschrieben unter anderem bei Johannes Lonicer (16. Jahrhundert). Die Beeren wurden in kleiner Zahl gekaut, um Erbrechen und Diarrhö auszulösen; bei Überschreitung der willkürlichen Schwelle traten jedoch Schleimhautverätzungen und systemische Vergiftungen auf. Letale Dosis bei Kindern: 4–5 Beeren; bei Erwachsenen: 10–12 Beeren. Anwendung gilt seit dem späten 19. Jahrhundert als obsolet und gefährlich; reine ethnobotanische Dokumentation.",
+        "en": "Early modern folk medicine: use of the red berries as a drastic emetic and purgative — documented inter alia by Johannes Lonicer (16th century). A few berries were chewed to induce vomiting and diarrhoea; exceeding the arbitrary threshold caused mucosal corrosion and systemic poisoning. Lethal dose in children: 4–5 berries; in adults: 10–12 berries. Considered obsolete and dangerous since the late 19th century; purely ethnobotanical documentation."
+      },
+      "source_ids": [
+        "src-dm-wiki-de",
+        "src-dm-wiki-en",
+        "src-dm-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-dm-05",
+      "target": [
+        "skin"
+      ],
+      "form": "salve",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische Anwendung einer Wurzelrinden-Salbe auf indolente Geschwüre, kalte Abszesse und schlecht heilende Hautläsionen — die Salbe sollte durch chemische Reizung 'Sekretion anregen' und das Abheilen beschleunigen. Maud Grieve und das King's American Dispensatory dokumentieren diese Anwendung; die Reizung beruht auf Mezerein und Daphnetoxin, die durch geschädigte Haut massiv resorbiert werden. Heute strikt kontraindiziert.",
+        "en": "Historical application of a root-bark ointment to indolent ulcers, cold abscesses and poorly healing skin lesions — the ointment was meant to 'excite suppuration' by chemical irritation and accelerate healing. Maud Grieve and King's American Dispensatory document this use; the irritation rests on mezerein and daphnetoxin, which are massively absorbed through damaged skin. Strictly contraindicated today."
+      },
+      "preparation": {
+        "ratio": "1:5",
+        "solvent": "fatty ointment base"
+      },
+      "source_ids": [
+        "src-dm-grieve",
+        "src-dm-henriette",
+        "src-dm-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-dm-06",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "compress",
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Anwendung der erweichten Rinde an wundem Zahnfleisch und bei Zahnschmerzen ('Kellerhals' — Name verweist auf das Brennen im Hals beim Kauen). Die Kaureizung sollte Speichelfluss und 'ableitende' Wirkung erzeugen; tatsächlich entsteht eine heftige Schleimhautverätzung mit Schwellung von Lippen, Zunge und Rachen. Anwendung gilt seit dem 19. Jahrhundert als obsolet.",
+        "en": "Folk-medicinal application of softened bark to sore gums and toothache ('Kellerhals' — the German vernacular name refers to the burning in the throat on chewing). The chewing irritation was meant to produce salivation and a 'derivative' effect; in reality it causes severe mucosal corrosion with swelling of lips, tongue and pharynx. Considered obsolete since the 19th century."
+      },
+      "source_ids": [
+        "src-dm-grieve",
+        "src-dm-wiki-de"
+      ],
+      "internal_external": "external"
     }
   ],
   "season": {
@@ -48,12 +164,97 @@
   },
   "safety": {
     "warnings": {
-      "de": "SEHR GIFTIG (Mezerein, Daphnin) — schon 10-12 rote Beeren können für Erwachsene tödlich sein. Rinde verursacht starke Hautblasen. Beeren sehen verlockend rot aus. NIEMALS sammeln. In Mitteleuropa unter Naturschutz.",
-      "en": "VERY TOXIC (mezerein, daphnin) — just 10-12 red berries can be lethal for adults. Bark causes severe skin blisters. Berries look temptingly red. NEVER collect. Protected species in Central Europe."
+      "de": "HOCHGIFTIG — ALLE PFLANZENTEILE, BESONDERS RINDE, SAMEN UND BEEREN. Daphne mezereum ist eine der gefährlichsten heimischen Wildpflanzen Mitteleuropas. Letale orale Dosis: 4–5 rote Beeren bei Kindern, 10–12 bei Erwachsenen; etwa 30 g Rinde töten ein Pferd. Bereits 3 cm² feuchte Rinde reichen für eine schwere Hautblase mit perkutaner Resorption. Hauptgifte sind die Diterpenester Mezerein und Daphnetoxin (PKC-Aktivierung, Tumor-Promotoren) sowie das Cumarin-Glykosid Daphnin. Symptome: Brennen und Schwellung von Mund, Lippen und Rachen, Schluckbeschwerden, starker Speichelfluss, Übelkeit, Erbrechen, blutige Diarrhö, Bauchkrämpfe, Fieber, Tachykardie; bei schwerer Vergiftung Nierenschaden, ZNS-Lähmung, Kreislaufkollaps. Berührung der Beeren und des Rindensaftes verursacht Hautrötung, Blasen und Dermatitis. Mezerein wirkt im Tierversuch als Tumor-Promotor (zweite Stufe der Karzinogenese). Bei Vergiftungsverdacht: SOFORT Notruf 112 und Giftnotruf kontaktieren. Kein spezifisches Antidot — symptomatische Therapie (Magenspülung in den ersten Stunden, Aktivkohle, Flüssigkeitssubstitution). In Deutschland und Österreich unter Naturschutz (Bundesartenschutzverordnung); im Vereinigten Königreich seit 1975 geschützt.",
+      "en": "HIGHLY TOXIC — ALL PARTS, ESPECIALLY BARK, SEEDS AND BERRIES. Daphne mezereum is one of the most dangerous native wild plants in Central Europe. Lethal oral dose: 4–5 red berries in children, 10–12 in adults; about 30 g of bark kills a horse. As little as 3 cm² of moist bark is enough to produce a severe skin blister with percutaneous absorption. The main toxins are the diterpene esters mezerein and daphnetoxin (PKC activators, tumour promoters) and the coumarin glycoside daphnin. Symptoms: burning and swelling of mouth, lips and throat, dysphagia, hypersalivation, nausea, vomiting, bloody diarrhoea, abdominal cramps, fever, tachycardia; in severe poisoning, kidney damage, CNS paralysis and circulatory collapse. Contact with berries and bark sap causes skin redness, blisters and dermatitis. Mezerein acts as a tumour promoter (second-stage carcinogenesis) in animal experiments. In suspected poisoning: IMMEDIATELY call emergency services and poison control. No specific antidote — symptomatic therapy (gastric lavage within the first hours, activated charcoal, fluid replacement). Protected in Germany and Austria under the Federal Species Protection Ordinance; protected in the United Kingdom since 1975."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Diterpenester (Mezerein, Daphnetoxin) sind potente PKC-Aktivatoren mit Tumor-Promotor-Aktivität; jede orale, dermale oder homöopathische Anwendung unterhalb D6 ist in der Schwangerschaft absolut kontraindiziert. Übergang in die Plazenta sehr wahrscheinlich.",
+        "en": "Diterpene esters (mezerein, daphnetoxin) are potent PKC activators with tumour-promoter activity; any oral, dermal or homeopathic application below D6 is absolutely contraindicated in pregnancy. Placental transfer very likely."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Aufgrund der Diterpen-Toxizität und der ko-karzinogenen Wirkung ist jede Anwendung in der Stillzeit strikt kontraindiziert. Auch Hautkontakt mit Pflanzensaft beim Beschnitt im Garten sollte vermieden werden.",
+        "en": "Due to diterpene toxicity and co-carcinogenic action, any use during lactation is strictly contraindicated. Skin contact with plant sap during garden pruning should also be avoided."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder sind extrem gefährdet — die rotglänzenden Beeren wirken auf Kleinkinder besonders verlockend. Bereits 4–5 Beeren können tödlich sein. Seidelbast darf in Hausgärten mit Kleinkindern nicht gepflanzt werden; falls vorhanden: Beeren konsequent entfernen, vor der Reife abschneiden. Verschluckte Beeren: SOFORT Giftnotruf.",
+        "en": "Children are extremely at risk — the bright-red berries appear particularly tempting to toddlers. As few as 4–5 berries can be fatal. Mezereon must not be planted in home gardens with small children; if present: remove berries consistently, cut before ripening. Berries swallowed: IMMEDIATELY call poison control."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Jede Selbstanwendung des Pflanzenmaterials (Frischpflanze, getrocknete Rinde, Beeren, Tee, hausgemachte Tinktur, Salbe) — absolut kontraindiziert wegen fehlendem therapeutischen Fenster",
+        "en": "Any self-administration of plant material (fresh plant, dried bark, berries, tea, homemade tincture, ointment) — absolutely contraindicated due to absent therapeutic window"
+      },
+      {
+        "de": "Hautläsionen, offene Wunden, Ekzeme — drastisch erhöhte perkutane Resorption von Mezerein und Daphnetoxin",
+        "en": "Skin lesions, open wounds, eczema — drastically increased percutaneous absorption of mezerein and daphnetoxin"
+      },
+      {
+        "de": "Erkrankungen mit Schleimhautläsionen (Gastritis, Ulkus, Colitis) — Mezerein verursacht direkte mukosale Verätzung",
+        "en": "Conditions with mucosal lesions (gastritis, ulcer, colitis) — mezerein causes direct mucosal corrosion"
+      },
+      {
+        "de": "Niereninsuffizienz und Leberinsuffizienz — verzögerte Elimination der Diterpenester",
+        "en": "Renal and hepatic insufficiency — delayed elimination of diterpene esters"
+      },
+      {
+        "de": "Onkologische Vor- oder Begleiterkrankungen — Mezerein als nachgewiesener Tumor-Promotor (PKC-Aktivierung)",
+        "en": "Pre-existing or concurrent oncological conditions — mezerein is an established tumour promoter (PKC activation)"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche (siehe oben)",
+        "en": "Pregnancy, lactation, children and adolescents (see above)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Topische Reizmittel und Rubefacientia (Capsaicin-Pflaster, Senfmehl, Cantharidin)",
+        "mechanism": {
+          "de": "Additive Hautreizung und Blasenbildung; gleichzeitige Anwendung erhöht das Risiko ausgedehnter Verätzungen mit erheblicher perkutaner Resorption der Diterpenester.",
+          "en": "Additive skin irritation and blistering; concurrent use increases the risk of extensive corrosive lesions with substantial percutaneous absorption of the diterpene esters."
+        },
+        "severity": "avoid",
+        "source_id": "src-dm-grieve"
+      },
+      {
+        "drug_class": "Phorbol-Ester-haltige Forschungssubstanzen (TPA / PMA) und PKC-Modulatoren",
+        "mechanism": {
+          "de": "Mezerein und Daphnetoxin aktivieren — wie TPA — die Proteinkinase C dauerhaft. Kombination mit anderen PKC-Aktivatoren führt zu massiver Übersteuerung der PKC-abhängigen Signalwege; in Tumormodellen synergistische Tumor-Promotor-Aktivität. Klinisch nicht relevant, aber für Laborkontakte und Forschung relevant.",
+          "en": "Mezerein and daphnetoxin — like TPA — persistently activate protein kinase C. Combination with other PKC activators causes massive overstimulation of PKC-dependent signalling pathways; in tumour models, synergistic tumour-promoter activity. Clinically irrelevant but relevant for laboratory exposure and research."
+        },
+        "severity": "avoid",
+        "source_id": "src-dm-wiki-mezerein"
+      },
+      {
+        "drug_class": "Antikoagulanzien (Phenprocoumon, Warfarin, DOAKs)",
+        "mechanism": {
+          "de": "Daphnin und Daphnetin sind Hydroxycumarine; auch wenn die pharmakologische Cumarin-Wirkung gering ist, sollte bei innerlicher Belastung an additive Cumarin-Effekte und ein erhöhtes Blutungsrisiko gedacht werden. Theoretisches Risiko, klinisch nicht systematisch untersucht.",
+          "en": "Daphnin and daphnetin are hydroxycoumarins; although their pharmacological coumarin effect is weak, additive coumarin effects and increased bleeding risk should be considered with internal exposure. Theoretical risk, not systematically studied clinically."
+        },
+        "severity": "caution",
+        "source_id": "src-dm-wiki-daphnin"
+      },
+      {
+        "drug_class": "Schleimhaut-reizende Medikamente (NSAR, Bisphosphonate, Kaliumchlorid-Retardpräparate)",
+        "mechanism": {
+          "de": "Mezerein verursacht direkte gastrointestinale Schleimhautverätzung; gleichzeitige Gabe NSAR-bedingt schleimhautschädigender Substanzen vergrössert das Risiko für Ulzera und Blutungen erheblich.",
+          "en": "Mezerein causes direct gastrointestinal mucosal corrosion; concurrent administration of NSAID-related mucosa-damaging substances substantially increases the risk of ulceration and bleeding."
+        },
+        "severity": "avoid",
+        "source_id": "src-dm-wiki-de"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -70,6 +271,78 @@
       "title": "Daphne mezereum (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Daphne_mezereum",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-dm-wiki-de",
+      "type": "wikipedia",
+      "title": "Echter Seidelbast — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Echter_Seidelbast",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-dm-wiki-en",
+      "type": "wikipedia",
+      "title": "Daphne mezereum — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Daphne_mezereum",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-dm-wiki-mezerein",
+      "type": "wikipedia",
+      "title": "Mezerein — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Mezerein",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-dm-wiki-daphnin",
+      "type": "wikipedia",
+      "title": "Daphnin — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Daphnin",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-dm-pfaf",
+      "type": "book",
+      "title": "Plants For A Future — Daphne mezereum",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Daphne+mezereum",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-dm-grieve",
+      "type": "book",
+      "title": "Maud Grieve: A Modern Herbal — Mezereon (botanical.com, 1931)",
+      "url": "https://botanical.com/botanical/mgmh/m/mezere34.html",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-dm-henriette",
+      "type": "book",
+      "title": "Mezereum (U. S. P.) — King's American Dispensatory, 1898 (Henriette's Herbal)",
+      "url": "https://www.henriettes-herb.com/eclectic/kings/daphne-meze.html",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-dm-wikidata",
+      "type": "wikidata",
+      "title": "Daphne mezereum — Wikidata Q165166",
+      "url": "https://www.wikidata.org/wiki/Q165166",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-dm-commons",
+      "type": "commons",
+      "title": "Daphne mezereum — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Daphne_mezereum",
+      "accessed": "2026-05-26",
+      "language": "en"
     }
   ],
   "image": {
@@ -81,5 +354,121 @@
     "license": "Public domain",
     "author": "Unknown",
     "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Daphne_mezereum0.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Mezerein",
+      "category": "other",
+      "percent_range": "ca. 0.1 %",
+      "note": {
+        "de": "Hauptditerpenester (Daphnan-Typ) der Samen und Rinde von Daphne mezereum; C38H38O10, MW 654,7 g/mol. Aktiviert wie das Phorbolester-Analogon TPA die Proteinkinase C persistent (DAG-Imitat, aber nicht abbaubar) — daraus folgt Übersteuerung der PKC-Signalwege und Tumor-Promotor-Aktivität in der zweiten Karzinogenese-Stufe. Verursacht starke Schleimhautverätzung, Erbrechen, Diarrhö und Hautblasen. In Tierexperimenten paradoxe Dosis-Wirkungs-Beziehung: niedrige Dosen wirken pro-tumoral, hohe Dosen können Leukämiezellen differenzieren.",
+        "en": "Main diterpene ester (daphnane-type) of seeds and bark of Daphne mezereum; C38H38O10, MW 654.7 g/mol. Like the phorbol-ester analogue TPA, it persistently activates protein kinase C (a DAG mimetic, but not degradable) — causing overstimulation of PKC signalling and tumour-promoter activity at the second stage of carcinogenesis. Causes severe mucosal corrosion, vomiting, diarrhoea and skin blistering. In animal experiments paradoxical dose-response: low doses act pro-tumorally, high doses can terminally differentiate leukaemia cells."
+      }
+    },
+    {
+      "name": "Daphnetoxin",
+      "category": "other",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Diterpenester der Daphnan-Reihe, vorwiegend in der Rinde. Co-Karzinogen mit Mezerein, PKC-Aktivator. Verantwortlich für die starke Vesikans-Wirkung (Blasenbildung) der frischen Rinde innerhalb von 24–48 Stunden bei Hautkontakt. Wird durch geschädigte Haut rasch perkutan resorbiert und kann systemisch zu Schleimhautläsionen, Tachykardie und Kreislaufkollaps führen.",
+        "en": "Diterpene ester of the daphnane series, predominantly in the bark. Co-carcinogen with mezerein, PKC activator. Responsible for the strong vesicant (blistering) action of fresh bark within 24–48 hours on skin contact. Rapidly absorbed through damaged skin and can cause systemic mucosal lesions, tachycardia and circulatory collapse."
+      }
+    },
+    {
+      "name": "Daphnin",
+      "category": "glycoside",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Cumarin-Glykosid (C15H16O9; Hydroxycumarin-Glykosid des Daphnetins); in Beeren und Zweigen angereichert. Trägt zur GI-Reizung, ZNS-Beteiligung (Verwirrtheit, miotische Pupillen, oberflächliche Atmung, Krampfanfälle) und perkutanen Hautreizung bei. Pharmakologisch dem hochaktiven Daphnetoxin untergeordnet.",
+        "en": "Coumarin glycoside (C15H16O9; hydroxycoumarin glycoside of daphnetin); enriched in berries and twigs. Contributes to GI irritation, CNS involvement (confusion, miosis, shallow breathing, seizures) and percutaneous skin irritation. Pharmacologically subordinate to the highly active daphnetoxin."
+      }
+    },
+    {
+      "name": "Daphnetin (7,8-Dihydroxycumarin)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Aglykon des Daphnins; Hydroxycumarin mit schwacher antioxidativer und in höheren Konzentrationen antikoagulativer Wirkung. In Daphne-mezereum-Material in geringen Mengen. In experimentellen Studien wird Daphnetin als Untersuchungsobjekt für entzündungshemmende und antimalariale Effekte verwendet, aber nicht aus Seidelbast gewonnen.",
+        "en": "Aglycone of daphnin; hydroxycoumarin with weak antioxidant and, at higher concentrations, anticoagulant action. Present in small quantities in Daphne mezereum material. In experimental studies daphnetin is used as a research object for anti-inflammatory and antimalarial effects, but is not obtained from mezereon."
+      }
+    },
+    {
+      "name": "Umbelliferon (7-Hydroxycumarin)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Begleitendes Hydroxycumarin in den Pflanzenteilen; trägt zur typischen UV-Fluoreszenz wässriger Rindenauszüge bei. Pharmakologisch gegenüber den Diterpenestern untergeordnet.",
+        "en": "Companion hydroxycoumarin in the plant parts; contributes to the typical UV fluorescence of aqueous bark extracts. Pharmacologically subordinate to the diterpene esters."
+      }
+    },
+    {
+      "name": "Fettes Samenöl",
+      "category": "other",
+      "percent_range": "bis 31 %",
+      "note": {
+        "de": "Die Samen enthalten bis zu 31 % fettes Öl, das jedoch wegen der gleichzeitig vorhandenen hochtoxischen Diterpenester nicht nutzbar ist. Keine technische oder kulinarische Verwendung.",
+        "en": "The seeds contain up to 31 % fatty oil, but this is not usable due to the highly toxic diterpene esters also present. No technical or culinary use."
+      }
+    },
+    {
+      "name": "Sitosterol und Triterpene",
+      "category": "other",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Begleitende Phytosterole und Triterpene in Rinde und Wurzelrinde; pharmakologisch nicht relevant gegenüber den Diterpenestern, werden aber in Phytochemie-Analysen regelmässig nachgewiesen.",
+        "en": "Companion phytosterols and triterpenes in bark and root bark; pharmacologically irrelevant compared to the diterpene esters but routinely detected in phytochemical analyses."
+      }
+    },
+    {
+      "name": "Akrides Harz ('Mezereum-Harz')",
+      "category": "other",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "In King's American Dispensatory (1898) als 'acrid resin, soluble in alcohol and ether, insoluble in water' beschrieben — heute als Diterpen-Estergemisch (Mezerein, Daphnetoxin, verwandte Verbindungen) identifiziert. Trägt die gesamte vesikante und systemische Toxizität der Droge.",
+        "en": "Described in King's American Dispensatory (1898) as 'acrid resin, soluble in alcohol and ether, insoluble in water' — today identified as a diterpene ester mixture (mezerein, daphnetoxin, related compounds). Carries the entire vesicant and systemic toxicity of the drug."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "bark",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Im Herbst nach Abwurf der Beeren, an trockenen Tagen — historische Rinden-Drogenernte für pharmazeutische Verarbeitung. KEINE Laienernte.",
+        "en": "In autumn after berry drop, on dry days — historical bark-drug harvest for pharmaceutical processing. NO lay harvest."
+      },
+      "drying": {
+        "de": "Rinde in dünnen Streifen auf Trockenhorden bei max. 40 °C im Schatten trocknen. UNDURCHLÄSSIGE SCHUTZHANDSCHUHE PFLICHT — frischer Rindensaft erzeugt nach 24–48 h Hautblasen mit perkutaner Diterpen-Resorption. Aerosolexposition beim Schneiden vermeiden (Atemschutz tragen). Getrocknete Rinde behält ihre Toxizität jahrelang und muss in eindeutig als GIFTIG gekennzeichneten Behältern verwahrt werden — ausserhalb der Reichweite von Kindern und Haustieren.",
+        "en": "Dry bark in thin strips on drying racks at max. 40 °C in shade. IMPERMEABLE PROTECTIVE GLOVES MANDATORY — fresh bark sap produces skin blisters with percutaneous diterpene absorption after 24–48 h. Avoid aerosol exposure when cutting (wear respirator). Dried bark retains toxicity for years and must be stored in containers clearly marked TOXIC — out of reach of children and pets."
+      },
+      "notes": {
+        "de": "KEINE LAIENVERWENDUNG. Daphne mezereum steht in Deutschland, Österreich und Grossbritannien unter Naturschutz — Wildernten sind verboten. Pharmazeutische Drogen werden ausschliesslich aus kontrolliertem Anbau gewonnen.",
+        "en": "NO LAY USE. Daphne mezereum is legally protected in Germany, Austria and the United Kingdom — wild harvesting is prohibited. Pharmaceutical drugs are obtained exclusively from controlled cultivation."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Reife Beeren ab Hochsommer (Juli–September). Erntung nur zu botanischen oder pharmazeutischen Zwecken; im Garten Beeren konsequent vor der Reife abschneiden, wenn Kinder oder Haustiere Zugang haben.",
+        "en": "Ripe berries from high summer (July–September). Harvest only for botanical or pharmaceutical purposes; in the garden, cut berries consistently before ripening when children or pets have access."
+      },
+      "drying": {
+        "de": "Wegen Mezerein- und Daphnin-Gehalt nicht für häusliche Verwendung trocknen. Pharmazeutische Verarbeitung unter Schutzausrüstung und in geschlossenen Anlagen.",
+        "en": "Do not dry for domestic use due to mezerein and daphnin content. Pharmaceutical processing under protective equipment and in closed facilities."
+      },
+      "notes": {
+        "de": "Bereits 4–5 Beeren töten ein Kind, 10–12 einen Erwachsenen. Beeren niemals als 'wilde Frucht' verzehren oder zur Marmelade verarbeiten. Verwechslungsgefahr mit Johannisbeeren und Hagebutten bei Laien.",
+        "en": "As few as 4–5 berries kill a child, 10–12 an adult. Never consume berries as 'wild fruit' or process into jam. Risk of confusion with redcurrants and rosehips by laypersons."
+      }
+    }
+  ]
 }

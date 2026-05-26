@@ -20,19 +20,155 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-ia-01",
       "target": [
-        "caution"
+        "fever",
+        "respiratory"
       ],
-      "internal_external": "external",
+      "form": "tea",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Historische Anwendung getrockneter Stechpalmenblätter als Aufguss bei Wechselfieber (intermittierendem Fieber, Malaria), Pleuritis, Katarrh und Bronchitis — nach Maud Grieve (1931) wirkte der Tee 'diaphoretisch, expektorierend, febrifug und tonisch'. Bereits seit dem 16. Jahrhundert in Mitteleuropa als Hausmittel gegen Wechselfieber dokumentiert. Im Schwarzwald wurde der Aufguss zudem als Teesurrogat getrunken. Heute obsolet — moderne Antipyretika und Antibiotika sind sicherer und wirksamer; der Tee enthält Saponine und in Spuren methylierte Xanthine, weshalb Selbstanwendung wegen Brech-/Durchfallrisiko und Verwechslungsgefahr mit Beeren unsicher ist.",
+        "en": "Historical use of dried holly leaves as an infusion for intermittent fever (malaria), pleurisy, catarrh and bronchitis — per Maud Grieve (1931) the tea acted as 'diaphoretic, expectorant, febrifuge and tonic'. Documented as a Central European household remedy for intermittent fever since the 16th century. In the Black Forest the infusion was also drunk as a tea substitute. Obsolete today — modern antipyretics and antibiotics are safer and more effective; the tea contains saponins and trace methylxanthines, making self-administration unsafe due to emesis/diarrhoea risk and confusion with berries."
+      },
+      "preparation": {
+        "ratio": "1:20",
+        "solvent": "hot water",
+        "water_ml": 250,
+        "steep_min": 10
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-ia-grieve",
+        "src-ia-pfaf",
+        "src-ia-wiki-de"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ia-02",
+      "target": [
+        "joints"
+      ],
+      "form": "tea",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Volksmedizinische Anwendung von Stechpalmen-Blatt-Aufgüssen bei chronischem Rheumatismus und Gicht — die enthaltenen Triterpene (Ursolsäure, Oleanolsäure) und Saponine wurden für eine schwach harntreibende und entzündungshemmende Wirkung verantwortlich gemacht. In Katalonien (Region Pallars) wurde der Blatttee folkloristisch zur Schmerzlinderung verwendet. Heute obsolet — die schwache Wirkung steht in keinem Verhältnis zum Vergiftungsrisiko bei Verwechslung mit Beeren.",
+        "en": "Folk-medicinal use of holly leaf infusions for chronic rheumatism and gout — the triterpenes (ursolic acid, oleanolic acid) and saponins were credited with a weak diuretic and anti-inflammatory action. In the Catalan region of Pallars the leaf tea was used folkloristically for pain relief. Obsolete today — the weak effect is disproportionate to the poisoning risk if berries are confused."
+      },
+      "preparation": {
+        "ratio": "1:20",
+        "solvent": "hot water",
+        "water_ml": 250,
+        "steep_min": 10
+      },
+      "source_ids": [
+        "src-ia-grieve",
+        "src-ia-pfaf",
+        "src-ia-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ia-03",
+      "target": [
+        "liver"
+      ],
+      "form": "raw",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Anwendung von ausgepresstem Saft frischer Stechpalmenblätter bei Gelbsucht (Ikterus) — Maud Grieve dokumentiert: 'The juice of the fresh leaves has been successfully used in the treatment of jaundice.' Im englischen Kräuterwesen des 17.–19. Jahrhunderts verbreitet. Pharmakologisch nicht belegt; heute obsolet, weil Gelbsucht meist Symptom einer behandlungsbedürftigen Grunderkrankung ist.",
+        "en": "Folk-medicinal use of pressed juice of fresh holly leaves for jaundice — Maud Grieve documents: 'The juice of the fresh leaves has been successfully used in the treatment of jaundice.' Widespread in English herbalism of the 17th–19th centuries. Not pharmacologically substantiated; obsolete today because jaundice is usually a symptom of an underlying disease requiring treatment."
+      },
+      "source_ids": [
+        "src-ia-grieve",
+        "src-ia-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ia-04",
+      "target": [
+        "digestion"
+      ],
+      "form": "raw",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische Anwendung weniger Beeren als drastisches Brech- und Abführmittel sowie volksmedizinisch gegen Wassersucht (Dropsy) und 'Verstopfung'. Maud Grieve und PFAF beschreiben die Beeren als 'violently emetic and purgative'. Bereits 2–3 Beeren reichen bei Kindern für heftiges Erbrechen; 5–10 für ausgeprägte Vergiftungssymptome. Wegen des hohen Vergiftungsrisikos heute strikt obsolet — reine ethnobotanische Dokumentation.",
+        "en": "Historical use of a few berries as a drastic emetic and purgative, and folk-medicinally for dropsy and 'constipation'. Maud Grieve and PFAF describe the berries as 'violently emetic and purgative'. As few as 2–3 berries cause severe vomiting in children; 5–10 cause marked poisoning symptoms. Strictly obsolete today due to high poisoning risk — pure ethnobotanical documentation."
+      },
+      "source_ids": [
+        "src-ia-grieve",
+        "src-ia-pfaf",
+        "src-ia-wiki-de"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ia-05",
+      "target": [
+        "urinary"
+      ],
+      "form": "tea",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Anwendung von Wurzelabsuden als schwaches Diuretikum bei Wassersucht und Harnverhalt. PFAF bewertet die diuretische Wirkung als gering und führt 'bessere Alternativen' an. Wegen der unsystematischen Datenlage und der Saponin-Belastung heute obsolet.",
+        "en": "Folk-medicinal use of root decoctions as a mild diuretic for dropsy and urinary retention. PFAF rates the diuretic action as weak and cites 'better alternatives'. Obsolete today due to unsystematic data and saponin load."
+      },
+      "preparation": {
+        "ratio": "1:20",
+        "solvent": "hot water",
+        "water_ml": 250,
+        "steep_min": 15
+      },
+      "source_ids": [
+        "src-ia-pfaf",
+        "src-ia-grieve"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ia-06",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Verwendung als Bach-Blüten-Essenz 'Holly' (eines der 38 Bach-Blütenmittel nach Edward Bach, 1930er): empfohlen bei intensiven negativen Gefühlszuständen wie Hass, Eifersucht, Neid und Misstrauen. Herstellung der Stammtinktur durch Sonnen- oder Kochmethode aus den Blüten. In den Bach-Essenz-Verdünnungen sind keine pharmakologisch aktiven Mengen enthalten — kein toxisches Risiko, jedoch auch kein wissenschaftlich belegter Wirknachweis. Reine Dokumentation der traditionellen Anwendung.",
+        "en": "Use as Bach flower essence 'Holly' (one of the 38 Bach remedies by Edward Bach, 1930s): recommended for intense negative emotional states such as hatred, jealousy, envy and suspicion. Mother tincture prepared from flowers by the sun or boiling method. Bach essence dilutions contain no pharmacologically active amounts — no toxic risk, but also no scientifically established efficacy. Purely documentation of traditional use."
+      },
+      "preparation": {
+        "ratio": "1:240",
+        "solvent": "brandy/water (Bach method)"
+      },
+      "source_ids": [
+        "src-ia-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ia-07",
+      "target": [
+        "skin"
+      ],
+      "form": "raw",
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische nicht-medizinische Anwendung: aus der vergorenen Rinde junger Stechpalmen-Triebe wurde im englischen Lake District bis ins 19. Jahrhundert Vogelleim ('birdlime') hergestellt, mit dem kleine Vögel auf Zweigen klebend gefangen wurden. Heute ethisch und rechtlich verboten; reine ethnografische Dokumentation. Hautkontakt mit der Vogelleim-Paste kann gereizt-allergische Reaktionen auslösen.",
+        "en": "Historical non-medicinal use: until the 19th century, birdlime was made from fermented bark of young holly shoots in the English Lake District, used to trap small birds by sticking them to twigs. Today ethically and legally prohibited; purely ethnographic documentation. Skin contact with the birdlime paste can cause irritant-allergic reactions."
+      },
+      "source_ids": [
+        "src-ia-grieve",
+        "src-ia-wiki-en"
+      ],
+      "internal_external": "external"
     }
   ],
   "season": {
@@ -49,12 +185,93 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG (Ilicin, Saponine) — rote Beeren. Klassische Weihnachtsdekoration im Haus — Kinder und Haustiere gefährdet. Schon 5-10 Beeren verursachen heftiges Erbrechen, Durchfall, Schläfrigkeit bei Kindern. Bei Hunden und Katzen ebenfalls toxisch. Die stachligen Blätter sind weniger gefährlich, aber ungenießbar.",
-      "en": "TOXIC (ilicin, saponins) — red berries. Classic Christmas decoration indoors — children and pets at risk. Just 5-10 berries cause severe vomiting, diarrhoea, drowsiness in children. Also toxic for dogs and cats. The spiny leaves are less dangerous but inedible."
+      "de": "GIFTIG — BESONDERS BEEREN UND SAMENSTEINE. Ilex aquifolium ist eine der häufigsten Vergiftungspflanzen in Haushalten zur Weihnachtszeit, weil die zweighaltigen Dekorationen Beeren tragen. Die roten Beeren enthalten Triterpensaponine, Ilicin und in Spuren methylierte Xanthine (Theobromin-verwandte Verbindungen). Symptome bei Verschlucken: Übelkeit, heftiges Erbrechen, krampfartige Bauchschmerzen, Diarrhö (zum Teil blutig), Schläfrigkeit und 'Stupor' bei Kindern; in der älteren Literatur sind auch Herzrhythmusstörungen, Lähmungserscheinungen und Nierenschäden beschrieben. Beeren-Dosierungs-Schwellen aus der toxikologischen Literatur: bei Kindern bereits 2–3 Beeren symptomatisch, 5–10 Beeren mit ausgeprägter Vergiftung, 20+ Beeren potenziell schwerwiegend. Die Samensteine sind besonders riskant, weil sie das gesamte Saponingemisch konzentriert tragen und nicht verdaut werden. Aktuelle BfR/Wikipedia-DE-Einschätzung: 'als gering giftig eingestuft' — gilt nur für Erwachsene und kleine Beeren-Mengen; für Kinder und Haustiere weiterhin als toxisch zu behandeln. Stachelige Blätter sind weniger akut giftig, aber ungeniessbar — Verletzungsgefahr im Mundraum durch die scharfen Blattstacheln. Bei Vergiftungsverdacht: Giftnotruf kontaktieren. Therapie symptomatisch (Aktivkohle, Flüssigkeitssubstitution). Bei Haustieren immer sofort Tierarzt: Hunde reagieren mit Erbrechen, Diarrhö, Tremor und Hypersalivation; Katzen ähnlich, oft schwerer wegen geringerer Körpermasse; Pferde reagieren mit Koliken. Pflanze in Deutschland seit 1936 unter Naturschutz (Bundesartenschutzverordnung) — wildes Sammeln in der Natur verboten.",
+      "en": "TOXIC — ESPECIALLY BERRIES AND SEED STONES. Ilex aquifolium is one of the most frequent household poisoning plants at Christmas because branch decorations carry berries. The red berries contain triterpene saponins, ilicin and traces of methylated xanthines (theobromine-related compounds). Symptoms after ingestion: nausea, severe vomiting, cramping abdominal pain, diarrhoea (partly bloody), drowsiness and 'stupor' in children; older literature also describes cardiac arrhythmias, paralysis-like symptoms and kidney damage. Berry dose thresholds from the toxicological literature: in children, as few as 2–3 berries are symptomatic, 5–10 cause marked poisoning, 20+ are potentially serious. The seed stones are especially risky because they carry the entire saponin mixture in concentrated form and are not digested. Current BfR / Wikipedia-DE assessment: 'rated as mildly toxic' — applies only to adults and small berry quantities; for children and pets still to be treated as toxic. The spiny leaves are less acutely toxic but inedible — risk of mouth injury from the sharp leaf spines. In suspected poisoning: contact poison control. Therapy is symptomatic (activated charcoal, fluid replacement). For pets, always see a veterinarian immediately: dogs respond with vomiting, diarrhoea, tremor and hypersalivation; cats similarly, often more severely due to lower body mass; horses respond with colic. The plant has been legally protected in Germany since 1936 (Federal Species Protection Ordinance) — wild collection in nature is prohibited."
     },
-    "external_only": true,
+    "external_only": false,
     "toxicity_level": "toxic",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Triterpensaponine wirken uteruskontrahierend und mukös-reizend; die emetische Wirkung der Beeren kann Erbrechen und Dehydratation auslösen. Jede Selbstanwendung in der Schwangerschaft ist kontraindiziert. Wildbeeren strikt meiden.",
+        "en": "Triterpene saponins are uterotonic and mucosally irritant; the emetic action of the berries can trigger vomiting and dehydration. Any self-administration during pregnancy is contraindicated. Strictly avoid wild berries."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Wegen der Saponin-Toxizität und der unbekannten Pharmakokinetik in der Muttermilch sollte jede innerliche Anwendung in der Stillzeit vermieden werden. Weihnachtsdekorationen mit Beeren in stillenden Haushalten ausserhalb der Reichweite von Krabbelkindern aufstellen.",
+        "en": "Due to saponin toxicity and unknown pharmacokinetics in breast milk, any internal use during lactation should be avoided. In households with breastfeeding mothers, Christmas decorations with berries should be kept out of reach of crawling infants."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Die rot leuchtenden Beeren der Weihnachtsdekoration wirken auf Kleinkinder besonders anziehend — Ilex aquifolium gehört zu den häufigsten gemeldeten Pflanzenvergiftungen bei Kindern im Dezember. Bereits 2–3 Beeren lösen heftiges Erbrechen aus. Adventskränze, Dekostecker und Tischschmuck mit Stechpalmen-Beeren ausser Reichweite halten oder besser ohne Beeren wählen. Bei Verschlucken: SOFORT Giftnotruf (z. B. Berlin 030-19240, Wien 01-406-43-43, Bonn 0228-19240).",
+        "en": "The bright-red berries of Christmas decoration are particularly attractive to small children — Ilex aquifolium is one of the most frequently reported plant poisonings in children in December. As few as 2–3 berries trigger severe vomiting. Advent wreaths, decorative picks and table arrangements with holly berries should be kept out of reach or preferably chosen without berries. If swallowed: IMMEDIATELY call poison control."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Jede Selbstanwendung der Beeren oder Beerenstein-haltiger Zubereitungen — wegen Saponin-Konzentration und Vergiftungsrisiko",
+        "en": "Any self-administration of berries or seed-stone-containing preparations — due to saponin concentration and poisoning risk"
+      },
+      {
+        "de": "Bestehende gastrointestinale Erkrankungen (Gastritis, Ulkus, Reizdarm) — Saponine wirken schleimhautreizend und können Symptome akut verschlimmern",
+        "en": "Existing gastrointestinal disorders (gastritis, ulcer, irritable bowel) — saponins are mucosa-irritant and can acutely worsen symptoms"
+      },
+      {
+        "de": "Niereninsuffizienz — verzögerte Elimination der Saponine und potenzielle direkte Nephrotoxizität bei höheren Beeren-Dosen",
+        "en": "Renal insufficiency — delayed elimination of saponins and potential direct nephrotoxicity at higher berry doses"
+      },
+      {
+        "de": "Haustiere im Haushalt — besonders Hunde, Katzen, Vögel, kleine Säuger; Beeren-Dekoration ausser Reichweite",
+        "en": "Pets in the household — especially dogs, cats, birds, small mammals; keep berry decorations out of reach"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche (siehe oben)",
+        "en": "Pregnancy, lactation, children and adolescents (see above)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Saponin-haltige Phytopharmaka (Süssholz, Hedera-Efeu, Quillaja) und Saponin-haltige Lebensmittel",
+        "mechanism": {
+          "de": "Additive Schleimhautreizung und additive emetische Wirkung; kombinierte hohe Saponin-Belastung kann zu starken gastrointestinalen Beschwerden und vermehrter Resorption über geschädigte Mukosa führen.",
+          "en": "Additive mucosal irritation and additive emetic effect; combined high saponin load can lead to severe gastrointestinal complaints and increased absorption across damaged mucosa."
+        },
+        "severity": "caution",
+        "source_id": "src-ia-pfaf"
+      },
+      {
+        "drug_class": "Diuretika (Schleifendiuretika, Thiazide)",
+        "mechanism": {
+          "de": "Stechpalmen-Zubereitungen wirken schwach harntreibend und gastrointestinal-Flüssigkeitsverlust-fördernd; bei gleichzeitiger Diuretika-Therapie steigen Risiko für Hypovolämie, Hyponatriämie und Hypokaliämie.",
+          "en": "Holly preparations are weakly diuretic and promote GI fluid loss; with concurrent diuretic therapy the risk of hypovolaemia, hyponatraemia and hypokalaemia rises."
+        },
+        "severity": "caution",
+        "source_id": "src-ia-grieve"
+      },
+      {
+        "drug_class": "Methylxanthine-Stimulantien (Theophyllin, Coffein-Tabletten, hohe Kaffee-/Mate-Mengen)",
+        "mechanism": {
+          "de": "Blätter und Beeren enthalten in Spuren Theobromin und verwandte methylierte Xanthine; bei gleichzeitiger Einnahme anderer Methylxanthine sind additive Effekte (Tachykardie, Unruhe, Schlafstörung) möglich. Theoretisches Risiko, klinisch bei normalen Verzehrmengen unbedeutend.",
+          "en": "Leaves and berries contain trace amounts of theobromine and related methylated xanthines; with concurrent intake of other methylxanthines, additive effects (tachycardia, restlessness, sleep disturbance) are possible. Theoretical risk, clinically insignificant at normal exposure."
+        },
+        "severity": "monitor",
+        "source_id": "src-ia-wiki-de"
+      },
+      {
+        "drug_class": "Veterinärmedizin: Theobromin-empfindliche Tierarten (Hunde, Katzen, Pferde)",
+        "mechanism": {
+          "de": "Hunde und Katzen metabolisieren methylierte Xanthine deutlich langsamer als Menschen; auch wenn der Theobromin-Gehalt von Ilex aquifolium gering ist, addiert sich die Belastung mit anderen Theobromin-Quellen (Schokolade, Kakao). Klinisch jedoch dominiert die Saponin-Toxizität (Erbrechen, Diarrhö, Tremor). Beeren komplett von Haustier-Bereichen fernhalten.",
+          "en": "Dogs and cats metabolise methylated xanthines markedly more slowly than humans; even though the theobromine content of Ilex aquifolium is low, the load adds to other theobromine sources (chocolate, cocoa). Clinically, however, saponin toxicity dominates (vomiting, diarrhoea, tremor). Keep berries completely away from pet areas."
+        },
+        "severity": "avoid",
+        "source_id": "src-ia-wiki-theobromine"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -71,6 +288,62 @@
       "title": "Ilex aquifolium (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Ilex_aquifolium",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-ia-wiki-de",
+      "type": "wikipedia",
+      "title": "Europäische Stechpalme — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Europ%C3%A4ische_Stechpalme",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-ia-wiki-en",
+      "type": "wikipedia",
+      "title": "Ilex aquifolium — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Ilex_aquifolium",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ia-wiki-theobromine",
+      "type": "wikipedia",
+      "title": "Theobromine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Theobromine",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ia-pfaf",
+      "type": "book",
+      "title": "Plants For A Future — Ilex aquifolium",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ilex+aquifolium",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ia-grieve",
+      "type": "book",
+      "title": "Maud Grieve: A Modern Herbal — Holly (botanical.com, 1931)",
+      "url": "https://botanical.com/botanical/mgmh/h/holly-28.html",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ia-wikidata",
+      "type": "wikidata",
+      "title": "Ilex aquifolium — Wikidata Q192190",
+      "url": "https://www.wikidata.org/wiki/Q192190",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ia-commons",
+      "type": "commons",
+      "title": "Ilex aquifolium — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Ilex_aquifolium",
+      "accessed": "2026-05-26",
+      "language": "en"
     }
   ],
   "image": {
@@ -82,5 +355,121 @@
     "license": "Public domain",
     "author": "Unknown",
     "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Ilex_aquifolium0.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Triterpensaponine (Saponin-Gemisch)",
+      "category": "saponin",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Hauptwirk- und Hauptgiftstoff-Klasse in Beeren und Blättern. Triterpensaponine reizen die gastrointestinale Schleimhaut, lösen Erbrechen und Diarrhö aus und können in höheren Konzentrationen Erythrozytenmembranen schädigen (hämolytischer Effekt). Die emetisch-purgative Wirkung der Beeren beruht hauptsächlich auf diesem Saponin-Gemisch.",
+        "en": "Main active and toxic principle class in berries and leaves. Triterpene saponins irritate the GI mucosa, trigger vomiting and diarrhoea and can damage erythrocyte membranes at higher concentrations (haemolytic effect). The emetic-purgative action of the berries rests mainly on this saponin mixture."
+      }
+    },
+    {
+      "name": "Ilicin",
+      "category": "bitter",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Bitterstoff, der den herben Geschmack unreifer Beeren prägt und nach Frost an Intensität abnimmt. In der älteren Literatur als Hauptträger der 'tonischen' Wirkung im Stechpalmen-Tee diskutiert; chemisch nicht eindeutig identifiziert, vermutlich ein Triterpen-Glykosid.",
+        "en": "Bitter principle responsible for the harsh taste of unripe berries; intensity decreases after frost. In older literature discussed as the main carrier of the 'tonic' action of holly tea; chemically not unambiguously identified, presumably a triterpene glycoside."
+      }
+    },
+    {
+      "name": "Ursolsäure",
+      "category": "other",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Pentazyklisches Triterpen in Blattcuticula und Wachsschicht; antioxidative, antiinflammatorische und schwach antimikrobielle Eigenschaften in In-vitro-Studien. Trägt zur schwachen anti-rheumatischen Volksanwendung bei. Pharmakologisch isoliert untersucht (auch aus Salbei, Rosmarin), nicht spezifisch aus Stechpalme.",
+        "en": "Pentacyclic triterpene in leaf cuticle and wax layer; antioxidant, anti-inflammatory and weakly antimicrobial properties in in-vitro studies. Contributes to the weak anti-rheumatic folk use. Pharmacologically studied in isolation (also from sage, rosemary), not specifically from holly."
+      }
+    },
+    {
+      "name": "Oleanolsäure",
+      "category": "other",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Pentazyklisches Triterpen in Blättern; chemisches Isomer der Ursolsäure mit ähnlichen antioxidativen und entzündungshemmenden In-vitro-Eigenschaften. Trägt zum Triterpen-Profil der Pflanze bei.",
+        "en": "Pentacyclic triterpene in leaves; chemical isomer of ursolic acid with similar antioxidant and anti-inflammatory in-vitro properties. Contributes to the plant's triterpene profile."
+      }
+    },
+    {
+      "name": "Theobromin (und verwandte Methylxanthine)",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Spuren methylierter Xanthine sind innerhalb der Gattung Ilex beschrieben — bei Ilex paraguariensis (Mate), Ilex guayusa und Ilex vomitoria deutlich angereichert, bei Ilex aquifolium nur in Spuren. Hunde und Katzen metabolisieren Theobromin langsam — daher tiertoxikologisch relevant, klinisch beim Menschen aber unbedeutend.",
+        "en": "Trace amounts of methylated xanthines are described within the genus Ilex — markedly enriched in Ilex paraguariensis (mate), Ilex guayusa and Ilex vomitoria, only in traces in Ilex aquifolium. Dogs and cats metabolise theobromine slowly — therefore veterinary-toxicologically relevant, but clinically insignificant in humans."
+      }
+    },
+    {
+      "name": "Coffeesäure (Caffeic acid)",
+      "category": "phenolic_acid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Phenolische Säure in den Beeren und Blättern, beschrieben in Phytochemie-Publikationen zur Gattung Ilex. Trägt zum antioxidativen Profil der Pflanze bei, hat aber für die Toxikologie keine praktische Bedeutung.",
+        "en": "Phenolic acid in berries and leaves, described in phytochemical publications on the genus Ilex. Contributes to the antioxidant profile but has no practical toxicological significance."
+      }
+    },
+    {
+      "name": "Ilixanthin (gelbes Pigment)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Gelblich-oranges Pigment in den Beeren, in der Wikipedia-Quelle erwähnt; flavonoidartige Struktur. Pharmakologisch nicht spezifisch untersucht, dient der Beerenfärbung.",
+        "en": "Yellow-orange pigment in the berries, mentioned in the Wikipedia source; flavonoid-like structure. Not specifically studied pharmacologically, contributes to berry colouration."
+      }
+    },
+    {
+      "name": "Rutin und weitere Flavonoid-Glykoside",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Begleitende Flavonoide in Blättern und Beeren; antioxidative Aktivität in vitro. Tragen zum allgemeinen Flavonoid-Profil bei, sind aber für die Toxikologie ohne Bedeutung.",
+        "en": "Companion flavonoids in leaves and berries; antioxidant activity in vitro. Contribute to the general flavonoid profile but are of no toxicological significance."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Vormittags an trockenen Tagen vor Mittag — Blätter behalten Triterpen- und Wachsgehalt; nur frische, unverwelkte Blätter ohne Beerenbehang sammeln. In Deutschland und Österreich wegen Naturschutz nicht in der freien Natur ernten — nur aus dem eigenen Garten oder Gartenbaubetrieb.",
+        "en": "Morning hours on dry days before noon — leaves retain triterpene and wax content; collect only fresh, unwilted leaves without berry attachments. In Germany and Austria, do not harvest from the wild due to protection laws — only from one's own garden or horticultural source."
+      },
+      "drying": {
+        "de": "Blätter im Schatten bei max. 40 °C trocknen; Stacheln am Blattrand bleiben auch nach Trocknung gefährlich (Mund- und Halsverletzung). Schutzhandschuhe tragen.",
+        "en": "Dry leaves in shade at max. 40 °C; the spines on the leaf margin remain dangerous even after drying (mouth and throat injury). Wear protective gloves."
+      },
+      "notes": {
+        "de": "Historisch für Wechselfieber- und Rheuma-Tee genutzt. Heute keine Laienverwendung empfohlen — die Wirkung ist schwach und das Verwechslungsrisiko mit anderen Ilex-Arten oder beerenhaltigen Zweigen erhöht das Vergiftungsrisiko.",
+        "en": "Historically used for intermittent-fever and rheumatism tea. No lay use recommended today — the effect is weak and the risk of confusion with other Ilex species or berry-bearing twigs increases poisoning risk."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "Reife rote Beeren ab Oktober bis Dezember — vor allem an weiblichen Pflanzen, da Ilex aquifolium zweihäusig (diözisch) ist und nur weibliche Exemplare Beeren tragen. Beeren bleiben bis in den Winter hinein an den Zweigen, daher die christlich-symbolische Verwendung zur Weihnachtszeit. KEINE Ernte zur Nahrungs- oder Hausmittel-Verwendung — nur als Dekoration und unter strenger Kindersicherung.",
+        "en": "Ripe red berries from October to December — especially on female plants, since Ilex aquifolium is dioecious and only female specimens bear berries. Berries persist on the twigs well into winter, hence the Christian-symbolic use at Christmas. NO harvest for food or home-remedy use — only as decoration and under strict child-proofing."
+      },
+      "drying": {
+        "de": "Beeren werden zur Dekoration NICHT getrocknet, sondern an frischen Zweigen verwendet; die Beeren schrumpeln in warmen Wohnräumen, bleiben aber giftig. Nach Dekorationsende kompostieren oder mit Restmüll entsorgen — nicht in Vogel- oder Wildfutterstellen werfen.",
+        "en": "Berries are NOT dried for decoration but used on fresh twigs; berries shrink in warm indoor rooms but remain toxic. After decoration use, compost or dispose with household waste — do not throw into bird-feeding or wildlife stations."
+      },
+      "notes": {
+        "de": "Adventskränze und Weihnachts-Gestecke mit Stechpalmen-Beeren in Haushalten mit Kindern und Haustieren ausser Reichweite aufstellen oder besser ohne Beeren wählen. Heruntergefallene Beeren sofort einsammeln.",
+        "en": "Place advent wreaths and Christmas arrangements with holly berries out of reach in households with children and pets, or better choose without berries. Pick up fallen berries immediately."
+      }
+    }
+  ]
 }

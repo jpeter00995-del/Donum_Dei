@@ -22,17 +22,200 @@
     {
       "form": "tea",
       "target": [
-        "nerves",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "In der mexikanischen Volksmedizin ist Salvia elegans (lokal 'mirto' / 'mirto de monte') ein klassisches Tee-Kraut bei Angstzuständen, nervöser Unruhe, Stress und leichten depressiven Verstimmungen. Ein experimenteller hydroalkoholischer Auszug von Blättern und Blüten zeigte im Tiermodell (Maus/Ratte) anxiolytische und antidepressive Effekte (Herrera-Ruiz 2006). Süsslich-fruchtiges Aroma — wird auch als Beruhigungs-Hausmittel vor dem Schlafengehen getrunken.",
+        "en": "In Mexican folk medicine, Salvia elegans (locally 'mirto' / 'mirto de monte') is a classical tea herb for anxiety, nervous restlessness, stress and mild depressive mood. An experimental hydroalcoholic extract of leaves and flowers showed anxiolytic and antidepressant-like effects in animal models (Herrera-Ruiz 2006). Sweet, fruity aroma — also drunk as a bedtime calming household remedy."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 8,
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "1-2 g (1 TL) getrocknete oder 2-3 frische Blätter (mit Blüten, wenn vorhanden) mit 200 ml kochendem Wasser übergiessen, zugedeckt 8 Minuten ziehen lassen, abseihen. 1-2 Tassen täglich, gerne abends 30-60 Minuten vor dem Schlafengehen.",
+          "en": "Pour 200 ml boiling water over 1-2 g (1 tsp) dried or 2-3 fresh leaves (with flowers if available), cover and infuse 8 minutes, then strain. Drink 1-2 cups daily, ideally 30-60 minutes before bedtime."
+        }
+      },
+      "source_ids": [
+        "src_herrera_ruiz_anxiolytic_2006",
+        "src_gonzalez_cortazar_isosakuranetin",
+        "src_wiki_salvia_elegans_en"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Traditionelle mexikanische Anwendung bei leichter Hypertonie und 'nervösem Bluthochdruck'. Ein Decoct von Salvia-elegans-Blättern und -Blüten hemmt im Labor das Angiotensin-Converting-Enzym (ACE) und antagonisiert Angiotensin-II-Rezeptoren (Jiménez-Ferrer 2010) — was die Volksmed-Indikation auf molekularer Ebene unterstützt. KEIN Ersatz für blutdrucksenkende Medikamente.",
+        "en": "Traditional Mexican use for mild hypertension and 'nervous high blood pressure'. A decoction of Salvia elegans leaves and flowers inhibits angiotensin-converting enzyme (ACE) in vitro and antagonises angiotensin II receptors (Jiménez-Ferrer 2010) — supporting the folk indication on a molecular level. NOT a replacement for antihypertensive medication."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "2-4 g getrocknete Salvia-elegans-Aufgussdroge mit 250 ml kochendem Wasser übergiessen, zugedeckt 10 Minuten ziehen lassen, abseihen. Morgens und abends eine Tasse. Bei verordnetem Blutdruckmedikament Rücksprache mit der Ärztin/dem Arzt — additive Wirkung möglich.",
+          "en": "Pour 250 ml boiling water over 2-4 g dried Salvia elegans, cover and infuse 10 minutes, then strain. One cup morning and evening. If you are on prescribed antihypertensive medication, consult your doctor — additive effects are possible."
+        }
+      },
+      "source_ids": [
+        "src_jimenez_ferrer_hypertension_2010",
+        "src_wiki_salvia_elegans_en"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
         "digestion"
       ],
       "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
       "description": {
-        "de": "Der Honigmelonen- oder Ananas-Salbei wird selten als Zierpflanze in Sommerrabatten genutzt. Die Blätter und Blüten werden als Würzkraut beispielsweise für Getränke, Blatt- oder Fruchtsalate verwendet.",
-        "en": "The leaves and flowers are edible. The plant is used in Mexican traditional medicine, especially for anxiety and hypertension."
+        "de": "Volksmedizinisch bei nervös bedingten Verdauungsbeschwerden ('Spuk im Bauch') — Blähungen, Druckgefühl im Oberbauch, nervöses Magenkneifen. Das süsslich-fruchtige Aroma macht den Tee angenehm bei stressbedingter Übelkeit. Auch gegen leichten Schwindel und 'buzzing in the ears' eingesetzt.",
+        "en": "Folk-medicinal use for nervously triggered digestive complaints — bloating, upper-abdominal pressure, nervous stomach cramps. The sweet, fruity aroma makes the tea pleasant for stress-related nausea. Also used against mild dizziness and 'buzzing in the ears'."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 8,
+        "doses_per_day": 3,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "1-2 g getrocknete Blätter mit 200 ml siedendem Wasser übergiessen, zugedeckt 8 Minuten ziehen lassen, abseihen. 30 Minuten nach den Mahlzeiten 1 Tasse trinken, 2-3 mal täglich.",
+          "en": "Pour 200 ml boiling water over 1-2 g dried leaves, cover and infuse 8 minutes, then strain. Drink one cup 30 minutes after meals, 2-3 times daily."
+        }
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src_pmc_neotropical_salvia_review",
+        "src_wiki_salvia_elegans_en"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Hydroalkoholischer Auszug (Tinktur) der oberirdischen Teile als konzentriertere Form bei nervöser Unruhe und Schlafproblemen — entspricht dem in der Maus-Studie (Herrera-Ruiz 2006) untersuchten Auszugstyp. Wirkstoffe wie Isosakuranetin-5-O-rutinosid und Ursolsäure sind alkoholisch besser löslich als rein wässrig.",
+        "en": "Hydroalcoholic extract (tincture) of the aerial parts as a more concentrated form for nervous restlessness and sleep problems — corresponds to the extract type studied in mice (Herrera-Ruiz 2006). Compounds such as isosakuranetin-5-O-rutinoside and ursolic acid are more soluble in alcohol than in water alone."
+      },
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 2
+        },
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Tinktur 1:5 in 60 % Ethanol aus getrockneten oberirdischen Teilen (Blätter mit Blüten). Übliche Tagesdosis: 2-mal täglich 20-40 Tropfen (1-2 ml) in etwas Wasser, einmal nachmittags und einmal eine Stunde vor dem Schlafengehen.",
+          "en": "1:5 tincture in 60 % ethanol from dried aerial parts (leaves with flowers). Usual daily dose: 20-40 drops (1-2 ml) twice daily in a little water, once in the afternoon and once an hour before bedtime."
+        }
+      },
+      "source_ids": [
+        "src_herrera_ruiz_anxiolytic_2006",
+        "src_gonzalez_cortazar_isosakuranetin"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Küchenkraut: Die jungen Blätter und die leuchtend roten Blüten haben einen frischen Ananas-Duft und einen leicht süssen, fruchtigen Geschmack. Klassisch in Fruchtsalaten, Marinaden für Hähnchen, Sommer-Getränken (Eistee, Limonade), Sorbets und als essbare Dekoration auf Desserts.",
+        "en": "Culinary herb: the young leaves and bright red flowers have a fresh pineapple scent and a slightly sweet, fruity taste. Classical in fruit salads, chicken marinades, summer drinks (iced tea, lemonade), sorbets and as edible decoration on desserts."
+      },
+      "preparation": {
+        "de": "Frische Blätter fein gehackt direkt vor dem Servieren über Obstsalate, Joghurt-Bowls oder Hühnchen-Marinaden geben. Blüten als essbare Dekoration auf Desserts und Salaten. Trocknen mindert das Ananas-Aroma deutlich — frisch ist eindeutig besser.",
+        "en": "Finely chop fresh leaves and sprinkle over fruit salads, yoghurt bowls or chicken marinades just before serving. Use flowers as edible decoration on desserts and salads. Drying significantly reduces the pineapple aroma — fresh is clearly better."
+      },
+      "source_ids": [
+        "src_wiki_salvia_elegans_en",
+        "src_wiki_salvia_elegans_de"
+      ]
+    },
+    {
+      "form": "inhalation",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Dufttherapie: Frische zerriebene Blätter neben dem Kopfkissen oder in einer warmen Wasser-Schale auf dem Nachttisch verströmen das beruhigende Ananas-Aroma. Volksmedizinische Anwendung in Mexiko bei 'mal de aire' und nervöser Schlaflosigkeit. Kein ätherisches Salvia-elegans-Öl im Handel — frische Pflanze ist die einzige Form.",
+        "en": "Aromatherapy: fresh crushed leaves beside the pillow or in a bowl of warm water on the bedside table release the calming pineapple aroma. Folk-medicinal use in Mexico against 'mal de aire' and nervous insomnia. No commercial Salvia elegans essential oil — fresh plant is the only form."
+      },
+      "preparation": {
+        "doses_per_day": 1,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Eine Handvoll frische Blätter sanft zwischen den Fingern zerreiben, in eine Schale legen oder ein kleines Stoffsäckchen füllen und neben dem Kopfkissen platzieren. Über Nacht wirkt der Duft sanft beruhigend. Frische Blätter nach 2-3 Nächten ersetzen.",
+          "en": "Gently crush a handful of fresh leaves between the fingers, place in a bowl or small fabric pouch beside the pillow. The scent acts gently calming overnight. Replace fresh leaves after 2-3 nights."
+        }
+      },
+      "source_ids": [
+        "src_pmc_neotropical_salvia_review",
+        "src_wiki_salvia_elegans_en"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinisches Beruhigungsbad in Mexiko: Aufguss aus Blättern und Blüten dem warmen Vollbad oder Fussbad zusetzen. Wird traditionell auch in 'limpias' (rituellen Reinigungsbädern) gegen 'susto' (Schreck) und seelische Belastung eingesetzt — sanfte sensorische Beruhigung durch Aroma und warmes Wasser.",
+        "en": "Folk-medicinal calming bath in Mexico: add an infusion of leaves and flowers to a warm full bath or foot bath. Traditionally also used in 'limpias' (cleansing rituals) against 'susto' (fright sickness) and emotional strain — gentle sensory calming through aroma and warm water."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 30,
+          "max": 60
+        },
+        "water_ml": 1500,
+        "steep_min": 15,
+        "doses_per_day": 1,
+        "instructions": {
+          "de": "30-60 g frische oder eine grosse Handvoll getrocknete Salvia-elegans-Aufgussdroge mit 1,5 L heissem Wasser übergiessen, 15 Minuten ziehen lassen, abseihen und dem Vollbad zugeben (35-38 °C, 15-20 Minuten). Höchstens einmal täglich, idealerweise am Abend.",
+          "en": "Pour 1.5 L hot water over 30-60 g fresh or a large handful of dried Salvia elegans, infuse 15 minutes, strain and add to a full bath (35-38 °C, 15-20 minutes). Max once daily, ideally in the evening."
+        }
+      },
+      "source_ids": [
+        "src_pmc_neotropical_salvia_review",
+        "src_wiki_salvia_elegans_de"
       ]
     }
   ],
@@ -51,12 +234,81 @@
   },
   "safety": {
     "warnings": {
-      "de": "In üblicher Anwendung unbedenklich. Süßlich-fruchtiges Aroma.",
-      "en": "Safe in normal use. Sweet, fruity aroma."
+      "de": "Salvia elegans gilt in Küchenmengen und als Tee in den traditionellen Dosierungen als gut verträglich. Bei längerer therapeutischer Anwendung (>4 Wochen) sind keine ausreichenden Sicherheitsdaten verfügbar — daher zeitlich begrenzen. Wegen der blutdrucksenkenden Wirkung in Tier-Studien Vorsicht bei niedrigem Blutdruck und bei Einnahme blutdrucksenkender Medikamente. Wegen der serotonergen Wirkkomponenten (siehe González-Cortazar 2021 / PubMed 34568977) NICHT zeitgleich mit SSRI/SNRI-Antidepressiva ohne ärztliche Rücksprache anwenden (theoretisches Serotonin-Syndrom-Risiko bei hoher Dosis). NICHT mit der giftigen Salbei-Art Salvia divinorum verwechseln.",
+      "en": "Salvia elegans is well tolerated in culinary amounts and as tea in traditional doses. No sufficient safety data for prolonged therapeutic use (>4 weeks) — therefore limit duration. Due to blood-pressure-lowering effects in animal studies, use cautiously in low blood pressure and when taking antihypertensive medication. Because of serotonergic activity (see González-Cortazar 2021 / PubMed 34568977), do NOT use concurrently with SSRI/SNRI antidepressants without medical advice (theoretical serotonin-syndrome risk at high doses). Do NOT confuse with the hallucinogenic Salvia divinorum."
     },
     "external_only": false,
-    "toxicity_level": "caution",
-    "pet_toxic": false
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenmengen unbedenklich. Therapeutische Tee-Mengen und Tinktur mangels Sicherheitsdaten in der Schwangerschaft meiden. Verwandte Salbei-Arten enthalten Thujon (im Salvia-elegans-Öl in kleineren Mengen ebenfalls beschrieben — De Martino 2010), das wehenfördernd wirken kann.",
+        "en": "Culinary amounts are safe. Avoid therapeutic tea amounts and tincture during pregnancy due to lack of safety data. Related sage species contain thujone (also reported in smaller amounts in Salvia elegans oil — De Martino 2010), which may stimulate uterine contractions."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenmengen unbedenklich. Therapeutische Tee-Mengen und Tinktur in der Stillzeit nur zurückhaltend einsetzen; Salbei-Arten gelten traditionell als milchhemmend (Salvia officinalis-Effekt), Salvia elegans ist deutlich milder, aber Datenlage dünn.",
+        "en": "Culinary amounts safe. Use therapeutic tea amounts and tincture sparingly during breastfeeding; sage species are traditionally considered to reduce milk supply (Salvia officinalis effect), Salvia elegans is much milder but data are sparse."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Tee in moderaten Mengen (1/2 Tasse, 1-2 mal täglich) ab Schulalter (ca. 6 Jahre) als kurzfristige Beruhigungs-Hausmittel akzeptabel. Tinktur wegen Alkoholanteil erst ab 18 Jahren. Bei Säuglingen und Kleinkindern unter 6 Jahren keine therapeutische Anwendung.",
+        "en": "Tea in moderate amounts (1/2 cup, 1-2 times daily) from school age (~6 years) is acceptable as a short-term household calming remedy. Tincture only from 18 years due to alcohol content. No therapeutic use in infants and children under 6 years."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antihypertensiva (ACE-Hemmer, ARB, Diuretika, Beta-Blocker)",
+        "mechanism": {
+          "de": "Wässrige und alkoholische Salvia-elegans-Auszüge hemmen ACE und antagonisieren Angiotensin-II-Rezeptoren (Jiménez-Ferrer 2010). In Kombination mit blutdrucksenkenden Medikamenten kann sich die Wirkung additiv verstärken — Blutdruck engmaschig kontrollieren.",
+          "en": "Aqueous and alcoholic Salvia elegans extracts inhibit ACE and antagonise angiotensin II receptors (Jiménez-Ferrer 2010). Combined with antihypertensive medication, effects may add up — monitor blood pressure closely."
+        },
+        "severity": "monitor",
+        "source_id": "src_jimenez_ferrer_hypertension_2010"
+      },
+      {
+        "drug_class": "Serotonerge Antidepressiva (SSRI, SNRI, MAO-Hemmer)",
+        "mechanism": {
+          "de": "González-Cortazar et al. (2021) zeigten, dass aus S. elegans isolierte Verbindungen mit serotonergen Drogen interagieren (5-HT-System). In hoher Dosis und in Kombination mit SSRI/SNRI/MAO-Hemmern besteht ein theoretisches Risiko eines Serotonin-Syndroms — gleichzeitige Anwendung mit Arzt absprechen.",
+          "en": "González-Cortazar et al. (2021) showed that compounds isolated from S. elegans interact with serotonergic drugs (5-HT system). At high dose and combined with SSRIs/SNRIs/MAO inhibitors, there is a theoretical risk of serotonin syndrome — discuss concurrent use with a doctor."
+        },
+        "severity": "caution",
+        "source_id": "src_gonzalez_cortazar_serotonergic_2021"
+      },
+      {
+        "drug_class": "Sedativa / Benzodiazepine / Alkohol",
+        "mechanism": {
+          "de": "Die anxiolytische Tier-Wirkung des Salvia-elegans-Extrakts deutet auf eine ZNS-dämpfende Komponente hin. In Kombination mit Schlafmitteln, Benzodiazepinen oder Alkohol kann sich die sedierende Wirkung additiv verstärken — Vorsicht im Strassenverkehr.",
+          "en": "The anxiolytic animal effect of Salvia elegans extract suggests a CNS-depressant component. Combined with sleep medications, benzodiazepines or alcohol, sedation may add up — caution when driving."
+        },
+        "severity": "monitor",
+        "source_id": "src_herrera_ruiz_anxiolytic_2006"
+      }
+    ],
+    "max_continuous_use_weeks": 4,
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Salvia elegans oder anderen Lippenblütlern.",
+        "en": "Known hypersensitivity to Salvia elegans or other Lamiaceae."
+      },
+      {
+        "de": "Kinder unter 6 Jahren — keine therapeutische Anwendung (Tee/Tinktur).",
+        "en": "Children under 6 years — no therapeutic use (tea/tincture)."
+      },
+      {
+        "de": "Gleichzeitige hochdosierte Therapie mit SSRI/SNRI/MAO-Hemmern ohne ärztliche Begleitung — theoretisches Serotonin-Syndrom-Risiko.",
+        "en": "Concurrent high-dose therapy with SSRIs/SNRIs/MAO inhibitors without medical supervision — theoretical serotonin-syndrome risk."
+      },
+      {
+        "de": "Niedriger Blutdruck (Hypotonie) — Vorsicht wegen blutdrucksenkender Eigenwirkung.",
+        "en": "Low blood pressure (hypotension) — caution due to intrinsic antihypertensive effect."
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -73,6 +325,69 @@
       "title": "Salvia elegans (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Salvia_elegans",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_salvia_elegans_en",
+      "type": "wikipedia",
+      "title": "Salvia elegans (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Salvia_elegans",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_wiki_salvia_elegans_de",
+      "type": "wikipedia",
+      "title": "Honigmelonen-Salbei (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Honigmelonen-Salbei",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_wikidata_salvia_elegans",
+      "type": "wikidata",
+      "title": "Wikidata — Salvia elegans (Q161181)",
+      "url": "https://www.wikidata.org/wiki/Q161181",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_herrera_ruiz_anxiolytic_2006",
+      "type": "monograph",
+      "title": "Herrera-Ruiz M. et al. (2006) — Antidepressant and anxiolytic effects of hydroalcoholic extract from Salvia elegans. Journal of Ethnopharmacology 107(1), 53-58.",
+      "url": "https://doi.org/10.1016/j.jep.2006.02.003",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_jimenez_ferrer_hypertension_2010",
+      "type": "monograph",
+      "title": "Jiménez-Ferrer E. et al. (2010) — Antihypertensive activity of Salvia elegans Vahl. (Lamiaceae): ACE inhibition and angiotensin II antagonism. Journal of Ethnopharmacology 130(2), 340-346.",
+      "url": "https://doi.org/10.1016/j.jep.2010.05.013",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_gonzalez_cortazar_isosakuranetin",
+      "type": "monograph",
+      "title": "González-Cortazar M. et al. (2013) — Isosakuranetin-5-O-rutinoside: A New Flavanone with Antidepressant Activity Isolated from Salvia elegans Vahl. Molecules 18(11), 13260-13270.",
+      "url": "https://doi.org/10.3390/molecules181113260",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_demartino_salvia_oils_2010",
+      "type": "monograph",
+      "title": "De Martino L. et al. (2010) — Chemical Composition and Antigerminative Activity of the Essential Oils from Five Salvia Species (incl. S. elegans). Molecules 15(2), 735-746.",
+      "url": "https://doi.org/10.3390/molecules15020735",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_pmc_neotropical_salvia_review",
+      "type": "monograph",
+      "title": "Jenks A.A. & Kim S.-C. (2022) — A Review on the Ethnopharmacology and Phytochemistry of the Neotropical Sages (Salvia Subgenus Calosphace; Lamiaceae) Emphasizing Mexican Species. Frontiers in Pharmacology / PMC9061990.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9061990/",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_gonzalez_cortazar_serotonergic_2021",
+      "type": "monograph",
+      "title": "González-Cortazar M. et al. (2021) — Antidepressant and anxiolytic compounds isolated from Salvia elegans interact with serotonergic drugs. PubMed 34568977.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34568977/",
+      "accessed": "2026-05-26"
     }
   ],
   "image": {
@@ -116,5 +431,132 @@
         "Cut back in spring for compact growth."
       ]
     }
-  }
+  },
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (mono- und sesquiterpenreich)",
+      "category": "essential_oil",
+      "percent_range": "0.1-0.4 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Mengenmässig dominant sind oxygenierte Monoterpene (~63 %) und Sesquiterpen-Kohlenwasserstoffe (~21 %). Charakteristisches Profil: Mischung aus blumigen, krautigen und fruchtigen Noten — gibt der Pflanze den unverwechselbaren Ananas-Duft.",
+        "en": "Quantitatively dominated by oxygenated monoterpenes (~63 %) and sesquiterpene hydrocarbons (~21 %). Characteristic profile: mix of floral, herbal and fruity notes — gives the plant its unmistakable pineapple scent."
+      }
+    },
+    {
+      "name": "cis-Thujon",
+      "category": "essential_oil",
+      "percent_range": "ca. 30-40 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptkomponente des oxygenierten Monoterpen-Anteils (De Martino 2010 für eine kultivierte Charge). Thujon ist in hohen Mengen neurotoxisch und wehenfördernd — daher Vorsicht bei Schwangerschaft und langer Anwendung. In moderaten Tee-Mengen unbedenklich.",
+        "en": "Main component of the oxygenated monoterpene fraction (De Martino 2010 for a cultivated batch). Thujone is neurotoxic and uterotonic in high amounts — caution in pregnancy and with long-term use. Safe in moderate tea amounts."
+      }
+    },
+    {
+      "name": "δ-Cadinen (und weitere Sesquiterpen-Kohlenwasserstoffe)",
+      "category": "sesquiterpene",
+      "percent_range": "ca. 10-12 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Wichtigster Sesquiterpen-Kohlenwasserstoff im Salvia-elegans-Öl. Trägt zur holzig-würzigen Tiefe des Aromas bei. Sesquiterpene haben in vitro antiinflammatorische und milde antimikrobielle Eigenschaften.",
+        "en": "Most important sesquiterpene hydrocarbon in Salvia elegans oil. Contributes to the woody-spicy depth of the aroma. Sesquiterpenes have in vitro anti-inflammatory and mildly antimicrobial properties."
+      }
+    },
+    {
+      "name": "Geranylacetat und Geraniol",
+      "category": "essential_oil",
+      "percent_range": "ca. 6-8 % (Geranylacetat) + 5-7 % (Geraniol)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Verleihen dem ätherischen Öl die rosig-fruchtige Note und tragen zum charakteristischen Ananas-Aroma bei. Mild beruhigend in der Aromatherapie.",
+        "en": "Give the essential oil its rosy-fruity note and contribute to the characteristic pineapple aroma. Mildly calming in aromatherapy."
+      }
+    },
+    {
+      "name": "Isosakuranetin-5-O-rutinosid",
+      "category": "flavonoid",
+      "percent_range": "Spurenanteile",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Neuartiges Flavanon, erstmals aus Salvia elegans isoliert (González-Cortazar 2013). Zeigte im Maus-Schwimm-Test (15 mg/kg) signifikante antidepressive Wirkung — gilt als ein Leitwirkstoff der traditionellen anti-depressiven Anwendung.",
+        "en": "Novel flavanone, first isolated from Salvia elegans (González-Cortazar 2013). Showed significant antidepressant effect in the mouse forced swim test (15 mg/kg) — regarded as a lead compound for the traditional antidepressant use."
+      }
+    },
+    {
+      "name": "Rosmarinsäure und weitere Kaffeesäure-Derivate",
+      "category": "phenolic_acid",
+      "percent_range": "0.5-2 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Lamiaceae-typische Leitsubstanz. Stark antioxidativ, entzündungshemmend und antiviral. Wasserlöslich, daher gut im Tee extrahierbar. Trägt zur sanften 'nervinen' Gesamtwirkung bei.",
+        "en": "Lamiaceae-typical marker substance. Strongly antioxidant, anti-inflammatory and antiviral. Water-soluble, therefore well extracted in tea. Contributes to the gentle 'nervine' overall effect."
+      }
+    },
+    {
+      "name": "Ursolsäure und Oleanolsäure",
+      "category": "other",
+      "percent_range": "0.5-1.5 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Pentazyklische Triterpensäuren, in der Lamiaceae weit verbreitet. Tragen zur entzündungshemmenden Wirkung bei; Ursolsäure ist in Salvia elegans als Begleitsubstanz im anxiolytischen Auszug nachgewiesen (González-Cortazar 2013).",
+        "en": "Pentacyclic triterpenic acids, widespread in Lamiaceae. Contribute to anti-inflammatory effects; ursolic acid was identified in Salvia elegans as an accompanying compound in the anxiolytic extract (González-Cortazar 2013)."
+      }
+    },
+    {
+      "name": "Flavone und Flavone-Glykoside (Apigenin-, Luteolin-Derivate, 3-Acetoxy-7-methoxyflavon)",
+      "category": "flavonoid",
+      "percent_range": "0.3-1 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Polyphenolische Begleitstoffe; das aus dem anxiolytischen Auszug isolierte 3-Acetoxy-7-methoxyflavon (Marquina 2008) trägt zur GABAergen Wirkkomponente bei. Insgesamt mild beruhigend und antioxidativ.",
+        "en": "Polyphenolic accompanying compounds; 3-acetoxy-7-methoxyflavone isolated from the anxiolytic extract (Marquina 2008) contributes to the GABAergic component. Overall mildly calming and antioxidant."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Am späten Vormittag bei trockenem Wetter, sobald der Tau abgetrocknet ist und vor der grossen Mittagshitze — dann ist der Gehalt an ätherischem Öl und Aroma am höchsten. Junge Triebspitzen bevorzugen, sie enthalten mehr Aroma als die unteren, älteren Blätter.",
+        "en": "Late morning in dry weather, once the dew has dried and before midday heat — essential-oil content and aroma are then highest. Prefer young shoot tips, which contain more aroma than the lower, older leaves."
+      },
+      "drying": {
+        "de": "Triebe in dünner Schicht oder kleinen lockeren Bündeln in einem warmen, luftigen, schattigen Raum trocknen (max. 35 °C). Schnell trocknen, sonst geht der typische Ananas-Duft verloren. Frische Verwendung ist klar zu bevorzugen — beim Trocknen verliert die Pflanze deutlich an Aroma.",
+        "en": "Dry shoots in a thin layer or small loose bundles in a warm, airy, shaded room (max 35 °C). Dry quickly, otherwise the typical pineapple scent is lost. Fresh use is clearly preferable — drying causes significant aroma loss."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "In dunklen, fest schliessenden Glas- oder Blechgefässen kühl und trocken aufbewahren. Innerhalb von 6 Monaten verbrauchen — danach ist das ätherische Öl weitgehend verflogen.",
+        "en": "Store in dark, tightly closed glass or tin containers, cool and dry. Use within 6 months — essential oil largely dissipates afterwards."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Salvia elegans ist eine Kurztagspflanze und blüht in unseren Breiten typisch von September bis zum ersten Frost. Blüten am späten Vormittag eines sonnigen Tages ernten, sobald sich die Trompeten geöffnet haben. Blüten frisch verwenden oder schonend trocknen — sie haben einen feineren, leicht fruchtigen Eigengeschmack.",
+        "en": "Salvia elegans is a short-day plant and flowers in our latitudes typically from September until first frost. Harvest flowers in late morning of a sunny day once the trumpet-shaped corollas have opened. Use flowers fresh or dry gently — they have a finer, mildly fruity taste of their own."
+      },
+      "drying": {
+        "de": "Blüten einzeln abzupfen und auf einem Tuch in dünner Schicht im Schatten trocknen. Höchstens 30 °C — Hitze zerstört die feinen Aromen. Trockene Blüten als essbare Dekoration auf Joghurt, Sorbets oder Tee.",
+        "en": "Pluck individual flowers and dry on a cloth in a thin layer in the shade. Max 30 °C — heat destroys the fine aromas. Use dried flowers as edible decoration on yoghurt, sorbets or tea."
+      },
+      "storage_months": 4,
+      "storage_condition": {
+        "de": "In kleinen Gläsern dunkel und trocken; Blüten sind besonders empfindlich und sollten innerhalb von 4 Monaten verbraucht werden.",
+        "en": "In small jars, dark and dry; flowers are particularly sensitive and should be used within 4 months."
+      }
+    }
+  ]
 }

@@ -20,19 +20,135 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-la-01",
       "target": [
-        "caution"
+        "nervous_system"
       ],
-      "internal_external": "external",
+      "form": "tincture",
+      "plant_part": "seed",
+      "evidence_level": "clinical_trial",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Pharmazeutische Verwendung des isolierten Alkaloids Cytisin (NICHT der Pflanze selbst!) als Tabakentwöhnungsmittel — vermarktet als Tabex® durch Sopharma (Bulgarien) seit 1964. Cytisin wirkt als partieller Agonist am α4β2-nikotinergen Acetylcholinrezeptor (nAChR) analog zu Vareniclin. Die NEJM-Studie von West et al. (2011) zeigte eine 12-Monats-Abstinenzrate von 8,4 % unter Cytisin vs. 2,4 % unter Placebo; Walker et al. (2014) belegten Nicht-Unterlegenheit gegenüber Nikotinersatztherapie. Cytisin steht auf der WHO-Liste unentbehrlicher Arzneimittel (2025). Die Pflanze selbst ist wegen unkalkulierbarer Alkaloidschwankung NICHT therapeutisch verwendbar — nur das standardisierte Reinalkaloid in Form von 1,5-mg-Tabletten unter ärztlicher Aufsicht.",
+        "en": "Pharmaceutical use of the isolated alkaloid cytisine (NOT the plant itself!) as a smoking cessation aid — marketed as Tabex® by Sopharma (Bulgaria) since 1964. Cytisine acts as a partial agonist at the α4β2 nicotinic acetylcholine receptor (nAChR), analogous to varenicline. The NEJM trial by West et al. (2011) showed a 12-month abstinence rate of 8.4 % with cytisine vs. 2.4 % with placebo; Walker et al. (2014) demonstrated non-inferiority to nicotine replacement therapy. Cytisine is on the WHO List of Essential Medicines (2025). The plant itself is NOT therapeutically usable due to unpredictable alkaloid variability — only the standardized pure alkaloid in 1.5 mg tablets under medical supervision."
+      },
+      "preparation": {
+        "ratio": "isolated alkaloid",
+        "solvent": "pharmaceutical tablet (1.5 mg cytisine)"
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-la-west-2011",
+        "src-la-walker-2014",
+        "src-la-wiki-cytisine"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-la-02",
+      "target": [
+        "respiratory"
+      ],
+      "form": "tincture",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische volksmedizinische Anwendung von Goldregen-Samen in stark verdünnter Form bei Keuchhusten (Pertussis) und Asthma im 18. und 19. Jahrhundert — dokumentiert in PFAF und älterer pharmazeutischer Literatur. Die schmale Spanne zwischen wirksamer und letaler Dosis (3–4 Samen können tödlich sein) führte zur völligen Aufgabe dieser Anwendung. Heute rein historisch-dokumentarisch.",
+        "en": "Historical folk medicinal use of laburnum seeds in highly diluted form for whooping cough (pertussis) and asthma in the 18th and 19th centuries — documented by PFAF and older pharmaceutical literature. The narrow margin between effective and lethal dose (3–4 seeds can be fatal) led to complete abandonment of this application. Today purely of historical-documentary value."
+      },
+      "preparation": {
+        "de": "Historisch: stark verdünnte Tinktur aus getrockneten Samen; keine Anwendungsempfehlung — schon 3–4 Samen sind potenziell letal.",
+        "en": "Historically: highly diluted tincture from dried seeds; no application recommendation — even 3–4 seeds are potentially lethal."
+      },
+      "source_ids": [
+        "src-la-pfaf",
+        "src-la-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-la-03",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Verwendung von Laburnum anagyroides (Urtinktur und Potenzen D6–D30) bei Erschöpfungszuständen, Kopfschmerzen und Krampfneigung in der klassischen Homöopathie. Ab Potenzstufe D6 enthalten die Präparate keine pharmakologisch wirksame Cytisin-Menge mehr und gelten als sicher; Urtinktur und niedrige Potenzen bleiben jedoch hochtoxisch.",
+        "en": "Homeopathic use of Laburnum anagyroides (mother tincture and potencies D6–D30) for exhaustion, headaches and convulsive tendencies in classical homeopathy. From potency D6 onward the preparations contain no pharmacologically active cytisine amount and are considered safe; mother tincture and low potencies remain highly toxic, however."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "45% ethanol (mother tincture)"
+      },
+      "source_ids": [
+        "src-la-pfaf",
+        "src-la-wiki-de"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-la-04",
+      "target": [
+        "skin"
+      ],
+      "form": "raw",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische externe Verwendung als pflanzliches Insektizid: Goldregensamen wurden — analog zu Tabakblättern — als nikotinerge Spritzmittel zur Bekämpfung von Blattläusen, Wanzen und Raupen eingesetzt (PFAF dokumentiert „nicotine-like insecticidal qualities\"). Wegen perkutaner Resorption von Cytisin durch die Anwenderhände heute nicht mehr empfohlen — rein dokumentarisch.",
+        "en": "Historical external use as botanical insecticide: laburnum seeds were used — analogously to tobacco leaves — as nicotinergic sprays against aphids, bugs and caterpillars (PFAF documents \"nicotine-like insecticidal qualities\"). No longer recommended today due to percutaneous absorption of cytisine through the user's hands — purely of documentary value."
+      },
+      "preparation": {
+        "de": "Historisch: zerstossene Samen in Wasser eingeweicht, abgeseiht; rein dokumentarisch, keine Anwendungsempfehlung.",
+        "en": "Historically: crushed seeds soaked in water, strained; purely documentary, no application recommendation."
+      },
+      "source_ids": [
+        "src-la-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-la-05",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "raw",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Kriegszeitliche Notverwendung als Tabakersatz: Während des Zweiten Weltkriegs wurden Goldregensamen von deutschen und russischen Soldaten als billiger, leicht verfügbarer Tabakersatz geraucht — Cytisin erzeugt einen nikotinähnlichen Effekt am gleichen Rezeptor. Die unkalkulierbare Dosis (Cytisin-Anteil bis 3 % in den Samen) machte diese Praxis hochriskant. Reines Kulturphänomen, keine Anwendungsempfehlung.",
+        "en": "Wartime emergency use as tobacco substitute: during World War II laburnum seeds were smoked by German and Russian soldiers as a cheap, readily available tobacco substitute — cytisine produces a nicotine-like effect at the same receptor. The unpredictable dose (cytisine content up to 3 % in seeds) made this practice highly risky. Pure cultural phenomenon, no application recommendation."
+      },
+      "preparation": {
+        "de": "Historisch: getrocknete Samen geraucht; rein dokumentarisch.",
+        "en": "Historically: dried seeds smoked; purely documentary."
+      },
+      "source_ids": [
+        "src-la-wiki-cytisine",
+        "src-la-wiki-de"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-la-06",
+      "target": [
+        "wounds"
+      ],
+      "form": "raw",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksglaube und Sympathiemagie: In Teilen Mittel- und Südeuropas wurde dem Goldregen apotropäische („abwehrende\") Magie zugesprochen — Zweige wurden gegen den „bösen Blick\" über Stalltüren gehängt oder bei Hexenbann verwendet. Wikipedia (EN) nennt: „The plant is believed to have magic properties in some regions.\" Reines Kultur-/Folklore-Phänomen — keine medizinische Aussagekraft.",
+        "en": "Folk belief and sympathetic magic: in parts of Central and Southern Europe laburnum was credited with apotropaic (\"warding off\") magic — branches were hung over stable doors against the \"evil eye\" or used against witchcraft. Wikipedia (EN) notes: \"The plant is believed to have magic properties in some regions.\" Pure cultural/folklore phenomenon — no medical relevance."
+      },
+      "preparation": {
+        "de": "Historisch: frische Zweige aufgehängt; rein folkloristisch.",
+        "en": "Historically: fresh branches hung up; purely folkloric."
+      },
+      "source_ids": [
+        "src-la-wiki-en"
+      ],
+      "internal_external": "external"
     }
   ],
   "season": {
@@ -47,12 +163,119 @@
   },
   "safety": {
     "warnings": {
-      "de": "SEHR GIFTIG (Cytisin) — alle Pflanzenteile, besonders die erbsenähnlichen Samen. Häufigste schwere Pflanzenvergiftung bei Kindern in Mitteleuropa. Schon 3-4 Samen können bei Kindern zu schweren Vergiftungen führen. Beliebter Zierstrauch in Vorgärten — Kinder kauen die hübschen Samenhülsen. NIEMALS verzehren.",
-      "en": "VERY TOXIC (cytisine) — all plant parts, especially the pea-like seeds. The most common severe plant poisoning of children in Central Europe. Just 3-4 seeds can cause severe poisoning in children. Popular ornamental shrub in front gardens — children chew the pretty seed pods. NEVER consume."
+      "de": "STARK GIFTIG — ALLE PFLANZENTEILE, BESONDERS DIE UNREIFEN, ERBSENÄHNLICHEN SAMEN UND SAMENHÜLSEN. Laburnum anagyroides enthält bis zu 3 % Cytisin in den Samen, ca. 1 % in den Blüten und ca. 0,5 % in den Blättern; daneben N-Methylcytisin, Anagyrin und das Pyrrolizidin-Alkaloid Laburnin. Letale Dosis für Erwachsene: bereits 3–4 unreife Hülsen, 15–20 Samen oder ca. 10 Blüten gelten als potenziell tödlich; für Kinder liegt die Schwelle deutlich niedriger. Goldregen ist in Mitteleuropa die häufigste Ursache schwerer Pflanzenvergiftungen bei Kindern, weil die hübschen, erbsenförmigen Samenhülsen zum Spielen und Probieren einladen. Cytisin wirkt als partieller Agonist am nikotinergen Acetylcholinrezeptor (nAChR, primär α4β2-Subtyp): initiale Stimulation des Zentralnervensystems und der autonomen Ganglien, dann Depression bis hin zu Krampfanfällen und Atemlähmung. Symptome (Beginn 15–60 min nach Ingestion): Brennen in Mund und Rachen, Übelkeit, massives Erbrechen (oft selbstprotektiv), Speichelfluss, Bauchschmerzen, Mydriasis, Schwindel, Schwitzen, Tachykardie, Halluzinationen, tonisch-klonische Krämpfe, Bewusstlosigkeit, Atemlähmung. Vergiftungen mit Todesfolge sind dank schnell einsetzendem Erbrechen relativ selten, aber dokumentiert. Bei Vergiftungsverdacht SOFORT Notruf 112 (Europa) bzw. 911 (Nordamerika) und Giftnotruf kontaktieren. Behandlung: symptomatisch — Aktivkohle, Magenspülung in der Frühphase, Benzodiazepine bei Krämpfen, Beatmung bei Atemlähmung. Kein spezifisches Antidot. Verwechslungsgefahr: unreife Hülsen können von Kindern mit Erbsen-, Bohnen- oder Robinien-Hülsen verwechselt werden. Keine Selbstmedikation, keine Laienanwendung. Auch Bienen können Cytisin in Nektar/Pollen aufnehmen — Imker-Vorsicht.",
+      "en": "STRONGLY TOXIC — ALL PLANT PARTS, ESPECIALLY THE UNRIPE, PEA-LIKE SEEDS AND SEED PODS. Laburnum anagyroides contains up to 3 % cytisine in the seeds, approx. 1 % in flowers and approx. 0.5 % in leaves; additionally N-methylcytisine, anagyrine and the pyrrolizidine alkaloid laburnine. Lethal dose for adults: as few as 3–4 unripe pods, 15–20 seeds or approx. 10 flowers are considered potentially fatal; the threshold for children is substantially lower. In Central Europe laburnum is the most common cause of severe plant poisoning in children, because the pretty, pea-shaped seed pods invite play and tasting. Cytisine acts as a partial agonist at the nicotinic acetylcholine receptor (nAChR, primarily α4β2 subtype): initial stimulation of the central nervous system and autonomic ganglia, then depression progressing to seizures and respiratory paralysis. Symptoms (onset 15–60 min after ingestion): burning in mouth and throat, nausea, massive vomiting (often self-protective), salivation, abdominal pain, mydriasis, dizziness, sweating, tachycardia, hallucinations, tonic-clonic seizures, loss of consciousness, respiratory paralysis. Fatal poisonings are relatively rare thanks to rapidly setting in emesis but are documented. In suspected poisoning IMMEDIATELY call emergency services (112 in Europe / 911 in North America) and poison control. Treatment: symptomatic — activated charcoal, gastric lavage in early phase, benzodiazepines for seizures, ventilation for respiratory paralysis. No specific antidote. Risk of confusion: unripe pods may be mistaken by children for pea, bean or black-locust pods. No self-medication, no lay use. Bees can also take up cytisine in nectar/pollen — beekeeper caution required."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Cytisin ist nach tierexperimenteller und älterer humaner Datenlage teratogen — es passiert die Plazentaschranke und kann fetale Fehlbildungen (Skelettanomalien, „Crooked-Calf-Disease\" bei Rindern als verwandtes Modell mit Anagyrin) auslösen. Jede orale Anwendung von Cytisin (auch Tabex) sowie jede Exposition gegenüber Pflanzenteilen in der Schwangerschaft ist strikt kontraindiziert.",
+        "en": "Cytisine is teratogenic according to animal experiments and older human data — it crosses the placental barrier and can cause fetal malformations (skeletal anomalies; the related \"crooked calf disease\" in cattle, caused by anagyrine, serves as a model). Any oral use of cytisine (including Tabex) as well as any exposure to plant parts during pregnancy is strictly contraindicated."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Cytisin tritt vermutlich in die Muttermilch über (lipophil, niedriges Molekulargewicht) und kann beim Säugling nikotinerge Effekte (Tachykardie, Erbrechen, Krampfneigung) auslösen. Stillzeit: streng kontraindiziert.",
+        "en": "Cytisine presumably passes into breast milk (lipophilic, low molecular weight) and may induce nicotinic effects (tachycardia, vomiting, seizure tendency) in the infant. Breastfeeding: strictly contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder sind die mit Abstand am häufigsten betroffene Risikogruppe. Bereits 2–3 Samen können bei einem Kind schwere Vergiftungssymptome auslösen, 5–7 Samen können tödlich sein. Goldregen-Sträucher in Gärten, Spielplätzen, Schulhöfen und Parkanlagen sollten — wenn ein Entfernen nicht möglich ist — eingezäunt und gekennzeichnet werden. Eltern und Erzieher müssen Kinder über die Giftigkeit aufklären. Bei Verdacht auf Aufnahme von Samen oder Hülsen: SOFORT Giftnotruf.",
+        "en": "Children are by far the most frequently affected risk group. As few as 2–3 seeds can trigger severe poisoning symptoms in a child, 5–7 seeds can be lethal. Laburnum shrubs in gardens, playgrounds, school yards and parks should — where removal is not possible — be fenced off and labelled. Parents and educators must inform children about the toxicity. If ingestion of seeds or pods is suspected: IMMEDIATELY call poison control."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Aktive Raucher mit gleichzeitiger Cytisin-Therapie (Tabex) sollten Tabakkonsum konsequent einstellen — additive nikotinerge Toxizität",
+        "en": "Active smokers undergoing cytisine therapy (Tabex) must consistently stop smoking — additive nicotinic toxicity"
+      },
+      {
+        "de": "Schwere koronare Herzkrankheit, kürzliches Myokardinfarkt, instabile Angina pectoris — nikotinerge Vasokonstriktion und Tachykardie",
+        "en": "Severe coronary heart disease, recent myocardial infarction, unstable angina — nicotinic vasoconstriction and tachycardia"
+      },
+      {
+        "de": "Schlecht eingestellte arterielle Hypertonie — sympathomimetische Wirkung des Cytisins",
+        "en": "Poorly controlled arterial hypertension — sympathomimetic effect of cytisine"
+      },
+      {
+        "de": "Epilepsie und Krampfleiden — Cytisin senkt die Krampfschwelle (nAChR-Aktivierung)",
+        "en": "Epilepsy and seizure disorders — cytisine lowers the seizure threshold (nAChR activation)"
+      },
+      {
+        "de": "Phäochromozytom, Hyperthyreose — additive sympathomimetische Effekte",
+        "en": "Pheochromocytoma, hyperthyroidism — additive sympathomimetic effects"
+      },
+      {
+        "de": "Magen-Darm-Ulzera, akute Gastritis — Cytisin reizt die Schleimhaut, Erbrechen ist häufig",
+        "en": "Gastrointestinal ulcers, acute gastritis — cytisine irritates the mucosa, vomiting is frequent"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche unter 18 Jahren (siehe oben)",
+        "en": "Pregnancy, breastfeeding, children and adolescents under 18 years (see above)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Nikotinersatztherapie (Pflaster, Kaugummi, Lutschtabletten, Inhalator)",
+        "mechanism": {
+          "de": "Cytisin und Nikotin konkurrieren am selben α4β2-nAChR; gleichzeitige Anwendung erzeugt additive nikotinerge Toxizität (Tachykardie, Übelkeit, Schwindel, Krampfgefahr). Bei Tabex-Therapie ist Rauchen schrittweise abzusetzen.",
+          "en": "Cytisine and nicotine compete at the same α4β2 nAChR; concurrent use produces additive nicotinic toxicity (tachycardia, nausea, dizziness, risk of seizures). During Tabex therapy smoking must be tapered off."
+        },
+        "severity": "avoid",
+        "source_id": "src-la-west-2011"
+      },
+      {
+        "drug_class": "Vareniclin (Champix®/Chantix®)",
+        "mechanism": {
+          "de": "Vareniclin ist ebenfalls ein partieller α4β2-nAChR-Agonist; Kombination mit Cytisin führt zu kompetitiver Verdrängung und unvorhersehbarer Pharmakodynamik. Kombination klinisch nicht untersucht — vermeiden.",
+          "en": "Varenicline is also a partial α4β2 nAChR agonist; combination with cytisine leads to competitive displacement and unpredictable pharmacodynamics. Combination not clinically studied — avoid."
+        },
+        "severity": "avoid",
+        "source_id": "src-la-wiki-cytisine"
+      },
+      {
+        "drug_class": "Bupropion (Wellbutrin®/Zyban®)",
+        "mechanism": {
+          "de": "Bupropion senkt unabhängig vom Cytisin die Krampfschwelle. In Kombination steigt das Risiko für tonisch-klonische Anfälle deutlich. Anwendung ist gemeinsam mit Cytisin in mehreren nationalen Tabakentwöhnungs-Leitlinien zu meiden.",
+          "en": "Bupropion independently of cytisine lowers the seizure threshold. In combination the risk of tonic-clonic seizures rises markedly. Concurrent use with cytisine is to be avoided per several national smoking cessation guidelines."
+        },
+        "severity": "avoid",
+        "source_id": "src-la-walker-2014"
+      },
+      {
+        "drug_class": "MAO-Hemmer (Tranylcypromin, Moclobemid, Selegilin)",
+        "mechanism": {
+          "de": "Nikotinerge Sympathomimetika können bei MAO-Hemmung zu hypertensiven Krisen führen. Wechselwirkung extrapoliert aus der Klasse nikotinerger Agonisten — Vorsicht oder Verzicht.",
+          "en": "Nicotinic sympathomimetics may precipitate hypertensive crises under MAO inhibition. Interaction extrapolated from the class of nicotinic agonists — caution or avoidance."
+        },
+        "severity": "caution",
+        "source_id": "src-la-wiki-cytisine"
+      },
+      {
+        "drug_class": "Cholinesterase-Hemmer (Donepezil, Rivastigmin, Galantamin, Pyridostigmin)",
+        "mechanism": {
+          "de": "Erhöhter Acetylcholinspiegel verschiebt die Rezeptordynamik am nAChR — unvorhersehbare Modulation der Cytisin-Wirkung; Risiko sowohl für Wirkverlust als auch für Desensitivierung. Vorsichtig anwenden.",
+          "en": "Increased acetylcholine levels shift receptor dynamics at the nAChR — unpredictable modulation of cytisine activity; risk of both loss of effect and desensitization. Use cautiously."
+        },
+        "severity": "caution",
+        "source_id": "src-la-wiki-cytisine"
+      },
+      {
+        "drug_class": "Beta-Blocker (Propranolol, Metoprolol, Atenolol)",
+        "mechanism": {
+          "de": "Kombination kann die durch Cytisin/Nikotin induzierten kardiovaskulären Effekte (Tachykardie, Hypertonie) maskieren. Bei höheren Cytisin-Dosen paradoxe Bradykardien möglich. Monitoring.",
+          "en": "Combination can mask cardiovascular effects (tachycardia, hypertension) induced by cytisine/nicotine. At higher cytisine doses paradoxical bradycardia possible. Monitor."
+        },
+        "severity": "monitor",
+        "source_id": "src-la-wiki-cytisine"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -69,6 +292,70 @@
       "title": "Laburnum anagyroides (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Laburnum_anagyroides",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-la-wiki-en",
+      "type": "wikipedia",
+      "title": "Laburnum anagyroides — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Laburnum_anagyroides",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-la-wiki-de",
+      "type": "wikipedia",
+      "title": "Gemeiner Goldregen — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Gemeiner_Goldregen",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-la-wiki-cytisine",
+      "type": "wikipedia",
+      "title": "Cytisine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Cytisine",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-la-wikidata",
+      "type": "wikidata",
+      "title": "Laburnum anagyroides — Wikidata Q147939",
+      "url": "https://www.wikidata.org/wiki/Q147939",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-la-pfaf",
+      "type": "book",
+      "title": "Plants For A Future — Laburnum anagyroides",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Laburnum+anagyroides",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-la-west-2011",
+      "type": "monograph",
+      "title": "Placebo-Controlled Trial of Cytisine for Smoking Cessation (West et al., NEJM 2011)",
+      "url": "https://doi.org/10.1056/NEJMoa1102035",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-la-walker-2014",
+      "type": "monograph",
+      "title": "Cytisine versus Nicotine for Smoking Cessation (Walker et al., NEJM 2014)",
+      "url": "https://doi.org/10.1056/NEJMoa1407764",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-la-commons",
+      "type": "commons",
+      "title": "Category:Laburnum anagyroides — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Category:Laburnum_anagyroides",
+      "accessed": "2026-05-26",
+      "language": "en"
     }
   ],
   "image": {
@@ -80,5 +367,120 @@
     "license": "CC BY-SA 2.0",
     "author": "Unknown",
     "source_url": "https://commons.wikimedia.org/wiki/File:Laburnum_anagyroides_flowering.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Cytisin (Cytisine)",
+      "category": "alkaloid",
+      "percent_range": "bis 3 % (Samen), ca. 1 % (Blüten), ca. 0,5 % (Blätter)",
+      "note": {
+        "de": "Leitalkaloid des Goldregens; bicyclisches Chinolizidin-Alkaloid; partieller Agonist am nikotinergen Acetylcholinrezeptor (vorwiegend α4β2-Subtyp), pharmakologisches Strukturvorbild für Vareniclin. Erstmals isoliert 1865; standardisiert durch Isaev 1962 in Sofia. Halbwertszeit ca. 4,8 h. Mäuse-LD50 (i.v.) ca. 2 mg/kg. WHO-Essential-Medicines-Liste seit 2025 (Tabakentwöhnung).",
+        "en": "Lead alkaloid of laburnum; bicyclic quinolizidine alkaloid; partial agonist at the nicotinic acetylcholine receptor (predominantly α4β2 subtype), pharmacological structural template for varenicline. First isolated in 1865; standardized by Isaev in 1962 in Sofia. Half-life approx. 4.8 h. Mouse LD50 (i.v.) approx. 2 mg/kg. On the WHO Essential Medicines List since 2025 (smoking cessation)."
+      }
+    },
+    {
+      "name": "N-Methylcytisin (Caulophyllin)",
+      "category": "alkaloid",
+      "percent_range": "Begleitalkaloid, nicht quantifiziert",
+      "note": {
+        "de": "Methyliertes Derivat des Cytisins; ebenfalls nikotinerg aktiv, geringere zentrale Wirkung; trägt zur Gesamttoxizität bei. Auch in Cytisus- und Sophora-Arten nachgewiesen.",
+        "en": "Methylated derivative of cytisine; also nicotinically active, with lower central activity; contributes to overall toxicity. Also detected in Cytisus and Sophora species."
+      }
+    },
+    {
+      "name": "Anagyrin",
+      "category": "alkaloid",
+      "percent_range": "Spuren bis < 0,1 %",
+      "note": {
+        "de": "Chinolizidin-Alkaloid; bei Wiederkäuern (Rindern) als Auslöser der „Crooked Calf Disease\" — fetale Skelettmissbildungen — pharmakologisch belegt. Trägt zur teratogenen Risikobewertung der Pflanze bei.",
+        "en": "Quinolizidine alkaloid; pharmacologically established as cause of \"crooked calf disease\" — fetal skeletal malformations — in ruminants (cattle). Contributes to the teratogenic risk assessment of the plant."
+      }
+    },
+    {
+      "name": "Laburnin",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Pyrrolizidin-Alkaloid; in der deutschen Wikipedia für Laburnum anagyroides dokumentiert; potenziell hepatotoxisch (typisches Profil der Pyrrolizidin-Klasse), in der Pflanze jedoch nur in geringen Mengen vorhanden.",
+        "en": "Pyrrolizidine alkaloid; documented for Laburnum anagyroides on German Wikipedia; potentially hepatotoxic (typical profile of the pyrrolizidine class), but present only in small amounts in the plant."
+      }
+    },
+    {
+      "name": "Hydroxynorcytisin (Hydroxynorcytisine)",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Hydroxyliertes Norderivat des Cytisins, in jüngeren phytochemischen Analysen aus Laburnum anagyroides isoliert (Wikidata Q104911554). Pharmakologie nicht abschliessend untersucht; chemotaxonomischer Marker.",
+        "en": "Hydroxylated nor-derivative of cytisine, isolated from Laburnum anagyroides in recent phytochemical analyses (Wikidata Q104911554). Pharmacology not fully characterized; chemotaxonomic marker."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin- und Kaempferol-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Antioxidative Begleitstoffe in Blüten und Blättern; verleihen den goldgelben Blütentrauben einen Teil ihrer Farbe; pharmakologisch gegenüber den Alkaloiden untergeordnet.",
+        "en": "Antioxidant accompanying substances in flowers and leaves; contribute partially to the golden-yellow colour of the flower racemes; pharmacologically subordinate to the alkaloids."
+      }
+    },
+    {
+      "name": "Genistein und Isoflavone (Fabaceae-typisch)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Isoflavone als typische Sekundärstoffe der Hülsenfrüchtler (Fabaceae); phytoestrogene Aktivität in der älteren Literatur diskutiert; in Laburnum quantitativ untergeordnet gegenüber Soja oder Rotklee.",
+        "en": "Isoflavones as typical secondary metabolites of the legume family (Fabaceae); phytoestrogenic activity discussed in older literature; quantitatively subordinate in Laburnum compared with soy or red clover."
+      }
+    },
+    {
+      "name": "Gerbstoffe und Phenolsäuren",
+      "category": "tannin",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Kondensierte Tannine und Phenolsäuren in Rinde und Holz; tragen zur Härte und Dauerhaftigkeit des dunklen Goldregenholzes bei, das historisch als „Ebenholzersatz\" gehandelt wurde.",
+        "en": "Condensed tannins and phenolic acids in bark and wood; contribute to the hardness and durability of the dark laburnum wood, historically traded as an \"ebony substitute\"."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "seed",
+      "best_months": [
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Spätsommer/Frühherbst, wenn die Hülsen vollständig braun und trocken sind — die höchsten Cytisin-Konzentrationen liegen in unreifen grünen Samen, daher AUSSCHLIESSLICH ausgereifte Samen für pharmazeutische Cytisin-Gewinnung ernten.",
+        "en": "Late summer/early autumn, when pods are fully brown and dry — highest cytisine concentrations are in unripe green seeds, therefore EXCLUSIVELY harvest mature seeds for pharmaceutical cytisine extraction."
+      },
+      "drying": {
+        "de": "Hülsen an einem trockenen, gut belüfteten Ort ausbreiten; bei 35–40 °C nachtrocknen. SCHUTZHANDSCHUHE PFLICHT — Cytisin kann über die Haut resorbiert werden. Lagerung in beschrifteten, kindersicheren Behältern, getrennt von Lebensmitteln und Erbsen-/Bohnen-Saatgut. Ernte ausschliesslich durch Pharmazeuten oder ausgebildete Botaniker für Tabex-Produktion (Sopharma) oder Forschungszwecke.",
+        "en": "Spread pods in a dry, well-ventilated location; post-dry at 35–40 °C. PROTECTIVE GLOVES MANDATORY — cytisine can be absorbed through the skin. Store in labelled, child-proof containers, separately from foodstuffs and pea/bean seed stock. Harvest exclusively by pharmacists or trained botanists for Tabex production (Sopharma) or research purposes."
+      },
+      "notes": {
+        "de": "Bei Goldregen-Sträuchern in Hausgärten, auf Spielplätzen und in Parks: Hülsen vor der Reife abschneiden und entsorgen, um Kindesvergiftungen zu vermeiden. Hülsen NIE in offenen Komposten oder Kinderhand-Reichweite lagern.",
+        "en": "On laburnum shrubs in home gardens, playgrounds and parks: cut and dispose of pods before maturity to prevent child poisonings. NEVER store pods in open compost piles or within reach of children's hands."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Vormittags an trockenen Tagen während der Vollblüte (Mai bis Juni); Cytisin-Gehalt in Blüten ca. 1 %, deutlich geringer als in Samen, aber nicht zu unterschätzen.",
+        "en": "Late morning on dry days during full bloom (May to June); cytisine content in flowers approx. 1 %, substantially lower than in seeds but not to be underestimated."
+      },
+      "drying": {
+        "de": "Blüten flach auslegen, bei 30–35 °C im Schatten trocknen; rasch verarbeiten, da Cytisin durch Sonnenlicht und Feuchtigkeit teilweise abgebaut wird. Schutzhandschuhe tragen. Verwendung praktisch nur für homöopathische Urtinkturen oder phytochemische Analytik.",
+        "en": "Lay flowers flat, dry at 30–35 °C in shade; process rapidly because cytisine is partially degraded by sunlight and moisture. Wear protective gloves. Use practically only for homeopathic mother tinctures or phytochemical analysis."
+      },
+      "notes": {
+        "de": "Bienen tragen Cytisin in geringen Mengen in den Honig ein, falls Goldregen Haupttracht ist — Honig aus reinen Goldregen-Beständen ist ungeniessbar bis schwach toxisch. In Mitteleuropa wegen Mischtracht meist unproblematisch.",
+        "en": "Bees carry cytisine in small amounts into honey if laburnum is the main forage source — honey from pure laburnum stands is inedible to mildly toxic. In Central Europe usually unproblematic due to mixed forage."
+      }
+    }
+  ]
 }
