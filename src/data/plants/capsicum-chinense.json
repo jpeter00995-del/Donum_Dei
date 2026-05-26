@@ -22,17 +22,129 @@
     {
       "form": "spice",
       "target": [
+        "nutrition",
         "digestion",
         "circulation"
       ],
       "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Capsicum chinense wird traditionell als als Gewürz in der Küche bei Verdauungsbeschwerden sowie zur Unterstützung der Durchblutung verwendet. Pflanze aus der Familie der Nachtschattengewächse — typische Verwendung in der europäischen Volksheilkunde bzw. Küche.",
-        "en": "C. chinense and its varieties have been used for millennia in Yucatán and Caribbean-style cooking to add a significant amount of heat to their traditional food. They are mainly used in stews and sauces, as well as marinades for meats and chicken. American food at times also uses some of these chiles. For example, habaneros (a group of C."
+        "de": "Capsicum chinense liefert die schärfsten kultivierten Speisefrüchte der Welt — Habanero (100.000–350.000 SHU), Scotch Bonnet (100.000–350.000 SHU), Bhut Jolokia (~1 Mio SHU), Carolina Reaper (1,4–2,2 Mio SHU) und Pepper X (2,69 Mio SHU, Guinness-Rekord 2023). Traditionell unverzichtbar in der yucatekischen, karibischen und westafrikanischen Küche (Salsa, Jerk-Marinaden, Pepperpot, Pikliz, Mole). Die Früchte werden frisch, getrocknet, geröstet, eingelegt oder als Hot Sauce verarbeitet. Neben dem Capsaicin verleiht ein hoher Anteil fruchtig-blumiger Aromaester (charakteristisch Hexylisobutyrat) der C. chinense ihr unverwechselbares Profil, das sie von C. annuum (Paprika, Cayenne) und C. frutescens (Tabasco) abhebt.",
+        "en": "Capsicum chinense provides the world's hottest cultivated edible fruits — Habanero (100,000–350,000 SHU), Scotch Bonnet (100,000–350,000 SHU), Bhut Jolokia (~1 million SHU), Carolina Reaper (1.4–2.2 million SHU) and Pepper X (2.69 million SHU, Guinness record 2023). Indispensable in Yucatecan, Caribbean and West African cuisine (salsa, jerk marinades, pepperpot, pikliz, mole). Fruits are used fresh, dried, roasted, pickled or processed into hot sauce. Besides capsaicin, a high content of fruity-floral aroma esters (notably hexyl isobutyrate) gives C. chinense its distinctive profile, setting it apart from C. annuum (paprika, cayenne) and C. frutescens (tabasco)."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src_wp_de_capsicum_chinense",
+        "src_wp_en_capsicum_chinense",
+        "src_pfaf_capsicum_chinense",
+        "src_crops_habanero_capsaicinoid"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Volksheilkundlich werden capsaicinreiche Habanero- oder Scotch-Bonnet-Früchte ähnlich wie Cayennepfeffer (C. annuum/frutescens) zur Herstellung wärmender Einreibungen und Salben verwendet — bei Muskelverspannungen, Gelenkschmerzen, Hexenschuss und Neuralgien. Wirkmechanismus: Capsaicin aktiviert den TRPV1-Rezeptor an sensorischen Nervenenden, anfangs schmerzhaft, bei wiederholter Anwendung kommt es zur Substanz-P-Depletion und damit zur Schmerzdesensibilisierung. WICHTIG: Die EMA-HMPC-Monographie für Capsici fructus ('well-established use' bei Muskelschmerzen, insbesondere Kreuzschmerzen) gilt ausdrücklich nur für C. annuum var. minimum und C. frutescens — NICHT für C. chinense. Für medizinische Anwendung sollten daher standardisierte Cayenne/Frutescens-Präparate bevorzugt werden; die volkskundliche Verwendung der noch schärferen C.-chinense-Sorten ist gleichwertig im Wirkprinzip, aber ohne offizielle Zulassung und mit erheblich höherem Reizpotenzial.",
+        "en": "In folk medicine, capsaicin-rich Habanero or Scotch Bonnet fruits are used similarly to cayenne (C. annuum/frutescens) for warming rubs and salves — for muscle tension, joint pain, lumbago and neuralgia. Mechanism: capsaicin activates the TRPV1 receptor on sensory nerve endings, initially painful, with repeated application leading to substance P depletion and pain desensitisation. IMPORTANT: the EMA-HMPC monograph for Capsici fructus ('well-established use' for muscle pain, especially low back pain) explicitly covers only C. annuum var. minimum and C. frutescens — NOT C. chinense. For medical applications standardised cayenne/frutescens preparations are therefore preferable; folk use of even hotter C. chinense cultivars is equivalent in principle but without official authorisation and with substantially greater irritation potential."
+      },
+      "source_ids": [
+        "src_pfaf_capsicum_chinense",
+        "src_anand_bley_capsaicin",
+        "src_ema_capsici_fructus"
+      ]
+    },
+    {
+      "form": "compress",
+      "target": [
+        "joints",
+        "circulation"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Frische oder getrocknete C.-chinense-Früchte werden in warmem Öl oder hochprozentigem Alkohol mazeriert und als reizende Kompresse oder Einreibung bei Rheumabeschwerden, Frostbeulen, Ischialgien, Sportverletzungen und Durchblutungsstörungen aufgelegt. Die Wärmeempfindung wird durch capsaicin-vermittelte TRPV1-Aktivierung und reaktive Hyperämie hervorgerufen. NUR auf intakter Haut anwenden — nicht auf Schleimhäuten, Augen, Wunden oder gereizter Haut! Wegen des sehr hohen Capsaicingehalts (bis zu 30× mehr als in Cayenne) sind C.-chinense-Zubereitungen stark zu verdünnen und sehr klein zu dosieren; Handschuhe zwingend, Augenkontakt strikt vermeiden.",
+        "en": "Fresh or dried C. chinense fruits are macerated in warm oil or high-proof alcohol and applied as an irritant compress or rub for rheumatic complaints, chilblains, sciatica, sports injuries and circulatory problems. The warming sensation is mediated by capsaicin-induced TRPV1 activation and reactive hyperaemia. Apply ONLY on intact skin — never on mucous membranes, eyes, wounds or irritated skin! Because of the very high capsaicin content (up to 30× that of cayenne), C. chinense preparations must be heavily diluted and used in very small amounts; gloves are mandatory and contact with the eyes must be strictly avoided."
+      },
+      "source_ids": [
+        "src_pfaf_capsicum_chinense",
+        "src_anand_bley_capsaicin",
+        "src_crops_habanero_capsaicinoid"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "circulation",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "In der traditionellen Volksmedizin Mexikos, Yucatáns und der Karibik werden geringe Mengen sehr scharfer Capsicum-chinense-Früchte als kreislaufanregendes, schweißtreibendes und 'erwärmendes' Tonikum bei beginnenden Erkältungen, kalten Gliedern und allgemeiner Schwächung eingesetzt. Die starke Schärfe regt die periphere Durchblutung an und löst eine reflektorische Schweißbildung aus. Im Yucatán wird Habanero zudem traditionell als Verdauungs- und Appetitanreger zu fett- und proteinreichen Speisen kombiniert. Die starke Reizung der Mund- und Magenschleimhaut erfordert Maß; die wissenschaftliche Studienlage zu spezifisch C. chinense ist viel dünner als zu C. annuum/frutescens.",
+        "en": "In traditional folk medicine of Mexico, Yucatán and the Caribbean, small amounts of very hot Capsicum chinense fruits are used as a circulatory stimulant, diaphoretic and 'warming' tonic for early colds, cold limbs and general debility. The intense pungency stimulates peripheral circulation and triggers reflex sweating. In Yucatán, Habanero is also traditionally combined as a digestive and appetite stimulant with fatty, protein-rich foods. The strong irritation of oral and gastric mucosa requires moderation; the scientific evidence base specifically for C. chinense is much thinner than for C. annuum/frutescens."
+      },
+      "source_ids": [
+        "src_pfaf_capsicum_chinense",
+        "src_wp_en_capsicum_chinense",
+        "src_wp_de_capsicum_chinense"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volkstümliche Cayenne-/Habanero-Tinkturen (sehr stark verdünnt!) werden in der angloamerikanischen und karibischen Volksheilkunde als kreislaufanregendes, 'magenwärmendes' Stomachikum bei kalten Verdauungsstörungen und allgemeiner Schwäche eingesetzt — meist nur tropfenweise in Wasser oder Tee. Eine sichere medizinische Dosierung speziell für C.-chinense-Tinkturen ist mangels klinischer Daten nicht standardisiert; die starke Schleimhautreizung begrenzt die innere Anwendung. Bei empfindlichem Magen, Reflux, Gastritis oder Ulcus zu vermeiden.",
+        "en": "Folk cayenne/habanero tinctures (very heavily diluted!) are used in Anglo-American and Caribbean folk medicine as a circulatory stimulant and 'stomach-warming' stomachic for cold digestive complaints and general weakness — usually only drop-wise in water or tea. A safe medical dosage specifically for C. chinense tinctures is not standardised due to lack of clinical data; the strong mucosal irritation limits internal use. Avoid in sensitive stomach, reflux, gastritis or peptic ulcer."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 3
+        },
+        "ethanol_percent": 60,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "Volksrezept: 1–3 g getrocknete, fein gemörserte Habanero- oder Scotch-Bonnet-Früchte in 100 ml Ethanol 60 % 2 Wochen mazerieren, abseihen. NICHT pur einnehmen — 1–3 Tropfen in einem großen Glas Wasser oder warmem Tee, max. 3× täglich nach den Mahlzeiten. Handschuhe beim Ansetzen, Augenkontakt strikt vermeiden, gut beschriftet außer Reichweite von Kindern lagern.",
+          "en": "Folk recipe: macerate 1–3 g dried, finely ground habanero or Scotch bonnet fruits in 100 ml ethanol 60 % for 2 weeks, then strain. NEVER take undiluted — 1–3 drops in a large glass of water or warm tea, max. 3× daily after meals. Wear gloves during preparation, strictly avoid eye contact, store well-labelled out of children's reach."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_capsicum_chinense",
+        "src_anand_bley_capsaicin",
+        "src_wp_en_capsicum_chinense"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Sehr kleine Mengen reife C.-chinense-Früchte (1–2 g frisch entspricht etwa einer Reiskorn-großen Stückchen Habanero) werden als 'Mikro-Würze' über fertige Speisen gestreut. Reife Früchte enthalten Vitamin C (~70–80 mg/100 g) sowie Carotinoide (Beta-Carotin, Capsanthin in roten Sorten); die typische orange/gelbe/rote Färbung der reifen Habaneros kommt von Capsanthin und Beta-Carotin. Bei normaler kulinarischer Verwendung ist die Aufnahme dieser Nährstoffe wegen der sehr kleinen Mengen nicht ernährungsphysiologisch relevant — der Hauptzweck bleibt Schärfe und Aroma, nicht die Mikronährstoffzufuhr.",
+        "en": "Very small amounts of ripe C. chinense fruits (1–2 g fresh corresponds to a grain-of-rice-sized piece of habanero) are sprinkled as a 'micro-spice' onto finished dishes. Ripe fruits contain vitamin C (~70–80 mg/100 g) as well as carotenoids (beta-carotene, capsanthin in red cultivars); the typical orange/yellow/red colour of ripe habaneros comes from capsanthin and beta-carotene. At normal culinary use, intake of these nutrients is not nutritionally relevant due to the very small amounts — the main purpose remains pungency and aroma, not micronutrient supply."
+      },
+      "source_ids": [
+        "src_wp_en_capsicum_chinense",
+        "src_pfaf_capsicum_chinense",
+        "src_crops_habanero_capsaicinoid"
       ]
     }
   ],
@@ -49,12 +161,85 @@
   },
   "safety": {
     "warnings": {
-      "de": "Capsaicin reizt Schleimhäute stark. Hautkontakt vermeiden, Handschuhe beim Schneiden. Nicht für kleine Kinder.",
-      "en": "Capsaicin strongly irritates mucous membranes. Avoid skin contact, wear gloves when cutting. Not for small children."
+      "de": "Capsicum chinense umfasst die schärfsten Speise-Chilis der Welt (Habanero 100k–350k SHU, Bhut Jolokia ~1 Mio SHU, Carolina Reaper bis 2,2 Mio SHU). Die enthaltenen Capsaicinoide reizen Schleimhäute, Augen und Haut extrem stark. Beim Schneiden zwingend Einmalhandschuhe tragen, Hände, Brett und Messer danach gründlich mit Spülmittel reinigen (Capsaicin ist wasserunlöslich, aber fett- und alkohollöslich — Milch, Joghurt oder Brot lindern Mundbrennen besser als Wasser). Augenkontakt strikt vermeiden — kann starke Schmerzen, Bindehautentzündung und vorübergehende Sehstörungen auslösen. Innerlich: starke Schleimhautreizung in Mund, Speiseröhre und Magen-Darm-Trakt; bei sehr scharfen Sorten und größeren Mengen kann es zu Sodbrennen, Bauchkrämpfen, Erbrechen, brennenden Durchfällen und in Einzelfällen zu Hypertensiven Krisen, Tachykardie oder kardialen Ereignissen kommen (Fall-Berichte nach Carolina-Reaper-Wettbewerben: Reversible Cerebral Vasoconstriction Syndrome / 'Thunderclap-Headache'). Niemals an Kleinkinder verfüttern; nicht bei akuter Gastritis, Ulkus, Reizdarm oder Reflux. Hochkonzentrat-Capsaicin-Pflaster (8 %) für topische Schmerztherapie sind verschreibungspflichtig und werden NICHT aus C. chinense, sondern aus standardisiertem Capsicum annuum/frutescens hergestellt.",
+      "en": "Capsicum chinense covers the hottest edible chillies in the world (Habanero 100k–350k SHU, Bhut Jolokia ~1 million SHU, Carolina Reaper up to 2.2 million SHU). Their capsaicinoids are extremely irritating to mucous membranes, eyes and skin. Wear disposable gloves when cutting; clean hands, board and knife thoroughly with dish soap afterwards (capsaicin is water-insoluble but fat- and alcohol-soluble — milk, yoghurt or bread relieve oral burn better than water). Strictly avoid eye contact — can cause severe pain, conjunctivitis and temporary visual disturbance. Internally: strong mucosal irritation in mouth, oesophagus and GI tract; with very hot cultivars and larger amounts heartburn, abdominal cramps, vomiting, burning diarrhoea and in individual cases hypertensive crisis, tachycardia or cardiac events can occur (case reports after Carolina Reaper eating contests: Reversible Cerebral Vasoconstriction Syndrome / 'thunderclap headache'). Never give to young children; avoid in acute gastritis, peptic ulcer, IBS or reflux. High-concentration capsaicin patches (8 %) for topical pain therapy are prescription-only and are NOT produced from C. chinense but from standardised Capsicum annuum/frutescens."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Sehr scharfe C.-chinense-Sorten sollten in der Schwangerschaft nicht in größeren Mengen verzehrt werden — starke Magenreizung, Reflux und brennende Stuhlgänge sind in der Schwangerschaft ohnehin häufig und werden verschlimmert. Kleinere kulinarische Mengen in lokaltypischen Gerichten (mexikanisch, karibisch) gelten als unbedenklich. Topische capsaicinhaltige Habanero-Zubereitungen sollten in Schwangerschaft und Stillzeit mangels Sicherheitsdaten gemieden werden; offizielle EMA-Capsici-fructus-Präparate sind in der Schwangerschaft kontraindiziert.",
+        "en": "Very hot C. chinense cultivars should not be consumed in large amounts during pregnancy — strong gastric irritation, reflux and burning bowel movements are common in pregnancy anyway and are aggravated. Small culinary amounts in regional dishes (Mexican, Caribbean) are considered safe. Topical capsaicin-containing habanero preparations should be avoided in pregnancy and lactation due to lack of safety data; official EMA Capsici fructus preparations are contraindicated in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Capsaicin und Capsaicinoide gehen geringfügig in die Muttermilch über; sehr scharfe C.-chinense-Mahlzeiten können bei manchen Säuglingen zu Reizbarkeit, Bauchkrämpfen und Schreitendenz führen. Stillende Mütter sollten beobachten und ggf. sehr scharfe Sorten zurückhaltend einsetzen. Topische capsaicinhaltige Präparate nicht auf Brust oder Brustwarzen anwenden.",
+        "en": "Capsaicin and capsaicinoids pass into breast milk in small amounts; very hot C. chinense meals may cause irritability, abdominal cramps and increased crying in some infants. Nursing mothers should observe their child and, if necessary, use very hot cultivars sparingly. Do not apply topical capsaicin preparations to the breast or nipples."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "C.-chinense-Sorten sind wegen ihrer extremen Schärfe für Säuglinge und Kleinkinder ungeeignet — Gefahr starker Schleimhautreizung, Erbrechen, brennender Durchfälle und in seltenen Fällen Aspiration. Topische capsaicinhaltige Salben oder Pflaster sind bei Kindern unter 12 Jahren nicht zugelassen. Eltern sollten Habanero-/Reaper-Hot-Sauces und Trockenfrüchte sicher und außer Reichweite lagern.",
+        "en": "C. chinense cultivars are unsuitable for infants and young children due to their extreme pungency — risk of severe mucosal irritation, vomiting, burning diarrhoea and rare cases of aspiration. Topical capsaicin creams or patches are not approved in children under 12. Parents should store habanero/reaper hot sauces and dried fruits safely out of reach."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit oder Allergie gegen Capsicum-Arten oder andere Nachtschattengewächse (Solanaceae).",
+        "en": "Known hypersensitivity or allergy to Capsicum species or other Solanaceae."
+      },
+      {
+        "de": "Akute Gastritis, Magen- oder Zwölffingerdarmgeschwür, Refluxösophagitis, akute Phasen entzündlicher Darmerkrankungen (Morbus Crohn, Colitis ulcerosa), Reizdarmsyndrom in akuter Reizphase, akute Hämorrhoiden und Analfissuren.",
+        "en": "Acute gastritis, gastric or duodenal ulcer, reflux oesophagitis, active phases of inflammatory bowel disease (Crohn's, ulcerative colitis), acute IBS flare, acute haemorrhoids and anal fissures."
+      },
+      {
+        "de": "Äußerliche Anwendung: nicht auf verletzte, entzündete, gereizte Haut, Augen, Schleimhäute oder offene Wunden auftragen; nicht in Verbindung mit Hitze (Heizdecke, Wärmflasche).",
+        "en": "External use: do not apply to broken, inflamed or irritated skin, eyes, mucous membranes or open wounds; do not combine with external heat (electric blankets, hot-water bottles)."
+      },
+      {
+        "de": "Kinder unter 12 Jahren (topisch); Säuglinge und Kleinkinder (innerlich).",
+        "en": "Children under 12 years (topical); infants and young children (oral)."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "ACE-Hemmer (Captopril, Enalapril, Ramipril u. a.)",
+        "mechanism": {
+          "de": "Capsaicin sensibilisiert TRPV1-Rezeptoren in den Atemwegen. Bei Patienten unter ACE-Hemmer-Therapie ist der Hustenreflex auf Capsaicin nachweislich verstärkt; Inhalation von Habanero-Dämpfen oder scharfe Mahlzeiten können den klassischen ACE-Hemmer-induzierten Reizhusten auslösen oder verstärken (Bradykinin-Akkumulation, TRPV1-Sensibilisierung).",
+          "en": "Capsaicin sensitises TRPV1 receptors in the airways. In patients on ACE inhibitor therapy the cough reflex to capsaicin is demonstrably enhanced; inhalation of habanero fumes or hot meals can trigger or aggravate the classic ACE-inhibitor-induced cough (bradykinin accumulation, TRPV1 sensitisation)."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Antikoagulanzien (Warfarin, Phenprocoumon, DOAKs) und Thrombozytenaggregationshemmer (ASS, Clopidogrel)",
+        "mechanism": {
+          "de": "Capsaicin reizt die Magen-Darm-Schleimhaut und kann das Risiko gastrointestinaler Blutungen unter Antikoagulation oder Plättchenhemmung theoretisch erhöhen. Bei größeren Mengen scharfer Capsicum-chinense-Sorten Vorsicht; vorgeschädigte Schleimhaut (Ulkus, Gastritis) absolutes Ausschlusskriterium.",
+          "en": "Capsaicin irritates the gastrointestinal mucosa and may theoretically increase the risk of GI bleeding under anticoagulation or platelet inhibition. Caution with larger amounts of hot Capsicum chinense; pre-damaged mucosa (ulcer, gastritis) is an absolute exclusion criterion."
+        },
+        "severity": "caution"
+      },
+      {
+        "drug_class": "Antihypertensiva und Sympathomimetika",
+        "mechanism": {
+          "de": "Sehr große Mengen extrem scharfer C.-chinense-Früchte (Carolina Reaper, Pepper X) können transient Blutdruck und Herzfrequenz steigern; Einzelfallberichte (Reversible Cerebral Vasoconstriction Syndrome nach Reaper-Wettbewerben) zeigen das Risiko hypertensiver Reaktionen. Bei eingestellter Hypertonie auf Wettbewerbsmengen verzichten.",
+          "en": "Very large amounts of extremely hot C. chinense fruits (Carolina Reaper, Pepper X) can transiently raise blood pressure and heart rate; case reports (reversible cerebral vasoconstriction syndrome after Reaper contests) show the risk of hypertensive reactions. Patients with managed hypertension should avoid contest-sized amounts."
+        },
+        "severity": "caution"
+      },
+      {
+        "drug_class": "Topische Analgetika und Lokalanästhetika",
+        "mechanism": {
+          "de": "Gleichzeitige Anwendung von capsaicinhaltigen Zubereitungen mit Lidocain- oder Ibuprofen-Salben kann Resorption und Verträglichkeit verändern; bei der hochpotenten C.-chinense-Schärfe ist eine Sensibilisierung der Hautrezeptoren besonders ausgeprägt.",
+          "en": "Concurrent use of capsaicin-containing preparations with lidocaine or ibuprofen creams can alter absorption and tolerability; with the very high pungency of C. chinense, sensitisation of skin receptors is particularly pronounced."
+        },
+        "severity": "monitor"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -71,6 +256,62 @@
       "title": "Capsicum chinense (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Capsicum_chinense",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wp_de_capsicum_chinense",
+      "type": "wikipedia",
+      "title": "Capsicum chinense (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Capsicum_chinense",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_wp_en_capsicum_chinense",
+      "type": "wikipedia",
+      "title": "Capsicum chinense (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Capsicum_chinense",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_wikidata_capsicum_chinense",
+      "type": "wikidata",
+      "title": "Capsicum chinense (Wikidata Q311071)",
+      "url": "https://www.wikidata.org/wiki/Q311071",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_pfaf_capsicum_chinense",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Capsicum chinense database entry (Habanero pepper)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Capsicum+chinense",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_ema_capsici_fructus",
+      "type": "monograph",
+      "title": "European Medicines Agency, HMPC — European Union herbal monograph on Capsicum annuum L. var. minimum (Miller) Heiser and small fruited varieties of Capsicum frutescens L., fructus (EMA/HMPC/674138/2013, final 5 May 2015). Well-established use for relief of muscle pain (low back pain); explicitly excludes C. chinense.",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/capsici-fructus",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_anand_bley_capsaicin",
+      "type": "monograph",
+      "title": "Anand P., Bley K. — Topical capsaicin for pain management: therapeutic potential and mechanisms of action of the new high-concentration capsaicin 8 % patch. Br J Anaesth. 2011;107(4):490–502.",
+      "url": "https://doi.org/10.1093/bja/aer260",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_crops_habanero_capsaicinoid",
+      "type": "monograph",
+      "title": "Muñoz-Ramírez L. S., Peña-Yam L. P., Pech-Jiménez C., Canto-Flick A., Guzman-Antonio A. A., Santana-Buzzy N. — Determination of Capsaicin and Dihydrocapsaicin in Habanero Pepper (Capsicum chinense Jacq.) Hybrids Cultivated in Yucatán, México. Crops 2026;6(1):18.",
+      "url": "https://doi.org/10.3390/crops6010018",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_pepper_x_record",
+      "type": "wikipedia",
+      "title": "Pepper X (Wikipedia EN) — Guinness World Record 2,693,000 SHU (2023), Capsicum chinense cultivar bred by Ed Currie.",
+      "url": "https://en.wikipedia.org/wiki/Pepper_X",
+      "accessed": "2026-05-26"
     }
   ],
   "image": {
@@ -125,5 +366,131 @@
   },
   "permaculture_functions": [
     "vertical_mid"
+  ],
+  "constituents": [
+    {
+      "name": "Capsaicin",
+      "category": "alkaloid",
+      "percent_range": "0,3–7,4 % im Trockengewicht der reifen Frucht (sortenabhängig)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptschärfeträger und Leitsubstanz aller scharfen Capsicum-Arten. In C. chinense erreicht Capsaicin die weltweit höchsten gemessenen Konzentrationen: HPLC-Studien an Habanero-Hybriden aus Yucatán messen 19,95–73,55 mg/g Trockengewicht (= 2,0–7,4 %); Carolina Reaper und Pepper X liegen am oberen Ende. Wirkt als hochselektiver Agonist am vanilloiden TRPV1-Rezeptor sensorischer Nervenenden — initial heftiges Brennen, bei wiederholter Anwendung Substanz-P-Depletion und Schmerz-Desensibilisierung (Basis topischer Schmerztherapie). Lipophil, wasserunlöslich — Mundbrennen wird durch Milch (Casein) oder Brot, NICHT durch Wasser, gelindert.",
+        "en": "Main pungency carrier and lead compound of all hot Capsicum species. In C. chinense capsaicin reaches the world's highest measured concentrations: HPLC studies of Habanero hybrids from Yucatán report 19.95–73.55 mg/g dry weight (= 2.0–7.4 %); Carolina Reaper and Pepper X sit at the upper end. Acts as a highly selective agonist at the vanilloid TRPV1 receptor on sensory nerve endings — initial intense burning, with repeated application substance P depletion and pain desensitisation (basis of topical pain therapy). Lipophilic, water-insoluble — oral burn is relieved by milk (casein) or bread, NOT by water."
+      }
+    },
+    {
+      "name": "Dihydrocapsaicin",
+      "category": "alkaloid",
+      "percent_range": "4,57–14,36 mg/g Trockengewicht (~0,5–1,4 %) bei Habanero",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Zweithäufigstes Capsaicinoid; bildet zusammen mit Capsaicin etwa 90 % der Gesamtcapsaicinoide in C. chinense. Pharmakologisch fast identisches Profil zu Capsaicin (TRPV1-Agonist, ähnliche Schärfe ~16 Mio SHU rein); etwas lipophiler und länger wirksam.",
+        "en": "Second most abundant capsaicinoid; together with capsaicin accounts for about 90 % of total capsaicinoids in C. chinense. Pharmacologically near-identical to capsaicin (TRPV1 agonist, similar pungency ~16 million SHU pure); slightly more lipophilic and longer-acting."
+      }
+    },
+    {
+      "name": "Nordihydrocapsaicin, Homocapsaicin und Homodihydrocapsaicin",
+      "category": "alkaloid",
+      "percent_range": "Spuren bis 0,1 % (Gesamt-Minor-Capsaicinoide)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Mengenmäßig kleinere Capsaicinoide mit ähnlicher Struktur und Wirkung wie Capsaicin/Dihydrocapsaicin, aber etwas geringerer Schärfe pro Molekül. Tragen zur Komplexität und zur 'verzögerten' Schärfe-Wahrnehmung (delayed burn) von C.-chinense-Sorten bei.",
+        "en": "Quantitatively minor capsaicinoids with similar structure and effect to capsaicin/dihydrocapsaicin but somewhat less pungency per molecule. Contribute to the complexity and the 'delayed burn' perception typical of C. chinense cultivars."
+      }
+    },
+    {
+      "name": "Capsanthin und Capsorubin",
+      "category": "other",
+      "percent_range": "0,1–0,5 % Gesamtcarotinoide (rote/orange Sorten)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Charakteristische Capsicum-Carotinoide; verantwortlich für die leuchtend rote/orange Farbe reifer Habanero- und Scotch-Bonnet-Früchte. Fettlöslich, antioxidativ, lebensmittelrechtlich als Farbstoff E160c zugelassen. Akkumulieren erst in der vollreifen Frucht.",
+        "en": "Characteristic Capsicum carotenoids; responsible for the bright red/orange colour of ripe Habanero and Scotch Bonnet fruits. Fat-soluble, antioxidant, approved as food colour E160c. Accumulate only in the fully ripe fruit."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "percent_range": "~70–80 mg/100 g Frischgewicht",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Habanero und Verwandte enthalten erhebliche Mengen Vitamin C — vergleichbar mit Zitrusfrüchten und höher als bei C. annuum-Sorten ähnlicher Größe. Bei der typischen Verwendung als 'Mikrowürze' (1–2 g pro Portion) trägt der Vitamin-C-Beitrag jedoch nur marginal zur Tagesaufnahme bei.",
+        "en": "Habanero and relatives contain considerable amounts of vitamin C — comparable to citrus fruits and higher than similar-sized C. annuum cultivars. At the typical 'micro-spice' use (1–2 g per serving) the vitamin C contribution to daily intake is, however, only marginal."
+      }
+    },
+    {
+      "name": "Hexylisobutyrat und weitere fruchtige Aromaester",
+      "category": "essential_oil",
+      "percent_range": "Spuren (~0,01 %)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Charakteristisches Aroma-Leitprofil der C. chinense: Hexylisobutyrat, 3-Methylbutyl-3-methylbutanoat und weitere Ester verleihen die typisch fruchtig-blumigen Noten (oft mit Aprikose, Pfirsich oder tropischen Früchten verglichen), die Habanero, Scotch Bonnet und Bhut Jolokia von Cayenne und Tabasco abheben.",
+        "en": "Signature aroma profile of C. chinense: hexyl isobutyrate, 3-methylbutyl-3-methylbutanoate and other esters give the typical fruity-floral notes (often compared with apricot, peach or tropical fruits) that distinguish habanero, Scotch bonnet and bhut jolokia from cayenne and tabasco."
+      }
+    },
+    {
+      "name": "Beta-Carotin (Provitamin A)",
+      "category": "other",
+      "percent_range": "0,05–0,2 % in roten/orangen Früchten",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Provitamin-A-Carotinoid in den reifen, farbigen Früchten; im Körper bedarfsgerecht zu Retinol umgewandelt. Antioxidativ. Bioverfügbarkeit aus C. chinense durch die typisch kleinen Verwendungsmengen ernährungsphysiologisch jedoch sekundär.",
+        "en": "Provitamin A carotenoid in the ripe, coloured fruits; converted to retinol in the body as needed. Antioxidant. Bioavailability from C. chinense is, however, of secondary nutritional importance given the typically small culinary amounts used."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin, Luteolin)",
+      "category": "flavonoid",
+      "percent_range": "0,01–0,05 % (Frischgewicht)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Quercetin und Luteolin sind die wichtigsten Flavonoide in C. chinense, konzentriert in der Fruchthaut. Antioxidativ und entzündungshemmend in vitro. Tragen neben den Carotinoiden zur antioxidativen Gesamtkapazität der scharfen Chilis bei.",
+        "en": "Quercetin and luteolin are the main flavonoids in C. chinense, concentrated in the fruit skin. Antioxidant and anti-inflammatory in vitro. Contribute alongside carotenoids to the overall antioxidant capacity of hot chillies."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Morgens oder am frühen Vormittag bei trockener, sonniger Witterung ernten — die Früchte sind dann turgor-prall und der Capsaicingehalt durch die Sonneneinstrahlung am höchsten. Wegen der extremen Schärfe IMMER Einmalhandschuhe tragen (auch Nitril) und Augenkontakt strikt vermeiden — niemals mit blanken Fingern Auge oder Gesicht berühren.",
+        "en": "Harvest in the morning or early forenoon in dry, sunny weather — fruits are then turgid and capsaicin content is highest due to sunlight. Because of the extreme pungency ALWAYS wear disposable gloves (nitrile) and strictly avoid eye contact — never touch eyes or face with bare fingers."
+      },
+      "drying": {
+        "de": "FRISCHE ERNTE (vollreif, 120–150 Tage nach Auspflanzen): Früchte mit Gartenschere mit kurzem Stielansatz abschneiden, sobald sie die sortentypische Endfarbe (orange, rot, gelb, schoko) und vollen Glanz erreicht haben. Frisch im Kühlschrank-Gemüsefach (5–8 °C) etwa 7–14 Tage haltbar. Für längere Haltbarkeit:\n\nTROCKNUNG: Ganze oder halbierte Früchte aufgefädelt an luftigem, schattigem Ort 2–4 Wochen trocknen oder im Dörrgerät bei 50–55 °C 12–18 h. Kerne entfernen reduziert nicht den Capsaicingehalt nennenswert (Capsaicin sitzt in der Plazenta-/Trennwand, nicht im Samen selbst).\n\nVERARBEITUNG: Hot Sauces (Essig + Salz, fermentiert oder roh), eingefrorene Pürees (12 Monate), eingelegt in Essig/Öl, geröstet und in Salz/Pulver verarbeitet (Reaper-Salt, Habanero-Pulver). Bei jeder Verarbeitung auf gute Belüftung achten — Dämpfe reizen Atemwege stark; Schutzbrille und FFP2/3-Maske bei großen Mengen empfehlenswert.",
+        "en": "FRESH HARVEST (fully ripe, 120–150 days after transplanting): Cut fruits with secateurs leaving a short stem, once they have reached the variety-specific final colour (orange, red, yellow, chocolate) and full gloss. Keeps in the refrigerator vegetable drawer (5–8 °C) for 7–14 days. For longer preservation:\n\nDRYING: Thread whole or halved fruits and dry in an airy, shaded location for 2–4 weeks, or in a dehydrator at 50–55 °C for 12–18 h. Removing seeds does not significantly reduce capsaicin (capsaicin sits in the placental tissue/internal wall, not in the seed itself).\n\nPROCESSING: Hot sauces (vinegar + salt, fermented or raw), frozen purees (12 months), pickled in vinegar/oil, roasted and processed into salt/powder (Reaper salt, habanero powder). Always ensure good ventilation when processing — fumes strongly irritate the airways; safety goggles and FFP2/3 mask recommended for larger amounts."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknete C.-chinense-Früchte luftdicht und dunkel in Glasgefäßen bei Raumtemperatur (max. 25 °C) 12–24 Monate lagern. Bei höherer Luftfeuchte → Schimmelgefahr. Gefrorene Pürees bei −18 °C 12 Monate. Hot Sauces je nach Rezeptur (Säure, Salzgehalt) 6–24 Monate. Pulver in lichtgeschützten Dosen, Capsaicin verträgt Licht und Hitze schlecht — Aromaverlust nach 12 Monaten merklich, Schärfe bleibt länger erhalten. Behälter eindeutig beschriften, kindersicher lagern.",
+        "en": "Store dried C. chinense fruits airtight, dark, in glass jars at room temperature (max. 25 °C) for 12–24 months. Higher humidity → risk of mould. Frozen purees at −18 °C for 12 months. Hot sauces 6–24 months depending on recipe (acidity, salt content). Powders in opaque containers; capsaicin tolerates light and heat poorly — noticeable aroma loss after 12 months, pungency persists longer. Label containers clearly, store child-safely."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Voll ausgereifte, makellose Habanero-/Scotch-Bonnet-/Reaper-Früchte von gesunden, sortentreuen Pflanzen am Saisonende zur Samengewinnung zurücklassen.",
+        "en": "Leave fully ripe, unblemished habanero/Scotch bonnet/reaper fruits from healthy, true-to-type plants at season's end for seed saving."
+      },
+      "drying": {
+        "de": "SAATGUTGEWINNUNG (Achtung Capsaicin!): Vollreife Frucht IMMER mit Handschuhen halbieren, Samen über das Trennwandgewebe (Plazenta) lösen — auch das Plazentagewebe trocken abreiben, dann werden Samen in einem Sieb kurz unter kaltem Wasser abgespült. Auf Küchenpapier oder Keimpapier bei 20–25 °C in einem luftigen, schattigen Raum 1–2 Wochen trocknen, bis sie brüchig erscheinen. NIEMALS im Backofen oder Dörrgerät — Keimfähigkeit wird zerstört. C.-chinense-Saatgut keimt notorisch langsam und unregelmäßig (2–6 Wochen bei 25–28 °C Bodentemperatur), Keimfähigkeit bei guter Lagerung 3–4 Jahre. Nur bei sortenechtem (open-pollinated) Saatgut sinnvoll — F1-Hybriden spalten in der nächsten Generation auf.",
+        "en": "SEED SAVING (caution capsaicin!): Always cut fully ripe fruits with gloves on, separate seeds from placental tissue — rub off the placenta tissue as well, then briefly rinse seeds in a sieve under cold water. Dry on paper towels or seed paper at 20–25 °C in an airy, shaded room for 1–2 weeks until they appear brittle. NEVER use an oven or dehydrator — germination ability is destroyed. C. chinense seed germinates notoriously slowly and unevenly (2–6 weeks at 25–28 °C soil temperature); germination viability 3–4 years with good storage. Only worthwhile with open-pollinated varieties — F1 hybrids segregate in the next generation."
+      },
+      "storage_months": 36,
+      "storage_condition": {
+        "de": "Trocken in beschrifteten Papiertüten mit Trockenmittel (Silikagel), dunkel bei 5–15 °C lagern (Kühlschrank-Gemüsefach oder kühler Keller). Nicht in luftdichten Plastikbeuteln ohne Trockenmittel — Restfeuchte führt zu Schimmel und Keimkraftverlust. Vor Aussaat Keimtest empfohlen: 5 Samen auf feuchtem Küchenpapier bei 28 °C, 4–6 Wochen.",
+        "en": "Store dry in labelled paper envelopes with desiccant (silica gel), dark, at 5–15 °C (refrigerator vegetable drawer or cool cellar). Do not store in airtight plastic without desiccant — residual moisture causes mould and loss of viability. Germination test before sowing recommended: 5 seeds on moist paper towel at 28 °C, 4–6 weeks."
+      }
+    }
   ]
 }

@@ -20,19 +20,169 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-to-01",
       "target": [
-        "caution"
+        "skin"
       ],
-      "internal_external": "external",
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Traditionelle äußerliche Anwendung der Thuja-Urtinktur (Thuja occidentalis Ø, ethanolischer Frischpflanzenauszug) zur lokalen Behandlung von Warzen (Verrucae vulgares) und Feigwarzen (Condylomata acuminata). Anwendung in der westeuropäischen Phytotherapie und Homöopathie seit dem 19. Jahrhundert (Hahnemann). Wirkprinzip: antiviral (Hemmung viraler Replikation, in vitro für HSV-1/2 dokumentiert) plus lokal-zytotoxische Komponente durch Thujon. Keine EMA-HMPC-Monographie für die Indikation — daher `traditional`.",
+        "en": "Traditional external use of Thuja mother tincture (Thuja occidentalis Ø, ethanolic fresh-plant extract) for local treatment of common warts (Verrucae vulgares) and genital warts (Condylomata acuminata). Used in Western European phytotherapy and homeopathy since the 19th century (Hahnemann). Mechanism: antiviral (inhibition of viral replication, documented in vitro for HSV-1/2) plus a local cytotoxic component via thujone. No EMA HMPC monograph for the indication — therefore `traditional`."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "60-70% ethanol",
+        "instructions": {
+          "de": "URTINKTUR (Thuja occidentalis Ø, 1:10 in 60–70 % Ethanol, frische junge Triebspitzen): 1–2× täglich einen Tropfen direkt auf die Warze auftragen, umliegende Haut mit Vaseline schützen. Behandlungsdauer: bis zur Abheilung, üblicherweise 4–12 Wochen. Nicht auf Schleimhäute, nicht großflächig. Bei Genitalwarzen ausschließlich ärztlich begleitet. Innerliche Anwendung der Urtinktur ist wegen Thujongehalt nicht empfohlen.",
+          "en": "MOTHER TINCTURE (Thuja occidentalis Ø, 1:10 in 60–70 % ethanol, fresh young shoot tips): 1–2× daily one drop applied directly to the wart, protect surrounding skin with petroleum jelly. Treatment duration: until healing, typically 4–12 weeks. Not on mucous membranes, not over large areas. For genital warts only under medical supervision. Internal use of the mother tincture is not recommended due to thujone content."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Ab 12 Jahren äußerlich auf kleinen Hautstellen unter Aufsicht. Kein Einsatz bei Kleinkindern, in Schwangerschaft, Stillzeit.",
+          "en": "From 12 years old externally on small skin areas under supervision. No use in toddlers, pregnancy or breastfeeding."
+        }
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-to-naser-2005",
+        "src-to-wiki-en",
+        "src-to-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-to-02",
+      "target": [
+        "immune",
+        "respiratory"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Klinisch dokumentiert ausschließlich als Kombinationspräparat Esberitox® N (Schaper & Brümmer): Echinacea-purpurea-Wurzel + Baptisia-tinctoria-Wurzel + Thuja-occidentalis-Spitzen. Mehrere randomisierte, doppelblinde, placebokontrollierte Studien (z. B. Henneicke-von Zepelin 1999, n=263) zeigten eine schnellere Symptomlinderung bei akuter Erkältung gegenüber Placebo (P < 0,05). Adjuvante Anwendung neben antibiotischer Therapie bei Bronchitis dokumentiert. Wichtig: Die Wirkung wird primär Echinacea-/Baptisia-Polysacchariden zugeschrieben — Thuja-Anteil liefert immunmodulatorisch aktive Glykoproteine. Es existiert KEINE EMA-HMPC-Monographie für Thuja occidentalis als Einzelpflanze; Evidence-Level `clinical_trial` bezieht sich auf das Kombinationspräparat.",
+        "en": "Clinically documented exclusively as the combination product Esberitox® N (Schaper & Brümmer): Echinacea purpurea root + Baptisia tinctoria root + Thuja occidentalis shoot tips. Several randomised, double-blind, placebo-controlled studies (e.g. Henneicke-von Zepelin 1999, n=263) showed faster symptom relief in acute common cold versus placebo (P < 0.05). Adjunctive use alongside antibiotic therapy in bronchitis documented. Important: efficacy is primarily attributed to Echinacea/Baptisia polysaccharides — the Thuja component contributes immunomodulating glycoproteins. There is NO EMA HMPC monograph for Thuja occidentalis as a single herb; the `clinical_trial` evidence level refers to the combination product."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "FERTIGARZNEIMITTEL: Esberitox® N (oder Compact) — Dosierung gemäß Packungsbeilage, üblich Erwachsene 3× täglich 3 Tabletten bei den ersten Erkältungsanzeichen. Anwendungsdauer auf 1–2 Wochen begrenzt. Keine Selbst-Zubereitung der Thuja-Komponente aus dem Garten — Thujongehalt unkalkulierbar. Verschreibungsfreies Apothekenprodukt.",
+          "en": "FINISHED MEDICINAL PRODUCT: Esberitox® N (or Compact) — dose per package insert, typically adults 3× daily 3 tablets at first signs of cold. Limit use to 1–2 weeks. Do not self-prepare the Thuja component from the garden — thujone content is unpredictable. Over-the-counter pharmacy product."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Esberitox® N ab 4 Jahren in reduzierter Dosierung; reines Thuja-Präparat innerlich nicht für Kinder und Jugendliche.",
+          "en": "Esberitox® N from 4 years in reduced dosage; pure Thuja preparations internally not for children and adolescents."
+        }
+      },
+      "source_ids": [
+        "src-to-henneicke-1999",
+        "src-to-naser-2005"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-to-03",
+      "target": [
+        "nutrition",
+        "respiratory"
+      ],
+      "form": "tea",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische volksmedizinische Anwendung als Skorbut-Heilmittel: Jacques Cartier rettete 1535–1536 seine Mannschaft bei der Überwinterung am St.-Lorenz-Strom mit dem von den Stadaconan-Iroquois ('Donnacona') gezeigten 'Annedda'-Aufguss aus Thuja-Zweigen und Rinde. Der hohe Vitamin-C-Gehalt der jungen Triebspitzen (saisonal bis 50 mg/100 g) heilte die Skorbut-Symptome innert Tagen. Heute medizinisch obsolet (Vitamin-C-Substitution problemlos verfügbar) und wegen Thujon-Gehalt nicht als Routine-Tee empfohlen.",
+        "en": "Historical folk use as a scurvy cure: Jacques Cartier rescued his crew in the winter of 1535–1536 on the St. Lawrence River with the 'annedda' infusion of Thuja twigs and bark shown to him by the Stadaconan Iroquois ('Donnacona'). The high vitamin C content of the young shoot tips (seasonal up to ca. 50 mg/100 g) cured the scurvy symptoms within days. Today medically obsolete (vitamin C readily available) and not recommended as a routine tea due to thujone content."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "HISTORISCH: junge Triebspitzen mit kochendem Wasser übergießen, kurz ziehen lassen. Heute KEINE Anwendungsempfehlung als Vitamin-C-Quelle — bei längerem Konsum besteht Thujon-Krampfrisiko (siehe Sicherheitshinweis). Rein dokumentarisch.",
+          "en": "HISTORICAL: pour boiling water over young shoot tips, brief steep. Today NO recommendation as a vitamin C source — prolonged consumption carries a thujone seizure risk (see safety note). Purely documentary."
+        }
+      },
+      "source_ids": [
+        "src-to-wiki-en",
+        "src-to-naser-2005",
+        "src-to-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-to-04",
+      "target": [
+        "skin"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Verwendung (Thuja occidentalis D6–C30) als Konstitutionsmittel bei 'Sykose' nach Hahnemann — symbolisch zugeordnete Indikationen: Warzen, Hautwucherungen, chronische Schnupfen, Folgen von Impfungen ('Impfschäden'), Genitalbeschwerden. Ab D12 keine pharmakologisch wirksamen Thujon-Mengen mehr enthalten. Klassische Verschreibung durch homöopathische Ärzte; keine evidenzbasierte Wirksamkeit über Placebo hinaus belegt.",
+        "en": "Homeopathic use (Thuja occidentalis D6–C30) as a constitutional remedy for 'sycosis' according to Hahnemann — symbolically assigned indications: warts, skin growths, chronic rhinitis, post-vaccination complaints ('vaccine damage'), genital complaints. From D12 onward no pharmacologically active thujone amounts remain. Classical prescription by homeopathic physicians; no evidence-based efficacy beyond placebo demonstrated."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "Homöopathische Potenzierung ab D6 — keine direkte Thujonwirkung. Anwendung ausschließlich nach ärztlicher oder homöopathischer Verschreibung. Globuli oder Tropfen, Dosierung individuell.",
+          "en": "Homeopathic potentization from D6 onward — no direct thujone effect. Use exclusively on medical or homeopathic prescription. Globules or drops, individual dosing."
+        }
+      },
+      "source_ids": [
+        "src-to-wiki-de",
+        "src-to-naser-2005"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-to-05",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "form": "salve",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Traditionelle indigene und volksmedizinische Verwendung von Thuja-Blattbreien und -Salben in Nordamerika: Ojibwe, Algonquian und andere First Nations setzten Aufgüsse und Auflagen aus jungen Zweigen bei Rheuma, geschwollenen Händen, Gelenkschmerzen, Kopfschmerzen und entzündeten Hautstellen ein ('Nookomis Giizhik' — Großmutter-Zeder). Externe Anwendung im Liniment- oder Salbenformat, typisch mit Bärenfett oder Schweinefett. Heute durch standardisierte externe Antirheumatika abgelöst; ethnobotanisch dokumentiert.",
+        "en": "Traditional Indigenous and folk use of Thuja leaf pastes and salves in North America: Ojibwe, Algonquian and other First Nations used infusions and poultices of young twigs for rheumatism, swollen hands, joint pain, headaches and inflamed skin areas ('Nookomis Giizhik' — Grandmother Cedar). External use in liniment or salve format, typically with bear fat or lard. Today replaced by standardised topical antirheumatics; ethnobotanically documented."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "Frische junge Zweigspitzen kleinhacken, mit warmem Fett oder Pflanzenöl (z. B. Olivenöl) bei 50–60 °C ca. 30 Minuten ziehen lassen, abseihen — Salbenbasis. 1–2× täglich dünn auftragen, nicht auf offenen Wunden oder bei Thujon-Empfindlichkeit. Selbst-Zubereitung nur in kleinen Mengen — Thujon-Gehalt steigt bei höheren Temperaturen.",
+          "en": "Chop fresh young shoot tips, infuse in warm fat or vegetable oil (e.g. olive oil) at 50–60 °C for ca. 30 minutes, strain — salve base. Apply thinly 1–2× daily, never on open wounds or in case of thujone sensitivity. Self-preparation only in small quantities — thujone content rises at higher temperatures."
+        }
+      },
+      "source_ids": [
+        "src-to-wiki-en",
+        "src-to-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-to-06",
+      "target": [
+        "respiratory"
+      ],
+      "form": "inhalation",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Räucherung und Dampfinhalation mit Thuja-Zweigspitzen bei Erkältung, verstopfter Nase und Bronchitis — wirkprinzipiell sekretolytisch durch ätherisches Öl (Monoterpene, Thujon-Anteil). In Ojibwe-Tradition rituelles Räuchern für Reinigung und spirituelle Praxis. Heute wegen Thujon-Toxizität bei längerer Anwendung nicht empfohlen — bei sensiblen Personen oder Kindern bereits Inhalation problematisch.",
+        "en": "Folk fumigation and steam inhalation with Thuja shoot tips for colds, blocked nose and bronchitis — mechanism: secretolytic via the essential oil (monoterpenes, thujone fraction). In Ojibwe tradition ritual fumigation for cleansing and spiritual practice. Today not recommended due to thujone toxicity in prolonged use — even inhalation can be problematic for sensitive individuals or children."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "Eine kleine Handvoll frische oder getrocknete Zweigspitzen mit kochendem Wasser übergiessen, Schale unter Handtuch 5–10 Minuten inhalieren — maximal 1–2× täglich, nicht bei Asthma, nicht bei Kindern unter 12 Jahren, nicht in Schwangerschaft.",
+          "en": "Pour boiling water over a small handful of fresh or dried shoot tips, inhale under a towel for 5–10 minutes — max. 1–2× daily, not in asthma, not in children under 12, not in pregnancy."
+        }
+      },
+      "source_ids": [
+        "src-to-wiki-en",
+        "src-to-pfaf"
+      ],
+      "internal_external": "external"
     }
   ],
   "season": {
@@ -50,12 +200,106 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG (Thujon) — ätherisches Öl und Zweige. Standard-Sichtschutz-Hecke in europäischen Gärten. Thujon ist nerventoxisch und krampfauslösend. Hautkontakt mit dem Öl kann Reizungen verursachen, innere Anwendung lebensgefährlich. Beim Heckenschnitt Handschuhe tragen. Historische homöopathische Anwendung nur unter ärztlicher Aufsicht.",
-      "en": "TOXIC (thujone) — essential oil and twigs. Standard privacy hedge in European gardens. Thujone is neurotoxic and seizure-inducing. Skin contact with the oil can cause irritation, internal use is life-threatening. Wear gloves when trimming the hedge. Historical homeopathic use only under medical supervision."
+      "de": "GIFTIG (Thujon-Gehalt) — ätherisches Öl, Zweige, Blätter, Zapfen. Der α-/β-Thujon-Gehalt im getrockneten Kraut beträgt ca. 7,6 mg/g (Verhältnis α:β = 85:15), im ätherischen Öl 1,4–4 % der Masse. Thujon ist ein GABA-A-Antagonist und neurotoxisch — Symptome einer Überdosierung: Magen-Darm-Beschwerden, Übelkeit, Erbrechen, Hypersalivation, Tachykardie, Hypotonie, niedrige Krampfschwelle, generalisierte Krampfanfälle, Atemdepression, in schweren Fällen Leberschaden und Tod. Toxische orale Dosis Thujon: ca. 30 mg/kg KG. Hautkontakt mit dem ätherischen Öl oder frischem Pflanzensaft kann allergische Kontaktdermatitis auslösen. Beim Heckenschnitt grosser Mengen Handschuhe und ggf. Atemschutz tragen. Innerliche Selbstanwendung der reinen Pflanze oder des ätherischen Öls ist lebensgefährlich. Esberitox® (Fertigprodukt mit niedrig dosiertem Thuja-Anteil, ca. 0,08 mg Thujon/kg KG bei Tagesdosis) ist in Deutschland zugelassen und unter Beachtung der Packungsbeilage akzeptabel. Bei Vergiftungsverdacht: SOFORT Notruf 112 und Giftnotruf. Es existiert KEINE EMA-HMPC-Monographie für Thuja occidentalis als Einzelpflanze — alle Indikationen sind volksmedizinisch oder homöopathisch belegt; klinische Studien gibt es ausschliesslich für Kombinationspräparate.",
+      "en": "TOXIC (thujone content) — essential oil, twigs, leaves, cones. The α/β-thujone content in the dried herb is ca. 7.6 mg/g (α:β ratio = 85:15), in the essential oil 1.4–4 % by mass. Thujone is a GABA-A antagonist and neurotoxic — overdose symptoms: gastrointestinal complaints, nausea, vomiting, hypersalivation, tachycardia, hypotension, lowered seizure threshold, generalised seizures, respiratory depression, in severe cases hepatic damage and death. Toxic oral thujone dose: ca. 30 mg/kg body weight. Skin contact with the essential oil or fresh plant sap can trigger allergic contact dermatitis. When trimming large amounts of hedge, wear gloves and respiratory protection. Internal self-use of the pure plant or essential oil is life-threatening. Esberitox® (finished product with a low-dose Thuja fraction, ca. 0.08 mg thujone/kg body weight at daily dose) is authorised in Germany and acceptable when following the package insert. On suspicion of poisoning: IMMEDIATELY call emergency services and poison control. There is NO EMA HMPC monograph for Thuja occidentalis as a single herb — all indications are folk-medicinal or homeopathic; clinical studies exist only for combination products."
     },
-    "external_only": true,
-    "toxicity_level": "toxic",
-    "pet_toxic": false
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Thujon hat dokumentierte uterotrope (emmenagoge/abortive) Eigenschaften und passiert die Plazentaschranke. Innere und äußerliche grossflächige Anwendung in der Schwangerschaft strikt kontraindiziert — auch homöopathische Tiefpotenzen (D2–D6) der Urtinktur sollten gemieden werden. Esberitox® ist in der Schwangerschaft nicht empfohlen.",
+        "en": "Thujone has documented uterotropic (emmenagogue/abortive) properties and crosses the placental barrier. Internal use and large-area external use in pregnancy strictly contraindicated — even low homeopathic potencies (D2–D6) of the mother tincture should be avoided. Esberitox® is not recommended in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Thujon tritt in die Muttermilch über und kann beim Säugling die Krampfschwelle senken sowie Sedierung oder Erregungszustände auslösen. Stillzeit: innerliche Anwendung und Esberitox® kontraindiziert.",
+        "en": "Thujone passes into breast milk and can lower the infant's seizure threshold and cause sedation or agitation. Breastfeeding: internal use and Esberitox® contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder unter 12 Jahren reagieren besonders empfindlich auf Thujon — niedrigere Krampfschwelle. Reine Thuja-Tees, Tinkturen oder ätherisches Öl: keinerlei Einsatz unter 12 Jahren. Esberitox® N ist als Fertigarzneimittel ab 4 Jahren in reduzierter Dosierung zugelassen. Homöopathische Mittel ab D12 nach ärztlicher Verschreibung möglich.",
+        "en": "Children under 12 are particularly sensitive to thujone — lower seizure threshold. Pure Thuja teas, tinctures or essential oil: no use under 12 years. Esberitox® N is authorised as a finished medicinal product from age 4 in reduced dose. Homeopathic preparations from D12 onward possible on medical prescription."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder unter 4 Jahren (siehe oben)",
+        "en": "Pregnancy, breastfeeding, children under 4 years (see above)"
+      },
+      {
+        "de": "Epilepsie und andere Krampfneigung — Thujon senkt die Krampfschwelle",
+        "en": "Epilepsy and other seizure tendency — thujone lowers the seizure threshold"
+      },
+      {
+        "de": "Schwere Leber- oder Nierenerkrankung — Eliminationsstörung führt zu Akkumulation",
+        "en": "Severe hepatic or renal disease — impaired elimination leads to accumulation"
+      },
+      {
+        "de": "Bekannte Allergie gegen Cupressaceae, ätherische Öle oder Bestandteile von Esberitox® (Echinacea, Baptisia)",
+        "en": "Known allergy to Cupressaceae, essential oils or Esberitox® components (Echinacea, Baptisia)"
+      },
+      {
+        "de": "Progressive systemische Erkrankungen mit Immunfunktionsstörung (Tuberkulose, Multiple Sklerose, Kollagenosen, HIV, Leukose) — laut Fachinformation für Esberitox® wegen Echinacea-Anteil kontraindiziert",
+        "en": "Progressive systemic diseases with immune dysfunction (tuberculosis, multiple sclerosis, collagen diseases, HIV, leukosis) — contraindicated per Esberitox® prescribing information due to the Echinacea component"
+      },
+      {
+        "de": "Gleichzeitige immunsuppressive Therapie — potentielle Antagonisierung",
+        "en": "Concurrent immunosuppressive therapy — potential antagonisation"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Antiepileptika (Phenytoin, Carbamazepin, Valproat, Lamotrigin)",
+        "mechanism": {
+          "de": "Thujon ist GABA-A-Antagonist und senkt die Krampfschwelle — kann die Wirksamkeit von Antiepileptika reduzieren und Krampfanfälle auslösen. Innerliche Thuja-Präparate strikt vermeiden; Esberitox® bei Epilepsie nur nach ärztlicher Rücksprache.",
+          "en": "Thujone is a GABA-A antagonist and lowers the seizure threshold — can reduce the efficacy of antiepileptics and trigger seizures. Strictly avoid internal Thuja preparations; Esberitox® in epilepsy only after medical consultation."
+        },
+        "severity": "avoid",
+        "source_id": "src-to-naser-2005"
+      },
+      {
+        "drug_class": "Immunsuppressiva (Ciclosporin, Tacrolimus, Methotrexat, Glukokortikoide hochdosiert, Biologika TNF-α-Blocker)",
+        "mechanism": {
+          "de": "Esberitox® (Echinacea-Thuja-Baptisia-Kombination) wirkt immunmodulierend/-stimulierend und kann die Wirkung von Immunsuppressiva theoretisch antagonisieren — Kombination meiden, insbesondere bei Transplantierten und Autoimmunkranken.",
+          "en": "Esberitox® (Echinacea-Thuja-Baptisia combination) acts immunomodulatory/stimulant and may theoretically antagonise the action of immunosuppressants — avoid combination, especially in transplant recipients and patients with autoimmune disease."
+        },
+        "severity": "avoid",
+        "source_id": "src-to-henneicke-1999"
+      },
+      {
+        "drug_class": "Hepatotoxische Pharmaka (Paracetamol-Hochdosis, Amiodaron, Methotrexat, Halothan)",
+        "mechanism": {
+          "de": "Hochdosis-Thujon ist in Tiermodellen hepatotoxisch; additive Leberbelastung mit anderen hepatotoxischen Medikamenten möglich. Bei innerlicher Daueranwendung Lebertransaminasen kontrollieren.",
+          "en": "High-dose thujone is hepatotoxic in animal models; additive liver burden possible with other hepatotoxic drugs. Monitor liver transaminases with prolonged internal use."
+        },
+        "severity": "caution",
+        "source_id": "src-to-naser-2005"
+      },
+      {
+        "drug_class": "Anästhetika und ZNS-Depressiva (Benzodiazepine, Barbiturate, Inhalationsanästhetika)",
+        "mechanism": {
+          "de": "Thujon antagonisiert GABA-A-vermittelte ZNS-Hemmung — kann die Wirkung von Benzodiazepinen und Barbituraten reduzieren und das Krampfrisiko bei Narkose erhöhen. Vor geplanter Operation absetzen.",
+          "en": "Thujone antagonises GABA-A-mediated CNS inhibition — can reduce the effect of benzodiazepines and barbiturates and increase seizure risk under anaesthesia. Discontinue before scheduled surgery."
+        },
+        "severity": "caution",
+        "source_id": "src-to-naser-2005"
+      },
+      {
+        "drug_class": "CYP3A4-Substrate (orale Kontrazeptiva, Statine, Tacrolimus, Ciclosporin)",
+        "mechanism": {
+          "de": "Thuja-Extrakte enthalten polyphenolische und terpenoide Komponenten, die in vitro CYP-Aktivität modulieren — klinisch nicht ausreichend untersucht, daher Vorsicht bei Substraten mit enger therapeutischer Breite.",
+          "en": "Thuja extracts contain polyphenolic and terpenoid components that modulate CYP activity in vitro — clinically not adequately studied, therefore caution with substrates with a narrow therapeutic window."
+        },
+        "severity": "monitor",
+        "source_id": "src-to-naser-2005"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -72,6 +316,70 @@
       "title": "Thuja occidentalis (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Thuja_occidentalis",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-to-wiki-en",
+      "type": "wikipedia",
+      "title": "Thuja occidentalis — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Thuja_occidentalis",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-to-wiki-de",
+      "type": "wikipedia",
+      "title": "Abendländischer Lebensbaum — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Abendl%C3%A4ndischer_Lebensbaum",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-to-wiki-thujone",
+      "type": "wikipedia",
+      "title": "Thujone — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Thujone",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-to-wikidata",
+      "type": "wikidata",
+      "title": "Thuja occidentalis — Wikidata Q147468",
+      "url": "https://www.wikidata.org/wiki/Q147468",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-to-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Thuja occidentalis",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Thuja+occidentalis",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-to-naser-2005",
+      "type": "monograph",
+      "title": "Thuja occidentalis (Arbor vitae): A Review of its Pharmaceutical, Pharmacological and Clinical Properties (Naser et al. 2005)",
+      "url": "https://doi.org/10.1093/ecam/neh065",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-to-henneicke-1999",
+      "type": "monograph",
+      "title": "Efficacy and Safety of a Fixed Combination Phytomedicine in the Treatment of the Common Cold (Henneicke-von Zepelin et al. 1999, Esberitox® RCT n=263)",
+      "url": "https://doi.org/10.1185/03007999909114094",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-to-ema-thujone",
+      "type": "monograph",
+      "title": "EMA/HMPC Scientific guideline on the use of herbal medicinal products containing thujone (EMA/HMPC/732886/2010 Rev.1)",
+      "url": "https://www.ema.europa.eu/en/use-herbal-medicinal-products-containing-thujone-scientific-guideline",
+      "accessed": "2026-05-26",
+      "language": "en"
     }
   ],
   "image": {
@@ -83,5 +391,123 @@
     "license": "CC BY-SA 2.5",
     "author": "André Karwath aka Aka",
     "source_url": "https://commons.wikimedia.org/wiki/File:Thuja_occidentalis_-_tree_(aka).jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "α-Thujon",
+      "category": "essential_oil",
+      "percent_range": "ca. 6,5 mg/g getrocknetes Kraut (85 % des Thujon-Anteils im äth. Öl)",
+      "note": {
+        "de": "Bicyclisches Monoterpen-Keton (Hauptisomer); kompetitiver GABA-A-Rezeptor-Antagonist — verantwortlich für die neurotoxische, krampfauslösende Wirkung. Thujon ist auch in Wermut (Artemisia absinthium) der Hauptwirkstoff. EU-Höchstmenge in alkoholischen Getränken: 35 mg/L (Likör), 5 mg/L (sonstige Alkoholika ausser Bittern).",
+        "en": "Bicyclic monoterpene ketone (main isomer); competitive GABA-A receptor antagonist — responsible for the neurotoxic, seizure-inducing effect. Thujone is also the main active compound in wormwood (Artemisia absinthium). EU maximum levels in alcoholic beverages: 35 mg/L (liqueurs), 5 mg/L (other alcoholic beverages except bitters)."
+      }
+    },
+    {
+      "name": "β-Thujon",
+      "category": "essential_oil",
+      "percent_range": "ca. 1,1 mg/g getrocknetes Kraut (15 % des Thujon-Anteils im äth. Öl)",
+      "note": {
+        "de": "Stereoisomer des α-Thujons mit gleicher Grundwirkung, jedoch ca. 2,3-fach geringerer Toxizität in Tierstudien. Verhältnis α/β-Thujon ist ein chemotaxonomisches Merkmal von Thuja occidentalis.",
+        "en": "Stereoisomer of α-thujone with the same basic action but ca. 2.3-fold lower toxicity in animal studies. The α/β-thujone ratio is a chemotaxonomic marker of Thuja occidentalis."
+      }
+    },
+    {
+      "name": "Fenchon",
+      "category": "essential_oil",
+      "percent_range": "im äth. Öl ca. 8–14 %",
+      "note": {
+        "de": "Bicyclisches Monoterpen-Keton; trägt zum kampferartigen Geruch bei; sekretolytisch und mild krampflösend; in der Cupressaceen-Familie verbreitet.",
+        "en": "Bicyclic monoterpene ketone; contributes to the camphor-like odour; secretolytic and mildly antispasmodic; widespread in the Cupressaceae family."
+      }
+    },
+    {
+      "name": "Sabinen und Sabinenacetat",
+      "category": "essential_oil",
+      "percent_range": "im äth. Öl ca. 3–6 %",
+      "note": {
+        "de": "Bicyclisches Monoterpen; trägt zum frisch-würzigen Aroma der Zweige bei; mit antimikrobieller Aktivität in vitro; auch in Wacholderbeeren (Juniperus communis) und Muskatnuss vorhanden.",
+        "en": "Bicyclic monoterpene; contributes to the fresh, spicy aroma of the twigs; with antimicrobial activity in vitro; also present in juniper berries (Juniperus communis) and nutmeg."
+      }
+    },
+    {
+      "name": "Polysaccharide / Glykoproteine (Hochmolekulare)",
+      "category": "polysaccharide",
+      "percent_range": "in wasserlöslichem Extrakt mehrere Prozent",
+      "note": {
+        "de": "Hochmolekulare wasserlösliche Polysaccharide und Glykoproteine; Hauptträger der immunmodulatorischen Wirkung des Thuja-Wasserextrakts (Aktivierung von CD4+-T-Helferzellen, Stimulation der Zytokin-Produktion IL-2/TNF-α/IFN-γ, Makrophagenaktivierung in vitro/vivo). Wirken nicht im äth. Öl mit, daher in homöopathischen oder thujonarmen Extrakten relevant.",
+        "en": "High-molecular-weight water-soluble polysaccharides and glycoproteins; main carriers of the immunomodulatory effect of Thuja water extract (activation of CD4+ T-helper cells, stimulation of cytokine production IL-2/TNF-α/IFN-γ, macrophage activation in vitro/vivo). Not present in the essential oil, therefore relevant in homeopathic or low-thujone extracts."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin, Kaempferol, Catechine, Bicyflavone)",
+      "category": "flavonoid",
+      "percent_range": "im Trockenkraut ca. 1–2 %",
+      "note": {
+        "de": "Antioxidative Begleitsubstanzen mit Radikalfang- und entzündungshemmender Aktivität; Thuja-typisch sind die Biflavone Amentoflavon und Hinokiflavon — chemotaxonomisches Merkmal der Cupressaceae.",
+        "en": "Antioxidant accompanying substances with radical-scavenging and anti-inflammatory activity; characteristic of Thuja are the biflavones amentoflavone and hinokiflavone — chemotaxonomic markers of Cupressaceae."
+      }
+    },
+    {
+      "name": "Tannine (Proanthocyanidine)",
+      "category": "tannin",
+      "percent_range": "ca. 1,3 % der Trockendroge",
+      "note": {
+        "de": "Kondensierte Gerbstoffe der Proanthocyanidin-Klasse; adstringierend, hautstraffend; tragen zur lokalen Wirkung der Urtinktur bei Warzen bei.",
+        "en": "Condensed tannins of the proanthocyanidin class; astringent, skin-tightening; contribute to the local action of the mother tincture on warts."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "percent_range": "junge Triebspitzen saisonal bis ~50 mg/100 g Frischmasse",
+      "note": {
+        "de": "Hoher saisonaler Vitamin-C-Gehalt der jungen Triebspitzen war die pharmakologische Grundlage der Cartier'schen Skorbut-Heilung 1535. Im handelsüblichen getrockneten Kraut deutlich reduziert. Heute medizinisch ohne praktische Bedeutung.",
+        "en": "High seasonal vitamin C content of the young shoot tips was the pharmacological basis of Cartier's 1535 scurvy cure. Substantially reduced in the commercial dried herb. Today medically without practical significance."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Vormittag bei trockenem Wetter, junge Triebspitzen — ätherisches Öl ist im Frühjahr/Frühsommer am höchsten konzentriert. Für Esberitox-ähnliche Standardisierung pharmazeutische Ernte mit Thujon-Kontrolle.",
+        "en": "Late morning in dry weather, young shoot tips — essential oil is most concentrated in spring/early summer. For Esberitox-type standardisation: pharmaceutical harvest with thujone control."
+      },
+      "drying": {
+        "de": "Zweige in dünnen Bündeln im Schatten bei 30–40 °C trocknen; höhere Temperaturen verflüchtigen das ätherische Öl und können zu vermehrter Thujon-Isomerisierung führen. Trockenes Kraut luftdicht und lichtgeschützt lagern, kühl. SCHUTZHANDSCHUHE empfohlen — frischer Pflanzensaft kann Kontaktdermatitis auslösen.",
+        "en": "Dry twigs in thin bundles in the shade at 30–40 °C; higher temperatures evaporate the essential oil and may cause increased thujone isomerisation. Store dried herb airtight, protected from light, cool. PROTECTIVE GLOVES recommended — fresh plant sap can cause contact dermatitis."
+      },
+      "notes": {
+        "de": "Standard-Heckenpflanze; Selbstanbau und Ernte aus dem Garten möglich, aber Verarbeitung zu Tee, Tinktur oder ätherischem Öl nur in kleinen, externen Anwendungsmengen empfohlen. Wegen unkalkulierbarem Thujon-Gehalt KEINE Selbst-Zubereitung innerlicher Präparate. Vorzugsweise standardisierte Fertigprodukte (Esberitox®, homöopathische Mittel) verwenden.",
+        "en": "Standard hedge plant; home cultivation and garden harvest possible, but processing to tea, tincture or essential oil recommended only in small, external-use amounts. Due to unpredictable thujone content NO self-preparation of internal preparations. Preferably use standardised finished products (Esberitox®, homeopathic remedies)."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        3,
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Frühjahr während des Austriebs der hellgrünen jungen Triebspitzen — höchster Vitamin-C- und Flavonoidgehalt, optimal für die Herstellung der homöopathischen Urtinktur (Thuja occidentalis Ø).",
+        "en": "Spring during the flush of light-green young shoot tips — highest vitamin C and flavonoid content, optimal for preparing the homeopathic mother tincture (Thuja occidentalis Ø)."
+      },
+      "drying": {
+        "de": "Für die Urtinktur direkt frische junge Spitzen verwenden — nicht trocknen, sondern unmittelbar mit 60–70 % Ethanol (Verhältnis 1:10) ansetzen, 4 Wochen mazerieren, abseihen. Pharmazeutische Herstellung gemäß HAB (Homöopathisches Arzneibuch).",
+        "en": "For the mother tincture use fresh young shoot tips directly — do not dry, but immediately macerate with 60–70 % ethanol (ratio 1:10) for 4 weeks, then strain. Pharmaceutical preparation per HAB (German Homeopathic Pharmacopoeia)."
+      },
+      "notes": {
+        "de": "Selbst hergestellte Urtinkturen erfüllen keine pharmazeutische Standardisierung — Thujon-Gehalt schwankt. Für reproduzierbare Anwendung Fertig-Urtinktur aus der Apotheke verwenden. Lagerung dunkel und kühl, Haltbarkeit ca. 2 Jahre.",
+        "en": "Home-made mother tinctures do not meet pharmaceutical standardisation — thujone content fluctuates. For reproducible use, prefer ready-made mother tincture from a pharmacy. Store dark and cool, shelf-life ca. 2 years."
+      }
+    }
+  ]
 }

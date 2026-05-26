@@ -22,16 +22,142 @@
     {
       "form": "spice",
       "target": [
-        "nerves"
+        "nutrition",
+        "digestion"
       ],
       "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Die Gewürzvanille – Aussprache: [vaˈnɪlə; -ljə]; schweizerisch und süddeutsch [ˈvanɪl] – oder Echte Vanille ist eine Orchideenpflanze. Gewürzvanille wird im Handel unter den Herkunftsbezeichnungen Bourbon-Vanille und mexikanische Vanille angeboten.",
-        "en": "Vanilla planifolia is traditionally used as as a culinary spice for nervous tension. A member of the Orchid family — common in European folk medicine and culinary tradition."
+        "de": "Die fermentierten Vanilleschoten (Kapseln) sind weltweit eines der wichtigsten Aroma-Gewürze. Verwendung in Süßspeisen, Eis, Backwaren, Schokolade, Likören und Parfümerien. Die Schoten werden längs aufgeschlitzt, das Mark herausgeschabt oder die ganze Schote mitgekocht. Das charakteristische Aroma stammt vom Hauptaromaträger Vanillin (1,5–3 % im fermentierten Bean) zusammen mit über 200 weiteren flüchtigen Verbindungen wie p-Hydroxybenzaldehyd, Vanillinsäure, Anisalkohol und Guajakol. Bourbon-Vanille (Madagaskar, Réunion, Komoren) gilt als geschmackliche Referenz; Tahiti-Vanille (Vanilla tahitensis) hat ein blumigeres Profil. Traditionell auch zur Geschmacksverbesserung in Arzneizubereitungen (Sirupe, bittere Tropfen) eingesetzt.",
+        "en": "The fermented vanilla pods (capsules) are one of the world's most important flavour spices. Used in desserts, ice cream, baked goods, chocolate, liqueurs and perfumery. The pods are slit lengthwise, the seed paste scraped out, or the whole pod simmered with the dish. The characteristic aroma derives from the main aroma carrier vanillin (1.5–3 % in the cured bean) together with over 200 other volatile compounds such as p-hydroxybenzaldehyde, vanillic acid, anisyl alcohol and guaiacol. Bourbon vanilla (Madagascar, Réunion, Comoros) is the taste reference; Tahitian vanilla (Vanilla tahitensis) has a more floral profile. Traditionally also used to mask the taste of bitter medicinal preparations (syrups, tinctures)."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src_wp_de_vanilla",
+        "src_wp_en_vanilla",
+        "src_pfaf_vanilla",
+        "src_ijmedrev_vanilla"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Vanille-Tinktur (Extractum Vanillae) ist eine alkoholische Auszugzubereitung aus fermentierten Schoten, traditionell als mildes Magenstärkungs- und Verdauungsmittel sowie als Geschmackskorrigens in galenischen Zubereitungen eingesetzt. In der mexikanischen und kreolischen Volksheilkunde wurde sie zudem als 'Nervinum' und beruhigendes Tonikum bei nervöser Unruhe und Erschöpfungszuständen verwendet. Moderne pharmakologische Studien an Tieren legen anxiolytische und antidepressiv-ähnliche Effekte des Vanillins nahe (über monoaminerge Signalwege), klinische Belege beim Menschen fehlen jedoch.",
+        "en": "Vanilla tincture (Extractum Vanillae) is an alcoholic extract of cured pods, traditionally used as a mild gastric tonic and digestive aid as well as a flavour corrigent in galenical preparations. In Mexican and Creole folk medicine it was also used as a 'nervine' and calming tonic for nervous restlessness and exhaustion. Modern animal pharmacology studies suggest anxiolytic and antidepressant-like effects of vanillin via monoaminergic pathways, but clinical evidence in humans is lacking."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 10,
+          "max": 20
+        },
+        "ethanol_percent": 70,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "Traditionelle Zubereitung: 10–20 g fein zerkleinerte Vanilleschoten in 100 ml Ethanol 70 % ansetzen, 2–4 Wochen mazerieren, abseihen. 1–2 ml (ca. 20–40 Tropfen) ein- bis dreimal täglich, vorzugsweise nach den Mahlzeiten. Wegen des hohen Preises überwiegend in der Aromaküche, nicht als Hauptarzneimittel.",
+          "en": "Traditional preparation: macerate 10–20 g finely chopped cured vanilla pods in 100 ml ethanol 70 % for 2–4 weeks, then strain. 1–2 ml (approx. 20–40 drops) one to three times daily, preferably after meals. Due to high cost, mostly used as a flavouring rather than a primary medicine."
+        }
+      },
+      "source_ids": [
+        "src_pfaf_vanilla",
+        "src_ijmedrev_vanilla",
+        "src_wp_en_vanilla"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "nervous_system",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Echtes Vanille-'Essential-Oil' im engeren Sinn existiert kaum, da Vanillin sich nicht wasserdampfflüchtig destillieren lässt. Im Handel sind stattdessen Vanille-Absolue (Lösungsmittel-Extrakt) und Vanille-Oleoresin als parfümistische und kosmetische Rohstoffe verbreitet. Volksmedizinisch und aromatherapeutisch wird Vanille-Duft eine entspannende, stimmungsaufhellende Wirkung zugeschrieben; experimentelle Studien zeigten eine Dämpfung der Schreckreaktion bei Vanille-Geruch. Topisch in Hautpflegeprodukten als Duftträger sowie wegen leicht antimikrobieller Eigenschaften des Vanillins zugesetzt.",
+        "en": "A true vanilla essential oil in the strict sense barely exists, as vanillin is not steam-distillable. Vanilla absolue (solvent extract) and vanilla oleoresin are the commercial perfumery and cosmetic raw materials. In folk and aromatherapy use, vanilla scent is associated with relaxing and mood-lifting effects; experimental studies have shown attenuation of the startle reflex under vanilla odour. Topically added to skin care products as a fragrance and for the mild antimicrobial properties of vanillin."
+      },
+      "source_ids": [
+        "src_ijmedrev_vanilla",
+        "src_japtr_vanillin_wound",
+        "src_wp_en_vanilla"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Vanillin, der Hauptaromastoff der fermentierten Schote, zeigt in in-vitro- und Tierstudien ausgeprägte antioxidative und wundheilungsfördernde Eigenschaften: Es schützt Keratinozyten vor oxidativem Stress, beschleunigt den Wundverschluss im Scratch-Assay und wirkt antimikrobiell gegen multiresistente Bakterien (synergistisch mit Standardantibiotika). Diese Effekte gelten für isoliertes Vanillin, nicht für das ganze Lebensmittel; experimentelle, noch nicht klinisch etablierte Anwendung als Adjuvans in modernen Wundverbänden in Erprobung.",
+        "en": "Vanillin, the main aroma compound of the cured pod, shows pronounced antioxidant and wound-healing properties in in-vitro and animal studies: it protects keratinocytes from oxidative stress, accelerates wound closure in scratch assays and acts antimicrobially against multidrug-resistant bacteria (synergistic with standard antibiotics). These effects apply to isolated vanillin, not to the whole food; experimental application as an adjuvant in advanced wound dressings is under investigation but not yet clinically established."
+      },
+      "source_ids": [
+        "src_japtr_vanillin_wound",
+        "src_ejmi_vanillin_antibacterial",
+        "src_ijmedrev_vanilla"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nervous_system",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische Volksmedizin: Die Azteken nannten die Pflanze tlilxochitl ('schwarze Blume') und nutzten sie gemischt mit Kakao und Chili (Xocoatl, Vorläufer der Schokolade) als kräftigendes Aphrodisiakum und Tonikum am Hof Montezumas. Der spanische Hofarzt Francisco Hernández de Toledo (16. Jh.) beschrieb Vanille als eines der drei wichtigsten aztekischen Aphrodisiaka. In der späteren europäischen Volksmedizin (17.–19. Jh.) galt Vanille als wärmend, herzstärkend, blähungstreibend und als 'Nervinum' bei Hysterie und melancholischen Verstimmungen. Es existieren keine modernen klinischen Belege für eine aphrodisierende Wirkung.",
+        "en": "Historical folk medicine: The Aztecs called the plant tlilxochitl ('black flower') and used it mixed with cacao and chilli (Xocoatl, a precursor of chocolate) as an invigorating aphrodisiac and tonic at the court of Moctezuma. The Spanish royal physician Francisco Hernández de Toledo (16th century) described vanilla as one of the three most important Aztec aphrodisiacs. In later European folk medicine (17th–19th century) vanilla was considered warming, cardiotonic, carminative and a 'nervine' for hysteria and melancholic moods. There is no modern clinical evidence for an aphrodisiac effect."
+      },
+      "source_ids": [
+        "src_wp_de_vanilla",
+        "src_wp_en_vanilla",
+        "src_ijmedrev_vanilla",
+        "src_pfaf_vanilla"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksheilkundlich werden ein kleines Stück Vanilleschote oder ½ Teelöffel ausgekratztes Vanillemark in heiße Milch oder Wasser eingerührt und als beruhigender 'Schlummertrunk' bei nervöser Unruhe, Einschlafstörungen und milden Verdauungsbeschwerden getrunken. Weit verbreitet im mexikanischen, karibischen und französischen Hausgebrauch, häufig in Kombination mit Milch und Zucker (golden milk, lait à la vanille). Wissenschaftliche Wirksamkeitsbelege fehlen; der Effekt wird heute vor allem auf den entspannenden Vanille-Duft und den Ritualcharakter zurückgeführt.",
+        "en": "In folk practice, a small piece of vanilla pod or ½ teaspoon of scraped vanilla seed paste is stirred into hot milk or water and drunk as a calming bedtime drink for nervous restlessness, mild insomnia and minor digestive complaints. Widespread in Mexican, Caribbean and French home use, often combined with milk and sugar (golden milk, lait à la vanille). No scientific evidence of efficacy; the effect is today attributed mainly to the relaxing vanilla aroma and the ritual character."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 0.5,
+          "max": 1
+        },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 1,
+        "instructions": {
+          "de": "Ein kleines Stück (ca. 1 cm) Vanilleschote oder ½ Teelöffel Vanillemark in 200 ml heißer Milch oder Wasser 10 Min. ziehen lassen, schluckweise warm trinken — besonders abends.",
+          "en": "Steep a small piece (approx. 1 cm) of vanilla pod or ½ teaspoon of vanilla seed paste in 200 ml hot milk or water for 10 min, drink warm in sips — especially in the evening."
+        }
+      },
+      "source_ids": [
+        "src_wp_de_vanilla",
+        "src_pfaf_vanilla",
+        "src_ijmedrev_vanilla"
       ]
     }
   ],
@@ -57,12 +183,61 @@
   },
   "safety": {
     "warnings": {
-      "de": "Naturvanille unbedenklich. Vanillin-Imitate können bei Empfindlichen Hautausschlag auslösen.",
-      "en": "Natural vanilla safe. Vanillin imitations may cause skin rash in sensitive individuals."
+      "de": "Natürliche fermentierte Vanille (ganze Schote, Vanillemark, echter Vanilleextrakt) ist in haushaltsüblichen Mengen ein sehr sicheres Lebensmittel ohne nennenswerte Risiken. Vanillin als isolierte Substanz oder synthetisches Vanillin (Ethylvanillin) kann bei sensibilisierten Personen Kontaktdermatitis ('Vanillismus') und sehr selten allergische Reaktionen auslösen — bekannt aus arbeitsmedizinischen Berichten bei Plantagen-, Verarbeitungs- und Konditoreiarbeitern. Frische, unfermentierte Pflanzenteile (Pflanzensaft, Blätter) enthalten Calciumoxalat-Nadeln, die bei direktem Hautkontakt zu Hautreizungen und Dermatitis führen können (relevant für Anbau- und Aufbereitungspersonal, nicht für Konsumenten). Kein Hinweis auf akute Toxizität in üblichen Verzehrmengen. Hohe Dosen ätherischer Vanille-Absolue oder reines Vanillin in Aromaölen sind als Hautreizpotenzial bekannt — bei kosmetischer Anwendung Verdünnung beachten.",
+      "en": "Natural cured vanilla (whole pod, seed paste, real vanilla extract) is a very safe food at culinary doses with no notable risks. Isolated vanillin or synthetic vanillin (ethylvanillin) can cause contact dermatitis ('vanillism') and very rarely allergic reactions in sensitised individuals — documented in occupational medicine reports from plantation, processing and confectionery workers. Fresh, uncured plant parts (plant sap, leaves) contain calcium oxalate raphides which can cause skin irritation and dermatitis on direct contact (relevant for cultivation and processing staff, not for consumers). No evidence of acute toxicity at usual dietary intake. High doses of vanilla absolue or pure vanillin in aroma oils have known skin-irritant potential — observe dilution in cosmetic use."
     },
     "external_only": false,
-    "toxicity_level": "caution",
-    "pet_toxic": false
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Vanille als Lebensmittelgewürz in haushaltsüblichen Mengen gilt in der Schwangerschaft als unbedenklich. Hohe Dosen von alkoholischem Vanilleextrakt oder Vanille-Tinktur sind wegen des Ethanolgehalts zu meiden. Reines Vanillin oder Vanille-Absolue zur Aromatherapie sollten in der Schwangerschaft mangels Sicherheitsdaten zurückhaltend und nur stark verdünnt eingesetzt werden; eine emmenagoge Wirkung ist nicht belegt.",
+        "en": "Vanilla as a culinary spice in normal amounts is considered safe in pregnancy. High doses of alcoholic vanilla extract or vanilla tincture should be avoided because of their ethanol content. Pure vanillin or vanilla absolue in aromatherapy should be used cautiously in pregnancy and only highly diluted due to lack of safety data; an emmenagogue effect has not been demonstrated."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Vanille als Gewürz in üblichen Mengen ist während der Stillzeit unbedenklich. Konzentrierte Aromatherapie-Anwendungen am Brustbereich (Brust-Massagen mit reinem Vanille-Absolue) sind zu vermeiden, damit das Kind das Aroma nicht direkt aufnimmt.",
+        "en": "Vanilla as a spice in normal amounts is safe during lactation. Concentrated aromatherapy applications to the breast area (breast massages with pure vanilla absolue) should be avoided to prevent direct intake by the infant."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Vanille als Speisegewürz ist für Kinder unbedenklich und allergologisch unauffällig. Alkoholische Vanille-Auszüge nicht für Säuglinge und Kleinkinder verwenden (Ethanolgehalt). Bei bekannter Vanillin-Kontaktallergie (selten) Hautkontakt mit konzentrierten Aromaölen vermeiden.",
+        "en": "Vanilla as a culinary spice is safe and allergologically unremarkable for children. Alcoholic vanilla extracts should not be given to infants and toddlers (ethanol content). With known vanillin contact allergy (rare), avoid skin contact with concentrated aroma oils."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit oder Kontaktallergie gegen Vanillin, Ethylvanillin oder Vanille-Bestandteile (selten, vorwiegend berufsbedingt — 'Vanillismus').",
+        "en": "Known hypersensitivity or contact allergy to vanillin, ethylvanillin or vanilla constituents (rare, mostly occupational — 'vanillism')."
+      },
+      {
+        "de": "Alkoholische Vanille-Tinkturen: Alkoholabhängigkeit, schwere Leberinsuffizienz, gleichzeitige Anwendung von Disulfiram oder anderen alkoholunverträglichen Arzneimitteln.",
+        "en": "Alcoholic vanilla tinctures: alcohol dependence, severe hepatic insufficiency, concurrent use of disulfiram or other alcohol-incompatible drugs."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Disulfiram und alkoholempfindliche Arzneimittel (Metronidazol, Cefoperazon, Tinidazol)",
+        "mechanism": {
+          "de": "Echter Vanilleextrakt enthält 35–40 % Ethanol; größere Mengen können bei gleichzeitiger Disulfiram- oder Metronidazol-Therapie eine Acetaldehyd-Reaktion (Flush, Übelkeit, Tachykardie) auslösen. Auf alkoholfreie Vanille-Aromen oder ganze Schoten ausweichen.",
+          "en": "Real vanilla extract contains 35–40 % ethanol; larger amounts can trigger an acetaldehyde reaction (flush, nausea, tachycardia) during concurrent disulfiram or metronidazole therapy. Switch to alcohol-free vanilla flavours or whole pods."
+        },
+        "severity": "caution"
+      },
+      {
+        "drug_class": "CYP2A6/CYP2E1-abhängige Arzneimittel (Coumarin, Nicotin, einige Anästhetika) — theoretisch",
+        "mechanism": {
+          "de": "In vitro hemmt Vanillin schwach CYP2E1- und CYP2A6-Aktivität. Klinisch ist bei Vanillemengen im Lebensmittelbereich kein relevanter Interaktionsbefund dokumentiert; Vorsicht nur bei sehr hohen Vanillin-Dosen aus Nahrungsergänzungsmitteln.",
+          "en": "In vitro vanillin weakly inhibits CYP2E1 and CYP2A6 activity. Clinically no relevant interaction has been documented at dietary vanilla amounts; caution only with very high vanillin doses from supplements."
+        },
+        "severity": "monitor"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -79,6 +254,62 @@
       "title": "Vanilla planifolia (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Vanilla_planifolia",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wp_de_vanilla",
+      "type": "wikipedia",
+      "title": "Gewürzvanille (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%BCrzvanille",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_wp_en_vanilla",
+      "type": "wikipedia",
+      "title": "Vanilla planifolia (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Vanilla_planifolia",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_pfaf_vanilla",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Vanilla planifolia database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Vanilla+planifolia",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_wikidata_vanilla",
+      "type": "wikidata",
+      "title": "Vanilla planifolia (Wikidata Q7224923)",
+      "url": "https://www.wikidata.org/wiki/Q7224923",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_ijmedrev_vanilla",
+      "type": "monograph",
+      "title": "Anuradha K., Shyamala B. N., Naidu M. M. — Vanilla: its science, cultivation, products and pharmaceutical applications. International Journal of Medical Reviews (overview chapter).",
+      "url": "https://www.ijmedrev.com/article_107193.html",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_japtr_vanillin_wound",
+      "type": "monograph",
+      "title": "Sinsuebpol C., Burapapadh K., Chowjaroen V., Changsan N. — The radical scavenging activity of vanillin and its impact on the healing properties of wounds. J Adv Pharm Technol Res. 2023;14(2):99–104.",
+      "url": "https://doi.org/10.4103/japtr.japtr_631_22",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_ejmi_vanillin_antibacterial",
+      "type": "monograph",
+      "title": "Maisch N. A., Bereswill S., Heimesaat M. M. — Antibacterial effects of vanilla ingredients provide novel treatment options for infections with multidrug-resistant bacteria. Eur J Microbiol Immunol. 2022;12(3):53–62.",
+      "url": "https://doi.org/10.1556/1886.2022.00015",
+      "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_albius_history",
+      "type": "monograph",
+      "title": "Linnean Society — Edmond Albius: the boy who revolutionised the vanilla industry (historical biography, 2019).",
+      "url": "https://www.linnean.org/news/2019/10/16/edmond-albius",
+      "accessed": "2026-05-26"
     }
   ],
   "image": {
@@ -90,5 +321,134 @@
     "license": "CC BY-SA 3.0",
     "author": "C T Johansson",
     "source_url": "https://commons.wikimedia.org/wiki/File:Vanilla_planifolia-IMG_2124.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Vanillin (4-Hydroxy-3-methoxybenzaldehyd)",
+      "category": "phenolic_acid",
+      "percent_range": "1,5–3 % (fermentierte Schote, Trockengewicht)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Vanillin ist der dominierende Aromastoff und macht ca. 80–85 % der flüchtigen Verbindungen aus. Es entsteht während des mehrmonatigen Fermentations-/Curing-Prozesses durch enzymatische Hydrolyse seines Glycosids Glucovanillin. Bourbon-Vanille (Madagaskar) erreicht ~2 % Vanillin, mexikanische ~1,75 %, Tahitianische (V. tahitensis) ~1,7 %. Wirkungen in pharmakologischen Studien: antioxidativ, antimikrobiell, wundheilungsfördernd und milde antidepressiv-anxiolytisch (Tiermodelle).",
+        "en": "Vanillin is the dominant aroma compound, accounting for about 80–85 % of the volatiles. It is formed during the multi-month curing/fermentation process by enzymatic hydrolysis of its glycoside glucovanillin. Bourbon vanilla (Madagascar) reaches ~2 % vanillin, Mexican ~1.75 %, Tahitian (V. tahitensis) ~1.7 %. Pharmacological effects: antioxidant, antimicrobial, wound-healing and mild antidepressant-anxiolytic (animal models)."
+      }
+    },
+    {
+      "name": "p-Hydroxybenzaldehyd",
+      "category": "phenolic_acid",
+      "percent_range": "0,1–0,3 % (fermentierte Schote)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Zweithäufigste Begleitsubstanz nach Vanillin; trägt zur Tiefe und Komplexität des Vanille-Aromas bei. Ähnliche, aber schwächere antioxidative Eigenschaften wie Vanillin.",
+        "en": "Second most abundant accompanying compound after vanillin; contributes to the depth and complexity of vanilla aroma. Similar but weaker antioxidant properties than vanillin."
+      }
+    },
+    {
+      "name": "Vanillinsäure (Vanillic acid)",
+      "category": "phenolic_acid",
+      "percent_range": "Spuren bis 0,05 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Phenolische Säure, oxidatives Folgeprodukt des Vanillins. Antioxidativ und antimikrobiell wirksam in vitro; gemeinsam mit Vanillin in Forschung zu multiresistenten Bakterien (Synergie mit Standardantibiotika beschrieben).",
+        "en": "Phenolic acid, oxidative downstream product of vanillin. Antioxidant and antimicrobial in vitro; together with vanillin investigated against multidrug-resistant bacteria (synergy with standard antibiotics reported)."
+      }
+    },
+    {
+      "name": "Glucovanillin (Vanillin-β-D-Glucosid)",
+      "category": "glycoside",
+      "percent_range": "bis ~12 % der frischen, unfermentierten Schote",
+      "plant_part": "fruit",
+      "note": {
+        "de": "In der grünen, unfermentierten Schote ist Vanillin fast vollständig als geruchloses β-D-Glucosid Glucovanillin gebunden. Während des traditionellen Curing-Prozesses (Heißwasserbad, Schwitzen, Trocknen, Reifen — insgesamt 3–6 Monate) spalten pflanzeneigene β-Glucosidasen das Zuckermolekül ab und setzen das aromaaktive Vanillin frei. Ohne Curing kein Vanillearoma — entscheidende Erkenntnis für Anbau und Qualität.",
+        "en": "In the green, uncured pod, vanillin is almost entirely bound as the odourless β-D-glucoside glucovanillin. During the traditional curing process (hot-water bath, sweating, drying, ageing — 3–6 months in total) plant β-glucosidases cleave off the sugar and release the aroma-active vanillin. Without curing there is no vanilla aroma — a key insight for cultivation and quality."
+      }
+    },
+    {
+      "name": "Anisalkohol und Anisaldehyd",
+      "category": "essential_oil",
+      "percent_range": "0,01–0,05 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Aromatische Begleitstoffe, die einen leicht anisartigen, blumigen Akzent zum Vanille-Profil beitragen — besonders ausgeprägt in tahitianischer Vanille (V. tahitensis), weniger in Bourbon-Vanille.",
+        "en": "Aromatic accompanying compounds that add a slightly anise-like, floral accent to the vanilla profile — particularly pronounced in Tahitian vanilla (V. tahitensis), less in Bourbon vanilla."
+      }
+    },
+    {
+      "name": "Heliotropin (Piperonal) und Guajakol",
+      "category": "essential_oil",
+      "percent_range": "Spuren",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Spurenbegleiter, die den charakteristischen 'weichen', balsamischen Hintergrund der Vanille mitprägen. Heliotropin trägt die mandel-vanilleartige Nuance bei, Guajakol einen leicht rauchigen, holzigen Akzent. Beide werden in der Parfümerie auch synthetisch genutzt.",
+        "en": "Trace compounds that contribute the characteristic 'soft', balsamic background of vanilla. Heliotropin adds the almond-vanilla nuance, guaiacol a slightly smoky, woody accent. Both are also used synthetically in perfumery."
+      }
+    },
+    {
+      "name": "Calciumoxalat-Raphiden",
+      "category": "other",
+      "percent_range": "in frischen Pflanzenteilen (Blatt, Sproßsaft) reichlich",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Nadelförmige Oxalat-Kristalle in den frischen, grünen Pflanzenteilen (typisch für viele Orchideen und Aronstabgewächse). Sie können bei direktem Hautkontakt mit Saft oder beim Brechen der Lianen mechanisch-chemisch Hautreizungen und Kontaktdermatitis verursachen ('Vanillen-Dermatitis'). In den fermentierten Schoten praktisch nicht mehr relevant.",
+        "en": "Needle-shaped oxalate crystals in the fresh, green plant parts (typical of many orchids and aroids). They can mechanically and chemically cause skin irritation and contact dermatitis on direct contact with sap or when breaking the vines ('vanilla dermatitis'). Practically irrelevant in the cured pods."
+      }
+    },
+    {
+      "name": "Ferulasäure (Ferulic acid)",
+      "category": "phenolic_acid",
+      "percent_range": "Spuren",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Vanillin-Vorläufer im Sekundärstoffwechsel der Pflanze; trägt zur antioxidativen Gesamtkapazität bei. In modernen pharmakologischen Reviews zusammen mit Vanillin als potenziell entzündungshemmender und neuroprotektiver Inhaltsstoff diskutiert.",
+        "en": "Vanillin precursor in the plant's secondary metabolism; contributes to overall antioxidant capacity. Discussed together with vanillin in modern pharmacological reviews as potentially anti-inflammatory and neuroprotective."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Ernte im tropischen Anbaugebiet etwa 8–9 Monate nach manueller Bestäubung, wenn die Schote ca. 15–20 cm lang und am Blütenende leicht gelblich verfärbt ist; tagsüber bei trockener Witterung. In Europa nur in beheizten Tropenhäusern möglich.",
+        "en": "Harvest in tropical growing areas about 8–9 months after manual pollination, when the pod reaches approx. 15–20 cm length and starts to yellow at the blossom end; daytime in dry weather. In Europe only possible in heated tropical glasshouses."
+      },
+      "drying": {
+        "de": "CURING / FERMENTATION (traditionelles Bourbon-Verfahren, 3–6 Monate):\n1. Killing/Abbrühen: grüne Schoten kurz (2–3 Min.) in 60–65 °C heißes Wasser tauchen, sofort abkühlen.\n2. Sweating/Schwitzen: in Wolldecken eingewickelt 24–48 h in dichten Holzkisten ruhen, dann tagsüber 1–4 h in der Sonne erwärmen und über Nacht erneut schwitzen — über mehrere Wochen wiederholen.\n3. Slow drying/Langsames Trocknen: in luftigen Schatten an Holzgestellen 1–2 Monate weitertrocknen, bis die Schoten geschmeidig und biegsam sind.\n4. Conditioning/Reifen: in geschlossenen Holzkisten 2–3 Monate ruhen — hier entsteht das volle, abgerundete Vanillearoma. Während dieser Prozesse hydrolysieren pflanzliche β-Glucosidasen das Glucovanillin zu Vanillin. Ohne Curing keine Aromabildung.",
+        "en": "CURING / FERMENTATION (traditional Bourbon process, 3–6 months):\n1. Killing/scalding: dip green pods briefly (2–3 min) in 60–65 °C hot water, cool immediately.\n2. Sweating: wrap in wool blankets for 24–48 h in tight wooden boxes, then warm 1–4 h in the sun daily and sweat again overnight — repeat over several weeks.\n3. Slow drying: continue drying on wooden racks in airy shade for 1–2 months until the pods become supple and pliable.\n4. Conditioning/ageing: rest in closed wooden boxes for 2–3 months — the full, rounded vanilla aroma develops here. During these processes plant β-glucosidases hydrolyse glucovanillin to vanillin. Without curing no aroma forms."
+      },
+      "storage_months": 36,
+      "storage_condition": {
+        "de": "Fermentierte Schoten luftdicht in Glasgefäßen bei 15–25 °C, dunkel und nicht im Kühlschrank (Kondenswasser → Schimmel!). Mindestens 30 % Restfeuchte erhalten, um die Schoten geschmeidig zu halten. Bei korrekter Lagerung 2–3 Jahre Aroma stabil; einzelne Schoten können ohne Qualitätsverlust länger reifen.",
+        "en": "Cured pods stored airtight in glass jars at 15–25 °C, dark, NOT in the refrigerator (condensation → mould!). Maintain at least 30 % residual moisture to keep the pods supple. Aroma stable for 2–3 years if stored correctly; individual pods can mature longer without quality loss."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Die einzelne Vanille-Blüte öffnet sich nur etwa 8 Stunden lang am frühen Morgen — in dieser Zeit muss die manuelle Bestäubung erfolgen, sonst fällt sie unbefruchtet ab. Pro Pflanze blühen je Saison 100–300 Blüten nacheinander über mehrere Wochen.",
+        "en": "Each vanilla flower opens for only about 8 hours in the early morning — manual pollination must happen during this time, otherwise the flower drops unpollinated. A plant produces 100–300 flowers per season, opening sequentially over several weeks."
+      },
+      "drying": {
+        "de": "MANUELLE BESTÄUBUNG (Methode nach Edmond Albius 1841): Mit einem dünnen Holz- oder Bambusstäbchen die Rostellum-Klappe der Blüte zurückklappen, dann den Pollensack (Anther) sanft gegen die Narbe (Stigma) drücken — sogenanntes 'Marriage of the Vanilla'. Eine geübte Arbeitskraft schafft 1.000–1.500 Blüten pro Tag. Pro Liane werden meist nur 6–12 Blüten pro Inflorescenz bestäubt, um die Pflanze nicht zu erschöpfen. Ohne Bestäubung keine Schotenbildung.",
+        "en": "MANUAL POLLINATION (Edmond Albius method, 1841): Use a thin wooden or bamboo stick to fold back the rostellum flap of the flower, then gently press the pollen sac (anther) against the stigma — the so-called 'marriage of the vanilla'. A skilled worker pollinates 1,000–1,500 flowers per day. Usually only 6–12 flowers per inflorescence are pollinated per vine to avoid exhausting the plant. Without pollination no pod will form."
+      },
+      "storage_condition": {
+        "de": "Blüten werden nicht gelagert, sondern unmittelbar bestäubt — die kurze Blühzeit lässt keine Vorrats- oder Trocknungsstrategie zu.",
+        "en": "Flowers are not stored but pollinated immediately — the short flowering window leaves no room for preservation or drying strategies."
+      }
+    }
+  ]
 }

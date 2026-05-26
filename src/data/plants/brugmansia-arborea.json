@@ -20,19 +20,140 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-ba-01",
       "target": [
-        "caution"
+        "nervous_system"
       ],
-      "internal_external": "external",
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Schamanische und divinatorische Verwendung in der Volksmedizin der nordperuanischen Anden (Kurandero-Tradition): Brugmansia arborea und verwandte Arten ('Floripondio', 'Misha', 'Borrachero') werden seit präkolumbianischer Zeit für Initiationsrituale, Visionssuche und Heilzeremonien eingesetzt. De Feo (2004) dokumentiert Anwendung in der Kombination mit Trichocereus pachanoi (San-Pedro-Kaktus) in den Mesa-Ritualen. Wirkmechanismus: zentrale anticholinerge Delir-Auslösung durch Scopolamin. Keine Anwendungsempfehlung — Vergiftungen häufig, Halluzinationen werden als 'erschreckend' beschrieben.",
+        "en": "Shamanic and divinatory use in the folk medicine of the northern Peruvian Andes (curandero tradition): Brugmansia arborea and related species ('floripondio', 'misha', 'borrachero') have been used since pre-Columbian times for initiation rituals, vision quests and healing ceremonies. De Feo (2004) documents use in combination with Trichocereus pachanoi (San Pedro cactus) in mesa rituals. Mechanism: central anticholinergic delirium triggered by scopolamine. No recommendation for application — poisonings are frequent, hallucinations are described as 'terrifying'."
+      },
+      "preparation": {
+        "de": "Historisch-ethnobotanisch dokumentiert; keine Anwendungsempfehlung. Schamanen verwendeten verdünnte Wasseraufgüsse oder Bierzusätze (Chicha) unter ritueller Aufsicht. Gehalte unkalkulierbar — moderne Nachahmung führt regelmäßig zu Intensivbehandlung oder Tod.",
+        "en": "Historically documented ethnobotanically; no application recommendation. Shamans used dilute water infusions or beer additives (chicha) under ritual supervision. Alkaloid content is unpredictable — modern imitation regularly leads to intensive care or death."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-ba-defeo-2004",
+        "src-ba-algradi-2021",
+        "src-ba-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ba-02",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "form": "compress",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Traditionelle äußere Anwendung in Südamerika: zerquetschte oder erhitzte Engelstrompeten-Blätter werden in der Volksmedizin als Umschlag bei Rheuma, Arthritis, Muskelschmerzen, Prellungen und Hautentzündungen aufgelegt. Lokale anticholinerge Wirkung der Tropanalkaloide reduziert oberflächlich Schmerz und Spasmen. Wichtig: Tropanalkaloide werden über die Haut resorbiert — systemische Vergiftungen sind beschrieben. Keine Laienanwendung.",
+        "en": "Traditional external use in South America: crushed or heated angel's trumpet leaves are applied in folk medicine as poultices for rheumatism, arthritis, muscle pain, bruises and skin inflammation. Local anticholinergic action of tropane alkaloids superficially reduces pain and spasm. Important: tropane alkaloids are absorbed through the skin — systemic poisonings have been described. No lay use."
+      },
+      "preparation": {
+        "de": "Frische oder leicht erhitzte Blätter werden zerstossen und als Auflage verwendet; rein historisch-ethnobotanisch dokumentiert. Schutzhandschuhe bei jedem Pflanzenkontakt, nicht auf verletzte Haut.",
+        "en": "Fresh or slightly heated leaves are crushed and used as a poultice; purely historically/ethnobotanically documented. Protective gloves for any plant contact; never on broken skin."
+      },
+      "source_ids": [
+        "src-ba-algradi-2021",
+        "src-ba-wiki-en"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-ba-03",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische Verwendung der Blüten in kolumbianischen und ecuadorianischen Heiltraditionen ('Borrachero blanco'). Heiler trockneten und zerkleinerten die Blüten für rituelle Räucherungen oder gaben sie patientengerichtet als Kaltauszug, um Trance- und Visionszustände auszulösen — historisch belegt für Diebstahls- und Hexerei-Mythen (Robles-Mythos, Kolumbien). Modern dokumentiert: kriminelle Anwendung von konzentrierten Scopolamin-Extrakten ('Devil's Breath') gegen Tourists in Bogotá — keinerlei therapeutische Rolle.",
+        "en": "Historical use of flowers in Colombian and Ecuadorian healing traditions ('borrachero blanco'). Healers dried and crushed flowers for ritual fumigation or administered them as cold infusions to induce trance and vision states — historically tied to legends about theft and witchcraft (Robles myth, Colombia). Modern documented: criminal use of concentrated scopolamine extracts ('Devil's Breath') against tourists in Bogotá — no therapeutic role."
+      },
+      "preparation": {
+        "de": "Rein historisch-dokumentarisch — keine Anwendungsempfehlung. Blütenkonzentration an Scopolamin in Brugmansia arborea ist die höchste aller Pflanzenteile.",
+        "en": "Purely historical/documentary — no application recommendation. Flower concentration of scopolamine in Brugmansia arborea is the highest of all plant parts."
+      },
+      "source_ids": [
+        "src-ba-algradi-2021",
+        "src-ba-defeo-2004",
+        "src-ba-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ba-04",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Verwendung (Brugmansia D6–D12) bei Schreckhaftigkeit, halluzinatorischen Zuständen, Albträumen und Schlafstörungen mit Bildern von Verfolgung — analog zur Datura-Indikation in der klassischen Homöopathie. Ab D12 sind keine pharmakologisch wirksamen Alkaloidmengen mehr enthalten. Tieferpotenzen (unter D6) sind in Deutschland nicht im freien Handel.",
+        "en": "Homeopathic use (Brugmansia D6–D12) for night terrors, hallucinatory states, nightmares and sleep disorders with persecution imagery — analogous to the Datura indication in classical homeopathy. From D12 onward no pharmacologically active alkaloid amounts remain. Lower potencies (below D6) are not freely available in Germany."
+      },
+      "preparation": {
+        "de": "Homöopathische Potenzierung ab D6 — keine direkte Alkaloidwirkung. Anwendung ausschließlich nach ärztlicher oder homöopathischer Verschreibung.",
+        "en": "Homeopathic potentization from D6 onward — no direct alkaloid effect. Use exclusively on medical or homeopathic prescription."
+      },
+      "source_ids": [
+        "src-ba-wiki-de",
+        "src-ba-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ba-05",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "raw",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Rein ethnobotanisch-historische Dokumentation der Samenverwendung in präkolumbianischen Inka-/Chibcha-Bestattungsritualen: Engelstrompeten-Samen wurden mit Maisbier und Tabak vermischt und Frauen sowie Sklaven Verstorbener verabreicht, bevor diese lebendig mitbestattet wurden (laut spanischen Chronisten des 16. Jahrhunderts). Heute ohne jegliche Anwendungsempfehlung — Samen enthalten die höchste Scopolamin-Konzentration und sind potentiell letal bereits in kleinsten Mengen.",
+        "en": "Purely ethnobotanical/historical documentation of seed use in pre-Columbian Inca/Chibcha burial rituals: angel's trumpet seeds were mixed with maize beer and tobacco and given to wives and slaves of the deceased before they were buried alive (according to 16th-century Spanish chroniclers). Today no application recommendation — seeds contain the highest scopolamine concentration and are potentially lethal in tiny amounts."
+      },
+      "preparation": {
+        "de": "Rein historisch-dokumentarisch; keine Anwendung. Schon einzelne Samen können beim Erwachsenen Vergiftungssymptome auslösen.",
+        "en": "Purely historical/documentary; no use. Even individual seeds can trigger poisoning symptoms in adults."
+      },
+      "source_ids": [
+        "src-ba-defeo-2004",
+        "src-ba-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ba-06",
+      "target": [
+        "respiratory",
+        "nervous_system"
+      ],
+      "form": "inhalation",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische Asthma-Räucherungen mit Engelstrompeten-Blättern: vor der Anerkennung von Asthma als allergische Entzündung wurden Brugmansia-Blätter (zusammen mit Datura- und Hyoscyamus-Blättern) als 'Anti-Asthma-Pulver' oder 'Stramonium-Zigaretten' verbrannt und inhaliert — anticholinerge Bronchodilatation durch Atropin/Scopolamin. Seit Einführung von β2-Sympathomimetika und inhalativen Kortikosteroiden vollständig obsolet, wegen Toxizität und Halluzinogenität abgelehnt.",
+        "en": "Historical asthma fumigations with angel's trumpet leaves: before asthma was recognised as allergic inflammation, Brugmansia leaves (along with Datura and Hyoscyamus leaves) were burned and inhaled as 'anti-asthma powders' or 'stramonium cigarettes' — anticholinergic bronchodilation via atropine/scopolamine. Completely obsolete since the introduction of β2-sympathomimetics and inhaled corticosteroids; rejected due to toxicity and hallucinogenic effects."
+      },
+      "preparation": {
+        "de": "Historisch-dokumentarisch — keine moderne Anwendung. Räucher-Inhalation führt zu unkalkulierbarer Alkaloid-Aufnahme.",
+        "en": "Historical/documentary — no modern use. Inhalation of smoke leads to unpredictable alkaloid uptake."
+      },
+      "source_ids": [
+        "src-ba-algradi-2021",
+        "src-ba-wiki-en"
+      ],
+      "internal_external": "internal"
     }
   ],
   "season": {
@@ -50,12 +171,123 @@
   },
   "safety": {
     "warnings": {
-      "de": "EXTREM GIFTIG (Scopolamin, Atropin, Hyoscyamin) — alle Pflanzenteile, besonders die großen Trompeten-Blüten und Samen. Beliebte Kübelpflanze für Balkon und Wintergarten. Stark halluzinogen — Jugendliche versuchen sich am „Trip\" und enden regelmäßig auf der Intensivstation oder tot. Schon der Duft in geschlossenen Räumen kann Symptome auslösen. NIEMALS im Schlafzimmer aufstellen.",
-      "en": "EXTREMELY TOXIC (scopolamine, atropine, hyoscyamine) — all plant parts, especially the large trumpet-shaped flowers and seeds. Popular pot plant for balconies and conservatories. Strongly hallucinogenic — teenagers attempt a 'trip' and regularly end up in intensive care or dead. Even the scent in enclosed rooms can trigger symptoms. NEVER place in a bedroom."
+      "de": "EXTREM GIFTIG — ALLE PFLANZENTEILE. Brugmansia arborea enthält Tropanalkaloide (Scopolamin, Hyoscyamin, Atropin) mit deutlich höherem Scopolamin-Anteil als Datura stramonium (Scopolamin ist hauptaktiv, sedierend und stark halluzinogen, überwindet die Blut-Hirn-Schranke effizient). Konzentration variiert extrem mit Jahreszeit, Pflanzenteil und Hydratisierung — verlässliche Dosierung ist nicht möglich. Letale Erwachsenendosis Scopolamin: ca. 2–4 mg (orale Aufnahme); einzelne Blütenstaubproben und Honig aus Brugmansia-Bestäubung sind bereits toxisch. Symptome (anticholinerges Syndrom): Mundtrockenheit, Tachykardie, Mydriasis, Photophobie, Hyperthermie, Harnverhalt, lebhafte und erschreckende Halluzinationen, Delir, bizarre und gefährliche Verhaltensweisen (dokumentierter Fall einer Selbstamputation), Krampfanfälle, Koma. Vergiftungen dauern 24–48 h, im Einzelfall bis zwei Wochen. Selbst der Pflanzenduft in geschlossenen Räumen kann Symptome auslösen — niemals im Schlafzimmer aufstellen. Häufige tödliche Vergiftungen bei Jugendlichen, die einen Rausch suchen (Florida-Outbreak 1994: 112 Krankenhausaufnahmen). Bei Verdacht: SOFORT Notruf 112 und Giftnotruf. Keine Selbstmedikation. Keine Laienanwendung.",
+      "en": "EXTREMELY TOXIC — ALL PLANT PARTS. Brugmansia arborea contains tropane alkaloids (scopolamine, hyoscyamine, atropine) with a markedly higher scopolamine ratio than Datura stramonium (scopolamine dominates, strongly sedating and hallucinogenic, efficiently crosses the blood-brain barrier). Concentration varies extremely with season, plant part and hydration — reliable dosing is impossible. Lethal adult scopolamine dose: ca. 2–4 mg (oral); even pollen samples and Brugmansia honey are toxic. Symptoms (anticholinergic syndrome): dry mouth, tachycardia, mydriasis, photophobia, hyperthermia, urinary retention, vivid and terrifying hallucinations, delirium, bizarre and dangerous behaviour (documented case of self-amputation), seizures, coma. Poisonings last 24–48 h, in individual cases up to two weeks. Even the plant's scent in enclosed rooms can trigger symptoms — never place in a bedroom. Frequent fatal poisonings among teenagers seeking intoxication (1994 Florida outbreak: 112 hospitalisations). On suspicion: IMMEDIATELY call emergency services and poison control. No self-medication. No lay use."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Tropanalkaloide (Scopolamin, Hyoscyamin, Atropin) passieren die Plazentaschranke und können fetale Tachykardie, ZNS-Schäden und kongenitale Fehlbildungen verursachen. Jede Exposition in der Schwangerschaft ist streng kontraindiziert — auch berührungs- und atemwegsvermittelt.",
+        "en": "Tropane alkaloids (scopolamine, hyoscyamine, atropine) cross the placental barrier and can cause fetal tachycardia, CNS damage and congenital malformations. Any exposure during pregnancy is strictly contraindicated — including via skin contact and inhalation."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Scopolamin und Atropin treten in die Muttermilch über und können beim Säugling anticholinerge Effekte (Tachykardie, Mundtrockenheit, Fieber, Sedierung, Krampfanfälle) auslösen. Stillzeit: streng kontraindiziert.",
+        "en": "Scopolamine and atropine pass into breast milk and can trigger anticholinergic effects in the infant (tachycardia, dry mouth, fever, sedation, seizures). Breastfeeding: strictly contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder reagieren extrem empfindlich auf Tropanalkaloide; wenige Samen oder ein Blütenstück können tödlich sein. Engelstrompeten in Haushalten mit kleinen Kindern oder Haustieren sind ein dokumentiertes Vergiftungsrisiko. Keinerlei Einsatz bei Kindern und Jugendlichen unter 18 Jahren — auch keine homöopathischen Tiefpotenzen unter D6.",
+        "en": "Children are extremely sensitive to tropane alkaloids; a few seeds or a piece of flower can be fatal. Angel's trumpets in households with small children or pets are a documented poisoning risk. No use in children and adolescents under 18 years — not even low homeopathic potencies below D6."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Engwinkelglaukom — Scopolamin/Atropin erhöhen den Augeninnendruck gefährlich",
+        "en": "Narrow-angle glaucoma — scopolamine/atropine dangerously increase intraocular pressure"
+      },
+      {
+        "de": "Benigne Prostatahyperplasie mit Miktionsstörungen — anticholinerge Harnretention",
+        "en": "Benign prostatic hyperplasia with voiding disorders — anticholinergic urinary retention"
+      },
+      {
+        "de": "Tachyarrhythmien und Vorhofflimmern — Tropanalkaloide erhöhen die Herzfrequenz weiter",
+        "en": "Tachyarrhythmias and atrial fibrillation — tropane alkaloids further increase heart rate"
+      },
+      {
+        "de": "Mechanischer Ileus, Megakolon, Pylorusstenose — Darmparalyse durch Anticholinergika",
+        "en": "Mechanical ileus, megacolon, pyloric stenosis — intestinal paralysis through anticholinergics"
+      },
+      {
+        "de": "Myasthenia gravis — Antagonisierung der neuromuskulären Übertragung",
+        "en": "Myasthenia gravis — antagonisation of neuromuscular transmission"
+      },
+      {
+        "de": "Demenz und kognitive Vorschädigung — Risiko für zentrales anticholinerges Syndrom",
+        "en": "Dementia and pre-existing cognitive impairment — risk of central anticholinergic syndrome"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche (siehe oben)",
+        "en": "Pregnancy, breastfeeding, children and adolescents (see above)"
+      },
+      {
+        "de": "Haushalte mit Kindern oder Haustieren — selbst bei reiner Zierpflanzenkultur (Vergiftungsrisiko durch Blütenduft und Pflanzenkontakt)",
+        "en": "Households with children or pets — even purely ornamental cultivation (poisoning risk via flower scent and plant contact)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Anticholinergika (Tiotropium, Ipratropium, Oxybutynin, Darifenacin, Scopolamin-Pflaster)",
+        "mechanism": {
+          "de": "Additive anticholinerge Wirkung mit den Tropanalkaloiden der Pflanze: verstärkte Mundtrockenheit, Harnretention, Tachykardie, kognitive Beeinträchtigungen bis hin zum zentralen anticholinergen Syndrom mit Delir und Krampfanfällen.",
+          "en": "Additive anticholinergic effect with the plant's tropane alkaloids: enhanced dry mouth, urinary retention, tachycardia, cognitive impairment up to central anticholinergic syndrome with delirium and seizures."
+        },
+        "severity": "avoid",
+        "source_id": "src-ba-algradi-2021"
+      },
+      {
+        "drug_class": "Trizyklische Antidepressiva (Amitriptylin, Imipramin, Clomipramin)",
+        "mechanism": {
+          "de": "Trizyklika besitzen inhärente anticholinerge Eigenschaften; Kombination mit Brugmansia-Alkaloiden potenziert anticholinerge Nebenwirkungen erheblich.",
+          "en": "Tricyclics have inherent anticholinergic properties; combination with Brugmansia alkaloids substantially potentiates anticholinergic side effects."
+        },
+        "severity": "avoid",
+        "source_id": "src-ba-algradi-2021"
+      },
+      {
+        "drug_class": "MAO-Hemmer (Phenelzin, Tranylcypromin, Moclobemid, Selegilin)",
+        "mechanism": {
+          "de": "MAO-Hemmer können den Abbau von Tropanalkaloiden vermindern und deren Toxizität verstärken; zentralnervöse Exzitation mit Halluzinationen und hypertensiver Krise möglich.",
+          "en": "MAO inhibitors may reduce breakdown of tropane alkaloids and potentiate their toxicity; CNS excitation with hallucinations and hypertensive crisis possible."
+        },
+        "severity": "avoid",
+        "source_id": "src-ba-algradi-2021"
+      },
+      {
+        "drug_class": "Antihistaminika der 1. Generation (Diphenhydramin, Promethazin, Hydroxyzin)",
+        "mechanism": {
+          "de": "H1-Antihistaminika der ersten Generation haben anticholinerge Eigenschaften; additive Effekte mit Brugmansia-Alkaloiden — Risiko für Sedation, Verwirrtheit, Sturzgefahr und Hyperthermie.",
+          "en": "First-generation H1 antihistamines have anticholinergic properties; additive effects with Brugmansia alkaloids — risk of sedation, confusion, falls and hyperthermia."
+        },
+        "severity": "caution",
+        "source_id": "src-ba-algradi-2021"
+      },
+      {
+        "drug_class": "Neuroleptika mit anticholinerger Komponente (Clozapin, Olanzapin, Chlorpromazin)",
+        "mechanism": {
+          "de": "Anticholinerge Eigenwirkung der Neuroleptika summiert sich mit Tropanalkaloiden; Risiko für Hyperthermie, Ileus, kognitive Verschlechterung.",
+          "en": "Inherent anticholinergic action of neuroleptics adds to tropane alkaloids; risk of hyperthermia, ileus, cognitive deterioration."
+        },
+        "severity": "caution",
+        "source_id": "src-ba-algradi-2021"
+      },
+      {
+        "drug_class": "Opioid-Analgetika (Morphin, Fentanyl, Oxycodon)",
+        "mechanism": {
+          "de": "Additive zentralnervöse Dämpfung und anticholinerge Effekte (Obstipation, Harnretention, Sedation); experimentell beschriebener Einfluss von Brugmansia-Tropanalkaloiden auf den Opioid-Entzug (Capasso & De Feo 2003) — Wechselwirkungen daher pharmakologisch plausibel und klinisch unkalkulierbar.",
+          "en": "Additive CNS depression and anticholinergic effects (constipation, urinary retention, sedation); experimentally described influence of Brugmansia tropane alkaloids on opioid withdrawal (Capasso & De Feo 2003) — interactions therefore pharmacologically plausible and clinically unpredictable."
+        },
+        "severity": "caution",
+        "source_id": "src-ba-capasso-2003"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -72,6 +304,62 @@
       "title": "Brugmansia (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Brugmansia",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-ba-wiki-en",
+      "type": "wikipedia",
+      "title": "Brugmansia — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Brugmansia",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ba-wiki-de",
+      "type": "wikipedia",
+      "title": "Engelstrompeten — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Engelstrompeten",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-ba-wiki-species",
+      "type": "wikipedia",
+      "title": "Brugmansia arborea — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Brugmansia_arborea",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ba-wikidata",
+      "type": "wikidata",
+      "title": "Brugmansia arborea — Wikidata Q134360",
+      "url": "https://www.wikidata.org/wiki/Q134360",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ba-algradi-2021",
+      "type": "monograph",
+      "title": "Review on the genus Brugmansia: Traditional usage, phytochemistry, pharmacology, and toxicity",
+      "url": "https://doi.org/10.1016/j.jep.2021.113910",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ba-defeo-2004",
+      "type": "monograph",
+      "title": "The Ritual Use of Brugmansia Species in Traditional Andean Medicine in Northern Peru (De Feo 2004)",
+      "url": "https://doi.org/10.1663/0013-0001(2004)58[S221:TRUOBS]2.0.CO;2",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ba-capasso-2003",
+      "type": "monograph",
+      "title": "Alkaloids from Brugmansia arborea (L.) Lagerhein reduce morphine withdrawal in vitro (Capasso & De Feo 2003)",
+      "url": "https://doi.org/10.1002/ptr.1218",
+      "accessed": "2026-05-26",
+      "language": "en"
     }
   ],
   "image": {
@@ -83,5 +371,123 @@
     "license": "CC BY-SA 3.0",
     "author": "Claus Ableiter",
     "source_url": "https://commons.wikimedia.org/wiki/File:Brugmansia_aurea_Stock.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Scopolamine (Hyoscine)",
+      "category": "alkaloid",
+      "percent_range": "Hauptalkaloid (Blätter/Stängel > 70 % des Tropan-Gesamtgehalts, Blüten dominant)",
+      "note": {
+        "de": "Leitalkaloid in Brugmansia arborea — anders als bei Datura stramonium, wo Atropin/Hyoscyamin dominieren. Scopolamin überwindet die Blut-Hirn-Schranke effizient, ist stärker sedierend und halluzinogen als Atropin und für die typische schamanische Wirkung verantwortlich. LC-MS-Analysen (Algradi 2021) bestätigen Scopolamin als dominantes Alkaloid in Blättern, Stängeln und Blüten.",
+        "en": "Lead alkaloid of Brugmansia arborea — unlike Datura stramonium, where atropine/hyoscyamine dominate. Scopolamine efficiently crosses the blood-brain barrier, is more sedating and hallucinogenic than atropine and accounts for the typical shamanic effect. LC-MS analyses (Algradi 2021) confirm scopolamine as the dominant alkaloid in leaves, stems and flowers."
+      }
+    },
+    {
+      "name": "Hyoscyamine (l-Hyoscyamin)",
+      "category": "alkaloid",
+      "percent_range": "Begleitalkaloid (variabel, höher in jungen Blättern und Wurzeln)",
+      "note": {
+        "de": "Biologisch aktives Enantiomer; partieller M-Rezeptor-Antagonist; bei Trocknung racemisiert zu Atropin (dem dl-Racemat). In Brugmansia arborea quantitativ deutlich unter Scopolamin.",
+        "en": "Biologically active enantiomer; partial M-receptor antagonist; racemises to atropine (the dl-racemate) on drying. Quantitatively well below scopolamine in Brugmansia arborea."
+      }
+    },
+    {
+      "name": "Atropine (dl-Hyoscyamine)",
+      "category": "alkaloid",
+      "percent_range": "Spuren bis geringe Mengen",
+      "note": {
+        "de": "Racemat aus l- und d-Hyoscyamin; kompetitiver Antagonist an muscarinischen Acetylcholinrezeptoren (M1–M5); mydriatisch, antispasmodisch, antisekretorisch. In B. arborea pharmakologisch sekundär.",
+        "en": "Racemate of l- and d-hyoscyamine; competitive antagonist at muscarinic acetylcholine receptors (M1–M5); mydriatic, antispasmodic, antisecretory. Pharmacologically secondary in B. arborea."
+      }
+    },
+    {
+      "name": "Norscopolamine",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Demethyliertes Stoffwechsel-/Begleitalkaloid des Scopolamins; in Brugmansia-Arten nachweisbar; pharmakologisch geringere anticholinerge Aktivität, taxonomischer Marker.",
+        "en": "Demethylated metabolic/accompanying alkaloid of scopolamine; detectable in Brugmansia species; lower anticholinergic activity, taxonomic marker."
+      }
+    },
+    {
+      "name": "Aposcopolamine",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Dehydrierungsprodukt des Scopolamins (Verlust einer Hydroxylgruppe); entsteht hauptsächlich bei Erhitzung und Lagerung; pharmakologisch schwächer wirksam.",
+        "en": "Dehydration product of scopolamine (loss of a hydroxyl group); formed mainly on heating and storage; pharmacologically weaker."
+      }
+    },
+    {
+      "name": "Tropine",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Aminoalkohol-Grundstruktur der Tropanalkaloide; selbst kaum pharmakologisch wirksam; Biosynthese-Vorstufe von Hyoscyamin und Scopolamin. Tropin-bildende Reduktase ist in B. arborea charakterisiert.",
+        "en": "Amino alcohol core structure of the tropane alkaloids; itself barely pharmacologically active; biosynthetic precursor of hyoscyamine and scopolamine. A tropine-forming reductase has been characterised in B. arborea."
+      }
+    },
+    {
+      "name": "Cuscohygrine",
+      "category": "alkaloid",
+      "percent_range": "Spuren (Wurzel)",
+      "note": {
+        "de": "Pyrrolidin-Alkaloid mit niedriger anticholinerger Aktivität; in Wurzelextrakten mehrerer Solanaceen (Brugmansia, Atropa, Erythroxylum) identifiziert; ohne praktische therapeutische Bedeutung.",
+        "en": "Pyrrolidine alkaloid with low anticholinergic activity; identified in root extracts of several Solanaceae (Brugmansia, Atropa, Erythroxylum); no practical therapeutic relevance."
+      }
+    },
+    {
+      "name": "Withanolide (Steroidlactone)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Steroidlactone der Withanolid-Reihe; in Brugmansia- und Datura-Arten nachgewiesen; immunmodulatorische und zytotoxische Wirkungen in Zellkulturen; keine praktische therapeutische Rolle gegenüber den dominierenden Tropanalkaloiden.",
+        "en": "Steroidal lactones of the withanolide series; detected in Brugmansia and Datura species; immunomodulatory and cytotoxic effects in cell cultures; no practical therapeutic role against the dominant tropane alkaloids."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgenstunden nach Tautrocknung in der Hauptwachstumsperiode — wegen extremer Konzentrationsvariabilität ausschließlich für pharmazeutische Forschung oder rituelle Tradition unter Aufsicht, niemals für Laienanwendung.",
+        "en": "Morning hours after dew has dried during peak growth — due to extreme concentration variability exclusively for pharmaceutical research or supervised ritual tradition, never for lay use."
+      },
+      "drying": {
+        "de": "Rasch bei 40–50 °C im Schatten trocknen; SCHUTZHANDSCHUHE PFLICHT — Tropanalkaloide werden über die Haut resorbiert. Atemschutz beim Zerkleinern getrockneter Blätter (Staub kann Scopolamin freisetzen). Ernte und Verarbeitung ausschliesslich durch ausgebildete Botaniker oder Apotheker.",
+        "en": "Dry quickly at 40–50 °C in the shade; PROTECTIVE GLOVES MANDATORY — tropane alkaloids are absorbed through the skin. Respiratory protection when crushing dried leaves (dust can release scopolamine). Harvest and processing exclusively by trained botanists or pharmacists."
+      },
+      "notes": {
+        "de": "Konzentrationen variieren mit Jahreszeit, Wasserversorgung und Pflanzenteil um ein Vielfaches — keine zuverlässige Dosierung möglich. Lagerung getrennt von Lebensmitteln, lichtgeschützt, verschlossen, ausser Reichweite von Kindern und Haustieren. Brugmansia arborea gilt nach IUCN als 'in der Wildnis ausgestorben' — Wildernten existieren nicht mehr, alle Bestände stammen aus Kultur.",
+        "en": "Concentrations vary several-fold with season, water supply and plant part — no reliable dosing possible. Store separately from foodstuffs, protected from light, sealed, out of reach of children and pets. Brugmansia arborea is listed by IUCN as 'Extinct in the Wild' — no wild harvest exists, all material comes from cultivation."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Frühe Morgenstunden oder Abendstunden, wenn die nachtblühenden Trompeten geöffnet sind; höchste Scopolamin-Konzentration aller Pflanzenteile.",
+        "en": "Early morning or evening when the night-blooming trumpets are open; highest scopolamine concentration of all plant parts."
+      },
+      "drying": {
+        "de": "Frische Blüten bei niedriger Temperatur (30–40 °C) im Schatten trocknen; Duftexposition vermeiden (Räume gut lüften — Aromaaufnahme kann symptomatisch werden). Verwendung ausschließlich pharmazeutisch oder forschungsbezogen.",
+        "en": "Dry fresh flowers at low temperature (30–40 °C) in the shade; avoid scent exposure (ventilate rooms — fragrance uptake can become symptomatic). Use exclusively for pharmaceutical or research purposes."
+      },
+      "notes": {
+        "de": "Selbst der Blütenduft in geschlossenen Räumen löst bei empfindlichen Personen anticholinerge Symptome aus — Pflanze niemals im Schlafzimmer aufstellen. Brugmansia-Honig (von Bestäuberbienen aus Blütennektar) kann Scopolamin enthalten und ist nicht verzehrgeeignet.",
+        "en": "Even the flower scent in enclosed rooms can trigger anticholinergic symptoms in sensitive individuals — never place the plant in a bedroom. Brugmansia honey (from pollinator bees foraging the flower nectar) can contain scopolamine and is not safe to consume."
+      }
+    }
+  ]
 }
