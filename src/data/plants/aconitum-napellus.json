@@ -20,19 +20,153 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-an-01",
       "target": [
-        "caution"
+        "joints",
+        "nervous_system"
       ],
-      "internal_external": "external",
+      "form": "tincture",
+      "plant_part": "root",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Historische topische Anwendung von Aconit-Tinktur (Tinctura Aconiti) als externes Mittel bei Neuralgie, Trigeminusneuralgie, Lumbago und rheumatischen Schmerzen — auf intakte Haut aufgetragen, niemals auf Wunden. Die schmerzlindernde Wirkung beruht auf der Blockade peripherer Nervenfasern. Seit Mitte des 20. Jahrhunderts in der westlichen Medizin obsolet wegen der unkalkulierbaren systemischen Toxizität bei perkutaner Resorption.",
+        "en": "Historical topical use of aconite tincture (Tinctura Aconiti) as an external remedy for neuralgia, trigeminal neuralgia, lumbago and rheumatic pain — applied to intact skin only, never to wounds. The analgesic effect rests on blockade of peripheral nerve fibres. Obsolete in Western medicine since the mid-20th century due to unpredictable systemic toxicity from transdermal absorption."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "70% ethanol"
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-an-grieve",
+        "src-an-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-an-02",
+      "target": [
+        "fever",
+        "circulation"
+      ],
+      "form": "tincture",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Im 19. Jahrhundert weit verbreitete innerliche Anwendung extrem niedrig dosierter Aconit-Tinktur (typisch 1–2 Tropfen) als Antipyretikum und Sedativum bei akuten Fieberzuständen, Pleuritis und Perikarditis. Die historische Praxis nutzte die negativ chronotrope Wirkung des Aconitins zur Senkung der Herzfrequenz. Heute strikt obsolet — fehlendes therapeutisches Fenster, dokumentierte Todesfälle bei minimalen Dosierungsabweichungen.",
+        "en": "Widespread 19th-century internal use of extremely low-dosed aconite tincture (typically 1–2 drops) as antipyretic and sedative in acute febrile states, pleurisy and pericarditis. The historical practice exploited aconitine's negative chronotropic effect to lower heart rate. Strictly obsolete today — no therapeutic window, documented fatalities from minimal dosing errors."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "70% ethanol"
+      },
+      "source_ids": [
+        "src-an-grieve",
+        "src-an-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-an-03",
+      "target": [
+        "nervous_system",
+        "fever"
+      ],
+      "form": "tincture",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Verwendung von Aconitum napellus (Erstprüfung durch Samuel Hahnemann 1805) bei akut einsetzendem Fieber, plötzlichem Schreck, ängstlicher Unruhe und beginnenden Entzündungen. Übliche Verdünnungsstufen ab D6 aufwärts (häufig D12, D30) enthalten keine pharmakologisch wirksamen Aconitin-Mengen. Homöopathische Fertigarzneimittel sind in Deutschland, Österreich und der Schweiz arzneimittelrechtlich zugelassen.",
+        "en": "Homeopathic use of Aconitum napellus (first proven by Samuel Hahnemann in 1805) for acute-onset fever, sudden fright, anxious restlessness and early inflammation. Usual dilution levels from D6 upwards (commonly D12, D30) contain no pharmacologically active aconitine amounts. Homeopathic medicinal products are licensed in Germany, Austria and Switzerland under medicinal-products law."
+      },
+      "preparation": {
+        "ratio": "1:100",
+        "solvent": "ethanol/water"
+      },
+      "source_ids": [
+        "src-an-wiki-de",
+        "src-an-grieve"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-an-04",
+      "target": [
+        "joints"
+      ],
+      "form": "salve",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Verwendung einer Aconit-Salbe (Unguentum Aconiti) bei rheumatischen Gelenkbeschwerden und Ischias durch lokales Einreiben. Die historische Anwendung setzte voraus, dass die Haut völlig intakt ist und keine Schnitt- oder Schürfwunden vorliegen, da Aconitin über verletzte Haut rasch systemisch resorbiert wird. Aufgrund dokumentierter Todesfälle durch perkutane Vergiftung gilt diese Anwendung heute als obsolet und kontraindiziert.",
+        "en": "Folk-medicinal use of aconite ointment (Unguentum Aconiti) for rheumatic joint complaints and sciatica by local rubbing. The historical application required completely intact skin without cuts or abrasions, since aconitine is rapidly systemically absorbed via broken skin. Due to documented fatalities from percutaneous poisoning, this application is considered obsolete and contraindicated today."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "fettige Salbengrundlage / fatty ointment base"
+      },
+      "source_ids": [
+        "src-an-grieve",
+        "src-an-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-an-05",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "raw",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische Verwendung der Knollen als Pfeil- und Mordgift in vorchristlicher und antiker Zeit: keltische Jäger nutzten möglicherweise Aconit-Extrakte als Pfeilgift, im Römischen Reich wurde es als Gift gegen politische Gegner eingesetzt (Aufstieg unter Kaiser Trajan zum Verbot des privaten Anbaus). Im germanischen Volksglauben galt die Pflanze als 'Wolfswurz' (Wolfsbane), mit der Wölfe vergiftet wurden — diese Tradition begründet auch den englischen Namen. Reine Dokumentation, keinerlei Anwendungsempfehlung.",
+        "en": "Historical use of the tubers as arrow and murder poison in pre-Christian and ancient times: Celtic hunters may have used aconite extracts as arrow poison, the Roman Empire used it as poison against political opponents (banned for private cultivation under Emperor Trajan). In Germanic folklore the plant was 'wolfsbane', used to poison wolves — this tradition explains the English name. Documentation only, no application recommendation whatsoever."
+      },
+      "source_ids": [
+        "src-an-wiki-en",
+        "src-an-wiki-de"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-an-06",
+      "target": [
+        "respiratory",
+        "fever"
+      ],
+      "form": "raw",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der traditionellen chinesischen Medizin (TCM) wird die durch Hitzebehandlung detoxifizierte Wurzel verwandter Aconitum-Arten ('Fùzǐ' aus Aconitum carmichaelii) seit über 2.000 Jahren bei 'Kälte-Yang-Mangel-Syndromen' eingesetzt. Bereits in der Mawangdui-Handschrift (168 v. Chr.) erscheint Aconit als eines der häufigsten Rezeptbestandteile. Diese Anwendung gilt NICHT für das mitteleuropäische Aconitum napellus, dessen Toxizität auch nach Erhitzung kaum reduziert wird. Reine Dokumentation der historischen Praxis.",
+        "en": "In traditional Chinese medicine (TCM), the heat-detoxified root of related Aconitum species ('fùzǐ' from Aconitum carmichaelii) has been used for over 2,000 years for 'cold-yang-deficiency syndromes'. The Mawangdui manuscripts (168 BCE) already list aconite among the most frequent recipe ingredients. This application does NOT apply to the Central European Aconitum napellus, whose toxicity is barely reduced by heating. Pure documentation of historical practice."
+      },
+      "source_ids": [
+        "src-an-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-an-07",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Mittelalterliche Anwendung von Aconit-Blatt-Auszügen in den sogenannten 'Hexensalben' zusammen mit Bilsenkraut, Stechapfel und Tollkirsche. Die Mischungen wurden auf empfindliche Hautstellen aufgetragen und sollten halluzinogene 'Flugträume' auslösen — vermutlich durch Aconitin-induzierte Parästhesien kombiniert mit Tropan-Alkaloid-Wirkung. Reine ethnografische Dokumentation, keine Anwendungsempfehlung.",
+        "en": "Medieval use of aconite leaf extracts in so-called 'witches' ointments' together with henbane, datura and belladonna. The mixtures were applied to sensitive skin areas and were said to induce hallucinogenic 'flight dreams' — presumably through aconitine-induced paraesthesia combined with tropane-alkaloid effects. Pure ethnographic documentation, no application recommendation."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "fettige Salbengrundlage / fatty ointment base"
+      },
+      "source_ids": [
+        "src-an-wiki-de",
+        "src-an-grieve"
+      ],
+      "internal_external": "external"
     }
   ],
   "season": {
@@ -48,12 +182,106 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIGSTE PFLANZE Mitteleuropas (Aconitin) — Hautkontakt mit Wurzel oder Saft kann zu Vergiftung führen. NIEMALS ohne Handschuhe berühren. Historisch homöopathisch, heute nur unter ärztlicher Aufsicht. Schon 2g Wurzel sind für Erwachsene tödlich.",
-      "en": "MOST TOXIC PLANT in Central Europe (aconitine) — skin contact with root or sap can cause poisoning. NEVER touch without gloves. Historically homeopathic, today only under medical supervision. Just 2g of root is lethal for adults."
+      "de": "TÖDLICH GIFTIG — GESAMTE PFLANZE, BESONDERS WURZELKNOLLE. Aconitum napellus gilt als die giftigste Pflanze Mittel- und Westeuropas. Bereits 2–4 g frische Wurzel können einen Erwachsenen innerhalb von 30–45 Minuten töten; die letale Dosis reinen Aconitins beträgt etwa 2 mg oral. Aconitin wird perkutan resorbiert — bereits das Berühren der Blüten kann Taubheitsgefühle in den Fingerspitzen verursachen. Symptome der Vergiftung treten meist innerhalb einer Stunde auf: Kribbeln und Brennen in Mund, Gesicht und Extremitäten, Übelkeit, Erbrechen, Hypotonie, Bradykardie, ventrikuläre Arrhythmien. Tod meist durch Atemlähmung oder Kammerflimmern innerhalb von 2–6 Stunden. KEIN spezifisches Antidot verfügbar — Therapie symptomatisch (Antiarrhythmika, mechanische Beatmung). Bei Vergiftungsverdacht: SOFORT Notruf 112 und Giftnotruf. NIEMALS ohne Schutzhandschuhe berühren. Keinerlei Laienverwendung. Auch homöopathische Urtinktur D1–D3 ist als hochgiftig zu betrachten.",
+      "en": "LETHALLY TOXIC — ENTIRE PLANT, ESPECIALLY THE ROOT TUBER. Aconitum napellus is considered the most poisonous plant in Central and Western Europe. As little as 2–4 g of fresh root can kill an adult within 30–45 minutes; the lethal dose of pure aconitine is approximately 2 mg orally. Aconitine is absorbed percutaneously — merely touching the flowers can cause numbness in the fingertips. Poisoning symptoms usually appear within an hour: tingling and burning in mouth, face and extremities; nausea, vomiting, hypotension, bradycardia, ventricular arrhythmias. Death usually within 2–6 hours from respiratory paralysis or ventricular fibrillation. NO specific antidote available — therapy is symptomatic (antiarrhythmics, mechanical ventilation). In case of suspected poisoning: IMMEDIATELY call emergency services and poison control. NEVER touch without protective gloves. No lay use whatsoever. Even homeopathic mother tincture D1–D3 must be regarded as highly toxic."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Aconitin passiert die Plazentaschranke und ist embryotoxisch. Jede Anwendung von Aconitum napellus oder Aconit-Zubereitungen unterhalb der homöopathischen D6-Potenz ist in der Schwangerschaft absolut kontraindiziert.",
+        "en": "Aconitine crosses the placental barrier and is embryotoxic. Any use of Aconitum napellus or aconite preparations below homeopathic D6 potency is absolutely contraindicated in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Aconitin und verwandte Diterpenalkaloide treten in die Muttermilch über und können beim Säugling lebensbedrohliche Herzrhythmusstörungen und Atemlähmung auslösen. Stillzeit: streng kontraindiziert.",
+        "en": "Aconitine and related diterpene alkaloids pass into breast milk and can trigger life-threatening cardiac arrhythmias and respiratory paralysis in the infant. Breastfeeding: strictly contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder reagieren extrem empfindlich auf Aconitin. Bereits der Kontakt mit Blütenpollen oder das Kauen einer Blüte kann lebensbedrohlich sein. Die attraktive blauviolette Blütenfarbe und die rübenartige Knolle stellen eine besondere Gefahr dar. Keinerlei Anwendung — auch homöopathische Potenzen unter D12 nicht ohne ärztliche Anweisung.",
+        "en": "Children are extremely sensitive to aconitine. Even contact with flower pollen or chewing a single bloom can be life-threatening. The attractive blue-violet flower colour and turnip-shaped tuber pose particular danger. No application whatsoever — not even homeopathic potencies below D12 without medical instruction."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Jede Selbstanwendung des Pflanzenmaterials (Frischpflanze, getrocknete Wurzel, Tee, hausgemachte Tinktur) — absolut kontraindiziert wegen fehlendem therapeutischen Fenster",
+        "en": "Any self-administration of plant material (fresh plant, dried root, tea, homemade tincture) — absolutely contraindicated due to lack of therapeutic window"
+      },
+      {
+        "de": "Vorbestehende Herzrhythmusstörungen (Bradykardie, AV-Block, Long-QT-Syndrom, Vorhofflimmern) — Aconitin verstärkt arrhythmogenes Potenzial drastisch",
+        "en": "Pre-existing cardiac arrhythmias (bradycardia, AV-block, long-QT syndrome, atrial fibrillation) — aconitine drastically increases arrhythmogenic potential"
+      },
+      {
+        "de": "Hypotonie und kardiogener Schock — Aconitin senkt zusätzlich den Blutdruck",
+        "en": "Hypotension and cardiogenic shock — aconitine further lowers blood pressure"
+      },
+      {
+        "de": "Leber- und Niereninsuffizienz — verzögerter Abbau führt zu Kumulation der Diterpenalkaloide",
+        "en": "Hepatic and renal insufficiency — delayed metabolism leads to accumulation of diterpene alkaloids"
+      },
+      {
+        "de": "Hautläsionen, offene Wunden oder Ekzeme — drastisch erhöhte perkutane Resorption auch bei externen Anwendungen",
+        "en": "Skin lesions, open wounds or eczema — drastically increased percutaneous absorption even from external applications"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche (siehe oben)",
+        "en": "Pregnancy, lactation, children and adolescents (see above)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Klasse-I-Antiarrhythmika (Chinidin, Procainamid, Flecainid, Lidocain)",
+        "mechanism": {
+          "de": "Klasse-I-Antiarrhythmika sind Natriumkanalblocker. Aconitin wirkt entgegengesetzt durch persistente Aktivierung der spannungsabhängigen Natriumkanäle (Bindung an Neurotoxin-Bindungsstelle 2 der α-Untereinheit). Kombination führt zu unkalkulierbaren Wechselwirkungen mit Risiko schwerer ventrikulärer Arrhythmien.",
+          "en": "Class I antiarrhythmics are sodium channel blockers. Aconitine acts oppositely by persistent activation of voltage-gated sodium channels (binding to neurotoxin binding site 2 of the α-subunit). Combination leads to unpredictable interactions with risk of severe ventricular arrhythmias."
+        },
+        "severity": "avoid",
+        "source_id": "src-an-wiki-aconitine"
+      },
+      {
+        "drug_class": "Calciumkanalblocker (Verapamil, Diltiazem)",
+        "mechanism": {
+          "de": "Additive negativ chronotrope und negativ inotrope Wirkung. Aconitin verursacht bereits in Niedrigdosis Bradykardie und Hypotonie; Kombination mit Calciumkanalblockern kann zu AV-Block dritten Grades, Asystolie und kardiogenem Schock führen.",
+          "en": "Additive negative chronotropic and negative inotropic effects. Aconitine causes bradycardia and hypotension even at low doses; combination with calcium channel blockers can lead to third-degree AV block, asystole and cardiogenic shock."
+        },
+        "severity": "avoid",
+        "source_id": "src-an-wiki-aconitine"
+      },
+      {
+        "drug_class": "Herzglykoside (Digoxin, Digitoxin)",
+        "mechanism": {
+          "de": "Digoxin verändert intrazelluläre Natrium- und Calcium-Homöostase; gleichzeitige Aconitin-Belastung verstärkt das proarrhythmische Risiko erheblich. Beide Substanzen erhöhen die intrazelluläre Calciumkonzentration über unterschiedliche Mechanismen — Synergie für ventrikuläre Tachyarrhythmien.",
+          "en": "Digoxin alters intracellular sodium and calcium homeostasis; concurrent aconitine exposure substantially increases proarrhythmic risk. Both substances raise intracellular calcium concentration via different mechanisms — synergy for ventricular tachyarrhythmias."
+        },
+        "severity": "avoid",
+        "source_id": "src-an-wiki-aconitine"
+      },
+      {
+        "drug_class": "Beta-Blocker (Metoprolol, Bisoprolol, Propranolol)",
+        "mechanism": {
+          "de": "Aconitin induziert bereits selbst Bradykardie und AV-Überleitungsstörungen. Beta-Blocker verstärken diese Wirkung additiv und können zu lebensbedrohlicher Bradyarrhythmie führen.",
+          "en": "Aconitine itself already induces bradycardia and AV conduction disturbances. Beta-blockers additively enhance this effect and can cause life-threatening bradyarrhythmia."
+        },
+        "severity": "avoid",
+        "source_id": "src-an-wiki-aconitine"
+      },
+      {
+        "drug_class": "Lokalanästhetika (Lidocain, Procain, Bupivacain)",
+        "mechanism": {
+          "de": "Lokalanästhetika und Aconitin wirken beide auf spannungsabhängige Natriumkanäle, jedoch an unterschiedlichen Bindungsstellen. Konkurrenz und unvorhersehbare Modulation der Kanalkinetik können zu schwer behandelbaren ventrikulären Arrhythmien führen.",
+          "en": "Local anaesthetics and aconitine both act on voltage-gated sodium channels but at different binding sites. Competition and unpredictable modulation of channel kinetics can lead to ventricular arrhythmias that are difficult to treat."
+        },
+        "severity": "caution",
+        "source_id": "src-an-wiki-aconitine"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -70,6 +298,62 @@
       "title": "Aconitum napellus (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Aconitum_napellus",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-an-wiki-en",
+      "type": "wikipedia",
+      "title": "Aconitum napellus — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Aconitum_napellus",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-an-wiki-de",
+      "type": "wikipedia",
+      "title": "Blauer Eisenhut — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Blauer_Eisenhut",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-an-wiki-aconitine",
+      "type": "wikipedia",
+      "title": "Aconitine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Aconitine",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-an-pfaf",
+      "type": "book",
+      "title": "Plants For A Future — Aconitum napellus",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Aconitum+napellus",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-an-grieve",
+      "type": "book",
+      "title": "Maud Grieve: A Modern Herbal — Aconite (botanical.com, 1931)",
+      "url": "https://botanical.com/botanical/mgmh/a/aconi007.html",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-an-wikidata",
+      "type": "wikidata",
+      "title": "Aconitum napellus — Wikidata Q159218",
+      "url": "https://www.wikidata.org/wiki/Q159218",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-an-commons",
+      "type": "commons",
+      "title": "Aconitum napellus — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Aconitum_napellus",
+      "accessed": "2026-05-26",
+      "language": "en"
     }
   ],
   "image": {
@@ -81,5 +365,120 @@
     "license": "Attribution",
     "author": "Axel Mauruszat",
     "source_url": "https://commons.wikimedia.org/wiki/File:Blauer_Eisenhut_Dolomiten.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Aconitine",
+      "category": "alkaloid",
+      "percent_range": "0.2-3 %",
+      "note": {
+        "de": "Hauptalkaloid der Wurzelknolle; C19-Norditerpenalkaloid; bindet an Neurotoxin-Bindungsstelle 2 der α-Untereinheit spannungsabhängiger Natriumkanäle und verhindert deren Inaktivierung — persistenter Natriumeinstrom führt zu Depolarisation, gefolgt von Lähmung. Letaldosis oral etwa 2 mg.",
+        "en": "Main alkaloid of the root tuber; C19-norditerpene alkaloid; binds to neurotoxin binding site 2 of the α-subunit of voltage-gated sodium channels, preventing inactivation — persistent sodium influx causes depolarization followed by paralysis. Lethal oral dose approximately 2 mg."
+      }
+    },
+    {
+      "name": "Mesaconitine",
+      "category": "alkaloid",
+      "percent_range": "Spuren bis 0.2 %",
+      "note": {
+        "de": "N-Methyl-Analogon des Aconitins; vergleichbare kardiotoxische Wirkung; trägt zur Gesamttoxizität der Aconit-Extrakte bei, pharmakologisch eng verwandt mit Aconitin.",
+        "en": "N-methyl analogue of aconitine; comparable cardiotoxic effect; contributes to overall toxicity of aconite extracts; pharmacologically closely related to aconitine."
+      }
+    },
+    {
+      "name": "Hypaconitine",
+      "category": "alkaloid",
+      "percent_range": "0.05-0.3 %",
+      "note": {
+        "de": "Diterpenalkaloid mit etwas schwächerer Toxizität als Aconitin, aber weiterhin lebensbedrohlich; vorwiegend in Knollen und unteren Stängelabschnitten nachweisbar.",
+        "en": "Diterpene alkaloid with slightly weaker toxicity than aconitine, still life-threatening; predominantly detected in tubers and lower stem sections."
+      }
+    },
+    {
+      "name": "Jesaconitine",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Strukturell verwandtes Begleitalkaloid; geringerer Anteil in der Gesamtalkaloidfraktion; ähnliche Natriumkanalwirkung wie Aconitin.",
+        "en": "Structurally related companion alkaloid; smaller share of total alkaloid fraction; similar sodium channel action to aconitine."
+      }
+    },
+    {
+      "name": "Napellin",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Aminoalkohol-Alkaloid aus der Wurzel; pharmakologisch deutlich weniger aktiv als die Ester-Diterpenalkaloide; Indikator-Substanz in der phytochemischen Analytik.",
+        "en": "Amino-alcohol alkaloid from the root; pharmacologically considerably less active than the ester-diterpene alkaloids; indicator substance in phytochemical analysis."
+      }
+    },
+    {
+      "name": "Neoline",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Begleitalkaloid mit schwacher anti-nozizeptiver Aktivität in tierexperimentellen Studien; nicht therapeutisch genutzt; trägt zur chemischen Differenzierung von Aconitum-Arten bei.",
+        "en": "Companion alkaloid with weak antinociceptive activity in animal studies; not therapeutically used; contributes to chemical differentiation of Aconitum species."
+      }
+    },
+    {
+      "name": "Aconitsäure (Aconitic acid)",
+      "category": "phenolic_acid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Tricarbonsäure (trans-Aconitsäure) als nicht-alkaloider Inhaltsstoff; pharmakologisch ohne toxische Bedeutung; im Zellstoffwechsel als Tricarbonsäurezyklus-Intermediat verbreitet.",
+        "en": "Tricarboxylic acid (trans-aconitic acid) as non-alkaloid constituent; pharmacologically without toxic significance; widespread in cell metabolism as a citric-acid-cycle intermediate."
+      }
+    },
+    {
+      "name": "Flavonoide (Kaempferol- und Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Sekundäre Begleitstoffe in den oberirdischen Pflanzenteilen; antioxidative Aktivität; spielen für die Toxikologie der Pflanze keine Rolle.",
+        "en": "Secondary companion substances in the aerial plant parts; antioxidant activity; play no role in the plant's toxicology."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Ausgrabung der Wurzelknollen nach dem Welken der oberirdischen Teile im Spätherbst — Alkaloidgehalt zu diesem Zeitpunkt am höchsten. Ausschließlich für pharmazeutische oder homöopathische Verarbeitung durch Fachpersonal.",
+        "en": "Excavation of root tubers after die-back of aerial parts in late autumn — alkaloid content peaks at this point. Exclusively for pharmaceutical or homeopathic processing by trained personnel."
+      },
+      "drying": {
+        "de": "Trocknung in pharmazeutischen Betrieben unter kontrollierten Bedingungen bei max. 50 °C. Niemals häusliche Trocknung — der Geruch beim Trocknen kann bereits Vergiftungssymptome auslösen.",
+        "en": "Drying in pharmaceutical facilities under controlled conditions at max. 50 °C. Never dry domestically — the odour during drying can already trigger poisoning symptoms."
+      },
+      "notes": {
+        "de": "SCHUTZAUSRÜSTUNG OBLIGATORISCH — undurchlässige Handschuhe, Atemschutz, Schutzbrille. Hautkontakt mit Wurzelsaft führt zu rascher perkutaner Resorption mit Vergiftungsgefahr. Keinerlei Laienernte.",
+        "en": "PROTECTIVE EQUIPMENT MANDATORY — impermeable gloves, respirator, safety goggles. Skin contact with root sap leads to rapid percutaneous absorption with poisoning risk. No lay harvest whatsoever."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Sammlung der Laubblätter kurz vor oder zu Beginn der Blüte für homöopathische Urtinkturen. Alkaloidgehalt der Blätter deutlich geringer als der Knolle, aber dennoch gefährlich (etwa 1/10 der Knollenkonzentration).",
+        "en": "Collection of foliage leaves shortly before or at the start of flowering for homeopathic mother tinctures. Alkaloid content of leaves significantly lower than tuber but still dangerous (approximately 1/10 of tuber concentration)."
+      },
+      "drying": {
+        "de": "Schonende Trocknung bei max. 40 °C im Schatten; pharmazeutische Verarbeitung erforderlich. Vorsicht: Aconitin verflüchtigt sich nicht und bleibt im getrockneten Material erhalten.",
+        "en": "Gentle drying at max. 40 °C in the shade; pharmaceutical processing required. Caution: aconitine does not volatilise and remains in the dried material."
+      },
+      "notes": {
+        "de": "Schutzhandschuhe Pflicht. Keinerlei Verwendung für hausgemachte Zubereitungen.",
+        "en": "Protective gloves mandatory. No use whatsoever for home-made preparations."
+      }
+    }
+  ]
 }

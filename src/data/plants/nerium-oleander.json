@@ -20,19 +20,135 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-no-01",
       "target": [
-        "caution"
+        "circulation"
       ],
-      "internal_external": "external",
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Historische pharmazeutische Verwendung standardisierter Oleander-Blattextrakte (Folia Nerii) als Herzglykosid-Quelle bei Herzinsuffizienz und Wassersucht — analog zu Digitalis purpurea. Wirkprinzip: Hemmung der Na+/K+-ATPase der Herzmuskelzelle durch Oleandrin und verwandte Cardenolide, dadurch positiv inotrope Wirkung. Heute obsolet, weil Digoxin und Digitoxin standardisierter und sicherer dosierbar sind; die therapeutische Breite von Oleander-Extrakten ist extrem schmal.",
+        "en": "Historical pharmaceutical use of standardised oleander leaf extracts (Folia Nerii) as a cardiac glycoside source in heart failure and dropsy — analogous to Digitalis purpurea. Mechanism: inhibition of cardiac Na+/K+-ATPase by oleandrin and related cardenolides, resulting in a positive inotropic effect. Obsolete today because digoxin and digitoxin are more standardised and more safely dosable; the therapeutic window of oleander extracts is extremely narrow."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "70% ethanol"
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-no-wiki-en",
+        "src-no-wiki-oleandrin",
+        "src-no-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-no-02",
+      "target": [
+        "skin"
+      ],
+      "form": "salve",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische äusserliche Anwendung von Oleander-Blattabsuden bei Krätze (Skabies) und parasitärem Hautbefall im Mittelmeerraum und in Indien. Auch die Behandlung von Lepra-Hautläsionen mit Wurzelrindenöl ist in der ayurvedischen Tradition dokumentiert. Wegen der starken Hautirritation und perkutanen Glykosidresorption über verletzte Haut heute nicht mehr empfohlen.",
+        "en": "Folk medicinal external use of oleander leaf decoctions for scabies and parasitic skin infestation in the Mediterranean region and in India. Treatment of leprous skin lesions with root-bark oil is also documented in the Ayurvedic tradition. No longer recommended today due to strong skin irritation and percutaneous glycoside absorption through damaged skin."
+      },
+      "preparation": {
+        "ratio": "1:5",
+        "solvent": "olive oil / lard base"
+      },
+      "source_ids": [
+        "src-no-pfaf",
+        "src-no-wiki-en"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-no-03",
+      "target": [
+        "circulation"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Verwendung von Nerium oleander (Urtinktur, D2–D30) bei Herzschwäche, Arrhythmien und Aszites in der klassischen Homöopathie. In hohen Verdünnungen (ab D6) gelten die Präparate als sicher, weil keine pharmakologisch wirksame Glykosidmenge mehr enthalten ist. Urtinktur und niedrige Potenzen bleiben hochtoxisch.",
+        "en": "Homeopathic use of Nerium oleander (mother tincture, D2–D30) for cardiac weakness, arrhythmia and ascites in classical homeopathy. In high dilutions (from D6 onwards) preparations are considered safe because no pharmacologically active glycoside amount remains. Mother tincture and low potencies remain highly toxic."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "45% ethanol"
+      },
+      "source_ids": [
+        "src-no-wiki-en",
+        "src-no-wikidata"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-no-04",
+      "target": [
+        "skin"
+      ],
+      "form": "salve",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Indisch-ayurvedische Anwendung von Oleander-Wurzelpaste auf genitale Ulzera und Hautgeschwüre. Daneben wird Wurzelrindenöl bei schuppigen Hautkrankheiten und Lepra-bedingten Läsionen aufgetragen. Trotz traditioneller Verbreitung gilt diese Anwendung wegen perkutaner Toxizität heute als gefährlich.",
+        "en": "Indian Ayurvedic application of oleander root paste on genital ulcers and skin sores. Root-bark oil is also applied to scaly skin diseases and leprosy-related lesions. Despite traditional spread, this application is considered dangerous today due to percutaneous toxicity."
+      },
+      "preparation": {
+        "ratio": "1:5",
+        "solvent": "sesame oil base"
+      },
+      "source_ids": [
+        "src-no-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-no-05",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Antike und mittelalterliche Verwendung als angebliches Antidot bei Schlangenbiss (Mischung mit Raute, oral verabreicht) — bereits von Plinius dem Älteren und Dioskurides erwähnt. Diese Anwendung ist nach heutigem Wissen toxikologisch kontraproduktiv und additiv gefährlich.",
+        "en": "Ancient and medieval use as an alleged antidote for snake bites (mixed with rue, taken orally) — already mentioned by Pliny the Elder and Dioscorides. According to current knowledge this application is toxicologically counterproductive and additively dangerous."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "wine / 12% ethanol"
+      },
+      "source_ids": [
+        "src-no-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-no-06",
+      "target": [
+        "circulation"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Untersuchung von Oleandrin und Oleander-Extrakten (z. B. Anvirzel, PBI-05204) als experimentelle Krebs- und antivirale Therapie in klinischen Studien. Ergebnisse sind bislang negativ: Die US-FDA lehnte 2020 einen Antrag auf Oleandrin als Nahrungsergänzungsmittel ab; klinische Wirksamkeit ist nicht belegt. Anwendung ausserhalb kontrollierter Studien ist gefährlich.",
+        "en": "Investigation of oleandrin and oleander extracts (e.g. Anvirzel, PBI-05204) as experimental cancer and antiviral therapy in clinical trials. Results have been negative so far: the US FDA rejected an application for oleandrin as a dietary supplement in 2020; clinical efficacy is not established. Use outside controlled trials is dangerous."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "ethanol-water mixture"
+      },
+      "source_ids": [
+        "src-no-wiki-oleandrin",
+        "src-no-wiki-en"
+      ],
+      "internal_external": "internal"
     }
   ],
   "season": {
@@ -49,12 +165,123 @@
   },
   "safety": {
     "warnings": {
-      "de": "SEHR GIFTIG (Oleandrin, herzwirksame Glykoside) — alle Pflanzenteile, sogar das Wasser einer Vase mit Oleanderzweigen. Sehr verbreitete Kübelpflanze auf Balkon und Terrasse. Schon ein einzelnes Blatt kann für Kinder tödlich sein. NIEMALS Zweige zum Aufspießen von Grillgut verwenden — Geschichten von tödlichen Picknick-Vergiftungen sind dokumentiert. Auch für Pferde, Hunde, Katzen extrem toxisch.",
-      "en": "VERY TOXIC (oleandrin, cardiac glycosides) — all plant parts, even the water of a vase containing oleander twigs. Very common potted plant on balconies and terraces. Just a single leaf can be lethal for children. NEVER use twigs as skewers for grilled food — stories of fatal picnic poisonings are documented. Also extremely toxic for horses, dogs, cats."
+      "de": "EXTREM GIFTIG — ALLE PFLANZENTEILE. Nerium oleander gehört zu den giftigsten Zierpflanzen in europäischen Gärten und auf Balkonen. Alle Teile (Blätter, Blüten, Samen, Holz, Wurzeln, Milchsaft) enthalten Cardenolid-Herzglykoside (Oleandrin, Neriin, Adynerin, Oleandrigenin, Odorosid). Bereits ein einzelnes Blatt kann für Kinder tödlich sein; etwa 100 g Blätter genügen, um ein Pferd zu töten. Selbst das Vasenwasser von Oleanderzweigen ist toxisch. KEINE Oleanderzweige als Grill- oder Aufspiessstäbchen verwenden — tödliche Picknick-Vergiftungen sind dokumentiert. Vergiftungssymptome: Übelkeit, Erbrechen, blutiger Durchfall, Bauchschmerzen, Bradykardie, AV-Block, Hyperkaliämie, Sehstörungen (Gelbsehen), Kammerflimmern, Herzstillstand. Bei Vergiftungsverdacht: SOFORT Notruf (112/911) und Giftnotruf kontaktieren. Antidot: digitalis-spezifische Antikörperfragmente (Digifab) — wirken auch gegen Oleandrin. Keine Selbstmedikation. Keine Laienverwendung.",
+      "en": "EXTREMELY TOXIC — ALL PLANT PARTS. Nerium oleander is among the most poisonous ornamentals in European gardens and on balconies. All parts (leaves, flowers, seeds, wood, roots, latex) contain cardenolide cardiac glycosides (oleandrin, neriin, adynerin, oleandrigenin, odoroside). A single leaf can be lethal for children; about 100 g of leaves are sufficient to kill a horse. Even the vase water of oleander twigs is toxic. NEVER use oleander twigs as grill skewers — fatal picnic poisonings are documented. Poisoning symptoms: nausea, vomiting, bloody diarrhoea, abdominal pain, bradycardia, AV block, hyperkalaemia, visual disturbances (xanthopsia), ventricular fibrillation, cardiac arrest. In suspected poisoning: IMMEDIATELY call emergency services and poison control. Antidote: digitalis-specific antibody fragments (Digifab) — also effective against oleandrin. No self-medication. No lay use."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Cardenolide passieren die Plazentaschranke und können fetale Herzrhythmusstörungen und Aborte auslösen. Jede orale oder grossflächig dermale Anwendung in der Schwangerschaft ist strikt kontraindiziert.",
+        "en": "Cardenolides cross the placental barrier and can trigger fetal arrhythmias and abortion. Any oral or large-area dermal application during pregnancy is strictly contraindicated."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Herzglykoside können in die Muttermilch übergehen und beim Säugling kardiotoxische Effekte (Bradykardie, AV-Block) auslösen. Stillzeit: strikt kontraindiziert.",
+        "en": "Cardiac glycosides may pass into breast milk and induce cardiotoxic effects (bradycardia, AV block) in the infant. Lactation: strictly contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder sind wegen geringer Körpermasse und empfindlicher Herzphysiologie besonders gefährdet — bereits ein einzelnes Blatt oder wenige Samen können tödlich sein. Oleander-Kübelpflanzen auf Balkon und Terrasse müssen ausser Reichweite von Kindern aufgestellt werden. Verschluckte Blüten oder Blätter: SOFORT Giftnotruf.",
+        "en": "Children are particularly at risk due to low body mass and sensitive cardiac physiology — even a single leaf or a few seeds can be lethal. Oleander potted plants on balcony and terrace must be kept out of reach of children. Swallowed flowers or leaves: IMMEDIATELY call poison control."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Gleichzeitige Therapie mit Digitalis-Glykosiden (Digoxin, Digitoxin) — additive, oft tödliche Kardiotoxizität",
+        "en": "Concurrent therapy with digitalis glycosides (digoxin, digitoxin) — additive, often fatal cardiotoxicity"
+      },
+      {
+        "de": "Hypokaliämie (z. B. unter Schleifendiuretika) — drastisch erhöhte Glykosidempfindlichkeit der Herzmuskelzelle",
+        "en": "Hypokalaemia (e.g. under loop diuretics) — drastically increased cardiac glycoside sensitivity"
+      },
+      {
+        "de": "AV-Block II. und III. Grades — Verlängerung der AV-Überleitung durch Cardenolide",
+        "en": "AV block grade II and III — prolongation of AV conduction by cardenolides"
+      },
+      {
+        "de": "Wolff-Parkinson-White-Syndrom und andere akzessorische Leitungsbahnen",
+        "en": "Wolff-Parkinson-White syndrome and other accessory conduction pathways"
+      },
+      {
+        "de": "Niereninsuffizienz — verzögerte Elimination der Glykoside, Kumulationsgefahr",
+        "en": "Renal insufficiency — delayed elimination of glycosides, risk of accumulation"
+      },
+      {
+        "de": "Hypertrophe obstruktive Kardiomyopathie (HOCM)",
+        "en": "Hypertrophic obstructive cardiomyopathy (HOCM)"
+      },
+      {
+        "de": "Hyperkalzämie — verstärkte Glykosidtoxizität durch erhöhte intrazelluläre Calciumkonzentration",
+        "en": "Hypercalcaemia — increased glycoside toxicity through elevated intracellular calcium concentration"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit und Kinder unter 18 Jahren (siehe oben)",
+        "en": "Pregnancy, lactation and children under 18 years (see above)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Herzglykoside (Digoxin, Digitoxin, Strophanthin, Convallaria-Glykoside)",
+        "mechanism": {
+          "de": "Additive Hemmung der Na+/K+-ATPase und additive kardiale Inotropie — kumulative Toxizität mit Risiko für AV-Block, ventrikuläre Arrhythmien und Herzstillstand. Gleichzeitige Anwendung absolut zu vermeiden.",
+          "en": "Additive inhibition of Na+/K+-ATPase and additive cardiac inotropy — cumulative toxicity with risk of AV block, ventricular arrhythmias and cardiac arrest. Concurrent use must be absolutely avoided."
+        },
+        "severity": "avoid",
+        "source_id": "src-no-wiki-oleandrin"
+      },
+      {
+        "drug_class": "Kaliumverlust-Diuretika (Thiazide, Schleifendiuretika wie Furosemid)",
+        "mechanism": {
+          "de": "Diuretika-induzierte Hypokaliämie erhöht die Sensitivität der Herzmuskelzelle gegenüber Cardenoliden erheblich — Vergiftung bereits bei sonst tolerierten Dosen möglich.",
+          "en": "Diuretic-induced hypokalaemia substantially increases cardiac glycoside sensitivity of myocardial cells — poisoning possible at otherwise tolerated doses."
+        },
+        "severity": "avoid",
+        "source_id": "src-no-wiki-en"
+      },
+      {
+        "drug_class": "Intravenöses Calcium / Calcium-Salze",
+        "mechanism": {
+          "de": "Calcium-Infusion bei Glykosidvergiftung ist klassisch kontraindiziert (stone heart phenomenon): Cardenolide blockieren die Na+/K+-ATPase, intrazelluläres Calcium steigt; zusätzliches IV-Calcium kann tetanische Kontraktur und Herzstillstand auslösen.",
+          "en": "Intravenous calcium during cardiac glycoside poisoning is classically contraindicated (stone heart phenomenon): cardenolides block Na+/K+-ATPase and intracellular calcium rises; additional IV calcium may precipitate tetanic contracture and cardiac arrest."
+        },
+        "severity": "avoid",
+        "source_id": "src-no-wiki-en"
+      },
+      {
+        "drug_class": "Beta-Blocker und Calciumkanal-Blocker (Verapamil, Diltiazem)",
+        "mechanism": {
+          "de": "Additive negativ-chronotrope und negativ-dromotrope Effekte am Sinus- und AV-Knoten verstärken die Glykosid-induzierte Bradykardie und das AV-Block-Risiko.",
+          "en": "Additive negative chronotropic and dromotropic effects at the sinus and AV node intensify glycoside-induced bradycardia and AV block risk."
+        },
+        "severity": "avoid",
+        "source_id": "src-no-wiki-oleandrin"
+      },
+      {
+        "drug_class": "QT-Zeit-verlängernde Medikamente (Antiarrhythmika Klasse Ia/III, Makrolide, Fluorchinolone, Antipsychotika)",
+        "mechanism": {
+          "de": "Cardenolide können das QT-Intervall sekundär beeinflussen; bei Kombination steigt das Risiko für Torsade de pointes und ventrikuläre Arrhythmien deutlich.",
+          "en": "Cardenolides can secondarily affect the QT interval; in combination, the risk of torsade de pointes and ventricular arrhythmias rises markedly."
+        },
+        "severity": "caution",
+        "source_id": "src-no-wiki-en"
+      },
+      {
+        "drug_class": "Systemische Kortikosteroide und Laxanzien (chronisch)",
+        "mechanism": {
+          "de": "Verursachen Kaliumverluste und damit verstärkte Empfindlichkeit gegenüber Cardenoliden — analog zu Diuretika.",
+          "en": "Cause potassium depletion and thereby increased sensitivity to cardenolides — analogous to diuretics."
+        },
+        "severity": "caution",
+        "source_id": "src-no-wiki-en"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -71,6 +298,54 @@
       "title": "Nerium (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Nerium",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-no-wiki-en",
+      "type": "wikipedia",
+      "title": "Nerium oleander — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Nerium_oleander",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-no-wiki-de",
+      "type": "wikipedia",
+      "title": "Oleander — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Oleander",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-no-wiki-oleandrin",
+      "type": "wikipedia",
+      "title": "Oleandrin — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Oleandrin",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-no-pfaf",
+      "type": "book",
+      "title": "Plants For A Future — Nerium oleander",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Nerium+oleander",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-no-wikidata",
+      "type": "wikidata",
+      "title": "Nerium oleander — Wikidata Q155833",
+      "url": "https://www.wikidata.org/wiki/Q155833",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-no-bfr",
+      "type": "monograph",
+      "title": "BfR (Bundesinstitut für Risikobewertung): Giftpflanzen im Überblick — Oleander (Nerium oleander)",
+      "url": "https://www.bfr.bund.de/de/giftpflanzen.html",
+      "accessed": "2026-05-26",
+      "language": "de"
     }
   ],
   "image": {
@@ -82,5 +357,121 @@
     "license": "CC BY 2.5",
     "author": "Alvesgaspar",
     "source_url": "https://commons.wikimedia.org/wiki/File:Nerium_oleander_flowers_leaves.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Oleandrin",
+      "category": "glycoside",
+      "percent_range": "0.08-0.4 %",
+      "note": {
+        "de": "Hauptcardenolid der Oleander-Blätter; kompetitiver Hemmer der Na+/K+-ATPase der Herzmuskelzelle; positiv inotrop wie Digoxin, aber mit erheblich engerer therapeutischer Breite. LD50 (Katze, i.v.) etwa 0,248 mg/kg; LD50 (Tiere allgemein) etwa 0,5 mg/kg. Untersucht in den experimentellen Krebspräparaten Anvirzel und PBI-05204 — bisher ohne klinischen Nutzen.",
+        "en": "Main cardenolide of oleander leaves; competitive inhibitor of cardiac Na+/K+-ATPase; positive inotropic like digoxin but with a substantially narrower therapeutic window. LD50 (cat, i.v.) approx. 0.248 mg/kg; LD50 (animals general) approx. 0.5 mg/kg. Investigated in experimental cancer preparations Anvirzel and PBI-05204 — without clinical benefit so far."
+      }
+    },
+    {
+      "name": "Oleandrigenin (Aglykon)",
+      "category": "glycoside",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Deglykosyliertes Aglykon des Oleandrins; entsteht durch metabolischen Abbau und enzymatische Hydrolyse; pharmakologisch ebenfalls kardioaktiv, jedoch mit geringerer Gewebsaffinität als das Glykosid.",
+        "en": "Deglycosylated aglycone of oleandrin; formed by metabolic breakdown and enzymatic hydrolysis; also pharmacologically cardioactive but with lower tissue affinity than the glycoside."
+      }
+    },
+    {
+      "name": "Neriin",
+      "category": "glycoside",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Cardenolid-Glykosid der Apocynaceen; trägt zur Gesamttoxizität des Oleanders bei; pharmakologisch dem Oleandrin verwandt, Wirkung auf Na+/K+-ATPase. In der älteren pharmazeutischen Literatur als 'Nerein' beschrieben.",
+        "en": "Cardenolide glycoside of the Apocynaceae; contributes to overall oleander toxicity; pharmacologically related to oleandrin, action on Na+/K+-ATPase. Described in older pharmaceutical literature as 'nerein'."
+      }
+    },
+    {
+      "name": "Adynerin",
+      "category": "glycoside",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Cardenolid-Glykosid, das in Oleander-Blättern und -Rinde nachgewiesen wurde; trägt additiv zur Kardiotoxizität bei; geringere Affinität zur Na+/K+-ATPase als Oleandrin.",
+        "en": "Cardenolide glycoside detected in oleander leaves and bark; contributes additively to cardiotoxicity; lower affinity for Na+/K+-ATPase than oleandrin."
+      }
+    },
+    {
+      "name": "Odoroside (Odorosid H)",
+      "category": "glycoside",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Digitoxigenin-Glykosid mit Cardenolid-Struktur; auf Wikipedia-Niveau als Inhaltsstoff von Nerium oleander dokumentiert; weniger erforscht als Oleandrin, jedoch ebenfalls kardiotoxisch.",
+        "en": "Digitoxigenin glycoside with cardenolide structure; documented at Wikipedia level as a constituent of Nerium oleander; less studied than oleandrin but also cardiotoxic."
+      }
+    },
+    {
+      "name": "Adigoside",
+      "category": "glycoside",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Weiteres Cardenolid-Glykosid des Oleanders; Bestandteil des Glykosid-Spektrums in Blättern und Rinde; pharmakologisch untergeordnete Bedeutung.",
+        "en": "Further cardenolide glycoside of oleander; component of the glycoside spectrum in leaves and bark; pharmacologically of subordinate importance."
+      }
+    },
+    {
+      "name": "Neritaloside",
+      "category": "glycoside",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Cardenolid-Glykosid, verwandt mit Oleandrin und in Oleander-Blattextrakten nachgewiesen; trägt zum Glykosid-Pool des Pflanzenmaterials bei.",
+        "en": "Cardenolide glycoside related to oleandrin and detected in oleander leaf extracts; contributes to the glycoside pool of the plant material."
+      }
+    },
+    {
+      "name": "Triterpene und Pregnan-Glykoside",
+      "category": "other",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Begleitende Steroide und Triterpene (Ursolsäure, Oleanolsäure, Pregnan-Derivate); pharmakologisch untergeordnete Rolle gegenüber den Cardenoliden, jedoch in Phytochemie-Analysen regelmässig nachgewiesen.",
+        "en": "Accompanying steroids and triterpenes (ursolic acid, oleanolic acid, pregnane derivatives); pharmacologically subordinate to cardenolides, but routinely detected in phytochemical analyses."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Vormittags an trockenen Sommertagen — höchster Cardenolidgehalt in voll ausgereiften Blättern",
+        "en": "Morning hours on dry summer days — highest cardenolide content in fully mature leaves"
+      },
+      "drying": {
+        "de": "Blätter im Schatten bei 35–45 °C trocknen. SCHUTZHANDSCHUHE PFLICHT — Milchsaft ist hautreizend und perkutan resorbierbar; Aerosolexposition beim Schneiden vermeiden. Getrocknetes Material in klar als GIFTIG beschrifteten Behältern aufbewahren, ausserhalb der Reichweite von Kindern und Haustieren.",
+        "en": "Dry leaves in shade at 35–45 °C. PROTECTIVE GLOVES MANDATORY — latex is skin-irritating and percutaneously absorbed; avoid aerosol exposure when cutting. Store dried material in containers clearly labelled as TOXIC, out of reach of children and pets."
+      },
+      "notes": {
+        "de": "KEINE LAIENVERWENDUNG. Toxizität bleibt im getrockneten Material und im Wasser von Vasen vollständig erhalten. Beschnittene Zweige niemals als Grill- oder Aufspiessstäbchen verwenden — tödliche Picknick-Vergiftungen sind dokumentiert.",
+        "en": "NO LAY USE. Toxicity is fully retained in dried material and in vase water. Never use trimmed twigs as grill or food skewers — fatal picnic poisonings are documented."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Morgens nach Tautrocknung in voller Blüte",
+        "en": "Morning after dew has dried, in full bloom"
+      },
+      "drying": {
+        "de": "Blüten flach auslegen und bei max. 35 °C im Schatten trocknen; Sortenfarbe und Cardenolidgehalt bleiben stabil. Schutzhandschuhe tragen — auch Pollen und Nektar enthalten Glykoside.",
+        "en": "Lay flowers flat and dry at max. 35 °C in shade; cultivar colour and cardenolide content remain stable. Wear protective gloves — pollen and nectar also contain glycosides."
+      },
+      "notes": {
+        "de": "Blüten gelten als ähnlich toxisch wie Blätter; auch hier KEINE Laienverwendung.",
+        "en": "Flowers are considered similarly toxic to leaves; NO lay use here either."
+      }
+    }
+  ]
 }

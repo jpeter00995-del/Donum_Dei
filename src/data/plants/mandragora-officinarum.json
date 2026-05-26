@@ -20,19 +20,140 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-mo-01",
       "target": [
-        "caution"
+        "nervous_system"
       ],
-      "internal_external": "external",
+      "form": "tincture",
+      "plant_part": "root",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Antike Anästhesie: Dioskurides beschrieb in 'De Materia Medica' (1. Jh. n. Chr.) die Verabreichung eines Cyathus (ca. 45 ml) eines Alraunwurzel-Sudes vor chirurgischen Eingriffen, um Bewusstlosigkeit und Schmerzunempfindlichkeit zu erzielen. Plinius (Naturalis Historia) erwähnt dieselbe narkotische Wirkung. Diese historische präoperative Anwendung ist heute durch moderne Anästhetika vollständig ersetzt.",
+        "en": "Ancient anaesthesia: Dioscorides in 'De Materia Medica' (1st century AD) described administering a cyathus (~45 ml) of mandrake root decoction before surgery to induce unconsciousness and analgesia. Pliny the Elder (Naturalis Historia) also documented the narcotic action. This historical pre-surgical use is today completely replaced by modern anaesthetics."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-mo-wiki-en",
+        "src-mo-wiki-mandrake",
+        "src-mo-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-mo-02",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "raw",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Mittelalterliche Verwendung gegen Melancholie, Krampfanfälle und Manie. In grossen Dosen löste die Alraunwurzel laut Überlieferung Delirium und 'Tollheit' aus. Wegen extremer Tropanalkaloid-Toxizität (Atropin, Scopolamin, Hyoscyamin) heute obsolet; ausschliesslich kultur- und pharmaziehistorisch interessant.",
+        "en": "Medieval use against melancholy, convulsions, and mania. In large doses the mandrake root was reported to induce delirium and 'madness'. Owing to extreme tropane alkaloid toxicity (atropine, scopolamine, hyoscyamine) it is obsolete today; of cultural and pharmacy-historical interest only."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "water"
+      },
+      "source_ids": [
+        "src-mo-wiki-en",
+        "src-mo-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-mo-03",
+      "target": [
+        "joints",
+        "skin"
+      ],
+      "form": "salve",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Äusserliche Anwendung: Geriebener Wurzelsaft oder Salben aus Alraune wurden in der Antike und im Mittelalter gegen rheumatische Schmerzen und chronische Hautulzera aufgetragen. PFAF dokumentiert diese topische Verwendung. Wegen perkutaner Tropanalkaloid-Resorption und Hautreizung heute nicht mehr praktiziert.",
+        "en": "External application: Grated mandrake root juice or salves were applied for rheumatic pain and chronic skin ulcers in antiquity and the Middle Ages. PFAF documents this topical use. No longer practised today due to transdermal tropane alkaloid absorption and skin irritation."
+      },
+      "preparation": {
+        "ratio": "1:5",
+        "solvent": "fat or beeswax base"
+      },
+      "source_ids": [
+        "src-mo-pfaf",
+        "src-mo-wiki-en"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-mo-04",
+      "target": [
+        "menstrual",
+        "nervous_system"
+      ],
+      "form": "raw",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Biblisch-folkloristische Fruchtbarkeitsdeutung: Genesis 30:14–16 schildert, wie Ruben Alraunen auf dem Feld findet und Lea sie von Rahel gegen eine Nacht mit Jakob eintauscht — die Pflanze galt als Mittel gegen Unfruchtbarkeit. Dioskurides erwähnte daneben eine abortifizierende Wirkung. Beide Anwendungen sind heute pharmakologisch nicht belegt und wegen extremer Toxizität strikt zu unterlassen.",
+        "en": "Biblical and folk fertility interpretation: Genesis 30:14–16 recounts how Reuben finds mandrakes in the field and Leah barters them with Rachel for a night with Jacob — the plant was regarded as a remedy for infertility. Dioscorides additionally noted an abortifacient effect. Neither application has any modern pharmacological evidence and both are strictly avoided due to extreme toxicity."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "wine (historical)"
+      },
+      "source_ids": [
+        "src-mo-wiki-mandrake",
+        "src-mo-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-mo-05",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Magisch-rituelle Verwendung: Geschnitzte gegabelte Wurzeln, im deutschen Sprachraum 'Alraun(männlein)' genannt, wurden als anthropomorphe Schutzfiguren gehalten. Theophrast schrieb vor, dreimal mit dem Schwert um die Wurzel zu kreisen; Flavius Josephus dokumentierte das Anbinden eines Hundes zum Ausreissen der Wurzel — der Volksglaube hielt den 'Schrei' der Wurzel für tödlich. Reine Kulturgeschichte, keine medizinische Anwendung.",
+        "en": "Magical-ritual use: Carved forked roots, called 'Alraun(männlein)' in the German-speaking world, were kept as anthropomorphic protective figurines. Theophrastus prescribed drawing three sword-circles around the root; Flavius Josephus documented tying a dog to it for extraction — folk belief held the root's 'scream' to be lethal. Pure cultural history, no medicinal application."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "n/a (ornamental)"
+      },
+      "source_ids": [
+        "src-mo-wiki-mandrake",
+        "src-mo-wiki-de",
+        "src-mo-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-mo-06",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Verwendung: Mandragora officinarum wird in der Homöopathie (D6–D30) bei Unruhe, Schlafstörungen und nervöser Erschöpfung eingesetzt. Hochverdünnte homöopathische Stufen enthalten keine pharmakologisch wirksamen Alkaloidmengen. Eigene Herstellung aus Pflanzenmaterial ist wegen Toxizität strikt verboten.",
+        "en": "Homoeopathic use: Mandragora officinarum is applied in homoeopathy (D6–D30) for restlessness, sleep disorders, and nervous exhaustion. Highly diluted homoeopathic preparations contain no pharmacologically active alkaloid amounts. Home preparation from plant material is strictly prohibited due to toxicity."
+      },
+      "preparation": {
+        "ratio": "1:100",
+        "solvent": "45% ethanol"
+      },
+      "source_ids": [
+        "src-mo-wiki-de",
+        "src-mo-wikidata"
+      ],
+      "internal_external": "internal"
     }
   ],
   "season": {
@@ -48,12 +169,106 @@
   },
   "safety": {
     "warnings": {
-      "de": "SEHR GIFTIG (Atropin, Scopolamin, Hyoscyamin) — mythische „Hexenwurzel\" und historisches Schmerz/Schlafmittel. Wurzel sieht oft menschenähnlich aus, daher zahlreiche Legenden. Heute nur als historische Heilpflanze von Bedeutung. NIEMALS Selbstanwendung.",
-      "en": "VERY TOXIC (atropine, scopolamine, hyoscyamine) — mythical 'witches' root' and historical pain/sleep remedy. The root often appears human-like, hence many legends. Today only of historical significance as medicinal plant. NEVER self-use."
+      "de": "SEHR GIFTIG — gesamte Pflanze, besonders Wurzel. Mandragora officinarum enthält die Tropanalkaloide Hyoscyamin, Scopolamin (Hyoscin) und das Racemat Atropin sowie Begleitalkaloide (Cuscohygrin, Apoatropin, Scopin). Wirkmechanismus: kompetitive Hemmung muskarinischer Acetylcholin-Rezeptoren — typisches anticholinerges (atropinartiges) Syndrom. Symptome: Mundtrockenheit, Mydriasis, Tachykardie, Hautrötung, Harnverhalt, Halluzinationen, Verwirrtheit, Krämpfe, Koma, Tod durch zentrale Atemlähmung. Bei Verdacht: sofort Giftnotruf (DE 030 19240 / 0761 19240). Keine Selbstmedikation, keine Eigenanwendung — nur botanisch-historisches Studium.",
+      "en": "VERY TOXIC — entire plant, especially the root. Mandragora officinarum contains the tropane alkaloids hyoscyamine, scopolamine (hyoscine), the racemate atropine, plus companion alkaloids (cuscohygrine, apoatropine, scopine). Mechanism: competitive antagonism at muscarinic acetylcholine receptors — classic anticholinergic (atropine-like) syndrome. Symptoms: dry mouth, mydriasis, tachycardia, flushed skin, urinary retention, hallucinations, confusion, seizures, coma, death by central respiratory paralysis. In case of suspicion: immediately contact poison control. No self-medication, no lay use — botanical and historical study only."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Tropanalkaloide (Atropin, Scopolamin, Hyoscyamin) passieren die Plazentaschranke und können fetale Tachykardie sowie zentralnervöse Schäden auslösen. Dioskurides erwähnte historisch eine abortifizierende Wirkung. Jede Anwendung in der Schwangerschaft ist absolut kontraindiziert.",
+        "en": "Tropane alkaloids (atropine, scopolamine, hyoscyamine) cross the placental barrier and can trigger fetal tachycardia and central nervous system damage. Dioscorides historically noted an abortifacient effect. Any use during pregnancy is absolutely contraindicated."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Atropin und Scopolamin treten in die Muttermilch über und können beim Säugling anticholinerge Effekte (Tachykardie, Mundtrockenheit, Fieber, Unruhe) verursachen. Stillzeit: strikt kontraindiziert.",
+        "en": "Atropine and scopolamine pass into breast milk and can cause anticholinergic effects in the infant (tachycardia, dry mouth, fever, restlessness). Breastfeeding: strictly contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder reagieren extrem empfindlich auf Tropanalkaloide; bereits kleine Mengen Wurzel können tödliche Vergiftungen verursachen. Die gegabelte, oft menschenähnliche Wurzelform und die orangefarbenen Beeren wirken anziehend. Kein Einsatz bei Kindern und Jugendlichen unter 18 Jahren.",
+        "en": "Children are extremely sensitive to tropane alkaloids; even small amounts of root can cause fatal poisoning. The forked, often human-shaped root and the orange berries are visually attractive. No use in children and adolescents under 18 years."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Engwinkelglaukom — Atropin verschlechtert den Augeninnendruck dramatisch",
+        "en": "Narrow-angle glaucoma — atropine dramatically worsens intraocular pressure"
+      },
+      {
+        "de": "Benigne Prostatahyperplasie mit Miktionsstörungen — anticholinerge Harnretention",
+        "en": "Benign prostatic hyperplasia with voiding disorders — anticholinergic urinary retention"
+      },
+      {
+        "de": "Tachyarrhythmien und Vorhofflimmern — Tropanalkaloide erhöhen die Herzfrequenz",
+        "en": "Tachyarrhythmias and atrial fibrillation — tropane alkaloids increase heart rate"
+      },
+      {
+        "de": "Mechanischer Ileus und Megakolon — Anticholinergika lähmen die Darmmotilität",
+        "en": "Mechanical ileus and megacolon — anticholinergics paralyse intestinal motility"
+      },
+      {
+        "de": "Myasthenia gravis — antagonisiert die neuromuskuläre Übertragung",
+        "en": "Myasthenia gravis — antagonises neuromuscular transmission"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche (siehe oben)",
+        "en": "Pregnancy, lactation, children and adolescents (see above)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Anticholinergika (Tiotropium, Ipratropium, Oxybutynin, Glycopyrrolat)",
+        "mechanism": {
+          "de": "Additive anticholinerge Wirkung: verstärkte Mundtrockenheit, Mydriasis, Harnretention, Tachykardie, bis hin zum zentral-anticholinergen Syndrom mit Delirium.",
+          "en": "Additive anticholinergic effect: enhanced dry mouth, mydriasis, urinary retention, tachycardia, up to central anticholinergic syndrome with delirium."
+        },
+        "severity": "avoid",
+        "source_id": "src-mo-wiki-en"
+      },
+      {
+        "drug_class": "Trizyklische Antidepressiva (Amitriptylin, Imipramin, Clomipramin)",
+        "mechanism": {
+          "de": "Trizyklika haben inhärente anticholinerge Aktivität; Kombination mit Mandragora-Alkaloiden potenziert anticholinerge Nebenwirkungen erheblich, einschliesslich kognitiver Beeinträchtigung.",
+          "en": "Tricyclics have inherent anticholinergic activity; combination with Mandragora alkaloids substantially potentiates anticholinergic side effects, including cognitive impairment."
+        },
+        "severity": "avoid",
+        "source_id": "src-mo-wiki-en"
+      },
+      {
+        "drug_class": "MAO-Hemmer (Phenelzin, Tranylcypromin, Selegilin, Moclobemid)",
+        "mechanism": {
+          "de": "MAO-Hemmer können die Wirkung und Toxizität von Tropanalkaloiden durch verminderten Katecholamin-Abbau verstärken; zentralnervöse Exzitation und hypertensive Krisen möglich.",
+          "en": "MAO inhibitors may potentiate the action and toxicity of tropane alkaloids through reduced catecholamine breakdown; central nervous system excitation and hypertensive crises possible."
+        },
+        "severity": "avoid",
+        "source_id": "src-mo-wiki-en"
+      },
+      {
+        "drug_class": "Antihistaminika der 1. Generation (Diphenhydramin, Promethazin, Doxylamin)",
+        "mechanism": {
+          "de": "Erste-Generation-H1-Antihistaminika besitzen anticholinerge Eigenschaften; additive Effekte bei Kombination mit Mandragora-Alkaloiden, besonders Sedierung und Mundtrockenheit.",
+          "en": "First-generation H1 antihistamines have anticholinergic properties; additive effects when combined with Mandragora alkaloids, especially sedation and dry mouth."
+        },
+        "severity": "caution",
+        "source_id": "src-mo-wiki-en"
+      },
+      {
+        "drug_class": "Cholinesterase-Hemmer (Donepezil, Rivastigmin, Galantamin, Pyridostigmin)",
+        "mechanism": {
+          "de": "Pharmakodynamischer Antagonismus: Cholinesterase-Hemmer erhöhen Acetylcholin, Tropanalkaloide blockieren muskarinische Rezeptoren — Wirkverlust beider Substanzen, klinisch unkontrollierbarer Effekt.",
+          "en": "Pharmacodynamic antagonism: cholinesterase inhibitors raise acetylcholine, tropane alkaloids block muscarinic receptors — loss of effect of both substances, clinically uncontrollable outcome."
+        },
+        "severity": "avoid",
+        "source_id": "src-mo-wiki-en"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -70,6 +285,70 @@
       "title": "Mandragora officinarum (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Mandragora_officinarum",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-mo-wiki-en",
+      "type": "wikipedia",
+      "title": "Mandragora officinarum — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Mandragora_officinarum",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-mo-wiki-de",
+      "type": "wikipedia",
+      "title": "Gemeine Alraune — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Gemeine_Alraune",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-mo-wiki-mandrake",
+      "type": "wikipedia",
+      "title": "Mandrake — Wikipedia (EN) [folklore, Genesis 30:14, Dioscorides, Theophrastus, Josephus]",
+      "url": "https://en.wikipedia.org/wiki/Mandrake",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-mo-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Mandragora officinarum",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Mandragora+officinarum",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-mo-wikidata",
+      "type": "wikidata",
+      "title": "Mandragora officinarum — Wikidata Q545550",
+      "url": "https://www.wikidata.org/wiki/Q545550",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-mo-wiki-hyoscyamine",
+      "type": "wikipedia",
+      "title": "Hyoscyamine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Hyoscyamine",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-mo-wiki-scopolamine",
+      "type": "wikipedia",
+      "title": "Scopolamine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Scopolamine",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-mo-wiki-atropine",
+      "type": "wikipedia",
+      "title": "Atropine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Atropine",
+      "accessed": "2026-05-26",
+      "language": "en"
     }
   ],
   "image": {
@@ -81,5 +360,121 @@
     "license": "CC BY-SA 2.0 de",
     "author": "Frente",
     "source_url": "https://commons.wikimedia.org/wiki/File:Alraune-Kreta.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Hyoscyamine",
+      "category": "alkaloid",
+      "percent_range": "0.2-0.4 %",
+      "note": {
+        "de": "Biologisch aktives l-Enantiomer; Hauptalkaloid frischer Alraunwurzeln; kompetitiver Antagonist an muskarinischen Acetylcholinrezeptoren (M1–M5); etwa doppelt so potent wie das Racemat Atropin; racemisiert bei Trocknung und Extraktion teilweise zu Atropin.",
+        "en": "Biologically active l-enantiomer; main alkaloid of fresh mandrake root; competitive antagonist at muscarinic acetylcholine receptors (M1–M5); approximately twice as potent as the racemate atropine; partially racemises to atropine during drying and extraction."
+      }
+    },
+    {
+      "name": "Scopolamine (Hyoscine)",
+      "category": "alkaloid",
+      "percent_range": "0.05-0.15 %",
+      "note": {
+        "de": "Epoxyd-Derivat des Tropans; stärker zentral sedierend als Atropin; antiemetisch wirksam; überwindet die Blut-Hirn-Schranke effizient; verantwortlich für Halluzinationen und Bewusstseinsstörungen bei Alraun-Intoxikation. Moderne Reisekrankheitspflaster nutzen Scopolamin.",
+        "en": "Epoxide derivative of tropane; more centrally sedating than atropine; antiemetic; efficiently crosses the blood-brain barrier; responsible for hallucinations and impaired consciousness in mandrake intoxication. Modern motion sickness patches use scopolamine."
+      }
+    },
+    {
+      "name": "Atropine (dl-Hyoscyamine)",
+      "category": "alkaloid",
+      "percent_range": "Spuren bis 0.1 %",
+      "note": {
+        "de": "Racemisches Gemisch aus l- und d-Hyoscyamin; entsteht teils während Trocknung und Aufbereitung aus l-Hyoscyamin; mydriatisch, antispasmodisch, antisekretorisch; klinisch genutzt als Antidot bei Organophosphat-Vergiftung.",
+        "en": "Racemic mixture of l- and d-hyoscyamine; partly formed during drying and processing from l-hyoscyamine; mydriatic, antispasmodic, antisecretory; clinically used as antidote for organophosphate poisoning."
+      }
+    },
+    {
+      "name": "Cuscohygrine",
+      "category": "alkaloid",
+      "percent_range": "< 0.05 %",
+      "note": {
+        "de": "Pyrrolidin-Alkaloid; Begleitsubstanz in Solanaceen-Wurzeln; pharmakologische Bedeutung gering; analytischer Marker zur Wurzel-Identifikation.",
+        "en": "Pyrrolidine alkaloid; companion substance in Solanaceae roots; minor pharmacological significance; analytical marker for root identification."
+      }
+    },
+    {
+      "name": "Apoatropine",
+      "category": "alkaloid",
+      "percent_range": "< 0.05 %",
+      "note": {
+        "de": "Dehydrierungsprodukt des Atropins; schwächere anticholinerge Aktivität; entsteht bei Erhitzung oder Lagerung des Rohmaterials.",
+        "en": "Dehydration product of atropine; weaker anticholinergic activity; formed during heating or storage of raw material."
+      }
+    },
+    {
+      "name": "Scopine",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Abbauprodukt des Scopolamins; kaum pharmakologisch aktiv; identifiziert in Wurzelextrakten.",
+        "en": "Degradation product of scopolamine; barely pharmacologically active; identified in root extracts."
+      }
+    },
+    {
+      "name": "Withanolides (Mandragorosides)",
+      "category": "other",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Steroidale Lactone; in Mandragora-Wurzeln und -Blättern beschrieben (Erstbeschreibung Gattung Mandragora); chemotaxonomisch interessante Nebensubstanzen; geringe pharmakologische Bewertung im Vergleich zu Tropanalkaloiden.",
+        "en": "Steroidal lactones; described in Mandragora roots and leaves (first report for the genus Mandragora); chemotaxonomically interesting companion compounds; minor pharmacological role compared to tropane alkaloids."
+      }
+    },
+    {
+      "name": "Sitosterol & Scopoletin",
+      "category": "other",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Nicht-alkaloidische Begleitsubstanzen: Sitosterol (Phytosterol) und Scopoletin (Cumarin-Derivat); in Wurzel und Blatt nachgewiesen; pharmakologisch ohne klinische Relevanz im Alraun-Kontext.",
+        "en": "Non-alkaloid companion substances: sitosterol (phytosterol) and scopoletin (coumarin derivative); detected in root and leaf; pharmacologically without clinical relevance in the mandrake context."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Spätsommer bis Herbst nach Welken der oberirdischen Blätter — höchster Alkaloidgehalt in der Wurzel. Theophrast und Josephus überlieferten elaborate Schutzrituale (Schwertkreise, Hund), die heute als reine Folklore gelten.",
+        "en": "Late summer to autumn after wilting of the aerial leaves — highest alkaloid content in the root. Theophrastus and Josephus transmitted elaborate protective rituals (sword circles, dog), regarded today as pure folklore."
+      },
+      "drying": {
+        "de": "ACHTUNG: nur für historisch-dokumentarische oder botanische Zwecke. Wurzeln waschen, in Scheiben schneiden, schnell bei 40–50 °C im Schatten trocknen — Feuchtigkeit fördert Racemisierung (l-Hyoscyamin → Atropin) und mikrobiellen Abbau. Trockenzeit max. 4–6 Stunden. SCHUTZHANDSCHUHE PFLICHT — perkutane Alkaloidaufnahme möglich.",
+        "en": "CAUTION: for historical-documentary or botanical purposes only. Wash roots, slice, dry quickly at 40–50 °C in shade — moisture promotes racemisation (l-hyoscyamine → atropine) and microbial breakdown. Drying time max. 4–6 hours. PROTECTIVE GLOVES MANDATORY — transdermal alkaloid absorption possible."
+      },
+      "notes": {
+        "de": "Getrocknetes Material als GIFTIG beschriften, getrennt von Lebensmitteln, kindersicher lagern. Ernte ausserhalb des Mittelmeerraums weitgehend hobbyistisch — wildwachsend selten, geschützt in mehreren Ländern.",
+        "en": "Label dried material as TOXIC, store separately from food, childproof. Wild harvest outside the Mediterranean is largely hobbyist — rare in the wild, protected in several countries."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Frühsommer, wenn die kugeligen, gelb-orangen Früchte reif sind. Genesis 30:14 spielt zur Weizenernte (Mai/Juni) — botanisch konsistent mit der Reifezeit im Mittelmeerraum.",
+        "en": "Early summer, when the globular yellow-orange fruits are ripe. Genesis 30:14 is set at the wheat harvest (May/June) — botanically consistent with fruit ripening in the Mediterranean."
+      },
+      "drying": {
+        "de": "Früchte enthalten weniger Tropanalkaloide als die Wurzel, sind aber dennoch giftig. Trocknung im Schatten bei 30–40 °C; getrocknete Früchte schimmeln leicht. Keine medizinische Anwendung — botanisch-dokumentarisch.",
+        "en": "Fruits contain lower tropane alkaloid levels than the root but remain toxic. Drying in shade at 30–40 °C; dried fruits mould easily. No medicinal use — botanical and documentary purposes only."
+      },
+      "notes": {
+        "de": "Vorsicht in Haushalten mit Kindern und Haustieren — die orangefarbenen Früchte wirken durch Farbe und süsslichen Geruch attraktiv. Kein Verzehr.",
+        "en": "Caution in households with children and pets — the orange fruits are attractive due to colour and sweet smell. No ingestion."
+      }
+    }
+  ]
 }

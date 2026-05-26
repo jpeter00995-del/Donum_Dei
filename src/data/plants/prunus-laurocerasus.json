@@ -20,19 +20,144 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-pl-01",
       "target": [
-        "caution"
+        "respiratory",
+        "nervous_system"
       ],
-      "internal_external": "external",
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Historische pharmazeutische Verwendung von Aqua Laurocerasi (Kirschlorbeerwasser) als sedatives und antispasmodisches Mittel bei trockenem Reizhusten, Keuchhusten, Asthma und Magenkrämpfen. Die Destillation der frischen Blätter setzt durch β-Glucosidase Blausäure (HCN) frei, die in Konzentrationen von etwa 0,1 % im Destillat enthalten war. Im 19. Jahrhundert in der Britischen und Französischen Pharmakopöe gelistet, wegen unkalkulierbarer HCN-Konzentration und zahlreicher Todesfälle in der ersten Hälfte des 20. Jahrhunderts obsolet geworden.",
+        "en": "Historical pharmaceutical use of Aqua Laurocerasi (cherry laurel water) as sedative and antispasmodic remedy for dry irritating cough, whooping cough, asthma and stomach cramps. Distillation of fresh leaves releases hydrocyanic acid (HCN) via β-glucosidase, with concentrations of approximately 0.1 % in the distillate. Listed in the British and French Pharmacopoeias in the 19th century, became obsolete in the first half of the 20th century due to unpredictable HCN concentrations and numerous fatalities."
+      },
+      "preparation": {
+        "ratio": "1:2",
+        "solvent": "Wasserdampfdestillat / steam distillate"
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-pl-grieve",
+        "src-pl-wiki-cherrylaurelwater"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-pl-02",
+      "target": [
+        "respiratory"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Verwendung von Tinctura Laurocerasi (Kirschlorbeer-Tinktur) im 18. und 19. Jahrhundert als Antitussivum und mildes Beruhigungsmittel — meist in Dosen von 5–10 Tropfen, niemals höher. Die Wirkung beruht auf der HCN-induzierten Hemmung der Atemzentren. Heute strikt obsolet: kein therapeutisches Fenster, da der HCN-Gehalt frischer Blätter stark schwankt (Saison, Lichtexposition, Alter der Pflanze) und sich zwischen Chargen um Faktor 10 unterscheiden kann.",
+        "en": "Use of Tinctura Laurocerasi (cherry laurel tincture) in the 18th and 19th centuries as antitussive and mild sedative — usually in doses of 5–10 drops, never higher. The effect rests on HCN-induced inhibition of respiratory centres. Strictly obsolete today: no therapeutic window since HCN content of fresh leaves varies strongly (season, light exposure, plant age) and can differ between batches by a factor of 10."
+      },
+      "preparation": {
+        "ratio": "1:5",
+        "solvent": "45% ethanol"
+      },
+      "source_ids": [
+        "src-pl-grieve",
+        "src-pl-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-pl-03",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "form": "compress",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Verwendung kühler Auflagen aus zerquetschten frischen Blättern bei Hautausschlägen, Insektenstichen und kleineren Entzündungen. Die antiseptische Wirkung wurde dem freigesetzten HCN zugeschrieben — heute wegen perkutaner Resorptionsgefahr und unkalkulierbarer Dosis obsolet. Reine ethnografische Dokumentation, keine Anwendungsempfehlung.",
+        "en": "Folk-medicinal use of cool poultices of crushed fresh leaves for skin rashes, insect bites and minor inflammations. The antiseptic effect was attributed to released HCN — obsolete today due to percutaneous absorption risk and unpredictable dose. Pure ethnographic documentation, no application recommendation."
+      },
+      "source_ids": [
+        "src-pl-pfaf",
+        "src-pl-grieve"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-pl-04",
+      "target": [
+        "skin"
+      ],
+      "form": "bath",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Im 19. Jahrhundert vereinzelt dokumentierte Anwendung schwacher Kirschlorbeer-Blatt-Aufgüsse als Augenbad bei Bindehautreizung. Die Anwendung wurde bereits im viktorianischen England als riskant eingestuft und ist heute strikt kontraindiziert — Augenkontakt mit HCN-haltigen Lösungen führt zu Hornhautschäden und systemischer Resorption über Schleimhäute. Reine historische Dokumentation.",
+        "en": "Sporadically documented use in the 19th century of weak cherry laurel leaf infusions as an eye bath for conjunctival irritation. The application was already classified as risky in Victorian England and is strictly contraindicated today — eye contact with HCN-containing solutions causes corneal damage and systemic absorption via mucous membranes. Pure historical documentation."
+      },
+      "source_ids": [
+        "src-pl-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-pl-05",
+      "target": [
+        "digestion"
+      ],
+      "form": "essential_oil",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Lebensmittelhistorische Verwendung weniger Tropfen Kirschlorbeerwasser als Bittermandelaroma-Ersatz in Likören, Pudding und Konfitüren (insbesondere in Süd- und Osteuropa, 19./frühes 20. Jahrhundert). Wegen Vergiftungsfällen ist die Verwendung zur Lebensmittelaromatisierung in der EU heute durch die Aromenverordnung (EG) Nr. 1334/2008 streng limitiert (max. 1 mg HCN/kg in Lebensmitteln). Verwendung in häuslicher Küche absolut nicht empfohlen.",
+        "en": "Food-historical use of a few drops of cherry laurel water as bitter almond flavour substitute in liqueurs, puddings and preserves (especially in Southern and Eastern Europe, 19th/early 20th century). Due to poisoning cases, use as a food flavouring is now strictly limited in the EU by Flavouring Regulation (EC) No 1334/2008 (max. 1 mg HCN/kg in foods). Domestic culinary use absolutely not recommended."
+      },
+      "source_ids": [
+        "src-pl-pfaf",
+        "src-pl-wiki-cherrylaurelwater"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-pl-06",
+      "target": [
+        "respiratory",
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Verwendung von Laurocerasus (Mutter-Tinktur aus frischen Blättern, ab D3) bei Atemnot, krampfartigem Husten, Herzklopfen mit Zyanose und nächtlichen Beklemmungen. Üblicherweise in Potenzen ab D6 — diese enthalten keine pharmakologisch wirksamen HCN-Mengen mehr. Homöopathische Fertigpräparate sind in Deutschland, Frankreich und der Schweiz arzneimittelrechtlich zugelassen.",
+        "en": "Homeopathic use of Laurocerasus (mother tincture from fresh leaves, from D3) for shortness of breath, spasmodic cough, palpitations with cyanosis and nocturnal anxiety. Usually in potencies from D6 — these no longer contain pharmacologically active HCN amounts. Homeopathic finished products are licensed in Germany, France and Switzerland under medicinal-products law."
+      },
+      "preparation": {
+        "ratio": "1:100",
+        "solvent": "ethanol/water"
+      },
+      "source_ids": [
+        "src-pl-wikidata",
+        "src-pl-grieve"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-pl-07",
+      "target": [
+        "wounds"
+      ],
+      "form": "raw",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische Verwendung getrockneter Blätter zur Insektenbekämpfung in Sammelbehältern (Schmetterlingskästen, Käfersammlungen) — die freigesetzte Blausäure tötet Insekten innerhalb von Minuten ('killing jar' der entomologischen Praxis). Diese Verwendung ist nicht medizinisch, dokumentiert aber die HCN-Freisetzung in Form einer praktischen Anwendung. Reine Dokumentation, gefährliche Praxis.",
+        "en": "Historical use of dried leaves for insect killing in collection containers (butterfly boxes, beetle collections) — released cyanide kills insects within minutes ('killing jar' of entomological practice). This use is not medicinal but documents HCN release in a practical application. Pure documentation, hazardous practice."
+      },
+      "source_ids": [
+        "src-pl-wiki-en",
+        "src-pl-pfaf"
+      ],
+      "internal_external": "external"
     }
   ],
   "season": {
@@ -48,12 +173,106 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG (cyanogene Glykoside, Blausäure) — Blätter und Samen. Eine der häufigsten Heckenpflanzen Mitteleuropas. Das Fruchtfleisch der schwarzen Beeren ist relativ harmlos, aber die Samen darin enthalten Blausäure. Beim Häckseln der Hecke entstehen giftige Blausäure-Dämpfe — daher NICHT in den Kompost, nur frisch häckseln im Freien.",
-      "en": "TOXIC (cyanogenic glycosides, hydrocyanic acid) — leaves and seeds. One of the most common hedge plants in Central Europe. The flesh of the black berries is relatively harmless, but the seeds within contain cyanide. Shredding the hedge releases toxic cyanide fumes — therefore do NOT compost, only shred fresh outdoors."
+      "de": "GIFTIG — BLÄTTER, SAMEN, BLÜTEN UND RINDE. Prunus laurocerasus (Kirschlorbeer, Lorbeerkirsche) zählt zu den häufigsten Heckenpflanzen Mitteleuropas und ist eine der häufigsten Vergiftungsquellen bei Kindern und Haustieren. Alle Pflanzenteile außer dem reifen Fruchtfleisch enthalten cyanogene Glykoside (Prunasin in Blättern, Amygdalin in Samen), die nach Verletzung durch das pflanzeneigene Enzym β-Glucosidase Blausäure (HCN) freisetzen. Die Samen (Steinkerne) der schwarzen Steinfrüchte enthalten besonders hohe Glykosidkonzentrationen; bereits 5–10 zerkaute Samen können schwere Vergiftungserscheinungen verursachen. HCN hemmt die Cytochrom-c-Oxidase der Atmungskette und blockiert die zelluläre Sauerstoffverwertung. Symptome treten innerhalb von Minuten bis Stunden auf: bittere Mandel-/Marzipan-Atemgeruch, Übelkeit, Erbrechen, Kopfschmerzen, Tachypnoe, Krämpfe, Bewusstlosigkeit, Atemstillstand. Beim Häckseln der Hecke entstehen HCN-Dämpfe — nur im Freien, NICHT in geschlossenen Räumen häckseln und Häckselgut nicht kompostieren. Bei Vergiftungsverdacht: SOFORT Notruf 112 und Giftnotruf. Antidote: Hydroxocobalamin (Cyanokit®) und/oder 4-Dimethylaminophenol als Erstlinien-Therapie.",
+      "en": "TOXIC — LEAVES, SEEDS, FLOWERS AND BARK. Prunus laurocerasus (cherry laurel, common laurel) is one of the most common hedge plants in Central Europe and a frequent source of poisoning in children and pets. All plant parts except ripe fruit pulp contain cyanogenic glycosides (prunasin in leaves, amygdalin in kernels) which, upon tissue damage, are converted by the plant's own enzyme β-glucosidase to hydrocyanic acid (HCN). The kernels (stones) of the black drupes contain particularly high glycoside concentrations; as few as 5–10 chewed kernels can cause severe poisoning symptoms. HCN inhibits cytochrome-c oxidase of the respiratory chain and blocks cellular oxygen utilisation. Symptoms appear within minutes to hours: bitter almond/marzipan breath odour, nausea, vomiting, headache, tachypnoea, seizures, unconsciousness, respiratory arrest. Shredding the hedge releases HCN vapours — shred only outdoors, NOT in enclosed spaces, and do not compost shredded material. In case of suspected poisoning: IMMEDIATELY call emergency services and poison control. Antidotes: hydroxocobalamin (Cyanokit®) and/or 4-dimethylaminophenol as first-line therapy."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Cyanid passiert die Plazentaschranke; auch geringe HCN-Mengen können fetale Hypoxie verursachen. Jede Anwendung von Kirschlorbeer-Zubereitungen unterhalb der homöopathischen D6-Potenz ist in der Schwangerschaft absolut kontraindiziert.",
+        "en": "Cyanide crosses the placental barrier; even small HCN amounts can cause fetal hypoxia. Any use of cherry laurel preparations below homeopathic D6 potency is absolutely contraindicated in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Cyanid und seine Metaboliten (Thiocyanat) treten in die Muttermilch über und können beim Säugling Schilddrüsenfunktionsstörungen sowie Atemdepression auslösen. Stillzeit: kontraindiziert.",
+        "en": "Cyanide and its metabolites (thiocyanate) pass into breast milk and can cause thyroid dysfunction and respiratory depression in the infant. Breastfeeding: contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder reagieren wegen geringerer Körpermasse extrem empfindlich auf HCN. Die attraktiven schwarzen Beeren der häufig in Gärten verwendeten Heckenpflanze sind eine der Hauptursachen pflanzlicher Vergiftungen in der Pädiatrie. Aufklärung über Pflanzenidentität und Verzehr-Verbot zwingend. Bei vermutetem Verzehr von Kernen oder Blättern sofortige ärztliche Konsultation.",
+        "en": "Children are extremely sensitive to HCN due to lower body mass. The attractive black berries of this widely used garden hedge are a leading cause of plant poisoning in paediatrics. Education on plant identity and prohibition of consumption mandatory. In case of suspected ingestion of kernels or leaves, immediate medical consultation."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Jede Selbstanwendung als Pflanzenprodukt aus frischen Blättern oder Kernen (Tee, Tinktur, Aufguss, Saft) — absolut kontraindiziert wegen schwankendem HCN-Gehalt",
+        "en": "Any self-administration as plant product from fresh leaves or kernels (tea, tincture, infusion, juice) — absolutely contraindicated due to fluctuating HCN content"
+      },
+      {
+        "de": "Chronische Atemwegserkrankungen (COPD, schweres Asthma) — eingeschränkte Cyanid-Toleranz wegen reduzierter pulmonaler Reserve",
+        "en": "Chronic respiratory diseases (COPD, severe asthma) — reduced cyanide tolerance due to limited pulmonary reserve"
+      },
+      {
+        "de": "Bekannte Leber- oder Niereninsuffizienz — verzögerter Cyanid-Abbau über Rhodanase-System",
+        "en": "Known hepatic or renal insufficiency — delayed cyanide detoxification via the rhodanese system"
+      },
+      {
+        "de": "Anämie und Hämoglobinopathien (z. B. Sichelzellanämie) — reduzierte Sauerstofftransportkapazität verstärkt zelluläre Hypoxie",
+        "en": "Anaemia and haemoglobinopathies (e.g. sickle cell anaemia) — reduced oxygen transport capacity exacerbates cellular hypoxia"
+      },
+      {
+        "de": "Schilddrüsenunterfunktion — Thiocyanat als HCN-Metabolit verstärkt Hypothyreose",
+        "en": "Hypothyroidism — thiocyanate as HCN metabolite aggravates hypothyroidism"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche (siehe oben)",
+        "en": "Pregnancy, lactation, children and adolescents (see above)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Atemdepressiva (Opioide wie Morphin, Codein, Fentanyl)",
+        "mechanism": {
+          "de": "Cyanid aus Prunus laurocerasus-Zubereitungen hemmt die Cytochrom-c-Oxidase und blockiert die zelluläre Atmung; Opioide deprimieren zusätzlich die zentrale Atemregulation. Kombination führt zu rasch progredienter Hypoxie mit Bewusstlosigkeit und Atemstillstand.",
+          "en": "Cyanide from Prunus laurocerasus preparations inhibits cytochrome-c oxidase and blocks cellular respiration; opioids additionally depress central respiratory regulation. Combination leads to rapidly progressive hypoxia with unconsciousness and respiratory arrest."
+        },
+        "severity": "avoid",
+        "source_id": "src-pl-grieve"
+      },
+      {
+        "drug_class": "Benzodiazepine und Z-Substanzen (Diazepam, Lorazepam, Zolpidem)",
+        "mechanism": {
+          "de": "Sedative Atemdepression durch Benzodiazepine summiert sich mit der HCN-bedingten zellulären Atmungshemmung; erhöhte Gefahr nicht erkannter beginnender Cyanid-Vergiftung wegen Sedierung der Frühsymptome (Kopfschmerz, Unruhe).",
+          "en": "Sedative respiratory depression from benzodiazepines summates with HCN-induced cellular respiration inhibition; increased risk of unrecognised incipient cyanide poisoning due to sedation of early symptoms (headache, restlessness)."
+        },
+        "severity": "avoid",
+        "source_id": "src-pl-grieve"
+      },
+      {
+        "drug_class": "Nitrate (Nitroglycerin, Isosorbiddinitrat)",
+        "mechanism": {
+          "de": "Nitrate werden therapeutisch zur Methämoglobinbildung als Cyanid-Antidot eingesetzt — unkontrollierte Komedikation mit cyanogenen Pflanzenpräparaten kann jedoch zu paradoxer Verschlechterung führen, wenn die Methämoglobinämie ohne medizinische Überwachung den Sauerstofftransport zusätzlich kompromittiert.",
+          "en": "Nitrates are therapeutically used to induce methaemoglobin formation as a cyanide antidote — uncontrolled co-medication with cyanogenic plant preparations can, however, lead to paradoxical worsening if methaemoglobinaemia further compromises oxygen transport without medical supervision."
+        },
+        "severity": "caution",
+        "source_id": "src-pl-wiki-cherrylaurelwater"
+      },
+      {
+        "drug_class": "MAO-Hemmer (Phenelzin, Tranylcypromin)",
+        "mechanism": {
+          "de": "MAO-Hemmer beeinflussen den Aminstoffwechsel; gleichzeitige Cyanid-Belastung kann durch verzögerten Rhodanase-vermittelten Abbau zu Akkumulation führen. Klinische Evidenz beschränkt, aber Kombination prinzipiell zu vermeiden.",
+          "en": "MAO inhibitors influence amine metabolism; concurrent cyanide exposure can lead to accumulation through delayed rhodanese-mediated detoxification. Clinical evidence limited, but combination should be avoided in principle."
+        },
+        "severity": "caution",
+        "source_id": "src-pl-pfaf"
+      },
+      {
+        "drug_class": "Thyreostatika (Carbimazol, Thiamazol/Methimazol)",
+        "mechanism": {
+          "de": "HCN wird im Körper teilweise zu Thiocyanat metabolisiert, einem natürlichen Inhibitor der Schilddrüsenfunktion; gleichzeitige Thyreostatika-Therapie kann zu Hypothyreose verstärkt werden — insbesondere bei chronischer subletaler Exposition (z. B. häufiger Verzehr cyanogener Lebensmittel).",
+          "en": "HCN is partly metabolised to thiocyanate, a natural inhibitor of thyroid function; concurrent thyreostatic therapy can be aggravated to hypothyroidism — particularly with chronic sublethal exposure (e.g. frequent consumption of cyanogenic foods)."
+        },
+        "severity": "monitor",
+        "source_id": "src-pl-pfaf"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -70,6 +289,70 @@
       "title": "Prunus laurocerasus (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Prunus_laurocerasus",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-pl-wiki-en",
+      "type": "wikipedia",
+      "title": "Prunus laurocerasus — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Prunus_laurocerasus",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-pl-wiki-de",
+      "type": "wikipedia",
+      "title": "Lorbeerkirsche — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Lorbeerkirsche",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-pl-wiki-cherrylaurelwater",
+      "type": "wikipedia",
+      "title": "Cherry laurel water — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Cherry_laurel_water",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-pl-wiki-prunasin",
+      "type": "wikipedia",
+      "title": "Prunasin — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Prunasin",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-pl-pfaf",
+      "type": "book",
+      "title": "Plants For A Future — Prunus laurocerasus",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Prunus+laurocerasus",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-pl-grieve",
+      "type": "book",
+      "title": "Maud Grieve: A Modern Herbal — Cherry Laurel (botanical.com, 1931)",
+      "url": "https://botanical.com/botanical/mgmh/c/chelau54.html",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-pl-wikidata",
+      "type": "wikidata",
+      "title": "Prunus laurocerasus — Wikidata Q157508",
+      "url": "https://www.wikidata.org/wiki/Q157508",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-pl-commons",
+      "type": "commons",
+      "title": "Prunus laurocerasus — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Prunus_laurocerasus",
+      "accessed": "2026-05-26",
+      "language": "en"
     }
   ],
   "image": {
@@ -81,5 +364,121 @@
     "license": "Public domain",
     "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
     "source_url": "https://commons.wikimedia.org/wiki/File:Koeh-Prunus_laurocerasus.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Prunasin",
+      "category": "glycoside",
+      "percent_range": "0.5-1.5 % (Blätter / leaves)",
+      "note": {
+        "de": "Cyanogenes Glykosid; (R)-Mandelonitril-β-D-Glucosid (C14H17NO6); Hauptglykosid der Kirschlorbeerblätter; wird durch β-Glucosidase enzymatisch in Glucose, Benzaldehyd und Blausäure gespalten. Verantwortlich für den bittermandelartigen Geruch zerquetschter Blätter.",
+        "en": "Cyanogenic glycoside; (R)-mandelonitrile β-D-glucoside (C14H17NO6); main glycoside of cherry laurel leaves; enzymatically cleaved by β-glucosidase into glucose, benzaldehyde and hydrocyanic acid. Responsible for the bitter-almond odour of crushed leaves."
+      }
+    },
+    {
+      "name": "Amygdalin",
+      "category": "glycoside",
+      "percent_range": "1-5 % (Samenkerne / kernels)",
+      "note": {
+        "de": "Cyanogenes Disaccharid-Glykosid; biosynthetisches Folgeprodukt des Prunasins durch UDP-Glucosyltransferase. Hauptglykosid der Steinkerne (Samen). Wird sequenziell durch Amygdalin-β-Glucosidase zunächst zu Prunasin, dann durch Prunasin-β-Glucosidase zu Mandelonitril und schließlich durch Mandelonitril-Lyase zu Benzaldehyd und HCN gespalten.",
+        "en": "Cyanogenic disaccharide glycoside; biosynthetic follow-up product of prunasin via UDP-glucosyltransferase. Main glycoside of the kernels (seeds). Sequentially cleaved by amygdalin β-glucosidase first to prunasin, then by prunasin β-glucosidase to mandelonitrile, and finally by mandelonitrile lyase to benzaldehyde and HCN."
+      }
+    },
+    {
+      "name": "β-Glucosidase (Prunase, Amygdalase)",
+      "category": "other",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Pflanzeneigenes Enzymkomplex, räumlich von den cyanogenen Glykosiden getrennt gelagert; wird bei Gewebeverletzung freigesetzt und katalysiert die HCN-Freisetzung. Dieses Zwei-Kompartimente-System ist die biochemische Grundlage der pflanzlichen Fraßabwehr.",
+        "en": "Plant's own enzyme complex, spatially separated from the cyanogenic glycosides; released upon tissue damage and catalyses HCN release. This two-compartment system is the biochemical basis of the plant's herbivore defence."
+      }
+    },
+    {
+      "name": "Hydrogen cyanide (HCN, Blausäure)",
+      "category": "other",
+      "percent_range": "0.1-0.2 % (frische Blätter, freisetzbar / fresh leaves, releasable)",
+      "note": {
+        "de": "Sekundärer Toxin, durch enzymatische Hydrolyse aus Prunasin/Amygdalin freigesetzt. Hemmt die Cytochrom-c-Oxidase der Atmungskette (Komplex IV); blockiert die zelluläre Sauerstoffverwertung. Letale Dosis Mensch: 0.5–3.5 mg HCN/kg Körpergewicht oral, etwa 50 mg insgesamt.",
+        "en": "Secondary toxin, released by enzymatic hydrolysis from prunasin/amygdalin. Inhibits cytochrome-c oxidase of the respiratory chain (complex IV); blocks cellular oxygen utilisation. Lethal human dose: 0.5–3.5 mg HCN/kg body weight orally, approximately 50 mg total."
+      }
+    },
+    {
+      "name": "Benzaldehyd",
+      "category": "essential_oil",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Aromatischer Aldehyd, entsteht zusammen mit HCN bei der enzymatischen Spaltung von Prunasin und Amygdalin. Verantwortlich für den charakteristischen Bittermandel-/Marzipan-Geruch zerquetschter Blätter — diagnostisches Erkennungsmerkmal bei Vergiftungsverdacht.",
+        "en": "Aromatic aldehyde, formed together with HCN during enzymatic cleavage of prunasin and amygdalin. Responsible for the characteristic bitter-almond/marzipan odour of crushed leaves — diagnostic recognition feature in suspected poisoning."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Catechin-Gerbstoffe)",
+      "category": "tannin",
+      "percent_range": "1-3 %",
+      "note": {
+        "de": "Kondensierte Catechin-Gerbstoffe in Blättern und Rinde; adstringierende Wirkung; beitragend zur biologischen Aktivität der Pflanze, jedoch nicht für die Toxizität relevant.",
+        "en": "Condensed catechin tannins in leaves and bark; astringent effect; contributing to the plant's biological activity but not relevant to toxicity."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin- und Kaempferol-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "0.2-0.8 %",
+      "note": {
+        "de": "Sekundäre Pflanzenstoffe mit antioxidativen Eigenschaften; in Blättern und reifen Früchten nachgewiesen; physiologisch unbedeutend gegenüber der HCN-Toxizität.",
+        "en": "Secondary plant substances with antioxidant properties; detected in leaves and ripe fruits; physiologically insignificant compared to HCN toxicity."
+      }
+    },
+    {
+      "name": "Anthocyane (im reifen Fruchtfleisch)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Verantwortlich für die schwarzviolette Farbe der reifen Steinfrüchte; das reife Fruchtfleisch selbst ist relativ glykosidarm und süßlich, der Steinkern darin jedoch hochtoxisch.",
+        "en": "Responsible for the black-violet colour of ripe drupes; the ripe fruit pulp itself is relatively glycoside-poor and sweetish, but the stone within is highly toxic."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Frische, voll entwickelte Blätter aus dem Frühsommer bis Hochsommer; ausschließlich für homöopathische oder lehr-/demonstrationsbezogene Zwecke. Wegen der Flüchtigkeit von Blausäure und der raschen enzymatischen Aktivität müssen Blätter direkt nach dem Schnitt verarbeitet werden — Trocknung zerstört die Wirkkomponente weitgehend.",
+        "en": "Fresh, fully developed leaves from early to mid-summer; exclusively for homeopathic or teaching/demonstration purposes. Due to the volatility of hydrocyanic acid and rapid enzymatic activity, leaves must be processed directly after cutting — drying largely destroys the active component."
+      },
+      "drying": {
+        "de": "Schonende Lufttrocknung möglich, jedoch reduziert sich der HCN-Gehalt um >90 %. Frischverarbeitung in homöopathischen oder pharmazeutischen Betrieben ist üblich.",
+        "en": "Gentle air drying possible, however HCN content is reduced by >90 %. Fresh processing in homeopathic or pharmaceutical facilities is customary."
+      },
+      "notes": {
+        "de": "Schutzhandschuhe und Augenschutz Pflicht. Niemals in geschlossenen Räumen schneiden oder häckseln — HCN-Dämpfe sammeln sich. Frisches Schnittgut nicht im Auto transportieren. Kein Kompostieren — Cyanogene zersetzen sich langsam und können das Bodenmikrobiom kurzfristig stören.",
+        "en": "Protective gloves and eye protection mandatory. Never cut or shred in enclosed spaces — HCN vapours accumulate. Do not transport fresh cuttings in a car. No composting — cyanogens decompose slowly and can temporarily disturb the soil microbiome."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Steinkerne aus den reifen, schwarz-violetten Steinfrüchten im Spätsommer und Frühherbst; ausschließlich für phytochemische oder forensische Analytik bzw. Saatgutgewinnung für Baumschulen. Keine Verwendung als Lebens- oder Heilmittel.",
+        "en": "Stones from ripe, black-violet drupes in late summer and early autumn; exclusively for phytochemical or forensic analysis or seed production for tree nurseries. No use as food or remedy."
+      },
+      "drying": {
+        "de": "Trocknung der ausgespülten Kerne bei Raumtemperatur unter Belüftung; Amygdalin bleibt im trockenen Samen über Jahre stabil. Aufbewahrung als Giftstoff zu kennzeichnen.",
+        "en": "Drying of rinsed kernels at room temperature with ventilation; amygdalin remains stable in dry seeds for years. Storage to be labelled as toxic substance."
+      },
+      "notes": {
+        "de": "WARNUNG: Kerne sind besonders glykosidreich. Kein Aufknacken in geschlossenen Räumen — bei Wasserkontakt entweicht HCN. Niemals zur Lebensmittelaromatisierung verwenden.",
+        "en": "WARNING: Kernels are particularly rich in glycosides. Do not crack open in enclosed spaces — HCN escapes upon water contact. Never use for food flavouring."
+      }
+    }
+  ]
 }

@@ -20,19 +20,139 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-ds-01",
       "target": [
-        "caution"
+        "respiratory",
+        "nervous_system"
       ],
-      "internal_external": "external",
+      "form": "inhalation",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Historische Anwendung von Stechapfel-Blättern als Asthma-Zigaretten („Stramonium-Zigaretten\") im 19. und frühen 20. Jahrhundert. Nach dem Bericht des britischen Arztes James Anderson (1802) aus Indien wurde die Inhalation von brennenden Stramonium-Präparaten in die britische und amerikanische Pharmakopöe aufgenommen. Anticholinerge Bronchodilatation durch Atropin/Scopolamin als Wirkprinzip. Seit der Anerkennung von Asthma als allergische Entzündung und der Einführung von Ephedrin obsolet — heute wegen Toxizität und Halluzinogenität streng abgelehnt.",
+        "en": "Historical use of jimsonweed leaves as asthma cigarettes ('stramonium cigarettes') in the 19th and early 20th centuries. Following the report by British physician James Anderson (1802) from India, inhalation of burning stramonium preparations was added to the British and American pharmacopoeias. Anticholinergic bronchodilation by atropine/scopolamine as the mechanism. Since recognition of asthma as allergic inflammation and the introduction of ephedrine, obsolete — today strictly rejected due to toxicity and hallucinogenic effects."
+      },
+      "preparation": {
+        "de": "Getrocknete Blätter wurden als Zigaretten oder Pulver auf Glut verbrannt und der Rauch inhaliert; Industriepräparate wie Grimaults „Cigarettes Indiennes\" (1850er–1930er Jahre) enthielten Stramonium, Cannabis und andere Zusätze. Keine Selbstanwendung — Vergiftungsgefahr.",
+        "en": "Dried leaves were burned as cigarettes or powder on embers and the smoke inhaled; commercial preparations such as Grimault's 'Cigarettes Indiennes' (1850s–1930s) contained stramonium, cannabis and other additives. No self-application — risk of poisoning."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-ds-wiki-en",
+        "src-ds-pfaf",
+        "src-ds-soni-2012"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ds-02",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Historische pharmazeutische Verwendung von Stramonium-Extrakten in der frühen Parkinson-Therapie. Die anticholinerge Wirkung der Tropanalkaloide (Atropin, Scopolamin, Hyoscyamin) wurde zur Linderung von Tremor und Muskelrigidität eingesetzt — vor Einführung von L-Dopa Standard. Heute durch synthetische Anticholinergika (Biperiden, Trihexyphenidyl) ersetzt.",
+        "en": "Historical pharmaceutical use of stramonium extracts in early Parkinson's therapy. The anticholinergic action of the tropane alkaloids (atropine, scopolamine, hyoscyamine) was used to alleviate tremor and muscle rigidity — standard before the introduction of L-dopa. Today replaced by synthetic anticholinergics (biperiden, trihexyphenidyl)."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "70% ethanol"
+      },
+      "source_ids": [
+        "src-ds-wiki-en",
+        "src-ds-batista-2021"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ds-03",
+      "target": [
+        "nervous_system",
+        "wounds"
+      ],
+      "form": "compress",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische externe Anwendung von Stechapfel-Blättern als Umschlag oder Auflage bei Neuralgien, Furunkeln, Abszessen und schmerzhaften Wunden. John Gerard (1597) berichtete, der Saft heile „alle Entzündungen, Verbrennungen und Verbrühungen\". Anticholinerge Lokalwirkung; heute wegen Hautresorption und systemischer Toxizität ungeeignet.",
+        "en": "Folk medicinal external use of jimsonweed leaves as compress or poultice for neuralgia, boils, abscesses and painful wounds. John Gerard (1597) reported the juice 'cureth all inflammations whatsoever, all manner of burnings and scaldings'. Local anticholinergic effect; today unsuitable due to skin absorption and systemic toxicity."
+      },
+      "preparation": {
+        "de": "Frische oder leicht angewelkte Blätter zerquetschen und kurz auflegen — nur historisch dokumentiert, keine Anwendungsempfehlung. Schutzhandschuhe bei jedem Pflanzenkontakt.",
+        "en": "Crush fresh or lightly wilted leaves and apply briefly — historically documented only, no application recommendation. Wear protective gloves for any plant contact."
+      },
+      "source_ids": [
+        "src-ds-pfaf",
+        "src-ds-wiki-en"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-ds-04",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "raw",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Ethnobotanische und schamanische Verwendung in präkolumbianischen Kulturen Amerikas (Aztec, Navajo, Cherokee, Luiseño, Algonquian) und in der indischen Tantra-Tradition. Stechapfel-Samen wurden in heiligen Zeremonien als Halluzinogen verwendet — Wirkung durch hohe Konzentration der Tropanalkaloide (≈ 0,1 mg Atropin pro Samen). Heute nicht für Rituale oder Konsum geeignet — häufige tödliche Vergiftungen bei Jugendlichen, die einen „Trip\" suchen.",
+        "en": "Ethnobotanical and shamanic use in pre-Columbian cultures of the Americas (Aztec, Navajo, Cherokee, Luiseño, Algonquian) and in the Indian Tantra tradition. Jimsonweed seeds were used in sacred ceremonies as a hallucinogen — effect through high tropane alkaloid concentration (≈ 0.1 mg atropine per seed). Today not suitable for rituals or consumption — frequent fatal poisonings among teenagers seeking a 'trip'."
+      },
+      "preparation": {
+        "de": "Historisch-ethnobotanisch dokumentiert; keine Anwendungsempfehlung — hochgiftig, häufig letal.",
+        "en": "Historically documented ethnobotanically; no application recommendation — highly toxic, frequently lethal."
+      },
+      "source_ids": [
+        "src-ds-wiki-en",
+        "src-ds-batista-2021"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ds-05",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Mittelalterliche Verwendung in „Hexensalben\" (Flugsalben): Datura stramonium oder verwandte Arten (D. metel, D. inoxia) wurden mit Bilsenkraut, Tollkirsche und Alraune kombiniert. Resorption der Tropanalkaloide durch Schleimhäute löste anticholinerges Delir mit Flug-Halluzinationen aus. Rein historisches Kulturphänomen — heute wegen Toxizität strikt abzulehnen.",
+        "en": "Medieval use in 'witch ointments' (flying ointments): Datura stramonium or related species (D. metel, D. inoxia) were combined with henbane, belladonna and mandrake. Absorption of tropane alkaloids through mucous membranes triggered anticholinergic delirium with flight hallucinations. Pure historical cultural phenomenon — today to be strictly rejected due to toxicity."
+      },
+      "preparation": {
+        "de": "Historisch in Schweinefett oder Pflanzenöl gekochte Salben; rein dokumentarischer Wert.",
+        "en": "Historically ointments boiled in lard or vegetable oil; purely of documentary value."
+      },
+      "source_ids": [
+        "src-ds-wiki-en",
+        "src-ds-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-ds-06",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Verwendung von Datura stramonium (D6–C30) bei kindlichen Angstzuständen, Nachtschreck, Krampfanfällen mit Halluzinationen und Tollwut-Bildern (Hydrophobie). Reine homöopathische Verdünnungsstufen (ab C12) enthalten keine pharmakologisch wirksamen Alkaloidmengen. Verbreitet in der klassischen Homöopathie als Konstitutionsmittel.",
+        "en": "Homeopathic use of Datura stramonium (D6–C30) for childhood anxiety, night terrors, convulsions with hallucinations and rabies-like symptom pictures (hydrophobia). Pure homeopathic dilution levels (from C12) contain no pharmacologically active alkaloid amounts. Widespread in classical homeopathy as a constitutional remedy."
+      },
+      "preparation": {
+        "de": "Homöopathische Potenzierung ab D6 — keine Eigenwirkung durch Alkaloidgehalt.",
+        "en": "Homeopathic potentization from D6 onward — no inherent alkaloid effect."
+      },
+      "source_ids": [
+        "src-ds-wiki-en",
+        "src-ds-wikidata"
+      ],
+      "internal_external": "internal"
     }
   ],
   "season": {
@@ -48,12 +168,183 @@
   },
   "safety": {
     "warnings": {
-      "de": "SEHR GIFTIG (Atropin, Scopolamin, Hyoscyamin). Stark halluzinogen — historisch in Schamanen-Riten verwendet, aber häufige tödliche Vergiftungen besonders bei Jugendlichen, die „high\" werden wollen. Samen besonders gefährlich. NIEMALS verwenden.",
-      "en": "VERY TOXIC (atropine, scopolamine, hyoscyamine). Strongly hallucinogenic — historically used in shamanic rituals, but frequent fatal poisonings especially among teenagers seeking a 'high'. Seeds particularly dangerous. NEVER use."
+      "de": "SEHR GIFTIG — GESAMTE PFLANZE, SAMEN BESONDERS GEFÄHRLICH. Datura stramonium enthält Tropanalkaloide (Atropin, Scopolamin, Hyoscyamin) in allen Pflanzenteilen. Samen können bis zu 2710 mg Atropin und 660 mg Scopolamin pro kg enthalten (≈ 0,1 mg Atropin pro Samen). Letale Erwachsenendosis: > 10 mg Atropin oder > 2–4 mg Scopolamin. Bereits ab 0,3 g Pflanzenmaterial schwere Vergiftungen möglich. Konzentration variiert um Faktor 20 zwischen einzelnen Pflanzen. Symptome anticholinerges Syndrom: Mundtrockenheit, Tachykardie, weite Pupillen (Mydriasis), Photophobie, Hautrötung, Hyperthermie, Harnverhalt, lebhafte Halluzinationen, Delir, bizarres Verhalten, Krampfanfälle, Koma — Vergiftungen können 24–48 h, in Einzelfällen bis 2 Wochen andauern. Kommission E hat die Droge negativ bewertet. Häufige tödliche Vergiftungen bei Jugendlichen, die einen Rausch suchen. Bei Verdacht: SOFORT Notruf (112) und Giftnotruf. Keine Selbstmedikation. Keine Laienanwendung.",
+      "en": "VERY TOXIC — ENTIRE PLANT, SEEDS PARTICULARLY DANGEROUS. Datura stramonium contains tropane alkaloids (atropine, scopolamine, hyoscyamine) in all plant parts. Seeds can contain up to 2710 mg atropine and 660 mg scopolamine per kg (≈ 0.1 mg atropine per seed). Lethal adult dose: > 10 mg atropine or > 2–4 mg scopolamine. Severe poisoning possible from as little as 0.3 g plant material. Concentration varies by factor of 20 between individual plants. Anticholinergic syndrome symptoms: dry mouth, tachycardia, dilated pupils (mydriasis), photophobia, skin flushing, hyperthermia, urinary retention, vivid hallucinations, delirium, bizarre behaviour, seizures, coma — poisonings can last 24–48 h, in individual cases up to 2 weeks. The German Commission E negatively assessed the drug. Frequent fatal poisonings among teenagers seeking intoxication. In case of suspicion: IMMEDIATELY call emergency services and poison control. No self-medication. No lay use."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Tropanalkaloide (Atropin, Scopolamin, Hyoscyamin) passieren die Plazentaschranke und können fetale Tachykardie, ZNS-Schäden und kongenitale Fehlbildungen verursachen. Jede Exposition in der Schwangerschaft ist streng kontraindiziert.",
+        "en": "Tropane alkaloids (atropine, scopolamine, hyoscyamine) cross the placental barrier and can cause fetal tachycardia, CNS damage and congenital malformations. Any exposure during pregnancy is strictly contraindicated."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Atropin und Scopolamin treten in die Muttermilch über und können beim Säugling anticholinerge Effekte (Tachykardie, Mundtrockenheit, Fieber, Sedierung) auslösen. Stillzeit: streng kontraindiziert.",
+        "en": "Atropine and scopolamine pass into breast milk and can trigger anticholinergic effects in the infant (tachycardia, dry mouth, fever, sedation). Breastfeeding: strictly contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder reagieren extrem empfindlich auf Tropanalkaloide. Wenige Samen können tödlich sein. Häufiger Missbrauch durch Jugendliche („Daturismus\") mit zahlreichen Todesfällen. Kein Einsatz bei Kindern und Jugendlichen unter 18 Jahren — auch nicht in homöopathischen Tiefpotenzen unter D6.",
+        "en": "Children are extremely sensitive to tropane alkaloids. A few seeds can be fatal. Frequent abuse by adolescents ('daturism') with numerous deaths. No use in children and adolescents under 18 years — not even in low homeopathic potencies below D6."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Engwinkelglaukom — Atropin/Scopolamin erhöhen den Augeninnendruck gefährlich",
+        "en": "Narrow-angle glaucoma — atropine/scopolamine dangerously increase intraocular pressure"
+      },
+      {
+        "de": "Benigne Prostatahyperplasie mit Miktionsstörungen — anticholinerge Harnretention",
+        "en": "Benign prostatic hyperplasia with voiding disorders — anticholinergic urinary retention"
+      },
+      {
+        "de": "Tachyarrhythmien und Vorhofflimmern — Tropanalkaloide erhöhen die Herzfrequenz weiter",
+        "en": "Tachyarrhythmias and atrial fibrillation — tropane alkaloids further increase heart rate"
+      },
+      {
+        "de": "Mechanischer Ileus, Megakolon, Pylorusstenose — Darmparalyse durch Anticholinergika",
+        "en": "Mechanical ileus, megacolon, pyloric stenosis — intestinal paralysis through anticholinergics"
+      },
+      {
+        "de": "Myasthenia gravis — Antagonisierung der neuromuskulären Übertragung",
+        "en": "Myasthenia gravis — antagonization of neuromuscular transmission"
+      },
+      {
+        "de": "Demenz und kognitive Vorschädigung — Risiko für zentrales anticholinerges Syndrom",
+        "en": "Dementia and pre-existing cognitive impairment — risk of central anticholinergic syndrome"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche (siehe oben)",
+        "en": "Pregnancy, breastfeeding, children and adolescents (see above)"
+      },
+      {
+        "de": "Engwinkelglaukom — Atropin/Scopolamin erhöhen den Augeninnendruck gefährlich",
+        "en": "Narrow-angle glaucoma — atropine/scopolamine dangerously increase intraocular pressure"
+      },
+      {
+        "de": "Benigne Prostatahyperplasie mit Miktionsstörungen — anticholinerge Harnretention",
+        "en": "Benign prostatic hyperplasia with voiding disorders — anticholinergic urinary retention"
+      },
+      {
+        "de": "Tachyarrhythmien und Vorhofflimmern — Tropanalkaloide erhöhen die Herzfrequenz weiter",
+        "en": "Tachyarrhythmias and atrial fibrillation — tropane alkaloids further increase heart rate"
+      },
+      {
+        "de": "Mechanischer Ileus, Megakolon, Pylorusstenose — Darmparalyse durch Anticholinergika",
+        "en": "Mechanical ileus, megacolon, pyloric stenosis — intestinal paralysis through anticholinergics"
+      },
+      {
+        "de": "Myasthenia gravis — Antagonisierung der neuromuskulären Übertragung",
+        "en": "Myasthenia gravis — antagonization of neuromuscular transmission"
+      },
+      {
+        "de": "Demenz und kognitive Vorschädigung — Risiko für zentrales anticholinerges Syndrom",
+        "en": "Dementia and pre-existing cognitive impairment — risk of central anticholinergic syndrome"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche (siehe oben)",
+        "en": "Pregnancy, breastfeeding, children and adolescents (see above)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Anticholinergika (Tiotropium, Ipratropium, Oxybutynin, Darifenacin, Scopolamin-Pflaster)",
+        "mechanism": {
+          "de": "Additive anticholinerge Wirkung: verstärkte Mundtrockenheit, Harnretention, Tachykardie, kognitive Beeinträchtigungen bis hin zum zentralen anticholinergen Syndrom mit Delir und Krampfanfällen.",
+          "en": "Additive anticholinergic effect: enhanced dry mouth, urinary retention, tachycardia, cognitive impairment up to central anticholinergic syndrome with delirium and seizures."
+        },
+        "severity": "avoid",
+        "source_id": "src-ds-wiki-en"
+      },
+      {
+        "drug_class": "Trizyklische Antidepressiva (Amitriptylin, Imipramin, Clomipramin)",
+        "mechanism": {
+          "de": "Trizyklika besitzen inhärente anticholinerge Eigenschaften; Kombination mit Datura-Alkaloiden potenziert anticholinerge Nebenwirkungen erheblich.",
+          "en": "Tricyclics have inherent anticholinergic properties; combination with Datura alkaloids substantially potentiates anticholinergic side effects."
+        },
+        "severity": "caution",
+        "source_id": "src-ds-shi-2022"
+      },
+      {
+        "drug_class": "MAO-Hemmer (Phenelzin, Tranylcypromin, Moclobemid, Selegilin)",
+        "mechanism": {
+          "de": "MAO-Hemmer können den Abbau von Tropanalkaloiden vermindern und deren Toxizität verstärken; zentralnervöse Exzitation mit Halluzinationen und hypertensiver Krise möglich.",
+          "en": "MAO inhibitors may reduce the breakdown of tropane alkaloids and potentiate their toxicity; central nervous system excitation with hallucinations and hypertensive crisis possible."
+        },
+        "severity": "caution",
+        "source_id": "src-ds-shi-2022"
+      },
+      {
+        "drug_class": "Antihistaminika der 1. Generation (Diphenhydramin, Promethazin, Hydroxyzin)",
+        "mechanism": {
+          "de": "H1-Antihistaminika der ersten Generation haben anticholinerge Eigenschaften; additive Effekte bei Kombination mit Datura-Alkaloiden — Risiko für Sedation, Verwirrtheit, Sturzgefahr.",
+          "en": "First-generation H1 antihistamines have anticholinergic properties; additive effects when combined with Datura alkaloids — risk of sedation, confusion, falls."
+        },
+        "severity": "monitor",
+        "source_id": "src-ds-wiki-en"
+      },
+      {
+        "drug_class": "Neuroleptika mit anticholinerger Komponente (Clozapin, Olanzapin, Chlorpromazin)",
+        "mechanism": {
+          "de": "Anticholinerge Eigenwirkung der Neuroleptika summiert sich mit Tropanalkaloiden; Risiko für Hyperthermie, Ileus, kognitive Verschlechterung.",
+          "en": "Inherent anticholinergic action of neuroleptics adds to tropane alkaloids; risk of hyperthermia, ileus, cognitive deterioration."
+        },
+        "severity": "caution",
+        "source_id": "src-ds-batista-2021"
+      },
+      {
+        "drug_class": "Anticholinergika (Tiotropium, Ipratropium, Oxybutynin, Darifenacin, Scopolamin-Pflaster)",
+        "mechanism": {
+          "de": "Additive anticholinerge Wirkung: verstärkte Mundtrockenheit, Harnretention, Tachykardie, kognitive Beeinträchtigungen bis hin zum zentralen anticholinergen Syndrom mit Delir und Krampfanfällen.",
+          "en": "Additive anticholinergic effect: enhanced dry mouth, urinary retention, tachycardia, cognitive impairment up to central anticholinergic syndrome with delirium and seizures."
+        },
+        "severity": "avoid",
+        "source_id": "src-ds-wiki-en"
+      },
+      {
+        "drug_class": "Trizyklische Antidepressiva (Amitriptylin, Imipramin, Clomipramin)",
+        "mechanism": {
+          "de": "Trizyklika besitzen inhärente anticholinerge Eigenschaften; Kombination mit Datura-Alkaloiden potenziert anticholinerge Nebenwirkungen erheblich.",
+          "en": "Tricyclics have inherent anticholinergic properties; combination with Datura alkaloids substantially potentiates anticholinergic side effects."
+        },
+        "severity": "caution",
+        "source_id": "src-ds-shi-2022"
+      },
+      {
+        "drug_class": "MAO-Hemmer (Phenelzin, Tranylcypromin, Moclobemid, Selegilin)",
+        "mechanism": {
+          "de": "MAO-Hemmer können den Abbau von Tropanalkaloiden vermindern und deren Toxizität verstärken; zentralnervöse Exzitation mit Halluzinationen und hypertensiver Krise möglich.",
+          "en": "MAO inhibitors may reduce the breakdown of tropane alkaloids and potentiate their toxicity; central nervous system excitation with hallucinations and hypertensive crisis possible."
+        },
+        "severity": "caution",
+        "source_id": "src-ds-shi-2022"
+      },
+      {
+        "drug_class": "Antihistaminika der 1. Generation (Diphenhydramin, Promethazin, Hydroxyzin)",
+        "mechanism": {
+          "de": "H1-Antihistaminika der ersten Generation haben anticholinerge Eigenschaften; additive Effekte bei Kombination mit Datura-Alkaloiden — Risiko für Sedation, Verwirrtheit, Sturzgefahr.",
+          "en": "First-generation H1 antihistamines have anticholinergic properties; additive effects when combined with Datura alkaloids — risk of sedation, confusion, falls."
+        },
+        "severity": "monitor",
+        "source_id": "src-ds-wiki-en"
+      },
+      {
+        "drug_class": "Neuroleptika mit anticholinerger Komponente (Clozapin, Olanzapin, Chlorpromazin)",
+        "mechanism": {
+          "de": "Anticholinerge Eigenwirkung der Neuroleptika summiert sich mit Tropanalkaloiden; Risiko für Hyperthermie, Ileus, kognitive Verschlechterung.",
+          "en": "Inherent anticholinergic action of neuroleptics adds to tropane alkaloids; risk of hyperthermia, ileus, cognitive deterioration."
+        },
+        "severity": "caution",
+        "source_id": "src-ds-batista-2021"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -70,6 +361,78 @@
       "title": "Datura stramonium (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Datura_stramonium",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-ds-wiki-en",
+      "type": "wikipedia",
+      "title": "Datura stramonium — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Datura_stramonium",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ds-wiki-de",
+      "type": "wikipedia",
+      "title": "Gemeiner Stechapfel — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Gemeiner_Stechapfel",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-ds-wiki-atropine",
+      "type": "wikipedia",
+      "title": "Atropine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Atropine",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ds-wiki-scopolamine",
+      "type": "wikipedia",
+      "title": "Scopolamine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Scopolamine",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ds-wikidata",
+      "type": "wikidata",
+      "title": "Datura stramonium — Wikidata Q156057",
+      "url": "https://www.wikidata.org/wiki/Q156057",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ds-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Datura stramonium",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Datura+stramonium",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ds-shi-2022",
+      "type": "monograph",
+      "title": "Tropane alkaloids (hyoscyamine, scopolamine and atropine) from genus Datura: extractions, contents, syntheses and effects",
+      "url": "https://doi.org/10.1016/j.indcrop.2022.115283",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ds-batista-2021",
+      "type": "monograph",
+      "title": "Phytochemistry, Pharmacology, and Toxicology of Datura Species — A Review",
+      "url": "https://doi.org/10.3390/antiox10081291",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-ds-soni-2012",
+      "type": "monograph",
+      "title": "Pharmacological properties of Datura stramonium L. as a potential medicinal tree: An overview",
+      "url": "https://doi.org/10.1016/S2221-1691(13)60014-3",
+      "accessed": "2026-05-26",
+      "language": "en"
     }
   ],
   "image": {
@@ -81,5 +444,249 @@
     "license": "CC BY-SA 3.0",
     "author": "bdk",
     "source_url": "https://commons.wikimedia.org/wiki/File:Datura_stramonium_2000.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Atropine (dl-Hyoscyamine)",
+      "category": "alkaloid",
+      "percent_range": "0.1-0.5 % (Samen bis 0,27 %)",
+      "note": {
+        "de": "Hauptalkaloid von Datura stramonium; racemisches Gemisch aus l- und d-Hyoscyamin (entsteht durch Racemisierung bei Trocknung); kompetitiver Antagonist an muscarinischen Acetylcholinrezeptoren (M1–M5); mydrias­tisch, antispasmodisch, antisekretorisch. Konzentration variiert um Faktor 20 zwischen Einzelpflanzen.",
+        "en": "Main alkaloid of Datura stramonium; racemic mixture of l- and d-hyoscyamine (formed by racemization during drying); competitive antagonist at muscarinic acetylcholine receptors (M1–M5); mydriatic, antispasmodic, antisecretory. Concentration varies by a factor of 20 between individual plants."
+      }
+    },
+    {
+      "name": "Scopolamine (Hyoscine)",
+      "category": "alkaloid",
+      "percent_range": "0.05-0.3 % (Samen bis 0,066 %)",
+      "note": {
+        "de": "Epoxyd-Derivat des Tropans; stärker sedierend und halluzinogen als Atropin; überwindet die Blut-Hirn-Schranke effizient; antiemetisch wirksam. In jungen Pflanzen Verhältnis Scopolamin:Atropin ≈ 3:1, nach der Blüte kehrt sich das Verhältnis um.",
+        "en": "Epoxide derivative of tropane; more sedating and hallucinogenic than atropine; efficiently crosses the blood-brain barrier; antiemetic. In young plants the scopolamine:atropine ratio is ≈ 3:1; after flowering the ratio reverses."
+      }
+    },
+    {
+      "name": "l-Hyoscyamine",
+      "category": "alkaloid",
+      "percent_range": "0.1-0.4 %",
+      "note": {
+        "de": "Biologisch aktives Enantiomer; in frischer Pflanze dominierend vor Atropin (dem Racemat); etwa 2× potenter als Atropin am M-Rezeptor; racemisiert bei Trocknung und Extraktion teilweise zu Atropin.",
+        "en": "Biologically active enantiomer; dominant in the fresh plant prior to atropine (the racemate); approximately 2× more potent than atropine at the M receptor; partially racemizes to atropine during drying and extraction."
+      }
+    },
+    {
+      "name": "Apoatropine (Atropamine)",
+      "category": "alkaloid",
+      "percent_range": "< 0.05 % (Stängel, Blätter)",
+      "note": {
+        "de": "Dehydrierungsprodukt des Atropins; schwächere anticholinerge Aktivität; entsteht hauptsächlich bei Erhitzung oder Lagerung des Rohmaterials.",
+        "en": "Dehydration product of atropine; weaker anticholinergic activity; formed mainly during heating or storage of raw material."
+      }
+    },
+    {
+      "name": "Meteloidine",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Tropanalkaloid mit drei Hydroxylgruppen; charakteristisch für mehrere Datura-Arten; pharmakologische Bedeutung gering, taxonomischer Marker.",
+        "en": "Tropane alkaloid with three hydroxyl groups; characteristic of several Datura species; minor pharmacological importance, taxonomic marker."
+      }
+    },
+    {
+      "name": "Tropine",
+      "category": "alkaloid",
+      "percent_range": "Spuren (Blüten, Samen)",
+      "note": {
+        "de": "Aminoalkohol-Grundstruktur der Tropanalkaloide; selbst kaum pharmakologisch wirksam; Biosynthesevorstufe von Hyoscyamin.",
+        "en": "Amino alcohol core structure of the tropane alkaloids; itself barely pharmacologically active; biosynthetic precursor of hyoscyamine."
+      }
+    },
+    {
+      "name": "Methylecgonine",
+      "category": "alkaloid",
+      "percent_range": "Spuren (Wurzel)",
+      "note": {
+        "de": "Geringfügiges Begleitalkaloid, verwandt mit Cocain-Biosyntheseintermediaten; in Wurzelextrakten von D. stramonium identifiziert; ohne praktische Bedeutung.",
+        "en": "Minor accompanying alkaloid related to cocaine biosynthesis intermediates; identified in root extracts of D. stramonium; without practical significance."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin- und Kaempferol-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Antioxidative Begleitsubstanzen; ohne primäre Rolle in der Toxikologie; beitragend zu Radikalfangaktivität pflanzlicher Extrakte.",
+        "en": "Antioxidant accompanying substances; without primary role in toxicology; contributing to radical-scavenging activity of plant extracts."
+      }
+    },
+    {
+      "name": "Withanolide (Steroidlactone)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Steroidlactone der Withanolid-Reihe; in Datura-Arten nachgewiesen; immunmodulatorische und zytotoxische Wirkungen in Zellkulturen; keine praktische therapeutische Relevanz.",
+        "en": "Steroidal lactones of the withanolide series; detected in Datura species; immunomodulatory and cytotoxic effects in cell cultures; no practical therapeutic relevance."
+      }
+    },
+    {
+      "name": "Atropine (dl-Hyoscyamine)",
+      "category": "alkaloid",
+      "percent_range": "0.1-0.5 % (Samen bis 0,27 %)",
+      "note": {
+        "de": "Hauptalkaloid von Datura stramonium; racemisches Gemisch aus l- und d-Hyoscyamin (entsteht durch Racemisierung bei Trocknung); kompetitiver Antagonist an muscarinischen Acetylcholinrezeptoren (M1–M5); mydrias­tisch, antispasmodisch, antisekretorisch. Konzentration variiert um Faktor 20 zwischen Einzelpflanzen.",
+        "en": "Main alkaloid of Datura stramonium; racemic mixture of l- and d-hyoscyamine (formed by racemization during drying); competitive antagonist at muscarinic acetylcholine receptors (M1–M5); mydriatic, antispasmodic, antisecretory. Concentration varies by a factor of 20 between individual plants."
+      }
+    },
+    {
+      "name": "Scopolamine (Hyoscine)",
+      "category": "alkaloid",
+      "percent_range": "0.05-0.3 % (Samen bis 0,066 %)",
+      "note": {
+        "de": "Epoxyd-Derivat des Tropans; stärker sedierend und halluzinogen als Atropin; überwindet die Blut-Hirn-Schranke effizient; antiemetisch wirksam. In jungen Pflanzen Verhältnis Scopolamin:Atropin ≈ 3:1, nach der Blüte kehrt sich das Verhältnis um.",
+        "en": "Epoxide derivative of tropane; more sedating and hallucinogenic than atropine; efficiently crosses the blood-brain barrier; antiemetic. In young plants the scopolamine:atropine ratio is ≈ 3:1; after flowering the ratio reverses."
+      }
+    },
+    {
+      "name": "l-Hyoscyamine",
+      "category": "alkaloid",
+      "percent_range": "0.1-0.4 %",
+      "note": {
+        "de": "Biologisch aktives Enantiomer; in frischer Pflanze dominierend vor Atropin (dem Racemat); etwa 2× potenter als Atropin am M-Rezeptor; racemisiert bei Trocknung und Extraktion teilweise zu Atropin.",
+        "en": "Biologically active enantiomer; dominant in the fresh plant prior to atropine (the racemate); approximately 2× more potent than atropine at the M receptor; partially racemizes to atropine during drying and extraction."
+      }
+    },
+    {
+      "name": "Apoatropine (Atropamine)",
+      "category": "alkaloid",
+      "percent_range": "< 0.05 % (Stängel, Blätter)",
+      "note": {
+        "de": "Dehydrierungsprodukt des Atropins; schwächere anticholinerge Aktivität; entsteht hauptsächlich bei Erhitzung oder Lagerung des Rohmaterials.",
+        "en": "Dehydration product of atropine; weaker anticholinergic activity; formed mainly during heating or storage of raw material."
+      }
+    },
+    {
+      "name": "Meteloidine",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Tropanalkaloid mit drei Hydroxylgruppen; charakteristisch für mehrere Datura-Arten; pharmakologische Bedeutung gering, taxonomischer Marker.",
+        "en": "Tropane alkaloid with three hydroxyl groups; characteristic of several Datura species; minor pharmacological importance, taxonomic marker."
+      }
+    },
+    {
+      "name": "Tropine",
+      "category": "alkaloid",
+      "percent_range": "Spuren (Blüten, Samen)",
+      "note": {
+        "de": "Aminoalkohol-Grundstruktur der Tropanalkaloide; selbst kaum pharmakologisch wirksam; Biosynthesevorstufe von Hyoscyamin.",
+        "en": "Amino alcohol core structure of the tropane alkaloids; itself barely pharmacologically active; biosynthetic precursor of hyoscyamine."
+      }
+    },
+    {
+      "name": "Methylecgonine",
+      "category": "alkaloid",
+      "percent_range": "Spuren (Wurzel)",
+      "note": {
+        "de": "Geringfügiges Begleitalkaloid, verwandt mit Cocain-Biosyntheseintermediaten; in Wurzelextrakten von D. stramonium identifiziert; ohne praktische Bedeutung.",
+        "en": "Minor accompanying alkaloid related to cocaine biosynthesis intermediates; identified in root extracts of D. stramonium; without practical significance."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin- und Kaempferol-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Antioxidative Begleitsubstanzen; ohne primäre Rolle in der Toxikologie; beitragend zu Radikalfangaktivität pflanzlicher Extrakte.",
+        "en": "Antioxidant accompanying substances; without primary role in toxicology; contributing to radical-scavenging activity of plant extracts."
+      }
+    },
+    {
+      "name": "Withanolide (Steroidlactone)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Steroidlactone der Withanolid-Reihe; in Datura-Arten nachgewiesen; immunmodulatorische und zytotoxische Wirkungen in Zellkulturen; keine praktische therapeutische Relevanz.",
+        "en": "Steroidal lactones of the withanolide series; detected in Datura species; immunomodulatory and cytotoxic effects in cell cultures; no practical therapeutic relevance."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgenstunden nach Tautrocknung zur Blütezeit — höchster Alkaloidgehalt vor der Fruchtreife",
+        "en": "Morning hours after dew has dried during flowering — highest alkaloid content before fruit ripening"
+      },
+      "drying": {
+        "de": "Rasch bei 40–50 °C im Schatten trocknen; langsames Trocknen fördert Racemisierung von Hyoscyamin zu Atropin. SCHUTZHANDSCHUHE PFLICHT — Tropanalkaloide werden über die Haut resorbiert. Ernte ausschliesslich durch ausgebildete Botaniker oder Apotheker.",
+        "en": "Dry quickly at 40–50 °C in the shade; slow drying promotes racemization of hyoscyamine to atropine. PROTECTIVE GLOVES MANDATORY — tropane alkaloids are absorbed through the skin. Harvest exclusively by trained botanists or pharmacists."
+      },
+      "notes": {
+        "de": "Konzentration variiert um Faktor 20 zwischen Einzelpflanzen — keine zuverlässige Dosierung möglich. Lagerung getrennt von Lebensmitteln, lichtgeschützt, verschlossen, ausser Reichweite von Kindern und Haustieren.",
+        "en": "Concentration varies by factor of 20 between individual plants — no reliable dosing possible. Store separately from foodstuffs, protected from light, sealed, out of reach of children and pets."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Tagsüber bei reifenden Stachelkapseln — Kapseln kurz vor dem Aufplatzen ernten",
+        "en": "Daytime as spiny capsules ripen — harvest capsules just before they split open"
+      },
+      "drying": {
+        "de": "Kapseln bei 35–45 °C trocknen; Samen enthalten bis 2710 mg Atropin und 660 mg Scopolamin pro kg. AUSSCHLIESSLICH für pharmazeutische Weiterverarbeitung — keine Laienanwendung, häufige tödliche Vergiftungen.",
+        "en": "Dry capsules at 35–45 °C; seeds contain up to 2710 mg atropine and 660 mg scopolamine per kg. EXCLUSIVELY for pharmaceutical processing — no lay use, frequent fatal poisonings."
+      },
+      "notes": {
+        "de": "Samen-Lagerung in verschlossenen Behältern unter Giftpflanzen-Lagervorschriften; jeder Samen enthält rund 0,1 mg Atropin — schon 50–100 Samen sind potenziell letal.",
+        "en": "Store seeds in sealed containers under toxic-plant storage regulations; each seed contains around 0.1 mg atropine — as few as 50–100 seeds are potentially lethal."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Morgenstunden nach Tautrocknung zur Blütezeit — höchster Alkaloidgehalt vor der Fruchtreife",
+        "en": "Morning hours after dew has dried during flowering — highest alkaloid content before fruit ripening"
+      },
+      "drying": {
+        "de": "Rasch bei 40–50 °C im Schatten trocknen; langsames Trocknen fördert Racemisierung von Hyoscyamin zu Atropin. SCHUTZHANDSCHUHE PFLICHT — Tropanalkaloide werden über die Haut resorbiert. Ernte ausschliesslich durch ausgebildete Botaniker oder Apotheker.",
+        "en": "Dry quickly at 40–50 °C in the shade; slow drying promotes racemization of hyoscyamine to atropine. PROTECTIVE GLOVES MANDATORY — tropane alkaloids are absorbed through the skin. Harvest exclusively by trained botanists or pharmacists."
+      },
+      "notes": {
+        "de": "Konzentration variiert um Faktor 20 zwischen Einzelpflanzen — keine zuverlässige Dosierung möglich. Lagerung getrennt von Lebensmitteln, lichtgeschützt, verschlossen, ausser Reichweite von Kindern und Haustieren.",
+        "en": "Concentration varies by factor of 20 between individual plants — no reliable dosing possible. Store separately from foodstuffs, protected from light, sealed, out of reach of children and pets."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Tagsüber bei reifenden Stachelkapseln — Kapseln kurz vor dem Aufplatzen ernten",
+        "en": "Daytime as spiny capsules ripen — harvest capsules just before they split open"
+      },
+      "drying": {
+        "de": "Kapseln bei 35–45 °C trocknen; Samen enthalten bis 2710 mg Atropin und 660 mg Scopolamin pro kg. AUSSCHLIESSLICH für pharmazeutische Weiterverarbeitung — keine Laienanwendung, häufige tödliche Vergiftungen.",
+        "en": "Dry capsules at 35–45 °C; seeds contain up to 2710 mg atropine and 660 mg scopolamine per kg. EXCLUSIVELY for pharmaceutical processing — no lay use, frequent fatal poisonings."
+      },
+      "notes": {
+        "de": "Samen-Lagerung in verschlossenen Behältern unter Giftpflanzen-Lagervorschriften; jeder Samen enthält rund 0,1 mg Atropin — schon 50–100 Samen sind potenziell letal.",
+        "en": "Store seeds in sealed containers under toxic-plant storage regulations; each seed contains around 0.1 mg atropine — as few as 50–100 seeds are potentially lethal."
+      }
+    }
+  ]
 }

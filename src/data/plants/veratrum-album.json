@@ -20,19 +20,183 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-va-01",
       "target": [
-        "caution"
+        "digestion",
+        "nervous_system"
       ],
-      "internal_external": "external",
+      "form": "raw",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Antike Anwendung als Brech- und Abführmittel: Bei Hippokrates (ca. 460–370 v. Chr.) galt das Wurzelpulver des Weissen Germers als 'geläufiges Brechmittel'. Dioskurides beschrieb es als 'Brechen und Niesen erregend'. Die Substanz wurde zur Reinigung von 'schwarzer Galle' und gegen Wahnsinn eingesetzt (Aëtius). Hochgiftig — heute obsolet, ausschliesslich pharmaziehistorisch dokumentiert.",
+        "en": "Ancient use as emetic and purgative: in Hippocrates (c. 460–370 BC), the powdered rhizome of white false-hellebore was a 'common emetic'. Dioscorides described it as 'inducing vomiting and sneezing'. The substance was used to purge 'black bile' and to treat madness (Aëtius). Highly toxic — obsolete today, only of pharmacy-historical relevance."
+      },
+      "preparation": {
+        "ratio": "1:20",
+        "solvent": "water"
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-va-wiki-de",
+        "src-va-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-va-02",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "raw",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Anticyra-Mythos: Im antiken Griechenland war die Stadt Anticyra (am Golf von Korinth) berühmt für Nieswurz-Präparate gegen Geisteskrankheiten — die Redewendung 'naviga Anticyram' ('segle nach Anticyra') galt als Spott für Geistesgestörte. Welche Veratrum- oder Helleborus-Art genau gemeint war, ist unter Historikern umstritten; Veratrum album wurde als 'weisse Nieswurz' explizit dafür verwendet.",
+        "en": "Anticyra myth: in ancient Greece the city of Anticyra (on the Gulf of Corinth) was famous for hellebore preparations against mental illness — the phrase 'naviga Anticyram' ('sail to Anticyra') was a taunt for the insane. Which Veratrum or Helleborus species was meant is debated among historians; Veratrum album was explicitly used as 'white hellebore' for this purpose."
+      },
+      "preparation": {
+        "ratio": "1:20",
+        "solvent": "wine (historical)"
+      },
+      "source_ids": [
+        "src-va-wiki-de",
+        "src-va-wiki-genus"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-va-03",
+      "target": [
+        "respiratory",
+        "nervous_system"
+      ],
+      "form": "inhalation",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Niespulver (Sternutativum): Fein gemahlenes Wurzelpulver wurde vom 16. bis 19. Jahrhundert in die Nase geblasen, um Schleim zu lösen, Kopfschmerzen zu kurieren oder Bewusstlose zu erwecken. Bocks 'Kreutterbuch' (1565) führt Veratrum album entsprechend als Niespulver und gegen Krätze. Heute wegen Schleimhautreizung und Vergiftungsrisiko bei Resorption nicht mehr praktiziert.",
+        "en": "Sneeze-powder (sternutatory): finely ground rhizome powder was blown into the nose from the 16th to 19th century to clear mucus, cure headaches, or revive the unconscious. Bock's 'Kreutterbuch' (1565) lists Veratrum album accordingly as sneeze-powder and for scabies. Discontinued today due to mucosal irritation and absorption-related poisoning risk."
+      },
+      "preparation": {
+        "ratio": "powder",
+        "solvent": "n/a"
+      },
+      "source_ids": [
+        "src-va-wiki-de",
+        "src-va-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-va-04",
+      "target": [
+        "skin",
+        "joints"
+      ],
+      "form": "salve",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische äusserliche Anwendung gegen Krätze, Läuse und Gelenkschmerzen (Bocks 'Kreutterbuch' 1565, PFAF). Verdünnte Auszüge oder Salben wirken stark lokalreizend (Rubefaciens). Heutige Bewertung: gefährlich wegen perkutaner Alkaloidaufnahme über geschädigte Haut.",
+        "en": "Folk-medicinal external use against scabies, lice, and joint pain (Bock's 'Kreutterbuch' 1565, PFAF). Diluted extracts or salves act as strong local irritants (rubefacient). Modern assessment: dangerous due to transdermal alkaloid absorption through compromised skin."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "fat or beeswax base"
+      },
+      "source_ids": [
+        "src-va-pfaf",
+        "src-va-wiki-de"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-va-05",
+      "target": [
+        "skin"
+      ],
+      "form": "raw",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Insektizid: Getrocknetes Wurzelpulver wurde traditionell als Schädlings- und Insektenmittel verwendet. Wikipedia EN dokumentiert kurzzeitigen Einsatz von Veratrum-album-Extrakten gegen den Kartoffelkäfer (Leptinotarsa decemlineata). PFAF nennt Wirksamkeit gegen Raupen und Säugetiere — heute durch sicherere Pestizide ersetzt.",
+        "en": "Insecticide: dried rhizome powder was traditionally used against pests and insects. Wikipedia EN documents brief use of Veratrum album extracts against the Colorado potato beetle (Leptinotarsa decemlineata). PFAF notes efficacy against caterpillars and mammals — replaced today by safer pesticides."
+      },
+      "preparation": {
+        "ratio": "powder",
+        "solvent": "water spray (historical)"
+      },
+      "source_ids": [
+        "src-va-wiki-en",
+        "src-va-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-va-06",
+      "target": [
+        "circulation"
+      ],
+      "form": "tincture",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Antihypertensive Forschung 1930er-1950er Jahre: Veratrum-Extrakte (Protoveratrin A, B) wurden klinisch zur Senkung des Blutdrucks geprüft. Wegen extrem schmaler therapeutischer Breite (Übelkeit, Bradykardie, Kollaps schon bei therapeutischen Dosen) und Verfügbarkeit sichererer Antihypertensiva wurde diese Anwendung verlassen. Historisches Beispiel pharmazeutischer Sackgasse.",
+        "en": "Antihypertensive research in the 1930s–1950s: Veratrum extracts (protoveratrines A and B) were clinically tested to lower blood pressure. The use was abandoned because of an extremely narrow therapeutic index (nausea, bradycardia, collapse already at therapeutic doses) and the availability of safer antihypertensives. A historical example of a pharmaceutical dead-end."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "45% ethanol"
+      },
+      "source_ids": [
+        "src-va-wiki-genus",
+        "src-va-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-va-07",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Anwendung: Veratrum album wird in der Homöopathie (D6–D30) bei akuten Brechdurchfällen mit Kreislaufkollaps, kalten Schweissausbrüchen und Erschöpfung eingesetzt (homöopathische Grundprüfung Hahnemann). Hochverdünnte Stufen enthalten keine wirksamen Alkaloidmengen. Eigenherstellung aus Pflanzenmaterial ist strikt verboten.",
+        "en": "Homoeopathic use: Veratrum album is applied in homoeopathy (D6–D30) for acute vomiting-diarrhoea with circulatory collapse, cold sweats, and exhaustion (Hahnemann's homoeopathic proving). Highly diluted stages contain no active alkaloid amounts. Home preparation from plant material is strictly prohibited."
+      },
+      "preparation": {
+        "ratio": "1:100",
+        "solvent": "45% ethanol"
+      },
+      "source_ids": [
+        "src-va-wiki-de",
+        "src-va-wikidata"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-va-08",
+      "target": [
+        "skin"
+      ],
+      "form": "tincture",
+      "plant_part": "rhizome",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Cyclopamin-Derivat Vismodegib (Erivedge, FDA-Zulassung 30.01.2012) zur Behandlung des fortgeschrittenen Basalzellkarzinoms — Inhibitor des Hedgehog-Signalwegs (Smoothened-Antagonist). WICHTIG: Vismodegib ist ein semi-synthetisches Kleinmolekül, das pharmakologisch von Cyclopamin abgeleitet ist (ursprünglich aus Veratrum californicum isoliert). Es ist KEIN Pflanzen-Extrakt aus Veratrum album. Hier rein zur Veranschaulichung der pharmakologischen Bedeutung der Cyclopamin-Linie aufgeführt.",
+        "en": "Cyclopamine derivative vismodegib (Erivedge, FDA approval 2012-01-30) for advanced basal cell carcinoma — inhibitor of the hedgehog signalling pathway (Smoothened antagonist). IMPORTANT: vismodegib is a semi-synthetic small molecule pharmacologically derived from cyclopamine (originally isolated from Veratrum californicum). It is NOT a plant extract from Veratrum album. Listed here purely to illustrate the pharmacological significance of the cyclopamine line."
+      },
+      "preparation": {
+        "ratio": "n/a",
+        "solvent": "synthetic drug (Vismodegib 150 mg capsule)"
+      },
+      "source_ids": [
+        "src-va-wiki-vismodegib",
+        "src-va-wiki-cyclopamine"
+      ],
+      "internal_external": "internal"
     }
   ],
   "season": {
@@ -47,12 +211,101 @@
   },
   "safety": {
     "warnings": {
-      "de": "SEHR GIFTIG (Veratrum-Alkaloide) — VERWECHSLUNGSGEFAHR mit GELBEM ENZIAN beim Wurzel-Sammeln für Enzian-Schnaps. Schon Tropfen können Erbrechen und Kreislaufkollaps verursachen. Immer wieder tödliche Vergiftungen in Berg-Regionen. NIEMALS in unbekannten Mengen oder ohne sichere Bestimmung.",
-      "en": "VERY TOXIC (Veratrum alkaloids) — RISK OF CONFUSION with YELLOW GENTIAN when collecting roots for gentian schnapps. Even drops can cause vomiting and circulatory collapse. Regular fatal poisonings in mountain regions. NEVER in unknown amounts or without certain identification."
+      "de": "SEHR GIFTIG — gesamte Pflanze, besonders Rhizom und Wurzeln. Veratrum album enthält über 50 steroidale Veratrum-Alkaloide; Leitsubstanzen sind Protoveratrin A und B, Jervin, Cyclopamin, Veratramin und Veratridin. Wirkmechanismus: persistente Aktivierung spannungsgesteuerter Natriumkanäle (Veratridin) → Bradykardie, Hypotonie, Bewusstseinsstörungen. KRITISCHE VERWECHSLUNGSGEFAHR: nicht-blühender Weisser Germer wird beim Wurzelsammeln für Enzian-Schnaps wiederholt mit Gelbem Enzian (Gentiana lutea) verwechselt — Veratrum hat WECHSELSTÄNDIGE Blätter, Gentiana KREUZGEGENSTÄNDIGE. Auch Verwechslung mit Bärlauch (Allium ursinum) ist dokumentiert. Symptome (innerhalb 30 Min bis 4 Stunden): Erbrechen, Bauchschmerzen, heftige Durchfälle, Speichelfluss, Kältegefühl, Muskelkrämpfe, Bradykardie, schwere Hypotonie, Atemnot, Halluzinationen, Kollaps. Tödlicher Ausgang zwischen 3 und 12 Stunden nach Aufnahme möglich. Bei Verdacht sofort Giftnotruf (DE 030 19240 / 0761 19240).",
+      "en": "VERY TOXIC — entire plant, especially rhizome and roots. Veratrum album contains over 50 steroidal Veratrum alkaloids; principal compounds are protoveratrines A and B, jervine, cyclopamine, veratramine, and veratridine. Mechanism: persistent activation of voltage-gated sodium channels (veratridine) → bradycardia, hypotension, impaired consciousness. CRITICAL CONFUSION RISK: non-flowering white false-hellebore is repeatedly mistaken for yellow gentian (Gentiana lutea) when collecting roots for gentian schnapps — Veratrum has ALTERNATE leaves, Gentiana OPPOSITE. Confusion with wild garlic (Allium ursinum) is also documented. Symptoms (within 30 min to 4 h): vomiting, abdominal pain, severe diarrhoea, salivation, cold feeling, muscle cramps, bradycardia, severe hypotension, dyspnoea, hallucinations, collapse. Fatal outcome possible 3–12 hours after ingestion. In case of suspicion contact poison control immediately."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Cyclopamin (in Veratrum californicum reichlich, in Veratrum album in geringerer Menge) ist ein klassischer Smoothened-Antagonist im Sonic-Hedgehog-Signalweg und teratogen: 1957 wurde in Idaho (USA) bei Lämmern Cyclopia (Einäugigkeit, alobare Holoprosenzephalie) nach maternalem Verzehr von Corn Lily (V. californicum) beschrieben. Auch Protoveratrine sind embryotoxisch und kardiotoxisch. Jede Anwendung in der Schwangerschaft ist absolut kontraindiziert.",
+        "en": "Cyclopamine (abundant in Veratrum californicum, present in lower amounts in Veratrum album) is a classic Smoothened antagonist in the sonic hedgehog pathway and teratogenic: in 1957, Idaho (USA) lamb cyclopia (single-eye holoprosencephaly) was described following maternal consumption of corn lily (V. californicum). Protoveratrines are also embryotoxic and cardiotoxic. Any use during pregnancy is absolutely contraindicated."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Veratrum-Alkaloide können in die Muttermilch übergehen und beim Säugling Bradykardie, Hypotonie und Atemstörungen auslösen. Stillzeit: strikt kontraindiziert.",
+        "en": "Veratrum alkaloids can pass into breast milk and cause bradycardia, hypotension, and respiratory disturbances in the infant. Breastfeeding: strictly contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder reagieren extrem empfindlich auf Veratrum-Alkaloide; bereits Zentigramm-Dosen Wurzelpulver können tödlich sein. Die schmale therapeutische Breite verbietet jede pädiatrische Anwendung. Bei Verdacht auf Aufnahme sofort Giftnotruf.",
+        "en": "Children are extremely sensitive to Veratrum alkaloids; even centigram doses of root powder can be fatal. The narrow therapeutic index prohibits any paediatric use. In case of suspected ingestion, contact poison control immediately."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bradyarrhythmien, AV-Block II. und III. Grades — Veratridin verstärkt Bradykardie dramatisch",
+        "en": "Bradyarrhythmias, AV block grade II and III — veratridine dramatically worsens bradycardia"
+      },
+      {
+        "de": "Arterielle Hypotonie und Volumenmangel — Veratrum-Alkaloide induzieren Bezold-Jarisch-Reflex mit weiterem Blutdruckabfall",
+        "en": "Arterial hypotension and hypovolaemia — Veratrum alkaloids induce Bezold-Jarisch reflex with further drop in blood pressure"
+      },
+      {
+        "de": "Schwere koronare Herzkrankheit und Herzinsuffizienz",
+        "en": "Severe coronary artery disease and heart failure"
+      },
+      {
+        "de": "Gleichzeitige Therapie mit Digitalis-Glykosiden — kumulative Kardiotoxizität",
+        "en": "Concurrent therapy with digitalis glycosides — cumulative cardiotoxicity"
+      },
+      {
+        "de": "Niereninsuffizienz (verzögerte Ausscheidung steroidaler Alkaloide)",
+        "en": "Renal insufficiency (delayed excretion of steroidal alkaloids)"
+      },
+      {
+        "de": "Akute oder chronische gastrointestinale Erkrankungen (Veratrum ist stark emetisch und mukosareizend)",
+        "en": "Acute or chronic gastrointestinal disorders (Veratrum is strongly emetic and mucosal-irritant)"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche (siehe oben)",
+        "en": "Pregnancy, lactation, children and adolescents (see above)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Herzglykoside (Digoxin, Digitoxin)",
+        "mechanism": {
+          "de": "Additive Kardiotoxizität: Veratrum-Alkaloide aktivieren Natriumkanäle und steigern die Vagus-Aktivität (Bezold-Jarisch); kombiniert mit Digitalis erhöhtes Risiko für Bradyarrhythmien, AV-Block und ventrikuläre Arrhythmien.",
+          "en": "Additive cardiotoxicity: Veratrum alkaloids activate sodium channels and increase vagal activity (Bezold-Jarisch); combined with digitalis, increased risk of bradyarrhythmias, AV block, and ventricular arrhythmias."
+        },
+        "severity": "avoid",
+        "source_id": "src-va-wiki-en"
+      },
+      {
+        "drug_class": "Antihypertensiva (ACE-Hemmer, Betablocker, Calciumkanalblocker, Diuretika)",
+        "mechanism": {
+          "de": "Veratrum-Alkaloide wirken stark blutdrucksenkend; Kombination mit Antihypertensiva führt zu schwerer Hypotonie und Kollaps. Historisch wurde Veratrum genau dafür klinisch verwendet — heute klar kontraindiziert.",
+          "en": "Veratrum alkaloids are strongly hypotensive; combination with antihypertensives causes severe hypotension and collapse. Historically Veratrum was used clinically for exactly this — now clearly contraindicated."
+        },
+        "severity": "avoid",
+        "source_id": "src-va-wiki-genus"
+      },
+      {
+        "drug_class": "Antiarrhythmika (Klasse I — Chinidin, Lidocain; Klasse III — Amiodaron, Sotalol)",
+        "mechanism": {
+          "de": "Pharmakodynamische Interaktion an Natriumkanälen und am AV-Knoten — addierte oder antagonistische Effekte unkontrollierbar; lebensbedrohliche Rhythmusstörungen möglich.",
+          "en": "Pharmacodynamic interaction at sodium channels and AV node — additive or antagonistic effects uncontrollable; life-threatening arrhythmias possible."
+        },
+        "severity": "avoid",
+        "source_id": "src-va-wiki-en"
+      },
+      {
+        "drug_class": "Hedgehog-Pathway-Inhibitoren (Vismodegib, Sonidegib)",
+        "mechanism": {
+          "de": "Cyclopamin aus Veratrum hemmt denselben Smoothened-Rezeptor wie Vismodegib/Sonidegib; kombinierte Exposition (z. B. durch Phytotherapie-Versuche) könnte additive Hemmung des Hedgehog-Signalwegs und Smoothened-bedingte Nebenwirkungen (Muskelkrämpfe, Geschmacksverlust, Alopezie) verstärken.",
+          "en": "Cyclopamine from Veratrum inhibits the same Smoothened receptor as vismodegib/sonidegib; combined exposure (e.g. via phytotherapy attempts) could additively inhibit the hedgehog pathway and intensify Smoothened-related side effects (muscle cramps, ageusia, alopecia)."
+        },
+        "severity": "avoid",
+        "source_id": "src-va-wiki-vismodegib"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -69,6 +322,70 @@
       "title": "Veratrum album (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Veratrum_album",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-va-wiki-de",
+      "type": "wikipedia",
+      "title": "Weisser Germer — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Wei%C3%9Fer_Germer",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-va-wiki-en",
+      "type": "wikipedia",
+      "title": "Veratrum album — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Veratrum_album",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-va-wiki-genus",
+      "type": "wikipedia",
+      "title": "Veratrum (genus) — Wikipedia (EN) [Anticyra-Mythos, antihypertensive Forschung]",
+      "url": "https://en.wikipedia.org/wiki/Veratrum",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-va-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Veratrum album",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Veratrum+album",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-va-wikidata",
+      "type": "wikidata",
+      "title": "Veratrum album — Wikidata Q157547",
+      "url": "https://www.wikidata.org/wiki/Q157547",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-va-wiki-cyclopamine",
+      "type": "wikipedia",
+      "title": "Cyclopamine — Wikipedia (EN) [Idaho-Lamm-Cyclopia 1957, Hedgehog-Signalweg]",
+      "url": "https://en.wikipedia.org/wiki/Cyclopamine",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-va-wiki-vismodegib",
+      "type": "wikipedia",
+      "title": "Vismodegib (Erivedge) — Wikipedia (EN) [FDA-Zulassung 30.01.2012, Basalzellkarzinom]",
+      "url": "https://en.wikipedia.org/wiki/Vismodegib",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-va-bfr-giftpflanzen",
+      "type": "monograph",
+      "title": "BfR (Bundesinstitut für Risikobewertung): Steckbriefe giftiger Pflanzen — Verzeichnis (Weisser Germer / Veratrum album als typische Giftpflanze)",
+      "url": "https://www.bfr.bund.de/de/giftpflanzen.html",
+      "accessed": "2026-05-26",
+      "language": "de"
     }
   ],
   "image": {
@@ -80,5 +397,119 @@
     "license": "CC BY 2.5",
     "author": "User:Tigerente",
     "source_url": "https://commons.wikimedia.org/wiki/File:Veratrum_album_Dachstein.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Protoveratrine A",
+      "category": "alkaloid",
+      "percent_range": "0.2-1.5 % (Höhenabhängigkeit)",
+      "note": {
+        "de": "Steroidales Veratrum-Alkaloid, eines der beiden Hauptalkaloide (mit Protoveratrin B). Konzentration in der Wurzel auf 700 m Höhe rund 1,5 %, sinkt auf 2500 m auf ca. 0,2 % (Wikipedia DE). Wirkungsstark in Zentigramm-Dosen; historisch klinisch als Antihypertensivum geprüft, wegen extrem schmaler therapeutischer Breite verlassen.",
+        "en": "Steroidal Veratrum alkaloid, one of the two principal alkaloids (with protoveratrine B). Root concentration around 1.5 % at 700 m altitude, falling to ~0.2 % at 2500 m (Wikipedia DE). Active in centigram doses; historically tested clinically as antihypertensive, abandoned due to extremely narrow therapeutic index."
+      }
+    },
+    {
+      "name": "Protoveratrine B",
+      "category": "alkaloid",
+      "percent_range": "siehe Protoveratrin A (Gemisch)",
+      "note": {
+        "de": "Zweites Hauptalkaloid des Weissen Germers, strukturell eng verwandt mit Protoveratrin A. Aktiviert spannungsgesteuerte Natriumkanäle persistent → starker Vagusreflex (Bezold-Jarisch), Bradykardie, Hypotonie.",
+        "en": "Second principal alkaloid of white false-hellebore, structurally closely related to protoveratrine A. Persistently activates voltage-gated sodium channels → strong vagal reflex (Bezold-Jarisch), bradycardia, hypotension."
+      }
+    },
+    {
+      "name": "Veratridine",
+      "category": "alkaloid",
+      "percent_range": "Spuren bis < 0.5 %",
+      "note": {
+        "de": "Leitsubstanz der Veratrum-Toxikologie; persistent öffnender Natriumkanal-Aktivator; klassische pharmakologische Modellsubstanz für die Na⁺-Kanal-Forschung. Wirkt arrhythmogen, neurotoxisch und brechreizend.",
+        "en": "Lead substance of Veratrum toxicology; persistent activator of sodium channels; classical pharmacological model substance for Na⁺ channel research. Arrhythmogenic, neurotoxic, and emetic."
+      }
+    },
+    {
+      "name": "Jervine",
+      "category": "alkaloid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Steroidalkaloid des Cevan-Typs; Vorläufer und nahe Verwandter des Cyclopamins; teratogen (Hedgehog-Pathway-Hemmer); strukturell C-nor-D-homo-Steroid.",
+        "en": "Steroidal alkaloid of the cevane type; precursor and close relative of cyclopamine; teratogenic (hedgehog pathway inhibitor); structurally a C-nor-D-homo steroid."
+      }
+    },
+    {
+      "name": "Cyclopamine (11-Deoxojervine)",
+      "category": "alkaloid",
+      "percent_range": "nicht quantifiziert (in V. californicum reichlicher)",
+      "note": {
+        "de": "Steroidalkaloid; klassischer Smoothened-Antagonist im Sonic-Hedgehog-Signalweg; ursächlich für die Idaho-Lammverkrüppelungen mit Cyclopia 1957 (V. californicum). Pharmazeutische Bedeutung: Vorbild für Vismodegib (Erivedge, FDA-Zulassung 2012) gegen Basalzellkarzinom — Vismodegib ist allerdings ein semi-synthetisches Kleinmolekül und KEIN Pflanzenextrakt.",
+        "en": "Steroidal alkaloid; classical Smoothened antagonist in the sonic hedgehog pathway; causative agent of the 1957 Idaho lamb cyclopia outbreak (V. californicum). Pharmaceutical significance: template for vismodegib (Erivedge, FDA approval 2012) against basal cell carcinoma — however, vismodegib is a semi-synthetic small molecule and NOT a plant extract."
+      }
+    },
+    {
+      "name": "Veratramine",
+      "category": "alkaloid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Steroidalkaloid; weniger toxisch als Veratridin und Protoveratrine; pharmakologisch hypotensiv und schwacher Antagonist serotonerger Rezeptoren in experimentellen Modellen.",
+        "en": "Steroidal alkaloid; less toxic than veratridine and protoveratrines; pharmacologically hypotensive and a weak antagonist at serotonergic receptors in experimental models."
+      }
+    },
+    {
+      "name": "Germerine / Germidine / Germitrine",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Estergruppe weiterer Veratrum-Alkaloide; chemotaxonomisch typisch für Veratrum album. Pharmakologische Eigenschaften ähnlich Protoveratrinen — hypotensiv, kardiotoxisch.",
+        "en": "Group of further Veratrum ester alkaloids; chemotaxonomically typical of Veratrum album. Pharmacological properties similar to protoveratrines — hypotensive, cardiotoxic."
+      }
+    },
+    {
+      "name": "Cevadine",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Steroidalkaloid der Cevan-Reihe; ebenfalls Na⁺-Kanal-aktivierend; vor allem in Veratrum-Samen historisch beschrieben (Sabadilla-Insektizide).",
+        "en": "Steroidal alkaloid of the cevane series; also sodium channel-activating; historically described primarily in Veratrum seeds (sabadilla insecticides)."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "rhizome",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Frühherbst nach Welken der oberirdischen Pflanzenteile (PFAF). Zu diesem Zeitpunkt ist der Veratrum-Alkaloidgehalt im Rhizom maximal — gleichzeitig ist die Verwechslungsgefahr mit Gelbem Enzian am höchsten, weil beide Pflanzen ihre Blütenstände bereits verloren haben.",
+        "en": "Early autumn after wilting of aerial parts (PFAF). At this time the Veratrum alkaloid content in the rhizome is maximal — at the same time the risk of confusion with yellow gentian is highest because both species have already lost their inflorescences."
+      },
+      "drying": {
+        "de": "ACHTUNG: ausschliesslich für botanisch-dokumentarische Zwecke. Rhizom waschen, in Scheiben schneiden, bei max. 40 °C im Schatten trocknen; Wurzelpulver setzt beim Mahlen schleimhautreizende Partikel frei — ATEMSCHUTZ (FFP2/FFP3) und SCHUTZHANDSCHUHE PFLICHT. Getrocknetes Material klar als 'GIFTIG — Veratrum album' beschriften.",
+        "en": "CAUTION: for botanical-documentary purposes only. Wash rhizome, slice, dry at max. 40 °C in shade; grinding the root releases mucosa-irritant particles — RESPIRATORY PROTECTION (FFP2/FFP3) and PROTECTIVE GLOVES MANDATORY. Label dried material clearly as 'TOXIC — Veratrum album'."
+      },
+      "notes": {
+        "de": "KRITISCH bei der Bestimmung: Veratrum album hat WECHSELSTÄNDIGE, fast dreizeilig angeordnete, parallelnervige Blätter mit deutlicher Riefung. Gelber Enzian hat KREUZGEGENSTÄNDIGE, glatte Blätter. Bei Sammlern für Enzian-Schnaps regelmässig tödliche Verwechslungen, besonders in den Alpen. Lagerung getrennt von Lebensmitteln, kindersicher.",
+        "en": "CRITICAL for identification: Veratrum album has ALTERNATE, near-three-ranked, parallel-veined leaves with prominent grooving. Yellow gentian has OPPOSITE, smooth leaves. Fatal confusions occur regularly among gentian-schnapps collectors, especially in the Alps. Store separately from food, childproof."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Hochsommer zur Blüte (Juli/August). Blütenstand ist zur Bestimmung botanisch wichtig — vielblütige, verzweigte Rispe mit weiss-grünen, sechszähligen Blüten. Auch nicht-blühende Vegetationsteile enthalten Veratrum-Alkaloide; bereits Hautkontakt kann örtliche Reizung verursachen.",
+        "en": "High summer at flowering (July/August). The inflorescence is botanically important for identification — many-flowered, branched panicle with whitish-green six-merous flowers. Non-flowering vegetative parts also contain Veratrum alkaloids; even skin contact can cause local irritation."
+      },
+      "drying": {
+        "de": "Nur für Herbarium/Dokumentation; medizinische Verwendung der oberirdischen Teile ist nicht etabliert. Trocknung bei 30–40 °C im Schatten, Schutzhandschuhe tragen, getrennt als GIFTIG lagern.",
+        "en": "For herbarium/documentation only; medicinal use of aerial parts is not established. Drying at 30–40 °C in shade, wear protective gloves, store separately as TOXIC."
+      },
+      "notes": {
+        "de": "Heuvergiftungen bei Weidetieren sind dokumentiert — Veratrum album kontaminiert Heuwiesen in Berggebieten. Sorgfältiges Auslesen vor der Mahd notwendig.",
+        "en": "Hay poisoning of grazing animals is documented — Veratrum album contaminates hay meadows in mountainous areas. Careful sorting before mowing is necessary."
+      }
+    }
+  ]
 }

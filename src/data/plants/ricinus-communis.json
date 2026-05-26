@@ -20,19 +20,159 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-rc-01",
       "target": [
-        "caution"
+        "digestion"
       ],
-      "internal_external": "external",
+      "form": "raw",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Rizinusöl (Oleum ricini), durch Kaltpressung aus den Samen gewonnen, ist seit dem altägyptischen Papyrus Ebers (ca. 1550 v. Chr.) als Abführmittel dokumentiert und gilt heute als das am längsten ununterbrochen verwendete Laxans der Menschheitsgeschichte. Wirkmechanismus: Im Dünndarm wird Rizinolsäure aus den Triglyceriden freigesetzt; sie reizt die Darmschleimhaut und steigert die Peristaltik. Wirkungseintritt nach 2–6 Stunden. Wichtig: Das gepresste Öl ist FREI von Rizin — das wasserlösliche Lectin verbleibt im Presskuchen; zusätzlich wird das Öl auf über 80 °C erhitzt, was Rizin denaturiert.",
+        "en": "Castor oil (Oleum ricini), obtained by cold-pressing the seeds, has been documented as a laxative since the ancient Egyptian Ebers Papyrus (c. 1550 BC) and is today regarded as the most continuously used laxative in human history. Mechanism: in the small intestine, ricinoleic acid is released from the triglycerides; it irritates the intestinal mucosa and increases peristalsis. Onset of action 2–6 hours. Important: pressed oil is FREE of ricin — the water-soluble lectin remains in the press-cake; additionally the oil is heated above 80 °C which denatures ricin."
+      },
+      "preparation": {
+        "ratio": "pure oil",
+        "solvent": "none — cold-pressed"
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-rc-wiki-en",
+        "src-rc-wiki-castoroil",
+        "src-rc-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-rc-02",
+      "target": [
+        "skin"
+      ],
+      "form": "salve",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Äusserliche Anwendung von Rizinusöl bei trockener Haut, Hautekzemen, Schuppenflechte und Schuppenbildung der Kopfhaut. Der historische Beiname Palma Christi ('Hand Christi') verweist auf die volksmedizinische Reputation, Wunden zu heilen und Beschwerden zu lindern. Modern: kosmetische Hautpflege, Augenbrauen- und Wimpernpflege; in der dermatologischen Volksmedizin auch bei Berufsekzemen.",
+        "en": "External application of castor oil for dry skin, eczema, psoriasis and scalp dandruff. The historical epithet Palma Christi ('Hand of Christ') refers to the folk-medicinal reputation of healing wounds and alleviating ailments. Modern: cosmetic skincare, eyebrow and eyelash care; in dermatological folk medicine also for occupational eczema."
+      },
+      "preparation": {
+        "ratio": "pure oil",
+        "solvent": "none — applied undiluted"
+      },
+      "source_ids": [
+        "src-rc-pfaf",
+        "src-rc-wiki-castoroil"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-rc-03",
+      "target": [
+        "menstrual"
+      ],
+      "form": "raw",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische volksgeburtshilfliche Verwendung von Rizinusöl zur Geburtseinleitung am Termin — der sogenannte 'Wehencocktail' aus Rizinusöl, Aprikosensaft, Sekt oder warmem Bad ist in deutsch-sprachigen Hebammenkreisen bis heute gelegentlich gebräuchlich. Wirkmechanismus pharmakologisch nicht eindeutig geklärt; ein Cochrane-Review-Update 2024 kommt zum Schluss, dass keine hochwertige Evidenz für Zervixreifung oder Geburtsinduktion existiert, dass aber regelmässig Übelkeit und Durchfall auftreten. Anwendung nur unter geburtshilflicher Aufsicht.",
+        "en": "Historical folk-obstetric use of castor oil for labour induction at term — the so-called 'labour cocktail' of castor oil, apricot juice, sparkling wine or a warm bath is still occasionally used in German-speaking midwifery circles. Pharmacological mechanism not clearly understood; a 2024 Cochrane-style review concludes that no high-quality evidence exists for cervical ripening or labour induction, but that nausea and diarrhoea occur regularly. Use only under obstetric supervision."
+      },
+      "preparation": {
+        "ratio": "pure oil",
+        "solvent": "none — undiluted oil, mixed with juice"
+      },
+      "source_ids": [
+        "src-rc-wiki-castoroil",
+        "src-rc-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-rc-04",
+      "target": [
+        "skin"
+      ],
+      "form": "compress",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Anwendung von Rizinusöl-Packungen ('Castor Oil Packs') auf Bauch und Leber als naturheilkundliche Entgiftungs- und Entzündungsanwendung, populär gemacht durch den US-Heiler Edgar Cayce. Wissenschaftliche Evidenz fehlt; Anwendung gilt als allgemein hautverträglich. Auch Samenpulver wurde lokal auf Abszesse und Hautinfektionen aufgelegt.",
+        "en": "Folk medicinal application of castor oil packs on the abdomen and liver as a naturopathic detoxification and anti-inflammatory practice, popularised by US healer Edgar Cayce. Scientific evidence is lacking; the application is generally considered skin-friendly. Seed powder was also applied locally to abscesses and skin infections."
+      },
+      "preparation": {
+        "ratio": "saturated cloth",
+        "solvent": "none — castor oil on flannel cloth"
+      },
+      "source_ids": [
+        "src-rc-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-rc-05",
+      "target": [
+        "respiratory"
+      ],
+      "form": "tea",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Verwendung von Rizinus-Blattabsuden bei Husten und Atemwegsbeschwerden in Indien und Westafrika. Blätter gelten als nur mild toxisch (der Hauptgiftstoff Rizin ist in den Samen lokalisiert), dennoch ist die Anwendung wegen unklarem Wirkstoffprofil heute nicht empfohlen. In der ayurvedischen Medizin ('Eranda') traditioneller Bestandteil polyherbaler Rezepturen.",
+        "en": "Folk medicinal use of castor leaf decoctions for cough and respiratory complaints in India and West Africa. Leaves are considered only mildly toxic (the main toxin ricin is localised in the seeds), but the application is not recommended today due to an unclear active-substance profile. In Ayurvedic medicine ('Eranda'), a traditional component of polyherbal formulations."
+      },
+      "preparation": {
+        "ratio": "1:20",
+        "water_ml": 250,
+        "steep_min": 10
+      },
+      "source_ids": [
+        "src-rc-pfaf",
+        "src-rc-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-rc-06",
+      "target": [
+        "joints"
+      ],
+      "form": "salve",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Einreibung mit Rizinusöl bei Gelenkschmerzen, Arthrose und rheumatischen Beschwerden. In der ayurvedischen Tradition wird Eranda-Öl warm massiert; Rizinolsäure wirkt mild reizend und durchblutungsfördernd auf die Haut. Antimikrobielle Begleitwirkung gegen Bakterien und Pilze ist plausibel, klinische Evidenz für die rheumatologische Indikation jedoch schwach.",
+        "en": "Folk medicinal rubbing with castor oil for joint pain, osteoarthritis and rheumatic complaints. In the Ayurvedic tradition, Eranda oil is massaged warm; ricinoleic acid acts mildly irritating and circulation-promoting on the skin. Antimicrobial activity against bacteria and fungi is plausible, but clinical evidence for the rheumatological indication is weak."
+      },
+      "preparation": {
+        "ratio": "pure oil, warmed",
+        "solvent": "none"
+      },
+      "source_ids": [
+        "src-rc-pfaf",
+        "src-rc-wiki-castoroil"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-rc-07",
+      "target": [
+        "nutrition"
+      ],
+      "form": "raw",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Industrielle und technische Verwendung des Rizinusöls (kein medizinischer Gebrauch): hochwertiger Schmierstoff für Hochleistungsmotoren (Rotationsmotoren der WWI-Flugzeuge, klassische Rennwagen — 'Castrol R'), Komponente in Biodiesel, Ausgangsstoff für Sebacinsäure und Nylon-11, sulfoniertes 'Türkischrotöl' als historischer Detergens. Polyglycerol-Polyricinoleat (PGPR, E476) ist ein in Schokoladenherstellung zugelassener Emulgator.",
+        "en": "Industrial and technical use of castor oil (no medicinal use): high-grade lubricant for high-performance engines (rotary engines of WWI aircraft, classic racing cars — 'Castrol R'), component in biodiesel, feedstock for sebacic acid and nylon-11, sulphonated 'Turkey Red Oil' as historical detergent. Polyglycerol polyricinoleate (PGPR, E476) is an emulsifier approved in chocolate manufacturing."
+      },
+      "preparation": {
+        "ratio": "pure oil",
+        "solvent": "none"
+      },
+      "source_ids": [
+        "src-rc-wiki-castoroil",
+        "src-rc-wiki-en"
+      ],
+      "internal_external": "external"
     }
   ],
   "season": {
@@ -47,12 +187,114 @@
   },
   "safety": {
     "warnings": {
-      "de": "EXTREM GIFTIG (Ricin) — eines der stärksten bekannten Pflanzengifte. Schon 1-2 Samen können für Kinder tödlich sein. Das gepresste Rizinusöl ist hingegen ungiftig (Ricin bleibt im Presskuchen). Beliebte Zierpflanze mit auffallend bunten Blättern — Samen wegen attraktivem Aussehen besonders gefährlich für Kinder.",
-      "en": "EXTREMELY TOXIC (ricin) — one of the most potent known plant poisons. Just 1-2 seeds can be lethal for children. Pressed castor oil is however non-toxic (ricin remains in the press-cake). Popular ornamental with strikingly colourful leaves — seeds particularly dangerous for children due to attractive appearance."
+      "de": "SAMEN EXTREM GIFTIG (Rizin) — ÖL UNBEDENKLICH bei pharmazeutischer Qualität. Wichtige Trennung: (1) Ganze Samen enthalten das hochpotente Toxin Rizin (1–5 % des Samenproteins), ein Typ-2-Ribosom-inaktivierendes Lectin. Bereits 4–8 zerkaute Samen können einen Erwachsenen töten; orale LD ca. 1 mg/kg, bei Injektion oder Inhalation tausendfach toxischer (LD50 i.p. Maus ca. 22 μg/kg). Vergiftungssymptome: Brennen in Mund und Rachen, Bauchschmerzen, blutige Diarrhoe, Erbrechen, Multiorganversagen mit Latenz von 2–36 Stunden, Tod 3–5 Tage. Kein spezifisches Antidot — nur supportive Therapie. (2) Kaltgepresstes Rizinusöl ist FREI von Rizin (wasserlöslich, bleibt im Presskuchen; zusätzlich wird Öl auf >80 °C erhitzt zur Denaturierung) und ist als OTC-Laxans weltweit zugelassen. Rizin ist gemäss Chemiewaffenkonvention 1997 und Biowaffenkonvention 1972 als Schedule-1-Substanz gelistet — historisch bekannt durch das Markov-Attentat 1978 in London (mit Rizin-Pellet ermordet via präparierten Regenschirm). Kinder und Haustiere fernhalten von Samen und unzerkleinerter Pflanze.",
+      "en": "SEEDS EXTREMELY TOXIC (ricin) — OIL SAFE at pharmaceutical quality. Important distinction: (1) Whole seeds contain the highly potent toxin ricin (1–5 % of seed protein), a type-2 ribosome-inactivating lectin. As few as 4–8 chewed seeds can kill an adult; oral LD approx. 1 mg/kg, by injection or inhalation a thousandfold more toxic (LD50 i.p. mouse approx. 22 μg/kg). Poisoning symptoms: burning sensation in mouth and throat, abdominal pain, bloody diarrhoea, vomiting, multi-organ failure with a latency of 2–36 hours, death within 3–5 days. No specific antidote — only supportive therapy. (2) Cold-pressed castor oil is FREE of ricin (water-soluble, remains in press-cake; additionally oil is heated above 80 °C for denaturation) and is approved worldwide as an OTC laxative. Ricin is listed as a Schedule-1 substance under the 1997 Chemical Weapons Convention and the 1972 Biological Weapons Convention — historically known for the 1978 Markov assassination in London (ricin pellet fired via a modified umbrella). Keep children and pets away from seeds and uncrushed plant."
     },
-    "external_only": true,
+    "external_only": false,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Ganze Rizinussamen sind in der Schwangerschaft strikt verboten — Rizinvergiftung und schwerer Volumenverlust durch Durchfall gefährden Mutter und Kind. Auch reines Rizinusöl als Laxans ist in der Schwangerschaft nur unter ärztlicher Aufsicht (z. B. zur Geburtseinleitung am Termin durch Hebamme/Gynäkologe), nicht zur Selbstmedikation, da es uterine Kontraktionen auslösen kann.",
+        "en": "Whole castor seeds are strictly forbidden during pregnancy — ricin poisoning and severe volume loss through diarrhoea endanger mother and child. Pure castor oil as a laxative is also only to be used under medical supervision during pregnancy (e.g. for term labour induction by midwife/obstetrician), not for self-medication, as it can trigger uterine contractions."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Ganze Samen und Pflanzenmaterial in der Stillzeit strikt kontraindiziert. Kleine Mengen reines, pharmazeutisch geprüftes Rizinusöl gelten als laktationsverträglich, sollten aber wegen Durchfallrisiko beim Säugling nur ärztlich indiziert eingesetzt werden.",
+        "en": "Whole seeds and plant material are strictly contraindicated during lactation. Small amounts of pure, pharmaceutical-grade castor oil are considered compatible with lactation but should be used only on medical indication due to the risk of diarrhoea in the infant."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Rizinussamen sind die häufigste Ursache schwerer Pflanzenvergiftungen bei Kindern in der Mittelmeerregion — die bunt gemusterten, bohnenartigen Samen sind optisch attraktiv und schon 1–2 zerkaute Samen können tödlich sein. Bei Verdacht auf Samenverzehr: SOFORT Notruf und Giftnotruf. Rizinusöl als Laxans wird in der Pädiatrie wegen unangenehmer Wirkung und Krampfgefahr nicht mehr eingesetzt; sanftere Alternativen (Macrogol, Lactulose) sind Standard.",
+        "en": "Castor seeds are the most common cause of severe plant poisoning in children in the Mediterranean region — the colourfully patterned, bean-like seeds are visually attractive and as few as 1–2 chewed seeds can be lethal. In suspected seed ingestion: IMMEDIATELY call emergency services and poison control. Castor oil as a laxative is no longer used in paediatrics due to its unpleasant effect and risk of cramping; gentler alternatives (macrogol, lactulose) are standard."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Allergie gegen Rizinusprotein (Rizin-allergische Reaktionen, anaphylaktischer Schock dokumentiert)",
+        "en": "Known allergy to castor protein (ricin-allergic reactions, anaphylactic shock documented)"
+      },
+      {
+        "de": "Ileus, mechanischer Darmverschluss, akutes Abdomen (Verstärkung durch Rizinusöl als Laxans)",
+        "en": "Ileus, mechanical bowel obstruction, acute abdomen (potentiation by castor oil as laxative)"
+      },
+      {
+        "de": "Akute entzündliche Darmerkrankungen (Morbus Crohn-Schub, Colitis ulcerosa-Schub)",
+        "en": "Acute inflammatory bowel disease (Crohn's flare-up, ulcerative colitis flare-up)"
+      },
+      {
+        "de": "Appendizitis-Verdacht und unklare Bauchschmerzen",
+        "en": "Suspected appendicitis and unclear abdominal pain"
+      },
+      {
+        "de": "Schwere Dehydration und Elektrolytstörungen (Hypokaliämie durch Diarrhoe verschärft)",
+        "en": "Severe dehydration and electrolyte disorders (hypokalaemia worsened by diarrhoea)"
+      },
+      {
+        "de": "Schwangerschaft (siehe oben) — ausser kontrollierte Geburtseinleitung am Termin",
+        "en": "Pregnancy (see above) — except controlled labour induction at term"
+      },
+      {
+        "de": "Kinder unter 12 Jahren bei Laxans-Indikation (sanftere Alternativen vorhanden)",
+        "en": "Children under 12 years for laxative indication (gentler alternatives available)"
+      },
+      {
+        "de": "Verzehr von WHOLE SAMEN ist absolut verboten — extreme Vergiftungsgefahr durch Rizin",
+        "en": "Consumption of WHOLE SEEDS is absolutely prohibited — extreme poisoning risk through ricin"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Andere Laxanzien (Bisacodyl, Sennoside, Macrogol)",
+        "mechanism": {
+          "de": "Additive laxierende Wirkung mit Risiko für schwere Diarrhoe, Volumenverlust und Hypokaliämie.",
+          "en": "Additive laxative effect with risk of severe diarrhoea, volume loss and hypokalaemia."
+        },
+        "severity": "avoid",
+        "source_id": "src-rc-wiki-castoroil"
+      },
+      {
+        "drug_class": "Herzglykoside (Digoxin, Digitoxin)",
+        "mechanism": {
+          "de": "Rizinusöl-induzierte Hypokaliämie erhöht die Empfindlichkeit der Herzmuskelzelle gegenüber Digitalis-Glykosiden — Risiko für Arrhythmien und AV-Block.",
+          "en": "Castor oil-induced hypokalaemia increases the sensitivity of cardiac muscle to digitalis glycosides — risk of arrhythmia and AV block."
+        },
+        "severity": "caution",
+        "source_id": "src-rc-wiki-castoroil"
+      },
+      {
+        "drug_class": "Kaliumverlust-Diuretika (Schleifendiuretika, Thiazide)",
+        "mechanism": {
+          "de": "Additive Hypokaliämie durch Diuretikum plus Rizinusöl-Diarrhoe; klinisch relevant bei längerer Anwendung.",
+          "en": "Additive hypokalaemia from diuretic plus castor oil diarrhoea; clinically relevant with prolonged use."
+        },
+        "severity": "caution",
+        "source_id": "src-rc-pfaf"
+      },
+      {
+        "drug_class": "Lipidlösliche Medikamente (fettlösliche Vitamine A, D, E, K; orale Kontrazeptiva)",
+        "mechanism": {
+          "de": "Rizinusöl kann die Resorption fettlöslicher Substanzen durch Beschleunigung der Darmpassage und Bildung von Öl-Emulsionen vermindern — Wirkverlust möglich.",
+          "en": "Castor oil can reduce absorption of fat-soluble substances by accelerating intestinal transit and forming oil emulsions — loss of efficacy possible."
+        },
+        "severity": "caution",
+        "source_id": "src-rc-wiki-castoroil"
+      },
+      {
+        "drug_class": "Antikoagulanzien (Cumarine, Phenprocoumon, Warfarin)",
+        "mechanism": {
+          "de": "Verminderte Vitamin-K-Resorption durch Rizinusöl-induzierte beschleunigte Darmpassage kann die antikoagulatorische Wirkung verstärken — INR-Schwankungen möglich.",
+          "en": "Reduced vitamin K absorption due to castor oil-induced accelerated intestinal transit may potentiate the anticoagulant effect — INR fluctuations possible."
+        },
+        "severity": "monitor",
+        "source_id": "src-rc-wiki-castoroil"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -69,6 +311,62 @@
       "title": "Ricinus (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Ricinus",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-rc-wiki-en",
+      "type": "wikipedia",
+      "title": "Ricinus communis — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Ricinus_communis",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-rc-wiki-de",
+      "type": "wikipedia",
+      "title": "Ricinus communis — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Ricinus_communis",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-rc-wiki-ricin",
+      "type": "wikipedia",
+      "title": "Ricin — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Ricin",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-rc-wiki-castoroil",
+      "type": "wikipedia",
+      "title": "Castor oil — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Castor_oil",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-rc-pfaf",
+      "type": "book",
+      "title": "Plants For A Future — Ricinus communis",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ricinus+communis",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-rc-wikidata",
+      "type": "wikidata",
+      "title": "Ricinus communis — Wikidata Q155867",
+      "url": "https://www.wikidata.org/wiki/Q155867",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-rc-bfr",
+      "type": "monograph",
+      "title": "BfR (Bundesinstitut für Risikobewertung): Giftpflanzen im Überblick — Wunderbaum (Ricinus communis)",
+      "url": "https://www.bfr.bund.de/de/giftpflanzen.html",
+      "accessed": "2026-05-26",
+      "language": "de"
     }
   ],
   "image": {
@@ -80,5 +378,121 @@
     "license": "CC BY-SA 4.0",
     "author": "Wikimedia Commons contributors",
     "source_url": "https://commons.wikimedia.org/wiki/Category:Ricinus_communis"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Ricin (Typ-2 RIP-Lectin)",
+      "category": "other",
+      "percent_range": "1-5 % des Samenproteins",
+      "note": {
+        "de": "Hochpotentes Lectintoxin, ribosomeninaktivierendes Protein Typ 2; besteht aus zwei kovalent durch eine Disulfidbrücke verknüpften Ketten: A-Kette (267 AS, N-Glykosid-Hydrolase, blockiert die 60S-Untereinheit der Ribosomen) und B-Kette (262 AS, galaktosebindendes Lectin, ermöglicht Zelleintritt). Orale LD beim Menschen ca. 1 mg/kg; bei parenteraler Gabe etwa drei Grössenordnungen toxischer. Wasserlöslich — verbleibt im Presskuchen, NICHT im gepressten Öl. Listed als Schedule-1-Substanz unter CWC 1997 und BWC 1972.",
+        "en": "Highly potent lectin toxin, ribosome-inactivating protein type 2; consists of two chains covalently linked by a disulfide bond: A chain (267 aa, N-glycoside hydrolase, blocks the 60S ribosomal subunit) and B chain (262 aa, galactose-binding lectin, enables cell entry). Oral LD in humans approx. 1 mg/kg; parenteral about three orders of magnitude more toxic. Water-soluble — remains in the press-cake, NOT in pressed oil. Listed as Schedule-1 substance under CWC 1997 and BWC 1972."
+      }
+    },
+    {
+      "name": "Ricinin (Pyridon-Alkaloid)",
+      "category": "alkaloid",
+      "percent_range": "0.3-0.8 %",
+      "note": {
+        "de": "Pyridon-Alkaloid mit Cyano-Substituent; in allen Pflanzenteilen nachweisbar, besonders in jungen Blättern und Samen. Pharmakologisch viel weniger giftig als Rizin; dient kriminaltechnisch als Biomarker für Rizinusexposition (Nachweis im Urin von Vergiftungsopfern).",
+        "en": "Pyridone alkaloid with a cyano substituent; detectable in all plant parts, especially in young leaves and seeds. Pharmacologically much less toxic than ricin; serves forensically as a biomarker for castor exposure (detection in urine of poisoning victims)."
+      }
+    },
+    {
+      "name": "Ricinolsäure (Ricinoleic acid)",
+      "category": "other",
+      "percent_range": "85-92 % des Rizinusöls",
+      "note": {
+        "de": "Ungewöhnliche hydroxylierte ungesättigte C18-Fettsäure ((9Z,12R)-12-Hydroxy-octadec-9-ensäure); dominierende Komponente des Rizinusöls (über 75 % als Triglycerid-Ester). Wirkmechanismus des Laxans: Spaltung im Dünndarm durch Lipasen → freie Säure → Reizung der Darmschleimhaut, EP3-Rezeptor-Aktivierung, Peristaltiksteigerung. Auch antimikrobielle Eigenschaften gegen Bakterien, Pilze und Viren.",
+        "en": "Unusual hydroxylated unsaturated C18 fatty acid ((9Z,12R)-12-hydroxy-octadec-9-enoic acid); dominant component of castor oil (over 75 % as triglyceride ester). Laxative mechanism: cleavage in the small intestine by lipases → free acid → irritation of the intestinal mucosa, EP3 receptor activation, increased peristalsis. Also antimicrobial properties against bacteria, fungi and viruses."
+      }
+    },
+    {
+      "name": "Ricinusagglutinin (RCA120)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Hämagglutinierendes Lectin im Samen, strukturell mit Rizin verwandt (etwa 60 % Sequenzidentität), jedoch deutlich weniger toxisch. Bindet wie Rizin an Galaktosereste und kann Erythrozyten agglutinieren; wichtig für die Laborchemie und histochemische Färbetechniken.",
+        "en": "Haemagglutinating lectin in the seed, structurally related to ricin (about 60 % sequence identity) but markedly less toxic. Binds like ricin to galactose residues and can agglutinate erythrocytes; important for laboratory chemistry and histochemical staining techniques."
+      }
+    },
+    {
+      "name": "Nudiflorin und Ricinidin (Begleitalkaloide)",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Weitere Pyridon-Alkaloide neben Ricinin; in geringen Mengen in Samen und Blättern nachgewiesen; pharmakologische Bedeutung gering.",
+        "en": "Further pyridone alkaloids alongside ricinine; detected in small amounts in seeds and leaves; pharmacological significance minor."
+      }
+    },
+    {
+      "name": "Ricinolein (Triglyceride der Ricinolsäure)",
+      "category": "other",
+      "percent_range": "über 75 % des fetten Öls",
+      "note": {
+        "de": "Triglyzeride mit Ricinolsäure als dominierender Fettsäure; bilden die Hauptkomponente des kaltgepressten Rizinusöls. Hohe Viskosität und ungewöhnlich gute Schmiereigenschaften — daher industriell als Hochleistungsschmierstoff genutzt.",
+        "en": "Triglycerides with ricinoleic acid as the dominant fatty acid; form the main component of cold-pressed castor oil. High viscosity and unusually good lubricating properties — hence industrially used as a high-performance lubricant."
+      }
+    },
+    {
+      "name": "Phytinsäure / Phytat (Phosphorquelle)",
+      "category": "other",
+      "percent_range": "Hauptphosphorform im Samen (ca. 90 % des Samen-P)",
+      "note": {
+        "de": "Inositol-Hexaphosphat; Hauptspeicherform von Phosphor im Samen. Pharmakologisch unbedeutend, ernährungsphysiologisch ein Antinährstoff (bindet Mineralien).",
+        "en": "Inositol hexaphosphate; main storage form of phosphorus in the seed. Pharmacologically insignificant, nutritionally an anti-nutrient (binds minerals)."
+      }
+    },
+    {
+      "name": "Flavonoide und Phenolsäuren",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Begleitsubstanzen in Blättern und Samenschalen (Kaempferol- und Quercetin-Glykoside, Gallussäure-Derivate); antioxidativ wirksam, pharmakologisch im Vergleich zu Rizin und Ricinolsäure von untergeordneter Bedeutung.",
+        "en": "Accompanying substances in leaves and seed coats (kaempferol and quercetin glycosides, gallic acid derivatives); antioxidant active, pharmacologically of subordinate significance compared with ricin and ricinoleic acid."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "seed",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Bei trockenem Wetter, sobald die stacheligen Fruchtkapseln aufplatzen — Samen werden mit Knall ausgeschleudert (Fernverbreitung).",
+        "en": "In dry weather as soon as the spiny seed capsules burst open — seeds are ejected explosively (ballistic dispersal)."
+      },
+      "drying": {
+        "de": "Samen luftgetrocknet bei Raumtemperatur, NICHT mit blossen Händen anfassen; Schutzhandschuhe und Maske beim Mahlen oder Pressen tragen (Aerosol-Rizin extrem toxisch bei Inhalation). Für pharmazeutische Ölgewinnung folgt Kaltpressung und anschliessende Erhitzung über 80 °C zur Rizin-Denaturierung.",
+        "en": "Seeds air-dried at room temperature, do NOT handle with bare hands; wear protective gloves and a mask when grinding or pressing (aerosol ricin extremely toxic on inhalation). For pharmaceutical oil extraction, cold pressing is followed by heating above 80 °C for ricin denaturation."
+      },
+      "notes": {
+        "de": "Samen sind die toxischste Komponente — 1–8 zerkaute Samen können tödlich sein. Klar als RIZIN-HALTIG / GIFTIG kennzeichnen und sicher aufbewahren. Verarbeitung zur Ölgewinnung nur industriell mit Rizin-Inaktivierungsschritt.",
+        "en": "Seeds are the most toxic component — 1–8 chewed seeds can be lethal. Clearly label as RICIN-CONTAINING / TOXIC and store securely. Processing for oil extraction only industrially with a ricin inactivation step."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Vormittags nach Tautrocknung — junge, glänzende Blätter haben den höchsten Ricinin-Gehalt",
+        "en": "Morning after dew has dried — young, glossy leaves have the highest ricinine content"
+      },
+      "drying": {
+        "de": "Blätter locker auslegen, bei 30–40 °C im Schatten trocknen. Blätter gelten als nur mild toxisch (kein Rizin in den Blättern, nur Ricinin und andere Alkaloide), doch Schutzhandschuhe sind empfohlen. Nicht mit Samenmaterial vermischen.",
+        "en": "Lay leaves loosely, dry at 30–40 °C in shade. Leaves are considered only mildly toxic (no ricin in leaves, only ricinine and other alkaloids), but protective gloves are recommended. Do not mix with seed material."
+      },
+      "notes": {
+        "de": "Blattmaterial ist in der ayurvedischen Tradition Bestandteil von Eranda-Zubereitungen; im westlichen Phytotherapie-Kontext wegen geringer Datenlage nicht empfohlen.",
+        "en": "Leaf material is part of Eranda preparations in the Ayurvedic tradition; in Western phytotherapy contexts not recommended due to sparse data."
+      }
+    }
+  ]
 }

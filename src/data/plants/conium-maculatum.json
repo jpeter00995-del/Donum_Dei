@@ -20,19 +20,140 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-cm-01",
       "target": [
-        "caution"
+        "nervous_system",
+        "joints"
       ],
-      "internal_external": "external",
+      "form": "salve",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Historische externe Anwendung von Schierlings-Salben und -Ölauszügen bei Gicht, schmerzhaften Geschwüren, Tumoren und entzündeten Lymphknoten. Bereits in mittelalterlichen Kräuterbüchern (15.–16. Jahrhundert) sowie bei Nicholas Culpeper (1650er) für äusserliche Schwellungen empfohlen; im 18. Jahrhundert durch den Wiener Arzt Anton von Störck als „auflösendes und veränderndes\" Mittel propagiert. Officinal in Pharmakopöen 1864–1934. Heute wegen Toxizität (Hautresorption von Coniin) verlassen.",
+        "en": "Historical external use of hemlock ointments and oil extracts for gout, painful ulcers, tumours and inflamed lymph nodes. Already recommended in medieval herbals (15th–16th centuries) as well as by Nicholas Culpeper (1650s) for external swellings; in the 18th century promoted by the Viennese physician Anton von Störck as a 'resolving and altering' remedy. Officinal in pharmacopoeias 1864–1934. Today abandoned due to toxicity (skin absorption of coniine)."
+      },
+      "preparation": {
+        "de": "Historisch: zerstossene Blätter in Schweinefett oder Öl ausgezogen; rein dokumentarischer Wert — keine Anwendungsempfehlung, Coniin wird über die Haut resorbiert.",
+        "en": "Historically: crushed leaves macerated in lard or oil; purely of documentary value — no application recommendation, coniine is absorbed through the skin."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-cm-wiki-en",
+        "src-cm-wiki-de",
+        "src-cm-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-cm-02",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Historische pharmazeutische Verwendung von Schierlings-Extrakt (Extractum Conii) als Antispasmodikum bei Tetanus, Keuchhusten und epileptischen Krampfanfällen im 18. und 19. Jahrhundert. Coniin wirkt am nikotinergen Acetylcholinrezeptor — bei zu hoher Dosis aufsteigende Lähmung. Heute durch Benzodiazepine und moderne Antikonvulsiva ersetzt; pharmazeutische Anwendung obsolet.",
+        "en": "Historical pharmaceutical use of hemlock extract (Extractum Conii) as antispasmodic for tetanus, whooping cough and epileptic seizures in the 18th and 19th centuries. Coniine acts on the nicotinic acetylcholine receptor — at excessive dose ascending paralysis. Today replaced by benzodiazepines and modern anticonvulsants; pharmaceutical use obsolete."
+      },
+      "preparation": {
+        "ratio": "1:10",
+        "solvent": "45% ethanol"
+      },
+      "source_ids": [
+        "src-cm-wiki-de",
+        "src-cm-hotti-2017",
+        "src-cm-pfaf"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-cm-03",
+      "target": [
+        "skin"
+      ],
+      "form": "compress",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische externe Anwendung als Umschlag bei Mastitis, malignen Tumoren (besonders Brust), Analfissuren und Hämorrhoiden. Im 18. und 19. Jahrhundert breit als Krebs-Mittel propagiert. Plants for a Future berichtet von „ointments and oils\" zur Behandlung dieser Indikationen. Heute wegen unsicherer Wirksamkeit und systemischer Toxizität nicht mehr eingesetzt.",
+        "en": "Folk medicinal external use as compress for mastitis, malignant tumours (particularly breast), anal fissures and haemorrhoids. Widely promoted as a cancer remedy in the 18th and 19th centuries. Plants for a Future reports 'ointments and oils' for these indications. Today no longer used due to uncertain efficacy and systemic toxicity."
+      },
+      "preparation": {
+        "de": "Frische Blätter zerstossen oder als Salbe — historisch dokumentiert, keine Anwendungsempfehlung.",
+        "en": "Crush fresh leaves or apply as ointment — historically documented, no application recommendation."
+      },
+      "source_ids": [
+        "src-cm-pfaf",
+        "src-cm-wiki-en"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-cm-04",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Verwendung von Conium maculatum (D6–C30), typischerweise als Konstitutionsmittel bei drüsigen Verhärtungen, Schwindel bei älteren Menschen, Lähmungserscheinungen und prämenstruellen Beschwerden. Reine homöopathische Verdünnungsstufen (ab C12) enthalten keine pharmakologisch wirksamen Coniin-Mengen. Verbreitet in der klassischen Homöopathie.",
+        "en": "Homeopathic use of Conium maculatum (D6–C30), typically as constitutional remedy for glandular indurations, vertigo in the elderly, paralytic symptoms and premenstrual complaints. Pure homeopathic dilution levels (from C12) contain no pharmacologically active coniine amounts. Widespread in classical homeopathy."
+      },
+      "preparation": {
+        "de": "Homöopathische Potenzierung ab D6 — keine Eigenwirkung durch Alkaloidgehalt; Urtinktur (Ø) aus blühender Frischpflanze.",
+        "en": "Homeopathic potentization from D6 onward — no inherent alkaloid effect; mother tincture (Ø) prepared from flowering fresh plant."
+      },
+      "source_ids": [
+        "src-cm-pfaf",
+        "src-cm-wikidata"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-cm-05",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "raw",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historisch-juridische Verwendung des Schierlingsbechers im klassischen Athen (5./4. Jh. v. Chr.) als Hinrichtungsmittel — bekannteste Anwendung: die Hinrichtung des Sokrates 399 v. Chr., dokumentiert in Platons Dialog Phaidon. Zubereitung aus zerstossenen, unreifen Früchten und Wurzeln in Wasser oder Wein. Platon beschreibt die aufsteigende Lähmung von den Füssen nach oben bei klarem Bewusstsein. Rein historisches Kulturphänomen — keine Anwendungsempfehlung.",
+        "en": "Historical-juridical use of the hemlock cup in classical Athens (5th/4th cent. BCE) as method of execution — most famous application: the execution of Socrates in 399 BCE, documented in Plato's dialogue Phaedo. Preparation from crushed unripe fruits and roots in water or wine. Plato describes the ascending paralysis from the feet upward with consciousness retained. Pure historical cultural phenomenon — no application recommendation."
+      },
+      "preparation": {
+        "de": "Historisch: unreife Früchte und Wurzeln zerquetscht, in Wasser oder Wein gemischt; rein dokumentarisch.",
+        "en": "Historically: unripe fruits and roots crushed, mixed in water or wine; purely documentary."
+      },
+      "source_ids": [
+        "src-cm-dayan-2024",
+        "src-cm-hotti-2017",
+        "src-cm-wiki-de"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-cm-06",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Antike und mittelalterliche Verwendung als Sedativum und Schlafmittel: Dioscorides (Materia Medica, 1. Jh.) und Plinius der Ältere (Naturalis Historia) beschreiben Schierling (gr. kōneion, lat. cicuta) als äusseres Schmerzmittel und in geringen Mengen als Beruhigungsmittel. In Pharmakopöen wurde Conii herba als Sedativum geführt — dosisabhängig hochgradig toxisch.",
+        "en": "Antique and medieval use as sedative and hypnotic: Dioscorides (Materia Medica, 1st cent.) and Pliny the Elder (Naturalis Historia) describe hemlock (Greek kōneion, Latin cicuta) as external analgesic and, in small amounts, as a sedative. In pharmacopoeias Conii herba was listed as a sedative — dose-dependently highly toxic."
+      },
+      "preparation": {
+        "de": "Historisch in Ölauszügen oder Tinkturen; rein dokumentarisch.",
+        "en": "Historically in oil macerates or tinctures; purely documentary."
+      },
+      "source_ids": [
+        "src-cm-wiki-en",
+        "src-cm-hotti-2017"
+      ],
+      "internal_external": "external"
     }
   ],
   "season": {
@@ -48,12 +169,107 @@
   },
   "safety": {
     "warnings": {
-      "de": "TÖDLICH GIFTIG (Coniin) — historisches „Schierlingsbecher\"-Gift (Sokrates). VERWECHSLUNGSGEFAHR mit Petersilie, Kerbel, Anis. Erkennbar an rot gefleckten Stängeln und mausartigem Geruch beim Zerreiben. NIEMALS verwenden.",
-      "en": "FATALLY TOXIC (coniine) — the historical 'hemlock cup' poison (Socrates). RISK OF CONFUSION with parsley, chervil, anise. Recognisable by red-spotted stems and mouse-like smell when crushed. NEVER use."
+      "de": "TÖDLICH GIFTIG — GESAMTE PFLANZE, BESONDERS UNREIFE FRÜCHTE UND WURZEL. Conium maculatum enthält 1,5–2 % des Piperidinalkaloids Coniin sowie γ-Coniceine, N-Methylconiin, Conhydrin und Pseudoconhydrin. Letale Erwachsenendosis: 0,5–1 g Coniin (entspricht 6–8 Schierlingsblättern). Höchste Konzentrationen in unreifen Früchten. Coniin wirkt am nikotinergen Acetylcholinrezeptor: initial Erregung, dann ausgedehnte neuromuskuläre Blockade mit aufsteigender Lähmung — von Füssen über Beine, Rumpf bis Atemmuskulatur — bei klar erhaltenem Bewusstsein. Tod durch Atemlähmung. Symptome (Beginn ≈ 30 min nach Aufnahme): Brennen in Mund und Rachen, Übelkeit, Sehstörungen, Sprech- und Schluckunfähigkeit, Muskelkrämpfe, Bradykardie, dann Lähmung. VERWECHSLUNGSGEFAHR mit Petersilie, Wiesenkerbel, Anis, Gartenkerbel — Kennzeichen: rot gefleckter Stängel, kahles Laub, intensiver Mäuseharn-Geruch beim Zerreiben. Coniin wird beim Trocknen nur langsam abgebaut. Auch Hautresorption möglich. Bei Vergiftungsverdacht SOFORT Notruf (112) und Giftnotruf. Keine Selbstmedikation. Keine Laienanwendung.",
+      "en": "FATALLY TOXIC — ENTIRE PLANT, ESPECIALLY UNRIPE FRUITS AND ROOT. Conium maculatum contains 1.5–2 % of the piperidine alkaloid coniine plus γ-coniceine, N-methylconiine, conhydrine and pseudoconhydrine. Lethal adult dose: 0.5–1 g coniine (equivalent to 6–8 hemlock leaves). Highest concentrations in unripe fruits. Coniine acts on the nicotinic acetylcholine receptor: initial excitation, then extensive neuromuscular blockade with ascending paralysis — from feet via legs and trunk to respiratory muscles — with consciousness clearly retained. Death by respiratory paralysis. Symptoms (onset ≈ 30 min after ingestion): burning in mouth and throat, nausea, vision disturbances, inability to speak or swallow, muscle cramps, bradycardia, then paralysis. RISK OF CONFUSION with parsley, meadow chervil, anise, garden chervil — distinguishing features: red-spotted stem, hairless foliage, intense mouse-urine smell when crushed. Coniine degrades only slowly on drying. Skin absorption also possible. In case of suspected poisoning: IMMEDIATELY call emergency services and poison control. No self-medication. No lay use."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Coniin ist plazentagängig und ein nachgewiesenes Teratogen — Anwendung in der Schwangerschaft kann kongenitale Fehlbildungen (insbesondere Gaumenspalten und Gliedmassenfehlbildungen, dokumentiert in Tier- und Schweine-Modellen) verursachen sowie aufsteigende Lähmung beim Fötus. Jede Exposition in der Schwangerschaft ist absolut kontraindiziert.",
+        "en": "Coniine crosses the placenta and is a documented teratogen — use during pregnancy can cause congenital malformations (in particular cleft palate and limb deformities, documented in animal and porcine models) as well as ascending paralysis in the foetus. Any exposure during pregnancy is absolutely contraindicated."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Coniin tritt in die Muttermilch über und kann beim Säugling neuromuskuläre Lähmungserscheinungen auslösen. Stillzeit: streng kontraindiziert.",
+        "en": "Coniine passes into breast milk and can trigger neuromuscular paralysis in the infant. Breastfeeding: strictly contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder reagieren extrem empfindlich auf Coniin. Bereits wenige Blätter können tödlich sein. Verwechslungsvergiftungen mit Petersilie oder Kerbel sind besonders gefährlich. Kein Einsatz bei Kindern und Jugendlichen unter 18 Jahren.",
+        "en": "Children are extremely sensitive to coniine. Even a few leaves can be fatal. Confusion poisonings with parsley or chervil are especially dangerous. No use in children and adolescents under 18 years."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Myasthenia gravis und neuromuskuläre Erkrankungen — Coniin verstärkt die neuromuskuläre Blockade dramatisch",
+        "en": "Myasthenia gravis and neuromuscular disorders — coniine dramatically intensifies neuromuscular blockade"
+      },
+      {
+        "de": "Atemwegserkrankungen (COPD, schweres Asthma, Schlafapnoe) — Risiko für Atemdepression bei nikotinerger Blockade",
+        "en": "Respiratory diseases (COPD, severe asthma, sleep apnoea) — risk of respiratory depression from nicotinic blockade"
+      },
+      {
+        "de": "Bradykardie und AV-Block — Coniin verstärkt Bradyarrhythmien",
+        "en": "Bradycardia and AV block — coniine intensifies bradyarrhythmias"
+      },
+      {
+        "de": "Leber- und Niereninsuffizienz — verzögerte Elimination der Alkaloide",
+        "en": "Hepatic and renal insufficiency — delayed elimination of alkaloids"
+      },
+      {
+        "de": "Geplante Operation mit Muskelrelaxation in den nächsten 4 Wochen — Wechselwirkung mit Anästhetika",
+        "en": "Planned surgery with muscle relaxation in the next 4 weeks — interaction with anaesthetics"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche (siehe oben)",
+        "en": "Pregnancy, breastfeeding, children and adolescents (see above)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Nicht-depolarisierende neuromuskuläre Blocker (Rocuronium, Vecuronium, Cisatracurium)",
+        "mechanism": {
+          "de": "Coniin blockiert nikotinerge Acetylcholinrezeptoren an der motorischen Endplatte; additive neuromuskuläre Blockade mit verlängerter postoperativer Lähmung und Risiko für Atemstillstand.",
+          "en": "Coniine blocks nicotinic acetylcholine receptors at the motor end-plate; additive neuromuscular blockade with prolonged postoperative paralysis and risk of respiratory arrest."
+        },
+        "severity": "avoid",
+        "source_id": "src-cm-hotti-2017"
+      },
+      {
+        "drug_class": "Depolarisierende Muskelrelaxantien (Succinylcholin)",
+        "mechanism": {
+          "de": "Coniin moduliert dieselben Nikotinrezeptoren; unvorhersehbare additive Wirkung, verlängerte Apnoe, malignes Hyperthermie-ähnliches Bild möglich.",
+          "en": "Coniine modulates the same nicotinic receptors; unpredictable additive effect, prolonged apnoea, malignant-hyperthermia-like picture possible."
+        },
+        "severity": "avoid",
+        "source_id": "src-cm-hotti-2017"
+      },
+      {
+        "drug_class": "Atemdepressiva (Opioide, Benzodiazepine, Barbiturate, GABA-Agonisten)",
+        "mechanism": {
+          "de": "Additive Atemdepression durch Kombination von zentralnervöser Sedation mit nikotinerger Blockade der Atemmuskulatur — Risiko für letalen Atemstillstand.",
+          "en": "Additive respiratory depression through combination of central sedation with nicotinic blockade of respiratory muscles — risk of lethal respiratory arrest."
+        },
+        "severity": "avoid",
+        "source_id": "src-cm-dayan-2024"
+      },
+      {
+        "drug_class": "Cholinesterase-Hemmer (Neostigmin, Pyridostigmin, Donepezil, Rivastigmin)",
+        "mechanism": {
+          "de": "Erhöhter Acetylcholinspiegel kann initial Coniin-Effekte teilweise antagonisieren, jedoch durch Rezeptor-Desensitivierung paradoxerweise Lähmung verstärken; unvorhersehbare Pharmakodynamik.",
+          "en": "Increased acetylcholine levels may initially partially antagonize coniine effects but paradoxically intensify paralysis through receptor desensitization; unpredictable pharmacodynamics."
+        },
+        "severity": "caution",
+        "source_id": "src-cm-hotti-2017"
+      },
+      {
+        "drug_class": "Nikotin und nikotinerge Substanzen (Vareniclin, Nikotinkaugummi, Tabak)",
+        "mechanism": {
+          "de": "Konkurrenz und Cross-Sensitivität am Nikotinrezeptor; unklare Modulation der toxischen Schwelle, insbesondere bei starken Rauchern oder Vareniclin-Therapie.",
+          "en": "Competition and cross-sensitivity at the nicotinic receptor; unclear modulation of toxic threshold, especially in heavy smokers or those on varenicline."
+        },
+        "severity": "monitor",
+        "source_id": "src-cm-hotti-2017"
+      }
+    ],
+    "max_continuous_use_weeks": 1
   },
   "classical_quotes": [],
   "sources": [
@@ -70,6 +286,70 @@
       "title": "Conium maculatum (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Conium_maculatum",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-cm-wiki-en",
+      "type": "wikipedia",
+      "title": "Conium maculatum — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Conium_maculatum",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-cm-wiki-de",
+      "type": "wikipedia",
+      "title": "Gefleckter Schierling — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Gefleckter_Schierling",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-cm-wiki-coniine",
+      "type": "wikipedia",
+      "title": "Coniine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Coniine",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-cm-wiki-schierlingsbecher",
+      "type": "wikipedia",
+      "title": "Schierlingsbecher — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Schierlingsbecher",
+      "accessed": "2026-05-26",
+      "language": "de"
+    },
+    {
+      "id": "src-cm-wikidata",
+      "type": "wikidata",
+      "title": "Conium maculatum — Wikidata Q156631",
+      "url": "https://www.wikidata.org/wiki/Q156631",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-cm-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Conium maculatum",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Conium+maculatum",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-cm-hotti-2017",
+      "type": "monograph",
+      "title": "The killer of Socrates: Coniine and Related Alkaloids in the Plant Kingdom",
+      "url": "https://doi.org/10.3390/molecules22111962",
+      "accessed": "2026-05-26",
+      "language": "en"
+    },
+    {
+      "id": "src-cm-dayan-2024",
+      "type": "monograph",
+      "title": "Death of Socrates: a likely case of poison hemlock (Conium maculatum) poisoning",
+      "url": "https://doi.org/10.1080/15563650.2024.2309328",
+      "accessed": "2026-05-26",
+      "language": "en"
     }
   ],
   "image": {
@@ -81,5 +361,119 @@
     "license": "Public domain",
     "author": "Köhlers Medizinalpflanzen",
     "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6hler_Conium_maculatum.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Coniine (2-Propylpiperidin)",
+      "category": "alkaloid",
+      "percent_range": "1.5-2 % (gesamtes Kraut), bis 3,5 % in unreifen Früchten",
+      "note": {
+        "de": "Hauptalkaloid des Gefleckten Schierlings; einfaches Piperidinalkaloid (kein Indol/Tropan); kompetitiver Antagonist und Desensitizer am nikotinergen Acetylcholinrezeptor (nAChR) der motorischen Endplatte und in vegetativen Ganglien. Bewirkt aufsteigende Lähmung bei erhaltenem Bewusstsein. Erstes Alkaloid mit gesicherter Strukturaufklärung (1881) und erstes synthetisiertes Alkaloid (1886).",
+        "en": "Main alkaloid of poison hemlock; simple piperidine alkaloid (not indole/tropane); competitive antagonist and desensitizer at the nicotinic acetylcholine receptor (nAChR) of the motor end-plate and in autonomic ganglia. Causes ascending paralysis with retained consciousness. First alkaloid with established chemical structure (1881) and first chemically synthesized alkaloid (1886)."
+      }
+    },
+    {
+      "name": "γ-Coniceine (gamma-Coniceine)",
+      "category": "alkaloid",
+      "percent_range": "variabel, hoch in jungen Pflanzen",
+      "note": {
+        "de": "Biosynthetische Vorstufe aller Hemlock-Alkaloide; ungesättigtes Imin (dihydropyridin-artig); ≈ 7–8× toxischer als Coniin selbst; wird während der Fruchtreife enzymatisch zu Coniin reduziert. Klassisches Beispiel eines toxischeren Biosynthese-Intermediats.",
+        "en": "Biosynthetic precursor of all hemlock alkaloids; unsaturated imine (dihydropyridine-like); ≈ 7–8× more toxic than coniine itself; enzymatically reduced to coniine during fruit ripening. Classic example of a more toxic biosynthetic intermediate."
+      }
+    },
+    {
+      "name": "N-Methylconiine",
+      "category": "alkaloid",
+      "percent_range": "< 0.5 %",
+      "note": {
+        "de": "Methylderivat des Coniins; entsteht durch N-Methylierung in der Pflanze; etwa 3× toxischer als Coniin; gleicher Wirkmechanismus am nikotinergen Acetylcholinrezeptor.",
+        "en": "Methyl derivative of coniine; formed by N-methylation in the plant; approximately 3× more toxic than coniine; same mechanism of action at the nicotinic acetylcholine receptor."
+      }
+    },
+    {
+      "name": "Conhydrine",
+      "category": "alkaloid",
+      "percent_range": "< 0.3 %",
+      "note": {
+        "de": "Hydroxyliertes Piperidinalkaloid; geringere Toxizität als Coniin; trägt zur Gesamttoxizität bei. Stereochemisch verwandt mit Pseudoconhydrin.",
+        "en": "Hydroxylated piperidine alkaloid; lower toxicity than coniine; contributes to overall toxicity. Stereochemically related to pseudoconhydrine."
+      }
+    },
+    {
+      "name": "Pseudoconhydrine",
+      "category": "alkaloid",
+      "percent_range": "< 0.3 %",
+      "note": {
+        "de": "Stereoisomer des Conhydrins; geringere pharmakologische Aktivität; in allen Pflanzenteilen nachweisbar; gemeinsam mit Coniin als chemotaxonomischer Marker der Gattung Conium verwendet.",
+        "en": "Stereoisomer of conhydrine; lower pharmacological activity; detectable in all plant parts; together with coniine used as chemotaxonomic marker of the genus Conium."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (mausartig riechende Komponenten)",
+      "category": "essential_oil",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Volatile Komponenten erzeugen den charakteristischen Mäuseharn-Geruch beim Zerreiben der Pflanze — wichtiges botanisches Erkennungsmerkmal zur Unterscheidung von Petersilie, Kerbel und Anis. Trägt nicht primär zur Toxizität bei.",
+        "en": "Volatile components produce the characteristic mouse-urine smell when the plant is crushed — important botanical identification feature to distinguish from parsley, chervil and anise. Does not contribute primarily to toxicity."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin- und Kaempferol-Glykoside, Diosmin)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "note": {
+        "de": "Antioxidative Begleitsubstanzen in Blättern und Stängeln; ohne primäre Rolle in der Toxikologie; nachgewiesen in mehreren phytochemischen Analysen.",
+        "en": "Antioxidant accompanying substances in leaves and stems; without primary role in toxicology; detected in several phytochemical analyses."
+      }
+    },
+    {
+      "name": "Cumarine (Bergapten, Xanthotoxin Spuren)",
+      "category": "other",
+      "percent_range": "Spuren",
+      "note": {
+        "de": "Furanocumarine in geringen Mengen; können theoretisch phototoxische Hautreaktionen verstärken; gegenüber Coniin-Toxizität von untergeordneter Bedeutung.",
+        "en": "Furanocoumarins in small amounts; can theoretically intensify phototoxic skin reactions; of minor significance compared with coniine toxicity."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Vormittags zur frühen Fruchtbildung — höchster Alkaloidgehalt vor dem Fruchtreifen",
+        "en": "Late morning during early fruit formation — highest alkaloid content before fruit ripening"
+      },
+      "drying": {
+        "de": "Bei 40–50 °C im Schatten trocknen; Coniin ist relativ volatil, aber nicht vollständig flüchtig — auch trockenes Material bleibt giftig. SCHUTZHANDSCHUHE PFLICHT — Coniin wird über die Haut resorbiert. Ernte ausschliesslich durch ausgebildete Botaniker oder Apotheker.",
+        "en": "Dry at 40–50 °C in the shade; coniine is relatively volatile but not completely volatile — even dried material remains toxic. PROTECTIVE GLOVES MANDATORY — coniine is absorbed through the skin. Harvest exclusively by trained botanists or pharmacists."
+      },
+      "notes": {
+        "de": "Höchste Verwechslungsgefahr mit Petersilie, Wiesenkerbel und Anis — bei jeder Wildsammlung Pflanze eindeutig anhand rot gefleckter Stängel und Mäuseharn-Geruch identifizieren. Niemals ohne sicheres botanisches Wissen sammeln.",
+        "en": "Highest risk of confusion with parsley, meadow chervil and anise — when wild-harvesting, unambiguously identify the plant by red-spotted stems and mouse-urine smell. Never collect without secure botanical knowledge."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Tagsüber zur Zeit der unreifen, noch grünen Spaltfrüchte — Coniingehalt bis 3,5 % im unreifen Stadium",
+        "en": "Daytime when split fruits are still unripe and green — coniine content up to 3.5 % at unripe stage"
+      },
+      "drying": {
+        "de": "Spaltfrüchte (Mericarpe) bei 30–40 °C schonend trocknen; höchste Toxizität — historischer „Schierlingsbecher\" verwendete unreife Früchte. AUSSCHLIESSLICH für Forschungs- oder pharmazeutische Zwecke unter strenger Sicherheitsausrüstung.",
+        "en": "Schizocarp fruits (mericarps) gently dried at 30–40 °C; highest toxicity — the historical 'hemlock cup' used unripe fruits. EXCLUSIVELY for research or pharmaceutical purposes under strict safety equipment."
+      },
+      "notes": {
+        "de": "Lagerung in verschlossenen, beschrifteten Behältern unter Giftpflanzen-Lagervorschriften; getrennt von Lebensmitteln, Gewürzen und Saatgut anderer Doldenblütler.",
+        "en": "Store in sealed, labelled containers under toxic-plant storage regulations; separately from foodstuffs, spices and seed of other umbellifers."
+      }
+    }
+  ]
 }
