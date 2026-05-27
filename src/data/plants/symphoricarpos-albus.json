@@ -20,19 +20,98 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "form": "raw",
       "target": [
-        "caution"
+        "ornamental",
+        "wellbeing"
       ],
       "internal_external": "external",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Die Gewöhnliche Schneebeere ist einer der meistgepflanzten Ziersträucher Mitteleuropas und prägt seit dem 19. Jahrhundert Parkanlagen, Hecken, Friedhofsbepflanzungen und vor allem Bahnböschungen. Ihre auffällig weißen, kugeligen Steinfrüchte bleiben oft bis in den Winter am laublosen Strauch hängen und schmücken die kahle Landschaft. Die Pflanze toleriert Schatten, Trockenheit, Bodenverdichtung, Streusalz und Luftverschmutzung — Eigenschaften, die sie zur Standard-Pflanze städtischer Begleitgrünflächen gemacht haben.",
+        "en": "Common snowberry is one of the most widely planted ornamental shrubs in Central Europe and has shaped park borders, hedges, cemetery plantings and especially railway embankments since the 19th century. Its conspicuous white, globular drupes often remain on the leafless shrub well into winter, decorating the bare landscape. The plant tolerates shade, drought, soil compaction, road salt and air pollution — traits that have made it a standard urban green-strip species."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src_wiki_de_symphoricarpos_albus",
+        "src_wiki_en_symphoricarpos_albus",
+        "src_pfaf_symphoricarpos_albus"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental",
+        "wildlife"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Als dichtwüchsiger Ausläufer-Strauch eignet sich Symphoricarpos albus hervorragend für freiwachsende Sicht- und Windschutzhecken in Wildgärten. Die rosa-weißen Glockenblüten von Juni bis September bieten Bienen, Hummeln und Schwebfliegen über mehrere Monate Nektar; die weißen Beeren sind für viele Vogelarten (Drossel, Amsel, Wachholderdrossel) im Winter Notnahrung. Naturschutzfachlich umstritten, da die Pflanze in Mitteleuropa als invasiver Neophyt gilt und in Auwäldern einheimische Krautschicht verdrängen kann.",
+        "en": "As a densely suckering shrub, Symphoricarpos albus is excellent for free-growing privacy and windbreak hedges in wildlife gardens. The pink-white bell flowers from June to September provide bees, bumblebees and hoverflies with nectar over several months; the white berries are emergency winter food for many bird species (thrushes, blackbirds, fieldfares). Controversial in conservation terms, as the plant is regarded as an invasive neophyte in Central Europe and can suppress native ground flora in riparian woodlands."
+      },
+      "source_ids": [
+        "src_wiki_de_symphoricarpos_albus",
+        "src_neobiota_bfn",
+        "src_pfaf_symphoricarpos_albus"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ethnobotany",
+        "folk_play"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Im deutschen Sprachraum trägt der Strauch den Volksnamen 'Knallerbse' oder 'Knallerbsenstrauch', weil Kinder die reifen weißen Beeren auf Pflastersteinen oder Asphalt zertraten, wobei sie mit einem deutlich hörbaren Knall platzten. Dieses Kinderspiel war im 19. und frühen 20. Jahrhundert in ganz Mitteleuropa verbreitet und prägt bis heute die kulturelle Wahrnehmung der Pflanze. Wichtig: Die Beeren wurden dabei NICHT verzehrt — das Spiel beschränkte sich auf das Zerquetschen, da die Saponin-haltigen Beeren bei innerlicher Aufnahme Beschwerden verursachen können.",
+        "en": "In the German-speaking world the shrub bears the folk name 'Knallerbse' or 'Knallerbsenstrauch' ('popping pea bush') because children would crush the ripe white berries on cobblestones or asphalt, where they burst with an audible pop. This children's game was widespread across Central Europe in the 19th and early 20th centuries and still shapes the cultural perception of the plant. Important: the berries were NOT eaten during the game — play was confined to crushing them, since the saponin-bearing fruit can cause symptoms if ingested."
+      },
+      "source_ids": [
+        "src_wiki_de_symphoricarpos_albus",
+        "src_giz_bonn_snowberry"
+      ],
+      "plant_part": "fruit",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds",
+        "ethnobotany"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Indigene Völker des pazifischen Nordwestens (Salish, Okanagan, Stl'atl'imx, Nlaka'pamux) verwendeten zerquetschte Beeren und Rindenabsude historisch äußerlich bei Hautausschlägen, Schnittwunden, Wundliegen und Augenentzündungen. Die Anwendung erfolgte als Umschlag oder Waschung. WICHTIG: Diese ethnobotanische Information dient ausschließlich kulturhistorischer Dokumentation — sie darf NICHT in moderne Selbstmedikation übertragen werden. Die Saponin- und Chelidonsäure-haltigen Pflanzenteile können bei längerem Hautkontakt Reizungen verursachen; moderne Heilkunde kennt sicherere Alternativen.",
+        "en": "Indigenous peoples of the Pacific Northwest (Salish, Okanagan, Stl'atl'imx, Nlaka'pamux) historically used crushed berries and bark decoctions externally for skin rashes, cuts, sores and inflamed eyes. Application was as a poultice or wash. IMPORTANT: This ethnobotanical information serves cultural-historical documentation only — it must NOT be translated into modern self-medication. The saponin- and chelidonic-acid-bearing plant parts can cause irritation with prolonged skin contact; modern herbal practice has safer alternatives."
+      },
+      "source_ids": [
+        "src_moerman_native_american",
+        "src_pfaf_symphoricarpos_albus"
+      ],
+      "plant_part": "fruit",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "warning",
+        "toxicology"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Negativ-Anwendung (Warnhinweis): Die weißen Beeren der Schneebeere sind eine der häufigsten Ursachen für Garten- und Spielplatzvergiftungen bei Kleinkindern in Mitteleuropa. Verzehr weniger Beeren führt zu Übelkeit, Erbrechen, Bauchschmerzen, Durchfall und leichtem Schwindel (Gastroenteritis durch Saponine). Aus der modernen Vergiftungs-Statistik sind keine tödlichen Verläufe bekannt; die Toxizität ist mild bis moderat. Bei Kinderverzehr Giftnotruf kontaktieren — symptomatische Behandlung mit ausreichend Flüssigkeit reicht in der Regel aus.",
+        "en": "Negative use (warning): The white berries of snowberry are among the most common causes of garden and playground poisonings in young children in Central Europe. Ingestion of a few berries causes nausea, vomiting, abdominal pain, diarrhoea and mild dizziness (saponin gastroenteritis). No fatalities are known from modern poisoning statistics; toxicity is mild to moderate. After ingestion by a child, contact the poison control centre — symptomatic treatment with adequate fluids is usually sufficient."
+      },
+      "source_ids": [
+        "src_giz_bonn_snowberry",
+        "src_botanikus_schneebeere",
+        "src_aspca_snowberry"
+      ],
+      "plant_part": "fruit",
+      "evidence_level": "folk"
     }
   ],
   "season": {
@@ -48,12 +127,56 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG (Saponine, Chelidonin-ähnliche Alkaloide) — die auffälligen weißen Beeren. Sehr verbreitete Garten- und Parkhecke. Kinder lieben es, die Beeren zum „Knallen\" auf den Boden zu werfen („Knallerbsen\") — beim Verzehr Erbrechen, Durchfall, Kreislaufkollaps möglich. Schon 3-4 Beeren können bei Kleinkindern Symptome auslösen.",
-      "en": "TOXIC (saponins, chelidonine-like alkaloids) — the striking white berries. Very common garden and park hedge. Children love throwing the berries on the ground to make them 'pop' ('snowberries') — consumption causes vomiting, diarrhoea, possible circulatory collapse. Just 3-4 berries can trigger symptoms in small children."
+      "de": "GIFTIG — alle Pflanzenteile, besonders die weißen Beeren, enthalten Saponine, Chelidonsäure und das Iridoid-Glykosid Symphoricarposid. Der Verzehr roher Beeren durch Kinder ist eine der häufigsten gemeldeten Pflanzenvergiftungen in mitteleuropäischen Hausgärten. Typische Symptome nach 30 Minuten bis 2 Stunden: Brechreiz, Erbrechen, Bauchkrämpfe, Durchfall, leichter Schwindel, gelegentlich Hautreizung an den Lippen. Tödliche Verläufe sind aus der modernen Toxikologie nicht dokumentiert; die Schwere liegt im milden bis moderaten Bereich. Bei Verschlucken durch Kinder Giftnotruf kontaktieren (Deutschland: 19240, jeweilige Landesnummer). Hautkontakt mit zerquetschten Beeren kann bei empfindlichen Personen Rötungen auslösen — bei Garten- und Heckenpflege Handschuhe empfohlen. Niemals zur Selbstmedikation innerlich anwenden.",
+      "en": "TOXIC — all plant parts, especially the white berries, contain saponins, chelidonic acid and the iridoid glycoside symphoricarposide. Consumption of raw berries by children is one of the most commonly reported plant poisonings in Central European home gardens. Typical symptoms after 30 minutes to 2 hours: nausea, vomiting, abdominal cramps, diarrhoea, mild dizziness, occasionally lip irritation. Fatal outcomes are not documented in modern toxicology; severity ranges from mild to moderate. After ingestion by children, contact poison control. Skin contact with crushed berries can cause redness in sensitive individuals — gloves recommended for garden and hedge work. Never use internally for self-medication."
     },
     "external_only": true,
-    "toxicity_level": "toxic",
-    "pet_toxic": false
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Keine Anwendung als Heilpflanze in der Schwangerschaft — die saponin- und glykosidhaltigen Beeren können Magen-Darm-Reizungen verursachen, klinische Sicherheitsdaten fehlen vollständig. Beim Beerenzerquetschen im Garten Handschuhe tragen.",
+        "en": "No medicinal use in pregnancy — the saponin- and glycoside-bearing berries can cause gastrointestinal irritation, and clinical safety data are entirely lacking. Wear gloves when handling crushed berries in the garden."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Keine Anwendung in der Stillzeit. Wegen der toxischen Inhaltsstoffe (Saponine, Symphoricarposid) und fehlender Sicherheitsdaten ist Symphoricarpos albus keine Heilpflanze für Schwangere oder stillende Mütter.",
+        "en": "No use during lactation. Due to toxic constituents (saponins, symphoricarposide) and absent safety data, Symphoricarpos albus is not a medicinal plant for pregnant or breastfeeding women."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder dürfen NIEMALS die Beeren essen — eine der häufigsten Spielplatz- und Gartenvergiftungen in Mitteleuropa. Eltern sollten Kleinkinder über die weißen Beeren aufklären und im Garten beaufsichtigen. Bei Verzehr durch Kinder sofort Giftnotruf kontaktieren; in der Regel reicht symptomatische Behandlung. Das traditionelle 'Knallerbsen-Spiel' (Zertreten der Beeren) ist unbedenklich, solange keine Beeren in den Mund gelangen.",
+        "en": "Children must NEVER eat the berries — one of the most common playground and garden poisonings in Central Europe. Parents should educate small children about the white berries and supervise them in the garden. Contact poison control immediately if children ingest them; symptomatic treatment is usually sufficient. The traditional 'popping pea' game (crushing the berries) is harmless as long as no berries reach the mouth."
+      }
+    },
+    "drug_interactions": [],
+    "contraindications": [
+      {
+        "de": "Innerliche Anwendung jeder Art — alle Pflanzenteile (Beeren, Rinde, Blätter, Wurzel) gelten als toxisch durch Saponine, Chelidonsäure und Symphoricarposid.",
+        "en": "Any internal use — all plant parts (berries, bark, leaves, root) are considered toxic due to saponins, chelidonic acid and symphoricarposide."
+      },
+      {
+        "de": "Verzehr durch Kinder, auch in kleinsten Mengen — Gefahr von Gastroenteritis. Beerentragende Sträucher in Familiengärten kennzeichnen oder zurückschneiden.",
+        "en": "Consumption by children, even in smallest amounts — risk of gastroenteritis. Mark or prune berry-bearing shrubs in family gardens."
+      },
+      {
+        "de": "Haustiere (Hunde, Katzen, Pferde, Kaninchen) — bei Beerenverzehr Erbrechen, Durchfall, Apathie; bei Pferden zusätzlich Kolik-Symptomatik möglich.",
+        "en": "Pets (dogs, cats, horses, rabbits) — berry ingestion causes vomiting, diarrhoea, apathy; in horses additional colic symptoms possible."
+      },
+      {
+        "de": "Bestehende Magen-Darm-Erkrankungen — auch Hautkontakt mit zerquetschten Beeren kann bei empfindlichen Personen reizend wirken.",
+        "en": "Pre-existing gastrointestinal conditions — even skin contact with crushed berries can be irritating in sensitive individuals."
+      },
+      {
+        "de": "Selbstmedikation auf Basis ethnobotanischer Überlieferungen (Salish-Volksgebrauch) — nicht in moderne Anwendung übertragbar; moderne Heilkunde bietet sicherere Alternativen.",
+        "en": "Self-medication based on ethnobotanical traditions (Salish folk use) — not transferable to modern application; modern herbal practice offers safer alternatives."
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -70,6 +193,69 @@
       "title": "Symphoricarpos albus (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Symphoricarpos_albus",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_de_symphoricarpos_albus",
+      "type": "wikipedia",
+      "title": "Gewöhnliche Schneebeere (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Schneebeere",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wiki_en_symphoricarpos_albus",
+      "type": "wikipedia",
+      "title": "Symphoricarpos albus (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Symphoricarpos_albus",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_pfaf_symphoricarpos_albus",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Symphoricarpos albus database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Symphoricarpos+albus",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_giz_bonn_snowberry",
+      "type": "monograph",
+      "title": "Schneebeere (Symphoricarpos albus) — Giftnotruf-Datenbank Universitätsklinikum Bonn (Informationszentrale gegen Vergiftungen)",
+      "url": "https://www.gizbonn.de/giftzentrale-bonn/giftpflanzen/schneebeere",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_botanikus_schneebeere",
+      "type": "monograph",
+      "title": "Schneebeere (Symphoricarpos albus) — Botanikus Giftpflanzen-Datenbank",
+      "url": "https://www.botanikus.de/giftpflanzen/schneebeere/",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_snowberry",
+      "type": "monograph",
+      "title": "Snowberry (Symphoricarpos albus) — ASPCA Toxic and Non-Toxic Plant List",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/snowberry",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_moerman_native_american",
+      "type": "book",
+      "title": "Moerman, Daniel E. — Native American Ethnobotany, Timber Press, Portland 1998 (Symphoricarpos albus entries pp. 549-550)",
+      "url": "http://naeb.brit.org/uses/species/3683/",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_neobiota_bfn",
+      "type": "monograph",
+      "title": "Symphoricarpos albus — Neobiota-Datenbank des Bundesamtes für Naturschutz (BfN), Eintrag Neophyten Deutschland",
+      "url": "https://neobiota.bfn.de/handbuch/gefaesspflanzen/symphoricarpos-albus.html",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wikidata_symphoricarpos_albus",
+      "type": "wikidata",
+      "title": "Symphoricarpos albus (Wikidata Q160552)",
+      "url": "https://www.wikidata.org/wiki/Q160552",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -81,5 +267,113 @@
     "license": "CC BY-SA 3.0",
     "author": "No machine-readable author provided. ArtMechanic assumed (based on copyright claims).",
     "source_url": "https://commons.wikimedia.org/wiki/File:Symphoricarpos_albus.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Saponine (triterpenoide)",
+      "category": "saponin",
+      "percent_range": "0,5-2 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Hauptreizstoff der weißen Beeren. Triterpenoide Saponine wirken schleimhautreizend im Gastrointestinaltrakt und sind verantwortlich für die typischen Vergiftungssymptome (Brechreiz, Erbrechen, Durchfall, Bauchkrämpfe). Auch in Rinde und Blättern nachweisbar, in geringeren Konzentrationen. Schäumen mit Wasser — historisches Erkennungsmerkmal des Saponingehalts.",
+        "en": "Main irritant of the white berries. Triterpenoid saponins irritate mucous membranes of the gastrointestinal tract and cause the typical poisoning symptoms (nausea, vomiting, diarrhoea, abdominal cramps). Also detectable in bark and leaves in lower concentrations. Foaming with water — historical hallmark of saponin content."
+      }
+    },
+    {
+      "name": "Chelidonsäure",
+      "category": "phenolic_acid",
+      "percent_range": "0,1-0,4 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Stickstoff-haltige Säure (Pyranon-Dicarbonsäure), die im Anthocyanin-Stoffwechsel als Begleitsubstanz entsteht. In Schneebeerenfrüchten als Mitverursacher leichter Schleimhautreizung beschrieben. Trotz ähnlichem Namen NICHT identisch mit Chelidonin aus Schöllkraut (Chelidonium majus) — die Säure trägt nur den Namen wegen Erstisolation aus Schöllkraut.",
+        "en": "Nitrogen-containing acid (pyranone dicarboxylic acid) formed as a companion substance in anthocyanin metabolism. Described in snowberry fruit as a co-cause of mild mucosal irritation. Despite the similar name, NOT identical with chelidonine from greater celandine (Chelidonium majus) — the acid was merely named after its first isolation from celandine."
+      }
+    },
+    {
+      "name": "Symphoricarposid (Iridoid-Glykosid)",
+      "category": "glycoside",
+      "percent_range": "Spuren bis 0,3 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Charakteristisches Iridoid-Glykosid der Gattung Symphoricarpos, namensgebend für die Art. Strukturell verwandt mit anderen Caprifoliaceae-Iridoiden (Loganin, Sweroside-Verwandte). Trägt zur leichten Toxizität bei und ist ein chemotaxonomischer Marker der Gattung. Auch in Blättern und Rinde nachweisbar.",
+        "en": "Characteristic iridoid glycoside of the genus Symphoricarpos, after which the compound is named. Structurally related to other Caprifoliaceae iridoids (loganin, swerosid relatives). Contributes to mild toxicity and serves as a chemotaxonomic marker of the genus. Also detectable in leaves and bark."
+      }
+    },
+    {
+      "name": "Anthocyane und Polyphenole",
+      "category": "flavonoid",
+      "percent_range": "0,05-0,2 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Geringe Mengen an Anthocyanen und Procyanidinen verursachen die zarte rosa Tönung der Blüten und die innere blass-rosa Färbung des Beerenfleischs. Im Vergleich zu Holunderbeeren (Sambucus) — der nächsten verwandten Steinfrucht in der erweiterten Caprifoliaceae/Adoxaceae-Linie — deutlich geringerer Polyphenolgehalt.",
+        "en": "Small amounts of anthocyanins and procyanidins produce the delicate pink shading of the flowers and the pale-pink interior colour of the berry flesh. Compared with elderberries (Sambucus) — the next related drupe in the extended Caprifoliaceae/Adoxaceae lineage — significantly lower polyphenol content."
+      }
+    },
+    {
+      "name": "Aldehyde und Bitterstoffe",
+      "category": "bitter",
+      "percent_range": "0,1-0,3 %",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Aldehydische Verbindungen und nicht-näher charakterisierte Bitterstoffe sind in Rinde und Blättern beschrieben. Sie erklären den unangenehm bitteren bis seifigen Geschmack roher Beeren — ein natürlicher Verzehrabschreck-Faktor, der jedoch bei Kleinkindern oft erst nach mehreren probierten Beeren wirkt.",
+        "en": "Aldehyde compounds and uncharacterised bitter principles are described in bark and leaves. They explain the unpleasantly bitter to soapy taste of raw berries — a natural deterrent that often, however, only takes effect in small children after several berries have been tried."
+      }
+    },
+    {
+      "name": "Gerbstoffe (kondensierte Tannine)",
+      "category": "tannin",
+      "percent_range": "1-3 %",
+      "plant_part": "bark",
+      "note": {
+        "de": "Rinde und Wurzel enthalten kondensierte Tannine (Proanthocyanidine) — typische Caprifoliaceae-Eigenschaft. In der ethnobotanischen Salish-Tradition wurden Rindenabsude wegen der adstringierenden Wirkung äußerlich für Wundauflagen verwendet; moderne Anwendung wird wegen Kontaminationsgefahr mit anderen Inhaltsstoffen nicht empfohlen.",
+        "en": "Bark and root contain condensed tannins (proanthocyanidins) — a typical Caprifoliaceae trait. In Salish ethnobotanical tradition, bark decoctions were used externally as wound dressings for their astringent action; modern use is not recommended owing to the risk of contamination with other constituents."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "percent_range": "Spuren bis 0,02 %",
+      "plant_part": "fruit",
+      "note": {
+        "de": "In sehr geringen Mengen in den Beeren nachweisbar. Wegen der Saponin- und Iridoid-Belastung der Beeren ist Schneebeere KEINE Vitamin-C-Quelle für die menschliche Ernährung — anders als Hagebutten oder Sanddornbeeren. Information dient ausschließlich der vollständigen phytochemischen Beschreibung.",
+        "en": "Detectable in very small amounts in the berries. Due to the saponin and iridoid load of the fruit, snowberry is NOT a food source of vitamin C for humans — unlike rosehips or sea buckthorn. The information serves only complete phytochemical description."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2
+      ],
+      "time_of_day": {
+        "de": "Beeren werden ausschließlich für Garten- und Heckenpflege (Rückschnitt fruchttragender Zweige) oder dekorative Zwecke (Wintersträuße) geschnitten, NICHT für medizinische oder kulinarische Verwendung. Erntefenster sehr lang: September bis Februar — die Beeren bleiben oft monatelang am laublosen Strauch. Bei Erntearbeiten Handschuhe tragen, da der Saft zerquetschter Beeren bei empfindlicher Haut Rötungen verursachen kann.",
+        "en": "Berries are harvested solely for garden and hedge maintenance (pruning of fruiting branches) or decorative purposes (winter bouquets), NOT for medicinal or culinary use. Harvest window very long: September to February — berries often remain on the leafless shrub for months. Wear gloves during harvest work, as the sap of crushed berries can cause redness in sensitive skin."
+      },
+      "drying": {
+        "de": "Beeren werden nicht zur Aufbewahrung getrocknet. Für Trockensträuße können fruchttragende Zweige aufrecht in einer Vase ohne Wasser an einem trockenen Ort 2-4 Wochen austrocknen — die Beeren schrumpfen, behalten aber ihre weißliche Farbe. Nicht in Reichweite von Kindern aufbewahren.",
+        "en": "Berries are not dried for storage. For dried bouquets, fruit-bearing branches can be air-dried upright in a vase without water in a dry location for 2-4 weeks — the berries shrink but retain their whitish colour. Keep out of reach of children."
+      }
+    },
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        3,
+        4
+      ],
+      "time_of_day": {
+        "de": "Heckenschnitt und Verjüngungsschnitt erfolgen im zeitigen Frühjahr (März-April), bevor der Neuaustrieb beginnt. Symphoricarpos albus verträgt radikalen Rückschnitt bis auf 20-30 cm über dem Boden ('Auf-den-Stock-setzen'); die unterirdischen Ausläufer treiben kräftig nach. Bei trockenem Wetter arbeiten und Schnittgut nicht im Kompost gartenfremder Beete entsorgen (Ausläufer können wieder antreiben — invasiver Neophyt).",
+        "en": "Hedge pruning and rejuvenation cutting are done in early spring (March-April) before new growth starts. Symphoricarpos albus tolerates radical cutback to 20-30 cm above the ground ('coppicing'); the underground suckers regrow vigorously. Work in dry weather and do not compost cuttings in foreign garden beds (suckers can re-sprout — invasive neophyte)."
+      },
+      "drying": {
+        "de": "Schnittgut wird nicht weiterverarbeitet, sondern entsorgt oder gehäckselt als Mulch verwendet (Vorsicht bei Ausläuferresten — können wieder austreiben). Holz ist weich und hat keine traditionelle handwerkliche Verwendung in Mitteleuropa.",
+        "en": "Cuttings are not further processed but disposed of or chipped as mulch (caution with sucker remnants — they can re-sprout). The wood is soft and has no traditional craft use in Central Europe."
+      }
+    }
+  ]
 }

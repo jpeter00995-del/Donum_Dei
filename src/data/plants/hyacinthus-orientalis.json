@@ -20,19 +20,119 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-ho-01",
       "target": [
-        "caution"
+        "ornamental",
+        "wellbeing"
       ],
-      "internal_external": "external",
+      "form": "raw",
+      "plant_part": "flower",
+      "evidence_level": "folk",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Klassische Frühlings-Zierpflanze für Topf und Garten: Hyacinthus orientalis ist seit dem späten 16. Jahrhundert die wichtigste duftende Zwiebel-Zierpflanze Europas. Die intensiv süßliche Blüte (Februar bis April) dient als Indoor-Treiberei zu Weihnachten und Valentinstag sowie als Garten-Frühblüher in Beeten, Rabatten und Steingärten. Im Wohnraum genügen meist ein bis zwei Blütenstände, um einen ganzen Raum mit Duft zu füllen — Vorsicht in Schlafzimmern oder bei Duftempfindlichen, da der Duft Kopfschmerzen auslösen kann. Niederländische Treiberei-Betriebe versorgen den globalen Markt mit etwa 60 Sorten in Weiß, Rosa, Rot, Blau, Violett und Gelb; bekannte Sorten sind 'Delft Blue', 'Pink Pearl', 'Carnegie' und 'Woodstock'.",
+        "en": "Classic spring ornamental for pot and garden: Hyacinthus orientalis has been the most important fragrant bulb ornamental in Europe since the late 16th century. The intensely sweet flower (February to April) serves as forced indoor display at Christmas and Valentine's Day and as garden spring-bloomer in beds, borders and rockeries. Indoors, one or two inflorescences often suffice to fragrance an entire room — caution in bedrooms or with fragrance-sensitive people, as the scent can trigger headaches. Dutch forcing nurseries supply the global market with around 60 cultivars in white, pink, red, blue, violet and yellow; well-known cultivars include 'Delft Blue', 'Pink Pearl', 'Carnegie' and 'Woodstock'."
+      },
+      "preparation": {
+        "de": "Topfkultur: vorgekühlte ('präparierte') Zwiebel im Oktober bis November in lockeres Substrat oder Hyazinthen-Glas einsetzen, 8 bis 12 Wochen kühl und dunkel halten (4 bis 9 °C), dann ins Helle stellen — Blüte nach etwa 3 Wochen. Gartenpflanzung im September bis November, Pflanztiefe etwa zweimal Zwiebelhöhe. Beim Hantieren mit Zwiebeln Nitril- oder PVC-Handschuhe tragen wegen Hyazinthen-Dermatitis. Verblühte Blütenstände abschneiden, Laub bis zum Einziehen stehen lassen.",
+        "en": "Pot culture: insert pre-cooled ('prepared') bulbs in October to November into loose substrate or hyacinth glass, hold cool and dark for 8 to 12 weeks (4 to 9 °C), then bring into light — flowering after about 3 weeks. Garden planting from September to November, planting depth roughly twice bulb height. Wear nitrile or PVC gloves when handling bulbs due to hyacinth dermatitis. Cut off spent inflorescences, leave foliage until it withers naturally."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-ho-wiki-en",
+        "src-ho-wiki-de",
+        "src-ho-rhs"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-ho-02",
+      "target": [
+        "ornamental",
+        "wellbeing"
+      ],
+      "form": "essential_oil",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Hyazinthen-Absolue (Absolue de jacinthe): hochwertige, sehr teure Parfümerie-Komponente, gewonnen aus frischen Hyazinthenblüten durch Solvent-Extraktion (Hexan oder Petrolether) zum Concrète und anschließender Ethanol-Aufnahme zum Absolue. Etwa 5.000 kg Blüten ergeben rund 1 kg Absolue — daher Preise von mehreren Tausend Euro pro Kilogramm und Verwendung nur in Luxus-Parfums. Aromaprofil: süßlich-grün, blumig, leicht würzig mit narkotisch-erdigem Unterton; Hauptbestandteile sind Cinnamylalkohol, Phenylacetaldehyd, Benzylalkohol, Methylphenylacetat und (E)-Zimtaldehyd. Wird als Floralherznote in klassischen Blumenparfums (z. B. in der Tradition von Guerlain 'Chamade', Caron 'N'Aimez Que Moi') eingesetzt. In modernen Parfums häufig durch synthetische Rekonstruktionen (Hyacinth Bases) ersetzt, da das echte Absolue selten und kostspielig ist.",
+        "en": "Hyacinth absolute (Absolue de jacinthe): high-grade, very expensive perfumery component obtained from fresh hyacinth flowers by solvent extraction (hexane or petroleum ether) to concrete and subsequent ethanol wash to absolute. About 5,000 kg of flowers yield roughly 1 kg of absolute — hence prices of several thousand euros per kilogram and use only in luxury perfumes. Aroma profile: sweet-green, floral, slightly spicy with a narcotic, earthy undertone; main constituents are cinnamyl alcohol, phenylacetaldehyde, benzyl alcohol, methyl phenylacetate and (E)-cinnamaldehyde. Used as a floral heart note in classical flower perfumes (e.g. in the tradition of Guerlain 'Chamade', Caron 'N'Aimez Que Moi'). In modern perfumes often replaced by synthetic reconstructions (hyacinth bases), as the real absolute is rare and costly."
+      },
+      "preparation": {
+        "de": "Industrielle Solvent-Extraktion frischer Blüten im offenen Stadium früh am Morgen geerntet; Laienherstellung praktisch unmöglich (Hexan, Vakuum-Apparatur, Ölausbeute ca. 0,02 %). Anwendung im Parfum als 0,1 bis 1 % Komponente der Floralherznote — nie pur auf die Haut auftragen, da empfindliche Personen mit Hautreizung reagieren können. Keine therapeutische Aromatherapie-Indikation; reine Genussanwendung in Düften und Raumparfumerien.",
+        "en": "Industrial solvent extraction of fresh flowers harvested in the open stage early in the morning; lay home production effectively impossible (hexane, vacuum apparatus, oil yield ca. 0.02 %). Use in perfume as a 0.1 to 1 % component of the floral heart note — never apply neat to skin, as sensitive individuals may react with skin irritation. No therapeutic aromatherapy indication; purely hedonic use in fragrances and room perfumery."
+      },
+      "source_ids": [
+        "src-ho-pellmyr",
+        "src-ho-perfumery-book",
+        "src-ho-wiki-en"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-ho-03",
+      "target": [
+        "ethnobotany"
+      ],
+      "form": "raw",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Kulturhistorische und symbolische Bedeutung in Persien und im Mittelmeerraum: In der iranischen Tradition gehört die Hyazinthe (persisch 'sonbol') zu den 'Haft Sin' — den sieben Symbolen mit Anfangsbuchstaben S auf dem traditionellen Nowruz-Tisch (persisches Neujahrsfest zum Frühlingsbeginn am 20./21. März). Die Hyazinthe steht dabei für Frühling, Wiedergeburt und Schönheit. In der griechischen Mythologie ist Hyakinthos ein junger spartanischer Prinz, den Apollon liebte und versehentlich beim Diskuswerfen tötete; aus seinem Blut wuchs nach Ovid eine Blume — botanisch allerdings vermutlich Larkspur (Consolida) oder Gladiolus, nicht die heutige Hyazinthe. Der Namensbezug blieb bestehen und wurde im 16. Jahrhundert auf die orientalische Zwiebelpflanze übertragen. Reine Symbol- und Kulturanwendung — keine medizinische Indikation.",
+        "en": "Cultural-historical and symbolic significance in Persia and the Mediterranean: in Iranian tradition the hyacinth (Persian 'sonbol') is one of the 'Haft Sin' — the seven symbols starting with S on the traditional Nowruz table (Persian New Year at the spring equinox, 20/21 March). The hyacinth stands for spring, rebirth and beauty. In Greek mythology Hyakinthos is a young Spartan prince loved by Apollo and accidentally killed with a discus; from his blood, per Ovid, grew a flower — botanically probably larkspur (Consolida) or gladiolus, not the modern hyacinth. The name carried over and was transferred to the oriental bulb plant in the 16th century. Purely symbolic and cultural use — no medicinal indication."
+      },
+      "preparation": {
+        "de": "Keine Zubereitung — symbolische Verwendung als frische Topf- oder Schnittblume auf dem Nowruz-Tisch, als Trauer- oder Frühlings-Symbol in westlichen Floristik-Traditionen sowie in der bildenden Kunst (persische Miniaturmalerei, niederländisches Blumenstillleben des 17. Jahrhunderts).",
+        "en": "No preparation — symbolic use as a fresh potted or cut flower on the Nowruz table, as a mourning or spring symbol in Western floristry traditions and in fine art (Persian miniature painting, 17th-century Dutch flower still life)."
+      },
+      "source_ids": [
+        "src-ho-wiki-nowruz",
+        "src-ho-wiki-hyakinthos",
+        "src-ho-wiki-en"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-ho-04",
+      "target": [
+        "skin"
+      ],
+      "form": "raw",
+      "plant_part": "bulb",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Berufsbedingte Kontaktdermatitis 'Hyazinthen-Dermatitis' oder 'Hyacinth Itch': Floristen, Zwiebel-Sortierer und Treiberei-Mitarbeiter, die ungeschützt mit den trockenen Außenschuppen der Hyazinthenzwiebel hantieren, entwickeln juckende, gerötete Hautausschläge an Händen, Unterarmen und Hals. Klinisch dokumentiert von Bruijnzeel (1996) und früheren niederländischen Berufsdermatologen seit den 1950er Jahren. Hauptauslöser sind Calciumoxalat-Raphiden (mechanische Komponente) und Saponine in den Außenschuppen — analog zum 'Tulpenfinger' (Tulipa) und 'Daffodil Rash' (Narcissus). Sensibilisierung kann nach wiederholtem Kontakt zunehmen. Standardprävention: dichte Handschuhe (Nitril oder PVC), langärmlige Kleidung, Hautpflege nach der Arbeit. Keine therapeutische Anwendung — diese Beschreibung dokumentiert ein arbeitsmedizinisches Risiko.",
+        "en": "Occupational contact dermatitis 'hyacinth dermatitis' or 'hyacinth itch': florists, bulb sorters and forcing-nursery workers who handle the dry outer scales of the hyacinth bulb without protection develop itching, reddened skin rashes on hands, forearms and neck. Clinically documented by Bruijnzeel (1996) and earlier Dutch occupational dermatologists from the 1950s onward. Main triggers are calcium oxalate raphides (mechanical component) and saponins in the outer scales — analogous to 'tulip fingers' (Tulipa) and 'daffodil rash' (Narcissus). Sensitisation may increase with repeated contact. Standard prevention: tight gloves (nitrile or PVC), long-sleeved clothing, skin care after work. No therapeutic application — this description documents an occupational-medicine risk."
+      },
+      "preparation": {
+        "de": "Keine Anwendung — Risikobeschreibung. Bei Hautkontakt mit Zwiebel-Außenschuppen rasch mit lauwarmem Wasser und milder Seife abspülen; bei anhaltendem Juckreiz oder Ausschlag dermatologische Vorstellung. Berufsmäßiger Umgang nach Bruijnzeel-Empfehlung mit Handschuhen, regelmäßiger Hautpflege und im Verdachtsfall Patch-Test auf Hyazinthen-Allergene.",
+        "en": "No application — risk description. On skin contact with bulb outer scales rinse promptly with lukewarm water and mild soap; with persistent itching or rash present to a dermatologist. Occupational handling per Bruijnzeel recommendation with gloves, regular skin care and, on suspicion, patch test for hyacinth allergens."
+      },
+      "source_ids": [
+        "src-ho-bruijnzeel",
+        "src-ho-wiki-en"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-ho-05",
+      "target": [
+        "ethnobotany"
+      ],
+      "form": "raw",
+      "plant_part": "bulb",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Wirtschaftsgeschichte: Die niederländische 'Hyazinthen-Manie' von 1734 — auch 'Hyacintenwindhandel' oder 'kleine Tulpomanie' — war eine spekulative Preisblase auf Hyazinthenzwiebeln in Haarlem und Umgebung, etwa ein Jahrhundert nach der berühmten Tulpomanie von 1636/37. Seltene Sorten erreichten Preise von mehreren tausend Gulden pro Zwiebel; nach dem Crash veröffentlichte ein anonymer Satiriker den Dialog 'Samen-spraak tusschen Waarmondt ende Gaergoedt' (1734) als Warnung. Die Episode ist heute ein Standardbeispiel in der Wirtschaftshistoriographie (Charles Mackay 1841, 'Extraordinary Popular Delusions') und in der Verhaltensökonomie. Reine kulturhistorisch-ökonomische Bedeutung — keine medizinische Indikation.",
+        "en": "Economic history: the Dutch 'hyacinth mania' of 1734 — also called 'Hyacintenwindhandel' or 'minor tulip mania' — was a speculative price bubble on hyacinth bulbs in Haarlem and surroundings, roughly a century after the famous tulip mania of 1636/37. Rare cultivars reached prices of several thousand guilders per bulb; after the crash an anonymous satirist published the dialogue 'Samen-spraak tusschen Waarmondt ende Gaergoedt' (1734) as a warning. The episode is today a standard example in economic historiography (Charles Mackay 1841, 'Extraordinary Popular Delusions') and behavioural economics. Purely cultural-historical and economic significance — no medicinal indication."
+      },
+      "preparation": {
+        "de": "Keine Zubereitung — historisch-dokumentarische Anwendung. Heutige niederländische Zwiebel-Industrie (Bollenstreek bei Lisse, Keukenhof) ist direkter wirtschaftlicher Nachfolger der Manie-Zeit und liefert weltweit Treiberei- und Garten-Zwiebeln.",
+        "en": "No preparation — historical-documentary use. Today's Dutch bulb industry (Bollenstreek near Lisse, Keukenhof) is the direct economic successor of the mania era and supplies the global market with forcing and garden bulbs."
+      },
+      "source_ids": [
+        "src-ho-wiki-hyacintenwindhandel",
+        "src-ho-wiki-de"
+      ],
+      "internal_external": "external"
     }
   ],
   "season": {
@@ -47,12 +147,74 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG (Oxalat-Kristalle, Lycorin-ähnliche Alkaloide) — vor allem die Zwiebel. Verbreitete Topf- und Gartenpflanze. Hautkontakt mit der Zwiebel verursacht Juckreiz und Hautausschlag. Verzehr führt zu Erbrechen, Bauchkrämpfen, Durchfall. Auch für Hunde und Katzen toxisch — besonders gefährlich, weil Zwiebeln im Topf für Tiere zugänglich sind.",
-      "en": "TOXIC (oxalate crystals, lycorine-like alkaloids) — especially the bulb. Common pot and garden plant. Skin contact with the bulb causes itching and rash. Consumption leads to vomiting, abdominal cramps, diarrhoea. Also toxic for dogs and cats — particularly dangerous because bulbs in pots are accessible to animals."
+      "de": "GIFTIG BEI VERZEHR — VOR ALLEM DIE ZWIEBEL. Hyacinthus orientalis enthält Saponine, Calciumoxalat-Raphiden, das Phenanthridin-Alkaloid Hyacinthin sowie Spuren Lycorin in den Zwiebeln. Versehentlicher Verzehr (klassisch durch Kinder oder Verwechslung mit Speisezwiebel) löst innerhalb 30 bis 90 Minuten Übelkeit, Erbrechen, Bauchkrämpfe und Durchfall aus; bei größeren Mengen Dehydratation, Schwächeanfälle. Dermal: 'Hyazinthen-Dermatitis' oder 'Hyacinth Itch' — juckende, gerötete Hautausschläge an Händen, Unterarmen und Hals bei Floristen, Zwiebel-Sortierern und Treiberei-Mitarbeitern (klinisch dokumentiert seit den 1950er Jahren, gut beschrieben von Bruijnzeel 1996). Auslöser sind Calciumoxalat-Raphiden (mechanisch) und Saponine in den trockenen Außenschuppen. Im Vergleich zu Narzissen ist die Hyazinthe deutlich weniger giftig (Saponine statt Lycorin in höheren Mengen), aber für Kleinkinder und Haustiere weiterhin gefährlich — die Topfkultur in Wohnungen macht die Zwiebel für Hunde und Katzen leicht zugänglich. Der intensive Blütenduft kann bei sensiblen Personen Kopfschmerzen, Schwindel oder Atemreizung auslösen; Schlafzimmer ist nicht der ideale Standort. Bei Verdacht auf orale Vergiftung: Giftnotruf anrufen (Deutschland: regionale Giftinformationszentralen; AT: VIZ 01-406 43 43; CH: Tox Info 145), reichlich Wasser trinken lassen, kein selbstverabreichtes Erbrechen auslösen; bei Kindern und Haustieren sofort ärztlich beziehungsweise tierärztlich vorstellen.",
+      "en": "TOXIC ON INGESTION — ESPECIALLY THE BULB. Hyacinthus orientalis contains saponins, calcium oxalate raphides, the phenanthridine alkaloid hyacinthin and traces of lycorine in the bulbs. Accidental ingestion (classically by children or through confusion with kitchen onion) triggers nausea, vomiting, abdominal cramps and diarrhoea within 30 to 90 minutes; with larger amounts dehydration and weakness. Dermal: 'hyacinth dermatitis' or 'hyacinth itch' — itching, reddened skin rashes on hands, forearms and neck in florists, bulb sorters and forcing-nursery workers (clinically documented since the 1950s, well described by Bruijnzeel 1996). Triggers are calcium oxalate raphides (mechanical) and saponins in the dry outer scales. Compared to narcissi, hyacinth is markedly less toxic (saponins instead of higher-amount lycorine) but remains dangerous for toddlers and pets — pot culture indoors makes the bulb easily accessible to dogs and cats. The intense flower fragrance can trigger headaches, dizziness or respiratory irritation in sensitive individuals; bedrooms are not an ideal location. On suspected oral poisoning: call poison control (regional centres), give abundant water, do not self-induce vomiting; for children and pets present immediately to medical or veterinary care."
     },
     "external_only": true,
-    "toxicity_level": "toxic",
-    "pet_toxic": true
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Topfkultur und Hautkontakt mit den Blütenständen sind während der Schwangerschaft unproblematisch. Beim Hantieren mit Zwiebeln Nitril- oder PVC-Handschuhe tragen, da auch Schwangere eine Hyazinthen-Dermatitis entwickeln können. Verzehr von Pflanzenteilen ist kontraindiziert wegen Erbrechen und Dehydratationsrisiko; bei versehentlichem Verzehr Giftnotruf kontaktieren.",
+        "en": "Pot culture and skin contact with inflorescences are unproblematic during pregnancy. Wear nitrile or PVC gloves when handling bulbs, as pregnant individuals can also develop hyacinth dermatitis. Ingestion of plant parts is contraindicated due to vomiting and dehydration risk; on accidental ingestion contact poison control."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Übergang der Hyacinthus-Inhaltsstoffe in die Muttermilch ist nicht untersucht. Hautkontakt und Duftexposition während des Stillens unproblematisch; Verzehr von Pflanzenteilen ist auch in der Stillzeit kontraindiziert. Kein Einsatz als Heil- oder Genussmittel.",
+        "en": "Transfer of Hyacinthus constituents into breast milk has not been investigated. Skin contact and fragrance exposure during breastfeeding are unproblematic; ingestion of plant parts is contraindicated during lactation as well. No use as a medicinal or culinary product."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Klassische Garten- und Spielplatz-Vergiftung: Kleinkinder probieren die fleischigen Zwiebeln oder kauen an Blütenstielen. Schon kleine Zwiebelmengen lösen Erbrechen, Bauchkrämpfe und Durchfall aus, mit Dehydratationsrisiko bei Säuglingen und Kleinkindern. Hyazinthen-Töpfe und gelagerte Pflanzzwiebeln gehören außer Reichweite von Kindern; im Garten Pflanzbereiche markieren oder mit Steinen abdecken. Hautkontakt der Kinder mit Blüten und Blättern ist unproblematisch, mit Zwiebel-Außenschuppen kann jedoch Dermatitis entstehen.",
+        "en": "Classic garden and playground poisoning: toddlers sample the fleshy bulbs or chew on flower stalks. Even small amounts of bulb trigger vomiting, abdominal cramps and diarrhoea, with dehydration risk in infants and small children. Hyacinth pots and stored planting bulbs belong out of reach of children; mark planting areas in the garden or cover with stones. Children's skin contact with flowers and leaves is unproblematic, but contact with bulb outer scales can cause dermatitis."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Jede Form der oralen Selbstanwendung von Hyazinthen-Pflanzenteilen — keine sichere Hausdosierung möglich, keine etablierte Heilanwendung",
+        "en": "Any form of oral self-administration of hyacinth plant parts — no safe home dose possible, no established medicinal use"
+      },
+      {
+        "de": "Bekannte Hyazinthen-Allergie oder allgemeine Asparagaceae-/Liliaceae-Kontaktdermatitis — Sensibilisierung verstärkt sich bei wiederholtem Kontakt",
+        "en": "Known hyacinth allergy or general Asparagaceae/Liliaceae contact dermatitis — sensitisation worsens with repeated contact"
+      },
+      {
+        "de": "Haushalte mit Hunden, Katzen und Nagern (Hamster, Meerschweinchen) — Topfzwiebeln gehören in unzugängliche Höhe oder in tierfreie Räume; Hunde und Katzen erbrechen nach Zwiebel-Verzehr und können dehydrieren",
+        "en": "Households with dogs, cats and rodents (hamster, guinea pig) — potted bulbs belong out of reach or in pet-free rooms; dogs and cats vomit after bulb ingestion and can dehydrate"
+      },
+      {
+        "de": "Duftempfindlichkeit, Migräne oder Asthma — der intensive Hyazinthenduft kann Kopfschmerzen, Übelkeit und Atemreizung auslösen; Topf nicht im Schlafzimmer oder in geschlossenen kleinen Räumen aufstellen",
+        "en": "Fragrance sensitivity, migraine or asthma — the intense hyacinth fragrance can trigger headaches, nausea and respiratory irritation; do not place the pot in the bedroom or in closed small rooms"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit und Säuglingsalter für jede orale Anwendung — Topf- und Schnittblume jedoch unproblematisch",
+        "en": "Pregnancy, breastfeeding and infancy for any oral application — pot and cut flower however unproblematic"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Orale Rehydratationslösungen und Antiemetika nach Vergiftung",
+        "mechanism": {
+          "de": "Bei akuter Hyazinthen-Vergiftung (Erbrechen, Durchfall, Bauchkrämpfe) sind orale Rehydratationslösungen und gegebenenfalls Antiemetika (Dimenhydrinat, Ondansetron) symptomatische Therapie der ersten Wahl. Keine pharmakologisch relevante Wechselwirkung mit Hyazinthen-Inhaltsstoffen — wichtig ist nur die ausreichende Flüssigkeitszufuhr zur Vermeidung der Dehydratation.",
+          "en": "In acute hyacinth poisoning (vomiting, diarrhoea, abdominal cramps), oral rehydration solutions and, if needed, antiemetics (dimenhydrinate, ondansetron) are the first-line symptomatic therapy. No pharmacologically relevant interaction with hyacinth constituents — important only is adequate fluid intake to prevent dehydration."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Topische Kortikosteroide und Antihistaminika bei Hyazinthen-Dermatitis",
+        "mechanism": {
+          "de": "Standardbehandlung der Kontakt-Dermatitis nach Hyazinthen-Hautkontakt: niedrig- bis mittelpotente topische Kortikosteroide (Hydrocortison 1 %, Methylprednisolonaceponat), bei starkem Juckreiz orale Antihistaminika der 2. Generation (Cetirizin, Loratadin). Keine direkte Wechselwirkung mit Hyazinthen-Inhaltsstoffen, sondern symptomatische Behandlung; bei beruflicher Exposition zusätzlich Vermeidungsstrategie (Handschuhe) und ggf. Patch-Test.",
+          "en": "Standard treatment of contact dermatitis after hyacinth skin contact: low- to medium-potency topical corticosteroids (hydrocortisone 1 %, methylprednisolone aceponate), and with severe itching second-generation oral antihistamines (cetirizine, loratadine). No direct interaction with hyacinth constituents but symptomatic treatment; in occupational exposure additionally avoidance strategy (gloves) and possibly patch test."
+        },
+        "severity": "monitor",
+        "source_id": "src-ho-bruijnzeel"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -69,6 +231,83 @@
       "title": "Hyacinthus orientalis (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Hyacinthus_orientalis",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-ho-wiki-en",
+      "type": "wikipedia",
+      "title": "Hyacinthus orientalis — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Hyacinthus_orientalis",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ho-wiki-de",
+      "type": "wikipedia",
+      "title": "Gartenhyazinthe — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Gartenhyazinthe",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ho-wikidata",
+      "type": "wikidata",
+      "title": "Hyacinthus orientalis — Wikidata Q156831",
+      "url": "https://www.wikidata.org/wiki/Q156831",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ho-commons",
+      "type": "commons",
+      "title": "Hyacinthus orientalis — Wikimedia Commons category",
+      "url": "https://commons.wikimedia.org/wiki/Category:Hyacinthus_orientalis",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ho-rhs",
+      "type": "book",
+      "title": "Royal Horticultural Society — Hyacinthus orientalis cultivation profile",
+      "url": "https://www.rhs.org.uk/plants/9043/hyacinthus-orientalis/details",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ho-bruijnzeel",
+      "type": "monograph",
+      "title": "Bruijnzeel PLB — Bulb dermatitis: dermatological problems in the flower bulb industries (Contact Dermatitis, 1996)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0536.1996.tb02314.x",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ho-wiki-nowruz",
+      "type": "wikipedia",
+      "title": "Haft-sin — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Haft-sin",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ho-wiki-hyakinthos",
+      "type": "wikipedia",
+      "title": "Hyacinth (mythology) — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Hyacinth_(mythology)",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ho-wiki-hyacintenwindhandel",
+      "type": "wikipedia",
+      "title": "Hyacint (Hyazinthen-Manie 1734) — Wikipedia (NL)",
+      "url": "https://nl.wikipedia.org/wiki/Hyacint_(plant)",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ho-perfumery-book",
+      "type": "book",
+      "title": "Steffen Arctander — Perfume and Flavor Materials of Natural Origin (1960): Hyacinth Absolute entry",
+      "url": "https://archive.org/details/perfumeflavormat0000arct",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ho-pellmyr",
+      "type": "monograph",
+      "title": "Pellmyr O, Thien LB — Insect reproduction and floral fragrance: keys to evolution of angiosperms (Taxon, 1986)",
+      "url": "https://www.jstor.org/stable/1221537",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -80,5 +319,124 @@
     "license": "CC BY-SA 3.0",
     "author": "Photo by Lukas Kaffer (S.lukas)",
     "source_url": "https://commons.wikimedia.org/wiki/File:Hyacinthus_orientalis_(S.lukas).JPG"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Saponine",
+      "category": "saponin",
+      "percent_range": "geringe Mengen in Zwiebel-Außenschuppen (nicht genau quantifiziert)",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Hauptverantwortliche Reizstoffe der Hyazinthenzwiebel und Hauptauslöser der Hyazinthen-Dermatitis bei beruflichem Hautkontakt. Triterpen- und Steroidsaponine wirken oberflächenaktiv, lösen Membranlipide an und führen zu lokalem Juckreiz, Rötung und Ausschlag. Auch verantwortlich für die gastrointestinale Reizung (Erbrechen, Bauchkrämpfe, Durchfall) beim versehentlichen Verzehr — typische 'Garten-Vergiftung' bei Kleinkindern und Haustieren.",
+        "en": "Main irritant constituents of the hyacinth bulb and principal trigger of hyacinth dermatitis on occupational skin contact. Triterpene and steroidal saponins act as surfactants, dissolve membrane lipids and cause local itching, redness and rash. Also responsible for the gastrointestinal irritation (vomiting, abdominal cramps, diarrhoea) on accidental ingestion — typical 'garden poisoning' in toddlers and pets."
+      }
+    },
+    {
+      "name": "Hyacinthin (Phenanthridin-Alkaloid)",
+      "category": "alkaloid",
+      "percent_range": "Spuren (geringe Mengen)",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Phenanthridin-Alkaloid mit struktureller Verwandtschaft zu Amaryllidaceae-Alkaloiden (Lycorin-Familie). Trägt zur Gesamttoxizität der Zwiebel bei, ist aber in deutlich geringeren Konzentrationen vorhanden als Lycorin in Narzissen. Die historische Klassifikation der Hyazinthe in den Liliaceae/Hyacinthaceae erklärt die alkaloidchemische Nähe zu den heutigen Amaryllidaceae (Narcissus, Galanthus) — APG-IV-Systematik trennt die Familien, biochemisch bleibt eine Querverwandtschaft.",
+        "en": "Phenanthridine alkaloid structurally related to Amaryllidaceae alkaloids (lycorine family). Contributes to the overall bulb toxicity but is present in markedly lower concentrations than lycorine in narcissi. The historical classification of hyacinth within Liliaceae/Hyacinthaceae explains the alkaloid-chemical proximity to today's Amaryllidaceae (Narcissus, Galanthus) — APG-IV separates the families, but a biochemical cross-relationship remains."
+      }
+    },
+    {
+      "name": "Lycorin (Spuren)",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "plant_part": "bulb",
+      "note": {
+        "de": "In Spuren nachweisbar — Querverwandtschaft zur Amaryllidaceae-Alkaloid-Familie über die ältere Hyacinthaceae-Klassifikation. Konzentrationen sind deutlich geringer als in Narzissen- oder Schneeglöckchen-Zwiebeln und tragen zur Gesamttoxizität nur untergeordnet bei.",
+        "en": "Detectable in traces — cross-relationship to the Amaryllidaceae alkaloid family via the older Hyacinthaceae classification. Concentrations are markedly lower than in narcissus or snowdrop bulbs and contribute only secondarily to overall toxicity."
+      }
+    },
+    {
+      "name": "Calciumoxalat-Raphiden",
+      "category": "other",
+      "percent_range": "deutlich nachweisbar in der Zwiebel",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Nadelförmige Calciumoxalat-Kristalle in spezialisierten Idioblasten der Zwiebel; mechanisch reizend für Haut und Schleimhäute. Wesentliche mechanische Komponente der Hyazinthen-Dermatitis bei Floristen und der oralen Schleimhautreizung beim versehentlichen Verzehr. Analoge Wirkung wie bei Narzissen, Aronstabgewächsen (Araceae) und Spinatgewächsen.",
+        "en": "Needle-shaped calcium oxalate crystals in specialised idioblasts of the bulb; mechanically irritant to skin and mucous membranes. Major mechanical component of hyacinth dermatitis in florists and of oral mucosal irritation on accidental ingestion. Analogous to the action in narcissi, arums (Araceae) and goosefoot plants."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Hyazinthen-Absolue)",
+      "category": "essential_oil",
+      "percent_range": "ca. 0,02 % Ausbeute aus frischen Blüten (Solvent-Extraktion)",
+      "plant_part": "flower",
+      "note": {
+        "de": "Charakteristisches blumig-süßliches Duftöl der Blüten; Hauptbestandteile sind Cinnamylalkohol (Zimtalkohol, blumig-balsamisch), Phenylacetaldehyd (hyazinthenartig-grün), Benzylalkohol (mild blumig), Methylphenylacetat (honig-blumig) und (E)-Zimtaldehyd. Wird als Absolue für Luxusparfums gewonnen; sehr niedrige Ölausbeute begründet den hohen Preis (mehrere Tausend Euro pro Kilogramm). In modernen Parfums oft durch synthetische 'Hyacinth Bases' ersetzt.",
+        "en": "Characteristic floral-sweet flower oil; main constituents are cinnamyl alcohol (floral-balsamic), phenylacetaldehyde (hyacinth-green), benzyl alcohol (mildly floral), methyl phenylacetate (honey-floral) and (E)-cinnamaldehyde. Obtained as absolute for luxury perfumes; very low oil yield accounts for the high price (several thousand euros per kilogramme). In modern perfumes often replaced by synthetic 'hyacinth bases'."
+      }
+    },
+    {
+      "name": "Oxalsäure",
+      "category": "other",
+      "percent_range": "nachweisbar in Zwiebel und Saft",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Freie Oxalsäure und ihre Salze verstärken die schleimhautreizende Wirkung beim versehentlichen Verzehr und tragen zur dermalen Irritation bei. Bei größeren Mengen theoretisch Nierenbelastung durch Calciumoxalat-Bildung — bei realistischen Garten-Expositionen klinisch untergeordnet gegenüber der akuten Brech- und Krampfwirkung der Saponine.",
+        "en": "Free oxalic acid and its salts intensify mucosal irritation on accidental ingestion and contribute to dermal irritation. With larger amounts, theoretically renal burden through calcium oxalate formation — clinically subordinate to the acute emetic and cramp-inducing action of saponins at realistic garden exposures."
+      }
+    },
+    {
+      "name": "Flavonoide",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert (Blüten, Blätter)",
+      "plant_part": "flower",
+      "note": {
+        "de": "Antioxidative Begleitstoffe in Blüten und Blättern; tragen zusammen mit Anthocyanen zur Blütenfarbe bei. Keine primäre Rolle in der Toxikologie oder pharmakologischen Wirkung.",
+        "en": "Antioxidant accompanying substances in flowers and leaves; together with anthocyanins contribute to flower colour. No primary role in toxicology or pharmacological action."
+      }
+    },
+    {
+      "name": "Anthocyane (Pelargonidin, Cyanidin)",
+      "category": "flavonoid",
+      "percent_range": "0,1-1 % der Blütenfrischmasse (sortenabhängig)",
+      "plant_part": "flower",
+      "note": {
+        "de": "Hauptverantwortliche Blütenfarbstoffe: Pelargonidin-Glykoside ergeben rosa bis lachsrote Sorten ('Pink Pearl'), Cyanidin-Glykoside ergeben rote bis violette Sorten ('Jan Bos', 'Woodstock'), Delphinidin-Glykoside die blauen Sorten ('Delft Blue', 'Blue Jacket'). Weiße Sorten ('Carnegie', 'White Pearl') enthalten nur Spuren oder farblose Flavone. Pharmakologische Wirkung der Anthocyane in vivo bei dieser Pflanze ohne praktische Bedeutung — relevant nur für Sorten- und Farbzüchtung.",
+        "en": "Main flower pigments: pelargonidin glycosides yield pink to salmon cultivars ('Pink Pearl'), cyanidin glycosides red to violet cultivars ('Jan Bos', 'Woodstock'), delphinidin glycosides the blue cultivars ('Delft Blue', 'Blue Jacket'). White cultivars ('Carnegie', 'White Pearl') contain only traces or colourless flavones. In vivo pharmacological action of the anthocyanins in this plant of no practical relevance — relevant only for cultivar and colour breeding."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "bulb",
+      "best_months": [
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Kommerzielle Treiberei-Zwiebeln werden in den niederländischen Bollenstreek-Betrieben im Juni bis Juli geerntet, sortiert und gekühlt vorbehandelt ('präparierte Zwiebeln', 9 °C). Pflanzzeit für Garten und Topf ist Oktober bis November — Boden noch warm genug für Wurzelbildung, kühl genug für die Vernalisations-Anforderung. SCHUTZHANDSCHUHE PFLICHT beim Hantieren mit Zwiebeln wegen Hyazinthen-Dermatitis durch Calciumoxalat-Raphiden und Saponine in den trockenen Außenschuppen.",
+        "en": "Commercial forcing bulbs are harvested in Dutch Bollenstreek nurseries in June to July, sorted and cold-pretreated ('prepared bulbs', 9 °C). Planting time for garden and pot is October to November — soil still warm enough for root formation, cool enough for the vernalisation requirement. PROTECTIVE GLOVES MANDATORY when handling bulbs due to hyacinth dermatitis from calcium oxalate raphides and saponins in the dry outer scales."
+      },
+      "drying": {
+        "de": "Erntefrische Zwiebeln werden in Holland oberflächlich getrocknet, sortiert nach Umfang (Größenklassen 15/16, 16/17, 17/18 cm und größer) und entweder für die Treiberei (8 bis 12 Wochen Kältelagerung bei 5 bis 9 °C als 'präparierte Zwiebeln') oder als Garten-Pflanzgut gehandelt. Lagerung trocken, kühl, dunkel — strikt getrennt von Speisezwiebeln, Knoblauch und Lebensmitteln (Verwechslungsrisiko, besonders in Mehrgenerationen-Haushalten mit eingeschränkter Sehfähigkeit). Klar als 'Hyazinthen-Pflanzzwiebel — nicht zum Verzehr' beschriften.",
+        "en": "Harvest-fresh bulbs are surface-dried in the Netherlands, graded by circumference (size classes 15/16, 16/17, 17/18 cm and larger) and traded either for forcing (8 to 12 weeks cold storage at 5 to 9 °C as 'prepared bulbs') or as garden planting stock. Storage dry, cool, dark — strictly separated from kitchen onions, garlic and food (confusion risk, especially in multi-generation households with impaired vision). Label clearly as 'hyacinth planting bulb — not for consumption'."
+      },
+      "storage_condition": {
+        "de": "Trocken, kühl (5 bis 12 °C für Pflanzgut; 9 °C für präparierte Treiberei-Zwiebeln), dunkel, ausser Reichweite von Kindern und Haustieren; Behälter klar als 'Hyazinthen-Zwiebel — giftig' beschriften; KEINESFALLS in Küchenschränken oder zwischen Speisezwiebeln lagern.",
+        "en": "Dry, cool (5 to 12 °C for planting stock; 9 °C for prepared forcing bulbs), dark, out of reach of children and pets; label containers clearly as 'hyacinth bulb — toxic'; NEVER store in kitchen cabinets or among kitchen onions."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        2,
+        3,
+        4
+      ],
+      "time_of_day": {
+        "de": "Schnittblumen-Ernte für den Floristen-Handel: frühe Morgenstunden bei voller Blüte (etwa drei Viertel der Einzelblüten geöffnet); für die Hyazinthen-Absolue-Gewinnung in der Parfümerie werden frische Blütenstände im Aufblüh-Stadium geerntet und sofort der Solvent-Extraktion zugeführt. Treiberei-Blüte für den Indoor-Markt typischerweise Dezember bis Februar (vorgezogen), Garten-Blüte Februar bis April. SCHUTZHANDSCHUHE wegen Zwiebel- und Stielsaft empfohlen.",
+        "en": "Cut-flower harvest for the florist trade: early morning hours at full bloom (about three-quarters of the individual florets open); for perfumery hyacinth absolute, fresh inflorescences are harvested at the opening stage and processed by solvent extraction immediately. Forcing bloom for the indoor market typically December to February (forced), garden bloom February to April. PROTECTIVE GLOVES recommended due to bulb and stem sap."
+      },
+      "drying": {
+        "de": "Frische Blüten lassen sich nicht gut trocknen (Verlust von Form, Farbe und vor allem Duft); kulturell werden überwiegend frische Blüten als Topf- oder Schnittblume genutzt. Für die Parfümerie wird das Absolue durch Solvent-Extraktion (Hexan oder Petrolether, anschließend Ethanol-Wash) industriell gewonnen — keine Laienanwendung möglich. Die Ölausbeute beträgt etwa 0,02 % der Blütenfrischmasse, was den hohen Preis erklärt.",
+        "en": "Fresh flowers do not dry well (loss of shape, colour and especially fragrance); culturally, fresh flowers are mainly used as potted or cut flowers. For perfumery, the absolute is obtained industrially by solvent extraction (hexane or petroleum ether, followed by ethanol wash) — no lay application possible. Oil yield is about 0.02 % of fresh flower mass, which explains the high price."
+      }
+    }
+  ]
 }

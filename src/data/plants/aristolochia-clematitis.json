@@ -20,18 +20,122 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-ac-01",
       "target": [
-        "caution"
+        "ethnobotany",
+        "menstrual"
       ],
-      "internal_external": "external",
+      "form": "tea",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "internal_external": "internal",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "HISTORISCH-OBSOLET UND GEFÄHRLICH — Mittelalterliche und frühneuzeitliche Volksmedizin: Aufgüsse oder Abkochungen der Wurzel galten als 'Geburtshelfer' und Wehenmittel; der deutsche Name 'Osterluzei' und das englische 'Birthwort' verweisen direkt auf diese vermeintliche Geburtshilfe. Hildegard von Bingen erwähnt die Pflanze (Physica) als kreislaufanregendes Mittel. Die Anwendung folgte der Signaturenlehre (Doctrine of Signatures), da die gebogene Kelch-Röhre an einen Geburtskanal erinnert. Heute KEINE Anwendung mehr zulässig: Aristolochiasäure ist nephrotoxisch und nachweislich krebserregend (IARC Group 1); in der EU seit 2001 in Arzneimitteln vollständig verboten. Dokumentation rein ethnobotanisch.",
+        "en": "HISTORICALLY OBSOLETE AND DANGEROUS — Medieval and early modern folk medicine: infusions or decoctions of the root were considered a 'midwife' and labour-inducing remedy; the German name 'Osterluzei' and the English 'Birthwort' refer directly to this supposed obstetric use. Hildegard of Bingen mentions the plant (Physica) as a circulation-stimulating agent. The application followed the Doctrine of Signatures, since the curved perianth tube resembles a birth canal. Today NO application is permitted: aristolochic acid is nephrotoxic and a proven carcinogen (IARC Group 1); fully banned from medicinal products in the EU since 2001. Documentation purely ethnobotanical."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src-ac-wiki-de",
+        "src-ac-wiki-en",
+        "src-ac-iarc"
+      ]
+    },
+    {
+      "id": "use-ac-02",
+      "target": [
+        "ethnobotany",
+        "wounds"
+      ],
+      "form": "compress",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "internal_external": "external",
+      "description": {
+        "de": "HISTORISCH-OBSOLET — Antike und mittelalterliche Wundbehandlung: Plinius der Ältere (Naturalis Historia), Dioskurides (De Materia Medica) und mittelalterliche Kräuterbücher empfehlen Umschläge aus zerstossenen Aristolochia-Blättern bei eitrigen Wunden, Geschwüren und Schlangenbissen — daher der Gattungsname aus griechisch áristos (bester) + locheía (Geburt/Reinigung). Auch perkutane Aufnahme der Aristolochiasäure kann zur Niereschädigung beitragen; äusserliche Anwendung wird heute ebenso abgelehnt. Reine ethnobotanische Notiz, KEINE Anwendungsempfehlung.",
+        "en": "HISTORICALLY OBSOLETE — Antique and medieval wound treatment: Pliny the Elder (Naturalis Historia), Dioscorides (De Materia Medica) and medieval herbals recommended compresses of crushed Aristolochia leaves for purulent wounds, ulcers and snakebite — hence the generic name from Greek áristos (best) + locheía (birth/cleansing). Percutaneous uptake of aristolochic acid may also contribute to renal damage; external use is now likewise rejected. Pure ethnobotanical note, NOT a use recommendation."
+      },
+      "source_ids": [
+        "src-ac-wiki-en",
+        "src-ac-pfaf",
+        "src-ac-ema-statement"
+      ]
+    },
+    {
+      "id": "use-ac-03",
+      "target": [
+        "ethnobotany"
+      ],
+      "form": "raw",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "internal_external": "external",
+      "description": {
+        "de": "Biologisches Phänomen — Die Blüte der Osterluzei ist eine 'Aristolochia-Falle' (Kesselfallenblüte): die gebogene Perigonröhre ist innen mit nach unten gerichteten Reusenhaaren ausgekleidet und lockt durch aasartigen Duft kleine Zweiflügler (vor allem Pilzmücken). Die Insekten gelangen in die Kesselkammer und werden dort bis zur Bestäubung festgehalten; nach Pollenabgabe erschlaffen die Reusenhaare und geben den Ausgang frei. Klassisches Beispiel für temporäre Kesselfallenblüten in der Botanik-Lehre; KEIN medizinischer Bezug, sondern Bestäubungsökologie.",
+        "en": "Biological phenomenon — The flower of birthwort is an 'Aristolochia trap' (pitfall flower): the curved perianth tube is lined internally with downward-pointing trichomes and attracts small Diptera (especially fungus gnats) via a carrion-like scent. Insects fall into the kettle chamber and are detained until pollination; after pollen release the trichomes wither and free the exit. Classical textbook example of temporary kettle-trap flowers in botany; NO medicinal relevance, purely pollination ecology."
+      },
+      "source_ids": [
+        "src-ac-wiki-de",
+        "src-ac-wiki-en",
+        "src-ac-pfaf"
+      ]
+    },
+    {
+      "id": "use-ac-04",
+      "target": [
+        "ornamental",
+        "ethnobotany"
+      ],
+      "form": "raw",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "internal_external": "external",
+      "description": {
+        "de": "OBSOLET / SELTEN — Historisch wurde Aristolochia clematitis als Klostergartenpflanze und apothekarische 'Hortus-medicus'-Art angebaut (Hildegard-Tradition, Kloster St. Gallen, Klosterapotheken). In modernen Gärten extrem selten anzutreffen, weil giftig und in der EU als Arzneipflanze verboten; gelegentlich noch in botanischen Sammlungen und ethnobotanischen Schaugärten zu sehen. Verwilderte Bestände in Weinbergen und Ruderalstandorten Mittel- und Südeuropas. Anbau im Hausgarten wird wegen Verwechslungsgefahr (siehe Vergiftungswarnung) abgeraten.",
+        "en": "OBSOLETE / RARE — Historically Aristolochia clematitis was cultivated as a monastery garden plant and apothecary 'hortus medicus' species (Hildegard tradition, Abbey of St. Gall, monastic pharmacies). Extremely rare in modern gardens, since toxic and banned in the EU as a medicinal plant; occasionally still seen in botanical collections and ethnobotanical demonstration gardens. Naturalized stands persist in vineyards and ruderal sites of Central and Southern Europe. Cultivation in domestic gardens is discouraged due to confusion risk (see poisoning warning)."
+      },
+      "source_ids": [
+        "src-ac-wiki-de",
+        "src-ac-floraweb",
+        "src-ac-pfaf"
+      ]
+    },
+    {
+      "id": "use-ac-05",
+      "target": [
+        "ethnobotany",
+        "urinary"
+      ],
+      "form": "tea",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "internal_external": "internal",
+      "description": {
+        "de": "HISTORISCH-OBSOLET UND HOCH GEFÄHRLICH — In der traditionellen chinesischen Medizin (TCM) wurden Aristolochia-Arten (Mu Tong, Guang Fang Ji) bis in die 1990er Jahre als 'entwässernde' und 'hitzeklärende' Drogen verschrieben. 1992-1994 führte die irrtümliche Substitution von Stephania tetrandra durch Aristolochia fangchi in einer Brüsseler Schlankheitsklinik zur 'Chinese Herbs Nephropathy' (CHN, heute Aristolochia-Nephropathie/AAN): über 105 vorwiegend junge Frauen entwickelten eine schwere interstitielle Nierenfibrose; viele wurden dialysepflichtig oder mussten transplantiert werden, und es traten Urothelialkarzinome (Harnleiter/Blase) auf. Diese Katastrophe führte zum EU-weiten Verbot. Dokumentation rein als Mahnung — KEINE Anwendung.",
+        "en": "HISTORICALLY OBSOLETE AND HIGHLY DANGEROUS — In traditional Chinese medicine (TCM), Aristolochia species (Mu Tong, Guang Fang Ji) were prescribed as 'diuretic' and 'heat-clearing' drugs until the 1990s. From 1992 to 1994, accidental substitution of Stephania tetrandra by Aristolochia fangchi in a Brussels slimming clinic caused 'Chinese Herbs Nephropathy' (CHN, today Aristolochic Acid Nephropathy/AAN): over 105 mostly young women developed severe interstitial renal fibrosis; many required dialysis or transplantation, and urothelial carcinomas (ureter/bladder) emerged. This catastrophe led to the EU-wide ban. Documented purely as a warning — NO use."
+      },
+      "source_ids": [
+        "src-ac-iarc",
+        "src-ac-ema-statement",
+        "src-ac-wiki-aan"
+      ]
+    },
+    {
+      "id": "use-ac-06",
+      "target": [
+        "ethnobotany",
+        "fever"
+      ],
+      "form": "tea",
+      "plant_part": "rhizome",
+      "evidence_level": "folk",
+      "internal_external": "internal",
+      "description": {
+        "de": "HISTORISCH-OBSOLET — Antike Medizin (Hippokrates, Galen, Dioskurides) nutzte Wurzel- und Rhizom-Abkochungen der Osterluzei gegen Wechselfieber, als 'reinigendes' Mittel nach der Geburt (Lochialfluss-Förderer) und gegen Schlangenbisse. Mittelalterliche Arzneibücher (Macer Floridus, Salernitaner Antidotarium) führen sie als 'Aristolochia rotunda/longa' für innere Anwendungen. Heute wissen wir: Diese Aufgüsse enthalten freie Aristolochiasäure I und II, die DNA-Addukte (Aristolactam-dA) an Adenin-Resten bilden und A:T → T:A Transversionen in TP53 auslösen — molekulare Signatur der AA-induzierten Karzinogenese. KEINE Anwendung.",
+        "en": "HISTORICALLY OBSOLETE — Antique medicine (Hippocrates, Galen, Dioscorides) used root and rhizome decoctions of birthwort against intermittent fever, as a 'cleansing' postpartum agent (lochia-promoter) and against snakebite. Medieval pharmacopoeias (Macer Floridus, Salernitan Antidotarium) list it as 'Aristolochia rotunda/longa' for internal applications. We now know: such infusions contain free aristolochic acids I and II, which form DNA adducts (aristolactam-dA) on adenine residues and induce A:T → T:A transversions in TP53 — molecular signature of AA-induced carcinogenesis. NO use."
+      },
+      "source_ids": [
+        "src-ac-iarc",
+        "src-ac-wiki-en",
+        "src-ac-grollman-pmc"
       ]
     }
   ],
@@ -48,12 +152,110 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG (Aristolochiasäure) — stark nieren­schädigend und krebs­erregend. Historisches Hebammen­mittel, heute weltweit als Arzneimittel verboten (auch in TCM-Präparaten — Vorsicht bei chinesischen „Schlankheits­tees\"). NIEMALS verwenden.",
-      "en": "TOXIC (aristolochic acid) — strongly kidney-damaging and carcinogenic. Historical midwife remedy, today banned worldwide as medicine (also in TCM preparations — caution with Chinese 'slimming teas'). NEVER use."
+      "de": "EXTREM GIFTIG — KREBSERREGEND — IN DER EU VERBOTEN. Aristolochia clematitis enthält in allen Pflanzenteilen (Wurzel, Rhizom, Blätter, Stängel, Blüten) Aristolochiasäure I und II (AA-I, AA-II) sowie Aristolactame. Aristolochiasäure ist ein IARC Group 1 Karzinogen (höchste Stufe, gesichert krebserregend beim Menschen) und schwer nephrotoxisch. Die Substanz verursacht die Aristolochia-Nephropathie (AAN, früher 'Chinese Herbs Nephropathy'): rasche interstitielle Nierenfibrose mit Übergang zum terminalen Nierenversagen, dazu Urothelialkarzinome im oberen Harntrakt (Harnleiter, Nierenbecken, Blase). Der Brüsseler Skandal 1992-1994 (Slimming-Klinik mit Aristolochia-fangchi-Substitution) führte bei mindestens 105 vorwiegend jungen Frauen zu Dialyse, Nierentransplantation und Krebserkrankungen. EU-weit seit 2001 in Arzneimitteln verboten (Entscheidung der Kommission der Europäischen Gemeinschaften); US-FDA Import Alert 2001; EMA Public Statement 2014 bestätigt das vollständige Verbot. Es gibt KEINEN sicheren therapeutischen Index, KEINE Mindestdosis ohne Risiko. Bei versehentlicher Aufnahme: SOFORT Giftnotruf (DE 030-19240, AT 01-4064343, CH 145) und Nephrologie kontaktieren. KEINE Selbstmedikation, KEINE Tees, KEINE Tinkturen, KEIN Anbau zur Heilanwendung.",
+      "en": "EXTREMELY TOXIC — CARCINOGENIC — BANNED IN THE EU. Aristolochia clematitis contains aristolochic acid I and II (AA-I, AA-II) and aristolactams in every plant part (root, rhizome, leaves, stem, flowers). Aristolochic acid is an IARC Group 1 carcinogen (highest level, confirmed human carcinogen) and severely nephrotoxic. The substance causes Aristolochic Acid Nephropathy (AAN, formerly 'Chinese Herbs Nephropathy'): rapid interstitial renal fibrosis progressing to end-stage renal failure, together with urothelial carcinomas of the upper urinary tract (ureter, renal pelvis, bladder). The Brussels disaster of 1992-1994 (slimming clinic with Aristolochia fangchi substitution) led to dialysis, kidney transplantation and cancer in at least 105 mostly young women. Banned EU-wide in medicinal products since 2001 (Commission of the European Communities decision); US FDA Import Alert 2001; EMA Public Statement 2014 confirms the full ban. There is NO safe therapeutic index, NO minimum dose without risk. In case of accidental ingestion: IMMEDIATELY contact poison control and nephrology. NO self-medication, NO teas, NO tinctures, NO cultivation for medicinal use."
     },
-    "external_only": true,
+    "external_only": false,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "ABSOLUT KONTRAINDIZIERT. Aristolochiasäure ist plazentagängig, wirkt embryotoxisch, teratogen und genotoxisch; tierexperimentell sind Aborte und Missbildungen dokumentiert. Der historische Name 'Geburtshilfe-Wurzel' beruht auf wehenfördernder Wirkung mit gleichzeitig hohem fetalen Schaden — eine vermeintliche 'Hebammen-Hilfe', die schwangere Frauen und ihre Kinder schwer schädigte. JEDE Anwendung in der Schwangerschaft ist verboten.",
+        "en": "ABSOLUTELY CONTRAINDICATED. Aristolochic acid crosses the placenta, is embryotoxic, teratogenic and genotoxic; animal studies document abortions and malformations. The historical name 'birthwort' rests on labour-inducing action combined with severe fetal harm — a supposed 'midwife's aid' that gravely damaged pregnant women and their children. ANY use during pregnancy is prohibited."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "KONTRAINDIZIERT. Aristolochiasäure ist nephrotoxisch und karzinogen; ein Übertritt in die Muttermilch ist anzunehmen. Säuglinge mit unreifen Tubulusfunktionen sind besonders empfindlich. KEINE Anwendung in der Stillzeit, weder innerlich noch äusserlich.",
+        "en": "CONTRAINDICATED. Aristolochic acid is nephrotoxic and carcinogenic; passage into breast milk is assumed. Infants with immature tubular function are particularly sensitive. NO use during breastfeeding, neither internal nor external."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "STRIKT KONTRAINDIZIERT. Kinder und Mädchen sind durch geringes Körpergewicht und entwickelnde Niere besonders gefährdet. Verwechslungsrisiko mit anderen Arznei- oder Küchenpflanzen (Pfefferminze, Salbei) muss in Schulgärten und Familienhaushalten unbedingt ausgeschlossen werden. KEIN Einsatz unter 18 Jahren, KEINE 'kindgerechten' Aufgüsse, KEINE homöopathischen Verdünnungen unter D6 ohne pharmazeutische Aufsicht.",
+        "en": "STRICTLY CONTRAINDICATED. Children are particularly endangered due to low body weight and developing kidneys. Confusion risk with other medicinal or kitchen plants (peppermint, sage) must be absolutely excluded in school gardens and family households. NO use under 18 years, NO 'child-friendly' infusions, NO homeopathic dilutions below D6 without pharmaceutical supervision."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "JEDE innerliche Anwendung (Tee, Tinktur, Pulver, Frischpflanze, TCM-Mischung) — generell verboten in der EU; IARC Group 1 Karzinogen ohne therapeutischen Index",
+        "en": "ANY internal use (tea, tincture, powder, fresh plant, TCM blend) — generally banned in the EU; IARC Group 1 carcinogen with no therapeutic index"
+      },
+      {
+        "de": "JEDE äusserliche Anwendung auf verletzter Haut oder Schleimhaut — perkutane und mukosale Aufnahme der Aristolochiasäure dokumentiert",
+        "en": "ANY external use on broken skin or mucosa — percutaneous and mucosal uptake of aristolochic acid documented"
+      },
+      {
+        "de": "Bestehende Nierenerkrankungen (Niereninsuffizienz, chronische Nierenerkrankung CKD aller Stadien, Tubulopathien) — bereits Spuren-Mengen können zur dialysepflichtigen Niereschädigung führen",
+        "en": "Existing renal disease (renal insufficiency, chronic kidney disease CKD all stages, tubulopathies) — even trace amounts can cause dialysis-dependent kidney damage"
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (siehe oben)",
+        "en": "Pregnancy and breastfeeding (see above)"
+      },
+      {
+        "de": "Kinder und Jugendliche unter 18 Jahren",
+        "en": "Children and adolescents under 18 years"
+      },
+      {
+        "de": "Haustiere (Hund, Katze, Pferd, Wiederkäuer, Nager) und Weidetiere — Vergiftungsfälle bei Pferden auf belasteten Weiden dokumentiert; Heu aus Osterluzei-Vorkommen ist NICHT verfütterbar",
+        "en": "Pets (dog, cat, horse, ruminants, rodents) and grazing animals — poisoning cases in horses on contaminated pastures documented; hay from sites with birthwort is NOT suitable for feeding"
+      },
+      {
+        "de": "Tumor-Anamnese oder familiäre Belastung mit Urothelialkarzinom — additives Karzinogenrisiko",
+        "en": "Personal or family history of urothelial carcinoma — additive carcinogenic risk"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Nichtsteroidale Antirheumatika (NSAR: Ibuprofen, Diclofenac, Naproxen)",
+        "mechanism": {
+          "de": "NSAR vermindern die renale Perfusion durch Prostaglandin-Hemmung; Kombination mit nephrotoxischer Aristolochiasäure beschleunigt die interstitielle Fibrose und das Risiko für akutes Nierenversagen massiv. STRIKT vermeiden.",
+          "en": "NSAIDs reduce renal perfusion through prostaglandin inhibition; combination with nephrotoxic aristolochic acid massively accelerates interstitial fibrosis and acute kidney injury risk. STRICTLY avoid."
+        },
+        "severity": "avoid",
+        "source_id": "src-ac-iarc"
+      },
+      {
+        "drug_class": "Aminoglykosid-Antibiotika (Gentamicin, Tobramycin, Amikacin)",
+        "mechanism": {
+          "de": "Aminoglykoside sind selbst tubulär nephrotoxisch; additive Schädigung mit Aristolochiasäure führt zu beschleunigtem tubulären Zellschaden und Niereninsuffizienz.",
+          "en": "Aminoglycosides are themselves tubularly nephrotoxic; additive damage with aristolochic acid leads to accelerated tubular cell injury and renal insufficiency."
+        },
+        "severity": "avoid",
+        "source_id": "src-ac-grollman-pmc"
+      },
+      {
+        "drug_class": "Calcineurin-Inhibitoren (Ciclosporin, Tacrolimus)",
+        "mechanism": {
+          "de": "Ciclosporin und Tacrolimus sind nach Nierentransplantation und bei Autoimmunerkrankungen verbreitet; sie wirken vasokonstriktorisch-nephrotoxisch. Bei Patienten nach Aristolochia-Exposition wäre die kombinierte Nierentoxizität katastrophal.",
+          "en": "Cyclosporine and tacrolimus are widely used after kidney transplantation and in autoimmune disease; they exert vasoconstrictive-nephrotoxic effects. In patients with prior aristolochic acid exposure, combined renal toxicity would be catastrophic."
+        },
+        "severity": "avoid",
+        "source_id": "src-ac-ema-statement"
+      },
+      {
+        "drug_class": "Jodhaltige Kontrastmittel (radiologische Diagnostik)",
+        "mechanism": {
+          "de": "Kontrastmittel-induzierte Nephropathie (CIN) addiert sich zur Aristolochiasäure-Schädigung; vor jeder Bildgebung müssen Nierenwerte (Kreatinin, eGFR) kontrolliert werden.",
+          "en": "Contrast-induced nephropathy (CIN) adds to aristolochic acid damage; renal function (creatinine, eGFR) must be monitored before any imaging."
+        },
+        "severity": "avoid",
+        "source_id": "src-ac-ema-statement"
+      },
+      {
+        "drug_class": "Chemotherapeutika mit renaler Elimination (Cisplatin, Methotrexat-Hochdosis)",
+        "mechanism": {
+          "de": "Cisplatin und Hochdosis-Methotrexat sind direkt tubulustoxisch; Patienten mit Aristolochia-Anamnese haben deutlich erhöhtes Risiko für irreversibles Nierenversagen unter onkologischer Therapie.",
+          "en": "Cisplatin and high-dose methotrexate are directly tubule-toxic; patients with aristolochic acid exposure have markedly increased risk of irreversible renal failure during oncologic therapy."
+        },
+        "severity": "avoid",
+        "source_id": "src-ac-grollman-pmc"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -70,6 +272,76 @@
       "title": "Aristolochia clematitis (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Aristolochia_clematitis",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-ac-wiki-de",
+      "type": "wikipedia",
+      "title": "Gewöhnliche Osterluzei — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Osterluzei",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ac-wiki-en",
+      "type": "wikipedia",
+      "title": "Aristolochia clematitis — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Aristolochia_clematitis",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ac-wikidata",
+      "type": "wikidata",
+      "title": "Aristolochia clematitis — Wikidata Q160077",
+      "url": "https://www.wikidata.org/wiki/Q160077",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ac-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Aristolochia clematitis",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Aristolochia+clematitis",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ac-iarc",
+      "type": "monograph",
+      "title": "IARC Monograph Vol. 100A — Aristolochic acids (Group 1 carcinogen)",
+      "url": "https://publications.iarc.fr/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Pharmaceuticals-2012",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ac-ema-statement",
+      "type": "monograph",
+      "title": "EMA Public Statement on Aristolochia and herbal medicinal products containing aristolochic acid (HMPC, 2014)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/aristolochia",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ac-wiki-aan",
+      "type": "wikipedia",
+      "title": "Aristolochic acid nephropathy — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Aristolochic_acid_nephropathy",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ac-grollman-pmc",
+      "type": "monograph",
+      "title": "Grollman AP et al. — Aristolochic acid and the etiology of endemic (Balkan) nephropathy (PNAS 2007)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1948000/",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ac-floraweb",
+      "type": "book",
+      "title": "FloraWeb (BfN) — Aristolochia clematitis L.",
+      "url": "https://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=433",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ac-commons",
+      "type": "commons",
+      "title": "Category:Aristolochia clematitis — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Category:Aristolochia_clematitis",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -81,5 +353,125 @@
     "license": "CC BY-SA 3.0",
     "author": "Kurt Stüber [1]",
     "source_url": "https://commons.wikimedia.org/wiki/File:Aristolochia_clematitis5.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Aristolochic acid I (AA-I)",
+      "category": "alkaloid",
+      "percent_range": "0.05-0.6 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Hauptwirkstoff und Leitsubstanz; nitrierte Phenanthren-1-Carbonsäure (8-Methoxy-Derivat). Nach metabolischer Aktivierung (Nitroreduktion durch NQO1 und Cytochrom-P450) entstehen reaktive N-Hydroxyaristolactam-Zwischenstufen, die kovalente Aristolactam-dA-Addukte mit der DNA bilden — molekulare Signatur der AA-induzierten Mutagenese (A:T→T:A Transversionen, insbesondere TP53 Codon 139). IARC Group 1 Karzinogen.",
+        "en": "Main active and lead compound; nitrated phenanthrene-1-carboxylic acid (8-methoxy derivative). After metabolic activation (nitroreduction by NQO1 and cytochrome P450), reactive N-hydroxyaristolactam intermediates form covalent aristolactam-dA adducts with DNA — molecular signature of AA-induced mutagenesis (A:T→T:A transversions, particularly TP53 codon 139). IARC Group 1 carcinogen."
+      }
+    },
+    {
+      "name": "Aristolochic acid II (AA-II)",
+      "category": "alkaloid",
+      "percent_range": "0.01-0.2 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Demethoxy-Analogon der AA-I (fehlende 8-Methoxygruppe); etwas geringere DNA-Adduktbildung, aber ebenfalls nephrotoxisch und karzinogen; in geringerer Konzentration als AA-I, trägt zur Gesamttoxizität bei.",
+        "en": "Demethoxy analogue of AA-I (lacking 8-methoxy group); somewhat lower DNA adduct formation, but still nephrotoxic and carcinogenic; present in lower concentration than AA-I, contributes to overall toxicity."
+      }
+    },
+    {
+      "name": "Aristolactam I",
+      "category": "alkaloid",
+      "percent_range": "Spuren - 0.1 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Reduktions- und Stoffwechselprodukt der Aristolochiasäure; pentazyklisches Phenanthren-Lactam. In vivo als DNA-Addukt nachweisbar (Aristolactam-dA-Addukt); dient als biologischer Marker für AA-Exposition im Urin und Nierengewebe (Biopsie).",
+        "en": "Reduction and metabolic product of aristolochic acid; pentacyclic phenanthrene lactam. Detectable in vivo as DNA adduct (aristolactam-dA adduct); serves as biological marker for AA exposure in urine and renal biopsy tissue."
+      }
+    },
+    {
+      "name": "Magnoflorin",
+      "category": "alkaloid",
+      "percent_range": "0.01-0.05 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Quartäres Aporphin-Alkaloid; in vielen Aristolochiaceae und Magnoliaceae verbreitet; pharmakologisch hypotensiv und kreislaufaktiv. Beitragend zur historischen 'kreislaufanregenden' Wirkung der Hildegard-Notiz, jedoch in Aristolochia-Drogen pharmakologisch von den toxischen Aristolochiasäuren überlagert.",
+        "en": "Quaternary aporphine alkaloid; widespread in Aristolochiaceae and Magnoliaceae; pharmacologically hypotensive and circulation-active. Contributes to the historical 'circulation-stimulating' note of Hildegard, yet pharmacologically overshadowed in Aristolochia drugs by the toxic aristolochic acids."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Borneol, Spuren)",
+      "category": "essential_oil",
+      "percent_range": "< 0.1 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Geringe Mengen flüchtiger Mono- und Sesquiterpene mit Borneol- und Camphen-Anteilen; verantwortlich für den schwach aromatisch-aasartigen Geruch der Pflanze, der Bestäuber (Pilzmücken) anlockt. Pharmakologisch unbedeutend gegenüber den Aristolochiasäuren.",
+        "en": "Small amounts of volatile mono- and sesquiterpenes with borneol and camphene fractions; responsible for the faint aromatic-carrion scent of the plant that attracts pollinators (fungus gnats). Pharmacologically insignificant compared with the aristolochic acids."
+      }
+    },
+    {
+      "name": "Allantoin",
+      "category": "other",
+      "percent_range": "Spuren - 0.5 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Klassisches gewebereparierendes Stickstoff-Derivat (vor allem aus Beinwell bekannt); auch in Aristolochia-Blättern nachgewiesen. Allantoin ist für sich allein nicht toxisch; in der Osterluzei jedoch untrennbar mit hochgiftiger Aristolochiasäure vergesellschaftet, deshalb klinisch nicht nutzbar.",
+        "en": "Classical tissue-repair nitrogen derivative (best known from comfrey); also detected in Aristolochia leaves. Allantoin in itself is not toxic; in birthwort, however, inseparably associated with highly toxic aristolochic acid and therefore clinically unusable."
+      }
+    },
+    {
+      "name": "Bitterstoffe (nicht-charakterisierte Iridoide / Sesquiterpenlactone)",
+      "category": "bitter",
+      "percent_range": "nicht quantifiziert",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Bitter schmeckende Sekundärstoffe tragen zur historischen Verwendung als 'verdauungsförderndes' Mittel und Kreislaufanregung bei; präzise Strukturanalysen liegen für A. clematitis nur lückenhaft vor. Geschmackswarnung: der intensive, bittere und unangenehme Geschmack hat historisch versehentliche grössere Aufnahmen begrenzt.",
+        "en": "Bitter-tasting secondary metabolites contribute to the historical use as 'digestive' and circulation-stimulating agent; detailed structural data for A. clematitis are only partially available. Taste warning: the intense bitter and unpleasant flavour has historically limited accidental large ingestion."
+      }
+    },
+    {
+      "name": "Flavonoide (Kaempferol-, Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "ca. 0.2-1 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Antioxidative Begleitsubstanzen typisch für Aristolochiaceae; analytisch in Blättern nachgewiesen. Keine eigenständige therapeutische Bedeutung in der Osterluzei und keinerlei Rechtfertigung für die Anwendung — die Karzinogenität der Aristolochiasäure überwiegt jeden Flavonoid-Nutzen um Grössenordnungen.",
+        "en": "Antioxidant companion substances typical for Aristolochiaceae; analytically detected in leaves. No independent therapeutic significance in birthwort and absolutely no justification for use — aristolochic acid carcinogenicity outweighs any flavonoid benefit by orders of magnitude."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        3,
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Historisch im zeitigen Frühjahr vor dem Austrieb; heute KEINE Ernte für Heilanwendung mehr erlaubt — Eintrag rein als ethnobotanische und phytochemische Dokumentation.",
+        "en": "Historically in early spring before sprouting; today NO harvest for medicinal use is permitted — entry kept purely as ethnobotanical and phytochemical documentation."
+      },
+      "drying": {
+        "de": "Heute KEINE Ernte für Heilanwendung mehr zulässig. Aristolochia clematitis ist in der EU seit 2001 in Arzneimitteln verboten (IARC Group 1 Karzinogen, nephrotoxisch). Historisch wurde die Wurzel im Schatten bei 30-40 °C luftgetrocknet, da bei höheren Temperaturen Aristolochiasäure-Abbauprodukte entstehen — diese Information dient nur der phytochemischen Dokumentation, NICHT der Anwendung. Wird Aristolochia versehentlich in einem Garten entdeckt: ausreissen mit Handschuhen, in der Restmülltonne entsorgen, NICHT kompostieren, NICHT verfüttern, NICHT als Schnittblume aufstellen.",
+        "en": "Today NO harvest for medicinal use is permitted. Aristolochia clematitis is banned from EU medicinal products since 2001 (IARC Group 1 carcinogen, nephrotoxic). Historically the root was air-dried in the shade at 30-40 °C, because at higher temperatures aristolochic acid degradation products form — this information is given solely for phytochemical documentation, NOT for use. If Aristolochia is accidentally discovered in a garden: remove with gloves, dispose in residual waste, do NOT compost, do NOT feed to animals, do NOT use as cut flower."
+      },
+      "storage_condition": {
+        "de": "Nicht zutreffend für die heutige Praxis — kein zugelassener Drogenverkehr in der EU. Historische Quellen erwähnten dichte, lichtgeschützte Behälter im Apothekenkeller; auch dort kein Schutz vor langsamer Oxidation der Aristolochiasäure.",
+        "en": "Not applicable to current practice — no authorized trade as a drug in the EU. Historical sources mention tight, light-protected containers in apothecary cellars; even there no protection against slow oxidation of aristolochic acid."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        5,
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Historisch zur Blütezeit (Mai-Juli); heute relevante Information nur für botanische Erfassung und Bestandskontrolle (Bekämpfung im Weinbau), KEINE medizinische Ernte.",
+        "en": "Historically at flowering time (May-July); today relevant only for botanical survey and population control (vineyard management), NO medicinal harvest."
+      },
+      "drying": {
+        "de": "Heute KEINE Trocknung für medizinische Zwecke. Bekämpfung in landwirtschaftlichen Flächen (Weinberge, Brachen) erfolgt durch Ausreissen vor der Samenreife mit Schutzhandschuhen; Pflanzenmaterial im Hausmüll entsorgen, nicht ins Heu mischen — Pferde haben sich in Westeuropa wiederholt durch belastetes Heu vergiftet. Bei Feldarbeit Hautkontakt vermeiden.",
+        "en": "Today NO drying for medicinal purposes. Control on agricultural land (vineyards, fallow) is by pulling before seed maturity with protective gloves; dispose of plant material in residual waste, do not mix into hay — horses in Western Europe have repeatedly been poisoned by contaminated hay. Avoid skin contact during fieldwork."
+      }
+    }
+  ]
 }

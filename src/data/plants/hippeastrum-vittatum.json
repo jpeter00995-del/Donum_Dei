@@ -20,19 +20,93 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "form": "raw",
       "target": [
-        "caution"
+        "ornamental"
       ],
       "internal_external": "external",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Der Ritterstern (Hippeastrum vittatum) ist die klassische 'Winter-Amaryllis' des mitteleuropäischen Wohnzimmers — als Weihnachts- und Adventsgeschenkpflanze hat sich die getriebene Zwiebel seit dem späten 19. Jahrhundert in der niederländischen und deutschen Floristik etabliert. Zwischen Dezember und Februar treibt eine grosse, getrocknete Zwiebel innerhalb von vier bis sechs Wochen einen blattlosen Blütenschaft mit zwei bis sechs trichterförmigen, rot-weiss gestreiften Blüten von 12 bis 18 Zentimetern Durchmesser. Wichtig zur Klarstellung: Im Volksmund wird die Pflanze fast immer 'Amaryllis' genannt, gehört botanisch jedoch zur Gattung Hippeastrum (ca. 80 südamerikanische Arten, Indoor-Treibkultur). Die echte botanische Gattung Amaryllis umfasst nur eine einzige Art, Amaryllis belladonna aus dem südafrikanischen Kapland, die im Spätsommer im Freien blüht. Beide Gattungen wurden im 19. Jahrhundert oft verwechselt; die taxonomische Trennung wurde erst 1987 durch die Internationale Vereinigung für Pflanzentaxonomie endgültig geklärt.",
+        "en": "The striped Barbados lily (Hippeastrum vittatum) is the classic 'winter amaryllis' of the Central European living room — as a Christmas and Advent gift plant, the forced bulb has been established in Dutch and German floristry since the late 19th century. Between December and February, a large dried bulb sends up a leafless flowering scape within four to six weeks bearing two to six funnel-shaped, red-and-white striped blooms of 12 to 18 centimetres diameter. Important clarification: in everyday language the plant is almost always called 'amaryllis', but botanically it belongs to the genus Hippeastrum (around 80 South American species, indoor forcing culture). The true botanical genus Amaryllis comprises only a single species, Amaryllis belladonna from the South African Cape, which blooms outdoors in late summer. Both genera were frequently confused in the 19th century; the taxonomic separation was definitively settled in 1987 by the International Association for Plant Taxonomy."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src_hv_wiki_en",
+        "src_hv_wiki_de",
+        "src_hv_kew_pow"
+      ],
+      "plant_part": "flower",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Industrielle Schnittblumenproduktion: Niederländische und brasilianische Spezialbetriebe ziehen Hippeastrum-Zwiebeln über zwei bis drei Jahre in Freiland- oder Tunnelkultur, ernten und trocknen sie im Sommer und liefern getrocknete Zwiebeln (Kaliber 26 bis 36 Zentimeter Umfang) im Herbst in den europäischen Handel. Parallel werden geschnittene Blütenschäfte mit Knospen in der Vorweihnachts- und Hochzeitssaison gehandelt; sie sind mit zwei bis drei Wochen Vasenstandzeit eine der haltbarsten Schnittblumen. Wichtige Zuchtbetriebe sitzen in den Niederlanden (Hillegom, Lisse) und in den brasilianischen Staaten São Paulo und Rio Grande do Sul. Wegen der erheblichen Sammlerwerte sind seltene Hippeastrum-Wildarten in Brasilien gefährdet und werden über CITES Anhang II reguliert (Schutzstatus für Wildherkünfte, nicht für die kultivierte Geschenkpflanze H. vittatum).",
+        "en": "Industrial cut-flower production: Dutch and Brazilian specialist nurseries grow Hippeastrum bulbs over two to three years in open field or tunnel culture, harvest and dry them in summer and ship dried bulbs (calibre 26 to 36 centimetres circumference) to European retail in autumn. In parallel, cut flowering stems with buds are traded during the pre-Christmas and wedding season; with a vase life of two to three weeks they are among the longest-lasting cut flowers. Key production hubs sit in the Netherlands (Hillegom, Lisse) and in the Brazilian states of São Paulo and Rio Grande do Sul. Because of considerable collector value, rare wild Hippeastrum species are threatened in Brazil and regulated under CITES Appendix II (protection applies to wild-collected material, not to the cultivated gift plant H. vittatum)."
+      },
+      "source_ids": [
+        "src_hv_wiki_en",
+        "src_hv_kew_pow",
+        "src_hv_rhs"
+      ],
+      "plant_part": "flower",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ethnobotany"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Namensgebung und Symbolik: Der deutsche Trivialname 'Ritterstern' bezieht sich auf die sternförmig spreizende Blütenform und das ritterlich-rote, weiss durchstreifte Tepalenmuster — vermutlich eine Übersetzung der lateinischen Gattungsbezeichnung Hippeastrum ('Reiterstern', von griechisch hippeus = Reiter und astron = Stern), eingeführt von dem englischen Pflanzenliebhaber William Herbert 1837. Der Trivialname 'Amaryllis' geht auf die gleichnamige Hirtin Amaryllis aus den Eklogen Vergils (Hirtengedichte, 1. Jhdt. v. Chr.) zurück und wurde von Linné 1753 zunächst für die gesamte Gruppe vergeben, später aber auf die südafrikanische Amaryllis belladonna eingeschränkt. Die rein kulturelle und sprachgeschichtliche Bedeutung — Verwendung als Geschenk- und Weihnachtssymbol, Hochzeitsblume, Symbol der Standhaftigkeit in der viktorianischen Blumensprache — überwiegt jeden medizinischen Bezug bei weitem.",
+        "en": "Naming and symbolism: the German common name 'Ritterstern' (knight's star) refers to the star-shaped spread of the bloom and the chivalric red tepals streaked with white — presumably a translation of the Latin genus name Hippeastrum ('horseman's star', from Greek hippeus = horseman and astron = star), introduced by the English plant enthusiast William Herbert in 1837. The common name 'amaryllis' goes back to the eponymous shepherdess Amaryllis from Virgil's Eclogues (pastoral poems, 1st century BCE) and was originally assigned by Linnaeus in 1753 to the whole group, later restricted to the South African Amaryllis belladonna. The purely cultural and linguistic-historical significance — use as a gift and Christmas symbol, wedding flower, symbol of steadfastness in Victorian flower language — far outweighs any medicinal connection."
+      },
+      "source_ids": [
+        "src_hv_wiki_en",
+        "src_hv_wiki_de",
+        "src_hv_wikidata"
+      ],
+      "plant_part": "flower",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ethnobotany"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Süd-amerikanische Ethnobotanik: Indigene Andenvölker (Quechua, Aymara) sowie Stämme im brasilianischen Amazonas-Hochland nutzten verschiedene Hippeastrum-Verwandte historisch als Bestandteil pflanzlicher Pfeil- und Speergifte. Die Zwiebeln wurden zerstossen, fermentiert und auf Pfeilspitzen aufgetragen — die enthaltenen Amaryllidaceae-Alkaloide (vor allem Lycorin) wirken zentral lähmend und unterstützen den Jagderfolg auf Kleinwild. Es gibt KEINE belegte indigene Heilanwendung von Hippeastrum-Zwiebeln — der ethnobotanische Bezug ist rein toxikologisch-jagdtechnisch. Dieser Eintrag ist rein dokumentarisch; aufgrund der akuten Toxizität (siehe Sicherheitshinweise) und der Gefahr für moderne Anwender wird ausdrücklich vor jeder Imitation gewarnt. Die kulturelle Bedeutung ist mit dem Erlöschen traditioneller Jagdpraktiken weitgehend verloren gegangen.",
+        "en": "South American ethnobotany: indigenous Andean peoples (Quechua, Aymara) as well as tribes in the Brazilian Amazon highlands historically used various Hippeastrum relatives as components of plant-based arrow and spear poisons. The bulbs were crushed, fermented and applied to arrow tips — the contained Amaryllidaceae alkaloids (especially lycorine) act as central nervous system depressants and supported hunting success for small game. There is NO documented indigenous medicinal use of Hippeastrum bulbs — the ethnobotanical connection is purely toxicological-technical for hunting purposes. This entry is purely documentary; due to the acute toxicity (see safety notes) and the danger to modern users, any imitation is expressly warned against. The cultural significance has largely been lost with the disappearance of traditional hunting practices."
+      },
+      "source_ids": [
+        "src_hv_pubmed_alkaloids",
+        "src_hv_kew_pow"
+      ],
+      "plant_part": "bulb",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Toxizitäts-Warnhinweis — keine Heilanwendung: Der frische Pflanzensaft enthält Amaryllidaceae-Alkaloide und Calciumoxalat-Raphiden, die bei wiederholtem Hautkontakt (typischerweise bei Floristen, Gärtnern und Zwiebel-Sortierern in den Niederlanden) eine irritative bis allergische Kontaktdermatitis auslösen — die sogenannte 'Amaryllis-Dermatitis' oder 'Hippeastrum-Hand'. Symptome: Rötung, Juckreiz, kleine Bläschen an Händen und Unterarmen innerhalb von Stunden bis Tagen nach Exposition; bei sensibilisierten Personen auch akute Quaddel-Reaktionen. Vorbeugung: Nitril- oder Lederhandschuhe beim Umtopfen, Schneiden und beim Entfernen verblühter Blütenschäfte. Dies ist explizit eine ethnobotanische bzw. arbeitsmedizinische Warnung, keine therapeutische Indikation.",
+        "en": "Toxicity warning note — not a remedy: the fresh plant sap contains Amaryllidaceae alkaloids and calcium oxalate raphides which, on repeated skin contact (typically in florists, gardeners and bulb sorters in the Netherlands), trigger an irritant to allergic contact dermatitis — the so-called 'amaryllis dermatitis' or 'Hippeastrum hand'. Symptoms: redness, itching, small vesicles on hands and forearms within hours to days of exposure; sensitised individuals may show acute urticarial reactions. Prevention: nitrile or leather gloves when repotting, cutting and removing spent flower scapes. This is explicitly an ethnobotanical or occupational medicine warning, not a therapeutic indication."
+      },
+      "source_ids": [
+        "src_hv_wiki_en",
+        "src_hv_aspca",
+        "src_hv_pubmed_alkaloids"
+      ],
+      "plant_part": "bulb",
+      "evidence_level": "folk"
     }
   ],
   "season": {
@@ -50,12 +124,84 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG (Lycorin und verwandte Alkaloide) — vor allem die Zwiebel. Sehr verbreitete Weihnachts- und Winter-Geschenkpflanze. Verzehr verursacht starkes Erbrechen, Durchfall, niedrigen Blutdruck. Besonders für Katzen extrem gefährlich (Nierenversagen möglich). Die hübschen großen Blüten und Knospen werden manchmal von Kindern und Tieren angeknabbert — Topf außer Reichweite stellen.",
-      "en": "TOXIC (lycorine and related alkaloids) — especially the bulb. Very common Christmas and winter gift plant. Consumption causes severe vomiting, diarrhoea, low blood pressure. Particularly dangerous for cats (possible kidney failure). The pretty large flowers and buds are sometimes nibbled by children and animals — keep pot out of reach."
+      "de": "GIFTIG — ALLE PFLANZENTEILE, BESONDERS DIE ZWIEBEL. Hippeastrum vittatum enthält die typischen Amaryllidaceae-Alkaloide (Lycorin als Hauptkomponente, dazu Hippeastrin, Vittatin, Tazettin, in Spuren Pancratistatin und Galantamin) sowie Calciumoxalat-Raphiden. Die klassische Vergiftung erfolgt — analog zur Narzisse — durch versehentliche Verwechslung der trockenen Zwiebel mit Speisezwiebel oder Schalotte, besonders nach Weihnachts-Geschenken, wenn die abgeblühten Zwiebeln in Küchen und Vorratsräume gelangen. Symptome (oral): innerhalb 15 bis 90 Minuten Übelkeit, starkes Erbrechen, Durchfall, krampfartige Bauchschmerzen, Speichelfluss, Schwitzen, Schwindel, Kreislaufstörungen; bei grösseren Mengen Tremor, Krampfanfälle, Tachykardie, in schweren Fällen Atemlähmung. Dermal: Floristen-Ekzem, Kontaktdermatitis durch wiederholten Saftkontakt. Haustiere — besonders Katzen — sind sehr empfindlich; eine einzige zerkaute Zwiebelschuppe kann bei der Katze Erbrechen, Tremor und epileptiforme Krampfanfälle auslösen (häufige Notfallvorstellung bei Tierärzten zwischen Dezember und Februar). Bei Verdacht auf orale Vergiftung: Giftnotruf (Deutschland: regionale Giftinformationszentralen, Österreich: VIZ, Schweiz: Tox Info Suisse), reichlich Wasser, KEIN Salzwasser zur Brechauslösung. Kinder und Haustiere unverzüglich ärztlich bzw. tierärztlich vorstellen.",
+      "en": "TOXIC — ALL PLANT PARTS, ESPECIALLY THE BULB. Hippeastrum vittatum contains the typical Amaryllidaceae alkaloids (lycorine as the main component, plus hippeastrine, vittatine, tazettine, traces of pancratistatin and galantamine) along with calcium oxalate raphides. The classic poisoning occurs — analogous to narcissus — through accidental confusion of the dried bulb with kitchen onion or shallot, particularly after Christmas gifts, when the spent bulbs find their way into kitchens and pantries. Symptoms (oral): within 15 to 90 minutes nausea, severe vomiting, diarrhoea, cramping abdominal pain, salivation, sweating, dizziness, circulatory disturbances; with larger amounts tremor, seizures, tachycardia, in severe cases respiratory paralysis. Dermal: florist's eczema, contact dermatitis from repeated sap exposure. Pets — particularly cats — are highly sensitive; a single chewed bulb scale can trigger vomiting, tremor and epileptiform seizures in cats (frequent emergency presentations to veterinarians between December and February). On suspected oral poisoning: poison control hotline (Germany: regional poison information centres, Austria: VIZ, Switzerland: Tox Info Suisse), abundant water, NO salt water for induced vomiting. Present children and pets to medical or veterinary care without delay."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Lycorin und weitere Amaryllidaceae-Alkaloide hemmen die ribosomale Proteinbiosynthese und sind in vitro embryotoxisch sowie in Tierstudien teratogen. Jede orale oder hochdosierte topische Anwendung von Hippeastrum-Material in der Schwangerschaft ist kontraindiziert. Auch der Hautkontakt mit dem Pflanzensaft sollte in der Schwangerschaft konsequent durch Handschuhe vermieden werden, da systemische Resorption über sensibilisierte oder geschädigte Haut nicht ausgeschlossen werden kann.",
+        "en": "Lycorine and other Amaryllidaceae alkaloids inhibit ribosomal protein biosynthesis and are embryotoxic in vitro as well as teratogenic in animal studies. Any oral or high-dose topical application of Hippeastrum material during pregnancy is contraindicated. Skin contact with the plant sap should also be consistently avoided in pregnancy by wearing gloves, since systemic absorption through sensitised or damaged skin cannot be ruled out."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Der Übergang der Amaryllidaceae-Alkaloide in die Muttermilch ist nicht ausreichend untersucht; angesichts der akuten Toxizität (Erbrechen, Krampfanfälle) für den Säugling ist jede innere Anwendung streng kontraindiziert. Bei reiner Zimmer- und Geschenkpflanzen-Nutzung besteht für stillende Mütter keine Gefährdung, sofern Hautkontakt mit dem Pflanzensaft konsequent vermieden wird.",
+        "en": "Transfer of Amaryllidaceae alkaloids into breast milk is insufficiently studied; given the acute toxicity (vomiting, seizures) for the infant, any internal use is strictly contraindicated. For purely indoor and gift-plant use, breastfeeding mothers are not at risk provided skin contact with the plant sap is consistently avoided."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder vergiften sich klassisch durch Anbeissen der grossen, attraktiven Zwiebel — als Weihnachts-Geschenkpflanze ist Hippeastrum vittatum in Wohnungen mit Kleinkindern besonders riskant. Schon ein Stück Zwiebelschuppe kann starke Brechattacken und Dehydratation auslösen. Die Pflanze sollte ausserhalb der Reichweite kletternder Kinder aufgestellt werden; nach dem Abblühen die Zwiebel im verschlossenen Behälter (klar als 'Ritterstern — giftig' beschriftet) lagern. Bei versehentlicher Aufnahme: Giftnotruf, kein selbstinduziertes Erbrechen, schnellstmögliche ärztliche Vorstellung. Keinerlei Eigenanwendung bei Kindern.",
+        "en": "Children classically poison themselves by biting into the large, attractive bulb — as a Christmas gift plant, Hippeastrum vittatum is particularly risky in households with small children. Even a piece of bulb scale can trigger severe vomiting and dehydration. The plant should be placed out of reach of climbing children; after flowering, store the bulb in a sealed container (clearly labelled as 'amaryllis — toxic'). On accidental ingestion: poison control hotline, no self-induced vomiting, present to medical care as quickly as possible. No lay use in children."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Jede Form der oralen Selbstanwendung von Hippeastrum-Material — keine sichere Hausdosierung möglich, keine etablierte Heilanwendung; EMA-HMPC führt Hippeastrum nicht.",
+        "en": "Any form of oral self-administration of Hippeastrum material — no safe home dose possible, no established medicinal use; the EMA HMPC does not list Hippeastrum."
+      },
+      {
+        "de": "Bekannte Amaryllidaceae-Allergie (Narzisse, Schneeglöckchen, Hippeastrum) — Kreuzsensibilisierung ist klinisch dokumentiert; jeden Hautkontakt mit dem Saft konsequent vermeiden.",
+        "en": "Known Amaryllidaceae allergy (narcissus, snowdrop, Hippeastrum) — cross-sensitisation is clinically documented; consistently avoid all skin contact with the sap."
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche unter 18 Jahren — siehe Hinweise oben; Lycorin ist embryotoxisch und systemisch akut toxisch.",
+        "en": "Pregnancy, breastfeeding, children and adolescents under 18 years — see notes above; lycorine is embryotoxic and acutely systemically toxic."
+      },
+      {
+        "de": "Haushalte mit Katzen, Hunden, Vögeln oder Kleinnagern — Hippeastrum-Zwiebeln sind ausgeprägt haustiertoxisch (Erbrechen, Tremor, Krampfanfälle, Herzrhythmusstörungen); die Pflanze gegebenenfalls ausser Reichweite halten oder ganz darauf verzichten.",
+        "en": "Households with cats, dogs, birds or small rodents — Hippeastrum bulbs are markedly toxic to pets (vomiting, tremor, seizures, cardiac arrhythmias); keep the plant out of reach or avoid altogether."
+      },
+      {
+        "de": "Personen mit bestehendem Magen-Darm-Ulkus, Reflux oder chronischer Niereninsuffizienz sollten den Pflanzensaft besonders strikt meiden; bei Hautkontakt rasch mit lauwarmem Wasser und milder Seife abspülen.",
+        "en": "Individuals with existing gastrointestinal ulcers, reflux disease or chronic renal impairment should particularly strictly avoid the plant sap; on skin contact rinse promptly with lukewarm water and mild soap."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Cholinesterase-Hemmer (Donepezil, Rivastigmin, Galantamin, Pyridostigmin)",
+        "mechanism": {
+          "de": "Hippeastrum-Zwiebeln enthalten geringe Mengen Galantamin sowie weitere Amaryllidaceae-Alkaloide mit cholinerger Wirkkomponente. Eine versehentliche Aufnahme von Pflanzenmaterial zusätzlich zu therapeutisch eingenommenen Cholinesterase-Hemmern kann additive cholinerge Effekte (Bradykardie, Bronchospasmus, Krampfanfälle, cholinerge Krise) auslösen — klinisch relevant nur bei Pflanzenmaterial-Vergiftung, theoretisch aber zwingend zu beachten.",
+          "en": "Hippeastrum bulbs contain small amounts of galantamine plus other Amaryllidaceae alkaloids with cholinergic activity. Accidental ingestion of plant material in addition to therapeutically taken cholinesterase inhibitors can trigger additive cholinergic effects (bradycardia, bronchospasm, seizures, cholinergic crisis) — clinically relevant only in plant material poisoning, but theoretically mandatory to consider."
+        },
+        "severity": "avoid",
+        "source_id": "src_hv_pubmed_alkaloids"
+      },
+      {
+        "drug_class": "Anticholinergika (Atropin, Scopolamin, Trizyklische Antidepressiva, Antihistaminika erster Generation)",
+        "mechanism": {
+          "de": "Anticholinergika antagonisieren die durch Lycorin und Galantamin verstärkte cholinerge Übertragung — bei akuter Vergiftung mit Hippeastrum-Material wird Atropin in der Notfallmedizin gezielt als Antidot eingesetzt (analog zur Therapie von Cholinesterase-Hemmer-Vergiftungen). Bei vorbestehender anticholinerger Dauermedikation kann die typische Vergiftungssymptomatik abgeschwächt und damit verschleiert werden.",
+          "en": "Anticholinergics antagonise the cholinergic transmission enhanced by lycorine and galantamine — in acute poisoning with Hippeastrum material, atropine is deliberately used in emergency medicine as antidote (analogous to therapy of cholinesterase inhibitor poisoning). With pre-existing chronic anticholinergic medication the typical poisoning symptomatology may be blunted and thereby masked."
+        },
+        "severity": "monitor",
+        "source_id": "src_hv_pubmed_alkaloids"
+      },
+      {
+        "drug_class": "Zytostatika und Proteinbiosynthese-Hemmer",
+        "mechanism": {
+          "de": "Lycorin und Narciclasin hemmen die ribosomale Proteinbiosynthese; bei gleichzeitiger Aufnahme von Hippeastrum-Material und onkologisch eingesetzten Zytostatika (insbesondere Topoisomerase- und Proteinbiosynthese-Inhibitoren) ist theoretisch eine additive Knochenmark- und Gastrointestinal-Toxizität denkbar. Praktisch relevant nur bei akzidenteller Vergiftung; nicht therapeutisch nutzbar.",
+          "en": "Lycorine and narciclasine inhibit ribosomal protein biosynthesis; with simultaneous intake of Hippeastrum material and oncological cytostatic agents (especially topoisomerase and protein biosynthesis inhibitors) additive bone marrow and gastrointestinal toxicity is theoretically conceivable. Practically relevant only in accidental poisoning; not therapeutically usable."
+        },
+        "severity": "caution",
+        "source_id": "src_hv_pubmed_alkaloids"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -72,6 +218,62 @@
       "title": "Hippeastrum (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Hippeastrum",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_hv_wiki_en",
+      "type": "wikipedia",
+      "title": "Hippeastrum vittatum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Hippeastrum_vittatum",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_hv_wiki_de",
+      "type": "wikipedia",
+      "title": "Ritterstern (Hippeastrum) — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Ritterstern_(Pflanze)",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_hv_wiki_amaryllis",
+      "type": "wikipedia",
+      "title": "Amaryllis (Gattung) — Klärung Hippeastrum vs. Amaryllis (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Amaryllis_(Gattung)",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_hv_kew_pow",
+      "type": "monograph",
+      "title": "Hippeastrum vittatum (L'Hér.) Herb. — Plants of the World Online (Kew)",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:541677-1",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_hv_rhs",
+      "type": "monograph",
+      "title": "Hippeastrum vittatum — Royal Horticultural Society Plant Finder",
+      "url": "https://www.rhs.org.uk/plants/8636/hippeastrum-vittatum/details",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_hv_aspca",
+      "type": "monograph",
+      "title": "Amaryllis (Hippeastrum spp.) — ASPCA Toxic and Non-Toxic Plants Database",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/amaryllis",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_hv_pubmed_alkaloids",
+      "type": "monograph",
+      "title": "Amaryllidaceae alkaloids: chemistry and toxicology of Hippeastrum and related genera — review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Hippeastrum+alkaloids+review",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_hv_wikidata",
+      "type": "wikidata",
+      "title": "Hippeastrum vittatum (Wikidata Q161244)",
+      "url": "https://www.wikidata.org/wiki/Q161244",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -83,5 +285,129 @@
     "license": "CC BY 2.0",
     "author": "Drew Avery",
     "source_url": "https://commons.wikimedia.org/wiki/File:Hippeastrum_reginae.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Lycorine",
+      "category": "alkaloid",
+      "percent_range": "0.1-0.4 % in der Zwiebel (variabel nach Sorte und Erntezeit)",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Leitalkaloid der gesamten Familie Amaryllidaceae und Hauptverantwortlicher für die akute Toxizität von Hippeastrum vittatum. Pyrrolophenanthridin-Skelett; hemmt die ribosomale Proteinbiosynthese (peptidyl transferase Aktivität) und löst dadurch starkes Erbrechen, krampfartige Bauchschmerzen, Tremor und Krampfanfälle aus. LD50 oral Maus circa 41 mg/kg. Lycorin ist auch der zentrale forensische Marker für die Identifikation einer Hippeastrum- oder Narzissenvergiftung in der klinischen Toxikologie.",
+        "en": "Lead alkaloid of the entire Amaryllidaceae family and main contributor to the acute toxicity of Hippeastrum vittatum. Pyrrolophenanthridine skeleton; inhibits ribosomal protein biosynthesis (peptidyl transferase activity) and thereby triggers severe vomiting, cramping abdominal pain, tremor and seizures. LD50 oral mouse approximately 41 mg/kg. Lycorine is also the central forensic marker for identification of Hippeastrum or narcissus poisoning in clinical toxicology."
+      }
+    },
+    {
+      "name": "Hippeastrine",
+      "category": "alkaloid",
+      "percent_range": "Spuren bis 0.1 % in der Zwiebel",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Charakteristisches Begleitalkaloid der Gattung Hippeastrum (Namensgeber); strukturell verwandt mit Lycorin (Pyrrolophenanthridin-Typ). Hippeastrin trägt sekundär zur Brechwirkung und zu zentralnervösen Effekten bei. Wird in der pharmakologischen Forschung als chemotaxonomischer Marker für die Abgrenzung von Hippeastrum gegenüber Amaryllis, Narcissus und Galanthus genutzt.",
+        "en": "Characteristic accompanying alkaloid of the genus Hippeastrum (eponymous); structurally related to lycorine (pyrrolophenanthridine type). Hippeastrine contributes secondarily to the emetic effect and to central nervous system actions. Used in pharmacological research as a chemotaxonomic marker distinguishing Hippeastrum from Amaryllis, Narcissus and Galanthus."
+      }
+    },
+    {
+      "name": "Vittatine",
+      "category": "alkaloid",
+      "percent_range": "Spuren bis 0.05 % in der Zwiebel",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Nach Hippeastrum vittatum benannter Spezialalkaloid des Crinin-Typs; in geringen Mengen in der Zwiebel nachweisbar. Strukturell handelt es sich um das Enantiomer von Crinin (aus Crinum). Vittatin zeigt in vitro mässige zytotoxische und antivirale Aktivität, hat aber keine praktische therapeutische Anwendung — Bedeutung primär als chemotaxonomischer Marker und in der Naturstoffchemie.",
+        "en": "Special alkaloid of the crinine type named after Hippeastrum vittatum; detectable in small amounts in the bulb. Structurally it is the enantiomer of crinine (from Crinum). Vittatine shows moderate cytotoxic and antiviral activity in vitro but has no practical therapeutic application — relevance primarily as a chemotaxonomic marker and in natural product chemistry."
+      }
+    },
+    {
+      "name": "Tazettine",
+      "category": "alkaloid",
+      "percent_range": "Spuren in der Zwiebel und im Blatt",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Hämanthamin-Typ-Alkaloid, das auch in Narcissus tazetta und anderen Amaryllidaceen vorkommt. In Hippeastrum vittatum in geringer Konzentration. Tazettin zeigt in vitro schwache hypotensive und antitumorale Effekte; in der akuten Toxikologie ist seine Bedeutung gegenüber Lycorin gering. Wird in der phytochemischen Forschung als Marker für die Stammverwandtschaft der Tribus Narcisseae bzw. Hippeastreae diskutiert.",
+        "en": "Haemanthamine-type alkaloid that also occurs in Narcissus tazetta and other Amaryllidaceae. Present in Hippeastrum vittatum in low concentration. Tazettine shows weak hypotensive and antitumour effects in vitro; in acute toxicology its relevance is minor compared to lycorine. Discussed in phytochemical research as a marker for stem relationship of the tribes Narcisseae and Hippeastreae."
+      }
+    },
+    {
+      "name": "Pancratistatin",
+      "category": "alkaloid",
+      "percent_range": "Spuren in der Zwiebel",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Isocarbostyril-Alkaloid mit ausgeprägter antiproliferativer Aktivität in vitro (Apoptose-Induktion in verschiedenen Tumorzelllinien); ursprünglich aus Pancratium littorale isoliert, in Spuren auch in Hippeastrum-Arten nachweisbar. Pancratistatin ist Gegenstand der präklinischen Krebs-Forschung, hat aber KEINE klinische Zulassung und keine therapeutische Anwendung am Menschen. Wegen der geringen Konzentration in H. vittatum trägt es kaum zur Akuttoxizität bei.",
+        "en": "Isocarbostyril alkaloid with marked antiproliferative activity in vitro (apoptosis induction in various tumour cell lines); originally isolated from Pancratium littorale, also detectable in traces in Hippeastrum species. Pancratistatin is the subject of preclinical cancer research but has NO clinical approval and no therapeutic application in humans. Because of the low concentration in H. vittatum, it barely contributes to acute toxicity."
+      }
+    },
+    {
+      "name": "Galantamine",
+      "category": "alkaloid",
+      "percent_range": "Spuren (deutlich geringer als in Galanthus oder Narcissus 'Carlton')",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Selektiver, kompetitiver Acetylcholinesterase-Hemmer und positiver allosterischer Modulator nikotinischer Acetylcholinrezeptoren; pharmazeutisch standardisiert (Reminyl®, Razadyne®) bei leichter bis mittelschwerer Alzheimer-Demenz zugelassen. Hippeastrum ist KEINE relevante kommerzielle Quelle — die globale Galantamin-Versorgung kommt überwiegend aus Narcissus 'Carlton', Galanthus woronowii und zunehmend aus Totalsynthese. In Hippeastrum vittatum lediglich in Spuren; trägt aber zur cholinergen Komponente der Vergiftungssymptomatik bei.",
+        "en": "Selective competitive acetylcholinesterase inhibitor and positive allosteric modulator of nicotinic acetylcholine receptors; pharmaceutically standardised (Reminyl®, Razadyne®) approved for mild to moderate Alzheimer's dementia. Hippeastrum is NOT a relevant commercial source — global galantamine supply comes predominantly from Narcissus 'Carlton', Galanthus woronowii and increasingly from total synthesis. In Hippeastrum vittatum only in traces; nevertheless contributes to the cholinergic component of the poisoning symptomatology."
+      }
+    },
+    {
+      "name": "Calciumoxalat-Raphiden",
+      "category": "other",
+      "percent_range": "deutlich nachweisbar in Zwiebel und Saft",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Nadelförmige Calciumoxalat-Kristalle in spezialisierten Idioblasten der Zwiebelschuppen und des Blattgewebes; mechanisch reizend für Haut und Schleimhäute. Hauptverantwortlich für die mechanische Komponente der 'Amaryllis-Dermatitis' (Floristen-Ekzem) sowie für die akute orale Schleimhautreizung beim versehentlichen Verzehr. Wirken synergistisch mit den Amaryllidaceae-Alkaloiden.",
+        "en": "Needle-shaped calcium oxalate crystals in specialised idioblasts of the bulb scales and leaf tissue; mechanically irritant to skin and mucous membranes. Main contributor to the mechanical component of 'amaryllis dermatitis' (florist's eczema) and to acute oral mucosal irritation in accidental ingestion. Act synergistically with the Amaryllidaceae alkaloids."
+      }
+    },
+    {
+      "name": "Carotinoide und Anthocyane",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert (Blüten)",
+      "plant_part": "flower",
+      "note": {
+        "de": "Die typische rot-weisse Streifung der Blüten wird durch Anthocyane (Cyanidin- und Pelargonidin-Glykoside) in den roten Bereichen und durch das Fehlen von Pigmentablagerung in den weissen Streifen erzeugt; zusätzlich tragen Spuren von Carotinoiden zur Gesamtfärbung bei. Diese Verbindungen haben für die toxikologische und pharmakologische Bewertung der Pflanze keine Bedeutung — rein für die ornamentale Anziehungskraft der Geschenkpflanze relevant.",
+        "en": "The typical red-and-white striped pattern of the flowers is produced by anthocyanins (cyanidin and pelargonidin glycosides) in the red zones and by the absence of pigment deposition in the white stripes; traces of carotenoids additionally contribute to the overall colouration. These compounds have no relevance for the toxicological and pharmacological evaluation of the plant — only ornamental appeal of the gift plant."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        12,
+        1,
+        2
+      ],
+      "time_of_day": {
+        "de": "Schnittblumen-Ernte in der Vorweihnachts- und Hochzeitssaison (Dezember bis Februar) in beheizten niederländischen Gewächshäusern; geschnitten wird in den frühen Morgenstunden, sobald sich die erste Knospe zu öffnen beginnt und die übrigen Knospen klar gefärbt sind. Schnittpunkt etwa fünf Zentimeter über der Zwiebel. SCHUTZHANDSCHUHE PFLICHT — Lycorin und Calciumoxalat-Raphiden im Schnittsaft lösen zuverlässig die sogenannte 'Hippeastrum-Hand' bzw. 'Amaryllis-Dermatitis' aus.",
+        "en": "Cut-flower harvest during the pre-Christmas and wedding season (December to February) in heated Dutch glasshouses; cutting takes place in the early morning hours as soon as the first bud begins to open and the remaining buds show clear colouration. Cut point about five centimetres above the bulb. PROTECTIVE GLOVES MANDATORY — lycorine and calcium oxalate raphides in the cut sap reliably trigger so-called 'Hippeastrum hand' or 'amaryllis dermatitis'."
+      },
+      "drying": {
+        "de": "Schnittblumen werden nicht getrocknet, sondern frisch in Wasser geliefert. Vasenstandzeit zwei bis drei Wochen bei Raumtemperatur und täglichem Wasserwechsel; hohle Stiele bei Bedarf mit Stützstäben oder Wattepfropfen stabilisieren. Schnittsaft NICHT mit anderen Schnittblumen in derselben Vase mischen — die Amaryllidaceae-Alkaloide sind phytotoxisch.",
+        "en": "Cut flowers are not dried but shipped fresh in water. Vase life two to three weeks at room temperature with daily water changes; stabilise hollow stems with support sticks or cotton plugs if needed. Do NOT combine cut sap with other cut flowers in the same vase — the Amaryllidaceae alkaloids are phytotoxic."
+      },
+      "storage_condition": {
+        "de": "Frische Blüten kühl (8 bis 12 Grad Celsius) und im Dunkeln transportieren; im Wohnraum bei normaler Zimmertemperatur halten die Blüten zwei bis drei Wochen. Ausser Reichweite von Kindern und Haustieren aufstellen.",
+        "en": "Transport fresh flowers cool (8 to 12 degrees Celsius) and in the dark; at normal room temperature the blooms last two to three weeks in the living room. Place out of reach of children and pets."
+      }
+    },
+    {
+      "plant_part": "bulb",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Zwiebel-Ernte in spezialisierten Zuchtbetrieben (Niederlande, Brasilien) im Hochsommer und Frühherbst (Juli bis September), nachdem das Laub vollständig eingezogen ist. Die Zwiebeln werden vorsichtig aus der Erde gehoben, von Wurzeln und altem Schalengewebe befreit und nach Kalibern (26 bis 36 Zentimeter Umfang) sortiert. SCHUTZHANDSCHUHE PFLICHT — direkter Hautkontakt mit dem Zwiebelsaft löst zuverlässig Kontaktdermatitis aus, besonders bei wiederholter berufsbedingter Exposition. KEINE Heil-Ernte — die Zwiebel ist ausschliesslich für die Geschenkpflanzen- und Schnittblumen-Zucht bestimmt.",
+        "en": "Bulb harvest in specialist nurseries (Netherlands, Brazil) in high summer and early autumn (July to September) after the foliage has fully died down. The bulbs are carefully lifted from the soil, freed from roots and old scale tissue, and graded by calibre (26 to 36 centimetres circumference). PROTECTIVE GLOVES MANDATORY — direct skin contact with the bulb sap reliably triggers contact dermatitis, particularly in repeated occupational exposure. NO medicinal harvest — the bulb is intended exclusively for gift plant and cut flower culture."
+      },
+      "drying": {
+        "de": "Zwiebeln werden bei 17 bis 25 Grad Celsius unter kontrollierter Luftfeuchte (50 bis 70 Prozent) vier bis zwölf Wochen langsam ruhend gehalten und schliesslich für den Herbst-Versand in einzelne Netzbeutel verpackt. Eine erneute Anpflanzung in saubere Pflanzerde aktiviert die Treibphase. Lagerung getrennt von Speisezwiebeln, Knoblauch und Lebensmitteln — Verwechslungsrisiko mit klinisch dokumentierten Vergiftungen!",
+        "en": "Bulbs are kept at 17 to 25 degrees Celsius under controlled humidity (50 to 70 percent) in slow dormancy for four to twelve weeks, then packed in individual mesh bags for autumn shipping. Replanting in clean potting soil activates the forcing phase. Store separately from kitchen onions, garlic and food — confusion risk with clinically documented poisonings!"
+      },
+      "storage_condition": {
+        "de": "Trocken, kühl (8 bis 17 Grad Celsius), dunkel, gut belüftet, ausser Reichweite von Kindern und Haustieren; Behälter klar als 'Ritterstern / Amaryllis — giftig' beschriften; KEINESFALLS in Küchenschränken oder zwischen Speisezwiebeln lagern.",
+        "en": "Dry, cool (8 to 17 degrees Celsius), dark, well ventilated, out of reach of children and pets; label containers clearly as 'amaryllis bulb — toxic'; NEVER store in kitchen cabinets or among kitchen onions."
+      }
+    }
+  ]
 }

@@ -20,19 +20,100 @@
   },
   "uses": [
     {
-      "form": "salve",
+      "form": "raw",
       "target": [
-        "skin"
+        "ethnobotany",
+        "dye"
       ],
       "internal_external": "external",
       "description": {
-        "de": "In der Antike und im Mittelalter wurden getrocknete Pflanzenteile des Einjährigen Bingelkrautes als Arzneidroge vor allem gegen Frauenleiden und gegen Verdauungsprobleme (etwa Magenverstopfung) verwendet. Das Bingelkraut (früher auch „Heimwurz“, lateinisch Mercurialis und gelegentlich auch Linochitis genannt) galt als Mittel zum schnellen Anregen der Monatsblutung, zudem wurde es bei Augenbeschwerden und verstopftem Gehörgang eingesetzt.",
-        "en": "It is not known whether annual mercury is poisonous to humans or not. The closely related dog's mercury certainly is, as there are cases where people have mistaken it for an edible herb such as spinach, and subsequently died. Similarly, livestock have been known to die after eating a type of mercury, but the species is not recorded."
+        "de": "Historische Färberei-Tradition (kräftig blauer Pflanzenfarbstoff): Mercurialis annua war über Jahrhunderte hinweg eine der wichtigsten europäischen Färbepflanzen für blau-violette und purpurne Töne — insbesondere in Frankreich (Languedoc, Provence) und auf der Iberischen Halbinsel. Aus dem ausgepressten Saft der frischen Pflanze entsteht durch enzymatische Oxidation aus dem farblosen Vorläufer Hermidin der Farbstoff Chrysohermidin und verwandte chinoide Pigmente. Diese wurden vor allem als 'tournesol en drapeaux' bzw. 'tournesol des teinturiers' (Färber-Tournesole) gehandelt: mit Mercurialis-Saft und Ammoniak (aus Urin) imprägnierte Leinenlappen, die zum Anfärben von Käserinden (Edam, Gouda), Zuckerhüten und billigen Stoffen verwendet wurden. Wegen seiner ausgeprägten Lichtempfindlichkeit eignet sich der Farbstoff jedoch nur für temporäre Markierungen und vergängliche Färbungen.",
+        "en": "Historic dye tradition (vivid blue plant pigment): for centuries Mercurialis annua was one of Europe's most important dye plants for blue-violet and purple shades — especially in France (Languedoc, Provence) and on the Iberian peninsula. Enzymatic oxidation of the colourless precursor hermidin yields chrysohermidin and related quinoid pigments. These were traded mainly as 'tournesol en drapeaux' or 'tournesol des teinturiers' (dyers' tournesole): linen rags impregnated with Mercurialis sap and ammonia (from urine), used to colour cheese rinds (Edam, Gouda), sugar loaves and inexpensive textiles. Owing to its pronounced light sensitivity the dye is suitable only for temporary markings and ephemeral colourings."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src_wiki_de_bingelkraut",
+        "src_wiki_en_mercurialis_annua",
+        "src_jep_mercurialis_dye",
+        "src_swain_chrysohermidin"
+      ],
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion",
+        "ethnobotany"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Mittelalterliche Volksmedizin (heute OBSOLET, nur historische Dokumentation): Hildegard von Bingen erwähnt das Bingelkraut ('Bingilcrut') in ihrer 'Physica' (12. Jahrhundert) als mildes Abführmittel bei Verstopfung und 'Verschleimung des Bauches'. Bereits Dioskurides (1. Jh.) und Galen (2. Jh.) beschrieben Mercurialis als verdauungsanregend, wurmtreibend und 'die schlechten Säfte abführend'. Aufgüsse aus dem frischen oder getrockneten Kraut galten bis ins 18. Jahrhundert als sanftes Laxans. Wegen der heute bekannten Toxizität der Saponine und Methylamine (Brechreiz, Gastroenteritis) sowie fehlender moderner Wirksamkeitsdaten ist diese Anwendung HEUTE OBSOLET und wird ausschließlich aus medizinhistorischem Interesse dokumentiert — keine Eigenanwendung.",
+        "en": "Medieval folk medicine (today OBSOLETE, historical documentation only): Hildegard of Bingen mentions bingelkraut ('Bingilcrut') in her 'Physica' (12th century) as a mild laxative for constipation and 'mucus in the belly'. Dioscorides (1st c.) and Galen (2nd c.) already described Mercurialis as digestion-stimulating, vermifuge and 'evacuating bad humours'. Infusions of the fresh or dried herb were considered a gentle laxative until the 18th century. Owing to the now-known toxicity of saponins and methylamines (nausea, gastroenteritis) and the absence of modern efficacy data, this use is TODAY OBSOLETE and is documented purely for the history of medicine — not for self-medication."
+      },
+      "source_ids": [
+        "src_wiki_de_bingelkraut",
+        "src_madaus_lehrbuch",
+        "src_hildegard_physica"
+      ],
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ethnobotany",
+        "famine_food"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Notnahrung (RISKANT, nur historisch dokumentiert): In einigen mediterranen Regionen (Spanien, Süditalien, Griechenland) wurden junge Triebe von Mercurialis annua in Notzeiten ausgiebig gekocht — meist mehrfach in Wasser abgekocht und das Kochwasser jedes Mal verworfen, um Saponine und Methylamine auszuwaschen — und mit anderen Wildkräutern verzehrt. Diese Praxis ist gut belegt für Krisen- und Kriegsjahre des 19. und frühen 20. Jahrhunderts. Wegen der unzuverlässigen Entgiftung und der Verwechslungsgefahr mit dem giftigeren Ausdauernden Bingelkraut (Mercurialis perennis) ist Mercurialis annua KEINE empfehlenswerte Wildgemüsepflanze. Eine moderne kulinarische Verwendung wird ausdrücklich nicht empfohlen.",
+        "en": "Famine food (RISKY, only historically documented): in some Mediterranean regions (Spain, southern Italy, Greece) young shoots of Mercurialis annua were boiled extensively in lean times — typically boiled several times in fresh water, discarding the cooking water each time to leach out saponins and methylamines — and eaten with other wild greens. The practice is well attested for crisis and war years of the 19th and early 20th century. Owing to unreliable detoxification and the risk of confusion with the more toxic perennial dog's mercury (Mercurialis perennis), M. annua is NOT a recommended wild vegetable. Modern culinary use is explicitly not advised."
+      },
+      "source_ids": [
+        "src_jep_mercurialis_dye",
+        "src_pfaf_mercurialis_annua",
+        "src_wiki_en_mercurialis_annua"
+      ],
+      "plant_part": "leaf",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "ethnobotany"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Historische äußerliche Anwendung (OBSOLET, nur Dokumentation): In der mittelalterlichen und frühneuzeitlichen Volksheilkunde wurden zerstoßene frische Bingelkraut-Blätter als Umschlag auf Geschwüre, schlecht heilende Wunden und Hautausschläge ('Krätze', Ekzeme) gelegt. Lonicerus (Kräuterbuch 1557) und Matthiolus erwähnen außerdem die Anwendung als Brustumschlag bei Milchstau und als 'erweichendes Pflaster'. Eine pharmakologische Wirksamkeitsbasis für diese Anwendungen ist nicht belegt; die Saponin-haltige Pflanze kann auf empfindlicher Haut sogar Rötungen auslösen. Heutige Verwendung: ausschließlich medizinhistorisch — keine Anwendung empfehlenswert.",
+        "en": "Historical external use (OBSOLETE, documentation only): in medieval and early modern folk medicine, crushed fresh bingelkraut leaves were applied as poultices to ulcers, poorly healing wounds and skin rashes ('itch', eczema). Lonicerus (herbal of 1557) and Matthioli additionally mention its use as a chest compress for milk stasis and as an 'emollient plaster'. No pharmacological basis for these applications is documented; the saponin-containing plant can in fact cause redness on sensitive skin. Today: documentary interest only — no application recommended."
+      },
+      "source_ids": [
+        "src_madaus_lehrbuch",
+        "src_henriette_lonicerus",
+        "src_wiki_de_bingelkraut"
+      ],
+      "plant_part": "leaf",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ethnobotany",
+        "soil_indicator"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Ökologie und Garten-Indikator: Das Einjährige Bingelkraut ist ein typisches Stickstoff- und Hackfruchtunkraut auf lockeren, nährstoffreichen Böden (Gärten, Äcker, Weinberge, Schuttplätze). Es zeigt frischen, basisch bis neutral reagierenden, gut gedüngten Boden mit Mull- oder Mullmoder-Humusform an (Zeigerwert nach Ellenberg N=8, R=7). Für Hobbygärtner ist es ein nützlicher Indikator für gut versorgte Beete; gleichzeitig konkurriert es als Frühjahrskeimer kräftig mit Kulturgemüse. Mechanisches Jäten vor der Samenreife ist die übliche Kontrollmethode — die windbestäubte, zweihäusige Art produziert große Mengen an leicht keimfähigem Samen.",
+        "en": "Ecology and garden indicator: annual mercury is a typical nitrogen- and tilled-crop weed of loose, nutrient-rich soils (gardens, fields, vineyards, waste places). It indicates fresh, basic-to-neutral, well-fertilised soil with mull or mull-moder humus (Ellenberg indicator values N=8, R=7). For home gardeners it is a useful indicator of well-supplied beds; at the same time it competes vigorously with vegetable crops as an early-spring germinator. Mechanical weeding before seed set is the usual control method — the wind-pollinated, dioecious species produces large amounts of readily germinable seed."
+      },
+      "source_ids": [
+        "src_wiki_de_bingelkraut",
+        "src_floraweb_mercurialis",
+        "src_infoflora_mercurialis"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
     }
   ],
   "season": {
@@ -48,12 +129,85 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG bei innerer Anwendung — historisch als Abführmittel verwendet, heute obsolet. Nur äusserlich oder homöopathisch.",
-      "en": "TOXIC if taken internally — historically used as laxative, now obsolete. External or homeopathic use only."
+      "de": "Mercurialis annua ist LEICHT GIFTIG bei innerer Anwendung — die Pflanze enthält Saponine (insbesondere das Mercurialin-Glykosid), Methylamin und Trimethylamin (der charakteristische 'Bingelkraut-Fischgeruch' der welkenden Pflanze) sowie Gerbstoffe. Bei oraler Aufnahme treten Brechreiz, Erbrechen, Bauchschmerzen, leichte Gastroenteritis und in größeren Mengen Kreislaufstörungen auf. Im Vergleich zum Ausdauernden Bingelkraut (Mercurialis perennis) ist M. annua etwas weniger toxisch, aber dennoch NICHT für eine therapeutische Anwendung geeignet. Heute KEINE moderne medizinische Verwendung — historische Anwendungen (Hildegard, Dioskurides, mittelalterliche Kräuterbücher) sind obsolet. Bei Tieren (Pferd, Schaf, Rind) sind gelegentlich Vergiftungen durch Beweidung von Bingelkraut-haltigen Wiesen oder Heu dokumentiert (Hämolyse, blutiger Urin, Mattigkeit). Verwechslungsgefahr mit dem stärker giftigen Mercurialis perennis (Wurzel ausdauernd, einfache Stängel) sowie mit Bachbunge (Veronica beccabunga) und Gänsefuß-Arten (Chenopodium) im jungen Stadium — Vorsicht bei Wildkräutersammlung. Vor Färbe-Experimenten: Handschuhe tragen, Spritzer vom Auge fernhalten.",
+      "en": "Mercurialis annua is SLIGHTLY TOXIC when taken internally — the plant contains saponins (especially the mercurialin glycoside), methylamine and trimethylamine (responsible for the characteristic 'bingelkraut fish smell' of the wilting plant), and tannins. Oral ingestion causes nausea, vomiting, abdominal pain, mild gastroenteritis and, in larger amounts, circulatory disturbance. Compared with dog's mercury (Mercurialis perennis), M. annua is somewhat less toxic but still NOT suitable for therapeutic use. Today there is NO modern medicinal application — historical uses (Hildegard, Dioscorides, medieval herbals) are obsolete. Livestock (horse, sheep, cattle) poisonings from grazing bingelkraut-rich meadows or hay are occasionally documented (haemolysis, bloody urine, lassitude). Risk of confusion with the more toxic Mercurialis perennis (perennial root, unbranched stem), with brooklime (Veronica beccabunga) and with Chenopodium species in the young stage — caution when foraging. Before dyeing experiments: wear gloves and keep splashes away from the eyes."
     },
-    "external_only": true,
-    "toxicity_level": "toxic",
-    "pet_toxic": false
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Innerliche Anwendung in der Schwangerschaft ist STRIKT KONTRAINDIZIERT. Historische Quellen schreiben dem Bingelkraut emmenagoge und abortive Wirkung zu (Hildegard, mittelalterliche Frauenheilkunde) — die Saponine und Methylamine können auf die glatte Muskulatur einschließlich des Uterus wirken. Auch der äußerliche Kontakt mit Pflanzensaft (z.B. bei Färbe-Experimenten) sollte in der Schwangerschaft vermieden werden, da die Datenlage zur perkutanen Resorption fehlt.",
+        "en": "Internal use during pregnancy is STRICTLY CONTRAINDICATED. Historical sources attribute emmenagogue and abortifacient action to bingelkraut (Hildegard, medieval gynaecology) — saponins and methylamines can affect smooth muscle including the uterus. External contact with plant sap (e.g. during dye experiments) should also be avoided during pregnancy, as data on percutaneous absorption are lacking."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Innerliche Anwendung in der Stillzeit ist KONTRAINDIZIERT — Methylamine und Saponine können in die Muttermilch übergehen und beim Säugling Übelkeit, Erbrechen und Magen-Darm-Reizung auslösen. Historische 'Brustumschläge' bei Milchstau sind obsolet und werden ausdrücklich nicht empfohlen.",
+        "en": "Internal use during lactation is CONTRAINDICATED — methylamines and saponins may pass into breast milk and cause nausea, vomiting and gastrointestinal irritation in the infant. Historical 'breast poultices' for milk stasis are obsolete and explicitly not recommended."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Bei Kindern STRIKT MEIDEN — Kinder sind gegenüber Saponinen und Methylaminen empfindlicher als Erwachsene. Versehentlicher Verzehr von wenigen Blättern beim Spielen verursacht meist nur Übelkeit und Erbrechen, größere Mengen können jedoch zu Gastroenteritis und Kreislaufproblemen führen. Bei Verdacht auf Aufnahme: Mund ausspülen, viel Wasser trinken lassen, KEIN Erbrechen erzwingen, Giftnotrufzentrale kontaktieren (Deutschland: 030 / 19240, Schweiz: 145, Österreich: 01 / 406 43 43).",
+        "en": "STRICTLY AVOID in children — children are more sensitive to saponins and methylamines than adults. Accidental ingestion of a few leaves while playing usually causes only nausea and vomiting, but larger amounts can lead to gastroenteritis and circulatory problems. If ingestion is suspected: rinse the mouth, give plenty of water, DO NOT induce vomiting, and contact a poison control centre."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Schwangerschaft und Stillzeit — emmenagoge/abortive Tradition und Übergang von Methylaminen in die Muttermilch (siehe oben).",
+        "en": "Pregnancy and lactation — emmenagogue/abortifacient tradition and passage of methylamines into breast milk (see above)."
+      },
+      {
+        "de": "Säuglinge, Kleinkinder und Kinder bis 12 Jahre — erhöhte Empfindlichkeit gegenüber Saponinen, keinerlei pädiatrische Sicherheitsdaten.",
+        "en": "Infants, toddlers and children up to 12 years — increased sensitivity to saponins, no paediatric safety data whatsoever."
+      },
+      {
+        "de": "Entzündliche Magen-Darm-Erkrankungen (Gastritis, Reizdarm, Morbus Crohn, Colitis ulcerosa) — Saponine und Gerbstoffe verschärfen die Schleimhautreizung.",
+        "en": "Inflammatory gastrointestinal disease (gastritis, IBS, Crohn's, ulcerative colitis) — saponins and tannins worsen mucosal irritation."
+      },
+      {
+        "de": "Bekannte Empfindlichkeit gegenüber Wolfsmilchgewächsen (Euphorbiaceae) sowie hämolytische Anämien oder Glucose-6-Phosphat-Dehydrogenase-Mangel (G6PD) — Saponine können die Erythrozytenmembran destabilisieren.",
+        "en": "Known sensitivity to Euphorbiaceae as well as haemolytic anaemia or glucose-6-phosphate dehydrogenase (G6PD) deficiency — saponins can destabilise the erythrocyte membrane."
+      },
+      {
+        "de": "Verwechslung mit dem ausdauernden Wald-Bingelkraut (Mercurialis perennis) bei Wildsammlung — dieses ist stärker toxisch und führte mehrfach zu schweren menschlichen Vergiftungen mit Hämolyse und akutem Nierenversagen.",
+        "en": "Confusion with perennial dog's mercury (Mercurialis perennis) during foraging — the latter is more toxic and has caused multiple severe human poisonings with haemolysis and acute renal failure."
+      },
+      {
+        "de": "Innerliche 'Eigentherapie' jeder Art (Tee, Tinktur, frische Triebe als Wildgemüse) — keine moderne Indikation, kein Wirksamkeitsnachweis, klares Risiko-Nutzen-Ungleichgewicht.",
+        "en": "Any kind of internal self-medication (tea, tincture, fresh shoots as wild vegetable) — no modern indication, no efficacy evidence, clear risk-benefit imbalance."
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Herzglykoside (Digitoxin, Digoxin)",
+        "mechanism": {
+          "de": "Saponine können theoretisch die intestinale Resorption von Herzglykosiden steigern und über Kaliumverluste (bei wiederholter Anwendung mit laxierendem Effekt) die Empfindlichkeit gegenüber Digitalis erhöhen — relevante klinische Daten fehlen, das Risiko ist hypothetisch, aber begründet ein generelles Meidegebot.",
+          "en": "Saponins may theoretically increase intestinal absorption of cardiac glycosides and, through potassium losses (with repeated laxative use), raise sensitivity to digitalis — relevant clinical data are lacking; the risk is hypothetical but justifies a general avoidance."
+        },
+        "severity": "avoid"
+      },
+      {
+        "drug_class": "Diuretika und Abführmittel",
+        "mechanism": {
+          "de": "Die laxierende Wirkung der Saponine kann den Kalium- und Wasserverlust durch andere Diuretika oder Abführmittel verstärken — Risiko für Elektrolytstörungen.",
+          "en": "The laxative action of saponins can amplify potassium and water loss from other diuretics or laxatives — risk of electrolyte disturbance."
+        },
+        "severity": "avoid"
+      },
+      {
+        "drug_class": "Antikoagulantien und Thrombozytenaggregationshemmer",
+        "mechanism": {
+          "de": "Bei Mercurialis-induzierter Hämolyse oder Schleimhautreizung besteht ein erhöhtes Risiko gastrointestinaler Blutung; in Kombination mit Marcumar, DOAKs oder ASS klinisch relevant.",
+          "en": "If Mercurialis-induced haemolysis or mucosal irritation occurs, the risk of gastrointestinal bleeding is increased; clinically relevant in combination with warfarin, DOACs or aspirin."
+        },
+        "severity": "avoid"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -70,6 +224,76 @@
       "title": "Mercurialis annua (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Mercurialis_annua",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_de_bingelkraut",
+      "type": "wikipedia",
+      "title": "Einjähriges Bingelkraut (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Einj%C3%A4hriges_Bingelkraut",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wiki_en_mercurialis_annua",
+      "type": "wikipedia",
+      "title": "Mercurialis annua (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Mercurialis_annua",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_pfaf_mercurialis_annua",
+      "type": "monograph",
+      "title": "Plants for a Future: Mercurialis annua — Annual Mercury",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Mercurialis+annua",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_madaus_lehrbuch",
+      "type": "book",
+      "title": "Gerhard Madaus: Lehrbuch der biologischen Heilmittel, Band II — Mercurialis annua (Reprint der Ausgabe Leipzig 1938, Public Domain)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/mercurialis-ann.html",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_hildegard_physica",
+      "type": "book",
+      "title": "Hildegard von Bingen: Physica, Liber I (Plantae), Kapitel zu 'Bingilcrut' — Public-Domain-Edition (Reiner, Migne PL 197)",
+      "url": "https://en.wikipedia.org/wiki/Physica_(Hildegard)",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_henriette_lonicerus",
+      "type": "book",
+      "title": "Adam Lonicerus: Kreuterbuch (1557/1679) — Mercurialis-Eintrag; digitalisiert in Henriette's Herbal Library",
+      "url": "https://www.henriettes-herb.com/eclectic/journals/",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_jep_mercurialis_dye",
+      "type": "monograph",
+      "title": "Cardon, D. (2007): Natural Dyes — Sources, Tradition, Technology and Science. Archetype Publications, London. Chapter on Mercurialis-based 'tournesol' dye (ISBN 978-1-904982-00-5).",
+      "url": "https://www.archetype.co.uk/our-titles/natural-dyes/?id=160",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_swain_chrysohermidin",
+      "type": "monograph",
+      "title": "Swain, T. & Bell, E.A. (1976): Hermidin and chrysohermidin — pigment chemistry of Mercurialis. In: 'Chemistry in Botanical Classification', Nobel Symposium 25, Academic Press.",
+      "url": "https://en.wikipedia.org/wiki/Hermidin",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_floraweb_mercurialis",
+      "type": "monograph",
+      "title": "FloraWeb (Bundesamt für Naturschutz): Mercurialis annua L. — Verbreitung, Ökologie, Zeigerwerte",
+      "url": "https://www.floraweb.de/webkartierung/erfassung/cgi-bin/showmap.pl?taxnr=3852",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_infoflora_mercurialis",
+      "type": "monograph",
+      "title": "Info Flora (Schweiz): Mercurialis annua L. — Artportrait, Ökologie, Häufigkeit",
+      "url": "https://www.infoflora.ch/de/flora/mercurialis-annua.html",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -81,5 +305,114 @@
     "license": "CC BY-SA 3.0",
     "author": "Jan Eckstein",
     "source_url": "https://commons.wikimedia.org/wiki/File:Mercurialis_annua_female_male_plant_IMG_5402.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Mercurialin (Saponin-Glykosid)",
+      "category": "saponin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Charakteristisches Saponin-Glykosid der Gattung Mercurialis; gibt der Pflanze einen Großteil ihrer mild-toxischen und laxierenden Eigenschaften. Schleimhautreizend, hämolytisch in höheren Konzentrationen. Mercurialin ist nicht streng artspezifisch — es kommt auch in M. perennis vor, allerdings in höherer Konzentration.",
+        "en": "Characteristic saponin glycoside of the genus Mercurialis; responsible for much of the plant's mild toxicity and laxative properties. Mucosa-irritating, haemolytic at higher concentrations. Mercurialin is not strictly species-specific — it also occurs in M. perennis, though at higher concentration."
+      }
+    },
+    {
+      "name": "Trimethylamin",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flüchtiges aliphatisches Amin, das beim Welken oder Quetschen der Pflanze freigesetzt wird — Ursache des charakteristischen, an verdorbenen Fisch erinnernden 'Bingelkraut-Geruchs'. Mitverantwortlich für die Schleimhautreizung; eingeatmet in geringen Mengen unproblematisch, in geschlossenen Räumen mit großen Mengen frischer Pflanze unangenehm bis Übelkeit auslösend.",
+        "en": "Volatile aliphatic amine released when the plant wilts or is crushed — cause of the characteristic 'bingelkraut smell' reminiscent of rotten fish. Contributes to mucosal irritation; inhaled in small amounts harmless, but in enclosed spaces with large quantities of fresh plant unpleasant to nauseating."
+      }
+    },
+    {
+      "name": "Methylamin",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Begleitendes flüchtiges Amin neben Trimethylamin, ebenfalls aus dem Stickstoff-Stoffwechsel der Pflanze. Trägt zum Geruch bei und ist mit für die leichte Schleimhauttoxizität verantwortlich. Methylamin ist auch ein normales Stoffwechselzwischenprodukt im menschlichen Körper, aber in den hier auftretenden Mengen lokal reizend.",
+        "en": "Companion volatile amine alongside trimethylamine, also from the plant's nitrogen metabolism. Contributes to the odour and shares responsibility for the mild mucosal toxicity. Methylamine is also a normal metabolic intermediate in the human body, but locally irritating at the quantities encountered here."
+      }
+    },
+    {
+      "name": "Hermidin / Chrysohermidin (Phenanthren-Chinon-System)",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Farbgebendes Schlüsselsystem der Pflanze. Im intakten lebenden Gewebe liegt das farblose Hermidin (ein reduziertes Phenanthren-Derivat) vor; nach Zellaufschluss oxidiert es enzymatisch und an Luft über mehrere intermediäre Chinone zum tiefblauen bis violetten Chrysohermidin. Dieser Übergang ist die chemische Basis der historischen Färbetradition ('tournesol des teinturiers'). Der Farbstoff ist stark lichtempfindlich — daher historisch nur für Käsemarkierung, Zuckerhüte und vergängliche Stoffe geeignet.",
+        "en": "Colour-defining key system of the plant. In intact living tissue, colourless hermidin (a reduced phenanthrene derivative) is present; on cell disruption it is enzymatically and atmospherically oxidised via several quinone intermediates to deep-blue to violet chrysohermidin. This transition is the chemical basis of the historic dye tradition ('tournesol des teinturiers'). The dye is strongly light-sensitive — historically suitable only for cheese marking, sugar loaves and ephemeral textiles."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Lamiaceen-untypisch, hier Ellagitannine + Catechine)",
+      "category": "tannin",
+      "plant_part": "aerial_parts",
+      "percent_range": "1-3 %",
+      "note": {
+        "de": "Adstringierende Polyphenole, hauptsächlich Ellagitannine und Catechin-Derivate; tragen zur leichten Schleimhautreizung bei innerer Anwendung bei und liefern einen Teil der ethnobotanisch beschriebenen 'zusammenziehenden Wirkung' bei äußerlichen Umschlägen. Quantitative Daten sind sparsam; Werte aus älterer pharmakognostischer Literatur (Madaus) liegen im einstelligen Prozentbereich der Trockensubstanz.",
+        "en": "Astringent polyphenols, mainly ellagitannins and catechin derivatives; contribute to the mild mucosal irritation on internal use and provide part of the ethnobotanically described 'astringent action' for external poultices. Quantitative data are sparse; figures from older pharmacognostic literature (Madaus) lie in the low single-digit per cent range of dry weight."
+      }
+    },
+    {
+      "name": "Flavonoide (Rutin, Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Allgegenwärtige Flavonoid-Begleitstoffe in den Blättern; tragen zur antioxidativen Grundkapazität bei. In M. annua sind sie pharmakologisch unauffällig — die Pflanze ist weder als Antioxidans-Droge noch als Flavonoid-Quelle medizinisch genutzt. Sie tragen aber zur gelb-grünen Eigenfarbe getrockneter Drogenware bei.",
+        "en": "Ubiquitous flavonoid companions in the leaves; contribute to baseline antioxidant capacity. In M. annua they are pharmacologically unremarkable — the plant is used neither as an antioxidant herbal drug nor as a flavonoid source. They do contribute to the yellow-green inherent colour of the dried herb."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Spuren)",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "percent_range": "<0.1 %",
+      "note": {
+        "de": "Nur Spuren eines ätherischen Öls vorhanden — im Vergleich zu klassischen Aromapflanzen (Salbei, Thymian) ist M. annua nahezu geruchsarm im frischen Zustand. Der typische 'Bingelkraut-Geruch' beim Welken stammt nicht aus dem ätherischen Öl, sondern aus den freigesetzten Methylaminen.",
+        "en": "Only traces of an essential oil are present — compared with classical aromatic plants (sage, thyme), M. annua is almost odourless when fresh. The typical 'bingelkraut smell' on wilting does not come from the essential oil but from the released methylamines."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Für historische Färbe-Experimente (Hermidin/Chrysohermidin-System): am späten Vormittag bei trockenem Wetter ernten — der Wassergehalt der Pflanze ist dann gut, gleichzeitig sind die für die Saftgewinnung wichtigen oberirdischen Teile am vitalsten. Sofort verarbeiten: das blaue Pigment entsteht erst durch Zellaufschluss und Luftoxidation, daher die ganzen Pflanzen unmittelbar zerstoßen und auspressen. Für Pflanzen-Identifikation und Herbarisierung sind Vor- und Spätsommermonate günstig, wenn männliche und weibliche Pflanzen (zweihäusig!) deutlich unterscheidbar blühen.",
+        "en": "For historical dye experiments (hermidin/chrysohermidin system): harvest in late morning during dry weather — the plant's water content is then good while the aerial parts most important for sap extraction are at their most vigorous. Process immediately: the blue pigment is only generated by cell disruption and atmospheric oxidation, so crush and press the whole plants without delay. For plant identification and herbarium work, early and late summer months are favourable, when male and female plants (dioecious!) are clearly distinguishable in flower."
+      },
+      "drying": {
+        "de": "Für die Färberei wird FRISCHE Pflanze benötigt — getrocknetes Bingelkraut verliert seine Färbekraft fast vollständig, da das oxidationsempfindliche Hermidin-System abgebaut wird. Für medizinhistorische Sammlungen oder Herbarbelege kann das Kraut schonend im Schatten bei 30-35 °C getrocknet werden; die getrocknete Droge ist matt grau-grün und nahezu geruchlos. Trocken, dunkel, in Papier verpackt lagern.",
+        "en": "Dyeing requires FRESH plant material — dried bingelkraut loses almost all its colouring power because the oxidation-sensitive hermidin system breaks down. For medical-historical collections or herbarium specimens the herb can be gently shade-dried at 30-35 °C; the dried drug is dull grey-green and almost odourless. Store dry, dark, wrapped in paper."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, dunkel, luftdicht in Papier oder beschriftetem Glas. Nur für Sammlungs- und Lehrzwecke — KEINE Anwendung als Heildroge. Frischsaft für Färbe-Experimente lässt sich höchstens wenige Tage gekühlt aufbewahren, danach Pigment-Verlust und Schimmel.",
+        "en": "Dry, dark, airtight in paper or labelled jar. For collection and teaching purposes only — NOT for use as a medicinal drug. Fresh sap for dye experiments keeps for at most a few days refrigerated, after which pigment loss and mould develop."
+      }
+    },
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Mechanische Beikraut-Regulation im Garten: jüngere Pflanzen vor der Samenreife (Hauptsamenbildung ab Juli) im Mai-Juni jäten oder hacken — das verhindert die Aussamung der zweihäusigen, windbestäubten Art mit ihrer großen Samenproduktion. Bei trockenem Wetter liegen die ausgehackten Pflanzen auf der Erdoberfläche und vertrocknen rasch; bei feuchtem Wetter besser entfernen, da die Wurzeln gelegentlich erneut Wurzelschlag zeigen.",
+        "en": "Mechanical weed management in the garden: hoe or pull younger plants in May-June before seed set (main seed formation starts in July) — this prevents seeding of this dioecious, wind-pollinated species with its large seed output. In dry weather the hoed plants left on the soil surface desiccate rapidly; in moist weather it is better to remove them, as roots occasionally re-strike."
+      },
+      "drying": {
+        "de": "Nicht zutreffend — Pflanzenmaterial aus Beikraut-Regulation wird kompostiert (bei reiner vegetativer Phase, vor Samenreife) oder über den Restmüll entsorgt (wenn bereits Samen ausgebildet sind), um eine Wiederausbreitung im Garten zu vermeiden.",
+        "en": "Not applicable — plant material from weed control is composted (when in purely vegetative phase, before seed set) or disposed of via residual waste (if seeds have already formed) to prevent further spread in the garden."
+      }
+    }
+  ]
 }

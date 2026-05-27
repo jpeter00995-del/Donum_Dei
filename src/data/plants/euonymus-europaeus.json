@@ -20,19 +20,123 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-ee-01",
       "target": [
-        "caution"
+        "ornamental"
       ],
-      "internal_external": "external",
+      "form": "raw",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Wichtigste moderne Verwendung des Gewöhnlichen Spindelstrauchs ist die Ziergehölz-Pflanzung in Wildhecken, an Waldrändern, in Bauerngärten und in städtischen Park- und Knickanlagen. Geschätzt für die spektakuläre Herbstfärbung (leuchtend orangerot bis purpurrot) und die unverwechselbaren rosa-roten, vierlappigen Kapselfrüchte mit orangen Samenmänteln, die noch nach dem Laubfall am kahlen Strauch hängen. In ökologisch ausgerichteten Hecken (z. B. norddeutsche Knicks) bietet er Vögeln (Rotkehlchen, Mönchsgrasmücke) Nahrung und Brutplatz; die Blüten sind wichtige Pollenquelle für Wildbienen, Schwebfliegen und die Spindelbaum-Gespinstmotte (Yponomeuta cagnagella). Keine Heilanwendung — der Eintrag dokumentiert ausdrücklich gärtnerische und ökologische Nutzung mit Warnhinweis zur Toxizität.",
+        "en": "The most important modern use of European spindle is as an ornamental shrub in wild hedges, woodland edges, cottage gardens and urban park and hedgerow plantings. Valued for its spectacular autumn colour (bright orange-red to purple-red) and its unmistakable pink-red, four-lobed capsule fruits with orange seed arils that remain on the bare shrub after leaf fall. In ecologically managed hedges (e.g. North German Knicks) it provides food and nesting sites for birds (robin, blackcap); the flowers are an important pollen source for wild bees, hoverflies and the spindle ermine moth (Yponomeuta cagnagella). No medicinal use — this entry explicitly documents horticultural and ecological use with a toxicity warning."
+      },
+      "preparation": {
+        "de": "Standort: Halbschatten bis Sonne, kalkhaltige, frische bis feuchte Lehmböden bevorzugt. Pflanzung Herbst oder zeitiges Frühjahr; Schnitt bei Bedarf im Spätwinter (Februar) zur Verjüngung. WICHTIG: bei Standortwahl Kinder- und Haustierschutz beachten — nicht direkt an Spielplätze, Kindergärten oder Hundeausläufe pflanzen. Bei Heckenschnitt Schutzhandschuhe tragen, da der Pflanzensaft hautreizend wirken kann.",
+        "en": "Site: partial shade to sun, calcareous, fresh to moist loamy soils preferred. Plant in autumn or early spring; prune as needed in late winter (February) for rejuvenation. IMPORTANT: when choosing the planting site, consider child and pet safety — do not plant directly next to playgrounds, kindergartens or dog runs. Wear protective gloves when pruning hedges, as the plant sap can be skin-irritating."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-ee-wiki-de",
+        "src-ee-wiki-en",
+        "src-ee-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-ee-02",
+      "target": [
+        "ethnobotany"
+      ],
+      "form": "raw",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Namensgebende historische Nutzung des sehr feinen, dichten und zähen Spindelholzes für gedrechselte Spindeln zum Wollspinnen, kleine Zahnstocher, Schuhmacher-Holznägel, Stricknadeln, Schnitzfiguren, Klaviertasten und Webschiffchen. Das harte, gleichmässig gefaserte Holz lässt sich extrem fein bearbeiten — daher die deutschen Namen 'Spindelstrauch', 'Spillbaum' und englisch 'spindle tree'. Der volkstümliche Name 'Pfaffenhütchen' (Pfaffen-Käppchen, frz. bonnet-de-prêtre, engl. priest's cap) bezieht sich nicht auf das Holz, sondern auf die Form der vierlappigen Kapselfrüchte, die an die viereckige Birettenkappe (Pileolus) katholischer Geistlicher erinnert.",
+        "en": "Eponymous historical use of the very fine, dense and tough spindle wood for turned spindles for wool spinning, small toothpicks, shoemaker's wooden pegs, knitting needles, carved figures, piano keys and weaving shuttles. The hard, evenly grained wood can be worked extremely finely — hence the German names 'Spindelstrauch', 'Spillbaum' and English 'spindle tree'. The folk name 'Pfaffenhütchen' (priest's cap, French bonnet-de-prêtre) refers not to the wood but to the shape of the four-lobed capsule fruits, which resemble the square biretta cap (pileolus) of Catholic clergy."
+      },
+      "source_ids": [
+        "src-ee-wiki-de",
+        "src-ee-wiki-en",
+        "src-ee-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-ee-03",
+      "target": [
+        "ethnobotany"
+      ],
+      "form": "raw",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Künstlerkohle ('Pulverholz', 'Reisskohle', frz. fusain): Die geschälten, in luftarmen Eisengefässen verschwelten Spindelstrauch-Reiser liefern eine besonders weiche, fein zeichnende Holzkohle für Künstler-Skizzen — daher die französische Bezeichnung 'fusain' (gleichzeitig der französische Name der Pflanze). Die Kohle zerreibt sich gleichmässig auf Papier, lässt sich mit dem Finger leicht verwischen und ist seit der Renaissance Standard-Skizziermaterial in europäischen Kunstakademien. Bis ins 19. Jahrhundert wurde Pfaffenhütchen-Kohle auch in Schiesspulver-Manufakturen als Komponente für Schwarzpulver verwendet (geringer Schwefelgehalt, gleichmässiger Abbrand).",
+        "en": "Artist's charcoal ('powder wood', French fusain): peeled European spindle twigs carbonised in low-oxygen iron vessels yield a particularly soft, fine-drawing charcoal for artists' sketches — hence the French term 'fusain' (which is at the same time the French name of the plant). The charcoal abrades evenly on paper, blends easily with the finger and has been a standard sketching material in European art academies since the Renaissance. Until the 19th century, spindle charcoal was also used in gunpowder manufactories as a component for black powder (low sulphur content, even burn rate)."
+      },
+      "source_ids": [
+        "src-ee-wiki-de",
+        "src-ee-wiki-en",
+        "src-ee-wikidata"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-ee-04",
+      "target": [
+        "skin",
+        "ethnobotany"
+      ],
+      "form": "raw",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historisch-volksmedizinische Verwendung des gepulverten reifen Samens als Mittel gegen Kopfläuse, Filzläuse und Krätzemilben bei Mensch und Vieh: das Samenpulver wurde in Schmalz, Schweinefett oder Pflanzenöl gemischt und in die Kopfhaut oder das Tierfell eingerieben. Die Wirkung beruht auf den im Samenöl enthaltenen sesquiterpenoiden Alkaloiden (Evonin, Evonolin) sowie auf den Cardenolid-Glykosiden, die akarizid und insektizid wirken. Bereits Hieronymus Bock (1546) und Lonicerus (1557) beschreiben diese Anwendung — heute strikt obsolet, weil systemische Resorption über die Haut bei längerer Anwendung zu Herzrhythmusstörungen führen kann und sichere, ungiftige Alternativen (Permethrin, Dimeticon) verfügbar sind. Reine historische Dokumentation, KEINE Anwendungsempfehlung.",
+        "en": "Historical folk-medicinal use of powdered ripe seed against head lice, crab lice and scabies mites in humans and livestock: the seed powder was mixed with lard, pork fat or vegetable oil and rubbed into the scalp or animal fur. The action is based on the sesquiterpenoid alkaloids contained in the seed oil (evonine, evonoline) and on the cardenolide glycosides, which act as acaricides and insecticides. Hieronymus Bock (1546) and Lonicerus (1557) already describe this application — today strictly obsolete because systemic skin absorption can cause cardiac arrhythmias with prolonged use, and safe, non-toxic alternatives (permethrin, dimeticone) are available. Pure historical documentation, NO recommendation for use."
+      },
+      "source_ids": [
+        "src-ee-wiki-de",
+        "src-ee-pfaf",
+        "src-ee-henriette"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-ee-05",
+      "target": [
+        "digestion"
+      ],
+      "form": "tincture",
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historisch wurde die getrocknete und gepulverte Wurzel- und Stammrinde des Spindelstrauchs in homöopathischen sowie volksmedizinischen Tropfen-Zubereitungen als drastisches Abführmittel (Hydragogum) und Cholagogum bei Verstopfung, Wassersucht (Ödemen) und Gelbsucht angewandt. Der amerikanische Verwandte Euonymus atropurpureus (Wahoo) wurde im 19. Jahrhundert in der Eclectic Medicine in Form von 'Euonymin' als Leber- und Gallenmittel offiziell eingesetzt. Wirkmechanismus: Cardenolid-Glykoside (Evonosid, Evobiosid, Evomonosid) reizen die Darmschleimhaut massiv und wirken digitalisartig auf das Herz — daher das hohe Risiko von Übelkeit, blutigem Durchfall, Kollaps und Herzrhythmusstörungen schon bei therapeutischen Dosen. Heute vollständig obsolet, in keiner aktuellen Phytotherapie-Leitlinie enthalten.",
+        "en": "Historically, the dried and powdered root and stem bark of European spindle was applied in homeopathic and folk-medicinal drop preparations as a drastic purgative (hydragogue) and cholagogue for constipation, dropsy (oedema) and jaundice. The North American relative Euonymus atropurpureus (Wahoo) was officially used in 19th-century Eclectic Medicine in the form of 'euonymin' as a liver and bile remedy. Mechanism: cardenolide glycosides (evonoside, evobioside, evomonoside) massively irritate the intestinal mucosa and act digitalis-like on the heart — hence the high risk of nausea, bloody diarrhoea, collapse and cardiac arrhythmias even at therapeutic doses. Today entirely obsolete and not included in any current phytotherapy guideline."
+      },
+      "source_ids": [
+        "src-ee-wiki-en",
+        "src-ee-pfaf",
+        "src-ee-henriette"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-ee-06",
+      "target": [
+        "ethnobotany"
+      ],
+      "form": "raw",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Färberische und kunstgewerbliche Nutzung der Kapselfrüchte und orangen Samenmäntel: die Carotinoide des Arillus liefern einen gelb-orangen Farbstoff (historische Anwendung in der mitteleuropäischen Buttertinktur und für Wolle), während die rosa Kapselwand zerquetscht und mit Alaun gebeizt einen rosabraunen Wolltextilfarbton ergab. Die getrockneten Kapselfrüchte werden zudem in der Floristik für Herbstgestecke und Trockenkränze verwendet — Vorsicht: Kinder dürfen NICHT zum Sammeln eingeteilt werden, da die Versuchung, die leuchtenden Samen in den Mund zu nehmen, akut lebensgefährlich ist. Die Frucht ist KEINE Lebensmittelfarbe und darf NICHT für Butter, Käse oder Backwaren verwendet werden.",
+        "en": "Dyeing and craft use of the capsule fruits and orange seed arils: the carotenoids of the aril yielded a yellow-orange dye (historical application in Central European butter tincture and for wool), while the crushed pink capsule wall mordanted with alum gave a pinkish-brown wool textile shade. The dried capsule fruits are also used in floristry for autumn arrangements and dried wreaths — caution: children must NOT be assigned to collect them, as the temptation to place the bright seeds in the mouth is acutely life-threatening. The fruit is NOT a food colouring and must NOT be used for butter, cheese or baked goods."
+      },
+      "source_ids": [
+        "src-ee-wiki-de",
+        "src-ee-pfaf",
+        "src-ee-commons"
+      ],
+      "internal_external": "external"
     }
   ],
   "season": {
@@ -47,12 +151,110 @@
   },
   "safety": {
     "warnings": {
-      "de": "SEHR GIFTIG (Evonin, Evobiosid) — auffällig rosa-orange „Pfaffenhütchen\"-Früchte und Samen. Wirkung tritt erst 12-15 Stunden nach Verzehr ein — daher oft zu spät erkannt. Schon 30-40 Samen sind für Erwachsene potenziell tödlich. Sehr verbreiteter Zierstrauch in Hecken und Parks — Kinder fasziniert von den bunten Früchten.",
-      "en": "VERY TOXIC (evonine, evobioside) — strikingly pink-orange 'spindle' fruits and seeds. Symptoms appear only 12-15 hours after consumption — often recognised too late. Just 30-40 seeds are potentially lethal for adults. Very common ornamental shrub in hedges and parks — children fascinated by the colourful fruits."
+      "de": "STARK GIFTIG — ALLE PFLANZENTEILE, BESONDERS DIE LEUCHTEND ORANGEN SAMEN. Euonymus europaeus enthält Cardenolid-Glykoside (Evonosid, Evobiosid, Evomonosid — digitalisartig herzwirksam) und sesquiterpenoide Alkaloide (Evonin, Evonolin) sowie Bitterstoffe und Saponine. Charakteristisch ist die LANGE LATENZ: 8–15 Stunden nach Verzehr setzen die Symptome ein — daher wird der Zusammenhang zur Pflanze oft zu spät erkannt. Typische Vergiftungssymptome: Brechreiz, heftiges Erbrechen, krampfartige Bauchschmerzen, blutiger Durchfall, kalter Schweiss, Kreislaufkollaps, Pupillenerweiterung, Krampfanfälle und gefährliche Herzrhythmusstörungen (Bradykardie, Extrasystolen, AV-Block) ähnlich einer Digitalisvergiftung. Schon 5–10 reife Samen können bei Kindern schwere Vergiftung auslösen, 30–40 Samen gelten beim Erwachsenen als potenziell tödlich (Literaturwerte schwanken stark — die individuelle Empfindlichkeit ist unkalkulierbar). Hautkontakt mit dem Saft beim Schneiden kann Reizungen, in seltenen Fällen Kontaktdermatitis verursachen. Bei Verdacht auf Verzehr: SOFORT Giftnotruf (Deutschland: regionale Giftinformationszentralen, Notruf 112) — auch wenn noch keine Symptome bestehen, denn die Latenz täuscht über die Schwere der Vergiftung hinweg. Aktivkohle innerhalb der ersten Stunde sinnvoll. Niemals selbst Erbrechen auslösen, wenn der Betroffene bereits krampft oder bewusstlos ist.",
+      "en": "STRONGLY TOXIC — ALL PLANT PARTS, ESPECIALLY THE BRIGHT ORANGE SEEDS. Euonymus europaeus contains cardenolide glycosides (evonoside, evobioside, evomonoside — digitalis-like cardioactive) and sesquiterpenoid alkaloids (evonine, evonoline) plus bitter substances and saponins. Characteristic is the LONG LATENCY: symptoms appear 8–15 hours after ingestion — so the link to the plant is often recognised too late. Typical poisoning symptoms: nausea, severe vomiting, cramping abdominal pain, bloody diarrhoea, cold sweats, circulatory collapse, dilated pupils, seizures and dangerous cardiac arrhythmias (bradycardia, extrasystoles, AV block) similar to digitalis poisoning. As few as 5–10 ripe seeds can trigger severe poisoning in children; 30–40 seeds are considered potentially lethal in adults (literature values vary substantially — individual sensitivity is unpredictable). Skin contact with the sap during pruning can cause irritation and, in rare cases, contact dermatitis. On suspicion of ingestion: IMMEDIATELY contact poison control (regional centres, emergency 112/911) — even if no symptoms are yet present, because the latency masks the severity of the poisoning. Activated charcoal useful within the first hour. Never induce vomiting yourself if the affected person is already convulsing or unconscious."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Cardenolid-Glykoside und sesquiterpenoide Alkaloide aus Euonymus europaeus sind plazentagängig und in Tierversuchen embryotoxisch; zusätzlich wurde Euonymus-Material historisch als Abortivum eingesetzt — was den Verdacht auf utero­tonische Wirkung bestätigt. Jede Form der inneren Anwendung oder versehentlichen Aufnahme in der Schwangerschaft ist strikt kontraindiziert. Auch der Aufenthalt im Garten beim Schneiden des Strauchs ist nur mit Handschuhen und ohne Verletzungsrisiko durch Saftspritzer sinnvoll.",
+        "en": "Cardenolide glycosides and sesquiterpenoid alkaloids from Euonymus europaeus cross the placenta and are embryotoxic in animal studies; in addition, Euonymus material was historically used as an abortifacient — supporting the suspicion of uterotonic action. Any form of internal use or accidental ingestion during pregnancy is strictly contraindicated. Even garden work pruning the shrub is sensible only with gloves and without risk of injury from sap splashes."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Übergang der Cardenolide und Alkaloide in die Muttermilch ist nicht ausreichend untersucht; angesichts der bereits in geringer Dosis kardiotoxischen Wirkung beim Säugling (Bradykardie, AV-Block) gilt jede Selbstanwendung in der Stillzeit als kontraindiziert. Symbolische Gartennutzung des Zierstrauchs ist erlaubt, aber pflück-, kau- oder verschluckpflichtige Pflanzenteile sind aus der Reichweite stillender Mütter und ihrer Säuglinge zu halten.",
+        "en": "Transfer of cardenolides and alkaloids into breast milk has not been sufficiently studied; given the already cardiotoxic effect at low doses in the infant (bradycardia, AV block), any self-application during breastfeeding is contraindicated. Symbolic garden use of the ornamental shrub is permitted, but any plant parts that can be picked, chewed or swallowed must be kept out of the reach of breastfeeding mothers and their infants."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder gehören zur Hauptrisikogruppe für Pfaffenhütchen-Vergiftungen — die leuchtend rosa-orangen Kapselfrüchte und die dottergelben Samen wirken anziehend wie Süssigkeiten und tauchen in Augenhöhe von Kleinkindern in Hecken, Knicks, Parks und Spielplatzrändern auf. In den Giftinformationszentralen Deutschlands gehört Euonymus europaeus regelmässig zu den fünf häufigsten kindlichen Pflanzenvergiftungen im Herbst. Verzehr von 1–2 Samen löst meist nur Übelkeit aus, ab 5 Samen sind ernste Symptome zu erwarten. Eltern und Erzieher: Strauch im Familiengarten nur ausser Reichweite (über Augenhöhe) pflanzen, Kinder gezielt aufklären, im Vergiftungsfall sofort Giftnotruf wählen und einen reifen Same/Fruchtanteil zur Identifikation aufbewahren.",
+        "en": "Children are the main risk group for spindle poisoning — the bright pink-orange capsule fruits and the egg-yolk-yellow seeds look attractive like sweets and appear at toddler eye level in hedges, hedgerows, parks and playground edges. In German poison control centres, Euonymus europaeus is regularly among the five most frequent childhood plant poisonings in autumn. Ingestion of 1–2 seeds usually causes only nausea; from 5 seeds upward serious symptoms are to be expected. Parents and educators: plant the shrub in family gardens only out of reach (above eye level), specifically educate children, in case of poisoning immediately call poison control and keep one ripe seed or fruit fragment for identification."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Jede Form der oralen Selbstanwendung von Euonymus-Material — keine sichere Hausdosierung möglich, Cardenolid-Gehalt schwankt mit Standort, Reife und Lagerung",
+        "en": "Any form of oral self-administration of Euonymus material — no safe home dose possible; cardenolide content varies with site, ripeness and storage"
+      },
+      {
+        "de": "Vorbestehende Herzerkrankungen, Herzrhythmusstörungen, Herzinsuffizienz — Cardenolide aus Euonymus wirken digitalisartig und können lebensbedrohliche Arrhythmien auslösen",
+        "en": "Pre-existing cardiac disease, cardiac arrhythmias, heart failure — cardenolides from Euonymus act digitalis-like and can trigger life-threatening arrhythmias"
+      },
+      {
+        "de": "Gleichzeitige Therapie mit Digitalis-Glykosiden (Digoxin, Digitoxin) oder anderen kardial wirksamen Glykosiden — additive Cardiotoxizität",
+        "en": "Concurrent therapy with digitalis glycosides (digoxin, digitoxin) or other cardioactive glycosides — additive cardiotoxicity"
+      },
+      {
+        "de": "Hypokaliämie, Diuretikatherapie mit Kaliumverlust — verstärkt die Empfindlichkeit gegenüber Cardenoliden erheblich",
+        "en": "Hypokalaemia, diuretic therapy with potassium loss — substantially enhances sensitivity to cardenolides"
+      },
+      {
+        "de": "Bestehende Magen-Darm-Erkrankungen (Magenulcus, Colitis, Reizdarm) — die schleimhautreizende Wirkung verschlimmert die Grunderkrankung",
+        "en": "Existing gastrointestinal disease (gastric ulcer, colitis, irritable bowel) — the mucosa-irritant effect worsens the underlying condition"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche (siehe oben)",
+        "en": "Pregnancy, breastfeeding, children and adolescents (see above)"
+      },
+      {
+        "de": "Haushalte mit Hunden, Katzen, Vögeln, Pferden oder Nagern — alle Pflanzenteile sind für Haustiere und Weidetiere giftig (bei Pferden besonders gefährlich)",
+        "en": "Households with dogs, cats, birds, horses or rodents — all plant parts are toxic to pets and grazing animals (particularly dangerous in horses)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Herzglykoside (Digoxin, Digitoxin, Methyldigoxin)",
+        "mechanism": {
+          "de": "Die Cardenolid-Glykoside aus Euonymus europaeus (Evonosid, Evobiosid, Evomonosid) hemmen wie Digoxin die Na⁺/K⁺-ATPase der Herzmuskelzellen; gleichzeitige Aufnahme verstärkt die positive Inotropie und negative Chronotropie potenziell lebensbedrohlich (Bradykardie, AV-Block, ventrikuläre Arrhythmien). Klinisch relevant nur bei versehentlichem Verzehr — dann sofort kardiologische Überwachung.",
+          "en": "The cardenolide glycosides from Euonymus europaeus (evonoside, evobioside, evomonoside) inhibit the Na⁺/K⁺-ATPase of cardiac muscle cells like digoxin; concurrent intake potentially enhances positive inotropy and negative chronotropy life-threateningly (bradycardia, AV block, ventricular arrhythmias). Clinically relevant only on accidental ingestion — then immediate cardiac monitoring."
+        },
+        "severity": "avoid",
+        "source_id": "src-ee-wiki-en"
+      },
+      {
+        "drug_class": "Kaliumverlust-Diuretika (Furosemid, Hydrochlorothiazid, Indapamid)",
+        "mechanism": {
+          "de": "Diuretika senken den Serumkaliumspiegel; hypokaliämische Patienten reagieren deutlich empfindlicher auf Cardenolide aus Euonymus (digitalisartige Toxizität bereits bei kleineren Mengen). Bei versehentlicher Aufnahme von Spindel-Material und gleichzeitiger Diuretikatherapie ist ein Notfallmonitoring mit Kalium-Substitution indiziert.",
+          "en": "Diuretics lower serum potassium; hypokalaemic patients react substantially more sensitively to cardenolides from Euonymus (digitalis-like toxicity already at smaller amounts). On accidental ingestion of spindle material and concurrent diuretic therapy, emergency monitoring with potassium substitution is indicated."
+        },
+        "severity": "avoid",
+        "source_id": "src-ee-wiki-de"
+      },
+      {
+        "drug_class": "Antiarrhythmika (Amiodaron, Sotalol, Verapamil, Diltiazem)",
+        "mechanism": {
+          "de": "Antiarrhythmika können die negativ-chronotrope und negativ-dromotrope Wirkung der Cardenolide aus Euonymus additiv verstärken; Gefahr von Sinusbradykardie, AV-Block höheren Grades und Asystolie. Bei akzidenteller Vergiftung gilt die Gabe von Anticholinergika (Atropin) als Erstmassnahme; bei refraktärer Bradykardie temporärer Schrittmacher.",
+          "en": "Antiarrhythmics may additively enhance the negative chronotropic and dromotropic effect of cardenolides from Euonymus; risk of sinus bradycardia, higher-grade AV block and asystole. In accidental poisoning, administration of anticholinergics (atropine) is the first-line measure; for refractory bradycardia, temporary pacemaker."
+        },
+        "severity": "avoid",
+        "source_id": "src-ee-wiki-en"
+      },
+      {
+        "drug_class": "Laxanzien und Reizabführmittel (Bisacodyl, Senna, Rizinusöl)",
+        "mechanism": {
+          "de": "Euonymus-Rinde und -Samen wirken selbst stark abführend (Reizung der Darmschleimhaut durch Cardenolide und Saponine); bei gleichzeitigem Gebrauch klassischer Laxanzien droht massiver Flüssigkeits- und Elektrolytverlust mit konsekutiver Hypokaliämie — die ihrerseits die Cardiotoxizität der Cardenolide verstärkt. Teufelskreis bei akzidenteller Aufnahme.",
+          "en": "Euonymus bark and seeds are themselves strongly laxative (irritation of intestinal mucosa by cardenolides and saponins); with concurrent use of classical laxatives, massive fluid and electrolyte loss with consecutive hypokalaemia threatens — which in turn enhances the cardiotoxicity of the cardenolides. Vicious circle on accidental ingestion."
+        },
+        "severity": "caution",
+        "source_id": "src-ee-pfaf"
+      },
+      {
+        "drug_class": "Glucocorticoide (Prednisolon, Dexamethason)",
+        "mechanism": {
+          "de": "Längerfristige Glucocorticoidtherapie führt zu Hypokaliämie und Natriumretention — beides Faktoren, die die Empfindlichkeit gegenüber Cardenoliden erhöhen. Bei akzidenteller Spindel-Vergiftung unter laufender Steroidtherapie engmaschiges Elektrolyt- und EKG-Monitoring erforderlich.",
+          "en": "Longer-term glucocorticoid therapy leads to hypokalaemia and sodium retention — both factors that increase sensitivity to cardenolides. With accidental spindle poisoning under ongoing steroid therapy, close electrolyte and ECG monitoring is required."
+        },
+        "severity": "caution",
+        "source_id": "src-ee-wiki-en"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -69,6 +271,62 @@
       "title": "Euonymus europaeus (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Euonymus_europaeus",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-ee-wiki-de",
+      "type": "wikipedia",
+      "title": "Gewöhnlicher Spindelstrauch — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Spindelstrauch",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ee-wiki-en",
+      "type": "wikipedia",
+      "title": "Euonymus europaeus — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Euonymus_europaeus",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ee-wiki-genus",
+      "type": "wikipedia",
+      "title": "Euonymus — Wikipedia (EN, genus)",
+      "url": "https://en.wikipedia.org/wiki/Euonymus",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ee-wiki-celastraceae",
+      "type": "wikipedia",
+      "title": "Celastraceae — Wikipedia (EN, family)",
+      "url": "https://en.wikipedia.org/wiki/Celastraceae",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ee-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Euonymus europaeus",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Euonymus+europaeus",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ee-henriette",
+      "type": "book",
+      "title": "Henriette's Herbal Homepage — Euonymus europaeus (King's American Dispensatory, 1898)",
+      "url": "https://www.henriettes-herb.com/eclectic/kings/euonymus.html",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ee-wikidata",
+      "type": "wikidata",
+      "title": "Euonymus europaeus — Wikidata Q156005",
+      "url": "https://www.wikidata.org/wiki/Q156005",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-ee-commons",
+      "type": "commons",
+      "title": "Euonymus europaeus — Wikimedia Commons category",
+      "url": "https://commons.wikimedia.org/wiki/Category:Euonymus_europaeus",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -80,5 +338,129 @@
     "license": "CC BY 4.0",
     "author": "George Chernilevsky",
     "source_url": "https://commons.wikimedia.org/wiki/File:Euonymus_europaeus_2024_G2.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Evonoside",
+      "category": "glycoside",
+      "percent_range": "Spuren bis 0.1 % (Samen und Rinde)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Bis-Cardenolid-Glykosid und einer der Hauptträger der digitalisartigen Cardiotoxizität von Euonymus europaeus. Hemmt — wie alle Cardenolide — die Na⁺/K⁺-ATPase der Herzmuskelzelle, was zu erhöhter intrazellulärer Calciumkonzentration, positiver Inotropie und negativer Chronotropie führt. In hohen Dosen Ursache der charakteristischen verzögerten Vergiftungssymptomatik mit Bradykardie, AV-Block und ventrikulären Arrhythmien.",
+        "en": "Bis-cardenolide glycoside and one of the main carriers of the digitalis-like cardiotoxicity of Euonymus europaeus. Like all cardenolides, inhibits the Na⁺/K⁺-ATPase of the cardiac muscle cell, leading to increased intracellular calcium concentration, positive inotropy and negative chronotropy. At high doses, the cause of the characteristic delayed poisoning symptoms with bradycardia, AV block and ventricular arrhythmias."
+      }
+    },
+    {
+      "name": "Evobioside",
+      "category": "glycoside",
+      "percent_range": "Spuren (Samen und Rinde)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Weiteres Cardenolid-Glykosid mit zwei Zuckerresten; gemeinsam mit Evonosid und Evomonosid für die herzwirksame Toxizität verantwortlich. Strukturell verwandt mit Digitoxigenin-Derivaten der Digitalis-Arten (Gemeinsamkeit: Steroid-Aglykon mit ungesättigtem γ-Butyrolactonring). Akkumuliert besonders im reifen, dottergelben Samenmantel und im Embryo.",
+        "en": "Further cardenolide glycoside with two sugar residues; together with evonoside and evomonoside responsible for the cardioactive toxicity. Structurally related to the digitoxigenin derivatives of Digitalis species (commonality: steroid aglycone with an unsaturated γ-butyrolactone ring). Accumulates particularly in the ripe, egg-yolk-yellow seed aril and in the embryo."
+      }
+    },
+    {
+      "name": "Evomonoside",
+      "category": "glycoside",
+      "percent_range": "Spuren (Samen)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Mono-Glykosid aus der Cardenolid-Familie des Spindelstrauchs; ergänzt Evonosid und Evobiosid im Toxizitätsprofil. Wirkungsstärke und Resorptionsverhalten ähneln Digitoxin: hohe enterale Bioverfügbarkeit (60–80 %), lange Halbwertszeit, kumulationsfähig — daher die verzögerte und protrahierte Vergiftungssymptomatik typisch für Pfaffenhütchen.",
+        "en": "Mono-glycoside from the cardenolide family of European spindle; complements evonoside and evobioside in the toxicity profile. Potency and absorption behaviour resemble digitoxin: high enteral bioavailability (60–80 %), long half-life, capable of accumulation — hence the delayed and protracted poisoning symptoms typical of spindle."
+      }
+    },
+    {
+      "name": "Evonine",
+      "category": "alkaloid",
+      "percent_range": "Spuren (Samen)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Komplexes sesquiterpenoides Pyridin-Alkaloid (Polyester aus mehreren acetylierten Hydroxylgruppen); Leitalkaloid für die Gattung Euonymus und chemotaxonomischer Marker der Celastraceae. Insektizid und akarizid wirksam — Grundlage der historischen volksmedizinischen Anwendung gegen Läuse und Krätzemilben. Mit Evonolin und weiteren Begleitalkaloiden trägt es zusätzlich zur Gesamttoxizität bei Säugern bei.",
+        "en": "Complex sesquiterpenoid pyridine alkaloid (polyester of several acetylated hydroxyl groups); lead alkaloid of the genus Euonymus and chemotaxonomic marker of the Celastraceae. Insecticidal and acaricidal — the basis for the historical folk-medicinal use against lice and scabies mites. Together with evonoline and further accompanying alkaloids, it additionally contributes to the overall mammalian toxicity."
+      }
+    },
+    {
+      "name": "Evonoline",
+      "category": "alkaloid",
+      "percent_range": "Spuren (Samen)",
+      "plant_part": "seed",
+      "note": {
+        "de": "Begleitalkaloid von Evonin mit ähnlichem sesquiterpenoidem Polyester-Skelett; im Tierversuch in geringeren Konzentrationen insektizid wirksam. Innerhalb der Gattung Euonymus dient Evonolin gemeinsam mit Evonin als Marker für phytochemische Authentizitätsprüfung von Drogen­material aus Euonymus europaeus.",
+        "en": "Accompanying alkaloid of evonine with a similar sesquiterpenoid polyester skeleton; insecticidally active in lower concentrations in animal experiments. Within the genus Euonymus, evonoline together with evonine serves as a marker for phytochemical authenticity testing of drug material from Euonymus europaeus."
+      }
+    },
+    {
+      "name": "Bitterstoffe (Euonyminoside und verwandte Sesterterpenoide)",
+      "category": "bitter",
+      "percent_range": "nicht quantifiziert (Rinde und Samen)",
+      "plant_part": "bark",
+      "note": {
+        "de": "Charakteristische Bittersubstanzen der Rinde und Samen, die die starke Übelkeit und den Brechreiz nach Verzehr mitverursachen. Pharmakologisch tragen sie zur drastisch abführenden Wirkung bei und werden als sekundärer Grund für die historische Anwendung als Wahoo-ähnliches Cholagogum genannt. Nicht klar gegen die Cardenolide abgrenzbar — Wirkung überlagert sich.",
+        "en": "Characteristic bitter substances of the bark and seeds that co-cause the strong nausea and emesis after ingestion. Pharmacologically they contribute to the drastically laxative effect and are named as a secondary reason for the historical use as a Wahoo-like cholagogue. Not clearly separable from the cardenolides — effects overlap."
+      }
+    },
+    {
+      "name": "Carotinoide (β-Carotin, Zeaxanthin)",
+      "category": "other",
+      "percent_range": "deutlich nachweisbar im orangen Arillus",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Lipophile Pigmente des leuchtend orangen Samenmantels (Arillus); wirken als Lockfarbe für samenausbreitende Vögel (Rotkehlchen, Mönchsgrasmücke, Singdrossel), die den Arillus verdauen, während die toxischen Samen unverdaut wieder ausgeschieden werden. Die intensive Orange-Färbung ist Ergebnis der gemeinsamen Wirkung von β-Carotin und xanthophyll-artigen Verbindungen.",
+        "en": "Lipophilic pigments of the bright orange seed aril; act as a lure colour for seed-dispersing birds (robin, blackcap, song thrush), which digest the aril while the toxic seeds are excreted undigested. The intense orange colour is the result of the joint action of β-carotene and xanthophyll-like compounds."
+      }
+    },
+    {
+      "name": "Fettsäuren (Linolsäure, Palmitinsäure, Ölsäure)",
+      "category": "other",
+      "percent_range": "Samenöl ca. 30–40 % der Samentrockenmasse",
+      "plant_part": "seed",
+      "note": {
+        "de": "Die Spindelstrauch-Samen enthalten ein gelbliches, lange haltbares Samenöl mit dominanter Linolsäure (mehrfach ungesättigt) sowie Palmitin- und Ölsäure. Historisch wurde dieses Öl in der ländlichen Seifenherstellung und (in Notzeiten) als Lampenöl verwendet — keine Lebensmittelnutzung möglich, weil die Cardenolide und Alkaloide mit ins Pressöl übergehen und es toxisch machen.",
+        "en": "European spindle seeds contain a yellowish, long-keeping seed oil with dominant linoleic acid (polyunsaturated) and palmitic and oleic acids. Historically, this oil was used in rural soap making and (in times of need) as lamp oil — no food use possible because the cardenolides and alkaloids partition into the press oil and make it toxic."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Trockene Vormittage September bis Oktober, sobald die Kapseln sich vierteilig öffnen und die orangen Samenmäntel sichtbar werden. SCHUTZHANDSCHUHE PFLICHT — Pflanzensaft hautreizend, Samen hochgiftig. Ausschliesslich für floristische, dekorative oder färberische Zwecke (Trockengestecke, Wolle, Künstlerkohle-Vorbereitung); KEINE Nahrungsmittel- oder Heilanwendung. Sammelgefässe deutlich beschriften und ausserhalb Reichweite von Kindern und Haustieren lagern.",
+        "en": "Dry mornings in September to October, as soon as the capsules open into four lobes and the orange seed arils become visible. PROTECTIVE GLOVES MANDATORY — plant sap is skin-irritant, seeds highly toxic. Exclusively for floristic, decorative or dyeing purposes (dried arrangements, wool, artist's charcoal preparation); NO food or medicinal use. Clearly label collection vessels and store out of reach of children and pets."
+      },
+      "drying": {
+        "de": "Geöffnete Kapseln mit den Samenmänteln an der Luft im Schatten trocknen (1–2 Wochen), bei guter Luftzirkulation. Für Trockensträusse: Zweige mit Kapseln in Bündeln kopfüber aufhängen. Direktes Sonnenlicht bleicht die rosa Färbung der Kapselwand schnell aus. Für färberische Anwendungen werden Kapseln frisch verarbeitet (zerstossen und mit Alaun-Beize ausgekocht).",
+        "en": "Dry opened capsules with the seed arils in air in the shade (1–2 weeks), with good air circulation. For dried bouquets: hang branches with capsules upside down in bundles. Direct sunlight quickly bleaches the pink coloration of the capsule wall. For dyeing applications, capsules are processed fresh (crushed and boiled with alum mordant)."
+      },
+      "storage_condition": {
+        "de": "Trocken, kühl (10–18 °C), dunkel, in beschrifteten Behältern ('Euonymus europaeus — giftig, KEINE Lebensmittel') unzugänglich für Kinder und Haustiere. Niemals in Küchenschränken oder zwischen essbaren Trockenfrüchten lagern. Trockene Kapseln behalten Toxizität über Jahre bei.",
+        "en": "Dry, cool (10–18 °C), dark, in labelled containers ('Euonymus europaeus — toxic, NOT food') inaccessible to children and pets. Never store in kitchen cabinets or among edible dried fruits. Dried capsules retain toxicity for years."
+      }
+    },
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "time_of_day": {
+        "de": "Saftruhe-Phase im Spätherbst und Winter (November bis Februar), wenn das Holz die geringste Restfeuchte aufweist — optimal für Schnitzerei, Drechselarbeit und für die Verkohlung zu Künstlerkohle ('fusain'). Schnitt nur bei frostfreiem Wetter, Schutzhandschuhe wegen hautreizendem Saft. Reisige Triebe (1–2 cm Durchmesser) eignen sich für Künstlerkohle; ältere Stammabschnitte (3–5 cm) für gedrechselte Spindeln und Schnitzfiguren.",
+        "en": "Dormancy phase in late autumn and winter (November to February), when the wood has the lowest residual moisture — optimal for carving, turning and for carbonisation into artist's charcoal ('fusain'). Cut only in frost-free weather; protective gloves due to skin-irritant sap. Twiggy shoots (1–2 cm diameter) are suitable for artist's charcoal; older stem sections (3–5 cm) for turned spindles and carved figures."
+      },
+      "drying": {
+        "de": "Geschnittenes Holz entrinden und 6–12 Monate luftig im Schuppen trocknen lassen (Holzfeuchte unter 12 % anstreben). Für Künstlerkohle werden Reiser geschält, zugeschnitten und in geschlossenen Eisengefässen (Tabakdose, alte Bohnendose mit Loch im Deckel) im Holzkohlefeuer 1–2 Stunden ausgeschwelt — der Sauerstoffmangel verkohlt das Holz, ohne es zu verbrennen.",
+        "en": "Debark cut wood and let it dry airily in the shed for 6–12 months (target wood moisture below 12 %). For artist's charcoal, twigs are peeled, cut to size and carbonised in closed iron vessels (tobacco tin, old bean can with a hole in the lid) in a charcoal fire for 1–2 hours — the lack of oxygen carbonises the wood without burning it."
+      },
+      "storage_condition": {
+        "de": "Holzlager trocken, frostfrei, gut belüftet; fertige Künstlerkohle in pappgefütterten Schachteln getrennt von harten Werkstoffen aufbewahren (sehr bruchempfindlich). Werkstücke nach Drechseln/Schnitzen mit lebensmittelechtem Wachs oder Bienenwachs versiegeln — KEINE Verwendung für Kinderspielzeug, Essbesteck, Schneidebretter oder andere Gegenstände mit Mundkontakt, da Restspuren von Cardenoliden im Holz möglich.",
+        "en": "Wood storage dry, frost-free, well-ventilated; finished artist's charcoal stored in cardboard-lined boxes separately from hard materials (very fragile). Seal turned/carved workpieces with food-grade or beeswax — NO use for children's toys, eating utensils, chopping boards or other items with mouth contact, as residual traces of cardenolides in the wood are possible."
+      }
+    }
+  ]
 }
