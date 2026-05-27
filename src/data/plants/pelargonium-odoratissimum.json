@@ -22,17 +22,163 @@
     {
       "form": "tea",
       "target": [
-        "nerves",
-        "respiratory"
+        "nervous_system",
+        "nutrition"
       ],
       "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Apfel-Geranie wird traditionell als Aufguss als Tee bei nervlicher Anspannung sowie bei Atemwegsbeschwerden verwendet. Pflanze aus der Familie der Storchschnabelgewächse — typische Verwendung in der europäischen Volksheilkunde bzw. Küche.",
-        "en": "As well as being a houseplant or outdoor perennial depending on climate, Pelargonium odoratissimum other uses. It is used for its astringent, tonic and antiseptic effects. It is used internally for debility, gastroenteritis, and hemorrhage and externally for skin complaints, injuries, and neuralgia and throat infections. The essential oil is used in aromatherapy and has a delicious apple aroma."
+        "de": "Traditioneller Aufguss aus frischen oder getrockneten Blättern der Apfel-Geranie als sanft beruhigender Abendtee mit dem charakteristischen, fruchtig-apfeligen Aroma. In der südafrikanischen Volksmedizin werden wässrige Pelargonium-odoratissimum-Auszüge bei nervöser Unruhe, leichten Magenverstimmungen und bei Erkältungen eingesetzt; in europäischen Duftgärten ist der Apfel-Tee vor allem ein Genuss-Tee.",
+        "en": "Traditional infusion of fresh or dried apple geranium leaves as a gently calming evening tea with the characteristic fruity apple aroma. In South African folk medicine, aqueous extracts of Pelargonium odoratissimum are used for nervous restlessness, mild stomach upset and colds; in European scented-garden traditions the apple tea is mainly a pleasure tea."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 8,
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "1-2 g (etwa 2-3 frische oder 1 TL getrocknete) Apfel-Geranien-Blätter zerkleinern, mit 200 ml kochendem Wasser übergießen, zugedeckt 8 Minuten ziehen lassen, abseihen. 1-2 Tassen täglich, gerne nachmittags oder am Abend. Frische Blätter geben das vollere Apfel-Aroma.",
+          "en": "Chop 1-2 g (about 2-3 fresh or 1 tsp dried) apple geranium leaves, pour 200 ml boiling water over them, cover and infuse 8 minutes, then strain. 1-2 cups daily, preferably in the afternoon or evening. Fresh leaves give the fuller apple aroma."
+        }
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src_wiki_odoratissimum_en",
+        "src_pfaf_odoratissimum",
+        "src_lalli_pelargonium_chemistry"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "nervous_system",
+        "wellbeing"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Aromatherapeutische Anwendung des ätherischen Apfel-Geranien-Öls zur Entspannung, bei nervöser Anspannung und Stress. Das fruchtig-rosige Duftprofil mit hohem Citronellol- und Geraniol-Anteil sowie ausgeprägten Citronellyl-Estern verleiht der Apfel-Geranie ihre charakteristische Apfel-Note; in der Aromatherapie gilt sie als mild beruhigend und stimmungsausgleichend.",
+        "en": "Aromatherapy use of apple geranium essential oil for relaxation, nervous tension and stress. The fruity-rosy scent profile with high citronellol/geraniol content and pronounced citronellyl esters gives the apple geranium its characteristic apple note; in aromatherapy it is regarded as mildly calming and mood-balancing."
+      },
+      "preparation": {
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Duftlampe/Diffuser: 3-5 Tropfen ätherisches Apfel-Geranien-Öl in 100 ml Wasser, 20-30 Minuten verdampfen. Massageöl: 5-10 Tropfen in 50 ml Trägeröl (Mandel, Jojoba) — entspricht 0,5-1 %. NIEMALS unverdünnt auf die Haut. Vor Erstanwendung 24-h-Hauttest in der Armbeuge.",
+          "en": "Diffuser: 3-5 drops apple geranium essential oil in 100 ml water, vaporise for 20-30 minutes. Massage oil: 5-10 drops in 50 ml carrier oil (almond, jojoba) — corresponds to 0.5-1 %. NEVER apply undiluted. Patch test 24 h before first use."
+        }
+      },
+      "age_restriction": {
+        "min_age": 6,
+        "note": {
+          "de": "Bei Kindern unter 6 Jahren wegen Citronellol-/Geraniol-Anteil keine intensive Diffuser-Anwendung im Schlafzimmer. Bei Säuglingen und Kleinkindern ganz meiden.",
+          "en": "In children under 6 years, avoid intensive diffuser use in the bedroom due to citronellol/geraniol content. Avoid entirely in infants and toddlers."
+        }
+      },
+      "source_ids": [
+        "src_lalli_pelargonium_chemistry",
+        "src_wiki_odoratissimum_en",
+        "src_herbalreality_pelargonium"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ethnobotany",
+        "wellbeing"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinische Mückenabwehr: Frische Blätter der Apfel-Geranie werden im Garten zerrieben und auf unbedeckte Haut getupft, um stechende Insekten fernzuhalten. Der Citronellol-Geraniol-reiche Duft teilt die repellente Wirkung mit klassischem Citronella- und Rosengeranien-Öl, ist aber im Vergleich zur Citrosa-Sorte und zu Cymbopogon-Citronella in In-vitro-Tests schwächer. Vor allem in südafrikanischer und im englischsprachigen Cottage-Garten-Brauchtum verbreitet.",
+        "en": "Folk-medicinal insect repellent: fresh leaves of the apple geranium are crushed in the garden and dabbed onto exposed skin to keep biting insects away. The citronellol/geraniol-rich scent shares its repellent effect with classical citronella and rose geranium oil, but in vitro it is weaker than the 'Citrosa' cultivar and true Cymbopogon citronella. Especially common in South African folk practice and English cottage-garden traditions."
+      },
+      "preparation": {
+        "de": "Frische Blätter zerreiben und auf unbedeckte Haut tupfen (kein Auftragen auf gereizter oder verletzter Haut). Wirkdauer kurz — alle 1-2 Stunden wiederholen. Nicht bei Kleinkindern unter 2 Jahren auftragen.",
+        "en": "Crush fresh leaves and dab on exposed skin (not on irritated or broken skin). Effect is short-lived — repeat every 1-2 hours. Do not apply to children under 2 years."
+      },
+      "source_ids": [
+        "src_wiki_odoratissimum_en",
+        "src_pfaf_odoratissimum",
+        "src_herbalreality_pelargonium"
+      ]
+    },
+    {
+      "form": "spice",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Küchenkraut: Die apfelduftenden Blätter aromatisieren Gelees, Konfitüren (besonders Apfel- und Quittengelee), Sirupe, Sorbets, Puddings und Kuchen — die EU-Aroma-Verordnung erlaubt Pelargonien-Blätter als natürliche Aromazutat. Apfel-Geranien-Zucker und mit Blättern parfümierte Zuckerbäckerei sind eine englische Cottage-Klassik.",
+        "en": "Culinary herb: the apple-scented leaves flavour jellies, jams (especially apple and quince jelly), syrups, sorbets, puddings and cakes — the EU flavouring legislation permits pelargonium leaves as a natural flavouring. Apple geranium sugar and leaf-perfumed confectionery are an English cottage-garden classic."
+      },
+      "preparation": {
+        "de": "1-2 frische Blätter pro Glas Marmelade während der letzten 5 Minuten Kochzeit mitkochen und vor dem Abfüllen entfernen. Für Aromazucker: 4-5 Blätter mit 250 g Zucker mehrere Tage in einem geschlossenen Glas ziehen lassen. Im Biskuit: 2-3 Blätter am Boden der Backform auslegen, Teig darauf gießen.",
+        "en": "Cook 1-2 fresh leaves with each jar of jam during the last 5 minutes and remove before filling. For flavoured sugar: layer 4-5 leaves with 250 g sugar in a closed jar for several days. In sponge cake: line the base of the tin with 2-3 leaves and pour batter on top."
+      },
+      "source_ids": [
+        "src_pfaf_odoratissimum",
+        "src_wiki_odoratissimum_en",
+        "src_kew_pelargonium_odoratissimum"
+      ]
+    },
+    {
+      "form": "bath",
+      "target": [
+        "nervous_system",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksmedizinisches Entspannungsbad bei nervöser Anspannung, Erschöpfung und gereizter Haut. Die ätherischen Öle wirken über Haut und Atemluft ausgleichend; das warme Wasser löst Verspannungen. Der apfelige Duft macht das Bad zu einem klassischen 'Wohlfühlbad' aus der südafrikanischen und englischen Volkstradition.",
+        "en": "Folk-medicinal relaxation bath for nervous tension, exhaustion and irritated skin. The essential oils act via skin and inhaled air; warm water releases muscle tension. The apple scent makes the bath a classical 'wellbeing bath' from South African and English folk traditions."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 50,
+          "max": 100
+        },
+        "water_ml": 1500,
+        "steep_min": 20,
+        "doses_per_day": 1,
+        "instructions": {
+          "de": "50-100 g getrocknete oder eine große Handvoll frische Apfel-Geranien-Blätter mit 1,5 L heißem Wasser übergießen, 20 Minuten ziehen lassen, abseihen und dem Vollbad zugeben (35-38 °C, 15-20 Minuten). Nicht bei empfindlicher Haut unverdünnt.",
+          "en": "Pour 1.5 L hot water over 50-100 g dried or a large handful of fresh apple geranium leaves, infuse for 20 minutes, strain and add to a full bath (35-38 °C, 15-20 minutes). Avoid concentrated use on sensitive skin."
+        }
+      },
+      "source_ids": [
+        "src_herbalreality_pelargonium",
+        "src_pfaf_odoratissimum"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental",
+        "wellbeing"
+      ],
+      "internal_external": "external",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Duftgarten-Klassiker: Die Apfel-Geranie ist eine der historisch ältesten Duftpelargonien-Sorten in europäischen Sammlungen (in England seit 1724 dokumentiert) und gilt mit ihren kleinen weißen Blütchen und dem intensiv apfelduftenden Blattwerk als Schlüsselpflanze für Duftbeete, Sinnesgärten und therapeutische Gärten (z.B. für Demenz-Wohngruppen).",
+        "en": "Scented-garden classic: the apple geranium is one of the historically oldest scented-pelargonium varieties in European collections (documented in England since 1724) and, with its small white flowers and intensely apple-scented foliage, is considered a key plant for scented beds, sensory gardens and therapeutic gardens (e.g. for dementia care homes)."
+      },
+      "source_ids": [
+        "src_kew_pelargonium_odoratissimum",
+        "src_wiki_odoratissimum_en",
+        "src_wiki_duftpelargonien_de"
       ]
     }
   ],
@@ -51,12 +197,72 @@
   },
   "safety": {
     "warnings": {
-      "de": "Ätherisches Öl bei empfindlicher Haut verdünnt anwenden.",
-      "en": "Apply essential oil diluted on sensitive skin."
+      "de": "Ätherisches Apfel-Geranien-Öl NIEMALS unverdünnt auf die Haut auftragen — Citronellol, Geraniol und Linalool gelten als Allergene und sind in der EU-Kosmetik-Verordnung als deklarationspflichtige Duftstoffe gelistet. Maximalkonzentration 1-3 % in einem Trägeröl; vor Erstanwendung 24-h-Hauttest. Bei bekannter Geraniaceae- oder Citronella-Allergie meiden. Innerlich nur als verdünnter Tee oder Aromazutat — NIEMALS reines ätherisches Öl trinken oder löffeln. WICHTIG: Die EMA-HMPC-Monographie 'Pelargonium' bezieht sich ausschließlich auf Pelargonium sidoides (Atemwegs-Erkältung); für Pelargonium odoratissimum gibt es KEINE EMA-Monographie und keinen 'Well-established use'-Status — alle hier genannten Anwendungen sind traditionell oder volksmedizinisch.",
+      "en": "NEVER apply apple geranium essential oil undiluted to the skin — citronellol, geraniol and linalool are listed allergens in the EU Cosmetics Regulation. Maximum concentration 1-3 % in a carrier oil; patch test 24 h before first use. Avoid in known Geraniaceae or citronella allergy. Internally only as a diluted tea or flavouring — NEVER drink or take pure essential oil by the spoon. IMPORTANT: the EMA HMPC 'Pelargonium' monograph refers exclusively to Pelargonium sidoides (respiratory colds); there is NO EMA monograph and no 'well-established use' status for Pelargonium odoratissimum — all uses listed here are traditional or folk-medicinal."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenmengen (Blätter in Marmelade, gelegentliche Tasse Tee) gelten als unbedenklich. Therapeutische Tee-Mengen und ätherisches Öl in Aromatherapie/Hautanwendung wegen unzureichender Sicherheitsdaten in der Schwangerschaft nur zurückhaltend einsetzen; innerliche Anwendung ätherischen Öls meiden.",
+        "en": "Culinary amounts (leaves in jam, occasional cup of tea) are considered safe. Use therapeutic tea amounts and aromatherapy/skin essential-oil applications cautiously in pregnancy due to insufficient safety data; avoid internal use of essential oil."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenmengen unbedenklich. Therapeutische Mengen und ätherisches Öl mangels Daten nur zurückhaltend; ätherisches Öl nicht auf Brust und Brustwarzen auftragen, solange das Kind gestillt wird.",
+        "en": "Culinary amounts are safe. Use therapeutic amounts and essential oil cautiously due to insufficient data; do not apply essential oil to chest or nipples while breastfeeding."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Ätherisches Apfel-Geranien-Öl bei Säuglingen und Kindern unter 2 Jahren NICHT hautnah anwenden (keine Diffuser im Schlafzimmer, keine Massageöle). Bei Kindern 2-6 Jahren nur stark verdünnt (max. 0,5 %) und nicht im Gesicht. Tee ab Schulalter in moderaten Mengen unbedenklich.",
+        "en": "Do NOT use apple geranium essential oil on the skin of infants and children under 2 years (no bedroom diffuser, no massage oils). In children 2-6 years only highly diluted (max. 0.5 %) and not on the face. Tea is safe in moderate amounts from school age."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "CYP2B6-/CYP3A4-Substrate",
+        "mechanism": {
+          "de": "Citronellol, Geraniol und Linalool können in höheren Konzentrationen Cytochrom-P450-Enzyme modulieren. Theoretische Wechselwirkungen mit Bupropion, Efavirenz, Ketamin und anderen CYP2B6/3A4-Substraten sind denkbar — klinisch bei aromatherapeutischer Hautanwendung kaum relevant, bei oraler Einnahme ätherischer Öle Vorsicht.",
+          "en": "Citronellol, geraniol and linalool can modulate cytochrome P450 enzymes at higher concentrations. Theoretical interactions with bupropion, efavirenz, ketamine and other CYP2B6/3A4 substrates are conceivable — clinically barely relevant for topical aromatherapy, caution with oral use of essential oils."
+        },
+        "severity": "monitor",
+        "source_id": "src_lalli_pelargonium_chemistry"
+      },
+      {
+        "drug_class": "Sedativa / ZNS-Dämpfer",
+        "mechanism": {
+          "de": "Aromatherapeutisch eingesetztes Apfel-Geranien-Öl wirkt leicht beruhigend; in Kombination mit Schlafmitteln, Benzodiazepinen oder Alkohol kann sich die dämpfende Wirkung additiv verstärken.",
+          "en": "Apple geranium oil used in aromatherapy has a mild calming effect; combined with sleep medications, benzodiazepines or alcohol, the dampening effect may add up."
+        },
+        "severity": "monitor",
+        "source_id": "src_herbalreality_pelargonium"
+      }
+    ],
+    "max_continuous_use_weeks": 4,
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Pelargonien (Apfel- oder Rosengeranie), Citronellol, Geraniol, Linalool oder anderen Geraniaceen.",
+        "en": "Known hypersensitivity to pelargoniums (apple or rose geranium), citronellol, geraniol, linalool or other Geraniaceae."
+      },
+      {
+        "de": "Säuglinge und Kinder unter 2 Jahren — keine hautnahe Anwendung ätherischen Öls.",
+        "en": "Infants and children under 2 years — no skin contact with essential oil."
+      },
+      {
+        "de": "Akute, nässende Hautentzündung oder gereizte Schleimhäute — Anwendung verschieben bis zur Abheilung.",
+        "en": "Acute weeping skin inflammation or irritated mucous membranes — postpone use until healed."
+      },
+      {
+        "de": "Katzen und kleine Hunde im Haushalt: ätherisches Geranium-Öl ist für Heimtiere toxisch (laut ASPCA — gilt für alle Pelargonium-Arten). Diffuser nur in Räumen verwenden, die das Tier verlassen kann; keine direkte Hautanwendung am Tier.",
+        "en": "Cats and small dogs in the household: geranium essential oil is toxic to pets (per ASPCA — applies to all Pelargonium species). Use a diffuser only in rooms the animal can leave; no direct application on the pet."
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -73,6 +279,62 @@
       "title": "Pelargonium odoratissimum (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Pelargonium_odoratissimum",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_odoratissimum_en",
+      "type": "wikipedia",
+      "title": "Pelargonium odoratissimum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Pelargonium_odoratissimum",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wiki_duftpelargonien_de",
+      "type": "wikipedia",
+      "title": "Duftpelargonien (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Duftpelargonien",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wikidata_odoratissimum",
+      "type": "wikidata",
+      "title": "Wikidata — Pelargonium odoratissimum (Q1391436)",
+      "url": "https://www.wikidata.org/wiki/Q1391436",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_pfaf_odoratissimum",
+      "type": "monograph",
+      "title": "Plants For A Future — Pelargonium odoratissimum",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Pelargonium+odoratissimum",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_kew_pelargonium_odoratissimum",
+      "type": "monograph",
+      "title": "Royal Botanic Gardens Kew — Plants of the World Online: Pelargonium odoratissimum (L.) L'Her.",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:677260-1",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_herbalreality_pelargonium",
+      "type": "monograph",
+      "title": "Herbal Reality — Scented Pelargonium (Pelargonium spp.) monograph",
+      "url": "https://www.herbalreality.com/herb/rose-geranium/",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_lalli_pelargonium_chemistry",
+      "type": "monograph",
+      "title": "Lalli J.Y.Y., Viljoen A.M., Baser K.H.C., Demirci B., Oezek T. (2008) — The essential oil composition and chemotaxonomical appraisal of South African Pelargoniums (Geraniaceae). Journal of Essential Oil Research 20(2): 152-160.",
+      "url": "https://doi.org/10.1080/10412905.2008.9699979",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_scented_geranium",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Scented Geranium (Pelargonium sp.) toxicity in dogs and cats",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/scented-geranium",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -117,5 +379,131 @@
         "Fresh leaves in salads or as tea."
       ]
     }
-  }
+  },
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (Apfel-Geranien-Öl)",
+      "category": "essential_oil",
+      "percent_range": "0.1-0.3 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Wasserdampfdestillat aus frischen Blättern. Im Vergleich zum klassischen Geranium-Bourbon-Öl aus P. graveolens ist das Profil von P. odoratissimum durch höhere Ester-Anteile (Citronellyl-Formiat) geprägt — daher der charakteristische apfelige Top-Note-Eindruck. Hauptbestandteile: Citronellol, Geraniol, Linalool und Isomenthon.",
+        "en": "Steam distillate from fresh leaves. Compared to the classical geranium Bourbon oil from P. graveolens, the P. odoratissimum profile is dominated by higher ester levels (citronellyl formate) — giving the characteristic apple-like top note. Main components: citronellol, geraniol, linalool and isomenthone."
+      }
+    },
+    {
+      "name": "citronellol",
+      "category": "essential_oil",
+      "percent_range": "15-35 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Monoterpenalkohol — Hauptbestandteil. Verantwortlich für den rosig-zitronigen Untergrund, antimikrobielle Wirkung und Mückenabwehr. EU-deklarationspflichtiger Duftstoff-Allergen.",
+        "en": "Monoterpene alcohol — main component. Responsible for the rose-citrus undertone, antimicrobial activity and mosquito-repellent effect. EU-declarable fragrance allergen."
+      }
+    },
+    {
+      "name": "geraniol",
+      "category": "essential_oil",
+      "percent_range": "8-20 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Zweite Leitsubstanz. Süßlich-rosiger Duft, antioxidativ, antimikrobiell und mild entzündungshemmend. EU-deklarationspflichtiger Allergen.",
+        "en": "Second leading substance. Sweet rosy scent, antioxidant, antimicrobial and mildly anti-inflammatory. EU-declarable allergen."
+      }
+    },
+    {
+      "name": "linalool",
+      "category": "essential_oil",
+      "percent_range": "3-12 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Monoterpenalkohol mit beruhigender, leicht angstlösender Wirkung — wirkt synergistisch mit Citronellol. EU-deklarationspflichtiger Duftstoff-Allergen.",
+        "en": "Monoterpene alcohol with calming, mildly anxiolytic effect — acts synergistically with citronellol. EU-declarable fragrance allergen."
+      }
+    },
+    {
+      "name": "isomenthone",
+      "category": "essential_oil",
+      "percent_range": "2-10 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Monoterpen-Keton; trägt eine leicht minzig-frische Note bei. In Pelargonium-odoratissimum-Studien regelmäßig als Begleitstoff nachgewiesen.",
+        "en": "Monoterpene ketone; contributes a mildly minty-fresh note. Consistently reported as accompanying compound in Pelargonium odoratissimum studies."
+      }
+    },
+    {
+      "name": "citronellyl formate",
+      "category": "essential_oil",
+      "percent_range": "3-8 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Estriger Begleitstoff — verleiht dem Öl die fruchtig-apfelige Top-Note, die P. odoratissimum von der rosigeren P. graveolens unterscheidet. Trägt zur entspannenden Aromatherapie-Wirkung bei.",
+        "en": "Ester accompanying compound — gives the oil its fruity-apple top note that distinguishes P. odoratissimum from the rosier P. graveolens. Contributes to the relaxing aromatherapy effect."
+      }
+    },
+    {
+      "name": "flavonoids (quercetin, kaempferol glycosides)",
+      "category": "flavonoid",
+      "percent_range": "Spuren-1 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Polyphenolische Begleitstoffe, vor allem in wässrigen Tee-Auszügen extrahierbar — antioxidative und mild entzündungshemmende Wirkung; relevant für die innerliche Tee-Anwendung.",
+        "en": "Polyphenolic accompanying compounds, primarily extracted in aqueous tea preparations — antioxidant and mildly anti-inflammatory; relevant for internal tea use."
+      }
+    },
+    {
+      "name": "condensed tannins",
+      "category": "tannin",
+      "percent_range": "2-4 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Adstringierende Polyphenole — typisch für Pelargonium-Blätter; tragen zur leicht zusammenziehenden Wirkung von Tee und Umschlägen bei und sind teilweise mitverantwortlich für die volksmedizinische Anwendung bei Durchfall und Mund-/Hautirritation.",
+        "en": "Astringent polyphenols — typical of Pelargonium leaves; contribute to the slightly puckering effect of tea and compresses and are partly responsible for the folk-medicinal use against diarrhoea and mouth/skin irritation."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Am frühen Vormittag bei trockenem Wetter, sobald der Tau abgetrocknet ist und vor der großen Mittagshitze — dann ist der Gehalt an ätherischem Öl und damit das Apfel-Aroma am höchsten. Blütenlose Triebe bevorzugen.",
+        "en": "Early morning in dry weather once the dew has dried and before midday heat — essential-oil content and apple aroma are then highest. Prefer non-flowering shoots."
+      },
+      "drying": {
+        "de": "Blätter und beblätterte Triebe in dünner Schicht auf Tüchern oder Gitterhorden in einem warmen, luftigen, schattigen Raum trocknen (max. 35 °C). Direkte Sonne meiden — die fruchtige Apfel-Note geht sonst rasch verloren. Nach dem Trocknen luftdicht in dunklen Glasdosen lagern.",
+        "en": "Spread leaves and leafy shoots in a thin layer on cloths or mesh racks in a warm, airy, shaded room (max 35 °C). Avoid direct sunlight — the fruity apple note is otherwise quickly lost. After drying, store airtight in dark glass jars."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "In dunklen, fest schließenden Glas- oder Blechgefäßen kühl und trocken aufbewahren. Das fruchtige Apfel-Aroma verflüchtigt sich schneller als bei der rosigeren P. graveolens — innerhalb von 6 Monaten verbrauchen, frisch ist deutlich aromatischer.",
+        "en": "Store in dark, tightly closed glass or tin containers, cool and dry. The fruity apple aroma evaporates faster than the rosier P. graveolens — use within 6 months, fresh is noticeably more aromatic."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Zur Vollblüte (Juli bis August in Mitteleuropa) bei sonnigem, trockenem Wetter am frühen Vormittag — für Hausdestillation sind frische, beblätterte Triebe mit Blütenständen ideal.",
+        "en": "At full flowering (July to August in Central Europe) on sunny, dry weather in the early morning — for home distillation, fresh leafy shoots with flower stalks are ideal."
+      },
+      "drying": {
+        "de": "Beblätterte blühende Triebe in kleinen Bündeln kopfüber im Schatten trocknen oder zur sofortigen Wasserdampfdestillation verarbeiten — frisch verarbeitet ist die Ausbeute höher.",
+        "en": "Hang leafy flowering shoots in small bundles upside down in the shade, or process immediately by steam distillation — fresh material gives a higher yield."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Destilliertes ätherisches Öl in dunklen 5-10 ml Tropfflaschen, lichtgeschützt und kühl (Kühlschrank) — bis zu 12 Monate stabil.",
+        "en": "Store distilled essential oil in dark 5-10 ml dropper bottles, protected from light and cool (refrigerator) — stable up to 12 months."
+      }
+    }
+  ]
 }

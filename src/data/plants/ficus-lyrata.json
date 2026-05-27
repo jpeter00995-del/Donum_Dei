@@ -22,16 +22,93 @@
     {
       "form": "raw",
       "target": [
+        "ornamental",
+        "wellbeing"
+      ],
+      "internal_external": "external",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Die Geigenfeige (Ficus lyrata) ist eine der populärsten dekorativen Zimmerpflanzen der letzten Jahre. Ihre auffällig großen, geigenförmigen Blätter mit hellen Adern verleihen Wohnräumen, Büro- und Galeriearchitektur einen markanten, skulpturalen Akzent. Seit etwa 2014 gilt sie als 'Instagram-Liebling' der Interior-Szene. Lebende Zimmerpflanzen werden seit langem mit einem positiven Einfluss auf das subjektive Wohlbefinden in Innenräumen in Verbindung gebracht (Biophilia-Konzept); spezifische klinische Belege für F. lyrata existieren nicht.",
+        "en": "The fiddle-leaf fig (Ficus lyrata) is one of the most popular decorative houseplants of recent years. Its strikingly large, violin-shaped leaves with pale veins give living spaces, offices and gallery architecture a bold, sculptural accent. Since around 2014 it has been an 'Instagram darling' of the interior design scene. Living houseplants have long been associated with a positive influence on subjective wellbeing indoors (the biophilia concept); specific clinical evidence for F. lyrata does not exist."
+      },
+      "source_ids": [
+        "src_wp_en_ficus_lyrata",
+        "src_wp_de_geigenfeige",
+        "src_rhs_ficus_lyrata"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "low_maintenance",
         "ornamental"
       ],
       "internal_external": "external",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
       "description": {
-        "de": "Die Geigenfeige wird vor allem als dekorative Zimmerpflanze geschätzt. Ihre großen, skulpturalen Blätter machen sie zu einem markanten Gestaltungselement in Wohnräumen, Büros und öffentlichen Gebäuden. Sie bevorzugt helle, zugluftfreie Standorte und gilt als anspruchsvollere Zimmerpflanze.",
-        "en": "Ficus lyrata is valued primarily as a decorative houseplant. Its large, sculptural leaves make it a striking design element in living spaces, offices, and public buildings. It prefers bright, draught-free locations and is considered a more demanding houseplant."
+        "de": "Trotz ihres Rufes als 'pflegeleichte' Büro- und Wohnzimmerpflanze ist die Geigenfeige tatsächlich eher anspruchsvoll ('notorisch zickig'): Sie braucht einen sehr hellen, stabilen Standort ohne Zugluft, gleichmäßige Feuchte ohne Staunässe und reagiert auf Standortwechsel oder Stress häufig mit Blattabwurf. Einmal eingewöhnt, kommt sie über Wochen mit wenig Eingriffen aus und kann mehrere Meter hoch werden. Sie eignet sich daher für Halter, die bereit sind, einen festen Standort und ein konstantes Pflege-Schema zu etablieren.",
+        "en": "Despite its reputation as a 'low-maintenance' office and living-room plant, the fiddle-leaf fig is in fact notoriously fussy: it needs a very bright, stable position out of draughts, evenly moist (not waterlogged) soil, and frequently responds to relocation or stress by dropping leaves. Once acclimatised, however, it tolerates long stretches with little intervention and can grow several metres tall. It therefore suits owners willing to establish a fixed location and a consistent care routine."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src_wp_en_ficus_lyrata",
+        "src_rhs_ficus_lyrata",
+        "src_useful_tropical_plants"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ethnobotany"
+      ],
+      "internal_external": "external",
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Im natürlichen Verbreitungsgebiet (tropisches Westafrika von Sierra Leone und Kamerun bis Angola und in das Kongobecken) wächst Ficus lyrata in den Tieflandregenwäldern als bis zu 12-15 m hoher Baum. Wie viele andere afrikanische Ficus-Arten beginnt sie häufig als Epiphyt auf einem Wirtsbaum und entwickelt später ein würgendes Wurzelgeflecht ('Würgefeige'). In Teilen ihres Heimatgebietes wird sie als Schatten- und Zierbaum kultiviert; ethnobotanische Quellen für Westafrika ordnen die Art zur Gruppe der ornamentalen und gelegentlich als lokales Bauholz genutzten Feigen.",
+        "en": "In its native range (tropical western Africa from Sierra Leone and Cameroon to Angola and the Congo basin) Ficus lyrata grows in lowland rainforests as a tree up to 12-15 m tall. Like many other African Ficus species, it often begins as an epiphyte on a host tree and later develops a strangling root network ('strangler fig'). In parts of its native area it is grown as a shade and ornamental tree; West African ethnobotanical sources place it among the ornamental figs and report occasional use of the wood as local timber."
+      },
+      "source_ids": [
+        "src_wp_en_ficus_lyrata",
+        "src_useful_tropical_plants",
+        "src_kew_pow_ficus_lyrata"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Der milchige weiße Latex, der beim Verletzen von Blättern oder Trieben austritt, kann auf empfindlicher Haut Reizungen und allergische Kontaktdermatitis auslösen. Für den nahe verwandten Ficus benjamina ist eine Kreuzreaktivität mit Naturlatex (Hevea brasiliensis) gut dokumentiert; für F. lyrata existieren keine spezifischen kontrollierten Studien, eine analoge Vorsicht ist jedoch sinnvoll, insbesondere bei Latex-Allergikern. Bei der Pflege (Rückschnitt, Umtopfen) Handschuhe tragen und Saftspritzer von Haut und Augen fernhalten.",
+        "en": "The milky white latex that exudes from cut leaves or shoots can irritate sensitive skin and trigger allergic contact dermatitis. Cross-reactivity with natural latex (Hevea brasiliensis) is well documented for the closely related Ficus benjamina; for F. lyrata no specific controlled studies exist, but an analogous precaution is reasonable, especially in latex-allergic individuals. When tending the plant (pruning, repotting) wear gloves and keep sap away from skin and eyes."
+      },
+      "source_ids": [
+        "src_wp_en_ficus_lyrata",
+        "src_wp_de_geigenfeige",
+        "src_aspca_ficus"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Die ungewöhnliche Blattform ist namensgebend: lateinisch lyratus = leierförmig, deutsch 'Geigenfeige', englisch 'fiddle-leaf fig'. Die ledrigen Blätter werden bis zu 45 cm lang und 30 cm breit, sind im oberen Drittel verbreitert und in der Mitte schmal eingezogen, sodass sie an die Silhouette einer Geige oder Leier erinnern. In der Innenarchitektur werden einzelne, gut belaubte Exemplare gezielt als Solitär-Akzent ('Statement plant') in Wohnzimmern, Fluren und Foyers eingesetzt.",
+        "en": "The unusual leaf shape gives the plant its name: Latin lyratus = lyre-shaped, German 'Geigenfeige', English 'fiddle-leaf fig'. The leathery leaves grow up to 45 cm long and 30 cm wide, are broadened in the upper third and constricted in the middle, resembling the silhouette of a fiddle or lyre. In interior design, well-foliaged individual specimens are deliberately used as a 'statement plant' in living rooms, hallways and lobbies."
+      },
+      "source_ids": [
+        "src_wp_en_ficus_lyrata",
+        "src_wp_de_geigenfeige",
+        "src_rhs_ficus_lyrata"
       ]
     }
   ],
@@ -57,12 +134,44 @@
   },
   "safety": {
     "warnings": {
-      "de": "REIZEND: Der milchige Pflanzensaft (Latex) kann bei Hautkontakt Reizungen und allergische Reaktionen verursachen. Giftig bei Verschlucken. Für Hunde und Katzen giftig. Bei der Pflege Handschuhe tragen.",
-      "en": "IRRITANT: The milky plant sap (latex) can cause skin irritation and allergic reactions on contact. Toxic if ingested. Toxic to dogs and cats. Wear gloves when handling."
+      "de": "Der milchig-weiße Latex (Pflanzensaft) tritt beim Verletzen aller oberirdischen Pflanzenteile aus und kann Hautreizungen, allergische Kontaktdermatitis und (bei besonnter Haut) phototoxische Reaktionen auslösen. Verschlucken kann zu Reizung von Mund, Speiseröhre und Magen-Darm-Trakt führen. Für Hunde, Katzen und Pferde gilt die Art nach ASPCA-Listung als toxisch (gastrointestinale Reizung, Hypersalivation). Beim Schneiden oder Umtopfen Handschuhe tragen; Saft nicht in Augen oder offene Wunden bringen.",
+      "en": "The milky white latex (plant sap) exudes from any cut above-ground part and can cause skin irritation, allergic contact dermatitis and (on sun-exposed skin) phototoxic reactions. Ingestion can cause irritation of mouth, oesophagus and gastrointestinal tract. The species is listed by the ASPCA as toxic to dogs, cats and horses (gastrointestinal irritation, hypersalivation). Wear gloves when pruning or repotting; keep sap out of eyes and open wounds."
     },
     "external_only": true,
     "toxicity_level": "caution",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten zur Sicherheit in der Schwangerschaft, da F. lyrata keine arzneilich genutzte Pflanze ist. Bei Pflegearbeiten Hautkontakt mit dem Latex vorsorglich vermeiden.",
+        "en": "No safety data during pregnancy, as F. lyrata is not a medicinally used plant. As a precaution, avoid skin contact with the latex when handling the plant."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten; nicht zur innerlichen Anwendung bestimmt.",
+        "en": "No data; not intended for internal use."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Pflanze für Kleinkinder unzugänglich aufstellen. Verschlucken von Blattstücken kann Mund- und Magen-Darm-Reizungen verursachen; Latex an Haut oder im Auge kann brennen und Rötungen auslösen.",
+        "en": "Keep out of reach of small children. Swallowing leaf fragments can cause oral and gastrointestinal irritation; latex on skin or in the eye can sting and cause redness."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bei bekannter Naturlatex-Allergie (z. B. Reaktion auf Hevea-Produkte) oder dokumentierter Sensibilisierung gegen andere Ficus-Arten (insbesondere F. benjamina) sollte direkter Hautkontakt mit Saft und Blättern gemieden werden.",
+        "en": "Individuals with a known natural-latex allergy (e.g. reactions to Hevea products) or documented sensitisation to other Ficus species (especially F. benjamina) should avoid direct skin contact with sap and leaves."
+      },
+      {
+        "de": "Keine innerliche Anwendung: Es gibt keine etablierte heilkundliche Verwendung von Ficus lyrata.",
+        "en": "No internal use: there is no established medicinal use of Ficus lyrata."
+      }
+    ],
+    "drug_interactions": []
   },
   "classical_quotes": [],
   "sources": [
@@ -86,6 +195,62 @@
       "title": "Ficus lyrata (Wikidata Q159856)",
       "url": "https://www.wikidata.org/wiki/Q159856",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wp_en_ficus_lyrata",
+      "type": "wikipedia",
+      "title": "Ficus lyrata (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Ficus_lyrata",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wp_de_geigenfeige",
+      "type": "wikipedia",
+      "title": "Geigenfeige (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Geigenfeige",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wikidata_ficus_lyrata",
+      "type": "wikidata",
+      "title": "Ficus lyrata (Wikidata Q159856)",
+      "url": "https://www.wikidata.org/wiki/Q159856",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_kew_pow_ficus_lyrata",
+      "type": "monograph",
+      "title": "Ficus lyrata Warb. — Plants of the World Online, Royal Botanic Gardens, Kew",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:852957-1",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_useful_tropical_plants",
+      "type": "monograph",
+      "title": "Ficus lyrata — Useful Tropical Plants Database (Ken Fern)",
+      "url": "https://tropical.theferns.info/viewtropical.php?id=Ficus+lyrata",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_rhs_ficus_lyrata",
+      "type": "monograph",
+      "title": "Ficus lyrata fiddle-leaf fig — Royal Horticultural Society Plant Finder",
+      "url": "https://www.rhs.org.uk/plants/6817/ficus-lyrata/details",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_ficus",
+      "type": "monograph",
+      "title": "Fiddle-Leaf Fig (Ficus lyrata) — ASPCA Toxic and Non-Toxic Plant List",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fiddle-leaf",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_commons_ficus_lyrata",
+      "type": "commons",
+      "title": "Category:Ficus lyrata — Wikimedia Commons (photographs and botanical illustrations)",
+      "url": "https://commons.wikimedia.org/wiki/Category:Ficus_lyrata",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -132,5 +297,117 @@
         "Wipe leaves regularly with a damp cloth so the plant can absorb light optimally."
       ]
     }
-  }
+  },
+  "constituents": [
+    {
+      "name": "Latex (milky sap, Gummi-Harz-Emulsion)",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Wie alle Ficus-Arten enthält F. lyrata in Blättern, Trieben und Rinde ein weißes Milchsaft-System aus Polyisopren-Kautschuk, Harzen, Wachsen, proteolytischen Enzymen (Ficine) und sekundären Pflanzenstoffen. Der Latex dient der Wundabdichtung und Fraßabwehr und ist Auslöser der typischen Hautreizungen und allergischen Reaktionen.",
+        "en": "Like all Ficus species, F. lyrata contains a white latex system in leaves, shoots and bark composed of polyisoprene rubber, resins, waxes, proteolytic enzymes (ficins) and secondary metabolites. The latex serves to seal wounds and deter herbivores and is the main trigger of the typical skin irritation and allergic reactions."
+      }
+    },
+    {
+      "name": "Furocoumarine (Psoralen-Typ)",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Aus dem Latex anderer Ficus-Arten (insbesondere F. carica und verwandter Arten) sind lineare Furocoumarine wie Psoralen und Bergapten bekannt; sie wirken in Kombination mit UV-A-Licht phototoxisch und können die sogenannte 'Feigenbaum-Dermatitis' (phyto-photodermatitis) verursachen. Spezifische Quantifizierungen für F. lyrata sind in der Literatur kaum publiziert; analoge Vorsicht bei Hautkontakt mit Saft in der Sonne ist sinnvoll.",
+        "en": "Linear furocoumarins such as psoralen and bergapten are known from the latex of other Ficus species (notably F. carica and relatives); in combination with UV-A light they are phototoxic and can cause the so-called 'fig-tree dermatitis' (phyto-photodermatitis). Specific quantitative data for F. lyrata are scarcely published; analogous caution about sap contact on sun-exposed skin is reasonable."
+      }
+    },
+    {
+      "name": "Phorbolester (Diterpenester) und verwandte Diterpenoide",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Für mehrere Vertreter der Gattung Ficus sind reizende Diterpenester (vom Phorbol- bzw. Tigliantyp) im Latex beschrieben. Sie tragen vermutlich gemeinsam mit den Furocoumarinen und proteolytischen Enzymen zur reizenden Wirkung auf Haut und Schleimhäute bei. Direkte chemische Studien speziell zu F. lyrata sind selten; die Zuordnung erfolgt analog zur Gattungschemie.",
+        "en": "Irritant diterpene esters of the phorbol or tigliane type have been described in the latex of several Ficus species. Together with furocoumarins and proteolytic enzymes they probably contribute to the irritant effect on skin and mucosa. Direct chemical studies on F. lyrata specifically are rare; the attribution is by analogy with the genus chemistry."
+      }
+    },
+    {
+      "name": "Ficin (cysteine protease, ficain)",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Cysteinprotease aus dem Milchsaft, charakteristisch für die Gattung Ficus. Sie spaltet Proteine und ist mitverantwortlich für Haut- und Schleimhautreizungen sowie für Kreuzreaktionen mit Naturlatex-Allergenen (Hevein-Familie).",
+        "en": "Cysteine protease in the milky sap, characteristic of the genus Ficus. It cleaves proteins and is partly responsible for skin and mucosal irritation as well as for cross-reactions with natural-latex allergens (hevein family)."
+      }
+    },
+    {
+      "name": "Triterpene und Sterole (z. B. Lupeol, beta-Sitosterol)",
+      "category": "other",
+      "plant_part": "bark",
+      "note": {
+        "de": "Für die Rinde und Blätter verschiedener Ficus-Arten sind Triterpene wie Lupeol, Beta-Amyrin und phytosteroidale Komponenten wie Beta-Sitosterol als typische Begleitstoffe nachgewiesen. Für F. lyrata gilt diese Zuordnung analog zur Gattungschemie; quantitative Phytochemie ist noch wenig publiziert.",
+        "en": "Triterpenes such as lupeol and beta-amyrin and phytosterols such as beta-sitosterol have been reported as typical accompanying compounds in the bark and leaves of various Ficus species. The attribution to F. lyrata is by analogy with the genus chemistry; quantitative phytochemistry is still sparsely published."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin- und Kämpferol-Derivate)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Blätter der Gattung Ficus enthalten typischerweise Quercetin- und Kämpferol-Glykoside als sekundäre Pflanzenstoffe mit antioxidativen Eigenschaften. Spezifische Quantifizierung für F. lyrata-Blätter liegt nur in wenigen Studien vor.",
+        "en": "Leaves of the genus Ficus typically contain quercetin and kaempferol glycosides as secondary metabolites with antioxidant properties. Specific quantification for F. lyrata leaves has been reported in only a few studies."
+      }
+    },
+    {
+      "name": "Calciumoxalat-Kristalle",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Kleine Kristalle aus Calciumoxalat (Druse- und Raphiden-Typ) finden sich in den Blattgeweben vieler Moraceae und tragen mechanisch zu Reizungen bei Verzehr durch Haustiere bei. Sie sind nicht der Hauptgrund der Hautreaktionen (das ist der Latex), erklären aber die orale Reizung bei Hund und Katze.",
+        "en": "Small calcium oxalate crystals (druse and raphide type) are found in the leaf tissues of many Moraceae and contribute mechanically to irritation when chewed by pets. They are not the main cause of skin reactions (that is the latex) but explain the oral irritation in dogs and cats."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        3,
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Es handelt sich um eine reine Indoor-Zierpflanze ohne Ernte-Zweck. Die hier angegebenen Monate beziehen sich auf Pflegemaßnahmen, die im Frühling stattfinden sollten, wenn die Pflanze in die aktive Wachstumsphase eintritt: Umtopfen, Rückschnitt zur Verzweigung und Stecklinge für die Vermehrung.",
+        "en": "This is a pure indoor ornamental with no harvest purpose. The months given here refer to care operations that should be carried out in spring, when the plant enters its active growth phase: repotting, pruning to encourage branching, and taking cuttings for propagation."
+      },
+      "drying": {
+        "de": "Nicht trocknen. Beim Rückschnitt: scharfe, desinfizierte Schere verwenden, Handschuhe tragen, da der austretende Latex Haut- und Schleimhautreizungen verursachen kann. Schnittflächen mit lauwarmem Wasser abspülen; Stecklinge mit ca. 2-3 Blattknoten können in Wasser oder feuchtem Substrat bewurzelt werden.",
+        "en": "Do not dry. When pruning: use sharp, disinfected secateurs and wear gloves, as the exuding latex can cause skin and mucosal irritation. Rinse cut surfaces with lukewarm water; cuttings of about 2-3 leaf nodes can be rooted in water or moist substrate."
+      },
+      "storage_condition": {
+        "de": "Lebende Pflanze ganzjährig im Innenraum halten; sie verträgt keine Temperaturen unter etwa 10 °C und kein direktes Frieren. In Mitteleuropa und Bulgarien daher ausschließlich Wohnraum- oder Wintergarten-Kultur.",
+        "en": "Keep the living plant indoors year-round; it does not tolerate temperatures below about 10 °C and no freezing. In Central Europe and Bulgaria therefore only indoor or conservatory cultivation."
+      }
+    },
+    {
+      "plant_part": "bark",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "Im Heimatgebiet (tropisches Westafrika) wird das Holz ausgewachsener, in der Natur gefällter Bäume gelegentlich als lokales Bau- und Werkholz oder für Schnitzarbeiten genutzt. Es gibt keine kommerzielle Forstwirtschaft mit F. lyrata; die Nutzung erfolgt subsistenzwirtschaftlich und ist ganzjährig möglich.",
+        "en": "In its native range (tropical western Africa) the wood of mature, naturally felled trees is occasionally used as local construction and utility timber or for carving. There is no commercial forestry of F. lyrata; use is at subsistence level and possible year-round."
+      },
+      "drying": {
+        "de": "Rinde und Holz werden im Heimatgebiet im Schatten luftgetrocknet. In Europa nicht relevant — F. lyrata wird hier ausschließlich als Zimmerpflanze gehalten.",
+        "en": "Bark and wood are air-dried in the shade in the native region. Not relevant in Europe — F. lyrata is grown there exclusively as a houseplant."
+      }
+    }
+  ]
 }

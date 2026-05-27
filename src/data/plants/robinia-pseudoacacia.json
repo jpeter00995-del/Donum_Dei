@@ -20,18 +20,122 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "form": "raw",
       "target": [
-        "caution"
+        "nutrition"
       ],
-      "internal_external": "external",
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Die intensiv duftenden, weißen Blütentrauben werden im Mai/Juni geerntet und traditionell als 'Akazienküchle' oder italienisch 'fritti di acacia' in Bierteig oder Pfannkuchenteig frittiert. Auch als Sirup oder zum Aromatisieren von Zucker und Likören verwendet. Nur die voll geöffneten Blüten verwenden - Stiele, Blätter, Rinde und Samen sind giftig (Robin/Robinin).",
+        "en": "The intensely fragrant white flower clusters are harvested in May/June and traditionally deep-fried in beer or pancake batter as 'Akazienkuechle' or Italian 'fritti di acacia'. Also used for syrup or for flavouring sugar and liqueurs. Only fully opened flowers are used - stems, leaves, bark and seeds are toxic (robin/robinin)."
+      },
+      "preparation": {
+        "de": "Voll geöffnete, frische Blütentrauben am Vormittag bei trockenem Wetter ernten. Kurz schütteln (Insekten), nicht waschen (zerstört Aroma). In Pfannkuchenteig tauchen, in heißem Fett goldgelb ausbacken, mit Puderzucker bestreuen. Keine Stiele/Blätter mitverwenden. Roh wegen leichter Magenirritation nicht empfehlenswert.",
+        "en": "Harvest fully opened fresh flower clusters in the morning in dry weather. Shake briefly (insects), do not wash (destroys aroma). Dip in pancake batter, deep-fry in hot fat until golden, dust with icing sugar. Do not include stems/leaves. Raw consumption is not recommended due to mild gastric irritation."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src_wikipedia_de_robinie",
+        "src_pfaf_robinia"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "pollinator_attractor"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Die Robinie ist die wichtigste Nektartracht für den sogenannten 'Akazienhonig' - botanisch eigentlich Robinienhonig, da die echte Akazie (Acacia) eine andere Gattung ist. Der Honig ist hell, mild, flüssig (kristallisiert sehr langsam wegen hohem Fruktoseanteil) und gilt als hochwertige Imkereitracht. Pro Hektar Robinienbestand sind bei guter Witterung 500-1000 kg Honig möglich.",
+        "en": "Robinia is the most important nectar source for so-called 'acacia honey' - botanically actually black-locust honey, since true acacia (Acacia) is a different genus. The honey is pale, mild, liquid (crystallises very slowly due to high fructose content) and is regarded as a premium beekeeping product. Yields of 500-1000 kg honey per hectare of Robinia stand are possible in good weather."
+      },
+      "preparation": {
+        "de": "Indirekte Nutzung über Bienenvolk. Wanderimkerei: Völker zur Blütezeit (Ende Mai bis Mitte Juni) an Robinien-Bestände stellen. Die Blüte dauert nur 8-14 Tage und ist witterungsempfindlich (Kälte/Regen bricht die Tracht ab).",
+        "en": "Indirect use via honey bees. Migratory beekeeping: place colonies at Robinia stands during flowering (late May to mid-June). Flowering lasts only 8-14 days and is weather-sensitive (cold/rain ends the nectar flow)."
+      },
+      "source_ids": [
+        "src_wikipedia_de_robinie",
+        "src_wikipedia_en_blacklocust",
+        "src_pfaf_robinia"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental",
+        "shade"
+      ],
+      "internal_external": "external",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Im Park- und Straßenbaumbau seit dem 17. Jahrhundert (Einführung in Europa 1601 durch Jean Robin, Hofgärtner Heinrich IV.) als robuster, schnellwachsender Schattenspender, trocken- und stadtklimaverträglich. Sorten wie 'Umbraculifera' (Kugel-Robinie) und 'Frisia' (gelblaubig) sind etablierte Straßenbäume. Achtung: Wurzelausschläge und invasives Verhalten in naturnahen Gebieten.",
+        "en": "Used in park and street-tree planting since the 17th century (introduced to Europe in 1601 by Jean Robin, court gardener to Henry IV) as a robust, fast-growing shade tree tolerant of drought and urban climate. Cultivars such as 'Umbraculifera' (mop-head locust) and 'Frisia' (yellow-leaved) are established street trees. Caution: root suckers and invasive behaviour in semi-natural areas."
+      },
+      "source_ids": [
+        "src_wikipedia_de_robinie",
+        "src_wikipedia_en_blacklocust",
+        "src_cabi_robinia"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "timber",
+        "construction"
+      ],
+      "internal_external": "external",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Robinienholz ist außerordentlich hart, schwer und dauerhaft (Dauerhaftigkeitsklasse 1-2 nach EN 350, vergleichbar mit Teak oder Eiche). Klassische Verwendung: Weinbergpfähle, Zaunpfosten, Eisenbahnschwellen (historisch), Bootsbau, Werkzeugstiele, Spielplatzgeräte und Außenmöbel. Gilt als nachhaltige europäische Hartholz-Alternative zu Tropenhölzern (FSC-zertifizierte Plantagen in Ungarn, Rumänien).",
+        "en": "Black-locust timber is exceptionally hard, heavy and durable (durability class 1-2 per EN 350, comparable to teak or oak). Classical uses: vineyard stakes, fence posts, railway sleepers (historically), boat building, tool handles, playground equipment and outdoor furniture. Considered a sustainable European hardwood alternative to tropical timbers (FSC-certified plantations in Hungary, Romania)."
+      },
+      "source_ids": [
+        "src_wikipedia_de_robinie",
+        "src_wikipedia_en_blacklocust",
+        "src_pfaf_robinia"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "soil_improvement",
+        "reforestation"
+      ],
+      "internal_external": "external",
+      "plant_part": "root",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Als Schmetterlingsblütler lebt die Robinie in Symbiose mit Rhizobium-Bakterien in Wurzelknöllchen und fixiert Luftstickstoff (bis 100-300 kg N/ha/Jahr). Wurde historisch zur Aufforstung erosionsgefährdeter Böden, Bergbauhalden und magerer Standorte eingesetzt. Im Naturschutz heute kritisch bewertet: durch Stickstoffeintrag werden nährstoffarme, artenreiche Trockenrasen und Magerstandorte verdrängt.",
+        "en": "As a legume, Robinia lives in symbiosis with Rhizobium bacteria in root nodules and fixes atmospheric nitrogen (up to 100-300 kg N/ha/year). Historically used to reforest erosion-prone soils, mine spoils and nutrient-poor sites. Now critically assessed in nature conservation: nitrogen input displaces species-rich nutrient-poor dry grasslands and oligotrophic habitats."
+      },
+      "source_ids": [
+        "src_cabi_robinia",
+        "src_wikipedia_de_robinie",
+        "src_pfaf_robinia"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "toxicity_warning"
+      ],
+      "internal_external": "internal",
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Wichtiger volksmedizinischer und veterinärmedizinischer Hinweis: Rinde, Wurzeln, junge Triebe und Samen enthalten Robin (toxisches Lektin/Phasin, hitzelabil) und Robinin (Flavonol-Glykosid) sowie Wystin. Verzehr durch Mensch oder Tier (besonders Pferde, Rinder, Schweine, Kaninchen, Vögel) führt zu Erbrechen, blutigem Durchfall, Mydriasis, Schwäche, Kreislaufkollaps, Krampfanfällen. Pferdevergiftungen durch Naschen an Rinde oder durch Robinien-Späne in der Einstreu sind regelmäßig dokumentiert.",
+        "en": "Important folk-medicinal and veterinary note: bark, roots, young shoots and seeds contain robin (toxic lectin/phasin, heat-labile), robinin (flavonol glycoside) and wystin. Ingestion by humans or animals (especially horses, cattle, pigs, rabbits, birds) leads to vomiting, bloody diarrhoea, mydriasis, weakness, circulatory collapse and seizures. Horse poisonings from bark gnawing or Robinia shavings in bedding are regularly documented."
+      },
+      "source_ids": [
+        "src_wikipedia_de_robinie",
+        "src_giftpflanzen_robinie",
+        "src_efsa_robinia"
       ]
     }
   ],
@@ -47,12 +151,58 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG (Robin, Phasin) — Rinde, Samen und Blätter. Sehr verbreiteter Stadt- und Parkbaum, oft als „falsche Akazie\" bezeichnet. Die weißen Blüten sind essbar (für Sirup, Pancakes), aber Rinde und Samenhülsen sind toxisch — besonders für Pferde, die Rinde abnagen. Kinder kauen manchmal die Hülsen — sollten unterbunden werden.",
-      "en": "TOXIC (robin, phasin) — bark, seeds and leaves. Very common urban and park tree, often called 'false acacia'. The white flowers are edible (for syrup, pancakes), but bark and seed pods are toxic — particularly for horses gnawing the bark. Children sometimes chew the pods — should be stopped."
+      "de": "Rinde, Wurzeln, junge Triebe, Blätter und Samen sind giftig (Lektin Robin/Phasin, Flavonol-Glykosid Robinin, Wystin). Nur die voll geöffneten Blüten gelten in der Volksküche als verzehrbar - und das nur frittiert oder anderweitig erhitzt, nicht roh. Sämlinge und Schösslinge nicht mit essbaren Wildkräutern verwechseln. Holz-Späne, Sägemehl, Hackschnitzel und Laub von Robinien nicht in Pferde-, Rinder- oder Kaninchenställen verwenden - bereits geringe Mengen Rinde können tödlich sein. Kinder über Toxizität aufklären - die süßen, erbsenähnlichen Hülsen sind besonders verlockend.",
+      "en": "Bark, roots, young shoots, leaves and seeds are toxic (lectin robin/phasin, flavonol glycoside robinin, wystin). Only fully opened flowers are considered edible in folk cuisine - and only deep-fried or otherwise heated, not raw. Do not confuse seedlings/suckers with edible wild greens. Do not use wood shavings, sawdust, wood chips or fallen leaves of Robinia in horse, cattle or rabbit stables - even small amounts of bark can be lethal. Educate children about toxicity - the sweet pea-like pods are particularly tempting."
     },
-    "external_only": true,
+    "external_only": false,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Keine therapeutische Anwendung von Rinden- oder Samenpräparaten in der Schwangerschaft (toxische Lektine). Frittierte Blütenküchle in haushaltsüblicher Menge gelten als unbedenklich, dennoch zurückhaltend.",
+        "en": "No therapeutic use of bark or seed preparations in pregnancy (toxic lectins). Deep-fried flower fritters in household amounts are considered safe, but moderation is advised."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Blütenzubereitungen in Küchenmengen unbedenklich. Keine Rinden-/Samenpräparate. Daten zur Stillzeit unzureichend.",
+        "en": "Flower preparations in culinary amounts are safe. No bark/seed preparations. Data on lactation insufficient."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Kinder besonders gut über Giftigkeit von Rinde, Blütentrieben und Samenhülsen aufklären. Die Hülsen ähneln Erbsen oder Bohnen und werden im Spiel häufig in den Mund genommen - dokumentierte Vergiftungsfälle in der pädiatrischen Literatur. Frittierte Blüten in kleinen Mengen unbedenklich.",
+        "en": "Educate children thoroughly about toxicity of bark, flower shoots and seed pods. The pods resemble peas or beans and are frequently put in the mouth during play - documented poisoning cases in paediatric literature. Deep-fried flowers in small amounts are safe."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulanzien",
+        "mechanism": {
+          "de": "Theoretisches Risiko bei Verzehr größerer Mengen Blütenzubereitungen: Robinia-Inhaltsstoffe (Flavonoide, Robinin) können die Thrombozytenfunktion beeinflussen. Klinisch nicht systematisch untersucht.",
+          "en": "Theoretical risk with consumption of larger amounts of flower preparations: Robinia constituents (flavonoids, robinin) may affect platelet function. Not systematically studied clinically."
+        },
+        "severity": "monitor",
+        "source_id": "src_pfaf_robinia"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Innerliche Anwendung von Rinde, Samen, Wurzeln oder Blättern in jeder Form (Tee, Tinktur, Pulver) - toxische Lektine.",
+        "en": "Internal use of bark, seeds, roots or leaves in any form (tea, tincture, powder) - toxic lectins."
+      },
+      {
+        "de": "Verwendung als Pferde-, Rinder-, Schaf-, Ziegen-, Kaninchen- oder Vögelfutter; Robinien-Holzspäne/Sägemehl als Einstreu in Tierhaltung.",
+        "en": "Use as fodder for horses, cattle, sheep, goats, rabbits or birds; Robinia wood shavings/sawdust as bedding in animal husbandry."
+      },
+      {
+        "de": "Roher Verzehr der Blüten in größeren Mengen (leichte Magenirritation durch hitzelabile Bestandteile).",
+        "en": "Raw consumption of flowers in larger amounts (mild gastric irritation from heat-labile constituents)."
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -69,6 +219,62 @@
       "title": "Robinia pseudoacacia (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wikipedia_de_robinie",
+      "type": "wikipedia",
+      "title": "Gewöhnliche Robinie (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Robinie",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wikipedia_en_blacklocust",
+      "type": "wikipedia",
+      "title": "Robinia pseudoacacia (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wikidata_robinia",
+      "type": "wikidata",
+      "title": "Wikidata - Robinia pseudoacacia (Q158746)",
+      "url": "https://www.wikidata.org/wiki/Q158746",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_pfaf_robinia",
+      "type": "monograph",
+      "title": "Plants For A Future - Robinia pseudoacacia",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Robinia+pseudoacacia",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_cabi_robinia",
+      "type": "monograph",
+      "title": "CABI Invasive Species Compendium - Robinia pseudoacacia (black locust)",
+      "url": "https://www.cabidigitallibrary.org/doi/10.1079/cabicompendium.47698",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_giftpflanzen_robinie",
+      "type": "monograph",
+      "title": "Botanikus - Giftpflanze Robinie (Robinia pseudoacacia)",
+      "url": "https://www.botanikus.de/informatives/giftpflanzen/robinie/",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_efsa_robinia",
+      "type": "monograph",
+      "title": "EFSA Compendium of Botanicals - Robinia pseudoacacia L.",
+      "url": "https://www.efsa.europa.eu/en/data-report/compendium-botanicals",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_commons_robinia",
+      "type": "commons",
+      "title": "Wikimedia Commons - Category: Robinia pseudoacacia",
+      "url": "https://commons.wikimedia.org/wiki/Category:Robinia_pseudoacacia",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -80,5 +286,123 @@
     "license": "CC BY-SA 3.0",
     "author": "Pollinator at English Wikipedia",
     "source_url": "https://commons.wikimedia.org/wiki/File:Robina9146.JPG"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Robin (Phasin, toxisches Lektin)",
+      "category": "other",
+      "plant_part": "bark",
+      "note": {
+        "de": "Hitzelabiles toxisches Lektin (Phytohämagglutinin-Typ) in Rinde, Wurzeln und Samen. Hauptverantwortlich für die akute Toxizität: Agglutiniert rote Blutkörperchen, schädigt Darmschleimhaut, führt zu Erbrechen, blutigem Durchfall und Kreislaufkollaps. Wird durch längeres Kochen weitgehend zerstört.",
+        "en": "Heat-labile toxic lectin (phytohaemagglutinin type) in bark, roots and seeds. Mainly responsible for acute toxicity: agglutinates red blood cells, damages gut mucosa, leads to vomiting, bloody diarrhoea and circulatory collapse. Largely destroyed by prolonged cooking."
+      }
+    },
+    {
+      "name": "Robinin",
+      "category": "glycoside",
+      "plant_part": "flower",
+      "note": {
+        "de": "Flavonol-Glykosid (Kämpferol-3-O-robinosid-7-O-rhamnosid), namensgebend für die Robinie. Vorkommen in Blüten, Blättern und Rinde. Schwach diuretisch und in hohen Dosen toxisch.",
+        "en": "Flavonol glycoside (kaempferol-3-O-robinoside-7-O-rhamnoside), name-giving for Robinia. Found in flowers, leaves and bark. Mildly diuretic and toxic in high doses."
+      }
+    },
+    {
+      "name": "Wystin (Wistarin)",
+      "category": "glycoside",
+      "plant_part": "bark",
+      "note": {
+        "de": "Weiteres toxisches Glykosid in Rinde und Wurzeln, chemisch verwandt mit Robinin. Trägt zur Gesamttoxizität bei.",
+        "en": "Another toxic glycoside in bark and roots, chemically related to robinin. Contributes to overall toxicity."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Linalool, cis-Ocimen, Methylanthranilat)",
+      "category": "essential_oil",
+      "percent_range": "Spurenanteile",
+      "plant_part": "flower",
+      "note": {
+        "de": "Geringe Mengen ätherisches Öl mit Linalool, cis-Ocimen und Methylanthranilat sind für den intensiven, süßen, an Orangenblüte erinnernden Duft der weißen Blütentrauben verantwortlich. Lockt Honigbienen und Hummeln stark an.",
+        "en": "Small amounts of essential oil with linalool, cis-ocimene and methyl anthranilate are responsible for the intense, sweet, orange-blossom-like fragrance of the white flower clusters. Strongly attracts honeybees and bumblebees."
+      }
+    },
+    {
+      "name": "Flavonoide (Acaciin, Robinetin, Apigenin, Luteolin)",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Flavone und Flavonolglykoside in Blüten und Blättern mit antioxidativen Eigenschaften. Acaciin (Acacetin-Rutinosid) ist namensgebend für den volkstümlichen Bezug zur 'Akazie'.",
+        "en": "Flavones and flavonol glycosides in flowers and leaves with antioxidant properties. Acaciin (acacetin rutinoside) is name-giving for the colloquial reference to 'acacia'."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Robitannine)",
+      "category": "tannin",
+      "plant_part": "bark",
+      "note": {
+        "de": "Kondensierte Gerbstoffe (Robitannine, Catechingerbstoffe) in der Rinde sind unter anderem für die hohe Dauerhaftigkeit des Holzes mitverantwortlich (natürliche Holzkonservierung gegen Pilze und Fäulnis).",
+        "en": "Condensed tannins (robitannins, catechin tannins) in the bark contribute to the high durability of the timber (natural wood preservation against fungi and rot)."
+      }
+    },
+    {
+      "name": "Asparagin und freie Aminosäuren",
+      "category": "other",
+      "plant_part": "seed",
+      "note": {
+        "de": "Erhebliche Mengen Asparagin und andere freie Aminosäuren in Samen und jungen Geweben - Konsequenz der Stickstoff-Fixierung durch Rhizobium-Symbiose in den Wurzelknöllchen.",
+        "en": "Considerable amounts of asparagine and other free amino acids in seeds and young tissues - a consequence of nitrogen fixation by Rhizobium symbiosis in the root nodules."
+      }
+    },
+    {
+      "name": "Fructose (Honig-Bestandteil)",
+      "category": "other",
+      "plant_part": "flower",
+      "note": {
+        "de": "Der Nektar der Robinienblüte enthält einen vergleichsweise hohen Fruktoseanteil. Daraus resultiert der typisch flüssige, langsam kristallisierende 'Akazienhonig' mit hohem Fructose/Glucose-Verhältnis (ca. 1.4-1.7).",
+        "en": "Robinia flower nectar contains a comparatively high fructose share. This results in the characteristically liquid, slowly crystallising 'acacia honey' with a high fructose/glucose ratio (about 1.4-1.7)."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        5,
+        6
+      ],
+      "time_of_day": {
+        "de": "Am späten Vormittag bei trockenem, sonnigem Wetter, wenn der Tau abgetrocknet ist - dann ist das Blütenaroma am intensivsten. Nur voll geöffnete, weiße Blütentrauben (Stiele und Blätter entfernen).",
+        "en": "Late morning in dry, sunny weather once the dew has evaporated - flower aroma is then most intense. Only fully opened white flower clusters (remove stems and leaves)."
+      },
+      "drying": {
+        "de": "Frische Verarbeitung empfohlen (Frittieren am Tag der Ernte). Bei Trocknung locker auf Tüchern ausbreiten, schattig und luftig, max. 35 Grad C. Getrocknete Blüten verlieren rasch an Aroma.",
+        "en": "Fresh processing recommended (deep-fry on the day of harvest). For drying, spread loosely on cloths in a shaded, airy place, max 35 degrees C. Dried flowers lose aroma rapidly."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Getrocknete Blüten in dunklen, fest verschlossenen Glas- oder Blechgefäßen kühl und trocken aufbewahren. Blütensirup gekühlt 6-12 Monate haltbar.",
+        "en": "Store dried flowers in dark, tightly sealed glass or tin containers, cool and dry. Flower syrup keeps refrigerated for 6-12 months."
+      }
+    },
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "time_of_day": {
+        "de": "Holzernte (Fällung) im Winterhalbjahr bei Saftruhe - dann ist der Wassergehalt im Holz am niedrigsten und die Haltbarkeit am höchsten. Mindestalter für Wertholz: 40-60 Jahre.",
+        "en": "Timber harvest (felling) during winter dormancy - water content of the wood is then lowest and durability highest. Minimum age for valuable timber: 40-60 years."
+      },
+      "drying": {
+        "de": "Stammholz im Freien luftgetrocknet 1-2 Jahre, dann auf Endfeuchte (12-15 Prozent für Möbel, 18-20 Prozent für Außenbau) abgelagert. Robinienholz ist schwer (Rohdichte ca. 720-790 kg/m3) und reißt beim Trocknen leicht - langsame Trocknung notwendig.",
+        "en": "Air-dry stem timber outdoors for 1-2 years, then condition to final moisture (12-15 percent for furniture, 18-20 percent for outdoor use). Black-locust timber is heavy (density approx. 720-790 kg/m3) and tends to crack during drying - slow drying required."
+      },
+      "storage_condition": {
+        "de": "Trocken, überdacht, gut belüftet. Bei Lagerung in Tierställen strikte Trennung von Pferde-, Rinder- und Kaninchenhaltung (Toxizität).",
+        "en": "Dry, covered, well ventilated. When stored near animal facilities, strict separation from horse, cattle and rabbit areas (toxicity)."
+      }
+    }
+  ]
 }

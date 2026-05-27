@@ -23,17 +23,107 @@
       "form": "raw",
       "target": [
         "ornamental",
+        "wellbeing"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Das Fensterblatt ist weltweit eine der beliebtesten tropischen Zimmerpflanzen. Seine großen, glänzenden Blätter mit den charakteristischen Löchern (Fenestrationen) und Schlitzen verleihen Wohnräumen ein dschungelhaftes Ambiente. Die Pflanze ist seit der Instagram-Ära ein Symbol des Urban-Jungle- und Biophilic-Design-Trends und wird gezielt zur Aufwertung von Innenräumen und zur Förderung des Wohlbefindens eingesetzt.",
+        "en": "Monstera deliciosa is one of the most popular tropical houseplants worldwide. Its large, glossy leaves with characteristic holes (fenestrations) and slits give living spaces a jungle-like atmosphere. Since the rise of social media, the plant has become an icon of the urban-jungle and biophilic-design trends and is widely used to enhance interior aesthetics and support wellbeing."
+      },
+      "source_ids": [
+        "src_wiki_de_monstera",
+        "src_wiki_en_monstera",
+        "src_mobot_monstera"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "low_maintenance"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Das Fensterblatt gilt als ausgesprochen pflegeleichte Zimmerpflanze: Es verträgt halbschattige Standorte, vergibt unregelmäßiges Gießen und wächst auch bei normaler Raumluftfeuchte zuverlässig. Diese Robustheit macht es zur idealen Einsteigerpflanze für Wohnungen, Büros und öffentliche Innenräume.",
+        "en": "Monstera deliciosa is regarded as a particularly low-maintenance houseplant: it tolerates partial shade, forgives irregular watering, and grows reliably even at standard indoor humidity. This resilience makes it an ideal beginner plant for homes, offices, and public interiors."
+      },
+      "source_ids": [
+        "src_mobot_monstera",
+        "src_rhs_monstera",
+        "src_wiki_en_monstera"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
         "air_quality"
       ],
       "internal_external": "external",
       "description": {
-        "de": "Das Fensterblatt wird weltweit als dekorative Zimmerpflanze kultiviert. Seine großen, glänzenden Blätter mit natürlichen Löchern und Einschnitten verleihen Innenräumen ein tropisches Flair. Darüber hinaus kann die Pflanze gemäß NASA-Studien zur Verbesserung der Raumluftqualität beitragen.",
-        "en": "Monstera deliciosa is cultivated worldwide as a decorative houseplant. Its large, glossy leaves with natural holes and incisions give interior spaces a tropical feel. Additionally, the plant may contribute to improving indoor air quality according to NASA studies."
+        "de": "Wie viele großblättrige Tropenpflanzen kann das Fensterblatt im Innenraum Wasserdampf abgeben und Staub an seinen Blattflächen binden. Eine spezifische Aufnahme einzelner Schadstoffe ist für Monstera deliciosa nicht in der NASA-Clean-Air-Studie belegt; der Beitrag zur Raumluft ist daher allgemein und nicht als therapeutische Luftreinigung zu verstehen.",
+        "en": "Like many large-leaved tropical plants, Monstera deliciosa can release water vapour indoors and trap dust on its leaf surfaces. A specific uptake of individual indoor pollutants by Monstera deliciosa is NOT documented in the NASA Clean Air Study; its contribution to indoor air should therefore be understood as general and not as therapeutic air purification."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src_wiki_en_monstera",
+        "src_mobot_monstera"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Im Ursprungsgebiet (Mexiko, Mittelamerika) wird die vollreife Frucht des Fensterblatts traditionell verzehrt. Der reife Blüten- bzw. Fruchtstand (Spadix) entwickelt nach 12 bis 14 Monaten ein weiches, ananas- bis bananenartig schmeckendes Fruchtfleisch — der Beiname deliciosa (köstlich) verweist auf diesen kulinarischen Gebrauch. ACHTUNG: ausschließlich vollreife Frucht; unreife Frucht und alle übrigen Pflanzenteile enthalten reizende Calciumoxalat-Raphiden.",
+        "en": "In its native range (Mexico, Central America), the fully ripe fruit of Monstera deliciosa is traditionally eaten. The ripe inflorescence/fruit (spadix) develops after 12 to 14 months a soft, pineapple- to banana-flavoured pulp — the epithet deliciosa (delicious) refers to this culinary use. CAUTION: only the fully ripe fruit; unripe fruit and all other plant parts contain irritating calcium oxalate raphides."
+      },
+      "source_ids": [
+        "src_wiki_en_monstera",
+        "src_wiki_de_monstera",
+        "src_powo_monstera"
+      ],
+      "plant_part": "fruit",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "wellbeing"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Das Fensterblatt wird im Rahmen von Indoor-Plant- und Biophilic-Design-Konzepten gezielt eingesetzt, um Innenräume grüner und einladender zu gestalten. Die Anwesenheit großer Grünpflanzen wird in der populären Wohnpsychologie mit Stressabbau und Wohlbefinden assoziiert; spezifische klinische Wirkungen einzelner Arten sind hingegen nicht etabliert.",
+        "en": "Monstera deliciosa is deliberately used in indoor-plant and biophilic-design concepts to make interiors greener and more inviting. The presence of large green plants is popularly associated with stress reduction and wellbeing; specific clinical effects of individual species are however not established."
+      },
+      "source_ids": [
+        "src_mobot_monstera",
+        "src_rhs_monstera"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "warning"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "WARNUNG (kein Anwendungszweck, sondern Sicherheitshinweis): Alle Teile des Fensterblatts mit Ausnahme der vollreifen Frucht enthalten unlösliche Calciumoxalat-Raphiden. Bei Kontakt mit Mund- oder Magen-Darm-Schleimhäuten verursachen diese mechanische Reizung, Brennen, Speichelfluss und Schwellungen. Pflanze außerhalb der Reichweite von Kindern und Haustieren halten.",
+        "en": "WARNING (not a use, but a safety notice): All parts of Monstera deliciosa except the fully ripe fruit contain insoluble calcium oxalate raphides. On contact with the oral or gastrointestinal mucosa they cause mechanical irritation, burning, salivation, and swelling. Keep the plant out of reach of children and pets."
+      },
+      "source_ids": [
+        "src_aspca_monstera",
+        "src_wiki_en_monstera"
+      ],
+      "plant_part": "leaf",
+      "evidence_level": "folk"
     }
   ],
   "season": {
@@ -58,12 +148,44 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG für Hunde, Katzen und Menschen (Calciumoxalat-Kristalle). Bei Verzehr oder Hautkontakt: Brennen und Schwellung von Mund, Rachen und Haut. Milchsaft kann Hautreizungen verursachen. Außer Reichweite von Kindern und Haustieren halten.",
-      "en": "TOXIC to dogs, cats and humans (calcium oxalate crystals). Ingestion or skin contact may cause burning and swelling of mouth, throat and skin. Sap can cause skin irritation. Keep out of reach of children and pets."
+      "de": "Alle Pflanzenteile mit Ausnahme der vollreifen Frucht enthalten Calciumoxalat-Raphiden (Nadelkristalle in spezialisierten Idioblast-Zellen). Bei Verzehr oder Kontakt mit Schleimhäuten: Brennen, Schwellung, Speichelfluss, Schluckbeschwerden; bei Hautkontakt mit dem Pflanzensaft sind Reizungen möglich. Bei Hunden und Katzen treten die gleichen Symptome auf — daher ist Monstera deliciosa für Haustiere als giftig gelistet. Unreife Frucht reizt Mund und Rachen stark; nur die vollreife, weiche Frucht ist essbar.",
+      "en": "All plant parts except the fully ripe fruit contain calcium oxalate raphides (needle-shaped crystals stored in specialised idioblast cells). On ingestion or contact with mucous membranes: burning, swelling, salivation, and difficulty swallowing; skin contact with the sap can cause irritation. Dogs and cats develop the same symptoms, which is why Monstera deliciosa is listed as toxic to pets. Unripe fruit strongly irritates mouth and throat; only the fully ripe, soft fruit is edible."
     },
-    "external_only": true,
-    "toxicity_level": "toxic",
-    "pet_toxic": true
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Keine spezifischen Sicherheitsdaten zum Verzehr der reifen Frucht in der Schwangerschaft. Alle anderen Pflanzenteile aufgrund der Calciumoxalate strikt meiden.",
+        "en": "No specific safety data on consumption of the ripe fruit during pregnancy. Strictly avoid all other plant parts due to calcium oxalates."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine spezifischen Sicherheitsdaten in der Stillzeit. Vorsorglich nur sicher als Zierpflanze nutzen; Verzehr nicht erforderlich.",
+        "en": "No specific safety data during lactation. As a precaution, use only as an ornamental; ingestion is not necessary."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Calciumoxalat-Raphiden können bei Kindern starke Mund- und Rachenreizungen auslösen. Pflanze außerhalb der Reichweite von Kleinkindern aufstellen; keine Pflanzenteile (außer vollreife Frucht) zugänglich lassen.",
+        "en": "Calcium oxalate raphides can cause severe oral and throat irritation in children. Keep the plant out of reach of small children; do not leave any plant parts (other than fully ripe fruit) accessible."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Verzehr unreifer Früchte oder anderer Pflanzenteile (Blatt, Stiel, Luftwurzel) wegen Calciumoxalat-Raphiden.",
+        "en": "Consumption of unripe fruit or any other plant parts (leaf, stem, aerial root) due to calcium oxalate raphides."
+      },
+      {
+        "de": "Bekannte Überempfindlichkeit gegen Araceae (Aronstabgewächse).",
+        "en": "Known hypersensitivity to Araceae (arum family) plants."
+      }
+    ],
+    "drug_interactions": []
   },
   "classical_quotes": [],
   "sources": [
@@ -87,6 +209,62 @@
       "title": "Monstera deliciosa (Wikidata Q148183)",
       "url": "https://www.wikidata.org/wiki/Q148183",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wiki_de_monstera",
+      "type": "wikipedia",
+      "title": "Gewöhnliches Fensterblatt (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliches_Fensterblatt",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wiki_en_monstera",
+      "type": "wikipedia",
+      "title": "Monstera deliciosa (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Monstera_deliciosa",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wikidata_monstera",
+      "type": "wikidata",
+      "title": "Monstera deliciosa (Wikidata Q148183)",
+      "url": "https://www.wikidata.org/wiki/Q148183",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_powo_monstera",
+      "type": "monograph",
+      "title": "Monstera deliciosa Liebm. — Plants of the World Online (Kew)",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87422-1",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_mobot_monstera",
+      "type": "monograph",
+      "title": "Monstera deliciosa — Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=278034",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_rhs_monstera",
+      "type": "monograph",
+      "title": "Monstera deliciosa — Royal Horticultural Society (RHS) Plant Finder",
+      "url": "https://www.rhs.org.uk/plants/11280/monstera-deliciosa/details",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_monstera",
+      "type": "monograph",
+      "title": "Monstera deliciosa — Toxic and Non-Toxic Plants (ASPCA)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/monstera-deliciosa",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_commons_monstera",
+      "type": "commons",
+      "title": "Category:Monstera deliciosa (Wikimedia Commons)",
+      "url": "https://commons.wikimedia.org/wiki/Category:Monstera_deliciosa",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -135,5 +313,93 @@
         "Fertilise every 4–6 weeks during the growing season (spring/summer)."
       ]
     }
-  }
+  },
+  "constituents": [
+    {
+      "name": "calcium oxalate raphides",
+      "category": "other",
+      "percent_range": "0.5-2 %",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Unlösliche, nadelförmige Calciumoxalat-Kristalle (Raphiden), die in spezialisierten Idioblast-Zellen gebündelt vorliegen. Beim Anbeißen oder Quetschen werden sie ballistisch in die Schleimhaut geschossen und verursachen mechanische Reizung und Brennen — Hauptmechanismus der Toxizität bei Mensch und Haustier.",
+        "en": "Insoluble, needle-shaped calcium oxalate crystals (raphides) bundled inside specialised idioblast cells. When the tissue is chewed or crushed they are propelled ballistically into the mucosa, causing mechanical irritation and burning — the principal mechanism of toxicity in humans and pets."
+      }
+    },
+    {
+      "name": "oxalic acid",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Oxalsäure tritt neben den kristallinen Calciumoxalaten in geringen Mengen frei in Blatt und Stiel auf und verstärkt den Reizeffekt; sie ist ein bekannter Bestandteil vieler Araceae.",
+        "en": "Oxalic acid occurs in small amounts in leaf and stem alongside the crystalline calcium oxalates and intensifies the irritant effect; it is a known constituent of many Araceae."
+      }
+    },
+    {
+      "name": "proteolytic idioblast proteins",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "In den Idioblast-Zellen werden neben den Raphiden auch reizende Proteine vermutet, die nach mechanischer Freisetzung die Schleimhautreaktion verstärken. Diese Begleitkomponente erklärt, warum reine Calciumoxalat-Mengen allein die akute Symptomatik nicht vollständig abbilden.",
+        "en": "Alongside the raphides, the idioblast cells are thought to release irritant proteins that amplify the mucosal reaction. This co-factor explains why pure calcium oxalate alone does not fully account for the acute symptoms."
+      }
+    },
+    {
+      "name": "sugars (fructose, glucose, sucrose)",
+      "category": "other",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Die vollreife Frucht enthält einfache Zucker (Fructose, Glucose, Saccharose), die ihr den ananas- bis bananenartigen, süßen Geschmack verleihen und die kulinarische Nutzung in Mexiko begründen.",
+        "en": "The fully ripe fruit contains simple sugars (fructose, glucose, sucrose) that give it the sweet, pineapple- to banana-like flavour and underpin its culinary use in Mexico."
+      }
+    },
+    {
+      "name": "vitamin C",
+      "category": "vitamin",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Die reife Frucht liefert geringe Mengen Vitamin C und weitere Mikronährstoffe und wird im Ursprungsgebiet als Obst gegessen.",
+        "en": "The ripe fruit provides small amounts of vitamin C and other micronutrients and is eaten as fruit in the native range."
+      }
+    },
+    {
+      "name": "flavonoids",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "In den Blättern wurden Araceae-typische Flavonoide nachgewiesen; sie tragen zur antioxidativen Aktivität der Blattextrakte bei, sind aber pharmakologisch nicht näher charakterisiert.",
+        "en": "Araceae-typical flavonoids have been detected in the leaves; they contribute to the antioxidant activity of leaf extracts but are not pharmacologically characterised in detail."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "In der Ursprungsregion (Mexiko, Mittelamerika) ganzjährig möglich; im Innenanbau in Mitteleuropa kommt es nur selten zur Fruchtreife. Erntereife nach 12-14 Monaten, wenn sich die hexagonalen grünen Schuppen vom Spadix lösen und das weiße Fruchtfleisch freigeben — vorher unreif und stark reizend.",
+        "en": "Possible year-round in the native range (Mexico, Central America); under indoor cultivation in Central Europe fruit set is rare. Ready to harvest after 12-14 months when the hexagonal green scales detach from the spadix and reveal the white pulp — unripe before that and strongly irritant."
+      },
+      "drying": {
+        "de": "Frische Frucht in Stücken vom Spadix lösen, sobald sich die Schuppen ablösen, und sofort verzehren oder kühl lagern. Nicht trocknen — kulinarische Nutzung ausschließlich als frisches Obst.",
+        "en": "Detach pieces of ripe fruit from the spadix as the scales come away and eat fresh or store cool. Not dried — culinary use is exclusively as fresh fruit."
+      },
+      "storage_condition": {
+        "de": "Reife Stücke 2-3 Tage kühl im Kühlschrank; reift nicht reife Frucht nicht auf einem Schlag, sondern nur abschnittweise.",
+        "en": "Ripe pieces keep 2-3 days refrigerated; the fruit does not ripen all at once but section by section."
+      }
+    }
+  ]
 }
