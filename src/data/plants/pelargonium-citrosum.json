@@ -22,16 +22,110 @@
     {
       "form": "raw",
       "target": [
-        "pest_control"
+        "ethnobotany",
+        "ornamental"
       ],
       "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
       "description": {
-        "de": "Citronella-Geranie wird traditionell im Garten als duftender Schädlings-Abwehrhelfer eingesetzt. Pflanze aus der Familie der Storchschnabelgewächse — typische Verwendung in der europäischen Volksheilkunde bzw. Küche.",
-        "en": "Pelargonium 'citrosum' is traditionally grown in gardens as an aromatic pest deterrent. A member of the Cranesbill family — common in European folk medicine and culinary tradition."
+        "de": "Volksbelief und Marketing-Anwendung: Die als 'Citronella-Geranie', 'Mückenschocker' oder 'Mosquito Plant' im Handel verkaufte Hybride wird als angeblich mückenabwehrende Topfpflanze vermarktet. WISSENSCHAFTLICH UMSTRITTEN: Die kontrollierte Feldstudie von Matsuda et al. (1996, Journal of the American Mosquito Control Association) zeigte, dass P. citrosum keinen besseren Mückenschutz bietet als ein Kontroll-Topf — Mückenlandungen waren statistisch gleich. Tisgratog et al. (2016) bestätigten dies für Aedes-Mücken. Die intakte Pflanze gibt zu wenig flüchtige Geraniol-/Citronellol-Mengen ab, um als Repellent zu wirken; nur ein direkt auf die Haut geriebenes, zerquetschtes Blatt erzeugt eine sehr schwache, lokal begrenzte und kurzlebige Wirkung. Trotzdem bleibt die Pflanze ein verbreitetes Element in Hobbygärten — als Duftpflanze, nicht als verlässlicher Mückenschutz.",
+        "en": "Folk belief and marketing claim: the hybrid sold as 'citronella geranium', 'mosquito shocker' or 'mosquito plant' is marketed as an allegedly mosquito-repelling potted plant. SCIENTIFICALLY DISPUTED: the controlled field study by Matsuda et al. (1996, Journal of the American Mosquito Control Association) showed that P. citrosum offered no better mosquito protection than a control pot — mosquito landings were statistically equivalent. Tisgratog et al. (2016) confirmed this for Aedes mosquitoes. The intact plant releases too little volatile geraniol/citronellol to act as a repellent; only a crushed leaf rubbed directly on the skin produces a very weak, locally confined, short-lived effect. The plant nonetheless remains a popular hobby-garden element — as a scented plant, not as a reliable mosquito shield."
+      },
+      "preparation": {
+        "de": "Die Pflanze als intakte Topfpflanze auf Terrasse, Balkon oder Fensterbank platzieren entfaltet KEINE belegte Mückenabwehr (Matsuda 1996, Tisgratog 2016). Für eine schwache lokale Wirkung: 2-3 frische Blätter zwischen den Fingern fest zerreiben (die Zellen müssen aufbrechen, damit Geraniol freigesetzt wird) und den Saft auf unbedeckte Hautstellen tupfen. Wirkdauer maximal 20-30 Minuten — deutlich kürzer als kommerzielle DEET- oder Icaridin-Repellenten. Bei tatsächlichem Mückenschutzbedarf zertifizierten Hautrepellenten den Vorzug geben.",
+        "en": "Placing the plant as an intact potted plant on a terrace, balcony or windowsill produces NO demonstrated mosquito repellence (Matsuda 1996, Tisgratog 2016). For a weak local effect: firmly crush 2-3 fresh leaves between the fingers (cells must rupture to release geraniol) and dab the juice onto exposed skin. Effect lasts at most 20-30 minutes — far shorter than commercial DEET or icaridin repellents. For genuine mosquito protection, prefer certified skin repellents."
+      },
+      "age_restriction": {
+        "min_age": 2,
+        "note": {
+          "de": "Bei Kindern unter 2 Jahren kein hautnaher Einsatz zerquetschter Pelargonien-Blätter — Citronellol und Geraniol sind potente Hautallergene.",
+          "en": "No skin contact with crushed pelargonium leaves in children under 2 years — citronellol and geraniol are potent skin allergens."
+        }
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src_matsuda_citrosa_1996",
+        "src_tisgratog_pelargonium_2016",
+        "src_cdc_mosquito_repellents"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental",
+        "wellbeing"
+      ],
+      "internal_external": "external",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Duftgartenpflanze: Trotz der widerlegten Mücken-Werbeversprechen ist die Citronella-Geranie eine attraktive, robuste Topfpflanze mit zitronig-rosigem Blattduft, kleinen rosa-violetten Blüten und attraktiv eingeschnittenem Laub. In Sinnes- und Duftgärten geschätzt für die haptische Erfahrung (Duftfreisetzung beim Berühren) und als pflegeleichte Balkon- und Fensterbankpflanze. Geeignet für Therapie- und Demenzgärten, da das Berühren der Blätter olfaktorische Reize erzeugt.",
+        "en": "Scented-garden plant: despite the disproven mosquito advertising claims, the citronella geranium is an attractive, robust potted plant with citrus-rosy leaf scent, small pink-violet flowers and attractively dissected foliage. Valued in sensory and scented gardens for the haptic experience (scent release on touch) and as a low-maintenance balcony or windowsill plant. Suitable for therapy and dementia gardens, since brushing the leaves produces olfactory stimulation."
+      },
+      "source_ids": [
+        "src_wiki_citrosum_en",
+        "src_rhs_pelargonium_citrosa"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system",
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Volksbrauch (selten, im Vergleich zu P. graveolens und P. odoratissimum schwach dokumentiert): Aufguss aus frischen Blättern als leichter, zitronig-rosig duftender Genusstee. Das Aroma erinnert an eine Mischung aus Citronella-Gras und Rosengeranie. Wegen der vergleichsweise jungen Hybrid-Geschichte (kommerziell ab den 1980er Jahren) gibt es keine traditionelle Heilkunde-Verwendung — die Anwendung ist rein modern und vergnügungsorientiert.",
+        "en": "Folk practice (rare, weakly documented compared to P. graveolens and P. odoratissimum): infusion of fresh leaves as a light, citrus-rose-scented pleasure tea. The aroma resembles a mix of citronella grass and rose geranium. Because of the comparatively recent hybrid history (commercially from the 1980s onward), there is no traditional herbal-medicine use — the application is purely modern and recreational."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 200,
+        "steep_min": 8,
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "1-2 g (2-3 frische oder 1 TL getrocknete) zerkleinerte Citronella-Geranien-Blätter mit 200 ml kochendem Wasser übergießen, zugedeckt 8 Minuten ziehen lassen, abseihen. 1-2 Tassen täglich. Frische Blätter geben ein deutlich kräftigeres Aroma als getrocknete.",
+          "en": "Pour 200 ml boiling water over 1-2 g (2-3 fresh or 1 tsp dried) chopped citronella geranium leaves, cover and infuse for 8 minutes, then strain. 1-2 cups daily. Fresh leaves give a markedly stronger aroma than dried."
+        }
+      },
+      "source_ids": [
+        "src_wiki_citrosum_en",
+        "src_pfaf_pelargonium_citrosum"
+      ]
+    },
+    {
+      "form": "essential_oil",
+      "target": [
+        "wellbeing",
+        "nervous_system"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Aromatherapeutische Volksanwendung: Zerquetschte frische Blätter oder ein selbstgemachter Mazerat-Ölauszug verströmen einen zitronig-rosigen Duft, der in der Hobby-Aromatherapie als entspannend und stimmungsaufhellend gilt. Wichtig: Es gibt keine industrielle Wasserdampfdestillation eines genuinen 'P. citrosum'-Öls auf dem Markt — kommerzielle Geranium-Öle stammen aus P. graveolens oder P. capitatum. Die Wirkung ist sehr schwach im Vergleich zu echtem Geranium-Bourbon-Öl.",
+        "en": "Folk aromatherapy use: crushed fresh leaves or a homemade infused-oil maceration emit a citrus-rosy scent considered relaxing and mood-lifting in hobby aromatherapy. Important: there is no industrial steam-distilled genuine 'P. citrosum' oil on the market — commercial geranium oils come from P. graveolens or P. capitatum. The effect is very mild compared to true geranium Bourbon oil."
+      },
+      "preparation": {
+        "de": "Mazerat-Ölauszug: Eine Handvoll frische, gewaschene Blätter leicht andrücken, in ein sauberes Glas geben und mit 200 ml hochwertigem Pflanzenöl (Mandel oder Jojoba) übergießen. 2-3 Wochen warm und dunkel ziehen lassen, gelegentlich schütteln, abseihen. Maximal 1-3 % im Trägeröl als Massage- oder Duftöl. NIEMALS unverdünnt auf die Haut. Vor Erstanwendung 24-h-Hauttest in der Armbeuge.",
+        "en": "Infused-oil maceration: gently bruise a handful of fresh, washed leaves, place in a clean jar and cover with 200 ml of high-quality plant oil (almond or jojoba). Steep 2-3 weeks warm and dark, shaking occasionally, then strain. Maximum 1-3 % in carrier oil as massage or scent oil. NEVER apply undiluted. Patch test 24 h before first use."
+      },
+      "age_restriction": {
+        "min_age": 6,
+        "note": {
+          "de": "Bei Kindern unter 6 Jahren wegen Citronellol-/Geraniol-Anteil keine intensive Anwendung. Bei Säuglingen und Kleinkindern ganz meiden.",
+          "en": "In children under 6 years, avoid intensive use due to citronellol/geraniol content. Avoid entirely in infants and toddlers."
+        }
+      },
+      "source_ids": [
+        "src_lalli_pelargonium_chemistry",
+        "src_wiki_citrosum_en"
       ]
     }
   ],
@@ -50,12 +144,67 @@
   },
   "safety": {
     "warnings": {
-      "de": "Wissenschaftlich umstrittene Wirksamkeit als Mückenschutz — Wirkung beim Zerreiben am stärksten.",
-      "en": "Mosquito-repellent effect scientifically debated — strongest when leaves are crushed."
+      "de": "Zerquetschte Blätter der Citronella-Geranie NIEMALS auf gereizte oder verletzte Haut auftragen — Citronellol und Geraniol gelten als Allergene (in der EU-Kosmetik-Verordnung als deklarationspflichtige Duftstoffe gelistet) und können bei wiederholtem Kontakt eine Kontaktdermatitis auslösen. Vor Erstanwendung 24-h-Hauttest. WICHTIG — wissenschaftliche Ehrlichkeit: Die kommerzielle Vermarktung als 'Anti-Mücken-Pflanze' bzw. 'Mückenschocker' ist durch zwei kontrollierte Studien (Matsuda et al. 1996; Tisgratog et al. 2016) WIDERLEGT — die intakte Pflanze hat keine signifikante mückenabwehrende Wirkung. Wer auf zuverlässigen Mückenschutz angewiesen ist (Reisen in Malaria- oder Dengue-Gebiete, empfindliche Personen), MUSS auf zertifizierte Repellenten wie DEET, Icaridin oder IR3535 zurückgreifen. Eine Citronella-Geranie auf der Terrasse ersetzt keinen wirksamen Mückenschutz. Zusätzlich: Die EMA-HMPC-Pelargonium-Monographie bezieht sich AUSSCHLIESSLICH auf Pelargonium sidoides (Atemwegs-Erkältung); für P. citrosum gibt es KEINE EMA-Monographie und keinen 'Well-established use'-Status.",
+      "en": "NEVER apply crushed leaves of citronella geranium to irritated or broken skin — citronellol and geraniol are listed allergens (declarable fragrance allergens in the EU Cosmetics Regulation) and can cause contact dermatitis on repeated exposure. Patch test 24 h before first use. IMPORTANT — scientific honesty: the commercial marketing as 'anti-mosquito plant' or 'mosquito shocker' has been REFUTED by two controlled studies (Matsuda et al. 1996; Tisgratog et al. 2016) — the intact plant has no significant mosquito-repellent activity. Anyone relying on dependable mosquito protection (travel in malaria or dengue zones, sensitive individuals) MUST use certified repellents such as DEET, icaridin or IR3535. A citronella geranium on the terrace does not replace effective mosquito protection. Additionally: the EMA HMPC pelargonium monograph refers EXCLUSIVELY to Pelargonium sidoides (respiratory colds); there is NO EMA monograph and no 'well-established use' status for P. citrosum."
     },
-    "external_only": true,
+    "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenmengen (z.B. einzelne Blätter im Tee) gelten als unbedenklich. Auf Mazerat-Hautöle und intensiven Hautkontakt mit zerquetschten Blättern in der Schwangerschaft mangels Sicherheitsdaten verzichten. Innerliche Einnahme ätherischen Öls meiden.",
+        "en": "Culinary amounts (e.g. occasional leaves in tea) are considered safe. Avoid infused skin oils and intensive skin contact with crushed leaves during pregnancy due to insufficient safety data. Avoid internal use of essential oil."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Küchenmengen unbedenklich. Mazerat-Öle und Hautanwendung mangels Daten nur zurückhaltend einsetzen; Öle nicht auf Brust und Brustwarzen auftragen, solange das Kind gestillt wird.",
+        "en": "Culinary amounts are safe. Use infused oils and skin applications cautiously due to insufficient data; do not apply oils to chest or nipples while breastfeeding."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Zerquetschte Citronella-Geranien-Blätter und Mazerat-Öle bei Säuglingen und Kindern unter 2 Jahren NICHT hautnah anwenden. Bei Kindern 2-6 Jahren nur stark verdünnt (max. 0,5 %) und nicht im Gesicht. Insbesondere KEINE Anwendung als angeblichen Mückenschutz bei Kindern in Risikogebieten — hier ausschließlich pädiatrisch geprüfte Repellenten (Icaridin 10 %, IR3535) verwenden.",
+        "en": "Do NOT use crushed citronella geranium leaves and infused oils on the skin of infants and children under 2 years. In children 2-6 years only highly diluted (max. 0.5 %) and not on the face. Critically: do NOT use as an alleged mosquito repellent on children in risk areas — only paediatrically approved repellents (icaridin 10 %, IR3535) should be used there."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "CYP2B6-/CYP3A4-Substrate",
+        "mechanism": {
+          "de": "Citronellol, Geraniol und Linalool können in höheren Konzentrationen Cytochrom-P450-Enzyme (vor allem CYP2B6) modulieren. Theoretische Wechselwirkungen mit Bupropion, Efavirenz, Ketamin und anderen CYP2B6-Substraten sind denkbar — bei aromatherapeutischer Hautanwendung kaum klinisch relevant, bei oraler Einnahme ätherischer Öle Vorsicht.",
+          "en": "Citronellol, geraniol and linalool can modulate cytochrome P450 enzymes (especially CYP2B6) at higher concentrations. Theoretical interactions with bupropion, efavirenz, ketamine and other CYP2B6 substrates are conceivable — barely clinically relevant for topical aromatherapy, caution with oral use of essential oils."
+        },
+        "severity": "monitor",
+        "source_id": "src_lalli_pelargonium_chemistry"
+      }
+    ],
+    "max_continuous_use_weeks": 4,
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Pelargonien, Citronellol, Geraniol, Linalool oder anderen Geraniaceen.",
+        "en": "Known hypersensitivity to pelargoniums, citronellol, geraniol, linalool or other Geraniaceae."
+      },
+      {
+        "de": "Säuglinge und Kinder unter 2 Jahren — keine hautnahe Anwendung zerquetschter Blätter oder Mazerat-Öle.",
+        "en": "Infants and children under 2 years — no skin contact with crushed leaves or infused oils."
+      },
+      {
+        "de": "Reise in Malaria-, Dengue- oder Zika-Risikogebiete: Die Citronella-Geranie ist KEIN zugelassenes Repellent und darf zertifizierte Mückenrepellenten (DEET, Icaridin, IR3535) NICHT ersetzen. Verlassen auf die Pflanze stellt ein medizinisches Risiko dar.",
+        "en": "Travel to malaria, dengue or Zika risk areas: the citronella geranium is NOT an approved repellent and MUST NOT replace certified mosquito repellents (DEET, icaridin, IR3535). Relying on the plant constitutes a medical risk."
+      },
+      {
+        "de": "Akute, nässende Hautentzündung oder gereizte Schleimhäute — Anwendung verschieben bis zur Abheilung.",
+        "en": "Acute weeping skin inflammation or irritated mucous membranes — postpone use until healed."
+      },
+      {
+        "de": "Katzen und kleine Hunde im Haushalt: ätherische Geranium-Öle sind für Heimtiere toxisch (laut ASPCA — gilt für alle Pelargonium-Arten). Keine direkte Hautanwendung am Tier; Diffuser nur in Räumen, die das Tier verlassen kann.",
+        "en": "Cats and small dogs in the household: geranium essential oils are toxic to pets (per ASPCA — applies to all Pelargonium species). No direct application on the pet; diffusers only in rooms the animal can leave."
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -72,6 +221,55 @@
       "title": "Pelargonium 'citrosum' (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Pelargonium_'citrosum'",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_matsuda_citrosa_1996",
+      "type": "monograph",
+      "title": "Matsuda B.M., Surgeoner G.A., Heal J.D., Tucker A.O., Maciarello M.J. (1996) — Essential oil analysis and field evaluation of the citrosa plant 'Pelargonium citrosum' as a repellent against populations of Aedes mosquitoes. Journal of the American Mosquito Control Association 12(1): 69-74.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8723261/",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_tisgratog_pelargonium_2016",
+      "type": "monograph",
+      "title": "Tisgratog R., Sanguanpong U., Grieco J.P., Ngoen-Klan R., Chareonviriyaphap T. (2016) — Plants traditionally used as mosquito repellents and the implication for their use in vector control. Acta Tropica 157: 136-144.",
+      "url": "https://doi.org/10.1016/j.actatropica.2016.01.024",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wiki_citrosum_en",
+      "type": "wikipedia",
+      "title": "Pelargonium 'citrosum' (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Pelargonium_%27citrosum%27",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_pfaf_pelargonium_citrosum",
+      "type": "monograph",
+      "title": "Plants For A Future — Pelargonium citrosum (Citronella geranium / Mosquito plant)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Pelargonium+citrosum",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_cdc_mosquito_repellents",
+      "type": "monograph",
+      "title": "U.S. Centers for Disease Control and Prevention (CDC) — Mosquito Bite Prevention for Travelers (recommended EPA-registered repellents: DEET, picaridin/icaridin, IR3535, oil of lemon eucalyptus)",
+      "url": "https://www.cdc.gov/mosquitoes/prevention/index.html",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_rhs_pelargonium_citrosa",
+      "type": "monograph",
+      "title": "Royal Horticultural Society (RHS) — Pelargonium 'Citrosa' / Citronella-scented geranium cultivar profile",
+      "url": "https://www.rhs.org.uk/plants/search-results?form-mode=true&query=pelargonium+citrosum",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_lalli_pelargonium_chemistry",
+      "type": "monograph",
+      "title": "Lalli J.Y.Y., Viljoen A.M., Baser K.H.C., Demirci B., Oezek T. (2008) — The essential oil composition and chemotaxonomical appraisal of South African Pelargoniums (Geraniaceae). Journal of Essential Oil Research 20(2): 152-160.",
+      "url": "https://doi.org/10.1080/10412905.2008.9699979",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -115,5 +313,111 @@
         "Winter: bright and cool (5-12 °C)."
       ]
     }
-  }
+  },
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (Citronella-Geranien-Öl)",
+      "category": "essential_oil",
+      "percent_range": "0.05-0.15 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Wasserdampfdestillat aus frischen Blättern — kommerziell praktisch nicht verfügbar. Ausbeute deutlich geringer als bei P. graveolens (Bourbon-Öl). Profil: zitronig-rosig mit ausgeprägter Citronellol- und Geraniol-Note, jedoch in niedrigerer Konzentration. Die Hybrid-Genealogie ist umstritten; vermutet wird eine Kreuzung aus P. graveolens und P. spec. mit erhöhtem Citral-Anteil.",
+        "en": "Steam distillate from fresh leaves — practically unavailable commercially. Yield markedly lower than P. graveolens (Bourbon oil). Profile: citrus-rosy with pronounced citronellol and geraniol note but at lower concentration. Hybrid genealogy is disputed; presumed cross of P. graveolens with P. spec. carrying an elevated citral fraction."
+      }
+    },
+    {
+      "name": "citronellol",
+      "category": "essential_oil",
+      "percent_range": "15-30 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Monoterpenalkohol — Hauptbestandteil. Anteil etwas geringer als im klassischen Geranium-Bourbon-Öl (P. graveolens, 20-40 %). Verantwortlich für den rosig-zitronigen Untergrund und eine schwache, lokal begrenzte mückenabwehrende Wirkung (nur bei freigesetzter Substanz aus zerquetschten Blättern). EU-deklarationspflichtiger Duftstoff-Allergen.",
+        "en": "Monoterpene alcohol — main component. Proportion slightly lower than in classical geranium Bourbon oil (P. graveolens, 20-40 %). Responsible for the rose-citrus base and a weak, locally confined mosquito-repellent effect (only when released from crushed leaves). EU-declarable fragrance allergen."
+      }
+    },
+    {
+      "name": "geraniol",
+      "category": "essential_oil",
+      "percent_range": "5-15 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Zweite Leitsubstanz. Süßlich-rosiger Duft, antioxidativ, antimikrobiell und mild entzündungshemmend; theoretisch repellent gegen Mücken — die intakte Pflanze setzt aber zu wenig Geraniol an die Umgebungsluft ab, um Mücken fernzuhalten (Matsuda 1996). EU-deklarationspflichtiger Allergen.",
+        "en": "Second leading substance. Sweet rosy scent, antioxidant, antimicrobial and mildly anti-inflammatory; theoretically repellent against mosquitoes — but the intact plant releases too little geraniol into the surrounding air to deter mosquitoes (Matsuda 1996). EU-declarable allergen."
+      }
+    },
+    {
+      "name": "linalool",
+      "category": "essential_oil",
+      "percent_range": "3-10 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Monoterpenalkohol mit beruhigender, leicht angstlösender Wirkung — typischer Begleitstoff im Citronella-Geranien-Öl. EU-deklarationspflichtiger Duftstoff-Allergen.",
+        "en": "Monoterpene alcohol with calming, mildly anxiolytic effect — typical accompanying compound in citronella geranium oil. EU-declarable fragrance allergen."
+      }
+    },
+    {
+      "name": "citral (geranial + neral)",
+      "category": "essential_oil",
+      "percent_range": "1-5 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Aldehyd-Gemisch — verantwortlich für die zitronige Top-Note, die P. citrosum von P. graveolens (eher rosig) und P. odoratissimum (apfelig) abhebt. In Citronella-Gras (Cymbopogon nardus) deutlich höher konzentriert; in P. citrosum nur in geringen Mengen vorhanden. Bekannter Duftstoff-Allergen und mild hautirritierend bei direktem Kontakt.",
+        "en": "Aldehyde mixture — responsible for the citrus top note that distinguishes P. citrosum from the rosier P. graveolens and the apple-like P. odoratissimum. Far more concentrated in citronella grass (Cymbopogon nardus); only present in small amounts in P. citrosum. Known fragrance allergen and mildly skin-irritating on direct contact."
+      }
+    },
+    {
+      "name": "beta-caryophyllene",
+      "category": "sesquiterpene",
+      "percent_range": "1-4 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Sesquiterpen mit entzündungshemmender Wirkung und Affinität zum CB2-Rezeptor des Endocannabinoid-Systems. Trägt eine leicht würzig-holzige Note zum Duftprofil bei.",
+        "en": "Sesquiterpene with anti-inflammatory action and affinity for the CB2 receptor of the endocannabinoid system. Contributes a mildly spicy-woody note to the scent profile."
+      }
+    },
+    {
+      "name": "citronellyl formate",
+      "category": "essential_oil",
+      "percent_range": "2-6 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Estriger Begleitstoff — verleiht dem Öl eine fruchtig-blumige Top-Note. Trägt zur entspannenden Wirkung der zerquetschten Blätter in der Hobby-Aromatherapie bei.",
+        "en": "Ester accompanying compound — gives the oil a fruity-floral top note. Contributes to the relaxing effect of crushed leaves in hobby aromatherapy."
+      }
+    },
+    {
+      "name": "Gerbstoffe (kondensierte Gerbstoffe)",
+      "category": "tannin",
+      "percent_range": "2-4 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Adstringierende Polyphenole — typisch für Pelargonium-Blätter; tragen zur leicht zusammenziehenden Wirkung wässriger Auszüge bei. Bei P. citrosum aus Hybrid-Genealogie etwas geringer als bei der reineren P. graveolens.",
+        "en": "Astringent polyphenols — typical of Pelargonium leaves; contribute to the mildly puckering effect of aqueous extracts. In P. citrosum from hybrid genealogy somewhat lower than in the purer P. graveolens."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Am frühen Vormittag bei trockenem Wetter, sobald der Tau abgetrocknet ist und vor der großen Mittagshitze — dann ist der Gehalt an ätherischem Öl am höchsten. Blütenlose, kräftige Triebspitzen bevorzugen; junge Blätter aromatischer als ältere.",
+        "en": "Early morning in dry weather once the dew has dried and before midday heat — essential-oil content is then highest. Prefer non-flowering, strong shoot tips; young leaves are more aromatic than older ones."
+      },
+      "drying": {
+        "de": "Blätter und beblätterte Triebe in dünner Schicht auf Tüchern oder Gitterhorden in einem warmen, luftigen, schattigen Raum trocknen (max. 35 °C). Direkte Sonne meiden — der zitronig-rosige Duft geht sonst rasch verloren. Nach dem Trocknen luftdicht in dunklen Glasdosen lagern.",
+        "en": "Spread leaves and leafy shoots in a thin layer on cloths or mesh racks in a warm, airy, shaded room (max 35 °C). Avoid direct sunlight — the citrus-rose scent is otherwise quickly lost. After drying, store airtight in dark glass jars."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "In dunklen, fest schließenden Glas- oder Blechgefäßen kühl und trocken aufbewahren. Aroma verflüchtigt sich rasch — innerhalb von 6 Monaten verbrauchen, frisch ist deutlich kräftiger.",
+        "en": "Store in dark, tightly closed glass or tin containers, cool and dry. Aroma evaporates quickly — use within 6 months, fresh material is markedly more potent."
+      }
+    }
+  ]
 }

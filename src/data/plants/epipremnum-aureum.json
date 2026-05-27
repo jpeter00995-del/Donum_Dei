@@ -22,17 +22,93 @@
     {
       "form": "raw",
       "target": [
-        "air_quality"
+        "air_quality",
+        "formaldehyde",
+        "benzene",
+        "xylene"
       ],
       "internal_external": "external",
       "description": {
-        "de": "Die Goldene Efeutute ist eine beliebte Zimmerpflanze, von der einige Sorten mit zusätzlich weißer, gelber oder hellgrüner Blattfärbung (Variegation) existieren. In privaten und öffentlichen Gebäuden wird sie aufgrund ihrer geringen Pflegeansprüche und des attraktiven Laubs oft als Zierpflanze eingesetzt. In tropischen Ländern ist sie in vielen Parks und Gärten zu finden und neigt dort zum Verwildern. Als Zimmerpflanze kann die Efeutute horizontal oder vertikal wachsen.",
-        "en": "In temperate regions, it is a popular houseplant with numerous cultivars selected for leaves with white, yellow, or light green variegation. It is often used in decorative displays in shopping centers, offices, and other public locations largely because it requires little care and is also attractively leafy. In tropical countries, it is found in many parks and gardens, and tends to grow naturally."
+        "de": "Die Goldene Efeutute zählt zu den Pflanzen, die in der NASA-Clean-Air-Studie (Wolverton et al. 1989, TM-101766) auf den Abbau gasförmiger Schadstoffe in geschlossenen Kammern getestet wurden. In versiegelten Versuchskammern entfernte sie messbare Mengen an Formaldehyd, Benzol und Xylol mit moderater Effizienz. Folgestudien (Cummings & Waring 2020) zeigen jedoch, dass die in realen Wohnräumen erreichbare Reinigungsleistung im Vergleich zum Luftwechsel durch Lüftung praktisch vernachlässigbar ist.",
+        "en": "Golden pothos is among the species tested in the NASA Clean Air Study (Wolverton et al. 1989, TM-101766) for the removal of gaseous indoor air pollutants in sealed chambers. In those sealed test chambers it removed measurable amounts of formaldehyde, benzene and xylene with moderate efficiency. Follow-up work (Cummings & Waring 2020) shows that the achievable purification effect in real-world rooms is practically negligible compared with normal air exchange through ventilation."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src_nasa_1989",
+        "src_cummings_2020"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "clinical_trial"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental",
+        "low_maintenance"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Epipremnum aureum ist eine der weltweit beliebtesten Zimmerpflanzen und gilt als nahezu unverwüstlich. Sie wird als Hängepflanze in Ampeln, als Kletterer an Moosstäben oder als Bodendecker in Innenräumen gezogen. Wegen ihrer Toleranz gegenüber niedrigem Licht, unregelmäßiger Bewässerung und Trockenperioden ist sie eine klassische Anfängerpflanze.",
+        "en": "Epipremnum aureum is one of the most popular houseplants worldwide and is considered almost indestructible. It is grown indoors as a hanging plant, as a climber on moss poles, or as a groundcover. Its tolerance of low light, irregular watering and drought makes it a classic beginner plant."
+      },
+      "source_ids": [
+        "src_wiki_en_epipremnum",
+        "src_wiki_de_efeutute",
+        "src_rhs_pothos"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "wellbeing"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Wie viele begrünte Innenräume kann auch die Goldene Efeutute das Wohlbefinden steigern: kontrollierte Studien zur Innenraumbegrünung zeigen Effekte auf wahrgenommenen Stress, Konzentration und Aufenthaltsqualität. Diese Effekte sind allgemein für Zimmerpflanzen belegt und nicht spezifisch für die Art.",
+        "en": "Like many indoor plants, golden pothos can contribute to occupant wellbeing: controlled studies on indoor greenery show effects on perceived stress, concentration and the quality of the environment. These effects are documented for indoor plants in general and are not specific to this species."
+      },
+      "source_ids": [
+        "src_wiki_en_epipremnum",
+        "src_rhs_pothos"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "In tropischen und subtropischen Außenanlagen wird Epipremnum aureum als bodendeckende oder kletternde Zierpflanze in Parks und Gärten verwendet. In Florida, Hawaii, Australien, Südostasien und auf vielen pazifischen Inseln gilt sie jedoch als invasiv: sie überwächst einheimische Vegetation, klettert hoch in Bäume und verändert ganze Waldökosysteme. Eine Auspflanzung in tropischen Regionen ist daher kritisch zu sehen.",
+        "en": "In tropical and subtropical landscapes, Epipremnum aureum is used as a creeping or climbing ornamental in parks and gardens. In Florida, Hawaii, Australia, Southeast Asia and many Pacific islands, however, it is regarded as invasive: it smothers native vegetation, climbs high into the canopy and alters entire forest ecosystems. Outdoor planting in tropical regions is therefore problematic."
+      },
+      "source_ids": [
+        "src_wiki_en_epipremnum",
+        "src_cabi_pothos"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental",
+        "low_maintenance"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Epipremnum aureum lässt sich extrem einfach vegetativ vermehren: Stängelstücke mit einem Knoten und einer Luftwurzel bewurzeln innerhalb von zwei bis drei Wochen in einem Wasserglas und können danach in Substrat umgepflanzt werden. Dadurch ist die Pflanze ein klassisches Tausch- und Geschenkobjekt in der Zimmerpflanzen-Community.",
+        "en": "Epipremnum aureum is extremely easy to propagate vegetatively: stem cuttings with one node and an aerial root develop roots in a glass of water within two to three weeks and can then be potted on. This makes it a classic exchange and gift plant in the houseplant community."
+      },
+      "source_ids": [
+        "src_rhs_pothos",
+        "src_wiki_en_epipremnum"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
     }
   ],
   "season": {
@@ -57,12 +133,56 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG für Hunde, Katzen und Menschen (Calciumoxalate). Bei Verzehr Maulreizung und Schwellung.",
-      "en": "TOXIC for dogs, cats and humans (calcium oxalates). Mouth irritation and swelling if eaten."
+      "de": "Alle Pflanzenteile enthalten unlösliche Calciumoxalat-Raphiden (Araceae-typische Nadelkristalle). Beim Kauen oder Verschlucken kommt es zu sofortigem Brennen in Mund und Rachen, Speichelfluss, Schwellung der Zunge und Schluckbeschwerden. Pflanzensaft kann bei empfindlichen Personen Hautreizungen auslösen. Außerhalb der Reichweite von Kleinkindern und Haustieren (insbesondere Katzen und Hunden) aufstellen. Keine innerliche Anwendung; nicht für Tee, Tinkturen oder Speisen verwenden.",
+      "en": "All plant parts contain insoluble calcium oxalate raphides (the needle crystals typical of the Araceae family). Chewing or swallowing causes immediate burning in the mouth and throat, salivation, swelling of the tongue and difficulty swallowing. Plant sap can cause skin irritation in sensitive people. Keep out of reach of small children and pets, especially cats and dogs. No internal use; do not prepare as tea, tincture or food."
     },
     "external_only": true,
-    "toxicity_level": "toxic",
-    "pet_toxic": true
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine spezifischen Sicherheitsdaten für die Schwangerschaft. Da keine innerliche Anwendung erfolgt, ergibt sich aus der reinen Zimmerpflanzenhaltung kein bekanntes Risiko. Verzehr vermeiden.",
+        "en": "No specific safety data during pregnancy. As the plant is not used internally, simply keeping it as a houseplant carries no known risk. Avoid ingestion."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine spezifischen Daten für die Stillzeit. Aus der reinen Haltung als Zimmerpflanze ergibt sich kein bekanntes Risiko; Verzehr ist auszuschließen.",
+        "en": "No specific data during lactation. Keeping the plant as a houseplant carries no known risk; ingestion must be avoided."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Calciumoxalat-Raphiden können bei Kindern starke Mundreizung, Speichelfluss und Schwellung verursachen. Pflanze für Kleinkinder unzugänglich aufstellen; Blätter und Stängel nicht in Reichweite hängender Ranken belassen.",
+        "en": "Calcium oxalate raphides can cause intense oral irritation, salivation and swelling in children. Place the plant out of reach of small children; avoid leaving hanging vines within reach."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Keine innerliche Anwendung — alle Pflanzenteile sind durch Calciumoxalate reizend und potenziell giftig.",
+        "en": "No internal use — all plant parts are irritant and potentially toxic due to calcium oxalates."
+      },
+      {
+        "de": "Bei bekannter Empfindlichkeit gegenüber Aronstabgewächsen (Araceae) Hautkontakt mit dem Pflanzensaft vermeiden; beim Umtopfen Handschuhe tragen.",
+        "en": "If sensitive to Araceae (arum family) plants, avoid skin contact with the sap; wear gloves when repotting."
+      },
+      {
+        "de": "Nicht in Haushalten mit knabbernden Haustieren (Katzen, Hunde, Nagetiere, Vögel) in deren Reichweite halten — Vergiftungssymptome bei Tieren umfassen Speichelfluss, Erbrechen und Schluckbeschwerden.",
+        "en": "Do not keep within reach of pets that chew on plants (cats, dogs, rodents, birds) — symptoms of poisoning in animals include salivation, vomiting and difficulty swallowing."
+      },
+      {
+        "de": "In tropischen und subtropischen Regionen (z. B. Florida, Hawaii, Australien) nicht im Freien auspflanzen — die Art ist dort invasiv und schädigt einheimische Ökosysteme.",
+        "en": "In tropical and subtropical regions (for example Florida, Hawaii, Australia) do not plant outdoors — the species is invasive there and damages native ecosystems."
+      },
+      {
+        "de": "Kein medizinischer Einsatz: Es gibt keine EMA-HMPC-Monographie, keine Kommission-E-Monographie und keine traditionelle medizinische Verwendung dieser Pflanze. Beworbene Heilanwendungen sind nicht belegt.",
+        "en": "No medicinal use: there is no EMA HMPC monograph, no Commission E monograph and no traditional medicinal use of this plant. Any advertised healing applications are unsupported."
+      }
+    ],
+    "drug_interactions": []
   },
   "classical_quotes": [],
   "sources": [
@@ -79,6 +199,55 @@
       "title": "Epipremnum aureum (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Epipremnum_aureum",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_nasa_1989",
+      "type": "monograph",
+      "title": "Interior Landscape Plants for Indoor Air Pollution Abatement (NASA TM-101766)",
+      "url": "https://ntrs.nasa.gov/citations/19930073077",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_cummings_2020",
+      "type": "monograph",
+      "title": "Cummings & Waring (2020): Potted plants do not improve indoor air quality — a review and analysis of reported VOC removal efficiencies. Journal of Exposure Science and Environmental Epidemiology 30(2): 253-261",
+      "url": "https://www.nature.com/articles/s41370-019-0175-9",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wiki_en_epipremnum",
+      "type": "wikipedia",
+      "title": "Epipremnum aureum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Epipremnum_aureum",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wiki_de_efeutute",
+      "type": "wikipedia",
+      "title": "Efeutute (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Efeutute",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wikidata_epipremnum",
+      "type": "wikidata",
+      "title": "Epipremnum aureum (Q156901) — Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q156901",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_rhs_pothos",
+      "type": "monograph",
+      "title": "Epipremnum aureum (devil's ivy) — Royal Horticultural Society plant profile",
+      "url": "https://www.rhs.org.uk/plants/6489/epipremnum-aureum/details",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_cabi_pothos",
+      "type": "monograph",
+      "title": "Epipremnum aureum (pothos) — CABI Invasive Species Compendium",
+      "url": "https://www.cabidigitallibrary.org/doi/10.1079/cabicompendium.111071",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -123,5 +292,97 @@
         "Cuttings root in a water glass in 2-3 weeks."
       ]
     }
-  }
+  },
+  "constituents": [
+    {
+      "name": "Calciumoxalat-Raphiden",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Unlösliche, nadelförmige Calciumoxalat-Kristalle (Raphiden) in spezialisierten Idioblasten — Araceae-typischer Reizstoff. Verursachen mechanische Verletzung von Schleimhäuten und sofortiges Brennen bei Kontakt.",
+        "en": "Insoluble needle-shaped calcium oxalate crystals (raphides) stored in specialised idioblasts — the irritant typical of Araceae. They cause mechanical injury to mucous membranes and immediate burning on contact."
+      }
+    },
+    {
+      "name": "Proteolytische Enzyme",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "In Araceae-Pflanzen begleiten proteolytische Enzyme die Calciumoxalat-Raphiden und verstärken die Reizwirkung an Schleimhäuten — sie tragen zum brennenden Effekt beim Verschlucken bei.",
+        "en": "In Araceae plants, proteolytic enzymes accompany the calcium oxalate raphides and amplify their irritant effect on mucous membranes — they contribute to the burning sensation when ingested."
+      }
+    },
+    {
+      "name": "Flavonoide",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Geringe Mengen an Flavonoiden in den Blättern; schwach antioxidativ, jedoch ohne nachgewiesene pharmakologische Relevanz beim Menschen.",
+        "en": "Small amounts of flavonoids in the leaves; mildly antioxidant but with no demonstrated pharmacological relevance in humans."
+      }
+    },
+    {
+      "name": "Phenolische Säuren",
+      "category": "phenolic_acid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Geringe Anteile an phenolischen Säuren in Blättern und Stängeln, typisch für Araceae; tragen nicht erkennbar zur Toxizität bei.",
+        "en": "Small amounts of phenolic acids in leaves and stems, typical of Araceae; not noticeably contributing to toxicity."
+      }
+    },
+    {
+      "name": "Chlorophyll",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hoher Chlorophyllgehalt — interessant: die buntblättrigen (variegaten) Sorten 'Golden Pothos', 'Marble Queen' und 'N'Joy' besitzen Bereiche mit weniger Chlorophyll und benötigen daher mehr Licht als rein grüne Pflanzen.",
+        "en": "High chlorophyll content — notably, the variegated cultivars 'Golden Pothos', 'Marble Queen' and 'N'Joy' have sectors with less chlorophyll and therefore need more light than uniformly green plants."
+      }
+    },
+    {
+      "name": "Formaldehyd (aufgenommen)",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Kein Pflanzeninhaltsstoff, sondern aufgenommener Luftschadstoff: in der NASA-Studie (Wolverton 1989) baute Epipremnum aureum Formaldehyd in versiegelten Kammern messbar ab. Praktischer Effekt in realen Räumen ist laut Cummings & Waring 2020 vernachlässigbar.",
+        "en": "Not a plant constituent but an absorbed pollutant: in the NASA study (Wolverton 1989), Epipremnum aureum measurably broke down formaldehyde in sealed chambers. The practical effect in real rooms is negligible according to Cummings & Waring 2020."
+      }
+    },
+    {
+      "name": "Benzol und Xylol (aufgenommen)",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "In den NASA-Kammertests entfernte die Goldene Efeutute auch Benzol und Xylol aus der Luft. Die Wirkung ist auf das geschlossene Kammer-Setup beschränkt und in normal belüfteten Wohnräumen praktisch nicht messbar.",
+        "en": "In the NASA chamber tests, golden pothos also removed benzene and xylene from the air. The effect is limited to the sealed chamber setup and is practically not measurable in normally ventilated rooms."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "Ganzjährig als Zimmerpflanze geeignet — kein saisonaler Erntezeitpunkt. Stecklinge bevorzugt im Frühjahr und Sommer (März bis September) schneiden, wenn die Pflanze aktiv wächst.",
+        "en": "Suitable year-round as a houseplant — no seasonal harvest timing. Cuttings are best taken in spring and summer (March to September) when the plant is actively growing."
+      },
+      "drying": {
+        "de": "Nicht zur Trocknung oder Verarbeitung geeignet — ausschließlich als lebende Zimmerpflanze verwenden. Keine innerliche oder volksmedizinische Anwendung.",
+        "en": "Not suitable for drying or processing — exclusively used as a living houseplant. No internal or folk-medicinal use."
+      }
+    }
+  ]
 }

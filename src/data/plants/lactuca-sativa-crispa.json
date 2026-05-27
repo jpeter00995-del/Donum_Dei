@@ -26,13 +26,114 @@
         "digestion"
       ],
       "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
       "description": {
-        "de": "In der Küche wird Schnittsalat wie Kopfsalat frisch mit verschiedenen kalten Saucen und Kräutern als Blattsalat angemacht. Salate werden z.&nbsp;B. in der französischen und italienischen Küche auch als Gemüsebeilage zu Fleisch- oder Fischgerichten oder als Teil der Vorspeise gebraten oder geschmort. Oriental Greens werden in Asien für den Wok kurz in der Pfanne angegart.",
-        "en": "As described around 50 AD, lettuce leaves were often cooked and served by the Romans with an oil-and-vinegar dressing; however, smaller leaves were sometimes eaten raw. During the 81–96 AD reign of Domitian, the tradition of serving a lettuce salad before a meal began. Post-Roman Europe continued the tradition of poaching lettuce, mainly with large romaine types, as well as the method of pouring a hot oil and vinegar mixture over the leaves."
+        "de": "Schnitt- bzw. Pflücksalat ist eine Cultivar-Gruppe von Lactuca sativa, die anders als der Kopfsalat keinen geschlossenen Kopf bildet, sondern eine lockere Blattrosette mit gekrausten oder glatten, oft farbigen Blättern (Lollo Rossa, Lollo Bionda, Eichblatt). Roh als Blattsalat verzehrt liefert er pro 100 g rund 95 % Wasser, etwa 14 kcal sowie nennenswerte Mengen Vitamin K1, Folsäure, Provitamin A und Kalium bei sehr geringer Energiedichte — ein klassisches Sättigungsgemüse, das die Hydrierung unterstützt und durch seinen Ballaststoffanteil die Darmperistaltik anregt.",
+        "en": "Looseleaf or cutting lettuce is a cultivar group of Lactuca sativa that, unlike head lettuce, does not form a closed head but rather a loose rosette of curled or smooth, often coloured leaves (Lollo Rossa, Lollo Bionda, oakleaf). Eaten raw as a leaf salad it supplies per 100 g about 95 % water, around 14 kcal and meaningful amounts of vitamin K1, folate, provitamin A and potassium at very low energy density — a classic satiety vegetable that supports hydration and stimulates intestinal peristalsis through its dietary fibre."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src_wp_de_schnittsalat",
+        "src_wp_en_lettuce",
+        "src_usda_loose_leaf_lettuce",
+        "src_pfaf_lactuca"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "circulation"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Pflücksalat ist eine der gehaltvollsten Vitamin-K1-Quellen unter den Salaten: Looseleaf-Sorten liefern laut USDA rund 125 µg Phyllochinon pro 100 g frisch — etwa 100 % des täglichen Bedarfs. Vitamin K ist für die Carboxylierung der Gerinnungsfaktoren II, VII, IX und X sowie für die Aktivierung des Knochenproteins Osteocalcin essenziell. Die dunkelgrünen, roten oder bronzefarbenen Außenblätter enthalten deutlich mehr Vitamin K und Carotinoide als die hellen Innenblätter und sollten mitgegessen werden.",
+        "en": "Looseleaf lettuce is one of the richest vitamin K1 sources among lettuces: USDA data give approx. 125 µg phylloquinone per 100 g fresh — about 100 % of the daily requirement. Vitamin K is essential for carboxylation of coagulation factors II, VII, IX and X and for activating the bone protein osteocalcin. Dark green, red or bronze outer leaves contain substantially more vitamin K and carotenoids than the pale inner leaves and should be eaten rather than discarded."
+      },
+      "source_ids": [
+        "src_usda_loose_leaf_lettuce",
+        "src_wp_en_lettuce",
+        "src_nutritionvalue_looseleaf"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "immune"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Pflücksalat ist eine relevante Quelle für Folsäure (Vitamin B9, ca. 38 µg/100 g) und Provitamin A in Form von Beta-Carotin (ca. 4400 µg/100 g, vor allem in dunkelgrünen Sorten). Folsäure ist besonders in der Frühschwangerschaft zur Neuralrohrprävention bedeutsam; Beta-Carotin wird bedarfsgerecht in Retinol umgewandelt und unterstützt Sehfunktion, Immunabwehr und Hautintegrität. Die Carotinoid-Aufnahme verbessert sich erheblich, wenn der Salat mit etwas Fett (Öl-Dressing) verzehrt wird.",
+        "en": "Looseleaf lettuce is a relevant source of folate (vitamin B9, approx. 38 µg/100 g) and provitamin A in the form of beta-carotene (approx. 4400 µg/100 g, especially in dark green varieties). Folate is particularly important in early pregnancy for neural tube prevention; beta-carotene is converted to retinol as needed and supports vision, immune defence and skin integrity. Carotenoid absorption improves considerably when the salad is consumed with some fat (oil dressing)."
+      },
+      "source_ids": [
+        "src_usda_loose_leaf_lettuce",
+        "src_nutritionvalue_looseleaf",
+        "src_wp_en_lettuce"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system",
+        "sleep"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der deutschen und europäischen Volksmedizin des 18. und 19. Jahrhunderts galt ein milder Aufguss aus dem bitteren Milchsaft (Lattichopium, lateinisch Lactucarium) schießender Salatpflanzen als sanftes Schlaf- und Beruhigungsmittel sowie als Hustenlinderer. Geerntet wurde der eingetrocknete weisse Milchsaft, der beim Anschnitt von Stängel und Blattadern austritt; er enthält die Sesquiterpenlactone Lactucin und Lactucopikrin. Schnittsalat (L. sativa) liefert deutlich mildere Konzentrationen als der verwandte Giftlattich (L. virosa), aus dem das pharmazeutische Lactucarium gewonnen wurde. Klinische Wirksamkeitsbelege beim Menschen liegen nicht vor; die Anwendung ist rein volkskundlich.",
+        "en": "In German and European folk medicine of the 18th and 19th centuries, a mild infusion of the bitter milky sap (lettuce opium, Latin lactucarium) from bolting lettuce plants was regarded as a gentle sleep aid, sedative and cough remedy. The dried white latex that exudes when the stem and leaf veins are cut was harvested; it contains the sesquiterpene lactones lactucin and lactucopicrin. Cutting lettuce (L. sativa) yields substantially milder concentrations than the related wild lettuce (L. virosa), from which pharmaceutical lactucarium was obtained. Clinical efficacy data in humans are lacking; the use is purely traditional folk medicine."
+      },
+      "source_ids": [
+        "src_wp_en_lactucarium",
+        "src_pfaf_lactuca",
+        "src_wp_en_lactucopicrin"
+      ],
+      "preparation": {
+        "de": "Volkskundlich beschriebene Zubereitung (keine therapeutische Empfehlung): 1-2 Teeloeffel grob zerkleinerte, vorzugsweise schießende Blaetter und Stängel mit ca. 200 ml kochendem Wasser uebergiessen, 8-10 Minuten ziehen lassen, abseihen. Abends 1 Tasse vor dem Schlafengehen. Wirkung mild; bei kultiviertem Schnittsalat sind die Bitterstoffkonzentrationen gering.",
+        "en": "Folk preparation (no therapeutic recommendation): pour about 200 ml boiling water over 1-2 teaspoons of coarsely chopped, preferably bolting leaves and stems, steep 8-10 minutes, strain. One cup in the evening before bedtime. Effect is mild; in cultivated cutting lettuce the bitter constituent levels are low."
+      }
+    },
+    {
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der mitteleuropäischen Hausmittel-Tradition wurden gekuehlte, gewaschene Salatblaetter als kuehlende Auflage auf muede, geschwollene Augenlider, leicht gereizte Haut oder kleinere Hautrötungen gelegt. Der hohe Wasseranteil (~95 %) bewirkt einen verdunstungskühlenden Effekt und mildert das subjektive Spannungsgefühl. Die Anwendung ist volkskundlich überliefert, jedoch nicht durch klinische Studien belegt; bei offenen Wunden oder Augeninfektionen ist davon abzuraten.",
+        "en": "In Central European household tradition, chilled washed lettuce leaves were placed as a cooling compress on tired, swollen eyelids, mildly irritated skin or minor redness. The high water content (~95 %) produces an evaporative cooling effect and eases subjective tension. The use is folkloric and not supported by clinical trials; not advisable on open wounds or eye infections."
+      },
+      "source_ids": [
+        "src_pfaf_lactuca",
+        "src_wp_de_schnittsalat"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Pflücksalat eignet sich besonders gut fuer die 'Cut-and-come-again'-Methode: Statt einen ganzen Kopf zu ernten, werden nur die äußeren Blaetter abgeschnitten oder gezupft, während die Pflanze aus dem Vegetationspunkt heraus weiterwächst. Dies ermöglicht über mehrere Wochen kontinuierliche Ernten kleiner Mengen — ideal fuer Smoothies, gemischte Salate, als Wrap-Belag oder als Garnitur. Die jungen Blaetter sind besonders zart und mild; mit zunehmendem Alter und vor dem Schiessen werden sie bitter.",
+        "en": "Looseleaf lettuce is particularly well suited to the 'cut-and-come-again' method: instead of harvesting a whole head, only the outer leaves are cut or picked while the plant continues growing from its growing point. This allows continuous small harvests over several weeks — ideal for smoothies, mixed salads, as a wrap filling or garnish. Young leaves are particularly tender and mild; with age and approaching bolting they turn bitter."
+      },
+      "source_ids": [
+        "src_wp_de_schnittsalat",
+        "src_pfaf_lactuca"
       ]
     }
   ],
@@ -52,12 +153,75 @@
   },
   "safety": {
     "warnings": {
-      "de": "Cut-and-come-again-Methode: aussere Blätter ernten, Pflanze wächst nach.",
-      "en": "Cut-and-come-again method: harvest outer leaves, plant regrows."
+      "de": "LATTICHOPIUM (Lactucarium): Der bittere Milchsaft schießender Salatpflanzen enthält die Sesquiterpenlactone Lactucin und Lactucopikrin. Bei kultiviertem Schnitt- bzw. Pflücksalat sind die Konzentrationen in üblichen Salatmengen unbedenklich gering. Sehr große Mengen schießender Pflanzen oder isolierter Milchsaft können laut PFAF Schläfrigkeit, paradoxe Übererregbarkeit und in Extremdosen Herz-Kreislauf-Wirkungen verursachen — fuer den normalen Verzehr kein praktisches Risiko. VITAMIN K: Pflücksalat zählt zu den Vitamin-K-reichsten Salaten (~125 µg/100 g); Patienten unter Vitamin-K-Antagonisten (Marcumar/Phenprocoumon, Warfarin) sollten die tägliche Aufnahme aus Grüngemüsen konsistent halten und nicht plötzlich stark variieren. KONTAMINATIONSRISIKO: Roh verzehrte Blattsalate koennen bakterielle und virale Erreger (E. coli O157:H7, Salmonellen, Listerien, Noroviren) tragen — gründlich waschen, ggf. trinkwasserqualitatives Spülwasser verwenden, Herkunft beachten. ALLERGIE: Selten Compositae- bzw. Asteraceae-Sensibilisierung möglich.",
+      "en": "LETTUCE OPIUM (lactucarium): The bitter milky sap of bolting lettuce contains the sesquiterpene lactones lactucin and lactucopicrin. In cultivated cutting/looseleaf lettuce, concentrations at customary salad amounts are safely low. Very large amounts of bolting plants or isolated milky sap may, according to PFAF, cause drowsiness, paradoxical over-excitation and in extreme doses cardiovascular effects — no practical risk at normal consumption. VITAMIN K: Looseleaf lettuce is among the vitamin K-richest lettuces (~125 µg/100 g); patients on vitamin K antagonists (warfarin, phenprocoumon) should keep their daily intake from leafy greens consistent rather than letting it fluctuate suddenly. CONTAMINATION RISK: Raw leafy salads may carry bacterial and viral pathogens (E. coli O157:H7, Salmonella, Listeria, norovirus) — wash thoroughly, use drinking-water-quality rinse water where possible and pay attention to provenance. ALLERGY: Rare Compositae/Asteraceae sensitisation is possible."
     },
     "external_only": false,
-    "toxicity_level": "caution",
-    "pet_toxic": false
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Pflücksalat ist in der Schwangerschaft sehr gut geeignet — wertvolle Quelle fuer Folsäure, Vitamin A und Vitamin K bei minimaler Energiezufuhr. Wichtig: Blätter gründlich waschen, um das Risiko einer Listeriose oder Toxoplasmose-Übertragung über kontaminierte Erde zu minimieren. Vorgewaschene Salate aus dem Beutel werden in der Schwangerschaft oft als unproblematisch eingestuft, sollten aber zusätzlich gespült werden.",
+        "en": "Looseleaf lettuce is very suitable in pregnancy — a valuable source of folate, vitamin A and vitamin K at minimal energy cost. Important: wash leaves thoroughly to minimise the risk of listeriosis or toxoplasmosis transmission via contaminated soil. Pre-washed bagged salads are often considered unproblematic in pregnancy but should still be additionally rinsed."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Unbedenklich in der Stillzeit. In sehr alten Überlieferungen galt Salat — auch der Milchsaft — als milchfördernd (galaktagog); wissenschaftlich nicht belegt. Auf gute Hygiene und gründliches Waschen achten.",
+        "en": "Safe during lactation. In very old traditions lettuce — including the milky sap — was considered galactagogue (milk-promoting); not scientifically substantiated. Pay attention to good hygiene and thorough washing."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Pflücksalat ist ab dem Beikostalter (ca. 8-10 Monate) geeignet — zarte, fein geschnittene Blätter als Beikostbestandteil. Fuer Kleinkinder fein zerkleinern oder pürieren; ganze Blätter erst ab sicherem Kauvermögen, um Verschlucken zu vermeiden. Hygiene: Blätter gründlich waschen. Volkstümliche Lactucarium-Tee-Anwendungen werden fuer Kinder nicht empfohlen.",
+        "en": "Looseleaf lettuce is suitable from weaning age (approx. 8-10 months) — tender, finely chopped leaves as part of weaning foods. For toddlers, chop or puree finely; whole leaves only once reliable chewing is established to avoid choking. Hygiene: wash leaves thoroughly. Traditional lactucarium tea applications are not recommended for children."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Vitamin-K-Antagonisten (Cumarin-Derivate wie Phenprocoumon/Marcumar, Warfarin)",
+        "mechanism": {
+          "de": "Pflücksalat enthaelt ca. 125 µg Vitamin K1 pro 100 g und gehört damit zu den Vitamin-K-reichsten Salaten. Stark schwankende tägliche Salatmengen können den INR-Wert destabilisieren. Patienten unter Cumarin-Therapie sollten die gesamte tägliche Vitamin-K-Aufnahme aus Grüngemüsen konsistent halten — nicht meiden, sondern gleichmäßig dosieren.",
+          "en": "Looseleaf lettuce contains approx. 125 µg vitamin K1 per 100 g and is among the vitamin K-richest lettuces. Strongly fluctuating daily salad amounts can destabilise the INR. Patients on coumarin therapy should keep total daily vitamin K intake from green vegetables consistent — not avoid it, but dose it evenly."
+        },
+        "severity": "monitor",
+        "source_id": "src_usda_loose_leaf_lettuce"
+      },
+      {
+        "drug_class": "Sedativa und ZNS-dämpfende Arzneimittel (Benzodiazepine, Z-Substanzen, Opioide, Antihistaminika der 1. Generation)",
+        "mechanism": {
+          "de": "Bei volkskundlicher Anwendung des Lattichopium-Tees aus schießenden Pflanzen besteht theoretisch eine additive sedierende Wirkung mit anderen ZNS-Dämpfern. Bei normalem Verzehr von Schnittsalat als Lebensmittel ist dies nicht relevant; die Warnung betrifft konzentrierte Lactucarium-Zubereitungen und Mischungen mit Wildlattich (L. virosa).",
+          "en": "With folk use of lettuce-opium infusions from bolting plants, an additive sedative effect with other CNS depressants is theoretically possible. At normal consumption of looseleaf lettuce as a food, this is not relevant; the caution refers to concentrated lactucarium preparations and mixtures with wild lettuce (L. virosa)."
+        },
+        "severity": "caution",
+        "source_id": "src_wp_en_lactucarium"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Asteraceae (Korbblütler) — selten, aber moeglich. Bei Asteraceae-Allergie (z. B. Beifuß-, Ambrosie-Allergie) Kreuzreaktionen mit Salatkonsum möglich.",
+        "en": "Known hypersensitivity to Asteraceae (daisy family) — rare but possible. In Asteraceae allergy (e.g. mugwort, ragweed) cross-reactions with lettuce consumption are possible."
+      },
+      {
+        "de": "Schwere Immunsuppression: Roher Blattsalat kann Listerien, E. coli und andere Erreger tragen. Stark immunsupprimierte Personen sollten Salat ggf. nur gut gewaschen und nach Rücksprache mit der behandelnden Stelle verzehren.",
+        "en": "Severe immunosuppression: raw leafy salads may carry Listeria, E. coli and other pathogens. Strongly immunosuppressed individuals should consume lettuce only well washed and after consulting their treating clinician."
+      },
+      {
+        "de": "Schwere Niereninsuffizienz mit Kaliumrestriktion: Salat im Rahmen der Gesamt-Kaliumbilanz berücksichtigen — Konzentration pro 100 g ist gering, der Verzehr großer Mengen kann jedoch beitragen.",
+        "en": "Severe renal failure with potassium restriction: include lettuce in the overall potassium balance — concentration per 100 g is low, but large consumption can contribute."
+      },
+      {
+        "de": "Volkskundliche Lactucarium-Tee-Anwendungen sind kein anerkannter Schlafmittel-Ersatz und sollten nicht ohne fachliche Beratung dauerhaft eingesetzt werden; bei Schwangerschaft, Stillzeit und im Kindesalter werden konzentrierte Zubereitungen nicht empfohlen.",
+        "en": "Folk lactucarium tea applications are not a recognised replacement for sleep medication and should not be used long-term without professional advice; concentrated preparations are not recommended in pregnancy, lactation and childhood."
+      },
+      {
+        "de": "Patienten unter Cumarin-Antikoagulation: keine plötzlichen Sprünge in der täglichen Salatmenge — INR-Stabilität durch gleichmäßige Aufnahme.",
+        "en": "Patients on coumarin anticoagulation: avoid sudden swings in daily lettuce amounts — INR stability through consistent intake."
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -74,6 +238,62 @@
       "title": "Lettuce (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Lettuce",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wp_de_schnittsalat",
+      "type": "wikipedia",
+      "title": "Schnittsalat (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Schnittsalat",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wp_en_lettuce",
+      "type": "wikipedia",
+      "title": "Lettuce (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Lettuce",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_usda_loose_leaf_lettuce",
+      "type": "monograph",
+      "title": "USDA FoodData Central — Lettuce, leaf, green, raw (SR Legacy)",
+      "url": "https://fdc.nal.usda.gov/food-details/169247/nutrients",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_nutritionvalue_looseleaf",
+      "type": "monograph",
+      "title": "Lettuce, raw, green leaf — nutritional value per 100 g (nutritionvalue.org, citing USDA SR)",
+      "url": "https://www.nutritionvalue.org/Lettuce%2C_raw%2C_green_leaf_nutritional_value.html",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_pfaf_lactuca",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Lactuca sativa database entry",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Lactuca+sativa",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wp_en_lactucarium",
+      "type": "wikipedia",
+      "title": "Lactucarium (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Lactucarium",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wp_en_lactucopicrin",
+      "type": "wikipedia",
+      "title": "Lactucopicrin (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Lactucopicrin",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wikidata_lactuca_crispa",
+      "type": "wikidata",
+      "title": "Lactuca sativa var. crispa — Wikidata (Q1273450)",
+      "url": "https://www.wikidata.org/wiki/Q1273450",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -135,5 +355,143 @@
   "permaculture_functions": [
     "vertical_low",
     "ground_cover"
+  ],
+  "constituents": [
+    {
+      "name": "Vitamin K1 (Phyllochinon)",
+      "category": "vitamin",
+      "percent_range": "ca. 125 µg/100 g frisch (Looseleaf)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Schnittsalat ist eine der gehaltvollsten Vitamin-K1-Quellen unter den Salaten — etwa 100 % des Tagesbedarfs pro 100 g. Dunkelgrüne und rote Sorten (Lollo Rossa, Eichblatt) liefern deutlich mehr Phyllochinon als die helleren Innenblätter. Vitamin K1 ist essenziell fuer die Blutgerinnung und die Knochenmineralisation.",
+        "en": "Looseleaf lettuce is one of the richest vitamin K1 sources among lettuces — about 100 % of the daily requirement per 100 g. Dark green and red varieties (Lollo Rossa, oakleaf) supply considerably more phylloquinone than the paler inner leaves. Vitamin K1 is essential for blood coagulation and bone mineralisation."
+      }
+    },
+    {
+      "name": "Lactucin",
+      "category": "sesquiterpene",
+      "percent_range": "Spuren in L. sativa; deutlich höher in L. virosa",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Bitteres Sesquiterpenlacton der Guaianolid-Gruppe und einer der Hauptbestandteile des Lattichopiums (Lactucarium). In kultiviertem Schnittsalat nur in Spuren enthalten; die Konzentration steigt beim Schießen (Bolting). Tierexperimentell sind sedative und analgetische Eigenschaften beschrieben; belastbare klinische Belege beim Menschen fehlen.",
+        "en": "Bitter sesquiterpene lactone of the guaianolide group and one of the main constituents of lettuce opium (lactucarium). Present only in trace amounts in cultivated cutting lettuce; concentrations rise during bolting. Sedative and analgesic properties have been described in animal experiments; robust clinical evidence in humans is lacking."
+      }
+    },
+    {
+      "name": "Lactucopikrin",
+      "category": "sesquiterpene",
+      "percent_range": "Spuren in L. sativa; höher in L. virosa",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Bitterstoff (auch Intybin genannt), der dem schiessenden Salat seinen intensiv bitteren Geschmack verleiht. Lactucopikrin wirkt im Tierversuch als Acetylcholinesterase-Hemmer und zeigt sedative sowie analgetische Effekte; in vitro wurde antimalarische Aktivität nachgewiesen. In Nahrungsmengen aus kultiviertem Pflücksalat ist kein pharmakologisch relevanter Effekt zu erwarten.",
+        "en": "Bitter principle (also called intybin) responsible for the intensely bitter taste of bolting lettuce. Lactucopicrin acts as an acetylcholinesterase inhibitor in animal studies and shows sedative and analgesic effects; antimalarial activity has been demonstrated in vitro. At dietary amounts from cultivated looseleaf lettuce, no pharmacologically relevant effect is expected."
+      }
+    },
+    {
+      "name": "Beta-Carotin (Provitamin A)",
+      "category": "other",
+      "percent_range": "ca. 4400 µg/100 g (looseleaf, sortenabhängig)",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Wichtigstes fettlösliches Antioxidans im Pflücksalat; im Körper bedarfsgerecht zu Retinol (Vitamin A) umgewandelt. Dunkelgrüne und rote Sorten enthalten ein Vielfaches an Beta-Carotin gegenüber Eissalat. Aufnahme deutlich verbessert durch Fettzusatz (Öl-Dressing).",
+        "en": "Most important fat-soluble antioxidant in looseleaf lettuce; converted to retinol (vitamin A) as needed in the body. Dark green and red varieties contain many times more beta-carotene than iceberg lettuce. Absorption is markedly improved by added fat (oil dressing)."
+      }
+    },
+    {
+      "name": "Folsäure (Folat, Vitamin B9)",
+      "category": "vitamin",
+      "percent_range": "ca. 38 µg/100 g frisch",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Folat ist essenziell fuer Zellteilung und Aminosäurestoffwechsel; besonders wichtig in der Frühschwangerschaft zur Neuralrohrprävention. Pflücksalat ist ein moderater Folatlieferant — der Gehalt liegt unterhalb von Butterhead-Typen, aber deutlich oberhalb von Eissalat.",
+        "en": "Folate is essential for cell division and amino acid metabolism; particularly important in early pregnancy for neural tube prevention. Looseleaf lettuce is a moderate folate source — content is lower than butterhead types but considerably higher than iceberg."
+      }
+    },
+    {
+      "name": "Quercetin",
+      "category": "flavonoid",
+      "percent_range": "erhöht in roten und gekrausten Sorten",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Flavonol mit antioxidativen Eigenschaften, das in roten und gekrausten Schnittsalat-Sorten (Lollo Rossa, Eichblatt rot) deutlich höher konzentriert ist als in hellen Varietäten. Quercetin trägt zur Radikalfänger-Kapazität von Blattgemüsen bei; pharmakologisch relevante Dosen werden über die Nahrung jedoch nicht erreicht.",
+        "en": "Flavonol with antioxidant properties, considerably more concentrated in red and curled looseleaf varieties (Lollo Rossa, red oakleaf) than in pale ones. Quercetin contributes to the radical-scavenging capacity of leafy vegetables; pharmacologically relevant doses are not reached through diet."
+      }
+    },
+    {
+      "name": "Kämpferol",
+      "category": "flavonoid",
+      "percent_range": "Spuren bis geringe Mengen",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Begleitendes Flavonol des Quercetins, ebenfalls antioxidativ wirksam. Verteilt sich ähnlich wie Quercetin bevorzugt in den farbintensiven Außenblättern roter und gekrausten Sorten.",
+        "en": "Co-occurring flavonol alongside quercetin, also with antioxidant activity. Distribution mirrors quercetin, with higher levels in the colour-intense outer leaves of red and curled varieties."
+      }
+    },
+    {
+      "name": "Kalium",
+      "category": "mineral",
+      "percent_range": "ca. 194-238 mg/100 g frisch",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Pflücksalat ist ein moderater Kaliumlieferant. Kalium ist essenziell fuer neuromuskuläre Funktion und Blutdruckregulation. Aufgrund des hohen Wasseranteils ist die Kalium-Konzentration pro Energieeinheit hoch; bei stark eingeschränkter Kaliumzufuhr (schwere Niereninsuffizienz) ist auch der Salatverzehr in die Bilanz einzubeziehen.",
+        "en": "Looseleaf lettuce is a moderate potassium source. Potassium is essential for neuromuscular function and blood pressure regulation. Owing to the high water content, potassium concentration per energy unit is high; under severe potassium restriction (advanced renal failure), lettuce consumption should be included in the balance."
+      }
+    },
+    {
+      "name": "Wasser (Zellwasser mit gelösten Mineralstoffen)",
+      "category": "other",
+      "percent_range": "94-96 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Der außergewöhnlich hohe Wassergehalt macht Pflücksalat zu einem natürlichen Hydratationsgemüse mit sehr geringer Energiedichte (~14 kcal/100 g). Das Zellwasser enthält osmotisch aktive Mineralstoffe (Kalium, Calcium, Magnesium) und ist ein wesentlicher Faktor fuer die kühlende und leicht wassertreibende Wirkung, die der Volksmedizin bekannt war.",
+        "en": "The exceptionally high water content makes looseleaf lettuce a natural hydration vegetable with very low energy density (~14 kcal/100 g). The cell water contains osmotically active minerals (potassium, calcium, magnesium) and is a key factor behind the cooling and mildly diuretic effect known in folk medicine."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Morgens oder an kühlen Abenden ernten, wenn die Blaetter prall mit Wasser gefüllt sind — mittagshitze laesst Pflücksalat welken. Cut-and-come-again: äußere Blaetter einzeln knapp ueber dem Vegetationspunkt abschneiden oder zupfen, sobald sie ausgewachsen, aber noch zart sind (Länge ca. 8-15 cm). Pflanze wächst aus der Mitte weiter; ueber mehrere Wochen wiederholbar. Vor dem Schiessen (Streckung der Mittelachse) ist der Geschmack am mildesten.",
+        "en": "Harvest in the morning or on cool evenings, when leaves are turgid with water — midday heat causes looseleaf lettuce to wilt. Cut-and-come-again: cut or pick outer leaves individually just above the growing point once fully grown but still tender (approx. 8-15 cm long). The plant continues growing from the centre; repeatable over several weeks. Flavour is mildest before bolting (elongation of the central axis)."
+      },
+      "drying": {
+        "de": "ERNTE UND LAGERUNG: Geerntete Blaetter ungewaschen in einem perforierten Gemüsebeutel oder Behälter im Kühlschrank-Gemüsefach (0-2 °C, hohe Luftfeuchtigkeit 95-98 %) aufbewahren — Haltbarkeit ca. 3-5 Tage. Vor dem Verzehr in kaltem Wasser waschen und gut trockenschleudern. Druckempfindlich, nicht stapeln. Nicht neben ethylenproduzierenden Früchten (Aepfel, Tomaten) lagern. Schnittsalat-Blaetter sind nicht zum Trocknen geeignet — ihr hoher Wassergehalt fuehrt zu Welken statt zu Konservierung; bei Überschuss Smoothies oder kurz angedünstetes 'gewilkertes' Salatgemuese.",
+        "en": "HARVEST AND STORAGE: Store harvested leaves unwashed in a perforated vegetable bag or container in the refrigerator vegetable drawer (0-2 °C, high humidity 95-98 %) — shelf life approx. 3-5 days. Wash in cold water and spin-dry well before use. Pressure-sensitive, do not stack. Do not store next to ethylene-producing fruits (apples, tomatoes). Looseleaf lettuce leaves are not suitable for drying — their high water content leads to wilting rather than preservation; for surplus, use smoothies or briefly braised 'wilted' lettuce greens."
+      },
+      "storage_condition": {
+        "de": "0-2 °C, hohe Luftfeuchtigkeit (95-98 %), ungewaschen, drucksicher verpackt. Getrennt von Ethylen-Produzenten (Aepfel, Tomaten).",
+        "en": "0-2 °C, high humidity (95-98 %), unwashed, pressure-protected packaging. Separate from ethylene producers (apples, tomatoes)."
+      }
+    },
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Lactucarium-Ernte (volkskundlich, nicht zur therapeutischen Anwendung): Im Hochsommer, wenn einzelne Pflanzen bereits schiessen und Blütenstaengel ausbilden, am späten Vormittag bei trockenem Wetter Stängel knapp ueber dem Boden anschneiden. Der austretende milchige Saft wird mit einem Holz- oder Glasspatel aufgefangen und an der Luft eingetrocknet — er wird braun bis fast schwarz. Ausbeute aus L. sativa ist gering im Vergleich zum verwandten L. virosa.",
+        "en": "Lactucarium harvest (folkloric, not for therapeutic use): in high summer, when individual plants are already bolting and forming flowering stems, cut the stems just above ground level in late morning on dry weather. The exuding milky sap is collected with a wooden or glass spatula and air-dried — it turns brown to almost black. Yield from L. sativa is low compared to the related L. virosa."
+      },
+      "drying": {
+        "de": "Den ausgetretenen Milchsaft an der Luft trocknen lassen, bis er bröselig wird, dann in luftdichten Glasgefäßen lichtgeschützt aufbewahren. Lagerung trocken, kühl, dunkel — Haltbarkeit ca. 12 Monate. Hinweis: Reines Lattichopium ist heute pharmazeutisch nicht mehr im Handel; Eigenherstellung ist rein traditionell-volkskundlich.",
+        "en": "Allow the exuded latex to air-dry until brittle, then store in airtight glass jars protected from light. Store dry, cool and dark — shelf life approx. 12 months. Note: pure lettuce opium is no longer pharmaceutically available; home preparation is purely traditional/folkloric."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, kuehl (unter 20 °C), dunkel, luftdicht in Glas. Vor Feuchtigkeit schuetzen.",
+        "en": "Dry, cool (below 20 °C), dark, airtight in glass. Protect from moisture."
+      }
+    }
   ]
 }

@@ -22,17 +22,93 @@
     {
       "form": "raw",
       "target": [
-        "air_quality"
+        "ornamental",
+        "wellbeing"
       ],
       "internal_external": "external",
       "description": {
-        "de": "Wenige Arten werden genutzt. Erdmandel (Cyperus esculentus) und Nussgras (Cyperus rotundus) dienen als Nahrungsmittel. Aus dem Echten Papyrus (Cyperus papyrus) wurde Papyrus hergestellt. Cyperus alternifolius wird als Zimmerpflanze verwendet. Im Heimtierbedarf wird sogenanntes Katzengras unter dem Namen Cyperus zumula angeboten.",
-        "en": "Wechselbl%C3%A4ttriges_Zyperngras is traditionally cultivated as a houseplant valued for improving indoor air quality. A member of the Sedge family — common in European folk medicine and culinary tradition."
+        "de": "Das Wechselblättrige Zyperngras wird wegen seiner charakteristisch schirmförmig angeordneten Hochblätter als dekorative Zimmer- und Teichrandpflanze kultiviert. Die markante, palmenartige Silhouette gilt als gestalterisches Element für feuchte Standorte wie Badezimmer oder Wintergärten.",
+        "en": "Umbrella sedge is cultivated as an ornamental houseplant and pond-edge plant for its characteristic umbrella-shaped whorls of bracts. Its palm-like silhouette is valued as a design element for humid locations such as bathrooms or conservatories."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src_wiki_de_cyperus_alternifolius",
+        "src_wiki_en_cyperus_alternifolius",
+        "src_kew_pow_cyperus_alternifolius"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "low_maintenance",
+        "humidifying"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Als Sumpfpflanze toleriert Cyperus alternifolius dauerhaft nasse Substrate und Hydrokultur — anders als die meisten Zimmerpflanzen wächst er sogar in einem ständig mit Wasser gefüllten Untersetzer. Bei ausreichender Wasserversorgung gilt er als pflegeleicht; Wassermangel ist der häufigste Pflegefehler und führt rasch zu braunen Blattspitzen.",
+        "en": "As a marsh plant, Cyperus alternifolius tolerates permanently wet substrates and hydroculture — unlike most houseplants it even thrives in a saucer kept permanently filled with water. Given adequate water it is considered low-maintenance; underwatering is the most common care mistake and quickly leads to browning leaf tips."
+      },
+      "source_ids": [
+        "src_wiki_de_cyperus_alternifolius",
+        "src_rhs_cyperus_alternifolius",
+        "src_missouri_bg_cyperus"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental",
+        "wellbeing"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Cyperus alternifolius wird häufig als Aquarien- oder Paludarium-Randpflanze gehalten, wobei die Wurzeln im Wasser und die Schirme über der Wasseroberfläche stehen. Die kontinuierliche Verdunstung über die Halme erhöht die Luftfeuchtigkeit im Raum spürbar.",
+        "en": "Cyperus alternifolius is often grown as an aquarium or paludarium edge plant, with roots submerged and the umbrellas above the water line. Continuous transpiration through the culms noticeably raises ambient humidity."
+      },
+      "source_ids": [
+        "src_missouri_bg_cyperus",
+        "src_rhs_cyperus_alternifolius"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ethnobotany"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Cyperus alternifolius gehört zur selben Gattung wie der ägyptische Papyrus (Cyperus papyrus), aus dessen Mark seit etwa 3000 v. Chr. das gleichnamige Schreibmaterial gefertigt wurde. Aufgrund der ähnlichen Schirmform wird das Wechselblättrige Zyperngras gelegentlich als 'Zwerg-Papyrus' bezeichnet und in botanischen Sammlungen als ethnobotanischer Familien-Vertreter gezeigt — eine eigene historische Nutzung als Schreibmaterial ist jedoch nicht belegt.",
+        "en": "Cyperus alternifolius belongs to the same genus as Egyptian papyrus (Cyperus papyrus), whose pith was used from around 3000 BCE to manufacture the writing material of the same name. Because of the similar umbrella shape, umbrella sedge is sometimes marketed as 'dwarf papyrus' and shown in botanical collections as an ethnobotanical family representative — although it has no documented use as a writing material in its own right."
+      },
+      "source_ids": [
+        "src_wiki_en_cyperus_papyrus",
+        "src_britannica_papyrus",
+        "src_kew_pow_cyperus_alternifolius"
+      ],
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "In Madagaskar, dem natürlichen Verbreitungsgebiet, wächst Cyperus alternifolius an Bach- und Sumpfufern. Außerhalb seiner Heimat hat er sich in vielen subtropischen Regionen — etwa Südeuropa, Kalifornien, Hawaii und Australien — eingebürgert und wird dort als ornamentale Teichrandpflanze geschätzt; in einigen Ländern (z. B. in Teilen Australiens und Kaliforniens) gilt er allerdings als invasiv.",
+        "en": "In Madagascar, its native range, Cyperus alternifolius grows along streams and marsh edges. Outside its home it has naturalised across many subtropical regions — including southern Europe, California, Hawaii and Australia — where it is valued as an ornamental pond-edge plant; in some countries (parts of Australia and California, for example) it is classified as invasive."
+      },
+      "source_ids": [
+        "src_kew_pow_cyperus_alternifolius",
+        "src_cabi_cyperus_alternifolius"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
     }
   ],
   "season": {
@@ -57,12 +133,56 @@
   },
   "safety": {
     "warnings": {
-      "de": "Ungiftig für Mensch und Tier. Braucht ständig nasse Erde / Untersetzer mit Wasser.",
-      "en": "Non-toxic for humans and animals. Needs constantly wet soil / saucer with water."
+      "de": "Cyperus alternifolius gilt als gering toxisch. Saponine in den Halmen und Schirmen können bei oraler Aufnahme leichte Reizungen der Mundschleimhaut und milde Magen-Darm-Beschwerden auslösen. Pflanze ausserhalb der Reichweite von Kleinkindern und neugierigen Haustieren halten.",
+      "en": "Cyperus alternifolius is considered mildly toxic. Saponins in the culms and umbrellas can cause slight oral mucosal irritation and mild gastrointestinal upset on ingestion. Keep the plant out of reach of small children and curious pets."
     },
     "external_only": true,
     "toxicity_level": "caution",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Es liegen keine Daten zur Sicherheit in der Schwangerschaft vor. Da Cyperus alternifolius nicht innerlich angewendet wird, ist eine Exposition praktisch nur durch versehentlichen Kontakt möglich; vorsorglich Pflanzensaft meiden.",
+        "en": "No safety data are available during pregnancy. As Cyperus alternifolius is not used internally, exposure is essentially limited to accidental contact; avoid plant sap as a precaution."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten zur Stillzeit. Eine innerliche Anwendung ist nicht vorgesehen.",
+        "en": "No data available for lactation. Internal use is not intended."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Kleinkinder neigen dazu, Halme und Schirme in den Mund zu nehmen. Die enthaltenen Saponine können dabei leichte Mundreizungen und Übelkeit auslösen. Pflanze ausser Reichweite aufstellen.",
+        "en": "Small children tend to chew on culms and umbrellas. The saponins they contain can cause mild oral irritation and nausea. Place the plant out of reach."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Keine innerliche Anwendung — Cyperus alternifolius ist keine arzneilich verwendete Pflanze und besitzt keine etablierte medizinische Indikation.",
+        "en": "No internal use — Cyperus alternifolius is not a medicinal plant and has no established therapeutic indication."
+      },
+      {
+        "de": "Bei bekannter Empfindlichkeit gegenüber Sauergrasgewächsen (Cyperaceae) Hautkontakt mit Pflanzensaft vermeiden.",
+        "en": "Avoid skin contact with plant sap in case of known sensitivity to sedges (Cyperaceae)."
+      },
+      {
+        "de": "Nicht als Futterpflanze für Haustiere verwenden — insbesondere Katzen können nach Verzehr leichte Erbrechen- und Durchfallsymptome zeigen (ASPCA: leichte gastrointestinale Reizung möglich).",
+        "en": "Do not use as a fodder plant for pets — cats in particular may show mild vomiting and diarrhoea after ingestion (ASPCA: mild gastrointestinal irritation possible)."
+      },
+      {
+        "de": "Stehendes Wasser im Untersetzer kann Mückenbrut (Stechmücken-Larven) begünstigen — Wasser regelmäßig erneuern, vor allem in Wohnräumen.",
+        "en": "Standing water in the saucer can promote mosquito breeding — refresh the water regularly, particularly in living spaces."
+      },
+      {
+        "de": "In subtropischen Aussenpflanzungen invasives Potenzial beachten — nicht in natürliche Gewässer entlassen.",
+        "en": "Be aware of invasive potential in subtropical outdoor plantings — do not release into natural waterways."
+      }
+    ],
+    "drug_interactions": []
   },
   "classical_quotes": [],
   "sources": [
@@ -79,6 +199,62 @@
       "title": "Wechselbl%C3%A4ttriges_Zyperngras (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Wechselbl%C3%A4ttriges_Zyperngras",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wiki_de_cyperus_alternifolius",
+      "type": "wikipedia",
+      "title": "Wechselblättriges Zyperngras (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Wechselbl%C3%A4ttriges_Zyperngras",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wiki_en_cyperus_alternifolius",
+      "type": "wikipedia",
+      "title": "Cyperus alternifolius (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Cyperus_alternifolius",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wiki_en_cyperus_papyrus",
+      "type": "wikipedia",
+      "title": "Cyperus papyrus (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Cyperus_papyrus",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_kew_pow_cyperus_alternifolius",
+      "type": "monograph",
+      "title": "Cyperus alternifolius L. — Plants of the World Online (Kew)",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:303105-1",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_rhs_cyperus_alternifolius",
+      "type": "monograph",
+      "title": "Cyperus alternifolius — Royal Horticultural Society Plant Finder",
+      "url": "https://www.rhs.org.uk/plants/4859/cyperus-alternifolius/details",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_missouri_bg_cyperus",
+      "type": "monograph",
+      "title": "Cyperus alternifolius — Missouri Botanical Garden Plant Finder",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=275906",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_cabi_cyperus_alternifolius",
+      "type": "monograph",
+      "title": "Cyperus involucratus (umbrella plant) — CABI Compendium",
+      "url": "https://www.cabidigitallibrary.org/doi/10.1079/cabicompendium.17506",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_britannica_papyrus",
+      "type": "monograph",
+      "title": "Papyrus — Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/papyrus-writing-material",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -123,5 +299,92 @@
         "Winter: bright spot, cooler, but still keep wet."
       ]
     }
-  }
+  },
+  "constituents": [
+    {
+      "name": "Saponine",
+      "category": "saponin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Geringe Mengen unspezifischer Saponine in Halmen und Hochblättern. Sie sind für die milde gastrointestinale Reizung verantwortlich, die nach Verzehr — vor allem bei Katzen — beobachtet wird.",
+        "en": "Small amounts of non-specific saponins in culms and bracts. They are responsible for the mild gastrointestinal irritation observed after ingestion, especially in cats."
+      }
+    },
+    {
+      "name": "Flavonoide",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavonoide (u. a. Luteolin- und Apigenin-Derivate) sind in der Gattung Cyperus weit verbreitet und in geringen Konzentrationen auch in C. alternifolius nachgewiesen. Sie wirken schwach antioxidativ.",
+        "en": "Flavonoids (including luteolin and apigenin derivatives) are widespread in the genus Cyperus and detected in low concentrations in C. alternifolius. They show mild antioxidant activity."
+      }
+    },
+    {
+      "name": "Phenolsäuren",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Cumarsäure, Kaffeesäure und Ferulasäure-Derivate wurden in mehreren Cyperus-Arten nachgewiesen und gelten als typische Begleitstoffe der Sauergrasgewächse.",
+        "en": "Coumaric, caffeic and ferulic acid derivatives have been detected in several Cyperus species and are considered typical accompanying compounds of the sedge family."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Spuren)",
+      "category": "essential_oil",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Cyperus alternifolius enthält nur geringe Mengen ätherisches Öl — deutlich weniger als das gut untersuchte Nussgras (Cyperus rotundus) mit seinem Sesquiterpen Mustakon. Eine spezifische, profilierte Öl-Analyse für C. alternifolius liegt nicht vor.",
+        "en": "Cyperus alternifolius contains only small amounts of essential oil — markedly less than the well-studied nut grass (Cyperus rotundus) with its sesquiterpene mustakone. A specific, profiled oil analysis for C. alternifolius is not available."
+      }
+    },
+    {
+      "name": "Cellulose und Lignin",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Wie alle Sauergrasgewächse besitzt das Wechselblättrige Zyperngras kräftige, lignifizierte Halme. Diese Strukturpolymere haben keinen medizinischen Wert, machen die Halme jedoch zäh und für Menschen unverdaulich.",
+        "en": "Like all sedges, umbrella sedge has strong, lignified culms. These structural polymers have no medicinal value but make the stems tough and indigestible for humans."
+      }
+    },
+    {
+      "name": "Kieselsäure",
+      "category": "mineral",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Sauergrasgewächse lagern Kieselsäure (SiO2) in die Epidermis ein — daher die für Cyperaceae typische, raue Halmoberfläche.",
+        "en": "Sedges deposit silica (SiO2) in their epidermis — hence the rough culm surface typical of Cyperaceae."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "Ganzjährig als Zimmer- und Teichrandpflanze geeignet — keine saisonale Ernte. Rückschnitt brauner Halme bei Bedarf, am besten morgens nach dem Giessen.",
+        "en": "Suitable year-round as a houseplant and pond-edge plant — no seasonal harvest. Trim brown culms as needed, preferably in the morning after watering."
+      },
+      "drying": {
+        "de": "Nicht zur Trocknung vorgesehen — Cyperus alternifolius wird ausschliesslich als lebende Pflanze kultiviert. Getrocknete Schirme können in Trockensteckarbeiten verwendet werden, halten aber rasch ihre Farbe nicht.",
+        "en": "Not intended for drying — Cyperus alternifolius is cultivated exclusively as a living plant. Dried umbrellas can be used in dry-flower arrangements but quickly lose their colour."
+      },
+      "storage_condition": {
+        "de": "Lebende Pflanze: hell, warm (>15 Grad C), Untersetzer ständig mit Wasser gefüllt. Im Winter kühler stellen (10-15 Grad C) und etwas weniger giessen, aber niemals austrocknen lassen.",
+        "en": "Live plant: bright, warm (>15 deg C), saucer kept permanently filled with water. In winter place in a cooler spot (10-15 deg C) and water slightly less, but never allow to dry out."
+      }
+    }
+  ]
 }

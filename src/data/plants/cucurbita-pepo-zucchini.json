@@ -25,13 +25,86 @@
         "nutrition"
       ],
       "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
       "description": {
-        "de": "Zucchinifrüchte werden roh, gekocht, gegrillt und gebraten gegessen. Auch die sehr großen gelben Blüten sind für den Verzehr geeignet und gelten als Delikatesse (siehe Zucchiniblüte); bei Verwendung nur der männlichen Blüten wird der Ertrag an Früchten nicht geschmälert. Zucchini enthalten, wie andere Kürbissorten auch, viel Wasser und daher wenig Nahrungsenergie. Zudem sind sie vitaminreich und leicht verdaulich.",
-        "en": "When used for food, zucchini are usually picked when under in length, when the seeds are still soft and immature. Mature zucchini can be long or more. These larger ones often have mature seeds and hard skins, requiring peeling and seeding. Zucchini with the flowers attached are a sign of a truly fresh and immature fruit, and are especially sought after for their sweeter flavor. Zucchini are usually served cooked."
+        "de": "Die Zucchini (Cucurbita pepo subsp. pepo convar. giromontiina) ist eine frühreife Sommerkürbis-Unterart und gehört zu den meistgenutzten Fruchtgemüsen der mediterranen und mitteleuropäischen Küche. Die länglich-zylindrische Frucht (meist grün, gelegentlich gelb) wird unreif geerntet (15-25 cm), wenn Schale und Kerne noch zart sind. Sie ist kalorienarm (ca. 17 kcal/100 g), wasserreich (ca. 94 %) und liefert Vitamin C (ca. 17 mg/100 g), B-Vitamine (B6, Folsäure), Kalium (ca. 261 mg/100 g) und Mangan. Verwendung: gebraten, gegrillt, gedünstet, gefüllt, eingelegt, als Suppe, in Ratatouille oder roh in dünnen Scheiben in Salaten.",
+        "en": "Zucchini (Cucurbita pepo subsp. pepo convar. giromontiina) is an early-ripening summer-squash subvariety and one of the most widely used fruit vegetables in Mediterranean and Central European cuisine. The elongated cylindrical fruit (usually green, occasionally yellow) is harvested unripe (15-25 cm) while skin and seeds are still tender. It is low in calories (approx. 17 kcal/100 g), water-rich (approx. 94 %) and provides vitamin C (approx. 17 mg/100 g), B vitamins (B6, folate), potassium (approx. 261 mg/100 g) and manganese. Uses: fried, grilled, steamed, stuffed, pickled, as soup, in ratatouille or raw in thin slices in salads."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src_wp_de_zucchini",
+        "src_wp_en_zucchini",
+        "src_usda_zucchini"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Die großen, leuchtend gelb-orangen Zucchini-Blüten sind essbar und gelten in der italienischen Küche als Delikatesse — 'Fiori di zucca'. Bevorzugt werden die männlichen Blüten am langen Stiel gepflückt (die weiblichen sitzen am Fruchtansatz und sind erntereduzierend). Klassische Zubereitung: mit Ricotta, Mozzarella, Sardelle und Kräutern füllen, in dünnem Backteig (Pastella) frittieren. Auch roh in Salaten oder in Risotto und Pasta verarbeitet. Inhaltsstoffe: Carotinoide (β-Carotin, Lutein), Vitamin C, Folsäure. Sehr kurze Haltbarkeit (max. 24 Stunden), Verwendung am gleichen Tag.",
+        "en": "The large, bright yellow-orange zucchini flowers are edible and considered a delicacy in Italian cuisine — 'fiori di zucca'. Preferably the male flowers on long stalks are picked (female flowers sit at the fruit base and reduce yield). Classic preparation: stuffed with ricotta, mozzarella, anchovy and herbs, deep-fried in a light batter (pastella). Also raw in salads or in risotto and pasta. Constituents: carotenoids (beta-carotene, lutein), vitamin C, folate. Very short shelf life (max. 24 hours), use the same day."
+      },
+      "source_ids": [
+        "src_wp_de_zucchini",
+        "src_wp_en_zucchini_flower",
+        "src_pfaf_cucurbita_pepo"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Auch die Kerne reifer (durchgewachsener) Zucchini-Früchte sind essbar und können wie Kürbiskerne verarbeitet werden: aus der Frucht herauslösen, gründlich von Fasern befreien, waschen, trocknen und bei niedriger Temperatur (max. 150 °C) rösten. Sie liefern Eiweiß, Fettsäuren (Linol- und Ölsäure), Zink, Magnesium und Vitamin E. Da Zucchini meist unreif geerntet wird, kommt diese Nutzung in der modernen Küche selten vor — historisch jedoch eine Form der Restverwertung in mediterranen Bauernhaushalten.",
+        "en": "Seeds of mature (overgrown) zucchini fruits are also edible and can be processed like pumpkin seeds: extract from the fruit, thoroughly remove fibres, wash, dry and roast at low temperature (max. 150 °C). They provide protein, fatty acids (linoleic and oleic acid), zinc, magnesium and vitamin E. As zucchini is usually harvested unripe, this use is rare in modern cuisine — historically, however, it was a form of leftover use in Mediterranean farm households."
+      },
+      "source_ids": [
+        "src_pfaf_cucurbita_pepo",
+        "src_wp_en_zucchini"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "In der mediterranen Volkstradition gilt Zucchini wegen ihres hohen Wassergehalts (ca. 94 %) und der leichten Verdaulichkeit als 'kühlende' Sommerspeise — empfohlen bei sommerlicher Hitze, Reizmagen und als Schonkost nach Magen-Darm-Beschwerden. Klassische Zubereitung als leichter Eintopf (z.B. süditalienisches 'Zucchine in umido') oder als pürierte Suppe für Kinder und Genesende. Ballaststoffe (ca. 1 g/100 g, überwiegend Pektin und Zellulose) unterstützen eine geregelte Verdauung, ohne den Darm zu reizen.",
+        "en": "In Mediterranean folk tradition, zucchini is considered a 'cooling' summer food due to its high water content (approx. 94 %) and easy digestibility — recommended in summer heat, sensitive stomach and as light diet after gastrointestinal complaints. Classic preparation as a light stew (e.g. southern Italian 'zucchine in umido') or as a pureed soup for children and convalescents. Dietary fibre (approx. 1 g/100 g, predominantly pectin and cellulose) supports regular digestion without irritating the gut."
+      },
+      "source_ids": [
+        "src_pfaf_cucurbita_pepo",
+        "src_wp_de_zucchini"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "skin",
+        "nutrition"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Eine schlichte Volksanwendung: dünne Zucchini-Scheiben kurzzeitig auf gereizte oder leicht sonnengereizte Haut auflegen — der hohe Wassergehalt und die enthaltenen Polyphenole sollen kühlend wirken. Vergleichbar mit Gurken-Scheiben über den Augen, wird die Anwendung als Hausmittel in mediterranen Ländern praktiziert. Keine klinische Evidenz; nicht für offene Wunden oder Sonnenbrand zweiten Grades geeignet.",
+        "en": "A simple folk use: thin zucchini slices briefly applied to irritated or mildly sun-stressed skin — the high water content and polyphenols are said to have a cooling effect. Comparable to cucumber slices over the eyes, the application is practised as a home remedy in Mediterranean countries. No clinical evidence; not suitable for open wounds or second-degree sunburn."
+      },
+      "source_ids": [
+        "src_pfaf_cucurbita_pepo"
       ]
     }
   ],
@@ -50,12 +123,56 @@
   },
   "safety": {
     "warnings": {
-      "de": "Sehr bittere Früchte enthalten giftige Cucurbitacine — Bitterprobe vor Verzehr, bei Bitterkeit wegwerfen.",
-      "en": "Very bitter fruits contain toxic cucurbitacins — taste-test before eating; discard if bitter."
+      "de": "WICHTIG — Toxic Squash Syndrome (TSS): Bitter schmeckende Zucchini SOFORT verwerfen und NICHT essen. Bitterstoffe (Cucurbitacine) sind in modernen Kultursorten weitgehend weggezüchtet, können aber durch Mutationen, Stressbedingungen oder Auskreuzung mit Zierkürbissen erneut auftreten. Bereits ein einziger bitterer Bissen kann nach 30 Minuten bis Stunden zu starker Übelkeit, Erbrechen, krampfartigen Bauchschmerzen, blutigem Durchfall und Kreislaufversagen führen. In Deutschland verstarb 2015 ein 79-jähriger Mann an einem bitteren Zucchini-Auflauf aus selbstgezogenen Samen (Heidelberg-Fall). Regel: vor dem Kochen ein kleines Stück roh probieren — bei Bitterkeit komplette Frucht entsorgen. Eigene Saatgutgewinnung von Zierkürbissen trennen.",
+      "en": "IMPORTANT — Toxic Squash Syndrome (TSS): Bitter-tasting zucchini must be discarded IMMEDIATELY and NOT eaten. Bitter compounds (cucurbitacins) have been largely bred out of modern cultivars but can reappear through mutations, stress conditions or cross-pollination with ornamental gourds. A single bitter bite can cause severe nausea, vomiting, cramping abdominal pain, bloody diarrhoea and circulatory collapse within 30 minutes to several hours. In Germany in 2015, a 79-year-old man died from a bitter zucchini casserole made from home-saved seeds (Heidelberg case). Rule: taste a small raw piece before cooking — if bitter, discard the entire fruit. Keep home seed-saving separate from ornamental gourds."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Zucchini als Lebensmittel ist in Schwangerschaft und Stillzeit unbedenklich — kalorienarm, vitamin- und folsäurereich. Die TSS-Warnung gilt natürlich auch hier: bei jedem bitteren Geschmack die Frucht entsorgen, da Cucurbitacine plazentagängig und potentiell embryotoxisch sein können.",
+        "en": "Zucchini as food is safe in pregnancy and lactation — low in calories, rich in vitamins and folate. The TSS warning naturally also applies here: discard any bitter-tasting fruit, as cucurbitacins can cross the placenta and may be embryotoxic."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Zucchini ist während der Stillzeit ein gut verträgliches, basisches Gemüse. Keine bekannten Effekte auf die Milchbildung oder den Säugling.",
+        "en": "Zucchini is a well-tolerated, alkaline vegetable during lactation. No known effects on milk production or the infant."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Geschälte, weich gekochte Zucchini ist ein klassisches Beikost-Gemüse ab dem 5.-6. Lebensmonat — mild im Geschmack, leicht verdaulich, allergenarm. TSS-Vorsichtsregel: vor der Zubereitung für Kinder immer ein kleines Stück roh probieren; bei Bitterkeit nicht verfüttern (Kinder reagieren besonders empfindlich auf Cucurbitacine).",
+        "en": "Peeled, soft-cooked zucchini is a classic complementary food vegetable from the 5th-6th month — mild in flavour, easily digestible, low-allergenic. TSS precaution: always taste a small raw piece before preparing for children; do not feed if bitter (children are particularly sensitive to cucurbitacins)."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bitter schmeckende Zucchini niemals essen — Verdacht auf erhöhte Cucurbitacin-Konzentration (Toxic Squash Syndrome).",
+        "en": "Never eat bitter-tasting zucchini — suspicion of elevated cucurbitacin concentration (Toxic Squash Syndrome)."
+      },
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Kürbisgewächsen (Cucurbitaceae).",
+        "en": "Known hypersensitivity to cucurbit plants (Cucurbitaceae)."
+      },
+      {
+        "de": "Eigenes Saatgut nicht von Pflanzen gewinnen, die in der Nähe von Zierkürbissen standen — Rückkreuzung kann Cucurbitacin-Gehalt erhöhen.",
+        "en": "Do not save seeds from plants that grew near ornamental gourds — back-crossing can increase cucurbitacin content."
+      },
+      {
+        "de": "Bei größeren Mengen können Hunde und Katzen Diarrhoe entwickeln; ansonsten ist gekochte Zucchini in haushaltsüblichen Mengen für Heimtiere unbedenklich.",
+        "en": "Larger amounts may cause diarrhoea in dogs and cats; otherwise cooked zucchini in normal household amounts is safe for pets."
+      },
+      {
+        "de": "Keimende Zucchini-Samen nicht als Sprossen verzehren — wie bei anderen Cucurbita-pepo-Samen wird eine toxische Substanz im Embryo beschrieben.",
+        "en": "Do not consume sprouting zucchini seeds as sprouts — as with other Cucurbita pepo seeds, a toxic substance in the embryo is described."
+      }
+    ],
+    "drug_interactions": []
   },
   "classical_quotes": [],
   "sources": [
@@ -72,6 +189,55 @@
       "title": "Zucchini (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Zucchini",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src_wp_de_zucchini",
+      "type": "wikipedia",
+      "title": "Zucchini (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Zucchini",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wp_en_zucchini",
+      "type": "wikipedia",
+      "title": "Zucchini (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Zucchini",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wp_en_zucchini_flower",
+      "type": "wikipedia",
+      "title": "Squash blossom (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Squash_blossom",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_usda_zucchini",
+      "type": "monograph",
+      "title": "USDA FoodData Central — Squash, zucchini, baby, raw",
+      "url": "https://fdc.nal.usda.gov/food-details/169292/nutrients",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_pfaf_cucurbita_pepo",
+      "type": "monograph",
+      "title": "Plants For A Future (PFAF) — Cucurbita pepo (zucchini cultivars)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Cucurbita+pepo",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_bfr_tss",
+      "type": "monograph",
+      "title": "Bundesinstitut für Risikobewertung (BfR) — Bittere Zucchini und andere Kürbisgewächse können zu Vergiftungen führen (Stellungnahme Nr. 028/2017)",
+      "url": "https://www.bfr.bund.de/cm/343/bittere-zucchini-und-andere-kuerbisgewaechse-koennen-zu-vergiftungen-fuehren.pdf",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wikidata_zucchini",
+      "type": "wikidata",
+      "title": "Zucchini (Wikidata Q7790)",
+      "url": "https://www.wikidata.org/wiki/Q7790",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -155,5 +321,131 @@
     "ground_cover",
     "pollinator_attractor",
     "edible_flower"
+  ],
+  "constituents": [
+    {
+      "name": "Cucurbitacine (Triterpene)",
+      "category": "bitter",
+      "percent_range": "Spuren in modernen Sorten; bei Rückmutation oder Hybridisierung mit Zierkürbis stark erhöht",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Tetracyclische Triterpene mit intensiv bitterem Geschmack. In modernen Zucchini-Kultursorten gezielt weggezüchtet (rezessives Gen 'bi'); können jedoch durch Mutation, Trockenstress oder Auskreuzung mit Zierkürbissen wieder auftreten. Ursache des Toxic Squash Syndrome (TSS) — bereits geringe Mengen verursachen akute Gastroenteritis, blutige Diarrhoe und Kreislaufversagen. Geschmacks-Warnsystem: bei jedem bitteren Bissen Frucht sofort verwerfen.",
+        "en": "Tetracyclic triterpenes with intensely bitter taste. Bred out of modern zucchini cultivars (recessive gene 'bi'); can reappear through mutation, drought stress or cross-pollination with ornamental gourds. Cause of Toxic Squash Syndrome (TSS) — even small amounts cause acute gastroenteritis, bloody diarrhoea and circulatory collapse. Taste warning system: discard fruit immediately at any bitter bite."
+      }
+    },
+    {
+      "name": "Beta-Carotin (Provitamin A)",
+      "category": "other",
+      "percent_range": "ca. 0,12-0,40 mg/100 g (Frucht); deutlich höher in gelben Sorten und Blüten",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Provitamin-A-Carotinoid, das im Körper bedarfsgerecht zu Retinol umgewandelt wird. In grünen Zucchini in moderaten Mengen, in gelben Sorten und besonders in den Blüten deutlich konzentriert. Wichtig für Sehfunktion, Immunabwehr und Hautgesundheit.",
+        "en": "Provitamin-A carotenoid, converted to retinol in the body according to need. Present in moderate amounts in green zucchini, significantly concentrated in yellow varieties and especially in the flowers. Important for vision, immune defence and skin health."
+      }
+    },
+    {
+      "name": "Lutein und Zeaxanthin",
+      "category": "other",
+      "percent_range": "ca. 2125 µg/100 g (Lutein + Zeaxanthin, Frucht roh mit Schale)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Sauerstoffhaltige Carotinoide (Xanthophylle), die sich im Augenhintergrund (Makula lutea) anreichern und dort als natürliche Blaulicht-Filter und Antioxidantien fungieren. Eine ausreichende Zufuhr wird mit niedrigerem Risiko für altersbedingte Makuladegeneration assoziiert. Konzentriert in der grünen Schale.",
+        "en": "Oxygen-containing carotenoids (xanthophylls) that accumulate in the macula lutea of the retina, where they act as natural blue-light filters and antioxidants. Adequate intake is associated with lower risk of age-related macular degeneration. Concentrated in the green skin."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "percent_range": "ca. 17 mg/100 g (Frucht roh)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Wasserlösliches Antioxidans, das beim Erhitzen teilweise zerstört wird (Verlust ca. 30-50 % bei längerem Kochen). Beteiligt an Kollagensynthese, Eisen-Resorption und Immunabwehr. Roh oder kurz gegart (Dampf, Wok) maximaler Erhalt.",
+        "en": "Water-soluble antioxidant, partly destroyed by heat (loss approx. 30-50 % during prolonged cooking). Involved in collagen synthesis, iron absorption and immune defence. Maximum retention raw or briefly cooked (steamed, wok)."
+      }
+    },
+    {
+      "name": "Folsäure (Vitamin B9)",
+      "category": "vitamin",
+      "percent_range": "ca. 24 µg/100 g (Frucht roh)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Wichtiges B-Vitamin für DNA-Synthese, Zellteilung und Blutbildung; besonders relevant in der Schwangerschaft (Neuralrohrentwicklung). Wärmeempfindlich; daher Zucchini schonend zubereiten.",
+        "en": "Important B vitamin for DNA synthesis, cell division and haematopoiesis; particularly relevant in pregnancy (neural tube development). Heat-sensitive; therefore prepare zucchini gently."
+      }
+    },
+    {
+      "name": "Kalium",
+      "category": "mineral",
+      "percent_range": "ca. 261 mg/100 g (Frucht roh)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Mengenelement, das osmotisch wirkt und für Muskel- und Nervenerregbarkeit, Blutdruckregulation und Säure-Basen-Haushalt notwendig ist. Eine kaliumreiche, natriumarme Ernährung wird mit niedrigerem Blutdruck assoziiert (DASH-Diät).",
+        "en": "Bulk element with osmotic effect, necessary for muscle and nerve excitability, blood pressure regulation and acid-base balance. A potassium-rich, sodium-poor diet is associated with lower blood pressure (DASH diet)."
+      }
+    },
+    {
+      "name": "Magnesium",
+      "category": "mineral",
+      "percent_range": "ca. 18 mg/100 g (Frucht roh)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Cofaktor für über 300 enzymatische Reaktionen, beteiligt an ATP-Stoffwechsel, Muskelrelaxation und Knochenmineralisierung. Zucchini liefert moderate Mengen, in Kombination mit anderen pflanzlichen Magnesium-Quellen (Nüsse, Vollkorn) Teil einer ausreichenden Tagesversorgung.",
+        "en": "Cofactor for over 300 enzymatic reactions, involved in ATP metabolism, muscle relaxation and bone mineralisation. Zucchini provides moderate amounts; combined with other plant magnesium sources (nuts, whole grains) part of adequate daily supply."
+      }
+    },
+    {
+      "name": "Mangan",
+      "category": "mineral",
+      "percent_range": "ca. 0,18 mg/100 g (Frucht roh)",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Spurenelement, Cofaktor für antioxidative Enzyme (Mangan-Superoxid-Dismutase) und am Knochen- und Bindegewebsstoffwechsel beteiligt. Zucchini liefert kleinere Mengen, die zur Tagesbedarfsdeckung beitragen.",
+        "en": "Trace element, cofactor for antioxidant enzymes (manganese superoxide dismutase) and involved in bone and connective tissue metabolism. Zucchini provides small amounts that contribute to daily requirement."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Zucchini ist eine frühreife Subvarietät — Erntebeginn etwa 8 Wochen nach Aussaat. Kontinuierlich ernten, solange die Früchte klein und zart sind (15-25 cm Länge, Schale glänzend und mit Fingernagel leicht eindrückbar). Tägliches Ernten regt neue Fruchtbildung an; überreife Früchte (>30 cm, matte Schale, harte Kerne) bremsen die Pflanze. Mit scharfem Messer am Stielansatz abschneiden — nicht reißen. Geschmackstest vor dem Kochen: ein kleines rohes Stück probieren — bei Bitterkeit komplette Frucht verwerfen (TSS-Verdacht).",
+        "en": "Zucchini is an early-ripening subvariety — harvest begins approx. 8 weeks after sowing. Harvest continuously while fruits are small and tender (15-25 cm length, skin glossy and slightly dentable with a fingernail). Daily harvesting stimulates new fruit set; overripe fruits (>30 cm, matt skin, hard seeds) slow the plant down. Cut at the stalk base with a sharp knife — do not pull. Taste test before cooking: try a small raw piece — discard entire fruit if bitter (TSS suspicion)."
+      },
+      "drying": {
+        "de": "LAGERUNG: Zucchini ist NICHT lagerfähig wie Winterkürbisse. Frisch innerhalb von 5-7 Tagen verbrauchen, im Gemüsefach des Kühlschranks (8-10 °C, nicht unter 7 °C — Kälteschäden). Konservierung: einfrieren (in Scheiben oder geraspelt, vorher kurz blanchieren), sauer einlegen (süß-sauer als 'Zucchini-Pickles'), trocknen (in dünnen Scheiben im Dörrgerät bei 50-60 °C bis spröde) oder einkochen.",
+        "en": "STORAGE: Zucchini is NOT storable like winter squash. Use fresh within 5-7 days in the vegetable drawer of the refrigerator (8-10 °C, not below 7 °C — chilling injury). Preservation: freeze (sliced or grated, blanch briefly first), pickle (sweet-sour as 'zucchini pickles'), dry (in thin slices in dehydrator at 50-60 °C until crisp) or preserve in jars."
+      },
+      "storage_condition": {
+        "de": "Kühl (8-10 °C), nicht eiskalt, nicht neben ethylenproduzierende Früchte (Äpfel, Tomaten) legen — beschleunigt das Welken.",
+        "en": "Cool (8-10 °C), not ice-cold, do not store next to ethylene-producing fruits (apples, tomatoes) — accelerates wilting."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Zucchini-Blüten am frühen Morgen vor 10 Uhr pflücken, solange die Blüte noch geöffnet ist und sich die Sonne noch nicht voll auf das Beet gelegt hat — danach schließen sich die Blüten und werden weich. Männliche Blüten erkennt man am langen, dünnen Stiel ohne Fruchtansatz (ernte-neutral); weibliche Blüten haben einen verdickten Fruchtansatz an der Basis (deren Pflücken reduziert den Ertrag). Stempel und Staubblätter vor der Zubereitung vorsichtig entfernen, Blüteninneres auf Insekten kontrollieren.",
+        "en": "Pick zucchini flowers in the early morning before 10 a.m. while the flower is still open and the sun has not yet fully reached the bed — afterwards flowers close and become soft. Male flowers have long thin stalks without fruit set (yield-neutral); female flowers have a thickened fruit base (picking them reduces yield). Carefully remove pistil and stamens before preparation, check inside the flower for insects."
+      },
+      "drying": {
+        "de": "LAGERUNG: Zucchini-Blüten sind ausgesprochen empfindlich und sollten am Tag der Ernte verarbeitet werden. Kurzzeitige Lagerung (max. 24 Std.) im Kühlschrank in einer feuchten Papiertuch-Hülle in einer offenen Plastikbox. Nicht waschen vor der Lagerung — Wasser lässt die zarten Blütenblätter zerfallen.",
+        "en": "STORAGE: Zucchini flowers are extremely delicate and should be processed on the day of harvest. Short-term storage (max. 24 hours) in the refrigerator in a damp paper towel wrap in an open plastic box. Do not wash before storage — water causes the delicate petals to disintegrate."
+      },
+      "storage_condition": {
+        "de": "Kühl, feucht eingeschlagen, max. 24 Stunden — am besten direkt nach der Morgenernte verarbeiten.",
+        "en": "Cool, wrapped damp, max. 24 hours — best to process directly after morning harvest."
+      }
+    }
   ]
 }

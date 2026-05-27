@@ -22,17 +22,110 @@
     {
       "form": "raw",
       "target": [
+        "ornamental",
+        "wellbeing"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Die Flamingoblume wird weltweit als beliebte Zimmerpflanze und Schnittblume kultiviert. Ihr leuchtend rotes, gelegentlich rosa, weißes oder grünes Hochblatt (Spatha) mit dem säulenförmigen Blütenkolben (Spadix) bringt tropisches Flair in Innenräume und gilt in der Pflanzenpsychologie als stimmungsaufhellendes Element urbaner Wohnumgebungen.",
+        "en": "The flamingo flower is cultivated worldwide as a popular houseplant and cut flower. Its glossy red — occasionally pink, white or green — modified leaf (spathe) with the columnar inflorescence (spadix) brings a tropical accent to interiors and is regarded in indoor plant psychology as a mood-enhancing element of urban living spaces."
+      },
+      "source_ids": [
+        "src_wiki_en_anthurium_andraeanum",
+        "src_wiki_de_anthurium_andraeanum",
+        "src_kew_pow"
+      ],
+      "plant_part": "flower",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "low_maintenance",
         "ornamental"
       ],
       "internal_external": "external",
       "description": {
-        "de": "Die Flamingoblume wird weltweit als Zierpflanze in Töpfen sowie als Schnittblume kultiviert. Ihre langlebigen, farbenprächtigen Hochblätter und die pflegeleichte Natur machen sie zu einer beliebten Zimmerpflanze für Wohnräume, Büros und öffentliche Gebäude.",
-        "en": "Flamingo flower is cultivated worldwide as a potted ornamental plant and as a cut flower. Its long-lasting, colourful spathes and easy-care nature make it a popular houseplant for living spaces, offices, and public buildings."
+        "de": "Als pflegeleichte Zimmerpflanze toleriert Anthurium andraeanum mittlere Lichtverhältnisse, gleichmäßige Raumtemperaturen über 18 Grad Celsius und mäßige Bewässerung. Die Blüten halten an der Pflanze sechs bis acht Wochen und ergeben damit eine langanhaltende Dekoration für Wohn- und Büroräume.",
+        "en": "As a low-maintenance houseplant, Anthurium andraeanum tolerates medium light, steady room temperatures above 18 degrees Celsius and moderate watering. Its blooms last six to eight weeks on the plant, making it a long-lasting decoration for living rooms and offices."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src_wiki_en_anthurium_andraeanum",
+        "src_rhs_anthurium"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ornamental",
+        "ethnobotany"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "In der internationalen Schnittblumenindustrie zählt die Flamingoblume zu den wichtigsten tropischen Schnittblumen. Hawaii, Mauritius und die Niederlande sind führende Produzenten; in der Vase hält die Blüte vier bis sechs Wochen und überdauert damit nahezu alle anderen Schnittblumen-Standards.",
+        "en": "In the international cut-flower industry, the flamingo flower ranks among the most important tropical cut flowers. Hawaii, Mauritius and the Netherlands are leading producers; in the vase the bloom lasts four to six weeks, outlasting nearly every other standard cut flower."
+      },
+      "source_ids": [
+        "src_wiki_en_anthurium",
+        "src_kew_pow",
+        "src_rhs_anthurium"
+      ],
+      "plant_part": "flower",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "air_quality",
+        "wellbeing"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Anthurium-Arten wurden in einer NASA-Studie zur Innenraumluft auf ihre Fähigkeit untersucht, flüchtige organische Verbindungen wie Ammoniak, Formaldehyd, Toluol und Xylol aus der Luft aufzunehmen. Der Beitrag einzelner Pflanzen unter realen Wohnbedingungen ist gering, sie unterstützen jedoch ein angenehmes Raumklima durch erhöhte Luftfeuchtigkeit.",
+        "en": "Anthurium species were studied by NASA for their ability to absorb volatile organic compounds such as ammonia, formaldehyde, toluene and xylene from indoor air. The contribution of individual plants under real living conditions is modest, but they support a pleasant indoor climate through increased humidity."
+      },
+      "source_ids": [
+        "src_nasa_1989",
+        "src_wiki_en_anthurium"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Vorsichtshinweis: Der Pflanzensaft enthält Calciumoxalat-Raphiden und kann bei Hautkontakt Reizungen, Rötungen und juckende Ausschläge hervorrufen. Bei Schnittblumen-Verarbeitung sollten Handschuhe getragen werden — eine ethnobotanische Hinweis-Anwendung, keine therapeutische Indikation.",
+        "en": "Caution note: the plant sap contains calcium oxalate raphides and can cause skin irritation, redness and itching rashes on contact. When handling cut flowers, gloves should be worn — an ethnobotanical caution note, not a therapeutic indication."
+      },
+      "source_ids": [
+        "src_aspca_anthurium",
+        "src_wiki_en_anthurium"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ethnobotany"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "In den Herkunftsländern Kolumbien und Ecuador (Anden-Westflanke, Choco-Region) ist die Flamingoblume Teil indigener Floristiktraditionen. Sie wurde von dem belgischen Botaniker Édouard André 1876 in den westlichen Pflanzenhandel eingeführt und nach ihm benannt — der Artname 'andraeanum' ehrt seinen Sammler.",
+        "en": "In its native range of Colombia and Ecuador (the western flank of the Andes, Choco region), the flamingo flower is part of indigenous floristic traditions. It was introduced into Western horticulture by the Belgian botanist Édouard André in 1876 and named after him — the species epithet 'andraeanum' honours its collector."
+      },
+      "source_ids": [
+        "src_wiki_en_anthurium_andraeanum",
+        "src_kew_pow"
+      ],
+      "plant_part": "flower",
+      "evidence_level": "folk"
     }
   ],
   "season": {
@@ -57,12 +150,48 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG für Hunde, Katzen und Menschen (Calciumoxalat-Kristalle). Bei Verzehr: starkes Brennen und Schwellung von Mund, Rachen und Magen-Darm-Trakt. Pflanzensaft kann Haut- und Schleimhautreizungen verursachen. Außer Reichweite von Kindern und Haustieren halten.",
-      "en": "TOXIC to dogs, cats and humans (calcium oxalate crystals). If ingested: severe burning and swelling of mouth, throat and gastrointestinal tract. Plant sap can cause skin and mucous membrane irritation. Keep out of reach of children and pets."
+      "de": "Alle Pflanzenteile enthalten unlösliche Calciumoxalat-Raphiden (nadelförmige Kristalle in spezialisierten Idioblast-Zellen) sowie Aroideae-typische Saponine. Bei Verzehr kommt es zu sofortigem Brennen und Schwellung von Lippen, Zunge und Rachen, vermehrtem Speichelfluss sowie Schluckbeschwerden. Hautkontakt mit dem Pflanzensaft kann Dermatitis auslösen. Niemals innerlich anwenden.",
+      "en": "All plant parts contain insoluble calcium oxalate raphides (needle-shaped crystals in specialised idioblast cells) plus Aroideae-typical saponins. On ingestion immediate burning and swelling of lips, tongue and throat occur, with increased salivation and difficulty swallowing. Skin contact with the plant sap can cause dermatitis. Never use internally."
     },
     "external_only": true,
-    "toxicity_level": "toxic",
-    "pet_toxic": true
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten zur inneren Anwendung in der Schwangerschaft — Anthurium andraeanum ist keine Heilpflanze. Beim Umgang mit Schnittblumen Handschuhe tragen.",
+        "en": "No data on internal use in pregnancy — Anthurium andraeanum is not a medicinal plant. Wear gloves when handling cut stems."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten zur Stillzeit; nicht als Heilpflanze verwenden.",
+        "en": "No data on use during lactation; not for medicinal use."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Außerhalb der Reichweite von Kleinkindern aufstellen. Verzehr von Spatha oder Spadix verursacht starkes Brennen im Mund, Speichelfluss und Schluckbeschwerden. Bei versehentlicher Aufnahme Mund mit kalter Milch oder Wasser spülen und Giftnotrufzentrale kontaktieren.",
+        "en": "Keep out of reach of small children. Ingestion of spathe or spadix causes intense oral burning, salivation and difficulty swallowing. After accidental ingestion, rinse the mouth with cold milk or water and contact a poison control centre."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Nicht innerlich anwenden — alle Pflanzenteile sind durch Calciumoxalat-Raphiden und Aroideae-Saponine toxisch.",
+        "en": "Do not use internally — all plant parts are toxic due to calcium oxalate raphides and Aroideae saponins."
+      },
+      {
+        "de": "Bei bekannter Empfindlichkeit gegenüber Aronstabgewächsen (Araceae) jeglichen Hautkontakt mit dem Saft vermeiden.",
+        "en": "Avoid all skin contact with the sap if sensitivity to arum family (Araceae) plants is known."
+      },
+      {
+        "de": "Haushalte mit Katzen, Hunden oder Nagetieren: laut ASPCA gilt Anthurium als für Haustiere giftig; gegebenenfalls außer Reichweite halten oder ganz darauf verzichten.",
+        "en": "Households with cats, dogs or rodents: according to ASPCA, Anthurium is considered toxic to pets; keep out of reach or avoid altogether."
+      }
+    ],
+    "drug_interactions": []
   },
   "classical_quotes": [],
   "sources": [
@@ -86,6 +215,62 @@
       "title": "Anthurium andraeanum (Wikidata Q309584)",
       "url": "https://www.wikidata.org/wiki/Q309584",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_wiki_en_anthurium_andraeanum",
+      "type": "wikipedia",
+      "title": "Anthurium andraeanum (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Anthurium_andraeanum",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wiki_de_anthurium_andraeanum",
+      "type": "wikipedia",
+      "title": "Große Flamingoblume (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Gro%C3%9Fe_Flamingoblume",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wiki_en_anthurium",
+      "type": "wikipedia",
+      "title": "Anthurium (Wikipedia EN)",
+      "url": "https://en.wikipedia.org/wiki/Anthurium",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_kew_pow",
+      "type": "monograph",
+      "title": "Anthurium andraeanum Linden ex André — Plants of the World Online (Kew)",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:84067-1",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_anthurium",
+      "type": "monograph",
+      "title": "Flamingo Lily (Anthurium scherzeranum / andraeanum) — ASPCA Toxic Plants Database",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/flamingo-lily",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_rhs_anthurium",
+      "type": "monograph",
+      "title": "Anthurium andraeanum — Royal Horticultural Society Plant Finder",
+      "url": "https://www.rhs.org.uk/plants/1192/anthurium-andraeanum/details",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_nasa_1989",
+      "type": "monograph",
+      "title": "Interior Landscape Plants for Indoor Air Pollution Abatement (NASA TM-101766)",
+      "url": "https://ntrs.nasa.gov/citations/19930073077",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_wikidata_anthurium_andraeanum",
+      "type": "wikidata",
+      "title": "Anthurium andraeanum (Wikidata Q137829)",
+      "url": "https://www.wikidata.org/wiki/Q137829",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -133,5 +318,113 @@
         "Fertilise every 6–8 weeks during the growing season with liquid fertiliser for flowering plants."
       ]
     }
-  }
+  },
+  "constituents": [
+    {
+      "name": "Calciumoxalat-Raphiden",
+      "category": "other",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Unlösliche, nadelförmige Calciumoxalat-Kristalle in spezialisierten Idioblast-Zellen aller Pflanzenteile. Beim Anbeißen werden die Raphiden unter Druck herausgeschossen und bohren sich in die Mundschleimhaut — Hauptursache der akuten Reizsymptome.",
+        "en": "Insoluble, needle-shaped calcium oxalate crystals in specialised idioblast cells throughout all plant parts. When bitten, the raphides are expelled under pressure and embed in oral mucosa — main cause of acute irritation symptoms."
+      }
+    },
+    {
+      "name": "Anthurin (Aroideae-Saponine)",
+      "category": "saponin",
+      "plant_part": "whole_plant",
+      "note": {
+        "de": "Steroidale und triterpene Saponine, die für Araceae charakteristisch sind. Sie tragen sekundär zur Schleimhautreizung bei und wirken vermutlich synergistisch mit den Calciumoxalat-Raphiden.",
+        "en": "Steroidal and triterpene saponins characteristic of Araceae. They contribute secondarily to mucosal irritation and likely act synergistically with calcium oxalate raphides."
+      }
+    },
+    {
+      "name": "Flavonoide",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Quercetin- und Kaempferol-Glykoside in den Blättern; tragen zur antioxidativen Grundkapazität bei, ohne pharmakologische Bedeutung in der Anwendung.",
+        "en": "Quercetin and kaempferol glycosides in the leaves; contribute to baseline antioxidant capacity, without pharmacological relevance in use."
+      }
+    },
+    {
+      "name": "Anthocyane",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Pelargonidin- und Cyanidin-Glykoside in der Spatha sind verantwortlich für die roten und rosa Farbtöne. In den Niederlanden gezüchtete Sorten zeigen die ganze Bandbreite von tiefrot bis weiß je nach Anthocyan-Profil.",
+        "en": "Pelargonidin and cyanidin glycosides in the spathe are responsible for the red and pink hues. Cultivars bred in the Netherlands display the full range from deep red to white depending on the anthocyanin profile."
+      }
+    },
+    {
+      "name": "Phenolische Säuren",
+      "category": "phenolic_acid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Kaffeesäure- und Chlorogensäure-Derivate als sekundäre Stoffwechselprodukte; tragen zur Pflanzenabwehr gegen pilzliche und bakterielle Pathogene bei.",
+        "en": "Caffeic acid and chlorogenic acid derivatives as secondary metabolites; contribute to the plant's defence against fungal and bacterial pathogens."
+      }
+    },
+    {
+      "name": "Proanthocyanidine (Tannine)",
+      "category": "tannin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Kondensierte Tannine in geringen Mengen, vorwiegend in den ledrigen Blättern — adstringierend, aber für interne Anwendung ohne Bedeutung wegen der dominanten Raphiden-Toxizität.",
+        "en": "Condensed tannins in small amounts, predominantly in the leathery leaves — astringent, but of no relevance for internal use due to the dominant raphide toxicity."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Spuren)",
+      "category": "essential_oil",
+      "plant_part": "flower",
+      "note": {
+        "de": "Spuren leicht flüchtiger Verbindungen im Spadix; verantwortlich für den schwachen, leicht süßlichen Eigengeruch der Blüte, der Bestäuber-Insekten in der natürlichen Tropenregenwald-Umgebung anlockt.",
+        "en": "Traces of volatile compounds in the spadix; responsible for the weak, slightly sweet scent of the inflorescence that attracts pollinator insects in the native rainforest environment."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "In der kommerziellen Schnittblumenproduktion (Hawaii, Mauritius, Niederlande) werden die Blütenstände ganzjährig in beheizten Gewächshäusern geerntet, sobald die Spatha voll ausgefärbt und der Spadix zu zwei Dritteln seines Stielstadiums entwickelt ist.",
+        "en": "In commercial cut-flower production (Hawaii, Mauritius, Netherlands) the inflorescences are harvested year-round in heated glasshouses once the spathe is fully coloured and the spadix is two-thirds developed."
+      },
+      "drying": {
+        "de": "Schnittblumen werden nicht getrocknet, sondern frisch in Wasser geliefert. Vasenhaltbarkeit vier bis sechs Wochen bei Raumtemperatur und täglichem Wasserwechsel; Stiel-Anschnitt diagonal mit scharfer Klinge.",
+        "en": "Cut flowers are not dried but shipped fresh in water. Vase life four to six weeks at room temperature with daily water changes; cut stems diagonally with a sharp blade."
+      }
+    },
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        3,
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Umtopfen und Teilung der Mutterpflanze erfolgen am besten im Frühjahr (März bis Mai), wenn die Pflanze in die aktive Wachstumsphase eintritt. Tagsüber bei Zimmertemperatur arbeiten, Wurzelballen vorsichtig lösen.",
+        "en": "Repotting and division of the parent plant are best done in spring (March to May) as the plant enters its active growth phase. Work during the day at room temperature, gently loosen the root ball."
+      },
+      "drying": {
+        "de": "Nicht getrocknet verwenden — ausschließlich als lebende Zier- oder Schnittblume. Beim Umtopfen Handschuhe tragen, da Pflanzensaft die Haut reizen kann.",
+        "en": "Not used dried — exclusively as a living ornamental or cut flower. Wear gloves when repotting, as plant sap can irritate the skin."
+      }
+    }
+  ]
 }
