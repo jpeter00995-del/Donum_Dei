@@ -20,19 +20,141 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-np-01",
       "target": [
-        "caution"
+        "ethnobotany",
+        "nervous_system"
       ],
-      "internal_external": "external",
+      "form": "raw",
+      "plant_part": "bulb",
+      "evidence_level": "folk",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Historisch-volksmedizinische Verwendung der getrockneten und pulverisierten Zwiebel als Brechmittel (Emetikum) und als Wundauflage bei Brandwunden und Furunkeln. Die Anwendung beruht auf der starken emetischen Wirkung des Hauptalkaloids Lycorin und der lokal hautreizenden Wirkung weiterer Amaryllidaceae-Alkaloide. Bereits Dioscorides (1. Jhdt.) und Plinius beschreiben Narcissus-Anwendungen — heute wegen unkalkulierbarer Toxizität (LD50 Lycorin oral Maus ca. 41 mg/kg) vollständig obsolet. Keinerlei moderne Anwendungsempfehlung.",
+        "en": "Historical folk-medicinal use of dried and powdered bulb as an emetic and as a wound dressing for burns and boils. The application is based on the strong emetic effect of the main alkaloid lycorine and the locally skin-irritating action of further Amaryllidaceae alkaloids. Already Dioscorides (1st century CE) and Pliny describe Narcissus applications — today completely obsolete due to unpredictable toxicity (LD50 lycorine oral mouse ca. 41 mg/kg). No modern recommendation for use."
+      },
+      "preparation": {
+        "de": "Rein historisch-dokumentarisch — keine Anwendungsempfehlung. Die Zwiebel ist in jeder Form für die Selbstmedikation ungeeignet; Vergiftungsrisiko durch versehentliche Verwechslung mit Speisezwiebel oder Knoblauch ist klinisch dokumentiert.",
+        "en": "Purely historical/documentary — no recommendation for use. The bulb is unsuitable for self-medication in any form; poisoning risk through accidental confusion with kitchen onion or garlic is clinically documented."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-np-wiki-en",
+        "src-np-pfaf",
+        "src-np-wiki-lycorine"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-np-02",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "form": "compress",
+      "plant_part": "bulb",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Traditionelle äußere Anwendung im mediterranen und arabischen Raum: aufgeschnittene, frische Narzissenzwiebeln wurden als Auflage bei Geschwüren, Abszessen, schlecht heilenden Wunden und gegen 'Hartriegel' (kallöse Hautveränderungen) eingesetzt. Avicenna (Ibn Sina, 11. Jhdt.) erwähnt Narcissus in seinem Kanon der Medizin. Wirkmechanismus: lokale Reiz- und Mazerationswirkung der Alkaloide (Lycorin, Homolycorin, Narcissin). Heute aufgrund Kontaktdermatitis-Risiko ('daffodil rash') und systemischer Resorption obsolet.",
+        "en": "Traditional external use in the Mediterranean and Arab world: cut-open fresh narcissus bulbs were applied as poultices for ulcers, abscesses, poorly healing wounds and 'corns' (callous skin lesions). Avicenna (Ibn Sina, 11th century) mentions Narcissus in his Canon of Medicine. Mechanism: local irritant and macerating action of the alkaloids (lycorine, homolycorine, narcissin). Today obsolete due to contact dermatitis risk ('daffodil rash') and systemic absorption."
+      },
+      "preparation": {
+        "de": "Historisch-dokumentarisch — keine Anwendungsempfehlung. Frische Zwiebel wurde aufgeschnitten oder zerstossen und mit Olivenöl, Honig oder Mehl zu einer Paste verarbeitet. Hautkontakt ohne Handschuhe führt zuverlässig zu Floristen-Ekzem.",
+        "en": "Historical/documentary — no recommendation for use. Fresh bulb was cut open or crushed and processed with olive oil, honey or flour into a paste. Skin contact without gloves reliably causes florist's eczema."
+      },
+      "source_ids": [
+        "src-np-wiki-en",
+        "src-np-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-np-03",
+      "target": [
+        "skin"
+      ],
+      "form": "raw",
+      "plant_part": "bulb",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Berufsbedingte Kontaktdermatitis ('daffodil itch', 'lily rash') bei Floristen, Gärtnern und Zwiebel-Sortierern — keine therapeutische Anwendung, sondern relevante Arbeitsmedizin und Allergologie. Der Pflanzensaft enthält Calciumoxalat-Raphiden und Alkaloide (Lycorin, Narciclasin), die mechanisch und chemisch eine irritative bzw. allergische Kontaktdermatitis auslösen. Klinisch dokumentiert seit dem späten 19. Jahrhundert; betrifft besonders Hände und Unterarme. Schutzhandschuhe sind die Standardprävention.",
+        "en": "Occupational contact dermatitis ('daffodil itch', 'lily rash') in florists, gardeners and bulb sorters — not a therapeutic application but a relevant occupational medicine and allergology issue. The plant sap contains calcium oxalate raphides and alkaloids (lycorine, narciclasine) that mechanically and chemically trigger an irritant and allergic contact dermatitis. Clinically documented since the late 19th century; particularly affects hands and forearms. Protective gloves are the standard prevention."
+      },
+      "preparation": {
+        "de": "Keine Zubereitung — dieser Eintrag dokumentiert ein Gesundheitsrisiko, nicht eine Heilanwendung. Beim Schneiden, Sortieren oder Stecken von Narzissenzwiebeln Nitril- oder Lederhandschuhe tragen; bei Hautkontakt rasch mit lauwarmem Wasser und milder Seife abspülen.",
+        "en": "No preparation — this entry documents a health risk, not a remedy. When cutting, sorting or planting narcissus bulbs wear nitrile or leather gloves; on skin contact rinse promptly with lukewarm water and mild soap."
+      },
+      "source_ids": [
+        "src-np-wiki-en",
+        "src-np-wiki-lycorine"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-np-04",
+      "target": [
+        "nervous_system",
+        "ethnobotany"
+      ],
+      "form": "tincture",
+      "plant_part": "bulb",
+      "evidence_level": "clinical_trial",
+      "description": {
+        "de": "Galantamin — ein Amaryllidaceae-Alkaloid, das ursprünglich aus Galanthus-Arten und der Sorte Narcissus pseudonarcissus 'Carlton' kommerziell extrahiert wurde — ist heute als verschreibungspflichtiges Arzneimittel (Reminyl®, Razadyne®) bei leichter bis mittelschwerer Alzheimer-Demenz zugelassen (selektiver Acetylcholinesterase-Hemmer und allosterischer Modulator nikotinischer Rezeptoren). Walisische Felder ('Black Mountains' Narzissenfarmen) lieferten in den 2000er Jahren einen Teil des weltweiten Galantamin-Bedarfs. Wichtig: Diese Anwendung betrifft das standardisierte, isolierte Galantamin — keine direkte Anwendung von Narzissenrohmaterial. Bedeutung als Konstituent, nicht als Volksanwendung der Pflanze.",
+        "en": "Galantamine — an Amaryllidaceae alkaloid originally extracted commercially from Galanthus species and the Narcissus pseudonarcissus cultivar 'Carlton' — is today an approved prescription medicine (Reminyl®, Razadyne®) for mild to moderate Alzheimer's dementia (selective acetylcholinesterase inhibitor and allosteric modulator of nicotinic receptors). Welsh fields ('Black Mountains' daffodil farms) supplied part of the global galantamine demand in the 2000s. Important: this application concerns standardised, isolated galantamine — no direct use of raw narcissus material. Relevance as a constituent, not as a folk application of the plant."
+      },
+      "preparation": {
+        "de": "Pharmazeutische Halbsynthese aus Galantamin-Rohextrakt; klinische Dosierung 8–24 mg/Tag oral als standardisierte Tabletten oder Retardkapseln. Niemals als Laienpräparation aus Narzissenzwiebeln herzustellen — Rohextrakt enthält toxische Begleitalkaloide (Lycorin, Narciclasin) in lebensbedrohlichen Mengen.",
+        "en": "Pharmaceutical semi-synthesis from galantamine crude extract; clinical dose 8–24 mg/day orally as standardised tablets or extended-release capsules. Never to be home-prepared from narcissus bulbs — the crude extract contains toxic accompanying alkaloids (lycorine, narciclasine) in life-threatening amounts."
+      },
+      "source_ids": [
+        "src-np-wiki-galantamine",
+        "src-np-wiki-en"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-np-05",
+      "target": [
+        "ethnobotany"
+      ],
+      "form": "raw",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Symbolische und kulturhistorische Bedeutung: Die Gelbe Narzisse ist die Nationalblume von Wales (zu St. David's Day, 1. März, getragen) und gilt im Christentum als 'Osterglocke' / 'Lent lily' wegen ihrer Blütezeit in der Fastenzeit. In der griechischen Mythologie ist die Pflanze mit dem Jüngling Narkissos verbunden, der sich in sein eigenes Spiegelbild verliebte — Wurzel des Begriffs 'Narzissmus'. Die Marie Curie Cancer Care Foundation nutzt die Daffodil seit 1986 als Symbol für Hospizarbeit (UK). Keine medizinische Anwendung — rein kulturhistorische und symbolische Bedeutung.",
+        "en": "Symbolic and cultural-historical significance: the wild daffodil is the national flower of Wales (worn on St. David's Day, 1 March) and is regarded in Christianity as the 'Lent lily' / 'Easter bell' because of its bloom during Lent. In Greek mythology the plant is linked to the youth Narcissus, who fell in love with his own reflection — root of the term 'narcissism'. The Marie Curie Cancer Care Foundation has used the daffodil as the symbol of UK hospice work since 1986. No medicinal use — purely cultural-historical and symbolic significance."
+      },
+      "preparation": {
+        "de": "Keine Zubereitung — rein symbolische und kulturhistorische Bedeutung. Beim Tragen frischer Blüten am Revers oder im Knopfloch sollte beachtet werden, dass der Schnittsaft Hautreizungen verursachen kann.",
+        "en": "No preparation — purely symbolic and cultural-historical significance. When wearing fresh flowers on a lapel or in a buttonhole, note that the cut sap can cause skin irritation."
+      },
+      "source_ids": [
+        "src-np-wiki-en",
+        "src-np-wiki-de",
+        "src-np-wikidata"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-np-06",
+      "target": [
+        "nervous_system"
+      ],
+      "form": "tincture",
+      "plant_part": "bulb",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Homöopathische Verwendung von Narcissus pseudonarcissus (D6–D12) bei katarrhalischen Atemwegsbeschwerden, Bronchitis bei Kindern und Reizhusten — beruht auf der homöopathischen Ähnlichkeitsregel zur Symptomatik bei Narzissen-Vergiftung (Schleimhautreizung, Husten, Erbrechen). Ab D6/D12 sind pharmakologisch wirksame Alkaloidmengen nicht mehr enthalten; klinische Wirksamkeit über Placebo nicht belegt. Tiefpotenzen unter D6 sind in Deutschland verschreibungspflichtig.",
+        "en": "Homeopathic use of Narcissus pseudonarcissus (D6–D12) for catarrhal respiratory complaints, bronchitis in children and irritable cough — based on the homeopathic similarity principle to the symptoms of narcissus poisoning (mucosal irritation, cough, vomiting). From D6/D12 onward, pharmacologically active alkaloid amounts are no longer present; clinical efficacy over placebo not established. Low potencies below D6 are prescription-only in Germany."
+      },
+      "preparation": {
+        "de": "Homöopathische Potenzierung ab D6 — keine direkte Alkaloidwirkung. Anwendung ausschließlich nach ärztlicher oder homöopathischer Verschreibung; Selbstherstellung wegen Lycorin-Toxizität strikt ausgeschlossen.",
+        "en": "Homeopathic potentisation from D6 onward — no direct alkaloid effect. Use exclusively on medical or homeopathic prescription; home preparation strictly excluded because of lycorine toxicity."
+      },
+      "source_ids": [
+        "src-np-wiki-de",
+        "src-np-wiki-en"
+      ],
+      "internal_external": "internal"
     }
   ],
   "season": {
@@ -47,12 +169,93 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG (Lycorin, Narcissin) — alle Pflanzenteile, besonders die Zwiebel. Klassische Osterblume — Zwiebeln wurden historisch mit Küchenzwiebeln verwechselt. Verzehr verursacht Erbrechen, Durchfall, Krämpfe. Auch der Saft kann bei Hautkontakt Reizungen auslösen (Floristen-Ekzem). In Vase NICHT mit anderen Schnittblumen kombinieren — Narzissensaft schädigt diese.",
-      "en": "TOXIC (lycorine, narcissin) — all plant parts, especially the bulb. Classic Easter flower — bulbs historically confused with kitchen onions. Consumption causes vomiting, diarrhoea, seizures. The sap can also cause skin irritation (florist's eczema). In a vase, do NOT combine with other cut flowers — narcissus sap damages them."
+      "de": "GIFTIG — ALLE PFLANZENTEILE, BESONDERS DIE ZWIEBEL. Narcissus pseudonarcissus enthält Amaryllidaceae-Alkaloide (Lycorin als Hauptkomponente, daneben Galantamin, Homolycorin, Narciclasin, Narcissin) sowie Calciumoxalat-Raphiden. Vergiftungen treten klassisch durch versehentliche Verwechslung der Zwiebel mit Speisezwiebel oder Schalotte auf — ein dokumentiertes Problem besonders während Lebensmittelknappheit (Niederländische Hungerwinter 1944/45; rezent: Migrantenvergiftungen Mitteleuropa). Symptome (oral): innerhalb 15–60 Minuten Übelkeit, starkes Erbrechen, Durchfall, Bauchschmerzen, Speichelfluss, Schwitzen, Schwindel; bei höheren Mengen Tachykardie, Hypotonie, Krämpfe. Dermal: 'daffodil rash' / 'lily rash' / Floristen-Ekzem — irritative und allergische Kontaktdermatitis durch Pflanzensaft und Calciumoxalat-Raphiden. Schnittblumen-Saft ist phytotoxisch und schädigt andere Schnittblumen in derselben Vase (24 h separates Wässern empfohlen). Bei Verdacht auf orale Vergiftung: Giftnotruf (Deutschland: regionale Giftinformationszentralen), reichlich Wasser, KEIN Salzwasser zur Brechauslösung; bei Kindern und Haustieren sofort ärztlich/tierärztlich vorstellen.",
+      "en": "TOXIC — ALL PLANT PARTS, ESPECIALLY THE BULB. Narcissus pseudonarcissus contains Amaryllidaceae alkaloids (lycorine as main component, alongside galantamine, homolycorine, narciclasine, narcissine) plus calcium oxalate raphides. Poisonings classically occur through accidental confusion of the bulb with kitchen onion or shallot — a documented problem particularly during food shortages (Dutch Hunger Winter 1944/45; recently: migrant poisonings in Central Europe). Symptoms (oral): within 15–60 minutes nausea, severe vomiting, diarrhoea, abdominal pain, salivation, sweating, dizziness; with higher amounts tachycardia, hypotension, seizures. Dermal: 'daffodil rash' / 'lily rash' / florist's eczema — irritant and allergic contact dermatitis from plant sap and calcium oxalate raphides. Cut-flower sap is phytotoxic and damages other cut flowers in the same vase (24 h separate watering recommended). On suspected oral poisoning: poison control (regional centres), abundant water, NO salt water for induced vomiting; for children and pets present immediately to medical/veterinary care."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Lycorin und weitere Amaryllidaceae-Alkaloide sind in vitro embryotoxisch und in Tierstudien teratogen; Lycorin hemmt die Proteinbiosynthese auf ribosomaler Ebene und greift die Zellteilung an. Jede orale oder hochdosierte topische Anwendung von Narzissenmaterial in der Schwangerschaft ist kontraindiziert. Für das pharmazeutisch isolierte Galantamin (Alzheimer-Indikation) gilt eine eigene Risikobewertung — Gabe an Schwangere nur auf strikte ärztliche Indikation.",
+        "en": "Lycorine and other Amaryllidaceae alkaloids are embryotoxic in vitro and teratogenic in animal studies; lycorine inhibits protein biosynthesis at the ribosomal level and impacts cell division. Any oral or high-dose topical application of narcissus material during pregnancy is contraindicated. Pharmaceutically isolated galantamine (Alzheimer's indication) has its own risk assessment — administration to pregnant women only on strict medical indication."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Übergangsverhalten der Amaryllidaceae-Alkaloide in die Muttermilch ist nicht ausreichend untersucht; angesichts der akuten Toxizität (Erbrechen, Krämpfe) für den Säugling streng kontraindiziert. Pharmazeutisches Galantamin: Stillen wird in der Fachinformation nicht empfohlen.",
+        "en": "Transfer behaviour of Amaryllidaceae alkaloids into breast milk is insufficiently studied; given the acute toxicity (vomiting, seizures) strictly contraindicated for the infant. Pharmaceutical galantamine: breastfeeding is not recommended per the product information."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder vergiften sich häufig durch Verzehr von Zwiebeln (Verwechslung) oder Blüten und Blättern in Familiengärten — schon eine Zwiebel kann beim Kleinkind starke Brechattacken und Dehydratation auslösen. Narzissen in Kindergärten, Schulhöfen und an Spielplätzen sollten ausser Reichweite stehen oder vorzugsweise durch ungiftige Frühjahrsblüher ersetzt werden. Keinerlei Eigenanwendung bei Kindern.",
+        "en": "Children frequently poison themselves by eating bulbs (confusion) or flowers and leaves in family gardens — even a single bulb can trigger severe vomiting and dehydration in a small child. Narcissi in kindergartens, schoolyards and near playgrounds should be out of reach or preferably replaced with non-toxic spring bloomers. No lay use in children."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Jede Form der oralen Selbstanwendung von Narzissenmaterial — keine sichere Hausdosierung möglich",
+        "en": "Any form of oral self-administration of narcissus material — no safe home dose possible"
+      },
+      {
+        "de": "Bekannte Amaryllidaceae-Allergie oder bekannte Floristen-Dermatitis — Sensibilisierung verstärkt sich bei wiederholtem Kontakt",
+        "en": "Known Amaryllidaceae allergy or known florist's dermatitis — sensitisation worsens with repeated contact"
+      },
+      {
+        "de": "Schwangerschaft, Stillzeit, Kinder und Jugendliche (siehe oben)",
+        "en": "Pregnancy, breastfeeding, children and adolescents (see above)"
+      },
+      {
+        "de": "Haushalte mit Katzen, Hunden und Nagern — Narzissenzwiebeln sind für Haustiere ausgeprägt giftig (Erbrechen, Krämpfe, Herzrhythmusstörungen)",
+        "en": "Households with cats, dogs and rodents — narcissus bulbs are markedly toxic for pets (vomiting, seizures, cardiac arrhythmias)"
+      },
+      {
+        "de": "Pharmazeutisches Galantamin spezifisch kontraindiziert bei schwerer Leber- oder Niereninsuffizienz, schwerer Bradykardie und floridem Magenulcus (siehe Fachinformation Reminyl®/Razadyne®)",
+        "en": "Pharmaceutical galantamine specifically contraindicated in severe hepatic or renal impairment, severe bradycardia and active gastric ulcer (see Reminyl®/Razadyne® product information)"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Cholinesterase-Hemmer (Donepezil, Rivastigmin, Galantamin selbst, Pyridostigmin)",
+        "mechanism": {
+          "de": "Das in Narcissus pseudonarcissus enthaltene Galantamin ist selbst ein Acetylcholinesterase-Hemmer; orale Einnahme von Rohextrakten zusätzlich zu standardisiertem Galantamin oder anderen Cholinesterase-Hemmern führt zu additiver cholinerger Wirkung (Bradykardie, Bronchospasmus, Krampfanfälle, cholinerge Krise). Klinisch relevant nur bei Pflanzenmaterial-Vergiftung, theoretisch jedoch zwingend zu beachten.",
+          "en": "Galantamine contained in Narcissus pseudonarcissus is itself an acetylcholinesterase inhibitor; oral intake of crude extracts in addition to standardised galantamine or other cholinesterase inhibitors leads to additive cholinergic effects (bradycardia, bronchospasm, seizures, cholinergic crisis). Clinically relevant only in plant material poisoning, but theoretically mandatory to consider."
+        },
+        "severity": "avoid",
+        "source_id": "src-np-wiki-galantamine"
+      },
+      {
+        "drug_class": "Anticholinergika (Atropin, Scopolamin, Trizyklische Antidepressiva, Antihistaminika 1. Generation)",
+        "mechanism": {
+          "de": "Anticholinergika antagonisieren die durch Galantamin und Lycorin verstärkte cholinerge Übertragung — bei Vergiftung mit Narzissenrohmaterial wird Atropin in der Notfallmedizin gezielt als Antidot eingesetzt (analog zur Therapie von Cholinesterase-Hemmer-Vergiftungen).",
+          "en": "Anticholinergics antagonise the cholinergic transmission enhanced by galantamine and lycorine — in poisoning with narcissus crude material, atropine is deliberately used in emergency medicine as antidote (analogous to the therapy of cholinesterase inhibitor poisoning)."
+        },
+        "severity": "monitor",
+        "source_id": "src-np-wiki-galantamine"
+      },
+      {
+        "drug_class": "Betablocker (Metoprolol, Bisoprolol, Atenolol)",
+        "mechanism": {
+          "de": "Galantamin verstärkt die vagal vermittelte Bradykardie; Kombination mit Betablockern kann symptomatische Bradykardie, AV-Block und Synkope auslösen. Bei pharmazeutischem Galantamin im klinischen Alltag relevant; bei Pflanzenmaterial-Exposition zusätzlicher Risikofaktor.",
+          "en": "Galantamine enhances vagally mediated bradycardia; combination with beta-blockers may trigger symptomatic bradycardia, AV block and syncope. Relevant in clinical use of pharmaceutical galantamine; with plant material exposure an additional risk factor."
+        },
+        "severity": "caution",
+        "source_id": "src-np-wiki-galantamine"
+      },
+      {
+        "drug_class": "Anästhetika vom Succinylcholin-Typ (depolarisierende Muskelrelaxanzien)",
+        "mechanism": {
+          "de": "Galantamin (in der Pflanze und als Arzneimittel) verlängert die neuromuskuläre Blockade durch Succinylcholin durch Hemmung der Acetylcholinesterase. Vor geplanten Operationen Galantamin-Einnahme dokumentieren; bei Narzissenmaterial-Vergiftung Anästhesie nur unter erfahrener Aufsicht.",
+          "en": "Galantamine (in the plant and as a medicine) prolongs neuromuscular blockade by succinylcholine via acetylcholinesterase inhibition. Document galantamine intake before planned surgery; with narcissus material poisoning anaesthesia only under experienced supervision."
+        },
+        "severity": "caution",
+        "source_id": "src-np-wiki-galantamine"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -69,6 +272,62 @@
       "title": "Narcissus pseudonarcissus (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Narcissus_pseudonarcissus",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-np-wiki-en",
+      "type": "wikipedia",
+      "title": "Narcissus pseudonarcissus — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Narcissus_pseudonarcissus",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-np-wiki-de",
+      "type": "wikipedia",
+      "title": "Gelbe Narzisse — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Gelbe_Narzisse",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-np-wiki-genus",
+      "type": "wikipedia",
+      "title": "Narcissus (plant) — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Narcissus_(plant)",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-np-wiki-galantamine",
+      "type": "wikipedia",
+      "title": "Galantamine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Galantamine",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-np-wiki-lycorine",
+      "type": "wikipedia",
+      "title": "Lycorine — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Lycorine",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-np-wikidata",
+      "type": "wikidata",
+      "title": "Narcissus pseudonarcissus — Wikidata Q161123",
+      "url": "https://www.wikidata.org/wiki/Q161123",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-np-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Narcissus pseudonarcissus",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Narcissus+pseudonarcissus",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-np-commons",
+      "type": "commons",
+      "title": "Narcissus pseudonarcissus — Wikimedia Commons category",
+      "url": "https://commons.wikimedia.org/wiki/Category:Narcissus_pseudonarcissus",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -80,5 +339,125 @@
     "license": "CC BY-SA 4.0",
     "author": "Pierre Poschadel",
     "source_url": "https://commons.wikimedia.org/wiki/File:Avilly-Saint-L%C3%A9onard_(60),_fleurissement_des_jonquilles_dans_la_for%C3%AAt_de_Chantilly_2.JPG"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Lycorine",
+      "category": "alkaloid",
+      "percent_range": "0.1-0.5 % in der Zwiebel (variabel nach Sorte und Erntezeit)",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Leitalkaloid der Amaryllidaceae und Hauptverantwortlicher für die Toxizität von Narcissus pseudonarcissus. Pyrrolophenanthridin-Skelett; hemmt die ribosomale Proteinbiosynthese (peptidyl transferase Aktivität) und löst dadurch starkes Erbrechen, Krämpfe und Zellteilungsstörungen aus. LD50 oral Maus ca. 41 mg/kg. Lycorin ist auch der Marker für die forensische Identifikation einer Narzissenvergiftung.",
+        "en": "Lead alkaloid of the Amaryllidaceae and main contributor to the toxicity of Narcissus pseudonarcissus. Pyrrolophenanthridine skeleton; inhibits ribosomal protein biosynthesis (peptidyl transferase activity) and thereby triggers severe vomiting, seizures and cell division disorders. LD50 oral mouse ca. 41 mg/kg. Lycorine is also the marker for forensic identification of narcissus poisoning."
+      }
+    },
+    {
+      "name": "Galantamine",
+      "category": "alkaloid",
+      "percent_range": "0.05-0.2 % in der Zwiebel (Sorte 'Carlton' deutlich höher — bis 0.4 %)",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Selektiver, kompetitiver Acetylcholinesterase-Hemmer und positiver allosterischer Modulator nikotinischer Acetylcholinrezeptoren. Pharmazeutisch standardisiert (Reminyl®, Razadyne®) bei leichter bis mittelschwerer Alzheimer-Demenz zugelassen. Walisischer Sorten-Anbau ('Black Mountains', Wales) lieferte einen wesentlichen Teil des globalen Galantamin-Rohstoffs; heute zunehmend durch Totalsynthese ersetzt. Biosynthetische Vorstufe: Narwedin.",
+        "en": "Selective, competitive acetylcholinesterase inhibitor and positive allosteric modulator of nicotinic acetylcholine receptors. Pharmaceutically standardised (Reminyl®, Razadyne®) approved for mild to moderate Alzheimer's dementia. Welsh cultivar farming ('Black Mountains', Wales) delivered a substantial part of the global galantamine raw material; today increasingly replaced by total synthesis. Biosynthetic precursor: narwedine."
+      }
+    },
+    {
+      "name": "Narciclasine",
+      "category": "alkaloid",
+      "percent_range": "Spuren bis 0.05 % in der Zwiebel",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Isocarbostyril-Alkaloid mit ausgeprägter antiproliferativer Wirkung; in vitro zytotoxisch gegen verschiedene Tumorzelllinien (Apoptose-Induktion über eIF4E- und Rho-GTPase-Modulation). Mitverantwortlich für die zelltoxische Wirkung des Pflanzensaftes auf andere Schnittblumen sowie für das hautreizende Potenzial.",
+        "en": "Isocarbostyril alkaloid with marked antiproliferative effect; in vitro cytotoxic against various tumour cell lines (apoptosis induction via eIF4E and Rho GTPase modulation). Co-responsible for the cell-toxic action of the plant sap on other cut flowers and for the skin-irritant potential."
+      }
+    },
+    {
+      "name": "Homolycorine",
+      "category": "alkaloid",
+      "percent_range": "Spuren bis 0.05 % in der Zwiebel",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Begleitalkaloid mit ähnlichem pharmakologischem Profil wie Lycorin (Brechwirkung, Hemmung der Proteinbiosynthese), jedoch geringerer Toxizität. Wird als chemotaxonomischer Marker innerhalb der Gattung Narcissus genutzt.",
+        "en": "Accompanying alkaloid with a pharmacological profile similar to lycorine (emetic action, inhibition of protein biosynthesis) but lower toxicity. Used as a chemotaxonomic marker within the genus Narcissus."
+      }
+    },
+    {
+      "name": "Narcissine (Pseudolycorine)",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Historisch namensgebendes Alkaloid (gelegentlich synonym mit Lycorin verwendet); strukturell und pharmakologisch eng mit Lycorin verwandt. In älteren Quellen wird die gesamte Alkaloidmischung der Narzissenzwiebel als 'Narcissin' bezeichnet.",
+        "en": "Historically eponymous alkaloid (occasionally used synonymously with lycorine); structurally and pharmacologically closely related to lycorine. In older sources, the entire alkaloid mixture of the narcissus bulb is referred to as 'narcissine'."
+      }
+    },
+    {
+      "name": "Calciumoxalat-Raphiden",
+      "category": "other",
+      "percent_range": "deutlich nachweisbar in Zwiebel und Saft",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Nadelförmige Calciumoxalat-Kristalle in spezialisierten Idioblasten; mechanisch reizend für Haut und Schleimhäute. Hauptverantwortlich für die mechanische Komponente der Floristen-Dermatitis und für die orale Schleimhautreizung beim versehentlichen Verzehr.",
+        "en": "Needle-shaped calcium oxalate crystals in specialised idioblasts; mechanically irritant to skin and mucous membranes. Main contributor to the mechanical component of florist's dermatitis and to oral mucosal irritation in accidental ingestion."
+      }
+    },
+    {
+      "name": "Pretazettine",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Amaryllidaceae-Alkaloid mit nachgewiesener antiviraler Aktivität in vitro (RSV, HSV); in N. pseudonarcissus in geringen Mengen. Kein praktischer therapeutischer Einsatz — Bedeutung primär als phytochemischer Marker und in der pharmakologischen Forschung.",
+        "en": "Amaryllidaceae alkaloid with documented antiviral activity in vitro (RSV, HSV); present in N. pseudonarcissus in low amounts. No practical therapeutic use — relevance primarily as a phytochemical marker and in pharmacological research."
+      }
+    },
+    {
+      "name": "Flavonoide (Kaempferol-, Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert (Blüten, Blätter)",
+      "plant_part": "flower",
+      "note": {
+        "de": "Antioxidative Begleitsubstanzen in Blüten und Blättern; tragen zur gelben Blütenfarbe (zusammen mit Carotinoiden) bei. Keine primäre Rolle in der Toxikologie; geringe pharmakologische Eigenwirkung.",
+        "en": "Antioxidant accompanying substances in flowers and leaves; contribute to the yellow flower colour (together with carotenoids). No primary role in toxicology; minor pharmacological action of their own."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "bulb",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Vormittag bei trockenem Wetter nach dem Einziehen des Laubs (Juni–August); für pharmazeutische Galantamin-Gewinnung wird die Sorte 'Carlton' kultiviert und die Zwiebel nach 2–3 Jahren Standzeit geerntet. SCHUTZHANDSCHUHE PFLICHT — Lycorin und Calciumoxalat-Raphiden lösen zuverlässig Floristen-Dermatitis aus.",
+        "en": "Late morning in dry weather after the foliage has died down (June–August); for pharmaceutical galantamine production, the cultivar 'Carlton' is grown and the bulb is harvested after 2–3 years of growth. PROTECTIVE GLOVES MANDATORY — lycorine and calcium oxalate raphides reliably trigger florist's dermatitis."
+      },
+      "drying": {
+        "de": "Zwiebeln nach der Ernte oberflächlich von Erde befreit, dunkel und luftig bei 15–20 °C trocknen lassen (Vermehrungsmaterial). Für die pharmazeutische Galantamin-Extraktion werden die frischen Zwiebeln zerkleinert und sofort extrahiert (Ethanol, säurewässrig). Lagerung roher Zwiebeln getrennt von Speisezwiebeln, Knoblauch und Lebensmitteln — Verwechslungsrisiko! Klare Beschriftung, ausser Reichweite von Kindern und Haustieren.",
+        "en": "After harvest, brush soil from the bulbs and dry in a dark, airy place at 15–20 °C (propagation material). For pharmaceutical galantamine extraction, fresh bulbs are crushed and extracted immediately (ethanol, acidic aqueous). Store raw bulbs separately from kitchen onions, garlic and food — confusion risk! Clear labelling, out of reach of children and pets."
+      },
+      "storage_condition": {
+        "de": "Trocken, kühl (8–15 °C), dunkel, ausser Reichweite von Kindern und Haustieren; Behälter klar als 'Narzissenzwiebel — giftig' beschriften; KEINESFALLS in Küchenschränken oder zwischen Speisezwiebeln lagern.",
+        "en": "Dry, cool (8–15 °C), dark, out of reach of children and pets; label containers clearly as 'narcissus bulb — toxic'; NEVER store in kitchen cabinets or among kitchen onions."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        3,
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Frühe Vormittagsstunden bei voller Blüte; Schnittblumen sofort separat 12–24 h in Wasser stellen ('konditionieren'), bevor sie mit anderen Schnittblumen kombiniert werden — der Pflanzensaft schädigt sonst andere Blumen in derselben Vase.",
+        "en": "Early morning hours at full bloom; place cut flowers separately in water for 12–24 h ('conditioning') before combining with other cut flowers — the plant sap otherwise damages other flowers in the same vase."
+      },
+      "drying": {
+        "de": "Frische Blüten lassen sich nur eingeschränkt trocknen (Verlust von Form und Farbe); kulturell und medizinisch werden überwiegend frische Blüten als Schnittblumen oder Symbolblume genutzt. Schutzhandschuhe beim Schneiden, da der Schnittsaft hautreizend wirkt.",
+        "en": "Fresh flowers can be dried only to a limited extent (loss of shape and colour); culturally and medicinally, fresh flowers are mainly used as cut flowers or as symbolic flowers. Wear protective gloves when cutting, as the cut sap is skin-irritating."
+      }
+    }
+  ]
 }

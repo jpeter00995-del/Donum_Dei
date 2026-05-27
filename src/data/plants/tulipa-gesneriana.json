@@ -20,19 +20,138 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-tg-01",
       "target": [
-        "caution"
+        "nutrition"
       ],
-      "internal_external": "external",
+      "form": "raw",
+      "plant_part": "bulb",
+      "evidence_level": "folk",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Ethnobotanisch dokumentierter Notnahrungs-Gebrauch der Tulpenzwiebel im niederländischen Hunger-Winter 1944/45 ('Hongerwinter'): Nach Erschöpfung der regulären Lebensmittelversorgung im besetzten Westen der Niederlande verteilte die Regierung in Den Haag und Amsterdam Verzehrhinweise für Tulpenzwiebeln. Die Zwiebeln wurden geschält, der zentrale Spross entfernt (er enthält die höchsten Tuliposid-/Tulipalin-Konzentrationen), und dann gekocht, geröstet oder gemahlen als Mehlersatz verwendet. Geschmack: bitter bis seifig. Trotz Vorbereitung sind zahlreiche Gastroenteritis-Fälle dokumentiert. Heute streng historisch — keine Empfehlung, da Tulipalin A bei jeder Zubereitung in Restmengen verbleibt.",
+        "en": "Ethnobotanically documented emergency-food use of tulip bulbs during the Dutch Hunger Winter 1944/45 ('Hongerwinter'): after regular food supply collapsed in the occupied western Netherlands, authorities in The Hague and Amsterdam issued public instructions for eating tulip bulbs. The bulbs were peeled, the central sprout removed (it contains the highest tuliposide/tulipalin concentrations) and then boiled, roasted or ground as flour substitute. Flavour: bitter to soapy. Despite preparation, numerous gastroenteritis cases are documented. Today strictly historical — not a recommendation, as tulipalin A remains in residual amounts after any preparation."
+      },
+      "preparation": {
+        "de": "Rein historisch-dokumentarisch. Damaliges Vorgehen: Zwiebel schälen, zentralen Keim sorgfältig entfernen, in Scheiben schneiden, mehrfach in Wasser auskochen (Wasser jeweils verwerfen), anschließend rösten oder zu Mehl mahlen. KEINE moderne Anwendungsempfehlung — Vergiftungssymptome auch nach langem Kochen möglich.",
+        "en": "Purely historical/documentary. Procedure at the time: peel bulb, carefully remove central sprout, slice, boil repeatedly in water (discarding the water each time), then roast or mill into flour. NO modern recommendation — poisoning symptoms possible even after long boiling."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
-      ]
+        "src-tg-wiki-hongerwinter",
+        "src-tg-wiki-de",
+        "src-tg-rivm"
+      ],
+      "internal_external": "internal"
+    },
+    {
+      "id": "use-tg-02",
+      "target": [
+        "skin"
+      ],
+      "form": "raw",
+      "plant_part": "bulb",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Klassisches dermatologisch dokumentiertes Berufsrisiko 'Tulpenfinger' (engl. 'tulip fingers', niederl. 'tulpenvingers'): Floristen, Zwiebelpacker und Gartenbauarbeiter, die bei der Sortierung und Verpackung von Tulpenzwiebeln längeren Hautkontakt mit Tuliposid A haben, entwickeln eine allergische Kontaktdermatitis an Fingerkuppen, Nagelfalz und Handinnenflächen. Klinisches Bild: trockene, schmerzhafte, rissige Haut mit Schuppung, manchmal Paronychie und subunguale Hyperkeratose. Mechanismus: Tuliposid A zerfällt enzymatisch zu Tulipalin A, einem alpha-Methylen-gamma-Butyrolacton, das als starkes Kontaktallergen wirkt. Standardpatch-Allergen in der Berufsdermatologie.",
+        "en": "Classic dermatologically documented occupational risk 'tulip fingers' (Dutch 'tulpenvingers'): florists, bulb packers and horticultural workers with prolonged skin contact to tuliposide A during sorting and packing of tulip bulbs develop allergic contact dermatitis on fingertips, nail folds and palms. Clinical picture: dry, painful, fissured skin with scaling, sometimes paronychia and subungual hyperkeratosis. Mechanism: tuliposide A converts enzymatically to tulipalin A, an alpha-methylene-gamma-butyrolactone acting as a strong contact allergen. A standard patch-test allergen in occupational dermatology."
+      },
+      "preparation": {
+        "de": "Keine Anwendung — dies ist eine Risiko-Beschreibung, keine Indikation. Schutzmaßnahmen: Nitril- oder PVC-Handschuhe bei der Verarbeitung von Tulpenzwiebeln, regelmäßige Hautpflege, Vermeidung von langem Kontakt bei sensibilisierten Personen.",
+        "en": "No application — this is a risk description, not an indication. Protective measures: nitrile or PVC gloves when handling tulip bulbs, regular skin care, avoid prolonged contact in sensitised individuals."
+      },
+      "source_ids": [
+        "src-tg-wiki-en",
+        "src-tg-wiki-de",
+        "src-tg-hausarzt"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-tg-03",
+      "target": [
+        "skin"
+      ],
+      "form": "compress",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Vereinzelt dokumentierte volksmedizinische Anwendung in ländlichen Regionen Anatoliens (Herkunftsregion der Garten-Tulpe): zerquetschte Tulpenblüten wurden lokal auf leichte Brandwunden, Insektenstiche und kleinere Hautreizungen aufgelegt — kühlende, mechanische Wirkung. Keine pharmakologisch belegte Heilwirkung. Wegen Tuliposid-Gehalt auch in Blüten ist bei sensibilisierten Personen eine Kontaktdermatitis möglich.",
+        "en": "Sporadically documented folk-medicinal use in rural regions of Anatolia (origin region of the garden tulip): crushed tulip flowers were locally applied to minor burns, insect stings and small skin irritations — a cooling, mechanical effect. No pharmacologically proven healing action. Because flowers also contain tuliposides, contact dermatitis is possible in sensitised individuals."
+      },
+      "preparation": {
+        "de": "Historisch-ethnobotanisch. Frische, zerquetschte Blüten kurz auf intakte Haut aufgelegt; nicht auf offene Wunden, nicht bei bekannter Tulpenallergie. Keine moderne Empfehlung.",
+        "en": "Historical/ethnobotanical. Fresh crushed flowers briefly applied to intact skin; not on open wounds, not for known tulip allergy. No modern recommendation."
+      },
+      "source_ids": [
+        "src-tg-wiki-en",
+        "src-tg-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-tg-04",
+      "target": [
+        "wounds"
+      ],
+      "form": "raw",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Im persischen und osmanischen Kulturkreis (16.-18. Jh.) galt die Tulpe vor allem als Zier- und Symbolpflanze ('Lale'); in einzelnen Kräuterbüchern dieser Zeit findet sich aber auch der Hinweis auf eine äußerliche Verwendung der Blüten als kühlende Auflage bei Hautreizungen und kleinen Schnittwunden. Diese Anwendung ist quellenmäßig vage und gilt heute als rein historisch.",
+        "en": "In the Persian and Ottoman cultural sphere (16th-18th century) the tulip was primarily an ornamental and symbolic plant ('lale'); single herbals of that period mention an external use of the flowers as cooling poultice for skin irritations and small cuts. The documentation is vague and the use is regarded as purely historical today."
+      },
+      "preparation": {
+        "de": "Historisch-dokumentarisch; keine Anwendungsempfehlung. Blütenblätter wurden frisch zerquetscht oder als dünne Auflage verwendet.",
+        "en": "Historical/documentary; no application recommendation. Petals were freshly crushed or used as a thin compress."
+      },
+      "source_ids": [
+        "src-tg-wiki-en",
+        "src-tg-pfaf"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-tg-05",
+      "target": [
+        "immune"
+      ],
+      "form": "raw",
+      "plant_part": "bulb",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Phytochemisch dokumentierte antifungale Eigenschaft von Tulipalin A und Tulipalin B aus Tulpenzwiebeln (vor allem gegen Botrytis cinerea, Fusarium spp. und einige Hefen): Die Substanzen wirken als Teil des pflanzeneigenen chemischen Abwehrsystems gegen Pilzinfektionen der Zwiebel. Eine medizinische Anwendung am Menschen existiert nicht — die Daten stammen aus pflanzenpathologischen und agrarchemischen Studien. Erwähnung als phytochemisch interessante Beobachtung, keine therapeutische Indikation.",
+        "en": "Phytochemically documented antifungal property of tulipalin A and tulipalin B from tulip bulbs (especially against Botrytis cinerea, Fusarium spp. and some yeasts): the compounds act as part of the plant's chemical defence system against fungal infections of the bulb. There is no medical application in humans — data come from plant-pathology and agrochemical studies. Listed as a phytochemically interesting observation, not a therapeutic indication."
+      },
+      "preparation": {
+        "de": "Keine Anwendung am Menschen. Reine Forschungs-/Phytopathologie-Information.",
+        "en": "No human application. Pure research/phytopathology information."
+      },
+      "source_ids": [
+        "src-tg-wiki-tulipalin",
+        "src-tg-wiki-en"
+      ],
+      "internal_external": "external"
+    },
+    {
+      "id": "use-tg-06",
+      "target": [
+        "nutrition"
+      ],
+      "form": "raw",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Blütenblätter der Garten-Tulpe wurden im niederländischen Hunger-Winter 1944/45 vereinzelt mitverwendet, sind aber nicht so gut dokumentiert wie die Zwiebeln. Heute gelegentlich in Hobbyköchen-Kreisen als essbare Blüte für Dekoration empfohlen — wegen Tulipalin-Gehalt nicht empfehlenswert, sensibilisierte Personen können orale Schleimhautreizung erleiden.",
+        "en": "Petals of the garden tulip were occasionally used during the Dutch Hunger Winter 1944/45 too, but are less well documented than the bulbs. Today sometimes recommended in hobby-cook circles as an edible flower for decoration — not advisable because of tulipalin content, sensitised people can develop oral mucosal irritation."
+      },
+      "preparation": {
+        "de": "Keine Empfehlung. Wenn historisch dokumentiert: Blütenblätter wurden frisch, gehackt oder kurz blanchiert verwendet. Modern: nicht empfehlenswert.",
+        "en": "Not recommended. As historically documented: petals were used fresh, chopped or briefly blanched. Modern: not advisable."
+      },
+      "source_ids": [
+        "src-tg-wiki-hongerwinter",
+        "src-tg-wiki-de"
+      ],
+      "internal_external": "internal"
     }
   ],
   "season": {
@@ -47,12 +166,66 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG (Tulipalin A und B, Tuliposide) — vor allem die Zwiebel. Bei Hautkontakt klassische „Tulpenfinger\" (allergisches Ekzem bei Floristen). Verzehr der Zwiebel verursacht Erbrechen, Durchfall, Atemnot — historisch verwechselt mit Speisezwiebeln im Hunger-Winter 1944/45 in den Niederlanden, mit zahlreichen Vergiftungen. Auch für Hunde und Katzen toxisch.",
-      "en": "TOXIC (tulipalin A and B, tuliposides) — especially the bulb. Skin contact causes classic 'tulip fingers' (allergic eczema in florists). Consuming the bulb causes vomiting, diarrhoea, shortness of breath — historically confused with onions during the 1944/45 Dutch hunger winter, causing numerous poisonings. Also toxic for dogs and cats."
+      "de": "GIFTIG — vor allem die Zwiebel. Alle Pflanzenteile von Tulipa gesneriana enthalten Tuliposid A und B sowie deren Aglyka Tulipalin A und B (alpha-Methylen-gamma-Butyrolactone), in Zwiebel und zentralem Spross am höchsten konzentriert. Hautkontakt mit Zwiebelsaft führt zu 'Tulpenfingern' — einer klassisch beschriebenen allergischen Berufs-Kontaktdermatitis bei Floristen, Zwiebelpackern und Gartenbauarbeitern. Verzehr der Zwiebel verursacht Brennen im Mund, Übelkeit, Erbrechen, krampfartige Bauchschmerzen und Durchfall (Gastroenteritis); im niederländischen Hunger-Winter 1944/45 dokumentierte Notnahrungs-Vergiftungen. Verwechslung mit Speisezwiebeln ist mehrfach beschrieben. Auch für Hunde, Katzen und Pferde toxisch (Symptome: Speicheln, Erbrechen, Durchfall, in schwerer Form Tachykardie und Atemnot). Bei Verdacht auf Vergiftung: Giftnotrufzentrale anrufen, kein Erbrechen provozieren, viel Flüssigkeit anbieten.",
+      "en": "TOXIC — especially the bulb. All parts of Tulipa gesneriana contain tuliposide A and B as well as their aglycones tulipalin A and B (alpha-methylene-gamma-butyrolactones), most concentrated in the bulb and central sprout. Skin contact with bulb sap causes 'tulip fingers' — a classically described occupational allergic contact dermatitis in florists, bulb packers and horticultural workers. Consuming the bulb causes oral burning, nausea, vomiting, cramping abdominal pain and diarrhoea (gastroenteritis); the Dutch Hunger Winter 1944/45 documented emergency-food poisonings. Confusion with edible onions has been described repeatedly. Also toxic to dogs, cats and horses (symptoms: hypersalivation, vomiting, diarrhoea, in severe form tachycardia and respiratory distress). On suspected poisoning: call poison control, do not induce vomiting, offer plenty of fluids."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Keine pharmakologische Anwendung. Verzehr der Zwiebel oder Blüte in der Schwangerschaft kontraindiziert wegen Gastroenteritis-Risiko (Elektrolytverlust, Dehydratation, theoretische Auswirkung auf den Fötus durch maternale Hypovolämie).",
+        "en": "No pharmacological application. Consumption of bulb or flower in pregnancy contraindicated due to gastroenteritis risk (electrolyte loss, dehydration, theoretical fetal impact via maternal hypovolaemia)."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Keine pharmakologische Anwendung. Tulipalin-Metabolite können theoretisch in die Muttermilch übergehen — Daten fehlen vollständig. Verzehr in Stillzeit kontraindiziert.",
+        "en": "No pharmacological application. Tulipalin metabolites may theoretically pass into breast milk — data are entirely lacking. Consumption while breastfeeding is contraindicated."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder sind besonders gefährdet, weil bunte Tulpenzwiebeln (im Herbst gelagert) leicht mit Speisezwiebeln verwechselt werden und Blütenblätter ungewollt verschluckt werden können. Schon kleinste Mengen können heftige Magen-Darm-Symptome auslösen. Tulpenzwiebeln streng außerhalb der Reichweite von Kindern lagern.",
+        "en": "Children are particularly at risk because colourful tulip bulbs (stored in autumn) can easily be confused with edible onions and petals can be swallowed accidentally. Even small amounts can trigger severe gastrointestinal symptoms. Strictly store tulip bulbs out of reach of children."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Bekannte Tulpen- oder Liliaceen-Allergie (Kreuzreaktion zu Alstroemeria, Hyazinthe, Narzisse möglich)",
+        "en": "Known tulip or Liliaceae allergy (cross-reaction with Alstroemeria, hyacinth, narcissus possible)"
+      },
+      {
+        "de": "Berufliche Sensibilisierung gegen Tuliposid/Tulipalin (Floristen, Zwiebelpacker, Gartenbauarbeiter mit anamnestisch dokumentierten 'Tulpenfingern')",
+        "en": "Occupational sensitisation to tuliposide/tulipalin (florists, bulb packers, horticultural workers with documented history of 'tulip fingers')"
+      },
+      {
+        "de": "Chronisch-entzündliche Darmerkrankungen (Reizung der ohnehin geschädigten Mukosa durch Tulipalin)",
+        "en": "Chronic inflammatory bowel disease (irritation of already damaged mucosa by tulipalin)"
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (siehe oben)",
+        "en": "Pregnancy and breastfeeding (see above)"
+      },
+      {
+        "de": "Kinder unter 12 Jahren — kein Verzehr, keine Spielzeug-Manipulation mit zerschnittenen Zwiebeln",
+        "en": "Children under 12 — no consumption, no toy handling with cut bulbs"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Topische Kortikosteroide (Hydrocortison, Mometason)",
+        "mechanism": {
+          "de": "Bei beruflich bedingter Tulpenfinger-Dermatitis werden topische Steroide therapeutisch eingesetzt — keine Wechselwirkung im klassischen pharmakologischen Sinn, aber die Hautbarriere ist gestört und unter Steroidsalbe verstärkt sich potenziell die Resorption weiterer Allergene. Konsequente Allergen-Karenz während der Behandlung.",
+          "en": "In occupational tulip-finger dermatitis topical steroids are used therapeutically — no interaction in the classical pharmacological sense, but the skin barrier is impaired and other allergens may be absorbed more strongly under steroid ointment. Strict allergen avoidance is mandatory during treatment."
+        },
+        "severity": "monitor",
+        "source_id": "src-tg-hausarzt"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -69,6 +242,62 @@
       "title": "Tulipa gesneriana (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Tulipa_gesneriana",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-tg-wiki-de",
+      "type": "wikipedia",
+      "title": "Garten-Tulpe — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Garten-Tulpe",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-tg-wiki-en",
+      "type": "wikipedia",
+      "title": "Tulipa gesneriana — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Tulipa_gesneriana",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-tg-wiki-tulipalin",
+      "type": "wikipedia",
+      "title": "Tulipalin A — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Tulipalin_A",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-tg-wiki-hongerwinter",
+      "type": "wikipedia",
+      "title": "Dutch famine of 1944-45 (Hongerwinter) — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Dutch_famine_of_1944%E2%80%9345",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-tg-wikidata",
+      "type": "wikidata",
+      "title": "Tulipa gesneriana — Wikidata Q161467",
+      "url": "https://www.wikidata.org/wiki/Q161467",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-tg-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Tulipa gesneriana",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Tulipa+gesneriana",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-tg-hausarzt",
+      "type": "wikipedia",
+      "title": "Tulip finger / Tulpenfinger — Allergische Kontaktdermatitis (Wikipedia DE)",
+      "url": "https://de.wikipedia.org/wiki/Tulpenfinger",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-tg-rivm",
+      "type": "wikipedia",
+      "title": "Tulipa — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Tulip",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -80,5 +309,124 @@
     "license": "Public domain",
     "author": "Hans-Simon Holtzbecker",
     "source_url": "https://commons.wikimedia.org/wiki/File:Gc16_tulipa_gesneriana.jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Tuliposide A",
+      "category": "glycoside",
+      "percent_range": "bis 1.5 % in der Zwiebel (zentraler Spross am höchsten)",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Hauptglykosid der Tulpe; Glucoseester der 4-Hydroxy-2-methylen-Butansäure. Wasserlöslich, ungiftig in intakter Form, wird aber beim Zerquetschen der Pflanze oder bei Kontakt mit Pflanzenenzymen rasch zum hochreaktiven Aglykon Tulipalin A umgesetzt — Ursache der Tulpenfinger-Dermatitis. Höchste Konzentration im jungen Sprossgewebe und in der inneren Zwiebelschuppe.",
+        "en": "Main glycoside of tulip; glucose ester of 4-hydroxy-2-methylene-butanoic acid. Water-soluble, non-toxic when intact, but on crushing or contact with plant enzymes rapidly converted to the highly reactive aglycone tulipalin A — the cause of tulip-finger dermatitis. Highest concentration in young sprout tissue and inner bulb scales."
+      }
+    },
+    {
+      "name": "Tuliposide B",
+      "category": "glycoside",
+      "percent_range": "0.1-0.4 % in der Zwiebel",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Begleitglykosid mit einer zusätzlichen Hydroxylgruppe am Lacton-Vorläufer. Zerfällt zu Tulipalin B, dessen kontaktallergene Wirkung etwas schwächer ist als die von Tulipalin A. Trotzdem patch-positiv bei sensibilisierten Floristen.",
+        "en": "Accompanying glycoside with an additional hydroxyl group on the lactone precursor. Cleaves to tulipalin B, whose contact-allergenic effect is somewhat weaker than tulipalin A. Still patch-positive in sensitised florists."
+      }
+    },
+    {
+      "name": "Tulipalin A (alpha-Methylen-gamma-Butyrolacton)",
+      "category": "other",
+      "percent_range": "entsteht in vivo aus Tuliposid A",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Aglykon des Tuliposid A; reaktives alpha-Methylen-gamma-Butyrolacton mit Michael-Akzeptor-Funktion. Reagiert kovalent mit nukleophilen Aminosäureseitenketten (Cystein-SH, Lysin-NH2) in Hautproteinen und bildet Hapten-Protein-Konjugate — molekulare Grundlage der Typ-IV-Sensibilisierung. Auch antifungal gegen Botrytis cinerea, Fusarium und einige Hefen.",
+        "en": "Aglycone of tuliposide A; reactive alpha-methylene-gamma-butyrolactone with Michael-acceptor function. Reacts covalently with nucleophilic amino-acid side chains (cysteine-SH, lysine-NH2) in skin proteins, forming hapten-protein conjugates — molecular basis of type IV sensitisation. Also antifungal against Botrytis cinerea, Fusarium and some yeasts."
+      }
+    },
+    {
+      "name": "Tulipalin B",
+      "category": "other",
+      "percent_range": "entsteht in vivo aus Tuliposid B",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Hydroxyliertes Aglykon des Tuliposid B; analoge Michael-Akzeptor-Reaktivität wie Tulipalin A, jedoch geringere Konzentration und Allergenität. Beitrag zur Gesamtreaktivität von Tulpenzwiebelsaft.",
+        "en": "Hydroxylated aglycone of tuliposide B; analogous Michael-acceptor reactivity to tulipalin A but lower concentration and allergenicity. Contributes to overall reactivity of tulip bulb sap."
+      }
+    },
+    {
+      "name": "Tulipanin",
+      "category": "flavonoid",
+      "percent_range": "in der Blüte, je nach Sorte unterschiedlich",
+      "plant_part": "flower",
+      "note": {
+        "de": "Anthocyan-Glykosid (Delphinidin-3-rutinosid) — verantwortlich für das tiefe Violett bis Schwarz-Purpur klassischer Tulpensorten. Pharmakologisch ohne therapeutische Bedeutung; bedeutsam für Pflanzenpigmentchemie und historisch für die Tulpomanie 1637 (gestreifte Sorten entstanden durch Tulpen-Mosaikvirus, der die Pigmentverteilung aufbrach).",
+        "en": "Anthocyanin glycoside (delphinidin-3-rutinoside) — responsible for the deep violet to black-purple of classical tulip cultivars. Pharmacologically without therapeutic relevance; important for plant pigment chemistry and historically for tulipomania 1637 (striped varieties were caused by tulip mosaic virus, which broke up pigment distribution)."
+      }
+    },
+    {
+      "name": "Polysaccharide (Glucomannane, Stärke)",
+      "category": "polysaccharide",
+      "percent_range": "Hauptbestandteil des Zwiebelgewebes (Trockensubstanz dominiert)",
+      "plant_part": "bulb",
+      "note": {
+        "de": "Reservekohlenhydrate der Zwiebel; aus pflanzenphysiologischer Sicht das Wesentliche des unterirdischen Organs. Diese Kalorienquelle erklärt, warum Tulpenzwiebeln im Hunger-Winter 1944/45 überhaupt als Notnahrung in Frage kamen — ohne die begleitenden Tuliposide wären sie ein akzeptables Stärkenahrungsmittel.",
+        "en": "Storage carbohydrates of the bulb; from a plant-physiological perspective the substantial mass of the underground organ. This calorie source explains why tulip bulbs were considered emergency food at all during Hunger Winter 1944/45 — without the accompanying tuliposides they would be an acceptable starch food."
+      }
+    },
+    {
+      "name": "Oxalsäure und Oxalat-Kristalle",
+      "category": "other",
+      "percent_range": "Spuren bis geringe Mengen",
+      "plant_part": "bulb",
+      "note": {
+        "de": "In Tulpenzwiebeln in geringem Umfang nachgewiesen; tragen zur Mukosa-Reizung bei Verzehr bei, sind aber nicht die Hauptursache der Gastroenteritis (das ist Tulipalin A). Calciumoxalat-Raphiden können mechanisch zur Mund- und Schlundreizung beitragen.",
+        "en": "Detected in tulip bulbs in small amounts; contribute to mucosal irritation on ingestion but are not the main cause of gastroenteritis (that is tulipalin A). Calcium oxalate raphides can mechanically contribute to oral and pharyngeal irritation."
+      }
+    },
+    {
+      "name": "Flavonoide (Kämpferol- und Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "nicht quantifiziert",
+      "plant_part": "flower",
+      "note": {
+        "de": "Begleitende Blütenflavonoide neben dem Anthocyan Tulipanin; tragen zur gelben Pigmentierung mancher Sorten bei (Co-Pigmentation). Antioxidative Kapazität in vitro nachweisbar, ohne therapeutische Relevanz.",
+        "en": "Companion flower flavonoids alongside the anthocyanin tulipanin; contribute to yellow pigmentation of some cultivars (co-pigmentation). Antioxidant capacity demonstrable in vitro, without therapeutic relevance."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "bulb",
+      "best_months": [
+        6,
+        7
+      ],
+      "time_of_day": {
+        "de": "Nach dem Welken des Laubes, an einem trockenen Tag — die Zwiebel hat dann maximale Nährstoffeinlagerung und ist am haltbarsten.",
+        "en": "After foliage has died back, on a dry day — the bulb then has maximal nutrient storage and best shelf-life."
+      },
+      "drying": {
+        "de": "Erdig anhaftende Reste mit weicher Bürste entfernen, NICHT waschen. Zwiebeln in flachen Holzkisten oder Netzen schattig, trocken, gut belüftet 1-2 Wochen nachtrocknen. Bei der Verarbeitung SCHUTZHANDSCHUHE (Nitril/PVC) tragen — Hautkontakt mit dem Zwiebelsaft löst die typischen Tulpenfinger-Reaktionen aus.",
+        "en": "Remove adhering soil with a soft brush, DO NOT wash. Cure bulbs for 1-2 weeks in flat wooden crates or nets in a shady, dry, well-ventilated place. When handling, wear PROTECTIVE GLOVES (nitrile/PVC) — skin contact with bulb sap triggers the typical tulip-finger reactions."
+      },
+      "storage_months": 4,
+      "storage_condition": {
+        "de": "Trocken, dunkel, kühl (15-20 °C im Sommer, ab Oktober 5-9 °C zur Kühlperiode für die Blüteninduktion); außer Reichweite von Kindern und Haustieren. Klar als 'Tulpenzwiebel — nicht zum Verzehr' beschriften, um Verwechslungen mit Speisezwiebeln auszuschließen.",
+        "en": "Dry, dark, cool (15-20 °C in summer, from October at 5-9 °C for cold period needed for flower induction); out of reach of children and pets. Clearly label as 'tulip bulb — not for consumption' to prevent confusion with edible onions."
+      }
+    },
+    {
+      "plant_part": "flower",
+      "best_months": [
+        4,
+        5
+      ],
+      "time_of_day": {
+        "de": "Früher Vormittag bei trockener Witterung, kurz nach dem Öffnen der Blüten — für Schnittblumen oder rein dekorative/ethnobotanische Dokumentation. Keine medizinische Indikation.",
+        "en": "Early morning in dry weather, shortly after the flowers have opened — for cut flowers or purely decorative/ethnobotanical documentation. No medical indication."
+      },
+      "drying": {
+        "de": "Blütenblätter können pressgetrocknet werden (Herbarium); für eine Trocknung mit Erhalt der Anthocyan-Farbe rasch bei 30-35 °C im Dunkeln. Auch bei Schnittblumen-Verarbeitung Handschuhe tragen, da Blüte und Stiel Tuliposide enthalten.",
+        "en": "Petals can be press-dried (herbarium); for drying with preserved anthocyanin colour, dry quickly at 30-35 °C in the dark. Wear gloves even when handling cut flowers, as flower and stem also contain tuliposides."
+      }
+    }
+  ]
 }

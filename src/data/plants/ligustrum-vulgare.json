@@ -20,18 +20,154 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-lv-01",
+      "form": "gargle",
       "target": [
-        "caution"
+        "throat",
+        "wounds"
       ],
       "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Volksmedizinische Anwendung eines Aufgusses aus Liguster-Blättern als adstringierende Gurgelung bei Mund- und Rachenentzündungen. Die enthaltenen Iridoidglykoside und Gerbstoffe wirken zusammenziehend auf entzündete Schleimhäute. Nur Mundspülung, nicht schlucken — Beeren und Blätter sind innerlich toxisch.",
+        "en": "Folk medicinal use of an infusion of privet leaves as astringent gargle for mouth and throat inflammation. The iridoid glycosides and tannins it contains act constrictively on inflamed mucous membranes. Mouth rinse only, do not swallow — berries and leaves are toxic internally."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "1-2 g getrocknete Blätter mit kochendem Wasser uebergiessen, 10 Minuten ziehen lassen, abseihen und abkuehlen lassen. Nur gurgeln, nicht schlucken. Anwendung auf wenige Tage begrenzen.",
+          "en": "Pour boiling water over 1-2 g of dried leaves, steep for 10 minutes, strain and let cool. Gargle only, do not swallow. Limit use to a few days."
+        }
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src-lv-wiki-de",
+        "src-lv-pfaf"
+      ]
+    },
+    {
+      "id": "use-lv-02",
+      "form": "compress",
+      "target": [
+        "skin",
+        "wounds"
+      ],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Aeusserliche Anwendung eines Blaetterdekokts als Umschlag bei kleineren Hautreizungen, oberflaechlichen Wunden und entzuendeten Stellen. Adstringierende Wirkung der Gerbstoffe; rein traditionelle Verwendung ohne klinische Evidenz.",
+        "en": "External use of a leaf decoction as compress for minor skin irritations, superficial wounds and inflamed areas. Astringent action of the tannins; purely traditional use without clinical evidence."
+      },
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 500,
+        "steep_min": 15,
+        "instructions": {
+          "de": "5-10 g getrocknete Blaetter in 500 ml Wasser 15 Minuten koecheln lassen, abseihen, ein sauberes Tuch traenken und auf die betroffene Stelle legen. Nur aeusserlich.",
+          "en": "Simmer 5-10 g dried leaves in 500 ml water for 15 minutes, strain, soak a clean cloth and apply to the affected area. External use only."
+        }
+      },
+      "source_ids": [
+        "src-lv-pfaf",
+        "src-lv-wiki-en"
+      ]
+    },
+    {
+      "id": "use-lv-03",
+      "form": "raw",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische Faerberverwendung: Aus den reifen, schwarz glaenzenden Beeren wurde traditionell ein violetter bis blaeulicher Farbstoff fuer Tinten, Textilien und Aquarellfarben gewonnen. Ethnobotanische Verwendung, nicht medizinisch. Beeren bleiben dabei toxisch — kein Verzehr.",
+        "en": "Historical dye use: a violet to bluish dye for inks, textiles and watercolours was traditionally extracted from the ripe, black glossy berries. Ethnobotanical, non-medicinal use. Berries remain toxic — no consumption."
+      },
+      "preparation": {
+        "de": "Reife Beeren werden zerstossen und mit Alaun oder Eisensalzen als Beize gekocht. Reiner Faerbevorgang, keine medizinische Zubereitung.",
+        "en": "Ripe berries are crushed and boiled with alum or iron salts as mordant. Pure dyeing process, not a medicinal preparation."
+      },
+      "source_ids": [
+        "src-lv-wiki-de",
+        "src-lv-pfaf"
+      ]
+    },
+    {
+      "id": "use-lv-04",
+      "form": "raw",
+      "target": [
+        "nutrition"
+      ],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Bienenweide: Die stark duftenden weissen Liguster-Bluetenrispen erscheinen von Mai bis Juli und liefern Nektar und Pollen fuer Honigbienen und Wildbienen. Der entstehende Honig hat einen kraeftig-bitteren Geschmack und wird selten sortenrein geerntet; oekologisch bedeutsame Trachtpflanze in Hecken.",
+        "en": "Bee forage: the strongly scented white privet flower panicles appear from May to July and provide nectar and pollen for honey bees and wild bees. The resulting honey has a strongly bitter taste and is rarely harvested as a single-source variety; ecologically important forage plant in hedges."
+      },
+      "preparation": {
+        "de": "Keine humane Zubereitung — oekologische Nutzung durch Bienenhaltung; Pflanzung in Hecken als Trachtquelle.",
+        "en": "No human preparation — ecological use through beekeeping; planting in hedges as forage source."
+      },
+      "source_ids": [
+        "src-lv-wiki-de",
+        "src-lv-wiki-en"
+      ]
+    },
+    {
+      "id": "use-lv-05",
+      "form": "raw",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional",
+      "description": {
+        "de": "Klassische Heckenpflanze fuer Sicht- und Laermschutz in Gaerten und Parks. Schnittvertraegliche, dichte Wuchsform; halbimmergruen in milden Wintern. Ornamentale Hauptverwendung; ethnobotanisch als 'Zaunriegel' und 'Rainweide' benannt.",
+        "en": "Classic hedge plant for privacy and noise screening in gardens and parks. Tolerant of pruning, dense growth habit; semi-evergreen in mild winters. Main ornamental use; ethnobotanically named 'Zaunriegel' (fence bar) and 'Rainweide' (field-edge willow)."
+      },
+      "preparation": {
+        "de": "Pflanzung als Hecke; jaehrlicher Schnitt im Spaetwinter oder nach der Bluete. Schnittgut nicht kompostieren, wenn Tiere Zugang haben — Blaetter sind toxisch.",
+        "en": "Plant as a hedge; prune annually in late winter or after flowering. Do not compost clippings where animals have access — leaves are toxic."
+      },
+      "source_ids": [
+        "src-lv-wiki-de",
+        "src-lv-pfaf"
+      ]
+    },
+    {
+      "id": "use-lv-06",
+      "form": "raw",
+      "target": [
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "bark",
+      "evidence_level": "folk",
+      "description": {
+        "de": "Historische Verwendung der zaehen Liguster-Zweige fuer Korbflechterei, Bindemittel und einfache Geraetschaften. Der alte Name 'Beinholz' verweist auf die Verarbeitung des Holzes zu Drechselarbeiten und kleinen Gebrauchsgegenstaenden. Ethnobotanische, nicht medizinische Verwendung.",
+        "en": "Historical use of the tough privet twigs for basketry, ties and simple tools. The old German name 'Beinholz' (bone-wood) refers to the processing of the wood into turnery and small utility items. Ethnobotanical, non-medicinal use."
+      },
+      "preparation": {
+        "de": "Frische, ein- bis zweijaehrige Zweige im Winter schneiden, schaelen und biegsam verarbeiten.",
+        "en": "Cut fresh one- to two-year-old twigs in winter, peel and work while flexible."
+      },
+      "source_ids": [
+        "src-lv-wiki-de",
+        "src-lv-wikidata"
       ]
     }
   ],
@@ -50,12 +186,62 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG (Ligustrin) — schwarze Beeren und Blätter. Sehr verbreitete Heckenpflanze in europäischen Gärten. Beeren werden manchmal von Kindern verzehrt — schon 6-10 Beeren verursachen Erbrechen, Durchfall, Kreislaufstörungen. Auch für Pferde, Hunde, Katzen toxisch. NICHT mit essbarem Aronia oder Holunder verwechseln.",
-      "en": "TOXIC (ligustrin) — black berries and leaves. Very common hedge plant in European gardens. Berries are sometimes consumed by children — just 6-10 berries cause vomiting, diarrhoea, circulatory problems. Also toxic for horses, dogs, cats. Do NOT confuse with edible aronia or elderberry."
+      "de": "GIFTIG — Beeren und Blaetter. Die schwarzen, glaenzenden Beeren des Gewoehnlichen Ligusters enthalten Secoiridoid-Glykoside (Ligustrosid, Oleuropein, Syringosid, Ligustaloside A) und sind eine der haeufigsten Pflanzenvergiftungen bei Kindern in mitteleuropaeischen Gaerten. Bereits 6-10 Beeren koennen Erbrechen, Bauchschmerzen, Durchfall, Schwindel und Kreislaufstoerungen ausloesen. Bei Verzehr groesserer Mengen: SOFORT Giftnotruf kontaktieren. Auch fuer Hunde, Katzen, Pferde und Wiederkaeuer toxisch. Nicht mit essbarem Holunder (Sambucus nigra) oder Aronia verwechseln — Liguster-Beeren haengen aufrecht in lockeren Rispen, Holunder dagegen in haengenden Dolden.",
+      "en": "TOXIC — berries and leaves. The black, glossy berries of common privet contain secoiridoid glycosides (ligustroside, oleuropein, syringoside, ligustaloside A) and are one of the most frequent plant poisonings in children in central European gardens. As few as 6-10 berries can cause vomiting, abdominal pain, diarrhoea, dizziness and circulatory problems. For consumption of larger quantities: IMMEDIATELY contact poison control. Also toxic to dogs, cats, horses and ruminants. Do not confuse with edible elderberry (Sambucus nigra) or aronia — privet berries hang upright in loose panicles, elderberries in pendulous umbels."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Keine innerliche Anwendung von Liguster-Zubereitungen in Schwangerschaft. Sichere Verwendung in der Schwangerschaft ist nicht belegt; die Beeren sind in jedem Fall toxisch. Aeussere Anwendung als Gurgelung nur bei strikter Vermeidung des Schluckens.",
+        "en": "No internal use of privet preparations during pregnancy. Safe use during pregnancy is not established; berries are toxic in any case. External use as gargle only with strict avoidance of swallowing."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Keine innerliche Anwendung in der Stillzeit. Daten zum Uebergang von Iridoidglykosiden in die Muttermilch fehlen; aufgrund der Toxizitaet kontraindiziert.",
+        "en": "No internal use during breastfeeding. Data on the transfer of iridoid glycosides into breast milk is lacking; contraindicated due to toxicity."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kinder reagieren besonders empfindlich auf die Beerentoxine. Die glaenzend-schwarzen Beeren wirken auf Kinder attraktiv und werden regelmaessig in Notaufnahmen vorgestellt. Pflanzen in Familiengaerten kennzeichnen, Kinder ueber die Gefahr aufklaeren, und bei Verdacht auf Verzehr unverzueglich aerztliche Hilfe holen. Keine Liguster-Zubereitungen bei Kindern unter 12 Jahren — auch nicht als Gurgelung.",
+        "en": "Children are particularly sensitive to the berry toxins. The glossy black berries are attractive to children and are regularly seen in emergency departments. Mark plants in family gardens, educate children about the danger, and seek immediate medical help on suspicion of consumption. No privet preparations in children under 12 years — not even as gargle."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Jede innerliche Anwendung — Beeren und Blaetter enthalten reizende Secoiridoid-Glykoside",
+        "en": "Any internal use — berries and leaves contain irritating secoiridoid glycosides"
+      },
+      {
+        "de": "Allergien gegen Oleaceae-Gewaechse (Olive, Esche, Flieder)",
+        "en": "Allergies to Oleaceae plants (olive, ash, lilac)"
+      },
+      {
+        "de": "Bestehende Magen-Darm-Reizung oder Entzuendung — Iridoide wirken zusaetzlich reizend",
+        "en": "Existing gastrointestinal irritation or inflammation — iridoids act additionally irritating"
+      },
+      {
+        "de": "Haustierhaushalte mit ungesichertem Zugang — Hunde und Katzen erleiden schwere Vergiftungen",
+        "en": "Pet households with unsecured access — dogs and cats suffer severe poisoning"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Magen-Darm-Reizstoffe (NSAIDs, Bisphosphonate)",
+        "mechanism": {
+          "de": "Zusaetzliche Schleimhautreizung durch Iridoidglykoside; relevant nur bei versehentlichem Schlucken einer Gurgelloesung.",
+          "en": "Additional mucosal irritation from iridoid glycosides; relevant only with accidental swallowing of a gargle solution."
+        },
+        "severity": "caution",
+        "source_id": "src-lv-pfaf"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -72,6 +258,55 @@
       "title": "Ligustrum vulgare (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Ligustrum_vulgare",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-lv-wiki-de",
+      "type": "wikipedia",
+      "title": "Gewoehnlicher Liguster — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Liguster",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-lv-wiki-en",
+      "type": "wikipedia",
+      "title": "Ligustrum vulgare — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Ligustrum_vulgare",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-lv-wikidata",
+      "type": "wikidata",
+      "title": "Ligustrum vulgare — Wikidata Q156005",
+      "url": "https://www.wikidata.org/wiki/Q156005",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-lv-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Ligustrum vulgare",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ligustrum+vulgare",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-lv-commons",
+      "type": "commons",
+      "title": "Ligustrum vulgare — Wikimedia Commons category",
+      "url": "https://commons.wikimedia.org/wiki/Category:Ligustrum_vulgare",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-lv-giftpflanzen",
+      "type": "monograph",
+      "title": "Liguster (Ligustrum vulgare) — Giftpflanzen-Datenbank Botanikus",
+      "url": "https://www.botanikus.de/giftpflanzen/liguster/",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-lv-tela-botanica",
+      "type": "monograph",
+      "title": "Ligustrum vulgare L. — Tela Botanica eFlore",
+      "url": "https://www.tela-botanica.org/bdtfx-nn-38790-synthese",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -83,5 +318,131 @@
     "license": "CC BY-SA 3.0",
     "author": "Globetrotter19",
     "source_url": "https://commons.wikimedia.org/wiki/File:Tab%C3%A1ni_Botanikai_Tan%C3%B6sv%C3%A9ny._K%C3%B6z%C3%B6ns%C3%A9ges_fagyal_(Ligustrum_vulgare)._-_Budapest.JPG"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Ligustroside",
+      "category": "glycoside",
+      "percent_range": "vorhanden",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Charakteristisches Secoiridoid-Glykosid der Gattung Ligustrum; namensgebend; strukturell verwandt mit Oleuropein der Olive (Oleaceae-Familie). Bittere, schleimhautreizende Wirkung; mitverantwortlich fuer die Toxizitaet der Beeren.",
+        "en": "Characteristic secoiridoid glycoside of the genus Ligustrum; gives the substance its name; structurally related to oleuropein of olive (Oleaceae family). Bitter, mucosa-irritating action; co-responsible for berry toxicity."
+      }
+    },
+    {
+      "name": "Oleuropein",
+      "category": "glycoside",
+      "percent_range": "vorhanden",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Secoiridoid-Glykosid; in der Olive intensiv erforschter antioxidativer Wirkstoff. In Ligustrum-Blaettern in geringerer Konzentration als in Olea europaea, aber regelmaessig nachweisbar.",
+        "en": "Secoiridoid glycoside; intensively researched antioxidant active ingredient in olive. Present in Ligustrum leaves at lower concentrations than in Olea europaea, but regularly detectable."
+      }
+    },
+    {
+      "name": "Syringoside",
+      "category": "glycoside",
+      "percent_range": "vorhanden",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Iridoid-Glykosid; phytochemisch markant fuer mehrere Oleaceae-Gattungen einschliesslich Syringa (Flieder). Beitrag zum bitteren Geschmack der Blaetter.",
+        "en": "Iridoid glycoside; phytochemically distinctive for several Oleaceae genera including Syringa (lilac). Contributes to the bitter taste of the leaves."
+      }
+    },
+    {
+      "name": "Ligustaloside A",
+      "category": "glycoside",
+      "percent_range": "Spuren",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Secoiridoid-Glykosid, in Ligustrum-Arten isoliert und beschrieben. Pharmakologische Relevanz beim Menschen nicht etabliert; gehoert zur charakteristischen Iridoidfraktion der Gattung.",
+        "en": "Secoiridoid glycoside, isolated and described in Ligustrum species. Pharmacological relevance in humans not established; belongs to the characteristic iridoid fraction of the genus."
+      }
+    },
+    {
+      "name": "Ligustralonon",
+      "category": "other",
+      "percent_range": "Spuren",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Iridoid-Bestandteil der Liguster-Blaetter; chemisch der Iridoidfraktion zugeordnet; trazi auf Ligustrum-typische Sekundaerstoffwechselprodukte.",
+        "en": "Iridoid constituent of privet leaves; chemically assigned to the iridoid fraction; characteristic of Ligustrum secondary metabolites."
+      }
+    },
+    {
+      "name": "Gerbstoffe (kondensierte Tannine)",
+      "category": "tannin",
+      "percent_range": "vorhanden",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Adstringierende Polyphenole in Blaettern und Rinde. Erklaeren die volksmedizinische Verwendung als Gurgelung und Umschlag bei kleineren Hautreizungen.",
+        "en": "Astringent polyphenols in leaves and bark. Explain the folk medicinal use as gargle and compress for minor skin irritations."
+      }
+    },
+    {
+      "name": "Flavonoide (Rutin, Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "vorhanden",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Antioxidative Begleitstoffe in Blaettern und Bluetenstaenden; in Oleaceae-Pflanzen weit verbreitet; tragen zur Radikalfaengeraktivitaet der Blattextrakte bei.",
+        "en": "Antioxidant companion substances in leaves and inflorescences; widespread in Oleaceae plants; contribute to radical-scavenging activity of leaf extracts."
+      }
+    },
+    {
+      "name": "Anthocyane (Cyanidin-Glykoside)",
+      "category": "flavonoid",
+      "percent_range": "in reifen Beeren",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Verantwortlich fuer die tiefviolette bis schwarze Farbe reifer Beeren; bilden die Grundlage des historischen Faerbergebrauchs. Pharmakologisch nicht therapeutisch genutzt.",
+        "en": "Responsible for the deep violet to black colour of ripe berries; form the basis of historical dye use. Not used pharmacologically as therapy."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        6,
+        7,
+        8
+      ],
+      "time_of_day": {
+        "de": "Vormittags nach Abtrocknen des Taus, von gesunden Pflanzen aus pestizidfreien Hecken.",
+        "en": "Late morning after dew has dried, from healthy plants in pesticide-free hedges."
+      },
+      "drying": {
+        "de": "Blaetter duenn ausgebreitet an luftigem, schattigem Ort bei 25-35 Grad trocknen; nach etwa 5 Tagen rascheltrocken. In luftdichten Glaesern lagern und mit 'GIFTIG — nur aeusserlich' kennzeichnen.",
+        "en": "Spread leaves thinly in an airy, shaded place at 25-35 degrees; rustle-dry after about 5 days. Store in airtight jars labelled 'TOXIC — external use only'."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, dunkel, beschriftet. Strikt von Kuechenkraeutern getrennt aufbewahren.",
+        "en": "Dry, dark, labelled. Store strictly separated from culinary herbs."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Tagsueber nach Vollreife (tiefschwarz, glaenzend), nur mit Handschuhen. Ausschliesslich fuer Faerbe- oder demonstrative Lehr-Zwecke — niemals fuer Nahrungs- oder Heilzwecke.",
+        "en": "Daytime after full ripeness (deep black, glossy), gloves mandatory. Exclusively for dyeing or demonstrative teaching purposes — never for food or medicinal purposes."
+      },
+      "drying": {
+        "de": "Beeren werden fuer Farbgewinnung frisch verarbeitet; bei Trocknung im Schatten verlieren sie Farbtiefe. Nach Verarbeitung gruendlich Haende waschen.",
+        "en": "Berries are processed fresh for dye extraction; drying in the shade reduces colour depth. Wash hands thoroughly after processing."
+      },
+      "storage_months": 3,
+      "storage_condition": {
+        "de": "Gekuehlt und gekennzeichnet — 'GIFTIG, kein Nahrungsmittel'. Ausser Reichweite von Kindern und Haustieren.",
+        "en": "Refrigerated and labelled — 'TOXIC, not food'. Out of reach of children and pets."
+      }
+    }
+  ]
 }

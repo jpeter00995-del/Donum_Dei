@@ -20,18 +20,119 @@
   },
   "uses": [
     {
-      "form": "tincture",
+      "id": "use-bs-01",
       "target": [
-        "caution"
+        "ornamental"
       ],
+      "form": "raw",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
       "internal_external": "external",
       "description": {
-        "de": "Traditionelle Anwendung — siehe Wikipedia-Artikel und Fachliteratur.",
-        "en": "Traditional use — see Wikipedia article and specialist literature."
+        "de": "Klassische Garten- und Friedhofs-Heckenpflanze; durch extrem dichten Wuchs und gute Schnittverträglichkeit seit der Antike Leitart der formalen Gartenkunst (Topiary, Knotengärten, Parterres). Berühmte Anlagen in Versailles, Villa d'Este und Sissinghurst nutzen Buxus als architektonisches Rückgrat. Seit 2007 in Mitteleuropa stark bedroht durch den invasiven Buchsbaumzünsler (Cydalima perspectalis) und Buxus-Welke (Cylindrocladium buxicola).",
+        "en": "Classical garden and cemetery hedging plant; due to extremely dense growth and excellent response to clipping, Buxus has been the leading species of formal gardening since antiquity (topiary, knot gardens, parterres). Famous installations at Versailles, Villa d'Este and Sissinghurst use boxwood as architectural backbone. Since 2007 severely threatened in Central Europe by the invasive box tree moth (Cydalima perspectalis) and box blight (Cylindrocladium buxicola)."
       },
       "source_ids": [
-        "src_1",
-        "src_2"
+        "src-bs-wiki-de",
+        "src-bs-wiki-en",
+        "src-bs-wiki-cydalima"
+      ]
+    },
+    {
+      "id": "use-bs-02",
+      "target": [
+        "ethnobotany"
+      ],
+      "form": "raw",
+      "plant_part": "whole_plant",
+      "evidence_level": "folk",
+      "internal_external": "external",
+      "description": {
+        "de": "Holznutzung — Buchsbaumholz gehört mit einer Rohdichte um 0,95-1,03 g/cm³ zu den dichtesten europäischen Hölzern und sinkt in Wasser. Traditionelle Verwendung für Holzschnitt-Druckstöcke (Thomas Bewick, 18. Jh.), Holzblasinstrumente (Blockflöten, Klarinettenmundstücke, Dudelsack-Chanter), Webschiffchen, Schachfiguren, Werkzeuggriffe, Schnitzarbeiten und Drechselwaren. Heute eine der am stärksten gehandelten Edelholzarten Europas.",
+        "en": "Wood use — boxwood, with a raw density of 0.95-1.03 g/cm³, ranks among the densest European woods and sinks in water. Traditional applications include wood-engraving blocks (Thomas Bewick, 18th century), woodwind instruments (recorders, clarinet mouthpieces, bagpipe chanters), weaving shuttles, chess pieces, tool handles, carving and turnery work. Today one of the most heavily traded European fine timbers."
+      },
+      "source_ids": [
+        "src-bs-wiki-en",
+        "src-bs-wiki-de",
+        "src-bs-pfaf"
+      ]
+    },
+    {
+      "id": "use-bs-03",
+      "target": [
+        "ethnobotany",
+        "fever"
+      ],
+      "form": "tea",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "internal_external": "internal",
+      "description": {
+        "de": "HISTORISCH-OBSOLET — In der frühneuzeitlichen und volksmedizinischen Praxis Süd- und Westeuropas wurden Buchsblätter-Abkochungen als 'pflanzliches Chinin' gegen Malaria (Wechselfieber) und als Schweisstreibmittel eingesetzt. Diese Anwendung ist heute OBSOLET und GEFÄHRLICH: Die Steroidalkaloide (Buxin, Cyclobuxin D) verursachen schwere Magen-Darm-Krämpfe, Erbrechen, Durchfall, zentralnervöse Erregung und Atemlähmung. Dokumentiert nur als ethnobotanische Notiz, KEINE Anwendungsempfehlung.",
+        "en": "HISTORICALLY OBSOLETE — In early modern and folk medicine of Southern and Western Europe, decoctions of box leaves were used as 'plant quinine' against malaria (intermittent fever) and as a diaphoretic. This use is now OBSOLETE and DANGEROUS: the steroid alkaloids (buxine, cyclobuxine D) cause severe gastrointestinal cramping, vomiting, diarrhoea, central nervous excitation and respiratory paralysis. Documented as ethnobotanical note only, NOT a use recommendation."
+      },
+      "source_ids": [
+        "src-bs-wiki-de",
+        "src-bs-henriette",
+        "src-bs-pfaf"
+      ]
+    },
+    {
+      "id": "use-bs-04",
+      "target": [
+        "skin"
+      ],
+      "form": "tincture",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "internal_external": "external",
+      "description": {
+        "de": "HISTORISCH-OBSOLET — In der volksmedizinischen Tradition wurden alkoholische Buchs-Auszüge äusserlich gegen Haarausfall (Alopezie) eingerieben und als Haarwuchsmittel beworben. Wirksamkeit ist nicht belegt; die perkutane Aufnahme von Alkaloiden ist nicht ausgeschlossen. Heute ohne Indikation, nur als ethnobotanisches Zeugnis dokumentiert.",
+        "en": "HISTORICALLY OBSOLETE — In folk-medicine tradition, alcoholic boxwood extracts were rubbed externally against hair loss (alopecia) and marketed as a hair tonic. Efficacy is not established; percutaneous absorption of alkaloids cannot be excluded. Today without indication, documented only as ethnobotanical record."
+      },
+      "preparation": {
+        "ratio": "1:5",
+        "solvent": "70% ethanol"
+      },
+      "source_ids": [
+        "src-bs-pfaf",
+        "src-bs-henriette"
+      ]
+    },
+    {
+      "id": "use-bs-05",
+      "target": [
+        "ethnobotany"
+      ],
+      "form": "raw",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "internal_external": "external",
+      "description": {
+        "de": "Kirchliche und volksbrauchtümliche Verwendung — Buchszweige ersetzen in Mittel- und Nordeuropa traditionell die Palmzweige am Palmsonntag ('Palmbuschen', 'Palmbesen'); in einigen Regionen als Grabbeschmückung an Allerheiligen und als immergrüner Trauerschmuck. Reine Symbolik, kein medizinischer Gebrauch.",
+        "en": "Ecclesiastical and folk-custom use — boxwood sprigs traditionally replace palm fronds on Palm Sunday in Central and Northern Europe ('Palmbuschen', 'palm besom'); in some regions used as grave decoration on All Saints' Day and as evergreen mourning ornament. Pure symbolism, no medicinal use."
+      },
+      "source_ids": [
+        "src-bs-wiki-de",
+        "src-bs-wiki-en"
+      ]
+    },
+    {
+      "id": "use-bs-06",
+      "target": [
+        "ethnobotany"
+      ],
+      "form": "raw",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "internal_external": "external",
+      "description": {
+        "de": "Historische Färbeanwendung — Aus Buchsblättern und -wurzeln gewann man früher gelbliche bis rotbraune Naturfarbstoffe für Wolle und Haare; bereits Plinius und Dioskurides erwähnen das Färben blonder Haare mit Buxus. Heute durch synthetische Farbstoffe ersetzt; rein ethnobotanisch dokumentiert.",
+        "en": "Historical dyeing use — yellowish to red-brown natural dyes for wool and hair were formerly obtained from box leaves and roots; Pliny and Dioscorides already mention dyeing blond hair with Buxus. Today replaced by synthetic dyes; documented purely ethnobotanically."
+      },
+      "source_ids": [
+        "src-bs-pfaf",
+        "src-bs-wiki-en"
       ]
     }
   ],
@@ -51,12 +152,75 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG (Buxin, Cyclobuxin) — alle Pflanzenteile, besonders Blätter und Rinde. Standard-Heckenpflanze in europäischen Gärten und Friedhöfen. Verursacht Erbrechen, Krämpfe, Atemlähmung. Auch für Hunde, Katzen, Pferde toxisch. Tee-Aufgüsse aus Buchsblättern sind GEFÄHRLICH — historische Volksmedizin überholt.",
-      "en": "TOXIC (buxine, cyclobuxine) — all plant parts, especially leaves and bark. Standard hedge plant in European gardens and cemeteries. Causes vomiting, seizures, respiratory paralysis. Also toxic for dogs, cats, horses. Tea infusions from box leaves are DANGEROUS — historical folk medicine is outdated."
+      "de": "GIFTIG — ALLE PFLANZENTEILE. Buxus sempervirens enthält über 100 Steroidalkaloide (Buxin, Cyclobuxin D, Buxamin, Cyclobuxamin u.a.), die zur Gruppe der pregnan-artigen Alkaloide gehören. Bereits 5-15 g Blattmasse können bei Erwachsenen zu schwerer Vergiftung führen; geschätzte letale Dosis ca. 750 g Blätter beim Pferd. Symptome: starkes Erbrechen, blutiger Durchfall, Bauchkrämpfe, Speichelfluss, Schwindel, Krampfanfälle, Atemlähmung, Tod durch zentrale Atemdepression. Bei Vergiftungsverdacht: SOFORT Giftnotruf (DE: 030-19240, AT: 01-4064343, CH: 145). KEINE Selbstmedikation, KEINE Tee-Aufgüsse, KEINE Tinkturen zur innerlichen Anwendung. Auch Honig aus Buchsblüten kann toxisch sein.",
+      "en": "TOXIC — ALL PLANT PARTS. Buxus sempervirens contains over 100 steroid alkaloids (buxine, cyclobuxine D, buxamine, cyclobuxamine and others) belonging to the pregnane-type alkaloid group. As little as 5-15 g of leaf mass can cause severe poisoning in adults; estimated lethal dose approx. 750 g leaves in horses. Symptoms: severe vomiting, bloody diarrhoea, abdominal cramps, salivation, dizziness, convulsions, respiratory paralysis, death by central respiratory depression. In case of suspected poisoning: IMMEDIATELY call poison control. NO self-medication, NO tea infusions, NO tinctures for internal use. Honey from box flowers may also be toxic."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Strikt kontraindiziert. Steroidalkaloide des Buchsbaums sind plazentagängig; abortive und teratogene Wirkungen sind aus tiermedizinischen Vergiftungsfällen bei Trächtigen dokumentiert. Auch äusserliche Anwendung umfangreicher Tinkturen ist zu vermeiden.",
+        "en": "Strictly contraindicated. Boxwood steroid alkaloids cross the placenta; abortifacient and teratogenic effects are documented from veterinary poisoning cases in pregnant animals. External use of extensive tinctures should also be avoided."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kontraindiziert. Lipophile Steroidalkaloide treten in die Muttermilch über; Säuglinge sind durch unreife Leber-Metabolisierung besonders gefährdet. Keine innerliche Anwendung in der Stillzeit.",
+        "en": "Contraindicated. Lipophilic steroid alkaloids pass into breast milk; infants are particularly at risk due to immature hepatic metabolism. No internal use during breastfeeding."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Kontraindiziert. Kinder sind durch geringes Körpergewicht und Neigung, attraktive Blätter und Beeren in den Mund zu nehmen, besonders gefährdet. Schon wenige Blätter können bei Kleinkindern schwere Symptome auslösen. Buchsbäume in Vorgärten und Spielanlagen sind problematisch.",
+        "en": "Contraindicated. Children are particularly at risk due to low body weight and tendency to put attractive leaves and capsules in their mouth. A few leaves alone can cause severe symptoms in toddlers. Box plants in front gardens and playgrounds are problematic."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Innerliche Anwendung jeder Form (Tee, Tinktur, Pulver, Frischpflanze) — generell kontraindiziert wegen unkalkulierbarer Toxizität",
+        "en": "Internal use in any form (tea, tincture, powder, fresh plant) — generally contraindicated due to unpredictable toxicity"
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (siehe oben)",
+        "en": "Pregnancy and breastfeeding (see above)"
+      },
+      {
+        "de": "Kinder unter 18 Jahren",
+        "en": "Children under 18 years"
+      },
+      {
+        "de": "Haustiere (Hund, Katze, Pferd, Kaninchen, Meerschweinchen, Vögel) — alle Säugetiere reagieren empfindlich; Aufnahme von Heckenschnitt vermeiden",
+        "en": "Pets (dog, cat, horse, rabbit, guinea pig, birds) — all mammals are sensitive; avoid ingestion of hedge clippings"
+      },
+      {
+        "de": "Bestehende Lebererkrankungen — hepatische Belastung durch Alkaloid-Metabolisierung",
+        "en": "Existing liver disease — hepatic burden from alkaloid metabolism"
+      }
+    ],
+    "drug_interactions": [
+      {
+        "drug_class": "Zentral dämpfende Substanzen (Benzodiazepine, Opioide, Alkohol)",
+        "mechanism": {
+          "de": "Buxus-Alkaloide wirken zentral atemdepressiv; Kombination mit anderen Atemdepressiva kann lebensgefährliche Atemstillstände verursachen.",
+          "en": "Boxwood alkaloids cause central respiratory depression; combination with other respiratory depressants can lead to life-threatening apnoea."
+        },
+        "severity": "avoid",
+        "source_id": "src-bs-wiki-de"
+      },
+      {
+        "drug_class": "Hepatotoxische Medikamente (Paracetamol-Hochdosis, Methotrexat, Isoniazid)",
+        "mechanism": {
+          "de": "Mögliche additive Leberbelastung durch hepatische Metabolisierung der Steroidalkaloide; in Vergiftungsfällen wurden Transaminasenerhöhungen beobachtet.",
+          "en": "Possible additive hepatic burden through hepatic metabolism of steroid alkaloids; transaminase elevations observed in poisoning cases."
+        },
+        "severity": "avoid",
+        "source_id": "src-bs-wiki-en"
+      }
+    ]
   },
   "classical_quotes": [],
   "sources": [
@@ -73,6 +237,62 @@
       "title": "Buxus sempervirens (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Buxus_sempervirens",
       "accessed": "2026-05-17"
+    },
+    {
+      "id": "src-bs-wiki-de",
+      "type": "wikipedia",
+      "title": "Gewöhnlicher Buchsbaum — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Buchsbaum",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-bs-wiki-en",
+      "type": "wikipedia",
+      "title": "Buxus sempervirens — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Buxus_sempervirens",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-bs-wikidata",
+      "type": "wikidata",
+      "title": "Buxus sempervirens — Wikidata Q146909",
+      "url": "https://www.wikidata.org/wiki/Q146909",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-bs-pfaf",
+      "type": "book",
+      "title": "Plants for a Future — Buxus sempervirens",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Buxus+sempervirens",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-bs-henriette",
+      "type": "book",
+      "title": "Henriette's Herbal — Buxus sempervirens (King's American Dispensatory / historical sources)",
+      "url": "https://www.henriettes-herb.com/eclectic/kings/buxus.html",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-bs-wiki-cydalima",
+      "type": "wikipedia",
+      "title": "Cydalima perspectalis (Buchsbaumzünsler) — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Buchsbaumz%C3%BCnsler",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-bs-commons",
+      "type": "commons",
+      "title": "Category:Buxus sempervirens — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/Category:Buxus_sempervirens",
+      "accessed": "2026-05-27"
+    },
+    {
+      "id": "src-bs-wiki-boxwood",
+      "type": "wikipedia",
+      "title": "Boxwood (wood) — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Boxwood",
+      "accessed": "2026-05-27"
     }
   ],
   "image": {
@@ -84,5 +304,127 @@
     "license": "CC BY-SA 3.0",
     "author": "Hans Hillewaert",
     "source_url": "https://commons.wikimedia.org/wiki/File:Buxus_sempervirens_(sapling).jpg"
-  }
+  },
+  "constituents": [
+    {
+      "name": "Cyclobuxine D",
+      "category": "alkaloid",
+      "percent_range": "0.1-0.3 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Leit-Steroidalkaloid des Buchsbaums; pregnan-artiges Gerüst mit charakteristischer 9,10-Cyclopropan-Brücke; haupttoxischer Wirkstoff; experimentell membranaktiv und neurotoxisch; Grundlage älterer pharmakologischer Untersuchungen.",
+        "en": "Leading steroid alkaloid of boxwood; pregnane-type skeleton with characteristic 9,10-cyclopropane bridge; main toxic agent; experimentally membrane-active and neurotoxic; basis of older pharmacological investigations."
+      }
+    },
+    {
+      "name": "Buxine (Bebeerine)",
+      "category": "alkaloid",
+      "percent_range": "0.05-0.2 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Historisch der erste benannte Buxus-Alkaloid (Faure, 1830); in älterer Literatur wurde 'Buxin' als Sammelbegriff für mehrere Steroidalkaloide verwendet; verursacht Erbrechen und Atemlähmung.",
+        "en": "Historically the first named Buxus alkaloid (Faure, 1830); in older literature 'buxine' was used as a collective term for several steroid alkaloids; causes vomiting and respiratory paralysis."
+      }
+    },
+    {
+      "name": "Buxamine E",
+      "category": "alkaloid",
+      "percent_range": "Spuren - 0.05 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Tertiäres Steroidalkaloid mit Methylamin-Substitution am C-3; gehört zur Gruppe der 20-Aminopregnan-Derivate; pharmakologisch wenig charakterisiert, gemeinsam mit anderen Alkaloiden für Gesamttoxizität verantwortlich.",
+        "en": "Tertiary steroid alkaloid with methylamine substitution at C-3; belongs to the group of 20-aminopregnane derivatives; pharmacologically little characterized, jointly responsible for overall toxicity with other alkaloids."
+      }
+    },
+    {
+      "name": "Cyclobuxamine H",
+      "category": "alkaloid",
+      "percent_range": "Spuren - 0.05 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Nebenalkaloid mit cyclopropan-überbrückter Pregnan-Struktur; Teil der über 100 isolierten Buxus-Steroidalkaloide; in der phytochemischen Forschung als Strukturmarker dokumentiert.",
+        "en": "Minor alkaloid with cyclopropane-bridged pregnane structure; one of the more than 100 Buxus steroid alkaloids isolated; documented in phytochemical research as structural marker."
+      }
+    },
+    {
+      "name": "Buxenin G",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "plant_part": "bark",
+      "note": {
+        "de": "Steroidalkaloid mit zusätzlicher Doppelbindung; vorwiegend in Rinde und Wurzel; pharmakologische Bedeutung gering; analytischer Marker zur Abgrenzung von Buxus-Arten.",
+        "en": "Steroid alkaloid with additional double bond; predominantly in bark and root; minor pharmacological significance; analytical marker for distinguishing Buxus species."
+      }
+    },
+    {
+      "name": "Buxenon",
+      "category": "alkaloid",
+      "percent_range": "Spuren",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Ketonisches Steroidalkaloid; experimentell als Cholinesterase-Inhibitor diskutiert; sehr geringe natürliche Konzentration.",
+        "en": "Ketonic steroid alkaloid; experimentally discussed as cholinesterase inhibitor; very low natural concentration."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine)",
+      "category": "tannin",
+      "percent_range": "ca. 3-5 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hydrolysierbare und kondensierte Tannine in den Blättern; tragen zur adstringierenden Wirkung historischer Aufgüsse bei; weniger toxikologisch relevant als die Alkaloide.",
+        "en": "Hydrolyzable and condensed tannins in the leaves; contribute to the astringent effect of historical infusions; less toxicologically relevant than the alkaloids."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Spuren)",
+      "category": "essential_oil",
+      "percent_range": "< 0.1 %",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Sehr geringer Gehalt an flüchtigen Mono- und Sesquiterpenen; verantwortlich für den charakteristischen, leicht beissenden Geruch frisch geschnittener Buchshecken; pharmakologisch unbedeutend.",
+        "en": "Very low content of volatile mono- and sesquiterpenes; responsible for the characteristic slightly pungent smell of freshly clipped box hedges; pharmacologically insignificant."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "Tagsüber bei trockener Witterung; klassischer Heckenschnitt nach Eisheiligen (Mai) und im Spätsommer.",
+        "en": "Daytime in dry weather; classical hedge clipping after the Ice Saints (May) and in late summer."
+      },
+      "drying": {
+        "de": "Heckenschnitt-Material wird NICHT für medizinische Zwecke getrocknet — Anwendung obsolet. Für dekorative/florale Verwendung (Palmbuschen, Grabschmuck) frisch verarbeiten; Schnittgut über Hausmüll entsorgen, NICHT kompostieren wenn Tierhaltung in der Nähe.",
+        "en": "Clipped material is NOT dried for medicinal purposes — use is obsolete. For decorative/floral use (palm bouquets, grave ornaments), process fresh; dispose clippings via household waste, do NOT compost when livestock is nearby."
+      },
+      "storage_condition": {
+        "de": "Frische Zweige bis 2 Wochen kühl und feucht gelagert haltbar; getrocknete Zweige als Trockenfloristik mehrere Monate.",
+        "en": "Fresh sprigs keep up to 2 weeks stored cool and humid; dried sprigs last several months as dried floristry."
+      }
+    },
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        2,
+        3,
+        11,
+        12
+      ],
+      "time_of_day": {
+        "de": "Holzernte ausserhalb der Vegetationsperiode (Winterhalbjahr) wegen geringerem Saftfluss; Stammholz erst ab 60-100 Jahren wirtschaftlich nutzbar.",
+        "en": "Timber harvest outside the growing season (winter half-year) due to lower sap flow; trunk wood only economically usable from 60-100 years of age."
+      },
+      "drying": {
+        "de": "Stammabschnitte langsam (1-2 Jahre) im Schatten lufttrocknen, um Reissen zu vermeiden; Endfeuchte 8-12 %. Hohe Rohdichte (~1,0 g/cm³) macht das Holz extrem hart und schnitzfähig.",
+        "en": "Trunk sections air-dry slowly (1-2 years) in the shade to avoid cracking; final moisture 8-12 %. High raw density (~1.0 g/cm³) makes the wood extremely hard and carvable."
+      }
+    }
+  ]
 }
