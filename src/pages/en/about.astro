@@ -1,0 +1,149 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const locale = 'en' as const;
+---
+
+<BaseLayout locale={locale} title="About Donum Dei">
+  <div class="max-w-3xl mx-auto px-4 py-8">
+
+    <!-- === 1. HERO === -->
+    <header class="mb-10 text-center">
+      <h1 class="font-serif text-4xl sm:text-5xl font-bold text-slate-900 mb-3 tracking-wide">
+        About <span class="text-emerald-700">Donum ∞ Dei</span>
+      </h1>
+      <p class="text-slate-600 text-lg italic">"Gift of God" — medicinal plants for everyone, sourced and open.</p>
+    </header>
+
+    <!-- === 2. VISION === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-3">Vision</h2>
+      <p class="text-slate-700 leading-relaxed mb-3">
+        Donum Dei is a free, bilingual, offline-capable medicinal plants database — built for people who want to know
+        what's actually in their tea, their salve, their garden. Every fact has a traceable source. No advertising.
+        No medical advice. No promises of healing. Just curated, evidence-backed knowledge from public-domain classics
+        and regulatory monographs.
+      </p>
+      <p class="text-slate-700 leading-relaxed">
+        Inspired by Hildegard of Bingen, Pastor Künzle, Madaus, and modern phytopharmacology. Structured as an
+        interactive map + table + quiz + permaculture planner.
+      </p>
+    </section>
+
+    <!-- === 3. STATS GRID === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-4">As of May 2026</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-emerald-50/40">
+          <div class="text-3xl font-bold text-emerald-700">223</div>
+          <div class="text-xs text-slate-600 mt-1">plants, all fully detailed</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-emerald-50/40">
+          <div class="text-3xl font-bold text-emerald-700">100 %</div>
+          <div class="text-xs text-slate-600 mt-1">depth coverage</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-emerald-50/40">
+          <div class="text-3xl font-bold text-emerald-700">1,312</div>
+          <div class="text-xs text-slate-600 mt-1">source references</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-emerald-50/40">
+          <div class="text-3xl font-bold text-emerald-700">481</div>
+          <div class="text-xs text-slate-600 mt-1">static pages</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-slate-50">
+          <div class="text-3xl font-bold text-slate-700">285</div>
+          <div class="text-xs text-slate-600 mt-1">automated tests</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-slate-50">
+          <div class="text-3xl font-bold text-slate-700">2</div>
+          <div class="text-xs text-slate-600 mt-1">languages (DE/EN)</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-slate-50">
+          <div class="text-3xl font-bold text-slate-700">PWA</div>
+          <div class="text-xs text-slate-600 mt-1">offline-capable</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-slate-50">
+          <div class="text-3xl font-bold text-slate-700">€ 0</div>
+          <div class="text-xs text-slate-600 mt-1">cost to users</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- === 4. STORY === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-3">The 100 % Story</h2>
+      <p class="text-slate-700 leading-relaxed mb-3">
+        Donum Dei grew through 20 documented "waves" from 0 to 223 fully detailed plants. Each wave deepens 4–14 plants
+        per cycle, merging Commission E, EMA HMPC, ESCOP, PFAF, Hildegard, and clinical-study data. Per plant: 4–8 uses,
+        5–15 constituents, full safety section, harvest notes, and companion-planting recommendations.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-3">
+        Waves XIX + XX (May 2026) lifted the database from 90.1 % to <strong>100.00 % depth</strong> — 22 parallel sub-agents
+        authored 22 new in-depth profiles in a single day, of which 14 were indoor/aromatic and 8 toxic plants.
+        A briefing template (v1.12) with a mandatory "umlaut rule" prevented the drift that plagued earlier waves.
+      </p>
+      <p class="text-slate-700 leading-relaxed">
+        In late May 2026 a source-ID schema normalization followed: 775 redundant Wikipedia placeholders were removed
+        across 222 plants; 33 plants with bot-specific ID schemas were normalized to a unified
+        <code class="text-emerald-700 bg-slate-100 px-1 py-0.5 rounded">src_&lt;type&gt;_&lt;plant&gt;</code> convention.
+      </p>
+    </section>
+
+    <!-- === 5. METHODOLOGY === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-3">How we verify data</h2>
+      <ul class="list-disc list-inside space-y-2 text-slate-700 leading-relaxed">
+        <li><strong>EMA HMPC monographs</strong> for <em>well-established use</em> + <em>traditional use</em> as the regulatory backbone.</li>
+        <li><strong>Commission E monographs</strong> (BfArM, 1985–1994) as historical reference.</li>
+        <li><strong>ESCOP</strong> monographs for European phytotherapy consensus data.</li>
+        <li><strong>CrossRef DOI verification</strong> for every cited clinical study (HTTP-200 check).</li>
+        <li><strong>PFAF</strong> (Plants for a Future) for permaculture and folk uses.</li>
+        <li><strong>Public-domain classics</strong>: Hildegard, Künzle, Madaus, Henriette's Herbal — direct quotes only from public-domain originals.</li>
+        <li><strong>Wikipedia DE/EN</strong> as base lexicon with crosscheck.</li>
+        <li><strong>Sub-agent pipeline</strong>: every wave is steered by a brief template (v1.12) with explicit anti-hallucination rules.</li>
+        <li><strong>Verification pass</strong> after every wave: 5 audit agents check in parallel for invented sources + overstated evidence levels.</li>
+      </ul>
+    </section>
+
+    <!-- === 6. STACK === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-3">Tech stack</h2>
+      <ul class="text-slate-700 leading-relaxed space-y-1">
+        <li>• <strong>Astro 6</strong> static site with i18n DE/EN</li>
+        <li>• <strong>React 19</strong> + TypeScript for interactive components (bed planner, quiz, filters)</li>
+        <li>• <strong>Tailwind CSS 4</strong> for styling</li>
+        <li>• <strong>Leaflet + OpenStreetMap</strong> for location maps</li>
+        <li>• <strong>Zod</strong> schema validation for all 223 plant JSONs</li>
+        <li>• <strong>Vitest</strong> with 285 tests</li>
+        <li>• <strong>Pagefind</strong> full-text search (offline-capable, no backend)</li>
+        <li>• <strong>PWA</strong> via @vite-pwa/astro for offline capability</li>
+        <li>• <strong>Cloudflare Pages</strong> hosting (GitHub: <a class="text-emerald-700 underline hover:text-emerald-800" href="https://github.com/jpeter00995-del/Donum_Dei">jpeter00995-del/Donum_Dei</a>)</li>
+      </ul>
+    </section>
+
+    <!-- === 7. LICENSE + AUTHOR === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-3">License + author</h2>
+      <p class="text-slate-700 leading-relaxed mb-3">
+        Code: <strong>MIT license</strong>. Texts and curated data: free to use with attribution (CC-BY-4.0 for own curation).
+        Embedded public-domain quotes come from works whose copyright has expired (Hildegard, Künzle, Madaus, Wichtl originals).
+        Images: exclusively Wikimedia Commons under CC-conformant licenses with proper credits.
+      </p>
+      <p class="text-slate-700 leading-relaxed">
+        Built by <strong>Maikel Ganske</strong> (Varna, Bulgaria) — solo developer, self-sufficiency enthusiast,
+        working on the database since 2024.
+      </p>
+    </section>
+
+    <!-- === 8. DISCLAIMER === -->
+    <section class="mb-6 p-4 bg-amber-50 border border-amber-200 rounded-lg text-sm text-slate-700">
+      <h3 class="font-semibold text-amber-900 mb-1">⚠️ Important</h3>
+      <p>This database is for educational and documentation purposes only. It does not replace medical advice, diagnosis,
+        or therapy. Medicinal plants can cause interactions, allergies, and poisoning. For health concerns: consult a
+        physician or pharmacist. Wild foraging only with reliable identification — many species are easily confused with
+        dangerous look-alikes.</p>
+    </section>
+
+  </div>
+</BaseLayout>

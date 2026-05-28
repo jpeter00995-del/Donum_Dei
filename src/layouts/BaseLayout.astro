@@ -73,6 +73,13 @@ const currentPath = Astro.url.pathname;
         class="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-emerald-700"
       >
         <a
+          href={locale === 'de' ? '/de/ueber' : '/en/about'}
+          class="hover:text-emerald-800 hover:underline transition"
+        >
+          {t(locale, 'footer.about')}
+        </a>
+        <span class="text-slate-400" aria-hidden="true">{t(locale, 'footer.separator')}</span>
+        <a
           href={`/${locale}/feedback`}
           class="hover:text-emerald-800 hover:underline transition"
         >

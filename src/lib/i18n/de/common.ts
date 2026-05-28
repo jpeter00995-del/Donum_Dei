@@ -32,6 +32,7 @@ export const common = {
   'badge.de_only': 'Nur DE',
   'badge.en_only': 'EN only',
 
+  'footer.about': 'Über',
   'footer.imprint': 'Impressum',
   'footer.privacy': 'Datenschutz',
   'footer.credits': 'Bildnachweis',

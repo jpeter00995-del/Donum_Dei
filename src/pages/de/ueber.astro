@@ -1,0 +1,150 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+
+const locale = 'de' as const;
+---
+
+<BaseLayout locale={locale} title="Über Donum Dei">
+  <div class="max-w-3xl mx-auto px-4 py-8">
+
+    <!-- === 1. HERO === -->
+    <header class="mb-10 text-center">
+      <h1 class="font-serif text-4xl sm:text-5xl font-bold text-slate-900 mb-3 tracking-wide">
+        Über <span class="text-emerald-700">Donum ∞ Dei</span>
+      </h1>
+      <p class="text-slate-600 text-lg italic">„Geschenk Gottes" — Heilpflanzen für jedermann, quellenbelegt und offen.</p>
+    </header>
+
+    <!-- === 2. VISION === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-3">Vision</h2>
+      <p class="text-slate-700 leading-relaxed mb-3">
+        Donum Dei ist eine kostenlose, bilinguale, offline-fähige Heilpflanzen-Datenbank — gebaut für Menschen, die wissen wollen,
+        was in ihrem Tee, ihrer Salbe oder ihrem Garten wirklich passiert. Jeder Fakt hat eine nachvollziehbare Quelle.
+        Keine Werbung. Kein medizinischer Ratschlag. Keine Heilversprechen. Nur kuratiertes, belegbares Wissen aus
+        Public-Domain-Klassikern und regulatorischen Monographien.
+      </p>
+      <p class="text-slate-700 leading-relaxed">
+        Inspiriert von Hildegard von Bingen, Pfarrer Künzle, Madaus und der modernen Phytopharmakologie. Strukturiert
+        als interaktive Karte + Tabelle + Quiz + Permakultur-Planer.
+      </p>
+    </section>
+
+    <!-- === 3. STATS-GRID === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-4">Stand 2026-05</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-emerald-50/40">
+          <div class="text-3xl font-bold text-emerald-700">223</div>
+          <div class="text-xs text-slate-600 mt-1">Pflanzen, alle voll vertieft</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-emerald-50/40">
+          <div class="text-3xl font-bold text-emerald-700">100 %</div>
+          <div class="text-xs text-slate-600 mt-1">Tiefe-Abdeckung</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-emerald-50/40">
+          <div class="text-3xl font-bold text-emerald-700">1.312</div>
+          <div class="text-xs text-slate-600 mt-1">Quellen-Referenzen</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-emerald-50/40">
+          <div class="text-3xl font-bold text-emerald-700">481</div>
+          <div class="text-xs text-slate-600 mt-1">statische Seiten</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-slate-50">
+          <div class="text-3xl font-bold text-slate-700">285</div>
+          <div class="text-xs text-slate-600 mt-1">automatisierte Tests</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-slate-50">
+          <div class="text-3xl font-bold text-slate-700">2</div>
+          <div class="text-xs text-slate-600 mt-1">Sprachen (DE/EN)</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-slate-50">
+          <div class="text-3xl font-bold text-slate-700">PWA</div>
+          <div class="text-xs text-slate-600 mt-1">offline-fähig</div>
+        </div>
+        <div class="border border-slate-200 rounded-lg p-4 text-center bg-slate-50">
+          <div class="text-3xl font-bold text-slate-700">0 €</div>
+          <div class="text-xs text-slate-600 mt-1">Kosten für Nutzer</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- === 4. STORY === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-3">Die 100 %-Geschichte</h2>
+      <p class="text-slate-700 leading-relaxed mb-3">
+        Donum Dei wuchs in 20 dokumentierten „Wellen" von 0 auf 223 voll vertiefte Pflanzen.
+        Jede Welle vertieft 4–14 Pflanzen pro Zyklus mit gemerged Kommission-E-, EMA-HMPC-, ESCOP-, PFAF-,
+        Hildegard- und klinischen Studien-Daten. Pro Pflanze: 4–8 Anwendungen, 5–15 Inhaltsstoffe, vollständige Sicherheits-Sektion,
+        Ernte-Hinweise und Mischkultur-Empfehlungen.
+      </p>
+      <p class="text-slate-700 leading-relaxed mb-3">
+        Welle XIX + XX (Mai 2026) brachten die Datenbank von 90,1 % auf <strong>100,00 % Tiefe</strong> — 22 parallel arbeitende
+        Sub-Agenten verfassten in einem Tag 22 neue Tiefen-Profile, davon 14 Indoor/Aromatik und 8 Giftpflanzen.
+        Ein Brief-Template (v1.12) mit „Umlauten-Pflicht" verhinderte den Drift, der frühere Wellen plagte.
+      </p>
+      <p class="text-slate-700 leading-relaxed">
+        Im Mai 2026 folgte eine Source-ID-Schema-Normalisierung: 775 redundante Wikipedia-Platzhalter
+        wurden über 222 Pflanzen entfernt; 33 Pflanzen mit Bot-spezifischen ID-Schemas wurden auf eine einheitliche
+        <code class="text-emerald-700 bg-slate-100 px-1 py-0.5 rounded">src_&lt;type&gt;_&lt;plant&gt;</code>-Konvention gebracht.
+      </p>
+    </section>
+
+    <!-- === 5. METHODIK === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-3">Wie wir Daten verifizieren</h2>
+      <ul class="list-disc list-inside space-y-2 text-slate-700 leading-relaxed">
+        <li><strong>EMA-HMPC-Monographien</strong> für <em>well-established use</em> + <em>traditional use</em> als regulatorisches Backbone.</li>
+        <li><strong>Kommission-E-Monographien</strong> (BfArM, 1985–1994) als historische Referenz.</li>
+        <li><strong>ESCOP</strong>-Monographien für europäische Phytotherapie-Konsens-Daten.</li>
+        <li><strong>CrossRef-DOI-Verifikation</strong> für jede zitierte klinische Studie (HTTP-200-Check).</li>
+        <li><strong>PFAF</strong> (Plants for a Future) für Permakultur- und Folk-Anwendungen.</li>
+        <li><strong>Public-Domain-Klassiker</strong>: Hildegard, Künzle, Madaus, Henriette's Herbal — Direktzitate nur wenn aus Public-Domain-Original.</li>
+        <li><strong>Wikipedia DE/EN</strong> als Basis-Lexikon mit Crosscheck.</li>
+        <li><strong>Sub-Agenten-Pipeline</strong>: jede Welle wird von einem Brief-Template (v1.12) gesteuert mit expliziten Anti-Halluzinations-Regeln.</li>
+        <li><strong>Verifikations-Pass</strong> nach jeder Welle: 5 Audit-Agenten checken parallel auf erfundene Quellen + überzogene Evidence-Level.</li>
+      </ul>
+    </section>
+
+    <!-- === 6. STACK === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-3">Tech-Stack</h2>
+      <ul class="text-slate-700 leading-relaxed space-y-1">
+        <li>• <strong>Astro 6</strong> Static-Site mit i18n DE/EN</li>
+        <li>• <strong>React 19</strong> + TypeScript für interaktive Komponenten (Beet-Planer, Quiz, Filter)</li>
+        <li>• <strong>Tailwind CSS 4</strong> für Styling</li>
+        <li>• <strong>Leaflet + OpenStreetMap</strong> für Standort-Karten</li>
+        <li>• <strong>Zod</strong> Schema-Validation für alle 223 Pflanzen-JSONs</li>
+        <li>• <strong>Vitest</strong> mit 285 Tests</li>
+        <li>• <strong>Pagefind</strong> Volltext-Suche (offline-fähig, kein Backend)</li>
+        <li>• <strong>PWA</strong> via @vite-pwa/astro für Offline-Tauglichkeit</li>
+        <li>• <strong>Cloudflare Pages</strong> Hosting (GitHub: <a class="text-emerald-700 underline hover:text-emerald-800" href="https://github.com/jpeter00995-del/Donum_Dei">jpeter00995-del/Donum_Dei</a>)</li>
+      </ul>
+    </section>
+
+    <!-- === 7. LIZENZ + AUTOR === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-3">Lizenz + Autor</h2>
+      <p class="text-slate-700 leading-relaxed mb-3">
+        Code: <strong>MIT-Lizenz</strong>. Texte und kuratierte Daten: frei nutzbar mit Quellenangabe (CC-BY-4.0 für eigene Kuration).
+        Eingebettete Public-Domain-Zitate stammen aus Werken, deren Schutzfrist abgelaufen ist (Hildegard, Künzle, Madaus, Wichtl-Originale).
+        Bilder: ausschließlich Wikimedia-Commons mit CC-konformer Lizenz und Bildnachweis.
+      </p>
+      <p class="text-slate-700 leading-relaxed">
+        Aufgebaut von <strong>Maikel Ganske</strong> (Varna, Bulgarien) — Solo-Entwickler, Selbstversorger-Enthusiast,
+        seit 2024 an der Datenbank.
+      </p>
+    </section>
+
+    <!-- === 8. DISCLAIMER === -->
+    <section class="mb-6 p-4 bg-amber-50 border border-amber-200 rounded-lg text-sm text-slate-700">
+      <h3 class="font-semibold text-amber-900 mb-1">⚠️ Wichtig</h3>
+      <p>Diese Datenbank dient ausschließlich der Bildung und Dokumentation. Sie ersetzt keine ärztliche Beratung,
+        keine Diagnose, keine Therapie. Heilpflanzen können Wechselwirkungen, Allergien und Vergiftungen verursachen.
+        Bei Beschwerden: Arzt oder Apotheker konsultieren. Sammlung in der Natur nur mit fundierter Bestimmung —
+        Verwechslungsgefahr besteht bei vielen Arten.</p>
+    </section>
+
+  </div>
+</BaseLayout>
