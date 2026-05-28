@@ -1,0 +1,56 @@
+---
+// === 1. PAGE-SETUP ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { t } from '@/lib/i18n';
+
+const locale = 'en' as const;
+const title = t(locale, 'search.title');
+---
+
+<BaseLayout locale={locale} title={title}>
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <h1 class="font-serif text-3xl sm:text-4xl font-bold text-slate-900 mb-3">
+      🔍 {t(locale, 'search.title')}
+    </h1>
+    <p class="text-slate-600 mb-6 leading-relaxed">{t(locale, 'search.intro')}</p>
+
+    <!-- === 2. PAGEFIND UI === -->
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+    <div id="pagefind-search" class="mb-8"></div>
+    <script src="/pagefind/pagefind-ui.js" is:inline></script>
+    <script is:inline>
+      window.addEventListener('DOMContentLoaded', () => {
+        // @ts-ignore — PagefindUI is global from pagefind-ui.js
+        new PagefindUI({
+          element: '#pagefind-search',
+          showSubResults: true,
+          pageSize: 10,
+          resetStyles: false,
+          showImages: false,
+          excerptLength: 25,
+          forceLanguage: 'en'
+        });
+      });
+    </script>
+
+    <!-- === 3. EXAMPLE SEARCHES === -->
+    <div class="border-t border-slate-200 pt-4 text-sm text-slate-500">
+      <p class="font-semibold text-slate-700 mb-1">{t(locale, 'search.examples_title')}</p>
+      <p>{t(locale, 'search.examples')}</p>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  /* === 4. PAGEFIND-UI-OVERRIDES (Donum-Dei-Farbschema) === */
+  :global(:root) {
+    --pagefind-ui-primary: #047857;
+    --pagefind-ui-text: #0f172a;
+    --pagefind-ui-background: #ffffff;
+    --pagefind-ui-border: #e2e8f0;
+    --pagefind-ui-tag: #f1f5f9;
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 8px;
+    --pagefind-ui-font: 'Inter', system-ui, sans-serif;
+  }
+</style>

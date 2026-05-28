@@ -4,6 +4,7 @@ import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 import AstroPWA from '@vite-pwa/astro';
+import pagefind from 'astro-pagefind';
 
 import tailwindcss from '@tailwindcss/vite';
 
@@ -13,6 +14,7 @@ export default defineConfig({
   integrations: [
     react(),
     sitemap(),
+    pagefind(),
     AstroPWA({
       registerType: 'autoUpdate',
       injectRegister: 'auto',

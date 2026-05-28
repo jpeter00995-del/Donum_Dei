@@ -51,6 +51,7 @@ const currentPath = Astro.url.pathname;
       <nav class="border-t border-slate-100 bg-slate-50/60">
         <div class="max-w-6xl mx-auto flex items-center gap-1 text-sm text-slate-600 overflow-x-auto px-4 py-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:justify-center md:flex-wrap">
           <a href={`/${locale}/`} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.plants')}</a>
+          <a href={locale === 'de' ? '/de/suche' : '/en/search'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.search')}</a>
           <a href={locale === 'de' ? '/de/hilfe-bei' : '/en/help-with'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.symptoms')}</a>
           <a href={locale === 'de' ? '/de/karte' : '/en/map'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.map')}</a>
           <a href={locale === 'de' ? '/de/mein-garten/' : '/en/my-garden/'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.garden')}</a>
