@@ -42,7 +42,7 @@ export default function LanguageToggle({ currentLocale, currentPath }: Props) {
       type="button"
       onClick={handleClick}
       className="inline-flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-md border border-slate-300 bg-white hover:bg-slate-50 transition"
-      aria-label={`Switch to ${target.toUpperCase()}`}
+      aria-label={`${currentLocale.toUpperCase()} ${target.toUpperCase()} — switch language to ${target.toUpperCase()}`}
     >
       <span className="font-semibold text-slate-900">{currentLocale.toUpperCase()}</span>
       <span className="text-slate-400">|</span>

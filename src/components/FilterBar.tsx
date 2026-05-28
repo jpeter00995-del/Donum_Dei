@@ -68,7 +68,7 @@ export default function FilterBar({ plants, locale }: Props) {
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold text-slate-700 mb-2">{t(locale, 'filter.use')}</h3>
+          <h2 className="text-sm font-semibold text-slate-700 mb-2">{t(locale, 'filter.use')}</h2>
           <div className="flex flex-wrap gap-2">
             {FORMS.map(form => {
               const active = filter.forms.includes(form);
@@ -92,7 +92,7 @@ export default function FilterBar({ plants, locale }: Props) {
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold text-slate-700 mb-2">{t(locale, 'filter.season')}</h3>
+          <h2 className="text-sm font-semibold text-slate-700 mb-2">{t(locale, 'filter.season')}</h2>
           <div className="flex flex-wrap gap-2">
             {SEASONS.map(season => {
               const active = filter.seasons.includes(season);

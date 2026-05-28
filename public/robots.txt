@@ -1,0 +1,9 @@
+# Donum Dei — robots.txt
+# Allow all well-behaved crawlers full access. Static educational content,
+# no PII, no login areas.
+
+User-agent: *
+Allow: /
+Disallow: /pagefind/
+
+Sitemap: https://donum-dei.pages.dev/sitemap-index.xml
