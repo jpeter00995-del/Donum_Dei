@@ -37,8 +37,8 @@
         "solvent": "70% ethanol"
       },
       "source_ids": [
-        "src-an-grieve",
-        "src-an-pfaf"
+        "src_grieve_aconitum_napellus",
+        "src_pfaf_aconitum_napellus"
       ],
       "internal_external": "external"
     },
@@ -60,8 +60,8 @@
         "solvent": "70% ethanol"
       },
       "source_ids": [
-        "src-an-grieve",
-        "src-an-wiki-en"
+        "src_grieve_aconitum_napellus",
+        "src_wp_en_aconitum_napellus"
       ],
       "internal_external": "internal"
     },
@@ -83,8 +83,8 @@
         "solvent": "ethanol/water"
       },
       "source_ids": [
-        "src-an-wiki-de",
-        "src-an-grieve"
+        "src_wp_de_aconitum_napellus",
+        "src_grieve_aconitum_napellus"
       ],
       "internal_external": "internal"
     },
@@ -105,8 +105,8 @@
         "solvent": "fettige Salbengrundlage / fatty ointment base"
       },
       "source_ids": [
-        "src-an-grieve",
-        "src-an-pfaf"
+        "src_grieve_aconitum_napellus",
+        "src_pfaf_aconitum_napellus"
       ],
       "internal_external": "external"
     },
@@ -123,8 +123,8 @@
         "en": "Historical use of the tubers as arrow and murder poison in pre-Christian and ancient times: Celtic hunters may have used aconite extracts as arrow poison, the Roman Empire used it as poison against political opponents (banned for private cultivation under Emperor Trajan). In Germanic folklore the plant was 'wolfsbane', used to poison wolves — this tradition explains the English name. Documentation only, no application recommendation whatsoever."
       },
       "source_ids": [
-        "src-an-wiki-en",
-        "src-an-wiki-de"
+        "src_wp_en_aconitum_napellus",
+        "src_wp_de_aconitum_napellus"
       ],
       "internal_external": "external"
     },
@@ -142,7 +142,7 @@
         "en": "In traditional Chinese medicine (TCM), the heat-detoxified root of related Aconitum species ('fùzǐ' from Aconitum carmichaelii) has been used for over 2,000 years for 'cold-yang-deficiency syndromes'. The Mawangdui manuscripts (168 BCE) already list aconite among the most frequent recipe ingredients. This application does NOT apply to the Central European Aconitum napellus, whose toxicity is barely reduced by heating. Pure documentation of historical practice."
       },
       "source_ids": [
-        "src-an-wiki-en"
+        "src_wp_en_aconitum_napellus"
       ],
       "internal_external": "internal"
     },
@@ -163,8 +163,8 @@
         "solvent": "fettige Salbengrundlage / fatty ointment base"
       },
       "source_ids": [
-        "src-an-wiki-de",
-        "src-an-grieve"
+        "src_wp_de_aconitum_napellus",
+        "src_grieve_aconitum_napellus"
       ],
       "internal_external": "external"
     }
@@ -243,7 +243,7 @@
           "en": "Class I antiarrhythmics are sodium channel blockers. Aconitine acts oppositely by persistent activation of voltage-gated sodium channels (binding to neurotoxin binding site 2 of the α-subunit). Combination leads to unpredictable interactions with risk of severe ventricular arrhythmias."
         },
         "severity": "avoid",
-        "source_id": "src-an-wiki-aconitine"
+        "source_id": "src_wp_aconitine_aconitum_napellus"
       },
       {
         "drug_class": "Calciumkanalblocker (Verapamil, Diltiazem)",
@@ -252,7 +252,7 @@
           "en": "Additive negative chronotropic and negative inotropic effects. Aconitine causes bradycardia and hypotension even at low doses; combination with calcium channel blockers can lead to third-degree AV block, asystole and cardiogenic shock."
         },
         "severity": "avoid",
-        "source_id": "src-an-wiki-aconitine"
+        "source_id": "src_wp_aconitine_aconitum_napellus"
       },
       {
         "drug_class": "Herzglykoside (Digoxin, Digitoxin)",
@@ -261,7 +261,7 @@
           "en": "Digoxin alters intracellular sodium and calcium homeostasis; concurrent aconitine exposure substantially increases proarrhythmic risk. Both substances raise intracellular calcium concentration via different mechanisms — synergy for ventricular tachyarrhythmias."
         },
         "severity": "avoid",
-        "source_id": "src-an-wiki-aconitine"
+        "source_id": "src_wp_aconitine_aconitum_napellus"
       },
       {
         "drug_class": "Beta-Blocker (Metoprolol, Bisoprolol, Propranolol)",
@@ -270,7 +270,7 @@
           "en": "Aconitine itself already induces bradycardia and AV conduction disturbances. Beta-blockers additively enhance this effect and can cause life-threatening bradyarrhythmia."
         },
         "severity": "avoid",
-        "source_id": "src-an-wiki-aconitine"
+        "source_id": "src_wp_aconitine_aconitum_napellus"
       },
       {
         "drug_class": "Lokalanästhetika (Lidocain, Procain, Bupivacain)",
@@ -279,28 +279,14 @@
           "en": "Local anaesthetics and aconitine both act on voltage-gated sodium channels but at different binding sites. Competition and unpredictable modulation of channel kinetics can lead to ventricular arrhythmias that are difficult to treat."
         },
         "severity": "caution",
-        "source_id": "src-an-wiki-aconitine"
+        "source_id": "src_wp_aconitine_aconitum_napellus"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Blauer Eisenhut (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Blauer_Eisenhut",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Aconitum napellus (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Aconitum_napellus",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-an-wiki-en",
+      "id": "src_wp_en_aconitum_napellus",
       "type": "wikipedia",
       "title": "Aconitum napellus — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Aconitum_napellus",
@@ -308,7 +294,7 @@
       "language": "en"
     },
     {
-      "id": "src-an-wiki-de",
+      "id": "src_wp_de_aconitum_napellus",
       "type": "wikipedia",
       "title": "Blauer Eisenhut — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Blauer_Eisenhut",
@@ -316,7 +302,7 @@
       "language": "de"
     },
     {
-      "id": "src-an-wiki-aconitine",
+      "id": "src_wp_aconitine_aconitum_napellus",
       "type": "wikipedia",
       "title": "Aconitine — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Aconitine",
@@ -324,7 +310,7 @@
       "language": "en"
     },
     {
-      "id": "src-an-pfaf",
+      "id": "src_pfaf_aconitum_napellus",
       "type": "book",
       "title": "Plants For A Future — Aconitum napellus",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Aconitum+napellus",
@@ -332,26 +318,10 @@
       "language": "en"
     },
     {
-      "id": "src-an-grieve",
+      "id": "src_grieve_aconitum_napellus",
       "type": "book",
       "title": "Maud Grieve: A Modern Herbal — Aconite (botanical.com, 1931)",
       "url": "https://botanical.com/botanical/mgmh/a/aconi007.html",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-an-wikidata",
-      "type": "wikidata",
-      "title": "Aconitum napellus — Wikidata Q159218",
-      "url": "https://www.wikidata.org/wiki/Q159218",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-an-commons",
-      "type": "commons",
-      "title": "Aconitum napellus — Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/Aconitum_napellus",
       "accessed": "2026-05-26",
       "language": "en"
     }

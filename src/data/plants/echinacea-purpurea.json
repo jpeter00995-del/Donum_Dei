@@ -68,8 +68,8 @@
       "evidence_level": "traditional",
       "preparation": {
         "amount_ml": {
-          "min": 1.0,
-          "max": 2.0
+          "min": 1,
+          "max": 2
         },
         "doses_per_day": 3,
         "max_duration_weeks": 1.5,
@@ -106,8 +106,8 @@
       "evidence_level": "traditional",
       "preparation": {
         "amount_dry_g": {
-          "min": 1.0,
-          "max": 2.0
+          "min": 1,
+          "max": 2
         },
         "water_ml": 200,
         "steep_min": 10,
@@ -145,8 +145,8 @@
       "evidence_level": "commission_e",
       "preparation": {
         "amount_ml": {
-          "min": 6.0,
-          "max": 9.0
+          "min": 6,
+          "max": 9
         },
         "doses_per_day": 1,
         "max_duration_weeks": 8,
@@ -245,8 +245,8 @@
       "evidence_level": "folk",
       "preparation": {
         "amount_dry_g": {
-          "min": 1.0,
-          "max": 2.0
+          "min": 1,
+          "max": 2
         },
         "water_ml": 250,
         "steep_min": 15,
@@ -372,34 +372,6 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Purpur-Sonnenhut (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Purpur-Sonnenhut",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Echinacea purpurea (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Echinacea_purpurea",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_ema_echinacea_radix",
-      "type": "monograph",
-      "title": "EMA/HMPC/424583/2016 — Echinacea purpurea radix (Final, 30 May 2017)",
-      "url": "https://www.ema.europa.eu/en/medicines/herbal/echinaceae-purpureae-radix",
-      "accessed": "2026-05-18"
-    },
-    {
-      "id": "src_ema_echinacea_herba",
-      "type": "monograph",
-      "title": "EMA/HMPC/48704/2014 Corr — Echinacea purpurea herba recens (Final, 24 Nov 2015)",
-      "url": "https://www.ema.europa.eu/en/medicines/herbal/echinaceae-purpureae-herba",
-      "accessed": "2026-05-18"
-    },
-    {
       "id": "src_ema_echinacea_herba_wI",
       "type": "monograph",
       "title": "EMA/HMPC/48704/2014 Corr. — European Union herbal monograph on Echinacea purpurea (L.) Moench., herba recens (Final, 24 November 2015)",
@@ -453,20 +425,6 @@
       "type": "monograph",
       "title": "Plants For A Future (PFAF) — Echinacea purpurea database entry",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Echinacea+purpurea",
-      "accessed": "2026-05-21"
-    },
-    {
-      "id": "src_wp_de_echinacea",
-      "type": "wikipedia",
-      "title": "Purpur-Sonnenhut (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Purpur-Sonnenhut",
-      "accessed": "2026-05-21"
-    },
-    {
-      "id": "src_wp_en_echinacea",
-      "type": "wikipedia",
-      "title": "Echinacea purpurea (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Echinacea_purpurea",
       "accessed": "2026-05-21"
     }
   ],

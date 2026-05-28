@@ -36,9 +36,9 @@
         "en": "Traditionally: 1 tsp mad honey in the morning on an empty stomach, with milk or tea; in Turkey sometimes dissolved in raki — this combination dramatically increases the risk of intoxication."
       },
       "source_ids": [
-        "src-rp-wiki-mad-honey",
-        "src-rp-silici-2015",
-        "src-rp-ullah-2018"
+        "src_wp_mad_honey_rhododendron_ponticum",
+        "src_silici_2015_rhododendron_ponticum",
+        "src_ullah_2018_rhododendron_ponticum"
       ],
       "internal_external": "internal"
     },
@@ -59,8 +59,8 @@
         "en": "Historically: concentrated Pontic spring honey from rhododendron-rich stands; purely documentary."
       },
       "source_ids": [
-        "src-rp-gunduz-2008",
-        "src-rp-wiki-mad-honey"
+        "src_gunduz_2008_rhododendron_ponticum",
+        "src_wp_mad_honey_rhododendron_ponticum"
       ],
       "internal_external": "internal"
     },
@@ -81,7 +81,7 @@
         "en": "Historically: fresh sap from a cut twig applied to the aching tooth; purely documentary."
       },
       "source_ids": [
-        "src-rp-wiki-en"
+        "src_wp_en_rhododendron_ponticum"
       ],
       "internal_external": "external"
     },
@@ -102,8 +102,8 @@
         "en": "Historically: crushed leaves in lard or oil; purely documentary, no application recommendation."
       },
       "source_ids": [
-        "src-rp-ullah-2018",
-        "src-rp-silici-2015"
+        "src_ullah_2018_rhododendron_ponticum",
+        "src_silici_2015_rhododendron_ponticum"
       ],
       "internal_external": "external"
     },
@@ -124,8 +124,8 @@
         "en": "Traditionally: 1 tsp mad honey in the morning on an empty stomach; purely documentary — even this dose triggers poisoning symptoms."
       },
       "source_ids": [
-        "src-rp-silici-2015",
-        "src-rp-ullah-2018"
+        "src_silici_2015_rhododendron_ponticum",
+        "src_ullah_2018_rhododendron_ponticum"
       ],
       "internal_external": "internal"
     },
@@ -146,8 +146,8 @@
         "solvent": "45% ethanol (mother tincture)"
       },
       "source_ids": [
-        "src-rp-wiki-en",
-        "src-rp-wikidata"
+        "src_wp_en_rhododendron_ponticum",
+        "src_wikidata_rhododendron_ponticum"
       ],
       "internal_external": "internal"
     },
@@ -168,8 +168,8 @@
         "en": "No medicinal preparation — purely botanical/horticultural."
       },
       "source_ids": [
-        "src-rp-wiki-de",
-        "src-rp-wiki-en"
+        "src_wp_de_rhododendron_ponticum",
+        "src_wp_en_rhododendron_ponticum"
       ],
       "internal_external": "external"
     }
@@ -252,7 +252,7 @@
           "en": "Additive bradycardia and negative inotropy — grayanotoxin-induced vagal stimulation plus β1 blockade can lead to symptomatic sinus bradycardia, AV block and syncope. Therapy: atropine."
         },
         "severity": "avoid",
-        "source_id": "src-rp-gunduz-2008"
+        "source_id": "src_gunduz_2008_rhododendron_ponticum"
       },
       {
         "drug_class": "Calciumkanal-Blocker (Verapamil, Diltiazem)",
@@ -261,7 +261,7 @@
           "en": "Synergistic slowing of AV conduction and vasodilation; severe bradycardia and hypotension documented in concurrent mad honey ingestion."
         },
         "severity": "avoid",
-        "source_id": "src-rp-silici-2015"
+        "source_id": "src_silici_2015_rhododendron_ponticum"
       },
       {
         "drug_class": "Antiarrhythmika (Klasse I — Lidocain, Flecainid; Klasse III — Amiodaron)",
@@ -270,7 +270,7 @@
           "en": "Grayanotoxins are themselves Na channel modulators; combination with classical Na channel blockers (class I) or K channel blockers (class III) leads to unpredictable electrophysiological effects (QT prolongation, bradyarrhythmias)."
         },
         "severity": "avoid",
-        "source_id": "src-rp-aryal-2025"
+        "source_id": "src_aryal_2025_rhododendron_ponticum"
       },
       {
         "drug_class": "Herzglykoside (Digoxin, Digitoxin)",
@@ -279,7 +279,7 @@
           "en": "Digoxin enhances vagally mediated bradycardia; combination with grayanotoxins carries substantial risk of bradyarrhythmias and AV block."
         },
         "severity": "avoid",
-        "source_id": "src-rp-gunduz-2008"
+        "source_id": "src_gunduz_2008_rhododendron_ponticum"
       },
       {
         "drug_class": "Antihypertensiva (ACE-Hemmer, AT1-Antagonisten, Diuretika, Clonidin)",
@@ -288,7 +288,7 @@
           "en": "Additive hypotension; orthostatic syncope and falls especially in elderly patients. Mad honey self-medication for hypertension is dangerous — additive hypotension instead of therapeutic success."
         },
         "severity": "avoid",
-        "source_id": "src-rp-silici-2015"
+        "source_id": "src_silici_2015_rhododendron_ponticum"
       },
       {
         "drug_class": "PDE-5-Inhibitoren (Sildenafil, Tadalafil, Vardenafil)",
@@ -297,7 +297,7 @@
           "en": "Black Sea folk medicine traditionally combines mad honey with \"aphrodisiac\" use; concurrent ingestion with PDE-5 inhibitors enhances vasodilation and can lead to severe hypotension."
         },
         "severity": "avoid",
-        "source_id": "src-rp-ullah-2018"
+        "source_id": "src_ullah_2018_rhododendron_ponticum"
       },
       {
         "drug_class": "Cholinergika und Acetylcholinesterase-Hemmer (Donepezil, Pyridostigmin, Pilocarpin)",
@@ -306,28 +306,14 @@
           "en": "Enhancement of vagal cholinergic effects — additive bradycardia, bronchoconstriction and salivation possible."
         },
         "severity": "caution",
-        "source_id": "src-rp-aryal-2025"
+        "source_id": "src_aryal_2025_rhododendron_ponticum"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Pontischer Rhododendron (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Pontischer_Rhododendron",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Rhododendron ponticum (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Rhododendron_ponticum",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-rp-wiki-en",
+      "id": "src_wp_en_rhododendron_ponticum",
       "type": "wikipedia",
       "title": "Rhododendron ponticum — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Rhododendron_ponticum",
@@ -335,7 +321,7 @@
       "language": "en"
     },
     {
-      "id": "src-rp-wiki-de",
+      "id": "src_wp_de_rhododendron_ponticum",
       "type": "wikipedia",
       "title": "Pontischer Rhododendron — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Pontischer_Rhododendron",
@@ -343,15 +329,7 @@
       "language": "de"
     },
     {
-      "id": "src-rp-wiki-grayanotoxin",
-      "type": "wikipedia",
-      "title": "Grayanotoxin — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Grayanotoxin",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-rp-wiki-mad-honey",
+      "id": "src_wp_mad_honey_rhododendron_ponticum",
       "type": "wikipedia",
       "title": "Mad honey — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Mad_honey",
@@ -359,7 +337,7 @@
       "language": "en"
     },
     {
-      "id": "src-rp-wikidata",
+      "id": "src_wikidata_rhododendron_ponticum",
       "type": "wikidata",
       "title": "Rhododendron ponticum — Wikidata Q557928",
       "url": "https://www.wikidata.org/wiki/Q557928",
@@ -367,7 +345,7 @@
       "language": "en"
     },
     {
-      "id": "src-rp-gunduz-2008",
+      "id": "src_gunduz_2008_rhododendron_ponticum",
       "type": "monograph",
       "title": "Clinical review of grayanotoxin/mad honey poisoning past and present (Gunduz et al., Clinical Toxicology 2008)",
       "url": "https://doi.org/10.1080/15563650701666306",
@@ -375,7 +353,7 @@
       "language": "en"
     },
     {
-      "id": "src-rp-silici-2015",
+      "id": "src_silici_2015_rhododendron_ponticum",
       "type": "monograph",
       "title": "Mad honey intoxication: A systematic review on the 1199 cases (Silici & Atayoglu, Food and Chemical Toxicology 2015)",
       "url": "https://doi.org/10.1016/j.fct.2015.10.018",
@@ -383,7 +361,7 @@
       "language": "en"
     },
     {
-      "id": "src-rp-ullah-2018",
+      "id": "src_ullah_2018_rhododendron_ponticum",
       "type": "monograph",
       "title": "Mad honey: uses, intoxicating/poisoning effects, diagnosis, and treatment (Ullah et al., RSC Advances 2018)",
       "url": "https://doi.org/10.1039/C8RA01924J",
@@ -391,18 +369,10 @@
       "language": "en"
     },
     {
-      "id": "src-rp-aryal-2025",
+      "id": "src_aryal_2025_rhododendron_ponticum",
       "type": "monograph",
       "title": "Grayanotoxins in Mad Honey: Mechanisms of Toxicity, Clinical Management, and Therapeutic Implications (Aryal et al., Journal of Applied Toxicology 2025)",
       "url": "https://doi.org/10.1002/jat.4855",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-rp-commons",
-      "type": "commons",
-      "title": "Category:Rhododendron ponticum — Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/Category:Rhododendron_ponticum",
       "accessed": "2026-05-26",
       "language": "en"
     }

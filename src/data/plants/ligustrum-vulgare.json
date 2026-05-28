@@ -47,8 +47,8 @@
         }
       },
       "source_ids": [
-        "src-lv-wiki-de",
-        "src-lv-pfaf"
+        "src_wp_de_ligustrum_vulgare",
+        "src_pfaf_ligustrum_vulgare"
       ]
     },
     {
@@ -78,8 +78,8 @@
         }
       },
       "source_ids": [
-        "src-lv-pfaf",
-        "src-lv-wiki-en"
+        "src_pfaf_ligustrum_vulgare",
+        "src_wp_en_ligustrum_vulgare"
       ]
     },
     {
@@ -100,8 +100,8 @@
         "en": "Ripe berries are crushed and boiled with alum or iron salts as mordant. Pure dyeing process, not a medicinal preparation."
       },
       "source_ids": [
-        "src-lv-wiki-de",
-        "src-lv-pfaf"
+        "src_wp_de_ligustrum_vulgare",
+        "src_pfaf_ligustrum_vulgare"
       ]
     },
     {
@@ -122,8 +122,8 @@
         "en": "No human preparation — ecological use through beekeeping; planting in hedges as forage source."
       },
       "source_ids": [
-        "src-lv-wiki-de",
-        "src-lv-wiki-en"
+        "src_wp_de_ligustrum_vulgare",
+        "src_wp_en_ligustrum_vulgare"
       ]
     },
     {
@@ -144,8 +144,8 @@
         "en": "Plant as a hedge; prune annually in late winter or after flowering. Do not compost clippings where animals have access — leaves are toxic."
       },
       "source_ids": [
-        "src-lv-wiki-de",
-        "src-lv-pfaf"
+        "src_wp_de_ligustrum_vulgare",
+        "src_pfaf_ligustrum_vulgare"
       ]
     },
     {
@@ -166,8 +166,8 @@
         "en": "Cut fresh one- to two-year-old twigs in winter, peel and work while flexible."
       },
       "source_ids": [
-        "src-lv-wiki-de",
-        "src-lv-wikidata"
+        "src_wp_de_ligustrum_vulgare",
+        "src_wikidata_ligustrum_vulgare"
       ]
     }
   ],
@@ -239,73 +239,38 @@
           "en": "Additional mucosal irritation from iridoid glycosides; relevant only with accidental swallowing of a gargle solution."
         },
         "severity": "caution",
-        "source_id": "src-lv-pfaf"
+        "source_id": "src_pfaf_ligustrum_vulgare"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gewöhnlicher Liguster (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Liguster",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Ligustrum vulgare (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Ligustrum_vulgare",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-lv-wiki-de",
+      "id": "src_wp_de_ligustrum_vulgare",
       "type": "wikipedia",
       "title": "Gewoehnlicher Liguster — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Liguster",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-lv-wiki-en",
+      "id": "src_wp_en_ligustrum_vulgare",
       "type": "wikipedia",
       "title": "Ligustrum vulgare — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Ligustrum_vulgare",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-lv-wikidata",
+      "id": "src_wikidata_ligustrum_vulgare",
       "type": "wikidata",
       "title": "Ligustrum vulgare — Wikidata Q156005",
       "url": "https://www.wikidata.org/wiki/Q156005",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-lv-pfaf",
+      "id": "src_pfaf_ligustrum_vulgare",
       "type": "book",
       "title": "Plants for a Future — Ligustrum vulgare",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ligustrum+vulgare",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-lv-commons",
-      "type": "commons",
-      "title": "Ligustrum vulgare — Wikimedia Commons category",
-      "url": "https://commons.wikimedia.org/wiki/Category:Ligustrum_vulgare",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-lv-giftpflanzen",
-      "type": "monograph",
-      "title": "Liguster (Ligustrum vulgare) — Giftpflanzen-Datenbank Botanikus",
-      "url": "https://www.botanikus.de/giftpflanzen/liguster/",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-lv-tela-botanica",
-      "type": "monograph",
-      "title": "Ligustrum vulgare L. — Tela Botanica eFlore",
-      "url": "https://www.tela-botanica.org/bdtfx-nn-38790-synthese",
       "accessed": "2026-05-27"
     }
   ],

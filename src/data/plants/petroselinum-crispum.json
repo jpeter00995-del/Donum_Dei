@@ -32,9 +32,9 @@
       "steep_min": 12,
       "evidence_level": "commission_e",
       "source_ids": [
-        "komme_petersilie",
-        "pfaf_petroselinum",
-        "heilpraxis_petersilie"
+        "src_komme_petersilie_petroselinum_crispum",
+        "src_pfaf_petroselinum_petroselinum_crispum",
+        "src_heilpraxis_petersilie_petroselinum_crispum"
       ],
       "description": {
         "de": "Durchspülungstherapie bei leichten Beschwerden des unteren Harntrakts",
@@ -57,8 +57,8 @@
       "steep_min": 10,
       "evidence_level": "commission_e",
       "source_ids": [
-        "komme_petersilie",
-        "welt_wappen_petersilie"
+        "src_komme_petersilie_petroselinum_crispum",
+        "src_welt_wappen_petersilie_petroselinum_crispum"
       ],
       "description": {
         "de": "Aquaretikum bei Reizblase und Harnwegsentzündungen (volkstümlich, Kommission E positiv für Kraut/Wurzel)",
@@ -78,8 +78,8 @@
       },
       "evidence_level": "folk",
       "source_ids": [
-        "pfaf_petroselinum",
-        "eatsmarter_petersilie"
+        "src_pfaf_petroselinum_petroselinum_crispum",
+        "src_eatsmarter_petersilie_petroselinum_crispum"
       ],
       "description": {
         "de": "Vitamin-C- und Folsäurequelle, Verdauungsförderung, Atemerfrischung (küchenüblich)",
@@ -100,8 +100,8 @@
       },
       "evidence_level": "folk",
       "source_ids": [
-        "pfaf_petroselinum",
-        "eatsmarter_petersilie"
+        "src_pfaf_petroselinum_petroselinum_crispum",
+        "src_eatsmarter_petersilie_petroselinum_crispum"
       ],
       "description": {
         "de": "Würzkraut für Bouillon, Kräuterquark, Tabouleh, Gremolata (traditionelles Würzmittel)",
@@ -121,8 +121,8 @@
       },
       "evidence_level": "folk",
       "source_ids": [
-        "pfaf_petroselinum",
-        "heilpraxis_petersilie"
+        "src_pfaf_petroselinum_petroselinum_crispum",
+        "src_heilpraxis_petersilie_petroselinum_crispum"
       ],
       "description": {
         "de": "Umschlag bei Insektenstichen, Quetschungen und zur Linderung von Hautreizungen (volksmedizinisch)",
@@ -183,7 +183,7 @@
           "en": "Parsley is very rich in vitamin K — larger or fluctuating amounts can reduce the effect of coumarin anticoagulants and destabilise INR. Keep intake consistent."
         },
         "severity": "caution",
-        "source_id": "drugs_vitk_warfarin"
+        "source_id": "src_drugs_vitk_warfarin_petroselinum_crispum"
       },
       {
         "drug_class": "Lithium",
@@ -192,7 +192,7 @@
           "en": "Aquaretic/diuretic effect may reduce renal lithium clearance and raise plasma levels (toxicity risk)."
         },
         "severity": "caution",
-        "source_id": "medscape_parsley"
+        "source_id": "src_medscape_parsley_petroselinum_crispum"
       },
       {
         "drug_class": "Diuretika (Schleifen-, Thiaziddiuretika)",
@@ -201,7 +201,7 @@
           "en": "Additive diuretic effect — risk of dehydration and electrolyte shifts, especially in elderly patients."
         },
         "severity": "monitor",
-        "source_id": "medscape_parsley"
+        "source_id": "src_medscape_parsley_petroselinum_crispum"
       },
       {
         "drug_class": "MAO-Hemmer",
@@ -210,7 +210,7 @@
           "en": "Myristicin in essential oil has weak MAO-inhibiting activity — potentially additive with pharmaceutical MAOIs (relevant only at high doses / essential oil)."
         },
         "severity": "monitor",
-        "source_id": "pmc_repro_tox"
+        "source_id": "src_pmc_repro_tox_petroselinum_crispum"
       }
     ],
     "contraindications": [
@@ -228,21 +228,7 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Petersilie (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Petersilie",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Parsley (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Parsley",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "komme_petersilie",
+      "id": "src_komme_petersilie_petroselinum_crispum",
       "type": "monograph",
       "citation": "Kommission E Monographie Petroselini herba/radix, Bundesanzeiger Nr. 43 vom 02.03.1989, ATC C03FA — positive Bewertung für Kraut und Wurzel, negative für Früchte.",
       "url": "https://www.awl.ch/heilpflanzen/petroselinum_crispum/petersilie.htm",
@@ -250,7 +236,7 @@
       "title": "komme_petersilie"
     },
     {
-      "id": "pfaf_petroselinum",
+      "id": "src_pfaf_petroselinum_petroselinum_crispum",
       "type": "wikipedia",
       "citation": "Plants For A Future (PFAF) — Petroselinum crispum: edible & medicinal uses, hazards (apiol, pregnancy).",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Petroselinum+crispum",
@@ -258,7 +244,7 @@
       "title": "pfaf_petroselinum"
     },
     {
-      "id": "heilpraxis_petersilie",
+      "id": "src_heilpraxis_petersilie_petroselinum_crispum",
       "type": "wikipedia",
       "citation": "Heilpraxisnet — Petersilie und Petersilienwurzel: Anwendung, Inhaltsstoffe, Risiken.",
       "url": "https://www.heilpraxisnet.de/heilpflanzen/petersilie-und-petersilienwurzel/",
@@ -266,7 +252,7 @@
       "title": "heilpraxis_petersilie"
     },
     {
-      "id": "welt_wappen_petersilie",
+      "id": "src_welt_wappen_petersilie_petroselinum_crispum",
       "type": "book",
       "citation": "Bernhard Peter — Die Chemie der Petersilie Stammpflanzen: Apiin, Apigenin, Furanocumarine, ätherisches Öl Zusammensetzung.",
       "url": "http://www.welt-der-wappen.de/Apotheke/Phytochemie/Petersilie.htm",
@@ -274,7 +260,7 @@
       "title": "welt_wappen_petersilie"
     },
     {
-      "id": "eatsmarter_petersilie",
+      "id": "src_eatsmarter_petersilie_petroselinum_crispum",
       "type": "wikipedia",
       "citation": "EAT SMARTER Warenkunde — Petersilie: Vitamin C, Vitamin K, Folsäure, küchenüblicher Einsatz.",
       "url": "https://eatsmarter.de/lexikon/warenkunde/kraeuter/petersilie",
@@ -282,7 +268,7 @@
       "title": "eatsmarter_petersilie"
     },
     {
-      "id": "drugs_vitk_warfarin",
+      "id": "src_drugs_vitk_warfarin_petroselinum_crispum",
       "type": "monograph",
       "citation": "Drugs.com Drug Interactions Database — Vitamin K + Warfarin: parsley listed among high-vitamin-K foods destabilising INR.",
       "url": "https://www.drugs.com/drug-interactions/vitamin-k-with-warfarin-1868-16217-2311-0.html",
@@ -290,7 +276,7 @@
       "title": "drugs_vitk_warfarin"
     },
     {
-      "id": "medscape_parsley",
+      "id": "src_medscape_parsley_petroselinum_crispum",
       "type": "monograph",
       "citation": "Medscape Drug Reference — Petroselinum crispum (parsley): indication-specific dosing, adverse effects, interactions (lithium, diuretics), pregnancy/lactation.",
       "url": "https://reference.medscape.com/drug/petroselinum-crispum-parsley-344574",
@@ -298,20 +284,12 @@
       "title": "medscape_parsley"
     },
     {
-      "id": "pmc_repro_tox",
+      "id": "src_pmc_repro_tox_petroselinum_crispum",
       "type": "monograph",
       "citation": "Mendes-Silva W. et al. — Maternal Reproductive Toxicity of Some Essential Oils and Their Constituents (apiol, myristicin: abortifacient, hepatotoxic, neurotoxic).",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7956842/",
       "accessed": "2026-05-19",
       "title": "pmc_repro_tox"
-    },
-    {
-      "id": "ggiz_petersilie",
-      "type": "monograph",
-      "citation": "Giftinformationszentrum Erfurt — Petersilie als Giftpflanze des Jahres 2023: Apiol/Myristicin Toxizität, Abortifaciens-Historie.",
-      "url": "https://www.ggiz-erfurt.de/aktuelles-detail/giftpflanze-des-jahres-2023-petersilie.html",
-      "accessed": "2026-05-19",
-      "title": "ggiz_petersilie"
     }
   ],
   "image": {

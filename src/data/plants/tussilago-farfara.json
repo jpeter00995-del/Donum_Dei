@@ -35,10 +35,10 @@
       "steep_min": 10,
       "evidence_level": "commission_e",
       "source_ids": [
-        "s-kommission-e",
-        "s-bfarm",
-        "s-heilkraeuter",
-        "s-ema-ar"
+        "src_kommission_e_tussilago_farfara",
+        "src_bfarm_tussilago_farfara",
+        "src_heilkraeuter_tussilago_farfara",
+        "src_ema_ar_tussilago_farfara"
       ],
       "notes": {
         "de": "WARNUNG: Pyrrolizidinalkaloide (PA) hepatotoxisch. Nur Apothekenware aus PA-armer Züchtung verwenden. Keine Selbstsammlung für Daueranwendung. Kommission E genehmigte die Blätter (nicht Blüten/Wurzel) bei akutem Atemwegskatarrh.",
@@ -69,10 +69,10 @@
       "steep_min": 10,
       "evidence_level": "folk",
       "source_ids": [
-        "s-kommission-e",
-        "s-bfarm",
-        "s-pfaf",
-        "s-heilkraeuter"
+        "src_kommission_e_tussilago_farfara",
+        "src_bfarm_tussilago_farfara",
+        "src_pfaf_tussilago_farfara",
+        "src_heilkraeuter_tussilago_farfara"
       ],
       "notes": {
         "de": "WARNUNG: Blüten enthalten deutlich mehr PA (v.a. Senkirkin) als Blätter. Kommission E negativ bewertet. Verwendung historisch/volksmedizinisch, heutige Pharmakovigilanz rät ab.",
@@ -103,8 +103,8 @@
       "steep_min": 10,
       "evidence_level": "commission_e",
       "source_ids": [
-        "s-kommission-e",
-        "s-heilkraeuter"
+        "src_kommission_e_tussilago_farfara",
+        "src_heilkraeuter_tussilago_farfara"
       ],
       "notes": {
         "de": "Kommission E genehmigt die Blätter zusätzlich bei leichter Mund-/Rachenschleimhaut-Entzündung. PA-Resorption via Schleimhaut nicht ausgeschlossen — daher Limit beachten.",
@@ -133,8 +133,8 @@
       },
       "evidence_level": "folk",
       "source_ids": [
-        "s-pfaf",
-        "s-heilkraeuter"
+        "src_pfaf_tussilago_farfara",
+        "src_heilkraeuter_tussilago_farfara"
       ],
       "notes": {
         "de": "Traditionelle Anwendung (auch österreichische Volksmedizin) bei Furunkeln, Abszessen, Ekzemen, Insektenstichen, Krampfadern. Keine moderne Evidenz; bei intakter Haut weniger riskant.",
@@ -198,7 +198,7 @@
           "en": "Additive hepatotoxicity — PA metabolites combined with other hepatotoxic substances increase risk of liver damage, VOD, and liver failure."
         },
         "severity": "avoid",
-        "source_id": "s-bfarm"
+        "source_id": "src_bfarm_tussilago_farfara"
       },
       {
         "drug_class": "Andere PA-haltige Pflanzen (Beinwell/Symphytum, Borretsch/Borago, Kreuzkraut/Senecio, Wasserdost/Eupatorium)",
@@ -207,7 +207,7 @@
           "en": "Summation of daily PA exposure — exceeding BfArM daily maximum (1 µg) is practically unavoidable when combining multiple PA-containing herbs."
         },
         "severity": "avoid",
-        "source_id": "s-bfarm"
+        "source_id": "src_bfarm_tussilago_farfara"
       },
       {
         "drug_class": "CYP3A4-Induktoren (Rifampicin, Phenobarbital, Johanniskraut)",
@@ -216,7 +216,7 @@
           "en": "CYP3A4 induction increases metabolic activation of PA to reactive pyrrole intermediates → enhanced hepatotoxicity."
         },
         "severity": "caution",
-        "source_id": "s-bfarm"
+        "source_id": "src_bfarm_tussilago_farfara"
       },
       {
         "drug_class": "Alkohol (chronisch)",
@@ -225,7 +225,7 @@
           "en": "Chronic alcohol consumption causes pre-existing liver damage and CYP2E1 induction — PA toxicity is clinically potentiated."
         },
         "severity": "caution",
-        "source_id": "s-bfarm"
+        "source_id": "src_bfarm_tussilago_farfara"
       }
     ],
     "contraindications": [
@@ -259,21 +259,7 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Huflattich (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Huflattich",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Tussilago (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Tussilago",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "s-ema-ar",
+      "id": "src_ema_ar_tussilago_farfara",
       "type": "monograph",
       "title": "EMA/HMPC Public Statement on the use of herbal medicinal products containing toxic, unsaturated pyrrolizidine alkaloids (EMA/HMPC/893108/2011 Rev. 1)",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/tussilago-farfara",
@@ -284,7 +270,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "s-pfaf",
+      "id": "src_pfaf_tussilago_farfara",
       "type": "monograph",
       "title": "Plants For A Future — Tussilago farfara",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Tussilago+farfara",
@@ -295,7 +281,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "s-heilkraeuter",
+      "id": "src_heilkraeuter_tussilago_farfara",
       "type": "monograph",
       "title": "Heilkräuter-Lexikon: Huflattich",
       "url": "https://heilkraeuter.de/lexikon/huflat.htm",
@@ -306,7 +292,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "s-kommission-e",
+      "id": "src_kommission_e_tussilago_farfara",
       "type": "monograph",
       "title": "Kommission E Monographie — Farfarae folium (Huflattichblätter), Bundesanzeiger Nr. 138 vom 27.07.1990 / Bundesanzeiger Nr. 50 vom 13.03.1986 (Blüten/Kraut, negativ)",
       "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/",
@@ -317,35 +303,13 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "s-bfarm",
+      "id": "src_bfarm_tussilago_farfara",
       "type": "monograph",
       "title": "BfArM Stufenplanbescheid zu Pyrrolizidinalkaloid-haltigen Arzneimitteln (1992) und aktualisierte Stellungnahmen",
       "url": "https://www.bfarm.de/DE/Arzneimittel/Pharmakovigilanz/Risikoinformationen/_node.html",
       "note": {
         "de": "Verbindliche Tagesgrenze 1 µg 1,2-ungesättigte PA (inkl. N-Oxide) pro Tag oral, max. 4-6 Wochen pro Jahr",
         "en": "Binding daily limit 1 µg 1,2-unsaturated PA (incl. N-oxides) per day orally, max. 4-6 weeks per year"
-      },
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "s-wikipedia-de",
-      "type": "wikipedia",
-      "title": "Wikipedia (DE): Huflattich",
-      "url": "https://de.wikipedia.org/wiki/Huflattich",
-      "note": {
-        "de": "Botanische Übersicht, Inhaltsstoffe, Geschichte, PA-Problematik",
-        "en": "Botanical overview, constituents, history, PA issue"
-      },
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "s-pmc-review",
-      "type": "book",
-      "title": "Chen et al. — A review of the ethnobotanical value, phytochemistry, pharmacology, toxicity and quality control of Tussilago farfara L. (coltsfoot), PMC7561605",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7561605/",
-      "note": {
-        "de": "Wissenschaftliches Review zu Pharmakologie, Toxikologie und Qualitätskontrolle",
-        "en": "Scientific review on pharmacology, toxicology and quality control"
       },
       "accessed": "2026-05-19"
     }

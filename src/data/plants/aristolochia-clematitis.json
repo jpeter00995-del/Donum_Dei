@@ -34,9 +34,9 @@
         "en": "HISTORICALLY OBSOLETE AND DANGEROUS — Medieval and early modern folk medicine: infusions or decoctions of the root were considered a 'midwife' and labour-inducing remedy; the German name 'Osterluzei' and the English 'Birthwort' refer directly to this supposed obstetric use. Hildegard of Bingen mentions the plant (Physica) as a circulation-stimulating agent. The application followed the Doctrine of Signatures, since the curved perianth tube resembles a birth canal. Today NO application is permitted: aristolochic acid is nephrotoxic and a proven carcinogen (IARC Group 1); fully banned from medicinal products in the EU since 2001. Documentation purely ethnobotanical."
       },
       "source_ids": [
-        "src-ac-wiki-de",
-        "src-ac-wiki-en",
-        "src-ac-iarc"
+        "src_wp_de_aristolochia_clematitis",
+        "src_wp_en_aristolochia_clematitis",
+        "src_iarc_aristolochia_clematitis"
       ]
     },
     {
@@ -54,9 +54,9 @@
         "en": "HISTORICALLY OBSOLETE — Antique and medieval wound treatment: Pliny the Elder (Naturalis Historia), Dioscorides (De Materia Medica) and medieval herbals recommended compresses of crushed Aristolochia leaves for purulent wounds, ulcers and snakebite — hence the generic name from Greek áristos (best) + locheía (birth/cleansing). Percutaneous uptake of aristolochic acid may also contribute to renal damage; external use is now likewise rejected. Pure ethnobotanical note, NOT a use recommendation."
       },
       "source_ids": [
-        "src-ac-wiki-en",
-        "src-ac-pfaf",
-        "src-ac-ema-statement"
+        "src_wp_en_aristolochia_clematitis",
+        "src_pfaf_aristolochia_clematitis",
+        "src_ema_statement_aristolochia_clematitis"
       ]
     },
     {
@@ -73,9 +73,9 @@
         "en": "Biological phenomenon — The flower of birthwort is an 'Aristolochia trap' (pitfall flower): the curved perianth tube is lined internally with downward-pointing trichomes and attracts small Diptera (especially fungus gnats) via a carrion-like scent. Insects fall into the kettle chamber and are detained until pollination; after pollen release the trichomes wither and free the exit. Classical textbook example of temporary kettle-trap flowers in botany; NO medicinal relevance, purely pollination ecology."
       },
       "source_ids": [
-        "src-ac-wiki-de",
-        "src-ac-wiki-en",
-        "src-ac-pfaf"
+        "src_wp_de_aristolochia_clematitis",
+        "src_wp_en_aristolochia_clematitis",
+        "src_pfaf_aristolochia_clematitis"
       ]
     },
     {
@@ -93,9 +93,9 @@
         "en": "OBSOLETE / RARE — Historically Aristolochia clematitis was cultivated as a monastery garden plant and apothecary 'hortus medicus' species (Hildegard tradition, Abbey of St. Gall, monastic pharmacies). Extremely rare in modern gardens, since toxic and banned in the EU as a medicinal plant; occasionally still seen in botanical collections and ethnobotanical demonstration gardens. Naturalized stands persist in vineyards and ruderal sites of Central and Southern Europe. Cultivation in domestic gardens is discouraged due to confusion risk (see poisoning warning)."
       },
       "source_ids": [
-        "src-ac-wiki-de",
-        "src-ac-floraweb",
-        "src-ac-pfaf"
+        "src_wp_de_aristolochia_clematitis",
+        "src_floraweb_aristolochia_clematitis",
+        "src_pfaf_aristolochia_clematitis"
       ]
     },
     {
@@ -113,9 +113,9 @@
         "en": "HISTORICALLY OBSOLETE AND HIGHLY DANGEROUS — In traditional Chinese medicine (TCM), Aristolochia species (Mu Tong, Guang Fang Ji) were prescribed as 'diuretic' and 'heat-clearing' drugs until the 1990s. From 1992 to 1994, accidental substitution of Stephania tetrandra by Aristolochia fangchi in a Brussels slimming clinic caused 'Chinese Herbs Nephropathy' (CHN, today Aristolochic Acid Nephropathy/AAN): over 105 mostly young women developed severe interstitial renal fibrosis; many required dialysis or transplantation, and urothelial carcinomas (ureter/bladder) emerged. This catastrophe led to the EU-wide ban. Documented purely as a warning — NO use."
       },
       "source_ids": [
-        "src-ac-iarc",
-        "src-ac-ema-statement",
-        "src-ac-wiki-aan"
+        "src_iarc_aristolochia_clematitis",
+        "src_ema_statement_aristolochia_clematitis",
+        "src_wp_aan_aristolochia_clematitis"
       ]
     },
     {
@@ -133,9 +133,9 @@
         "en": "HISTORICALLY OBSOLETE — Antique medicine (Hippocrates, Galen, Dioscorides) used root and rhizome decoctions of birthwort against intermittent fever, as a 'cleansing' postpartum agent (lochia-promoter) and against snakebite. Medieval pharmacopoeias (Macer Floridus, Salernitan Antidotarium) list it as 'Aristolochia rotunda/longa' for internal applications. We now know: such infusions contain free aristolochic acids I and II, which form DNA adducts (aristolactam-dA) on adenine residues and induce A:T → T:A transversions in TP53 — molecular signature of AA-induced carcinogenesis. NO use."
       },
       "source_ids": [
-        "src-ac-iarc",
-        "src-ac-wiki-en",
-        "src-ac-grollman-pmc"
+        "src_iarc_aristolochia_clematitis",
+        "src_wp_en_aristolochia_clematitis",
+        "src_grollman_pmc_aristolochia_clematitis"
       ]
     }
   ],
@@ -217,7 +217,7 @@
           "en": "NSAIDs reduce renal perfusion through prostaglandin inhibition; combination with nephrotoxic aristolochic acid massively accelerates interstitial fibrosis and acute kidney injury risk. STRICTLY avoid."
         },
         "severity": "avoid",
-        "source_id": "src-ac-iarc"
+        "source_id": "src_iarc_aristolochia_clematitis"
       },
       {
         "drug_class": "Aminoglykosid-Antibiotika (Gentamicin, Tobramycin, Amikacin)",
@@ -226,7 +226,7 @@
           "en": "Aminoglycosides are themselves tubularly nephrotoxic; additive damage with aristolochic acid leads to accelerated tubular cell injury and renal insufficiency."
         },
         "severity": "avoid",
-        "source_id": "src-ac-grollman-pmc"
+        "source_id": "src_grollman_pmc_aristolochia_clematitis"
       },
       {
         "drug_class": "Calcineurin-Inhibitoren (Ciclosporin, Tacrolimus)",
@@ -235,7 +235,7 @@
           "en": "Cyclosporine and tacrolimus are widely used after kidney transplantation and in autoimmune disease; they exert vasoconstrictive-nephrotoxic effects. In patients with prior aristolochic acid exposure, combined renal toxicity would be catastrophic."
         },
         "severity": "avoid",
-        "source_id": "src-ac-ema-statement"
+        "source_id": "src_ema_statement_aristolochia_clematitis"
       },
       {
         "drug_class": "Jodhaltige Kontrastmittel (radiologische Diagnostik)",
@@ -244,7 +244,7 @@
           "en": "Contrast-induced nephropathy (CIN) adds to aristolochic acid damage; renal function (creatinine, eGFR) must be monitored before any imaging."
         },
         "severity": "avoid",
-        "source_id": "src-ac-ema-statement"
+        "source_id": "src_ema_statement_aristolochia_clematitis"
       },
       {
         "drug_class": "Chemotherapeutika mit renaler Elimination (Cisplatin, Methotrexat-Hochdosis)",
@@ -253,94 +253,66 @@
           "en": "Cisplatin and high-dose methotrexate are directly tubule-toxic; patients with aristolochic acid exposure have markedly increased risk of irreversible renal failure during oncologic therapy."
         },
         "severity": "avoid",
-        "source_id": "src-ac-grollman-pmc"
+        "source_id": "src_grollman_pmc_aristolochia_clematitis"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gewöhnliche Osterluzei (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Osterluzei",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Aristolochia clematitis (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Aristolochia_clematitis",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-ac-wiki-de",
+      "id": "src_wp_de_aristolochia_clematitis",
       "type": "wikipedia",
       "title": "Gewöhnliche Osterluzei — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Osterluzei",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ac-wiki-en",
+      "id": "src_wp_en_aristolochia_clematitis",
       "type": "wikipedia",
       "title": "Aristolochia clematitis — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Aristolochia_clematitis",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ac-wikidata",
-      "type": "wikidata",
-      "title": "Aristolochia clematitis — Wikidata Q160077",
-      "url": "https://www.wikidata.org/wiki/Q160077",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-ac-pfaf",
+      "id": "src_pfaf_aristolochia_clematitis",
       "type": "book",
       "title": "Plants for a Future — Aristolochia clematitis",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Aristolochia+clematitis",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ac-iarc",
+      "id": "src_iarc_aristolochia_clematitis",
       "type": "monograph",
       "title": "IARC Monograph Vol. 100A — Aristolochic acids (Group 1 carcinogen)",
       "url": "https://publications.iarc.fr/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Pharmaceuticals-2012",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ac-ema-statement",
+      "id": "src_ema_statement_aristolochia_clematitis",
       "type": "monograph",
       "title": "EMA Public Statement on Aristolochia and herbal medicinal products containing aristolochic acid (HMPC, 2014)",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/aristolochia",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ac-wiki-aan",
+      "id": "src_wp_aan_aristolochia_clematitis",
       "type": "wikipedia",
       "title": "Aristolochic acid nephropathy — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Aristolochic_acid_nephropathy",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ac-grollman-pmc",
+      "id": "src_grollman_pmc_aristolochia_clematitis",
       "type": "monograph",
       "title": "Grollman AP et al. — Aristolochic acid and the etiology of endemic (Balkan) nephropathy (PNAS 2007)",
       "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1948000/",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ac-floraweb",
+      "id": "src_floraweb_aristolochia_clematitis",
       "type": "book",
       "title": "FloraWeb (BfN) — Aristolochia clematitis L.",
       "url": "https://www.floraweb.de/pflanzenarten/artenhome.xsql?suchnr=433",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-ac-commons",
-      "type": "commons",
-      "title": "Category:Aristolochia clematitis — Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/Category:Aristolochia_clematitis",
       "accessed": "2026-05-27"
     }
   ],

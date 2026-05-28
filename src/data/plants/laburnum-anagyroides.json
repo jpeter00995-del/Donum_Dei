@@ -36,9 +36,9 @@
         "solvent": "pharmaceutical tablet (1.5 mg cytisine)"
       },
       "source_ids": [
-        "src-la-west-2011",
-        "src-la-walker-2014",
-        "src-la-wiki-cytisine"
+        "src_west_2011_laburnum_anagyroides",
+        "src_walker_2014_laburnum_anagyroides",
+        "src_wp_cytisine_laburnum_anagyroides"
       ],
       "internal_external": "internal"
     },
@@ -59,8 +59,8 @@
         "en": "Historically: highly diluted tincture from dried seeds; no application recommendation — even 3–4 seeds are potentially lethal."
       },
       "source_ids": [
-        "src-la-pfaf",
-        "src-la-wiki-en"
+        "src_pfaf_laburnum_anagyroides",
+        "src_wp_en_laburnum_anagyroides"
       ],
       "internal_external": "internal"
     },
@@ -81,8 +81,8 @@
         "solvent": "45% ethanol (mother tincture)"
       },
       "source_ids": [
-        "src-la-pfaf",
-        "src-la-wiki-de"
+        "src_pfaf_laburnum_anagyroides",
+        "src_wp_de_laburnum_anagyroides"
       ],
       "internal_external": "internal"
     },
@@ -103,7 +103,7 @@
         "en": "Historically: crushed seeds soaked in water, strained; purely documentary, no application recommendation."
       },
       "source_ids": [
-        "src-la-pfaf"
+        "src_pfaf_laburnum_anagyroides"
       ],
       "internal_external": "external"
     },
@@ -124,8 +124,8 @@
         "en": "Historically: dried seeds smoked; purely documentary."
       },
       "source_ids": [
-        "src-la-wiki-cytisine",
-        "src-la-wiki-de"
+        "src_wp_cytisine_laburnum_anagyroides",
+        "src_wp_de_laburnum_anagyroides"
       ],
       "internal_external": "internal"
     },
@@ -146,7 +146,7 @@
         "en": "Historically: fresh branches hung up; purely folkloric."
       },
       "source_ids": [
-        "src-la-wiki-en"
+        "src_wp_en_laburnum_anagyroides"
       ],
       "internal_external": "external"
     }
@@ -228,7 +228,7 @@
           "en": "Cytisine and nicotine compete at the same α4β2 nAChR; concurrent use produces additive nicotinic toxicity (tachycardia, nausea, dizziness, risk of seizures). During Tabex therapy smoking must be tapered off."
         },
         "severity": "avoid",
-        "source_id": "src-la-west-2011"
+        "source_id": "src_west_2011_laburnum_anagyroides"
       },
       {
         "drug_class": "Vareniclin (Champix®/Chantix®)",
@@ -237,7 +237,7 @@
           "en": "Varenicline is also a partial α4β2 nAChR agonist; combination with cytisine leads to competitive displacement and unpredictable pharmacodynamics. Combination not clinically studied — avoid."
         },
         "severity": "avoid",
-        "source_id": "src-la-wiki-cytisine"
+        "source_id": "src_wp_cytisine_laburnum_anagyroides"
       },
       {
         "drug_class": "Bupropion (Wellbutrin®/Zyban®)",
@@ -246,7 +246,7 @@
           "en": "Bupropion independently of cytisine lowers the seizure threshold. In combination the risk of tonic-clonic seizures rises markedly. Concurrent use with cytisine is to be avoided per several national smoking cessation guidelines."
         },
         "severity": "avoid",
-        "source_id": "src-la-walker-2014"
+        "source_id": "src_walker_2014_laburnum_anagyroides"
       },
       {
         "drug_class": "MAO-Hemmer (Tranylcypromin, Moclobemid, Selegilin)",
@@ -255,7 +255,7 @@
           "en": "Nicotinic sympathomimetics may precipitate hypertensive crises under MAO inhibition. Interaction extrapolated from the class of nicotinic agonists — caution or avoidance."
         },
         "severity": "caution",
-        "source_id": "src-la-wiki-cytisine"
+        "source_id": "src_wp_cytisine_laburnum_anagyroides"
       },
       {
         "drug_class": "Cholinesterase-Hemmer (Donepezil, Rivastigmin, Galantamin, Pyridostigmin)",
@@ -264,7 +264,7 @@
           "en": "Increased acetylcholine levels shift receptor dynamics at the nAChR — unpredictable modulation of cytisine activity; risk of both loss of effect and desensitization. Use cautiously."
         },
         "severity": "caution",
-        "source_id": "src-la-wiki-cytisine"
+        "source_id": "src_wp_cytisine_laburnum_anagyroides"
       },
       {
         "drug_class": "Beta-Blocker (Propranolol, Metoprolol, Atenolol)",
@@ -273,28 +273,14 @@
           "en": "Combination can mask cardiovascular effects (tachycardia, hypertension) induced by cytisine/nicotine. At higher cytisine doses paradoxical bradycardia possible. Monitor."
         },
         "severity": "monitor",
-        "source_id": "src-la-wiki-cytisine"
+        "source_id": "src_wp_cytisine_laburnum_anagyroides"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gemeiner Goldregen (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gemeiner_Goldregen",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Laburnum anagyroides (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Laburnum_anagyroides",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-la-wiki-en",
+      "id": "src_wp_en_laburnum_anagyroides",
       "type": "wikipedia",
       "title": "Laburnum anagyroides — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Laburnum_anagyroides",
@@ -302,7 +288,7 @@
       "language": "en"
     },
     {
-      "id": "src-la-wiki-de",
+      "id": "src_wp_de_laburnum_anagyroides",
       "type": "wikipedia",
       "title": "Gemeiner Goldregen — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Gemeiner_Goldregen",
@@ -310,7 +296,7 @@
       "language": "de"
     },
     {
-      "id": "src-la-wiki-cytisine",
+      "id": "src_wp_cytisine_laburnum_anagyroides",
       "type": "wikipedia",
       "title": "Cytisine — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Cytisine",
@@ -318,15 +304,7 @@
       "language": "en"
     },
     {
-      "id": "src-la-wikidata",
-      "type": "wikidata",
-      "title": "Laburnum anagyroides — Wikidata Q147939",
-      "url": "https://www.wikidata.org/wiki/Q147939",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-la-pfaf",
+      "id": "src_pfaf_laburnum_anagyroides",
       "type": "book",
       "title": "Plants For A Future — Laburnum anagyroides",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Laburnum+anagyroides",
@@ -334,7 +312,7 @@
       "language": "en"
     },
     {
-      "id": "src-la-west-2011",
+      "id": "src_west_2011_laburnum_anagyroides",
       "type": "monograph",
       "title": "Placebo-Controlled Trial of Cytisine for Smoking Cessation (West et al., NEJM 2011)",
       "url": "https://doi.org/10.1056/NEJMoa1102035",
@@ -342,18 +320,10 @@
       "language": "en"
     },
     {
-      "id": "src-la-walker-2014",
+      "id": "src_walker_2014_laburnum_anagyroides",
       "type": "monograph",
       "title": "Cytisine versus Nicotine for Smoking Cessation (Walker et al., NEJM 2014)",
       "url": "https://doi.org/10.1056/NEJMoa1407764",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-la-commons",
-      "type": "commons",
-      "title": "Category:Laburnum anagyroides — Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/Category:Laburnum_anagyroides",
       "accessed": "2026-05-26",
       "language": "en"
     }

@@ -39,9 +39,9 @@
         "steep_min": 10
       },
       "source_ids": [
-        "src-ia-grieve",
-        "src-ia-pfaf",
-        "src-ia-wiki-de"
+        "src_grieve_ilex_aquifolium",
+        "src_pfaf_ilex_aquifolium",
+        "src_wp_de_ilex_aquifolium"
       ],
       "internal_external": "internal"
     },
@@ -64,9 +64,9 @@
         "steep_min": 10
       },
       "source_ids": [
-        "src-ia-grieve",
-        "src-ia-pfaf",
-        "src-ia-wiki-en"
+        "src_grieve_ilex_aquifolium",
+        "src_pfaf_ilex_aquifolium",
+        "src_wp_en_ilex_aquifolium"
       ],
       "internal_external": "internal"
     },
@@ -83,8 +83,8 @@
         "en": "Folk-medicinal use of pressed juice of fresh holly leaves for jaundice — Maud Grieve documents: 'The juice of the fresh leaves has been successfully used in the treatment of jaundice.' Widespread in English herbalism of the 17th–19th centuries. Not pharmacologically substantiated; obsolete today because jaundice is usually a symptom of an underlying disease requiring treatment."
       },
       "source_ids": [
-        "src-ia-grieve",
-        "src-ia-pfaf"
+        "src_grieve_ilex_aquifolium",
+        "src_pfaf_ilex_aquifolium"
       ],
       "internal_external": "internal"
     },
@@ -101,9 +101,9 @@
         "en": "Historical use of a few berries as a drastic emetic and purgative, and folk-medicinally for dropsy and 'constipation'. Maud Grieve and PFAF describe the berries as 'violently emetic and purgative'. As few as 2–3 berries cause severe vomiting in children; 5–10 cause marked poisoning symptoms. Strictly obsolete today due to high poisoning risk — pure ethnobotanical documentation."
       },
       "source_ids": [
-        "src-ia-grieve",
-        "src-ia-pfaf",
-        "src-ia-wiki-de"
+        "src_grieve_ilex_aquifolium",
+        "src_pfaf_ilex_aquifolium",
+        "src_wp_de_ilex_aquifolium"
       ],
       "internal_external": "internal"
     },
@@ -126,8 +126,8 @@
         "steep_min": 15
       },
       "source_ids": [
-        "src-ia-pfaf",
-        "src-ia-grieve"
+        "src_pfaf_ilex_aquifolium",
+        "src_grieve_ilex_aquifolium"
       ],
       "internal_external": "internal"
     },
@@ -148,7 +148,7 @@
         "solvent": "brandy/water (Bach method)"
       },
       "source_ids": [
-        "src-ia-pfaf"
+        "src_pfaf_ilex_aquifolium"
       ],
       "internal_external": "internal"
     },
@@ -165,8 +165,8 @@
         "en": "Historical non-medicinal use: until the 19th century, birdlime was made from fermented bark of young holly shoots in the English Lake District, used to trap small birds by sticking them to twigs. Today ethically and legally prohibited; purely ethnographic documentation. Skin contact with the birdlime paste can cause irritant-allergic reactions."
       },
       "source_ids": [
-        "src-ia-grieve",
-        "src-ia-wiki-en"
+        "src_grieve_ilex_aquifolium",
+        "src_wp_en_ilex_aquifolium"
       ],
       "internal_external": "external"
     }
@@ -242,7 +242,7 @@
           "en": "Additive mucosal irritation and additive emetic effect; combined high saponin load can lead to severe gastrointestinal complaints and increased absorption across damaged mucosa."
         },
         "severity": "caution",
-        "source_id": "src-ia-pfaf"
+        "source_id": "src_pfaf_ilex_aquifolium"
       },
       {
         "drug_class": "Diuretika (Schleifendiuretika, Thiazide)",
@@ -251,7 +251,7 @@
           "en": "Holly preparations are weakly diuretic and promote GI fluid loss; with concurrent diuretic therapy the risk of hypovolaemia, hyponatraemia and hypokalaemia rises."
         },
         "severity": "caution",
-        "source_id": "src-ia-grieve"
+        "source_id": "src_grieve_ilex_aquifolium"
       },
       {
         "drug_class": "Methylxanthine-Stimulantien (Theophyllin, Coffein-Tabletten, hohe Kaffee-/Mate-Mengen)",
@@ -260,7 +260,7 @@
           "en": "Leaves and berries contain trace amounts of theobromine and related methylated xanthines; with concurrent intake of other methylxanthines, additive effects (tachycardia, restlessness, sleep disturbance) are possible. Theoretical risk, clinically insignificant at normal exposure."
         },
         "severity": "monitor",
-        "source_id": "src-ia-wiki-de"
+        "source_id": "src_wp_de_ilex_aquifolium"
       },
       {
         "drug_class": "Veterinärmedizin: Theobromin-empfindliche Tierarten (Hunde, Katzen, Pferde)",
@@ -269,28 +269,14 @@
           "en": "Dogs and cats metabolise methylated xanthines markedly more slowly than humans; even though the theobromine content of Ilex aquifolium is low, the load adds to other theobromine sources (chocolate, cocoa). Clinically, however, saponin toxicity dominates (vomiting, diarrhoea, tremor). Keep berries completely away from pet areas."
         },
         "severity": "avoid",
-        "source_id": "src-ia-wiki-theobromine"
+        "source_id": "src_wp_theobromine_ilex_aquifolium"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Europäische Stechpalme (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Europ%C3%A4ische_Stechpalme",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Ilex aquifolium (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Ilex_aquifolium",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-ia-wiki-de",
+      "id": "src_wp_de_ilex_aquifolium",
       "type": "wikipedia",
       "title": "Europäische Stechpalme — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Europ%C3%A4ische_Stechpalme",
@@ -298,7 +284,7 @@
       "language": "de"
     },
     {
-      "id": "src-ia-wiki-en",
+      "id": "src_wp_en_ilex_aquifolium",
       "type": "wikipedia",
       "title": "Ilex aquifolium — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Ilex_aquifolium",
@@ -306,7 +292,7 @@
       "language": "en"
     },
     {
-      "id": "src-ia-wiki-theobromine",
+      "id": "src_wp_theobromine_ilex_aquifolium",
       "type": "wikipedia",
       "title": "Theobromine — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Theobromine",
@@ -314,7 +300,7 @@
       "language": "en"
     },
     {
-      "id": "src-ia-pfaf",
+      "id": "src_pfaf_ilex_aquifolium",
       "type": "book",
       "title": "Plants For A Future — Ilex aquifolium",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ilex+aquifolium",
@@ -322,26 +308,10 @@
       "language": "en"
     },
     {
-      "id": "src-ia-grieve",
+      "id": "src_grieve_ilex_aquifolium",
       "type": "book",
       "title": "Maud Grieve: A Modern Herbal — Holly (botanical.com, 1931)",
       "url": "https://botanical.com/botanical/mgmh/h/holly-28.html",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-ia-wikidata",
-      "type": "wikidata",
-      "title": "Ilex aquifolium — Wikidata Q192190",
-      "url": "https://www.wikidata.org/wiki/Q192190",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-ia-commons",
-      "type": "commons",
-      "title": "Ilex aquifolium — Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/Ilex_aquifolium",
       "accessed": "2026-05-26",
       "language": "en"
     }

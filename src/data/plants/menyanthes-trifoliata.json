@@ -27,7 +27,7 @@
         "de": "0,5-1 g (1 TL) fein geschnittene getrocknete Blaetter mit 150 ml kochendem Wasser uebergiessen, 5-10 Min ziehen lassen, abseihen. 15-30 Min vor den Mahlzeiten ungesuesst trinken.",
         "en": "Pour 150 ml boiling water over 0.5-1 g (1 tsp) finely cut dried leaves, steep 5-10 min, strain. Drink unsweetened 15-30 min before meals."
       },
-      "dose_amount": 1.0,
+      "dose_amount": 1,
       "dose_unit": "g",
       "water_ml": 150,
       "steep_min": 7,
@@ -54,7 +54,7 @@
         "de": "Tinktur 1:5 in 25 % Ethanol; 1-3 ml (etwa 20-60 Tropfen) in wenig Wasser, 3x taeglich kurz vor den Mahlzeiten einnehmen.",
         "en": "Tincture 1:5 in 25% ethanol; 1-3 ml (about 20-60 drops) diluted in a little water, 3x daily shortly before meals."
       },
-      "dose_amount": 2.0,
+      "dose_amount": 2,
       "dose_unit": "ml",
       "frequency_per_day": 3,
       "evidence_level": "ema_well_established",
@@ -227,20 +227,6 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Fieberklee (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Fieberklee",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Menyanthes (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Menyanthes",
-      "accessed": "2026-05-17"
-    },
-    {
       "id": "src_ema_menyanthes",
       "type": "monograph",
       "title": "EMA HMPC Community Herbal Monograph - Menyanthes trifoliata L., folium",
@@ -280,13 +266,6 @@
       "type": "wikipedia",
       "title": "Wikipedia - Fieberklee (Menyanthes trifoliata)",
       "url": "https://de.wikipedia.org/wiki/Fieberklee",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "src_wikidata_menyanthes",
-      "type": "wikidata",
-      "title": "Wikidata Q146045 - Menyanthes trifoliata",
-      "url": "https://www.wikidata.org/wiki/Q146045",
       "accessed": "2026-05-19"
     }
   ],

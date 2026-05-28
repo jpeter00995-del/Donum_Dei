@@ -36,8 +36,8 @@
         "steep_min": 10
       },
       "source_ids": [
-        "src-pr-wiki-en",
-        "src-pr-pfaf"
+        "src_wp_en_papaver_rhoeas",
+        "src_pfaf_papaver_rhoeas"
       ],
       "internal_external": "internal"
     },
@@ -59,8 +59,8 @@
         "steep_min": 8
       },
       "source_ids": [
-        "src-pr-wiki-en",
-        "src-pr-pfaf"
+        "src_wp_en_papaver_rhoeas",
+        "src_pfaf_papaver_rhoeas"
       ],
       "internal_external": "internal"
     },
@@ -82,8 +82,8 @@
         "solvent": "40% ethanol"
       },
       "source_ids": [
-        "src-pr-wiki-en",
-        "src-pr-pfaf"
+        "src_wp_en_papaver_rhoeas",
+        "src_pfaf_papaver_rhoeas"
       ],
       "internal_external": "internal"
     },
@@ -101,8 +101,8 @@
       },
       "preparation": {},
       "source_ids": [
-        "src-pr-pfaf",
-        "src-pr-wiki-en"
+        "src_pfaf_papaver_rhoeas",
+        "src_wp_en_papaver_rhoeas"
       ],
       "internal_external": "internal"
     },
@@ -120,8 +120,8 @@
       },
       "preparation": {},
       "source_ids": [
-        "src-pr-pfaf",
-        "src-pr-wiki-de"
+        "src_pfaf_papaver_rhoeas",
+        "src_wp_de_papaver_rhoeas"
       ],
       "internal_external": "external"
     },
@@ -142,8 +142,8 @@
         "steep_min": 5
       },
       "source_ids": [
-        "src-pr-pfaf",
-        "src-pr-wiki-en"
+        "src_pfaf_papaver_rhoeas",
+        "src_wp_en_papaver_rhoeas"
       ],
       "internal_external": "internal"
     }
@@ -214,28 +214,14 @@
           "en": "Rhoeadine has sedative properties; additive central depressant effect when combined with sleeping pills, sedatives or alcohol theoretically possible. Not systematically studied clinically."
         },
         "severity": "monitor",
-        "source_id": "src-pr-wiki-rhoeadine"
+        "source_id": "src_wp_rhoeadine_papaver_rhoeas"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Klatschmohn (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Klatschmohn",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Papaver rhoeas (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Papaver_rhoeas",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src-pr-wiki-en",
+      "id": "src_wp_en_papaver_rhoeas",
       "type": "wikipedia",
       "title": "Papaver rhoeas — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Papaver_rhoeas",
@@ -243,7 +229,7 @@
       "language": "en"
     },
     {
-      "id": "src-pr-wiki-de",
+      "id": "src_wp_de_papaver_rhoeas",
       "type": "wikipedia",
       "title": "Klatschmohn — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Klatschmohn",
@@ -251,7 +237,7 @@
       "language": "de"
     },
     {
-      "id": "src-pr-wiki-rhoeadine",
+      "id": "src_wp_rhoeadine_papaver_rhoeas",
       "type": "wikipedia",
       "title": "Rhoeadine — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Rhoeadine",
@@ -259,26 +245,10 @@
       "language": "en"
     },
     {
-      "id": "src-pr-pfaf",
+      "id": "src_pfaf_papaver_rhoeas",
       "type": "book",
       "title": "Plants for a Future — Papaver rhoeas",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Papaver+rhoeas",
-      "accessed": "2026-05-24",
-      "language": "en"
-    },
-    {
-      "id": "src-pr-wikidata",
-      "type": "wikidata",
-      "title": "Papaver rhoeas — Wikidata Q157859",
-      "url": "https://www.wikidata.org/wiki/Q157859",
-      "accessed": "2026-05-24",
-      "language": "en"
-    },
-    {
-      "id": "src-pr-wiki-papaver",
-      "type": "wikipedia",
-      "title": "Papaver — Wikipedia (EN) — genus overview",
-      "url": "https://en.wikipedia.org/wiki/Papaver",
       "accessed": "2026-05-24",
       "language": "en"
     }

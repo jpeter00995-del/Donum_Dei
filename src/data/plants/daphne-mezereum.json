@@ -37,9 +37,9 @@
         "solvent": "hot vinegar / water"
       },
       "source_ids": [
-        "src-dm-grieve",
-        "src-dm-henriette",
-        "src-dm-pfaf"
+        "src_grieve_daphne_mezereum",
+        "src_henriette_daphne_mezereum",
+        "src_pfaf_daphne_mezereum"
       ],
       "internal_external": "external"
     },
@@ -61,9 +61,9 @@
         "solvent": "70% ethanol"
       },
       "source_ids": [
-        "src-dm-grieve",
-        "src-dm-henriette",
-        "src-dm-wiki-de"
+        "src_grieve_daphne_mezereum",
+        "src_henriette_daphne_mezereum",
+        "src_wp_de_daphne_mezereum"
       ],
       "internal_external": "internal"
     },
@@ -85,8 +85,8 @@
         "solvent": "ethanol/water"
       },
       "source_ids": [
-        "src-dm-pfaf",
-        "src-dm-wiki-de"
+        "src_pfaf_daphne_mezereum",
+        "src_wp_de_daphne_mezereum"
       ],
       "internal_external": "internal"
     },
@@ -103,9 +103,9 @@
         "en": "Early modern folk medicine: use of the red berries as a drastic emetic and purgative — documented inter alia by Johannes Lonicer (16th century). A few berries were chewed to induce vomiting and diarrhoea; exceeding the arbitrary threshold caused mucosal corrosion and systemic poisoning. Lethal dose in children: 4–5 berries; in adults: 10–12 berries. Considered obsolete and dangerous since the late 19th century; purely ethnobotanical documentation."
       },
       "source_ids": [
-        "src-dm-wiki-de",
-        "src-dm-wiki-en",
-        "src-dm-pfaf"
+        "src_wp_de_daphne_mezereum",
+        "src_wp_en_daphne_mezereum",
+        "src_pfaf_daphne_mezereum"
       ],
       "internal_external": "internal"
     },
@@ -126,9 +126,9 @@
         "solvent": "fatty ointment base"
       },
       "source_ids": [
-        "src-dm-grieve",
-        "src-dm-henriette",
-        "src-dm-pfaf"
+        "src_grieve_daphne_mezereum",
+        "src_henriette_daphne_mezereum",
+        "src_pfaf_daphne_mezereum"
       ],
       "internal_external": "external"
     },
@@ -145,8 +145,8 @@
         "en": "Folk-medicinal application of softened bark to sore gums and toothache ('Kellerhals' — the German vernacular name refers to the burning in the throat on chewing). The chewing irritation was meant to produce salivation and a 'derivative' effect; in reality it causes severe mucosal corrosion with swelling of lips, tongue and pharynx. Considered obsolete since the 19th century."
       },
       "source_ids": [
-        "src-dm-grieve",
-        "src-dm-wiki-de"
+        "src_grieve_daphne_mezereum",
+        "src_wp_de_daphne_mezereum"
       ],
       "internal_external": "external"
     }
@@ -225,7 +225,7 @@
           "en": "Additive skin irritation and blistering; concurrent use increases the risk of extensive corrosive lesions with substantial percutaneous absorption of the diterpene esters."
         },
         "severity": "avoid",
-        "source_id": "src-dm-grieve"
+        "source_id": "src_grieve_daphne_mezereum"
       },
       {
         "drug_class": "Phorbol-Ester-haltige Forschungssubstanzen (TPA / PMA) und PKC-Modulatoren",
@@ -234,7 +234,7 @@
           "en": "Mezerein and daphnetoxin — like TPA — persistently activate protein kinase C. Combination with other PKC activators causes massive overstimulation of PKC-dependent signalling pathways; in tumour models, synergistic tumour-promoter activity. Clinically irrelevant but relevant for laboratory exposure and research."
         },
         "severity": "avoid",
-        "source_id": "src-dm-wiki-mezerein"
+        "source_id": "src_wp_mezerein_daphne_mezereum"
       },
       {
         "drug_class": "Antikoagulanzien (Phenprocoumon, Warfarin, DOAKs)",
@@ -243,7 +243,7 @@
           "en": "Daphnin and daphnetin are hydroxycoumarins; although their pharmacological coumarin effect is weak, additive coumarin effects and increased bleeding risk should be considered with internal exposure. Theoretical risk, not systematically studied clinically."
         },
         "severity": "caution",
-        "source_id": "src-dm-wiki-daphnin"
+        "source_id": "src_wp_daphnin_daphne_mezereum"
       },
       {
         "drug_class": "Schleimhaut-reizende Medikamente (NSAR, Bisphosphonate, Kaliumchlorid-Retardpräparate)",
@@ -252,28 +252,14 @@
           "en": "Mezerein causes direct gastrointestinal mucosal corrosion; concurrent administration of NSAID-related mucosa-damaging substances substantially increases the risk of ulceration and bleeding."
         },
         "severity": "avoid",
-        "source_id": "src-dm-wiki-de"
+        "source_id": "src_wp_de_daphne_mezereum"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Echter Seidelbast (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Echter_Seidelbast",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Daphne mezereum (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Daphne_mezereum",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-dm-wiki-de",
+      "id": "src_wp_de_daphne_mezereum",
       "type": "wikipedia",
       "title": "Echter Seidelbast — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Echter_Seidelbast",
@@ -281,7 +267,7 @@
       "language": "de"
     },
     {
-      "id": "src-dm-wiki-en",
+      "id": "src_wp_en_daphne_mezereum",
       "type": "wikipedia",
       "title": "Daphne mezereum — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Daphne_mezereum",
@@ -289,7 +275,7 @@
       "language": "en"
     },
     {
-      "id": "src-dm-wiki-mezerein",
+      "id": "src_wp_mezerein_daphne_mezereum",
       "type": "wikipedia",
       "title": "Mezerein — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Mezerein",
@@ -297,7 +283,7 @@
       "language": "en"
     },
     {
-      "id": "src-dm-wiki-daphnin",
+      "id": "src_wp_daphnin_daphne_mezereum",
       "type": "wikipedia",
       "title": "Daphnin — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Daphnin",
@@ -305,7 +291,7 @@
       "language": "en"
     },
     {
-      "id": "src-dm-pfaf",
+      "id": "src_pfaf_daphne_mezereum",
       "type": "book",
       "title": "Plants For A Future — Daphne mezereum",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Daphne+mezereum",
@@ -313,7 +299,7 @@
       "language": "en"
     },
     {
-      "id": "src-dm-grieve",
+      "id": "src_grieve_daphne_mezereum",
       "type": "book",
       "title": "Maud Grieve: A Modern Herbal — Mezereon (botanical.com, 1931)",
       "url": "https://botanical.com/botanical/mgmh/m/mezere34.html",
@@ -321,26 +307,10 @@
       "language": "en"
     },
     {
-      "id": "src-dm-henriette",
+      "id": "src_henriette_daphne_mezereum",
       "type": "book",
       "title": "Mezereum (U. S. P.) — King's American Dispensatory, 1898 (Henriette's Herbal)",
       "url": "https://www.henriettes-herb.com/eclectic/kings/daphne-meze.html",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-dm-wikidata",
-      "type": "wikidata",
-      "title": "Daphne mezereum — Wikidata Q165166",
-      "url": "https://www.wikidata.org/wiki/Q165166",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-dm-commons",
-      "type": "commons",
-      "title": "Daphne mezereum — Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/Daphne_mezereum",
       "accessed": "2026-05-26",
       "language": "en"
     }

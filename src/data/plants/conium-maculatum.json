@@ -37,9 +37,9 @@
         "en": "Historically: crushed leaves macerated in lard or oil; purely of documentary value — no application recommendation, coniine is absorbed through the skin."
       },
       "source_ids": [
-        "src-cm-wiki-en",
-        "src-cm-wiki-de",
-        "src-cm-pfaf"
+        "src_wp_en_conium_maculatum",
+        "src_wp_de_conium_maculatum",
+        "src_pfaf_conium_maculatum"
       ],
       "internal_external": "external"
     },
@@ -60,9 +60,9 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-cm-wiki-de",
-        "src-cm-hotti-2017",
-        "src-cm-pfaf"
+        "src_wp_de_conium_maculatum",
+        "src_hotti_2017_conium_maculatum",
+        "src_pfaf_conium_maculatum"
       ],
       "internal_external": "internal"
     },
@@ -83,8 +83,8 @@
         "en": "Crush fresh leaves or apply as ointment — historically documented, no application recommendation."
       },
       "source_ids": [
-        "src-cm-pfaf",
-        "src-cm-wiki-en"
+        "src_pfaf_conium_maculatum",
+        "src_wp_en_conium_maculatum"
       ],
       "internal_external": "external"
     },
@@ -105,8 +105,8 @@
         "en": "Homeopathic potentization from D6 onward — no inherent alkaloid effect; mother tincture (Ø) prepared from flowering fresh plant."
       },
       "source_ids": [
-        "src-cm-pfaf",
-        "src-cm-wikidata"
+        "src_pfaf_conium_maculatum",
+        "src_wikidata_conium_maculatum"
       ],
       "internal_external": "internal"
     },
@@ -127,9 +127,9 @@
         "en": "Historically: unripe fruits and roots crushed, mixed in water or wine; purely documentary."
       },
       "source_ids": [
-        "src-cm-dayan-2024",
-        "src-cm-hotti-2017",
-        "src-cm-wiki-de"
+        "src_dayan_2024_conium_maculatum",
+        "src_hotti_2017_conium_maculatum",
+        "src_wp_de_conium_maculatum"
       ],
       "internal_external": "internal"
     },
@@ -150,8 +150,8 @@
         "en": "Historically in oil macerates or tinctures; purely documentary."
       },
       "source_ids": [
-        "src-cm-wiki-en",
-        "src-cm-hotti-2017"
+        "src_wp_en_conium_maculatum",
+        "src_hotti_2017_conium_maculatum"
       ],
       "internal_external": "external"
     }
@@ -230,7 +230,7 @@
           "en": "Coniine blocks nicotinic acetylcholine receptors at the motor end-plate; additive neuromuscular blockade with prolonged postoperative paralysis and risk of respiratory arrest."
         },
         "severity": "avoid",
-        "source_id": "src-cm-hotti-2017"
+        "source_id": "src_hotti_2017_conium_maculatum"
       },
       {
         "drug_class": "Depolarisierende Muskelrelaxantien (Succinylcholin)",
@@ -239,7 +239,7 @@
           "en": "Coniine modulates the same nicotinic receptors; unpredictable additive effect, prolonged apnoea, malignant-hyperthermia-like picture possible."
         },
         "severity": "avoid",
-        "source_id": "src-cm-hotti-2017"
+        "source_id": "src_hotti_2017_conium_maculatum"
       },
       {
         "drug_class": "Atemdepressiva (Opioide, Benzodiazepine, Barbiturate, GABA-Agonisten)",
@@ -248,7 +248,7 @@
           "en": "Additive respiratory depression through combination of central sedation with nicotinic blockade of respiratory muscles — risk of lethal respiratory arrest."
         },
         "severity": "avoid",
-        "source_id": "src-cm-dayan-2024"
+        "source_id": "src_dayan_2024_conium_maculatum"
       },
       {
         "drug_class": "Cholinesterase-Hemmer (Neostigmin, Pyridostigmin, Donepezil, Rivastigmin)",
@@ -257,7 +257,7 @@
           "en": "Increased acetylcholine levels may initially partially antagonize coniine effects but paradoxically intensify paralysis through receptor desensitization; unpredictable pharmacodynamics."
         },
         "severity": "caution",
-        "source_id": "src-cm-hotti-2017"
+        "source_id": "src_hotti_2017_conium_maculatum"
       },
       {
         "drug_class": "Nikotin und nikotinerge Substanzen (Vareniclin, Nikotinkaugummi, Tabak)",
@@ -266,7 +266,7 @@
           "en": "Competition and cross-sensitivity at the nicotinic receptor; unclear modulation of toxic threshold, especially in heavy smokers or those on varenicline."
         },
         "severity": "monitor",
-        "source_id": "src-cm-hotti-2017"
+        "source_id": "src_hotti_2017_conium_maculatum"
       }
     ],
     "max_continuous_use_weeks": 1
@@ -274,21 +274,7 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gefleckter Schierling (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gefleckter_Schierling",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Conium maculatum (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Conium_maculatum",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-cm-wiki-en",
+      "id": "src_wp_en_conium_maculatum",
       "type": "wikipedia",
       "title": "Conium maculatum — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Conium_maculatum",
@@ -296,7 +282,7 @@
       "language": "en"
     },
     {
-      "id": "src-cm-wiki-de",
+      "id": "src_wp_de_conium_maculatum",
       "type": "wikipedia",
       "title": "Gefleckter Schierling — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Gefleckter_Schierling",
@@ -304,23 +290,7 @@
       "language": "de"
     },
     {
-      "id": "src-cm-wiki-coniine",
-      "type": "wikipedia",
-      "title": "Coniine — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Coniine",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-cm-wiki-schierlingsbecher",
-      "type": "wikipedia",
-      "title": "Schierlingsbecher — Wikipedia (DE)",
-      "url": "https://de.wikipedia.org/wiki/Schierlingsbecher",
-      "accessed": "2026-05-26",
-      "language": "de"
-    },
-    {
-      "id": "src-cm-wikidata",
+      "id": "src_wikidata_conium_maculatum",
       "type": "wikidata",
       "title": "Conium maculatum — Wikidata Q156631",
       "url": "https://www.wikidata.org/wiki/Q156631",
@@ -328,7 +298,7 @@
       "language": "en"
     },
     {
-      "id": "src-cm-pfaf",
+      "id": "src_pfaf_conium_maculatum",
       "type": "book",
       "title": "Plants for a Future — Conium maculatum",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Conium+maculatum",
@@ -336,7 +306,7 @@
       "language": "en"
     },
     {
-      "id": "src-cm-hotti-2017",
+      "id": "src_hotti_2017_conium_maculatum",
       "type": "monograph",
       "title": "The killer of Socrates: Coniine and Related Alkaloids in the Plant Kingdom",
       "url": "https://doi.org/10.3390/molecules22111962",
@@ -344,7 +314,7 @@
       "language": "en"
     },
     {
-      "id": "src-cm-dayan-2024",
+      "id": "src_dayan_2024_conium_maculatum",
       "type": "monograph",
       "title": "Death of Socrates: a likely case of poison hemlock (Conium maculatum) poisoning",
       "url": "https://doi.org/10.1080/15563650.2024.2309328",

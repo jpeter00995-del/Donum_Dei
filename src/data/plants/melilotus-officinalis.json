@@ -33,9 +33,9 @@
       "frequency_per_day": "2-3",
       "evidence_level": "commission_e",
       "source_ids": [
-        "ema_meliloti",
-        "kommission_e_meliloti",
-        "arzneipflanzenlexikon"
+        "src_ema_meliloti_melilotus_officinalis",
+        "src_kommission_e_meliloti_melilotus_officinalis",
+        "src_arzneipflanzenlexikon_melilotus_officinalis"
       ],
       "description": {
         "de": "Chronisch-venöse Insuffizienz (CVI): Schweregefühl, Schmerzen, nächtliche Wadenkrämpfe, Juckreiz, Schwellungen der Beine",
@@ -56,9 +56,9 @@
       "frequency_per_day": "2-3",
       "evidence_level": "commission_e",
       "source_ids": [
-        "kommission_e_meliloti",
-        "ema_meliloti",
-        "altmeyers_meliloti"
+        "src_kommission_e_meliloti_melilotus_officinalis",
+        "src_ema_meliloti_melilotus_officinalis",
+        "src_altmeyers_meliloti_melilotus_officinalis"
       ],
       "description": {
         "de": "Hämorrhoidalleiden und Krampfadern (lokale Anwendung als Salbe)",
@@ -80,9 +80,9 @@
       "frequency_per_day": "2-3",
       "evidence_level": "traditional",
       "source_ids": [
-        "kommission_e_meliloti",
-        "arzneipflanzenlexikon",
-        "awl_steinklee"
+        "src_kommission_e_meliloti_melilotus_officinalis",
+        "src_arzneipflanzenlexikon_melilotus_officinalis",
+        "src_awl_steinklee_melilotus_officinalis"
       ],
       "description": {
         "de": "Lokale Ödeme, Prellungen, Verstauchungen, oberflächliche Hämatome (Umschlag)",
@@ -104,9 +104,9 @@
       "frequency_per_day": "1",
       "evidence_level": "traditional",
       "source_ids": [
-        "arzneipflanzenlexikon",
-        "awl_steinklee",
-        "therapeutika_meliloti"
+        "src_arzneipflanzenlexikon_melilotus_officinalis",
+        "src_awl_steinklee_melilotus_officinalis",
+        "src_therapeutika_meliloti_melilotus_officinalis"
       ],
       "description": {
         "de": "Hämorrhoiden, Lymphstau im Beckenbereich (Sitzbad)",
@@ -128,9 +128,9 @@
       "frequency_per_day": "3",
       "evidence_level": "traditional",
       "source_ids": [
-        "kommission_e_meliloti",
-        "altmeyers_meliloti",
-        "erika_larsen_meliloti"
+        "src_kommission_e_meliloti_melilotus_officinalis",
+        "src_altmeyers_meliloti_melilotus_officinalis",
+        "src_erika_larsen_meliloti_melilotus_officinalis"
       ],
       "description": {
         "de": "Lymphatische Stauungen, Stützung bei Thrombophlebitis und post-thrombotischem Syndrom (Tinktur, intern)",
@@ -152,9 +152,9 @@
       "frequency_per_day": "2-3",
       "evidence_level": "traditional",
       "source_ids": [
-        "ema_meliloti",
-        "pfaf_meliloti",
-        "arzneipflanzenlexikon"
+        "src_ema_meliloti_melilotus_officinalis",
+        "src_pfaf_meliloti_melilotus_officinalis",
+        "src_arzneipflanzenlexikon_melilotus_officinalis"
       ],
       "description": {
         "de": "Leichte Hautentzündungen, schlecht heilende Wunden (Umschlag/Spülung)",
@@ -215,7 +215,7 @@
           "en": "Coumarin and especially dicoumarol from spoiled material potentiate anticoagulation, increased bleeding risk"
         },
         "severity": "avoid",
-        "source_id": "ema_meliloti"
+        "source_id": "src_ema_meliloti_melilotus_officinalis"
       },
       {
         "drug_class": "Thrombozytenaggregationshemmer (ASS, Clopidogrel)",
@@ -224,7 +224,7 @@
           "en": "Possible additive bleeding tendency"
         },
         "severity": "caution",
-        "source_id": "ema_meliloti"
+        "source_id": "src_ema_meliloti_melilotus_officinalis"
       },
       {
         "drug_class": "Hepatotoxische Arzneimittel (Paracetamol in hoher Dosis, Methotrexat)",
@@ -233,7 +233,7 @@
           "en": "Coumarin may increase liver stress, combine cautiously"
         },
         "severity": "caution",
-        "source_id": "altmeyers_meliloti"
+        "source_id": "src_altmeyers_meliloti_melilotus_officinalis"
       }
     ],
     "contraindications": [
@@ -247,21 +247,7 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gelber Steinklee (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gelber_Steinklee",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Melilotus officinalis (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Melilotus_officinalis",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "ema_meliloti",
+      "id": "src_ema_meliloti_melilotus_officinalis",
       "type": "monograph",
       "title": "European Union herbal monograph on Melilotus officinalis (L.) Lam., herba (HMPC)",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/meliloti-herba",
@@ -269,15 +255,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "ema_meliloti_assessment",
-      "type": "monograph",
-      "title": "Assessment report on Melilotus officinalis (L.) Lam., herba",
-      "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-melilotus-officinalis-l-lam-herba_en.pdf",
-      "publisher": "European Medicines Agency, HMPC",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "kommission_e_meliloti",
+      "id": "src_kommission_e_meliloti_melilotus_officinalis",
       "type": "monograph",
       "title": "Kommission E Monographie: Meliloti herba (Steinkleekraut)",
       "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/",
@@ -285,7 +263,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "pfaf_meliloti",
+      "id": "src_pfaf_meliloti_melilotus_officinalis",
       "type": "wikipedia",
       "title": "Melilotus officinalis - Plants For A Future",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Melilotus+officinalis",
@@ -293,7 +271,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "arzneipflanzenlexikon",
+      "id": "src_arzneipflanzenlexikon_melilotus_officinalis",
       "type": "wikipedia",
       "title": "Steinklee - Arzneipflanzen-Lexikon",
       "url": "https://arzneipflanzenlexikon.info/steinklee.php",
@@ -301,7 +279,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "altmeyers_meliloti",
+      "id": "src_altmeyers_meliloti_melilotus_officinalis",
       "type": "wikipedia",
       "title": "Meliloti herba - Altmeyers Encyclopedia Phytotherapy",
       "url": "https://www.altmeyers.org/en/naturopathy/meliloti-herba-143195",
@@ -309,7 +287,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "awl_steinklee",
+      "id": "src_awl_steinklee_melilotus_officinalis",
       "type": "wikipedia",
       "title": "Steinklee (Melilotus officinalis) - Wirkung",
       "url": "https://www.awl.ch/heilpflanzen/melilotus_officinalis/steinklee.htm",
@@ -317,7 +295,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "therapeutika_meliloti",
+      "id": "src_therapeutika_meliloti_melilotus_officinalis",
       "type": "wikipedia",
       "title": "Therapeutika - Melilotus officinalis",
       "url": "https://www.therapeutika.ch/Melilotus+officinalis",
@@ -325,7 +303,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "erika_larsen_meliloti",
+      "id": "src_erika_larsen_meliloti_melilotus_officinalis",
       "type": "wikipedia",
       "title": "Sweet Clover Monograph - Erika Larsen Clinical Herbalist",
       "url": "https://www.erika-larsen-clinical-herbalist.com/writing-1/sweet-clover-monograph",

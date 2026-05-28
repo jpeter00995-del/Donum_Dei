@@ -33,8 +33,8 @@
       "plant_part": "whole_plant",
       "evidence_level": "folk",
       "source_ids": [
-        "ph_src_nasa",
-        "ph_src_wiki_en"
+        "src_src_nasa_philodendron_hederaceum",
+        "src_src_wp_en_philodendron_hederaceum"
       ],
       "preparation": {
         "de": "Pflanze in bewohntem Raum aufstellen; mindestens 1 Pflanze pro 9–10 m² empfohlen.",
@@ -55,8 +55,8 @@
       "plant_part": "whole_plant",
       "evidence_level": "folk",
       "source_ids": [
-        "ph_src_wiki_en",
-        "ph_src_aspca"
+        "src_src_wp_en_philodendron_hederaceum",
+        "src_src_aspca_philodendron_hederaceum"
       ],
       "preparation": {
         "de": "Hängekorb oder Kletterhilfe, indirektes Licht, kein direktes Sonnenlicht.",
@@ -77,8 +77,8 @@
       "plant_part": "leaf",
       "evidence_level": "folk",
       "source_ids": [
-        "ph_src_nasa",
-        "ph_src_rhs"
+        "src_src_nasa_philodendron_hederaceum",
+        "src_src_rhs_philodendron_hederaceum"
       ],
       "preparation": {
         "de": "Mehrere Pflanzen in Gruppen aufstellen, regelmäßig besprühen oder auf Kiesbett mit Wasser stellen.",
@@ -150,49 +150,28 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Philodendren (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Philodendren",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Philodendron (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Philodendron",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "ph_src_nasa",
+      "id": "src_src_nasa_philodendron_hederaceum",
       "type": "monograph",
       "title": "Interior Landscape Plants for Indoor Air Pollution Abatement — Wolverton et al., NASA TM-101766 (1989)",
       "url": "https://ntrs.nasa.gov/citations/19930073077",
       "accessed": "2026-05-24"
     },
     {
-      "id": "ph_src_wiki_en",
+      "id": "src_src_wp_en_philodendron_hederaceum",
       "type": "wikipedia",
       "title": "Philodendron hederaceum (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Philodendron_hederaceum",
       "accessed": "2026-05-24"
     },
     {
-      "id": "ph_src_wiki_de",
-      "type": "wikipedia",
-      "title": "Philodendren (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Philodendren",
-      "accessed": "2026-05-24"
-    },
-    {
-      "id": "ph_src_aspca",
+      "id": "src_src_aspca_philodendron_hederaceum",
       "type": "monograph",
       "title": "ASPCA Animal Poison Control — Philodendron",
       "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/philodendron",
       "accessed": "2026-05-24"
     },
     {
-      "id": "ph_src_rhs",
+      "id": "src_src_rhs_philodendron_hederaceum",
       "type": "monograph",
       "title": "RHS — Philodendron hederaceum cultivation advice",
       "url": "https://www.rhs.org.uk/plants/13326/philodendron-hederaceum/details",

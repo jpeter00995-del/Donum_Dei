@@ -21,13 +21,22 @@
   "uses": [
     {
       "form": "gargle",
-      "target": ["throat", "mouth"],
+      "target": [
+        "throat",
+        "mouth"
+      ],
       "internal_external": "external",
       "plant_part": "leaf",
       "evidence_level": "traditional",
       "preparation": {
-        "amount_dry_g": { "min": 1, "max": 2 },
-        "amount_ml": { "min": 150, "max": 250 },
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "amount_ml": {
+          "min": 150,
+          "max": 250
+        },
         "doses_per_day": 3,
         "max_duration_weeks": 1,
         "instructions": {
@@ -46,17 +55,29 @@
         "de": "Lindert Reizungen der Mund- und Rachenschleimhaut und den damit verbundenen trockenen Reizhusten durch einen feinen Schleimstoff-Film, der die gereizten Stellen überzieht.",
         "en": "Soothes irritation of the mouth and throat mucosa and the associated dry tickly cough by coating the irritated areas with a fine film of mucilage."
       },
-      "source_ids": ["src_ema_malvae_folium", "src_ema_malvae_flos"]
+      "source_ids": [
+        "src_ema_malvae_folium",
+        "src_ema_malvae_flos"
+      ]
     },
     {
       "form": "tea",
-      "target": ["respiratory", "throat"],
+      "target": [
+        "respiratory",
+        "throat"
+      ],
       "internal_external": "internal",
       "plant_part": "leaf",
       "evidence_level": "traditional",
       "preparation": {
-        "amount_dry_g": { "min": 1, "max": 2 },
-        "amount_ml": { "min": 150, "max": 250 },
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "amount_ml": {
+          "min": 150,
+          "max": 250
+        },
         "doses_per_day": 3,
         "max_duration_weeks": 1,
         "instructions": {
@@ -75,17 +96,27 @@
         "de": "Reizmindernder Tee bei trockenem Husten — die Schleimstoffe legen sich wie ein Schutzfilm auf die gereizten Rachenwege.",
         "en": "Soothing tea for dry cough — the mucilage forms a protective film over the irritated airways of the throat."
       },
-      "source_ids": ["src_ema_malvae_folium"]
+      "source_ids": [
+        "src_ema_malvae_folium"
+      ]
     },
     {
       "form": "tea",
-      "target": ["digestion"],
+      "target": [
+        "digestion"
+      ],
       "internal_external": "internal",
       "plant_part": "leaf",
       "evidence_level": "traditional",
       "preparation": {
-        "amount_dry_g": { "min": 1, "max": 2 },
-        "amount_ml": { "min": 150, "max": 250 },
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "amount_ml": {
+          "min": 150,
+          "max": 250
+        },
         "doses_per_day": 3,
         "max_duration_weeks": 2,
         "instructions": {
@@ -104,17 +135,28 @@
         "de": "Hilft bei leichten Magen-Darm-Beschwerden wie einem Reizmagen-Gefühl, durch die einhüllende Wirkung der Schleimstoffe.",
         "en": "Helps with mild stomach and gut discomfort by coating and soothing through the action of the mucilage."
       },
-      "source_ids": ["src_ema_malvae_folium"]
+      "source_ids": [
+        "src_ema_malvae_folium"
+      ]
     },
     {
       "form": "tea",
-      "target": ["respiratory", "throat"],
+      "target": [
+        "respiratory",
+        "throat"
+      ],
       "internal_external": "internal",
       "plant_part": "flower",
       "evidence_level": "traditional",
       "preparation": {
-        "amount_dry_g": { "min": 1, "max": 2 },
-        "amount_ml": { "min": 150, "max": 250 },
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "amount_ml": {
+          "min": 150,
+          "max": 250
+        },
         "doses_per_day": 3,
         "max_duration_weeks": 1,
         "instructions": {
@@ -133,17 +175,28 @@
         "de": "Wie der Blättertee — reizlindernd bei trockenem Husten und Halskratzen. Die Blüten enthalten zusätzlich Anthocyan-Farbstoffe.",
         "en": "Like the leaf tea — soothing for dry cough and scratchy throat. The flowers additionally contain anthocyanin pigments."
       },
-      "source_ids": ["src_ema_malvae_flos"]
+      "source_ids": [
+        "src_ema_malvae_flos"
+      ]
     },
     {
       "form": "gargle",
-      "target": ["throat", "mouth"],
+      "target": [
+        "throat",
+        "mouth"
+      ],
       "internal_external": "external",
       "plant_part": "flower",
       "evidence_level": "traditional",
       "preparation": {
-        "amount_dry_g": { "min": 1, "max": 2 },
-        "amount_ml": { "min": 150, "max": 250 },
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "amount_ml": {
+          "min": 150,
+          "max": 250
+        },
         "doses_per_day": 3,
         "max_duration_weeks": 1,
         "instructions": {
@@ -162,11 +215,18 @@
         "de": "Mundspülung und Gurgellösung bei Reizungen der Mund- und Rachenschleimhaut.",
         "en": "Mouth rinse and gargle for irritation of the mouth and throat mucosa."
       },
-      "source_ids": ["src_ema_malvae_flos"]
+      "source_ids": [
+        "src_ema_malvae_flos"
+      ]
     }
   ],
   "season": {
-    "active_months": [6, 7, 8, 9],
+    "active_months": [
+      6,
+      7,
+      8,
+      9
+    ],
     "harvest_part": {
       "de": "Blüten und Blätter",
       "en": "flowers and leaves"
@@ -275,7 +335,12 @@
   "harvest": [
     {
       "plant_part": "leaf",
-      "best_months": [6, 7, 8, 9],
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
       "time_of_day": {
         "de": "An einem trockenen Vormittag, sobald der Tau abgetrocknet ist.",
         "en": "On a dry morning once the dew has dried."
@@ -292,7 +357,12 @@
     },
     {
       "plant_part": "flower",
-      "best_months": [6, 7, 8, 9],
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
       "time_of_day": {
         "de": "An sonnigen Vormittagen, sobald der Tau weg ist.",
         "en": "On sunny mornings once the dew is gone."
@@ -310,20 +380,6 @@
   ],
   "classical_quotes": [],
   "sources": [
-    {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Wilde Malve (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Wilde_Malve",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Malva sylvestris (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Malva_sylvestris",
-      "accessed": "2026-05-16"
-    },
     {
       "id": "src_ema_malvae_folium",
       "type": "monograph",

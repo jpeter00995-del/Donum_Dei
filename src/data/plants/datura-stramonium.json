@@ -37,9 +37,9 @@
         "en": "Dried leaves were burned as cigarettes or powder on embers and the smoke inhaled; commercial preparations such as Grimault's 'Cigarettes Indiennes' (1850s–1930s) contained stramonium, cannabis and other additives. No self-application — risk of poisoning."
       },
       "source_ids": [
-        "src-ds-wiki-en",
-        "src-ds-pfaf",
-        "src-ds-soni-2012"
+        "src_wp_en_datura_stramonium",
+        "src_pfaf_datura_stramonium",
+        "src_soni_2012_datura_stramonium"
       ],
       "internal_external": "internal"
     },
@@ -60,8 +60,8 @@
         "solvent": "70% ethanol"
       },
       "source_ids": [
-        "src-ds-wiki-en",
-        "src-ds-batista-2021"
+        "src_wp_en_datura_stramonium",
+        "src_batista_2021_datura_stramonium"
       ],
       "internal_external": "internal"
     },
@@ -83,8 +83,8 @@
         "en": "Crush fresh or lightly wilted leaves and apply briefly — historically documented only, no application recommendation. Wear protective gloves for any plant contact."
       },
       "source_ids": [
-        "src-ds-pfaf",
-        "src-ds-wiki-en"
+        "src_pfaf_datura_stramonium",
+        "src_wp_en_datura_stramonium"
       ],
       "internal_external": "external"
     },
@@ -105,8 +105,8 @@
         "en": "Historically documented ethnobotanically; no application recommendation — highly toxic, frequently lethal."
       },
       "source_ids": [
-        "src-ds-wiki-en",
-        "src-ds-batista-2021"
+        "src_wp_en_datura_stramonium",
+        "src_batista_2021_datura_stramonium"
       ],
       "internal_external": "internal"
     },
@@ -127,8 +127,8 @@
         "en": "Historically ointments boiled in lard or vegetable oil; purely of documentary value."
       },
       "source_ids": [
-        "src-ds-wiki-en",
-        "src-ds-pfaf"
+        "src_wp_en_datura_stramonium",
+        "src_pfaf_datura_stramonium"
       ],
       "internal_external": "external"
     },
@@ -149,8 +149,8 @@
         "en": "Homeopathic potentization from D6 onward — no inherent alkaloid effect."
       },
       "source_ids": [
-        "src-ds-wiki-en",
-        "src-ds-wikidata"
+        "src_wp_en_datura_stramonium",
+        "src_wikidata_datura_stramonium"
       ],
       "internal_external": "internal"
     }
@@ -261,7 +261,7 @@
           "en": "Additive anticholinergic effect: enhanced dry mouth, urinary retention, tachycardia, cognitive impairment up to central anticholinergic syndrome with delirium and seizures."
         },
         "severity": "avoid",
-        "source_id": "src-ds-wiki-en"
+        "source_id": "src_wp_en_datura_stramonium"
       },
       {
         "drug_class": "Trizyklische Antidepressiva (Amitriptylin, Imipramin, Clomipramin)",
@@ -270,7 +270,7 @@
           "en": "Tricyclics have inherent anticholinergic properties; combination with Datura alkaloids substantially potentiates anticholinergic side effects."
         },
         "severity": "caution",
-        "source_id": "src-ds-shi-2022"
+        "source_id": "src_shi_2022_datura_stramonium"
       },
       {
         "drug_class": "MAO-Hemmer (Phenelzin, Tranylcypromin, Moclobemid, Selegilin)",
@@ -279,7 +279,7 @@
           "en": "MAO inhibitors may reduce the breakdown of tropane alkaloids and potentiate their toxicity; central nervous system excitation with hallucinations and hypertensive crisis possible."
         },
         "severity": "caution",
-        "source_id": "src-ds-shi-2022"
+        "source_id": "src_shi_2022_datura_stramonium"
       },
       {
         "drug_class": "Antihistaminika der 1. Generation (Diphenhydramin, Promethazin, Hydroxyzin)",
@@ -288,7 +288,7 @@
           "en": "First-generation H1 antihistamines have anticholinergic properties; additive effects when combined with Datura alkaloids — risk of sedation, confusion, falls."
         },
         "severity": "monitor",
-        "source_id": "src-ds-wiki-en"
+        "source_id": "src_wp_en_datura_stramonium"
       },
       {
         "drug_class": "Neuroleptika mit anticholinerger Komponente (Clozapin, Olanzapin, Chlorpromazin)",
@@ -297,7 +297,7 @@
           "en": "Inherent anticholinergic action of neuroleptics adds to tropane alkaloids; risk of hyperthermia, ileus, cognitive deterioration."
         },
         "severity": "caution",
-        "source_id": "src-ds-batista-2021"
+        "source_id": "src_batista_2021_datura_stramonium"
       },
       {
         "drug_class": "Anticholinergika (Tiotropium, Ipratropium, Oxybutynin, Darifenacin, Scopolamin-Pflaster)",
@@ -306,7 +306,7 @@
           "en": "Additive anticholinergic effect: enhanced dry mouth, urinary retention, tachycardia, cognitive impairment up to central anticholinergic syndrome with delirium and seizures."
         },
         "severity": "avoid",
-        "source_id": "src-ds-wiki-en"
+        "source_id": "src_wp_en_datura_stramonium"
       },
       {
         "drug_class": "Trizyklische Antidepressiva (Amitriptylin, Imipramin, Clomipramin)",
@@ -315,7 +315,7 @@
           "en": "Tricyclics have inherent anticholinergic properties; combination with Datura alkaloids substantially potentiates anticholinergic side effects."
         },
         "severity": "caution",
-        "source_id": "src-ds-shi-2022"
+        "source_id": "src_shi_2022_datura_stramonium"
       },
       {
         "drug_class": "MAO-Hemmer (Phenelzin, Tranylcypromin, Moclobemid, Selegilin)",
@@ -324,7 +324,7 @@
           "en": "MAO inhibitors may reduce the breakdown of tropane alkaloids and potentiate their toxicity; central nervous system excitation with hallucinations and hypertensive crisis possible."
         },
         "severity": "caution",
-        "source_id": "src-ds-shi-2022"
+        "source_id": "src_shi_2022_datura_stramonium"
       },
       {
         "drug_class": "Antihistaminika der 1. Generation (Diphenhydramin, Promethazin, Hydroxyzin)",
@@ -333,7 +333,7 @@
           "en": "First-generation H1 antihistamines have anticholinergic properties; additive effects when combined with Datura alkaloids — risk of sedation, confusion, falls."
         },
         "severity": "monitor",
-        "source_id": "src-ds-wiki-en"
+        "source_id": "src_wp_en_datura_stramonium"
       },
       {
         "drug_class": "Neuroleptika mit anticholinerger Komponente (Clozapin, Olanzapin, Chlorpromazin)",
@@ -342,28 +342,14 @@
           "en": "Inherent anticholinergic action of neuroleptics adds to tropane alkaloids; risk of hyperthermia, ileus, cognitive deterioration."
         },
         "severity": "caution",
-        "source_id": "src-ds-batista-2021"
+        "source_id": "src_batista_2021_datura_stramonium"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gemeiner Stechapfel (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gemeiner_Stechapfel",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Datura stramonium (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Datura_stramonium",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-ds-wiki-en",
+      "id": "src_wp_en_datura_stramonium",
       "type": "wikipedia",
       "title": "Datura stramonium — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Datura_stramonium",
@@ -371,31 +357,7 @@
       "language": "en"
     },
     {
-      "id": "src-ds-wiki-de",
-      "type": "wikipedia",
-      "title": "Gemeiner Stechapfel — Wikipedia (DE)",
-      "url": "https://de.wikipedia.org/wiki/Gemeiner_Stechapfel",
-      "accessed": "2026-05-26",
-      "language": "de"
-    },
-    {
-      "id": "src-ds-wiki-atropine",
-      "type": "wikipedia",
-      "title": "Atropine — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Atropine",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-ds-wiki-scopolamine",
-      "type": "wikipedia",
-      "title": "Scopolamine — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Scopolamine",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-ds-wikidata",
+      "id": "src_wikidata_datura_stramonium",
       "type": "wikidata",
       "title": "Datura stramonium — Wikidata Q156057",
       "url": "https://www.wikidata.org/wiki/Q156057",
@@ -403,7 +365,7 @@
       "language": "en"
     },
     {
-      "id": "src-ds-pfaf",
+      "id": "src_pfaf_datura_stramonium",
       "type": "book",
       "title": "Plants for a Future — Datura stramonium",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Datura+stramonium",
@@ -411,7 +373,7 @@
       "language": "en"
     },
     {
-      "id": "src-ds-shi-2022",
+      "id": "src_shi_2022_datura_stramonium",
       "type": "monograph",
       "title": "Tropane alkaloids (hyoscyamine, scopolamine and atropine) from genus Datura: extractions, contents, syntheses and effects",
       "url": "https://doi.org/10.1016/j.indcrop.2022.115283",
@@ -419,7 +381,7 @@
       "language": "en"
     },
     {
-      "id": "src-ds-batista-2021",
+      "id": "src_batista_2021_datura_stramonium",
       "type": "monograph",
       "title": "Phytochemistry, Pharmacology, and Toxicology of Datura Species — A Review",
       "url": "https://doi.org/10.3390/antiox10081291",
@@ -427,7 +389,7 @@
       "language": "en"
     },
     {
-      "id": "src-ds-soni-2012",
+      "id": "src_soni_2012_datura_stramonium",
       "type": "monograph",
       "title": "Pharmacological properties of Datura stramonium L. as a potential medicinal tree: An overview",
       "url": "https://doi.org/10.1016/S2221-1691(13)60014-3",

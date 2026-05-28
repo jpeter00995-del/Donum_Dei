@@ -27,7 +27,7 @@
         "de": "2-4 g (1-2 TL) fein geschnittene getrocknete Wurzel mit 150 ml kaltem Wasser ansetzen, kurz aufkochen, 10 Min ziehen lassen, abseihen. 15-30 Min vor den Mahlzeiten 2-3x taeglich ungesuesst trinken (Kommission E: Tagesdosis 3 g Droge).",
         "en": "Add 2-4 g (1-2 tsp) finely cut dried root to 150 ml cold water, bring to brief boil, steep 10 min, strain. Drink unsweetened 2-3x daily 15-30 min before meals (Commission E daily dose: 3 g of drug)."
       },
-      "dose_amount": 3.0,
+      "dose_amount": 3,
       "dose_unit": "g",
       "water_ml": 150,
       "steep_min": 10,
@@ -55,7 +55,7 @@
         "de": "1-2 TL (etwa 2-4 g) getrocknetes Kraut (Blaetter und Bluetenstaengel) mit 150 ml kochendem Wasser uebergiessen, 10 Min ziehen lassen, abseihen. 2-3 Tassen taeglich vor den Mahlzeiten.",
         "en": "Pour 150 ml boiling water over 1-2 tsp (about 2-4 g) dried herb (leaves and flowering stems), steep 10 min, strain. Drink 2-3 cups daily before meals."
       },
-      "dose_amount": 3.0,
+      "dose_amount": 3,
       "dose_unit": "g",
       "water_ml": 150,
       "steep_min": 10,
@@ -83,7 +83,7 @@
         "de": "Tinktur 1:5 in 25 % Ethanol; 1-3 ml (etwa 20-60 Tropfen) in wenig Wasser, 2-3x taeglich kurz vor den Mahlzeiten einnehmen.",
         "en": "Tincture 1:5 in 25% ethanol; 1-3 ml (about 20-60 drops) diluted in a little water, 2-3x daily shortly before meals."
       },
-      "dose_amount": 2.0,
+      "dose_amount": 2,
       "dose_unit": "ml",
       "frequency_per_day": 3,
       "evidence_level": "traditional",
@@ -131,7 +131,7 @@
         "de": "Wurzel im Herbst ernten, waschen, klein schneiden, schonend trocknen, dann bei 150-180 Grad C bis zur dunkelbraunen Faerbung roesten, mahlen. 1-2 TL pro Tasse mit kochendem Wasser aufbruehen, 5 Min ziehen.",
         "en": "Harvest root in autumn, wash, chop, dry gently, then roast at 150-180 deg C until dark brown, grind. Brew 1-2 tsp per cup with boiling water, steep 5 min."
       },
-      "dose_amount": 2.0,
+      "dose_amount": 2,
       "dose_unit": "tsp",
       "water_ml": 150,
       "steep_min": 5,
@@ -270,20 +270,6 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gemeine Wegwarte (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gemeine_Wegwarte",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Chicory (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Chicory",
-      "accessed": "2026-05-16"
-    },
-    {
       "id": "src_kommission_e_cichorii_radix",
       "type": "monograph",
       "title": "Kommission E Monographie - Cichorii radix (Wegwartenwurzel), Positivmonographie BAnz Nr. 122 vom 06.07.1988",
@@ -330,27 +316,6 @@
       "type": "wikipedia",
       "title": "Wikipedia DE - Gemeine Wegwarte (Cichorium intybus)",
       "url": "https://de.wikipedia.org/wiki/Gemeine_Wegwarte",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "src_wikipedia_cichorium_en",
-      "type": "wikipedia",
-      "title": "Wikipedia EN - Cichorium intybus (Common chicory)",
-      "url": "https://en.wikipedia.org/wiki/Chicory",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "src_wikidata_cichorium",
-      "type": "wikidata",
-      "title": "Wikidata Q156802 - Cichorium intybus",
-      "url": "https://www.wikidata.org/wiki/Q156802",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "src_nhv_heilpflanze_2020",
-      "type": "monograph",
-      "title": "NHV Theophrastus - Wegwarte (Cichorium intybus) als Heilpflanze des Jahres 2020",
-      "url": "https://nhv-theophrastus.de/heilpflanze-des-jahres/",
       "accessed": "2026-05-19"
     }
   ],

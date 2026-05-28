@@ -36,9 +36,9 @@
         "en": "Purely historical/documentary. Procedure at the time: peel bulb, carefully remove central sprout, slice, boil repeatedly in water (discarding the water each time), then roast or mill into flour. NO modern recommendation — poisoning symptoms possible even after long boiling."
       },
       "source_ids": [
-        "src-tg-wiki-hongerwinter",
-        "src-tg-wiki-de",
-        "src-tg-rivm"
+        "src_wp_hongerwinter_tulipa_gesneriana",
+        "src_wp_de_tulipa_gesneriana",
+        "src_rivm_tulipa_gesneriana"
       ],
       "internal_external": "internal"
     },
@@ -59,9 +59,9 @@
         "en": "No application — this is a risk description, not an indication. Protective measures: nitrile or PVC gloves when handling tulip bulbs, regular skin care, avoid prolonged contact in sensitised individuals."
       },
       "source_ids": [
-        "src-tg-wiki-en",
-        "src-tg-wiki-de",
-        "src-tg-hausarzt"
+        "src_wp_en_tulipa_gesneriana",
+        "src_wp_de_tulipa_gesneriana",
+        "src_hausarzt_tulipa_gesneriana"
       ],
       "internal_external": "external"
     },
@@ -82,8 +82,8 @@
         "en": "Historical/ethnobotanical. Fresh crushed flowers briefly applied to intact skin; not on open wounds, not for known tulip allergy. No modern recommendation."
       },
       "source_ids": [
-        "src-tg-wiki-en",
-        "src-tg-pfaf"
+        "src_wp_en_tulipa_gesneriana",
+        "src_pfaf_tulipa_gesneriana"
       ],
       "internal_external": "external"
     },
@@ -104,8 +104,8 @@
         "en": "Historical/documentary; no application recommendation. Petals were freshly crushed or used as a thin compress."
       },
       "source_ids": [
-        "src-tg-wiki-en",
-        "src-tg-pfaf"
+        "src_wp_en_tulipa_gesneriana",
+        "src_pfaf_tulipa_gesneriana"
       ],
       "internal_external": "external"
     },
@@ -126,8 +126,8 @@
         "en": "No human application. Pure research/phytopathology information."
       },
       "source_ids": [
-        "src-tg-wiki-tulipalin",
-        "src-tg-wiki-en"
+        "src_wp_tulipalin_tulipa_gesneriana",
+        "src_wp_en_tulipa_gesneriana"
       ],
       "internal_external": "external"
     },
@@ -148,8 +148,8 @@
         "en": "Not recommended. As historically documented: petals were used fresh, chopped or briefly blanched. Modern: not advisable."
       },
       "source_ids": [
-        "src-tg-wiki-hongerwinter",
-        "src-tg-wiki-de"
+        "src_wp_hongerwinter_tulipa_gesneriana",
+        "src_wp_de_tulipa_gesneriana"
       ],
       "internal_external": "internal"
     }
@@ -223,77 +223,56 @@
           "en": "In occupational tulip-finger dermatitis topical steroids are used therapeutically — no interaction in the classical pharmacological sense, but the skin barrier is impaired and other allergens may be absorbed more strongly under steroid ointment. Strict allergen avoidance is mandatory during treatment."
         },
         "severity": "monitor",
-        "source_id": "src-tg-hausarzt"
+        "source_id": "src_hausarzt_tulipa_gesneriana"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Garten-Tulpe (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Garten-Tulpe",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Tulipa gesneriana (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Tulipa_gesneriana",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-tg-wiki-de",
+      "id": "src_wp_de_tulipa_gesneriana",
       "type": "wikipedia",
       "title": "Garten-Tulpe — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Garten-Tulpe",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-tg-wiki-en",
+      "id": "src_wp_en_tulipa_gesneriana",
       "type": "wikipedia",
       "title": "Tulipa gesneriana — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Tulipa_gesneriana",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-tg-wiki-tulipalin",
+      "id": "src_wp_tulipalin_tulipa_gesneriana",
       "type": "wikipedia",
       "title": "Tulipalin A — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Tulipalin_A",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-tg-wiki-hongerwinter",
+      "id": "src_wp_hongerwinter_tulipa_gesneriana",
       "type": "wikipedia",
       "title": "Dutch famine of 1944-45 (Hongerwinter) — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Dutch_famine_of_1944%E2%80%9345",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-tg-wikidata",
-      "type": "wikidata",
-      "title": "Tulipa gesneriana — Wikidata Q161467",
-      "url": "https://www.wikidata.org/wiki/Q161467",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-tg-pfaf",
+      "id": "src_pfaf_tulipa_gesneriana",
       "type": "book",
       "title": "Plants for a Future — Tulipa gesneriana",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Tulipa+gesneriana",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-tg-hausarzt",
+      "id": "src_hausarzt_tulipa_gesneriana",
       "type": "wikipedia",
       "title": "Tulip finger / Tulpenfinger — Allergische Kontaktdermatitis (Wikipedia DE)",
       "url": "https://de.wikipedia.org/wiki/Tulpenfinger",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-tg-rivm",
+      "id": "src_rivm_tulipa_gesneriana",
       "type": "wikipedia",
       "title": "Tulipa — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Tulip",

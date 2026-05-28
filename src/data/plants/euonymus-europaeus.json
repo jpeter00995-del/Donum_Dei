@@ -36,9 +36,9 @@
         "en": "Site: partial shade to sun, calcareous, fresh to moist loamy soils preferred. Plant in autumn or early spring; prune as needed in late winter (February) for rejuvenation. IMPORTANT: when choosing the planting site, consider child and pet safety — do not plant directly next to playgrounds, kindergartens or dog runs. Wear protective gloves when pruning hedges, as the plant sap can be skin-irritating."
       },
       "source_ids": [
-        "src-ee-wiki-de",
-        "src-ee-wiki-en",
-        "src-ee-pfaf"
+        "src_wp_de_euonymus_europaeus",
+        "src_wp_en_euonymus_europaeus",
+        "src_pfaf_euonymus_europaeus"
       ],
       "internal_external": "external"
     },
@@ -55,9 +55,9 @@
         "en": "Eponymous historical use of the very fine, dense and tough spindle wood for turned spindles for wool spinning, small toothpicks, shoemaker's wooden pegs, knitting needles, carved figures, piano keys and weaving shuttles. The hard, evenly grained wood can be worked extremely finely — hence the German names 'Spindelstrauch', 'Spillbaum' and English 'spindle tree'. The folk name 'Pfaffenhütchen' (priest's cap, French bonnet-de-prêtre) refers not to the wood but to the shape of the four-lobed capsule fruits, which resemble the square biretta cap (pileolus) of Catholic clergy."
       },
       "source_ids": [
-        "src-ee-wiki-de",
-        "src-ee-wiki-en",
-        "src-ee-pfaf"
+        "src_wp_de_euonymus_europaeus",
+        "src_wp_en_euonymus_europaeus",
+        "src_pfaf_euonymus_europaeus"
       ],
       "internal_external": "external"
     },
@@ -74,9 +74,9 @@
         "en": "Artist's charcoal ('powder wood', French fusain): peeled European spindle twigs carbonised in low-oxygen iron vessels yield a particularly soft, fine-drawing charcoal for artists' sketches — hence the French term 'fusain' (which is at the same time the French name of the plant). The charcoal abrades evenly on paper, blends easily with the finger and has been a standard sketching material in European art academies since the Renaissance. Until the 19th century, spindle charcoal was also used in gunpowder manufactories as a component for black powder (low sulphur content, even burn rate)."
       },
       "source_ids": [
-        "src-ee-wiki-de",
-        "src-ee-wiki-en",
-        "src-ee-wikidata"
+        "src_wp_de_euonymus_europaeus",
+        "src_wp_en_euonymus_europaeus",
+        "src_wikidata_euonymus_europaeus"
       ],
       "internal_external": "external"
     },
@@ -94,9 +94,9 @@
         "en": "Historical folk-medicinal use of powdered ripe seed against head lice, crab lice and scabies mites in humans and livestock: the seed powder was mixed with lard, pork fat or vegetable oil and rubbed into the scalp or animal fur. The action is based on the sesquiterpenoid alkaloids contained in the seed oil (evonine, evonoline) and on the cardenolide glycosides, which act as acaricides and insecticides. Hieronymus Bock (1546) and Lonicerus (1557) already describe this application — today strictly obsolete because systemic skin absorption can cause cardiac arrhythmias with prolonged use, and safe, non-toxic alternatives (permethrin, dimeticone) are available. Pure historical documentation, NO recommendation for use."
       },
       "source_ids": [
-        "src-ee-wiki-de",
-        "src-ee-pfaf",
-        "src-ee-henriette"
+        "src_wp_de_euonymus_europaeus",
+        "src_pfaf_euonymus_europaeus",
+        "src_henriette_euonymus_europaeus"
       ],
       "internal_external": "external"
     },
@@ -113,9 +113,9 @@
         "en": "Historically, the dried and powdered root and stem bark of European spindle was applied in homeopathic and folk-medicinal drop preparations as a drastic purgative (hydragogue) and cholagogue for constipation, dropsy (oedema) and jaundice. The North American relative Euonymus atropurpureus (Wahoo) was officially used in 19th-century Eclectic Medicine in the form of 'euonymin' as a liver and bile remedy. Mechanism: cardenolide glycosides (evonoside, evobioside, evomonoside) massively irritate the intestinal mucosa and act digitalis-like on the heart — hence the high risk of nausea, bloody diarrhoea, collapse and cardiac arrhythmias even at therapeutic doses. Today entirely obsolete and not included in any current phytotherapy guideline."
       },
       "source_ids": [
-        "src-ee-wiki-en",
-        "src-ee-pfaf",
-        "src-ee-henriette"
+        "src_wp_en_euonymus_europaeus",
+        "src_pfaf_euonymus_europaeus",
+        "src_henriette_euonymus_europaeus"
       ],
       "internal_external": "internal"
     },
@@ -132,9 +132,9 @@
         "en": "Dyeing and craft use of the capsule fruits and orange seed arils: the carotenoids of the aril yielded a yellow-orange dye (historical application in Central European butter tincture and for wool), while the crushed pink capsule wall mordanted with alum gave a pinkish-brown wool textile shade. The dried capsule fruits are also used in floristry for autumn arrangements and dried wreaths — caution: children must NOT be assigned to collect them, as the temptation to place the bright seeds in the mouth is acutely life-threatening. The fruit is NOT a food colouring and must NOT be used for butter, cheese or baked goods."
       },
       "source_ids": [
-        "src-ee-wiki-de",
-        "src-ee-pfaf",
-        "src-ee-commons"
+        "src_wp_de_euonymus_europaeus",
+        "src_pfaf_euonymus_europaeus",
+        "src_commons_euonymus_europaeus"
       ],
       "internal_external": "external"
     }
@@ -216,7 +216,7 @@
           "en": "The cardenolide glycosides from Euonymus europaeus (evonoside, evobioside, evomonoside) inhibit the Na⁺/K⁺-ATPase of cardiac muscle cells like digoxin; concurrent intake potentially enhances positive inotropy and negative chronotropy life-threateningly (bradycardia, AV block, ventricular arrhythmias). Clinically relevant only on accidental ingestion — then immediate cardiac monitoring."
         },
         "severity": "avoid",
-        "source_id": "src-ee-wiki-en"
+        "source_id": "src_wp_en_euonymus_europaeus"
       },
       {
         "drug_class": "Kaliumverlust-Diuretika (Furosemid, Hydrochlorothiazid, Indapamid)",
@@ -225,7 +225,7 @@
           "en": "Diuretics lower serum potassium; hypokalaemic patients react substantially more sensitively to cardenolides from Euonymus (digitalis-like toxicity already at smaller amounts). On accidental ingestion of spindle material and concurrent diuretic therapy, emergency monitoring with potassium substitution is indicated."
         },
         "severity": "avoid",
-        "source_id": "src-ee-wiki-de"
+        "source_id": "src_wp_de_euonymus_europaeus"
       },
       {
         "drug_class": "Antiarrhythmika (Amiodaron, Sotalol, Verapamil, Diltiazem)",
@@ -234,7 +234,7 @@
           "en": "Antiarrhythmics may additively enhance the negative chronotropic and dromotropic effect of cardenolides from Euonymus; risk of sinus bradycardia, higher-grade AV block and asystole. In accidental poisoning, administration of anticholinergics (atropine) is the first-line measure; for refractory bradycardia, temporary pacemaker."
         },
         "severity": "avoid",
-        "source_id": "src-ee-wiki-en"
+        "source_id": "src_wp_en_euonymus_europaeus"
       },
       {
         "drug_class": "Laxanzien und Reizabführmittel (Bisacodyl, Senna, Rizinusöl)",
@@ -243,7 +243,7 @@
           "en": "Euonymus bark and seeds are themselves strongly laxative (irritation of intestinal mucosa by cardenolides and saponins); with concurrent use of classical laxatives, massive fluid and electrolyte loss with consecutive hypokalaemia threatens — which in turn enhances the cardiotoxicity of the cardenolides. Vicious circle on accidental ingestion."
         },
         "severity": "caution",
-        "source_id": "src-ee-pfaf"
+        "source_id": "src_pfaf_euonymus_europaeus"
       },
       {
         "drug_class": "Glucocorticoide (Prednisolon, Dexamethason)",
@@ -252,77 +252,49 @@
           "en": "Longer-term glucocorticoid therapy leads to hypokalaemia and sodium retention — both factors that increase sensitivity to cardenolides. With accidental spindle poisoning under ongoing steroid therapy, close electrolyte and ECG monitoring is required."
         },
         "severity": "caution",
-        "source_id": "src-ee-wiki-en"
+        "source_id": "src_wp_en_euonymus_europaeus"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gewöhnlicher Spindelstrauch (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Spindelstrauch",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Euonymus europaeus (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Euonymus_europaeus",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-ee-wiki-de",
+      "id": "src_wp_de_euonymus_europaeus",
       "type": "wikipedia",
       "title": "Gewöhnlicher Spindelstrauch — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Spindelstrauch",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ee-wiki-en",
+      "id": "src_wp_en_euonymus_europaeus",
       "type": "wikipedia",
       "title": "Euonymus europaeus — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Euonymus_europaeus",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ee-wiki-genus",
-      "type": "wikipedia",
-      "title": "Euonymus — Wikipedia (EN, genus)",
-      "url": "https://en.wikipedia.org/wiki/Euonymus",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-ee-wiki-celastraceae",
-      "type": "wikipedia",
-      "title": "Celastraceae — Wikipedia (EN, family)",
-      "url": "https://en.wikipedia.org/wiki/Celastraceae",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-ee-pfaf",
+      "id": "src_pfaf_euonymus_europaeus",
       "type": "book",
       "title": "Plants for a Future — Euonymus europaeus",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Euonymus+europaeus",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ee-henriette",
+      "id": "src_henriette_euonymus_europaeus",
       "type": "book",
       "title": "Henriette's Herbal Homepage — Euonymus europaeus (King's American Dispensatory, 1898)",
       "url": "https://www.henriettes-herb.com/eclectic/kings/euonymus.html",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ee-wikidata",
+      "id": "src_wikidata_euonymus_europaeus",
       "type": "wikidata",
       "title": "Euonymus europaeus — Wikidata Q156005",
       "url": "https://www.wikidata.org/wiki/Q156005",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ee-commons",
+      "id": "src_commons_euonymus_europaeus",
       "type": "commons",
       "title": "Euonymus europaeus — Wikimedia Commons category",
       "url": "https://commons.wikimedia.org/wiki/Category:Euonymus_europaeus",

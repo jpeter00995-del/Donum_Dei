@@ -33,9 +33,9 @@
         "en": "Classical garden and cemetery hedging plant; due to extremely dense growth and excellent response to clipping, Buxus has been the leading species of formal gardening since antiquity (topiary, knot gardens, parterres). Famous installations at Versailles, Villa d'Este and Sissinghurst use boxwood as architectural backbone. Since 2007 severely threatened in Central Europe by the invasive box tree moth (Cydalima perspectalis) and box blight (Cylindrocladium buxicola)."
       },
       "source_ids": [
-        "src-bs-wiki-de",
-        "src-bs-wiki-en",
-        "src-bs-wiki-cydalima"
+        "src_wp_de_buxus_sempervirens",
+        "src_wp_en_buxus_sempervirens",
+        "src_wp_cydalima_buxus_sempervirens"
       ]
     },
     {
@@ -52,9 +52,9 @@
         "en": "Wood use — boxwood, with a raw density of 0.95-1.03 g/cm³, ranks among the densest European woods and sinks in water. Traditional applications include wood-engraving blocks (Thomas Bewick, 18th century), woodwind instruments (recorders, clarinet mouthpieces, bagpipe chanters), weaving shuttles, chess pieces, tool handles, carving and turnery work. Today one of the most heavily traded European fine timbers."
       },
       "source_ids": [
-        "src-bs-wiki-en",
-        "src-bs-wiki-de",
-        "src-bs-pfaf"
+        "src_wp_en_buxus_sempervirens",
+        "src_wp_de_buxus_sempervirens",
+        "src_pfaf_buxus_sempervirens"
       ]
     },
     {
@@ -72,9 +72,9 @@
         "en": "HISTORICALLY OBSOLETE — In early modern and folk medicine of Southern and Western Europe, decoctions of box leaves were used as 'plant quinine' against malaria (intermittent fever) and as a diaphoretic. This use is now OBSOLETE and DANGEROUS: the steroid alkaloids (buxine, cyclobuxine D) cause severe gastrointestinal cramping, vomiting, diarrhoea, central nervous excitation and respiratory paralysis. Documented as ethnobotanical note only, NOT a use recommendation."
       },
       "source_ids": [
-        "src-bs-wiki-de",
-        "src-bs-henriette",
-        "src-bs-pfaf"
+        "src_wp_de_buxus_sempervirens",
+        "src_henriette_buxus_sempervirens",
+        "src_pfaf_buxus_sempervirens"
       ]
     },
     {
@@ -95,8 +95,8 @@
         "solvent": "70% ethanol"
       },
       "source_ids": [
-        "src-bs-pfaf",
-        "src-bs-henriette"
+        "src_pfaf_buxus_sempervirens",
+        "src_henriette_buxus_sempervirens"
       ]
     },
     {
@@ -113,8 +113,8 @@
         "en": "Ecclesiastical and folk-custom use — boxwood sprigs traditionally replace palm fronds on Palm Sunday in Central and Northern Europe ('Palmbuschen', 'palm besom'); in some regions used as grave decoration on All Saints' Day and as evergreen mourning ornament. Pure symbolism, no medicinal use."
       },
       "source_ids": [
-        "src-bs-wiki-de",
-        "src-bs-wiki-en"
+        "src_wp_de_buxus_sempervirens",
+        "src_wp_en_buxus_sempervirens"
       ]
     },
     {
@@ -131,8 +131,8 @@
         "en": "Historical dyeing use — yellowish to red-brown natural dyes for wool and hair were formerly obtained from box leaves and roots; Pliny and Dioscorides already mention dyeing blond hair with Buxus. Today replaced by synthetic dyes; documented purely ethnobotanically."
       },
       "source_ids": [
-        "src-bs-pfaf",
-        "src-bs-wiki-en"
+        "src_pfaf_buxus_sempervirens",
+        "src_wp_en_buxus_sempervirens"
       ]
     }
   ],
@@ -209,7 +209,7 @@
           "en": "Boxwood alkaloids cause central respiratory depression; combination with other respiratory depressants can lead to life-threatening apnoea."
         },
         "severity": "avoid",
-        "source_id": "src-bs-wiki-de"
+        "source_id": "src_wp_de_buxus_sempervirens"
       },
       {
         "drug_class": "Hepatotoxische Medikamente (Paracetamol-Hochdosis, Methotrexat, Isoniazid)",
@@ -218,80 +218,45 @@
           "en": "Possible additive hepatic burden through hepatic metabolism of steroid alkaloids; transaminase elevations observed in poisoning cases."
         },
         "severity": "avoid",
-        "source_id": "src-bs-wiki-en"
+        "source_id": "src_wp_en_buxus_sempervirens"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gewöhnlicher Buchsbaum (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Buchsbaum",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Buxus sempervirens (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Buxus_sempervirens",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-bs-wiki-de",
+      "id": "src_wp_de_buxus_sempervirens",
       "type": "wikipedia",
       "title": "Gewöhnlicher Buchsbaum — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Buchsbaum",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-bs-wiki-en",
+      "id": "src_wp_en_buxus_sempervirens",
       "type": "wikipedia",
       "title": "Buxus sempervirens — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Buxus_sempervirens",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-bs-wikidata",
-      "type": "wikidata",
-      "title": "Buxus sempervirens — Wikidata Q146909",
-      "url": "https://www.wikidata.org/wiki/Q146909",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-bs-pfaf",
+      "id": "src_pfaf_buxus_sempervirens",
       "type": "book",
       "title": "Plants for a Future — Buxus sempervirens",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Buxus+sempervirens",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-bs-henriette",
+      "id": "src_henriette_buxus_sempervirens",
       "type": "book",
       "title": "Henriette's Herbal — Buxus sempervirens (King's American Dispensatory / historical sources)",
       "url": "https://www.henriettes-herb.com/eclectic/kings/buxus.html",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-bs-wiki-cydalima",
+      "id": "src_wp_cydalima_buxus_sempervirens",
       "type": "wikipedia",
       "title": "Cydalima perspectalis (Buchsbaumzünsler) — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Buchsbaumz%C3%BCnsler",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-bs-commons",
-      "type": "commons",
-      "title": "Category:Buxus sempervirens — Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/Category:Buxus_sempervirens",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-bs-wiki-boxwood",
-      "type": "wikipedia",
-      "title": "Boxwood (wood) — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Boxwood",
       "accessed": "2026-05-27"
     }
   ],

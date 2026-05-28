@@ -38,9 +38,9 @@
         "en": "Cut leaf lengthwise, scoop out clear inner gel with a spoon (discard yellow latex at leaf base), apply directly to cleansed skin several times daily."
       },
       "source_ids": [
-        "ema-hmpc-aloe",
-        "commission-e-aloe-gel",
-        "escop-aloe-gel"
+        "src_ema_hmpc_aloe_aloe_vera",
+        "src_commission_e_aloe_gel_aloe_vera",
+        "src_escop_aloe_gel_aloe_vera"
       ]
     },
     {
@@ -61,8 +61,8 @@
         "en": "Wash a leaf piece about 5 cm, completely cut away the rind and yellow latex, dice the clear gel and add to a smoothie — max. 1–2 tbsp per day, not for prolonged use without advice."
       },
       "source_ids": [
-        "who-aloe-vera-1999",
-        "pfaf-aloe-vera"
+        "src_who_aloe_vera_1999",
+        "src_pfaf_aloe_vera"
       ]
     },
     {
@@ -83,9 +83,9 @@
       },
       "max_duration_weeks": 2,
       "source_ids": [
-        "ema-hmpc-aloe",
-        "commission-e-aloe-saft",
-        "efsa-2017-hydroxyanthracene"
+        "src_ema_hmpc_aloe_aloe_vera",
+        "src_commission_e_aloe_saft_aloe_vera",
+        "src_efsa_2017_hydroxyanthracene_aloe_vera"
       ]
     },
     {
@@ -106,8 +106,8 @@
         "en": "Spread fresh inner gel onto a clean gauze cloth, apply to the affected area, leave on for 15–30 minutes, repeat several times daily if needed."
       },
       "source_ids": [
-        "escop-aloe-gel",
-        "pfaf-aloe-vera"
+        "src_escop_aloe_gel_aloe_vera",
+        "src_pfaf_aloe_vera"
       ]
     },
     {
@@ -127,7 +127,7 @@
         "en": "Purée the inner gel from 2–3 large leaves, add to warm bath water, stir well, bathe for 15–20 minutes."
       },
       "source_ids": [
-        "pfaf-aloe-vera"
+        "src_pfaf_aloe_vera"
       ]
     }
   ],
@@ -188,7 +188,7 @@
           "en": "Anthranoids from aloe juice can cause potassium loss with chronic use, potentially enhancing the effect and toxicity of cardiac glycosides."
         },
         "severity": "avoid",
-        "source_id": "ema-hmpc-aloe"
+        "source_id": "src_ema_hmpc_aloe_aloe_vera"
       },
       {
         "drug_class": "Antiarrhythmika",
@@ -197,7 +197,7 @@
           "en": "Hypokalemia from chronic aloin use may alter the effect of antiarrhythmic drugs."
         },
         "severity": "caution",
-        "source_id": "ema-hmpc-aloe"
+        "source_id": "src_ema_hmpc_aloe_aloe_vera"
       },
       {
         "drug_class": "Diuretika (Thiazide, Schleifendiuretika)",
@@ -206,7 +206,7 @@
           "en": "Enhanced potassium loss with concurrent use of aloin-containing laxatives and potassium-depleting diuretics."
         },
         "severity": "caution",
-        "source_id": "ema-hmpc-aloe"
+        "source_id": "src_ema_hmpc_aloe_aloe_vera"
       },
       {
         "drug_class": "Kortikosteroide",
@@ -215,7 +215,7 @@
           "en": "Concurrent use may worsen potassium depletion."
         },
         "severity": "caution",
-        "source_id": "ema-hmpc-aloe"
+        "source_id": "src_ema_hmpc_aloe_aloe_vera"
       },
       {
         "drug_class": "Antikoagulanzien (Warfarin, Cumarine)",
@@ -224,7 +224,7 @@
           "en": "Aloe may alter anticoagulant effects through electrolyte shifts and possible influence on gut flora."
         },
         "severity": "monitor",
-        "source_id": "who-aloe-vera-1999"
+        "source_id": "src_who_aloe_vera_1999"
       }
     ],
     "max_continuous_use_weeks": 2,
@@ -254,87 +254,52 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Echte Aloe (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Echte_Aloe",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Aloe vera (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Aloe_vera",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "ema-hmpc-aloe",
+      "id": "src_ema_hmpc_aloe_aloe_vera",
       "type": "monograph",
       "title": "EMA/HMPC — European Union herbal monograph on Aloe barbadensis Mill. and Aloe (various species, mainly Aloe ferox Mill. and its hybrids), folii succus siccatus",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/aloe-barbadensis-aloe-various-species-mainly-aloe-ferox-mill-its-hybrids-folii-succus-siccatus",
       "accessed": "2026-05-19"
     },
     {
-      "id": "commission-e-aloe-gel",
+      "id": "src_commission_e_aloe_gel_aloe_vera",
       "type": "monograph",
       "title": "Kommission E — Aloe vera Gel (Monographie)",
       "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/",
       "accessed": "2026-05-19"
     },
     {
-      "id": "commission-e-aloe-saft",
+      "id": "src_commission_e_aloe_saft_aloe_vera",
       "type": "monograph",
       "title": "Kommission E — Aloe-Saft, eingedickter Saft aus den Blättern (Monographie, BAnz Nr. 133, 1985)",
       "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/0030.htm",
       "accessed": "2026-05-19"
     },
     {
-      "id": "escop-aloe-gel",
+      "id": "src_escop_aloe_gel_aloe_vera",
       "type": "monograph",
       "title": "ESCOP — Aloe vera gel monograph",
       "url": "https://escop.com/downloads/aloe-vera-gel/",
       "accessed": "2026-05-19"
     },
     {
-      "id": "efsa-2017-hydroxyanthracene",
+      "id": "src_efsa_2017_hydroxyanthracene_aloe_vera",
       "type": "monograph",
       "title": "EFSA — Scientific Opinion on the safety of hydroxyanthracene derivatives for use in food (EFSA Journal 2018;16(1):5090)",
       "url": "https://www.efsa.europa.eu/en/efsajournal/pub/5090",
       "accessed": "2026-05-19"
     },
     {
-      "id": "who-aloe-vera-1999",
+      "id": "src_who_aloe_vera_1999",
       "type": "monograph",
       "title": "WHO — Monographs on Selected Medicinal Plants, Vol. 1: Aloe and Aloe Vera Gel (1999)",
       "url": "https://apps.who.int/iris/handle/10665/42052",
       "accessed": "2026-05-19"
     },
     {
-      "id": "pfaf-aloe-vera",
+      "id": "src_pfaf_aloe_vera",
       "type": "monograph",
       "title": "Plants For A Future — Aloe vera",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Aloe+vera",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "wikipedia-de-aloe-vera",
-      "type": "wikipedia",
-      "title": "Wikipedia DE — Aloe vera",
-      "url": "https://de.wikipedia.org/wiki/Aloe_vera",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "wikipedia-en-aloe-vera",
-      "type": "wikipedia",
-      "title": "Wikipedia EN — Aloe vera",
-      "url": "https://en.wikipedia.org/wiki/Aloe_vera",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "wikidata-aloe-vera",
-      "type": "wikidata",
-      "title": "Wikidata — Aloe vera (Q39918)",
-      "url": "https://www.wikidata.org/wiki/Q39918",
       "accessed": "2026-05-19"
     }
   ],

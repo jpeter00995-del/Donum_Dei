@@ -27,7 +27,7 @@
         "de": "1-2 TL (ca. 2 g) getrocknetes Gundermann-Kraut mit 150 ml kochendem Wasser übergiessen, 7-10 Min zugedeckt ziehen lassen, abseihen. Frisch zubereitet, kurweise über max. 4-6 Wochen.",
         "en": "Pour 150 ml boiling water over 1-2 tsp (ca. 2 g) dried ground-ivy herb, steep covered 7-10 min, strain. Freshly prepared, as a cure for max. 4-6 weeks."
       },
-      "dose_amount": 2.0,
+      "dose_amount": 2,
       "dose_unit": "g",
       "water_ml": 150,
       "steep_min": 7,
@@ -84,7 +84,7 @@
         "de": "Tee aus 1-2 TL Kraut auf 150 ml Wasser, 3 Wochen lang 1 Tasse morgens nüchtern. Häufig als Bestandteil von Frühjahrs-Wildkräuter-Mischungen (mit Brennnessel, Löwenzahn, Vogelmiere).",
         "en": "Tea from 1-2 tsp herb per 150 ml water, 1 cup mornings on empty stomach for 3 weeks. Often part of spring wild-herb blends (with nettle, dandelion, chickweed)."
       },
-      "dose_amount": 2.0,
+      "dose_amount": 2,
       "dose_unit": "g",
       "water_ml": 150,
       "steep_min": 7,
@@ -111,7 +111,7 @@
         "de": "Frisches Kraut zerkleinern, in Schraubglas geben, mit 40-45 %igem Alkohol (Doppelkorn/Wodka) im Verhältnis 1:5 übergiessen, 3-4 Wochen warm und dunkel ziehen lassen, gelegentlich schütteln, abseihen. Innerlich 10-20 Tropfen 3x täglich in Wasser; äusserlich verdünnt (1:5 mit Wasser) zum Auftupfen oder als Umschlag.",
         "en": "Chop fresh herb, place in screw-top jar, cover 1:5 with 40-45 % alcohol (vodka), macerate 3-4 weeks in warm dark place, shake occasionally, strain. Internally 10-20 drops 3x daily in water; externally diluted (1:5 with water) for dabbing or compresses."
       },
-      "dose_amount": 15.0,
+      "dose_amount": 15,
       "dose_unit": "drops",
       "frequency_per_day": 3,
       "evidence_level": "folk",
@@ -138,7 +138,7 @@
         "de": "1 EL (ca. 5 g) getrocknetes oder 2 EL frisches Gundermann-Kraut in eine Schüssel geben, mit ca. 1 L kochendem Wasser übergiessen, Handtuch über den Kopf, Augen geschlossen, 5-10 Min die Dämpfe einatmen. 1-2x täglich bei akutem Bedarf.",
         "en": "Place 1 tbsp (ca. 5 g) dried or 2 tbsp fresh ground-ivy herb in a bowl, pour ca. 1 L boiling water over it, cover head with towel, eyes closed, inhale steam 5-10 min. 1-2x daily for acute use."
       },
-      "dose_amount": 5.0,
+      "dose_amount": 5,
       "dose_unit": "g",
       "water_ml": 1000,
       "steep_min": 5,
@@ -165,7 +165,7 @@
         "de": "Junge Blätter und Triebspitzen vor der Blüte (März-April) fein hacken, sparsam (1-2 EL pro Portion) verwenden — Geschmack erinnert an Minze, Petersilie und leicht harzig. Roh in Salate, Quark, Frischkäse; in der berühmten 'Neunkräutersuppe' und Gründonnerstags-Kräutern.",
         "en": "Finely chop young leaves and shoot tips before flowering (March-April), use sparingly (1-2 tbsp per portion) — flavor recalls mint, parsley, and slightly resinous. Raw in salads, quark, cream cheese; in the famous 'Nine-Herb Soup' and Maundy Thursday herbs."
       },
-      "dose_amount": 1.0,
+      "dose_amount": 1,
       "dose_unit": "tsp",
       "frequency_per_day": 1,
       "evidence_level": "folk",
@@ -190,7 +190,7 @@
         "de": "Starken Aufguss aus 2 EL Kraut auf 250 ml kochendem Wasser zubereiten, 15 Min ziehen, abseihen, abkühlen lassen. Leinentuch tränken, ausdrücken, 15-20 Min auflegen. 1-2x täglich. Alternativ: frische Blätter zerquetschen und direkt als Umschlag verwenden ('Gundermann-Auflage').",
         "en": "Prepare strong infusion from 2 tbsp herb per 250 ml boiling water, steep 15 min, strain, cool. Soak linen cloth, wring out, apply 15-20 min. 1-2x daily. Alternatively: crush fresh leaves and apply directly as poultice ('ground-ivy compress')."
       },
-      "dose_amount": 4.0,
+      "dose_amount": 4,
       "dose_unit": "g",
       "water_ml": 250,
       "steep_min": 15,
@@ -306,20 +306,6 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gundermann (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gundermann",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Glechoma hederacea (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Glechoma_hederacea",
-      "accessed": "2026-05-16"
-    },
-    {
       "id": "src_kommission_e_neg",
       "type": "monograph",
       "title": "Kommission E Monographie (negativ) — Glechomae herba (Gundermannkraut), Bundesanzeiger Nr. 50 vom 13.03.1986; Aufhebung wegen unzureichender Wirksamkeitsbelege bestätigt 1992",
@@ -359,27 +345,6 @@
       "type": "wikipedia",
       "title": "Wikipedia (DE): Gundermann (Glechoma hederacea)",
       "url": "https://de.wikipedia.org/wiki/Gundermann",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "src_wikipedia_en",
-      "type": "wikipedia",
-      "title": "Wikipedia (EN): Ground-ivy (Glechoma hederacea)",
-      "url": "https://en.wikipedia.org/wiki/Glechoma_hederacea",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "src_wikidata",
-      "type": "wikidata",
-      "title": "Wikidata: Glechoma hederacea (Q156592)",
-      "url": "https://www.wikidata.org/wiki/Q156592",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "src_commons",
-      "type": "commons",
-      "title": "Wikimedia Commons — Category: Glechoma hederacea",
-      "url": "https://commons.wikimedia.org/wiki/Category:Glechoma_hederacea",
       "accessed": "2026-05-19"
     },
     {

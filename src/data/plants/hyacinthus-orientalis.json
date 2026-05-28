@@ -37,9 +37,9 @@
         "en": "Pot culture: insert pre-cooled ('prepared') bulbs in October to November into loose substrate or hyacinth glass, hold cool and dark for 8 to 12 weeks (4 to 9 °C), then bring into light — flowering after about 3 weeks. Garden planting from September to November, planting depth roughly twice bulb height. Wear nitrile or PVC gloves when handling bulbs due to hyacinth dermatitis. Cut off spent inflorescences, leave foliage until it withers naturally."
       },
       "source_ids": [
-        "src-ho-wiki-en",
-        "src-ho-wiki-de",
-        "src-ho-rhs"
+        "src_wp_en_hyacinthus_orientalis",
+        "src_wp_de_hyacinthus_orientalis",
+        "src_rhs_hyacinthus_orientalis"
       ],
       "internal_external": "external"
     },
@@ -61,9 +61,9 @@
         "en": "Industrial solvent extraction of fresh flowers harvested in the open stage early in the morning; lay home production effectively impossible (hexane, vacuum apparatus, oil yield ca. 0.02 %). Use in perfume as a 0.1 to 1 % component of the floral heart note — never apply neat to skin, as sensitive individuals may react with skin irritation. No therapeutic aromatherapy indication; purely hedonic use in fragrances and room perfumery."
       },
       "source_ids": [
-        "src-ho-pellmyr",
-        "src-ho-perfumery-book",
-        "src-ho-wiki-en"
+        "src_pellmyr_hyacinthus_orientalis",
+        "src_perfumery_book_hyacinthus_orientalis",
+        "src_wp_en_hyacinthus_orientalis"
       ],
       "internal_external": "external"
     },
@@ -84,9 +84,9 @@
         "en": "No preparation — symbolic use as a fresh potted or cut flower on the Nowruz table, as a mourning or spring symbol in Western floristry traditions and in fine art (Persian miniature painting, 17th-century Dutch flower still life)."
       },
       "source_ids": [
-        "src-ho-wiki-nowruz",
-        "src-ho-wiki-hyakinthos",
-        "src-ho-wiki-en"
+        "src_wp_nowruz_hyacinthus_orientalis",
+        "src_wp_hyakinthos_hyacinthus_orientalis",
+        "src_wp_en_hyacinthus_orientalis"
       ],
       "internal_external": "external"
     },
@@ -107,8 +107,8 @@
         "en": "No application — risk description. On skin contact with bulb outer scales rinse promptly with lukewarm water and mild soap; with persistent itching or rash present to a dermatologist. Occupational handling per Bruijnzeel recommendation with gloves, regular skin care and, on suspicion, patch test for hyacinth allergens."
       },
       "source_ids": [
-        "src-ho-bruijnzeel",
-        "src-ho-wiki-en"
+        "src_bruijnzeel_hyacinthus_orientalis",
+        "src_wp_en_hyacinthus_orientalis"
       ],
       "internal_external": "external"
     },
@@ -129,8 +129,8 @@
         "en": "No preparation — historical-documentary use. Today's Dutch bulb industry (Bollenstreek near Lisse, Keukenhof) is the direct economic successor of the mania era and supplies the global market with forcing and garden bulbs."
       },
       "source_ids": [
-        "src-ho-wiki-hyacintenwindhandel",
-        "src-ho-wiki-de"
+        "src_wp_hyacintenwindhandel_hyacinthus_orientalis",
+        "src_wp_de_hyacinthus_orientalis"
       ],
       "internal_external": "external"
     }
@@ -212,98 +212,70 @@
           "en": "Standard treatment of contact dermatitis after hyacinth skin contact: low- to medium-potency topical corticosteroids (hydrocortisone 1 %, methylprednisolone aceponate), and with severe itching second-generation oral antihistamines (cetirizine, loratadine). No direct interaction with hyacinth constituents but symptomatic treatment; in occupational exposure additionally avoidance strategy (gloves) and possibly patch test."
         },
         "severity": "monitor",
-        "source_id": "src-ho-bruijnzeel"
+        "source_id": "src_bruijnzeel_hyacinthus_orientalis"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gartenhyazinthe (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gartenhyazinthe",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Hyacinthus orientalis (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Hyacinthus_orientalis",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-ho-wiki-en",
+      "id": "src_wp_en_hyacinthus_orientalis",
       "type": "wikipedia",
       "title": "Hyacinthus orientalis — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Hyacinthus_orientalis",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ho-wiki-de",
+      "id": "src_wp_de_hyacinthus_orientalis",
       "type": "wikipedia",
       "title": "Gartenhyazinthe — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Gartenhyazinthe",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ho-wikidata",
-      "type": "wikidata",
-      "title": "Hyacinthus orientalis — Wikidata Q156831",
-      "url": "https://www.wikidata.org/wiki/Q156831",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-ho-commons",
-      "type": "commons",
-      "title": "Hyacinthus orientalis — Wikimedia Commons category",
-      "url": "https://commons.wikimedia.org/wiki/Category:Hyacinthus_orientalis",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-ho-rhs",
+      "id": "src_rhs_hyacinthus_orientalis",
       "type": "book",
       "title": "Royal Horticultural Society — Hyacinthus orientalis cultivation profile",
       "url": "https://www.rhs.org.uk/plants/9043/hyacinthus-orientalis/details",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ho-bruijnzeel",
+      "id": "src_bruijnzeel_hyacinthus_orientalis",
       "type": "monograph",
       "title": "Bruijnzeel PLB — Bulb dermatitis: dermatological problems in the flower bulb industries (Contact Dermatitis, 1996)",
       "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0536.1996.tb02314.x",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ho-wiki-nowruz",
+      "id": "src_wp_nowruz_hyacinthus_orientalis",
       "type": "wikipedia",
       "title": "Haft-sin — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Haft-sin",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ho-wiki-hyakinthos",
+      "id": "src_wp_hyakinthos_hyacinthus_orientalis",
       "type": "wikipedia",
       "title": "Hyacinth (mythology) — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Hyacinth_(mythology)",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ho-wiki-hyacintenwindhandel",
+      "id": "src_wp_hyacintenwindhandel_hyacinthus_orientalis",
       "type": "wikipedia",
       "title": "Hyacint (Hyazinthen-Manie 1734) — Wikipedia (NL)",
       "url": "https://nl.wikipedia.org/wiki/Hyacint_(plant)",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ho-perfumery-book",
+      "id": "src_perfumery_book_hyacinthus_orientalis",
       "type": "book",
       "title": "Steffen Arctander — Perfume and Flavor Materials of Natural Origin (1960): Hyacinth Absolute entry",
       "url": "https://archive.org/details/perfumeflavormat0000arct",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-ho-pellmyr",
+      "id": "src_pellmyr_hyacinthus_orientalis",
       "type": "monograph",
       "title": "Pellmyr O, Thien LB — Insect reproduction and floral fragrance: keys to evolution of angiosperms (Taxon, 1986)",
       "url": "https://www.jstor.org/stable/1221537",

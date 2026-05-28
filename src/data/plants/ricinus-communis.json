@@ -36,9 +36,9 @@
         "solvent": "none — cold-pressed"
       },
       "source_ids": [
-        "src-rc-wiki-en",
-        "src-rc-wiki-castoroil",
-        "src-rc-pfaf"
+        "src_wp_en_ricinus_communis",
+        "src_wp_castoroil_ricinus_communis",
+        "src_pfaf_ricinus_communis"
       ],
       "internal_external": "internal"
     },
@@ -59,8 +59,8 @@
         "solvent": "none — applied undiluted"
       },
       "source_ids": [
-        "src-rc-pfaf",
-        "src-rc-wiki-castoroil"
+        "src_pfaf_ricinus_communis",
+        "src_wp_castoroil_ricinus_communis"
       ],
       "internal_external": "external"
     },
@@ -81,8 +81,8 @@
         "solvent": "none — undiluted oil, mixed with juice"
       },
       "source_ids": [
-        "src-rc-wiki-castoroil",
-        "src-rc-pfaf"
+        "src_wp_castoroil_ricinus_communis",
+        "src_pfaf_ricinus_communis"
       ],
       "internal_external": "internal"
     },
@@ -103,7 +103,7 @@
         "solvent": "none — castor oil on flannel cloth"
       },
       "source_ids": [
-        "src-rc-pfaf"
+        "src_pfaf_ricinus_communis"
       ],
       "internal_external": "external"
     },
@@ -125,8 +125,8 @@
         "steep_min": 10
       },
       "source_ids": [
-        "src-rc-pfaf",
-        "src-rc-wiki-en"
+        "src_pfaf_ricinus_communis",
+        "src_wp_en_ricinus_communis"
       ],
       "internal_external": "internal"
     },
@@ -147,8 +147,8 @@
         "solvent": "none"
       },
       "source_ids": [
-        "src-rc-pfaf",
-        "src-rc-wiki-castoroil"
+        "src_pfaf_ricinus_communis",
+        "src_wp_castoroil_ricinus_communis"
       ],
       "internal_external": "external"
     },
@@ -169,8 +169,8 @@
         "solvent": "none"
       },
       "source_ids": [
-        "src-rc-wiki-castoroil",
-        "src-rc-wiki-en"
+        "src_wp_castoroil_ricinus_communis",
+        "src_wp_en_ricinus_communis"
       ],
       "internal_external": "external"
     }
@@ -256,7 +256,7 @@
           "en": "Additive laxative effect with risk of severe diarrhoea, volume loss and hypokalaemia."
         },
         "severity": "avoid",
-        "source_id": "src-rc-wiki-castoroil"
+        "source_id": "src_wp_castoroil_ricinus_communis"
       },
       {
         "drug_class": "Herzglykoside (Digoxin, Digitoxin)",
@@ -265,7 +265,7 @@
           "en": "Castor oil-induced hypokalaemia increases the sensitivity of cardiac muscle to digitalis glycosides — risk of arrhythmia and AV block."
         },
         "severity": "caution",
-        "source_id": "src-rc-wiki-castoroil"
+        "source_id": "src_wp_castoroil_ricinus_communis"
       },
       {
         "drug_class": "Kaliumverlust-Diuretika (Schleifendiuretika, Thiazide)",
@@ -274,7 +274,7 @@
           "en": "Additive hypokalaemia from diuretic plus castor oil diarrhoea; clinically relevant with prolonged use."
         },
         "severity": "caution",
-        "source_id": "src-rc-pfaf"
+        "source_id": "src_pfaf_ricinus_communis"
       },
       {
         "drug_class": "Lipidlösliche Medikamente (fettlösliche Vitamine A, D, E, K; orale Kontrazeptiva)",
@@ -283,7 +283,7 @@
           "en": "Castor oil can reduce absorption of fat-soluble substances by accelerating intestinal transit and forming oil emulsions — loss of efficacy possible."
         },
         "severity": "caution",
-        "source_id": "src-rc-wiki-castoroil"
+        "source_id": "src_wp_castoroil_ricinus_communis"
       },
       {
         "drug_class": "Antikoagulanzien (Cumarine, Phenprocoumon, Warfarin)",
@@ -292,28 +292,14 @@
           "en": "Reduced vitamin K absorption due to castor oil-induced accelerated intestinal transit may potentiate the anticoagulant effect — INR fluctuations possible."
         },
         "severity": "monitor",
-        "source_id": "src-rc-wiki-castoroil"
+        "source_id": "src_wp_castoroil_ricinus_communis"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Ricinus communis (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Ricinus_communis",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Ricinus (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Ricinus",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-rc-wiki-en",
+      "id": "src_wp_en_ricinus_communis",
       "type": "wikipedia",
       "title": "Ricinus communis — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Ricinus_communis",
@@ -321,23 +307,7 @@
       "language": "en"
     },
     {
-      "id": "src-rc-wiki-de",
-      "type": "wikipedia",
-      "title": "Ricinus communis — Wikipedia (DE)",
-      "url": "https://de.wikipedia.org/wiki/Ricinus_communis",
-      "accessed": "2026-05-26",
-      "language": "de"
-    },
-    {
-      "id": "src-rc-wiki-ricin",
-      "type": "wikipedia",
-      "title": "Ricin — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Ricin",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-rc-wiki-castoroil",
+      "id": "src_wp_castoroil_ricinus_communis",
       "type": "wikipedia",
       "title": "Castor oil — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Castor_oil",
@@ -345,28 +315,12 @@
       "language": "en"
     },
     {
-      "id": "src-rc-pfaf",
+      "id": "src_pfaf_ricinus_communis",
       "type": "book",
       "title": "Plants For A Future — Ricinus communis",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ricinus+communis",
       "accessed": "2026-05-26",
       "language": "en"
-    },
-    {
-      "id": "src-rc-wikidata",
-      "type": "wikidata",
-      "title": "Ricinus communis — Wikidata Q155867",
-      "url": "https://www.wikidata.org/wiki/Q155867",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-rc-bfr",
-      "type": "monograph",
-      "title": "BfR (Bundesinstitut für Risikobewertung): Giftpflanzen im Überblick — Wunderbaum (Ricinus communis)",
-      "url": "https://www.bfr.bund.de/de/giftpflanzen.html",
-      "accessed": "2026-05-26",
-      "language": "de"
     }
   ],
   "image": {

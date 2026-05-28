@@ -34,8 +34,8 @@
       "plant_part": "whole_plant",
       "evidence_level": "folk",
       "source_ids": [
-        "sp_src_nasa",
-        "sp_src_wiki_en"
+        "src_sp_src_nasa_spathiphyllum_wallisii",
+        "src_sp_src_wp_en_spathiphyllum_wallisii"
       ],
       "preparation": {
         "de": "Pflanze in bewohntem Raum aufstellen, vorzugsweise in Badezimmern oder Schlafzimmern; 1 Pflanze pro 9–10 m² empfohlen.",
@@ -57,7 +57,7 @@
       "plant_part": "whole_plant",
       "evidence_level": "clinical_trial",
       "source_ids": [
-        "sp_src_kim2014"
+        "src_sp_src_kim2014_spathiphyllum_wallisii"
       ],
       "preparation": {
         "de": "Pflanze in gut belüfteten Räumen aufstellen; regelmäßige Belüftung ergänzt die Schadstoff-Absorption.",
@@ -78,8 +78,8 @@
       "plant_part": "leaf",
       "evidence_level": "folk",
       "source_ids": [
-        "sp_src_rhs",
-        "sp_src_wiki_en"
+        "src_sp_src_rhs_spathiphyllum_wallisii",
+        "src_sp_src_wp_en_spathiphyllum_wallisii"
       ],
       "preparation": {
         "de": "Mehrere Pflanzen gruppieren; wöchentlich gießen, Staunässe vermeiden.",
@@ -100,8 +100,8 @@
       "plant_part": "flower",
       "evidence_level": "folk",
       "source_ids": [
-        "sp_src_wiki_en",
-        "sp_src_rhs"
+        "src_sp_src_wp_en_spathiphyllum_wallisii",
+        "src_sp_src_rhs_spathiphyllum_wallisii"
       ],
       "preparation": {
         "de": "Im Wohnzimmer, Büro oder Schlafzimmer aufstellen; blüht bei regelmäßig gedüngter Erde und ausreichend diffusem Licht.",
@@ -169,56 +169,28 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Einblatt (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Einblatt",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Spathiphyllum wallisii (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Spathiphyllum_wallisii",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "sp_src_nasa",
+      "id": "src_sp_src_nasa_spathiphyllum_wallisii",
       "type": "monograph",
       "title": "Interior Landscape Plants for Indoor Air Pollution Abatement — Wolverton et al., NASA TM-101766 (1989)",
       "url": "https://ntrs.nasa.gov/citations/19930073077",
       "accessed": "2026-05-24"
     },
     {
-      "id": "sp_src_kim2014",
+      "id": "src_sp_src_kim2014_spathiphyllum_wallisii",
       "type": "monograph",
       "title": "Efficiency of Volatile Formaldehyde Removal by Indoor Plants — Kim et al. (2014), HortScience, PMC4334964",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4334964/",
       "accessed": "2026-05-24"
     },
     {
-      "id": "sp_src_wiki_en",
+      "id": "src_sp_src_wp_en_spathiphyllum_wallisii",
       "type": "wikipedia",
       "title": "Spathiphyllum wallisii (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Spathiphyllum_wallisii",
       "accessed": "2026-05-24"
     },
     {
-      "id": "sp_src_wiki_de",
-      "type": "wikipedia",
-      "title": "Einblatt (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Einblatt",
-      "accessed": "2026-05-24"
-    },
-    {
-      "id": "sp_src_aspca",
-      "type": "monograph",
-      "title": "ASPCA Animal Poison Control — Peace Lily (Spathiphyllum)",
-      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
-      "accessed": "2026-05-24"
-    },
-    {
-      "id": "sp_src_rhs",
+      "id": "src_sp_src_rhs_spathiphyllum_wallisii",
       "type": "monograph",
       "title": "RHS — Spathiphyllum cultivation and toxicity advice",
       "url": "https://www.rhs.org.uk/plants/17349/spathiphyllum-wallisii/details",

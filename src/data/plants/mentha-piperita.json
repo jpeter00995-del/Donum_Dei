@@ -31,7 +31,7 @@
       "preparation": {
         "amount_dry_g": {
           "min": 1.5,
-          "max": 3.0
+          "max": 3
         },
         "water_ml": 150,
         "steep_min": 10,
@@ -362,34 +362,6 @@
   },
   "classical_quotes": [],
   "sources": [
-    {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Pfefferminze (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Pfefferminze",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Peppermint (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Peppermint",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_ema_mentha_folium",
-      "type": "monograph",
-      "title": "EMA/HMPC/572705/2014 — Mentha × piperita folium (Final Rev.1, 15 Jan 2020)",
-      "url": "https://www.ema.europa.eu/en/medicines/herbal/menthae-piperitae-folium",
-      "accessed": "2026-05-18"
-    },
-    {
-      "id": "src_ema_mentha_aetheroleum",
-      "type": "monograph",
-      "title": "EMA/HMPC/522410/2013 — Mentha × piperita aetheroleum (Final Rev.1, 15 Jan 2020)",
-      "url": "https://www.ema.europa.eu/en/medicines/herbal/menthae-piperitae-aetheroleum",
-      "accessed": "2026-05-18"
-    },
     {
       "id": "src_ema_mentha_folium_enriched",
       "type": "monograph",

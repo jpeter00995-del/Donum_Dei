@@ -39,9 +39,9 @@
         "en": "Half to one fresh onion daily, finely chopped over salad, bread or quark. Cut shortly before eating so the sulphur compounds (allicin analogues) stay fresh."
       },
       "source_ids": [
-        "kommission-e-allii-cepae",
-        "pfaf-allium-cepa",
-        "wikipedia-de-zwiebel"
+        "src_kommission_e_allii_cepae_allium_cepa",
+        "src_pfaf_allium_cepa",
+        "src_wikipedia_de_zwiebel_allium_cepa"
       ]
     },
     {
@@ -66,9 +66,9 @@
       "steep_min": 10,
       "doses_per_day": 3,
       "source_ids": [
-        "heilkraeuter-lexikon-zwiebel",
-        "pfaf-allium-cepa",
-        "wikipedia-de-zwiebel"
+        "src_heilkraeuter_lexikon_zwiebel_allium_cepa",
+        "src_pfaf_allium_cepa",
+        "src_wikipedia_de_zwiebel_allium_cepa"
       ]
     },
     {
@@ -90,9 +90,9 @@
         "en": "Used freely in soups, stews, stir-fries and sauces. Gentle sautéing preserves more quercetin than long roasting."
       },
       "source_ids": [
-        "wikipedia-en-onion",
-        "wikidata-allium-cepa",
-        "pfaf-allium-cepa"
+        "src_wikipedia_en_onion_allium_cepa",
+        "src_wikidata_allium_cepa",
+        "src_pfaf_allium_cepa"
       ]
     },
     {
@@ -116,8 +116,8 @@
       "doses_per_day": 3,
       "max_duration_weeks": 4,
       "source_ids": [
-        "heilkraeuter-lexikon-zwiebel",
-        "pfaf-allium-cepa"
+        "src_heilkraeuter_lexikon_zwiebel_allium_cepa",
+        "src_pfaf_allium_cepa"
       ]
     },
     {
@@ -138,8 +138,8 @@
         "en": "Finely dice a small onion, briefly warm to body temperature in a pan or over steam (not hot!), wrap in a thin cotton cloth and apply for 20-30 minutes. Repeat several times daily."
       },
       "source_ids": [
-        "heilkraeuter-lexikon-zwiebel",
-        "wikipedia-de-zwiebel"
+        "src_heilkraeuter_lexikon_zwiebel_allium_cepa",
+        "src_wikipedia_de_zwiebel_allium_cepa"
       ]
     },
     {
@@ -159,8 +159,8 @@
         "en": "Halve a fresh onion, place cut-side up in a bowl next to the bed. Leave overnight."
       },
       "source_ids": [
-        "heilkraeuter-lexikon-zwiebel",
-        "wikipedia-de-zwiebel"
+        "src_heilkraeuter_lexikon_zwiebel_allium_cepa",
+        "src_wikipedia_de_zwiebel_allium_cepa"
       ]
     }
   ],
@@ -212,7 +212,7 @@
           "en": "Sulphur compounds in onion inhibit platelet aggregation; clinically irrelevant in culinary amounts, but very high intake or concentrated extracts may theoretically add to bleeding tendency."
         },
         "severity": "monitor",
-        "source_id": "pfaf-allium-cepa"
+        "source_id": "src_pfaf_allium_cepa"
       },
       {
         "drug_class": "Antidiabetika",
@@ -221,7 +221,7 @@
           "en": "Onion may mildly lower blood glucose; with high-dose regular intake alongside insulin or oral antidiabetics, an additive effect is theoretically possible — monitor blood glucose."
         },
         "severity": "monitor",
-        "source_id": "wikipedia-en-onion"
+        "source_id": "src_wikipedia_en_onion_allium_cepa"
       }
     ],
     "contraindications": [
@@ -242,73 +242,45 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Zwiebel (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Zwiebel",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Onion (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Onion",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "kommission-e-allii-cepae",
+      "id": "src_kommission_e_allii_cepae_allium_cepa",
       "type": "monograph",
       "title": "Kommission E Monographie: Allii cepae bulbus (Zwiebel)",
       "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/0034.htm",
       "accessed": "2026-05-19"
     },
     {
-      "id": "pfaf-allium-cepa",
+      "id": "src_pfaf_allium_cepa",
       "type": "monograph",
       "title": "Plants for a Future — Allium cepa",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Allium+cepa",
       "accessed": "2026-05-19"
     },
     {
-      "id": "heilkraeuter-lexikon-zwiebel",
+      "id": "src_heilkraeuter_lexikon_zwiebel_allium_cepa",
       "type": "monograph",
       "title": "Heilkräuter-Lexikon: Zwiebel (Allium cepa)",
       "url": "https://heilkraeuter.de/lexikon/zwiebel.htm",
       "accessed": "2026-05-19"
     },
     {
-      "id": "wikipedia-de-zwiebel",
+      "id": "src_wikipedia_de_zwiebel_allium_cepa",
       "type": "wikipedia",
       "title": "Wikipedia (DE): Küchenzwiebel",
       "url": "https://de.wikipedia.org/wiki/K%C3%BCchenzwiebel",
       "accessed": "2026-05-19"
     },
     {
-      "id": "wikipedia-en-onion",
+      "id": "src_wikipedia_en_onion_allium_cepa",
       "type": "wikipedia",
       "title": "Wikipedia (EN): Onion (Allium cepa)",
       "url": "https://en.wikipedia.org/wiki/Onion",
       "accessed": "2026-05-19"
     },
     {
-      "id": "wikidata-allium-cepa",
+      "id": "src_wikidata_allium_cepa",
       "type": "wikidata",
       "title": "Wikidata: Allium cepa (Q81513)",
       "url": "https://www.wikidata.org/wiki/Q81513",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "commons-allium-cepa",
-      "type": "commons",
-      "title": "Wikimedia Commons: Allium cepa — Kategorie",
-      "url": "https://commons.wikimedia.org/wiki/Allium_cepa",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "escop-allii-cepae",
-      "type": "monograph",
-      "title": "ESCOP Monographs — Allii cepae bulbus (Onion)",
-      "url": "https://escop.com/downloads/allii-cepae-bulbus/",
       "accessed": "2026-05-19"
     }
   ],

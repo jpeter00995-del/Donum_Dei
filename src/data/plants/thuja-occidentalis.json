@@ -47,9 +47,9 @@
         }
       },
       "source_ids": [
-        "src-to-naser-2005",
-        "src-to-wiki-en",
-        "src-to-pfaf"
+        "src_naser_2005_thuja_occidentalis",
+        "src_wp_en_thuja_occidentalis",
+        "src_pfaf_thuja_occidentalis"
       ],
       "internal_external": "external"
     },
@@ -80,8 +80,8 @@
         }
       },
       "source_ids": [
-        "src-to-henneicke-1999",
-        "src-to-naser-2005"
+        "src_henneicke_1999_thuja_occidentalis",
+        "src_naser_2005_thuja_occidentalis"
       ],
       "internal_external": "internal"
     },
@@ -105,9 +105,9 @@
         }
       },
       "source_ids": [
-        "src-to-wiki-en",
-        "src-to-naser-2005",
-        "src-to-pfaf"
+        "src_wp_en_thuja_occidentalis",
+        "src_naser_2005_thuja_occidentalis",
+        "src_pfaf_thuja_occidentalis"
       ],
       "internal_external": "internal"
     },
@@ -130,8 +130,8 @@
         }
       },
       "source_ids": [
-        "src-to-wiki-de",
-        "src-to-naser-2005"
+        "src_wp_de_thuja_occidentalis",
+        "src_naser_2005_thuja_occidentalis"
       ],
       "internal_external": "internal"
     },
@@ -155,8 +155,8 @@
         }
       },
       "source_ids": [
-        "src-to-wiki-en",
-        "src-to-pfaf"
+        "src_wp_en_thuja_occidentalis",
+        "src_pfaf_thuja_occidentalis"
       ],
       "internal_external": "external"
     },
@@ -179,8 +179,8 @@
         }
       },
       "source_ids": [
-        "src-to-wiki-en",
-        "src-to-pfaf"
+        "src_wp_en_thuja_occidentalis",
+        "src_pfaf_thuja_occidentalis"
       ],
       "internal_external": "external"
     }
@@ -261,7 +261,7 @@
           "en": "Thujone is a GABA-A antagonist and lowers the seizure threshold — can reduce the efficacy of antiepileptics and trigger seizures. Strictly avoid internal Thuja preparations; Esberitox® in epilepsy only after medical consultation."
         },
         "severity": "avoid",
-        "source_id": "src-to-naser-2005"
+        "source_id": "src_naser_2005_thuja_occidentalis"
       },
       {
         "drug_class": "Immunsuppressiva (Ciclosporin, Tacrolimus, Methotrexat, Glukokortikoide hochdosiert, Biologika TNF-α-Blocker)",
@@ -270,7 +270,7 @@
           "en": "Esberitox® (Echinacea-Thuja-Baptisia combination) acts immunomodulatory/stimulant and may theoretically antagonise the action of immunosuppressants — avoid combination, especially in transplant recipients and patients with autoimmune disease."
         },
         "severity": "avoid",
-        "source_id": "src-to-henneicke-1999"
+        "source_id": "src_henneicke_1999_thuja_occidentalis"
       },
       {
         "drug_class": "Hepatotoxische Pharmaka (Paracetamol-Hochdosis, Amiodaron, Methotrexat, Halothan)",
@@ -279,7 +279,7 @@
           "en": "High-dose thujone is hepatotoxic in animal models; additive liver burden possible with other hepatotoxic drugs. Monitor liver transaminases with prolonged internal use."
         },
         "severity": "caution",
-        "source_id": "src-to-naser-2005"
+        "source_id": "src_naser_2005_thuja_occidentalis"
       },
       {
         "drug_class": "Anästhetika und ZNS-Depressiva (Benzodiazepine, Barbiturate, Inhalationsanästhetika)",
@@ -288,7 +288,7 @@
           "en": "Thujone antagonises GABA-A-mediated CNS inhibition — can reduce the effect of benzodiazepines and barbiturates and increase seizure risk under anaesthesia. Discontinue before scheduled surgery."
         },
         "severity": "caution",
-        "source_id": "src-to-naser-2005"
+        "source_id": "src_naser_2005_thuja_occidentalis"
       },
       {
         "drug_class": "CYP3A4-Substrate (orale Kontrazeptiva, Statine, Tacrolimus, Ciclosporin)",
@@ -297,28 +297,14 @@
           "en": "Thuja extracts contain polyphenolic and terpenoid components that modulate CYP activity in vitro — clinically not adequately studied, therefore caution with substrates with a narrow therapeutic window."
         },
         "severity": "monitor",
-        "source_id": "src-to-naser-2005"
+        "source_id": "src_naser_2005_thuja_occidentalis"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Abendländischer Lebensbaum (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Abendl%C3%A4ndischer_Lebensbaum",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Thuja occidentalis (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Thuja_occidentalis",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-to-wiki-en",
+      "id": "src_wp_en_thuja_occidentalis",
       "type": "wikipedia",
       "title": "Thuja occidentalis — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Thuja_occidentalis",
@@ -326,7 +312,7 @@
       "language": "en"
     },
     {
-      "id": "src-to-wiki-de",
+      "id": "src_wp_de_thuja_occidentalis",
       "type": "wikipedia",
       "title": "Abendländischer Lebensbaum — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Abendl%C3%A4ndischer_Lebensbaum",
@@ -334,23 +320,7 @@
       "language": "de"
     },
     {
-      "id": "src-to-wiki-thujone",
-      "type": "wikipedia",
-      "title": "Thujone — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Thujone",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-to-wikidata",
-      "type": "wikidata",
-      "title": "Thuja occidentalis — Wikidata Q147468",
-      "url": "https://www.wikidata.org/wiki/Q147468",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-to-pfaf",
+      "id": "src_pfaf_thuja_occidentalis",
       "type": "book",
       "title": "Plants for a Future — Thuja occidentalis",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Thuja+occidentalis",
@@ -358,7 +328,7 @@
       "language": "en"
     },
     {
-      "id": "src-to-naser-2005",
+      "id": "src_naser_2005_thuja_occidentalis",
       "type": "monograph",
       "title": "Thuja occidentalis (Arbor vitae): A Review of its Pharmaceutical, Pharmacological and Clinical Properties (Naser et al. 2005)",
       "url": "https://doi.org/10.1093/ecam/neh065",
@@ -366,18 +336,10 @@
       "language": "en"
     },
     {
-      "id": "src-to-henneicke-1999",
+      "id": "src_henneicke_1999_thuja_occidentalis",
       "type": "monograph",
       "title": "Efficacy and Safety of a Fixed Combination Phytomedicine in the Treatment of the Common Cold (Henneicke-von Zepelin et al. 1999, Esberitox® RCT n=263)",
       "url": "https://doi.org/10.1185/03007999909114094",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-to-ema-thujone",
-      "type": "monograph",
-      "title": "EMA/HMPC Scientific guideline on the use of herbal medicinal products containing thujone (EMA/HMPC/732886/2010 Rev.1)",
-      "url": "https://www.ema.europa.eu/en/use-herbal-medicinal-products-containing-thujone-scientific-guideline",
       "accessed": "2026-05-26",
       "language": "en"
     }

@@ -31,9 +31,9 @@
         "en": "Historical cold infusion of mistletoe herb (stems and leaves) for mild hypertension and circulatory complaints. Important: cold maceration only (8-12 h) — the cytotoxic lectins are heat-labile and a hot infusion inactivates them, but folk-medicinal constituents are also lost. Today this is of documentary interest only; therapeutic self-use is not recommended due to toxicological risks."
       },
       "source_ids": [
-        "kommission-e-1984",
-        "madaus-1938",
-        "who-monograph-2009"
+        "src_kommission_e_1984_viscum_album",
+        "src_madaus_1938_viscum_album",
+        "src_who_monograph_2009_viscum_album"
       ],
       "plant_part": "aerial_parts",
       "evidence_level": "traditional",
@@ -62,8 +62,8 @@
         "en": "Historical low-dose ethanolic tincture of mistletoe herb for circulatory weakness. Because of the cytotoxic lectins and viscotoxins, home preparation and self-use are no longer recommended today — the therapeutic margin is narrow and only suitable for prescription by a physician."
       },
       "source_ids": [
-        "kommission-e-1984",
-        "madaus-1938"
+        "src_kommission_e_1984_viscum_album",
+        "src_madaus_1938_viscum_album"
       ],
       "plant_part": "aerial_parts",
       "evidence_level": "traditional",
@@ -93,9 +93,9 @@
         "en": "Note: this use is NOT a home-made tincture but a standardised parenteral (subcutaneously injected) finished medicinal product — Iscador®, Helixor®, abnobaVISCUM®. Used in anthroposophic and integrative oncology as complementary therapy to conventional cancer treatments (surgery, chemotherapy, radiotherapy). Studies show improvements in quality of life, sleep and tumour-associated fatigue; a confirmed life-prolonging effect is contested. The ESMO complementary-oncology guideline lists mistletoe as an option for improving quality of life. To be administered only by experienced physicians."
       },
       "source_ids": [
-        "iscador-fachinfo",
-        "esmo-complementary-2024",
-        "who-monograph-2009"
+        "src_iscador_fachinfo_viscum_album",
+        "src_esmo_complementary_2024_viscum_album",
+        "src_who_monograph_2009_viscum_album"
       ],
       "plant_part": "aerial_parts",
       "evidence_level": "clinical_trial"
@@ -112,8 +112,8 @@
         "en": "Folk-medicinal use: cold compress of mistletoe-herb decoction on weeping skin rashes and eczema. Evidence weak, traditional household use — seek medical advice for extensive or unclear skin lesions."
       },
       "source_ids": [
-        "madaus-1938",
-        "heilkraeuter-mistel"
+        "src_madaus_1938_viscum_album",
+        "src_heilkraeuter_mistel_viscum_album"
       ],
       "plant_part": "aerial_parts",
       "evidence_level": "folk",
@@ -134,8 +134,8 @@
         "en": "Folk-medicinal bath additive of mistletoe herb for relaxation and nervous tension. Tradition mainly in Swiss and southern German household medicine (e.g. Künzle); clinical evidence is lacking."
       },
       "source_ids": [
-        "heilkraeuter-mistel",
-        "madaus-1938"
+        "src_heilkraeuter_mistel_viscum_album",
+        "src_madaus_1938_viscum_album"
       ],
       "plant_part": "aerial_parts",
       "evidence_level": "folk",
@@ -193,7 +193,7 @@
           "en": "Mistletoe constituents may affect blood clotting; combined with vitamin K antagonists, DOACs or antiplatelet drugs an increased bleeding risk is possible."
         },
         "severity": "caution",
-        "source_id": "who-monograph-2009"
+        "source_id": "src_who_monograph_2009_viscum_album"
       },
       {
         "drug_class": "Immunsuppressiva / Immunosuppressants",
@@ -202,7 +202,7 @@
           "en": "Mistletoe lectins are immunomodulatory (T-cell and cytokine stimulation) and can counteract the effect of immunosuppressants (e.g. ciclosporin, tacrolimus, biologicals)."
         },
         "severity": "avoid",
-        "source_id": "esmo-complementary-2024"
+        "source_id": "src_esmo_complementary_2024_viscum_album"
       },
       {
         "drug_class": "MAO-Hemmer / MAO inhibitors",
@@ -211,7 +211,7 @@
           "en": "Traces of tyramine and biogenic amines have been reported in mistletoe; theoretical risk of hypertensive crises with concurrent MAO inhibitor therapy."
         },
         "severity": "caution",
-        "source_id": "who-monograph-2009"
+        "source_id": "src_who_monograph_2009_viscum_album"
       },
       {
         "drug_class": "Antihypertensiva / Antihypertensives",
@@ -220,7 +220,7 @@
           "en": "Mistletoe preparations can lower blood pressure; combined with antihypertensives a synergistic hypotensive effect is possible — monitor blood pressure closely."
         },
         "severity": "monitor",
-        "source_id": "kommission-e-1984"
+        "source_id": "src_kommission_e_1984_viscum_album"
       }
     ],
     "max_continuous_use_weeks": 4,
@@ -254,87 +254,45 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Mistel (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Mistel",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Viscum album (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Viscum_album",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "kommission-e-1984",
+      "id": "src_kommission_e_1984_viscum_album",
       "type": "monograph",
       "title": "Kommission E Monographie: Visci albi herba (Mistelkraut), Bundesanzeiger Nr. 228 vom 05.12.1984",
       "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/0228.htm",
       "accessed": "2026-05-19"
     },
     {
-      "id": "who-monograph-2009",
+      "id": "src_who_monograph_2009_viscum_album",
       "type": "monograph",
       "title": "WHO Monographs on Selected Medicinal Plants, Vol. 4: Herba Visci",
       "url": "https://apps.who.int/iris/handle/10665/44053",
       "accessed": "2026-05-19"
     },
     {
-      "id": "iscador-fachinfo",
+      "id": "src_iscador_fachinfo_viscum_album",
       "type": "monograph",
       "title": "Fachinformationen Iscador®, Helixor®, abnobaVISCUM® (Mistelextrakt-Fertigarzneimittel)",
       "url": "https://www.fachinfo.de/suche/fi/iscador",
       "accessed": "2026-05-19"
     },
     {
-      "id": "esmo-complementary-2024",
+      "id": "src_esmo_complementary_2024_viscum_album",
       "type": "monograph",
       "title": "ESMO Clinical Practice Guideline: Use of Complementary Medicine in Cancer Care (mistletoe section)",
       "url": "https://www.esmo.org/guidelines/supportive-and-palliative-care/complementary-medicine",
       "accessed": "2026-05-19"
     },
     {
-      "id": "madaus-1938",
+      "id": "src_madaus_1938_viscum_album",
       "type": "book",
       "title": "Gerhard Madaus, Lehrbuch der biologischen Heilmittel, Bd. III, Viscum album, Leipzig 1938 (PD)",
       "url": "https://www.henriettes-herb.com/eclectic/madaus/viscum.html",
       "accessed": "2026-05-19"
     },
     {
-      "id": "pfaf-viscum",
-      "type": "monograph",
-      "title": "Plants For A Future: Viscum album",
-      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Viscum+album",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "heilkraeuter-mistel",
+      "id": "src_heilkraeuter_mistel_viscum_album",
       "type": "monograph",
       "title": "Heilkräuter-Lexikon: Mistel (Viscum album)",
       "url": "https://www.heilkraeuter.de/lexikon/mistel.htm",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "wikipedia-de",
-      "type": "wikipedia",
-      "title": "Wikipedia DE: Mistel (Viscum album)",
-      "url": "https://de.wikipedia.org/wiki/Mistel",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "wikipedia-en",
-      "type": "wikipedia",
-      "title": "Wikipedia EN: Viscum album",
-      "url": "https://en.wikipedia.org/wiki/Viscum_album",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "wikidata-viscum",
-      "type": "wikidata",
-      "title": "Wikidata: Viscum album (Q26771)",
-      "url": "https://www.wikidata.org/wiki/Q26771",
       "accessed": "2026-05-19"
     }
   ],

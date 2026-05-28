@@ -37,8 +37,8 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-ab-wiki-en",
-        "src-ab-pfaf"
+        "src_wp_en_atropa_belladonna",
+        "src_pfaf_atropa_belladonna"
       ],
       "internal_external": "internal"
     },
@@ -59,8 +59,8 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-ab-wiki-en",
-        "src-ab-wiki-atropine"
+        "src_wp_en_atropa_belladonna",
+        "src_wp_atropine_atropa_belladonna"
       ],
       "internal_external": "internal"
     },
@@ -82,8 +82,8 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-ab-wiki-atropine",
-        "src-ab-wiki-en"
+        "src_wp_atropine_atropa_belladonna",
+        "src_wp_en_atropa_belladonna"
       ],
       "internal_external": "internal"
     },
@@ -104,8 +104,8 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-ab-wiki-atropine",
-        "src-ab-wiki-scopolamine"
+        "src_wp_atropine_atropa_belladonna",
+        "src_wp_scopolamine_atropa_belladonna"
       ],
       "internal_external": "internal"
     },
@@ -126,8 +126,8 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-ab-pfaf",
-        "src-ab-wiki-en"
+        "src_pfaf_atropa_belladonna",
+        "src_wp_en_atropa_belladonna"
       ],
       "internal_external": "internal"
     },
@@ -149,8 +149,8 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-ab-wiki-en",
-        "src-ab-wikidata"
+        "src_wp_en_atropa_belladonna",
+        "src_wikidata_atropa_belladonna"
       ],
       "internal_external": "internal"
     },
@@ -171,8 +171,8 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-ab-wiki-en",
-        "src-ab-pfaf"
+        "src_wp_en_atropa_belladonna",
+        "src_pfaf_atropa_belladonna"
       ],
       "internal_external": "internal"
     }
@@ -255,7 +255,7 @@
           "en": "Additive anticholinergic effect: enhanced dry mouth, urinary retention, tachycardia, cognitive impairment up to central anticholinergic syndrome."
         },
         "severity": "avoid",
-        "source_id": "src-ab-wiki-atropine"
+        "source_id": "src_wp_atropine_atropa_belladonna"
       },
       {
         "drug_class": "Trizyklische Antidepressiva (Amitriptylin, Imipramin)",
@@ -264,7 +264,7 @@
           "en": "Tricyclics have inherent anticholinergic properties; combination with belladonna alkaloids substantially potentiates anticholinergic side effects."
         },
         "severity": "caution",
-        "source_id": "src-ab-wiki-atropine"
+        "source_id": "src_wp_atropine_atropa_belladonna"
       },
       {
         "drug_class": "MAO-Hemmer (Phenelzin, Tranylcypromin, Selegilin)",
@@ -273,7 +273,7 @@
           "en": "MAO inhibitors may potentiate the effect and toxicity of belladonna alkaloids through reduced breakdown; central nervous system excitation possible."
         },
         "severity": "caution",
-        "source_id": "src-ab-wiki-scopolamine"
+        "source_id": "src_wp_scopolamine_atropa_belladonna"
       },
       {
         "drug_class": "Antihistaminika der 1. Generation (Diphenhydramin, Promethazin)",
@@ -282,28 +282,14 @@
           "en": "Many first-generation H1 antihistamines have anticholinergic properties; additive effects when combined with belladonna alkaloids."
         },
         "severity": "monitor",
-        "source_id": "src-ab-wiki-atropine"
+        "source_id": "src_wp_atropine_atropa_belladonna"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Schwarze Tollkirsche (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Schwarze_Tollkirsche",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Atropa bella-donna (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Atropa_bella-donna",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-ab-wiki-en",
+      "id": "src_wp_en_atropa_belladonna",
       "type": "wikipedia",
       "title": "Atropa belladonna — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Atropa_belladonna",
@@ -311,15 +297,7 @@
       "language": "en"
     },
     {
-      "id": "src-ab-wiki-de",
-      "type": "wikipedia",
-      "title": "Tollkirsche — Wikipedia (DE)",
-      "url": "https://de.wikipedia.org/wiki/Tollkirsche",
-      "accessed": "2026-05-24",
-      "language": "de"
-    },
-    {
-      "id": "src-ab-wiki-atropine",
+      "id": "src_wp_atropine_atropa_belladonna",
       "type": "wikipedia",
       "title": "Atropine — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Atropine",
@@ -327,7 +305,7 @@
       "language": "en"
     },
     {
-      "id": "src-ab-wiki-scopolamine",
+      "id": "src_wp_scopolamine_atropa_belladonna",
       "type": "wikipedia",
       "title": "Scopolamine — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Scopolamine",
@@ -335,7 +313,7 @@
       "language": "en"
     },
     {
-      "id": "src-ab-pfaf",
+      "id": "src_pfaf_atropa_belladonna",
       "type": "book",
       "title": "Plants for a Future — Atropa belladonna",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Atropa+belladonna",
@@ -343,18 +321,10 @@
       "language": "en"
     },
     {
-      "id": "src-ab-wikidata",
+      "id": "src_wikidata_atropa_belladonna",
       "type": "wikidata",
       "title": "Atropa belladonna — Wikidata Q48928",
       "url": "https://www.wikidata.org/wiki/Q48928",
-      "accessed": "2026-05-24",
-      "language": "en"
-    },
-    {
-      "id": "src-ab-wiki-hyoscyamine",
-      "type": "wikipedia",
-      "title": "Hyoscyamine — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Hyoscyamine",
       "accessed": "2026-05-24",
       "language": "en"
     }

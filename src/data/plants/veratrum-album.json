@@ -37,8 +37,8 @@
         "solvent": "water"
       },
       "source_ids": [
-        "src-va-wiki-de",
-        "src-va-wiki-en"
+        "src_wp_de_veratrum_album",
+        "src_wp_en_veratrum_album"
       ],
       "internal_external": "internal"
     },
@@ -59,8 +59,8 @@
         "solvent": "wine (historical)"
       },
       "source_ids": [
-        "src-va-wiki-de",
-        "src-va-wiki-genus"
+        "src_wp_de_veratrum_album",
+        "src_wp_genus_veratrum_album"
       ],
       "internal_external": "internal"
     },
@@ -82,8 +82,8 @@
         "solvent": "n/a"
       },
       "source_ids": [
-        "src-va-wiki-de",
-        "src-va-pfaf"
+        "src_wp_de_veratrum_album",
+        "src_pfaf_veratrum_album"
       ],
       "internal_external": "external"
     },
@@ -105,8 +105,8 @@
         "solvent": "fat or beeswax base"
       },
       "source_ids": [
-        "src-va-pfaf",
-        "src-va-wiki-de"
+        "src_pfaf_veratrum_album",
+        "src_wp_de_veratrum_album"
       ],
       "internal_external": "external"
     },
@@ -127,8 +127,8 @@
         "solvent": "water spray (historical)"
       },
       "source_ids": [
-        "src-va-wiki-en",
-        "src-va-pfaf"
+        "src_wp_en_veratrum_album",
+        "src_pfaf_veratrum_album"
       ],
       "internal_external": "external"
     },
@@ -149,8 +149,8 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-va-wiki-genus",
-        "src-va-wiki-en"
+        "src_wp_genus_veratrum_album",
+        "src_wp_en_veratrum_album"
       ],
       "internal_external": "internal"
     },
@@ -171,8 +171,8 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-va-wiki-de",
-        "src-va-wikidata"
+        "src_wp_de_veratrum_album",
+        "src_wikidata_veratrum_album"
       ],
       "internal_external": "internal"
     },
@@ -193,8 +193,8 @@
         "solvent": "synthetic drug (Vismodegib 150 mg capsule)"
       },
       "source_ids": [
-        "src-va-wiki-vismodegib",
-        "src-va-wiki-cyclopamine"
+        "src_wp_vismodegib_veratrum_album",
+        "src_wp_cyclopamine_veratrum_album"
       ],
       "internal_external": "internal"
     }
@@ -276,7 +276,7 @@
           "en": "Additive cardiotoxicity: Veratrum alkaloids activate sodium channels and increase vagal activity (Bezold-Jarisch); combined with digitalis, increased risk of bradyarrhythmias, AV block, and ventricular arrhythmias."
         },
         "severity": "avoid",
-        "source_id": "src-va-wiki-en"
+        "source_id": "src_wp_en_veratrum_album"
       },
       {
         "drug_class": "Antihypertensiva (ACE-Hemmer, Betablocker, Calciumkanalblocker, Diuretika)",
@@ -285,7 +285,7 @@
           "en": "Veratrum alkaloids are strongly hypotensive; combination with antihypertensives causes severe hypotension and collapse. Historically Veratrum was used clinically for exactly this — now clearly contraindicated."
         },
         "severity": "avoid",
-        "source_id": "src-va-wiki-genus"
+        "source_id": "src_wp_genus_veratrum_album"
       },
       {
         "drug_class": "Antiarrhythmika (Klasse I — Chinidin, Lidocain; Klasse III — Amiodaron, Sotalol)",
@@ -294,7 +294,7 @@
           "en": "Pharmacodynamic interaction at sodium channels and AV node — additive or antagonistic effects uncontrollable; life-threatening arrhythmias possible."
         },
         "severity": "avoid",
-        "source_id": "src-va-wiki-en"
+        "source_id": "src_wp_en_veratrum_album"
       },
       {
         "drug_class": "Hedgehog-Pathway-Inhibitoren (Vismodegib, Sonidegib)",
@@ -303,28 +303,14 @@
           "en": "Cyclopamine from Veratrum inhibits the same Smoothened receptor as vismodegib/sonidegib; combined exposure (e.g. via phytotherapy attempts) could additively inhibit the hedgehog pathway and intensify Smoothened-related side effects (muscle cramps, ageusia, alopecia)."
         },
         "severity": "avoid",
-        "source_id": "src-va-wiki-vismodegib"
+        "source_id": "src_wp_vismodegib_veratrum_album"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Weißer Germer (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Wei%C3%9Fer_Germer",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Veratrum album (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Veratrum_album",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-va-wiki-de",
+      "id": "src_wp_de_veratrum_album",
       "type": "wikipedia",
       "title": "Weisser Germer — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Wei%C3%9Fer_Germer",
@@ -332,7 +318,7 @@
       "language": "de"
     },
     {
-      "id": "src-va-wiki-en",
+      "id": "src_wp_en_veratrum_album",
       "type": "wikipedia",
       "title": "Veratrum album — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Veratrum_album",
@@ -340,7 +326,7 @@
       "language": "en"
     },
     {
-      "id": "src-va-wiki-genus",
+      "id": "src_wp_genus_veratrum_album",
       "type": "wikipedia",
       "title": "Veratrum (genus) — Wikipedia (EN) [Anticyra-Mythos, antihypertensive Forschung]",
       "url": "https://en.wikipedia.org/wiki/Veratrum",
@@ -348,7 +334,7 @@
       "language": "en"
     },
     {
-      "id": "src-va-pfaf",
+      "id": "src_pfaf_veratrum_album",
       "type": "book",
       "title": "Plants for a Future — Veratrum album",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Veratrum+album",
@@ -356,7 +342,7 @@
       "language": "en"
     },
     {
-      "id": "src-va-wikidata",
+      "id": "src_wikidata_veratrum_album",
       "type": "wikidata",
       "title": "Veratrum album — Wikidata Q157547",
       "url": "https://www.wikidata.org/wiki/Q157547",
@@ -364,7 +350,7 @@
       "language": "en"
     },
     {
-      "id": "src-va-wiki-cyclopamine",
+      "id": "src_wp_cyclopamine_veratrum_album",
       "type": "wikipedia",
       "title": "Cyclopamine — Wikipedia (EN) [Idaho-Lamm-Cyclopia 1957, Hedgehog-Signalweg]",
       "url": "https://en.wikipedia.org/wiki/Cyclopamine",
@@ -372,20 +358,12 @@
       "language": "en"
     },
     {
-      "id": "src-va-wiki-vismodegib",
+      "id": "src_wp_vismodegib_veratrum_album",
       "type": "wikipedia",
       "title": "Vismodegib (Erivedge) — Wikipedia (EN) [FDA-Zulassung 30.01.2012, Basalzellkarzinom]",
       "url": "https://en.wikipedia.org/wiki/Vismodegib",
       "accessed": "2026-05-26",
       "language": "en"
-    },
-    {
-      "id": "src-va-bfr-giftpflanzen",
-      "type": "monograph",
-      "title": "BfR (Bundesinstitut für Risikobewertung): Steckbriefe giftiger Pflanzen — Verzeichnis (Weisser Germer / Veratrum album als typische Giftpflanze)",
-      "url": "https://www.bfr.bund.de/de/giftpflanzen.html",
-      "accessed": "2026-05-26",
-      "language": "de"
     }
   ],
   "image": {

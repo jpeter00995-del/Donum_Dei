@@ -36,7 +36,7 @@
         "en": "Pour 150 ml boiling water over 1-2 tsp (ca. 1-1.5 g) dried shepherd's purse herb, steep covered 10 min, strain. Daily dose 10-15 g of drug in 2-3 portions, as a cure around menstruation (3-5 days before until end of bleeding). Freshly prepared — the hemostatic action weakens on prolonged storage of the drug."
       },
       "amount_dry_g": {
-        "min": 1.0,
+        "min": 1,
         "max": 1.5
       },
       "water_ml": 150,
@@ -68,7 +68,7 @@
         "en": "Chop fresh flowering herb, fill into screw-top jar, cover 1:5 with 40-50 % alcohol (vodka), macerate 2-3 weeks in warm dark place, shake occasionally, strain. Dosage: 20-30 drops 3x daily in a little water, acutely every 2 hours until bleeding stops (max. 5 days). Fresh-herb tincture is markedly more effective than that from dried herb."
       },
       "amount_ml": {
-        "min": 1.0,
+        "min": 1,
         "max": 1.5
       },
       "doses_per_day": 3,
@@ -98,8 +98,8 @@
         "en": "Prepare strong infusion from 2 tbsp (ca. 4 g) herb per 250 ml boiling water, steep 15 min, strain, use lukewarm. Soak linen cloth, wring out, apply 15-20 min, 2-3x daily. Alternatively crush fresh herb and apply directly ('green poultice'). For nosebleed: soak small cotton tampon with tincture or cold infusion and insert."
       },
       "amount_dry_g": {
-        "min": 4.0,
-        "max": 6.0
+        "min": 4,
+        "max": 6
       },
       "water_ml": 250,
       "steep_min": 15,
@@ -151,8 +151,8 @@
         "en": "Infusion from 2 tsp (ca. 3 g) dried herb per 200 ml boiling water, steep 10 min, strain, cool. Gargle or rinse mouth 2-4x daily for 1-2 min, then spit out (do not swallow with mouth wounds). Alternatively 1 tsp tincture in 100 ml lukewarm water."
       },
       "amount_dry_g": {
-        "min": 3.0,
-        "max": 4.0
+        "min": 3,
+        "max": 4
       },
       "water_ml": 200,
       "steep_min": 10,
@@ -181,7 +181,7 @@
         "en": "Pour 150 ml boiling water over 1 tsp (ca. 1 g) dried herb, steep covered 10 min, strain. Drink one cup 2x daily, as a cure for 2-3 weeks. With diagnosed hypertension always under medical supervision — no replacement for antihypertensive therapy."
       },
       "amount_dry_g": {
-        "min": 1.0,
+        "min": 1,
         "max": 1.5
       },
       "water_ml": 150,
@@ -311,20 +311,6 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gewöhnliches Hirtentäschel (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliches_Hirtent%C3%A4schel",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Capsella bursa-pastoris (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Capsella_bursa-pastoris",
-      "accessed": "2026-05-16"
-    },
-    {
       "id": "src_kommission_e_capsella",
       "type": "monograph",
       "title": "Kommission E Monographie (positiv) — Bursae pastoris herba (Hirtentäschelkraut), Bundesanzeiger Nr. 173 vom 18.09.1986; Anwendungsgebiete: symptomatisch bei Menorrhagien und Metrorrhagien sowie äusserlich bei Nasenbluten und oberflächlichen blutenden Hautverletzungen",
@@ -371,27 +357,6 @@
       "type": "wikipedia",
       "title": "Wikipedia (DE): Gewöhnliches Hirtentäschel (Capsella bursa-pastoris)",
       "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliches_Hirtent%C3%A4schel",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "src_wikipedia_en",
-      "type": "wikipedia",
-      "title": "Wikipedia (EN): Capsella bursa-pastoris (Shepherd's Purse)",
-      "url": "https://en.wikipedia.org/wiki/Capsella_bursa-pastoris",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "src_wikidata",
-      "type": "wikidata",
-      "title": "Wikidata: Capsella bursa-pastoris (Q156801)",
-      "url": "https://www.wikidata.org/wiki/Q156801",
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "src_commons",
-      "type": "commons",
-      "title": "Wikimedia Commons — Category: Capsella bursa-pastoris",
-      "url": "https://commons.wikimedia.org/wiki/Category:Capsella_bursa-pastoris",
       "accessed": "2026-05-19"
     }
   ],

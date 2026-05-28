@@ -35,7 +35,7 @@
       "plant_part": "whole_plant",
       "evidence_level": "clinical_trial",
       "source_ids": [
-        "zz_src_kim2014"
+        "src_src_kim2014_zamioculcas_zamiifolia"
       ],
       "preparation": {
         "de": "Pflanze in Raum aufstellen; funktioniert auch bei sehr wenig Licht. Kein direktes Sonnenlicht nötig.",
@@ -57,8 +57,8 @@
       "plant_part": "whole_plant",
       "evidence_level": "folk",
       "source_ids": [
-        "zz_src_nasa",
-        "zz_src_wiki_en"
+        "src_src_nasa_zamioculcas_zamiifolia",
+        "src_src_wp_en_zamioculcas_zamiifolia"
       ],
       "preparation": {
         "de": "1 Pflanze pro 9–10 m² als Faustregel; in Büros mit synthetischen Materialien empfohlen.",
@@ -79,8 +79,8 @@
       "plant_part": "whole_plant",
       "evidence_level": "folk",
       "source_ids": [
-        "zz_src_wiki_en",
-        "zz_src_rhs"
+        "src_src_wp_en_zamioculcas_zamiifolia",
+        "src_src_rhs_zamioculcas_zamiifolia"
       ],
       "preparation": {
         "de": "In Topf mit sehr gut drainierender Erde stellen; nur gießen wenn Substrat durchgetrocknet ist.",
@@ -148,56 +148,28 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Zamioculcas zamiifolia (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Zamioculcas_zamiifolia",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Zamioculcas (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Zamioculcas",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "zz_src_kim2014",
+      "id": "src_src_kim2014_zamioculcas_zamiifolia",
       "type": "monograph",
       "title": "Efficiency of Volatile Formaldehyde Removal by Indoor Plants — Kim et al. (2014), HortScience, PMC4334964",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4334964/",
       "accessed": "2026-05-24"
     },
     {
-      "id": "zz_src_nasa",
+      "id": "src_src_nasa_zamioculcas_zamiifolia",
       "type": "monograph",
       "title": "Interior Landscape Plants for Indoor Air Pollution Abatement — Wolverton et al., NASA TM-101766 (1989)",
       "url": "https://ntrs.nasa.gov/citations/19930073077",
       "accessed": "2026-05-24"
     },
     {
-      "id": "zz_src_wiki_en",
+      "id": "src_src_wp_en_zamioculcas_zamiifolia",
       "type": "wikipedia",
       "title": "Zamioculcas zamiifolia (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Zamioculcas",
       "accessed": "2026-05-24"
     },
     {
-      "id": "zz_src_wiki_de",
-      "type": "wikipedia",
-      "title": "Glücksfeder (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gl%C3%BCcksfeder",
-      "accessed": "2026-05-24"
-    },
-    {
-      "id": "zz_src_aspca",
-      "type": "monograph",
-      "title": "ASPCA Animal Poison Control — ZZ Plant (Zamioculcas zamiifolia)",
-      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/zz-plant",
-      "accessed": "2026-05-24"
-    },
-    {
-      "id": "zz_src_rhs",
+      "id": "src_src_rhs_zamioculcas_zamiifolia",
       "type": "monograph",
       "title": "RHS — Zamioculcas zamiifolia cultivation advice",
       "url": "https://www.rhs.org.uk/plants/92095/zamioculcas-zamiifolia/details",

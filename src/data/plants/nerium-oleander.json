@@ -36,9 +36,9 @@
         "solvent": "70% ethanol"
       },
       "source_ids": [
-        "src-no-wiki-en",
-        "src-no-wiki-oleandrin",
-        "src-no-pfaf"
+        "src_wp_en_nerium_oleander",
+        "src_wp_oleandrin_nerium_oleander",
+        "src_pfaf_nerium_oleander"
       ],
       "internal_external": "internal"
     },
@@ -59,8 +59,8 @@
         "solvent": "olive oil / lard base"
       },
       "source_ids": [
-        "src-no-pfaf",
-        "src-no-wiki-en"
+        "src_pfaf_nerium_oleander",
+        "src_wp_en_nerium_oleander"
       ],
       "internal_external": "external"
     },
@@ -81,8 +81,8 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-no-wiki-en",
-        "src-no-wikidata"
+        "src_wp_en_nerium_oleander",
+        "src_wikidata_nerium_oleander"
       ],
       "internal_external": "internal"
     },
@@ -103,7 +103,7 @@
         "solvent": "sesame oil base"
       },
       "source_ids": [
-        "src-no-pfaf"
+        "src_pfaf_nerium_oleander"
       ],
       "internal_external": "external"
     },
@@ -124,7 +124,7 @@
         "solvent": "wine / 12% ethanol"
       },
       "source_ids": [
-        "src-no-wiki-en"
+        "src_wp_en_nerium_oleander"
       ],
       "internal_external": "internal"
     },
@@ -145,8 +145,8 @@
         "solvent": "ethanol-water mixture"
       },
       "source_ids": [
-        "src-no-wiki-oleandrin",
-        "src-no-wiki-en"
+        "src_wp_oleandrin_nerium_oleander",
+        "src_wp_en_nerium_oleander"
       ],
       "internal_external": "internal"
     }
@@ -234,7 +234,7 @@
           "en": "Additive inhibition of Na+/K+-ATPase and additive cardiac inotropy — cumulative toxicity with risk of AV block, ventricular arrhythmias and cardiac arrest. Concurrent use must be absolutely avoided."
         },
         "severity": "avoid",
-        "source_id": "src-no-wiki-oleandrin"
+        "source_id": "src_wp_oleandrin_nerium_oleander"
       },
       {
         "drug_class": "Kaliumverlust-Diuretika (Thiazide, Schleifendiuretika wie Furosemid)",
@@ -243,7 +243,7 @@
           "en": "Diuretic-induced hypokalaemia substantially increases cardiac glycoside sensitivity of myocardial cells — poisoning possible at otherwise tolerated doses."
         },
         "severity": "avoid",
-        "source_id": "src-no-wiki-en"
+        "source_id": "src_wp_en_nerium_oleander"
       },
       {
         "drug_class": "Intravenöses Calcium / Calcium-Salze",
@@ -252,7 +252,7 @@
           "en": "Intravenous calcium during cardiac glycoside poisoning is classically contraindicated (stone heart phenomenon): cardenolides block Na+/K+-ATPase and intracellular calcium rises; additional IV calcium may precipitate tetanic contracture and cardiac arrest."
         },
         "severity": "avoid",
-        "source_id": "src-no-wiki-en"
+        "source_id": "src_wp_en_nerium_oleander"
       },
       {
         "drug_class": "Beta-Blocker und Calciumkanal-Blocker (Verapamil, Diltiazem)",
@@ -261,7 +261,7 @@
           "en": "Additive negative chronotropic and dromotropic effects at the sinus and AV node intensify glycoside-induced bradycardia and AV block risk."
         },
         "severity": "avoid",
-        "source_id": "src-no-wiki-oleandrin"
+        "source_id": "src_wp_oleandrin_nerium_oleander"
       },
       {
         "drug_class": "QT-Zeit-verlängernde Medikamente (Antiarrhythmika Klasse Ia/III, Makrolide, Fluorchinolone, Antipsychotika)",
@@ -270,7 +270,7 @@
           "en": "Cardenolides can secondarily affect the QT interval; in combination, the risk of torsade de pointes and ventricular arrhythmias rises markedly."
         },
         "severity": "caution",
-        "source_id": "src-no-wiki-en"
+        "source_id": "src_wp_en_nerium_oleander"
       },
       {
         "drug_class": "Systemische Kortikosteroide und Laxanzien (chronisch)",
@@ -279,28 +279,14 @@
           "en": "Cause potassium depletion and thereby increased sensitivity to cardenolides — analogous to diuretics."
         },
         "severity": "caution",
-        "source_id": "src-no-wiki-en"
+        "source_id": "src_wp_en_nerium_oleander"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Oleander (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Oleander",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Nerium (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Nerium",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-no-wiki-en",
+      "id": "src_wp_en_nerium_oleander",
       "type": "wikipedia",
       "title": "Nerium oleander — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Nerium_oleander",
@@ -308,15 +294,7 @@
       "language": "en"
     },
     {
-      "id": "src-no-wiki-de",
-      "type": "wikipedia",
-      "title": "Oleander — Wikipedia (DE)",
-      "url": "https://de.wikipedia.org/wiki/Oleander",
-      "accessed": "2026-05-26",
-      "language": "de"
-    },
-    {
-      "id": "src-no-wiki-oleandrin",
+      "id": "src_wp_oleandrin_nerium_oleander",
       "type": "wikipedia",
       "title": "Oleandrin — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Oleandrin",
@@ -324,7 +302,7 @@
       "language": "en"
     },
     {
-      "id": "src-no-pfaf",
+      "id": "src_pfaf_nerium_oleander",
       "type": "book",
       "title": "Plants For A Future — Nerium oleander",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Nerium+oleander",
@@ -332,20 +310,12 @@
       "language": "en"
     },
     {
-      "id": "src-no-wikidata",
+      "id": "src_wikidata_nerium_oleander",
       "type": "wikidata",
       "title": "Nerium oleander — Wikidata Q155833",
       "url": "https://www.wikidata.org/wiki/Q155833",
       "accessed": "2026-05-26",
       "language": "en"
-    },
-    {
-      "id": "src-no-bfr",
-      "type": "monograph",
-      "title": "BfR (Bundesinstitut für Risikobewertung): Giftpflanzen im Überblick — Oleander (Nerium oleander)",
-      "url": "https://www.bfr.bund.de/de/giftpflanzen.html",
-      "accessed": "2026-05-26",
-      "language": "de"
     }
   ],
   "image": {

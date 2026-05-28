@@ -37,8 +37,8 @@
         "solvent": "Wasserdampfdestillat / steam distillate"
       },
       "source_ids": [
-        "src-pl-grieve",
-        "src-pl-wiki-cherrylaurelwater"
+        "src_grieve_prunus_laurocerasus",
+        "src_wp_cherrylaurelwater_prunus_laurocerasus"
       ],
       "internal_external": "internal"
     },
@@ -59,8 +59,8 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-pl-grieve",
-        "src-pl-pfaf"
+        "src_grieve_prunus_laurocerasus",
+        "src_pfaf_prunus_laurocerasus"
       ],
       "internal_external": "internal"
     },
@@ -78,8 +78,8 @@
         "en": "Folk-medicinal use of cool poultices of crushed fresh leaves for skin rashes, insect bites and minor inflammations. The antiseptic effect was attributed to released HCN — obsolete today due to percutaneous absorption risk and unpredictable dose. Pure ethnographic documentation, no application recommendation."
       },
       "source_ids": [
-        "src-pl-pfaf",
-        "src-pl-grieve"
+        "src_pfaf_prunus_laurocerasus",
+        "src_grieve_prunus_laurocerasus"
       ],
       "internal_external": "external"
     },
@@ -96,7 +96,7 @@
         "en": "Sporadically documented use in the 19th century of weak cherry laurel leaf infusions as an eye bath for conjunctival irritation. The application was already classified as risky in Victorian England and is strictly contraindicated today — eye contact with HCN-containing solutions causes corneal damage and systemic absorption via mucous membranes. Pure historical documentation."
       },
       "source_ids": [
-        "src-pl-pfaf"
+        "src_pfaf_prunus_laurocerasus"
       ],
       "internal_external": "external"
     },
@@ -113,8 +113,8 @@
         "en": "Food-historical use of a few drops of cherry laurel water as bitter almond flavour substitute in liqueurs, puddings and preserves (especially in Southern and Eastern Europe, 19th/early 20th century). Due to poisoning cases, use as a food flavouring is now strictly limited in the EU by Flavouring Regulation (EC) No 1334/2008 (max. 1 mg HCN/kg in foods). Domestic culinary use absolutely not recommended."
       },
       "source_ids": [
-        "src-pl-pfaf",
-        "src-pl-wiki-cherrylaurelwater"
+        "src_pfaf_prunus_laurocerasus",
+        "src_wp_cherrylaurelwater_prunus_laurocerasus"
       ],
       "internal_external": "internal"
     },
@@ -136,8 +136,8 @@
         "solvent": "ethanol/water"
       },
       "source_ids": [
-        "src-pl-wikidata",
-        "src-pl-grieve"
+        "src_wikidata_prunus_laurocerasus",
+        "src_grieve_prunus_laurocerasus"
       ],
       "internal_external": "internal"
     },
@@ -154,8 +154,8 @@
         "en": "Historical use of dried leaves for insect killing in collection containers (butterfly boxes, beetle collections) — released cyanide kills insects within minutes ('killing jar' of entomological practice). This use is not medicinal but documents HCN release in a practical application. Pure documentation, hazardous practice."
       },
       "source_ids": [
-        "src-pl-wiki-en",
-        "src-pl-pfaf"
+        "src_wp_en_prunus_laurocerasus",
+        "src_pfaf_prunus_laurocerasus"
       ],
       "internal_external": "external"
     }
@@ -234,7 +234,7 @@
           "en": "Cyanide from Prunus laurocerasus preparations inhibits cytochrome-c oxidase and blocks cellular respiration; opioids additionally depress central respiratory regulation. Combination leads to rapidly progressive hypoxia with unconsciousness and respiratory arrest."
         },
         "severity": "avoid",
-        "source_id": "src-pl-grieve"
+        "source_id": "src_grieve_prunus_laurocerasus"
       },
       {
         "drug_class": "Benzodiazepine und Z-Substanzen (Diazepam, Lorazepam, Zolpidem)",
@@ -243,7 +243,7 @@
           "en": "Sedative respiratory depression from benzodiazepines summates with HCN-induced cellular respiration inhibition; increased risk of unrecognised incipient cyanide poisoning due to sedation of early symptoms (headache, restlessness)."
         },
         "severity": "avoid",
-        "source_id": "src-pl-grieve"
+        "source_id": "src_grieve_prunus_laurocerasus"
       },
       {
         "drug_class": "Nitrate (Nitroglycerin, Isosorbiddinitrat)",
@@ -252,7 +252,7 @@
           "en": "Nitrates are therapeutically used to induce methaemoglobin formation as a cyanide antidote — uncontrolled co-medication with cyanogenic plant preparations can, however, lead to paradoxical worsening if methaemoglobinaemia further compromises oxygen transport without medical supervision."
         },
         "severity": "caution",
-        "source_id": "src-pl-wiki-cherrylaurelwater"
+        "source_id": "src_wp_cherrylaurelwater_prunus_laurocerasus"
       },
       {
         "drug_class": "MAO-Hemmer (Phenelzin, Tranylcypromin)",
@@ -261,7 +261,7 @@
           "en": "MAO inhibitors influence amine metabolism; concurrent cyanide exposure can lead to accumulation through delayed rhodanese-mediated detoxification. Clinical evidence limited, but combination should be avoided in principle."
         },
         "severity": "caution",
-        "source_id": "src-pl-pfaf"
+        "source_id": "src_pfaf_prunus_laurocerasus"
       },
       {
         "drug_class": "Thyreostatika (Carbimazol, Thiamazol/Methimazol)",
@@ -270,28 +270,14 @@
           "en": "HCN is partly metabolised to thiocyanate, a natural inhibitor of thyroid function; concurrent thyreostatic therapy can be aggravated to hypothyroidism — particularly with chronic sublethal exposure (e.g. frequent consumption of cyanogenic foods)."
         },
         "severity": "monitor",
-        "source_id": "src-pl-pfaf"
+        "source_id": "src_pfaf_prunus_laurocerasus"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Lorbeerkirsche (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Lorbeerkirsche",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Prunus laurocerasus (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Prunus_laurocerasus",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-pl-wiki-en",
+      "id": "src_wp_en_prunus_laurocerasus",
       "type": "wikipedia",
       "title": "Prunus laurocerasus — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Prunus_laurocerasus",
@@ -299,15 +285,7 @@
       "language": "en"
     },
     {
-      "id": "src-pl-wiki-de",
-      "type": "wikipedia",
-      "title": "Lorbeerkirsche — Wikipedia (DE)",
-      "url": "https://de.wikipedia.org/wiki/Lorbeerkirsche",
-      "accessed": "2026-05-26",
-      "language": "de"
-    },
-    {
-      "id": "src-pl-wiki-cherrylaurelwater",
+      "id": "src_wp_cherrylaurelwater_prunus_laurocerasus",
       "type": "wikipedia",
       "title": "Cherry laurel water — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Cherry_laurel_water",
@@ -315,15 +293,7 @@
       "language": "en"
     },
     {
-      "id": "src-pl-wiki-prunasin",
-      "type": "wikipedia",
-      "title": "Prunasin — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Prunasin",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-pl-pfaf",
+      "id": "src_pfaf_prunus_laurocerasus",
       "type": "book",
       "title": "Plants For A Future — Prunus laurocerasus",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Prunus+laurocerasus",
@@ -331,7 +301,7 @@
       "language": "en"
     },
     {
-      "id": "src-pl-grieve",
+      "id": "src_grieve_prunus_laurocerasus",
       "type": "book",
       "title": "Maud Grieve: A Modern Herbal — Cherry Laurel (botanical.com, 1931)",
       "url": "https://botanical.com/botanical/mgmh/c/chelau54.html",
@@ -339,18 +309,10 @@
       "language": "en"
     },
     {
-      "id": "src-pl-wikidata",
+      "id": "src_wikidata_prunus_laurocerasus",
       "type": "wikidata",
       "title": "Prunus laurocerasus — Wikidata Q157508",
       "url": "https://www.wikidata.org/wiki/Q157508",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-pl-commons",
-      "type": "commons",
-      "title": "Prunus laurocerasus — Wikimedia Commons",
-      "url": "https://commons.wikimedia.org/wiki/Prunus_laurocerasus",
       "accessed": "2026-05-26",
       "language": "en"
     }

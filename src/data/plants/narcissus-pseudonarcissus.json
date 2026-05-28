@@ -37,9 +37,9 @@
         "en": "Purely historical/documentary — no recommendation for use. The bulb is unsuitable for self-medication in any form; poisoning risk through accidental confusion with kitchen onion or garlic is clinically documented."
       },
       "source_ids": [
-        "src-np-wiki-en",
-        "src-np-pfaf",
-        "src-np-wiki-lycorine"
+        "src_wp_en_narcissus_pseudonarcissus",
+        "src_pfaf_narcissus_pseudonarcissus",
+        "src_wp_lycorine_narcissus_pseudonarcissus"
       ],
       "internal_external": "internal"
     },
@@ -61,8 +61,8 @@
         "en": "Historical/documentary — no recommendation for use. Fresh bulb was cut open or crushed and processed with olive oil, honey or flour into a paste. Skin contact without gloves reliably causes florist's eczema."
       },
       "source_ids": [
-        "src-np-wiki-en",
-        "src-np-pfaf"
+        "src_wp_en_narcissus_pseudonarcissus",
+        "src_pfaf_narcissus_pseudonarcissus"
       ],
       "internal_external": "external"
     },
@@ -83,8 +83,8 @@
         "en": "No preparation — this entry documents a health risk, not a remedy. When cutting, sorting or planting narcissus bulbs wear nitrile or leather gloves; on skin contact rinse promptly with lukewarm water and mild soap."
       },
       "source_ids": [
-        "src-np-wiki-en",
-        "src-np-wiki-lycorine"
+        "src_wp_en_narcissus_pseudonarcissus",
+        "src_wp_lycorine_narcissus_pseudonarcissus"
       ],
       "internal_external": "external"
     },
@@ -106,8 +106,8 @@
         "en": "Pharmaceutical semi-synthesis from galantamine crude extract; clinical dose 8–24 mg/day orally as standardised tablets or extended-release capsules. Never to be home-prepared from narcissus bulbs — the crude extract contains toxic accompanying alkaloids (lycorine, narciclasine) in life-threatening amounts."
       },
       "source_ids": [
-        "src-np-wiki-galantamine",
-        "src-np-wiki-en"
+        "src_wp_galantamine_narcissus_pseudonarcissus",
+        "src_wp_en_narcissus_pseudonarcissus"
       ],
       "internal_external": "internal"
     },
@@ -128,9 +128,9 @@
         "en": "No preparation — purely symbolic and cultural-historical significance. When wearing fresh flowers on a lapel or in a buttonhole, note that the cut sap can cause skin irritation."
       },
       "source_ids": [
-        "src-np-wiki-en",
-        "src-np-wiki-de",
-        "src-np-wikidata"
+        "src_wp_en_narcissus_pseudonarcissus",
+        "src_wp_de_narcissus_pseudonarcissus",
+        "src_wikidata_narcissus_pseudonarcissus"
       ],
       "internal_external": "external"
     },
@@ -151,8 +151,8 @@
         "en": "Homeopathic potentisation from D6 onward — no direct alkaloid effect. Use exclusively on medical or homeopathic prescription; home preparation strictly excluded because of lycorine toxicity."
       },
       "source_ids": [
-        "src-np-wiki-de",
-        "src-np-wiki-en"
+        "src_wp_de_narcissus_pseudonarcissus",
+        "src_wp_en_narcissus_pseudonarcissus"
       ],
       "internal_external": "internal"
     }
@@ -226,7 +226,7 @@
           "en": "Galantamine contained in Narcissus pseudonarcissus is itself an acetylcholinesterase inhibitor; oral intake of crude extracts in addition to standardised galantamine or other cholinesterase inhibitors leads to additive cholinergic effects (bradycardia, bronchospasm, seizures, cholinergic crisis). Clinically relevant only in plant material poisoning, but theoretically mandatory to consider."
         },
         "severity": "avoid",
-        "source_id": "src-np-wiki-galantamine"
+        "source_id": "src_wp_galantamine_narcissus_pseudonarcissus"
       },
       {
         "drug_class": "Anticholinergika (Atropin, Scopolamin, Trizyklische Antidepressiva, Antihistaminika 1. Generation)",
@@ -235,7 +235,7 @@
           "en": "Anticholinergics antagonise the cholinergic transmission enhanced by galantamine and lycorine — in poisoning with narcissus crude material, atropine is deliberately used in emergency medicine as antidote (analogous to the therapy of cholinesterase inhibitor poisoning)."
         },
         "severity": "monitor",
-        "source_id": "src-np-wiki-galantamine"
+        "source_id": "src_wp_galantamine_narcissus_pseudonarcissus"
       },
       {
         "drug_class": "Betablocker (Metoprolol, Bisoprolol, Atenolol)",
@@ -244,7 +244,7 @@
           "en": "Galantamine enhances vagally mediated bradycardia; combination with beta-blockers may trigger symptomatic bradycardia, AV block and syncope. Relevant in clinical use of pharmaceutical galantamine; with plant material exposure an additional risk factor."
         },
         "severity": "caution",
-        "source_id": "src-np-wiki-galantamine"
+        "source_id": "src_wp_galantamine_narcissus_pseudonarcissus"
       },
       {
         "drug_class": "Anästhetika vom Succinylcholin-Typ (depolarisierende Muskelrelaxanzien)",
@@ -253,80 +253,52 @@
           "en": "Galantamine (in the plant and as a medicine) prolongs neuromuscular blockade by succinylcholine via acetylcholinesterase inhibition. Document galantamine intake before planned surgery; with narcissus material poisoning anaesthesia only under experienced supervision."
         },
         "severity": "caution",
-        "source_id": "src-np-wiki-galantamine"
+        "source_id": "src_wp_galantamine_narcissus_pseudonarcissus"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gelbe Narzisse (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gelbe_Narzisse",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Narcissus pseudonarcissus (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Narcissus_pseudonarcissus",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-np-wiki-en",
+      "id": "src_wp_en_narcissus_pseudonarcissus",
       "type": "wikipedia",
       "title": "Narcissus pseudonarcissus — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Narcissus_pseudonarcissus",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-np-wiki-de",
+      "id": "src_wp_de_narcissus_pseudonarcissus",
       "type": "wikipedia",
       "title": "Gelbe Narzisse — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Gelbe_Narzisse",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-np-wiki-genus",
-      "type": "wikipedia",
-      "title": "Narcissus (plant) — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Narcissus_(plant)",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-np-wiki-galantamine",
+      "id": "src_wp_galantamine_narcissus_pseudonarcissus",
       "type": "wikipedia",
       "title": "Galantamine — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Galantamine",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-np-wiki-lycorine",
+      "id": "src_wp_lycorine_narcissus_pseudonarcissus",
       "type": "wikipedia",
       "title": "Lycorine — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Lycorine",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-np-wikidata",
+      "id": "src_wikidata_narcissus_pseudonarcissus",
       "type": "wikidata",
       "title": "Narcissus pseudonarcissus — Wikidata Q161123",
       "url": "https://www.wikidata.org/wiki/Q161123",
       "accessed": "2026-05-27"
     },
     {
-      "id": "src-np-pfaf",
+      "id": "src_pfaf_narcissus_pseudonarcissus",
       "type": "book",
       "title": "Plants for a Future — Narcissus pseudonarcissus",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Narcissus+pseudonarcissus",
-      "accessed": "2026-05-27"
-    },
-    {
-      "id": "src-np-commons",
-      "type": "commons",
-      "title": "Narcissus pseudonarcissus — Wikimedia Commons category",
-      "url": "https://commons.wikimedia.org/wiki/Category:Narcissus_pseudonarcissus",
       "accessed": "2026-05-27"
     }
   ],

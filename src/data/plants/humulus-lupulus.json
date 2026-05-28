@@ -31,7 +31,7 @@
       "preparation": {
         "amount_dry_g": {
           "min": 0.5,
-          "max": 1.0
+          "max": 1
         },
         "water_ml": 200,
         "steep_min": 15,
@@ -239,20 +239,6 @@
   },
   "classical_quotes": [],
   "sources": [
-    {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Echter Hopfen (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Echter_Hopfen",
-      "accessed": "2026-05-16"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Humulus lupulus (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Humulus_lupulus",
-      "accessed": "2026-05-16"
-    },
     {
       "id": "src_ema_lupuli_flos",
       "type": "monograph",

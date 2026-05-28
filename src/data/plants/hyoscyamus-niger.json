@@ -37,9 +37,9 @@
         "en": "Heat seeds in olive oil, strain; apply lukewarm oil to affected areas."
       },
       "source_ids": [
-        "src-hn-wiki-en",
-        "src-hn-pfaf",
-        "src-hn-groot-2024"
+        "src_wp_en_hyoscyamus_niger",
+        "src_pfaf_hyoscyamus_niger",
+        "src_groot_2024_hyoscyamus_niger"
       ]
     },
     {
@@ -59,9 +59,9 @@
         "en": "Burn dried leaves on embers and briefly inhale smoke. No self-application — risk of poisoning."
       },
       "source_ids": [
-        "src-hn-wiki-en",
-        "src-hn-wiki-de",
-        "src-hn-pfaf"
+        "src_wp_en_hyoscyamus_niger",
+        "src_wp_de_hyoscyamus_niger",
+        "src_pfaf_hyoscyamus_niger"
       ]
     },
     {
@@ -81,9 +81,9 @@
         "en": "Standardized extract (0.05% total alkaloids) — only under medical supervision, now obsolete."
       },
       "source_ids": [
-        "src-hn-wiki-en",
-        "src-hn-wiki-scopolamine",
-        "src-hn-naumann-2014"
+        "src_wp_en_hyoscyamus_niger",
+        "src_wp_scopolamine_hyoscyamus_niger",
+        "src_naumann_2014_hyoscyamus_niger"
       ]
     },
     {
@@ -103,8 +103,8 @@
         "en": "Homeopathic potentization from D6 onward — no inherent alkaloid effect."
       },
       "source_ids": [
-        "src-hn-wiki-en",
-        "src-hn-wikidata"
+        "src_wp_en_hyoscyamus_niger",
+        "src_wikidata_hyoscyamus_niger"
       ]
     },
     {
@@ -124,8 +124,8 @@
         "en": "Historically documented ethnobotanically; no application recommendation — toxic."
       },
       "source_ids": [
-        "src-hn-groot-2024",
-        "src-hn-wiki-en"
+        "src_groot_2024_hyoscyamus_niger",
+        "src_wp_en_hyoscyamus_niger"
       ]
     },
     {
@@ -146,8 +146,8 @@
         "en": "Historically: leaves and seeds as brewing additive — now illegal and dangerous."
       },
       "source_ids": [
-        "src-hn-wiki-en",
-        "src-hn-wiki-de"
+        "src_wp_en_hyoscyamus_niger",
+        "src_wp_de_hyoscyamus_niger"
       ]
     },
     {
@@ -167,9 +167,9 @@
         "en": "Industrial: hairy-root cultures in bioreactors for standardized alkaloid production — not for self-application."
       },
       "source_ids": [
-        "src-hn-jaremicz-2013",
-        "src-hn-matto-2012",
-        "src-hn-shi-2022"
+        "src_jaremicz_2013_hyoscyamus_niger",
+        "src_matto_2012_hyoscyamus_niger",
+        "src_shi_2022_hyoscyamus_niger"
       ]
     }
   ],
@@ -247,7 +247,7 @@
           "en": "Additive anticholinergic effect: enhanced dry mouth, urinary retention, tachycardia, cognitive impairment up to central anticholinergic syndrome."
         },
         "severity": "avoid",
-        "source_id": "src-hn-wiki-scopolamine"
+        "source_id": "src_wp_scopolamine_hyoscyamus_niger"
       },
       {
         "drug_class": "Trizyklische Antidepressiva (Amitriptylin, Imipramin, Clomipramin)",
@@ -256,7 +256,7 @@
           "en": "Tricyclics have inherent anticholinergic properties; combination with henbane alkaloids substantially potentiates anticholinergic side effects."
         },
         "severity": "caution",
-        "source_id": "src-hn-wiki-scopolamine"
+        "source_id": "src_wp_scopolamine_hyoscyamus_niger"
       },
       {
         "drug_class": "MAO-Hemmer (Phenelzin, Tranylcypromin, Moclobemid)",
@@ -265,7 +265,7 @@
           "en": "MAO inhibitors may reduce breakdown of tropane alkaloids and increase their toxicity; central nervous system excitation possible."
         },
         "severity": "caution",
-        "source_id": "src-hn-wiki-scopolamine"
+        "source_id": "src_wp_scopolamine_hyoscyamus_niger"
       },
       {
         "drug_class": "Antihistaminika der 1. Generation (Diphenhydramin, Promethazin, Hydroxyzin)",
@@ -274,7 +274,7 @@
           "en": "First-generation H1 antihistamines have anticholinergic properties; additive effects when combined with henbane alkaloids."
         },
         "severity": "monitor",
-        "source_id": "src-hn-wiki-scopolamine"
+        "source_id": "src_wp_scopolamine_hyoscyamus_niger"
       }
     ],
     "max_continuous_use_weeks": 1
@@ -282,91 +282,70 @@
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Schwarzes Bilsenkraut (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Schwarzes_Bilsenkraut",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Hyoscyamus niger (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Hyoscyamus_niger",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-hn-wiki-en",
+      "id": "src_wp_en_hyoscyamus_niger",
       "type": "wikipedia",
       "title": "Hyoscyamus niger — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Hyoscyamus_niger",
       "accessed": "2026-05-24"
     },
     {
-      "id": "src-hn-wiki-de",
+      "id": "src_wp_de_hyoscyamus_niger",
       "type": "wikipedia",
       "title": "Schwarzes Bilsenkraut — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Schwarzes_Bilsenkraut",
       "accessed": "2026-05-24"
     },
     {
-      "id": "src-hn-wiki-scopolamine",
+      "id": "src_wp_scopolamine_hyoscyamus_niger",
       "type": "wikipedia",
       "title": "Scopolamine — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Scopolamine",
       "accessed": "2026-05-24"
     },
     {
-      "id": "src-hn-wiki-hyoscyamine",
-      "type": "wikipedia",
-      "title": "Hyoscyamine — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Hyoscyamine",
-      "accessed": "2026-05-24"
-    },
-    {
-      "id": "src-hn-wikidata",
+      "id": "src_wikidata_hyoscyamus_niger",
       "type": "wikidata",
       "title": "Hyoscyamus niger — Wikidata Q161058",
       "url": "https://www.wikidata.org/wiki/Q161058",
       "accessed": "2026-05-24"
     },
     {
-      "id": "src-hn-pfaf",
+      "id": "src_pfaf_hyoscyamus_niger",
       "type": "book",
       "title": "Plants for a Future — Hyoscyamus niger",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Hyoscyamus+niger",
       "accessed": "2026-05-24"
     },
     {
-      "id": "src-hn-groot-2024",
+      "id": "src_groot_2024_hyoscyamus_niger",
       "type": "monograph",
       "title": "Evidence of the intentional use of black henbane (Hyoscyamus niger) in the Roman Netherlands",
       "url": "https://doi.org/10.15184/aqy.2024.5",
       "accessed": "2026-05-24"
     },
     {
-      "id": "src-hn-jaremicz-2013",
+      "id": "src_jaremicz_2013_hyoscyamus_niger",
       "type": "monograph",
       "title": "Production of tropane alkaloids in Hyoscyamus niger (black henbane) hairy roots grown in bubble-column and spray bioreactors",
       "url": "https://doi.org/10.1007/s10529-013-1426-9",
       "accessed": "2026-05-24"
     },
     {
-      "id": "src-hn-naumann-2014",
+      "id": "src_naumann_2014_hyoscyamus_niger",
       "type": "monograph",
       "title": "Discrimination of Solanaceae Taxa and Quantification of Scopolamine and Hyoscyamine by ATR-FTIR Spectroscopy",
       "url": "https://doi.org/10.1055/s-0034-1383046",
       "accessed": "2026-05-24"
     },
     {
-      "id": "src-hn-matto-2012",
+      "id": "src_matto_2012_hyoscyamus_niger",
       "type": "monograph",
       "title": "Inorganic ions in the medium modify tropane alkaloids and riboflavin output in Hyoscyamus niger root cultures",
       "url": "https://doi.org/10.4103/0973-1296.93330",
       "accessed": "2026-05-24"
     },
     {
-      "id": "src-hn-shi-2022",
+      "id": "src_shi_2022_hyoscyamus_niger",
       "type": "monograph",
       "title": "Tropane alkaloids (hyoscyamine, scopolamine and atropine) from genus Datura: extractions, contents, syntheses and effects",
       "url": "https://doi.org/10.1016/j.indcrop.2022.115283",

@@ -37,9 +37,9 @@
         "en": "NEVER INTERNAL (PA hepatotoxic). Not on open wounds, not in pregnancy/lactation, not in children under 3 years."
       },
       "source_ids": [
-        "ema-symphyti-radix",
-        "bfarm-pa",
-        "kommission-e"
+        "src_ema_symphyti_radix",
+        "src_bfarm_pa_symphytum",
+        "src_kommission_e_symphytum"
       ],
       "description": {
         "de": "Stumpfe Traumata: Prellungen, Verstauchungen, Zerrungen",
@@ -67,9 +67,9 @@
         "en": "NEVER INTERNAL. Not on open wounds/fresh surgical scars."
       },
       "source_ids": [
-        "ema-symphyti-radix",
-        "heilkraeuter-lexikon",
-        "pfaf-symphytum"
+        "src_ema_symphyti_radix",
+        "src_heilkraeuter_symphytum",
+        "src_pfaf_symphytum"
       ],
       "description": {
         "de": "Geschlossene Frakturen, Knochenbruch-Nachsorge (Volksname 'Wallwurz' = Wundheiler)",
@@ -98,9 +98,9 @@
         "en": "NEVER DRINK. Not on open wounds."
       },
       "source_ids": [
-        "heilkraeuter-lexikon",
-        "pfaf-symphytum",
-        "kommission-e"
+        "src_heilkraeuter_symphytum",
+        "src_pfaf_symphytum",
+        "src_kommission_e_symphytum"
       ],
       "description": {
         "de": "Akute Schwellung nach Sportverletzung (kalter Umschlag)",
@@ -129,9 +129,9 @@
         "en": "NEVER INTERNAL. Not in pregnancy/lactation."
       },
       "source_ids": [
-        "ema-symphyti-radix",
-        "kommission-e",
-        "wikipedia-symphytum"
+        "src_ema_symphyti_radix",
+        "src_kommission_e_symphytum",
+        "src_wp_symphytum"
       ],
       "description": {
         "de": "Muskel- und Gelenkschmerzen (Arthrose-begleitend, extern)",
@@ -159,9 +159,9 @@
         "en": "NEVER INTERNAL. Commission E negative for leaf."
       },
       "source_ids": [
-        "heilkraeuter-lexikon",
-        "kommission-e",
-        "bfarm-pa"
+        "src_heilkraeuter_symphytum",
+        "src_kommission_e_symphytum",
+        "src_bfarm_pa_symphytum"
       ],
       "description": {
         "de": "Volksmedizinische Blattsalbe bei Hautirritationen (heute wegen PA umstritten)",
@@ -238,7 +238,7 @@
           "en": "Theoretical additive hepatotoxicity with systemic PA absorption; low with proper external use, but relevant with prolonged/large-area application."
         },
         "severity": "caution",
-        "source_id": "bfarm-pa"
+        "source_id": "src_bfarm_pa_symphytum"
       },
       {
         "drug_class": "CYP3A4 inducers (e.g. rifampicin, phenobarbital, carbamazepine)",
@@ -247,7 +247,7 @@
           "en": "Increased metabolic activation of PA to toxic pyrrole metabolites - increased risk with chronic use."
         },
         "severity": "caution",
-        "source_id": "bfarm-pa"
+        "source_id": "src_bfarm_pa_symphytum"
       },
       {
         "drug_class": "Anticoagulants (warfarin, DOACs) - topical near skin lesions",
@@ -256,28 +256,14 @@
           "en": "Theoretically increased PA absorption through bleeding/injured areas; proper external use on intact skin largely unproblematic."
         },
         "severity": "monitor",
-        "source_id": "ema-symphyti-radix"
+        "source_id": "src_ema_symphyti_radix"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Echter Beinwell (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Echter_Beinwell",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Symphytum officinale (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Symphytum_officinale",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "ema-symphyti-radix",
+      "id": "src_ema_symphyti_radix",
       "type": "monograph",
       "title": "EU Herbal Monograph on Symphytum officinale L., radix (HMPC)",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/symphyti-radix",
@@ -288,7 +274,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "bfarm-pa",
+      "id": "src_bfarm_pa_symphytum",
       "type": "monograph",
       "title": "BfArM Stellungnahme Pyrrolizidinalkaloide in pflanzlichen Arzneimitteln",
       "url": "https://www.bfarm.de/DE/Arzneimittel/Pharmakovigilanz/Risikoinformationen/Risikobewertungsverfahren/p-rb/pyrrolizidinalkaloide-stellungnahme.html",
@@ -299,7 +285,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "pfaf-symphytum",
+      "id": "src_pfaf_symphytum",
       "type": "monograph",
       "title": "Plants For A Future: Symphytum officinale",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Symphytum+officinale",
@@ -310,7 +296,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "heilkraeuter-lexikon",
+      "id": "src_heilkraeuter_symphytum",
       "type": "book",
       "title": "Heilkraeuter-Lexikon: Beinwell (Wallwurz)",
       "url": "https://heilkraeuter.de/lexikon/beinwell.htm",
@@ -321,7 +307,7 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "kommission-e",
+      "id": "src_kommission_e_symphytum",
       "type": "monograph",
       "title": "Kommission E Monographie: Symphyti radix (positiv extern) / Symphyti folium (negativ)",
       "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/",
@@ -332,24 +318,13 @@
       "accessed": "2026-05-19"
     },
     {
-      "id": "wikipedia-symphytum",
+      "id": "src_wp_symphytum",
       "type": "wikipedia",
       "title": "Wikipedia: Symphytum officinale (Echter Beinwell)",
       "url": "https://de.wikipedia.org/wiki/Echter_Beinwell",
       "note": {
         "de": "Botanik, Inhaltsstoffe, Geschichte, moderne Sicherheitsaspekte und Kytta-Sorten.",
         "en": "Botany, constituents, history, modern safety aspects and Kytta cultivars."
-      },
-      "accessed": "2026-05-19"
-    },
-    {
-      "id": "livertox-comfrey",
-      "type": "monograph",
-      "title": "LiverTox: Comfrey (Symphytum officinale) - NCBI Bookshelf",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK548370/",
-      "note": {
-        "de": "Detaillierte Toxikologie: hepatische VOD durch orale PA-Aufnahme, dermale Anwendung gilt als risikoarm bei intakter Haut und Kurzzeitanwendung.",
-        "en": "Detailed toxicology: hepatic VOD from oral PA intake, dermal use considered low-risk on intact skin and short-term."
       },
       "accessed": "2026-05-19"
     }

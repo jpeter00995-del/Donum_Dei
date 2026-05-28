@@ -36,9 +36,9 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-mo-wiki-en",
-        "src-mo-wiki-mandrake",
-        "src-mo-pfaf"
+        "src_wp_en_mandragora_officinarum",
+        "src_wp_mandrake_mandragora_officinarum",
+        "src_pfaf_mandragora_officinarum"
       ],
       "internal_external": "internal"
     },
@@ -59,8 +59,8 @@
         "solvent": "water"
       },
       "source_ids": [
-        "src-mo-wiki-en",
-        "src-mo-pfaf"
+        "src_wp_en_mandragora_officinarum",
+        "src_pfaf_mandragora_officinarum"
       ],
       "internal_external": "internal"
     },
@@ -82,8 +82,8 @@
         "solvent": "fat or beeswax base"
       },
       "source_ids": [
-        "src-mo-pfaf",
-        "src-mo-wiki-en"
+        "src_pfaf_mandragora_officinarum",
+        "src_wp_en_mandragora_officinarum"
       ],
       "internal_external": "external"
     },
@@ -105,8 +105,8 @@
         "solvent": "wine (historical)"
       },
       "source_ids": [
-        "src-mo-wiki-mandrake",
-        "src-mo-pfaf"
+        "src_wp_mandrake_mandragora_officinarum",
+        "src_pfaf_mandragora_officinarum"
       ],
       "internal_external": "internal"
     },
@@ -127,9 +127,9 @@
         "solvent": "n/a (ornamental)"
       },
       "source_ids": [
-        "src-mo-wiki-mandrake",
-        "src-mo-wiki-de",
-        "src-mo-pfaf"
+        "src_wp_mandrake_mandragora_officinarum",
+        "src_wp_de_mandragora_officinarum",
+        "src_pfaf_mandragora_officinarum"
       ],
       "internal_external": "external"
     },
@@ -150,8 +150,8 @@
         "solvent": "45% ethanol"
       },
       "source_ids": [
-        "src-mo-wiki-de",
-        "src-mo-wikidata"
+        "src_wp_de_mandragora_officinarum",
+        "src_wikidata_mandragora_officinarum"
       ],
       "internal_external": "internal"
     }
@@ -230,7 +230,7 @@
           "en": "Additive anticholinergic effect: enhanced dry mouth, mydriasis, urinary retention, tachycardia, up to central anticholinergic syndrome with delirium."
         },
         "severity": "avoid",
-        "source_id": "src-mo-wiki-en"
+        "source_id": "src_wp_en_mandragora_officinarum"
       },
       {
         "drug_class": "Trizyklische Antidepressiva (Amitriptylin, Imipramin, Clomipramin)",
@@ -239,7 +239,7 @@
           "en": "Tricyclics have inherent anticholinergic activity; combination with Mandragora alkaloids substantially potentiates anticholinergic side effects, including cognitive impairment."
         },
         "severity": "avoid",
-        "source_id": "src-mo-wiki-en"
+        "source_id": "src_wp_en_mandragora_officinarum"
       },
       {
         "drug_class": "MAO-Hemmer (Phenelzin, Tranylcypromin, Selegilin, Moclobemid)",
@@ -248,7 +248,7 @@
           "en": "MAO inhibitors may potentiate the action and toxicity of tropane alkaloids through reduced catecholamine breakdown; central nervous system excitation and hypertensive crises possible."
         },
         "severity": "avoid",
-        "source_id": "src-mo-wiki-en"
+        "source_id": "src_wp_en_mandragora_officinarum"
       },
       {
         "drug_class": "Antihistaminika der 1. Generation (Diphenhydramin, Promethazin, Doxylamin)",
@@ -257,7 +257,7 @@
           "en": "First-generation H1 antihistamines have anticholinergic properties; additive effects when combined with Mandragora alkaloids, especially sedation and dry mouth."
         },
         "severity": "caution",
-        "source_id": "src-mo-wiki-en"
+        "source_id": "src_wp_en_mandragora_officinarum"
       },
       {
         "drug_class": "Cholinesterase-Hemmer (Donepezil, Rivastigmin, Galantamin, Pyridostigmin)",
@@ -266,28 +266,14 @@
           "en": "Pharmacodynamic antagonism: cholinesterase inhibitors raise acetylcholine, tropane alkaloids block muscarinic receptors — loss of effect of both substances, clinically uncontrollable outcome."
         },
         "severity": "avoid",
-        "source_id": "src-mo-wiki-en"
+        "source_id": "src_wp_en_mandragora_officinarum"
       }
     ]
   },
   "classical_quotes": [],
   "sources": [
     {
-      "id": "src_1",
-      "type": "wikipedia",
-      "title": "Gemeine Alraune (Wikipedia DE)",
-      "url": "https://de.wikipedia.org/wiki/Gemeine_Alraune",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src_2",
-      "type": "wikipedia",
-      "title": "Mandragora officinarum (Wikipedia EN)",
-      "url": "https://en.wikipedia.org/wiki/Mandragora_officinarum",
-      "accessed": "2026-05-17"
-    },
-    {
-      "id": "src-mo-wiki-en",
+      "id": "src_wp_en_mandragora_officinarum",
       "type": "wikipedia",
       "title": "Mandragora officinarum — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Mandragora_officinarum",
@@ -295,7 +281,7 @@
       "language": "en"
     },
     {
-      "id": "src-mo-wiki-de",
+      "id": "src_wp_de_mandragora_officinarum",
       "type": "wikipedia",
       "title": "Gemeine Alraune — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Gemeine_Alraune",
@@ -303,7 +289,7 @@
       "language": "de"
     },
     {
-      "id": "src-mo-wiki-mandrake",
+      "id": "src_wp_mandrake_mandragora_officinarum",
       "type": "wikipedia",
       "title": "Mandrake — Wikipedia (EN) [folklore, Genesis 30:14, Dioscorides, Theophrastus, Josephus]",
       "url": "https://en.wikipedia.org/wiki/Mandrake",
@@ -311,7 +297,7 @@
       "language": "en"
     },
     {
-      "id": "src-mo-pfaf",
+      "id": "src_pfaf_mandragora_officinarum",
       "type": "book",
       "title": "Plants for a Future — Mandragora officinarum",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Mandragora+officinarum",
@@ -319,34 +305,10 @@
       "language": "en"
     },
     {
-      "id": "src-mo-wikidata",
+      "id": "src_wikidata_mandragora_officinarum",
       "type": "wikidata",
       "title": "Mandragora officinarum — Wikidata Q545550",
       "url": "https://www.wikidata.org/wiki/Q545550",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-mo-wiki-hyoscyamine",
-      "type": "wikipedia",
-      "title": "Hyoscyamine — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Hyoscyamine",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-mo-wiki-scopolamine",
-      "type": "wikipedia",
-      "title": "Scopolamine — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Scopolamine",
-      "accessed": "2026-05-26",
-      "language": "en"
-    },
-    {
-      "id": "src-mo-wiki-atropine",
-      "type": "wikipedia",
-      "title": "Atropine — Wikipedia (EN)",
-      "url": "https://en.wikipedia.org/wiki/Atropine",
       "accessed": "2026-05-26",
       "language": "en"
     }
