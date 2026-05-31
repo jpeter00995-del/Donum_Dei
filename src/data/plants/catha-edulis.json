@@ -1,0 +1,195 @@
+{
+  "slug": "catha-edulis",
+  "kingdom": "plant",
+  "names": {
+    "latin": "Catha edulis",
+    "de": "Kathstrauch (Khat)",
+    "en": "Khat"
+  },
+  "family": {
+    "latin": "Celastraceae",
+    "de": "Spindelbaumgewächse",
+    "en": "Staff-vine family (Celastraceae)"
+  },
+  "description": {
+    "de": "Catha edulis, der Kathstrauch, ist ein immergrüner Strauch oder kleiner Baum (1–5 m) aus der Familie der Spindelbaumgewächse (Celastraceae) und die einzige Art der Gattung Catha. Er ist in Ostafrika und auf der Arabischen Halbinsel heimisch; sein Anbau geht auf die äthiopische Region Harar zurück und verbreitete sich von dort nach Ostafrika und Südarabien. Frische Zweigspitzen und junge Blätter werden seit Jahrhunderten am Horn von Afrika und im Jemen gekaut, vor allem wegen ihrer aufputschenden Wirkung. Bereits der mittelalterliche Historiker al-Maqrizi beschrieb das Kraut als anregend für Geist und Gedächtnis. Hauptwirkstoff ist das amphetaminähnliche Alkaloid Cathinon, das nach der Ernte rasch zerfällt.",
+    "en": "Catha edulis, the khat shrub, is an evergreen shrub or small tree (1–5 m) in the staff-vine family (Celastraceae) and the sole species of the genus Catha. It is native to East Africa and the Arabian Peninsula; its cultivation originated in Ethiopia's Harar region and spread from there to East Africa and South Arabia. Fresh shoot tips and young leaves have been chewed for centuries in the Horn of Africa and Yemen, mainly for their stimulant effect. The medieval historian al-Maqrizi already described the herb as sharpening intellect and memory. Its principal active compound is the amphetamine-like alkaloid cathinone, which degrades rapidly after harvest."
+  },
+  "teaser": {
+    "de": "Ostafrikanischer Strauch, dessen frische Blätter das amphetaminähnliche Stimulans Cathinon enthalten und traditionell gekaut werden.",
+    "en": "East African shrub whose fresh leaves contain the amphetamine-like stimulant cathinone and are traditionally chewed."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "fatigue",
+        "alertness",
+        "appetite_suppression"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Traditionell werden frische Zweigspitzen und junge Blätter am Horn von Afrika und im Jemen gekaut – zur Anregung des zentralen Nervensystems, gegen Müdigkeit und zur Geselligkeit. Rein dokumentarisch; keine Konsumempfehlung.",
+        "en": "Traditionally, fresh shoot tips and young leaves are chewed in the Horn of Africa and Yemen as a central-nervous-system stimulant, against fatigue, and in social settings. Documentary only; not a consumption recommendation."
+      },
+      "source_ids": [
+        "wikipedia-en",
+        "euda"
+      ],
+      "plant_part": "leaf",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "traditional_medicine"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Bei einigen indigenen Völkern Ostafrikas wurde Khat volksmedizinisch verwendet; eine breite medizinische Anerkennung besteht weder für die Pflanze noch für ihre Wirkstoffe.",
+        "en": "Khat has been used as a folk medicine by some indigenous peoples of East Africa; neither the plant nor its compounds have achieved broad medical acceptance."
+      },
+      "source_ids": [
+        "euda",
+        "wikipedia-en"
+      ],
+      "plant_part": "leaf",
+      "evidence_level": "folk"
+    }
+  ],
+  "season": {
+    "active_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "harvest_part": {
+      "de": "Frische Zweigspitzen und junge Blätter (immergrün, ganzjährig)",
+      "en": "Fresh shoot tips and young leaves (evergreen, year-round)"
+    }
+  },
+  "safety": {
+    "toxicity_level": "toxic",
+    "external_only": false,
+    "pet_toxic": true,
+    "warnings": {
+      "de": "Khat enthält das amphetaminähnliche Stimulans Cathinon. Konsum kann Blutdruck und Herzfrequenz steigern und ist mit psychischer Abhängigkeit, Schlafstörungen, Reizbarkeit, Depression, Psychosen (bei Veranlagung), Herz-Kreislauf-Komplikationen, Magen-Darm- und Zahnschäden sowie Mundkrebs assoziiert. Wechselwirkungen mit anderen Stimulanzien und Medikamenten möglich. Nicht in Schwangerschaft/Stillzeit. Dies ist eine kontrollierte/psychoaktive Pflanze – ausschließlich edukativ-historische Darstellung, keine Konsumanleitung.",
+      "en": "Khat contains the amphetamine-like stimulant cathinone. Use can raise blood pressure and heart rate and is associated with psychological dependence, sleep disturbance, irritability, depression, psychosis (in predisposed individuals), cardiovascular complications, gastrointestinal and dental damage, and oral cancer. Interactions with other stimulants and medications are possible. Not for use in pregnancy/breastfeeding. This is a controlled/psychoactive plant presented for educational and historical purposes only — not a consumption guide."
+    }
+  },
+  "constituents": [
+    {
+      "name": "Cathinon (Cathinone)",
+      "category": "alkaloid",
+      "note": {
+        "de": "Amphetaminähnliches Phenethylamin-Alkaloid; β-Keto-Analogon des Amphetamins. Hauptwirkstoff für die stimulierende Wirkung; zerfällt binnen ~48 h nach der Ernte.",
+        "en": "Amphetamine-like phenethylamine alkaloid; β-keto analogue of amphetamine. Principal stimulant compound; degrades within ~48 h after harvest."
+      }
+    },
+    {
+      "name": "Cathin (Norpseudoephedrin / Cathine)",
+      "category": "alkaloid",
+      "note": {
+        "de": "Schwächeres Stimulans; quantitativ das Hauptalkaloid in gereiftem oder getrocknetem Material, entsteht beim Abbau von Cathinon.",
+        "en": "Weaker stimulant; quantitatively the main alkaloid in matured or dried material, formed as cathinone degrades."
+      }
+    },
+    {
+      "name": "Norephedrin (Norephedrine)",
+      "category": "alkaloid",
+      "note": {
+        "de": "Sympathomimetisches Amin, eines der drei psychoaktiven Hauptalkaloide.",
+        "en": "Sympathomimetic amine, one of the three main psychoactive alkaloids."
+      }
+    },
+    {
+      "name": "Tannine (Tannins)",
+      "category": "tannin",
+      "note": {
+        "de": "In den Blättern enthalten; tragen zu adstringierenden Eigenschaften und werden mit Mund- und Verdauungsbeschwerden bei Dauergebrauch in Verbindung gebracht.",
+        "en": "Present in the leaves; contribute astringency and are linked to oral and digestive complaints with chronic use."
+      }
+    },
+    {
+      "name": "Flavonoide (Flavonoids)",
+      "category": "flavonoid",
+      "note": {
+        "de": "Eine der zahlreichen Nicht-Alkaloid-Stoffgruppen in den Blättern.",
+        "en": "One of the many non-alkaloid compound groups found in the leaves."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "legal_status": {
+    "controlled": true,
+    "summary": {
+      "de": "International kontrollierte Wirkstoffe: Cathinon (Anlage I) und Cathin (Anlage III) der UN-Konvention von 1971; in vielen Ländern verboten.",
+      "en": "Internationally controlled compounds: cathinone (Schedule I) and cathine (Schedule III) of the 1971 UN Convention; banned in many countries."
+    },
+    "note": {
+      "de": "Die Pflanze selbst unterliegt keiner internationalen Kontrolle, ihre Wirkstoffe Cathinon und Cathin jedoch schon. Die Rechtslage ist je nach Land unterschiedlich geregelt – in einigen Ursprungsländern legal, in vielen anderen verboten. Informiere dich über die für dich geltende Rechtslage.",
+      "en": "The plant itself is not under international control, but its compounds cathinone and cathine are. The legal situation differs from country to country — legal in some countries of origin, prohibited in many others. Inform yourself about the laws that apply to you."
+    },
+    "source_ids": [
+      "euda",
+      "wikipedia-en",
+      "unodc"
+    ]
+  },
+  "sources": [
+    {
+      "id": "wikipedia-en",
+      "type": "wikipedia",
+      "title": "Khat — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Khat",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "wikipedia-de",
+      "type": "wikipedia",
+      "title": "Kathstrauch — Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Kathstrauch",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "euda",
+      "type": "monograph",
+      "title": "Khat drug profile — European Union Drugs Agency (EUDA)",
+      "url": "https://www.euda.europa.eu/publications/drug-profiles/khat_en",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "unodc",
+      "type": "monograph",
+      "title": "UNODC — Plant-based substances (Catha edulis / cathinone, cathine)",
+      "url": "https://www.unodc.org/LSS/SubstanceGroup/Details/4b17fe10-91da-477c-bc3d-593136040668",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "commons-img",
+      "type": "commons",
+      "title": "File:Catha edulis kz01.jpg — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Catha_edulis_kz01.jpg",
+      "accessed": "2026-05-31"
+    }
+  ],
+  "image": {
+    "filename": "catha-edulis.webp",
+    "alt": {
+      "de": "Zweige des Kathstrauchs (Catha edulis) mit immergrünen, länglichen Blättern",
+      "en": "Branches of the khat shrub (Catha edulis) with evergreen, elongated leaves"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Krzysztof Ziarnek (Kenraiz)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Catha_edulis_kz01.jpg"
+  }
+}

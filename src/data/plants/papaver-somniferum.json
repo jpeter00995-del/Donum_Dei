@@ -1,0 +1,256 @@
+{
+  "slug": "papaver-somniferum",
+  "kingdom": "plant",
+  "names": {
+    "de": "Schlafmohn",
+    "en": "Opium poppy",
+    "latin": "Papaver somniferum"
+  },
+  "family": {
+    "de": "Mohngewächse",
+    "en": "Poppy family",
+    "latin": "Papaveraceae"
+  },
+  "description": {
+    "de": "Der Schlafmohn (Papaver somniferum) ist eine einjährige, 0,3-1,5 m hohe krautige Pflanze aus der Familie der Mohngewächse mit graugrünem Laub und großen, meist vierblättrigen Blüten in Weiß, Rot oder Violett. Die Fruchtkapsel ist von 12-18 strahlenförmigen Narbenstrahlen gekrönt. Beim Anritzen der unreifen Kapsel tritt ein milchiger Saft (Opium) aus, der rund 40 Alkaloide enthält. Die Pflanze wird in Mitteleuropa seit der Jungsteinzeit (ab etwa 5200 v. Chr.) genutzt; im antiken Griechenland war die Mohnkapsel ein Symbol des Schlafgottes Hypnos und diente kultischen wie medizinischen Zwecken. Aus ihren Alkaloiden werden bis heute zentrale Schmerzmittel der modernen Medizin gewonnen.",
+    "en": "The opium poppy (Papaver somniferum) is an annual herb of the poppy family, growing 0.3-1.5 m tall, with greyish-green foliage and large, usually four-petalled flowers in white, red or mauve. Its rounded seed capsule is topped by 12-18 radiating stigmatic rays. Scoring the unripe capsule releases a milky latex (opium) that contains around 40 alkaloids. The plant has been cultivated in Central Europe since the Neolithic (from roughly 5200 BCE); in ancient Greece the poppy capsule symbolised Hypnos, the god of sleep, and served both cultic and medicinal purposes. Its alkaloids remain the source of key analgesics in modern medicine."
+  },
+  "teaser": {
+    "de": "Uralte Heil- und Kulturpflanze, aus deren Milchsaft Opium und zentrale Schmerzmittel wie Morphin gewonnen werden - heute international als Betäubungsmittel kontrolliert.",
+    "en": "An ancient medicinal and cultural plant whose latex yields opium and key analgesics such as morphine - today internationally controlled as a narcotic."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": [
+        "severe pain",
+        "chronic pain"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Morphin, das Hauptalkaloid des Opiums, ist ein in der modernen Medizin etabliertes starkes Analgetikum zur Behandlung schwerer und chronischer Schmerzen. Historisch wurde Opium als Tinktur (Laudanum) verwendet. Anwendung ausschließlich unter ärztlicher Kontrolle - keine Selbstmedikation.",
+        "en": "Morphine, the principal opium alkaloid, is a well-established strong analgesic in modern medicine for treating severe and chronic pain. Historically opium was used as a tincture (laudanum). Use only under medical supervision - not for self-medication."
+      },
+      "source_ids": [
+        "wiki-en",
+        "wiki-de"
+      ],
+      "plant_part": "fruit",
+      "evidence_level": "ema_well_established"
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "cough",
+        "dry cough"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Codein, ein weiteres Mohnalkaloid, wird in der Medizin als Antitussivum gegen Reizhusten eingesetzt. Nur als zugelassenes Arzneimittel unter ärztlicher Aufsicht.",
+        "en": "Codeine, another poppy alkaloid, is used in medicine as an antitussive against dry, irritating cough. Only as an approved medicine under medical supervision."
+      },
+      "source_ids": [
+        "wiki-de",
+        "wiki-en"
+      ],
+      "plant_part": "fruit",
+      "evidence_level": "ema_well_established"
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "smooth muscle spasm",
+        "colic"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Papaverin wirkt krampflösend (spasmolytisch) auf die glatte Muskulatur verschiedener Organe und wurde traditionell bei Krämpfen eingesetzt. Verwendung nur als Arzneimittel.",
+        "en": "Papaverine acts as a smooth-muscle relaxant (spasmolytic) on various organs and was traditionally used for spasms and colic. Use only as a medicine."
+      },
+      "source_ids": [
+        "wiki-de"
+      ],
+      "plant_part": "fruit",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "tea",
+      "target": [
+        "sleeplessness",
+        "asthma",
+        "stomach complaints"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Historisch-volkskundlich wurde Opium gegen Asthma, Magenleiden, Schlaflosigkeit und Schmerzen genutzt; in der Antike galt die Mohnkapsel als Schlaf spendend. Diese Anwendungen sind historisch und werden wegen der hohen Abhängigkeits- und Vergiftungsgefahr heute nicht empfohlen.",
+        "en": "Historically and in folk medicine, opium was used against asthma, stomach illnesses, sleeplessness and pain; in antiquity the poppy capsule was regarded as sleep-inducing. These uses are historical and are not recommended today owing to the high risk of dependence and poisoning."
+      },
+      "source_ids": [
+        "wiki-en",
+        "wiki-de"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "spice",
+      "target": [
+        "culinary use"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Die reifen Mohnsamen sind nahezu alkaloidfrei und werden als Backzutat und Speiseöl-Lieferant verwendet (z. B. Mohnkuchen, Mohnbrötchen).",
+        "en": "The ripe poppy seeds are virtually alkaloid-free and are used as a baking ingredient and source of edible oil (e.g. poppy-seed cake and rolls)."
+      },
+      "source_ids": [
+        "wiki-de",
+        "wiki-en"
+      ],
+      "plant_part": "seed",
+      "evidence_level": "traditional"
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "harvest_part": {
+      "de": "Samenkapsel und reife Samen (Milchsaft aus unreifer Kapsel)",
+      "en": "Seed capsule and ripe seeds (latex from unripe capsule)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Hochgradig giftig und stark abhängig machend. Opiate wie Morphin können psychische und physische Abhängigkeit verursachen; bei Überdosierung tritt der Tod durch Atemdepression ein. Gefährliche Wechselwirkungen mit anderen dämpfenden Substanzen (Alkohol, Benzodiazepine, weitere Opioide). Anwendung ausschließlich als zugelassenes Arzneimittel unter ärztlicher Kontrolle. Keine Selbstgewinnung oder Selbstmedikation. Giftig für Haustiere.",
+      "en": "Highly toxic and strongly addictive. Opiates such as morphine can cause psychological and physical dependence; overdose leads to death by respiratory depression. Dangerous interactions with other depressant substances (alcohol, benzodiazepines, other opioids). Use only as an approved medicine under medical supervision. No self-extraction or self-medication. Toxic to pets."
+    },
+    "external_only": false,
+    "toxicity_level": "toxic",
+    "pet_toxic": true
+  },
+  "constituents": [
+    {
+      "name": "Morphine",
+      "category": "alkaloid",
+      "note": {
+        "de": "Hauptalkaloid des Opiums (ca. 8-14 % des Trockengewichts); stark schmerzstillend und abhängig machend.",
+        "en": "Principal opium alkaloid (about 8-14% by dry weight); strongly analgesic and addictive."
+      }
+    },
+    {
+      "name": "Codeine",
+      "category": "alkaloid",
+      "note": {
+        "de": "Hustenstillendes und schwach schmerzstillendes Alkaloid.",
+        "en": "Antitussive and mildly analgesic alkaloid."
+      }
+    },
+    {
+      "name": "Thebaine",
+      "category": "alkaloid",
+      "note": {
+        "de": "Ausgangsstoff für halbsynthetische Opioide wie Oxycodon.",
+        "en": "Precursor for semi-synthetic opioids such as oxycodone."
+      }
+    },
+    {
+      "name": "Papaverine",
+      "category": "alkaloid",
+      "note": {
+        "de": "Krampflösend (spasmolytisch) auf glatte Muskulatur.",
+        "en": "Spasmolytic, relaxing smooth muscle."
+      }
+    },
+    {
+      "name": "Noscapine",
+      "category": "alkaloid",
+      "note": {
+        "de": "Auch Narkotin; hustenstillend, nicht abhängig machend.",
+        "en": "Also called narcotine; antitussive, non-addictive."
+      }
+    },
+    {
+      "name": "Narceine",
+      "category": "alkaloid",
+      "note": {
+        "de": "Eines der Nebenalkaloide des Opiums.",
+        "en": "One of the minor opium alkaloids."
+      }
+    },
+    {
+      "name": "Oripavine",
+      "category": "alkaloid",
+      "note": {
+        "de": "Alkaloid und Stoffwechselzwischenprodukt im Mohn.",
+        "en": "Alkaloid and metabolic intermediate in the poppy."
+      }
+    },
+    {
+      "name": "Fatty seed oil",
+      "category": "essential_oil",
+      "note": {
+        "de": "Reife Samen liefern ein hochwertiges, nahezu alkaloidfreies Speiseöl.",
+        "en": "Ripe seeds yield a high-quality, virtually alkaloid-free edible oil."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "legal_status": {
+    "controlled": true,
+    "summary": {
+      "de": "Betäubungsmittel; Opium und Mohnstroh international kontrolliert.",
+      "en": "Narcotic; opium and poppy straw internationally controlled."
+    },
+    "note": {
+      "de": "Schlafmohn bzw. Opium und seine Alkaloide unterliegen der UN-Einheitskonvention über Suchtstoffe von 1961. Anbau, Besitz und Verwendung sind je nach Land unterschiedlich geregelt - informiere dich über die für dich geltende Rechtslage. Diese Angaben sind keine Erlaubnis zu Anbau oder Konsum.",
+      "en": "The opium poppy, opium and its alkaloids fall under the UN Single Convention on Narcotic Drugs of 1961. Cultivation, possession and use are regulated differently from country to country - inform yourself about the law that applies to you. This information is not a permission to cultivate or consume."
+    },
+    "source_ids": [
+      "single-convention",
+      "wiki-de"
+    ]
+  },
+  "sources": [
+    {
+      "id": "wiki-en",
+      "type": "wikipedia",
+      "title": "Opium poppy - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Opium_poppy",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "wiki-de",
+      "type": "wikipedia",
+      "title": "Schlafmohn - Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Schlafmohn",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "single-convention",
+      "type": "monograph",
+      "title": "Single Convention on Narcotic Drugs, 1961 - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Single_Convention_on_Narcotic_Drugs",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "commons-img",
+      "type": "commons",
+      "title": "File:Papaver somniferum FotoTakkk Hungary.jpg - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Papaver_somniferum_FotoTakkk_Hungary.jpg",
+      "accessed": "2026-05-31"
+    }
+  ],
+  "image": {
+    "filename": "papaver-somniferum.webp",
+    "alt": {
+      "de": "Violette Blüte des Schlafmohns (Papaver somniferum) mit Regentropfen.",
+      "en": "Mauve flower of the opium poppy (Papaver somniferum) with raindrops."
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Takkk",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Papaver_somniferum_FotoTakkk_Hungary.jpg"
+  }
+}

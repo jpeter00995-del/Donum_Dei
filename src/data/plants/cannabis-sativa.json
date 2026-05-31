@@ -1,0 +1,232 @@
+{
+  "slug": "cannabis-sativa",
+  "kingdom": "plant",
+  "names": {
+    "de": "Hanf / Cannabis",
+    "en": "Cannabis / Hemp",
+    "latin": "Cannabis sativa L."
+  },
+  "family": {
+    "de": "Hanfgewächse",
+    "en": "Hemp family",
+    "latin": "Cannabaceae"
+  },
+  "description": {
+    "de": "Cannabis sativa ist eine einjährige, meist zweihäusige (diözische) krautige Pflanze aus der Familie der Hanfgewächse (Cannabaceae), ursprünglich in Ostasien beheimatet und heute weltweit verbreitet. Die Pflanze wird je nach Bedingungen 20 cm bis über 5 m hoch und trägt handförmig geteilte, gesägte Blätter mit 1 bis 13 Fingerblättchen. Sie wurde über die gesamte aufgezeichnete Geschichte angebaut: als Faserpflanze für Textilien, Seile und Papier, als Ölsaat sowie seit der Antike als Heil- und Rauschpflanze. Bereits im chinesischen Arzneibuch Shennong Bencaojing wird Hanf als Heilmittel erwähnt, und in der traditionellen indischen Medizin diente er als beruhigendes, schmerzlinderndes und entzündungshemmendes Mittel. Heute werden über 500 Inhaltsstoffe beschrieben, darunter mindestens 113 Cannabinoide wie das psychoaktive THC und das nicht-berauschende CBD.",
+    "en": "Cannabis sativa is an annual, usually dioecious herbaceous plant of the hemp family (Cannabaceae), native to Eastern Asia and now cosmopolitan through cultivation. Depending on conditions it grows from 20 cm to over 5 m tall and bears palmately divided, serrated leaves with 1 to 13 leaflets. It has been cultivated throughout recorded history as a fibre crop for textiles, rope and paper, as an oilseed, and since antiquity as a medicinal and intoxicating plant. The Chinese pharmacopoeia Shennong Bencaojing already records hemp as a remedy, and traditional Indian medicine used it as a sedative, analgesic and anti-inflammatory agent. More than 500 compounds are now described, including at least 113 cannabinoids such as the psychoactive THC and the non-intoxicating CBD."
+  },
+  "teaser": {
+    "de": "Uralte Faser-, Öl- und Heilpflanze, deren Cannabinoide THC und CBD sie zugleich zu einer international kontrollierten Rauschpflanze machen.",
+    "en": "An ancient fibre, oil and medicinal plant whose cannabinoids THC and CBD also make it an internationally controlled psychoactive species."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": [
+        "epilepsy",
+        "Dravet syndrome",
+        "Lennox-Gastaut syndrome"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Cannabidiol (CBD) ist als Arzneimittel zur Behandlung schwerer kindlicher Epilepsieformen (Dravet- und Lennox-Gastaut-Syndrom) zugelassen; dies gilt als die belastbarste Evidenz für einen medizinischen Cannabis-Inhaltsstoff.",
+        "en": "Cannabidiol (CBD) is approved as a medicine for severe childhood epilepsies (Dravet and Lennox-Gastaut syndromes); this represents the most robust evidence base for a medicinal cannabis constituent."
+      },
+      "source_ids": [
+        "wp-medical-cannabis"
+      ],
+      "plant_part": "flower",
+      "evidence_level": "clinical_trial"
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "chemotherapy-induced nausea",
+        "vomiting"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Cannabinoide werden gegen Übelkeit und Erbrechen während einer Chemotherapie eingesetzt und waren in Studien einigen herkömmlichen Mitteln überlegen.",
+        "en": "Cannabinoids are used against chemotherapy-induced nausea and vomiting and outperformed some conventional antiemetics in trials."
+      },
+      "source_ids": [
+        "wp-medical-cannabis"
+      ],
+      "plant_part": "flower",
+      "evidence_level": "clinical_trial"
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "multiple sclerosis spasticity",
+        "neuropathic pain"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Oraler Cannabis-Extrakt kann Spastik bei Multipler Sklerose lindern; bei chronischen, vor allem neuropathischen Schmerzen zeigt sich ein moderater, aber uneinheitlicher Effekt.",
+        "en": "Oral cannabis extract may relieve spasticity in multiple sclerosis; for chronic, especially neuropathic pain it shows a modest but inconsistent effect."
+      },
+      "source_ids": [
+        "wp-medical-cannabis"
+      ],
+      "plant_part": "flower",
+      "evidence_level": "ema_well_established"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "pain",
+        "sedation",
+        "inflammation"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "In der traditionellen indischen Medizin diente Cannabis als beruhigendes, schlafförderndes, schmerzlinderndes und entzündungshemmendes Mittel; im mittelalterlichen Europa auch zur Schmerzlinderung bei der Geburt. (Historische Überlieferung, keine Konsumempfehlung.)",
+        "en": "In traditional Indian medicine cannabis served as a sedative, hypnotic, analgesic and anti-inflammatory agent; in medieval Europe also for pain relief during childbirth. (Historical record, not a usage recommendation.)"
+      },
+      "source_ids": [
+        "wp-en",
+        "wp-de"
+      ],
+      "plant_part": "flower",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "nutrition",
+        "hemp oil",
+        "fibre"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Hanfsamen werden als Nahrung und zur Ölgewinnung genutzt, die Stängelfasern seit der Antike für Textilien, Seile und Papier. Diese Nutzungen sind nicht psychoaktiv.",
+        "en": "Hemp seeds are used as food and for oil, and the stem fibres have been used since antiquity for textiles, rope and paper. These uses are non-psychoactive."
+      },
+      "source_ids": [
+        "wp-en",
+        "wp-de"
+      ],
+      "plant_part": "seed",
+      "evidence_level": "traditional"
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Blütenstände (weiblich), Samen und Fasern",
+      "en": "Female flowering tops, seeds and fibre"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Psychoaktiv durch THC; akute Wirkungen umfassen Schwindel, Müdigkeit, Erbrechen und Halluzinationen. Höhere Dosen und früher Konsum erhöhen das Psychose-Risiko (besonders bei genetischer Veranlagung) und können die kognitive Entwicklung bei Jugendlichen beeinträchtigen. Regelmäßiger Gebrauch kann zu Abhängigkeit und Entzugssymptomen führen; selten tritt ein Cannabinoid-Hyperemesis-Syndrom auf. Wechselwirkungen mit sedierenden Medikamenten möglich. Kein Konsum in Schwangerschaft/Stillzeit.",
+      "en": "Psychoactive through THC; acute effects include dizziness, tiredness, vomiting and hallucinations. Higher doses and early-life use raise the risk of psychosis (especially with genetic predisposition) and may impair cognitive development in adolescents. Regular use can cause dependence and withdrawal symptoms; rarely a cannabinoid hyperemesis syndrome occurs. Interactions with sedative medication are possible. Not for use in pregnancy/breastfeeding."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true
+  },
+  "constituents": [
+    {
+      "name": "Tetrahydrocannabinol (THC, Δ9-THC)",
+      "category": "other",
+      "note": {
+        "de": "Wichtigster psychoaktiver Inhaltsstoff (Cannabinoid).",
+        "en": "Main psychoactive constituent (cannabinoid)."
+      }
+    },
+    {
+      "name": "Cannabidiol (CBD)",
+      "category": "other",
+      "note": {
+        "de": "Nicht-berauschendes Cannabinoid; arzneilich bei seltenen Epilepsien zugelassen.",
+        "en": "Non-intoxicating cannabinoid; medicinally approved for rare epilepsies."
+      }
+    },
+    {
+      "name": "Cannabinol (CBN)",
+      "category": "other",
+      "note": {
+        "de": "Abbauprodukt von THC, schwach psychoaktives Cannabinoid.",
+        "en": "THC degradation product, weakly psychoactive cannabinoid."
+      }
+    },
+    {
+      "name": "Myrcen, Limonen, Caryophyllen (Terpene)",
+      "category": "essential_oil",
+      "note": {
+        "de": "Flüchtige Terpene aus den Drüsenhaaren, prägen das charakteristische Aroma.",
+        "en": "Volatile terpenes from the glandular trichomes, responsible for the characteristic aroma."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "legal_status": {
+    "controlled": true,
+    "summary": {
+      "de": "International kontrolliertes Betäubungsmittel; unter dem UN-Einheits-Übereinkommen von 1961 (Schedule I) gelistet.",
+      "en": "Internationally controlled narcotic; listed under the 1961 UN Single Convention (Schedule I)."
+    },
+    "note": {
+      "de": "Die rechtliche Lage ist je nach Land sehr unterschiedlich geregelt und reicht von strengem Verbot über medizinische Zulassung bis zu teilweiser Legalisierung. Informiere dich über die für dich geltende Rechtslage.",
+      "en": "Legal status varies widely by country, ranging from strict prohibition through medical approval to partial legalisation. Inform yourself about the rules that apply to you."
+    },
+    "source_ids": [
+      "wp-legal-status",
+      "wp-medical-cannabis"
+    ]
+  },
+  "sources": [
+    {
+      "id": "wp-en",
+      "type": "wikipedia",
+      "title": "Cannabis sativa — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Cannabis_sativa",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "wp-de",
+      "type": "wikipedia",
+      "title": "Hanf — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Hanf",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "wp-medical-cannabis",
+      "type": "wikipedia",
+      "title": "Medical cannabis — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Medical_cannabis",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "wp-legal-status",
+      "type": "wikipedia",
+      "title": "Legal status of cannabis — Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Legal_status_of_cannabis",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "commons-img",
+      "type": "commons",
+      "title": "File:Cannabis sativa 001.JPG — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cannabis_sativa_001.JPG",
+      "accessed": "2026-05-31"
+    }
+  ],
+  "image": {
+    "filename": "cannabis-sativa.webp",
+    "alt": {
+      "de": "Blühende Cannabis-sativa-Pflanze mit handförmig geteilten, gesägten Blättern.",
+      "en": "Flowering Cannabis sativa plant with palmately divided, serrated leaves."
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "H. Zell",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cannabis_sativa_001.JPG"
+  }
+}
