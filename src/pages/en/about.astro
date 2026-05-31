@@ -31,6 +31,53 @@ const locale = 'en' as const;
       </p>
     </section>
 
+    <!-- === 2b. WHAT YOU CAN DO HERE === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-4">What you can do here</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <a href="/en/" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🌿 Explore plants</div>
+          <p class="text-sm text-slate-600 mt-1">Browse 223 medicinal plants, filter by use & season.</p>
+        </a>
+        <a href="/en/search" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🔍 Full-text search</div>
+          <p class="text-sm text-slate-600 mt-1">Search across names, constituents and descriptions — works offline.</p>
+        </a>
+        <a href="/en/help-with" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🩹 Help with symptoms</div>
+          <p class="text-sm text-slate-600 mt-1">From symptom to plant — curated, with sources and safety notes.</p>
+        </a>
+        <a href="/en/map" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🗺️ Distribution map</div>
+          <p class="text-sm text-slate-600 mt-1">Where each species occurs naturally — on an interactive map.</p>
+        </a>
+        <a href="/en/my-garden/" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🪴 My garden</div>
+          <p class="text-sm text-slate-600 mt-1">Climate zone + garden type → personalized planting plan with bed layout.</p>
+        </a>
+        <a href="/en/calendar" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">📅 Sowing calendar</div>
+          <p class="text-sm text-slate-600 mt-1">Weekly view of garden tasks, exportable as .ics.</p>
+        </a>
+        <a href="/en/companion-planting" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🤝 Companion planting</div>
+          <p class="text-sm text-slate-600 mt-1">Good & bad neighbors — which plants get along.</p>
+        </a>
+        <a href="/en/grow-at-home" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🏠 Grow at home</div>
+          <p class="text-sm text-slate-600 mt-1">Indoor- & pot-friendly species for windowsill and balcony.</p>
+        </a>
+        <a href="/en/quiz" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🎯 Plant quiz</div>
+          <p class="text-sm text-slate-600 mt-1">Learn species, effects and toxicity the playful way.</p>
+        </a>
+        <a href="/en/permaculture" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">♻️ Permaculture & sets</div>
+          <p class="text-sm text-slate-600 mt-1">Ready-made plant sets and permaculture principles for the self-sufficient garden.</p>
+        </a>
+      </div>
+    </section>
+
     <!-- === 3. STATS GRID === -->
     <section class="mb-10">
       <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-4">As of May 2026</h2>
@@ -134,6 +181,48 @@ const locale = 'en' as const;
         Built by <strong>Maikel Ganske</strong> (Varna, Bulgaria) — solo developer, self-sufficiency enthusiast,
         working on the database since 2024.
       </p>
+    </section>
+
+    <!-- === 7b. FAQ === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-4">Frequently asked</h2>
+      <div class="space-y-4">
+        <details class="group border border-slate-200 rounded-lg p-4">
+          <summary class="font-semibold text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            Is Donum Dei free?
+            <span class="text-slate-400 group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="text-sm text-slate-700 mt-2 leading-relaxed">Yes, completely. No sign-up, no ads, no trackers, no cost. The code is open source (MIT).</p>
+        </details>
+        <details class="group border border-slate-200 rounded-lg p-4">
+          <summary class="font-semibold text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            Can I use the site offline?
+            <span class="text-slate-400 group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="text-sm text-slate-700 mt-2 leading-relaxed">Yes. Donum Dei is a PWA — after the first visit the database and search work without an internet connection. On mobile you can add it to your home screen.</p>
+        </details>
+        <details class="group border border-slate-200 rounded-lg p-4">
+          <summary class="font-semibold text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            Is the medicinal information medically reviewed?
+            <span class="text-slate-400 group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="text-sm text-slate-700 mt-2 leading-relaxed">Every fact is sourced (EMA HMPC, Commission E, ESCOP, clinical studies, public-domain classics). This is <strong>not medical advice</strong> — it is curated, traceable knowledge for education and documentation.</p>
+        </details>
+        <details class="group border border-slate-200 rounded-lg p-4">
+          <summary class="font-semibold text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            Where do the images come from?
+            <span class="text-slate-400 group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="text-sm text-slate-700 mt-2 leading-relaxed">Exclusively from Wikimedia Commons under CC-conformant licenses, with full <a href="/en/image-credits" class="text-emerald-700 underline hover:text-emerald-800">image credits</a>.</p>
+        </details>
+        <details class="group border border-slate-200 rounded-lg p-4">
+          <summary class="font-semibold text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            I found an error — what should I do?
+            <span class="text-slate-400 group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="text-sm text-slate-700 mt-2 leading-relaxed">Very welcome. Use the <a href="/en/feedback" class="text-emerald-700 underline hover:text-emerald-800">feedback page</a> or report it directly in the <a href="https://github.com/jpeter00995-del/Donum_Dei" class="text-emerald-700 underline hover:text-emerald-800">GitHub repository</a>.</p>
+        </details>
+      </div>
     </section>
 
     <!-- === 8. DISCLAIMER === -->

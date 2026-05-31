@@ -31,6 +31,53 @@ const locale = 'de' as const;
       </p>
     </section>
 
+    <!-- === 2b. WAS DU HIER TUN KANNST === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-4">Was du hier tun kannst</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <a href="/de/" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🌿 Pflanzen entdecken</div>
+          <p class="text-sm text-slate-600 mt-1">223 Heilpflanzen durchstöbern, nach Anwendung & Saison filtern.</p>
+        </a>
+        <a href="/de/suche" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🔍 Volltext-Suche</div>
+          <p class="text-sm text-slate-600 mt-1">Über Namen, Wirkstoffe und Beschreibungen suchen — offline-fähig.</p>
+        </a>
+        <a href="/de/hilfe-bei" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🩹 Hilfe bei Beschwerden</div>
+          <p class="text-sm text-slate-600 mt-1">Vom Symptom zur Pflanze — kuratiert, mit Quellen und Sicherheits-Hinweisen.</p>
+        </a>
+        <a href="/de/karte" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🗺️ Verbreitungs-Karte</div>
+          <p class="text-sm text-slate-600 mt-1">Wo welche Art natürlich vorkommt — auf einer interaktiven Karte.</p>
+        </a>
+        <a href="/de/mein-garten/" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🪴 Mein Garten</div>
+          <p class="text-sm text-slate-600 mt-1">Klimazone + Garten-Typ → personalisierter Pflanz-Plan mit Beet-Layout.</p>
+        </a>
+        <a href="/de/kalender" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">📅 Aussaat-Kalender</div>
+          <p class="text-sm text-slate-600 mt-1">Wochen-Ansicht der Garten-Aufgaben, exportierbar als .ics.</p>
+        </a>
+        <a href="/de/mischkultur" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🤝 Mischkultur</div>
+          <p class="text-sm text-slate-600 mt-1">Gute & schlechte Nachbarn — welche Pflanzen sich vertragen.</p>
+        </a>
+        <a href="/de/zuhause-anbauen" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🏠 Zuhause anbauen</div>
+          <p class="text-sm text-slate-600 mt-1">Indoor- & Topf-taugliche Arten für Fensterbank und Balkon.</p>
+        </a>
+        <a href="/de/quiz" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">🎯 Pflanzen-Quiz</div>
+          <p class="text-sm text-slate-600 mt-1">Spielerisch Arten, Wirkungen und Giftigkeit lernen.</p>
+        </a>
+        <a href="/de/permakultur" class="block border border-slate-200 rounded-lg p-4 hover:border-emerald-400 hover:shadow-sm transition">
+          <div class="font-semibold text-slate-900">♻️ Permakultur & Pakete</div>
+          <p class="text-sm text-slate-600 mt-1">Fertige Pflanzen-Sets und Permakultur-Prinzipien für den Selbstversorger-Garten.</p>
+        </a>
+      </div>
+    </section>
+
     <!-- === 3. STATS-GRID === -->
     <section class="mb-10">
       <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-4">Stand 2026-05</h2>
@@ -135,6 +182,48 @@ const locale = 'de' as const;
         Aufgebaut von <strong>Maikel Ganske</strong> (Varna, Bulgarien) — Solo-Entwickler, Selbstversorger-Enthusiast,
         seit 2024 an der Datenbank.
       </p>
+    </section>
+
+    <!-- === 7b. FAQ === -->
+    <section class="mb-10">
+      <h2 class="font-serif text-2xl font-semibold text-slate-900 mb-4">Häufige Fragen</h2>
+      <div class="space-y-4">
+        <details class="group border border-slate-200 rounded-lg p-4">
+          <summary class="font-semibold text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            Ist Donum Dei kostenlos?
+            <span class="text-slate-400 group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="text-sm text-slate-700 mt-2 leading-relaxed">Ja, vollständig. Keine Anmeldung, keine Werbung, keine Tracker, keine Kosten. Der Code ist Open Source (MIT).</p>
+        </details>
+        <details class="group border border-slate-200 rounded-lg p-4">
+          <summary class="font-semibold text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            Kann ich die Seite offline nutzen?
+            <span class="text-slate-400 group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="text-sm text-slate-700 mt-2 leading-relaxed">Ja. Donum Dei ist eine PWA — nach dem ersten Besuch funktionieren Datenbank und Suche auch ohne Internet. Auf dem Handy lässt sie sich zum Startbildschirm hinzufügen.</p>
+        </details>
+        <details class="group border border-slate-200 rounded-lg p-4">
+          <summary class="font-semibold text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            Sind die Heil-Angaben medizinisch geprüft?
+            <span class="text-slate-400 group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="text-sm text-slate-700 mt-2 leading-relaxed">Jeder Fakt ist quellenbelegt (EMA-HMPC, Kommission E, ESCOP, klinische Studien, Public-Domain-Klassiker). Das ist <strong>kein medizinischer Rat</strong> — es ist kuratiertes, nachvollziehbares Wissen für Bildung und Dokumentation.</p>
+        </details>
+        <details class="group border border-slate-200 rounded-lg p-4">
+          <summary class="font-semibold text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            Woher kommen die Bilder?
+            <span class="text-slate-400 group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="text-sm text-slate-700 mt-2 leading-relaxed">Ausschließlich von Wikimedia Commons unter CC-konformer Lizenz, mit vollständigem <a href="/de/bildnachweis" class="text-emerald-700 underline hover:text-emerald-800">Bildnachweis</a>.</p>
+        </details>
+        <details class="group border border-slate-200 rounded-lg p-4">
+          <summary class="font-semibold text-slate-900 cursor-pointer list-none flex justify-between items-center">
+            Ich habe einen Fehler gefunden — was tun?
+            <span class="text-slate-400 group-open:rotate-180 transition">▾</span>
+          </summary>
+          <p class="text-sm text-slate-700 mt-2 leading-relaxed">Sehr willkommen. Nutze die <a href="/de/feedback" class="text-emerald-700 underline hover:text-emerald-800">Feedback-Seite</a> oder melde es direkt im <a href="https://github.com/jpeter00995-del/Donum_Dei" class="text-emerald-700 underline hover:text-emerald-800">GitHub-Repository</a>.</p>
+        </details>
+      </div>
     </section>
 
     <!-- === 8. DISCLAIMER === -->
