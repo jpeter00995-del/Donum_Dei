@@ -1,0 +1,218 @@
+{
+  "slug": "inonotus-obliquus",
+  "kingdom": "fungus",
+  "names": {
+    "de": "Schiefer Schillerporling (Chaga)",
+    "en": "Chaga",
+    "latin": "Inonotus obliquus"
+  },
+  "family": {
+    "de": "Borstenscheiblingsverwandte",
+    "en": "Hymenochaetaceae",
+    "latin": "Hymenochaetaceae"
+  },
+  "description": {
+    "de": "Der Schiefe Schillerporling (Chaga, Inonotus obliquus) ist ein parasitischer Pilz aus der Familie der Hymenochaetaceae mit zirkumborealer Verbreitung in Russland, Skandinavien, dem Baltikum, Asien und Nordamerika. Statt eines typischen Pilzhutes bildet er an lebenden Birken (selten Erlen, Buchen, Eichen) harte, schwarze, rissige Knollen (Sklerotien) von bis zu 40 cm Breite, deren dunkle Färbung auf einem hohen Melaningehalt beruht; das Innere ist zimtbraun. Diese schwarzen Knollen werden seit dem 15./16. Jahrhundert in der russischen und sibirischen Volksmedizin verwendet, traditionell als Dekokt (Tee) gegen Magen-Darm-Beschwerden und volkstümlich gegen Krebs. Bekanntheit erlangte der Pilz im Westen durch Alexander Solschenizyns Roman \"Krebsstation\". Chaga enthält über 200 bioaktive Substanzen, darunter Polysaccharide (Beta-Glucane), Triterpene wie Betulin und Betulinsäure, Inotodiol, Polyphenole und Melanin; eine belastbare klinische Wirksamkeit beim Menschen ist bislang nicht durch Studien belegt.",
+    "en": "Chaga (Inonotus obliquus) is a parasitic fungus of the family Hymenochaetaceae with a circumboreal distribution across Russia, Scandinavia, the Baltic region, Asia and North America. Rather than a typical mushroom cap it forms hard, black, cracked sterile masses (sclerotia) up to 40 cm wide on living birch trees (rarely alder, beech or oak); their dark colour comes from a high melanin content, while the interior is cinnamon-brown. These black conks have been used since the 15th–16th century in Russian and Siberian folk medicine, traditionally as a decoction (tea) for gastrointestinal complaints and, in folk tradition, against cancer. The fungus became widely known in the West through Alexander Solzhenitsyn's novel \"Cancer Ward\". Chaga contains over 200 bioactive substances including polysaccharides (beta-glucans), triterpenes such as betulin and betulinic acid, inotodiol, polyphenols and melanin; robust clinical efficacy in humans has not yet been demonstrated by trials."
+  },
+  "teaser": {
+    "de": "Schwarze, birkenparasitische Pilzknolle, die in der sibirischen Volksmedizin seit Jahrhunderten als Tee genutzt wird.",
+    "en": "A black, birch-dwelling fungal conk used for centuries as a tea in Siberian folk medicine."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestive complaints",
+        "general tonic",
+        "immune support"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Traditionell wird die zerkleinerte schwarze Knolle als langes Dekokt (Tee) aufgekocht und in der russischen und sibirischen Volksmedizin als Magen-Darm-Mittel und allgemeines Stärkungsmittel getrunken.",
+        "en": "Traditionally the crushed black conk is simmered as a long decoction (tea), drunk in Russian and Siberian folk medicine as a remedy for gastrointestinal complaints and as a general tonic."
+      },
+      "source_ids": [
+        "src_wikipedia_de",
+        "src_wikipedia_en"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "tea",
+      "target": [
+        "cancer (folk use, unproven)"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "In der russischen Volksmedizin seit dem 15. Jahrhundert volkstümlich gegen Krebs eingesetzt; eine Heilwirkung beim Menschen ist wissenschaftlich nicht belegt.",
+        "en": "Used in Russian folk medicine since the 15th century as a folk remedy against cancer; a curative effect in humans is not scientifically proven."
+      },
+      "source_ids": [
+        "src_wikipedia_de",
+        "src_review_2023"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "general tonic",
+        "antioxidant support"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Alkoholische Auszüge (Tinkturen) und Doppelextrakte werden als Nahrungsergänzung verwendet, um sowohl wasser- als auch alkohollösliche Bestandteile (Triterpene, Polyphenole) zu erfassen.",
+        "en": "Alcoholic extracts (tinctures) and dual extracts are used as dietary supplements to capture both water- and alcohol-soluble constituents (triterpenes, polyphenols)."
+      },
+      "source_ids": [
+        "src_review_2023",
+        "src_wikipedia_en"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "general tonic",
+        "immune support"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Getrocknetes, gemahlenes Sklerotium wird als Pulver oder in Kapseln als Nahrungsergänzungsmittel angeboten; die Qualität schwankt stark wegen uneinheitlicher Verarbeitung.",
+        "en": "Dried, ground sclerotium is sold as powder or capsules as a dietary supplement; quality varies considerably due to inconsistent processing."
+      },
+      "source_ids": [
+        "src_wikipedia_en"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    }
+  ],
+  "season": {
+    "active_months": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "harvest_part": {
+      "de": "Sklerotium (Knolle)",
+      "en": "sclerotium (conk)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Chaga enthält sehr hohe Mengen an Oxalaten (ca. 2.800-11.200 mg/100 g); chronischer Konsum kann zu Nierenschäden (Oxalat-Nephropathie) führen - bei Nierenerkrankungen oder Nierensteinen meiden. Mögliche Wechselwirkung mit Gerinnungshemmern (z.B. Warfarin) und Blutzucker-senkenden Medikamenten. Eine belegte Heilwirkung beim Menschen fehlt; nicht als Ersatz für ärztliche Behandlung verwenden. In Schwangerschaft/Stillzeit meiden.",
+      "en": "Chaga contains very high levels of oxalates (about 2,800-11,200 mg/100 g); chronic use can cause kidney damage (oxalate nephropathy) - avoid with kidney disease or kidney stones. Possible interaction with anticoagulants (e.g. warfarin) and blood-sugar-lowering medication. There is no proven curative effect in humans; do not use as a substitute for medical treatment. Avoid during pregnancy and breastfeeding."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false
+  },
+  "constituents": [
+    {
+      "name": "Beta-Glucans (polysaccharides)",
+      "category": "polysaccharide",
+      "note": {
+        "de": "Wasserlösliche Beta-D-Glucane (bis ca. 35 % im Reinextrakt), immunmodulierend und entzündungshemmend in Laborstudien.",
+        "en": "Water-soluble beta-D-glucans (up to ~35% in pure extract), immunomodulatory and anti-inflammatory in laboratory studies."
+      }
+    },
+    {
+      "name": "Betulin / Betulinic acid",
+      "category": "other",
+      "note": {
+        "de": "Aus der Birke aufgenommene Triterpene mit proapoptotischen Effekten in Laborversuchen.",
+        "en": "Triterpenes taken up from the birch host, with proapoptotic effects in laboratory studies."
+      }
+    },
+    {
+      "name": "Inotodiol",
+      "category": "other",
+      "note": {
+        "de": "Lanosteroid-Triterpen, untersucht auf zytotoxische und entzündungshemmende Wirkung.",
+        "en": "A lanostane triterpenoid studied for cytotoxic and anti-inflammatory activity."
+      }
+    },
+    {
+      "name": "Melanin",
+      "category": "other",
+      "note": {
+        "de": "Hoher Melaningehalt bedingt die schwarze Färbung des Sklerotiums; antioxidative Eigenschaften.",
+        "en": "High melanin content gives the sclerotium its black colour; antioxidant properties."
+      }
+    },
+    {
+      "name": "Polyphenols / phenolic acids",
+      "category": "phenolic_acid",
+      "note": {
+        "de": "Phenolische Verbindungen mit antioxidativen Eigenschaften.",
+        "en": "Phenolic compounds with antioxidant properties."
+      }
+    },
+    {
+      "name": "Phytosterols (ergosterol, lanosterol)",
+      "category": "other",
+      "note": {
+        "de": "Sterole als sekundäre Inhaltsstoffe.",
+        "en": "Sterols present as secondary constituents."
+      }
+    },
+    {
+      "name": "Oxalates",
+      "category": "other",
+      "note": {
+        "de": "Sehr hohe Konzentrationen - sicherheitsrelevant (Nieren).",
+        "en": "Very high concentrations - relevant for safety (kidneys)."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_wikipedia_en",
+      "type": "wikipedia",
+      "title": "Inonotus obliquus — Wikipedia (English)",
+      "url": "https://en.wikipedia.org/wiki/Inonotus_obliquus",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_wikipedia_de",
+      "type": "wikipedia",
+      "title": "Schiefer Schillerporling — Wikipedia (Deutsch)",
+      "url": "https://de.wikipedia.org/wiki/Schiefer_Schillerporling",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_review_2023",
+      "type": "monograph",
+      "title": "Therapeutic properties of Inonotus obliquus (Chaga mushroom): A review (PMC11132974)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11132974/",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_commons",
+      "type": "commons",
+      "title": "File:Inonotus obliquus, Finland.jpg — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Inonotus_obliquus,_Finland.jpg",
+      "accessed": "2026-05-31"
+    }
+  ],
+  "image": {
+    "filename": "inonotus-obliquus.webp",
+    "alt": {
+      "de": "Schwarze, rissige Chaga-Knolle (Inonotus obliquus) an einem Birkenstamm in Finnland.",
+      "en": "Black, cracked chaga conk (Inonotus obliquus) on a birch trunk in Finland."
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Höyhens",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Inonotus_obliquus,_Finland.jpg"
+  }
+}

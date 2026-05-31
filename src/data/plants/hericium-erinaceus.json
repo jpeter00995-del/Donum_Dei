@@ -1,0 +1,196 @@
+{
+  "slug": "hericium-erinaceus",
+  "kingdom": "fungus",
+  "names": {
+    "latin": "Hericium erinaceus",
+    "de": "Igel-Stachelbart (Löwenmähne)",
+    "en": "Lion's Mane"
+  },
+  "family": {
+    "latin": "Hericiaceae",
+    "de": "Stachelbartverwandte",
+    "en": "Hericium family (Hericiaceae)"
+  },
+  "description": {
+    "de": "Der Igel-Stachelbart (Hericium erinaceus) ist ein weißlicher, knolliger Pilz aus der Familie der Stachelbartverwandten (Hericiaceae, Ordnung Täublingsartige). Statt eines Huts trägt er dicht herabhängende, 1-5 cm lange Stacheln, die ihm das Aussehen einer Löwenmähne oder eines Affenkopfes geben; der Fruchtkörper erreicht etwa 10-25 cm Durchmesser. Er wächst als Schwächeparasit und Saprobiont an Laubholz, vor allem an Buche und Ahorn, in der gemäßigten Holarktis und ist in Deutschland selten und stark gefährdet. In Ostasien wird er seit Langem als Speisepilz (Geschmack und Konsistenz erinnern an Meeresfrüchte) und in der traditionellen chinesischen Medizin verwendet. Heutige Forschung untersucht vor allem seine neuroprotektiven Inhaltsstoffe Hericenone und Erinacine.",
+    "en": "Lion's mane (Hericium erinaceus) is a whitish, bulbous tooth fungus in the Hericiaceae family (order Russulales). Instead of a cap it bears crowded, hanging spines 1-5 cm long that give it the look of a lion's mane or monkey head; the fruiting body reaches about 10-25 cm across. It grows as a weak parasite and saprotroph on hardwoods, especially beech and maple, across the temperate Holarctic, and is rare and threatened in much of Europe. In East Asia it has long been eaten as a choice edible (its texture and taste are likened to seafood) and used in traditional Chinese medicine. Modern research focuses on its neuroactive compounds, the hericenones and erinacines."
+  },
+  "teaser": {
+    "de": "Markanter weißer Stachelpilz mit löwenmähnenartigen Fransen, geschätzt als Speisepilz und für seine nervenaktiven Inhaltsstoffe.",
+    "en": "A striking white spined mushroom with a lion's-mane fringe, prized as an edible and studied for its nerve-active compounds."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "cognition",
+        "general_tonic"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "In der traditionellen chinesischen Medizin wird der Pilz als Dekokt oder Tonikum zur Stärkung verwendet; ihm werden Wirkungen auf Magen, Verdauung und allgemeines Wohlbefinden zugeschrieben.",
+        "en": "In traditional Chinese medicine the mushroom is used as a decoction or tonic; it is traditionally associated with supporting the stomach, digestion and general vitality."
+      },
+      "source_ids": [
+        "src_wikipedia_en",
+        "src_wikipedia_de"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "cognition",
+        "mild_cognitive_impairment"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Getrocknetes Fruchtkörperpulver (z.B. als Kapseln/Tabletten) wird zur Unterstützung kognitiver Funktionen eingenommen. Eine kleine randomisierte, placebokontrollierte Doppelblindstudie (Mori et al. 2009) zeigte bei älteren Personen mit leichter kognitiver Beeinträchtigung über 16 Wochen verbesserte Werte einer kognitiven Skala; die Evidenz ist insgesamt noch begrenzt.",
+        "en": "Dried fruiting-body powder (e.g. as capsules/tablets) is taken to support cognitive function. A small randomized, double-blind, placebo-controlled trial (Mori et al. 2009) found improved cognitive-scale scores over 16 weeks in older adults with mild cognitive impairment; overall the clinical evidence remains limited."
+      },
+      "source_ids": [
+        "src_mori_2009",
+        "src_wikipedia_en"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "clinical_trial"
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "general_tonic",
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Volkstümlich werden auch alkoholische Auszüge (Tinkturen/Extrakte) des Fruchtkörpers als allgemeines Stärkungsmittel verwendet.",
+        "en": "In folk practice alcoholic extracts (tinctures) of the fruiting body are also used as a general restorative tonic."
+      },
+      "source_ids": [
+        "src_wikipedia_en"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    }
+  ],
+  "season": {
+    "active_months": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "harvest_part": {
+      "de": "Fruchtkörper",
+      "en": "fruiting body"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Wildvorkommen sind selten und geschützt - nicht in der Natur sammeln, nur kultivierte Ware verwenden. Allergische Reaktionen (Haut, Atemwege) sind beschrieben. Wegen möglicher Blutzucker- und gerinnungsbeeinflussender Effekte bei Diabetes, Blutgerinnungshemmern sowie in Schwangerschaft/Stillzeit vorher ärztlich abklären.",
+      "en": "Wild populations are rare and protected - do not forage; use cultivated material only. Allergic reactions (skin, respiratory) have been reported. Because of possible effects on blood sugar and clotting, consult a clinician before use if diabetic, taking anticoagulants, or pregnant/breastfeeding."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false
+  },
+  "constituents": [
+    {
+      "name": "Hericenones (A-H)",
+      "category": "other",
+      "note": {
+        "de": "Aromatische Verbindungen aus dem Fruchtkörper; regen in vitro die Synthese des Nervenwachstumsfaktors (NGF) an.",
+        "en": "Aromatic compounds from the fruiting body; stimulate nerve growth factor (NGF) synthesis in vitro."
+      }
+    },
+    {
+      "name": "Erinacines (A-K, P-S)",
+      "category": "other",
+      "note": {
+        "de": "Cyathin-Diterpenoide, vor allem im Myzel; potenziell ZNS-aktiv (NGF-Förderung).",
+        "en": "Cyathane diterpenoids, mainly in mycelium; potentially CNS-active (NGF promotion)."
+      }
+    },
+    {
+      "name": "Beta-Glucane / Polysaccharide",
+      "category": "polysaccharide",
+      "note": {
+        "de": "Beta-Glucane mit immunmodulierenden Eigenschaften.",
+        "en": "Beta-glucans with immunomodulating properties."
+      }
+    },
+    {
+      "name": "Phenolic acids",
+      "category": "phenolic_acid",
+      "note": {
+        "de": "Phenolsäuren mit antioxidativer Wirkung.",
+        "en": "Phenolic acids with antioxidant activity."
+      }
+    },
+    {
+      "name": "Ergosterol / Sterols",
+      "category": "other",
+      "note": {
+        "de": "Pilzsterole (Provitamin-D-Vorstufe).",
+        "en": "Fungal sterols (provitamin D precursor)."
+      }
+    },
+    {
+      "name": "Proteins and free amino acids",
+      "category": "other",
+      "note": {
+        "de": "Hoher Eiweißgehalt (rund 22 % der Trockenmasse) mit zahlreichen freien Aminosäuren.",
+        "en": "High protein content (around 22% of dry weight) with numerous free amino acids."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_wikipedia_en",
+      "type": "wikipedia",
+      "title": "Hericium erinaceus - Wikipedia (English)",
+      "url": "https://en.wikipedia.org/wiki/Hericium_erinaceus",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_wikipedia_de",
+      "type": "wikipedia",
+      "title": "Igel-Stachelbart - Wikipedia (Deutsch)",
+      "url": "https://de.wikipedia.org/wiki/Igel-Stachelbart",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_mori_2009",
+      "type": "monograph",
+      "title": "Mori et al. (2009): Improving effects of the mushroom Yamabushitake (Hericium erinaceus) on mild cognitive impairment: a double-blind placebo-controlled clinical trial, Phytotherapy Research 23(3):367-372",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/ptr.2634",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_livertox",
+      "type": "monograph",
+      "title": "Lion's Mane - LiverTox, NCBI Bookshelf (NBK599740)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK599740/",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_commons",
+      "type": "commons",
+      "title": "File:Hericium erinaceus 2.JPG - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Hericium_erinaceus_2.JPG",
+      "accessed": "2026-05-31"
+    }
+  ],
+  "image": {
+    "filename": "hericium-erinaceus.webp",
+    "alt": {
+      "de": "Weißer Igel-Stachelbart mit herabhängenden, fransenartigen Stacheln an einem Baumstamm.",
+      "en": "White lion's mane mushroom with hanging, fringe-like spines growing on a tree trunk."
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Властарь (Wikimedia Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hericium_erinaceus_2.JPG"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "slug": "ganoderma-lingzhi",
+  "kingdom": "fungus",
+  "names": {
+    "de": "Reishi / Glänzender Lackporling",
+    "en": "Reishi / Lingzhi",
+    "latin": "Ganoderma lingzhi"
+  },
+  "family": {
+    "de": "Lackporlingsverwandte",
+    "en": "Ganoderma family",
+    "latin": "Ganodermataceae"
+  },
+  "description": {
+    "de": "Der Reishi (Ganoderma lingzhi), im Chinesischen Lingzhi und im Deutschen oft als Glänzender Lackporling bezeichnet, ist ein holzbewohnender Porling aus der Familie der Ganodermataceae mit nieren- bis fächerförmigem, rotbraun glänzendem Hut und seitlich angesetztem Stiel. Die korkig-harte Fruchtschicht trägt auf der Unterseite feine, weißliche Poren; der Pilz wächst an Stümpfen, Wurzeln und am Stammfuß von Laubbäumen. In der Traditionellen Chinesischen Medizin gilt der Reishi seit über 2000 Jahren als 'Pilz der Unsterblichkeit'. Botanisch wurde der ostasiatische Heilpilz lange mit dem europäischen Ganoderma lucidum gleichgesetzt; genetische Analysen zeigen jedoch, dass die in China genutzte Art als eigenständige Spezies (Ganoderma lingzhi) abzugrenzen ist. Verwendet wird ausschließlich der getrocknete Fruchtkörper, der wegen seiner holzigen Konsistenz nicht als Speisepilz, sondern als Tee, Pulver oder Extrakt eingesetzt wird.",
+    "en": "Reishi (Ganoderma lingzhi), called lingzhi in Chinese, is a wood-dwelling polypore in the family Ganodermataceae with a reddish-brown, varnished, kidney- to fan-shaped cap and a laterally inserted stem. Its corky, hard flesh bears fine whitish pores beneath, and it grows on stumps, roots and the base of hardwood trees. In Traditional Chinese Medicine it has been revered for over 2,000 years as the 'mushroom of immortality'. The East Asian medicinal fungus was long equated with the European Ganoderma lucidum, but genetic analyses show the species used in China is better treated as a distinct taxon (Ganoderma lingzhi). Only the dried fruiting body is used; because it is too tough and woody to eat, it is consumed as a decoction (tea), powder or extract rather than as a culinary mushroom."
+  },
+  "teaser": {
+    "de": "Der rotbraun glänzende 'Pilz der Unsterblichkeit' aus der TCM, traditionell als Tee oder Extrakt zur Stärkung verwendet.",
+    "en": "The varnished reddish-brown 'mushroom of immortality' of Chinese medicine, traditionally taken as a tea or extract to support vitality."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "immune support",
+        "general tonic",
+        "fatigue"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Dekokt (langes Auskochen) des getrockneten, klein geschnittenen Fruchtkörpers als allgemeines Stärkungs- und Immuntonikum in der Traditionellen Chinesischen Medizin.",
+        "en": "Decoction (long simmering) of the dried, chopped fruiting body used as a general tonic and immune-supporting tea in Traditional Chinese Medicine."
+      },
+      "source_ids": [
+        "src_wikipedia_en",
+        "src_ncbi_book"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "immune support",
+        "stress",
+        "sleep"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Alkoholischer Auszug bzw. Doppelextrakt (Wasser + Alkohol) der Fruchtkörper, um sowohl die wasserlöslichen Polysaccharide als auch die alkohollöslichen Triterpene zu erfassen.",
+        "en": "Alcoholic or dual extract (water plus alcohol) of the fruiting body, taken to capture both the water-soluble polysaccharides and the alcohol-soluble triterpenes."
+      },
+      "source_ids": [
+        "src_ncbi_book",
+        "src_msk"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "immune support",
+        "wellbeing"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Getrocknetes Fruchtkörper-Pulver in Kapseln oder eingerührt, als modernes Nahrungsergänzungsmittel zur Immununterstützung.",
+        "en": "Dried fruiting-body powder in capsules or stirred into liquid, used as a modern dietary supplement for immune support."
+      },
+      "source_ids": [
+        "src_msk",
+        "src_mdpi"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    }
+  ],
+  "season": {
+    "active_months": [
+      9,
+      10,
+      11
+    ],
+    "harvest_part": {
+      "de": "Fruchtkörper",
+      "en": "fruiting body"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Allgemein gut verträglich. Reishi kann die Wirkung von Blutgerinnungshemmern (Antikoagulantien/Thrombozytenaggregationshemmern) verstärken und so das Blutungsrisiko erhöhen; bei solchen Medikamenten sowie vor Operationen ärztlich abklären. Selten allergische Reaktionen und Magen-Darm-Beschwerden. In Schwangerschaft, Stillzeit und bei Kindern mangels Daten meiden. Kein Speisepilz – der Fruchtkörper ist holzig und nicht zum Verzehr als Nahrung geeignet.",
+      "en": "Generally well tolerated. Reishi may enhance the effect of anticoagulant/antiplatelet drugs and increase bleeding risk; consult a clinician if taking such medication or before surgery. Rare allergic reactions and digestive upset have been reported. Avoid in pregnancy, breastfeeding and in children due to lack of data. Not a culinary mushroom – the fruiting body is woody and not eaten as food."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false
+  },
+  "constituents": [
+    {
+      "name": "Triterpene (Ganodersäuren, Lucidensäuren)",
+      "category": "other",
+      "note": {
+        "de": "Lanostan-Triterpenoide wie Ganodersäure A, C2, I; alkohollöslich, prägen den bitteren Geschmack.",
+        "en": "Lanostane triterpenoids such as ganoderic acids A, C2, I; alcohol-soluble and responsible for the bitter taste."
+      }
+    },
+    {
+      "name": "Beta-Glucane / Polysaccharide",
+      "category": "polysaccharide",
+      "note": {
+        "de": "Überwiegend β-(1→3)/(1→6)-Glucane, wasserlöslich; gelten als immunmodulierende Hauptkomponente.",
+        "en": "Mainly β-(1→3)/(1→6)-glucans, water-soluble; regarded as the main immunomodulating component."
+      }
+    },
+    {
+      "name": "Hetero-Polysaccharide (Arabinose, Galactose, Glucose, Xylose, Mannose)",
+      "category": "polysaccharide",
+      "note": {
+        "de": "Zuckerbausteine der Reishi-Polysaccharide.",
+        "en": "Sugar building blocks of the reishi polysaccharides."
+      }
+    },
+    {
+      "name": "Sterole / Ergosterol",
+      "category": "other",
+      "note": {
+        "de": "Pilztypische Sterole, Vorstufe von Vitamin D2.",
+        "en": "Fungal sterols, a provitamin D2 precursor."
+      }
+    },
+    {
+      "name": "Proteine und Peptidoglykane (z.B. Ling-Zhi-8)",
+      "category": "other",
+      "note": {
+        "de": "Proteingebundene Polysaccharide mit berichteter immunaktiver Wirkung.",
+        "en": "Protein-bound polysaccharides with reported immune-active properties."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_wikipedia_en",
+      "type": "wikipedia",
+      "title": "Lingzhi (mushroom) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lingzhi_(mushroom)",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_wikipedia_de",
+      "type": "wikipedia",
+      "title": "Glänzender Lackporling — Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Gl%C3%A4nzender_Lackporling",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_ncbi_book",
+      "type": "monograph",
+      "title": "Ganoderma lucidum (Lingzhi or Reishi): A Medicinal Mushroom — Herbal Medicine: Biomolecular and Clinical Aspects (NCBI Bookshelf)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK92757/",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_msk",
+      "type": "monograph",
+      "title": "Reishi Mushroom — Memorial Sloan Kettering Cancer Center, About Herbs",
+      "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/reishi-mushroom",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_cochrane",
+      "type": "monograph",
+      "title": "Jin X. et al. — Ganoderma lucidum (Reishi mushroom) for cancer treatment (Cochrane Systematic Review)",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007731.pub3/full",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_mdpi",
+      "type": "monograph",
+      "title": "Ganoderma lucidum—From Ancient Remedies to Modern Applications: Chemistry, Benefits, and Safety (Antioxidants, MDPI)",
+      "url": "https://www.mdpi.com/2076-3921/14/5/513",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_commons",
+      "type": "commons",
+      "title": "File:Ganoderma lingzhi Wu, Cao & Dai 574883.jpg — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Ganoderma_lingzhi_Wu,_Cao_%26_Dai_574883.jpg",
+      "accessed": "2026-05-31"
+    }
+  ],
+  "image": {
+    "filename": "ganoderma-lingzhi.webp",
+    "alt": {
+      "de": "Rotbraun glänzender, fächerförmiger Fruchtkörper des Reishi (Ganoderma lingzhi).",
+      "en": "Reddish-brown, glossy fan-shaped fruiting body of reishi (Ganoderma lingzhi)."
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Techieoldfox (via Mushroom Observer)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ganoderma_lingzhi_Wu,_Cao_%26_Dai_574883.jpg"
+  }
+}

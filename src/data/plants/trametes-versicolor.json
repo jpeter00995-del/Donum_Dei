@@ -1,0 +1,166 @@
+{
+  "kingdom": "fungus",
+  "slug": "trametes-versicolor",
+  "names": {
+    "de": "Schmetterlingstramete",
+    "en": "Turkey Tail",
+    "latin": "Trametes versicolor"
+  },
+  "family": {
+    "de": "Stielporlingsverwandte",
+    "en": "Polypore family",
+    "latin": "Polyporaceae"
+  },
+  "description": {
+    "de": "Die Schmetterlingstramete (Trametes versicolor) ist ein weit verbreiteter Porling, der flache, konsolen- bis rosettenförmige Fruchtkörper von 2-8 cm Breite bildet. Charakteristisch ist die seidig glänzende, mehrfarbig zonierte Oberseite in Braun-, Oliv-, Blau- und Schwarztönen, die an einen Schmetterlingsflügel erinnert; die weiße Unterseite trägt feine Poren (3-5 pro mm). Der Pilz wächst ganzjährig in dachziegelartig überlappenden Gruppen auf Totholz von Laubbäumen, besonders Rotbuche, aber auch Eiche und Birke. In der traditionellen chinesischen und japanischen Medizin ist er unter dem Namen Yunzhi (云芝) bzw. Kawaratake seit langem als immunmodulierendes Mittel bekannt. Aus seinem Myzel werden die proteingebundenen Polysaccharide PSK (Krestin) und PSP gewonnen, die in Japan als Krebs-Begleittherapie eingesetzt werden.",
+    "en": "Turkey Tail (Trametes versicolor) is a widespread polypore that forms flat, bracket- to rosette-shaped fruiting bodies 2-8 cm across. Its hallmark is the silky, multi-coloured concentrically zoned upper surface in shades of brown, olive, blue and black, resembling a turkey's tail feather; the white underside bears fine pores (3-5 per mm). The fungus grows year-round in tiled, overlapping clusters on the deadwood of deciduous trees, especially beech, but also oak and birch. In traditional Chinese and Japanese medicine it has long been valued as an immune-modulating remedy under the names Yunzhi (云芝) and Kawaratake. Its mycelium yields the protein-bound polysaccharides PSK (krestin) and PSP, which are used in Japan as an adjuvant in cancer therapy."
+  },
+  "teaser": {
+    "de": "Der schillernde Porling vom Totholz, dessen Polysaccharide PSK und PSP in der TCM und als Krebs-Begleittherapie genutzt werden.",
+    "en": "The shimmering deadwood polypore whose polysaccharides PSK and PSP are used in TCM and as an adjuvant in cancer therapy."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "immune support",
+        "general tonic"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Dekokt (langes Auskochen) des getrockneten, zerkleinerten Fruchtkörpers als immunstärkender Tonik-Tee in der traditionellen chinesischen Medizin (Yunzhi).",
+        "en": "Decoction (long simmer) of the dried, chopped fruiting body as an immune-supporting tonic tea in traditional Chinese medicine (Yunzhi)."
+      },
+      "source_ids": [
+        "src_wikipedia_en",
+        "src_wikipedia_de"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "cancer adjuvant",
+        "immune support"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Standardisiertes Polysaccharid-Extrakt PSK (Krestin) aus dem Myzel als Pulver/Kapsel; in Japan als begleitende Immunochemotherapie nach kurativer Resektion von Magen- und Darmkrebs zugelassen. Mehrere randomisierte Studien und Metaanalysen zeigen einen Überlebensvorteil.",
+        "en": "Standardised polysaccharide extract PSK (krestin) from the mycelium as powder/capsule; approved in Japan as adjuvant immunochemotherapy after curative resection of gastric and colorectal cancer. Several randomised trials and meta-analyses show a survival benefit."
+      },
+      "source_ids": [
+        "src_meta_gi",
+        "src_wikipedia_en"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "clinical_trial"
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "immune support"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Alkoholische Tinktur bzw. Dual-Extrakt des Fruchtkörpers in der modernen Volksheilkunde zur allgemeinen Immununterstützung.",
+        "en": "Alcoholic tincture or dual extract of the fruiting body in modern folk practice for general immune support."
+      },
+      "source_ids": [
+        "src_wikipedia_en"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "harvest_part": {
+      "de": "Fruchtkörper",
+      "en": "fruiting body"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Speise-/Heilpilz von geringer Toxizität, jedoch wegen der zähen Konsistenz nicht als Speisepilz, sondern als Tee oder Extrakt verwendet. Mögliche Wechselwirkung mit Immunsuppressiva; bei Autoimmunerkrankungen, in Schwangerschaft/Stillzeit und vor Operationen ärztlich abklären. Nur sicher bestimmte, von Schadstoffen freie Fruchtkörper verwenden.",
+      "en": "Edible/medicinal mushroom of low toxicity, but too tough to eat as food, so used as tea or extract. May interact with immunosuppressant drugs; consult a physician if you have an autoimmune condition, are pregnant/breastfeeding, or before surgery. Use only correctly identified, contaminant-free fruiting bodies."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false
+  },
+  "constituents": [
+    {
+      "name": "Polysaccharide-K (PSK / Krestin)",
+      "category": "polysaccharide",
+      "note": {
+        "de": "Proteingebundenes Beta-Glucan aus dem Myzel; in Japan als Krebs-Adjuvans zugelassen.",
+        "en": "Protein-bound beta-glucan from the mycelium; approved in Japan as a cancer adjuvant."
+      }
+    },
+    {
+      "name": "Polysaccharide-Peptid (PSP)",
+      "category": "polysaccharide",
+      "note": {
+        "de": "Proteingebundenes Polysaccharid, in China erforscht.",
+        "en": "Protein-bound polysaccharide, studied in China."
+      }
+    },
+    {
+      "name": "Beta-Glucane",
+      "category": "polysaccharide",
+      "note": {
+        "de": "Immunmodulierende Zellwand-Polysaccharide.",
+        "en": "Immune-modulating cell-wall polysaccharides."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_wikipedia_de",
+      "type": "wikipedia",
+      "title": "Schmetterlings-Tramete – Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Schmetterlings-Tramete",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_wikipedia_en",
+      "type": "wikipedia",
+      "title": "Trametes versicolor – Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Trametes_versicolor",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_meta_gi",
+      "type": "monograph",
+      "title": "Can polysaccharide K improve therapeutic efficacy and safety in gastrointestinal cancer? A systematic review and network meta-analysis (Oncotarget, PMC5687673)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5687673/",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_commons",
+      "type": "commons",
+      "title": "File:Trametes versicolor 01.jpg – Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Trametes_versicolor_01.jpg",
+      "accessed": "2026-05-31"
+    }
+  ],
+  "image": {
+    "filename": "trametes-versicolor.webp",
+    "alt": {
+      "de": "Mehrfarbig zonierte, schmetterlingsflügelartige Fruchtkörper der Schmetterlingstramete auf Totholz.",
+      "en": "Multi-coloured, concentrically zoned, turkey-tail-like fruiting bodies of Trametes versicolor on deadwood."
+    },
+    "license": "CC BY 3.0",
+    "author": "Σ64",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Trametes_versicolor_01.jpg"
+  }
+}
