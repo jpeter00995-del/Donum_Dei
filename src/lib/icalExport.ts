@@ -214,7 +214,12 @@ export function buildIcs(
     const probe = new Date(monday);
     probe.setUTCHours(12, 0, 0, 0);
     const { week, year } = isoWeekFromDateInternal(probe);
-    const tasks = tasksForWeek(profile, plan, week, year).filter(
+    // garden_meta-Resolver aus der übergebenen plantsBySlug-Map — calendarEngine
+    // importiert loadPlants nicht mehr (kein Daten-Glob im Client-Chunk).
+    const tasks = tasksForWeek(
+      profile, plan, week, year,
+      (slug) => plantsBySlug[slug]?.garden_meta,
+    ).filter(
       t => t.urgency === 'this_week',
     );
     for (const task of tasks) {

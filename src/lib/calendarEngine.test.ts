@@ -96,6 +96,7 @@ describe('tasksForWeek', () => {
       [],
       21,
       2026,
+      (slug) => mockPlants[slug]?.garden_meta,
     );
     expect(tasks).toEqual([]);
   });
@@ -118,6 +119,7 @@ describe('tasksForWeek', () => {
       [{ plant_slug: 'tomato' }],
       21,
       2026,
+      (slug) => mockPlants[slug]?.garden_meta,
     );
     expect(tasks.some(t => t.plant_slug === 'tomato' && t.action === 'sow_outdoor')).toBe(true);
   });
@@ -139,6 +141,7 @@ describe('tasksForWeek', () => {
       [{ plant_slug: 'lettuce' }],
       2,
       2026,
+      (slug) => mockPlants[slug]?.garden_meta,
     );
     expect(tasks).toEqual([]);
   });
@@ -161,6 +164,7 @@ describe('tasksForWeek', () => {
       [{ plant_slug: 'carrot' }],
       12,
       2026,
+      (slug) => mockPlants[slug]?.garden_meta,
     );
     // Zone 8 user: shift -2 weeks → engine looks at week 14, in April → task.
     const tasksZone8 = tasksForWeek(
@@ -168,6 +172,7 @@ describe('tasksForWeek', () => {
       [{ plant_slug: 'carrot' }],
       12,
       2026,
+      (slug) => mockPlants[slug]?.garden_meta,
     );
     expect(tasksZone6.length).toBe(0);
     expect(tasksZone8.length).toBeGreaterThan(0);
@@ -192,6 +197,7 @@ describe('tasksForWeek', () => {
       [{ plant_slug: 'kale' }],
       2,
       2026,
+      (slug) => mockPlants[slug]?.garden_meta,
     );
     expect(tasks.some(t => t.action === 'harvest')).toBe(true);
   });
@@ -217,6 +223,7 @@ describe('tasksForWeek', () => {
       [{ plant_slug: 'basil' }],
       21,
       2026,
+      (slug) => mockPlants[slug]?.garden_meta,
     );
     // Erwarte mindestens einen this_week-Task (KW 21 = Mai).
     expect(tasks.some(t => t.urgency === 'this_week' && t.action === 'sow_outdoor')).toBe(true);

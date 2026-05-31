@@ -8,7 +8,6 @@
 //
 // Spec: TODO_v1.0_selbstversorger.md Task 10
 
-import { loadPlantBySlug } from './loadPlants';
 import type { GardenMeta, MonthRange } from './types';
 
 // === 1. TYPES ===
@@ -150,6 +149,10 @@ function monthInRange(month: number, range: MonthRange): boolean {
  * @param plan     Garden plan as produced by `gardenPlan.ts`.
  * @param isoWeek  ISO week number (1-53).
  * @param year     ISO week-year.
+ * @param resolveGardenMeta  Liefert die `garden_meta` zu einem Slug. Wird vom
+ *   Caller injiziert (z.B. aus der bereits geladenen GardenPlant-Map), damit
+ *   diese Engine NICHT `loadPlants` statisch importieren muss — sonst zoge der
+ *   eager-Glob aller Plant-JSONs in jeden Client-Chunk (WeekView/Kalender).
  * @returns        Deduplicated list of CalendarTask items.
  */
 export function tasksForWeek(
@@ -157,6 +160,7 @@ export function tasksForWeek(
   plan: CalendarPlan,
   isoWeek: number,
   year: number,
+  resolveGardenMeta: (slug: string) => GardenMeta | null | undefined,
 ): CalendarTask[] {
   if (!Array.isArray(plan) || plan.length === 0) return [];
   const shiftWeeks = zoneShiftWeeks(profile.zone);
@@ -180,9 +184,8 @@ export function tasksForWeek(
 
   for (const entry of plan) {
     if (!entry || typeof entry.plant_slug !== 'string') continue;
-    const plant = loadPlantBySlug(entry.plant_slug);
-    if (!plant?.garden_meta) continue;
-    const meta: GardenMeta = plant.garden_meta;
+    const meta = resolveGardenMeta(entry.plant_slug);
+    if (!meta) continue;
 
     for (const target of targets) {
       // sow_indoor

@@ -193,7 +193,12 @@ export default function WeekView({ plantsBySlug, locale }: Props) {
   };
 
   // === 5.3 Tasks berechnen ===
-  const tasks = tasksForWeek(calProfile, effectivePlan, week.week, week.year);
+  // garden_meta kommt aus der bereits geladenen GardenPlant-Map → calendarEngine
+  // muss loadPlants nicht importieren (kein 4,8-MB-Daten-Glob im Client-Chunk).
+  const tasks = tasksForWeek(
+    calProfile, effectivePlan, week.week, week.year,
+    (slug) => plantsBySlug[slug]?.garden_meta,
+  );
   const thisWeekTasks = tasks.filter(t => t.urgency === 'this_week');
   const nextTasks = tasks.filter(t => t.urgency === 'next_2_weeks');
 
