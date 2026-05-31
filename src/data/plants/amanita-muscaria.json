@@ -1,0 +1,150 @@
+{
+  "slug": "amanita-muscaria",
+  "kingdom": "fungus",
+  "names": {
+    "de": "Fliegenpilz",
+    "en": "Fly agaric",
+    "latin": "Amanita muscaria"
+  },
+  "family": {
+    "de": "Wulstlingsverwandte",
+    "en": "Amanita family",
+    "latin": "Amanitaceae"
+  },
+  "description": {
+    "de": "Der Fliegenpilz (Amanita muscaria) ist mit seinem leuchtend roten, weiss getupften Hut der wohl bekannteste Pilz der nordhemisphaerischen Wälder und bildet als Mykorrhizapilz Symbiosen vor allem mit Birken und Fichten. Sein deutscher und lateinischer Name geht auf die historische Verwendung als Fliegenfänger zurück: in Milch zerkleinert lockte und betäubte er Fliegen. Pharmakologisch enthält er die psychoaktiven Wirkstoffe Ibotensäure und Muscimol (ein GABA-A-Agonist), nur Spuren des giftigen Muscarins. Ethnomykologisch ist er als Rauschmittel sibirischer Schamanen (z.B. der Mansen und Korjaken) dokumentiert und Gegenstand umstrittener Theorien über vedisches Soma und Wikinger-Berserker. Er gilt als giftiger Pilz mit unberechenbarer, delirant-betäubender Wirkung.",
+    "en": "The fly agaric (Amanita muscaria), with its bright red, white-spotted cap, is perhaps the most iconic mushroom of Northern Hemisphere forests, forming ectomycorrhizal symbioses chiefly with birch and spruce. Its common and Latin names derive from its historical use as a fly killer: crumbled into milk it attracted and stupefied flies. Pharmacologically it contains the psychoactive compounds ibotenic acid and muscimol (a GABA-A agonist), with only trace amounts of the toxic muscarine. Ethnomycologically it is documented as an inebriant of Siberian shamans and is the subject of contested theories linking it to Vedic soma and Viking berserkers. It is regarded as a poisonous mushroom with unpredictable, delirium-inducing, sedative effects."
+  },
+  "teaser": {
+    "de": "Der ikonische rot-weisse Giftpilz der nordischen Wälder, beruehmt aus Maerchen und beruechtigt aus dem sibirischen Schamanismus.",
+    "en": "The iconic red-and-white poisonous mushroom of northern forests, famous from fairy tales and notorious from Siberian shamanism."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "insects",
+        "flies"
+      ],
+      "internal_external": "external",
+      "description": {
+        "de": "Historisch wurde der zerkleinerte Hut in Milch oder Zuckerwasser eingelegt, um Fliegen anzulocken und zu betäuben — daher der Name Fliegenpilz. Rein historische/dokumentarische Angabe.",
+        "en": "Historically, the crumbled cap was steeped in milk or sugar water to attract and stupefy flies, giving rise to the name fly agaric. Purely historical/documentary note."
+      },
+      "source_ids": [
+        "wiki-en",
+        "wiki-de"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "raw",
+      "target": [
+        "ritual",
+        "entheogen"
+      ],
+      "internal_external": "internal",
+      "description": {
+        "de": "Ethnomykologisch dokumentiert als Rauschmittel und Entheogen sibirischer Voelker (u.a. Mansen, Khanten, Korjaken, Kamtschadalen) im schamanischen Kontext. Historische Einordnung — KEINE Konsum- oder Dosieranleitung; der Pilz ist giftig.",
+        "en": "Ethnomycologically documented as an inebriant and entheogen among Siberian peoples (e.g. Mansi, Khanty, Koryak, Kamchadal) in shamanic contexts. Historical context only — NOT a consumption or dosing guide; the mushroom is poisonous."
+      },
+      "source_ids": [
+        "wiki-en",
+        "wiki-de"
+      ],
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional"
+    }
+  ],
+  "season": {
+    "active_months": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "harvest_part": {
+      "de": "Fruchtkörper",
+      "en": "fruiting body"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "GIFTIG. Der Fliegenpilz enthält Ibotensäure und Muscimol und löst das Pantherina-Syndrom aus: Verwirrtheit, Sprachstörungen, Ataxie, Pupillenerweiterung, motorische Unruhe, Halluzinationen, Krämpfe und tiefer betäubender Schlaf (½–3 h nach Verzehr, Erholung meist 12–24 h). Hohe Verwechslungsgefahr mit dem potenziell tödlichen Pantherpilz (Amanita pantherina) sowie — im jungen Stadium — mit weiteren Wulstlingen. Niemals zum Verzehr sammeln. Bei Vergiftungsverdacht sofort Giftnotruf/Arzt kontaktieren. Verarbeitete Amanita-Produkte (Edibles) sind mit schweren Vergiftungen, Krampfanfaellen und Todesfaellen in Verbindung gebracht worden.",
+      "en": "POISONOUS. The fly agaric contains ibotenic acid and muscimol and produces pantherina syndrome: confusion, speech disturbance, ataxia, dilated pupils, motor restlessness, hallucinations, seizures and deep sedative sleep (onset ½–3 h after ingestion, recovery usually 12–24 h). High risk of confusion with the potentially lethal panther cap (Amanita pantherina) and, when young, with other Amanita species. Never collect for consumption. If poisoning is suspected, contact poison control/a physician immediately. Processed Amanita products (edibles) have been linked to severe poisonings, seizures and deaths."
+    },
+    "external_only": false,
+    "toxicity_level": "toxic",
+    "pet_toxic": true
+  },
+  "constituents": [
+    {
+      "name": "Ibotenic acid",
+      "category": "other",
+      "note": {
+        "de": "Neurotoxisches Aminosäure-Derivat; Prodrug, das zu Muscimol decarboxyliert (v.a. beim Trocknen). Glutamat-Rezeptor-Agonist.",
+        "en": "Neurotoxic amino-acid derivative; prodrug that decarboxylates to muscimol (notably on drying). Glutamate receptor agonist."
+      }
+    },
+    {
+      "name": "Muscimol",
+      "category": "other",
+      "note": {
+        "de": "Hauptpsychoaktiver Wirkstoff; potenter GABA-A-Rezeptor-Agonist, sedativ-delirant wirkend.",
+        "en": "Principal psychoactive constituent; potent GABA-A receptor agonist with sedative, deliriant effects."
+      }
+    },
+    {
+      "name": "Muscarine",
+      "category": "alkaloid",
+      "note": {
+        "de": "Nur in Spuren (etwa 2–3 ppm) — zu gering, um die Vergiftungssymptome zu erklären; namensgebend, aber pharmakologisch beim Fliegenpilz nachrangig.",
+        "en": "Present only in traces (about 2–3 ppm) — too low to account for poisoning symptoms; eponymous but pharmacologically minor in this species."
+      }
+    },
+    {
+      "name": "Muscazone",
+      "category": "other",
+      "note": {
+        "de": "Nebenbestandteil, der aus Ibotensäure unter UV-Einwirkung entsteht; geringe Aktivität.",
+        "en": "Minor constituent formed from ibotenic acid under UV radiation; low activity."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "wiki-en",
+      "type": "wikipedia",
+      "title": "Amanita muscaria — Wikipedia (English)",
+      "url": "https://en.wikipedia.org/wiki/Amanita_muscaria",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "wiki-de",
+      "type": "wikipedia",
+      "title": "Fliegenpilz — Wikipedia (Deutsch)",
+      "url": "https://de.wikipedia.org/wiki/Fliegenpilz",
+      "accessed": "2026-05-31"
+    },
+    {
+      "id": "fda-2024",
+      "type": "monograph",
+      "title": "FDA — Letter to Industry on the Use of Amanita Muscaria or its Constituents in Food",
+      "url": "https://www.fda.gov/food/post-market-determinations-use-substance-not-gras/letter-industry-use-amanita-muscaria-or-its-constituents-food",
+      "accessed": "2026-05-31"
+    }
+  ],
+  "image": {
+    "filename": "amanita-muscaria.webp",
+    "alt": {
+      "de": "Drei Fliegenpilze mit leuchtend roten, weiss getupften Hüten in verschiedenen Reifestadien auf Waldboden.",
+      "en": "Three fly agaric mushrooms with bright red, white-spotted caps at different stages of maturity on forest floor."
+    },
+    "license": "CC BY-SA 3.0 NL",
+    "author": "Onderwijsgek (Wikimedia Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Amanita_muscaria_3_vliegenzwammen_op_rij.jpg"
+  }
+}
