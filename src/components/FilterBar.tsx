@@ -150,7 +150,7 @@ export default function FilterBar({ plants, locale }: Props) {
                 {/* Nur erstes Bild = LCP → eager + fetchpriority high; Rest lazy (keine Bandbreiten-Konkurrenz auf Mobil). */}
                 <div className="aspect-[4/3] overflow-hidden bg-slate-100">
                   <img
-                    src={`/images/plants/${plant.image.filename}`}
+                    src={`/images/plants/thumbs/${plant.image.filename}`}
                     alt={plant.image.alt[locale]}
                     title={`© ${plant.image.author} · ${plant.image.license}`}
                     width={400}
