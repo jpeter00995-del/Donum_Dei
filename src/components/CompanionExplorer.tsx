@@ -1,10 +1,11 @@
 // === 1. IMPORTS ===
 import { useMemo, useState, useEffect } from 'react';
-import type { Plant, Locale, CompanionPlanting } from '@/lib/types';
+import type { Locale, CompanionPlanting } from '@/lib/types';
+import type { CompanionPlant } from '@/lib/companionCard';
 
 // === 2. PROPS ===
 interface Props {
-  plants: Plant[]; // pre-filtered: only plants with companion_planting
+  plants: CompanionPlant[]; // pre-filtered: only plants with companion_planting
   locale: Locale;
 }
 
@@ -53,7 +54,7 @@ export default function CompanionExplorer({ plants, locale }: Props) {
   // === 4a. LOOKUPS ===
   // Map slug → plant for fast partner-lookup; sorted German/English list for autocomplete.
   const bySlug = useMemo(() => {
-    const m = new Map<string, Plant>();
+    const m = new Map<string, CompanionPlant>();
     for (const p of plants) m.set(p.slug, p);
     return m;
   }, [plants]);
@@ -76,7 +77,7 @@ export default function CompanionExplorer({ plants, locale }: Props) {
     const PREFERRED = 'solanum-lycopersicum';
     if (bySlug.has(PREFERRED)) return PREFERRED;
     // Fallback: Pflanze mit den meisten dokumentierten Beziehungen.
-    let best: Plant | null = null;
+    let best: CompanionPlant | null = null;
     let bestScore = -1;
     for (const p of plants) {
       const cp = p.companion_planting;
@@ -110,7 +111,7 @@ export default function CompanionExplorer({ plants, locale }: Props) {
   // === 4c. AUTOCOMPLETE-FILTER ===
   const suggestions = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return [] as Plant[];
+    if (!q) return [] as CompanionPlant[];
     return sorted
       .filter(p => {
         return (
@@ -219,8 +220,8 @@ function SelectedPlantView({
   strings,
   onPick,
 }: {
-  plant: Plant;
-  bySlug: Map<string, Plant>;
+  plant: CompanionPlant;
+  bySlug: Map<string, CompanionPlant>;
   locale: Locale;
   strings: (typeof L)[Locale];
   onPick: (slug: string) => void;
@@ -323,7 +324,7 @@ function PartnerColumn({
   accent: 'emerald' | 'rose' | 'slate';
   slugs: string[];
   emptyText: string;
-  bySlug: Map<string, Plant>;
+  bySlug: Map<string, CompanionPlant>;
   locale: Locale;
   missingText: string;
   onPick: (slug: string) => void;

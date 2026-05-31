@@ -5,6 +5,7 @@
 
 import { useMemo, useState } from 'react';
 import type { Plant, Locale } from '@/lib/types';
+import type { SymptomPlant } from '@/lib/symptomCard';
 import {
   getAllSymptoms,
   getSymptomById,
@@ -19,7 +20,8 @@ import ToxicityBadge from './ToxicityBadge';
 // === 1. PROPS ===
 
 interface Props {
-  plants: Plant[];
+  // Schlanke DTO statt voller Plant[] — spart ~90% Prop-Groesse im HTML.
+  plants: SymptomPlant[];
   locale: Locale;
 }
 
@@ -34,7 +36,9 @@ export default function SymptomFinder({ plants, locale }: Props) {
   const suggestions = useMemo(() => suggestSymptoms(query), [query]);
 
   const matches = useMemo(
-    () => (selected ? findPlantsForSymptom(selected.id, plants, 30) : []),
+    // Cast sicher: findPlantsForSymptom liest nur uses[].target/description,
+    // teaser, description und names.latin — alle in SymptomPlant vorhanden.
+    () => (selected ? findPlantsForSymptom(selected.id, plants as unknown as Plant[], 30) : []),
     [selected, plants],
   );
 

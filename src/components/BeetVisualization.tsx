@@ -13,6 +13,7 @@
 
 import { useMemo, useRef, useState } from 'react';
 import type { Plant, Locale, GardenType } from '@/lib/types';
+import type { PlanPlant } from '@/lib/planPlant';
 import {
   computeBeetLayout,
   type CartEntry,
@@ -27,7 +28,10 @@ import { t as t_i18n } from '@/lib/i18n';
 
 export interface BeetVisualizationProps {
   cart: readonly CartEntry[];
-  plants: readonly Plant[];
+  // Schlankes Plan-DTO statt voller Plant-Objekte. computeBeetLayout + BeetCell
+  // lesen nur companion_planting/permaculture_functions/garden_meta.spacing_cm/
+  // names/image — alle im PlanPlant-DTO vorhanden.
+  plants: readonly PlanPlant[];
   gardenType: GardenType;
   areaSqm: number;
   locale: Locale;
@@ -55,13 +59,14 @@ export default function BeetVisualization(props: BeetVisualizationProps) {
 
   // === 3.1 Layout berechnen ===
   const layout = useMemo(
-    () => computeBeetLayout(cart, gardenType, areaSqm, plants, { user_positions: [...userPositions] }),
+    // Cast: computeBeetLayout liest nur DTO-vorhandene Garten-Felder.
+    () => computeBeetLayout(cart, gardenType, areaSqm, plants as unknown as Plant[], { user_positions: [...userPositions] }),
     [cart, gardenType, areaSqm, plants, userPositions],
   );
 
   // === 3.2 Plant-Lookup ===
   const plantBySlug = useMemo(() => {
-    const m = new Map<string, Plant>();
+    const m = new Map<string, PlanPlant>();
     for (const p of plants) m.set(p.slug, p);
     return m;
   }, [plants]);

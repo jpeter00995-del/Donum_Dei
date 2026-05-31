@@ -7,14 +7,17 @@
 // damit es auf iPad/iOS Safari funktioniert. HTML5 DnD ist auf iOS broken.
 // `touch-action: none` ist Pflicht — sonst stiehlt iOS den Touch fürs Scrollen.
 
-import type { Plant, Locale } from '@/lib/types';
+import type { Locale } from '@/lib/types';
+import type { PlanPlant } from '@/lib/planPlant';
 import type { BeetCell as BeetCellData } from '@/lib/beetLayout';
 
 // === 1. PROPS ===
 
 export interface BeetCellProps {
   cell: BeetCellData;
-  plant: Plant;
+  // Schlankes Plan-DTO — BeetCell liest nur names/image/companion_planting/
+  // permaculture_functions, alle im DTO vorhanden.
+  plant: PlanPlant;
   locale: Locale;
   /** Pixel pro Meter — vom Container festgelegt. */
   pxPerM: number;

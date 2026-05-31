@@ -3,11 +3,13 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import SymptomFinder from '@/components/SymptomFinder.tsx';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { toSymptomPlant } from '@/lib/symptomCard';
 import { t } from '@/lib/i18n';
 
 // === 2. DATA ===
+// Build-Zeit-Projektion auf schlanke DTO — spart ~90% Prop-Groesse im HTML.
 const locale = 'en' as const;
-const plants = loadAllPlants();
+const plants = loadAllPlants().map(toSymptomPlant);
 ---
 
 <BaseLayout locale={locale} title={t(locale, 'symptoms.page_title')}>

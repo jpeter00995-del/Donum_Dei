@@ -8,6 +8,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { Plant, Locale } from '@/lib/types';
+import type { PlanPlant } from '@/lib/planPlant';
 import {
   loadProfile,
   resetProfile,
@@ -38,7 +39,11 @@ import { t as t_i18n } from '@/lib/i18n';
 // === 1. PROPS ===
 
 interface Props {
-  plants: Plant[];
+  // Schlankes Plan-DTO statt voller Plant-Objekte → kleine client:load-Props.
+  // Engines (gardenPlan, companion*, beetLayout) werden an ihren Grenzen
+  // per `as unknown as Plant[]` gecastet — laufzeitsicher, weil sie nur
+  // Garten-Felder lesen, die im PlanPlant-DTO enthalten sind (vgl. WeekView).
+  plants: PlanPlant[];
   locale: Locale;
 }
 
@@ -162,7 +167,7 @@ export default function PlanView({ plants, locale }: Props) {
 
   // === 4.3 Plant lookup ===
   const plantBySlug = useMemo(() => {
-    const m = new Map<string, Plant>();
+    const m = new Map<string, PlanPlant>();
     for (const p of plants) m.set(p.slug, p);
     return m;
   }, [plants]);
@@ -189,7 +194,8 @@ export default function PlanView({ plants, locale }: Props) {
   }, [counters, plantBySlug]);
 
   const usedAreaSqm = useMemo(
-    () => totalAreaSqm(cartRecs, plantBySlug),
+    // Cast: totalAreaSqm liest nur garden_meta.spacing_cm (im DTO vorhanden).
+    () => totalAreaSqm(cartRecs, plantBySlug as unknown as Map<string, Plant>),
     [cartRecs, plantBySlug],
   );
   const totalAreaTotal = profile?.garden.area_sqm ?? 0;
@@ -248,7 +254,9 @@ export default function PlanView({ plants, locale }: Props) {
     // metadata it produces for ordering and the "Schnellstart" button.
     // Use a generous cap so most eligible plants show up; we don't
     // intentionally cap the catalogue here.
-    return generateGardenPlan(profile, plants, { maxRecommendations: 200 });
+    // Cast: generateGardenPlan liest nur Garten-Felder (garden_meta, family,
+    // uses[].form, permaculture_functions) — alle im PlanPlant-DTO vorhanden.
+    return generateGardenPlan(profile, plants as unknown as Plant[], { maxRecommendations: 200 });
   }, [profile, plants]);
 
   /** Score lookup by slug — used for the recommendation sort. */
@@ -268,8 +276,8 @@ export default function PlanView({ plants, locale }: Props) {
   }, [counters, plantBySlug]);
 
   // === 4.7 Split cart vs recommendations ===
-  const cartPlants = useMemo<Plant[]>(() => {
-    const out: Plant[] = [];
+  const cartPlants = useMemo<PlanPlant[]>(() => {
+    const out: PlanPlant[] = [];
     // Iterate counters in stable order: deterministic — alphabetical by slug.
     const slugs = Object.keys(counters)
       .filter(s => (counters[s] ?? 0) > 0 && plantBySlug.has(s))
@@ -278,14 +286,15 @@ export default function PlanView({ plants, locale }: Props) {
     return out;
   }, [counters, plantBySlug]);
 
-  const recommendedPlants = useMemo<Plant[]>(() => {
-    const result: Plant[] = [];
+  const recommendedPlants = useMemo<PlanPlant[]>(() => {
+    const result: PlanPlant[] = [];
     for (const r of eligiblePlan) {
       const p = plantBySlug.get(r.plant_slug);
       if (!p) continue;
       if ((counters[r.plant_slug] ?? 0) > 0) continue; // already in cart
       if (filterFits) {
-        const perPlant = areaPerPlant(p);
+        // Cast: areaPerPlant liest nur garden_meta.spacing_cm (im DTO vorhanden).
+        const perPlant = areaPerPlant(p as unknown as Plant);
         if (perPlant > freeAreaSqm + perPlant * 0.1) continue; // honour same tolerance
       }
       result.push(p);
@@ -298,7 +307,7 @@ export default function PlanView({ plants, locale }: Props) {
    * Welle N+1: Empfehlungen nach Suchbegriff filtern (DE/EN/Latin).
    * Leere Suche → alle Empfehlungen.
    */
-  const filteredRecommendedPlants = useMemo<Plant[]>(() => {
+  const filteredRecommendedPlants = useMemo<PlanPlant[]>(() => {
     const q = recSearch.trim().toLowerCase();
     if (!q) return recommendedPlants;
     return recommendedPlants.filter(p =>
@@ -313,8 +322,8 @@ export default function PlanView({ plants, locale }: Props) {
    * Reihenfolge innerhalb der Kategorie bleibt durch `recommendedPlants` Sort
    * gesteuert (z.B. nach Score).
    */
-  const recommendedByCategory = useMemo<Record<PlantCategory, Plant[]>>(() => {
-    const grouped: Record<PlantCategory, Plant[]> = {
+  const recommendedByCategory = useMemo<Record<PlantCategory, PlanPlant[]>>(() => {
+    const grouped: Record<PlantCategory, PlanPlant[]> = {
       fruchtgemuese: [],
       blattgemuese: [],
       wurzelgemuese: [],
@@ -323,7 +332,9 @@ export default function PlanView({ plants, locale }: Props) {
       heilpflanzen: [],
     };
     for (const p of filteredRecommendedPlants) {
-      grouped[categorizePlant(p)].push(p);
+      // Cast: categorizePlant liest slug/family.latin/uses[].form/
+      // permaculture_functions/garden_meta.spacing_cm — alle im DTO vorhanden.
+      grouped[categorizePlant(p as unknown as Plant)].push(p);
     }
     return grouped;
   }, [filteredRecommendedPlants]);
@@ -332,11 +343,16 @@ export default function PlanView({ plants, locale }: Props) {
   const searchActive = recSearch.trim().length > 0;
 
   // === 4.8 Companion conflicts + suggestions (Welle B legacies) ===
-  const conflicts = useMemo(() => detectConflicts(cartRecs, plants), [cartRecs, plants]);
+  // Casts: detectConflicts/generateSuggestions lesen nur slug +
+  // companion_planting (bad_/good_partners, source, notes_*) — alle im DTO.
+  const conflicts = useMemo(
+    () => detectConflicts(cartRecs, plants as unknown as Plant[]),
+    [cartRecs, plants],
+  );
 
   const companionSuggestions = useMemo<Suggestion[]>(() => {
     if (cartRecs.length === 0) return [];
-    return generateSuggestions(cartRecs, plants);
+    return generateSuggestions(cartRecs, plants as unknown as Plant[]);
   }, [cartRecs, plants]);
 
   // === 4.9 Actions ===
@@ -364,7 +380,8 @@ export default function PlanView({ plants, locale }: Props) {
     const seed: Record<string, number> = {};
     // Use generateGardenPlan with default cap to honour planner's space-aware
     // selection rather than dumping all 200 candidates into the cart.
-    const planned = generateGardenPlan(profile, plants);
+    // Cast wie oben — Engine liest nur DTO-vorhandene Garten-Felder.
+    const planned = generateGardenPlan(profile, plants as unknown as Plant[]);
     for (const r of planned) {
       if (r.quantity > 0) seed[r.plant_slug] = r.quantity;
     }
@@ -840,19 +857,21 @@ export default function PlanView({ plants, locale }: Props) {
 // === 6. SORT HELPER ===
 
 function sortPlants(
-  list: Plant[],
+  list: PlanPlant[],
   key: SortKey,
   scoreBySlug: Map<string, number>,
   locale: Locale,
-): Plant[] {
+): PlanPlant[] {
   const collator = new Intl.Collator(locale === 'de' ? 'de-DE' : 'en-US', { sensitivity: 'base' });
+  // Cast: areaPerPlant liest nur garden_meta.spacing_cm (im DTO vorhanden).
+  const area = (p: PlanPlant) => areaPerPlant(p as unknown as Plant);
   const arr = [...list];
   switch (key) {
     case 'alpha':
       arr.sort((a, b) => collator.compare(a.names[locale], b.names[locale]));
       break;
     case 'size':
-      arr.sort((a, b) => areaPerPlant(a) - areaPerPlant(b) || collator.compare(a.names[locale], b.names[locale]));
+      arr.sort((a, b) => area(a) - area(b) || collator.compare(a.names[locale], b.names[locale]));
       break;
     case 'family':
       arr.sort((a, b) => collator.compare(a.family.latin ?? '', b.family.latin ?? '')
@@ -873,8 +892,8 @@ function sortPlants(
 
 /** Comma-separated localised names of `good_partners` (max 3). */
 function companionsHintFor(
-  plant: Plant,
-  plantBySlug: Map<string, Plant>,
+  plant: PlanPlant,
+  plantBySlug: Map<string, PlanPlant>,
   locale: Locale,
 ): string | undefined {
   const partners = plant.companion_planting?.good_partners ?? [];
@@ -887,7 +906,7 @@ function companionsHintFor(
 }
 
 /** Localised sowing hint string like `Direktsaat Apr–Jul`. */
-function sowingHintFor(plant: Plant, locale: Locale): string | undefined {
+function sowingHintFor(plant: PlanPlant, locale: Locale): string | undefined {
   const gm = plant.garden_meta;
   if (!gm) return undefined;
   const monthLabel = (m: number) =>

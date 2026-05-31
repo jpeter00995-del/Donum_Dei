@@ -1,10 +1,10 @@
 import { useMemo, useState } from 'react';
 import { t } from '@/lib/i18n';
-import { filterPlants } from '@/lib/filterPlants';
-import type { Plant, Locale, UseForm, Season, FilterState } from '@/lib/types';
+import type { Locale, UseForm, Season, FilterState } from '@/lib/types';
+import type { PlantCard } from '@/lib/plantCard';
 
 interface Props {
-  plants: Plant[];
+  plants: PlantCard[];
   locale: Locale;
 }
 
@@ -20,7 +20,12 @@ export default function FilterBar({ plants, locale }: Props) {
   const [search, setSearch] = useState('');
 
   const filtered = useMemo(() => {
-    const byFilters = filterPlants(plants, filter);
+    // Filter auf dem schlanken Card-DTO: forms + seasons sind vorab abgeleitet.
+    const byFilters = plants.filter(p => {
+      if (filter.forms.length > 0 && !filter.forms.some(f => p.forms.includes(f))) return false;
+      if (filter.seasons.length > 0 && !filter.seasons.some(s => p.seasons.includes(s))) return false;
+      return true;
+    });
     const q = search.trim().toLowerCase();
     if (!q) return byFilters;
     return byFilters.filter(p =>
@@ -158,7 +163,7 @@ export default function FilterBar({ plants, locale }: Props) {
                   <p className="text-sm italic text-slate-500 mt-0.5">({plant.names.latin})</p>
                   <p className="text-sm text-slate-700 mt-2 line-clamp-2">{plant.teaser[locale]}</p>
                   <div className="flex flex-wrap gap-1.5 mt-3">
-                    {Array.from(new Set(plant.uses.map(u => u.form))).map(form => (
+                    {plant.forms.map(form => (
                       <span
                         key={form}
                         className="inline-block px-2 py-0.5 text-xs font-medium rounded bg-emerald-50 text-emerald-700 border border-emerald-200"
@@ -166,7 +171,7 @@ export default function FilterBar({ plants, locale }: Props) {
                         {t(locale, `use.${form}`)}
                       </span>
                     ))}
-                    {plant.safety.external_only && (
+                    {plant.externalOnly && (
                       <span className="inline-block px-2 py-0.5 text-xs font-medium rounded bg-amber-50 text-amber-700 border border-amber-200">
                         {t(locale, 'detail.external_only')}
                       </span>

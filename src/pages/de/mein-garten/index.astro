@@ -3,11 +3,13 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PlanView from '@/components/PlanView.tsx';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { toPlanPlant } from '@/lib/planPlant';
 import '@/styles/print.css';
 
 // === 2. DATA ===
+// Schlankes Plan-DTO statt voller Plant-Objekte → kleine client:load-Props.
 const locale = 'de' as const;
-const plants = loadAllPlants();
+const plants = loadAllPlants().map(toPlanPlant);
 ---
 
 <BaseLayout locale={locale} title="Mein Garten">

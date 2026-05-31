@@ -2,11 +2,13 @@
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { toGardenPlant } from '@/lib/plantCard';
 import WeekView from '@/components/WeekView.tsx';
 import MonthHeatmap from '@/components/MonthHeatmap.tsx';
 
 // === 2. DATA ===
-const plants = loadAllPlants();
+// Slim garden DTO instead of full Plant objects → small client:load props.
+const plants = loadAllPlants().map(toGardenPlant);
 const locale = 'en' as const;
 
 const plantsBySlug: Record<string, typeof plants[number]> = {};

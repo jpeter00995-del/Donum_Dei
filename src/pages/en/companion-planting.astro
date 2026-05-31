@@ -3,12 +3,17 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import CompanionExplorer from '@/components/CompanionExplorer';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { toCompanionPlant } from '@/lib/companionCard';
 
 // === 2. DATA ===
 // Only plants carrying companion_planting are passed to the explorer.
 // (Nur Pflanzen mit companion_planting — Garten-Kandidaten.)
+// Build-time projection to the slim CompanionPlant DTO so the SSG HTML does not
+// serialize each full Plant object into the client:load props.
 const locale = 'en' as const;
-const plants = loadAllPlants().filter(p => p.companion_planting !== undefined);
+const plants = loadAllPlants()
+  .filter(p => p.companion_planting !== undefined)
+  .map(toCompanionPlant);
 ---
 
 <BaseLayout locale={locale} title="Companion planting">

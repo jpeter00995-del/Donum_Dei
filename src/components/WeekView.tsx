@@ -1,6 +1,7 @@
 // === 1. IMPORTS ===
 import { useEffect, useState } from 'react';
 import type { Plant, Locale } from '@/lib/types';
+import type { GardenPlant } from '@/lib/plantCard';
 import type {
   CalendarTask,
   CalendarAction,
@@ -13,7 +14,7 @@ import { generateGardenPlan, type RecommendedPlant } from '@/lib/gardenPlan';
 import { loadProfile, type UserProfile, type PlanOverrides } from '@/lib/userProfile';
 
 // === 2. TYPES & PROPS ===
-type PlantsBySlug = Record<string, Plant>;
+type PlantsBySlug = Record<string, GardenPlant>;
 
 interface Props {
   /** All known plants — used to render mini-cards for tasks. */
@@ -145,7 +146,9 @@ export default function WeekView({ plantsBySlug, locale }: Props) {
     if (!profile) return [];
     const allPlants = Object.values(plantsBySlug);
     if (allPlants.length === 0) return [];
-    const base = generateGardenPlan(profile, allPlants);
+    // Cast an der Engine-Grenze: generateGardenPlan liest nur GardenPlant-Felder
+    // (garden_meta/names/family/companion_planting/slug) — verifiziert.
+    const base = generateGardenPlan(profile, allPlants as unknown as Plant[]);
     const merged = applyOverridesLocal(base, profile.custom_plan, allPlants);
     // RecommendedPlant ist struktur-kompatibel zu CalendarPlanEntry
     // (plant_slug + quantity). Wir reichen ihn direkt durch.
@@ -196,7 +199,8 @@ export default function WeekView({ plantsBySlug, locale }: Props) {
 
   // === 5.4 iCal-Export ===
   function handleExport() {
-    const ics = buildIcs(calProfile, effectivePlan, week!.week, week!.year, plantsBySlug, locale);
+    // Cast an der Engine-Grenze: buildIcs liest nur names/slug/image aus der Map.
+    const ics = buildIcs(calProfile, effectivePlan, week!.week, week!.year, plantsBySlug as unknown as Record<string, Plant>, locale);
     downloadIcs(ics, `donumdei-kw${week!.week}-${week!.year}.ics`);
   }
 
@@ -290,7 +294,7 @@ export default function WeekView({ plantsBySlug, locale }: Props) {
 function applyOverridesLocal(
   base: RecommendedPlant[],
   overrides: PlanOverrides | undefined,
-  plants: readonly Plant[],
+  plants: readonly GardenPlant[],
 ): RecommendedPlant[] {
   if (!overrides) return base;
   const removed = new Set(overrides.removed);
@@ -330,7 +334,7 @@ function applyOverridesLocal(
 // === 6. SUB-COMPONENT ===
 interface TaskCardProps {
   task: CalendarTask;
-  plant: Plant | undefined;
+  plant: GardenPlant | undefined;
   locale: Locale;
   verb: string;
   colorClass: string;

@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import type { Plant, Locale } from '@/lib/types';
+import type { IndoorPlant } from '@/lib/indoorCard';
 import { matchPlants, type QuizAnswers } from '@/lib/quizMatch';
 
 // === 1. TYPEN ===
 
 interface Props {
-  plants: Plant[];
+  plants: IndoorPlant[];
   locale: Locale;
 }
 
@@ -60,7 +61,7 @@ export default function IndoorQuiz({ plants, locale }: Props) {
   const [open, setOpen]       = useState(false);
   const [step, setStep]       = useState<0 | 1 | 2 | 3>(0);
   const [answers, setAnswers] = useState<Partial<QuizAnswers>>({});
-  const [results, setResults] = useState<Plant[] | null>(null);
+  const [results, setResults] = useState<IndoorPlant[] | null>(null);
 
   const ROOMS  = ROOM_LABELS[locale];
   const LIGHTS = LIGHT_LABELS[locale];
@@ -184,7 +185,14 @@ export default function IndoorQuiz({ plants, locale }: Props) {
                 onClick={() => {
                   const finalAnswers = { ...answers, water: k as QuizAnswers['water'] } as QuizAnswers;
                   setAnswers(finalAnswers);
-                  setResults(matchPlants(plants, finalAnswers));
+                  // Cast an der Engine-Grenze: matchPlants ist auf Plant[] typisiert,
+                  // liest aber nur slug + indoor_growing.{suitable,rooms,light,
+                  // water_frequency,difficulty} — alle im IndoorPlant-DTO enthalten.
+                  // Rueckgabe ebenfalls auf IndoorPlant[] zurueckgecastet, da die
+                  // Ergebnis-Ansicht nur slug/names/image nutzt. Daher feld-sicher.
+                  setResults(
+                    matchPlants(plants as unknown as Plant[], finalAnswers) as unknown as IndoorPlant[],
+                  );
                   setStep(3);
                 }}
                 className="px-3 py-2 bg-white rounded hover:bg-emerald-100"

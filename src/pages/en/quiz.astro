@@ -2,8 +2,10 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PlantQuiz from '@/components/PlantQuiz.tsx';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { toQuizPlant } from '@/lib/quizCard';
 
-const plants = loadAllPlants();
+// Slim-DTO statt voller Plant[] → schlankes Prop-HTML (kein 6-12 MB Bloat).
+const plants = loadAllPlants().map(toQuizPlant);
 const locale = 'en' as const;
 ---
 

@@ -3,12 +3,17 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import CompanionExplorer from '@/components/CompanionExplorer';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { toCompanionPlant } from '@/lib/companionCard';
 
 // === 2. DATA ===
 // Nur Pflanzen mit companion_planting laden — Garten-Kandidaten (Gemüse/Kräuter).
 // (Only plants carrying companion_planting are passed to the explorer.)
+// Build-time-Projektion auf schlankes CompanionPlant-DTO, damit das SSG-HTML
+// nicht jedes volle Plant-Objekt in die client:load-Props serialisiert.
 const locale = 'de' as const;
-const plants = loadAllPlants().filter(p => p.companion_planting !== undefined);
+const plants = loadAllPlants()
+  .filter(p => p.companion_planting !== undefined)
+  .map(toCompanionPlant);
 ---
 
 <BaseLayout locale={locale} title="Mischkultur">

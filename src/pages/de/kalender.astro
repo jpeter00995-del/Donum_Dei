@@ -2,11 +2,13 @@
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { toGardenPlant } from '@/lib/plantCard';
 import WeekView from '@/components/WeekView.tsx';
 import MonthHeatmap from '@/components/MonthHeatmap.tsx';
 
 // === 2. DATEN ===
-const plants = loadAllPlants();
+// Schlankes Garten-DTO statt voller Plant-Objekte → kleine client:load-Props.
+const plants = loadAllPlants().map(toGardenPlant);
 const locale = 'de' as const;
 
 // plantsBySlug für effizienten Lookup in WeekView.

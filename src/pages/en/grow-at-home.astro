@@ -4,11 +4,13 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import IndoorFilterBar from '@/components/IndoorFilterBar';
 import IndoorQuiz from '@/components/IndoorQuiz';
 import { loadIndoorPlants } from '@/lib/loadPlants';
+import { toIndoorPlant } from '@/lib/indoorCard';
 import { t } from '@/lib/i18n';
 
 // === 2. DATA ===
 const locale = 'en' as const;
-const plants = loadIndoorPlants();
+// Slim-DTO statt voller Plant[] — verhindert MB-grosses HTML in den Islands.
+const plants = loadIndoorPlants().map(toIndoorPlant);
 ---
 
 <BaseLayout locale={locale} title={t(locale, 'indoor.title')}>

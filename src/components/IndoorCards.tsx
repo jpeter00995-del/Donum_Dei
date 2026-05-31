@@ -1,10 +1,11 @@
 // === 1. IMPORTS ===
-import type { Plant, Locale } from '@/lib/types';
+import type { Locale } from '@/lib/types';
+import type { IndoorPlant } from '@/lib/indoorCard';
 import { t } from '@/lib/i18n';
 
 // === 2. PROPS ===
 interface Props {
-  plants: Plant[];
+  plants: IndoorPlant[];
   locale: Locale;
 }
 

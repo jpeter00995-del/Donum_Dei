@@ -1,11 +1,12 @@
 // === 1. IMPORTS ===
 import { useState } from 'react';
-import type { Plant, Locale, IndoorRoom, IndoorPurpose } from '@/lib/types';
+import type { Locale, IndoorRoom, IndoorPurpose } from '@/lib/types';
+import type { IndoorPlant } from '@/lib/indoorCard';
 import IndoorCards from './IndoorCards';
 
 // === 2. PROPS ===
 interface Props {
-  plants: Plant[];
+  plants: IndoorPlant[];
   locale: Locale;
 }
 

@@ -2,10 +2,12 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import FilterBar from '@/components/FilterBar.tsx';
 import { getPlantsSortedByLocale } from '@/lib/loadPlants';
+import { toPlantCard } from '@/lib/plantCard';
 import { t } from '@/lib/i18n';
 
 const locale = 'de' as const;
-const plants = getPlantsSortedByLocale(locale);
+// Schlankes Card-DTO statt voller Plant-Objekte → kleine client:load-Props.
+const plants = getPlantsSortedByLocale(locale).map(toPlantCard);
 ---
 
 <BaseLayout locale={locale}>

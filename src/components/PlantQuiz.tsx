@@ -6,7 +6,9 @@
 // Logik isoliert in `@/lib/quizLogic` (TDD-getestet, 20 Tests).
 
 import { useState, useEffect, useMemo } from 'react';
-import type { Plant, Locale } from '@/lib/types';
+import type { Locale } from '@/lib/types';
+import type { Plant } from '@/lib/types';
+import type { QuizPlant } from '@/lib/quizCard';
 import {
   gradeScore,
   pickQuestionsForRound,
@@ -21,7 +23,7 @@ import {
 // === 1. PROPS + KONSTANTEN ===
 
 interface Props {
-  plants: Plant[];
+  plants: QuizPlant[];
   locale: Locale;
 }
 
@@ -130,7 +132,10 @@ export default function PlantQuiz({ plants, locale }: Props) {
   // === 3.3 Phase-Übergänge ===
   function startRound(length: RoundLength) {
     if (plantsWithImage.length < length + 3) return; // braucht 3 Distraktoren
-    const qs = pickQuestionsForRound(plantsWithImage, length);
+    // Boundary-Cast: pickQuestionsForRound ist als Plant[] typisiert, liest aber
+    // nur .slug — in QuizPlant vorhanden. Die resultierenden QuizQuestion.plant/
+    // .options tragen ebenfalls nur slug/names/image.filename, alle im Slim-DTO.
+    const qs = pickQuestionsForRound(plantsWithImage as unknown as Plant[], length);
     setRoundLength(length);
     setQuestions(qs);
     setCurrentIdx(0);

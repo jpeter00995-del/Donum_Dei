@@ -1,6 +1,7 @@
 // === 1. IMPORTS ===
 import { useMemo } from 'react';
-import type { Plant, Locale, MonthRange } from '@/lib/types';
+import type { Locale, MonthRange } from '@/lib/types';
+import type { GardenPlant } from '@/lib/plantCard';
 
 // === 2. TYPES & PROPS ===
 type CellState = 'none' | 'sow' | 'grow' | 'harvest';
@@ -10,7 +11,7 @@ interface Props {
    * Plants to show in the heatmap. Caller decides — typically the plants
    * referenced by the user's plan (so the matrix stays small and relevant).
    */
-  plants: Plant[];
+  plants: GardenPlant[];
   locale: Locale;
 }
 
@@ -47,7 +48,7 @@ function monthInRange(month: number, range: MonthRange): boolean {
  * Priority: sow > harvest > grow > none. (Wenn beides säen+ernten — säen gewinnt
  * visuell, weil zeitkritischer.)
  */
-function cellStateFor(plant: Plant, month: number): CellState {
+function cellStateFor(plant: GardenPlant, month: number): CellState {
   const meta = plant.garden_meta;
   if (!meta) return 'none';
   const sw = meta.sowing_window;
@@ -62,7 +63,7 @@ function cellStateFor(plant: Plant, month: number): CellState {
   return 'none';
 }
 
-function isPlantGrowingInMonth(plant: Plant, month: number): boolean {
+function isPlantGrowingInMonth(plant: GardenPlant, month: number): boolean {
   const meta = plant.garden_meta;
   if (!meta) return false;
   // Approximation: zwischen frühestem Säe-Monat und letztem Ernte-Monat.
@@ -190,7 +191,7 @@ function labelFor(state: CellState, locale: Locale): string {
   }
 }
 
-function tooltipFor(plant: Plant, month: number, state: CellState, locale: Locale): string {
+function tooltipFor(plant: GardenPlant, month: number, state: CellState, locale: Locale): string {
   const monthName = (locale === 'de' ? MONTHS_DE : MONTHS_EN)[month - 1];
   const action = labelFor(state, locale);
   if (!action) return `${plant.names[locale]} — ${monthName}`;

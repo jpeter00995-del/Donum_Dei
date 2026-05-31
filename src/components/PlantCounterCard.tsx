@@ -5,13 +5,16 @@
 // (Pflanzen-Counter-Card; Zustand liegt im Parent PlanView.)
 
 import type { Plant, Locale } from '@/lib/types';
+import type { PlanPlant } from '@/lib/planPlant';
 import { areaPerPlant } from '@/lib/gardenPlan';
 import { t as t_i18n } from '@/lib/i18n';
 
 // === 1. PROPS ===
 
 export interface PlantCounterCardProps {
-  plant: Plant;
+  // Schlankes Plan-DTO statt vollem Plant — Card liest nur slug/names/image
+  // + (via areaPerPlant) garden_meta.spacing_cm, alle im DTO vorhanden.
+  plant: PlanPlant;
   locale: Locale;
   /** Current count in the cart for this plant. 0 = not in cart. */
   count: number;
@@ -75,7 +78,8 @@ export default function PlantCounterCard(props: PlantCounterCardProps) {
   } = props;
   const t = L[locale];
 
-  const perPlantSqm = areaPerPlant(plant);
+  // Cast: areaPerPlant liest nur garden_meta.spacing_cm (im DTO vorhanden).
+  const perPlantSqm = areaPerPlant(plant as unknown as Plant);
   const currentSqm = Math.round(perPlantSqm * count * 100) / 100;
   const inCart = count > 0;
 
