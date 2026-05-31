@@ -1,0 +1,21 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import FilterBar from '@/components/FilterBar.tsx';
+import { getPlantsSortedByLocale } from '@/lib/loadPlants';
+import { toPlantCard } from '@/lib/plantCard';
+
+const locale = 'de' as const;
+// Nur Pilze (kingdom === 'fungus') — eigene Seite, getrennt vom Pflanzen-Grid.
+const fungi = getPlantsSortedByLocale(locale).filter(p => p.kingdom === 'fungus').map(toPlantCard);
+---
+
+<BaseLayout locale={locale} title="Pilze — Donum Dei">
+  <div class="max-w-6xl mx-auto px-4 py-8">
+    <h1 class="text-2xl md:text-3xl font-serif font-bold text-slate-900 mb-2">🍄 Heilpilze</h1>
+    <p class="text-slate-600 mb-6 max-w-2xl">
+      Pilze sind keine Pflanzen, sondern ein eigenes Reich. Hier sammeln wir Heil- und Vitalpilze —
+      quellenbelegt, mit Wirkstoffen und Sicherheits-Hinweisen, im selben Stil wie die Pflanzen-Datenbank.
+    </p>
+    <FilterBar client:load plants={fungi} locale={locale} />
+  </div>
+</BaseLayout>

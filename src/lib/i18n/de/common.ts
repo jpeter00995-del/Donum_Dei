@@ -12,6 +12,7 @@ export const common = {
   'nav.companion': 'Mischkultur',
   'nav.quiz': 'Quiz',
   'nav.indoor': 'Zuhause',
+  'nav.mushrooms': '🍄 Pilze',
   'nav.packages': '📦 Pakete',
   'nav.permaculture': '🌱 Permakultur',
   'nav.symptoms': '🌿 Hilfe bei…',
