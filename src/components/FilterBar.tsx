@@ -141,19 +141,23 @@ export default function FilterBar({ plants, locale }: Props) {
           <p className="text-center text-slate-500 py-8">{t(locale, 'filter.no_match')}</p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {filtered.map(plant => (
+            {filtered.map((plant, i) => (
               <a
                 key={plant.slug}
                 href={`/${locale}/plant/${plant.slug}`}
                 className="group block bg-white rounded-lg border border-slate-200 overflow-hidden hover:border-slate-400 hover:shadow-md transition"
               >
+                {/* Nur erstes Bild = LCP → eager + fetchpriority high; Rest lazy (keine Bandbreiten-Konkurrenz auf Mobil). */}
                 <div className="aspect-[4/3] overflow-hidden bg-slate-100">
                   <img
                     src={`/images/plants/${plant.image.filename}`}
                     alt={plant.image.alt[locale]}
                     title={`© ${plant.image.author} · ${plant.image.license}`}
+                    width={400}
+                    height={300}
                     className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
-                    loading="lazy"
+                    loading={i === 0 ? 'eager' : 'lazy'}
+                    fetchPriority={i === 0 ? 'high' : 'auto'}
                   />
                 </div>
                 <div className="p-4">
