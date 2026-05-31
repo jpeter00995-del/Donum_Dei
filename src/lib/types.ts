@@ -235,6 +235,42 @@ export type Plant = {
   constituents?: Constituent[];
   /** Sammel-, Trocknungs- und Lagerungs-Infos pro Pflanzenteil. */
   harvest?: HarvestInfo[];
+  // === Themen-Erweiterung Drogen/Rausch + Pilze (alle optional, additiv) ===
+  /**
+   * Reich des Organismus. Fehlt das Feld, gilt `'plant'` (alle bestehenden
+   * 223 Einträge bleiben gültig). `'fungus'` für Pilze (keine Pflanzen) —
+   * Mischkultur-/Beet-Felder bleiben dann leer.
+   * (Kingdom; absence implies plant. fungus = mushrooms, no garden fields.)
+   */
+  kingdom?: Kingdom;
+  /**
+   * Rechtlicher/Legalitäts-Status für kontrollierte oder psychoaktive Arten
+   * (z. B. Cannabis, Schlafmohn, psychoaktive Pilze). Nur gesetzt, wenn relevant.
+   * (Legal status for controlled/psychoactive species; only set when relevant.)
+   */
+  legal_status?: LegalStatus;
+};
+
+// === Themen-Erweiterung: Kingdom + Legal-Status ===
+
+export type Kingdom = 'plant' | 'fungus';
+
+/**
+ * Legalitäts-Einordnung für kontrollierte/psychoaktive Arten. Bewusst
+ * länder-neutral gehalten (`note` trägt den Pro-Land-Hinweis), da Donum Dei
+ * edukativ ist und keine Rechtsberatung gibt.
+ * (Legal classification; deliberately country-neutral — `note` carries the
+ * per-country caveat. Educational, NOT legal advice.)
+ */
+export type LegalStatus = {
+  /** true = irgendwo als kontrollierte Substanz reguliert → Disclaimer zeigen. */
+  controlled: boolean;
+  /** Kurz-Einordnung (z. B. „Betäubungsmittel in vielen Ländern"). */
+  summary: LocalizedString;
+  /** Optionaler Pro-Land-/Detail-Hinweis. */
+  note?: LocalizedString;
+  /** Quellen-IDs (verweisen auf sources[]) für die rechtliche Aussage. */
+  source_ids?: string[];
 };
 
 // Filter-related types

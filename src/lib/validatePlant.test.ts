@@ -69,6 +69,50 @@ describe('validatePlant', () => {
   });
 });
 
+describe('kingdom + legal_status (Themen-Erweiterung)', () => {
+  it('accepts a plant without kingdom/legal_status (backward compat)', () => {
+    expect(() => validatePlant(validPlant)).not.toThrow();
+  });
+
+  it('accepts kingdom="fungus"', () => {
+    expect(() => validatePlant({ ...validPlant, kingdom: 'fungus' })).not.toThrow();
+  });
+
+  it('rejects an unknown kingdom', () => {
+    expect(() => validatePlant({ ...validPlant, kingdom: 'animal' })).toThrow(/kingdom/);
+  });
+
+  it('accepts a valid legal_status with declared source_ids', () => {
+    const ok = {
+      ...validPlant,
+      legal_status: {
+        controlled: true,
+        summary: { de: 'Kontrolliert.', en: 'Controlled.' },
+        note: { de: 'Je nach Land.', en: 'Varies by country.' },
+        source_ids: ['src_1'],
+      },
+    };
+    expect(() => validatePlant(ok)).not.toThrow();
+  });
+
+  it('rejects legal_status referencing a non-existent source_id', () => {
+    const bad = {
+      ...validPlant,
+      legal_status: {
+        controlled: true,
+        summary: { de: 'Kontrolliert.', en: 'Controlled.' },
+        source_ids: ['ghost'],
+      },
+    };
+    expect(() => validatePlant(bad)).toThrow(/source/);
+  });
+
+  it('rejects legal_status without summary', () => {
+    const bad = { ...validPlant, legal_status: { controlled: true } };
+    expect(() => validatePlant(bad)).toThrow();
+  });
+});
+
 describe('indoor_growing field', () => {
   const validIndoor = {
     suitable: true,

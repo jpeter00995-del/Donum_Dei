@@ -1,0 +1,42 @@
+---
+// === LegalStatusNotice — Themen-Erweiterung Drogen/Rausch + psychoaktive Pilze ===
+// Prominenter Rechts-/Legalitäts-Hinweis für kontrollierte/psychoaktive Arten
+// (Cannabis, Schlafmohn, psychoaktive Pilze …). Rendert NUR, wenn
+// `plant.legal_status?.controlled === true`. Server-seitig, kein Client-JS.
+//
+// Bewusst länder-neutral: Donum Dei ist edukativ und gibt KEINE Rechtsberatung.
+// Der konkrete Pro-Land-Hinweis steht in `legal_status.note`.
+import type { Plant, Locale } from '@/lib/types';
+
+interface Props {
+  plant: Plant;
+  locale: Locale;
+}
+const { plant, locale } = Astro.props;
+const legal = plant.legal_status;
+
+// Statischer Disclaimer-Satz (kein medizinischer/rechtlicher Rat-Ton).
+const DISCLAIMER = {
+  de: 'Bildungs- und Dokumentationszweck. Keine Konsum-Anleitung, keine Rechts- oder Medizinberatung. Besitz, Anbau und Konsum sind je nach Land und Art unterschiedlich geregelt — informiere dich über die für dich geltende Rechtslage.',
+  en: 'For education and documentation only. Not a consumption guide, not legal or medical advice. Possession, cultivation and use are regulated differently by country and species — check the law that applies to you.',
+} as const;
+
+const heading = locale === 'de' ? 'Rechtlicher Hinweis' : 'Legal notice';
+---
+
+{legal?.controlled && (
+  <section
+    class="my-4 p-4 bg-purple-50 border-l-4 border-purple-500 rounded-r-lg"
+    role="note"
+    aria-label={heading}
+  >
+    <h3 class="font-semibold text-purple-900 mb-1 flex items-center gap-2">
+      <span aria-hidden="true">⚖️</span> {heading}
+    </h3>
+    <p class="text-sm text-purple-950/90 font-medium">{legal.summary[locale]}</p>
+    {legal.note && (
+      <p class="text-sm text-slate-700 mt-2">{legal.note[locale]}</p>
+    )}
+    <p class="text-xs text-slate-600 mt-2 leading-relaxed">{DISCLAIMER[locale]}</p>
+  </section>
+)}

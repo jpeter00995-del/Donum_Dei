@@ -58,6 +58,10 @@ export const sourceType = z.enum(SOURCE_TYPES);
 export const TOXICITY_LEVELS = ['none', 'caution', 'toxic'] as const;
 export const toxicityLevel = z.enum(TOXICITY_LEVELS);
 
+// Themen-Erweiterung: Reich (Pflanze vs. Pilz). Fehlt das Feld → 'plant'.
+export const KINGDOMS = ['plant', 'fungus'] as const;
+export const kingdom = z.enum(KINGDOMS);
+
 // === 4. SUB-SCHEMAS ===
 // Preparation accepts either the structured object form (Welle O.1 typed fields)
 // OR the Welle F bilingual freetext form ({de, en}). UI normalises at display time.
@@ -169,6 +173,15 @@ export const plantImageSchema = z.object({
   source_url: z.string(),
 });
 
+// Themen-Erweiterung: Legalitäts-Status für kontrollierte/psychoaktive Arten.
+// Länder-neutral (note = Pro-Land-Hinweis); edukativ, keine Rechtsberatung.
+export const legalStatusSchema = z.object({
+  controlled: z.boolean(),
+  summary: localizedString,
+  note: localizedString.optional(),
+  source_ids: z.array(z.string()).optional(),
+});
+
 // === 5. ROOT PLANT SCHEMA ===
 export const plantSchema = z.object({
   slug: z.string().min(1),
@@ -184,6 +197,9 @@ export const plantSchema = z.object({
   image: plantImageSchema,
   constituents: z.array(constituentSchema).optional(),
   harvest: z.array(harvestInfoSchema).optional(),
+  // Themen-Erweiterung (optional, additiv — bestehende JSONs bleiben gültig):
+  kingdom: kingdom.optional(),
+  legal_status: legalStatusSchema.optional(),
   // Non-validated extra fields kept as passthrough so plant JSONs with
   // IndoorGrowing/GardenMeta/CompanionPlanting/PermacultureFunction stay valid.
 }).passthrough()
@@ -200,6 +216,16 @@ export const plantSchema = z.object({
           });
         }
       });
+    });
+    // legal_status.source_ids müssen ebenfalls in sources[] deklariert sein.
+    plant.legal_status?.source_ids?.forEach((sid) => {
+      if (!knownIds.has(sid)) {
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          path: ['legal_status', 'source_ids'],
+          message: `source_id '${sid}' not declared in sources[]`,
+        });
+      }
     });
   });
 
@@ -223,3 +249,5 @@ export type DrugInteractionSeverity = (typeof DRUG_INTERACTION_SEVERITIES)[numbe
 export type ConstituentCategory = (typeof CONSTITUENT_CATEGORIES)[number];
 export type SourceType = (typeof SOURCE_TYPES)[number];
 export type ToxicityLevel = (typeof TOXICITY_LEVELS)[number];
+export type Kingdom = (typeof KINGDOMS)[number];
+export type LegalStatus = z.infer<typeof legalStatusSchema>;

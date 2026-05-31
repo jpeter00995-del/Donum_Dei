@@ -197,6 +197,31 @@ export function validatePlant(input: unknown): asserts input is Plant {
     }
   }
 
+  // === Themen-Erweiterung: kingdom + legal_status (beide optional, additiv) ===
+  if (p.kingdom !== undefined && !['plant', 'fungus'].includes(p.kingdom)) {
+    throw new ValidationError('kingdom', "must be 'plant' | 'fungus' when present");
+  }
+  if (p.legal_status !== undefined) {
+    const ls = p.legal_status;
+    if (!ls || typeof ls.controlled !== 'boolean') {
+      throw new ValidationError('legal_status.controlled', 'must be boolean');
+    }
+    requireLocalizedString(ls, 'summary');
+    if (ls.note !== undefined) {
+      requireLocalizedString(ls, 'note');
+    }
+    if (ls.source_ids !== undefined) {
+      if (!Array.isArray(ls.source_ids)) {
+        throw new ValidationError('legal_status.source_ids', 'must be an array when present');
+      }
+      for (const sid of ls.source_ids) {
+        if (!knownSourceIds.has(sid)) {
+          throw new ValidationError('legal_status.source_ids', `source '${sid}' not found in sources[]`);
+        }
+      }
+    }
+  }
+
   if (!Array.isArray(p.classical_quotes)) {
     throw new ValidationError('classical_quotes', 'must be an array (can be empty)');
   }
