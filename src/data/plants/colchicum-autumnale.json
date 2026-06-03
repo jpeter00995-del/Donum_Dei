@@ -182,12 +182,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Colchicum autumnale (Herbstzeitlose) ist eine der giftigsten Pflanzen Mitteleuropas. Der Wirkstoff Colchicin hemmt die Mitose durch Tubulin-Bindung; schon 0,1 mg/kg Körpergewicht können tödlich sein. Alle Pflanzenteile sind giftig — besonders Samen und Zwiebel. SELBSTANWENDUNG ALS PFLANZENPRÄPARAT IST ABSOLUT KONTRAINDIZIERT. Der therapeutische Einsatz ist ausschließlich auf pharmazeutisch standardisierte Colchicin-Arzneimittel beschränkt, die unter ärztlicher Aufsicht und mit Dosiskontrolle gegeben werden. Colchicin hat keine sichere selbstdosierbare Menge als Rohmaterial. Symptome der Vergiftung: Übelkeit, Erbrechen, Durchfall, Nierenschäden, Knochenmarkversagen, Tod.",
-      "en": "Colchicum autumnale (autumn crocus) is one of the most toxic plants in Central Europe. The active compound colchicine inhibits mitosis through tubulin binding; as little as 0.1 mg/kg body weight can be lethal. All plant parts are toxic — seeds and corm especially. SELF-ADMINISTRATION AS A PLANT PREPARATION IS ABSOLUTELY CONTRAINDICATED. Therapeutic use is restricted exclusively to pharmaceutically standardised colchicine medications given under medical supervision with dose control. Colchicine has no safe self-dosable amount as raw material. Poisoning symptoms: nausea, vomiting, diarrhoea, kidney damage, bone marrow failure, death."
+      "de": "Colchicum autumnale (Herbstzeitlose) ist eine der giftigsten Pflanzen Mitteleuropas. Der Wirkstoff Colchicin hemmt die Mitose durch Tubulin-Bindung; schon 0,1 mg/kg Körpergewicht können tödlich sein. Alle Pflanzenteile sind giftig — besonders Samen und Zwiebel. SELBSTANWENDUNG ALS PFLANZENPRÄPARAT IST ABSOLUT KONTRAINDIZIERT. Der therapeutische Einsatz ist ausschließlich auf pharmazeutisch standardisierte Colchicin-Arzneimittel beschränkt, die unter ärztlicher Aufsicht und mit Dosiskontrolle gegeben werden. Colchicin hat keine sichere selbstdosierbare Menge als Rohmaterial. Symptome der Vergiftung: Übelkeit, Erbrechen, Durchfall, Nierenschäden, Knochenmarkversagen, Tod. Tiergefahr: hochgiftig für Hunde, Katzen und Pferde (ASPCA) — schon kleine Mengen können tödlich sein.",
+      "en": "Colchicum autumnale (autumn crocus) is one of the most toxic plants in Central Europe. The active compound colchicine inhibits mitosis through tubulin binding; as little as 0.1 mg/kg body weight can be lethal. All plant parts are toxic — seeds and corm especially. SELF-ADMINISTRATION AS A PLANT PREPARATION IS ABSOLUTELY CONTRAINDICATED. Therapeutic use is restricted exclusively to pharmaceutically standardised colchicine medications given under medical supervision with dose control. Colchicine has no safe self-dosable amount as raw material. Poisoning symptoms: nausea, vomiting, diarrhoea, kidney damage, bone marrow failure, death. Animal hazard: highly toxic to dogs, cats and horses (ASPCA) — even small amounts can be fatal."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "contraindicated",
       "note": {
@@ -318,6 +318,13 @@
       "title": "Maud Grieve: A Modern Herbal — Colchicum (botanical.com, 1931)",
       "url": "https://botanical.com/botanical/mgmh/c/colaut84.html",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_colchicum_autumnale",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Autumn Crocus (Colchicum autumnale)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/autumn-crocus",
+      "accessed": "2026-06-03"
     }
   ],
   "image": {

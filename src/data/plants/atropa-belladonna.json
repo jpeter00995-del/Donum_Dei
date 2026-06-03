@@ -190,12 +190,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG — GESAMTE PFLANZE. Atropa belladonna ist eine der giftigsten Pflanzen Europas. Alle Pflanzenteile enthalten toxische Tropanalkaloide (Atropin, Scopolamin, Hyoscyamin). Die schwarzen Beeren sind süsslich und besonders für Kinder attraktiv und gefährlich. Symptome einer Vergiftung: Mundtrockenheit, Tachykardie, weite Pupillen, Hautrötung, Fieber, Halluzinationen, Krampfanfälle, Koma. Bei Vergiftungsverdacht: SOFORT Notruf (112) und Giftnotruf. Keine Selbstmedikation. Keine Laienverwendung. Nur unter ärztlicher Kontrolle in der Phytotherapie (heute obsolet).",
-      "en": "TOXIC — ENTIRE PLANT. Atropa belladonna is one of the most poisonous plants in Europe. All plant parts contain toxic tropane alkaloids (atropine, scopolamine, hyoscyamine). The black berries are sweet and particularly attractive and dangerous for children. Symptoms of poisoning: dry mouth, tachycardia, dilated pupils, skin flushing, fever, hallucinations, seizures, coma. In case of suspected poisoning: IMMEDIATELY call emergency services and poison control. No self-medication. No lay use. Only under medical supervision in phytotherapy (now obsolete)."
+      "de": "GIFTIG — GESAMTE PFLANZE. Atropa belladonna ist eine der giftigsten Pflanzen Europas. Alle Pflanzenteile enthalten toxische Tropanalkaloide (Atropin, Scopolamin, Hyoscyamin). Die schwarzen Beeren sind süsslich und besonders für Kinder attraktiv und gefährlich. Symptome einer Vergiftung: Mundtrockenheit, Tachykardie, weite Pupillen, Hautrötung, Fieber, Halluzinationen, Krampfanfälle, Koma. Bei Vergiftungsverdacht: SOFORT Notruf (112) und Giftnotruf. Keine Selbstmedikation. Keine Laienverwendung. Nur unter ärztlicher Kontrolle in der Phytotherapie (heute obsolet). Tiergefahr: giftig für Hunde und Katzen — die Tropanalkaloide wirken auch bei Haustieren (Wag!).",
+      "en": "TOXIC — ENTIRE PLANT. Atropa belladonna is one of the most poisonous plants in Europe. All plant parts contain toxic tropane alkaloids (atropine, scopolamine, hyoscyamine). The black berries are sweet and particularly attractive and dangerous for children. Symptoms of poisoning: dry mouth, tachycardia, dilated pupils, skin flushing, fever, hallucinations, seizures, coma. In case of suspected poisoning: IMMEDIATELY call emergency services and poison control. No self-medication. No lay use. Only under medical supervision in phytotherapy (now obsolete). Animal hazard: toxic to dogs and cats — the tropane alkaloids affect pets as well (Wag!)."
     },
     "external_only": true,
     "toxicity_level": "toxic",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "contraindicated",
       "note": {
@@ -327,6 +327,13 @@
       "url": "https://www.wikidata.org/wiki/Q48928",
       "accessed": "2026-05-24",
       "language": "en"
+    },
+    {
+      "id": "src_wag_atropa_belladonna",
+      "type": "monograph",
+      "title": "Wag! — Belladonna Poisoning in Dogs (veterinary-reviewed)",
+      "url": "https://wagwalking.com/condition/belladonna-poisoning",
+      "accessed": "2026-06-03"
     }
   ],
   "image": {
