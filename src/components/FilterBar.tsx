@@ -6,8 +6,9 @@ import type { PlantCard } from '@/lib/plantCard';
 interface Props {
   plants: PlantCard[];
   locale: Locale;
-  // Substantiv für Counter/Labels: 'plant' (Default) oder 'fungus' (Pilz-Seite).
-  noun?: 'plant' | 'fungus';
+  // Substantiv für Counter/Labels: 'plant' (Default), 'fungus' (Pilz-Seite)
+  // oder 'controlled' (Rauschpflanzen-Seite, gemischt Pflanzen + Pilze → „Einträge").
+  noun?: 'plant' | 'fungus' | 'controlled';
 }
 
 const FORMS: UseForm[] = ['tea', 'tincture', 'salve', 'bath', 'raw', 'spice'];
@@ -42,11 +43,14 @@ export default function FilterBar({ plants, locale, noun = 'plant' }: Props) {
 
   const hasActiveFilter = filter.forms.length > 0 || filter.seasons.length > 0 || search.trim().length > 0;
 
-  // Counter/Labels passen sich an das Substantiv an (Pflanzen vs. Pilze).
-  const counterKey = noun === 'fungus' ? 'filter.counter.fungus' : 'filter.counter';
-  const noMatchKey = noun === 'fungus' ? 'filter.no_match.fungus' : 'filter.no_match';
-  const searchPlaceholder = t(locale, noun === 'fungus' ? 'filter.search.fungus' : 'filter.search.plant');
-  const searchAriaLabel = t(locale, noun === 'fungus' ? 'filter.search_aria.fungus' : 'filter.search_aria.plant');
+  // Counter/Labels passen sich an das Substantiv an (Pflanzen / Pilze / Einträge).
+  // counter+no_match: 'plant' = Basis-Key ohne Suffix; sonst .fungus/.controlled.
+  const suffix = noun === 'plant' ? '' : `.${noun}`;
+  const counterKey = `filter.counter${suffix}`;
+  const noMatchKey = `filter.no_match${suffix}`;
+  // search-Keys haben für jedes Substantiv ein eigenes Suffix (.plant/.fungus/.controlled).
+  const searchPlaceholder = t(locale, `filter.search.${noun}`);
+  const searchAriaLabel = t(locale, `filter.search_aria.${noun}`);
 
   return (
     <div>

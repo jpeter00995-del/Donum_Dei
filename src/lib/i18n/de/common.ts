@@ -13,6 +13,7 @@ export const common = {
   'nav.quiz': 'Quiz',
   'nav.indoor': 'Zuhause',
   'nav.mushrooms': '🍄 Pilze',
+  'nav.controlled': '🌀 Rauschpflanzen',
   'nav.packages': '📦 Pakete',
   'nav.permaculture': '🌱 Permakultur',
   'nav.symptoms': '🌿 Hilfe bei…',
@@ -20,7 +21,7 @@ export const common = {
 
   'search.title': 'Suche',
   'search.placeholder': 'Pflanze, Symptom, Inhaltsstoff…',
-  'search.intro': 'Volltext-Suche über alle 238 Einträge, 513 Seiten und Inhaltsstoffe. Tippe ein Stichwort — Treffer kommen sofort.',
+  'search.intro': 'Volltext-Suche über alle 242 Einträge, 523 Seiten und Inhaltsstoffe. Tippe ein Stichwort — Treffer kommen sofort.',
   'search.examples_title': 'Beispiel-Suchen',
   'search.examples': 'Reizdarm · Husten · PA toxisch · Hildegard · Permakultur · Aromatisch',
 

@@ -2,11 +2,12 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import FilterBar from '@/components/FilterBar.tsx';
 import { getPlantsSortedByLocale } from '@/lib/loadPlants';
+import { isFungus } from '@/lib/speciesFilters';
 import { toPlantCard } from '@/lib/plantCard';
 
 const locale = 'de' as const;
 // Nur Pilze (kingdom === 'fungus') — eigene Seite, getrennt vom Pflanzen-Grid.
-const fungi = getPlantsSortedByLocale(locale).filter(p => p.kingdom === 'fungus').map(toPlantCard);
+const fungi = getPlantsSortedByLocale(locale).filter(isFungus).map(toPlantCard);
 ---
 
 <BaseLayout locale={locale} title="Pilze — Donum Dei">

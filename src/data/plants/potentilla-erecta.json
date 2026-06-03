@@ -1,0 +1,302 @@
+{
+  "slug": "potentilla-erecta",
+  "names": {
+    "de": "Blutwurz",
+    "en": "Tormentil",
+    "latin": "Potentilla erecta"
+  },
+  "family": {
+    "de": "Rosengewächse",
+    "en": "Rose family",
+    "latin": "Rosaceae"
+  },
+  "description": {
+    "de": "Die Blutwurz (Potentilla erecta), auch Tormentill oder Aufrechtes Fingerkraut genannt, ist eine ausdauernde, krautige Pflanze aus der Familie der Rosengewächse und wird meist nur 10 bis 30 cm hoch. Charakteristisch sind die dreizähligen Laubblätter und die kleinen, gelben Blüten mit meist nur vier Kronblättern. Der knollig verdickte, beim Anschnitt blutrote Wurzelstock ist der medizinisch genutzte, sehr gerbstoffreiche Teil.",
+    "en": "Tormentil (Potentilla erecta) is a low, clump-forming herbaceous perennial of the rose family, growing just 10–30 cm tall. It bears glossy three-part leaves and small yellow flowers with a characteristic four petals from late spring into autumn. Its reddish, tuberous rhizome — blood-red when cut — is the very tannin-rich part used medicinally."
+  },
+  "teaser": {
+    "de": "Die unscheinbare Wiesenpflanze mit der blutroten Wurzel — ein klassisches Gerbstoff-Heilkraut gegen Durchfall und Mundentzündungen.",
+    "en": "A modest meadow plant with a blood-red root — a classic tannin remedy for diarrhoea and sore mouths."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.4,
+          "max": 3
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "ABKOCHUNG: 1,4–3 g zerkleinerten Wurzelstock mit Wasser kurz aufkochen und 10 Minuten ziehen lassen, abseihen; mehrmals täglich eine Tasse (als Abkochung höchstens 6 g Droge pro Tag, als Aufguss bis 12 g). Bei akutem, leichtem Durchfall. Hält der Durchfall länger als 3 Tage an oder treten blutige Stühle auf, einen Arzt aufsuchen.",
+          "en": "DECOCTION: Briefly boil 1.4–3 g of comminuted rhizome in water and steep for 10 minutes, then strain; one cup several times a day (as a decoction max 6 g of drug per day, as an infusion up to 12 g). For acute, mild diarrhoea. If diarrhoea lasts more than 3 days or bloody stools occur, consult a doctor."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Anwendung bei Kindern und Jugendlichen unter 18 Jahren nicht empfohlen (keine ausreichenden Daten).",
+          "en": "Use in children and adolescents under 18 not recommended (insufficient data)."
+        }
+      },
+      "description": {
+        "de": "Gerbstoffreicher Tee bei akutem leichtem Durchfall — die Tannine wirken adstringierend auf die Darmschleimhaut.",
+        "en": "Tannin-rich tea for acute mild diarrhoea — the tannins act astringently on the intestinal mucosa."
+      },
+      "source_ids": [
+        "src_ema_tormentillae_rhizoma"
+      ]
+    },
+    {
+      "form": "gargle",
+      "target": [
+        "mouth",
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "rhizome",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.3,
+          "max": 2
+        },
+        "water_ml": 100,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "SPÜLUNG/GURGELLÖSUNG: 1,3–2 g Wurzelstock auf 100 ml Wasser als Aufguss oder Abkochung zubereiten, abkühlen lassen; mehrmals täglich den Mund spülen oder gurgeln. Nicht schlucken. Bei leichten Entzündungen der Mund- und Rachenschleimhaut. Bei Beschwerden länger als 1 Woche einen Arzt aufsuchen.",
+          "en": "RINSE/GARGLE: Prepare 1.3–2 g of rhizome per 100 ml water as an infusion or decoction, let cool; rinse the mouth or gargle several times a day. Do not swallow. For minor inflammations of the oral and throat mucosa. If complaints last more than 1 week, consult a doctor."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Anwendung bei Kindern und Jugendlichen unter 18 Jahren nicht empfohlen.",
+          "en": "Use in children and adolescents under 18 not recommended."
+        }
+      },
+      "description": {
+        "de": "Adstringierende Spülung bei leichten Entzündungen im Mund- und Rachenraum — etwa bei wundem Zahnfleisch.",
+        "en": "Astringent rinse for minor inflammations of the mouth and throat — for example sore gums."
+      },
+      "source_ids": [
+        "src_ema_tormentillae_rhizoma"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "rhizome",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 2,
+          "max": 4
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "TINKTUR (1:5 in 45 % Ethanol): 2–4 ml Einzeldosis, bis zu 3 mal täglich auf etwas Wasser, bei leichtem Durchfall. Wegen des Alkohols nicht für Schwangere, Stillende, Kinder oder Personen mit Lebererkrankungen.",
+          "en": "TINCTURE (1:5 in 45 % ethanol): 2–4 ml single dose, up to 3 times daily in a little water, for mild diarrhoea. Due to the alcohol, not for pregnant or breastfeeding women, children, or people with liver disease."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Alkoholhaltige Tinkturen nur für Erwachsene ab 18 Jahren.",
+          "en": "Alcohol-containing tinctures only for adults from 18 years."
+        }
+      },
+      "description": {
+        "de": "Konzentrierte adstringierende Form für unterwegs bei leichtem Durchfall.",
+        "en": "Concentrated astringent form for travel use in mild diarrhoea."
+      },
+      "source_ids": [
+        "src_ema_tormentillae_rhizoma"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Wurzelstock (Frühjahr oder Herbst)",
+      "en": "rhizome (spring or autumn)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Bei leichtem Durchfall auf ausreichende Flüssigkeits- und Salzzufuhr achten. Hält der Durchfall länger als 3 Tage an, treten blutige Stühle oder Fieber auf, ist ein Arzt aufzusuchen; Mund-/Rachen-Spülungen nicht länger als 1 Woche ohne ärztlichen Rat. Der hohe Gerbstoffgehalt kann bei empfindlichem Magen Übelkeit oder Erbrechen auslösen. Gerbstoffe können die Aufnahme gleichzeitig eingenommener Arzneimittel und von Eisen verzögern — mindestens 1 Stunde Abstand halten. Bei Überempfindlichkeit gegen Blutwurz nicht anwenden. In Schwangerschaft und Stillzeit sowie bei Kindern und Jugendlichen unter 18 Jahren mangels Daten nicht empfohlen.",
+      "en": "With mild diarrhoea, ensure adequate fluid and salt intake. If diarrhoea lasts more than 3 days, or bloody stools or fever occur, consult a doctor; do not use mouth/throat rinses for more than 1 week without medical advice. The high tannin content may cause nausea or vomiting on a sensitive stomach. Tannins may delay absorption of concomitant medicines and of iron — keep a gap of at least 1 hour. Do not use in case of hypersensitivity to tormentil. Not recommended during pregnancy and lactation or in children and adolescents under 18 due to lack of data."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Sicherheit in der Schwangerschaft ist nicht belegt — mangels Daten nicht empfohlen.",
+        "en": "Safety during pregnancy has not been established — not recommended due to lack of data."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Stillzeit — nicht empfohlen.",
+        "en": "Insufficient data for breastfeeding — not recommended."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Anwendung bei Kindern und Jugendlichen unter 18 Jahren nicht empfohlen.",
+        "en": "Use in children and adolescents under 18 not recommended."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Oral eingenommene Arzneimittel allgemein sowie Eisenpräparate",
+        "mechanism": {
+          "de": "Der hohe Gerbstoffgehalt kann die Aufnahme gleichzeitig eingenommener Arzneimittel und von Eisen im Darm verzögern. Daher die Einnahme zeitlich mindestens 1 Stunde versetzen.",
+          "en": "The high tannin content may delay intestinal absorption of concomitantly taken medicines and of iron. Therefore keep an interval of at least 1 hour."
+        },
+        "severity": "caution"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Blutwurz (Potentilla erecta).",
+        "en": "Hypersensitivity to tormentil (Potentilla erecta)."
+      },
+      {
+        "de": "Kinder und Jugendliche unter 18 Jahren.",
+        "en": "Children and adolescents under 18 years."
+      }
+    ],
+    "max_continuous_use_weeks": 1
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_ema_tormentillae_rhizoma",
+      "type": "monograph",
+      "title": "Community herbal monograph on Potentilla erecta (L.) Raeusch., rhizoma (EMA/HMPC/5513/2010)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/tormentillae-rhizoma",
+      "accessed": "2026-06-03"
+    },
+    {
+      "id": "src_wikipedia_potentilla_erecta",
+      "type": "wikipedia",
+      "title": "Blutwurz — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Blutwurz",
+      "accessed": "2026-06-03"
+    }
+  ],
+  "image": {
+    "filename": "potentilla-erecta.webp",
+    "alt": {
+      "de": "Botanische Tafel der Blutwurz aus Thomés Flora von Deutschland",
+      "en": "Botanical plate of tormentil from Thomé's Flora von Deutschland"
+    },
+    "license": "Public domain",
+    "author": "Otto Wilhelm Thomé, Flora von Deutschland, Österreich und der Schweiz (1885)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Potentilla_erecta0.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Gerbstoffe (Catechin-/kondensierte Gerbstoffe, „Tormentillrot\")",
+      "category": "tannin",
+      "percent_range": "15–22 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Die wirksame Hauptgruppe. Überwiegend kondensierte Catechingerbstoffe und Procyanidine; das Arzneibuch fordert mindestens 7 % Gerbstoffe (als Pyrogallol). Sie wirken adstringierend.",
+        "en": "The main active group. Predominantly condensed catechin tannins and procyanidins; the pharmacopoeia requires at least 7 % tannins (as pyrogallol). They act astringently."
+      }
+    },
+    {
+      "name": "Agrimoniin (dimeres Ellagitannin)",
+      "category": "tannin",
+      "percent_range": "ca. 1 %",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Wichtigstes hydrolysierbares Gerbstoff; bei Hydrolyse entstehen Gallus- und Ellagsäure.",
+        "en": "Main hydrolysable tannin; on hydrolysis it yields gallic and ellagic acid."
+      }
+    },
+    {
+      "name": "Triterpensaponine (Tormentosid, Tormentill- und Chinovasäure)",
+      "category": "saponin",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Begleitende Triterpene des Wurzelstocks.",
+        "en": "Accompanying triterpenes of the rhizome."
+      }
+    },
+    {
+      "name": "Flavonoide",
+      "category": "flavonoid",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Kaempferol- und Catechin-Bausteine; antioxidative Begleitstoffe.",
+        "en": "Kaempferol and catechin units; antioxidant accompanying compounds."
+      }
+    },
+    {
+      "name": "Phenolcarbonsäuren (Gallus-, Kaffee-, p-Cumarsäure)",
+      "category": "phenolic_acid",
+      "plant_part": "rhizome",
+      "note": {
+        "de": "Tragen zur adstringierenden und antioxidativen Gesamtwirkung bei.",
+        "en": "Contribute to the astringent and antioxidant overall effect."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "rhizome",
+      "best_months": [
+        3,
+        4,
+        9,
+        10
+      ],
+      "time_of_day": {
+        "de": "An einem trockenen Tag im Frühjahr vor dem Austrieb oder im Herbst.",
+        "en": "On a dry day in spring before sprouting, or in autumn."
+      },
+      "drying": {
+        "de": "Den Wurzelstock ausgraben, waschen, in kleine Stücke schneiden und luftig im Schatten über etwa zwei bis drei Wochen trocknen.",
+        "en": "Dig up the rhizome, wash, cut into small pieces and dry airy in the shade over about two to three weeks."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken und dunkel in luftdichten Gefäßen lagern; gut haltbar wegen des hohen Gerbstoffgehalts.",
+        "en": "Store dry and dark in airtight containers; keeps well thanks to the high tannin content."
+      }
+    }
+  ],
+  "permaculture_functions": [
+    "medicinal",
+    "pollinator_attractor",
+    "ground_cover"
+  ]
+}

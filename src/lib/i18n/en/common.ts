@@ -13,6 +13,7 @@ export const common = {
   'nav.quiz': 'Quiz',
   'nav.indoor': 'Home',
   'nav.mushrooms': '🍄 Mushrooms',
+  'nav.controlled': '🌀 Psychoactive',
   'nav.packages': '📦 Packages',
   'nav.permaculture': '🌱 Permaculture',
   'nav.symptoms': '🌿 Help with…',
@@ -20,7 +21,7 @@ export const common = {
 
   'search.title': 'Search',
   'search.placeholder': 'Plant, symptom, constituent…',
-  'search.intro': 'Full-text search across all 238 entries, 513 pages and constituents. Type a keyword — results appear instantly.',
+  'search.intro': 'Full-text search across all 242 entries, 523 pages and constituents. Type a keyword — results appear instantly.',
   'search.examples_title': 'Example searches',
   'search.examples': 'IBS · cough · PA toxic · Hildegard · permaculture · aromatic',
 

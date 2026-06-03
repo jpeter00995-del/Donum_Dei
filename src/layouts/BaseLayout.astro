@@ -62,6 +62,7 @@ const currentPath = Astro.url.pathname;
           <a href={`/${locale}/quiz`} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.quiz')}</a>
           <a href={locale === 'de' ? '/de/zuhause-anbauen' : '/en/grow-at-home'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.indoor')}</a>
           <a href={locale === 'de' ? '/de/pilze' : '/en/mushrooms'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.mushrooms')}</a>
+          <a href={locale === 'de' ? '/de/rauschpflanzen' : '/en/psychoactive'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.controlled')}</a>
         </div>
       </nav>
     </header>
