@@ -16,6 +16,6 @@ const fungi = getPlantsSortedByLocale(locale).filter(p => p.kingdom === 'fungus'
       Fungi are not plants but a kingdom of their own. Here we collect medicinal and tonic mushrooms —
       sourced, with constituents and safety notes, in the same style as the plant database.
     </p>
-    <FilterBar client:load plants={fungi} locale={locale} />
+    <FilterBar client:load plants={fungi} locale={locale} noun="fungus" />
   </div>
 </BaseLayout>

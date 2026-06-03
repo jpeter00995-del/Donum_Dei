@@ -20,7 +20,7 @@ export const common = {
 
   'search.title': 'Suche',
   'search.placeholder': 'Pflanze, Symptom, Inhaltsstoff…',
-  'search.intro': 'Volltext-Suche über alle 223 Pflanzen, 477 Seiten und Inhaltsstoffe. Tippe ein Stichwort — Treffer kommen sofort.',
+  'search.intro': 'Volltext-Suche über alle 238 Einträge, 513 Seiten und Inhaltsstoffe. Tippe ein Stichwort — Treffer kommen sofort.',
   'search.examples_title': 'Beispiel-Suchen',
   'search.examples': 'Reizdarm · Husten · PA toxisch · Hildegard · Permakultur · Aromatisch',
 

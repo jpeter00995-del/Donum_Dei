@@ -16,6 +16,6 @@ const fungi = getPlantsSortedByLocale(locale).filter(p => p.kingdom === 'fungus'
       Pilze sind keine Pflanzen, sondern ein eigenes Reich. Hier sammeln wir Heil- und Vitalpilze —
       quellenbelegt, mit Wirkstoffen und Sicherheits-Hinweisen, im selben Stil wie die Pflanzen-Datenbank.
     </p>
-    <FilterBar client:load plants={fungi} locale={locale} />
+    <FilterBar client:load plants={fungi} locale={locale} noun="fungus" />
   </div>
 </BaseLayout>

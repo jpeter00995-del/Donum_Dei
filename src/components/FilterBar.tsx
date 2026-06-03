@@ -6,6 +6,8 @@ import type { PlantCard } from '@/lib/plantCard';
 interface Props {
   plants: PlantCard[];
   locale: Locale;
+  // Substantiv für Counter/Labels: 'plant' (Default) oder 'fungus' (Pilz-Seite).
+  noun?: 'plant' | 'fungus';
 }
 
 const FORMS: UseForm[] = ['tea', 'tincture', 'salve', 'bath', 'raw', 'spice'];
@@ -15,7 +17,7 @@ function toggleInArray<T>(arr: T[], item: T): T[] {
   return arr.includes(item) ? arr.filter(x => x !== item) : [...arr, item];
 }
 
-export default function FilterBar({ plants, locale }: Props) {
+export default function FilterBar({ plants, locale, noun = 'plant' }: Props) {
   const [filter, setFilter] = useState<FilterState>({ forms: [], seasons: [] });
   const [search, setSearch] = useState('');
 
@@ -40,8 +42,11 @@ export default function FilterBar({ plants, locale }: Props) {
 
   const hasActiveFilter = filter.forms.length > 0 || filter.seasons.length > 0 || search.trim().length > 0;
 
-  const searchPlaceholder = locale === 'de' ? 'Pflanze suchen — z.B. Tomate, Basilikum, Echinacea...' : 'Search plant — e.g. tomato, basil, echinacea...';
-  const searchAriaLabel = locale === 'de' ? 'Pflanze nach Namen suchen' : 'Search plant by name';
+  // Counter/Labels passen sich an das Substantiv an (Pflanzen vs. Pilze).
+  const counterKey = noun === 'fungus' ? 'filter.counter.fungus' : 'filter.counter';
+  const noMatchKey = noun === 'fungus' ? 'filter.no_match.fungus' : 'filter.no_match';
+  const searchPlaceholder = t(locale, noun === 'fungus' ? 'filter.search.fungus' : 'filter.search.plant');
+  const searchAriaLabel = t(locale, noun === 'fungus' ? 'filter.search_aria.fungus' : 'filter.search_aria.plant');
 
   return (
     <div>
@@ -122,7 +127,7 @@ export default function FilterBar({ plants, locale }: Props) {
 
         <div className="flex items-center justify-between pt-2 border-t border-slate-200">
           <span className="text-sm text-slate-600">
-            {t(locale, 'filter.counter', { count: filteredCount, total: totalCount })}
+            {t(locale, counterKey, { count: filteredCount, total: totalCount })}
           </span>
           {hasActiveFilter && (
             <button
@@ -138,7 +143,7 @@ export default function FilterBar({ plants, locale }: Props) {
 
       <div>
         {filteredCount === 0 ? (
-          <p className="text-center text-slate-500 py-8">{t(locale, 'filter.no_match')}</p>
+          <p className="text-center text-slate-500 py-8">{t(locale, noMatchKey)}</p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {filtered.map((plant, i) => (

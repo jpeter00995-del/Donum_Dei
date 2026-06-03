@@ -7,7 +7,13 @@ export const plant = {
   'filter.season': 'Season',
   'filter.reset': 'Reset filters',
   'filter.counter': '{count} of {total} plants',
+  'filter.counter.fungus': '{count} of {total} mushrooms',
   'filter.no_match': 'No plants match the filters.',
+  'filter.no_match.fungus': 'No mushrooms match the filters.',
+  'filter.search.plant': 'Search plant — e.g. tomato, basil, echinacea...',
+  'filter.search.fungus': 'Search mushroom — e.g. reishi, chaga, shiitake...',
+  'filter.search_aria.plant': 'Search plant by name',
+  'filter.search_aria.fungus': 'Search mushroom by name',
 
   'use.tea': 'Tea',
   'use.tincture': 'Tincture',
