@@ -1,0 +1,398 @@
+{
+  "slug": "verbascum-thapsus",
+  "names": {
+    "de": "Kleinblütige Königskerze",
+    "en": "Great mullein, Common mullein",
+    "latin": "Verbascum thapsus L."
+  },
+  "family": {
+    "de": "Braunwurzgewächse",
+    "en": "Figwort family",
+    "latin": "Scrophulariaceae"
+  },
+  "description": {
+    "de": "Die Kleinblütige Königskerze (Verbascum thapsus) ist eine zweijährige, dicht filzig behaarte Pflanze, die im ersten Jahr eine grundständige Blattrosette und im zweiten Jahr einen aufrechten, meist unverzweigten Blütenstand von ein bis zwei Metern Höhe bildet. Die kleinen, gelben Blüten stehen dicht gedrängt in einer langen, kerzenförmigen Traube und öffnen sich von Juni bis September nacheinander. Alle Pflanzenteile sind mit sternförmigen Haaren bedeckt, was der Pflanze ein silbrig-wolliges Aussehen verleiht. Sie ist in Europa, Nordafrika und Asien heimisch und besiedelt bevorzugt trockene, sonnige Ruderalstandorte, Wegränder und Brachflächen. Arzneilich genutzt werden vor allem die getrockneten Blüten (Verbasci flos), die zusammen mit denen von V. densiflorum und V. phlomoides als Hustenmittel verwendet werden.",
+    "en": "Great mullein (Verbascum thapsus) is a biennial plant densely covered with felt-like hairs, forming a basal leaf rosette in its first year and an erect, usually unbranched flowering spike one to two metres tall in its second year. The small yellow flowers are tightly packed into a long, candle-like raceme and open in succession from June to September. All parts of the plant are clothed in star-shaped hairs, giving it a silvery, woolly appearance. It is native to Europe, North Africa and Asia and prefers dry, sunny ruderal sites, roadsides and waste ground. Medicinally it is the dried flowers (Verbasci flos) that are used, which, together with those of V. densiflorum and V. phlomoides, serve as a remedy for cough and catarrh."
+  },
+  "teaser": {
+    "de": "Die wollig behaarte Königskerze liefert reizlindernde Blüten, die als milder Hustentee bei Erkältung und Halskratzen geschätzt werden.",
+    "en": "The woolly-haired mullein provides soothing flowers traditionally valued as a mild cough tea for colds and a scratchy throat."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["dry cough", "sore throat", "common cold", "upper respiratory catarrh"],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": { "min": 1.5, "max": 2 },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "1,5-2 g getrocknete Königskerzenblüten mit ca. 150 ml siedendem Wasser übergießen, zugedeckt 10-15 Minuten ziehen lassen und unbedingt durch ein feines Tuch oder einen Kaffeefilter abseihen, um die feinen reizenden Blütenhaare zu entfernen. 3-mal täglich frisch zubereitet warm trinken. Bei Verschlechterung oder Beschwerden über mehr als eine Woche einen Arzt aufsuchen.",
+          "en": "Pour about 150 ml of boiling water over 1.5-2 g of dried mullein flowers, cover and steep for 10-15 minutes, then strain through a fine cloth or coffee filter to remove the fine irritant flower hairs. Drink freshly prepared and warm 3 times daily. Consult a doctor if symptoms worsen or persist longer than one week."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA nur für Erwachsene und Jugendliche über 12 Jahre.",
+          "en": "Per EMA only for adults and adolescents over 12 years."
+        }
+      },
+      "description": {
+        "de": "Der klassische Anwendungsbereich der Königskerzenblüten: Die enthaltenen Schleimstoffe legen sich reizlindernd über die gereizten Schleimhäute, während Saponine den Auswurf erleichtern. Die EMA stuft diese Verwendung als traditionelle Anwendung (traditional use) zur Linderung von Halsschmerzen bei trockenem Husten und Erkältung ein.",
+        "en": "The classic application of mullein flowers: the mucilage they contain forms a soothing film over irritated mucous membranes, while saponins ease expectoration. The EMA classifies this use as a traditional use for the relief of sore throat associated with dry cough and cold."
+      },
+      "source_ids": ["src_ema_monograph", "src_ema_assessment", "src_escop"]
+    },
+    {
+      "form": "gargle",
+      "target": ["sore throat", "hoarseness", "irritated throat mucosa"],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "Einen wie für den Tee zubereiteten und gut abgeseihten Königskerzenblüten-Aufguss (1,5-2 g auf 150 ml) lauwarm abkühlen lassen und mehrmals täglich damit gurgeln. Sorgfältig durch Tuch oder Filter abseihen, damit keine reizenden Blütenhaare zurückbleiben.",
+          "en": "Allow an infusion of mullein flowers prepared as for tea and well strained (1.5-2 g per 150 ml) to cool to lukewarm and gargle with it several times a day. Strain carefully through cloth or filter so that no irritant flower hairs remain."
+        }
+      },
+      "description": {
+        "de": "Volkstümlich und im Rahmen der traditionellen Anwendung wird der schleimstoffreiche Blütenaufguss zum Gurgeln bei Halskratzen und Heiserkeit genutzt, um die gereizten Rachenschleimhäute zu beruhigen.",
+        "en": "In folk practice and within the traditional indication, the mucilage-rich flower infusion is used as a gargle for a scratchy throat and hoarseness to soothe the irritated pharyngeal mucosa."
+      },
+      "source_ids": ["src_commission_e", "src_escop", "src_arzneipflanzenlexikon"]
+    },
+    {
+      "form": "tea",
+      "target": ["mild bronchitis", "productive cough", "expectoration support"],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": { "min": 1.5, "max": 2 },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "Wie der Hustentee zubereiten: 1,5-2 g getrocknete Blüten mit 150 ml heißem Wasser übergießen, 10 Minuten ziehen lassen, durch ein feines Tuch abseihen und mehrmals täglich warm trinken.",
+          "en": "Prepare as the cough tea: pour 150 ml hot water over 1.5-2 g dried flowers, steep for 10 minutes, strain through a fine cloth and drink warm several times a day."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Nur für Erwachsene und Jugendliche über 12 Jahre.",
+          "en": "Only for adults and adolescents over 12 years."
+        }
+      },
+      "description": {
+        "de": "Die Kommission E hat Wollblumen 1990 positiv zur Anwendung bei Katarrhen der Atemwege monographiert. Die Schleimstoffe wirken reizlindernd, die Saponine schwach auswurffördernd; daher die traditionelle Nutzung bei leichten katarrhalischen Beschwerden mit Husten.",
+        "en": "Commission E issued a positive monograph for mullein flowers in 1990 for catarrhs of the respiratory tract. The mucilage acts as a demulcent and the saponins as a mild expectorant, hence the traditional use in mild catarrhal complaints with cough."
+      },
+      "source_ids": ["src_commission_e", "src_heilpflanzen_welt"]
+    },
+    {
+      "form": "inhalation",
+      "target": ["upper respiratory catarrh", "irritated airways"],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "Eine Handvoll getrockneter Königskerzenblüten mit heissem Wasser übergießen und den aufsteigenden Wasserdampf vorsichtig einatmen. Volkstümliche Anwendung; bei Atemwegsreizungen Vorsicht und keine zu heiße Dampfquelle verwenden.",
+          "en": "Pour hot water over a handful of dried mullein flowers and carefully inhale the rising steam. A folk application; use caution with irritated airways and avoid steam that is too hot."
+        }
+      },
+      "description": {
+        "de": "In der Volksheilkunde werden Königskerzenblüten als feuchtwarme Dampfinhalation bei Erkältungskatarrhen der oberen Atemwege eingesetzt. Diese Anwendung ist nicht durch Monographien gedeckt und beruht auf überliefertem Erfahrungswissen.",
+        "en": "In folk medicine mullein flowers are used as a warm, moist steam inhalation for catarrhal complaints of the upper respiratory tract. This application is not covered by monographs and rests on traditional experiential knowledge."
+      },
+      "source_ids": ["src_wikipedia", "src_drugs_npp"]
+    },
+    {
+      "form": "salve",
+      "target": ["earache (folk)", "minor skin irritation", "chapped skin"],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "Frische Königskerzenblüten werden traditionell in Olivenöl angesetzt und einige Wochen an einem warmen Ort ausgezogen (Blütenöl). Das abgeseihte Öl wird volkstümlich äusserlich auf gereizte Haut aufgetragen. WICHTIG: Bei Ohrenschmerzen kein Öl in den Gehörgang träufeln, wenn das Trommelfell verletzt sein könnte oder Ausfluss besteht; ärztliche Abklärung ist nötig.",
+          "en": "Fresh mullein flowers are traditionally macerated in olive oil for several weeks in a warm place (flower oil). The strained oil is applied externally to irritated skin in folk use. IMPORTANT: for earache do not instil oil into the ear canal if the eardrum may be perforated or there is discharge; medical assessment is required."
+        }
+      },
+      "description": {
+        "de": "Das in Öl ausgezogene Königskerzen-Blütenöl ist ein bekanntes volkstümliches Hausmittel, das früher bei Ohrenschmerzen und gereizter Haut verwendet wurde. Es gibt keine belastbaren klinischen Belege; die Anwendung ist rein traditionell und nicht von EMA oder Kommission E gedeckt.",
+        "en": "Mullein flower oil macerated in oil is a well-known folk household remedy formerly used for earache and irritated skin. There is no robust clinical evidence; the use is purely traditional and not covered by EMA or Commission E."
+      },
+      "source_ids": ["src_wikipedia", "src_drugs_npp"]
+    },
+    {
+      "form": "compress",
+      "target": ["minor skin irritation", "soothing skin applications"],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "Einen starken, gut abgeseihten Blütenaufguss abkühlen lassen, ein sauberes Tuch darin tränken und als feuchten Umschlag auf die betroffene Hautstelle legen. Volkstümliche Anwendung ohne klinische Belege.",
+          "en": "Allow a strong, well-strained flower infusion to cool, soak a clean cloth in it and apply as a moist compress to the affected skin. Folk application without clinical evidence."
+        }
+      },
+      "description": {
+        "de": "Schleimstoffhaltige Königskerzenblüten werden volkstümlich als feuchter Umschlag zur Linderung leichter Hautreizungen genutzt. Die reizlindernde (demulzierende) Wirkung der Schleimstoffe liefert die Begründung; klinische Studien fehlen.",
+        "en": "Mucilage-containing mullein flowers are used in folk practice as a moist compress to soothe minor skin irritation. The demulcent action of the mucilage provides the rationale; clinical studies are lacking."
+      },
+      "source_ids": ["src_wikipedia", "src_drugs_npp"]
+    }
+  ],
+  "season": {
+    "active_months": [6, 7, 8, 9],
+    "harvest_part": {
+      "de": "Blüten (Blütenkronen)",
+      "en": "flowers (flower corollas)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Königskerzenblüten gelten als gut verträglich; arzneiliche Zubereitungen sollten laut EMA nur von Erwachsenen und Jugendlichen über 12 Jahren angewendet werden. Tee und Aufguss müssen sorgfältig durch ein feines Tuch oder einen Filter abgeseiht werden, da die feinen Blütenhaare Mund- und Rachenschleimhaut reizen können. Vereinzelt wurden Kontaktdermatitis und durch Pflanzenstaub bedingte Atemwegsreizungen beschrieben. Halten die Beschwerden länger als eine Woche an oder verschlimmern sie sich, ist ein Arzt aufzusuchen.",
+      "en": "Mullein flowers are considered well tolerated; per EMA, medicinal preparations should be used only by adults and adolescents over 12 years. Tea and infusion must be strained carefully through a fine cloth or filter, as the fine flower hairs can irritate the mucosa of the mouth and throat. Isolated cases of contact dermatitis and airborne plant-dust airway irritation have been reported. If complaints last longer than one week or worsen, a doctor should be consulted."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Mangels Untersuchungen zur Sicherheit wird die Anwendung während der Schwangerschaft laut EMA nicht empfohlen.",
+        "en": "Owing to a lack of safety data, use during pregnancy is not recommended per EMA."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Mangels Untersuchungen zur Sicherheit wird die Anwendung während der Stillzeit laut EMA nicht empfohlen.",
+        "en": "Owing to a lack of safety data, use during breastfeeding is not recommended per EMA."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "min_age_years": 12,
+      "note": {
+        "de": "Die Anwendung bei Kindern und Jugendlichen unter 12 Jahren wird mangels Daten nicht empfohlen (EMA).",
+        "en": "Use in children and adolescents under 12 years is not recommended owing to a lack of data (EMA)."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "none documented",
+        "mechanism": {
+          "de": "Es sind keine Wechselwirkungen mit anderen Arzneimitteln bekannt oder berichtet worden (EMA).",
+          "en": "No interactions with other medicines are known or have been reported (EMA)."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit (Allergie) gegenüber Königskerze oder einem ihrer Bestandteile.",
+        "en": "Hypersensitivity (allergy) to mullein or any of its constituents."
+      },
+      {
+        "de": "Kinder und Jugendliche unter 12 Jahren.",
+        "en": "Children and adolescents under 12 years."
+      }
+    ],
+    "max_continuous_use_weeks": 1
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_ema_monograph",
+      "type": "monograph",
+      "title": "European Union herbal monograph on Verbascum thapsus L., V. densiflorum Bertol., V. thapsiforme Schrad. and V. phlomoides L., flos",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-verbascum-thapsus-l-v-densiflorum-bertol-v-thapsiforme-schrad-and-v-phlomoides-l-flos_en.pdf",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_ema_assessment",
+      "type": "monograph",
+      "title": "Assessment report on Verbascum thapsus L., V. densiflorum Bertol., V. thapsiforme Schrad. and V. phlomoides L., flos",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-verbascum-thapsus-l-v-densiflorum-bertol-v-thapsiforme-schrad-and-v-phlomoides-l-flos_en.pdf",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_ema_medicine",
+      "type": "monograph",
+      "title": "Verbasci flos - herbal medicinal product (EMA overview)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/verbasci-flos",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_escop",
+      "type": "monograph",
+      "title": "ESCOP Monograph: Verbasci flos (Mullein Flower)",
+      "url": "https://www.escop.com/downloads/mullein-flower/",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_commission_e",
+      "type": "monograph",
+      "title": "Kommission E Monographie: Verbasci flos (Wollblumen), Bundesanzeiger 1990",
+      "url": "https://www.heilpflanzen-welt.de/verbasci-flos-wollblumen/",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikipedia",
+      "type": "wikipedia",
+      "title": "Verbascum thapsus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Verbascum_thapsus",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikidata",
+      "type": "wikidata",
+      "title": "Verbascum thapsus (Q160095) - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q160095",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_drugs_npp",
+      "type": "monograph",
+      "title": "Mullein - Uses, Benefits & Dosage (Drugs.com Natural Products)",
+      "url": "https://www.drugs.com/npp/mullein.html",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_arzneipflanzenlexikon",
+      "type": "monograph",
+      "title": "Mullein - medicinal use of the drug (Arzneipflanzenlexikon)",
+      "url": "https://arzneipflanzenlexikon.info/en/mullein.php",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_heilpflanzen_welt",
+      "type": "monograph",
+      "title": "Verbasci flos (Wollblumen) - Heilpflanzen-Welt",
+      "url": "https://www.heilpflanzen-welt.de/verbasci-flos-wollblumen/",
+      "accessed": "2026-06-08"
+    }
+  ],
+  "image": {
+    "filename": "verbascum-thapsus.webp",
+    "alt": {
+      "de": "Gelb blühende Kleinblütige Königskerze (Verbascum thapsus) mit kerzenförmigem Blütenstand",
+      "en": "Yellow-flowering great mullein (Verbascum thapsus) with its candle-like flowering spike"
+    },
+    "license": "CC BY 3.0",
+    "author": "Forest & Kim Starr",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Starr_040723-0030_Verbascum_thapsus.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Mucilage (polysaccharides)",
+      "category": "mucilage",
+      "percent_range": "ca. 3 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Reizlindernde Schleimstoffe (u. a. Arabinogalactane); legen sich schützend über gereizte Schleimhäute und begründen die demulzierende Wirkung des Tees.",
+        "en": "Demulcent mucilage (including arabinogalactans) that forms a protective film over irritated mucous membranes and underlies the soothing action of the tea."
+      }
+    },
+    {
+      "name": "Verbascosaponin (triterpene saponins)",
+      "category": "saponin",
+      "plant_part": "flower",
+      "note": {
+        "de": "Triterpensaponine wirken schwach auswurffördernd, indem sie die Oberflächenspannung in den Atemwegen herabsetzen.",
+        "en": "Triterpene saponins act as a mild expectorant by reducing surface tension in the airways."
+      }
+    },
+    {
+      "name": "Aucubin",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Iridoidglykosid mit berichteten entzündungshemmenden und antimikrobiellen Eigenschaften; vor allem in Blättern und Kraut, auch in den Blüten.",
+        "en": "Iridoid glycoside with reported anti-inflammatory and antimicrobial properties; mainly in leaves and herb, also present in the flowers."
+      }
+    },
+    {
+      "name": "Catalpol",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Weiteres Iridoidglykosid der Verbascum-Arten, das neben Aucubin zur entzündungshemmenden Aktivität beiträgt.",
+        "en": "A further iridoid glycoside of Verbascum species that, alongside aucubin, contributes to the anti-inflammatory activity."
+      }
+    },
+    {
+      "name": "Verbascoside (acteoside)",
+      "category": "phenolic_acid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Phenylethanoid-Glykosid mit antioxidativen, entzündungshemmenden und in Tierversuchen antitussiven Eigenschaften.",
+        "en": "Phenylethanoid glycoside with antioxidant, anti-inflammatory and, in animal studies, antitussive properties."
+      }
+    },
+    {
+      "name": "Flavonoids (e.g. hesperidin, verbascoside-associated quercetin/rutin)",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Flavonoide wie Hesperidin und Quercetinderivate wirken antioxidativ und tragen zum Wirkprofil der Droge bei.",
+        "en": "Flavonoids such as hesperidin and quercetin derivatives act as antioxidants and contribute to the activity profile of the drug."
+      }
+    },
+    {
+      "name": "Iridoid glycoside harpagoside/harpagide",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Harpagosid und Harpagid gehören zu den charakteristischen Iridoiden der Gattung Verbascum.",
+        "en": "Harpagoside and harpagide are among the characteristic iridoids of the genus Verbascum."
+      }
+    },
+    {
+      "name": "Carotenoids / xanthophylls",
+      "category": "other",
+      "plant_part": "flower",
+      "note": {
+        "de": "Gelbe Farbstoffe (u. a. Crocetin-Derivate), die den Blüten ihre Farbe geben und zum Drogenbild beitragen.",
+        "en": "Yellow pigments (including crocetin derivatives) that give the flowers their colour and contribute to the drug profile."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [7, 8],
+      "time_of_day": {
+        "de": "An sonnigen Vormittagen nach dem Abtrocknen des Taus, wenn die Blüten frisch geöffnet sind.",
+        "en": "On sunny mornings after the dew has dried, when the flowers are freshly opened."
+      },
+      "drying": {
+        "de": "Die ausgezupften Blütenkronen rasch und schonend bei höchstens 40 °C im Schatten trocknen; gut getrocknete Ware behält die leuchtend gelbe Farbe. Bräunung deutet auf Qualitätsverlust hin.",
+        "en": "Dry the plucked corollas quickly and gently at no more than 40 °C in the shade; well-dried material keeps its bright yellow colour. Browning indicates loss of quality."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In gut verschlossenen Gefässen licht- und feuchtigkeitsgeschützt aufbewahren, da die Blüten stark hygroskopisch sind und sonst rasch verderben.",
+        "en": "Store in well-sealed containers protected from light and moisture, as the flowers are strongly hygroscopic and otherwise deteriorate rapidly."
+      }
+    }
+  ],
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "medicinal",
+    "dynamic_accumulator",
+    "vertical_high",
+    "edible_flower"
+  ]
+}

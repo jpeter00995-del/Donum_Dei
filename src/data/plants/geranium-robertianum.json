@@ -1,0 +1,360 @@
+{
+  "slug": "geranium-robertianum",
+  "names": {
+    "de": "Ruprechtskraut (Stinkender Storchschnabel)",
+    "en": "Herb Robert",
+    "latin": "Geranium robertianum"
+  },
+  "family": {
+    "de": "Storchschnabelgewächse",
+    "en": "Cranesbill family",
+    "latin": "Geraniaceae"
+  },
+  "description": {
+    "de": "Das Ruprechtskraut ist eine ein- bis zweijährige, stark verzweigte krautige Pflanze von etwa 10 bis 55 cm Höhe mit rötlich überlaufenen Stängeln und tief fünfteilig gefiederten Blättern. Die kleinen, rosa bis purpurnen Blüten messen rund 12 bis 16 mm und tragen zehn Staubblätter; die Früchte schleudern ihre Samen über einen schnabelartig aufrollenden Fortsatz aus. Beim Zerreiben verströmt die ganze Pflanze einen kräftigen, als unangenehm empfundenen Geruch ('stinkender Storchschnabel'), der von Spuren ätherischen Öls herrührt. Medizinisch werden volkskundlich die oberirdischen Teile (Kraut) verwendet, gelegentlich auch die ganze Pflanze samt Wurzel. Wirksamkeitsbestimmend ist der hohe Gehalt an Gerbstoffen, vor allem das Ellagitannin Geraniin.",
+    "en": "Herb Robert is an annual to biennial, much-branched herbaceous plant about 10 to 55 cm tall, with reddish-tinged stems and deeply five-lobed, fern-like leaves. The small pink to purple flowers measure roughly 12 to 16 mm and bear ten stamens; the fruits eject their seeds via a beak-like coiling awn. When crushed, the whole plant releases a strong, often unpleasant odour ('stinky Bob') arising from traces of essential oil. In folk medicine the aerial parts (herb) are used, and occasionally the whole plant including the root. Its activity is attributed chiefly to a high content of tannins, above all the ellagitannin geraniin."
+  },
+  "teaser": {
+    "de": "Das streng riechende, gerbstoffreiche Wildkraut der Hecken und Mauern, seit jeher Volksheilmittel bei Durchfall und Wunden.",
+    "en": "The pungent, tannin-rich wild herb of hedgerows and walls, a long-standing folk remedy for diarrhoea and wounds."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["digestion", "diarrhea"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": { "min": 1, "max": 2 },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "1 bis 2 g getrocknetes Kraut mit 250 ml siedendem Wasser übergießen, 10 Minuten zugedeckt ziehen lassen und abseihen. Wegen der Gerbstoffe nicht über längere Zeit anwenden.",
+          "en": "Pour 250 ml of boiling water over 1 to 2 g of dried herb, cover and steep for 10 minutes, then strain. Because of the tannins, do not use over an extended period."
+        }
+      },
+      "description": {
+        "de": "Volkskundlicher Tee bei leichtem Durchfall und Magen-Darm-Beschwerden; die zusammenziehende Wirkung der Gerbstoffe steht im Vordergrund.",
+        "en": "Folk tea for mild diarrhoea and gastrointestinal complaints; the astringent action of the tannins is the main rationale."
+      },
+      "source_ids": ["src_pfaf", "src_pmc_review", "src_wikipedia_de"]
+    },
+    {
+      "form": "gargle",
+      "target": ["throat", "mouth"],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": { "min": 2, "max": 3 },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Einen etwas stärkeren Aufguss (2 bis 3 g auf 250 ml) bereiten, abkühlen lassen und mehrmals täglich zum Gurgeln oder Spülen verwenden. Nicht schlucken.",
+          "en": "Prepare a slightly stronger infusion (2 to 3 g per 250 ml), let it cool and use several times a day as a gargle or rinse. Do not swallow."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Anwendung der gerbstoffhaltigen Abkochung bei leichten Entzündungen im Mund- und Rachenraum.",
+        "en": "Traditional use of the tannin-rich decoction for mild inflammation of the mouth and throat."
+      },
+      "source_ids": ["src_pfaf", "src_wikipedia_de"]
+    },
+    {
+      "form": "compress",
+      "target": ["wounds", "skin"],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": { "min": 3, "max": 5 },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Aus 3 bis 5 g Kraut auf 250 ml Wasser einen Aufguss bereiten, ein sauberes Tuch tränken und auf die betroffene Stelle legen. Nur auf intakter oder leicht geschädigter Haut anwenden.",
+          "en": "Make an infusion from 3 to 5 g of herb in 250 ml of water, soak a clean cloth and apply to the affected area. Use only on intact or slightly damaged skin."
+        }
+      },
+      "description": {
+        "de": "Umschlag mit dem zusammenziehenden Aufguss zur unterstützenden Pflege bei kleinen, schwer heilenden Wunden und Prellungen; ein antibakterieller Effekt von Extrakten wurde in Laborstudien beschrieben.",
+        "en": "Compress with the astringent infusion as supportive care for minor, slow-healing wounds and bruises; an antibacterial effect of extracts has been described in laboratory studies."
+      },
+      "source_ids": ["src_pfaf", "src_pmc_review"]
+    },
+    {
+      "form": "bath",
+      "target": ["skin"],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": { "min": 20, "max": 30 },
+        "water_ml": 1000,
+        "steep_min": 20,
+        "doses_per_day": 1,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "20 bis 30 g Kraut mit 1 Liter Wasser ausziehen, abseihen und den Auszug dem Wasch- oder Teilbad zusetzen. Äußerlich anwenden.",
+          "en": "Extract 20 to 30 g of herb in 1 litre of water, strain and add the extract to a wash or partial bath. For external use."
+        }
+      },
+      "description": {
+        "de": "Waschung oder Teilbad mit dem gerbstoffhaltigen Auszug bei gereizter oder unreiner Haut, volkskundlich überliefert.",
+        "en": "Wash or partial bath with the tannin-rich extract for irritated or impure skin, handed down in folk practice."
+      },
+      "source_ids": ["src_pfaf", "src_wikipedia_de"]
+    },
+    {
+      "form": "raw",
+      "target": ["skin", "insect_repellent"],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": { "min": 1, "max": 3 },
+        "doses_per_day": 2,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "Einige frische Blätter zwischen den Fingern zerreiben und auf die Haut auftragen. Wegen des starken Geruchs traditionell als Mückenschutz genutzt.",
+          "en": "Crush a few fresh leaves between the fingers and rub onto the skin. Traditionally used as a mosquito deterrent because of the strong smell."
+        }
+      },
+      "description": {
+        "de": "Zerriebene frische Blätter wurden volkskundlich auf die Haut gerieben, um Mücken fernzuhalten; der charakteristische Geruch ist hierfür verantwortlich.",
+        "en": "Crushed fresh leaves were folk-rubbed onto the skin to keep mosquitoes away; the characteristic smell is responsible for this."
+      },
+      "source_ids": ["src_wikipedia_en", "src_wikipedia_de"]
+    },
+    {
+      "form": "tincture",
+      "target": ["digestion", "urinary"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_ml": { "min": 1, "max": 2 },
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "1 bis 2 ml Tinktur in etwas Wasser verdünnt, zwei Mal täglich. Volkskundliche Dosierung; bei anhaltenden Beschwerden ärztlichen Rat einholen.",
+          "en": "1 to 2 ml of tincture diluted in a little water, twice a day. Folk dosage; seek medical advice if complaints persist."
+        }
+      },
+      "description": {
+        "de": "Verdünnte Tinktur aus dem frischen Kraut, volkskundlich bei Magen-Darm- und leichten Harnwegsbeschwerden eingesetzt.",
+        "en": "Diluted tincture from the fresh herb, used in folk medicine for gastrointestinal and mild urinary complaints."
+      },
+      "source_ids": ["src_pfaf", "src_pmc_review"]
+    }
+  ],
+  "season": {
+    "active_months": [5, 6, 7, 8, 9],
+    "harvest_part": {
+      "de": "blühendes Kraut (oberirdische Teile)",
+      "en": "flowering herb (aerial parts)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Die volkskundlich zugeschriebenen Wirkungen sind wissenschaftlich nicht hinreichend belegt. Wegen des hohen Gerbstoffgehalts kann längerer oder hoch dosierter innerlicher Gebrauch Magen-Darm-Beschwerden verursachen und die Aufnahme anderer Stoffe und Medikamente beeinträchtigen. Nicht als Ersatz für eine ärztliche Behandlung verwenden.",
+      "en": "The effects ascribed in folk medicine are not sufficiently confirmed by science. Because of the high tannin content, prolonged or high-dose internal use can cause gastrointestinal upset and impair the absorption of other substances and medicines. Do not use as a substitute for medical treatment."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Daten zur Sicherheit in der Schwangerschaft; innerliche Anwendung sicherheitshalber meiden.",
+        "en": "Insufficient safety data in pregnancy; avoid internal use as a precaution."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Daten in der Stillzeit; innerliche Anwendung sicherheitshalber meiden.",
+        "en": "Insufficient data during lactation; avoid internal use as a precaution."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Bei kleinen Kindern wegen des hohen Gerbstoffgehalts keine innerliche Anwendung ohne fachkundige Begleitung.",
+        "en": "No internal use in young children without qualified guidance because of the high tannin content."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "oral_medications_and_iron",
+        "mechanism": {
+          "de": "Gerbstoffe können oral eingenommene Arzneistoffe, Eisen und Mineralstoffe binden und so deren Aufnahme im Darm verringern.",
+          "en": "Tannins can bind orally taken drugs, iron and minerals, thereby reducing their absorption in the gut."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegen die Pflanze oder Geraniaceae.",
+        "en": "Known hypersensitivity to the plant or to Geraniaceae."
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_wikipedia_en",
+      "type": "wikipedia",
+      "title": "Geranium robertianum — Wikipedia (English)",
+      "url": "https://en.wikipedia.org/wiki/Geranium_robertianum",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikipedia_de",
+      "type": "wikipedia",
+      "title": "Ruprechtskraut — Wikipedia (Deutsch)",
+      "url": "https://de.wikipedia.org/wiki/Ruprechtskraut",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikidata",
+      "type": "wikidata",
+      "title": "Geranium robertianum (Q157900) — Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q157900",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_pfaf",
+      "type": "monograph",
+      "title": "Geranium robertianum — Plants For A Future (PFAF)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Geranium+robertianum",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_pmc_review",
+      "type": "monograph",
+      "title": "An Up-to-Date Review Regarding the Biological Activity of Geranium robertianum L. (Plants 2025, DOI 10.3390/plants14060918)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11944511/",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_pmc_anticancer",
+      "type": "monograph",
+      "title": "Herb Robert's Gift against Human Diseases: Anticancer and Antimicrobial Activity of Geranium robertianum L. — PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10223082/",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_commons_image",
+      "type": "commons",
+      "title": "File:(MHNT) Geranium robertianum - blossom.jpg — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Geranium_robertianum_-_blossom.jpg",
+      "accessed": "2026-06-08"
+    }
+  ],
+  "image": {
+    "filename": "geranium-robertianum.webp",
+    "alt": {
+      "de": "Rosa Blüten des Ruprechtskrauts (Geranium robertianum) in Nahaufnahme",
+      "en": "Close-up of the pink flowers of Herb Robert (Geranium robertianum)"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Didier Descouens",
+    "source_url": "https://commons.wikimedia.org/wiki/File:(MHNT)_Geranium_robertianum_-_blossom.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Geraniin",
+      "category": "tannin",
+      "percent_range": "bis ca. 10% des Trockengewichts der Blätter",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hauptellagitannin der Pflanze und wichtigster Wirkstoff; stark antioxidativ und zusammenziehend.",
+        "en": "Principal ellagitannin of the plant and its key active compound; strongly antioxidant and astringent."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Ellagitannine)",
+      "category": "tannin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hoher Gesamtgerbstoffgehalt (u. a. Isogeraniin, beta-Penta-O-galloylglucose); verantwortlich für die adstringierende Wirkung.",
+        "en": "High total tannin content (incl. isogeraniin, beta-penta-O-galloylglucose); responsible for the astringent action."
+      }
+    },
+    {
+      "name": "Flavonoide (Rutin, Quercetin, Hyperosid, Kaempferol)",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Antioxidativ wirksame Flavonolglykoside und Aglyka.",
+        "en": "Antioxidant flavonol glycosides and aglycones."
+      }
+    },
+    {
+      "name": "Phenolsäuren (Gallus-, Ellag-, Kaffee-, Ferulasäure)",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Mehrere Phenolsäuren, die zum antioxidativen und antimikrobiellen Profil beitragen.",
+        "en": "Several phenolic acids contributing to the antioxidant and antimicrobial profile."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Linalool, Geraniol, Limonen, Germacren-D)",
+      "category": "essential_oil",
+      "percent_range": "nur Spuren",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Nur in Spuren vorhanden; verantwortlich für den charakteristischen, strengen Geruch der zerriebenen Pflanze.",
+        "en": "Present only in traces; responsible for the characteristic pungent smell of the crushed plant."
+      }
+    },
+    {
+      "name": "Bitterstoffe",
+      "category": "bitter",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Tragen zum herben Geschmack und zur verdauungsanregenden Volkswirkung bei.",
+        "en": "Contribute to the bitter taste and the digestion-stimulating folk action."
+      }
+    },
+    {
+      "name": "Citronensäure und organische Säuren",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Neben Citronensäure auch Spuren von Oxalat und Harzen im Kraut nachgewiesen.",
+        "en": "Citric acid, along with traces of oxalate and resins, detected in the herb."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [5, 6, 7, 8, 9],
+      "time_of_day": {
+        "de": "an einem trockenen Vormittag nach Abtrocknen des Taus",
+        "en": "on a dry morning once the dew has dried"
+      },
+      "drying": {
+        "de": "Das blühende Kraut locker gebündelt oder ausgebreitet im Schatten an einem luftigen Ort trocknen; Zugluft beschleunigt das Trocknen und mindert den strengen Geruch.",
+        "en": "Dry the flowering herb loosely bundled or spread out in the shade in an airy place; a draught speeds drying and reduces the pungent smell."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, lichtgeschützt und gut verschlossen in Papier- oder Stoffbeuteln lagern.",
+        "en": "Store dry, protected from light and well sealed in paper or fabric bags."
+      }
+    }
+  ],
+  "permaculture_functions": ["medicinal", "pollinator_attractor", "ground_cover", "aromatic_repellent"]
+}

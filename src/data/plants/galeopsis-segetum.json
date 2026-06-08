@@ -1,0 +1,385 @@
+{
+  "slug": "galeopsis-segetum",
+  "names": {
+    "de": "Saat-Hohlzahn",
+    "en": "Downy hemp-nettle",
+    "latin": "Galeopsis segetum"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Der Saat-Hohlzahn (Galeopsis segetum, auch Gelber Hohlzahn oder Ockergelber Hohlzahn genannt) ist eine einjährige, weich behaarte Pflanze aus der Familie der Lippenblütler, die Wuchshöhen von 10 bis 50 cm erreicht. Die blassgelben bis weißlichen Blüten sind 2,5 bis 3 cm lang und tragen häufig einen gelben Schlund mit gelegentlichen purpurnen Flecken. Trotz der oberflächlichen Ähnlichkeit mit der Brennnessel besitzt die Pflanze keine Brennhaare. Sie wächst als Ackerwildkraut bevorzugt auf nährstoffarmen, kalkmeidenden Sand-, Kies- und Schotterböden an Feld- und Wegrändern in West- und südlichem Mitteleuropa. Das getrocknete Kraut (Galeopsidis herba) war historisch eine kieselsäurereiche Husten- und Lungendroge.",
+    "en": "Downy hemp-nettle (Galeopsis segetum, also called yellow hemp-nettle) is an annual, softly hairy plant of the mint family reaching 10 to 50 cm in height. Its pale yellow to whitish flowers are 2.5 to 3 cm long and often show a yellow throat with occasional purple markings. Although it superficially resembles the stinging nettle it belongs to a different family and does not sting. It grows as an arable weed, preferring nutrient-poor, lime-avoiding sandy, gravelly and stony soils along field and path margins in western and southern Central Europe. The dried herb (Galeopsidis herba) was historically a silica-rich cough and lung remedy."
+  },
+  "teaser": {
+    "de": "Ein unscheinbares gelbblütiges Ackerkraut, dessen kieselsäurereiches Kraut früher als sanftes Hustenmittel bei leichten Atemwegskatarrhen genutzt wurde.",
+    "en": "An inconspicuous yellow-flowered arable herb whose silica-rich aerial parts were once used as a gentle cough remedy for mild respiratory catarrh."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["leichte Atemwegskatarrhe", "Husten", "Bronchitis"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": { "min": 2, "max": 2 },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Etwa 2 g (1 Teelöffel) getrocknetes Hohlzahnkraut mit 150 ml kochendem Wasser übergießen, zugedeckt 10 Minuten ziehen lassen und abseihen. Mehrmals täglich eine frisch bereitete Tasse trinken (Tagesdosis circa 6 g).",
+          "en": "Pour 150 ml of boiling water over about 2 g (1 teaspoon) of dried hemp-nettle herb, cover and steep for 10 minutes, then strain. Drink a freshly prepared cup several times a day (daily dose about 6 g)."
+        }
+      },
+      "description": {
+        "de": "Die Kommission E bewertete Galeopsidis herba positiv zur unterstützenden Anwendung bei leichten Katarrhen der Luftwege. Die schwache schleimlösende Wirkung wird den Saponinen zugeschrieben, die adstringierende und reizmildernde den Gerbstoffen und der Kieselsäure. Die klinische Evidenz ist insgesamt schwach.",
+        "en": "Commission E gave Galeopsidis herba a positive assessment as a supportive remedy for mild catarrhs of the respiratory tract. The weak expectorant effect is attributed to saponins, the astringent and soothing effect to tannins and silicic acid. Overall the clinical evidence is weak."
+      },
+      "source_ids": ["src_kommission_e", "src_ptaheute", "src_spektrum"]
+    },
+    {
+      "form": "tea",
+      "target": ["produktiver Husten", "festsitzender Schleim"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": { "min": 2, "max": 3 },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Als Aufguss aus dem blühenden Kraut zubereiten; traditionell zur Erleichterung des Abhustens von zähem Schleim getrunken.",
+          "en": "Prepare as an infusion from the flowering herb; traditionally drunk to ease the expectoration of viscous mucus."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlich gilt der Tee aus dem oberirdischen Kraut wegen seines Saponin- und Kieselsäuregehalts als mild schleimlösend ('schleimerweichend'). Die Wirkung ist traditionell überliefert, nicht klinisch belegt.",
+        "en": "In folk medicine the tea from the aerial parts is regarded as a mild expectorant ('mucus-softening') because of its saponin and silicic acid content. The effect is traditionally reported, not clinically proven."
+      },
+      "source_ids": ["src_spektrum", "src_pfaf", "src_dewiki"]
+    },
+    {
+      "form": "gargle",
+      "target": ["Halsentzündung", "Reizungen im Rachen"],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "Einen stärkeren Aufguss (circa 3 g auf 150 ml Wasser, 10 Minuten ziehen, abgekühlt) als Gurgellösung verwenden. Nicht schlucken; nur gurgeln und ausspucken.",
+          "en": "Use a stronger infusion (about 3 g per 150 ml water, steeped 10 minutes, cooled) as a gargle. Do not swallow; gargle and spit out."
+        }
+      },
+      "description": {
+        "de": "Wegen der adstringierenden Gerbstoffe wurde der Aufguss volkstümlich zum Gurgeln bei Reizungen im Mund- und Rachenraum genutzt. Reine Erfahrungsanwendung ohne klinischen Nachweis.",
+        "en": "Because of its astringent tannins the infusion was used in folk practice as a gargle for irritations of the mouth and throat. Purely empirical use without clinical evidence."
+      },
+      "source_ids": ["src_ptaheute", "src_naturalmedicinalherbs"]
+    },
+    {
+      "form": "tea",
+      "target": ["Keuchhusten", "Tracheitis"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": { "min": 2, "max": 3 },
+        "water_ml": 200,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "Historisch als Abkochung des blühenden Krauts verwendet. Bei Keuchhusten bei Kindern nur nach ärztlicher Rücksprache; heute durch sichere Behandlungen ersetzt.",
+          "en": "Historically used as a decoction of the flowering herb. For whooping cough in children only after medical advice; today superseded by safer treatments."
+        }
+      },
+      "description": {
+        "de": "In der älteren Volksheilkunde wurde eine Abkochung bei Keuchhusten, Bronchitis und Tracheitis eingesetzt. Dies ist nur von historischer Bedeutung und nicht durch Studien gestützt.",
+        "en": "Older folk medicine used a decoction for whooping cough, bronchitis and tracheitis. This is only of historical significance and not supported by studies."
+      },
+      "source_ids": ["src_pfaf", "src_naturalmedicinalherbs", "src_madaus"]
+    },
+    {
+      "form": "tea",
+      "target": ["leichte Entwässerung", "harntreibende Unterstützung"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": { "min": 2, "max": 2 },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Aufguss aus dem Kraut; volkstümlich als mild harntreibendes Getränk. Auf ausreichende Flüssigkeitszufuhr achten.",
+          "en": "Infusion of the herb; used in folk practice as a mildly diuretic drink. Ensure adequate fluid intake."
+        }
+      },
+      "description": {
+        "de": "Dem Hohlzahnkraut wurde traditionell eine schwach diuretische Wirkung zugeschrieben. Diese Anwendung ist rein erfahrungsheilkundlich und nicht belegt.",
+        "en": "Hemp-nettle herb was traditionally credited with a weak diuretic effect. This use is purely empirical and unproven."
+      },
+      "source_ids": ["src_pfaf", "src_spektrum"]
+    },
+    {
+      "form": "compress",
+      "target": ["oberflächliche Schwellungen", "Hautreizungen"],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "Frische, zerquetschte Blätter als Auflage auf die betroffene Hautstelle legen. Nicht auf offene Wunden anwenden. Wissenschaftlich nicht ausreichend belegt.",
+          "en": "Apply fresh, crushed leaves as a poultice to the affected skin area. Do not apply to open wounds. Not sufficiently scientifically substantiated."
+        }
+      },
+      "description": {
+        "de": "Äußerlich wurden frische, zerquetschte Blätter volkstümlich bei oberflächlichen Schwellungen und Hautreizungen aufgelegt. Diese Anwendung ist nicht ausreichend wissenschaftlich belegt.",
+        "en": "Externally, fresh crushed leaves were applied in folk practice for superficial swellings and skin irritations. This use is not sufficiently scientifically substantiated."
+      },
+      "source_ids": ["src_ptaheute", "src_madaus"]
+    }
+  ],
+  "season": {
+    "active_months": [7, 8, 9, 10],
+    "harvest_part": {
+      "de": "blühendes Kraut",
+      "en": "flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Der Saat-Hohlzahn ist eine traditionelle Volksheilpflanze mit nur schwacher Wirksamkeit; bei anhaltendem Husten, Fieber oder Atemnot ist ärztliche Abklärung nötig. Innerhalb der Gattung Galeopsis gelten einige Arten als potenziell giftig (Lähmungserscheinungen werden berichtet), und das Drogenmaterial kann mit anderen Hohlzahn-Arten verfälscht sein. Nicht über mehrere Wochen ununterbrochen anwenden.",
+      "en": "Downy hemp-nettle is a traditional folk remedy with only weak efficacy; persistent cough, fever or shortness of breath require medical evaluation. Within the genus Galeopsis some species are considered potentially poisonous (paralysis has been reported), and the drug material can be adulterated with other hemp-nettle species. Do not use continuously for several weeks."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Keine Daten zur Sicherheit in der Schwangerschaft; wegen fehlender Untersuchungen vorsorglich meiden.",
+        "en": "No safety data in pregnancy; avoid as a precaution due to lack of studies."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine Daten zur Sicherheit in der Stillzeit; vorsorglich meiden.",
+        "en": "No safety data during lactation; avoid as a precaution."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Bei Kindern nur nach ärztlicher Rücksprache; historische Keuchhusten-Anwendung ist durch sichere moderne Behandlungen ersetzt.",
+        "en": "In children only after medical advice; the historical whooping-cough use has been replaced by safe modern treatments."
+      }
+    },
+    "drug_interactions": [],
+    "contraindications": [
+      {
+        "de": "Bekannte Allergie oder Überempfindlichkeit gegenüber Lippenblütlern (Lamiaceae).",
+        "en": "Known allergy or hypersensitivity to mint-family plants (Lamiaceae)."
+      },
+      {
+        "de": "Anhaltende, fieberhafte oder atemnötige Atemwegsbeschwerden ohne ärztliche Abklärung.",
+        "en": "Persistent, feverish or dyspnoeic respiratory complaints without medical evaluation."
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_dewiki",
+      "type": "wikipedia",
+      "title": "Saat-Hohlzahn – Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Saat-Hohlzahn",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_enwiki",
+      "type": "wikipedia",
+      "title": "Galeopsis segetum – Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Galeopsis_segetum",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikidata",
+      "type": "wikidata",
+      "title": "Galeopsis segetum (Q159356) – Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q159356",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_spektrum",
+      "type": "monograph",
+      "title": "Galeopsis segetum – Lexikon der Arzneipflanzen und Drogen (Spektrum)",
+      "url": "https://www.spektrum.de/lexikon/arzneipflanzen-drogen/galeopsis-segetum/5477",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_kommission_e",
+      "type": "monograph",
+      "title": "Galeopsidis herba (Hohlzahnkraut) – Kommission-E-Monographie (Bundesanzeiger Nr. 76, 1987)",
+      "url": "https://www.heilpflanzen-welt.de/galeopsidis-herba-hohlzahnkraut/",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_ptaheute",
+      "type": "monograph",
+      "title": "Hohlzahn – bei leichten Atemwegskatarrhen (PTAheute)",
+      "url": "https://www.ptaheute.de/serien/heimische-heilpflanzen/hohlzahn-bei-leichten-atemwegskatarrhen",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_pfaf",
+      "type": "monograph",
+      "title": "Galeopsis segetum (Downy Hemp Nettle) – Plants For A Future",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Galeopsis+segetum",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_naturalmedicinalherbs",
+      "type": "monograph",
+      "title": "Galeopsis segetum (Downy Hemp Nettle) – Natural Medicinal Herbs",
+      "url": "http://www.naturalmedicinalherbs.net/herbs/g/galeopsis-segetum=downy-hemp-nettle.php",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_madaus",
+      "type": "book",
+      "title": "Galeopsis ochroleuca (Ockergelber Hohlzahn) – Madaus, Lehrbuch der biologischen Heilmittel (Henriette's Herbal)",
+      "url": "https://www.henriettes-herb.com/eclectic/madaus/galeopsis.html",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_commons",
+      "type": "commons",
+      "title": "File:Galeopsis segetum Sturm34.jpg – Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Galeopsis_segetum_Sturm34.jpg",
+      "accessed": "2026-06-08"
+    }
+  ],
+  "image": {
+    "filename": "galeopsis-segetum.webp",
+    "alt": {
+      "de": "Botanische Tafel des Saat-Hohlzahns (Galeopsis segetum) von Jacob Sturm, 1796, mit gelben Blüten und behaarten Blättern.",
+      "en": "Botanical plate of downy hemp-nettle (Galeopsis segetum) by Jacob Sturm, 1796, showing yellow flowers and hairy leaves."
+    },
+    "license": "Public domain",
+    "author": "Jacob Sturm (Johann Georg Sturm, Deutschlands Flora in Abbildungen)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Galeopsis_segetum_Sturm34.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Kieselsäure (Silicic acid / silica)",
+      "category": "mineral",
+      "percent_range": "0.7-0.9%",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Kieselsäure (davon circa 0,1-0,2% löslich) gilt als bindegewebsstärkend und bestimmt den traditionellen Ruf des Krauts als Lungen- und Hustendroge.",
+        "en": "Silicic acid (of which about 0.1-0.2% soluble) is regarded as connective-tissue strengthening and underlies the herb's traditional reputation as a lung and cough remedy."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannins)",
+      "category": "tannin",
+      "percent_range": "5-10%",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Adstringierend und antientzündlich; begründen den Einsatz als Gurgelmittel und reizmildernden Hustentee.",
+        "en": "Astringent and anti-inflammatory; account for use as a gargle and soothing cough tea."
+      }
+    },
+    {
+      "name": "Harpagid (Harpagide)",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Iridoidglykosid, in der Gattung Galeopsis verbreitet; antimikrobiell und antientzündlich, gilt als Abbauprodukt des Harpagosids der Teufelskralle.",
+        "en": "Iridoid glycoside common in the genus Galeopsis; antimicrobial and anti-inflammatory, considered a degradation product of devil's-claw harpagoside."
+      }
+    },
+    {
+      "name": "8-O-Acetylharpagid (8-O-acetylharpagide)",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Acetyliertes Iridoidglykosid; die Acetylierung ist das charakteristische Iridoid-Merkmal der Gattung Galeopsis.",
+        "en": "Acetylated iridoid glycoside; acetylation is the characteristic iridoid feature of the genus Galeopsis."
+      }
+    },
+    {
+      "name": "Galiridosid (Galiridoside)",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Iridoidglykosid, das aus Galeopsis-Arten beschrieben ist; trägt zum bitteren, antientzündlichen Profil bei.",
+        "en": "Iridoid glycoside described from Galeopsis species; contributes to the bitter, anti-inflammatory profile."
+      }
+    },
+    {
+      "name": "Antirrhinosid (Antirrhinoside)",
+      "category": "glycoside",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Weiteres Iridoidglykosid der Gattung; wirkt mit den übrigen Iridoiden adstringierend und antimikrobiell.",
+        "en": "Another iridoid glycoside of the genus; acts together with the other iridoids in an astringent and antimicrobial manner."
+      }
+    },
+    {
+      "name": "Saponine (neutrale und saure)",
+      "category": "saponin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Neutrale und saure Saponine; vermitteln die schwache schleimlösende (expektorierende) Wirkung des Tees.",
+        "en": "Neutral and acidic saponins; mediate the weak expectorant effect of the tea."
+      }
+    },
+    {
+      "name": "Glykosidischer Bitterstoff",
+      "category": "bitter",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Ein glykosidischer Bitterstoff sowie Spuren ätherischen Öls runden das Drogenprofil ab.",
+        "en": "A glycosidic bitter principle together with traces of essential oil round out the drug profile."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [7, 8, 9],
+      "time_of_day": {
+        "de": "Vormittags nach dem Abtrocknen des Taus, an einem trockenen Tag.",
+        "en": "In the late morning after the dew has dried, on a dry day."
+      },
+      "drying": {
+        "de": "Das blühende Kraut locker ausgebreitet oder in kleinen Bündeln an einem luftigen, schattigen Ort bei höchstens 40 °C trocknen.",
+        "en": "Dry the flowering herb spread out loosely or in small bunches in an airy, shaded place at no more than 40 °C."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, lichtgeschützt und luftdicht in Papier- oder Glasbehältern aufbewahren.",
+        "en": "Store dry, protected from light and airtight in paper or glass containers."
+      }
+    }
+  ],
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "ground_cover",
+    "medicinal",
+    "dynamic_accumulator",
+    "vertical_low"
+  ]
+}

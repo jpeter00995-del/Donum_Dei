@@ -1,0 +1,410 @@
+{
+  "slug": "lamium-album",
+  "names": {
+    "de": "Weiße Taubnessel",
+    "en": "White deadnettle",
+    "latin": "Lamium album"
+  },
+  "family": {
+    "de": "Lippenblütler",
+    "en": "Mint family",
+    "latin": "Lamiaceae"
+  },
+  "description": {
+    "de": "Die Weiße Taubnessel ist eine ausdauernde, krautige Pflanze der Lippenblütler mit charakteristisch vierkantigem Stängel und kreuzgegenständigen, brennnesselähnlichen, aber nicht brennenden Blättern; sie wird meist 25 bis 50 cm hoch. Die weißen, zweilippigen Blüten stehen in Scheinquirlen in den oberen Blattachseln und tragen einen schrägen Haarring in der Kronröhre, der den Nektar für langrüsselige Insekten wie Hummeln schützt. Als Droge dienen vor allem die getrockneten Blüten (Lamii albi flos), seltener das blühende Kraut (Lamii albi herba). Die Pflanze enthält Iridoide, Flavonole, Phenylpropanglykoside, Gerb- und Schleimstoffe. Sie gilt als mildes, reizlinderndes und zusammenziehendes Mittel.",
+    "en": "White deadnettle is a perennial herb of the mint family with a distinctly square stem and opposite, nettle-like but non-stinging leaves, typically growing 25 to 50 cm tall. Its white, two-lipped flowers appear in false whorls in the upper leaf axils and bear an oblique ring of hairs inside the corolla tube that shields the nectar for long-tongued insects such as bumblebees. The medicinal drug consists mainly of the dried flowers (Lamii albi flos), and less commonly the flowering herb (Lamii albi herba). The plant contains iridoids, flavonols, phenylpropanoid glycosides, tannins and mucilage. It is regarded as a mild, soothing and astringent remedy."
+  },
+  "teaser": {
+    "de": "Die sanfte Schwester der Brennnessel: weiße Lippenblüten, die seit jeher Schleimhäute beruhigen.",
+    "en": "The gentle sister of the stinging nettle: white blooms long valued for soothing irritated mucous membranes."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["respiratory"],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {"min": 2, "max": 4},
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Getrocknete Blüten mit kochendem Wasser übergießen, zugedeckt etwa 10 Minuten ziehen lassen und abseihen. Bei Katarrhen der oberen Luftwege bis zu dreimal täglich frisch trinken.",
+          "en": "Pour boiling water over the dried flowers, cover and steep for about 10 minutes, then strain. Drink freshly prepared up to three times daily for catarrh of the upper respiratory tract."
+        }
+      },
+      "description": {
+        "de": "Innerlich bei Katarrhen der oberen Luftwege; die Schleim- und Gerbstoffe wirken reizlindernd auf die gereizten Atemwegsschleimhäute.",
+        "en": "Taken internally for catarrh of the upper respiratory tract; the mucilage and tannins soothe irritated airway mucous membranes."
+      },
+      "source_ids": ["src_komm_e", "src_wikipedia_de", "src_herbalreality"]
+    },
+    {
+      "form": "gargle",
+      "target": ["throat", "mouth"],
+      "internal_external": "external",
+      "plant_part": "flower",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {"min": 2, "max": 4},
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "Einen Aufguss aus den Blüten bereiten, abkühlen lassen und mehrmals täglich zum Gurgeln oder Spülen verwenden. Nicht schlucken.",
+          "en": "Prepare an infusion of the flowers, let it cool and use several times daily as a gargle or mouth rinse. Do not swallow."
+        }
+      },
+      "description": {
+        "de": "Äußerlich als Gurgel- und Spüllösung bei leichten Entzündungen der Mund- und Rachenschleimhaut.",
+        "en": "Used externally as a gargle and rinse for mild inflammation of the mouth and throat mucosa."
+      },
+      "source_ids": ["src_komm_e", "src_wikipedia_de"]
+    },
+    {
+      "form": "tea",
+      "target": ["menstrual"],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {"min": 2, "max": 4},
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 3,
+        "instructions": {
+          "de": "Blütenaufguss bereiten und bis zu dreimal täglich trinken. Traditionell zur Linderung starker oder unregelmäßiger Menstruation eingesetzt.",
+          "en": "Prepare a flower infusion and drink up to three times daily. Traditionally used to ease heavy or irregular menstruation."
+        }
+      },
+      "description": {
+        "de": "Traditionell als Frauenmittel bei zu starker Menstruation und vermehrtem Weißfluss; die zusammenziehende Wirkung der Gerbstoffe begründet diese volksheilkundliche Anwendung.",
+        "en": "Traditionally a women's remedy for excessive menstruation and increased vaginal discharge; the astringent action of the tannins underlies this folk application."
+      },
+      "source_ids": ["src_herbalreality", "src_pfaf"]
+    },
+    {
+      "form": "tincture",
+      "target": ["respiratory", "menstrual"],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {"min": 2, "max": 4},
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Tinktur (üblich 1:5 in 25 % Alkohol) je Einzeldosis 2 bis 4 ml in etwas Wasser bis zu dreimal täglich einnehmen.",
+          "en": "Take 2 to 4 ml of tincture (commonly 1:5 in 25 % alcohol) per single dose in a little water, up to three times daily."
+        }
+      },
+      "description": {
+        "de": "Konzentrierte Darreichung für die innerliche Anwendung bei Atemwegskatarrh und als mildes Frauenmittel.",
+        "en": "A concentrated preparation for internal use in respiratory catarrh and as a mild women's remedy."
+      },
+      "source_ids": ["src_herbalreality"]
+    },
+    {
+      "form": "compress",
+      "target": ["skin"],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {"min": 5, "max": 10},
+        "water_ml": 500,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Einen starken Aufguss aus blühendem Kraut bereiten, ein Tuch tränken und auf die betroffene Hautstelle auflegen. Ein- bis zweimal täglich erneuern.",
+          "en": "Prepare a strong infusion of the flowering herb, soak a cloth and apply to the affected skin. Renew once or twice daily."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlich als Umschlag bei kleinen Wunden, Prellungen und Hautentzündungen; traditionell wundheilend (vulnerär) verwendet.",
+        "en": "Used in folk medicine as a compress for minor wounds, bruises and skin inflammation; traditionally applied as a wound-healing (vulnerary) remedy."
+      },
+      "source_ids": ["src_herbalreality", "src_pfaf"]
+    },
+    {
+      "form": "bath",
+      "target": ["skin", "urinary"],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {"min": 5, "max": 10},
+        "water_ml": 1000,
+        "steep_min": 15,
+        "doses_per_day": 1,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Einen Aufguss aus etwa 5 bis 10 g getrockneter Droge je Liter bereiten und dem Sitzbad zusetzen. Höchstens einmal täglich anwenden.",
+          "en": "Prepare an infusion from about 5 to 10 g of dried herb per litre and add it to a sitz bath. Use at most once daily."
+        }
+      },
+      "description": {
+        "de": "Traditionelles Sitzbad bei Beschwerden im Unterleibsbereich und vermehrtem Ausfluss; die adstringierende Wirkung steht im Vordergrund.",
+        "en": "A traditional sitz bath for lower abdominal complaints and increased discharge; the astringent action is the main rationale."
+      },
+      "source_ids": ["src_herbalreality"]
+    },
+    {
+      "form": "raw",
+      "target": ["nutrition"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {"min": 10, "max": 30},
+        "doses_per_day": 1,
+        "max_duration_weeks": 8,
+        "instructions": {
+          "de": "Junge Blätter und Triebspitzen vor der Blüte sammeln, waschen und roh in Salate geben oder wie Spinat garen.",
+          "en": "Gather young leaves and shoot tips before flowering, wash them and add raw to salads or cook like spinach."
+        }
+      },
+      "description": {
+        "de": "Die jungen Triebe und Blätter sind essbar und wurden früher als Wildgemüse roh oder gegart verzehrt.",
+        "en": "The young shoots and leaves are edible and were formerly eaten as a wild vegetable, raw or cooked."
+      },
+      "source_ids": ["src_wikipedia_en", "src_wikipedia_de", "src_pfaf"]
+    }
+  ],
+  "season": {
+    "active_months": [4, 5, 6, 7, 8, 9, 10],
+    "harvest_part": {
+      "de": "Blüten und blühendes Kraut",
+      "en": "Flowers and flowering herb"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Die Weiße Taubnessel gilt als gut verträglich; nennenswerte Nebenwirkungen sind nicht dokumentiert. Aussagekräftige Studien zu empfindlichen Personengruppen fehlen jedoch. Bei länger anhaltenden Atemwegs- oder Frauenbeschwerden ärztlichen Rat einholen.",
+      "en": "White deadnettle is considered well tolerated; no significant side effects are documented. However, reliable studies in vulnerable groups are lacking. Seek medical advice for persistent respiratory or gynaecological complaints."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Aufgrund der traditionellen Verwendung als Frauenmittel und fehlender Sicherheitsdaten in der Schwangerschaft nur nach ärztlicher Rücksprache anwenden.",
+        "en": "Owing to its traditional use as a women's remedy and the lack of safety data, use only after consulting a doctor during pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Daten für die Stillzeit; Anwendung nur unter fachlicher Begleitung.",
+        "en": "Insufficient data for breastfeeding; use only under professional guidance."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Für innerliche Anwendung bei Kleinkindern keine belastbaren Daten; bei Kindern nur nach Rücksprache und in milder Form (z. B. Gurgeln bei älteren Kindern).",
+        "en": "No robust data for internal use in young children; in children use only after consultation and in mild form (e.g. gargling for older children)."
+      }
+    },
+    "drug_interactions": [],
+    "contraindications": [
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber Lippenblütlern.",
+        "en": "Known hypersensitivity to plants of the mint family."
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_komm_e",
+      "type": "monograph",
+      "title": "Kommission E Monographie: Lamii albi flos (Weiße Taubnesselblüten) / Lamii albi herba",
+      "url": "https://buecher.heilpflanzen-welt.de/BGA-Kommission-E-Monographien/lamii-albi-flos.htm",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikipedia_de",
+      "type": "wikipedia",
+      "title": "Weiße Taubnessel – Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Wei%C3%9Fe_Taubnessel",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikipedia_en",
+      "type": "wikipedia",
+      "title": "Lamium album – Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Lamium_album",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikidata",
+      "type": "wikidata",
+      "title": "Lamium album (Q157892) – Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q157892",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_herbalreality",
+      "type": "monograph",
+      "title": "White Deadnettle (Lamium album): Benefits, Uses, Safety – Herbal Reality",
+      "url": "https://www.herbalreality.com/herb/white-deadnettle/",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_pfaf",
+      "type": "book",
+      "title": "Lamium album – Plants For A Future (PFAF) Database",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Lamium+album",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_pmc_standardization",
+      "type": "monograph",
+      "title": "Czerwińska et al. (2020): Lamalbid, Chlorogenic Acid, and Verbascoside as Tools for Standardization of Lamium album Flowers, Molecules, doi:10.3390/molecules25071721",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7180761/",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_commons",
+      "type": "commons",
+      "title": "File:Lamium album Sturm39.jpg – Wikimedia Commons (Jacob Sturm, 1796)",
+      "url": "https://commons.wikimedia.org/wiki/File:Lamium_album_Sturm39.jpg",
+      "accessed": "2026-06-08"
+    }
+  ],
+  "image": {
+    "filename": "lamium-album.webp",
+    "alt": {
+      "de": "Botanische Tafel der Weißen Taubnessel (Lamium album) mit weißen Lippenblüten und gezähnten Blättern, Jacob Sturm 1796.",
+      "en": "Botanical plate of white deadnettle (Lamium album) showing white two-lipped flowers and toothed leaves, Jacob Sturm 1796."
+    },
+    "license": "Public domain",
+    "author": "Jacob Sturm (in: Deutschlands Flora in Abbildungen, 1796)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lamium_album_Sturm39.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Lamalbid",
+      "category": "glycoside",
+      "percent_range": "2.6-3.9 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Mengenmäßig wichtigstes Iridoidglykosid der Blüten und Leitsubstanz zur Standardisierung (etwa 27-39 mg/g im Trockenextrakt).",
+        "en": "Quantitatively the most abundant iridoid glycoside of the flowers and a marker compound for standardization (about 27-39 mg/g in the dried extract)."
+      }
+    },
+    {
+      "name": "Verbascosid",
+      "category": "phenolic_acid",
+      "percent_range": "0.6-0.8 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Phenylpropanglykosid mit antioxidativer Wirkung; ebenfalls Leitsubstanz der Blütendroge.",
+        "en": "A phenylpropanoid glycoside with antioxidant activity; also a marker substance of the flower drug."
+      }
+    },
+    {
+      "name": "Chlorogensäure",
+      "category": "phenolic_acid",
+      "percent_range": "0.9-1.2 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Phenolsäure mit antioxidativer Aktivität, dient zusammen mit Lamalbid und Verbascosid der Standardisierung.",
+        "en": "A phenolic acid with antioxidant activity, used together with lamalbid and verbascoside for standardization."
+      }
+    },
+    {
+      "name": "Flavonole (Rutin, Quercetin, Kaempferol)",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Flavonolglykoside, die zur gefäßschützenden und entzündungshemmenden Wirkung beitragen.",
+        "en": "Flavonol glycosides that contribute to the vessel-protective and anti-inflammatory effects."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Catechingerbstoffe)",
+      "category": "tannin",
+      "percent_range": "5-7 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Kondensierte und hydrolysierbare Gerbstoffe, verantwortlich für die zusammenziehende (adstringierende) Wirkung.",
+        "en": "Condensed and hydrolysable tannins responsible for the astringent action."
+      }
+    },
+    {
+      "name": "Schleimstoffe",
+      "category": "mucilage",
+      "plant_part": "flower",
+      "note": {
+        "de": "Polysaccharidische Schleimstoffe, die die reizlindernde Wirkung auf Schleimhäute begründen.",
+        "en": "Polysaccharide mucilage that underlies the soothing effect on mucous membranes."
+      }
+    },
+    {
+      "name": "Saponine",
+      "category": "saponin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Triterpensaponine (u. a. mit Ursolsäure und Amyrin) in geringen Mengen.",
+        "en": "Triterpene saponins (including ursolic acid and amyrin) present in small amounts."
+      }
+    },
+    {
+      "name": "Ätherisches Öl",
+      "category": "essential_oil",
+      "percent_range": "0.01-0.31 %",
+      "plant_part": "flower",
+      "note": {
+        "de": "Nur in geringen Mengen vorhandenes ätherisches Öl; therapeutisch nachrangig.",
+        "en": "Essential oil present only in trace amounts; of secondary therapeutic importance."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [5, 6, 7, 8],
+      "time_of_day": {
+        "de": "Am späten Vormittag bei trockenem Wetter, sobald der Tau abgetrocknet ist.",
+        "en": "In the late morning in dry weather, once the dew has dried."
+      },
+      "drying": {
+        "de": "Die Kronen vorsichtig aus dem Kelch zupfen und locker im Schatten bei höchstens 35 °C trocknen, damit die weiße Farbe erhalten bleibt.",
+        "en": "Gently pull the corollas from the calyx and dry them loosely in the shade at no more than 35 °C to preserve the white colour."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, licht- und luftgeschützt in dunklen Gläsern oder Dosen aufbewahren.",
+        "en": "Store dry and protected from light and air in dark jars or tins."
+      }
+    },
+    {
+      "plant_part": "leaf",
+      "best_months": [3, 4, 5],
+      "time_of_day": {
+        "de": "Am Vormittag junge Triebspitzen vor der Blüte ernten.",
+        "en": "Harvest young shoot tips in the morning before flowering."
+      },
+      "drying": {
+        "de": "Für Küchengebrauch frisch verwenden; zum Trocknen luftig im Schatten ausbreiten.",
+        "en": "Use fresh for culinary purposes; for drying, spread out airily in the shade."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Getrocknete Blätter trocken und dunkel lagern.",
+        "en": "Store dried leaves dry and in the dark."
+      }
+    }
+  ],
+  "permaculture_functions": ["medicinal", "pollinator_attractor", "edible_flower", "ground_cover", "dynamic_accumulator"]
+}

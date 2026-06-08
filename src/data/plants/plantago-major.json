@@ -1,0 +1,410 @@
+{
+  "slug": "plantago-major",
+  "names": {
+    "de": "Breitwegerich",
+    "en": "Greater plantain",
+    "latin": "Plantago major"
+  },
+  "family": {
+    "de": "Wegerichgewächse",
+    "en": "Plantain family",
+    "latin": "Plantaginaceae"
+  },
+  "description": {
+    "de": "Der Breitwegerich (Plantago major) ist eine ausdauernde krautige Pflanze, die eine grundständige Rosette aus breiten, eiförmig-elliptischen Blättern mit fünf bis neun deutlich hervortretenden Längsnerven bildet. Aus der Rosette steigen schlanke, walzenförmige Blütenähren auf, die von Juni bis Oktober unscheinbare grünlich-braune Blüten und anschließend zahlreiche winzige Samen tragen. Die Art ist äußerst trittfest und gedeiht an Wegrändern, auf Plätzen, Weiden und sogar in Pflasterritzen, weshalb sie als Zeigerpflanze verdichteter Böden gilt. Ursprünglich in Eurasien heimisch, hat sie sich mit europäischen Siedlern weltweit verbreitet und wurde von nordamerikanischen Ureinwohnern als 'Fußstapfen des weißen Mannes' bezeichnet. Traditionell wird vor allem das frische Blatt bei kleinen Wunden und Insektenstichen genutzt, während junge Blätter und Samen auch als Nahrung dienen.",
+    "en": "Greater plantain (Plantago major) is a perennial herb forming a basal rosette of broad, oval to elliptic leaves marked by five to nine prominent longitudinal veins. Slender cylindrical flower spikes rise from the rosette, bearing inconspicuous greenish-brown flowers from June to October followed by very large numbers of tiny seeds. Extremely tolerant of trampling, it thrives along paths, in yards, on pastures and even in pavement cracks, serving as an indicator of compacted soil. Originally native to Eurasia, it spread worldwide with European settlers and was called 'white man's footprint' by Native Americans. Traditionally the fresh leaf is the best-known remedy for minor wounds and insect bites, while young leaves and seeds are also eaten."
+  },
+  "teaser": {
+    "de": "Das trittfeste Wegrandkraut mit den breiten Blättern - traditionelles Erste-Hilfe-Blatt bei Insektenstichen und kleinen Wunden.",
+    "en": "The trample-tough wayside herb with broad leaves - a traditional first-aid leaf for insect bites and minor wounds."
+  },
+  "uses": [
+    {
+      "form": "compress",
+      "target": ["Insektenstiche", "insect bites", "kleine Wunden", "minor wounds", "Hautreizungen"],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "Frisches, sauberes Blatt zwischen den Fingern oder leicht in der Hand zerquetschen, bis Saft austritt, und direkt auf den Insektenstich oder die kleine Wunde auflegen; bei Bedarf alle paar Stunden erneuern. Klassisches Feldmittel ('Spuckpflaster').",
+          "en": "Crush a fresh, clean leaf between the fingers or in the hand until juice appears and apply directly to the insect bite or minor wound; renew every few hours as needed. A classic field remedy."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlich das bekannteste Einsatzgebiet: Das zerquetschte frische Blatt wird seit Jahrhunderten zur raschen Linderung von Juckreiz und Schwellung nach Insektenstichen sowie als kühlendes Auflage-Mittel auf kleine Wunden verwendet. Schleimstoffe, Aucubin und Gerbstoffe wirken reizlindernd und adstringierend.",
+        "en": "The best-known folk application: the crushed fresh leaf has been used for centuries to quickly soothe itching and swelling after insect bites and as a cooling dressing for minor wounds. Mucilage, aucubin and tannins act soothing and astringent."
+      },
+      "source_ids": ["src_pmc_review", "src_wikipedia_en", "src_wikipedia_de"]
+    },
+    {
+      "form": "salve",
+      "target": ["Hautabschürfungen", "abrasions", "rissige Haut", "wound support"],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "Frische, fein zerkleinerte Blätter in pflanzlichem Öl warm ausziehen, abseihen und mit Bienenwachs zu einer Salbe verarbeiten. Dünn auf saubere, intakte Hautstellen auftragen. Nicht auf tiefe, stark blutende oder infizierte Wunden anwenden.",
+          "en": "Warm-infuse fresh, finely chopped leaves in plant oil, strain, and set with beeswax into a salve. Apply thinly to clean, intact skin. Do not use on deep, heavily bleeding or infected wounds."
+        }
+      },
+      "description": {
+        "de": "Eine aus Blättern hergestellte Salbe wird traditionell zur Pflege kleiner Hautschäden und gereizter Hautstellen genutzt. Allantoin und Aucubin werden mit zellregenerierenden und entzündungshemmenden Eigenschaften in Verbindung gebracht.",
+        "en": "A leaf-based salve is traditionally used to care for minor skin damage and irritated skin. Allantoin and aucubin are associated with cell-regenerating and anti-inflammatory properties."
+      },
+      "source_ids": ["src_pmc_review", "src_pfaf"]
+    },
+    {
+      "form": "tea",
+      "target": ["Husten", "cough", "Atemwegskatarrh", "respiratory catarrh", "Reizhusten"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": { "min": 1.5, "max": 3 },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "1,5-3 g getrocknetes Wegerichkraut mit 250 ml heißem Wasser übergießen, zugedeckt etwa 10 Minuten ziehen lassen, abseihen. Bis zu dreimal täglich trinken.",
+          "en": "Pour 250 ml hot water over 1.5-3 g dried plantain herb, cover and steep about 10 minutes, then strain. Drink up to three times daily."
+        }
+      },
+      "description": {
+        "de": "Aufgrund seines Gehalts an Schleimstoffen wird der Tee traditionell als reizlinderndes Mittel bei Reizhusten und Katarrhen der oberen Atemwege getrunken. Hinweis: Eine positive Kommission-E- oder EMA-Monografie besteht nur für den verwandten Spitzwegerich, nicht für den Breitwegerich.",
+        "en": "Because of its mucilage content, the tea is traditionally drunk as a soothing remedy for irritating cough and upper respiratory catarrh. Note: a positive Commission E or EMA monograph exists only for the related ribwort plantain, not for greater plantain."
+      },
+      "source_ids": ["src_wikipedia_de", "src_pmc_review", "src_kommission_e_note"]
+    },
+    {
+      "form": "tea",
+      "target": ["leichter Durchfall", "mild diarrhoea", "Magenschleimhautreizung", "gastric irritation"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": { "min": 1.5, "max": 3 },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Wie der Hustentee zubereiten. Bei leichtem Durchfall mehrmals täglich schluckweise trinken. Bei anhaltenden Beschwerden über mehr als zwei Tage ärztlichen Rat einholen.",
+          "en": "Prepare like the cough tea. For mild diarrhoea, sip several times daily. Seek medical advice if symptoms persist beyond two days."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlich werden Gerb- und Schleimstoffe des Krauts bei leichtem Durchfall und gereizter Magen-Darm-Schleimhaut genutzt; die Gerbstoffe wirken adstringierend, die Schleimstoffe reizlindernd.",
+        "en": "In folk use the herb's tannins and mucilage are taken for mild diarrhoea and an irritated gastrointestinal lining; tannins act astringent and mucilage soothing."
+      },
+      "source_ids": ["src_pfaf", "src_pmc_review"]
+    },
+    {
+      "form": "raw",
+      "target": ["Wildgemüse", "wild vegetable", "Salat", "edible greens"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "Nur ganz junge, zarte Blätter verwenden; sie roh in Salate geben oder kurz blanchieren, da sie schnell zäh und faserig werden. Ältere Blätter besser gekocht in Suppen oder Eintöpfen verarbeiten.",
+          "en": "Use only very young, tender leaves; add them raw to salads or blanch briefly, as they quickly turn tough and fibrous. Older leaves are better cooked in soups or stews."
+        }
+      },
+      "description": {
+        "de": "Junge Breitwegerichblätter sind ein essbares Wildgemüse mit mildem, leicht herbem Geschmack und liefern Mineralstoffe sowie Vitamine. Mit zunehmendem Alter werden die Blätter zäh und faserig.",
+        "en": "Young greater plantain leaves are an edible wild green with a mild, slightly bitter taste and supply minerals and vitamins. With age the leaves become tough and fibrous."
+      },
+      "source_ids": ["src_pfaf", "src_wikipedia_en", "src_wikipedia_de"]
+    },
+    {
+      "form": "raw",
+      "target": ["Samen als Nahrung", "edible seed", "Ballaststoffe", "bulk fibre"],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "Reife Samen von den Ähren abstreifen, roh essen, kochen oder zu Mehl mahlen und unter anderes Mehl mischen. Die schleimreichen Samen mit reichlich Flüssigkeit aufnehmen.",
+          "en": "Strip ripe seeds from the spikes; eat raw, cook, or grind to meal and blend with other flour. Take the mucilage-rich seeds with plenty of fluid."
+        }
+      },
+      "description": {
+        "de": "Die kleinen Samen sind essbar und enthalten reichlich Schleimstoffe (verwandt mit Flohsamen anderer Plantago-Arten), die als sanftes Quell- und Ballaststoffmittel wirken können. Das Sammeln ist wegen der geringen Samengröße mühsam.",
+        "en": "The small seeds are edible and rich in mucilage (related to the psyllium of other Plantago species), which can act as a gentle bulking fibre. Harvesting is laborious due to the tiny seed size."
+      },
+      "source_ids": ["src_pfaf", "src_wikipedia_en"]
+    },
+    {
+      "form": "gargle",
+      "target": ["Halsreizung", "sore throat", "Mund- und Rachenreizung", "mouth irritation"],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": { "min": 2, "max": 4 },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 4,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Etwas stärkeren Aufguss (2-4 g auf 250 ml) zubereiten, abkühlen lassen und mehrmals täglich damit gurgeln oder spülen. Nicht schlucken, wenn nur zum Gurgeln verwendet.",
+          "en": "Prepare a slightly stronger infusion (2-4 g per 250 ml), let cool, and gargle or rinse several times daily. Do not swallow if used only as a gargle."
+        }
+      },
+      "description": {
+        "de": "Der schleim- und gerbstoffhaltige Aufguss wird traditionell als reizlinderndes Gurgelmittel bei leichten Hals- und Rachenreizungen verwendet.",
+        "en": "The mucilage- and tannin-containing infusion is traditionally used as a soothing gargle for minor throat and pharyngeal irritation."
+      },
+      "source_ids": ["src_pfaf", "src_pmc_review"]
+    }
+  ],
+  "season": {
+    "active_months": [6, 7, 8, 9, 10],
+    "harvest_part": {
+      "de": "Blätter (Juni-September); Samen bei Reife (August-September)",
+      "en": "Leaves (June-September); seeds when ripe (August-September)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Frische Blätter zur äußeren Anwendung nur sauber und von unbelasteten Standorten (nicht an stark befahrenen Straßen, Hundewegen oder gespritzten Flächen) sammeln. Nicht auf tiefe, stark blutende oder infizierte Wunden auflegen - hier ärztliche Versorgung. Hohe Dosen innerlich können Blutdruck senken und Durchfall auslösen. Bei bekannter Pollenallergie auf Wegerich ist selten ein allergisches Kontaktekzem möglich.",
+      "en": "Collect fresh leaves for external use only when clean and from unpolluted sites (not along busy roads, dog paths or sprayed areas). Do not apply to deep, heavily bleeding or infected wounds - seek medical care for those. High internal doses may lower blood pressure and cause diarrhoea. In people with known plantain pollen allergy, allergic contact dermatitis is rarely possible."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Für die innerliche Anwendung in Schwangerschaft liegen keine ausreichenden Sicherheitsdaten vor; daher vorsorglich nur nach Rücksprache und in Lebensmittelmengen. Äußerliche Anwendung des frischen Blattes gilt als unproblematisch.",
+        "en": "There are insufficient safety data for internal use during pregnancy; therefore use internally only after consultation and in food amounts as a precaution. External use of the fresh leaf is considered unproblematic."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine belastbaren Daten zur Stillzeit. Innerliche Anwendung über Lebensmittelmengen hinaus nur nach Rücksprache; äußerliche Anwendung gilt als unbedenklich.",
+        "en": "No robust data for breastfeeding. Internal use beyond food amounts only after consultation; external use is considered safe."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Äußerliche Anwendung des frischen Blattes bei kleinen Wunden und Stichen ist bei Kindern verbreitet. Für innerliche Tee-Anwendung bei kleinen Kindern keine etablierten Dosierungen - ärztlichen Rat einholen.",
+        "en": "External use of the fresh leaf for minor wounds and bites is common in children. There are no established dosages for internal tea use in young children - seek medical advice."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antikoagulantien (Vitamin-K-Antagonisten)",
+        "mechanism": {
+          "de": "Die Blätter enthalten Vitamin K; größere Verzehrmengen könnten theoretisch die Wirkung von Gerinnungshemmern wie Warfarin beeinflussen.",
+          "en": "The leaves contain vitamin K; large intake could theoretically affect the action of anticoagulants such as warfarin."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "orale Arzneimittel allgemein",
+        "mechanism": {
+          "de": "Schleimstoffe können die Aufnahme gleichzeitig eingenommener Medikamente verzögern oder verringern; zeitlichen Abstand von ein bis zwei Stunden einhalten.",
+          "en": "Mucilage may delay or reduce the absorption of medicines taken at the same time; keep a one- to two-hour interval."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Bekannte Allergie gegen Wegerich-Arten oder deren Pollen.",
+        "en": "Known allergy to plantain species or their pollen."
+      },
+      {
+        "de": "Darmverschluss oder ungeklärte starke Bauchschmerzen (innerliche Anwendung).",
+        "en": "Bowel obstruction or unexplained severe abdominal pain (internal use)."
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_pmc_review",
+      "type": "monograph",
+      "title": "Samuelsen AB. The traditional uses, chemical constituents and biological activities of Plantago major L. A review. Journal of Ethnopharmacology 2000;71(1):1-21. DOI 10.1016/S0378-8741(00)00212-9",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7142308/",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikipedia_en",
+      "type": "wikipedia",
+      "title": "Plantago major - Wikipedia (English)",
+      "url": "https://en.wikipedia.org/wiki/Plantago_major",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikipedia_de",
+      "type": "wikipedia",
+      "title": "Breitwegerich - Wikipedia (Deutsch)",
+      "url": "https://de.wikipedia.org/wiki/Breitwegerich",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_pfaf",
+      "type": "monograph",
+      "title": "Plantago major - Plants For A Future (PFAF) database",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Plantago+major",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_pflanzen_deutschland",
+      "type": "monograph",
+      "title": "Breitwegerich (Plantago major) - Beschreibung, Steckbrief, Systematik, Inhaltsstoffe (pflanzen-deutschland.de)",
+      "url": "https://www.pflanzen-deutschland.de/Plantago_major.html",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikidata",
+      "type": "wikidata",
+      "title": "Plantago major (Q157419) - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q157419",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_kommission_e_note",
+      "type": "monograph",
+      "title": "Hinweis zum Monografie-Status: Positive Kommission-E- und EMA/HMPC-Monografien betreffen Spitzwegerich (Plantago lanceolata), nicht Breitwegerich (Plantago major) - Arzneipflanzen-Lexikon",
+      "url": "https://arzneipflanzenlexikon.info/spitzwegerich.php",
+      "accessed": "2026-06-08"
+    }
+  ],
+  "image": {
+    "filename": "plantago-major.webp",
+    "alt": {
+      "de": "Botanische Tafel des Breitwegerichs (Plantago major) mit Blattrosette, Blütenähren und Samen",
+      "en": "Botanical plate of greater plantain (Plantago major) showing leaf rosette, flower spikes and seeds"
+    },
+    "license": "Public domain (PD-old-100-expired)",
+    "author": "Walther Otto Müller, Carl Friedrich Schmidt, K. Gunther / Otto Wilhelm Thomé, Flora von Deutschland, Österreich und der Schweiz (1885)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Plantago_major0.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Aucubin",
+      "category": "glycoside",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Iridoid-Glykosid; Leitsubstanz der Wegeriche, mit entzündungshemmenden und schwach antimikrobiellen Eigenschaften in Verbindung gebracht.",
+        "en": "Iridoid glycoside; a marker compound of plantains, associated with anti-inflammatory and mild antimicrobial properties."
+      }
+    },
+    {
+      "name": "Schleimstoffe (Polysaccharide)",
+      "category": "mucilage",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Reizlindernde Quellstoffe, die einen schützenden Film auf Schleimhäuten bilden; in den Samen besonders hoch konzentriert.",
+        "en": "Soothing swelling substances that form a protective film on mucous membranes; especially concentrated in the seeds."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine)",
+      "category": "tannin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Adstringierend wirkende Polyphenole, die zur zusammenziehenden und blutstillenden Wirkung bei äußerer Anwendung beitragen.",
+        "en": "Astringent polyphenols contributing to the contracting and styptic effect on external application."
+      }
+    },
+    {
+      "name": "Flavonoide (u. a. Baicalein, Hispidulin, Luteolin, Apigenin)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Antioxidativ und entzündungshemmend wirkende Pflanzenstoffe, die zur Kapillarstabilisierung beitragen können.",
+        "en": "Antioxidant and anti-inflammatory plant compounds that may help stabilise capillaries."
+      }
+    },
+    {
+      "name": "Plantamajosid (Phenylethanoid-Glykosid)",
+      "category": "phenolic_acid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Kaffeesäure-Derivat (verwandt mit Acteosid) mit antioxidativen und entzündungshemmenden Eigenschaften.",
+        "en": "Caffeic acid derivative (related to acteoside) with antioxidant and anti-inflammatory properties."
+      }
+    },
+    {
+      "name": "Allantoin",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Zellregenerierender Stoff, der die Wundheilung durch Förderung von Fibroblasten- und Keratinozyten-Aktivität unterstützen kann.",
+        "en": "Cell-regenerating compound that may support wound healing by promoting fibroblast and keratinocyte activity."
+      }
+    },
+    {
+      "name": "Kieselsäure und Mineralstoffe (Kalium, Calcium, Zink)",
+      "category": "mineral",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Mineralstoffanteil der Blätter; Kieselsäure und Spurenelemente wie Zink werden mit Gewebefestigung und Heilungsprozessen in Verbindung gebracht.",
+        "en": "Mineral fraction of the leaves; silica and trace elements such as zinc are associated with tissue strengthening and healing processes."
+      }
+    },
+    {
+      "name": "Ursolsäure / Oleanolsäure (Triterpene)",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Triterpenoide mit beschriebener entzündungshemmender Aktivität in den Blattextrakten.",
+        "en": "Triterpenoids with reported anti-inflammatory activity in the leaf extracts."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [6, 7, 8, 9],
+      "time_of_day": {
+        "de": "Am späten Vormittag, sobald der Tau abgetrocknet ist.",
+        "en": "Late morning, once the dew has dried."
+      },
+      "drying": {
+        "de": "Locker ausgebreitet an einem luftigen, schattigen Ort rasch trocknen, um Braunfärbung zu vermeiden; nicht über 40 °C.",
+        "en": "Dry quickly, loosely spread in an airy, shaded place to avoid browning; not above 40 °C."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "In luftdichten Gefäßen, dunkel und trocken aufbewahren.",
+        "en": "Store in airtight containers, dark and dry."
+      }
+    },
+    {
+      "plant_part": "seed",
+      "best_months": [8, 9],
+      "time_of_day": {
+        "de": "An trockenen Tagen, wenn die Ähren ausgereift und bräunlich sind.",
+        "en": "On dry days when the spikes are ripe and brownish."
+      },
+      "drying": {
+        "de": "Ähren nachtrocknen lassen, dann Samen abstreifen und vollständig durchtrocknen.",
+        "en": "Let the spikes dry further, then strip the seeds and dry them through completely."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken, kühl und dunkel in dicht schließenden Behältern.",
+        "en": "Dry, cool and dark in tightly sealed containers."
+      }
+    }
+  ],
+  "permaculture_functions": [
+    "ground_cover",
+    "root_loosener",
+    "dynamic_accumulator",
+    "vertical_low",
+    "medicinal",
+    "pollinator_attractor"
+  ]
+}

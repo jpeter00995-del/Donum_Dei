@@ -1,0 +1,366 @@
+{
+  "slug": "aegopodium-podagraria",
+  "names": {
+    "de": "Giersch",
+    "en": "Ground elder",
+    "latin": "Aegopodium podagraria"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Giersch (Aegopodium podagraria) ist eine ausdauernde, krautige Pflanze aus der Familie der Doldenblütler (Apiaceae), die über kriechende, weiße Rhizome dichte Bestände bildet und 30 bis 100 cm hoch wird. Charakteristisch ist der dreikantige, im Querschnitt dreieckige Blattstiel sowie die doppelt-dreizählig gefiederten Blätter; die kleinen weißen Blüten stehen von Juni bis Juli in zusammengesetzten Dolden. Genutzt werden vor allem die jungen Blätter, die nach Petersilie und Möhre riechen und schmecken. Traditionell dienten Blätter, Stängel und Wurzeln gegen Gicht und Rheuma, worauf der Artname 'podagraria' (von Podagra, Fußgicht) verweist. Als Wildgemüse ist Giersch reich an Vitamin C, Mineralstoffen und Polyacetylenen.",
+    "en": "Ground elder (Aegopodium podagraria) is a perennial herbaceous plant of the carrot family (Apiaceae) that forms dense stands via creeping white rhizomes and reaches 30 to 100 cm in height. Its diagnostic features are the three-angled (triangular in cross-section) leaf stalk and the doubly ternate-pinnate leaves; small white flowers appear in compound umbels from June to July. The young leaves, smelling and tasting of parsley and carrot, are the main part used. Traditionally the leaves, stems and roots were used against gout and rheumatism, reflected in the epithet 'podagraria' (from podagra, gout of the foot). As a wild vegetable it is rich in vitamin C, minerals and polyacetylenes."
+  },
+  "teaser": {
+    "de": "Das nach Möhre und Petersilie duftende Wildgemüse mit dreikantigem Stiel, traditionell gegen Gicht und Rheuma genutzt.",
+    "en": "A carrot-and-parsley-scented wild vegetable with a triangular stalk, traditionally used against gout and rheumatism."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": ["Wildgemüse", "Vitamin-C-Versorgung", "Frühjahrskur"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "Junge, noch glänzende Blätter vor der Blüte (März bis Mai) roh in Salat, Kräuterquark oder Pesto verwenden; vor der Ernte sicher von giftigen Doldenblütlern abgrenzen.",
+          "en": "Use young, still glossy leaves before flowering (March to May) raw in salads, herb quark or pesto; reliably distinguish from poisonous umbellifers before harvesting."
+        }
+      },
+      "description": {
+        "de": "Die jungen Blätter sind ein klassisches Frühjahrs-Wildgemüse mit hohem Vitamin-C-Gehalt (rund 200 mg/100 g) und einem würzigen Geschmack nach Petersilie und Möhre.",
+        "en": "The young leaves are a classic spring wild vegetable with a high vitamin C content (about 200 mg/100 g) and a savoury parsley-and-carrot flavour."
+      },
+      "source_ids": ["src_wiki_de", "src_wiki_en", "src_pfaf"]
+    },
+    {
+      "form": "raw",
+      "target": ["Gemüse", "Spinat-Ersatz", "Suppe"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "Ältere Blätter wie Spinat kurz dünsten oder als Suppe und Gemüsegericht zubereiten; nach der Blüte werden Blätter strenger im Geschmack und leicht abführend.",
+          "en": "Briefly steam older leaves like spinach or prepare them as soup or a vegetable dish; after flowering the leaves become more pungent and mildly laxative."
+        }
+      },
+      "description": {
+        "de": "Gekocht lässt sich Giersch seit der Antike als Spinatersatz verwenden; vor der Blüte geerntete Blätter sind am mildesten.",
+        "en": "Cooked, ground elder has been used as a spinach substitute since antiquity; leaves harvested before flowering are the mildest."
+      },
+      "source_ids": ["src_wiki_en", "src_wiki_de"]
+    },
+    {
+      "form": "tea",
+      "target": ["Gicht", "Rheuma", "Arthritis"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": { "min": 1, "max": 2 },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "1 bis 2 g getrocknetes Kraut mit 250 ml kochendem Wasser übergießen, 10 Minuten ziehen lassen, abseihen; bis zu dreimal täglich.",
+          "en": "Pour 250 ml of boiling water over 1 to 2 g of dried herb, steep for 10 minutes and strain; up to three times daily."
+        }
+      },
+      "description": {
+        "de": "Volkstümlich wird ein Aufguss des Krauts gegen Gicht und rheumatische Beschwerden getrunken; der Artname verweist auf diese traditionelle Anwendung.",
+        "en": "A herb infusion is traditionally drunk against gout and rheumatic complaints; the species epithet points to this traditional use."
+      },
+      "source_ids": ["src_wiki_de", "src_pfaf", "src_henriette"]
+    },
+    {
+      "form": "tea",
+      "target": ["Blasenbeschwerden", "Harnwegsbeschwerden", "harntreibend"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": { "min": 1, "max": 2 },
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Aufguss aus 1 bis 2 g Kraut auf 250 ml Wasser, 10 Minuten ziehen lassen; bis zu dreimal täglich, dabei auf ausreichende Flüssigkeitszufuhr achten.",
+          "en": "Infusion of 1 to 2 g herb per 250 ml water, steeped 10 minutes; up to three times daily, ensuring adequate fluid intake."
+        }
+      },
+      "description": {
+        "de": "Dem Kraut wird in der Volksheilkunde eine leicht harntreibende Wirkung bei Blasen- und Nierenbeschwerden zugeschrieben.",
+        "en": "In folk medicine the herb is credited with a mild diuretic action for bladder and kidney complaints."
+      },
+      "source_ids": ["src_pfaf", "src_wiki_de"]
+    },
+    {
+      "form": "compress",
+      "target": ["Gelenkschmerzen", "Gicht (äußerlich)", "Insektenstiche"],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "Frische Blätter zerquetschen oder als warmen Brei (Umschlag) auf schmerzende Gelenke, Stiche oder kleine Wunden auflegen.",
+          "en": "Crush fresh leaves or apply them as a warm poultice (compress) to aching joints, stings or minor wounds."
+        }
+      },
+      "description": {
+        "de": "Äußerlich wurden zerstoßene Blätter als Umschlag bei Gelenkschmerzen, Insektenstichen und kleinen Verletzungen verwendet.",
+        "en": "Externally, crushed leaves were applied as a poultice for joint pain, insect stings and minor injuries."
+      },
+      "source_ids": ["src_pfaf", "src_henriette"]
+    },
+    {
+      "form": "raw",
+      "target": ["essbare Blüte", "Garnitur"],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "Die jungen weißen Doldenblüten (Juni bis August) roh als essbare Dekoration über Salate und Gerichte streuen.",
+          "en": "Sprinkle the young white umbel flowers (June to August) raw as an edible garnish over salads and dishes."
+        }
+      },
+      "description": {
+        "de": "Auch die Blüten sind essbar und eignen sich als dekorative, leicht würzige Garnitur.",
+        "en": "The flowers are also edible and serve as a decorative, mildly aromatic garnish."
+      },
+      "source_ids": ["src_wiki_de"]
+    }
+  ],
+  "season": {
+    "active_months": [3, 4, 5, 6, 7, 8],
+    "harvest_part": {
+      "de": "junge Blätter (vor der Blüte), Blüten, Wurzel",
+      "en": "young leaves (before flowering), flowers, root"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Giersch gehört zu den Doldenblütlern und kann mit hochgiftigen Verwandten verwechselt werden, etwa dem Gefleckten Schierling (Conium maculatum) oder der Hundspetersilie (Aethusa cynapium). Sichere Erkennungsmerkmale: dreikantiger Blattstiel (im Querschnitt dreieckig), kein behaarter Stängel, und der typische Geruch nach Möhre und Petersilie. Im Zweifel nicht ernten. Nach der Blüte können die Blätter leicht abführend wirken.",
+      "en": "Ground elder belongs to the Apiaceae and can be confused with highly poisonous relatives such as poison hemlock (Conium maculatum) or fool's parsley (Aethusa cynapium). Reliable identification features: the three-angled leaf stalk (triangular in cross-section), the absence of a hairy stem, and the characteristic smell of carrot and parsley. If in doubt, do not harvest. After flowering the leaves can have a mild laxative effect."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Als Wildgemüse in Speisemengen unbedenklich; von konzentrierten medizinischen Zubereitungen (Tee, Tinktur) sollte mangels Daten in Schwangerschaft abgesehen werden.",
+        "en": "Harmless as a wild vegetable in culinary amounts; due to a lack of data, concentrated medicinal preparations (tea, tincture) should be avoided in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "In Speisemengen unbedenklich; für medizinische Zubereitungen liegen keine Daten zur Stillzeit vor.",
+        "en": "Harmless in culinary amounts; no data are available for medicinal preparations during lactation."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Als Gemüse für Kinder geeignet; vor dem Sammeln muss die sichere Bestimmung gegen giftige Doldenblütler durch Erwachsene erfolgen.",
+        "en": "Suitable as a vegetable for children; before gathering, safe identification against poisonous umbellifers must be carried out by adults."
+      }
+    },
+    "drug_interactions": [],
+    "contraindications": [
+      {
+        "de": "Unsichere Bestimmung bzw. Verwechslungsrisiko mit giftigen Doldenblütlern.",
+        "en": "Uncertain identification or risk of confusion with poisonous umbellifers."
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_wiki_de",
+      "type": "wikipedia",
+      "title": "Giersch – Wikipedia (de)",
+      "url": "https://de.wikipedia.org/wiki/Giersch",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wiki_en",
+      "type": "wikipedia",
+      "title": "Aegopodium podagraria – Wikipedia (en)",
+      "url": "https://en.wikipedia.org/wiki/Aegopodium_podagraria",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikidata",
+      "type": "wikidata",
+      "title": "Aegopodium podagraria (Q157419) – Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q157419",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_pfaf",
+      "type": "monograph",
+      "title": "Aegopodium podagraria – Plants For A Future (PFAF)",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Aegopodium+podagraria",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_henriette",
+      "type": "monograph",
+      "title": "Aegopodium podagraria – Henriette's Herbal Homepage",
+      "url": "https://www.henriettes-herb.com/eclectic/kings/aegopodium.html",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_falcarindiol",
+      "type": "monograph",
+      "title": "The polyacetylene falcarindiol with COX-1 activity isolated from Aegopodium podagraria L. (J. Ethnopharmacol. 2007, PMID 17574359)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17574359/",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_commons_plate",
+      "type": "commons",
+      "title": "File:Illustration Aegopodium podagraria0.jpg (Thomé, Flora 1885)",
+      "url": "https://commons.wikimedia.org/wiki/File:Illustration_Aegopodium_podagraria0.jpg",
+      "accessed": "2026-06-08"
+    }
+  ],
+  "image": {
+    "filename": "aegopodium-podagraria.webp",
+    "alt": {
+      "de": "Botanische Tafel von Aegopodium podagraria (Giersch) mit Blättern, Doldenblüten und Wurzel, Thomé 1885.",
+      "en": "Botanical plate of Aegopodium podagraria (ground elder) showing leaves, umbel flowers and root, Thomé 1885."
+    },
+    "license": "Public domain",
+    "author": "Walther Otto Müller (in: O. W. Thomé, Flora von Deutschland, Österreich und der Schweiz, 1885)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Illustration_Aegopodium_podagraria0.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Falcarindiol",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "Polyacetylen; in einer In-vitro-Studie als COX-1-Hemmer beschrieben und Hauptverbindung in Extrakten der Pflanze.",
+        "en": "Polyacetylene; described as a COX-1 inhibitor in an in vitro study and a main compound in the plant's extracts."
+      }
+    },
+    {
+      "name": "Falcarinol",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Polyacetylen, das gemeinsam mit Falcarindiol in Blättern, Wurzeln und im ätherischen Öl vorkommt.",
+        "en": "Polyacetylene occurring together with falcarindiol in leaves, roots and the essential oil."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (Sabinen, alpha-/beta-Pinen, Limonen, Myrcen)",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Sabinen ist in blühenden Pflanzen die dominierende Komponente (bis ~63 %), begleitet von Pinenen, Myrcen und p-Cymol.",
+        "en": "Sabinene is the dominant component in flowering plants (up to ~63%), accompanied by pinenes, myrcene and p-cymene."
+      }
+    },
+    {
+      "name": "Flavonoide (Quercetin, Kaempferol, Apigenin, Rutin)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Antioxidativ wirksame Flavonoide, die in verschiedenen Pflanzenteilen nachgewiesen wurden.",
+        "en": "Antioxidant flavonoids detected in various parts of the plant."
+      }
+    },
+    {
+      "name": "Hydroxyzimtsäuren (Kaffeesäure, Chlorogensäure-Derivate)",
+      "category": "phenolic_acid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Phenolische Säuren, die zur antioxidativen Kapazität der Blätter beitragen.",
+        "en": "Phenolic acids contributing to the antioxidant capacity of the leaves."
+      }
+    },
+    {
+      "name": "Cumarine",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Für Doldenblütler typische Cumarine, in geringen Mengen enthalten.",
+        "en": "Coumarins typical of Apiaceae, present in small amounts."
+      }
+    },
+    {
+      "name": "Vitamin C",
+      "category": "vitamin",
+      "percent_range": "ca. 200 mg/100 g",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Junge Blätter enthalten rund 200 mg Vitamin C je 100 g Frischgewicht.",
+        "en": "Young leaves contain about 200 mg vitamin C per 100 g fresh weight."
+      }
+    },
+    {
+      "name": "Mineralstoffe (Calcium, Eisen)",
+      "category": "mineral",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Etwa 130 mg Calcium und 3 mg Eisen je 100 g; macht Giersch zu einem nährstoffreichen Wildgemüse.",
+        "en": "About 130 mg calcium and 3 mg iron per 100 g, making ground elder a nutrient-rich wild vegetable."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [3, 4, 5],
+      "time_of_day": {
+        "de": "Vormittags, sobald der Tau abgetrocknet ist.",
+        "en": "Late morning, once the dew has dried."
+      },
+      "drying": {
+        "de": "Luftig im Schatten ausgebreitet oder gebündelt trocknen; frisch verwendet ist am aromatischsten.",
+        "en": "Dry spread out airily in the shade or in small bundles; most aromatic when used fresh."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknet in luftdichten Gefäßen, dunkel und trocken.",
+        "en": "Dried in airtight containers, dark and dry."
+      }
+    },
+    {
+      "plant_part": "root",
+      "best_months": [9, 10],
+      "time_of_day": {
+        "de": "Im Herbst nach dem Einziehen des Krauts.",
+        "en": "In autumn after the foliage has died back."
+      },
+      "drying": {
+        "de": "Wurzeln waschen, zerkleinern und bei milder Wärme trocknen.",
+        "en": "Wash the roots, cut them up and dry at mild warmth."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken und dunkel in verschlossenen Gefäßen.",
+        "en": "Dry and dark in sealed containers."
+      }
+    }
+  ],
+  "permaculture_functions": [
+    "ground_cover",
+    "pollinator_attractor",
+    "medicinal",
+    "dynamic_accumulator",
+    "vertical_low"
+  ]
+}

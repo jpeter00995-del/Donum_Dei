@@ -1,0 +1,360 @@
+{
+  "slug": "stellaria-media",
+  "names": {
+    "de": "Vogelmiere",
+    "en": "Common chickweed",
+    "latin": "Stellaria media"
+  },
+  "family": {
+    "de": "Nelkengewächse",
+    "en": "Pink family",
+    "latin": "Caryophyllaceae"
+  },
+  "description": {
+    "de": "Die Vogelmiere ist eine einjährige, niederliegende krautige Pflanze mit 3 bis 40 cm langen, runden Stängeln, die eine charakteristische einreihige Haarlinie tragen, welche an jedem Knoten die Seite wechselt. Die gegenständigen, eiförmigen Blätter sind kahl, und die kleinen weißen Blüten besitzen fünf tief gespaltene Kronblätter, sodass sie wie zehn wirken. Bei mildem Wetter blüht die Pflanze fast das ganze Jahr über. Verwendet werden vor allem die frischen oberirdischen Teile (Kraut) roh als Wildgemüse sowie äußerlich für Hautanwendungen.",
+    "en": "Common chickweed is an annual, prostrate herb with round stems 3 to 40 cm long bearing a characteristic single line of hairs that alternates from side to side at each node. Its opposite, oval leaves are hairless, and the small white flowers have five deeply cleft petals that make them appear to have ten. In mild weather the plant flowers nearly year-round. The parts used are mainly the fresh aerial parts (herb), eaten raw as a wild vegetable and applied externally for skin conditions."
+  },
+  "teaser": {
+    "de": "Das vitaminreiche Wildkraut, das fast ganzjährig wächst und seit jeher juckende Haut kühlt.",
+    "en": "The vitamin-rich wild green that grows almost all year and has long soothed itchy skin."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": ["nutrition", "skin"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "Junge frische Triebe gewaschen roh in Salate geben oder wie Spinat kurz dünsten. Wegen des Saponingehalts keine sehr großen Mengen auf einmal verzehren.",
+          "en": "Add washed young fresh shoots raw to salads or briefly cook like spinach. Owing to the saponin content, do not eat very large amounts at once."
+        }
+      },
+      "description": {
+        "de": "Die Vogelmiere ist ein nahrhaftes Wildgemüse mit einem Geschmack, der an jungen rohen Mais erinnert; etwa 50 g Salat decken in etwa den täglichen Vitamin-C-Bedarf eines Erwachsenen.",
+        "en": "Chickweed is a nutritious wild vegetable with a taste reminiscent of young raw corn; about 50 g of salad roughly covers an adult's daily vitamin C requirement."
+      },
+      "source_ids": ["src_wikipedia_de", "src_pfaf", "src_wikipedia_en"]
+    },
+    {
+      "form": "salve",
+      "target": ["skin"],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "Frisches Kraut zerstoßen und in ungesalzenes Schweinefett (oder ein pflanzliches Fett) einarbeiten; als kühlende Salbe auf juckende, gereizte oder entzündete Hautstellen auftragen.",
+          "en": "Bruise the fresh herb and work it into unsalted lard (or a plant-based fat); apply as a cooling salve to itchy, irritated or inflamed skin."
+        }
+      },
+      "description": {
+        "de": "Die klassische volksheilkundliche Anwendung: eine kühlende, reizlindernde Salbe bei Juckreiz, Wundsein und verschiedenen Hautleiden.",
+        "en": "The classic folk use: a cooling, soothing salve for itching, soreness and various skin complaints."
+      },
+      "source_ids": ["src_kings", "src_pfaf", "src_wikipedia_en"]
+    },
+    {
+      "form": "compress",
+      "target": ["skin"],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "Frisches Kraut zerquetschen und als Auflage (Umschlag) auf schlecht heilende Wunden, kleine Geschwüre oder rheumatisch schmerzende Stellen legen; mehrmals täglich erneuern.",
+          "en": "Crush the fresh herb and apply as a poultice to slow-healing wounds, minor ulcers or rheumatically painful areas; renew several times a day."
+        }
+      },
+      "description": {
+        "de": "Frische zerquetschte Blätter wurden traditionell als kühlender, wundheilungsfördernder Umschlag verwendet.",
+        "en": "Fresh bruised leaves were traditionally used as a cooling, wound-soothing poultice."
+      },
+      "source_ids": ["src_kings", "src_pfaf"]
+    },
+    {
+      "form": "tea",
+      "target": ["respiratory"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {"min": 1, "max": 2},
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "1 bis 2 g getrocknetes (oder eine Handvoll frisches) Kraut mit 250 ml kochendem Wasser übergießen, etwa 10 Minuten zugedeckt ziehen lassen, abseihen.",
+          "en": "Pour 250 ml of boiling water over 1 to 2 g of dried (or a handful of fresh) herb, steep covered for about 10 minutes, then strain."
+        }
+      },
+      "description": {
+        "de": "Volksheilkundlich als Tee bei Erkrankungen der Atemwege und als reizmilderndes (demulzentes) Mittel genutzt; wissenschaftlich nicht belegt.",
+        "en": "Used in folk medicine as a tea for respiratory complaints and as a soothing (demulcent) remedy; not scientifically proven."
+      },
+      "source_ids": ["src_wikipedia_de", "src_pfaf", "src_kings"]
+    },
+    {
+      "form": "tea",
+      "target": ["joints"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {"min": 1, "max": 2},
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Wie der Atemwegstee zubereiten. Traditionell bei rheumatischen Beschwerden und Gelenkschmerzen getrunken, oft begleitend zur äußeren Auflage.",
+          "en": "Prepare as the respiratory tea. Traditionally drunk for rheumatic complaints and joint pain, often alongside an external poultice."
+        }
+      },
+      "description": {
+        "de": "Innerlich als Tee bei Rheuma und Gelenkschmerzen verwendet; die Wirksamkeit ist nicht wissenschaftlich gesichert.",
+        "en": "Taken internally as a tea for rheumatism and joint pain; efficacy is not scientifically established."
+      },
+      "source_ids": ["src_wikipedia_de", "src_pfaf"]
+    },
+    {
+      "form": "tincture",
+      "target": ["joints"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_ml": {"min": 2, "max": 4},
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Frisches Kraut in Alkohol ansetzen; 2 bis 4 ml der fertigen Tinktur in etwas Wasser bis zu dreimal täglich einnehmen.",
+          "en": "Macerate the fresh herb in alcohol; take 2 to 4 ml of the finished tincture in a little water up to three times daily."
+        }
+      },
+      "description": {
+        "de": "In der eklektischen Tradition wurde eine Tinktur bei wechselnden, vorübergehenden rheumatischen Schmerzen empfohlen.",
+        "en": "In the eclectic tradition a tincture was recommended for shifting, temporary rheumatic pains."
+      },
+      "source_ids": ["src_kings"]
+    },
+    {
+      "form": "bath",
+      "target": ["skin"],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "instructions": {
+          "de": "Eine größere Menge frisches Kraut mit kochendem Wasser übergießen, ziehen lassen, abseihen und dem Badewasser zugeben; bei juckender oder gereizter Haut als Voll- oder Teilbad nutzen.",
+          "en": "Pour boiling water over a generous amount of fresh herb, steep, strain and add to the bath water; use as a full or partial bath for itchy or irritated skin."
+        }
+      },
+      "description": {
+        "de": "Als hautberuhigendes Bad bei Juckreiz und Hautirritationen überliefert.",
+        "en": "Recorded as a skin-soothing bath for itching and skin irritation."
+      },
+      "source_ids": ["src_kings", "src_wikipedia_en"]
+    }
+  ],
+  "season": {
+    "active_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "harvest_part": {
+      "de": "Frisches oberirdisches Kraut",
+      "en": "Fresh aerial parts (herb)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Die Pflanze enthält Saponine; sehr große Mengen können Durchfall und Erbrechen auslösen. In Schwangerschaft und Stillzeit nicht anwenden. Vor Verwechslung mit dem giftigen Acker-Gauchheil (Lysimachia/Anagallis arvensis) ist zu warnen — dieser hat einen markigen, kantigen Stängel ohne die typische einreihige Haarlinie der Vogelmiere.",
+      "en": "The plant contains saponins; very large amounts may cause diarrhoea and vomiting. Do not use during pregnancy or breastfeeding. Beware of confusion with the poisonous scarlet pimpernel (Lysimachia/Anagallis arvensis), which has a solid, angular stem and lacks chickweed's characteristic single line of hairs."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "In Schwangerschaft sollte die innerliche, arzneiliche Anwendung gemieden werden; der Verzehr kleiner Mengen als Salatkraut gilt als unbedenklicher, ist aber wenig untersucht.",
+        "en": "Internal medicinal use should be avoided in pregnancy; eating small amounts as a salad green is considered lower risk but is poorly studied."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Während der Stillzeit sollte die arzneiliche Anwendung gemieden werden; es liegen keine ausreichenden Sicherheitsdaten vor.",
+        "en": "Medicinal use should be avoided while breastfeeding; sufficient safety data are lacking."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Als Salatkraut in üblichen Mengen unbedenklich; für die arzneiliche Anwendung bei Kindern liegen keine geprüften Dosierungen vor.",
+        "en": "Safe as a salad green in usual amounts; no established dosing exists for medicinal use in children."
+      }
+    },
+    "drug_interactions": [],
+    "contraindications": [
+      {
+        "de": "Bekannte Allergie gegen Nelkengewächse (Caryophyllaceae).",
+        "en": "Known allergy to plants of the pink family (Caryophyllaceae)."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit (arzneiliche Anwendung).",
+        "en": "Pregnancy and breastfeeding (medicinal use)."
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_wikipedia_de",
+      "type": "wikipedia",
+      "title": "Vogelmiere – Wikipedia (deutsch)",
+      "url": "https://de.wikipedia.org/wiki/Vogelmiere",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikipedia_en",
+      "type": "wikipedia",
+      "title": "Stellaria media – Wikipedia (English)",
+      "url": "https://en.wikipedia.org/wiki/Stellaria_media",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikidata",
+      "type": "wikidata",
+      "title": "Stellaria media (Q158711) – Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q158711",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_pfaf",
+      "type": "monograph",
+      "title": "Stellaria media – Plants For A Future (PFAF) database",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Stellaria+media",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_kings",
+      "type": "monograph",
+      "title": "Stellaria (Chickweed) – King's American Dispensatory (Felter & Lloyd), Henriette's Herbal",
+      "url": "https://www.henriettes-herb.com/eclectic/kings/stellaria.html",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_commons_lindman",
+      "type": "commons",
+      "title": "Stellaria media – Bilder ur Nordens Flora (C. A. M. Lindman), Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Stellaria_media_v%C3%A5tarv.jpg",
+      "accessed": "2026-06-08"
+    }
+  ],
+  "image": {
+    "filename": "stellaria-media.webp",
+    "alt": {
+      "de": "Botanische Tafel der Vogelmiere (Stellaria media) mit blühendem Sprossende, Frucht, Blüte und Samen",
+      "en": "Botanical plate of common chickweed (Stellaria media) showing a flowering shoot tip, fruit, flower and seeds"
+    },
+    "license": "Public domain",
+    "author": "Carl Axel Magnus Lindman (1856–1928)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Stellaria_media_v%C3%A5tarv.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Sehr hoher Gehalt; etwa 50 g frisches Kraut decken in etwa den täglichen Vitamin-C-Bedarf eines Erwachsenen.",
+        "en": "Very high content; about 50 g of fresh herb roughly covers an adult's daily vitamin C requirement."
+      }
+    },
+    {
+      "name": "Triterpensaponine",
+      "category": "saponin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Saponine vom Oleanolsäure-Typ; verantwortlich für die Empfehlung, keine sehr großen Mengen zu verzehren.",
+        "en": "Oleanolic-acid-type saponins; the reason large amounts should not be eaten."
+      }
+    },
+    {
+      "name": "Flavonoide (u. a. Apigenin- und Kaempferol-Glykoside)",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Pflanzliche Polyphenole, denen antioxidative Eigenschaften zugeschrieben werden.",
+        "en": "Plant polyphenols credited with antioxidant properties."
+      }
+    },
+    {
+      "name": "Schleimstoffe (Mucilago)",
+      "category": "mucilage",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Tragen zur reizmildernden (demulzenten) Wirkung bei Haut- und Atemwegsanwendungen bei.",
+        "en": "Contribute to the soothing (demulcent) effect in skin and respiratory uses."
+      }
+    },
+    {
+      "name": "Cumarine",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolische Inhaltsstoffe, die in der deutschsprachigen Literatur zur Vogelmiere aufgeführt werden.",
+        "en": "Phenolic constituents listed in German-language literature on chickweed."
+      }
+    },
+    {
+      "name": "Eisen (Fe)",
+      "category": "mineral",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Mineralstoffreich; der Eisengehalt liegt deutlich höher als bei Kopfsalat, weshalb die Pflanze volkstümlich bei Eisenmangel genutzt wurde.",
+        "en": "Mineral-rich; iron content is markedly higher than in lettuce, which is why the plant was folk-used for iron deficiency."
+      }
+    },
+    {
+      "name": "Calcium, Kalium und Magnesium",
+      "category": "mineral",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Im Vergleich zu Kopfsalat etwa doppelt so viel Calcium sowie rund dreimal so viel Kalium und Magnesium.",
+        "en": "Compared to lettuce, roughly double the calcium and about three times the potassium and magnesium."
+      }
+    },
+    {
+      "name": "Phytosterole (β-Sitosterol, Daucosterol)",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Pflanzensterole, die in chemischen Analysen der Pflanze nachgewiesen wurden.",
+        "en": "Plant sterols identified in chemical analyses of the plant."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [3, 4, 5, 9, 10, 11],
+      "time_of_day": {
+        "de": "Vormittags, sobald der Tau abgetrocknet ist.",
+        "en": "In the morning once the dew has dried."
+      },
+      "drying": {
+        "de": "Am besten frisch verwenden; zum Trocknen dünn und luftig im Schatten ausbreiten, da das saftige Kraut leicht verdirbt.",
+        "en": "Best used fresh; for drying, spread thinly and airily in the shade, as the juicy herb spoils easily."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Getrocknetes Kraut licht- und feuchtigkeitsgeschützt in einem verschlossenen Gefäß aufbewahren.",
+        "en": "Store dried herb protected from light and moisture in a sealed container."
+      }
+    }
+  ],
+  "permaculture_functions": ["edible_flower", "medicinal", "ground_cover", "dynamic_accumulator"]
+}

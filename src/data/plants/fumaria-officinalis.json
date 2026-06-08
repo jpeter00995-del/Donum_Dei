@@ -1,0 +1,400 @@
+{
+  "slug": "fumaria-officinalis",
+  "names": {
+    "de": "Gewöhnlicher Erdrauch",
+    "en": "Common fumitory",
+    "latin": "Fumaria officinalis"
+  },
+  "family": {
+    "de": "Mohngewächse",
+    "en": "Poppy family",
+    "latin": "Papaveraceae"
+  },
+  "description": {
+    "de": "Der Gewöhnliche Erdrauch ist eine einjährige, krautige Pflanze von 10 bis 50 cm Höhe mit zart gefiederten, blaugrünen Blättern und einem oft niederliegenden bis aufsteigenden Wuchs. Von April bis Oktober trägt er in lockeren Trauben zahlreiche kleine, rosa bis purpurne Blüten mit dunkelroter Spitze, aus denen kugelige Früchtchen hervorgehen. Die Pflanze gilt als typisches Acker- und Ruderalkraut auf nährstoffreichen Böden. Arzneilich genutzt wird das blühende Kraut (Fumariae herba), also die oberirdischen Teile, die isochinolinartige Alkaloide wie Protopin enthalten. Traditionell wird Erdrauch bei Verdauungsbeschwerden im Zusammenhang mit dem Gallefluss eingesetzt.",
+    "en": "Common fumitory is an annual herbaceous plant 10 to 50 cm tall, with delicate, finely divided, bluish-green leaves and a sprawling to ascending habit. From April to October it bears loose racemes of numerous small pink to purple flowers tipped with dark red, which develop into rounded single-seeded fruits. It is a typical weed of cultivated fields and disturbed, nutrient-rich ground. The medicinal part is the flowering herb (Fumariae herba), the aerial parts, which contain isoquinoline alkaloids such as protopine. Traditionally fumitory is used for digestive complaints related to bile flow."
+  },
+  "teaser": {
+    "de": "Das zarte Ackerkraut, das seit der Antike den Gallefluss anregen und die Verdauung beruhigen soll.",
+    "en": "The delicate field herb said since antiquity to stimulate bile flow and ease digestion."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["digestion", "liver", "bile"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {"min": 1.5, "max": 2},
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "1,5 bis 2 g fein geschnittenes Kraut mit etwa 250 ml siedendem Wasser übergießen, zugedeckt 10 Minuten ziehen lassen, abseihen und mehrmals täglich vor den Mahlzeiten trinken.",
+          "en": "Pour about 250 ml of boiling water over 1.5 to 2 g of comminuted herb, cover and steep for 10 minutes, strain and drink several times a day before meals."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Erdrauchtee zur Anregung des Galleflusses bei Verdauungsbeschwerden wie Völlegefühl, Blähungen und langsamer Verdauung.",
+        "en": "Traditional fumitory tea to increase bile flow for indigestion such as fullness, flatulence and slow digestion."
+      },
+      "source_ids": ["src_ema_monograph", "src_ema_overview", "src_kommission_e"]
+    },
+    {
+      "form": "tincture",
+      "target": ["digestion", "bile"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {"min": 0.5, "max": 1},
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Tinktur (1:5, Ethanol 45 % V/V): 0,5 bis 1 ml als Einzeldosis, insgesamt 1 bis 4 ml täglich, jeweils vor den Mahlzeiten in etwas Wasser einnehmen.",
+          "en": "Tincture (1:5, ethanol 45% V/V): 0.5 to 1 ml as a single dose, 1 to 4 ml in total per day, taken before meals in a little water."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Anwendung bei Kindern und Jugendlichen unter 18 Jahren wird mangels Daten nicht empfohlen.",
+          "en": "Use in children and adolescents under 18 years is not recommended due to lack of data."
+        }
+      },
+      "description": {
+        "de": "Erdrauchtinktur als praktische Darreichungsform zur traditionellen Anregung des Galleflusses bei dyspeptischen Beschwerden.",
+        "en": "Fumitory tincture as a convenient form for the traditional stimulation of bile flow in dyspeptic complaints."
+      },
+      "source_ids": ["src_ema_monograph", "src_ema_overview"]
+    },
+    {
+      "form": "tea",
+      "target": ["digestion", "spasm"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "commission_e",
+      "preparation": {
+        "amount_dry_g": {"min": 1.5, "max": 2},
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Als Aufguss zubereitet, wie von der Kommission E bei krampfartigen Beschwerden im Bereich von Galle und Magen-Darm-Trakt beschrieben; mehrmals täglich frisch zubereitet trinken.",
+          "en": "Prepared as an infusion, as described by Commission E for crampy complaints of the gallbladder and gastrointestinal tract; drink freshly prepared several times a day."
+        }
+      },
+      "description": {
+        "de": "Die Kommission E empfiehlt Erdrauchkraut bei krampfartigen Beschwerden im Bereich von Gallenblase, Gallenwegen und Magen-Darm-Trakt; die Alkaloide wirken leicht spasmolytisch.",
+        "en": "Commission E recommends fumitory herb for crampy complaints of the gallbladder, bile ducts and gastrointestinal tract; the alkaloids have a mild spasmolytic effect."
+      },
+      "source_ids": ["src_kommission_e", "src_escop"]
+    },
+    {
+      "form": "salve",
+      "target": ["skin"],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "amount_dry_g": {"min": 5, "max": 10},
+        "water_ml": 100,
+        "steep_min": 15,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Äußerlich als Creme oder Salbe auf die betroffenen Hautstellen auftragen; in einer Studie wurde eine standardisierte Creme zweimal täglich über zwei Wochen verwendet. Selbst hergestellte Auszüge nur äußerlich und auf intakter Haut anwenden.",
+          "en": "Apply externally as a cream or salve to affected skin; in one trial a standardised cream was used twice daily for two weeks. Use home-made preparations externally only and on intact skin."
+        }
+      },
+      "description": {
+        "de": "In einer randomisierten Doppelblindstudie zeigte eine Creme mit Fumaria officinalis und Silymarin bei leichtem bis mittelschwerem Ekzem eine mit Mometason vergleichbare Besserung des SCORAD-Werts.",
+        "en": "In a randomised double-blind trial a cream containing Fumaria officinalis and silymarin showed improvement of the SCORAD score in mild to moderate eczema comparable to mometasone."
+      },
+      "source_ids": ["src_eczema_rct", "src_wikipedia_en"]
+    },
+    {
+      "form": "tea",
+      "target": ["skin", "blood_cleansing"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk",
+      "preparation": {
+        "amount_dry_g": {"min": 1.5, "max": 2},
+        "water_ml": 250,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Als Aufguss zubereitet und kurmäßig getrunken; volkstümlich als 'blutreinigender' Frühjahrstee bei unreiner Haut verwendet. Wegen fehlender Belege nur kurzzeitig und maßvoll anwenden.",
+          "en": "Prepared as an infusion and drunk as a course; used in folk tradition as a 'blood-cleansing' spring tea for impure skin. Use only briefly and moderately because evidence is lacking."
+        }
+      },
+      "description": {
+        "de": "Volkstümlich gilt Erdrauch als blutreinigendes Mittel, das bei Hautunreinheiten und chronischen Hautleiden innerlich angewendet wurde; diese Anwendung ist nicht wissenschaftlich belegt.",
+        "en": "In folk medicine fumitory is regarded as a blood-purifying remedy taken internally for skin impurities and chronic skin conditions; this use is not scientifically substantiated."
+      },
+      "source_ids": ["src_wikipedia_en", "src_wikipedia_de"]
+    },
+    {
+      "form": "tincture",
+      "target": ["liver", "bile"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {"min": 0.5, "max": 1},
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Tinktur in Wasser verdünnt vor den Mahlzeiten; traditionell zur Unterstützung der Leber- und Gallentätigkeit. Bei länger anhaltenden Beschwerden ärztlichen Rat einholen.",
+          "en": "Tincture diluted in water before meals; traditionally used to support liver and bile activity. Seek medical advice if complaints persist."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nicht für Kinder und Jugendliche unter 18 Jahren empfohlen.",
+          "en": "Not recommended for children and adolescents under 18 years."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Anwendung der Tinktur zur Unterstützung von Leber und Galle; die Alkaloide sollen den Gallefluss anregen.",
+        "en": "Traditional use of the tincture to support liver and bile; the alkaloids are said to stimulate bile flow."
+      },
+      "source_ids": ["src_ema_monograph", "src_escop"]
+    }
+  ],
+  "season": {
+    "active_months": [4, 5, 6, 7, 8, 9, 10],
+    "harvest_part": {
+      "de": "Blühendes Kraut (oberirdische Teile)",
+      "en": "Flowering herb (aerial parts)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Erdrauch sollte nicht in höheren Dosen oder über längere Zeit angewendet werden, da große Mengen der Alkaloide (insbesondere Protopin) im Tierversuch Erregung und Krämpfe auslösen können. Bei anhaltenden Verdauungsbeschwerden oder Gelbsucht ist ärztlicher Rat einzuholen.",
+      "en": "Fumitory should not be used in high doses or over long periods, as large amounts of the alkaloids (especially protopine) caused excitation and convulsions in animal studies. Seek medical advice for persistent digestive complaints or jaundice."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Wegen fehlender Unbedenklichkeitsdaten wird die Anwendung während der Schwangerschaft nicht empfohlen.",
+        "en": "Due to a lack of safety data, use during pregnancy is not recommended."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Wegen fehlender Daten wird die Anwendung während der Stillzeit nicht empfohlen.",
+        "en": "Due to a lack of data, use during breastfeeding is not recommended."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Anwendung bei Kindern und Jugendlichen unter 18 Jahren mangels Daten nicht empfohlen.",
+        "en": "Use in children and adolescents under 18 years is not recommended due to lack of data."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "CYP1A2-Substrate",
+        "mechanism": {
+          "de": "Inhaltsstoffe des Erdrauchs können die Expression von CYP1A1 und CYP1A2 in menschlichen Leberzellen erhöhen, was theoretisch den Abbau betroffener Arzneistoffe beeinflussen könnte.",
+          "en": "Fumitory constituents can increase the expression of CYP1A1 and CYP1A2 in human hepatocytes, which could theoretically affect the metabolism of substrate drugs."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Verschluss der Gallenwege, Gallensteinleiden oder andere Erkrankungen der Gallenblase ohne ärztliche Abklärung.",
+        "en": "Obstruction of the bile ducts, gallstones or other gallbladder disorders without medical clarification."
+      },
+      {
+        "de": "Bekannte Überempfindlichkeit gegenüber dem Wirkstoff.",
+        "en": "Known hypersensitivity to the active substance."
+      }
+    ],
+    "max_continuous_use_weeks": 2
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_ema_overview",
+      "type": "monograph",
+      "title": "Fumariae herba - herbal medicinal product | European Medicines Agency (EMA)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/fumariae-herba",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_ema_monograph",
+      "type": "monograph",
+      "title": "Final European Union herbal monograph on Fumaria officinalis L., herba (Revision 1)",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-fumaria-officinalis-l-herba-revision-1_en.pdf",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_escop",
+      "type": "monograph",
+      "title": "Fumariae herba (Fumitory) - ESCOP Monograph 2018",
+      "url": "https://www.escop.com/downloads/fumariae-herba-fumitory-escop-2018/",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_kommission_e",
+      "type": "monograph",
+      "title": "Erdrauch - Gemeiner oder Gewöhnlicher Erdrauch (Fumaria officinalis L.) - Arzneipflanzenlexikon (Kommission-E-Bewertung)",
+      "url": "https://arzneipflanzenlexikon.info/erdrauch.php",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_eczema_rct",
+      "type": "monograph",
+      "title": "Effect of herbal cream containing Fumaria officinalis and silymarin for treatment of eczema: A randomized double-blind controlled clinical trial (Avicenna J Phytomed, 2022, PMC9090317)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9090317/",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikipedia_en",
+      "type": "wikipedia",
+      "title": "Fumaria officinalis - Wikipedia (English)",
+      "url": "https://en.wikipedia.org/wiki/Fumaria_officinalis",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikipedia_de",
+      "type": "wikipedia",
+      "title": "Gewöhnlicher Erdrauch - Wikipedia (Deutsch)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnlicher_Erdrauch",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_wikidata",
+      "type": "wikidata",
+      "title": "Fumaria officinalis (Q157618) - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q157618",
+      "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_commons",
+      "type": "commons",
+      "title": "File:Fumaria officinalis Sturm46.jpg - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Fumaria_officinalis_Sturm46.jpg",
+      "accessed": "2026-06-08"
+    }
+  ],
+  "image": {
+    "filename": "fumaria-officinalis.webp",
+    "alt": {
+      "de": "Botanische Tafel des Gewöhnlichen Erdrauchs (Fumaria officinalis) von Jacob Sturm mit Blüten, gefiederten Blättern und Wurzel.",
+      "en": "Botanical plate of common fumitory (Fumaria officinalis) by Jacob Sturm showing flowers, divided leaves and root."
+    },
+    "license": "Public domain",
+    "author": "Jacob Sturm (Johann Georg Sturm, Deutschlands Flora in Abbildungen, 1796)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fumaria_officinalis_Sturm46.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Protopin",
+      "category": "alkaloid",
+      "percent_range": "ca. 1 %",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Hauptalkaloid vom Protopin-Typ; leicht spasmolytisch und mitverantwortlich für die Wirkung auf den Gallefluss.",
+        "en": "Main alkaloid of the protopine type; mildly spasmolytic and partly responsible for the effect on bile flow."
+      }
+    },
+    {
+      "name": "Allocryptopin",
+      "category": "alkaloid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Isochinolinalkaloid, das neben Protopin zu den charakteristischen Inhaltsstoffen zählt.",
+        "en": "Isoquinoline alkaloid that, alongside protopine, is one of the characteristic constituents."
+      }
+    },
+    {
+      "name": "Weitere Benzylisochinolin-Alkaloide (u. a. Scoulerin, Sinactin, Cryptopin)",
+      "category": "alkaloid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Begleitende Isochinolinalkaloide, die den Gesamtalkaloidgehalt von etwa 1 % mitbestimmen.",
+        "en": "Accompanying isoquinoline alkaloids contributing to the total alkaloid content of about 1%."
+      }
+    },
+    {
+      "name": "Fumarsäure",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Namensgebende Pflanzensäure; veresterte Fumarsäurederivate werden in der Schuppenflechte-Therapie genutzt.",
+        "en": "The plant acid giving the genus its name; esterified fumaric acid derivatives are used in psoriasis therapy."
+      }
+    },
+    {
+      "name": "Hydroxyzimtsäuren (Kaffeesäure, Chlorogensäure)",
+      "category": "phenolic_acid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Phenolische Säuren, teils als Hydroxyzimtsäure-Äpfelsäure-Ester, mit antioxidativen Eigenschaften.",
+        "en": "Phenolic acids, partly as hydroxycinnamic acid-malic acid esters, with antioxidant properties."
+      }
+    },
+    {
+      "name": "Flavonoide (Rutin, Quercetin-Glykoside)",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavonoide tragen zur antioxidativen Wirkung des Krauts bei.",
+        "en": "Flavonoids contribute to the antioxidant activity of the herb."
+      }
+    },
+    {
+      "name": "Gerbstoffe",
+      "category": "tannin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Gerbstoffe verleihen dem Kraut leicht adstringierende Eigenschaften.",
+        "en": "Tannins give the herb mildly astringent properties."
+      }
+    },
+    {
+      "name": "Kaliumsalze",
+      "category": "mineral",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Kaliumsalze werden mit der traditionell beschriebenen leicht harntreibenden Wirkung in Verbindung gebracht.",
+        "en": "Potassium salts are associated with the traditionally described mild diuretic effect."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [5, 6, 7, 8, 9],
+      "time_of_day": {
+        "de": "An einem trockenen Vormittag nach dem Abtrocknen des Taus, während der Vollblüte.",
+        "en": "On a dry morning after the dew has dried, during full flowering."
+      },
+      "drying": {
+        "de": "Locker ausgebreitet im Schatten an einem luftigen Ort schonend trocknen; nicht über 40 °C, um die Alkaloide zu schonen.",
+        "en": "Dry gently spread out loosely in the shade in an airy place; not above 40 °C to preserve the alkaloids."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Trocken, lichtgeschützt und luftdicht in dunklen Gefäßen aufbewahren.",
+        "en": "Store dry, protected from light and airtight in dark containers."
+      }
+    }
+  ],
+  "permaculture_functions": ["medicinal", "pollinator_attractor", "ground_cover", "dynamic_accumulator"]
+}
