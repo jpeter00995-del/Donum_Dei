@@ -1,0 +1,278 @@
+{
+  "slug": "linum-usitatissimum",
+  "names": {
+    "de": "Lein",
+    "en": "Flax",
+    "latin": "Linum usitatissimum"
+  },
+  "family": {
+    "de": "Leingewächse",
+    "en": "Flax family",
+    "latin": "Linaceae"
+  },
+  "description": {
+    "de": "Der Lein (Linum usitatissimum), auch Flachs genannt, ist eine einjährige Kulturpflanze mit schlankem, aufrechtem Stängel und schmalen, lanzettlichen Blättern, die seit Jahrtausenden für Faser und Samen angebaut wird. Die zarten, fünfzähligen Blüten sind meist himmelblau; aus ihnen entstehen kugelige Kapseln mit den glänzenden, flach-ovalen, braunen bis goldgelben Samen. Arzneilich verwendet wird der reife, getrocknete Same (Lini semen), der reich an Schleimstoffen, fettem Öl und Ballaststoffen ist.",
+    "en": "Flax (Linum usitatissimum) is an annual crop with a slender, erect stem and narrow, lance-shaped leaves, cultivated for millennia for fibre and seed. Its delicate five-petalled flowers are typically sky-blue and give rise to rounded capsules holding the glossy, flat-oval, brown to golden seeds. The medicinal part is the ripe, dried seed (Lini semen), rich in mucilage, fixed oil and dietary fibre."
+  },
+  "teaser": {
+    "de": "Die schleimreichen Samen quellen im Darm zu einem Gel — ein sanftes, gut belegtes Mittel bei Verstopfung.",
+    "en": "The mucilage-rich seeds swell into a gel in the gut — a gentle, well-documented remedy for constipation."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "ema_well_established",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 10,
+          "max": 15
+        },
+        "water_ml": 150,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "QUELLMITTEL (Verstopfung): 10–15 g ganze oder angestoßene Samen je Einzeldosis, zwei- bis dreimal täglich, jeweils mit mindestens 150 ml Wasser, Milch oder Saft einnehmen und über den Tag reichlich trinken. Wirkungseintritt nach 12–24 Stunden, volle Wirkung manchmal erst nach 2–3 Tagen. WICHTIG: niemals ohne ausreichend Flüssigkeit einnehmen (Erstickungs- und Darmverschlussgefahr) und nicht unmittelbar vor dem Schlafengehen. Mindestens ½ bis 1 Stunde Abstand zur Einnahme anderer Medikamente halten (der Schleim kann deren Aufnahme verzögern). Bessert sich die Verstopfung nicht binnen 3 Tagen, einen Arzt oder Apotheker fragen.",
+          "en": "BULK LAXATIVE (constipation): 10–15 g of whole or bruised seeds per single dose, two to three times daily, each taken with at least 150 ml water, milk or juice, maintaining ample fluid intake through the day. Onset after 12–24 hours, full effect sometimes only after 2–3 days. IMPORTANT: never take without sufficient fluid (risk of choking and intestinal obstruction) and not immediately before bedtime. Keep at least ½ to 1 hour between this and other medicines (the mucilage can delay their absorption). If constipation does not resolve within 3 days, consult a doctor or pharmacist."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Mangels Daten nicht für Kinder unter 12 Jahren.",
+          "en": "Not for children under 12 due to lack of data."
+        }
+      },
+      "description": {
+        "de": "Pflanzliches Quellmittel bei gewohnheitsmäßiger Verstopfung — klinisch gut belegt.",
+        "en": "Herbal bulk laxative for habitual constipation — clinically well documented."
+      },
+      "source_ids": [
+        "src_ema_lini_semen"
+      ]
+    },
+    {
+      "form": "raw",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 5,
+          "max": 10
+        },
+        "water_ml": 250,
+        "doses_per_day": 3,
+        "instructions": {
+          "de": "SCHLEIMZUBEREITUNG (leichte Magen-Darm-Beschwerden): 5–10 g ganze oder gebrochene Samen in 250 ml Wasser quellen lassen, bis zu dreimal täglich etwa eine halbe Stunde vor dem Essen einnehmen; die Quellung muss zum Zeitpunkt der Einnahme abgeschlossen sein. Reizlinderndes (demulzierendes) Hausmittel. Halten die Beschwerden länger als 1 Woche an, ärztlichen Rat einholen.",
+          "en": "DEMULCENT PREPARATION (mild gastrointestinal discomfort): Soak 5–10 g of whole or broken seeds in 250 ml water, take up to three times daily about half an hour before eating; swelling must be complete at the time of consumption. A soothing (demulcent) home remedy. If symptoms persist for more than 1 week, seek medical advice."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Mangels Daten nicht für Kinder unter 12 Jahren.",
+          "en": "Not for children under 12 due to lack of data."
+        }
+      },
+      "description": {
+        "de": "Reizlinderndes Leinsamen-Gel bei leichten Magen-Darm-Beschwerden (traditionell).",
+        "en": "Soothing linseed gel for mild gastrointestinal discomfort (traditional)."
+      },
+      "source_ids": [
+        "src_ema_lini_semen"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Reifer Same",
+      "en": "ripe seed"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG: Leinsamen immer mit reichlich Flüssigkeit einnehmen — ohne ausreichend Wasser können die Samen aufquellen und Hals oder Speiseröhre verlegen (Erstickungsgefahr) bzw. einen Darmverschluss verursachen. Bei Brustschmerz, Erbrechen oder Schluck- bzw. Atembeschwerden nach der Einnahme sofort einen Arzt aufsuchen. NICHT anwenden bei Verengungen im Magen-Darm-Trakt, Speiseröhren- oder Magenerkrankungen, bestehendem Darmverschluss (Ileus), Darmlähmung oder Megakolon. Mindestens ½ bis 1 Stunde Abstand zu anderen Medikamenten halten. In Schwangerschaft und Stillzeit sowie bei Kindern unter 12 Jahren mangels ausreichender Daten nicht empfohlen; mögliche östrogenartige Wirkung — bei hormonabhängigen Tumoren keine Daueranwendung. Geschrotete Samen rasch verbrauchen (das Öl wird schnell ranzig).",
+      "en": "IMPORTANT: Always take linseed with plenty of fluid — without enough water the seeds can swell and block the throat or oesophagus (choking risk) or cause intestinal obstruction. If you experience chest pain, vomiting, or difficulty swallowing or breathing after taking it, seek immediate medical attention. Do NOT use with constrictions of the gastrointestinal tract, diseases of the oesophagus or stomach, existing intestinal blockage (ileus), intestinal paralysis or megacolon. Keep at least ½ to 1 hour between linseed and other medicines. Not recommended during pregnancy and lactation or for children under 12 due to insufficient data; possible oestrogen-like effect — avoid long-term use with hormone-dependent tumours. Use crushed seed promptly (the oil turns rancid quickly)."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Mögliche östrogenartige Wirkung; Sicherheit nicht belegt — in der Schwangerschaft nicht empfohlen.",
+        "en": "Possible oestrogen-like effect; safety not established — not recommended during pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Keine ausreichenden Daten — in der Stillzeit nicht empfohlen.",
+        "en": "Insufficient data — not recommended during lactation."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Mangels Daten nicht für Kinder unter 12 Jahren.",
+        "en": "Not for children under 12 due to lack of data."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Andere Arzneimittel (allgemein)",
+        "mechanism": {
+          "de": "Als Quellmittel kann Leinsamen die Aufnahme gleichzeitig eingenommener Medikamente verzögern — daher mindestens ½ bis 1 Stunde Abstand halten.",
+          "en": "As a bulk-forming agent, linseed can delay the absorption of concurrently taken medicines — keep at least ½ to 1 hour apart."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Peristaltikhemmende Mittel (z. B. Opioide, Loperamid)",
+        "mechanism": {
+          "de": "Bei gleichzeitiger Anwendung steigt das Risiko eines Darmverschlusses — nur unter ärztlicher Aufsicht.",
+          "en": "Concurrent use raises the risk of intestinal obstruction — only under medical supervision."
+        },
+        "severity": "caution"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Bestehender Darmverschluss (Ileus), Darmlähmung, Megakolon oder Verengungen im Magen-Darm-Trakt.",
+        "en": "Existing intestinal blockage (ileus), intestinal paralysis, megacolon or constrictions of the gastrointestinal tract."
+      },
+      {
+        "de": "Erkrankungen der Speiseröhre oder des Magens, Schluckbeschwerden.",
+        "en": "Diseases of the oesophagus or stomach, difficulty swallowing."
+      },
+      {
+        "de": "Überempfindlichkeit gegen Leinsamen.",
+        "en": "Hypersensitivity to linseed."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_ema_lini_semen",
+      "type": "monograph",
+      "title": "European Union herbal monograph on Linum usitatissimum L., semen (EMA/HMPC/377675/2014)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/lini-semen",
+      "accessed": "2026-06-10"
+    },
+    {
+      "id": "src_wikipedia_linum_usitatissimum",
+      "type": "wikipedia",
+      "title": "Saat-Lein — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Saat-Lein",
+      "accessed": "2026-06-10"
+    }
+  ],
+  "image": {
+    "filename": "linum-usitatissimum.webp",
+    "alt": {
+      "de": "Botanische Farbtafel des Leins mit blühender Pflanze, Blüte, Kapselfrucht und Samen aus Köhlers Medizinal-Pflanzen",
+      "en": "Botanical colour plate of flax with flowering plant, flower, capsule fruit and seeds from Köhler's Medizinal-Pflanzen"
+    },
+    "license": "Public domain",
+    "author": "Walther Otto Müller, Köhler's Medizinal-Pflanzen (1887), plate 088",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Linum_usitatissimum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-088.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Schleimstoffe (Polysaccharide)",
+      "category": "mucilage",
+      "percent_range": "3–6 %",
+      "plant_part": "seed",
+      "note": {
+        "de": "Quellen mit Wasser zu einem Gel; tragen die abführende und reizlindernde Wirkung (laut EMA-Monographie).",
+        "en": "Swell with water into a gel; underlie the laxative and soothing effect (per EMA monograph)."
+      }
+    },
+    {
+      "name": "Fettes Öl mit Alpha-Linolensäure (ALA)",
+      "category": "essential_oil",
+      "percent_range": "30–45 %",
+      "plant_part": "seed",
+      "note": {
+        "de": "Fettes (nicht ätherisches) Öl, sehr reich an der Omega-3-Fettsäure ALA.",
+        "en": "A fixed (not volatile) oil, very rich in the omega-3 fatty acid ALA."
+      }
+    },
+    {
+      "name": "Lignane (Secoisolariciresinol-Diglucosid, SDG)",
+      "category": "phenolic_acid",
+      "plant_part": "seed",
+      "note": {
+        "de": "Im Darm zu Enterodiol/Enterolacton umgewandelt; phytoöstrogene Eigenschaften.",
+        "en": "Converted by gut bacteria to enterodiol/enterolactone; phyto-oestrogenic properties."
+      }
+    },
+    {
+      "name": "Cyanogene Glykoside (Linustatin, Linamarin)",
+      "category": "glycoside",
+      "plant_part": "seed",
+      "note": {
+        "de": "Können Blausäure freisetzen; daher Maßhalten und Erhitzen empfohlen. In üblichen Mengen unbedenklich.",
+        "en": "Can release hydrocyanic acid; hence moderation and heating are advised. Safe at customary amounts."
+      }
+    },
+    {
+      "name": "Ballaststoffe",
+      "category": "polysaccharide",
+      "percent_range": "4–7 %",
+      "plant_part": "seed",
+      "note": {
+        "de": "Nahrungsfasern; zusammen mit dem Schleim ergeben die Samen knapp 25 % Quellstoffe.",
+        "en": "Dietary fibre; together with the mucilage the seeds contain nearly 25 % bulk material."
+      }
+    },
+    {
+      "name": "Protein",
+      "category": "other",
+      "percent_range": "20–25 %",
+      "plant_part": "seed",
+      "note": {
+        "de": "Hoher Eiweißgehalt des Samens.",
+        "en": "High protein content of the seed."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "seed",
+      "best_months": [
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "Bei trockener Witterung, wenn die Kapseln reif und braun sind.",
+        "en": "In dry weather, when the capsules are ripe and brown."
+      },
+      "drying": {
+        "de": "Reife Kapseln ernten, nachtrocknen, Samen ausdreschen und an einem luftigen, schattigen Ort vollständig trocknen lassen.",
+        "en": "Harvest ripe capsules, post-dry, thresh out the seeds and dry them fully in an airy, shaded place."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Ganze Samen trocken, kühl und lichtgeschützt in luftdichten Behältern; geschrotete Samen rasch verbrauchen (Öl oxidiert).",
+        "en": "Store whole seeds dry, cool and away from light in airtight containers; use crushed seed promptly (oil oxidises)."
+      }
+    }
+  ],
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "medicinal"
+  ]
+}

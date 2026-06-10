@@ -1,0 +1,307 @@
+{
+  "slug": "glycyrrhiza-glabra",
+  "names": {
+    "de": "Süßholz",
+    "en": "Liquorice",
+    "latin": "Glycyrrhiza glabra"
+  },
+  "family": {
+    "de": "Hülsenfrüchtler",
+    "en": "Legume family",
+    "latin": "Fabaceae"
+  },
+  "description": {
+    "de": "Das Süßholz (Glycyrrhiza glabra), aus dessen Wurzel die Lakritze gewonnen wird, ist eine mehrjährige, krautige Staude der Hülsenfrüchtler und wird 1–2 m hoch. Aus einem weitverzweigten Wurzel- und Ausläufersystem treiben aufrechte Stängel mit unpaarig gefiederten Blättern. In den Blattachseln stehen Trauben blassvioletter bis bläulicher Schmetterlingsblüten. Heimat ist der Mittelmeerraum und Südwestasien; arzneilich genutzt wird die getrocknete Wurzel samt Ausläufern (Liquiritiae radix).",
+    "en": "Liquorice (Glycyrrhiza glabra), the source of liquorice confectionery, is a perennial herbaceous legume reaching 1–2 m. Erect stems with imparipinnate leaves arise from an extensively branched system of roots and underground stolons. Pale violet to bluish pea-type flowers are borne in axillary racemes. Native to the Mediterranean and south-west Asia, it is the dried root and stolons (Liquiritiae radix) that are used medicinally."
+  },
+  "teaser": {
+    "de": "Die süße Wurzel lindert traditionell Husten und Magenbeschwerden — wegen ihres Glycyrrhizins aber nur kurzzeitig anzuwenden.",
+    "en": "The sweet root is a traditional remedy for cough and stomach complaints — but because of its glycyrrhizin only for short-term use."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
+        "water_ml": 150,
+        "doses_per_day": 4,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "AUFGUSS/ABKOCHUNG (Verdauungsbeschwerden): 1,5–2 g der zerkleinerten Wurzel mit 150 ml siedendem Wasser übergießen oder kurz auskochen, abseihen. Zwei- bis viermal täglich eine Tasse nach den Mahlzeiten, bei Sodbrennen und Dyspepsie. NICHT länger als 4 Wochen anwenden. Halten die Beschwerden länger als 2 Wochen an, einen Arzt aufsuchen.",
+          "en": "INFUSION/DECOCTION (digestive complaints): Pour 150 ml boiling water over 1.5–2 g of the comminuted root, or simmer briefly, then strain. One cup two to four times daily after meals, for heartburn and dyspepsia. Do NOT use for more than 4 weeks. If symptoms persist for more than 2 weeks, consult a doctor."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Mangels Daten nicht für Kinder und Jugendliche unter 18 Jahren.",
+          "en": "Not for children and adolescents under 18 due to lack of data."
+        }
+      },
+      "description": {
+        "de": "Tee bei Sodbrennen und Verdauungsbeschwerden (Dyspepsie) — kurzzeitig.",
+        "en": "Tea for heartburn and digestive complaints (dyspepsia) — short-term."
+      },
+      "source_ids": [
+        "src_ema_liquiritiae_radix"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "respiratory",
+        "cough"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 1.5
+        },
+        "water_ml": 150,
+        "doses_per_day": 2,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "AUFGUSS/ABKOCHUNG (Husten): 1,5 g der zerkleinerten Wurzel mit 150 ml siedendem Wasser übergießen oder kurz auskochen, abseihen. Zweimal täglich als schleimlösendes Mittel bei Husten im Zusammenhang mit einer Erkältung. NICHT länger als 4 Wochen anwenden. Halten die Beschwerden länger als 1 Woche an, einen Arzt aufsuchen.",
+          "en": "INFUSION/DECOCTION (cough): Pour 150 ml boiling water over 1.5 g of the comminuted root, or simmer briefly, then strain. Twice daily as an expectorant in cough associated with a cold. Do NOT use for more than 4 weeks. If symptoms persist for more than 1 week, consult a doctor."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Mangels Daten nicht für Kinder und Jugendliche unter 18 Jahren.",
+          "en": "Not for children and adolescents under 18 due to lack of data."
+        }
+      },
+      "description": {
+        "de": "Schleimlösender Tee bei Erkältungshusten — kurzzeitig.",
+        "en": "Expectorant tea for cough with a cold — short-term."
+      },
+      "source_ids": [
+        "src_ema_liquiritiae_radix"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      10,
+      11,
+      3
+    ],
+    "harvest_part": {
+      "de": "Wurzel und Ausläufer",
+      "en": "root and stolons"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "WICHTIG: Süßholz darf NICHT länger als 4 Wochen angewendet werden. Bei längerem Gebrauch oder hohen Mengen kann das enthaltene Glycyrrhizin zu Wassereinlagerungen, Kaliummangel (Hypokaliämie), Bluthochdruck und Herzrhythmusstörungen führen (mineralocorticoid-artiger Effekt, „Pseudoaldosteronismus\"). Nicht zusammen mit anderen süßholzhaltigen Produkten einnehmen. Bei Bluthochdruck, Nieren-, Leber- oder Herz-Kreislauf-Erkrankungen oder Kaliummangel nicht anwenden. Der EU-Lebensmittelausschuss (SCF) empfiehlt, nicht mehr als 100 mg Glycyrrhizin pro Tag aus allen Quellen aufzunehmen. In Schwangerschaft und Stillzeit nicht empfohlen. Mangels Daten nicht für Kinder und Jugendliche unter 18 Jahren.",
+      "en": "IMPORTANT: Liquorice must NOT be used for more than 4 weeks. With prolonged use or high amounts, its glycyrrhizin can cause water retention, potassium deficiency (hypokalaemia), high blood pressure and cardiac rhythm disorders (a mineralocorticoid-like effect, \"pseudoaldosteronism\"). Do not take together with other liquorice-containing products. Do not use if you have hypertension, kidney, liver or cardiovascular disease, or hypokalaemia. The EU Scientific Committee on Food (SCF) advises not exceeding 100 mg glycyrrhizin per day from all sources. Not recommended during pregnancy and lactation. Not for children and adolescents under 18 due to lack of data."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Tierstudien zeigten Reproduktionstoxizität; Sicherheit nicht belegt — in der Schwangerschaft nicht anwenden.",
+        "en": "Animal studies showed reproductive toxicity; safety not established — do not use during pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Keine ausreichenden Daten — in der Stillzeit nicht empfohlen.",
+        "en": "Insufficient data — not recommended during lactation."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Mangels Daten nicht für Kinder und Jugendliche unter 18 Jahren.",
+        "en": "Not for children and adolescents under 18 due to lack of data."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Blutdrucksenker (Antihypertensiva)",
+        "mechanism": {
+          "de": "Süßholz kann die blutdrucksenkende Wirkung verschriebener Medikamente abschwächen.",
+          "en": "Liquorice may counteract the antihypertensive action of prescribed medicines."
+        },
+        "severity": "avoid"
+      },
+      {
+        "drug_class": "Entwässerungsmittel (Diuretika), stimulierende Abführmittel",
+        "mechanism": {
+          "de": "Verstärkter Kaliumverlust — Gefahr eines gefährlichen Kaliummangels. Nicht gleichzeitig anwenden.",
+          "en": "Increased potassium loss — risk of dangerous hypokalaemia. Do not use concurrently."
+        },
+        "severity": "avoid"
+      },
+      {
+        "drug_class": "Herzglykoside (z. B. Digoxin)",
+        "mechanism": {
+          "de": "Ein durch Süßholz ausgelöster Kaliummangel kann die Wirkung und Toxizität von Herzglykosiden verstärken.",
+          "en": "Liquorice-induced potassium deficiency may increase the effect and toxicity of cardiac glycosides."
+        },
+        "severity": "avoid"
+      },
+      {
+        "drug_class": "Kortikosteroide (Cortison)",
+        "mechanism": {
+          "de": "Glycyrrhetinsäure hemmt den Abbau von Cortisol und kann die Kortikosteroidwirkung verstärken.",
+          "en": "Glycyrrhetinic acid inhibits cortisol breakdown and may potentiate corticosteroid effects."
+        },
+        "severity": "avoid"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Süßholz.",
+        "en": "Hypersensitivity to liquorice."
+      },
+      {
+        "de": "Bluthochdruck, Kaliummangel, Nieren-, Leber- oder Herz-Kreislauf-Erkrankungen.",
+        "en": "Hypertension, hypokalaemia, kidney, liver or cardiovascular disease."
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit.",
+        "en": "Pregnancy and lactation."
+      },
+      {
+        "de": "Kinder und Jugendliche unter 18 Jahren.",
+        "en": "Children and adolescents under 18 years."
+      }
+    ],
+    "max_continuous_use_weeks": 4
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_ema_liquiritiae_radix",
+      "type": "monograph",
+      "title": "Community herbal monograph on Glycyrrhiza glabra L. and/or Glycyrrhiza inflata Bat. and/or Glycyrrhiza uralensis Fisch., radix (EMA/HMPC/571119/2010)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/liquiritiae-radix",
+      "accessed": "2026-06-10"
+    },
+    {
+      "id": "src_scf_glycyrrhizin_2003",
+      "type": "monograph",
+      "title": "Opinion of the EU Scientific Committee on Food on glycyrrhizinic acid (provisional limit 100 mg/day, SCF/CS/ADD/EDUL/225)",
+      "url": "https://food.ec.europa.eu/system/files/2020-12/sci-com_scf_out186_en.pdf",
+      "accessed": "2026-06-10"
+    },
+    {
+      "id": "src_wikipedia_glycyrrhiza_glabra",
+      "type": "wikipedia",
+      "title": "Echtes Süßholz — Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Echtes_S%C3%BC%C3%9Fholz",
+      "accessed": "2026-06-10"
+    }
+  ],
+  "image": {
+    "filename": "glycyrrhiza-glabra.webp",
+    "alt": {
+      "de": "Botanische Farbtafel des Süßholzes mit blühendem Spross, gefiederten Blättern und Wurzel aus Köhlers Medizinal-Pflanzen",
+      "en": "Botanical colour plate of liquorice with flowering shoot, pinnate leaves and root from Köhler's Medizinal-Pflanzen"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887), plate 207",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Glycyrrhiza_glabra_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-207.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Glycyrrhizin (Glycyrrhizinsäure)",
+      "category": "saponin",
+      "percent_range": "5–10 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Süß schmeckendes Triterpensaponin-Glykosid, Hauptwirkstoff; verantwortlich für Süße und für die mineralocorticoid-artigen Nebenwirkungen.",
+        "en": "Sweet-tasting triterpene saponin glycoside, the main active; responsible for the sweetness and for the mineralocorticoid-like adverse effects."
+      }
+    },
+    {
+      "name": "Glycyrrhetinsäure",
+      "category": "saponin",
+      "plant_part": "root",
+      "note": {
+        "de": "Aglykon des Glycyrrhizins; hemmt die 11β-Hydroxysteroid-Dehydrogenase und treibt so den blutdruck- und kaliumwirksamen Effekt.",
+        "en": "Aglycone of glycyrrhizin; inhibits 11β-hydroxysteroid dehydrogenase, driving the blood-pressure and potassium effect."
+      }
+    },
+    {
+      "name": "Flavanone (Liquiritin, Liquiritigenin)",
+      "category": "flavonoid",
+      "plant_part": "root",
+      "note": {
+        "de": "Charakteristische Flavanone der Wurzel.",
+        "en": "Characteristic flavanones of the root."
+      }
+    },
+    {
+      "name": "Chalkone (Isoliquiritin, Isoliquiritigenin)",
+      "category": "flavonoid",
+      "plant_part": "root",
+      "note": {
+        "de": "Gelbe Chalkon-Flavonoide.",
+        "en": "Yellow chalcone-type flavonoids."
+      }
+    },
+    {
+      "name": "Glabridin",
+      "category": "flavonoid",
+      "plant_part": "root",
+      "note": {
+        "de": "Lipophiles Isoflavan, charakteristisch für G. glabra.",
+        "en": "Lipophilic isoflavan, characteristic of G. glabra."
+      }
+    },
+    {
+      "name": "Polysaccharide (Glycyrrhizan)",
+      "category": "polysaccharide",
+      "plant_part": "root",
+      "note": {
+        "de": "Schleimartige Polysaccharide der Wurzel.",
+        "en": "Mucilaginous polysaccharides of the root."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Im Spätherbst, wenn die Pflanze einzieht; gerodet werden die Wurzeln 3–4-jähriger Pflanzen.",
+        "en": "In late autumn as the plant dies back; the roots of 3–4-year-old plants are lifted."
+      },
+      "drying": {
+        "de": "Wurzeln waschen, in Stücke schneiden und langsam an der Luft oder bei unter 40 °C trocknen, bis sie bruchfest sind.",
+        "en": "Wash the roots, cut into pieces and dry slowly in air or below 40 °C until they snap cleanly."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken, vor Licht und Feuchtigkeit geschützt, in dicht schließenden Behältern lagern.",
+        "en": "Store dry, protected from light and moisture, in well-closed containers."
+      }
+    }
+  ],
+  "permaculture_functions": [
+    "nitrogen_fixer",
+    "medicinal"
+  ]
+}
