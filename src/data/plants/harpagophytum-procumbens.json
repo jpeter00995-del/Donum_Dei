@@ -1,0 +1,315 @@
+{
+  "slug": "harpagophytum-procumbens",
+  "names": {
+    "de": "Afrikanische Teufelskralle",
+    "en": "Devil's claw",
+    "latin": "Harpagophytum procumbens"
+  },
+  "family": {
+    "de": "Sesamgewächse",
+    "en": "Sesame family",
+    "latin": "Pedaliaceae"
+  },
+  "description": {
+    "de": "Die Afrikanische Teufelskralle ist eine niederliegende, mehrjährige Pflanze aus den Halbwüsten und Savannen des südlichen Afrika, vor allem der Kalahari in Namibia, Botswana und Südafrika. Ihren Namen verdankt sie den verholzten Früchten mit krallenartigen, hakenbewehrten Auswüchsen, die sich im Fell vorbeiziehender Tiere verfangen und so die Samen verbreiten. Arzneilich genutzt werden nicht die Früchte, sondern die fleischigen sekundären Speicherknollen (Nebenwurzeln), die seitlich von der tief reichenden Primärwurzel abzweigen. Sie enthalten als charakteristischen Inhaltsstoff das bitter schmeckende Iridoidglykosid Harpagosid. Indigene San- und Khoi-Völker nutzen die Knolle seit Jahrhunderten gegen Schmerzen und Verdauungsbeschwerden.",
+    "en": "Devil's claw is a prostrate, perennial plant from the semi-deserts and savannas of southern Africa, especially the Kalahari of Namibia, Botswana and South Africa. Its name derives from the woody fruits bearing claw-like, hooked appendages that catch in the fur of passing animals to disperse the seeds. The medicinal part is not the fruit but the fleshy secondary storage tubers (lateral roots) that branch off the deep primary root. They contain the bitter iridoid glycoside harpagoside as their characteristic constituent. Indigenous San and Khoi peoples have used the tuber for centuries against pain and digestive complaints."
+  },
+  "teaser": {
+    "de": "Kalahari-Knolle mit der Bitterstoff-Kralle: Harpagosid aus der sekundären Speicherwurzel wird traditionell bei leichten Gelenkschmerzen und Verdauungsbeschwerden eingesetzt.",
+    "en": "Kalahari tuber with a bitter claw: harpagoside from the secondary storage root is traditionally used for minor joint pain and digestive complaints."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": [
+        "joints"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 3
+        },
+        "doses_per_day": 3,
+        "max_duration_weeks": 4,
+        "instructions": {
+          "de": "Standardisierter Trockenextrakt der sekundären Speicherknolle, eingestellt auf Harpagosid (üblich etwa 50-100 mg Harpagosid pro Tag), verteilt auf mehrere Einzelgaben. Die Wirkung baut sich über Tage bis Wochen auf. Bei länger als 4 Wochen anhaltenden oder sich verschlimmernden Schmerzen einen Arzt aufsuchen. Anstelle des Extrakts kann auch ein Aufguss/Abkochung der zerkleinerten Knolle verwendet werden.",
+          "en": "Standardised dry extract of the secondary storage tuber, adjusted to harpagoside (typically about 50-100 mg harpagoside per day), divided into several single doses. The effect builds up over days to weeks. Consult a doctor if pain persists longer than 4 weeks or worsens. Alternatively an infusion/decoction of the comminuted tuber may be used."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Laut EMA-Monographie wegen fehlender Daten nicht für Kinder und Jugendliche unter 18 Jahren empfohlen.",
+          "en": "Per the EMA monograph, not recommended for children and adolescents under 18 years due to a lack of data."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Anwendung zur Linderung leichter Gelenkschmerzen. Die EMA stuft diese Indikation als 'traditional use' ein - die Wirksamkeit beruht auf langjähriger Erfahrung, nicht auf bestätigten klinischen Studien.",
+        "en": "Traditional use for the relief of minor joint pain. The EMA classifies this indication as 'traditional use' - effectiveness rests on long-standing experience, not on confirmed clinical trials."
+      },
+      "source_ids": [
+        "ema_monograph",
+        "wikipedia_de",
+        "cochrane_lbp"
+      ]
+    },
+    {
+      "form": "tea",
+      "target": [
+        "digestion"
+      ],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 250,
+        "steep_min": 15,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Etwa 1-2 g zerkleinerte, getrocknete Speicherknolle mit 250 ml kaltem Wasser ansetzen oder mit kochendem Wasser übergiessen, abgedeckt ziehen lassen und abseihen. Vor den Mahlzeiten trinken. Der ausgeprägte Bittergeschmack regt Speichel- und Magensaftbildung an.",
+          "en": "Steep about 1-2 g of comminuted, dried storage tuber in 250 ml of cold water or pour over boiling water, leave covered to infuse and strain. Drink before meals. The marked bitter taste stimulates saliva and gastric juice secretion."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Wegen fehlender Daten nicht für Kinder und Jugendliche unter 18 Jahren empfohlen.",
+          "en": "Not recommended for children and adolescents under 18 years due to a lack of data."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Anwendung bei Appetitlosigkeit sowie leichten Verdauungsbeschwerden wie Völlegefühl und Blähungen. Von der EMA als 'traditional use' eingestuft.",
+        "en": "Traditional use for loss of appetite and mild digestive disorders such as bloating and flatulence. Classified by the EMA as 'traditional use'."
+      },
+      "source_ids": [
+        "ema_monograph",
+        "wikipedia_de"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "harvest_part": {
+      "de": "Sekundäre Speicherknollen (Nebenwurzeln)",
+      "en": "Secondary storage tubers (lateral roots)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Häufigste Nebenwirkungen sind Magen-Darm-Beschwerden wie Durchfall, Übelkeit und Bauchschmerzen. Wegen der bitterstoffbedingten Anregung der Magensäureproduktion ist Vorsicht bei aktivem Magen- oder Zwölffingerdarmgeschwür und bei Gastritis geboten. Bei Gallensteinen nur nach ärztlicher Rücksprache anwenden. Vorsicht bei Herz-Kreislauf-Erkrankungen und Diabetes. Mögliche Wechselwirkungen mit Blutgerinnungshemmern (z. B. Warfarin) und Antiarrhythmika. Wegen fehlender Daten nicht in Schwangerschaft, Stillzeit oder bei Kindern anwenden.",
+      "en": "The most common side effects are gastrointestinal complaints such as diarrhoea, nausea and abdominal pain. Because the bitter constituents stimulate gastric acid production, caution is advised with active gastric or duodenal ulcer and with gastritis. Use only after medical advice in case of gallstones. Caution in cardiovascular disease and diabetes. Possible interactions with anticoagulants (e.g. warfarin) and antiarrhythmic drugs. Do not use in pregnancy, lactation or in children due to a lack of data."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In der Schwangerschaft nicht anwenden; die Sicherheit ist mangels Daten nicht belegt und eine wehenfördernde (oxytocinartige) Wirkung wird diskutiert.",
+        "en": "Do not use during pregnancy; safety is not established due to a lack of data and an oxytocin-like, labour-stimulating effect has been discussed."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "In der Stillzeit mangels Daten nicht empfohlen.",
+        "en": "Not recommended during lactation due to a lack of data."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Bei Kindern und Jugendlichen unter 18 Jahren mangels Daten nicht empfohlen.",
+        "en": "Not recommended in children and adolescents under 18 years due to a lack of data."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Anticoagulants (e.g. warfarin)",
+        "mechanism": {
+          "de": "Berichte über eine mögliche Verstärkung der gerinnungshemmenden Wirkung; eine erhöhte Blutungsneigung kann nicht ausgeschlossen werden.",
+          "en": "Reports of a possible enhancement of the anticoagulant effect; an increased bleeding tendency cannot be excluded."
+        },
+        "severity": "caution"
+      },
+      {
+        "drug_class": "Magensäure-bezogene/Antazida & Ulkusmittel",
+        "mechanism": {
+          "de": "Die bitterstoffbedingte Anregung der Magensäureproduktion kann der Wirkung von Antazida und säurehemmenden Ulkusmitteln entgegenwirken.",
+          "en": "The bitter-driven stimulation of gastric acid production may counteract the action of antacids and acid-suppressing ulcer medicines."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Aktives Magen- oder Zwölffingerdarmgeschwür",
+        "en": "Active gastric or duodenal ulcer"
+      },
+      {
+        "de": "Gallensteine ohne ärztliche Rücksprache",
+        "en": "Gallstones without medical advice"
+      },
+      {
+        "de": "Überempfindlichkeit gegen die Wirkstoffe",
+        "en": "Hypersensitivity to the active substances"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "ema_monograph",
+      "type": "monograph",
+      "title": "EMA - European Union herbal monograph on Harpagophytum procumbens DC. and/or Harpagophytum zeyheri Decne., radix (Rev. 1, adopted 14 Nov 2016)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/harpagophyti-radix",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "ema_monograph_pdf",
+      "type": "monograph",
+      "title": "EMA - Final European Union herbal monograph (PDF), Harpagophyti radix",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-harpagophytum-procumbens-dc-andor-harpagophytum-zeyheri-decne-radix_en.pdf",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_de",
+      "type": "wikipedia",
+      "title": "Afrikanische Teufelskralle - Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Afrikanische_Teufelskralle",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_en",
+      "type": "wikipedia",
+      "title": "Harpagophytum - Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Harpagophytum",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikidata",
+      "type": "wikidata",
+      "title": "Harpagophytum procumbens (Q161525) - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q161525",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "cochrane_lbp",
+      "type": "monograph",
+      "title": "Oltean H. et al., Herbal medicine for low-back pain, Cochrane Database Syst Rev 2014 (Harpagophytum / devil's claw)",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004504.pub4/full",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "commons_image",
+      "type": "commons",
+      "title": "File:Harpagophytum procumbens 001.JPG - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Harpagophytum_procumbens_001.JPG",
+      "accessed": "2026-06-12"
+    }
+  ],
+  "image": {
+    "filename": "harpagophytum-procumbens.webp",
+    "alt": {
+      "de": "Zerkleinerte, getrocknete sekundäre Speicherknollen der Afrikanischen Teufelskralle (Harpagophyti radix)",
+      "en": "Chopped, dried secondary storage tubers of devil's claw (Harpagophyti radix)"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "H. Zell (Wikimedia Commons user Llez)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Harpagophytum_procumbens_001.JPG"
+  },
+  "constituents": [
+    {
+      "name": "Harpagosid",
+      "category": "glycoside",
+      "percent_range": "0.5-3 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Bitter schmeckendes Leit-Iridoidglykosid; auf diesen Gehalt werden Extrakte standardisiert.",
+        "en": "Bitter-tasting marker iridoid glycoside; extracts are standardised to this content."
+      }
+    },
+    {
+      "name": "Harpagid und Procumbid",
+      "category": "glycoside",
+      "plant_part": "root",
+      "note": {
+        "de": "Weitere Iridoidglykoside der Speicherknolle.",
+        "en": "Further iridoid glycosides of the storage tuber."
+      }
+    },
+    {
+      "name": "Acteosid (Verbascosid)",
+      "category": "glycoside",
+      "plant_part": "root",
+      "note": {
+        "de": "Phenylethanoidglykosid mit antioxidativen Eigenschaften.",
+        "en": "Phenylethanoid glycoside with antioxidant properties."
+      }
+    },
+    {
+      "name": "Flavonoide",
+      "category": "flavonoid",
+      "plant_part": "root",
+      "note": {
+        "de": "Unter anderem Kaempferol- und Luteolin-Glykoside.",
+        "en": "Including kaempferol and luteolin glycosides."
+      }
+    },
+    {
+      "name": "Phytosterole",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "Unter anderem beta-Sitosterol.",
+        "en": "Including beta-sitosterol."
+      }
+    },
+    {
+      "name": "Stachyose",
+      "category": "other",
+      "percent_range": "bis ca. 46 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Tetrasaccharid als Hauptzucker der Speicherknolle.",
+        "en": "Tetrasaccharide, the main sugar of the storage tuber."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        3,
+        4,
+        5
+      ],
+      "method": {
+        "de": "Ausgraben der seitlichen sekundären Speicherknollen am Ende der Regenzeit, wenn der Wirkstoffgehalt am höchsten ist; die tief reichende Primärwurzel bleibt im Boden, damit die Pflanze nachwachsen kann.",
+        "en": "Digging up the lateral secondary storage tubers at the end of the rainy season, when active-compound content is highest; the deep primary root is left in the soil so the plant can regenerate."
+      },
+      "drying": {
+        "de": "Speicherknollen in Scheiben schneiden und an der Luft trocknen. Nachhaltigkeitshinweis: Die Droge stammt überwiegend aus Wildsammlung in Namibia, Botswana und Südafrika; Übernutzung gefährdet die Bestände. Schonende Ernte (Primärwurzel belassen, mehrjährige Sammelintervalle) und zertifizierte Lieferketten sind zum Schutz der Wildbestände wichtig.",
+        "en": "Slice the storage tubers and air-dry them. Sustainability note: the drug is mostly wild-harvested in Namibia, Botswana and South Africa; over-harvesting threatens populations. Gentle harvesting (leaving the primary root, multi-year collection intervals) and certified supply chains are important to protect the wild stocks."
+      }
+    }
+  ],
+  "permaculture_functions": [
+    "medicinal"
+  ]
+}

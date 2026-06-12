@@ -1,0 +1,276 @@
+{
+  "slug": "centella-asiatica",
+  "names": {
+    "de": "Indischer Wassernabel",
+    "en": "Gotu kola",
+    "latin": "Centella asiatica"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Der Indische Wassernabel (auch Asiatischer Wassernabel, Tigergras oder Gotu Kola) ist eine ausdauernde, kriechende Krautpflanze der feuchten tropischen und subtropischen Gebiete Asiens. Aus den fadenförmigen, an den Knoten wurzelnden Ausläufern entspringen langgestielte, fächer- bis nierenförmige Blätter mit handförmiger Nervatur, die einen dichten Bodenteppich an Gräben, Reisfeldern und Bachufern bilden. Die kleinen weiss bis rötlichen Blüten stehen in unscheinbaren Dolden. Arzneilich genutzt werden die oberirdischen Teile, das gesamte Kraut (Centellae asiaticae herba). Charakteristisch sind pentazyklische Triterpensaponine, vor allem Asiaticosid und Madecassosid, denen die wundheilungs- und kollagenfördernde Wirkung zugeschrieben wird. In der ayurvedischen Medizin und der traditionellen chinesischen Medizin ist die Pflanze seit Jahrhunderten als Heilkraut bekannt; standardisierte Triterpenfraktionen (TTFCA, 'titrierter Extrakt aus Centella asiatica') werden bei venösen Beschwerden eingesetzt.",
+    "en": "Gotu kola (also Indian pennywort, Asiatic pennywort or tiger grass) is a perennial, creeping herb of the moist tropical and subtropical regions of Asia. From its slender stolons, which root at the nodes, arise long-stalked, fan- to kidney-shaped leaves with palmate venation, forming a dense ground mat along ditches, rice paddies and stream banks. The small white to reddish flowers are borne in inconspicuous umbels. The medicinal part is the aerial parts, the whole herb (Centellae asiaticae herba). Characteristic constituents are pentacyclic triterpene saponins, chiefly asiaticoside and madecassoside, to which the wound-healing and collagen-promoting effects are attributed. The plant has been a valued remedy in Ayurvedic medicine and Traditional Chinese Medicine for centuries; standardised triterpene fractions (TTFCA, 'titrated extract of Centella asiatica') are used for venous complaints."
+  },
+  "teaser": {
+    "de": "Kriechendes Tigergras aus den Feuchtgebieten Asiens: Die Triterpensaponine Asiaticosid und Madecassosid machen das Kraut traditionell zum Mittel bei kleinen Wunden und Hautreizungen, standardisierter Extrakt bei schweren Beinen.",
+    "en": "A creeping tiger grass from the wetlands of Asia: the triterpene saponins asiaticoside and madecassoside make this herb a traditional remedy for minor wounds and skin irritation, with standardised extract for heavy legs."
+  },
+  "uses": [
+    {
+      "form": "salve",
+      "target": ["skin", "wounds"],
+      "internal_external": "external",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "Salbe oder Creme mit Auszug des getrockneten Krauts (oder mit standardisiertem Triterpenextrakt) ein- bis zweimal täglich dünn auf die gereinigte, kleine oberflächliche Wunde, Schürfung oder leichte Hautreizung auftragen. Nicht auf tiefe, stark blutende oder infizierte Wunden anwenden. Bei ausbleibender Besserung oder Verschlimmerung einen Arzt aufsuchen.",
+          "en": "Apply a salve or cream containing an extract of the dried herb (or standardised triterpene extract) thinly once or twice daily to the cleaned, minor superficial wound, graze or mild skin irritation. Do not use on deep, heavily bleeding or infected wounds. Consult a doctor if there is no improvement or if the condition worsens."
+        }
+      },
+      "description": {
+        "de": "Traditionelle äusserliche Anwendung zur Unterstützung der Wundheilung und bei leichten Hautentzündungen. Die EMA stuft die Anwendung des Krauts bei kleinen Wunden als 'traditional use' ein - die Wirksamkeit beruht auf langjähriger Erfahrung, nicht auf bestätigten klinischen Studien.",
+        "en": "Traditional external use to support wound healing and for minor skin inflammation. The EMA classifies the use of the herb for minor wounds as 'traditional use' - effectiveness rests on long-standing experience, not on confirmed clinical trials."
+      },
+      "source_ids": ["ema_monograph", "wikipedia_en", "topical_review"]
+    },
+    {
+      "form": "tincture",
+      "target": ["circulation"],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "Standardisierter titrierter Triterpenextrakt (TTFCA) aus dem Kraut, üblich etwa 60-120 mg pro Tag, auf zwei Einzelgaben verteilt, oral eingenommen. Der Extrakt ist auf Asiaticosid, Asiatsäure und Madecassinsäure eingestellt. Zur Linderung der Symptome einer chronisch-venösen Insuffizienz wie Schwere- und Spannungsgefühl, Schwellung und Schmerzen der Beine. Zeitlich begrenzt anwenden; bei anhaltenden oder neuen Venenbeschwerden ärztlich abklären lassen.",
+          "en": "Standardised titrated triterpene extract (TTFCA) of the herb, typically about 60-120 mg per day in two single doses, taken orally. The extract is adjusted to asiaticoside, asiatic acid and madecassic acid. For the relief of symptoms of chronic venous insufficiency such as heaviness and tension, swelling and pain of the legs. Use for limited periods; have persistent or new venous complaints assessed by a doctor."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Mangels Daten nicht für Kinder und Jugendliche unter 18 Jahren empfohlen.",
+          "en": "Not recommended for children and adolescents under 18 years due to a lack of data."
+        }
+      },
+      "description": {
+        "de": "Innerliche Anwendung des standardisierten Triterpenextrakts bei chronisch-venöser Insuffizienz. Eine systematische Übersichtsarbeit (Chong & Aziz 2013) fasst kontrollierte Studien zusammen, in denen TTFCA mikrozirkulatorische Parameter sowie Symptome wie Beinschwere, Schwellung und Schmerz verbesserte. Diese Indikation ist nicht Teil der EMA-Monographie, sondern stützt sich auf diese klinischen Daten.",
+        "en": "Internal use of the standardised triterpene extract for chronic venous insufficiency. A systematic review (Chong & Aziz 2013) pools controlled trials in which TTFCA improved microcirculatory parameters and symptoms such as leg heaviness, swelling and pain. This indication is not part of the EMA monograph but rests on these clinical data."
+      },
+      "source_ids": ["cvi_review", "wikipedia_en", "wikipedia_de"]
+    }
+  ],
+  "season": {
+    "active_months": [5, 6, 7, 8, 9, 10],
+    "harvest_part": {
+      "de": "Oberirdische Teile (gesamtes Kraut)",
+      "en": "Aerial parts (whole herb)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Der Indische Wassernabel ist in üblichen Mengen meist gut verträglich. Bei innerlicher Anwendung wurden in seltenen Fällen - vor allem bei hohen Dosen oder längerer Einnahme - Leberschädigungen (Hepatotoxizität, Gelbsucht) beschrieben; deshalb nur zeitlich begrenzte Kuren und Vorsicht bei vorbestehender Lebererkrankung. Äusserlich kann gelegentlich eine allergische Kontaktdermatitis auftreten, besonders bei Empfindlichkeit gegen Doldenblütler (Apiaceae). In hohen Dosen kann eine sedierende Wirkung verstärkt werden. Wegen fehlender Daten nicht in Schwangerschaft und Stillzeit anwenden.",
+      "en": "Gotu kola is usually well tolerated in customary amounts. With internal use, rare cases of liver injury (hepatotoxicity, jaundice) have been reported - mainly at high doses or with prolonged intake; therefore use only time-limited courses and exercise caution in pre-existing liver disease. Externally, allergic contact dermatitis may occasionally occur, especially in those sensitive to the carrot family (Apiaceae). At high doses a sedative effect may be enhanced. Do not use in pregnancy or lactation due to a lack of data."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In der Schwangerschaft nicht anwenden; die Sicherheit ist mangels ausreichender Daten nicht belegt.",
+        "en": "Do not use during pregnancy; safety is not established due to a lack of sufficient data."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "In der Stillzeit mangels Daten nicht empfohlen.",
+        "en": "Not recommended during lactation due to a lack of data."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Bei Kindern und Jugendlichen unter 18 Jahren mangels Daten nicht empfohlen.",
+        "en": "Not recommended in children and adolescents under 18 years due to a lack of data."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Hepatotoxische Arzneimittel",
+        "mechanism": {
+          "de": "Da bei innerlicher Anwendung seltene Leberschädigungen beschrieben sind, kann die gleichzeitige Einnahme leberbelastender Arzneimittel das Risiko einer Leberschädigung erhöhen.",
+          "en": "As rare liver injury has been described with internal use, concurrent intake of liver-burdening medicines may increase the risk of hepatic damage."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Sedativa/CNS-Dämpfer",
+        "mechanism": {
+          "de": "In hohen Dosen kann der Indische Wassernabel die dämpfende Wirkung von Beruhigungs- und Schlafmitteln sowie Alkohol verstärken.",
+          "en": "At high doses gotu kola may enhance the depressant effect of sedatives, hypnotics and alcohol."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Bestehende Lebererkrankung (bei innerlicher Anwendung)",
+        "en": "Existing liver disease (for internal use)"
+      },
+      {
+        "de": "Überempfindlichkeit gegen die Wirkstoffe oder gegen Doldenblütler (Apiaceae)",
+        "en": "Hypersensitivity to the active substances or to the carrot family (Apiaceae)"
+      },
+      {
+        "de": "Schwangerschaft",
+        "en": "Pregnancy"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "ema_monograph",
+      "type": "monograph",
+      "title": "EMA - European Union herbal monograph on Centella asiatica (L.) Urban, herba (Rev. 1, adopted 2 Sep 2022)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/centellae-asiaticae-herba",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "ema_assessment",
+      "type": "monograph",
+      "title": "EMA - Assessment report on Centella asiatica (L.) Urb., herba (Rev. 1, 2022, PDF)",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-centella-asiatica-l-urb-herba-revision-1_en.pdf",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "cvi_review",
+      "type": "monograph",
+      "title": "Chong NJ, Aziz Z. A Systematic Review of the Efficacy of Centella asiatica for Improvement of the Signs and Symptoms of Chronic Venous Insufficiency. Evid Based Complement Alternat Med. 2013;2013:627182 (PMID 23533507, PMC3594936)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3594936/",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "topical_review",
+      "type": "monograph",
+      "title": "Topical Application of Centella asiatica in Wound Healing: Recent Insights into Mechanisms and Clinical Efficacy. PMC11510310 (2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11510310/",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_de",
+      "type": "wikipedia",
+      "title": "Indischer Wassernabel - Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Indischer_Wassernabel",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_en",
+      "type": "wikipedia",
+      "title": "Centella asiatica - Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Centella_asiatica",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikidata",
+      "type": "wikidata",
+      "title": "Centella asiatica (Q310965) - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q310965",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "commons_image",
+      "type": "commons",
+      "title": "File:Centella asiatica kz01.jpg - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Centella_asiatica_kz01.jpg",
+      "accessed": "2026-06-12"
+    }
+  ],
+  "image": {
+    "filename": "centella-asiatica.webp",
+    "alt": {
+      "de": "Fächer- bis nierenförmige Blätter des Indischen Wassernabels (Centella asiatica)",
+      "en": "Fan- to kidney-shaped leaves of gotu kola (Centella asiatica)"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Krzysztof Ziarnek, Kenraiz",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Centella_asiatica_kz01.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Asiaticosid",
+      "category": "saponin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Pentazyklisches Triterpensaponin; gilt als Hauptwirkstoff für Wundheilung und Kollagenbildung.",
+        "en": "Pentacyclic triterpene saponin; regarded as the main active for wound healing and collagen formation."
+      }
+    },
+    {
+      "name": "Madecassosid",
+      "category": "saponin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Weiteres pentazyklisches Triterpensaponin mit entzündungshemmenden und hautregenerierenden Eigenschaften.",
+        "en": "Further pentacyclic triterpene saponin with anti-inflammatory and skin-regenerating properties."
+      }
+    },
+    {
+      "name": "Asiatsäure und Madecassinsäure",
+      "category": "saponin",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Triterpensäuren (Aglykone der Saponine); Bestandteile der standardisierten Triterpenfraktion TTFCA.",
+        "en": "Triterpene acids (the aglycones of the saponins); components of the standardised triterpene fraction TTFCA."
+      }
+    },
+    {
+      "name": "Flavonoide",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Unter anderem Quercetin- und Kaempferol-Glykoside mit antioxidativen Eigenschaften.",
+        "en": "Including quercetin and kaempferol glycosides with antioxidant properties."
+      }
+    },
+    {
+      "name": "Ätherisches Öl",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Enthält unter anderem Caryophyllen, Germacren, Cymen und Pinen.",
+        "en": "Contains caryophyllene, germacrene, cymene and pinene among others."
+      }
+    },
+    {
+      "name": "Phytosterole",
+      "category": "other",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Unter anderem beta-Sitosterol und Stigmasterol.",
+        "en": "Including beta-sitosterol and stigmasterol."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [6, 7, 8, 9],
+      "method": {
+        "de": "Die oberirdischen Teile, das gesamte beblätterte Kraut mit den Ausläufern, während der warmen, feuchten Wachstumsperiode oberhalb der Wurzelknoten abschneiden. Mehrfache Schnitte pro Saison sind möglich, da die Pflanze rasch nachwächst.",
+        "en": "Cut the aerial parts, the whole leafy herb with stolons, above the rooting nodes during the warm, moist growing season. Several cuts per season are possible because the plant regrows quickly."
+      },
+      "drying": {
+        "de": "Das Kraut locker ausgebreitet im Schatten an gut belüftetem Ort trocknen, um Farbe und Triterpengehalt zu erhalten. Trocken und lichtgeschützt lagern.",
+        "en": "Dry the herb loosely spread in the shade in a well-ventilated place to preserve colour and triterpene content. Store dry and protected from light."
+      }
+    }
+  ],
+  "permaculture_functions": ["ground_cover", "medicinal"]
+}

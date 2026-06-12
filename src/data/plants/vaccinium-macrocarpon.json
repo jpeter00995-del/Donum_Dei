@@ -1,0 +1,255 @@
+{
+  "slug": "vaccinium-macrocarpon",
+  "names": {
+    "de": "Großfrüchtige Moosbeere",
+    "en": "Cranberry",
+    "latin": "Vaccinium macrocarpon"
+  },
+  "family": {
+    "de": "Heidekrautgewächse",
+    "en": "Heath family",
+    "latin": "Ericaceae"
+  },
+  "description": {
+    "de": "Die Großfrüchtige Moosbeere (auch Cranberry oder Kranbeere genannt) ist ein immergrüner, niederliegender Zwergstrauch aus den sauren Hochmooren und Sümpfen des östlichen Nordamerikas. Ihre dünnen, kriechenden Triebe bilden dichte Matten, aus denen sich kurze, aufrechte Blütenstiele erheben. Die rosa Blüten mit zurückgeschlagenen Blütenblättern erinnern an einen Kranichkopf - daher der englische Name 'cranberry' (Kranichbeere). Sie werden von Bienen bestäubt. Aus ihnen reifen leuchtend rote, herb-säuerliche Beeren heran. Kommerziell wird die Pflanze in flach angelegten Mooren gezogen, die zur Ernte geflutet werden, sodass die mit Luftkammern versehenen Beeren aufschwimmen. Genutzt werden die reifen Früchte und ihr Saft.",
+    "en": "The American cranberry (also called large cranberry) is an evergreen, prostrate dwarf shrub of the acidic peat bogs and wetlands of eastern North America. Its thin, creeping stems form dense mats from which short, upright flowering stalks rise. The pink flowers, with reflexed petals, resemble the head of a crane - hence the name 'cranberry'. They are pollinated by bees and ripen into bright red, tart berries. Commercially the plant is grown on flat bogs that are flooded for harvest, so the air-chambered berries float to the surface. The ripe fruit and its juice are used."
+  },
+  "teaser": {
+    "de": "Leuchtend rote Moorbeere aus Nordamerika: Cranberrysaft und -extrakt werden zur Vorbeugung wiederkehrender Blasenentzündungen eingesetzt - der Nutzen ist belegt, aber moderat und nicht für jeden gleich.",
+    "en": "Bright red bog berry from North America: cranberry juice and extract are used to help prevent recurrent bladder infections - the benefit is documented, but modest and not the same for everyone."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": ["urinary"],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "clinical_trial",
+      "preparation": {
+        "amount_ml": { "min": 240, "max": 300 },
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "Zur Vorbeugung wiederkehrender unkomplizierter Harnwegsinfekte täglich etwa 240-300 ml ungesüßten Cranberrysaft trinken oder einen standardisierten Trockenextrakt einnehmen (häufig auf etwa 36 mg Proanthocyanidine pro Tag eingestellt). Dies ist eine vorbeugende, keine akute Behandlung: Bei einer bestehenden Blasenentzündung - besonders mit Fieber, Flankenschmerz oder Blut im Urin - ersetzt Cranberry keine ärztlich verordneten Antibiotika. Der Nutzen baut sich über Wochen auf und ist nicht bei jedem gleich ausgeprägt.",
+          "en": "To help prevent recurrent uncomplicated urinary tract infections, drink about 240-300 ml of unsweetened cranberry juice daily or take a standardised dry extract (often adjusted to about 36 mg proanthocyanidins per day). This is a preventive, not an acute treatment: in an active bladder infection - especially with fever, flank pain or blood in the urine - cranberry is no substitute for doctor-prescribed antibiotics. The benefit builds up over weeks and is not equally pronounced in everyone."
+        }
+      },
+      "description": {
+        "de": "Vorbeugung wiederkehrender unkomplizierter Harnwegsinfekte (Blasenentzündung). Die Cochrane-Übersicht 2023 fand Hinweise mittlerer Vertrauenswürdigkeit, dass Cranberryprodukte das Risiko erneuter Infekte senken - vor allem bei Frauen mit wiederkehrenden Infekten, bei Kindern und bei besonders anfälligen Personen. Der Effekt ist moderat und nicht universell; bei der gesunden Allgemeinbevölkerung oder bei älteren Pflegeheimbewohnern ist der Nutzen unklar. Die europäische Behörde EFSA hat einen entsprechenden Gesundheitsclaim mangels gesicherten Ursache-Wirkungs-Belegs abgelehnt.",
+        "en": "Prevention of recurrent uncomplicated urinary tract infections (cystitis). The 2023 Cochrane review found moderate-certainty evidence that cranberry products reduce the risk of repeat infections - especially in women with recurrent UTIs, in children and in people particularly susceptible. The effect is modest and not universal; in the healthy general population or in elderly care-home residents the benefit is unclear. The European authority EFSA rejected a corresponding health claim for lack of an established cause-and-effect relationship."
+      },
+      "source_ids": ["cochrane_uti", "efsa_opinion", "wikipedia_en"]
+    },
+    {
+      "form": "raw",
+      "target": ["nutrition"],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "Frische oder verarbeitete Cranberrys (z. B. als Saft, Mus oder getrocknet) liefern Vitamin C, organische Säuren und Polyphenole. Wegen des sehr herben Geschmacks werden sie meist gesüßt oder mit anderen Früchten kombiniert; getrocknete Handelsware ist oft stark gezuckert. Große Saftmengen bedeuten entsprechend viel Zucker und Kalorien.",
+          "en": "Fresh or processed cranberries (e.g. as juice, sauce or dried) provide vitamin C, organic acids and polyphenols. Because of their very tart taste they are usually sweetened or combined with other fruits; dried commercial products are often heavily sugared. Large volumes of juice mean correspondingly high sugar and calorie intake."
+        }
+      },
+      "description": {
+        "de": "Verwendung als Nahrungsmittel und Vitamin-C-Quelle. In Nordamerika traditionell zu Sauce und Saft verarbeitet (klassisch zum Thanksgiving-Truthahn).",
+        "en": "Use as a food and source of vitamin C. Traditionally processed into sauce and juice in North America (classically served with the Thanksgiving turkey)."
+      },
+      "source_ids": ["wikipedia_en", "wikipedia_de"]
+    }
+  ],
+  "season": {
+    "active_months": [9, 10],
+    "harvest_part": {
+      "de": "Reife Früchte (Beeren)",
+      "en": "Ripe fruit (berries)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Cranberry ist als Lebensmittel im Allgemeinen gut verträglich. Sie ist jedoch KEIN Ersatz für Antibiotika bei einer akuten oder fieberhaften Harnwegsinfektion - in diesem Fall ist ärztliche Behandlung nötig. Cranberrys sind reich an Oxalsäure; bei Neigung zu Calciumoxalat-Nierensteinen ist Zurückhaltung geboten. Große Mengen Saft liefern viel Zucker und Kalorien und können Magen-Darm-Beschwerden auslösen. Eine Wechselwirkung mit dem Blutgerinnungshemmer Warfarin (möglicher Anstieg des INR-Werts) wurde historisch beschrieben; die Datenlage ist schwach, dennoch ist bei gleichzeitiger Warfarin-Einnahme Vorsicht und INR-Kontrolle ratsam.",
+      "en": "As a food, cranberry is generally well tolerated. It is, however, NO substitute for antibiotics in an acute or febrile urinary tract infection - medical treatment is required in that case. Cranberries are rich in oxalic acid; caution is advised in people prone to calcium-oxalate kidney stones. Large amounts of juice provide a lot of sugar and calories and may cause gastrointestinal upset. An interaction with the anticoagulant warfarin (possible rise in INR) has historically been described; the evidence is weak, but caution and INR monitoring are nonetheless advisable when warfarin is taken concurrently."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "In küchenüblichen Lebensmittelmengen gilt Cranberry in der Schwangerschaft als unbedenklich. Hochdosierte, konzentrierte Nahrungsergänzungsmittel sind in der Schwangerschaft weniger gut untersucht - hier im Zweifel ärztlich abklären.",
+        "en": "In ordinary culinary food amounts cranberry is considered safe in pregnancy. Concentrated, high-dose supplements are less well studied in pregnancy - if in doubt, seek medical advice."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Als Lebensmittel in der Stillzeit unbedenklich; für konzentrierte Extrakte fehlen aussagekräftige Daten.",
+        "en": "Safe as a food during lactation; meaningful data on concentrated extracts are lacking."
+      }
+    },
+    "children": {
+      "status": "safe",
+      "note": {
+        "de": "Als Lebensmittel auch für Kinder geeignet; die Cochrane-Übersicht schließt Kinder ausdrücklich als eine der Gruppen ein, die von der Vorbeugung profitieren können. Auf den Zuckergehalt gesüßter Säfte achten.",
+        "en": "Suitable for children as a food; the Cochrane review explicitly includes children as one of the groups that may benefit from prevention. Watch the sugar content of sweetened juices."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Anticoagulants (warfarin)",
+        "mechanism": {
+          "de": "Historisch wurden Berichte über einen Anstieg des INR-Werts und eine verstärkte gerinnungshemmende Wirkung von Warfarin durch große Mengen Cranberrysaft beschrieben. Die Evidenz ist schwach und uneinheitlich; vorsichtshalber sollte bei Warfarin-Therapie der INR überwacht werden.",
+          "en": "Historically, reports described a rise in INR and an enhanced anticoagulant effect of warfarin with large amounts of cranberry juice. The evidence is weak and inconsistent; as a precaution, INR should be monitored during warfarin therapy."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Akute oder fieberhafte Harnwegsinfektion - hier ist ärztliche Behandlung (Antibiotika) erforderlich, nicht Cranberry",
+        "en": "Acute or febrile urinary tract infection - this requires medical treatment (antibiotics), not cranberry"
+      },
+      {
+        "de": "Neigung zu Calciumoxalat-Nierensteinen (hoher Oxalsäuregehalt)",
+        "en": "Tendency to calcium-oxalate kidney stones (high oxalic acid content)"
+      },
+      {
+        "de": "Überempfindlichkeit gegen Cranberry",
+        "en": "Hypersensitivity to cranberry"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "cochrane_uti",
+      "type": "monograph",
+      "title": "Williams G, Stothart CI, Hahn D, Stephens JH, Craig JC, Hodson EM. Cranberries for preventing urinary tract infections. Cochrane Database Syst Rev. 2023 Nov 10;11(11):CD001321. PMID 37947276",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37947276/",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "cochrane_uti_doi",
+      "type": "monograph",
+      "title": "Cranberries for preventing urinary tract infections - Cochrane Library (DOI 10.1002/14651858.CD001321.pub7)",
+      "url": "https://doi.org/10.1002/14651858.CD001321.pub7",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "efsa_opinion",
+      "type": "monograph",
+      "title": "EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA). Scientific Opinion on Ocean Spray Cranberry Products and a reduction of the risk of urinary tract infection in women. EFSA Journal 2011;9(4):2215",
+      "url": "https://www.efsa.europa.eu/en/efsajournal/pub/2215",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_en",
+      "type": "wikipedia",
+      "title": "Cranberry - Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Cranberry",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_de",
+      "type": "wikipedia",
+      "title": "Großfrüchtige Moosbeere - Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Gro%C3%9Ffr%C3%BCchtige_Moosbeere",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikidata",
+      "type": "wikidata",
+      "title": "Vaccinium macrocarpon (Q577727) - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q577727",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "commons_image",
+      "type": "commons",
+      "title": "File:Vaccinium-macrocarpon-total.JPG - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Vaccinium-macrocarpon-total.JPG",
+      "accessed": "2026-06-12"
+    }
+  ],
+  "image": {
+    "filename": "vaccinium-macrocarpon.webp",
+    "alt": {
+      "de": "Kriechende Triebe der Großfrüchtigen Moosbeere mit reifen, leuchtend roten Cranberry-Früchten",
+      "en": "Creeping stems of the American cranberry with ripe, bright red cranberry fruits"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Sten Porse",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vaccinium-macrocarpon-total.JPG"
+  },
+  "constituents": [
+    {
+      "name": "A-Typ-Proanthocyanidine (PACs)",
+      "category": "tannin",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Charakteristische kondensierte Gerbstoffe mit seltener A-Typ-Bindung. Ihnen wird die Anti-Adhäsions-Wirkung zugeschrieben: Sie können verhindern, dass die Fimbrien (Häkchen) von E.-coli-Bakterien an der Blasenschleimhaut anhaften. Standardisierte Extrakte werden oft auf etwa 36 mg PAC pro Tag eingestellt.",
+        "en": "Characteristic condensed tannins with the rare A-type linkage. They are credited with the anti-adhesion effect: they may prevent the fimbriae (hooks) of E. coli bacteria from adhering to the bladder lining. Standardised extracts are often adjusted to about 36 mg PAC per day."
+      }
+    },
+    {
+      "name": "Anthocyane",
+      "category": "flavonoid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Rote Farbstoffe (u. a. Cyanidin- und Peonidin-Glykoside), die der reifen Beere ihre leuchtende Farbe geben.",
+        "en": "Red pigments (including cyanidin and peonidin glycosides) that give the ripe berry its bright colour."
+      }
+    },
+    {
+      "name": "Flavonole (Quercetin)",
+      "category": "flavonoid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Quercetin und Myricetin als antioxidativ wirksame Flavonole.",
+        "en": "Quercetin and myricetin as antioxidant flavonols."
+      }
+    },
+    {
+      "name": "Organische Fruchtsäuren (Chinasäure, Citronensäure, Apfelsäure)",
+      "category": "phenolic_acid",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Verleihen der Beere ihren herben Geschmack. Chinasäure wird im Körper teils zu Hippursäure umgesetzt, die den Urin ansäuert - ein historisch diskutierter, aber für die Wirkung wahrscheinlich untergeordneter Mechanismus.",
+        "en": "Give the berry its tart taste. Quinic acid is partly converted in the body to hippuric acid, which acidifies the urine - a historically discussed but probably minor mechanism for the effect."
+      }
+    },
+    {
+      "name": "Vitamin C (Ascorbinsäure)",
+      "category": "vitamin",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Mässiger Gehalt (etwa 14 mg pro 100 g frische Beeren, rund 16 % des Tagesbedarfs).",
+        "en": "Moderate content (about 14 mg per 100 g fresh berries, around 16 % of the daily requirement)."
+      }
+    },
+    {
+      "name": "Oxalsäure (Oxalate)",
+      "category": "other",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Cranberrys gehören zu den oxalatreichen Früchten - relevant für Personen mit Neigung zu Calciumoxalat-Nierensteinen.",
+        "en": "Cranberries are among the oxalate-rich fruits - relevant for people prone to calcium-oxalate kidney stones."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [9, 10],
+      "method": {
+        "de": "Reife, tiefrote Beeren von September bis Oktober ernten. Kommerziell werden die Moorfelder geflutet ('wet harvest'), woraufhin die mit Luftkammern versehenen Beeren aufschwimmen und abgeschöpft werden; für frische Marktware erfolgt eine Trockenernte. Reife Beeren springen bei einem Test typischerweise zurück.",
+        "en": "Harvest ripe, deep-red berries from September to October. Commercially the bog fields are flooded ('wet harvest'), upon which the air-chambered berries float to the surface and are collected; for the fresh market a dry harvest is used. Ripe berries typically bounce when tested."
+      },
+      "drying": {
+        "de": "Frische Beeren halten sich aufgrund ihres Säure- und Gerbstoffgehalts mehrere Wochen kühl; alternativ werden sie zu Saft, Mus oder getrockneten Früchten verarbeitet oder eingefroren.",
+        "en": "Thanks to their acid and tannin content, fresh berries keep for several weeks when cool; alternatively they are processed into juice, sauce or dried fruit, or frozen."
+      }
+    }
+  ],
+  "permaculture_functions": ["ground_cover", "pollinator_attractor", "medicinal"]
+}
