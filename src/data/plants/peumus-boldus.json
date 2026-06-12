@@ -1,0 +1,332 @@
+{
+  "slug": "peumus-boldus",
+  "names": {
+    "de": "Boldo",
+    "en": "Boldo",
+    "latin": "Peumus boldus"
+  },
+  "family": {
+    "de": "Monimiengewächse",
+    "en": "Monimia family",
+    "latin": "Monimiaceae"
+  },
+  "description": {
+    "de": "Boldo (Peumus boldus) ist ein immergrüner, aromatischer Strauch oder kleiner Baum aus der Familie der Monimiengewächse, der in den trockenen Hügelregionen Zentralchiles heimisch ist und Wuchshöhen von etwa 6 bis selten 15 Metern erreicht. Die gegenständigen, ledrigen Blätter sind oberseits rau und verströmen beim Zerreiben einen kräftigen, kampferartigen Duft. Arzneilich genutzt wird das getrocknete Blatt, das Boldoblatt (Boldi folium). Es enthält das Aporphin-Alkaloid Boldin sowie ein ätherisches Öl, das reich an Ascaridol, p-Cymol und 1,8-Cineol ist. Boldo regt traditionell den Gallenfluss an und wird bei leichten Verdauungsbeschwerden und milden Krämpfen des Magen-Darm-Trakts verwendet.",
+    "en": "Boldo (Peumus boldus) is an evergreen, aromatic shrub or small tree of the Monimia family, native to the dry hill country of central Chile, reaching heights of about 6 and rarely up to 15 metres. The opposite, leathery leaves are rough on the upper surface and give off a strong, camphor-like scent when crushed. The medicinal part is the dried leaf, known as boldo leaf (Boldi folium). It contains the aporphine alkaloid boldine together with an essential oil rich in ascaridole, p-cymene and 1,8-cineole. Boldo traditionally stimulates the flow of bile and is used for mild digestive complaints and mild spasms of the gastrointestinal tract."
+  },
+  "teaser": {
+    "de": "Ein immergrüner chilenischer Strauch, dessen aromatische Blätter traditionell die Verdauung und den Gallenfluss anregen.",
+    "en": "An evergreen Chilean shrub whose aromatic leaves traditionally support digestion and the flow of bile."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["digestion", "liver"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": { "min": 1, "max": 2 },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "1 bis 2 g zerkleinerte, getrocknete Boldoblätter mit etwa 150 ml heißem Wasser übergießen, 5 bis 10 Minuten zugedeckt ziehen lassen und abseihen. Zwei- bis dreimal täglich als Aufguss trinken. Bevorzugt wässrige Zubereitungen verwenden, da das schwer wasserlösliche Ascaridol so kaum in den Tee übergeht. Nur kurzfristig anwenden; halten die Beschwerden länger als zwei Wochen an oder verschlimmern sie sich, ärztlichen Rat einholen.",
+          "en": "Pour about 150 ml of hot water over 1 to 2 g of comminuted, dried boldo leaf, cover and steep for 5 to 10 minutes, then strain. Drink as an infusion two to three times daily. Prefer water-based preparations, as the poorly water-soluble ascaridole barely passes into the tea. Use short-term only; if symptoms persist for more than two weeks or worsen, seek medical advice."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur für Erwachsene. Die Anwendung bei Kindern und Jugendlichen unter 18 Jahren wird nicht empfohlen, da keine ausreichenden Daten vorliegen.",
+          "en": "For adults only. Use in children and adolescents under 18 years of age is not recommended because of insufficient data."
+        }
+      },
+      "description": {
+        "de": "Leichte Verdauungsbeschwerden und milde Magen-Darm-Krämpfe",
+        "en": "Mild dyspepsia and mild gastrointestinal spasms"
+      },
+      "source_ids": ["ema_monograph", "ema_summary", "wikipedia_de"]
+    },
+    {
+      "form": "tincture",
+      "target": ["digestion", "liver"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "preparation": {
+        "doses_per_day": 2,
+        "max_duration_weeks": 2,
+        "instructions": {
+          "de": "Standardisierte Trockenextrakte (5:1, wässrig) aus Boldoblättern werden mit bis zu 400 mg zweimal täglich dosiert. Selbst angesetzte alkoholische Tinkturen sind weniger geeignet, da Alkohol mehr des bedenklichen Ascaridols aus dem ätherischen Öl löst als Wasser; fertige, auf den Ascaridolgehalt geprüfte Präparate sind vorzuziehen. Nur kurzfristig anwenden; bei Beschwerden über zwei Wochen ärztlichen Rat einholen.",
+          "en": "Standardised dry extracts (5:1, aqueous) of boldo leaf are dosed at up to 400 mg twice daily. Home-made alcoholic tinctures are less suitable, because alcohol extracts more of the concerning ascaridole from the essential oil than water does; commercial preparations tested for ascaridole content are preferable. Use short-term only; if symptoms persist beyond two weeks, seek medical advice."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur für Erwachsene. Die Anwendung unter 18 Jahren wird nicht empfohlen.",
+          "en": "For adults only. Use under 18 years of age is not recommended."
+        }
+      },
+      "description": {
+        "de": "Standardisierter wässriger Trockenextrakt bei Verdauungsbeschwerden",
+        "en": "Standardised aqueous dry extract for digestive complaints"
+      },
+      "source_ids": ["ema_monograph", "ema_summary"]
+    }
+  ],
+  "season": {
+    "active_months": [9, 10, 11, 12],
+    "harvest_part": {
+      "de": "Getrocknete Laubblätter",
+      "en": "Dried foliage leaves"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Boldoblätter enthalten ein ätherisches Öl mit hohem Anteil an Ascaridol, das in höherer Dosierung leber- und nervenschädigend (hepatotoxisch und neurotoxisch) wirken kann. Das isolierte ätherische Boldoöl darf keinesfalls innerlich eingenommen werden; arzneilich werden nur die ganzen getrockneten Blätter, vorzugsweise als wässriger Aufguss, verwendet, da Ascaridol schlecht wasserlöslich ist. Die Anwendung muss kurzfristig bleiben (Beschwerden über zwei Wochen ärztlich abklären lassen). Nicht anwenden bei Verschluss der Gallenwege, Gallengangsentzündung (Cholangitis), Lebererkrankungen, Gallensteinen und anderen Gallenwegserkrankungen, die ärztlicher Überwachung bedürfen. Nicht in Schwangerschaft und Stillzeit sowie nicht bei Kindern und Jugendlichen unter 18 Jahren anwenden. In Tierversuchen führten hohe Dosen von Boldo-Extrakt und Boldin zu Fehlbildungen der Föten und vereinzelt zu Aborten. Überempfindlichkeitsreaktionen bis hin zur Anaphylaxie wurden berichtet. Bei Verschlimmerung der Beschwerden ärztlichen Rat einholen.",
+      "en": "Boldo leaf contains an essential oil with a high proportion of ascaridole, which can be liver- and nerve-damaging (hepatotoxic and neurotoxic) at higher doses. The isolated boldo essential oil must never be taken internally; medicinally, only the whole dried leaves are used, preferably as a water-based infusion, because ascaridole is poorly water-soluble. Use must remain short-term (have complaints lasting more than two weeks assessed by a doctor). Do not use in obstruction of the bile duct, inflammation of the bile duct (cholangitis), liver disease, gallstones and other biliary disorders requiring medical supervision. Do not use during pregnancy or breastfeeding, or in children and adolescents under 18 years of age. In animal studies, high doses of boldo extract and boldine caused fetal malformations and occasional abortions. Hypersensitivity reactions up to anaphylaxis have been reported. Seek medical advice if symptoms worsen."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In der Schwangerschaft nicht anwenden. Die Sicherheit ist nicht belegt, und präklinische Daten zeigten bei hohen Dosen Fehlbildungen der Föten und vereinzelte Aborte.",
+        "en": "Do not use during pregnancy. Safety is not established, and preclinical data showed fetal malformations and occasional abortions at high doses."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In der Stillzeit nicht anwenden, da die Sicherheit nicht belegt ist und die Anwendung laut EMA-Monographie vermieden werden soll.",
+        "en": "Do not use while breastfeeding, as safety is not established and the EMA monograph advises that use be avoided."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Bei Kindern und Jugendlichen unter 18 Jahren nicht anwenden, da keine ausreichenden Daten vorliegen.",
+        "en": "Do not use in children and adolescents under 18 years of age, as data are insufficient."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Gerinnungshemmer (Antikoagulanzien, z. B. Warfarin)",
+        "mechanism": {
+          "de": "Ein Fallbericht beschreibt einen erhöhten INR-Wert bei gleichzeitiger Einnahme von Boldo und Bockshornklee unter Warfarin-Therapie. Die gerinnungshemmende Wirkung könnte verstärkt werden; bei Antikoagulanzien daher Vorsicht.",
+          "en": "A case report describes a raised INR with concurrent use of boldo and fenugreek during warfarin therapy. The anticoagulant effect may be enhanced; caution is therefore advised with anticoagulants."
+        },
+        "severity": "caution",
+        "source_id": "pubmed_warfarin"
+      },
+      {
+        "drug_class": "Lebertoxische Arzneimittel (hepatotoxische Wirkstoffe)",
+        "mechanism": {
+          "de": "Das ascaridolhaltige ätherische Öl kann die Leber belasten; bei gleichzeitiger Einnahme anderer leberschädigender Arzneimittel kann sich die Belastung addieren.",
+          "en": "The ascaridole-containing essential oil can stress the liver; concurrent use of other liver-damaging medicines may add to this burden."
+        },
+        "severity": "caution",
+        "source_id": "wikipedia_en"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Verschluss der Gallenwege (Gallenwegsverschluss)",
+        "en": "Obstruction of the bile duct"
+      },
+      {
+        "de": "Gallengangsentzündung (Cholangitis)",
+        "en": "Inflammation of the bile duct (cholangitis)"
+      },
+      {
+        "de": "Lebererkrankungen",
+        "en": "Liver disease"
+      },
+      {
+        "de": "Gallensteine und andere Gallenwegserkrankungen, die ärztlicher Überwachung bedürfen",
+        "en": "Gallstones and other biliary disorders requiring medical supervision"
+      },
+      {
+        "de": "Überempfindlichkeit gegen die Droge",
+        "en": "Hypersensitivity to the herbal substance"
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit",
+        "en": "Pregnancy and breastfeeding"
+      },
+      {
+        "de": "Kinder und Jugendliche unter 18 Jahren",
+        "en": "Children and adolescents under 18 years of age"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "ema_monograph",
+      "type": "monograph",
+      "title": "Community herbal monograph on Peumus boldus Molina, folium (HMPC, EMEA/HMPC/591648/2007)",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-peumus-boldus-molina-folium_en.pdf",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "ema_summary",
+      "type": "monograph",
+      "title": "Boldi folium - herbal medicinal product | European Medicines Agency (EMA)",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/boldi-folium",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "ema_assessment",
+      "type": "monograph",
+      "title": "Assessment report on Peumus boldus Molina, folium - European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-peumus-boldus-molina-folium_en.pdf",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_de",
+      "type": "wikipedia",
+      "title": "Boldo - Wikipedia (deutsch)",
+      "url": "https://de.wikipedia.org/wiki/Boldo",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_en",
+      "type": "wikipedia",
+      "title": "Peumus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Peumus",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikidata",
+      "type": "wikidata",
+      "title": "Peumus boldus (Q310810) - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q310810",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "pubmed_warfarin",
+      "type": "monograph",
+      "title": "Lambert JP, Cormier J. Potential interaction between warfarin and boldo-fenugreek. Pharmacotherapy. 2001 (PubMed 11444587)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11444587/",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "commons_kohler",
+      "type": "commons",
+      "title": "File:Peumus boldus - Köhler's Medizinal-Pflanzen-104.jpg - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Peumus_boldus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg",
+      "accessed": "2026-06-12"
+    }
+  ],
+  "image": {
+    "filename": "peumus-boldus.webp",
+    "alt": {
+      "de": "Botanische Tafel des Boldostrauchs mit männlicher und weiblicher Pflanze, Blüten, Früchten und Blütendetails",
+      "en": "Botanical plate of boldo showing male and female plants, flowers, fruits and floral details"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, in Köhler's Medizinal-Pflanzen (1897), Plate 104",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Peumus_boldus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Boldin",
+      "category": "alkaloid",
+      "percent_range": "ca. 0,1-0,5%",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Aporphin-Alkaloid und arzneilich bestimmende Leitsubstanz; wirkt antioxidativ, krampflösend und gallefördernd.",
+        "en": "Aporphine alkaloid and the pharmacologically leading substance; antioxidant, antispasmodic and bile-promoting."
+      }
+    },
+    {
+      "name": "Ätherisches Öl",
+      "category": "essential_oil",
+      "percent_range": "ca. 2-4%",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Aromatisches Öl des Blattes; sein hoher Ascaridolgehalt ist für die Toxizität bei Überdosierung verantwortlich.",
+        "en": "Aromatic oil of the leaf; its high ascaridole content is responsible for toxicity on overdose."
+      }
+    },
+    {
+      "name": "Ascaridol",
+      "category": "essential_oil",
+      "percent_range": "ca. 16-38% des ätherischen Öls",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Hauptbestandteil des ätherischen Öls und ein Peroxid; in höherer Dosis leber- und nervenschädigend, daher kein isoliertes Boldoöl einnehmen.",
+        "en": "Main component of the essential oil and a peroxide; liver- and nerve-damaging at higher doses, so the isolated boldo oil must not be ingested."
+      }
+    },
+    {
+      "name": "p-Cymol",
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Aromatischer Monoterpen-Kohlenwasserstoff im ätherischen Öl der Boldoblätter.",
+        "en": "Aromatic monoterpene hydrocarbon in the essential oil of boldo leaves."
+      }
+    },
+    {
+      "name": "1,8-Cineol",
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Eucalyptolartiger Bestandteil des ätherischen Öls, der zum kampferartigen Geruch beiträgt.",
+        "en": "Eucalyptol-like component of the essential oil that contributes to the camphor-like smell."
+      }
+    },
+    {
+      "name": "β-Pinen",
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Bicyclisches Monoterpen im ätherischen Öl der Boldoblätter.",
+        "en": "Bicyclic monoterpene in the essential oil of boldo leaves."
+      }
+    },
+    {
+      "name": "Flavonoide",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Sekundäre Pflanzenstoffe (u. a. Glykoside), die zur antioxidativen Wirkung beitragen.",
+        "en": "Secondary plant compounds (including glycosides) contributing to the antioxidant effect."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine)",
+      "category": "tannin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Adstringierende Begleitstoffe des Blattes.",
+        "en": "Astringent accompanying substances of the leaf."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [11, 12, 1, 2],
+      "time_of_day": {
+        "de": "Blätter werden vom immergrünen Strauch geerntet; in der chilenischen Heimat erfolgt die Ernte vor allem im Sommer der Südhalbkugel (November bis Februar).",
+        "en": "Leaves are harvested from the evergreen shrub; in its Chilean homeland gathering takes place mainly in the southern-hemisphere summer (November to February)."
+      },
+      "drying": {
+        "de": "Die ledrigen Blätter im Schatten luftig trocknen, bis sie brüchig sind, und das Aroma erhalten. Nur ganze Blätter arzneilich verwenden; das isolierte ätherische Öl ist nicht zur Einnahme geeignet.",
+        "en": "Air-dry the leathery leaves in the shade until brittle, preserving the aroma. Use only whole leaves medicinally; the isolated essential oil is not suitable for ingestion."
+      },
+      "storage_condition": {
+        "de": "Trocken, kühl und vor Licht geschützt in geschlossenen Gefäßen aufbewahren, um das ätherische Öl zu erhalten.",
+        "en": "Store dry, cool and protected from light in closed containers to preserve the essential oil."
+      }
+    }
+  ],
+  "permaculture_functions": ["pollinator_attractor", "medicinal"]
+}

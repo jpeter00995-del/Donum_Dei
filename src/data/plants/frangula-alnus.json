@@ -1,0 +1,367 @@
+{
+  "slug": "frangula-alnus",
+  "names": {
+    "de": "Faulbaum",
+    "en": "Alder buckthorn",
+    "latin": "Frangula alnus"
+  },
+  "family": {
+    "de": "Kreuzdorngewächse",
+    "en": "Buckthorn family",
+    "latin": "Rhamnaceae"
+  },
+  "description": {
+    "de": "Der Faulbaum (Frangula alnus, syn. Rhamnus frangula) ist ein dornenloser, sommergrüner Strauch von 2 bis 6 Metern Höhe aus der Familie der Kreuzdorngewächse mit dunkler Rinde und auffallend zitronengelber Innenrinde. Arzneilich genutzt wird die getrocknete Rinde von Stämmen und Zweigen, die Faulbaumrinde (Frangulae cortex). Sie enthält Anthrachinon-Glykoside (Glucofrangulin A und B, Frangulin A und B) und wirkt als mild abführendes Mittel auf den Dickdarm. Die Rinde muss vor der Verwendung mindestens ein Jahr gelagert oder erhitzt werden, da frische Rinde heftiges Erbrechen auslöst.",
+    "en": "Alder buckthorn (Frangula alnus, syn. Rhamnus frangula) is a thornless, deciduous shrub of 2 to 6 metres in the buckthorn family, with dark bark and a striking lemon-yellow inner bark. The medicinal part is the dried bark of stems and branches, known as frangula bark (Frangulae cortex). It contains anthraquinone glycosides (glucofrangulin A and B, frangulin A and B) and acts as a mild stimulant laxative on the large intestine. The bark must be stored for at least one year or heat-treated before use, because fresh bark causes violent vomiting."
+  },
+  "teaser": {
+    "de": "Ein dornenloser Strauch, dessen jahrelang gereifte Rinde ein mildes pflanzliches Abführmittel liefert.",
+    "en": "A thornless shrub whose year-aged bark yields a gentle herbal laxative."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["digestion"],
+      "internal_external": "internal",
+      "plant_part": "bark",
+      "evidence_level": "ema_well_established",
+      "preparation": {
+        "amount_dry_g": { "min": 0.5, "max": 2.5 },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 1,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "0,5 bis 2,5 g getrocknete, mindestens ein Jahr gelagerte Faulbaumrinde mit 150 ml heißem Wasser übergießen, 10 bis 15 Minuten ziehen lassen und abseihen. Einmal täglich, vorzugsweise abends, einnehmen. Die Dosis ist auf 10 bis 30 mg Hydroxyanthracen-Derivate (berechnet als Glucofrangulin A) pro Tag standardisiert; stets die niedrigste wirksame Dosis verwenden. Nicht länger als eine Woche ohne ärztlichen Rat anwenden.",
+          "en": "Pour 150 ml of hot water over 0.5 to 2.5 g of dried frangula bark aged at least one year, steep 10 to 15 minutes, then strain. Take once daily, preferably in the evening. The dose is standardised to 10 to 30 mg hydroxyanthracene derivatives (calculated as glucofrangulin A) per day; always use the lowest effective dose. Do not use for longer than one week without medical advice."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Nur für Erwachsene und Jugendliche über 12 Jahren.",
+          "en": "Only for adults and adolescents over 12 years of age."
+        }
+      },
+      "description": {
+        "de": "Kurzfristige gelegentliche Verstopfung",
+        "en": "Short-term occasional constipation"
+      },
+      "source_ids": ["ema_monograph", "ema_summary", "wikipedia_de"]
+    },
+    {
+      "form": "tincture",
+      "target": ["digestion"],
+      "internal_external": "internal",
+      "plant_part": "bark",
+      "evidence_level": "ema_well_established",
+      "preparation": {
+        "doses_per_day": 1,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "Flüssige oder standardisierte Trockenextrakt-Zubereitungen aus Faulbaumrinde werden so dosiert, dass 10 bis 30 mg Hydroxyanthracen-Derivate (als Glucofrangulin A) pro Tag erreicht werden. Einmal täglich abends einnehmen, immer die individuell niedrigste wirksame Dosis. Nur kurzfristig, maximal eine Woche. Fertige standardisierte Präparate sind zuverlässiger dosierbar als selbst angesetzte Tinkturen.",
+          "en": "Liquid or standardised dry-extract preparations of frangula bark are dosed to deliver 10 to 30 mg hydroxyanthracene derivatives (as glucofrangulin A) per day. Take once daily in the evening, always at the lowest individually effective dose. Short-term only, maximum one week. Standardised commercial products are more reliably dosed than home-made tinctures."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Nur für Erwachsene und Jugendliche über 12 Jahren.",
+          "en": "Only for adults and adolescents over 12 years of age."
+        }
+      },
+      "description": {
+        "de": "Standardisierter Extrakt gegen Verstopfung",
+        "en": "Standardised extract for constipation"
+      },
+      "source_ids": ["ema_monograph", "ema_summary"]
+    },
+    {
+      "form": "tea",
+      "target": ["digestion", "liver"],
+      "internal_external": "internal",
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": { "min": 0.5, "max": 2.0 },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 1,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "Volkstümlich wurde ein schwacher Aufguss der gereiften Rinde als sanftes Mittel zur Anregung der Darmtätigkeit und der Verdauung verwendet. 0,5 bis 2 g gelagerte Rinde mit 150 ml heißem Wasser überbrühen, 10 Minuten ziehen lassen. Diese Anwendung ist traditionell und nicht durch klinische Studien belegt; dieselben Sicherheitsgrenzen wie bei der abführenden Anwendung gelten.",
+          "en": "Traditionally, a weak infusion of the aged bark was used as a gentle means of stimulating bowel activity and digestion. Steep 0.5 to 2 g of stored bark in 150 ml of hot water for 10 minutes. This use is traditional and not supported by clinical trials; the same safety limits as for the laxative use apply."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Nur für Erwachsene und Jugendliche über 12 Jahren.",
+          "en": "Only for adults and adolescents over 12 years of age."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Anregung der Verdauung",
+        "en": "Traditional digestive stimulation"
+      },
+      "source_ids": ["wikipedia_de", "wikipedia_en"]
+    }
+  ],
+  "season": {
+    "active_months": [4, 5, 6],
+    "harvest_part": {
+      "de": "Rinde von Stämmen und Zweigen",
+      "en": "Bark of stems and branches"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Faulbaumrinde ist ein anthrachinonhaltiges, stimulierendes Abführmittel und darf nur kurzfristig (maximal eine Woche) und nicht ohne ärztlichen Rat dauerhaft angewendet werden. Frische Rinde ist giftig und löst heftiges Erbrechen, Übelkeit und kolikartige Bauchschmerzen aus; nur mindestens ein Jahr gelagerte oder bei 80 bis 100 °C erhitzte Rinde darf verwendet werden. Auch Beeren und Blätter sind giftig. Nicht anwenden in Schwangerschaft, Stillzeit und bei Kindern unter 12 Jahren. Längerer oder übermäßiger Gebrauch kann zu Elektrolytverlusten, insbesondere Kaliumverlust, Gewöhnung, Verschlimmerung der Verstopfung (atonischer Dickdarm) und harmloser Verfärbung des Urins führen. Bei anhaltenden Beschwerden ärztlichen Rat einholen.",
+      "en": "Frangula bark is an anthraquinone-containing stimulant laxative and should be used only short term (maximum one week) and not continuously without medical advice. Fresh bark is toxic and causes violent vomiting, nausea and colicky abdominal pain; only bark aged at least one year or heat-treated at 80 to 100 °C may be used. The berries and leaves are also toxic. Do not use during pregnancy, breastfeeding or in children under 12 years. Prolonged or excessive use can cause electrolyte losses, especially loss of potassium, habituation, worsening of constipation (atonic colon) and harmless discolouration of the urine. Seek medical advice if symptoms persist."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In der Schwangerschaft nicht anwenden; stimulierende Anthrachinon-Abführmittel werden in der Schwangerschaft nicht empfohlen.",
+        "en": "Do not use during pregnancy; stimulant anthraquinone laxatives are not recommended in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In der Stillzeit nicht anwenden, da Metaboliten in die Muttermilch übergehen können.",
+        "en": "Do not use while breastfeeding, as metabolites may pass into breast milk."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Nicht bei Kindern unter 12 Jahren anwenden.",
+        "en": "Do not use in children under 12 years of age."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Herzglykoside (z. B. Digoxin)",
+        "mechanism": {
+          "de": "Durch Kaliumverlust bei längerem Gebrauch kann die Wirkung und Toxizität von Herzglykosiden verstärkt werden.",
+          "en": "Potassium loss from prolonged use can increase the action and toxicity of cardiac glycosides."
+        },
+        "severity": "avoid",
+        "source_id": "ema_monograph"
+      },
+      {
+        "drug_class": "Diuretika",
+        "mechanism": {
+          "de": "Gemeinsame Anwendung kann den Kaliumverlust verstärken und das Elektrolytungleichgewicht vergrößern.",
+          "en": "Concurrent use can intensify potassium loss and aggravate electrolyte imbalance."
+        },
+        "severity": "caution",
+        "source_id": "ema_monograph"
+      },
+      {
+        "drug_class": "Kortikosteroide",
+        "mechanism": {
+          "de": "Verstärkter Kaliumverlust bei gleichzeitiger Anwendung mit Nebennierenrinden-Steroiden.",
+          "en": "Increased potassium loss when used together with adrenocortical steroids."
+        },
+        "severity": "caution",
+        "source_id": "ema_monograph"
+      },
+      {
+        "drug_class": "Antiarrhythmika",
+        "mechanism": {
+          "de": "Ein durch Kaliumverlust verursachtes Elektrolytungleichgewicht kann die Wirkung von Antiarrhythmika beeinflussen.",
+          "en": "Electrolyte imbalance from potassium loss may affect the action of antiarrhythmic medicines."
+        },
+        "severity": "caution",
+        "source_id": "ema_monograph"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Darmverschluss (Ileus) und Verengung des Darms",
+        "en": "Intestinal obstruction (ileus) and narrowing of the intestine"
+      },
+      {
+        "de": "Darmatonie (Verlust der Muskelkraft des Darms)",
+        "en": "Intestinal atony (loss of intestinal muscle strength)"
+      },
+      {
+        "de": "Blinddarmentzündung (Appendizitis)",
+        "en": "Appendicitis"
+      },
+      {
+        "de": "Chronisch-entzündliche Darmerkrankungen (Morbus Crohn, Colitis ulcerosa)",
+        "en": "Inflammatory bowel disease (Crohn's disease, ulcerative colitis)"
+      },
+      {
+        "de": "Bauchschmerzen unbekannter Ursache",
+        "en": "Abdominal pain of unknown origin"
+      },
+      {
+        "de": "Schwere Dehydratation mit Wasser- und Salzverlust",
+        "en": "Severe dehydration with water and salt loss"
+      },
+      {
+        "de": "Kinder unter 12 Jahren",
+        "en": "Children under 12 years of age"
+      },
+      {
+        "de": "Schwangerschaft und Stillzeit",
+        "en": "Pregnancy and breastfeeding"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "ema_monograph",
+      "type": "monograph",
+      "title": "European Union herbal monograph on Rhamnus frangula L. (Frangula alnus Miller), cortex (Revision 1)",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/european-union-herbal-monograph-rhamnus-frangula-l-cortex-revision-1_en.pdf",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "ema_summary",
+      "type": "monograph",
+      "title": "Frangula bark summary for the public (HMPC) - European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/frangulae-cortex",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "ema_assessment",
+      "type": "monograph",
+      "title": "Assessment report on Rhamnus frangula L., cortex (Revision 1) - European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-report/assessment-report-rhamnus-frangula-l-cortex-revision-1_en.pdf",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_de",
+      "type": "wikipedia",
+      "title": "Faulbaum - Wikipedia (deutsch)",
+      "url": "https://de.wikipedia.org/wiki/Faulbaum",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_en",
+      "type": "wikipedia",
+      "title": "Frangula alnus - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Frangula_alnus",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikidata",
+      "type": "wikidata",
+      "title": "Frangula alnus (Q161139) - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q161139",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "commons_kohler",
+      "type": "commons",
+      "title": "File:Rhamnus frangula - Köhler's Medizinal-Pflanzen-120.jpg - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Rhamnus_frangula_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-120.jpg",
+      "accessed": "2026-06-12"
+    }
+  ],
+  "image": {
+    "filename": "frangula-alnus.webp",
+    "alt": {
+      "de": "Botanische Illustration des Faulbaums mit blühendem Zweig, Früchten und Blütendetails",
+      "en": "Botanical illustration of alder buckthorn with a flowering branch, fruits and floral details"
+    },
+    "license": "Public domain",
+    "author": "Walther Otto Müller, in Köhler's Medizinal-Pflanzen (1887), Plate 120",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rhamnus_frangula_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-120.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Glucofrangulin A",
+      "category": "glycoside",
+      "percent_range": "min. 7%",
+      "plant_part": "bark",
+      "note": {
+        "de": "Anthrachinon-Glykosid und arzneilich bestimmende Leitsubstanz; die Rinde muss laut Arzneibuch mindestens 7 % Glucofranguline (berechnet als Glucofrangulin A) enthalten.",
+        "en": "Anthraquinone glycoside and the pharmacopoeial marker substance; the bark must contain at least 7% glucofrangulins (calculated as glucofrangulin A)."
+      }
+    },
+    {
+      "name": "Glucofrangulin B",
+      "category": "glycoside",
+      "plant_part": "bark",
+      "note": {
+        "de": "Anthrachinon-Glykosid, das gemeinsam mit Glucofrangulin A die abführende Wirkung trägt.",
+        "en": "Anthraquinone glycoside that together with glucofrangulin A produces the laxative effect."
+      }
+    },
+    {
+      "name": "Frangulin A",
+      "category": "glycoside",
+      "plant_part": "bark",
+      "note": {
+        "de": "Anthrachinon-Glykosid (Emodin-Rhamnosid), entsteht beim Reifen aus den Glucofrangulinen.",
+        "en": "Anthraquinone glycoside (emodin rhamnoside), formed during ageing from the glucofrangulins."
+      }
+    },
+    {
+      "name": "Frangulin B",
+      "category": "glycoside",
+      "plant_part": "bark",
+      "note": {
+        "de": "Anthrachinon-Glykosid der Faulbaumrinde, mitverantwortlich für die abführende Wirkung.",
+        "en": "Anthraquinone glycoside of frangula bark, contributing to the laxative effect."
+      }
+    },
+    {
+      "name": "Emodin",
+      "category": "glycoside",
+      "plant_part": "bark",
+      "note": {
+        "de": "Anthrachinon-Aglykon; in frischer Rinde liegen reaktive Vorstufen vor, die das Erbrechen verursachen und beim Lagern oder Erhitzen oxidiert werden.",
+        "en": "Anthraquinone aglycone; fresh bark contains reactive precursors that cause vomiting and are oxidised during ageing or heating."
+      }
+    },
+    {
+      "name": "Gerbstoffe (Tannine)",
+      "category": "tannin",
+      "plant_part": "bark",
+      "note": {
+        "de": "Adstringierende Begleitstoffe der Rinde.",
+        "en": "Astringent accompanying substances of the bark."
+      }
+    },
+    {
+      "name": "Flavonoide",
+      "category": "flavonoid",
+      "plant_part": "bark",
+      "note": {
+        "de": "Sekundäre Pflanzenstoffe in geringerer Menge.",
+        "en": "Secondary plant compounds present in smaller amounts."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "bark",
+      "best_months": [4, 5, 6],
+      "time_of_day": {
+        "de": "Im Frühjahr bis Frühsommer, wenn sich die Rinde gut vom Holz löst (Saftfluss).",
+        "en": "In spring to early summer, when the bark peels easily from the wood (sap flow)."
+      },
+      "drying": {
+        "de": "Rinde von Stämmen und Zweigen schälen und an der Luft bzw. in der Sonne trocknen. Vor der arzneilichen Verwendung mindestens ein Jahr lagern oder bei 80 bis 100 °C erhitzen, damit die frischen, brechreizerregenden Anthranole oxidieren.",
+        "en": "Peel the bark from stems and branches and dry it in air or sun. Before medicinal use, store for at least one year or heat at 80 to 100 °C so that the fresh, emetic anthranols are oxidised."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken, vor Licht und Feuchtigkeit geschützt; frühestens nach einjähriger Reifung verwenden.",
+        "en": "Dry, protected from light and moisture; use no earlier than after one year of ageing."
+      }
+    }
+  ],
+  "permaculture_functions": ["pollinator_attractor", "medicinal", "vertical_mid"]
+}

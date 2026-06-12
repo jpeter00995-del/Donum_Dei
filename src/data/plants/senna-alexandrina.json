@@ -1,0 +1,393 @@
+{
+  "slug": "senna-alexandrina",
+  "names": {
+    "de": "Alexandriner Senna",
+    "en": "Senna",
+    "latin": "Senna alexandrina"
+  },
+  "family": {
+    "de": "Hülsenfrüchtler",
+    "en": "Legume family",
+    "latin": "Fabaceae (Caesalpinioideae)"
+  },
+  "description": {
+    "de": "Die Alexandrinische Senna (Senna alexandrina, syn. Cassia senna, Cassia angustifolia, Cassia acutifolia) ist ein sommergrüner Halbstrauch oder Strauch von 0,5 bis 3 Metern Höhe aus der Familie der Hülsenfrüchtler. Die Pflanze ist im nordöstlichen Afrika, auf der Arabischen Halbinsel und in Indien heimisch und wird vor allem im oberen Niltal sowie in Südindien (Tinnevelly) angebaut. Arzneilich genutzt werden die getrockneten Fiederblättchen (Sennesblätter, Sennae folium) und die flachen, braunen Hülsenfrüchte (Sennesfrüchte, Sennae fructus). Beide Drogen enthalten Sennoside (Dianthron-Glykoside, vor allem Sennosid A und B), die als stimulierendes Abführmittel auf den Dickdarm wirken.",
+    "en": "Alexandrian senna (Senna alexandrina, syn. Cassia senna, Cassia angustifolia, Cassia acutifolia) is a deciduous subshrub or shrub of 0.5 to 3 metres in the legume family. The plant is native to north-eastern Africa, the Arabian Peninsula and India, and is cultivated mainly in the upper Nile region and in southern India (Tinnevelly). The medicinal parts are the dried leaflets (senna leaf, Sennae folium) and the flat, brown pods (senna pods, Sennae fructus). Both drugs contain sennosides (dianthrone glycosides, chiefly sennoside A and B), which act as a stimulant laxative on the large intestine."
+  },
+  "teaser": {
+    "de": "Ein wärmeliebender Strauch, dessen Blätter und Hülsen seit dem Mittelalter ein bewährtes pflanzliches Abführmittel liefern.",
+    "en": "A heat-loving shrub whose leaves and pods have provided a proven herbal laxative since the Middle Ages."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["digestion"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "ema_well_established",
+      "preparation": {
+        "amount_dry_g": { "min": 0.5, "max": 2.0 },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 1,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "0,5 bis 2 g zerkleinerte getrocknete Sennesblätter mit 150 ml heißem Wasser übergießen, 10 Minuten ziehen lassen und abseihen. Einmal täglich, vorzugsweise abends, einnehmen. Die Dosis ist auf 15 bis 30 mg Hydroxyanthracen-Derivate (berechnet als Sennosid B) pro Tag standardisiert; stets die niedrigste Dosis verwenden, die einen weichen geformten Stuhl bewirkt. Die Wirkung tritt erst nach 8 bis 12 Stunden ein, daher abendliche Einnahme. Nicht länger als ein bis zwei Wochen ohne ärztlichen Rat anwenden.",
+          "en": "Pour 150 ml of hot water over 0.5 to 2 g of cut, dried senna leaves, steep 10 minutes, then strain. Take once daily, preferably in the evening. The dose is standardised to 15 to 30 mg hydroxyanthracene derivatives (calculated as sennoside B) per day; always use the lowest dose that produces a soft formed stool. The effect appears only after 8 to 12 hours, hence the evening dose. Do not use for longer than one to two weeks without medical advice."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Nur für Erwachsene und Jugendliche über 12 Jahren.",
+          "en": "Only for adults and adolescents over 12 years of age."
+        }
+      },
+      "description": {
+        "de": "Kurzfristige gelegentliche Verstopfung",
+        "en": "Short-term occasional constipation"
+      },
+      "source_ids": ["ema_folium_summary", "ema_folium_monograph", "wikipedia_de"]
+    },
+    {
+      "form": "tea",
+      "target": ["digestion"],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "ema_well_established",
+      "preparation": {
+        "amount_dry_g": { "min": 1.0, "max": 2.0 },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 1,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "Ein Aufguss aus zerkleinerten getrockneten Sennesfrüchten (Hülsen) wird so dosiert, dass 15 bis 30 mg Hydroxyanthracen-Derivate (berechnet als Sennosid B) pro Tag erreicht werden. Einmal täglich abends einnehmen, immer die niedrigste wirksame Dosis. Die Wirkung setzt nach 8 bis 12 Stunden ein. Nur kurzfristig, maximal ein bis zwei Wochen. Standardisierte Fertigpräparate sind zuverlässiger dosierbar als selbst angesetzter Tee.",
+          "en": "An infusion of cut, dried senna pods is dosed to deliver 15 to 30 mg hydroxyanthracene derivatives (calculated as sennoside B) per day. Take once daily in the evening, always at the lowest effective dose. The effect sets in after 8 to 12 hours. Short term only, maximum one to two weeks. Standardised commercial products are more reliably dosed than home-made pod tea."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Nur für Erwachsene und Jugendliche über 12 Jahren.",
+          "en": "Only for adults and adolescents over 12 years of age."
+        }
+      },
+      "description": {
+        "de": "Kurzfristige gelegentliche Verstopfung",
+        "en": "Short-term occasional constipation"
+      },
+      "source_ids": ["ema_fructus_summary", "ema_fructus_monograph", "wikipedia_de"]
+    },
+    {
+      "form": "tea",
+      "target": ["digestion"],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "ema_well_established",
+      "preparation": {
+        "doses_per_day": 1,
+        "max_duration_weeks": 1,
+        "instructions": {
+          "de": "Zur Darmentleerung vor diagnostischen Eingriffen oder Operationen werden Sennesfrüchte als Einzeldosis eingesetzt, dosiert auf 15 bis 30 mg Hydroxyanthracen-Derivate (als Sennosid B). Anwendung nur nach ärztlicher Anweisung und nicht zur Daueranwendung. Auf ausreichende Flüssigkeitszufuhr achten.",
+          "en": "For bowel cleansing before diagnostic procedures or surgery, senna pods are used as a single dose, dosed to 15 to 30 mg hydroxyanthracene derivatives (as sennoside B). Use only on medical advice and not for continuous use. Ensure adequate fluid intake."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Nur für Erwachsene und Jugendliche über 12 Jahren.",
+          "en": "Only for adults and adolescents over 12 years of age."
+        }
+      },
+      "description": {
+        "de": "Darmentleerung vor medizinischen Eingriffen",
+        "en": "Bowel cleansing before medical procedures"
+      },
+      "source_ids": ["ema_fructus_summary", "ema_fructus_monograph"]
+    }
+  ],
+  "season": {
+    "active_months": [7, 8, 9, 10],
+    "harvest_part": {
+      "de": "Fiederblättchen und reife Hülsenfrüchte",
+      "en": "Leaflets and ripe pods"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Senna (Sennesblätter und Sennesfrüchte) ist ein anthranoidhaltiges, stimulierendes Abführmittel und darf nur kurzfristig (höchstens ein bis zwei Wochen) und nicht ohne ärztlichen Rat dauerhaft angewendet werden. In der Schwangerschaft nur nach ärztlichem Rat, in der Stillzeit zu meiden; nicht bei Kindern unter 12 Jahren. Bei Darmverschluss (Ileus), chronisch-entzündlichen Darmerkrankungen (Morbus Crohn, Colitis ulcerosa), Blinddarmentzündung und Bauchschmerzen unbekannter Ursache darf Senna nicht verwendet werden. Längerer oder übermäßiger Gebrauch führt zu Kaliumverlust, der die Wirkung von Herzglykosiden gefährlich verstärken kann, sowie zu Gewöhnung, einer harmlosen dunklen Pigmentierung der Darmschleimhaut (Melanosis coli) und langfristig zu einem trägen, atonischen Dickdarm. Für isolierte Anthranoide werden mögliche genotoxische Wirkungen diskutiert; daher keine Daueranwendung. Eine harmlose Rot- bis Braunverfärbung des Urins kann auftreten. Bei anhaltenden Beschwerden ärztlichen Rat einholen.",
+      "en": "Senna (senna leaf and senna pods) is an anthranoid-containing stimulant laxative and should be used only short term (at most one to two weeks) and not continuously without medical advice. During pregnancy use only on medical advice, avoid during breastfeeding; do not use in children under 12 years. Senna must not be used in cases of intestinal obstruction (ileus), inflammatory bowel disease (Crohn's disease, ulcerative colitis), appendicitis or abdominal pain of unknown cause. Prolonged or excessive use causes loss of potassium, which can dangerously enhance the action of cardiac glycosides, as well as habituation, a harmless dark pigmentation of the intestinal lining (melanosis coli) and, in the long term, a sluggish, atonic colon. Possible genotoxic effects are discussed for isolated anthranoids, so continuous use should be avoided. A harmless red to brown discolouration of the urine may occur. Seek medical advice if symptoms persist."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "In der Schwangerschaft nur nach ärztlichem Rat anwenden; stimulierende Anthranoid-Abführmittel werden in der Schwangerschaft nicht empfohlen.",
+        "en": "Use during pregnancy only on medical advice; stimulant anthranoid laxatives are not recommended in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "In der Stillzeit zu meiden, da kleine Mengen aktiver Metaboliten (Rhein) in die Muttermilch übergehen können.",
+        "en": "Avoid during breastfeeding, as small amounts of active metabolites (rhein) may pass into breast milk."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Nicht bei Kindern unter 12 Jahren anwenden.",
+        "en": "Do not use in children under 12 years of age."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Herzglykoside (z. B. Digoxin)",
+        "mechanism": {
+          "de": "Durch Kaliumverlust bei längerem Gebrauch kann die Wirkung und Toxizität von Herzglykosiden gefährlich verstärkt werden.",
+          "en": "Potassium loss from prolonged use can dangerously increase the action and toxicity of cardiac glycosides."
+        },
+        "severity": "avoid",
+        "source_id": "ema_fructus_monograph"
+      },
+      {
+        "drug_class": "Diuretika (z. B. Thiazide)",
+        "mechanism": {
+          "de": "Gemeinsame Anwendung kann den Kaliumverlust verstärken und das Elektrolytungleichgewicht vergrößern.",
+          "en": "Concurrent use can intensify potassium loss and aggravate electrolyte imbalance."
+        },
+        "severity": "caution",
+        "source_id": "ema_fructus_monograph"
+      },
+      {
+        "drug_class": "Kortikosteroide",
+        "mechanism": {
+          "de": "Verstärkter Kaliumverlust bei gleichzeitiger Anwendung mit Nebennierenrinden-Steroiden.",
+          "en": "Increased potassium loss when used together with adrenocortical steroids."
+        },
+        "severity": "caution",
+        "source_id": "ema_fructus_monograph"
+      },
+      {
+        "drug_class": "Süßholzwurzel (Liquiritiae radix)",
+        "mechanism": {
+          "de": "Süßholz fördert ebenfalls den Kaliumverlust; die gemeinsame Anwendung kann das Elektrolytungleichgewicht verstärken.",
+          "en": "Liquorice also promotes potassium loss; concurrent use can intensify the electrolyte imbalance."
+        },
+        "severity": "caution",
+        "source_id": "ema_fructus_monograph"
+      },
+      {
+        "drug_class": "Antiarrhythmika",
+        "mechanism": {
+          "de": "Ein durch Kaliumverlust verursachtes Elektrolytungleichgewicht kann die Wirkung von Antiarrhythmika beeinflussen.",
+          "en": "Electrolyte imbalance from potassium loss may affect the action of antiarrhythmic medicines."
+        },
+        "severity": "caution",
+        "source_id": "ema_fructus_monograph"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Darmverschluss (Ileus) und Darmverengung (Stenose)",
+        "en": "Intestinal obstruction (ileus) and intestinal narrowing (stenosis)"
+      },
+      {
+        "de": "Chronisch-entzündliche Darmerkrankungen (Morbus Crohn, Colitis ulcerosa)",
+        "en": "Inflammatory bowel disease (Crohn's disease, ulcerative colitis)"
+      },
+      {
+        "de": "Blinddarmentzündung (Appendizitis)",
+        "en": "Appendicitis"
+      },
+      {
+        "de": "Bauchschmerzen unbekannter Ursache",
+        "en": "Abdominal pain of unknown cause"
+      },
+      {
+        "de": "Schwere Dehydratation mit Wasser- und Salzverlust",
+        "en": "Severe dehydration with water and salt loss"
+      },
+      {
+        "de": "Kinder unter 12 Jahren",
+        "en": "Children under 12 years of age"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "ema_folium_summary",
+      "type": "monograph",
+      "title": "Senna leaf (Sennae folium) - herbal medicinal product - European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/sennae-folium",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "ema_folium_monograph",
+      "type": "monograph",
+      "title": "European Union herbal monograph on Senna alexandrina Mill. (Cassia senna L.; Cassia angustifolia Vahl), folium",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-senna-alexandrina-mill-cassia-senna-l-cassia-angustifolia-vahl-folium_en.pdf",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "ema_fructus_summary",
+      "type": "monograph",
+      "title": "Senna pods (Sennae fructus) - herbal medicinal product - European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/sennae-fructus",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "ema_fructus_monograph",
+      "type": "monograph",
+      "title": "Final European Union herbal monograph on Senna alexandrina Mill. (Cassia senna L.; Cassia angustifolia Vahl), fructus (Revision 1)",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-senna-alexandrina-mill-cassia-senna-l-cassia-angustifolia-vahl-fructus-revision-1_en.pdf",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_de",
+      "type": "wikipedia",
+      "title": "Alexandrinische Senna - Wikipedia (deutsch)",
+      "url": "https://de.wikipedia.org/wiki/Alexandrinische_Senna",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_en",
+      "type": "wikipedia",
+      "title": "Senna alexandrina - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Senna_alexandrina",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikidata",
+      "type": "wikidata",
+      "title": "Senna alexandrina (Q925211) - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q925211",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "commons_kohler",
+      "type": "commons",
+      "title": "File:Senna alexandrina - Köhler's Medizinal-Pflanzen-264.jpg - Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Senna_alexandrina_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-264.jpg",
+      "accessed": "2026-06-12"
+    }
+  ],
+  "image": {
+    "filename": "senna-alexandrina.webp",
+    "alt": {
+      "de": "Botanische Illustration der Alexandrinischen Senna mit blühendem Zweig, Hülsenfrüchten und Blütendetails",
+      "en": "Botanical illustration of Alexandrian senna with a flowering branch, pods and floral details"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, in Köhler's Medizinal-Pflanzen (1887), Plate 264",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Senna_alexandrina_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-264.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Sennosid A",
+      "category": "glycoside",
+      "percent_range": "Blätter ca. 1,5-3%, Früchte 2,5-5%",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Dianthron-Glykosid und arzneilich bestimmende Leitsubstanz; wird im Dickdarm von Bakterien zu wirksamen Anthronen umgewandelt, die Sekretion und Peristaltik anregen.",
+        "en": "Dianthrone glycoside and the principal active marker substance; converted by bacteria in the colon into active anthrones that stimulate secretion and peristalsis."
+      }
+    },
+    {
+      "name": "Sennosid B",
+      "category": "glycoside",
+      "percent_range": "Blätter ca. 1,5-3%, Früchte 2,5-5%",
+      "plant_part": "fruit",
+      "note": {
+        "de": "Dianthron-Glykosid; die Bezugssubstanz, auf die der Hydroxyanthracen-Gehalt der Drogen berechnet wird (Sennesfrüchte mind. 3,4%).",
+        "en": "Dianthrone glycoside; the reference substance to which the hydroxyanthracene content of the drugs is calculated (senna pods at least 3.4%)."
+      }
+    },
+    {
+      "name": "Rhein",
+      "category": "glycoside",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Anthrachinon-Aglykon und aktiver Metabolit; geht in geringen Mengen in die Muttermilch über.",
+        "en": "Anthraquinone aglycone and active metabolite; passes in small amounts into breast milk."
+      }
+    },
+    {
+      "name": "Aloe-Emodin",
+      "category": "glycoside",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Anthrachinon-Aglykon, das gemeinsam mit Rhein zur abführenden Wirkung beiträgt.",
+        "en": "Anthraquinone aglycone that, together with rhein, contributes to the laxative effect."
+      }
+    },
+    {
+      "name": "Naphthalinglykoside (z. B. Tinnevellin-Glykosid)",
+      "category": "glycoside",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Charakteristische Begleitglykoside, die zur Unterscheidung der Senna-Drogen herangezogen werden.",
+        "en": "Characteristic accompanying glycosides used to distinguish the senna drugs."
+      }
+    },
+    {
+      "name": "Schleimstoffe (Mucilage)",
+      "category": "polysaccharide",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Quellende Polysaccharide, die die Drogen begleiten und mild reizmildernd wirken.",
+        "en": "Swelling polysaccharides accompanying the drugs, with a mild soothing effect."
+      }
+    },
+    {
+      "name": "Flavonoide",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Sekundäre Pflanzenstoffe (u. a. Kaempferol-Derivate) in geringerer Menge.",
+        "en": "Secondary plant compounds (including kaempferol derivatives) present in smaller amounts."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [7, 8, 9],
+      "time_of_day": {
+        "de": "An trockenen Tagen im Spätsommer, wenn die Fiederblättchen voll entwickelt sind.",
+        "en": "On dry days in late summer, when the leaflets are fully developed."
+      },
+      "drying": {
+        "de": "Die Fiederblättchen im Schatten luftig trocknen, bis sie brüchig sind; Sonneneinstrahlung und hohe Temperaturen vermeiden, um die Sennoside zu schonen.",
+        "en": "Dry the leaflets airily in the shade until brittle; avoid direct sun and high temperatures to preserve the sennosides."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken, vor Licht und Feuchtigkeit geschützt in dicht schließenden Gefäßen aufbewahren.",
+        "en": "Store dry, protected from light and moisture in tightly closed containers."
+      }
+    },
+    {
+      "plant_part": "fruit",
+      "best_months": [9, 10],
+      "time_of_day": {
+        "de": "Im Herbst, wenn die flachen Hülsen ausgereift und braun verfärbt sind.",
+        "en": "In autumn, when the flat pods are ripe and turned brown."
+      },
+      "drying": {
+        "de": "Die Hülsen luftig nachtrocknen, bis sie hart und gut lagerfähig sind.",
+        "en": "Air-dry the pods until hard and well suited for storage."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken, vor Licht und Feuchtigkeit geschützt aufbewahren.",
+        "en": "Store dry, protected from light and moisture."
+      }
+    }
+  ],
+  "permaculture_functions": ["nitrogen_fixer", "pollinator_attractor", "medicinal"]
+}
