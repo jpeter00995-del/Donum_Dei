@@ -1,0 +1,297 @@
+{
+  "slug": "eschscholzia-californica",
+  "names": {
+    "de": "Kalifornischer Mohn",
+    "en": "California poppy",
+    "latin": "Eschscholzia californica"
+  },
+  "family": {
+    "de": "Mohngewächse",
+    "en": "Poppy family",
+    "latin": "Papaveraceae"
+  },
+  "description": {
+    "de": "Der Kalifornische Mohn (auch Kalifornischer Goldmohn, Goldmohn oder Schlafmützchen genannt) ist eine niedrige, mehrjährige bis einjährige Pflanze aus der Familie der Mohngewächse mit fein zerteilten, blaugrünen Blättern und leuchtend orangefarbenen bis goldgelben, untertassenförmigen Blüten, die sich bei Sonnenschein öffnen und sich nachts sowie bei kühlem Wetter schließen. Ursprünglich in Kalifornien und im Südwesten Nordamerikas beheimatet, wird er heute weltweit als Zierpflanze kultiviert. Trotz seines Namens ist er nicht mit dem Schlafmohn (Papaver somniferum) gleichzusetzen: Er enthält kein Morphin und keine Opiate. Seine Wirkung beruht auf einer ganz anderen Gruppe von Alkaloiden (unter anderem Californidin, Eschscholtzin und Protopin). Medizinisch verwendet wird das blühende Kraut (oberirdische Teile, Eschscholziae herba).",
+    "en": "The California poppy (also called golden poppy or 'Schlafmützchen' in German) is a low-growing annual to short-lived perennial of the poppy family, with finely divided blue-green foliage and brilliant orange to golden saucer-shaped flowers that open in sunshine and close at night and in cold weather. Native to California and the southwestern United States and Mexico, it is now cultivated worldwide as an ornamental. Despite its name it is not the same as the opium poppy (Papaver somniferum): it contains no morphine and no opiates. Its effects come from an entirely different group of alkaloids (including californidine, eschscholtzine and protopine). The medicinal part is the flowering aerial parts of the herb (Eschscholziae herba)."
+  },
+  "teaser": {
+    "de": "Leuchtend orangefarbener Mohn aus Kalifornien — kein Verwandter des Schlafmohns im Sinne von Opium: enthält kein Morphin. Das Kraut wird traditionell zur Linderung von leichtem nervlichem Stress und als Einschlafhilfe verwendet.",
+    "en": "Brilliant orange poppy from California — not an opium plant: it contains no morphine. The aerial herb is traditionally used to relieve mild mental stress and tension and to aid sleep."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "1–2 g getrocknetes, zerkleinertes Kraut mit etwa 150 ml kochendem Wasser übergiessen, zugedeckt 10 Minuten ziehen lassen und abseihen. Als Einschlafhilfe eine Tasse rund 30–60 Minuten vor dem Schlafengehen trinken; zur Linderung von leichtem nervlichem Stress über den Tag verteilt.",
+          "en": "Pour about 150 ml of boiling water over 1–2 g of dried, comminuted herb, cover and steep for 10 minutes, then strain. As a sleep aid, drink one cup about 30–60 minutes before going to bed; for relief of mild mental stress, spread doses over the day."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur für Erwachsene ab 18 Jahren; mangels Daten nicht für Kinder und Jugendliche unter 18 Jahren (EMA HMPC).",
+          "en": "Adults aged 18 and over only; not for children and adolescents under 18 due to lack of data (EMA HMPC)."
+        }
+      },
+      "description": {
+        "de": "Traditioneller Tee aus dem Kraut zur Linderung leichter Symptome von nervlichem Stress und als sanfte Einschlafhilfe. Macht im Gegensatz zum Schlafmohn nicht abhängig und enthält kein Morphin.",
+        "en": "Traditional tea from the herb to relieve mild symptoms of mental stress and as a gentle sleep aid. Unlike the opium poppy it is not addictive and contains no morphine."
+      },
+      "source_ids": [
+        "ema_monograph",
+        "wikipedia_de",
+        "wikipedia_en"
+      ]
+    },
+    {
+      "form": "tincture",
+      "target": [
+        "nervous_system"
+      ],
+      "internal_external": "internal",
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_ml": {
+          "min": 1,
+          "max": 4
+        },
+        "doses_per_day": 2,
+        "instructions": {
+          "de": "1–4 ml Tinktur (üblich 1:5 in Alkohol) in etwas Wasser einnehmen. Als Einschlafhilfe eine Dosis rund 30–60 Minuten vor dem Schlafengehen; zur Beruhigung bei leichtem nervlichem Stress nach Bedarf, höchstens zweimal täglich.",
+          "en": "Take 1–4 ml of tincture (typically 1:5 in alcohol) in a little water. As a sleep aid, take one dose about 30–60 minutes before bedtime; for mild mental stress, as needed, up to twice daily."
+        }
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur für Erwachsene ab 18 Jahren; mangels Daten nicht für Kinder und Jugendliche unter 18 Jahren (EMA HMPC).",
+          "en": "Adults aged 18 and over only; not for children and adolescents under 18 due to lack of data (EMA HMPC)."
+        }
+      },
+      "description": {
+        "de": "Alkoholischer Auszug aus dem blühenden Kraut, traditionell bei leichtem nervlichem Stress und Einschlafstörungen verwendet. Wegen des Alkoholgehalts und der beruhigenden Wirkung nicht vor dem Autofahren einnehmen.",
+        "en": "Alcoholic extract of the flowering herb, traditionally used for mild mental stress and difficulty falling asleep. Because of the alcohol content and sedative effect, do not take before driving."
+      },
+      "source_ids": [
+        "ema_monograph",
+        "wikipedia_en"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Blühendes Kraut (oberirdische Teile)",
+      "en": "Flowering aerial parts (herb)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Kann müde machen und die Reaktionsfähigkeit beeinträchtigen — nach einer Abenddosis nicht Auto fahren oder Maschinen bedienen. Die beruhigende Wirkung kann sich mit anderen Beruhigungsmitteln und mit Alkohol verstärken. Wegen fehlender Daten nicht in Schwangerschaft und Stillzeit sowie nicht bei Kindern und Jugendlichen unter 18 Jahren anwenden. Halten die Beschwerden länger als zwei Wochen an oder verschlimmern sie sich, eine Ärztin, einen Arzt oder eine qualifizierte Fachperson aufsuchen.",
+      "en": "May cause drowsiness and impair reactions — do not drive or operate machinery after an evening dose. The sedative effect may add to that of other sedatives and of alcohol. Owing to a lack of data, do not use during pregnancy and breastfeeding, nor in children and adolescents under 18 years. If symptoms last longer than two weeks or worsen, consult a doctor or qualified healthcare practitioner."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Sicherheit in der Schwangerschaft nicht belegt; laut EMA-Monographie wird die Anwendung in der Schwangerschaft nicht empfohlen.",
+        "en": "Safety in pregnancy not established; per the EMA monograph, use during pregnancy is not recommended."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Sicherheit in der Stillzeit nicht belegt; laut EMA-Monographie wird die Anwendung in der Stillzeit nicht empfohlen.",
+        "en": "Safety during breastfeeding not established; per the EMA monograph, use during lactation is not recommended."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Bei Kindern und Jugendlichen unter 18 Jahren wegen fehlender Daten nicht anwenden (EMA-Monographie).",
+        "en": "Not to be used in children and adolescents under 18 years owing to a lack of data (EMA monograph)."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Sedatives/CNS depressants (benzodiazepines, alcohol)",
+        "mechanism": {
+          "de": "Die beruhigende, schlaffördernde Wirkung kann sich mit zentral dämpfenden Mitteln und Alkohol theoretisch addieren und Müdigkeit verstärken. Die EMA-Monographie nennt zwar keine bestätigten Wechselwirkungen, eine gleichzeitige Anwendung sollte aber vorsichtig erfolgen.",
+          "en": "The calming, sleep-promoting effect may theoretically add to that of central nervous system depressants and alcohol, increasing drowsiness. The EMA monograph reports no confirmed interactions, but concurrent use should be approached with caution."
+        },
+        "severity": "caution"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegenüber Kalifornischem Mohn oder anderen Mohngewächsen.",
+        "en": "Hypersensitivity to California poppy or other members of the poppy family."
+      },
+      {
+        "de": "Nur mit Vorsicht zusammen mit anderen Beruhigungsmitteln, Schlafmitteln oder Alkohol einnehmen.",
+        "en": "Combine only with caution with other sedatives, sleep aids or alcohol."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "ema_monograph",
+      "type": "monograph",
+      "title": "European Union herbal monograph on Eschscholzia californica Cham., herba (EMA/HMPC/680372/2013)",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-european-union-herbal-monograph-eschscholzia-californica-cham-herba_en.pdf",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "ema_overview",
+      "type": "monograph",
+      "title": "EMA — Eschscholziae herba (California poppy): herbal medicine overview",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/eschscholziae-herba",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "ema_assessment",
+      "type": "monograph",
+      "title": "EMA — Final assessment report on Eschscholzia californica Cham., herba",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-eschscholzia-californica-cham-herba_en.pdf",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_en",
+      "type": "wikipedia",
+      "title": "Eschscholzia californica — Wikipedia (English)",
+      "url": "https://en.wikipedia.org/wiki/Eschscholzia_californica",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikipedia_de",
+      "type": "wikipedia",
+      "title": "Kalifornischer Mohn — Wikipedia (Deutsch)",
+      "url": "https://de.wikipedia.org/wiki/Kalifornischer_Mohn",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "wikidata",
+      "type": "wikidata",
+      "title": "Eschscholzia californica (Q156831) — Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q156831",
+      "accessed": "2026-06-12"
+    },
+    {
+      "id": "commons_image",
+      "type": "commons",
+      "title": "File:Eschscholzia californica - May 2023 - Sarah Stierch.jpg — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Eschscholzia_californica_-_May_2023_-_Sarah_Stierch.jpg",
+      "accessed": "2026-06-12"
+    }
+  ],
+  "image": {
+    "filename": "eschscholzia-californica.webp",
+    "alt": {
+      "de": "Leuchtend orangefarbene Blüten des Kalifornischen Mohns (Eschscholzia californica) mit fein zerteilten blaugrünen Blättern.",
+      "en": "Brilliant orange flowers of the California poppy (Eschscholzia californica) with finely divided blue-green foliage."
+    },
+    "license": "CC BY 4.0",
+    "author": "Missvain",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eschscholzia_californica_-_May_2023_-_Sarah_Stierch.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Californidine",
+      "category": "alkaloid",
+      "percent_range": "variable",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Quartäres Pavin-Alkaloid und eines der Leitalkaloide des Krauts. Kein Morphin oder Opiat.",
+        "en": "Quaternary pavine alkaloid and one of the lead alkaloids of the herb. Not morphine or an opiate."
+      }
+    },
+    {
+      "name": "Eschscholtzine",
+      "category": "alkaloid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Isochinolin-Alkaloid (Pavin-Typ), charakteristisch für die Gattung Eschscholzia.",
+        "en": "Isoquinoline alkaloid (pavine type), characteristic of the genus Eschscholzia."
+      }
+    },
+    {
+      "name": "Protopine",
+      "category": "alkaloid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Isochinolin-Alkaloid, dem beruhigende und krampflösende Eigenschaften zugeschrieben werden.",
+        "en": "Isoquinoline alkaloid to which calming and antispasmodic properties are attributed."
+      }
+    },
+    {
+      "name": "Allocryptopine",
+      "category": "alkaloid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Weiteres Isochinolin-Alkaloid des Krauts. Insgesamt enthält das Kraut nur geringe Mengen Alkaloide (etwa 0,3 %).",
+        "en": "Further isoquinoline alkaloid of the herb. Overall the herb contains only small amounts of alkaloids (about 0.3 %)."
+      }
+    },
+    {
+      "name": "Rutin (Flavonoide)",
+      "category": "flavonoid",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Flavonolglykosid; Vertreter der Flavonoide im Kraut.",
+        "en": "Flavonol glycoside; representative of the flavonoids found in the herb."
+      }
+    },
+    {
+      "name": "Carotenoide",
+      "category": "other",
+      "plant_part": "flower",
+      "note": {
+        "de": "Gelb-orange Farbstoffe (u. a. Eschscholtzxanthin), die den Blütenblättern ihre leuchtende Farbe geben.",
+        "en": "Yellow-orange pigments (including eschscholtzxanthin) that give the petals their brilliant colour."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "note": {
+        "de": "Das blühende Kraut während der Blütezeit (Juni bis September) an einem trockenen Tag ernten und luftig im Schatten trocknen.",
+        "en": "Harvest the flowering herb during the blooming period (June to September) on a dry day and dry it airily in the shade."
+      }
+    }
+  ],
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "medicinal",
+    "ground_cover"
+  ]
+}
