@@ -14,6 +14,6 @@ const { plant } = Astro.props;
 const locale = 'de' as const;
 ---
 
-<BaseLayout locale={locale} title={plant.names[locale]}>
+<BaseLayout locale={locale} title={plant.names[locale]} description={plant.teaser[locale]} altPath={`/en/plant/${plant.slug}/`}>
   <PlantDetail plant={plant} locale={locale} />
 </BaseLayout>

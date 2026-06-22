@@ -15,10 +15,24 @@ import type { Locale } from '@/lib/types';
 interface Props {
   locale: Locale;
   title?: string;
+  // Optionale, seiten-eigene Meta-Beschreibung. Ohne Wert: Fallback auf Slogan.
+  description?: string;
+  // Optionaler Pfad der anderssprachigen Version (z. B. "/en/plant/lavandula-angustifolia").
+  // Wenn gesetzt, werden hreflang-Alternates für DE+EN ausgegeben.
+  altPath?: string;
 }
-const { locale, title } = Astro.props;
+const { locale, title, description, altPath } = Astro.props;
 const pageTitle = title ? `${title} · ${t(locale, 'site.title')}` : t(locale, 'site.title');
+// Einzigartige Beschreibung je Seite; auf ~160 Zeichen gekürzt (SEO-Best-Practice).
+const rawDescription = (description ?? t(locale, 'site.tagline')).trim();
+const metaDescription =
+  rawDescription.length > 160 ? rawDescription.slice(0, 157).trimEnd() + '…' : rawDescription;
 const currentPath = Astro.url.pathname;
+// Kanonische Original-URL dieser Seite (absolut, via konfiguriertem `site`).
+const canonicalURL = Astro.site ? new URL(currentPath, Astro.site).href : currentPath;
+// Partner-Sprache + absolute URL der anderssprachigen Version (nur wenn altPath gesetzt).
+const altLocale: Locale = locale === 'de' ? 'en' : 'de';
+const altURL = altPath && Astro.site ? new URL(altPath, Astro.site).href : undefined;
 ---
 
 <!doctype html>
@@ -28,7 +42,11 @@ const currentPath = Astro.url.pathname;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="description" content={t(locale, 'site.tagline')} />
+    <meta name="description" content={metaDescription} />
+    <link rel="canonical" href={canonicalURL} />
+    {altURL && <link rel="alternate" hreflang={locale} href={canonicalURL} />}
+    {altURL && <link rel="alternate" hreflang={altLocale} href={altURL} />}
+    {altURL && <link rel="alternate" hreflang="x-default" href={canonicalURL} />}
     <meta name="theme-color" content="#047857" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
