@@ -88,7 +88,14 @@ Schritte:
 **Ergebnis:** jede Pflanze hat eine Quelle für eine einzigartige Beschreibung.
 **Regeln:** nur CC-lizenzierte Bilder, Quelle pro Fakt Pflicht (bereits erzwungen).
 
-### Phase 3 — C: SEO-Restlücken in `BaseLayout.astro` (klein & gezielt)
+### Phase 3 — C: SEO-Restlücken — Stand 2026-06-22
+**✅ erledigt (Commits `9ece17c`, `d25705b`):** einzigartige Meta-Description,
+canonical, hreflang DE/EN/x-default, Open-Graph + Twitter-Cards (mit echtem Pflanzenfoto),
+interne Verlinkung „aus derselben Familie" (Helfer `getRelatedByFamily` + 6 Tests).
+**⏳ offen:** Google Search Console anbinden (braucht Google-Login) — danach Phase B.
+Build = 571 Seiten, 303 Tests grün.
+
+Ursprüngliche Schritt-Liste (Referenz):
 **Realität:** Sitemap + robots.txt + eindeutige Titel sind schon da. Es fehlen nur
 wenige, klar benannte Dinge — alle in einer zentralen Datei (`BaseLayout.astro`):
 Schritte:
