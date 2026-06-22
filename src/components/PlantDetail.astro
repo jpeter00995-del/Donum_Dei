@@ -10,6 +10,7 @@ import LegalStatusNotice from '@/components/LegalStatusNotice.astro';
 import SafetyAlerts from '@/components/SafetyAlerts.astro';
 import permacultureSetsFile from '@/data/permaculture_sets.json';
 import { getToxicityLevel, isPetToxic } from '@/lib/toxicity';
+import { getRelatedByFamily } from '@/lib/relatedPlants';
 import type { Plant, Locale, PermacultureSet, PermacultureSetsFile } from '@/lib/types';
 
 interface Props {
@@ -28,6 +29,9 @@ const bgPoints = occurrences?.bulgaria_points
 // Plant-Lookup-Map für Partner-Namen + Slugs.
 const allPlants = loadAllPlants();
 const plantBySlug = new Map<string, Plant>(allPlants.map(p => [p.slug, p]));
+
+// === Interne Verlinkung: andere Pflanzen aus derselben Familie (SEO + Nutzerwert) ===
+const relatedPlants = getRelatedByFamily(plant, allPlants, 6);
 
 const cp = plant.companion_planting;
 const goodPartners = cp?.good_partners ?? [];
@@ -301,4 +305,26 @@ const hasPermacultureSection =
   )}
 
   {/* === Quellen sind jetzt im PlantTabs-Block (Quellen-Tab) === */}
+
+  {/* === Interne Verlinkung: Mehr aus dieser Familie === */}
+  {relatedPlants.length > 0 && (
+    <section class="mt-10 border-t border-slate-200 pt-6">
+      <h2 class="text-xl font-serif font-semibold text-slate-900">
+        {t(locale, 'detail.related_family')}
+        <span class="text-slate-400 font-normal"> · {plant.family[locale]}</span>
+      </h2>
+      <ul class="mt-3 flex flex-wrap gap-2">
+        {relatedPlants.map(rel => (
+          <li>
+            <a
+              href={`/${locale}/plant/${rel.slug}/`}
+              class="inline-flex items-center gap-1 rounded-full bg-slate-100 hover:bg-emerald-50 hover:text-emerald-800 text-slate-700 border border-slate-200 px-3 py-1 text-sm transition"
+            >
+              🌿 {rel.names[locale]}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
 </article>

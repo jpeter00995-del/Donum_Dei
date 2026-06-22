@@ -70,6 +70,7 @@ export const plant = {
   'detail.sources': 'Sources',
   'detail.back': 'Back to overview',
   'detail.distribution': 'Distribution in Europe',
+  'detail.related_family': 'More from this family',
 
   'tabs.use': 'Use',
   'tabs.safety': 'Safety',

@@ -70,6 +70,7 @@ export const plant = {
   'detail.sources': 'Quellen',
   'detail.back': 'Zurück zur Übersicht',
   'detail.distribution': 'Verbreitung in Europa',
+  'detail.related_family': 'Mehr aus dieser Familie',
 
   'tabs.use': 'Anwendung',
   'tabs.safety': 'Sicherheit',

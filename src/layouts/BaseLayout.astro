@@ -20,8 +20,11 @@ interface Props {
   // Optionaler Pfad der anderssprachigen Version (z. B. "/en/plant/lavandula-angustifolia").
   // Wenn gesetzt, werden hreflang-Alternates für DE+EN ausgegeben.
   altPath?: string;
+  // Optionaler Bildpfad fürs Teilen (z. B. "/images/plants/lavandula.jpg").
+  // Ohne Wert: Fallback auf das Favicon.
+  imagePath?: string;
 }
-const { locale, title, description, altPath } = Astro.props;
+const { locale, title, description, altPath, imagePath } = Astro.props;
 const pageTitle = title ? `${title} · ${t(locale, 'site.title')}` : t(locale, 'site.title');
 // Einzigartige Beschreibung je Seite; auf ~160 Zeichen gekürzt (SEO-Best-Practice).
 const rawDescription = (description ?? t(locale, 'site.tagline')).trim();
@@ -33,6 +36,10 @@ const canonicalURL = Astro.site ? new URL(currentPath, Astro.site).href : curren
 // Partner-Sprache + absolute URL der anderssprachigen Version (nur wenn altPath gesetzt).
 const altLocale: Locale = locale === 'de' ? 'en' : 'de';
 const altURL = altPath && Astro.site ? new URL(altPath, Astro.site).href : undefined;
+// Teilen-Vorschau (Open Graph / Twitter): Seiten-Bild oder Favicon-Fallback.
+const ogImagePath = imagePath ?? '/favicon.svg';
+const ogImage = Astro.site ? new URL(ogImagePath, Astro.site).href : ogImagePath;
+const ogLocale = locale === 'de' ? 'de_DE' : 'en_US';
 ---
 
 <!doctype html>
@@ -47,6 +54,17 @@ const altURL = altPath && Astro.site ? new URL(altPath, Astro.site).href : undef
     {altURL && <link rel="alternate" hreflang={locale} href={canonicalURL} />}
     {altURL && <link rel="alternate" hreflang={altLocale} href={altURL} />}
     {altURL && <link rel="alternate" hreflang="x-default" href={canonicalURL} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={t(locale, 'site.title')} />
+    <meta property="og:locale" content={ogLocale} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={ogImage} />
     <meta name="theme-color" content="#047857" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
