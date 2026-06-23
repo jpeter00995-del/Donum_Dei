@@ -1,0 +1,82 @@
+{
+  "slug": "cordyceps-militaris",
+  "kingdom": "fungus",
+  "names": {
+    "de": "Puppen-Kernkeule",
+    "en": "Scarlet caterpillarclub",
+    "latin": "Cordyceps militaris"
+  },
+  "family": {
+    "de": "Kernkeulenverwandte",
+    "en": "Cordycipitaceae",
+    "latin": "Cordycipitaceae"
+  },
+  "teaser": {
+    "de": "Ein orangeroter, in der TCM genutzter Schlauchpilz, der als Adaptogen vermarktet wird; viele Wirkungen sind bislang nur in Labor- und Tierstudien belegt.",
+    "en": "An orange-red ascomycete fungus used in Traditional Chinese Medicine and marketed as an adaptogen, though many proposed effects remain limited to lab and animal studies."
+  },
+  "description": {
+    "de": "Cordyceps militaris ist ein parasitischer Schlauchpilz, der auf verpuppten Schmetterlingslarven im Boden wächst und orangerote, keulenförmige Fruchtkörper bildet. Er ist in den gemäßigten Zonen Europas, Asiens und Amerikas verbreitet. Anders als der nahe verwandte Raupenpilz Ophiocordyceps sinensis lässt er sich gut kultivieren, weshalb er kommerziell als Nahrungsergänzung und Heilpilz an Bedeutung gewonnen hat. Wichtigster bioaktiver Inhaltsstoff ist das Nukleosid Cordycepin. In der TCM gilt er als kräftigendes, lungen- und nierenstärkendes Tonikum.",
+    "en": "Cordyceps militaris is a parasitic ascomycete fungus that grows on buried moth pupae and produces orange-red, club-shaped fruiting bodies. It is widespread across temperate Europe, Asia and the Americas. Unlike its relative Ophiocordyceps sinensis it is readily cultivated, which has made it commercially important as a dietary supplement and medicinal mushroom. Its principal bioactive compound is the nucleoside cordycepin. In TCM it is regarded as a strengthening tonic believed to support the lungs and kidneys."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["fatigue (traditional)", "cough (traditional)", "tonic"],
+      "internal_external": "internal",
+      "evidence_level": "traditional",
+      "source_ids": ["msk", "sciencedirect"],
+      "description": {
+        "de": "Traditionell in der chinesischen Medizin als kräftigendes Tonikum bei Erschöpfung und Husten sowie zur Unterstützung von Lungen- und Nierenfunktion verwendet.",
+        "en": "Traditionally used in Chinese medicine as a tonic for fatigue and cough and to support lung and kidney function."
+      }
+    },
+    {
+      "form": "tea",
+      "target": ["stress resilience (research)", "physical performance (research)"],
+      "internal_external": "internal",
+      "source_ids": ["msk", "pmc_constituents"],
+      "description": {
+        "de": "Wird als Adaptogen vermarktet, das die Stressresistenz erhöhen und Müdigkeit verringern soll. Studien zur körperlichen Leistung beim Menschen sind widersprüchlich und nicht überzeugend; der Inhaltsstoff Cordycepin zeigte in Labor- und Tierstudien immunmodulierende Effekte ohne belegten Nutzen beim Menschen.",
+        "en": "Marketed as an adaptogen claimed to improve stress resilience and reduce fatigue. Human exercise-performance studies are inconsistent and inconclusive; the constituent cordycepin has shown immunomodulatory effects in lab and animal studies without proven benefit in humans."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [8, 9, 10],
+    "harvest_part": {
+      "de": "Fruchtkörper",
+      "en": "Fruiting body"
+    }
+  },
+  "safety": {
+    "external_only": false,
+    "toxicity_level": "caution",
+    "warnings": {
+      "de": "Es sind keine schweren Nebenwirkungen bekannt. Vorsicht bei Blutverdünnern (möglicherweise erhöhtes Blutungsrisiko) und bei blutzuckersenkenden Medikamenten oder Insulin (Cordyceps kann den Blutzucker senken). In Schwangerschaft, Stillzeit oder bei bestehenden Erkrankungen vorher ärztlich abklären.",
+      "en": "No major side effects are reported. Use caution with blood thinners (possible increased bleeding risk) and with blood-sugar-lowering drugs or insulin (cordyceps may lower blood glucose). Consult a doctor before use during pregnancy, breastfeeding or with existing conditions."
+    }
+  },
+  "constituents": [
+    { "name": "Cordycepin", "category": "other" },
+    { "name": "Polysaccharide", "category": "polysaccharide" },
+    { "name": "Adenosin", "category": "other" }
+  ],
+  "classical_quotes": [],
+  "image": {
+    "filename": "cordyceps-militaris.webp",
+    "alt": {
+      "de": "Orangerote, keulenförmige Fruchtkörper von Cordyceps militaris",
+      "en": "Orange-red, club-shaped fruiting bodies of Cordyceps militaris"
+    },
+    "license": "CC BY-SA 2.0",
+    "author": "Lukas Large",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lukas_Large_-_Cordyceps_militaris_-_Scarlet_Caterpillarclub_fungus_(53689739921).jpg"
+  },
+  "sources": [
+    { "id": "msk", "type": "monograph", "title": "Cordyceps — Memorial Sloan Kettering Cancer Center, Integrative Medicine", "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cordyceps", "accessed": "2026-06-23" },
+    { "id": "sciencedirect", "type": "monograph", "title": "A brief review on the medicinal uses of Cordyceps militaris (ScienceDirect)", "url": "https://www.sciencedirect.com/science/article/pii/S2667142523000143", "accessed": "2026-06-23" },
+    { "id": "pmc_constituents", "type": "monograph", "title": "Cordyceps militaris: An Overview of Its Chemical Constituents in Relation to Biological Activity (PMC8622900)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8622900/", "accessed": "2026-06-23" },
+    { "id": "commons_img", "type": "commons", "title": "File:Cordyceps militaris - Scarlet Caterpillarclub fungus — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Lukas_Large_-_Cordyceps_militaris_-_Scarlet_Caterpillarclub_fungus_(53689739921).jpg", "accessed": "2026-06-23" }
+  ]
+}

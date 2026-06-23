@@ -1,0 +1,96 @@
+{
+  "slug": "mitragyna-speciosa",
+  "kingdom": "plant",
+  "names": {
+    "de": "Kratom",
+    "en": "Kratom",
+    "latin": "Mitragyna speciosa"
+  },
+  "family": {
+    "de": "Rötegewächse (Kaffeegewächse)",
+    "en": "Coffee family",
+    "latin": "Rubiaceae"
+  },
+  "teaser": {
+    "de": "Ein tropischer Baum aus Südostasien, dessen Blätter Alkaloide enthalten, die auf Opioidrezeptoren wirken — psychoaktiv und in vielen Ländern reguliert.",
+    "en": "A Southeast Asian tropical tree whose leaves contain alkaloids that act on opioid receptors — psychoactive and regulated in many countries."
+  },
+  "description": {
+    "de": "Mitragyna speciosa ist ein immergrüner Baum aus der Familie der Rötegewächse (Rubiaceae), der 10 bis 30 Meter hoch werden kann und in Südostasien (u.a. Thailand, Malaysia, Indonesien, Myanmar) heimisch ist. Die Blätter sind dunkelgrün, oval und deutlich geadert. Sie enthalten über 40 Alkaloide, von denen Mitragynin den Hauptanteil ausmacht. Die Pflanze ist mit dem Kaffeestrauch verwandt. Ihre Wirkstoffe wirken dosisabhängig sowohl anregend als auch opioidartig dämpfend.",
+    "en": "Mitragyna speciosa is an evergreen tree of the coffee family (Rubiaceae) that can grow 10 to 30 metres tall and is native to Southeast Asia (including Thailand, Malaysia, Indonesia and Myanmar). Its leaves are dark green, oval and prominently veined. They contain over 40 alkaloids, of which mitragynine is the most abundant. The plant is related to the coffee shrub. Its active compounds produce dose-dependent effects that are both stimulant-like and opioid-like."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": ["fatigue (traditional)", "pain (traditional)", "diarrhea (traditional)"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "source_ids": ["nccih", "wiki"],
+      "description": {
+        "de": "Historisch kauten Landarbeiter in ländlichen Regionen Südostasiens die Blätter oder bereiteten Tee, um Müdigkeit zu bekämpfen, die Arbeitsleistung zu steigern sowie gegen Schmerzen und Durchfall. Rein dokumentarische Angabe, keine Anwendungsempfehlung.",
+        "en": "Historically, laborers in rural Southeast Asia chewed the leaves or brewed tea to fight fatigue, improve work output and treat pain and diarrhea. Documentary information only, not a recommendation for use."
+      }
+    },
+    {
+      "form": "raw",
+      "target": ["pain (research)", "opioid withdrawal (research)"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "source_ids": ["nccih", "nih", "pmc"],
+      "description": {
+        "de": "Manche Anwender im Westen versuchen, mit Kratom Schmerzen zu lindern oder Opioid-Entzugssymptome zu mildern. Wirksamkeit und Sicherheit dafür sind wissenschaftlich nicht ausreichend belegt.",
+        "en": "Some Western users attempt to manage pain or ease opioid withdrawal with kratom. Its efficacy and safety for these purposes are not adequately established."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "harvest_part": {
+      "de": "Blätter",
+      "en": "Leaves"
+    }
+  },
+  "safety": {
+    "external_only": false,
+    "toxicity_level": "caution",
+    "warnings": {
+      "de": "Psychoaktive, in vielen Ländern regulierte Pflanze. Kratom kann abhängig machen; bei längerem Gebrauch hoher Dosen sind ernste Leberprobleme beschrieben. Nebenwirkungen reichen von Übelkeit und Schwindel bis zu Krampfanfällen. Mitragynin kann mit anderen Arzneimitteln wechselwirken (UGT-Hemmung). Einnahme in der Schwangerschaft kann beim Neugeborenen ein Entzugssyndrom auslösen. Todesfälle wurden vor allem in Kombination mit anderen Substanzen berichtet; Produkte waren teils verunreinigt. Nur dokumentarische Information, keine Konsum- oder Dosierempfehlung.",
+      "en": "Psychoactive plant, regulated in many countries. Kratom may be addictive; serious liver problems have been reported with long-term use of large doses. Side effects range from nausea and dizziness to seizures. Mitragynine can interact with other medications (UGT inhibition). Use in pregnancy may cause neonatal abstinence syndrome. Deaths have been reported mainly in combination with other substances; some products were contaminated. Documentary information only, no consumption or dosing advice."
+    }
+  },
+  "constituents": [
+    { "name": "Mitragynin", "category": "alkaloid" },
+    { "name": "7-Hydroxymitragynin", "category": "alkaloid" }
+  ],
+  "classical_quotes": [],
+  "legal_status": {
+    "controlled": true,
+    "summary": {
+      "de": "Die Rechtslage variiert stark je nach Land; in einigen Ländern und US-Bundesstaaten verboten, in anderen frei.",
+      "en": "Legal status varies widely by country; banned in some countries and US states, unrestricted in others."
+    },
+    "note": {
+      "de": "In den USA auf Bundesebene nicht als kontrollierte Substanz gelistet, aber in einzelnen Bundesstaaten verboten. Thailand strich Kratom 2021 von der Betäubungsmittelliste. Informiere dich über die für dich geltende Rechtslage.",
+      "en": "Not federally scheduled in the USA but banned in some states. Thailand removed kratom from its narcotics list in 2021. Check the laws that apply to you."
+    },
+    "source_ids": ["nih", "wiki"]
+  },
+  "image": {
+    "filename": "mitragyna-speciosa.webp",
+    "alt": {
+      "de": "Zweig von Mitragyna speciosa (Kratom) mit dunkelgrünen, geaderten Blättern",
+      "en": "Branch of Mitragyna speciosa (kratom) with dark green, veined leaves"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Uomo vitruviano",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mitragyna_speciosa111.JPG"
+  },
+  "sources": [
+    { "id": "nih", "type": "monograph", "title": "Kratom — StatPearls, NCBI Bookshelf (NIH)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK585120/", "accessed": "2026-06-23" },
+    { "id": "nccih", "type": "monograph", "title": "Kratom — National Center for Complementary and Integrative Health (NCCIH)", "url": "https://www.nccih.nih.gov/health/kratom", "accessed": "2026-06-23" },
+    { "id": "pmc", "type": "monograph", "title": "The Chemical and Pharmacological Properties of Mitragynine and Its Diastereomers (PMC8907881)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8907881/", "accessed": "2026-06-23" },
+    { "id": "wiki", "type": "wikipedia", "title": "Mitragyna speciosa — Wikipedia", "url": "https://en.wikipedia.org/wiki/Mitragyna_speciosa", "accessed": "2026-06-23" },
+    { "id": "commons_img", "type": "commons", "title": "File:Mitragyna speciosa111.JPG — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Mitragyna_speciosa111.JPG", "accessed": "2026-06-23" }
+  ]
+}

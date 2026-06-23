@@ -1,0 +1,97 @@
+{
+  "slug": "tabernanthe-iboga",
+  "kingdom": "plant",
+  "names": {
+    "de": "Iboga",
+    "en": "Iboga",
+    "latin": "Tabernanthe iboga"
+  },
+  "family": {
+    "de": "Hundsgiftgewächse",
+    "en": "Dogbane family",
+    "latin": "Apocynaceae"
+  },
+  "teaser": {
+    "de": "Ein zentralafrikanischer Strauch, dessen Wurzelrinde das Alkaloid Ibogain enthält und der traditionell in den Bwiti-Ritualen Gabuns verwendet wird.",
+    "en": "A Central African shrub whose root bark contains the alkaloid ibogaine and which is traditionally used in the Bwiti rituals of Gabon."
+  },
+  "description": {
+    "de": "Tabernanthe iboga ist ein immergrüner Strauch aus den Regenwäldern West- und Zentralafrikas, der meist etwa 2 Meter, selten bis 10 Meter hoch wird. Er trägt schmale dunkelgrüne Blätter, gelblich-weiße bis rosa Blüten und bei Reife orangefarbene Früchte. Die gelblichen Wurzeln und besonders die Wurzelrinde enthalten Indolalkaloide, vor allem Ibogain. In hohen Dosen wirkt die Pflanze stark psychoaktiv und halluzinogen. Sie ist Gegenstand pharmakologischer Forschung, besonders im Zusammenhang mit Suchterkrankungen.",
+    "en": "Tabernanthe iboga is an evergreen shrub from the rainforests of West and Central Africa, usually growing to about 2 metres and occasionally up to 10 metres. It bears narrow dark-green leaves, yellowish-white to pink flowers, and orange fruits at maturity. The yellowish roots, and especially the root bark, contain indole alkaloids, primarily ibogaine. In high doses the plant is strongly psychoactive and hallucinogenic. It is the subject of pharmacological research, particularly concerning substance use disorders."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": ["ritual use (Bwiti)", "rites of passage"],
+      "internal_external": "internal",
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "source_ids": ["wiki", "iceers"],
+      "description": {
+        "de": "In der Bwiti-Tradition Gabuns, Kameruns und der Republik Kongo wird die Wurzelrinde bei Initiations- und Übergangsriten als Sakrament eingenommen. Gabun erklärte Iboga 2000 zum nationalen Kulturgut. Rein ethnobotanische Angabe.",
+        "en": "In the Bwiti tradition of Gabon, Cameroon and the Republic of the Congo, the root bark is taken as a sacrament during initiation and rites of passage. Gabon declared iboga a national cultural treasure in 2000. Ethnobotanical information only."
+      }
+    },
+    {
+      "form": "tincture",
+      "target": ["opioid dependence (research)"],
+      "internal_external": "internal",
+      "plant_part": "bark",
+      "source_ids": ["molecules", "pmc"],
+      "description": {
+        "de": "Das Alkaloid Ibogain wird seit den 1990er-Jahren auf eine mögliche Wirkung gegen Opioid-Abhängigkeit untersucht. Die menschliche Evidenz ist begrenzt (Fallberichte, Tierstudien); kontrollierte Wirksamkeitsnachweise fehlen weitgehend.",
+        "en": "The alkaloid ibogaine has been studied since the 1990s for possible effects against opioid dependence. Human evidence is limited (case reports, animal studies); controlled proof of efficacy is largely lacking."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "harvest_part": {
+      "de": "Wurzelrinde",
+      "en": "Root bark"
+    }
+  },
+  "safety": {
+    "external_only": false,
+    "toxicity_level": "toxic",
+    "warnings": {
+      "de": "Ibogain und sein Abbauprodukt Noribogain können das QT-Intervall verlängern und lebensbedrohliche Herzrhythmusstörungen (z. B. Torsade de Pointes) bis zum plötzlichen Herztod auslösen — auch ohne bekannte Herzerkrankung. Wechselwirkungen mit über CYP2D6 verstoffwechselten Arzneimitteln; weitere Risiken sind Lungenembolien und die Verschlechterung psychiatrischer Erkrankungen. Nur dokumentarische Information, keine Konsum- oder Dosierempfehlung.",
+      "en": "Ibogaine and its metabolite noribogaine can prolong the QT interval and trigger life-threatening cardiac arrhythmias (e.g. Torsade de Pointes) up to sudden cardiac death — even without known heart disease. Interactions with drugs metabolised via CYP2D6; other risks include pulmonary embolism and worsening of psychiatric conditions. Documentary information only, no consumption or dosing advice."
+    }
+  },
+  "constituents": [
+    { "name": "Ibogain", "category": "alkaloid" },
+    { "name": "Noribogain", "category": "alkaloid" },
+    { "name": "Catharanthin", "category": "alkaloid" }
+  ],
+  "classical_quotes": [],
+  "legal_status": {
+    "controlled": true,
+    "summary": {
+      "de": "Ibogain ist in mehreren Ländern als kontrollierte Substanz eingestuft; die Pflanze selbst ist oft nicht erfasst.",
+      "en": "Ibogaine is classified as a controlled substance in several countries; the plant itself is often not scheduled."
+    },
+    "note": {
+      "de": "In den USA ist Ibogain als Schedule-I-Substanz eingestuft. Länder wie Frankreich, Belgien, Schweden, Dänemark, Polen, Kroatien und die Schweiz beschränken es. Gabun behandelt Iboga als geschütztes Kulturgut und hat Exporte eingeschränkt.",
+      "en": "In the USA, ibogaine is a Schedule I substance. Countries such as France, Belgium, Sweden, Denmark, Poland, Croatia and Switzerland restrict it. Gabon treats iboga as protected cultural heritage and has restricted exports."
+    },
+    "source_ids": ["wiki", "iceers"]
+  },
+  "image": {
+    "filename": "tabernanthe-iboga.webp",
+    "alt": {
+      "de": "Tabernanthe iboga (Iboga) im Botanischen Garten Meise",
+      "en": "Tabernanthe iboga (iboga) at Meise Botanic Garden"
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Ji-Elle",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tabernanthe_iboga-Jardin_botanique_Meise_(1).jpg"
+  },
+  "sources": [
+    { "id": "wiki", "type": "wikipedia", "title": "Tabernanthe iboga — Wikipedia", "url": "https://en.wikipedia.org/wiki/Tabernanthe_iboga", "accessed": "2026-06-23" },
+    { "id": "iceers", "type": "monograph", "title": "Iboga: Basic Info — ICEERS", "url": "https://www.iceers.org/iboga-basic-info/", "accessed": "2026-06-23" },
+    { "id": "molecules", "type": "monograph", "title": "Ibogaine: Therapeutic Potential, Cardiac Safety, and Translational Perspectives (Molecules, MDPI)", "url": "https://www.mdpi.com/1420-3049/31/3/545", "accessed": "2026-06-23" },
+    { "id": "pmc", "type": "monograph", "title": "The Anti-Addiction Drug Ibogaine and the Heart (PMC4382526)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4382526/", "accessed": "2026-06-23" },
+    { "id": "commons_img", "type": "commons", "title": "File:Tabernanthe iboga-Jardin botanique Meise (1).jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Tabernanthe_iboga-Jardin_botanique_Meise_(1).jpg", "accessed": "2026-06-23" }
+  ]
+}

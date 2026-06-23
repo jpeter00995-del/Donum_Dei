@@ -1,0 +1,86 @@
+{
+  "slug": "lophophora-williamsii",
+  "kingdom": "plant",
+  "names": {
+    "de": "Peyote",
+    "en": "Peyote",
+    "latin": "Lophophora williamsii"
+  },
+  "family": {
+    "de": "Kakteengewächse",
+    "en": "Cactus family",
+    "latin": "Cactaceae"
+  },
+  "teaser": {
+    "de": "Ein kleiner, stachelloser Kaktus aus Nordmexiko und Südtexas, der das psychoaktive Alkaloid Meskalin enthält und in der Native American Church rituell verwendet wird.",
+    "en": "A small, spineless cactus from northern Mexico and south Texas that contains the psychoactive alkaloid mescaline and is used ritually by the Native American Church."
+  },
+  "description": {
+    "de": "Lophophora williamsii ist ein kleiner, kugeliger und stacheloser Kaktus mit blaugrüner Oberfläche, der meist nur 2–7 cm hoch und 4–12 cm breit wird. Die oberirdische Krone sitzt auf einer rübenartigen Wurzel und trägt kleine rosa bis weiße Blüten. Die Art wächst sehr langsam und kommt in Wüstenbusch- und Kalksteingebieten der Chihuahua-Wüste in Nordmexiko und Südtexas vor. Sie ist seit Jahrtausenden für indigene Völker kulturell bedeutsam. Hauptwirkstoff ist das Alkaloid Meskalin.",
+    "en": "Lophophora williamsii is a small, globular, spineless cactus with a blue-green surface, usually only 2–7 cm tall and 4–12 cm wide. The above-ground crown sits on a turnip-like root and bears small pink to white flowers. The species grows very slowly and occurs in desert scrub and limestone areas of the Chihuahuan Desert in northern Mexico and south Texas. It has held cultural significance for Indigenous peoples for millennia. Its principal active compound is the alkaloid mescaline."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": ["ceremonial use", "Native American Church"],
+      "internal_external": "internal",
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional",
+      "source_ids": ["wiki", "dea"],
+      "description": {
+        "de": "Der Kaktus wird seit Jahrtausenden von indigenen Völkern in zeremoniellen Kontexten genutzt; in den USA ist der rituelle Gebrauch durch Mitglieder der Native American Church gesetzlich geschützt. Wirkstoff ist das halluzinogene Alkaloid Meskalin. Rein kulturhistorische Angabe.",
+        "en": "The cactus has been used ceremonially by Indigenous peoples for millennia; in the United States, ritual use by members of the Native American Church is legally protected. Its active compound is the hallucinogenic alkaloid mescaline. Cultural-historical information only."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "harvest_part": {
+      "de": "Krone (Art ist geschützt)",
+      "en": "Crown (species is protected)"
+    }
+  },
+  "safety": {
+    "external_only": false,
+    "toxicity_level": "caution",
+    "warnings": {
+      "de": "Meskalin ist eine psychoaktive Substanz mit ernsten gesundheitlichen und rechtlichen Risiken; dies ist keine Konsumempfehlung. Artenschutz: Die Art gilt laut IUCN als gefährdet; Wildbestände in Südtexas sind durch Übersammlung bedroht und im Anhang II des Washingtoner Artenschutzübereinkommens (CITES) gelistet.",
+      "en": "Mescaline is a psychoactive substance with serious health and legal risks; this is not a recommendation for use. Conservation: the species is listed as Vulnerable on the IUCN Red List, and wild populations in south Texas are threatened by overharvesting and listed in Appendix II of CITES."
+    }
+  },
+  "constituents": [
+    { "name": "Meskalin", "category": "alkaloid" },
+    { "name": "Pellotin", "category": "alkaloid" },
+    { "name": "Hordenin", "category": "alkaloid" }
+  ],
+  "classical_quotes": [],
+  "legal_status": {
+    "controlled": true,
+    "summary": {
+      "de": "In den USA sind Peyote und Meskalin als Schedule-I-Substanzen kontrolliert; zusätzlich besteht ein Artenschutz (CITES Anhang II).",
+      "en": "In the United States, peyote and mescaline are Schedule I controlled substances; the species is also protected (CITES Appendix II)."
+    },
+    "note": {
+      "de": "Der nicht-arzneiliche Gebrauch in religiösen Zeremonien der Native American Church ist in den USA ausgenommen (21 CFR 1307.31). Die Rechtslage unterscheidet sich je nach Land.",
+      "en": "Non-drug use in bona fide religious ceremonies of the Native American Church is exempt in the USA (21 CFR 1307.31). Legal status varies by country."
+    },
+    "source_ids": ["dea", "ecfr"]
+  },
+  "image": {
+    "filename": "lophophora-williamsii.webp",
+    "alt": {
+      "de": "Stacheloser, blaugrüner Peyote-Kaktus (Lophophora williamsii)",
+      "en": "Spineless, blue-green peyote cactus (Lophophora williamsii)"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Frank Vincentz",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lophophora_williamsii_ies.jpg"
+  },
+  "sources": [
+    { "id": "wiki", "type": "wikipedia", "title": "Lophophora williamsii — Wikipedia", "url": "https://en.wikipedia.org/wiki/Lophophora_williamsii", "accessed": "2026-06-23" },
+    { "id": "dea", "type": "monograph", "title": "Peyote and Mescaline — U.S. DEA Drug Fact Sheet", "url": "https://www.dea.gov/sites/default/files/2020-06/Peyote%20and%20Mescaline-2020_0.pdf", "accessed": "2026-06-23" },
+    { "id": "ecfr", "type": "monograph", "title": "21 CFR 1307.31 — Native American Church (eCFR)", "url": "https://www.ecfr.gov/current/title-21/chapter-II/part-1307", "accessed": "2026-06-23" },
+    { "id": "natureserve", "type": "monograph", "title": "Lophophora williamsii — NatureServe Explorer (conservation status)", "url": "https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.139920/Lophophora_williamsii", "accessed": "2026-06-23" },
+    { "id": "commons_img", "type": "commons", "title": "File:Lophophora williamsii ies.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Lophophora_williamsii_ies.jpg", "accessed": "2026-06-23" }
+  ]
+}

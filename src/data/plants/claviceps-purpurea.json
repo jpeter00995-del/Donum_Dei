@@ -1,0 +1,95 @@
+{
+  "slug": "claviceps-purpurea",
+  "kingdom": "fungus",
+  "names": {
+    "de": "Mutterkorn",
+    "en": "Ergot",
+    "latin": "Claviceps purpurea"
+  },
+  "family": {
+    "de": "Mutterkornpilzartige",
+    "en": "Clavicipitaceae",
+    "latin": "Clavicipitaceae"
+  },
+  "teaser": {
+    "de": "Ein parasitischer Pilz, der vor allem auf Roggen wächst, hochwirksame Alkaloide bildet und historisch sowohl schwere Vergiftungen (Antoniusfeuer) als auch wichtige Medikamente hervorbrachte.",
+    "en": "A parasitic fungus that grows mainly on rye, produces highly active alkaloids, and is historically tied both to severe poisonings (St. Anthony's fire) and to important medicines."
+  },
+  "description": {
+    "de": "Claviceps purpurea ist ein Schlauchpilz aus der Familie der Clavicipitaceae, der die Fruchtknoten von Gräsern und Getreide, besonders Roggen, befällt. Anstelle des Korns bildet er ein hartes, dunkles, gekrümmtes Dauerorgan, das Sklerotium oder Mutterkorn. Dieses enthält ein komplexes Gemisch von Mutterkornalkaloiden auf Basis der Lysergsäure. Der Pilz überwintert im Boden und keimt im Frühjahr bei kühl-feuchtem Wetter. Mit Mutterkorn verunreinigtes Mehl war über Jahrhunderte Ursache von Massenvergiftungen.",
+    "en": "Claviceps purpurea is an ascomycete fungus of the family Clavicipitaceae that infects the ovaries of grasses and cereals, especially rye. In place of the grain it forms a hard, dark, curved resting structure called the sclerotium or ergot. This contains a complex mixture of ergot alkaloids derived from lysergic acid. The fungus overwinters in the soil and germinates in spring under cool, moist conditions. Flour contaminated with ergot caused mass poisonings for centuries."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": ["postpartum bleeding (historical)", "labor induction (historical)"],
+      "internal_external": "internal",
+      "evidence_level": "clinical_trial",
+      "source_ids": ["toxins", "wiki"],
+      "description": {
+        "de": "Mutterkornpräparate wurden traditionell zur Auslösung von Wehen und zur Kontrolle von Blutungen nach der Geburt eingesetzt; das 1935 isolierte Ergometrin wird wegen seiner die Gebärmutter zusammenziehenden Wirkung bei Nachblutungen verwendet. Nur als geprüftes Arzneimittel unter ärztlicher Kontrolle.",
+        "en": "Ergot preparations were traditionally used to induce labor and control bleeding after childbirth; ergometrine, isolated in 1935, is used for postpartum hemorrhage because it contracts the uterus. Only as a tested medicine under medical supervision."
+      }
+    },
+    {
+      "form": "tincture",
+      "target": ["migraine (historical/medical)"],
+      "internal_external": "internal",
+      "evidence_level": "clinical_trial",
+      "source_ids": ["asm", "wiki"],
+      "description": {
+        "de": "Ergotamin und Dihydroergotamin werden wegen ihrer gefäßverengenden Wirkung gegen akute Migräneanfälle eingesetzt — als verschreibungspflichtige Arzneimittel.",
+        "en": "Ergotamine and dihydroergotamine are used against acute migraine attacks because of their vasoconstrictive action — as prescription medicines."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [6, 7, 8],
+    "harvest_part": {
+      "de": "Sklerotien am Roggen (nicht zur Selbstverwendung)",
+      "en": "Sclerotia on rye (not for self-use)"
+    }
+  },
+  "safety": {
+    "external_only": false,
+    "toxicity_level": "toxic",
+    "warnings": {
+      "de": "Der Verzehr von mit Mutterkorn verunreinigtem Getreide verursacht Ergotismus (Antoniusfeuer): eine gangränöse Form mit starker Gefäßverengung, brennenden Schmerzen und Absterben von Gliedmaßen sowie eine konvulsive Form mit Krämpfen, Halluzinationen und Nervenschäden. Historische Epidemien forderten viele Todesfälle. Mutterkorn und seine Alkaloide sind hochgiftig; eine Selbstanwendung ist lebensgefährlich.",
+      "en": "Eating cereal contaminated with ergot causes ergotism (St. Anthony's fire): a gangrenous form with strong vasoconstriction, burning pain and loss of limbs, and a convulsive form with seizures, hallucinations and nerve damage. Historical epidemics caused many deaths. Ergot and its alkaloids are highly toxic; self-use is life-threatening."
+    }
+  },
+  "constituents": [
+    { "name": "Ergotamin", "category": "alkaloid" },
+    { "name": "Ergometrin (Ergonovin)", "category": "alkaloid" },
+    { "name": "Lysergsäure", "category": "alkaloid" }
+  ],
+  "classical_quotes": [],
+  "legal_status": {
+    "controlled": false,
+    "summary": {
+      "de": "Mutterkorn selbst ist kein verbotenes Betäubungsmittel, aber hochgiftig; sein Gehalt in Getreide ist in der EU gesetzlich begrenzt.",
+      "en": "Ergot itself is not a banned narcotic but is highly toxic; its content in cereals is legally limited in the EU."
+    },
+    "note": {
+      "de": "Die Alkaloide sind verschreibungspflichtige Arzneistoffe; einige als LSD-Vorstufen nutzbare Derivate unterliegen je nach Land zusätzlichen Kontrollen.",
+      "en": "The alkaloids are prescription pharmaceuticals; some derivatives usable as LSD precursors face additional controls depending on the country."
+    },
+    "source_ids": ["wiki"]
+  },
+  "image": {
+    "filename": "claviceps-purpurea.webp",
+    "alt": {
+      "de": "Botanische Tafel von Claviceps purpurea (Mutterkorn) am Roggen, Köhler 1887",
+      "en": "Botanical plate of Claviceps purpurea (ergot) on rye, Köhler 1887"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1887)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Claviceps_purpurea_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-185.jpg"
+  },
+  "sources": [
+    { "id": "wiki", "type": "wikipedia", "title": "Ergot — Wikipedia", "url": "https://en.wikipedia.org/wiki/Ergot", "accessed": "2026-06-23" },
+    { "id": "asm", "type": "monograph", "title": "From Poisoning to Pharmacy: A Tale of Two Ergots — American Society for Microbiology", "url": "https://asm.org/articles/2018/november/from-poisoning-to-pharmacy-a-tale-of-two-ergots", "accessed": "2026-06-23" },
+    { "id": "toxins", "type": "monograph", "title": "The Usage of Ergot (Claviceps purpurea) in Obstetrics and Gynecology: A Historical Perspective (PMC8309974)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8309974/", "accessed": "2026-06-23" },
+    { "id": "commons_img", "type": "commons", "title": "File:Claviceps purpurea - Köhler's Medizinal-Pflanzen-185.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Claviceps_purpurea_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-185.jpg", "accessed": "2026-06-23" }
+  ]
+}
