@@ -1,3 +1,20 @@
 ---
-return Astro.redirect('/de/');
+// Wurzel `/`: leitet auf die deutsche Startseite weiter.
+// Statt Astro.redirect (reine meta-refresh-Seite ohne <head>-Inhalt) rendern wir
+// eine schlanke HTML-Seite MIT dem Google-Search-Console-Verification-Tag, weil
+// Google die exakte Property-URL `/` prüft (folgt der meta-refresh nicht).
 ---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0;url=/de/" />
+    <meta name="google-site-verification" content="RudDAQpxbeQifsVjbBN3h-P_p3F7IRgbNtRawn9IKII" />
+    <link rel="canonical" href="https://donum-dei.pages.dev/de/" />
+    <title>Donum ∞ Dei</title>
+  </head>
+  <body>
+    <p>Weiterleitung zu <a href="/de/">Donum Dei</a>…</p>
+  </body>
+</html>
