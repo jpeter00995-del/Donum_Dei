@@ -33,6 +33,36 @@ const plantBySlug = new Map<string, Plant>(allPlants.map(p => [p.slug, p]));
 // === Interne Verlinkung: andere Pflanzen aus derselben Familie (SEO + Nutzerwert) ===
 const relatedPlants = getRelatedByFamily(plant, allPlants, 6);
 
+// === Strukturierte Daten (schema.org JSON-LD): Breadcrumb + Artikel über die Pflanze ===
+// Hilft Google, die Seite zu verstehen (mögliche Rich-Snippets). Absolute URLs via `site`.
+const siteBase = Astro.site ? Astro.site.href.replace(/\/$/, '') : '';
+const pageUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : Astro.url.pathname;
+const plantsUrl = `${siteBase}/${locale}/`;
+const plantImageUrl = Astro.site
+  ? new URL(`/images/plants/${plant.image.filename}`, Astro.site).href
+  : `/images/plants/${plant.image.filename}`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: t(locale, 'nav.plants'), item: plantsUrl },
+        { '@type': 'ListItem', position: 2, name: plant.names[locale], item: pageUrl },
+      ],
+    },
+    {
+      '@type': 'Article',
+      headline: plant.names[locale],
+      description: plant.teaser[locale] ?? plant.description[locale],
+      image: plantImageUrl,
+      inLanguage: locale,
+      mainEntityOfPage: pageUrl,
+      about: { '@type': 'Thing', name: plant.names.latin },
+    },
+  ],
+};
+
 const cp = plant.companion_planting;
 const goodPartners = cp?.good_partners ?? [];
 const neutralPartners = cp?.neutral ?? [];
@@ -54,6 +84,7 @@ const hasPermacultureSection =
 ---
 
 <article class="max-w-3xl mx-auto px-4 py-8">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <a href={`/${locale}/`} class="text-sm text-emerald-700 hover:underline">← {t(locale, 'detail.back')}</a>
 
   {/* === Welle M.3 — Prominent toxicity warner, ABOVE the image === */}
