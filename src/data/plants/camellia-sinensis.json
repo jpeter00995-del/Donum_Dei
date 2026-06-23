@@ -1,0 +1,83 @@
+{
+  "slug": "camellia-sinensis",
+  "kingdom": "plant",
+  "names": {
+    "de": "Teestrauch",
+    "en": "Tea plant",
+    "latin": "Camellia sinensis"
+  },
+  "family": {
+    "de": "Teestrauchgewächse",
+    "en": "Tea family",
+    "latin": "Theaceae"
+  },
+  "teaser": {
+    "de": "Immergrüner Strauch, aus dessen Blättern grüner, schwarzer und weißer Tee gewonnen wird.",
+    "en": "Evergreen shrub whose leaves yield green, black and white tea."
+  },
+  "description": {
+    "de": "Camellia sinensis ist ein immergrüner Strauch oder kleiner Baum mit ledrigen, glänzend dunkelgrünen, gesägten Blättern. Alle echten Teesorten (grün, schwarz, weiß, Oolong) stammen von dieser Art; die Unterschiede entstehen durch die Verarbeitung der Blätter. Die Blätter enthalten Koffein sowie Polyphenole, vor allem Catechine. Tee als Getränk ist weltweit verbreitet und wird seit Jahrhunderten konsumiert.",
+    "en": "Camellia sinensis is an evergreen shrub or small tree with leathery, glossy dark-green, serrated leaves. All true teas (green, black, white, oolong) come from this species; the differences arise from how the leaves are processed. The leaves contain caffeine as well as polyphenols, especially catechins. As a beverage, tea is consumed worldwide and has been used for centuries."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["enjoyment", "alertness (caffeine)"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "source_ids": ["review", "iron"],
+      "description": {
+        "de": "Tee enthält Koffein und wirkt anregend; er wird traditionell als Genuss- und Wachmacher-Getränk getrunken.",
+        "en": "Tea contains caffeine and has a stimulating effect; it is traditionally consumed as a beverage for enjoyment and alertness."
+      }
+    },
+    {
+      "form": "tea",
+      "target": ["cholesterol (research)", "antioxidants (lab)"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "source_ids": ["nccih", "review"],
+      "description": {
+        "de": "Die Blätter sind reich an Catechinen (v. a. EGCG) mit antioxidativen Eigenschaften im Labor. Studien deuten auf eine bescheidene Senkung von Cholesterin hin; ein gesicherter gesundheitlicher Nutzen beim Menschen ist nicht belegt.",
+        "en": "The leaves are rich in catechins (especially EGCG) with antioxidant properties in the lab. Studies suggest a modest reduction in cholesterol; a proven health benefit in humans is not established."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [4, 5, 6, 7, 8, 9],
+    "harvest_part": { "de": "Blätter", "en": "Leaves" }
+  },
+  "safety": {
+    "external_only": false,
+    "toxicity_level": "caution",
+    "warnings": {
+      "de": "Tee als Getränk gilt für Erwachsene als unbedenklich. Das Koffein kann Schlaf, Herzschlag und Blutdruck beeinflussen; in Schwangerschaft und Stillzeit Koffein begrenzen. Tee zu den Mahlzeiten hemmt die Aufnahme von pflanzlichem Eisen deutlich — bei Eisenmangel mit Abstand zu eisenreichen Mahlzeiten trinken. Konzentrierte Grüntee-Extrakte (Kapseln) wurden mit seltenen Leberschäden in Verbindung gebracht; die EU begrenzt EGCG auf unter 800 mg pro Tag. Grüntee kann die Wirkung einiger Medikamente verändern.",
+      "en": "Tea as a beverage is considered safe for adults. Its caffeine can affect sleep, heart rate and blood pressure; limit caffeine during pregnancy and breastfeeding. Tea with meals markedly inhibits absorption of plant iron — if iron-deficient, drink it away from iron-rich meals. Concentrated green tea extracts (capsules) have been linked to rare liver injury; the EU limits EGCG to under 800 mg per day. Green tea may alter the effect of some medicines."
+    }
+  },
+  "constituents": [
+    { "name": "Koffein", "category": "alkaloid" },
+    { "name": "Catechine (EGCG)", "category": "flavonoid" },
+    { "name": "L-Theanin", "category": "other" },
+    { "name": "Tannine", "category": "tannin" }
+  ],
+  "classical_quotes": [],
+  "image": {
+    "filename": "camellia-sinensis.webp",
+    "alt": {
+      "de": "Blühender Zweig von Camellia sinensis (Teestrauch) mit weißer Blüte",
+      "en": "Flowering branch of Camellia sinensis (tea plant) with a white flower"
+    },
+    "license": "Public domain",
+    "author": "AxelBoldt",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Csinensis.jpg"
+  },
+  "sources": [
+    { "id": "review", "type": "monograph", "title": "A Comprehensive Insight on the Health Benefits and Phytoconstituents of Camellia sinensis (Antioxidants 2019, PMC6826564)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6826564/", "accessed": "2026-06-23" },
+    { "id": "nccih", "type": "monograph", "title": "Green Tea — NCCIH (NIH)", "url": "https://www.nccih.nih.gov/health/green-tea", "accessed": "2026-06-23" },
+    { "id": "livertox", "type": "monograph", "title": "Green Tea — LiverTox (NIH, NBK547925)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK547925/", "accessed": "2026-06-23" },
+    { "id": "iron", "type": "monograph", "title": "Inhibition of non-haem iron absorption in man by polyphenolic-containing beverages (British Journal of Nutrition)", "url": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/5CFF5FF58F6CBA86D3646981A7DF0418", "accessed": "2026-06-23" },
+    { "id": "commons_img", "type": "commons", "title": "File:Csinensis.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Csinensis.jpg", "accessed": "2026-06-23" }
+  ]
+}

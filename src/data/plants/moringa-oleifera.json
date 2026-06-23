@@ -1,0 +1,83 @@
+{
+  "slug": "moringa-oleifera",
+  "kingdom": "plant",
+  "names": {
+    "de": "Moringa (Meerrettichbaum)",
+    "en": "Moringa",
+    "latin": "Moringa oleifera"
+  },
+  "family": {
+    "de": "Bennussgewächse",
+    "en": "Moringa family",
+    "latin": "Moringaceae"
+  },
+  "teaser": {
+    "de": "Schnellwachsender Tropenbaum, dessen nährstoffreiche Blätter als Nahrungsergänzung beworben werden — die Humanevidenz ist jedoch begrenzt.",
+    "en": "Fast-growing tropical tree whose nutrient-rich leaves are widely marketed as a supplement, though human evidence remains limited."
+  },
+  "description": {
+    "de": "Moringa oleifera ist ein schnell wachsender Baum aus Südasien, der heute in vielen tropischen Regionen angebaut wird. Die Blätter enthalten Eiweiß, Vitamine, Mineralstoffe und sekundäre Pflanzenstoffe und werden traditionell als Nahrungsmittel genutzt. In den letzten Jahren wird Moringa stark als „Superfood\" vermarktet, oft mit weitreichenden Gesundheitsversprechen. Die wissenschaftliche Datenlage beim Menschen ist jedoch begrenzt: Es gibt nur wenige, meist kleine Studien, vor allem zu Blutzucker und Blutfetten.",
+    "en": "Moringa oleifera is a fast-growing tree native to South Asia and now cultivated across many tropical regions. Its leaves contain protein, vitamins, minerals and plant compounds and have traditionally been used as food. In recent years moringa has been heavily marketed as a \"superfood,\" often with sweeping health claims. The human evidence, however, is limited: only a few mostly small trials exist, chiefly on blood sugar and blood lipids."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": ["nutrition (leaves)", "food"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "source_ids": ["review", "webmd"],
+      "description": {
+        "de": "Die Blätter werden traditionell als nahrhaftes Gemüse und in getrockneter Pulverform gegessen; sie liefern Eiweiß, Vitamine und Mineralstoffe.",
+        "en": "The leaves are traditionally eaten as a nutritious vegetable and as dried powder, providing protein, vitamins and minerals."
+      }
+    },
+    {
+      "form": "raw",
+      "target": ["blood sugar (research)", "blood lipids (research)"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "clinical_trial",
+      "source_ids": ["glucose", "review"],
+      "description": {
+        "de": "Einige kleine Humanstudien deuten auf eine leichte Senkung von Blutzucker und Blutfetten hin; die Belege sind jedoch begrenzt und uneinheitlich, ein gesicherter Nutzen ist nicht bewiesen.",
+        "en": "A few small human trials suggest modest reductions in blood sugar and blood lipids, but the evidence is limited and inconsistent and a proven benefit is not established."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "harvest_part": { "de": "Blätter", "en": "Leaves" }
+  },
+  "safety": {
+    "external_only": false,
+    "toxicity_level": "caution",
+    "warnings": {
+      "de": "Blätter, Früchte und Samen gelten in üblichen Speisemengen als sicher. Wurzel und Rinde enthalten bedenkliche Stoffe (z. B. Spirochin) und sollten gemieden werden. In der Schwangerschaft besondere Vorsicht: Wurzel, Rinde und Blüten können die Gebärmutter anregen und werden traditionell mit Fehlgeburten in Verbindung gebracht; die Sicherheit von Moringa-Präparaten in der Schwangerschaft ist nicht ausreichend belegt. Bei Erkrankungen oder Medikamenteneinnahme vorher ärztlich abklären.",
+      "en": "Leaves, fruit and seeds are considered safe in normal food amounts. Root and bark contain concerning substances (e.g. spirochin) and should be avoided. Special caution in pregnancy: root, bark and flowers may stimulate the uterus and are traditionally linked to miscarriage, and the safety of moringa supplements in pregnancy is not well established. Consult a doctor first if you have a medical condition or take medication."
+    }
+  },
+  "constituents": [
+    { "name": "Vitamine (C, E, Provitamin A)", "category": "vitamin" },
+    { "name": "Mineralstoffe (Eisen, Calcium)", "category": "mineral" },
+    { "name": "Flavonoide (Quercetin)", "category": "flavonoid" },
+    { "name": "Glucosinolate / Isothiocyanate", "category": "other" }
+  ],
+  "classical_quotes": [],
+  "image": {
+    "filename": "moringa-oleifera.webp",
+    "alt": {
+      "de": "Gefiedertes Blatt von Moringa oleifera (Meerrettichbaum)",
+      "en": "Pinnate leaf of Moringa oleifera (moringa)"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "J.M.Garg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sonjna_(Moringa_oleifera)_leaf_at_Kolkata_W_IMG_2119.jpg"
+  },
+  "sources": [
+    { "id": "review", "type": "monograph", "title": "Review of the Safety and Efficacy of Moringa oleifera (Stohs & Hartman, Phytotherapy Research 2015, PMC6680322)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6680322/", "accessed": "2026-06-23" },
+    { "id": "webmd", "type": "monograph", "title": "Moringa: Overview, Uses, Side Effects, Precautions (WebMD)", "url": "https://www.webmd.com/vitamins-supplements/ingredientmono-1242-MORINGA.aspx", "accessed": "2026-06-23" },
+    { "id": "glucose", "type": "monograph", "title": "Potential of Moringa oleifera to Improve Glucose Control: A Systematic Review (Nutrients 2020, PMC7400864)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7400864/", "accessed": "2026-06-23" },
+    { "id": "commons_img", "type": "commons", "title": "File:Sonjna (Moringa oleifera) leaf at Kolkata W IMG 2119.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Sonjna_(Moringa_oleifera)_leaf_at_Kolkata_W_IMG_2119.jpg", "accessed": "2026-06-23" }
+  ]
+}

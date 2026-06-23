@@ -1,0 +1,95 @@
+{
+  "slug": "withania-somnifera",
+  "kingdom": "plant",
+  "names": {
+    "de": "Ashwagandha (Schlafbeere)",
+    "en": "Ashwagandha",
+    "latin": "Withania somnifera"
+  },
+  "family": {
+    "de": "Nachtschattengewächse",
+    "en": "Nightshade family",
+    "latin": "Solanaceae"
+  },
+  "teaser": {
+    "de": "Immergrüner Strauch aus der ayurvedischen Tradition, dessen Wurzel als sogenanntes Adaptogen vor allem bei Stress und Schlafproblemen untersucht wird.",
+    "en": "An evergreen shrub from the Ayurvedic tradition whose root is studied as a so-called adaptogen, mainly for stress and sleep problems."
+  },
+  "description": {
+    "de": "Withania somnifera ist ein niedrig wachsender, immergrüner Strauch, der in Indien, Teilen Afrikas und im Nahen Osten heimisch ist. Verwendet wird vor allem die Wurzel, die seit Jahrhunderten in der ayurvedischen Medizin genutzt wird. Als wirksamkeitsbestimmend gelten Inhaltsstoffe aus der Gruppe der Withanolide. In der modernen Anwendung werden standardisierte Wurzelextrakte vor allem bei Stress und Schlafstörungen beworben. Die Studienlage ist gemischt: für Stress und Schlaf gibt es Hinweise, für andere Anwendungen ist die Evidenz unklar.",
+    "en": "Withania somnifera is a low-growing, evergreen shrub native to India, parts of Africa and the Middle East. The part mainly used is the root, used in Ayurvedic medicine for centuries. Compounds from the withanolide group are considered the likely active constituents. In modern use, standardized root extracts are promoted mainly for stress and sleep. The evidence is mixed: there are signals for stress and sleep, while evidence for other uses remains unclear."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": ["stress (research)"],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "source_ids": ["nccih", "pubmed_stress"],
+      "description": {
+        "de": "Standardisierte Wurzelextrakte werden bei stressbedingten Beschwerden eingesetzt; Meta-Analysen zeigen einen messbaren Effekt auf wahrgenommenen Stress. Die Aussagekraft ist durch kleine Stichproben und kurze Laufzeiten begrenzt.",
+        "en": "Standardized root extracts are used for stress-related complaints; meta-analyses show a measurable effect on perceived stress. The strength of evidence is limited by small samples and short durations."
+      }
+    },
+    {
+      "form": "tincture",
+      "target": ["sleep (research)"],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "clinical_trial",
+      "source_ids": ["pmc_sleep", "nccih"],
+      "description": {
+        "de": "Eine Meta-Analyse randomisierter Studien fand einen kleinen, aber signifikanten Effekt auf den Schlaf, stärker bei diagnostizierter Insomnie und Anwendung über mindestens 8 Wochen.",
+        "en": "A meta-analysis of randomized trials found a small but significant effect on sleep, more pronounced in diagnosed insomnia and use for at least 8 weeks."
+      }
+    },
+    {
+      "form": "raw",
+      "target": ["tonic (Ayurveda)"],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "source_ids": ["wiki", "livertox"],
+      "description": {
+        "de": "Traditionell wird die Wurzel in der ayurvedischen Medizin seit Jahrhunderten als kräftigendes Mittel verwendet. Diese Anwendung beruht auf Erfahrungswissen, nicht auf belastbaren klinischen Belegen.",
+        "en": "Traditionally, the root has been used in Ayurvedic medicine for centuries as a tonic. This use rests on traditional knowledge rather than robust clinical evidence."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [10, 11],
+    "harvest_part": { "de": "Wurzel", "en": "Root" }
+  },
+  "safety": {
+    "external_only": false,
+    "toxicity_level": "caution",
+    "warnings": {
+      "de": "Kein Heilmittel. Es gibt Fallberichte über teils schwere Leberschäden (cholestatischer Typ, Beginn meist 2–12 Wochen nach Einnahme; meist reversibel, einzelne tödliche Verläufe beschrieben). Während Schwangerschaft und Stillzeit meiden. Nicht empfohlen bei Schilddrüsen- oder Autoimmunerkrankungen. Mögliche Wechselwirkungen mit Sedativa, Immunsuppressiva, Schilddrüsenhormonen sowie Blutdruck-, Diabetes- und Antiepileptika-Medikamenten. Vor Anwendung ärztlich abklären.",
+      "en": "Not a cure. There are case reports of liver injury, some severe (cholestatic pattern, onset usually 2–12 weeks after starting; mostly reversible, isolated fatal cases described). Avoid during pregnancy and breastfeeding. Not recommended for thyroid or autoimmune disorders. Possible interactions with sedatives, immunosuppressants, thyroid hormones, and blood-pressure, diabetes and anti-seizure medications. Consult a clinician before use."
+    }
+  },
+  "constituents": [
+    { "name": "Withanolide", "category": "other" },
+    { "name": "Withaferin A", "category": "other" },
+    { "name": "Alkaloide", "category": "alkaloid" }
+  ],
+  "classical_quotes": [],
+  "image": {
+    "filename": "withania-somnifera.webp",
+    "alt": {
+      "de": "Withania somnifera (Ashwagandha) mit Blättern und roten Beeren in Hüllkelchen",
+      "en": "Withania somnifera (ashwagandha) with leaves and red berries in calyx husks"
+    },
+    "license": "CC BY 2.0",
+    "author": "Cliff (Flickr)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ashwagandha_(Withania_somnifera).jpg"
+  },
+  "sources": [
+    { "id": "nccih", "type": "monograph", "title": "Ashwagandha: Usefulness and Safety — NCCIH (NIH)", "url": "https://www.nccih.nih.gov/health/ashwagandha", "accessed": "2026-06-23" },
+    { "id": "livertox", "type": "monograph", "title": "Ashwagandha — LiverTox, NCBI Bookshelf (NIH)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK548536/", "accessed": "2026-06-23" },
+    { "id": "wiki", "type": "wikipedia", "title": "Withania somnifera — Wikipedia", "url": "https://en.wikipedia.org/wiki/Withania_somnifera", "accessed": "2026-06-23" },
+    { "id": "pubmed_stress", "type": "monograph", "title": "Effects of Ashwagandha on stress and anxiety: A systematic review and meta-analysis (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/39348746/", "accessed": "2026-06-23" },
+    { "id": "pmc_sleep", "type": "monograph", "title": "Effect of Ashwagandha extract on sleep: A systematic review and meta-analysis (PMC8462692)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8462692/", "accessed": "2026-06-23" },
+    { "id": "commons_img", "type": "commons", "title": "File:Ashwagandha (Withania somnifera).jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Ashwagandha_(Withania_somnifera).jpg", "accessed": "2026-06-23" }
+  ]
+}

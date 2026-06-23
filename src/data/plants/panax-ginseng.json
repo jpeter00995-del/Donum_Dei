@@ -1,0 +1,80 @@
+{
+  "slug": "panax-ginseng",
+  "kingdom": "plant",
+  "names": {
+    "de": "Ginseng",
+    "en": "Asian ginseng",
+    "latin": "Panax ginseng"
+  },
+  "family": {
+    "de": "Araliengewächse",
+    "en": "Ginseng family",
+    "latin": "Araliaceae"
+  },
+  "teaser": {
+    "de": "Eine ostasiatische Wurzelpflanze, deren Wurzel traditionell als kräftigendes Tonikum genutzt wird und deren Hauptwirkstoffe die Ginsenoside sind.",
+    "en": "An East Asian root plant whose root is traditionally used as a strengthening tonic and whose main active compounds are the ginsenosides."
+  },
+  "description": {
+    "de": "Panax ginseng ist eine ausdauernde Pflanze aus der Familie der Araliengewächse, die in den Bergwäldern Ostasiens (Korea, Nordostchina, Russland) heimisch ist. Genutzt wird vor allem die fleischige Wurzel, die mehrere Jahre bis zur Ernte wächst. Die wichtigsten Inhaltsstoffe sind die Ginsenoside, eine Gruppe von Saponinen. In der traditionellen ostasiatischen Medizin wird Ginseng seit langem als allgemeines Stärkungsmittel verwendet. Die wissenschaftliche Studienlage zum tatsächlichen Nutzen ist begrenzt und uneinheitlich.",
+    "en": "Panax ginseng is a perennial plant in the ginseng family, native to the mountain forests of East Asia (Korea, northeastern China, Russia). The fleshy root, which grows for several years before harvest, is the main part used. Its most important constituents are the ginsenosides, a group of saponins. In traditional East Asian medicine ginseng has long been used as a general tonic. Scientific evidence for its actual benefits is limited and inconsistent."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": ["fatigue (traditional)", "stress (traditional)", "tonic"],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "source_ids": ["nccih", "wiki"],
+      "description": {
+        "de": "Traditionell als Tonikum bei Erschöpfung, Stress und nachlassender Leistungsfähigkeit eingesetzt; im Westen als Adaptogen vermarktet. Belastbare klinische Belege sind begrenzt.",
+        "en": "Traditionally used as a tonic for fatigue, stress and reduced performance; marketed as an adaptogen in the West. Robust clinical evidence is limited."
+      }
+    },
+    {
+      "form": "tea",
+      "target": ["cognitive function (research)", "immune support (research)"],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "source_ids": ["nccih", "pmc"],
+      "description": {
+        "de": "Ginseng wird für kognitive Funktion, Müdigkeit und Immunsystem beworben. Laut NCCIH gibt es bislang nur wenig Evidenz für einen gesicherten gesundheitlichen Nutzen.",
+        "en": "Ginseng is promoted for cognitive function, fatigue and immune support. According to NCCIH there is so far little evidence for a well-defined health benefit."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [9, 10],
+    "harvest_part": { "de": "Wurzel", "en": "Root" }
+  },
+  "safety": {
+    "external_only": false,
+    "toxicity_level": "caution",
+    "warnings": {
+      "de": "Häufigste Nebenwirkung ist Schlaflosigkeit. Ginseng kann den Blutzucker senken (Vorsicht bei Diabetes-Medikamenten) und die Blutgerinnung beeinflussen (berichtete Wechselwirkung mit Warfarin). Wechselwirkungen über Cytochrom-P450-Enzyme sowie eine mögliche Verschlimmerung von Autoimmunerkrankungen sind beschrieben. Nicht empfohlen für Säuglinge, Kinder, Schwangere und Stillende. Bei Medikamenteneinnahme vorher ärztlich abklären.",
+      "en": "The most common side effect is insomnia. Ginseng may lower blood sugar (caution with diabetes medication) and affect blood clotting (reported interaction with warfarin). Interactions via cytochrome P450 enzymes and possible worsening of autoimmune disorders are described. Not recommended for infants, children, or pregnant or breastfeeding women. Consult a clinician before use if taking medication."
+    }
+  },
+  "constituents": [
+    { "name": "Ginsenoside", "category": "saponin" },
+    { "name": "Polysaccharide", "category": "polysaccharide" }
+  ],
+  "classical_quotes": [],
+  "image": {
+    "filename": "panax-ginseng.webp",
+    "alt": {
+      "de": "Panax ginseng (Ginseng) mit Blättern und roten Beeren",
+      "en": "Panax ginseng (Asian ginseng) with leaves and red berries"
+    },
+    "license": "CC BY 4.0",
+    "author": "Nina Filippova",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Panax_ginseng_C.A.Mey._3399124768.jpg"
+  },
+  "sources": [
+    { "id": "nccih", "type": "monograph", "title": "Asian Ginseng: Usefulness and Safety — NCCIH (NIH)", "url": "https://www.nccih.nih.gov/health/asian-ginseng", "accessed": "2026-06-23" },
+    { "id": "pmc", "type": "monograph", "title": "Safety Analysis of Panax Ginseng in Randomized Clinical Trials: A Systematic Review (PMC5533164)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5533164/", "accessed": "2026-06-23" },
+    { "id": "wiki", "type": "wikipedia", "title": "Panax ginseng — Wikipedia", "url": "https://en.wikipedia.org/wiki/Panax_ginseng", "accessed": "2026-06-23" },
+    { "id": "commons_img", "type": "commons", "title": "File:Panax ginseng C.A.Mey. 3399124768.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Panax_ginseng_C.A.Mey._3399124768.jpg", "accessed": "2026-06-23" }
+  ]
+}
