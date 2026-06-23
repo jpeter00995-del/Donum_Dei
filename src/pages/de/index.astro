@@ -11,9 +11,26 @@ const locale = 'de' as const;
 // Haupt-Grid zeigt nur „Alltags"-Pflanzen: Pilze (/de/pilze) und kontrollierte
 // Rauschpflanzen (/de/rauschpflanzen) haben eigene Seiten → hier ausfiltern.
 const plants = getPlantsSortedByLocale(locale).filter(isEverydayPlant).map(toPlantCard);
+
+// === Strukturierte Daten: WebSite + Suchfeld (Sitelinks-Searchbox in Google) ===
+// Funktioniert, weil /de/suche jetzt ?q=... auswertet (triggerSearch).
+const siteBase = Astro.site ? Astro.site.href.replace(/\/$/, '') : '';
+const siteLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: t(locale, 'site.title'),
+  url: `${siteBase}/${locale}/`,
+  inLanguage: locale,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: { '@type': 'EntryPoint', urlTemplate: `${siteBase}/${locale}/suche?q={search_term_string}` },
+    'query-input': 'required name=search_term_string',
+  },
+};
 ---
 
 <BaseLayout locale={locale}>
+  <script type="application/ld+json" set:html={JSON.stringify(siteLd)} />
   <div class="max-w-6xl mx-auto px-4 py-8">
     <h1 class="text-2xl md:text-3xl font-serif font-bold text-slate-900 mb-6">{t(locale, 'site.tagline')}</h1>
     <FilterBar client:load plants={plants} locale={locale} />

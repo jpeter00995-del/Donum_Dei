@@ -21,7 +21,7 @@ const title = t(locale, 'search.title');
     <script is:inline>
       window.addEventListener('DOMContentLoaded', () => {
         // @ts-ignore — PagefindUI is global from pagefind-ui.js
-        new PagefindUI({
+        const ui = new PagefindUI({
           element: '#pagefind-search',
           showSubResults: true,
           pageSize: 10,
@@ -30,6 +30,9 @@ const title = t(locale, 'search.title');
           excerptLength: 25,
           forceLanguage: 'en'
         });
+        // Search term from the URL (?q=...) — makes SearchAction/deep links work.
+        const q = new URLSearchParams(window.location.search).get('q');
+        if (q) ui.triggerSearch(q);
       });
     </script>
 
