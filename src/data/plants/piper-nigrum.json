@@ -1,0 +1,80 @@
+{
+  "slug": "piper-nigrum",
+  "kingdom": "plant",
+  "names": {
+    "de": "Schwarzer Pfeffer",
+    "en": "Black pepper",
+    "latin": "Piper nigrum"
+  },
+  "family": {
+    "de": "Pfeffergewächse",
+    "en": "Pepper family",
+    "latin": "Piperaceae"
+  },
+  "teaser": {
+    "de": "Tropische Kletterpflanze, deren getrocknete Früchte als Pfefferkörner weltweit als Gewürz dienen und den scharfen Wirkstoff Piperin enthalten.",
+    "en": "A tropical climbing vine whose dried fruits are used worldwide as the spice peppercorn and contain the pungent compound piperine."
+  },
+  "description": {
+    "de": "Piper nigrum ist eine mehrjährige, verholzende Kletterpflanze aus der Familie der Pfeffergewächse, die bis zu etwa 4 m hoch an Stützen wächst. Angebaut wird sie wegen ihrer Früchte, der Pfefferkörner, die getrocknet als Gewürz verwendet werden. Die Schärfe stammt vom Alkaloid Piperin. Das ätherische Öl der Fruchthülle enthält Terpene wie Limonen, Pinen und Beta-Caryophyllen, die das Aroma prägen. Schwarzer Pfeffer wird seit der Antike als Gewürz und in der traditionellen Heilkunde verwendet.",
+    "en": "Piper nigrum is a perennial woody climbing vine of the pepper family that grows up to about 4 m on supports. It is cultivated for its fruits, the peppercorns, which are dried and used as a spice. Its pungency comes from the alkaloid piperine. The essential oil of the fruit coat contains terpenes such as limonene, pinene and beta-caryophyllene that shape the aroma. Black pepper has been used since antiquity as a seasoning and in traditional medicine."
+  },
+  "uses": [
+    {
+      "form": "spice",
+      "target": ["seasoning", "digestion (traditional)"],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "traditional",
+      "source_ids": ["wiki"],
+      "description": {
+        "de": "Getrocknete Pfefferkörner sind ein weltweit verbreitetes Küchengewürz; traditionell auch bei Husten, Erkältung und Verdauungsbeschwerden verwendet (überlieferte Erfahrung, kein Wirksamkeitsnachweis).",
+        "en": "Dried peppercorns are a ubiquitous culinary seasoning; traditionally also used for cough, cold and digestive complaints (traditional use, not proof of efficacy)."
+      }
+    },
+    {
+      "form": "spice",
+      "target": ["bioavailability enhancer (research)"],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "source_ids": ["jpet", "pharmtimes"],
+      "description": {
+        "de": "Piperin kann die Aufnahme und Plasmaspiegel anderer Stoffe erhöhen, indem es Stoffwechsel-Enzyme (CYP3A4) und den Transporter P-Glykoprotein hemmt; dies wurde in Studien gezeigt.",
+        "en": "Piperine can increase the absorption and plasma levels of other substances by inhibiting metabolic enzymes (CYP3A4) and the transporter P-glycoprotein; this has been shown in studies."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [11, 12, 1, 2],
+    "harvest_part": { "de": "Früchte (Pfefferkörner)", "en": "Fruits (peppercorns)" }
+  },
+  "safety": {
+    "external_only": false,
+    "toxicity_level": "caution",
+    "warnings": {
+      "de": "Als Küchengewürz in üblichen Mengen unbedenklich. Vorsicht bei konzentrierten Piperin-Präparaten: Piperin hemmt arzneimittelabbauende Enzyme (CYP3A4, CYP2C9) und P-Glykoprotein und kann die Blutspiegel mancher Medikamente erhöhen (z. B. Carbamazepin, Midazolam, Diclofenac, Phenytoin, möglicherweise Warfarin und Digoxin). Wer Medikamente einnimmt, sollte vor der Verwendung piperinhaltiger Nahrungsergänzungsmittel ärztlichen Rat einholen.",
+      "en": "Safe as a culinary spice in normal amounts. Caution with concentrated piperine supplements: piperine inhibits drug-metabolising enzymes (CYP3A4, CYP2C9) and P-glycoprotein and can raise the blood levels of some medicines (e.g. carbamazepine, midazolam, diclofenac, phenytoin, possibly warfarin and digoxin). Anyone taking medication should seek medical advice before using piperine supplements."
+    }
+  },
+  "constituents": [
+    { "name": "Piperin", "category": "alkaloid" },
+    { "name": "Ätherisches Öl (Limonen, Pinen, β-Caryophyllen)", "category": "essential_oil" }
+  ],
+  "classical_quotes": [],
+  "image": {
+    "filename": "piper-nigrum.webp",
+    "alt": {
+      "de": "Schwarze Pfefferkörner (Piper nigrum)",
+      "en": "Black peppercorns (Piper nigrum)"
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Ben3john",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pepper.jpg"
+  },
+  "sources": [
+    { "id": "wiki", "type": "wikipedia", "title": "Black pepper — Wikipedia", "url": "https://en.wikipedia.org/wiki/Black_pepper", "accessed": "2026-06-23" },
+    { "id": "jpet", "type": "monograph", "title": "Piperine inhibits human P-glycoprotein and CYP3A4 (Bhardwaj et al., J Pharmacol Exp Ther)", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022356524358112", "accessed": "2026-06-23" },
+    { "id": "pharmtimes", "type": "monograph", "title": "Piperine Drug Interactions — Pharmacy Times", "url": "https://www.pharmacytimes.com/view/piperine-drug-interactions", "accessed": "2026-06-23" },
+    { "id": "commons_img", "type": "commons", "title": "File:Pepper.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Pepper.jpg", "accessed": "2026-06-23" }
+  ]
+}

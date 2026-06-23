@@ -1,0 +1,82 @@
+{
+  "slug": "hibiscus-sabdariffa",
+  "kingdom": "plant",
+  "names": {
+    "de": "Roselle (Hibiskus)",
+    "en": "Roselle",
+    "latin": "Hibiscus sabdariffa"
+  },
+  "family": {
+    "de": "Malvengewächse",
+    "en": "Mallow family",
+    "latin": "Malvaceae"
+  },
+  "teaser": {
+    "de": "Aus den fleischigen Kelchblättern dieser Malvenpflanze wird der säuerlich-rote Hibiskustee bereitet, der in Studien eine leichte blutdrucksenkende Wirkung zeigte.",
+    "en": "The fleshy calyces of this mallow plant make the tart, ruby-red hibiscus tea, which has shown a mild blood-pressure-lowering effect in studies."
+  },
+  "description": {
+    "de": "Hibiscus sabdariffa ist eine einjährige Pflanze aus der Familie der Malvengewächse, die in tropischen und subtropischen Regionen angebaut wird. Verwendet werden vor allem die roten, fleischigen Kelchblätter, die nach der Blüte heranreifen. Aus ihnen wird ein säuerlicher, kräftig roter Aufguss zubereitet, der weltweit als Erfrischungs- und Haustee getrunken wird. Die rote Farbe und der saure Geschmack stammen von Anthocyanen und organischen Säuren. In klinischen Studien wurde vor allem die Wirkung auf den Blutdruck untersucht.",
+    "en": "Hibiscus sabdariffa is an annual plant of the mallow family, grown in tropical and subtropical regions. The parts used are mainly the red, fleshy calyces that mature after flowering. They are used to brew a tart, deep-red infusion drunk worldwide as a refreshing tea. The red colour and sour taste come from anthocyanins and organic acids. In clinical studies, its effect on blood pressure has been the main focus."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["refreshing tea", "beverage"],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "traditional",
+      "source_ids": ["eda"],
+      "description": {
+        "de": "Aus den getrockneten Kelchblättern wird traditionell ein säuerlicher, roter Tee zubereitet, der weltweit als Erfrischungsgetränk getrunken wird.",
+        "en": "The dried calyces are traditionally used to make a tart red tea, drunk worldwide as a refreshing beverage."
+      }
+    },
+    {
+      "form": "tea",
+      "target": ["blood pressure (research)"],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "source_ids": ["meta"],
+      "description": {
+        "de": "Meta-Analysen klinischer Studien fanden eine leichte Senkung vor allem des systolischen (oberen) Blutdrucks, am deutlichsten bei erhöhten Ausgangswerten. Die Datenlage ist begrenzt und ersetzt keine ärztliche Behandlung.",
+        "en": "Meta-analyses of clinical trials found a mild reduction mainly in systolic (upper) blood pressure, most pronounced with elevated baseline values. The evidence base is limited and is not a substitute for medical treatment."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [10, 11, 12],
+    "harvest_part": { "de": "Kelchblätter", "en": "Calyces" }
+  },
+  "safety": {
+    "external_only": false,
+    "toxicity_level": "caution",
+    "warnings": {
+      "de": "Kann den Blutdruck senken und mit blutdrucksenkenden Medikamenten (z. B. ACE-Hemmern) zusammenwirken; Vorsicht auch bei Diabetes-Medikamenten, da der Blutzucker beeinflusst werden kann. In Schwangerschaft und Stillzeit nicht empfohlen, da die Sicherheit nicht belegt ist und Tierdaten auf ein mögliches Risiko hindeuten. Bei Medikation oder Erkrankung vor regelmäßigem Konsum ärztlich abklären.",
+      "en": "May lower blood pressure and interact with antihypertensive drugs (e.g. ACE inhibitors); caution also with diabetes medication, as blood sugar may be affected. Not recommended during pregnancy and breastfeeding, as safety is not established and animal data suggest a possible risk. If you take medication or have a condition, consult a doctor before regular consumption."
+    }
+  },
+  "constituents": [
+    { "name": "Anthocyane (Delphinidin-/Cyanidin-Sambubioside)", "category": "flavonoid" },
+    { "name": "Organische Säuren (Zitronen-, Hibiskus-, Apfelsäure)", "category": "other" },
+    { "name": "Vitamin C", "category": "vitamin" },
+    { "name": "Schleimstoffe (Polysaccharide)", "category": "mucilage" }
+  ],
+  "classical_quotes": [],
+  "image": {
+    "filename": "hibiscus-sabdariffa.webp",
+    "alt": {
+      "de": "Hibiscus sabdariffa (Roselle) mit roten Kelchblättern",
+      "en": "Hibiscus sabdariffa (roselle) with red calyces"
+    },
+    "license": "CC BY-SA 2.0",
+    "author": "Dinesh Valke",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hibiscus_sabdariffa_(6309645399).jpg"
+  },
+  "sources": [
+    { "id": "meta", "type": "monograph", "title": "Effects of Hibiscus sabdariffa on blood pressure and cardiometabolic markers: systematic review and meta-analysis (Nutrition Reviews 2022, PMC9086798)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9086798/", "accessed": "2026-06-23" },
+    { "id": "webmd", "type": "monograph", "title": "Hibiscus Sabdariffa: Uses, Side Effects, Interactions (WebMD)", "url": "https://www.webmd.com/vitamins/ai/ingredientmono-211/hibiscus-sabdariffa", "accessed": "2026-06-23" },
+    { "id": "eda", "type": "monograph", "title": "Egyptian Herbal Monograph: Hibiscus sabdariffa L. (Egyptian Drug Authority)", "url": "https://www.edaegypt.gov.eg/media/hzynjgnk/hibiscus-sabdariffa-l.pdf", "accessed": "2026-06-23" },
+    { "id": "commons_img", "type": "commons", "title": "File:Hibiscus sabdariffa (6309645399).jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Hibiscus_sabdariffa_(6309645399).jpg", "accessed": "2026-06-23" }
+  ]
+}

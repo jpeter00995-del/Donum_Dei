@@ -1,0 +1,81 @@
+{
+  "slug": "elettaria-cardamomum",
+  "kingdom": "plant",
+  "names": {
+    "de": "Grüner Kardamom",
+    "en": "Green cardamom",
+    "latin": "Elettaria cardamomum"
+  },
+  "family": {
+    "de": "Ingwergewächse",
+    "en": "Ginger family",
+    "latin": "Zingiberaceae"
+  },
+  "teaser": {
+    "de": "Aromatisches Gewürz aus Südindien, dessen Samen traditionell verdauungsfördernd verwendet werden.",
+    "en": "Aromatic spice from southern India whose seeds are traditionally used to support digestion."
+  },
+  "description": {
+    "de": "Elettaria cardamomum ist eine ausdauernde, krautige Pflanze aus der Familie der Ingwergewächse, die in Südindien beheimatet ist und in tropischen Regionen angebaut wird. Die Pflanze wird etwa 2–4 Meter hoch und bildet dreikantige, gelblich-grüne Kapseln mit mehreren dunklen Samen. Verwendet werden die getrockneten Kapseln und Samen, vor allem als Gewürz in der indischen und asiatischen Küche sowie zum Aromatisieren von Kaffee und Tee. In traditionellen Heilsystemen wird Kardamom bei Verdauungsbeschwerden eingesetzt.",
+    "en": "Elettaria cardamomum is a perennial herbaceous plant in the ginger family, native to southern India and cultivated in tropical regions. The plant grows roughly 2–4 metres tall and produces three-sided, yellowish-green pods containing several dark seeds. The dried pods and seeds are used mainly as a spice in Indian and Asian cuisine and to flavour coffee and tea. In traditional medicine, cardamom has been used for digestive complaints."
+  },
+  "uses": [
+    {
+      "form": "spice",
+      "target": ["digestion (traditional)", "flavouring"],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "source_ids": ["review", "wiki"],
+      "description": {
+        "de": "Die Samen werden traditionell als Gewürz und als Verdauungshilfe bei Magen-Darm-Beschwerden verwendet.",
+        "en": "The seeds are traditionally used as a spice and as a digestive aid for gastrointestinal discomfort."
+      }
+    },
+    {
+      "form": "spice",
+      "target": ["blood pressure (research)", "inflammation (research)"],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "clinical_trial",
+      "source_ids": ["meta", "review"],
+      "description": {
+        "de": "In randomisierten Studien (meist 3 g/Tag) zeigte grüner Kardamom Hinweise auf eine Senkung von Blutdruck und Entzündungsmarkern; die Evidenz beim Menschen ist jedoch noch begrenzt.",
+        "en": "In randomized trials (typically 3 g/day), green cardamom showed signals of reducing blood pressure and inflammatory markers; however, human evidence remains limited."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [9, 10, 11],
+    "harvest_part": { "de": "Samen/Kapseln", "en": "Seeds/pods" }
+  },
+  "safety": {
+    "external_only": false,
+    "toxicity_level": "caution",
+    "warnings": {
+      "de": "Als Küchengewürz gilt Kardamom für die meisten Menschen als unbedenklich. Allergische Reaktionen sind möglich. Personen mit Gallensteinen sollten größere Mengen meiden, da Kardamom die Gallenproduktion anregen und Koliken auslösen kann. Bei medizinischer Anwendung oder in der Schwangerschaft ärztlichen Rat einholen.",
+      "en": "As a culinary spice, cardamom is considered safe for most people. Allergic reactions are possible. People with gallstones should avoid large amounts, as cardamom can stimulate bile secretion and trigger colic. Seek medical advice for medicinal use or during pregnancy."
+    }
+  },
+  "constituents": [
+    { "name": "Ätherisches Öl (1,8-Cineol, α-Terpinylacetat)", "category": "essential_oil" },
+    { "name": "Flavonoide (Quercetin)", "category": "flavonoid" }
+  ],
+  "classical_quotes": [],
+  "image": {
+    "filename": "elettaria-cardamomum.webp",
+    "alt": {
+      "de": "Kardamompflanze (Elettaria cardamomum) mit Blättern",
+      "en": "Cardamom plant (Elettaria cardamomum) with leaves"
+    },
+    "license": "CC BY 4.0",
+    "author": "Aseedtolife",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cardamom_Plant_Elettaria_cardamomum.jpg"
+  },
+  "sources": [
+    { "id": "review", "type": "monograph", "title": "Botany, traditional uses, phytochemistry and biological activities of cardamom — a critical review (J. Ethnopharmacology)", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378874119308918", "accessed": "2026-06-23" },
+    { "id": "meta", "type": "monograph", "title": "Effect of cardamom consumption on inflammation and blood pressure in adults: meta-analysis of RCTs (PMC10804083)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804083/", "accessed": "2026-06-23" },
+    { "id": "wiki", "type": "wikipedia", "title": "Elettaria cardamomum — Wikipedia", "url": "https://en.wikipedia.org/wiki/Elettaria_cardamomum", "accessed": "2026-06-23" },
+    { "id": "commons_img", "type": "commons", "title": "File:Cardamom Plant Elettaria cardamomum.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Cardamom_Plant_Elettaria_cardamomum.jpg", "accessed": "2026-06-23" }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "eucalyptus-globulus",
+  "kingdom": "plant",
+  "names": {
+    "de": "Blauer Eukalyptus",
+    "en": "Blue gum eucalyptus",
+    "latin": "Eucalyptus globulus"
+  },
+  "family": {
+    "de": "Myrtengewächse",
+    "en": "Myrtle family",
+    "latin": "Myrtaceae"
+  },
+  "teaser": {
+    "de": "Immergrüner Baum, dessen Blätter und ätherisches Öl traditionell bei Erkältung und Husten zur Befreiung der Atemwege genutzt werden.",
+    "en": "An evergreen tree whose leaves and essential oil are traditionally used for colds and cough to ease the airways."
+  },
+  "description": {
+    "de": "Eucalyptus globulus ist ein schnell wachsender, immergrüner Baum aus der Familie der Myrtengewächse, ursprünglich aus Australien (Tasmanien). Die Blätter enthalten ein ätherisches Öl, dessen Hauptbestandteil 1,8-Cineol (Eucalyptol) ist. In Europa sind Zubereitungen aus Eukalyptusöl als traditionelle pflanzliche Arzneimittel zur Linderung von Husten bei Erkältungen sowie äußerlich bei örtlichem Muskelschmerz registriert. Die Wirksamkeit beruht überwiegend auf langjähriger traditioneller Anwendung; für 1,8-Cineol liegen zusätzlich einzelne klinische Studien vor.",
+    "en": "Eucalyptus globulus is a fast-growing, evergreen tree of the myrtle family, native to Australia (Tasmania). Its leaves contain an essential oil whose main component is 1,8-cineole (eucalyptol). In Europe, eucalyptus oil preparations are registered as traditional herbal medicinal products for the relief of cough associated with colds and, applied externally, for localised muscle pain. The evidence rests largely on long-standing traditional use; for 1,8-cineole some clinical studies also exist."
+  },
+  "uses": [
+    {
+      "form": "inhalation",
+      "target": ["cough (cold)", "blocked airways"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "source_ids": ["ema", "ema_report"],
+      "description": {
+        "de": "Traditionell zur Linderung von Husten bei Erkältungen und als Inhalation/Badezusatz, um die oberen Atemwege freier zu machen; in der EU als traditionelles pflanzliches Arzneimittel registriert.",
+        "en": "Traditionally used to relieve cough associated with colds and as an inhalation/bath additive to help clear the upper airways; registered in the EU as a traditional herbal medicinal product."
+      }
+    },
+    {
+      "form": "essential_oil",
+      "target": ["bronchitis (research)", "rhinosinusitis (research)"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "clinical_trial",
+      "source_ids": ["ema_report", "review"],
+      "description": {
+        "de": "Für den Inhaltsstoff 1,8-Cineol gibt es einzelne klinische Studien zu Atemwegsbeschwerden wie Bronchitis und Rhinosinusitis.",
+        "en": "For the constituent 1,8-cineole, some clinical studies exist on respiratory complaints such as bronchitis and rhinosinusitis."
+      }
+    }
+  ],
+  "season": {
+    "active_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "harvest_part": { "de": "Blätter", "en": "Leaves" }
+  },
+  "safety": {
+    "external_only": false,
+    "toxicity_level": "caution",
+    "warnings": {
+      "de": "Ätherisches Eukalyptusöl bzw. 1,8-Cineol NICHT im Gesicht oder an der Nase von Säuglingen und Kleinkindern (unter ca. 10 Jahren) anwenden — Gefahr von Stimmritzenkrampf und Atemnot. Nicht unverdünnt einnehmen; vorgegebene Dosierung beachten. Nicht bei Überempfindlichkeit gegen Eukalyptusöl/1,8-Cineol; Vorsicht bei Kindern mit Krampfanfällen in der Vorgeschichte.",
+      "en": "Do not apply eucalyptus essential oil or 1,8-cineole to the face or nose of infants and young children (under about 10 years) — risk of glottal spasm and breathing difficulty. Do not take undiluted; follow the stated dosage. Do not use with hypersensitivity to eucalyptus oil/1,8-cineole; caution in children with a history of seizures."
+    }
+  },
+  "constituents": [
+    { "name": "1,8-Cineol (Eucalyptol)", "category": "essential_oil" },
+    { "name": "α-Pinen", "category": "essential_oil" },
+    { "name": "Limonen", "category": "essential_oil" }
+  ],
+  "classical_quotes": [],
+  "image": {
+    "filename": "eucalyptus-globulus.webp",
+    "alt": {
+      "de": "Botanische Tafel von Eucalyptus globulus (Blauer Eukalyptus), Köhler 1897",
+      "en": "Botanical plate of Eucalyptus globulus (blue gum), Köhler 1897"
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen (1897)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eucalyptus_globulus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-147.jpg"
+  },
+  "sources": [
+    { "id": "ema", "type": "monograph", "title": "Eucalypti aetheroleum (eucalyptus oil) — EMA herbal medicinal product overview", "url": "https://www.ema.europa.eu/en/medicines/herbal/eucalypti-aetheroleum", "accessed": "2026-06-23" },
+    { "id": "ema_report", "type": "monograph", "title": "EMA/HMPC — Assessment report on Eucalyptus globulus Labill., folium", "url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-eucalyptus-globulus-labill-folium_en.pdf", "accessed": "2026-06-23" },
+    { "id": "review", "type": "monograph", "title": "Therapeutic applications of eucalyptus essential oils (Inflammopharmacology 2024)", "url": "https://link.springer.com/article/10.1007/s10787-024-01588-8", "accessed": "2026-06-23" },
+    { "id": "commons_img", "type": "commons", "title": "File:Eucalyptus globulus - Köhler's Medizinal-Pflanzen-147.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Eucalyptus_globulus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-147.jpg", "accessed": "2026-06-23" }
+  ]
+}
