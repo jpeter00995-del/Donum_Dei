@@ -5,8 +5,10 @@ import { describe, it, expect } from 'vitest';
 import {
   gradeScore,
   pickQuestionsForRound,
+  pickSymptomQuestionsForRound,
   updateStats,
   type QuizStats,
+  type SymptomQ,
 } from './quizLogic';
 import type { Plant } from './types';
 
@@ -178,5 +180,50 @@ describe('updateStats — kumulative Statistik pro Rundenlänge', () => {
     // Output muss neues Objekt sein (sonst hätten wir nicht-detektierte Mutation)
     expect(next).not.toBe(seeded);
     expect(next['10']).not.toBe(seeded['10']);
+  });
+});
+
+// === Symptom-Quiz ===
+
+describe('pickSymptomQuestionsForRound', () => {
+  const data: SymptomQ[] = [
+    { id: 'cold', emoji: '🤧', name_de: 'Erkältung', name_en: 'Cold', correctSlugs: ['a', 'b'], matchSlugs: ['a', 'b'] },
+    { id: 'sleep', emoji: '😴', name_de: 'Schlaf', name_en: 'Sleep', correctSlugs: ['c'], matchSlugs: ['c'] },
+  ];
+  const allSlugs = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+
+  it('builds up to `length` questions with 4 options each', () => {
+    const qs = pickSymptomQuestionsForRound(data, allSlugs, 5);
+    expect(qs).toHaveLength(2); // nur 2 Symptome vorhanden
+    for (const q of qs) {
+      expect(q.optionSlugs).toHaveLength(4);
+      expect(q.correctIndex).toBeGreaterThanOrEqual(0);
+    }
+  });
+
+  it('correctIndex points to a matching plant', () => {
+    const qs = pickSymptomQuestionsForRound(data, allSlugs, 5);
+    for (const q of qs) {
+      const correctSlug = q.optionSlugs[q.correctIndex];
+      const sym = data.find(s => s.id === q.symptomId)!;
+      expect(sym.correctSlugs).toContain(correctSlug);
+    }
+  });
+
+  it('distractors never come from matching plants', () => {
+    const qs = pickSymptomQuestionsForRound(data, allSlugs, 5);
+    for (const q of qs) {
+      const sym = data.find(s => s.id === q.symptomId)!;
+      const distractors = q.optionSlugs.filter((_, i) => i !== q.correctIndex);
+      for (const d of distractors) {
+        expect(sym.matchSlugs).not.toContain(d);
+      }
+    }
+  });
+
+  it('does not repeat the same symptom in a round', () => {
+    const qs = pickSymptomQuestionsForRound(data, allSlugs, 5);
+    const ids = qs.map(q => q.symptomId);
+    expect(new Set(ids).size).toBe(ids.length);
   });
 });

@@ -87,6 +87,63 @@ export function pickQuestionsForRound(
   });
 }
 
+// === 4b. Symptom-Quiz „Welche Pflanze hilft bei X?" ===
+
+/** Build-time aufbereitete Symptom-Daten (aus quizCard.buildSymptomQuizData). */
+export interface SymptomQ {
+  id: string;
+  emoji: string;
+  name_de: string;
+  name_en: string;
+  /** Top-Pflanzen, die laut Daten zum Symptom passen (mögliche richtige Antwort). */
+  correctSlugs: string[];
+  /** ALLE Pflanzen mit Treffer > 0 — als Distraktoren ausgeschlossen. */
+  matchSlugs: string[];
+}
+
+/** Eine Symptom-Frage: Symptom + 4 Pflanzen-Optionen (als Slugs) + Index der Richtigen. */
+export interface SymptomQuestion {
+  symptomId: string;
+  emoji: string;
+  name_de: string;
+  name_en: string;
+  optionSlugs: string[];
+  correctIndex: number;
+}
+
+/**
+ * Stellt eine Symptom-Quiz-Runde zusammen: bis zu `length` Fragen, jede mit
+ * einem Symptom, einer korrekten passenden Pflanze und 3 Distraktoren, die
+ * NICHT zu diesem Symptom passen (kein ambivalentes „auch richtig").
+ *
+ * - Keine doppelten Symptome pro Runde (shuffle + slice).
+ * - Distraktoren werden aus Pflanzen ohne Treffer (slug ∉ matchSlugs) gezogen.
+ * - Liefert ggf. weniger als `length` Fragen, wenn zu wenige Symptome da sind.
+ */
+export function pickSymptomQuestionsForRound(
+  data: readonly SymptomQ[],
+  allSlugs: readonly string[],
+  length: RoundLength,
+): SymptomQuestion[] {
+  const chosen = shuffle(data).slice(0, length);
+
+  return chosen.map(s => {
+    const matchSet = new Set(s.matchSlugs);
+    const correct = shuffle(s.correctSlugs)[0];
+    const distractors = shuffle(allSlugs.filter(sl => !matchSet.has(sl))).slice(0, 3);
+    const optionSlugs = shuffle([correct, ...distractors]);
+    const correctIndex = optionSlugs.findIndex(o => o === correct);
+    return {
+      symptomId: s.id,
+      emoji: s.emoji,
+      name_de: s.name_de,
+      name_en: s.name_en,
+      optionSlugs,
+      correctIndex,
+    };
+  });
+}
+
 // === 5. updateStats ===
 
 /**

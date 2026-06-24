@@ -2,17 +2,19 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PlantQuiz from '@/components/PlantQuiz.tsx';
 import { loadAllPlants } from '@/lib/loadPlants';
-import { toQuizPlant } from '@/lib/quizCard';
+import { toQuizPlant, buildSymptomQuizData } from '@/lib/quizCard';
 
 // Slim-DTO statt voller Plant[] → schlankes Prop-HTML (kein 6-12 MB Bloat).
-const plants = loadAllPlants().map(toQuizPlant);
+const allPlants = loadAllPlants();
+const plants = allPlants.map(toQuizPlant);
+const symptomData = buildSymptomQuizData(allPlants);
 const locale = 'en' as const;
 ---
 
 <BaseLayout locale={locale} title="Plant Quiz">
   <div class="max-w-4xl mx-auto px-4 py-8">
     <h1 class="text-3xl font-serif font-bold text-slate-900 mb-2">Plant Quiz</h1>
-    <p class="text-slate-600 mb-6">Which plant is shown in the photo? Score is stored locally.</p>
-    <PlantQuiz client:only="react" plants={plants} locale={locale} />
+    <p class="text-slate-600 mb-6">Guess the photo or "Which plant helps with…?" — score is stored locally.</p>
+    <PlantQuiz client:only="react" plants={plants} symptomData={symptomData} locale={locale} />
   </div>
 </BaseLayout>
