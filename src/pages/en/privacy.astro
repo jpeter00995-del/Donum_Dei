@@ -12,7 +12,7 @@ const locale = 'en' as const;
     <header class="mb-6">
       <h1 class="text-3xl font-serif font-bold text-slate-900 mb-2">Privacy Policy</h1>
       <p class="text-sm text-slate-500">
-        Updated: 2026-05-18 ·
+        Updated: 2026-06-24 ·
         <a href="/en/imprint" class="text-emerald-700 hover:text-emerald-800 underline">Controller: see Imprint</a>
         · Translation of the German version, which is legally binding.
       </p>
@@ -75,6 +75,24 @@ const locale = 'en' as const;
         GBIF</strong>. These are embedded once at build time — when you visit
         the site, NO live requests are made to these services.
       </p>
+
+      <h3 class="text-lg font-semibold text-slate-900 mt-6 mb-2">Interactive maps (OpenStreetMap)</h3>
+      <p class="text-slate-700 leading-relaxed">
+        On pages with an interactive map (e.g. the map page or plant pages with
+        distribution data) your browser loads the map tiles <strong>live</strong>
+        from the servers of the <strong>OpenStreetMap Foundation</strong>. In
+        doing so, OpenStreetMap receives technically necessary data — in
+        particular your IP address — in order to deliver the tiles. This only
+        happens on pages with a map; the rest of the site makes no such
+        requests, and no advertising cookies are set. OpenStreetMap privacy
+        policy:
+        <a
+          href="https://wiki.osmfoundation.org/wiki/Privacy_Policy"
+          class="text-emerald-700 hover:text-emerald-800 underline"
+          rel="noopener noreferrer"
+          target="_blank"
+        >https://wiki.osmfoundation.org/wiki/Privacy_Policy</a>
+      </p>
     </section>
 
     <!-- === 3. NO TRACKERS === -->
@@ -83,7 +101,10 @@ const locale = 'en' as const;
       <p class="text-slate-700 leading-relaxed">
         Donum Dei uses <strong>NO</strong> tracking cookies, NO Google
         Analytics, NO Facebook pixel, NO advertising, NO social-media plugins,
-        NO external fonts, NO external scripts. We respect your privacy.
+        NO external fonts, NO external scripts. The only exception: on map pages,
+        map tiles are loaded from OpenStreetMap (see "Interactive maps" above) —
+        this serves only to display the map, not advertising or tracking.
+        Otherwise we fully respect your privacy.
       </p>
     </section>
 
