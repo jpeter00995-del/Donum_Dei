@@ -31,6 +31,16 @@ export type {
 
 export type Locale = 'de' | 'en';
 
+// UI-Sprachen: DE/EN haben volle Inhalte. FR/ES/BG sind „Light"-Sprachen —
+// nur Oberfläche (Menü, Startseite) übersetzt; Pflanzen-Inhalte fallen auf
+// Englisch zurück (siehe contentLocale()). Erweiterung ohne Bruch der {de,en}-Daten.
+export type UiLocale = Locale | 'fr' | 'es' | 'bg';
+
+/** Inhalts-Sprache zu einer UI-Sprache: nur DE oder EN (Light-Sprachen → EN). */
+export function contentLocale(ui: UiLocale): Locale {
+  return ui === 'de' ? 'de' : 'en';
+}
+
 export type LocalizedString = {
   de: string;
   en: string;

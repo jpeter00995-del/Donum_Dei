@@ -1,18 +1,21 @@
 import { useEffect } from 'react';
-import type { Locale } from '@/lib/types';
+import type { Locale, UiLocale } from '@/lib/types';
 
 interface Props {
-  currentLocale: Locale;
+  currentLocale: UiLocale;
   currentPath: string;
 }
 
 const STORAGE_KEY = 'donum_dei_lang';
 
-function otherLocale(l: Locale): Locale {
-  return l === 'de' ? 'en' : 'de';
+// DE↔EN bleibt binär; Light-Sprachen (FR/ES/BG) schalten zurück auf EN.
+function otherLocale(l: UiLocale): Locale {
+  if (l === 'de') return 'en';
+  if (l === 'en') return 'de';
+  return 'en';
 }
 
-function swapLocaleInPath(path: string, from: Locale, to: Locale): string {
+function swapLocaleInPath(path: string, from: UiLocale, to: Locale): string {
   return path.replace(new RegExp(`^/${from}(/|$)`), `/${to}$1`);
 }
 

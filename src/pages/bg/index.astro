@@ -1,0 +1,29 @@
+---
+// === Bulgarische Startseite (Light-Sprache) ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { t } from '@/lib/i18n';
+
+const locale = 'bg' as const;
+const ctas = [
+  { href: '/en/', label: t(locale, 'landing.cta_browse'), icon: '🌿' },
+  { href: '/en/search', label: t(locale, 'landing.cta_search'), icon: '🔍' },
+  { href: '/en/help-with', label: t(locale, 'landing.cta_symptoms'), icon: '💊' },
+  { href: '/en/map', label: t(locale, 'landing.cta_map'), icon: '🗺️' },
+];
+---
+
+<BaseLayout locale={locale} title={t(locale, 'landing.heading')}>
+  <div class="max-w-3xl mx-auto px-4 py-10">
+    <h1 class="text-3xl sm:text-4xl font-serif font-bold text-slate-900 mb-3">{t(locale, 'landing.heading')}</h1>
+    <p class="text-lg text-slate-700 mb-2">{t(locale, 'landing.intro')}</p>
+    <p class="text-sm text-slate-500 mb-8">🌐 {t(locale, 'landing.content_note')}</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {ctas.map(c => (
+        <a href={c.href} class="flex items-center gap-3 rounded-xl border-2 border-emerald-200 hover:border-emerald-500 hover:bg-emerald-50 px-5 py-4 transition">
+          <span class="text-2xl" aria-hidden="true">{c.icon}</span>
+          <span class="text-lg font-medium text-emerald-800">{c.label}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

@@ -5,14 +5,18 @@
 //
 // Public API: t(locale, key, params?), otherLocale(l)
 
-import type { Locale } from './types';
+import type { Locale, UiLocale } from './types';
 import { de } from './i18n/de';
 import { en } from './i18n/en';
+import { fr } from './i18n/fr';
+import { es } from './i18n/es';
+import { bg } from './i18n/bg';
 
-const strings: Record<Locale, Record<string, string>> = { de, en };
+// Light-Sprachen (fr/es/bg) haben nur common; fehlt ein Key → Fallback EN.
+const strings: Partial<Record<UiLocale, Record<string, string>>> = { de, en, fr, es, bg };
 
-export function t(locale: Locale, key: string, params?: Record<string, string | number>): string {
-  let s = strings[locale]?.[key];
+export function t(locale: UiLocale, key: string, params?: Record<string, string | number>): string {
+  let s = strings[locale]?.[key] ?? strings.en?.[key];
   if (s === undefined) return key;
   if (params) {
     for (const [k, v] of Object.entries(params)) {

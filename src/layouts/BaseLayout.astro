@@ -10,10 +10,11 @@ import '@fontsource/crimson-pro/700.css';
 import LanguageToggle from '@/components/LanguageToggle.tsx';
 import Disclaimer from '@/components/Disclaimer.astro';
 import { t } from '@/lib/i18n';
-import type { Locale } from '@/lib/types';
+import { contentLocale } from '@/lib/types';
+import type { Locale, UiLocale } from '@/lib/types';
 
 interface Props {
-  locale: Locale;
+  locale: UiLocale;
   title?: string;
   // Optionale, seiten-eigene Meta-Beschreibung. Ohne Wert: Fallback auf Slogan.
   description?: string;
@@ -25,6 +26,18 @@ interface Props {
   imagePath?: string;
 }
 const { locale, title, description, altPath, imagePath } = Astro.props;
+// Menü-/Footer-Links zeigen in die Inhalts-Sprache (DE oder EN). Für Light-
+// Sprachen (FR/ES/BG) also auf die englischen Seiten — die Labels bleiben aber
+// in der UI-Sprache (t(locale, ...)).
+const navLocale = contentLocale(locale);
+// Sprach-Leiste im Footer (DE/EN voll, FR/ES/BG Light → Startseite).
+const uiLangs: { code: UiLocale; label: string; href: string }[] = [
+  { code: 'de', label: 'DE', href: '/de/' },
+  { code: 'en', label: 'EN', href: '/en/' },
+  { code: 'fr', label: 'FR', href: '/fr/' },
+  { code: 'es', label: 'ES', href: '/es/' },
+  { code: 'bg', label: 'BG', href: '/bg/' },
+];
 const pageTitle = title ? `${title} · ${t(locale, 'site.title')}` : t(locale, 'site.title');
 // Einzigartige Beschreibung je Seite; auf ~160 Zeichen gekürzt (SEO-Best-Practice).
 const rawDescription = (description ?? t(locale, 'site.tagline')).trim();
@@ -34,12 +47,12 @@ const currentPath = Astro.url.pathname;
 // Kanonische Original-URL dieser Seite (absolut, via konfiguriertem `site`).
 const canonicalURL = Astro.site ? new URL(currentPath, Astro.site).href : currentPath;
 // Partner-Sprache + absolute URL der anderssprachigen Version (nur wenn altPath gesetzt).
-const altLocale: Locale = locale === 'de' ? 'en' : 'de';
+const altLocale: Locale = navLocale === 'de' ? 'en' : 'de';
 const altURL = altPath && Astro.site ? new URL(altPath, Astro.site).href : undefined;
 // Teilen-Vorschau (Open Graph / Twitter): Seiten-Bild oder Favicon-Fallback.
 const ogImagePath = imagePath ?? '/favicon.svg';
 const ogImage = Astro.site ? new URL(ogImagePath, Astro.site).href : ogImagePath;
-const ogLocale = locale === 'de' ? 'de_DE' : 'en_US';
+const ogLocale = navLocale === 'de' ? 'de_DE' : 'en_US';
 ---
 
 <!doctype html>
@@ -81,26 +94,26 @@ const ogLocale = locale === 'de' ? 'de_DE' : 'en_US';
   <body class="min-h-screen bg-white text-slate-900 flex flex-col font-sans antialiased">
     <header class="border-b border-slate-200 bg-white">
       <div class="max-w-6xl mx-auto px-4 pt-4 pb-3 flex items-center justify-between gap-3">
-        <a href={`/${locale}/`} class="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 hover:text-emerald-700 transition tracking-wide whitespace-nowrap">
+        <a href={`/${navLocale}/`} class="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 hover:text-emerald-700 transition tracking-wide whitespace-nowrap">
           {t(locale, 'site.title')}
         </a>
         <LanguageToggle client:load currentLocale={locale} currentPath={currentPath} />
       </div>
       <nav class="border-t border-slate-100 bg-slate-50/60">
         <div class="max-w-6xl mx-auto flex items-center gap-1 text-sm text-slate-600 overflow-x-auto px-4 py-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:justify-center md:flex-wrap">
-          <a href={`/${locale}/`} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.plants')}</a>
-          <a href={locale === 'de' ? '/de/suche' : '/en/search'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.search')}</a>
-          <a href={locale === 'de' ? '/de/hilfe-bei' : '/en/help-with'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.symptoms')}</a>
-          <a href={locale === 'de' ? '/de/karte' : '/en/map'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.map')}</a>
-          <a href={locale === 'de' ? '/de/mein-garten/' : '/en/my-garden/'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.garden')}</a>
-          <a href={locale === 'de' ? '/de/kalender' : '/en/calendar'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.calendar')}</a>
-          <a href={locale === 'de' ? '/de/mischkultur' : '/en/companion-planting'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.companion')}</a>
-          <a href={locale === 'de' ? '/de/pakete' : '/en/packages'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.packages')}</a>
-          <a href={locale === 'de' ? '/de/permakultur' : '/en/permaculture'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.permaculture')}</a>
-          <a href={`/${locale}/quiz`} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.quiz')}</a>
-          <a href={locale === 'de' ? '/de/zuhause-anbauen' : '/en/grow-at-home'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.indoor')}</a>
-          <a href={locale === 'de' ? '/de/pilze' : '/en/mushrooms'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.mushrooms')}</a>
-          <a href={locale === 'de' ? '/de/rauschpflanzen' : '/en/psychoactive'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.controlled')}</a>
+          <a href={`/${navLocale}/`} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.plants')}</a>
+          <a href={navLocale === 'de' ? '/de/suche' : '/en/search'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.search')}</a>
+          <a href={navLocale === 'de' ? '/de/hilfe-bei' : '/en/help-with'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.symptoms')}</a>
+          <a href={navLocale === 'de' ? '/de/karte' : '/en/map'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.map')}</a>
+          <a href={navLocale === 'de' ? '/de/mein-garten/' : '/en/my-garden/'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.garden')}</a>
+          <a href={navLocale === 'de' ? '/de/kalender' : '/en/calendar'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.calendar')}</a>
+          <a href={navLocale === 'de' ? '/de/mischkultur' : '/en/companion-planting'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.companion')}</a>
+          <a href={navLocale === 'de' ? '/de/pakete' : '/en/packages'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.packages')}</a>
+          <a href={navLocale === 'de' ? '/de/permakultur' : '/en/permaculture'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.permaculture')}</a>
+          <a href={`/${navLocale}/quiz`} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.quiz')}</a>
+          <a href={navLocale === 'de' ? '/de/zuhause-anbauen' : '/en/grow-at-home'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.indoor')}</a>
+          <a href={navLocale === 'de' ? '/de/pilze' : '/en/mushrooms'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.mushrooms')}</a>
+          <a href={navLocale === 'de' ? '/de/rauschpflanzen' : '/en/psychoactive'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.controlled')}</a>
         </div>
       </nav>
     </header>
@@ -113,40 +126,47 @@ const ogLocale = locale === 'de' ? 'de_DE' : 'en_US';
         class="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-emerald-700"
       >
         <a
-          href={locale === 'de' ? '/de/ueber' : '/en/about'}
+          href={navLocale === 'de' ? '/de/ueber' : '/en/about'}
           class="hover:text-emerald-800 hover:underline transition"
         >
           {t(locale, 'footer.about')}
         </a>
         <span class="text-slate-400" aria-hidden="true">{t(locale, 'footer.separator')}</span>
         <a
-          href={`/${locale}/feedback`}
+          href={`/${navLocale}/feedback`}
           class="hover:text-emerald-800 hover:underline transition"
         >
           {t(locale, 'feedback.nav_label')}
         </a>
         <span class="text-slate-400" aria-hidden="true">{t(locale, 'footer.separator')}</span>
         <a
-          href={locale === 'de' ? '/de/impressum' : '/en/imprint'}
+          href={navLocale === 'de' ? '/de/impressum' : '/en/imprint'}
           class="hover:text-emerald-800 hover:underline transition"
         >
           {t(locale, 'footer.imprint')}
         </a>
         <span class="text-slate-400" aria-hidden="true">{t(locale, 'footer.separator')}</span>
         <a
-          href={locale === 'de' ? '/de/datenschutz' : '/en/privacy'}
+          href={navLocale === 'de' ? '/de/datenschutz' : '/en/privacy'}
           class="hover:text-emerald-800 hover:underline transition"
         >
           {t(locale, 'footer.privacy')}
         </a>
         <span class="text-slate-400" aria-hidden="true">{t(locale, 'footer.separator')}</span>
         <a
-          href={locale === 'de' ? '/de/bildnachweis' : '/en/image-credits'}
+          href={navLocale === 'de' ? '/de/bildnachweis' : '/en/image-credits'}
           class="hover:text-emerald-800 hover:underline transition"
         >
           {t(locale, 'footer.credits')}
         </a>
       </nav>
+      <div class="mt-2 flex flex-wrap items-center justify-center gap-x-2 text-xs text-slate-400">
+        {uiLangs.map(lng => (
+          lng.code === locale
+            ? <span class="font-semibold text-slate-600">{lng.label}</span>
+            : <a href={lng.href} class="hover:text-emerald-700 hover:underline">{lng.label}</a>
+        ))}
+      </div>
     </div>
     <Disclaimer locale={locale} />
   </body>
