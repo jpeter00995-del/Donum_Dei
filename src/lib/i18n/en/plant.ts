@@ -27,6 +27,9 @@ export const plant = {
   'use.spice': 'Spice',
   'use.internal': 'Internal',
   'use.external': 'External',
+  // Warning box: internal applications of highly toxic plants (documentation only, not a recommendation)
+  'use.historical_toxic_heading': 'Historical documentation only — do NOT use',
+  'use.historical_toxic_note': 'These internal applications are historically documented. This plant is highly toxic — self-treatment can cause severe poisoning or death. For documentation only, explicitly NOT a recommendation.',
   'use.essential_oil': 'Essential oil',
   'use.inhalation': 'Inhalation',
   'use.gargle': 'Gargle',

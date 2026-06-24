@@ -1,6 +1,7 @@
 // === 1. IMPORTS ===
 import { useEffect, useState } from 'react';
 import { t } from '@/lib/i18n';
+import { splitUsesForToxicity } from '@/lib/toxicUses';
 import type {
   Plant,
   Locale,
@@ -174,14 +175,45 @@ function UseTab({ plant, locale }: { plant: Plant; locale: Locale }) {
   if (plant.uses.length === 0) {
     return <p className="italic text-slate-500">—</p>;
   }
+
+  // Bei hochgiftigen Pflanzen werden innere Anwendungen aus der normalen
+  // Verwendung in einen "nur historische Doku"-Warn-Kasten getrennt (siehe toxicUses.ts).
+  const { normalUses, historicalUses } = splitUsesForToxicity(plant);
+
   return (
-    <ul className="space-y-4">
-      {plant.uses.map((u, idx) => (
-        <li key={idx} className="border-l-2 border-emerald-300 pl-3">
-          <UseCard use={u} locale={locale} />
-        </li>
-      ))}
-    </ul>
+    <div className="space-y-6">
+      {normalUses.length > 0 && (
+        <ul className="space-y-4">
+          {normalUses.map((u, idx) => (
+            <li key={idx} className="border-l-2 border-emerald-300 pl-3">
+              <UseCard use={u} locale={locale} />
+            </li>
+          ))}
+        </ul>
+      )}
+
+      {historicalUses.length > 0 && (
+        <section
+          className="rounded-lg border-2 border-rose-300 bg-rose-50 p-4"
+          data-testid="historical-toxic-uses"
+        >
+          <h3 className="flex items-center gap-2 font-semibold text-rose-800">
+            <span aria-hidden="true">☠️</span>
+            {t(locale, 'use.historical_toxic_heading')}
+          </h3>
+          <p className="mt-1 text-sm leading-snug text-rose-900">
+            {t(locale, 'use.historical_toxic_note')}
+          </p>
+          <ul className="mt-3 space-y-4">
+            {historicalUses.map((u, idx) => (
+              <li key={idx} className="border-l-2 border-rose-300 pl-3">
+                <UseCard use={u} locale={locale} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </div>
   );
 }
 

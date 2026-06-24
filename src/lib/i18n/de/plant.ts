@@ -27,6 +27,9 @@ export const plant = {
   'use.spice': 'Gewürz',
   'use.internal': 'Innerlich',
   'use.external': 'Äußerlich',
+  // Warn-Kasten: innere Anwendungen bei hochgiftigen Pflanzen (nur Doku, keine Empfehlung)
+  'use.historical_toxic_heading': 'Nur historische Dokumentation — NICHT anwenden',
+  'use.historical_toxic_note': 'Diese inneren Anwendungen sind historisch überliefert. Diese Pflanze ist hochgiftig — eine Selbstanwendung kann schwere Vergiftungen oder den Tod verursachen. Nur zur Dokumentation, ausdrücklich KEINE Handlungsempfehlung.',
   'use.essential_oil': 'Ätherisches Öl',
   'use.inhalation': 'Inhalation',
   'use.gargle': 'Gurgeln',
