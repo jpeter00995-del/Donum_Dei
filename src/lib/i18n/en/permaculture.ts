@@ -35,7 +35,7 @@ export const permaculture = {
   'permaculture.neutral_partners': '🌟 Neutral neighbours',
   'permaculture.bad_partners': '⚠️ Better not planted together',
   'permaculture.fallback_reason': 'Classic companion-planting partner.',
-  'permaculture.in_sets': '📦 Part of these companion-planting sets:',
+  'permaculture.in_sets': '📦 Part of these planting sets:',
   'permaculture.source_label': 'Source',
 
   'permaculture.page_title': '🌱 What is Permaculture?',
@@ -56,5 +56,5 @@ export const permaculture = {
   'permaculture.holzer_2_body': 'Each plant should fulfil 2-3 functions.',
   'permaculture.holzer_3_title': 'Observe before intervening',
   'permaculture.holzer_3_body': 'Nature usually knows what it is doing.',
-  'permaculture.cta_to_packages': '📦 Discover companion-planting sets →',
+  'permaculture.cta_to_packages': '📦 Discover planting sets →',
 };

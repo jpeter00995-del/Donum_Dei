@@ -35,7 +35,7 @@ export const permaculture = {
   'permaculture.neutral_partners': '🌟 Neutrale Nachbarn',
   'permaculture.bad_partners': '⚠️ Besser nicht zusammen pflanzen',
   'permaculture.fallback_reason': 'Klassischer Mischkultur-Partner.',
-  'permaculture.in_sets': '📦 In diesen Mischkultur-Paketen:',
+  'permaculture.in_sets': '📦 In diesen Pflanz-Sets:',
   'permaculture.source_label': 'Quelle',
 
   'permaculture.page_title': '🌱 Was ist Permakultur?',
@@ -56,5 +56,5 @@ export const permaculture = {
   'permaculture.holzer_2_body': 'Jede Pflanze sollte 2-3 Funktionen erfüllen.',
   'permaculture.holzer_3_title': 'Beobachten vor Eingreifen',
   'permaculture.holzer_3_body': 'Die Natur weiß meist, was sie tut.',
-  'permaculture.cta_to_packages': '📦 Mischkultur-Pakete entdecken →',
+  'permaculture.cta_to_packages': '📦 Pflanz-Sets entdecken →',
 };

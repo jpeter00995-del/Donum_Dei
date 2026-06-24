@@ -14,7 +14,7 @@ export const common = {
   'nav.indoor': 'Zuhause',
   'nav.mushrooms': '🍄 Pilze',
   'nav.controlled': '🌀 Rauschpflanzen',
-  'nav.packages': '📦 Pakete',
+  'nav.packages': '📦 Pflanz-Sets',
   'nav.permaculture': '🌱 Permakultur',
   'nav.symptoms': '🌿 Hilfe bei…',
   'nav.search': '🔍 Suche',
