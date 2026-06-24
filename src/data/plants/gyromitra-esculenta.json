@@ -1,0 +1,112 @@
+{
+  "slug": "gyromitra-esculenta",
+  "kingdom": "fungus",
+  "names": {
+    "de": "Frühjahrslorchel",
+    "en": "False morel",
+    "latin": "Gyromitra esculenta"
+  },
+  "family": {
+    "de": "Lorchelverwandte",
+    "en": "False morels family",
+    "latin": "Discinaceae"
+  },
+  "description": {
+    "de": "Die Frühjahrslorchel bildet einen unregelmäßig hirnförmig gewundenen, rotbraunen bis dunkelbraunen Fruchtkörper, der auf einem kurzen, blassen Stiel sitzt und bis zu 10 cm hoch und 15 cm breit werden kann. Sie erscheint früh im Jahr, oft schon kurz nach der Schneeschmelze. Wegen ihrer Form wird sie leicht mit den essbaren Echten Morcheln (Morchella) verwechselt, ist aber roh hochgiftig. Sie enthält das Gift Gyromitrin, das im Körper zu Monomethylhydrazin umgewandelt wird. Trotz des Artnamens „esculenta\" (essbar) gilt sie heute als gefährlich und der Verzehr wird dringend abgeraten.",
+    "en": "The false morel forms an irregular, brain-like convoluted cap that is reddish-brown to dark brown, sitting on a short, pale stipe, and can reach up to 10 cm high and 15 cm wide. It appears early in the year, often soon after snowmelt. Because of its shape it is easily confused with the edible true morels (Morchella), but it is highly poisonous when raw. It contains the toxin gyromitrin, which the body converts into monomethylhydrazine. Despite the species name 'esculenta' (edible), it is today considered dangerous and consumption is strongly discouraged."
+  },
+  "teaser": {
+    "de": "Hirnförmiger Frühjahrspilz, der roh tödlich giftig ist – sein Gift verwandelt sich im Körper in Raketentreibstoff.",
+    "en": "A brain-shaped spring mushroom that is deadly poisonous raw – its toxin turns into rocket fuel inside the body."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": ["historical food (dangerous)"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Historisch wurde die Frühjahrslorchel in Teilen Nord- und Osteuropas nach mehrfachem Abkochen und Verwerfen des Kochwassers als Speisepilz gegessen. Dieses Verfahren entfernt nicht alle Gifte; die Pilze gelten als tödlich gefährlich, und der Verzehr wird heute dringend abgeraten.",
+        "en": "Historically the false morel was eaten as a food mushroom in parts of Northern and Eastern Europe after repeated parboiling and discarding of the cooking water. This process does not remove all toxins; the mushrooms are considered deadly dangerous, and consumption is strongly discouraged today."
+      },
+      "source_ids": ["wp_de", "wp_en"],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    }
+  ],
+  "season": {
+    "active_months": [3, 4, 5, 6, 7],
+    "harvest_part": {
+      "de": "Fruchtkörper",
+      "en": "fruiting body"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "ROH TÖDLICH: Gyromitrin wird im Körper zu Monomethylhydrazin umgewandelt (auch als Raketentreibstoff verwendet). Es verursacht Erbrechen, Durchfall, Leberschäden, Krampfanfälle, Koma und Tod; Todesfälle können Tage nach dem Verzehr eintreten. Das Gift ist teilweise flüchtig, doch Restmengen bleiben gefährlich, und Abkochen entfernt nicht alle Gifte. Hohe Verwechslungsgefahr mit essbaren Echten Morcheln (Morchella). Im Tierversuch auch krebserregend.",
+      "en": "DEADLY raw: gyromitrin is converted in the body into monomethylhydrazine (also used as rocket fuel). It causes vomiting, diarrhoea, liver damage, seizures, coma and death; fatalities can occur days after consumption. The toxin is partly volatile, but residual amounts remain dangerous, and parboiling does not remove all toxins. High risk of confusion with edible true morels (Morchella). Also carcinogenic in animal studies."
+    },
+    "external_only": false,
+    "toxicity_level": "toxic",
+    "pet_toxic": true
+  },
+  "constituents": [
+    {
+      "name": "Gyromitrin",
+      "category": "other",
+      "note": {
+        "de": "Hauptgift; instabiles Hydrazon, das im Magen zu Monomethylhydrazin hydrolysiert. Frische Fruchtkörper können 50–300 mg/kg enthalten.",
+        "en": "Main toxin; unstable hydrazone that hydrolyses in the stomach to monomethylhydrazine. Fresh fruiting bodies may contain 50–300 mg/kg."
+      }
+    },
+    {
+      "name": "Monomethylhydrazin (MMH)",
+      "category": "other",
+      "note": {
+        "de": "Hochgiftiges Abbauprodukt des Gyromitrins; stört den Vitamin-B6-Stoffwechsel und damit die GABA-Bildung im Nervensystem. Wird auch als Raketentreibstoff verwendet.",
+        "en": "Highly toxic breakdown product of gyromitrin; disrupts vitamin B6 metabolism and thereby GABA production in the nervous system. Also used as rocket fuel."
+      }
+    },
+    {
+      "name": "N-Methyl-N-formylhydrazin und verwandte Hydrazine",
+      "category": "other",
+      "note": {
+        "de": "Weitere flüchtige Hydrazin-Verbindungen, die zur Lebertoxizität und zum krebserregenden Potenzial beitragen.",
+        "en": "Further volatile hydrazine compounds contributing to liver toxicity and carcinogenic potential."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "wp_de",
+      "type": "wikipedia",
+      "title": "Frühjahrslorchel – Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Fr%C3%BChjahrslorchel",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "wp_en",
+      "type": "wikipedia",
+      "title": "Gyromitra esculenta – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gyromitra_esculenta",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "statpearls",
+      "type": "monograph",
+      "title": "Gyromitra Mushroom Toxicity – StatPearls (NCBI Bookshelf)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470580/",
+      "accessed": "2026-06-24"
+    }
+  ],
+  "image": {
+    "filename": "gyromitra-esculenta.webp",
+    "alt": {
+      "de": "Hirnförmiger, rotbrauner Fruchtkörper der Frühjahrslorchel auf Waldboden.",
+      "en": "Brain-shaped, reddish-brown fruiting body of the false morel on forest floor."
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Toffel (Wikimedia Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Gyromitra_esculenta_2011-04-17.JPG"
+  }
+}

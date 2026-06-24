@@ -1,0 +1,136 @@
+{
+  "slug": "ruta-graveolens",
+  "names": {
+    "de": "Weinraute",
+    "en": "Common rue",
+    "latin": "Ruta graveolens"
+  },
+  "family": {
+    "de": "Rautengewächse",
+    "en": "Rue family",
+    "latin": "Rutaceae"
+  },
+  "description": {
+    "de": "Die Weinraute ist ein immergrüner Halbstrauch aus dem Mittelmeerraum, der meist 30–50 cm, selten bis 100 cm hoch wird. Ihre blaugrünen, zwei- bis dreifach gefiederten Blätter verströmen beim Zerreiben einen strengen, durchdringenden Geruch. Von Juni bis November erscheinen grünlich-gelbe Blüten. Sie war jahrhundertelang eine bedeutende Heil-, Gewürz- und Schutzpflanze (gegen Hexen und Unheil), gilt heute aber als giftig und phototoxisch. Die Kommission E lehnte 1989 eine therapeutische Anwendung ab.",
+    "en": "Common rue is an evergreen Mediterranean subshrub usually growing 30–50 cm tall, rarely to 100 cm. Its blue-green, two- to three-times pinnate leaves give off a strong, pungent odour when bruised. Greenish-yellow flowers appear from June to November. For centuries it was an important medicinal, culinary and protective ('anti-witch') herb, but it is now regarded as toxic and phototoxic. Germany's Commission E rejected therapeutic use in 1989."
+  },
+  "teaser": {
+    "de": "Uralte Schutz- und Heilpflanze mit strengem Duft – heute wegen Giftigkeit und Phototoxizität nur noch historisch interessant.",
+    "en": "An ancient protective and medicinal herb with a pungent scent – today only of historical interest because it is toxic and phototoxic."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["menstrual complaints", "digestive complaints"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Historisch wurde ein Aufguss der Blätter bei Frauenleiden und Verdauungsbeschwerden eingesetzt. Innerliche Anwendung ist heute wegen abortiver Wirkung, Lebertoxizität und Vergiftungsgefahr abzulehnen – besonders in der Schwangerschaft strikt verboten.",
+        "en": "Historically a leaf infusion was used for menstrual and digestive complaints. Internal use is now discouraged because of abortifacient effects, liver toxicity and poisoning risk – strictly forbidden in pregnancy."
+      },
+      "source_ids": ["wiki-de", "wiki-en"],
+      "plant_part": "leaf",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "compress",
+      "target": ["joint pain", "skin conditions", "warts"],
+      "internal_external": "external",
+      "description": {
+        "de": "Äußerlich wurde die Pflanze bei Gelenkschmerzen, Hautleiden und Warzen aufgelegt. Achtung: Hautkontakt kann zusammen mit Sonnenlicht schwere blasenbildende Verbrennungen (Phytophotodermatitis) auslösen.",
+        "en": "Externally the plant was applied for joint pain, skin conditions and warts. Caution: skin contact combined with sunlight can cause severe blistering burns (phytophotodermatitis)."
+      },
+      "source_ids": ["wiki-de", "wiki-en"],
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "spice",
+      "target": ["culinary flavouring"],
+      "internal_external": "internal",
+      "description": {
+        "de": "In der mediterranen Küche wurden winzige Mengen der Blätter als kräftiges, bitteres Gewürz verwendet. Nur Spuren – größere Mengen sind giftig.",
+        "en": "In Mediterranean cuisine tiny amounts of leaf were used as a strong, bitter seasoning. Traces only – larger amounts are toxic."
+      },
+      "source_ids": ["wiki-en"],
+      "plant_part": "leaf",
+      "evidence_level": "traditional"
+    }
+  ],
+  "season": {
+    "active_months": [6, 7, 8, 9, 10, 11],
+    "harvest_part": {
+      "de": "Blühende oberirdische Teile (Blätter und Triebspitzen)",
+      "en": "Flowering aerial parts (leaves and shoot tips)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Phototoxisch (schwere blasenbildende Phytophotodermatitis bei Hautkontakt und Sonnenlicht). Abortiv und teratogen wirkend – in der Schwangerschaft strikt verboten. Hohe Dosen verursachen Magenschmerzen, Erbrechen, Leberschäden bis hin zum Tod; mutagen und hepatotoxisch.",
+      "en": "Phototoxic (severe blistering phytophotodermatitis on skin contact plus sunlight). Abortifacient and teratogenic – strictly forbidden in pregnancy. High doses cause gastric pain, vomiting, liver damage and even death; mutagenic and hepatotoxic."
+    },
+    "external_only": false,
+    "toxicity_level": "toxic",
+    "pet_toxic": true
+  },
+  "constituents": [
+    {
+      "name": "Furanocumarine (Psoralen, Bergapten, Xanthotoxin)",
+      "category": "glycoside",
+      "note": {
+        "de": "Lichtsensibilisierende Furanocumarine – Hauptursache der Phototoxizität.",
+        "en": "Light-sensitizing furanocoumarins – the main cause of phototoxicity."
+      }
+    },
+    {
+      "name": "Rutin",
+      "category": "flavonoid",
+      "note": {
+        "de": "Namensgebendes Flavonoid-Glykosid, kapillarstärkend.",
+        "en": "The eponymous flavonoid glycoside, capillary-strengthening."
+      }
+    },
+    {
+      "name": "Ätherisches Öl (2-Undecanon)",
+      "category": "essential_oil",
+      "note": {
+        "de": "Ätherisches Öl mit 2-Undecanon als Hauptbestandteil; verantwortlich für den strengen Geruch.",
+        "en": "Essential oil dominated by 2-undecanone; responsible for the pungent smell."
+      }
+    },
+    {
+      "name": "Acridon-Alkaloide (Rutacridon, Skimmianin)",
+      "category": "alkaloid",
+      "note": {
+        "de": "Alkaloide wie Rutacridon und Skimmianin; teils mutagen.",
+        "en": "Alkaloids such as rutacridone and skimmianine; partly mutagenic."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "wiki-de",
+      "type": "wikipedia",
+      "title": "Weinraute – Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Weinraute",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "wiki-en",
+      "type": "wikipedia",
+      "title": "Ruta graveolens – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ruta_graveolens",
+      "accessed": "2026-06-24"
+    }
+  ],
+  "image": {
+    "filename": "ruta-graveolens.webp",
+    "alt": {
+      "de": "Blühende Weinraute (Ruta graveolens) mit blaugrünen gefiederten Blättern und gelben Blüten.",
+      "en": "Flowering common rue (Ruta graveolens) with blue-green pinnate leaves and yellow flowers."
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Jeffdelonge (Wikimedia Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ruta_graveolens_jfg.jpg"
+  }
+}

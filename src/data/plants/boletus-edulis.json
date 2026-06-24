@@ -1,0 +1,132 @@
+{
+  "slug": "boletus-edulis",
+  "kingdom": "fungus",
+  "names": {
+    "de": "Steinpilz",
+    "en": "Porcini",
+    "latin": "Boletus edulis"
+  },
+  "family": {
+    "de": "Dickröhrlingsverwandte",
+    "en": "Bolete family",
+    "latin": "Boletaceae"
+  },
+  "description": {
+    "de": "Der Steinpilz ist ein hochgeschätzter Speisepilz mit halbkugeligem bis polsterförmigem, hasel- bis rotbraunem Hut von 8 bis 30 cm Durchmesser. Die Röhren auf der Hutunterseite sind jung weißlich und färben sich im Alter cremefarben bis grünlich-gelb. Der kräftige, bauchige Stiel trägt ein feines weißes Netzmuster, besonders an der Spitze. Das feste, mild und nussig schmeckende Fleisch verfärbt sich beim Anschneiden nicht. Er bildet eine Symbiose (Mykorrhiza) mit Nadel- und Laubbäumen und erscheint vom Sommer bis in den Herbst.",
+    "en": "The porcini is a prized edible mushroom with a hemispherical to cushion-shaped, hazel to reddish-brown cap measuring 8 to 30 cm across. The tube layer on the underside is whitish when young, turning cream to greenish-yellow with age. Its stout, bulbous stipe bears a fine white net-like pattern, most prominent near the top. The firm flesh has a mild, nutty taste and does not change colour when cut. It forms a symbiotic mycorrhizal relationship with conifers and broadleaf trees and fruits from summer into autumn."
+  },
+  "teaser": {
+    "de": "Der König der Speisepilze – fest, nussig und gleichermaßen frisch wie getrocknet geschätzt.",
+    "en": "The king of edible mushrooms – firm, nutty, and prized both fresh and dried."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": ["culinary", "nutrition"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Junge, feste Fruchtkörper werden gebraten, gedünstet oder geschmort und sind eine eiweißreiche Zutat für Risotto, Pasta und Suppen. Vor dem Verzehr stets durchgaren.",
+        "en": "Young, firm fruiting bodies are sautéed, stewed or braised and make a protein-rich ingredient in risotto, pasta and soups. Always cook thoroughly before eating."
+      },
+      "source_ids": ["wp_en", "wp_de"],
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "spice",
+      "target": ["culinary", "nutrition"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Getrocknete und gemahlene Steinpilze ergeben ein intensiv-aromatisches Würzpulver für Saucen, Brühen und Eintöpfe; das Aroma verstärkt sich beim Trocknen.",
+        "en": "Dried and ground porcini yield an intensely aromatic seasoning powder for sauces, stocks and stews; the flavour intensifies on drying."
+      },
+      "source_ids": ["wp_en", "wp_de"],
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional"
+    }
+  ],
+  "season": {
+    "active_months": [6, 7, 8, 9, 10, 11],
+    "harvest_part": {
+      "de": "Fruchtkörper",
+      "en": "fruiting body"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Guter Speisepilz; vor dem Verzehr durchgaren. Verwechslungsgefahr beim Sammeln mit dem bitteren Gallenröhrling (Tylopilus felleus: rosa Poren im Alter, dunkles Stielnetz, bitterer Geschmack). Rohe oder überalterte Exemplare können Magen-Darm-Beschwerden verursachen. Pilze können Schwermetalle aus dem Boden anreichern – nur in unbelasteten Gebieten sammeln.",
+      "en": "Good edible; cook before eating. Foraging confusion possible with the bitter bolete (Tylopilus felleus – pink pores when mature, dark stem netting, bitter taste). Raw or over-mature specimens can cause stomach upset. Mushrooms can bioaccumulate heavy metals from soil – collect only in unpolluted areas."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false
+  },
+  "constituents": [
+    {
+      "name": "Ergothionein",
+      "category": "other",
+      "note": {
+        "de": "Schwefelhaltige Aminosäure mit antioxidativer Wirkung, in Boletus-Arten besonders reichlich vorhanden.",
+        "en": "Sulphur-containing amino acid with antioxidant activity, especially abundant in Boletus species."
+      }
+    },
+    {
+      "name": "Beta-Glucane",
+      "category": "polysaccharide",
+      "note": {
+        "de": "Zellwand-Polysaccharide, die zur Ballaststoffwirkung beitragen und immunmodulierend untersucht werden.",
+        "en": "Cell-wall polysaccharides that contribute to dietary fibre and are studied for immune-modulating effects."
+      }
+    },
+    {
+      "name": "Eiweiß / Aminosäuren",
+      "category": "other",
+      "note": {
+        "de": "Hochwertiges Eiweiß mit einem der höchsten Aminosäuregehalte unter den Wildpilzen (rund 7 g pro 100 g frisch).",
+        "en": "High-quality protein with one of the highest amino-acid contents among wild mushrooms (around 7 g per 100 g fresh)."
+      }
+    },
+    {
+      "name": "Ergosterol (Provitamin D2)",
+      "category": "other",
+      "note": {
+        "de": "Pilzsterol (Provitamin D2), das unter UV-Licht in Vitamin D2 umgewandelt werden kann.",
+        "en": "Fungal sterol (provitamin D2) that can be converted into vitamin D2 under UV light."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "wp_en",
+      "type": "wikipedia",
+      "title": "Boletus edulis – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boletus_edulis",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "wp_de",
+      "type": "wikipedia",
+      "title": "Gemeiner Steinpilz – Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Gemeiner_Steinpilz",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "wd",
+      "type": "wikidata",
+      "title": "Boletus edulis (Q165356) – Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q165356",
+      "accessed": "2026-06-24"
+    }
+  ],
+  "image": {
+    "filename": "boletus-edulis.webp",
+    "alt": {
+      "de": "Steinpilz (Boletus edulis) mit braunem Hut und kräftigem Stiel im Wald.",
+      "en": "Porcini (Boletus edulis) with a brown cap and stout stipe in the forest."
+    },
+    "license": "CC BY 3.0",
+    "author": "Holger Krisp (Wikimedia Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Boletus_edulis_steinpilz.jpg"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "cicuta-virosa",
+  "names": {
+    "de": "Wasserschierling",
+    "en": "Cowbane",
+    "latin": "Cicuta virosa"
+  },
+  "family": {
+    "de": "Doldenblütler",
+    "en": "Carrot family",
+    "latin": "Apiaceae"
+  },
+  "description": {
+    "de": "Der Wasserschierling ist eine ausdauernde, 0,5 bis 1,5 Meter hohe Sumpfpflanze mit hohlem, oft purpurn gestreiftem Stängel und einer dicken, gekammerten Wurzelknolle. Die doppelt bis dreifach gefiederten Blätter und die weißen Doldenblüten ähneln vielen harmlosen Doldenblütlern, was die Pflanze besonders gefährlich macht. Aus angeschnittenen Knollen tritt ein gelblicher, ölig riechender Saft aus. Er wächst an Gräben, Teichrändern und in nassen Sümpfen Nord- und Mitteleuropas. Er gilt als eine der giftigsten Pflanzen Europas.",
+    "en": "Cowbane is a perennial wetland plant 0.5 to 1.5 metres tall, with a hollow, often purple-streaked stem and a thick, chambered root tuber. Its two- to three-pinnate leaves and white umbrella-shaped flower clusters resemble many harmless members of the carrot family, which makes the plant especially dangerous. Cutting the tuber releases a yellowish, oily-smelling sap. It grows along ditches, pond margins and marshes across northern and central Europe. It is regarded as one of the most poisonous plants in Europe."
+  },
+  "teaser": {
+    "de": "Eine der tödlichsten Pflanzen Europas – schon ein Bissen der Wurzelknolle kann durch Cicutoxin heftige Krämpfe auslösen.",
+    "en": "One of the deadliest plants in Europe — a single bite of the root tuber can trigger violent cicutoxin-driven convulsions."
+  },
+  "uses": [
+    {
+      "form": "salve",
+      "target": ["historical", "poisonous"],
+      "internal_external": "external",
+      "description": {
+        "de": "Historisch wurde der Wasserschierling trotz seiner extremen Giftigkeit als äußerliche Salbe oder Wickel gegen Gicht, Rheuma und Krämpfe verwendet – eine längst aufgegebene und lebensgefährliche Praxis.",
+        "en": "Historically, despite its extreme toxicity, cowbane was applied externally as a salve or compress against gout, rheumatism and cramps — a long-abandoned and life-threatening practice."
+      },
+      "source_ids": ["wp_de", "tox_mono"],
+      "plant_part": "rhizome",
+      "evidence_level": "folk"
+    }
+  ],
+  "season": {
+    "active_months": [7, 8, 9],
+    "harvest_part": {
+      "de": "Keine Ernte – tödlich giftig",
+      "en": "No harvest — deadly poisonous"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "TÖDLICH: Enthält Cicutoxin; schon kleine Mengen lösen innerhalb von Minuten heftige Krämpfe und epileptische Anfälle aus, gefolgt von Atemlähmung. Die Wurzelknolle ist der giftigste Teil. Hohe Verwechslungsgefahr mit essbaren Doldenblütlern wie Pastinake oder Sellerie – nie berühren oder verzehren.",
+      "en": "DEADLY: Contains cicutoxin; even small amounts cause violent convulsions and epileptic seizures within minutes, followed by respiratory paralysis. The root tuber is the most toxic part. High risk of confusion with edible Apiaceae such as parsnip or celery — never touch or ingest."
+    },
+    "external_only": false,
+    "toxicity_level": "toxic",
+    "pet_toxic": true
+  },
+  "constituents": [
+    {
+      "name": "Cicutoxin",
+      "category": "other",
+      "note": {
+        "de": "Hochgiftiges C17-Polyin; nicht-kompetitiver GABA-A-Antagonist, der Krämpfe und Atemlähmung verursacht.",
+        "en": "Highly toxic C17 polyyne; a non-competitive GABA-A receptor antagonist that causes convulsions and respiratory paralysis."
+      }
+    },
+    {
+      "name": "Cicutol",
+      "category": "other",
+      "note": {
+        "de": "Begleitendes C17-Polyacetylen aus der Knolle, strukturell mit Cicutoxin verwandt.",
+        "en": "Accompanying C17 polyacetylene from the tuber, structurally related to cicutoxin."
+      }
+    },
+    {
+      "name": "Polyacetylene / Polyine",
+      "category": "other",
+      "note": {
+        "de": "Klasse ungesättigter C17-Verbindungen, die für die Nervengiftwirkung verantwortlich ist.",
+        "en": "Class of unsaturated C17 compounds responsible for the neurotoxic effect."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "wp_de",
+      "type": "wikipedia",
+      "title": "Wasserschierling – Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Wasserschierling",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "wp_en",
+      "type": "wikipedia",
+      "title": "Cicuta virosa – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cicuta_virosa",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "tox_mono",
+      "type": "monograph",
+      "title": "Cicutoxin — chemistry and GABA-A antagonist mechanism (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Cicutoxin",
+      "accessed": "2026-06-24"
+    }
+  ],
+  "image": {
+    "filename": "cicuta-virosa.webp",
+    "alt": {
+      "de": "Weiße Doldenblüten und gefiederte Blätter des Wasserschierlings (Cicuta virosa).",
+      "en": "White umbel flowers and pinnate leaves of cowbane (Cicuta virosa)."
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "H. Zell (Wikimedia Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cicuta_virosa_001.JPG"
+  }
+}

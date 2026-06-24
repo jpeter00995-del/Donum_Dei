@@ -15,11 +15,11 @@ mkdirSync(thumbDir, { recursive: true });
 const UA = 'DonumDeiBot/1.0 (plant database; contact maikelganske913@gmail.com)';
 
 const items = [
-  ['digitalis-purpurea', 'https://upload.wikimedia.org/wikipedia/commons/f/fc/Digitalis_purpurea_-_Rennes.jpg'],
-  ['artemisia-absinthium', 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Artemisia_absinthium_001.jpg'],
-  ['chelidonium-majus', 'https://upload.wikimedia.org/wikipedia/commons/2/24/Chelidonium_majus_bgiu.jpg'],
-  ['pleurotus-ostreatus', 'https://upload.wikimedia.org/wikipedia/commons/8/87/Austern-Seitling_Austernpilz_Pleurotus_ostreatus.JPG'],
-  ['amanita-phalloides', 'https://upload.wikimedia.org/wikipedia/commons/8/82/Amanita_phalloides_2011_G3.jpg'],
+  ['ruta-graveolens', 'https://upload.wikimedia.org/wikipedia/commons/4/48/Ruta_graveolens_jfg.jpg'],
+  ['petasites-hybridus', 'https://upload.wikimedia.org/wikipedia/commons/b/bb/Petasites_hybridus_Lepi%C4%99%C5%BCnik_r%C3%B3%C5%BCowy_2021-04-05_01.jpg'],
+  ['cicuta-virosa', 'https://upload.wikimedia.org/wikipedia/commons/6/63/Cicuta_virosa_001.JPG'],
+  ['boletus-edulis', 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Boletus_edulis_steinpilz.jpg'],
+  ['gyromitra-esculenta', 'https://upload.wikimedia.org/wikipedia/commons/c/c2/Gyromitra_esculenta_2011-04-17.JPG'],
 ];
 
 for (const [slug, url] of items) {

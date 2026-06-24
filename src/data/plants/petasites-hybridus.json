@@ -1,0 +1,143 @@
+{
+  "slug": "petasites-hybridus",
+  "names": {
+    "de": "Gewöhnliche Pestwurz",
+    "en": "Butterbur",
+    "latin": "Petasites hybridus"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Die Gewöhnliche Pestwurz ist eine ausdauernde krautige Pflanze aus der Familie der Korbblütler, die in Europa und Nordasien an Bachufern und auf feuchten Wiesen wächst. Im zeitigen Frühjahr erscheinen vor den Blättern die rosafarbenen bis blassroten Blütenstände auf dicken Stängeln. Danach entwickeln sich die sehr großen, rundlich-herzförmigen Blätter, die zu den größten Blättern der heimischen Flora zählen. Medizinisch werden vor allem standardisierte Wurzel-Extrakte zur Migräne-Vorbeugung und gegen Krämpfe genutzt. Die rohe Pflanze enthält jedoch leberschädigende Pyrrolizidin-Alkaloide, weshalb nur PA-freie, geprüfte Fertigpräparate sicher sind.",
+    "en": "Common butterbur is a perennial herbaceous plant of the daisy family, native to Europe and northern Asia, where it grows along streams and in damp meadows. In early spring the pink to pale-red flower spikes appear on thick stalks before the leaves emerge. The very large, rounded heart-shaped leaves that follow are among the largest of any native European plant. Medicinally, standardized root extracts are used mainly for migraine prophylaxis and to relieve spasms. The raw plant, however, contains hepatotoxic pyrrolizidine alkaloids, so only PA-free, quality-controlled standardized products are considered safe."
+  },
+  "teaser": {
+    "de": "Migräne-Schutz und Krampflöser – aber nur als PA-freier, standardisierter Extrakt sicher.",
+    "en": "A migraine preventive and antispasmodic – but only safe as a PA-free, standardized extract."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": ["migraine prophylaxis"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Standardisierte Wurzel-Extrakte (auf Petasine standardisiert) senken in kontrollierten Studien Häufigkeit und Stärke von Migräne-Attacken. Nur PA-freie, geprüfte Fertigpräparate verwenden – niemals die rohe Pflanze.",
+        "en": "Standardized root extracts (standardized to petasins) reduce the frequency and intensity of migraine attacks in controlled trials. Use only PA-free, quality-controlled products – never the raw plant."
+      },
+      "source_ids": ["s3"],
+      "plant_part": "root",
+      "evidence_level": "clinical_trial"
+    },
+    {
+      "form": "tincture",
+      "target": ["allergic rhinitis"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Standardisierte Blatt- bzw. Wurzel-Extrakte können Symptome von Heuschnupfen (allergischer Schnupfen) lindern. Nur PA-freie, standardisierte Präparate sind dafür geeignet.",
+        "en": "Standardized leaf or root extracts can ease symptoms of allergic rhinitis (hay fever). Only PA-free, standardized preparations are suitable for this."
+      },
+      "source_ids": ["s2"],
+      "plant_part": "leaf",
+      "evidence_level": "clinical_trial"
+    },
+    {
+      "form": "tincture",
+      "target": ["spasms", "urinary tract spasms"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Traditionell werden Pestwurz-Zubereitungen krampflösend bei Magen-Darm- und Harnwegs-Krämpfen eingesetzt. Auch hier gilt: ausschließlich PA-freie, standardisierte Produkte verwenden.",
+        "en": "Traditionally, butterbur preparations are used as antispasmodics for gastrointestinal and urinary-tract spasms. Here too, only PA-free, standardized products should be used."
+      },
+      "source_ids": ["s1"],
+      "plant_part": "rhizome",
+      "evidence_level": "traditional"
+    }
+  ],
+  "season": {
+    "active_months": [3, 4, 5],
+    "harvest_part": {
+      "de": "Wurzelstock/Wurzel (für standardisierte Extrakte)",
+      "en": "rhizome/root (for standardized extracts)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Die rohe Pflanze enthält leberschädigende Pyrrolizidin-Alkaloide; nur PA-freie, standardisierte Fertigpräparate verwenden; nicht in Schwangerschaft und Stillzeit. Allergie möglich bei Korbblütler-Empfindlichkeit.",
+      "en": "The raw plant contains hepatotoxic pyrrolizidine alkaloids; use only PA-free, standardized products; not during pregnancy or breastfeeding. Possible allergy in people sensitive to the daisy family."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true
+  },
+  "constituents": [
+    {
+      "name": "Petasin",
+      "category": "sesquiterpene",
+      "note": {
+        "de": "Wichtigster Wirkstoff; krampflösend und entzündungshemmend, Leitsubstanz standardisierter Extrakte.",
+        "en": "Main active compound; antispasmodic and anti-inflammatory, the marker substance of standardized extracts."
+      }
+    },
+    {
+      "name": "Isopetasin",
+      "category": "sesquiterpene",
+      "note": {
+        "de": "Eng verwandtes Sesquiterpen mit ähnlicher krampflösender Wirkung.",
+        "en": "Closely related sesquiterpene with similar antispasmodic activity."
+      }
+    },
+    {
+      "name": "Pyrrolizidin-Alkaloide (z. B. Senecionin)",
+      "category": "alkaloid",
+      "note": {
+        "de": "Leberschädigend und potenziell krebserregend; müssen in geprüften Präparaten praktisch vollständig entfernt sein.",
+        "en": "Hepatotoxic and potentially carcinogenic; must be practically removed in quality-controlled products."
+      }
+    },
+    {
+      "name": "Flavonoide",
+      "category": "flavonoid",
+      "note": {
+        "de": "Tragen zur antioxidativen und entzündungshemmenden Wirkung bei.",
+        "en": "Contribute to antioxidant and anti-inflammatory effects."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "s1",
+      "type": "wikipedia",
+      "title": "Gewöhnliche Pestwurz – Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Pestwurz",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "s2",
+      "type": "wikipedia",
+      "title": "Petasites hybridus – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Petasites_hybridus",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "s3",
+      "type": "monograph",
+      "title": "Petasites for Migraine Prevention: Mode of Action, Pharmacology and Safety (Frontiers in Neurology, 2022)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9108977/",
+      "accessed": "2026-06-24"
+    }
+  ],
+  "image": {
+    "filename": "petasites-hybridus.webp",
+    "alt": {
+      "de": "Rosafarbene Blütenstände der Gewöhnlichen Pestwurz im Frühjahr.",
+      "en": "Pink flower spikes of common butterbur in spring."
+    },
+    "license": "CC BY-SA 4.0",
+    "author": "Agnieszka Kwiecień, Nova (Wikimedia Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Petasites_hybridus_Lepi%C4%99%C5%BCnik_r%C3%B3%C5%BCowy_2021-04-05_01.jpg"
+  }
+}
