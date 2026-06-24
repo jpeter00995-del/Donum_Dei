@@ -1,0 +1,143 @@
+{
+  "slug": "artemisia-absinthium",
+  "names": {
+    "de": "Wermut",
+    "en": "Wormwood",
+    "latin": "Artemisia absinthium"
+  },
+  "family": {
+    "de": "Korbblütler",
+    "en": "Daisy family",
+    "latin": "Asteraceae"
+  },
+  "description": {
+    "de": "Der Wermut ist eine ausdauernde, stark aromatische Halbstrauch-Staude mit silbrig-grauen, fein gefiederten Blättern, die auf beiden Seiten von feinen Härchen bedeckt sind. Die kleinen, gelblichen Blütenköpfchen stehen in lockeren, rispenartigen Blütenständen und erscheinen im Hochsommer. Die ganze Pflanze enthält intensiv schmeckende Bitterstoffe und ätherische Öle und gehört zu den bittersten heimischen Heilpflanzen. Traditionell wird das blühende Kraut als appetitanregendes und verdauungsförderndes Bittermittel verwendet. Bekannt ist Wermut auch als Hauptzutat des Absinths, was wegen des Inhaltsstoffs Thujon historisch zu Vorsicht und Verboten geführt hat.",
+    "en": "Wormwood is a perennial, strongly aromatic subshrub with silvery-grey, finely divided leaves covered with fine hairs on both sides. Its small, yellowish flower heads are borne in loose, panicle-like clusters and appear in mid to late summer. The whole plant is rich in intensely bitter compounds and essential oils, making it one of the most bitter of the native medicinal herbs. Traditionally the flowering herb is used as a bitter tonic to stimulate appetite and aid digestion. Wormwood is also famous as the principal ingredient of absinthe, whose thujone content historically prompted caution and bans."
+  },
+  "teaser": {
+    "de": "Eine der bittersten Heilpflanzen — klassisches Magenbittermittel mit thujonbedingter Vorsicht aus der Absinth-Geschichte.",
+    "en": "One of the most bitter medicinal herbs — a classic digestive bitter, with thujone-related caution rooted in its absinthe history."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["loss of appetite", "dyspeptic complaints"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Als Bittertee aus dem getrockneten blühenden Kraut kurz vor den Mahlzeiten getrunken, um Appetit und Verdauung anzuregen.",
+        "en": "Taken as a bitter tea from the dried flowering herb shortly before meals to stimulate appetite and digestion."
+      },
+      "source_ids": ["ema-hmpc"],
+      "plant_part": "aerial_parts",
+      "evidence_level": "ema_well_established"
+    },
+    {
+      "form": "tincture",
+      "target": ["loss of appetite", "dyspeptic complaints"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Alkoholischer Auszug (Wermuttinktur), tropfenweise in Wasser eingenommen, als konzentriertes Magenbittermittel bei Appetitlosigkeit und Verdauungsbeschwerden.",
+        "en": "An alcoholic extract (wormwood tincture), taken drop-wise in water as a concentrated digestive bitter for poor appetite and dyspeptic complaints."
+      },
+      "source_ids": ["ema-hmpc"],
+      "plant_part": "aerial_parts",
+      "evidence_level": "ema_well_established"
+    },
+    {
+      "form": "spice",
+      "target": ["flavouring of bitter liqueurs and vermouth", "digestive aperitif"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Traditionell zum Würzen und Aromatisieren von Bitterlikören und Wermutwein (Vermouth) sowie als verdauungsfördernder Aperitif verwendet.",
+        "en": "Traditionally used to flavour bitter liqueurs and vermouth wine and as a digestive aperitif."
+      },
+      "source_ids": ["wiki-de"],
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional"
+    }
+  ],
+  "season": {
+    "active_months": [7, 8, 9],
+    "harvest_part": {
+      "de": "Blühende Triebspitzen und Kraut, gesammelt zur Blütezeit im Hochsommer",
+      "en": "Flowering shoot tips and herb, gathered at flowering time in mid to late summer"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Enthält das Nervengift Thujon im ätherischen Öl; Wermutzubereitungen nicht überdosieren und nicht länger als zwei bis vier Wochen am Stück anwenden. In Schwangerschaft und Stillzeit sowie bei Kindern nicht anwenden (wehenfördernd, mögliche Toxizität). Hochkonzentrierte Wermutöle oder übermäßiger Absinthkonsum können zu Krämpfen und Nervenschäden führen.",
+      "en": "Contains the neurotoxin thujone in its essential oil; do not exceed recommended doses and do not use continuously for more than two to four weeks. Avoid during pregnancy and breastfeeding and in children (it can stimulate uterine contractions and is potentially toxic). High-concentration wormwood oils or excessive absinthe consumption can cause seizures and nerve damage."
+    },
+    "external_only": false,
+    "toxicity_level": "caution",
+    "pet_toxic": true
+  },
+  "constituents": [
+    {
+      "name": "Thujone (α- and β-thujone)",
+      "category": "essential_oil",
+      "note": {
+        "de": "Hauptbestandteil des ätherischen Öls und zugleich Nervengift; verantwortlich für die Anwendungsbeschränkungen.",
+        "en": "Main component of the essential oil and a neurotoxin; responsible for the use restrictions."
+      }
+    },
+    {
+      "name": "Absinthin",
+      "category": "bitter",
+      "note": {
+        "de": "Stark bitterer Sesquiterpenlacton-Bitterstoff, der dem Wermut seinen extrem bitteren Geschmack verleiht.",
+        "en": "An intensely bitter sesquiterpene-lactone bitter principle that gives wormwood its extremely bitter taste."
+      }
+    },
+    {
+      "name": "Anabsinthin",
+      "category": "bitter",
+      "note": {
+        "de": "Weiterer Sesquiterpenlacton-Bitterstoff, der zur appetitanregenden Wirkung beiträgt.",
+        "en": "A further sesquiterpene-lactone bitter compound contributing to the appetite-stimulating effect."
+      }
+    },
+    {
+      "name": "Flavonoide (z. B. Artemetin)",
+      "category": "flavonoid",
+      "note": {
+        "de": "Pflanzliche Flavonoide mit antioxidativen Eigenschaften.",
+        "en": "Plant flavonoids with antioxidant properties."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "wiki-de",
+      "type": "wikipedia",
+      "title": "Wermutkraut – Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Wermutkraut",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "wiki-en",
+      "type": "wikipedia",
+      "title": "Artemisia absinthium – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Artemisia_absinthium",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "ema-hmpc",
+      "type": "monograph",
+      "title": "European Union herbal monograph on Artemisia absinthium L., herba – EMA/HMPC",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/absinthii-herba",
+      "accessed": "2026-06-24"
+    }
+  ],
+  "image": {
+    "filename": "artemisia-absinthium.webp",
+    "alt": {
+      "de": "Blühende Wermutpflanze (Artemisia absinthium) mit silbrig-grauem Laub und gelblichen Blütenköpfchen.",
+      "en": "Flowering wormwood plant (Artemisia absinthium) with silvery-grey foliage and yellowish flower heads."
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Valérie75 (Wikimedia Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Artemisia_absinthium_001.jpg"
+  }
+}

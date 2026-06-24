@@ -1,0 +1,143 @@
+{
+  "slug": "chelidonium-majus",
+  "names": {
+    "de": "Schöllkraut",
+    "en": "Greater celandine",
+    "latin": "Chelidonium majus"
+  },
+  "family": {
+    "de": "Mohngewächse",
+    "en": "Poppy family",
+    "latin": "Papaveraceae"
+  },
+  "description": {
+    "de": "Das Schöllkraut ist eine zwei- bis mehrjährige krautige Pflanze aus der Familie der Mohngewächse, die Wuchshöhen bis etwa 70 cm erreicht. Beim Verletzen tritt aus den gegliederten Milchröhren ein charakteristischer gelb-oranger Milchsaft aus. Die wechselständigen Laubblätter sind tief eingeschnitten und gelappt, die kleinen vierzähligen Blüten sind gelb und erscheinen von Mai bis Oktober. Die ganze Pflanze enthält über 20 Isochinolin-Alkaloide und gilt als giftig, in der Wurzel sogar als hochgiftig. Traditionell wurde der frische Milchsaft äußerlich gegen Warzen verwendet.",
+    "en": "Greater celandine is a biennial to perennial herbaceous plant of the poppy family, growing up to about 70 cm tall. When the plant is injured it exudes a characteristic yellow to orange latex from its articulated laticifers. The alternate leaves are deeply lobed and pinnate, and the small four-petalled yellow flowers appear from May to October. The whole plant contains more than twenty isoquinoline alkaloids and is toxic, with the root being especially poisonous. Traditionally its fresh latex was applied externally against warts."
+  },
+  "teaser": {
+    "de": "Altes Warzenmittel mit gelb-orangem Milchsaft – innerlich jedoch lebertoxisch und mit Vorsicht zu behandeln.",
+    "en": "An old wart remedy with yellow-orange latex – but internally hepatotoxic and to be treated with caution."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": ["warts", "skin growths"],
+      "internal_external": "external",
+      "description": {
+        "de": "Der frische gelb-orange Milchsaft wird traditionell mehrmals täglich direkt auf Warzen aufgetupft. Volkstümliche Anwendung in mehreren europäischen Ländern; gesunde Haut sollte ausgespart werden, da der Saft reizend wirkt.",
+        "en": "The fresh yellow-orange latex is traditionally dabbed directly onto warts several times a day. A folk practice in several European countries; surrounding healthy skin should be avoided as the sap is irritating."
+      },
+      "source_ids": ["wiki-de", "wiki-en"],
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "tincture",
+      "target": ["biliary complaints", "gallbladder spasms"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Innerlich wurde eine alkoholische Tinktur aus dem Kraut traditionell bei krampfartigen Galle- und Verdauungsbeschwerden eingesetzt. Die innerliche Anwendung wird heute wegen dokumentierter, teils schwerer Leberschäden (toxische Hepatitis bis Leberversagen) abgeraten.",
+        "en": "Internally, an alcoholic tincture of the herb was traditionally used for cramping biliary and digestive complaints. Internal use is now discouraged because of documented, sometimes severe liver injury (toxic hepatitis up to liver failure)."
+      },
+      "source_ids": ["wiki-de", "ema-hepatotox"],
+      "plant_part": "aerial_parts",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "tea",
+      "target": ["digestive complaints", "spasms"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Ein Tee (Aufguss) aus dem getrockneten Kraut galt volkstümlich als krampflösend bei Magen-Darm- und Gallenbeschwerden. Wegen der Lebertoxizität der Alkaloide ist von der innerlichen Einnahme dringend abzuraten.",
+        "en": "A tea (infusion) of the dried herb was a folk remedy regarded as antispasmodic for stomach, intestinal and biliary complaints. Because of the alkaloids' hepatotoxicity, internal intake is strongly discouraged."
+      },
+      "source_ids": ["wiki-de"],
+      "plant_part": "aerial_parts",
+      "evidence_level": "folk"
+    }
+  ],
+  "season": {
+    "active_months": [5, 6, 7, 8, 9, 10],
+    "harvest_part": {
+      "de": "Oberirdisches Kraut zur Blütezeit; Wurzel im Herbst, dann besonders alkaloidreich und hochgiftig.",
+      "en": "Aerial herb during flowering; root in autumn, when it is especially rich in alkaloids and highly toxic."
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Schöllkraut ist giftig, die Wurzel hochgiftig. Die innerliche Anwendung wird wegen zahlreicher dokumentierter Fälle von Leberschädigung (toxische Hepatitis, Cholestase bis hin zu Leberversagen) dringend abgeraten – das Nutzen-Risiko-Verhältnis innerlicher Zubereitungen gilt als negativ. Der frische Milchsaft kann Haut und Schleimhäute reizen. Nicht in Schwangerschaft/Stillzeit oder bei Lebererkrankungen anwenden.",
+      "en": "Greater celandine is toxic and the root is highly poisonous. Internal use is strongly discouraged because of numerous documented cases of liver injury (toxic hepatitis, cholestasis up to liver failure) – the benefit-risk ratio of internal preparations is considered negative. The fresh latex can irritate skin and mucous membranes. Do not use in pregnancy/breastfeeding or with liver disease."
+    },
+    "external_only": false,
+    "toxicity_level": "toxic",
+    "pet_toxic": true
+  },
+  "constituents": [
+    {
+      "name": "Chelidonin",
+      "category": "alkaloid",
+      "note": {
+        "de": "Charakteristisches Hauptalkaloid (Isochinolin-Typ) des Schöllkrauts, wirkt krampflösend und schwach narkotisch.",
+        "en": "The characteristic main isoquinoline alkaloid of greater celandine, with antispasmodic and mildly narcotic action."
+      }
+    },
+    {
+      "name": "Sanguinarin",
+      "category": "alkaloid",
+      "note": {
+        "de": "Besonders giftiges Benzophenanthridin-Alkaloid, mitverantwortlich für die Zelltoxizität.",
+        "en": "A particularly toxic benzophenanthridine alkaloid, contributing to the plant's cellular toxicity."
+      }
+    },
+    {
+      "name": "Chelerythrin",
+      "category": "alkaloid",
+      "note": {
+        "de": "Benzophenanthridin-Alkaloid mit reizenden und zytotoxischen Eigenschaften.",
+        "en": "A benzophenanthridine alkaloid with irritant and cytotoxic properties."
+      }
+    },
+    {
+      "name": "Coptisin",
+      "category": "alkaloid",
+      "note": {
+        "de": "Eines der mengenmäßig bedeutendsten Alkaloide des Krauts, Protoberberin-Typ.",
+        "en": "One of the most abundant alkaloids in the herb, of the protoberberine type."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "wiki-de",
+      "type": "wikipedia",
+      "title": "Schöllkraut – Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Sch%C3%B6llkraut",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "wiki-en",
+      "type": "wikipedia",
+      "title": "Chelidonium majus – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chelidonium_majus",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "ema-hepatotox",
+      "type": "monograph",
+      "title": "Greater Celandine – LiverTox: Drug-Induced Liver Injury (NIH)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK548684/",
+      "accessed": "2026-06-24"
+    }
+  ],
+  "image": {
+    "filename": "chelidonium-majus.webp",
+    "alt": {
+      "de": "Blühendes Schöllkraut (Chelidonium majus) mit gelben vierzähligen Blüten und gelappten Blättern.",
+      "en": "Flowering greater celandine (Chelidonium majus) with yellow four-petalled flowers and lobed leaves."
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "Bogdan (Wikimedia Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chelidonium_majus_bgiu.jpg"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "amanita-phalloides",
+  "kingdom": "fungus",
+  "names": {
+    "de": "Grüner Knollenblätterpilz",
+    "en": "Death cap",
+    "latin": "Amanita phalloides"
+  },
+  "family": {
+    "de": "Wulstlingsverwandte",
+    "en": "Amanita family",
+    "latin": "Amanitaceae"
+  },
+  "description": {
+    "de": "Der Grüne Knollenblätterpilz ist der für die meisten tödlichen Pilzvergiftungen weltweit verantwortliche Pilz. Der Hut ist meist gelblich- bis olivgrün, die Lamellen und das Sporenpulver sind weiß, und der Stiel trägt einen häutigen Ring sowie eine sackartige Knolle (Volva) an der Basis. Er wächst von Sommer bis Herbst vor allem in Laubwäldern in Symbiose mit Eichen und Buchen. Verwechslungen mit essbaren Champignons (weiße Lamellen statt rosa-braun) oder Täublingen sind besonders gefährlich. Schon ein einziger Fruchtkörper kann für einen Erwachsenen tödlich sein.",
+    "en": "The death cap is the fungus responsible for most fatal mushroom poisonings worldwide. Its cap is usually yellowish to olive-green, the gills and spore print are white, and the stem bears a membranous ring with a sac-like bulb (volva) at the base. It grows from summer through autumn, mainly in deciduous woodland in symbiosis with oaks and beeches. It is dangerously easy to confuse with edible mushrooms such as button mushrooms (white gills rather than pink-brown) or some Russula species. A single fruiting body can be lethal to an adult."
+  },
+  "teaser": {
+    "de": "Der tödlichste Pilz der Welt — schon ein einziger Fruchtkörper kann einen Erwachsenen töten.",
+    "en": "The world's most lethal mushroom — a single fruiting body can kill an adult."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": ["none", "poisonous"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Kein Speise- oder Heilwert — verantwortlich für die meisten tödlichen Pilzvergiftungen. Rein dokumentarische Angabe, ausdrücklich keine Anwendung.",
+        "en": "No culinary or medicinal value — responsible for most fatal mushroom poisonings. Documentary note only, explicitly not a use."
+      },
+      "source_ids": ["wiki-de", "wiki-en"],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
+    }
+  ],
+  "season": {
+    "active_months": [7, 8, 9, 10, 11],
+    "harvest_part": {
+      "de": "Fruchtkörper",
+      "en": "fruiting body"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "TÖDLICH GIFTIG. Enthält Amatoxine (v. a. Alpha-Amanitin), die die RNA-Polymerase II hemmen und Leber- und Nierenzellen zerstören. Tückisch ist die verzögerte Wirkung: Erste Symptome (Erbrechen, Durchfall, Bauchkrämpfe) treten erst 6–12 Stunden nach dem Verzehr auf. Danach folgt eine trügerische Scheinerholung, bevor es zu schwerem Leber- und Nierenversagen kommt. Schon ein einziger Pilz kann tödlich sein; bei Verdacht sofort Notruf und Giftnotruf. Kochen, Trocknen oder Einfrieren zerstört das Gift NICHT.",
+      "en": "DEADLY POISONOUS. Contains amatoxins (chiefly alpha-amanitin) which inhibit RNA polymerase II and destroy liver and kidney cells. The danger lies in the delayed onset: first symptoms (vomiting, diarrhoea, abdominal cramps) appear only 6–12 hours after ingestion. A deceptive 'false recovery' phase follows before severe liver and kidney failure set in. A single mushroom can be fatal; if ingestion is suspected, seek emergency and poison-control help immediately. Cooking, drying or freezing does NOT destroy the toxin."
+    },
+    "external_only": false,
+    "toxicity_level": "toxic",
+    "pet_toxic": true
+  },
+  "constituents": [
+    {
+      "name": "Alpha-Amanitin",
+      "category": "other",
+      "note": {
+        "de": "Hauptgiftstoff (Amatoxin); hemmt die RNA-Polymerase II, blockiert die Proteinsynthese und führt zum Zelltod in Leber und Niere.",
+        "en": "Principal toxin (an amatoxin); inhibits RNA polymerase II, halting protein synthesis and causing cell death in liver and kidney."
+      }
+    },
+    {
+      "name": "Beta-Amanitin",
+      "category": "other",
+      "note": {
+        "de": "Weiteres Amatoxin mit derselben hepatotoxischen Wirkung wie Alpha-Amanitin.",
+        "en": "Further amatoxin with the same hepatotoxic action as alpha-amanitin."
+      }
+    },
+    {
+      "name": "Phalloidin",
+      "category": "other",
+      "note": {
+        "de": "Phallotoxin; schädigt die Zellmembranen der Darmzellen und verursacht die frühen Magen-Darm-Beschwerden.",
+        "en": "Phallotoxin; damages the cell membranes of intestinal cells and causes the early gastrointestinal symptoms."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "wiki-de",
+      "type": "wikipedia",
+      "title": "Grüner Knollenblätterpilz – Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Gr%C3%BCner_Knollenbl%C3%A4tterpilz",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "wiki-en",
+      "type": "wikipedia",
+      "title": "Death cap – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Death_cap",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "tox-mdpi",
+      "type": "monograph",
+      "title": "Amanita phalloides-Associated Liver Failure: Mechanisms and Management (Int. J. Mol. Sci. 2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11640968/",
+      "accessed": "2026-06-24"
+    }
+  ],
+  "image": {
+    "filename": "amanita-phalloides.webp",
+    "alt": {
+      "de": "Grüner Knollenblätterpilz (Amanita phalloides) mit olivgrünem Hut, weißem Ring am Stiel und knolliger Basis im Wald.",
+      "en": "Death cap (Amanita phalloides) with an olive-green cap, white ring on the stem and bulbous base, in woodland."
+    },
+    "license": "Public Domain",
+    "author": "George Chernilevsky (Wikimedia Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Amanita_phalloides_2011_G3.jpg"
+  }
+}

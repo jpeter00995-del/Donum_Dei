@@ -1,0 +1,139 @@
+{
+  "slug": "pleurotus-ostreatus",
+  "kingdom": "fungus",
+  "names": {
+    "de": "Austern-Seitling",
+    "en": "Oyster mushroom",
+    "latin": "Pleurotus ostreatus"
+  },
+  "family": {
+    "de": "Seitlingsverwandte",
+    "en": "Oyster mushroom family",
+    "latin": "Pleurotaceae"
+  },
+  "description": {
+    "de": "Der Austern-Seitling (Pleurotus ostreatus) ist ein essbarer Speise- und Heilpilz mit muschel- oder austernförmigen, grau bis braun gefärbten Hüten und seitlich oder exzentrisch angesetztem Stiel. Er wächst büschelig an Laubholz, vor allem an Buchen, und wird weltweit kommerziell auf Stroh, Sägemehl oder sogar Kaffeesatz kultiviert. Der Pilz ist proteinreich und enthält Beta-Glucane sowie das natürliche Statin Lovastatin, weshalb er sowohl in der Küche als auch in der Ernährungs- und Gesundheitsforschung geschätzt wird. Sein mildes, leicht anisartiges Aroma und die feste Konsistenz machen ihn zu einem der weltweit am häufigsten angebauten Speisepilze.",
+    "en": "The oyster mushroom (Pleurotus ostreatus) is an edible culinary and medicinal fungus with shell- or oyster-shaped caps in grey to brown shades and a lateral or off-centre stem. It grows in clusters on hardwood, especially beech, and is cultivated commercially worldwide on straw, sawdust and even spent coffee grounds. The mushroom is high in protein and contains beta-glucans as well as the natural statin lovastatin, making it valued both in the kitchen and in nutrition and health research. Its mild, slightly anise-like flavour and firm texture make it one of the most widely cultivated edible mushrooms in the world."
+  },
+  "teaser": {
+    "de": "Ein beliebter Speisepilz, dessen Beta-Glucane und natürliches Lovastatin auch das Interesse der Cholesterin-Forschung wecken.",
+    "en": "A popular edible mushroom whose beta-glucans and natural lovastatin have also drawn the attention of cholesterol research."
+  },
+  "uses": [
+    {
+      "form": "raw",
+      "target": ["culinary", "nutrition", "protein source"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Frische Fruchtkörper werden gebraten, gedünstet oder gegrillt als eiweißreiches Gemüse oder Fleischersatz verwendet; vor dem Verzehr sollten sie immer durchgegart werden.",
+        "en": "Fresh fruiting bodies are fried, sautéed or grilled as a protein-rich vegetable or meat substitute; they should always be cooked thoroughly before eating."
+      },
+      "source_ids": ["wiki-en", "wiki-de"],
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional"
+    },
+    {
+      "form": "tincture",
+      "target": ["cholesterol", "cardiometabolic health"],
+      "internal_external": "internal",
+      "description": {
+        "de": "In getrockneter oder als Extrakt verarbeiteter Form wird der Pilz in Studien zur Senkung von Gesamt- und LDL-Cholesterin untersucht; der Effekt wird Beta-Glucanen und dem natürlich enthaltenen Lovastatin zugeschrieben.",
+        "en": "In dried or extract form, the mushroom has been studied for lowering total and LDL cholesterol; the effect is attributed to beta-glucans and the naturally occurring lovastatin."
+      },
+      "source_ids": ["study-lovastatin", "study-cardiometabolic"],
+      "plant_part": "whole_plant",
+      "evidence_level": "clinical_trial"
+    }
+  ],
+  "season": {
+    "active_months": [9, 10, 11, 12, 1, 2],
+    "harvest_part": {
+      "de": "Fruchtkörper",
+      "en": "fruiting body"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Allgemein sicherer Speisepilz; vor dem Verzehr stets garen. Beim Sammeln Verwechslungsgefahr mit ähnlichen Arten beachten und nur bei sicherer Bestimmung verzehren. Rohverzehr und übermäßiger Genuss können Magen-Darm-Beschwerden auslösen.",
+      "en": "Generally safe edible mushroom; always cook before eating. Foragers should note the risk of confusion with similar species and only eat specimens that are confidently identified. Eating it raw or in excess may cause gastrointestinal upset."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false
+  },
+  "constituents": [
+    {
+      "name": "Beta-Glucane",
+      "category": "polysaccharide",
+      "note": {
+        "de": "Lösliche Polysaccharide der Zellwand, denen immunmodulierende und cholesterinsenkende Wirkungen zugeschrieben werden.",
+        "en": "Soluble cell-wall polysaccharides credited with immune-modulating and cholesterol-lowering effects."
+      }
+    },
+    {
+      "name": "Lovastatin",
+      "category": "other",
+      "note": {
+        "de": "Natürlich vorkommendes Statin, das die körpereigene Cholesterinbildung hemmen kann; Gehalt schwankt je nach Stamm und Anbau.",
+        "en": "A naturally occurring statin that can inhibit the body's cholesterol synthesis; content varies by strain and cultivation."
+      }
+    },
+    {
+      "name": "Ergothionein",
+      "category": "other",
+      "note": {
+        "de": "Schwefelhaltige Aminosäure mit starker antioxidativer Wirkung, in Pilzen besonders reichlich vorhanden.",
+        "en": "A sulphur-containing amino acid with strong antioxidant activity, particularly abundant in mushrooms."
+      }
+    },
+    {
+      "name": "Ergosterol (Provitamin D2)",
+      "category": "other",
+      "note": {
+        "de": "Pilzsterol, das unter UV-Licht in Vitamin D2 umgewandelt werden kann.",
+        "en": "A fungal sterol that can be converted into vitamin D2 under UV light."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "wiki-de",
+      "type": "wikipedia",
+      "title": "Austern-Seitling – Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Austern-Seitling",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "wiki-en",
+      "type": "wikipedia",
+      "title": "Pleurotus ostreatus – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pleurotus_ostreatus",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "study-lovastatin",
+      "type": "monograph",
+      "title": "Lovastatin, β-glucan, Polyphenols and Antioxidant Activity in Oyster Culinary-Medicinal Mushroom, Pleurotus ostreatus",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25746617/",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "study-cardiometabolic",
+      "type": "monograph",
+      "title": "Effect of Oyster Mushrooms (Pleurotus ostreatus) on Cardiometabolic Parameters — A Systematic Review",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7230384/",
+      "accessed": "2026-06-24"
+    }
+  ],
+  "image": {
+    "filename": "pleurotus-ostreatus.webp",
+    "alt": {
+      "de": "Büschel von Austern-Seitlingen (Pleurotus ostreatus) mit grau-braunen, muschelförmigen Hüten an Holz.",
+      "en": "Cluster of oyster mushrooms (Pleurotus ostreatus) with grey-brown, shell-shaped caps on wood."
+    },
+    "license": "CC BY 3.0",
+    "author": "Holger Krisp (Wikimedia Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Austern-Seitling_Austernpilz_Pleurotus_ostreatus.JPG"
+  }
+}

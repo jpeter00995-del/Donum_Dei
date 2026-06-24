@@ -1,0 +1,123 @@
+{
+  "slug": "digitalis-purpurea",
+  "names": {
+    "de": "Roter Fingerhut",
+    "en": "Foxglove",
+    "latin": "Digitalis purpurea"
+  },
+  "family": {
+    "de": "Wegerichgewächse",
+    "en": "Plantain family",
+    "latin": "Plantaginaceae"
+  },
+  "description": {
+    "de": "Der Rote Fingerhut ist eine zweijährige Pflanze, die im ersten Jahr eine Blattrosette und im zweiten Jahr einen bis zu 2 Meter hohen, unverzweigten Blütenstängel bildet. Die fingerhutähnlichen, purpurrot-violetten Blüten (selten weiß) sind 4–6 cm lang, glockenförmig hängend und an der Unterlippe dunkel gefleckt. Er blüht von Juni bis August und wächst bevorzugt an Waldrändern, auf Lichtungen und Kahlschlägen. Alle Pflanzenteile sind hochgiftig und enthalten herzwirksame Glykoside. 2007 wurde er zur Giftpflanze des Jahres gewählt.",
+    "en": "Foxglove is a biennial plant that forms a leaf rosette in its first year and an unbranched flowering stem up to 2 metres tall in its second year. Its thimble-shaped, pendant, tubular flowers are typically purple-violet (rarely white), 4–6 cm long, with dark-spotted throats. It flowers from June to August and favours woodland edges, clearings and disturbed ground. Every part of the plant is highly poisonous and contains cardiac glycosides."
+  },
+  "teaser": {
+    "de": "Eine prächtige Waldpflanze, deren herzwirksame Glykoside die Medizin prägten – und die zugleich tödlich giftig ist.",
+    "en": "A striking woodland plant whose heart-acting glycosides shaped modern cardiology – yet which is deadly poisonous."
+  },
+  "uses": [
+    {
+      "form": "tea",
+      "target": ["dropsy", "heart weakness"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Historisch bereitete man aus den getrockneten Blättern Aufgüsse gegen Wassersucht (Ödeme bei Herzschwäche). Diese Anwendung ist rein historisch und LEBENSGEFÄHRLICH – niemals zur Selbstbehandlung verwenden.",
+        "en": "Historically, infusions of the dried leaves were used against dropsy (edema caused by heart weakness). This use is purely historical and LIFE-THREATENING – never use for self-treatment."
+      },
+      "source_ids": ["wiki-de", "wiki-en"],
+      "plant_part": "leaf",
+      "evidence_level": "folk"
+    },
+    {
+      "form": "tincture",
+      "target": ["heart failure", "irregular heartbeat"],
+      "internal_external": "internal",
+      "description": {
+        "de": "William Withering beschrieb 1785 die dosierte Anwendung von Blattzubereitungen bei Herzwassersucht; daraus entstand die moderne Digitalis-Therapie. Die isolierten Reinstoffe (Digitoxin/Digoxin) sind heute verschreibungspflichtige Arzneimittel – die Pflanze selbst ist wegen der extrem geringen therapeutischen Breite nicht zur Selbstanwendung geeignet.",
+        "en": "In 1785 William Withering described the measured use of leaf preparations for cardiac dropsy, giving rise to modern digitalis therapy. The isolated pure compounds (digitoxin/digoxin) are today prescription medicines – the plant itself is not suitable for self-use because of its extremely narrow therapeutic margin."
+      },
+      "source_ids": ["wiki-en", "withering"],
+      "plant_part": "leaf",
+      "evidence_level": "traditional"
+    }
+  ],
+  "season": {
+    "active_months": [6, 7, 8],
+    "harvest_part": {
+      "de": "Blätter (historisch; nur unter pharmazeutischer Kontrolle)",
+      "en": "Leaves (historical; only under pharmaceutical control)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "LEBENSGEFAHR: Alle Pflanzenteile sind hochgiftig. Bereits zwei bis drei Blätter können tödlich sein. Vergiftungssymptome sind Übelkeit, Erbrechen, Sehstörungen, Schwindel, gefährlich langsamer oder unregelmäßiger Puls bis hin zum Herzstillstand. Niemals selbst anwenden – auch nicht in kleinen Mengen.",
+      "en": "DEADLY: All parts of the plant are highly toxic. As few as two or three leaves can be fatal. Poisoning causes nausea, vomiting, visual disturbances, dizziness, a dangerously slow or irregular pulse, and can lead to cardiac arrest. Never self-administer – not even in small amounts."
+    },
+    "external_only": false,
+    "toxicity_level": "toxic",
+    "pet_toxic": true
+  },
+  "constituents": [
+    {
+      "name": "Digitoxin",
+      "category": "glycoside",
+      "note": {
+        "de": "Herzwirksames Glykosid, 1874 isoliert; steigert die Kontraktionskraft des Herzmuskels, in höherer Dosis tödlich.",
+        "en": "Cardiac glycoside, isolated in 1874; increases the contractile force of the heart muscle and is lethal at higher doses."
+      }
+    },
+    {
+      "name": "Digoxin",
+      "category": "glycoside",
+      "note": {
+        "de": "Herzglykosid, hemmt die Natrium-Kalium-ATPase; medizinisch genutzt, mit sehr geringer therapeutischer Breite.",
+        "en": "Cardiac glycoside that inhibits the sodium-potassium ATPase; used medically, with a very narrow therapeutic margin."
+      }
+    },
+    {
+      "name": "Gitoxin",
+      "category": "glycoside",
+      "note": {
+        "de": "Weiteres herzwirksames Glykosid der Pflanze, ähnlich toxisch wie Digitoxin.",
+        "en": "Another cardiac glycoside of the plant, similarly toxic to digitoxin."
+      }
+    }
+  ],
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "wiki-de",
+      "type": "wikipedia",
+      "title": "Roter Fingerhut – Wikipedia",
+      "url": "https://de.wikipedia.org/wiki/Roter_Fingerhut",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "wiki-en",
+      "type": "wikipedia",
+      "title": "Digitalis purpurea – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Digitalis_purpurea",
+      "accessed": "2026-06-24"
+    },
+    {
+      "id": "withering",
+      "type": "book",
+      "title": "William Withering: An Account of the Foxglove and Some of its Medical Uses (1785)",
+      "url": "https://en.wikipedia.org/wiki/William_Withering",
+      "accessed": "2026-06-24"
+    }
+  ],
+  "image": {
+    "filename": "digitalis-purpurea.webp",
+    "alt": {
+      "de": "Blühender Roter Fingerhut (Digitalis purpurea) mit purpurnen Blüten im Wald.",
+      "en": "Flowering foxglove (Digitalis purpurea) with purple blooms in woodland."
+    },
+    "license": "CC BY-SA 3.0",
+    "author": "TivaB (Wikimedia Commons)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Digitalis_purpurea_-_Rennes.jpg"
+  }
+}
