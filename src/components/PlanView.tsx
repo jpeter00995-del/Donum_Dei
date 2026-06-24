@@ -454,9 +454,9 @@ export default function PlanView({ plants, locale }: Props) {
         <p className="leading-snug">{t_i18n(locale, 'plan.cart.explain.body')}</p>
       </aside>
 
-      {/* === 5.3 Space indicator (live) === */}
+      {/* === 5.3 Space indicator (live) — beim Scrollen oben klebend (Variante A) === */}
       <section
-        className={`mb-4 rounded-lg border px-4 py-3 ${
+        className={`sticky top-0 z-20 mb-4 rounded-lg border px-4 py-3 shadow-sm ${
           overBudget
             ? 'border-amber-300 bg-amber-50 text-amber-900'
             : 'border-slate-200 bg-slate-50 text-slate-800'
@@ -470,10 +470,20 @@ export default function PlanView({ plants, locale }: Props) {
             <span aria-hidden="true">📐 </span>
             {t_i18n(locale, 'plan.cart.space_label')}
           </span>
-          <span className="text-sm font-semibold tabular-nums">
-            {overBudget
-              ? t_i18n(locale, 'plan.cart.space_warn', { used: fmt(usedRounded), total: fmt(totalRounded) })
-              : t_i18n(locale, 'plan.cart.space_ok', { used: fmt(usedRounded), total: fmt(totalRounded) })}
+          <span className="flex items-baseline gap-3 tabular-nums">
+            {cartPlants.length > 0 && (
+              <span
+                className="text-sm font-medium"
+                title={t_i18n(locale, 'plan.cart.title')}
+              >
+                <span aria-hidden="true">🛒 </span>{cartPlants.length}
+              </span>
+            )}
+            <span className="text-sm font-semibold">
+              {overBudget
+                ? t_i18n(locale, 'plan.cart.space_warn', { used: fmt(usedRounded), total: fmt(totalRounded) })
+                : t_i18n(locale, 'plan.cart.space_ok', { used: fmt(usedRounded), total: fmt(totalRounded) })}
+            </span>
           </span>
         </div>
         <div

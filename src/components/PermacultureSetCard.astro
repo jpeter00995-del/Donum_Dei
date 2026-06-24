@@ -41,7 +41,7 @@ const difficultyDots = '●'.repeat(set.difficulty) + '○'.repeat(3 - set.diffi
 <article
   id={set.id}
   data-testid={`set-card-${set.id}`}
-  class="set-card scroll-mt-24 bg-white border border-slate-200 rounded-lg overflow-hidden hover:border-emerald-400 hover:shadow-md transition flex flex-col target:ring-2 target:ring-emerald-400"
+  class="set-card scroll-mt-24 bg-white border border-slate-200 rounded-lg overflow-hidden hover:border-emerald-400 hover:shadow-lg hover:-translate-y-0.5 transition duration-200 flex flex-col target:ring-2 target:ring-emerald-400"
 >
   {imagePlants.length > 0 && (
     <div class="flex h-[120px] bg-slate-100">

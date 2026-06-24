@@ -154,7 +154,7 @@ export default function FilterBar({ plants, locale, noun = 'plant' }: Props) {
               <a
                 key={plant.slug}
                 href={`/${locale}/plant/${plant.slug}`}
-                className="group block bg-white rounded-lg border border-slate-200 overflow-hidden hover:border-slate-400 hover:shadow-md transition"
+                className="group block bg-white rounded-lg border border-slate-200 overflow-hidden hover:border-emerald-400 hover:shadow-lg hover:-translate-y-0.5 transition duration-200"
               >
                 {/* Nur erstes Bild = LCP → eager + fetchpriority high; Rest lazy (keine Bandbreiten-Konkurrenz auf Mobil). */}
                 <div className="aspect-[4/3] overflow-hidden bg-slate-100">

@@ -53,7 +53,7 @@ export default function IndoorCards({ plants, locale }: Props) {
         <a
           key={p.slug}
           href={`/${locale}/plant/${p.slug}/`}
-          className="block bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden border border-slate-100"
+          className="block bg-white rounded-lg shadow hover:shadow-lg hover:-translate-y-0.5 hover:border-emerald-400 transition duration-200 overflow-hidden border border-slate-100"
         >
           <img
             src={`/images/plants/${p.image.filename}`}

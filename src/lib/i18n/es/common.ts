@@ -16,6 +16,10 @@ export const common = {
   'nav.permaculture': '🌱 Permacultura',
   'nav.symptoms': '🌿 Ayuda para…',
   'nav.search': '🔍 Buscar',
+  // Títulos de los menús desplegables de la cabecera
+  'nav.group_discover': 'Descubrir',
+  'nav.group_garden': 'Planificar el jardín',
+  'nav.group_themes': 'Temas',
 
   'lang.switch_to': 'EN',
   'lang.current': 'ES',

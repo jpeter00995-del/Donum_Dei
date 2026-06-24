@@ -16,6 +16,10 @@ export const common = {
   'nav.permaculture': '🌱 Пермакултура',
   'nav.symptoms': '🌿 Помощ при…',
   'nav.search': '🔍 Търсене',
+  // Заглавия на падащите менюта в горната лента
+  'nav.group_discover': 'Открийте',
+  'nav.group_garden': 'Планиране на градината',
+  'nav.group_themes': 'Теми',
 
   'lang.switch_to': 'EN',
   'lang.current': 'BG',

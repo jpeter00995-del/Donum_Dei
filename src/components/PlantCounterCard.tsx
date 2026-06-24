@@ -101,7 +101,7 @@ export default function PlantCounterCard(props: PlantCounterCardProps) {
   const fmt = (n: number) => n.toLocaleString(locale === 'de' ? 'de-DE' : 'en-US');
 
   const containerClasses = [
-    'plant-counter-card group flex gap-3 rounded-lg border p-3 transition',
+    'plant-counter-card group flex gap-3 rounded-lg border p-3 transition duration-200 hover:shadow-md hover:-translate-y-0.5',
     inCart
       ? cardOverBudget
         ? 'border-rose-400 bg-rose-50'

@@ -30,6 +30,42 @@ const { locale, title, description, altPath, imagePath } = Astro.props;
 // Sprachen (FR/ES/BG) also auf die englischen Seiten — die Labels bleiben aber
 // in der UI-Sprache (t(locale, ...)).
 const navLocale = contentLocale(locale);
+// Kopfleiste: 1 Direkt-Link (Pflanzen) + 3 Gruppen mit Klapp-Menüs.
+// Aus 13 nebeneinander liegenden Links werden 4 ruhige Punkte.
+const navGroups: { label: string; items: { href: string; label: string }[] }[] = [
+  {
+    label: t(locale, 'nav.group_discover'),
+    items: [
+      { href: navLocale === 'de' ? '/de/suche' : '/en/search', label: t(locale, 'nav.search') },
+      { href: navLocale === 'de' ? '/de/hilfe-bei' : '/en/help-with', label: t(locale, 'nav.symptoms') },
+      { href: navLocale === 'de' ? '/de/karte' : '/en/map', label: t(locale, 'nav.map') },
+      { href: `/${navLocale}/quiz`, label: t(locale, 'nav.quiz') },
+    ],
+  },
+  {
+    label: t(locale, 'nav.group_garden'),
+    items: [
+      { href: navLocale === 'de' ? '/de/mein-garten/' : '/en/my-garden/', label: t(locale, 'nav.garden') },
+      { href: navLocale === 'de' ? '/de/kalender' : '/en/calendar', label: t(locale, 'nav.calendar') },
+      { href: navLocale === 'de' ? '/de/mischkultur' : '/en/companion-planting', label: t(locale, 'nav.companion') },
+      { href: navLocale === 'de' ? '/de/pakete' : '/en/packages', label: t(locale, 'nav.packages') },
+      { href: navLocale === 'de' ? '/de/permakultur' : '/en/permaculture', label: t(locale, 'nav.permaculture') },
+    ],
+  },
+  {
+    label: t(locale, 'nav.group_themes'),
+    items: [
+      { href: navLocale === 'de' ? '/de/zuhause-anbauen' : '/en/grow-at-home', label: t(locale, 'nav.indoor') },
+      { href: navLocale === 'de' ? '/de/pilze' : '/en/mushrooms', label: t(locale, 'nav.mushrooms') },
+      { href: navLocale === 'de' ? '/de/rauschpflanzen' : '/en/psychoactive', label: t(locale, 'nav.controlled') },
+    ],
+  },
+];
+const plantsHref = `/${navLocale}/`;
+// Ist ein Link der aktuell offenen Seite? (dezentes Hervorheben der aktiven Gruppe)
+const pathNoSlash = Astro.url.pathname.replace(/\/+$/, '');
+const isActiveHref = (href: string) => pathNoSlash === href.replace(/\/+$/, '');
+const isActiveGroup = (items: { href: string }[]) => items.some(i => isActiveHref(i.href));
 // Sprach-Leiste im Footer (DE/EN voll, FR/ES/BG Light → Startseite).
 const uiLangs: { code: UiLocale; label: string; href: string }[] = [
   { code: 'de', label: 'DE', href: '/de/' },
@@ -99,21 +135,41 @@ const ogLocale = navLocale === 'de' ? 'de_DE' : 'en_US';
         </a>
         <LanguageToggle client:load currentLocale={locale} currentPath={currentPath} />
       </div>
-      <nav class="border-t border-slate-100 bg-slate-50/60">
-        <div class="max-w-6xl mx-auto flex items-center gap-1 text-sm text-slate-600 overflow-x-auto px-4 py-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:justify-center md:flex-wrap">
-          <a href={`/${navLocale}/`} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.plants')}</a>
-          <a href={navLocale === 'de' ? '/de/suche' : '/en/search'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.search')}</a>
-          <a href={navLocale === 'de' ? '/de/hilfe-bei' : '/en/help-with'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.symptoms')}</a>
-          <a href={navLocale === 'de' ? '/de/karte' : '/en/map'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.map')}</a>
-          <a href={navLocale === 'de' ? '/de/mein-garten/' : '/en/my-garden/'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.garden')}</a>
-          <a href={navLocale === 'de' ? '/de/kalender' : '/en/calendar'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.calendar')}</a>
-          <a href={navLocale === 'de' ? '/de/mischkultur' : '/en/companion-planting'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.companion')}</a>
-          <a href={navLocale === 'de' ? '/de/pakete' : '/en/packages'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.packages')}</a>
-          <a href={navLocale === 'de' ? '/de/permakultur' : '/en/permaculture'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.permaculture')}</a>
-          <a href={`/${navLocale}/quiz`} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.quiz')}</a>
-          <a href={navLocale === 'de' ? '/de/zuhause-anbauen' : '/en/grow-at-home'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.indoor')}</a>
-          <a href={navLocale === 'de' ? '/de/pilze' : '/en/mushrooms'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.mushrooms')}</a>
-          <a href={navLocale === 'de' ? '/de/rauschpflanzen' : '/en/psychoactive'} class="px-3 py-1.5 rounded hover:bg-white hover:text-slate-900 transition whitespace-nowrap shrink-0">{t(locale, 'nav.controlled')}</a>
+      <nav class="border-t border-slate-100 bg-slate-50/60" aria-label="Main">
+        <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-x-1 gap-y-1 px-4 py-2 text-sm text-slate-700">
+          <a
+            href={plantsHref}
+            class:list={[
+              'px-3 py-1.5 rounded-md font-medium transition whitespace-nowrap hover:bg-white hover:text-emerald-700',
+              isActiveHref(plantsHref) && 'bg-white text-emerald-700',
+            ]}
+          >{t(locale, 'nav.plants')}</a>
+          {navGroups.map(group => (
+            <details class="nav-dd relative">
+              <summary
+                class:list={[
+                  'nav-dd-summary flex items-center gap-1 px-3 py-1.5 rounded-md font-medium transition whitespace-nowrap cursor-pointer select-none hover:bg-white hover:text-emerald-700',
+                  isActiveGroup(group.items) && 'bg-white text-emerald-700',
+                ]}
+              >
+                {group.label}
+                <svg class="nav-dd-caret w-3.5 h-3.5 transition-transform duration-200" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <path d="M5.5 7.5 10 12l4.5-4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </summary>
+              <div class="nav-dd-panel absolute left-1/2 -translate-x-1/2 mt-1.5 min-w-[12rem] max-w-[calc(100vw-2rem)] rounded-xl border border-slate-200 bg-white shadow-lg ring-1 ring-black/5 py-1.5 z-30">
+                {group.items.map(item => (
+                  <a
+                    href={item.href}
+                    class:list={[
+                      'block px-4 py-2 whitespace-nowrap transition hover:bg-emerald-50 hover:text-emerald-800',
+                      isActiveHref(item.href) ? 'text-emerald-700 font-medium' : 'text-slate-700',
+                    ]}
+                  >{item.label}</a>
+                ))}
+              </div>
+            </details>
+          ))}
         </div>
       </nav>
     </header>
@@ -169,5 +225,31 @@ const ogLocale = navLocale === 'de' ? 'de_DE' : 'en_US';
       </div>
     </div>
     <Disclaimer locale={locale} />
+    <style>
+      /* Standard-Dreieck des <summary> ausblenden — wir nutzen ein eigenes Caret-SVG */
+      .nav-dd-summary { list-style: none; }
+      .nav-dd-summary::-webkit-details-marker { display: none; }
+      /* Caret dreht sich, wenn das Klapp-Menü offen ist */
+      .nav-dd[open] > .nav-dd-summary .nav-dd-caret { transform: rotate(180deg); }
+    </style>
+    <script is:inline>
+      // Klapp-Menüs der Kopfleiste: nur eins offen; Klick daneben + Escape schließt.
+      (function () {
+        var dds = Array.prototype.slice.call(document.querySelectorAll('header .nav-dd'));
+        if (!dds.length) return;
+        dds.forEach(function (dd) {
+          dd.addEventListener('toggle', function () {
+            if (dd.open) dds.forEach(function (o) { if (o !== dd) o.open = false; });
+          });
+        });
+        document.addEventListener('click', function (e) {
+          var inside = e.target && e.target.closest && e.target.closest('header .nav-dd');
+          if (!inside) dds.forEach(function (o) { o.open = false; });
+        });
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape') dds.forEach(function (o) { o.open = false; });
+        });
+      })();
+    </script>
   </body>
 </html>

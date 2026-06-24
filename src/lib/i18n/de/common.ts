@@ -18,6 +18,10 @@ export const common = {
   'nav.permaculture': '🌱 Permakultur',
   'nav.symptoms': '🌿 Hilfe bei…',
   'nav.search': '🔍 Suche',
+  // Gruppen-Titel der Klapp-Menüs in der Kopfleiste
+  'nav.group_discover': 'Entdecken',
+  'nav.group_garden': 'Garten planen',
+  'nav.group_themes': 'Themen',
 
   'search.title': 'Suche',
   'search.placeholder': 'Pflanze, Symptom, Inhaltsstoff…',

@@ -18,6 +18,10 @@ export const common = {
   'nav.permaculture': '🌱 Permaculture',
   'nav.symptoms': '🌿 Help with…',
   'nav.search': '🔍 Search',
+  // Group titles for the header dropdown menus
+  'nav.group_discover': 'Discover',
+  'nav.group_garden': 'Plan garden',
+  'nav.group_themes': 'Topics',
 
   'search.title': 'Search',
   'search.placeholder': 'Plant, symptom, constituent…',
