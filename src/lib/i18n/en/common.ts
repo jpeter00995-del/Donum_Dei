@@ -11,7 +11,7 @@ export const common = {
   'nav.calendar': 'Calendar',
   'nav.companion': 'Companion Planting',
   'nav.quiz': 'Quiz',
-  'nav.indoor': 'Home',
+  'nav.indoor': '🪴 Houseplants',
   'nav.mushrooms': '🍄 Mushrooms',
   'nav.controlled': '🌀 Psychoactive',
   'nav.packages': '📦 Planting Sets',
@@ -22,6 +22,8 @@ export const common = {
   'nav.group_discover': 'Discover',
   'nav.group_garden': 'Plan garden',
   'nav.group_themes': 'Topics',
+  'nav.group_learn': 'Learn',
+  'nav.featured_badge': 'Featured',
 
   'search.title': 'Search',
   'search.placeholder': 'Plant, symptom, constituent…',

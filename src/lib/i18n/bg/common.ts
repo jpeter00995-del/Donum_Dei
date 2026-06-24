@@ -9,7 +9,7 @@ export const common = {
   'nav.calendar': 'Календар',
   'nav.companion': 'Съвместно отглеждане',
   'nav.quiz': 'Тест',
-  'nav.indoor': 'Вкъщи',
+  'nav.indoor': '🪴 Стайни растения',
   'nav.mushrooms': '🍄 Гъби',
   'nav.controlled': '🌀 Психоактивни растения',
   'nav.packages': '📦 Комплекти',
@@ -20,6 +20,8 @@ export const common = {
   'nav.group_discover': 'Открийте',
   'nav.group_garden': 'Планиране на градината',
   'nav.group_themes': 'Теми',
+  'nav.group_learn': 'Научи',
+  'nav.featured_badge': 'Съвет',
 
   'lang.switch_to': 'EN',
   'lang.current': 'BG',

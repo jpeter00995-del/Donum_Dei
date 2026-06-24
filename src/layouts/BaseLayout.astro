@@ -30,16 +30,17 @@ const { locale, title, description, altPath, imagePath } = Astro.props;
 // Sprachen (FR/ES/BG) also auf die englischen Seiten — die Labels bleiben aber
 // in der UI-Sprache (t(locale, ...)).
 const navLocale = contentLocale(locale);
-// Kopfleiste: 1 Direkt-Link (Pflanzen) + 3 Gruppen mit Klapp-Menüs.
-// Aus 13 nebeneinander liegenden Links werden 4 ruhige Punkte.
-const navGroups: { label: string; items: { href: string; label: string }[] }[] = [
+// Kopfleiste (nach Kollegen-Entwurf): "Pflanzen" als Direkt-Link + 3 Klapp-Menüs
+// Discover / Plan garden / Learn. Suche als Lupe-Symbol oben (kein Text-Eintrag).
+const navGroups: { label: string; items: { href: string; label: string; featured?: boolean }[] }[] = [
   {
     label: t(locale, 'nav.group_discover'),
     items: [
-      { href: navLocale === 'de' ? '/de/suche' : '/en/search', label: t(locale, 'nav.search') },
-      { href: navLocale === 'de' ? '/de/hilfe-bei' : '/en/help-with', label: t(locale, 'nav.symptoms') },
+      { href: navLocale === 'de' ? '/de/hilfe-bei' : '/en/help-with', label: t(locale, 'nav.symptoms'), featured: true },
       { href: navLocale === 'de' ? '/de/karte' : '/en/map', label: t(locale, 'nav.map') },
-      { href: `/${navLocale}/quiz`, label: t(locale, 'nav.quiz') },
+      { href: navLocale === 'de' ? '/de/zuhause-anbauen' : '/en/grow-at-home', label: t(locale, 'nav.indoor') },
+      { href: navLocale === 'de' ? '/de/pilze' : '/en/mushrooms', label: t(locale, 'nav.mushrooms') },
+      { href: navLocale === 'de' ? '/de/rauschpflanzen' : '/en/psychoactive', label: t(locale, 'nav.controlled') },
     ],
   },
   {
@@ -47,21 +48,22 @@ const navGroups: { label: string; items: { href: string; label: string }[] }[] =
     items: [
       { href: navLocale === 'de' ? '/de/mein-garten/' : '/en/my-garden/', label: t(locale, 'nav.garden') },
       { href: navLocale === 'de' ? '/de/kalender' : '/en/calendar', label: t(locale, 'nav.calendar') },
-      { href: navLocale === 'de' ? '/de/mischkultur' : '/en/companion-planting', label: t(locale, 'nav.companion') },
       { href: navLocale === 'de' ? '/de/pakete' : '/en/packages', label: t(locale, 'nav.packages') },
-      { href: navLocale === 'de' ? '/de/permakultur' : '/en/permaculture', label: t(locale, 'nav.permaculture') },
+      { href: navLocale === 'de' ? '/de/mischkultur' : '/en/companion-planting', label: t(locale, 'nav.companion') },
     ],
   },
   {
-    label: t(locale, 'nav.group_themes'),
+    label: t(locale, 'nav.group_learn'),
     items: [
-      { href: navLocale === 'de' ? '/de/zuhause-anbauen' : '/en/grow-at-home', label: t(locale, 'nav.indoor') },
-      { href: navLocale === 'de' ? '/de/pilze' : '/en/mushrooms', label: t(locale, 'nav.mushrooms') },
-      { href: navLocale === 'de' ? '/de/rauschpflanzen' : '/en/psychoactive', label: t(locale, 'nav.controlled') },
+      { href: navLocale === 'de' ? '/de/permakultur' : '/en/permaculture', label: t(locale, 'nav.permaculture') },
+      { href: `/${navLocale}/quiz`, label: t(locale, 'nav.quiz') },
     ],
   },
 ];
 const plantsHref = `/${navLocale}/`;
+const searchHref = navLocale === 'de' ? '/de/suche' : '/en/search';
+// Text für die Such-Lupe (ohne Emoji) — für aria-label/Titel.
+const searchLabel = t(locale, 'nav.search').replace('🔍', '').trim();
 // Ist ein Link der aktuell offenen Seite? (dezentes Hervorheben der aktiven Gruppe)
 const pathNoSlash = Astro.url.pathname.replace(/\/+$/, '');
 const isActiveHref = (href: string) => pathNoSlash === href.replace(/\/+$/, '');
@@ -136,7 +138,23 @@ const ogLocale = navLocale === 'de' ? 'de_DE' : 'en_US';
         <a href={`/${navLocale}/`} class="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 hover:text-emerald-700 transition tracking-wide whitespace-nowrap">
           {t(locale, 'site.title')}
         </a>
-        <LanguageToggle client:load currentLocale={locale} currentPath={currentPath} />
+        <div class="flex items-center gap-2">
+          <a
+            href={searchHref}
+            aria-label={searchLabel}
+            title={searchLabel}
+            class:list={[
+              'inline-flex items-center justify-center w-9 h-9 rounded-md text-slate-600 transition hover:bg-slate-100 hover:text-emerald-700',
+              isActiveHref(searchHref) && 'bg-slate-100 text-emerald-700',
+            ]}
+          >
+            <svg class="w-5 h-5" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="1.7" />
+              <path d="m13.5 13.5 4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+            </svg>
+          </a>
+          <LanguageToggle client:load currentLocale={locale} currentPath={currentPath} />
+        </div>
       </div>
       <nav class="border-t border-slate-100 bg-slate-50/60" aria-label="Main">
         <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-x-1 gap-y-1 px-4 py-2 text-sm text-slate-700">
@@ -165,10 +183,17 @@ const ogLocale = navLocale === 'de' ? 'de_DE' : 'en_US';
                   <a
                     href={item.href}
                     class:list={[
-                      'block px-4 py-2 whitespace-nowrap transition hover:bg-emerald-50 hover:text-emerald-800',
+                      'flex items-center gap-2 px-4 py-2 whitespace-nowrap transition hover:bg-emerald-50 hover:text-emerald-800',
                       isActiveHref(item.href) ? 'text-emerald-700 font-medium' : 'text-slate-700',
                     ]}
-                  >{item.label}</a>
+                  >
+                    <span>{item.label}</span>
+                    {item.featured && (
+                      <span class="rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-medium text-emerald-700">
+                        {t(locale, 'nav.featured_badge')}
+                      </span>
+                    )}
+                  </a>
                 ))}
               </div>
             </details>

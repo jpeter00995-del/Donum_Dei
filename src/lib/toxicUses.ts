@@ -11,12 +11,28 @@ export function isInternalUse(use: PlantUse): boolean {
   return use.internal_external === 'internal' || use.internal_external === 'both';
 }
 
+/**
+ * Gut belegte / zugelassene Evidenz → die Anwendung ist ein echtes Mittel
+ * (z.B. Efeu-Hustensaft, Rosskastanien-Venenmittel sind EMA-zugelassen) und
+ * gehört NICHT in den "nicht anwenden"-Warn-Kasten, auch wenn die Rohpflanze giftig ist.
+ */
+const STRONG_EVIDENCE = 'ema_well_established';
+
+/**
+ * Innere Anwendung, die nur historisch überliefert ist (NICHT gut belegt/zugelassen).
+ * Genau diese gehören bei giftigen Pflanzen in den Warn-Kasten.
+ */
+export function isHistoricalToxicUse(use: PlantUse): boolean {
+  return isInternalUse(use) && use.evidence_level !== STRONG_EVIDENCE;
+}
+
 // === 2. SPLIT ===
 
 /**
  * Teilt die Anwendungen einer Pflanze in `normalUses` + `historicalUses`.
- * Nur bei hochgiftigen Pflanzen (toxicity_level === 'toxic') werden innere
- * Anwendungen in `historicalUses` herausgezogen. Sonst bleiben alle normal.
+ * Nur bei hochgiftigen Pflanzen (toxicity_level === 'toxic') werden innere,
+ * NICHT gut belegte Anwendungen in `historicalUses` herausgezogen. Zugelassene
+ * innere Anwendungen (ema_well_established) bleiben normal. Sonst alles normal.
  */
 export function splitUsesForToxicity(plant: Plant): {
   normalUses: PlantUse[];
@@ -27,7 +43,7 @@ export function splitUsesForToxicity(plant: Plant): {
     return { normalUses: plant.uses, historicalUses: [] };
   }
   return {
-    normalUses: plant.uses.filter(u => !isInternalUse(u)),
-    historicalUses: plant.uses.filter(isInternalUse),
+    normalUses: plant.uses.filter(u => !isHistoricalToxicUse(u)),
+    historicalUses: plant.uses.filter(isHistoricalToxicUse),
   };
 }

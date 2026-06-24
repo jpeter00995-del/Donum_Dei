@@ -9,7 +9,7 @@ export const common = {
   'nav.calendar': 'Calendario',
   'nav.companion': 'Asociación de cultivos',
   'nav.quiz': 'Quiz',
-  'nav.indoor': 'En casa',
+  'nav.indoor': '🪴 Plantas de interior',
   'nav.mushrooms': '🍄 Setas',
   'nav.controlled': '🌀 Plantas psicoactivas',
   'nav.packages': '📦 Kits',
@@ -20,6 +20,8 @@ export const common = {
   'nav.group_discover': 'Descubrir',
   'nav.group_garden': 'Planificar el jardín',
   'nav.group_themes': 'Temas',
+  'nav.group_learn': 'Aprender',
+  'nav.featured_badge': 'Consejo',
 
   'lang.switch_to': 'EN',
   'lang.current': 'ES',

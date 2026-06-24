@@ -11,7 +11,7 @@ export const common = {
   'nav.calendar': 'Kalender',
   'nav.companion': 'Mischkultur',
   'nav.quiz': 'Quiz',
-  'nav.indoor': 'Zuhause',
+  'nav.indoor': '🪴 Zimmerpflanzen',
   'nav.mushrooms': '🍄 Pilze',
   'nav.controlled': '🌀 Rauschpflanzen',
   'nav.packages': '📦 Pflanz-Sets',
@@ -22,6 +22,8 @@ export const common = {
   'nav.group_discover': 'Entdecken',
   'nav.group_garden': 'Garten planen',
   'nav.group_themes': 'Themen',
+  'nav.group_learn': 'Lernen',
+  'nav.featured_badge': 'Tipp',
 
   'search.title': 'Suche',
   'search.placeholder': 'Pflanze, Symptom, Inhaltsstoff…',
