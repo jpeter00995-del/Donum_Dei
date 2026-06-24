@@ -67,15 +67,25 @@ export default function IndoorCards({ plants, locale }: Props) {
             <p className="text-xs italic text-gray-500 mb-2">{p.names.latin}</p>
             <div className="flex items-center justify-between text-sm">
               <span
-                className="text-amber-500"
+                className="text-amber-500 cursor-help"
                 title={t(locale, `indoor.diff.${p.indoor_growing!.difficulty}`)}
               >
                 {'★'.repeat(p.indoor_growing!.difficulty)}
                 {'☆'.repeat(3 - p.indoor_growing!.difficulty)}
               </span>
-              <span className="text-gray-600 text-xs">
-                {LIGHT_ICON[p.indoor_growing!.light]}&nbsp;
-                {WATER_ICON[p.indoor_growing!.water_frequency]}
+              <span className="flex items-center gap-1 text-gray-600 text-xs">
+                <span
+                  className="cursor-help"
+                  title={`${t(locale, 'indoor.light')}: ${t(locale, `indoor.light.${p.indoor_growing!.light}`)}`}
+                >
+                  {LIGHT_ICON[p.indoor_growing!.light]}
+                </span>
+                <span
+                  className="cursor-help"
+                  title={`${t(locale, 'indoor.water')}: ${t(locale, `indoor.water.${p.indoor_growing!.water_frequency}`)}`}
+                >
+                  {WATER_ICON[p.indoor_growing!.water_frequency]}
+                </span>
               </span>
               {p.indoor_growing!.pet_safe && (
                 <span title={t(locale, 'indoor.pet_safe.yes')} className="text-sm">

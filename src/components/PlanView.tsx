@@ -509,6 +509,14 @@ export default function PlanView({ plants, locale }: Props) {
           <span aria-hidden="true">🗑 </span>
           {t_i18n(locale, 'plan.cart.clear')}
         </button>
+        <button
+          type="button"
+          onClick={() => typeof window !== 'undefined' && window.print()}
+          className="min-h-[44px] px-4 py-2 rounded border border-slate-300 text-sm hover:bg-slate-50 sm:ml-auto"
+        >
+          <span aria-hidden="true">🖨 </span>
+          {t_i18n(locale, 'plan.cart.print')}
+        </button>
       </div>
 
       {/* === 5.5 Sort + filter === */}
@@ -835,13 +843,6 @@ export default function PlanView({ plants, locale }: Props) {
 
       {/* === 5.11 Footer === */}
       <footer className="mt-10 pt-6 border-t border-slate-200 flex flex-wrap gap-3 no-print">
-        <button
-          type="button"
-          onClick={() => typeof window !== 'undefined' && window.print()}
-          className="min-h-[44px] px-4 py-2 rounded border border-slate-300 hover:bg-slate-50"
-        >
-          {t_i18n(locale, 'plan.cart.print')}
-        </button>
         <button
           type="button"
           onClick={onResetProfile}
