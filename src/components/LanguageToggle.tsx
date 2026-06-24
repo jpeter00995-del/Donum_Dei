@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { Locale, UiLocale } from '@/lib/types';
 
 interface Props {
@@ -8,18 +8,31 @@ interface Props {
 
 const STORAGE_KEY = 'donum_dei_lang';
 
-// DE↔EN bleibt binär; Light-Sprachen (FR/ES/BG) schalten zurück auf EN.
-function otherLocale(l: UiLocale): Locale {
-  if (l === 'de') return 'en';
-  if (l === 'en') return 'de';
-  return 'en';
-}
+// Alle UI-Sprachen mit Anzeige-Namen.
+const LANGS: { code: UiLocale; label: string }[] = [
+  { code: 'de', label: 'Deutsch' },
+  { code: 'en', label: 'English' },
+  { code: 'fr', label: 'Français' },
+  { code: 'es', label: 'Español' },
+  { code: 'bg', label: 'Български' },
+];
 
 function swapLocaleInPath(path: string, from: UiLocale, to: Locale): string {
   return path.replace(new RegExp(`^/${from}(/|$)`), `/${to}$1`);
 }
 
+// Ziel-Link: DE/EN behalten die aktuelle Seite (Pfad-Swap), FR/ES/BG → Startseite.
+function hrefFor(target: UiLocale, currentLocale: UiLocale, currentPath: string): string {
+  if (target === 'de' || target === 'en') {
+    return swapLocaleInPath(currentPath, currentLocale, target);
+  }
+  return `/${target}/`;
+}
+
 export default function LanguageToggle({ currentLocale, currentPath }: Props) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     try {
       localStorage.setItem(STORAGE_KEY, currentLocale);
@@ -28,28 +41,62 @@ export default function LanguageToggle({ currentLocale, currentPath }: Props) {
     }
   }, [currentLocale]);
 
-  const target = otherLocale(currentLocale);
-  const targetPath = swapLocaleInPath(currentPath, currentLocale, target);
+  // Klick ausserhalb schliesst das Menue.
+  useEffect(() => {
+    function onDown(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+    }
+    document.addEventListener('mousedown', onDown);
+    return () => document.removeEventListener('mousedown', onDown);
+  }, []);
 
-  const handleClick = () => {
+  function choose(target: UiLocale) {
     try {
       localStorage.setItem(STORAGE_KEY, target);
     } catch {
       // ignore
     }
-    window.location.href = targetPath;
-  };
+    window.location.href = hrefFor(target, currentLocale, currentPath);
+  }
 
   return (
-    <button
-      type="button"
-      onClick={handleClick}
-      className="inline-flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-md border border-slate-300 bg-white hover:bg-slate-50 transition"
-      aria-label={`${currentLocale.toUpperCase()} | ${target.toUpperCase()} — switch to ${target.toUpperCase()}`}
-    >
-      <span className="font-semibold text-slate-900">{currentLocale.toUpperCase()}</span>
-      <span className="text-slate-400">|</span>
-      <span className="text-slate-600">{target.toUpperCase()}</span>
-    </button>
+    <div className="relative" ref={ref}>
+      <button
+        type="button"
+        onClick={() => setOpen(o => !o)}
+        aria-haspopup="listbox"
+        aria-expanded={open}
+        className="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium rounded-md border border-slate-300 bg-white hover:bg-slate-50 transition"
+      >
+        <span aria-hidden="true">🌐</span>
+        <span className="font-semibold text-slate-900">{currentLocale.toUpperCase()}</span>
+        <span className="text-slate-400 text-xs" aria-hidden="true">▾</span>
+      </button>
+
+      {open && (
+        <ul
+          role="listbox"
+          className="absolute right-0 mt-1 z-50 min-w-[150px] rounded-lg border border-slate-200 bg-white shadow-lg overflow-hidden"
+        >
+          {LANGS.map(lng => {
+            const active = lng.code === currentLocale;
+            return (
+              <li key={lng.code}>
+                <button
+                  type="button"
+                  onClick={() => choose(lng.code)}
+                  className={`w-full flex items-center justify-between gap-3 px-3 py-2 text-sm text-left transition ${
+                    active ? 'bg-emerald-50 text-emerald-800 font-semibold' : 'text-slate-700 hover:bg-slate-50'
+                  }`}
+                >
+                  <span>{lng.label}</span>
+                  <span className="text-xs text-slate-400">{lng.code.toUpperCase()}</span>
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
   );
 }
