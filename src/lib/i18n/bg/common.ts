@@ -22,6 +22,7 @@ export const common = {
   'nav.group_themes': 'Теми',
   'nav.group_learn': 'Научи',
   'nav.featured_badge': 'Съвет',
+  'nav.help': 'Информация и правни',
 
   'lang.switch_to': 'EN',
   'lang.current': 'BG',

@@ -24,6 +24,7 @@ export const common = {
   'nav.group_themes': 'Topics',
   'nav.group_learn': 'Learn',
   'nav.featured_badge': 'Featured',
+  'nav.help': 'Info & legal',
 
   'search.title': 'Search',
   'search.placeholder': 'Plant, symptom, constituent…',

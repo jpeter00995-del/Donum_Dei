@@ -24,6 +24,7 @@ export const common = {
   'nav.group_themes': 'Themen',
   'nav.group_learn': 'Lernen',
   'nav.featured_badge': 'Tipp',
+  'nav.help': 'Info & Rechtliches',
 
   'search.title': 'Suche',
   'search.placeholder': 'Pflanze, Symptom, Inhaltsstoff…',

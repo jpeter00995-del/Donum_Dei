@@ -25,6 +25,7 @@ export const common = {
   'nav.group_themes': 'Thèmes',
   'nav.group_learn': 'Apprendre',
   'nav.featured_badge': 'Conseil',
+  'nav.help': 'Infos & mentions légales',
 
   'lang.switch_to': 'EN',
   'lang.current': 'FR',

@@ -22,6 +22,7 @@ export const common = {
   'nav.group_themes': 'Temas',
   'nav.group_learn': 'Aprender',
   'nav.featured_badge': 'Consejo',
+  'nav.help': 'Información y aviso legal',
 
   'lang.switch_to': 'EN',
   'lang.current': 'ES',

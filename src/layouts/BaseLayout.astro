@@ -64,6 +64,14 @@ const plantsHref = `/${navLocale}/`;
 const searchHref = navLocale === 'de' ? '/de/suche' : '/en/search';
 // Text für die Such-Lupe (ohne Emoji) — für aria-label/Titel.
 const searchLabel = t(locale, 'nav.search').replace('🔍', '').trim();
+// Hilfe-/Info-Menü (das „?"-Symbol oben rechts): Fußzeilen-Links griffbereit oben.
+const helpLinks: { href: string; label: string }[] = [
+  { href: navLocale === 'de' ? '/de/ueber' : '/en/about', label: t(locale, 'footer.about') },
+  { href: `/${navLocale}/feedback`, label: t(locale, 'feedback.nav_label') },
+  { href: navLocale === 'de' ? '/de/impressum' : '/en/imprint', label: t(locale, 'footer.imprint') },
+  { href: navLocale === 'de' ? '/de/datenschutz' : '/en/privacy', label: t(locale, 'footer.privacy') },
+  { href: navLocale === 'de' ? '/de/bildnachweis' : '/en/image-credits', label: t(locale, 'footer.credits') },
+];
 // Ist ein Link der aktuell offenen Seite? (dezentes Hervorheben der aktiven Gruppe)
 const pathNoSlash = Astro.url.pathname.replace(/\/+$/, '');
 const isActiveHref = (href: string) => pathNoSlash === href.replace(/\/+$/, '');
@@ -154,6 +162,30 @@ const ogLocale = navLocale === 'de' ? 'de_DE' : 'en_US';
             </svg>
           </a>
           <LanguageToggle client:load currentLocale={locale} currentPath={currentPath} />
+          <details class="nav-dd relative">
+            <summary
+              class="nav-dd-summary inline-flex items-center justify-center w-9 h-9 rounded-md text-slate-600 transition hover:bg-slate-100 hover:text-emerald-700 cursor-pointer select-none"
+              aria-label={t(locale, 'nav.help')}
+              title={t(locale, 'nav.help')}
+            >
+              <svg class="w-5 h-5" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <circle cx="10" cy="10" r="7.5" stroke="currentColor" stroke-width="1.6" />
+                <path d="M7.9 7.6a2.1 2.1 0 0 1 4.1.6c0 1.4-2 1.7-2 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                <circle cx="10" cy="14.4" r="0.9" fill="currentColor" />
+              </svg>
+            </summary>
+            <div class="nav-dd-panel absolute right-0 mt-1.5 min-w-[12rem] max-w-[calc(100vw-2rem)] rounded-xl border border-slate-200 bg-white shadow-lg ring-1 ring-black/5 py-1.5 z-30 text-sm">
+              {helpLinks.map(item => (
+                <a
+                  href={item.href}
+                  class:list={[
+                    'block px-4 py-2 whitespace-nowrap transition hover:bg-emerald-50 hover:text-emerald-800',
+                    isActiveHref(item.href) ? 'text-emerald-700 font-medium' : 'text-slate-700',
+                  ]}
+                >{item.label}</a>
+              ))}
+            </div>
+          </details>
         </div>
       </div>
       <nav class="border-t border-slate-100 bg-slate-50/60" aria-label="Main">
