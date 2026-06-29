@@ -48,4 +48,27 @@ export const common = {
   'footer.separator': '·',
 
   'disclaimer.text': 'This application is for educational purposes only. It does not replace medical advice. Consult a physician or pharmacist for health concerns.',
+
+  // === Photo identification (Pl@ntNet) ===
+  'identify.title': 'Identify by photo',
+  'identify.intro': 'Upload a photo of a leaf, flower or fruit — the recognizer suggests possible species. Matches in our database are linked directly.',
+  'identify.choose': 'Choose or take a photo',
+  'identify.change': 'Different photo',
+  'identify.submit': 'Identify',
+  'identify.analyzing': 'Identifying image …',
+  'identify.preview_alt': 'Uploaded plant photo',
+  'identify.results_title': 'Possible species',
+  'identify.in_db': 'In our database →',
+  'identify.not_in_db': 'Not in our database yet',
+  'identify.match_high': 'High match',
+  'identify.match_possible': 'Possible match',
+  'identify.match_unsure': 'Uncertain — please use a sharper photo of a leaf/flower',
+  'identify.no_results': 'No identification possible. Please try a sharper photo of a single plant part.',
+  'identify.retry': 'Try again',
+  'identify.err_unavailable': 'Photo identification is currently unavailable. The text search above still works.',
+  'identify.err_rate_limit': 'Identification is at capacity today. Please try again later.',
+  'identify.err_timeout': 'The image recognizer is not responding right now. Please try again.',
+  'identify.err_generic': 'Something went wrong. Please try again.',
+  'identify.disclaimer': 'Note: the photo is sent to Pl@ntNet (EU) for identification. The result is a suggestion, not medical advice.',
+  'identify.attribution': 'Plant identification by Pl@ntNet · data under CC-BY',
 };

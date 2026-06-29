@@ -48,4 +48,27 @@ export const common = {
   'footer.separator': '·',
 
   'disclaimer.text': 'Diese App dient ausschließlich der Bildung. Sie ersetzt keine medizinische Beratung. Bei Beschwerden Arzt oder Apotheker konsultieren.',
+
+  // === Foto-Erkennung (Pl@ntNet) ===
+  'identify.title': 'Per Foto bestimmen',
+  'identify.intro': 'Lade ein Foto von Blatt, Blüte oder Frucht hoch — die Erkennung schlägt mögliche Arten vor. Treffer in unserer Datenbank werden direkt verlinkt.',
+  'identify.choose': 'Foto wählen oder aufnehmen',
+  'identify.change': 'Anderes Foto',
+  'identify.submit': 'Bestimmen',
+  'identify.analyzing': 'Bild wird bestimmt …',
+  'identify.preview_alt': 'Hochgeladenes Pflanzenfoto',
+  'identify.results_title': 'Mögliche Arten',
+  'identify.in_db': 'In unserer Datenbank →',
+  'identify.not_in_db': 'Noch nicht in unserer Datenbank',
+  'identify.match_high': 'Hohe Übereinstimmung',
+  'identify.match_possible': 'Mögliche Übereinstimmung',
+  'identify.match_unsure': 'Unsichere Bestimmung — bitte schärferes Foto von Blatt/Blüte',
+  'identify.no_results': 'Keine Bestimmung möglich. Bitte ein schärferes Foto eines einzelnen Pflanzenteils versuchen.',
+  'identify.retry': 'Erneut versuchen',
+  'identify.err_unavailable': 'Foto-Erkennung ist momentan nicht verfügbar. Die Textsuche oben funktioniert weiter.',
+  'identify.err_rate_limit': 'Die Erkennung ist heute ausgelastet. Bitte später erneut versuchen.',
+  'identify.err_timeout': 'Die Bilderkennung antwortet momentan nicht. Bitte erneut versuchen.',
+  'identify.err_generic': 'Da ist etwas schiefgelaufen. Bitte erneut versuchen.',
+  'identify.disclaimer': 'Hinweis: Das Foto wird zur Bestimmung an Pl@ntNet (EU) übertragen. Die Bestimmung ist ein Vorschlag und keine medizinische Aussage.',
+  'identify.attribution': 'Pflanzenbestimmung über Pl@ntNet · Daten unter CC-BY',
 };

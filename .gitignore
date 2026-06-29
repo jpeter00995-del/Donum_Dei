@@ -40,6 +40,7 @@ _tmp/
 
 # Wrangler / Cloudflare
 .wrangler/
+.dev.vars
 
 # Claude session crash-resilience files (project-local, large, churn)
 RESPONSE_COUNTER.txt

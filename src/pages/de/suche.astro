@@ -2,9 +2,16 @@
 // === 1. PAGE-SETUP ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { t } from '@/lib/i18n';
+import { loadAllPlants } from '@/lib/loadPlants';
+import { buildLatinIndex } from '@/lib/plantMatch';
+import PlantIdentifier from '@/components/PlantIdentifier.tsx';
+import PlantNetAttribution from '@/components/PlantNetAttribution.astro';
 
 const locale = 'de' as const;
 const title = t(locale, 'search.title');
+
+// Latin→Slug-Index zur Build-Zeit (Muster wie kalender.astro) — schlankes DTO ans Island.
+const latinIndex = buildLatinIndex(loadAllPlants());
 ---
 
 <BaseLayout locale={locale} title={title}>
@@ -54,6 +61,16 @@ const title = t(locale, 'search.title');
       <p class="font-semibold text-slate-700 mb-1">{t(locale, 'search.examples_title')}</p>
       <p>{t(locale, 'search.examples')}</p>
     </div>
+
+    <!-- === 4. FOTO-ERKENNUNG === -->
+    <section class="mt-10 border-t border-slate-200 pt-8">
+      <h2 class="font-serif text-2xl font-bold text-slate-900 mb-2">
+        📷 {t(locale, 'identify.title')}
+      </h2>
+      <p class="text-slate-600 mb-4 leading-relaxed">{t(locale, 'identify.intro')}</p>
+      <PlantIdentifier client:visible locale={locale} latinIndex={latinIndex} />
+      <PlantNetAttribution locale={locale} />
+    </section>
   </div>
 </BaseLayout>
 
