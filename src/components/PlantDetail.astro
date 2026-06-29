@@ -85,7 +85,16 @@ const hasPermacultureSection =
 
 <article class="max-w-3xl mx-auto px-4 py-8">
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
-  <a href={`/${locale}/`} class="text-sm text-emerald-700 hover:underline">← {t(locale, 'detail.back')}</a>
+  {/* Sichtbare Breadcrumb-Leiste (passt zu den JSON-LD-Breadcrumbs; ersetzt den alten Zurück-Link) */}
+  <nav aria-label="Breadcrumb" class="text-sm text-slate-500">
+    <ol class="flex flex-wrap items-center gap-1.5">
+      <li>
+        <a href={`/${locale}/`} class="text-emerald-700 hover:underline">{t(locale, 'nav.plants')}</a>
+      </li>
+      <li aria-hidden="true" class="text-slate-400">›</li>
+      <li class="text-slate-700" aria-current="page">{plant.names[locale]}</li>
+    </ol>
+  </nav>
 
   {/* === Welle M.3 — Prominent toxicity warner, ABOVE the image === */}
   {getToxicityLevel(plant) === 'toxic' && (
