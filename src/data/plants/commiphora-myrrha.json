@@ -1,0 +1,304 @@
+{
+  "slug": "commiphora-myrrha",
+  "names": {
+    "de": "Myrrhe (Echte Myrrhe)",
+    "en": "Myrrh",
+    "latin": "Commiphora myrrha"
+  },
+  "family": {
+    "de": "Balsambaumgewächse",
+    "en": "Torchwood family",
+    "latin": "Burseraceae"
+  },
+  "description": {
+    "de": "Die Myrrhe ist ein dorniger, kleiner Baum bzw. Strauch aus dem nordöstlichen Afrika und der Arabischen Halbinsel (Somalia, Äthiopien, Jemen, Oman). Verletzt man die Rinde, tritt ein aromatisches Öl-Gummiharz aus, das an der Luft zu rötlich-braunen, harten Tränen erstarrt. Dieses Harz (Myrrha) wird seit dem Altertum als Räucherwerk, zur Einbalsamierung und als Heilmittel genutzt. Die Rinde ist zweischichtig, außen silbrig-grau und papierartig, innen grün.",
+    "en": "Myrrh is a thorny small tree or shrub native to north-eastern Africa and the Arabian Peninsula (Somalia, Ethiopia, Yemen, Oman). When the bark is wounded, a fragrant oleo-gum-resin exudes and hardens in the air into reddish-brown, brittle tears. This resin (Myrrha) has been used since antiquity as incense, for embalming, and as a medicine. The bark is two-layered, with a silvery-grey papery outer layer and a green inner layer."
+  },
+  "teaser": {
+    "de": "Das rötlich-braune Öl-Gummiharz eines dornigen Wüstenbaums - seit dem Altertum als Räucherwerk und Wundmittel geschätzt.",
+    "en": "The reddish-brown oleo-gum-resin of a thorny desert tree - prized since antiquity as incense and a remedy for wounds."
+  },
+  "uses": [
+    {
+      "form": "gargle",
+      "target": [
+        "throat"
+      ],
+      "internal_external": "external",
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "Myrrhentinktur (aus dem Harz der Rinde) unverdünnt mit einem Wattestäbchen 2-3× täglich auf die betroffene Mund- oder Rachenschleimhaut tupfen, oder 5-10 Tropfen in ein Glas Wasser geben und als Mundspülung/Gurgellösung verwenden. Nicht in größeren Mengen schlucken.",
+          "en": "Dab myrrh tincture (from the bark resin) undiluted onto the affected mouth or throat mucosa 2-3× daily with a cotton swab, or add 5-10 drops to a glass of water and use as a mouthwash/gargle. Do not swallow in larger amounts."
+        },
+        "doses_per_day": 3
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA-Monographie nur bei Erwachsenen und Jugendlichen über 12 Jahren anwenden.",
+          "en": "Per the EMA monograph, use only in adults and adolescents over 12 years of age."
+        }
+      },
+      "description": {
+        "de": "Traditionelle Anwendung bei leichten Entzündungen und kleinen Geschwüren (Aphthen) der Mund- und Rachenschleimhaut.",
+        "en": "Traditional use for minor inflammation and small ulcers (sores) of the mouth and throat mucosa."
+      },
+      "source_ids": [
+        "ema",
+        "wikipedia_de",
+        "wikipedia_en"
+      ]
+    },
+    {
+      "form": "salve",
+      "target": [
+        "wounds",
+        "skin"
+      ],
+      "internal_external": "external",
+      "plant_part": "bark",
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "Myrrhentinktur oder eine harzhaltige Salbe dünn auf kleine Wunden und kleine Furunkel auftragen. Bei Anwendung auf der Haut kann der Alkohol der Tinktur kurzzeitig brennen.",
+          "en": "Apply myrrh tincture or a resin-based salve thinly to minor wounds and small boils. The alcohol in the tincture may cause short-lived stinging on application to the skin."
+        },
+        "doses_per_day": 3
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA-Monographie nur bei Erwachsenen und Jugendlichen über 12 Jahren anwenden.",
+          "en": "Per the EMA monograph, use only in adults and adolescents over 12 years of age."
+        }
+      },
+      "description": {
+        "de": "Traditionelle äußerliche Anwendung bei kleinen Wunden und kleinen Furunkeln (Hautgeschwüren).",
+        "en": "Traditional topical use for minor wounds and small boils (skin sores)."
+      },
+      "source_ids": [
+        "ema",
+        "wikipedia_en"
+      ]
+    }
+  ],
+  "season": {
+    "active_months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "harvest_part": {
+      "de": "Öl-Gummiharz aus der Rinde (Myrrha)",
+      "en": "oleo-gum-resin from the bark (Myrrha)"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Nur zur örtlichen Anwendung im Mund-/Rachenraum und auf der Haut. Nicht in größeren Mengen schlucken. Tinkturen enthalten Alkohol, der beim Auftragen kurzzeitig brennen oder reizen kann. Allergische Hautreaktionen sind möglich (Häufigkeit unbekannt). Bei Überempfindlichkeit nicht anwenden. In der Schwangerschaft meiden, da Myrrhe traditionell als wehen- bzw. gebärmutteranregend gilt. Bei Beschwerden, die länger als 1 Woche anhalten oder sich verschlimmern, ärztlichen Rat einholen.",
+      "en": "For local use in the mouth/throat and on the skin only. Do not swallow in larger amounts. Tinctures contain alcohol, which may cause short-lived stinging or irritation on application. Allergic skin reactions are possible (frequency not known). Do not use in case of hypersensitivity. Avoid during pregnancy, as myrrh is traditionally regarded as an emmenagogue / uterine stimulant. If symptoms persist for more than 1 week or worsen, seek medical advice."
+    },
+    "external_only": true,
+    "toxicity_level": "caution",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In der Schwangerschaft nicht anwenden. Myrrhe wird traditionell als wehen- und gebärmutteranregend (Emmenagogum) angesehen; die Sicherheit ist nicht belegt.",
+        "en": "Do not use during pregnancy. Myrrh is traditionally regarded as an emmenagogue and uterine stimulant; safety has not been established."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Sicherheit während der Stillzeit ist nicht belegt; eine Anwendung wird nicht empfohlen.",
+        "en": "Safety during breastfeeding has not been established; use is not recommended."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Nicht bei Kindern unter 12 Jahren anwenden (EMA-Monographie).",
+        "en": "Do not use in children under 12 years of age (EMA monograph)."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antidiabetika / blutzuckersenkende Mittel",
+        "mechanism": {
+          "de": "Möglicherweise additive blutzuckersenkende Wirkung; bei systemischer Aufnahme Blutzucker beobachten. Für die örtliche Anwendung gering.",
+          "en": "Possible additive blood-glucose-lowering effect; monitor blood sugar with systemic intake. Low relevance for topical use."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Antikoagulanzien / gerinnungshemmende Mittel",
+        "mechanism": {
+          "de": "Theoretisch additive gerinnungshemmende Wirkung; bei gleichzeitiger Einnahme beobachten. Für die örtliche Anwendung gering.",
+          "en": "Theoretically additive anticoagulant effect; monitor with concurrent use. Low relevance for topical use."
+        },
+        "severity": "monitor"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Schwangerschaft",
+        "en": "Pregnancy"
+      },
+      {
+        "de": "Überempfindlichkeit gegenüber Myrrhe",
+        "en": "Hypersensitivity to myrrh"
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "ema",
+      "type": "monograph",
+      "title": "European Medicines Agency (HMPC): Myrrha - Herbal medicine for potential use",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/myrrha",
+      "accessed": "2026-07-02"
+    },
+    {
+      "id": "wikipedia_de",
+      "type": "wikipedia",
+      "title": "Myrrhe - Wikipedia (DE)",
+      "url": "https://de.wikipedia.org/wiki/Myrrhe",
+      "accessed": "2026-07-02"
+    },
+    {
+      "id": "wikipedia_en",
+      "type": "wikipedia",
+      "title": "Commiphora myrrha - Wikipedia (EN)",
+      "url": "https://en.wikipedia.org/wiki/Commiphora_myrrha",
+      "accessed": "2026-07-02"
+    },
+    {
+      "id": "wikidata",
+      "type": "wikidata",
+      "title": "Commiphora myrrha (Q311830) - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q311830",
+      "accessed": "2026-07-02"
+    },
+    {
+      "id": "koehler_plate",
+      "type": "commons",
+      "title": "Commiphora myrrha - Köhler's Medizinal-Pflanzen, plate 019 (1897)",
+      "url": "https://commons.wikimedia.org/wiki/File:Commiphora_myrrha_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-019.jpg",
+      "accessed": "2026-07-02"
+    },
+    {
+      "id": "escop",
+      "type": "monograph",
+      "title": "ESCOP Monographs: Myrrha (Myrrh)",
+      "url": "https://escop.com/downloads/myrrh/",
+      "accessed": "2026-07-02"
+    },
+    {
+      "id": "pubmed_furanosesquiterpenes",
+      "type": "monograph",
+      "title": "Chemistry, pharmacology and medicinal properties of Commiphora myrrha resin (PubMed review)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28031111/",
+      "accessed": "2026-07-02"
+    }
+  ],
+  "image": {
+    "filename": "commiphora-myrrha.webp",
+    "alt": {
+      "de": "Botanische Tafel der Myrrhe (Commiphora myrrha) aus Köhlers Medizinal-Pflanzen von 1897, mit beblättertem Zweig, Blüten und Früchten.",
+      "en": "Botanical plate of myrrh (Commiphora myrrha) from Köhler's Medizinal-Pflanzen, 1897, showing a leafed branch, flowers and fruit."
+    },
+    "license": "Public domain",
+    "author": "Franz Eugen Köhler (Köhler's Medizinal-Pflanzen)",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Commiphora_myrrha_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-019.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Ätherisches Öl (2,5-10 %)",
+      "category": "essential_oil",
+      "percent_range": "2.5-10%",
+      "plant_part": "bark",
+      "note": {
+        "de": "Trägt maßgeblich zum charakteristischen Duft bei; enthält vor allem Furanosesquiterpene.",
+        "en": "Contributes mainly to the characteristic fragrance; consists largely of furanosesquiterpenes."
+      }
+    },
+    {
+      "name": "Furanoeudesma-1,3-dien",
+      "category": "sesquiterpene",
+      "note": {
+        "de": "Leit-Furanosesquiterpen des ätherischen Öls; mit schmerzstillenden Eigenschaften in Verbindung gebracht.",
+        "en": "Lead furanosesquiterpene of the essential oil; associated with analgesic properties."
+      }
+    },
+    {
+      "name": "Curzeren",
+      "category": "sesquiterpene",
+      "note": {
+        "de": "Furanosesquiterpen des Myrrhenöls.",
+        "en": "Furanosesquiterpene of myrrh oil."
+      }
+    },
+    {
+      "name": "Lindestren",
+      "category": "sesquiterpene",
+      "note": {
+        "de": "Weiteres charakteristisches Furanosesquiterpen der Myrrhe.",
+        "en": "Another characteristic furanosesquiterpene of myrrh."
+      }
+    },
+    {
+      "name": "Harz (Commiphorasäuren, 25-40 %)",
+      "category": "other",
+      "percent_range": "25-40%",
+      "plant_part": "bark",
+      "note": {
+        "de": "Harzanteil mit Commiphorasäuren und triterpenoiden Verbindungen.",
+        "en": "Resin fraction containing commiphoric acids and triterpenoid compounds."
+      }
+    },
+    {
+      "name": "Gummi (Polysaccharide)",
+      "category": "polysaccharide",
+      "note": {
+        "de": "Wasserlöslicher Gummianteil aus Polysacchariden; macht das Harz zu einem Öl-Gummiharz.",
+        "en": "Water-soluble gum fraction of polysaccharides; makes the resin an oleo-gum-resin."
+      }
+    },
+    {
+      "name": "Bitterstoff",
+      "category": "bitter",
+      "note": {
+        "de": "Verleiht der Myrrhe ihren typisch bitteren Geschmack.",
+        "en": "Gives myrrh its characteristic bitter taste."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "bark",
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "time_of_day": {
+        "de": "tagsüber während der Trockenzeit",
+        "en": "during the day in the dry season"
+      },
+      "drying": {
+        "de": "Das ausgetretene Harz an der Luft erhärten lassen, bis es zu rötlich-braunen Tränen wird; anschließend ablesen und trocken lagern.",
+        "en": "Let the exuded resin harden in the air until it forms reddish-brown tears; then collect and store dry."
+      }
+    }
+  ],
+  "permaculture_functions": [
+    "medicinal",
+    "aromatic_repellent"
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "slug": "eleutherococcus-senticosus",
+  "names": {
+    "de": "Borstige Taigawurzel",
+    "en": "Eleuthero",
+    "latin": "Eleutherococcus senticosus"
+  },
+  "family": {
+    "de": "Araliengewächse",
+    "en": "Ginseng family",
+    "latin": "Araliaceae"
+  },
+  "description": {
+    "de": "Die Borstige Taigawurzel (Eleutherococcus senticosus), auch Taigawurzel oder 'Sibirischer Ginseng' genannt, ist ein sommergrüner, dicht bestachelter Strauch aus der Familie der Araliengewächse. Sie erreicht Wuchshöhen von etwa 2 bis über 6 Metern und trägt handförmig gefiederte, meist fünfteilige Blätter mit bis zu 13 cm langen Fiederblättchen. Im Juli erscheinen kleine, unscheinbare Blüten, aus denen später rundliche, blauschwarze, steinfruchtartige Beeren von 6 bis 9 mm reifen. Heimisch ist die Art im nordöstlichen Asien - in Sibirien, der Amur-Region, auf Sachalin, in Nordkorea, im nordöstlichen China (Mandschurei) und im nördlichen Japan (Hokkaidō), wo sie in Misch- und Nadelwäldern wächst. Medizinisch genutzt werden die holzige Wurzel und das Rhizom (Eleutherococci radix). Trotz des Namens 'Sibirischer Ginseng' ist die Pflanze nicht mit dem echten Ginseng (Panax ginseng) identisch, gehört aber zur selben Familie und gilt als klassisches Adaptogen.",
+    "en": "Eleuthero (Eleutherococcus senticosus), also called Siberian ginseng or taiga root, is a deciduous, densely spiny shrub of the ginseng family (Araliaceae). It reaches heights of roughly 2 to over 6 metres and bears palmate, usually five-part leaves with leaflets up to 13 cm long. Small, inconspicuous flowers open in July and give rise to rounded, blue-black, drupe-like berries of 6 to 9 mm. The species is native to north-eastern Asia - Siberia, the Amur region, Sakhalin, North Korea, north-eastern China (Manchuria) and northern Japan (Hokkaidō), where it grows in mixed and coniferous forests. Its medicinal parts are the woody root and rhizome (Eleutherococci radix). Despite the name 'Siberian ginseng', the plant is not the same as true ginseng (Panax ginseng), though it belongs to the same family and is regarded as a classic adaptogen."
+  },
+  "teaser": {
+    "de": "Der bestachelte Wurzelstrauch der sibirischen Taiga - ein klassisches Adaptogen, von der EMA in traditioneller Anwendung bei Erschöpfungssymptomen wie Müdigkeit und Schwäche anerkannt.",
+    "en": "The spiny root-shrub of the Siberian taiga - a classic adaptogen recognised by the EMA in traditional use for symptoms of asthenia such as tiredness and weakness."
+  },
+  "uses": [
+    {
+      "form": "tincture",
+      "target": ["nervous_system", "immune"],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": { "min": 0.5, "max": 4 },
+        "doses_per_day": 3,
+        "max_duration_weeks": 8,
+        "instructions": {
+          "de": "Traditionelle Anwendung als standardisierter Trockenextrakt oder Tinktur aus der zerkleinerten Wurzel, entsprechend etwa 0,5 bis 4 g zerkleinerter Wurzel täglich (herstellerabhängig, verteilt auf mehrere Einzelgaben). Die Einnahme sollte eher in der ersten Tageshälfte erfolgen, da die Droge leicht anregend wirken kann. Nur für Erwachsene und Jugendliche ab 12 Jahren. Ohne ärztlichen Rat nicht länger als 2 Monate anwenden; bessern sich die Beschwerden nicht oder halten sie länger als 2 Wochen an, ärztlichen Rat einholen.",
+          "en": "Traditional use as a standardised dry extract or tincture of the comminuted root, corresponding to roughly 0.5 to 4 g of comminuted root per day (product-dependent, divided into several single doses). Take preferably earlier in the day, as the herb may be mildly stimulating. For adults and adolescents over 12 years only. Do not use for longer than 2 months without medical advice; if symptoms do not improve or persist for more than 2 weeks, seek medical advice."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Laut EMA-Monografie nur für Erwachsene und Jugendliche über 12 Jahren; für jüngere Kinder liegen keine ausreichenden Daten vor.",
+          "en": "Per the EMA monograph, for adults and adolescents over 12 years only; there are insufficient data for younger children."
+        }
+      },
+      "description": {
+        "de": "Hauptanwendung mit von der EMA anerkannter 'traditional use'-Evidenz: zur Linderung von Erschöpfungssymptomen (Asthenie - dem abnormen Verlust von Kraft und Energie) wie Müdigkeit und Schwäche. Die Anerkennung beruht ausschließlich auf der langjährigen traditionellen Verwendung, nicht auf hochwertigen klinischen Studien. Als Adaptogen soll die Wurzel die unspezifische Widerstandskraft gegen körperliche und geistige Belastung unterstützen.",
+        "en": "Main use with EMA-recognised 'traditional use' evidence: for the relief of symptoms of asthenia (abnormal loss of strength and energy) such as tiredness and weakness. This recognition rests solely on long-standing traditional use, not on high-quality clinical trials. As an adaptogen the root is held to support non-specific resistance to physical and mental stress."
+      },
+      "source_ids": ["src_ema_medicine", "src_ema_monograph", "src_wikipedia_de", "src_wikipedia_en"]
+    },
+    {
+      "form": "tea",
+      "target": ["nervous_system", "immune"],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "traditional",
+      "preparation": {
+        "amount_dry_g": { "min": 2, "max": 3 },
+        "water_ml": 150,
+        "steep_min": 10,
+        "doses_per_day": 2,
+        "max_duration_weeks": 8,
+        "instructions": {
+          "de": "Traditionell als Abkochung (Dekokt): etwa 2 bis 3 g zerkleinerte Wurzel mit rund 150 ml Wasser aufsetzen, einige Minuten köcheln und insgesamt etwa 10 Minuten ziehen lassen, dann abseihen. Ein- bis zweimal täglich, bevorzugt in der ersten Tageshälfte. Nur für Erwachsene und Jugendliche ab 12 Jahren; nicht länger als 2 Monate ohne ärztlichen Rat.",
+          "en": "Traditionally as a decoction: bring about 2 to 3 g of comminuted root to the boil with roughly 150 ml of water, simmer for a few minutes and let it draw for about 10 minutes in total, then strain. Once or twice daily, preferably earlier in the day. For adults and adolescents over 12 years only; not longer than 2 months without medical advice."
+        }
+      },
+      "age_restriction": {
+        "min_age": 12,
+        "note": {
+          "de": "Wie bei der Extrakt-/Tinkturform nur für Erwachsene und Jugendliche über 12 Jahren.",
+          "en": "As with the extract/tincture form, for adults and adolescents over 12 years only."
+        }
+      },
+      "description": {
+        "de": "Volkstümliche und traditionelle Zubereitung der zerkleinerten Wurzel als Abkochung zur unterstützenden Anwendung bei Erschöpfung, Müdigkeit und Schwäche. Die zerkleinerte Wurzel als Aufguss/Dekokt ist eine der von der EMA im Rahmen der traditionellen Anwendung genannten Zubereitungsformen.",
+        "en": "Folk and traditional preparation of the comminuted root as a decoction for supportive use in exhaustion, tiredness and weakness. The comminuted root as an infusion/decoction is one of the preparation forms named by the EMA within the traditional-use framework."
+      },
+      "source_ids": ["src_ema_monograph", "src_wikipedia_de"]
+    }
+  ],
+  "season": {
+    "active_months": [9, 10],
+    "harvest_part": {
+      "de": "Wurzel und Rhizom (Eleutherococci radix), im Herbst ausgegraben",
+      "en": "Root and rhizome (Eleutherococci radix), dug in autumn"
+    }
+  },
+  "safety": {
+    "warnings": {
+      "de": "Die Taigawurzel kann leicht anregend wirken; berichtete Nebenwirkungen sind unter anderem Schlaflosigkeit, Reizbarkeit, Herzrasen (Tachykardie) und Kopfschmerzen. Daher nicht am späten Tag oder abends einnehmen und bei Neigung zu Schlaflosigkeit meiden. Vorsicht bei hohem oder unkontrolliertem Blutdruck sowie bei Herzerkrankungen. Wegen fehlender Daten nicht in Schwangerschaft, Stillzeit und bei Kindern unter 12 Jahren anwenden. Ohne ärztlichen Rat nicht länger als 2 Monate anwenden; bei Beschwerden, die länger als 2 Wochen anhalten oder sich verschlimmern, ärztlichen Rat einholen. Theoretisch sind Wechselwirkungen mit blutzuckersenkenden, gerinnungshemmenden und beruhigenden Arzneimitteln möglich.",
+      "en": "Eleuthero may be mildly stimulating; reported side effects include insomnia, irritability, rapid heartbeat (tachycardia) and headaches. It should therefore not be taken late in the day or in the evening and should be avoided in people prone to insomnia. Caution in high or uncontrolled blood pressure and in heart disease. Because of a lack of data it should not be used in pregnancy, during breastfeeding or in children under 12 years. Do not use for more than 2 months without medical advice; if symptoms persist for more than 2 weeks or worsen, seek medical advice. Theoretical interactions with blood-sugar-lowering, anticoagulant and sedative medicines are possible."
+    },
+    "external_only": false,
+    "toxicity_level": "none",
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Die EMA-Monografie rät wegen fehlender Unbedenklichkeitsdaten von der Anwendung in der Schwangerschaft ab; die Anwendung wird nicht empfohlen.",
+        "en": "The EMA monograph advises against use in pregnancy owing to a lack of safety data; use is not recommended."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Für die Stillzeit liegen keine ausreichenden Daten vor; die EMA-Monografie empfiehlt die Anwendung in der Stillzeit nicht. Nur nach ärztlicher Rücksprache.",
+        "en": "There are insufficient data for the breastfeeding period; the EMA monograph does not recommend use during lactation. Only after medical advice."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Für Kinder unter 12 Jahren liegen keine ausreichenden Daten vor; die Anwendung ist laut EMA auf Erwachsene und Jugendliche über 12 Jahren beschränkt.",
+        "en": "There are insufficient data for children under 12 years; per the EMA the use is restricted to adults and adolescents over 12 years."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Antidiabetika / blutzuckersenkende Mittel",
+        "mechanism": {
+          "de": "Die Taigawurzel kann den Blutzuckerspiegel beeinflussen; bei gleichzeitiger Einnahme blutzuckersenkender Arzneimittel ist der Blutzucker zu überwachen.",
+          "en": "Eleuthero may affect blood glucose; when taken together with blood-sugar-lowering medicines, blood glucose should be monitored."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Gerinnungshemmer / Digoxin (Warfarin, Herzglykoside)",
+        "mechanism": {
+          "de": "In Einzelfallberichten wurden Störungen der Blutgerinnung bzw. veränderte Digoxin-Serumspiegel unter Eleutherococcus beschrieben; bei gleichzeitiger Einnahme von Warfarin oder Digoxin ist eine engmaschige Überwachung ratsam.",
+          "en": "Case reports have described disturbed blood coagulation or altered serum digoxin levels with Eleutherococcus; close monitoring is advisable when taken together with warfarin or digoxin."
+        },
+        "severity": "monitor"
+      },
+      {
+        "drug_class": "Sedativa / zentral dämpfende Mittel",
+        "mechanism": {
+          "de": "Theoretisch möglich sind Wechselwirkungen mit beruhigenden Arzneimitteln; die anregende Wirkung der Droge könnte deren Effekt beeinflussen. Datenlage begrenzt.",
+          "en": "Interactions with sedative medicines are theoretically possible; the herb's stimulating effect could influence their action. Data are limited."
+        },
+        "severity": "caution"
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit (Allergie) gegen die Wurzel oder andere Bestandteile der Zubereitung.",
+        "en": "Hypersensitivity (allergy) to the root or to other components of the preparation."
+      },
+      {
+        "de": "Vorsicht bei hohem oder unkontrolliertem Blutdruck (Hypertonie).",
+        "en": "Caution in high or uncontrolled blood pressure (hypertension)."
+      }
+    ]
+  },
+  "classical_quotes": [],
+  "sources": [
+    {
+      "id": "src_ema_medicine",
+      "type": "monograph",
+      "title": "European Medicines Agency (HMPC) - Eleutherococci radix (Eleutherococcus senticosus root), herbal medicinal product, traditional use",
+      "url": "https://www.ema.europa.eu/en/medicines/herbal/eleutherococci-radix",
+      "accessed": "2026-07-02"
+    },
+    {
+      "id": "src_ema_monograph",
+      "type": "monograph",
+      "title": "Final Community herbal monograph on Eleutherococcus senticosus (Rupr. et Maxim.) Maxim., radix (EMA/HMPC)",
+      "url": "https://www.ema.europa.eu/en/documents/herbal-monograph/final-community-herbal-monograph-eleutherococcus-senticosus-rupr-et-maxim-maxim-radix_en.pdf",
+      "accessed": "2026-07-02"
+    },
+    {
+      "id": "src_wikipedia_de",
+      "type": "wikipedia",
+      "title": "Borstige Taigawurzel - Wikipedia (Deutsch)",
+      "url": "https://de.wikipedia.org/wiki/Borstige_Taigawurzel",
+      "accessed": "2026-07-02"
+    },
+    {
+      "id": "src_wikipedia_en",
+      "type": "wikipedia",
+      "title": "Eleutherococcus senticosus - Wikipedia (English)",
+      "url": "https://en.wikipedia.org/wiki/Eleutherococcus_senticosus",
+      "accessed": "2026-07-02"
+    },
+    {
+      "id": "src_wikidata",
+      "type": "wikidata",
+      "title": "Eleutherococcus senticosus (Q163122) - Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q163122",
+      "accessed": "2026-07-02"
+    },
+    {
+      "id": "src_commons",
+      "type": "commons",
+      "title": "Eleutherococcus senticosus - Chelsea Physic Garden - Wikimedia Commons (CC0, Daderot)",
+      "url": "https://commons.wikimedia.org/wiki/File:Eleutherococcus_senticosus_-_Chelsea_Physic_Garden_-_DSC02860.jpg",
+      "accessed": "2026-07-02"
+    }
+  ],
+  "image": {
+    "filename": "eleutherococcus-senticosus.webp",
+    "alt": {
+      "de": "Belaubter Zweig der Borstigen Taigawurzel (Eleutherococcus senticosus) mit handförmig gefiederten Blättern, fotografiert im Chelsea Physic Garden",
+      "en": "Leafy branch of eleuthero (Eleutherococcus senticosus) with palmate compound leaves, photographed at the Chelsea Physic Garden"
+    },
+    "license": "CC0",
+    "author": "Daderot",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Eleutherococcus_senticosus_-_Chelsea_Physic_Garden_-_DSC02860.jpg"
+  },
+  "constituents": [
+    {
+      "name": "Eleutheroside (heterogene Leitgruppe, z. B. Eleutherosid B = Syringin, Eleutherosid E = Syringaresinol-Diglucosid)",
+      "category": "glycoside",
+      "percent_range": "~0,6-0,9 %",
+      "plant_part": "root",
+      "note": {
+        "de": "Namensgebende, chemisch uneinheitliche Leitstoffgruppe der Wurzel. Eleutherosid B ist das Phenylpropanoid-Glykosid Syringin, Eleutherosid E ein Lignan-Diglucosid (Syringaresinol-Diglucosid). Sie dienen als analytische Markersubstanzen der Droge.",
+        "en": "The eponymous, chemically heterogeneous marker group of the root. Eleutheroside B is the phenylpropanoid glycoside syringin, eleutheroside E a lignan diglucoside (syringaresinol diglucoside). They serve as the analytical marker substances of the herb."
+      }
+    },
+    {
+      "name": "Lignane (u. a. Sesamin, Syringaresinol)",
+      "category": "phenolic_acid",
+      "plant_part": "root",
+      "note": {
+        "de": "Lignane wie Sesamin und Syringaresinol; Letzteres bildet als Diglucosid das Eleutherosid E. Gelten als mitprägend für das adaptogene Profil.",
+        "en": "Lignans such as sesamin and syringaresinol; the latter forms eleutheroside E as its diglucoside. Considered part of the adaptogenic profile."
+      }
+    },
+    {
+      "name": "Phenylpropanoide (Syringin, Chlorogensäure)",
+      "category": "phenolic_acid",
+      "plant_part": "root",
+      "note": {
+        "de": "Phenylpropanoide, darunter Syringin (Eleutherosid B) und Chlorogensäure.",
+        "en": "Phenylpropanoids including syringin (eleutheroside B) and chlorogenic acid."
+      }
+    },
+    {
+      "name": "Polysaccharide",
+      "category": "polysaccharide",
+      "plant_part": "root",
+      "note": {
+        "de": "Hochmolekulare Polysaccharide, denen in vitro immunbezogene (immunmodulierende) Effekte zugeschrieben werden.",
+        "en": "High-molecular polysaccharides to which immune-related (immunomodulating) effects have been attributed in vitro."
+      }
+    },
+    {
+      "name": "Cumarine (Isofraxidin)",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "Cumarine, insbesondere Isofraxidin (bzw. dessen Glucosid), gehören zu den charakteristischen Inhaltsstoffen der Wurzel.",
+        "en": "Coumarins, especially isofraxidin (or its glucoside), are among the characteristic constituents of the root."
+      }
+    },
+    {
+      "name": "Triterpensaponine",
+      "category": "saponin",
+      "plant_part": "root",
+      "note": {
+        "de": "Triterpenoide Saponine als weitere Begleitstoffgruppe der Wurzel.",
+        "en": "Triterpenoid saponins as a further accompanying constituent group of the root."
+      }
+    },
+    {
+      "name": "Phytosterole (u. a. β-Sitosterol)",
+      "category": "other",
+      "plant_part": "root",
+      "note": {
+        "de": "Pflanzensterole wie β-Sitosterol.",
+        "en": "Plant sterols such as beta-sitosterol."
+      }
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [9, 10],
+      "time_of_day": {
+        "de": "Die holzige Wurzel und das Rhizom werden im Herbst nach dem Vergilben des Laubes ausgegraben, wenn die Wirkstoffe in der Wurzel eingelagert sind.",
+        "en": "The woody root and rhizome are dug in autumn after the foliage has yellowed, when the active compounds are stored in the root."
+      },
+      "drying": {
+        "de": "Die geernteten Wurzeln und Rhizome werden gewaschen, zerkleinert und schonend getrocknet; die getrocknete, zerkleinerte Droge (Eleutherococci radix) wird gelagert oder zu Extrakten und Tinkturen verarbeitet.",
+        "en": "The harvested roots and rhizomes are washed, comminuted and gently dried; the dried, comminuted herbal substance (Eleutherococci radix) is stored or processed into extracts and tinctures."
+      },
+      "storage_months": 36,
+      "storage_condition": {
+        "de": "Trocken, kühl und dunkel in dicht schließenden Behältern lagern.",
+        "en": "Store dry, cool and dark in tightly sealed containers."
+      }
+    }
+  ],
+  "permaculture_functions": [
+    "medicinal",
+    "pollinator_attractor",
+    "shade_provider"
+  ]
+}

@@ -28,7 +28,7 @@ export const common = {
 
   'search.title': 'Search',
   'search.placeholder': 'Plant, symptom, constituent…',
-  'search.intro': 'Full-text search across all 293 entries, 629 pages and constituents. Type a keyword — results appear instantly.',
+  'search.intro': 'Full-text search across all 297 entries, 637 pages and constituents. Type a keyword — results appear instantly.',
   'search.examples_title': 'Example searches',
   'search.examples': 'IBS · cough · PA toxic · Hildegard · permaculture · aromatic',
 
