@@ -24,8 +24,11 @@ interface Props {
   // Optionaler Bildpfad fürs Teilen (z. B. "/images/plants/lavandula.jpg").
   // Ohne Wert: Fallback auf das Favicon.
   imagePath?: string;
+  // Wenn true: Seite von der Google-Indexierung ausnehmen (robots noindex,follow).
+  // Für dünne Weiterleit-/Sprach-Shell-Seiten (z. B. /fr /es /bg) ohne eigenen Inhalt.
+  noindex?: boolean;
 }
-const { locale, title, description, altPath, imagePath } = Astro.props;
+const { locale, title, description, altPath, imagePath, noindex } = Astro.props;
 // Menü-/Footer-Links zeigen in die Inhalts-Sprache (DE oder EN). Für Light-
 // Sprachen (FR/ES/BG) also auf die englischen Seiten — die Labels bleiben aber
 // in der UI-Sprache (t(locale, ...)).
@@ -114,6 +117,7 @@ const ogLocale = navLocale === 'de' ? 'de_DE' : 'en_US';
     <title>{pageTitle}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="description" content={metaDescription} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     <link rel="canonical" href={canonicalURL} />
     {altURL && <link rel="alternate" hreflang={locale} href={canonicalURL} />}
     {altURL && <link rel="alternate" hreflang={altLocale} href={altURL} />}
@@ -133,8 +137,12 @@ const ogLocale = navLocale === 'de' ? 'de_DE' : 'en_US';
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
     <!-- Google AdSense Loader (Konto pub-5000356216672097). Lädt Googles Werbe-Code;
-         Anzeigen erscheinen erst nach Freigabe. Einwilligung via Googles eigenem CMP. -->
-    <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5000356216672097" crossorigin="anonymous"></script>
+         Anzeigen erscheinen erst nach Freigabe. Einwilligung via Googles eigenem CMP.
+         Nur in Produktion — auf localhost zeigt AdSense nichts und würde nur als
+         "ungültiger Traffic" zählen (Dev bleibt sauber & schnell). -->
+    {import.meta.env.PROD && (
+      <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5000356216672097" crossorigin="anonymous"></script>
+    )}
     <script is:inline>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
@@ -143,7 +151,9 @@ const ogLocale = navLocale === 'de' ? 'de_DE' : 'en_US';
       }
     </script>
   </head>
-  <body class="min-h-screen bg-white text-slate-900 flex flex-col font-sans antialiased">
+  <body class="min-h-screen bg-paper text-slate-900 flex flex-col font-sans antialiased">
+    <!-- Feine botanische Akzentlinie ganz oben (frischer Grün-Verlauf) -->
+    <div aria-hidden="true" class="h-1 bg-gradient-to-r from-emerald-700 via-emerald-500 to-lime-500"></div>
     <header class="border-b border-slate-200 bg-white">
       <div class="max-w-6xl mx-auto px-4 pt-4 pb-3 flex items-center justify-between gap-3">
         <a href={`/${navLocale}/`} class="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 hover:text-emerald-700 transition tracking-wide whitespace-nowrap">
