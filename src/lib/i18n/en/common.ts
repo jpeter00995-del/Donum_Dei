@@ -4,6 +4,9 @@
 export const common = {
   'site.title': 'Donum ∞ Dei',
   'site.tagline': 'Interactive medicinal plants database',
+  // Home hero: small stat line + calm subtitle. {count} = live plant count.
+  'home.eyebrow': '{count} plants · bilingual · with verified sources',
+  'home.subtitle': 'Healing herbs, houseplants and toxic plants — with profiles, a seasonal calendar, a distribution map and verifiable sources.',
 
   'nav.plants': 'Plants',
   'nav.map': 'Map',

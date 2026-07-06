@@ -4,6 +4,10 @@
 export const common = {
   'site.title': 'Donum ∞ Dei',
   'site.tagline': 'Interaktive Heilpflanzen-Datenbank',
+  // Startseiten-Hero: kleine Kennzahl-Zeile + ruhiger Untertitel.
+  // {count} = echte Pflanzenzahl (dynamisch, veraltet nie).
+  'home.eyebrow': '{count} Pflanzen · zweisprachig · mit geprüften Quellen',
+  'home.subtitle': 'Heilkräuter, Zimmerpflanzen und Giftpflanzen — mit Steckbrief, Saisonkalender, Verbreitungskarte und nachprüfbaren Quellen.',
 
   'nav.plants': 'Pflanzen',
   'nav.map': 'Karte',

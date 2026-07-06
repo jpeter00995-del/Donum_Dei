@@ -11,6 +11,8 @@ const locale = 'de' as const;
 // Haupt-Grid zeigt nur „Alltags"-Pflanzen: Pilze (/de/pilze) und kontrollierte
 // Rauschpflanzen (/de/rauschpflanzen) haben eigene Seiten → hier ausfiltern.
 const plants = getPlantsSortedByLocale(locale).filter(isEverydayPlant).map(toPlantCard);
+// Echte Gesamtzahl aller Pflanzen (inkl. Pilze/Rauschpflanzen) für die Hero-Kennzahl.
+const totalPlants = getPlantsSortedByLocale(locale).length;
 
 // === Strukturierte Daten: WebSite + Suchfeld (Sitelinks-Searchbox in Google) ===
 // Funktioniert, weil /de/suche jetzt ?q=... auswertet (triggerSearch).
@@ -31,8 +33,18 @@ const siteLd = {
 
 <BaseLayout locale={locale} altPath="/en/">
   <script type="application/ld+json" set:html={JSON.stringify(siteLd)} />
-  <div class="max-w-6xl mx-auto px-4 py-8">
-    <h1 class="text-2xl md:text-3xl font-serif font-bold text-slate-900 mb-6">{t(locale, 'site.tagline')}</h1>
+  <section class="relative overflow-hidden">
+    {/* weicher botanischer Schimmer hinter dem Hero */}
+    <div aria-hidden="true" class="pointer-events-none absolute inset-0 bg-gradient-to-b from-emerald-50/70 via-emerald-50/20 to-transparent"></div>
+    <div class="relative max-w-6xl mx-auto px-4 pt-8 pb-5">
+      <p class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-emerald-700">
+        {t(locale, 'home.eyebrow', { count: totalPlants })}
+      </p>
+      <h1 class="mt-2 text-3xl md:text-4xl font-serif font-bold text-slate-900 leading-tight">{t(locale, 'site.tagline')}</h1>
+      <p class="mt-3 max-w-2xl text-slate-600">{t(locale, 'home.subtitle')}</p>
+    </div>
+  </section>
+  <div class="max-w-6xl mx-auto px-4 pb-10">
     <FilterBar client:load plants={plants} locale={locale} />
   </div>
 </BaseLayout>

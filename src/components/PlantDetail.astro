@@ -136,7 +136,7 @@ const hasPermacultureSection =
   </header>
 
   <section class="mt-6">
-    <h2 class="text-xl font-serif font-semibold text-slate-900">{t(locale, 'detail.description')}</h2>
+    <h2 class="leaf-heading text-xl font-serif font-semibold text-slate-900">{t(locale, 'detail.description')}</h2>
     <p class="mt-2 text-slate-800 leading-relaxed">{plant.description[locale]}</p>
   </section>
 
@@ -150,7 +150,7 @@ const hasPermacultureSection =
 
   {plant.classical_quotes.length > 0 && (
     <section class="mt-6">
-      <h2 class="text-xl font-serif font-semibold text-slate-900">{t(locale, 'detail.quotes')}</h2>
+      <h2 class="leaf-heading text-xl font-serif font-semibold text-slate-900">{t(locale, 'detail.quotes')}</h2>
       <div class="mt-2 space-y-3">
         {plant.classical_quotes.map(q => (
           <blockquote class="border-l-4 border-slate-300 pl-4 py-1 italic text-slate-700">
@@ -171,7 +171,7 @@ const hasPermacultureSection =
 
   {occurrences && (mapPoints.length > 0 || bgPoints.length > 0) && (
     <section class="mt-6">
-      <h2 class="text-xl font-serif font-semibold text-slate-900 mb-2">{t(locale, 'detail.distribution')}</h2>
+      <h2 class="leaf-heading text-xl font-serif font-semibold text-slate-900 mb-2">{t(locale, 'detail.distribution')}</h2>
       <PlantMap client:only="react" points={mapPoints} bulgariaPoints={bgPoints} plantName={plant.names.latin} locale={locale} />
     </section>
   )}
@@ -226,7 +226,7 @@ const hasPermacultureSection =
 
   {hasPermacultureSection && (
     <section class="mt-8">
-      <h2 class="text-xl font-serif font-semibold text-slate-900">
+      <h2 class="leaf-heading text-xl font-serif font-semibold text-slate-900">
         {t(locale, 'permaculture.section_title')}
       </h2>
 
@@ -353,7 +353,7 @@ const hasPermacultureSection =
   {/* === Interne Verlinkung: Mehr aus dieser Familie === */}
   {relatedPlants.length > 0 && (
     <section class="mt-10 border-t border-slate-200 pt-6">
-      <h2 class="text-xl font-serif font-semibold text-slate-900">
+      <h2 class="leaf-heading text-xl font-serif font-semibold text-slate-900">
         {t(locale, 'detail.related_family')}
         <span class="text-slate-400 font-normal"> · {plant.family[locale]}</span>
       </h2>

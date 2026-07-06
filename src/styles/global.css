@@ -3,4 +3,26 @@
 @theme {
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
   --font-serif: "Crimson Pro", Georgia, serif;
+
+  /* Warmes Off-White als Seitengrund — weiße Karten heben sich sanft ab
+     (statt hartem Reinweiß). Bewusst nur ein Hauch, kein Cream-Klischee. */
+  --color-paper: #faf9f6;
+}
+
+/* === Blatt-Marker vor Abschnitts-Überschriften (Detailseiten) ===
+   Kleines smaragdgrünes Blatt-Icon (maskiertes SVG, färbbar) — dezenter
+   botanischer Akzent, einheitlich über alle Haupt-Überschriften. */
+.leaf-heading {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+.leaf-heading::before {
+  content: "";
+  flex: none;
+  width: 0.82em;
+  height: 0.82em;
+  background-color: #059669; /* emerald-600 */
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6.05 8.05c-2.73 2.73-2.73 7.15-.02 9.88 1.47-3.4 4.09-6.24 7.36-7.93-2.77 2.34-4.71 5.61-5.39 9.32 2.6 1.23 5.8.78 7.95-1.37C19.43 14.47 20 4 20 4S9.53 4.57 6.05 8.05z'/%3E%3C/svg%3E") no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6.05 8.05c-2.73 2.73-2.73 7.15-.02 9.88 1.47-3.4 4.09-6.24 7.36-7.93-2.77 2.34-4.71 5.61-5.39 9.32 2.6 1.23 5.8.78 7.95-1.37C19.43 14.47 20 4 20 4S9.53 4.57 6.05 8.05z'/%3E%3C/svg%3E") no-repeat center / contain;
 }
