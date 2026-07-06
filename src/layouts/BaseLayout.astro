@@ -95,6 +95,9 @@ const canonicalURL = Astro.site ? new URL(currentPath, Astro.site).href : curren
 // Partner-Sprache + absolute URL der anderssprachigen Version (nur wenn altPath gesetzt).
 const altLocale: Locale = navLocale === 'de' ? 'en' : 'de';
 const altURL = altPath && Astro.site ? new URL(altPath, Astro.site).href : undefined;
+// x-default muss von DE- UND EN-Seite auf DIESELBE URL zeigen (Google-Regel).
+// Wir wählen konsistent die deutsche (Default-)Sprachversion des Clusters.
+const xDefaultURL = navLocale === 'de' ? canonicalURL : altURL;
 // Teilen-Vorschau (Open Graph / Twitter): Seiten-Bild oder Favicon-Fallback.
 const ogImagePath = imagePath ?? '/favicon.svg';
 const ogImage = Astro.site ? new URL(ogImagePath, Astro.site).href : ogImagePath;
@@ -114,7 +117,7 @@ const ogLocale = navLocale === 'de' ? 'de_DE' : 'en_US';
     <link rel="canonical" href={canonicalURL} />
     {altURL && <link rel="alternate" hreflang={locale} href={canonicalURL} />}
     {altURL && <link rel="alternate" hreflang={altLocale} href={altURL} />}
-    {altURL && <link rel="alternate" hreflang="x-default" href={canonicalURL} />}
+    {altURL && <link rel="alternate" hreflang="x-default" href={xDefaultURL} />}
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={t(locale, 'site.title')} />
     <meta property="og:locale" content={ogLocale} />
