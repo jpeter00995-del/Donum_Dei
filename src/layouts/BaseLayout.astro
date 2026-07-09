@@ -16,6 +16,10 @@ import type { Locale, UiLocale } from '@/lib/types';
 interface Props {
   locale: UiLocale;
   title?: string;
+  // Optionaler, kompletter <title>-Text (überschreibt das "{title} · Marke"-Schema).
+  // Für die Startseite: sprechender Google-Titel ("Donum Dei — Heilpflanzen-Datenbank"),
+  // während der Markenname im Kopf/Logo (site.title) unverändert bleibt.
+  fullTitle?: string;
   // Optionale, seiten-eigene Meta-Beschreibung. Ohne Wert: Fallback auf Slogan.
   description?: string;
   // Optionaler Pfad der anderssprachigen Version (z. B. "/en/plant/lavandula-angustifolia").
@@ -28,7 +32,7 @@ interface Props {
   // Für dünne Weiterleit-/Sprach-Shell-Seiten (z. B. /fr /es /bg) ohne eigenen Inhalt.
   noindex?: boolean;
 }
-const { locale, title, description, altPath, imagePath, noindex } = Astro.props;
+const { locale, title, description, altPath, imagePath, noindex, fullTitle } = Astro.props;
 // Menü-/Footer-Links zeigen in die Inhalts-Sprache (DE oder EN). Für Light-
 // Sprachen (FR/ES/BG) also auf die englischen Seiten — die Labels bleiben aber
 // in der UI-Sprache (t(locale, ...)).
@@ -87,7 +91,9 @@ const uiLangs: { code: UiLocale; label: string; href: string }[] = [
   { code: 'es', label: 'ES', href: '/es/' },
   { code: 'bg', label: 'BG', href: '/bg/' },
 ];
-const pageTitle = title ? `${title} · ${t(locale, 'site.title')}` : t(locale, 'site.title');
+const pageTitle = fullTitle
+  ? fullTitle
+  : title ? `${title} · ${t(locale, 'site.title')}` : t(locale, 'site.title');
 // Einzigartige Beschreibung je Seite; auf ~160 Zeichen gekürzt (SEO-Best-Practice).
 const rawDescription = (description ?? t(locale, 'site.tagline')).trim();
 const metaDescription =
