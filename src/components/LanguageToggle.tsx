@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import type { Locale, UiLocale } from '@/lib/types';
+import { translatePath } from '@/lib/routeMap';
 
 interface Props {
   currentLocale: UiLocale;
@@ -17,14 +18,13 @@ const LANGS: { code: UiLocale; label: string }[] = [
   { code: 'bg', label: 'Български' },
 ];
 
-function swapLocaleInPath(path: string, from: UiLocale, to: Locale): string {
-  return path.replace(new RegExp(`^/${from}(/|$)`), `/${to}$1`);
-}
-
-// Ziel-Link: DE/EN behalten die aktuelle Seite (Pfad-Swap), FR/ES/BG → Startseite.
+// Ziel-Link: DE/EN behalten die aktuelle Seite, FR/ES/BG → Startseite.
+// Die Slugs sind uebersetzt (/de/kalender ↔ /en/calendar), deshalb laeuft die
+// Umrechnung ueber routeMap statt ueber einen reinen Praefix-Tausch — der
+// landete sonst auf nicht existierenden Seiten (404).
 function hrefFor(target: UiLocale, currentLocale: UiLocale, currentPath: string): string {
   if (target === 'de' || target === 'en') {
-    return swapLocaleInPath(currentPath, currentLocale, target);
+    return translatePath(currentPath, currentLocale, target as Locale);
   }
   return `/${target}/`;
 }

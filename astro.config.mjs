@@ -13,7 +13,19 @@ export default defineConfig({
   site: 'https://donum-dei.pages.dev',
   integrations: [
     react(),
-    sitemap(),
+    // Sitemap: nur Seiten, die Google auch indexieren SOLL.
+    // Draussen bleiben:
+    //  - die Wurzel-URL (leitet per 301 auf /de/ um; Weiterleitungen gehoeren
+    //    nie in eine Sitemap und erzeugen "Duplikat"-Meldungen in der GSC)
+    //  - die Sprach-Shells /fr/ /es/ /bg/ (stehen im Layout auf noindex —
+    //    eine Seite gleichzeitig anzubieten und zu sperren ist widerspruechlich)
+    sitemap({
+      filter: (page) => {
+        const path = new URL(page).pathname;
+        if (path === '/') return false;
+        return !/^\/(fr|es|bg)\/$/.test(path);
+      },
+    }),
     pagefind(),
     AstroPWA({
       registerType: 'autoUpdate',

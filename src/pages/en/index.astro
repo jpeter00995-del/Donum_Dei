@@ -33,18 +33,115 @@ const siteLd = {
 
 <BaseLayout locale={locale} altPath="/de/" fullTitle="Donum Dei — Medicinal Plant Database">
   <script type="application/ld+json" set:html={JSON.stringify(siteLd)} />
-  <section class="relative overflow-hidden">
-    {/* soft botanical glow behind the hero */}
-    <div aria-hidden="true" class="pointer-events-none absolute inset-0 bg-gradient-to-b from-emerald-50/70 via-emerald-50/20 to-transparent"></div>
-    <div class="relative max-w-6xl mx-auto px-4 pt-8 pb-5">
-      <p class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-emerald-700">
-        {t(locale, 'home.eyebrow', { count: totalPlants })}
+  {/* === Hero „The digital herbal" === */}
+  <section class="max-w-6xl mx-auto px-4 pt-8 pb-2 md:pt-12 grid md:grid-cols-[1.15fr_.85fr] gap-8 md:gap-14 items-center">
+    <div>
+      <div class="inline-flex items-center gap-2 rounded-full border border-emerald-100 bg-emerald-50 px-3.5 py-1.5 text-[13px] font-semibold text-emerald-700">
+        <span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>
+        {totalPlants} plants · bilingual · with verified sources
+      </div>
+      <h1 class="mt-5 font-serif font-medium text-4xl md:text-5xl lg:text-[3.4rem] leading-[1.05] tracking-tight text-slate-900 text-balance">
+        The digital herbal —<br />
+        <span class="italic text-emerald-600">knowledge you can trust.</span>
+      </h1>
+      <p class="mt-5 max-w-xl text-lg leading-relaxed text-slate-600 text-pretty">
+        Medicinal herbs, houseplants and toxic plants — with profiles, a seasonal
+        calendar, a distribution map and verifiable sources. Find the right plant
+        for your question in seconds.
       </p>
-      <h1 class="mt-2 text-3xl md:text-4xl font-serif font-bold text-slate-900 leading-tight">{t(locale, 'site.tagline')}</h1>
-      <p class="mt-3 max-w-2xl text-slate-600">{t(locale, 'home.subtitle')}</p>
+
+      {/* Search → /en/search?q=… (SearchAction-compatible) */}
+      <form method="get" action="/en/search" role="search"
+        class="mt-7 flex items-center gap-2 max-w-lg rounded-2xl border border-slate-200 bg-slate-50 pl-4 pr-1.5 py-1.5 shadow-sm focus-within:border-emerald-600 transition">
+        <svg class="w-5 h-5 flex-none text-slate-400" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+          <path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+        <input type="search" name="q" autocomplete="off"
+          placeholder="Plant, symptom or Latin name…"
+          aria-label="Search plants"
+          class="flex-1 min-w-0 border-none bg-transparent outline-none text-base font-medium text-slate-900 placeholder:text-slate-400 py-2" />
+        <button type="submit"
+          class="flex-none rounded-xl bg-emerald-600 px-5 py-3 text-[15px] font-semibold text-paper hover:bg-emerald-700 transition">
+          Search
+        </button>
+      </form>
+
+      {/* Quick access: Help with… */}
+      <div class="mt-5 flex flex-wrap items-center gap-2.5">
+        <span class="text-[13.5px] font-semibold text-slate-400">🌿 Help with…</span>
+        {['Sleep', 'Cough & cold', 'Skin', 'Digestion', 'Nerves & stress', "Women's health"].map(sym => (
+          <a href="/en/help-with"
+            class="rounded-full border border-slate-200 bg-slate-50 px-3.5 py-1.5 text-[13.5px] font-medium text-slate-700 hover:border-emerald-600 hover:text-emerald-700 transition">
+            {sym}
+          </a>
+        ))}
+      </div>
+    </div>
+
+    {/* Decorative botanical panel */}
+    <figure class="hidden md:block m-0">
+      <div class="rounded-2xl border border-slate-200 bg-slate-50 p-3.5 shadow-[0_18px_40px_-28px_rgba(60,50,20,.4)]">
+        <div class="aspect-[4/5] rounded-xl grid place-items-center bg-emerald-50 overflow-hidden">
+          <svg viewBox="0 0 240 300" class="w-full h-full" role="img" aria-label="Botanical illustration">
+            <rect width="240" height="300" fill="#eef4ea" />
+            <g stroke="#2f5539" stroke-width="2.4" fill="none" stroke-linecap="round">
+              <path d="M120 270 C120 200 120 140 120 70" />
+              {[230, 200, 170, 140, 110].map((y, i) => (
+                <g>
+                  <path d={`M120 ${y} C ${90 - i * 4} ${y - 8}, ${70 - i * 3} ${y - 30}, ${64 - i * 2} ${y - 44}`} />
+                  <path d={`M120 ${y} C ${150 + i * 4} ${y - 8}, ${170 + i * 3} ${y - 30}, ${176 + i * 2} ${y - 44}`} />
+                </g>
+              ))}
+            </g>
+            <g fill="#3f6b4c">
+              {[230, 200, 170, 140, 110].map((y, i) => (
+                <g>
+                  <ellipse cx={64 - i * 2} cy={y - 46} rx="17" ry="9" transform={`rotate(-38 ${64 - i * 2} ${y - 46})`} opacity="0.85" />
+                  <ellipse cx={176 + i * 2} cy={y - 46} rx="17" ry="9" transform={`rotate(38 ${176 + i * 2} ${y - 46})`} opacity="0.85" />
+                </g>
+              ))}
+              <circle cx="120" cy="62" r="10" />
+              <circle cx="120" cy="62" r="20" fill="none" stroke="#3f6b4c" stroke-width="2.4" opacity="0.7" />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <figcaption class="mt-3 text-center font-serif italic text-sm text-slate-400">
+        Matricaria chamomilla — German chamomile
+      </figcaption>
+    </figure>
+  </section>
+
+  {/* subtle divider */}
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="h-px bg-slate-200 my-8"></div>
+  </div>
+
+  {/* === Discover cards === */}
+  <section class="max-w-6xl mx-auto px-4 pb-2">
+    <div class="grid sm:grid-cols-3 gap-5">
+      <a href="/en/help-with" class="group rounded-2xl border border-slate-200 bg-slate-50 p-6 hover:border-emerald-600 transition">
+        <div class="text-2xl">🌿</div>
+        <h3 class="mt-3 font-serif text-xl text-slate-900">Help with…</h3>
+        <p class="mt-1.5 text-sm leading-relaxed text-slate-600">Find plants by complaint — from sleep to skin.</p>
+      </a>
+      <a href="/en/map" class="group rounded-2xl border border-slate-200 bg-slate-50 p-6 hover:border-emerald-600 transition">
+        <div class="text-2xl">🗺️</div>
+        <h3 class="mt-3 font-serif text-xl text-slate-900">Distribution map</h3>
+        <p class="mt-1.5 text-sm leading-relaxed text-slate-600">Where each plant grows — interactive on the map.</p>
+      </a>
+      <a href="/en/grow-at-home" class="group rounded-2xl border border-slate-200 bg-slate-50 p-6 hover:border-emerald-600 transition">
+        <div class="text-2xl">🪴</div>
+        <h3 class="mt-3 font-serif text-xl text-slate-900">Houseplants</h3>
+        <p class="mt-1.5 text-sm leading-relaxed text-slate-600">Greenery for your home — care, light, safety.</p>
+      </a>
     </div>
   </section>
-  <div class="max-w-6xl mx-auto px-4 pb-10">
+
+  {/* === Browse the whole collection === */}
+  <div class="max-w-6xl mx-auto px-4 pt-10 pb-12">
+    <h2 class="font-serif text-2xl text-slate-900 mb-4">Browse all plants</h2>
     <FilterBar client:load plants={plants} locale={locale} />
   </div>
 </BaseLayout>

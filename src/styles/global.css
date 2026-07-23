@@ -1,12 +1,40 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
-  --font-serif: "Crimson Pro", Georgia, serif;
+  /* === Redesign „Digitales Kräuterbuch" (2026-07) ===
+     Warmes Papier + Serif-Headlines (Newsreader) + humanistische Sans
+     (Hanken Grotesk). Self-hosted via @fontsource (DSGVO, offline-APK). */
+  --font-sans: "Hanken Grotesk", system-ui, -apple-system, sans-serif;
+  --font-serif: "Newsreader", Georgia, serif;
 
-  /* Warmes Off-White als Seitengrund — weiße Karten heben sich sanft ab
-     (statt hartem Reinweiß). Bewusst nur ein Hauch, kein Cream-Klischee. */
-  --color-paper: #faf9f6;
+  /* Warmer Papiergrund — Karten (weiß/#fbf8f0) heben sich sanft ab. */
+  --color-paper: #f6f2e9;
+
+  /* Akzent-Grün site-weit auf gedämpftes Waldgrün umgestellt.
+     Tailwind-Utilities (text-/bg-/border-emerald-*) übernehmen das automatisch. */
+  --color-emerald-50:  #e7efe4;
+  --color-emerald-100: #d3e2cf;
+  --color-emerald-200: #b6cfae;
+  --color-emerald-300: #8fb283;
+  --color-emerald-400: #5c8b5f;
+  --color-emerald-500: #3f6b4c;
+  --color-emerald-600: #3f6b4c;
+  --color-emerald-700: #2f5539;
+  --color-emerald-800: #243f2a;
+  --color-emerald-900: #1c3120;
+
+  /* Neutrale Grautöne warm getönt (Olive/Sand) — passt zum Papier.
+     Slate-Utilities überall (Text, Rahmen, Flächen) folgen automatisch. */
+  --color-slate-50:  #fbf8f0;
+  --color-slate-100: #efe9db;
+  --color-slate-200: #e0d9c6;
+  --color-slate-300: #cfc8b6;
+  --color-slate-400: #8a8674;
+  --color-slate-500: #6f7360;
+  --color-slate-600: #5c6152;
+  --color-slate-700: #4a4f3f;
+  --color-slate-800: #333829;
+  --color-slate-900: #23291c;
 }
 
 /* === Blatt-Marker vor Abschnitts-Überschriften (Detailseiten) ===
