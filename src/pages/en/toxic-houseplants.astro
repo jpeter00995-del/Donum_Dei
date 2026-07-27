@@ -4,60 +4,58 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
 
 // === 2. DATA ===
-const locale = 'de' as const;
+const locale = 'en' as const;
 const all = loadAllPlants();
-// Giftige Zimmerpflanzen = zimmertaugliche Pflanzen mit Toxizität.
 const toxic = all
   .filter(p => p.indoor_growing?.suitable === true &&
     (p.safety?.pet_toxic === true || p.safety?.toxicity_level === 'toxic'))
-  .sort((a, b) => a.names.de.localeCompare(b.names.de, 'de'));
-// Ungiftige zimmertaugliche Alternativen.
+  .sort((a, b) => a.names.en.localeCompare(b.names.en, 'en'));
 const safe = all
   .filter(p => p.indoor_growing?.suitable === true &&
     p.safety?.pet_toxic === false && p.safety?.toxicity_level !== 'toxic')
-  .sort((a, b) => a.names.de.localeCompare(b.names.de, 'de'))
+  .sort((a, b) => a.names.en.localeCompare(b.names.en, 'en'))
   .slice(0, 12);
 
 function reason(p: typeof all[number]): string {
-  const w = p.safety?.warnings?.de ?? '';
+  const w = p.safety?.warnings?.en ?? '';
   const first = w.split(/(?<=[.!])\s/)[0] ?? '';
   return first.length > 150 ? first.slice(0, 147).trimEnd() + '…' : first;
 }
 function badge(p: typeof all[number]) {
   return p.safety?.toxicity_level === 'toxic'
-    ? { t: 'Giftig', c: 'bg-red-100 text-red-700 border-red-200' }
-    : { t: 'Vorsicht', c: 'bg-amber-100 text-amber-800 border-amber-200' };
+    ? { t: 'Toxic', c: 'bg-red-100 text-red-700 border-red-200' }
+    : { t: 'Caution', c: 'bg-amber-100 text-amber-800 border-amber-200' };
 }
 
-const title = 'Giftige Zimmerpflanzen – Liste & sichere Alternativen';
+const title = 'Toxic Houseplants – List & Safe Alternatives';
 const description =
-  `Welche Zimmerpflanzen sind giftig? ${toxic.length} verbreitete Zimmerpflanzen mit ` +
-  `Giftwirkung für Menschen und Haustiere – mit ungiftigen Alternativen.`;
+  `Which houseplants are toxic? ${toxic.length} common houseplants that are poisonous ` +
+  `to people or pets – with non-toxic alternatives.`;
 ---
 
-<BaseLayout locale={locale} title={title} description={description} altPath="/en/toxic-houseplants/">
+<BaseLayout locale={locale} title={title} description={description} altPath="/de/giftige-zimmerpflanzen/">
   <section class="max-w-6xl mx-auto px-4 pt-8 pb-12">
-    <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">Giftige Zimmerpflanzen</h1>
+    <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">Toxic Houseplants</h1>
     <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-2 text-pretty">
-      Manche der beliebtesten Zimmerpflanzen sind giftig – für Kinder, Katzen oder Hunde.
-      Diese Übersicht zeigt {toxic.length} verbreitete Zimmerpflanzen mit Giftwirkung aus
-      unserer Datenbank, jeweils mit dem Grund. Darunter finden Sie ungiftige Alternativen.
+      Some of the most popular houseplants are toxic – to children, cats or dogs. This
+      overview shows {toxic.length} common houseplants with a toxic effect from our
+      database, each with the reason. Non-toxic alternatives follow below.
     </p>
     <p class="text-sm text-slate-400 mb-8">
-      Bei Verdacht auf eine Vergiftung sofort ärztlichen bzw. tierärztlichen Rat einholen.
-      Diese Seite ersetzt keine medizinische Beratung.
+      If poisoning is suspected, seek medical or veterinary advice immediately. This page
+      is not a substitute for professional advice.
     </p>
 
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {toxic.map(p => (
-        <a href={`/de/plant/${p.slug}/`}
+        <a href={`/en/plant/${p.slug}/`}
           class="group flex gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3 hover:border-emerald-600 transition">
-          <img src={`/images/plants/${p.image.filename}`} alt={p.image.alt?.de ?? p.names.de}
+          <img src={`/images/plants/${p.image.filename}`} alt={p.image.alt?.en ?? p.names.en}
             width="72" height="72" loading="lazy"
             class="flex-none rounded-xl object-cover bg-slate-100" style="width:72px;height:72px;" />
           <div class="min-w-0">
             <div class="flex items-center gap-2 flex-wrap">
-              <span class="font-serif text-slate-900 leading-tight">{p.names.de}</span>
+              <span class="font-serif text-slate-900 leading-tight">{p.names.en}</span>
               <span class:list={['rounded-full border px-2 py-0.5 text-[11px] font-semibold', badge(p).c]}>{badge(p).t}</span>
             </div>
             <div class="text-xs italic text-slate-400">{p.names.latin}</div>
@@ -67,19 +65,19 @@ const description =
       ))}
     </div>
 
-    <h2 class="font-serif text-2xl text-slate-900 mt-12 mb-3">Ungiftige Zimmerpflanzen als Alternative</h2>
+    <h2 class="font-serif text-2xl text-slate-900 mt-12 mb-3">Non-toxic houseplants instead</h2>
     <div class="flex flex-wrap gap-2.5">
       {safe.map(p => (
-        <a href={`/de/plant/${p.slug}/`}
+        <a href={`/en/plant/${p.slug}/`}
           class="rounded-full border border-emerald-100 bg-emerald-50 px-4 py-2 text-sm font-medium text-emerald-700 hover:border-emerald-600 transition">
-          {p.names.de}
+          {p.names.en}
         </a>
       ))}
     </div>
 
     <p class="mt-10 text-sm text-slate-500">
-      Verwandt: <a href="/de/giftige-pflanzen-katzen-hunde" class="text-emerald-700 hover:underline">Giftige Pflanzen für Katzen &amp; Hunde</a> ·
-      <a href="/de/zuhause-anbauen" class="text-emerald-700 hover:underline">alle Zimmerpflanzen</a>
+      Related: <a href="/en/toxic-plants-cats-dogs" class="text-emerald-700 hover:underline">Plants toxic to cats &amp; dogs</a> ·
+      <a href="/en/grow-at-home" class="text-emerald-700 hover:underline">all houseplants</a>
     </p>
   </section>
 </BaseLayout>

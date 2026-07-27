@@ -1,0 +1,86 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { loadAllPlants } from '@/lib/loadPlants';
+
+// === 2. DATA ===
+const locale = 'en' as const;
+const all = loadAllPlants();
+const toxic = all
+  .filter(p => p.safety?.pet_toxic === true)
+  .sort((a, b) => a.names.en.localeCompare(b.names.en, 'en'));
+const safe = all
+  .filter(p => p.safety?.pet_toxic === false && p.indoor_growing?.suitable === true)
+  .sort((a, b) => a.names.en.localeCompare(b.names.en, 'en'))
+  .slice(0, 12);
+
+function reason(p: typeof all[number]): string {
+  const w = p.safety?.warnings?.en ?? '';
+  const first = w.split(/(?<=[.!])\s/)[0] ?? '';
+  return first.length > 150 ? first.slice(0, 147).trimEnd() + '…' : first;
+}
+function badge(p: typeof all[number]) {
+  return p.safety?.toxicity_level === 'toxic'
+    ? { t: 'Toxic', c: 'bg-red-100 text-red-700 border-red-200' }
+    : { t: 'Caution', c: 'bg-amber-100 text-amber-800 border-amber-200' };
+}
+
+const title = 'Plants Toxic to Cats & Dogs – List';
+const description =
+  `Which plants are toxic to cats and dogs? ${toxic.length} pet-toxic plants with the ` +
+  `toxicity and reason – plus pet-safe alternatives for your home.`;
+---
+
+<BaseLayout locale={locale} title={title} description={description} altPath="/de/giftige-pflanzen-katzen-hunde/">
+  <section class="max-w-6xl mx-auto px-4 pt-8 pb-12">
+    <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">Plants Toxic to Cats &amp; Dogs</h1>
+    <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-2 text-pretty">
+      Many popular house and garden plants are toxic to cats and dogs – often a single
+      nibbled leaf is enough. This overview lists {toxic.length} plants from our database
+      that are considered pet-toxic, each with its toxicity and the reason. Pet-safe
+      alternatives follow further down.
+    </p>
+    <p class="text-sm text-slate-400 mb-8">
+      In an emergency (suspected poisoning), contact a vet or poison-control line
+      immediately. This page is not a substitute for veterinary advice.
+    </p>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {toxic.map(p => (
+        <a href={`/en/plant/${p.slug}/`}
+          class="group flex gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3 hover:border-emerald-600 transition">
+          <img src={`/images/plants/${p.image.filename}`} alt={p.image.alt?.en ?? p.names.en}
+            width="72" height="72" loading="lazy"
+            class="flex-none rounded-xl object-cover bg-slate-100" style="width:72px;height:72px;" />
+          <div class="min-w-0">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="font-serif text-slate-900 leading-tight">{p.names.en}</span>
+              <span class:list={['rounded-full border px-2 py-0.5 text-[11px] font-semibold', badge(p).c]}>{badge(p).t}</span>
+            </div>
+            <div class="text-xs italic text-slate-400">{p.names.latin}</div>
+            <p class="mt-1 text-[13px] leading-snug text-slate-600 line-clamp-3">{reason(p)}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <h2 class="font-serif text-2xl text-slate-900 mt-12 mb-3">Pet-safe alternatives</h2>
+    <p class="max-w-2xl text-slate-600 mb-5">
+      These houseplants are considered non-toxic to cats and dogs – a good choice for homes with pets.
+    </p>
+    <div class="flex flex-wrap gap-2.5">
+      {safe.map(p => (
+        <a href={`/en/plant/${p.slug}/`}
+          class="rounded-full border border-emerald-100 bg-emerald-50 px-4 py-2 text-sm font-medium text-emerald-700 hover:border-emerald-600 transition">
+          {p.names.en}
+        </a>
+      ))}
+    </div>
+
+    <p class="mt-10 text-sm text-slate-500">
+      Explore: <a href="/en/grow-at-home" class="text-emerald-700 hover:underline">Houseplants</a> ·
+      <a href="/en/map" class="text-emerald-700 hover:underline">Distribution map</a> ·
+      <a href="/en/" class="text-emerald-700 hover:underline">all plants</a>
+    </p>
+  </section>
+</BaseLayout>
