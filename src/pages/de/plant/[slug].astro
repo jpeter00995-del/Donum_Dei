@@ -12,8 +12,13 @@ export function getStaticPaths() {
 
 const { plant } = Astro.props;
 const locale = 'de' as const;
+// SEO-Titel: Heilpflanzen mit Anwendung → "Wirkung & Anwendung" (hohe Suchnachfrage),
+// sonst neutraler "Steckbrief". Meta-Beschreibung = eigener Original-Text (nicht Teaser).
+const hasUses = Array.isArray(plant.uses) && plant.uses.length > 0;
+const seoTitle = `${plant.names[locale]}${hasUses ? ': Wirkung & Anwendung' : ' – Steckbrief'}`;
+const seoDescription = plant.description?.[locale] ?? plant.teaser[locale];
 ---
 
-<BaseLayout locale={locale} title={plant.names[locale]} description={plant.teaser[locale]} altPath={`/en/plant/${plant.slug}/`} imagePath={`/images/plants/${plant.image.filename}`}>
+<BaseLayout locale={locale} title={seoTitle} description={seoDescription} altPath={`/en/plant/${plant.slug}/`} imagePath={`/images/plants/${plant.image.filename}`}>
   <PlantDetail plant={plant} locale={locale} />
 </BaseLayout>

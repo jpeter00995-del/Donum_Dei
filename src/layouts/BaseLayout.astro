@@ -50,6 +50,7 @@ const navGroups: { label: string; items: { href: string; label: string; featured
       { href: navLocale === 'de' ? '/de/hilfe-bei' : '/en/help-with', label: t(locale, 'nav.symptoms'), featured: true },
       { href: navLocale === 'de' ? '/de/karte' : '/en/map', label: t(locale, 'nav.map') },
       { href: navLocale === 'de' ? '/de/zuhause-anbauen' : '/en/grow-at-home', label: t(locale, 'nav.indoor') },
+      ...(navLocale === 'de' ? [{ href: '/de/giftige-pflanzen-katzen-hunde', label: 'Giftige Pflanzen' }] : []),
       { href: navLocale === 'de' ? '/de/pilze' : '/en/mushrooms', label: t(locale, 'nav.mushrooms') },
       { href: navLocale === 'de' ? '/de/rauschpflanzen' : '/en/psychoactive', label: t(locale, 'nav.controlled') },
     ],

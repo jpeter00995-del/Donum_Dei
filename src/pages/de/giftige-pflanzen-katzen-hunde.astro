@@ -1,0 +1,93 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { loadAllPlants } from '@/lib/loadPlants';
+
+// === 2. DATA ===
+const locale = 'de' as const;
+const all = loadAllPlants();
+// Haustiergiftige Pflanzen (strukturiertes Feld safety.pet_toxic).
+const toxic = all
+  .filter(p => p.safety?.pet_toxic === true)
+  .sort((a, b) => a.names.de.localeCompare(b.names.de, 'de'));
+// Sichere Alternativen: haustierfreundliche Zimmerpflanzen.
+const safe = all
+  .filter(p => p.safety?.pet_toxic === false && p.indoor_growing?.suitable === true)
+  .sort((a, b) => a.names.de.localeCompare(b.names.de, 'de'))
+  .slice(0, 12);
+
+// Kurzer Grund = erster Satz des Sicherheitshinweises.
+function reason(p: typeof all[number]): string {
+  const w = p.safety?.warnings?.de ?? '';
+  const first = w.split(/(?<=[.!])\s/)[0] ?? '';
+  return first.length > 150 ? first.slice(0, 147).trimEnd() + '…' : first;
+}
+function badge(p: typeof all[number]) {
+  return p.safety?.toxicity_level === 'toxic'
+    ? { t: 'Giftig', c: 'bg-red-100 text-red-700 border-red-200' }
+    : { t: 'Vorsicht', c: 'bg-amber-100 text-amber-800 border-amber-200' };
+}
+
+const title = 'Giftige Pflanzen für Katzen & Hunde – Liste';
+const description =
+  `Welche Pflanzen sind giftig für Katzen und Hunde? ${toxic.length} haustiergiftige ` +
+  `Pflanzen mit Giftigkeit und Symptomen – plus sichere Alternativen für Ihr Zuhause.`;
+---
+
+<BaseLayout locale={locale} title={title} description={description}>
+  <section class="max-w-6xl mx-auto px-4 pt-8 pb-12">
+    <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">
+      Giftige Pflanzen für Katzen &amp; Hunde
+    </h1>
+    <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-2 text-pretty">
+      Viele beliebte Zimmer- und Gartenpflanzen sind für Katzen und Hunde giftig – oft
+      genügt schon das Anknabbern eines Blattes. Diese Übersicht listet
+      {toxic.length} Pflanzen aus unserer Datenbank, die als haustiergiftig gelten,
+      mit der jeweiligen Giftigkeit und dem Grund. Weiter unten finden Sie
+      haustierfreundliche Alternativen.
+    </p>
+    <p class="text-sm text-slate-400 mb-8">
+      Im Notfall (Verdacht auf Vergiftung) sofort Tierärztin/Tierarzt oder die
+      Giftnotruf-Zentrale kontaktieren. Diese Seite ersetzt keine tierärztliche Beratung.
+    </p>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {toxic.map(p => (
+        <a href={`/de/plant/${p.slug}/`}
+          class="group flex gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3 hover:border-emerald-600 transition">
+          <img src={`/images/plants/${p.image.filename}`} alt={p.image.alt?.de ?? p.names.de}
+            width="72" height="72" loading="lazy"
+            class="w-18 h-18 flex-none rounded-xl object-cover bg-slate-100" style="width:72px;height:72px;" />
+          <div class="min-w-0">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="font-serif text-slate-900 leading-tight">{p.names.de}</span>
+              <span class:list={['rounded-full border px-2 py-0.5 text-[11px] font-semibold', badge(p).c]}>{badge(p).t}</span>
+            </div>
+            <div class="text-xs italic text-slate-400">{p.names.latin}</div>
+            <p class="mt-1 text-[13px] leading-snug text-slate-600 line-clamp-3">{reason(p)}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <h2 class="font-serif text-2xl text-slate-900 mt-12 mb-3">Sichere Alternativen für Haustierhaushalte</h2>
+    <p class="max-w-2xl text-slate-600 mb-5">
+      Diese Zimmerpflanzen gelten als ungiftig für Katzen und Hunde – eine gute Wahl,
+      wenn Tiere im Haushalt mitwohnen.
+    </p>
+    <div class="flex flex-wrap gap-2.5">
+      {safe.map(p => (
+        <a href={`/de/plant/${p.slug}/`}
+          class="rounded-full border border-emerald-100 bg-emerald-50 px-4 py-2 text-sm font-medium text-emerald-700 hover:border-emerald-600 transition">
+          {p.names.de}
+        </a>
+      ))}
+    </div>
+
+    <p class="mt-10 text-sm text-slate-500">
+      Mehr entdecken: <a href="/de/zuhause-anbauen" class="text-emerald-700 hover:underline">Zimmerpflanzen</a> ·
+      <a href="/de/karte" class="text-emerald-700 hover:underline">Verbreitungskarte</a> ·
+      <a href="/de/" class="text-emerald-700 hover:underline">alle Pflanzen</a>
+    </p>
+  </section>
+</BaseLayout>

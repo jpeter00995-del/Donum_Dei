@@ -54,7 +54,7 @@ const jsonLd = {
     {
       '@type': 'Article',
       headline: plant.names[locale],
-      description: plant.teaser[locale] ?? plant.description[locale],
+      description: plant.description[locale] ?? plant.teaser[locale],
       image: plantImageUrl,
       inLanguage: locale,
       mainEntityOfPage: pageUrl,
