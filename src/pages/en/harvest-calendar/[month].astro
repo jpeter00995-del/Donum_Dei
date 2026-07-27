@@ -1,0 +1,78 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { loadAllPlants } from '@/lib/loadPlants';
+
+// === 2. CONSTANTS ===
+const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const SLUGS = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+const DE_SLUGS = ['januar','februar','maerz','april','mai','juni','juli','august','september','oktober','november','dezember'];
+
+export function getStaticPaths() {
+  // Slugs lokal (Astro wertet getStaticPaths isoliert aus — Top-Level-Konstanten nicht sichtbar).
+  const slugs = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+  return slugs.map((slug, i) => ({ params: { month: slug }, props: { monthIndex: i } }));
+}
+
+const { monthIndex } = Astro.props;
+const locale = 'en' as const;
+const monthNum = monthIndex + 1;
+const monthName = MONTHS[monthIndex];
+const all = loadAllPlants();
+const plants = all
+  .filter(p => Array.isArray(p.season?.active_months) && p.season!.active_months.includes(monthNum))
+  .sort((a, b) => a.names.en.localeCompare(b.names.en, 'en'));
+
+const title = `Herbs to Harvest in ${monthName}`;
+const description =
+  `Which medicinal plants can you harvest in ${monthName}? ${plants.length} plants from our ` +
+  `database are in season in ${monthName} – with the part used and a full profile.`;
+---
+
+<BaseLayout locale={locale} title={title} description={description} altPath={`/de/heilpflanzen-ernten/${DE_SLUGS[monthIndex]}/`}>
+  <section class="max-w-6xl mx-auto px-4 pt-8 pb-12">
+    <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">Herbs to Harvest in {monthName}</h1>
+    <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-6 text-pretty">
+      In {monthName}, {plants.length} medicinal plants from our database are in season or ready
+      to harvest. This overview shows which plant to gather in {monthName} and which part –
+      tap for a profile, active compounds and safety.
+    </p>
+
+    <div class="flex flex-wrap gap-1.5 mb-8">
+      {SLUGS.map((s, i) => (
+        <a href={`/en/harvest-calendar/${s}/`}
+          class:list={['rounded-lg px-3 py-1.5 text-sm font-medium transition',
+            i === monthIndex ? 'bg-emerald-600 text-paper' : 'border border-slate-200 bg-slate-50 text-slate-700 hover:border-emerald-600']}>
+          {MONTHS[i]}
+        </a>
+      ))}
+    </div>
+
+    {plants.length === 0 ? (
+      <p class="text-slate-500">No plants are currently listed for {monthName}.</p>
+    ) : (
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {plants.map(p => (
+          <a href={`/en/plant/${p.slug}/`}
+            class="group flex gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3 hover:border-emerald-600 transition">
+            <img src={`/images/plants/${p.image.filename}`} alt={p.image.alt?.en ?? p.names.en}
+              width="72" height="72" loading="lazy"
+              class="flex-none rounded-xl object-cover bg-slate-100" style="width:72px;height:72px;" />
+            <div class="min-w-0">
+              <span class="font-serif text-slate-900 leading-tight">{p.names.en}</span>
+              <div class="text-xs italic text-slate-400">{p.names.latin}</div>
+              {p.season?.harvest_part?.en && (
+                <p class="mt-1 text-[13px] text-emerald-700">🌿 {p.season.harvest_part.en}</p>
+              )}
+            </div>
+          </a>
+        ))}
+      </div>
+    )}
+
+    <p class="mt-10 text-sm text-slate-500">
+      More: <a href="/en/calendar" class="text-emerald-700 hover:underline">Seasonal calendar</a> ·
+      <a href="/en/" class="text-emerald-700 hover:underline">all plants</a>
+    </p>
+  </section>
+</BaseLayout>

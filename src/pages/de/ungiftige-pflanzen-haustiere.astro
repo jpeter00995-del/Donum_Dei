@@ -1,0 +1,72 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { loadAllPlants } from '@/lib/loadPlants';
+
+// === 2. DATA ===
+const locale = 'de' as const;
+const all = loadAllPlants();
+// Haustiersicher = ausdrücklich nicht haustiergiftig UND nicht generell giftig.
+const safe = all
+  .filter(p => p.safety?.pet_toxic === false && p.safety?.toxicity_level !== 'toxic')
+  .sort((a, b) => a.names.de.localeCompare(b.names.de, 'de'));
+const indoorSafe = safe.filter(p => p.indoor_growing?.suitable === true);
+
+const title = 'Ungiftige Pflanzen für Katzen & Hunde';
+const description =
+  `Welche Pflanzen sind ungiftig für Katzen und Hunde? ${safe.length} haustiersichere ` +
+  `Pflanzen aus unserer Datenbank – ${indoorSafe.length} davon als Zimmerpflanze geeignet.`;
+---
+
+<BaseLayout locale={locale} title={title} description={description} altPath="/en/pet-safe-plants/">
+  <section class="max-w-6xl mx-auto px-4 pt-8 pb-12">
+    <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">Ungiftige Pflanzen für Katzen &amp; Hunde</h1>
+    <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-2 text-pretty">
+      Du suchst Pflanzen, die für deine Haustiere unbedenklich sind? Diese {safe.length}
+      Pflanzen aus unserer Datenbank gelten als nicht giftig für Katzen und Hunde –
+      {indoorSafe.length} davon eignen sich als Zimmerpflanze. Tippe auf eine Pflanze für Details.
+    </p>
+    <p class="text-sm text-slate-400 mb-8">
+      Auch bei ungiftigen Pflanzen kann das Anknabbern in größeren Mengen zu Magen-Darm-Reizungen
+      führen. Im Zweifel tierärztlichen Rat einholen.
+    </p>
+
+    {indoorSafe.length > 0 && (
+      <>
+        <h2 class="font-serif text-2xl text-slate-900 mb-3">Als Zimmerpflanze geeignet</h2>
+        <div class="flex flex-wrap gap-2.5 mb-10">
+          {indoorSafe.map(p => (
+            <a href={`/de/plant/${p.slug}/`}
+              class="rounded-full border border-emerald-100 bg-emerald-50 px-4 py-2 text-sm font-medium text-emerald-700 hover:border-emerald-600 transition">
+              {p.names.de}
+            </a>
+          ))}
+        </div>
+      </>
+    )}
+
+    <h2 class="font-serif text-2xl text-slate-900 mb-4">Alle haustiersicheren Pflanzen</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {safe.map(p => (
+        <a href={`/de/plant/${p.slug}/`}
+          class="group flex gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3 hover:border-emerald-600 transition">
+          <img src={`/images/plants/${p.image.filename}`} alt={p.image.alt?.de ?? p.names.de}
+            width="72" height="72" loading="lazy"
+            class="flex-none rounded-xl object-cover bg-slate-100" style="width:72px;height:72px;" />
+          <div class="min-w-0">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="font-serif text-slate-900 leading-tight">{p.names.de}</span>
+              <span class="rounded-full border border-emerald-200 bg-emerald-50 px-2 py-0.5 text-[11px] font-semibold text-emerald-700">ungiftig</span>
+            </div>
+            <div class="text-xs italic text-slate-400">{p.names.latin}</div>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <p class="mt-10 text-sm text-slate-500">
+      Verwandt: <a href="/de/giftige-pflanzen-katzen-hunde" class="text-emerald-700 hover:underline">Giftige Pflanzen für Katzen &amp; Hunde</a> ·
+      <a href="/de/zuhause-anbauen" class="text-emerald-700 hover:underline">Zimmerpflanzen</a>
+    </p>
+  </section>
+</BaseLayout>
