@@ -25,7 +25,11 @@ Project-specific TODOs. Cross-project items go to `Claude/_TODO.md`.
       erledigt 2026-08-10 (Sitzung 33): vollständige ASPCA-Liste abgeglichen,
       11 Falsch-Einstufungen gedreht, Liste in „belegt" (24) und „ohne externe
       Prüfung" (149) geteilt. Siehe `HAUSTIER_BEFUND_2026-08-10.md`
-- [ ] Eigene Domain donum-dei.de
+- [ ] **Eigene Domain donum-dei.de kaufen (Maikel)** — geprüft 2026-08-10:
+      frei, ~10–15 €/Jahr. Wichtigster offener Punkt: die Seite ist bei Bing
+      und DuckDuckGo mit 0 Treffern nicht indexiert, und ohne eigene Domain
+      lohnt kein Linkaufbau. Danach macht der Agent Cloudflare-Einbindung,
+      `site`-Umstellung und Weiterleitung
 
 ### Neu offen (aus Sitzung 33)
 
@@ -33,9 +37,13 @@ Project-specific TODOs. Cross-project items go to `Claude/_TODO.md`.
       Giftzentrale Bonn. Ergebnis: keine der beiden hat eine Ungiftig-Liste,
       belegen lässt sich damit nichts. 5 weitere Falsch-Einstufungen gefunden,
       30 Pflanzen tragen jetzt einen Tiermedizin-Hinweis
-- [ ] 5 Grenzfälle entscheiden: Beifuß, Walnuss, Wiesen-Schlüsselblume und
-      2 weitere — die ASPCA führt jeweils eine andere Art derselben Gattung
-      als giftig, zur konkreten Art fehlt eine Aussage
+- [x] Gattungs-Grenzfälle erledigt (2026-08-10): Beifuß, Walnuss und
+      Schlüsselblume tragen jetzt einen Satz „Zur Gattung: …", der die
+      gelistete Nachbar-Art nennt, ohne ein Urteil über die eigene Art zu
+      fällen. Bärlauch und Rhabarber wurden vorher schon umgestuft
+- [ ] Startseite ist mit 660 KB weiterhin schwer (273 Kacheln auf einmal).
+      68 KB kamen 2026-08-10 raus, mehr geht nur mit Seitenblättern oder
+      Nachladen — das ändert die Bedienung, daher Maikels Entscheidung
 
 ---
 

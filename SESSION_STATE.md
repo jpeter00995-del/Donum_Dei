@@ -81,6 +81,45 @@ zeigen nur noch Belegtes.
 
 Vollständiger Bericht: `HAUSTIER_BEFUND_2026-08-10.md`.
 
+## ⚠️ BEFUND 2026-08-10: DIE SEITE IST NICHT INDEXIERT
+
+Gemessen, nicht vermutet:
+
+```
+Bing        site:donum-dei.pages.dev   0 Treffer
+DuckDuckGo  site:donum-dei.pages.dev   0 Treffer
+```
+
+Technisch liegt es nicht an der Seite — das wurde geprüft:
+
+```
+robots.txt          erlaubt alles ausser /pagefind/
+Sitemap             678 URLs, eingereicht (Maikel, 2026-08-10)
+Startseite          kein noindex, canonical korrekt
+hreflang            de / en / x-default vorhanden
+OG- und Twitter-Tags vorhanden
+tote interne Links  0   (scripts/link_check.py über 707 Seiten)
+fehlende Bilder     0
+Bilder              298 Stück, 28 MB, groesstes 379 KB
+```
+
+Es fehlt das, was Suchmaschinen zum Anfangen brauchen: **eine eigene Domain
+und die ersten Verweise von aussen.** `*.pages.dev` steht auf der Public
+Suffix List — jede Unteradresse zaehlt als eigene Seite ohne jedes Vertrauen,
+und auf donum-dei.pages.dev zeigt bisher kein einziger fremder Link.
+
+**donum-dei.de ist frei** (geprüft 2026-08-10: kein DNS-Eintrag, DENIC-RDAP
+404). Kosten ~10–15 € im Jahr. Solange die Domain fehlt, laufen alle
+Verlinkungs-Bemühungen auf eine Adresse, die spaeter weggeworfen wird.
+
+Naechster sinnvoller Schritt in dieser Reihenfolge:
+1. Maikel kauft donum-dei.de
+2. Cloudflare Custom Domain einrichten, `site` in `astro.config.mjs` umstellen,
+   Weiterleitung von pages.dev, neue GSC-Property (Agent kann alles ausser Kauf
+   und GSC-Anmeldung)
+3. Erste Verweise von aussen aufbauen — Texte kann der Agent vorbereiten,
+   veroeffentlichen muss Maikel
+
 ## CONTEXT (Sitzung 32, 2026-08-10)
 
 Google hat die Seite fuer AdSense abgelehnt: „Richtlinienverstoesse —
