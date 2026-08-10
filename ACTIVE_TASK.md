@@ -12,19 +12,34 @@
 - ✅ Haustier-Giftigkeit der 32 Zimmerpflanzen an der ASPCA geprueft
 - ⏳ Antrag stellen — blockiert
 
-## Blocker
+## Blocker (Stand 2026-08-10, 13:50)
 
-Die Chrome-Erweiterung hat fuer `google.com` keine Freigabe:
+Zwei Dinge fehlen, beide kann nur Maikel erledigen:
+
+**1. Chrome ist nicht bei AdSense angemeldet.**
+Der geoeffnete Tab ist auf die Anmeldeseite umgeleitet worden:
+
+```
+https://adsense.google.com/adsense/login?continue=...pub-5000356216672097/sites
+```
+
+Maikel muss sich mit dem Google-Konto anmelden, dem die Publisher-ID
+**pub-5000356216672097** gehoert (steht so in `public/ads.txt`).
+Vermutlich `jpeter00995@gmail.com` — dasselbe Konto wie bei Cloudflare und
+in der Search Console.
+
+**Der Agent meldet sich NICHT selbst an und gibt keine Passwoerter ein.**
+
+**2. Die Chrome-Erweiterung hat keine Freigabe fuer die Google-Domains.**
 
 ```
 Permission denied for reading pages on this domain
 ```
 
-Ein Tab mit AdSense ist in Maikels Chrome bereits geoeffnet
-(`https://www.google.com/adsense/new/u/0/pub-5000356216672097/sites`).
-
-**Was Maikel tun muss:** In diesem Tab oben rechts auf das Claude-Symbol
-klicken und den Zugriff auf die Seite erlauben.
+Nach der Anmeldung im Tab oben rechts auf das Claude-Symbol klicken und
+den Zugriff auf die Seite erlauben. Das gilt pro Domain — es kann sein,
+dass sowohl `google.com` als auch `adsense.google.com` freigegeben werden
+muessen.
 
 ## Current Step
 
