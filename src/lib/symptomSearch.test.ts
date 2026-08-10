@@ -230,3 +230,80 @@ describe('suggestSymptoms', () => {
     expect(results[0].symptom.id).toBe('kopfschmerzen');
   });
 });
+
+// === 9. GIFTIGE UND KONTROLLIERTE ARTEN GEHOEREN NICHT IN EMPFEHLUNGSLISTEN ===
+// Hintergrund 2026-08-10: Die Symptomseiten listeten Gefleckten Schierling
+// unter "Schlafstoerungen" und Wasserschierling unter "Gelenkschmerzen".
+describe('Empfehlungs-Filter (giftig / kontrolliert)', () => {
+  const giftig = makePlant({
+    slug: 'giftig',
+    latin: 'Zzz toxica',
+    safety: { warnings: { de: '', en: '' }, external_only: false, toxicity_level: 'toxic' },
+    uses: [
+      {
+        form: 'tea',
+        target: ['respiratory'],
+        internal_external: 'internal',
+        description: { de: 'Historisch bei Erkältung', en: 'Historically for colds' },
+        source_ids: ['src_1'],
+      },
+    ],
+  });
+
+  const kontrolliert = makePlant({
+    slug: 'kontrolliert',
+    latin: 'Zzz controlata',
+    legal_status: { controlled: true },
+    uses: [
+      {
+        form: 'tea',
+        target: ['respiratory'],
+        internal_external: 'internal',
+        description: { de: 'Bei Erkältung', en: 'For colds' },
+        source_ids: ['src_1'],
+      },
+    ],
+  } as never);
+
+  it('schliesst toxicity_level "toxic" aus', () => {
+    const res = findPlantsForSymptom('erkaeltung', [giftig, plantRespiratory]);
+    expect(res.map(r => r.plant.slug)).toEqual(['plant-resp']);
+  });
+
+  it('schliesst rechtlich kontrollierte Arten aus', () => {
+    const res = findPlantsForSymptom('erkaeltung', [kontrolliert, plantRespiratory]);
+    expect(res.map(r => r.plant.slug)).toEqual(['plant-resp']);
+  });
+
+  it('liefert eine leere Liste, wenn nur gesperrte Arten passen', () => {
+    expect(findPlantsForSymptom('erkaeltung', [giftig, kontrolliert])).toEqual([]);
+  });
+
+  it('keine einzige echte Pflanze auf einer Symptomseite ist giftig oder kontrolliert', () => {
+    const alle = loadAllPlants();
+    for (const s of getAllSymptoms()) {
+      for (const { plant } of findPlantsForSymptom(s.id, alle, 40)) {
+        expect(plant.safety?.toxicity_level, `${s.id} / ${plant.slug}`).not.toBe('toxic');
+        expect(plant.legal_status?.controlled, `${s.id} / ${plant.slug}`).not.toBe(true);
+      }
+    }
+  });
+});
+
+// === 10. BEGRUENDUNG STAMMT AUS DER PASSENDEN ANWENDUNG ===
+describe('reason', () => {
+  it('nimmt den Text der Anwendung, deren target passt', () => {
+    const res = findPlantsForSymptom('erkaeltung', [plantRespiratory]);
+    expect(res[0].reason?.de).toBe('Hilft bei Erkältung und Husten');
+  });
+
+  it('bleibt undefiniert, wenn nur der Teaser getroffen hat', () => {
+    const nurTeaser = makePlant({
+      slug: 'nur-teaser',
+      latin: 'Bbb teaseria',
+      teaser: { de: 'Bei Erkältung beliebt.', en: 'Popular for colds.' },
+    });
+    const res = findPlantsForSymptom('erkaeltung', [nurTeaser]);
+    expect(res[0].reason).toBeUndefined();
+  });
+});

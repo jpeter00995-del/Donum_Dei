@@ -30,6 +30,13 @@ export interface SymptomMatch {
   score: number;
   /** Distinct terms that contributed to the match. */
   matched_terms: string[];
+  /**
+   * Text of the concrete use that caused the match — the honest answer to
+   * "why is this plant listed here?". Undefined when only the teaser or the
+   * general description matched.
+   * (Begruendung aus der passenden Anwendung statt erstem Beschreibungssatz.)
+   */
+  reason?: { de: string; en: string };
 }
 
 interface SymptomsFile {
@@ -81,6 +88,28 @@ export function getSymptomDisclaimer(locale: 'de' | 'en'): string {
 // === 5. PUBLIC API — PLANT MATCHING ===
 
 /**
+ * Darf eine Pflanze in einer "Heilpflanzen gegen …"-Liste stehen?
+ *
+ * Hintergrund (2026-08-10): Die Symptomseiten listeten 40 der 52 als `toxic`
+ * eingestuften Arten auf — unter anderem Gefleckten Schierling unter
+ * "Schlafstoerungen" und Wasserschierling unter "Gelenkschmerzen", jeweils
+ * ohne Warnung. Die Detailseiten trennen historische Giftanwendungen sauber
+ * ab (siehe toxicUses.ts); in der Empfehlungsliste fehlte diese Trennung.
+ *
+ * Ausgeschlossen sind deshalb:
+ *   - `safety.toxicity_level === 'toxic'`
+ *   - rechtlich kontrollierte Arten (`legal_status.controlled === true`)
+ *
+ * Beide bleiben ueber Suche, Register und ihre eigene Detailseite erreichbar —
+ * sie werden nur nicht mehr als Mittel gegen eine Beschwerde vorgeschlagen.
+ */
+export function istFuerEmpfehlungGeeignet(plant: Plant): boolean {
+  if (plant.safety?.toxicity_level === 'toxic') return false;
+  if (plant.legal_status?.controlled === true) return false;
+  return true;
+}
+
+/**
  * Finds plants that are traditionally used for a given symptom.
  *
  * Match strategy:
@@ -118,8 +147,14 @@ export function findPlantsForSymptom(
   const matches: SymptomMatch[] = [];
 
   for (const plant of plants) {
+    // Giftige und rechtlich kontrollierte Arten gehoeren nicht in eine
+    // Empfehlungsliste — siehe istFuerEmpfehlungGeeignet.
+    if (!istFuerEmpfehlungGeeignet(plant)) continue;
+
     let score = 0;
     const matchedTerms = new Set<string>();
+    // Die Anwendung, die den Treffer ausgeloest hat — als Begruendung auf der Karte.
+    let reason: { de: string; en: string } | undefined;
 
     // 5.1 — `uses[].target` hits (strongest signal).
     const plantTargets = new Set<string>();
@@ -134,6 +169,15 @@ export function findPlantsForSymptom(
         matchedTerms.add(t);
       }
     }
+    // Erste Anwendung, deren target zum Symptom passt — beste Begruendung.
+    if (!reason) {
+      const treffer = (plant.uses ?? []).find((u) =>
+        (u.target ?? []).some((t) => targetSet.has(t.toLowerCase())),
+      );
+      if (treffer?.description) {
+        reason = { de: treffer.description.de ?? '', en: treffer.description.en ?? '' };
+      }
+    }
 
     // 5.2 — keyword hits in uses[].description (DE+EN combined haystack).
     const usesText = (plant.uses ?? [])
@@ -145,6 +189,15 @@ export function findPlantsForSymptom(
         if (usesText.includes(kw)) {
           score += SCORE_USE_DESC_HIT;
           matchedTerms.add(kw);
+          // Ersatz-Begruendung: die Anwendung, in der das Stichwort steht.
+          if (!reason) {
+            const treffer = (plant.uses ?? []).find((u) =>
+              `${u.description?.de ?? ''} ${u.description?.en ?? ''}`.toLowerCase().includes(kw),
+            );
+            if (treffer?.description) {
+              reason = { de: treffer.description.de ?? '', en: treffer.description.en ?? '' };
+            }
+          }
         }
       }
     }
@@ -176,6 +229,7 @@ export function findPlantsForSymptom(
         plant,
         score: Math.min(score, SCORE_CAP),
         matched_terms: Array.from(matchedTerms),
+        ...(reason ? { reason } : {}),
       });
     }
   }

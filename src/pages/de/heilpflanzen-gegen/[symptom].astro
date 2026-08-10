@@ -3,6 +3,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { getAllSymptoms, findPlantsForSymptom, getSymptomDisclaimer } from '@/lib/symptomSearch';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { SYMPTOM_TEXT_DE } from '@/lib/symptomText';
 
 // === 2. STATIC PATHS — eine Seite je Symptom ===
 export function getStaticPaths() {
@@ -15,12 +16,18 @@ const plants = loadAllPlants();
 const matches = findPlantsForSymptom(symptom.id, plants, 40);
 const name = symptom.name_de;
 
-// Kurzer Grund = erster Satz der eigenen Beschreibung.
-function blurb(p: typeof plants[number]): string {
-  const d = p.description?.[locale] ?? '';
-  const first = d.split(/(?<=[.!])\s/)[0] ?? '';
+// Begruendung auf der Karte: bevorzugt der Text der Anwendung, die den
+// Treffer ausgeloest hat — sonst der erste Satz der Beschreibung. Vorher
+// stand hier immer der Beschreibungssatz, der oft nichts mit der Beschwerde
+// zu tun hatte.
+function kuerzen(text: string): string {
+  const first = text.split(/(?<=[.!])\s/)[0] ?? '';
   return first.length > 150 ? first.slice(0, 147).trimEnd() + '…' : first;
 }
+function grund(m: typeof matches[number]): string {
+  return kuerzen(m.reason?.[locale] || m.plant.description?.[locale] || '');
+}
+const intro = SYMPTOM_TEXT_DE[symptom.id] ?? '';
 
 const title = `Heilpflanzen gegen ${name}`;
 const description =
@@ -33,11 +40,14 @@ const description =
     <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">
       {symptom.emoji} Heilpflanzen gegen {name}
     </h1>
-    <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-2 text-pretty">
-      Bei {name} werden in der überlieferten Pflanzenheilkunde verschiedene Heilpflanzen
-      eingesetzt. Diese {matches.length} Pflanzen aus unserer Datenbank sind traditionell
-      mit {name} verknüpft – jeweils mit Steckbrief, Wirkstoffen, Sicherheitshinweisen und
-      Quellen. Tippe auf eine Pflanze für Details.
+    <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-3 text-pretty">
+      {intro}
+    </p>
+    <p class="max-w-2xl text-slate-600 mb-2 text-pretty">
+      {matches.length} Pflanzen aus unserer Datenbank sind traditionell mit {name} verknüpft –
+      jeweils mit Steckbrief, Wirkstoffen, Sicherheitshinweisen und Quellen. Giftige und
+      rechtlich kontrollierte Arten stehen bewusst nicht in dieser Liste; sie sind über die
+      Suche und das Pflanzenregister erreichbar.
     </p>
     <p class="text-sm text-slate-400 mb-8">{getSymptomDisclaimer(locale)}</p>
 
@@ -45,7 +55,7 @@ const description =
       <p class="text-slate-500">Zu diesem Thema sind derzeit keine Pflanzen hinterlegt.</p>
     ) : (
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {matches.map(({ plant: p }) => (
+        {matches.map(m => { const p = m.plant; return (
           <a href={`/de/plant/${p.slug}/`}
             class="group flex gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3 hover:border-emerald-600 transition">
             <img src={`/images/plants/${p.image.filename}`} alt={p.image.alt?.de ?? p.names.de}
@@ -54,10 +64,10 @@ const description =
             <div class="min-w-0">
               <span class="font-serif text-slate-900 leading-tight">{p.names.de}</span>
               <div class="text-xs italic text-slate-400">{p.names.latin}</div>
-              <p class="mt-1 text-[13px] leading-snug text-slate-600 line-clamp-3">{blurb(p)}</p>
+              <p class="mt-1 text-[13px] leading-snug text-slate-600 line-clamp-3">{grund(m)}</p>
             </div>
           </a>
-        ))}
+        ); })}
       </div>
     )}
 
