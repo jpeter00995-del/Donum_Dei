@@ -142,13 +142,109 @@ sichtbar.
 
 ---
 
-## 5. WAS OFFEN BLEIBT
+## 5. NACHTRAG — ZWEITE QUELLE UND NACHTSCHATTEN (Commit `24d6943`)
 
-- Die 149 unbelegten Angaben sind jetzt ehrlich gekennzeichnet, aber nach wie
-  vor ungeprüft. Eine zweite Quelle (z. B. Giftzentrale Bonn) würde einen Teil
-  davon belegen — Aufwand: eine Sitzung.
+Zwei Aufträge von Maikel: den Nachtschatten-Hinweis präzisieren und eine
+zweite Quelle für die unbelegten Angaben suchen.
+
+### Tomate, Aubergine, Kartoffel
+
+Die ASPCA-Einstufung „giftig für Hunde und Katzen" stimmt, klingt aber so, als
+dürfe kein Hund je ein Stück Tomate sehen. Gemeint ist das Kraut. Der Warnsatz
+sagt das jetzt — angehängt mit Gedankenstrich an denselben Satz, weil die
+Giftpflanzen-Liste nur **einen** Satz als Begründung zeigt und ein zweiter dort
+verloren ginge.
+
+Dieselbe Liste nimmt jetzt außerdem den Satz, der wirklich von Hund und Katze
+handelt, statt blind den ersten Satz des Warntextes (`petReason`). Vorher stand
+unter „Giftige Pflanzen für Katzen & Hunde" oft eine Begründung über Menschen.
+
+### Die zweite Quelle — und warum es nicht Bonn wurde
+
+Die Giftinformationszentrale Bonn kam nicht in Frage: sie führt ausschließlich
+Vergiftungen beim **Menschen**. Über Hund und Katze sagt sie nichts.
+
+Genommen wurde **CliniTox**, die Giftpflanzen-Datenbank des Instituts für
+Veterinärpharmakologie und -toxikologie der Universität Zürich
+(`www.vetpharm.uzh.ch`). Die Bonner Liste läuft als drittes Netz mit.
+
+**Die wichtigste Einsicht:** Außer der ASPCA hat keine dieser Quellen eine
+Ungiftig-Liste. Ein fehlender Eintrag belegt also nichts. Und ein CliniTox-Grad
+ist kein Hund/Katze-Urteil — es ist ein allgemeiner Pflanzen-Giftgrad, oft aus
+der Nutztiermedizin. Der Beweis steht in den Daten selbst: **Salbei** führt
+CliniTox als „schwach giftig (+)", während die ASPCA ihn ausdrücklich als
+ungiftig für Hunde und Katzen führt.
+
+Deshalb wird der Grad als Hinweis mit Quelle gezeigt (`safety.tox_note`,
+gelbes Feld auf der Liste) und **nicht** in `pet_toxic` umgemünzt.
+
+### Umgestuft wurde nur mit tierspezifischem Grund
+
+| Pflanze | Grund |
+|---------|-------|
+| Bärlauch | Alle vier ASPCA-gelisteten Allium-Arten sind giftig; CliniTox „giftig +" und nennt ausdrücklich „andere Allium-Arten – giftig". Hämolyse |
+| Eiche | Eichelvergiftung beim Hund ist ein Standardfall; CliniTox „giftig +", Bonn „gering giftig bis giftig" |
+| Buschbohne, Stangenbohne | Phasin in rohen Bohnen; CliniTox „stark giftig ++" |
+| Rhabarber | ASPCA-Treffer, den der Abgleich übersehen hatte: die ASPCA schreibt „Rheum rhabarbarium" statt „rhabarbarum" |
+
+Der Tippfehler-Fund hat den Matcher verbessert (gleiche Gattung, fast gleicher
+Artname). Damit kamen auch Dill und Cannabis als Treffer dazu.
+
+**Nicht umgestuft**, obwohl CliniTox sie führt: Weißkohl, Brokkoli, Rote Bete,
+Spitzwegerich, Salbei, Rotbuche, Kiefer, Leinsamen und 26 weitere. Ihr Grad
+stammt aus Nutztier- oder Mensch-Zusammenhängen. Sie tragen jetzt den gelben
+Hinweis, damit die Angabe nicht wie ein Freibrief aussieht.
+
+### Zahlen nach dem Nachtrag
+
+```
+haustiergiftig:            114 -> 119
+belegt ungiftig:            24 -> 25
+ohne Beleg:                149 -> 143   (davon 30 mit Tiermedizin-Hinweis)
+Tests:                     368 -> 376
+astro check:                 0 Fehler
+Build:                     707 Seiten
+```
+
+Live nachgemessen (Cache-Umgehung):
+
+```
+/de/ungiftige-pflanzen-haustiere/  ASPCA 25 | ungeprüft 143 | Tiermedizin 30
+/en/pet-safe-plants/               ASPCA 25 | not verified 143 | Vet database 30
+/de/giftige-pflanzen-katzen-hunde/ Anzahl 119
+/de/plant/solanum-lycopersicum/    "gemeint ist das Kraut" 1
+/de/plant/allium-ursinum/          Haustier-Satz 1
+/de/plant/quercus-robur/           Haustier-Satz 1, CliniTox-Quelle verlinkt
+/de/plant/salvia-officinalis/      bleibt haustiersicher, CliniTox als Hinweis
+```
+
+Hinweis zum Messen: Cloudflare liefert nach einem Deploy bis zu einige Minuten
+die alte Fassung, auch mit `?x=`. Erst die Deploy-eigene Adresse
+(`https://<id>.donum-dei.pages.dev`) zeigt sofort den neuen Stand.
+
+### Neue Werkzeuge
+
+```
+scripts/clinitox_holen.py       CliniTox abfragen (Datei-Cache, --neu lädt neu)
+scripts/clinitox_uebernehmen.py Hinweise eintragen, begründete Umstufungen
+scripts/gizbonn_holen.py        Bonner Liste holen (221 Einträge)
+scripts/quellen_abgleich.py     alle drei Quellen gegen unsere Daten
+scripts/nachtschatten_hinweis.py Kraut-statt-Frucht-Zusatz
+```
+
+---
+
+## 6. WAS OFFEN BLEIBT
+
+- Die 143 unbelegten Angaben bleiben unbelegt. Es gibt schlicht keine weitere
+  Liste, die „ungiftig für Hund und Katze" positiv feststellt. Wer mehr will,
+  braucht Einzelrecherche je Pflanze.
 - 10 Pflanzen ohne jede Haustier-Angabe bleiben bewusst leer (Teestrauch,
   Kardamom, Roselle, Ginseng, Schwarzer Pfeffer, Moringa, Ashwagandha,
   Kratom, Peyote, Puppen-Kernkeule).
 - Auf Detailseiten von Pflanzen ohne Zimmerpflanzen-Block steht die
   Haustier-Angabe nur im Fließtext der Warnung, nicht als eigene Zeile.
+- 5 Pflanzen, bei denen die ASPCA eine andere Art derselben Gattung als giftig
+  führt, sind nicht entschieden: Beifuß, Walnuss, Wiesen-Schlüsselblume
+  (ASPCA führt Primula vulgaris als giftig) — hier fehlt eine belastbare
+  Aussage zur konkreten Art.

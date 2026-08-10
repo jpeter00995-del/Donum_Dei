@@ -29,8 +29,13 @@ Project-specific TODOs. Cross-project items go to `Claude/_TODO.md`.
 
 ### Neu offen (aus Sitzung 33)
 
-- [ ] Zweite Quelle für die 149 unbelegten Haustier-Angaben (z. B.
-      Giftinformationszentrale Bonn) — würde einen Teil davon belegen
+- [x] Zweite Quelle geprüft (2026-08-10): CliniTox Universität Zürich +
+      Giftzentrale Bonn. Ergebnis: keine der beiden hat eine Ungiftig-Liste,
+      belegen lässt sich damit nichts. 5 weitere Falsch-Einstufungen gefunden,
+      30 Pflanzen tragen jetzt einen Tiermedizin-Hinweis
+- [ ] 5 Grenzfälle entscheiden: Beifuß, Walnuss, Wiesen-Schlüsselblume und
+      2 weitere — die ASPCA führt jeweils eine andere Art derselben Gattung
+      als giftig, zur konkreten Art fehlt eine Aussage
 
 ---
 

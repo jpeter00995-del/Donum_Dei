@@ -45,16 +45,29 @@ Entscheidung, sondern durch Nachschlagen.
 | Commit | Inhalt |
 |--------|--------|
 | `5e3cb9c` | Haustier-Angaben belegt oder als ungeprüft gekennzeichnet |
+| `24d6943` | zweite Quelle (CliniTox), Nachtschatten-Hinweis, 5 weitere Umstufungen |
 
 ```
 ASPCA-Liste geholt:                     978 Einträge
-Treffer bei unseren Pflanzen:            84 (51 Art, 33 Gattung)
-Falsche "sicher"-Einstufungen gedreht:   11 (u. a. Knoblauch, Hopfen, Tomate)
+Treffer bei unseren Pflanzen:            87 (54 Art, 33 Gattung)
+Falsche "sicher"-Einstufungen gedreht:   16 gesamt
 Widersprüche zwischen zwei Feldern:      16 -> 0
-haustiergiftig:                    103 -> 114
-haustiersicher:                    184 -> 173 (24 belegt / 149 unbelegt)
-Tests:                             357 -> 368
+haustiergiftig:                    103 -> 119
+haustiersicher:                    184 -> 168 (25 belegt / 143 unbelegt)
+Tests:                             357 -> 376
 ```
+
+Zweite und dritte Quelle geprüft: **CliniTox** (Institut für Veterinär-
+pharmakologie, Universität Zürich) und die Giftpflanzen-Liste der
+**Giftinformationszentrale Bonn**. Bonn taugt nicht als Beleg — sie führt nur
+Vergiftungen beim Menschen. Und außer der ASPCA hat keine Quelle eine
+Ungiftig-Liste; ein fehlender Eintrag beweist also nichts.
+
+Ein CliniTox-Giftgrad ist kein Hund/Katze-Urteil (Salbei: CliniTox „schwach
+giftig", ASPCA „ungiftig für Haustiere"). Er steht deshalb als Hinweis mit
+Quelle in `safety.tox_note` und wird nie in `pet_toxic` umgemünzt. Umgestuft
+wurde nur mit tierspezifischem Grund: Bärlauch, Eiche, Busch- und
+Stangenbohne, Rhabarber.
 
 Kern: `safety.pet_toxic` und `indoor_growing.pet_safe` liefen unabhängig
 nebeneinander und widersprachen sich bei 16 Pflanzen — Lavendel stand mit
