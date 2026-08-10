@@ -171,10 +171,23 @@ export default function PlantTabs({ plant, locale }: Props) {
 }
 
 // === 5. TAB 1 — ANWENDUNG (USES) ===
+// Ordnet jeder Quellen-ID eine fortlaufende Nummer und den lesbaren Titel zu.
+// Die Nummer entspricht der Reihenfolge in plant.sources und wird im
+// Quellen-Tab genauso angezeigt — so findet man die Fussnote wieder.
+export function buildSourceIndex(
+  sources: PlantSource[],
+): Map<string, { n: number; title: string }> {
+  const map = new Map<string, { n: number; title: string }>();
+  sources.forEach((s, i) => map.set(s.id, { n: i + 1, title: s.title }));
+  return map;
+}
+
 function UseTab({ plant, locale }: { plant: Plant; locale: Locale }) {
   if (plant.uses.length === 0) {
     return <p className="italic text-slate-500">—</p>;
   }
+
+  const sourceIndex = buildSourceIndex(plant.sources);
 
   // Bei hochgiftigen Pflanzen werden innere Anwendungen aus der normalen
   // Verwendung in einen "nur historische Doku"-Warn-Kasten getrennt (siehe toxicUses.ts).
@@ -186,7 +199,7 @@ function UseTab({ plant, locale }: { plant: Plant; locale: Locale }) {
         <ul className="space-y-4">
           {normalUses.map((u, idx) => (
             <li key={idx} className="border-l-2 border-emerald-300 pl-3">
-              <UseCard use={u} locale={locale} />
+              <UseCard use={u} locale={locale} sourceIndex={sourceIndex} />
             </li>
           ))}
         </ul>
@@ -207,7 +220,7 @@ function UseTab({ plant, locale }: { plant: Plant; locale: Locale }) {
           <ul className="mt-3 space-y-4">
             {historicalUses.map((u, idx) => (
               <li key={idx} className="border-l-2 border-rose-300 pl-3">
-                <UseCard use={u} locale={locale} />
+                <UseCard use={u} locale={locale} sourceIndex={sourceIndex} />
               </li>
             ))}
           </ul>
@@ -217,7 +230,15 @@ function UseTab({ plant, locale }: { plant: Plant; locale: Locale }) {
   );
 }
 
-function UseCard({ use, locale }: { use: PlantUse; locale: Locale }) {
+function UseCard({
+  use,
+  locale,
+  sourceIndex,
+}: {
+  use: PlantUse;
+  locale: Locale;
+  sourceIndex: Map<string, { n: number; title: string }>;
+}) {
   // Internal/external — "both" wird als "internal" gelabelt (gleiche Konvention wie PlantDetail.astro).
   const intExtKey = use.internal_external === 'both' ? 'internal' : use.internal_external;
 
@@ -313,17 +334,32 @@ function UseCard({ use, locale }: { use: PlantUse; locale: Locale }) {
         </details>
       )}
 
-      {/* === Quellen-Anker (springen zum Quellen-Tab) === */}
+      {/* === Quellen-Fussnoten (springen zum Quellen-Tab) === */}
       {use.source_ids.length > 0 && (
         <p className="mt-2 text-xs text-slate-500">
-          {use.source_ids.map((sid, i) => (
-            <span key={sid}>
-              {i > 0 && ' '}
-              <a href={`#${sid}`} className="hover:underline text-slate-500">
-                [#{sid}]
-              </a>
-            </span>
-          ))}
+          {t(locale, 'sources.refs')}:{' '}
+          {use.source_ids
+            // Ohne Eintrag in sources[] gaebe es nur eine interne Kennung
+            // zu zeigen — solche Verweise werden weggelassen.
+            .flatMap(sid => {
+              const entry = sourceIndex.get(sid);
+              return entry ? [{ sid, ...entry }] : [];
+            })
+            // Aufsteigend, damit die Fussnoten in lesbarer Reihenfolge stehen.
+            .sort((a, b) => a.n - b.n)
+            .map((entry, i) => (
+              <span key={entry.sid}>
+                {i > 0 && ' '}
+                <a
+                  href={`#${entry.sid}`}
+                  title={entry.title}
+                  aria-label={`${t(locale, 'sources.ref')} ${entry.n}: ${entry.title}`}
+                  className="hover:underline text-slate-500"
+                >
+                  [{entry.n}]
+                </a>
+              </span>
+            ))}
         </p>
       )}
     </>
@@ -629,6 +665,9 @@ function SourcesTab({ plant, locale }: { plant: Plant; locale: Locale }) {
     return <p className="italic text-slate-500">—</p>;
   }
 
+  // Gleiche Nummerierung wie die Fussnoten bei den Anwendungen.
+  const sourceIndex = buildSourceIndex(plant.sources);
+
   return (
     <ul className="space-y-2">
       {orderedTypes.map(type =>
@@ -638,6 +677,9 @@ function SourcesTab({ plant, locale }: { plant: Plant; locale: Locale }) {
             id={s.id}
             className="flex flex-wrap items-baseline gap-2 text-sm"
           >
+            <span className="text-xs text-slate-500 tabular-nums">
+              [{sourceIndex.get(s.id)?.n}]
+            </span>
             <span className={`px-2 py-0.5 rounded text-xs ${SOURCE_TYPE_CLASS[type]}`}>
               {t(locale, `sources.type.${type}`)}
             </span>

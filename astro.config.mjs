@@ -1,4 +1,5 @@
 // @ts-check
+import { readFileSync, readdirSync } from 'node:fs';
 import { defineConfig } from 'astro/config';
 
 import react from '@astrojs/react';
@@ -7,6 +8,25 @@ import AstroPWA from '@vite-pwa/astro';
 import pagefind from 'astro-pagefind';
 
 import tailwindcss from '@tailwindcss/vite';
+
+// === Rechtlich kontrollierte Arten (Cannabis, Koka, Peyote …) ===
+// Deren Detailseiten stehen seit 2026-08-10 auf noindex (Entscheidung fuer den
+// AdSense-Neuantrag). Eine Seite gleichzeitig zu sperren und in die Sitemap zu
+// schreiben waeren widerspruechliche Signale — deshalb hier ebenfalls raus.
+// Zum Rueckgaengigmachen: diesen Block und die noindex-Flags in
+// src/pages/{de,en}/plant/[slug].astro sowie den Themenseiten entfernen.
+const controlledSlugs = new Set(
+  readdirSync(new URL('./src/data/plants/', import.meta.url))
+    .filter(f => f.endsWith('.json'))
+    .flatMap(f => {
+      try {
+        const d = JSON.parse(readFileSync(new URL(`./src/data/plants/${f}`, import.meta.url), 'utf-8'));
+        return d?.legal_status?.controlled === true ? [d.slug] : [];
+      } catch {
+        return [];
+      }
+    }),
+);
 
 // https://astro.build/config
 export default defineConfig({
@@ -23,7 +43,13 @@ export default defineConfig({
       filter: (page) => {
         const path = new URL(page).pathname;
         if (path === '/') return false;
-        return !/^\/(fr|es|bg)\/$/.test(path);
+        if (/^\/(fr|es|bg)\/$/.test(path)) return false;
+        // Themenseiten der kontrollierten Arten
+        if (path === '/de/rauschpflanzen/' || path === '/en/psychoactive/') return false;
+        // Deren Detailseiten
+        const m = path.match(/^\/(de|en)\/plant\/([^/]+)\/$/);
+        if (m && controlledSlugs.has(m[2])) return false;
+        return true;
       },
     }),
     pagefind(),

@@ -139,4 +139,6 @@ export const plant = {
   'sources.type.commons': 'Commons',
   'sources.type.wikidata': 'Wikidata',
   'sources.accessed': 'abgerufen',
+  'sources.ref': 'Quelle',
+  'sources.refs': 'Quellen',
 };

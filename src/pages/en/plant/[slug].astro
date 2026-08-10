@@ -2,6 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PlantDetail from '@/components/PlantDetail.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { isControlled } from '@/lib/speciesFilters';
 
 export function getStaticPaths() {
   return loadAllPlants().map(plant => ({
@@ -17,8 +18,13 @@ const locale = 'en' as const;
 const hasUses = Array.isArray(plant.uses) && plant.uses.length > 0;
 const seoTitle = `${plant.names[locale]}${hasUses ? ': Benefits & Uses' : ' – Profile'}`;
 const seoDescription = plant.description?.[locale] ?? plant.teaser[locale];
+// Legally controlled species (cannabis, coca, peyote …) are excluded from
+// indexing since 2026-08-10 — a decision made for the AdSense re-application.
+// The pages stay reachable. To undo: remove `noindex` here and in
+// de/plant/[slug].astro, and revert the sitemap filter.
+const noindex = isControlled(plant);
 ---
 
-<BaseLayout locale={locale} title={seoTitle} description={seoDescription} altPath={`/de/plant/${plant.slug}/`} imagePath={`/images/plants/${plant.image.filename}`}>
+<BaseLayout locale={locale} title={seoTitle} description={seoDescription} altPath={`/de/plant/${plant.slug}/`} imagePath={`/images/plants/${plant.image.filename}`} noindex={noindex}>
   <PlantDetail plant={plant} locale={locale} />
 </BaseLayout>

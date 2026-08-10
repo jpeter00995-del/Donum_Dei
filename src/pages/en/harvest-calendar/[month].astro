@@ -2,6 +2,8 @@
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { pflanzenImMonat } from '@/lib/harvestMonth';
+import { ERNTE_TEXT_EN } from '@/lib/harvestMonthText';
 
 // === 2. CONSTANTS ===
 const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -19,9 +21,10 @@ const locale = 'en' as const;
 const monthNum = monthIndex + 1;
 const monthName = MONTHS[monthIndex];
 const all = loadAllPlants();
-const plants = all
-  .filter(p => Array.isArray(p.season?.active_months) && p.season!.active_months.includes(monthNum))
+// Real harvest data instead of "alive all year" — see lib/harvestMonth.ts.
+const plants = pflanzenImMonat(all, monthNum)
   .sort((a, b) => a.names.en.localeCompare(b.names.en, 'en'));
+const intro = ERNTE_TEXT_EN[monthIndex];
 
 const title = `Herbs to Harvest in ${monthName}`;
 const description =
@@ -32,10 +35,12 @@ const description =
 <BaseLayout locale={locale} title={title} description={description} altPath={`/de/heilpflanzen-ernten/${DE_SLUGS[monthIndex]}/`}>
   <section class="max-w-6xl mx-auto px-4 pt-8 pb-12">
     <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">Herbs to Harvest in {monthName}</h1>
-    <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-6 text-pretty">
-      In {monthName}, {plants.length} medicinal plants from our database are in season or ready
-      to harvest. This overview shows which plant to gather in {monthName} and which part –
-      tap for a profile, active compounds and safety.
+    <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-3 text-pretty">
+      {intro}
+    </p>
+    <p class="max-w-2xl text-slate-600 mb-6 text-pretty">
+      {plants.length} plants from our database are ready to harvest in {monthName}. Each entry
+      shows the part that is gathered – tap for a profile, active compounds and safety notes.
     </p>
 
     <div class="flex flex-wrap gap-1.5 mb-8">

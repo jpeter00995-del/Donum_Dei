@@ -11,7 +11,11 @@ const locale = 'en' as const;
 const controlled = getPlantsSortedByLocale(locale).filter(isControlled).map(toPlantCard);
 ---
 
-<BaseLayout locale={locale} title="Psychoactive plants & fungi — Donum Dei">
+{/* noindex: deliberate decision 2026-08-10 for the AdSense re-application.
+    The content stays reachable but is no longer indexed. To undo: remove
+    `noindex` here and in de/rauschpflanzen.astro, and revert the sitemap
+    filter in astro.config.mjs. */}
+<BaseLayout locale={locale} title="Psychoactive plants & fungi — Donum Dei" noindex>
   <div class="max-w-6xl mx-auto px-4 py-8">
     <h1 class="text-2xl md:text-3xl font-serif font-bold text-slate-900 mb-2">🌀 Psychoactive plants &amp; fungi</h1>
     <p class="text-slate-600 mb-4 max-w-2xl">

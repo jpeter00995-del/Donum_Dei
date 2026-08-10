@@ -2,6 +2,8 @@
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { pflanzenImMonat } from '@/lib/harvestMonth';
+import { ERNTE_TEXT_DE } from '@/lib/harvestMonthText';
 
 // === 2. KONSTANTEN ===
 const MONATE = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
@@ -18,10 +20,10 @@ const locale = 'de' as const;
 const monthNum = monthIndex + 1;
 const monthName = MONATE[monthIndex];
 const all = loadAllPlants();
-// Pflanzen, die in diesem Monat aktiv/erntereif sind (season.active_months).
-const plants = all
-  .filter(p => Array.isArray(p.season?.active_months) && p.season!.active_months.includes(monthNum))
+// Echte Erntedaten statt "lebt das ganze Jahr" — siehe lib/harvestMonth.ts.
+const plants = pflanzenImMonat(all, monthNum)
   .sort((a, b) => a.names.de.localeCompare(b.names.de, 'de'));
+const intro = ERNTE_TEXT_DE[monthIndex];
 
 const title = `Heilpflanzen im ${monthName} ernten & sammeln`;
 const description =
@@ -34,10 +36,13 @@ const description =
     <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">
       Heilpflanzen im {monthName} ernten &amp; sammeln
     </h1>
-    <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-6 text-pretty">
-      Im {monthName} sind {plants.length} Heilpflanzen aus unserer Datenbank erntereif oder in
-      Saison. Diese Übersicht zeigt, welche Pflanze du im {monthName} sammeln kannst und
-      welchen Pflanzenteil – tippe für Steckbrief, Wirkstoffe und Sicherheit.
+    <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-3 text-pretty">
+      {intro}
+    </p>
+    <p class="max-w-2xl text-slate-600 mb-6 text-pretty">
+      {plants.length} Pflanzen aus unserer Datenbank sind im {monthName} erntereif. Die Liste
+      zeigt jeweils den Pflanzenteil, um den es geht – tippe für Steckbrief, Wirkstoffe und
+      Sicherheitshinweise.
     </p>
 
     {/* Monats-Navigation */}

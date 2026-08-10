@@ -2,6 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PlantDetail from '@/components/PlantDetail.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { isControlled } from '@/lib/speciesFilters';
 
 export function getStaticPaths() {
   return loadAllPlants().map(plant => ({
@@ -17,8 +18,13 @@ const locale = 'de' as const;
 const hasUses = Array.isArray(plant.uses) && plant.uses.length > 0;
 const seoTitle = `${plant.names[locale]}${hasUses ? ': Wirkung & Anwendung' : ' – Steckbrief'}`;
 const seoDescription = plant.description?.[locale] ?? plant.teaser[locale];
+// Rechtlich kontrollierte Arten (Cannabis, Koka, Peyote …) sind seit 2026-08-10
+// von der Indexierung ausgenommen — Entscheidung fuer den AdSense-Neuantrag.
+// Die Seiten bleiben erreichbar. Zum Rueckgaengigmachen: `noindex` hier und in
+// en/plant/[slug].astro entfernen und den Sitemap-Filter zuruecknehmen.
+const noindex = isControlled(plant);
 ---
 
-<BaseLayout locale={locale} title={seoTitle} description={seoDescription} altPath={`/en/plant/${plant.slug}/`} imagePath={`/images/plants/${plant.image.filename}`}>
+<BaseLayout locale={locale} title={seoTitle} description={seoDescription} altPath={`/en/plant/${plant.slug}/`} imagePath={`/images/plants/${plant.image.filename}`} noindex={noindex}>
   <PlantDetail plant={plant} locale={locale} />
 </BaseLayout>
