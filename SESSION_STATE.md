@@ -5,7 +5,7 @@
 - device: BUL-06 (Windows)
 - tool: Claude Code (Opus 5)
 - session: 32
-- last_save: 2026-08-10 10:45 Sofia
+- last_save: 2026-08-10 11:07 Sofia
 - live_url: https://donum-dei.pages.dev
 - github: jpeter00995-del/Donum_Dei
 
@@ -88,13 +88,17 @@ Build:                                  707 Seiten
 
 ## NEXT STEPS — konkret, in dieser Reihenfolge
 
-1. **AdSense-Neupruefung beantragen.** Blockiert: Die Chrome-Erweiterung hat
-   fuer `google.com` keine Freigabe („Permission denied for reading pages on
-   this domain"). Maikel muss im geoeffneten AdSense-Tab oben rechts auf das
-   Claude-Symbol klicken und den Zugriff erlauben. Danach: AdSense →
-   Websites → donum-dei.pages.dev → „Ueberpruefung beantragen".
-   **Vor dem endgueltigen Klick Maikel zeigen, was auf dem Bildschirm steht.**
-   Passwoerter niemals selbst eingeben.
+1. **AdSense-Neupruefung: ERLEDIGT am 2026-08-10.** Maikel hat den Antrag
+   selbst gestellt (der Agent kann das nicht, siehe ACTIVE_TASK.md).
+   Stand laut AdSense-Oberflaeche:
+   - „Inhaberschaft der Website bestaetigen" — gruener Haken
+   - „Ueberpruefung angefordert" — gruener Haken
+   - Uhrzeit der Anfrage: 10. Aug. 2026, 09:12
+   - Google: „in der Regel einige Tage, vereinzelt zwei bis vier Wochen"
+
+   **Auf die Antwort warten.** Kommt eine erneute Ablehnung: den kompletten
+   Mailtext in den Chat geben. Der Grund steht unter „Es wurden
+   Richtlinienverstoesse gefunden" — davon haengt alles Weitere ab.
 
 2. **Sitemap in der Search Console neu einreichen** — Maikel richtet das ein
    (Konto jpeter00995, Property donum-dei.pages.dev, Menuepunkt „Sitemaps",

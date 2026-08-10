@@ -4,6 +4,30 @@ Project-specific TODOs. Cross-project items go to `Claude/_TODO.md`.
 
 ---
 
+## ✅ ERLEDIGT 2026-08-10 — AdSense-Ablehnung „Minderwertige Inhalte"
+
+- [x] 203 Wikipedia-Kurztexte (`teaser`) durch eigene Texte ersetzt
+- [x] 39 Beschreibungen ersetzt (9 Platzhalter + 30 Wikipedia-Uebernahmen)
+- [x] 6 Anzeigenamen und 6 Bild-Beschreibungen ohne Unterstrich
+- [x] Quellen-Roh-Codes `[#src_...]` zu lesbaren Fussnoten (rund 600 Seiten)
+- [x] Ernte-Monatsseiten: Zierpflanzen raus, eigener Text je Monat
+- [x] Symptomseiten: 40 Giftpflanzen und alle kontrollierten Arten raus,
+      Begruendung aus der passenden Anwendung, eigener Text je Symptom
+- [x] Kontrollierte Arten auf noindex (Entscheidung fuer den Neuantrag)
+- [x] Haustier-Giftigkeit von 28 Pflanzen an der ASPCA geprueft und belegt
+- [x] Pruef-Skript erweitert, damit dieselbe Luecke nicht wiederkommt
+- [x] AdSense-Neupruefung beantragt (10.08.2026, 09:12)
+
+### Daraus offen geblieben
+
+- [ ] Sitemap in der Search Console neu einreichen (Maikel)
+- [ ] 6 Zimmerpflanzen ohne ASPCA-Beleg auf der „haustiersicher"-Liste —
+      Entscheidung ausstehend (rausnehmen / markieren / lassen)
+- [ ] 170 Garten- und Wildpflanzen auf derselben Liste ohne Beleg
+- [ ] Eigene Domain donum-dei.de
+
+---
+
 ## 🚀 AKTIVER FOKUS: v1.0 Selbstversorger-Planer
 
 **Ab 2026-05-17** läuft die Vision-Erweiterung "Donum Dei wird Selbstversorger-App".
