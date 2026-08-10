@@ -7,7 +7,7 @@ import { toPlantCard } from '@/lib/plantCard';
 
 const locale = 'de' as const;
 // Nur Pilze (kingdom === 'fungus') — eigene Seite, getrennt vom Pflanzen-Grid.
-const fungi = getPlantsSortedByLocale(locale).filter(isFungus).map(toPlantCard);
+const fungi = getPlantsSortedByLocale(locale).filter(isFungus).map(p => toPlantCard(p, locale));
 ---
 
 <BaseLayout locale={locale} title="Pilze — Donum Dei">

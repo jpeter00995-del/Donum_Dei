@@ -8,7 +8,7 @@ import { toPlantCard } from '@/lib/plantCard';
 const locale = 'de' as const;
 // Nur rechtlich kontrollierte/psychoaktive Arten (legal_status.controlled === true) —
 // Pflanzen UND Pilze (Cross-Listing: kontrollierte Pilze stehen auch auf /de/pilze).
-const controlled = getPlantsSortedByLocale(locale).filter(isControlled).map(toPlantCard);
+const controlled = getPlantsSortedByLocale(locale).filter(isControlled).map(p => toPlantCard(p, locale));
 ---
 
 {/* noindex: bewusste Entscheidung 2026-08-10 fuer den AdSense-Neuantrag.

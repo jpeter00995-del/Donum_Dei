@@ -160,7 +160,7 @@ export default function FilterBar({ plants, locale, noun = 'plant' }: Props) {
                 <div className="aspect-[4/3] overflow-hidden bg-slate-100">
                   <img
                     src={`/images/plants/thumbs/${plant.image.filename}`}
-                    alt={plant.image.alt[locale]}
+                    alt={plant.image.alt}
                     title={`© ${plant.image.author} · ${plant.image.license}`}
                     width={400}
                     height={300}
@@ -174,7 +174,7 @@ export default function FilterBar({ plants, locale, noun = 'plant' }: Props) {
                     {plant.names[locale]}
                   </h2>
                   <p className="text-sm italic text-slate-500 mt-0.5">({plant.names.latin})</p>
-                  <p className="text-sm text-slate-700 mt-2 line-clamp-2">{plant.teaser[locale]}</p>
+                  <p className="text-sm text-slate-700 mt-2 line-clamp-2">{plant.teaser}</p>
                   <div className="flex flex-wrap gap-1.5 mt-3">
                     {plant.forms.map(form => (
                       <span

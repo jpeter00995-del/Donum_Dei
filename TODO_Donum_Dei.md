@@ -20,7 +20,7 @@ Project-specific TODOs. Cross-project items go to `Claude/_TODO.md`.
 
 ### Daraus offen geblieben
 
-- [ ] Sitemap in der Search Console neu einreichen (Maikel)
+- [x] Sitemap in der Search Console neu eingereicht (Maikel, 2026-08-10)
 - [x] 6 Zimmerpflanzen und 170 Garten-/Wildpflanzen ohne ASPCA-Beleg —
       erledigt 2026-08-10 (Sitzung 33): vollständige ASPCA-Liste abgeglichen,
       11 Falsch-Einstufungen gedreht, Liste in „belegt" (24) und „ohne externe

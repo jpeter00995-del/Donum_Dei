@@ -10,7 +10,7 @@ const locale = 'de' as const;
 // Schlankes Card-DTO statt voller Plant-Objekte → kleine client:load-Props.
 // Haupt-Grid zeigt nur „Alltags"-Pflanzen: Pilze (/de/pilze) und kontrollierte
 // Rauschpflanzen (/de/rauschpflanzen) haben eigene Seiten → hier ausfiltern.
-const plants = getPlantsSortedByLocale(locale).filter(isEverydayPlant).map(toPlantCard);
+const plants = getPlantsSortedByLocale(locale).filter(isEverydayPlant).map(p => toPlantCard(p, locale));
 // Echte Gesamtzahl aller Pflanzen (inkl. Pilze/Rauschpflanzen) für die Hero-Kennzahl.
 const totalPlants = getPlantsSortedByLocale(locale).length;
 

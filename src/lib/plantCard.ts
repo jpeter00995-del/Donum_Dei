@@ -1,4 +1,4 @@
-import type { Plant, Season, UseForm } from './types';
+import type { Plant, Season, UseForm, Locale } from './types';
 import { monthsToSeasons } from './loadPlants';
 
 // === 1. TYP ===
@@ -6,11 +6,18 @@ import { monthsToSeasons } from './loadPlants';
 // Enthält NUR Felder, die zum Filtern + Rendern einer Pflanzen-Kachel nötig
 // sind. Ziel: serialisierte client:load-Props klein halten (volles Plant-Objekt
 // ø 27 KB → Card ~0,7 KB), damit das SSG-HTML nicht jede Pflanze komplett inlinet.
+//
+// Seit 2026-08-10 einsprachig: Kurztext und Bild-Beschreibung kommen nur noch
+// in der Sprache der Seite mit. Die deutsche Startseite hatte vorher jeden
+// englischen Kurztext ebenfalls im Quelltext stehen, ohne ihn je zu zeigen.
+// Die Namen bleiben zweisprachig — die Suche findet Pflanzen bewusst auch
+// unter dem Namen der anderen Sprache.
 export interface PlantCard {
   slug: string;
   names: { de: string; en: string; latin: string };
-  teaser: { de: string; en: string };
-  image: { filename: string; alt: { de: string; en: string }; author: string; license: string };
+  /** Kurztext in der Sprache der Seite. */
+  teaser: string;
+  image: { filename: string; alt: string; author: string; license: string };
   /** Eindeutige Anwendungsformen (für Form-Filter + Chips). */
   forms: UseForm[];
   /** Vorab aus season.active_months abgeleitete Jahreszeiten (für Saison-Filter). */
@@ -23,14 +30,14 @@ export interface PlantCard {
 // Build-time-Projektion vom vollen Plant auf das Karten-DTO.
 // Wird in .astro-Frontmatter aufgerufen — läuft also server-/buildseitig,
 // nicht im Client.
-export function toPlantCard(plant: Plant): PlantCard {
+export function toPlantCard(plant: Plant, locale: Locale): PlantCard {
   return {
     slug: plant.slug,
     names: { de: plant.names.de, en: plant.names.en, latin: plant.names.latin },
-    teaser: { de: plant.teaser.de, en: plant.teaser.en },
+    teaser: plant.teaser[locale],
     image: {
       filename: plant.image.filename,
-      alt: { de: plant.image.alt.de, en: plant.image.alt.en },
+      alt: plant.image.alt[locale],
       author: plant.image.author,
       license: plant.image.license,
     },

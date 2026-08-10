@@ -10,7 +10,7 @@ const locale = 'en' as const;
 // Slim card DTO instead of full Plant objects → small client:load props.
 // Main grid shows everyday plants only: mushrooms (/en/mushrooms) and controlled
 // psychoactive species (/en/psychoactive) have their own pages → filter out here.
-const plants = getPlantsSortedByLocale(locale).filter(isEverydayPlant).map(toPlantCard);
+const plants = getPlantsSortedByLocale(locale).filter(isEverydayPlant).map(p => toPlantCard(p, locale));
 // Real total across all plants (incl. mushrooms/psychoactive) for the hero stat.
 const totalPlants = getPlantsSortedByLocale(locale).length;
 
