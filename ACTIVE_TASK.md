@@ -12,7 +12,38 @@
 - ✅ Haustier-Giftigkeit der 32 Zimmerpflanzen an der ASPCA geprueft
 - ⏳ Antrag stellen — blockiert
 
-## Blocker (Stand 2026-08-10, 13:50)
+## ENDERGEBNIS 2026-08-10, 14:05 — der Agent kann das NICHT uebernehmen
+
+Nicht weiter probieren. Die AdSense-Oberflaeche liegt auf
+`adsense.google.com`, und die Browser-Werkzeuge lehnen diese Domain ab:
+
+```
+navigate    -> Navigation to this domain is not allowed
+read_page   -> Permission denied for reading pages on this domain
+screenshot  -> Permission denied for this action on this domain
+```
+
+Das liegt NICHT an Maikels Einstellungen. Er hat die Chrome-Erweiterung
+korrekt auf „Auf adsense.google.com" gestellt und war angemeldet — die
+Sperre sitzt auf der Werkzeug-Seite. `www.google.com/adsense/...` laesst
+sich zwar aufrufen, leitet aber sofort auf `adsense.google.com` um.
+
+**Der Antrag muss von Maikel selbst geklickt werden.** Anleitung unten.
+Kuenftige Sitzungen sollen dafuer keine Zeit mehr aufwenden.
+
+### Anleitung fuer Maikel
+
+1. AdSense oeffnen, links im Menue auf **Websites**
+2. In der Liste **donum-dei.pages.dev** anklicken
+3. Schaltflaeche **Ueberpruefung beantragen** (je nach Ansicht auch
+   „Zur Ueberpruefung einreichen" oder „Erneut einreichen")
+4. Bestaetigen — danach steht dort „Wird ueberprueft"
+
+Antwort kommt per E-Mail, in der Regel nach einigen Tagen bis zwei Wochen.
+Bei erneuter Ablehnung: den vollstaendigen Mailtext in den Chat geben, der
+Grund steht unter „Es wurden Richtlinienverstoesse gefunden".
+
+## Frueherer Blocker-Stand (13:50)
 
 Zwei Dinge fehlen, beide kann nur Maikel erledigen:
 
