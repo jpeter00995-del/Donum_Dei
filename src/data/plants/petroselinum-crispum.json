@@ -223,6 +223,17 @@
     "max_continuous_use_note": {
       "de": "Therapeutische Anwendung (Tee aus Wurzel/Kraut) auf 2-4 Wochen begrenzen wegen möglicher Apiol-/Myristicin-Akkumulation. Bei anhaltenden Harnwegsbeschwerden, Fieber, Blut im Urin oder Krämpfen ärztliche Abklärung erforderlich. Küchenübliche Mengen unbegrenzt.",
       "en": "Limit therapeutic use (root/herb tea) to 2-4 weeks due to possible apiol/myristicin accumulation. Persistent urinary symptoms, fever, blood in urine or cramps require medical evaluation. Culinary amounts unrestricted."
+    },
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "parsley",
+      "entry_name": "Parsley",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
     }
   },
   "classical_quotes": [],
@@ -322,7 +333,7 @@
     "light": "partial_shade",
     "water_frequency": "every_few_days",
     "difficulty": 2,
-    "pet_safe": true,
+    "pet_safe": false,
     "soil": {
       "de": "Humusreich, feucht",
       "en": "Humus-rich, moist"

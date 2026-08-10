@@ -148,8 +148,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Alle Pflanzenteile mit Ausnahme der vollreifen Frucht enthalten Calciumoxalat-Raphiden (Nadelkristalle in spezialisierten Idioblast-Zellen). Bei Verzehr oder Kontakt mit Schleimhäuten: Brennen, Schwellung, Speichelfluss, Schluckbeschwerden; bei Hautkontakt mit dem Pflanzensaft sind Reizungen möglich. Bei Hunden und Katzen treten die gleichen Symptome auf — daher ist Monstera deliciosa für Haustiere als giftig gelistet. Unreife Frucht reizt Mund und Rachen stark; nur die vollreife, weiche Frucht ist essbar.",
-      "en": "All plant parts except the fully ripe fruit contain calcium oxalate raphides (needle-shaped crystals stored in specialised idioblast cells). On ingestion or contact with mucous membranes: burning, swelling, salivation, and difficulty swallowing; skin contact with the sap can cause irritation. Dogs and cats develop the same symptoms, which is why Monstera deliciosa is listed as toxic to pets. Unripe fruit strongly irritates mouth and throat; only the fully ripe, soft fruit is edible."
+      "de": "Alle Pflanzenteile mit Ausnahme der vollreifen Frucht enthalten Calciumoxalat-Raphiden (Nadelkristalle in spezialisierten Idioblast-Zellen). Bei Verzehr oder Kontakt mit Schleimhäuten: Brennen, Schwellung, Speichelfluss, Schluckbeschwerden; bei Hautkontakt mit dem Pflanzensaft sind Reizungen möglich. Bei Hunden und Katzen treten die gleichen Symptome auf — daher ist Monstera deliciosa für Haustiere als giftig gelistet. Unreife Frucht reizt Mund und Rachen stark; nur die vollreife, weiche Frucht ist essbar. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "All plant parts except the fully ripe fruit contain calcium oxalate raphides (needle-shaped crystals stored in specialised idioblast cells). On ingestion or contact with mucous membranes: burning, swelling, salivation, and difficulty swallowing; skin contact with the sap can cause irritation. Dogs and cats develop the same symptoms, which is why Monstera deliciosa is listed as toxic to pets. Unripe fruit strongly irritates mouth and throat; only the fully ripe, soft fruit is edible. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -185,7 +185,18 @@
         "en": "Known hypersensitivity to Araceae (arum family) plants."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "ceriman",
+      "entry_name": "Ceriman",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -230,6 +241,13 @@
       "title": "Monstera deliciosa — Toxic and Non-Toxic Plants (ASPCA)",
       "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/monstera-deliciosa",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_ceriman",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Ceriman (Monstera deliciosa)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/ceriman",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -279,8 +279,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "KRITISCH: Rohe Rosskastaniensamen (Conker), Rinde, Blätter und Wurzeln sind GIFTIG — enthalten toxische Saponine (hauptsächlich Protoaescigenin nach Hydrolyse) und Glucoside. Vergiftungssymptome: Übelkeit, Erbrechen, Durchfall, Schwindel, Muskelzuckungen, in schweren Fällen Paralyse. Standardisierte Fertigpräparate (Tabletten, Kapseln, Gele) sind sicher, wenn bestimmungsgemäß angewendet. NIEMALS Eigenextraktion versuchen. Bei tiefvenöser Thrombose: Standardpräparate KEIN Ersatz für Antikoagulantien — sofort Arzt. Bei akutem Beinödem mit Rötung, Wärme und Schmerz (Verdacht DVT) → Notaufnahme, kein Aescin-Extrakt statt Abklärung. Kinder: Vergiftungsgefahr durch Rosskastanien beim Spielen — Conker im Mund können giftig sein. Tierwarnung: für Hunde toxisch (ASPCA-Warnung).",
-      "en": "CRITICAL: Raw horse chestnut seeds (conkers), bark, leaves and roots are TOXIC — contain toxic saponins (mainly protoaescigenin after hydrolysis) and glucosides. Poisoning symptoms: nausea, vomiting, diarrhoea, dizziness, muscle twitching, in severe cases paralysis. Standardised finished preparations (tablets, capsules, gels) are safe when used as directed. NEVER attempt self-extraction. With deep vein thrombosis: standard preparations are NO substitute for anticoagulants — see doctor immediately. With acute leg oedema with redness, warmth and pain (suspected DVT) → emergency room, no aescin extract instead of evaluation. Children: poisoning risk from playing with horse chestnuts — conkers in mouths can be toxic. Animal warning: toxic to dogs (ASPCA warning)."
+      "de": "KRITISCH: Rohe Rosskastaniensamen (Conker), Rinde, Blätter und Wurzeln sind GIFTIG — enthalten toxische Saponine (hauptsächlich Protoaescigenin nach Hydrolyse) und Glucoside. Vergiftungssymptome: Übelkeit, Erbrechen, Durchfall, Schwindel, Muskelzuckungen, in schweren Fällen Paralyse. Standardisierte Fertigpräparate (Tabletten, Kapseln, Gele) sind sicher, wenn bestimmungsgemäß angewendet. NIEMALS Eigenextraktion versuchen. Bei tiefvenöser Thrombose: Standardpräparate KEIN Ersatz für Antikoagulantien — sofort Arzt. Bei akutem Beinödem mit Rötung, Wärme und Schmerz (Verdacht DVT) → Notaufnahme, kein Aescin-Extrakt statt Abklärung. Kinder: Vergiftungsgefahr durch Rosskastanien beim Spielen — Conker im Mund können giftig sein. Tierwarnung: für Hunde toxisch (ASPCA-Warnung). ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "CRITICAL: Raw horse chestnut seeds (conkers), bark, leaves and roots are TOXIC — contain toxic saponins (mainly protoaescigenin after hydrolysis) and glucosides. Poisoning symptoms: nausea, vomiting, diarrhoea, dizziness, muscle twitching, in severe cases paralysis. Standardised finished preparations (tablets, capsules, gels) are safe when used as directed. NEVER attempt self-extraction. With deep vein thrombosis: standard preparations are NO substitute for anticoagulants — see doctor immediately. With acute leg oedema with redness, warmth and pain (suspected DVT) → emergency room, no aescin extract instead of evaluation. Children: poisoning risk from playing with horse chestnuts — conkers in mouths can be toxic. Animal warning: toxic to dogs (ASPCA warning). ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -366,7 +366,18 @@
         "source_id": "src_wichtl_aesculus"
       }
     ],
-    "max_continuous_use_weeks": 12
+    "max_continuous_use_weeks": 12,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "buckeye",
+      "entry_name": "Buckeye",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -425,6 +436,13 @@
       "title": "ASPCA Animal Poison Control — Horse Chestnut (Aesculus)",
       "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/horse-chestnut",
       "accessed": "2026-06-03"
+    },
+    {
+      "id": "src_aspca_buckeye",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Buckeye (Aesculus spp)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/buckeye",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

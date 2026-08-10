@@ -171,8 +171,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Bei üblicher Verwendung als Würzkraut keine bekannten Nebenwirkungen. Große Mengen können bei empfindlichen Personen Magenreizung und Blähungen verursachen — Schwefelverbindungen sind der Auslöser. TIERGIFTIG: Schnittlauch ist für Hunde, Katzen, Pferde und andere Haustiere giftig — Allium-Schwefelverbindungen (N-Propyl-Disulfid) schädigen die roten Blutkörperchen und können eine hämolytische Anämie (Heinz-Körperchen-Anämie) verursachen. Auch gekochter Schnittlauch bleibt giftig für Haustiere. Kleinste Mengen können für Katzen gefährlich sein.",
-      "en": "No known side effects with normal use as a flavouring herb. Large amounts may cause gastric irritation and flatulence in sensitive individuals — sulphur compounds are the trigger. TOXIC TO PETS: Chives are toxic to dogs, cats, horses and other pets — Allium sulphur compounds (n-propyl disulfide) damage red blood cells and can cause haemolytic anaemia (Heinz body anaemia). Cooked chives remain toxic to pets. Even small amounts can be dangerous for cats."
+      "de": "Bei üblicher Verwendung als Würzkraut keine bekannten Nebenwirkungen. Große Mengen können bei empfindlichen Personen Magenreizung und Blähungen verursachen — Schwefelverbindungen sind der Auslöser. TIERGIFTIG: Schnittlauch ist für Hunde, Katzen, Pferde und andere Haustiere giftig — Allium-Schwefelverbindungen (N-Propyl-Disulfid) schädigen die roten Blutkörperchen und können eine hämolytische Anämie (Heinz-Körperchen-Anämie) verursachen. Auch gekochter Schnittlauch bleibt giftig für Haustiere. Kleinste Mengen können für Katzen gefährlich sein. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "No known side effects with normal use as a flavouring herb. Large amounts may cause gastric irritation and flatulence in sensitive individuals — sulphur compounds are the trigger. TOXIC TO PETS: Chives are toxic to dogs, cats, horses and other pets — Allium sulphur compounds (n-propyl disulfide) damage red blood cells and can cause haemolytic anaemia (Heinz body anaemia). Cooked chives remain toxic to pets. Even small amounts can be dangerous for cats. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -213,7 +213,18 @@
         "de": "Bekannte Überempfindlichkeit gegenüber Lauchgewächsen (Allium-Allergie) — Schnittlauch und alle anderen Allium-Arten meiden.",
         "en": "Known hypersensitivity to Allium species (Allium allergy) — avoid chives and all other Allium species."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "chives",
+      "entry_name": "Chives",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -251,6 +262,13 @@
       "title": "Health Benefits Times — Chives (Allium schoenoprasum) Nutrition Facts",
       "url": "https://www.healthbenefitstimes.com/chives/",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_aspca_chives",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Chives (Allium schoenoprasum)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/chives",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

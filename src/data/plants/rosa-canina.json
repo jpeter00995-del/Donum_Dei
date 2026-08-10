@@ -200,8 +200,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Im Inneren der Hagebutte sitzen zwischen Fruchtmark und Samen feine Juckhaare (Trichome), die bei Hautkontakt einen unangenehmen, mitunter tagelangen Juckreiz auslösen — daher als historisches 'Juckpulver' bekannt. Bei Ernte und Verarbeitung immer Handschuhe tragen und Kerne mit Juckhaaren restlos entfernen. Zubereitungen aus standardisiertem Hagebuttenpulver können in Einzelfällen leichte Magenbeschwerden, weichen Stuhl oder Sodbrennen verursachen.",
-      "en": "Inside the rose hip, between fruit flesh and seeds, sit fine itch-hairs (trichomes) that on skin contact cause an unpleasant, sometimes days-long itch — historically known as 'itching powder'. Always wear gloves during harvest and processing and remove seeds and itch-hairs completely. Preparations from standardised rose-hip powder may occasionally cause mild stomach upset, soft stools or heartburn."
+      "de": "Im Inneren der Hagebutte sitzen zwischen Fruchtmark und Samen feine Juckhaare (Trichome), die bei Hautkontakt einen unangenehmen, mitunter tagelangen Juckreiz auslösen — daher als historisches 'Juckpulver' bekannt. Bei Ernte und Verarbeitung immer Handschuhe tragen und Kerne mit Juckhaaren restlos entfernen. Zubereitungen aus standardisiertem Hagebuttenpulver können in Einzelfällen leichte Magenbeschwerden, weichen Stuhl oder Sodbrennen verursachen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen ungiftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "Inside the rose hip, between fruit flesh and seeds, sit fine itch-hairs (trichomes) that on skin contact cause an unpleasant, sometimes days-long itch — historically known as 'itching powder'. Always wear gloves during harvest and processing and remove seeds and itch-hairs completely. Preparations from standardised rose-hip powder may occasionally cause mild stomach upset, soft stools or heartburn. ASPCA classification (accessed 2026-08-10): non-toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "none",
@@ -260,7 +260,18 @@
         "de": "Bekannte Oxalat-Nierensteine: bei sehr hohen Dosen Vitamin C ist eine vermehrte Oxalatbildung diskutiert — Standarddosen sind unbedenklich, Hochdosispulver bei Steinanamnese mit Ärztin/Arzt abstimmen.",
         "en": "Known oxalate kidney stones: very high doses of vitamin C may theoretically increase oxalate formation — standard doses are safe, but discuss high-dose powders with a physician if there is a history of stones."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "rose",
+      "entry_name": "Rose",
+      "listing": [
+        "non_toxic_dogs",
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -319,6 +330,13 @@
       "title": "Wikipedia (DE) — Hunds-Rose",
       "url": "https://de.wikipedia.org/wiki/Hunds-Rose",
       "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_aspca_rose",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Rose (Rosa Species)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/rose",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

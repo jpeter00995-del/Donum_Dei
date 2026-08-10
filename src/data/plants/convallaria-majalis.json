@@ -136,8 +136,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "HOCHTOXISCH — alle Teile der Pflanze giftig. Maiglöckchen (Convallaria majalis) enthält Cardenolid-Herzglykoside (Convallatoxin, Convallosid, Convallatoxol), die bei Überdosierung zu lebensbedrohlichen Herzrhythmusstörungen, AV-Block und Kammerflimmern führen können. Bereits geringe Mengen — auch das Blumenwasser — können Vergiftungen verursachen. Vergiftungszeichen: Übelkeit, Erbrechen, Bradykardie, Sehstörungen (Gelbsehen), Bewusstlosigkeit. Bei Verdacht auf Vergiftung sofort Giftnotruf kontaktieren. Keine Selbstmedikation mit Pflanzenmaterial.",
-      "en": "HIGHLY TOXIC — all parts of the plant are poisonous. Lily of the valley (Convallaria majalis) contains cardenolide cardiac glycosides (convallatoxin, convalloside, convallatoxol) that can cause life-threatening cardiac arrhythmias, AV block, and ventricular fibrillation when overdosed. Even small amounts — including flower water — can cause poisoning. Poisoning signs: nausea, vomiting, bradycardia, visual disturbances (xanthopsia), loss of consciousness. In suspected poisoning, contact a poison control centre immediately. No self-medication with plant material."
+      "de": "HOCHTOXISCH — alle Teile der Pflanze giftig. Maiglöckchen (Convallaria majalis) enthält Cardenolid-Herzglykoside (Convallatoxin, Convallosid, Convallatoxol), die bei Überdosierung zu lebensbedrohlichen Herzrhythmusstörungen, AV-Block und Kammerflimmern führen können. Bereits geringe Mengen — auch das Blumenwasser — können Vergiftungen verursachen. Vergiftungszeichen: Übelkeit, Erbrechen, Bradykardie, Sehstörungen (Gelbsehen), Bewusstlosigkeit. Bei Verdacht auf Vergiftung sofort Giftnotruf kontaktieren. Keine Selbstmedikation mit Pflanzenmaterial. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "HIGHLY TOXIC — all parts of the plant are poisonous. Lily of the valley (Convallaria majalis) contains cardenolide cardiac glycosides (convallatoxin, convalloside, convallatoxol) that can cause life-threatening cardiac arrhythmias, AV block, and ventricular fibrillation when overdosed. Even small amounts — including flower water — can cause poisoning. Poisoning signs: nausea, vomiting, bradycardia, visual disturbances (xanthopsia), loss of consciousness. In suspected poisoning, contact a poison control centre immediately. No self-medication with plant material. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -234,7 +234,18 @@
         "severity": "caution",
         "source_id": "src_wiki_convallaria_en"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "lily-valley",
+      "entry_name": "Lily of the Valley",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -265,6 +276,13 @@
       "title": "Plants For A Future (PFAF): Convallaria majalis — Lily of the valley",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Convallaria+majalis",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_lily_valley",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Lily of the Valley (Convallaria majalis)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/lily-valley",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

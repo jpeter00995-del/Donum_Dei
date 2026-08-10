@@ -162,12 +162,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "In üblichen Küchenmengen (Blätter) unbedenklich. Das ätherische Öl enthält Estragol (Methylchavicol) und Methyleugenol — beide gelten laut EFSA als genotoxisch und potenziell kanzerogen. Konzentrierte Anwendung (z. B. als reines ätherisches Öl innerlich) ist zu vermeiden. Personen mit Asteraceae-Allergie sollten vorsichtig sein.",
-      "en": "Safe in normal culinary leaf amounts. The essential oil contains estragole (methyl chavicol) and methyl eugenol — both classified by EFSA as genotoxic and potentially carcinogenic. Concentrated use (e.g. pure essential oil taken internally) should be avoided. People with Asteraceae allergies should exercise caution."
+      "de": "In üblichen Küchenmengen (Blätter) unbedenklich. Das ätherische Öl enthält Estragol (Methylchavicol) und Methyleugenol — beide gelten laut EFSA als genotoxisch und potenziell kanzerogen. Konzentrierte Anwendung (z. B. als reines ätherisches Öl innerlich) ist zu vermeiden. Personen mit Asteraceae-Allergie sollten vorsichtig sein. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "Safe in normal culinary leaf amounts. The essential oil contains estragole (methyl chavicol) and methyl eugenol — both classified by EFSA as genotoxic and potentially carcinogenic. Concentrated use (e.g. pure essential oil taken internally) should be avoided. People with Asteraceae allergies should exercise caution. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "contraindicated",
       "note": {
@@ -199,7 +199,18 @@
         "en": "Internal use of concentrated essential oil"
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "tarragon",
+      "entry_name": "Tarragon",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -230,6 +241,13 @@
       "title": "Artemisia dracunculus (Tarragon): A Review of Its Traditional Uses, Phytochemistry and Pharmacology. Frontiers in Pharmacology, 2021. DOI: 10.3389/fphar.2021.653993",
       "url": "https://doi.org/10.3389/fphar.2021.653993",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_aspca_tarragon",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Tarragon (Artemisia dracunculus)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/tarragon",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

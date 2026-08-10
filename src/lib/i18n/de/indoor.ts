@@ -33,4 +33,9 @@ export const indoor = {
   'indoor.diff.3': 'erfahren',
   'indoor.pet_safe.yes': 'haustier-sicher',
   'indoor.pet_safe.no': 'für Haustiere giftig',
+  // Seit 2026-08-10 unterscheidet die Seite belegte und unbelegte Angaben.
+  'indoor.pet_safe.checked': 'ungiftig — von der ASPCA geprüft',
+  'indoor.pet_safe.unchecked': 'ungiftig — nicht extern geprüft',
+  'indoor.pet_safe.unknown': 'keine geprüfte Angabe',
+  'indoor.pet_safe.filter_note': '🐾 steht nur bei extern geprüften Pflanzen.',
 };

@@ -166,8 +166,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG — vor allem die Zwiebel. Alle Pflanzenteile von Tulipa gesneriana enthalten Tuliposid A und B sowie deren Aglyka Tulipalin A und B (alpha-Methylen-gamma-Butyrolactone), in Zwiebel und zentralem Spross am höchsten konzentriert. Hautkontakt mit Zwiebelsaft führt zu 'Tulpenfingern' — einer klassisch beschriebenen allergischen Berufs-Kontaktdermatitis bei Floristen, Zwiebelpackern und Gartenbauarbeitern. Verzehr der Zwiebel verursacht Brennen im Mund, Übelkeit, Erbrechen, krampfartige Bauchschmerzen und Durchfall (Gastroenteritis); im niederländischen Hunger-Winter 1944/45 dokumentierte Notnahrungs-Vergiftungen. Verwechslung mit Speisezwiebeln ist mehrfach beschrieben. Auch für Hunde, Katzen und Pferde toxisch (Symptome: Speicheln, Erbrechen, Durchfall, in schwerer Form Tachykardie und Atemnot). Bei Verdacht auf Vergiftung: Giftnotrufzentrale anrufen, kein Erbrechen provozieren, viel Flüssigkeit anbieten.",
-      "en": "TOXIC — especially the bulb. All parts of Tulipa gesneriana contain tuliposide A and B as well as their aglycones tulipalin A and B (alpha-methylene-gamma-butyrolactones), most concentrated in the bulb and central sprout. Skin contact with bulb sap causes 'tulip fingers' — a classically described occupational allergic contact dermatitis in florists, bulb packers and horticultural workers. Consuming the bulb causes oral burning, nausea, vomiting, cramping abdominal pain and diarrhoea (gastroenteritis); the Dutch Hunger Winter 1944/45 documented emergency-food poisonings. Confusion with edible onions has been described repeatedly. Also toxic to dogs, cats and horses (symptoms: hypersalivation, vomiting, diarrhoea, in severe form tachycardia and respiratory distress). On suspected poisoning: call poison control, do not induce vomiting, offer plenty of fluids."
+      "de": "GIFTIG — vor allem die Zwiebel. Alle Pflanzenteile von Tulipa gesneriana enthalten Tuliposid A und B sowie deren Aglyka Tulipalin A und B (alpha-Methylen-gamma-Butyrolactone), in Zwiebel und zentralem Spross am höchsten konzentriert. Hautkontakt mit Zwiebelsaft führt zu 'Tulpenfingern' — einer klassisch beschriebenen allergischen Berufs-Kontaktdermatitis bei Floristen, Zwiebelpackern und Gartenbauarbeitern. Verzehr der Zwiebel verursacht Brennen im Mund, Übelkeit, Erbrechen, krampfartige Bauchschmerzen und Durchfall (Gastroenteritis); im niederländischen Hunger-Winter 1944/45 dokumentierte Notnahrungs-Vergiftungen. Verwechslung mit Speisezwiebeln ist mehrfach beschrieben. Auch für Hunde, Katzen und Pferde toxisch (Symptome: Speicheln, Erbrechen, Durchfall, in schwerer Form Tachykardie und Atemnot). Bei Verdacht auf Vergiftung: Giftnotrufzentrale anrufen, kein Erbrechen provozieren, viel Flüssigkeit anbieten. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "TOXIC — especially the bulb. All parts of Tulipa gesneriana contain tuliposide A and B as well as their aglycones tulipalin A and B (alpha-methylene-gamma-butyrolactones), most concentrated in the bulb and central sprout. Skin contact with bulb sap causes 'tulip fingers' — a classically described occupational allergic contact dermatitis in florists, bulb packers and horticultural workers. Consuming the bulb causes oral burning, nausea, vomiting, cramping abdominal pain and diarrhoea (gastroenteritis); the Dutch Hunger Winter 1944/45 documented emergency-food poisonings. Confusion with edible onions has been described repeatedly. Also toxic to dogs, cats and horses (symptoms: hypersalivation, vomiting, diarrhoea, in severe form tachycardia and respiratory distress). On suspected poisoning: call poison control, do not induce vomiting, offer plenty of fluids. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -225,7 +225,18 @@
         "severity": "monitor",
         "source_id": "src_hausarzt_tulipa_gesneriana"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "tulip",
+      "entry_name": "Tulip",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -277,6 +288,13 @@
       "title": "Tulipa — Wikipedia (EN)",
       "url": "https://en.wikipedia.org/wiki/Tulip",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_tulip",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Tulip (Tulipa spp.)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/tulip",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

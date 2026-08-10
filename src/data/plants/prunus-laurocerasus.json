@@ -173,8 +173,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG — BLÄTTER, SAMEN, BLÜTEN UND RINDE. Prunus laurocerasus (Kirschlorbeer, Lorbeerkirsche) zählt zu den häufigsten Heckenpflanzen Mitteleuropas und ist eine der häufigsten Vergiftungsquellen bei Kindern und Haustieren. Alle Pflanzenteile außer dem reifen Fruchtfleisch enthalten cyanogene Glykoside (Prunasin in Blättern, Amygdalin in Samen), die nach Verletzung durch das pflanzeneigene Enzym β-Glucosidase Blausäure (HCN) freisetzen. Die Samen (Steinkerne) der schwarzen Steinfrüchte enthalten besonders hohe Glykosidkonzentrationen; bereits 5–10 zerkaute Samen können schwere Vergiftungserscheinungen verursachen. HCN hemmt die Cytochrom-c-Oxidase der Atmungskette und blockiert die zelluläre Sauerstoffverwertung. Symptome treten innerhalb von Minuten bis Stunden auf: bittere Mandel-/Marzipan-Atemgeruch, Übelkeit, Erbrechen, Kopfschmerzen, Tachypnoe, Krämpfe, Bewusstlosigkeit, Atemstillstand. Beim Häckseln der Hecke entstehen HCN-Dämpfe — nur im Freien, NICHT in geschlossenen Räumen häckseln und Häckselgut nicht kompostieren. Bei Vergiftungsverdacht: SOFORT Notruf 112 und Giftnotruf. Antidote: Hydroxocobalamin (Cyanokit®) und/oder 4-Dimethylaminophenol als Erstlinien-Therapie.",
-      "en": "TOXIC — LEAVES, SEEDS, FLOWERS AND BARK. Prunus laurocerasus (cherry laurel, common laurel) is one of the most common hedge plants in Central Europe and a frequent source of poisoning in children and pets. All plant parts except ripe fruit pulp contain cyanogenic glycosides (prunasin in leaves, amygdalin in kernels) which, upon tissue damage, are converted by the plant's own enzyme β-glucosidase to hydrocyanic acid (HCN). The kernels (stones) of the black drupes contain particularly high glycoside concentrations; as few as 5–10 chewed kernels can cause severe poisoning symptoms. HCN inhibits cytochrome-c oxidase of the respiratory chain and blocks cellular oxygen utilisation. Symptoms appear within minutes to hours: bitter almond/marzipan breath odour, nausea, vomiting, headache, tachypnoea, seizures, unconsciousness, respiratory arrest. Shredding the hedge releases HCN vapours — shred only outdoors, NOT in enclosed spaces, and do not compost shredded material. In case of suspected poisoning: IMMEDIATELY call emergency services and poison control. Antidotes: hydroxocobalamin (Cyanokit®) and/or 4-dimethylaminophenol as first-line therapy."
+      "de": "GIFTIG — BLÄTTER, SAMEN, BLÜTEN UND RINDE. Prunus laurocerasus (Kirschlorbeer, Lorbeerkirsche) zählt zu den häufigsten Heckenpflanzen Mitteleuropas und ist eine der häufigsten Vergiftungsquellen bei Kindern und Haustieren. Alle Pflanzenteile außer dem reifen Fruchtfleisch enthalten cyanogene Glykoside (Prunasin in Blättern, Amygdalin in Samen), die nach Verletzung durch das pflanzeneigene Enzym β-Glucosidase Blausäure (HCN) freisetzen. Die Samen (Steinkerne) der schwarzen Steinfrüchte enthalten besonders hohe Glykosidkonzentrationen; bereits 5–10 zerkaute Samen können schwere Vergiftungserscheinungen verursachen. HCN hemmt die Cytochrom-c-Oxidase der Atmungskette und blockiert die zelluläre Sauerstoffverwertung. Symptome treten innerhalb von Minuten bis Stunden auf: bittere Mandel-/Marzipan-Atemgeruch, Übelkeit, Erbrechen, Kopfschmerzen, Tachypnoe, Krämpfe, Bewusstlosigkeit, Atemstillstand. Beim Häckseln der Hecke entstehen HCN-Dämpfe — nur im Freien, NICHT in geschlossenen Räumen häckseln und Häckselgut nicht kompostieren. Bei Vergiftungsverdacht: SOFORT Notruf 112 und Giftnotruf. Antidote: Hydroxocobalamin (Cyanokit®) und/oder 4-Dimethylaminophenol als Erstlinien-Therapie. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "TOXIC — LEAVES, SEEDS, FLOWERS AND BARK. Prunus laurocerasus (cherry laurel, common laurel) is one of the most common hedge plants in Central Europe and a frequent source of poisoning in children and pets. All plant parts except ripe fruit pulp contain cyanogenic glycosides (prunasin in leaves, amygdalin in kernels) which, upon tissue damage, are converted by the plant's own enzyme β-glucosidase to hydrocyanic acid (HCN). The kernels (stones) of the black drupes contain particularly high glycoside concentrations; as few as 5–10 chewed kernels can cause severe poisoning symptoms. HCN inhibits cytochrome-c oxidase of the respiratory chain and blocks cellular oxygen utilisation. Symptoms appear within minutes to hours: bitter almond/marzipan breath odour, nausea, vomiting, headache, tachypnoea, seizures, unconsciousness, respiratory arrest. Shredding the hedge releases HCN vapours — shred only outdoors, NOT in enclosed spaces, and do not compost shredded material. In case of suspected poisoning: IMMEDIATELY call emergency services and poison control. Antidotes: hydroxocobalamin (Cyanokit®) and/or 4-dimethylaminophenol as first-line therapy. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -272,7 +272,18 @@
         "severity": "monitor",
         "source_id": "src_pfaf_prunus_laurocerasus"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "cherry",
+      "entry_name": "Cherry",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -315,6 +326,13 @@
       "url": "https://www.wikidata.org/wiki/Q157508",
       "accessed": "2026-05-26",
       "language": "en"
+    },
+    {
+      "id": "src_aspca_cherry",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Cherry (Prunus spp.)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/cherry",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

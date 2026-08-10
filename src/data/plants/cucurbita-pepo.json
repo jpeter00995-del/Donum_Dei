@@ -156,8 +156,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Kürbiskerne und Kürbiskernöl bei üblicher Küchenmenge und therapeutischer Anwendung sicher. Gelegentlich leichte Magen-Darm-Beschwerden (Häufigkeit ca. 4 % laut EMA-Monographie). Keimende Kürbissamen nicht als Keimsprossen essen — enthalten im Embryo eine toxische Substanz. Bei Beschwerden des unteren Harntrakts (BPH, Reizblase) vor Eigentherapie mit Kürbiskernpräparaten ernste Ursachen ärztlich ausschließen lassen.",
-      "en": "Pumpkin seeds and pumpkin seed oil are safe at normal culinary and therapeutic amounts. Occasional mild gastrointestinal complaints (frequency approx. 4 % per EMA monograph). Do not eat sprouting pumpkin seeds as sprouts — the embryo contains a toxic substance. For lower urinary tract complaints (BPH, overactive bladder), have serious underlying conditions excluded by a doctor before self-treating with pumpkin seed preparations."
+      "de": "Kürbiskerne und Kürbiskernöl bei üblicher Küchenmenge und therapeutischer Anwendung sicher. Gelegentlich leichte Magen-Darm-Beschwerden (Häufigkeit ca. 4 % laut EMA-Monographie). Keimende Kürbissamen nicht als Keimsprossen essen — enthalten im Embryo eine toxische Substanz. Bei Beschwerden des unteren Harntrakts (BPH, Reizblase) vor Eigentherapie mit Kürbiskernpräparaten ernste Ursachen ärztlich ausschließen lassen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen ungiftig.",
+      "en": "Pumpkin seeds and pumpkin seed oil are safe at normal culinary and therapeutic amounts. Occasional mild gastrointestinal complaints (frequency approx. 4 % per EMA monograph). Do not eat sprouting pumpkin seeds as sprouts — the embryo contains a toxic substance. For lower urinary tract complaints (BPH, overactive bladder), have serious underlying conditions excluded by a doctor before self-treating with pumpkin seed preparations. ASPCA classification (accessed 2026-08-10): non-toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -193,7 +193,18 @@
         "en": "Do not consume sprouting pumpkin seeds as sprouts — toxic substance in the embryo."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "acorn-squash",
+      "entry_name": "Acorn Squash",
+      "listing": [
+        "non_toxic_dogs",
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -238,6 +249,13 @@
       "title": "USDA FoodData Central — Squash, summer, all varieties, raw",
       "url": "https://fdc.nal.usda.gov/food-details/169291/nutrients",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_aspca_acorn_squash",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Acorn Squash (Cucurbita pepo)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/acorn-squash",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -2,39 +2,43 @@
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { splitPetSafe, getPetCheck } from '@/lib/petSafety';
 
 // === 2. DATA ===
+// Zwei Gruppen statt einer Liste — siehe de/ungiftige-pflanzen-haustiere.astro.
 const locale = 'en' as const;
 const all = loadAllPlants();
-const safe = all
-  .filter(p => p.safety?.pet_toxic === false && p.safety?.toxicity_level !== 'toxic')
-  .sort((a, b) => a.names.en.localeCompare(b.names.en, 'en'));
-const indoorSafe = safe.filter(p => p.indoor_growing?.suitable === true);
+const { checked, unchecked } = splitPetSafe(all, locale);
+const indoorChecked = checked.filter(p => p.indoor_growing?.suitable === true);
 
 const title = 'Pet-Safe Plants for Cats & Dogs';
 const description =
-  `Which plants are non-toxic to cats and dogs? ${safe.length} pet-safe plants from our ` +
-  `database – ${indoorSafe.length} of them suitable as houseplants.`;
+  `Which plants are non-toxic to cats and dogs? ${checked.length} plants confirmed by the ` +
+  `ASPCA list plus ${unchecked.length} more without external verification, kept separate.`;
 ---
 
 <BaseLayout locale={locale} title={title} description={description} altPath="/de/ungiftige-pflanzen-haustiere/">
   <section class="max-w-6xl mx-auto px-4 pt-8 pb-12">
     <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">Pet-Safe Plants for Cats &amp; Dogs</h1>
     <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-2 text-pretty">
-      Looking for plants that are safe around your pets? These {safe.length} plants from our
-      database are considered non-toxic to cats and dogs – {indoorSafe.length} of them work as
-      houseplants. Tap a plant for details.
+      Looking for plants that are safe around your pets? The ASPCA animal poison control list
+      explicitly names {checked.length} plants from our database as non-toxic to dogs and cats.
+      Those come first — {indoorChecked.length} of them work as houseplants.
+    </p>
+    <p class="max-w-2xl text-slate-600 mb-2">
+      Below that are {unchecked.length} plants we consider harmless but that no external poison
+      list covers. We keep them apart on purpose: we would rather tell you what we do not know.
     </p>
     <p class="text-sm text-slate-400 mb-8">
       Even non-toxic plants can cause mild stomach upset if pets chew large amounts. When in
       doubt, seek veterinary advice.
     </p>
 
-    {indoorSafe.length > 0 && (
+    {indoorChecked.length > 0 && (
       <>
-        <h2 class="font-serif text-2xl text-slate-900 mb-3">Suitable as houseplants</h2>
+        <h2 class="font-serif text-2xl text-slate-900 mb-3">Verified and suitable as houseplants</h2>
         <div class="flex flex-wrap gap-2.5 mb-10">
-          {indoorSafe.map(p => (
+          {indoorChecked.map(p => (
             <a href={`/en/plant/${p.slug}/`}
               class="rounded-full border border-emerald-100 bg-emerald-50 px-4 py-2 text-sm font-medium text-emerald-700 hover:border-emerald-600 transition">
               {p.names.en}
@@ -44,9 +48,12 @@ const description =
       </>
     )}
 
-    <h2 class="font-serif text-2xl text-slate-900 mb-4">All pet-safe plants</h2>
+    <h2 class="font-serif text-2xl text-slate-900 mb-1">Listed as non-toxic by the ASPCA</h2>
+    <p class="text-sm text-slate-500 mb-4">
+      {checked.length} plants. The source is linked under „Sources" on every plant page.
+    </p>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {safe.map(p => (
+      {checked.map(p => (
         <a href={`/en/plant/${p.slug}/`}
           class="group flex gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3 hover:border-emerald-600 transition">
           <img src={`/images/plants/${p.image.filename}`} alt={p.image.alt?.en ?? p.names.en}
@@ -55,7 +62,38 @@ const description =
           <div class="min-w-0">
             <div class="flex items-center gap-2 flex-wrap">
               <span class="font-serif text-slate-900 leading-tight">{p.names.en}</span>
-              <span class="rounded-full border border-emerald-200 bg-emerald-50 px-2 py-0.5 text-[11px] font-semibold text-emerald-700">non-toxic</span>
+              <span class="rounded-full border border-emerald-200 bg-emerald-50 px-2 py-0.5 text-[11px] font-semibold text-emerald-700">
+                non-toxic · ASPCA
+              </span>
+              {getPetCheck(p)?.match === 'genus' && (
+                <span class="text-[11px] text-slate-400">(genus)</span>
+              )}
+            </div>
+            <div class="text-xs italic text-slate-400">{p.names.latin}</div>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <h2 class="font-serif text-2xl text-slate-900 mt-12 mb-1">Not externally verified</h2>
+    <p class="max-w-2xl text-sm text-slate-500 mb-4">
+      {unchecked.length} plants. We know of no risk to dogs or cats, and the ASPCA does not list
+      them at all — neither as toxic nor as non-toxic. That is not a clean bill of health: if
+      your pet chews on plants, ask your vet first.
+    </p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {unchecked.map(p => (
+        <a href={`/en/plant/${p.slug}/`}
+          class="group flex gap-3 rounded-2xl border border-slate-200 bg-white p-3 hover:border-slate-400 transition">
+          <img src={`/images/plants/${p.image.filename}`} alt={p.image.alt?.en ?? p.names.en}
+            width="72" height="72" loading="lazy"
+            class="flex-none rounded-xl object-cover bg-slate-100" style="width:72px;height:72px;" />
+          <div class="min-w-0">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="font-serif text-slate-900 leading-tight">{p.names.en}</span>
+              <span class="rounded-full border border-slate-200 bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-500">
+                not verified
+              </span>
             </div>
             <div class="text-xs italic text-slate-400">{p.names.latin}</div>
           </div>

@@ -146,8 +146,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG — besonders die Knolle (Tuber). Cyclamen persicum enthält Saponin-Glycoside (Cyclamin, Hederagenin-Glykoside), die bei Ingestion Erbrechen, Durchfall, starke Bauchschmerzen und bei hoher Dosis Herzrhythmusstörungen verursachen können. Für Hunde, Katzen und Vögel ist die Knolle HOCHGIFTIG (Saponin-bedingte Hämolyse und Schleimhautreizung). Kontakt mit Knollensaft: Haut- und Augenreizung möglich. Die Pflanze NIEMALS intern verwenden. Alle Anwendungsformen ausschließlich äußerlich und nur historisch dokumentiert — keine moderne Therapie-Empfehlung.",
-      "en": "TOXIC — especially the tuber. Cyclamen persicum contains saponin glycosides (cyclamin, hederagenin glycosides) that can cause vomiting, diarrhoea, severe abdominal pain, and at high doses cardiac arrhythmias upon ingestion. The tuber is HIGHLY TOXIC to dogs, cats, and birds (saponin-induced haemolysis and mucosal irritation). Contact with tuber juice: skin and eye irritation possible. NEVER use the plant internally. All application forms exclusively external and only historically documented — no modern therapeutic recommendation."
+      "de": "GIFTIG — besonders die Knolle (Tuber). Cyclamen persicum enthält Saponin-Glycoside (Cyclamin, Hederagenin-Glykoside), die bei Ingestion Erbrechen, Durchfall, starke Bauchschmerzen und bei hoher Dosis Herzrhythmusstörungen verursachen können. Für Hunde, Katzen und Vögel ist die Knolle HOCHGIFTIG (Saponin-bedingte Hämolyse und Schleimhautreizung). Kontakt mit Knollensaft: Haut- und Augenreizung möglich. Die Pflanze NIEMALS intern verwenden. Alle Anwendungsformen ausschließlich äußerlich und nur historisch dokumentiert — keine moderne Therapie-Empfehlung. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "TOXIC — especially the tuber. Cyclamen persicum contains saponin glycosides (cyclamin, hederagenin glycosides) that can cause vomiting, diarrhoea, severe abdominal pain, and at high doses cardiac arrhythmias upon ingestion. The tuber is HIGHLY TOXIC to dogs, cats, and birds (saponin-induced haemolysis and mucosal irritation). Contact with tuber juice: skin and eye irritation possible. NEVER use the plant internally. All application forms exclusively external and only historically documented — no modern therapeutic recommendation. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -204,7 +204,18 @@
         },
         "severity": "caution"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "cyclamen",
+      "entry_name": "Cyclamen",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -249,6 +260,13 @@
       "title": "Wikipedia EN: Cyclamen persicum",
       "url": "https://en.wikipedia.org/wiki/Cyclamen_persicum",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_cyclamen",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Cyclamen (Cyclamen spp)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/cyclamen",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

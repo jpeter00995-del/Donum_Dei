@@ -134,8 +134,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Der milchig-weiße Latex (Pflanzensaft) tritt beim Verletzen aller oberirdischen Pflanzenteile aus und kann Hautreizungen, allergische Kontaktdermatitis und (bei besonnter Haut) phototoxische Reaktionen auslösen. Verschlucken kann zu Reizung von Mund, Speiseröhre und Magen-Darm-Trakt führen. Für Hunde, Katzen und Pferde gilt die Art nach ASPCA-Listung als toxisch (gastrointestinale Reizung, Hypersalivation). Beim Schneiden oder Umtopfen Handschuhe tragen; Saft nicht in Augen oder offene Wunden bringen.",
-      "en": "The milky white latex (plant sap) exudes from any cut above-ground part and can cause skin irritation, allergic contact dermatitis and (on sun-exposed skin) phototoxic reactions. Ingestion can cause irritation of mouth, oesophagus and gastrointestinal tract. The species is listed by the ASPCA as toxic to dogs, cats and horses (gastrointestinal irritation, hypersalivation). Wear gloves when pruning or repotting; keep sap out of eyes and open wounds."
+      "de": "Der milchig-weiße Latex (Pflanzensaft) tritt beim Verletzen aller oberirdischen Pflanzenteile aus und kann Hautreizungen, allergische Kontaktdermatitis und (bei besonnter Haut) phototoxische Reaktionen auslösen. Verschlucken kann zu Reizung von Mund, Speiseröhre und Magen-Darm-Trakt führen. Für Hunde, Katzen und Pferde gilt die Art nach ASPCA-Listung als toxisch (gastrointestinale Reizung, Hypersalivation). Beim Schneiden oder Umtopfen Handschuhe tragen; Saft nicht in Augen oder offene Wunden bringen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "The milky white latex (plant sap) exudes from any cut above-ground part and can cause skin irritation, allergic contact dermatitis and (on sun-exposed skin) phototoxic reactions. Ingestion can cause irritation of mouth, oesophagus and gastrointestinal tract. The species is listed by the ASPCA as toxic to dogs, cats and horses (gastrointestinal irritation, hypersalivation). Wear gloves when pruning or repotting; keep sap out of eyes and open wounds. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": true,
     "toxicity_level": "caution",
@@ -171,7 +171,18 @@
         "en": "No internal use: there is no established medicinal use of Ficus lyrata."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "weeping-fig",
+      "entry_name": "Weeping Fig",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -216,6 +227,13 @@
       "title": "Fiddle-Leaf Fig (Ficus lyrata) — ASPCA Toxic and Non-Toxic Plant List",
       "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/fiddle-leaf",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_weeping_fig",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Weeping Fig (Ficus sp.)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

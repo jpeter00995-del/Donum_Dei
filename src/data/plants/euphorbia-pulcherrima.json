@@ -142,8 +142,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "MILCHSAFT (LATEX) REIZEND — NICHT TÖDLICH. Der Latex von Euphorbia pulcherrima enthält Diterpenester (Euphorbol-Ester, Ingenol-Ester) und Triterpene, die Haut- und Schleimhautreizungen verursachen können. Typische Symptome nach Hautkontakt: Rötung, Jucken, Brennen. Bei Augenkontakt: sofort mit Wasser spülen. Bei Verschlucken kleiner Mengen: leichte Übelkeit und Mundreizung möglich — kein medizinischer Notfall bei Kleinstmengen, bei größeren Mengen Giftnotruf anrufen. Kontaktdermatitis ist bei beruflicher Exposition (Floristen) dokumentiert. PET-TOXIZITÄT: mild — für Hunde und Katzen nur gering toxisch (Magen-Darm-Reizung, kein Organversagen). DER 'TÖDLICHE-VERGIFTUNG'-MYTHOS IST FALSCH.",
-      "en": "LATEX IRRITANT — NOT LETHAL. The latex of Euphorbia pulcherrima contains diterpene esters (euphorbol esters, ingenol esters) and triterpenes that can cause skin and mucosal irritation. Typical symptoms after skin contact: redness, itching, burning. On eye contact: rinse immediately with water. Upon swallowing small amounts: mild nausea and oral irritation possible — not a medical emergency for tiny quantities, call poison control for larger amounts. Contact dermatitis has been documented with occupational exposure (florists). PET TOXICITY: mild — only mildly toxic to dogs and cats (gastrointestinal irritation, no organ failure). THE 'LETHAL POISONING' MYTH IS FALSE."
+      "de": "MILCHSAFT (LATEX) REIZEND — NICHT TÖDLICH. Der Latex von Euphorbia pulcherrima enthält Diterpenester (Euphorbol-Ester, Ingenol-Ester) und Triterpene, die Haut- und Schleimhautreizungen verursachen können. Typische Symptome nach Hautkontakt: Rötung, Jucken, Brennen. Bei Augenkontakt: sofort mit Wasser spülen. Bei Verschlucken kleiner Mengen: leichte Übelkeit und Mundreizung möglich — kein medizinischer Notfall bei Kleinstmengen, bei größeren Mengen Giftnotruf anrufen. Kontaktdermatitis ist bei beruflicher Exposition (Floristen) dokumentiert. PET-TOXIZITÄT: mild — für Hunde und Katzen nur gering toxisch (Magen-Darm-Reizung, kein Organversagen). DER 'TÖDLICHE-VERGIFTUNG'-MYTHOS IST FALSCH. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "LATEX IRRITANT — NOT LETHAL. The latex of Euphorbia pulcherrima contains diterpene esters (euphorbol esters, ingenol esters) and triterpenes that can cause skin and mucosal irritation. Typical symptoms after skin contact: redness, itching, burning. On eye contact: rinse immediately with water. Upon swallowing small amounts: mild nausea and oral irritation possible — not a medical emergency for tiny quantities, call poison control for larger amounts. Contact dermatitis has been documented with occupational exposure (florists). PET TOXICITY: mild — only mildly toxic to dogs and cats (gastrointestinal irritation, no organ failure). THE 'LETHAL POISONING' MYTH IS FALSE. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -192,7 +192,18 @@
         },
         "severity": "monitor"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "poinsettia",
+      "entry_name": "Poinsettia",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -251,6 +262,13 @@
       "title": "Wikipedia EN: Euphorbia pulcherrima",
       "url": "https://en.wikipedia.org/wiki/Euphorbia_pulcherrima",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_poinsettia",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Poinsettia (Euphorbia pulcherrima)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/poinsettia",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -229,7 +229,17 @@
         "severity": "monitor",
         "source_id": "src_pmc3217679"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "lemon-grass",
+      "entry_name": "Lemon Grass",
+      "listing": [
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -292,7 +302,7 @@
     "light": "direct_sun",
     "water_frequency": "every_few_days",
     "difficulty": 2,
-    "pet_safe": true,
+    "pet_safe": false,
     "soil": {
       "de": "Standard-Kräutererde",
       "en": "Standard herb compost"

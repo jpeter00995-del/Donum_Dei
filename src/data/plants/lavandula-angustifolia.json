@@ -261,7 +261,18 @@
         "en": "Pregnancy and breastfeeding — not recommended due to lack of data."
       }
     ],
-    "max_continuous_use_weeks": 10
+    "max_continuous_use_weeks": 10,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "lavender",
+      "entry_name": "Lavender",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -310,7 +321,7 @@
     "light": "direct_sun",
     "water_frequency": "weekly",
     "difficulty": 2,
-    "pet_safe": true,
+    "pet_safe": false,
     "soil": {
       "de": "Sandig-lehmig, kalkhaltig, mit Drainage",
       "en": "Sandy-loamy, calcareous, with drainage"

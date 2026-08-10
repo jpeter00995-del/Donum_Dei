@@ -169,8 +169,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG — ALLE PFLANZENTEILE, BESONDERS DIE ZWIEBEL. Narcissus pseudonarcissus enthält Amaryllidaceae-Alkaloide (Lycorin als Hauptkomponente, daneben Galantamin, Homolycorin, Narciclasin, Narcissin) sowie Calciumoxalat-Raphiden. Vergiftungen treten klassisch durch versehentliche Verwechslung der Zwiebel mit Speisezwiebel oder Schalotte auf — ein dokumentiertes Problem besonders während Lebensmittelknappheit (Niederländische Hungerwinter 1944/45; rezent: Migrantenvergiftungen Mitteleuropa). Symptome (oral): innerhalb 15–60 Minuten Übelkeit, starkes Erbrechen, Durchfall, Bauchschmerzen, Speichelfluss, Schwitzen, Schwindel; bei höheren Mengen Tachykardie, Hypotonie, Krämpfe. Dermal: 'daffodil rash' / 'lily rash' / Floristen-Ekzem — irritative und allergische Kontaktdermatitis durch Pflanzensaft und Calciumoxalat-Raphiden. Schnittblumen-Saft ist phytotoxisch und schädigt andere Schnittblumen in derselben Vase (24 h separates Wässern empfohlen). Bei Verdacht auf orale Vergiftung: Giftnotruf (Deutschland: regionale Giftinformationszentralen), reichlich Wasser, KEIN Salzwasser zur Brechauslösung; bei Kindern und Haustieren sofort ärztlich/tierärztlich vorstellen.",
-      "en": "TOXIC — ALL PLANT PARTS, ESPECIALLY THE BULB. Narcissus pseudonarcissus contains Amaryllidaceae alkaloids (lycorine as main component, alongside galantamine, homolycorine, narciclasine, narcissine) plus calcium oxalate raphides. Poisonings classically occur through accidental confusion of the bulb with kitchen onion or shallot — a documented problem particularly during food shortages (Dutch Hunger Winter 1944/45; recently: migrant poisonings in Central Europe). Symptoms (oral): within 15–60 minutes nausea, severe vomiting, diarrhoea, abdominal pain, salivation, sweating, dizziness; with higher amounts tachycardia, hypotension, seizures. Dermal: 'daffodil rash' / 'lily rash' / florist's eczema — irritant and allergic contact dermatitis from plant sap and calcium oxalate raphides. Cut-flower sap is phytotoxic and damages other cut flowers in the same vase (24 h separate watering recommended). On suspected oral poisoning: poison control (regional centres), abundant water, NO salt water for induced vomiting; for children and pets present immediately to medical/veterinary care."
+      "de": "GIFTIG — ALLE PFLANZENTEILE, BESONDERS DIE ZWIEBEL. Narcissus pseudonarcissus enthält Amaryllidaceae-Alkaloide (Lycorin als Hauptkomponente, daneben Galantamin, Homolycorin, Narciclasin, Narcissin) sowie Calciumoxalat-Raphiden. Vergiftungen treten klassisch durch versehentliche Verwechslung der Zwiebel mit Speisezwiebel oder Schalotte auf — ein dokumentiertes Problem besonders während Lebensmittelknappheit (Niederländische Hungerwinter 1944/45; rezent: Migrantenvergiftungen Mitteleuropa). Symptome (oral): innerhalb 15–60 Minuten Übelkeit, starkes Erbrechen, Durchfall, Bauchschmerzen, Speichelfluss, Schwitzen, Schwindel; bei höheren Mengen Tachykardie, Hypotonie, Krämpfe. Dermal: 'daffodil rash' / 'lily rash' / Floristen-Ekzem — irritative und allergische Kontaktdermatitis durch Pflanzensaft und Calciumoxalat-Raphiden. Schnittblumen-Saft ist phytotoxisch und schädigt andere Schnittblumen in derselben Vase (24 h separates Wässern empfohlen). Bei Verdacht auf orale Vergiftung: Giftnotruf (Deutschland: regionale Giftinformationszentralen), reichlich Wasser, KEIN Salzwasser zur Brechauslösung; bei Kindern und Haustieren sofort ärztlich/tierärztlich vorstellen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "TOXIC — ALL PLANT PARTS, ESPECIALLY THE BULB. Narcissus pseudonarcissus contains Amaryllidaceae alkaloids (lycorine as main component, alongside galantamine, homolycorine, narciclasine, narcissine) plus calcium oxalate raphides. Poisonings classically occur through accidental confusion of the bulb with kitchen onion or shallot — a documented problem particularly during food shortages (Dutch Hunger Winter 1944/45; recently: migrant poisonings in Central Europe). Symptoms (oral): within 15–60 minutes nausea, severe vomiting, diarrhoea, abdominal pain, salivation, sweating, dizziness; with higher amounts tachycardia, hypotension, seizures. Dermal: 'daffodil rash' / 'lily rash' / florist's eczema — irritant and allergic contact dermatitis from plant sap and calcium oxalate raphides. Cut-flower sap is phytotoxic and damages other cut flowers in the same vase (24 h separate watering recommended). On suspected oral poisoning: poison control (regional centres), abundant water, NO salt water for induced vomiting; for children and pets present immediately to medical/veterinary care. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -255,7 +255,18 @@
         "severity": "caution",
         "source_id": "src_wp_galantamine_narcissus_pseudonarcissus"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "daffodil",
+      "entry_name": "Daffodil",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -300,6 +311,13 @@
       "title": "Plants for a Future — Narcissus pseudonarcissus",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Narcissus+pseudonarcissus",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_daffodil",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Daffodil (Narcissus spp)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/daffodil",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

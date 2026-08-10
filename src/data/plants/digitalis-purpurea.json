@@ -69,12 +69,23 @@
   },
   "safety": {
     "warnings": {
-      "de": "LEBENSGEFAHR: Alle Pflanzenteile sind hochgiftig. Bereits zwei bis drei Blätter können tödlich sein. Vergiftungssymptome sind Übelkeit, Erbrechen, Sehstörungen, Schwindel, gefährlich langsamer oder unregelmäßiger Puls bis hin zum Herzstillstand. Niemals selbst anwenden – auch nicht in kleinen Mengen.",
-      "en": "DEADLY: All parts of the plant are highly toxic. As few as two or three leaves can be fatal. Poisoning causes nausea, vomiting, visual disturbances, dizziness, a dangerously slow or irregular pulse, and can lead to cardiac arrest. Never self-administer – not even in small amounts."
+      "de": "LEBENSGEFAHR: Alle Pflanzenteile sind hochgiftig. Bereits zwei bis drei Blätter können tödlich sein. Vergiftungssymptome sind Übelkeit, Erbrechen, Sehstörungen, Schwindel, gefährlich langsamer oder unregelmäßiger Puls bis hin zum Herzstillstand. Niemals selbst anwenden – auch nicht in kleinen Mengen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "DEADLY: All parts of the plant are highly toxic. As few as two or three leaves can be fatal. Poisoning causes nausea, vomiting, visual disturbances, dizziness, a dangerously slow or irregular pulse, and can lead to cardiac arrest. Never self-administer – not even in small amounts. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "toxic",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "foxglove",
+      "entry_name": "Foxglove",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "constituents": [
     {
@@ -124,6 +135,13 @@
       "title": "William Withering: An Account of the Foxglove and Some of its Medical Uses (1785)",
       "url": "https://en.wikipedia.org/wiki/William_Withering",
       "accessed": "2026-06-24"
+    },
+    {
+      "id": "src_aspca_foxglove",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Foxglove (Digitalis purpurea)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/foxglove",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

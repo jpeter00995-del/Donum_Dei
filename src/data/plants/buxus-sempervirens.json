@@ -152,8 +152,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG — ALLE PFLANZENTEILE. Buxus sempervirens enthält über 100 Steroidalkaloide (Buxin, Cyclobuxin D, Buxamin, Cyclobuxamin u.a.), die zur Gruppe der pregnan-artigen Alkaloide gehören. Bereits 5-15 g Blattmasse können bei Erwachsenen zu schwerer Vergiftung führen; geschätzte letale Dosis ca. 750 g Blätter beim Pferd. Symptome: starkes Erbrechen, blutiger Durchfall, Bauchkrämpfe, Speichelfluss, Schwindel, Krampfanfälle, Atemlähmung, Tod durch zentrale Atemdepression. Bei Vergiftungsverdacht: SOFORT Giftnotruf (DE: 030-19240, AT: 01-4064343, CH: 145). KEINE Selbstmedikation, KEINE Tee-Aufgüsse, KEINE Tinkturen zur innerlichen Anwendung. Auch Honig aus Buchsblüten kann toxisch sein.",
-      "en": "TOXIC — ALL PLANT PARTS. Buxus sempervirens contains over 100 steroid alkaloids (buxine, cyclobuxine D, buxamine, cyclobuxamine and others) belonging to the pregnane-type alkaloid group. As little as 5-15 g of leaf mass can cause severe poisoning in adults; estimated lethal dose approx. 750 g leaves in horses. Symptoms: severe vomiting, bloody diarrhoea, abdominal cramps, salivation, dizziness, convulsions, respiratory paralysis, death by central respiratory depression. In case of suspected poisoning: IMMEDIATELY call poison control. NO self-medication, NO tea infusions, NO tinctures for internal use. Honey from box flowers may also be toxic."
+      "de": "GIFTIG — ALLE PFLANZENTEILE. Buxus sempervirens enthält über 100 Steroidalkaloide (Buxin, Cyclobuxin D, Buxamin, Cyclobuxamin u.a.), die zur Gruppe der pregnan-artigen Alkaloide gehören. Bereits 5-15 g Blattmasse können bei Erwachsenen zu schwerer Vergiftung führen; geschätzte letale Dosis ca. 750 g Blätter beim Pferd. Symptome: starkes Erbrechen, blutiger Durchfall, Bauchkrämpfe, Speichelfluss, Schwindel, Krampfanfälle, Atemlähmung, Tod durch zentrale Atemdepression. Bei Vergiftungsverdacht: SOFORT Giftnotruf (DE: 030-19240, AT: 01-4064343, CH: 145). KEINE Selbstmedikation, KEINE Tee-Aufgüsse, KEINE Tinkturen zur innerlichen Anwendung. Auch Honig aus Buchsblüten kann toxisch sein. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "TOXIC — ALL PLANT PARTS. Buxus sempervirens contains over 100 steroid alkaloids (buxine, cyclobuxine D, buxamine, cyclobuxamine and others) belonging to the pregnane-type alkaloid group. As little as 5-15 g of leaf mass can cause severe poisoning in adults; estimated lethal dose approx. 750 g leaves in horses. Symptoms: severe vomiting, bloody diarrhoea, abdominal cramps, salivation, dizziness, convulsions, respiratory paralysis, death by central respiratory depression. In case of suspected poisoning: IMMEDIATELY call poison control. NO self-medication, NO tea infusions, NO tinctures for internal use. Honey from box flowers may also be toxic. ASPCA classification (accessed 2026-08-10): toxic to dogs. The ASPCA classifies the whole genus this way."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -220,7 +220,17 @@
         "severity": "avoid",
         "source_id": "src_wp_en_buxus_sempervirens"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "boxwood",
+      "entry_name": "Boxwood",
+      "listing": [
+        "toxic_dogs"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -258,6 +268,13 @@
       "title": "Cydalima perspectalis (Buchsbaumzünsler) — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Buchsbaumz%C3%BCnsler",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_boxwood",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Boxwood (Buxus spp.)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/boxwood",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

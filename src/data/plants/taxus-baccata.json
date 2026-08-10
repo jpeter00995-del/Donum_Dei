@@ -140,8 +140,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "HOCHGIFTIG — LEBENSGEFAHR. Taxus baccata enthält Taxin A und B (cardiotoxische Alkaloide), die bereits in kleinen Mengen zum Tod führen können. Alle Pflanzenteile außer dem roten Fruchtfleisch des Arillus sind giftig. Symptome einer Vergiftung: Schwindel, Erbrechen, Bradykardie, Herzrhythmusstörungen, Herzstillstand. KEINE Selbstanwendung in irgendeiner Form. Paclitaxel als Arzneimittel ausschließlich unter onkologischer Aufsicht. Im Vergiftungsfall: sofort Notruf (112) und Giftnotruf.",
-      "en": "HIGHLY TOXIC — LIFE-THREATENING. Taxus baccata contains taxine A and B (cardiotoxic alkaloids) that can cause death even in small amounts. All plant parts except the red aril are toxic. Symptoms of poisoning: dizziness, vomiting, bradycardia, cardiac arrhythmia, cardiac arrest. NO self-application in any form. Paclitaxel as a medicine exclusively under oncological supervision. In case of poisoning: call emergency services (112) and poison control immediately."
+      "de": "HOCHGIFTIG — LEBENSGEFAHR. Taxus baccata enthält Taxin A und B (cardiotoxische Alkaloide), die bereits in kleinen Mengen zum Tod führen können. Alle Pflanzenteile außer dem roten Fruchtfleisch des Arillus sind giftig. Symptome einer Vergiftung: Schwindel, Erbrechen, Bradykardie, Herzrhythmusstörungen, Herzstillstand. KEINE Selbstanwendung in irgendeiner Form. Paclitaxel als Arzneimittel ausschließlich unter onkologischer Aufsicht. Im Vergiftungsfall: sofort Notruf (112) und Giftnotruf. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "HIGHLY TOXIC — LIFE-THREATENING. Taxus baccata contains taxine A and B (cardiotoxic alkaloids) that can cause death even in small amounts. All plant parts except the red aril are toxic. Symptoms of poisoning: dizziness, vomiting, bradycardia, cardiac arrhythmia, cardiac arrest. NO self-application in any form. Paclitaxel as a medicine exclusively under oncological supervision. In case of poisoning: call emergency services (112) and poison control immediately. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "toxic",
@@ -208,7 +208,18 @@
         "severity": "monitor",
         "source_id": "src_taxus_paclitaxel_history"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "english-yew",
+      "entry_name": "English Yew",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -267,6 +278,13 @@
       "title": "Allen & Hatfield (2004): Medicinal Plants in Folk Tradition — An Ethnobotany of Britain and Ireland. Timber Press. ISBN 978-0-88192-638-5.",
       "url": "https://www.pfaf.org/user/Plant.aspx?LatinName=Taxus+baccata",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_english_yew",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — English Yew (Taxus baccata)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/english-yew",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

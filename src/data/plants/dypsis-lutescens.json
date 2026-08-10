@@ -121,7 +121,18 @@
         "en": "No known toxicity; pet- and child-safe."
       }
     },
-    "contraindications": []
+    "contraindications": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "areca-palm",
+      "entry_name": "Areca Palm",
+      "listing": [
+        "non_toxic_dogs",
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [

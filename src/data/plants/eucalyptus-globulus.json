@@ -84,7 +84,18 @@
       "de": "Ätherisches Eukalyptusöl bzw. 1,8-Cineol NICHT im Gesicht oder an der Nase von Säuglingen und Kleinkindern (unter ca. 10 Jahren) anwenden — Gefahr von Stimmritzenkrampf und Atemnot. Nicht unverdünnt einnehmen; vorgegebene Dosierung beachten. Nicht bei Überempfindlichkeit gegen Eukalyptusöl/1,8-Cineol; Vorsicht bei Kindern mit Krampfanfällen in der Vorgeschichte. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
       "en": "Do not apply eucalyptus essential oil or 1,8-cineole to the face or nose of infants and young children (under about 10 years) — risk of glottal spasm and breathing difficulty. Do not take undiluted; follow the stated dosage. Do not use with hypersensitivity to eucalyptus oil/1,8-cineole; caution in children with a history of seizures. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
-    "pet_toxic": true
+    "pet_toxic": true,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "eucalyptus",
+      "entry_name": "Eucalyptus",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "constituents": [
     {

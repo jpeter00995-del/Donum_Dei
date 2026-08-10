@@ -131,8 +131,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG für Hunde, Katzen und Menschen. Alle Pflanzenteile enthalten Calciumoxalat-Raphiden und Saponine. Kontakt mit Pflanzensaft verursacht Haut- und Augenreizung. Bei Einnahme: Brennen und Taubheitsgefühl im Mund, Speichelfluss, Erbrechen, Schluckbeschwerden. Bei Verdacht auf Einnahme sofort Giftnotruf kontaktieren. Hände nach Umgang mit Pflanze waschen.",
-      "en": "TOXIC to dogs, cats, and humans. All plant parts contain calcium oxalate raphides and saponins. Contact with plant sap causes skin and eye irritation. If ingested: burning and numbness in the mouth, salivation, vomiting, difficulty swallowing. If ingestion is suspected, contact poison control immediately. Wash hands after handling the plant."
+      "de": "GIFTIG für Hunde, Katzen und Menschen. Alle Pflanzenteile enthalten Calciumoxalat-Raphiden und Saponine. Kontakt mit Pflanzensaft verursacht Haut- und Augenreizung. Bei Einnahme: Brennen und Taubheitsgefühl im Mund, Speichelfluss, Erbrechen, Schluckbeschwerden. Bei Verdacht auf Einnahme sofort Giftnotruf kontaktieren. Hände nach Umgang mit Pflanze waschen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "TOXIC to dogs, cats, and humans. All plant parts contain calcium oxalate raphides and saponins. Contact with plant sap causes skin and eye irritation. If ingested: burning and numbness in the mouth, salivation, vomiting, difficulty swallowing. If ingestion is suspected, contact poison control immediately. Wash hands after handling the plant. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -164,7 +164,18 @@
         "en": "Any internal use — strictly ornamental plant."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "mauna-loa-peace-lily",
+      "entry_name": "Mauna Loa Peace Lily",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -195,6 +206,13 @@
       "title": "RHS — Spathiphyllum cultivation and toxicity advice",
       "url": "https://www.rhs.org.uk/plants/17349/spathiphyllum-wallisii/details",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_mauna_loa_peace_lily",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Mauna Loa Peace Lily (Spathiphyllum)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/mauna-loa-peace-lily",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -209,7 +209,18 @@
         "de": "Ätherisches Öl (rein) nicht innerlich einnehmen.",
         "en": "Essential oil (pure) not for internal use."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "bay-laurel",
+      "entry_name": "Bay Laurel",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -280,7 +291,7 @@
     "light": "direct_sun",
     "water_frequency": "weekly",
     "difficulty": 2,
-    "pet_safe": true,
+    "pet_safe": false,
     "soil": {
       "de": "Kübelpflanzenerde mit Drainage",
       "en": "Container compost with drainage"

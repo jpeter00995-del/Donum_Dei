@@ -171,8 +171,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Bei empfindlichem Magen kann der Gerbstoffgehalt Magenreizungen verursachen. Die krampflindernde Wirkung bei Dysmenorrhoe ist wissenschaftlich weniger gut belegt als die antidiarrhoische. Nicht als Monotherapie bei starken Krämpfen einsetzen.",
-      "en": "The tannin content may cause stomach irritation in sensitive individuals. The antispasmodic effect in dysmenorrhoea is less well-evidenced than the antidiarrhoeal effect. Do not use as monotherapy for severe cramps."
+      "de": "Bei empfindlichem Magen kann der Gerbstoffgehalt Magenreizungen verursachen. Die krampflindernde Wirkung bei Dysmenorrhoe ist wissenschaftlich weniger gut belegt als die antidiarrhoische. Nicht als Monotherapie bei starken Krämpfen einsetzen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen ungiftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "The tannin content may cause stomach irritation in sensitive individuals. The antispasmodic effect in dysmenorrhoea is less well-evidenced than the antidiarrhoeal effect. Do not use as monotherapy for severe cramps. ASPCA classification (accessed 2026-08-10): non-toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "none",
@@ -208,7 +208,18 @@
         "en": "Pregnancy (due to uterus-stimulating effect)."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "cinquefoil",
+      "entry_name": "Cinquefoil",
+      "listing": [
+        "non_toxic_dogs",
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -246,6 +257,13 @@
       "title": "Potentillae anserinae herba — Altmeyers Encyclopedia of Dermatology / Naturopathy",
       "url": "https://www.altmeyers.org/en/naturopathy/potentillae-anserinae-herba-143563",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_aspca_cinquefoil",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Cinquefoil (Potentilla spp.)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/cinquefoil",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -153,8 +153,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Wichtig: Aloe-vera-Gel (klares Innengel) und Aloe-Saft (gelber Latex aus der Blattrinde mit Aloin) sind zwei sehr unterschiedliche Präparate. Das externe Gel ist gut verträglich, der innerliche Aloin-haltige Saft wirkt stark abführend und ist nur kurzfristig (max. 1–2 Wochen) und nicht ohne ärztliche Beratung einzusetzen. Die EFSA hat 2017 ein wissenschaftliches Gutachten veröffentlicht, das Whole-Leaf-Extrakte und Aloin-haltige Zubereitungen als potenziell genotoxisch und kanzerogen einstuft; die EU-Kommission hat 2021 Hydroxyanthracen-Derivate aus Aloe in Nahrungsergänzungsmitteln verboten. Beim Schneiden des Blattes muss der gelbe Latex sorgfältig entfernt werden, bevor das Gel innerlich verwendet wird.",
-      "en": "Important: Aloe vera gel (clear inner gel) and aloe juice (yellow latex from the leaf rind containing aloin) are two very different preparations. The external gel is well tolerated, the internal aloin-containing juice is strongly laxative and should only be used short-term (max. 1–2 weeks) and not without medical advice. In 2017, EFSA published a scientific opinion classifying whole-leaf extracts and aloin-containing preparations as potentially genotoxic and carcinogenic; the EU Commission banned hydroxyanthracene derivatives from Aloe in food supplements in 2021. When cutting the leaf, the yellow latex must be carefully removed before the gel is used internally."
+      "de": "Wichtig: Aloe-vera-Gel (klares Innengel) und Aloe-Saft (gelber Latex aus der Blattrinde mit Aloin) sind zwei sehr unterschiedliche Präparate. Das externe Gel ist gut verträglich, der innerliche Aloin-haltige Saft wirkt stark abführend und ist nur kurzfristig (max. 1–2 Wochen) und nicht ohne ärztliche Beratung einzusetzen. Die EFSA hat 2017 ein wissenschaftliches Gutachten veröffentlicht, das Whole-Leaf-Extrakte und Aloin-haltige Zubereitungen als potenziell genotoxisch und kanzerogen einstuft; die EU-Kommission hat 2021 Hydroxyanthracen-Derivate aus Aloe in Nahrungsergänzungsmitteln verboten. Beim Schneiden des Blattes muss der gelbe Latex sorgfältig entfernt werden, bevor das Gel innerlich verwendet wird. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "Important: Aloe vera gel (clear inner gel) and aloe juice (yellow latex from the leaf rind containing aloin) are two very different preparations. The external gel is well tolerated, the internal aloin-containing juice is strongly laxative and should only be used short-term (max. 1–2 weeks) and not without medical advice. In 2017, EFSA published a scientific opinion classifying whole-leaf extracts and aloin-containing preparations as potentially genotoxic and carcinogenic; the EU Commission banned hydroxyanthracene derivatives from Aloe in food supplements in 2021. When cutting the leaf, the yellow latex must be carefully removed before the gel is used internally. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -249,7 +249,18 @@
         "de": "Kinder unter 12 Jahren (innerlich)",
         "en": "Children under 12 years (internally)"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "aloe",
+      "entry_name": "Aloe",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -301,6 +312,13 @@
       "title": "Plants For A Future — Aloe vera",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Aloe+vera",
       "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_aspca_aloe",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Aloe (Aloe vera)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/aloe",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -183,12 +183,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Hohe Dosen können Magen-Darm-Beschwerden (Sodbrennen, Blähungen, Übelkeit), Mund- und Körpergeruch sowie selten allergische Reaktionen auslösen. Rohe Zehen direkt auf der Haut können chemische Verbrennungen verursachen. Bei Blutungsneigung, vor Operationen oder zahnärztlichen Eingriffen sowie bei gleichzeitiger Antikoagulation Vorsicht geboten.",
-      "en": "High doses may cause gastrointestinal complaints (heartburn, flatulence, nausea), mouth and body odour and rarely allergic reactions. Raw cloves directly on skin can cause chemical burns. Caution with bleeding tendency, before surgery or dental procedures and with concurrent anticoagulation."
+      "de": "Hohe Dosen können Magen-Darm-Beschwerden (Sodbrennen, Blähungen, Übelkeit), Mund- und Körpergeruch sowie selten allergische Reaktionen auslösen. Rohe Zehen direkt auf der Haut können chemische Verbrennungen verursachen. Bei Blutungsneigung, vor Operationen oder zahnärztlichen Eingriffen sowie bei gleichzeitiger Antikoagulation Vorsicht geboten. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "High doses may cause gastrointestinal complaints (heartburn, flatulence, nausea), mouth and body odour and rarely allergic reactions. Raw cloves directly on skin can cause chemical burns. Caution with bleeding tendency, before surgery or dental procedures and with concurrent anticoagulation. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "safe",
       "note": {
@@ -258,6 +258,17 @@
     "max_continuous_use_note": {
       "de": "Hochdosierte standardisierte Präparate sollten ohne ärztliche Begleitung nicht länger als 3 Monate kontinuierlich eingenommen werden. Bei anhaltenden Beschwerden (Hypertonie, Hyperlipidämie) ärztliche Abklärung. Küchenmengen sind dauerhaft unbedenklich.",
       "en": "High-dose standardised preparations should not be used continuously for more than 3 months without medical supervision. For persistent complaints (hypertension, hyperlipidaemia) seek medical advice. Culinary amounts are safe for long-term use."
+    },
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "garlic",
+      "entry_name": "Garlic",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
     }
   },
   "classical_quotes": [],
@@ -317,6 +328,13 @@
       "title": "Wikipedia (DE) — Knoblauch",
       "url": "https://de.wikipedia.org/wiki/Knoblauch",
       "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_aspca_garlic",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Garlic (Allium sativum)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/garlic",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

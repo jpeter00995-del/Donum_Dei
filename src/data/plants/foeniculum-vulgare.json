@@ -183,8 +183,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Fenchelsamen IMMER vor dem Aufguss zerstoßen — ganze Samen geben das ätherische Öl praktisch nicht ab. Bei Beschwerden länger als 1 Woche (Husten) bzw. 2 Wochen (Verdauung): Arzt. Reines ätherisches Fenchelöl ist hochkonzentriert und darf NICHT bei Säuglingen/Kleinkindern angewendet werden (Estragol, Verdacht auf kanzerogene Wirkung in hohen Dosen). Bei Allergie gegen Doldenblütler (Apiaceae) auf Fenchel verzichten. Phototoxische Hautreaktionen nach äußerlicher Anwendung sehr selten.",
-      "en": "ALWAYS crush seeds before infusion. Pure essential oil NOT for infants/toddlers (estragole). Avoid in Apiaceae allergy."
+      "de": "Fenchelsamen IMMER vor dem Aufguss zerstoßen — ganze Samen geben das ätherische Öl praktisch nicht ab. Bei Beschwerden länger als 1 Woche (Husten) bzw. 2 Wochen (Verdauung): Arzt. Reines ätherisches Fenchelöl ist hochkonzentriert und darf NICHT bei Säuglingen/Kleinkindern angewendet werden (Estragol, Verdacht auf kanzerogene Wirkung in hohen Dosen). Bei Allergie gegen Doldenblütler (Apiaceae) auf Fenchel verzichten. Phototoxische Hautreaktionen nach äußerlicher Anwendung sehr selten. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen ungiftig.",
+      "en": "ALWAYS crush seeds before infusion. Pure essential oil NOT for infants/toddlers (estragole). Avoid in Apiaceae allergy. ASPCA classification (accessed 2026-08-10): non-toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -246,7 +246,18 @@
         "en": "Therapeutic doses in pregnancy/lactation."
       }
     ],
-    "max_continuous_use_weeks": 2
+    "max_continuous_use_weeks": 2,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "fennel",
+      "entry_name": "Fennel",
+      "listing": [
+        "non_toxic_dogs",
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -263,6 +274,13 @@
       "title": "EMA/HMPC/372839/2016 Rev.1 — European Union herbal monograph on Foeniculum vulgare subsp. vulgare var. dulce, fructus (Sweet fennel, Final, 31 August 2022)",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/foeniculi-dulcis-fructus",
       "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_aspca_fennel",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Fennel (Foeniculum vulgare)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/fennel",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

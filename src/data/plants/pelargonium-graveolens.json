@@ -244,8 +244,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Ätherisches Rosengeranien-Öl NIEMALS unverdünnt auf die Haut auftragen — Citronellol und Geraniol gelten als Allergene und können Kontaktdermatitis auslösen (in der EU-Kosmetik-Verordnung als deklarationspflichtige Duftstoffe gelistet). Maximalkonzentration 1-3 % in einem Trägeröl. Vor Erstanwendung 24-h-Hauttest in der Armbeuge. Bei bekannter Geraniaceae- oder Citronella-Allergie meiden. Hautkontakt mit Sonnenlicht kombiniert kann phototoxisch wirken (selten). Innerlich nur als verdünnter Tee — NIEMALS reines ätherisches Öl trinken oder löffeln.",
-      "en": "NEVER apply rose geranium essential oil undiluted to the skin — citronellol and geraniol are listed allergens that can cause contact dermatitis (in the EU Cosmetics Regulation as declarable fragrance allergens). Maximum concentration 1-3 % in carrier oil. Patch test 24 h before first use. Avoid in known Geraniaceae or citronella allergy. Skin contact combined with sunlight may rarely be phototoxic. Internally only as diluted tea — NEVER drink or take pure essential oil by the spoon."
+      "de": "Ätherisches Rosengeranien-Öl NIEMALS unverdünnt auf die Haut auftragen — Citronellol und Geraniol gelten als Allergene und können Kontaktdermatitis auslösen (in der EU-Kosmetik-Verordnung als deklarationspflichtige Duftstoffe gelistet). Maximalkonzentration 1-3 % in einem Trägeröl. Vor Erstanwendung 24-h-Hauttest in der Armbeuge. Bei bekannter Geraniaceae- oder Citronella-Allergie meiden. Hautkontakt mit Sonnenlicht kombiniert kann phototoxisch wirken (selten). Innerlich nur als verdünnter Tee — NIEMALS reines ätherisches Öl trinken oder löffeln. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "NEVER apply rose geranium essential oil undiluted to the skin — citronellol and geraniol are listed allergens that can cause contact dermatitis (in the EU Cosmetics Regulation as declarable fragrance allergens). Maximum concentration 1-3 % in carrier oil. Patch test 24 h before first use. Avoid in known Geraniaceae or citronella allergy. Skin contact combined with sunlight may rarely be phototoxic. Internally only as diluted tea — NEVER drink or take pure essential oil by the spoon. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -318,7 +318,18 @@
         "de": "Katzen und kleine Hunde im Haushalt: ätherisches Geranium-Öl ist für Heimtiere toxisch (laut ASPCA). Diffuser nur in Räumen verwenden, die das Tier verlassen kann; keine direkte Hautanwendung am Tier.",
         "en": "Cats and small dogs in the household: geranium essential oil is toxic to pets (per ASPCA). Use a diffuser only in rooms the animal can leave; no direct application on the pet."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "geranium",
+      "entry_name": "Geranium",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -356,6 +367,13 @@
       "title": "Kačániová M. et al. (2023) — An In-Depth Study on the Chemical Composition and Biological Effects of Pelargonium graveolens Essential Oil. Foods 13(1), 33.",
       "url": "https://doi.org/10.3390/foods13010033",
       "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_aspca_geranium",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Geranium (Pelargonium species)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/geranium",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {
@@ -382,7 +400,7 @@
     "light": "direct_sun",
     "water_frequency": "every_few_days",
     "difficulty": 1,
-    "pet_safe": true,
+    "pet_safe": false,
     "soil": {
       "de": "Geranien-Erde mit Drainage",
       "en": "Geranium compost with drainage"

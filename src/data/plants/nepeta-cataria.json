@@ -212,7 +212,17 @@
         "de": "Bekannte Allergie gegen Lippenblütler (Lamiaceae).",
         "en": "Known allergy to plants in the Lamiaceae (mint) family."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "catnip",
+      "entry_name": "Catnip",
+      "listing": [
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -282,7 +292,7 @@
     "light": "direct_sun",
     "water_frequency": "every_few_days",
     "difficulty": 1,
-    "pet_safe": true,
+    "pet_safe": false,
     "soil": {
       "de": "Standard-Kräutererde",
       "en": "Standard herb compost"

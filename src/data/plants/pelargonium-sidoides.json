@@ -116,8 +116,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "In seltenen Fällen wurden Lebererkrankungen (Hepatotoxizität) im Zusammenhang mit Pelargonium-Wurzelpräparaten berichtet; seit 2014 ist ein entsprechender Warnhinweis in der Packungsbeilage vorgeschrieben. Bei Anzeichen einer Leberschädigung (Gelbsucht, dunkler Urin, Oberbauchschmerzen) ist die Anwendung sofort zu beenden und ärztlicher Rat einzuholen. Wegen des Cumarin-Gehalts wurden selten leichte Blutungen beobachtet; Vorsicht bei erhöhter Blutungsneigung und gleichzeitiger Einnahme gerinnungshemmender Mittel. Möglich sind Magen-Darm-Beschwerden und allergische Überempfindlichkeitsreaktionen. Flüssige Zubereitungen enthalten Ethanol.",
-      "en": "Rare cases of liver disorders (hepatotoxicity) have been reported in connection with pelargonium root products; a corresponding warning has been mandatory in the package leaflet since 2014. If signs of liver damage occur (jaundice, dark urine, upper abdominal pain), discontinue use immediately and seek medical advice. Due to the coumarin content, mild bleeding has rarely been observed; use with caution in people with a bleeding tendency or taking anticoagulants. Gastrointestinal complaints and allergic hypersensitivity reactions may occur. Liquid preparations contain ethanol."
+      "de": "In seltenen Fällen wurden Lebererkrankungen (Hepatotoxizität) im Zusammenhang mit Pelargonium-Wurzelpräparaten berichtet; seit 2014 ist ein entsprechender Warnhinweis in der Packungsbeilage vorgeschrieben. Bei Anzeichen einer Leberschädigung (Gelbsucht, dunkler Urin, Oberbauchschmerzen) ist die Anwendung sofort zu beenden und ärztlicher Rat einzuholen. Wegen des Cumarin-Gehalts wurden selten leichte Blutungen beobachtet; Vorsicht bei erhöhter Blutungsneigung und gleichzeitiger Einnahme gerinnungshemmender Mittel. Möglich sind Magen-Darm-Beschwerden und allergische Überempfindlichkeitsreaktionen. Flüssige Zubereitungen enthalten Ethanol. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "Rare cases of liver disorders (hepatotoxicity) have been reported in connection with pelargonium root products; a corresponding warning has been mandatory in the package leaflet since 2014. If signs of liver damage occur (jaundice, dark urine, upper abdominal pain), discontinue use immediately and seek medical advice. Due to the coumarin content, mild bleeding has rarely been observed; use with caution in people with a bleeding tendency or taking anticoagulants. Gastrointestinal complaints and allergic hypersensitivity reactions may occur. Liquid preparations contain ethanol. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -170,7 +170,18 @@
         "de": "Überempfindlichkeit gegenüber Pelargonium sidoides.",
         "en": "Hypersensitivity to Pelargonium sidoides."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "geranium",
+      "entry_name": "Geranium",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -222,6 +233,13 @@
       "title": "File:Pelargonium sidoides 1DS-II 2-0714.jpg — Wikimedia Commons",
       "url": "https://commons.wikimedia.org/wiki/File:Pelargonium_sidoides_1DS-II_2-0714.jpg",
       "accessed": "2026-06-12"
+    },
+    {
+      "id": "src_aspca_geranium",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Geranium (Pelargonium species)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/geranium",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

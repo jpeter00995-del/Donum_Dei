@@ -33,4 +33,9 @@ export const indoor = {
   'indoor.diff.3': 'experienced',
   'indoor.pet_safe.yes': 'pet-safe',
   'indoor.pet_safe.no': 'toxic to pets',
+  // Seit 2026-08-10 unterscheidet die Seite belegte und unbelegte Angaben.
+  'indoor.pet_safe.checked': 'non-toxic — verified against the ASPCA list',
+  'indoor.pet_safe.unchecked': 'non-toxic — not externally verified',
+  'indoor.pet_safe.unknown': 'no verified information',
+  'indoor.pet_safe.filter_note': '🐾 marks externally verified plants only.',
 };

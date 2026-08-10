@@ -2,18 +2,17 @@
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { petToxicPlants, splitPetSafe } from '@/lib/petSafety';
 
 // === 2. DATA ===
 const locale = 'de' as const;
 const all = loadAllPlants();
 // Haustiergiftige Pflanzen (strukturiertes Feld safety.pet_toxic).
-const toxic = all
-  .filter(p => p.safety?.pet_toxic === true)
-  .sort((a, b) => a.names.de.localeCompare(b.names.de, 'de'));
-// Sichere Alternativen: haustierfreundliche Zimmerpflanzen.
-const safe = all
-  .filter(p => p.safety?.pet_toxic === false && p.indoor_growing?.suitable === true)
-  .sort((a, b) => a.names.de.localeCompare(b.names.de, 'de'))
+const toxic = petToxicPlants(all, locale);
+// Sichere Alternativen: nur was extern belegt ist. Eine Empfehlung „nimm die
+// statt der giftigen" darf nicht auf einer ungeprüften Annahme stehen.
+const safe = splitPetSafe(all, locale)
+  .checked.filter(p => p.indoor_growing?.suitable === true)
   .slice(0, 12);
 
 // Kurzer Grund = erster Satz des Sicherheitshinweises.
@@ -72,8 +71,8 @@ const description =
 
     <h2 class="font-serif text-2xl text-slate-900 mt-12 mb-3">Sichere Alternativen für Haustierhaushalte</h2>
     <p class="max-w-2xl text-slate-600 mb-5">
-      Diese Zimmerpflanzen gelten als ungiftig für Katzen und Hunde – eine gute Wahl,
-      wenn Tiere im Haushalt mitwohnen. Mehr davon auf der Seite
+      Diese Zimmerpflanzen führt die ASPCA ausdrücklich als ungiftig für Katzen und Hunde –
+      eine gute Wahl, wenn Tiere im Haushalt mitwohnen. Mehr davon auf der Seite
       <a href="/de/ungiftige-pflanzen-haustiere" class="text-emerald-700 hover:underline">Ungiftige Pflanzen für Katzen &amp; Hunde</a>.
     </p>
     <div class="flex flex-wrap gap-2.5">

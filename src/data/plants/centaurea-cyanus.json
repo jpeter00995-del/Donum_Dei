@@ -170,8 +170,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Bei bekannter Korbblütler-Allergie (Asteraceae) meiden. Augenbäder nur unter strikten Hygienebedingungen aus sterilem Aufguss; kontaminierte Anwendungen am Auge sind kontraindiziert. Die Kommission E bewertete die klassischen Indikationen 1989 wegen mangelnder Evidenz negativ.",
-      "en": "Avoid in known Asteraceae (daisy family) allergy. Eye baths only under strict hygiene from a sterile infusion; contaminated eye applications are contraindicated. The German Commission E assessed the classical indications negatively in 1989 due to lack of evidence."
+      "de": "Bei bekannter Korbblütler-Allergie (Asteraceae) meiden. Augenbäder nur unter strikten Hygienebedingungen aus sterilem Aufguss; kontaminierte Anwendungen am Auge sind kontraindiziert. Die Kommission E bewertete die klassischen Indikationen 1989 wegen mangelnder Evidenz negativ. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen ungiftig.",
+      "en": "Avoid in known Asteraceae (daisy family) allergy. Eye baths only under strict hygiene from a sterile infusion; contaminated eye applications are contraindicated. The German Commission E assessed the classical indications negatively in 1989 due to lack of evidence. ASPCA classification (accessed 2026-08-10): non-toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -207,7 +207,18 @@
         "en": "Eye baths in case of eye infection or injury, or where sterility of the preparation cannot be ensured."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "bachelors-buttons",
+      "entry_name": "Bachelors Buttons",
+      "listing": [
+        "non_toxic_dogs",
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -231,6 +242,13 @@
       "title": "Centaurea cyanus — Plants For A Future (PFAF)",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Centaurea+cyanus",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_aspca_bachelors_buttons",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Bachelors Buttons (Centaurea cyanus)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/bachelors-buttons",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

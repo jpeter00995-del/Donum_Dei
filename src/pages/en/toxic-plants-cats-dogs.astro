@@ -2,16 +2,15 @@
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
+import { petToxicPlants, splitPetSafe } from '@/lib/petSafety';
 
 // === 2. DATA ===
+// Nur extern belegte Alternativen empfehlen — siehe petSafety.ts.
 const locale = 'en' as const;
 const all = loadAllPlants();
-const toxic = all
-  .filter(p => p.safety?.pet_toxic === true)
-  .sort((a, b) => a.names.en.localeCompare(b.names.en, 'en'));
-const safe = all
-  .filter(p => p.safety?.pet_toxic === false && p.indoor_growing?.suitable === true)
-  .sort((a, b) => a.names.en.localeCompare(b.names.en, 'en'))
+const toxic = petToxicPlants(all, locale);
+const safe = splitPetSafe(all, locale)
+  .checked.filter(p => p.indoor_growing?.suitable === true)
   .slice(0, 12);
 
 function reason(p: typeof all[number]): string {

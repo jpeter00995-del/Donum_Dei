@@ -108,8 +108,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG für Hunde, Katzen und Menschen. Alle Pflanzenteile enthalten Calciumoxalat-Raphiden: bei Kontakt Haut- und Schleimhautreizung, bei Verschlucken Brennen im Mund, Sabbern, Erbrechen, Schluckbeschwerden. Nicht als Heilpflanze verwenden. Bei Kontakt mit Pflanzensaft Hände waschen.",
-      "en": "TOXIC to dogs, cats, and humans. All plant parts contain calcium oxalate raphides: skin and mucous membrane irritation on contact, burning in mouth, drooling, vomiting, difficulty swallowing if ingested. Do not use medicinally. Wash hands after contact with plant sap."
+      "de": "GIFTIG für Hunde, Katzen und Menschen. Alle Pflanzenteile enthalten Calciumoxalat-Raphiden: bei Kontakt Haut- und Schleimhautreizung, bei Verschlucken Brennen im Mund, Sabbern, Erbrechen, Schluckbeschwerden. Nicht als Heilpflanze verwenden. Bei Kontakt mit Pflanzensaft Hände waschen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "TOXIC to dogs, cats, and humans. All plant parts contain calcium oxalate raphides: skin and mucous membrane irritation on contact, burning in mouth, drooling, vomiting, difficulty swallowing if ingested. Do not use medicinally. Wash hands after contact with plant sap. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -145,7 +145,18 @@
         "en": "Not for persons with known oxalate hypersensitivity or kidney stones (preventively)."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "heartleaf-philodendron",
+      "entry_name": "Heartleaf Philodendron",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -176,6 +187,13 @@
       "title": "RHS — Philodendron hederaceum cultivation advice",
       "url": "https://www.rhs.org.uk/plants/13326/philodendron-hederaceum/details",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_heartleaf_philodendron",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Heartleaf Philodendron (Philodendron hederaceum)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/heartleaf-philodendron",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

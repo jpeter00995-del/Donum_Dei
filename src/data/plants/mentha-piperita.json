@@ -358,7 +358,18 @@
         "de": "Bekannte Epilepsie oder Anfallsanamnese: Menthol kann die Krampfschwelle senken — kontraindiziert.",
         "en": "Known epilepsy or seizure history: menthol may lower seizure threshold — contraindicated."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "mint",
+      "entry_name": "Mint",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -477,7 +488,7 @@
     "light": "partial_shade",
     "water_frequency": "every_few_days",
     "difficulty": 1,
-    "pet_safe": true,
+    "pet_safe": false,
     "soil": {
       "de": "Feuchte Kräutererde",
       "en": "Moist herb compost"

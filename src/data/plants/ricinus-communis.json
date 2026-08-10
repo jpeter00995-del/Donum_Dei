@@ -187,8 +187,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "SAMEN EXTREM GIFTIG (Rizin) — ÖL UNBEDENKLICH bei pharmazeutischer Qualität. Wichtige Trennung: (1) Ganze Samen enthalten das hochpotente Toxin Rizin (1–5 % des Samenproteins), ein Typ-2-Ribosom-inaktivierendes Lectin. Bereits 4–8 zerkaute Samen können einen Erwachsenen töten; orale LD ca. 1 mg/kg, bei Injektion oder Inhalation tausendfach toxischer (LD50 i.p. Maus ca. 22 μg/kg). Vergiftungssymptome: Brennen in Mund und Rachen, Bauchschmerzen, blutige Diarrhoe, Erbrechen, Multiorganversagen mit Latenz von 2–36 Stunden, Tod 3–5 Tage. Kein spezifisches Antidot — nur supportive Therapie. (2) Kaltgepresstes Rizinusöl ist FREI von Rizin (wasserlöslich, bleibt im Presskuchen; zusätzlich wird Öl auf >80 °C erhitzt zur Denaturierung) und ist als OTC-Laxans weltweit zugelassen. Rizin ist gemäss Chemiewaffenkonvention 1997 und Biowaffenkonvention 1972 als Schedule-1-Substanz gelistet — historisch bekannt durch das Markov-Attentat 1978 in London (mit Rizin-Pellet ermordet via präparierten Regenschirm). Kinder und Haustiere fernhalten von Samen und unzerkleinerter Pflanze.",
-      "en": "SEEDS EXTREMELY TOXIC (ricin) — OIL SAFE at pharmaceutical quality. Important distinction: (1) Whole seeds contain the highly potent toxin ricin (1–5 % of seed protein), a type-2 ribosome-inactivating lectin. As few as 4–8 chewed seeds can kill an adult; oral LD approx. 1 mg/kg, by injection or inhalation a thousandfold more toxic (LD50 i.p. mouse approx. 22 μg/kg). Poisoning symptoms: burning sensation in mouth and throat, abdominal pain, bloody diarrhoea, vomiting, multi-organ failure with a latency of 2–36 hours, death within 3–5 days. No specific antidote — only supportive therapy. (2) Cold-pressed castor oil is FREE of ricin (water-soluble, remains in press-cake; additionally oil is heated above 80 °C for denaturation) and is approved worldwide as an OTC laxative. Ricin is listed as a Schedule-1 substance under the 1997 Chemical Weapons Convention and the 1972 Biological Weapons Convention — historically known for the 1978 Markov assassination in London (ricin pellet fired via a modified umbrella). Keep children and pets away from seeds and uncrushed plant."
+      "de": "SAMEN EXTREM GIFTIG (Rizin) — ÖL UNBEDENKLICH bei pharmazeutischer Qualität. Wichtige Trennung: (1) Ganze Samen enthalten das hochpotente Toxin Rizin (1–5 % des Samenproteins), ein Typ-2-Ribosom-inaktivierendes Lectin. Bereits 4–8 zerkaute Samen können einen Erwachsenen töten; orale LD ca. 1 mg/kg, bei Injektion oder Inhalation tausendfach toxischer (LD50 i.p. Maus ca. 22 μg/kg). Vergiftungssymptome: Brennen in Mund und Rachen, Bauchschmerzen, blutige Diarrhoe, Erbrechen, Multiorganversagen mit Latenz von 2–36 Stunden, Tod 3–5 Tage. Kein spezifisches Antidot — nur supportive Therapie. (2) Kaltgepresstes Rizinusöl ist FREI von Rizin (wasserlöslich, bleibt im Presskuchen; zusätzlich wird Öl auf >80 °C erhitzt zur Denaturierung) und ist als OTC-Laxans weltweit zugelassen. Rizin ist gemäss Chemiewaffenkonvention 1997 und Biowaffenkonvention 1972 als Schedule-1-Substanz gelistet — historisch bekannt durch das Markov-Attentat 1978 in London (mit Rizin-Pellet ermordet via präparierten Regenschirm). Kinder und Haustiere fernhalten von Samen und unzerkleinerter Pflanze. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "SEEDS EXTREMELY TOXIC (ricin) — OIL SAFE at pharmaceutical quality. Important distinction: (1) Whole seeds contain the highly potent toxin ricin (1–5 % of seed protein), a type-2 ribosome-inactivating lectin. As few as 4–8 chewed seeds can kill an adult; oral LD approx. 1 mg/kg, by injection or inhalation a thousandfold more toxic (LD50 i.p. mouse approx. 22 μg/kg). Poisoning symptoms: burning sensation in mouth and throat, abdominal pain, bloody diarrhoea, vomiting, multi-organ failure with a latency of 2–36 hours, death within 3–5 days. No specific antidote — only supportive therapy. (2) Cold-pressed castor oil is FREE of ricin (water-soluble, remains in press-cake; additionally oil is heated above 80 °C for denaturation) and is approved worldwide as an OTC laxative. Ricin is listed as a Schedule-1 substance under the 1997 Chemical Weapons Convention and the 1972 Biological Weapons Convention — historically known for the 1978 Markov assassination in London (ricin pellet fired via a modified umbrella). Keep children and pets away from seeds and uncrushed plant. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "toxic",
@@ -294,7 +294,18 @@
         "severity": "monitor",
         "source_id": "src_wp_castoroil_ricinus_communis"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "african-wonder-tree",
+      "entry_name": "African Wonder Tree",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -321,6 +332,13 @@
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ricinus+communis",
       "accessed": "2026-05-26",
       "language": "en"
+    },
+    {
+      "id": "src_aspca_african_wonder_tree",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — African Wonder Tree (Ricinus communis)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/african-wonder-tree",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

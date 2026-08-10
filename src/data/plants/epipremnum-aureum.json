@@ -133,8 +133,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Alle Pflanzenteile enthalten unlösliche Calciumoxalat-Raphiden (Araceae-typische Nadelkristalle). Beim Kauen oder Verschlucken kommt es zu sofortigem Brennen in Mund und Rachen, Speichelfluss, Schwellung der Zunge und Schluckbeschwerden. Pflanzensaft kann bei empfindlichen Personen Hautreizungen auslösen. Außerhalb der Reichweite von Kleinkindern und Haustieren (insbesondere Katzen und Hunden) aufstellen. Keine innerliche Anwendung; nicht für Tee, Tinkturen oder Speisen verwenden.",
-      "en": "All plant parts contain insoluble calcium oxalate raphides (the needle crystals typical of the Araceae family). Chewing or swallowing causes immediate burning in the mouth and throat, salivation, swelling of the tongue and difficulty swallowing. Plant sap can cause skin irritation in sensitive people. Keep out of reach of small children and pets, especially cats and dogs. No internal use; do not prepare as tea, tincture or food."
+      "de": "Alle Pflanzenteile enthalten unlösliche Calciumoxalat-Raphiden (Araceae-typische Nadelkristalle). Beim Kauen oder Verschlucken kommt es zu sofortigem Brennen in Mund und Rachen, Speichelfluss, Schwellung der Zunge und Schluckbeschwerden. Pflanzensaft kann bei empfindlichen Personen Hautreizungen auslösen. Außerhalb der Reichweite von Kleinkindern und Haustieren (insbesondere Katzen und Hunden) aufstellen. Keine innerliche Anwendung; nicht für Tee, Tinkturen oder Speisen verwenden. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "All plant parts contain insoluble calcium oxalate raphides (the needle crystals typical of the Araceae family). Chewing or swallowing causes immediate burning in the mouth and throat, salivation, swelling of the tongue and difficulty swallowing. Plant sap can cause skin irritation in sensitive people. Keep out of reach of small children and pets, especially cats and dogs. No internal use; do not prepare as tea, tincture or food. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": true,
     "toxicity_level": "caution",
@@ -182,7 +182,18 @@
         "en": "No medicinal use: there is no EMA HMPC monograph, no Commission E monograph and no traditional medicinal use of this plant. Any advertised healing applications are unsupported."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "devils-ivy",
+      "entry_name": "Devils Ivy",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -227,6 +238,13 @@
       "title": "Epipremnum aureum (pothos) — CABI Invasive Species Compendium",
       "url": "https://www.cabidigitallibrary.org/doi/10.1079/cabicompendium.111071",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_devils_ivy",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Devils Ivy (Epipremnum aureum)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/devils-ivy",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

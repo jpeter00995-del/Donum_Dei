@@ -141,7 +141,18 @@
         "en": "No known contraindications for decorative use as a houseplant."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "anthericum-comosum",
+      "entry_name": "Anthericum Comosum",
+      "listing": [
+        "non_toxic_dogs",
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -171,6 +182,13 @@
       "type": "monograph",
       "title": "ASPCA Animal Poison Control — Spider Plant (Chlorophytum comosum): Non-Toxic to Dogs, Non-Toxic to Cats",
       "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+      "accessed": "2026-08-10"
+    },
+    {
+      "id": "src_aspca_anthericum_comosum",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Anthericum Comosum (Chlorophytum comosum)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/anthericum-comosum",
       "accessed": "2026-08-10"
     }
   ],

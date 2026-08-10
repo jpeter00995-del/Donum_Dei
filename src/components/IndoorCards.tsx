@@ -87,8 +87,10 @@ export default function IndoorCards({ plants, locale }: Props) {
                   {WATER_ICON[p.indoor_growing!.water_frequency]}
                 </span>
               </span>
-              {p.indoor_growing!.pet_safe && (
-                <span title={t(locale, 'indoor.pet_safe.yes')} className="text-sm">
+              {/* 🐾 nur bei extern belegter Angabe — sonst verspricht das Symbol
+                  eine Sicherheit, die niemand geprueft hat. */}
+              {p.indoor_growing!.pet_safe && p.indoor_growing!.pet_checked && (
+                <span title={t(locale, 'indoor.pet_safe.checked')} className="text-sm">
                   🐾
                 </span>
               )}

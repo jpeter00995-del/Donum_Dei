@@ -169,8 +169,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "TÖDLICH GIFTIG — GESAMTE PFLANZE, BESONDERS UNREIFE FRÜCHTE UND WURZEL. Conium maculatum enthält 1,5–2 % des Piperidinalkaloids Coniin sowie γ-Coniceine, N-Methylconiin, Conhydrin und Pseudoconhydrin. Letale Erwachsenendosis: 0,5–1 g Coniin (entspricht 6–8 Schierlingsblättern). Höchste Konzentrationen in unreifen Früchten. Coniin wirkt am nikotinergen Acetylcholinrezeptor: initial Erregung, dann ausgedehnte neuromuskuläre Blockade mit aufsteigender Lähmung — von Füssen über Beine, Rumpf bis Atemmuskulatur — bei klar erhaltenem Bewusstsein. Tod durch Atemlähmung. Symptome (Beginn ≈ 30 min nach Aufnahme): Brennen in Mund und Rachen, Übelkeit, Sehstörungen, Sprech- und Schluckunfähigkeit, Muskelkrämpfe, Bradykardie, dann Lähmung. VERWECHSLUNGSGEFAHR mit Petersilie, Wiesenkerbel, Anis, Gartenkerbel — Kennzeichen: rot gefleckter Stängel, kahles Laub, intensiver Mäuseharn-Geruch beim Zerreiben. Coniin wird beim Trocknen nur langsam abgebaut. Auch Hautresorption möglich. Bei Vergiftungsverdacht SOFORT Notruf (112) und Giftnotruf. Keine Selbstmedikation. Keine Laienanwendung.",
-      "en": "FATALLY TOXIC — ENTIRE PLANT, ESPECIALLY UNRIPE FRUITS AND ROOT. Conium maculatum contains 1.5–2 % of the piperidine alkaloid coniine plus γ-coniceine, N-methylconiine, conhydrine and pseudoconhydrine. Lethal adult dose: 0.5–1 g coniine (equivalent to 6–8 hemlock leaves). Highest concentrations in unripe fruits. Coniine acts on the nicotinic acetylcholine receptor: initial excitation, then extensive neuromuscular blockade with ascending paralysis — from feet via legs and trunk to respiratory muscles — with consciousness clearly retained. Death by respiratory paralysis. Symptoms (onset ≈ 30 min after ingestion): burning in mouth and throat, nausea, vision disturbances, inability to speak or swallow, muscle cramps, bradycardia, then paralysis. RISK OF CONFUSION with parsley, meadow chervil, anise, garden chervil — distinguishing features: red-spotted stem, hairless foliage, intense mouse-urine smell when crushed. Coniine degrades only slowly on drying. Skin absorption also possible. In case of suspected poisoning: IMMEDIATELY call emergency services and poison control. No self-medication. No lay use."
+      "de": "TÖDLICH GIFTIG — GESAMTE PFLANZE, BESONDERS UNREIFE FRÜCHTE UND WURZEL. Conium maculatum enthält 1,5–2 % des Piperidinalkaloids Coniin sowie γ-Coniceine, N-Methylconiin, Conhydrin und Pseudoconhydrin. Letale Erwachsenendosis: 0,5–1 g Coniin (entspricht 6–8 Schierlingsblättern). Höchste Konzentrationen in unreifen Früchten. Coniin wirkt am nikotinergen Acetylcholinrezeptor: initial Erregung, dann ausgedehnte neuromuskuläre Blockade mit aufsteigender Lähmung — von Füssen über Beine, Rumpf bis Atemmuskulatur — bei klar erhaltenem Bewusstsein. Tod durch Atemlähmung. Symptome (Beginn ≈ 30 min nach Aufnahme): Brennen in Mund und Rachen, Übelkeit, Sehstörungen, Sprech- und Schluckunfähigkeit, Muskelkrämpfe, Bradykardie, dann Lähmung. VERWECHSLUNGSGEFAHR mit Petersilie, Wiesenkerbel, Anis, Gartenkerbel — Kennzeichen: rot gefleckter Stängel, kahles Laub, intensiver Mäuseharn-Geruch beim Zerreiben. Coniin wird beim Trocknen nur langsam abgebaut. Auch Hautresorption möglich. Bei Vergiftungsverdacht SOFORT Notruf (112) und Giftnotruf. Keine Selbstmedikation. Keine Laienanwendung. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "FATALLY TOXIC — ENTIRE PLANT, ESPECIALLY UNRIPE FRUITS AND ROOT. Conium maculatum contains 1.5–2 % of the piperidine alkaloid coniine plus γ-coniceine, N-methylconiine, conhydrine and pseudoconhydrine. Lethal adult dose: 0.5–1 g coniine (equivalent to 6–8 hemlock leaves). Highest concentrations in unripe fruits. Coniine acts on the nicotinic acetylcholine receptor: initial excitation, then extensive neuromuscular blockade with ascending paralysis — from feet via legs and trunk to respiratory muscles — with consciousness clearly retained. Death by respiratory paralysis. Symptoms (onset ≈ 30 min after ingestion): burning in mouth and throat, nausea, vision disturbances, inability to speak or swallow, muscle cramps, bradycardia, then paralysis. RISK OF CONFUSION with parsley, meadow chervil, anise, garden chervil — distinguishing features: red-spotted stem, hairless foliage, intense mouse-urine smell when crushed. Coniine degrades only slowly on drying. Skin absorption also possible. In case of suspected poisoning: IMMEDIATELY call emergency services and poison control. No self-medication. No lay use. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -269,7 +269,18 @@
         "source_id": "src_hotti_2017_conium_maculatum"
       }
     ],
-    "max_continuous_use_weeks": 1
+    "max_continuous_use_weeks": 1,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "poison-hemlock",
+      "entry_name": "Poison Hemlock",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -320,6 +331,13 @@
       "url": "https://doi.org/10.1080/15563650.2024.2309328",
       "accessed": "2026-05-26",
       "language": "en"
+    },
+    {
+      "id": "src_aspca_poison_hemlock",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Poison Hemlock (Conium maculatum)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/poison-hemlock",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

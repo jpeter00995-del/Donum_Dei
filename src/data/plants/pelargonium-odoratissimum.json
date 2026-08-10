@@ -197,8 +197,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Ätherisches Apfel-Geranien-Öl NIEMALS unverdünnt auf die Haut auftragen — Citronellol, Geraniol und Linalool gelten als Allergene und sind in der EU-Kosmetik-Verordnung als deklarationspflichtige Duftstoffe gelistet. Maximalkonzentration 1-3 % in einem Trägeröl; vor Erstanwendung 24-h-Hauttest. Bei bekannter Geraniaceae- oder Citronella-Allergie meiden. Innerlich nur als verdünnter Tee oder Aromazutat — NIEMALS reines ätherisches Öl trinken oder löffeln. WICHTIG: Die EMA-HMPC-Monographie 'Pelargonium' bezieht sich ausschließlich auf Pelargonium sidoides (Atemwegs-Erkältung); für Pelargonium odoratissimum gibt es KEINE EMA-Monographie und keinen 'Well-established use'-Status — alle hier genannten Anwendungen sind traditionell oder volksmedizinisch.",
-      "en": "NEVER apply apple geranium essential oil undiluted to the skin — citronellol, geraniol and linalool are listed allergens in the EU Cosmetics Regulation. Maximum concentration 1-3 % in a carrier oil; patch test 24 h before first use. Avoid in known Geraniaceae or citronella allergy. Internally only as a diluted tea or flavouring — NEVER drink or take pure essential oil by the spoon. IMPORTANT: the EMA HMPC 'Pelargonium' monograph refers exclusively to Pelargonium sidoides (respiratory colds); there is NO EMA monograph and no 'well-established use' status for Pelargonium odoratissimum — all uses listed here are traditional or folk-medicinal."
+      "de": "Ätherisches Apfel-Geranien-Öl NIEMALS unverdünnt auf die Haut auftragen — Citronellol, Geraniol und Linalool gelten als Allergene und sind in der EU-Kosmetik-Verordnung als deklarationspflichtige Duftstoffe gelistet. Maximalkonzentration 1-3 % in einem Trägeröl; vor Erstanwendung 24-h-Hauttest. Bei bekannter Geraniaceae- oder Citronella-Allergie meiden. Innerlich nur als verdünnter Tee oder Aromazutat — NIEMALS reines ätherisches Öl trinken oder löffeln. WICHTIG: Die EMA-HMPC-Monographie 'Pelargonium' bezieht sich ausschließlich auf Pelargonium sidoides (Atemwegs-Erkältung); für Pelargonium odoratissimum gibt es KEINE EMA-Monographie und keinen 'Well-established use'-Status — alle hier genannten Anwendungen sind traditionell oder volksmedizinisch. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "NEVER apply apple geranium essential oil undiluted to the skin — citronellol, geraniol and linalool are listed allergens in the EU Cosmetics Regulation. Maximum concentration 1-3 % in a carrier oil; patch test 24 h before first use. Avoid in known Geraniaceae or citronella allergy. Internally only as a diluted tea or flavouring — NEVER drink or take pure essential oil by the spoon. IMPORTANT: the EMA HMPC 'Pelargonium' monograph refers exclusively to Pelargonium sidoides (respiratory colds); there is NO EMA monograph and no 'well-established use' status for Pelargonium odoratissimum — all uses listed here are traditional or folk-medicinal. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -262,7 +262,18 @@
         "de": "Katzen und kleine Hunde im Haushalt: ätherisches Geranium-Öl ist für Heimtiere toxisch (laut ASPCA — gilt für alle Pelargonium-Arten). Diffuser nur in Räumen verwenden, die das Tier verlassen kann; keine direkte Hautanwendung am Tier.",
         "en": "Cats and small dogs in the household: geranium essential oil is toxic to pets (per ASPCA — applies to all Pelargonium species). Use a diffuser only in rooms the animal can leave; no direct application on the pet."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "geranium",
+      "entry_name": "Geranium",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -307,6 +318,13 @@
       "title": "Lalli J.Y.Y., Viljoen A.M., Baser K.H.C., Demirci B., Oezek T. (2008) — The essential oil composition and chemotaxonomical appraisal of South African Pelargoniums (Geraniaceae). Journal of Essential Oil Research 20(2): 152-160.",
       "url": "https://doi.org/10.1080/10412905.2008.9699979",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_geranium",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Geranium (Pelargonium species)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/geranium",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {
@@ -333,7 +351,7 @@
     "light": "direct_sun",
     "water_frequency": "every_few_days",
     "difficulty": 1,
-    "pet_safe": true,
+    "pet_safe": false,
     "soil": {
       "de": "Geranien-Erde mit Drainage",
       "en": "Geranium compost with drainage"

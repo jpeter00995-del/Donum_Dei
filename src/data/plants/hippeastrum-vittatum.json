@@ -124,8 +124,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG — ALLE PFLANZENTEILE, BESONDERS DIE ZWIEBEL. Hippeastrum vittatum enthält die typischen Amaryllidaceae-Alkaloide (Lycorin als Hauptkomponente, dazu Hippeastrin, Vittatin, Tazettin, in Spuren Pancratistatin und Galantamin) sowie Calciumoxalat-Raphiden. Die klassische Vergiftung erfolgt — analog zur Narzisse — durch versehentliche Verwechslung der trockenen Zwiebel mit Speisezwiebel oder Schalotte, besonders nach Weihnachts-Geschenken, wenn die abgeblühten Zwiebeln in Küchen und Vorratsräume gelangen. Symptome (oral): innerhalb 15 bis 90 Minuten Übelkeit, starkes Erbrechen, Durchfall, krampfartige Bauchschmerzen, Speichelfluss, Schwitzen, Schwindel, Kreislaufstörungen; bei grösseren Mengen Tremor, Krampfanfälle, Tachykardie, in schweren Fällen Atemlähmung. Dermal: Floristen-Ekzem, Kontaktdermatitis durch wiederholten Saftkontakt. Haustiere — besonders Katzen — sind sehr empfindlich; eine einzige zerkaute Zwiebelschuppe kann bei der Katze Erbrechen, Tremor und epileptiforme Krampfanfälle auslösen (häufige Notfallvorstellung bei Tierärzten zwischen Dezember und Februar). Bei Verdacht auf orale Vergiftung: Giftnotruf (Deutschland: regionale Giftinformationszentralen, Österreich: VIZ, Schweiz: Tox Info Suisse), reichlich Wasser, KEIN Salzwasser zur Brechauslösung. Kinder und Haustiere unverzüglich ärztlich bzw. tierärztlich vorstellen.",
-      "en": "TOXIC — ALL PLANT PARTS, ESPECIALLY THE BULB. Hippeastrum vittatum contains the typical Amaryllidaceae alkaloids (lycorine as the main component, plus hippeastrine, vittatine, tazettine, traces of pancratistatin and galantamine) along with calcium oxalate raphides. The classic poisoning occurs — analogous to narcissus — through accidental confusion of the dried bulb with kitchen onion or shallot, particularly after Christmas gifts, when the spent bulbs find their way into kitchens and pantries. Symptoms (oral): within 15 to 90 minutes nausea, severe vomiting, diarrhoea, cramping abdominal pain, salivation, sweating, dizziness, circulatory disturbances; with larger amounts tremor, seizures, tachycardia, in severe cases respiratory paralysis. Dermal: florist's eczema, contact dermatitis from repeated sap exposure. Pets — particularly cats — are highly sensitive; a single chewed bulb scale can trigger vomiting, tremor and epileptiform seizures in cats (frequent emergency presentations to veterinarians between December and February). On suspected oral poisoning: poison control hotline (Germany: regional poison information centres, Austria: VIZ, Switzerland: Tox Info Suisse), abundant water, NO salt water for induced vomiting. Present children and pets to medical or veterinary care without delay."
+      "de": "GIFTIG — ALLE PFLANZENTEILE, BESONDERS DIE ZWIEBEL. Hippeastrum vittatum enthält die typischen Amaryllidaceae-Alkaloide (Lycorin als Hauptkomponente, dazu Hippeastrin, Vittatin, Tazettin, in Spuren Pancratistatin und Galantamin) sowie Calciumoxalat-Raphiden. Die klassische Vergiftung erfolgt — analog zur Narzisse — durch versehentliche Verwechslung der trockenen Zwiebel mit Speisezwiebel oder Schalotte, besonders nach Weihnachts-Geschenken, wenn die abgeblühten Zwiebeln in Küchen und Vorratsräume gelangen. Symptome (oral): innerhalb 15 bis 90 Minuten Übelkeit, starkes Erbrechen, Durchfall, krampfartige Bauchschmerzen, Speichelfluss, Schwitzen, Schwindel, Kreislaufstörungen; bei grösseren Mengen Tremor, Krampfanfälle, Tachykardie, in schweren Fällen Atemlähmung. Dermal: Floristen-Ekzem, Kontaktdermatitis durch wiederholten Saftkontakt. Haustiere — besonders Katzen — sind sehr empfindlich; eine einzige zerkaute Zwiebelschuppe kann bei der Katze Erbrechen, Tremor und epileptiforme Krampfanfälle auslösen (häufige Notfallvorstellung bei Tierärzten zwischen Dezember und Februar). Bei Verdacht auf orale Vergiftung: Giftnotruf (Deutschland: regionale Giftinformationszentralen, Österreich: VIZ, Schweiz: Tox Info Suisse), reichlich Wasser, KEIN Salzwasser zur Brechauslösung. Kinder und Haustiere unverzüglich ärztlich bzw. tierärztlich vorstellen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "TOXIC — ALL PLANT PARTS, ESPECIALLY THE BULB. Hippeastrum vittatum contains the typical Amaryllidaceae alkaloids (lycorine as the main component, plus hippeastrine, vittatine, tazettine, traces of pancratistatin and galantamine) along with calcium oxalate raphides. The classic poisoning occurs — analogous to narcissus — through accidental confusion of the dried bulb with kitchen onion or shallot, particularly after Christmas gifts, when the spent bulbs find their way into kitchens and pantries. Symptoms (oral): within 15 to 90 minutes nausea, severe vomiting, diarrhoea, cramping abdominal pain, salivation, sweating, dizziness, circulatory disturbances; with larger amounts tremor, seizures, tachycardia, in severe cases respiratory paralysis. Dermal: florist's eczema, contact dermatitis from repeated sap exposure. Pets — particularly cats — are highly sensitive; a single chewed bulb scale can trigger vomiting, tremor and epileptiform seizures in cats (frequent emergency presentations to veterinarians between December and February). On suspected oral poisoning: poison control hotline (Germany: regional poison information centres, Austria: VIZ, Switzerland: Tox Info Suisse), abundant water, NO salt water for induced vomiting. Present children and pets to medical or veterinary care without delay. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -201,7 +201,18 @@
         "severity": "caution",
         "source_id": "src_hv_pubmed_alkaloids"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "barbados-lily",
+      "entry_name": "Barbados Lily",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -253,6 +264,13 @@
       "title": "Hippeastrum vittatum (Wikidata Q161244)",
       "url": "https://www.wikidata.org/wiki/Q161244",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_barbados_lily",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Barbados Lily (Hippeastrum spp.)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/barbados-lily",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

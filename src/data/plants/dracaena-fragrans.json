@@ -92,8 +92,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG für Hunde und Katzen: Saponine verursachen Erbrechen (gelegentlich blutig), Depression, Appetitlosigkeit, Hypersalivation und bei Katzen erweiterte Pupillen. Für Menschen im Normalgebrauch als Zimmerpflanze unbedenklich; alle Pflanzenteile sollten nicht verzehrt werden.",
-      "en": "TOXIC to dogs and cats: saponins cause vomiting (occasionally bloody), depression, anorexia, hypersalivation, and dilated pupils in cats. For humans in normal use as a houseplant, not hazardous; all plant parts should not be ingested."
+      "de": "GIFTIG für Hunde und Katzen: Saponine verursachen Erbrechen (gelegentlich blutig), Depression, Appetitlosigkeit, Hypersalivation und bei Katzen erweiterte Pupillen. Für Menschen im Normalgebrauch als Zimmerpflanze unbedenklich; alle Pflanzenteile sollten nicht verzehrt werden. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "TOXIC to dogs and cats: saponins cause vomiting (occasionally bloody), depression, anorexia, hypersalivation, and dilated pupils in cats. For humans in normal use as a houseplant, not hazardous; all plant parts should not be ingested. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -129,7 +129,18 @@
         "en": "Pet owners (dogs/cats) should not place the plant within reach of animals."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "corn-plant",
+      "entry_name": "Corn Plant",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -153,6 +164,13 @@
       "title": "Dracaena fragrans — Plants For A Future (PFAF)",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Dracaena+fragrans",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_corn_plant",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Corn Plant (Dracaena fragrans)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/corn-plant",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

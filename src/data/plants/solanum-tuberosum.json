@@ -173,8 +173,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "ACHTUNG: Grüne Kartoffelknollen, Keime und alle oberirdischen Pflanzenteile (Blätter, Beeren) enthalten toxische Glykoalkaloide (Solanin, Chaconin). Verzehr grüner oder gekeimter Kartoffeln kann Übelkeit, Erbrechen, Bauchkrämpfe und in hohen Dosen neurologische Symptome verursachen. Grüne Stellen großzügig tief herausschneiden; stark gekeimte oder großflächig grüne Knollen entsorgen, nicht kochen. Rohe Kartoffeln sind wegen unverdaulicher Stärke schlecht bekömmlich. Kartoffelsaft aus grünfreien Knollen gilt in kleinen Mengen als traditionell unbedenklich; Eigenmedikation mit Kartoffelsaft bei ernsthaften Magenbeschwerden ersetzt keine ärztliche Abklärung.",
-      "en": "WARNING: Green potato tubers, sprouts and all above-ground plant parts (leaves, berries) contain toxic glycoalkaloids (solanine, chaconine). Consuming green or sprouted potatoes can cause nausea, vomiting, abdominal cramps and, in high doses, neurological symptoms. Cut out green patches generously and deeply; discard heavily sprouted or extensively green tubers — do not cook them. Raw potato is poorly digestible due to indigestible raw starch. Potato juice from greenness-free tubers is considered traditionally safe in small amounts; self-medicating with potato juice for serious gastric complaints does not replace medical evaluation."
+      "de": "ACHTUNG: Grüne Kartoffelknollen, Keime und alle oberirdischen Pflanzenteile (Blätter, Beeren) enthalten toxische Glykoalkaloide (Solanin, Chaconin). Verzehr grüner oder gekeimter Kartoffeln kann Übelkeit, Erbrechen, Bauchkrämpfe und in hohen Dosen neurologische Symptome verursachen. Grüne Stellen großzügig tief herausschneiden; stark gekeimte oder großflächig grüne Knollen entsorgen, nicht kochen. Rohe Kartoffeln sind wegen unverdaulicher Stärke schlecht bekömmlich. Kartoffelsaft aus grünfreien Knollen gilt in kleinen Mengen als traditionell unbedenklich; Eigenmedikation mit Kartoffelsaft bei ernsthaften Magenbeschwerden ersetzt keine ärztliche Abklärung. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "WARNING: Green potato tubers, sprouts and all above-ground plant parts (leaves, berries) contain toxic glycoalkaloids (solanine, chaconine). Consuming green or sprouted potatoes can cause nausea, vomiting, abdominal cramps and, in high doses, neurological symptoms. Cut out green patches generously and deeply; discard heavily sprouted or extensively green tubers — do not cook them. Raw potato is poorly digestible due to indigestible raw starch. Potato juice from greenness-free tubers is considered traditionally safe in small amounts; self-medicating with potato juice for serious gastric complaints does not replace medical evaluation. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -223,7 +223,18 @@
         "de": "Schwere Niereninsuffizienz (Kaliumrestriktion notwendig) — Kartoffelkonsum ärztlich abklären.",
         "en": "Severe renal failure (potassium restriction required) — consult a physician regarding potato consumption."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "deadly-nightshade",
+      "entry_name": "Deadly Nightshade",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -282,6 +293,13 @@
       "title": "Solanum tuberosum — Wikidata (Q10998)",
       "url": "https://www.wikidata.org/wiki/Q10998",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_aspca_deadly_nightshade",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Deadly Nightshade (Solanum spp)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/deadly-nightshade",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -183,12 +183,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Wenn Beschwerden länger als 2 Wochen anhalten oder Wunden sich nicht innerhalb einer Woche bessern, soll ein Arzt aufgesucht werden. Bei ungewöhnlich starken Menstruationsbeschwerden ärztlich abklären. WICHTIG: Schafgarbe gehört zu den Korbblütlern (Asteraceae) — bei Allergie gegen Kamille, Arnika oder Beifuß meiden. Bei Hautkontakt mit der frischen Pflanze sind phototoxische Reaktionen (Wiesengräser-Dermatitis) möglich.",
-      "en": "Yarrow belongs to Asteraceae — avoid in case of allergy to chamomile, arnica, or mugwort. Skin contact with fresh plant can cause phototoxic reactions."
+      "de": "Wenn Beschwerden länger als 2 Wochen anhalten oder Wunden sich nicht innerhalb einer Woche bessern, soll ein Arzt aufgesucht werden. Bei ungewöhnlich starken Menstruationsbeschwerden ärztlich abklären. WICHTIG: Schafgarbe gehört zu den Korbblütlern (Asteraceae) — bei Allergie gegen Kamille, Arnika oder Beifuß meiden. Bei Hautkontakt mit der frischen Pflanze sind phototoxische Reaktionen (Wiesengräser-Dermatitis) möglich. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "Yarrow belongs to Asteraceae — avoid in case of allergy to chamomile, arnica, or mugwort. Skin contact with fresh plant can cause phototoxic reactions. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "contraindicated",
       "note": {
@@ -234,7 +234,18 @@
         "en": "Children under 12 years (oral, wound) or under 18 years (sitz bath)."
       }
     ],
-    "max_continuous_use_weeks": 2
+    "max_continuous_use_weeks": 2,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "dog-daisy",
+      "entry_name": "Dog Daisy",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [
     {
@@ -254,6 +265,13 @@
       "title": "EMA/HMPC/376416/2019 — European Union herbal monograph on Achillea millefolium L., herba (Final, Revision 1, 03 December 2020)",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/millefolii-herba",
       "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_aspca_dog_daisy",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Dog Daisy (Achillea millefolium)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/dog-daisy",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

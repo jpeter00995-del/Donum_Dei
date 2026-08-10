@@ -162,8 +162,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Gurken sind für Menschen im Allgemeinen sehr gut verträglich. ACHTUNG bei Bitterkeit: Cucurbitacine sind bittere, toxische Triterpenverbindungen, die in Wildgurken oder gelegentlich in Kulturgurkensorten (insbes. Einlegegurken nach Stress durch Hitze, Trockenheit oder Kreuzung mit Wildsorten) stark erhöht sein können. Stark bittere Früchte NICHT essen — Bitterkeit ist ein Warnsignal. Cucurbitacin-Vergiftungen können zu Übelkeit, Erbrechen, Durchfall und Bauchkrämpfen führen. Gelegentlich können Gurken, insbes. die Schale, bei empfindlichen Personen leichte Verdauungsbeschwerden (Blähungen, Sodbrennen) verursachen.",
-      "en": "Cucumbers are generally very well-tolerated by humans. WARNING regarding bitterness: cucurbitacins are bitter, toxic triterpene compounds that can be significantly elevated in wild cucumbers or occasionally in cultivated varieties (especially pickling cucumbers under stress from heat, drought, or crossing with wild relatives). Do NOT eat strongly bitter fruits — bitterness is a warning signal. Cucurbitacin poisoning can cause nausea, vomiting, diarrhoea, and abdominal cramps. Occasionally cucumbers, especially the skin, may cause mild digestive discomfort (bloating, heartburn) in sensitive individuals."
+      "de": "Gurken sind für Menschen im Allgemeinen sehr gut verträglich. ACHTUNG bei Bitterkeit: Cucurbitacine sind bittere, toxische Triterpenverbindungen, die in Wildgurken oder gelegentlich in Kulturgurkensorten (insbes. Einlegegurken nach Stress durch Hitze, Trockenheit oder Kreuzung mit Wildsorten) stark erhöht sein können. Stark bittere Früchte NICHT essen — Bitterkeit ist ein Warnsignal. Cucurbitacin-Vergiftungen können zu Übelkeit, Erbrechen, Durchfall und Bauchkrämpfen führen. Gelegentlich können Gurken, insbes. die Schale, bei empfindlichen Personen leichte Verdauungsbeschwerden (Blähungen, Sodbrennen) verursachen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen ungiftig.",
+      "en": "Cucumbers are generally very well-tolerated by humans. WARNING regarding bitterness: cucurbitacins are bitter, toxic triterpene compounds that can be significantly elevated in wild cucumbers or occasionally in cultivated varieties (especially pickling cucumbers under stress from heat, drought, or crossing with wild relatives). Do NOT eat strongly bitter fruits — bitterness is a warning signal. Cucurbitacin poisoning can cause nausea, vomiting, diarrhoea, and abdominal cramps. Occasionally cucumbers, especially the skin, may cause mild digestive discomfort (bloating, heartburn) in sensitive individuals. ASPCA classification (accessed 2026-08-10): non-toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "none",
@@ -199,7 +199,18 @@
         "de": "Bekannte Überempfindlichkeit oder Allergie gegen Kürbisgewächse (Cucurbitaceae, z. B. Gurken, Melonen, Zucchini) — Kreuzreaktionen möglich.",
         "en": "Known hypersensitivity or allergy to Cucurbitaceae (e.g. cucumbers, melons, courgettes) — cross-reactions possible."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "cucumber",
+      "entry_name": "Cucumber",
+      "listing": [
+        "non_toxic_dogs",
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -237,6 +248,13 @@
       "title": "Cucumis sativus — Wikidata (Q1419186)",
       "url": "https://www.wikidata.org/wiki/Q1419186",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_aspca_cucumber",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Cucumber (Cucumis sativus)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/cucumber",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

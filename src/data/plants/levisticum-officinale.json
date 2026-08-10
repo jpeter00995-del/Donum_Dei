@@ -286,12 +286,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "WICHTIG — Liebstöckelwurzel bei Spültherapie: Reichlich Flüssigkeit trinken (min. 1,5–2 l täglich). KONTRAINDIKATION Spültherapie: Nierenerkrankungen jeder Art sowie Herzinsuffizienz mit Ödemneigung — Spülungstherapie verstärkt die Flüssigkeitslast und ist in diesen Fällen verboten. Entzündliche Nierenerkrankungen (Nephritis, Glomerulonephritis, Pyelonephritis): Liebstöckelwurzel NICHT anwenden — das ätherische Öl kann die Nierenentzündung verschlimmern. Furanocumarine: Liebstöckel-Zubereitungen (besonders Frischpflanzensaft und ätherisches Öl) enthalten Furanocumarine (z. B. Psoralen, Bergapten), die bei Hautkontakt und anschließender UV-/Sonnenexposition phototoxische Reaktionen (Brennen, Blasen, Pigmentflecken) auslösen können. Intensiver Sonnenkontakt nach äußerlicher Anwendung für mind. 12–24 Stunden meiden. Selbstbehandlung bei stärkeren Harnwegsbeschwerden, Fieber, Rückenschmerzen oder Blut im Urin sofort beenden und Arzt aufsuchen — mögliche Niereninfektion. Anwendungsdauer ohne ärztliche Aufsicht auf 4 Wochen begrenzen.",
-      "en": "IMPORTANT — Lovage root in irrigation therapy: drink plenty of fluid (min. 1.5–2 l daily). CONTRAINDICATION for irrigation therapy: kidney disease of any kind and cardiac insufficiency with oedema tendency — irrigation therapy increases fluid load and is forbidden in these cases. Inflammatory kidney disease (nephritis, glomerulonephritis, pyelonephritis): do NOT use lovage root — the essential oil may worsen renal inflammation. Furanocoumarins: lovage preparations (especially fresh plant juice and essential oil) contain furanocoumarins (e.g. psoralen, bergapten) which can cause phototoxic reactions (burning, blistering, pigment spots) on skin contact followed by UV/sun exposure. Avoid intense sun exposure after external application for at least 12–24 hours. If urinary complaints worsen, fever, back pain or blood in urine occur during self-treatment, stop immediately and consult a doctor — possible kidney infection. Limit self-medication duration to 4 weeks without medical supervision."
+      "de": "WICHTIG — Liebstöckelwurzel bei Spültherapie: Reichlich Flüssigkeit trinken (min. 1,5–2 l täglich). KONTRAINDIKATION Spültherapie: Nierenerkrankungen jeder Art sowie Herzinsuffizienz mit Ödemneigung — Spülungstherapie verstärkt die Flüssigkeitslast und ist in diesen Fällen verboten. Entzündliche Nierenerkrankungen (Nephritis, Glomerulonephritis, Pyelonephritis): Liebstöckelwurzel NICHT anwenden — das ätherische Öl kann die Nierenentzündung verschlimmern. Furanocumarine: Liebstöckel-Zubereitungen (besonders Frischpflanzensaft und ätherisches Öl) enthalten Furanocumarine (z. B. Psoralen, Bergapten), die bei Hautkontakt und anschließender UV-/Sonnenexposition phototoxische Reaktionen (Brennen, Blasen, Pigmentflecken) auslösen können. Intensiver Sonnenkontakt nach äußerlicher Anwendung für mind. 12–24 Stunden meiden. Selbstbehandlung bei stärkeren Harnwegsbeschwerden, Fieber, Rückenschmerzen oder Blut im Urin sofort beenden und Arzt aufsuchen — mögliche Niereninfektion. Anwendungsdauer ohne ärztliche Aufsicht auf 4 Wochen begrenzen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "IMPORTANT — Lovage root in irrigation therapy: drink plenty of fluid (min. 1.5–2 l daily). CONTRAINDICATION for irrigation therapy: kidney disease of any kind and cardiac insufficiency with oedema tendency — irrigation therapy increases fluid load and is forbidden in these cases. Inflammatory kidney disease (nephritis, glomerulonephritis, pyelonephritis): do NOT use lovage root — the essential oil may worsen renal inflammation. Furanocoumarins: lovage preparations (especially fresh plant juice and essential oil) contain furanocoumarins (e.g. psoralen, bergapten) which can cause phototoxic reactions (burning, blistering, pigment spots) on skin contact followed by UV/sun exposure. Avoid intense sun exposure after external application for at least 12–24 hours. If urinary complaints worsen, fever, back pain or blood in urine occur during self-treatment, stop immediately and consult a doctor — possible kidney infection. Limit self-medication duration to 4 weeks without medical supervision. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "contraindicated",
       "note": {
@@ -369,7 +369,18 @@
         "source_id": "src_escop_levistici_radix"
       }
     ],
-    "max_continuous_use_weeks": 4
+    "max_continuous_use_weeks": 4,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "lovage",
+      "entry_name": "Lovage",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -428,6 +439,13 @@
       "title": "Lovage (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Lovage",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_aspca_lovage",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Lovage (Levisticum officinale)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/lovage",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -6,6 +6,7 @@ import type {
   IndoorWaterFrequency,
   IndoorDifficulty,
 } from './types';
+import { isPetSafe, isPetChecked } from './petSafety';
 
 // === 1. SLIM-DTO ===
 // Schlankes Datenobjekt fuer die beiden "Zuhause anbauen"-Islands
@@ -29,7 +30,13 @@ export interface IndoorPlant {
     light: IndoorLight;
     water_frequency: IndoorWaterFrequency;
     difficulty: IndoorDifficulty;
+    /**
+     * Kommt aus `safety.pet_toxic` — nicht mehr aus `indoor_growing.pet_safe`.
+     * Beide Felder liefen frueher unabhaengig und widersprachen sich.
+     */
     pet_safe: boolean;
+    /** True, wenn die Haustier-Angabe extern belegt ist (ASPCA). */
+    pet_checked: boolean;
   };
 }
 
@@ -57,7 +64,8 @@ export function toIndoorPlant(plant: Plant): IndoorPlant {
       light: ig.light,
       water_frequency: ig.water_frequency,
       difficulty: ig.difficulty,
-      pet_safe: ig.pet_safe,
+      pet_safe: isPetSafe(plant),
+      pet_checked: isPetChecked(plant),
     },
   };
 }

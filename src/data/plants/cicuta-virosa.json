@@ -21,19 +21,29 @@
   "uses": [
     {
       "form": "salve",
-      "target": ["historical", "poisonous"],
+      "target": [
+        "historical",
+        "poisonous"
+      ],
       "internal_external": "external",
       "description": {
         "de": "Historisch wurde der Wasserschierling trotz seiner extremen Giftigkeit als äußerliche Salbe oder Wickel gegen Gicht, Rheuma und Krämpfe verwendet – eine längst aufgegebene und lebensgefährliche Praxis.",
         "en": "Historically, despite its extreme toxicity, cowbane was applied externally as a salve or compress against gout, rheumatism and cramps — a long-abandoned and life-threatening practice."
       },
-      "source_ids": ["wp_de", "tox_mono"],
+      "source_ids": [
+        "wp_de",
+        "tox_mono"
+      ],
       "plant_part": "rhizome",
       "evidence_level": "folk"
     }
   ],
   "season": {
-    "active_months": [7, 8, 9],
+    "active_months": [
+      7,
+      8,
+      9
+    ],
     "harvest_part": {
       "de": "Keine Ernte – tödlich giftig",
       "en": "No harvest — deadly poisonous"
@@ -41,12 +51,23 @@
   },
   "safety": {
     "warnings": {
-      "de": "TÖDLICH: Enthält Cicutoxin; schon kleine Mengen lösen innerhalb von Minuten heftige Krämpfe und epileptische Anfälle aus, gefolgt von Atemlähmung. Die Wurzelknolle ist der giftigste Teil. Hohe Verwechslungsgefahr mit essbaren Doldenblütlern wie Pastinake oder Sellerie – nie berühren oder verzehren.",
-      "en": "DEADLY: Contains cicutoxin; even small amounts cause violent convulsions and epileptic seizures within minutes, followed by respiratory paralysis. The root tuber is the most toxic part. High risk of confusion with edible Apiaceae such as parsnip or celery — never touch or ingest."
+      "de": "TÖDLICH: Enthält Cicutoxin; schon kleine Mengen lösen innerhalb von Minuten heftige Krämpfe und epileptische Anfälle aus, gefolgt von Atemlähmung. Die Wurzelknolle ist der giftigste Teil. Hohe Verwechslungsgefahr mit essbaren Doldenblütlern wie Pastinake oder Sellerie – nie berühren oder verzehren. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "DEADLY: Contains cicutoxin; even small amounts cause violent convulsions and epileptic seizures within minutes, followed by respiratory paralysis. The root tuber is the most toxic part. High risk of confusion with edible Apiaceae such as parsnip or celery — never touch or ingest. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "toxic",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "cowbane",
+      "entry_name": "Cowbane",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "constituents": [
     {
@@ -96,6 +117,13 @@
       "title": "Cicutoxin — chemistry and GABA-A antagonist mechanism (Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/Cicutoxin",
       "accessed": "2026-06-24"
+    },
+    {
+      "id": "src_aspca_cowbane",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Cowbane (Cicuta species)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/cowbane",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

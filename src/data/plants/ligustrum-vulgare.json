@@ -186,8 +186,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG — Beeren und Blaetter. Die schwarzen, glaenzenden Beeren des Gewoehnlichen Ligusters enthalten Secoiridoid-Glykoside (Ligustrosid, Oleuropein, Syringosid, Ligustaloside A) und sind eine der haeufigsten Pflanzenvergiftungen bei Kindern in mitteleuropaeischen Gaerten. Bereits 6-10 Beeren koennen Erbrechen, Bauchschmerzen, Durchfall, Schwindel und Kreislaufstoerungen ausloesen. Bei Verzehr groesserer Mengen: SOFORT Giftnotruf kontaktieren. Auch fuer Hunde, Katzen, Pferde und Wiederkaeuer toxisch. Nicht mit essbarem Holunder (Sambucus nigra) oder Aronia verwechseln — Liguster-Beeren haengen aufrecht in lockeren Rispen, Holunder dagegen in haengenden Dolden.",
-      "en": "TOXIC — berries and leaves. The black, glossy berries of common privet contain secoiridoid glycosides (ligustroside, oleuropein, syringoside, ligustaloside A) and are one of the most frequent plant poisonings in children in central European gardens. As few as 6-10 berries can cause vomiting, abdominal pain, diarrhoea, dizziness and circulatory problems. For consumption of larger quantities: IMMEDIATELY contact poison control. Also toxic to dogs, cats, horses and ruminants. Do not confuse with edible elderberry (Sambucus nigra) or aronia — privet berries hang upright in loose panicles, elderberries in pendulous umbels."
+      "de": "GIFTIG — Beeren und Blaetter. Die schwarzen, glaenzenden Beeren des Gewoehnlichen Ligusters enthalten Secoiridoid-Glykoside (Ligustrosid, Oleuropein, Syringosid, Ligustaloside A) und sind eine der haeufigsten Pflanzenvergiftungen bei Kindern in mitteleuropaeischen Gaerten. Bereits 6-10 Beeren koennen Erbrechen, Bauchschmerzen, Durchfall, Schwindel und Kreislaufstoerungen ausloesen. Bei Verzehr groesserer Mengen: SOFORT Giftnotruf kontaktieren. Auch fuer Hunde, Katzen, Pferde und Wiederkaeuer toxisch. Nicht mit essbarem Holunder (Sambucus nigra) oder Aronia verwechseln — Liguster-Beeren haengen aufrecht in lockeren Rispen, Holunder dagegen in haengenden Dolden. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "TOXIC — berries and leaves. The black, glossy berries of common privet contain secoiridoid glycosides (ligustroside, oleuropein, syringoside, ligustaloside A) and are one of the most frequent plant poisonings in children in central European gardens. As few as 6-10 berries can cause vomiting, abdominal pain, diarrhoea, dizziness and circulatory problems. For consumption of larger quantities: IMMEDIATELY contact poison control. Also toxic to dogs, cats, horses and ruminants. Do not confuse with edible elderberry (Sambucus nigra) or aronia — privet berries hang upright in loose panicles, elderberries in pendulous umbels. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -241,7 +241,18 @@
         "severity": "caution",
         "source_id": "src_pfaf_ligustrum_vulgare"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "common-privet",
+      "entry_name": "Common Privet",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -272,6 +283,13 @@
       "title": "Plants for a Future — Ligustrum vulgare",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Ligustrum+vulgare",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_common_privet",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Common Privet (Ligustrum vulgare)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/common-privet",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

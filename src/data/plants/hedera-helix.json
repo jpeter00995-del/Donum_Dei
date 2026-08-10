@@ -223,8 +223,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "ZENTRALE SICHERHEITSHINWEISE: (1) BEEREN GIFTIG — Efeubeeren (schwarz-blau, reif September–Oktober) sind für Menschen und Haustiere toxisch. Symptome nach Beerenverzehr: Übelkeit, Erbrechen, Bauchschmerzen, Durchfall, in grösseren Mengen Krämpfe, Atemdepression, Bewusstseinsverlust. Sofort Notruf (Giftnotruf) bei Verdacht auf Beerenverzehr. (2) KONTAKTALLERGEN — Falcarinol in frischen Efeublättern und Stängeln ist ein häufiges Kontaktallergen. Gärtner und Menschen, die regelmässig Efeu schneiden, entwickeln nicht selten allergische Kontaktdermatitis (Rötung, Bläschen, Juckreiz). Bei Sonnenlicht phototoxische Reaktion möglich. Beim Schneiden Handschuhe und langärmlige Kleidung tragen. (3) NUR FERTIGPRÄPARATE — medizinische Anwendung ausschliesslich als zugelassenes standardisiertes Fertigarzneimittel (Prospan, Hedelix, Bronchipret). Selbstgemachter Efeutee ist unwirksam (Saponine kaum wasserlöslich) UND potenziell reizend. (4) MAX. 1 WOCHE Selbstbehandlung ohne Arzt. Bei Verschlechterung, Fieber, Atemnot oder eitrigem Auswurf sofort Arzt.",
-      "en": "KEY SAFETY WARNINGS: (1) BERRIES TOXIC — ivy berries (blue-black, ripe Sept–Oct) are toxic to humans and pets. Symptoms: nausea, vomiting, abdominal pain, diarrhoea, in larger amounts convulsions, respiratory depression, loss of consciousness. Call Poison Control immediately on suspected berry ingestion. (2) CONTACT ALLERGEN — falcarinol in fresh ivy leaves and stems is a common contact allergen. Gardeners and people cutting ivy regularly often develop allergic contact dermatitis (redness, vesicles, itching). Phototoxic reactions possible in sunlight. Wear gloves and long sleeves when cutting. (3) FINISHED PREPARATIONS ONLY — medicinal use exclusively as a licensed standardised pharmaceutical (Prospan, Hedelix, Bronchipret). Home-made ivy tea is ineffective (saponins poorly water-soluble) AND potentially irritant. (4) MAX. 1 WEEK self-treatment without medical advice. Worsening, fever, dyspnoea or purulent sputum: see a doctor immediately."
+      "de": "ZENTRALE SICHERHEITSHINWEISE: (1) BEEREN GIFTIG — Efeubeeren (schwarz-blau, reif September–Oktober) sind für Menschen und Haustiere toxisch. Symptome nach Beerenverzehr: Übelkeit, Erbrechen, Bauchschmerzen, Durchfall, in grösseren Mengen Krämpfe, Atemdepression, Bewusstseinsverlust. Sofort Notruf (Giftnotruf) bei Verdacht auf Beerenverzehr. (2) KONTAKTALLERGEN — Falcarinol in frischen Efeublättern und Stängeln ist ein häufiges Kontaktallergen. Gärtner und Menschen, die regelmässig Efeu schneiden, entwickeln nicht selten allergische Kontaktdermatitis (Rötung, Bläschen, Juckreiz). Bei Sonnenlicht phototoxische Reaktion möglich. Beim Schneiden Handschuhe und langärmlige Kleidung tragen. (3) NUR FERTIGPRÄPARATE — medizinische Anwendung ausschliesslich als zugelassenes standardisiertes Fertigarzneimittel (Prospan, Hedelix, Bronchipret). Selbstgemachter Efeutee ist unwirksam (Saponine kaum wasserlöslich) UND potenziell reizend. (4) MAX. 1 WOCHE Selbstbehandlung ohne Arzt. Bei Verschlechterung, Fieber, Atemnot oder eitrigem Auswurf sofort Arzt. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "KEY SAFETY WARNINGS: (1) BERRIES TOXIC — ivy berries (blue-black, ripe Sept–Oct) are toxic to humans and pets. Symptoms: nausea, vomiting, abdominal pain, diarrhoea, in larger amounts convulsions, respiratory depression, loss of consciousness. Call Poison Control immediately on suspected berry ingestion. (2) CONTACT ALLERGEN — falcarinol in fresh ivy leaves and stems is a common contact allergen. Gardeners and people cutting ivy regularly often develop allergic contact dermatitis (redness, vesicles, itching). Phototoxic reactions possible in sunlight. Wear gloves and long sleeves when cutting. (3) FINISHED PREPARATIONS ONLY — medicinal use exclusively as a licensed standardised pharmaceutical (Prospan, Hedelix, Bronchipret). Home-made ivy tea is ineffective (saponins poorly water-soluble) AND potentially irritant. (4) MAX. 1 WEEK self-treatment without medical advice. Worsening, fever, dyspnoea or purulent sputum: see a doctor immediately. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "toxic",
@@ -305,7 +305,18 @@
         "en": "Open wounds or severely inflamed skin with external fresh-leaf applications — falcarinol irritation and contact dermatitis risk."
       }
     ],
-    "max_continuous_use_weeks": 1
+    "max_continuous_use_weeks": 1,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "branching-ivy",
+      "entry_name": "Branching Ivy",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -357,6 +368,13 @@
       "title": "Gemeiner Efeu (Wikipedia DE)",
       "url": "https://de.wikipedia.org/wiki/Gemeiner_Efeu",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_aspca_branching_ivy",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Branching Ivy (Hedera helix)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/branching-ivy",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

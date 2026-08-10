@@ -133,8 +133,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Milchsaft (Latex) kann Hautreizungen und allergische Reaktionen auslösen — Handschuhe beim Beschneiden tragen. Furocumarine im Latex erhöhen die Lichtempfindlichkeit der Haut. Für Katzen und Hunde leicht giftig (Magen-Darm-Reizung, Hautreizung).",
-      "en": "Milky sap (latex) can cause skin irritation and allergic reactions — wear gloves when pruning. Furanocoumarins in the latex increase skin photosensitivity. Mildly toxic to cats and dogs (gastrointestinal irritation, skin irritation)."
+      "de": "Milchsaft (Latex) kann Hautreizungen und allergische Reaktionen auslösen — Handschuhe beim Beschneiden tragen. Furocumarine im Latex erhöhen die Lichtempfindlichkeit der Haut. Für Katzen und Hunde leicht giftig (Magen-Darm-Reizung, Hautreizung). ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "Milky sap (latex) can cause skin irritation and allergic reactions — wear gloves when pruning. Furanocoumarins in the latex increase skin photosensitivity. Mildly toxic to cats and dogs (gastrointestinal irritation, skin irritation). ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": true,
     "toxicity_level": "caution",
@@ -170,7 +170,18 @@
         "en": "Sensitive skin without protective gloves during care work"
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "weeping-fig",
+      "entry_name": "Weeping Fig",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -208,6 +219,13 @@
       "title": "Royal Horticultural Society (RHS): Ficus elastica",
       "url": "https://www.rhs.org.uk/plants/7361/ficus-elastica/details",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_weeping_fig",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Weeping Fig (Ficus sp.)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/weeping-fig",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

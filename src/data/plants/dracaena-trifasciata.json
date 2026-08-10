@@ -112,8 +112,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG für Hunde und Katzen (Saponine) — Erbrechen, Durchfall, Sabbern. Für Menschen bei normalem Umgang ungefährlich; Saft kann Hautreizungen verursachen.",
-      "en": "TOXIC for dogs and cats (saponins) — vomiting, diarrhoea, drooling. Not hazardous for humans under normal handling; sap may cause skin irritation."
+      "de": "GIFTIG für Hunde und Katzen (Saponine) — Erbrechen, Durchfall, Sabbern. Für Menschen bei normalem Umgang ungefährlich; Saft kann Hautreizungen verursachen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "TOXIC for dogs and cats (saponins) — vomiting, diarrhoea, drooling. Not hazardous for humans under normal handling; sap may cause skin irritation. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -144,7 +144,18 @@
         "de": "Nicht für Haustiere zugänglich aufstellen (Saponin-Toxizität für Hunde und Katzen).",
         "en": "Do not place within reach of pets (saponin toxicity for dogs and cats)."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "dracaena",
+      "entry_name": "Dracaena",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -175,6 +186,13 @@
       "title": "Sansevieria trifasciata — Plants For A Future (PFAF)",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Sansevieria+trifasciata",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_dracaena",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Dracaena (Dracaena spp.)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/dracaena",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

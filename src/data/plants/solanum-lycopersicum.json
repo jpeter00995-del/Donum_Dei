@@ -167,12 +167,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Grüne, unreife Tomatenfrüchte und alle grünen Pflanzenteile (Blätter, Stängel, unreife Früchte) enthalten Tomatin (ein Steroid-Glykoalkaloid) sowie Spuren Solanin — roh und in größeren Mengen giftig (Übelkeit, Magen-Darm-Beschwerden, Kopfschmerzen). Vollreife, rote Früchte sind sicher und enthalten nur vernachlässigbare Alkaloidspuren. Personen mit Histaminintoleranz oder Reizdarm können auf Tomaten empfindlich reagieren (Histamin-Freisetzung, Säure-Irritation). Bei bekannter Nachtschattenallergie (Solanaceae) Kreuzreaktion möglich.",
-      "en": "Green, unripe tomato fruits and all green plant parts (leaves, stems, unripe fruits) contain tomatine (a steroid glycoalkaloid) and traces of solanine — toxic raw in larger amounts (nausea, GI upset, headache). Fully ripe red fruits are safe with only negligible alkaloid traces. Persons with histamine intolerance or IBS may react sensitively to tomatoes (histamine release, acid irritation). Cross-reaction possible in known nightshade (Solanaceae) allergy."
+      "de": "Grüne, unreife Tomatenfrüchte und alle grünen Pflanzenteile (Blätter, Stängel, unreife Früchte) enthalten Tomatin (ein Steroid-Glykoalkaloid) sowie Spuren Solanin — roh und in größeren Mengen giftig (Übelkeit, Magen-Darm-Beschwerden, Kopfschmerzen). Vollreife, rote Früchte sind sicher und enthalten nur vernachlässigbare Alkaloidspuren. Personen mit Histaminintoleranz oder Reizdarm können auf Tomaten empfindlich reagieren (Histamin-Freisetzung, Säure-Irritation). Bei bekannter Nachtschattenallergie (Solanaceae) Kreuzreaktion möglich. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "Green, unripe tomato fruits and all green plant parts (leaves, stems, unripe fruits) contain tomatine (a steroid glycoalkaloid) and traces of solanine — toxic raw in larger amounts (nausea, GI upset, headache). Fully ripe red fruits are safe with only negligible alkaloid traces. Persons with histamine intolerance or IBS may react sensitively to tomatoes (histamine release, acid irritation). Cross-reaction possible in known nightshade (Solanaceae) allergy. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "safe",
       "note": {
@@ -226,7 +226,18 @@
         "de": "Diagnostizierte Histaminintoleranz: Tomaten sind histaminreich und können Beschwerden (Flush, Kopfschmerzen, Magen-Darm-Symptome) auslösen — Menge einschränken oder meiden.",
         "en": "Diagnosed histamine intolerance: tomatoes are high in histamine and can trigger complaints (flush, headache, GI symptoms) — limit or avoid."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "deadly-nightshade",
+      "entry_name": "Deadly Nightshade",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -271,6 +282,13 @@
       "title": "Tomato (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Tomato",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_aspca_deadly_nightshade",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Deadly Nightshade (Solanum spp)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/deadly-nightshade",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

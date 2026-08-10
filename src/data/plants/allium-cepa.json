@@ -177,8 +177,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Größere Mengen roher Zwiebel können Sodbrennen, Blähungen und Mundgeruch verursachen. Bei empfindlichem Magen, Reflux oder Reizdarm vorsichtig dosieren. Vorsicht beim Auflegen warmer Zwiebelauflagen auf empfindliche Haut, besonders bei Kindern — Verbrühungsgefahr.",
-      "en": "Large amounts of raw onion can cause heartburn, flatulence and bad breath. Use cautiously with sensitive stomach, reflux or irritable bowel. Take care when applying warm onion poultices to sensitive skin, especially in children — risk of scalding."
+      "de": "Größere Mengen roher Zwiebel können Sodbrennen, Blähungen und Mundgeruch verursachen. Bei empfindlichem Magen, Reflux oder Reizdarm vorsichtig dosieren. Vorsicht beim Auflegen warmer Zwiebelauflagen auf empfindliche Haut, besonders bei Kindern — Verbrühungsgefahr. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "Large amounts of raw onion can cause heartburn, flatulence and bad breath. Use cautiously with sensitive stomach, reflux or irritable bowel. Take care when applying warm onion poultices to sensitive skin, especially in children — risk of scalding. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "none",
@@ -237,7 +237,18 @@
         "de": "Verfütterung an Hunde, Katzen und andere Haustiere — Allium-Arten sind für sie hämolytisch toxisch.",
         "en": "Do not feed to dogs, cats or other pets — Allium species are haemolytically toxic to them."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "onion",
+      "entry_name": "Onion",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -282,6 +293,13 @@
       "title": "Wikidata: Allium cepa (Q81513)",
       "url": "https://www.wikidata.org/wiki/Q81513",
       "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_aspca_onion",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Onion (Allium cepa)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/onion",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

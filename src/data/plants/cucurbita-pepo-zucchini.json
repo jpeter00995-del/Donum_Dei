@@ -123,8 +123,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "WICHTIG — Toxic Squash Syndrome (TSS): Bitter schmeckende Zucchini SOFORT verwerfen und NICHT essen. Bitterstoffe (Cucurbitacine) sind in modernen Kultursorten weitgehend weggezüchtet, können aber durch Mutationen, Stressbedingungen oder Auskreuzung mit Zierkürbissen erneut auftreten. Bereits ein einziger bitterer Bissen kann nach 30 Minuten bis Stunden zu starker Übelkeit, Erbrechen, krampfartigen Bauchschmerzen, blutigem Durchfall und Kreislaufversagen führen. In Deutschland verstarb 2015 ein 79-jähriger Mann an einem bitteren Zucchini-Auflauf aus selbstgezogenen Samen (Heidelberg-Fall). Regel: vor dem Kochen ein kleines Stück roh probieren — bei Bitterkeit komplette Frucht entsorgen. Eigene Saatgutgewinnung von Zierkürbissen trennen.",
-      "en": "IMPORTANT — Toxic Squash Syndrome (TSS): Bitter-tasting zucchini must be discarded IMMEDIATELY and NOT eaten. Bitter compounds (cucurbitacins) have been largely bred out of modern cultivars but can reappear through mutations, stress conditions or cross-pollination with ornamental gourds. A single bitter bite can cause severe nausea, vomiting, cramping abdominal pain, bloody diarrhoea and circulatory collapse within 30 minutes to several hours. In Germany in 2015, a 79-year-old man died from a bitter zucchini casserole made from home-saved seeds (Heidelberg case). Rule: taste a small raw piece before cooking — if bitter, discard the entire fruit. Keep home seed-saving separate from ornamental gourds."
+      "de": "WICHTIG — Toxic Squash Syndrome (TSS): Bitter schmeckende Zucchini SOFORT verwerfen und NICHT essen. Bitterstoffe (Cucurbitacine) sind in modernen Kultursorten weitgehend weggezüchtet, können aber durch Mutationen, Stressbedingungen oder Auskreuzung mit Zierkürbissen erneut auftreten. Bereits ein einziger bitterer Bissen kann nach 30 Minuten bis Stunden zu starker Übelkeit, Erbrechen, krampfartigen Bauchschmerzen, blutigem Durchfall und Kreislaufversagen führen. In Deutschland verstarb 2015 ein 79-jähriger Mann an einem bitteren Zucchini-Auflauf aus selbstgezogenen Samen (Heidelberg-Fall). Regel: vor dem Kochen ein kleines Stück roh probieren — bei Bitterkeit komplette Frucht entsorgen. Eigene Saatgutgewinnung von Zierkürbissen trennen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde ungiftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "IMPORTANT — Toxic Squash Syndrome (TSS): Bitter-tasting zucchini must be discarded IMMEDIATELY and NOT eaten. Bitter compounds (cucurbitacins) have been largely bred out of modern cultivars but can reappear through mutations, stress conditions or cross-pollination with ornamental gourds. A single bitter bite can cause severe nausea, vomiting, cramping abdominal pain, bloody diarrhoea and circulatory collapse within 30 minutes to several hours. In Germany in 2015, a 79-year-old man died from a bitter zucchini casserole made from home-saved seeds (Heidelberg case). Rule: taste a small raw piece before cooking — if bitter, discard the entire fruit. Keep home seed-saving separate from ornamental gourds. ASPCA classification (accessed 2026-08-10): non-toxic to dogs. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -172,7 +172,17 @@
         "en": "Do not consume sprouting zucchini seeds as sprouts — as with other Cucurbita pepo seeds, a toxic substance in the embryo is described."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "yellow-flowered-gourd",
+      "entry_name": "Yellow-Flowered Gourd",
+      "listing": [
+        "non_toxic_dogs"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -210,6 +220,13 @@
       "title": "Plants For A Future (PFAF) — Cucurbita pepo (zucchini cultivars)",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Cucurbita+pepo",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_yellow_flowered_gourd",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Yellow-Flowered Gourd (Cucurbita species)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/yellow-flowered-gourd",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

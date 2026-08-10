@@ -142,12 +142,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Rohe oder unreife Auberginen sind ungeeignet zum Verzehr — sie enthalten Solanin und Bitterstoffe, die Übelkeit und Verdauungsbeschwerden verursachen können. Vollständiges Garen (Braten, Dünsten, Backen) baut diese Verbindungen weitgehend ab. Blätter und Blüten enthalten höhere Solanin-Konzentrationen — nur externe Anwendung. Bei bekannter Allergie gegen Nachtschattengewächse (Solanaceae) oder Nickel-Allergie Aubergine mit Vorsicht konsumieren (Kreuzreaktion möglich). In seltenen Fällen wurden histaminbedingte Unverträglichkeitsreaktionen beschrieben.",
-      "en": "Raw or unripe aubergines are unsuitable for consumption — they contain solanine and bitter compounds that can cause nausea and digestive complaints. Thorough cooking (frying, steaming, baking) largely breaks down these compounds. Leaves and flowers contain higher solanine concentrations — external use only. With known allergy to nightshades (Solanaceae) or nickel allergy, consume aubergine with caution (cross-reaction possible). Histamine-related intolerance reactions have been described in rare cases."
+      "de": "Rohe oder unreife Auberginen sind ungeeignet zum Verzehr — sie enthalten Solanin und Bitterstoffe, die Übelkeit und Verdauungsbeschwerden verursachen können. Vollständiges Garen (Braten, Dünsten, Backen) baut diese Verbindungen weitgehend ab. Blätter und Blüten enthalten höhere Solanin-Konzentrationen — nur externe Anwendung. Bei bekannter Allergie gegen Nachtschattengewächse (Solanaceae) oder Nickel-Allergie Aubergine mit Vorsicht konsumieren (Kreuzreaktion möglich). In seltenen Fällen wurden histaminbedingte Unverträglichkeitsreaktionen beschrieben. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "Raw or unripe aubergines are unsuitable for consumption — they contain solanine and bitter compounds that can cause nausea and digestive complaints. Thorough cooking (frying, steaming, baking) largely breaks down these compounds. Leaves and flowers contain higher solanine concentrations — external use only. With known allergy to nightshades (Solanaceae) or nickel allergy, consume aubergine with caution (cross-reaction possible). Histamine-related intolerance reactions have been described in rare cases. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "safe",
       "note": {
@@ -179,7 +179,18 @@
         "en": "Raw or unripe fruits — do not consume due to solanine content."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "deadly-nightshade",
+      "entry_name": "Deadly Nightshade",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -210,6 +221,13 @@
       "title": "USDA FoodData Central — Eggplant, raw (FDC ID 169228)",
       "url": "https://fdc.nal.usda.gov/food-details/169228/nutrients",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_aspca_deadly_nightshade",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Deadly Nightshade (Solanum spp)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/deadly-nightshade",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

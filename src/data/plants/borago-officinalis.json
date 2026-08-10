@@ -145,12 +145,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "STARKE WARNUNG — Borretschkraut (Blätter, Blüten, Sprossspitzen) enthält LEBERTOXISCHE und potenziell KANZEROGENE Pyrrolizidinalkaloide (PA) vom Lycopsamin-Typ (Lycopsamin, Intermedin, Amabilin). Die deutsche Kommission E hat 1992 eine NEGATIVE Monographie veröffentlicht — innerliche Anwendung des Krautes wird ABGELEHNT. Das BfR empfiehlt, die Gesamtaufnahme an 1,2-ungesättigten PA aus allen Lebensmitteln auf unter 1 µg pro Tag zu begrenzen. KÜCHENGEBRAUCH (junge Blätter in Frankfurter Grüner Sauce, Blüten als Garnitur): nur gelegentlich und in kleinen Mengen. KEIN TEE, KEINE TINKTUR als Daueranwendung. Borretsch-SAMENÖL ist hingegen weitgehend PA-frei und für äußerliche/innerliche Verwendung geeignet — sofern als PA-frei zertifiziert.",
-      "en": "STRONG WARNING — Borage herb (leaves, flowers, shoots) contains HEPATOTOXIC and potentially CARCINOGENIC pyrrolizidine alkaloids (PA) of the lycopsamine type (lycopsamine, intermedine, amabiline). German Commission E published a NEGATIVE monograph in 1992 — internal use of the herb is REJECTED. The BfR recommends keeping total intake of 1,2-unsaturated PA from all foods below 1 µg per day. CULINARY USE (young leaves in Frankfurt Green Sauce, flowers as garnish): only occasionally and in small amounts. NO TEA, NO TINCTURE as continuous use. Borage SEED OIL is largely PA-free and suitable for external/internal use — provided it is certified PA-free."
+      "de": "STARKE WARNUNG — Borretschkraut (Blätter, Blüten, Sprossspitzen) enthält LEBERTOXISCHE und potenziell KANZEROGENE Pyrrolizidinalkaloide (PA) vom Lycopsamin-Typ (Lycopsamin, Intermedin, Amabilin). Die deutsche Kommission E hat 1992 eine NEGATIVE Monographie veröffentlicht — innerliche Anwendung des Krautes wird ABGELEHNT. Das BfR empfiehlt, die Gesamtaufnahme an 1,2-ungesättigten PA aus allen Lebensmitteln auf unter 1 µg pro Tag zu begrenzen. KÜCHENGEBRAUCH (junge Blätter in Frankfurter Grüner Sauce, Blüten als Garnitur): nur gelegentlich und in kleinen Mengen. KEIN TEE, KEINE TINKTUR als Daueranwendung. Borretsch-SAMENÖL ist hingegen weitgehend PA-frei und für äußerliche/innerliche Verwendung geeignet — sofern als PA-frei zertifiziert. ASPCA-Einstufung (abgerufen 2026-08-10): für Katzen giftig.",
+      "en": "STRONG WARNING — Borage herb (leaves, flowers, shoots) contains HEPATOTOXIC and potentially CARCINOGENIC pyrrolizidine alkaloids (PA) of the lycopsamine type (lycopsamine, intermedine, amabiline). German Commission E published a NEGATIVE monograph in 1992 — internal use of the herb is REJECTED. The BfR recommends keeping total intake of 1,2-unsaturated PA from all foods below 1 µg per day. CULINARY USE (young leaves in Frankfurt Green Sauce, flowers as garnish): only occasionally and in small amounts. NO TEA, NO TINCTURE as continuous use. Borage SEED OIL is largely PA-free and suitable for external/internal use — provided it is certified PA-free. ASPCA classification (accessed 2026-08-10): toxic to cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "contraindicated",
       "note": {
@@ -225,7 +225,17 @@
         "de": "Überempfindlichkeit gegen Boraginaceae.",
         "en": "Hypersensitivity to Boraginaceae."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "borage",
+      "entry_name": "Borage",
+      "listing": [
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -284,6 +294,13 @@
       "title": "Wikipedia EN — Borage (Borago officinalis)",
       "url": "https://en.wikipedia.org/wiki/Borage",
       "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_aspca_borage",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Borage (Borage officinalis)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/borage",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -169,12 +169,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Kümmelfrucht-Tee ist sehr sicher. Bei Beschwerden länger als 2 Wochen oder Blut im Stuhl, Gewichtsverlust, Fieber: Arzt. WICHTIG bei Kümmelöl: niemals unverdünnt auf Haut oder Schleimhäute, nicht in die Augen, bei Säuglingen/Kleinkindern ausschließlich äußerlich als verdünnter Bauchwickel — nie oral. Allergien selten möglich bei Doldenblütler-Kreuzallergie (Fenchel, Anis, Sellerie).",
-      "en": "Caraway-fruit tea very safe. Pure caraway oil never undiluted; in infants only external compress, never oral."
+      "de": "Kümmelfrucht-Tee ist sehr sicher. Bei Beschwerden länger als 2 Wochen oder Blut im Stuhl, Gewichtsverlust, Fieber: Arzt. WICHTIG bei Kümmelöl: niemals unverdünnt auf Haut oder Schleimhäute, nicht in die Augen, bei Säuglingen/Kleinkindern ausschließlich äußerlich als verdünnter Bauchwickel — nie oral. Allergien selten möglich bei Doldenblütler-Kreuzallergie (Fenchel, Anis, Sellerie). ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "Caraway-fruit tea very safe. Pure caraway oil never undiluted; in infants only external compress, never oral. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "none",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "caution",
       "note": {
@@ -211,7 +211,18 @@
         "en": "Never apply pure oil undiluted to skin."
       }
     ],
-    "max_continuous_use_weeks": 2
+    "max_continuous_use_weeks": 2,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "caraway",
+      "entry_name": "Caraway",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -228,6 +239,13 @@
       "title": "EMA/HMPC/715094/2013 — European Union herbal monograph on Carum carvi L., aetheroleum (Final, 10 September 2015)",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/carvi-aetheroleum",
       "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_aspca_caraway",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Caraway (Carum carvi)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/caraway",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

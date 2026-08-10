@@ -267,7 +267,18 @@
         "en": "Pure thyme essential oil: infants and toddlers under 2 years (risk of suffocation)."
       }
     ],
-    "max_continuous_use_weeks": 2
+    "max_continuous_use_weeks": 2,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "thyme",
+      "entry_name": "Thyme",
+      "listing": [
+        "non_toxic_dogs",
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [

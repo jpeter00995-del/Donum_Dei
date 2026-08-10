@@ -165,8 +165,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "EXTREM GIFTIG — ALLE PFLANZENTEILE. Nerium oleander gehört zu den giftigsten Zierpflanzen in europäischen Gärten und auf Balkonen. Alle Teile (Blätter, Blüten, Samen, Holz, Wurzeln, Milchsaft) enthalten Cardenolid-Herzglykoside (Oleandrin, Neriin, Adynerin, Oleandrigenin, Odorosid). Bereits ein einzelnes Blatt kann für Kinder tödlich sein; etwa 100 g Blätter genügen, um ein Pferd zu töten. Selbst das Vasenwasser von Oleanderzweigen ist toxisch. KEINE Oleanderzweige als Grill- oder Aufspiessstäbchen verwenden — tödliche Picknick-Vergiftungen sind dokumentiert. Vergiftungssymptome: Übelkeit, Erbrechen, blutiger Durchfall, Bauchschmerzen, Bradykardie, AV-Block, Hyperkaliämie, Sehstörungen (Gelbsehen), Kammerflimmern, Herzstillstand. Bei Vergiftungsverdacht: SOFORT Notruf (112/911) und Giftnotruf kontaktieren. Antidot: digitalis-spezifische Antikörperfragmente (Digifab) — wirken auch gegen Oleandrin. Keine Selbstmedikation. Keine Laienverwendung.",
-      "en": "EXTREMELY TOXIC — ALL PLANT PARTS. Nerium oleander is among the most poisonous ornamentals in European gardens and on balconies. All parts (leaves, flowers, seeds, wood, roots, latex) contain cardenolide cardiac glycosides (oleandrin, neriin, adynerin, oleandrigenin, odoroside). A single leaf can be lethal for children; about 100 g of leaves are sufficient to kill a horse. Even the vase water of oleander twigs is toxic. NEVER use oleander twigs as grill skewers — fatal picnic poisonings are documented. Poisoning symptoms: nausea, vomiting, bloody diarrhoea, abdominal pain, bradycardia, AV block, hyperkalaemia, visual disturbances (xanthopsia), ventricular fibrillation, cardiac arrest. In suspected poisoning: IMMEDIATELY call emergency services and poison control. Antidote: digitalis-specific antibody fragments (Digifab) — also effective against oleandrin. No self-medication. No lay use."
+      "de": "EXTREM GIFTIG — ALLE PFLANZENTEILE. Nerium oleander gehört zu den giftigsten Zierpflanzen in europäischen Gärten und auf Balkonen. Alle Teile (Blätter, Blüten, Samen, Holz, Wurzeln, Milchsaft) enthalten Cardenolid-Herzglykoside (Oleandrin, Neriin, Adynerin, Oleandrigenin, Odorosid). Bereits ein einzelnes Blatt kann für Kinder tödlich sein; etwa 100 g Blätter genügen, um ein Pferd zu töten. Selbst das Vasenwasser von Oleanderzweigen ist toxisch. KEINE Oleanderzweige als Grill- oder Aufspiessstäbchen verwenden — tödliche Picknick-Vergiftungen sind dokumentiert. Vergiftungssymptome: Übelkeit, Erbrechen, blutiger Durchfall, Bauchschmerzen, Bradykardie, AV-Block, Hyperkaliämie, Sehstörungen (Gelbsehen), Kammerflimmern, Herzstillstand. Bei Vergiftungsverdacht: SOFORT Notruf (112/911) und Giftnotruf kontaktieren. Antidot: digitalis-spezifische Antikörperfragmente (Digifab) — wirken auch gegen Oleandrin. Keine Selbstmedikation. Keine Laienverwendung. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "EXTREMELY TOXIC — ALL PLANT PARTS. Nerium oleander is among the most poisonous ornamentals in European gardens and on balconies. All parts (leaves, flowers, seeds, wood, roots, latex) contain cardenolide cardiac glycosides (oleandrin, neriin, adynerin, oleandrigenin, odoroside). A single leaf can be lethal for children; about 100 g of leaves are sufficient to kill a horse. Even the vase water of oleander twigs is toxic. NEVER use oleander twigs as grill skewers — fatal picnic poisonings are documented. Poisoning symptoms: nausea, vomiting, bloody diarrhoea, abdominal pain, bradycardia, AV block, hyperkalaemia, visual disturbances (xanthopsia), ventricular fibrillation, cardiac arrest. In suspected poisoning: IMMEDIATELY call emergency services and poison control. Antidote: digitalis-specific antibody fragments (Digifab) — also effective against oleandrin. No self-medication. No lay use. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -281,7 +281,18 @@
         "severity": "caution",
         "source_id": "src_wp_en_nerium_oleander"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "oleander",
+      "entry_name": "Oleander",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -316,6 +327,13 @@
       "url": "https://www.wikidata.org/wiki/Q155833",
       "accessed": "2026-05-26",
       "language": "en"
+    },
+    {
+      "id": "src_aspca_oleander",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Oleander (Nerium oleander)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/oleander",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

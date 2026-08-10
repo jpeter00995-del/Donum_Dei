@@ -3,6 +3,7 @@ import { useState } from 'react';
 import type { Locale, IndoorRoom, IndoorPurpose } from '@/lib/types';
 import type { IndoorPlant } from '@/lib/indoorCard';
 import IndoorCards from './IndoorCards';
+import { t } from '@/lib/i18n';
 
 // === 2. PROPS ===
 interface Props {
@@ -130,6 +131,7 @@ export default function IndoorFilterBar({ plants, locale }: Props) {
           />
           🐾 {locale === 'de' ? 'Nur haustier-sicher' : 'Pet-safe only'}
         </label>
+        <p className="text-xs text-gray-500">{t(locale, 'indoor.pet_safe.filter_note')}</p>
       </div>
 
       {/* === Ergebnis-Zähler === */}

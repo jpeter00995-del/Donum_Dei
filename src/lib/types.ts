@@ -124,6 +124,25 @@ export type DrugInteraction = {
   source_id?: string;
 };
 
+/**
+ * External verification of the pet-toxicity claim.
+ * (Beleg für die Haustier-Angabe.)
+ */
+export type PetCheck = {
+  /** Currently only the ASPCA poison-control plant list. */
+  source: 'aspca';
+  /** Date the list was retrieved, ISO. */
+  accessed: string;
+  /** `species` = the plant itself is listed, `genus` = the whole genus is. */
+  match: 'species' | 'genus';
+  /** Slug of the ASPCA entry, e.g. `lavender`. */
+  entry: string;
+  /** Display name of the ASPCA entry, e.g. `Lavender`. */
+  entry_name: string;
+  /** Which ASPCA lists the entry appears on. */
+  listing: Array<'toxic_dogs' | 'toxic_cats' | 'non_toxic_dogs' | 'non_toxic_cats'>;
+};
+
 export type PlantSafety = {
   warnings: LocalizedString;
   external_only: boolean;
@@ -141,6 +160,14 @@ export type PlantSafety = {
    * (Pflanze ist für Haustiere giftig — separates Flag.)
    */
   pet_toxic?: boolean;
+  /**
+   * Evidence for `pet_toxic`: which external list was checked, when, and
+   * whether the match was on species or genus level. Absent means: our own
+   * assessment, not externally verified — the UI must say so instead of
+   * promising safety.
+   * (Beleg für `pet_toxic`. Fehlt er, ist die Angabe nicht extern geprüft.)
+   */
+  pet_check?: PetCheck;
   // === Welle O.1 — Strukturierte Risiko-Felder, alle optional ===
   /** Anwendung in Schwangerschaft. */
   pregnancy?: SafetyDetail;

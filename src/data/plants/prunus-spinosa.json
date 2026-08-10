@@ -166,12 +166,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "WICHTIG: Kerne der Schlehen enthalten das Blausäureglykosid Amygdalin. Kerne niemals zerkauen oder mahlen; nur Fruchtfleisch verwenden. Blätter ebenfalls Amygdalin-haltig – nicht als Tee verwenden. Früchte vor Frost stark adstringierend; nach Frost oder Einfrieren wesentlich milder.",
-      "en": "IMPORTANT: The stones of sloes contain the cyanogenic glycoside amygdalin. Never crush or grind the stones; use the fruit flesh only. Leaves also contain amygdalin – do not use as tea. Fruits are strongly astringent before frost; much milder after frost or freezing."
+      "de": "WICHTIG: Kerne der Schlehen enthalten das Blausäureglykosid Amygdalin. Kerne niemals zerkauen oder mahlen; nur Fruchtfleisch verwenden. Blätter ebenfalls Amygdalin-haltig – nicht als Tee verwenden. Früchte vor Frost stark adstringierend; nach Frost oder Einfrieren wesentlich milder. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "IMPORTANT: The stones of sloes contain the cyanogenic glycoside amygdalin. Never crush or grind the stones; use the fruit flesh only. Leaves also contain amygdalin – do not use as tea. Fruits are strongly astringent before frost; much milder after frost or freezing. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "caution",
       "note": {
@@ -203,7 +203,18 @@
         "en": "Crushed or ground stones (amygdalin release causes cyanide poisoning)."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "cherry",
+      "entry_name": "Cherry",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -241,6 +252,13 @@
       "title": "Arzneipflanzen-Lexikon – Schlehdorn (Prunus spinosa)",
       "url": "https://arzneipflanzenlexikon.info/schlehdorn.php",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_aspca_cherry",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Cherry (Prunus spp.)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/cherry",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

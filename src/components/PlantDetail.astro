@@ -10,6 +10,7 @@ import LegalStatusNotice from '@/components/LegalStatusNotice.astro';
 import SafetyAlerts from '@/components/SafetyAlerts.astro';
 import permacultureSetsFile from '@/data/permaculture_sets.json';
 import { getToxicityLevel, isPetToxic } from '@/lib/toxicity';
+import { getPetStatus, isPetChecked } from '@/lib/petSafety';
 import { getRelatedByFamily } from '@/lib/relatedPlants';
 import type { Plant, Locale, PermacultureSet, PermacultureSetsFile } from '@/lib/types';
 
@@ -205,9 +206,18 @@ const hasPermacultureSection =
           <dt class="font-semibold">⭐ {t(locale, 'indoor.difficulty')}</dt>
           <dd>{'★'.repeat(plant.indoor_growing.difficulty)}{'☆'.repeat(3 - plant.indoor_growing.difficulty)} {t(locale, `indoor.diff.${plant.indoor_growing.difficulty}`)}</dd>
         </div>
+        {/* Eine Wahrheit: safety.pet_toxic, plus der Hinweis ob extern belegt. */}
         <div class="flex justify-between border-b border-emerald-100 pb-1">
           <dt class="font-semibold">🐾 {t(locale, 'indoor.pet_safe')}</dt>
-          <dd>{plant.indoor_growing.pet_safe ? t(locale, 'indoor.pet_safe.yes') : t(locale, 'indoor.pet_safe.no')}</dd>
+          <dd>{
+            getPetStatus(plant) === 'toxic'
+              ? t(locale, 'indoor.pet_safe.no')
+              : getPetStatus(plant) === 'unknown'
+                ? t(locale, 'indoor.pet_safe.unknown')
+                : isPetChecked(plant)
+                  ? t(locale, 'indoor.pet_safe.checked')
+                  : t(locale, 'indoor.pet_safe.unchecked')
+          }</dd>
         </div>
       </dl>
 

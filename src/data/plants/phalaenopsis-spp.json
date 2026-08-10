@@ -143,7 +143,18 @@
       }
     },
     "contraindications": [],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "phalaenopsis-orchid",
+      "entry_name": "Phalaenopsis Orchid",
+      "listing": [
+        "non_toxic_dogs",
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [

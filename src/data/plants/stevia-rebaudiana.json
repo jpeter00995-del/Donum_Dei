@@ -232,7 +232,18 @@
         "severity": "monitor",
         "source_id": "src_molecules_2023"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "stevia",
+      "entry_name": "Stevia",
+      "listing": [
+        "non_toxic_dogs",
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [

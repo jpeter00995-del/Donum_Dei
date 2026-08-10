@@ -172,12 +172,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Hopfen wirkt mild sedierend und kann die Fahrtüchtigkeit und das Bedienen von Maschinen beeinträchtigen. Bei länger als 2 Wochen anhaltenden Beschwerden ärztlich abklären lassen. Hopfen enthält Phytoöstrogene — vor allem das sehr potente 8-Prenylnaringenin, das zu den stärksten bekannten pflanzlichen Östrogenen zählt. Bei hormonell empfindlichen Erkrankungen (östrogenabhängige Tumore wie Mamma-Karzinom, Endometriose, Myome) deshalb nur nach Rücksprache mit dem behandelnden Arzt verwenden. Hopfen-Pflückerinnen kennen den Effekt seit Jahrhunderten als Hopfenpflückerinnen-Menstruation — die Berührung der harzigen Zapfen kann den Zyklus beeinflussen.",
-      "en": "Hops have a mild sedative effect — do not take before driving. Hops contain phytoestrogens — in particular the potent 8-prenylnaringenin. In case of hormone-sensitive conditions (estrogen-dependent tumors, endometriosis, fibroids), use only after medical consultation."
+      "de": "Hopfen wirkt mild sedierend und kann die Fahrtüchtigkeit und das Bedienen von Maschinen beeinträchtigen. Bei länger als 2 Wochen anhaltenden Beschwerden ärztlich abklären lassen. Hopfen enthält Phytoöstrogene — vor allem das sehr potente 8-Prenylnaringenin, das zu den stärksten bekannten pflanzlichen Östrogenen zählt. Bei hormonell empfindlichen Erkrankungen (östrogenabhängige Tumore wie Mamma-Karzinom, Endometriose, Myome) deshalb nur nach Rücksprache mit dem behandelnden Arzt verwenden. Hopfen-Pflückerinnen kennen den Effekt seit Jahrhunderten als Hopfenpflückerinnen-Menstruation — die Berührung der harzigen Zapfen kann den Zyklus beeinflussen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde giftig.",
+      "en": "Hops have a mild sedative effect — do not take before driving. Hops contain phytoestrogens — in particular the potent 8-prenylnaringenin. In case of hormone-sensitive conditions (estrogen-dependent tumors, endometriosis, fibroids), use only after medical consultation. ASPCA classification (accessed 2026-08-10): toxic to dogs."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "unknown",
       "note": {
@@ -235,7 +235,17 @@
         "en": "Existing clinical depression — hops may worsen depressive mood."
       }
     ],
-    "max_continuous_use_weeks": 2
+    "max_continuous_use_weeks": 2,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "hops",
+      "entry_name": "Hops",
+      "listing": [
+        "toxic_dogs"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -245,6 +255,13 @@
       "title": "EMA/HMPC/682384/2013 — Community herbal monograph on Humulus lupulus L., flos (Final, 6 May 2014)",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/lupuli-flos",
       "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_aspca_hops",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Hops (Humulus lupulus)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/hops",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

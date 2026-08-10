@@ -151,8 +151,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Rinde, Wurzeln, junge Triebe, Blätter und Samen sind giftig (Lektin Robin/Phasin, Flavonol-Glykosid Robinin, Wystin). Nur die voll geöffneten Blüten gelten in der Volksküche als verzehrbar - und das nur frittiert oder anderweitig erhitzt, nicht roh. Sämlinge und Schösslinge nicht mit essbaren Wildkräutern verwechseln. Holz-Späne, Sägemehl, Hackschnitzel und Laub von Robinien nicht in Pferde-, Rinder- oder Kaninchenställen verwenden - bereits geringe Mengen Rinde können tödlich sein. Kinder über Toxizität aufklären - die süßen, erbsenähnlichen Hülsen sind besonders verlockend.",
-      "en": "Bark, roots, young shoots, leaves and seeds are toxic (lectin robin/phasin, flavonol glycoside robinin, wystin). Only fully opened flowers are considered edible in folk cuisine - and only deep-fried or otherwise heated, not raw. Do not confuse seedlings/suckers with edible wild greens. Do not use wood shavings, sawdust, wood chips or fallen leaves of Robinia in horse, cattle or rabbit stables - even small amounts of bark can be lethal. Educate children about toxicity - the sweet pea-like pods are particularly tempting."
+      "de": "Rinde, Wurzeln, junge Triebe, Blätter und Samen sind giftig (Lektin Robin/Phasin, Flavonol-Glykosid Robinin, Wystin). Nur die voll geöffneten Blüten gelten in der Volksküche als verzehrbar - und das nur frittiert oder anderweitig erhitzt, nicht roh. Sämlinge und Schösslinge nicht mit essbaren Wildkräutern verwechseln. Holz-Späne, Sägemehl, Hackschnitzel und Laub von Robinien nicht in Pferde-, Rinder- oder Kaninchenställen verwenden - bereits geringe Mengen Rinde können tödlich sein. Kinder über Toxizität aufklären - die süßen, erbsenähnlichen Hülsen sind besonders verlockend. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "Bark, roots, young shoots, leaves and seeds are toxic (lectin robin/phasin, flavonol glycoside robinin, wystin). Only fully opened flowers are considered edible in folk cuisine - and only deep-fried or otherwise heated, not raw. Do not confuse seedlings/suckers with edible wild greens. Do not use wood shavings, sawdust, wood chips or fallen leaves of Robinia in horse, cattle or rabbit stables - even small amounts of bark can be lethal. Educate children about toxicity - the sweet pea-like pods are particularly tempting. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "toxic",
@@ -202,7 +202,18 @@
         "de": "Roher Verzehr der Blüten in größeren Mengen (leichte Magenirritation durch hitzelabile Bestandteile).",
         "en": "Raw consumption of flowers in larger amounts (mild gastric irritation from heat-labile constituents)."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "locust",
+      "entry_name": "Locust",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -247,6 +258,13 @@
       "title": "EFSA Compendium of Botanicals - Robinia pseudoacacia L.",
       "url": "https://www.efsa.europa.eu/en/data-report/compendium-botanicals",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_locust",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Locust (Robinia spp.)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/locust",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

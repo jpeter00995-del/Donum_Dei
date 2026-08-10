@@ -145,8 +145,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Bei leichtem Durchfall auf ausreichende Flüssigkeits- und Salzzufuhr achten. Hält der Durchfall länger als 3 Tage an, treten blutige Stühle oder Fieber auf, ist ein Arzt aufzusuchen; Mund-/Rachen-Spülungen nicht länger als 1 Woche ohne ärztlichen Rat. Der hohe Gerbstoffgehalt kann bei empfindlichem Magen Übelkeit oder Erbrechen auslösen. Gerbstoffe können die Aufnahme gleichzeitig eingenommener Arzneimittel und von Eisen verzögern — mindestens 1 Stunde Abstand halten. Bei Überempfindlichkeit gegen Blutwurz nicht anwenden. In Schwangerschaft und Stillzeit sowie bei Kindern und Jugendlichen unter 18 Jahren mangels Daten nicht empfohlen.",
-      "en": "With mild diarrhoea, ensure adequate fluid and salt intake. If diarrhoea lasts more than 3 days, or bloody stools or fever occur, consult a doctor; do not use mouth/throat rinses for more than 1 week without medical advice. The high tannin content may cause nausea or vomiting on a sensitive stomach. Tannins may delay absorption of concomitant medicines and of iron — keep a gap of at least 1 hour. Do not use in case of hypersensitivity to tormentil. Not recommended during pregnancy and lactation or in children and adolescents under 18 due to lack of data."
+      "de": "Bei leichtem Durchfall auf ausreichende Flüssigkeits- und Salzzufuhr achten. Hält der Durchfall länger als 3 Tage an, treten blutige Stühle oder Fieber auf, ist ein Arzt aufzusuchen; Mund-/Rachen-Spülungen nicht länger als 1 Woche ohne ärztlichen Rat. Der hohe Gerbstoffgehalt kann bei empfindlichem Magen Übelkeit oder Erbrechen auslösen. Gerbstoffe können die Aufnahme gleichzeitig eingenommener Arzneimittel und von Eisen verzögern — mindestens 1 Stunde Abstand halten. Bei Überempfindlichkeit gegen Blutwurz nicht anwenden. In Schwangerschaft und Stillzeit sowie bei Kindern und Jugendlichen unter 18 Jahren mangels Daten nicht empfohlen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen ungiftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "With mild diarrhoea, ensure adequate fluid and salt intake. If diarrhoea lasts more than 3 days, or bloody stools or fever occur, consult a doctor; do not use mouth/throat rinses for more than 1 week without medical advice. The high tannin content may cause nausea or vomiting on a sensitive stomach. Tannins may delay absorption of concomitant medicines and of iron — keep a gap of at least 1 hour. Do not use in case of hypersensitivity to tormentil. Not recommended during pregnancy and lactation or in children and adolescents under 18 due to lack of data. ASPCA classification (accessed 2026-08-10): non-toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "none",
@@ -192,7 +192,18 @@
         "en": "Children and adolescents under 18 years."
       }
     ],
-    "max_continuous_use_weeks": 1
+    "max_continuous_use_weeks": 1,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "cinquefoil",
+      "entry_name": "Cinquefoil",
+      "listing": [
+        "non_toxic_dogs",
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -209,6 +220,13 @@
       "title": "Blutwurz — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Blutwurz",
       "accessed": "2026-06-03"
+    },
+    {
+      "id": "src_aspca_cinquefoil",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Cinquefoil (Potentilla spp.)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/cinquefoil",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

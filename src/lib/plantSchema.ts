@@ -115,11 +115,24 @@ export const drugInteractionSchema = z.object({
   source_id: z.string().optional(),
 });
 
+// Beleg fuer die Haustier-Angabe (ASPCA-Abgleich, siehe scripts/aspca_welle2.py).
+export const petCheckSchema = z.object({
+  source: z.literal('aspca'),
+  accessed: z.string().min(1),
+  match: z.enum(['species', 'genus']),
+  entry: z.string().min(1),
+  entry_name: z.string().min(1),
+  listing: z
+    .array(z.enum(['toxic_dogs', 'toxic_cats', 'non_toxic_dogs', 'non_toxic_cats']))
+    .min(1),
+});
+
 export const plantSafetySchema = z.object({
   warnings: localizedString,
   external_only: z.boolean(),
   toxicity_level: toxicityLevel.optional(),
   pet_toxic: z.boolean().optional(),
+  pet_check: petCheckSchema.optional(),
   pregnancy: safetyDetailSchema.optional(),
   lactation: safetyDetailSchema.optional(),
   children: safetyDetailSchema.optional(),

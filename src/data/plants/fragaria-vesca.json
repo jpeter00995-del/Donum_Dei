@@ -163,8 +163,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Selten Allergie gegen Erdbeerproteine (Allergen Fra a 1) — bei Kreuzallergie mit Birke besondere Vorsicht. Hoher Tanningehalt der Blätter kann bei Überdosierung die Magenschleimhaut reizen.",
-      "en": "Rare allergy to strawberry proteins (allergen Fra a 1) — particular caution with birch pollen cross-reactivity. High tannin content of the leaves may irritate the gastric mucosa if overdosed."
+      "de": "Selten Allergie gegen Erdbeerproteine (Allergen Fra a 1) — bei Kreuzallergie mit Birke besondere Vorsicht. Hoher Tanningehalt der Blätter kann bei Überdosierung die Magenschleimhaut reizen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen ungiftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "Rare allergy to strawberry proteins (allergen Fra a 1) — particular caution with birch pollen cross-reactivity. High tannin content of the leaves may irritate the gastric mucosa if overdosed. ASPCA classification (accessed 2026-08-10): non-toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "none",
@@ -206,7 +206,18 @@
         "severity": "monitor",
         "source_id": "src_wp_en_fragaria"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "strawberry",
+      "entry_name": "Strawberry",
+      "listing": [
+        "non_toxic_dogs",
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -237,6 +248,13 @@
       "title": "Fragaria vesca L. Extract: A Promising Cosmetic Ingredient with Antioxidant Properties (Antioxidants, 2020)",
       "url": "https://doi.org/10.3390/antiox9020154",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_aspca_strawberry",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Strawberry (Fragaria spp.)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/strawberry",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

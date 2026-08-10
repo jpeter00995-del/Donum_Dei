@@ -147,8 +147,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "GIFTIG BEI VERZEHR — VOR ALLEM DIE ZWIEBEL. Hyacinthus orientalis enthält Saponine, Calciumoxalat-Raphiden, das Phenanthridin-Alkaloid Hyacinthin sowie Spuren Lycorin in den Zwiebeln. Versehentlicher Verzehr (klassisch durch Kinder oder Verwechslung mit Speisezwiebel) löst innerhalb 30 bis 90 Minuten Übelkeit, Erbrechen, Bauchkrämpfe und Durchfall aus; bei größeren Mengen Dehydratation, Schwächeanfälle. Dermal: 'Hyazinthen-Dermatitis' oder 'Hyacinth Itch' — juckende, gerötete Hautausschläge an Händen, Unterarmen und Hals bei Floristen, Zwiebel-Sortierern und Treiberei-Mitarbeitern (klinisch dokumentiert seit den 1950er Jahren, gut beschrieben von Bruijnzeel 1996). Auslöser sind Calciumoxalat-Raphiden (mechanisch) und Saponine in den trockenen Außenschuppen. Im Vergleich zu Narzissen ist die Hyazinthe deutlich weniger giftig (Saponine statt Lycorin in höheren Mengen), aber für Kleinkinder und Haustiere weiterhin gefährlich — die Topfkultur in Wohnungen macht die Zwiebel für Hunde und Katzen leicht zugänglich. Der intensive Blütenduft kann bei sensiblen Personen Kopfschmerzen, Schwindel oder Atemreizung auslösen; Schlafzimmer ist nicht der ideale Standort. Bei Verdacht auf orale Vergiftung: Giftnotruf anrufen (Deutschland: regionale Giftinformationszentralen; AT: VIZ 01-406 43 43; CH: Tox Info 145), reichlich Wasser trinken lassen, kein selbstverabreichtes Erbrechen auslösen; bei Kindern und Haustieren sofort ärztlich beziehungsweise tierärztlich vorstellen.",
-      "en": "TOXIC ON INGESTION — ESPECIALLY THE BULB. Hyacinthus orientalis contains saponins, calcium oxalate raphides, the phenanthridine alkaloid hyacinthin and traces of lycorine in the bulbs. Accidental ingestion (classically by children or through confusion with kitchen onion) triggers nausea, vomiting, abdominal cramps and diarrhoea within 30 to 90 minutes; with larger amounts dehydration and weakness. Dermal: 'hyacinth dermatitis' or 'hyacinth itch' — itching, reddened skin rashes on hands, forearms and neck in florists, bulb sorters and forcing-nursery workers (clinically documented since the 1950s, well described by Bruijnzeel 1996). Triggers are calcium oxalate raphides (mechanical) and saponins in the dry outer scales. Compared to narcissi, hyacinth is markedly less toxic (saponins instead of higher-amount lycorine) but remains dangerous for toddlers and pets — pot culture indoors makes the bulb easily accessible to dogs and cats. The intense flower fragrance can trigger headaches, dizziness or respiratory irritation in sensitive individuals; bedrooms are not an ideal location. On suspected oral poisoning: call poison control (regional centres), give abundant water, do not self-induce vomiting; for children and pets present immediately to medical or veterinary care."
+      "de": "GIFTIG BEI VERZEHR — VOR ALLEM DIE ZWIEBEL. Hyacinthus orientalis enthält Saponine, Calciumoxalat-Raphiden, das Phenanthridin-Alkaloid Hyacinthin sowie Spuren Lycorin in den Zwiebeln. Versehentlicher Verzehr (klassisch durch Kinder oder Verwechslung mit Speisezwiebel) löst innerhalb 30 bis 90 Minuten Übelkeit, Erbrechen, Bauchkrämpfe und Durchfall aus; bei größeren Mengen Dehydratation, Schwächeanfälle. Dermal: 'Hyazinthen-Dermatitis' oder 'Hyacinth Itch' — juckende, gerötete Hautausschläge an Händen, Unterarmen und Hals bei Floristen, Zwiebel-Sortierern und Treiberei-Mitarbeitern (klinisch dokumentiert seit den 1950er Jahren, gut beschrieben von Bruijnzeel 1996). Auslöser sind Calciumoxalat-Raphiden (mechanisch) und Saponine in den trockenen Außenschuppen. Im Vergleich zu Narzissen ist die Hyazinthe deutlich weniger giftig (Saponine statt Lycorin in höheren Mengen), aber für Kleinkinder und Haustiere weiterhin gefährlich — die Topfkultur in Wohnungen macht die Zwiebel für Hunde und Katzen leicht zugänglich. Der intensive Blütenduft kann bei sensiblen Personen Kopfschmerzen, Schwindel oder Atemreizung auslösen; Schlafzimmer ist nicht der ideale Standort. Bei Verdacht auf orale Vergiftung: Giftnotruf anrufen (Deutschland: regionale Giftinformationszentralen; AT: VIZ 01-406 43 43; CH: Tox Info 145), reichlich Wasser trinken lassen, kein selbstverabreichtes Erbrechen auslösen; bei Kindern und Haustieren sofort ärztlich beziehungsweise tierärztlich vorstellen. ASPCA-Einstufung (abgerufen 2026-08-10): für Katzen giftig.",
+      "en": "TOXIC ON INGESTION — ESPECIALLY THE BULB. Hyacinthus orientalis contains saponins, calcium oxalate raphides, the phenanthridine alkaloid hyacinthin and traces of lycorine in the bulbs. Accidental ingestion (classically by children or through confusion with kitchen onion) triggers nausea, vomiting, abdominal cramps and diarrhoea within 30 to 90 minutes; with larger amounts dehydration and weakness. Dermal: 'hyacinth dermatitis' or 'hyacinth itch' — itching, reddened skin rashes on hands, forearms and neck in florists, bulb sorters and forcing-nursery workers (clinically documented since the 1950s, well described by Bruijnzeel 1996). Triggers are calcium oxalate raphides (mechanical) and saponins in the dry outer scales. Compared to narcissi, hyacinth is markedly less toxic (saponins instead of higher-amount lycorine) but remains dangerous for toddlers and pets — pot culture indoors makes the bulb easily accessible to dogs and cats. The intense flower fragrance can trigger headaches, dizziness or respiratory irritation in sensitive individuals; bedrooms are not an ideal location. On suspected oral poisoning: call poison control (regional centres), give abundant water, do not self-induce vomiting; for children and pets present immediately to medical or veterinary care. ASPCA classification (accessed 2026-08-10): toxic to cats."
     },
     "external_only": true,
     "toxicity_level": "caution",
@@ -214,7 +214,17 @@
         "severity": "monitor",
         "source_id": "src_bruijnzeel_hyacinthus_orientalis"
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "garden-hyacinth",
+      "entry_name": "Garden Hyacinth",
+      "listing": [
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -280,6 +290,13 @@
       "title": "Pellmyr O, Thien LB — Insect reproduction and floral fragrance: keys to evolution of angiosperms (Taxon, 1986)",
       "url": "https://www.jstor.org/stable/1221537",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_garden_hyacinth",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Garden Hyacinth (Hyacinthus orientalis)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/garden-hyacinth",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

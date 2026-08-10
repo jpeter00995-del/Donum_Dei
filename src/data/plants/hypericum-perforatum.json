@@ -177,12 +177,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "ACHTUNG — STARKE WECHSELWIRKUNGEN: Johanniskraut (vor allem als alkoholischer Extrakt mit >1 mg Hyperforin/Tag) ist die pharmakologisch wirksamste Heilpflanze und induziert die Leberenzyme CYP3A4, CYP2B6, CYP2C9, CYP2C19 sowie das Transportprotein P-Glykoprotein. Dadurch wird der Abbau zahlreicher Arzneimittel beschleunigt und deren Wirkung kann versagen — z.B. die Pille (Schwangerschafts-Risiko trotz Einnahme!), Blutverdünner vom Cumarin-Typ, Immunsuppressiva nach Transplantation, HIV-Medikamente, bestimmte Krebsmedikamente, Digoxin, Theophyllin, manche Antidepressiva. Vor jeder Einnahme Arzt oder Apothekerin informieren. Bei gleichzeitiger Einnahme von SSRI besteht Gefahr eines Serotonin-Syndroms. Enzym-Induktion klingt erst etwa 1 Woche nach Absetzen wieder ab. Vor geplanten Operationen mindestens 1 Woche vorher absetzen. PHOTOSENSIBILISIERUNG: Während Einnahme intensive Sonneneinstrahlung und Solarium meiden. Wirkungseintritt bei Depression erst nach etwa 4 Wochen. Wenn sich depressive Symptome nicht bessern, sich verschlimmern oder Suizidgedanken auftreten: sofort ärztlich abklären.",
-      "en": "WARNING — MAJOR DRUG INTERACTIONS: St John's wort is the most pharmacologically active medicinal plant and induces liver enzymes CYP3A4, CYP2B6, CYP2C9, CYP2C19 and the transporter P-glycoprotein. This accelerates the breakdown of many medicines and can cause them to fail — e.g. the contraceptive pill (risk of unintended pregnancy!), coumarin-type anticoagulants, immunosuppressants, HIV medication, certain cancer drugs, digoxin, theophylline, some antidepressants. Always inform your doctor or pharmacist. Concomitant use with SSRIs carries a risk of serotonin syndrome. Enzyme induction takes about 1 week after discontinuation to subside. Discontinue at least 1 week before planned surgery. PHOTOSENSITISATION: Avoid intense sunlight during use. Onset of antidepressant effect only after about 4 weeks."
+      "de": "ACHTUNG — STARKE WECHSELWIRKUNGEN: Johanniskraut (vor allem als alkoholischer Extrakt mit >1 mg Hyperforin/Tag) ist die pharmakologisch wirksamste Heilpflanze und induziert die Leberenzyme CYP3A4, CYP2B6, CYP2C9, CYP2C19 sowie das Transportprotein P-Glykoprotein. Dadurch wird der Abbau zahlreicher Arzneimittel beschleunigt und deren Wirkung kann versagen — z.B. die Pille (Schwangerschafts-Risiko trotz Einnahme!), Blutverdünner vom Cumarin-Typ, Immunsuppressiva nach Transplantation, HIV-Medikamente, bestimmte Krebsmedikamente, Digoxin, Theophyllin, manche Antidepressiva. Vor jeder Einnahme Arzt oder Apothekerin informieren. Bei gleichzeitiger Einnahme von SSRI besteht Gefahr eines Serotonin-Syndroms. Enzym-Induktion klingt erst etwa 1 Woche nach Absetzen wieder ab. Vor geplanten Operationen mindestens 1 Woche vorher absetzen. PHOTOSENSIBILISIERUNG: Während Einnahme intensive Sonneneinstrahlung und Solarium meiden. Wirkungseintritt bei Depression erst nach etwa 4 Wochen. Wenn sich depressive Symptome nicht bessern, sich verschlimmern oder Suizidgedanken auftreten: sofort ärztlich abklären. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "WARNING — MAJOR DRUG INTERACTIONS: St John's wort is the most pharmacologically active medicinal plant and induces liver enzymes CYP3A4, CYP2B6, CYP2C9, CYP2C19 and the transporter P-glycoprotein. This accelerates the breakdown of many medicines and can cause them to fail — e.g. the contraceptive pill (risk of unintended pregnancy!), coumarin-type anticoagulants, immunosuppressants, HIV medication, certain cancer drugs, digoxin, theophylline, some antidepressants. Always inform your doctor or pharmacist. Concomitant use with SSRIs carries a risk of serotonin syndrome. Enzyme induction takes about 1 week after discontinuation to subside. Discontinue at least 1 week before planned surgery. PHOTOSENSITISATION: Avoid intense sunlight during use. Onset of antidepressant effect only after about 4 weeks. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "contraindicated",
       "note": {
@@ -296,7 +296,18 @@
         "en": "Internal use under 18 years; external use under 12 years."
       }
     ],
-    "max_continuous_use_weeks": 6
+    "max_continuous_use_weeks": 6,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "klamath-weed",
+      "entry_name": "Klamath Weed",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -306,6 +317,13 @@
       "title": "EMA/HMPC/7695/2021 — European Union herbal monograph on Hypericum perforatum L., herba (Final, Revision 1, 23 November 2022)",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/hyperici-herba",
       "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_aspca_klamath_weed",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Klamath Weed (Hypericum perforatum)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/klamath-weed",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

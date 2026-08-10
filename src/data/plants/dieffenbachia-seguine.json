@@ -95,8 +95,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "STARK GIFTIG — Calcium-Oxalat-Raphiden verursachen sofortige Mund- und Rachenschwellung, starkes Brennen und Speichelfluss. Bei Verschlucken kann Atemwegsblockade entstehen (medizinischer Notfall). GIFTIG für Hunde und Katzen. Sofort Arzt oder Giftnotruf kontaktieren.",
-      "en": "STRONGLY TOXIC — Calcium oxalate raphides cause immediate mouth and throat swelling, severe burning, and drooling. Ingestion can cause airway obstruction (medical emergency). TOXIC for dogs and cats. Contact a doctor or poison control centre immediately."
+      "de": "STARK GIFTIG — Calcium-Oxalat-Raphiden verursachen sofortige Mund- und Rachenschwellung, starkes Brennen und Speichelfluss. Bei Verschlucken kann Atemwegsblockade entstehen (medizinischer Notfall). GIFTIG für Hunde und Katzen. Sofort Arzt oder Giftnotruf kontaktieren. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "STRONGLY TOXIC — Calcium oxalate raphides cause immediate mouth and throat swelling, severe burning, and drooling. Ingestion can cause airway obstruction (medical emergency). TOXIC for dogs and cats. Contact a doctor or poison control centre immediately. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": true,
     "toxicity_level": "toxic",
@@ -136,7 +136,18 @@
         "en": "No self-medication with any plant parts whatsoever."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "dieffenbachia",
+      "entry_name": "Dieffenbachia",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -167,6 +178,13 @@
       "title": "Dieffenbachia seguine — Plants For A Future (PFAF)",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Dieffenbachia+seguine",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_dieffenbachia",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Dieffenbachia (Dieffenbachia)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/dieffenbachia",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

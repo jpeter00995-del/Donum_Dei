@@ -194,8 +194,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "In üblichen Küchenmengen unbedenklich. Das ätherische Öl nicht unverdünnt auf die Haut auftragen — reizend. Konzentrierte Extrakte und ätherische Öle nicht in Schwangerschaft und Stillzeit anwenden. Bei Dauermedikation Rücksprache mit Arzt.",
-      "en": "Safe in normal culinary amounts. Do not apply the essential oil undiluted to the skin — irritating. Do not use concentrated extracts and essential oils during pregnancy and breastfeeding. Consult a doctor if on long-term medication."
+      "de": "In üblichen Küchenmengen unbedenklich. Das ätherische Öl nicht unverdünnt auf die Haut auftragen — reizend. Konzentrierte Extrakte und ätherische Öle nicht in Schwangerschaft und Stillzeit anwenden. Bei Dauermedikation Rücksprache mit Arzt. ASPCA-Einstufung (abgerufen 2026-08-10): für Katzen ungiftig.",
+      "en": "Safe in normal culinary amounts. Do not apply the essential oil undiluted to the skin — irritating. Do not use concentrated extracts and essential oils during pregnancy and breastfeeding. Consult a doctor if on long-term medication. ASPCA classification (accessed 2026-08-10): non-toxic to cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -231,7 +231,17 @@
         "en": "Known hypersensitivity to plants of the mint family (Lamiaceae)"
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "savory-summer",
+      "entry_name": "Savory (Summer)",
+      "listing": [
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -262,6 +272,13 @@
       "title": "A comprehensive review of summer savory (Satureja hortensis L.): promising ingredient for production of functional foods. Frontiers in Pharmacology, 2023. DOI: 10.3389/fphar.2023.1198970",
       "url": "https://doi.org/10.3389/fphar.2023.1198970",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_aspca_savory_summer",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Savory (Summer) (Satureja hortensis)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/savory-summer",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

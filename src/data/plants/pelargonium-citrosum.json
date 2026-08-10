@@ -144,8 +144,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Zerquetschte Blätter der Citronella-Geranie NIEMALS auf gereizte oder verletzte Haut auftragen — Citronellol und Geraniol gelten als Allergene (in der EU-Kosmetik-Verordnung als deklarationspflichtige Duftstoffe gelistet) und können bei wiederholtem Kontakt eine Kontaktdermatitis auslösen. Vor Erstanwendung 24-h-Hauttest. WICHTIG — wissenschaftliche Ehrlichkeit: Die kommerzielle Vermarktung als 'Anti-Mücken-Pflanze' bzw. 'Mückenschocker' ist durch zwei kontrollierte Studien (Matsuda et al. 1996; Tisgratog et al. 2016) WIDERLEGT — die intakte Pflanze hat keine signifikante mückenabwehrende Wirkung. Wer auf zuverlässigen Mückenschutz angewiesen ist (Reisen in Malaria- oder Dengue-Gebiete, empfindliche Personen), MUSS auf zertifizierte Repellenten wie DEET, Icaridin oder IR3535 zurückgreifen. Eine Citronella-Geranie auf der Terrasse ersetzt keinen wirksamen Mückenschutz. Zusätzlich: Die EMA-HMPC-Pelargonium-Monographie bezieht sich AUSSCHLIESSLICH auf Pelargonium sidoides (Atemwegs-Erkältung); für P. citrosum gibt es KEINE EMA-Monographie und keinen 'Well-established use'-Status.",
-      "en": "NEVER apply crushed leaves of citronella geranium to irritated or broken skin — citronellol and geraniol are listed allergens (declarable fragrance allergens in the EU Cosmetics Regulation) and can cause contact dermatitis on repeated exposure. Patch test 24 h before first use. IMPORTANT — scientific honesty: the commercial marketing as 'anti-mosquito plant' or 'mosquito shocker' has been REFUTED by two controlled studies (Matsuda et al. 1996; Tisgratog et al. 2016) — the intact plant has no significant mosquito-repellent activity. Anyone relying on dependable mosquito protection (travel in malaria or dengue zones, sensitive individuals) MUST use certified repellents such as DEET, icaridin or IR3535. A citronella geranium on the terrace does not replace effective mosquito protection. Additionally: the EMA HMPC pelargonium monograph refers EXCLUSIVELY to Pelargonium sidoides (respiratory colds); there is NO EMA monograph and no 'well-established use' status for P. citrosum."
+      "de": "Zerquetschte Blätter der Citronella-Geranie NIEMALS auf gereizte oder verletzte Haut auftragen — Citronellol und Geraniol gelten als Allergene (in der EU-Kosmetik-Verordnung als deklarationspflichtige Duftstoffe gelistet) und können bei wiederholtem Kontakt eine Kontaktdermatitis auslösen. Vor Erstanwendung 24-h-Hauttest. WICHTIG — wissenschaftliche Ehrlichkeit: Die kommerzielle Vermarktung als 'Anti-Mücken-Pflanze' bzw. 'Mückenschocker' ist durch zwei kontrollierte Studien (Matsuda et al. 1996; Tisgratog et al. 2016) WIDERLEGT — die intakte Pflanze hat keine signifikante mückenabwehrende Wirkung. Wer auf zuverlässigen Mückenschutz angewiesen ist (Reisen in Malaria- oder Dengue-Gebiete, empfindliche Personen), MUSS auf zertifizierte Repellenten wie DEET, Icaridin oder IR3535 zurückgreifen. Eine Citronella-Geranie auf der Terrasse ersetzt keinen wirksamen Mückenschutz. Zusätzlich: Die EMA-HMPC-Pelargonium-Monographie bezieht sich AUSSCHLIESSLICH auf Pelargonium sidoides (Atemwegs-Erkältung); für P. citrosum gibt es KEINE EMA-Monographie und keinen 'Well-established use'-Status. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "NEVER apply crushed leaves of citronella geranium to irritated or broken skin — citronellol and geraniol are listed allergens (declarable fragrance allergens in the EU Cosmetics Regulation) and can cause contact dermatitis on repeated exposure. Patch test 24 h before first use. IMPORTANT — scientific honesty: the commercial marketing as 'anti-mosquito plant' or 'mosquito shocker' has been REFUTED by two controlled studies (Matsuda et al. 1996; Tisgratog et al. 2016) — the intact plant has no significant mosquito-repellent activity. Anyone relying on dependable mosquito protection (travel in malaria or dengue zones, sensitive individuals) MUST use certified repellents such as DEET, icaridin or IR3535. A citronella geranium on the terrace does not replace effective mosquito protection. Additionally: the EMA HMPC pelargonium monograph refers EXCLUSIVELY to Pelargonium sidoides (respiratory colds); there is NO EMA monograph and no 'well-established use' status for P. citrosum. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -204,7 +204,18 @@
         "de": "Katzen und kleine Hunde im Haushalt: ätherische Geranium-Öle sind für Heimtiere toxisch (laut ASPCA — gilt für alle Pelargonium-Arten). Keine direkte Hautanwendung am Tier; Diffuser nur in Räumen, die das Tier verlassen kann.",
         "en": "Cats and small dogs in the household: geranium essential oils are toxic to pets (per ASPCA — applies to all Pelargonium species). No direct application on the pet; diffusers only in rooms the animal can leave."
       }
-    ]
+    ],
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "geranium",
+      "entry_name": "Geranium",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -256,6 +267,13 @@
       "title": "Lalli J.Y.Y., Viljoen A.M., Baser K.H.C., Demirci B., Oezek T. (2008) — The essential oil composition and chemotaxonomical appraisal of South African Pelargoniums (Geraniaceae). Journal of Essential Oil Research 20(2): 152-160.",
       "url": "https://doi.org/10.1080/10412905.2008.9699979",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_geranium",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Geranium (Pelargonium species)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/geranium",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {
@@ -281,7 +299,7 @@
     "light": "direct_sun",
     "water_frequency": "every_few_days",
     "difficulty": 1,
-    "pet_safe": true,
+    "pet_safe": false,
     "soil": {
       "de": "Geranien-Erde",
       "en": "Geranium compost"

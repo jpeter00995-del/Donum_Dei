@@ -239,8 +239,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "WICHTIG: Weißdorn behandelt SYMPTOME — die Ursache muss ärztlich abgeklärt sein. Herzbeschwerden (Herzklopfen, Druckgefühl, Atemnot, Belastungsschwäche, Beinödeme) gehören IMMER zuerst in ärztliche Hand. Selbstbehandlung manifester Herzinsuffizienz ohne Diagnose ist gefährlich. Wirkungseintritt frühestens nach 4–6 Wochen — keine Akuttherapie. Bei plötzlich auftretender Atemnot, anhaltendem Brustschmerz, Ausstrahlung in Arm/Kiefer, kaltem Schweiß oder plötzlicher Beinschwellung sofort Notarzt — möglicher Herzinfarkt, akute Herzinsuffizienz oder Thrombose. Anwendungsdauer ohne ärztliche Kontrolle laut EMA auf 6 Wochen begrenzen.",
-      "en": "IMPORTANT: Hawthorn treats SYMPTOMS — diagnosis required first. Cardiac symptoms (palpitations, pressure, dyspnoea, exercise intolerance, leg oedema) always need medical evaluation. Self-treatment of manifest heart failure without diagnosis is dangerous. Onset of action only after 4–6 weeks — not for acute use. Sudden dyspnoea, persisting chest pain, radiation to arm/jaw, cold sweat or sudden leg swelling → emergency immediately. EMA limits self-medication to 6 weeks without medical supervision."
+      "de": "WICHTIG: Weißdorn behandelt SYMPTOME — die Ursache muss ärztlich abgeklärt sein. Herzbeschwerden (Herzklopfen, Druckgefühl, Atemnot, Belastungsschwäche, Beinödeme) gehören IMMER zuerst in ärztliche Hand. Selbstbehandlung manifester Herzinsuffizienz ohne Diagnose ist gefährlich. Wirkungseintritt frühestens nach 4–6 Wochen — keine Akuttherapie. Bei plötzlich auftretender Atemnot, anhaltendem Brustschmerz, Ausstrahlung in Arm/Kiefer, kaltem Schweiß oder plötzlicher Beinschwellung sofort Notarzt — möglicher Herzinfarkt, akute Herzinsuffizienz oder Thrombose. Anwendungsdauer ohne ärztliche Kontrolle laut EMA auf 6 Wochen begrenzen. ASPCA-Einstufung (abgerufen 2026-08-10): für Katzen ungiftig. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "IMPORTANT: Hawthorn treats SYMPTOMS — diagnosis required first. Cardiac symptoms (palpitations, pressure, dyspnoea, exercise intolerance, leg oedema) always need medical evaluation. Self-treatment of manifest heart failure without diagnosis is dangerous. Onset of action only after 4–6 weeks — not for acute use. Sudden dyspnoea, persisting chest pain, radiation to arm/jaw, cold sweat or sudden leg swelling → emergency immediately. EMA limits self-medication to 6 weeks without medical supervision. ASPCA classification (accessed 2026-08-10): non-toxic to cats. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -322,7 +322,17 @@
         "en": "Pregnancy and lactation (therapeutic doses) — avoid due to lack of data."
       }
     ],
-    "max_continuous_use_weeks": 6
+    "max_continuous_use_weeks": 6,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "genus",
+      "entry": "haws",
+      "entry_name": "Haws",
+      "listing": [
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -381,6 +391,13 @@
       "title": "Eingriffeliger Weißdorn (Wikipedia DE)",
       "url": "https://de.wikipedia.org/wiki/Eingriffeliger_Wei%C3%9Fdorn",
       "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_aspca_haws",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Haws (Crataegus species)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/haws",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

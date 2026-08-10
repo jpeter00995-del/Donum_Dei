@@ -245,7 +245,17 @@
         "en": "Children under 6 years (skin) or under 12 years (mouth/throat) — not recommended."
       }
     ],
-    "max_continuous_use_weeks": 1
+    "max_continuous_use_weeks": 1,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "garden-marigold",
+      "entry_name": "Garden Marigold",
+      "listing": [
+        "non_toxic_cats"
+      ]
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -261,6 +271,13 @@
       "type": "monograph",
       "title": "ASPCA Animal Poison Control — Pot Marigold (Calendula officinalis): Non-Toxic to Dogs, Non-Toxic to Cats",
       "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/pot-marigold",
+      "accessed": "2026-08-10"
+    },
+    {
+      "id": "src_aspca_garden_marigold",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Garden Marigold (Calendula officinalis)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/garden-marigold",
       "accessed": "2026-08-10"
     }
   ],
