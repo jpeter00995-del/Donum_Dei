@@ -204,12 +204,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Forskolinhaltige Extrakte können den Blutdruck senken und mit Antihypertensiva oder Antikoagulantien interagieren. Nicht als Selbstmedikation bei Herz-Kreislauf-Erkrankungen einsetzen. Anwendung bei Magen-Darm-Ulkus mit Vorsicht. Nicht für Kinder unter 12 Jahren. Keine Langzeitanwendung (>4 Wochen) ohne ärztlichen Rat.",
-      "en": "Forskolin-containing extracts may lower blood pressure and interact with antihypertensives or anticoagulants. Do not self-medicate cardiovascular conditions. Use with caution in gastric or duodenal ulcer. Not for children under 12 years. No long-term use (>4 weeks) without medical advice."
+      "de": "Forskolinhaltige Extrakte können den Blutdruck senken und mit Antihypertensiva oder Antikoagulantien interagieren. Nicht als Selbstmedikation bei Herz-Kreislauf-Erkrankungen einsetzen. Anwendung bei Magen-Darm-Ulkus mit Vorsicht. Nicht für Kinder unter 12 Jahren. Keine Langzeitanwendung (>4 Wochen) ohne ärztlichen Rat. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
+      "en": "Forskolin-containing extracts may lower blood pressure and interact with antihypertensives or anticoagulants. Do not self-medicate cardiovascular conditions. Use with caution in gastric or duodenal ulcer. Not for children under 12 years. No long-term use (>4 weeks) without medical advice. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "contraindicated",
       "note": {
@@ -333,6 +333,13 @@
       "title": "Yan et al. (1998): Conversion of Forskolin-Insensitive to Forskolin-Sensitive (Mouse-Type IX) Adenylyl Cyclase. Molecular Pharmacology 53(2):182-187. DOI 10.1124/mol.53.2.182",
       "url": "https://doi.org/10.1124/mol.53.2.182",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_coleus",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Coleus (Coleus ampoinicus): Toxic to Dogs, Toxic to Cats, Toxic to Horses",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/coleus",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

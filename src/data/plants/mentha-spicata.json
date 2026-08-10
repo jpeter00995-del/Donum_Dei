@@ -269,12 +269,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Grüne Minze gilt bei normaler Tee- und Küchenanwendung als sehr gut verträglich. Das ätherische Öl NICHT unverdünnt auf die Haut auftragen und NICHT intern einnehmen ohne ärztliche Anweisung. Im Gegensatz zur Pfefferminze enthält Spearmintöl kein oder kaum Menthol — daher sicherer für Kinder und empfindliche Personen, aber NICHT für Kleinkinder unter 2 Jahren (Carvon kann Atemwege reizen). Bei Reflux oder GERD: Vorsicht — Minzarten können den unteren Ösophagussphinkter entspannen und Sodbrennen verstärken. Bei anhaltenden Beschwerden ärztliche Abklärung. Klinische Studie-Anwendung (Antiandrogen bei PCOS/Hirsutismus) nur unter endokrinologischer Begleitung.",
-      "en": "Spearmint is considered very well tolerated in normal tea and culinary use. Essential oil must NOT be applied undiluted to skin and NOT taken internally without medical supervision. Unlike peppermint, spearmint oil contains little to no menthol — therefore safer for children and sensitive individuals, but NOT for toddlers under 2 years (carvone can irritate airways). With reflux or GERD: caution — mint species can relax the lower oesophageal sphincter and worsen heartburn. Persistent complaints require medical evaluation. Clinical use (anti-androgenic for PCOS/hirsutism) only under endocrinological supervision."
+      "de": "Grüne Minze gilt bei normaler Tee- und Küchenanwendung als sehr gut verträglich. Das ätherische Öl NICHT unverdünnt auf die Haut auftragen und NICHT intern einnehmen ohne ärztliche Anweisung. Im Gegensatz zur Pfefferminze enthält Spearmintöl kein oder kaum Menthol — daher sicherer für Kinder und empfindliche Personen, aber NICHT für Kleinkinder unter 2 Jahren (Carvon kann Atemwege reizen). Bei Reflux oder GERD: Vorsicht — Minzarten können den unteren Ösophagussphinkter entspannen und Sodbrennen verstärken. Bei anhaltenden Beschwerden ärztliche Abklärung. Klinische Studie-Anwendung (Antiandrogen bei PCOS/Hirsutismus) nur unter endokrinologischer Begleitung. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
+      "en": "Spearmint is considered very well tolerated in normal tea and culinary use. Essential oil must NOT be applied undiluted to skin and NOT taken internally without medical supervision. Unlike peppermint, spearmint oil contains little to no menthol — therefore safer for children and sensitive individuals, but NOT for toddlers under 2 years (carvone can irritate airways). With reflux or GERD: caution — mint species can relax the lower oesophageal sphincter and worsen heartburn. Persistent complaints require medical evaluation. Clinical use (anti-androgenic for PCOS/hirsutism) only under endocrinological supervision. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "caution",
       "note": {
@@ -394,6 +394,13 @@
       "title": "Heilkräuter-Lexikon — Grüne Minze / Spearmint (Mentha spicata)",
       "url": "https://www.heilkraeuter.de/lexikon/gruene-minze.htm",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_aspca_mint",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Mint (Mentha sp.): Toxic to Dogs, Toxic to Cats, Toxic to Horses",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mint",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

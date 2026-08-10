@@ -179,12 +179,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Kann durch milde sedierende Wirkung Schläfrigkeit verursachen; kein Autofahren nach hohen Dosen. Das ätherische Öl ist phototoxisch und darf nicht unverdünnt auf die Haut aufgetragen werden. Nach längerem täglichem Teegenuss (> 8 Wochen) kurze Trinkpause einlegen.",
-      "en": "Mild sedative effect may cause drowsiness; avoid driving after high doses. The essential oil is phototoxic and must not be applied undiluted to skin. After prolonged daily tea use (> 8 weeks), take a short break."
+      "de": "Kann durch milde sedierende Wirkung Schläfrigkeit verursachen; kein Autofahren nach hohen Dosen. Das ätherische Öl ist phototoxisch und darf nicht unverdünnt auf die Haut aufgetragen werden. Nach längerem täglichem Teegenuss (> 8 Wochen) kurze Trinkpause einlegen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
+      "en": "Mild sedative effect may cause drowsiness; avoid driving after high doses. The essential oil is phototoxic and must not be applied undiluted to skin. After prolonged daily tea use (> 8 weeks), take a short break. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
     "external_only": false,
     "toxicity_level": "none",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "caution",
       "note": {
@@ -267,6 +267,13 @@
       "title": "Lemon Verbena (Aloysia citrodora): Benefits, Uses, Safety — Herbal Reality",
       "url": "https://www.herbalreality.com/herb/lemon-verbena/",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_aspca_lemon_verbena",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Lemon Verbena (Aloysia triphylla): Toxic to Dogs, Toxic to Cats, Toxic to Horses",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lemon-verbena",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

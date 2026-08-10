@@ -148,12 +148,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "KRITISCH: Therapeutische Anwendung (Tee, Tinktur, Extrakte, ätherisches Öl) in der Schwangerschaft KONTRAINDIZIERT — Apiol und Myristicin im ätherischen Öl wirken in höheren Dosen abortiv (uteruskontrahierend), hepatotoxisch (leberschädigend) und neurotoxisch. Petersilienfrüchte/-samenöl wurden historisch als Abortivum missbraucht (lebensgefährlich). Küchenübliche Mengen (Garnitur, Salat) gelten als sicher. Phototoxische Reaktionen durch Furanocumarine (Bergapten, Psoralen) möglich, besonders bei hellhäutigen Personen. Reine ätherische Öle NICHT innerlich anwenden. Auf reichliche Flüssigkeitszufuhr bei Durchspülungstherapie achten.",
-      "en": "CRITICAL: Therapeutic use (tea, tincture, extracts, essential oil) CONTRAINDICATED in pregnancy — apiol and myristicin in essential oil are abortifacient (uterotonic), hepatotoxic and neurotoxic at higher doses. Parsley fruit/seed oil was historically misused as abortifacient (life-threatening). Culinary amounts (garnish, salad) considered safe. Phototoxic reactions from furanocoumarins (bergapten, psoralen) possible, especially in fair-skinned individuals. Pure essential oils MUST NOT be taken internally. Ensure ample fluid intake during irrigation therapy."
+      "de": "KRITISCH: Therapeutische Anwendung (Tee, Tinktur, Extrakte, ätherisches Öl) in der Schwangerschaft KONTRAINDIZIERT — Apiol und Myristicin im ätherischen Öl wirken in höheren Dosen abortiv (uteruskontrahierend), hepatotoxisch (leberschädigend) und neurotoxisch. Petersilienfrüchte/-samenöl wurden historisch als Abortivum missbraucht (lebensgefährlich). Küchenübliche Mengen (Garnitur, Salat) gelten als sicher. Phototoxische Reaktionen durch Furanocumarine (Bergapten, Psoralen) möglich, besonders bei hellhäutigen Personen. Reine ätherische Öle NICHT innerlich anwenden. Auf reichliche Flüssigkeitszufuhr bei Durchspülungstherapie achten. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
+      "en": "CRITICAL: Therapeutic use (tea, tincture, extracts, essential oil) CONTRAINDICATED in pregnancy — apiol and myristicin in essential oil are abortifacient (uterotonic), hepatotoxic and neurotoxic at higher doses. Parsley fruit/seed oil was historically misused as abortifacient (life-threatening). Culinary amounts (garnish, salad) considered safe. Phototoxic reactions from furanocoumarins (bergapten, psoralen) possible, especially in fair-skinned individuals. Pure essential oils MUST NOT be taken internally. Ensure ample fluid intake during irrigation therapy. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "contraindicated",
       "note": {
@@ -290,6 +290,13 @@
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7956842/",
       "accessed": "2026-05-19",
       "title": "pmc_repro_tox"
+    },
+    {
+      "id": "src_aspca_parsley",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Parsley (Petroselinum crispum): Toxic to Dogs, Toxic to Cats, Toxic to Horses",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parsley",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

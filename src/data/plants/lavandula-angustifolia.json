@@ -202,12 +202,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Ätherisches Lavendelöl niemals unverdünnt auf die Haut auftragen — Reizgefahr und Sensibilisierung. Maximalkonzentration 1–3 % in einem Trägeröl. Allergische Hautreaktionen (Kontaktdermatitis) sind möglich, vor allem bei oxidiertem (altem) Öl. WICHTIG für Eltern: Es gibt Fallberichte über vorpubertäre Brustdrüsen-Schwellung (Gynäkomastie) bei Jungen nach regelmäßiger äusserer Anwendung lavendelölhaltiger Pflegeprodukte. Linalool und Linalylacetat zeigen in Zellkulturen östrogenartige und antiandrogene Wirkungen. Bei Kindern unter 12 Jahren — insbesondere bei vorpubertären Jungen — daher auf hautnahe Anwendung von Lavendelöl verzichten (Lotionen, Shampoos, Massageöle, Diffuser im Kinderzimmer). Die Anwendung als Tee ist davon nicht betroffen.",
-      "en": "Never apply lavender essential oil undiluted to the skin. Maximum 1–3 % in carrier oil. IMPORTANT for parents: Case reports exist of prepubertal breast tissue swelling (gynaecomastia) in boys after regular external use of lavender-oil-containing care products. In children under 12 — especially prepubertal boys — avoid skin-contact use of lavender oil. Tea preparation is not affected."
+      "de": "Ätherisches Lavendelöl niemals unverdünnt auf die Haut auftragen — Reizgefahr und Sensibilisierung. Maximalkonzentration 1–3 % in einem Trägeröl. Allergische Hautreaktionen (Kontaktdermatitis) sind möglich, vor allem bei oxidiertem (altem) Öl. WICHTIG für Eltern: Es gibt Fallberichte über vorpubertäre Brustdrüsen-Schwellung (Gynäkomastie) bei Jungen nach regelmäßiger äusserer Anwendung lavendelölhaltiger Pflegeprodukte. Linalool und Linalylacetat zeigen in Zellkulturen östrogenartige und antiandrogene Wirkungen. Bei Kindern unter 12 Jahren — insbesondere bei vorpubertären Jungen — daher auf hautnahe Anwendung von Lavendelöl verzichten (Lotionen, Shampoos, Massageöle, Diffuser im Kinderzimmer). Die Anwendung als Tee ist davon nicht betroffen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
+      "en": "Never apply lavender essential oil undiluted to the skin. Maximum 1–3 % in carrier oil. IMPORTANT for parents: Case reports exist of prepubertal breast tissue swelling (gynaecomastia) in boys after regular external use of lavender-oil-containing care products. In children under 12 — especially prepubertal boys — avoid skin-contact use of lavender oil. Tea preparation is not affected. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "unknown",
       "note": {
@@ -278,6 +278,13 @@
       "title": "EMA/HMPC/143181/2010 — European Union herbal monograph on Lavandula angustifolia Mill., aetheroleum (Final, 27 March 2012)",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/lavandulae-aetheroleum",
       "accessed": "2026-05-18"
+    },
+    {
+      "id": "src_aspca_lavender",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Lavender (Lavandula angustifolia): Toxic to Dogs, Toxic to Cats, Toxic to Horses",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lavender",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

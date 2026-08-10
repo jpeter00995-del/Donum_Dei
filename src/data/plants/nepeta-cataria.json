@@ -165,12 +165,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Als Tee in üblicher Dosierung gut verträglich. Ätherisches Öl nur verdünnt äußerlich anwenden. Nicht rauchen — kann Halluzinationen auslösen. Auf schwere Maschinen verzichten (sedierende Wirkung). Großmengen können Reizbarkeit und übermäßige Schläfrigkeit verursachen.",
-      "en": "Tea in normal doses is well tolerated. Essential oil for external use only, diluted. Do not smoke — may cause hallucinations. Avoid operating machinery (sedative effect). Large doses may cause irritability and excessive sleepiness."
+      "de": "Als Tee in üblicher Dosierung gut verträglich. Ätherisches Öl nur verdünnt äußerlich anwenden. Nicht rauchen — kann Halluzinationen auslösen. Auf schwere Maschinen verzichten (sedierende Wirkung). Großmengen können Reizbarkeit und übermäßige Schläfrigkeit verursachen. ASPCA-Einstufung (abgerufen 2026-08-10): für Katzen giftig — größere Mengen können Erbrechen und Durchfall auslösen.",
+      "en": "Tea in normal doses is well tolerated. Essential oil for external use only, diluted. Do not smoke — may cause hallucinations. Avoid operating machinery (sedative effect). Large doses may cause irritability and excessive sleepiness. ASPCA classification (accessed 2026-08-10): toxic to cats — larger amounts can cause vomiting and diarrhoea."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "contraindicated",
       "note": {
@@ -250,6 +250,13 @@
       "title": "Nadeem et al. (2022): Phytochemical profiling of antimicrobial and potential antioxidant plant: Nepeta cataria — Frontiers in Plant Science",
       "url": "https://doi.org/10.3389/fpls.2022.969316",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_aspca_catnip",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Catnip (Nepeta cataria): Toxic to Cats",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/catnip",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

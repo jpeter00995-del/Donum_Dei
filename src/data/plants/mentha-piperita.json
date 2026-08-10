@@ -268,12 +268,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "WICHTIG — MENTHOL-WARNHINWEISE: Pfefferminzöl und -blätter niemals unverdünnt im Gesicht, an Nase oder Schleimhäuten von Säuglingen und Kleinkindern unter 2 Jahren anwenden — akutes Apnoe- und Laryngospasmus-Risiko (lebensbedrohlich). Magensaftresistente Pfefferminzöl-Kapseln nicht zusammen mit Antazida, H2-Blockern oder Protonenpumpenhemmern einnehmen — vorzeitige Auflösung des Schutzüberzugs führt zu Ösophagusspasmus und Sodbrennen. Bei Gallenblasenerkrankungen (Gallensteine, Cholangitis) ist orales Pfefferminzöl kontraindiziert — Menthol steigert den Gallenfluss. Menthol kann bei vorbestehender Epilepsie oder bekannter Krampfanamnese kontraindiziert sein. Pfefferminze (Blatt und Öl) relaxiert den unteren Ösophagussphinkter — bei Reflux / Sodbrennen / Hiatushernie vermeiden. Therapiebegrenzte Selbstmedikation: max. 4 Wochen ohne ärztliche Abklärung.",
-      "en": "IMPORTANT — MENTHOL WARNINGS: Never apply peppermint oil or leaves undiluted to the face, nose or mucous membranes of infants and toddlers under 2 years — acute apnoea and laryngospasm risk (life-threatening). Enteric-coated peppermint oil capsules must not be taken with antacids, H2-blockers or proton pump inhibitors — premature coating dissolution causes oesophageal spasm and heartburn. In gallbladder disease (gallstones, cholangitis) oral peppermint oil is contraindicated — menthol increases bile flow. Menthol may be contraindicated in pre-existing epilepsy or known seizure history. Peppermint (leaf and oil) relaxes the lower oesophageal sphincter — avoid in reflux / heartburn / hiatal hernia. Self-medication limit: max. 4 weeks without medical evaluation."
+      "de": "WICHTIG — MENTHOL-WARNHINWEISE: Pfefferminzöl und -blätter niemals unverdünnt im Gesicht, an Nase oder Schleimhäuten von Säuglingen und Kleinkindern unter 2 Jahren anwenden — akutes Apnoe- und Laryngospasmus-Risiko (lebensbedrohlich). Magensaftresistente Pfefferminzöl-Kapseln nicht zusammen mit Antazida, H2-Blockern oder Protonenpumpenhemmern einnehmen — vorzeitige Auflösung des Schutzüberzugs führt zu Ösophagusspasmus und Sodbrennen. Bei Gallenblasenerkrankungen (Gallensteine, Cholangitis) ist orales Pfefferminzöl kontraindiziert — Menthol steigert den Gallenfluss. Menthol kann bei vorbestehender Epilepsie oder bekannter Krampfanamnese kontraindiziert sein. Pfefferminze (Blatt und Öl) relaxiert den unteren Ösophagussphinkter — bei Reflux / Sodbrennen / Hiatushernie vermeiden. Therapiebegrenzte Selbstmedikation: max. 4 Wochen ohne ärztliche Abklärung. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
+      "en": "IMPORTANT — MENTHOL WARNINGS: Never apply peppermint oil or leaves undiluted to the face, nose or mucous membranes of infants and toddlers under 2 years — acute apnoea and laryngospasm risk (life-threatening). Enteric-coated peppermint oil capsules must not be taken with antacids, H2-blockers or proton pump inhibitors — premature coating dissolution causes oesophageal spasm and heartburn. In gallbladder disease (gallstones, cholangitis) oral peppermint oil is contraindicated — menthol increases bile flow. Menthol may be contraindicated in pre-existing epilepsy or known seizure history. Peppermint (leaf and oil) relaxes the lower oesophageal sphincter — avoid in reflux / heartburn / hiatal hernia. Self-medication limit: max. 4 weeks without medical evaluation. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "caution",
       "note": {
@@ -445,6 +445,13 @@
       "title": "Peppermint (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Peppermint",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_aspca_mint",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Mint (Mentha sp.): Toxic to Dogs, Toxic to Cats, Toxic to Horses",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mint",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

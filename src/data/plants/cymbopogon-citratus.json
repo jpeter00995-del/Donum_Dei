@@ -182,12 +182,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "In Küchenmengen unbedenklich. Ätherisches Öl (konzentriert) niemals unverdünnt auf die Haut oder direkt inhalieren — kann Hautreizungen und toxische Alveolitis auslösen. Hochdosierte Daueranwendung kann die Nierenfunktion beeinträchtigen (Tierstudien). Bei Hautsensibilisierung auf ätherische Öle Anwendung beenden.",
-      "en": "Safe in culinary amounts. Concentrated essential oil must never be applied undiluted to skin or inhaled directly — may cause skin irritation and toxic alveolitis. High-dose long-term use may affect kidney function (animal studies). Discontinue if skin sensitisation to essential oils occurs."
+      "de": "In Küchenmengen unbedenklich. Ätherisches Öl (konzentriert) niemals unverdünnt auf die Haut oder direkt inhalieren — kann Hautreizungen und toxische Alveolitis auslösen. Hochdosierte Daueranwendung kann die Nierenfunktion beeinträchtigen (Tierstudien). Bei Hautsensibilisierung auf ätherische Öle Anwendung beenden. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
+      "en": "Safe in culinary amounts. Concentrated essential oil must never be applied undiluted to skin or inhaled directly — may cause skin irritation and toxic alveolitis. High-dose long-term use may affect kidney function (animal studies). Discontinue if skin sensitisation to essential oils occurs. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "caution",
       "note": {
@@ -260,6 +260,13 @@
       "title": "Lemon grass essential oil as a potent anti-inflammatory and antifungal drug — PMC 4170112",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4170112/",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_aspca_lemon_grass",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Lemon Grass (Cymbopogon citratus): Toxic to Dogs, Toxic to Cats, Toxic to Horses",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/lemon-grass",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -126,12 +126,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Plectranthus caninus wird kommerziell als 'Verpiss-dich-Pflanze' gegen das Markieren von Katzen und Hunden beworben — die Wirksamkeit dieser Repellent-Behauptung ist wissenschaftlich UNGENÜGEND belegt und sollte nicht als verlässliche Tier-Abwehrmaßnahme verstanden werden. Bei Berührung wird ein starker, muffig-mentholischer Geruch freigesetzt, der für Menschen mit empfindlicher Nase unangenehm sein kann. Bei sensiblen Hauttypen sind selten Hautreizungen durch den Pflanzensaft möglich (Lamiaceen-Allergie). Die Pflanze ist NICHT essbar und hat KEINE dokumentierte traditionelle oder klinische Heilanwendung — sie ist eine reine Zierpflanze.",
-      "en": "Plectranthus caninus is commercially marketed as the 'Piss-off plant' against marking by cats and dogs — this repellent claim is INSUFFICIENTLY supported scientifically and should not be relied upon as a reliable animal-deterrent measure. On touch it releases a strong, musky-mentholic scent that can be unpleasant for people with a sensitive nose. Sensitive skin types may rarely experience irritation from plant sap (Lamiaceae allergy). The plant is NOT edible and has NO documented traditional or clinical medicinal use — it is purely ornamental."
+      "de": "Plectranthus caninus wird kommerziell als 'Verpiss-dich-Pflanze' gegen das Markieren von Katzen und Hunden beworben — die Wirksamkeit dieser Repellent-Behauptung ist wissenschaftlich UNGENÜGEND belegt und sollte nicht als verlässliche Tier-Abwehrmaßnahme verstanden werden. Bei Berührung wird ein starker, muffig-mentholischer Geruch freigesetzt, der für Menschen mit empfindlicher Nase unangenehm sein kann. Bei sensiblen Hauttypen sind selten Hautreizungen durch den Pflanzensaft möglich (Lamiaceen-Allergie). Die Pflanze ist NICHT essbar und hat KEINE dokumentierte traditionelle oder klinische Heilanwendung — sie ist eine reine Zierpflanze. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
+      "en": "Plectranthus caninus is commercially marketed as the 'Piss-off plant' against marking by cats and dogs — this repellent claim is INSUFFICIENTLY supported scientifically and should not be relied upon as a reliable animal-deterrent measure. On touch it releases a strong, musky-mentholic scent that can be unpleasant for people with a sensitive nose. Sensitive skin types may rarely experience irritation from plant sap (Lamiaceae allergy). The plant is NOT edible and has NO documented traditional or clinical medicinal use — it is purely ornamental. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
     "external_only": true,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "unknown",
       "note": {
@@ -227,6 +227,13 @@
       "title": "Baumschule Horstmann — Plectranthus caninus 'Verpiss-dich-Pflanze' Pflanz- und Pflegeanleitung",
       "url": "https://www.baumschule-horstmann.de/shop/exec/product/119/4810/Verpiss-dich-Pflanze.html",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_aspca_coleus",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Coleus (Coleus ampoinicus): Toxic to Dogs, Toxic to Cats, Toxic to Horses",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/coleus",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

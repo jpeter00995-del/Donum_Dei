@@ -162,12 +162,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Blätter nicht mitessen — Verletzungsgefahr durch scharfe Blattränder. Ätherisches Öl kann Hautsensibilisierungen auslösen. Sesquiterpenlactone können Kontaktdermatitis verursachen — beim Ernten/Verarbeiten von frischen Blättern Handschuhe empfohlen.",
-      "en": "Do not eat whole leaves — risk of injury from sharp leaf edges. Essential oil may cause skin sensitisation. Sesquiterpene lactones can cause contact dermatitis — gloves recommended when harvesting or processing fresh leaves."
+      "de": "Blätter nicht mitessen — Verletzungsgefahr durch scharfe Blattränder. Ätherisches Öl kann Hautsensibilisierungen auslösen. Sesquiterpenlactone können Kontaktdermatitis verursachen — beim Ernten/Verarbeiten von frischen Blättern Handschuhe empfohlen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
+      "en": "Do not eat whole leaves — risk of injury from sharp leaf edges. Essential oil may cause skin sensitisation. Sesquiterpene lactones can cause contact dermatitis — gloves recommended when harvesting or processing fresh leaves. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "caution",
       "note": {
@@ -247,6 +247,13 @@
       "title": "Khalil et al. (2024): Anti-inflammatory effects of bay laurel towards the gut microbiome in dextran sodium sulfate induced colitis animal models — Food Science & Nutrition",
       "url": "https://doi.org/10.1002/fsn3.3946",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_aspca_bay_laurel",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Bay Laurel (Laurus nobilis): Toxic to Dogs, Toxic to Cats, Toxic to Horses",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/bay-laurel",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

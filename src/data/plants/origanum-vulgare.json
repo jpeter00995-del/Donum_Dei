@@ -214,12 +214,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Ätherisches Origanumöl ist in konzentrierter Form stark hautreizend und schleimhautreizend — niemals unverdünnt anwenden, immer mindestens 1:10 in fettem Trägeröl verdünnen. Hohe Mengen können Übelkeit, Erbrechen und Magenreizung auslösen. Therapeutische Dosen während der Schwangerschaft meiden (Carvacrol- und Thymolwirkung, traditionelle Verwendung als Emmenagogum).",
-      "en": "Oregano essential oil is strongly skin- and mucous-membrane irritating in concentrated form — never apply undiluted; always dilute at least 1:10 in a fixed carrier oil. High doses can cause nausea, vomiting and gastric irritation. Avoid therapeutic doses during pregnancy (carvacrol and thymol effects, traditional use as emmenagogue)."
+      "de": "Ätherisches Origanumöl ist in konzentrierter Form stark hautreizend und schleimhautreizend — niemals unverdünnt anwenden, immer mindestens 1:10 in fettem Trägeröl verdünnen. Hohe Mengen können Übelkeit, Erbrechen und Magenreizung auslösen. Therapeutische Dosen während der Schwangerschaft meiden (Carvacrol- und Thymolwirkung, traditionelle Verwendung als Emmenagogum). ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
+      "en": "Oregano essential oil is strongly skin- and mucous-membrane irritating in concentrated form — never apply undiluted; always dilute at least 1:10 in a fixed carrier oil. High doses can cause nausea, vomiting and gastric irritation. Avoid therapeutic doses during pregnancy (carvacrol and thymol effects, traditional use as emmenagogue). ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "caution",
       "note": {
@@ -338,6 +338,13 @@
       "title": "USDA FoodData Central — Spices, oregano, dried (FDC ID 171328)",
       "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171328/nutrients",
       "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_aspca_oregano",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Oregano (Origanum vulgare hirtum): Toxic to Dogs, Toxic to Cats, Toxic to Horses",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/oregano",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

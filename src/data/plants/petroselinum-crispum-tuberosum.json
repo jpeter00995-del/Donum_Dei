@@ -168,12 +168,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Petersilienöl und konzentrierte Extrakte (Apiol, Myristicin) sind in hohen Dosen hepato- und nephrotoxisch sowie neurotoxisch (Krampfauslösung beschrieben). Kochkraut und Wurzel in kulinarischen Mengen unbedenklich. Emmenagoge Wirkung: in der Schwangerschaft keine Heilpflanzendosen. Wegen Furanocumarin-Gehalt: Sonneneinstrahlung nach größeren Mengen Frischpflanze vermeiden (phototoxisch möglich). Personen mit Nieren- oder Lebererkrankungen vor der medizinischen Anwendung ärztlichen Rat einholen.",
-      "en": "Parsley oil and concentrated extracts (apiole, myristicin) are hepato- and nephrotoxic in high doses, and neurotoxic (convulsions documented). Culinary amounts of herb and root are safe. Emmenagogue effect: no medicinal doses during pregnancy. Due to furanocoumarin content: avoid sun exposure after large amounts of fresh plant (phototoxicity possible). Persons with kidney or liver disease should seek medical advice before medicinal use."
+      "de": "Petersilienöl und konzentrierte Extrakte (Apiol, Myristicin) sind in hohen Dosen hepato- und nephrotoxisch sowie neurotoxisch (Krampfauslösung beschrieben). Kochkraut und Wurzel in kulinarischen Mengen unbedenklich. Emmenagoge Wirkung: in der Schwangerschaft keine Heilpflanzendosen. Wegen Furanocumarin-Gehalt: Sonneneinstrahlung nach größeren Mengen Frischpflanze vermeiden (phototoxisch möglich). Personen mit Nieren- oder Lebererkrankungen vor der medizinischen Anwendung ärztlichen Rat einholen. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
+      "en": "Parsley oil and concentrated extracts (apiole, myristicin) are hepato- and nephrotoxic in high doses, and neurotoxic (convulsions documented). Culinary amounts of herb and root are safe. Emmenagogue effect: no medicinal doses during pregnancy. Due to furanocoumarin content: avoid sun exposure after large amounts of fresh plant (phototoxicity possible). Persons with kidney or liver disease should seek medical advice before medicinal use. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "contraindicated",
       "note": {
@@ -286,6 +286,13 @@
       "title": "Plants For A Future (PFAF): Petroselinum crispum tuberosum",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Petroselinum+crispum+tuberosum",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_parsley",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Parsley (Petroselinum crispum): Toxic to Dogs, Toxic to Cats, Toxic to Horses",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parsley",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

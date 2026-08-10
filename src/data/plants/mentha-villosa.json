@@ -180,12 +180,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Das ätherische Öl enthält je nach Chemotyp Pulegon-Spuren (in der Regel <0,5 %). Pur oder hochkonzentriert nicht einnehmen — ätherisches Öl ist ausschließlich zur äußerlichen Anwendung bestimmt. Menthol-Gehalt ist gering, jedoch gilt für konzentrierte Öle Vorsicht bei Kleinkindern (keine Anwendung im Gesichtsbereich). Embryo- und Fetaltoxizität des ätherischen Öls wurde in Tierversuchen dokumentiert — Anwendung des Öls in der Schwangerschaft kontraindiziert.",
-      "en": "The essential oil contains trace amounts of pulegone depending on chemotype (typically <0.5%). Do not ingest neat or in high concentration — essential oil is for external use only. Menthol content is low, but concentrated oils require caution in infants (do not apply to the face). Embryo- and fetal toxicity of the essential oil has been documented in animal studies — use of the oil during pregnancy is contraindicated."
+      "de": "Das ätherische Öl enthält je nach Chemotyp Pulegon-Spuren (in der Regel <0,5 %). Pur oder hochkonzentriert nicht einnehmen — ätherisches Öl ist ausschließlich zur äußerlichen Anwendung bestimmt. Menthol-Gehalt ist gering, jedoch gilt für konzentrierte Öle Vorsicht bei Kleinkindern (keine Anwendung im Gesichtsbereich). Embryo- und Fetaltoxizität des ätherischen Öls wurde in Tierversuchen dokumentiert — Anwendung des Öls in der Schwangerschaft kontraindiziert. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
+      "en": "The essential oil contains trace amounts of pulegone depending on chemotype (typically <0.5%). Do not ingest neat or in high concentration — essential oil is for external use only. Menthol content is low, but concentrated oils require caution in infants (do not apply to the face). Embryo- and fetal toxicity of the essential oil has been documented in animal studies — use of the oil during pregnancy is contraindicated. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "caution",
       "note": {
@@ -277,6 +277,13 @@
       "title": "Wikipedia: Mentha × villosa (Hairy mint / Bowles' mint)",
       "url": "https://en.wikipedia.org/wiki/Mentha_%C3%97_villosa",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_mint",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Mint (Mentha sp.): Toxic to Dogs, Toxic to Cats, Toxic to Horses",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mint",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {
