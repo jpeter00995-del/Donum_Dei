@@ -11,8 +11,8 @@
     "latin": "Papaveraceae"
   },
   "description": {
-    "de": "Das Schöllkraut ist eine zwei- bis mehrjährige krautige Pflanze aus der Familie der Mohngewächse, die Wuchshöhen bis etwa 70 cm erreicht. Beim Verletzen tritt aus den gegliederten Milchröhren ein charakteristischer gelb-oranger Milchsaft aus. Die wechselständigen Laubblätter sind tief eingeschnitten und gelappt, die kleinen vierzähligen Blüten sind gelb und erscheinen von Mai bis Oktober. Die ganze Pflanze enthält über 20 Isochinolin-Alkaloide und gilt als giftig, in der Wurzel sogar als hochgiftig. Traditionell wurde der frische Milchsaft äußerlich gegen Warzen verwendet.",
-    "en": "Greater celandine is a biennial to perennial herbaceous plant of the poppy family, growing up to about 70 cm tall. When the plant is injured it exudes a characteristic yellow to orange latex from its articulated laticifers. The alternate leaves are deeply lobed and pinnate, and the small four-petalled yellow flowers appear from May to October. The whole plant contains more than twenty isoquinoline alkaloids and is toxic, with the root being especially poisonous. Traditionally its fresh latex was applied externally against warts."
+    "de": "Verletzt man einen Stängel des Schöllkrauts, quillt sofort ein gelb-oranger Milchsaft hervor — das sicherste Erkennungsmerkmal dieses Mohngewächses, das bis etwa 70 Zentimeter hoch wird und von Mai bis Oktober an Mauern, Zäunen und Wegrändern blüht. Die wechselständigen Laubblätter sind tief eingeschnitten und gelappt, die kleinen gelben Blüten vierzählig. Die ganze Pflanze enthält über zwanzig Isochinolin-Alkaloide, darunter Chelidonin, Sanguinarin, Chelerythrin und Coptisin; sie ist giftig, die Wurzel hochgiftig. Traditionell wird der frische Milchsaft mehrmals täglich äußerlich auf Warzen getupft, wobei gesunde Haut ausgespart bleiben sollte. Von der innerlichen Anwendung als Tee oder Tinktur wird heute dringend abgeraten: Es sind zahlreiche Fälle schwerer Leberschäden dokumentiert, von der toxischen Hepatitis bis zum Leberversagen.",
+    "en": "Break a stem of greater celandine and an orange-yellow latex wells out at once — the surest way to recognise this poppy-family plant, which grows to about 70 centimetres and flowers from May to October along walls, fences and path edges. Its alternate leaves are deeply cut and lobed, its small yellow flowers four-petalled. The whole plant carries more than twenty isoquinoline alkaloids, among them chelidonine, sanguinarine, chelerythrine and coptisine; it is poisonous, and the root highly so. Traditionally the fresh latex is dabbed on warts several times a day, keeping clear of healthy skin. Internal use as tea or tincture is now strongly advised against: numerous cases of serious liver damage are documented, from toxic hepatitis through to liver failure."
   },
   "teaser": {
     "de": "Altes Warzenmittel mit gelb-orangem Milchsaft – innerlich jedoch lebertoxisch und mit Vorsicht zu behandeln.",
@@ -21,43 +21,67 @@
   "uses": [
     {
       "form": "raw",
-      "target": ["warts", "skin growths"],
+      "target": [
+        "warts",
+        "skin growths"
+      ],
       "internal_external": "external",
       "description": {
         "de": "Der frische gelb-orange Milchsaft wird traditionell mehrmals täglich direkt auf Warzen aufgetupft. Volkstümliche Anwendung in mehreren europäischen Ländern; gesunde Haut sollte ausgespart werden, da der Saft reizend wirkt.",
         "en": "The fresh yellow-orange latex is traditionally dabbed directly onto warts several times a day. A folk practice in several European countries; surrounding healthy skin should be avoided as the sap is irritating."
       },
-      "source_ids": ["wiki-de", "wiki-en"],
+      "source_ids": [
+        "wiki-de",
+        "wiki-en"
+      ],
       "plant_part": "aerial_parts",
       "evidence_level": "traditional"
     },
     {
       "form": "tincture",
-      "target": ["biliary complaints", "gallbladder spasms"],
+      "target": [
+        "biliary complaints",
+        "gallbladder spasms"
+      ],
       "internal_external": "internal",
       "description": {
         "de": "Innerlich wurde eine alkoholische Tinktur aus dem Kraut traditionell bei krampfartigen Galle- und Verdauungsbeschwerden eingesetzt. Die innerliche Anwendung wird heute wegen dokumentierter, teils schwerer Leberschäden (toxische Hepatitis bis Leberversagen) abgeraten.",
         "en": "Internally, an alcoholic tincture of the herb was traditionally used for cramping biliary and digestive complaints. Internal use is now discouraged because of documented, sometimes severe liver injury (toxic hepatitis up to liver failure)."
       },
-      "source_ids": ["wiki-de", "ema-hepatotox"],
+      "source_ids": [
+        "wiki-de",
+        "ema-hepatotox"
+      ],
       "plant_part": "aerial_parts",
       "evidence_level": "traditional"
     },
     {
       "form": "tea",
-      "target": ["digestive complaints", "spasms"],
+      "target": [
+        "digestive complaints",
+        "spasms"
+      ],
       "internal_external": "internal",
       "description": {
         "de": "Ein Tee (Aufguss) aus dem getrockneten Kraut galt volkstümlich als krampflösend bei Magen-Darm- und Gallenbeschwerden. Wegen der Lebertoxizität der Alkaloide ist von der innerlichen Einnahme dringend abzuraten.",
         "en": "A tea (infusion) of the dried herb was a folk remedy regarded as antispasmodic for stomach, intestinal and biliary complaints. Because of the alkaloids' hepatotoxicity, internal intake is strongly discouraged."
       },
-      "source_ids": ["wiki-de"],
+      "source_ids": [
+        "wiki-de"
+      ],
       "plant_part": "aerial_parts",
       "evidence_level": "folk"
     }
   ],
   "season": {
-    "active_months": [5, 6, 7, 8, 9, 10],
+    "active_months": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
     "harvest_part": {
       "de": "Oberirdisches Kraut zur Blütezeit; Wurzel im Herbst, dann besonders alkaloidreich und hochgiftig.",
       "en": "Aerial herb during flowering; root in autumn, when it is especially rich in alkaloids and highly toxic."

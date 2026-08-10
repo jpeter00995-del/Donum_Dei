@@ -11,8 +11,8 @@
     "latin": "Scrophulariaceae"
   },
   "description": {
-    "de": "Die Kleinblütige Königskerze (Verbascum thapsus) ist eine zweijährige, dicht filzig behaarte Pflanze, die im ersten Jahr eine grundständige Blattrosette und im zweiten Jahr einen aufrechten, meist unverzweigten Blütenstand von ein bis zwei Metern Höhe bildet. Die kleinen, gelben Blüten stehen dicht gedrängt in einer langen, kerzenförmigen Traube und öffnen sich von Juni bis September nacheinander. Alle Pflanzenteile sind mit sternförmigen Haaren bedeckt, was der Pflanze ein silbrig-wolliges Aussehen verleiht. Sie ist in Europa, Nordafrika und Asien heimisch und besiedelt bevorzugt trockene, sonnige Ruderalstandorte, Wegränder und Brachflächen. Arzneilich genutzt werden vor allem die getrockneten Blüten (Verbasci flos), die zusammen mit denen von V. densiflorum und V. phlomoides als Hustenmittel verwendet werden.",
-    "en": "Great mullein (Verbascum thapsus) is a biennial plant densely covered with felt-like hairs, forming a basal leaf rosette in its first year and an erect, usually unbranched flowering spike one to two metres tall in its second year. The small yellow flowers are tightly packed into a long, candle-like raceme and open in succession from June to September. All parts of the plant are clothed in star-shaped hairs, giving it a silvery, woolly appearance. It is native to Europe, North Africa and Asia and prefers dry, sunny ruderal sites, roadsides and waste ground. Medicinally it is the dried flowers (Verbasci flos) that are used, which, together with those of V. densiflorum and V. phlomoides, serve as a remedy for cough and catarrh."
+    "de": "Alle Teile der Kleinblütigen Königskerze sind von sternförmigen Haaren überzogen, was ihr ein silbrig-wolliges Aussehen gibt. Im ersten Jahr bildet sie nur eine grundständige Blattrosette, im zweiten eine aufrechte, meist unverzweigte Blütenkerze von ein bis zwei Metern, an der sich von Juni bis September kleine gelbe Blüten nacheinander öffnen. Sie besiedelt trockene, sonnige Ruderalflächen, Wegränder und Brachen in Europa, Nordafrika und Asien. Arzneilich genutzt werden die getrockneten Blüten, die gemeinsam mit denen der Großblütigen und der Windblumen-Königskerze als Hustenmittel gelten. Ihre Schleimstoffe legen sich reizlindernd über die gereizte Rachenschleimhaut, die enthaltenen Saponine erleichtern das Abhusten; die Kommission E bewertete die Anwendung bei Katarrhen der Atemwege 1990 positiv, die EMA führt sie als traditionell etabliert. Der Aufguss muss sorgfältig gefiltert werden, damit die feinen Haare nicht mitgetrunken werden.",
+    "en": "Every part of great mullein is covered in star-shaped hairs, giving the plant a silvery, woolly look. In its first year it forms only a basal rosette of leaves; in its second an upright, usually unbranched flowering spike of one to two metres, along which small yellow flowers open in succession from June to September. It colonises dry, sunny waste ground, path edges and fallow land across Europe, North Africa and Asia. Medicinally the dried flowers are used, counted together with those of the large-flowered and orange mulleins as a cough remedy. Their mucilage settles soothingly over irritated throat membranes while the saponins ease expectoration; the German Commission E assessed the use for respiratory catarrh positively in 1990, and the EMA lists it as traditionally established. The infusion must be carefully strained so the fine hairs are not swallowed along with it."
   },
   "teaser": {
     "de": "Die wollig behaarte Königskerze liefert reizlindernde Blüten, die als milder Hustentee bei Erkältung und Halskratzen geschätzt werden.",
@@ -21,12 +21,20 @@
   "uses": [
     {
       "form": "tea",
-      "target": ["dry cough", "sore throat", "common cold", "upper respiratory catarrh"],
+      "target": [
+        "dry cough",
+        "sore throat",
+        "common cold",
+        "upper respiratory catarrh"
+      ],
       "internal_external": "internal",
       "plant_part": "flower",
       "evidence_level": "traditional",
       "preparation": {
-        "amount_dry_g": { "min": 1.5, "max": 2 },
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
         "water_ml": 150,
         "steep_min": 10,
         "doses_per_day": 3,
@@ -47,11 +55,19 @@
         "de": "Der klassische Anwendungsbereich der Königskerzenblüten: Die enthaltenen Schleimstoffe legen sich reizlindernd über die gereizten Schleimhäute, während Saponine den Auswurf erleichtern. Die EMA stuft diese Verwendung als traditionelle Anwendung (traditional use) zur Linderung von Halsschmerzen bei trockenem Husten und Erkältung ein.",
         "en": "The classic application of mullein flowers: the mucilage they contain forms a soothing film over irritated mucous membranes, while saponins ease expectoration. The EMA classifies this use as a traditional use for the relief of sore throat associated with dry cough and cold."
       },
-      "source_ids": ["src_ema_monograph", "src_ema_assessment", "src_escop"]
+      "source_ids": [
+        "src_ema_monograph",
+        "src_ema_assessment",
+        "src_escop"
+      ]
     },
     {
       "form": "gargle",
-      "target": ["sore throat", "hoarseness", "irritated throat mucosa"],
+      "target": [
+        "sore throat",
+        "hoarseness",
+        "irritated throat mucosa"
+      ],
       "internal_external": "external",
       "plant_part": "flower",
       "evidence_level": "traditional",
@@ -65,16 +81,27 @@
         "de": "Volkstümlich und im Rahmen der traditionellen Anwendung wird der schleimstoffreiche Blütenaufguss zum Gurgeln bei Halskratzen und Heiserkeit genutzt, um die gereizten Rachenschleimhäute zu beruhigen.",
         "en": "In folk practice and within the traditional indication, the mucilage-rich flower infusion is used as a gargle for a scratchy throat and hoarseness to soothe the irritated pharyngeal mucosa."
       },
-      "source_ids": ["src_commission_e", "src_escop", "src_arzneipflanzenlexikon"]
+      "source_ids": [
+        "src_commission_e",
+        "src_escop",
+        "src_arzneipflanzenlexikon"
+      ]
     },
     {
       "form": "tea",
-      "target": ["mild bronchitis", "productive cough", "expectoration support"],
+      "target": [
+        "mild bronchitis",
+        "productive cough",
+        "expectoration support"
+      ],
       "internal_external": "internal",
       "plant_part": "flower",
       "evidence_level": "commission_e",
       "preparation": {
-        "amount_dry_g": { "min": 1.5, "max": 2 },
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 2
+        },
         "water_ml": 150,
         "steep_min": 10,
         "doses_per_day": 3,
@@ -95,11 +122,17 @@
         "de": "Die Kommission E hat Wollblumen 1990 positiv zur Anwendung bei Katarrhen der Atemwege monographiert. Die Schleimstoffe wirken reizlindernd, die Saponine schwach auswurffördernd; daher die traditionelle Nutzung bei leichten katarrhalischen Beschwerden mit Husten.",
         "en": "Commission E issued a positive monograph for mullein flowers in 1990 for catarrhs of the respiratory tract. The mucilage acts as a demulcent and the saponins as a mild expectorant, hence the traditional use in mild catarrhal complaints with cough."
       },
-      "source_ids": ["src_commission_e", "src_heilpflanzen_welt"]
+      "source_ids": [
+        "src_commission_e",
+        "src_heilpflanzen_welt"
+      ]
     },
     {
       "form": "inhalation",
-      "target": ["upper respiratory catarrh", "irritated airways"],
+      "target": [
+        "upper respiratory catarrh",
+        "irritated airways"
+      ],
       "internal_external": "external",
       "plant_part": "flower",
       "evidence_level": "folk",
@@ -113,11 +146,18 @@
         "de": "In der Volksheilkunde werden Königskerzenblüten als feuchtwarme Dampfinhalation bei Erkältungskatarrhen der oberen Atemwege eingesetzt. Diese Anwendung ist nicht durch Monographien gedeckt und beruht auf überliefertem Erfahrungswissen.",
         "en": "In folk medicine mullein flowers are used as a warm, moist steam inhalation for catarrhal complaints of the upper respiratory tract. This application is not covered by monographs and rests on traditional experiential knowledge."
       },
-      "source_ids": ["src_wikipedia", "src_drugs_npp"]
+      "source_ids": [
+        "src_wikipedia",
+        "src_drugs_npp"
+      ]
     },
     {
       "form": "salve",
-      "target": ["earache (folk)", "minor skin irritation", "chapped skin"],
+      "target": [
+        "earache (folk)",
+        "minor skin irritation",
+        "chapped skin"
+      ],
       "internal_external": "external",
       "plant_part": "flower",
       "evidence_level": "folk",
@@ -131,11 +171,17 @@
         "de": "Das in Öl ausgezogene Königskerzen-Blütenöl ist ein bekanntes volkstümliches Hausmittel, das früher bei Ohrenschmerzen und gereizter Haut verwendet wurde. Es gibt keine belastbaren klinischen Belege; die Anwendung ist rein traditionell und nicht von EMA oder Kommission E gedeckt.",
         "en": "Mullein flower oil macerated in oil is a well-known folk household remedy formerly used for earache and irritated skin. There is no robust clinical evidence; the use is purely traditional and not covered by EMA or Commission E."
       },
-      "source_ids": ["src_wikipedia", "src_drugs_npp"]
+      "source_ids": [
+        "src_wikipedia",
+        "src_drugs_npp"
+      ]
     },
     {
       "form": "compress",
-      "target": ["minor skin irritation", "soothing skin applications"],
+      "target": [
+        "minor skin irritation",
+        "soothing skin applications"
+      ],
       "internal_external": "external",
       "plant_part": "flower",
       "evidence_level": "folk",
@@ -149,11 +195,19 @@
         "de": "Schleimstoffhaltige Königskerzenblüten werden volkstümlich als feuchter Umschlag zur Linderung leichter Hautreizungen genutzt. Die reizlindernde (demulzierende) Wirkung der Schleimstoffe liefert die Begründung; klinische Studien fehlen.",
         "en": "Mucilage-containing mullein flowers are used in folk practice as a moist compress to soothe minor skin irritation. The demulcent action of the mucilage provides the rationale; clinical studies are lacking."
       },
-      "source_ids": ["src_wikipedia", "src_drugs_npp"]
+      "source_ids": [
+        "src_wikipedia",
+        "src_drugs_npp"
+      ]
     }
   ],
   "season": {
-    "active_months": [6, 7, 8, 9],
+    "active_months": [
+      6,
+      7,
+      8,
+      9
+    ],
     "harvest_part": {
       "de": "Blüten (Blütenkronen)",
       "en": "flowers (flower corollas)"
@@ -372,7 +426,10 @@
   "harvest": [
     {
       "plant_part": "flower",
-      "best_months": [7, 8],
+      "best_months": [
+        7,
+        8
+      ],
       "time_of_day": {
         "de": "An sonnigen Vormittagen nach dem Abtrocknen des Taus, wenn die Blüten frisch geöffnet sind.",
         "en": "On sunny mornings after the dew has dried, when the flowers are freshly opened."

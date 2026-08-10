@@ -11,8 +11,8 @@
     "latin": "Plantaginaceae"
   },
   "description": {
-    "de": "Der Rote Fingerhut ist eine zweijährige Pflanze, die im ersten Jahr eine Blattrosette und im zweiten Jahr einen bis zu 2 Meter hohen, unverzweigten Blütenstängel bildet. Die fingerhutähnlichen, purpurrot-violetten Blüten (selten weiß) sind 4–6 cm lang, glockenförmig hängend und an der Unterlippe dunkel gefleckt. Er blüht von Juni bis August und wächst bevorzugt an Waldrändern, auf Lichtungen und Kahlschlägen. Alle Pflanzenteile sind hochgiftig und enthalten herzwirksame Glykoside. 2007 wurde er zur Giftpflanze des Jahres gewählt.",
-    "en": "Foxglove is a biennial plant that forms a leaf rosette in its first year and an unbranched flowering stem up to 2 metres tall in its second year. Its thimble-shaped, pendant, tubular flowers are typically purple-violet (rarely white), 4–6 cm long, with dark-spotted throats. It flowers from June to August and favours woodland edges, clearings and disturbed ground. Every part of the plant is highly poisonous and contains cardiac glycosides."
+    "de": "Im ersten Jahr bildet der Rote Fingerhut nur eine bodennahe Blattrosette, im zweiten schiebt er einen unverzweigten Stängel von bis zu zwei Metern empor, an dem die glockenförmigen, purpurroten Blüten einseitig herabhängen — vier bis sechs Zentimeter lang und an der Unterlippe dunkel gefleckt. Er blüht von Juni bis August und siedelt bevorzugt auf Lichtungen, Kahlschlägen und an Waldrändern. Alle Pflanzenteile sind hochgiftig; sie enthalten herzwirksame Glykoside wie Digitoxin, Digoxin und Gitoxin. 1785 beschrieb der englische Arzt William Withering, wie dosierte Blattzubereitungen bei Herzwassersucht wirken — daraus entstand die moderne Digitalis-Therapie, die heute ausschließlich mit isolierten, exakt dosierten Reinstoffen und unter ärztlicher Kontrolle arbeitet. 2007 wurde die Art zur Giftpflanze des Jahres gewählt. Schon zwei bis drei Blätter können tödlich wirken.",
+    "en": "In its first year foxglove produces only a ground-hugging rosette of leaves; in its second it throws up an unbranched stem as tall as two metres, along which bell-shaped purple flowers hang to one side — four to six centimetres long and darkly spotted on the lower lip. It blooms from June to August and favours clearings, felled areas and woodland edges. Every part is highly poisonous, carrying cardioactive glycosides such as digitoxin, digoxin and gitoxin. In 1785 the English physician William Withering described how measured leaf preparations acted in dropsy of the heart — the origin of modern digitalis therapy, which today works exclusively with isolated, precisely dosed compounds under medical supervision. In 2007 the species was named Germany's poisonous plant of the year. As few as two or three leaves can be fatal."
   },
   "teaser": {
     "de": "Eine prächtige Waldpflanze, deren herzwirksame Glykoside die Medizin prägten – und die zugleich tödlich giftig ist.",
@@ -21,31 +21,47 @@
   "uses": [
     {
       "form": "tea",
-      "target": ["dropsy", "heart weakness"],
+      "target": [
+        "dropsy",
+        "heart weakness"
+      ],
       "internal_external": "internal",
       "description": {
         "de": "Historisch bereitete man aus den getrockneten Blättern Aufgüsse gegen Wassersucht (Ödeme bei Herzschwäche). Diese Anwendung ist rein historisch und LEBENSGEFÄHRLICH – niemals zur Selbstbehandlung verwenden.",
         "en": "Historically, infusions of the dried leaves were used against dropsy (edema caused by heart weakness). This use is purely historical and LIFE-THREATENING – never use for self-treatment."
       },
-      "source_ids": ["wiki-de", "wiki-en"],
+      "source_ids": [
+        "wiki-de",
+        "wiki-en"
+      ],
       "plant_part": "leaf",
       "evidence_level": "folk"
     },
     {
       "form": "tincture",
-      "target": ["heart failure", "irregular heartbeat"],
+      "target": [
+        "heart failure",
+        "irregular heartbeat"
+      ],
       "internal_external": "internal",
       "description": {
         "de": "William Withering beschrieb 1785 die dosierte Anwendung von Blattzubereitungen bei Herzwassersucht; daraus entstand die moderne Digitalis-Therapie. Die isolierten Reinstoffe (Digitoxin/Digoxin) sind heute verschreibungspflichtige Arzneimittel – die Pflanze selbst ist wegen der extrem geringen therapeutischen Breite nicht zur Selbstanwendung geeignet.",
         "en": "In 1785 William Withering described the measured use of leaf preparations for cardiac dropsy, giving rise to modern digitalis therapy. The isolated pure compounds (digitoxin/digoxin) are today prescription medicines – the plant itself is not suitable for self-use because of its extremely narrow therapeutic margin."
       },
-      "source_ids": ["wiki-en", "withering"],
+      "source_ids": [
+        "wiki-en",
+        "withering"
+      ],
       "plant_part": "leaf",
       "evidence_level": "traditional"
     }
   ],
   "season": {
-    "active_months": [6, 7, 8],
+    "active_months": [
+      6,
+      7,
+      8
+    ],
     "harvest_part": {
       "de": "Blätter (historisch; nur unter pharmazeutischer Kontrolle)",
       "en": "Leaves (historical; only under pharmaceutical control)"

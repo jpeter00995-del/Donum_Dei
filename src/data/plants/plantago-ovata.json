@@ -11,8 +11,8 @@
     "latin": "Plantaginaceae"
   },
   "description": {
-    "de": "Der Indische Flohsamen (Plantago ovata), auch Indischer Wegerich oder Ispaghula genannt, ist eine einjährige, krautige Pflanze aus der Familie der Wegerichgewächse. Sie bildet eine bodennahe Rosette schmaler, linealischer Blätter und nur 2 bis 10 cm hohe Blütenstände mit dichten, eiförmigen Ähren. Heimisch ist die Art in den Trockengebieten Nordafrikas und Südwestasiens - von den Kanaren über das Mittelmeer, den Vorderen Orient und die Arabische Halbinsel bis nach Afghanistan, Pakistan und Indien; angebaut wird sie vor allem in Indien und Pakistan. Medizinisch genutzt werden die kleinen, bootförmigen Samen (Plantaginis ovatae semen) und vor allem deren Samenschale (Testa, Plantaginis ovatae testa - die 'Flohsamenschalen' bzw. 'Ispaghula husk'). Diese enthält reichlich Schleimstoffe auf Arabinoxylan-Basis, die in Wasser stark aufquellen und ein vielfaches ihres Volumens an Flüssigkeit binden.",
-    "en": "Blond psyllium (Plantago ovata), also called Indian plantain or ispaghula, is an annual herb of the plantain family. It forms a low rosette of narrow, linear leaves and flower stalks only 2 to 10 cm tall with dense, oval spikes. The species is native to the dry regions of North Africa and Southwest Asia - from the Canary Islands across the Mediterranean, the Near East and the Arabian peninsula to Afghanistan, Pakistan and India - and is cultivated mainly in India and Pakistan. Its medicinal parts are the small boat-shaped seeds (Plantaginis ovatae semen) and above all their seed husk (testa, Plantaginis ovatae testa - the 'psyllium husk' or 'ispaghula husk'). This husk is rich in arabinoxylan-based mucilage that swells strongly in water and binds many times its volume of fluid."
+    "de": "Vom Indischen Flohsamen, auch Ispaghula genannt, nutzt man den unscheinbarsten Teil. Die einjährige Pflanze bleibt niedrig: eine bodennahe Rosette schmaler, linealischer Blätter und nur 2 bis 10 Zentimeter hohe Blütenstände mit dichten, eiförmigen Ähren. Heimisch ist sie in den Trockengebieten Nordafrikas und Südwestasiens — von den Kanaren über das Mittelmeer und die Arabische Halbinsel bis nach Afghanistan, Pakistan und Indien; angebaut wird sie vor allem in Indien und Pakistan. Medizinisch genutzt werden die kleinen, bootförmigen Samen und vor allem deren Samenschale, die bekannten Flohsamenschalen. Sie besteht zu etwa 85 Prozent aus Schleimstoffen auf Arabinoxylan-Basis, die in Wasser stark aufquellen und ein Vielfaches ihres Volumens an Flüssigkeit binden. Die EMA führt die Anwendung bei Verstopfung, bei erwünscht weichem Stuhl und als Ballaststoffergänzung beim Reizdarmsyndrom als gut belegt. Entscheidend ist die Flüssigkeit: mindestens 150 Milliliter je Einzeldosis, sonst kann das Quellgut im Verdauungstrakt stecken bleiben.",
+    "en": "With ispaghula, or blond psyllium, it is the least conspicuous part that matters. The annual plant stays low: a ground-level rosette of narrow, strap-like leaves and flower stalks only 2 to 10 centimetres tall bearing dense, egg-shaped spikes. It is native to the dry regions of North Africa and southwestern Asia — from the Canaries across the Mediterranean and the Arabian Peninsula to Afghanistan, Pakistan and India — and is cultivated mainly in India and Pakistan. Medicinally it is the small, boat-shaped seeds and above all their husk that are used. The husk is roughly 85 percent arabinoxylan-based mucilage, which swells strongly in water and binds many times its own volume of liquid. The EMA lists its use for constipation, for conditions where a soft stool is wanted, and as a fibre supplement in irritable bowel syndrome as well established. The liquid is decisive: at least 150 millilitres per single dose, or the swelling material can lodge in the digestive tract."
   },
   "teaser": {
     "de": "Die quellenden Samenschalen aus Indien - ein sanftes, EMA-anerkanntes Quellmittel bei chronischer Verstopfung und bei Beschwerden, die einen weichen Stuhl erfordern.",
@@ -21,12 +21,21 @@
   "uses": [
     {
       "form": "raw",
-      "target": ["digestion", "chronische Verstopfung", "habitual constipation", "Quellmittel", "bulk laxative"],
+      "target": [
+        "digestion",
+        "chronische Verstopfung",
+        "habitual constipation",
+        "Quellmittel",
+        "bulk laxative"
+      ],
       "internal_external": "internal",
       "plant_part": "seed",
       "evidence_level": "ema_well_established",
       "preparation": {
-        "amount_dry_g": { "min": 7, "max": 11 },
+        "amount_dry_g": {
+          "min": 7,
+          "max": 11
+        },
         "water_ml": 150,
         "doses_per_day": 3,
         "instructions": {
@@ -43,18 +52,33 @@
       },
       "description": {
         "de": "Hauptanwendung mit von der EMA anerkannter 'well-established use'-Evidenz: Die Flohsamenschalen quellen im Darm auf, vergrößern das Stuhlvolumen, erhöhen den Wassergehalt des Stuhls und üben so einen sanften, dehnungsreizvermittelten Reiz auf die Darmperistaltik aus. Eingesetzt bei chronischer (habitueller) Verstopfung. Entscheidend ist die Einnahme mit reichlich Flüssigkeit.",
-          "en": "Main use with EMA-recognised 'well-established use' evidence: the psyllium husks swell in the gut, increase stool volume and water content, and thereby exert a gentle, stretch-mediated stimulus on intestinal peristalsis. Used for chronic (habitual) constipation. Taking it with plenty of fluid is essential."
-        },
-      "source_ids": ["src_ema_tegumentum", "src_ema_semen", "src_wikipedia_de"]
+        "en": "Main use with EMA-recognised 'well-established use' evidence: the psyllium husks swell in the gut, increase stool volume and water content, and thereby exert a gentle, stretch-mediated stimulus on intestinal peristalsis. Used for chronic (habitual) constipation. Taking it with plenty of fluid is essential."
+      },
+      "source_ids": [
+        "src_ema_tegumentum",
+        "src_ema_semen",
+        "src_wikipedia_de"
+      ]
     },
     {
       "form": "raw",
-      "target": ["digestion", "Analfissuren", "anal fissures", "Hämorrhoiden", "haemorrhoids", "weicher Stuhl", "easy defecation"],
+      "target": [
+        "digestion",
+        "Analfissuren",
+        "anal fissures",
+        "Hämorrhoiden",
+        "haemorrhoids",
+        "weicher Stuhl",
+        "easy defecation"
+      ],
       "internal_external": "internal",
       "plant_part": "seed",
       "evidence_level": "ema_well_established",
       "preparation": {
-        "amount_dry_g": { "min": 7, "max": 11 },
+        "amount_dry_g": {
+          "min": 7,
+          "max": 11
+        },
         "water_ml": 150,
         "doses_per_day": 3,
         "instructions": {
@@ -73,16 +97,29 @@
         "de": "Von der EMA als 'well-established use' anerkannt: Bei Beschwerden, bei denen eine erleichterte Darmentleerung mit weichem Stuhl erwünscht ist - zum Beispiel Analfissuren, Hämorrhoiden oder nach anorektalen Eingriffen. Die quellenden Schalen halten den Stuhl weich und voluminös und mindern so den Pressdruck.",
         "en": "Recognised by the EMA as 'well-established use': for conditions in which easier bowel emptying with a soft stool is desired - for example anal fissures, haemorrhoids or after anorectal procedures. The swelling husks keep the stool soft and bulky, reducing straining."
       },
-      "source_ids": ["src_ema_tegumentum", "src_ema_semen"]
+      "source_ids": [
+        "src_ema_tegumentum",
+        "src_ema_semen"
+      ]
     },
     {
       "form": "raw",
-      "target": ["digestion", "Reizdarmsyndrom", "irritable bowel syndrome", "IBS", "Ballaststoffe", "soluble fibre"],
+      "target": [
+        "digestion",
+        "Reizdarmsyndrom",
+        "irritable bowel syndrome",
+        "IBS",
+        "Ballaststoffe",
+        "soluble fibre"
+      ],
       "internal_external": "internal",
       "plant_part": "seed",
       "evidence_level": "ema_well_established",
       "preparation": {
-        "amount_dry_g": { "min": 4, "max": 10 },
+        "amount_dry_g": {
+          "min": 4,
+          "max": 10
+        },
         "water_ml": 150,
         "doses_per_day": 2,
         "instructions": {
@@ -101,16 +138,28 @@
         "de": "Die EMA-Monografie zur Samenschale führt die Anwendung als Ballaststoffergänzung - unter anderem beim Reizdarmsyndrom - unter 'well-established use' (ab 12 Jahren). Die löslichen Schleimstoffe regulieren die Stuhlkonsistenz und können sowohl Verstopfung als auch Durchfall beim Reizdarm günstig beeinflussen.",
         "en": "The EMA monograph on the seed husk lists use as a fibre supplement - including in irritable bowel syndrome - under 'well-established use' (from 12 years). The soluble mucilage regulates stool consistency and can favourably influence both the constipation and the diarrhoea components of irritable bowel syndrome."
       },
-      "source_ids": ["src_ema_tegumentum", "src_wikipedia_en"]
+      "source_ids": [
+        "src_ema_tegumentum",
+        "src_wikipedia_en"
+      ]
     },
     {
       "form": "raw",
-      "target": ["digestion", "erhöhter Cholesterinspiegel", "hypercholesterolaemia", "Cholesterinsenkung", "lipid support"],
+      "target": [
+        "digestion",
+        "erhöhter Cholesterinspiegel",
+        "hypercholesterolaemia",
+        "Cholesterinsenkung",
+        "lipid support"
+      ],
       "internal_external": "internal",
       "plant_part": "seed",
       "evidence_level": "ema_well_established",
       "preparation": {
-        "amount_dry_g": { "min": 7, "max": 11 },
+        "amount_dry_g": {
+          "min": 7,
+          "max": 11
+        },
         "water_ml": 150,
         "doses_per_day": 3,
         "instructions": {
@@ -129,16 +178,28 @@
         "de": "Die EMA-Monografie zur Samenschale nennt die unterstützende Anwendung bei erhöhtem Cholesterinspiegel (Hypercholesterinämie) als 'well-established use' (ab 12 Jahren, unter ärztlicher Aufsicht). Die löslichen Schleimstoffe binden Gallensäuren im Darm und können so den LDL-Cholesterinspiegel günstig beeinflussen.",
         "en": "The EMA monograph on the seed husk names supportive use in raised cholesterol (hypercholesterolaemia) as 'well-established use' (from 12 years, under medical supervision). The soluble mucilage binds bile acids in the gut and can thereby favourably influence the LDL cholesterol level."
       },
-      "source_ids": ["src_ema_tegumentum", "src_wikipedia_en"]
+      "source_ids": [
+        "src_ema_tegumentum",
+        "src_wikipedia_en"
+      ]
     },
     {
       "form": "raw",
-      "target": ["digestion", "leichter Durchfall", "mild diarrhoea", "Stuhlregulierung", "stool regulation"],
+      "target": [
+        "digestion",
+        "leichter Durchfall",
+        "mild diarrhoea",
+        "Stuhlregulierung",
+        "stool regulation"
+      ],
       "internal_external": "internal",
       "plant_part": "seed",
       "evidence_level": "traditional",
       "preparation": {
-        "amount_dry_g": { "min": 3, "max": 5 },
+        "amount_dry_g": {
+          "min": 3,
+          "max": 5
+        },
         "water_ml": 150,
         "doses_per_day": 2,
         "instructions": {
@@ -150,11 +211,19 @@
         "de": "Aufgrund ihrer hohen Wasserbindungskapazität werden die Flohsamenschalen traditionell auch zur Stuhleindickung bei leichtem Durchfall genutzt - dann bewusst mit weniger Flüssigkeit. Diese 'zweiseitige' (bei Verstopfung wie bei Durchfall regulierende) Anwendung beruht auf der Quell- und Wasserbindungswirkung der Schleimstoffe.",
         "en": "Because of their high water-binding capacity, psyllium husks are also traditionally used to thicken stool in mild diarrhoea - then deliberately with less fluid. This 'two-way' (regulating in both constipation and diarrhoea) use rests on the swelling and water-binding action of the mucilage."
       },
-      "source_ids": ["src_wikipedia_de", "src_wikipedia_en"]
+      "source_ids": [
+        "src_wikipedia_de",
+        "src_wikipedia_en"
+      ]
     }
   ],
   "season": {
-    "active_months": [4, 5, 6, 7],
+    "active_months": [
+      4,
+      5,
+      6,
+      7
+    ],
     "harvest_part": {
       "de": "Reife Samen und deren Samenschale (Testa) nach der Fruchtreife",
       "en": "Ripe seeds and their seed husk (testa) after fruit ripening"
@@ -371,7 +440,11 @@
   "harvest": [
     {
       "plant_part": "seed",
-      "best_months": [5, 6, 7],
+      "best_months": [
+        5,
+        6,
+        7
+      ],
       "time_of_day": {
         "de": "An trockenen Tagen, wenn die Ähren ausgereift und bräunlich sind.",
         "en": "On dry days when the spikes are ripe and brownish."
