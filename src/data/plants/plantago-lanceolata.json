@@ -279,7 +279,14 @@
         "en": "Honey syrup: not for infants under 12 months (botulism risk from raw honey)."
       }
     ],
-    "max_continuous_use_weeks": 1
+    "max_continuous_use_weeks": 1,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Plantago lanceolata L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0492_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -310,6 +317,13 @@
       "title": "Wegener T, Kraft K (1999) — Plantain (Plantago lanceolata L.): anti-inflammatory action in upper respiratory tract infections. Wien Med Wochenschr 149(8-10):211-6. PubMed 10483683",
       "url": "https://pubmed.ncbi.nlm.nih.gov/10483683/",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_plantago_lanceolata",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Plantago lanceolata L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0492_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

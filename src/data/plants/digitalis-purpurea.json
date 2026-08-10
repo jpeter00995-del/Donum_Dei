@@ -85,6 +85,13 @@
         "toxic_dogs",
         "toxic_cats"
       ]
+    },
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "sehr stark giftig +++",
+      "entry_name": "Digitalis purpurea L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0030_bot.htm"
     }
   },
   "constituents": [
@@ -141,6 +148,13 @@
       "type": "monograph",
       "title": "ASPCA Animal Poison Control — Foxglove (Digitalis purpurea)",
       "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/foxglove",
+      "accessed": "2026-08-10"
+    },
+    {
+      "id": "src_clinitox_digitalis_purpurea",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Digitalis purpurea L.: sehr stark giftig +++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0030_bot.htm",
       "accessed": "2026-08-10"
     }
   ],

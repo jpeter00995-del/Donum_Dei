@@ -173,8 +173,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "ACHTUNG: Grüne Kartoffelknollen, Keime und alle oberirdischen Pflanzenteile (Blätter, Beeren) enthalten toxische Glykoalkaloide (Solanin, Chaconin). Verzehr grüner oder gekeimter Kartoffeln kann Übelkeit, Erbrechen, Bauchkrämpfe und in hohen Dosen neurologische Symptome verursachen. Grüne Stellen großzügig tief herausschneiden; stark gekeimte oder großflächig grüne Knollen entsorgen, nicht kochen. Rohe Kartoffeln sind wegen unverdaulicher Stärke schlecht bekömmlich. Kartoffelsaft aus grünfreien Knollen gilt in kleinen Mengen als traditionell unbedenklich; Eigenmedikation mit Kartoffelsaft bei ernsthaften Magenbeschwerden ersetzt keine ärztliche Abklärung. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
-      "en": "WARNING: Green potato tubers, sprouts and all above-ground plant parts (leaves, berries) contain toxic glycoalkaloids (solanine, chaconine). Consuming green or sprouted potatoes can cause nausea, vomiting, abdominal cramps and, in high doses, neurological symptoms. Cut out green patches generously and deeply; discard heavily sprouted or extensively green tubers — do not cook them. Raw potato is poorly digestible due to indigestible raw starch. Potato juice from greenness-free tubers is considered traditionally safe in small amounts; self-medicating with potato juice for serious gastric complaints does not replace medical evaluation. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
+      "de": "ACHTUNG: Grüne Kartoffelknollen, Keime und alle oberirdischen Pflanzenteile (Blätter, Beeren) enthalten toxische Glykoalkaloide (Solanin, Chaconin). Verzehr grüner oder gekeimter Kartoffeln kann Übelkeit, Erbrechen, Bauchkrämpfe und in hohen Dosen neurologische Symptome verursachen. Grüne Stellen großzügig tief herausschneiden; stark gekeimte oder großflächig grüne Knollen entsorgen, nicht kochen. Rohe Kartoffeln sind wegen unverdaulicher Stärke schlecht bekömmlich. Kartoffelsaft aus grünfreien Knollen gilt in kleinen Mengen als traditionell unbedenklich; Eigenmedikation mit Kartoffelsaft bei ernsthaften Magenbeschwerden ersetzt keine ärztliche Abklärung. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig — gemeint sind Kraut, Keime und grüne Stellen der Knolle, gekochte grünfreie Kartoffel in kleinen Mengen gilt als unbedenklich. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "WARNING: Green potato tubers, sprouts and all above-ground plant parts (leaves, berries) contain toxic glycoalkaloids (solanine, chaconine). Consuming green or sprouted potatoes can cause nausea, vomiting, abdominal cramps and, in high doses, neurological symptoms. Cut out green patches generously and deeply; discard heavily sprouted or extensively green tubers — do not cook them. Raw potato is poorly digestible due to indigestible raw starch. Potato juice from greenness-free tubers is considered traditionally safe in small amounts; self-medicating with potato juice for serious gastric complaints does not replace medical evaluation. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats — the toxic parts are the foliage, sprouts and green patches on the tuber, while small amounts of cooked, green-free potato are considered harmless. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -234,6 +234,13 @@
         "toxic_dogs",
         "toxic_cats"
       ]
+    },
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "stark giftig ++",
+      "entry_name": "Solanum tuberosum L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0042_bot.htm"
     }
   },
   "classical_quotes": [],
@@ -299,6 +306,13 @@
       "type": "monograph",
       "title": "ASPCA Animal Poison Control — Deadly Nightshade (Solanum spp)",
       "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/deadly-nightshade",
+      "accessed": "2026-08-10"
+    },
+    {
+      "id": "src_clinitox_solanum_tuberosum",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Solanum tuberosum L.: stark giftig ++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0042_bot.htm",
       "accessed": "2026-08-10"
     }
   ],

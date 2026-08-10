@@ -2,7 +2,7 @@
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
-import { splitPetSafe, getPetCheck } from '@/lib/petSafety';
+import { splitPetSafe, getPetCheck, getToxNote } from '@/lib/petSafety';
 
 // === 2. DATA ===
 // Zwei Gruppen statt einer Liste: Was die ASPCA ausdrücklich als ungiftig
@@ -81,11 +81,18 @@ const description =
     </div>
 
     <h2 class="font-serif text-2xl text-slate-900 mt-12 mb-1">Ohne externe Prüfung</h2>
-    <p class="max-w-2xl text-sm text-slate-500 mb-4">
+    <p class="max-w-2xl text-sm text-slate-500 mb-2">
       {unchecked.length} Pflanzen. Uns sind keine Hinweise auf eine Gefahr für Hund oder Katze
       bekannt, und die ASPCA führt sie nicht — weder als giftig noch als ungiftig. Das ist
       kein Freibrief: Wer ein Tier hat, das an Pflanzen knabbert, fragt hier besser
       die Tierärztin.
+    </p>
+    <p class="max-w-2xl text-sm text-slate-500 mb-4">
+      Bei einigen steht ein gelber Hinweis. Diese Pflanzen führt die tiermedizinische
+      Datenbank CliniTox (Universität Zürich) mit einem allgemeinen Giftgrad. Der gilt für
+      Pflanzen allgemein, nicht eigens für Hund und Katze — Salbei steht dort als
+      „schwach giftig", während die ASPCA ihn ausdrücklich als ungiftig für Haustiere führt.
+      Deshalb steht der Grad als Hinweis da und nicht als Urteil.
     </p>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {unchecked.map(p => (
@@ -100,6 +107,12 @@ const description =
               <span class="rounded-full border border-slate-200 bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-500">
                 nicht extern geprüft
               </span>
+              {getToxNote(p) && (
+                <span class="rounded-full border border-amber-200 bg-amber-50 px-2 py-0.5 text-[11px] font-semibold text-amber-800"
+                  title={`CliniTox (Universität Zürich), abgerufen ${getToxNote(p)!.accessed}: ${getToxNote(p)!.entry_name} — ${getToxNote(p)!.grade}. Allgemeiner Giftgrad, kein Urteil über Hund und Katze.`}>
+                  Tiermedizin: {getToxNote(p)!.grade}
+                </span>
+              )}
             </div>
             <div class="text-xs italic text-slate-400">{p.names.latin}</div>
           </div>

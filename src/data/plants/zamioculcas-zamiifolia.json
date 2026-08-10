@@ -143,7 +143,14 @@
         "en": "Any internal use — strictly ornamental plant, no known folk medicine tradition."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "sehr stark giftig +++",
+      "entry_name": "Zamioculcas zamiifolia (hort. Lodd.) Engl.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0190_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -174,6 +181,13 @@
       "title": "RHS — Zamioculcas zamiifolia cultivation advice",
       "url": "https://www.rhs.org.uk/plants/92095/zamioculcas-zamiifolia/details",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_clinitox_zamioculcas_zamiifolia",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Zamioculcas zamiifolia (hort. Lodd.) Engl.: sehr stark giftig +++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0190_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

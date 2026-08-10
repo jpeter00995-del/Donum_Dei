@@ -231,7 +231,14 @@
         "de": "Schwere Niereninsuffizienz mit Kaliumrestriktion — Kaliumgehalt (ca. 379 mg/100 g) ärztlich abklären.",
         "en": "Severe renal failure with potassium restriction — consult a physician regarding potassium content (approx. 379 mg/100 g)."
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "giftig +",
+      "entry_name": "Beta vulgaris L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0065_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -276,6 +283,13 @@
       "title": "Betacyanins and Betaxanthins in Cultivated Varieties of Beta vulgaris L. Compared to Weed Beets (PMC7698878)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7698878/",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_clinitox_beta_vulgaris_cicla",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Beta vulgaris L.: giftig + (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0065_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

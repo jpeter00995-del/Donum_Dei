@@ -190,7 +190,14 @@
       }
     ],
     "drug_interactions": [],
-    "max_continuous_use_weeks": 2
+    "max_continuous_use_weeks": 2,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Fagus sylvatica L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0129_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -242,6 +249,13 @@
       "title": "Fagus sylvatica (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Fagus_sylvatica",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_clinitox_fagus_sylvatica",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Fagus sylvatica L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0129_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

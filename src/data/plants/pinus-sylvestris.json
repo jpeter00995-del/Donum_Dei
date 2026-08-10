@@ -236,7 +236,14 @@
         "severity": "monitor",
         "source_id": "src_arzneipflanzenlexikon_pinus"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Pinus sylvestris L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0073_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -281,6 +288,13 @@
       "title": "Scots Pine (Pinus sylvestris): How to Grow Your Own Medicine — Permaculture",
       "url": "https://www.permaculture.co.uk/articles/scots-pine-pinus-sylvestris-how-to-grow-your-own-medicine/",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_clinitox_pinus_sylvestris",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Pinus sylvestris L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0073_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -165,7 +165,14 @@
         "en": "Peptic ulcer and known skin photosensitivity."
       }
     ],
-    "max_continuous_use_weeks": 2
+    "max_continuous_use_weeks": 2,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "giftig +",
+      "entry_name": "Angelica archangelica L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0482_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -182,6 +189,13 @@
       "title": "Arznei-Engelwurz — Wikipedia (DE)",
       "url": "https://de.wikipedia.org/wiki/Arznei-Engelwurz",
       "accessed": "2026-06-03"
+    },
+    {
+      "id": "src_clinitox_angelica_archangelica",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Angelica archangelica L.: giftig + (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0482_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

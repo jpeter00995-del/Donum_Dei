@@ -94,7 +94,14 @@
     },
     "external_only": false,
     "toxicity_level": "toxic",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "stark giftig ++",
+      "entry_name": "Chelidonium majus L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0019_bot.htm"
+    }
   },
   "constituents": [
     {
@@ -152,6 +159,13 @@
       "title": "Greater Celandine – LiverTox: Drug-Induced Liver Injury (NIH)",
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK548684/",
       "accessed": "2026-06-24"
+    },
+    {
+      "id": "src_clinitox_chelidonium_majus",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Chelidonium majus L.: stark giftig ++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0019_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -226,7 +226,14 @@
         "source_id": "src_pmc7583039"
       }
     ],
-    "max_continuous_use_weeks": 4
+    "max_continuous_use_weeks": 4,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Artemisia vulgaris L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0521_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -257,6 +264,13 @@
       "title": "Significance of Artemisia vulgaris L. in the History of Medicine and Its Possible Contemporary Applications (PMC7583039)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7583039/",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_artemisia_vulgaris",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Artemisia vulgaris L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0521_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -348,7 +348,14 @@
         "en": "Lactation — therapeutic preparations; essential oil may pass into breast milk."
       }
     ],
-    "max_continuous_use_weeks": 4
+    "max_continuous_use_weeks": 4,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "giftig +",
+      "entry_name": "Juniperus communis L.s.l.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0130_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -407,6 +414,13 @@
       "title": "Juniperus communis (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Juniperus_communis",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_juniperus_communis",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Juniperus communis L.s.l.: giftig + (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0130_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

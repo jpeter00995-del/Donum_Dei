@@ -22,19 +22,30 @@
   "uses": [
     {
       "form": "raw",
-      "target": ["historical food (dangerous)"],
+      "target": [
+        "historical food (dangerous)"
+      ],
       "internal_external": "internal",
       "description": {
         "de": "Historisch wurde die Frühjahrslorchel in Teilen Nord- und Osteuropas nach mehrfachem Abkochen und Verwerfen des Kochwassers als Speisepilz gegessen. Dieses Verfahren entfernt nicht alle Gifte; die Pilze gelten als tödlich gefährlich, und der Verzehr wird heute dringend abgeraten.",
         "en": "Historically the false morel was eaten as a food mushroom in parts of Northern and Eastern Europe after repeated parboiling and discarding of the cooking water. This process does not remove all toxins; the mushrooms are considered deadly dangerous, and consumption is strongly discouraged today."
       },
-      "source_ids": ["wp_de", "wp_en"],
+      "source_ids": [
+        "wp_de",
+        "wp_en"
+      ],
       "plant_part": "whole_plant",
       "evidence_level": "folk"
     }
   ],
   "season": {
-    "active_months": [3, 4, 5, 6, 7],
+    "active_months": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
     "harvest_part": {
       "de": "Fruchtkörper",
       "en": "fruiting body"
@@ -47,7 +58,14 @@
     },
     "external_only": false,
     "toxicity_level": "toxic",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "sehr stark giftig +++",
+      "entry_name": "Gyromitra esculenta (Pers. ex Pers.) Fr.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0057_bot.htm"
+    }
   },
   "constituents": [
     {
@@ -97,6 +115,13 @@
       "title": "Gyromitra Mushroom Toxicity – StatPearls (NCBI Bookshelf)",
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK470580/",
       "accessed": "2026-06-24"
+    },
+    {
+      "id": "src_clinitox_gyromitra_esculenta",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Gyromitra esculenta (Pers. ex Pers.) Fr.: sehr stark giftig +++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0057_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

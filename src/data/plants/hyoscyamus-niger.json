@@ -277,7 +277,14 @@
         "source_id": "src_wp_scopolamine_hyoscyamus_niger"
       }
     ],
-    "max_continuous_use_weeks": 1
+    "max_continuous_use_weeks": 1,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "sehr stark giftig +++",
+      "entry_name": "Hyoscyamus niger L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0104_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -350,6 +357,13 @@
       "title": "Tropane alkaloids (hyoscyamine, scopolamine and atropine) from genus Datura: extractions, contents, syntheses and effects",
       "url": "https://doi.org/10.1016/j.indcrop.2022.115283",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_clinitox_hyoscyamus_niger",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Hyoscyamus niger L.: sehr stark giftig +++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0104_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

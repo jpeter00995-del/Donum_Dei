@@ -142,8 +142,8 @@
   },
   "safety": {
     "warnings": {
-      "de": "Rohe oder unreife Auberginen sind ungeeignet zum Verzehr — sie enthalten Solanin und Bitterstoffe, die Übelkeit und Verdauungsbeschwerden verursachen können. Vollständiges Garen (Braten, Dünsten, Backen) baut diese Verbindungen weitgehend ab. Blätter und Blüten enthalten höhere Solanin-Konzentrationen — nur externe Anwendung. Bei bekannter Allergie gegen Nachtschattengewächse (Solanaceae) oder Nickel-Allergie Aubergine mit Vorsicht konsumieren (Kreuzreaktion möglich). In seltenen Fällen wurden histaminbedingte Unverträglichkeitsreaktionen beschrieben. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig. Die ASPCA stuft die ganze Gattung so ein.",
-      "en": "Raw or unripe aubergines are unsuitable for consumption — they contain solanine and bitter compounds that can cause nausea and digestive complaints. Thorough cooking (frying, steaming, baking) largely breaks down these compounds. Leaves and flowers contain higher solanine concentrations — external use only. With known allergy to nightshades (Solanaceae) or nickel allergy, consume aubergine with caution (cross-reaction possible). Histamine-related intolerance reactions have been described in rare cases. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats. The ASPCA classifies the whole genus this way."
+      "de": "Rohe oder unreife Auberginen sind ungeeignet zum Verzehr — sie enthalten Solanin und Bitterstoffe, die Übelkeit und Verdauungsbeschwerden verursachen können. Vollständiges Garen (Braten, Dünsten, Backen) baut diese Verbindungen weitgehend ab. Blätter und Blüten enthalten höhere Solanin-Konzentrationen — nur externe Anwendung. Bei bekannter Allergie gegen Nachtschattengewächse (Solanaceae) oder Nickel-Allergie Aubergine mit Vorsicht konsumieren (Kreuzreaktion möglich). In seltenen Fällen wurden histaminbedingte Unverträglichkeitsreaktionen beschrieben. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig — gemeint sind Blätter und Blüten, gegartes Fruchtfleisch in kleinen Mengen gilt als unbedenklich. Die ASPCA stuft die ganze Gattung so ein.",
+      "en": "Raw or unripe aubergines are unsuitable for consumption — they contain solanine and bitter compounds that can cause nausea and digestive complaints. Thorough cooking (frying, steaming, baking) largely breaks down these compounds. Leaves and flowers contain higher solanine concentrations — external use only. With known allergy to nightshades (Solanaceae) or nickel allergy, consume aubergine with caution (cross-reaction possible). Histamine-related intolerance reactions have been described in rare cases. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats — the toxic parts are the leaves and flowers, while small amounts of cooked fruit flesh are considered harmless. The ASPCA classifies the whole genus this way."
     },
     "external_only": false,
     "toxicity_level": "caution",
@@ -190,6 +190,13 @@
         "toxic_dogs",
         "toxic_cats"
       ]
+    },
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Solanum melongena L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0431_bot.htm"
     }
   },
   "classical_quotes": [],
@@ -227,6 +234,13 @@
       "type": "monograph",
       "title": "ASPCA Animal Poison Control — Deadly Nightshade (Solanum spp)",
       "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/deadly-nightshade",
+      "accessed": "2026-08-10"
+    },
+    {
+      "id": "src_clinitox_solanum_melongena",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Solanum melongena L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0431_bot.htm",
       "accessed": "2026-08-10"
     }
   ],

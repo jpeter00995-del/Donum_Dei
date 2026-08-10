@@ -206,12 +206,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Innerliche Anwendung auf max. 3–4 Tage beschränken. Gerbstoffe können die Aufnahme gleichzeitig eingenommener Medikamente (besonders Alkaloide und basische Wirkstoffe) verzögern — Einnahme mit mind. 1 Stunde Abstand. Nicht bei ausgedehnten Hautwunden oder großflächigen Schleimhautläsionen anwenden.",
-      "en": "Internal use limited to max. 3–4 days. Tannins may delay absorption of concurrently administered medications (especially alkaloids and basic active substances) — take at least 1 hour apart. Do not use on extensive skin wounds or large mucosal lesions."
+      "de": "Innerliche Anwendung auf max. 3–4 Tage beschränken. Gerbstoffe können die Aufnahme gleichzeitig eingenommener Medikamente (besonders Alkaloide und basische Wirkstoffe) verzögern — Einnahme mit mind. 1 Stunde Abstand. Nicht bei ausgedehnten Hautwunden oder großflächigen Schleimhautläsionen anwenden. Für Hunde und Katzen giftig: Eichel- und Blattvergiftung beim Hund ist ein tiermedizinischer Standardfall (Gerbstoffe, Magen-Darm- und Nierenschäden). CliniTox: giftig +, Giftzentrale Bonn: gering giftig bis giftig.",
+      "en": "Internal use limited to max. 3–4 days. Tannins may delay absorption of concurrently administered medications (especially alkaloids and basic active substances) — take at least 1 hour apart. Do not use on extensive skin wounds or large mucosal lesions. Toxic to dogs and cats: Acorn and leaf poisoning in dogs is a standard veterinary case (tannins, gastrointestinal and kidney damage). CliniTox: toxic +, poison centre Bonn: slightly to moderately toxic."
     },
     "external_only": true,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "caution",
       "note": {
@@ -261,7 +261,14 @@
         "severity": "caution",
         "source_id": "src_komm_e_quercus"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "giftig +",
+      "entry_name": "Quercus robur L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0052_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -306,6 +313,13 @@
       "title": "Heilpflanzen: Eiche, Eichenrinde — awl.ch Heilpflanzen-Lexikon",
       "url": "https://www.awl.ch/heilpflanzen/quercus_robur/eiche.htm",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_clinitox_quercus_robur",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Quercus robur L.: giftig + (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0052_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

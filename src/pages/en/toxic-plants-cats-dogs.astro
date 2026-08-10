@@ -2,7 +2,7 @@
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
-import { petToxicPlants, splitPetSafe } from '@/lib/petSafety';
+import { petToxicPlants, splitPetSafe, petReason } from '@/lib/petSafety';
 
 // === 2. DATA ===
 // Nur extern belegte Alternativen empfehlen — siehe petSafety.ts.
@@ -13,10 +13,9 @@ const safe = splitPetSafe(all, locale)
   .checked.filter(p => p.indoor_growing?.suitable === true)
   .slice(0, 12);
 
+// Kurzer Grund = der Satz, der von Hund und Katze handelt (siehe petSafety.ts).
 function reason(p: typeof all[number]): string {
-  const w = p.safety?.warnings?.en ?? '';
-  const first = w.split(/(?<=[.!])\s/)[0] ?? '';
-  return first.length > 150 ? first.slice(0, 147).trimEnd() + '…' : first;
+  return petReason(p, locale);
 }
 function badge(p: typeof all[number]) {
   return p.safety?.toxicity_level === 'toxic'

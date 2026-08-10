@@ -360,7 +360,14 @@
         "en": "Planned surgery or invasive procedures: discontinue ginkgo preparations at least 2 weeks before the procedure (bleeding risk)."
       }
     ],
-    "max_continuous_use_weeks": 24
+    "max_continuous_use_weeks": 24,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "giftig +",
+      "entry_name": "Ginkgo biloba L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0483_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -419,6 +426,13 @@
       "title": "Ginkgo biloba (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Ginkgo_biloba",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_ginkgo_biloba",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Ginkgo biloba L.: giftig + (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0483_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -357,7 +357,14 @@
         "severity": "monitor",
         "source_id": "src_who_trigonella"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Trigonella foenum-graecum L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0629_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -416,6 +423,13 @@
       "title": "Fenugreek (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Fenugreek",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_trigonella_foenum_graecum",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Trigonella foenum-graecum L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0629_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

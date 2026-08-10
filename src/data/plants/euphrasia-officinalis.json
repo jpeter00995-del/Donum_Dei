@@ -192,7 +192,14 @@
         "en": "Infectious eye conditions — treat exclusively under medical supervision."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Euphrasia rostkoviana Hayne s.l.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0558_bot.htm"
+    }
   },
   "classical_quotes": [
     {
@@ -240,6 +247,13 @@
       "title": "Arzneipflanzenlexikon — Euphrasia officinalis (medicinal use, dosage, interactions)",
       "url": "https://arzneipflanzenlexikon.info/en/euphrasia-officinalis.php",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_euphrasia_officinalis",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Euphrasia rostkoviana Hayne s.l.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0558_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

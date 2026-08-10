@@ -387,7 +387,14 @@
         "en": "Severe immunosuppression or active autoimmune disease (elderberry products may stimulate immune activity — medical consultation required)."
       }
     ],
-    "max_continuous_use_weeks": 1
+    "max_continuous_use_weeks": 1,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "giftig +",
+      "entry_name": "Sambucus nigra L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0150_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -446,6 +453,13 @@
       "title": "Sambucus nigra (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Sambucus_nigra",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_sambucus_nigra",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Sambucus nigra L.: giftig + (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0150_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -227,7 +227,14 @@
         "severity": "caution"
       }
     ],
-    "max_continuous_use_weeks": 4
+    "max_continuous_use_weeks": 4,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Petroselinum crispum (Mill.) Fuss",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0681_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -292,6 +299,13 @@
       "type": "monograph",
       "title": "ASPCA Animal Poison Control — Parsley (Petroselinum crispum): Toxic to Dogs, Toxic to Cats, Toxic to Horses",
       "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/parsley",
+      "accessed": "2026-08-10"
+    },
+    {
+      "id": "src_clinitox_petroselinum_crispum_tuberosum",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Petroselinum crispum (Mill.) Fuss: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0681_bot.htm",
       "accessed": "2026-08-10"
     }
   ],

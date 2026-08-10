@@ -385,7 +385,14 @@
         "source_id": "src_wichtl_teedrogen"
       }
     ],
-    "max_continuous_use_weeks": 2
+    "max_continuous_use_weeks": 2,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Verbena officinalis L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0535_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -444,6 +451,13 @@
       "title": "Verbena officinalis (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Verbena_officinalis",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_verbena_officinalis",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Verbena officinalis L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0535_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

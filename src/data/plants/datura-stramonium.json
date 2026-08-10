@@ -344,7 +344,14 @@
         "severity": "caution",
         "source_id": "src_batista_2021_datura_stramonium"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "sehr stark giftig +++",
+      "entry_name": "Datura stramonium L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0026_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -395,6 +402,13 @@
       "url": "https://doi.org/10.1016/S2221-1691(13)60014-3",
       "accessed": "2026-05-26",
       "language": "en"
+    },
+    {
+      "id": "src_clinitox_datura_stramonium",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Datura stramonium L.: sehr stark giftig +++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0026_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

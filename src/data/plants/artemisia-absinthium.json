@@ -21,43 +21,62 @@
   "uses": [
     {
       "form": "tea",
-      "target": ["loss of appetite", "dyspeptic complaints"],
+      "target": [
+        "loss of appetite",
+        "dyspeptic complaints"
+      ],
       "internal_external": "internal",
       "description": {
         "de": "Als Bittertee aus dem getrockneten blühenden Kraut kurz vor den Mahlzeiten getrunken, um Appetit und Verdauung anzuregen.",
         "en": "Taken as a bitter tea from the dried flowering herb shortly before meals to stimulate appetite and digestion."
       },
-      "source_ids": ["ema-hmpc"],
+      "source_ids": [
+        "ema-hmpc"
+      ],
       "plant_part": "aerial_parts",
       "evidence_level": "ema_well_established"
     },
     {
       "form": "tincture",
-      "target": ["loss of appetite", "dyspeptic complaints"],
+      "target": [
+        "loss of appetite",
+        "dyspeptic complaints"
+      ],
       "internal_external": "internal",
       "description": {
         "de": "Alkoholischer Auszug (Wermuttinktur), tropfenweise in Wasser eingenommen, als konzentriertes Magenbittermittel bei Appetitlosigkeit und Verdauungsbeschwerden.",
         "en": "An alcoholic extract (wormwood tincture), taken drop-wise in water as a concentrated digestive bitter for poor appetite and dyspeptic complaints."
       },
-      "source_ids": ["ema-hmpc"],
+      "source_ids": [
+        "ema-hmpc"
+      ],
       "plant_part": "aerial_parts",
       "evidence_level": "ema_well_established"
     },
     {
       "form": "spice",
-      "target": ["flavouring of bitter liqueurs and vermouth", "digestive aperitif"],
+      "target": [
+        "flavouring of bitter liqueurs and vermouth",
+        "digestive aperitif"
+      ],
       "internal_external": "internal",
       "description": {
         "de": "Traditionell zum Würzen und Aromatisieren von Bitterlikören und Wermutwein (Vermouth) sowie als verdauungsfördernder Aperitif verwendet.",
         "en": "Traditionally used to flavour bitter liqueurs and vermouth wine and as a digestive aperitif."
       },
-      "source_ids": ["wiki-de"],
+      "source_ids": [
+        "wiki-de"
+      ],
       "plant_part": "aerial_parts",
       "evidence_level": "traditional"
     }
   ],
   "season": {
-    "active_months": [7, 8, 9],
+    "active_months": [
+      7,
+      8,
+      9
+    ],
     "harvest_part": {
       "de": "Blühende Triebspitzen und Kraut, gesammelt zur Blütezeit im Hochsommer",
       "en": "Flowering shoot tips and herb, gathered at flowering time in mid to late summer"
@@ -70,7 +89,14 @@
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "giftig +",
+      "entry_name": "Artemisia absinthium L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0520_bot.htm"
+    }
   },
   "constituents": [
     {
@@ -128,6 +154,13 @@
       "title": "European Union herbal monograph on Artemisia absinthium L., herba – EMA/HMPC",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/absinthii-herba",
       "accessed": "2026-06-24"
+    },
+    {
+      "id": "src_clinitox_artemisia_absinthium",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Artemisia absinthium L.: giftig + (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0520_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

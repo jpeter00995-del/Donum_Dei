@@ -210,7 +210,14 @@
         "de": "Bei Heimtieren (Hund, Katze): Wirsing in größeren rohen Mengen kann zu Blähungen und Verdauungsbeschwerden führen; bei sehr hohen Dosen wurden bei Hunden in Einzelfällen hämolytische Effekte beschrieben. Kleine Mengen gegart sind unbedenklich; rohe Verfütterung in größeren Mengen ist nicht empfohlen.",
         "en": "In pets (dogs, cats): savoy in larger raw amounts can cause flatulence and digestive complaints; at very high doses haemolytic effects have been described in isolated canine cases. Small cooked amounts are unproblematic; raw feeding in larger amounts is not recommended."
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Brassica oleracea L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -255,6 +262,13 @@
       "title": "Lauche R et al. Efficacy of cabbage leaf wraps in the treatment of symptomatic osteoarthritis of the knee — a randomized controlled trial. Clin J Pain. 2016;32(11):961-971.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/26889617/",
       "accessed": "2026-05-27"
+    },
+    {
+      "id": "src_clinitox_brassica_oleracea_sabauda",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Brassica oleracea L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

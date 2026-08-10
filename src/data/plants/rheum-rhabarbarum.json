@@ -167,12 +167,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "Rhabarber-Blätter sind GIFTIG (hohe Oxalsäure- und Anthrachinonkonzentration) — niemals essen. Der Stiel (Gemüse) ist gegart unbedenklich, jedoch bei Nierensteinleiden (Calciumoxalatsteine), Niereninsuffizienz oder Arthritis wegen Oxalsäure meiden bzw. einschränken. Rhabarberwurzel (Anthrachinon-Laxans): nicht länger als 1–2 Wochen ohne ärztliche Aufsicht. Chronischer Gebrauch von Anthrachinon-Laxantien führt zu Elektrolytverlusten (Kaliummangel), Pseudomelanosis coli und Laxans-Abhängigkeit. Rhabarberwurzel-Anthrachinone sind mutmaßlich genotoxisch und karzinogen bei Langzeiteinsatz (EFSA/BfR-Bewertung zu Emodin 2018/2021).",
-      "en": "Rhubarb leaves are TOXIC (high oxalic acid and anthraquinone concentration) — never eat. The stalk (vegetable) is safe when cooked, but should be avoided or restricted in kidney stone disease (calcium oxalate stones), renal insufficiency, or arthritis due to oxalic acid. Rhubarb root (anthraquinone laxative): do not use for more than 1–2 weeks without medical supervision. Chronic use of anthraquinone laxatives leads to electrolyte losses (potassium depletion), pseudomelanosis coli, and laxative dependency. Rhubarb root anthraquinones are suspected genotoxic and carcinogenic with long-term use (EFSA/BfR assessment of emodin 2018/2021)."
+      "de": "Rhabarber-Blätter sind GIFTIG (hohe Oxalsäure- und Anthrachinonkonzentration) — niemals essen. Der Stiel (Gemüse) ist gegart unbedenklich, jedoch bei Nierensteinleiden (Calciumoxalatsteine), Niereninsuffizienz oder Arthritis wegen Oxalsäure meiden bzw. einschränken. Rhabarberwurzel (Anthrachinon-Laxans): nicht länger als 1–2 Wochen ohne ärztliche Aufsicht. Chronischer Gebrauch von Anthrachinon-Laxantien führt zu Elektrolytverlusten (Kaliummangel), Pseudomelanosis coli und Laxans-Abhängigkeit. Rhabarberwurzel-Anthrachinone sind mutmaßlich genotoxisch und karzinogen bei Langzeiteinsatz (EFSA/BfR-Bewertung zu Emodin 2018/2021). ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde giftig.",
+      "en": "Rhubarb leaves are TOXIC (high oxalic acid and anthraquinone concentration) — never eat. The stalk (vegetable) is safe when cooked, but should be avoided or restricted in kidney stone disease (calcium oxalate stones), renal insufficiency, or arthritis due to oxalic acid. Rhubarb root (anthraquinone laxative): do not use for more than 1–2 weeks without medical supervision. Chronic use of anthraquinone laxatives leads to electrolyte losses (potassium depletion), pseudomelanosis coli, and laxative dependency. Rhubarb root anthraquinones are suspected genotoxic and carcinogenic with long-term use (EFSA/BfR assessment of emodin 2018/2021). ASPCA classification (accessed 2026-08-10): toxic to dogs."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "contraindicated",
       "note": {
@@ -245,7 +245,24 @@
         "source_id": "src_emodin_efsa"
       }
     ],
-    "max_continuous_use_weeks": 2
+    "max_continuous_use_weeks": 2,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "pie-plant",
+      "entry_name": "Pie Plant",
+      "listing": [
+        "toxic_dogs"
+      ]
+    },
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Rheum rhabarbarum L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0142_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -283,6 +300,20 @@
       "title": "Plants For A Future (PFAF): Rheum rhabarbarum — Rhubarb",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Rheum+rhabarbarum",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_aspca_pie_plant",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Pie Plant (Rheum rhabarbarium)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/pie-plant",
+      "accessed": "2026-08-10"
+    },
+    {
+      "id": "src_clinitox_rheum_rhabarbarum",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Rheum rhabarbarum L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0142_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

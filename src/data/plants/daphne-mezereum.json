@@ -254,7 +254,14 @@
         "severity": "avoid",
         "source_id": "src_wp_de_daphne_mezereum"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "sehr stark giftig +++",
+      "entry_name": "Daphne mezereum L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0025_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -313,6 +320,13 @@
       "url": "https://www.henriettes-herb.com/eclectic/kings/daphne-meze.html",
       "accessed": "2026-05-26",
       "language": "en"
+    },
+    {
+      "id": "src_clinitox_daphne_mezereum",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Daphne mezereum L.: sehr stark giftig +++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0025_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

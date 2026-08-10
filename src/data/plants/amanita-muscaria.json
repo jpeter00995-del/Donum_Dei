@@ -77,7 +77,14 @@
     },
     "external_only": false,
     "toxicity_level": "toxic",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "stark giftig ++",
+      "entry_name": "Amanita muscaria (L.) Lam.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0005_bot.htm"
+    }
   },
   "constituents": [
     {
@@ -135,6 +142,13 @@
       "title": "FDA — Letter to Industry on the Use of Amanita Muscaria or its Constituents in Food",
       "url": "https://www.fda.gov/food/post-market-determinations-use-substance-not-gras/letter-industry-use-amanita-muscaria-or-its-constituents-food",
       "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_clinitox_amanita_muscaria",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Amanita muscaria (L.) Lam.: stark giftig ++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0005_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

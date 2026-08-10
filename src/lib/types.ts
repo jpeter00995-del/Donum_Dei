@@ -143,6 +143,23 @@ export type PetCheck = {
   listing: Array<'toxic_dogs' | 'toxic_cats' | 'non_toxic_dogs' | 'non_toxic_cats'>;
 };
 
+/**
+ * Toxicity grade from the CliniTox plant database (Vetsuisse Zurich).
+ * This is a general plant-toxicity grade, NOT a dog/cat verdict — sage is
+ * listed as slightly toxic there while the ASPCA calls it non-toxic to pets.
+ * Shown as a sourced note, never used to derive `pet_toxic`.
+ * (Allgemeiner Giftgrad, kein Hund/Katze-Urteil.)
+ */
+export type ToxNote = {
+  source: 'clinitox';
+  accessed: string;
+  /** Original wording, e.g. `schwach giftig (+)`. */
+  grade: string;
+  /** Name of the CliniTox entry, e.g. `Salvia officinalis L.`. */
+  entry_name: string;
+  url: string;
+};
+
 export type PlantSafety = {
   warnings: LocalizedString;
   external_only: boolean;
@@ -168,6 +185,11 @@ export type PlantSafety = {
    * (Beleg für `pet_toxic`. Fehlt er, ist die Angabe nicht extern geprüft.)
    */
   pet_check?: PetCheck;
+  /**
+   * Toxicity grade from the veterinary CliniTox database, as a sourced note.
+   * (Hinweis aus der Tiermedizin-Datenbank, mit Quelle.)
+   */
+  tox_note?: ToxNote;
   // === Welle O.1 — Strukturierte Risiko-Felder, alle optional ===
   /** Anwendung in Schwangerschaft. */
   pregnancy?: SafetyDetail;

@@ -125,12 +125,30 @@
   },
   "safety": {
     "warnings": {
-      "de": "Psychoaktiv durch THC; akute Wirkungen umfassen Schwindel, Müdigkeit, Erbrechen und Halluzinationen. Höhere Dosen und früher Konsum erhöhen das Psychose-Risiko (besonders bei genetischer Veranlagung) und können die kognitive Entwicklung bei Jugendlichen beeinträchtigen. Regelmäßiger Gebrauch kann zu Abhängigkeit und Entzugssymptomen führen; selten tritt ein Cannabinoid-Hyperemesis-Syndrom auf. Wechselwirkungen mit sedierenden Medikamenten möglich. Kein Konsum in Schwangerschaft/Stillzeit.",
-      "en": "Psychoactive through THC; acute effects include dizziness, tiredness, vomiting and hallucinations. Higher doses and early-life use raise the risk of psychosis (especially with genetic predisposition) and may impair cognitive development in adolescents. Regular use can cause dependence and withdrawal symptoms; rarely a cannabinoid hyperemesis syndrome occurs. Interactions with sedative medication are possible. Not for use in pregnancy/breastfeeding."
+      "de": "Psychoaktiv durch THC; akute Wirkungen umfassen Schwindel, Müdigkeit, Erbrechen und Halluzinationen. Höhere Dosen und früher Konsum erhöhen das Psychose-Risiko (besonders bei genetischer Veranlagung) und können die kognitive Entwicklung bei Jugendlichen beeinträchtigen. Regelmäßiger Gebrauch kann zu Abhängigkeit und Entzugssymptomen führen; selten tritt ein Cannabinoid-Hyperemesis-Syndrom auf. Wechselwirkungen mit sedierenden Medikamenten möglich. Kein Konsum in Schwangerschaft/Stillzeit. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde und Katzen giftig.",
+      "en": "Psychoactive through THC; acute effects include dizziness, tiredness, vomiting and hallucinations. Higher doses and early-life use raise the risk of psychosis (especially with genetic predisposition) and may impair cognitive development in adolescents. Regular use can cause dependence and withdrawal symptoms; rarely a cannabinoid hyperemesis syndrome occurs. Interactions with sedative medication are possible. Not for use in pregnancy/breastfeeding. ASPCA classification (accessed 2026-08-10): toxic to dogs and cats."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "pet_check": {
+      "source": "aspca",
+      "accessed": "2026-08-10",
+      "match": "species",
+      "entry": "hashish",
+      "entry_name": "Hashish",
+      "listing": [
+        "toxic_dogs",
+        "toxic_cats"
+      ]
+    },
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "giftig +",
+      "entry_name": "Cannabis sativa L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0018_bot.htm"
+    }
   },
   "constituents": [
     {
@@ -217,6 +235,20 @@
       "title": "File:Cannabis sativa 001.JPG — Wikimedia Commons",
       "url": "https://commons.wikimedia.org/wiki/File:Cannabis_sativa_001.JPG",
       "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_aspca_hashish",
+      "type": "monograph",
+      "title": "ASPCA Animal Poison Control — Hashish (Cannabis sativa)",
+      "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/hashish",
+      "accessed": "2026-08-10"
+    },
+    {
+      "id": "src_clinitox_cannabis_sativa",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Cannabis sativa L.: giftig + (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0018_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -365,7 +365,14 @@
         "en": "Hormone-sensitive conditions (breast cancer, uterine cancer, endometriosis, uterine fibroids) — silymarin may exhibit weak oestrogenic activity; clinical significance uncertain, caution advised."
       }
     ],
-    "max_continuous_use_weeks": 2
+    "max_continuous_use_weeks": 2,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "giftig +",
+      "entry_name": "Silybum marianum (L.) Gaertn.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0541_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -431,6 +438,13 @@
       "title": "Madaus, Gerhard — Lehrbuch der biologischen Heilmittel, Band II: Carduus marianus (Mariendistel), 1938 (Public Domain)",
       "url": "https://www.henriettes-herb.com/eclectic/madaus/carduus-marianus.html",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_silybum_marianum",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Silybum marianum (L.) Gaertn.: giftig + (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0541_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

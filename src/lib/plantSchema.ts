@@ -127,12 +127,22 @@ export const petCheckSchema = z.object({
     .min(1),
 });
 
+// Giftgrad aus der Tiermedizin-Datenbank CliniTox (siehe clinitox_holen.py).
+export const toxNoteSchema = z.object({
+  source: z.literal('clinitox'),
+  accessed: z.string().min(1),
+  grade: z.string().min(1),
+  entry_name: z.string().min(1),
+  url: z.string().min(1),
+});
+
 export const plantSafetySchema = z.object({
   warnings: localizedString,
   external_only: z.boolean(),
   toxicity_level: toxicityLevel.optional(),
   pet_toxic: z.boolean().optional(),
   pet_check: petCheckSchema.optional(),
+  tox_note: toxNoteSchema.optional(),
   pregnancy: safetyDetailSchema.optional(),
   lactation: safetyDetailSchema.optional(),
   children: safetyDetailSchema.optional(),

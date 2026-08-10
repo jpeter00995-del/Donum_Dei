@@ -22,19 +22,31 @@
   "uses": [
     {
       "form": "raw",
-      "target": ["none", "poisonous"],
+      "target": [
+        "none",
+        "poisonous"
+      ],
       "internal_external": "internal",
       "description": {
         "de": "Kein Speise- oder Heilwert — verantwortlich für die meisten tödlichen Pilzvergiftungen. Rein dokumentarische Angabe, ausdrücklich keine Anwendung.",
         "en": "No culinary or medicinal value — responsible for most fatal mushroom poisonings. Documentary note only, explicitly not a use."
       },
-      "source_ids": ["wiki-de", "wiki-en"],
+      "source_ids": [
+        "wiki-de",
+        "wiki-en"
+      ],
       "plant_part": "whole_plant",
       "evidence_level": "folk"
     }
   ],
   "season": {
-    "active_months": [7, 8, 9, 10, 11],
+    "active_months": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
     "harvest_part": {
       "de": "Fruchtkörper",
       "en": "fruiting body"
@@ -47,7 +59,14 @@
     },
     "external_only": false,
     "toxicity_level": "toxic",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "sehr stark giftig +++",
+      "entry_name": "Amanita phalloides (Vaill. ex Fr.) Link",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0006_bot.htm"
+    }
   },
   "constituents": [
     {
@@ -97,6 +116,13 @@
       "title": "Amanita phalloides-Associated Liver Failure: Mechanisms and Management (Int. J. Mol. Sci. 2024)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11640968/",
       "accessed": "2026-06-24"
+    },
+    {
+      "id": "src_clinitox_amanita_phalloides",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Amanita phalloides (Vaill. ex Fr.) Link: sehr stark giftig +++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0006_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

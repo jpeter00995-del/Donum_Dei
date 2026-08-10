@@ -305,7 +305,14 @@
         "severity": "avoid",
         "source_id": "src_wp_vismodegib_veratrum_album"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "sehr stark giftig +++",
+      "entry_name": "Veratrum album L.s.l.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0055_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -364,6 +371,13 @@
       "url": "https://en.wikipedia.org/wiki/Vismodegib",
       "accessed": "2026-05-26",
       "language": "en"
+    },
+    {
+      "id": "src_clinitox_veratrum_album",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Veratrum album L.s.l.: sehr stark giftig +++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0055_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

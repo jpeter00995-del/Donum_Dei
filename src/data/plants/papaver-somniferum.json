@@ -129,7 +129,14 @@
     },
     "external_only": false,
     "toxicity_level": "toxic",
-    "pet_toxic": true
+    "pet_toxic": true,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "stark giftig ++",
+      "entry_name": "Papaver somniferum L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0078_bot.htm"
+    }
   },
   "constituents": [
     {
@@ -241,6 +248,13 @@
       "title": "File:Papaver somniferum FotoTakkk Hungary.jpg - Wikimedia Commons",
       "url": "https://commons.wikimedia.org/wiki/File:Papaver_somniferum_FotoTakkk_Hungary.jpg",
       "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_clinitox_papaver_somniferum",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Papaver somniferum L.: stark giftig ++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0078_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

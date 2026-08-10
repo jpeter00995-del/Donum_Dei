@@ -220,7 +220,14 @@
         "de": "Schwere Schilddrüsenerkrankungen mit Jodbedarf — große Mengen rohes Kreuzblütler-Gemüse ärztlich abklären.",
         "en": "Severe thyroid disorders with iodine requirement — consult a physician regarding large amounts of raw cruciferous vegetables."
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Brassica oleracea L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -265,6 +272,13 @@
       "title": "Plants For A Future (PFAF) — Brassica oleracea botrytis database entry",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Brassica+oleracea+var.+botrytis",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_clinitox_brassica_oleracea_botrytis",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Brassica oleracea L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

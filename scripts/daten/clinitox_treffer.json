@@ -1,0 +1,4058 @@
+{
+ "quelle": "https://www.vetpharm.uzh.ch/perl/gplquery.pl",
+ "quelle_name": "CliniTox / Arznei- und Giftpflanzen-Datenbank, Institut fuer Veterinaerpharmakologie und -toxikologie, Universitaet Zuerich",
+ "abgerufen": "2026-08-10",
+ "hinweis": "Keine Ungiftig-Liste. Fehlender Eintrag ist kein Beleg fuer Unbedenklichkeit.",
+ "pflanzen": [
+  {
+   "slug": "achillea-millefolium",
+   "latein": "Achillea millefolium",
+   "gesucht": "Achillea millefolium",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Achillea millefolium aggr."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "aconitum-napellus",
+   "latein": "Aconitum napellus",
+   "gesucht": "Aconitum napellus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Aconitum napellus aggr."
+   ],
+   "pflanzengift_db": [
+    "Aconitum sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Aconitum napellus aggr.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0004_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "actaea-racemosa",
+   "latein": "Actaea racemosa",
+   "gesucht": "Actaea racemosa",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Actaea racemosa L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "aegopodium-podagraria",
+   "latein": "Aegopodium podagraria",
+   "gesucht": "Aegopodium podagraria",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "aerva-lanata",
+   "latein": "Aerva lanata",
+   "gesucht": "Aerva lanata",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "aesculus-hippocastanum",
+   "latein": "Aesculus hippocastanum",
+   "gesucht": "Aesculus hippocastanum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Aesculus hippocastanum L."
+   ],
+   "pflanzengift_db": [
+    "Aesculus hippocastanum"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Aesculus hippocastanum L.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0008_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "aglaonema-commutatum",
+   "latein": "Aglaonema commutatum",
+   "gesucht": "Aglaonema commutatum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Aglaonema commutatum Schott."
+   ],
+   "pflanzengift_db": [
+    "Aglaonema commutatum"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Aglaonema commutatum Schott.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0109_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "agrimonia-eupatoria",
+   "latein": "Agrimonia eupatoria",
+   "gesucht": "Agrimonia eupatoria",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Agrimonia eupatoria L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "alchemilla-vulgaris",
+   "latein": "Alchemilla vulgaris",
+   "gesucht": "Alchemilla vulgaris",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Alchemilla vulgaris L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "allium-cepa",
+   "latein": "Allium cepa",
+   "gesucht": "Allium cepa",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Allium cepa L."
+   ],
+   "pflanzengift_db": [
+    "Allium sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Allium cepa L.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0049_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "allium-porrum",
+   "latein": "Allium porrum",
+   "gesucht": "Allium porrum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "allium-sativum",
+   "latein": "Allium sativum",
+   "gesucht": "Allium sativum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Allium sativum L."
+   ],
+   "pflanzengift_db": [
+    "Allium sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Allium sativum L.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0048_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "allium-schoenoprasum",
+   "latein": "Allium schoenoprasum",
+   "gesucht": "Allium schoenoprasum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Allium schoenoprasum L."
+   ],
+   "pflanzengift_db": [
+    "Allium sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Allium schoenoprasum L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0225_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "allium-ursinum",
+   "latein": "Allium ursinum",
+   "gesucht": "Allium ursinum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Allium ursinum L."
+   ],
+   "pflanzengift_db": [
+    "Allium sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Allium ursinum L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0177_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "aloe-vera",
+   "latein": "Aloe vera",
+   "gesucht": "Aloe vera",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Aloe vera (L.) Burm.f."
+   ],
+   "pflanzengift_db": [
+    "Alo&#235; sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Aloe vera (L.) Burm.f.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0120_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "aloysia-citrodora",
+   "latein": "Aloysia citrodora",
+   "gesucht": "Aloysia citrodora",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "althaea-officinalis",
+   "latein": "Althaea officinalis",
+   "gesucht": "Althaea officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Althaea officinalis L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "amanita-muscaria",
+   "latein": "Amanita muscaria",
+   "gesucht": "Amanita muscaria",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Amanita muscaria (L.) Lam."
+   ],
+   "pflanzengift_db": [
+    "Amanita muscaria"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Amanita muscaria (L.) Lam.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0005_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "amanita-pantherina",
+   "latein": "Amanita pantherina",
+   "gesucht": "Amanita pantherina",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Amanita pantherina var. pantherina (DC. ex Fr.) Krombh."
+   ],
+   "pflanzengift_db": [
+    "Amanita pantherina"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Amanita pantherina var. pantherina (DC. ex Fr.) Krombh.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0012_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "amanita-phalloides",
+   "latein": "Amanita phalloides",
+   "gesucht": "Amanita phalloides",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Amanita phalloides (Vaill. ex Fr.) Link"
+   ],
+   "pflanzengift_db": [
+    "Amanita phalloides"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Amanita phalloides (Vaill. ex Fr.) Link": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0006_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "anethum-graveolens",
+   "latein": "Anethum graveolens",
+   "gesucht": "Anethum graveolens",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "angelica-archangelica",
+   "latein": "Angelica archangelica",
+   "gesucht": "Angelica archangelica",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Angelica archangelica L."
+   ],
+   "pflanzengift_db": [
+    "Apiaceae"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Angelica archangelica L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0482_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "anthurium-andraeanum",
+   "latein": "Anthurium andraeanum",
+   "gesucht": "Anthurium andraeanum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "apium-graveolens-rapaceum",
+   "latein": "Apium graveolens var. rapaceum",
+   "gesucht": "Apium graveolens",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Apium graveolens L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "apium-graveolens",
+   "latein": "Apium graveolens",
+   "gesucht": "Apium graveolens",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Apium graveolens L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "aristolochia-clematitis",
+   "latein": "Aristolochia clematitis",
+   "gesucht": "Aristolochia clematitis",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "arnica-montana",
+   "latein": "Arnica montana",
+   "gesucht": "Arnica montana",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Arnica montana L."
+   ],
+   "pflanzengift_db": [
+    "Arnica montana"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Arnica montana L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0486_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "artemisia-absinthium",
+   "latein": "Artemisia absinthium",
+   "gesucht": "Artemisia absinthium",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Artemisia absinthium L."
+   ],
+   "pflanzengift_db": [
+    "Artemisia sp."
+   ],
+   "kleintier_monografien": [
+    "Ätherische Öle"
+   ],
+   "giftgrade": {
+    "Artemisia absinthium L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0520_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "artemisia-dracunculus",
+   "latein": "Artemisia dracunculus",
+   "gesucht": "Artemisia dracunculus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [
+    "Ätherische Öle"
+   ],
+   "giftgrade": {}
+  },
+  {
+   "slug": "artemisia-vulgaris",
+   "latein": "Artemisia vulgaris",
+   "gesucht": "Artemisia vulgaris",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Artemisia vulgaris L."
+   ],
+   "pflanzengift_db": [
+    "Artemisia sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Artemisia vulgaris L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0521_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "atropa-belladonna",
+   "latein": "Atropa belladonna",
+   "gesucht": "Atropa belladonna",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Atropa bella-donna L."
+   ],
+   "pflanzengift_db": [
+    "Atropa belladonna"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Atropa bella-donna L.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0014_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "avena-sativa",
+   "latein": "Avena sativa",
+   "gesucht": "Avena sativa",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "bellis-perennis",
+   "latein": "Bellis perennis",
+   "gesucht": "Bellis perennis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "beta-vulgaris-cicla",
+   "latein": "Beta vulgaris subsp. vulgaris var. cicla",
+   "gesucht": "Beta vulgaris",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Beta vulgaris L."
+   ],
+   "pflanzengift_db": [
+    "Beta vulgaris"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Beta vulgaris L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0065_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "beta-vulgaris-conditiva",
+   "latein": "Beta vulgaris subsp. vulgaris var. conditiva",
+   "gesucht": "Beta vulgaris",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Beta vulgaris L."
+   ],
+   "pflanzengift_db": [
+    "Beta vulgaris"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Beta vulgaris L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0065_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "betula-pendula",
+   "latein": "Betula pendula",
+   "gesucht": "Betula pendula",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Betula pendula Roth"
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "bistorta-officinalis",
+   "latein": "Bistorta officinalis",
+   "gesucht": "Bistorta officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "boletus-edulis",
+   "latein": "Boletus edulis",
+   "gesucht": "Boletus edulis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "borago-officinalis",
+   "latein": "Borago officinalis",
+   "gesucht": "Borago officinalis",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "boswellia-serrata",
+   "latein": "Boswellia serrata",
+   "gesucht": "Boswellia serrata",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Boswellia serrata Roxb. ex Colebr."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "brassica-oleracea-botrytis",
+   "latein": "Brassica oleracea var. botrytis",
+   "gesucht": "Brassica oleracea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Brassica oleracea L."
+   ],
+   "pflanzengift_db": [
+    "Brassica sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Brassica oleracea L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "brassica-oleracea-capitata-alba",
+   "latein": "Brassica oleracea convar. capitata var. alba",
+   "gesucht": "Brassica oleracea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Brassica oleracea L."
+   ],
+   "pflanzengift_db": [
+    "Brassica sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Brassica oleracea L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "brassica-oleracea-capitata-rubra",
+   "latein": "Brassica oleracea convar. capitata var. rubra",
+   "gesucht": "Brassica oleracea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Brassica oleracea L."
+   ],
+   "pflanzengift_db": [
+    "Brassica sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Brassica oleracea L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "brassica-oleracea-gemmifera",
+   "latein": "Brassica oleracea var. gemmifera",
+   "gesucht": "Brassica oleracea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Brassica oleracea L."
+   ],
+   "pflanzengift_db": [
+    "Brassica sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Brassica oleracea L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "brassica-oleracea-gongylodes",
+   "latein": "Brassica oleracea var. gongylodes",
+   "gesucht": "Brassica oleracea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Brassica oleracea L."
+   ],
+   "pflanzengift_db": [
+    "Brassica sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Brassica oleracea L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "brassica-oleracea-italica",
+   "latein": "Brassica oleracea var. italica",
+   "gesucht": "Brassica oleracea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Brassica oleracea L."
+   ],
+   "pflanzengift_db": [
+    "Brassica sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Brassica oleracea L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "brassica-oleracea-sabauda",
+   "latein": "Brassica oleracea convar. capitata var. sabauda",
+   "gesucht": "Brassica oleracea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Brassica oleracea L."
+   ],
+   "pflanzengift_db": [
+    "Brassica sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Brassica oleracea L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "brugmansia-arborea",
+   "latein": "Brugmansia arborea",
+   "gesucht": "Brugmansia arborea",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "buxus-sempervirens",
+   "latein": "Buxus sempervirens",
+   "gesucht": "Buus sempervirens",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "calendula-officinalis",
+   "latein": "Calendula officinalis",
+   "gesucht": "Calendula officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Calendula officinalis L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "camellia-sinensis",
+   "latein": "Camellia sinensis",
+   "gesucht": "Camellia sinensis",
+   "pet_toxic": null,
+   "giftpflanzen_db": [
+    "Camellia sinensis (L.) Kuntze"
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "cannabis-sativa",
+   "latein": "Cannabis sativa L.",
+   "gesucht": "Cannabis sativa",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Cannabis sativa L."
+   ],
+   "pflanzengift_db": [
+    "Cannabis sativa"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Cannabis sativa L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0018_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "capsella-bursa-pastoris",
+   "latein": "Capsella bursa-pastoris",
+   "gesucht": "Capsella bursa-pastoris",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "capsicum-annuum",
+   "latein": "Capsicum annuum",
+   "gesucht": "Capsicum annuum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Capsicum annuum L."
+   ],
+   "pflanzengift_db": [
+    "Capsicum sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Capsicum annuum L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0430_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "capsicum-chinense",
+   "latein": "Capsicum chinense",
+   "gesucht": "Capsicum chinense",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "carpinus-betulus",
+   "latein": "Carpinus betulus",
+   "gesucht": "Carpinus betulus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "carum-carvi",
+   "latein": "Carum carvi",
+   "gesucht": "Carum carvi",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Carum carvi L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "castanea-sativa",
+   "latein": "Castanea sativa",
+   "gesucht": "Castanea sativa",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "catha-edulis",
+   "latein": "Catha edulis",
+   "gesucht": "Catha edulis",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [
+    "Amphetamine",
+    "Partydrogen"
+   ],
+   "giftgrade": {}
+  },
+  {
+   "slug": "centaurea-cyanus",
+   "latein": "Centaurea cyanus",
+   "gesucht": "Centaurea cyanus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "centaurium-erythraea",
+   "latein": "Centaurium erythraea",
+   "gesucht": "Centaurium erythraea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Centaurium erythraea Rafn"
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "centella-asiatica",
+   "latein": "Centella asiatica",
+   "gesucht": "Centella asiatica",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Centella asiatica (L.) Urb."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "cetraria-islandica",
+   "latein": "Cetraria islandica",
+   "gesucht": "Cetraria islandica",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Cetraria islandica (L.) Ach."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "chelidonium-majus",
+   "latein": "Chelidonium majus",
+   "gesucht": "Chelidonium majus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Chelidonium majus L."
+   ],
+   "pflanzengift_db": [
+    "Chelidonium majus"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Chelidonium majus L.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0019_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "chlorophytum-comosum",
+   "latein": "Chlorophytum comosum",
+   "gesucht": "Chlorophytum comosum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Chlorophytum comosum (Thunb.) Jacques"
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "cichorium-intybus",
+   "latein": "Cichorium intybus",
+   "gesucht": "Cichorium intybus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "cicuta-virosa",
+   "latein": "Cicuta virosa",
+   "gesucht": "Cicuta virosa",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Cicuta virosa L."
+   ],
+   "pflanzengift_db": [
+    "Cicuta virosa"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Cicuta virosa L.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0020_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "cinnamomum-verum",
+   "latein": "Cinnamomum verum",
+   "gesucht": "Cinnamomum verum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Cinnamomum verum J.Presl"
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "claviceps-purpurea",
+   "latein": "Claviceps purpurea",
+   "gesucht": "Claviceps purpurea",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [
+    "Mutterkorn"
+   ],
+   "giftgrade": {}
+  },
+  {
+   "slug": "colchicum-autumnale",
+   "latein": "Colchicum autumnale",
+   "gesucht": "Colchicum autumnale",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Colchicum autumnale L."
+   ],
+   "pflanzengift_db": [
+    "Colchicum autumnale"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Colchicum autumnale L.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0022_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "commiphora-myrrha",
+   "latein": "Commiphora myrrha",
+   "gesucht": "Commiphora myrrha",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Commiphora myrrha (Nees) Engl."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "conium-maculatum",
+   "latein": "Conium maculatum",
+   "gesucht": "Conium maculatum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Conium maculatum L."
+   ],
+   "pflanzengift_db": [
+    "Conium maculatum"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Conium maculatum L.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0001_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "convallaria-majalis",
+   "latein": "Convallaria majalis",
+   "gesucht": "Convallaria majalis",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Convallaria majalis L."
+   ],
+   "pflanzengift_db": [
+    "Convallaria majalis"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Convallaria majalis L.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0023_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "cordyceps-militaris",
+   "latein": "Cordyceps militaris",
+   "gesucht": "Cordyceps militaris",
+   "pet_toxic": null,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "coriandrum-sativum",
+   "latein": "Coriandrum sativum",
+   "gesucht": "Coriandrum sativum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Coriandrum sativum L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "cornus-mas",
+   "latein": "Cornus mas",
+   "gesucht": "Cornus mas",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "crataegus-monogyna",
+   "latein": "Crataegus monogyna",
+   "gesucht": "Crataegus monogyna",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Crataegus monogyna Jacq."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "cucumis-sativus",
+   "latein": "Cucumis sativus",
+   "gesucht": "Cucumis sativus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "cucurbita-pepo-zucchini",
+   "latein": "Cucurbita pepo subsp. pepo convar. giromontiina",
+   "gesucht": "Cucurbita pepo",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Cucurbita pepo L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "cucurbita-pepo",
+   "latein": "Cucurbita pepo",
+   "gesucht": "Cucurbita pepo",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Cucurbita pepo L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "cuminum-cyminum",
+   "latein": "Cuminum cyminum",
+   "gesucht": "Cuminum cyminum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "curcuma-longa",
+   "latein": "Curcuma longa",
+   "gesucht": "Curcuma longa",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Curcuma longa L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "cyclamen-persicum",
+   "latein": "Cyclamen persicum",
+   "gesucht": "Cyclamen persicum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Cyclamen persicum Mill."
+   ],
+   "pflanzengift_db": [
+    "Cyclamen persicum"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Cyclamen persicum Mill.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0116_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "cydonia-oblonga",
+   "latein": "Cydonia oblonga",
+   "gesucht": "Cydonia oblonga",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "cymbopogon-citratus",
+   "latein": "Cymbopogon citratus",
+   "gesucht": "Cymbopogon citratus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "cynara-scolymus",
+   "latein": "Cynara scolymus",
+   "gesucht": "Cynara scolymus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Cynara cardunculus L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "cyperus-alternifolius",
+   "latein": "Cyperus alternifolius",
+   "gesucht": "Cyperus alternifolius",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Cyperus alternifolius L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "daphne-mezereum",
+   "latein": "Daphne mezereum",
+   "gesucht": "Daphne mezereum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Daphne mezereum L."
+   ],
+   "pflanzengift_db": [
+    "Daphne mezereum"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Daphne mezereum L.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0025_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "datura-stramonium",
+   "latein": "Datura stramonium",
+   "gesucht": "Datura stramonium",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Datura stramonium L."
+   ],
+   "pflanzengift_db": [
+    "Datura sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Datura stramonium L.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0026_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "daucus-carota-sativus",
+   "latein": "Daucus carota subsp. sativus",
+   "gesucht": "Daucus carota",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Daucus carota L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "dieffenbachia-seguine",
+   "latein": "Dieffenbachia seguine",
+   "gesucht": "Dieffenbachia seguine",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Dieffenbachia seguine (Jacq.) Schott"
+   ],
+   "pflanzengift_db": [
+    "Dieffenbachia sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Dieffenbachia seguine (Jacq.) Schott": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0029_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "digitalis-purpurea",
+   "latein": "Digitalis purpurea",
+   "gesucht": "Digitalis purpurea",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Digitalis purpurea L."
+   ],
+   "pflanzengift_db": [
+    "Digitalis sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Digitalis purpurea L.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0030_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "dipsacus-fullonum",
+   "latein": "Dipsacus fullonum",
+   "gesucht": "Dipsacus fullonum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "dracaena-fragrans",
+   "latein": "Dracaena fragrans",
+   "gesucht": "Dracaena fragrans",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Dracaena fragrans (L.) Ker Gawl."
+   ],
+   "pflanzengift_db": [
+    "Dracaena sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Dracaena fragrans (L.) Ker Gawl.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0315_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "dracaena-trifasciata",
+   "latein": "Dracaena trifasciata",
+   "gesucht": "Dracaena trifasciata",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "dypsis-lutescens",
+   "latein": "Dypsis lutescens",
+   "gesucht": "Dypsis lutescens",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "echinacea-purpurea",
+   "latein": "Echinacea purpurea",
+   "gesucht": "Echinacea purpurea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Echinacea purpurea (L.) Moench"
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "elettaria-cardamomum",
+   "latein": "Elettaria cardamomum",
+   "gesucht": "Elettaria cardamomum",
+   "pet_toxic": null,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "eleutherococcus-senticosus",
+   "latein": "Eleutherococcus senticosus",
+   "gesucht": "Eleutherococcus senticosus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Eleutherococcus senticosus (Rupr. et Maxim.) Maxim."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "elymus-repens",
+   "latein": "Elymus repens",
+   "gesucht": "Elymus repens",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "epipremnum-aureum",
+   "latein": "Epipremnum aureum",
+   "gesucht": "Epipremnum aureum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Epipremnum aureum (Linden &#38; Andre) G.S.Bunting"
+   ],
+   "pflanzengift_db": [
+    "Epipremnum aureum"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Epipremnum aureum (Linden &#38; Andre) G.S.Bunting": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0111_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "equisetum-arvense",
+   "latein": "Equisetum arvense",
+   "gesucht": "Equisetum arvense",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Equisetum arvense L."
+   ],
+   "pflanzengift_db": [
+    "Equisetum sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Equisetum arvense L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0071_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "eruca-sativa",
+   "latein": "Eruca sativa",
+   "gesucht": "Eruca sativa",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "erythroxylum-coca",
+   "latein": "Erythroxylum coca",
+   "gesucht": "Erythroylum coca",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "eschscholzia-californica",
+   "latein": "Eschscholzia californica",
+   "gesucht": "Eschscholzia californica",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "eucalyptus-globulus",
+   "latein": "Eucalyptus globulus",
+   "gesucht": "Eucalyptus globulus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Eucalyptus globulus Labill."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [
+    "Ätherische Öle"
+   ],
+   "giftgrade": {}
+  },
+  {
+   "slug": "euonymus-europaeus",
+   "latein": "Euonymus europaeus",
+   "gesucht": "Euonymus europaeus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Euonymus europaeus L."
+   ],
+   "pflanzengift_db": [
+    "Euonymus sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Euonymus europaeus L.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0051_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "euphorbia-pulcherrima",
+   "latein": "Euphorbia pulcherrima",
+   "gesucht": "Euphorbia pulcherrima",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Euphorbia pulcherrima Willd. ex Klotzsch"
+   ],
+   "pflanzengift_db": [
+    "Euphorbia pulcherrima"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Euphorbia pulcherrima Willd. ex Klotzsch": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0074_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "euphrasia-officinalis",
+   "latein": "Euphrasia officinalis",
+   "gesucht": "Euphrasia officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Euphrasia rostkoviana Hayne s.l."
+   ],
+   "pflanzengift_db": [
+    "Euphrasia sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Euphrasia rostkoviana Hayne s.l.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0558_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "fagus-sylvatica",
+   "latein": "Fagus sylvatica",
+   "gesucht": "Fagus sylvatica",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Fagus sylvatica L."
+   ],
+   "pflanzengift_db": [
+    "Fagus sylvatica"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Fagus sylvatica L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0129_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "ficus-elastica",
+   "latein": "Ficus elastica",
+   "gesucht": "Ficus elastica",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Ficus elastica Roxb."
+   ],
+   "pflanzengift_db": [
+    "Ficus sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Ficus elastica Roxb.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0075_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "ficus-lyrata",
+   "latein": "Ficus lyrata",
+   "gesucht": "Ficus lyrata",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Ficus lyrata Warb."
+   ],
+   "pflanzengift_db": [
+    "Ficus sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Ficus lyrata Warb.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0292_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "filipendula-ulmaria",
+   "latein": "Filipendula ulmaria",
+   "gesucht": "Filipendula ulmaria",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Filipendula ulmaria (L.) Maxim."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "foeniculum-vulgare",
+   "latein": "Foeniculum vulgare",
+   "gesucht": "Foeniculum vulgare",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Foeniculum vulgare Mill."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "fragaria-vesca",
+   "latein": "Fragaria vesca",
+   "gesucht": "Fragaria vesca",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "frangula-alnus",
+   "latein": "Frangula alnus",
+   "gesucht": "Frangula alnus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Frangula alnus Mill."
+   ],
+   "pflanzengift_db": [
+    "Frangula sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Frangula alnus Mill.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0163_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "fraxinus-excelsior",
+   "latein": "Fraxinus excelsior",
+   "gesucht": "Frainus ecelsior",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "fumaria-officinalis",
+   "latein": "Fumaria officinalis",
+   "gesucht": "Fumaria officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "galeopsis-segetum",
+   "latein": "Galeopsis segetum",
+   "gesucht": "Galeopsis segetum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "galium-aparine",
+   "latein": "Galium aparine",
+   "gesucht": "Galium aparine",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "galium-odoratum",
+   "latein": "Galium odoratum",
+   "gesucht": "Galium odoratum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "ganoderma-lingzhi",
+   "latein": "Ganoderma lingzhi",
+   "gesucht": "Ganoderma lingzhi",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "gentiana-lutea",
+   "latein": "Gentiana lutea",
+   "gesucht": "Gentiana lutea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Gentiana lutea L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "geranium-robertianum",
+   "latein": "Geranium robertianum",
+   "gesucht": "Geranium robertianum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "geum-urbanum",
+   "latein": "Geum urbanum",
+   "gesucht": "Geum urbanum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "ginkgo-biloba",
+   "latein": "Ginkgo biloba",
+   "gesucht": "Ginkgo biloba",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Ginkgo biloba L."
+   ],
+   "pflanzengift_db": [
+    "Ginkgo biloba"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Ginkgo biloba L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0483_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "glechoma-hederacea",
+   "latein": "Glechoma hederacea",
+   "gesucht": "Glechoma hederacea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Glechoma hederacea L.s.l."
+   ],
+   "pflanzengift_db": [
+    "Glechoma hederacea"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "glycyrrhiza-glabra",
+   "latein": "Glycyrrhiza glabra",
+   "gesucht": "Glycyrrhiza glabra",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Glycyrrhiza glabra L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "gyromitra-esculenta",
+   "latein": "Gyromitra esculenta",
+   "gesucht": "Gyromitra esculenta",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Gyromitra esculenta (Pers. ex Pers.) Fr."
+   ],
+   "pflanzengift_db": [
+    "Gyromitra esculenta"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Gyromitra esculenta (Pers. ex Pers.) Fr.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0057_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "hamamelis-virginiana",
+   "latein": "Hamamelis virginiana",
+   "gesucht": "Hamamelis virginiana",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Hamamelis virginiana L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "harpagophytum-procumbens",
+   "latein": "Harpagophytum procumbens",
+   "gesucht": "Harpagophytum procumbens",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Harpagophytum procumbens DC."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "hedera-helix",
+   "latein": "Hedera helix",
+   "gesucht": "Hedera heli",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Hedera helix L."
+   ],
+   "pflanzengift_db": [
+    "Hedera helix"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Hedera helix L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0032_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "helleborus-niger",
+   "latein": "Helleborus niger",
+   "gesucht": "Helleborus niger",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Helleborus niger L."
+   ],
+   "pflanzengift_db": [
+    "Helleborus sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Helleborus niger L.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0099_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "hericium-erinaceus",
+   "latein": "Hericium erinaceus",
+   "gesucht": "Hericium erinaceus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "hibiscus-sabdariffa",
+   "latein": "Hibiscus sabdariffa",
+   "gesucht": "Hibiscus sabdariffa",
+   "pet_toxic": null,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "hippeastrum-vittatum",
+   "latein": "Hippeastrum vittatum",
+   "gesucht": "Hippeastrum vittatum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Hippeastrum vittatum (L'Her.) Herb."
+   ],
+   "pflanzengift_db": [
+    "Amaryllidaceae"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Hippeastrum vittatum (L'Her.) Herb.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0135_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "hippophae-rhamnoides",
+   "latein": "Hippophae rhamnoides",
+   "gesucht": "Hippophae rhamnoides",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "houttuynia-cordata",
+   "latein": "Houttuynia cordata",
+   "gesucht": "Houttuynia cordata",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "humulus-lupulus",
+   "latein": "Humulus lupulus",
+   "gesucht": "Humulus lupulus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Humulus lupulus L."
+   ],
+   "pflanzengift_db": [
+    "Humulus lupulus"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "hyacinthus-orientalis",
+   "latein": "Hyacinthus orientalis",
+   "gesucht": "Hyacinthus orientalis",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Hyacinthus orientalis L."
+   ],
+   "pflanzengift_db": [
+    "Hyacinthus orientalis"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Hyacinthus orientalis L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0134_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "hyoscyamus-niger",
+   "latein": "Hyoscyamus niger",
+   "gesucht": "Hyoscyamus niger",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Hyoscyamus niger L."
+   ],
+   "pflanzengift_db": [
+    "Hyoscyamus niger"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Hyoscyamus niger L.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0104_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "hypericum-perforatum",
+   "latein": "Hypericum perforatum",
+   "gesucht": "Hypericum perforatum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Hypericum perforatum L.s.str."
+   ],
+   "pflanzengift_db": [
+    "Hypericum sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Hypericum perforatum L.s.str.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0050_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "hyssopus-officinalis",
+   "latein": "Hyssopus officinalis",
+   "gesucht": "Hyssopus officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "ilex-aquifolium",
+   "latein": "Ilex aquifolium",
+   "gesucht": "Ileaquifolium",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "inonotus-obliquus",
+   "latein": "Inonotus obliquus",
+   "gesucht": "Inonotus obliquus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "inula-helenium",
+   "latein": "Inula helenium",
+   "gesucht": "Inula helenium",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Inula helenium L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "juglans-regia",
+   "latein": "Juglans regia",
+   "gesucht": "Juglans regia",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Juglans regia L."
+   ],
+   "pflanzengift_db": [
+    "Juglans sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Juglans regia L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0021_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "juniperus-communis",
+   "latein": "Juniperus communis",
+   "gesucht": "Juniperus communis",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Juniperus communis L.s.l."
+   ],
+   "pflanzengift_db": [
+    "Juniperus communis"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Juniperus communis L.s.l.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0130_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "krameria-lappacea",
+   "latein": "Krameria lappacea",
+   "gesucht": "Krameria lappacea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Krameria triandra Ruiz. &#38; Pav."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "laburnum-anagyroides",
+   "latein": "Laburnum anagyroides",
+   "gesucht": "Laburnum anagyroides",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Laburnum anagyroides Medik."
+   ],
+   "pflanzengift_db": [
+    "Laburnum anagyroides"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Laburnum anagyroides Medik.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0034_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "lactuca-sativa-capitata",
+   "latein": "Lactuca sativa var. capitata",
+   "gesucht": "Lactuca sativa",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "lactuca-sativa-crispa",
+   "latein": "Lactuca sativa var. crispa",
+   "gesucht": "Lactuca sativa",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "lamium-album",
+   "latein": "Lamium album",
+   "gesucht": "Lamium album",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Lamium album L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "laurus-nobilis",
+   "latein": "Laurus nobilis",
+   "gesucht": "Laurus nobilis",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "lavandula-angustifolia",
+   "latein": "Lavandula angustifolia",
+   "gesucht": "Lavandula angustifolia",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Lavandula angustifolia Mill."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "lentinula-edodes",
+   "latein": "Lentinula edodes",
+   "gesucht": "Lentinula edodes",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "leonurus-cardiaca",
+   "latein": "Leonurus cardiaca",
+   "gesucht": "Leonurus cardiaca",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Leonurus cardiaca L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "levisticum-officinale",
+   "latein": "Levisticum officinale",
+   "gesucht": "Levisticum officinale",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Levisticum officinale W.D.J.Koch"
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "ligustrum-vulgare",
+   "latein": "Ligustrum vulgare",
+   "gesucht": "Ligustrum vulgare",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Ligustrum vulgare L."
+   ],
+   "pflanzengift_db": [
+    "Ligustrum vulgare"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Ligustrum vulgare L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0108_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "linum-usitatissimum",
+   "latein": "Linum usitatissimum",
+   "gesucht": "Linum usitatissimum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Linum usitatissimum L."
+   ],
+   "pflanzengift_db": [
+    "Linum usitatissimum"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Linum usitatissimum L.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0070_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "lophophora-williamsii",
+   "latein": "Lophophora williamsii",
+   "gesucht": "Lophophora williamsii",
+   "pet_toxic": null,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "lythrum-salicaria",
+   "latein": "Lythrum salicaria",
+   "gesucht": "Lythrum salicaria",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Lythrum salicaria L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "malva-sylvestris",
+   "latein": "Malva sylvestris",
+   "gesucht": "Malva sylvestris",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Malva sylvestris L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "mandragora-officinarum",
+   "latein": "Mandragora officinarum",
+   "gesucht": "Mandragora officinarum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "marrubium-vulgare",
+   "latein": "Marrubium vulgare",
+   "gesucht": "Marrubium vulgare",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "matricaria-chamomilla",
+   "latein": "Matricaria chamomilla",
+   "gesucht": "Matricaria chamomilla",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Matricaria chamomilla L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "melilotus-officinalis",
+   "latein": "Melilotus officinalis",
+   "gesucht": "Melilotus officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Melilotus officinalis Lam."
+   ],
+   "pflanzengift_db": [
+    "Melilotus sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "melissa-officinalis",
+   "latein": "Melissa officinalis",
+   "gesucht": "Melissa officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Melissa officinalis L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "mentha-piperita",
+   "latein": "Mentha × piperita",
+   "gesucht": "Mentha piperita",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "mentha-spicata",
+   "latein": "Mentha spicata",
+   "gesucht": "Mentha spicata",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Mentha spicata L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "mentha-villosa",
+   "latein": "Mentha × villosa",
+   "gesucht": "Mentha villosa",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "menyanthes-trifoliata",
+   "latein": "Menyanthes trifoliata",
+   "gesucht": "Menyanthes trifoliata",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "mercurialis-annua",
+   "latein": "Mercurialis annua",
+   "gesucht": "Mercurialis annua",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "mitragyna-speciosa",
+   "latein": "Mitragyna speciosa",
+   "gesucht": "Mitragyna speciosa",
+   "pet_toxic": null,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "monstera-deliciosa",
+   "latein": "Monstera deliciosa",
+   "gesucht": "Monstera deliciosa",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Monstera deliciosa Liebm."
+   ],
+   "pflanzengift_db": [
+    "Monstera deliciosa"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Monstera deliciosa Liebm.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0110_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "moringa-oleifera",
+   "latein": "Moringa oleifera",
+   "gesucht": "Moringa oleifera",
+   "pet_toxic": null,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "narcissus-pseudonarcissus",
+   "latein": "Narcissus pseudonarcissus",
+   "gesucht": "Narcissus pseudonarcissus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Narcissus pseudonarcissus L."
+   ],
+   "pflanzengift_db": [
+    "Narcissus pseudonarcissus"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Narcissus pseudonarcissus L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0079_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "nepeta-cataria",
+   "latein": "Nepeta cataria",
+   "gesucht": "Nepeta cataria",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "nephrolepis-exaltata",
+   "latein": "Nephrolepis exaltata",
+   "gesucht": "Nephrolepis ealtata",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "nerium-oleander",
+   "latein": "Nerium oleander",
+   "gesucht": "Nerium oleander",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Nerium oleander L."
+   ],
+   "pflanzengift_db": [
+    "Nerium oleander"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Nerium oleander L.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0035_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "ocimum-basilicum",
+   "latein": "Ocimum basilicum",
+   "gesucht": "Ocimum basilicum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [
+    "Ätherische Öle"
+   ],
+   "giftgrade": {}
+  },
+  {
+   "slug": "ocimum-tenuiflorum",
+   "latein": "Ocimum tenuiflorum",
+   "gesucht": "Ocimum tenuiflorum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "oenothera-biennis",
+   "latein": "Oenothera biennis",
+   "gesucht": "Oenothera biennis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Oenothera biennis aggr."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "olea-europaea",
+   "latein": "Olea europaea",
+   "gesucht": "Olea europaea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "ononis-spinosa",
+   "latein": "Ononis spinosa",
+   "gesucht": "Ononis spinosa",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Ononis spinosa L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "origanum-vulgare",
+   "latein": "Origanum vulgare",
+   "gesucht": "Origanum vulgare",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Origanum vulgare L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [
+    "Ätherische Öle"
+   ],
+   "giftgrade": {}
+  },
+  {
+   "slug": "orthosiphon-aristatus",
+   "latein": "Orthosiphon aristatus",
+   "gesucht": "Orthosiphon aristatus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Orthosiphon aristatus (Blume) Miq."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "panaeolus-cinctulus",
+   "latein": "Panaeolus cinctulus",
+   "gesucht": "Panaeolus cinctulus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "panax-ginseng",
+   "latein": "Panax ginseng",
+   "gesucht": "Panaginseng",
+   "pet_toxic": null,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "papaver-rhoeas",
+   "latein": "Papaver rhoeas",
+   "gesucht": "Papaver rhoeas",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Papaver rhoeas L."
+   ],
+   "pflanzengift_db": [
+    "Papaver rhoeas"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Papaver rhoeas L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0077_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "papaver-somniferum",
+   "latein": "Papaver somniferum",
+   "gesucht": "Papaver somniferum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Papaver somniferum L."
+   ],
+   "pflanzengift_db": [
+    "Papaver somniferum"
+   ],
+   "kleintier_monografien": [
+    "Opiate"
+   ],
+   "giftgrade": {
+    "Papaver somniferum L.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0078_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "passiflora-incarnata",
+   "latein": "Passiflora incarnata",
+   "gesucht": "Passiflora incarnata",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Passiflora incarnata L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "pastinaca-sativa",
+   "latein": "Pastinaca sativa",
+   "gesucht": "Pastinaca sativa",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Pastinaca sativa L.s.l."
+   ],
+   "pflanzengift_db": [
+    "Apiaceae"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Pastinaca sativa L.s.l.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0682_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "pelargonium-citrosum",
+   "latein": "Pelargonium citrosum",
+   "gesucht": "Pelargonium citrosum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "pelargonium-graveolens",
+   "latein": "Pelargonium graveolens",
+   "gesucht": "Pelargonium graveolens",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "pelargonium-odoratissimum",
+   "latein": "Pelargonium odoratissimum",
+   "gesucht": "Pelargonium odoratissimum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "pelargonium-sidoides",
+   "latein": "Pelargonium sidoides",
+   "gesucht": "Pelargonium sidoides",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Pelargonium sidoides DC."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "petasites-hybridus",
+   "latein": "Petasites hybridus",
+   "gesucht": "Petasites hybridus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "petroselinum-crispum-tuberosum",
+   "latein": "Petroselinum crispum subsp. tuberosum",
+   "gesucht": "Petroselinum crispum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Petroselinum crispum (Mill.) Fuss"
+   ],
+   "pflanzengift_db": [
+    "Apiaceae"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Petroselinum crispum (Mill.) Fuss": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0681_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "petroselinum-crispum",
+   "latein": "Petroselinum crispum",
+   "gesucht": "Petroselinum crispum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Petroselinum crispum (Mill.) Fuss"
+   ],
+   "pflanzengift_db": [
+    "Apiaceae"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Petroselinum crispum (Mill.) Fuss": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0681_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "peumus-boldus",
+   "latein": "Peumus boldus",
+   "gesucht": "Peumus boldus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Peumus boldus Molina"
+   ],
+   "pflanzengift_db": [
+    "Peumus boldus"
+   ],
+   "kleintier_monografien": [
+    "Ätherische Öle"
+   ],
+   "giftgrade": {
+    "Peumus boldus Molina": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0635_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "phalaenopsis-spp",
+   "latein": "Phalaenopsis spp.",
+   "gesucht": "Phalaenopsis spp.",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "phaseolus-vulgaris-nanus",
+   "latein": "Phaseolus vulgaris var. nanus",
+   "gesucht": "Phaseolus vulgaris",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Phaseolus vulgaris L."
+   ],
+   "pflanzengift_db": [
+    "Phaseolus vulgaris"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Phaseolus vulgaris L.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0098_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "phaseolus-vulgaris-vulgaris",
+   "latein": "Phaseolus vulgaris var. vulgaris",
+   "gesucht": "Phaseolus vulgaris",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Phaseolus vulgaris L."
+   ],
+   "pflanzengift_db": [
+    "Phaseolus vulgaris"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Phaseolus vulgaris L.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0098_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "philodendron-hederaceum",
+   "latein": "Philodendron hederaceum",
+   "gesucht": "Philodendron hederaceum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Philodendron scandens K.Koch &#38; Sello"
+   ],
+   "pflanzengift_db": [
+    "Philodendron sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Philodendron scandens K.Koch &#38; Sello": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0124_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "picea-abies",
+   "latein": "Picea abies",
+   "gesucht": "Picea abies",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Picea abies (L.) H.Karst."
+   ],
+   "pflanzengift_db": [
+    "Pinaceae"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Picea abies (L.) H.Karst.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0174_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "pimpinella-anisum",
+   "latein": "Pimpinella anisum",
+   "gesucht": "Pimpinella anisum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Pimpinella anisum L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "pinus-sylvestris",
+   "latein": "Pinus sylvestris",
+   "gesucht": "Pinus sylvestris",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Pinus sylvestris L."
+   ],
+   "pflanzengift_db": [
+    "Pinaceae"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Pinus sylvestris L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0073_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "piper-nigrum",
+   "latein": "Piper nigrum",
+   "gesucht": "Piper nigrum",
+   "pet_toxic": null,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "pisum-sativum-saccharatum",
+   "latein": "Pisum sativum convar. saccharatum",
+   "gesucht": "Pisum sativum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "pisum-sativum-sativum",
+   "latein": "Pisum sativum subsp. sativum",
+   "gesucht": "Pisum sativum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "plantago-lanceolata",
+   "latein": "Plantago lanceolata",
+   "gesucht": "Plantago lanceolata",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Plantago lanceolata L."
+   ],
+   "pflanzengift_db": [
+    "Plantago sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Plantago lanceolata L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0492_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "plantago-major",
+   "latein": "Plantago major",
+   "gesucht": "Plantago major",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Plantago major L.s.l."
+   ],
+   "pflanzengift_db": [
+    "Plantago sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Plantago major L.s.l.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0660_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "plantago-ovata",
+   "latein": "Plantago ovata",
+   "gesucht": "Plantago ovata",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Plantago ovata Forssk."
+   ],
+   "pflanzengift_db": [
+    "Plantago sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Plantago ovata Forssk.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0658_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "plectranthus-barbatus",
+   "latein": "Plectranthus barbatus",
+   "gesucht": "Plectranthus barbatus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "plectranthus-caninus",
+   "latein": "Plectranthus caninus",
+   "gesucht": "Plectranthus caninus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "pleurotus-ostreatus",
+   "latein": "Pleurotus ostreatus",
+   "gesucht": "Pleurotus ostreatus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "populus-tremula",
+   "latein": "Populus tremula",
+   "gesucht": "Populus tremula",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "potentilla-anserina",
+   "latein": "Potentilla anserina",
+   "gesucht": "Potentilla anserina",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "potentilla-erecta",
+   "latein": "Potentilla erecta",
+   "gesucht": "Potentilla erecta",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Potentilla erecta (L.) Räuschel"
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "primula-veris",
+   "latein": "Primula veris",
+   "gesucht": "Primula veris",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Primula veris L.s.l."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "prunus-laurocerasus",
+   "latein": "Prunus laurocerasus",
+   "gesucht": "Prunus laurocerasus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Prunus laurocerasus L."
+   ],
+   "pflanzengift_db": [
+    "Prunus sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Prunus laurocerasus L.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0060_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "prunus-spinosa",
+   "latein": "Prunus spinosa",
+   "gesucht": "Prunus spinosa",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Prunus spinosa L."
+   ],
+   "pflanzengift_db": [
+    "Prunus sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Prunus spinosa L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0726_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "psilocybe-cubensis",
+   "latein": "Psilocybe cubensis",
+   "gesucht": "Psilocybe cubensis",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "psilocybe-semilanceata",
+   "latein": "Psilocybe semilanceata",
+   "gesucht": "Psilocybe semilanceata",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "pulmonaria-officinalis",
+   "latein": "Pulmonaria officinalis",
+   "gesucht": "Pulmonaria officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "pulsatilla-vulgaris",
+   "latein": "Pulsatilla vulgaris",
+   "gesucht": "Pulsatilla vulgaris",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "quercus-robur",
+   "latein": "Quercus robur",
+   "gesucht": "Quercus robur",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Quercus robur L."
+   ],
+   "pflanzengift_db": [
+    "Quercus sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Quercus robur L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0052_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "raphanus-sativus-niger",
+   "latein": "Raphanus sativus var. niger",
+   "gesucht": "Raphanus sativus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "raphanus-sativus-sativus",
+   "latein": "Raphanus sativus var. sativus",
+   "gesucht": "Raphanus sativus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "rheum-rhabarbarum",
+   "latein": "Rheum rhabarbarum",
+   "gesucht": "Rheum rhabarbarum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Rheum rhabarbarum L."
+   ],
+   "pflanzengift_db": [
+    "Rheum sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Rheum rhabarbarum L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0142_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "rhodiola-rosea",
+   "latein": "Rhodiola rosea",
+   "gesucht": "Rhodiola rosea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "rhododendron-ponticum",
+   "latein": "Rhododendron ponticum",
+   "gesucht": "Rhododendron ponticum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "ribes-nigrum",
+   "latein": "Ribes nigrum",
+   "gesucht": "Ribes nigrum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "ricinus-communis",
+   "latein": "Ricinus communis",
+   "gesucht": "Ricinus communis",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Ricinus communis L."
+   ],
+   "pflanzengift_db": [
+    "Ricinus communis"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Ricinus communis L.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0105_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "robinia-pseudoacacia",
+   "latein": "Robinia pseudoacacia",
+   "gesucht": "Robinia pseudoacacia",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Robinia pseudoacacia L."
+   ],
+   "pflanzengift_db": [
+    "Robinia pseudoacacia"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Robinia pseudoacacia L.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0041_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "rosa-canina",
+   "latein": "Rosa canina",
+   "gesucht": "Rosa canina",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Rosa canina L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "rosmarinus-officinalis",
+   "latein": "Rosmarinus officinalis",
+   "gesucht": "Rosmarinus officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Rosmarinus officinalis L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "rubus-fruticosus",
+   "latein": "Rubus fruticosus",
+   "gesucht": "Rubus fruticosus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Rubus fruticosus aggr."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "ruscus-aculeatus",
+   "latein": "Ruscus aculeatus",
+   "gesucht": "Ruscus aculeatus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "ruta-graveolens",
+   "latein": "Ruta graveolens",
+   "gesucht": "Ruta graveolens",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "salix-alba",
+   "latein": "Salix alba",
+   "gesucht": "Salialba",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "salvia-divinorum",
+   "latein": "Salvia divinorum",
+   "gesucht": "Salvia divinorum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "salvia-elegans",
+   "latein": "Salvia elegans",
+   "gesucht": "Salvia elegans",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "salvia-officinalis",
+   "latein": "Salvia officinalis",
+   "gesucht": "Salvia officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Salvia officinalis L."
+   ],
+   "pflanzengift_db": [
+    "Salvia sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Salvia officinalis L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0467_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "sambucus-nigra",
+   "latein": "Sambucus nigra",
+   "gesucht": "Sambucus nigra",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Sambucus nigra L."
+   ],
+   "pflanzengift_db": [
+    "Sambucus sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Sambucus nigra L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0150_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "sanguisorba-officinalis",
+   "latein": "Sanguisorba officinalis",
+   "gesucht": "Sanguisorba officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "satureja-hortensis",
+   "latein": "Satureja hortensis",
+   "gesucht": "Satureja hortensis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [
+    "Ätherische Öle"
+   ],
+   "giftgrade": {}
+  },
+  {
+   "slug": "sempervivum-tectorum",
+   "latein": "Sempervivum tectorum",
+   "gesucht": "Sempervivum tectorum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "senna-alexandrina",
+   "latein": "Senna alexandrina",
+   "gesucht": "Senna aleandrina",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "silybum-marianum",
+   "latein": "Silybum marianum",
+   "gesucht": "Silybum marianum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Silybum marianum (L.) Gaertn."
+   ],
+   "pflanzengift_db": [
+    "Silybum marianum"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Silybum marianum (L.) Gaertn.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0541_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "solanum-lycopersicum",
+   "latein": "Solanum lycopersicum",
+   "gesucht": "Solanum lycopersicum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Lycopersicon esculentum Mill."
+   ],
+   "pflanzengift_db": [
+    "Lycopersicon esculentum"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "solanum-melongena",
+   "latein": "Solanum melongena",
+   "gesucht": "Solanum melongena",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Solanum melongena L."
+   ],
+   "pflanzengift_db": [
+    "Solanum sp."
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Solanum melongena L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0431_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "solanum-tuberosum",
+   "latein": "Solanum tuberosum",
+   "gesucht": "Solanum tuberosum",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Solanum tuberosum L."
+   ],
+   "pflanzengift_db": [
+    "Solanum tuberosum"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Solanum tuberosum L.": {
+     "grad": "stark giftig ++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0042_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "solidago-virgaurea",
+   "latein": "Solidago virgaurea",
+   "gesucht": "Solidago virgaurea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Solidago virgaurea L.s.l."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "sorbus-aucuparia",
+   "latein": "Sorbus aucuparia",
+   "gesucht": "Sorbus aucuparia",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Sorbus aucuparia L."
+   ],
+   "pflanzengift_db": [
+    "Sorbus aucuparia"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Sorbus aucuparia L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0169_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "spathiphyllum-wallisii",
+   "latein": "Spathiphyllum wallisii",
+   "gesucht": "Spathiphyllum wallisii",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "spinacia-oleracea",
+   "latein": "Spinacia oleracea",
+   "gesucht": "Spinacia oleracea",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "stellaria-media",
+   "latein": "Stellaria media",
+   "gesucht": "Stellaria media",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "stevia-rebaudiana",
+   "latein": "Stevia rebaudiana",
+   "gesucht": "Stevia rebaudiana",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Stevia rebaudiana (Bertoni) Bertoni"
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "symphoricarpos-albus",
+   "latein": "Symphoricarpos albus",
+   "gesucht": "Symphoricarpos albus",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Symphoricarpos albus (L.) S.F.Blake"
+   ],
+   "pflanzengift_db": [
+    "Symphoricarpos albus"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Symphoricarpos albus (L.) S.F.Blake": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0132_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "symphytum-officinale",
+   "latein": "Symphytum officinale",
+   "gesucht": "Symphytum officinale",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Symphytum officinale L."
+   ],
+   "pflanzengift_db": [
+    "Symphytum officinale"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Symphytum officinale L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0153_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "syzygium-aromaticum",
+   "latein": "Syzygium aromaticum",
+   "gesucht": "Syzygium aromaticum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Syzygium aromaticum (L.) Merr. &#38; L.M.Perry"
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [
+    "Ätherische Öle"
+   ],
+   "giftgrade": {}
+  },
+  {
+   "slug": "tabernanthe-iboga",
+   "latein": "Tabernanthe iboga",
+   "gesucht": "Tabernanthe iboga",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "tagetes-patula",
+   "latein": "Tagetes patula",
+   "gesucht": "Tagetes patula",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "tanacetum-parthenium",
+   "latein": "Tanacetum parthenium",
+   "gesucht": "Tanacetum parthenium",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Tanacetum parthenium (L.) Schultz Bip."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "taraxacum-officinale",
+   "latein": "Taraxacum officinale",
+   "gesucht": "Taraacum officinale",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "taxus-baccata",
+   "latein": "Taxus baccata",
+   "gesucht": "Taus baccata",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "thuja-occidentalis",
+   "latein": "Thuja occidentalis",
+   "gesucht": "Thuja occidentalis",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Thuja occidentalis L."
+   ],
+   "pflanzengift_db": [
+    "Thuja sp."
+   ],
+   "kleintier_monografien": [
+    "Ätherische Öle"
+   ],
+   "giftgrade": {
+    "Thuja occidentalis L.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0040_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "thymus-vulgaris",
+   "latein": "Thymus vulgaris",
+   "gesucht": "Thymus vulgaris",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Thymus vulgaris L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "tilia-cordata",
+   "latein": "Tilia cordata",
+   "gesucht": "Tilia cordata",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Tilia cordata Mill."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "tilia-platyphyllos",
+   "latein": "Tilia platyphyllos",
+   "gesucht": "Tilia platyphyllos",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Tilia platyphyllos Scop."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "trametes-versicolor",
+   "latein": "Trametes versicolor",
+   "gesucht": "Trametes versicolor",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "trigonella-foenum-graecum",
+   "latein": "Trigonella foenum-graecum",
+   "gesucht": "Trigonella foenum-graecum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Trigonella foenum-graecum L."
+   ],
+   "pflanzengift_db": [
+    "Trigonella foenum-graecum"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Trigonella foenum-graecum L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0629_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "tropaeolum-majus",
+   "latein": "Tropaeolum majus",
+   "gesucht": "Tropaeolum majus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "tulipa-gesneriana",
+   "latein": "Tulipa gesneriana",
+   "gesucht": "Tulipa gesneriana",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Tulipa gesneriana L."
+   ],
+   "pflanzengift_db": [
+    "Tulipa gesneriana"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Tulipa gesneriana L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0137_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "tussilago-farfara",
+   "latein": "Tussilago farfara",
+   "gesucht": "Tussilago farfara",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Tussilago farfara L."
+   ],
+   "pflanzengift_db": [
+    "Tussilago farfara"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Tussilago farfara L.": {
+     "grad": "giftig +",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0152_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "ulmus-minor",
+   "latein": "Ulmus minor",
+   "gesucht": "Ulmus minor",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "urtica-dioica",
+   "latein": "Urtica dioica",
+   "gesucht": "Urtica dioica",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Urtica dioica L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "vaccinium-macrocarpon",
+   "latein": "Vaccinium macrocarpon",
+   "gesucht": "Vaccinium macrocarpon",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Vaccinium macrocarpon Aiton"
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "vaccinium-myrtillus",
+   "latein": "Vaccinium myrtillus",
+   "gesucht": "Vaccinium myrtillus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Vaccinium myrtillus L."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "valeriana-officinalis",
+   "latein": "Valeriana officinalis",
+   "gesucht": "Valeriana officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Valeriana officinalis aggr."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "vanilla-planifolia",
+   "latein": "Vanilla planifolia",
+   "gesucht": "Vanilla planifolia",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "veratrum-album",
+   "latein": "Veratrum album",
+   "gesucht": "Veratrum album",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Veratrum album L.s.l."
+   ],
+   "pflanzengift_db": [
+    "Veratrum album"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Veratrum album L.s.l.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0055_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "verbascum-densiflorum",
+   "latein": "Verbascum densiflorum",
+   "gesucht": "Verbascum densiflorum",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "verbascum-thapsus",
+   "latein": "Verbascum thapsus L.",
+   "gesucht": "Verbascum thapsus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "verbena-officinalis",
+   "latein": "Verbena officinalis",
+   "gesucht": "Verbena officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Verbena officinalis L."
+   ],
+   "pflanzengift_db": [
+    "Verbena officinalis"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Verbena officinalis L.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0535_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "veronica-officinalis",
+   "latein": "Veronica officinalis",
+   "gesucht": "Veronica officinalis",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "vinca-minor",
+   "latein": "Vinca minor",
+   "gesucht": "Vinca minor",
+   "pet_toxic": true,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "viola-tricolor",
+   "latein": "Viola tricolor",
+   "gesucht": "Viola tricolor",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Viola tricolor aggr."
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "viscum-album",
+   "latein": "Viscum album",
+   "gesucht": "Viscum album",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Viscum album L.s.l."
+   ],
+   "pflanzengift_db": [
+    "Viscum album"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Viscum album L.s.l.": {
+     "grad": "schwach giftig (+)",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0125_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "vitex-agnus-castus",
+   "latein": "Vitex agnus-castus",
+   "gesucht": "Viteagnus-castus",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "vitis-vinifera",
+   "latein": "Vitis vinifera",
+   "gesucht": "Vitis vinifera",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Vitis vinifera L."
+   ],
+   "pflanzengift_db": [
+    "Vitis vinifera"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "withania-somnifera",
+   "latein": "Withania somnifera",
+   "gesucht": "Withania somnifera",
+   "pet_toxic": null,
+   "giftpflanzen_db": [
+    "Withania somnifera (L.) Dunal"
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "zamioculcas-zamiifolia",
+   "latein": "Zamioculcas zamiifolia",
+   "gesucht": "Zamioculcas zamiifolia",
+   "pet_toxic": true,
+   "giftpflanzen_db": [
+    "Zamioculcas zamiifolia (hort. Lodd.) Engl."
+   ],
+   "pflanzengift_db": [
+    "Zamioculcas zamiifolia"
+   ],
+   "kleintier_monografien": [],
+   "giftgrade": {
+    "Zamioculcas zamiifolia (hort. Lodd.) Engl.": {
+     "grad": "sehr stark giftig +++",
+     "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0190_bot.htm"
+    }
+   }
+  },
+  {
+   "slug": "zea-mays",
+   "latein": "Zea mays",
+   "gesucht": "Zea mays",
+   "pet_toxic": false,
+   "giftpflanzen_db": [],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  },
+  {
+   "slug": "zingiber-officinale",
+   "latein": "Zingiber officinale",
+   "gesucht": "Zingiber officinale",
+   "pet_toxic": false,
+   "giftpflanzen_db": [
+    "Zingiber officinale Roscoe"
+   ],
+   "pflanzengift_db": [],
+   "kleintier_monografien": [],
+   "giftgrade": {}
+  }
+ ]
+}

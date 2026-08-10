@@ -2,7 +2,7 @@
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
-import { splitPetSafe, getPetCheck } from '@/lib/petSafety';
+import { splitPetSafe, getPetCheck, getToxNote } from '@/lib/petSafety';
 
 // === 2. DATA ===
 // Zwei Gruppen statt einer Liste — siehe de/ungiftige-pflanzen-haustiere.astro.
@@ -76,10 +76,17 @@ const description =
     </div>
 
     <h2 class="font-serif text-2xl text-slate-900 mt-12 mb-1">Not externally verified</h2>
-    <p class="max-w-2xl text-sm text-slate-500 mb-4">
+    <p class="max-w-2xl text-sm text-slate-500 mb-2">
       {unchecked.length} plants. We know of no risk to dogs or cats, and the ASPCA does not list
       them at all — neither as toxic nor as non-toxic. That is not a clean bill of health: if
       your pet chews on plants, ask your vet first.
+    </p>
+    <p class="max-w-2xl text-sm text-slate-500 mb-4">
+      Some carry an amber note. Those plants appear in the veterinary CliniTox database
+      (University of Zurich) with a general toxicity grade. That grade covers plants in
+      general, not dogs and cats specifically — sage is listed as „slightly toxic" there
+      while the ASPCA explicitly calls it non-toxic to pets. So it is shown as a note,
+      not as a verdict.
     </p>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {unchecked.map(p => (
@@ -94,6 +101,12 @@ const description =
               <span class="rounded-full border border-slate-200 bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-500">
                 not verified
               </span>
+              {getToxNote(p) && (
+                <span class="rounded-full border border-amber-200 bg-amber-50 px-2 py-0.5 text-[11px] font-semibold text-amber-800"
+                  title={`CliniTox (University of Zurich), accessed ${getToxNote(p)!.accessed}: ${getToxNote(p)!.entry_name} — ${getToxNote(p)!.grade}. General plant toxicity grade, not a verdict on dogs and cats.`}>
+                  Vet database: {getToxNote(p)!.grade}
+                </span>
+              )}
             </div>
             <div class="text-xs italic text-slate-400">{p.names.latin}</div>
           </div>

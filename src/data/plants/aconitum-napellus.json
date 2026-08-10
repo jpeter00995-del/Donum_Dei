@@ -281,7 +281,14 @@
         "severity": "caution",
         "source_id": "src_wp_aconitine_aconitum_napellus"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "sehr stark giftig +++",
+      "entry_name": "Aconitum napellus aggr.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0004_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -324,6 +331,13 @@
       "url": "https://botanical.com/botanical/mgmh/a/aconi007.html",
       "accessed": "2026-05-26",
       "language": "en"
+    },
+    {
+      "id": "src_clinitox_aconitum_napellus",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Aconitum napellus aggr.: sehr stark giftig +++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0004_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

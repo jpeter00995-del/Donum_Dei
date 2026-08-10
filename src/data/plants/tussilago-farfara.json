@@ -254,7 +254,14 @@
         "en": "Concurrent use of other PA-containing herbs"
       }
     ],
-    "max_continuous_use_weeks": 6
+    "max_continuous_use_weeks": 6,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "giftig +",
+      "entry_name": "Tussilago farfara L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0152_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -312,6 +319,13 @@
         "en": "Binding daily limit 1 µg 1,2-unsaturated PA (incl. N-oxides) per day orally, max. 4-6 weeks per year"
       },
       "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_clinitox_tussilago_farfara",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Tussilago farfara L.: giftig + (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0152_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

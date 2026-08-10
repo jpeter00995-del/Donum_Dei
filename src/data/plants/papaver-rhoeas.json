@@ -216,7 +216,14 @@
         "severity": "monitor",
         "source_id": "src_wp_rhoeadine_papaver_rhoeas"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "giftig +",
+      "entry_name": "Papaver rhoeas L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0077_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -251,6 +258,13 @@
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Papaver+rhoeas",
       "accessed": "2026-05-24",
       "language": "en"
+    },
+    {
+      "id": "src_clinitox_papaver_rhoeas",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Papaver rhoeas L.: giftig + (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0077_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

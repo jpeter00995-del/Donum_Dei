@@ -21,12 +21,17 @@
   "uses": [
     {
       "form": "tea",
-      "target": ["digestion"],
+      "target": [
+        "digestion"
+      ],
       "internal_external": "internal",
       "plant_part": "bark",
       "evidence_level": "ema_well_established",
       "preparation": {
-        "amount_dry_g": { "min": 0.5, "max": 2.5 },
+        "amount_dry_g": {
+          "min": 0.5,
+          "max": 2.5
+        },
         "water_ml": 150,
         "steep_min": 10,
         "doses_per_day": 1,
@@ -47,11 +52,17 @@
         "de": "Kurzfristige gelegentliche Verstopfung",
         "en": "Short-term occasional constipation"
       },
-      "source_ids": ["ema_monograph", "ema_summary", "wikipedia_de"]
+      "source_ids": [
+        "ema_monograph",
+        "ema_summary",
+        "wikipedia_de"
+      ]
     },
     {
       "form": "tincture",
-      "target": ["digestion"],
+      "target": [
+        "digestion"
+      ],
       "internal_external": "internal",
       "plant_part": "bark",
       "evidence_level": "ema_well_established",
@@ -74,16 +85,25 @@
         "de": "Standardisierter Extrakt gegen Verstopfung",
         "en": "Standardised extract for constipation"
       },
-      "source_ids": ["ema_monograph", "ema_summary"]
+      "source_ids": [
+        "ema_monograph",
+        "ema_summary"
+      ]
     },
     {
       "form": "tea",
-      "target": ["digestion", "liver"],
+      "target": [
+        "digestion",
+        "liver"
+      ],
       "internal_external": "internal",
       "plant_part": "bark",
       "evidence_level": "traditional",
       "preparation": {
-        "amount_dry_g": { "min": 0.5, "max": 2.0 },
+        "amount_dry_g": {
+          "min": 0.5,
+          "max": 2.0
+        },
         "water_ml": 150,
         "steep_min": 10,
         "doses_per_day": 1,
@@ -104,11 +124,18 @@
         "de": "Traditionelle Anregung der Verdauung",
         "en": "Traditional digestive stimulation"
       },
-      "source_ids": ["wikipedia_de", "wikipedia_en"]
+      "source_ids": [
+        "wikipedia_de",
+        "wikipedia_en"
+      ]
     }
   ],
   "season": {
-    "active_months": [4, 5, 6],
+    "active_months": [
+      4,
+      5,
+      6
+    ],
     "harvest_part": {
       "de": "Rinde von Stämmen und Zweigen",
       "en": "Bark of stems and branches"
@@ -214,7 +241,14 @@
         "de": "Schwangerschaft und Stillzeit",
         "en": "Pregnancy and breastfeeding"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "stark giftig ++",
+      "entry_name": "Frangula alnus Mill.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0163_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -266,6 +300,13 @@
       "title": "File:Rhamnus frangula - Köhler's Medizinal-Pflanzen-120.jpg - Wikimedia Commons",
       "url": "https://commons.wikimedia.org/wiki/File:Rhamnus_frangula_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-120.jpg",
       "accessed": "2026-06-12"
+    },
+    {
+      "id": "src_clinitox_frangula_alnus",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Frangula alnus Mill.: stark giftig ++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0163_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {
@@ -347,7 +388,11 @@
   "harvest": [
     {
       "plant_part": "bark",
-      "best_months": [4, 5, 6],
+      "best_months": [
+        4,
+        5,
+        6
+      ],
       "time_of_day": {
         "de": "Im Frühjahr bis Frühsommer, wenn sich die Rinde gut vom Holz löst (Saftfluss).",
         "en": "In spring to early summer, when the bark peels easily from the wood (sap flow)."
@@ -363,5 +408,9 @@
       }
     }
   ],
-  "permaculture_functions": ["pollinator_attractor", "medicinal", "vertical_mid"]
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "medicinal",
+    "vertical_mid"
+  ]
 }

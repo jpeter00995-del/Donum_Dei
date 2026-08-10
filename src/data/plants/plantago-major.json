@@ -21,7 +21,13 @@
   "uses": [
     {
       "form": "compress",
-      "target": ["Insektenstiche", "insect bites", "kleine Wunden", "minor wounds", "Hautreizungen"],
+      "target": [
+        "Insektenstiche",
+        "insect bites",
+        "kleine Wunden",
+        "minor wounds",
+        "Hautreizungen"
+      ],
       "internal_external": "external",
       "plant_part": "leaf",
       "evidence_level": "folk",
@@ -35,11 +41,20 @@
         "de": "Volksheilkundlich das bekannteste Einsatzgebiet: Das zerquetschte frische Blatt wird seit Jahrhunderten zur raschen Linderung von Juckreiz und Schwellung nach Insektenstichen sowie als kühlendes Auflage-Mittel auf kleine Wunden verwendet. Schleimstoffe, Aucubin und Gerbstoffe wirken reizlindernd und adstringierend.",
         "en": "The best-known folk application: the crushed fresh leaf has been used for centuries to quickly soothe itching and swelling after insect bites and as a cooling dressing for minor wounds. Mucilage, aucubin and tannins act soothing and astringent."
       },
-      "source_ids": ["src_pmc_review", "src_wikipedia_en", "src_wikipedia_de"]
+      "source_ids": [
+        "src_pmc_review",
+        "src_wikipedia_en",
+        "src_wikipedia_de"
+      ]
     },
     {
       "form": "salve",
-      "target": ["Hautabschürfungen", "abrasions", "rissige Haut", "wound support"],
+      "target": [
+        "Hautabschürfungen",
+        "abrasions",
+        "rissige Haut",
+        "wound support"
+      ],
       "internal_external": "external",
       "plant_part": "leaf",
       "evidence_level": "traditional",
@@ -53,16 +68,28 @@
         "de": "Eine aus Blättern hergestellte Salbe wird traditionell zur Pflege kleiner Hautschäden und gereizter Hautstellen genutzt. Allantoin und Aucubin werden mit zellregenerierenden und entzündungshemmenden Eigenschaften in Verbindung gebracht.",
         "en": "A leaf-based salve is traditionally used to care for minor skin damage and irritated skin. Allantoin and aucubin are associated with cell-regenerating and anti-inflammatory properties."
       },
-      "source_ids": ["src_pmc_review", "src_pfaf"]
+      "source_ids": [
+        "src_pmc_review",
+        "src_pfaf"
+      ]
     },
     {
       "form": "tea",
-      "target": ["Husten", "cough", "Atemwegskatarrh", "respiratory catarrh", "Reizhusten"],
+      "target": [
+        "Husten",
+        "cough",
+        "Atemwegskatarrh",
+        "respiratory catarrh",
+        "Reizhusten"
+      ],
       "internal_external": "internal",
       "plant_part": "leaf",
       "evidence_level": "traditional",
       "preparation": {
-        "amount_dry_g": { "min": 1.5, "max": 3 },
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 3
+        },
         "water_ml": 250,
         "steep_min": 10,
         "doses_per_day": 3,
@@ -76,16 +103,28 @@
         "de": "Aufgrund seines Gehalts an Schleimstoffen wird der Tee traditionell als reizlinderndes Mittel bei Reizhusten und Katarrhen der oberen Atemwege getrunken. Hinweis: Eine positive Kommission-E- oder EMA-Monografie besteht nur für den verwandten Spitzwegerich, nicht für den Breitwegerich.",
         "en": "Because of its mucilage content, the tea is traditionally drunk as a soothing remedy for irritating cough and upper respiratory catarrh. Note: a positive Commission E or EMA monograph exists only for the related ribwort plantain, not for greater plantain."
       },
-      "source_ids": ["src_wikipedia_de", "src_pmc_review", "src_kommission_e_note"]
+      "source_ids": [
+        "src_wikipedia_de",
+        "src_pmc_review",
+        "src_kommission_e_note"
+      ]
     },
     {
       "form": "tea",
-      "target": ["leichter Durchfall", "mild diarrhoea", "Magenschleimhautreizung", "gastric irritation"],
+      "target": [
+        "leichter Durchfall",
+        "mild diarrhoea",
+        "Magenschleimhautreizung",
+        "gastric irritation"
+      ],
       "internal_external": "internal",
       "plant_part": "leaf",
       "evidence_level": "folk",
       "preparation": {
-        "amount_dry_g": { "min": 1.5, "max": 3 },
+        "amount_dry_g": {
+          "min": 1.5,
+          "max": 3
+        },
         "water_ml": 250,
         "steep_min": 10,
         "doses_per_day": 3,
@@ -99,11 +138,19 @@
         "de": "Volksheilkundlich werden Gerb- und Schleimstoffe des Krauts bei leichtem Durchfall und gereizter Magen-Darm-Schleimhaut genutzt; die Gerbstoffe wirken adstringierend, die Schleimstoffe reizlindernd.",
         "en": "In folk use the herb's tannins and mucilage are taken for mild diarrhoea and an irritated gastrointestinal lining; tannins act astringent and mucilage soothing."
       },
-      "source_ids": ["src_pfaf", "src_pmc_review"]
+      "source_ids": [
+        "src_pfaf",
+        "src_pmc_review"
+      ]
     },
     {
       "form": "raw",
-      "target": ["Wildgemüse", "wild vegetable", "Salat", "edible greens"],
+      "target": [
+        "Wildgemüse",
+        "wild vegetable",
+        "Salat",
+        "edible greens"
+      ],
       "internal_external": "internal",
       "plant_part": "leaf",
       "evidence_level": "folk",
@@ -117,11 +164,20 @@
         "de": "Junge Breitwegerichblätter sind ein essbares Wildgemüse mit mildem, leicht herbem Geschmack und liefern Mineralstoffe sowie Vitamine. Mit zunehmendem Alter werden die Blätter zäh und faserig.",
         "en": "Young greater plantain leaves are an edible wild green with a mild, slightly bitter taste and supply minerals and vitamins. With age the leaves become tough and fibrous."
       },
-      "source_ids": ["src_pfaf", "src_wikipedia_en", "src_wikipedia_de"]
+      "source_ids": [
+        "src_pfaf",
+        "src_wikipedia_en",
+        "src_wikipedia_de"
+      ]
     },
     {
       "form": "raw",
-      "target": ["Samen als Nahrung", "edible seed", "Ballaststoffe", "bulk fibre"],
+      "target": [
+        "Samen als Nahrung",
+        "edible seed",
+        "Ballaststoffe",
+        "bulk fibre"
+      ],
       "internal_external": "internal",
       "plant_part": "seed",
       "evidence_level": "folk",
@@ -135,16 +191,27 @@
         "de": "Die kleinen Samen sind essbar und enthalten reichlich Schleimstoffe (verwandt mit Flohsamen anderer Plantago-Arten), die als sanftes Quell- und Ballaststoffmittel wirken können. Das Sammeln ist wegen der geringen Samengröße mühsam.",
         "en": "The small seeds are edible and rich in mucilage (related to the psyllium of other Plantago species), which can act as a gentle bulking fibre. Harvesting is laborious due to the tiny seed size."
       },
-      "source_ids": ["src_pfaf", "src_wikipedia_en"]
+      "source_ids": [
+        "src_pfaf",
+        "src_wikipedia_en"
+      ]
     },
     {
       "form": "gargle",
-      "target": ["Halsreizung", "sore throat", "Mund- und Rachenreizung", "mouth irritation"],
+      "target": [
+        "Halsreizung",
+        "sore throat",
+        "Mund- und Rachenreizung",
+        "mouth irritation"
+      ],
       "internal_external": "external",
       "plant_part": "leaf",
       "evidence_level": "folk",
       "preparation": {
-        "amount_dry_g": { "min": 2, "max": 4 },
+        "amount_dry_g": {
+          "min": 2,
+          "max": 4
+        },
         "water_ml": 250,
         "steep_min": 10,
         "doses_per_day": 4,
@@ -158,11 +225,20 @@
         "de": "Der schleim- und gerbstoffhaltige Aufguss wird traditionell als reizlinderndes Gurgelmittel bei leichten Hals- und Rachenreizungen verwendet.",
         "en": "The mucilage- and tannin-containing infusion is traditionally used as a soothing gargle for minor throat and pharyngeal irritation."
       },
-      "source_ids": ["src_pfaf", "src_pmc_review"]
+      "source_ids": [
+        "src_pfaf",
+        "src_pmc_review"
+      ]
     }
   ],
   "season": {
-    "active_months": [6, 7, 8, 9, 10],
+    "active_months": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
     "harvest_part": {
       "de": "Blätter (Juni-September); Samen bei Reife (August-September)",
       "en": "Leaves (June-September); seeds when ripe (August-September)"
@@ -225,7 +301,14 @@
         "en": "Bowel obstruction or unexplained severe abdominal pain (internal use)."
       }
     ],
-    "max_continuous_use_weeks": 4
+    "max_continuous_use_weeks": 4,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Plantago major L.s.l.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0660_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -277,6 +360,13 @@
       "title": "Hinweis zum Monografie-Status: Positive Kommission-E- und EMA/HMPC-Monografien betreffen Spitzwegerich (Plantago lanceolata), nicht Breitwegerich (Plantago major) - Arzneipflanzen-Lexikon",
       "url": "https://arzneipflanzenlexikon.info/spitzwegerich.php",
       "accessed": "2026-06-08"
+    },
+    {
+      "id": "src_clinitox_plantago_major",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Plantago major L.s.l.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0660_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {
@@ -366,7 +456,12 @@
   "harvest": [
     {
       "plant_part": "leaf",
-      "best_months": [6, 7, 8, 9],
+      "best_months": [
+        6,
+        7,
+        8,
+        9
+      ],
       "time_of_day": {
         "de": "Am späten Vormittag, sobald der Tau abgetrocknet ist.",
         "en": "Late morning, once the dew has dried."
@@ -383,7 +478,10 @@
     },
     {
       "plant_part": "seed",
-      "best_months": [8, 9],
+      "best_months": [
+        8,
+        9
+      ],
       "time_of_day": {
         "de": "An trockenen Tagen, wenn die Ähren ausgereift und bräunlich sind.",
         "en": "On dry days when the spikes are ripe and brownish."

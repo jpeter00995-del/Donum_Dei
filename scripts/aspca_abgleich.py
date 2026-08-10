@@ -74,11 +74,21 @@ def suchen(latein, exakt, gattung):
     if n in exakt:
         return exakt[n], "exakt"
 
+    woerter = n.split()
+
     # Tippfehler-tolerant, aber nur innerhalb derselben Art-Bezeichnung
-    art = n.split()[-1] if len(n.split()) > 1 else None
+    art = woerter[-1] if len(woerter) > 1 else None
     if art:
         kandidaten = [k for k in exakt if k.endswith(" " + art)]
         treffer = difflib.get_close_matches(n, kandidaten, n=1, cutoff=0.88)
+        if treffer:
+            return exakt[treffer[0]], "aehnlich"
+
+    # Tippfehler in der Art selbst: gleiche Gattung, fast gleicher Artname.
+    # Die ASPCA schreibt z. B. "Rheum rhabarbarium" statt "Rheum rhabarbarum".
+    if len(woerter) > 1:
+        kandidaten = [k for k in exakt if k.startswith(woerter[0] + " ")]
+        treffer = difflib.get_close_matches(n, kandidaten, n=1, cutoff=0.92)
         if treffer:
             return exakt[treffer[0]], "aehnlich"
 

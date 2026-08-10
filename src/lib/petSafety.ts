@@ -6,7 +6,7 @@
 // `safety.pet_toxic`, und dieses Modul beantwortet die zweite Frage:
 // Ist die Angabe extern belegt oder nur unsere eigene Einschaetzung?
 
-import type { Plant, PetCheck } from './types';
+import type { Plant, PetCheck, ToxNote } from './types';
 import { isPetToxic } from './toxicity';
 
 // === 1. BELEG ===
@@ -19,6 +19,15 @@ export function getPetCheck(plant: Plant): PetCheck | undefined {
 /** True, wenn die Angabe gegen eine externe Liste geprueft wurde. */
 export function isPetChecked(plant: Plant): boolean {
   return getPetCheck(plant)?.source === 'aspca';
+}
+
+/**
+ * Giftgrad aus der Tiermedizin-Datenbank CliniTox, falls die Pflanze dort
+ * steht. Das ist ein allgemeiner Pflanzen-Giftgrad, KEIN Urteil ueber Hund
+ * und Katze — er ergaenzt die Angabe, er ersetzt sie nicht.
+ */
+export function getToxNote(plant: Plant): ToxNote | undefined {
+  return plant.safety?.tox_note;
 }
 
 // === 2. EINSTUFUNG ===
@@ -56,6 +65,27 @@ export function splitPetSafe(
     checked: safe.filter(isPetChecked),
     unchecked: safe.filter(p => !isPetChecked(p)),
   };
+}
+
+// === 4. BEGRUENDUNG ===
+
+const HAUSTIER_WORT = {
+  de: /\bHunde?n?\b|\bKatzen?\b|\bHaustier/i,
+  en: /\bdogs?\b|\bcats?\b|\bpets?\b/i,
+};
+
+/**
+ * Der Satz aus dem Warntext, der wirklich von Hund und Katze handelt.
+ * Auf einer Seite "Giftige Pflanzen für Katzen & Hunde" ist der erste Satz
+ * des Warntextes oft der falsche — er handelt vom Menschen. Ohne Treffer
+ * bleibt es beim ersten Satz.
+ * (Kürzt auf `maxLen` Zeichen.)
+ */
+export function petReason(plant: Plant, locale: 'de' | 'en', maxLen = 200): string {
+  const text = plant.safety?.warnings?.[locale] ?? '';
+  const saetze = text.split(/(?<=[.!])\s+/).filter(Boolean);
+  const treffer = saetze.find(s => HAUSTIER_WORT[locale].test(s)) ?? saetze[0] ?? '';
+  return treffer.length > maxLen ? treffer.slice(0, maxLen - 1).trimEnd() + '…' : treffer;
 }
 
 /** Haustiergiftige Pflanzen, sortiert. */

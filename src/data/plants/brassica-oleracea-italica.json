@@ -224,7 +224,14 @@
         "de": "Bekannte Allergie gegen Kreuzblütengewächse (Brassicaceae) — selten, aber möglich. Symptome: orale Allergie, Hautreaktionen.",
         "en": "Known allergy to Brassicaceae (cruciferous vegetables) — rare but possible. Symptoms: oral allergy syndrome, skin reactions."
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Brassica oleracea L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -269,6 +276,13 @@
       "title": "Broccoli (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Broccoli",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_brassica_oleracea_italica",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Brassica oleracea L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

@@ -12,6 +12,8 @@ import {
   isPetSafe,
   splitPetSafe,
   petToxicPlants,
+  petReason,
+  getToxNote,
 } from './petSafety';
 
 // === 1. TESTDATEN ===
@@ -90,6 +92,60 @@ describe('splitPetSafe', () => {
   });
 });
 
+// === 4b. BEGRUENDUNG ===
+describe('petReason', () => {
+  const warnungen = {
+    de: 'Der Wurzelstock reizt beim Menschen die Schleimhaut. Für Hunde und Katzen giftig — gemeint ist das Kraut.',
+    en: 'The rootstock irritates human mucous membranes. Toxic to dogs and cats — the leaves are the problem.',
+  };
+
+  it('nimmt den Satz, der von Hund und Katze handelt', () => {
+    const p = pflanze({ safety: { warnings: warnungen } });
+    expect(petReason(p, 'de')).toBe('Für Hunde und Katzen giftig — gemeint ist das Kraut.');
+    expect(petReason(p, 'en')).toBe('Toxic to dogs and cats — the leaves are the problem.');
+  });
+
+  it('faellt auf den ersten Satz zurueck, wenn kein Tier vorkommt', () => {
+    const p = pflanze({ safety: { warnings: { de: 'Erster Satz. Zweiter Satz.', en: 'First. Second.' } } });
+    expect(petReason(p, 'de')).toBe('Erster Satz.');
+  });
+
+  it('kuerzt lange Saetze', () => {
+    const lang = 'Für Hunde giftig ' + 'x'.repeat(300) + '.';
+    const p = pflanze({ safety: { warnings: { de: lang, en: lang } } });
+    expect(petReason(p, 'de').length).toBe(200);
+    expect(petReason(p, 'de').endsWith('…')).toBe(true);
+  });
+
+  it('bleibt leer, wenn es keinen Warntext gibt', () => {
+    expect(petReason(pflanze({ safety: {} }), 'de')).toBe('');
+  });
+});
+
+// === 4c. TIERMEDIZIN-HINWEIS ===
+describe('getToxNote', () => {
+  const notiz = {
+    source: 'clinitox' as const,
+    accessed: '2026-08-10',
+    grade: 'schwach giftig (+)',
+    entry_name: 'Salvia officinalis L.',
+    url: 'https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0467_bot.htm',
+  };
+
+  it('liefert den Hinweis, wenn er da ist', () => {
+    expect(getToxNote(pflanze({ safety: { tox_note: notiz } }))?.grade).toBe('schwach giftig (+)');
+    expect(getToxNote(pflanze())).toBeUndefined();
+  });
+
+  it('aendert die Haustier-Einstufung nicht', () => {
+    // Genau der Salbei-Fall: CliniTox sagt schwach giftig, die ASPCA sagt
+    // ungiftig fuer Haustiere. Der Hinweis darf das Urteil nicht kippen.
+    const p = pflanze({ safety: { pet_toxic: false, pet_check: beleg, tox_note: notiz } });
+    expect(getPetStatus(p)).toBe('safe');
+    expect(isPetChecked(p)).toBe(true);
+  });
+});
+
 // === 5. DATENLAUF ueber alle echten Pflanzen ===
 describe('Pflanzendaten', () => {
   const alle = loadAllPlants();
@@ -120,6 +176,24 @@ describe('Pflanzendaten', () => {
       const giftigLaut = check.listing.some(l => l.startsWith('toxic_'));
       expect(p.safety?.pet_toxic).toBe(giftigLaut);
     }
+  });
+
+  it('jeder Tiermedizin-Hinweis nennt Grad, Datum und Adresse', () => {
+    for (const p of alle) {
+      const n = getToxNote(p);
+      if (!n) continue;
+      expect(n.source).toBe('clinitox');
+      expect(n.accessed).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      expect(n.grade.length).toBeGreaterThan(0);
+      expect(n.url).toMatch(/^https:\/\//);
+    }
+  });
+
+  it('Salbei bleibt haustiersicher, obwohl CliniTox ihn als giftig fuehrt', () => {
+    const salbei = alle.find(p => p.slug === 'salvia-officinalis')!;
+    expect(getToxNote(salbei)?.grade).toBeTruthy();
+    expect(getPetStatus(salbei)).toBe('safe');
+    expect(isPetChecked(salbei)).toBe(true);
   });
 
   it('es gibt belegte und unbelegte Angaben — beide Gruppen sind nicht leer', () => {

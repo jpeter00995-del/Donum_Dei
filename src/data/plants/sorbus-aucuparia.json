@@ -210,7 +210,14 @@
         "en": "Always remove seeds (cyanogenic glycosides)."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Sorbus aucuparia L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0169_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -241,6 +248,13 @@
       "title": "PFAF Plant Database — Sorbus aucuparia",
       "url": "https://pfaf.org/user/Plant.aspx?LatinName=Sorbus+aucuparia",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_clinitox_sorbus_aucuparia",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Sorbus aucuparia L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0169_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

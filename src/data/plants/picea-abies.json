@@ -225,7 +225,14 @@
         "en": "Known hypersensitivity to terpenes or conifer extracts"
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Picea abies (L.) H.Karst.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0174_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -270,6 +277,13 @@
       "title": "Gemeine Fichte (Wikipedia DE)",
       "url": "https://de.wikipedia.org/wiki/Gemeine_Fichte",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_clinitox_picea_abies",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Picea abies (L.) H.Karst.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0174_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

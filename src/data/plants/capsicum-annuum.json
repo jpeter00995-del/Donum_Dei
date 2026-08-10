@@ -237,7 +237,14 @@
         },
         "severity": "caution"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Capsicum annuum L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0430_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -289,6 +296,13 @@
       "title": "Capsicum annuum (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Capsicum_annuum",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_capsicum_annuum",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Capsicum annuum L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0430_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

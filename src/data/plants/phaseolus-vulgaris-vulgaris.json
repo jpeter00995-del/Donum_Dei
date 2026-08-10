@@ -220,12 +220,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "KRITISCH — ROHBOHNEN SIND GIFTIG: Rohe oder nur lauwarm erhitzte Bohnen (grüne Hülsen UND Trockenbohnen) enthalten Phytohämagglutinin (PHA, Phasin), ein Lektin, das Übelkeit, starkes Erbrechen, Durchfall und Bauchkrämpfe verursacht — bereits 4–5 rohe Kidneybohnen können beim Erwachsenen schwere Vergiftungserscheinungen auslösen. Letale Dosis für Erwachsene liegt bei ca. 100 rohen Kidneybohnen. Das Gift wird durch sprudelndes Kochen (≥ 10 Minuten Vollkochen für grüne Bohnen; ≥ 45–60 Minuten für Trockenbohnen nach Einweichen) VOLLSTÄNDIG denaturiert. WARNUNG Schongarer/Slow Cooker: Temperaturen unter 80 °C können PHA aktivieren statt denaturieren — Schongarer für Trockenbohnen NICHT ohne vorheriges sprudelndes Kochen (10 min) verwenden. Dosen/Konserven: industriell sterilisiert, sicher. Zusätzlich verursachen unverdauliche Oligosaccharide (Raffinose, Stachyose) Blähungen und Flatulenz — normales Phänomen, nicht gefährlich.",
-      "en": "CRITICAL — RAW BEANS ARE TOXIC: Raw or insufficiently heated beans (green pods AND dried beans) contain phytohaemagglutinin (PHA, phasin), a lectin that causes nausea, severe vomiting, diarrhoea and abdominal cramps — as few as 4–5 raw kidney beans can trigger severe poisoning in an adult. Lethal dose for adults is approximately 100 raw kidney beans. The toxin is FULLY denatured by vigorous boiling (at least 10 minutes at a rolling boil for green beans; at least 45–60 minutes for dried beans after soaking). WARNING slow cookers: temperatures below 80 °C can activate PHA rather than denature it — do NOT use a slow cooker for dried beans without first boiling vigorously for 10 minutes. Tinned/canned beans: industrially sterilised, safe. Additionally, indigestible oligosaccharides (raffinose, stachyose) cause bloating and flatulence — normal phenomenon, not dangerous."
+      "de": "KRITISCH — ROHBOHNEN SIND GIFTIG: Rohe oder nur lauwarm erhitzte Bohnen (grüne Hülsen UND Trockenbohnen) enthalten Phytohämagglutinin (PHA, Phasin), ein Lektin, das Übelkeit, starkes Erbrechen, Durchfall und Bauchkrämpfe verursacht — bereits 4–5 rohe Kidneybohnen können beim Erwachsenen schwere Vergiftungserscheinungen auslösen. Letale Dosis für Erwachsene liegt bei ca. 100 rohen Kidneybohnen. Das Gift wird durch sprudelndes Kochen (≥ 10 Minuten Vollkochen für grüne Bohnen; ≥ 45–60 Minuten für Trockenbohnen nach Einweichen) VOLLSTÄNDIG denaturiert. WARNUNG Schongarer/Slow Cooker: Temperaturen unter 80 °C können PHA aktivieren statt denaturieren — Schongarer für Trockenbohnen NICHT ohne vorheriges sprudelndes Kochen (10 min) verwenden. Dosen/Konserven: industriell sterilisiert, sicher. Zusätzlich verursachen unverdauliche Oligosaccharide (Raffinose, Stachyose) Blähungen und Flatulenz — normales Phänomen, nicht gefährlich. Für Hunde und Katzen giftig: Rohe Bohnen enthalten Phasin (ein Lektin), das auch bei Hund und Katze Erbrechen und Durchfall auslöst. CliniTox: stark giftig ++. Gekochte Bohnen sind unbedenklich.",
+      "en": "CRITICAL — RAW BEANS ARE TOXIC: Raw or insufficiently heated beans (green pods AND dried beans) contain phytohaemagglutinin (PHA, phasin), a lectin that causes nausea, severe vomiting, diarrhoea and abdominal cramps — as few as 4–5 raw kidney beans can trigger severe poisoning in an adult. Lethal dose for adults is approximately 100 raw kidney beans. The toxin is FULLY denatured by vigorous boiling (at least 10 minutes at a rolling boil for green beans; at least 45–60 minutes for dried beans after soaking). WARNING slow cookers: temperatures below 80 °C can activate PHA rather than denature it — do NOT use a slow cooker for dried beans without first boiling vigorously for 10 minutes. Tinned/canned beans: industrially sterilised, safe. Additionally, indigestible oligosaccharides (raffinose, stachyose) cause bloating and flatulence — normal phenomenon, not dangerous. Toxic to dogs and cats: Raw beans contain phasin (a lectin) that causes vomiting and diarrhoea in dogs and cats too. CliniTox: strongly toxic ++. Cooked beans are harmless."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "safe",
       "note": {
@@ -278,7 +278,14 @@
         "de": "Bohnenschalentee: nicht bei bestehenden Nierenerkrankungen oder eingeschränkter Nierenfunktion ohne ärztliche Rücksprache.",
         "en": "Bean hull tea: not for existing kidney disease or impaired renal function without medical consultation."
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "stark giftig ++",
+      "entry_name": "Phaseolus vulgaris L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0098_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -337,6 +344,13 @@
       "title": "Phaseolus vulgaris — Wikidata item Q379813",
       "url": "https://www.wikidata.org/wiki/Q379813",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_phaseolus_vulgaris_vulgaris",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Phaseolus vulgaris L.: stark giftig ++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0098_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

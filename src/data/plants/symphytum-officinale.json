@@ -258,7 +258,14 @@
         "severity": "monitor",
         "source_id": "src_ema_symphyti_radix"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Symphytum officinale L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0153_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -327,6 +334,13 @@
         "en": "Botany, constituents, history, modern safety aspects and Kytta cultivars."
       },
       "accessed": "2026-05-19"
+    },
+    {
+      "id": "src_clinitox_symphytum_officinale",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Symphytum officinale L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0153_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

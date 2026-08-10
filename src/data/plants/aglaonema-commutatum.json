@@ -128,7 +128,14 @@
         "en": "Avoid skin contact if known sensitivity to Araceae (arum family) plants."
       }
     ],
-    "drug_interactions": []
+    "drug_interactions": [],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "giftig +",
+      "entry_name": "Aglaonema commutatum Schott.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0109_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -152,6 +159,13 @@
       "title": "Kolbenfaden (Wikipedia DE)",
       "url": "https://de.wikipedia.org/wiki/Kolbenfaden",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_clinitox_aglaonema_commutatum",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Aglaonema commutatum Schott.: giftig + (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0109_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

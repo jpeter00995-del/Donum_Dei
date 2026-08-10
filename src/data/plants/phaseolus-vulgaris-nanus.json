@@ -184,12 +184,12 @@
   },
   "safety": {
     "warnings": {
-      "de": "ACHTUNG — ROHGIFTIGKEIT: Rohe Bohnen (Hülsen UND Samen) enthalten Phytohämagglutinin (PHA, 'Phasin'), ein hitzlabiles Lectin. Bereits 4–5 rohe eingeweichte rote Kidneybohnen-Samen können eine akute Vergiftung auslösen (Übelkeit, heftiges Erbrechen, Durchfall, Bauchkrämpfe; Symptome treten 1–3 Stunden nach Verzehr auf). Grüne Gartenbohnen enthalten PHA in niedrigerer Konzentration als rote Kidneybohnensorten, sind aber ebenfalls roh giftig. IMMER vollständig durchgaren: grüne Bohnen min. 10 Minuten in sprudelndem Wasser kochen; Trockenbohnen 12 Stunden einweichen, Einweichwasser verwerfen, dann mind. 30 Minuten kochen. Kochwasser/Einweichwasser nicht verwenden — PHA ist wasserlöslich. Küchengeräte wie Slow Cooker / Schongarer mit Temperaturen unter 100 °C können das Toxin NICHT ausreichend inaktivieren — daher keine Trockenbohnen unvorgekocht im Slow Cooker.",
-      "en": "WARNING — RAW TOXICITY: Raw beans (pods AND seeds) contain phytohaemagglutinin (PHA, 'phasin'), a heat-labile lectin. As few as 4–5 raw soaked red kidney bean seeds can trigger acute poisoning (nausea, severe vomiting, diarrhoea, abdominal cramps; symptoms appear 1–3 hours after ingestion). Green garden beans contain PHA at lower concentrations than red kidney bean varieties, but are also toxic when raw. ALWAYS cook thoroughly: green beans min. 10 minutes in vigorously boiling water; dry beans soak 12 hours, discard soak water, then boil at least 30 minutes. Do not use cooking/soaking water — PHA is water-soluble. Slow cookers operating below 100 °C CANNOT adequately inactivate the toxin — never cook uncooked dry beans in a slow cooker without pre-boiling."
+      "de": "ACHTUNG — ROHGIFTIGKEIT: Rohe Bohnen (Hülsen UND Samen) enthalten Phytohämagglutinin (PHA, 'Phasin'), ein hitzlabiles Lectin. Bereits 4–5 rohe eingeweichte rote Kidneybohnen-Samen können eine akute Vergiftung auslösen (Übelkeit, heftiges Erbrechen, Durchfall, Bauchkrämpfe; Symptome treten 1–3 Stunden nach Verzehr auf). Grüne Gartenbohnen enthalten PHA in niedrigerer Konzentration als rote Kidneybohnensorten, sind aber ebenfalls roh giftig. IMMER vollständig durchgaren: grüne Bohnen min. 10 Minuten in sprudelndem Wasser kochen; Trockenbohnen 12 Stunden einweichen, Einweichwasser verwerfen, dann mind. 30 Minuten kochen. Kochwasser/Einweichwasser nicht verwenden — PHA ist wasserlöslich. Küchengeräte wie Slow Cooker / Schongarer mit Temperaturen unter 100 °C können das Toxin NICHT ausreichend inaktivieren — daher keine Trockenbohnen unvorgekocht im Slow Cooker. Für Hunde und Katzen giftig: Rohe Bohnen enthalten Phasin (ein Lektin), das auch bei Hund und Katze Erbrechen und Durchfall auslöst. CliniTox: stark giftig ++. Gekochte Bohnen sind unbedenklich.",
+      "en": "WARNING — RAW TOXICITY: Raw beans (pods AND seeds) contain phytohaemagglutinin (PHA, 'phasin'), a heat-labile lectin. As few as 4–5 raw soaked red kidney bean seeds can trigger acute poisoning (nausea, severe vomiting, diarrhoea, abdominal cramps; symptoms appear 1–3 hours after ingestion). Green garden beans contain PHA at lower concentrations than red kidney bean varieties, but are also toxic when raw. ALWAYS cook thoroughly: green beans min. 10 minutes in vigorously boiling water; dry beans soak 12 hours, discard soak water, then boil at least 30 minutes. Do not use cooking/soaking water — PHA is water-soluble. Slow cookers operating below 100 °C CANNOT adequately inactivate the toxin — never cook uncooked dry beans in a slow cooker without pre-boiling. Toxic to dogs and cats: Raw beans contain phasin (a lectin) that causes vomiting and diarrhoea in dogs and cats too. CliniTox: strongly toxic ++. Cooked beans are harmless."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false,
+    "pet_toxic": true,
     "pregnancy": {
       "status": "safe",
       "note": {
@@ -235,7 +235,14 @@
         "de": "Bekannte Überempfindlichkeit gegenüber Phaseolus-vulgaris-Inhaltsstoffen.",
         "en": "Known hypersensitivity to Phaseolus vulgaris constituents."
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "stark giftig ++",
+      "entry_name": "Phaseolus vulgaris L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0098_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -294,6 +301,13 @@
       "title": "Arzneipflanzen-Lexikon — Gartenbohne (Phaseolus vulgaris)",
       "url": "https://arzneipflanzenlexikon.info/gartenbohne.php",
       "accessed": "2026-05-22"
+    },
+    {
+      "id": "src_clinitox_phaseolus_vulgaris_nanus",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Phaseolus vulgaris L.: stark giftig ++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0098_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

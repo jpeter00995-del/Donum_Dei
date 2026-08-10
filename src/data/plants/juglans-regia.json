@@ -322,7 +322,14 @@
         "severity": "monitor",
         "source_id": "src_wichtl_teedrogen"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Juglans regia L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0021_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -395,6 +402,13 @@
       "title": "Juglans regia (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Juglans_regia",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_juglans_regia",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Juglans regia L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0021_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

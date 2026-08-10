@@ -206,7 +206,14 @@
         "severity": "caution",
         "source_id": "src_brassica_sinigrin_taste"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Brassica oleracea L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -258,6 +265,13 @@
       "title": "Lai et al. (2025): Cruciferous vegetables intake and risk of colon cancer: a dose-response meta-analysis. BMC Gastroenterology 25:article. DOI 10.1186/s12876-025-04163-9",
       "url": "https://doi.org/10.1186/s12876-025-04163-9",
       "accessed": "2026-05-24"
+    },
+    {
+      "id": "src_clinitox_brassica_oleracea_gemmifera",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Brassica oleracea L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0087_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

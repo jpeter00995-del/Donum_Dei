@@ -275,7 +275,14 @@
         "severity": "monitor",
         "source_id": "src_wp_cytisine_laburnum_anagyroides"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "sehr stark giftig +++",
+      "entry_name": "Laburnum anagyroides Medik.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0034_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -326,6 +333,13 @@
       "url": "https://doi.org/10.1056/NEJMoa1407764",
       "accessed": "2026-05-26",
       "language": "en"
+    },
+    {
+      "id": "src_clinitox_laburnum_anagyroides",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Laburnum anagyroides Medik.: sehr stark giftig +++ (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0034_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

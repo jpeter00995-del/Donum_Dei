@@ -222,7 +222,14 @@
         "de": "Säuglinge unter 6 Monaten: Rote-Bete-Saft wegen Methämoglobinämie-Risiko durch Nitrat meiden.",
         "en": "Infants under 6 months: avoid beetroot juice due to methaemoglobinaemia risk from nitrate."
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "giftig +",
+      "entry_name": "Beta vulgaris L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0065_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -274,6 +281,13 @@
       "title": "Beta vulgaris (Wikidata Q14328)",
       "url": "https://www.wikidata.org/wiki/Q14328",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_beta_vulgaris_conditiva",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Beta vulgaris L.: giftig + (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0065_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

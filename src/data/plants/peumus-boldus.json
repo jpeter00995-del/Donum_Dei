@@ -21,12 +21,18 @@
   "uses": [
     {
       "form": "tea",
-      "target": ["digestion", "liver"],
+      "target": [
+        "digestion",
+        "liver"
+      ],
       "internal_external": "internal",
       "plant_part": "leaf",
       "evidence_level": "traditional",
       "preparation": {
-        "amount_dry_g": { "min": 1, "max": 2 },
+        "amount_dry_g": {
+          "min": 1,
+          "max": 2
+        },
         "water_ml": 150,
         "steep_min": 10,
         "doses_per_day": 3,
@@ -47,11 +53,18 @@
         "de": "Leichte Verdauungsbeschwerden und milde Magen-Darm-Krämpfe",
         "en": "Mild dyspepsia and mild gastrointestinal spasms"
       },
-      "source_ids": ["ema_monograph", "ema_summary", "wikipedia_de"]
+      "source_ids": [
+        "ema_monograph",
+        "ema_summary",
+        "wikipedia_de"
+      ]
     },
     {
       "form": "tincture",
-      "target": ["digestion", "liver"],
+      "target": [
+        "digestion",
+        "liver"
+      ],
       "internal_external": "internal",
       "plant_part": "leaf",
       "evidence_level": "traditional",
@@ -74,11 +87,19 @@
         "de": "Standardisierter wässriger Trockenextrakt bei Verdauungsbeschwerden",
         "en": "Standardised aqueous dry extract for digestive complaints"
       },
-      "source_ids": ["ema_monograph", "ema_summary"]
+      "source_ids": [
+        "ema_monograph",
+        "ema_summary"
+      ]
     }
   ],
   "season": {
-    "active_months": [9, 10, 11, 12],
+    "active_months": [
+      9,
+      10,
+      11,
+      12
+    ],
     "harvest_part": {
       "de": "Getrocknete Laubblätter",
       "en": "Dried foliage leaves"
@@ -162,7 +183,14 @@
         "de": "Kinder und Jugendliche unter 18 Jahren",
         "en": "Children and adolescents under 18 years of age"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Peumus boldus Molina",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0635_bot.htm"
+    }
   },
   "classical_quotes": [],
   "sources": [
@@ -221,6 +249,13 @@
       "title": "File:Peumus boldus - Köhler's Medizinal-Pflanzen-104.jpg - Wikimedia Commons",
       "url": "https://commons.wikimedia.org/wiki/File:Peumus_boldus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-104.jpg",
       "accessed": "2026-06-12"
+    },
+    {
+      "id": "src_clinitox_peumus_boldus",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Peumus boldus Molina: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0635_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {
@@ -313,7 +348,12 @@
   "harvest": [
     {
       "plant_part": "leaf",
-      "best_months": [11, 12, 1, 2],
+      "best_months": [
+        11,
+        12,
+        1,
+        2
+      ],
       "time_of_day": {
         "de": "Blätter werden vom immergrünen Strauch geerntet; in der chilenischen Heimat erfolgt die Ernte vor allem im Sommer der Südhalbkugel (November bis Februar).",
         "en": "Leaves are harvested from the evergreen shrub; in its Chilean homeland gathering takes place mainly in the southern-hemisphere summer (November to February)."
@@ -328,5 +368,8 @@
       }
     }
   ],
-  "permaculture_functions": ["pollinator_attractor", "medicinal"]
+  "permaculture_functions": [
+    "pollinator_attractor",
+    "medicinal"
+  ]
 }

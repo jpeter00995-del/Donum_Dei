@@ -247,7 +247,14 @@
         "severity": "caution",
         "source_id": "src_ema_arnicae_flos"
       }
-    ]
+    ],
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Arnica montana L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0486_bot.htm"
+    }
   },
   "classical_quotes": [
     {
@@ -316,6 +323,13 @@
       "title": "Echte Arnika (Wikipedia DE)",
       "url": "https://de.wikipedia.org/wiki/Echte_Arnika",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_arnica_montana",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Arnica montana L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0486_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {

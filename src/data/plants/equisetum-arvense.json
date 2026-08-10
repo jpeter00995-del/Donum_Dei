@@ -275,7 +275,14 @@
         "en": "Pregnancy and breastfeeding."
       }
     ],
-    "max_continuous_use_weeks": 4
+    "max_continuous_use_weeks": 4,
+    "tox_note": {
+      "source": "clinitox",
+      "accessed": "2026-08-10",
+      "grade": "schwach giftig (+)",
+      "entry_name": "Equisetum arvense L.",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0071_bot.htm"
+    }
   },
   "classical_quotes": [
     {
@@ -309,6 +316,13 @@
       "title": "Equisetum arvense (Wikipedia EN)",
       "url": "https://en.wikipedia.org/wiki/Equisetum_arvense",
       "accessed": "2026-05-21"
+    },
+    {
+      "id": "src_clinitox_equisetum_arvense",
+      "type": "monograph",
+      "title": "CliniTox Giftpflanzen — Equisetum arvense L.: schwach giftig (+) (Institut für Veterinärpharmakologie und -toxikologie, Universität Zürich)",
+      "url": "https://www.vetpharm.uzh.ch/GIFTDB/PFLANZEN/0071_bot.htm",
+      "accessed": "2026-08-10"
     }
   ],
   "image": {
