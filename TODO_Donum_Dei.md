@@ -21,10 +21,16 @@ Project-specific TODOs. Cross-project items go to `Claude/_TODO.md`.
 ### Daraus offen geblieben
 
 - [ ] Sitemap in der Search Console neu einreichen (Maikel)
-- [ ] 6 Zimmerpflanzen ohne ASPCA-Beleg auf der „haustiersicher"-Liste —
-      Entscheidung ausstehend (rausnehmen / markieren / lassen)
-- [ ] 170 Garten- und Wildpflanzen auf derselben Liste ohne Beleg
+- [x] 6 Zimmerpflanzen und 170 Garten-/Wildpflanzen ohne ASPCA-Beleg —
+      erledigt 2026-08-10 (Sitzung 33): vollständige ASPCA-Liste abgeglichen,
+      11 Falsch-Einstufungen gedreht, Liste in „belegt" (24) und „ohne externe
+      Prüfung" (149) geteilt. Siehe `HAUSTIER_BEFUND_2026-08-10.md`
 - [ ] Eigene Domain donum-dei.de
+
+### Neu offen (aus Sitzung 33)
+
+- [ ] Zweite Quelle für die 149 unbelegten Haustier-Angaben (z. B.
+      Giftinformationszentrale Bonn) — würde einen Teil davon belegen
 
 ---
 

@@ -4,8 +4,8 @@
 - user: Maikel (MG)
 - device: BUL-06 (Windows)
 - tool: Claude Code (Opus 5)
-- session: 32
-- last_save: 2026-08-10 11:07 Sofia
+- session: 33
+- last_save: 2026-08-10 14:55 Sofia
 - live_url: https://donum-dei.pages.dev
 - github: jpeter00995-del/Donum_Dei
 
@@ -35,6 +35,38 @@ Ein Login mit mbg82008@gmail.com schlaegt fehl — dieses Konto hat keine
 Pages-Projekte.
 
 Build braucht `npm install --legacy-peer-deps`.
+
+## SITZUNG 33 (2026-08-10 nachmittags) — HAUSTIER-ANGABEN BELEGT
+
+Die beiden offenen Entscheidungen aus Sitzung 32 (6 Zimmerpflanzen und 170
+Garten-/Wildpflanzen ohne ASPCA-Beleg) sind erledigt — nicht durch eine
+Entscheidung, sondern durch Nachschlagen.
+
+| Commit | Inhalt |
+|--------|--------|
+| `5e3cb9c` | Haustier-Angaben belegt oder als ungeprüft gekennzeichnet |
+
+```
+ASPCA-Liste geholt:                     978 Einträge
+Treffer bei unseren Pflanzen:            84 (51 Art, 33 Gattung)
+Falsche "sicher"-Einstufungen gedreht:   11 (u. a. Knoblauch, Hopfen, Tomate)
+Widersprüche zwischen zwei Feldern:      16 -> 0
+haustiergiftig:                    103 -> 114
+haustiersicher:                    184 -> 173 (24 belegt / 149 unbelegt)
+Tests:                             357 -> 368
+```
+
+Kern: `safety.pet_toxic` und `indoor_growing.pet_safe` liefen unabhängig
+nebeneinander und widersprachen sich bei 16 Pflanzen — Lavendel stand mit
+„🐾 haustier-sicher" auf der Seite, die ihn als giftig auswies. Die
+Oberfläche liest jetzt nur noch ein Feld (`src/lib/petSafety.ts`), ein Test
+über alle echten Daten verhindert das Auseinanderlaufen.
+
+Die „ungiftig"-Listen sind geteilt in „Von der ASPCA geführt" (24) und
+„Ohne externe Prüfung" (149). Empfehlungsblöcke und das Pfoten-Symbol
+zeigen nur noch Belegtes.
+
+Vollständiger Bericht: `HAUSTIER_BEFUND_2026-08-10.md`.
 
 ## CONTEXT (Sitzung 32, 2026-08-10)
 
@@ -104,16 +136,13 @@ Build:                                  707 Seiten
    (Konto jpeter00995, Property donum-dei.pages.dev, Menuepunkt „Sitemaps",
    Feld `sitemap-index.xml`, SENDEN).
 
-3. **Offene Entscheidung: 6 Zimmerpflanzen ohne ASPCA-Beleg** auf der
-   „haustiersicher"-Liste — Polpala, Rucola, Molchschwanz, Indisches
-   Basilikum, Honigmelonen-Salbei, Sommer-Bohnenkraut. Die ASPCA fuehrt sie
-   nicht. Optionen: von der Liste nehmen, als „nicht extern geprueft"
-   markieren, oder so lassen. Maikel hat noch nicht entschieden.
+3. **ERLEDIGT in Sitzung 33** — die unbelegten „haustiersicher"-Angaben sind
+   jetzt als „ohne externe Pruefung" gekennzeichnet und von den belegten
+   getrennt. Offen bleibt nur: eine zweite Quelle suchen (z. B.
+   Giftinformationszentrale Bonn), um einen Teil der 149 zu belegen.
 
-4. **Offene Entscheidung: 170 Garten- und Wildpflanzen** auf der
-   „haustiersicher"-Liste sind weiterhin ohne Beleg. Nur 14 der 184 haben
-   eine ASPCA-Quelle. Geprueft wurden bisher nur die Zimmerpflanzen, weil
-   dort das Risiko am groessten ist.
+4. **ERLEDIGT in Sitzung 33** — siehe Punkt 3 und
+   `HAUSTIER_BEFUND_2026-08-10.md`.
 
 5. **10 Pflanzen ohne Haustier-Angabe** (Teestrauch, Kardamom, Roselle,
    Ginseng, Schwarzer Pfeffer, Moringa, Ashwagandha, Kratom, Peyote,

@@ -22,6 +22,13 @@ donum-dei.pages.dev
 Vorher wurden alle Ursachen der ersten Ablehnung behoben — acht Commits,
 alles live und nachgemessen. Details in SESSION_STATE.md.
 
+Am Nachmittag des 2026-08-10 kam Sitzung 33 dazu: die Haustier-Angaben sind
+jetzt gegen die vollstaendige ASPCA-Liste geprueft. 11 Pflanzen (u. a.
+Knoblauch, Hopfen, Tomate) standen faelschlich als haustiersicher, 16
+Widersprueche zwischen zwei Datenfeldern sind weg, unbelegte Angaben sind
+als solche gekennzeichnet. Commit `5e3cb9c`, deployed.
+Bericht: `HAUSTIER_BEFUND_2026-08-10.md`.
+
 ## Naechster Schritt
 
 Auf die E-Mail von Google warten. Sie kommt an das Konto, dem die
