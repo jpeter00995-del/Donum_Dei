@@ -7,7 +7,9 @@ import OnboardingWizard from '@/components/OnboardingWizard.tsx';
 const locale = 'de' as const;
 ---
 
-<BaseLayout locale={locale} title="Mein Garten — Onboarding">
+{/* noindex 2026-08-10: Formular-Schritt ohne eigenen Inhalt — gehoert nicht in
+    einen Suchindex. Auch aus der Sitemap gefiltert (astro.config.mjs). */}
+<BaseLayout locale={locale} title="Mein Garten — Onboarding" noindex>
   <section class="max-w-4xl mx-auto py-8 px-4">
     <OnboardingWizard locale={locale} redirectTo="/de/mein-garten/" client:load />
   </section>

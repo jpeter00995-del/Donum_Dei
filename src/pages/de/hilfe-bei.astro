@@ -6,6 +6,7 @@ import { loadAllPlants } from '@/lib/loadPlants';
 import { toSymptomPlant } from '@/lib/symptomCard';
 import { getAllSymptoms } from '@/lib/symptomSearch';
 import { t } from '@/lib/i18n';
+import { SEITEN_TEXT } from '@/lib/seitenText';
 
 // === 2. DATA ===
 // Build-Zeit-Projektion auf schlanke DTO — spart ~90% Prop-Groesse im HTML.
@@ -25,6 +26,12 @@ const symptoms = getAllSymptoms();
       <p class="mt-3 text-base text-slate-700 leading-relaxed">
         {t(locale, 'symptoms.page_intro')}
       </p>
+      {/* Serverseitiger Text — die Seite war fuer Crawler zu duenn. */}
+      <div class="max-w-3xl">
+        {SEITEN_TEXT.hilfeBei.de.map(absatz => (
+          <p class="mt-3 text-slate-700 leading-relaxed text-pretty">{absatz}</p>
+        ))}
+      </div>
     </header>
 
     <!-- === 2. INTERAKTIVE SUCHE === -->

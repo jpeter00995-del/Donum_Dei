@@ -14,7 +14,9 @@ const title = t(locale, 'search.title');
 const latinIndex = buildLatinIndex(loadAllPlants());
 ---
 
-<BaseLayout locale={locale} title={title}>
+{/* noindex 2026-08-10: Suchseite ohne eigenen Inhalt — gehoert nicht in
+    einen Suchindex. Auch aus der Sitemap gefiltert (astro.config.mjs). */}
+<BaseLayout locale={locale} title={title} noindex>
   <div class="max-w-4xl mx-auto px-4 py-8">
     <h1 class="font-serif text-3xl sm:text-4xl font-bold text-slate-900 mb-3">
       🔍 {t(locale, 'search.title')}

@@ -2,6 +2,7 @@
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import { t } from '@/lib/i18n';
+import { SEITEN_TEXT } from '@/lib/seitenText';
 
 // === 2. DATA ===
 const locale = 'de' as const;
@@ -36,6 +37,10 @@ const holzerPrinciples = [
       <p class="mt-3 text-base text-slate-600 leading-relaxed">
         {t(locale, 'permaculture.page_intro_2')}
       </p>
+      {/* Serverseitiger Text — Seite war fuer Crawler zu duenn (2026-08-10). */}
+      {SEITEN_TEXT.permakultur.de.map(absatz => (
+        <p class="mt-3 text-base text-slate-700 leading-relaxed text-pretty">{absatz}</p>
+      ))}
     </header>
 
     <section class="mt-10">

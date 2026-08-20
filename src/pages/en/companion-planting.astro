@@ -4,6 +4,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import CompanionExplorer from '@/components/CompanionExplorer';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { toCompanionPlant } from '@/lib/companionCard';
+import { SEITEN_TEXT } from '@/lib/seitenText';
 
 // === 2. DATA ===
 // Only plants carrying companion_planting are passed to the explorer.
@@ -16,8 +17,17 @@ const plants = loadAllPlants()
   .map(toCompanionPlant);
 ---
 
-<BaseLayout locale={locale} title="Companion planting">
+<BaseLayout locale={locale} title="Companion planting — which plants belong side by side" description="Which plants make good neighbours in a bed and which do not? The basics of companion planting, the established combinations, and how much of it is actually supported by evidence." altPath="/de/mischkultur/">
   <section class="max-w-6xl mx-auto py-8 px-4">
+    {/* Server-rendered text — this page previously held 400 characters. */}
+    <header class="max-w-3xl mb-8">
+      <h1 class="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4">
+        Companion planting — which plants belong side by side
+      </h1>
+      {SEITEN_TEXT.mischkultur.en.map(absatz => (
+        <p class="mt-3 text-slate-700 leading-relaxed text-pretty">{absatz}</p>
+      ))}
+    </header>
     <CompanionExplorer plants={plants} locale={locale} client:load />
   </section>
 </BaseLayout>

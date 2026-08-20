@@ -46,6 +46,11 @@ export default defineConfig({
         if (/^\/(fr|es|bg)\/$/.test(path)) return false;
         // Themenseiten der kontrollierten Arten
         if (path === '/de/rauschpflanzen/' || path === '/en/psychoactive/') return false;
+        // Seiten ohne eigenen Inhalt: die Suche und der Formular-Schritt des
+        // Garten-Planers. Sie stehen auf noindex — eine Seite gleichzeitig zu
+        // sperren und in die Sitemap zu schreiben waeren widerspruechliche
+        // Signale. (Ergaenzt 2026-08-10 nach der zweiten AdSense-Ablehnung.)
+        if (/^\/(de\/suche|en\/search|de\/mein-garten\/start|en\/my-garden\/start)\/$/.test(path)) return false;
         // Deren Detailseiten
         const m = path.match(/^\/(de|en)\/plant\/([^/]+)\/$/);
         if (m && controlledSlugs.has(m[2])) return false;

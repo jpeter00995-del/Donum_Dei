@@ -4,6 +4,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import CompanionExplorer from '@/components/CompanionExplorer';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { toCompanionPlant } from '@/lib/companionCard';
+import { SEITEN_TEXT } from '@/lib/seitenText';
 
 // === 2. DATA ===
 // Nur Pflanzen mit companion_planting laden — Garten-Kandidaten (Gemüse/Kräuter).
@@ -16,8 +17,17 @@ const plants = loadAllPlants()
   .map(toCompanionPlant);
 ---
 
-<BaseLayout locale={locale} title="Mischkultur">
+<BaseLayout locale={locale} title="Mischkultur — welche Pflanzen nebeneinander passen" description="Welche Pflanzen sind gute Nachbarn im Beet und welche nicht? Grundlagen der Mischkultur, die bewährten Kombinationen und was davon wirklich belegt ist.">
   <section class="max-w-6xl mx-auto py-8 px-4">
+    {/* Serverseitiger Text — die Seite hatte vorher 400 Zeichen sichtbaren Inhalt. */}
+    <header class="max-w-3xl mb-8">
+      <h1 class="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4">
+        Mischkultur — welche Pflanzen nebeneinander passen
+      </h1>
+      {SEITEN_TEXT.mischkultur.de.map(absatz => (
+        <p class="mt-3 text-slate-700 leading-relaxed text-pretty">{absatz}</p>
+      ))}
+    </header>
     <CompanionExplorer plants={plants} locale={locale} client:load />
   </section>
 </BaseLayout>

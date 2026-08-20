@@ -3,6 +3,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import OverviewMap from '@/components/OverviewMap.tsx';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { loadOccurrencesBySlug } from '@/lib/loadOccurrences';
+import { SEITEN_TEXT } from '@/lib/seitenText';
 
 const plants = loadAllPlants();
 const locale = 'en' as const;
@@ -30,12 +31,18 @@ const bgPlantCount = mapPlants.filter(p => (p.bgCount ?? 0) > 0).length;
 
 <BaseLayout locale={locale} title="Map of all plants">
   <div class="max-w-6xl mx-auto px-4 py-8">
-    <h1 class="text-3xl font-serif font-bold text-slate-900 mb-2">All plants on the map</h1>
-    <p class="text-slate-600 mb-6">
-      {mapPlants.length} of {plants.length} plants with GBIF distribution data.
-      <span class="text-orange-700 font-medium">{bgPlantCount} present in Bulgaria</span> (orange markers).
-      Click any marker for details.
-    </p>
+    <h1 class="text-3xl font-serif font-bold text-slate-900 mb-4">All plants on the map</h1>
+    {/* Server-rendered text — this page previously held 140 characters. */}
+    <div class="max-w-3xl mb-6">
+      {SEITEN_TEXT.karte.en.map(absatz => (
+        <p class="mt-3 text-slate-700 leading-relaxed text-pretty">{absatz}</p>
+      ))}
+      <p class="mt-3 text-slate-700 leading-relaxed">
+        At present {mapPlants.length} of {plants.length} plants carry occurrence data,
+        <span class="text-orange-700 font-medium"> {bgPlantCount} of them with records in Bulgaria</span>.
+        Click any marker for details.
+      </p>
+    </div>
     <OverviewMap client:only="react" plants={mapPlants} locale={locale} />
   </div>
 </BaseLayout>

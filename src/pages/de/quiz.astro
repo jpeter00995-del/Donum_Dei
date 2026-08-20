@@ -3,6 +3,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import PlantQuiz from '@/components/PlantQuiz.tsx';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { toQuizPlant, buildSymptomQuizData } from '@/lib/quizCard';
+import { SEITEN_TEXT } from '@/lib/seitenText';
 
 // Slim-DTO statt voller Plant[] → schlankes Prop-HTML (kein 6-12 MB Bloat).
 const allPlants = loadAllPlants();
@@ -14,8 +15,13 @@ const locale = 'de' as const;
 
 <BaseLayout locale={locale} title="Pflanzen-Quiz">
   <div class="max-w-4xl mx-auto px-4 py-8">
-    <h1 class="text-3xl font-serif font-bold text-slate-900 mb-2">Pflanzen-Quiz</h1>
-    <p class="text-slate-600 mb-6">Foto erraten oder „Welche Pflanze hilft bei…?" — Score wird lokal gespeichert.</p>
+    <h1 class="text-3xl font-serif font-bold text-slate-900 mb-4">Pflanzen-Quiz</h1>
+    {/* Serverseitiger Text — die Seite hatte vorher 92 Zeichen sichtbaren Inhalt. */}
+    <div class="mb-8">
+      {SEITEN_TEXT.quiz.de.map(absatz => (
+        <p class="mt-3 text-slate-700 leading-relaxed text-pretty">{absatz}</p>
+      ))}
+    </div>
     <PlantQuiz client:only="react" plants={plants} symptomData={symptomData} locale={locale} />
   </div>
 </BaseLayout>
