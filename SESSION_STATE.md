@@ -4,8 +4,8 @@
 - user: Maikel (MG)
 - device: BUL-06 (Windows)
 - tool: Claude Code (Opus 5)
-- session: 34
-- last_save: 2026-08-20 10:42 Sofia
+- session: 35
+- last_save: 2026-08-20 15:05 Sofia
 - live_url: https://donum-dei.pages.dev
 - github: jpeter00995-del/Donum_Dei
 
@@ -47,14 +47,20 @@ Das hat in Sitzung 32 zweimal zu falschem Alarm gefuehrt.
 
 ## 2. WORUM ES GERADE GEHT
 
-Google hat den AdSense-Antrag **zweimal** abgelehnt, beide Male mit
-demselben Baustein: „Minderwertige Inhalte — Ihre Website erfuellt noch
-nicht die Nutzungskriterien im Google Publisher-Netzwerk."
+Google hat den AdSense-Antrag zweimal abgelehnt, beide Male mit demselben
+Baustein: „Minderwertige Inhalte — Ihre Website erfuellt noch nicht die
+Nutzungskriterien im Google Publisher-Netzwerk."
 
-Die zweite Mail nannte keine Einzelheiten, auch nicht im Konto.
+In Sitzung 35 wurde Weg C abgearbeitet (Details in `ACTIVE_TASK.md`) und
+veroeffentlicht. Maikel hat danach am **2026-08-20** die erneute
+Ueberpruefung beantragt — **es laeuft also der dritte Antrag.**
 
-**Die offene Entscheidung steht in `ACTIVE_TASK.md`. Sie zuerst mit Maikel
-klaeren, bevor irgendetwas gebaut wird.**
+**Jetzt wird gewartet. Nichts weiter bauen, bis die Antwort da ist.**
+
+Maikels Festlegung dazu: Die eigene Domain bleibt zurueckgestellt. Erst
+diesen Weg zu Ende gehen — wenn es nach zwei bis drei weiteren Versuchen
+nicht klappt, wird ueber die Domain neu gesprochen. Nicht von sich aus
+wieder vorschlagen.
 
 ---
 
@@ -117,6 +123,41 @@ Live nachgemessen:
 /de/permakultur/   1498  ->  2515
 ```
 
+### Sitzung 35 (2026-08-20) — Weg C
+
+| Commit | Inhalt |
+|--------|--------|
+| `7b77c29` | alle Pflanzen-Reiter serverseitig rendern |
+| `dc09d98` | Kardamom, Pfeffer, Moringa ausgebaut |
+| `d2ad9e7` | neun weitere Arten ausgebaut (12/12) |
+
+Der Durchbruch war `7b77c29`: `PlantTabs.tsx` erzeugte nur das aktive Panel.
+Auf **allen 594 Pflanzenseiten** standen im ausgelieferten HTML nur
+Beschreibung und Anwendung — Sicherheit, Sammeln, Wirkstoffe und Quellen
+entstanden erst beim Klick im Browser und waren fuer Google unsichtbar.
+Jetzt rendert Astro alle Panels, die inaktiven tragen `hidden`. Fuer Nutzer
+aendert sich nichts.
+
+Danach zwoelf textarme Arten inhaltlich ausgebaut, jede nach demselben
+Muster: Beschreibung um Botanik/Herkunft/Verarbeitung erweitert, dritte
+belegte Anwendung, voller Sicherheitsblock (Schwangerschaft, Stillzeit,
+Kinder, Wechselwirkungen, Gegenanzeigen), Inhaltsstoffe aufgeschluesselt,
+`harvest[]` mit Ernte/Trocknung/Lagerung.
+
+```
+Pflanzen-Detailseiten  Median  4574 -> 9352   Minimum  1144 -> 2505
+Seiten unter 1500 Zeichen:        40 ->   18
+```
+
+Sachliche Korrektur nebenbei: Wermut stand auf
+`evidence_level: ema_well_established`. Die EMA fuehrt Absinthii herba als
+**traditional use** — korrigiert, dazu die EMA-Vorgaben ergaenzt (nur
+Erwachsene, max. zwei Wochen, Gegenanzeigen Gallenwege/Leber/Korbbluetler).
+
+Neue Quellen: LactMed (NIH-Stillzeit-Datenbank), Bundesamt fuer
+Strahlenschutz (Cs-137 in Wildpilzen), LiverTox (Gruentee-Extrakte),
+NCCIH (Ginseng), EMA-Monographien fuer Eukalyptus und Wermut nachgeprueft.
+
 ### Gesamtzahlen
 
 ```
@@ -158,24 +199,19 @@ Sitemap:                                674 URLs
 
 ## 5. NEXT STEPS
 
-1. **Die offene Entscheidung aus `ACTIVE_TASK.md` mit Maikel klaeren.**
-   Domain kaufen (Vorschlag) / sofort neu beantragen / erst Pflanzen ausbauen.
+1. **Warten.** Der dritte AdSense-Antrag laeuft seit 2026-08-20. Bis eine
+   Antwort da ist, gibt es an diesem Strang nichts zu tun. Wie es je nach
+   Antwort weitergeht, steht in `ACTIVE_TASK.md`.
 
-2. **Falls Domain (Weg A):** `donum-dei.de` ist frei (Sitzung 33 geprueft).
-   Danach: Custom Domain in Cloudflare, `site` in `astro.config.mjs`,
-   Weiterleitung von der pages.dev-Adresse, neue Property in der Search
-   Console, Sitemap dort einreichen.
+2. **Domain zurueckgestellt.** Maikels Festlegung 2026-08-20: erst diesen Weg
+   zu Ende gehen, nach zwei bis drei weiteren Versuchen neu darueber
+   sprechen. Nicht von sich aus vorschlagen.
 
-3. **Falls Pflanzen (Weg C):** 22 Seiten (11 Arten x DE/EN) liegen unter
-   1500 Zeichen — Kardamom, Moringa, Roselle, Schwarzer Pfeffer,
-   Eukalyptus, Teestrauch, Ginseng, Wermut und die drei Pilze
-   (Steinpilz, Austern-Seitling, Schmetterlingstramete), dazu
-   Puppen-Kernkeule. Ausbau braucht Recherche mit Quellenpflicht.
+3. **Linkaufbau** — bisher null Verweise von aussen. Ohne die wird die
+   Seite auch mit eigener Domain nicht indexiert. Bleibt der eigentliche
+   Nachteil, unabhaengig von AdSense.
 
-4. **Linkaufbau** — bisher null Verweise von aussen. Ohne die wird die
-   Seite auch mit eigener Domain nicht indexiert.
-
-5. **10 Pflanzen ohne Haustier-Angabe** bleiben bewusst leer (nicht auf der
+4. **10 Pflanzen ohne Haustier-Angabe** bleiben bewusst leer (nicht auf der
    ASPCA-Liste). Ein „ungiftig" ohne Beleg wuerde sie auf eine Seite heben,
    die Sicherheit verspricht. Nicht ohne neue Quelle aendern.
 

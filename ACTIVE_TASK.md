@@ -1,87 +1,63 @@
 # Active Task
 
-**Task:** Weg C — duenne Pflanzeneintraege ausbauen
+**Task:** AdSense — dritter Antrag laeuft
 **Started:** 2026-08-20 (Sitzung 35)
-**Status:** Schritt 1 + 2 fertig und live. Naechstes: AdSense-Neuantrag durch Maikel.
+**Status:** WARTET AUF GOOGLE — nichts zu tun, bis die Antwort da ist
 
-## Maikels Entscheidung (2026-08-20)
+## Stand
 
-Weg **C** gewaehlt: erst die duennen Pflanzeneintraege ausbauen, dann den
-AdSense-Antrag neu stellen. Keine Domain kaufen, kein Sofort-Antrag.
-Veroeffentlicht wird gesammelt, wenn alle Arten fertig sind.
+Maikel hat am **2026-08-20** die erneute Ueberpruefung beantragt, nachdem
+Weg C abgeschlossen und veroeffentlicht war. Antwort dauert erfahrungsgemaess
+ein paar Tage bis rund zwei Wochen. Im Konto aendert sich bis dahin nichts
+von allein.
 
-## Schritt 1 — die eigentliche Ursache (erledigt, live)
+## Maikels Festlegung (2026-08-20)
 
-`src/components/PlantTabs.tsx` rendert eine React-Insel und hat bisher **nur
-das aktive Panel** erzeugt. Im ausgelieferten HTML standen damit auf **allen
-594 Pflanzenseiten** nur Beschreibung und Anwendung. Sicherheit, Sammeln,
-Wirkstoffe und Quellen waren fuer Crawler unsichtbar.
+Eigene Domain (`donum-dei.de`, in Sitzung 33 als frei geprueft) bleibt
+**zurueckgestellt**. Erst diesen Weg zu Ende gehen: wenn es nach **zwei bis
+drei weiteren Versuchen** nicht klappt, wird ueber die Domain neu gesprochen.
+Nicht von sich aus wieder vorschlagen.
 
-Behoben: alle Panels serverseitig, die inaktiven mit `hidden`. Fuer Nutzer
-unveraendert — weiterhin genau ein Panel sichtbar.
+## Was in Sitzung 35 gemacht wurde (fertig, live)
 
-```
-Pflanzenseiten unter 1500 Zeichen:   22  ->   0
-Site-Seiten unter 1500 Zeichen:      40  ->  18
-duennste Pflanzenseite:            1144  -> 2081
-```
+**Schritt 1 — die eigentliche Ursache.** `src/components/PlantTabs.tsx`
+rendert eine React-Insel und erzeugte bisher nur das aktive Panel. Im
+ausgelieferten HTML standen damit auf allen 594 Pflanzenseiten nur
+Beschreibung und Anwendung; Sicherheit, Sammeln, Wirkstoffe und Quellen waren
+fuer Crawler unsichtbar. Jetzt werden alle Panels serverseitig gerendert, die
+inaktiven mit `hidden`. Fuer Nutzer unveraendert. Commit `7b77c29`.
 
-Commit `7b77c29`, deployed und am Produktions-Alias geprueft (5 Panels).
-
-## Schritt 2 — Inhalte der 12 Arten (erledigt)
-
-Muster je Art:
-- `description` um Botanik, Herkunft, Verarbeitung erweitert
-- eine dritte belegte `uses`-Position
-- `safety` ausgebaut: pregnancy / lactation / children / drug_interactions /
-  contraindications — groesster Textgewinn und der nuetzlichste Teil
-- `constituents` aufgeschluesselt statt Sammelbegriff
-- `harvest[]` mit Erntezeitpunkt, Trocknung, Lagerung
+**Schritt 2 — zwoelf textarme Arten ausgebaut.** Commits `dc09d98` (Kardamom,
+Pfeffer, Moringa) und `d2ad9e7` (die uebrigen neun).
 
 ```
-Art                       DE vor  DE neu  EN vor  EN neu
-elettaria-cardamomum        1249    6592    1144    6135
-piper-nigrum                1336    6368    1250    5966
-moringa-oleifera            1308    6844    1193    6355
-hibiscus-sabdariffa         1317    6251    1219    5921
-eucalyptus-globulus         1382    6824    1256    6419
-camellia-sinensis           1399    7390    1264    6781
-panax-ginseng               1506    6412    1379    5944
-artemisia-absinthium        1587    7174    1482    6864
-boletus-edulis              1430    5696    1338    5428
-pleurotus-ostreatus         1462    5928    1373    5643
-trametes-versicolor         1497    6514    1343    6032
-cordyceps-militaris         1427    5943    1288    5632
+Pflanzen-Detailseiten  Median  4574 -> 9352   Minimum  1144 -> 2505
+Site-Seiten unter 1500 Zeichen:   40 ->   18
+validate:zod 297/297 · scan_descriptions ok · 376 Tests gruen
 ```
 
-Neu aufgenommene Quellen: LactMed (NIH-Stillzeit-Datenbank) fuer Kardamom,
-Pfeffer und Moringa; Bundesamt fuer Strahlenschutz fuer den Steinpilz
-(Cs-137 in Wildpilzen).
+Deployed und am Produktions-Alias geprueft (5 Panels je Pflanzenseite,
+neuer Text live).
 
-**Sachliche Korrektur nebenbei:** Beim Wermut standen zwei Anwendungen auf
-`evidence_level: ema_well_established`. Die EMA fuehrt Absinthii herba aber
-als **traditional use**, nicht als well-established. Auf `traditional`
-korrigiert und die EMA-Angaben ergaenzt (nur Erwachsene, hoechstens zwei
-Wochen, Gegenanzeigen Gallenwege/Leber/Korbbluetler).
+## Wenn die Antwort kommt
 
-## Schritt 3 — jetzt dran: AdSense-Neuantrag
+**Ablehnung mit demselben Baustein** — dann ist es nicht der Text. Zaehlen,
+der wievielte Versuch das war, und nach zwei bis drei Runden die Domainfrage
+wieder aufmachen (siehe oben, Maikels Festlegung).
 
-Den kann der Agent **nicht** stellen: `adsense.google.com` ist fuer die
-Browser-Werkzeuge gesperrt (getestet 2026-08-10). Maikel klickt selbst:
-Menue **Websites** → **donum-dei.pages.dev** → **Ueberpruefung beantragen**.
+**Ablehnung mit neuem Wortlaut** — den Wortlaut ernst nehmen, er ist die
+erste konkrete Information seit drei Antraegen.
 
-Im Konto aendert sich bis dahin nichts von allein — nach einer Ablehnung
-bleibt derselbe Textbaustein stehen, bis eine neue Pruefung beantragt wird.
+**Freigabe** — Anzeigen-Einrichtung pruefen: `ads.txt` liegt bereits mit
+`pub-5000356216672097`, das AdSense-Script ist im Layout eingebunden.
 
-## Was danach offen bleibt
+## Was ehrlich offen bleibt
 
-Die Seite ist weiterhin **von keiner Suchmaschine indexiert**
-(`site:donum-dei.pages.dev` → 0 Treffer bei Google, Stand 2026-08-20).
-Das ist der eigentliche Nachteil, und Text allein loest ihn nicht. Weg A
-(eigene Domain `donum-dei.de`, in Sitzung 33 als frei geprueft) plus erste
-Verweise von aussen bleibt der staerkste Hebel — bewusst zurueckgestellt.
+Die Seite ist von **keiner** Suchmaschine indexiert
+(`site:donum-dei.pages.dev` → 0 Treffer bei Google, geprueft 2026-08-20).
+Das bleibt der eigentliche Nachteil, und Textmenge loest ihn nicht.
 
-Ausserdem weiterhin duenn, aber bewusst nicht angefasst: die
-Werkzeug-Seiten `/de/suche/`, `/de/quiz/`, `/de/mein-garten/start/` und die
-Sprachweichen `/es/`, `/fr/`, `/bg/`. Suche und Garten-Planer-Start stehen
-schon auf `noindex`; die Sprachweichen sind reine Weiterleitungsseiten.
+Weiterhin duenn, aber bewusst nicht angefasst: `/de/suche/`, `/de/quiz/`,
+`/de/mein-garten/start/` (Suche und Garten-Planer-Start stehen schon auf
+`noindex`) und die Sprachweichen `/es/`, `/fr/`, `/bg/` — reine
+Weiterleitungsseiten.
