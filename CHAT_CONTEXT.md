@@ -1,58 +1,53 @@
-# CHAT CONTEXT — Donum Dei, Sitzung 32 (2026-08-10)
+# CHAT CONTEXT — Donum Dei, Sitzung 34 (2026-08-20)
 
-Gespraechs-Zusammenhang als Absturzschutz. Ergaenzt SESSION_STATE.md,
-ersetzt es nicht.
+Gespraechs-Zusammenhang als Absturzschutz. Ergaenzt SESSION_STATE.md.
 
 ## Wie die Sitzung lief
 
-Maikel kam mit der AdSense-Ablehnungsmail. Erst nur ein Auszug, der Grund
-fehlte — der kam im zweiten Anlauf nach: „Richtlinienverstoesse gefunden —
-Minderwertige Inhalte".
+Maikel kam mit der zweiten AdSense-Ablehnung. Erst nur der allgemeine Teil
+ohne Grund, dann der Nachtrag aus dem Konto: derselbe Baustein wie beim
+ersten Mal, „Minderwertige Inhalte", ohne Einzelheiten.
 
-Die Analyse hat den Grund bestaetigt und dabei mehr gefunden als erwartet.
-Die Sitzung ist in sechs Etappen gelaufen, jede mit eigenem Commit und
-eigenem Deploy.
+Er bat darum, „die genannten Fehler zu beheben". Es waren aber keine
+genannt. Der erste Schritt war deshalb, das offen zu sagen und zu messen,
+statt zu raten.
 
-## Entscheidungen, die Maikel getroffen hat
+## Der Weg zur Ursache
+
+1. Zuerst die formalen Voraussetzungen live geprueft — AdSense-Code,
+   ads.txt, robots.txt, Impressum mit Anschrift und E-Mail, Datenschutz,
+   Ueber, Feedback. Alles in Ordnung, also lag es daran nicht.
+2. Dann den sichtbaren Text je Seite gemessen. Das brachte den Befund:
+   die interaktiven Seiten waren fuer Crawler leer.
+3. Zum Schluss geprueft, ob Google die Seite ueberhaupt kennt. Null Treffer.
+
+Reihenfolge war entscheidend: Ohne Schritt 1 haette man die falsche
+Baustelle aufgemacht, ohne Schritt 3 die Reparatur fuer die Loesung
+gehalten.
+
+## Was Maikel entschieden hat
 
 | Frage | Entscheidung |
 |-------|--------------|
-| Reihenfolge der Reparatur | erst nur die Kurztexte, danach alles Weitere |
-| Deploy-Weg | Push nach GitHub — stellte sich als unzureichend heraus |
-| Nextcloud-Ordner | wird Archiv, nur noch der Klon gilt |
-| Rauschpflanzen | vorruebergehend auf „nicht indexieren" |
-| Giftpflanzen auf Symptomseiten | komplett raus aus den Empfehlungslisten |
-| Haustier-Angaben | alle 32 Zimmerpflanzen an der ASPCA pruefen |
-| Save-Verfahren | neuer Kurzbefehl `save + notiz` |
+| Vorgehen bei fehlendem Grund | erst messen, nicht raten (mitgetragen) |
+| Berechtigung Live-Seite pruefen | erteilt |
 
-## Wo ich bewusst anders gehandelt habe als gefragt
+## Offen geblieben
 
-1. **Rauschpflanzen-noindex:** Maikel sagte „die Seite". Ich habe auch die
-   11 Detailseiten gesperrt, weil die Massnahme sonst wirkungslos gewesen
-   waere. Angesagt und begruendet, er hat es bestaetigt.
+Die Frage, wie es weitergeht — Domain kaufen, sofort neu beantragen oder
+erst die duennen Pflanzeneintraege ausbauen. Maikel hat nicht geantwortet,
+weil der Kontext voll wurde. **Diese Frage gehoert an den Anfang der
+naechsten Sitzung.**
 
-2. **11 Pflanzen ohne Haustier-Angabe:** Maikel wollte sie nachtragen.
-   Belegen liess sich nur der Eukalyptus. Die anderen zehn stehen nicht auf
-   der ASPCA-Liste — ein „ungiftig" ohne Beleg haette sie auf eine Seite
-   gehoben, die Sicherheit verspricht. Bewusst leer gelassen.
+## Haltung, die sich bewaehrt hat
 
-## Wo ich mich geirrt habe
-
-- Annahme, Cloudflare zieht sich Aenderungen selbst von GitHub. Falsch —
-  steht sogar in der eigenen README. Kostete einen Umweg.
-- Zwei Live-Pruefungen zu frueh gemacht und dadurch falschen Alarm gemeldet
-  (Cloudflare lieferte noch die alte Fassung). Seitdem mit `?x=<zahl>`.
-- Erst spaet erkannt, dass die Browser-Werkzeuge `adsense.google.com`
-  grundsaetzlich sperren. Maikel hat dreimal vergeblich Freigaben gesetzt.
-
-## Arbeitsweise, die sich bewaehrt hat
-
-- Jedes Schreib-Werkzeug mit Vorschau als Standard, Schreiben erst mit
-  `--schreiben`. Hat mehrfach Unsinn abgefangen.
-- Nach jedem Datenlauf zusaetzlich die Live-Seite ansehen, nicht nur das
-  Pruef-Skript. Genau so kamen die 12 uebersehenen Wikipedia-Texte und die
-  Unterstriche in den Bild-Beschreibungen ans Licht.
-- Zahlen statt Adjektive in jeder Meldung.
+- Bei einer Ablehnung ohne Begruendung nicht anfangen zu reparieren.
+  Erst herausfinden, was tatsaechlich gemeint sein koennte.
+- Messen statt vermuten. `scripts/textmenge.py` hat in zwei Minuten
+  geliefert, was vorher zwei Sitzungen lang niemand gesehen hat.
+- Ehrlich sagen, wenn die eigene Reparatur wahrscheinlich nicht die
+  Loesung ist. Die leeren Seiten waren ein echter Fehler — aber die
+  fehlende Indexierung wiegt schwerer.
 
 ## Wie Maikel arbeiten will
 
@@ -60,3 +55,4 @@ eigenem Deploy.
 - Fragen ans Ende, nummeriert, Optionen mit A/B/C
 - Kein „soll ich weitermachen?" — durcharbeiten und melden
 - Beweis vor Fertig: keine Erfolgsmeldung ohne gezeigte echte Ausgabe
+- Bei Browser-Aufgaben mit Login vorher ankuendigen und GO abwarten

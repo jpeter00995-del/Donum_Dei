@@ -1,50 +1,61 @@
 # Active Task
 
-**Task:** AdSense-Neupruefung — Antwort von Google abwarten
-**Started:** 2026-08-10
-**Status:** WARTEN — Antrag gestellt, nichts weiter zu tun
+**Task:** AdSense — zweite Ablehnung aufgearbeitet, Entscheidung offen
+**Started:** 2026-08-20
+**Status:** WARTET AUF MAIKELS ENTSCHEIDUNG
 
-## Was erledigt ist
+## Stand
 
-Maikel hat den Antrag am 2026-08-10 selbst gestellt. Stand in der
-AdSense-Oberflaeche:
+Google hat zum **zweiten Mal** abgelehnt, mit demselben Wortlaut:
+
+> Minderwertige Inhalte — Ihre Website erfuellt noch nicht die
+> Nutzungskriterien im Google Publisher-Netzwerk.
+
+Die Mail nennt keine Einzelheiten. Auch im Konto stand nur dieser Baustein.
+
+Daraufhin gemessen statt geraten (`scripts/textmenge.py`, neu): Die
+interaktiven Seiten waren reine React-Einhaengepunkte und im ausgelieferten
+HTML praktisch leer — `/de/mein-garten/` enthielt **ein** Zeichen sichtbaren
+Text. Alle standen gleichzeitig in der Sitemap.
+
+Das ist behoben und live (Commit `ca5606e`). Details in SESSION_STATE.md.
+
+## Die entscheidende Erkenntnis
 
 ```
-donum-dei.pages.dev
-  ✅ Inhaberschaft der Website bestaetigen
-  ✅ Ueberpruefung angefordert
-     Uhrzeit der Anfrage: 10. Aug. 2026, 09:12
-     "Ihre Website wird von uns ueberprueft. Das dauert in der Regel
-      einige Tage. Vereinzelt kann der Vorgang jedoch auch zwei bis
-      vier Wochen in Anspruch nehmen."
+site:donum-dei.pages.dev  ->  Google: 0 Treffer
+                              Bing:   0 Treffer (Sitzung 33)
+                              DuckDuckGo: 0 Treffer (Sitzung 33)
 ```
 
-Vorher wurden alle Ursachen der ersten Ablehnung behoben — acht Commits,
-alles live und nachgemessen. Details in SESSION_STATE.md.
+Die Seite ist von **keiner** Suchmaschine indexiert. Sie laeuft auf einer
+geliehenen Cloudflare-Unteradresse, hat keine Besucher und keinen einzigen
+Verweis von aussen. Diese Kombination fuehrt bei AdSense sehr zuverlaessig
+zu genau diesem Textbaustein — unabhaengig davon, wie gut die Texte sind.
 
-Am Nachmittag des 2026-08-10 kam Sitzung 33 dazu: die Haustier-Angaben sind
-jetzt gegen die vollstaendige ASPCA-Liste geprueft. 11 Pflanzen (u. a.
-Knoblauch, Hopfen, Tomate) standen faelschlich als haustiersicher, 16
-Widersprueche zwischen zwei Datenfeldern sind weg, unbelegte Angaben sind
-als solche gekennzeichnet. Commit `5e3cb9c`, deployed.
-Bericht: `HAUSTIER_BEFUND_2026-08-10.md`.
+Die Inhalte sind seit Sitzung 32 durchgearbeitet: keine Kopien, keine
+Platzhalter, keine leeren Seiten mehr. Wenn eine dritte Ablehnung denselben
+Wortlaut hat, liegt es mit hoher Wahrscheinlichkeit nicht am Text.
 
-## Naechster Schritt
+## OFFENE ENTSCHEIDUNG — hier weitermachen
 
-Auf die E-Mail von Google warten. Sie kommt an das Konto, dem die
-Publisher-ID pub-5000356216672097 gehoert.
+Maikel wurde gefragt, hat aber noch nicht geantwortet. **Nicht eigenmaechtig
+entscheiden, sondern die Frage zu Beginn der neuen Sitzung stellen:**
 
-**Bei Zusage:** nichts weiter noetig, Anzeigen laufen an.
+**A** — Erst `donum-dei.de` kaufen (in Sitzung 33 als frei geprueft, DNS und
+DENIC), Custom Domain in Cloudflare einhaengen, `site` in
+`astro.config.mjs` umstellen, Weiterleitung von der pages.dev-Adresse,
+neue Property in der Search Console. Danach ein paar Wochen laufen lassen
+und erst dann neu beantragen. **Das ist der Vorschlag des Agenten.**
 
-**Bei erneuter Ablehnung:** den vollstaendigen Mailtext in den Chat geben.
-Der entscheidende Teil steht unter „Es wurden Richtlinienverstoesse
-gefunden". Danach gezielt pruefen, was Google diesmal nennt — nicht raten.
+**B** — Sofort wieder beantragen, die leeren Seiten sind ja weg.
 
-## Wichtig fuer den naechsten Agenten
+**C** — Erst die 11 duennen Pflanzeneintraege ausbauen, dann beantragen.
 
-**Der AdSense-Antrag laesst sich nicht automatisieren.** Getestet am
-2026-08-10 mit angemeldetem Chrome und korrekt gesetzter Erweiterungs-
-Freigabe:
+## Was der Agent NICHT kann
+
+Den AdSense-Antrag selbst stellen. Getestet am 2026-08-10 mit angemeldetem
+Chrome und korrekt gesetzter Erweiterungs-Freigabe:
 
 ```
 navigate    -> Navigation to this domain is not allowed
@@ -52,10 +63,6 @@ read_page   -> Permission denied for reading pages on this domain
 screenshot  -> Permission denied for this action on this domain
 ```
 
-Die Sperre gilt fuer `adsense.google.com` und liegt auf der Werkzeug-Seite,
-nicht an Maikels Einstellungen. `www.google.com/adsense/...` laesst sich
-aufrufen, leitet aber sofort auf die gesperrte Domain um.
-
-Also: nicht erneut versuchen. Wenn dort etwas geklickt werden muss, bekommt
-Maikel eine Klick-Anleitung — Menue **Websites** → **donum-dei.pages.dev** →
-Schaltflaeche **Ueberpruefung beantragen**.
+Die Sperre gilt fuer `adsense.google.com` und liegt auf der Werkzeug-Seite.
+Nicht erneut versuchen. Maikel bekommt stattdessen eine Klick-Anleitung:
+Menue **Websites** → **donum-dei.pages.dev** → **Ueberpruefung beantragen**.

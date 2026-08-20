@@ -4,6 +4,22 @@ Project-specific TODOs. Cross-project items go to `Claude/_TODO.md`.
 
 ---
 
+## ⏳ OFFEN 2026-08-20 — zweite AdSense-Ablehnung, Entscheidung ausstehend
+
+Google hat erneut abgelehnt, gleicher Wortlaut, ohne Einzelheiten.
+
+- [x] Sichtbaren Text je Seite gemessen (`scripts/textmenge.py`)
+- [x] Leere Werkzeug-Seiten mit echtem Text gefuellt (12 Seiten DE/EN)
+- [x] Suche + Formular-Schritt auf noindex und aus der Sitemap
+- [ ] **ENTSCHEIDUNG MAIKEL:** eigene Domain kaufen (Vorschlag) / sofort neu
+      beantragen / erst die 11 duennen Pflanzeneintraege ausbauen
+- [ ] Die Seite ist bei Google, Bing und DuckDuckGo mit **null Treffern**
+      nicht indexiert — vermutlich der eigentliche Grund
+- [ ] 22 Pflanzenseiten (11 Arten x DE/EN) unter 1500 Zeichen ausbauen
+- [ ] Linkaufbau: bisher kein einziger Verweis von aussen
+
+---
+
 ## ✅ ERLEDIGT 2026-08-10 — AdSense-Ablehnung „Minderwertige Inhalte"
 
 - [x] 203 Wikipedia-Kurztexte (`teaser`) durch eigene Texte ersetzt

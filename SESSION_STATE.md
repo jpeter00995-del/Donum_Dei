@@ -4,24 +4,22 @@
 - user: Maikel (MG)
 - device: BUL-06 (Windows)
 - tool: Claude Code (Opus 5)
-- session: 33
-- last_save: 2026-08-10 14:55 Sofia
+- session: 34
+- last_save: 2026-08-20 10:42 Sofia
 - live_url: https://donum-dei.pages.dev
 - github: jpeter00995-del/Donum_Dei
 
-## ⚠️ ZUERST LESEN — ARBEITSORT HAT SICH GEAENDERT
+---
 
-**Gearbeitet wird ab sofort in `C:\Dev\DonumDei_git`** (Mac: `~/Dev/DonumDei_git`).
-Der Nextcloud-Ordner `75_Maikel/Donum_Dei/` ist **Archiv** und veraltet.
-Er traegt eine Warndatei `_ARCHIV_NICHT_MEHR_BEARBEITEN.md` und einen
-Warnblock oben in seiner `CLAUDE.md`. Dort nichts mehr aendern.
+## 1. ZUERST LESEN — ARBEITSORT UND VEROEFFENTLICHEN
 
-Grund: Das `.git` im NC-Ordner hing sechs Commits hinterher, waehrend die
-Dateien darin neuer waren als sein eigener Git-Stand. Entscheidung Maikel
-am 2026-08-10.
+**Gearbeitet wird in `C:\Dev\DonumDei_git`** (Mac: `~/Dev/DonumDei_git`).
+Der Nextcloud-Ordner `75_Maikel/Donum_Dei/` ist **Archiv** und veraltet —
+dort nichts mehr aendern. Er traegt eine Warndatei
+`_ARCHIV_NICHT_MEHR_BEARBEITEN.md`.
 
-**Veroeffentlichen geht NICHT ueber GitHub.** Cloudflare Pages hat keine
-Git-Anbindung. Nach jedem Push von Hand:
+**Ein Push macht die Seite NICHT live.** Cloudflare Pages hat keine
+Git-Anbindung. Nach jeder Aenderung von Hand:
 
 ```
 cd C:\Dev\DonumDei_git
@@ -29,115 +27,97 @@ npm run build
 npx wrangler pages deploy dist --project-name=donum-dei
 ```
 
-Cloudflare-Konto: **jpeter00995@gmail.com** (Account-ID
-f30fcefaecc3116b91a14df5bc5e326c, enthaelt `donum-dei` und `bulfox`).
-Ein Login mit mbg82008@gmail.com schlaegt fehl — dieses Konto hat keine
+Cloudflare-Konto: **jpeter00995@gmail.com**
+(Account-ID f30fcefaecc3116b91a14df5bc5e326c, Projekte `donum-dei`, `bulfox`).
+Ein Login mit mbg82008@gmail.com schlaegt fehl — das Konto hat keine
 Pages-Projekte.
 
 Build braucht `npm install --legacy-peer-deps`.
 
-## SITZUNG 33 (2026-08-10 nachmittags) — HAUSTIER-ANGABEN BELEGT
+**Live-Pruefungen immer mit Cache-Umgehung**, sonst liefert Cloudflare kurz
+nach dem Deploy noch die alte Fassung:
 
-Die beiden offenen Entscheidungen aus Sitzung 32 (6 Zimmerpflanzen und 170
-Garten-/Wildpflanzen ohne ASPCA-Beleg) sind erledigt — nicht durch eine
-Entscheidung, sondern durch Nachschlagen.
+```
+curl -s "https://donum-dei.pages.dev/de/?x=$RANDOM"
+```
+
+Das hat in Sitzung 32 zweimal zu falschem Alarm gefuehrt.
+
+---
+
+## 2. WORUM ES GERADE GEHT
+
+Google hat den AdSense-Antrag **zweimal** abgelehnt, beide Male mit
+demselben Baustein: „Minderwertige Inhalte — Ihre Website erfuellt noch
+nicht die Nutzungskriterien im Google Publisher-Netzwerk."
+
+Die zweite Mail nannte keine Einzelheiten, auch nicht im Konto.
+
+**Die offene Entscheidung steht in `ACTIVE_TASK.md`. Sie zuerst mit Maikel
+klaeren, bevor irgendetwas gebaut wird.**
+
+---
+
+## 3. WAS ERLEDIGT IST
+
+### Sitzung 32 (2026-08-10, vormittags) — Inhalte
 
 | Commit | Inhalt |
 |--------|--------|
-| `5e3cb9c` | Haustier-Angaben belegt oder als ungeprüft gekennzeichnet |
-| `24d6943` | zweite Quelle (CliniTox), Nachtschatten-Hinweis, 5 weitere Umstufungen |
-
-```
-ASPCA-Liste geholt:                     978 Einträge
-Treffer bei unseren Pflanzen:            87 (54 Art, 33 Gattung)
-Falsche "sicher"-Einstufungen gedreht:   16 gesamt
-Widersprüche zwischen zwei Feldern:      16 -> 0
-haustiergiftig:                    103 -> 119
-haustiersicher:                    184 -> 168 (25 belegt / 143 unbelegt)
-Tests:                             357 -> 376
-```
-
-Zweite und dritte Quelle geprüft: **CliniTox** (Institut für Veterinär-
-pharmakologie, Universität Zürich) und die Giftpflanzen-Liste der
-**Giftinformationszentrale Bonn**. Bonn taugt nicht als Beleg — sie führt nur
-Vergiftungen beim Menschen. Und außer der ASPCA hat keine Quelle eine
-Ungiftig-Liste; ein fehlender Eintrag beweist also nichts.
-
-Ein CliniTox-Giftgrad ist kein Hund/Katze-Urteil (Salbei: CliniTox „schwach
-giftig", ASPCA „ungiftig für Haustiere"). Er steht deshalb als Hinweis mit
-Quelle in `safety.tox_note` und wird nie in `pet_toxic` umgemünzt. Umgestuft
-wurde nur mit tierspezifischem Grund: Bärlauch, Eiche, Busch- und
-Stangenbohne, Rhabarber.
-
-Kern: `safety.pet_toxic` und `indoor_growing.pet_safe` liefen unabhängig
-nebeneinander und widersprachen sich bei 16 Pflanzen — Lavendel stand mit
-„🐾 haustier-sicher" auf der Seite, die ihn als giftig auswies. Die
-Oberfläche liest jetzt nur noch ein Feld (`src/lib/petSafety.ts`), ein Test
-über alle echten Daten verhindert das Auseinanderlaufen.
-
-Die „ungiftig"-Listen sind geteilt in „Von der ASPCA geführt" (24) und
-„Ohne externe Prüfung" (149). Empfehlungsblöcke und das Pfoten-Symbol
-zeigen nur noch Belegtes.
-
-Vollständiger Bericht: `HAUSTIER_BEFUND_2026-08-10.md`.
-
-## ⚠️ BEFUND 2026-08-10: DIE SEITE IST NICHT INDEXIERT
-
-Gemessen, nicht vermutet:
-
-```
-Bing        site:donum-dei.pages.dev   0 Treffer
-DuckDuckGo  site:donum-dei.pages.dev   0 Treffer
-```
-
-Technisch liegt es nicht an der Seite — das wurde geprüft:
-
-```
-robots.txt          erlaubt alles ausser /pagefind/
-Sitemap             678 URLs, eingereicht (Maikel, 2026-08-10)
-Startseite          kein noindex, canonical korrekt
-hreflang            de / en / x-default vorhanden
-OG- und Twitter-Tags vorhanden
-tote interne Links  0   (scripts/link_check.py über 707 Seiten)
-fehlende Bilder     0
-Bilder              298 Stück, 28 MB, groesstes 379 KB
-```
-
-Es fehlt das, was Suchmaschinen zum Anfangen brauchen: **eine eigene Domain
-und die ersten Verweise von aussen.** `*.pages.dev` steht auf der Public
-Suffix List — jede Unteradresse zaehlt als eigene Seite ohne jedes Vertrauen,
-und auf donum-dei.pages.dev zeigt bisher kein einziger fremder Link.
-
-**donum-dei.de ist frei** (geprüft 2026-08-10: kein DNS-Eintrag, DENIC-RDAP
-404). Kosten ~10–15 € im Jahr. Solange die Domain fehlt, laufen alle
-Verlinkungs-Bemühungen auf eine Adresse, die spaeter weggeworfen wird.
-
-Naechster sinnvoller Schritt in dieser Reihenfolge:
-1. Maikel kauft donum-dei.de
-2. Cloudflare Custom Domain einrichten, `site` in `astro.config.mjs` umstellen,
-   Weiterleitung von pages.dev, neue GSC-Property (Agent kann alles ausser Kauf
-   und GSC-Anmeldung)
-3. Erste Verweise von aussen aufbauen — Texte kann der Agent vorbereiten,
-   veroeffentlichen muss Maikel
-
-## CONTEXT (Sitzung 32, 2026-08-10)
-
-Google hat die Seite fuer AdSense abgelehnt: „Richtlinienverstoesse —
-Minderwertige Inhalte". Die ganze Sitzung ging darum, die Ursachen zu finden
-und zu beheben. Dabei kam ein Sicherheitsproblem ans Licht, das mit AdSense
-nichts zu tun hatte.
-
-## WAS ERLEDIGT IST (alles live und nachgemessen)
-
-| Commit | Inhalt |
-|--------|--------|
-| `870204c` | 203 Kurztexte (`teaser`) original neu, DE + EN; Pruef-Skript erweitert |
-| `e04ff73` | 9 Platzhalter-Beschreibungen ersetzt, 6 Anzeigenamen korrigiert |
+| `870204c` | 203 Kurztexte (`teaser`) original neu, DE + EN |
+| `e04ff73` | 9 Platzhalter-Beschreibungen, 6 Anzeigenamen korrigiert |
 | `940b075` | 30 woertlich uebernommene Wikipedia-Beschreibungen ersetzt |
-| `c833bd8` | 6 Bild-Beschreibungen (`image.alt`) ohne Unterstrich |
+| `c833bd8` | 6 Bild-Beschreibungen ohne Unterstrich |
 | `7d90109` | lesbare Quellenangaben, echte Ernte-Monatsseiten, noindex fuer kontrollierte Arten |
 | `29c701d` | keine Giftpflanzen mehr in den „Heilpflanzen gegen"-Listen |
-| `86fd3ed` | Haustier-Giftigkeit bei 28 Pflanzen an der ASPCA-Liste geprueft |
+| `86fd3ed` | Haustier-Giftigkeit bei 28 Pflanzen an der ASPCA geprueft |
+
+### Sitzung 33 (2026-08-10, nachmittags) — Haustierdaten und Technik
+
+| Commit | Inhalt |
+|--------|--------|
+| `5e3cb9c` | vollstaendige ASPCA-Liste (978 Eintraege) gegen alle 297 Pflanzen |
+| `24d6943` | zweite Quelle CliniTox, Nachtschatten-Hinweis, 5 Umstufungen |
+| `a1e92b9` | Startseite 68 KB leichter, Gattungs-Hinweise, Link-Pruefer |
+
+### Sitzung 34 (2026-08-20) — leere Seiten
+
+| Commit | Inhalt |
+|--------|--------|
+| `ca5606e` | leere Werkzeug-Seiten mit echtem Text gefuellt |
+
+Neu: `scripts/textmenge.py` misst den sichtbaren Text je gebauter Seite.
+Befund vorher:
+
+```
+/de/mein-garten/      1 Zeichen      /de/karte/          144
+/en/my-garden/        1 Zeichen      /de/mischkultur/    400
+/de/quiz/            92 Zeichen
+```
+
+Alle standen in der Sitemap — ein Crawler wurde eingeladen, leere Seiten zu
+indexieren. Ursache: reine React-Einhaengepunkte ohne serverseitigen Inhalt,
+„Mein Garten" hatte nicht einmal ein `<h1>`.
+
+Behoben ueber `src/lib/seitenText.ts` (neu): serverseitiger Einleitungstext
+fuer Garten-Planer, Mischkultur, Quiz, Karte, Hilfe-bei und Permakultur in
+DE und EN, dazu drei Absaetze auf den Feedback-Seiten. Kein Fuellmaterial —
+die Texte erklaeren das Werkzeug und nennen die Grenzen.
+Suche und Formular-Schritt des Garten-Planers stehen jetzt auf `noindex`
+und sind aus der Sitemap gefiltert.
+
+Live nachgemessen:
+
+```
+/de/mein-garten/      1  ->   941 Zeichen
+/de/mischkultur/    400  ->  1681
+/de/quiz/            92  ->   867
+/de/karte/          144  ->  1001
+/de/feedback/       536  ->  1391
+/de/permakultur/   1498  ->  2515
+```
+
+### Gesamtzahlen
 
 ```
 Teaser mit Wikipedia-Text:              183 -> 0
@@ -146,88 +126,87 @@ Platzhalter "siehe Wikipedia-Artikel":    9 -> 0
 Roh-Codes [#src_...]:            ~600 Seiten -> 0
 Zierpflanzen auf Ernte-Seiten:           15 -> 0
 Giftpflanzen auf Symptomseiten:          40 -> 0
-Kontrollierte Arten indexiert:           11 -> 0
-haustiergiftig / haustiersicher:   89/197 -> 103/184
-Tests:                                  340 -> 357
+Seiten in der Sitemap unter 1500 Zeichen: 34 -> 32
+Tests:                                  340 -> 376
 Build:                                  707 Seiten
+Sitemap:                                674 URLs
 ```
 
-## WICHTIGE ERKENNTNISSE
+---
 
-1. **Die Juli-Reparatur war unvollstaendig, weil das Pruef-Skript zu eng war.**
-   `scan_descriptions.mjs` las nur `description`, nie `teaser`. Das Gate war
-   gruen, obwohl 62 % der sichtbaren Kurztexte kopiert waren. Jetzt prueft es
-   beide Felder plus Platzhalter. Trotzdem rutschten spaeter noch 12
-   kopierte Beschreibungen durch, weil Formulierungen wie „bildet eine
-   Pflanzengattung" nicht in der Musterliste standen — deshalb gibt es
-   zusaetzlich `scripts/pruef_beschreibungen.py`, das auch auffaellig kurze
-   Texte meldet.
+## 4. ERKENNTNISSE UND FALLEN
 
-2. **Ein gruenes Gate beweist nur, dass die Muster nicht greifen.**
-   Nach jedem Datenlauf zusaetzlich stichprobenartig die Live-Seite ansehen.
+1. **Die Seite ist von keiner Suchmaschine indexiert.**
+   `site:donum-dei.pages.dev` liefert bei Google, Bing und DuckDuckGo je
+   null Treffer. Zusammen mit der geliehenen `pages.dev`-Adresse und
+   fehlenden Verweisen von aussen ist das die wahrscheinlichste Ursache der
+   Ablehnungen — nicht der Text.
 
-3. **Nach einem Deploy liefert Cloudflare kurzzeitig noch die alte Fassung.**
-   Live-Pruefungen mit Cache-Umgehung machen: `?x=<zufallszahl>` anhaengen.
-   Ohne das gab es in dieser Sitzung zweimal falschen Alarm.
+2. **Ein gruenes Pruef-Skript beweist nur, dass die Muster nicht greifen.**
+   In Sitzung 32 meldete `scan_descriptions.mjs` OK, waehrend 62 % der
+   sichtbaren Kurztexte kopiert waren — das Skript las nur `description`,
+   nie `teaser`. Nach jedem Datenlauf zusaetzlich die Live-Seite ansehen.
 
-## NEXT STEPS — konkret, in dieser Reihenfolge
+3. **Zahlen schlagen Vermutungen.** Der Durchbruch in Sitzung 34 kam
+   dadurch, den sichtbaren Text zu messen statt zu raten, was Google
+   stoeren koennte.
 
-1. **AdSense-Neupruefung: ERLEDIGT am 2026-08-10.** Maikel hat den Antrag
-   selbst gestellt (der Agent kann das nicht, siehe ACTIVE_TASK.md).
-   Stand laut AdSense-Oberflaeche:
-   - „Inhaberschaft der Website bestaetigen" — gruener Haken
-   - „Ueberpruefung angefordert" — gruener Haken
-   - Uhrzeit der Anfrage: 10. Aug. 2026, 09:12
-   - Google: „in der Regel einige Tage, vereinzelt zwei bis vier Wochen"
+4. **`adsense.google.com` ist fuer die Browser-Werkzeuge gesperrt.**
+   Nicht erneut versuchen, siehe ACTIVE_TASK.md.
 
-   **Auf die Antwort warten.** Kommt eine erneute Ablehnung: den kompletten
-   Mailtext in den Chat geben. Der Grund steht unter „Es wurden
-   Richtlinienverstoesse gefunden" — davon haengt alles Weitere ab.
+---
 
-2. **Sitemap in der Search Console neu einreichen** — Maikel richtet das ein
-   (Konto jpeter00995, Property donum-dei.pages.dev, Menuepunkt „Sitemaps",
-   Feld `sitemap-index.xml`, SENDEN).
+## 5. NEXT STEPS
 
-3. **ERLEDIGT in Sitzung 33** — die unbelegten „haustiersicher"-Angaben sind
-   jetzt als „ohne externe Pruefung" gekennzeichnet und von den belegten
-   getrennt. Offen bleibt nur: eine zweite Quelle suchen (z. B.
-   Giftinformationszentrale Bonn), um einen Teil der 149 zu belegen.
+1. **Die offene Entscheidung aus `ACTIVE_TASK.md` mit Maikel klaeren.**
+   Domain kaufen (Vorschlag) / sofort neu beantragen / erst Pflanzen ausbauen.
 
-4. **ERLEDIGT in Sitzung 33** — siehe Punkt 3 und
-   `HAUSTIER_BEFUND_2026-08-10.md`.
+2. **Falls Domain (Weg A):** `donum-dei.de` ist frei (Sitzung 33 geprueft).
+   Danach: Custom Domain in Cloudflare, `site` in `astro.config.mjs`,
+   Weiterleitung von der pages.dev-Adresse, neue Property in der Search
+   Console, Sitemap dort einreichen.
 
-5. **10 Pflanzen ohne Haustier-Angabe** (Teestrauch, Kardamom, Roselle,
-   Ginseng, Schwarzer Pfeffer, Moringa, Ashwagandha, Kratom, Peyote,
-   Puppen-Kernkeule): stehen nicht auf der ASPCA-Liste. Bewusst leer
-   gelassen — ein „ungiftig" ohne Beleg wuerde sie auf eine Seite heben, die
-   Sicherheit verspricht. Nicht ohne neue Quelle aendern.
+3. **Falls Pflanzen (Weg C):** 22 Seiten (11 Arten x DE/EN) liegen unter
+   1500 Zeichen — Kardamom, Moringa, Roselle, Schwarzer Pfeffer,
+   Eukalyptus, Teestrauch, Ginseng, Wermut und die drei Pilze
+   (Steinpilz, Austern-Seitling, Schmetterlingstramete), dazu
+   Puppen-Kernkeule. Ausbau braucht Recherche mit Quellenpflicht.
 
-6. Eigene Domain donum-dei.de (Maikel kauft, dann Cloudflare Custom Domain).
+4. **Linkaufbau** — bisher null Verweise von aussen. Ohne die wird die
+   Seite auch mit eigener Domain nicht indexiert.
 
-## WARNINGS
+5. **10 Pflanzen ohne Haustier-Angabe** bleiben bewusst leer (nicht auf der
+   ASPCA-Liste). Ein „ungiftig" ohne Beleg wuerde sie auf eine Seite heben,
+   die Sicherheit verspricht. Nicht ohne neue Quelle aendern.
 
-- Nextcloud-Ordner = Archiv. Nur `C:\Dev\DonumDei_git` gilt.
-- Cloudflare-Deploy nur von Hand, richtiges Konto beachten (siehe oben).
-- Live-Checks immer mit Cache-Umgehung.
-- Die noindex-Sperre fuer die 11 kontrollierten Arten ist eine bewusste
-  Entscheidung fuer den AdSense-Antrag. An jeder betroffenen Stelle steht
-  ein Kommentar, wie man sie zuruecknimmt.
-- Sicherung der Pflanzendaten vor dem ASPCA-Eingriff liegt im
-  Session-Scratchpad (`plants_pre_aspca`), zusaetzlich
-  `_backups/plants_2026-08-10_pre_teaser.tar.gz` im Klon.
+---
 
-## NEUE WERKZEUGE DIESER SITZUNG
+## 6. NICHT ANFASSEN
+
+- Die `noindex`-Sperre fuer die 11 rechtlich kontrollierten Arten
+  (Cannabis, Koka, Peyote u. a.) ist eine bewusste Entscheidung fuer den
+  AdSense-Antrag. An jeder Stelle steht ein Kommentar, wie man sie
+  zuruecknimmt.
+- Giftige und kontrollierte Arten erscheinen bewusst nicht in den
+  „Heilpflanzen gegen"-Listen (`istFuerEmpfehlungGeeignet` in
+  `symptomSearch.ts`).
+- Der Nextcloud-Ordner bleibt Archiv.
+
+---
+
+## 7. WERKZEUGE
 
 ```
-scripts/teaser_export.py        betroffene Pflanzen stapelweise listen
+scripts/textmenge.py            sichtbarer Text je Seite, nach Typ gruppiert
+scripts/pruef_beschreibungen.py Wikipedia-Muster + zu kurze Beschreibungen
+scripts/scan_descriptions.mjs   Pre-Deploy-Gate: teaser UND description
 scripts/teaser_apply.py         Teaser schreiben, Vorschau als Standard
-scripts/teaser_zeige.py         Datenansicht fuer einzelne Slugs
 scripts/patch_apply.py          description/names schreiben, geprueft
-scripts/beschr_zeige.py         Datenansicht fuer Beschreibungen
-scripts/pruef_beschreibungen.py Bericht: Wikipedia-Muster + kurze Texte
-scripts/fix_alt_texte.py        Bild-Beschreibungen ohne Unterstrich
 scripts/aspca_uebernehmen.py    Haustier-Giftigkeit mit Quelle eintragen
-src/lib/harvestMonth.ts         echter Ernte-Filter (+11 Tests)
+scripts/fix_alt_texte.py        Bild-Beschreibungen ohne Unterstrich
+scripts/link_check.py           tote Links im Build
+src/lib/seitenText.ts           Texte der Werkzeug-Seiten DE/EN
+src/lib/harvestMonth(.test).ts  echter Ernte-Filter
 src/lib/harvestMonthText.ts     Monatstexte DE/EN
 src/lib/symptomText.ts          Symptomtexte DE/EN
 ```
@@ -235,7 +214,7 @@ src/lib/symptomText.ts          Symptomtexte DE/EN
 Alle Schreib-Werkzeuge haben Vorschau als Standard und schreiben erst mit
 `--schreiben`.
 
-## VOLLSTAENDIGER BERICHT
+## 8. BERICHTE
 
-`75_Maikel/Donum_Dei/ADSENSE_BEFUND_2026-08-10.md` (im Archiv-Ordner,
-enthaelt alle Messwerte und Zwischenschritte dieser Sitzung).
+- `75_Maikel/Donum_Dei/ADSENSE_BEFUND_2026-08-10.md` (Archiv-Ordner)
+- `HAUSTIER_BEFUND_2026-08-10.md` (im Klon)
