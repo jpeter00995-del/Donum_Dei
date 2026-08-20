@@ -16,8 +16,8 @@
     "en": "Aromatic spice from southern India whose seeds are traditionally used to support digestion."
   },
   "description": {
-    "de": "Grüner Kardamom gehört zur Familie der Ingwergewächse und stammt ursprünglich aus den feuchten Bergwäldern Südindiens. Als Gewürz dienen die getrockneten Kapseln mit ihren aromatischen Samen, die im Herbst geerntet werden. Ihr charakteristisches Aroma stammt aus dem ätherischen Öl mit 1,8-Cineol und α-Terpinylacetat. Traditionell werden die Samen nach dem Essen gekaut oder als Gewürz verwendet, um die Verdauung anzuregen. Als Küchengewürz gilt Kardamom für die meisten Menschen als unbedenklich; allergische Reaktionen sind in Einzelfällen möglich.",
-    "en": "Green cardamom belongs to the ginger family and originates in the humid mountain forests of southern India. The spice consists of the dried pods and their aromatic seeds, harvested in autumn. Their distinctive scent comes from an essential oil rich in 1,8-cineole and α-terpinyl acetate. Traditionally the seeds are chewed after a meal or used as a spice to aid digestion. As a culinary spice, cardamom is considered harmless for most people; allergic reactions occur in rare cases."
+    "de": "Grüner Kardamom ist eine ausdauernde Staude aus der Familie der Ingwergewächse und stammt aus den feuchten Bergwäldern der Westghats in Südindien. Aus einem kriechenden Rhizom treiben mehrere Scheinstämme, die mannshoch und höher werden; die Blütenähren liegen dagegen dicht über dem Boden. Aus ihnen entstehen die dreikammerigen Kapseln, die das eigentliche Gewürz enthalten. Geerntet wird von Hand und kurz vor der Vollreife, weil aufgeplatzte Kapseln ihr Aroma rasch verlieren; anschließend werden sie schonend getrocknet. Heute wird Kardamom vor allem in Indien und Guatemala angebaut. Das charakteristische Aroma stammt aus dem ätherischen Öl der Samen, in dem α-Terpinylacetat und 1,8-Cineol den Ton angeben. In der indischen Küche und in der arabischen Kaffeezubereitung ist Kardamom fest verankert, ebenso in der traditionellen Medizin Südasiens, wo die Samen nach dem Essen gekaut werden. Die neuere Forschung hat vor allem Blutdruck und Entzündungswerte untersucht, bislang in kleinen Studien. Als Küchengewürz gilt Kardamom für die meisten Menschen als unbedenklich.",
+    "en": "Green cardamom is a perennial herb of the ginger family, native to the humid mountain forests of the Western Ghats in southern India. Several pseudostems, taller than a person, rise from a creeping rhizome, while the flowering spikes lie close to the ground. These produce the three-chambered pods that hold the actual spice. Harvesting is done by hand shortly before full ripeness, because split pods lose their aroma quickly; the pods are then dried gently. Today most cardamom is grown in India and Guatemala. The characteristic scent comes from the essential oil of the seeds, dominated by α-terpinyl acetate and 1,8-cineole. Cardamom is a fixture of Indian cooking and of Arabic coffee, and equally of the traditional medicine of South Asia, where the seeds are chewed after a meal. Recent research has focused mainly on blood pressure and inflammatory markers, so far in small studies. As a culinary spice, cardamom is considered harmless for most people."
   },
   "uses": [
     {
@@ -28,8 +28,28 @@
       "evidence_level": "traditional",
       "source_ids": ["review", "wiki"],
       "description": {
-        "de": "Die Samen werden traditionell als Gewürz und als Verdauungshilfe bei Magen-Darm-Beschwerden verwendet.",
-        "en": "The seeds are traditionally used as a spice and as a digestive aid for gastrointestinal discomfort."
+        "de": "Die Samen werden traditionell als Gewürz und als Verdauungshilfe bei Magen-Darm-Beschwerden verwendet. In Südasien ist es üblich, nach dem Essen einige Samen zu kauen; ihnen wird zugeschrieben, Völlegefühl zu lindern und den Atem zu erfrischen.",
+        "en": "The seeds are traditionally used as a spice and as a digestive aid for gastrointestinal discomfort. In South Asia it is customary to chew a few seeds after a meal; they are said to ease a feeling of fullness and to freshen the breath."
+      }
+    },
+    {
+      "form": "tea",
+      "target": ["digestion (traditional)"],
+      "internal_external": "internal",
+      "plant_part": "seed",
+      "evidence_level": "traditional",
+      "source_ids": ["review"],
+      "description": {
+        "de": "Als Aufguss werden die frisch angedrückten Kapseln überbrüht — allein oder zusammen mit schwarzem Tee, Ingwer und Zimt, wie im indischen Masala Chai. Der Aufguss ist eine Genussanwendung; ein Nutzen über die Erfahrungsheilkunde hinaus ist nicht belegt.",
+        "en": "For an infusion the pods are lightly crushed and steeped — on their own or together with black tea, ginger and cinnamon, as in Indian masala chai. The infusion is a matter of enjoyment; a benefit beyond traditional use is not established."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "Zwei bis drei Kapseln andrücken, mit 250 ml siedendem Wasser übergießen und zugedeckt fünf bis zehn Minuten ziehen lassen. Zugedeckt, damit das ätherische Öl nicht mit dem Dampf entweicht.",
+          "en": "Crush two or three pods, pour over 250 ml of boiling water and steep covered for five to ten minutes. Keep it covered so the essential oil does not escape with the steam."
+        },
+        "water_ml": 250,
+        "doses_per_day": 3
       }
     },
     {
@@ -40,8 +60,16 @@
       "evidence_level": "clinical_trial",
       "source_ids": ["meta", "review"],
       "description": {
-        "de": "In randomisierten Studien (meist 3 g/Tag) zeigte grüner Kardamom Hinweise auf eine Senkung von Blutdruck und Entzündungsmarkern; die Evidenz beim Menschen ist jedoch noch begrenzt.",
-        "en": "In randomized trials (typically 3 g/day), green cardamom showed signals of reducing blood pressure and inflammatory markers; however, human evidence remains limited."
+        "de": "In randomisierten Studien wurde gemahlener grüner Kardamom in einer Menge von 3 g pro Tag über acht bis sechzehn Wochen geprüft. Eine Zusammenfassung von acht dieser Studien mit 769 Teilnehmern fand kleine, aber statistisch bedeutsame Rückgänge bei Entzündungswerten (hs-CRP, Interleukin-6, TNF-α) sowie beim Blutdruck — im Mittel −0,5 mmHg systolisch und −0,9 mmHg diastolisch. Die Autoren weisen selbst darauf hin, dass alle Studien aus dem Iran stammen, sich deutlich unterscheiden und die Zahl der Untersuchungen klein ist. Die Blutdruckwerte sind rechnerisch bedeutsam, im Alltag aber sehr klein. Kardamom ersetzt keine Behandlung.",
+        "en": "In randomized trials, ground green cardamom was tested at 3 g per day over eight to sixteen weeks. A pooled analysis of eight such trials with 769 participants found small but statistically significant reductions in inflammatory markers (hs-CRP, interleukin-6, TNF-α) and in blood pressure — on average −0.5 mmHg systolic and −0.9 mmHg diastolic. The authors themselves note that all trials came from Iran, that they differ considerably, and that the number of studies is small. The blood-pressure figures are statistically meaningful but very small in everyday terms. Cardamom does not replace treatment."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "In den Studien wurden 3 g Kardamompulver täglich eingenommen, verteilt auf zwei Gaben, über acht bis sechzehn Wochen. Das ist die untersuchte Menge, keine Empfehlung.",
+          "en": "The trials used 3 g of cardamom powder daily, split into two doses, over eight to sixteen weeks. That is the amount studied, not a recommendation."
+        },
+        "amount_dry_g": { "min": 3, "max": 3 },
+        "doses_per_day": 2
       }
     }
   ],
@@ -49,16 +77,106 @@
     "active_months": [9, 10, 11],
     "harvest_part": { "de": "Samen/Kapseln", "en": "Seeds/pods" }
   },
+  "harvest": [
+    {
+      "plant_part": "seed",
+      "best_months": [9, 10, 11],
+      "time_of_day": {
+        "de": "Im Ursprungsland wird über mehrere Wochen hinweg mehrfach gepflückt, sobald die untersten Kapseln einer Ähre reif werden.",
+        "en": "In its home range the spikes are picked repeatedly over several weeks, as soon as the lowest pods of a spike ripen."
+      },
+      "drying": {
+        "de": "Kapseln geschlossen und ungeschält trocknen, schonend bei etwa 45–50 °C oder im Schatten. Die Samen erst kurz vor Gebrauch aus der Kapsel lösen — offen liegende Samen verlieren das ätherische Öl innerhalb weniger Wochen.",
+        "en": "Dry the pods whole and unhusked, gently at about 45–50 °C or in the shade. Take the seeds out of the pod only shortly before use — exposed seeds lose their essential oil within a few weeks."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Ganze Kapseln luftdicht, dunkel und kühl aufbewahren. Gemahlener Kardamom verliert sein Aroma schon nach wenigen Wochen.",
+        "en": "Store whole pods airtight, dark and cool. Ground cardamom loses its aroma within a few weeks."
+      }
+    }
+  ],
   "safety": {
     "external_only": false,
     "toxicity_level": "caution",
     "warnings": {
-      "de": "Als Küchengewürz gilt Kardamom für die meisten Menschen als unbedenklich. Allergische Reaktionen sind möglich. Personen mit Gallensteinen sollten größere Mengen meiden, da Kardamom die Gallenproduktion anregen und Koliken auslösen kann. Bei medizinischer Anwendung oder in der Schwangerschaft ärztlichen Rat einholen.",
-      "en": "As a culinary spice, cardamom is considered safe for most people. Allergic reactions are possible. People with gallstones should avoid large amounts, as cardamom can stimulate bile secretion and trigger colic. Seek medical advice for medicinal use or during pregnancy."
-    }
+      "de": "Als Küchengewürz gilt Kardamom für die meisten Menschen als unbedenklich. Allergische Reaktionen sind möglich. Personen mit Gallensteinen sollten größere Mengen meiden, da Kardamom die Gallenproduktion anregen und Koliken auslösen kann. Die in Studien verwendete Menge von 3 g Pulver täglich liegt deutlich über dem, was beim Würzen zusammenkommt — solche Mengen gehören nicht in den Alltag ohne ärztlichen Rat. Bei medizinischer Anwendung oder in der Schwangerschaft ärztlichen Rat einholen.",
+      "en": "As a culinary spice, cardamom is considered safe for most people. Allergic reactions are possible. People with gallstones should avoid large amounts, as cardamom can stimulate bile secretion and trigger colic. The 3 g of powder per day used in trials is far above what seasoning adds up to — such amounts do not belong in everyday use without medical advice. Seek medical advice for medicinal use or during pregnancy."
+    },
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Als Gewürz in der Küche seit jeher üblich. Für die höheren Mengen aus den Studien gibt es keine Untersuchungen an Schwangeren — solche Mengen deshalb nur nach ärztlichem Rat.",
+        "en": "Customary as a kitchen spice. There are no studies in pregnant women for the higher amounts used in trials — so use such amounts only on medical advice."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Die Stillzeit-Datenbank LactMed führt keine Daten zu Gehalten in der Muttermilch oder zu Wirkungen auf gestillte Kinder. Kardamom war Bestandteil einer Kräutermischung, die in einer randomisierten Studie die Stilldauer verbesserte; das erlaubt keinen Rückschluss auf Kardamom allein.",
+        "en": "The lactation database LactMed lists no data on levels in breast milk or on effects in breastfed infants. Cardamom was one component of a herbal mixture that improved breastfeeding duration in a randomized trial; that allows no conclusion about cardamom on its own."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Als Gewürz im Essen unbedenklich. Größere Mengen als Nahrungsergänzung sind bei Kindern nicht untersucht.",
+        "en": "Harmless as a spice in food. Larger amounts as a supplement have not been studied in children."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Blutdrucksenker (Antihypertensiva)",
+        "severity": "monitor",
+        "mechanism": {
+          "de": "Kardamom senkte in Studien den Blutdruck geringfügig. Bei laufender Blutdruckbehandlung und größeren Mengen ist ein additiver Effekt denkbar — Blutdruck im Auge behalten.",
+          "en": "In trials cardamom lowered blood pressure slightly. With ongoing antihypertensive treatment and larger amounts an additive effect is conceivable — keep an eye on blood pressure."
+        }
+      },
+      {
+        "drug_class": "Gerinnungshemmer und Thrombozytenhemmer",
+        "severity": "monitor",
+        "mechanism": {
+          "de": "Für Kardamom wurde eine fibrinolyse-fördernde Wirkung beschrieben. Belastbare Studien zur Kombination mit Gerinnungshemmern fehlen; bei größeren Mengen ärztlich abklären.",
+          "en": "A fibrinolysis-enhancing effect has been described for cardamom. Robust studies on the combination with anticoagulants are lacking; clarify larger amounts with a doctor."
+        }
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Gallensteine — größere Mengen können durch die angeregte Gallenproduktion Koliken auslösen.",
+        "en": "Gallstones — larger amounts can trigger colic through increased bile production."
+      },
+      {
+        "de": "Bekannte Allergie gegen Ingwergewächse (Kardamom, Ingwer, Kurkuma, Galgant).",
+        "en": "Known allergy to plants of the ginger family (cardamom, ginger, turmeric, galangal)."
+      }
+    ]
   },
   "constituents": [
-    { "name": "Ätherisches Öl (1,8-Cineol, α-Terpinylacetat)", "category": "essential_oil" },
+    {
+      "name": "α-Terpinylacetat",
+      "category": "essential_oil",
+      "plant_part": "seed",
+      "note": {
+        "de": "Hauptbestandteil des ätherischen Öls; trägt die fruchtig-süße Note.",
+        "en": "Main component of the essential oil; carries the fruity, sweet note."
+      }
+    },
+    {
+      "name": "1,8-Cineol (Eucalyptol)",
+      "category": "essential_oil",
+      "plant_part": "seed",
+      "note": {
+        "de": "Zweiter Hauptbestandteil; sorgt für den kühlen, eukalyptusartigen Eindruck.",
+        "en": "Second main component; responsible for the cool, eucalyptus-like impression."
+      }
+    },
+    { "name": "Limonen", "category": "essential_oil", "plant_part": "seed" },
+    { "name": "Sabinen", "category": "essential_oil", "plant_part": "seed" },
+    { "name": "α-Pinen und β-Pinen", "category": "essential_oil", "plant_part": "seed" },
+    { "name": "Linalool und α-Terpineol", "category": "essential_oil", "plant_part": "seed" },
+    { "name": "α-Phellandren", "category": "essential_oil", "plant_part": "seed" },
     { "name": "Flavonoide (Quercetin)", "category": "flavonoid" }
   ],
   "classical_quotes": [],
@@ -74,7 +192,8 @@
   },
   "sources": [
     { "id": "review", "type": "monograph", "title": "Botany, traditional uses, phytochemistry and biological activities of cardamom — a critical review (J. Ethnopharmacology)", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378874119308918", "accessed": "2026-06-23" },
-    { "id": "meta", "type": "monograph", "title": "Effect of cardamom consumption on inflammation and blood pressure in adults: meta-analysis of RCTs (PMC10804083)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804083/", "accessed": "2026-06-23" },
+    { "id": "meta", "type": "monograph", "title": "Effect of cardamom consumption on inflammation and blood pressure in adults: meta-analysis of RCTs (PMC10804083)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804083/", "accessed": "2026-08-20" },
+    { "id": "lactmed", "type": "monograph", "title": "Cardamom — Drugs and Lactation Database (LactMed), NCBI Bookshelf NBK615240", "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK615240/", "accessed": "2026-08-20" },
     { "id": "wiki", "type": "wikipedia", "title": "Elettaria cardamomum — Wikipedia", "url": "https://en.wikipedia.org/wiki/Elettaria_cardamomum", "accessed": "2026-06-23" },
     { "id": "commons_img", "type": "commons", "title": "File:Cardamom Plant Elettaria cardamomum.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Cardamom_Plant_Elettaria_cardamomum.jpg", "accessed": "2026-06-23" }
   ]

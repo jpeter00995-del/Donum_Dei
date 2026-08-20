@@ -16,8 +16,8 @@
     "en": "Fast-growing tropical tree whose nutrient-rich leaves are widely marketed as a supplement, though human evidence remains limited."
   },
   "description": {
-    "de": "Der Moringabaum, auch Meerrettichbaum genannt, ist ein schnell wachsender Tropenbaum aus der Familie der Bennussgewächse. Genutzt werden vor allem die nährstoffreichen Blätter, die Vitamine (C, E, Provitamin A), Mineralstoffe wie Eisen und Calcium sowie Flavonoide und Glucosinolate enthalten. In vielen Anbauländern sind Blätter, Früchte und Samen ein alltägliches Nahrungsmittel und gelten in üblichen Speisemengen als sicher. Die als Nahrungsergänzung beworbenen weitreichenden Wirkungen sind beim Menschen bisher jedoch nur begrenzt belegt. Von Wurzel und Rinde ist abzuraten — sie enthalten bedenkliche Inhaltsstoffe.",
-    "en": "The moringa tree, also called the drumstick tree, is a fast-growing tropical tree of the moringa family. The part mainly used are the nutrient-rich leaves, which contain vitamins (C, E, provitamin A), minerals such as iron and calcium, and flavonoids and glucosinolates. In many growing regions the leaves, pods and seeds are an everyday food and are considered safe in normal culinary amounts. The far-reaching effects promoted for it as a supplement, however, are so far only sparsely supported in humans. Root and bark are best avoided — they contain worrisome compounds."
+    "de": "Der Moringabaum, auch Meerrettichbaum genannt, ist ein schnell wachsender Tropenbaum aus der Familie der Bennussgewächse. Er stammt aus dem nordwestlichen Indien am Fuß des Himalaya und wird heute in den Tropen weltweit angebaut; unter guten Bedingungen legt er im ersten Jahr mehrere Meter zu. Der deutsche Name kommt vom Geschmack der Wurzel, die nach Meerrettich schmeckt — genau dieser Pflanzenteil ist der bedenkliche. Genutzt werden vor allem die nährstoffreichen, mehrfach gefiederten Blätter, die Vitamine (C, E, Provitamin A), Mineralstoffe wie Eisen und Calcium sowie Flavonoide und Glucosinolate enthalten. Aus den Samen wird ein haltbares Öl gepresst, und der zerkleinerte Presskuchen wird in mehreren Ländern zur Trinkwasser-Klärung eingesetzt, weil er Schwebstoffe bindet. In den Anbauländern sind Blätter, Früchte und Samen ein alltägliches Nahrungsmittel und gelten in üblichen Speisemengen als sicher. Die als Nahrungsergänzung beworbenen weitreichenden Wirkungen sind beim Menschen bisher nur begrenzt belegt. Von Wurzel und Rinde ist abzuraten.",
+    "en": "The moringa tree, also called the drumstick or horseradish tree, is a fast-growing tropical tree of the moringa family. It comes from north-western India at the foot of the Himalayas and is now grown throughout the tropics; in good conditions it puts on several metres in its first year. The name horseradish tree comes from the taste of the root — and that is exactly the part to avoid. The parts mainly used are the nutrient-rich, multiply pinnate leaves, which contain vitamins (C, E, provitamin A), minerals such as iron and calcium, and flavonoids and glucosinolates. A stable oil is pressed from the seeds, and the crushed press cake is used in several countries to clarify drinking water, because it binds suspended particles. In the growing regions the leaves, pods and seeds are an everyday food and are considered safe in normal culinary amounts. The far-reaching effects promoted for it as a supplement are so far only sparsely supported in humans. Root and bark are best avoided."
   },
   "uses": [
     {
@@ -28,8 +28,8 @@
       "evidence_level": "traditional",
       "source_ids": ["review", "webmd"],
       "description": {
-        "de": "Die Blätter werden traditionell als nahrhaftes Gemüse und in getrockneter Pulverform gegessen; sie liefern Eiweiß, Vitamine und Mineralstoffe.",
-        "en": "The leaves are traditionally eaten as a nutritious vegetable and as dried powder, providing protein, vitamins and minerals."
+        "de": "Die Blätter werden traditionell als nahrhaftes Gemüse und in getrockneter Pulverform gegessen; sie liefern Eiweiß, Vitamine und Mineralstoffe. In der Küche der Anbauländer kommen sie wie Spinat in Suppen und Currys, die jungen Fruchtschoten werden wie Bohnen gekocht.",
+        "en": "The leaves are traditionally eaten as a nutritious vegetable and as dried powder, providing protein, vitamins and minerals. In the cooking of the growing regions they go into soups and curries like spinach, and the young pods are cooked like beans."
       }
     },
     {
@@ -40,8 +40,20 @@
       "evidence_level": "clinical_trial",
       "source_ids": ["glucose", "review"],
       "description": {
-        "de": "Einige kleine Humanstudien deuten auf eine leichte Senkung von Blutzucker und Blutfetten hin; die Belege sind jedoch begrenzt und uneinheitlich, ein gesicherter Nutzen ist nicht bewiesen.",
-        "en": "A few small human trials suggest modest reductions in blood sugar and blood lipids, but the evidence is limited and inconsistent and a proven benefit is not established."
+        "de": "Einige kleine Humanstudien deuten auf eine leichte Senkung von Blutzucker und Blutfetten hin; die Belege sind jedoch begrenzt und uneinheitlich, ein gesicherter Nutzen ist nicht bewiesen. Die meisten Untersuchungen liefen über wenige Wochen und mit kleinen Teilnehmerzahlen — für eine belastbare Aussage reicht das nicht.",
+        "en": "A few small human trials suggest modest reductions in blood sugar and blood lipids, but the evidence is limited and inconsistent and a proven benefit is not established. Most of the studies ran for a few weeks with small numbers of participants — not enough for a sound conclusion."
+      }
+    },
+    {
+      "form": "raw",
+      "target": ["milk supply (research)"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "clinical_trial",
+      "source_ids": ["lactmed"],
+      "description": {
+        "de": "Moringa gehört zu den wenigen milchbildenden Pflanzen, für die es Studien am Menschen gibt. Eine Zusammenfassung mehrerer Untersuchungen fand einen bedeutsamen Anstieg von Prolaktin und Milchmenge; in einer Studie pumpten Mütter im Mittel 947 statt 618 ml ab. Das Wachstum der Kinder unterschied sich nicht. Die Studienqualität schwankt allerdings stark, und die Stillzeit-Datenbank LactMed betont, dass milchbildende Mittel nie die Suche nach der eigentlichen Ursache ersetzen.",
+        "en": "Moringa is one of the few galactagogue plants with actual human studies. A pooled review found a significant increase in prolactin and milk volume; in one study mothers expressed a mean of 947 instead of 618 ml. Infant growth did not differ. Study quality varies considerably, however, and the lactation database LactMed stresses that galactagogues never replace looking for the underlying cause."
       }
     }
   ],
@@ -49,19 +61,113 @@
     "active_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "harvest_part": { "de": "Blätter", "en": "Leaves" }
   },
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "time_of_day": {
+        "de": "Im Tropenklima ganzjährig. Junge, hellgrüne Fiederblätter schmecken milder als alte; geerntet wird der ganze Zweig, die Pflanze treibt rasch nach.",
+        "en": "All year round in a tropical climate. Young, light-green leaflets taste milder than old ones; the whole shoot is cut and the plant regrows quickly."
+      },
+      "drying": {
+        "de": "Blätter im Schatten trocknen, nicht in der Sonne — direktes Licht baut das Vitamin C und das Provitamin A ab. Anschließend die Fiederblättchen von der Rispe streifen und zu Pulver mahlen.",
+        "en": "Dry the leaves in the shade, not in the sun — direct light degrades the vitamin C and provitamin A. Then strip the leaflets from the stalk and grind them to powder."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Pulver luftdicht, dunkel und trocken. Nach etwa einem halben Jahr lässt der Nährstoffgehalt spürbar nach.",
+        "en": "Store the powder airtight, dark and dry. After roughly half a year the nutrient content noticeably declines."
+      }
+    }
+  ],
   "safety": {
     "external_only": false,
     "toxicity_level": "caution",
     "warnings": {
-      "de": "Blätter, Früchte und Samen gelten in üblichen Speisemengen als sicher. Wurzel und Rinde enthalten bedenkliche Stoffe (z. B. Spirochin) und sollten gemieden werden. In der Schwangerschaft besondere Vorsicht: Wurzel, Rinde und Blüten können die Gebärmutter anregen und werden traditionell mit Fehlgeburten in Verbindung gebracht; die Sicherheit von Moringa-Präparaten in der Schwangerschaft ist nicht ausreichend belegt. Bei Erkrankungen oder Medikamenteneinnahme vorher ärztlich abklären.",
-      "en": "Leaves, fruit and seeds are considered safe in normal food amounts. Root and bark contain concerning substances (e.g. spirochin) and should be avoided. Special caution in pregnancy: root, bark and flowers may stimulate the uterus and are traditionally linked to miscarriage, and the safety of moringa supplements in pregnancy is not well established. Consult a doctor first if you have a medical condition or take medication."
-    }
+      "de": "Blätter, Früchte und Samen gelten in üblichen Speisemengen als sicher. Wurzel und Rinde enthalten bedenkliche Stoffe (z. B. Spirochin) und sollten gemieden werden. In der Schwangerschaft besondere Vorsicht: Wurzel, Rinde und Blüten können die Gebärmutter anregen und werden traditionell mit Fehlgeburten in Verbindung gebracht; die Sicherheit von Moringa-Präparaten in der Schwangerschaft ist nicht ausreichend belegt. Bei Erkrankungen oder Medikamenteneinnahme vorher ärztlich abklären. Nahrungsergänzungsmittel unterliegen keiner Zulassung — Inhalt und Aufdruck stimmen nicht immer überein.",
+      "en": "Leaves, fruit and seeds are considered safe in normal food amounts. Root and bark contain concerning substances (e.g. spirochin) and should be avoided. Special caution in pregnancy: root, bark and flowers may stimulate the uterus and are traditionally linked to miscarriage, and the safety of moringa supplements in pregnancy is not well established. Consult a doctor first if you have a medical condition or take medication. Food supplements are not subject to approval — contents and label do not always match."
+    },
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Wurzel, Rinde und Blüten meiden — ihnen wird eine wehenfördernde Wirkung zugeschrieben. Für Blattpulver in Präparatemengen fehlen Sicherheitsdaten. Blätter als Gemüse in Speisemengen sind davon nicht betroffen.",
+        "en": "Avoid root, bark and flowers — they are credited with a uterus-stimulating effect. Safety data are lacking for leaf powder in supplement amounts. Leaves eaten as a vegetable in culinary amounts are not affected by this."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Zu Gehalten in der Muttermilch gibt es laut LactMed keine Daten; in Studien unterschied sich das Wachstum der gestillten Kinder nicht von dem der Vergleichsgruppen. Moringa wird gezielt zur Milchbildung eingesetzt — das gehört in ärztliche oder hebammliche Begleitung, nicht in Selbstversuche.",
+        "en": "According to LactMed there are no data on levels in breast milk; in the studies the growth of breastfed infants did not differ from the comparison groups. Moringa is used deliberately to increase milk supply — that belongs with a doctor or midwife, not in self-experiments."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Als Gemüse Teil der normalen Ernährung in den Anbauländern. Konzentriertes Blattpulver als Nahrungsergänzung ist bei Kindern nicht ausreichend untersucht.",
+        "en": "Part of the ordinary diet as a vegetable in the growing regions. Concentrated leaf powder as a supplement has not been adequately studied in children."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Blutzuckersenkende Mittel (Insulin, orale Antidiabetika)",
+        "severity": "monitor",
+        "mechanism": {
+          "de": "Moringa-Blattpulver senkte in kleinen Studien den Blutzucker. In Kombination mit einer laufenden Diabetes-Behandlung ist eine Unterzuckerung denkbar — Werte engmaschiger kontrollieren.",
+          "en": "Moringa leaf powder lowered blood sugar in small studies. Combined with ongoing diabetes treatment, hypoglycaemia is conceivable — monitor readings more closely."
+        }
+      },
+      {
+        "drug_class": "Gerinnungshemmer und Thrombozytenhemmer",
+        "severity": "caution",
+        "mechanism": {
+          "de": "LactMed weist darauf hin, dass Moringa die Blutgerinnung anregen kann. Bei Gerinnungshemmern kann das der Behandlung entgegenwirken; bei erhöhtem Thromboserisiko ist Zurückhaltung angebracht.",
+          "en": "LactMed notes that moringa may stimulate blood clotting. With anticoagulants this can work against the treatment; restraint is advisable for anyone at raised risk of clots."
+        }
+      },
+      {
+        "drug_class": "Schilddrüsenhormone (Levothyroxin)",
+        "severity": "monitor",
+        "mechanism": {
+          "de": "Für Moringa wird ein Einfluss auf die Schilddrüsenfunktion diskutiert. Wer Schilddrüsenhormone einnimmt, sollte Präparate nicht ohne ärztliche Rücksprache dazunehmen.",
+          "en": "An influence on thyroid function is discussed for moringa. Anyone taking thyroid hormones should not add supplements without consulting a doctor."
+        }
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Wurzel, Rinde und Wurzelextrakte — sie enthalten Spirochin und weitere bedenkliche Alkaloide.",
+        "en": "Root, bark and root extracts — they contain spirochin and other concerning alkaloids."
+      },
+      {
+        "de": "Schwangerschaft, soweit es Wurzel, Rinde, Blüten und konzentrierte Präparate betrifft.",
+        "en": "Pregnancy, as far as root, bark, flowers and concentrated supplements are concerned."
+      }
+    ]
   },
   "constituents": [
-    { "name": "Vitamine (C, E, Provitamin A)", "category": "vitamin" },
-    { "name": "Mineralstoffe (Eisen, Calcium)", "category": "mineral" },
-    { "name": "Flavonoide (Quercetin)", "category": "flavonoid" },
-    { "name": "Glucosinolate / Isothiocyanate", "category": "other" }
+    {
+      "name": "Vitamine (C, E, Provitamin A)",
+      "category": "vitamin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Empfindlich gegen Licht und Hitze — getrocknetes Pulver enthält weniger als frische Blätter.",
+        "en": "Sensitive to light and heat — dried powder contains less than fresh leaves."
+      }
+    },
+    { "name": "Mineralstoffe (Eisen, Calcium, Kalium)", "category": "mineral", "plant_part": "leaf" },
+    { "name": "Flavonoide (Quercetin, Kaempferol)", "category": "flavonoid", "plant_part": "leaf" },
+    {
+      "name": "Glucosinolate / Isothiocyanate (u. a. Moringin)",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Senfölglykoside — dieselbe Stoffgruppe wie in Meerrettich und Senf; sie erklären den scharfen Beigeschmack.",
+        "en": "Mustard-oil glycosides — the same group of compounds as in horseradish and mustard; they explain the pungent aftertaste."
+      }
+    },
+    { "name": "Pflanzliches Eiweiß und Ballaststoffe", "category": "other", "plant_part": "leaf" },
+    { "name": "Spirochin (Wurzel, Rinde)", "category": "alkaloid", "plant_part": "root", "note": { "de": "Grund dafür, dass Wurzel und Rinde gemieden werden sollten.", "en": "The reason root and bark should be avoided." } }
   ],
   "classical_quotes": [],
   "image": {
@@ -78,6 +184,7 @@
     { "id": "review", "type": "monograph", "title": "Review of the Safety and Efficacy of Moringa oleifera (Stohs & Hartman, Phytotherapy Research 2015, PMC6680322)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6680322/", "accessed": "2026-06-23" },
     { "id": "webmd", "type": "monograph", "title": "Moringa: Overview, Uses, Side Effects, Precautions (WebMD)", "url": "https://www.webmd.com/vitamins-supplements/ingredientmono-1242-MORINGA.aspx", "accessed": "2026-06-23" },
     { "id": "glucose", "type": "monograph", "title": "Potential of Moringa oleifera to Improve Glucose Control: A Systematic Review (Nutrients 2020, PMC7400864)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7400864/", "accessed": "2026-06-23" },
+    { "id": "lactmed", "type": "monograph", "title": "Moringa — Drugs and Lactation Database (LactMed), NCBI Bookshelf NBK501899", "url": "https://www.ncbi.nlm.nih.gov/books/NBK501899/", "accessed": "2026-08-20" },
     { "id": "commons_img", "type": "commons", "title": "File:Sonjna (Moringa oleifera) leaf at Kolkata W IMG 2119.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Sonjna_(Moringa_oleifera)_leaf_at_Kolkata_W_IMG_2119.jpg", "accessed": "2026-06-23" }
   ]
 }

@@ -16,8 +16,8 @@
     "en": "A tropical climbing vine whose dried fruits are used worldwide as the spice peppercorn and contain the pungent compound piperine."
   },
   "description": {
-    "de": "Schwarzer Pfeffer ist eine tropische, kletternde Staude aus der Familie der Pfeffergewächse, die an Stützen mehrere Meter hoch rankt. Als Gewürz dienen die getrockneten, unreif geernteten Früchte — die Pfefferkörner —, die je nach Reife und Verarbeitung schwarz, weiß oder grün ausfallen. Ihre Schärfe verdankt der Pfeffer dem Alkaloid Piperin; das ätherische Öl mit Limonen, Pinen und β-Caryophyllen trägt das Aroma. In der Küche gilt Pfeffer in üblichen Mengen als unbedenklich. Vorsicht ist bei konzentrierten Piperin-Präparaten geboten: Piperin kann den Abbau von Arzneimitteln in der Leber hemmen und so deren Wirkung verändern.",
-    "en": "Black pepper is a tropical climbing vine of the pepper family that scrambles several metres up its supports. The spice is made from the dried, unripe fruits — the peppercorns — which turn black, white or green depending on ripeness and processing. Their pungency comes from the alkaloid piperine, while the essential oil, with limonene, pinene and β-caryophyllene, carries the aroma. As a culinary spice, pepper is considered harmless in normal amounts. Care is needed with concentrated piperine supplements: piperine can slow the breakdown of medicines in the liver and thereby alter their effect."
+    "de": "Schwarzer Pfeffer ist eine tropische, kletternde Staude aus der Familie der Pfeffergewächse, die an Stützen mehrere Meter hoch rankt. Sie stammt von der Malabarküste im Südwesten Indiens; angebaut wird sie heute in ganz Südostasien und in Brasilien. Die Blüten sitzen in hängenden Ähren, aus denen sich dicht gedrängte Steinfrüchte entwickeln. Schwarz, weiß und grün sind keine verschiedenen Arten, sondern dieselbe Frucht in verschiedener Verarbeitung: schwarzer Pfeffer wird unreif geerntet und mit Schale getrocknet, wobei sie sich dunkel runzelt; weißer Pfeffer stammt von reifen Früchten, deren Fruchtfleisch abgelöst wird; grüner Pfeffer wird unreif eingelegt oder schnell getrocknet. Die Schärfe kommt vom Alkaloid Piperin, das Aroma vom ätherischen Öl mit Limonen, Pinen und β-Caryophyllen. In der Küche gilt Pfeffer in üblichen Mengen als unbedenklich. Aufmerksamkeit verlangen dagegen konzentrierte Piperin-Präparate, wie sie Kurkuma-Kapseln oft beigemischt sind: Piperin kann den Abbau von Arzneimitteln in der Leber hemmen und deren Wirkung dadurch verstärken.",
+    "en": "Black pepper is a tropical climbing vine of the pepper family that scrambles several metres up its supports. It originates on the Malabar Coast of south-western India and is now grown across South-East Asia and in Brazil. The flowers sit in hanging spikes that develop into tightly packed drupes. Black, white and green are not different species but the same fruit processed differently: black pepper is picked unripe and dried with the skin on, which wrinkles and darkens; white pepper comes from ripe fruits with the flesh removed; green pepper is pickled or quickly dried while unripe. The pungency comes from the alkaloid piperine, the aroma from the essential oil with limonene, pinene and β-caryophyllene. As a culinary spice, pepper is considered harmless in normal amounts. Concentrated piperine supplements are a different matter — they are often added to turmeric capsules: piperine can slow the breakdown of medicines in the liver and thereby strengthen their effect."
   },
   "uses": [
     {
@@ -28,8 +28,8 @@
       "evidence_level": "traditional",
       "source_ids": ["wiki"],
       "description": {
-        "de": "Getrocknete Pfefferkörner sind ein weltweit verbreitetes Küchengewürz; traditionell auch bei Husten, Erkältung und Verdauungsbeschwerden verwendet (überlieferte Erfahrung, kein Wirksamkeitsnachweis).",
-        "en": "Dried peppercorns are a ubiquitous culinary seasoning; traditionally also used for cough, cold and digestive complaints (traditional use, not proof of efficacy)."
+        "de": "Getrocknete Pfefferkörner sind ein weltweit verbreitetes Küchengewürz; traditionell auch bei Husten, Erkältung und Verdauungsbeschwerden verwendet (überlieferte Erfahrung, kein Wirksamkeitsnachweis). Das Aroma sitzt im ätherischen Öl und entweicht nach dem Mahlen rasch — deshalb schmeckt frisch gemahlener Pfeffer deutlich kräftiger als fertiges Pulver.",
+        "en": "Dried peppercorns are a ubiquitous culinary seasoning; traditionally also used for cough, cold and digestive complaints (traditional use, not proof of efficacy). The aroma sits in the essential oil and escapes quickly once ground — which is why freshly ground pepper tastes distinctly stronger than ready-made powder."
       }
     },
     {
@@ -37,10 +37,23 @@
       "target": ["bioavailability enhancer (research)"],
       "internal_external": "internal",
       "plant_part": "fruit",
+      "evidence_level": "clinical_trial",
       "source_ids": ["jpet", "pharmtimes"],
       "description": {
-        "de": "Piperin kann die Aufnahme und Plasmaspiegel anderer Stoffe erhöhen, indem es Stoffwechsel-Enzyme (CYP3A4) und den Transporter P-Glykoprotein hemmt; dies wurde in Studien gezeigt.",
-        "en": "Piperine can increase the absorption and plasma levels of other substances by inhibiting metabolic enzymes (CYP3A4) and the transporter P-glycoprotein; this has been shown in studies."
+        "de": "Piperin kann die Aufnahme und Plasmaspiegel anderer Stoffe erhöhen, indem es Stoffwechsel-Enzyme (CYP3A4) und den Transporter P-Glykoprotein hemmt; dies wurde in Studien gezeigt. Genau darauf beruht die verbreitete Kombination aus Kurkuma und Pfefferextrakt: Piperin verzögert den Abbau des Curcumins. Derselbe Mechanismus trifft aber auch Arzneimittel, die über CYP3A4 abgebaut werden — die erwünschte Wirkung beim Gewürz ist beim Medikament ein Risiko.",
+        "en": "Piperine can increase the absorption and plasma levels of other substances by inhibiting metabolic enzymes (CYP3A4) and the transporter P-glycoprotein; this has been shown in studies. This is exactly what the common combination of turmeric and pepper extract relies on: piperine slows the breakdown of curcumin. But the same mechanism applies to medicines metabolised via CYP3A4 — what is desirable for a spice is a risk for a drug."
+      }
+    },
+    {
+      "form": "raw",
+      "target": ["milk supply (traditional)"],
+      "internal_external": "internal",
+      "plant_part": "fruit",
+      "evidence_level": "folk",
+      "source_ids": ["lactmed"],
+      "description": {
+        "de": "In Indien gelten schwarzer Pfeffer und der verwandte Lange Pfeffer (Piper longum) als milchbildend. Belastbare klinische Studien dazu gibt es nicht — die Stillzeit-Datenbank LactMed führt diese Verwendung ausdrücklich als unbelegt.",
+        "en": "In India, black pepper and the related long pepper (Piper longum) are considered to promote milk supply. There are no sound clinical trials for this — the lactation database LactMed explicitly lists this use as unsupported."
       }
     }
   ],
@@ -48,17 +61,114 @@
     "active_months": [11, 12, 1, 2],
     "harvest_part": { "de": "Früchte (Pfefferkörner)", "en": "Fruits (peppercorns)" }
   },
+  "harvest": [
+    {
+      "plant_part": "fruit",
+      "best_months": [11, 12, 1, 2],
+      "time_of_day": {
+        "de": "Geerntet wird die ganze Ähre, sobald die ersten Früchte darin von Grün nach Rot umschlagen. Für schwarzen Pfeffer noch unreif — wartet man auf die Vollreife, wird das Korn milder.",
+        "en": "The whole spike is picked as soon as its first fruits turn from green to red. For black pepper still unripe — waiting for full ripeness gives a milder corn."
+      },
+      "drying": {
+        "de": "Für schwarzen Pfeffer werden die Früchte kurz gebrüht und dann in der Sonne getrocknet; dabei bräunt die Schale und runzelt. Für weißen Pfeffer lässt man reife Früchte einige Tage in Wasser stehen, bis sich das Fruchtfleisch ablöst.",
+        "en": "For black pepper the fruits are briefly blanched and then sun-dried; the skin browns and wrinkles. For white pepper, ripe fruits are soaked for several days until the flesh comes away."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Ganze Körner luftdicht, dunkel und trocken; so hält das Aroma zwei Jahre und länger. Gemahlener Pfeffer verliert es innerhalb weniger Monate.",
+        "en": "Store whole corns airtight, dark and dry; the aroma then keeps for two years and longer. Ground pepper loses it within a few months."
+      }
+    }
+  ],
   "safety": {
     "external_only": false,
     "toxicity_level": "caution",
     "warnings": {
-      "de": "Als Küchengewürz in üblichen Mengen unbedenklich. Vorsicht bei konzentrierten Piperin-Präparaten: Piperin hemmt arzneimittelabbauende Enzyme (CYP3A4, CYP2C9) und P-Glykoprotein und kann die Blutspiegel mancher Medikamente erhöhen (z. B. Carbamazepin, Midazolam, Diclofenac, Phenytoin, möglicherweise Warfarin und Digoxin). Wer Medikamente einnimmt, sollte vor der Verwendung piperinhaltiger Nahrungsergänzungsmittel ärztlichen Rat einholen.",
-      "en": "Safe as a culinary spice in normal amounts. Caution with concentrated piperine supplements: piperine inhibits drug-metabolising enzymes (CYP3A4, CYP2C9) and P-glycoprotein and can raise the blood levels of some medicines (e.g. carbamazepine, midazolam, diclofenac, phenytoin, possibly warfarin and digoxin). Anyone taking medication should seek medical advice before using piperine supplements."
-    }
+      "de": "Als Küchengewürz in üblichen Mengen unbedenklich. Vorsicht bei konzentrierten Piperin-Präparaten: Piperin hemmt arzneimittelabbauende Enzyme (CYP3A4, CYP2C9) und P-Glykoprotein und kann die Blutspiegel mancher Medikamente erhöhen (z. B. Carbamazepin, Midazolam, Diclofenac, Phenytoin, möglicherweise Warfarin und Digoxin). Wer Medikamente einnimmt, sollte vor der Verwendung piperinhaltiger Nahrungsergänzungsmittel ärztlichen Rat einholen. Zu beachten ist, dass Piperin vielen Kurkuma-Kapseln zugesetzt ist, ohne dass es im Produktnamen auftaucht.",
+      "en": "Safe as a culinary spice in normal amounts. Caution with concentrated piperine supplements: piperine inhibits drug-metabolising enzymes (CYP3A4, CYP2C9) and P-glycoprotein and can raise the blood levels of some medicines (e.g. carbamazepine, midazolam, diclofenac, phenytoin, possibly warfarin and digoxin). Anyone taking medication should seek medical advice before using piperine supplements. Note that piperine is added to many turmeric capsules without appearing in the product name."
+    },
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Als Gewürz im Essen üblich und unbedenklich. Konzentrierte Piperin-Präparate sind in der Schwangerschaft nicht untersucht und deshalb nicht zu empfehlen.",
+        "en": "Customary and harmless as a spice in food. Concentrated piperine supplements have not been studied in pregnancy and are therefore not advisable."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Piperin geht in die Muttermilch über. Nach üblichen Gewürzmengen liegen die Werte laut LactMed weit unter der Geschmacksschwelle, sind also unbedenklich. Zu piperinhaltigen Präparaten in der Stillzeit gibt es keine Untersuchungen.",
+        "en": "Piperine passes into breast milk. After ordinary culinary amounts the levels are, according to LactMed, far below the taste threshold and thus harmless. There are no studies on piperine-containing supplements during breastfeeding."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Als Gewürz unbedenklich. Ganze Pfefferkörner gehören nicht in Kinderhände — sie können eingeatmet werden. Piperin-Präparate sind bei Kindern nicht untersucht.",
+        "en": "Harmless as a spice. Whole peppercorns do not belong in small children's hands — they can be inhaled. Piperine supplements have not been studied in children."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Über CYP3A4 abgebaute Arzneimittel (z. B. Carbamazepin, Midazolam, viele Statine)",
+        "severity": "caution",
+        "mechanism": {
+          "de": "Piperin hemmt CYP3A4 und verlangsamt damit den Abbau dieser Wirkstoffe. Deren Blutspiegel und Nebenwirkungen können steigen. Betrifft Präparate, nicht das Würzen.",
+          "en": "Piperine inhibits CYP3A4 and thereby slows the breakdown of these agents. Their blood levels and side effects can rise. This concerns supplements, not seasoning."
+        }
+      },
+      {
+        "drug_class": "Substrate von P-Glykoprotein (z. B. Digoxin)",
+        "severity": "caution",
+        "mechanism": {
+          "de": "Piperin hemmt den Transporter P-Glykoprotein, der solche Wirkstoffe aus der Darmwand zurückbefördert. Dadurch wird mehr aufgenommen als vorgesehen — bei Digoxin ist der Abstand zwischen Wirkung und Überdosierung klein.",
+          "en": "Piperine inhibits the transporter P-glycoprotein, which pumps such agents back out of the gut wall. More is absorbed than intended — and with digoxin the gap between effect and overdose is narrow."
+        }
+      },
+      {
+        "drug_class": "Gerinnungshemmer vom Cumarin-Typ (Warfarin, Phenprocoumon)",
+        "severity": "caution",
+        "mechanism": {
+          "de": "Der Abbau läuft unter anderem über CYP2C9, das Piperin ebenfalls hemmt. Eine Verstärkung der Gerinnungshemmung ist möglich; Piperin-Präparate deshalb nur nach ärztlicher Rücksprache.",
+          "en": "Breakdown runs partly via CYP2C9, which piperine also inhibits. A stronger anticoagulant effect is possible; therefore use piperine supplements only after consulting a doctor."
+        }
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Piperin-Präparate bei gleichzeitiger Einnahme von Arzneimitteln mit engem Wirkbereich (Digoxin, Phenytoin, Cumarine, Immunsuppressiva) — nur nach ärztlicher Rücksprache.",
+        "en": "Piperine supplements while taking medicines with a narrow therapeutic range (digoxin, phenytoin, coumarins, immunosuppressants) — only after consulting a doctor."
+      },
+      {
+        "de": "Akute entzündliche Magen-Darm-Erkrankungen — scharfe Gewürze können die Beschwerden verstärken.",
+        "en": "Acute inflammatory gastrointestinal disease — pungent spices can aggravate the symptoms."
+      }
+    ]
   },
   "constituents": [
-    { "name": "Piperin", "category": "alkaloid" },
-    { "name": "Ätherisches Öl (Limonen, Pinen, β-Caryophyllen)", "category": "essential_oil" }
+    {
+      "name": "Piperin",
+      "category": "alkaloid",
+      "plant_part": "fruit",
+      "percent_range": "2–9 %",
+      "note": {
+        "de": "Träger der Schärfe und der Wechselwirkungen mit Arzneimitteln.",
+        "en": "Carrier of both the pungency and the interactions with medicines."
+      }
+    },
+    { "name": "Piperanin und weitere Piperin-Verwandte", "category": "alkaloid", "plant_part": "fruit" },
+    {
+      "name": "Ätherisches Öl (Limonen, α- und β-Pinen, β-Caryophyllen, Sabinen)",
+      "category": "essential_oil",
+      "plant_part": "fruit",
+      "percent_range": "1–3 %",
+      "note": {
+        "de": "Trägt das Aroma; entweicht nach dem Mahlen innerhalb weniger Wochen.",
+        "en": "Carries the aroma; escapes within a few weeks after grinding."
+      }
+    },
+    { "name": "β-Caryophyllen", "category": "sesquiterpene", "plant_part": "fruit" },
+    { "name": "Flavonoide (u. a. Kaempferol, Quercetin)", "category": "flavonoid", "plant_part": "fruit" }
   ],
   "classical_quotes": [],
   "image": {
@@ -75,6 +185,7 @@
     { "id": "wiki", "type": "wikipedia", "title": "Black pepper — Wikipedia", "url": "https://en.wikipedia.org/wiki/Black_pepper", "accessed": "2026-06-23" },
     { "id": "jpet", "type": "monograph", "title": "Piperine inhibits human P-glycoprotein and CYP3A4 (Bhardwaj et al., J Pharmacol Exp Ther)", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022356524358112", "accessed": "2026-06-23" },
     { "id": "pharmtimes", "type": "monograph", "title": "Piperine Drug Interactions — Pharmacy Times", "url": "https://www.pharmacytimes.com/view/piperine-drug-interactions", "accessed": "2026-06-23" },
+    { "id": "lactmed", "type": "monograph", "title": "Black Pepper — Drugs and Lactation Database (LactMed), NCBI Bookshelf NBK579035", "url": "https://www.ncbi.nlm.nih.gov/books/NBK579035/", "accessed": "2026-08-20" },
     { "id": "commons_img", "type": "commons", "title": "File:Pepper.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Pepper.jpg", "accessed": "2026-06-23" }
   ]
 }
