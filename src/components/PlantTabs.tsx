@@ -151,21 +151,31 @@ export default function PlantTabs({ plant, locale }: Props) {
         </div>
       </div>
 
-      {/* === Aktives Panel === */}
-      <div
-        id={`panel-${active}`}
-        role="tabpanel"
-        aria-labelledby={`tab-${active}`}
-        className="pt-4"
-      >
-        {active === 'use' && <UseTab plant={plant} locale={locale} />}
-        {active === 'safety' && <SafetyTab plant={plant} locale={locale} />}
-        {active === 'harvest' && <HarvestTab plant={plant} locale={locale} />}
-        {active === 'constituents' && hasConstituents && (
-          <ConstituentsTab plant={plant} locale={locale} />
-        )}
-        {active === 'sources' && <SourcesTab plant={plant} locale={locale} />}
-      </div>
+      {/* === Alle Panels — inaktive sind versteckt, aber im HTML ===
+          Frueher wurde nur das aktive Panel gerendert. Dadurch standen
+          Sicherheit, Sammeln, Wirkstoffe und Quellen in KEINER ausgelieferten
+          Seite (Sitzung 35, mit scripts/textmenge.py nachgemessen). Google sah
+          nur Beschreibung + Anwendung und stufte die Seiten als duenn ein.
+          Jetzt rendert Astro alle Panels serverseitig; `hidden` blendet die
+          inaktiven aus — Nutzer sehen unveraendert nur eines. */}
+      {visibleTabs.map(tab => (
+        <div
+          key={tab}
+          id={`panel-${tab}`}
+          role="tabpanel"
+          aria-labelledby={`tab-${tab}`}
+          hidden={tab !== active}
+          className="pt-4"
+        >
+          {tab === 'use' && <UseTab plant={plant} locale={locale} />}
+          {tab === 'safety' && <SafetyTab plant={plant} locale={locale} />}
+          {tab === 'harvest' && <HarvestTab plant={plant} locale={locale} />}
+          {tab === 'constituents' && hasConstituents && (
+            <ConstituentsTab plant={plant} locale={locale} />
+          )}
+          {tab === 'sources' && <SourcesTab plant={plant} locale={locale} />}
+        </div>
+      ))}
     </div>
   );
 }
