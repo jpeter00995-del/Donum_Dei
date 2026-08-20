@@ -16,8 +16,8 @@
     "en": "An East Asian root plant whose root is traditionally used as a strengthening tonic and whose main active compounds are the ginsenosides."
   },
   "description": {
-    "de": "Ginseng ist eine ausdauernde Waldpflanze aus der Familie der Araliengewächse, heimisch in den Bergwäldern Koreas, Nordostchinas und des russischen Fernen Ostens. Verwendet wird die fleischige Wurzel, die mehrere Jahre heranwächst, bevor sie im Herbst (September bis Oktober) geerntet wird. Ihre kennzeichnenden Inhaltsstoffe sind die Ginsenoside, eine Gruppe von Saponinen, ergänzt durch Polysaccharide. In der ostasiatischen Medizingeschichte wurde die Wurzel traditionell als kräftigendes Tonikum verwendet. Ginseng ist nicht frei von Wechselwirkungen: Als häufigste Nebenwirkung wird Schlaflosigkeit berichtet, zudem kann er den Blutzucker senken und die Blutgerinnung beeinflussen — relevant etwa bei Diabetes-Medikamenten oder blutverdünnenden Mitteln wie Warfarin.",
-    "en": "Asian ginseng is a perennial woodland plant of the ginseng family, native to the mountain forests of Korea, north-eastern China and the Russian Far East. The part used is the fleshy root, which grows for several years before being harvested in autumn (September to October). Its signature constituents are the ginsenosides, a group of saponins, alongside polysaccharides. In the history of East Asian medicine the root was traditionally used as a strengthening tonic. Ginseng is not free of interactions: the most commonly reported side effect is insomnia, and it may lower blood sugar and affect blood clotting — relevant, for example, with diabetes medication or blood thinners such as warfarin."
+    "de": "Ginseng ist eine ausdauernde Waldpflanze aus der Familie der Araliengewächse, heimisch in den schattigen Bergwäldern Koreas, Nordostchinas und des russischen Fernen Ostens. Oberirdisch bleibt sie unscheinbar: ein einzelner Stängel mit gefingerten Blättern und im Sommer einer Dolde leuchtend roter Beeren. Verwendet wird die fleischige Wurzel, die vier bis sechs Jahre heranwächst, bevor sie im Herbst geerntet wird — daher der hohe Preis. Der Gattungsname Panax kommt aus dem Griechischen und heißt sinngemäß Allheilmittel; er beschreibt den Ruf der Pflanze, nicht ihre belegte Wirkung. Man unterscheidet weißen Ginseng, der nur geschält und getrocknet wird, und roten, der vorher gedämpft wird; dabei verändert sich das Muster der Inhaltsstoffe. Kennzeichnend sind die Ginsenoside, eine Gruppe von Saponinen, ergänzt durch Polysaccharide. Ginseng ist nicht harmlos: Schlaflosigkeit ist die häufigste Nebenwirkung, und er kann Blutzucker und Blutgerinnung beeinflussen.",
+    "en": "Asian ginseng is a perennial woodland plant of the ginseng family, native to the shady mountain forests of Korea, north-eastern China and the Russian Far East. Above ground it stays inconspicuous: a single stem with palmate leaves and, in summer, an umbel of bright red berries. The part used is the fleshy root, which grows for four to six years before being harvested in autumn — hence the high price. The genus name Panax comes from the Greek and means something like cure-all; it describes the plant's reputation, not its demonstrated effect. A distinction is made between white ginseng, merely peeled and dried, and red ginseng, steamed beforehand, which shifts the pattern of its constituents. Its signature compounds are the ginsenosides, a group of saponins, alongside polysaccharides. Ginseng is not harmless: insomnia is the most common side effect, and it can affect blood sugar and blood clotting."
   },
   "uses": [
     {
@@ -28,8 +28,8 @@
       "evidence_level": "traditional",
       "source_ids": ["nccih", "wiki"],
       "description": {
-        "de": "Traditionell als Tonikum bei Erschöpfung, Stress und nachlassender Leistungsfähigkeit eingesetzt; im Westen als Adaptogen vermarktet. Belastbare klinische Belege sind begrenzt.",
-        "en": "Traditionally used as a tonic for fatigue, stress and reduced performance; marketed as an adaptogen in the West. Robust clinical evidence is limited."
+        "de": "Traditionell als Tonikum bei Erschöpfung, Stress und nachlassender Leistungsfähigkeit eingesetzt; im Westen als Adaptogen vermarktet. Eine Übersichtsarbeit von 2023 fand für allgemeine Müdigkeit — nicht die einer bestimmten Erkrankung — einen kleinen günstigen Effekt, allerdings mit uneinheitlichen Ergebnissen.",
+        "en": "Traditionally used as a tonic for fatigue, stress and reduced performance; marketed as an adaptogen in the West. A 2023 review found a small beneficial effect for general fatigue — not that of a specific disease — though with inconsistent results across studies."
       }
     },
     {
@@ -37,10 +37,23 @@
       "target": ["cognitive function (research)", "immune support (research)"],
       "internal_external": "internal",
       "plant_part": "root",
+      "evidence_level": "clinical_trial",
       "source_ids": ["nccih", "pmc"],
       "description": {
-        "de": "Ginseng wird für kognitive Funktion, Müdigkeit und Immunsystem beworben. Laut NCCIH gibt es bislang nur wenig Evidenz für einen gesicherten gesundheitlichen Nutzen.",
-        "en": "Ginseng is promoted for cognitive function, fatigue and immune support. According to NCCIH there is so far little evidence for a well-defined health benefit."
+        "de": "Ginseng wird für kognitive Funktion, Müdigkeit und Immunsystem beworben. Das amerikanische NCCIH beschreibt bescheidene Hinweise auf eine bessere geistige Leistung bei Menschen mittleren Alters — bei jüngeren zeigte sich nichts. Zu Grippe gibt es vorläufige Hinweise auf ein geringeres Erkrankungsrisiko, nicht aber auf mildere Verläufe. Für sportliche Leistung fand sich in den meisten Untersuchungen kein Nutzen. Insgesamt bleibt die Beweislage dünn.",
+        "en": "Ginseng is promoted for cognitive function, fatigue and immune support. The US NCCIH describes modest signals of better mental performance in middle-aged adults — in younger adults nothing showed. For influenza there are preliminary signals of a lower risk of falling ill, but not of milder illness. For athletic performance most studies found no benefit. Overall the evidence remains thin."
+      }
+    },
+    {
+      "form": "tincture",
+      "target": ["blood sugar (research)", "erectile function (research)"],
+      "internal_external": "internal",
+      "plant_part": "root",
+      "evidence_level": "clinical_trial",
+      "source_ids": ["nccih"],
+      "description": {
+        "de": "Eine Übersicht von 2022 fand bei Menschen mit Prädiabetes und Diabetes Verbesserungen bei Nüchternblutzucker, Gesamtcholesterin und einzelnen Entzündungswerten; die Gesamtlage bleibt jedoch unklar. Für die Einnahme bei Erektionsstörungen deuten Untersuchungen auf eine Besserung hin. Beides sind Hinweise, keine gesicherten Ergebnisse — und der Blutzucker-Effekt ist zugleich der Grund für die Vorsicht bei Diabetes-Medikamenten.",
+        "en": "A 2022 review found improvements in fasting blood glucose, total cholesterol and certain inflammatory markers in people with prediabetes and diabetes; the overall picture remains inconclusive. For erectile dysfunction, studies point to an improvement with oral use. Both are signals, not settled findings — and the blood-sugar effect is also the reason for caution with diabetes medication."
       }
     }
   ],
@@ -48,17 +61,117 @@
     "active_months": [9, 10],
     "harvest_part": { "de": "Wurzel", "en": "Root" }
   },
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [9, 10],
+      "time_of_day": {
+        "de": "Im Herbst des vierten bis sechsten Standjahres, wenn das Laub eingezogen ist. Jüngere Wurzeln enthalten weniger Ginsenoside. Wildwachsender Ginseng ist in seinen Herkunftsländern geschützt — Ware aus dem Handel stammt aus Anbau.",
+        "en": "In the autumn of the fourth to sixth year, once the foliage has died back. Younger roots contain fewer ginsenosides. Wild ginseng is protected in its home countries — material on the market comes from cultivation."
+      },
+      "drying": {
+        "de": "Für weißen Ginseng die Wurzel schälen und langsam an der Luft trocknen. Für roten Ginseng wird sie vor dem Trocknen mehrere Stunden gedämpft; dabei entstehen andere Ginsenoside, und die Wurzel wird hornartig und rotbraun.",
+        "en": "For white ginseng, peel the root and dry it slowly in the air. For red ginseng it is steamed for several hours before drying; this creates different ginsenosides and the root turns horn-like and reddish brown."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken, dunkel und luftdicht. Ganze Wurzeln halten deutlich länger als Pulver.",
+        "en": "Dry, dark and airtight. Whole roots keep considerably longer than powder."
+      }
+    }
+  ],
   "safety": {
     "external_only": false,
     "toxicity_level": "caution",
     "warnings": {
-      "de": "Häufigste Nebenwirkung ist Schlaflosigkeit. Ginseng kann den Blutzucker senken (Vorsicht bei Diabetes-Medikamenten) und die Blutgerinnung beeinflussen (berichtete Wechselwirkung mit Warfarin). Wechselwirkungen über Cytochrom-P450-Enzyme sowie eine mögliche Verschlimmerung von Autoimmunerkrankungen sind beschrieben. Nicht empfohlen für Säuglinge, Kinder, Schwangere und Stillende. Bei Medikamenteneinnahme vorher ärztlich abklären.",
-      "en": "The most common side effect is insomnia. Ginseng may lower blood sugar (caution with diabetes medication) and affect blood clotting (reported interaction with warfarin). Interactions via cytochrome P450 enzymes and possible worsening of autoimmune disorders are described. Not recommended for infants, children, or pregnant or breastfeeding women. Consult a clinician before use if taking medication."
-    }
+      "de": "Häufigste Nebenwirkung ist Schlaflosigkeit. Ginseng kann den Blutzucker senken (Vorsicht bei Diabetes-Medikamenten) und die Blutgerinnung beeinflussen (berichtete Wechselwirkung mit Warfarin). Wechselwirkungen über Cytochrom-P450-Enzyme sowie eine mögliche Verschlimmerung von Autoimmunerkrankungen sind beschrieben. Selten, aber ernst: schwerer Hautausschlag, Leberschäden und allergische Reaktionen. Die kurzzeitige Einnahme bis etwa sechs Monate in den empfohlenen Mengen gilt laut NCCIH für die meisten Menschen als sicher; zu längerer Einnahme fehlen Daten. Nicht empfohlen für Säuglinge, Kinder, Schwangere und Stillende. Bei Medikamenteneinnahme vorher ärztlich abklären.",
+      "en": "The most common side effect is insomnia. Ginseng may lower blood sugar (caution with diabetes medication) and affect blood clotting (reported interaction with warfarin). Interactions via cytochrome P450 enzymes and possible worsening of autoimmune disorders are described. Rare but serious: severe rash, liver damage and allergic reactions. Short-term oral use of up to about six months in recommended amounts is considered safe for most people according to NCCIH; data on longer use are lacking. Not recommended for infants, children, or pregnant or breastfeeding women. Consult a clinician before use if taking medication."
+    },
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Nicht empfohlen. Ein Inhaltsstoff hat im Tierversuch Fehlbildungen ausgelöst; belastbare Daten am Menschen fehlen.",
+        "en": "Not recommended. One constituent caused birth defects in animal studies; sound human data are lacking."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Zur Stillzeit gibt es kaum Sicherheitsdaten. Ohne Daten wird von der Einnahme abgeraten.",
+        "en": "There are hardly any safety data for breastfeeding. Without data, use is inadvisable."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Für Säuglinge und Kinder nicht empfohlen.",
+        "en": "Not recommended for infants and children."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Gerinnungshemmer vom Cumarin-Typ (Warfarin, Phenprocoumon)",
+        "severity": "avoid",
+        "mechanism": {
+          "de": "Für Warfarin ist eine abgeschwächte Wirkung berichtet; zugleich kann Ginseng selbst die Gerinnung beeinflussen. Die Kombination ist schlecht steuerbar und sollte unterbleiben.",
+          "en": "A weakened effect has been reported for warfarin, while ginseng itself can affect clotting. The combination is hard to control and is best avoided."
+        }
+      },
+      {
+        "drug_class": "Blutzuckersenkende Mittel (Insulin, orale Antidiabetika)",
+        "severity": "caution",
+        "mechanism": {
+          "de": "Ginseng senkte in Studien den Nüchternblutzucker. Zusammen mit einer Diabetes-Behandlung droht eine Unterzuckerung — Werte engmaschig kontrollieren.",
+          "en": "In trials ginseng lowered fasting blood glucose. Together with diabetes treatment there is a risk of hypoglycaemia — monitor readings closely."
+        }
+      },
+      {
+        "drug_class": "Über Cytochrom-P450 abgebaute Arzneimittel",
+        "severity": "monitor",
+        "mechanism": {
+          "de": "Ginsenoside greifen in mehrere P450-Enzyme ein. Bei Medikamenten mit engem Wirkbereich kann sich der Spiegel verschieben.",
+          "en": "Ginsenosides act on several P450 enzymes. With medicines that have a narrow therapeutic range, levels can shift."
+        }
+      },
+      {
+        "drug_class": "Immunsuppressiva",
+        "severity": "avoid",
+        "mechanism": {
+          "de": "Ginseng wird eine anregende Wirkung auf das Immunsystem zugeschrieben — das kann einer Immunsuppression entgegenwirken und Autoimmunerkrankungen verschlimmern.",
+          "en": "Ginseng is credited with a stimulating effect on the immune system — which can counteract immunosuppression and worsen autoimmune disease."
+        }
+      }
+    ],
+    "max_continuous_use_weeks": 26,
+    "contraindications": [
+      {
+        "de": "Schwangerschaft und Stillzeit.",
+        "en": "Pregnancy and breastfeeding."
+      },
+      {
+        "de": "Autoimmunerkrankungen — eine Verschlimmerung ist beschrieben.",
+        "en": "Autoimmune disease — worsening has been described."
+      },
+      {
+        "de": "Schlafstörungen — Schlaflosigkeit ist die häufigste Nebenwirkung.",
+        "en": "Sleep disorders — insomnia is the most common side effect."
+      }
+    ]
   },
   "constituents": [
-    { "name": "Ginsenoside", "category": "saponin" },
-    { "name": "Polysaccharide", "category": "polysaccharide" }
+    {
+      "name": "Ginsenoside (Rb1, Rg1, Rg3 u. a.)",
+      "category": "saponin",
+      "plant_part": "root",
+      "note": {
+        "de": "Kennzeichnende Wirkstoffgruppe. Das Muster verschiebt sich beim Dämpfen zu rotem Ginseng.",
+        "en": "The signature group of active compounds. The pattern shifts when steamed into red ginseng."
+      }
+    },
+    { "name": "Polysaccharide", "category": "polysaccharide", "plant_part": "root" },
+    { "name": "Polyacetylene (Panaxynol)", "category": "other", "plant_part": "root" },
+    { "name": "Phenolsäuren (Salicyl-, Vanillinsäure)", "category": "phenolic_acid", "plant_part": "root" },
+    { "name": "Peptide und Aminosäuren", "category": "other", "plant_part": "root" }
   ],
   "classical_quotes": [],
   "image": {
@@ -72,7 +185,7 @@
     "source_url": "https://commons.wikimedia.org/wiki/File:Panax_ginseng_C.A.Mey._3399124768.jpg"
   },
   "sources": [
-    { "id": "nccih", "type": "monograph", "title": "Asian Ginseng: Usefulness and Safety — NCCIH (NIH)", "url": "https://www.nccih.nih.gov/health/asian-ginseng", "accessed": "2026-06-23" },
+    { "id": "nccih", "type": "monograph", "title": "Asian Ginseng: Usefulness and Safety — NCCIH (NIH)", "url": "https://www.nccih.nih.gov/health/asian-ginseng", "accessed": "2026-08-20" },
     { "id": "pmc", "type": "monograph", "title": "Safety Analysis of Panax Ginseng in Randomized Clinical Trials: A Systematic Review (PMC5533164)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5533164/", "accessed": "2026-06-23" },
     { "id": "wiki", "type": "wikipedia", "title": "Panax ginseng — Wikipedia", "url": "https://en.wikipedia.org/wiki/Panax_ginseng", "accessed": "2026-06-23" },
     { "id": "commons_img", "type": "commons", "title": "File:Panax ginseng C.A.Mey. 3399124768.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Panax_ginseng_C.A.Mey._3399124768.jpg", "accessed": "2026-06-23" }

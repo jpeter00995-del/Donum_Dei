@@ -1,5 +1,6 @@
 {
   "slug": "artemisia-absinthium",
+  "kingdom": "plant",
   "names": {
     "de": "Wermut",
     "en": "Wormwood",
@@ -11,8 +12,8 @@
     "latin": "Asteraceae"
   },
   "description": {
-    "de": "Der Wermut ist ein silbrig behaarter Halbstrauch aus der Familie der Korbblütler und zählt zu den bittersten Heilpflanzen überhaupt. Gesammelt werden die blühenden Triebspitzen und das Kraut zur Blütezeit im Hochsommer. Die extreme Bitterkeit stammt vom Bitterstoff Absinthin; das ätherische Öl enthält Thujon. Traditionell wird Wermut als Magenbittermittel bei Appetitlosigkeit und Verdauungsbeschwerden verwendet. Weil Thujon in höherer Dosis ein Nervengift ist, sollten Wermutzubereitungen nicht überdosiert und nicht länger als zwei bis vier Wochen am Stück eingenommen werden — eine Vorsicht, die sich aus der Geschichte des Absinths ableitet.",
-    "en": "Wormwood is a silvery, hairy sub-shrub of the daisy family and ranks among the most bitter of all medicinal plants. The flowering shoot tips and herb are gathered at flowering time in mid-summer. Its extreme bitterness comes from the compound absinthin, while the essential oil contains thujone. Wormwood is traditionally used as a stomach bitter for loss of appetite and digestive complaints. Because thujone is a nerve toxin in higher doses, wormwood preparations should not be overdosed or taken for longer than two to four weeks at a stretch — a caution rooted in the history of absinthe."
+    "de": "Der Wermut ist ein silbrig behaarter Halbstrauch aus der Familie der Korbblütler und zählt zu den bittersten Heilpflanzen überhaupt. Er wird knapp einen Meter hoch, wächst gern auf trockenen, steinigen Böden und ist an dem feinen weißen Filz auf Blättern und Stängeln zu erkennen; die Blütenköpfchen im Hochsommer sind unscheinbar gelb und nickend. Gesammelt werden die blühenden Triebspitzen und das Kraut zur Blütezeit. Die extreme Bitterkeit stammt vom Bitterstoff Absinthin — schon eine stark verdünnte Lösung schmeckt deutlich bitter; das ätherische Öl enthält Thujon. Traditionell wird Wermut als Magenbittermittel bei vorübergehender Appetitlosigkeit und leichten Magen-Darm-Beschwerden verwendet; die europäische Arzneimittelbehörde EMA führt ihn als traditionelles pflanzliches Arzneimittel, also aufgrund langer Erfahrung und nicht aufgrund klinischer Studien. Weil Thujon in höherer Dosis ein Nervengift ist, sollten Wermutzubereitungen nicht überdosiert und nicht länger als zwei Wochen am Stück eingenommen werden — eine Vorsicht, die sich aus der Geschichte des Absinths ableitet.",
+    "en": "Wormwood is a silvery, hairy sub-shrub of the daisy family and ranks among the most bitter of all medicinal plants. It grows to just under a metre, favours dry, stony ground and is recognisable by the fine white felt on its leaves and stems; the flower heads in mid-summer are inconspicuous, yellow and nodding. The flowering shoot tips and herb are gathered at flowering time. Its extreme bitterness comes from the compound absinthin — even a heavily diluted solution tastes distinctly bitter; the essential oil contains thujone. Wormwood is traditionally used as a stomach bitter for temporary loss of appetite and mild gastrointestinal complaints; the European Medicines Agency lists it as a traditional herbal medicinal product, that is, on the basis of long experience rather than clinical trials. Because thujone is a nerve toxin in higher doses, wormwood preparations should not be overdosed or taken for longer than two weeks at a stretch — a caution rooted in the history of absinthe."
   },
   "teaser": {
     "de": "Eine der bittersten Heilpflanzen — klassisches Magenbittermittel mit thujonbedingter Vorsicht aus der Absinth-Geschichte.",
@@ -21,74 +22,160 @@
   "uses": [
     {
       "form": "tea",
-      "target": [
-        "loss of appetite",
-        "dyspeptic complaints"
-      ],
+      "target": ["loss of appetite", "dyspeptic complaints"],
       "internal_external": "internal",
       "description": {
-        "de": "Als Bittertee aus dem getrockneten blühenden Kraut kurz vor den Mahlzeiten getrunken, um Appetit und Verdauung anzuregen.",
-        "en": "Taken as a bitter tea from the dried flowering herb shortly before meals to stimulate appetite and digestion."
+        "de": "Als Bittertee aus dem getrockneten blühenden Kraut kurz vor den Mahlzeiten getrunken, um Appetit und Verdauung anzuregen. Der bittere Geschmack ist dabei nicht Nebensache, sondern der Wirkweg: Er löst über die Geschmacksrezeptoren die Bildung von Speichel und Magensaft aus. Wer den Tee süßt, nimmt ihm genau das. Die EMA führt diese Anwendung für Erwachsene und nur bei vorübergehenden Beschwerden.",
+        "en": "Taken as a bitter tea from the dried flowering herb shortly before meals to stimulate appetite and digestion. The bitter taste is not incidental but the mechanism: through the taste receptors it triggers the production of saliva and gastric juice. Sweetening the tea takes exactly that away. The EMA lists this use for adults and only for temporary complaints."
       },
-      "source_ids": [
-        "ema-hmpc"
-      ],
+      "source_ids": ["ema-hmpc"],
       "plant_part": "aerial_parts",
-      "evidence_level": "ema_well_established"
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "Etwa einen halben Teelöffel getrocknetes Kraut mit 150 ml kochendem Wasser übergießen, zugedeckt fünf bis zehn Minuten ziehen lassen, abseihen und eine halbe Stunde vor der Mahlzeit ungesüßt trinken.",
+          "en": "Pour 150 ml of boiling water over about half a teaspoon of dried herb, steep covered for five to ten minutes, strain and drink unsweetened half an hour before the meal."
+        },
+        "amount_dry_g": { "min": 1, "max": 1.5 },
+        "water_ml": 150,
+        "doses_per_day": 3,
+        "max_duration_weeks": 2
+      },
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Die EMA lässt Wermut-Arzneimittel ausdrücklich nur für Erwachsene zu.",
+          "en": "The EMA authorises wormwood medicines expressly for adults only."
+        }
+      }
     },
     {
       "form": "tincture",
-      "target": [
-        "loss of appetite",
-        "dyspeptic complaints"
-      ],
+      "target": ["loss of appetite", "dyspeptic complaints"],
       "internal_external": "internal",
       "description": {
-        "de": "Alkoholischer Auszug (Wermuttinktur), tropfenweise in Wasser eingenommen, als konzentriertes Magenbittermittel bei Appetitlosigkeit und Verdauungsbeschwerden.",
-        "en": "An alcoholic extract (wormwood tincture), taken drop-wise in water as a concentrated digestive bitter for poor appetite and dyspeptic complaints."
+        "de": "Alkoholischer Auszug (Wermuttinktur), tropfenweise in Wasser eingenommen, als konzentriertes Magenbittermittel bei Appetitlosigkeit und Verdauungsbeschwerden. Die Tinktur ist deutlich stärker als der Tee — die Angaben auf der Packung sind hier keine Empfehlung, sondern eine Grenze. Halten die Beschwerden über zwei Wochen an, gehören sie ärztlich abgeklärt.",
+        "en": "An alcoholic extract (wormwood tincture), taken drop-wise in water as a concentrated digestive bitter for poor appetite and dyspeptic complaints. The tincture is considerably stronger than the tea — the figures on the pack are not a recommendation here but a limit. If complaints persist beyond two weeks they need medical assessment."
       },
-      "source_ids": [
-        "ema-hmpc"
-      ],
+      "source_ids": ["ema-hmpc"],
       "plant_part": "aerial_parts",
-      "evidence_level": "ema_well_established"
+      "evidence_level": "traditional",
+      "age_restriction": {
+        "min_age": 18,
+        "note": {
+          "de": "Nur für Erwachsene. Alkoholischer Auszug — auch deshalb nichts für Kinder.",
+          "en": "Adults only. An alcoholic extract — another reason it is not for children."
+        }
+      }
     },
     {
       "form": "spice",
-      "target": [
-        "flavouring of bitter liqueurs and vermouth",
-        "digestive aperitif"
-      ],
+      "target": ["flavouring of bitter liqueurs and vermouth", "digestive aperitif"],
       "internal_external": "internal",
       "description": {
-        "de": "Traditionell zum Würzen und Aromatisieren von Bitterlikören und Wermutwein (Vermouth) sowie als verdauungsfördernder Aperitif verwendet.",
-        "en": "Traditionally used to flavour bitter liqueurs and vermouth wine and as a digestive aperitif."
+        "de": "Traditionell zum Würzen und Aromatisieren von Bitterlikören und Wermutwein (Vermouth) sowie als verdauungsfördernder Aperitif verwendet. Der Name Vermouth stammt vom deutschen Wort Wermut. Absinth, die berüchtigte Spirituose des 19. Jahrhunderts, war ebenfalls damit angesetzt; die ihm zugeschriebenen Nervenschäden gehen nach heutigem Stand vor allem auf den hohen Alkoholgehalt zurück, nicht allein auf das Thujon. In der EU ist der Thujongehalt von Spirituosen begrenzt.",
+        "en": "Traditionally used to flavour bitter liqueurs and vermouth wine and as a digestive aperitif. The name vermouth derives from the German word Wermut. Absinthe, the notorious spirit of the 19th century, was made with it too; the nerve damage attributed to it is today thought to stem mainly from the high alcohol content rather than from thujone alone. In the EU the thujone content of spirits is capped."
       },
-      "source_ids": [
-        "wiki-de"
-      ],
+      "source_ids": ["wiki-de"],
       "plant_part": "aerial_parts",
       "evidence_level": "traditional"
     }
   ],
   "season": {
-    "active_months": [
-      7,
-      8,
-      9
-    ],
+    "active_months": [7, 8, 9],
     "harvest_part": {
       "de": "Blühende Triebspitzen und Kraut, gesammelt zur Blütezeit im Hochsommer",
       "en": "Flowering shoot tips and herb, gathered at flowering time in mid to late summer"
     }
   },
+  "harvest": [
+    {
+      "plant_part": "aerial_parts",
+      "best_months": [7, 8],
+      "time_of_day": {
+        "de": "Zu Beginn der Blüte, an einem trockenen Vormittag nach dem Abtrocknen des Taus. Nur die oberen zwanzig bis dreißig Zentimeter schneiden, das verholzte Untere bleibt stehen.",
+        "en": "At the start of flowering, on a dry morning once the dew has gone. Cut only the top twenty to thirty centimetres and leave the woody lower part standing."
+      },
+      "drying": {
+        "de": "In lockeren Büscheln kopfüber im Schatten aufhängen, luftig und höchstens 35 °C. Wärmer, und das ätherische Öl geht verloren. Trocken ist das Kraut, wenn die Stängel brechen statt sich zu biegen.",
+        "en": "Hang in loose bunches upside down in the shade, airy and at no more than 35 °C. Warmer than that and the essential oil is lost. The herb is dry when the stems snap rather than bend."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Dunkel und luftdicht, getrennt von anderen Kräutern — Wermut gibt seinen Geruch an Nachbarn ab.",
+        "en": "Dark and airtight, kept apart from other herbs — wormwood passes its smell on to its neighbours."
+      }
+    }
+  ],
   "safety": {
     "warnings": {
-      "de": "Enthält das Nervengift Thujon im ätherischen Öl; Wermutzubereitungen nicht überdosieren und nicht länger als zwei bis vier Wochen am Stück anwenden. In Schwangerschaft und Stillzeit sowie bei Kindern nicht anwenden (wehenfördernd, mögliche Toxizität). Hochkonzentrierte Wermutöle oder übermäßiger Absinthkonsum können zu Krämpfen und Nervenschäden führen.",
-      "en": "Contains the neurotoxin thujone in its essential oil; do not exceed recommended doses and do not use continuously for more than two to four weeks. Avoid during pregnancy and breastfeeding and in children (it can stimulate uterine contractions and is potentially toxic). High-concentration wormwood oils or excessive absinthe consumption can cause seizures and nerve damage."
+      "de": "Enthält das Nervengift Thujon im ätherischen Öl; Wermutzubereitungen nicht überdosieren und nicht länger als zwei Wochen am Stück anwenden. Laut EMA nur für Erwachsene. In Schwangerschaft und Stillzeit sowie bei Kindern nicht anwenden (wehenfördernd, mögliche Toxizität). Hochkonzentrierte Wermutöle oder übermäßiger Absinthkonsum können zu Krämpfen und Nervenschäden führen. Bestehen die Beschwerden nach zwei Wochen fort, ärztlich abklären lassen.",
+      "en": "Contains the neurotoxin thujone in its essential oil; do not exceed recommended doses and do not use continuously for more than two weeks. According to the EMA, for adults only. Avoid during pregnancy and breastfeeding and in children (it can stimulate uterine contractions and is potentially toxic). High-concentration wormwood oils or excessive absinthe consumption can cause seizures and nerve damage. If complaints persist after two weeks, seek medical assessment."
     },
     "external_only": false,
     "toxicity_level": "caution",
+    "max_continuous_use_weeks": 2,
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Nicht anwenden. Wermut gilt als wehenfördernd, und Thujon ist ein Nervengift.",
+        "en": "Do not use. Wormwood is considered to stimulate uterine contractions, and thujone is a nerve toxin."
+      }
+    },
+    "lactation": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Nicht anwenden. Zum Übergang von Thujon in die Muttermilch fehlen Daten; bei einem Nervengift ist das Grund genug.",
+        "en": "Do not use. Data on the passage of thujone into breast milk are lacking; with a nerve toxin that is reason enough."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Die EMA lässt Wermut-Arzneimittel nur für Erwachsene zu.",
+        "en": "The EMA authorises wormwood medicines for adults only."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Krampflösende Mittel (Antiepileptika)",
+        "severity": "avoid",
+        "mechanism": {
+          "de": "Thujon kann Krampfanfälle auslösen und damit der Behandlung entgegenwirken. Bei Epilepsie ist von Wermut abzuraten.",
+          "en": "Thujone can trigger seizures and thereby work against the treatment. Wormwood is inadvisable in epilepsy."
+        }
+      },
+      {
+        "drug_class": "Magensäurehemmer (Protonenpumpenhemmer, H2-Blocker)",
+        "severity": "monitor",
+        "mechanism": {
+          "de": "Bitterstoffe regen die Magensaftbildung an — genau das, was diese Mittel unterdrücken sollen. Die Wirkungen laufen gegeneinander.",
+          "en": "Bitter compounds stimulate gastric juice production — exactly what these medicines are meant to suppress. The effects work against each other."
+        }
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Überempfindlichkeit gegen Wermut oder andere Korbblütler (Kamille, Beifuß, Arnika, Ringelblume).",
+        "en": "Hypersensitivity to wormwood or other daisy-family plants (chamomile, mugwort, arnica, marigold)."
+      },
+      {
+        "de": "Verschluss der Gallenwege und Gallengangsentzündung.",
+        "en": "Bile duct obstruction and inflammation of the bile ducts."
+      },
+      {
+        "de": "Lebererkrankungen.",
+        "en": "Liver disease."
+      },
+      {
+        "de": "Magen- und Zwölffingerdarmgeschwüre — Bitterstoffe steigern die Säurebildung.",
+        "en": "Gastric and duodenal ulcers — bitter compounds increase acid production."
+      },
+      {
+        "de": "Epilepsie und Krampfanfälle in der Vorgeschichte.",
+        "en": "Epilepsy and a history of seizures."
+      }
+    ],
     "pet_toxic": true,
     "tox_note": {
       "source": "clinitox",
@@ -102,22 +189,25 @@
     {
       "name": "Thujone (α- and β-thujone)",
       "category": "essential_oil",
+      "plant_part": "aerial_parts",
       "note": {
-        "de": "Hauptbestandteil des ätherischen Öls und zugleich Nervengift; verantwortlich für die Anwendungsbeschränkungen.",
-        "en": "Main component of the essential oil and a neurotoxin; responsible for the use restrictions."
+        "de": "Hauptbestandteil des ätherischen Öls und zugleich Nervengift; verantwortlich für die Anwendungsbeschränkungen. Der Gehalt schwankt stark je nach Herkunft und Erntezeit.",
+        "en": "Main component of the essential oil and a neurotoxin; responsible for the use restrictions. The content varies widely with origin and harvest time."
       }
     },
     {
       "name": "Absinthin",
       "category": "bitter",
+      "plant_part": "aerial_parts",
       "note": {
-        "de": "Stark bitterer Sesquiterpenlacton-Bitterstoff, der dem Wermut seinen extrem bitteren Geschmack verleiht.",
-        "en": "An intensely bitter sesquiterpene-lactone bitter principle that gives wormwood its extremely bitter taste."
+        "de": "Stark bitterer Sesquiterpenlacton-Bitterstoff, der dem Wermut seinen extrem bitteren Geschmack verleiht. Er ist wasserlöslich und geht in den Tee über — das Thujon bleibt überwiegend im Öl.",
+        "en": "An intensely bitter sesquiterpene-lactone bitter principle that gives wormwood its extremely bitter taste. It is water-soluble and passes into the tea — the thujone largely stays in the oil."
       }
     },
     {
       "name": "Anabsinthin",
       "category": "bitter",
+      "plant_part": "aerial_parts",
       "note": {
         "de": "Weiterer Sesquiterpenlacton-Bitterstoff, der zur appetitanregenden Wirkung beiträgt.",
         "en": "A further sesquiterpene-lactone bitter compound contributing to the appetite-stimulating effect."
@@ -126,11 +216,22 @@
     {
       "name": "Flavonoide (z. B. Artemetin)",
       "category": "flavonoid",
+      "plant_part": "aerial_parts",
       "note": {
         "de": "Pflanzliche Flavonoide mit antioxidativen Eigenschaften.",
         "en": "Plant flavonoids with antioxidant properties."
       }
-    }
+    },
+    {
+      "name": "Chamazulen",
+      "category": "essential_oil",
+      "plant_part": "aerial_parts",
+      "note": {
+        "de": "Entsteht erst bei der Wasserdampfdestillation und färbt das Öl blau — derselbe Stoff wie im Kamillenöl.",
+        "en": "Formed only during steam distillation and colouring the oil blue — the same compound as in chamomile oil."
+      }
+    },
+    { "name": "Gerbstoffe", "category": "tannin", "plant_part": "aerial_parts" }
   ],
   "classical_quotes": [],
   "sources": [
@@ -153,7 +254,7 @@
       "type": "monograph",
       "title": "European Union herbal monograph on Artemisia absinthium L., herba – EMA/HMPC",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/absinthii-herba",
-      "accessed": "2026-06-24"
+      "accessed": "2026-08-20"
     },
     {
       "id": "src_clinitox_artemisia_absinthium",

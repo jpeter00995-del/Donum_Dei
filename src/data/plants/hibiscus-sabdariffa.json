@@ -16,8 +16,8 @@
     "en": "The fleshy calyces of this mallow plant make the tart, ruby-red hibiscus tea, which has shown a mild blood-pressure-lowering effect in studies."
   },
   "description": {
-    "de": "Die Roselle ist eine einjährige Malvenpflanze aus den Tropen, deren fleischige, tiefrote Kelchblätter nach der Blüte geerntet werden. Aus ihnen wird der säuerlich-fruchtige Hibiskustee bereitet. Die rote Farbe und der Geschmack stammen von Anthocyanen und organischen Säuren (Zitronen-, Apfel- und Hibiskussäure); dazu kommen Vitamin C und Schleimstoffe. In Studien zeigte Hibiskustee eine leichte blutdrucksenkende Wirkung. Wer blutdrucksenkende Medikamente einnimmt, sollte das berücksichtigen, da sich die Effekte verstärken können.",
-    "en": "Roselle is an annual mallow plant from the tropics whose fleshy, deep-red calyces are harvested after flowering. They are used to make the tart, fruity hibiscus tea. Its red colour and flavour come from anthocyanins and organic acids (citric, malic and hibiscus acid), together with vitamin C and mucilage. In studies, hibiscus tea has shown a mild blood-pressure-lowering effect. Anyone taking antihypertensive medication should bear this in mind, as the effects can add up."
+    "de": "Die Roselle ist eine einjährige Malvenpflanze aus den Tropen, die ein bis drei Meter hoch wird. Was als „Hibiskusblüte\" im Tee liegt, ist gar nicht die Blüte: Es sind die fleischigen, tiefroten Kelchblätter, die sich nach dem Abfallen der Blüte um die Fruchtkapsel schließen und dann geerntet werden. Ihre Farbe stammt von Anthocyanen, die Säure von Zitronen-, Apfel- und Hibiskussäure; dazu kommen Vitamin C und Schleimstoffe. Getrunken wird der Aufguss auf der ganzen Welt unter eigenen Namen — Karkade in Ägypten, Bissap in Westafrika, Agua de Jamaica in Mexiko —, heiß wie kalt. Im Handel wird die Ware oft als „Hibiskus\" geführt, ohne die Art zu nennen; für den Tee ist Hibiscus sabdariffa gemeint, nicht der Zier-Hibiskus aus dem Blumentopf. In klinischen Studien zeigte der Aufguss eine leichte blutdrucksenkende Wirkung. Wer blutdrucksenkende Medikamente einnimmt, sollte das wissen, weil sich die Effekte addieren können.",
+    "en": "Roselle is an annual mallow plant from the tropics, growing one to three metres tall. What sits in the cup as a \"hibiscus flower\" is not the flower at all: it is the fleshy, deep-red calyces, which close around the seed capsule after the petals drop and are harvested at that point. Their colour comes from anthocyanins, their sourness from citric, malic and hibiscus acid, alongside vitamin C and mucilage. The infusion is drunk all over the world under its own names — karkade in Egypt, bissap in West Africa, agua de Jamaica in Mexico — hot as well as cold. In shops the goods are often labelled simply \"hibiscus\" without naming the species; for tea it means Hibiscus sabdariffa, not the ornamental hibiscus from the flowerpot. In clinical trials the infusion showed a mild blood-pressure-lowering effect. Anyone on antihypertensive medication should know this, because the effects can add up."
   },
   "uses": [
     {
@@ -28,19 +28,40 @@
       "evidence_level": "traditional",
       "source_ids": ["eda"],
       "description": {
-        "de": "Aus den getrockneten Kelchblättern wird traditionell ein säuerlicher, roter Tee zubereitet, der weltweit als Erfrischungsgetränk getrunken wird.",
-        "en": "The dried calyces are traditionally used to make a tart red tea, drunk worldwide as a refreshing beverage."
+        "de": "Aus den getrockneten Kelchblättern wird traditionell ein säuerlicher, roter Tee zubereitet, der weltweit als Erfrischungsgetränk getrunken wird. Kalt angesetzt schmeckt er milder, weil sich weniger Gerbstoff löst.",
+        "en": "The dried calyces are traditionally used to make a tart red tea, drunk worldwide as a refreshing beverage. Prepared cold it tastes milder, because less tannin dissolves."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "Ein bis zwei Teelöffel getrocknete Kelchblätter mit 250 ml kochendem Wasser übergießen, fünf bis zehn Minuten ziehen lassen. Für kalten Ansatz dieselbe Menge über Nacht in kaltem Wasser stehen lassen.",
+          "en": "Pour 250 ml of boiling water over one to two teaspoons of dried calyces and steep for five to ten minutes. For a cold brew, leave the same amount in cold water overnight."
+        },
+        "water_ml": 250,
+        "doses_per_day": 3
       }
     },
     {
       "form": "tea",
-      "target": ["blood pressure (research)"],
+      "target": ["blood pressure (research)", "blood lipids (research)"],
       "internal_external": "internal",
       "plant_part": "flower",
+      "evidence_level": "clinical_trial",
       "source_ids": ["meta"],
       "description": {
-        "de": "Meta-Analysen klinischer Studien fanden eine leichte Senkung vor allem des systolischen (oberen) Blutdrucks, am deutlichsten bei erhöhten Ausgangswerten. Die Datenlage ist begrenzt und ersetzt keine ärztliche Behandlung.",
-        "en": "Meta-analyses of clinical trials found a mild reduction mainly in systolic (upper) blood pressure, most pronounced with elevated baseline values. The evidence base is limited and is not a substitute for medical treatment."
+        "de": "Eine Zusammenfassung von 17 randomisierten Studien fand eine Senkung des systolischen (oberen) Blutdrucks um im Mittel 7,1 mmHg; beim unteren Wert und beim Blutzucker war der Unterschied nicht bedeutsam. Beim LDL-Cholesterin ergab sich ein kleiner Rückgang um 6,8 mg/dl. Verwendet wurden 15 mg bis 9 g täglich, als Kapsel oder als Tee, über 15 bis 90 Tage. Die Autoren nennen ein mittleres Verzerrungsrisiko, stark schwankende Präparate und zu kleine Studien — sie fordern längere und besser kontrollierte Untersuchungen. Der Tee ersetzt keine Behandlung.",
+        "en": "A pooled analysis of 17 randomized trials found a reduction of systolic (upper) blood pressure by an average of 7.1 mmHg; for the lower value and for blood glucose the difference was not significant. LDL cholesterol showed a small drop of 6.8 mg/dl. Doses ranged from 15 mg to 9 g daily, as capsules or as tea, over 15 to 90 days. The authors note a moderate risk of bias, widely varying preparations and studies that were too small — they call for longer and better controlled trials. The tea does not replace treatment."
+      }
+    },
+    {
+      "form": "tea",
+      "target": ["vitamin C (traditional)", "cooling drink"],
+      "internal_external": "internal",
+      "plant_part": "flower",
+      "evidence_level": "folk",
+      "source_ids": ["eda"],
+      "description": {
+        "de": "In heißen Ländern gilt der gekühlte Aufguss als Durstlöscher und wird traditionell wegen seines Vitamin-C-Gehalts geschätzt. Ein Teil des Vitamins geht beim Aufbrühen mit kochendem Wasser verloren — der Kaltansatz erhält mehr davon.",
+        "en": "In hot countries the chilled infusion counts as a thirst-quencher and is traditionally valued for its vitamin C content. Some of the vitamin is lost when brewing with boiling water — a cold brew keeps more of it."
       }
     }
   ],
@@ -48,19 +69,113 @@
     "active_months": [10, 11, 12],
     "harvest_part": { "de": "Kelchblätter", "en": "Calyces" }
   },
+  "harvest": [
+    {
+      "plant_part": "flower",
+      "best_months": [10, 11, 12],
+      "time_of_day": {
+        "de": "Etwa zwei bis drei Wochen nach der Blüte, wenn die Kelche prall und tiefrot sind, aber die Fruchtkapsel darin noch nicht aufgeplatzt ist. Später werden sie holzig.",
+        "en": "About two to three weeks after flowering, when the calyces are plump and deep red but the seed capsule inside has not yet split. Later they turn woody."
+      },
+      "drying": {
+        "de": "Kapsel herauslösen, die Kelchblätter im Schatten oder bei höchstens 40 °C trocknen. Sonne bleicht die Anthocyane aus — richtig getrocknete Ware ist dunkelrot, nicht bräunlich.",
+        "en": "Remove the capsule and dry the calyces in the shade or at no more than 40 °C. Sun bleaches the anthocyanins — properly dried material is deep red, not brownish."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht und dunkel. Die Kelche ziehen Feuchtigkeit an und verkleben dann; ein Trockenmittel im Glas hilft.",
+        "en": "Airtight and dark. The calyces attract moisture and then clump together; a desiccant in the jar helps."
+      }
+    }
+  ],
   "safety": {
     "external_only": false,
     "toxicity_level": "caution",
     "warnings": {
-      "de": "Kann den Blutdruck senken und mit blutdrucksenkenden Medikamenten (z. B. ACE-Hemmern) zusammenwirken; Vorsicht auch bei Diabetes-Medikamenten, da der Blutzucker beeinflusst werden kann. In Schwangerschaft und Stillzeit nicht empfohlen, da die Sicherheit nicht belegt ist und Tierdaten auf ein mögliches Risiko hindeuten. Bei Medikation oder Erkrankung vor regelmäßigem Konsum ärztlich abklären.",
-      "en": "May lower blood pressure and interact with antihypertensive drugs (e.g. ACE inhibitors); caution also with diabetes medication, as blood sugar may be affected. Not recommended during pregnancy and breastfeeding, as safety is not established and animal data suggest a possible risk. If you take medication or have a condition, consult a doctor before regular consumption."
-    }
+      "de": "Kann den Blutdruck senken und mit blutdrucksenkenden Medikamenten (z. B. ACE-Hemmern) zusammenwirken; Vorsicht auch bei Diabetes-Medikamenten, da der Blutzucker beeinflusst werden kann. In Schwangerschaft und Stillzeit nicht empfohlen, da die Sicherheit nicht belegt ist und Tierdaten auf ein mögliches Risiko hindeuten. Bei Medikation oder Erkrankung vor regelmäßigem Konsum ärztlich abklären. Der Aufguss ist deutlich sauer — bei häufigem Trinken über den Tag verteilt kann er den Zahnschmelz angreifen; mit Wasser nachspülen hilft.",
+      "en": "May lower blood pressure and interact with antihypertensive drugs (e.g. ACE inhibitors); caution also with diabetes medication, as blood sugar may be affected. Not recommended during pregnancy and breastfeeding, as safety is not established and animal data suggest a possible risk. If you take medication or have a condition, consult a doctor before regular consumption. The infusion is distinctly acidic — drunk frequently across the day it can attack tooth enamel; rinsing with water afterwards helps."
+    },
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Nicht empfohlen. Tierversuche deuten auf ein mögliches Risiko hin, belastbare Daten am Menschen fehlen. Das betrifft den regelmäßigen Teekonsum ebenso wie Präparate.",
+        "en": "Not recommended. Animal studies suggest a possible risk and sound human data are lacking. This applies to regular tea consumption as well as to supplements."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Es liegen keine belastbaren Daten zur Stillzeit vor. Ohne solche Daten ist von regelmäßigem Konsum abzuraten.",
+        "en": "No sound data on breastfeeding are available. Without such data, regular consumption is inadvisable."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Als gelegentliches Getränk üblich. Wegen der blutdrucksenkenden Wirkung und der Säure ist täglicher Konsum in größeren Mengen bei kleinen Kindern nicht angebracht.",
+        "en": "Customary as an occasional drink. Because of the blood-pressure-lowering effect and the acidity, daily consumption in larger amounts is not appropriate for small children."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Blutdrucksenker (ACE-Hemmer, Diuretika, Sartane)",
+        "severity": "caution",
+        "mechanism": {
+          "de": "Hibiskus senkte in Studien den oberen Blutdruck um im Mittel 7 mmHg. Zusammen mit einer laufenden Behandlung können die Effekte sich addieren und der Druck zu weit fallen.",
+          "en": "In trials hibiscus lowered upper blood pressure by an average of 7 mmHg. Together with ongoing treatment the effects can add up and drive pressure too low."
+        }
+      },
+      {
+        "drug_class": "Blutzuckersenkende Mittel",
+        "severity": "monitor",
+        "mechanism": {
+          "de": "Ein Einfluss auf den Blutzucker wird beschrieben, war in der Zusammenfassung der Studien aber nicht bedeutsam. Bei Diabetes-Behandlung trotzdem im Blick behalten.",
+          "en": "An influence on blood glucose is described but was not significant in the pooled analysis. Still worth keeping an eye on during diabetes treatment."
+        }
+      },
+      {
+        "drug_class": "Hydrochlorothiazid und Diclofenac",
+        "severity": "monitor",
+        "mechanism": {
+          "de": "Für diese beiden Wirkstoffe wurde eine veränderte Ausscheidung bzw. Aufnahme unter Hibiskus beschrieben. Bei regelmäßigem Konsum ärztlich ansprechen.",
+          "en": "Altered excretion or absorption under hibiscus has been described for these two agents. Mention regular consumption to your doctor."
+        }
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Schwangerschaft und Stillzeit.",
+        "en": "Pregnancy and breastfeeding."
+      },
+      {
+        "de": "Niedriger Blutdruck — der Aufguss kann ihn weiter senken.",
+        "en": "Low blood pressure — the infusion can lower it further."
+      }
+    ]
   },
   "constituents": [
-    { "name": "Anthocyane (Delphinidin-/Cyanidin-Sambubioside)", "category": "flavonoid" },
-    { "name": "Organische Säuren (Zitronen-, Hibiskus-, Apfelsäure)", "category": "other" },
-    { "name": "Vitamin C", "category": "vitamin" },
-    { "name": "Schleimstoffe (Polysaccharide)", "category": "mucilage" }
+    {
+      "name": "Anthocyane (Delphinidin-/Cyanidin-Sambubioside)",
+      "category": "flavonoid",
+      "plant_part": "flower",
+      "note": {
+        "de": "Farbstoffe der Kelchblätter; empfindlich gegen Licht und lange Hitze.",
+        "en": "The pigments of the calyces; sensitive to light and prolonged heat."
+      }
+    },
+    {
+      "name": "Organische Säuren (Zitronen-, Hibiskus-, Apfel-, Weinsäure)",
+      "category": "other",
+      "plant_part": "flower",
+      "note": {
+        "de": "Machen etwa 15–30 % der Trockenmasse aus und geben dem Aufguss seine Säure.",
+        "en": "Make up roughly 15–30 % of the dry matter and give the infusion its sourness."
+      }
+    },
+    { "name": "Vitamin C", "category": "vitamin", "plant_part": "flower" },
+    { "name": "Schleimstoffe (Polysaccharide)", "category": "mucilage", "plant_part": "flower" },
+    { "name": "Polyphenole und Gerbstoffe", "category": "tannin", "plant_part": "flower" },
+    { "name": "Mineralstoffe (Kalium, Calcium, Eisen)", "category": "mineral", "plant_part": "flower" }
   ],
   "classical_quotes": [],
   "image": {
@@ -74,7 +189,7 @@
     "source_url": "https://commons.wikimedia.org/wiki/File:Hibiscus_sabdariffa_(6309645399).jpg"
   },
   "sources": [
-    { "id": "meta", "type": "monograph", "title": "Effects of Hibiscus sabdariffa on blood pressure and cardiometabolic markers: systematic review and meta-analysis (Nutrition Reviews 2022, PMC9086798)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9086798/", "accessed": "2026-06-23" },
+    { "id": "meta", "type": "monograph", "title": "Effects of Hibiscus sabdariffa on blood pressure and cardiometabolic markers: systematic review and meta-analysis (Nutrition Reviews 2022, PMC9086798)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9086798/", "accessed": "2026-08-20" },
     { "id": "webmd", "type": "monograph", "title": "Hibiscus Sabdariffa: Uses, Side Effects, Interactions (WebMD)", "url": "https://www.webmd.com/vitamins/ai/ingredientmono-211/hibiscus-sabdariffa", "accessed": "2026-06-23" },
     { "id": "eda", "type": "monograph", "title": "Egyptian Herbal Monograph: Hibiscus sabdariffa L. (Egyptian Drug Authority)", "url": "https://www.edaegypt.gov.eg/media/hzynjgnk/hibiscus-sabdariffa-l.pdf", "accessed": "2026-06-23" },
     { "id": "commons_img", "type": "commons", "title": "File:Hibiscus sabdariffa (6309645399).jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Hibiscus_sabdariffa_(6309645399).jpg", "accessed": "2026-06-23" }

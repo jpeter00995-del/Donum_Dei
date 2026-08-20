@@ -12,8 +12,8 @@
     "latin": "Pleurotaceae"
   },
   "description": {
-    "de": "Der Austern-Seitling ist ein weit verbreiteter Speisepilz, der in dachziegelartig übereinander stehenden, muschelförmigen Fruchtkörpern an totem Laubholz wächst — im Herbst und über milde Wintertage hinweg. Er schmeckt mild und lässt sich gut kultivieren. Neben Eiweiß enthält er Beta-Glucane, das Antioxidans Ergothionein sowie natürliches Lovastatin, was ihn für die Cholesterin-Forschung interessant macht. Als Speisepilz sollte er stets gegart werden. Beim Sammeln in der Natur ist auf Verwechslungen mit ähnlichen Arten zu achten.",
-    "en": "The oyster mushroom is a widespread edible fungus that grows in overlapping, shell-shaped fruiting bodies on dead broadleaf wood — in autumn and through mild winter days. It has a mild flavour and is easy to cultivate. Besides protein it contains beta-glucans, the antioxidant ergothioneine and natural lovastatin, which makes it of interest to cholesterol research. As an edible mushroom it should always be cooked. When foraging in the wild, take care to avoid confusion with similar species."
+    "de": "Der Austern-Seitling ist ein weit verbreiteter Speisepilz, der in dachziegelartig übereinander stehenden, muschelförmigen Fruchtkörpern an totem Laubholz wächst — bevorzugt an Buche, Pappel und Weide. Er ist einer der wenigen Pilze, die Frost brauchen: Der Kälteschub löst die Fruchtbildung aus, weshalb er im Herbst und über milde Wintertage hinweg erscheint. Der Stiel sitzt seitlich am Hut, die weißen Lamellen laufen an ihm herab. Er schmeckt mild und lässt sich gut kultivieren — auf Stroh oder Kaffeesatz gedeiht er auch zu Hause, was ihn zum Einsteigerpilz der Zucht macht. Neben Eiweiß enthält er Beta-Glucane, das Antioxidans Ergothionein sowie natürliches Lovastatin, was ihn für die Cholesterin-Forschung interessant macht. Als Speisepilz sollte er stets gegart werden. Beim Sammeln in der Natur ist auf Verwechslungen mit ähnlichen Arten zu achten — der giftige Ölbaumpilz sieht ihm auf den ersten Blick ähnlich, wächst aber an Laubbaumstümpfen und hat orangegelbe Lamellen.",
+    "en": "The oyster mushroom is a widespread edible fungus that grows in overlapping, shell-shaped fruiting bodies on dead broadleaf wood — preferring beech, poplar and willow. It is one of the few mushrooms that need frost: a cold snap triggers fruiting, which is why it appears in autumn and through mild winter days. The stem sits to one side of the cap and the white gills run down it. It has a mild flavour and is easy to cultivate — on straw or coffee grounds it will even grow at home, which makes it the beginner's mushroom for cultivation. Besides protein it contains beta-glucans, the antioxidant ergothioneine and natural lovastatin, which makes it of interest to cholesterol research. As an edible mushroom it should always be cooked. When foraging in the wild, take care to avoid confusion with similar species — the poisonous jack-o'-lantern looks similar at first glance but grows on broadleaf stumps and has orange-yellow gills."
   },
   "teaser": {
     "de": "Ein beliebter Speisepilz, dessen Beta-Glucane und natürliches Lovastatin auch das Interesse der Cholesterin-Forschung wecken.",
@@ -25,8 +25,8 @@
       "target": ["culinary", "nutrition", "protein source"],
       "internal_external": "internal",
       "description": {
-        "de": "Frische Fruchtkörper werden gebraten, gedünstet oder gegrillt als eiweißreiches Gemüse oder Fleischersatz verwendet; vor dem Verzehr sollten sie immer durchgegart werden.",
-        "en": "Fresh fruiting bodies are fried, sautéed or grilled as a protein-rich vegetable or meat substitute; they should always be cooked thoroughly before eating."
+        "de": "Frische Fruchtkörper werden gebraten, gedünstet oder gegrillt als eiweißreiches Gemüse oder Fleischersatz verwendet; vor dem Verzehr sollten sie immer durchgegart werden. Heiß und ohne Deckel anbraten — bei niedriger Hitze zieht der Pilz Wasser und wird zäh. Junge Fruchtkörper sind zart, alte werden ledrig.",
+        "en": "Fresh fruiting bodies are fried, sautéed or grilled as a protein-rich vegetable or meat substitute; they should always be cooked thoroughly before eating. Fry hot and uncovered — over low heat the mushroom draws water and turns rubbery. Young fruiting bodies are tender, old ones become leathery."
       },
       "source_ids": ["wiki-en", "wiki-de"],
       "plant_part": "whole_plant",
@@ -37,12 +37,24 @@
       "target": ["cholesterol", "cardiometabolic health"],
       "internal_external": "internal",
       "description": {
-        "de": "In getrockneter oder als Extrakt verarbeiteter Form wird der Pilz in Studien zur Senkung von Gesamt- und LDL-Cholesterin untersucht; der Effekt wird Beta-Glucanen und dem natürlich enthaltenen Lovastatin zugeschrieben.",
-        "en": "In dried or extract form, the mushroom has been studied for lowering total and LDL cholesterol; the effect is attributed to beta-glucans and the naturally occurring lovastatin."
+        "de": "In getrockneter oder als Extrakt verarbeiteter Form wird der Pilz in Studien zur Senkung von Gesamt- und LDL-Cholesterin untersucht; der Effekt wird Beta-Glucanen und dem natürlich enthaltenen Lovastatin zugeschrieben. Der Lovastatin-Gehalt schwankt je nach Stamm und Anbau erheblich — was im Pilz steckt, lässt sich beim Essen nicht dosieren. Die Studienlage ist klein; der Pilz ersetzt kein Statin.",
+        "en": "In dried or extract form, the mushroom has been studied for lowering total and LDL cholesterol; the effect is attributed to beta-glucans and the naturally occurring lovastatin. The lovastatin content varies considerably by strain and cultivation — what is in the mushroom cannot be dosed by eating it. The body of evidence is small; the mushroom does not replace a statin."
       },
       "source_ids": ["study-lovastatin", "study-cardiometabolic"],
       "plant_part": "whole_plant",
       "evidence_level": "clinical_trial"
+    },
+    {
+      "form": "raw",
+      "target": ["home cultivation", "food"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Der Austern-Seitling ist der einfachste Speisepilz für den eigenen Anbau. Als Substrat genügen pasteurisiertes Stroh, Kaffeesatz oder Laubholz-Sägespäne, geimpft mit fertiger Brut. Er wächst bei Zimmertemperatur, braucht Frischluft und Licht für die Hutbildung. Wichtig ist Hygiene beim Ansetzen — Schimmel ist der häufigste Grund für einen misslungenen Ansatz.",
+        "en": "The oyster mushroom is the simplest edible mushroom to grow yourself. Pasteurised straw, coffee grounds or hardwood sawdust serve as substrate, inoculated with ready-made spawn. It grows at room temperature and needs fresh air and light to form caps. Hygiene when setting it up matters — mould is the most common reason a batch fails."
+      },
+      "source_ids": ["wiki-de"],
+      "plant_part": "whole_plant",
+      "evidence_level": "traditional"
     }
   ],
   "season": {
@@ -52,14 +64,74 @@
       "en": "fruiting body"
     }
   },
+  "harvest": [
+    {
+      "plant_part": "whole_plant",
+      "best_months": [10, 11, 12],
+      "time_of_day": {
+        "de": "Nach dem ersten Frost, wenn die Hüte fünf bis zehn Zentimeter groß und die Ränder noch eingerollt sind. Das ganze Büschel am Ansatz abschneiden, nicht abreißen — der Pilz treibt am selben Stamm nach. Alte Exemplare mit flach ausgebreiteten Hüten sind zäh und oft von Sporenstaub der Nachbarn bedeckt.",
+        "en": "After the first frost, when the caps are five to ten centimetres across and their edges still curled under. Cut the whole cluster at its base rather than tearing it off — the fungus fruits again on the same trunk. Old specimens with flat, spread-out caps are tough and often dusted with spores from their neighbours."
+      },
+      "drying": {
+        "de": "In Streifen schneiden und bei 40–50 °C trocknen. Der Austern-Seitling zieht beim Trocknen stark zusammen und wird im Wasser nie wieder ganz zart — er eignet sich besser zum Einfrieren nach kurzem Anbraten.",
+        "en": "Cut into strips and dry at 40–50 °C. The oyster mushroom shrinks a lot when dried and never becomes fully tender again after soaking — it freezes better after a brief sauté."
+      },
+      "storage_months": 6,
+      "storage_condition": {
+        "de": "Frisch in Papier im Kühlschrank drei bis vier Tage. Getrocknet luftdicht und dunkel. Angebraten und eingefroren hält er ein halbes Jahr und bleibt in der Pfanne brauchbar.",
+        "en": "Fresh in paper in the fridge for three to four days. Dried, keep airtight and dark. Sautéed and frozen it keeps for half a year and stays usable in the pan."
+      }
+    }
+  ],
   "safety": {
     "warnings": {
-      "de": "Allgemein sicherer Speisepilz; vor dem Verzehr stets garen. Beim Sammeln Verwechslungsgefahr mit ähnlichen Arten beachten und nur bei sicherer Bestimmung verzehren. Rohverzehr und übermäßiger Genuss können Magen-Darm-Beschwerden auslösen.",
-      "en": "Generally safe edible mushroom; always cook before eating. Foragers should note the risk of confusion with similar species and only eat specimens that are confidently identified. Eating it raw or in excess may cause gastrointestinal upset."
+      "de": "Allgemein sicherer Speisepilz; vor dem Verzehr stets garen. Beim Sammeln Verwechslungsgefahr mit ähnlichen Arten beachten und nur bei sicherer Bestimmung verzehren. Rohverzehr und übermäßiger Genuss können Magen-Darm-Beschwerden auslösen. Bei Zuchtpilzen aus dem eigenen Ansatz gilt: Ein Substrat, das schimmelt oder unangenehm riecht, wird entsorgt und nicht gerettet — die Sporen mancher Schimmelpilze sind beim Einatmen problematisch.",
+      "en": "Generally safe edible mushroom; always cook before eating. Foragers should note the risk of confusion with similar species and only eat specimens that are confidently identified. Eating it raw or in excess may cause gastrointestinal upset. For home-grown batches: a substrate that moulds or smells unpleasant is discarded, not rescued — the spores of some moulds are a problem to breathe in."
     },
     "external_only": false,
     "toxicity_level": "none",
-    "pet_toxic": false
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Als durchgegarter Speisepilz unbedenklich. Extrakte und Präparate sind in der Schwangerschaft nicht untersucht.",
+        "en": "Harmless as a thoroughly cooked edible mushroom. Extracts and supplements have not been studied in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Als Speisepilz unbedenklich; für Extrakte fehlen Daten.",
+        "en": "Harmless as an edible mushroom; data are lacking for extracts."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Gut durchgegart und in kleinen Mengen unproblematisch. Pilzgerichte sind für kleine Kinder schwer verdaulich.",
+        "en": "Unproblematic well cooked and in small amounts. Mushroom dishes are hard for small children to digest."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Statine (Cholesterinsenker)",
+        "severity": "monitor",
+        "mechanism": {
+          "de": "Der Pilz enthält von Natur aus Lovastatin, denselben Wirkstoff wie manche Cholesterinsenker. Beim normalen Essen ist die Menge klein und schwankend; bei hochdosierten Extrakten zusätzlich zu einem Statin ist das anders zu bewerten.",
+          "en": "The mushroom naturally contains lovastatin, the same agent as some cholesterol drugs. In ordinary meals the amount is small and variable; high-dose extracts on top of a statin are a different matter."
+        }
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Roher Verzehr.",
+        "en": "Eating it raw."
+      },
+      {
+        "de": "Bekannte Schimmelpilz- oder Sporenallergie — beim Anbau entstehen große Sporenmengen; reife Kulturen nicht im Wohnraum stehen lassen.",
+        "en": "Known mould or spore allergy — cultivation produces large quantities of spores; do not keep mature cultures in living spaces."
+      }
+    ]
   },
   "constituents": [
     {
@@ -93,6 +165,18 @@
         "de": "Pilzsterol, das unter UV-Licht in Vitamin D2 umgewandelt werden kann.",
         "en": "A fungal sterol that can be converted into vitamin D2 under UV light."
       }
+    },
+    {
+      "name": "Eiweiß und Ballaststoffe",
+      "category": "other",
+      "note": {
+        "de": "Grund dafür, dass der Pilz oft als Fleischersatz verwendet wird; die Faserstruktur der Hüte kommt gebratenem Fleisch nahe.",
+        "en": "The reason the mushroom is often used as a meat substitute; the fibrous structure of the caps comes close to fried meat."
+      }
+    },
+    {
+      "name": "Mineralstoffe (Kalium, Phosphor, Eisen)",
+      "category": "mineral"
     }
   ],
   "classical_quotes": [],

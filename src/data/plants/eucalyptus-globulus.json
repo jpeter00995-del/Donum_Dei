@@ -16,74 +16,140 @@
     "en": "An evergreen tree whose leaves and essential oil are traditionally used for colds and cough to ease the airways."
   },
   "description": {
-    "de": "Der Blaue Eukalyptus ist ein rasch wachsender, immergrüner Baum aus der Familie der Myrtengewächse, ursprünglich aus Australien und heute in vielen warmen Regionen angepflanzt. Für Heilzwecke werden die Blätter und das daraus gewonnene ätherische Öl verwendet, dessen Hauptbestandteil 1,8-Cineol (Eucalyptol) ist. Überliefert ist die Anwendung bei Erkältung und Husten, um das Durchatmen zu erleichtern. Ätherisches Eukalyptusöl beziehungsweise 1,8-Cineol darf nicht im Gesicht oder an der Nase von Säuglingen und Kleinkindern angewendet werden, da es zu Atemproblemen führen kann.",
-    "en": "The blue gum eucalyptus is a fast-growing evergreen tree of the myrtle family, originally from Australia and now planted across many warm regions. Medicinally, the leaves and the essential oil obtained from them are used; its main component is 1,8-cineole (eucalyptol). It is traditionally used for colds and coughs to ease breathing. Eucalyptus essential oil, or 1,8-cineole, must not be applied to the face or nose of infants and small children, as it can cause breathing problems."
+    "de": "Der Blaue Eukalyptus ist ein rasch wachsender, immergrüner Baum aus der Familie der Myrtengewächse. Er stammt aus Tasmanien und dem Südosten Australiens und wird heute rund ums Mittelmeer, in Portugal, Kalifornien und Südamerika angebaut; in guten Lagen erreicht er über fünfzig Meter. Auffällig ist der Blattwechsel im Lauf des Lebens: Junge Zweige tragen sitzende, blaugrün bereifte Blätter, die dem Baum seinen Namen geben, ältere dagegen lange, sichelförmig hängende. Die Rinde löst sich in Streifen und legt die glatte helle Fläche darunter frei. Für Heilzwecke werden die Blätter und das daraus destillierte ätherische Öl verwendet, dessen Hauptbestandteil 1,8-Cineol (Eucalyptol) ist — derselbe Stoff, der auch dem Kardamom seine kühle Note gibt. Die europäische Arzneimittelbehörde EMA führt Eukalyptusöl als traditionelles pflanzliches Arzneimittel bei Husten im Rahmen einer Erkältung und bei örtlichen Muskelschmerzen. Ätherisches Eukalyptusöl darf nicht im Gesicht oder an der Nase von Säuglingen und Kleinkindern angewendet werden — es kann einen Stimmritzenkrampf auslösen.",
+    "en": "The blue gum eucalyptus is a fast-growing evergreen tree of the myrtle family. It comes from Tasmania and south-eastern Australia and is now grown around the Mediterranean, in Portugal, California and South America; in good sites it exceeds fifty metres. Striking is how its foliage changes over its life: young shoots carry stalkless, blue-green waxy leaves that give the tree its name, while older ones bear long, sickle-shaped hanging leaves. The bark peels away in strips, exposing the smooth pale surface beneath. Medicinally, the leaves and the essential oil distilled from them are used; its main component is 1,8-cineole (eucalyptol) — the same compound that gives cardamom its cool note. The European Medicines Agency lists eucalyptus oil as a traditional herbal medicinal product for cough associated with the common cold and for localised muscle pain. Eucalyptus essential oil must not be applied to the face or nose of infants and small children — it can trigger a spasm of the glottis."
   },
   "uses": [
     {
       "form": "inhalation",
-      "target": [
-        "cough (cold)",
-        "blocked airways"
-      ],
+      "target": ["cough (cold)", "blocked airways"],
       "internal_external": "internal",
       "plant_part": "leaf",
       "evidence_level": "traditional",
-      "source_ids": [
-        "ema",
-        "ema_report"
-      ],
+      "source_ids": ["ema", "ema_report"],
       "description": {
-        "de": "Traditionell zur Linderung von Husten bei Erkältungen und als Inhalation/Badezusatz, um die oberen Atemwege freier zu machen; in der EU als traditionelles pflanzliches Arzneimittel registriert.",
-        "en": "Traditionally used to relieve cough associated with colds and as an inhalation/bath additive to help clear the upper airways; registered in the EU as a traditional herbal medicinal product."
+        "de": "Traditionell zur Linderung von Husten bei Erkältungen und als Inhalation oder Badezusatz, um die oberen Atemwege freier zu machen; in der EU als traditionelles pflanzliches Arzneimittel registriert. Für Inhalation, Einreibung und Bad lässt die EMA die Anwendung ab vier Jahren zu, zum Einnehmen erst ab zwölf. Hält der Husten länger als eine Woche an, gehört er ärztlich abgeklärt.",
+        "en": "Traditionally used to relieve cough associated with colds and as an inhalation or bath additive to help clear the upper airways; registered in the EU as a traditional herbal medicinal product. For inhalation, rubs and baths the EMA permits use from four years of age, for oral use only from twelve. If a cough lasts longer than a week it needs medical assessment."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "Wenige Tropfen Öl in eine Schüssel mit heißem, nicht mehr kochendem Wasser geben und den Dampf mit geschlossenen Augen einatmen. Nicht über kochendem Wasser — die Verbrühungsgefahr ist der häufigste Unfall dabei.",
+          "en": "Add a few drops of oil to a bowl of hot, no longer boiling water and breathe in the steam with closed eyes. Not over boiling water — scalding is the most common accident with this."
+        },
+        "doses_per_day": 3
+      },
+      "age_restriction": {
+        "min_age": 4,
+        "note": {
+          "de": "Unter 30 Monaten wegen der Gefahr eines Stimmritzenkrampfs gar nicht, und auch danach nie im Gesicht.",
+          "en": "Not at all under 30 months because of the risk of glottal spasm, and even after that never on the face."
+        }
       }
     },
     {
       "form": "essential_oil",
-      "target": [
-        "bronchitis (research)",
-        "rhinosinusitis (research)"
-      ],
+      "target": ["bronchitis (research)", "rhinosinusitis (research)"],
       "internal_external": "internal",
       "plant_part": "leaf",
       "evidence_level": "clinical_trial",
-      "source_ids": [
-        "ema_report",
-        "review"
-      ],
+      "source_ids": ["ema_report", "review"],
       "description": {
-        "de": "Für den Inhaltsstoff 1,8-Cineol gibt es einzelne klinische Studien zu Atemwegsbeschwerden wie Bronchitis und Rhinosinusitis.",
-        "en": "For the constituent 1,8-cineole, some clinical studies exist on respiratory complaints such as bronchitis and rhinosinusitis."
+        "de": "Für den Inhaltsstoff 1,8-Cineol gibt es einzelne klinische Studien zu Atemwegsbeschwerden wie Bronchitis und Rhinosinusitis. Untersucht wurde dabei der isolierte Reinstoff in magensaftresistenten Kapseln, nicht das Öl aus der Flasche — die Ergebnisse lassen sich deshalb nicht auf jede Anwendungsform übertragen.",
+        "en": "For the constituent 1,8-cineole, some clinical studies exist on respiratory complaints such as bronchitis and rhinosinusitis. What was studied is the isolated pure compound in enteric-coated capsules, not the oil from the bottle — so the results do not carry over to every form of use."
+      }
+    },
+    {
+      "form": "salve",
+      "target": ["muscle pain (traditional)"],
+      "internal_external": "external",
+      "plant_part": "leaf",
+      "evidence_level": "traditional",
+      "source_ids": ["ema"],
+      "description": {
+        "de": "Die EMA führt neben dem Husten auch örtliche Muskelschmerzen als traditionelle Anwendung — als Einreibung in verdünnter Form. Das Öl erzeugt auf der Haut ein Kälte- und dann ein Wärmegefühl. Bessern sich die Schmerzen nach ein bis zwei Wochen nicht, gehört das abgeklärt.",
+        "en": "Alongside cough, the EMA also lists localised muscle pain as a traditional use — as a diluted rub. On the skin the oil produces a sensation of cold and then of warmth. If the pain has not improved after one to two weeks it needs to be looked at."
       }
     }
   ],
   "season": {
-    "active_months": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "harvest_part": {
-      "de": "Blätter",
-      "en": "Leaves"
-    }
+    "active_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "harvest_part": { "de": "Blätter", "en": "Leaves" }
   },
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "time_of_day": {
+        "de": "Ganzjährig, da immergrün. Der Ölgehalt der Blätter ist am späten Vormittag am höchsten, wenn der Tau abgetrocknet ist. Für die Destillation werden die älteren, sichelförmigen Blätter genommen.",
+        "en": "All year, as the tree is evergreen. The oil content of the leaves is highest in the late morning, once the dew has dried. For distillation the older, sickle-shaped leaves are used."
+      },
+      "drying": {
+        "de": "Locker ausgebreitet im Schatten trocknen. Das ätherische Öl entweicht mit der Wärme — nie über 35 °C und nie in der Sonne.",
+        "en": "Dry loosely spread out in the shade. The essential oil escapes with heat — never above 35 °C and never in the sun."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Ganze Blätter luftdicht und dunkel; erst kurz vor Gebrauch zerkleinern. Fertiges ätherisches Öl gehört in eine dunkle Flasche und ist nach dem Öffnen etwa ein Jahr brauchbar.",
+        "en": "Store whole leaves airtight and dark; crush them only shortly before use. Finished essential oil belongs in a dark bottle and stays usable for about a year once opened."
+      }
+    }
+  ],
   "safety": {
     "external_only": false,
     "toxicity_level": "caution",
     "warnings": {
-      "de": "Ätherisches Eukalyptusöl bzw. 1,8-Cineol NICHT im Gesicht oder an der Nase von Säuglingen und Kleinkindern (unter ca. 10 Jahren) anwenden — Gefahr von Stimmritzenkrampf und Atemnot. Nicht unverdünnt einnehmen; vorgegebene Dosierung beachten. Nicht bei Überempfindlichkeit gegen Eukalyptusöl/1,8-Cineol; Vorsicht bei Kindern mit Krampfanfällen in der Vorgeschichte. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
-      "en": "Do not apply eucalyptus essential oil or 1,8-cineole to the face or nose of infants and young children (under about 10 years) — risk of glottal spasm and breathing difficulty. Do not take undiluted; follow the stated dosage. Do not use with hypersensitivity to eucalyptus oil/1,8-cineole; caution in children with a history of seizures. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
+      "de": "Ätherisches Eukalyptusöl bzw. 1,8-Cineol NICHT im Gesicht oder an der Nase von Säuglingen und Kleinkindern (unter ca. 10 Jahren) anwenden — Gefahr von Stimmritzenkrampf und Atemnot. Nicht unverdünnt einnehmen; vorgegebene Dosierung beachten. Nicht bei Überempfindlichkeit gegen Eukalyptusöl/1,8-Cineol; Vorsicht bei Kindern mit Krampfanfällen in der Vorgeschichte. Heiße Bäder mit Eukalyptusöl sind laut EMA nicht angebracht bei großflächigen Hautverletzungen, offenen Wunden, akuten Hauterkrankungen, hohem Fieber, schweren Infektionen, schweren Durchblutungsstörungen und Herzschwäche. ASPCA-Einstufung (abgerufen 2026-08-10): für Hunde, Katzen und Pferde giftig.",
+      "en": "Do not apply eucalyptus essential oil or 1,8-cineole to the face or nose of infants and young children (under about 10 years) — risk of glottal spasm and breathing difficulty. Do not take undiluted; follow the stated dosage. Do not use with hypersensitivity to eucalyptus oil/1,8-cineole; caution in children with a history of seizures. According to the EMA, hot baths with eucalyptus oil are not appropriate with large skin injuries, open wounds, acute skin disease, high fever, severe infections, severe circulatory disorders or heart failure. ASPCA classification (accessed 2026-08-10): toxic to dogs, cats and horses."
     },
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Die EMA-Unterlagen enthalten keine Angaben zur Schwangerschaft. Ohne Daten wird von der Anwendung abgeraten; das gilt besonders für die Einnahme.",
+        "en": "The EMA documents contain no information on pregnancy. Without data, use is inadvisable; this applies especially to oral use."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Ebenfalls keine Angaben in den EMA-Unterlagen. Öl nicht auf Brust oder Dekolleté auftragen, wenn ein Säugling daran trinkt.",
+        "en": "Likewise no information in the EMA documents. Do not apply oil to the chest or décolleté if an infant nurses there."
+      }
+    },
+    "children": {
+      "status": "contraindicated",
+      "note": {
+        "de": "Unter 30 Monaten laut EMA nicht anwenden — Gefahr eines Stimmritzenkrampfs. Kinder mit Krampfanfällen in der Vorgeschichte, auch Fieberkrämpfen, sind ganz ausgenommen. Inhalation, Einreibung und Bad ab 4 Jahren, Einnehmen ab 12 Jahren.",
+        "en": "Not to be used under 30 months according to the EMA — risk of glottal spasm. Children with a history of seizures, including febrile seizures, are excluded entirely. Inhalation, rubs and baths from 4 years, oral use from 12 years."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Über CYP-Enzyme abgebaute Arzneimittel",
+        "severity": "monitor",
+        "mechanism": {
+          "de": "1,8-Cineol kann Enzyme der Leber anregen und dadurch den Abbau anderer Wirkstoffe beschleunigen. Bei kurzer äußerer Anwendung ist das ohne Belang, bei längerer Einnahme von Cineol-Kapseln nicht.",
+          "en": "1,8-cineole can induce liver enzymes and thereby speed up the breakdown of other agents. This is irrelevant for brief external use, but not for prolonged oral use of cineole capsules."
+        }
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Kinder unter 30 Monaten — Gefahr eines Stimmritzenkrampfs.",
+        "en": "Children under 30 months — risk of glottal spasm."
+      },
+      {
+        "de": "Kinder mit Krampfanfällen in der Vorgeschichte, mit oder ohne Fieber.",
+        "en": "Children with a history of seizures, with or without fever."
+      },
+      {
+        "de": "Überempfindlichkeit gegen Eukalyptusöl oder 1,8-Cineol.",
+        "en": "Hypersensitivity to eucalyptus oil or 1,8-cineole."
+      },
+      {
+        "de": "Heiße Bäder bei offenen Wunden, akuten Hauterkrankungen, hohem Fieber, schweren Infektionen, Durchblutungsstörungen oder Herzschwäche.",
+        "en": "Hot baths with open wounds, acute skin disease, high fever, severe infections, circulatory disorders or heart failure."
+      }
+    ],
     "pet_toxic": true,
     "pet_check": {
       "source": "aspca",
@@ -91,25 +157,33 @@
       "match": "genus",
       "entry": "eucalyptus",
       "entry_name": "Eucalyptus",
-      "listing": [
-        "toxic_dogs",
-        "toxic_cats"
-      ]
+      "listing": ["toxic_dogs", "toxic_cats"]
     }
   },
   "constituents": [
     {
       "name": "1,8-Cineol (Eucalyptol)",
-      "category": "essential_oil"
+      "category": "essential_oil",
+      "plant_part": "leaf",
+      "percent_range": "70–85 % des ätherischen Öls",
+      "note": {
+        "de": "Hauptbestandteil und Träger der Wirkung; zugleich der Stoff, der bei Kleinkindern gefährlich werden kann.",
+        "en": "Main component and carrier of the effect; at the same time the compound that can become dangerous in small children."
+      }
     },
+    { "name": "α-Pinen", "category": "essential_oil", "plant_part": "leaf" },
+    { "name": "Limonen", "category": "essential_oil", "plant_part": "leaf" },
+    { "name": "p-Cymen und Aromadendren", "category": "essential_oil", "plant_part": "leaf" },
     {
-      "name": "α-Pinen",
-      "category": "essential_oil"
+      "name": "Gerbstoffe (Ellagitannine)",
+      "category": "tannin",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Im Blattaufguss enthalten, nicht im destillierten Öl.",
+        "en": "Present in the leaf infusion, not in the distilled oil."
+      }
     },
-    {
-      "name": "Limonen",
-      "category": "essential_oil"
-    }
+    { "name": "Flavonoide (Rutin, Quercetin)", "category": "flavonoid", "plant_part": "leaf" }
   ],
   "classical_quotes": [],
   "image": {
@@ -128,7 +202,7 @@
       "type": "monograph",
       "title": "Eucalypti aetheroleum (eucalyptus oil) — EMA herbal medicinal product overview",
       "url": "https://www.ema.europa.eu/en/medicines/herbal/eucalypti-aetheroleum",
-      "accessed": "2026-06-23"
+      "accessed": "2026-08-20"
     },
     {
       "id": "ema_report",

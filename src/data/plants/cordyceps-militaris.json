@@ -16,8 +16,8 @@
     "en": "An orange-red ascomycete fungus used in Traditional Chinese Medicine and marketed as an adaptogen, though many proposed effects remain limited to lab and animal studies."
   },
   "description": {
-    "de": "Cordyceps militaris ist ein orangeroter Schlauchpilz aus der Familie der Kernkeulenverwandten, der auf Insektenpuppen im Boden wächst. Genutzt wird der Fruchtkörper, der heute überwiegend kultiviert wird. Zu seinen kennzeichnenden Inhaltsstoffen zählen Cordycepin, Adenosin und Polysaccharide. In der traditionellen chinesischen Medizin wird der Pilz als kräftigendes Mittel geschätzt und heute als Adaptogen vermarktet; viele der beworbenen Wirkungen sind bislang jedoch nur in Labor- und Tierversuchen beschrieben. Schwere Nebenwirkungen sind nicht bekannt; Vorsicht gilt bei gleichzeitiger Einnahme von Blutverdünnern.",
-    "en": "Cordyceps militaris is an orange-red sac fungus of the Cordycipitaceae that grows on insect pupae in the soil. The part used is the fruiting body, which today is mostly cultivated. Its signature constituents include cordycepin, adenosine and polysaccharides. In traditional Chinese medicine the fungus is valued as a strengthening remedy and is now marketed as an adaptogen; many of the promoted effects, however, have so far only been described in laboratory and animal studies. No serious side effects are known; caution applies when taken alongside blood thinners."
+    "de": "Cordyceps militaris ist ein orangeroter Schlauchpilz aus der Familie der Kernkeulenverwandten. Er lebt parasitisch: Seine Sporen befallen Schmetterlingspuppen und -raupen im Boden, durchwachsen sie und treiben im Spätsommer die keulenförmigen, ein bis fünf Zentimeter hohen Fruchtkörper aus dem Waldboden. Wer einen findet und vorsichtig gräbt, stößt darunter auf die ausgefüllte Puppenhülle — daher der deutsche Name. In Mitteleuropa ist die Art selten und steht mancherorts auf Roten Listen; die Ware im Handel stammt praktisch vollständig aus Kultur auf Reis- oder Insektensubstrat. Nicht zu verwechseln ist sie mit dem tibetischen Raupenpilz Ophiocordyceps sinensis, der weit teurer und eine andere Art ist. Zu den kennzeichnenden Inhaltsstoffen zählen Cordycepin, Adenosin und Polysaccharide. In der traditionellen chinesischen Medizin gilt der Pilz als kräftigendes Mittel und wird heute als Adaptogen vermarktet; viele beworbene Wirkungen sind bislang nur in Labor- und Tierversuchen beschrieben. Schwere Nebenwirkungen sind nicht bekannt; Vorsicht gilt bei Blutverdünnern.",
+    "en": "Cordyceps militaris is an orange-red sac fungus of the Cordycipitaceae. It lives as a parasite: its spores infect moth pupae and caterpillars in the soil, grow through them and in late summer push the club-shaped fruiting bodies, one to five centimetres tall, out of the forest floor. Anyone who finds one and digs carefully will strike the filled pupal case beneath it. In Central Europe the species is rare and locally red-listed; material on the market comes almost entirely from cultivation on rice or insect substrate. It should not be confused with the Tibetan caterpillar fungus Ophiocordyceps sinensis, which is far more expensive and a different species. Its signature constituents include cordycepin, adenosine and polysaccharides. In traditional Chinese medicine the fungus is valued as a strengthening remedy and is now marketed as an adaptogen; many of the promoted effects have so far only been described in laboratory and animal studies. No serious side effects are known; caution applies with blood thinners."
   },
   "uses": [
     {
@@ -27,18 +27,39 @@
       "evidence_level": "traditional",
       "source_ids": ["msk", "sciencedirect"],
       "description": {
-        "de": "Traditionell in der chinesischen Medizin als kräftigendes Tonikum bei Erschöpfung und Husten sowie zur Unterstützung von Lungen- und Nierenfunktion verwendet.",
-        "en": "Traditionally used in Chinese medicine as a tonic for fatigue and cough and to support lung and kidney function."
+        "de": "Traditionell in der chinesischen Medizin als kräftigendes Tonikum bei Erschöpfung und Husten sowie zur Unterstützung von Lungen- und Nierenfunktion verwendet. Üblich ist ein längeres Auskochen der getrockneten Fruchtkörper, oft zusammen mit anderen Zutaten in einer Suppe.",
+        "en": "Traditionally used in Chinese medicine as a tonic for fatigue and cough and to support lung and kidney function. The customary preparation is a long simmer of the dried fruiting bodies, often together with other ingredients in a soup."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "Etwa 3 g getrocknete Fruchtkörper mit 500 ml Wasser ansetzen und 30 bis 45 Minuten leise köcheln. Der Sud ist blassorange und schmeckt mild-pilzig.",
+          "en": "Put about 3 g of dried fruiting bodies into 500 ml of water and simmer gently for 30 to 45 minutes. The brew is pale orange and tastes mildly mushroomy."
+        },
+        "amount_dry_g": { "min": 2, "max": 3 },
+        "water_ml": 500,
+        "doses_per_day": 1
       }
     },
     {
       "form": "tea",
       "target": ["stress resilience (research)", "physical performance (research)"],
       "internal_external": "internal",
+      "evidence_level": "clinical_trial",
       "source_ids": ["msk", "pmc_constituents"],
       "description": {
-        "de": "Wird als Adaptogen vermarktet, das die Stressresistenz erhöhen und Müdigkeit verringern soll. Studien zur körperlichen Leistung beim Menschen sind widersprüchlich und nicht überzeugend; der Inhaltsstoff Cordycepin zeigte in Labor- und Tierstudien immunmodulierende Effekte ohne belegten Nutzen beim Menschen.",
-        "en": "Marketed as an adaptogen claimed to improve stress resilience and reduce fatigue. Human exercise-performance studies are inconsistent and inconclusive; the constituent cordycepin has shown immunomodulatory effects in lab and animal studies without proven benefit in humans."
+        "de": "Wird als Adaptogen vermarktet, das die Stressresistenz erhöhen und Müdigkeit verringern soll. Studien zur körperlichen Leistung beim Menschen sind widersprüchlich und nicht überzeugend; der Inhaltsstoff Cordycepin zeigte in Labor- und Tierstudien immunmodulierende Effekte ohne belegten Nutzen beim Menschen. Was in einem Präparat tatsächlich enthalten ist, schwankt erheblich — viele Produkte bestehen aus durchwachsenem Getreidesubstrat statt aus Fruchtkörpern, mit entsprechend geringerem Cordycepin-Gehalt.",
+        "en": "Marketed as an adaptogen claimed to improve stress resilience and reduce fatigue. Human exercise-performance studies are inconsistent and inconclusive; the constituent cordycepin has shown immunomodulatory effects in lab and animal studies without proven benefit in humans. What a given supplement actually contains varies considerably — many products consist of colonised grain substrate rather than fruiting bodies, with correspondingly less cordycepin."
+      }
+    },
+    {
+      "form": "raw",
+      "target": ["cultivation", "food"],
+      "internal_external": "internal",
+      "evidence_level": "traditional",
+      "source_ids": ["sciencedirect"],
+      "description": {
+        "de": "Anders als der tibetische Raupenpilz lässt sich Cordyceps militaris kultivieren — auf gekochtem Reis mit Nährzusatz, im Glas bei Licht. Genau das hat den Pilz vom Sammlerstück zur Handelsware gemacht und die Forschung überhaupt erst möglich gemacht. Die kultivierten Fruchtkörper sind leuchtend orange und werden ganz getrocknet.",
+        "en": "Unlike the Tibetan caterpillar fungus, Cordyceps militaris can be cultivated — on cooked rice with added nutrients, in jars under light. That is exactly what turned it from a collector's find into a traded commodity and made research on it possible in the first place. The cultivated fruiting bodies are bright orange and are dried whole."
       }
     }
   ],
@@ -49,18 +70,115 @@
       "en": "Fruiting body"
     }
   },
+  "harvest": [
+    {
+      "plant_part": "whole_plant",
+      "best_months": [8, 9, 10],
+      "time_of_day": {
+        "de": "Wildvorkommen sind selten und mancherorts geschützt — im Zweifel stehen lassen und nur fotografieren. Aus eigener Kultur wird geerntet, wenn die Keulen ausgewachsen sind und sich die Spitzen zu vergrößern beginnen, aber noch keine Sporen abgegeben haben.",
+        "en": "Wild occurrences are rare and locally protected — when in doubt leave them standing and only photograph them. From one's own culture, harvest when the clubs are fully grown and their tips begin to swell but have not yet released spores."
+      },
+      "drying": {
+        "de": "Ganze Fruchtkörper bei höchstens 45 °C trocknen. Cordycepin ist wärmeempfindlich — höhere Temperaturen kosten genau den Stoff, um den es geht.",
+        "en": "Dry whole fruiting bodies at no more than 45 °C. Cordycepin is heat-sensitive — higher temperatures cost exactly the compound in question."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht, dunkel und kühl. Licht bleicht die orange Farbe aus; das ist ein sichtbares Zeichen für zu lange oder zu helle Lagerung.",
+        "en": "Airtight, dark and cool. Light bleaches out the orange colour, which is a visible sign of storage that was too long or too bright."
+      }
+    }
+  ],
   "safety": {
     "external_only": false,
     "toxicity_level": "caution",
     "warnings": {
-      "de": "Es sind keine schweren Nebenwirkungen bekannt. Vorsicht bei Blutverdünnern (möglicherweise erhöhtes Blutungsrisiko) und bei blutzuckersenkenden Medikamenten oder Insulin (Cordyceps kann den Blutzucker senken). In Schwangerschaft, Stillzeit oder bei bestehenden Erkrankungen vorher ärztlich abklären.",
-      "en": "No major side effects are reported. Use caution with blood thinners (possible increased bleeding risk) and with blood-sugar-lowering drugs or insulin (cordyceps may lower blood glucose). Consult a doctor before use during pregnancy, breastfeeding or with existing conditions."
-    }
+      "de": "Es sind keine schweren Nebenwirkungen bekannt. Vorsicht bei Blutverdünnern (möglicherweise erhöhtes Blutungsrisiko) und bei blutzuckersenkenden Medikamenten oder Insulin (Cordyceps kann den Blutzucker senken). In Schwangerschaft, Stillzeit oder bei bestehenden Erkrankungen vorher ärztlich abklären. Nahrungsergänzungsmittel unterliegen keiner Zulassung: Gehalt und Reinheit schwanken, und die Angabe auf der Packung sagt wenig darüber, wie viel Fruchtkörper tatsächlich drin ist.",
+      "en": "No major side effects are reported. Use caution with blood thinners (possible increased bleeding risk) and with blood-sugar-lowering drugs or insulin (cordyceps may lower blood glucose). Consult a doctor before use during pregnancy, breastfeeding or with existing conditions. Food supplements are not subject to approval: content and purity vary, and the label says little about how much actual fruiting body is inside."
+    },
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Es liegen keine Sicherheitsdaten vor. Ohne Daten ist von der Einnahme abzuraten.",
+        "en": "No safety data are available. Without data, use is inadvisable."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Ebenfalls keine Daten zur Stillzeit.",
+        "en": "Likewise no data for breastfeeding."
+      }
+    },
+    "children": {
+      "status": "unknown",
+      "note": {
+        "de": "Bei Kindern nicht untersucht.",
+        "en": "Not studied in children."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Gerinnungshemmer und Thrombozytenhemmer",
+        "severity": "caution",
+        "mechanism": {
+          "de": "Für Cordyceps wird ein erhöhtes Blutungsrisiko in Kombination mit Blutverdünnern beschrieben. Vor Operationen absetzen und ärztlich ansprechen.",
+          "en": "An increased bleeding risk in combination with blood thinners is described for cordyceps. Stop before surgery and mention it to your doctor."
+        }
+      },
+      {
+        "drug_class": "Blutzuckersenkende Mittel (Insulin, orale Antidiabetika)",
+        "severity": "monitor",
+        "mechanism": {
+          "de": "Cordyceps kann den Blutzucker senken. Zusammen mit einer Diabetes-Behandlung ist eine Unterzuckerung möglich.",
+          "en": "Cordyceps can lower blood sugar. Together with diabetes treatment, hypoglycaemia is possible."
+        }
+      },
+      {
+        "drug_class": "Immunsuppressiva",
+        "severity": "avoid",
+        "mechanism": {
+          "de": "Den Polysacchariden wird eine anregende Wirkung auf das Immunsystem zugeschrieben — das kann einer gewollten Unterdrückung entgegenlaufen.",
+          "en": "The polysaccharides are credited with a stimulating effect on the immune system — which can run counter to a deliberate suppression."
+        }
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Bevorstehende Operationen — wegen des möglichen Blutungsrisikos rechtzeitig absetzen.",
+        "en": "Upcoming surgery — stop in good time because of the possible bleeding risk."
+      },
+      {
+        "de": "Laufende Immunsuppression, etwa nach Transplantation.",
+        "en": "Ongoing immunosuppression, for example after a transplant."
+      },
+      {
+        "de": "Bekannte Schimmelpilz- oder Sporenallergie.",
+        "en": "Known mould or spore allergy."
+      }
+    ]
   },
   "constituents": [
-    { "name": "Cordycepin", "category": "other" },
-    { "name": "Polysaccharide", "category": "polysaccharide" },
-    { "name": "Adenosin", "category": "other" }
+    {
+      "name": "Cordycepin (3′-Desoxyadenosin)",
+      "category": "other",
+      "note": {
+        "de": "Kennzeichnender Wirkstoff, dem Adenosin sehr ähnlich. Wärmeempfindlich, und der Gehalt schwankt zwischen Fruchtkörper und Myzel erheblich.",
+        "en": "The signature compound, closely resembling adenosine. Heat-sensitive, and its content differs considerably between fruiting body and mycelium."
+      }
+    },
+    { "name": "Polysaccharide und Beta-Glucane", "category": "polysaccharide" },
+    { "name": "Adenosin", "category": "other" },
+    {
+      "name": "Carotinoide (Cordyxanthin)",
+      "category": "other",
+      "note": {
+        "de": "Farbstoffe, die dem Pilz sein Orangerot geben; sie bleichen bei Lichteinwirkung aus.",
+        "en": "The pigments that give the fungus its orange-red colour; they bleach out on exposure to light."
+      }
+    },
+    { "name": "Ergosterol (Provitamin D2)", "category": "other" },
+    { "name": "Mannitol (Cordycepinsäure)", "category": "other" }
   ],
   "classical_quotes": [],
   "image": {

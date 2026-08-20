@@ -16,8 +16,8 @@
     "en": "Evergreen shrub whose leaves yield green, black and white tea."
   },
   "description": {
-    "de": "Der Teestrauch ist ein immergrüner Strauch oder kleiner Baum aus der Familie der Teestrauchgewächse, ursprünglich aus dem südostasiatischen Raum. Aus seinen ledrigen, gesägten Blättern stammen alle echten Teesorten — grüner, weißer, Oolong- und schwarzer Tee. Die Unterschiede entstehen nicht durch verschiedene Pflanzen, sondern allein durch die Verarbeitung, vor allem den Grad der Oxidation der Blätter. Geerntet werden die jungen Triebe über die warme Jahreshälfte (April bis September). Die Blätter enthalten Koffein, die Aminosäure L-Theanin sowie Polyphenole, allen voran die Catechine mit dem viel untersuchten EGCG. Als Getränk gilt Tee für Erwachsene als unbedenklich; das Koffein kann jedoch Schlaf, Herzschlag und Blutdruck beeinflussen.",
-    "en": "The tea plant is an evergreen shrub or small tree of the tea family, originally from South-East Asia. Its leathery, serrated leaves are the source of every true tea — green, white, oolong and black. The differences come not from different plants but purely from processing, above all how far the leaves are oxidised. The young shoots are picked across the warmer half of the year (April to September). The leaves contain caffeine, the amino acid L-theanine and polyphenols — chiefly the catechins, including the much-studied EGCG. As a beverage, tea is considered safe for adults, though its caffeine can affect sleep, heart rate and blood pressure."
+    "de": "Der Teestrauch ist ein immergrüner Strauch oder kleiner Baum aus der Familie der Teestrauchgewächse, ursprünglich aus dem Grenzgebiet zwischen Südwestchina, Nordostindien und Myanmar. Sich selbst überlassen würde er mehrere Meter hoch werden; auf den Plantagen hält man ihn durch Schnitt auf Hüfthöhe, damit die jungen Triebe von Hand gepflückt werden können. Geerntet wird meist nur die Knospe mit den zwei folgenden Blättern. Aus seinen ledrigen, gesägten Blättern stammen alle echten Teesorten — grüner, weißer, Oolong- und schwarzer Tee. Die Unterschiede entstehen nicht durch verschiedene Pflanzen, sondern allein durch die Verarbeitung: Grüner Tee wird gleich nach der Ernte erhitzt, damit die Blattenzyme abgetötet werden; schwarzer Tee darf vorher durchoxidieren, wovon er Farbe und Malzton bekommt; Oolong liegt dazwischen. Die Blätter enthalten Koffein, die Aminosäure L-Theanin sowie Polyphenole, allen voran die Catechine mit dem viel untersuchten EGCG. Als Getränk gilt Tee für Erwachsene als unbedenklich. Bei konzentrierten Grüntee-Extrakten sieht es anders aus — dazu steht Genaueres im Sicherheits-Abschnitt.",
+    "en": "The tea plant is an evergreen shrub or small tree of the tea family, originally from the border region between south-west China, north-east India and Myanmar. Left alone it would grow several metres tall; on plantations pruning keeps it at waist height so the young shoots can be picked by hand. Usually only the bud and the two following leaves are taken. Its leathery, serrated leaves are the source of every true tea — green, white, oolong and black. The differences come not from different plants but purely from processing: green tea is heated right after picking so the leaf enzymes are killed off; black tea is allowed to oxidise first, which gives it its colour and malty note; oolong sits in between. The leaves contain caffeine, the amino acid L-theanine and polyphenols — chiefly the catechins, including the much-studied EGCG. As a beverage, tea is considered safe for adults. Concentrated green tea extracts are a different matter — see the safety section for details."
   },
   "uses": [
     {
@@ -28,8 +28,16 @@
       "evidence_level": "traditional",
       "source_ids": ["review", "iron"],
       "description": {
-        "de": "Tee enthält Koffein und wirkt anregend; er wird traditionell als Genuss- und Wachmacher-Getränk getrunken.",
-        "en": "Tea contains caffeine and has a stimulating effect; it is traditionally consumed as a beverage for enjoyment and alertness."
+        "de": "Tee enthält Koffein und wirkt anregend; er wird traditionell als Genuss- und Wachmacher-Getränk getrunken. Das L-Theanin im Blatt dämpft die Koffeinwirkung etwas ab — deshalb wird sie oft als ruhiger empfunden als beim Kaffee. Wie viel Koffein in die Tasse gelangt, hängt stark von Ziehzeit und Wassertemperatur ab.",
+        "en": "Tea contains caffeine and has a stimulating effect; it is traditionally consumed as a beverage for enjoyment and alertness. The L-theanine in the leaf softens the caffeine effect somewhat — which is why it is often felt as calmer than coffee. How much caffeine ends up in the cup depends strongly on steeping time and water temperature."
+      },
+      "preparation": {
+        "instructions": {
+          "de": "Grüner Tee verträgt kein kochendes Wasser: 70–80 °C, ein bis drei Minuten. Zu heiß oder zu lange, und die Gerbstoffe machen ihn bitter. Schwarzer Tee dagegen mit kochendem Wasser, drei bis fünf Minuten.",
+          "en": "Green tea does not take boiling water: 70–80 °C, one to three minutes. Too hot or too long and the tannins turn it bitter. Black tea, by contrast, with boiling water, three to five minutes."
+        },
+        "water_ml": 250,
+        "doses_per_day": 4
       }
     },
     {
@@ -37,10 +45,23 @@
       "target": ["cholesterol (research)", "antioxidants (lab)"],
       "internal_external": "internal",
       "plant_part": "leaf",
+      "evidence_level": "clinical_trial",
       "source_ids": ["nccih", "review"],
       "description": {
-        "de": "Die Blätter sind reich an Catechinen (v. a. EGCG) mit antioxidativen Eigenschaften im Labor. Studien deuten auf eine bescheidene Senkung von Cholesterin hin; ein gesicherter gesundheitlicher Nutzen beim Menschen ist nicht belegt.",
-        "en": "The leaves are rich in catechins (especially EGCG) with antioxidant properties in the lab. Studies suggest a modest reduction in cholesterol; a proven health benefit in humans is not established."
+        "de": "Die Blätter sind reich an Catechinen (v. a. EGCG) mit antioxidativen Eigenschaften im Labor. Studien deuten auf eine bescheidene Senkung von Cholesterin hin; ein gesicherter gesundheitlicher Nutzen beim Menschen ist nicht belegt. Das amerikanische NCCIH fasst die Lage so zusammen, dass für keine Erkrankung ein gesicherter Nutzen von Grüntee nachgewiesen ist — was im Labor überzeugt, hält beim Menschen bisher nicht Schritt.",
+        "en": "The leaves are rich in catechins (especially EGCG) with antioxidant properties in the lab. Studies suggest a modest reduction in cholesterol; a proven health benefit in humans is not established. The US NCCIH sums up the position as there being no established benefit of green tea for any disease — what convinces in the lab has so far not kept pace in humans."
+      }
+    },
+    {
+      "form": "tea",
+      "target": ["iron absorption (research)"],
+      "internal_external": "internal",
+      "plant_part": "leaf",
+      "evidence_level": "clinical_trial",
+      "source_ids": ["iron"],
+      "description": {
+        "de": "Die Polyphenole im Tee binden pflanzliches Eisen im Darm und verringern dessen Aufnahme erheblich — ein Effekt, der beim Menschen gut gemessen ist. Für die meisten ist das ohne Belang; bei Eisenmangel, in der Schwangerschaft oder bei vegetarischer Ernährung lohnt es sich, Tee mit ein bis zwei Stunden Abstand zur Mahlzeit zu trinken. Vitamin C zum Essen wirkt in die Gegenrichtung.",
+        "en": "The polyphenols in tea bind plant iron in the gut and considerably reduce its absorption — an effect well measured in humans. For most people this is irrelevant; with iron deficiency, in pregnancy or on a vegetarian diet it is worth drinking tea one to two hours away from meals. Vitamin C with the meal works in the opposite direction."
       }
     }
   ],
@@ -48,19 +69,131 @@
     "active_months": [4, 5, 6, 7, 8, 9],
     "harvest_part": { "de": "Blätter", "en": "Leaves" }
   },
+  "harvest": [
+    {
+      "plant_part": "leaf",
+      "best_months": [4, 5, 6, 7, 8, 9],
+      "time_of_day": {
+        "de": "Gepflückt wird die Knospe mit den zwei folgenden Blättern, am frühen Vormittag. Der erste Austrieb im Frühjahr gilt als der feinste; danach treibt der Strauch alle ein bis zwei Wochen nach.",
+        "en": "The bud with the two following leaves is picked, in the early morning. The first flush in spring is considered the finest; after that the shrub pushes out new growth every one to two weeks."
+      },
+      "drying": {
+        "de": "Für grünen Tee die Blätter innerhalb weniger Stunden erhitzen — im Wok gerührt oder kurz gedämpft —, damit die Enzyme abgetötet werden; danach rollen und trocknen. Lässt man sie stattdessen welken und rollt sie erst dann, oxidieren sie und es entsteht schwarzer Tee.",
+        "en": "For green tea, heat the leaves within a few hours — stirred in a wok or briefly steamed — to kill the enzymes; then roll and dry. If instead they are left to wither and rolled only afterwards, they oxidise and black tea results."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Luftdicht, dunkel, kühl und weit weg von Gewürzen — Tee nimmt fremde Gerüche an. Grüner Tee verliert schneller als schwarzer.",
+        "en": "Airtight, dark, cool and far away from spices — tea takes on foreign smells. Green tea fades faster than black."
+      }
+    }
+  ],
   "safety": {
     "external_only": false,
     "toxicity_level": "caution",
     "warnings": {
-      "de": "Tee als Getränk gilt für Erwachsene als unbedenklich. Das Koffein kann Schlaf, Herzschlag und Blutdruck beeinflussen; in Schwangerschaft und Stillzeit Koffein begrenzen. Tee zu den Mahlzeiten hemmt die Aufnahme von pflanzlichem Eisen deutlich — bei Eisenmangel mit Abstand zu eisenreichen Mahlzeiten trinken. Konzentrierte Grüntee-Extrakte (Kapseln) wurden mit seltenen Leberschäden in Verbindung gebracht; die EU begrenzt EGCG auf unter 800 mg pro Tag. Grüntee kann die Wirkung einiger Medikamente verändern.",
-      "en": "Tea as a beverage is considered safe for adults. Its caffeine can affect sleep, heart rate and blood pressure; limit caffeine during pregnancy and breastfeeding. Tea with meals markedly inhibits absorption of plant iron — if iron-deficient, drink it away from iron-rich meals. Concentrated green tea extracts (capsules) have been linked to rare liver injury; the EU limits EGCG to under 800 mg per day. Green tea may alter the effect of some medicines."
-    }
+      "de": "Tee als Getränk gilt für Erwachsene als unbedenklich. Das Koffein kann Schlaf, Herzschlag und Blutdruck beeinflussen; in Schwangerschaft und Stillzeit Koffein begrenzen. Tee zu den Mahlzeiten hemmt die Aufnahme von pflanzlichem Eisen deutlich — bei Eisenmangel mit Abstand zu eisenreichen Mahlzeiten trinken. Konzentrierte Grüntee-Extrakte (Kapseln) wurden mit seltenen, aber schweren Leberschäden in Verbindung gebracht; die EU begrenzt EGCG auf unter 800 mg pro Tag. Grüntee kann die Wirkung einiger Medikamente verändern.",
+      "en": "Tea as a beverage is considered safe for adults. Its caffeine can affect sleep, heart rate and blood pressure; limit caffeine during pregnancy and breastfeeding. Tea with meals markedly inhibits absorption of plant iron — if iron-deficient, drink it away from iron-rich meals. Concentrated green tea extracts (capsules) have been linked to rare but serious liver injury; the EU limits EGCG to under 800 mg per day. Green tea may alter the effect of some medicines."
+    },
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Als Getränk in Maßen üblich, aber das Koffein zählt zur Tagesmenge dazu. Zusätzlich hemmt Tee die Eisenaufnahme, was in der Schwangerschaft eher ungünstig ist — Abstand zur Mahlzeit halten. Grüntee-Extrakte in Kapselform sind nicht angebracht.",
+        "en": "Customary as a beverage in moderation, but the caffeine counts towards the daily total. Tea also inhibits iron absorption, which is unhelpful in pregnancy — keep a gap from meals. Green tea extracts in capsule form are not appropriate."
+      }
+    },
+    "lactation": {
+      "status": "caution",
+      "note": {
+        "de": "Koffein geht in die Muttermilch über; Säuglinge bauen es deutlich langsamer ab als Erwachsene. Wenige Tassen über den Tag verteilt gelten als vertretbar, größere Mengen können das Kind unruhig machen.",
+        "en": "Caffeine passes into breast milk, and infants break it down far more slowly than adults. A few cups spread over the day are considered acceptable; larger amounts can make the baby restless."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Wegen des Koffeins und der gehemmten Eisenaufnahme für kleine Kinder nicht als Alltagsgetränk geeignet. Grüntee-Extrakte gehören gar nicht in Kinderhand.",
+        "en": "Because of the caffeine and the inhibited iron absorption, not suitable as an everyday drink for small children. Green tea extracts do not belong in children's hands at all."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Eisenpräparate",
+        "severity": "caution",
+        "mechanism": {
+          "de": "Die Polyphenole binden Eisen im Darm und verringern die Aufnahme deutlich. Eisentabletten und Tee mindestens ein bis zwei Stunden auseinander einnehmen.",
+          "en": "The polyphenols bind iron in the gut and markedly reduce absorption. Take iron tablets and tea at least one to two hours apart."
+        }
+      },
+      {
+        "drug_class": "Gerinnungshemmer vom Cumarin-Typ (Warfarin, Phenprocoumon)",
+        "severity": "caution",
+        "mechanism": {
+          "de": "Grüntee enthält Vitamin K, das die Wirkung dieser Mittel abschwächen kann. Nicht die gelegentliche Tasse ist das Problem, sondern eine plötzliche Änderung der täglichen Menge.",
+          "en": "Green tea contains vitamin K, which can weaken the effect of these agents. The occasional cup is not the problem — a sudden change in the daily amount is."
+        }
+      },
+      {
+        "drug_class": "Leberbelastende Arzneimittel und Grüntee-Extrakte",
+        "severity": "avoid",
+        "mechanism": {
+          "de": "Bei hochdosierten Extrakten ist Leberschaden dokumentiert. Zusammen mit leberbelastenden Medikamenten oder Alkohol ist von solchen Präparaten abzuraten.",
+          "en": "Liver injury is documented for high-dose extracts. Together with liver-burdening medicines or alcohol, such supplements are inadvisable."
+        }
+      },
+      {
+        "drug_class": "Koffeinhaltige Mittel und Stimulanzien",
+        "severity": "monitor",
+        "mechanism": {
+          "de": "Das Koffein aus dem Tee addiert sich zu anderen Quellen — Herzklopfen, Unruhe und Schlafstörungen können die Folge sein.",
+          "en": "The caffeine from tea adds to other sources — palpitations, restlessness and sleep problems can follow."
+        }
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Hochdosierte Grüntee-Extrakte bei bestehender Lebererkrankung. Die Leberschädigung tritt idiosynkratisch auf — sie hängt weniger von der Menge als von der eigenen Veranlagung ab, tritt meist innerhalb von ein bis sechs Monaten auf und verläuft wie eine akute Hepatitis. In einer Untersuchungsreihe waren 35 % der Fälle schwer, 8 % brauchten eine Lebertransplantation. Das reine Teetrinken ist davon nicht betroffen.",
+        "en": "High-dose green tea extracts with existing liver disease. The liver injury is idiosyncratic — it depends less on the amount than on individual predisposition, usually appears within one to six months and runs like an acute hepatitis. In one case series 35 % of cases were severe and 8 % required a liver transplant. Drinking tea itself is not affected by this."
+      },
+      {
+        "de": "Ausgeprägter Eisenmangel — dann Tee nur mit deutlichem Abstand zu den Mahlzeiten.",
+        "en": "Marked iron deficiency — in that case drink tea only well away from meals."
+      }
+    ]
   },
   "constituents": [
-    { "name": "Koffein", "category": "alkaloid" },
-    { "name": "Catechine (EGCG)", "category": "flavonoid" },
-    { "name": "L-Theanin", "category": "other" },
-    { "name": "Tannine", "category": "tannin" }
+    {
+      "name": "Koffein",
+      "category": "alkaloid",
+      "plant_part": "leaf",
+      "percent_range": "2–4 %",
+      "note": {
+        "de": "In der Knospe am höchsten, in älteren Blättern geringer.",
+        "en": "Highest in the bud, lower in older leaves."
+      }
+    },
+    {
+      "name": "Catechine (EGCG, EGC, ECG)",
+      "category": "flavonoid",
+      "plant_part": "leaf",
+      "note": {
+        "de": "In grünem Tee erhalten, in schwarzem durch die Oxidation weitgehend zu Theaflavinen umgewandelt. EGCG ist zugleich der Stoff, der bei Extrakten die Leber belasten kann.",
+        "en": "Preserved in green tea; in black tea largely converted to theaflavins by oxidation. EGCG is also the compound that can burden the liver in extracts."
+      }
+    },
+    {
+      "name": "L-Theanin",
+      "category": "other",
+      "plant_part": "leaf",
+      "note": {
+        "de": "Aminosäure, die für den umami-artigen Geschmack sorgt und die Koffeinwirkung abmildert.",
+        "en": "An amino acid responsible for the umami-like taste that softens the caffeine effect."
+      }
+    },
+    { "name": "Theaflavine und Thearubigine", "category": "tannin", "plant_part": "leaf", "note": { "de": "Entstehen erst bei der Oxidation — sie machen schwarzen Tee dunkel und mild.", "en": "Formed only during oxidation — they make black tea dark and mellow." } },
+    { "name": "Tannine (Gerbstoffe)", "category": "tannin", "plant_part": "leaf" },
+    { "name": "Fluorid", "category": "mineral", "plant_part": "leaf" },
+    { "name": "Vitamin K", "category": "vitamin", "plant_part": "leaf" }
   ],
   "classical_quotes": [],
   "image": {
@@ -76,7 +209,7 @@
   "sources": [
     { "id": "review", "type": "monograph", "title": "A Comprehensive Insight on the Health Benefits and Phytoconstituents of Camellia sinensis (Antioxidants 2019, PMC6826564)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6826564/", "accessed": "2026-06-23" },
     { "id": "nccih", "type": "monograph", "title": "Green Tea — NCCIH (NIH)", "url": "https://www.nccih.nih.gov/health/green-tea", "accessed": "2026-06-23" },
-    { "id": "livertox", "type": "monograph", "title": "Green Tea — LiverTox (NIH, NBK547925)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK547925/", "accessed": "2026-06-23" },
+    { "id": "livertox", "type": "monograph", "title": "Green Tea — LiverTox (NIH, NBK547925)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK547925/", "accessed": "2026-08-20" },
     { "id": "iron", "type": "monograph", "title": "Inhibition of non-haem iron absorption in man by polyphenolic-containing beverages (British Journal of Nutrition)", "url": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/5CFF5FF58F6CBA86D3646981A7DF0418", "accessed": "2026-06-23" },
     { "id": "commons_img", "type": "commons", "title": "File:Csinensis.jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Csinensis.jpg", "accessed": "2026-06-23" }
   ]

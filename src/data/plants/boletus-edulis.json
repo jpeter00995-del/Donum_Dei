@@ -12,8 +12,8 @@
     "latin": "Boletaceae"
   },
   "description": {
-    "de": "Der Steinpilz gilt als einer der begehrtesten Speisepilze Europas. Sein fester, kräftig-nussiger Fruchtkörper mit dem braunen Hut und dem bauchigen, hell genetzten Stiel wird von Sommer bis Spätherbst in Nadel- und Laubwäldern gesucht — frisch wie getrocknet geschätzt. Er liefert Eiweiß, Beta-Glucane, das Antioxidans Ergothionein und Ergosterol (eine Vorstufe von Vitamin D). Vor dem Verzehr sollte er stets durchgegart werden. Beim Sammeln besteht Verwechslungsgefahr mit dem ungiftigen, aber bitteren Gallenröhrling, der ein Gericht ungenießbar machen kann.",
-    "en": "The porcini is regarded as one of Europe's most prized edible mushrooms. Its firm, richly nutty fruiting body, with a brown cap and a bulbous, pale-netted stem, is sought from summer to late autumn in coniferous and broadleaf woodland — valued both fresh and dried. It provides protein, beta-glucans, the antioxidant ergothioneine and ergosterol (a vitamin D precursor). It should always be cooked through before eating. When foraging, it can be confused with the non-toxic but bitter bitter bolete, which can ruin a dish."
+    "de": "Der Steinpilz gilt als einer der begehrtesten Speisepilze Europas. Sein fester, kräftig-nussiger Fruchtkörper trägt einen braunen, im Alter semmelfarbenen Hut und einen bauchigen Stiel mit feinem hellem Netz auf hellem Grund — dieses Netz ist das sicherste Erkennungsmerkmal. Statt Lamellen sitzt unter dem Hut eine Röhrenschicht, die jung weiß ist und mit dem Alter gelb bis olivgrün wird; auf Druck verfärbt sie sich nicht blau. Der Steinpilz lebt in Lebensgemeinschaft mit Bäumen — Fichte, Kiefer, Buche und Eiche —, weshalb er sich nicht züchten lässt und jede Ware aus dem Handel gesammelt ist. Gesucht wird er von Sommer bis Spätherbst, frisch wie getrocknet geschätzt. Er liefert Eiweiß, Beta-Glucane, das Antioxidans Ergothionein und Ergosterol, eine Vorstufe von Vitamin D. Vor dem Verzehr sollte er stets durchgegart werden. Beim Sammeln besteht Verwechslungsgefahr mit dem ungiftigen, aber bitteren Gallenröhrling, der ein ganzes Gericht ungenießbar macht.",
+    "en": "The porcini is regarded as one of Europe's most prized edible mushrooms. Its firm, richly nutty fruiting body carries a brown cap — bun-coloured when older — and a bulbous stem with a fine pale net on a pale ground; that netting is the most reliable identifying feature. Instead of gills, a layer of tubes sits under the cap, white when young and turning yellow to olive with age; it does not bruise blue. The porcini lives in partnership with trees — spruce, pine, beech and oak — which is why it cannot be farmed and every specimen on the market has been gathered. It is sought from summer to late autumn and valued both fresh and dried. It provides protein, beta-glucans, the antioxidant ergothioneine and ergosterol, a vitamin D precursor. It should always be cooked through before eating. When foraging it can be confused with the non-toxic but bitter bitter bolete, which ruins an entire dish."
   },
   "teaser": {
     "de": "Der König der Speisepilze – fest, nussig und gleichermaßen frisch wie getrocknet geschätzt.",
@@ -25,8 +25,8 @@
       "target": ["culinary", "nutrition"],
       "internal_external": "internal",
       "description": {
-        "de": "Junge, feste Fruchtkörper werden gebraten, gedünstet oder geschmort und sind eine eiweißreiche Zutat für Risotto, Pasta und Suppen. Vor dem Verzehr stets durchgaren.",
-        "en": "Young, firm fruiting bodies are sautéed, stewed or braised and make a protein-rich ingredient in risotto, pasta and soups. Always cook thoroughly before eating."
+        "de": "Junge, feste Fruchtkörper werden gebraten, gedünstet oder geschmort und sind eine eiweißreiche Zutat für Risotto, Pasta und Suppen. Vor dem Verzehr stets durchgaren. Nicht waschen, sondern mit Pinsel und Messer putzen — der Pilz saugt sich sonst voll und lässt sich nicht mehr braten.",
+        "en": "Young, firm fruiting bodies are sautéed, stewed or braised and make a protein-rich ingredient in risotto, pasta and soups. Always cook thoroughly before eating. Do not wash them — clean with a brush and knife, or the mushroom soaks up water and will no longer fry."
       },
       "source_ids": ["wp_en", "wp_de"],
       "plant_part": "whole_plant",
@@ -37,12 +37,24 @@
       "target": ["culinary", "nutrition"],
       "internal_external": "internal",
       "description": {
-        "de": "Getrocknete und gemahlene Steinpilze ergeben ein intensiv-aromatisches Würzpulver für Saucen, Brühen und Eintöpfe; das Aroma verstärkt sich beim Trocknen.",
-        "en": "Dried and ground porcini yield an intensely aromatic seasoning powder for sauces, stocks and stews; the flavour intensifies on drying."
+        "de": "Getrocknete und gemahlene Steinpilze ergeben ein intensiv-aromatisches Würzpulver für Saucen, Brühen und Eintöpfe; das Aroma verstärkt sich beim Trocknen. Das Einweichwasser nicht wegschütten — darin steckt ein großer Teil des Geschmacks; nur den Bodensatz zurücklassen.",
+        "en": "Dried and ground porcini yield an intensely aromatic seasoning powder for sauces, stocks and stews; the flavour intensifies on drying. Do not throw away the soaking water — much of the flavour is in it; just leave the sediment behind."
       },
       "source_ids": ["wp_en", "wp_de"],
       "plant_part": "whole_plant",
       "evidence_level": "traditional"
+    },
+    {
+      "form": "raw",
+      "target": ["vitamin D (research)"],
+      "internal_external": "internal",
+      "description": {
+        "de": "Pilze enthalten Ergosterol, das unter UV-Licht in Vitamin D2 übergeht. Getrocknete Pilze, die in der Sonne gelegen haben, enthalten dadurch mehr davon als frische aus dem dunklen Wald. Wie viel davon beim Menschen ankommt, ist nicht abschließend geklärt — als alleinige Vitamin-D-Quelle taugt der Pilz nicht.",
+        "en": "Mushrooms contain ergosterol, which converts to vitamin D2 under UV light. Dried mushrooms that have lain in the sun therefore contain more of it than fresh ones from the dark forest. How much of this reaches the human body is not fully settled — the mushroom is no substitute for a proper vitamin D source."
+      },
+      "source_ids": ["wp_en"],
+      "plant_part": "whole_plant",
+      "evidence_level": "folk"
     }
   ],
   "season": {
@@ -52,14 +64,64 @@
       "en": "fruiting body"
     }
   },
+  "harvest": [
+    {
+      "plant_part": "whole_plant",
+      "best_months": [8, 9, 10],
+      "time_of_day": {
+        "de": "Am frühen Morgen, ein bis zwei Wochen nach einem ausgiebigen Regen bei noch warmem Boden. Den Pilz herausdrehen oder am Grund abschneiden und das Loch zudecken. Nur junge, feste Exemplare mitnehmen — alte sind oft madig, und der Hut zerfällt beim Braten.",
+        "en": "In the early morning, one to two weeks after a good rain while the ground is still warm. Twist the mushroom out or cut it at the base and cover the hole. Take only young, firm specimens — old ones are often maggoty and the cap falls apart in the pan."
+      },
+      "drying": {
+        "de": "In gleichmäßig dünne Scheiben schneiden und bei 40–50 °C trocknen, bis sie brechen statt sich zu biegen. Nicht waschen. Höhere Temperatur macht sie zäh und nimmt das Aroma.",
+        "en": "Cut into evenly thin slices and dry at 40–50 °C until they snap rather than bend. Do not wash them. Higher temperatures make them tough and take the aroma."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknet luftdicht und dunkel; ein Glas mit Schraubdeckel hält Feuchtigkeit und Motten fern. Frische Pilze gehören in einen Korb oder eine Papiertüte, nie in Plastik — darin verderben sie innerhalb eines Tages.",
+        "en": "Store dried mushrooms airtight and dark; a screw-top jar keeps out moisture and moths. Fresh mushrooms belong in a basket or paper bag, never in plastic — in which they spoil within a day."
+      }
+    }
+  ],
   "safety": {
     "warnings": {
-      "de": "Guter Speisepilz; vor dem Verzehr durchgaren. Verwechslungsgefahr beim Sammeln mit dem bitteren Gallenröhrling (Tylopilus felleus: rosa Poren im Alter, dunkles Stielnetz, bitterer Geschmack). Rohe oder überalterte Exemplare können Magen-Darm-Beschwerden verursachen. Pilze können Schwermetalle aus dem Boden anreichern – nur in unbelasteten Gebieten sammeln.",
-      "en": "Good edible; cook before eating. Foraging confusion possible with the bitter bolete (Tylopilus felleus – pink pores when mature, dark stem netting, bitter taste). Raw or over-mature specimens can cause stomach upset. Mushrooms can bioaccumulate heavy metals from soil – collect only in unpolluted areas."
+      "de": "Guter Speisepilz; vor dem Verzehr durchgaren. Verwechslungsgefahr beim Sammeln mit dem bitteren Gallenröhrling (Tylopilus felleus: rosa Poren im Alter, dunkles Stielnetz, bitterer Geschmack). Rohe oder überalterte Exemplare können Magen-Darm-Beschwerden verursachen. Pilze können Schwermetalle und radioaktives Cäsium aus dem Boden anreichern. Das Bundesamt für Strahlenschutz misst in einzelnen Gebieten Süddeutschlands — Bayerischer Wald, Donaumoos, Mittenwald, Berchtesgaden — bei manchen Arten noch immer Werte über dem Handelsgrenzwert von 600 Becquerel Cäsium-137 je Kilogramm; für selbst gesammelte Pilze gilt dieser Grenzwert nicht. Der Steinpilz gehört nicht zu den am stärksten belasteten Arten, ist aber nicht frei davon. Maßvoller Verzehr gilt laut BfS als unbedenklich.",
+      "en": "Good edible; cook before eating. Foraging confusion possible with the bitter bolete (Tylopilus felleus – pink pores when mature, dark stem netting, bitter taste). Raw or over-mature specimens can cause stomach upset. Mushrooms can bioaccumulate heavy metals and radioactive caesium from the soil. Germany's Federal Office for Radiation Protection still measures values above the commercial limit of 600 becquerel caesium-137 per kilogram in some species in parts of southern Germany — the Bavarian Forest, Donaumoos, Mittenwald and Berchtesgaden; that limit does not apply to self-collected mushrooms. The porcini is not among the most heavily affected species but is not free of it either. Moderate consumption is considered harmless according to the BfS."
     },
     "external_only": false,
     "toxicity_level": "none",
-    "pet_toxic": false
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "safe",
+      "note": {
+        "de": "Als durchgegarter Speisepilz unbedenklich. Roh nicht essen — das gilt in der Schwangerschaft besonders.",
+        "en": "Harmless as a thoroughly cooked edible mushroom. Do not eat raw — which matters especially in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "safe",
+      "note": {
+        "de": "Als Speisepilz unbedenklich.",
+        "en": "Harmless as an edible mushroom."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Pilzgerichte sind für kleine Kinder schwer verdaulich; kleine Mengen und gut durchgegart. Sammeln nur unter Aufsicht — die Unterscheidung von Doppelgängern ist nichts für Kinder.",
+        "en": "Mushroom dishes are hard for small children to digest; small amounts and well cooked. Foraging only under supervision — telling lookalikes apart is not a job for children."
+      }
+    },
+    "contraindications": [
+      {
+        "de": "Roher Verzehr — auch essbare Röhrlinge können roh Magen-Darm-Beschwerden auslösen.",
+        "en": "Eating them raw — even edible boletes can cause stomach upset uncooked."
+      },
+      {
+        "de": "Sammeln an Straßenrändern, Industrieflächen und in bekannten Cäsium-Gebieten.",
+        "en": "Foraging along roadsides, on industrial land and in known caesium-affected areas."
+      }
+    ]
   },
   "constituents": [
     {
@@ -93,6 +155,18 @@
         "de": "Pilzsterol (Provitamin D2), das unter UV-Licht in Vitamin D2 umgewandelt werden kann.",
         "en": "Fungal sterol (provitamin D2) that can be converted into vitamin D2 under UV light."
       }
+    },
+    {
+      "name": "Chitin",
+      "category": "other",
+      "note": {
+        "de": "Baustoff der Zellwände; für den Menschen unverdaulich und der Grund, warum Pilze gut gekaut und durchgegart werden sollten.",
+        "en": "The building material of the cell walls; indigestible for humans and the reason mushrooms should be chewed well and cooked through."
+      }
+    },
+    {
+      "name": "Mineralstoffe (Kalium, Selen, Phosphor)",
+      "category": "mineral"
     }
   ],
   "classical_quotes": [],
@@ -117,6 +191,13 @@
       "title": "Boletus edulis (Q165356) – Wikidata",
       "url": "https://www.wikidata.org/wiki/Q165356",
       "accessed": "2026-06-24"
+    },
+    {
+      "id": "bfs",
+      "type": "monograph",
+      "title": "Bundesamt für Strahlenschutz — Radioaktives Cäsium in Wildpilzen: maßvoller Verzehr unbedenklich (Pressemitteilung)",
+      "url": "https://www.bfs.de/SharedDocs/Pressemitteilungen/BfS/DE/2025/012.html",
+      "accessed": "2026-08-20"
     }
   ],
   "image": {

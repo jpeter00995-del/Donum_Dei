@@ -12,8 +12,8 @@
     "latin": "Polyporaceae"
   },
   "description": {
-    "de": "Die Schmetterlingstramete ist ein häufiger, zäher Porling, der in schillernden, konzentrisch gebänderten Fächern an Totholz wächst und ihm seinen Namen „Turkey Tail\" (Truthahnschwanz) gibt. Wegen seiner festen Konsistenz ist er kein Speisepilz, sondern wird als Tee oder Extrakt genutzt. Seine kennzeichnenden Inhaltsstoffe sind die Polysaccharide PSK (Krestin) und PSP sowie Beta-Glucane. In Ostasien wird er in der traditionellen Medizin und begleitend zu Krebstherapien eingesetzt; die Toxizität ist gering.",
-    "en": "Turkey tail is a common, tough bracket fungus that grows in shimmering, concentrically banded fans on dead wood, which gives it its name. Because of its firm texture it is not an edible mushroom but is used as a tea or extract. Its signature constituents are the polysaccharides PSK (krestin) and PSP, along with beta-glucans. In East Asia it is used in traditional medicine and as a companion to cancer therapies; its toxicity is low."
+    "de": "Die Schmetterlingstramete ist ein häufiger, zäher Porling, der in schillernden, konzentrisch gebänderten Fächern an Totholz wächst und ihm seinen englischen Namen „Turkey Tail\" (Truthahnschwanz) gibt. Die Bänder wechseln zwischen braun, grau, blaugrün und ocker, je nach Standort und Witterung — daher der Artname versicolor, der vielfarbige. Sie wächst dachziegelartig in großen Gruppen an Stümpfen und liegenden Stämmen von Laubbäumen und ist bei uns ganzjährig zu finden, da die zähen Fruchtkörper überwintern. Das sicherste Erkennungsmerkmal liegt auf der Unterseite: eine feine weiße Porenschicht. Der ähnlich gefärbte Striegelige Schichtpilz hat dort stattdessen eine glatte Fläche. Wegen ihrer festen Konsistenz ist sie kein Speisepilz, sondern wird als Tee oder Extrakt genutzt. Ihre kennzeichnenden Inhaltsstoffe sind die Polysaccharide PSK (Krestin) und PSP sowie Beta-Glucane. In Ostasien wird sie in der traditionellen Medizin und begleitend zu Krebstherapien eingesetzt; die Toxizität ist gering.",
+    "en": "Turkey tail is a common, tough bracket fungus that grows in shimmering, concentrically banded fans on dead wood, which gives it its name. The bands alternate between brown, grey, blue-green and ochre depending on site and weather — hence the species name versicolor, the many-coloured one. It grows in overlapping tiers in large groups on stumps and fallen broadleaf trunks and can be found year-round, as the tough fruiting bodies overwinter. The most reliable identifying feature is on the underside: a fine white layer of pores. The similarly coloured false turkey tail has a smooth surface there instead. Because of its firm texture it is not an edible mushroom but is used as a tea or extract. Its signature constituents are the polysaccharides PSK (krestin) and PSP, along with beta-glucans. In East Asia it is used in traditional medicine and as a companion to cancer therapies; its toxicity is low."
   },
   "teaser": {
     "de": "Der schillernde Porling vom Totholz, dessen Polysaccharide PSK und PSP in der TCM und als Krebs-Begleittherapie genutzt werden.",
@@ -22,103 +22,173 @@
   "uses": [
     {
       "form": "tea",
-      "target": [
-        "immune support",
-        "general tonic"
-      ],
+      "target": ["immune support", "general tonic"],
       "internal_external": "internal",
       "description": {
-        "de": "Dekokt (langes Auskochen) des getrockneten, zerkleinerten Fruchtkörpers als immunstärkender Tonik-Tee in der traditionellen chinesischen Medizin (Yunzhi).",
-        "en": "Decoction (long simmer) of the dried, chopped fruiting body as an immune-supporting tonic tea in traditional Chinese medicine (Yunzhi)."
+        "de": "Dekokt (langes Auskochen) des getrockneten, zerkleinerten Fruchtkörpers als immunstärkender Tonik-Tee in der traditionellen chinesischen Medizin (Yunzhi). Ein kurzer Aufguss reicht nicht — die Beta-Glucane lösen sich erst beim längeren Kochen aus dem zähen Gewebe. Der Sud schmeckt mild und leicht holzig.",
+        "en": "Decoction (long simmer) of the dried, chopped fruiting body as an immune-supporting tonic tea in traditional Chinese medicine (Yunzhi). A brief infusion is not enough — the beta-glucans only come out of the tough tissue with prolonged simmering. The brew tastes mild and slightly woody."
       },
-      "source_ids": [
-        "src_wikipedia_en",
-        "src_wikipedia_de"
-      ],
+      "source_ids": ["src_wikipedia_en", "src_wikipedia_de"],
       "plant_part": "whole_plant",
-      "evidence_level": "traditional"
+      "evidence_level": "traditional",
+      "preparation": {
+        "instructions": {
+          "de": "Etwa 5 g getrocknete, zerkleinerte Fruchtkörper mit einem Liter Wasser ansetzen und 45 bis 60 Minuten leise köcheln lassen, dann abseihen. Der Sud hält im Kühlschrank zwei bis drei Tage.",
+          "en": "Put about 5 g of dried, chopped fruiting bodies into a litre of water and simmer gently for 45 to 60 minutes, then strain. The brew keeps two to three days in the fridge."
+        },
+        "amount_dry_g": { "min": 3, "max": 5 },
+        "water_ml": 1000,
+        "doses_per_day": 2
+      }
     },
     {
       "form": "raw",
-      "target": [
-        "cancer adjuvant",
-        "immune support"
-      ],
+      "target": ["cancer adjuvant", "immune support"],
       "internal_external": "internal",
       "description": {
-        "de": "Standardisiertes Polysaccharid-Extrakt PSK (Krestin) aus dem Myzel als Pulver/Kapsel; in Japan als begleitende Immunochemotherapie nach kurativer Resektion von Magen- und Darmkrebs zugelassen. Mehrere randomisierte Studien und Metaanalysen zeigen einen Überlebensvorteil.",
-        "en": "Standardised polysaccharide extract PSK (krestin) from the mycelium as powder/capsule; approved in Japan as adjuvant immunochemotherapy after curative resection of gastric and colorectal cancer. Several randomised trials and meta-analyses show a survival benefit."
+        "de": "Standardisiertes Polysaccharid-Extrakt PSK (Krestin) aus dem Myzel als Pulver oder Kapsel; in Japan als begleitende Immunochemotherapie nach kurativer Resektion von Magen- und Darmkrebs zugelassen. Mehrere randomisierte Studien und Metaanalysen zeigen einen Überlebensvorteil. Wichtig zum Einordnen: Untersucht wurde ein standardisiertes Arzneimittel zusätzlich zur Chemotherapie, nicht ein Nahrungsergänzungsmittel und nicht anstelle einer Behandlung. Ein Tee aus dem Wald ist damit nicht gleichzusetzen. Wer in onkologischer Behandlung ist, klärt jede Einnahme vorher mit der behandelnden Ärztin ab.",
+        "en": "Standardised polysaccharide extract PSK (krestin) from the mycelium as powder or capsule; approved in Japan as adjuvant immunochemotherapy after curative resection of gastric and colorectal cancer. Several randomised trials and meta-analyses show a survival benefit. Important context: what was studied is a standardised medicine in addition to chemotherapy — not a food supplement, and not instead of treatment. A tea made from forest pickings is not the same thing. Anyone in oncological care should clear any use with their treating doctor first."
       },
-      "source_ids": [
-        "src_meta_gi",
-        "src_wikipedia_en"
-      ],
+      "source_ids": ["src_meta_gi", "src_wikipedia_en"],
       "plant_part": "whole_plant",
       "evidence_level": "clinical_trial"
     },
     {
       "form": "tincture",
-      "target": [
-        "immune support"
-      ],
+      "target": ["immune support"],
       "internal_external": "internal",
       "description": {
-        "de": "Alkoholische Tinktur bzw. Dual-Extrakt des Fruchtkörpers in der modernen Volksheilkunde zur allgemeinen Immununterstützung.",
-        "en": "Alcoholic tincture or dual extract of the fruiting body in modern folk practice for general immune support."
+        "de": "Alkoholische Tinktur bzw. Dual-Extrakt des Fruchtkörpers in der modernen Volksheilkunde zur allgemeinen Immununterstützung. Der Doppelauszug soll sowohl die wasserlöslichen Polysaccharide als auch die alkohollöslichen Anteile erfassen. Ein belegter Nutzen für diese Anwendungsform liegt nicht vor.",
+        "en": "Alcoholic tincture or dual extract of the fruiting body in modern folk practice for general immune support. The double extraction is meant to capture both the water-soluble polysaccharides and the alcohol-soluble fractions. There is no demonstrated benefit for this form of use."
       },
-      "source_ids": [
-        "src_wikipedia_en"
-      ],
+      "source_ids": ["src_wikipedia_en"],
       "plant_part": "whole_plant",
       "evidence_level": "folk"
     }
   ],
   "season": {
-    "active_months": [
-      5,
-      6,
-      7,
-      8,
-      9,
-      10
-    ],
+    "active_months": [5, 6, 7, 8, 9, 10],
     "harvest_part": {
       "de": "Fruchtkörper",
       "en": "fruiting body"
     }
   },
+  "harvest": [
+    {
+      "plant_part": "whole_plant",
+      "best_months": [9, 10, 11],
+      "time_of_day": {
+        "de": "Bei trockenem Wetter, wenn die Fächer frisch und biegsam sind und die Porenschicht rein weiß ist. Vergilbte oder von Algen grün überzogene Stücke stehen lassen. Nur an Laubholz sammeln, nie an Bäumen, die auf behandeltem oder belastetem Boden stehen — Porlinge nehmen aus dem Holz auf, was darin ist.",
+        "en": "In dry weather, when the fans are fresh and pliable and the pore layer is pure white. Leave yellowed pieces or ones greened over with algae. Collect only from broadleaf wood, never from trees standing on treated or contaminated ground — polypores take up whatever is in the wood."
+      },
+      "drying": {
+        "de": "Mit einem Messer vom Holz lösen, mit einer Bürste säubern und bei 40–50 °C durchtrocknen. Vor dem Lagern in kleine Stücke schneiden — trocken wird die Tramete hart wie Leder und lässt sich dann kaum noch zerteilen.",
+        "en": "Cut the fans from the wood with a knife, clean them with a brush and dry through at 40–50 °C. Cut into small pieces before storing — once dry, turkey tail becomes as hard as leather and is then very hard to divide."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken und luftdicht. Gut durchgetrocknet hält sie jahrelang; feucht gelagert schimmelt sie von innen.",
+        "en": "Dry and airtight. Thoroughly dried it keeps for years; stored damp it moulds from the inside."
+      }
+    }
+  ],
   "safety": {
     "warnings": {
-      "de": "Speise-/Heilpilz von geringer Toxizität, jedoch wegen der zähen Konsistenz nicht als Speisepilz, sondern als Tee oder Extrakt verwendet. Mögliche Wechselwirkung mit Immunsuppressiva; bei Autoimmunerkrankungen, in Schwangerschaft/Stillzeit und vor Operationen ärztlich abklären. Nur sicher bestimmte, von Schadstoffen freie Fruchtkörper verwenden.",
-      "en": "Edible/medicinal mushroom of low toxicity, but too tough to eat as food, so used as tea or extract. May interact with immunosuppressant drugs; consult a physician if you have an autoimmune condition, are pregnant/breastfeeding, or before surgery. Use only correctly identified, contaminant-free fruiting bodies."
+      "de": "Speise-/Heilpilz von geringer Toxizität, jedoch wegen der zähen Konsistenz nicht als Speisepilz, sondern als Tee oder Extrakt verwendet. Mögliche Wechselwirkung mit Immunsuppressiva; bei Autoimmunerkrankungen, in Schwangerschaft/Stillzeit und vor Operationen ärztlich abklären. Nur sicher bestimmte, von Schadstoffen freie Fruchtkörper verwenden. Die vorliegenden Studien betreffen ein standardisiertes Arzneimittel als Zusatz zur Krebsbehandlung — sie sagen nichts darüber aus, was ein selbst gekochter Tee bewirkt, und rechtfertigen keinesfalls den Verzicht auf eine ärztliche Therapie.",
+      "en": "Edible/medicinal mushroom of low toxicity, but too tough to eat as food, so used as tea or extract. May interact with immunosuppressant drugs; consult a physician if you have an autoimmune condition, are pregnant/breastfeeding, or before surgery. Use only correctly identified, contaminant-free fruiting bodies. The available studies concern a standardised medicine as an addition to cancer treatment — they say nothing about what a home-brewed tea does, and in no way justify forgoing medical therapy."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Es liegen keine Sicherheitsdaten für die Schwangerschaft vor. Ohne Daten ist von Tee und Extrakten abzuraten.",
+        "en": "No safety data are available for pregnancy. Without data, tea and extracts are inadvisable."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Ebenfalls keine Daten. Gleiche Zurückhaltung wie in der Schwangerschaft.",
+        "en": "Likewise no data. The same restraint applies as in pregnancy."
+      }
+    },
+    "children": {
+      "status": "unknown",
+      "note": {
+        "de": "Bei Kindern nicht untersucht.",
+        "en": "Not studied in children."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Immunsuppressiva (nach Transplantation, bei Autoimmunerkrankungen)",
+        "severity": "avoid",
+        "mechanism": {
+          "de": "Den Polysacchariden wird eine anregende Wirkung auf das Immunsystem zugeschrieben. Das kann einer gewollten Unterdrückung entgegenwirken — bei Transplantierten ist das ein ernstes Risiko.",
+          "en": "The polysaccharides are credited with a stimulating effect on the immune system. That can work against a deliberate suppression — in transplant patients this is a serious risk."
+        }
+      },
+      {
+        "drug_class": "Krebstherapien (Chemotherapie, Immuntherapie)",
+        "severity": "caution",
+        "mechanism": {
+          "de": "PSK wurde als Zusatz zur Chemotherapie untersucht, aber nicht mit jedem Behandlungsschema. Eigenmächtige Einnahme während einer onkologischen Therapie kann sie stören — immer mit dem behandelnden Team absprechen.",
+          "en": "PSK was studied as an addition to chemotherapy, but not with every treatment regimen. Taking it on one's own during oncological therapy can interfere with it — always agree it with the treating team."
+        }
+      }
+    ],
+    "contraindications": [
+      {
+        "de": "Zustand nach Organtransplantation und laufende Immunsuppression.",
+        "en": "After an organ transplant and during ongoing immunosuppression."
+      },
+      {
+        "de": "Autoimmunerkrankungen — ohne ärztliche Rücksprache nicht anwenden.",
+        "en": "Autoimmune disease — do not use without medical advice."
+      },
+      {
+        "de": "Fruchtkörper von Bäumen an Straßenrändern, aus Industriegebieten oder von behandeltem Holz.",
+        "en": "Fruiting bodies from roadside trees, industrial areas or treated timber."
+      }
+    ]
   },
   "constituents": [
     {
       "name": "Polysaccharide-K (PSK / Krestin)",
       "category": "polysaccharide",
       "note": {
-        "de": "Proteingebundenes Beta-Glucan aus dem Myzel; in Japan als Krebs-Adjuvans zugelassen.",
-        "en": "Protein-bound beta-glucan from the mycelium; approved in Japan as a cancer adjuvant."
+        "de": "Proteingebundenes Beta-Glucan aus dem Myzel; in Japan als Krebs-Adjuvans zugelassen. Wird industriell aus Reinkultur gewonnen, nicht aus gesammelten Fruchtkörpern.",
+        "en": "Protein-bound beta-glucan from the mycelium; approved in Japan as a cancer adjuvant. It is produced industrially from pure culture, not from gathered fruiting bodies."
       }
     },
     {
       "name": "Polysaccharide-Peptid (PSP)",
       "category": "polysaccharide",
       "note": {
-        "de": "Proteingebundenes Polysaccharid, in China erforscht.",
-        "en": "Protein-bound polysaccharide, studied in China."
+        "de": "Proteingebundenes Polysaccharid, in China erforscht; dem PSK verwandt, aber nicht identisch.",
+        "en": "Protein-bound polysaccharide, studied in China; related to PSK but not identical."
       }
     },
     {
       "name": "Beta-Glucane",
       "category": "polysaccharide",
       "note": {
-        "de": "Immunmodulierende Zellwand-Polysaccharide.",
-        "en": "Immune-modulating cell-wall polysaccharides."
+        "de": "Immunmodulierende Zellwand-Polysaccharide. Sie sind wasserlöslich — deshalb das lange Auskochen.",
+        "en": "Immune-modulating cell-wall polysaccharides. They are water-soluble — hence the long simmering."
+      }
+    },
+    {
+      "name": "Ergosterol (Provitamin D2)",
+      "category": "other"
+    },
+    {
+      "name": "Phenolsäuren und Flavonoide",
+      "category": "phenolic_acid",
+      "note": {
+        "de": "Antioxidativ wirksame Begleitstoffe in kleinen Mengen.",
+        "en": "Antioxidant accompanying compounds in small amounts."
       }
     }
   ],
