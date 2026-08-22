@@ -2,14 +2,18 @@
 
 **Task:** AdSense — dritter Antrag laeuft
 **Started:** 2026-08-20 (Sitzung 35)
-**Status:** WARTET AUF GOOGLE — nichts zu tun, bis die Antwort da ist
+**Status:** WARTET AUF GOOGLE — seit zwei Tagen ohne Antwort
 
 ## Stand
 
-Maikel hat am **2026-08-20** die erneute Ueberpruefung beantragt, nachdem
-Weg C abgeschlossen und veroeffentlicht war. Antwort dauert erfahrungsgemaess
-ein paar Tage bis rund zwei Wochen. Im Konto aendert sich bis dahin nichts
-von allein.
+Maikel hat am **2026-08-20** die erneute Ueberpruefung beantragt. Antwort
+dauert erfahrungsgemaess ein paar Tage bis rund zwei Wochen. Im Konto aendert
+sich bis dahin nichts von allein.
+
+In Sitzung 36 (2026-08-22) wurde auf Maikels Auftrag hin waehrend der
+Wartezeit weitergearbeitet — drei Wellen, siehe SESSION_STATE § 3. Das greift
+nicht in den laufenden Antrag ein: es aendert nur, was Google beim naechsten
+Crawl vorfindet, und zwar zum Besseren.
 
 ## Maikels Festlegung (2026-08-20)
 
@@ -17,27 +21,6 @@ Eigene Domain (`donum-dei.de`, in Sitzung 33 als frei geprueft) bleibt
 **zurueckgestellt**. Erst diesen Weg zu Ende gehen: wenn es nach **zwei bis
 drei weiteren Versuchen** nicht klappt, wird ueber die Domain neu gesprochen.
 Nicht von sich aus wieder vorschlagen.
-
-## Was in Sitzung 35 gemacht wurde (fertig, live)
-
-**Schritt 1 — die eigentliche Ursache.** `src/components/PlantTabs.tsx`
-rendert eine React-Insel und erzeugte bisher nur das aktive Panel. Im
-ausgelieferten HTML standen damit auf allen 594 Pflanzenseiten nur
-Beschreibung und Anwendung; Sicherheit, Sammeln, Wirkstoffe und Quellen waren
-fuer Crawler unsichtbar. Jetzt werden alle Panels serverseitig gerendert, die
-inaktiven mit `hidden`. Fuer Nutzer unveraendert. Commit `7b77c29`.
-
-**Schritt 2 — zwoelf textarme Arten ausgebaut.** Commits `dc09d98` (Kardamom,
-Pfeffer, Moringa) und `d2ad9e7` (die uebrigen neun).
-
-```
-Pflanzen-Detailseiten  Median  4574 -> 9352   Minimum  1144 -> 2505
-Site-Seiten unter 1500 Zeichen:   40 ->   18
-validate:zod 297/297 · scan_descriptions ok · 376 Tests gruen
-```
-
-Deployed und am Produktions-Alias geprueft (5 Panels je Pflanzenseite,
-neuer Text live).
 
 ## Wenn die Antwort kommt
 
@@ -56,6 +39,12 @@ erste konkrete Information seit drei Antraegen.
 Die Seite ist von **keiner** Suchmaschine indexiert
 (`site:donum-dei.pages.dev` → 0 Treffer bei Google, geprueft 2026-08-20).
 Das bleibt der eigentliche Nachteil, und Textmenge loest ihn nicht.
+
+Technisch steht dem nichts im Weg — am 2026-08-22 live nachgeprueft:
+`robots.txt` erlaubt alles ausser `/pagefind/`, die Sitemap liefert 696 URLs,
+und die Antwort-Header tragen kein `X-Robots-Tag`. Es fehlt schlicht an
+Verweisen von aussen: **bisher kein einziger Backlink.** Das ist der naechste
+echte Hebel, unabhaengig von AdSense.
 
 Weiterhin duenn, aber bewusst nicht angefasst: `/de/suche/`, `/de/quiz/`,
 `/de/mein-garten/start/` (Suche und Garten-Planer-Start stehen schon auf

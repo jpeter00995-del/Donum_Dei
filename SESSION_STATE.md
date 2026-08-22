@@ -2,10 +2,10 @@
 
 ## META
 - user: Maikel (MG)
-- device: BUL-06 (Windows)
+- device: MacBook-Air-von-maikel (macOS)
 - tool: Claude Code (Opus 5)
-- session: 35
-- last_save: 2026-08-20 15:05 Sofia
+- session: 36
+- last_save: 2026-08-22 13:05 Sofia
 - live_url: https://donum-dei.pages.dev
 - github: jpeter00995-del/Donum_Dei
 
@@ -175,6 +175,63 @@ Sitemap:                                674 URLs
 
 ---
 
+### Sitzung 36 (2026-08-22, Mac) — drei Wellen waehrend der Wartezeit
+
+Maikels Auftrag: drei Wellen, direkt veroeffentlichen, Thema selbst waehlen,
+gern auch ein kleines neues Feature. Der AdSense-Antrag laeuft weiter — diese
+Arbeit greift nicht in ihn ein, sie verbessert nur, was Google beim naechsten
+Crawl vorfindet.
+
+| Commit | Inhalt |
+|--------|--------|
+| `214c0bf` | Zubereitungs-Ratgeber: zehn Methodenseiten DE/EN (neues Feature) |
+| `8819f92` | Brotkrumen mit BreadcrumbList auf allen Unterseiten |
+| `e3f6c0f` | fuenf duenne Arten ausgebaut + Sicherheitsluecke geschlossen |
+
+**Welle 1 — Zubereitungs-Ratgeber** (`/de/zubereitung/`, `/en/preparation/`).
+Auf den Pflanzenseiten stand bei jeder Anwendung nur das Etikett "Tee",
+"Tinktur", "Umschlag", ohne dass irgendwo erklaert wird, wie das geht. Zehn
+Methodenseiten je Sprache fuellen das: Einordnung, Arbeitsschritte mit Mengen,
+wozu die Form taugt, ein Abschnitt "Wo Schluss ist", Aufbewahrung, dazu die
+Liste der Pflanzen, die so verwendet werden. Die Form-Pille auf jeder
+Pflanzenseite verlinkt jetzt dorthin. Nebenbei repariert: der Sprachumschalter
+tauschte nur das erste Pfadsegment und erzeugte `/en/preparation/tee/`.
+
+**Welle 2 — Brotkrumen.** Die 594 Pflanzenseiten hatten sie, alles andere
+nicht. Neue Komponente `Breadcrumbs.astro` erzeugt sichtbare Leiste und
+JSON-LD aus einer Quelle; ausgerollt auf 42 Seitenvorlagen. 718 von 729 Seiten
+tragen jetzt eine — ohne bleiben die fuenf Startseiten, die Suchseiten und der
+Formular-Schritt des Garten-Planers (alle drei noindex).
+
+**Welle 3 — Inhalt und eine Sicherheitsluecke.** Bei der Sichtpruefung stand
+der Abendlaendische Lebensbaum an erster Stelle der Teeseite: `caution`
+eingestuft, Warntext "GIFTIG (Thujon-Gehalt)", Tee-Anwendung ein historischer
+Bericht von 1535. Neue Regel `istFuerAnleitungGeeignet` (siehe § 4).
+Danach fuenf viel gesuchte, textarme Arten ausgebaut — vier Heilpilze und
+Ashwagandha. Ihnen fehlte der strukturierte Teil: der Reiter "Sammeln" war bei
+allen fuenf leer, "Sicherheit" zeigte nur den Warntext.
+
+```
+Hericium erinaceus   de 3807 -> 5890   Inonotus obliquus   de 4491 -> 6431
+Ganoderma lingzhi    de 4478 -> 6655   Lentinula edodes    en 4444 -> 6307
+Withania somnifera   de 3732 -> 6373
+```
+
+Zwei Sachkorrekturen: Shiitake nannte "hitzeempfindliche Lektine" als Ursache
+der Shiitake-Dermatitis, der Warntext derselben Datei dagegen Lentinan —
+Lentinan ist ein Polysaccharid, kein Lektin. Bei Reishi fehlten die
+Fallberichte ueber Leberschaeden, darunter ein toedlicher Verlauf.
+Quellen: Memorial Sloan Kettering (About Herbs) und LiverTox, abgerufen
+2026-08-22, in den Datensaetzen eingetragen.
+
+```
+Tests    376 -> 399      Seiten   707 -> 729      Sitemap  674 -> 696 URLs
+```
+
+Alles gebaut, deployed und am Produktions-Alias mit Cache-Umgehung geprueft.
+
+---
+
 ## 4. ERKENNTNISSE UND FALLEN
 
 1. **Die Seite ist von keiner Suchmaschine indexiert.**
@@ -194,6 +251,18 @@ Sitemap:                                674 URLs
 
 4. **`adsense.google.com` ist fuer die Browser-Werkzeuge gesperrt.**
    Nicht erneut versuchen, siehe ACTIVE_TASK.md.
+
+5. **`toxicity_level: caution` ist kein Freibrief.** Der Abendlaendische
+   Lebensbaum traegt diese Stufe, sein Warntext beginnt aber mit "GIFTIG".
+   Wer aus den Daten eine Empfehlungsliste baut, muss zusaetzlich die einzelne
+   Anwendung pruefen — `istFuerAnleitungGeeignet` in
+   `src/lib/preparationPlants.ts` wirft bei Vorsichts-Pflanzen innerliche
+   Anwendungen raus, die nur auf `folk`-Ueberlieferung beruhen, und haelt
+   `external_only`-Pflanzen aus innerlichen Formen heraus.
+
+6. **Die Startseite ist kein Gewichtsproblem.** Der alte TODO-Punkt "660 KB"
+   misst die unkomprimierte Datei. Ueber die Leitung gehen 85 KB gzip — das
+   ist unauffaellig. Bilder sind bereits lazy. Nicht anfassen.
 
 ---
 
@@ -241,6 +310,10 @@ scripts/patch_apply.py          description/names schreiben, geprueft
 scripts/aspca_uebernehmen.py    Haustier-Giftigkeit mit Quelle eintragen
 scripts/fix_alt_texte.py        Bild-Beschreibungen ohne Unterstrich
 scripts/link_check.py           tote Links im Build
+scripts/heilpilze_ausbauen.py   Ernte- und Sicherheitsbloecke nachtragen
+src/lib/preparationText.ts      Ratgebertexte der zehn Zubereitungsarten
+src/lib/preparationPlants.ts    Pflanzen je Zubereitungsart + Anleitungs-Filter
+src/components/Breadcrumbs.astro  Brotkrume + BreadcrumbList aus einer Quelle
 src/lib/seitenText.ts           Texte der Werkzeug-Seiten DE/EN
 src/lib/harvestMonth(.test).ts  echter Ernte-Filter
 src/lib/harvestMonthText.ts     Monatstexte DE/EN
