@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import PlanView from '@/components/PlanView.tsx';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { toPlanPlant } from '@/lib/planPlant';
@@ -17,6 +18,10 @@ const plants = loadAllPlants().map(toPlanPlant);
   <section class="max-w-6xl mx-auto py-8 px-4 print-area">
     {/* Server-rendered text — this page was previously empty for crawlers. */}
     <header class="max-w-3xl mb-8 print:hidden">
+      <Breadcrumbs locale="en" class="mb-4" items={[
+        { label: 'Plants', href: '/en/' },
+        { label: 'My garden' },
+      ]} />
       <h1 class="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4">
         My Garden — a planting plan for your space
       </h1>

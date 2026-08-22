@@ -1,0 +1,69 @@
+---
+// === 1. ZWECK ===
+// Eine Brotkrumen-Leiste fuer alle Unterseiten — sichtbar UND als
+// BreadcrumbList in strukturierten Daten.
+//
+// Die Pflanzenseiten hatten das bereits, alles andere nicht: Symptomseiten,
+// Ernte-Monate, Themenseiten und Werkzeuge standen ohne jeden Hinweis da,
+// wo sie hingehoeren. Fuer Leser heisst das Orientierung, fuer eine
+// Suchmaschine eine erkennbare Hierarchie statt 700 gleichrangiger Seiten.
+//
+// Der letzte Eintrag ist immer die aktuelle Seite und traegt keinen Verweis.
+
+import type { UiLocale } from '@/lib/types';
+
+export type Krume = {
+  label: string;
+  /** Fehlt beim letzten Eintrag — die aktuelle Seite verlinkt nicht auf sich selbst. */
+  href?: string;
+};
+
+interface Props {
+  locale: UiLocale;
+  items: Krume[];
+  /** Zusaetzliche Klassen fuer den Aussenabstand der jeweiligen Seite. */
+  class?: string;
+}
+
+const { items, class: extraClass = '' } = Astro.props;
+
+// Absolute URLs fuer die strukturierten Daten. Ohne konfiguriertes `site`
+// bleibt der relative Pfad stehen — dann fehlt schlicht die Absolutheit,
+// statt dass eine falsche Domain erfunden wird.
+function absolut(href: string): string {
+  return Astro.site ? new URL(href, Astro.site).href : href;
+}
+
+const seitenUrl = Astro.site
+  ? new URL(Astro.url.pathname, Astro.site).href
+  : Astro.url.pathname;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((k, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: k.label,
+    item: k.href ? absolut(k.href) : seitenUrl,
+  })),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+<nav aria-label="Breadcrumb" class={`text-sm text-slate-500 ${extraClass}`}>
+  <ol class="flex flex-wrap items-center gap-1.5">
+    {items.map((k, i) => (
+      <>
+        {i > 0 && <li aria-hidden="true" class="text-slate-400">›</li>}
+        <li>
+          {k.href ? (
+            <a href={k.href} class="text-emerald-700 hover:underline">{k.label}</a>
+          ) : (
+            <span class="text-slate-700" aria-current="page">{k.label}</span>
+          )}
+        </li>
+      </>
+    ))}
+  </ol>
+</nav>

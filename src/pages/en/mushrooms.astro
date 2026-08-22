@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import FilterBar from '@/components/FilterBar.tsx';
 import { getPlantsSortedByLocale } from '@/lib/loadPlants';
 import { isFungus } from '@/lib/speciesFilters';
@@ -12,6 +13,10 @@ const fungi = getPlantsSortedByLocale(locale).filter(isFungus).map(p => toPlantC
 
 <BaseLayout locale={locale} title="Mushrooms — Donum Dei">
   <div class="max-w-6xl mx-auto px-4 py-8">
+    <Breadcrumbs locale="en" class="mb-4" items={[
+      { label: 'Plants', href: '/en/' },
+      { label: 'Mushrooms' },
+    ]} />
     <h1 class="text-2xl md:text-3xl font-serif font-bold text-slate-900 mb-2">🍄 Medicinal mushrooms</h1>
     <p class="text-slate-600 mb-6 max-w-2xl">
       Fungi are not plants but a kingdom of their own. Here we collect medicinal and tonic mushrooms —

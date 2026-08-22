@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { pflanzenImMonat } from '@/lib/harvestMonth';
 import { ERNTE_TEXT_EN } from '@/lib/harvestMonthText';
@@ -34,6 +35,11 @@ const description =
 
 <BaseLayout locale={locale} title={title} description={description} altPath={`/de/heilpflanzen-ernten/${DE_SLUGS[monthIndex]}/`}>
   <section class="max-w-6xl mx-auto px-4 pt-8 pb-12">
+    <Breadcrumbs locale={locale} class="mb-4" items={[
+      { label: 'Plants', href: '/en/' },
+      { label: 'Harvest calendar', href: '/en/calendar' },
+      { label: monthName },
+    ]} />
     <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">Herbs to Harvest in {monthName}</h1>
     <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-3 text-pretty">
       {intro}

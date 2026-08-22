@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 
 // === 2. KONSTANTEN ===
 const locale = 'en' as const;
@@ -10,6 +11,10 @@ const locale = 'en' as const;
   <div class="max-w-3xl mx-auto px-4 py-8 prose prose-slate">
     <!-- === 1. HERO === -->
     <header class="mb-6">
+      <Breadcrumbs locale="en" class="mb-4" items={[
+        { label: 'Plants', href: '/en/' },
+        { label: 'Imprint' },
+      ]} />
       <h1 class="text-3xl font-serif font-bold text-slate-900 mb-2">Imprint</h1>
       <p class="text-sm text-slate-500">
         Translation of the German imprint required under § 5 TMG. The German

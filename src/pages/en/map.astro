@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import OverviewMap from '@/components/OverviewMap.tsx';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { loadOccurrencesBySlug } from '@/lib/loadOccurrences';
@@ -31,6 +32,10 @@ const bgPlantCount = mapPlants.filter(p => (p.bgCount ?? 0) > 0).length;
 
 <BaseLayout locale={locale} title="Map of all plants">
   <div class="max-w-6xl mx-auto px-4 py-8">
+    <Breadcrumbs locale="en" class="mb-4" items={[
+      { label: 'Plants', href: '/en/' },
+      { label: 'Distribution map' },
+    ]} />
     <h1 class="text-3xl font-serif font-bold text-slate-900 mb-4">All plants on the map</h1>
     {/* Server-rendered text — this page previously held 140 characters. */}
     <div class="max-w-3xl mb-6">

@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 
 const locale = 'en' as const;
 ---
@@ -10,6 +11,10 @@ const locale = 'en' as const;
 
     <!-- === 1. HERO === -->
     <header class="mb-10 text-center">
+      <Breadcrumbs locale="en" class="mb-4" items={[
+        { label: 'Plants', href: '/en/' },
+        { label: 'About the project' },
+      ]} />
       <h1 class="font-serif text-4xl sm:text-5xl font-bold text-slate-900 mb-3 tracking-wide">
         About <span class="text-emerald-700">Donum ∞ Dei</span>
       </h1>

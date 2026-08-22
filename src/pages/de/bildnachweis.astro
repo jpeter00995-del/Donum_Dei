@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { getPlantsSortedByLocale } from '@/lib/loadPlants';
 
 // === 2. KONSTANTEN ===
@@ -12,6 +13,10 @@ const plants = getPlantsSortedByLocale(locale);
   <div class="max-w-4xl mx-auto px-4 py-8">
     <!-- === 1. HERO === -->
     <header class="mb-6">
+      <Breadcrumbs locale="de" class="mb-4" items={[
+        { label: 'Pflanzen', href: '/de/' },
+        { label: 'Bildnachweis' },
+      ]} />
       <h1 class="text-3xl font-serif font-bold text-slate-900 mb-2">Bildnachweis</h1>
       <p class="text-sm text-slate-500">
         Alle {plants.length} Pflanzenbilder stammen von Wikimedia Commons unter Creative-Commons-Lizenzen.

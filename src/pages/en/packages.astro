@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import PermacultureSetCard from '@/components/PermacultureSetCard.astro';
 import permacultureSetsFile from '@/data/permaculture_sets.json';
 import { loadAllPlants } from '@/lib/loadPlants';
@@ -19,6 +20,10 @@ const plantBySlug = new Map<string, Plant>(plants.map(p => [p.slug, p]));
 <BaseLayout locale={locale} title="Planting Sets">
   <section class="max-w-6xl mx-auto py-8 px-4">
     <header class="mb-8">
+      <Breadcrumbs locale="en" class="mb-4" items={[
+        { label: 'Plants', href: '/en/' },
+        { label: 'Planting sets' },
+      ]} />
       <h1 class="text-3xl md:text-4xl font-serif font-bold text-slate-900">
         {t(locale, 'packages.hero_title')}
       </h1>

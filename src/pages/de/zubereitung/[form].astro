@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { findPlantsForForm } from '@/lib/preparationPlants';
 import {
@@ -46,13 +47,11 @@ const description =
   altPath={`/en/preparation/${ZUBEREITUNG_SLUG_EN[form]}/`}
 >
   <article class="max-w-6xl mx-auto px-4 pt-8 pb-12">
-    <nav aria-label="Brotkrumen" class="mb-4 text-sm text-slate-500">
-      <a href="/de/" class="hover:text-emerald-700 hover:underline">Pflanzen</a>
-      <span class="mx-1.5 text-slate-300" aria-hidden="true">/</span>
-      <a href="/de/zubereitung/" class="hover:text-emerald-700 hover:underline">Zubereitung</a>
-      <span class="mx-1.5 text-slate-300" aria-hidden="true">/</span>
-      <span class="text-slate-700">{z.titel}</span>
-    </nav>
+    <Breadcrumbs locale={locale} class="mb-4" items={[
+      { label: 'Pflanzen', href: '/de/' },
+      { label: 'Zubereitung', href: '/de/zubereitung/' },
+      { label: z.titel },
+    ]} />
 
     <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">{z.titel}</h1>
 

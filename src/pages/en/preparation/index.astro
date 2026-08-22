@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { countPlantsPerForm } from '@/lib/preparationPlants';
 import { ZUBEREITUNG_EN, ZUBEREITUNG_SLUG_EN, ZUBEREITUNG_REIHENFOLGE } from '@/lib/preparationText';
@@ -18,6 +19,10 @@ const description =
 
 <BaseLayout locale="en" title={title} description={description} altPath="/de/zubereitung/">
   <section class="max-w-6xl mx-auto px-4 pt-8 pb-12">
+    <Breadcrumbs locale="en" class="mb-4" items={[
+      { label: 'Plants', href: '/en/' },
+      { label: 'Preparation' },
+    ]} />
     <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">
       Preparing medicinal plants
     </h1>

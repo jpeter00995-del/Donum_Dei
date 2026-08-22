@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import SymptomFinder from '@/components/SymptomFinder.tsx';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { toSymptomPlant } from '@/lib/symptomCard';
@@ -20,6 +21,10 @@ const symptoms = getAllSymptoms();
   <article class="max-w-5xl mx-auto py-8 px-4">
     <!-- === 1. HERO === -->
     <header class="mb-8">
+      <Breadcrumbs locale="de" class="mb-4" items={[
+        { label: 'Pflanzen', href: '/de/' },
+        { label: 'Hilfe bei Beschwerden' },
+      ]} />
       <h1 class="text-3xl md:text-4xl font-serif font-bold text-slate-900">
         {t(locale, 'symptoms.page_title')}
       </h1>

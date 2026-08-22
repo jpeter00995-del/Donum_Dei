@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import OverviewMap from '@/components/OverviewMap.tsx';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { loadOccurrencesBySlug } from '@/lib/loadOccurrences';
@@ -32,6 +33,10 @@ const bgPlantCount = mapPlants.filter(p => (p.bgCount ?? 0) > 0).length;
 
 <BaseLayout locale={locale} title="Karte aller Pflanzen">
   <div class="max-w-6xl mx-auto px-4 py-8">
+    <Breadcrumbs locale="de" class="mb-4" items={[
+      { label: 'Pflanzen', href: '/de/' },
+      { label: 'Verbreitungskarte' },
+    ]} />
     <h1 class="text-3xl font-serif font-bold text-slate-900 mb-4">Alle Pflanzen auf der Karte</h1>
     {/* Serverseitiger Text — die Seite hatte vorher 144 Zeichen sichtbaren Inhalt. */}
     <div class="max-w-3xl mb-6">

@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { toGardenPlant } from '@/lib/plantCard';
 import WeekView from '@/components/WeekView.tsx';
@@ -45,6 +46,10 @@ for (const p of plants) plantsBySlug[p.slug] = p;
 
     <!-- === Tab-Panel Year (initially hidden) === -->
     <section id="tab-year" role="tabpanel" class="hidden">
+      <Breadcrumbs locale="de" class="mb-4" items={[
+        { label: 'Pflanzen', href: '/de/' },
+        { label: 'Ernte-Kalender' },
+      ]} />
       <h1 class="text-2xl font-serif font-bold text-slate-900 mb-4">Jahres-Übersicht</h1>
       <p class="text-slate-600 mb-4">
         12-Monats-Ansicht aller Pflanzen mit Garten-Daten in deinem Plan.

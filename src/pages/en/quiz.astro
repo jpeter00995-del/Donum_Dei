@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import PlantQuiz from '@/components/PlantQuiz.tsx';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { toQuizPlant, buildSymptomQuizData } from '@/lib/quizCard';
@@ -14,6 +15,10 @@ const locale = 'en' as const;
 
 <BaseLayout locale={locale} title="Plant Quiz">
   <div class="max-w-4xl mx-auto px-4 py-8">
+    <Breadcrumbs locale="en" class="mb-4" items={[
+      { label: 'Plants', href: '/en/' },
+      { label: 'Quiz' },
+    ]} />
     <h1 class="text-3xl font-serif font-bold text-slate-900 mb-4">Plant Quiz</h1>
     {/* Server-rendered text — this page previously held 83 characters. */}
     <div class="mb-8">

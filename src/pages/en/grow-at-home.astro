@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import IndoorFilterBar from '@/components/IndoorFilterBar';
 import IndoorQuiz from '@/components/IndoorQuiz';
 import { loadIndoorPlants } from '@/lib/loadPlants';
@@ -15,6 +16,10 @@ const plants = loadIndoorPlants().map(toIndoorPlant);
 
 <BaseLayout locale={locale} title={t(locale, 'indoor.title')}>
   <section class="max-w-6xl mx-auto py-8 px-4">
+    <Breadcrumbs locale="en" class="mb-4" items={[
+      { label: 'Plants', href: '/en/' },
+      { label: 'Houseplants' },
+    ]} />
     <h1 class="text-3xl font-serif font-bold text-emerald-800 mb-4">
       🪴 {t(locale, 'indoor.title')}
     </h1>

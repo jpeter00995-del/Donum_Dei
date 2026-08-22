@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import FeedbackForm from '@/components/FeedbackForm.tsx';
 import { t } from '@/lib/i18n';
 
@@ -12,6 +13,10 @@ const locale = 'en' as const;
   <div class="max-w-2xl mx-auto px-4 py-8">
     <!-- === 1. HERO === -->
     <header class="mb-6">
+      <Breadcrumbs locale="en" class="mb-4" items={[
+        { label: 'Plants', href: '/en/' },
+        { label: 'Feedback' },
+      ]} />
       <h1 class="text-3xl font-serif font-bold text-slate-900 mb-3">
         {t(locale, 'feedback.hero_title')}
       </h1>

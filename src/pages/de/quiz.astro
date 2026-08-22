@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import PlantQuiz from '@/components/PlantQuiz.tsx';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { toQuizPlant, buildSymptomQuizData } from '@/lib/quizCard';
@@ -15,6 +16,10 @@ const locale = 'de' as const;
 
 <BaseLayout locale={locale} title="Pflanzen-Quiz">
   <div class="max-w-4xl mx-auto px-4 py-8">
+    <Breadcrumbs locale="de" class="mb-4" items={[
+      { label: 'Pflanzen', href: '/de/' },
+      { label: 'Quiz' },
+    ]} />
     <h1 class="text-3xl font-serif font-bold text-slate-900 mb-4">Pflanzen-Quiz</h1>
     {/* Serverseitiger Text — die Seite hatte vorher 92 Zeichen sichtbaren Inhalt. */}
     <div class="mb-8">

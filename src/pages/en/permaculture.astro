@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { t } from '@/lib/i18n';
 import { SEITEN_TEXT } from '@/lib/seitenText';
 
@@ -28,6 +29,10 @@ const holzerPrinciples = [
 <BaseLayout locale={locale} title="Permaculture">
   <article class="max-w-3xl mx-auto py-8 px-4">
     <header class="mb-8">
+      <Breadcrumbs locale="en" class="mb-4" items={[
+        { label: 'Plants', href: '/en/' },
+        { label: 'Permaculture' },
+      ]} />
       <h1 class="text-3xl md:text-4xl font-serif font-bold text-slate-900">
         {t(locale, 'permaculture.page_title')}
       </h1>

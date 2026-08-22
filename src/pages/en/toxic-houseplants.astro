@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { splitPetSafe } from '@/lib/petSafety';
 
@@ -35,6 +36,10 @@ const description =
 
 <BaseLayout locale={locale} title={title} description={description} altPath="/de/giftige-zimmerpflanzen/">
   <section class="max-w-6xl mx-auto px-4 pt-8 pb-12">
+    <Breadcrumbs locale="en" class="mb-4" items={[
+      { label: 'Plants', href: '/en/' },
+      { label: 'Toxic houseplants' },
+    ]} />
     <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">Toxic Houseplants</h1>
     <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-2 text-pretty">
       Some of the most popular houseplants are toxic – to children, cats or dogs. This

@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { splitPetSafe, getPetCheck, getToxNote } from '@/lib/petSafety';
 
@@ -22,6 +23,10 @@ const description =
 
 <BaseLayout locale={locale} title={title} description={description} altPath="/en/pet-safe-plants/">
   <section class="max-w-6xl mx-auto px-4 pt-8 pb-12">
+    <Breadcrumbs locale="de" class="mb-4" items={[
+      { label: 'Pflanzen', href: '/de/' },
+      { label: 'Ungiftige Pflanzen für Haustiere' },
+    ]} />
     <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">Ungiftige Pflanzen für Katzen &amp; Hunde</h1>
     <p class="max-w-2xl text-lg leading-relaxed text-slate-600 mb-2 text-pretty">
       Du suchst Pflanzen, die für deine Haustiere unbedenklich sind? {checked.length}

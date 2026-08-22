@@ -1,6 +1,7 @@
 ---
 // === 1. IMPORTS ===
 import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { getAllSymptoms, findPlantsForSymptom, getSymptomDisclaimer } from '@/lib/symptomSearch';
 import { loadAllPlants } from '@/lib/loadPlants';
 import { SYMPTOM_TEXT_EN } from '@/lib/symptomText';
@@ -35,6 +36,11 @@ const description =
 
 <BaseLayout locale={locale} title={title} description={description} altPath={`/de/heilpflanzen-gegen/${symptom.id}/`}>
   <section class="max-w-6xl mx-auto px-4 pt-8 pb-12">
+    <Breadcrumbs locale={locale} class="mb-4" items={[
+      { label: 'Plants', href: '/en/' },
+      { label: 'Help with symptoms', href: '/en/help-with' },
+      { label: name },
+    ]} />
     <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">
       {symptom.emoji} Medicinal Plants for {name}
     </h1>
