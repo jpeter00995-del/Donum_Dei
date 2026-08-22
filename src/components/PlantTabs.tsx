@@ -2,6 +2,8 @@
 import { useEffect, useState } from 'react';
 import { t } from '@/lib/i18n';
 import { splitUsesForToxicity } from '@/lib/toxicUses';
+import { ZUBEREITUNG_SLUG_DE, ZUBEREITUNG_SLUG_EN } from '@/lib/preparationText';
+import type { UseForm } from '@/lib/plantSchema';
 import type {
   Plant,
   Locale,
@@ -17,6 +19,13 @@ import type {
 
 // === 2. TYPES ===
 type TabKey = 'use' | 'safety' | 'harvest' | 'constituents' | 'sources';
+
+/** Adresse der Zubereitungsseite zu einer Anwendungsform. */
+function zubereitungsPfad(form: UseForm, locale: Locale): string {
+  return locale === 'de'
+    ? `/de/zubereitung/${ZUBEREITUNG_SLUG_DE[form]}/`
+    : `/en/preparation/${ZUBEREITUNG_SLUG_EN[form]}/`;
+}
 
 interface Props {
   plant: Plant;
@@ -263,10 +272,16 @@ function UseCard({
   return (
     <>
       {/* === Badges-Zeile === */}
+      {/* Die Form-Pille fuehrt auf die Zubereitungsseite: dort steht, WIE das geht
+          und wo die Grenzen liegen — auf der Pflanzenseite ist dafuer kein Platz. */}
       <div className="flex flex-wrap gap-2 items-center text-sm">
-        <span className="px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200 font-medium">
+        <a
+          href={zubereitungsPfad(use.form, locale)}
+          title={t(locale, 'use.preparation.link_title')}
+          className="px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200 font-medium hover:bg-emerald-100 hover:border-emerald-400 transition"
+        >
           {t(locale, `use.${use.form}`)}
-        </span>
+        </a>
         {use.plant_part && (
           <span className="px-2 py-0.5 rounded bg-slate-100 text-slate-700 border border-slate-200">
             {t(locale, `use.plant_part.${use.plant_part}`)}

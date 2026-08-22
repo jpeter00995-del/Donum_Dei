@@ -14,6 +14,7 @@ export const common = {
   'nav.controlled': '🌀 Plantas psicoactivas',
   'nav.packages': '📦 Kits',
   'nav.permaculture': '🌱 Permacultura',
+  'nav.preparation': '🫖 Preparación',
   'nav.symptoms': '🌿 Ayuda para…',
   'nav.search': '🔍 Buscar',
   // Títulos de los menús desplegables de la cabecera

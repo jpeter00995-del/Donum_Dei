@@ -1,0 +1,132 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { loadAllPlants } from '@/lib/loadPlants';
+import { findPlantsForForm } from '@/lib/preparationPlants';
+import {
+  ZUBEREITUNG_DE,
+  ZUBEREITUNG_SLUG_DE,
+  ZUBEREITUNG_SLUG_EN,
+  ZUBEREITUNG_REIHENFOLGE,
+} from '@/lib/preparationText';
+
+// === 2. STATIC PATHS — eine Seite je Zubereitungsart ===
+export function getStaticPaths() {
+  return ZUBEREITUNG_REIHENFOLGE.map(form => ({
+    params: { form: ZUBEREITUNG_SLUG_DE[form] },
+    props: { form },
+  }));
+}
+
+const { form } = Astro.props;
+const locale = 'de' as const;
+const z = ZUBEREITUNG_DE[form];
+const plants = loadAllPlants();
+const treffer = findPlantsForForm(form, plants, locale);
+
+// Begruendung auf der Karte: erster Satz der Anwendung, die den Treffer
+// ausgeloest hat — gleiche Logik wie auf den Symptomseiten.
+function kuerzen(text: string): string {
+  const first = text.split(/(?<=[.!])\s/)[0] ?? '';
+  return first.length > 150 ? first.slice(0, 147).trimEnd() + '…' : first;
+}
+
+const andere = ZUBEREITUNG_REIHENFOLGE.filter(f => f !== form);
+
+const title = z.titel;
+const description =
+  `${z.kurz} Arbeitsschritte, Mengen und Grenzen — dazu ${treffer.length} Pflanzen ` +
+  `aus der Datenbank, die so verwendet werden.`;
+---
+
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  altPath={`/en/preparation/${ZUBEREITUNG_SLUG_EN[form]}/`}
+>
+  <article class="max-w-6xl mx-auto px-4 pt-8 pb-12">
+    <nav aria-label="Brotkrumen" class="mb-4 text-sm text-slate-500">
+      <a href="/de/" class="hover:text-emerald-700 hover:underline">Pflanzen</a>
+      <span class="mx-1.5 text-slate-300" aria-hidden="true">/</span>
+      <a href="/de/zubereitung/" class="hover:text-emerald-700 hover:underline">Zubereitung</a>
+      <span class="mx-1.5 text-slate-300" aria-hidden="true">/</span>
+      <span class="text-slate-700">{z.titel}</span>
+    </nav>
+
+    <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">{z.titel}</h1>
+
+    <div class="grid lg:grid-cols-[minmax(0,1fr)_20rem] gap-10">
+      <div class="min-w-0">
+        <p class="text-lg leading-relaxed text-slate-700 mb-8 text-pretty">{z.einleitung}</p>
+
+        <h2 class="leaf-heading font-serif text-2xl text-slate-900 mb-3">So geht es</h2>
+        <ol class="mb-8 space-y-3 list-decimal pl-5 marker:text-emerald-600 marker:font-semibold">
+          {z.schritte.map(s => <li class="pl-1 text-slate-700 leading-relaxed text-pretty">{s}</li>)}
+        </ol>
+
+        <h2 class="leaf-heading font-serif text-2xl text-slate-900 mb-3">Wozu diese Form passt</h2>
+        <p class="mb-8 text-slate-700 leading-relaxed text-pretty">{z.passt}</p>
+
+        <h2 class="leaf-heading font-serif text-2xl text-slate-900 mb-3">Wo Schluss ist</h2>
+        <div class="mb-8 rounded-2xl border-l-4 border-amber-400 bg-amber-50 px-5 py-4">
+          <p class="text-slate-800 leading-relaxed text-pretty">{z.grenzen}</p>
+        </div>
+
+        {z.aufbewahren && (
+          <>
+            <h2 class="leaf-heading font-serif text-2xl text-slate-900 mb-3">Aufbewahren</h2>
+            <p class="mb-8 text-slate-700 leading-relaxed text-pretty">{z.aufbewahren}</p>
+          </>
+        )}
+      </div>
+
+      <aside class="lg:pt-2">
+        <h2 class="font-serif text-lg text-slate-900 mb-3">Andere Zubereitungsarten</h2>
+        <ul class="space-y-1.5 text-sm">
+          {andere.map(f => (
+            <li>
+              <a href={`/de/zubereitung/${ZUBEREITUNG_SLUG_DE[f]}/`}
+                class="text-emerald-700 hover:text-emerald-800 hover:underline">
+                {ZUBEREITUNG_DE[f].titel}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    </div>
+
+    <h2 class="leaf-heading font-serif text-2xl text-slate-900 mt-4 mb-3">
+      Pflanzen, die so verwendet werden
+    </h2>
+    <p class="max-w-2xl text-slate-600 mb-6 text-pretty">
+      {treffer.length} Pflanzen aus dieser Datenbank haben mindestens eine überlieferte
+      Anwendung in dieser Form. Giftige und rechtlich kontrollierte Arten stehen
+      bewusst nicht in dieser Liste.
+    </p>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {treffer.map(t => { const p = t.plant; return (
+        <a href={`/de/plant/${p.slug}/`}
+          class="group flex gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3 hover:border-emerald-600 transition">
+          <img src={`/images/plants/${p.image.filename}`} alt={p.image.alt?.de ?? p.names.de}
+            width="72" height="72" loading="lazy"
+            class="flex-none rounded-xl object-cover bg-slate-100" style="width:72px;height:72px;" />
+          <div class="min-w-0">
+            <span class="font-serif text-slate-900 leading-tight">{p.names.de}</span>
+            <div class="text-xs italic text-slate-400">{p.names.latin}</div>
+            <p class="mt-1 text-[13px] leading-snug text-slate-600 line-clamp-3">
+              {kuerzen(t.use.description[locale])}
+            </p>
+          </div>
+        </a>
+      ); })}
+    </div>
+
+    <p class="mt-10 text-sm text-slate-500">
+      <a href="/de/zubereitung/" class="text-emerald-700 hover:underline">Alle Zubereitungsarten</a> ·
+      <a href="/de/" class="text-emerald-700 hover:underline">alle Pflanzen</a> ·
+      <a href="/de/hilfe-bei" class="text-emerald-700 hover:underline">Hilfe bei Beschwerden</a>
+    </p>
+  </article>
+</BaseLayout>

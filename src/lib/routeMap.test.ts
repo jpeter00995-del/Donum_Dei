@@ -3,6 +3,11 @@
 // uebersetzten Slugs (/de/kalender vs /en/calendar) 404-Seiten erzeugte.
 import { describe, it, expect } from 'vitest';
 import { DE_TO_EN, EN_TO_DE, translatePath, alternatePath } from './routeMap';
+import {
+  ZUBEREITUNG_SLUG_DE,
+  ZUBEREITUNG_SLUG_EN,
+  ZUBEREITUNG_REIHENFOLGE,
+} from './preparationText';
 
 describe('routeMap — Tabelle', () => {
   it('bildet jede DE-Seite auf genau eine EN-Seite ab (keine Dubletten)', () => {
@@ -90,5 +95,32 @@ describe('alternatePath — hreflang-Partner', () => {
 
   it('liefert nichts bei unbekannten Pfaden (kein falsches Sprachpaar)', () => {
     expect(alternatePath('/de/gibt-es-nicht/', 'de')).toBeUndefined();
+  });
+});
+
+// === Zubereitungsseiten: auch das ZWEITE Segment hat eine eigene Adresse ===
+// Ohne die Untertabelle machte der Sprachumschalter aus /de/zubereitung/tee/
+// die nicht existierende Adresse /en/preparation/tee/ (statt /tea/).
+describe('translatePath — Zubereitungsseiten', () => {
+  it('uebersetzt auch das zweite Segment', () => {
+    expect(translatePath('/de/zubereitung/tee/', 'de', 'en')).toBe('/en/preparation/tea/');
+    expect(translatePath('/en/preparation/tea/', 'en', 'de')).toBe('/de/zubereitung/tee/');
+    expect(translatePath('/de/zubereitung/aetherisches-oel/', 'de', 'en')).toBe(
+      '/en/preparation/essential-oil/',
+    );
+    expect(translatePath('/en/preparation/fresh/', 'en', 'de')).toBe('/de/zubereitung/frisch/');
+  });
+
+  it('laesst die Uebersichtsseite in Ruhe', () => {
+    expect(translatePath('/de/zubereitung/', 'de', 'en')).toBe('/en/preparation/');
+  });
+
+  it('jede Zubereitungsseite hat einen gueltigen Partner', () => {
+    for (const form of ZUBEREITUNG_REIHENFOLGE) {
+      const de = `/de/zubereitung/${ZUBEREITUNG_SLUG_DE[form]}/`;
+      const en = `/en/preparation/${ZUBEREITUNG_SLUG_EN[form]}/`;
+      expect(translatePath(de, 'de', 'en'), form).toBe(en);
+      expect(translatePath(en, 'en', 'de'), form).toBe(de);
+    }
   });
 });

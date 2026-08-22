@@ -14,6 +14,7 @@ export const common = {
   'nav.controlled': '🌀 Психоактивни растения',
   'nav.packages': '📦 Комплекти',
   'nav.permaculture': '🌱 Пермакултура',
+  'nav.preparation': '🫖 Приготвяне',
   'nav.symptoms': '🌿 Помощ при…',
   'nav.search': '🔍 Търсене',
   // Заглавия на падащите менюта в горната лента

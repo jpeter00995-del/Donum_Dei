@@ -17,6 +17,7 @@ export const common = {
   'nav.controlled': '🌀 Plantes psychoactives',
   'nav.packages': '📦 Kits',
   'nav.permaculture': '🌱 Permaculture',
+  'nav.preparation': '🫖 Préparation',
   'nav.symptoms': '🌿 Aide pour…',
   'nav.search': '🔍 Recherche',
   // Titres des menus déroulants de l'en-tête

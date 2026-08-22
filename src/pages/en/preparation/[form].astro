@@ -1,0 +1,129 @@
+---
+// === 1. IMPORTS ===
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { loadAllPlants } from '@/lib/loadPlants';
+import { findPlantsForForm } from '@/lib/preparationPlants';
+import {
+  ZUBEREITUNG_EN,
+  ZUBEREITUNG_SLUG_DE,
+  ZUBEREITUNG_SLUG_EN,
+  ZUBEREITUNG_REIHENFOLGE,
+} from '@/lib/preparationText';
+
+// === 2. STATIC PATHS — eine Seite je Zubereitungsart ===
+export function getStaticPaths() {
+  return ZUBEREITUNG_REIHENFOLGE.map(form => ({
+    params: { form: ZUBEREITUNG_SLUG_EN[form] },
+    props: { form },
+  }));
+}
+
+const { form } = Astro.props;
+const locale = 'en' as const;
+const z = ZUBEREITUNG_EN[form];
+const plants = loadAllPlants();
+const treffer = findPlantsForForm(form, plants, locale);
+
+function kuerzen(text: string): string {
+  const first = text.split(/(?<=[.!])\s/)[0] ?? '';
+  return first.length > 150 ? first.slice(0, 147).trimEnd() + '…' : first;
+}
+
+const andere = ZUBEREITUNG_REIHENFOLGE.filter(f => f !== form);
+
+const title = z.titel;
+const description =
+  `${z.kurz} Working steps, quantities and limits — plus ${treffer.length} plants ` +
+  `from the database that are used this way.`;
+---
+
+<BaseLayout
+  locale={locale}
+  title={title}
+  description={description}
+  altPath={`/de/zubereitung/${ZUBEREITUNG_SLUG_DE[form]}/`}
+>
+  <article class="max-w-6xl mx-auto px-4 pt-8 pb-12">
+    <nav aria-label="Breadcrumb" class="mb-4 text-sm text-slate-500">
+      <a href="/en/" class="hover:text-emerald-700 hover:underline">Plants</a>
+      <span class="mx-1.5 text-slate-300" aria-hidden="true">/</span>
+      <a href="/en/preparation/" class="hover:text-emerald-700 hover:underline">Preparation</a>
+      <span class="mx-1.5 text-slate-300" aria-hidden="true">/</span>
+      <span class="text-slate-700">{z.titel}</span>
+    </nav>
+
+    <h1 class="font-serif text-3xl md:text-4xl text-slate-900 mb-4">{z.titel}</h1>
+
+    <div class="grid lg:grid-cols-[minmax(0,1fr)_20rem] gap-10">
+      <div class="min-w-0">
+        <p class="text-lg leading-relaxed text-slate-700 mb-8 text-pretty">{z.einleitung}</p>
+
+        <h2 class="leaf-heading font-serif text-2xl text-slate-900 mb-3">How it is done</h2>
+        <ol class="mb-8 space-y-3 list-decimal pl-5 marker:text-emerald-600 marker:font-semibold">
+          {z.schritte.map(s => <li class="pl-1 text-slate-700 leading-relaxed text-pretty">{s}</li>)}
+        </ol>
+
+        <h2 class="leaf-heading font-serif text-2xl text-slate-900 mb-3">What this form suits</h2>
+        <p class="mb-8 text-slate-700 leading-relaxed text-pretty">{z.passt}</p>
+
+        <h2 class="leaf-heading font-serif text-2xl text-slate-900 mb-3">Where it ends</h2>
+        <div class="mb-8 rounded-2xl border-l-4 border-amber-400 bg-amber-50 px-5 py-4">
+          <p class="text-slate-800 leading-relaxed text-pretty">{z.grenzen}</p>
+        </div>
+
+        {z.aufbewahren && (
+          <>
+            <h2 class="leaf-heading font-serif text-2xl text-slate-900 mb-3">Storing it</h2>
+            <p class="mb-8 text-slate-700 leading-relaxed text-pretty">{z.aufbewahren}</p>
+          </>
+        )}
+      </div>
+
+      <aside class="lg:pt-2">
+        <h2 class="font-serif text-lg text-slate-900 mb-3">Other preparations</h2>
+        <ul class="space-y-1.5 text-sm">
+          {andere.map(f => (
+            <li>
+              <a href={`/en/preparation/${ZUBEREITUNG_SLUG_EN[f]}/`}
+                class="text-emerald-700 hover:text-emerald-800 hover:underline">
+                {ZUBEREITUNG_EN[f].titel}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </aside>
+    </div>
+
+    <h2 class="leaf-heading font-serif text-2xl text-slate-900 mt-4 mb-3">
+      Plants used this way
+    </h2>
+    <p class="max-w-2xl text-slate-600 mb-6 text-pretty">
+      {treffer.length} plants in this database have at least one traditional use in this
+      form. Toxic and legally controlled species are deliberately not on this list.
+    </p>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {treffer.map(t => { const p = t.plant; return (
+        <a href={`/en/plant/${p.slug}/`}
+          class="group flex gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3 hover:border-emerald-600 transition">
+          <img src={`/images/plants/${p.image.filename}`} alt={p.image.alt?.en ?? p.names.en}
+            width="72" height="72" loading="lazy"
+            class="flex-none rounded-xl object-cover bg-slate-100" style="width:72px;height:72px;" />
+          <div class="min-w-0">
+            <span class="font-serif text-slate-900 leading-tight">{p.names.en}</span>
+            <div class="text-xs italic text-slate-400">{p.names.latin}</div>
+            <p class="mt-1 text-[13px] leading-snug text-slate-600 line-clamp-3">
+              {kuerzen(t.use.description[locale])}
+            </p>
+          </div>
+        </a>
+      ); })}
+    </div>
+
+    <p class="mt-10 text-sm text-slate-500">
+      <a href="/en/preparation/" class="text-emerald-700 hover:underline">All preparations</a> ·
+      <a href="/en/" class="text-emerald-700 hover:underline">all plants</a> ·
+      <a href="/en/help-with" class="text-emerald-700 hover:underline">help with symptoms</a>
+    </p>
+  </article>
+</BaseLayout>

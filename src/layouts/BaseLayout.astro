@@ -69,6 +69,7 @@ const navGroups: { label: string; items: { href: string; label: string; featured
   {
     label: t(locale, 'nav.group_learn'),
     items: [
+      { href: navLocale === 'de' ? '/de/zubereitung/' : '/en/preparation/', label: t(locale, 'nav.preparation') },
       { href: navLocale === 'de' ? '/de/permakultur' : '/en/permaculture', label: t(locale, 'nav.permaculture') },
       { href: `/${navLocale}/quiz`, label: t(locale, 'nav.quiz') },
     ],

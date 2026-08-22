@@ -52,6 +52,8 @@ export const plant = {
   'use.plant_part.whole_plant': 'Whole plant',
 
   'use.preparation.title': 'Preparation & dosage',
+
+  'use.preparation.link_title': 'How this preparation is made — steps, quantities and limits',
   'use.preparation.amount_dry': 'Dry amount',
   'use.preparation.amount_ml': 'Liquid amount',
   'use.preparation.doses_per_day': 'Doses per day',

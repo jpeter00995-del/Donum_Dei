@@ -20,6 +20,7 @@ export const common = {
   'nav.controlled': '🌀 Rauschpflanzen',
   'nav.packages': '📦 Pflanz-Sets',
   'nav.permaculture': '🌱 Permakultur',
+  'nav.preparation': '🫖 Zubereitung',
   'nav.symptoms': '🌿 Hilfe bei…',
   'nav.search': '🔍 Suche',
   // Gruppen-Titel der Klapp-Menüs in der Kopfleiste

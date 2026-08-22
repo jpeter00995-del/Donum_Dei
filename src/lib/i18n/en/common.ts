@@ -19,6 +19,7 @@ export const common = {
   'nav.controlled': '🌀 Psychoactive',
   'nav.packages': '📦 Planting Sets',
   'nav.permaculture': '🌱 Permaculture',
+  'nav.preparation': '🫖 Preparation',
   'nav.symptoms': '🌿 Help with…',
   'nav.search': '🔍 Search',
   // Group titles for the header dropdown menus

@@ -1,5 +1,6 @@
 import type { Locale, UiLocale } from './types';
 import { contentLocale } from './types';
+import { ZUBEREITUNG_SLUG_DE, ZUBEREITUNG_SLUG_EN } from './preparationText';
 
 // === 1. ZWECK ===
 // Die deutschen und englischen Seiten haben UEBERSETZTE Adressen
@@ -31,6 +32,7 @@ export const DE_TO_EN: Readonly<Record<string, string>> = {
   'rauschpflanzen': 'psychoactive',
   'suche': 'search',
   'ueber': 'about',
+  'zubereitung': 'preparation',
   'zuhause-anbauen': 'grow-at-home',
 };
 
@@ -39,6 +41,31 @@ export const DE_TO_EN: Readonly<Record<string, string>> = {
 export const EN_TO_DE: Readonly<Record<string, string>> = Object.fromEntries(
   Object.entries(DE_TO_EN).map(([de, en]) => [en, de]),
 );
+
+// === 3b. UEBERSETZTE UNTER-SEGMENTE ===
+// Die meisten Unterseiten tragen in beiden Sprachen dieselbe Kennung
+// (/de/heilpflanzen-gegen/husten/ <-> /en/plants-for/husten/) — dort genuegt
+// der Tausch des ersten Segments. Die Zubereitungsseiten sind die Ausnahme:
+// sie haben auch im zweiten Segment eine eigene, sprechende Adresse
+// (/de/zubereitung/tee/ <-> /en/preparation/tea/). Ohne diese Tabelle
+// verweist der Sprachumschalter dort ins Leere.
+//
+// Aus den Slug-Tabellen abgeleitet, damit beides nicht auseinanderlaufen kann.
+const ZUBEREITUNG_SUB_DE_TO_EN: Readonly<Record<string, string>> = Object.fromEntries(
+  (Object.keys(ZUBEREITUNG_SLUG_DE) as (keyof typeof ZUBEREITUNG_SLUG_DE)[]).map(form => [
+    ZUBEREITUNG_SLUG_DE[form],
+    ZUBEREITUNG_SLUG_EN[form],
+  ]),
+);
+const ZUBEREITUNG_SUB_EN_TO_DE: Readonly<Record<string, string>> = Object.fromEntries(
+  Object.entries(ZUBEREITUNG_SUB_DE_TO_EN).map(([de, en]) => [en, de]),
+);
+
+/** Erstes Segment (bereits uebersetzt) -> Tabelle fuer das zweite Segment. */
+const SUB_TABLES: Readonly<Record<string, Readonly<Record<string, string>>>> = {
+  preparation: ZUBEREITUNG_SUB_DE_TO_EN,
+  zubereitung: ZUBEREITUNG_SUB_EN_TO_DE,
+};
 
 // === 4. PFAD-UEBERSETZUNG ===
 /**
@@ -72,7 +99,14 @@ export function translatePath(path: string, from: UiLocale, to: Locale): string 
   const translatedFirst = table[segments[0]];
   if (!translatedFirst) return `/${to}/`;
 
+  // Zweites Segment nur dort uebersetzen, wo es eine eigene Adresse hat.
+  // Unbekannte Werte bleiben stehen — ein geratener Slug waere schlimmer.
   const rest = segments.slice(1);
+  const subTable = SUB_TABLES[translatedFirst];
+  if (subTable && rest.length > 0 && subTable[rest[0]]) {
+    rest[0] = subTable[rest[0]];
+  }
+
   const joined = [translatedFirst, ...rest].join('/');
   return `/${to}/${joined}${hadTrailingSlash ? '/' : ''}`;
 }
