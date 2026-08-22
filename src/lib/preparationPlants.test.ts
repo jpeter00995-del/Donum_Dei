@@ -6,7 +6,12 @@ import { describe, it, expect } from 'vitest';
 import type { Plant } from './types';
 import type { UseForm } from './plantSchema';
 import { loadAllPlants } from './loadPlants';
-import { findPlantsForForm, countPlantsPerForm, formsOfPlant } from './preparationPlants';
+import {
+  findPlantsForForm,
+  countPlantsPerForm,
+  formsOfPlant,
+  istFuerAnleitungGeeignet,
+} from './preparationPlants';
 import {
   ZUBEREITUNG_DE,
   ZUBEREITUNG_EN,
@@ -160,6 +165,68 @@ describe('Datenlauf', () => {
       for (const t of findPlantsForForm(form, plants, 'de')) {
         expect(t.plant.safety?.toxicity_level, `${form}/${t.plant.slug}`).not.toBe('toxic');
         expect(t.plant.legal_status?.controlled, `${form}/${t.plant.slug}`).not.toBe(true);
+      }
+    }
+  });
+});
+
+// === 5. ANLEITUNGS-EIGNUNG ===
+// Gefunden bei der Sichtpruefung in Sitzung 36: Der Abendlaendische Lebensbaum
+// stand an erster Stelle der Teeseite. Er ist als "caution" eingestuft, sein
+// Warntext beginnt mit "GIFTIG (Thujon-Gehalt)", und die Tee-Anwendung ist ein
+// historischer Bericht von 1535.
+describe('istFuerAnleitungGeeignet', () => {
+  it('wirft blosse Ueberlieferung bei Vorsichts-Pflanzen raus, wenn innerlich', () => {
+    const p = pflanze({ safety: { warnings: { de: '', en: '' }, external_only: false, toxicity_level: 'caution' } });
+    const u = anwendung('tea', { internal_external: 'internal', evidence_level: 'folk' });
+    expect(istFuerAnleitungGeeignet(p, u as never)).toBe(false);
+  });
+
+  it('laesst aeusserliche Anwendungen derselben Pflanze stehen', () => {
+    const p = pflanze({ safety: { warnings: { de: '', en: '' }, external_only: false, toxicity_level: 'caution' } });
+    const u = anwendung('compress', { internal_external: 'external', evidence_level: 'folk' });
+    expect(istFuerAnleitungGeeignet(p, u as never)).toBe(true);
+  });
+
+  it('laesst belastbarere Einstufungen stehen', () => {
+    const p = pflanze({ safety: { warnings: { de: '', en: '' }, external_only: false, toxicity_level: 'caution' } });
+    for (const stufe of ['traditional', 'commission_e', 'ema_well_established', 'clinical_trial']) {
+      const u = anwendung('tea', { internal_external: 'internal', evidence_level: stufe });
+      expect(istFuerAnleitungGeeignet(p, u as never), stufe).toBe(true);
+    }
+  });
+
+  it('haelt nur-aeusserliche Pflanzen aus innerlichen Formen heraus', () => {
+    const p = pflanze({ safety: { warnings: { de: '', en: '' }, external_only: true } });
+    const innen = anwendung('tea', { internal_external: 'internal', evidence_level: 'traditional' });
+    const aussen = anwendung('salve', { internal_external: 'external', evidence_level: 'traditional' });
+    expect(istFuerAnleitungGeeignet(p, innen as never)).toBe(false);
+    expect(istFuerAnleitungGeeignet(p, aussen as never)).toBe(true);
+  });
+});
+
+// === 6. DER KONKRETE FALL ===
+describe('Datenlauf — Thuja', () => {
+  const plants = loadAllPlants();
+
+  it('Thuja steht nicht auf der Teeseite', () => {
+    const slugs = findPlantsForForm('tea', plants, 'de').map(t => t.plant.slug);
+    expect(slugs).not.toContain('thuja-occidentalis');
+  });
+
+  it('Thuja steht weiterhin bei den aeusserlichen Formen', () => {
+    const slugs = findPlantsForForm('salve', plants, 'de').map(t => t.plant.slug);
+    expect(slugs).toContain('thuja-occidentalis');
+  });
+
+  // Nur-aeusserliche Pflanzen duerfen sehr wohl auf der Tinkturseite stehen —
+  // die Arnika-Tinktur ist ein Klassiker, sie wird nur nicht getrunken.
+  // Verboten ist die Kombination "external_only" + innerliche Anwendung.
+  it('von nur-aeusserlichen Pflanzen wird keine innerliche Anwendung gezeigt', () => {
+    for (const form of ZUBEREITUNG_REIHENFOLGE) {
+      for (const t of findPlantsForForm(form, plants, 'de')) {
+        if (!t.plant.safety?.external_only) continue;
+        expect(t.use.internal_external, `${form}/${t.plant.slug}`).toBe('external');
       }
     }
   });

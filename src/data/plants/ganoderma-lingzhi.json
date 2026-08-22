@@ -90,12 +90,62 @@
   },
   "safety": {
     "warnings": {
-      "de": "Allgemein gut verträglich. Reishi kann die Wirkung von Blutgerinnungshemmern (Antikoagulantien/Thrombozytenaggregationshemmern) verstärken und so das Blutungsrisiko erhöhen; bei solchen Medikamenten sowie vor Operationen ärztlich abklären. Selten allergische Reaktionen und Magen-Darm-Beschwerden. In Schwangerschaft, Stillzeit und bei Kindern mangels Daten meiden. Kein Speisepilz – der Fruchtkörper ist holzig und nicht zum Verzehr als Nahrung geeignet.",
-      "en": "Generally well tolerated. Reishi may enhance the effect of anticoagulant/antiplatelet drugs and increase bleeding risk; consult a clinician if taking such medication or before surgery. Rare allergic reactions and digestive upset have been reported. Avoid in pregnancy, breastfeeding and in children due to lack of data. Not a culinary mushroom – the fruiting body is woody and not eaten as food."
+      "de": "Allgemein gut verträglich; berichtet werden Übelkeit, Mundtrockenheit, Schlaflosigkeit, Juckreiz und Schwindel. Zu pulverisiertem Reishi gibt es Fallberichte über Leberschäden, in einem Fall mit tödlichem Ausgang — bei Lebererkrankung ist davon abzuraten. Reishi kann die Wirkung von Blutgerinnungshemmern (Antikoagulantien/Thrombozytenaggregationshemmern) verstärken und so das Blutungsrisiko erhöhen; bei solchen Medikamenten sowie vor Operationen ärztlich abklären. Selten allergische Reaktionen und Magen-Darm-Beschwerden. In Schwangerschaft, Stillzeit und bei Kindern mangels Daten meiden. Kein Speisepilz – der Fruchtkörper ist holzig und nicht zum Verzehr als Nahrung geeignet.",
+      "en": "Generally well tolerated; nausea, dry mouth, insomnia, itching and vertigo have been reported. For powdered reishi there are case reports of liver damage, in one instance fatal — it is not advisable with liver disease. Reishi may enhance the effect of anticoagulant/antiplatelet drugs and increase bleeding risk; consult a clinician if taking such medication or before surgery. Rare allergic reactions and digestive upset have been reported. Avoid in pregnancy, breastfeeding and in children due to lack of data. Not a culinary mushroom – the fruiting body is woody and not eaten as food."
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Untersuchungen an Schwangeren. Reishi ist kein Speisepilz, sondern wird als Extrakt oder Aufguss eingenommen — ohne Datenlage in der Schwangerschaft nicht anzuwenden.",
+        "en": "No studies in pregnant women. Reishi is not an edible mushroom but is taken as an extract or infusion — with no data, it should not be used in pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten zu Übergang in die Muttermilch oder zu Wirkungen auf gestillte Kinder.",
+        "en": "No data on passage into breast milk or on effects in breastfed infants."
+      }
+    },
+    "children": {
+      "status": "unknown",
+      "note": {
+        "de": "Bei Kindern nicht untersucht.",
+        "en": "Not studied in children."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Gerinnungshemmer und Thrombozytenhemmer",
+        "severity": "caution",
+        "source_id": "src_msk",
+        "mechanism": {
+          "de": "Reishi kann das Blutungsrisiko erhöhen; Extrakte verlängerten in Untersuchungen die Gerinnungswerte (INR, Quick, aPTT). Bei gerinnungshemmender Behandlung und vor Operationen ärztlich abklären.",
+          "en": "Reishi can increase the risk of bleeding; extracts prolonged clotting values (INR, PT, aPTT) in studies. Clear it medically with anticoagulant treatment and before surgery."
+        }
+      },
+      {
+        "drug_class": "Immunsuppressiva",
+        "severity": "caution",
+        "source_id": "src_msk",
+        "mechanism": {
+          "de": "Reishi verstärkt die Immunantwort und wirkt damit einer gewollten Unterdrückung des Immunsystems entgegen — etwa nach Organtransplantation oder bei Autoimmunerkrankungen.",
+          "en": "Reishi enhances the immune response and thus works against a deliberate suppression of the immune system — for instance after organ transplantation or in autoimmune disease."
+        }
+      },
+      {
+        "drug_class": "Arzneimittel mit Abbau über Cytochrom P450",
+        "severity": "monitor",
+        "source_id": "src_msk",
+        "mechanism": {
+          "de": "Reishi-Polysaccharide hemmten im Laborversuch die Enzyme CYP2E1, CYP1A2 und CYP3A und könnten damit den Spiegel entsprechender Medikamente verändern. Die klinische Bedeutung ist nicht bekannt.",
+          "en": "In vitro, reishi polysaccharides inhibited the enzymes CYP2E1, CYP1A2 and CYP3A and could thus alter the levels of drugs handled by them. The clinical relevance is not known."
+        }
+      }
+    ]
   },
   "constituents": [
     {
@@ -200,5 +250,28 @@
     "license": "CC BY-SA 3.0",
     "author": "Techieoldfox (via Mushroom Observer)",
     "source_url": "https://commons.wikimedia.org/wiki/File:Ganoderma_lingzhi_Wu,_Cao_%26_Dai_574883.jpg"
-  }
+  },
+  "harvest": [
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Geerntet wird, sobald der weiße Zuwachsrand am Hutrand verschwunden und die Oberseite gleichmäßig lackrot ist — dann ist der Fruchtkörper reif. Wartet man länger, verholzt er weiter und der Sporenstaub überzieht alles rundherum. Abgeschnitten wird dicht am Substrat.",
+        "en": "Harvest once the white growing margin at the cap edge has gone and the upper surface is an even lacquer red — the fruiting body is then mature. Wait longer and it lignifies further, and the spore dust coats everything around it. Cut close to the substrate."
+      },
+      "drying": {
+        "de": "Der Fruchtkörper ist von vornherein hart und holzig. In dünne Scheiben sägen oder schneiden, solange er frisch ist, danach bei 40 bis 50 Grad durchtrocknen. Am Stück getrocknet ist er später kaum noch zu teilen.",
+        "en": "The fruiting body is hard and woody from the start. Saw or cut it into thin slices while fresh, then dry through at 40 to 50 degrees. Dried whole, it is afterwards barely possible to divide."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken und dunkel, luftdicht verschlossen. Reishi ist wegen seiner harten Struktur lange haltbar, zieht aber Feuchtigkeit.",
+        "en": "Dry and dark, airtight. Reishi keeps for a long time thanks to its hard structure, but it draws moisture."
+      }
+    }
+  ]
 }

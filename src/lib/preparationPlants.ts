@@ -14,6 +14,14 @@ import { istFuerEmpfehlungGeeignet } from './symptomSearch';
 // Arten stehen nicht auf einer Seite, die zum Nachmachen anleitet
 // (istFuerEmpfehlungGeeignet in symptomSearch.ts). Sie bleiben ueber Suche
 // und Register erreichbar.
+//
+// Zweite Huerde, gefunden bei der Sichtpruefung in Sitzung 36: Der
+// Abendlaendische Lebensbaum stand an erster Stelle der Teeseite. Er traegt
+// `toxicity_level: caution` und rutschte deshalb durch — sein eigener Warntext
+// beginnt aber mit "GIFTIG (Thujon-Gehalt)", und die Tee-Anwendung ist ein
+// historischer Bericht ueber Jacques Cartier von 1535. Auf einer Seite, die
+// erklaert, wie man Tee ansetzt, hat so etwas nichts verloren.
+// Siehe istFuerAnleitungGeeignet.
 
 // === 2. TYPEN ===
 export type Zubereitungstreffer = {
@@ -24,7 +32,41 @@ export type Zubereitungstreffer = {
   anzahl: number;
 };
 
-// === 3. ZUORDNUNG ===
+// === 3. EIGNUNG EINER EINZELNEN ANWENDUNG ===
+/** Innerliche Anwendung? 'both' zaehlt mit, weil auch innerlich angewendet wird. */
+function istInnerlich(use: PlantUse): boolean {
+  return use.internal_external === 'internal' || use.internal_external === 'both';
+}
+
+/**
+ * Darf diese eine Anwendung auf einer Anleitungsseite stehen?
+ *
+ * Zwei Ausschluesse, beide bewusst eng gehalten, damit die Listen nicht
+ * ausduennen:
+ *
+ *  1. `safety.external_only` — die Pflanze ist ausdruecklich nur zur aeusseren
+ *     Anwendung freigegeben. Eine innerliche Form (Tee, Tinktur, Gurgeln,
+ *     Gewuerz, roh) darf dann nicht in der Liste auftauchen.
+ *
+ *  2. `toxicity_level: 'caution'` + innerlich + `evidence_level: 'folk'` —
+ *     bei einer Pflanze, die bereits einen Vorsichtshinweis traegt, reicht
+ *     blosse Ueberlieferung nicht aus, um sie zum Nachmachen zu empfehlen.
+ *     Aeusserliche Anwendungen sind davon nicht betroffen, ebensowenig
+ *     Anwendungen mit belastbarerer Einstufung (traditional, Kommission E,
+ *     EMA, klinische Studie).
+ *
+ * Pure function.
+ */
+export function istFuerAnleitungGeeignet(plant: Plant, use: PlantUse): boolean {
+  const s = plant.safety;
+  if (s?.external_only && istInnerlich(use)) return false;
+  if (s?.toxicity_level === 'caution' && istInnerlich(use) && use.evidence_level === 'folk') {
+    return false;
+  }
+  return true;
+}
+
+// === 4. ZUORDNUNG ===
 /**
  * Liefert alle empfehlungsfaehigen Pflanzen, die mindestens eine Anwendung
  * in der gegebenen Zubereitungsform haben.
@@ -43,7 +85,9 @@ export function findPlantsForForm(
 
   for (const plant of plants) {
     if (!istFuerEmpfehlungGeeignet(plant)) continue;
-    const passende = (plant.uses ?? []).filter(u => u.form === form);
+    const passende = (plant.uses ?? []).filter(
+      u => u.form === form && istFuerAnleitungGeeignet(plant, u),
+    );
     if (passende.length === 0) continue;
     // Bevorzugt die Anwendung mit eigener Zubereitungsangabe — sie ist die
     // aussagekraeftigere Begruendung auf der Karte.
@@ -67,7 +111,7 @@ export function countPlantsPerForm(plants: Plant[]): Record<string, number> {
     if (!istFuerEmpfehlungGeeignet(plant)) continue;
     const formen = new Set<string>();
     for (const use of plant.uses ?? []) {
-      if (use.form) formen.add(use.form);
+      if (use.form && istFuerAnleitungGeeignet(plant, use)) formen.add(use.form);
     }
     for (const f of formen) zaehler[f] = (zaehler[f] ?? 0) + 1;
   }

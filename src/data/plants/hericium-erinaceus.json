@@ -93,7 +93,48 @@
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "unknown",
+      "note": {
+        "de": "Als Speisepilz in üblichen Essensmengen gibt es keine Hinweise auf ein Problem. Für die konzentrierten Extrakte und Kapseln fehlen Untersuchungen an Schwangeren vollständig — daher in der Schwangerschaft nicht als Nahrungsergänzung verwenden.",
+        "en": "As an edible mushroom in ordinary food amounts there is no indication of a problem. For the concentrated extracts and capsules there are no studies in pregnant women at all — so do not use it as a supplement during pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Es liegen keine Daten zu Übergang in die Muttermilch oder zu Wirkungen auf gestillte Kinder vor.",
+        "en": "There are no data on passage into breast milk or on effects in breastfed infants."
+      }
+    },
+    "children": {
+      "status": "unknown",
+      "note": {
+        "de": "Als Speisepilz unbedenklich, sofern er gut durchgegart ist. Extrakte und Kapseln sind bei Kindern nicht untersucht.",
+        "en": "Harmless as an edible mushroom provided it is cooked through. Extracts and capsules have not been studied in children."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Gerinnungshemmer und Thrombozytenhemmer",
+        "severity": "monitor",
+        "source_id": "src_msk",
+        "mechanism": {
+          "de": "In Laborversuchen hemmten Inhaltsstoffe des Pilzes die Blutplättchen-Verklumpung. Ob das beim Menschen eine Rolle spielt, ist nicht geklärt; bei gerinnungshemmender Behandlung und vor Operationen ist Zurückhaltung angebracht.",
+          "en": "In laboratory studies constituents of the mushroom inhibited platelet aggregation. Whether this matters in humans is unclear; caution is warranted with anticoagulant treatment and before surgery."
+        }
+      },
+      {
+        "drug_class": "Blutzuckersenkende Mittel (Antidiabetika)",
+        "severity": "monitor",
+        "source_id": "src_msk",
+        "mechanism": {
+          "de": "Im Tierversuch senkte der Pilz den Blutzucker. Bei laufender Diabetesbehandlung und regelmäßiger Einnahme von Extrakten den Blutzucker im Auge behalten.",
+          "en": "In animal studies the mushroom lowered blood sugar. With ongoing diabetes treatment and regular use of extracts, keep an eye on blood glucose."
+        }
+      }
+    ]
   },
   "constituents": [
     {
@@ -181,6 +222,13 @@
       "title": "File:Hericium erinaceus 2.JPG - Wikimedia Commons",
       "url": "https://commons.wikimedia.org/wiki/File:Hericium_erinaceus_2.JPG",
       "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_msk",
+      "type": "monograph",
+      "title": "Lion's Mane Mushroom — About Herbs, Memorial Sloan Kettering Cancer Center",
+      "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/lions-mane-mushroom",
+      "accessed": "2026-08-22"
     }
   ],
   "image": {
@@ -192,5 +240,29 @@
     "license": "CC BY-SA 3.0",
     "author": "Властарь (Wikimedia Commons)",
     "source_url": "https://commons.wikimedia.org/wiki/File:Hericium_erinaceus_2.JPG"
-  }
+  },
+  "harvest": [
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Wildvorkommen sind in Deutschland stark gefährdet und stehen unter Schutz — sie werden nicht gesammelt. Aus eigener Zucht wird geerntet, solange die Stacheln rein weiß sind und noch keine Sporen fallen; gilbende oder bräunliche Fruchtkörper schmecken bitter.",
+        "en": "Wild populations are highly endangered and protected in Germany — they are not gathered. From your own cultivation, harvest while the spines are pure white and no spores are dropping yet; yellowing or browning fruiting bodies taste bitter."
+      },
+      "drying": {
+        "de": "In etwa ein Zentimeter dicke Scheiben schneiden und bei 40 bis 50 Grad trocknen, bis sie hart brechen. Der Pilz besteht zu über neunzig Prozent aus Wasser und schrumpft dabei erheblich.",
+        "en": "Cut into slices about a centimetre thick and dry at 40 to 50 degrees until they snap. The mushroom is over ninety percent water and shrinks considerably."
+      },
+      "storage_months": 12,
+      "storage_condition": {
+        "de": "Getrocknet luftdicht, dunkel und trocken. Frisch hält er im Kühlschrank in einer Papiertüte nur drei bis fünf Tage.",
+        "en": "Dried, keep airtight, dark and dry. Fresh, it keeps only three to five days in a paper bag in the fridge."
+      }
+    }
+  ]
 }

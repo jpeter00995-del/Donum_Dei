@@ -22,10 +22,15 @@
   "uses": [
     {
       "form": "tincture",
-      "target": ["stress (research)"],
+      "target": [
+        "stress (research)"
+      ],
       "internal_external": "internal",
       "plant_part": "root",
-      "source_ids": ["nccih", "pubmed_stress"],
+      "source_ids": [
+        "nccih",
+        "pubmed_stress"
+      ],
       "description": {
         "de": "Standardisierte Wurzelextrakte werden bei stressbedingten Beschwerden eingesetzt; Meta-Analysen zeigen einen messbaren Effekt auf wahrgenommenen Stress. Die Aussagekraft ist durch kleine Stichproben und kurze Laufzeiten begrenzt.",
         "en": "Standardized root extracts are used for stress-related complaints; meta-analyses show a measurable effect on perceived stress. The strength of evidence is limited by small samples and short durations."
@@ -33,11 +38,16 @@
     },
     {
       "form": "tincture",
-      "target": ["sleep (research)"],
+      "target": [
+        "sleep (research)"
+      ],
       "internal_external": "internal",
       "plant_part": "root",
       "evidence_level": "clinical_trial",
-      "source_ids": ["pmc_sleep", "nccih"],
+      "source_ids": [
+        "pmc_sleep",
+        "nccih"
+      ],
       "description": {
         "de": "Eine Meta-Analyse randomisierter Studien fand einen kleinen, aber signifikanten Effekt auf den Schlaf, stärker bei diagnostizierter Insomnie und Anwendung über mindestens 8 Wochen.",
         "en": "A meta-analysis of randomized trials found a small but significant effect on sleep, more pronounced in diagnosed insomnia and use for at least 8 weeks."
@@ -45,11 +55,16 @@
     },
     {
       "form": "raw",
-      "target": ["tonic (Ayurveda)"],
+      "target": [
+        "tonic (Ayurveda)"
+      ],
       "internal_external": "internal",
       "plant_part": "root",
       "evidence_level": "traditional",
-      "source_ids": ["wiki", "livertox"],
+      "source_ids": [
+        "wiki",
+        "livertox"
+      ],
       "description": {
         "de": "Traditionell wird die Wurzel in der ayurvedischen Medizin seit Jahrhunderten als kräftigendes Mittel verwendet. Diese Anwendung beruht auf Erfahrungswissen, nicht auf belastbaren klinischen Belegen.",
         "en": "Traditionally, the root has been used in Ayurvedic medicine for centuries as a tonic. This use rests on traditional knowledge rather than robust clinical evidence."
@@ -57,21 +72,95 @@
     }
   ],
   "season": {
-    "active_months": [10, 11],
-    "harvest_part": { "de": "Wurzel", "en": "Root" }
+    "active_months": [
+      10,
+      11
+    ],
+    "harvest_part": {
+      "de": "Wurzel",
+      "en": "Root"
+    }
   },
   "safety": {
     "external_only": false,
     "toxicity_level": "caution",
     "warnings": {
-      "de": "Kein Heilmittel. Es gibt Fallberichte über teils schwere Leberschäden (cholestatischer Typ, Beginn meist 2–12 Wochen nach Einnahme; meist reversibel, einzelne tödliche Verläufe beschrieben). Während Schwangerschaft und Stillzeit meiden. Nicht empfohlen bei Schilddrüsen- oder Autoimmunerkrankungen. Mögliche Wechselwirkungen mit Sedativa, Immunsuppressiva, Schilddrüsenhormonen sowie Blutdruck-, Diabetes- und Antiepileptika-Medikamenten. Vor Anwendung ärztlich abklären.",
-      "en": "Not a cure. There are case reports of liver injury, some severe (cholestatic pattern, onset usually 2–12 weeks after starting; mostly reversible, isolated fatal cases described). Avoid during pregnancy and breastfeeding. Not recommended for thyroid or autoimmune disorders. Possible interactions with sedatives, immunosuppressants, thyroid hormones, and blood-pressure, diabetes and anti-seizure medications. Consult a clinician before use."
-    }
+      "de": "Kein Heilmittel. Bei hormonabhängigem Prostatakrebs zu meiden, weil Ashwagandha den Testosteronspiegel anheben kann. Häufigste Nebenwirkungen sind vorübergehende Schläfrigkeit, Magendrücken und weicher Stuhl. Es gibt Fallberichte über teils schwere Leberschäden (cholestatischer Typ, Beginn meist 2–12 Wochen nach Einnahme; meist reversibel, einzelne tödliche Verläufe beschrieben). Während Schwangerschaft und Stillzeit meiden. Nicht empfohlen bei Schilddrüsen- oder Autoimmunerkrankungen. Mögliche Wechselwirkungen mit Sedativa, Immunsuppressiva, Schilddrüsenhormonen sowie Blutdruck-, Diabetes- und Antiepileptika-Medikamenten. Vor Anwendung ärztlich abklären.",
+      "en": "Not a cure. To be avoided in hormone-sensitive prostate cancer, because ashwagandha can raise testosterone levels. The commonest side effects are transient drowsiness, upper abdominal discomfort and loose stools. There are case reports of liver injury, some severe (cholestatic pattern, onset usually 2–12 weeks after starting; mostly reversible, isolated fatal cases described). Avoid during pregnancy and breastfeeding. Not recommended for thyroid or autoimmune disorders. Possible interactions with sedatives, immunosuppressants, thyroid hormones, and blood-pressure, diabetes and anti-seizure medications. Consult a clinician before use."
+    },
+    "pregnancy": {
+      "status": "contraindicated",
+      "note": {
+        "de": "In der Schwangerschaft zu meiden. In höheren Mengen wird ein erhöhtes Fehlgeburtsrisiko beschrieben; in der ayurvedischen Überlieferung galt die Wurzel als abtreibend.",
+        "en": "To be avoided in pregnancy. At higher doses an increased risk of miscarriage is described; in Ayurvedic tradition the root was regarded as abortifacient."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Es gibt keine Daten zu Übergang in die Muttermilch oder zu Wirkungen auf gestillte Kinder.",
+        "en": "There are no data on passage into breast milk or on effects in breastfed infants."
+      }
+    },
+    "children": {
+      "status": "unknown",
+      "note": {
+        "de": "Bei Kindern und Jugendlichen nicht ausreichend untersucht.",
+        "en": "Not sufficiently studied in children and adolescents."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Beruhigungs- und Schlafmittel, Antiepileptika (Benzodiazepine, Barbiturate)",
+        "severity": "avoid",
+        "source_id": "msk",
+        "mechanism": {
+          "de": "Ashwagandha wirkt in vorklinischen Untersuchungen beruhigend und greift am GABA-System an. Zusammen mit solchen Medikamenten sind sich verstärkende Effekte zu erwarten; wer sie einnimmt, sollte Ashwagandha meiden.",
+          "en": "In preclinical studies ashwagandha has sedative properties and acts on the GABA system. Additive effects are to be expected together with such medicines; anyone taking them should avoid ashwagandha."
+        }
+      },
+      {
+        "drug_class": "Schilddrüsenhormone",
+        "severity": "caution",
+        "source_id": "msk",
+        "mechanism": {
+          "de": "Nach Einnahme von Ashwagandha-Präparaten sind Fälle einer Schilddrüsenüberfunktion beschrieben; die Beschwerden bildeten sich nach dem Absetzen zurück. Bei Schilddrüsenerkrankung oder laufender Hormonbehandlung ärztlich abklären.",
+          "en": "Cases of thyrotoxicosis have been described after taking ashwagandha preparations; symptoms resolved after stopping. With thyroid disease or ongoing hormone treatment, clear it medically."
+        }
+      },
+      {
+        "drug_class": "Immunsuppressiva",
+        "severity": "caution",
+        "source_id": "msk",
+        "mechanism": {
+          "de": "Ashwagandha wird eine immunstimulierende Wirkung zugeschrieben und kann damit einer gewollten Unterdrückung des Immunsystems entgegenwirken.",
+          "en": "Ashwagandha is credited with immune-stimulating activity and can thus counteract a deliberate suppression of the immune system."
+        }
+      },
+      {
+        "drug_class": "Arzneimittel mit Abbau über Cytochrom P450 (CYP3A4, CYP2B6)",
+        "severity": "monitor",
+        "source_id": "msk",
+        "mechanism": {
+          "de": "Im Laborversuch wirkte Ashwagandha als mäßiger Induktor von CYP3A4 und hemmte CYP2B6. Der Spiegel entsprechender Medikamente könnte sich dadurch verändern; die klinische Bedeutung ist nicht geklärt.",
+          "en": "In vitro, ashwagandha acted as a moderate inducer of CYP3A4 and inhibited CYP2B6. The levels of drugs handled by these enzymes could change; the clinical relevance is unclear."
+        }
+      }
+    ]
   },
   "constituents": [
-    { "name": "Withanolide", "category": "other" },
-    { "name": "Withaferin A", "category": "other" },
-    { "name": "Alkaloide", "category": "alkaloid" }
+    {
+      "name": "Withanolide",
+      "category": "other"
+    },
+    {
+      "name": "Withaferin A",
+      "category": "other"
+    },
+    {
+      "name": "Alkaloide",
+      "category": "alkaloid"
+    }
   ],
   "classical_quotes": [],
   "image": {
@@ -85,11 +174,76 @@
     "source_url": "https://commons.wikimedia.org/wiki/File:Ashwagandha_(Withania_somnifera).jpg"
   },
   "sources": [
-    { "id": "nccih", "type": "monograph", "title": "Ashwagandha: Usefulness and Safety — NCCIH (NIH)", "url": "https://www.nccih.nih.gov/health/ashwagandha", "accessed": "2026-06-23" },
-    { "id": "livertox", "type": "monograph", "title": "Ashwagandha — LiverTox, NCBI Bookshelf (NIH)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK548536/", "accessed": "2026-06-23" },
-    { "id": "wiki", "type": "wikipedia", "title": "Withania somnifera — Wikipedia", "url": "https://en.wikipedia.org/wiki/Withania_somnifera", "accessed": "2026-06-23" },
-    { "id": "pubmed_stress", "type": "monograph", "title": "Effects of Ashwagandha on stress and anxiety: A systematic review and meta-analysis (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/39348746/", "accessed": "2026-06-23" },
-    { "id": "pmc_sleep", "type": "monograph", "title": "Effect of Ashwagandha extract on sleep: A systematic review and meta-analysis (PMC8462692)", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8462692/", "accessed": "2026-06-23" },
-    { "id": "commons_img", "type": "commons", "title": "File:Ashwagandha (Withania somnifera).jpg — Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Ashwagandha_(Withania_somnifera).jpg", "accessed": "2026-06-23" }
+    {
+      "id": "nccih",
+      "type": "monograph",
+      "title": "Ashwagandha: Usefulness and Safety — NCCIH (NIH)",
+      "url": "https://www.nccih.nih.gov/health/ashwagandha",
+      "accessed": "2026-06-23"
+    },
+    {
+      "id": "livertox",
+      "type": "monograph",
+      "title": "Ashwagandha — LiverTox, NCBI Bookshelf (NIH)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK548536/",
+      "accessed": "2026-06-23"
+    },
+    {
+      "id": "wiki",
+      "type": "wikipedia",
+      "title": "Withania somnifera — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Withania_somnifera",
+      "accessed": "2026-06-23"
+    },
+    {
+      "id": "pubmed_stress",
+      "type": "monograph",
+      "title": "Effects of Ashwagandha on stress and anxiety: A systematic review and meta-analysis (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39348746/",
+      "accessed": "2026-06-23"
+    },
+    {
+      "id": "pmc_sleep",
+      "type": "monograph",
+      "title": "Effect of Ashwagandha extract on sleep: A systematic review and meta-analysis (PMC8462692)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8462692/",
+      "accessed": "2026-06-23"
+    },
+    {
+      "id": "commons_img",
+      "type": "commons",
+      "title": "File:Ashwagandha (Withania somnifera).jpg — Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Ashwagandha_(Withania_somnifera).jpg",
+      "accessed": "2026-06-23"
+    },
+    {
+      "id": "msk",
+      "type": "monograph",
+      "title": "Ashwagandha — About Herbs, Memorial Sloan Kettering Cancer Center",
+      "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ashwagandha",
+      "accessed": "2026-08-22"
+    }
+  ],
+  "harvest": [
+    {
+      "plant_part": "root",
+      "best_months": [
+        10,
+        11
+      ],
+      "time_of_day": {
+        "de": "Die Wurzel wird im Herbst ausgegraben, wenn das Kraut abstirbt und die Beeren rot sind — in den Anbaugebieten etwa 150 bis 180 Tage nach der Aussaat. Zu diesem Zeitpunkt ist der Withanolid-Gehalt am höchsten. Die Pflanze wird dazu vollständig entnommen; sie ist einjährig kultiviert.",
+        "en": "The root is dug in autumn, as the top growth dies back and the berries turn red — in the growing regions roughly 150 to 180 days after sowing. The withanolide content is highest at that point. The whole plant is lifted; it is grown as an annual."
+      },
+      "drying": {
+        "de": "Wurzeln waschen, die feinen Seitenwurzeln entfernen und in Stücke von zwei bis drei Zentimetern schneiden. Im Schatten trocknen, nicht in der Sonne — die Withanolide sind lichtempfindlich.",
+        "en": "Wash the roots, remove the fine side roots and cut into pieces of two to three centimetres. Dry in the shade, not in the sun — the withanolides are light-sensitive."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken, dunkel und luftdicht. Erst kurz vor Gebrauch pulverisieren.",
+        "en": "Dry, dark and airtight. Grind to powder only shortly before use."
+      }
+    }
   ]
 }

@@ -114,7 +114,48 @@
     },
     "external_only": false,
     "toxicity_level": "caution",
-    "pet_toxic": false
+    "pet_toxic": false,
+    "pregnancy": {
+      "status": "caution",
+      "note": {
+        "de": "Es gibt keine Untersuchungen an Schwangeren. Angesichts der sehr hohen Oxalatmenge und der beschriebenen Nierenschäden ist Chaga in der Schwangerschaft nicht angebracht.",
+        "en": "There are no studies in pregnant women. Given the very high oxalate load and the reported kidney damage, chaga is not appropriate during pregnancy."
+      }
+    },
+    "lactation": {
+      "status": "unknown",
+      "note": {
+        "de": "Keine Daten zu Übergang in die Muttermilch. Ohne solche Daten und bei der bekannten Nierenbelastung ist von der Anwendung abzuraten.",
+        "en": "No data on passage into breast milk. Without such data, and given the known burden on the kidneys, use is not advisable."
+      }
+    },
+    "children": {
+      "status": "caution",
+      "note": {
+        "de": "Nicht untersucht. Die Oxalatmenge ist bezogen auf das Körpergewicht bei Kindern noch bedeutsamer als bei Erwachsenen.",
+        "en": "Not studied. Relative to body weight, the oxalate load matters even more in children than in adults."
+      }
+    },
+    "drug_interactions": [
+      {
+        "drug_class": "Gerinnungshemmer und Thrombozytenhemmer",
+        "severity": "caution",
+        "source_id": "src_msk",
+        "mechanism": {
+          "de": "Chaga-Extrakt hemmte im Tiermodell die Blutplättchen-Verklumpung. Ein zusätzlicher Effekt zu gerinnungshemmenden Medikamenten ist denkbar; die klinische Bedeutung ist nicht bekannt.",
+          "en": "Chaga extract inhibited platelet aggregation in an animal model. An additive effect with anticoagulant medication is conceivable; the clinical relevance is not known."
+        }
+      },
+      {
+        "drug_class": "Blutzuckersenkende Mittel (Antidiabetika)",
+        "severity": "monitor",
+        "source_id": "src_msk",
+        "mechanism": {
+          "de": "Im Laborversuch senkte Chaga den Blutzucker zusätzlich zu blutzuckersenkenden Wirkstoffen. Ob das im Menschen zutrifft, ist offen — bei Diabetesbehandlung den Blutzucker im Auge behalten.",
+          "en": "In vitro, chaga lowered blood sugar in addition to hypoglycaemic agents. Whether this holds in humans is open — with diabetes treatment, keep an eye on blood glucose."
+        }
+      }
+    ]
   },
   "constituents": [
     {
@@ -203,6 +244,13 @@
       "title": "File:Inonotus obliquus, Finland.jpg — Wikimedia Commons",
       "url": "https://commons.wikimedia.org/wiki/File:Inonotus_obliquus,_Finland.jpg",
       "accessed": "2026-05-31"
+    },
+    {
+      "id": "src_msk",
+      "type": "monograph",
+      "title": "Chaga Mushroom — About Herbs, Memorial Sloan Kettering Cancer Center",
+      "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/chaga-mushroom",
+      "accessed": "2026-08-22"
     }
   ],
   "image": {
@@ -214,5 +262,32 @@
     "license": "CC BY-SA 3.0",
     "author": "Höyhens",
     "source_url": "https://commons.wikimedia.org/wiki/File:Inonotus_obliquus,_Finland.jpg"
-  }
+  },
+  "harvest": [
+    {
+      "plant_part": "whole_plant",
+      "best_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "time_of_day": {
+        "de": "Geerntet wird im Winter an lebenden Birken, wenn der Saft steht. Der schwarze Auswuchs wird nicht vollständig abgetragen — ein Rest bleibt am Baum, damit er nachwachsen kann, und die Rinde darunter darf nicht verletzt werden. Chaga wächst über Jahre; ein sauber abgeernteter Stamm trägt frühestens nach einem Jahrzehnt wieder. Auf fremdem Grund ist die Ernte ohne Erlaubnis des Waldbesitzers nicht zulässig.",
+        "en": "Harvest in winter from living birches, while the sap is up. The black growth is not taken off completely — a remnant stays on the tree so it can regrow, and the bark underneath must not be damaged. Chaga grows over years; a cleanly stripped trunk bears again after a decade at the earliest. On land you do not own, harvesting requires the owner’s permission."
+      },
+      "drying": {
+        "de": "Noch feucht in walnussgroße Stücke schlagen — durchgetrocknet ist das Sklerotium so hart, dass es kaum zu zerkleinern ist. Danach bei höchstens 50 Grad oder luftig im Warmen trocknen, bis es bricht statt sich zu biegen.",
+        "en": "Break it into walnut-sized pieces while still moist — once dried through, the sclerotium is so hard it is barely possible to break up. Then dry at no more than 50 degrees, or airy in a warm place, until it snaps rather than bends."
+      },
+      "storage_months": 24,
+      "storage_condition": {
+        "de": "Trocken, luftig und dunkel. Nicht luftdicht verpacken, solange noch Restfeuchte im Kern sitzt — dann schimmelt es von innen.",
+        "en": "Dry, airy and dark. Do not seal it airtight while residual moisture is still in the core — it will mould from the inside."
+      }
+    }
+  ]
 }
