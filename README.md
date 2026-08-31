@@ -3,13 +3,13 @@
 > Interaktive Heilpflanzen-Datenbank + Selbstversorger-Begleiter — bilingual DE/EN, quellenbelegt, offline-fähig.
 
 **Live:** [donum-dei.pages.dev](https://donum-dei.pages.dev/)
-**Status:** v1.10.41 — **181/223 Pflanzen voll vertieft (81,2 %)**, 285 Tests, 477 statische Seiten
+**Status:** **297 Pflanzen und Pilze, alle voll vertieft**, 1.909 Quellen-Referenzen, 399 Tests, 729 statische Seiten
 
 ---
 
 ## Features
 
-- 🌿 **223 Pflanzen** mit Anwendungen, Wirkstoffen, Sicherheits-Profil, Ernte-Tipps, Toxizitäts-Klassifikation
+- 🌿 **297 Pflanzen und Pilze** mit Anwendungen, Wirkstoffen, Sicherheits-Profil, Ernte-Tipps, Toxizitäts-Klassifikation
 - 🇩🇪🇬🇧 **Bilingual** DE/EN inklusive Latein botanisch
 - 📚 **Quellenangabe pro Fakt** (EMA, Kommission E, ESCOP, PFAF, Henriette's Herbal, Wikipedia, klinische Studien mit CrossRef-DOI, …)
 - 🎯 **Filter** nach Form (Tee/Tinktur/Salbe/…), Ziel-System, Saison, Standort
@@ -129,7 +129,7 @@ Alle Inhalte sind ausschließlich edukativ und beruhen auf publizierter Literatu
 
 ```
 src/
-  data/plants/<slug>.json   ← 223 Plant-Datendateien
+  data/plants/<slug>.json   ← 297 Plant-/Pilz-Datendateien
   lib/
     types.ts                ← TypeScript-Schema (Top-Level-Typen + Enums)
     plantSchema.ts          ← Zod-Schema (Single-Source-of-Truth, canonical seit Codex v1)
