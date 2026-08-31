@@ -2,10 +2,10 @@
 
 ## META
 - user: Maikel (MG)
-- device: MacBook-Air-von-maikel (macOS)
+- device: BUL-06 (Windows)
 - tool: Claude Code (Opus 5)
-- session: 36
-- last_save: 2026-08-22 13:05 Sofia
+- session: 37
+- last_save: 2026-08-31 10:05 Sofia
 - live_url: https://donum-dei.pages.dev
 - github: jpeter00995-del/Donum_Dei
 
@@ -51,16 +51,16 @@ Google hat den AdSense-Antrag zweimal abgelehnt, beide Male mit demselben
 Baustein: „Minderwertige Inhalte — Ihre Website erfuellt noch nicht die
 Nutzungskriterien im Google Publisher-Netzwerk."
 
-In Sitzung 35 wurde Weg C abgearbeitet (Details in `ACTIVE_TASK.md`) und
-veroeffentlicht. Maikel hat danach am **2026-08-20** die erneute
-Ueberpruefung beantragt — **es laeuft also der dritte Antrag.**
+Am **2026-08-31** kam die Antwort auf den dritten Antrag: **wieder abgelehnt,
+wieder mit demselben Baustein.** Damit ist der Text als Ursache praktisch
+ausgeschlossen — zwischen Antrag 2 und 3 wurde er erheblich verbessert
+(Sitzungen 35 und 36) und das Urteil blieb wortgleich.
 
-**Jetzt wird gewartet. Nichts weiter bauen, bis die Antwort da ist.**
+**Maikels Festlegung vom 2026-08-31 (ersetzt die vom 2026-08-20):**
+Antrag 4 und Antrag 5 noch auf `donum-dei.pages.dev`, danach **eigene
+Domain** — beschlossene Sache, nicht mehr offen.
 
-Maikels Festlegung dazu: Die eigene Domain bleibt zurueckgestellt. Erst
-diesen Weg zu Ende gehen — wenn es nach zwei bis drei weiteren Versuchen
-nicht klappt, wird ueber die Domain neu gesprochen. Nicht von sich aus
-wieder vorschlagen.
+Details und naechste Schritte in `ACTIVE_TASK.md`.
 
 ---
 

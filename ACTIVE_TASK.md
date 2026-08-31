@@ -1,52 +1,73 @@
 # Active Task
 
-**Task:** AdSense — dritter Antrag laeuft
-**Started:** 2026-08-20 (Sitzung 35)
-**Status:** WARTET AUF GOOGLE — seit zwei Tagen ohne Antwort
+**Task:** AdSense — dritter Antrag abgelehnt, vierter steht an
+**Started:** 2026-08-31 (Sitzung 37)
+**Status:** WARTET AUF MAIKEL — er stellt den vierten Antrag
 
 ## Stand
 
-Maikel hat am **2026-08-20** die erneute Ueberpruefung beantragt. Antwort
-dauert erfahrungsgemaess ein paar Tage bis rund zwei Wochen. Im Konto aendert
-sich bis dahin nichts von allein.
+Am **2026-08-31** kam die Antwort auf den dritten Antrag: **abgelehnt**, im
+Konto steht wieder derselbe Baustein wie beim ersten und zweiten Mal —
+„Minderwertige Inhalte. Ihre Website erfuellt noch nicht die Nutzungskriterien
+im Google Publisher-Netzwerk."
 
-In Sitzung 36 (2026-08-22) wurde auf Maikels Auftrag hin waehrend der
-Wartezeit weitergearbeitet — drei Wellen, siehe SESSION_STATE § 3. Das greift
-nicht in den laufenden Antrag ein: es aendert nur, was Google beim naechsten
-Crawl vorfindet, und zwar zum Besseren.
+Die Einleitungsmail klang zunaechst neu („einige Probleme festgestellt"), das
+Konto nannte dann aber wortgleich den alten Grund.
 
-## Maikels Festlegung (2026-08-20)
+**Das ist die eigentliche Information:** Zwischen Antrag 2 und 3 wurde der
+Inhalt erheblich verbessert (Sitzung 35: Median der Pflanzenseiten 4574 →
+9352 Zeichen, vier von fuenf Reitern ueberhaupt erst im HTML; Sitzung 36:
+Zubereitungs-Ratgeber, Brotkrumen, fuenf weitere Arten). Das Urteil hat sich
+um kein Wort veraendert. **Der Text ist als Ursache praktisch ausgeschlossen.**
 
-Eigene Domain (`donum-dei.de`, in Sitzung 33 als frei geprueft) bleibt
-**zurueckgestellt**. Erst diesen Weg zu Ende gehen: wenn es nach **zwei bis
-drei weiteren Versuchen** nicht klappt, wird ueber die Domain neu gesprochen.
-Nicht von sich aus wieder vorschlagen.
+## Maikels Festlegung (2026-08-31) — geaendert gegenueber 2026-08-20
 
-## Wenn die Antwort kommt
+> „Wir werden es diesmal und noch einmal machen, dann werden wir die eigene
+> Domain machen."
 
-**Ablehnung mit demselben Baustein** — dann ist es nicht der Text. Zaehlen,
-der wievielte Versuch das war, und nach zwei bis drei Runden die Domainfrage
-wieder aufmachen (siehe oben, Maikels Festlegung).
+Also: **Antrag 4 und Antrag 5 noch auf `donum-dei.pages.dev`. Danach eigene
+Domain** — das ist beschlossen, nicht mehr offen. Nicht vorher vorschlagen,
+aber nach Antrag 5 auch nicht mehr nachfragen, sondern anfangen.
 
-**Ablehnung mit neuem Wortlaut** — den Wortlaut ernst nehmen, er ist die
-erste konkrete Information seit drei Antraegen.
+## Was in Sitzung 37 gemacht wurde
 
-**Freigabe** — Anzeigen-Einrichtung pruefen: `ads.txt` liegt bereits mit
-`pub-5000356216672097`, das AdSense-Script ist im Layout eingebunden.
+**Ueber-/About-Seite korrigiert** (Commit `6d65745`, live). Die Seite behauptete
+„Keine Werbung" / „No advertising", waehrend im selben HTML der AdSense-Code
+laedt und ein Antrag laeuft. Jetzt: „Kostenlos und ohne Anmeldung" /
+„Free to use, no sign-up". Dazu vier veraltete Kennzahlen nachgezogen
+(Stand 2026-06 → 2026-08, Quellen 1.707 → 1.909, Seiten 637 → 729,
+Tests 324 → 399). Die Pflanzenzahlen (281 + 16 Pilze = 297) waren korrekt.
+
+Geprueft und in Ordnung, also **nicht** die Ursache: `/de/impressum/` mit
+echten Angaben, `/de/ueber/`, `/de/datenschutz/`, `/de/bildnachweis/`.
+
+## Search Console — nicht per Werkzeug erreichbar
+
+Versuch am 2026-08-31, ueber Maikels verbundenen Chrome die Indexierung
+anzuschieben: Die Seite `search.google.com/search-console` laedt zwar, aber
+alle Lese- und Klick-Werkzeuge laufen in Timeouts („Script injection timed
+out", „executeScript waited 45000ms"). Gleiches Muster wie bei
+`adsense.google.com`. **Nicht erneut versuchen** — an Maikel uebergeben.
+
+Beobachtung dabei, unbestaetigt: Die URL landete auf
+`/search-console/welcome`. Diese Seite erscheint, wenn das angemeldete Konto
+gar keine Property hat. Die Property liegt laut Projektwissen unter dem Konto
+**jpeter00995**. Moeglicherweise ist Chrome mit einem anderen Konto
+angemeldet. Konnte ich nicht verifizieren, weil die Seite nicht lesbar war.
+
+## Naechste Schritte
+
+1. **Maikel:** vierten Antrag stellen — AdSense → Websites →
+   donum-dei.pages.dev → Ueberpruefung beantragen.
+2. **Maikel:** in der Search Console pruefen, mit welchem Konto er angemeldet
+   ist, und die staerksten Seiten einzeln zur Indexierung anmelden
+   (rund zehn pro Tag).
+3. **Backlinks** — bisher kein einziger. Bleibt der groesste offene Hebel und
+   ist unabhaengig von AdSense.
+4. Nach **Antrag 5**: eigene Domain, beschlossene Sache.
 
 ## Was ehrlich offen bleibt
 
-Die Seite ist von **keiner** Suchmaschine indexiert
-(`site:donum-dei.pages.dev` → 0 Treffer bei Google, geprueft 2026-08-20).
-Das bleibt der eigentliche Nachteil, und Textmenge loest ihn nicht.
-
-Technisch steht dem nichts im Weg — am 2026-08-22 live nachgeprueft:
-`robots.txt` erlaubt alles ausser `/pagefind/`, die Sitemap liefert 696 URLs,
-und die Antwort-Header tragen kein `X-Robots-Tag`. Es fehlt schlicht an
-Verweisen von aussen: **bisher kein einziger Backlink.** Das ist der naechste
-echte Hebel, unabhaengig von AdSense.
-
-Weiterhin duenn, aber bewusst nicht angefasst: `/de/suche/`, `/de/quiz/`,
-`/de/mein-garten/start/` (Suche und Garten-Planer-Start stehen schon auf
-`noindex`) und die Sprachweichen `/es/`, `/fr/`, `/bg/` — reine
-Weiterleitungsseiten.
+Die Seite ist von keiner Suchmaschine indexiert. Technisch steht dem nichts im
+Weg (robots.txt offen, Sitemap liefert, kein `X-Robots-Tag`) — es fehlt an
+Verweisen von aussen und an einer eigenen Adresse.
