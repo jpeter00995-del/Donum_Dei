@@ -10,12 +10,27 @@ Kontingent: rund **zehn Seiten pro Tag**.
 
 ## So geht es
 
-1. `search.google.com/search-console` oeffnen
-2. oben rechts pruefen: angemeldet als **jpeter00995**? Sonst Konto wechseln
-3. Property `https://donum-dei.pages.dev/` waehlen
-4. URL oben in die Leiste einfuegen -> Enter
-5. **Indexierung beantragen** -> warten bis bestaetigt
-6. naechste URL
+Das Konto ist geklaert (2026-08-31): In Maikels Chrome sind drei Google-Konten
+angemeldet. Die AdSense- und Search-Console-Property gehoert
+**jpeter00995@gmail.com (Peter Juergens)** — in Chrome das Profil **`/u/2/`**.
+Die Konten `maikelganske913@gmail.com` und `mbg82008@gmail.com` haben die
+Property nicht; wer dort landet, sieht die Willkommensseite.
+
+Direkter Einstieg mit dem richtigen Konto:
+
+```
+https://search.google.com/u/2/search-console/index?resource_id=https%3A%2F%2Fdonum-dei.pages.dev%2F
+```
+
+Diesen Link oeffnen, dann je URL:
+
+1. URL oben in die Pruefleiste einfuegen -> Enter
+2. **Indexierung beantragen** -> warten bis bestaetigt
+3. naechste URL
+
+Ein Direktlink pro URL (`/search-console/inspect?...&id=...`) waere schoener,
+liefert aber 404 — zweimal getestet am 2026-08-31, in beiden Schreibweisen.
+Der Umweg ueber die Pruefleiste bleibt.
 
 ## Reihenfolge
 
