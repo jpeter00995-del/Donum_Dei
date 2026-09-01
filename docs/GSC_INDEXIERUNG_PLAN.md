@@ -6,7 +6,13 @@ automatisch anzufordern. Die Indexing API ist offiziell auf `JobPosting` und
 kommen ausserdem an `search.google.com` nicht heran (Script-Injection-Timeouts,
 geprueft 2026-08-31). Es bleibt der Knopf von Hand.
 
-Kontingent: rund **zehn Seiten pro Tag**.
+Kontingent: rund **zehn Seiten pro Tag** — so die verbreitete Annahme.
+Gemessen am 2026-09-01: schon beim **ersten** Versuch des Tages kam
+"Kontingent ueberschritten". Google nennt die echte Zahl nicht und teilt sie
+offenbar ueber alle Properties des Kontos. Also nicht auf zehn pro Tag bauen:
+so viele beantragen, wie durchgehen, den Rest am naechsten Tag.
+Die Sitemap erneut einzureichen zaehlt **nicht** auf dieses Kontingent und ist
+der wirksamere Hebel.
 
 ## So geht es
 
@@ -32,18 +38,18 @@ Ein Direktlink pro URL (`/search-console/inspect?...&id=...`) waere schoener,
 liefert aber 404 — zweimal getestet am 2026-08-31, in beiden Schreibweisen.
 Der Umweg ueber die Pruefleiste bleibt.
 
-## Reihenfolge
+## Reihenfolge — oben anfangen, eine pro Tag
 
 Erst die Einstiegs- und Themenseiten, weil dort die internen Links haengen —
 findet Google die, findet es von dort aus weiter. Danach die textstaerksten
 Pflanzenseiten. Pflichtseiten (Impressum, Datenschutz, Bildnachweis) stehen
 bewusst nicht drin; die werden ueber den Footer ohnehin mitgenommen.
 
-Abgehakt wird hier.
+Bei einer Adresse pro Tag ist das kein Fuenf-Tage-Plan, sondern ein Vorrat
+fuer rund fuenfzig Tage. Als Hebel ist das wenig — es kostet aber nur eine
+Minute und schadet nicht. Abgehakt wird hier.
 
-## Tag 1
-
-- [ ] `https://donum-dei.pages.dev/de/`  (50631 Zeichen)
+- [x] `https://donum-dei.pages.dev/de/`  (50631 Zeichen)  — 2026-09-01
 - [ ] `https://donum-dei.pages.dev/en/`  (48393 Zeichen)
 - [ ] `https://donum-dei.pages.dev/de/zubereitung/tee/`  (24613 Zeichen)
 - [ ] `https://donum-dei.pages.dev/en/preparation/tea/`  (23231 Zeichen)
@@ -54,7 +60,6 @@ Abgehakt wird hier.
 - [ ] `https://donum-dei.pages.dev/en/preparation/compress/`  (17971 Zeichen)
 - [ ] `https://donum-dei.pages.dev/de/zubereitung/frisch/`  (17203 Zeichen)
 
-## Tag 2
 
 - [ ] `https://donum-dei.pages.dev/en/toxic-plants-cats-dogs/`  (17076 Zeichen)
 - [ ] `https://donum-dei.pages.dev/en/preparation/fresh/`  (16609 Zeichen)
@@ -67,7 +72,6 @@ Abgehakt wird hier.
 - [ ] `https://donum-dei.pages.dev/en/harvest-calendar/july/`  (11364 Zeichen)
 - [ ] `https://donum-dei.pages.dev/de/heilpflanzen-ernten/juni/`  (11133 Zeichen)
 
-## Tag 3
 
 - [ ] `https://donum-dei.pages.dev/de/plant/euonymus-europaeus/`  (23377 Zeichen)
 - [ ] `https://donum-dei.pages.dev/de/plant/hippeastrum-vittatum/`  (23316 Zeichen)
@@ -80,7 +84,6 @@ Abgehakt wird hier.
 - [ ] `https://donum-dei.pages.dev/de/plant/levisticum-officinale/`  (20880 Zeichen)
 - [ ] `https://donum-dei.pages.dev/de/plant/trigonella-foenum-graecum/`  (20816 Zeichen)
 
-## Tag 4
 
 - [ ] `https://donum-dei.pages.dev/de/plant/gentiana-lutea/`  (20724 Zeichen)
 - [ ] `https://donum-dei.pages.dev/de/plant/inula-helenium/`  (20673 Zeichen)
@@ -93,7 +96,6 @@ Abgehakt wird hier.
 - [ ] `https://donum-dei.pages.dev/en/plant/ginkgo-biloba/`  (20054 Zeichen)
 - [ ] `https://donum-dei.pages.dev/en/plant/filipendula-ulmaria/`  (19829 Zeichen)
 
-## Tag 5
 
 - [ ] `https://donum-dei.pages.dev/de/plant/capsicum-chinense/`  (19618 Zeichen)
 - [ ] `https://donum-dei.pages.dev/de/plant/avena-sativa/`  (19595 Zeichen)
