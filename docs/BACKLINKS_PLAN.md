@@ -28,10 +28,18 @@ bei Google nichts.
 
 | Quelle | Was | Stand |
 |--------|-----|-------|
-| github.com | Repo-Feld „Website" gesetzt, Beschreibung aktualisiert | 2026-08-31 ✅ |
+| github.com (Repo) | Feld „Website" gesetzt, Beschreibung aktualisiert | 2026-08-31 ✅ |
+| github.com (Astro) | Beitrag in Diskussion withastro/roadmap#521 | 2026-09-01 ✅ |
+| bing.com | Seite aufgenommen, Sitemap gelesen (696 Adressen) | 2026-09-01 ✅ |
 
-Kontrolle: `curl -s https://github.com/jpeter00995-del/Donum_Dei | grep donum-dei.pages.dev`
-→ drei Treffer. Der Link steht im ausgelieferten HTML.
+Kontrolle Repo: `curl -s https://github.com/jpeter00995-del/Donum_Dei | grep donum-dei.pages.dev`
+→ drei Treffer.
+
+Kontrolle Astro-Beitrag: `curl -s https://github.com/withastro/roadmap/discussions/521 | grep donum-dei`
+→ zwei Treffer, oeffentlich sichtbar, gepostet von jpeter00995-del.
+Der eigentliche Gewinn kommt erst, wenn der woechentliche Ablauf die Seite in
+die Galerie auf astro.build uebernimmt — dort steht dann ein richtiger Link.
+Wenn nach zwei Wochen nichts passiert ist, im selben Thread nachfragen.
 
 ---
 
