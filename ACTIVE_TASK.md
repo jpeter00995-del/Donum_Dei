@@ -1,8 +1,22 @@
 # Active Task
 
-**Task:** AdSense — dritter Antrag abgelehnt, vierter steht an
-**Started:** 2026-08-31 (Sitzung 37)
-**Status:** WARTET AUF MAIKEL — er stellt den vierten Antrag
+**Task:** AdSense — vierter Antrag laeuft
+**Started:** 2026-08-31 (Sitzung 37, fortgesetzt am 2026-09-01)
+**Status:** WARTET AUF GOOGLE — Antrag 4 gestellt am 2026-09-01
+
+## Was seit der dritten Ablehnung passiert ist
+
+| Datum | Was |
+|-------|-----|
+| 2026-08-31 | Ueber-Seite korrigiert („Keine Werbung" raus), Kennzahlen aktualisiert |
+| 2026-08-31 | GitHub-Repo verlinkt die Live-Seite — erster Backlink ueberhaupt |
+| 2026-09-01 | Bing Webmaster Tools eingerichtet, Sitemap gelesen, 96 Adressen gemeldet |
+| 2026-09-01 | Astro-Showcase-Beitrag gepostet (withastro/roadmap#521) |
+| 2026-09-01 | **Antrag 4 gestellt** |
+
+Nach Maikels Festlegung ist damit noch **ein** Versuch offen. Kommt auch die
+fuenfte Ablehnung, wird die eigene Domain gemacht — beschlossene Sache, dann
+nicht mehr fragen, sondern anfangen.
 
 ## Stand
 
