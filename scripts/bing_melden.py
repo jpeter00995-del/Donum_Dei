@@ -15,6 +15,7 @@
 # Der Schluessel steht in .env.local (BING_API_KEY) und ist per .gitignore
 # vom Repository ausgeschlossen. Er wird hier nie ausgegeben.
 
+import datetime
 import glob
 import json
 import os
@@ -86,6 +87,35 @@ def adressen():
     return sorted({u for u in gefunden if not u.endswith(".xml")})
 
 
+# === 5b. GEDAECHTNIS: WAS WURDE WANN GEMELDET ===
+# Ohne Gedaechtnis meldete das Skript jeden Tag dieselben ersten Adressen
+# (Fehler bis 2026-09-23). Jetzt: noch nie gemeldete zuerst, danach die am
+# laengsten nicht mehr gemeldeten. So rollt das Kontingent durch die Liste.
+GEDAECHTNIS = os.path.join(os.path.dirname(__file__), "bing_gemeldet.json")
+
+
+def gedaechtnis_lesen():
+    if not os.path.exists(GEDAECHTNIS):
+        return {}
+    with open(GEDAECHTNIS, encoding="utf-8") as datei:
+        return json.load(datei)
+
+
+def gedaechtnis_schreiben(stand):
+    # Erst in Zwischendatei, dann umbenennen — kein halb geschriebener Stand
+    zwischen = GEDAECHTNIS + ".tmp"
+    with open(zwischen, "w", encoding="utf-8") as datei:
+        json.dump(stand, datei, indent=1, sort_keys=True)
+    os.replace(zwischen, GEDAECHTNIS)
+
+
+def reihenfolge(liste, stand):
+    """Nie gemeldete (in Wichtigkeits-Reihenfolge) vor den laengst gemeldeten."""
+    neu = [u for u in liste if u not in stand]
+    alt = sorted((u for u in liste if u in stand), key=lambda u: stand[u])
+    return neu, neu + alt
+
+
 # === 6. HAUPTLAUF ===
 def main():
     key = schluessel()
@@ -107,11 +137,17 @@ def main():
         sys.exit("Keine Adressen gefunden — erst 'npm run build' laufen lassen.")
     print(f"Adressen aus der Sitemap: {len(liste)}")
 
+    stand = gedaechtnis_lesen()
+    neu, liste = reihenfolge(liste, stand)
+    print(f"Davon noch nie gemeldet: {len(neu)}")
+
     # Bing gibt neuen Seiten nur wenige Meldungen pro Tag. Mehr zu schicken,
     # als frei ist, laesst den ganzen Block scheitern — also vorher kappen.
     if frei is not None and frei < len(liste):
         print(f"Kontingent reicht heute fuer {frei} — der Rest folgt morgen.")
         liste = liste[:frei]
+
+    heute = datetime.date.today().isoformat()
 
     gemeldet = 0
     for start in range(0, len(liste), BLOCK):
@@ -123,8 +159,13 @@ def main():
               f"HTTP {code} {text[:90]}")
         if ok:
             gemeldet += len(teil)
+            # Nur erfolgreich gemeldete Adressen merken
+            stand.update({u: heute for u in teil})
+            gedaechtnis_schreiben(stand)
 
     print(f"Gemeldet: {gemeldet} von {len(liste)}")
+    rest = max(len(neu) - gemeldet, 0)
+    print(f"Noch nie gemeldet, jetzt noch offen: {rest}")
 
 
 if __name__ == "__main__":
