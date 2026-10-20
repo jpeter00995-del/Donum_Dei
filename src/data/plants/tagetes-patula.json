@@ -44,6 +44,27 @@
       ]
     },
     {
+      "form": "raw",
+      "target": [
+        "pest_control"
+      ],
+      "internal_external": "external",
+      "plant_part": "whole_plant",
+      "preparation": {
+        "instructions": {
+          "de": "MISCHKULTUR IM GEWÄCHSHAUS gegen Weiße Fliege: Im Versuch stand Tagetes patula von Anfang an zwischen den Tomaten; diese hatten ab Tag 34 deutlich weniger Weiße Fliegen. Nachträglich in einen stark befallenen Bestand gesetzt, wirkte Tagetes kaum — daher gleich beim Auspflanzen mitsetzen. Ertrag: Im ersten Versuch kein statistisch signifikanter Unterschied; im zweiten war das Fruchtgewicht mit Tagetes tendenziell niedriger, möglicherweise durch Beschattung.",
+          "en": "GREENHOUSE COMPANION PLANTING against whitefly: in the trial, Tagetes patula stood among the tomatoes from the start, and these had clearly fewer whiteflies from day 34. Added to a heavily infested crop later, marigolds had little effect — so plant them at the same time as the tomatoes. Yield: no statistically significant difference in the first trial; in the second, fruit weight tended to be lower with marigolds, possibly due to shading."
+        }
+      },
+      "description": {
+        "de": "Studentenblumen verringerten in einem Glashaus-Versuch den Befall von Tomaten mit der Gewächshaus-Weißen Fliege (Trialeurodes vaporariorum), vermutlich weil ihr Duftstoff Limonen die Tiere abstößt. 8 Wiederholungen, 48 Tage (England, Conboy et al. 2019). Freiland und andere Gemüse wurden nicht untersucht.",
+        "en": "In a glasshouse trial, French marigolds reduced infestation of tomatoes by the greenhouse whitefly (Trialeurodes vaporariorum), probably because their scent compound limonene repels the insects. 8 replicates, 48 days (England, Conboy et al. 2019). Open-field conditions and other vegetables were not studied."
+      },
+      "source_ids": [
+        "src_plosone_conboy_2019_whitefly"
+      ]
+    },
+    {
       "form": "tea",
       "target": [
         "digestion",
@@ -330,6 +351,13 @@
       "title": "UNAM — Atlas de las Plantas de la Medicina Tradicional Mexicana: Cempasúchil / flor de muerto (Tagetes spp.)",
       "url": "http://www.medicinatradicionalmexicana.unam.mx/apmtm/termino.php?l=3&t=tagetes-erecta",
       "accessed": "2026-05-26"
+    },
+    {
+      "id": "src_plosone_conboy_2019_whitefly",
+      "type": "monograph",
+      "title": "Conboy N.J.A. et al. — Companion planting with French marigolds protects tomato plants from glasshouse whiteflies through the emission of airborne limonene. PLOS ONE 14(3):e0213071, 2019.",
+      "url": "https://doi.org/10.1371/journal.pone.0213071",
+      "accessed": "2026-10-20"
     }
   ],
   "image": {
@@ -407,8 +435,8 @@
         "en": "Marigold deters root nematodes around strawberries."
       },
       "solanum-lycopersicum": {
-        "de": "Tagetes-Wurzeln vertreiben Nematoden im Tomatenbeet.",
-        "en": "Marigold roots deter nematodes in the tomato bed."
+        "de": "Tagetes-Wurzeln vertreiben Nematoden im Tomatenbeet. Studie: Stand Tagetes von Anfang an zwischen Gewächshaustomaten, gab es ab Tag 34 deutlich weniger Weiße Fliegen; nachträglich in starken Befall gesetzt, wirkte sie kaum (Conboy et al. 2019).",
+        "en": "Marigold roots deter nematodes in the tomato bed. Study: with French marigolds among greenhouse tomatoes from the start, whitefly was clearly lower from day 34; added to a heavy infestation later, they had little effect (Conboy et al. 2019)."
       },
       "solanum-tuberosum": {
         "de": "Tagetes vertreibt Nematoden, die an Kartoffel-Knollen nagen.",
@@ -419,9 +447,9 @@
         "en": "Both deter soil pests and are edible."
       }
     },
-    "notes_de": "calendula-officinalis: Beide vertreiben Nematoden. solanum-lycopersicum: Tagetes vertreibt Nematoden im Tomatenbeet. solanum-tuberosum: Tagetes vertreibt Nematoden im Kartoffelbeet.",
-    "notes_en": "calendula-officinalis: Both deter nematodes. solanum-lycopersicum: Marigold deters nematodes in the tomato bed. solanum-tuberosum: Marigold deters nematodes in the potato bed.",
-    "source": "Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration) | Klassische Mischkultur-Tradition (Three Sisters, Bauernregel)"
+    "notes_de": "calendula-officinalis: Beide vertreiben Nematoden. solanum-lycopersicum: Tagetes vertreibt Nematoden im Tomatenbeet. Im Gewächshausversuch von Anfang an mitgepflanzt, verringerte sie den Befall mit Weißer Fliege deutlich (Conboy et al. 2019). solanum-tuberosum: Tagetes vertreibt Nematoden im Kartoffelbeet.",
+    "notes_en": "calendula-officinalis: Both deter nematodes. solanum-lycopersicum: Marigold deters nematodes in the tomato bed. Planted from the start in a greenhouse trial, it clearly reduced whitefly infestation (Conboy et al. 2019). solanum-tuberosum: Marigold deters nematodes in the potato bed.",
+    "source": "Conboy et al., PLOS ONE 14(3):e0213071 (2019) — Tagetes gegen Weiße Fliege an Gewächshaustomaten (Studie) | Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration) | Klassische Mischkultur-Tradition (Three Sisters, Bauernregel)"
   },
   "garden_meta": {
     "climate_zones": [

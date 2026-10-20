@@ -26,6 +26,7 @@ const SRC = {
   THREE_SISTERS: 'Klassische Mischkultur-Tradition (Three Sisters, Bauernregel)',
   LANGERHORST: 'Helga und Margarete Langerhorst, Mein gesunder Naturgarten (eigene Kuration)',
   FRANCK: 'Gertrud Franck, Gesunder Garten durch Mischkultur (1980, eigene Kuration)',
+  CONBOY: 'Conboy et al., PLOS ONE 14(3):e0213071 (2019) — Tagetes gegen Weiße Fliege an Gewächshaustomaten (Studie)',
 };
 
 // === 3. BEZIEHUNGS-MATRIX ===
@@ -287,8 +288,10 @@ const PAIRS = [
     'Petersilie lockt Nützlinge zu Tomate.',
     'Parsley attracts beneficial insects to tomato.'],
   ['solanum-lycopersicum', 'tagetes-patula', 'good', SRC.LANGERHORST,
-    'Tagetes vertreibt Nematoden im Tomatenbeet.',
-    'Marigold deters nematodes in the tomato bed.'],
+    'Tagetes vertreibt Nematoden im Tomatenbeet. Im Gewächshausversuch von Anfang an mitgepflanzt, verringerte sie den Befall mit Weißer Fliege deutlich (Conboy et al. 2019).',
+    'Marigold deters nematodes in the tomato bed. Planted from the start in a greenhouse trial, it clearly reduced whitefly infestation (Conboy et al. 2019).'],
+  // Zweiter Eintrag nur für die Quellenzuordnung (Weiße-Fliege-Befund); Partner werden dedupliziert.
+  ['solanum-lycopersicum', 'tagetes-patula', 'good', SRC.CONBOY],
   ['solanum-lycopersicum', 'calendula-officinalis', 'good', SRC.LANGERHORST],
   ['solanum-lycopersicum', 'allium-sativum', 'good', SRC.LANGERHORST,
     'Knoblauch hält Tomaten-Schädlinge fern.',

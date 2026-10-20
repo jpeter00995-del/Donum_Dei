@@ -212,8 +212,9 @@ const REASONS = [
     en_b: 'Tomato gives basil partial shade during midday heat.',
   }],
   ['solanum-lycopersicum', 'tagetes-patula', {
-    de_a: 'Tagetes-Wurzeln vertreiben Nematoden im Tomatenbeet.',
-    en_a: 'Marigold roots deter nematodes in the tomato bed.',
+    // Weiße-Fliege-Befund: Conboy et al., PLOS ONE 2019 (ergänzt 2026-10-20)
+    de_a: 'Tagetes-Wurzeln vertreiben Nematoden im Tomatenbeet. Studie: Stand Tagetes von Anfang an zwischen Gewächshaustomaten, gab es ab Tag 34 deutlich weniger Weiße Fliegen; nachträglich in starken Befall gesetzt, wirkte sie kaum (Conboy et al. 2019).',
+    en_a: 'Marigold roots deter nematodes in the tomato bed. Study: with French marigolds among greenhouse tomatoes from the start, whitefly was clearly lower from day 34; added to a heavy infestation later, they had little effect (Conboy et al. 2019).',
   }],
   ['solanum-lycopersicum', 'petroselinum-crispum', {
     de_a: 'Petersilie lockt Florfliegen, die Blattläuse fressen.',
