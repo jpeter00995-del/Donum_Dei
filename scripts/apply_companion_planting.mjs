@@ -281,8 +281,8 @@ const PAIRS = [
 
   // === 4b. Tomate ===
   ['solanum-lycopersicum', 'ocimum-basilicum', 'good', SRC.LANGERHORST,
-    'Klassisch: Basilikum hält Weiße Fliege fern und verbessert Tomatenaroma.',
-    'Classic: basil deters whitefly and improves tomato aroma.'],
+    'Traditionell: Basilikum soll das Tomatenaroma verbessern (ungeprüft). Eine Mischung mit Basilikum zeigte keinen nachgewiesenen Zusatznutzen gegen Weiße Fliege gegenüber Tagetes; Basilikum allein nicht geprüft (Conboy et al. 2019).',
+    'Traditional: basil is said to improve tomato flavour (untested). A mixture including basil showed no demonstrated extra whitefly control compared with French marigold; basil alone not tested (Conboy et al. 2019).'],
   ['solanum-lycopersicum', 'petroselinum-crispum', 'good', SRC.LANGERHORST,
     'Petersilie lockt Nützlinge zu Tomate.',
     'Parsley attracts beneficial insects to tomato.'],

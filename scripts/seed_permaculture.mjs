@@ -205,8 +205,9 @@ const REASONS = [
 
   // === 3c. Tomate — klassischer Mischkultur-Star ===
   ['solanum-lycopersicum', 'ocimum-basilicum', {
-    de_a: 'Basilikum vertreibt Weiße Fliege und verbessert Tomatenaroma.',
-    en_a: 'Basil deters whitefly and improves tomato aroma.',
+    // Weiße-Fliege-Wirkung nicht bestätigt: Conboy et al., PLOS ONE 2019 (2026-10-20)
+    de_a: 'Traditionelle Paarung; dass Basilikum das Tomatenaroma verbessert, ist ungeprüft. Eine Mischung mit Basilikum zeigte an Gewächshaustomaten keinen nachgewiesenen Zusatznutzen gegen Weiße Fliege gegenüber Tagetes; Basilikum allein wurde nicht geprüft (Conboy et al. 2019).',
+    en_a: 'Traditional pairing; that basil improves tomato flavour is untested. A mixture including basil showed no demonstrated extra whitefly control on greenhouse tomatoes compared with French marigold; basil alone was not tested (Conboy et al. 2019).',
     de_b: 'Tomate spendet Basilikum Halbschatten in der Mittagshitze.',
     en_b: 'Tomato gives basil partial shade during midday heat.',
   }],
@@ -287,8 +288,9 @@ const REASONS = [
     en_a: 'Bush bean deters Colorado-beetle relatives from eggplant.',
   }],
   ['solanum-melongena', 'ocimum-basilicum', {
-    de_a: 'Basilikum schützt Aubergine vor Weißer Fliege.',
-    en_a: 'Basil protects eggplant from whitefly.',
+    // Aubergine nicht untersucht; Tomaten-Befund aus Conboy et al. 2019 (2026-10-20)
+    de_a: 'Traditionelle Paarung; Schutzwirkung an Auberginen nicht untersucht. An Gewächshaustomaten zeigte eine Mischung mit Basilikum keinen nachgewiesenen Zusatznutzen gegen Weiße Fliege gegenüber Tagetes (Conboy et al. 2019).',
+    en_a: 'Traditional pairing; protective effect on eggplant not studied. On greenhouse tomatoes, a mixture including basil showed no demonstrated extra whitefly control compared with French marigold (Conboy et al. 2019).',
   }],
 
   // === 3f. Hülsenfrüchte ↔ Allium (BAD) ===
