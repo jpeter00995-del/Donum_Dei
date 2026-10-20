@@ -1,4 +1,5 @@
 import type { Plant, PlantUse, Locale } from './types';
+import { istGartenanwendung, zubereitungsFormen } from './gardenUse';
 import type { UseForm } from './plantSchema';
 import { istFuerEmpfehlungGeeignet } from './symptomSearch';
 
@@ -86,7 +87,7 @@ export function findPlantsForForm(
   for (const plant of plants) {
     if (!istFuerEmpfehlungGeeignet(plant)) continue;
     const passende = (plant.uses ?? []).filter(
-      u => u.form === form && istFuerAnleitungGeeignet(plant, u),
+      u => u.form === form && !istGartenanwendung(u) && istFuerAnleitungGeeignet(plant, u),
     );
     if (passende.length === 0) continue;
     // Bevorzugt die Anwendung mit eigener Zubereitungsangabe — sie ist die
@@ -111,7 +112,9 @@ export function countPlantsPerForm(plants: Plant[]): Record<string, number> {
     if (!istFuerEmpfehlungGeeignet(plant)) continue;
     const formen = new Set<string>();
     for (const use of plant.uses ?? []) {
-      if (use.form && istFuerAnleitungGeeignet(plant, use)) formen.add(use.form);
+      if (use.form && !istGartenanwendung(use) && istFuerAnleitungGeeignet(plant, use)) {
+        formen.add(use.form);
+      }
     }
     for (const f of formen) zaehler[f] = (zaehler[f] ?? 0) + 1;
   }
@@ -123,9 +126,5 @@ export function countPlantsPerForm(plants: Plant[]): Record<string, number> {
  * Pflanzenseite ("Diese Pflanze wird als Tee, Tinktur und Umschlag verwendet").
  */
 export function formsOfPlant(plant: Plant): UseForm[] {
-  const formen = new Set<UseForm>();
-  for (const use of plant.uses ?? []) {
-    if (use.form) formen.add(use.form);
-  }
-  return Array.from(formen);
+  return zubereitungsFormen(plant.uses);
 }

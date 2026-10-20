@@ -1,5 +1,6 @@
 import type { Plant, Season, UseForm, Locale } from './types';
 import { monthsToSeasons } from './loadPlants';
+import { zubereitungsFormen } from './gardenUse';
 
 // === 1. TYP ===
 // Schlankes Karten-DTO für Grid/List-Inseln (FilterBar etc.).
@@ -41,7 +42,8 @@ export function toPlantCard(plant: Plant, locale: Locale): PlantCard {
       author: plant.image.author,
       license: plant.image.license,
     },
-    forms: Array.from(new Set(plant.uses.map(u => u.form))),
+    // Ohne Gartenanwendungen — sonst trifft der Form-Filter "Roh" z. B. Tagetes.
+    forms: zubereitungsFormen(plant.uses),
     seasons: monthsToSeasons(plant.season.active_months),
     externalOnly: plant.safety.external_only,
   };

@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import { t } from '@/lib/i18n';
 import { splitUsesForToxicity } from '@/lib/toxicUses';
+import { istGartenanwendung } from '@/lib/gardenUse';
 import { ZUBEREITUNG_SLUG_DE, ZUBEREITUNG_SLUG_EN } from '@/lib/preparationText';
 import type { UseForm } from '@/lib/plantSchema';
 import type {
@@ -273,15 +274,23 @@ function UseCard({
     <>
       {/* === Badges-Zeile === */}
       {/* Die Form-Pille fuehrt auf die Zubereitungsseite: dort steht, WIE das geht
-          und wo die Grenzen liegen — auf der Pflanzenseite ist dafuer kein Platz. */}
+          und wo die Grenzen liegen — auf der Pflanzenseite ist dafuer kein Platz.
+          Gartenanwendungen (z. B. pest_control) sind keine Zubereitung: dort nur
+          die Pille ohne Link, sonst fuehrt "Roh" auf "Frisch verwenden". */}
       <div className="flex flex-wrap gap-2 items-center text-sm">
-        <a
-          href={zubereitungsPfad(use.form, locale)}
-          title={t(locale, 'use.preparation.link_title')}
-          className="px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200 font-medium hover:bg-emerald-100 hover:border-emerald-400 transition"
-        >
-          {t(locale, `use.${use.form}`)}
-        </a>
+        {istGartenanwendung(use) ? (
+          <span className="px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200 font-medium">
+            {t(locale, `use.${use.form}`)}
+          </span>
+        ) : (
+          <a
+            href={zubereitungsPfad(use.form, locale)}
+            title={t(locale, 'use.preparation.link_title')}
+            className="px-2 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200 font-medium hover:bg-emerald-100 hover:border-emerald-400 transition"
+          >
+            {t(locale, `use.${use.form}`)}
+          </a>
+        )}
         {use.plant_part && (
           <span className="px-2 py-0.5 rounded bg-slate-100 text-slate-700 border border-slate-200">
             {t(locale, `use.plant_part.${use.plant_part}`)}
